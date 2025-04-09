@@ -1,0 +1,11 @@
+package yarnwrap.world.gen.carver;
+public class CaveCarver { public net.minecraft.world.gen.carver.CaveCarver wrapperContained; public CaveCarver(net.minecraft.world.gen.carver.CaveCarver wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public void carveCave(yarnwrap.world.gen.carver.CarverContext context,yarnwrap.world.gen.carver.CaveCarverConfig config,yarnwrap.world.chunk.Chunk chunk,java.util.function.Function posToBiome,yarnwrap.world.gen.chunk.AquiferSampler aquiferSampler,double mask,double skipPredicate) { wrapperContained.carveCave(context.wrapperContained,config.wrapperContained,chunk.wrapperContained,posToBiome,aquiferSampler.wrapperContained,mask,skipPredicate); }
+// public void carveTunnels(yarnwrap.world.gen.carver.CarverContext context,yarnwrap.world.gen.carver.CaveCarverConfig config,yarnwrap.world.chunk.Chunk chunk,java.util.function.Function posToBiome,long seed,yarnwrap.world.gen.chunk.AquiferSampler aquiferSampler,double x,double y,double z,double horizontalScale,double verticalScale,float width,float yaw,float pitch,int branchStartIndex,int branchCount,double yawPitchRatio,yarnwrap.world.gen.carver.CarvingMask mask,Object skipPredicate) { wrapperContained.carveTunnels(context.wrapperContained,config.wrapperContained,chunk.wrapperContained,posToBiome,seed,aquiferSampler.wrapperContained,x,y,z,horizontalScale,verticalScale,width,yaw,pitch,branchStartIndex,branchCount,yawPitchRatio,mask.wrapperContained,skipPredicate); }
+// public float getTunnelSystemWidth(yarnwrap.util.math.random.Random random) { return wrapperContained.getTunnelSystemWidth(random.wrapperContained); }
+// public int getMaxCaveCount() { return wrapperContained.getMaxCaveCount(); }
+// public double getTunnelSystemHeightWidthRatio() { return wrapperContained.getTunnelSystemHeightWidthRatio(); }
+// public boolean isPositionExcluded(double scaledRelativeX,double scaledRelativeY,double scaledRelativeZ,double floorY) { return wrapperContained.isPositionExcluded(scaledRelativeX,scaledRelativeY,scaledRelativeZ,floorY); }
+
+}

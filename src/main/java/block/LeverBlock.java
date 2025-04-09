@@ -1,0 +1,19 @@
+package yarnwrap.block;
+public class LeverBlock { public net.minecraft.block.LeverBlock wrapperContained; public LeverBlock(net.minecraft.block.LeverBlock wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public yarnwrap.util.shape.VoxelShape WEST_WALL_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.WEST_WALL_SHAPE); }
+// public yarnwrap.util.shape.VoxelShape FLOOR_X_AXIS_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.FLOOR_X_AXIS_SHAPE); }
+// public yarnwrap.util.shape.VoxelShape EAST_WALL_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.EAST_WALL_SHAPE); }
+// public yarnwrap.util.shape.VoxelShape SOUTH_WALL_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.SOUTH_WALL_SHAPE); }
+// public yarnwrap.util.shape.VoxelShape FLOOR_Z_AXIS_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.FLOOR_Z_AXIS_SHAPE); }
+public yarnwrap.state.property.BooleanProperty POWERED() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.POWERED); }
+// public yarnwrap.util.shape.VoxelShape CEILING_X_AXIS_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.CEILING_X_AXIS_SHAPE); }
+// public yarnwrap.util.shape.VoxelShape NORTH_WALL_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.NORTH_WALL_SHAPE); }
+// public yarnwrap.util.shape.VoxelShape CEILING_Z_AXIS_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.CEILING_Z_AXIS_SHAPE); }
+public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
+// public void spawnParticles(yarnwrap.block.BlockState state,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,float alpha) { wrapperContained.spawnParticles(state.wrapperContained,world.wrapperContained,pos.wrapperContained,alpha); }
+// public void updateNeighbors(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.updateNeighbors(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
+public void togglePower(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player) { wrapperContained.togglePower(state.wrapperContained,world.wrapperContained,pos.wrapperContained,player.wrapperContained); }
+// public void playClickSound(yarnwrap.entity.player.PlayerEntity player,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.playClickSound(player.wrapperContained,world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
+
+}

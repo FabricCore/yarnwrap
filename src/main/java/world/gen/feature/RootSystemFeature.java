@@ -1,0 +1,11 @@
+package yarnwrap.world.gen.feature;
+public class RootSystemFeature { public net.minecraft.world.gen.feature.RootSystemFeature wrapperContained; public RootSystemFeature(net.minecraft.world.gen.feature.RootSystemFeature wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public boolean generateTreeAndRoots(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.chunk.ChunkGenerator generator,yarnwrap.world.gen.feature.RootSystemFeatureConfig config,yarnwrap.util.math.random.Random random,Object mutablePos,yarnwrap.util.math.BlockPos pos) { return wrapperContained.generateTreeAndRoots(world.wrapperContained,generator.wrapperContained,config.wrapperContained,random.wrapperContained,mutablePos,pos.wrapperContained); }
+// public boolean hasSpaceForTree(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.feature.RootSystemFeatureConfig config,yarnwrap.util.math.BlockPos pos) { return wrapperContained.hasSpaceForTree(world.wrapperContained,config.wrapperContained,pos.wrapperContained); }
+// public void generateRoots(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.feature.RootSystemFeatureConfig config,yarnwrap.util.math.random.Random random,int x,int z,Object mutablePos) { wrapperContained.generateRoots(world.wrapperContained,config.wrapperContained,random.wrapperContained,x,z,mutablePos); }
+// public void generateHangingRoots(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.feature.RootSystemFeatureConfig config,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos pos,Object mutablePos) { wrapperContained.generateHangingRoots(world.wrapperContained,config.wrapperContained,random.wrapperContained,pos.wrapperContained,mutablePos); }
+// public boolean isAirOrWater(yarnwrap.block.BlockState state,int height,int allowedVerticalWaterForTree) { return wrapperContained.isAirOrWater(state.wrapperContained,height,allowedVerticalWaterForTree); }
+// public void generateRootsColumn(yarnwrap.util.math.BlockPos pos,int maxY,yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.feature.RootSystemFeatureConfig config,yarnwrap.util.math.random.Random random) { wrapperContained.generateRootsColumn(pos.wrapperContained,maxY,world.wrapperContained,config.wrapperContained,random.wrapperContained); }
+
+}

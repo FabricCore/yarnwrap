@@ -1,0 +1,20 @@
+package yarnwrap.server.command;
+public class AttributeCommand { public net.minecraft.server.command.AttributeCommand wrapperContained; public AttributeCommand(net.minecraft.server.command.AttributeCommand wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType ENTITY_FAILED_EXCEPTION() { return wrapperContained.ENTITY_FAILED_EXCEPTION; }
+// public com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType NO_ATTRIBUTE_EXCEPTION() { return wrapperContained.NO_ATTRIBUTE_EXCEPTION; }
+// public com.mojang.brigadier.exceptions.Dynamic3CommandExceptionType NO_MODIFIER_EXCEPTION() { return wrapperContained.NO_MODIFIER_EXCEPTION; }
+// public com.mojang.brigadier.exceptions.Dynamic3CommandExceptionType MODIFIER_ALREADY_PRESENT_EXCEPTION() { return wrapperContained.MODIFIER_ALREADY_PRESENT_EXCEPTION; }
+// public yarnwrap.entity.LivingEntity getLivingEntity(yarnwrap.entity.Entity entity) { return new yarnwrap.entity.LivingEntity(wrapperContained.getLivingEntity(entity.wrapperContained)); }
+// public yarnwrap.entity.attribute.EntityAttributeInstance getAttributeInstance(yarnwrap.entity.Entity entity,yarnwrap.registry.entry.RegistryEntry attribute) { return new yarnwrap.entity.attribute.EntityAttributeInstance(wrapperContained.getAttributeInstance(entity.wrapperContained,attribute.wrapperContained)); }
+public void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.command.CommandRegistryAccess registryAccess) { wrapperContained.register(dispatcher,registryAccess.wrapperContained); }
+// public int executeValueGet(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity target,yarnwrap.registry.entry.RegistryEntry attribute,double multiplier) { return wrapperContained.executeValueGet(source.wrapperContained,target.wrapperContained,attribute.wrapperContained,multiplier); }
+// public int executeModifierRemove(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity target,yarnwrap.registry.entry.RegistryEntry attribute,yarnwrap.util.Identifier id) { return wrapperContained.executeModifierRemove(source.wrapperContained,target.wrapperContained,attribute.wrapperContained,id.wrapperContained); }
+// public int executeModifierValueGet(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity target,yarnwrap.registry.entry.RegistryEntry attribute,yarnwrap.util.Identifier id,double multiplier) { return wrapperContained.executeModifierValueGet(source.wrapperContained,target.wrapperContained,attribute.wrapperContained,id.wrapperContained,multiplier); }
+// public int executeModifierAdd(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity target,yarnwrap.registry.entry.RegistryEntry attribute,yarnwrap.util.Identifier id,double value,Object operation) { return wrapperContained.executeModifierAdd(source.wrapperContained,target.wrapperContained,attribute.wrapperContained,id.wrapperContained,value,operation); }
+// public yarnwrap.entity.LivingEntity getLivingEntityWithAttribute(yarnwrap.entity.Entity entity,yarnwrap.registry.entry.RegistryEntry attribute) { return new yarnwrap.entity.LivingEntity(wrapperContained.getLivingEntityWithAttribute(entity.wrapperContained,attribute.wrapperContained)); }
+// public int executeBaseValueGet(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity target,yarnwrap.registry.entry.RegistryEntry attribute,double multiplier) { return wrapperContained.executeBaseValueGet(source.wrapperContained,target.wrapperContained,attribute.wrapperContained,multiplier); }
+// public int executeBaseValueSet(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity target,yarnwrap.registry.entry.RegistryEntry attribute,double value) { return wrapperContained.executeBaseValueSet(source.wrapperContained,target.wrapperContained,attribute.wrapperContained,value); }
+// public yarnwrap.text.Text getName(yarnwrap.registry.entry.RegistryEntry attribute) { return new yarnwrap.text.Text(wrapperContained.getName(attribute.wrapperContained)); }
+
+}

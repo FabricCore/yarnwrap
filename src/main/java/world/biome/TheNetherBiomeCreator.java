@@ -1,0 +1,10 @@
+package yarnwrap.world.biome;
+public class TheNetherBiomeCreator { public net.minecraft.world.biome.TheNetherBiomeCreator wrapperContained; public TheNetherBiomeCreator(net.minecraft.world.biome.TheNetherBiomeCreator wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public yarnwrap.world.biome.Biome createNetherWastes(yarnwrap.registry.RegistryEntryLookup featureLookup,yarnwrap.registry.RegistryEntryLookup carverLookup) { return new yarnwrap.world.biome.Biome(wrapperContained.createNetherWastes(featureLookup.wrapperContained,carverLookup.wrapperContained)); }
+public yarnwrap.world.biome.Biome createSoulSandValley(yarnwrap.registry.RegistryEntryLookup featureLookup,yarnwrap.registry.RegistryEntryLookup carverLookup) { return new yarnwrap.world.biome.Biome(wrapperContained.createSoulSandValley(featureLookup.wrapperContained,carverLookup.wrapperContained)); }
+public yarnwrap.world.biome.Biome createBasaltDeltas(yarnwrap.registry.RegistryEntryLookup featureLookup,yarnwrap.registry.RegistryEntryLookup carverLookup) { return new yarnwrap.world.biome.Biome(wrapperContained.createBasaltDeltas(featureLookup.wrapperContained,carverLookup.wrapperContained)); }
+public yarnwrap.world.biome.Biome createCrimsonForest(yarnwrap.registry.RegistryEntryLookup featureLookup,yarnwrap.registry.RegistryEntryLookup carverLookup) { return new yarnwrap.world.biome.Biome(wrapperContained.createCrimsonForest(featureLookup.wrapperContained,carverLookup.wrapperContained)); }
+public yarnwrap.world.biome.Biome createWarpedForest(yarnwrap.registry.RegistryEntryLookup featureLookup,yarnwrap.registry.RegistryEntryLookup carverLookup) { return new yarnwrap.world.biome.Biome(wrapperContained.createWarpedForest(featureLookup.wrapperContained,carverLookup.wrapperContained)); }
+
+}

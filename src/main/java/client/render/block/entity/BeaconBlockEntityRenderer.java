@@ -1,0 +1,12 @@
+package yarnwrap.client.render.block.entity;
+public class BeaconBlockEntityRenderer { public net.minecraft.client.render.block.entity.BeaconBlockEntityRenderer wrapperContained; public BeaconBlockEntityRenderer(net.minecraft.client.render.block.entity.BeaconBlockEntityRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public int MAX_BEAM_HEIGHT() { return wrapperContained.MAX_BEAM_HEIGHT; }
+public yarnwrap.util.Identifier BEAM_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.BEAM_TEXTURE); }
+// public void renderBeamFace(Object matrix,yarnwrap.client.render.VertexConsumer vertices,int color,int yOffset,int height,float x1,float z1,float x2,float z2,float u1,float u2,float v1,float v2) { wrapperContained.renderBeamFace(matrix,vertices.wrapperContained,color,yOffset,height,x1,z1,x2,z2,u1,u2,v1,v2); }
+// public void renderBeamLayer(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,int color,int yOffset,int height,float x1,float z1,float x2,float z2,float x3,float z3,float x4,float z4,float u1,float u2,float v1,float v2) { wrapperContained.renderBeamLayer(matrices.wrapperContained,vertices.wrapperContained,color,yOffset,height,x1,z1,x2,z2,x3,z3,x4,z4,u1,u2,v1,v2); }
+// public void renderBeamVertex(Object matrix,yarnwrap.client.render.VertexConsumer vertices,int color,int y,float x,float z,float u,float v) { wrapperContained.renderBeamVertex(matrix,vertices.wrapperContained,color,y,x,z,u,v); }
+// public void renderBeam(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,float tickDelta,long worldTime,int yOffset,int maxY,int color) { wrapperContained.renderBeam(matrices.wrapperContained,vertexConsumers.wrapperContained,tickDelta,worldTime,yOffset,maxY,color); }
+public void renderBeam(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,yarnwrap.util.Identifier textureId,float tickDelta,float heightScale,long worldTime,int yOffset,int maxY,int color,float innerRadius,float outerRadius) { wrapperContained.renderBeam(matrices.wrapperContained,vertexConsumers.wrapperContained,textureId.wrapperContained,tickDelta,heightScale,worldTime,yOffset,maxY,color,innerRadius,outerRadius); }
+
+}

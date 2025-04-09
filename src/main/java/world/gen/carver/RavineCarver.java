@@ -1,0 +1,9 @@
+package yarnwrap.world.gen.carver;
+public class RavineCarver { public net.minecraft.world.gen.carver.RavineCarver wrapperContained; public RavineCarver(net.minecraft.world.gen.carver.RavineCarver wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public double getVerticalScale(yarnwrap.world.gen.carver.RavineCarverConfig config,yarnwrap.util.math.random.Random random,double pitch,float branchCount,float branchIndex) { return wrapperContained.getVerticalScale(config.wrapperContained,random.wrapperContained,pitch,branchCount,branchIndex); }
+// public void carveRavine(yarnwrap.world.gen.carver.CarverContext context,yarnwrap.world.gen.carver.RavineCarverConfig config,yarnwrap.world.chunk.Chunk chunk,java.util.function.Function posToBiome,long seed,yarnwrap.world.gen.chunk.AquiferSampler aquiferSampler,double x,double y,double z,float width,float yaw,float pitch,int branchStartIndex,int branchCount,double yawPitchRatio,yarnwrap.world.gen.carver.CarvingMask mask) { wrapperContained.carveRavine(context.wrapperContained,config.wrapperContained,chunk.wrapperContained,posToBiome,seed,aquiferSampler.wrapperContained,x,y,z,width,yaw,pitch,branchStartIndex,branchCount,yawPitchRatio,mask.wrapperContained); }
+// public boolean isPositionExcluded(yarnwrap.world.gen.carver.CarverContext context,float horizontalStretchFactors,double scaledRelativeX,double scaledRelativeY,double scaledRelativeZ,int y) { return wrapperContained.isPositionExcluded(context.wrapperContained,horizontalStretchFactors,scaledRelativeX,scaledRelativeY,scaledRelativeZ,y); }
+// public float[] createHorizontalStretchFactors(yarnwrap.world.gen.carver.CarverContext context,yarnwrap.world.gen.carver.RavineCarverConfig config,yarnwrap.util.math.random.Random random) { return wrapperContained.createHorizontalStretchFactors(context.wrapperContained,config.wrapperContained,random.wrapperContained); }
+
+}

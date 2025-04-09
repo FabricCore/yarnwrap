@@ -1,0 +1,12 @@
+package yarnwrap.world.block;
+public class NeighborUpdater { public net.minecraft.world.block.NeighborUpdater wrapperContained; public NeighborUpdater(net.minecraft.world.block.NeighborUpdater wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public net.minecraft.util.math.Direction[] UPDATE_ORDER() { return wrapperContained.UPDATE_ORDER; }
+public void updateNeighbor(yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block sourceBlock,yarnwrap.util.math.BlockPos sourcePos,boolean notify) { wrapperContained.updateNeighbor(state.wrapperContained,pos.wrapperContained,sourceBlock.wrapperContained,sourcePos.wrapperContained,notify); }
+public void updateNeighbor(yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block sourceBlock,yarnwrap.util.math.BlockPos sourcePos) { wrapperContained.updateNeighbor(pos.wrapperContained,sourceBlock.wrapperContained,sourcePos.wrapperContained); }
+public void updateNeighbors(yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block sourceBlock,yarnwrap.util.math.Direction except) { wrapperContained.updateNeighbors(pos.wrapperContained,sourceBlock.wrapperContained,except.wrapperContained); }
+// public void tryNeighborUpdate(yarnwrap.world.World world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block sourceBlock,yarnwrap.util.math.BlockPos sourcePos,boolean notify) { wrapperContained.tryNeighborUpdate(world.wrapperContained,state.wrapperContained,pos.wrapperContained,sourceBlock.wrapperContained,sourcePos.wrapperContained,notify); }
+public void replaceWithStateForNeighborUpdate(yarnwrap.util.math.Direction direction,yarnwrap.block.BlockState neighborState,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.BlockPos neighborPos,int flags,int maxUpdateDepth) { wrapperContained.replaceWithStateForNeighborUpdate(direction.wrapperContained,neighborState.wrapperContained,pos.wrapperContained,neighborPos.wrapperContained,flags,maxUpdateDepth); }
+// public void replaceWithStateForNeighborUpdate(yarnwrap.world.WorldAccess world,yarnwrap.util.math.Direction direction,yarnwrap.block.BlockState neighborState,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.BlockPos neighborPos,int flags,int maxUpdateDepth) { wrapperContained.replaceWithStateForNeighborUpdate(world.wrapperContained,direction.wrapperContained,neighborState.wrapperContained,pos.wrapperContained,neighborPos.wrapperContained,flags,maxUpdateDepth); }
+
+}

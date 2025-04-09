@@ -1,0 +1,11 @@
+package yarnwrap.world.gen.feature;
+public class HugeFungusFeature { public net.minecraft.world.gen.feature.HugeFungusFeature wrapperContained; public HugeFungusFeature(net.minecraft.world.gen.feature.HugeFungusFeature wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public void placeHatBlock(yarnwrap.world.WorldAccess world,yarnwrap.util.math.random.Random random,yarnwrap.world.gen.feature.HugeFungusFeatureConfig config,Object pos,float decorationChance,float generationChance,float vineChance) { wrapperContained.placeHatBlock(world.wrapperContained,random.wrapperContained,config.wrapperContained,pos,decorationChance,generationChance,vineChance); }
+// public void generateStem(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.random.Random random,yarnwrap.world.gen.feature.HugeFungusFeatureConfig config,yarnwrap.util.math.BlockPos pos,int stemHeight,boolean thickStem) { wrapperContained.generateStem(world.wrapperContained,random.wrapperContained,config.wrapperContained,pos.wrapperContained,stemHeight,thickStem); }
+// public void placeWithOptionalVines(yarnwrap.world.WorldAccess world,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,boolean vines) { wrapperContained.placeWithOptionalVines(world.wrapperContained,random.wrapperContained,pos.wrapperContained,state.wrapperContained,vines); }
+// public void generateVines(yarnwrap.util.math.BlockPos pos,yarnwrap.world.WorldAccess world,yarnwrap.util.math.random.Random random) { wrapperContained.generateVines(pos.wrapperContained,world.wrapperContained,random.wrapperContained); }
+// public void generateHat(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.random.Random random,yarnwrap.world.gen.feature.HugeFungusFeatureConfig config,yarnwrap.util.math.BlockPos pos,int hatHeight,boolean thickStem) { wrapperContained.generateHat(world.wrapperContained,random.wrapperContained,config.wrapperContained,pos.wrapperContained,hatHeight,thickStem); }
+// public boolean isReplaceable(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.gen.feature.HugeFungusFeatureConfig config,boolean checkConfig) { return wrapperContained.isReplaceable(world.wrapperContained,pos.wrapperContained,config.wrapperContained,checkConfig); }
+
+}

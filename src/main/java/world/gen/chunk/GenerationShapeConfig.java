@@ -1,0 +1,24 @@
+package yarnwrap.world.gen.chunk;
+public class GenerationShapeConfig { public net.minecraft.world.gen.chunk.GenerationShapeConfig wrapperContained; public GenerationShapeConfig(net.minecraft.world.gen.chunk.GenerationShapeConfig wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public int minimumY() { return wrapperContained.minimumY; }
+// public int height() { return wrapperContained.height; }
+// public int horizontalSize() { return wrapperContained.horizontalSize; }
+// public int verticalSize() { return wrapperContained.verticalSize; }
+public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public yarnwrap.world.gen.chunk.GenerationShapeConfig NETHER() { return new yarnwrap.world.gen.chunk.GenerationShapeConfig(wrapperContained.NETHER); }
+// public yarnwrap.world.gen.chunk.GenerationShapeConfig END() { return new yarnwrap.world.gen.chunk.GenerationShapeConfig(wrapperContained.END); }
+// public yarnwrap.world.gen.chunk.GenerationShapeConfig CAVES() { return new yarnwrap.world.gen.chunk.GenerationShapeConfig(wrapperContained.CAVES); }
+// public yarnwrap.world.gen.chunk.GenerationShapeConfig FLOATING_ISLANDS() { return new yarnwrap.world.gen.chunk.GenerationShapeConfig(wrapperContained.FLOATING_ISLANDS); }
+// public yarnwrap.world.gen.chunk.GenerationShapeConfig SURFACE() { return new yarnwrap.world.gen.chunk.GenerationShapeConfig(wrapperContained.SURFACE); }
+// public int minimumY() { return wrapperContained.minimumY(); }
+// public int height() { return wrapperContained.height(); }
+// public int horizontalSize() { return wrapperContained.horizontalSize(); }
+// public int verticalSize() { return wrapperContained.verticalSize(); }
+public yarnwrap.world.gen.chunk.GenerationShapeConfig create(int minimumY,int height,int horizontalSize,int verticalSize) { return new yarnwrap.world.gen.chunk.GenerationShapeConfig(wrapperContained.create(minimumY,height,horizontalSize,verticalSize)); }
+// public com.mojang.serialization.DataResult checkHeight(yarnwrap.world.gen.chunk.GenerationShapeConfig config) { return wrapperContained.checkHeight(config.wrapperContained); }
+public int verticalCellBlockCount() { return wrapperContained.verticalCellBlockCount(); }
+public int horizontalCellBlockCount() { return wrapperContained.horizontalCellBlockCount(); }
+public yarnwrap.world.gen.chunk.GenerationShapeConfig trimHeight(yarnwrap.world.HeightLimitView world) { return new yarnwrap.world.gen.chunk.GenerationShapeConfig(wrapperContained.trimHeight(world.wrapperContained)); }
+
+}

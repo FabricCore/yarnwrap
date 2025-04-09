@@ -1,0 +1,25 @@
+package yarnwrap.world;
+public class EntityView { public net.minecraft.world.EntityView wrapperContained; public EntityView(net.minecraft.world.EntityView wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public java.util.List getEntitiesByType(yarnwrap.util.TypeFilter filter,yarnwrap.util.math.Box box,java.util.function.Predicate predicate) { return wrapperContained.getEntitiesByType(filter.wrapperContained,box.wrapperContained,predicate); }
+public java.util.List getPlayers() { return wrapperContained.getPlayers(); }
+public boolean isPlayerInRange(double x,double y,double z,double range) { return wrapperContained.isPlayerInRange(x,y,z,range); }
+public yarnwrap.entity.player.PlayerEntity getClosestPlayer(double x,double y,double z,double maxDistance,boolean ignoreCreative) { return new yarnwrap.entity.player.PlayerEntity(wrapperContained.getClosestPlayer(x,y,z,maxDistance,ignoreCreative)); }
+public yarnwrap.entity.player.PlayerEntity getClosestPlayer(yarnwrap.entity.Entity entity,double maxDistance) { return new yarnwrap.entity.player.PlayerEntity(wrapperContained.getClosestPlayer(entity.wrapperContained,maxDistance)); }
+public yarnwrap.entity.player.PlayerEntity getClosestPlayer(yarnwrap.entity.ai.TargetPredicate targetPredicate,double x,double y,double z) { return new yarnwrap.entity.player.PlayerEntity(wrapperContained.getClosestPlayer(targetPredicate.wrapperContained,x,y,z)); }
+public yarnwrap.entity.player.PlayerEntity getClosestPlayer(yarnwrap.entity.ai.TargetPredicate targetPredicate,yarnwrap.entity.LivingEntity entity) { return new yarnwrap.entity.player.PlayerEntity(wrapperContained.getClosestPlayer(targetPredicate.wrapperContained,entity.wrapperContained)); }
+public yarnwrap.entity.player.PlayerEntity getClosestPlayer(yarnwrap.entity.ai.TargetPredicate targetPredicate,yarnwrap.entity.LivingEntity entity,double x,double y,double z) { return new yarnwrap.entity.player.PlayerEntity(wrapperContained.getClosestPlayer(targetPredicate.wrapperContained,entity.wrapperContained,x,y,z)); }
+public java.util.List getPlayers(yarnwrap.entity.ai.TargetPredicate targetPredicate,yarnwrap.entity.LivingEntity entity,yarnwrap.util.math.Box box) { return wrapperContained.getPlayers(targetPredicate.wrapperContained,entity.wrapperContained,box.wrapperContained); }
+public java.util.List getTargets(java.lang.Class entityClass,yarnwrap.entity.ai.TargetPredicate targetPredicate,yarnwrap.entity.LivingEntity targetingEntity,yarnwrap.util.math.Box box) { return wrapperContained.getTargets(entityClass,targetPredicate.wrapperContained,targetingEntity.wrapperContained,box.wrapperContained); }
+public java.util.List getNonSpectatingEntities(java.lang.Class entityClass,yarnwrap.util.math.Box box) { return wrapperContained.getNonSpectatingEntities(entityClass,box.wrapperContained); }
+public yarnwrap.entity.LivingEntity getClosestEntity(java.util.List entityList,yarnwrap.entity.ai.TargetPredicate targetPredicate,yarnwrap.entity.LivingEntity entity,double x,double y,double z) { return new yarnwrap.entity.LivingEntity(wrapperContained.getClosestEntity(entityList,targetPredicate.wrapperContained,entity.wrapperContained,x,y,z)); }
+public yarnwrap.entity.player.PlayerEntity getPlayerByUuid(java.util.UUID uuid) { return new yarnwrap.entity.player.PlayerEntity(wrapperContained.getPlayerByUuid(uuid)); }
+public java.util.List getEntityCollisions(yarnwrap.entity.Entity entity,yarnwrap.util.math.Box box) { return wrapperContained.getEntityCollisions(entity.wrapperContained,box.wrapperContained); }
+public yarnwrap.entity.LivingEntity getClosestEntity(java.lang.Class entityClass,yarnwrap.entity.ai.TargetPredicate targetPredicate,yarnwrap.entity.LivingEntity entity,double x,double y,double z,yarnwrap.util.math.Box box) { return new yarnwrap.entity.LivingEntity(wrapperContained.getClosestEntity(entityClass,targetPredicate.wrapperContained,entity.wrapperContained,x,y,z,box.wrapperContained)); }
+public java.util.List getOtherEntities(yarnwrap.entity.Entity except,yarnwrap.util.math.Box box,java.util.function.Predicate predicate) { return wrapperContained.getOtherEntities(except.wrapperContained,box.wrapperContained,predicate); }
+public java.util.List getOtherEntities(yarnwrap.entity.Entity except,yarnwrap.util.math.Box box) { return wrapperContained.getOtherEntities(except.wrapperContained,box.wrapperContained); }
+public java.util.List getEntitiesByClass(java.lang.Class entityClass,yarnwrap.util.math.Box box,java.util.function.Predicate predicate) { return wrapperContained.getEntitiesByClass(entityClass,box.wrapperContained,predicate); }
+public yarnwrap.entity.player.PlayerEntity getClosestPlayer(double x,double y,double z,double maxDistance,java.util.function.Predicate targetPredicate) { return new yarnwrap.entity.player.PlayerEntity(wrapperContained.getClosestPlayer(x,y,z,maxDistance,targetPredicate)); }
+public boolean doesNotIntersectEntities(yarnwrap.entity.Entity except,yarnwrap.util.shape.VoxelShape shape) { return wrapperContained.doesNotIntersectEntities(except.wrapperContained,shape.wrapperContained); }
+
+}

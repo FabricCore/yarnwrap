@@ -1,0 +1,5 @@
+package yarnwrap.client.render.entity;
+public class EntityRendererFactory { public net.minecraft.client.render.entity.EntityRendererFactory wrapperContained; public EntityRendererFactory(net.minecraft.client.render.entity.EntityRendererFactory wrapperContained) { this.wrapperContained = wrapperContained; }
+
+
+}

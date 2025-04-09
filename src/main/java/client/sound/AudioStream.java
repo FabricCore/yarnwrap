@@ -1,0 +1,7 @@
+package yarnwrap.client.sound;
+public class AudioStream { public net.minecraft.client.sound.AudioStream wrapperContained; public AudioStream(net.minecraft.client.sound.AudioStream wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public javax.sound.sampled.AudioFormat getFormat() { return wrapperContained.getFormat(); }
+// public java.nio.ByteBuffer read(int size) { return wrapperContained.read(size); }
+
+}

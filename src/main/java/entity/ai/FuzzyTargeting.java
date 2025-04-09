@@ -1,0 +1,12 @@
+package yarnwrap.entity.ai;
+public class FuzzyTargeting { public net.minecraft.entity.ai.FuzzyTargeting wrapperContained; public FuzzyTargeting(net.minecraft.entity.ai.FuzzyTargeting wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public yarnwrap.util.math.Vec3d find(yarnwrap.entity.mob.PathAwareEntity entity,int horizontalRange,int verticalRange) { return new yarnwrap.util.math.Vec3d(wrapperContained.find(entity.wrapperContained,horizontalRange,verticalRange)); }
+public yarnwrap.util.math.Vec3d findTo(yarnwrap.entity.mob.PathAwareEntity entity,int horizontalRange,int verticalRange,yarnwrap.util.math.Vec3d end) { return new yarnwrap.util.math.Vec3d(wrapperContained.findTo(entity.wrapperContained,horizontalRange,verticalRange,end.wrapperContained)); }
+// public yarnwrap.util.math.Vec3d findValid(yarnwrap.entity.mob.PathAwareEntity entity,int horizontalRange,int verticalRange,yarnwrap.util.math.Vec3d direction,boolean posTargetInRange) { return new yarnwrap.util.math.Vec3d(wrapperContained.findValid(entity.wrapperContained,horizontalRange,verticalRange,direction.wrapperContained,posTargetInRange)); }
+public yarnwrap.util.math.Vec3d find(yarnwrap.entity.mob.PathAwareEntity entity,int horizontalRange,int verticalRange,java.util.function.ToDoubleFunction scorer) { return new yarnwrap.util.math.Vec3d(wrapperContained.find(entity.wrapperContained,horizontalRange,verticalRange,scorer)); }
+public yarnwrap.util.math.BlockPos towardTarget(yarnwrap.entity.mob.PathAwareEntity entity,int horizontalRange,boolean posTargetInRange,yarnwrap.util.math.BlockPos relativeInRangePos) { return new yarnwrap.util.math.BlockPos(wrapperContained.towardTarget(entity.wrapperContained,horizontalRange,posTargetInRange,relativeInRangePos.wrapperContained)); }
+public yarnwrap.util.math.BlockPos validate(yarnwrap.entity.mob.PathAwareEntity entity,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.validate(entity.wrapperContained,pos.wrapperContained)); }
+public yarnwrap.util.math.Vec3d findFrom(yarnwrap.entity.mob.PathAwareEntity entity,int horizontalRange,int verticalRange,yarnwrap.util.math.Vec3d start) { return new yarnwrap.util.math.Vec3d(wrapperContained.findFrom(entity.wrapperContained,horizontalRange,verticalRange,start.wrapperContained)); }
+
+}

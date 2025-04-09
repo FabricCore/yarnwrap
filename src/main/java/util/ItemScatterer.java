@@ -1,0 +1,11 @@
+package yarnwrap.util;
+public class ItemScatterer { public net.minecraft.util.ItemScatterer wrapperContained; public ItemScatterer(net.minecraft.util.ItemScatterer wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public void spawn(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.collection.DefaultedList stacks) { wrapperContained.spawn(world.wrapperContained,pos.wrapperContained,stacks.wrapperContained); }
+public void onStateReplaced(yarnwrap.block.BlockState state,yarnwrap.block.BlockState newState,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.onStateReplaced(state.wrapperContained,newState.wrapperContained,world.wrapperContained,pos.wrapperContained); }
+public void spawn(yarnwrap.world.World world,double x,double y,double z,yarnwrap.item.ItemStack stack) { wrapperContained.spawn(world.wrapperContained,x,y,z,stack.wrapperContained); }
+// public void spawn(yarnwrap.world.World world,double x,double y,double z,yarnwrap.inventory.Inventory inventory) { wrapperContained.spawn(world.wrapperContained,x,y,z,inventory.wrapperContained); }
+public void spawn(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.inventory.Inventory inventory) { wrapperContained.spawn(world.wrapperContained,pos.wrapperContained,inventory.wrapperContained); }
+public void spawn(yarnwrap.world.World world,yarnwrap.entity.Entity entity,yarnwrap.inventory.Inventory inventory) { wrapperContained.spawn(world.wrapperContained,entity.wrapperContained,inventory.wrapperContained); }
+
+}
