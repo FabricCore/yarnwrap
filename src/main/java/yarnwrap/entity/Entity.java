@@ -207,6 +207,8 @@ public double lastRenderX() { return wrapperContained.lastRenderX; }
 public void lastRenderX(double value) { wrapperContained.lastRenderX = value; }
 public float prevHorizontalSpeed() { return wrapperContained.prevHorizontalSpeed; }
 public void prevHorizontalSpeed(float value) { wrapperContained.prevHorizontalSpeed = value; }
+// public Entity(yarnwrap.entity.EntityType type,yarnwrap.world.World world) { this.wrapperContained = new net.minecraft.entity.Entity(type.wrapperContained,world.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.math.BlockPos getWorldSpawnPos(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos basePos) { return new yarnwrap.util.math.BlockPos(wrapperContained.getWorldSpawnPos(world.wrapperContained,basePos.wrapperContained)); }
 public float getWidth() { return wrapperContained.getWidth(); }
 public float getHeight() { return wrapperContained.getHeight(); }
@@ -269,8 +271,10 @@ public yarnwrap.block.BlockState getSteppingBlockState() { return new yarnwrap.b
 public boolean shouldSpawnSprintingParticles() { return wrapperContained.shouldSpawnSprintingParticles(); }
 public void dismountVehicle() { wrapperContained.dismountVehicle(); }
 public double getSwimHeight() { return wrapperContained.getSwimHeight(); }
+// public boolean method_29494(yarnwrap.block.BlockState state) { return wrapperContained.method_29494(state.wrapperContained); }
 public void refreshPositionAfterTeleport(yarnwrap.util.math.Vec3d pos) { wrapperContained.refreshPositionAfterTeleport(pos.wrapperContained); }
 // public yarnwrap.util.math.Vec3d getLeashOffset() { return new yarnwrap.util.math.Vec3d(wrapperContained.getLeashOffset()); }
+// public boolean method_30022(yarnwrap.util.math.Box pos) { return wrapperContained.method_30022(pos.wrapperContained); }
 // public void removeFromDimension() { wrapperContained.removeFromDimension(); }
 public void resetPortalCooldown() { wrapperContained.resetPortalCooldown(); }
 public boolean hasPortalCooldown() { return wrapperContained.hasPortalCooldown(); }
@@ -285,6 +289,7 @@ public yarnwrap.util.math.Vec3d getClientCameraPosVec(float tickDelta) { return 
 public void onSpawnPacket(yarnwrap.network.packet.s2c.play.EntitySpawnS2CPacket packet) { wrapperContained.onSpawnPacket(packet.wrapperContained); }
 public void discard() { wrapperContained.discard(); }
 public void attemptTickInVoid() { wrapperContained.attemptTickInVoid(); }
+// public boolean method_31475(yarnwrap.entity.Entity entity) { return wrapperContained.method_31475(entity.wrapperContained); }
 public yarnwrap.util.math.ChunkPos getChunkPos() { return new yarnwrap.util.math.ChunkPos(wrapperContained.getChunkPos()); }
 public int getBlockX() { return wrapperContained.getBlockX(); }
 public int getBlockY() { return wrapperContained.getBlockY(); }
@@ -324,6 +329,8 @@ public boolean canModifyAt(yarnwrap.world.World world,yarnwrap.util.math.BlockPo
 // public void tryCheckBlockCollision() { wrapperContained.tryCheckBlockCollision(); }
 // public void playExtinguishSound() { wrapperContained.playExtinguishSound(); }
 // public void playAmethystChimeSound() { wrapperContained.playAmethystChimeSound(); }
+// public void method_37216(yarnwrap.entity.Entity player) { wrapperContained.method_37216(player.wrapperContained); }
+// public boolean method_37217(yarnwrap.entity.Entity passenger) { return wrapperContained.method_37217(passenger.wrapperContained); }
 public yarnwrap.world.World getWorld() { return new yarnwrap.world.World(wrapperContained.getWorld()); }
 public void onLanding() { wrapperContained.onLanding(); }
 // public boolean hasCollidedSoftly(yarnwrap.util.math.Vec3d adjustedMovement) { return wrapperContained.hasCollidedSoftly(adjustedMovement.wrapperContained); }
@@ -358,6 +365,7 @@ public boolean shouldDismountUnderwater() { return wrapperContained.shouldDismou
 public yarnwrap.entity.Entity getControllingVehicle() { return new yarnwrap.entity.Entity(wrapperContained.getControllingVehicle()); }
 // public void playCombinationStepSounds(yarnwrap.block.BlockState primaryState,yarnwrap.block.BlockState secondaryState) { wrapperContained.playCombinationStepSounds(primaryState.wrapperContained,secondaryState.wrapperContained); }
 // public yarnwrap.util.math.BlockPos getStepSoundPos(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.getStepSoundPos(pos.wrapperContained)); }
+// public void method_49789(yarnwrap.entity.Entity entity) { wrapperContained.method_49789(entity.wrapperContained); }
 // public boolean shouldPlayAmethystChimeSound(yarnwrap.block.BlockState state) { return wrapperContained.shouldPlayAmethystChimeSound(state.wrapperContained); }
 // public void teleportPassengers() { wrapperContained.teleportPassengers(); }
 // public void playSwimSound() { wrapperContained.playSwimSound(); }
@@ -381,6 +389,7 @@ public double getLerpTargetZ() { return wrapperContained.getLerpTargetZ(); }
 public float getLerpTargetPitch() { return wrapperContained.getLerpTargetPitch(); }
 public double getLerpTargetX() { return wrapperContained.getLerpTargetX(); }
 public float getLerpTargetYaw() { return wrapperContained.getLerpTargetYaw(); }
+// public boolean method_54756(yarnwrap.entity.Entity passenger) { return wrapperContained.method_54756(passenger.wrapperContained); }
 public int getPlayerPassengers() { return wrapperContained.getPlayerPassengers(); }
 // public yarnwrap.util.math.Vec3d getPassengerAttachmentPos(yarnwrap.entity.Entity vehicle,yarnwrap.entity.Entity passenger,yarnwrap.entity.EntityAttachments attachments) { return new yarnwrap.util.math.Vec3d(wrapperContained.getPassengerAttachmentPos(vehicle.wrapperContained,passenger.wrapperContained,attachments.wrapperContained)); }
 public yarnwrap.block.BlockState getBlockStateAtPos() { return new yarnwrap.block.BlockState(wrapperContained.getBlockStateAtPos()); }
@@ -550,6 +559,7 @@ public boolean isCustomNameVisible() { return wrapperContained.isCustomNameVisib
 public void refreshPositionAndAngles(double x,double y,double z,float yaw,float pitch) { wrapperContained.refreshPositionAndAngles(x,y,z,yaw,pitch); }
 public boolean isOnFire() { return wrapperContained.isOnFire(); }
 public boolean isPushable() { return wrapperContained.isPushable(); }
+// public yarnwrap.text.Style method_5813(yarnwrap.text.Style style) { return new yarnwrap.text.Style(wrapperContained.method_5813(style.wrapperContained)); }
 public void setPosition(double x,double y,double z) { wrapperContained.setPosition(x,y,z); }
 public yarnwrap.util.math.Direction getFacing() { return new yarnwrap.util.math.Direction(wrapperContained.getFacing()); }
 public boolean isInsideWaterOrBubbleColumn() { return wrapperContained.isInsideWaterOrBubbleColumn(); }

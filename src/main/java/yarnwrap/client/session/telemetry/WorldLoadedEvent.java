@@ -9,10 +9,12 @@ public class WorldLoadedEvent { public net.minecraft.client.session.telemetry.Wo
 // public void brand(java.lang.String value) { wrapperContained.brand = value; }
 // public java.lang.String minigameName() { return wrapperContained.minigameName; }
 // public void minigameName(java.lang.String value) { wrapperContained.minigameName = value; }
+public WorldLoadedEvent(java.lang.String minigameName) { this.wrapperContained = new net.minecraft.client.session.telemetry.WorldLoadedEvent(minigameName); }
 public void setGameMode(yarnwrap.world.GameMode gameMode,boolean hardcore) { wrapperContained.setGameMode(gameMode.wrapperContained,hardcore); }
 // public void putServerType(Object builder) { wrapperContained.putServerType(builder); }
 public void setBrand(java.lang.String brand) { wrapperContained.setBrand(brand); }
 // public Object getServerType() { return wrapperContained.getServerType(); }
+// public void method_47795(Object adder) { wrapperContained.method_47795(adder); }
 public boolean send(yarnwrap.client.session.telemetry.TelemetrySender sender) { return wrapperContained.send(sender.wrapperContained); }
 
 }

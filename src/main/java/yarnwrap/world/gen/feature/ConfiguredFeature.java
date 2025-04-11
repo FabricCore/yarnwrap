@@ -11,9 +11,11 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 public com.mojang.serialization.Codec LIST_CODEC() { return wrapperContained.LIST_CODEC; }
 // public void LIST_CODEC(com.mojang.serialization.Codec value) { wrapperContained.LIST_CODEC = value; }
+public ConfiguredFeature(yarnwrap.world.gen.feature.Feature feature,yarnwrap.world.gen.feature.FeatureConfig config) { this.wrapperContained = new net.minecraft.world.gen.feature.ConfiguredFeature(feature.wrapperContained,config.wrapperContained); }
 // public yarnwrap.world.gen.feature.Feature feature() { return new yarnwrap.world.gen.feature.Feature(wrapperContained.feature()); }
 // public yarnwrap.world.gen.feature.FeatureConfig config() { return new yarnwrap.world.gen.feature.FeatureConfig(wrapperContained.config()); }
 public boolean generate(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos origin) { return wrapperContained.generate(world.wrapperContained,chunkGenerator.wrapperContained,random.wrapperContained,origin.wrapperContained); }
+// public yarnwrap.world.gen.feature.Feature method_28621(yarnwrap.world.gen.feature.ConfiguredFeature configuredFeature) { return new yarnwrap.world.gen.feature.Feature(wrapperContained.method_28621(configuredFeature.wrapperContained)); }
 public java.util.stream.Stream getDecoratedFeatures() { return wrapperContained.getDecoratedFeatures(); }
 
 }

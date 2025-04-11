@@ -13,10 +13,12 @@ public class CachedBlockPosition { public net.minecraft.block.pattern.CachedBloc
 // public void world(yarnwrap.world.WorldView value) { wrapperContained.world = value.wrapperContained; }
 // public yarnwrap.util.math.BlockPos pos() { return new yarnwrap.util.math.BlockPos(wrapperContained.pos); }
 // public void pos(yarnwrap.util.math.BlockPos value) { wrapperContained.pos = value.wrapperContained; }
+public CachedBlockPosition(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,boolean forceLoad) { this.wrapperContained = new net.minecraft.block.pattern.CachedBlockPosition(world.wrapperContained,pos.wrapperContained,forceLoad); }
 public java.util.function.Predicate matchesBlockState(java.util.function.Predicate state) { return wrapperContained.matchesBlockState(state); }
 public yarnwrap.world.WorldView getWorld() { return new yarnwrap.world.WorldView(wrapperContained.getWorld()); }
 public yarnwrap.block.entity.BlockEntity getBlockEntity() { return new yarnwrap.block.entity.BlockEntity(wrapperContained.getBlockEntity()); }
 public yarnwrap.block.BlockState getBlockState() { return new yarnwrap.block.BlockState(wrapperContained.getBlockState()); }
+// public boolean method_11682(java.util.function.Predicate pos) { return wrapperContained.method_11682(pos); }
 public yarnwrap.util.math.BlockPos getBlockPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getBlockPos()); }
 
 }

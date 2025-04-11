@@ -7,6 +7,7 @@ public class SplashTextRenderer { public net.minecraft.client.gui.screen.SplashT
 // public void TEXT_Y(int value) { wrapperContained.TEXT_Y = value; }
 // public java.lang.String text() { return wrapperContained.text; }
 // public void text(java.lang.String value) { wrapperContained.text = value; }
+public SplashTextRenderer(java.lang.String text) { this.wrapperContained = new net.minecraft.client.gui.screen.SplashTextRenderer(text); }
 public void render(yarnwrap.client.gui.DrawContext context,int screenWidth,yarnwrap.client.font.TextRenderer textRenderer,int alpha) { wrapperContained.render(context.wrapperContained,screenWidth,textRenderer.wrapperContained,alpha); }
 
 }

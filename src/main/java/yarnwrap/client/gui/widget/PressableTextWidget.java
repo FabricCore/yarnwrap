@@ -7,5 +7,6 @@ public class PressableTextWidget { public net.minecraft.client.gui.widget.Pressa
 // public void text(yarnwrap.text.Text value) { wrapperContained.text = value.wrapperContained; }
 // public yarnwrap.text.Text hoverText() { return new yarnwrap.text.Text(wrapperContained.hoverText); }
 // public void hoverText(yarnwrap.text.Text value) { wrapperContained.hoverText = value.wrapperContained; }
+// public PressableTextWidget(int x,int y,int width,int height,yarnwrap.text.Text text,Object onPress,yarnwrap.client.font.TextRenderer textRenderer) { this.wrapperContained = new net.minecraft.client.gui.widget.PressableTextWidget(x,y,width,height,text.wrapperContained,onPress,textRenderer.wrapperContained); }
 
 }

@@ -11,6 +11,8 @@ public class ItemUsageContext { public net.minecraft.item.ItemUsageContext wrapp
 // public void player(yarnwrap.entity.player.PlayerEntity value) { wrapperContained.player = value.wrapperContained; }
 // public yarnwrap.world.World world() { return new yarnwrap.world.World(wrapperContained.world); }
 // public void world(yarnwrap.world.World value) { wrapperContained.world = value.wrapperContained; }
+public ItemUsageContext(yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.Hand hand,yarnwrap.util.hit.BlockHitResult hit) { this.wrapperContained = new net.minecraft.item.ItemUsageContext(player.wrapperContained,hand.wrapperContained,hit.wrapperContained); }
+// public ItemUsageContext(yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.Hand hand,yarnwrap.item.ItemStack stack,yarnwrap.util.hit.BlockHitResult hit) { this.wrapperContained = new net.minecraft.item.ItemUsageContext(world.wrapperContained,player.wrapperContained,hand.wrapperContained,stack.wrapperContained,hit.wrapperContained); }
 public yarnwrap.util.math.Vec3d getHitPos() { return new yarnwrap.util.math.Vec3d(wrapperContained.getHitPos()); }
 public boolean hitsInsideBlock() { return wrapperContained.hitsInsideBlock(); }
 public yarnwrap.util.Hand getHand() { return new yarnwrap.util.Hand(wrapperContained.getHand()); }

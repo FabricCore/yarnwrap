@@ -25,10 +25,21 @@ public int SLOT_Y() { return wrapperContained.SLOT_Y; }
 // public void SLOT_Y(int value) { wrapperContained.SLOT_Y = value; }
 // public int OUTPUT_X() { return wrapperContained.OUTPUT_X; }
 // public void OUTPUT_X(int value) { wrapperContained.OUTPUT_X = value; }
+public SmithingScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.SmithingScreenHandler(syncId,playerInventory.wrapperContained); }
+public SmithingScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.SmithingScreenHandler(syncId,playerInventory.wrapperContained,context.wrapperContained); }
+// public void method_24929(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.method_24929(world.wrapperContained,pos.wrapperContained); }
 // public void decrementStack(int slot) { wrapperContained.decrementStack(slot); }
 // public java.util.OptionalInt getQuickMoveSlot(yarnwrap.recipe.SmithingRecipe recipe,yarnwrap.item.ItemStack stack) { return wrapperContained.getQuickMoveSlot(recipe.wrapperContained,stack.wrapperContained); }
+// public boolean method_48393(yarnwrap.item.ItemStack stack) { return wrapperContained.method_48393(stack.wrapperContained); }
+// public boolean method_48394(yarnwrap.item.ItemStack recipe) { return wrapperContained.method_48394(recipe.wrapperContained); }
+// public boolean method_48395(yarnwrap.item.ItemStack stack) { return wrapperContained.method_48395(stack.wrapperContained); }
+// public boolean method_48396(yarnwrap.item.ItemStack stack) { return wrapperContained.method_48396(stack.wrapperContained); }
 // public java.util.List getInputStacks() { return wrapperContained.getInputStacks(); }
+// public boolean method_51713(yarnwrap.item.ItemStack recipe) { return wrapperContained.method_51713(recipe.wrapperContained); }
+// public boolean method_51714(yarnwrap.item.ItemStack recipe) { return wrapperContained.method_51714(recipe.wrapperContained); }
+// public java.util.stream.IntStream method_52562(yarnwrap.item.ItemStack recipe) { return wrapperContained.method_52562(recipe.wrapperContained); }
 // public java.util.OptionalInt getQuickMoveSlot(yarnwrap.item.ItemStack stack) { return wrapperContained.getQuickMoveSlot(stack.wrapperContained); }
+// public boolean method_52564(int slot) { return wrapperContained.method_52564(slot); }
 // public yarnwrap.recipe.input.SmithingRecipeInput createRecipeInput() { return new yarnwrap.recipe.input.SmithingRecipeInput(wrapperContained.createRecipeInput()); }
 
 }

@@ -21,9 +21,11 @@ public int MIN_OCCUPATION_TICKS_WITHOUT_NECTAR() { return wrapperContained.MIN_O
 // public void IRRELEVANT_BEE_NBT_KEYS(java.util.List value) { wrapperContained.IRRELEVANT_BEE_NBT_KEYS = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public BeehiveBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.BeehiveBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void tryEnterHive(yarnwrap.entity.Entity entity) { wrapperContained.tryEnterHive(entity.wrapperContained); }
 // public void angerBees(yarnwrap.entity.player.PlayerEntity player,yarnwrap.block.BlockState state,Object beeState) { wrapperContained.angerBees(player.wrapperContained,state.wrapperContained,beeState); }
 // public java.util.List tryReleaseBee(yarnwrap.block.BlockState state,Object beeState) { return wrapperContained.tryReleaseBee(state.wrapperContained,beeState); }
+// public boolean method_21854(yarnwrap.block.BlockState bee) { return wrapperContained.method_21854(bee.wrapperContained); }
 // public boolean releaseBee(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,Object bee,java.util.List entities,Object beeState,yarnwrap.util.math.BlockPos flowerPos) { return wrapperContained.releaseBee(world.wrapperContained,pos.wrapperContained,state.wrapperContained,bee,entities,beeState,flowerPos.wrapperContained); }
 public boolean isFullOfBees() { return wrapperContained.isFullOfBees(); }
 // public boolean hasFlowerPos() { return wrapperContained.hasFlowerPos(); }
@@ -35,6 +37,7 @@ public int getBeeCount() { return wrapperContained.getBeeCount(); }
 public boolean isSmoked() { return wrapperContained.isSmoked(); }
 public void serverTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.BeehiveBlockEntity blockEntity) { wrapperContained.serverTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 // public void addBee(Object bee) { wrapperContained.addBee(bee); }
+// public boolean method_40019(Object statex) { return wrapperContained.method_40019(statex); }
 // public java.util.List createBeesData() { return wrapperContained.createBeesData(); }
 
 }

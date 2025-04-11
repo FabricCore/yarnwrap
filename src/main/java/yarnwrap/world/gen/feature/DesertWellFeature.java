@@ -11,6 +11,7 @@ public class DesertWellFeature { public net.minecraft.world.gen.feature.DesertWe
 // public void slab(yarnwrap.block.BlockState value) { wrapperContained.slab = value.wrapperContained; }
 // public yarnwrap.block.BlockState sand() { return new yarnwrap.block.BlockState(wrapperContained.sand); }
 // public void sand(yarnwrap.block.BlockState value) { wrapperContained.sand = value.wrapperContained; }
+// public void method_49235(yarnwrap.util.math.BlockPos blockEntity) { wrapperContained.method_49235(blockEntity.wrapperContained); }
 // public void generateSuspiciousSand(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.BlockPos pos) { wrapperContained.generateSuspiciousSand(world.wrapperContained,pos.wrapperContained); }
 
 }

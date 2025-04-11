@@ -5,7 +5,10 @@ public class KickCommand { public net.minecraft.server.command.KickCommand wrapp
 // public void CANNOT_KICK_OWNER_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.CANNOT_KICK_OWNER_EXCEPTION = value; }
 // public com.mojang.brigadier.exceptions.SimpleCommandExceptionType CANNOT_KICK_SINGLEPLAYER_EXCEPTION() { return wrapperContained.CANNOT_KICK_SINGLEPLAYER_EXCEPTION; }
 // public void CANNOT_KICK_SINGLEPLAYER_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.CANNOT_KICK_SINGLEPLAYER_EXCEPTION = value; }
+// public int method_13409(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13409(context); }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
 // public int execute(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.text.Text reason) { return wrapperContained.execute(source.wrapperContained,targets,reason.wrapperContained); }
+// public int method_13412(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13412(context); }
+// public boolean method_13413(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13413(source.wrapperContained); }
 
 }

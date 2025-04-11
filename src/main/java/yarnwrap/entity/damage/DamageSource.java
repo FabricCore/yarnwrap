@@ -9,6 +9,11 @@ public class DamageSource { public net.minecraft.entity.damage.DamageSource wrap
 // public void source(yarnwrap.entity.Entity value) { wrapperContained.source = value.wrapperContained; }
 // public yarnwrap.util.math.Vec3d position() { return new yarnwrap.util.math.Vec3d(wrapperContained.position); }
 // public void position(yarnwrap.util.math.Vec3d value) { wrapperContained.position = value.wrapperContained; }
+public DamageSource(yarnwrap.registry.entry.RegistryEntry type) { this.wrapperContained = new net.minecraft.entity.damage.DamageSource(type.wrapperContained); }
+public DamageSource(yarnwrap.registry.entry.RegistryEntry type,yarnwrap.entity.Entity attacker) { this.wrapperContained = new net.minecraft.entity.damage.DamageSource(type.wrapperContained,attacker.wrapperContained); }
+public DamageSource(yarnwrap.registry.entry.RegistryEntry type,yarnwrap.entity.Entity source,yarnwrap.entity.Entity attacker) { this.wrapperContained = new net.minecraft.entity.damage.DamageSource(type.wrapperContained,source.wrapperContained,attacker.wrapperContained); }
+// public DamageSource(yarnwrap.registry.entry.RegistryEntry type,yarnwrap.entity.Entity source,yarnwrap.entity.Entity attacker,yarnwrap.util.math.Vec3d position) { this.wrapperContained = new net.minecraft.entity.damage.DamageSource(type.wrapperContained,source.wrapperContained,attacker.wrapperContained,position.wrapperContained); }
+public DamageSource(yarnwrap.registry.entry.RegistryEntry type,yarnwrap.util.math.Vec3d position) { this.wrapperContained = new net.minecraft.entity.damage.DamageSource(type.wrapperContained,position.wrapperContained); }
 public boolean isIn(yarnwrap.registry.tag.TagKey tag) { return wrapperContained.isIn(tag.wrapperContained); }
 public yarnwrap.util.math.Vec3d getStoredPosition() { return new yarnwrap.util.math.Vec3d(wrapperContained.getStoredPosition()); }
 public yarnwrap.entity.damage.DamageType getType() { return new yarnwrap.entity.damage.DamageType(wrapperContained.getType()); }

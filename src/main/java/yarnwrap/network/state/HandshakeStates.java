@@ -5,5 +5,6 @@ public yarnwrap.network.NetworkState C2S() { return new yarnwrap.network.Network
 // public void C2S(yarnwrap.network.NetworkState value) { wrapperContained.C2S = value.wrapperContained; }
 public Object C2S_FACTORY() { return wrapperContained.C2S_FACTORY; }
 // // public void C2S_FACTORY(Object value) { wrapperContained.C2S_FACTORY = value; }
+// public void method_56009(yarnwrap.network.NetworkStateBuilder builder) { wrapperContained.method_56009(builder.wrapperContained); }
 
 }

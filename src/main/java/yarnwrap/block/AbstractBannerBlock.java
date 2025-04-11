@@ -3,6 +3,7 @@ public class AbstractBannerBlock { public net.minecraft.block.AbstractBannerBloc
 
 // public yarnwrap.util.DyeColor color() { return new yarnwrap.util.DyeColor(wrapperContained.color); }
 // public void color(yarnwrap.util.DyeColor value) { wrapperContained.color = value.wrapperContained; }
+// public AbstractBannerBlock(yarnwrap.util.DyeColor color,Object settings) { this.wrapperContained = new net.minecraft.block.AbstractBannerBlock(color.wrapperContained,settings); }
 public yarnwrap.util.DyeColor getColor() { return new yarnwrap.util.DyeColor(wrapperContained.getColor()); }
 
 }

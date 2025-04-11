@@ -11,6 +11,8 @@ public int DEPTH() { return wrapperContained.DEPTH; }
 // public void potentialSuspiciousSandPositions(java.util.List value) { wrapperContained.potentialSuspiciousSandPositions = value; }
 // public yarnwrap.util.math.BlockPos basementMarkerPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.basementMarkerPos); }
 // public void basementMarkerPos(yarnwrap.util.math.BlockPos value) { wrapperContained.basementMarkerPos = value.wrapperContained; }
+public DesertTempleGenerator(yarnwrap.nbt.NbtCompound nbt) { this.wrapperContained = new net.minecraft.structure.DesertTempleGenerator(nbt.wrapperContained); }
+public DesertTempleGenerator(yarnwrap.util.math.random.Random random,int x,int z) { this.wrapperContained = new net.minecraft.structure.DesertTempleGenerator(random.wrapperContained,x,z); }
 // public void addPotentialSuspiciousSandPosition(int x,int y,int z) { wrapperContained.addPotentialSuspiciousSandPosition(x,y,z); }
 // public void addSandOrSandstone(yarnwrap.world.StructureWorldAccess world,int x,int y,int z,yarnwrap.util.math.BlockBox chunkBox) { wrapperContained.addSandOrSandstone(world.wrapperContained,x,y,z,chunkBox.wrapperContained); }
 // public void generateBasement(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.BlockBox chunkBox) { wrapperContained.generateBasement(world.wrapperContained,chunkBox.wrapperContained); }

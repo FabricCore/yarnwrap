@@ -29,15 +29,21 @@ public int DEFAULT_TESTS_PER_ROW() { return wrapperContained.DEFAULT_TESTS_PER_R
 // // public void initialSpawner(Object value) { wrapperContained.initialSpawner = value; }
 // public boolean stopAfterFailure() { return wrapperContained.stopAfterFailure; }
 // public void stopAfterFailure(boolean value) { wrapperContained.stopAfterFailure = value; }
+// public TestRunContext(Object batcher,java.util.Collection batches,yarnwrap.server.world.ServerWorld world,yarnwrap.test.TestManager manager,Object reuseSpawner,Object initialSpawner,boolean stopAfterFailure) { this.wrapperContained = new net.minecraft.test.TestRunContext(batcher,batches,world.wrapperContained,manager.wrapperContained,reuseSpawner,initialSpawner,stopAfterFailure); }
 public void clearDebugMarkers(yarnwrap.server.world.ServerWorld world) { wrapperContained.clearDebugMarkers(world.wrapperContained); }
 public java.util.List getStates() { return wrapperContained.getStates(); }
 // public void runBatch(int batchIndex) { wrapperContained.runBatch(batchIndex); }
 // public java.util.Collection prepareStructures(java.util.Collection oldStates) { return wrapperContained.prepareStructures(oldStates); }
+// public java.util.stream.Stream method_56222(yarnwrap.test.GameTestBatch batch) { return wrapperContained.method_56222(batch.wrapperContained); }
 public void addBatchListener(yarnwrap.test.BatchListener batchListener) { wrapperContained.addBatchListener(batchListener.wrapperContained); }
 public void retry(yarnwrap.test.GameTestState state) { wrapperContained.retry(state.wrapperContained); }
+// public void method_56225(yarnwrap.test.GameTestState listener) { wrapperContained.method_56225(listener.wrapperContained); }
 public void start() { wrapperContained.start(); }
+// public void method_56227(yarnwrap.test.BatchListener listener) { wrapperContained.method_56227(listener.wrapperContained); }
 // public java.util.Optional prepareStructure(yarnwrap.test.GameTestState oldState) { return wrapperContained.prepareStructure(oldState.wrapperContained); }
 public void clear() { wrapperContained.clear(); }
+// public void method_56230(yarnwrap.test.GameTestState state) { wrapperContained.method_56230(state.wrapperContained); }
 // public void onFinish() { wrapperContained.onFinish(); }
+// public java.lang.String method_57072(yarnwrap.test.GameTestState state) { return wrapperContained.method_57072(state.wrapperContained); }
 
 }

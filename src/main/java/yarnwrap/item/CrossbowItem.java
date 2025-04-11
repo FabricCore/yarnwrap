@@ -22,6 +22,9 @@ public int RANGE() { return wrapperContained.RANGE; }
 // public float getSpeed(yarnwrap.component.type.ChargedProjectilesComponent stack) { return wrapperContained.getSpeed(stack.wrapperContained); }
 // public float getSoundPitch(yarnwrap.util.math.random.Random random,int index) { return wrapperContained.getSoundPitch(random.wrapperContained,index); }
 // public org.joml.Vector3f calcVelocity(yarnwrap.entity.LivingEntity shooter,yarnwrap.util.math.Vec3d direction,float yaw) { return wrapperContained.calcVelocity(shooter.wrapperContained,direction.wrapperContained,yaw); }
+// public void method_59973(yarnwrap.world.World sound) { wrapperContained.method_59973(sound.wrapperContained); }
+// public void method_59974(yarnwrap.world.World sound) { wrapperContained.method_59974(sound.wrapperContained); }
+// public void method_59975(yarnwrap.world.World sound) { wrapperContained.method_59975(sound.wrapperContained); }
 // public Object getLoadingSounds(yarnwrap.item.ItemStack stack) { return wrapperContained.getLoadingSounds(stack.wrapperContained); }
 // public boolean loadProjectiles(yarnwrap.entity.LivingEntity shooter,yarnwrap.item.ItemStack crossbow) { return wrapperContained.loadProjectiles(shooter.wrapperContained,crossbow.wrapperContained); }
 // public float getPullProgress(int useTicks,yarnwrap.item.ItemStack stack,yarnwrap.entity.LivingEntity user) { return wrapperContained.getPullProgress(useTicks,stack.wrapperContained,user.wrapperContained); }

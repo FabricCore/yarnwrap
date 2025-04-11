@@ -26,5 +26,6 @@ public void setCold(boolean cold) { wrapperContained.setCold(cold); }
 public Object createStriderAttributes() { return wrapperContained.createStriderAttributes(); }
 // public boolean isBeingTempted() { return wrapperContained.isBeingTempted(); }
 // public yarnwrap.entity.EntityData initializeRider(yarnwrap.world.ServerWorldAccess world,yarnwrap.world.LocalDifficulty difficulty,yarnwrap.entity.mob.MobEntity rider,yarnwrap.entity.EntityData entityData) { return new yarnwrap.entity.EntityData(wrapperContained.initializeRider(world.wrapperContained,difficulty.wrapperContained,rider.wrapperContained,entityData.wrapperContained)); }
+// public boolean method_58395(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58395(stack.wrapperContained); }
 
 }

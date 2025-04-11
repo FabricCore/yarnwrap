@@ -3,5 +3,6 @@ public class AbstractPhase { public net.minecraft.entity.boss.dragon.phase.Abstr
 
 // public yarnwrap.entity.boss.dragon.EnderDragonEntity dragon() { return new yarnwrap.entity.boss.dragon.EnderDragonEntity(wrapperContained.dragon); }
 // public void dragon(yarnwrap.entity.boss.dragon.EnderDragonEntity value) { wrapperContained.dragon = value.wrapperContained; }
+// public AbstractPhase(yarnwrap.entity.boss.dragon.EnderDragonEntity dragon) { this.wrapperContained = new net.minecraft.entity.boss.dragon.phase.AbstractPhase(dragon.wrapperContained); }
 
 }

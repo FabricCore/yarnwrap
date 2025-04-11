@@ -9,6 +9,7 @@ public class TabManager { public net.minecraft.client.gui.tab.TabManager wrapper
 // public void currentTab(yarnwrap.client.gui.tab.Tab value) { wrapperContained.currentTab = value.wrapperContained; }
 // public yarnwrap.client.gui.ScreenRect tabArea() { return new yarnwrap.client.gui.ScreenRect(wrapperContained.tabArea); }
 // public void tabArea(yarnwrap.client.gui.ScreenRect value) { wrapperContained.tabArea = value.wrapperContained; }
+public TabManager(java.util.function.Consumer tabLoadConsumer,java.util.function.Consumer tabUnloadConsumer) { this.wrapperContained = new net.minecraft.client.gui.tab.TabManager(tabLoadConsumer,tabUnloadConsumer); }
 public yarnwrap.client.gui.tab.Tab getCurrentTab() { return new yarnwrap.client.gui.tab.Tab(wrapperContained.getCurrentTab()); }
 public void setCurrentTab(yarnwrap.client.gui.tab.Tab tab,boolean clickSound) { wrapperContained.setCurrentTab(tab.wrapperContained,clickSound); }
 public void setTabArea(yarnwrap.client.gui.ScreenRect tabArea) { wrapperContained.setTabArea(tabArea.wrapperContained); }

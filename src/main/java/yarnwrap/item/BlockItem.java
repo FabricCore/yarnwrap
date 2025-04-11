@@ -3,6 +3,7 @@ public class BlockItem { public net.minecraft.item.BlockItem wrapperContained; p
 
 // public yarnwrap.block.Block block() { return new yarnwrap.block.Block(wrapperContained.block); }
 // public void block(yarnwrap.block.Block value) { wrapperContained.block = value.wrapperContained; }
+// public BlockItem(yarnwrap.block.Block block,Object settings) { this.wrapperContained = new net.minecraft.item.BlockItem(block.wrapperContained,settings); }
 public yarnwrap.item.ItemPlacementContext getPlacementContext(yarnwrap.item.ItemPlacementContext context) { return new yarnwrap.item.ItemPlacementContext(wrapperContained.getPlacementContext(context.wrapperContained)); }
 // public yarnwrap.block.BlockState placeFromNbt(yarnwrap.util.math.BlockPos pos,yarnwrap.world.World world,yarnwrap.item.ItemStack stack,yarnwrap.block.BlockState state) { return new yarnwrap.block.BlockState(wrapperContained.placeFromNbt(pos.wrapperContained,world.wrapperContained,stack.wrapperContained,state.wrapperContained)); }
 // public yarnwrap.sound.SoundEvent getPlaceSound(yarnwrap.block.BlockState state) { return new yarnwrap.sound.SoundEvent(wrapperContained.getPlaceSound(state.wrapperContained)); }

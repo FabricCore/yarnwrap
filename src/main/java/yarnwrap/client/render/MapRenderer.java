@@ -11,9 +11,11 @@ public class MapRenderer { public net.minecraft.client.render.MapRenderer wrappe
 // public void DEFAULT_IMAGE_HEIGHT(int value) { wrapperContained.DEFAULT_IMAGE_HEIGHT = value; }
 // public yarnwrap.client.texture.MapDecorationsAtlasManager mapDecorationsAtlasManager() { return new yarnwrap.client.texture.MapDecorationsAtlasManager(wrapperContained.mapDecorationsAtlasManager); }
 // public void mapDecorationsAtlasManager(yarnwrap.client.texture.MapDecorationsAtlasManager value) { wrapperContained.mapDecorationsAtlasManager = value.wrapperContained; }
+public MapRenderer(yarnwrap.client.texture.TextureManager textureManager,yarnwrap.client.texture.MapDecorationsAtlasManager mapDecorationsAtlasManager) { this.wrapperContained = new net.minecraft.client.render.MapRenderer(textureManager.wrapperContained,mapDecorationsAtlasManager.wrapperContained); }
 public void updateTexture(yarnwrap.component.type.MapIdComponent id,yarnwrap.item.map.MapState state) { wrapperContained.updateTexture(id.wrapperContained,state.wrapperContained); }
 public void clearStateTextures() { wrapperContained.clearStateTextures(); }
 public void draw(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,yarnwrap.component.type.MapIdComponent id,yarnwrap.item.map.MapState state,boolean hidePlayerIcons,int light) { wrapperContained.draw(matrices.wrapperContained,vertexConsumers.wrapperContained,id.wrapperContained,state.wrapperContained,hidePlayerIcons,light); }
+// public Object method_32600(yarnwrap.item.map.MapState id2,java.lang.Integer texture) { return wrapperContained.method_32600(id2.wrapperContained,texture); }
 // public Object getMapTexture(yarnwrap.component.type.MapIdComponent id,yarnwrap.item.map.MapState state) { return wrapperContained.getMapTexture(id.wrapperContained,state.wrapperContained); }
 
 }

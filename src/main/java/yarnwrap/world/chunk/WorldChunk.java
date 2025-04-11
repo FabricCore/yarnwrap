@@ -21,6 +21,9 @@ public class WorldChunk { public net.minecraft.world.chunk.WorldChunk wrapperCon
 // public void blockTickScheduler(yarnwrap.world.tick.ChunkTickScheduler value) { wrapperContained.blockTickScheduler = value.wrapperContained; }
 // public yarnwrap.world.tick.ChunkTickScheduler fluidTickScheduler() { return new yarnwrap.world.tick.ChunkTickScheduler(wrapperContained.fluidTickScheduler); }
 // public void fluidTickScheduler(yarnwrap.world.tick.ChunkTickScheduler value) { wrapperContained.fluidTickScheduler = value.wrapperContained; }
+public WorldChunk(yarnwrap.world.World world,yarnwrap.util.math.ChunkPos pos) { this.wrapperContained = new net.minecraft.world.chunk.WorldChunk(world.wrapperContained,pos.wrapperContained); }
+// public WorldChunk(yarnwrap.world.World world,yarnwrap.util.math.ChunkPos pos,yarnwrap.world.chunk.UpgradeData upgradeData,yarnwrap.world.tick.ChunkTickScheduler blockTickScheduler,yarnwrap.world.tick.ChunkTickScheduler fluidTickScheduler,long inhabitedTime,net.minecraft.world.chunk.ChunkSection[] sectionArrayInitializer,Object entityLoader,yarnwrap.world.gen.chunk.BlendingData blendingData) { this.wrapperContained = new net.minecraft.world.chunk.WorldChunk(world.wrapperContained,pos.wrapperContained,upgradeData.wrapperContained,blockTickScheduler.wrapperContained,fluidTickScheduler.wrapperContained,inhabitedTime,sectionArrayInitializer,entityLoader,blendingData.wrapperContained); }
+// public WorldChunk(yarnwrap.server.world.ServerWorld world,yarnwrap.world.chunk.ProtoChunk protoChunk,Object entityLoader) { this.wrapperContained = new net.minecraft.world.chunk.WorldChunk(world.wrapperContained,protoChunk.wrapperContained,entityLoader); }
 public yarnwrap.world.World getWorld() { return new yarnwrap.world.World(wrapperContained.getWorld()); }
 // public yarnwrap.block.entity.BlockEntity getBlockEntity(yarnwrap.util.math.BlockPos pos,Object creationType) { return new yarnwrap.block.entity.BlockEntity(wrapperContained.getBlockEntity(pos.wrapperContained,creationType)); }
 // public yarnwrap.block.entity.BlockEntity loadBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.block.entity.BlockEntity(wrapperContained.loadBlockEntity(pos.wrapperContained,nbt.wrapperContained)); }
@@ -38,13 +41,18 @@ public yarnwrap.fluid.FluidState getFluidState(int x,int y,int z) { return new y
 public void disableTickSchedulers(long time) { wrapperContained.disableTickSchedulers(time); }
 public void updateAllBlockEntities() { wrapperContained.updateAllBlockEntities(); }
 // public boolean canTickBlockEntities() { return wrapperContained.canTickBlockEntities(); }
+// public void method_31716(yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.BlockEntityType blockEntityType,yarnwrap.nbt.NbtCompound nbtx) { wrapperContained.method_31716(pos.wrapperContained,blockEntityType.wrapperContained,nbtx.wrapperContained); }
 // public yarnwrap.world.chunk.BlockEntityTickInvoker wrapTicker(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.block.entity.BlockEntityTicker blockEntityTicker) { return new yarnwrap.world.chunk.BlockEntityTickInvoker(wrapperContained.wrapTicker(blockEntity.wrapperContained,blockEntityTicker.wrapperContained)); }
+// public Object method_31719(yarnwrap.block.entity.BlockEntity pos,yarnwrap.block.entity.BlockEntityTicker ticker) { return wrapperContained.method_31719(pos.wrapperContained,ticker.wrapperContained); }
 // public void updateTicker(yarnwrap.block.entity.BlockEntity blockEntity) { wrapperContained.updateTicker(blockEntity.wrapperContained); }
 // public boolean canTickBlockEntity(yarnwrap.util.math.BlockPos pos) { return wrapperContained.canTickBlockEntity(pos.wrapperContained); }
 // public void removeBlockEntityTicker(yarnwrap.util.math.BlockPos pos) { wrapperContained.removeBlockEntityTicker(pos.wrapperContained); }
+// public yarnwrap.world.event.listener.GameEventDispatcher method_32917(yarnwrap.server.world.ServerWorld sectionCoord) { return new yarnwrap.world.event.listener.GameEventDispatcher(wrapperContained.method_32917(sectionCoord.wrapperContained)); }
 // public void removeGameEventListener(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.server.world.ServerWorld world) { wrapperContained.removeGameEventListener(blockEntity.wrapperContained,world.wrapperContained); }
 // public void updateGameEventListener(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.server.world.ServerWorld world) { wrapperContained.updateGameEventListener(blockEntity.wrapperContained,world.wrapperContained); }
+// public void method_32920(yarnwrap.block.entity.BlockEntity blockEntity) { wrapperContained.method_32920(blockEntity.wrapperContained); }
 public void clear() { wrapperContained.clear(); }
+// public void method_38290(Object ticker) { wrapperContained.method_38290(ticker); }
 public void addChunkTickSchedulers(yarnwrap.server.world.ServerWorld world) { wrapperContained.addChunkTickSchedulers(world.wrapperContained); }
 public void removeChunkTickSchedulers(yarnwrap.server.world.ServerWorld world) { wrapperContained.removeChunkTickSchedulers(world.wrapperContained); }
 public void loadBiomeFromPacket(yarnwrap.network.PacketByteBuf buf) { wrapperContained.loadBiomeFromPacket(buf.wrapperContained); }

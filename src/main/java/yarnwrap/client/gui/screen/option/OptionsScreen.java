@@ -37,9 +37,15 @@ public class OptionsScreen { public net.minecraft.client.gui.screen.option.Optio
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
 // public yarnwrap.client.gui.tooltip.Tooltip TELEMETRY_DISABLED_TOOLTIP() { return new yarnwrap.client.gui.tooltip.Tooltip(wrapperContained.TELEMETRY_DISABLED_TOOLTIP); }
 // public void TELEMETRY_DISABLED_TOOLTIP(yarnwrap.client.gui.tooltip.Tooltip value) { wrapperContained.TELEMETRY_DISABLED_TOOLTIP = value.wrapperContained; }
+public OptionsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.option.GameOptions gameOptions) { this.wrapperContained = new net.minecraft.client.gui.screen.option.OptionsScreen(parent.wrapperContained,gameOptions.wrapperContained); }
 // public void lockDifficulty(boolean difficultyLocked) { wrapperContained.lockDifficulty(difficultyLocked); }
 public yarnwrap.client.gui.widget.CyclingButtonWidget createDifficultyButtonWidget(int x,int y,java.lang.String translationKey,yarnwrap.client.MinecraftClient client) { return new yarnwrap.client.gui.widget.CyclingButtonWidget(wrapperContained.createDifficultyButtonWidget(x,y,translationKey,client.wrapperContained)); }
+// public void method_39487(yarnwrap.client.MinecraftClient button,yarnwrap.client.gui.widget.CyclingButtonWidget difficulty) { wrapperContained.method_39487(button.wrapperContained,difficulty.wrapperContained); }
+// public void method_47623(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_47623(button.wrapperContained); }
+// public void method_47624(java.util.function.Supplier button) { wrapperContained.method_47624(button); }
 // public yarnwrap.client.gui.widget.ButtonWidget createButton(yarnwrap.text.Text message,java.util.function.Supplier screenSupplier) { return new yarnwrap.client.gui.widget.ButtonWidget(wrapperContained.createButton(message.wrapperContained,screenSupplier)); }
+// public void method_47626(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_47626(button.wrapperContained); }
+// public void method_47627(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_47627(button.wrapperContained); }
 // public yarnwrap.client.gui.widget.Widget createTopRightButton() { return new yarnwrap.client.gui.widget.Widget(wrapperContained.createTopRightButton()); }
 // public void refreshResourcePacks(yarnwrap.resource.ResourcePackManager resourcePackManager) { wrapperContained.refreshResourcePacks(resourcePackManager.wrapperContained); }
 

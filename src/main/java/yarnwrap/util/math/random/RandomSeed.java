@@ -12,6 +12,7 @@ public long SILVER_RATIO_64() { return wrapperContained.SILVER_RATIO_64; }
 public long getSeed() { return wrapperContained.getSeed(); }
 public long mixStafford13(long seed) { return wrapperContained.mixStafford13(seed); }
 public Object createXoroshiroSeed(long seed) { return wrapperContained.createXoroshiroSeed(seed); }
+// public long method_39004(long seedUniquifier) { return wrapperContained.method_39004(seedUniquifier); }
 public Object createXoroshiroSeed(java.lang.String seed) { return wrapperContained.createXoroshiroSeed(seed); }
 public Object createUnmixedXoroshiroSeed(long seed) { return wrapperContained.createUnmixedXoroshiroSeed(seed); }
 

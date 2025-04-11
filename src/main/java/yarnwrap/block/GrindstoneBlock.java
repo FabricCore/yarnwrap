@@ -134,5 +134,6 @@ public yarnwrap.util.shape.VoxelShape NORTH_WALL_WEST_HINGE() { return new yarnw
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public yarnwrap.util.shape.VoxelShape getShape(yarnwrap.block.BlockState state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getShape(state.wrapperContained)); }
+// public yarnwrap.screen.ScreenHandler method_17469(yarnwrap.world.World syncId,yarnwrap.util.math.BlockPos inventory,int player) { return new yarnwrap.screen.ScreenHandler(wrapperContained.method_17469(syncId.wrapperContained,inventory.wrapperContained,player)); }
 
 }

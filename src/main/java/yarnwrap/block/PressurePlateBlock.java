@@ -5,5 +5,8 @@ public yarnwrap.state.property.BooleanProperty POWERED() { return new yarnwrap.s
 // public void POWERED(yarnwrap.state.property.BooleanProperty value) { wrapperContained.POWERED = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public PressurePlateBlock(yarnwrap.block.BlockSetType type,Object settings) { this.wrapperContained = new net.minecraft.block.PressurePlateBlock(type.wrapperContained,settings); }
+// public com.mojang.datafixers.kinds.App method_54036(Object instance) { return wrapperContained.method_54036(instance); }
+// public yarnwrap.block.BlockSetType method_54037(yarnwrap.block.PressurePlateBlock block) { return new yarnwrap.block.BlockSetType(wrapperContained.method_54037(block.wrapperContained)); }
 
 }

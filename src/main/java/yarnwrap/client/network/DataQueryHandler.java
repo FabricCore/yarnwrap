@@ -7,6 +7,7 @@ public class DataQueryHandler { public net.minecraft.client.network.DataQueryHan
 // public void expectedTransactionId(int value) { wrapperContained.expectedTransactionId = value; }
 // public java.util.function.Consumer callback() { return wrapperContained.callback; }
 // public void callback(java.util.function.Consumer value) { wrapperContained.callback = value; }
+public DataQueryHandler(yarnwrap.client.network.ClientPlayNetworkHandler networkHandler) { this.wrapperContained = new net.minecraft.client.network.DataQueryHandler(networkHandler.wrapperContained); }
 // public int nextQuery(java.util.function.Consumer callback) { return wrapperContained.nextQuery(callback); }
 public void queryBlockNbt(yarnwrap.util.math.BlockPos pos,java.util.function.Consumer callback) { wrapperContained.queryBlockNbt(pos.wrapperContained,callback); }
 public boolean handleQueryResponse(int transactionId,yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.handleQueryResponse(transactionId,nbt.wrapperContained); }

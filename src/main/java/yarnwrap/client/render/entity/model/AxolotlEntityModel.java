@@ -23,6 +23,7 @@ public class AxolotlEntityModel { public net.minecraft.client.render.entity.mode
 // public void rightGills(yarnwrap.client.model.ModelPart value) { wrapperContained.rightGills = value.wrapperContained; }
 public float MOVING_IN_WATER_LEG_PITCH() { return wrapperContained.MOVING_IN_WATER_LEG_PITCH; }
 // public void MOVING_IN_WATER_LEG_PITCH(float value) { wrapperContained.MOVING_IN_WATER_LEG_PITCH = value; }
+public AxolotlEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.AxolotlEntityModel(root.wrapperContained); }
 // public void setStandingOnGroundAngles(float animationProgress,float headYaw) { wrapperContained.setStandingOnGroundAngles(animationProgress,headYaw); }
 // public void resetAngles(yarnwrap.entity.passive.AxolotlEntity axolotl,float headYaw,float headPitch) { wrapperContained.resetAngles(axolotl.wrapperContained,headYaw,headPitch); }
 // public void setMovingOnGroundAngles(float animationProgress,float headYaw) { wrapperContained.setMovingOnGroundAngles(animationProgress,headYaw); }

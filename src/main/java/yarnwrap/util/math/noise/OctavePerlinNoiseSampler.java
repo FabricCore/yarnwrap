@@ -13,6 +13,7 @@ public class OctavePerlinNoiseSampler { public net.minecraft.util.math.noise.Oct
 // public void firstOctave(int value) { wrapperContained.firstOctave = value; }
 // public double maxValue() { return wrapperContained.maxValue; }
 // public void maxValue(double value) { wrapperContained.maxValue = value; }
+// public OctavePerlinNoiseSampler(yarnwrap.util.math.random.Random random,com.mojang.datafixers.util.Pair firstOctaveAndAmplitudes,boolean xoroshiro) { this.wrapperContained = new net.minecraft.util.math.noise.OctavePerlinNoiseSampler(random.wrapperContained,firstOctaveAndAmplitudes,xoroshiro); }
 public double sample(double x,double y,double z) { return wrapperContained.sample(x,y,z); }
 public double maintainPrecision(double value) { return wrapperContained.maintainPrecision(value); }
 public double sample(double x,double y,double z,double yScale,double yMax,boolean useOrigin) { return wrapperContained.sample(x,y,z,yScale,yMax,useOrigin); }
@@ -27,6 +28,7 @@ public yarnwrap.util.math.noise.OctavePerlinNoiseSampler createLegacy(yarnwrap.u
 public yarnwrap.util.math.noise.OctavePerlinNoiseSampler create(yarnwrap.util.math.random.Random random,java.util.List octaves) { return new yarnwrap.util.math.noise.OctavePerlinNoiseSampler(wrapperContained.create(random.wrapperContained,octaves)); }
 public yarnwrap.util.math.noise.OctavePerlinNoiseSampler create(yarnwrap.util.math.random.Random random,java.util.stream.IntStream octaves) { return new yarnwrap.util.math.noise.OctavePerlinNoiseSampler(wrapperContained.create(random.wrapperContained,octaves)); }
 public void addDebugInfo(java.lang.StringBuilder info) { wrapperContained.addDebugInfo(info); }
+// public boolean method_39131(java.lang.Double amplitude) { return wrapperContained.method_39131(amplitude); }
 public yarnwrap.util.math.noise.OctavePerlinNoiseSampler createLegacy(yarnwrap.util.math.random.Random random,java.util.stream.IntStream octaves) { return new yarnwrap.util.math.noise.OctavePerlinNoiseSampler(wrapperContained.createLegacy(random.wrapperContained,octaves)); }
 // public double getMaxValue() { return wrapperContained.getMaxValue(); }
 // public double getTotalAmplitude(double scale) { return wrapperContained.getTotalAmplitude(scale); }

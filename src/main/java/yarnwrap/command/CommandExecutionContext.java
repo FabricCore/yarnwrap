@@ -23,6 +23,7 @@ public class CommandExecutionContext { public net.minecraft.command.CommandExecu
 // public void pendingCommands(java.util.List value) { wrapperContained.pendingCommands = value; }
 // public int currentDepth() { return wrapperContained.currentDepth; }
 // public void currentDepth(int value) { wrapperContained.currentDepth = value; }
+public CommandExecutionContext(int maxCommandChainLength,int maxCommandForkCount,yarnwrap.util.profiler.Profiler profiler) { this.wrapperContained = new net.minecraft.command.CommandExecutionContext(maxCommandChainLength,maxCommandForkCount,profiler.wrapperContained); }
 public void run() { wrapperContained.run(); }
 public void escape(int depth) { wrapperContained.escape(depth); }
 public void enqueueCommand(yarnwrap.command.CommandQueueEntry entry) { wrapperContained.enqueueCommand(entry.wrapperContained); }

@@ -19,6 +19,7 @@ public yarnwrap.village.raid.Raid getRaid() { return new yarnwrap.village.raid.R
 public void setAbleToJoinRaid(boolean ableToJoinRaid) { wrapperContained.setAbleToJoinRaid(ableToJoinRaid); }
 public boolean canJoinRaid() { return wrapperContained.canJoinRaid(); }
 public boolean hasActiveRaid() { return wrapperContained.hasActiveRaid(); }
+// public boolean method_16483(yarnwrap.entity.ItemEntity itemEntity) { return wrapperContained.method_16483(itemEntity.wrapperContained); }
 public void addBonusForWave(yarnwrap.server.world.ServerWorld world,int wave,boolean unused) { wrapperContained.addBonusForWave(world.wrapperContained,wave,unused); }
 public int getWave() { return wrapperContained.getWave(); }
 public void setOutOfRaidCounter(int outOfRaidCounter) { wrapperContained.setOutOfRaidCounter(outOfRaidCounter); }

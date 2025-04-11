@@ -27,6 +27,7 @@ public class ChestBlockEntityRenderer { public net.minecraft.client.render.block
 // public void LATCH(java.lang.String value) { wrapperContained.LATCH = value; }
 // public boolean christmas() { return wrapperContained.christmas; }
 // public void christmas(boolean value) { wrapperContained.christmas = value; }
+// public ChestBlockEntityRenderer(Object ctx) { this.wrapperContained = new net.minecraft.client.render.block.entity.ChestBlockEntityRenderer(ctx); }
 // public void render(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,yarnwrap.client.model.ModelPart lid,yarnwrap.client.model.ModelPart latch,yarnwrap.client.model.ModelPart base,float openFactor,int light,int overlay) { wrapperContained.render(matrices.wrapperContained,vertices.wrapperContained,lid.wrapperContained,latch.wrapperContained,base.wrapperContained,openFactor,light,overlay); }
 public yarnwrap.client.model.TexturedModelData getSingleTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getSingleTexturedModelData()); }
 public yarnwrap.client.model.TexturedModelData getRightDoubleTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getRightDoubleTexturedModelData()); }

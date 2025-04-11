@@ -9,5 +9,6 @@ public com.mojang.brigadier.exceptions.SimpleCommandExceptionType INVALID_UUID()
 // public void VALID_CHARACTERS(java.util.regex.Pattern value) { wrapperContained.VALID_CHARACTERS = value; }
 public yarnwrap.command.argument.UuidArgumentType uuid() { return new yarnwrap.command.argument.UuidArgumentType(wrapperContained.uuid()); }
 public java.util.UUID getUuid(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return wrapperContained.getUuid(context,name); }
+// public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 
 }

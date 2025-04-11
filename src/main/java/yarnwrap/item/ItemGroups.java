@@ -43,17 +43,54 @@ public class ItemGroups { public net.minecraft.item.ItemGroups wrapperContained;
 // public void addAllLevelEnchantedBooks(Object entries,yarnwrap.registry.RegistryWrapper registryWrapper,Object stackVisibility) { wrapperContained.addAllLevelEnchantedBooks(entries,registryWrapper.wrapperContained,stackVisibility); }
 public yarnwrap.item.ItemGroup getDefaultTab() { return new yarnwrap.item.ItemGroup(wrapperContained.getDefaultTab()); }
 // public boolean updateDisplayContext(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean operatorEnabled,Object lookup) { return wrapperContained.updateDisplayContext(enabledFeatures.wrapperContained,operatorEnabled,lookup); }
+// public void method_47331(Object group) { wrapperContained.method_47331(group); }
 // public void addSuspiciousStews(Object entries,Object visibility) { wrapperContained.addSuspiciousStews(entries,visibility); }
+// public boolean method_47333(yarnwrap.item.ItemGroup group) { return wrapperContained.method_47333(group.wrapperContained); }
 public void collect() { wrapperContained.collect(); }
 public java.util.List getGroupsToDisplay() { return wrapperContained.getGroupsToDisplay(); }
 // public void updateEntries(Object displayContext) { wrapperContained.updateEntries(displayContext); }
+// public void method_47338(Object group) { wrapperContained.method_47338(group); }
 // public void addFireworkRockets(Object entries,Object visibility) { wrapperContained.addFireworkRockets(entries,visibility); }
+// public boolean method_47340(yarnwrap.item.ItemGroup group) { return wrapperContained.method_47340(group.wrapperContained); }
 public java.util.List getGroups() { return wrapperContained.getGroups(); }
 public yarnwrap.item.ItemGroup getSearchGroup() { return new yarnwrap.item.ItemGroup(wrapperContained.getSearchGroup()); }
+// public void method_48934(Object stack) { wrapperContained.method_48934(stack); }
+// public void method_48935(yarnwrap.registry.RegistryOps paintingVariantEntry) { wrapperContained.method_48935(paintingVariantEntry.wrapperContained); }
 // public void addPaintings(Object entries,Object registryLookup,Object registryWrapper,java.util.function.Predicate filter,Object stackVisibility) { wrapperContained.addPaintings(entries,registryLookup,registryWrapper,filter,stackVisibility); }
+// public void method_48939(yarnwrap.item.Item entryList) { wrapperContained.method_48939(entryList.wrapperContained); }
+// public yarnwrap.item.ItemStack method_48940(yarnwrap.item.Item entry) { return new yarnwrap.item.ItemStack(wrapperContained.method_48940(entry.wrapperContained)); }
+// public yarnwrap.item.ItemStack method_48941(yarnwrap.item.Item instrument) { return new yarnwrap.item.ItemStack(wrapperContained.method_48941(instrument.wrapperContained)); }
+// public void method_48947(Object stack) { wrapperContained.method_48947(stack); }
+// public void method_48952(Object stack) { wrapperContained.method_48952(stack); }
+// public void method_48954(Object stack) { wrapperContained.method_48954(stack); }
+// public void method_51311(Object displayContext,Object entries) { wrapperContained.method_51311(displayContext,entries); }
+// public void method_51312(Object registryWrapper) { wrapperContained.method_51312(registryWrapper); }
+// public void method_51313(Object registryWrapper) { wrapperContained.method_51313(registryWrapper); }
+// public boolean method_51314(yarnwrap.registry.entry.RegistryEntry registryEntry) { return wrapperContained.method_51314(registryEntry.wrapperContained); }
 public yarnwrap.item.ItemGroup registerAndGetDefault(yarnwrap.registry.Registry registry) { return new yarnwrap.item.ItemGroup(wrapperContained.registerAndGetDefault(registry.wrapperContained)); }
+// public void method_51316(yarnwrap.registry.Registry displayContext,Object entries) { wrapperContained.method_51316(displayContext.wrapperContained,entries); }
 // public yarnwrap.registry.RegistryKey register(java.lang.String id) { return new yarnwrap.registry.RegistryKey(wrapperContained.register(id)); }
+// public void method_51318(Object displayContext,Object entries) { wrapperContained.method_51318(displayContext,entries); }
+// public void method_51319(Object registryWrapper) { wrapperContained.method_51319(registryWrapper); }
+// public boolean method_51320(yarnwrap.registry.entry.RegistryEntry registryEntry) { return wrapperContained.method_51320(registryEntry.wrapperContained); }
+// public void method_51321(Object displayContext,Object entries) { wrapperContained.method_51321(displayContext,entries); }
+// public void method_51322(Object registryWrapper) { wrapperContained.method_51322(registryWrapper); }
+// public void method_51323(Object displayContext,Object entries) { wrapperContained.method_51323(displayContext,entries); }
+// public void method_51324(Object wrapper) { wrapperContained.method_51324(wrapper); }
+// public void method_51325(Object displayContext,Object entries) { wrapperContained.method_51325(displayContext,entries); }
+// public void method_51326(Object registryWrapper) { wrapperContained.method_51326(registryWrapper); }
 // public java.util.stream.Stream stream() { return wrapperContained.stream(); }
+// public void method_51328(Object displayContext,Object entries) { wrapperContained.method_51328(displayContext,entries); }
+// public void method_51330(Object displayContext,Object entries) { wrapperContained.method_51330(displayContext,entries); }
+// public void method_51332(Object displayContext,Object entries) { wrapperContained.method_51332(displayContext,entries); }
+// public void method_51334(Object displayContext,Object entries) { wrapperContained.method_51334(displayContext,entries); }
+// public void method_51336(Object displayContext,Object entries) { wrapperContained.method_51336(displayContext,entries); }
+// public void method_51338(Object displayContext,Object entries) { wrapperContained.method_51338(displayContext,entries); }
+// public void method_58091(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.method_58091(nbt.wrapperContained); }
+// public boolean method_58650(yarnwrap.resource.featuretoggle.FeatureSet potionEntry) { return wrapperContained.method_58650(potionEntry.wrapperContained); }
 // public void addOminousBottles(Object entries,Object visibility) { wrapperContained.addOminousBottles(entries,visibility); }
+// public java.util.stream.Stream method_59969(Object enchantmentEntry) { return wrapperContained.method_59969(enchantmentEntry); }
+// public yarnwrap.item.ItemStack method_59970(Object level) { return new yarnwrap.item.ItemStack(wrapperContained.method_59970(level)); }
+// public yarnwrap.item.ItemStack method_59972(Object enchantmentEntry) { return new yarnwrap.item.ItemStack(wrapperContained.method_59972(enchantmentEntry)); }
 
 }

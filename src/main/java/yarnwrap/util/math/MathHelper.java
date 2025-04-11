@@ -71,6 +71,7 @@ public long hashCode(int x,int y,int z) { return wrapperContained.hashCode(x,y,z
 public long lfloor(double value) { return wrapperContained.lfloor(value); }
 public float sin(float value) { return wrapperContained.sin(value); }
 public int floor(float value) { return wrapperContained.floor(value); }
+// public void method_15376(float sineTable) { wrapperContained.method_15376(sineTable); }
 public java.util.UUID randomUuid(yarnwrap.util.math.random.Random random) { return wrapperContained.randomUuid(random.wrapperContained); }
 public float abs(float value) { return wrapperContained.abs(value); }
 public float subtractAngles(float start,float end) { return wrapperContained.subtractAngles(start,end); }
@@ -108,6 +109,7 @@ public float nextGaussian(yarnwrap.util.math.random.Random random,float mean,flo
 public double map(double value,double oldStart,double oldEnd,double newStart,double newEnd) { return wrapperContained.map(value,oldStart,oldEnd,newStart,newEnd); }
 public double square(double n) { return wrapperContained.square(n); }
 public double magnitude(double a,double b,double c) { return wrapperContained.magnitude(a,b,c); }
+public boolean method_34945(yarnwrap.util.math.Vec3d origin,yarnwrap.util.math.Vec3d direction,yarnwrap.util.math.Box box) { return wrapperContained.method_34945(origin.wrapperContained,direction.wrapperContained,box.wrapperContained); }
 public int square(int n) { return wrapperContained.square(n); }
 public double perlinFadeDerivative(double value) { return wrapperContained.perlinFadeDerivative(value); }
 public float clampedLerp(float start,float end,float delta) { return wrapperContained.clampedLerp(start,end,delta); }
@@ -122,6 +124,8 @@ public double squaredHypot(double a,double b) { return wrapperContained.squaredH
 public double squaredMagnitude(double a,double b,double c) { return wrapperContained.squaredMagnitude(a,b,c); }
 public float catmullRom(float delta,float p0,float p1,float p2,float p3) { return wrapperContained.catmullRom(delta,p0,p1,p2,p3); }
 public java.util.stream.IntStream stream(int seed,int lowerBound,int upperBound,int steps) { return wrapperContained.stream(seed,lowerBound,upperBound,steps); }
+// public int method_42118(int i) { return wrapperContained.method_42118(i); }
+// public boolean method_42119(int i) { return wrapperContained.method_42119(i); }
 public java.util.stream.IntStream stream(int seed,int lowerBound,int upperBound) { return wrapperContained.stream(seed,lowerBound,upperBound); }
 public int floorDiv(int dividend,int divisor) { return wrapperContained.floorDiv(dividend,divisor); }
 public boolean isMultipleOf(int a,int b) { return wrapperContained.isMultipleOf(a,b); }

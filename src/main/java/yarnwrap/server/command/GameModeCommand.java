@@ -5,6 +5,7 @@ public int REQUIRED_PERMISSION_LEVEL() { return wrapperContained.REQUIRED_PERMIS
 // public void REQUIRED_PERMISSION_LEVEL(int value) { wrapperContained.REQUIRED_PERMISSION_LEVEL = value; }
 // public int execute(com.mojang.brigadier.context.CommandContext context,java.util.Collection targets,yarnwrap.world.GameMode gameMode) { return wrapperContained.execute(context,targets,gameMode.wrapperContained); }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
+// public boolean method_13389(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13389(source.wrapperContained); }
 // public void sendFeedback(yarnwrap.server.command.ServerCommandSource source,yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.world.GameMode gameMode) { wrapperContained.sendFeedback(source.wrapperContained,player.wrapperContained,gameMode.wrapperContained); }
 
 }

@@ -11,5 +11,6 @@ public class GoToWalkTargetGoal { public net.minecraft.entity.ai.goal.GoToWalkTa
 // public void mob(yarnwrap.entity.mob.PathAwareEntity value) { wrapperContained.mob = value.wrapperContained; }
 // public double speed() { return wrapperContained.speed; }
 // public void speed(double value) { wrapperContained.speed = value; }
+public GoToWalkTargetGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed) { this.wrapperContained = new net.minecraft.entity.ai.goal.GoToWalkTargetGoal(mob.wrapperContained,speed); }
 
 }

@@ -7,6 +7,8 @@ public class EntitySetHeadYawS2CPacket { public net.minecraft.network.packet.s2c
 // public void entityId(int value) { wrapperContained.entityId = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public EntitySetHeadYawS2CPacket(yarnwrap.entity.Entity entity,byte headYaw) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitySetHeadYawS2CPacket(entity.wrapperContained,headYaw); }
+// public EntitySetHeadYawS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitySetHeadYawS2CPacket(buf.wrapperContained); }
 public yarnwrap.entity.Entity getEntity(yarnwrap.world.World world) { return new yarnwrap.entity.Entity(wrapperContained.getEntity(world.wrapperContained)); }
 public byte getHeadYaw() { return wrapperContained.getHeadYaw(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

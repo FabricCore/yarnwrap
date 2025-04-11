@@ -9,6 +9,7 @@ public yarnwrap.text.Text EMPTY() { return new yarnwrap.text.Text(wrapperContain
 // public void narrator(com.mojang.text2speech.Narrator value) { wrapperContained.narrator = value; }
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
+public NarratorManager(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.util.NarratorManager(client.wrapperContained); }
 public boolean isActive() { return wrapperContained.isActive(); }
 public void onModeChange(yarnwrap.client.option.NarratorMode mode) { wrapperContained.onModeChange(mode.wrapperContained); }
 public void clear() { wrapperContained.clear(); }

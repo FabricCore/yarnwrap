@@ -9,8 +9,11 @@ public class TridentEntity { public net.minecraft.entity.projectile.TridentEntit
 // public void dealtDamage(boolean value) { wrapperContained.dealtDamage = value; }
 public int returnTimer() { return wrapperContained.returnTimer; }
 public void returnTimer(int value) { wrapperContained.returnTimer = value; }
+public TridentEntity(yarnwrap.world.World world,double x,double y,double z,yarnwrap.item.ItemStack stack) { this.wrapperContained = new net.minecraft.entity.projectile.TridentEntity(world.wrapperContained,x,y,z,stack.wrapperContained); }
+public TridentEntity(yarnwrap.world.World world,yarnwrap.entity.LivingEntity owner,yarnwrap.item.ItemStack stack) { this.wrapperContained = new net.minecraft.entity.projectile.TridentEntity(world.wrapperContained,owner.wrapperContained,stack.wrapperContained); }
 public boolean isEnchanted() { return wrapperContained.isEnchanted(); }
 // public byte getLoyalty(yarnwrap.item.ItemStack stack) { return wrapperContained.getLoyalty(stack.wrapperContained); }
+// public void method_60616(yarnwrap.item.Item item) { wrapperContained.method_60616(item.wrapperContained); }
 // public boolean isOwnerAlive() { return wrapperContained.isOwnerAlive(); }
 
 }

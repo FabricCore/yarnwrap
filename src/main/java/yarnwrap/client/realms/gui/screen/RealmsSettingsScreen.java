@@ -15,6 +15,11 @@ public class RealmsSettingsScreen { public net.minecraft.client.realms.gui.scree
 // public void WORLD_DESCRIPTION_TEXT(yarnwrap.text.Text value) { wrapperContained.WORLD_DESCRIPTION_TEXT = value.wrapperContained; }
 // public int TEXT_FIELD_WIDTH() { return wrapperContained.TEXT_FIELD_WIDTH; }
 // public void TEXT_FIELD_WIDTH(int value) { wrapperContained.TEXT_FIELD_WIDTH = value; }
+public RealmsSettingsScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen parent,yarnwrap.client.realms.dto.RealmsServer serverData) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsSettingsScreen(parent.wrapperContained,serverData.wrapperContained); }
 public void save() { wrapperContained.save(); }
+// public void method_25251(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25251(button.wrapperContained); }
+// public void method_25253(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25253(button.wrapperContained); }
+// public void method_54575(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_54575(button.wrapperContained); }
+// public void method_54576(yarnwrap.client.gui.widget.ButtonWidget name) { wrapperContained.method_54576(name.wrapperContained); }
 
 }

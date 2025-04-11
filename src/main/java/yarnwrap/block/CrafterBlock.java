@@ -13,6 +13,7 @@ public yarnwrap.state.property.BooleanProperty TRIGGERED() { return new yarnwrap
 // public void recipeCache(yarnwrap.recipe.RecipeCache value) { wrapperContained.recipeCache = value.wrapperContained; }
 // public int TRIGGER_DELAY() { return wrapperContained.TRIGGER_DELAY; }
 // public void TRIGGER_DELAY(int value) { wrapperContained.TRIGGER_DELAY = value; }
+// public void method_54474(yarnwrap.item.ItemStack stack) { wrapperContained.method_54474(stack.wrapperContained); }
 public java.util.Optional getCraftingRecipe(yarnwrap.world.World world,yarnwrap.recipe.input.CraftingRecipeInput input) { return wrapperContained.getCraftingRecipe(world.wrapperContained,input.wrapperContained); }
 // public void transferOrSpawnStack(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.CrafterBlockEntity blockEntity,yarnwrap.item.ItemStack stack,yarnwrap.block.BlockState state,yarnwrap.recipe.RecipeEntry recipe) { wrapperContained.transferOrSpawnStack(world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained,stack.wrapperContained,state.wrapperContained,recipe.wrapperContained); }
 // public void setTriggered(yarnwrap.block.entity.BlockEntity blockEntity,boolean triggered) { wrapperContained.setTriggered(blockEntity.wrapperContained,triggered); }

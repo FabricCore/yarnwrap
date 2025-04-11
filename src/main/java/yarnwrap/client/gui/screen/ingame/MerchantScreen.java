@@ -63,7 +63,9 @@ public class MerchantScreen { public net.minecraft.client.gui.screen.ingame.Merc
 // public void EXPERIENCE_BAR_BACKGROUND_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.EXPERIENCE_BAR_BACKGROUND_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier EXPERIENCE_BAR_CURRENT_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.EXPERIENCE_BAR_CURRENT_TEXTURE); }
 // public void EXPERIENCE_BAR_CURRENT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.EXPERIENCE_BAR_CURRENT_TEXTURE = value.wrapperContained; }
+public MerchantScreen(yarnwrap.screen.MerchantScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.MerchantScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 // public void drawLevelInfo(yarnwrap.client.gui.DrawContext context,int x,int y,yarnwrap.village.TradeOffer tradeOffer) { wrapperContained.drawLevelInfo(context.wrapperContained,x,y,tradeOffer.wrapperContained); }
+// public void method_19896(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19896(button.wrapperContained); }
 // public boolean canScroll(int listSize) { return wrapperContained.canScroll(listSize); }
 // public void renderScrollbar(yarnwrap.client.gui.DrawContext context,int x,int y,yarnwrap.village.TradeOfferList tradeOffers) { wrapperContained.renderScrollbar(context.wrapperContained,x,y,tradeOffers.wrapperContained); }
 // public void renderFirstBuyItem(yarnwrap.client.gui.DrawContext context,yarnwrap.item.ItemStack adjustedFirstBuyItem,yarnwrap.item.ItemStack originalFirstBuyItem,int x,int y) { wrapperContained.renderFirstBuyItem(context.wrapperContained,adjustedFirstBuyItem.wrapperContained,originalFirstBuyItem.wrapperContained,x,y); }

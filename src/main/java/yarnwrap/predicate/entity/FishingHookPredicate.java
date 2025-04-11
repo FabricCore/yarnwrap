@@ -6,5 +6,6 @@ public yarnwrap.predicate.entity.FishingHookPredicate ALL() { return new yarnwra
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public yarnwrap.predicate.entity.FishingHookPredicate of(boolean inOpenWater) { return new yarnwrap.predicate.entity.FishingHookPredicate(wrapperContained.of(inOpenWater)); }
+// public com.mojang.datafixers.kinds.App method_53150(Object instance) { return wrapperContained.method_53150(instance); }
 
 }

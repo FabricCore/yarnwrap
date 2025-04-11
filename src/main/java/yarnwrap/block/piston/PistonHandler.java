@@ -19,6 +19,7 @@ public class PistonHandler { public net.minecraft.block.piston.PistonHandler wra
 // public void posFrom(yarnwrap.util.math.BlockPos value) { wrapperContained.posFrom = value.wrapperContained; }
 public int MAX_MOVABLE_BLOCKS() { return wrapperContained.MAX_MOVABLE_BLOCKS; }
 // public void MAX_MOVABLE_BLOCKS(int value) { wrapperContained.MAX_MOVABLE_BLOCKS = value; }
+public PistonHandler(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction dir,boolean retracted) { this.wrapperContained = new net.minecraft.block.piston.PistonHandler(world.wrapperContained,pos.wrapperContained,dir.wrapperContained,retracted); }
 public java.util.List getBrokenBlocks() { return wrapperContained.getBrokenBlocks(); }
 public boolean calculatePush() { return wrapperContained.calculatePush(); }
 // public boolean tryMoveAdjacentBlock(yarnwrap.util.math.BlockPos pos) { return wrapperContained.tryMoveAdjacentBlock(pos.wrapperContained); }

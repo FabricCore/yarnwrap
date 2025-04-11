@@ -13,6 +13,10 @@ public class DirectConnectScreen { public net.minecraft.client.gui.screen.multip
 // public void addressField(yarnwrap.client.gui.widget.TextFieldWidget value) { wrapperContained.addressField = value.wrapperContained; }
 // public yarnwrap.text.Text ENTER_IP_TEXT() { return new yarnwrap.text.Text(wrapperContained.ENTER_IP_TEXT); }
 // public void ENTER_IP_TEXT(yarnwrap.text.Text value) { wrapperContained.ENTER_IP_TEXT = value.wrapperContained; }
+public DirectConnectScreen(yarnwrap.client.gui.screen.Screen parent,it.unimi.dsi.fastutil.booleans.BooleanConsumer callback,yarnwrap.client.network.ServerInfo server) { this.wrapperContained = new net.minecraft.client.gui.screen.multiplayer.DirectConnectScreen(parent.wrapperContained,callback,server.wrapperContained); }
+// public void method_19376(java.lang.String text) { wrapperContained.method_19376(text); }
+// public void method_19812(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19812(button.wrapperContained); }
+// public void method_19813(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19813(button.wrapperContained); }
 // public void saveAndClose() { wrapperContained.saveAndClose(); }
 // public void onAddressFieldChanged() { wrapperContained.onAddressFieldChanged(); }
 

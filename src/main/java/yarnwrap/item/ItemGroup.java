@@ -27,6 +27,7 @@ public class ItemGroup { public net.minecraft.item.ItemGroup wrapperContained; p
 // public void scrollbar(boolean value) { wrapperContained.scrollbar = value; }
 // public yarnwrap.item.ItemStack icon() { return new yarnwrap.item.ItemStack(wrapperContained.icon); }
 // public void icon(yarnwrap.item.ItemStack value) { wrapperContained.icon = value.wrapperContained; }
+// public ItemGroup(Object row,int column,Object type,yarnwrap.text.Text displayName,java.util.function.Supplier iconSupplier,Object entryCollector) { this.wrapperContained = new net.minecraft.item.ItemGroup(row,column,type,displayName.wrapperContained,iconSupplier,entryCollector); }
 public boolean contains(yarnwrap.item.ItemStack stack) { return wrapperContained.contains(stack.wrapperContained); }
 public java.util.Collection getSearchTabStacks() { return wrapperContained.getSearchTabStacks(); }
 // public void updateEntries(Object displayContext) { wrapperContained.updateEntries(displayContext); }

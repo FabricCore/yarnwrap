@@ -29,12 +29,16 @@ public int MAX_HEIGHT() { return wrapperContained.MAX_HEIGHT; }
 // public void FALLBACK_THRESHOLD(float value) { wrapperContained.FALLBACK_THRESHOLD = value; }
 // public double HEIGHT_STRETCH() { return wrapperContained.HEIGHT_STRETCH; }
 // public void HEIGHT_STRETCH(double value) { wrapperContained.HEIGHT_STRETCH = value; }
+// public NetherPortal(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,Object axis) { this.wrapperContained = new net.minecraft.world.dimension.NetherPortal(world.wrapperContained,pos.wrapperContained,axis); }
 // public boolean validStateInsidePortal(yarnwrap.block.BlockState state) { return wrapperContained.validStateInsidePortal(state.wrapperContained); }
 public boolean isValid() { return wrapperContained.isValid(); }
 public boolean wasAlreadyValid() { return wrapperContained.wasAlreadyValid(); }
 public void createPortal() { wrapperContained.createPortal(); }
 // public java.util.Optional getNewPortal(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,Object axis) { return wrapperContained.getNewPortal(world.wrapperContained,pos.wrapperContained,axis); }
 // public java.util.Optional getOrEmpty(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,java.util.function.Predicate validator,Object axis) { return wrapperContained.getOrEmpty(world.wrapperContained,pos.wrapperContained,validator,axis); }
+// public boolean method_30487(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_30487(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
+// public void method_30488(yarnwrap.block.BlockState pos) { wrapperContained.method_30488(pos.wrapperContained); }
+// public boolean method_30489(yarnwrap.world.dimension.NetherPortal areaHelper) { return wrapperContained.method_30489(areaHelper.wrapperContained); }
 // public int getPotentialHeight(Object pos) { return wrapperContained.getPotentialHeight(pos); }
 // public boolean isHorizontalFrameValid(Object pos,int height) { return wrapperContained.isHorizontalFrameValid(pos,height); }
 // public yarnwrap.util.math.BlockPos getLowerCorner(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.getLowerCorner(pos.wrapperContained)); }
@@ -42,6 +46,7 @@ public void createPortal() { wrapperContained.createPortal(); }
 // public yarnwrap.util.math.Vec3d entityPosInPortal(Object portalRect,Object portalAxis,yarnwrap.util.math.Vec3d entityPos,yarnwrap.entity.EntityDimensions entityDimensions) { return new yarnwrap.util.math.Vec3d(wrapperContained.entityPosInPortal(portalRect,portalAxis,entityPos.wrapperContained,entityDimensions.wrapperContained)); }
 // public int getWidth() { return wrapperContained.getWidth(); }
 // public int getHeight() { return wrapperContained.getHeight(); }
+// public yarnwrap.util.math.Vec3d method_47381(double pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_47381(pos)); }
 public yarnwrap.util.math.Vec3d findOpenPosition(yarnwrap.util.math.Vec3d fallback,yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,yarnwrap.entity.EntityDimensions dimensions) { return new yarnwrap.util.math.Vec3d(wrapperContained.findOpenPosition(fallback.wrapperContained,world.wrapperContained,entity.wrapperContained,dimensions.wrapperContained)); }
 
 }

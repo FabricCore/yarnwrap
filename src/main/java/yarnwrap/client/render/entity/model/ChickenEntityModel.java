@@ -19,6 +19,7 @@ public java.lang.String RED_THING() { return wrapperContained.RED_THING; }
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart body() { return new yarnwrap.client.model.ModelPart(wrapperContained.body); }
 // public void body(yarnwrap.client.model.ModelPart value) { wrapperContained.body = value.wrapperContained; }
+public ChickenEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.ChickenEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

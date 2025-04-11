@@ -15,6 +15,7 @@ public yarnwrap.entity.ai.TargetPredicate DEFAULT() { return new yarnwrap.entity
 // public void attackable(boolean value) { wrapperContained.attackable = value; }
 // public boolean respectsVisibility() { return wrapperContained.respectsVisibility; }
 // public void respectsVisibility(boolean value) { wrapperContained.respectsVisibility = value; }
+// public TargetPredicate(boolean attackable) { this.wrapperContained = new net.minecraft.entity.ai.TargetPredicate(attackable); }
 public yarnwrap.entity.ai.TargetPredicate setBaseMaxDistance(double baseMaxDistance) { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.setBaseMaxDistance(baseMaxDistance)); }
 public boolean test(yarnwrap.entity.LivingEntity baseEntity,yarnwrap.entity.LivingEntity targetEntity) { return wrapperContained.test(baseEntity.wrapperContained,targetEntity.wrapperContained); }
 public yarnwrap.entity.ai.TargetPredicate setPredicate(java.util.function.Predicate predicate) { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.setPredicate(predicate)); }

@@ -7,6 +7,7 @@ public class PiglinHeadEntityModel { public net.minecraft.client.render.entity.m
 // public void leftEar(yarnwrap.client.model.ModelPart value) { wrapperContained.leftEar = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart rightEar() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightEar); }
 // public void rightEar(yarnwrap.client.model.ModelPart value) { wrapperContained.rightEar = value.wrapperContained; }
+public PiglinHeadEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.PiglinHeadEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.ModelData getModelData() { return new yarnwrap.client.model.ModelData(wrapperContained.getModelData()); }
 
 }

@@ -35,6 +35,7 @@ public int PROPERTY_COUNT() { return wrapperContained.PROPERTY_COUNT; }
 // public void PRIMARY_EFFECT_NBT_KEY(java.lang.String value) { wrapperContained.PRIMARY_EFFECT_NBT_KEY = value; }
 // public java.lang.String SECONDARY_EFFECT_NBT_KEY() { return wrapperContained.SECONDARY_EFFECT_NBT_KEY; }
 // public void SECONDARY_EFFECT_NBT_KEY(java.lang.String value) { wrapperContained.SECONDARY_EFFECT_NBT_KEY = value; }
+public BeaconBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.BeaconBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void setCustomName(yarnwrap.text.Text customName) { wrapperContained.setCustomName(customName.wrapperContained); }
 public java.util.List getBeamSegments() { return wrapperContained.getBeamSegments(); }
 public void playSound(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.sound.SoundEvent sound) { wrapperContained.playSound(world.wrapperContained,pos.wrapperContained,sound.wrapperContained); }
@@ -44,5 +45,6 @@ public void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarn
 // public yarnwrap.registry.entry.RegistryEntry getEffectOrNull(yarnwrap.registry.entry.RegistryEntry effect) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.getEffectOrNull(effect.wrapperContained)); }
 // public yarnwrap.registry.entry.RegistryEntry readStatusEffect(yarnwrap.nbt.NbtCompound nbt,java.lang.String key) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.readStatusEffect(nbt.wrapperContained,key)); }
 // public void writeStatusEffect(yarnwrap.nbt.NbtCompound nbt,java.lang.String key,yarnwrap.registry.entry.RegistryEntry effect) { wrapperContained.writeStatusEffect(nbt.wrapperContained,key,effect.wrapperContained); }
+// public void method_55779(yarnwrap.nbt.NbtCompound entryKey) { wrapperContained.method_55779(entryKey.wrapperContained); }
 
 }

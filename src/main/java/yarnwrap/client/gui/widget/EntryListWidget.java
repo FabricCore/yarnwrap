@@ -29,6 +29,7 @@ public class EntryListWidget { public net.minecraft.client.gui.widget.EntryListW
 // public void MENU_LIST_BACKGROUND_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.MENU_LIST_BACKGROUND_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier INWORLD_MENU_LIST_BACKGROUND_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.INWORLD_MENU_LIST_BACKGROUND_TEXTURE); }
 // public void INWORLD_MENU_LIST_BACKGROUND_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.INWORLD_MENU_LIST_BACKGROUND_TEXTURE = value.wrapperContained; }
+// public EntryListWidget(yarnwrap.client.MinecraftClient client,int width,int height,int y,int itemHeight) { this.wrapperContained = new net.minecraft.client.gui.widget.EntryListWidget(client.wrapperContained,width,height,y,itemHeight); }
 public void setScrollAmount(double amount) { wrapperContained.setScrollAmount(amount); }
 // public Object getEntryAtPosition(double x,double y) { return wrapperContained.getEntryAtPosition(x,y); }
 // public void scroll(int amount) { wrapperContained.scroll(amount); }
@@ -70,6 +71,7 @@ public int getRowRight() { return wrapperContained.getRowRight(); }
 // public Object getNeighboringEntry(yarnwrap.client.gui.navigation.NavigationDirection direction,java.util.function.Predicate predicate) { return wrapperContained.getNeighboringEntry(direction.wrapperContained,predicate); }
 // public Object getNeighboringEntry(yarnwrap.client.gui.navigation.NavigationDirection direction,java.util.function.Predicate predicate,Object selected) { return wrapperContained.getNeighboringEntry(direction.wrapperContained,predicate,selected); }
 public Object getFirst() { return wrapperContained.getFirst(); }
+// public boolean method_48201(Object entry) { return wrapperContained.method_48201(entry); }
 // public void enableScissor(yarnwrap.client.gui.DrawContext context) { wrapperContained.enableScissor(context.wrapperContained); }
 // public boolean isSelectButton(int button) { return wrapperContained.isSelectButton(button); }
 // public int getBorderBoxLeft() { return wrapperContained.getBorderBoxLeft(); }

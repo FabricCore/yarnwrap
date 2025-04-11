@@ -67,12 +67,16 @@ public int LIGHT_GRAY_COLOR() { return wrapperContained.LIGHT_GRAY_COLOR; }
 // public void MUTE_BUTTON_TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value) { wrapperContained.MUTE_BUTTON_TEXTURES = value.wrapperContained; }
 // public yarnwrap.client.gui.screen.ButtonTextures UNMUTE_BUTTON_TEXTURES() { return new yarnwrap.client.gui.screen.ButtonTextures(wrapperContained.UNMUTE_BUTTON_TEXTURES); }
 // public void UNMUTE_BUTTON_TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value) { wrapperContained.UNMUTE_BUTTON_TEXTURES = value.wrapperContained; }
+public SocialInteractionsPlayerListEntry(yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.screen.multiplayer.SocialInteractionsScreen parent,java.util.UUID uuid,java.lang.String name,java.util.function.Supplier skinTexture,boolean reportable) { this.wrapperContained = new net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry(client.wrapperContained,parent.wrapperContained,uuid,name,skinTexture,reportable); }
+// public void method_31326(yarnwrap.client.network.SocialInteractionsManager button) { wrapperContained.method_31326(button.wrapperContained); }
 // public void onButtonClick(boolean showButtonVisible,yarnwrap.text.Text chatMessage) { wrapperContained.onButtonClick(showButtonVisible,chatMessage.wrapperContained); }
 public java.lang.String getName() { return wrapperContained.getName(); }
+// public void method_31332(yarnwrap.client.network.SocialInteractionsManager button) { wrapperContained.method_31332(button.wrapperContained); }
 public java.util.UUID getUuid() { return wrapperContained.getUuid(); }
 public void setOffline(boolean offline) { wrapperContained.setOffline(offline); }
 // public yarnwrap.text.MutableText getNarrationMessage(yarnwrap.text.MutableText text) { return new yarnwrap.text.MutableText(wrapperContained.getNarrationMessage(text.wrapperContained)); }
 // public yarnwrap.text.Text getStatusText() { return new yarnwrap.text.Text(wrapperContained.getStatusText()); }
+// public void method_44525(yarnwrap.client.session.report.AbuseReportContext button) { wrapperContained.method_44525(button.wrapperContained); }
 public void setSentMessage(boolean sentMessage) { wrapperContained.setSentMessage(sentMessage); }
 public boolean isOffline() { return wrapperContained.isOffline(); }
 public boolean hasSentMessage() { return wrapperContained.hasSentMessage(); }

@@ -25,6 +25,7 @@ public class MeleeAttackGoal { public net.minecraft.entity.ai.goal.MeleeAttackGo
 // public void targetX(double value) { wrapperContained.targetX = value; }
 // public yarnwrap.entity.ai.pathing.Path path() { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.path); }
 // public void path(yarnwrap.entity.ai.pathing.Path value) { wrapperContained.path = value.wrapperContained; }
+public MeleeAttackGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed,boolean pauseWhenMobIdle) { this.wrapperContained = new net.minecraft.entity.ai.goal.MeleeAttackGoal(mob.wrapperContained,speed,pauseWhenMobIdle); }
 // public void resetCooldown() { wrapperContained.resetCooldown(); }
 // public boolean isCooledDown() { return wrapperContained.isCooledDown(); }
 // public int getCooldown() { return wrapperContained.getCooldown(); }

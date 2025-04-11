@@ -9,6 +9,8 @@ public class ScreenHandlerPropertyUpdateS2CPacket { public net.minecraft.network
 // public void syncId(int value) { wrapperContained.syncId = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public ScreenHandlerPropertyUpdateS2CPacket(int syncId,int propertyId,int value) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ScreenHandlerPropertyUpdateS2CPacket(syncId,propertyId,value); }
+// public ScreenHandlerPropertyUpdateS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ScreenHandlerPropertyUpdateS2CPacket(buf.wrapperContained); }
 public int getPropertyId() { return wrapperContained.getPropertyId(); }
 public int getValue() { return wrapperContained.getValue(); }
 public int getSyncId() { return wrapperContained.getSyncId(); }

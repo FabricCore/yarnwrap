@@ -9,6 +9,7 @@ public yarnwrap.state.property.IntProperty ROTATION() { return new yarnwrap.stat
 // public void ROTATION(yarnwrap.state.property.IntProperty value) { wrapperContained.ROTATION = value.wrapperContained; }
 // public java.util.Map COLORED_BANNERS() { return wrapperContained.COLORED_BANNERS; }
 // public void COLORED_BANNERS(java.util.Map value) { wrapperContained.COLORED_BANNERS = value; }
+// public com.mojang.datafixers.kinds.App method_53977(Object instance) { return wrapperContained.method_53977(instance); }
 public yarnwrap.block.Block getForColor(yarnwrap.util.DyeColor color) { return new yarnwrap.block.Block(wrapperContained.getForColor(color.wrapperContained)); }
 
 }

@@ -17,6 +17,10 @@ public class CustomizeBuffetLevelScreen { public net.minecraft.client.gui.screen
 // public void BUFFET_BIOME_TEXT(yarnwrap.text.Text value) { wrapperContained.BUFFET_BIOME_TEXT = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+public CustomizeBuffetLevelScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.world.GeneratorOptionsHolder generatorOptionsHolder,java.util.function.Consumer onDone) { this.wrapperContained = new net.minecraft.client.gui.screen.world.CustomizeBuffetLevelScreen(parent.wrapperContained,generatorOptionsHolder.wrapperContained,onDone); }
+// public void method_19801(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19801(button.wrapperContained); }
 // public void refreshConfirmButton() { wrapperContained.refreshConfirmButton(); }
+// public void method_28059(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_28059(button.wrapperContained); }
+// public boolean method_29051(Object entry) { return wrapperContained.method_29051(entry); }
 
 }

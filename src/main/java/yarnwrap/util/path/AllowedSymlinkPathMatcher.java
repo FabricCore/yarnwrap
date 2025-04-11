@@ -9,7 +9,15 @@ public class AllowedSymlinkPathMatcher { public net.minecraft.util.path.AllowedS
 // public void allowedEntries(java.util.List value) { wrapperContained.allowedEntries = value; }
 // public java.util.Map matcherCache() { return wrapperContained.matcherCache; }
 // public void matcherCache(java.util.Map value) { wrapperContained.matcherCache = value; }
+public AllowedSymlinkPathMatcher(java.util.List allowedEntries) { this.wrapperContained = new net.minecraft.util.path.AllowedSymlinkPathMatcher(allowedEntries); }
+public boolean matches(java.nio.file.Path path) { return wrapperContained.matches(path); }
 public yarnwrap.util.path.AllowedSymlinkPathMatcher fromReader(java.io.BufferedReader reader) { return new yarnwrap.util.path.AllowedSymlinkPathMatcher(wrapperContained.fromReader(reader)); }
+// public java.util.stream.Stream method_52248(java.lang.String line) { return wrapperContained.method_52248(line); }
 public java.nio.file.PathMatcher get(java.nio.file.FileSystem fileSystem) { return wrapperContained.get(fileSystem); }
+// public java.nio.file.PathMatcher method_52250(java.nio.file.FileSystem entry) { return wrapperContained.method_52250(entry); }
+// public java.nio.file.PathMatcher method_52251(java.nio.file.FileSystem scheme) { return wrapperContained.method_52251(scheme); }
+// public boolean method_52252(java.nio.file.Path path) { return wrapperContained.method_52252(path); }
+// public boolean method_52253(java.util.List path) { return wrapperContained.method_52253(path); }
+// public boolean method_52254(java.nio.file.Path path) { return wrapperContained.method_52254(path); }
 
 }

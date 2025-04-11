@@ -12,7 +12,9 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void tryRemoveBook(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player,yarnwrap.block.entity.ChiseledBookshelfBlockEntity blockEntity,int slot) { wrapperContained.tryRemoveBook(world.wrapperContained,pos.wrapperContained,player.wrapperContained,blockEntity.wrapperContained,slot); }
 // public void tryAddBook(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player,yarnwrap.block.entity.ChiseledBookshelfBlockEntity blockEntity,yarnwrap.item.ItemStack stack,int slot) { wrapperContained.tryAddBook(world.wrapperContained,pos.wrapperContained,player.wrapperContained,blockEntity.wrapperContained,stack.wrapperContained,slot); }
 // public int getColumn(float x) { return wrapperContained.getColumn(x); }
+// public void method_47578(Object property) { wrapperContained.method_47578(property); }
 // public java.util.Optional getHitPos(yarnwrap.util.hit.BlockHitResult hit,yarnwrap.util.math.Direction facing) { return wrapperContained.getHitPos(hit.wrapperContained,facing.wrapperContained); }
 // public java.util.OptionalInt getSlotForHitPos(yarnwrap.util.hit.BlockHitResult hit,yarnwrap.block.BlockState state) { return wrapperContained.getSlotForHitPos(hit.wrapperContained,state.wrapperContained); }
+// public java.util.OptionalInt method_55772(yarnwrap.util.math.Vec2f hitPos) { return wrapperContained.method_55772(hitPos.wrapperContained); }
 
 }

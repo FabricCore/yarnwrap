@@ -9,6 +9,7 @@ public class PhaseManager { public net.minecraft.entity.boss.dragon.phase.PhaseM
 // public void dragon(yarnwrap.entity.boss.dragon.EnderDragonEntity value) { wrapperContained.dragon = value.wrapperContained; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public PhaseManager(yarnwrap.entity.boss.dragon.EnderDragonEntity dragon) { this.wrapperContained = new net.minecraft.entity.boss.dragon.phase.PhaseManager(dragon.wrapperContained); }
 public void setPhase(yarnwrap.entity.boss.dragon.phase.PhaseType type) { wrapperContained.setPhase(type.wrapperContained); }
 public yarnwrap.entity.boss.dragon.phase.Phase getCurrent() { return new yarnwrap.entity.boss.dragon.phase.Phase(wrapperContained.getCurrent()); }
 public yarnwrap.entity.boss.dragon.phase.Phase create(yarnwrap.entity.boss.dragon.phase.PhaseType type) { return new yarnwrap.entity.boss.dragon.phase.Phase(wrapperContained.create(type.wrapperContained)); }

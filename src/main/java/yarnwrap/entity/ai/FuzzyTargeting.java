@@ -8,5 +8,6 @@ public yarnwrap.util.math.Vec3d find(yarnwrap.entity.mob.PathAwareEntity entity,
 public yarnwrap.util.math.BlockPos towardTarget(yarnwrap.entity.mob.PathAwareEntity entity,int horizontalRange,boolean posTargetInRange,yarnwrap.util.math.BlockPos relativeInRangePos) { return new yarnwrap.util.math.BlockPos(wrapperContained.towardTarget(entity.wrapperContained,horizontalRange,posTargetInRange,relativeInRangePos.wrapperContained)); }
 public yarnwrap.util.math.BlockPos validate(yarnwrap.entity.mob.PathAwareEntity entity,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.validate(entity.wrapperContained,pos.wrapperContained)); }
 public yarnwrap.util.math.Vec3d findFrom(yarnwrap.entity.mob.PathAwareEntity entity,int horizontalRange,int verticalRange,yarnwrap.util.math.Vec3d start) { return new yarnwrap.util.math.Vec3d(wrapperContained.findFrom(entity.wrapperContained,horizontalRange,verticalRange,start.wrapperContained)); }
+// public boolean method_31536(yarnwrap.entity.mob.PathAwareEntity currentPos) { return wrapperContained.method_31536(currentPos.wrapperContained); }
 
 }

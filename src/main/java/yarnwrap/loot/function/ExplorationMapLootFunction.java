@@ -23,6 +23,13 @@ public boolean DEFAULT_SKIP_EXISTING_CHUNKS() { return wrapperContained.DEFAULT_
 // public void DEFAULT_SKIP_EXISTING_CHUNKS(boolean value) { wrapperContained.DEFAULT_SKIP_EXISTING_CHUNKS = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public ExplorationMapLootFunction(java.util.List conditions,yarnwrap.registry.tag.TagKey destination,yarnwrap.registry.entry.RegistryEntry decoration,byte zoom,int searchRadius,boolean skipExistingChunks) { this.wrapperContained = new net.minecraft.loot.function.ExplorationMapLootFunction(conditions,destination.wrapperContained,decoration.wrapperContained,zoom,searchRadius,skipExistingChunks); }
 public Object builder() { return wrapperContained.builder(); }
+// public java.lang.Boolean method_53332(yarnwrap.loot.function.ExplorationMapLootFunction function) { return wrapperContained.method_53332(function.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53333(Object instance) { return wrapperContained.method_53333(instance); }
+// public java.lang.Integer method_53334(yarnwrap.loot.function.ExplorationMapLootFunction function) { return wrapperContained.method_53334(function.wrapperContained); }
+// public java.lang.Byte method_53335(yarnwrap.loot.function.ExplorationMapLootFunction function) { return wrapperContained.method_53335(function.wrapperContained); }
+// public yarnwrap.registry.entry.RegistryEntry method_53336(yarnwrap.loot.function.ExplorationMapLootFunction function) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.method_53336(function.wrapperContained)); }
+// public yarnwrap.registry.tag.TagKey method_53337(yarnwrap.loot.function.ExplorationMapLootFunction function) { return new yarnwrap.registry.tag.TagKey(wrapperContained.method_53337(function.wrapperContained)); }
 
 }

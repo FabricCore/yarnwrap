@@ -13,6 +13,7 @@ public class CartographyTableScreen { public net.minecraft.client.gui.screen.ing
 // public void SCALED_MAP_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SCALED_MAP_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier DUPLICATED_MAP_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.DUPLICATED_MAP_TEXTURE); }
 // public void DUPLICATED_MAP_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.DUPLICATED_MAP_TEXTURE = value.wrapperContained; }
+public CartographyTableScreen(yarnwrap.screen.CartographyTableScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.CartographyTableScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 // public void drawMap(yarnwrap.client.gui.DrawContext context,yarnwrap.component.type.MapIdComponent mapId,yarnwrap.item.map.MapState mapState,int x,int y,float scale) { wrapperContained.drawMap(context.wrapperContained,mapId.wrapperContained,mapState.wrapperContained,x,y,scale); }
 // public void drawMap(yarnwrap.client.gui.DrawContext context,yarnwrap.component.type.MapIdComponent mapId,yarnwrap.item.map.MapState mapState,boolean cloneMode,boolean expandMode,boolean lockMode,boolean cannotExpand) { wrapperContained.drawMap(context.wrapperContained,mapId.wrapperContained,mapState.wrapperContained,cloneMode,expandMode,lockMode,cannotExpand); }
 

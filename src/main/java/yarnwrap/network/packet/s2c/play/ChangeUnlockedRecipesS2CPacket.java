@@ -11,6 +11,8 @@ public class ChangeUnlockedRecipesS2CPacket { public net.minecraft.network.packe
 // public void options(yarnwrap.recipe.book.RecipeBookOptions value) { wrapperContained.options = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public ChangeUnlockedRecipesS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChangeUnlockedRecipesS2CPacket(buf.wrapperContained); }
+// public ChangeUnlockedRecipesS2CPacket(Object action,java.util.Collection recipeIdsToChange,java.util.Collection recipeIdsToInit,yarnwrap.recipe.book.RecipeBookOptions options) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChangeUnlockedRecipesS2CPacket(action,recipeIdsToChange,recipeIdsToInit,options.wrapperContained); }
 public java.util.List getRecipeIdsToChange() { return wrapperContained.getRecipeIdsToChange(); }
 public Object getAction() { return wrapperContained.getAction(); }
 public yarnwrap.recipe.book.RecipeBookOptions getOptions() { return new yarnwrap.recipe.book.RecipeBookOptions(wrapperContained.getOptions()); }

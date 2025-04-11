@@ -15,6 +15,7 @@ public Object chunks() { return wrapperContained.chunks; }
 // public void world(yarnwrap.world.World value) { wrapperContained.world = value.wrapperContained; }
 // public int viewDistance() { return wrapperContained.viewDistance; }
 // public void viewDistance(int value) { wrapperContained.viewDistance = value; }
+public BuiltChunkStorage(yarnwrap.client.render.chunk.ChunkBuilder chunkBuilder,yarnwrap.world.World world,int viewDistance,yarnwrap.client.render.WorldRenderer worldRenderer) { this.wrapperContained = new net.minecraft.client.render.BuiltChunkStorage(chunkBuilder.wrapperContained,world.wrapperContained,viewDistance,worldRenderer.wrapperContained); }
 public void scheduleRebuild(int x,int y,int z,boolean important) { wrapperContained.scheduleRebuild(x,y,z,important); }
 // public Object getRenderedChunk(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getRenderedChunk(pos.wrapperContained); }
 // public void createChunks(yarnwrap.client.render.chunk.ChunkBuilder chunkBuilder) { wrapperContained.createChunks(chunkBuilder.wrapperContained); }

@@ -11,6 +11,7 @@ public class LecternBlockEntity { public net.minecraft.block.entity.LecternBlock
 // public void currentPage(int value) { wrapperContained.currentPage = value; }
 // public int pageCount() { return wrapperContained.pageCount; }
 // public void pageCount(int value) { wrapperContained.pageCount = value; }
+public LecternBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.LecternBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public void setCurrentPage(int currentPage) { wrapperContained.setCurrentPage(currentPage); }
 // public yarnwrap.server.command.ServerCommandSource getCommandSource(yarnwrap.entity.player.PlayerEntity player) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.getCommandSource(player.wrapperContained)); }
 public void setBook(yarnwrap.item.ItemStack book) { wrapperContained.setBook(book.wrapperContained); }

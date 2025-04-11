@@ -65,11 +65,19 @@ public yarnwrap.client.util.SpriteIdentifier FIRE_0() { return new yarnwrap.clie
 // public void bakedModelCache(java.util.Map value) { wrapperContained.bakedModelCache = value; }
 public yarnwrap.client.render.model.json.JsonUnbakedModel GENERATION_MARKER() { return new yarnwrap.client.render.model.json.JsonUnbakedModel(wrapperContained.GENERATION_MARKER); }
 // public void GENERATION_MARKER(yarnwrap.client.render.model.json.JsonUnbakedModel value) { wrapperContained.GENERATION_MARKER = value.wrapperContained; }
+public ModelLoader(yarnwrap.client.color.block.BlockColors blockColors,yarnwrap.util.profiler.Profiler profiler,java.util.Map jsonUnbakedModels,java.util.Map blockStates) { this.wrapperContained = new net.minecraft.client.render.model.ModelLoader(blockColors.wrapperContained,profiler.wrapperContained,jsonUnbakedModels,blockStates); }
 public it.unimi.dsi.fastutil.objects.Object2IntMap getStateLookup() { return wrapperContained.getStateLookup(); }
+// public yarnwrap.util.Identifier method_22820(int stage) { return new yarnwrap.util.Identifier(wrapperContained.method_22820(stage)); }
+// public yarnwrap.util.Identifier method_23216(yarnwrap.util.Identifier id) { return new yarnwrap.util.Identifier(wrapperContained.method_23216(id.wrapperContained)); }
+// public void method_45875(yarnwrap.client.render.model.UnbakedModel model) { wrapperContained.method_45875(model.wrapperContained); }
 // public void bake(Object spliteGetter) { wrapperContained.bake(spliteGetter); }
 // public yarnwrap.client.render.model.json.JsonUnbakedModel loadModelFromJson(yarnwrap.util.Identifier id) { return new yarnwrap.client.render.model.json.JsonUnbakedModel(wrapperContained.loadModelFromJson(id.wrapperContained)); }
+// public void method_4719(yarnwrap.client.render.model.json.JsonUnbakedModel model) { wrapperContained.method_4719(model.wrapperContained); }
+// public void method_4721(yarnwrap.client.render.model.json.JsonUnbakedModel model) { wrapperContained.method_4721(model.wrapperContained); }
 // public yarnwrap.client.render.model.UnbakedModel getOrLoadModel(yarnwrap.util.Identifier id) { return new yarnwrap.client.render.model.UnbakedModel(wrapperContained.getOrLoadModel(id.wrapperContained)); }
 public java.util.Map getBakedModelMap() { return wrapperContained.getBakedModelMap(); }
+// public java.lang.String method_60912(java.lang.String path) { return wrapperContained.method_60912(path); }
+// public void method_61072(Object id,yarnwrap.client.util.ModelIdentifier model) { wrapperContained.method_61072(id,model.wrapperContained); }
 // public void loadItemModel(yarnwrap.client.util.ModelIdentifier id) { wrapperContained.loadItemModel(id.wrapperContained); }
 // public void add(yarnwrap.client.util.ModelIdentifier id,yarnwrap.client.render.model.UnbakedModel model) { wrapperContained.add(id.wrapperContained,model.wrapperContained); }
 // public void loadInventoryVariantItemModel(yarnwrap.util.Identifier id) { wrapperContained.loadInventoryVariantItemModel(id.wrapperContained); }

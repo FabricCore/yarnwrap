@@ -15,7 +15,10 @@ public class LevelFlatGeneratorInfoFix { public net.minecraft.datafixer.fix.Leve
 // public void SPLIT_ON_SEMICOLON(com.google.common.base.Splitter value) { wrapperContained.SPLIT_ON_SEMICOLON = value; }
 // public com.google.common.base.Splitter SPLIT_ON_COMMA() { return wrapperContained.SPLIT_ON_COMMA; }
 // public void SPLIT_ON_COMMA(com.google.common.base.Splitter value) { wrapperContained.SPLIT_ON_COMMA = value; }
+public LevelFlatGeneratorInfoFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.LevelFlatGeneratorInfoFix(outputSchema,changesType); }
 // public com.mojang.serialization.Dynamic fixGeneratorOptions(com.mojang.serialization.Dynamic levelDynamic) { return wrapperContained.fixGeneratorOptions(levelDynamic); }
+// public com.mojang.serialization.Dynamic method_5092(com.mojang.serialization.Dynamic generatorOptionsDynamic) { return wrapperContained.method_5092(generatorOptionsDynamic); }
+// public com.mojang.datafixers.Typed method_5093(com.mojang.datafixers.Typed levelTyped) { return wrapperContained.method_5093(levelTyped); }
 // public java.lang.String fixFlatGeneratorOptions(java.lang.String generatorOptions) { return wrapperContained.fixFlatGeneratorOptions(generatorOptions); }
 
 }

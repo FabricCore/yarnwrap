@@ -7,6 +7,7 @@ public class StructurePiecesList { public net.minecraft.structure.StructurePiece
 // public void JIGSAW(yarnwrap.util.Identifier value) { wrapperContained.JIGSAW = value.wrapperContained; }
 // public java.util.Map ID_UPDATES() { return wrapperContained.ID_UPDATES; }
 // public void ID_UPDATES(java.util.Map value) { wrapperContained.ID_UPDATES = value; }
+public StructurePiecesList(java.util.List pieces) { this.wrapperContained = new net.minecraft.structure.StructurePiecesList(pieces); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 public yarnwrap.nbt.NbtElement toNbt(yarnwrap.structure.StructureContext context) { return new yarnwrap.nbt.NbtElement(wrapperContained.toNbt(context.wrapperContained)); }
 public boolean contains(yarnwrap.util.math.BlockPos pos) { return wrapperContained.contains(pos.wrapperContained); }

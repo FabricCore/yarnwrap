@@ -13,6 +13,7 @@ public class RealmsClientIncompatibleScreen { public net.minecraft.client.realms
 // public void UNSUPPORTED_SNAPSHOT_VERSION(yarnwrap.text.Text value) { wrapperContained.UNSUPPORTED_SNAPSHOT_VERSION = value.wrapperContained; }
 // public yarnwrap.text.Text OUTDATED_STABLE_VERSION() { return new yarnwrap.text.Text(wrapperContained.OUTDATED_STABLE_VERSION); }
 // public void OUTDATED_STABLE_VERSION(yarnwrap.text.Text value) { wrapperContained.OUTDATED_STABLE_VERSION = value.wrapperContained; }
+public RealmsClientIncompatibleScreen(yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsClientIncompatibleScreen(parent.wrapperContained); }
 // public yarnwrap.text.Text getErrorText() { return new yarnwrap.text.Text(wrapperContained.getErrorText()); }
 
 }

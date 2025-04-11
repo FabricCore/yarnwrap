@@ -9,5 +9,7 @@ public class VillagerBreedTask { public net.minecraft.entity.ai.brain.task.Villa
 // public java.util.Optional getReachableHome(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.VillagerEntity villager) { return wrapperContained.getReachableHome(world.wrapperContained,villager.wrapperContained); }
 // public boolean canReachHome(yarnwrap.entity.passive.VillagerEntity villager,yarnwrap.util.math.BlockPos pos,yarnwrap.registry.entry.RegistryEntry poiType) { return wrapperContained.canReachHome(villager.wrapperContained,pos.wrapperContained,poiType.wrapperContained); }
 // public void goHome(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.VillagerEntity first,yarnwrap.entity.passive.VillagerEntity second) { wrapperContained.goHome(world.wrapperContained,first.wrapperContained,second.wrapperContained); }
+// public boolean method_20644(yarnwrap.entity.passive.VillagerEntity poiType,yarnwrap.registry.entry.RegistryEntry pos) { return wrapperContained.method_20644(poiType.wrapperContained,pos.wrapperContained); }
+// public boolean method_43972(yarnwrap.registry.entry.RegistryEntry poiType) { return wrapperContained.method_43972(poiType.wrapperContained); }
 
 }

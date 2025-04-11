@@ -7,6 +7,7 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void id(java.lang.String value) { wrapperContained.id = value; }
 // public yarnwrap.sound.SoundEvent sound() { return new yarnwrap.sound.SoundEvent(wrapperContained.sound); }
 // public void sound(yarnwrap.sound.SoundEvent value) { wrapperContained.sound = value.wrapperContained; }
+// // public DamageEffects(java.lang.String id,int sound) { this.wrapperContained = new net.minecraft.entity.damage.DamageEffects(id,sound); }
 public yarnwrap.sound.SoundEvent getSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getSound()); }
 
 }

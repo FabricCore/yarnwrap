@@ -23,12 +23,27 @@ public class LocateCommand { public net.minecraft.server.command.LocateCommand w
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public float getDistance(int x1,int y1,int x2,int y2) { return wrapperContained.getDistance(x1,y1,x2,y2); }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.command.CommandRegistryAccess registryAccess) { wrapperContained.register(dispatcher,registryAccess.wrapperContained); }
+// public yarnwrap.text.Style method_13447(yarnwrap.util.math.BlockPos style) { return new yarnwrap.text.Style(wrapperContained.method_13447(style.wrapperContained)); }
+// public boolean method_13448(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13448(source.wrapperContained); }
 // public int sendCoordinates(yarnwrap.server.command.ServerCommandSource source,Object structure,yarnwrap.util.math.BlockPos currentPos,com.mojang.datafixers.util.Pair result,java.lang.String successMessage,boolean includeY,java.time.Duration timeTaken) { return wrapperContained.sendCoordinates(source.wrapperContained,structure,currentPos.wrapperContained,result,successMessage,includeY,timeTaken); }
+// public com.mojang.brigadier.Message method_39985(java.lang.Object id) { return wrapperContained.method_39985(id); }
+// public java.lang.String method_40998(com.mojang.datafixers.util.Pair key) { return wrapperContained.method_40998(key); }
+// public com.mojang.brigadier.Message method_41002(java.lang.Object id) { return wrapperContained.method_41002(id); }
+// public java.lang.String method_41004(yarnwrap.registry.RegistryKey key) { return wrapperContained.method_41004(key.wrapperContained); }
+// public int method_43904(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_43904(context); }
 // public int executeLocateStructure(yarnwrap.server.command.ServerCommandSource source,Object predicate) { return wrapperContained.executeLocateStructure(source.wrapperContained,predicate); }
 // public java.util.Optional getStructureListForPredicate(Object predicate,yarnwrap.registry.Registry structureRegistry) { return wrapperContained.getStructureListForPredicate(predicate,structureRegistry.wrapperContained); }
+// public Object method_43908(yarnwrap.registry.entry.RegistryEntry entry) { return wrapperContained.method_43908(entry.wrapperContained); }
+// public java.util.Optional method_43909(yarnwrap.registry.Registry key) { return wrapperContained.method_43909(key.wrapperContained); }
+// public int method_43911(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_43911(context); }
 // public int executeLocateBiome(yarnwrap.server.command.ServerCommandSource source,Object predicate) { return wrapperContained.executeLocateBiome(source.wrapperContained,predicate); }
+// public com.mojang.brigadier.Message method_43913(java.lang.Object id) { return wrapperContained.method_43913(id); }
+// public int method_43914(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_43914(context); }
 // public int executeLocatePoi(yarnwrap.server.command.ServerCommandSource source,Object predicate) { return wrapperContained.executeLocatePoi(source.wrapperContained,predicate); }
+// public com.mojang.brigadier.Message method_43917(java.lang.Object id) { return wrapperContained.method_43917(id); }
 // // public int sendCoordinates(yarnwrap.server.command.ServerCommandSource source,Object predicate,yarnwrap.util.math.BlockPos currentPos,com.mojang.datafixers.util.Pair result,java.lang.String successMessage,boolean includeY,java.time.Duration timeTaken) { return wrapperContained.sendCoordinates(source.wrapperContained,predicate,currentPos.wrapperContained,result,successMessage,includeY,timeTaken); }
 // public int sendCoordinates(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.BlockPos currentPos,com.mojang.datafixers.util.Pair result,java.lang.String successMessage,boolean includeY,java.lang.String entryString,java.time.Duration timeTaken) { return wrapperContained.sendCoordinates(source.wrapperContained,currentPos.wrapperContained,result,successMessage,includeY,entryString,timeTaken); }
+// public java.lang.String method_45150(Object tag) { return wrapperContained.method_45150(tag); }
+// public java.lang.String method_45151(Object entry) { return wrapperContained.method_45151(entry); }
 
 }

@@ -7,5 +7,6 @@ public class ChunkBorderDebugRenderer { public net.minecraft.client.render.debug
 // public void YELLOW(int value) { wrapperContained.YELLOW = value; }
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
+public ChunkBorderDebugRenderer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.debug.ChunkBorderDebugRenderer(client.wrapperContained); }
 
 }

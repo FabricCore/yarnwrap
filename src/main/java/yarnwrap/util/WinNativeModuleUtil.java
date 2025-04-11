@@ -12,11 +12,13 @@ public class WinNativeModuleUtil { public net.minecraft.util.WinNativeModuleUtil
 // public int LANGUAGE_ID() { return wrapperContained.LANGUAGE_ID; }
 // public void LANGUAGE_ID(int value) { wrapperContained.LANGUAGE_ID = value; }
 public java.util.List collectNativeModules() { return wrapperContained.collectNativeModules(); }
+// public java.lang.String method_37962(Object moduleName) { return wrapperContained.method_37962(moduleName); }
 // public com.sun.jna.Pointer query(com.sun.jna.Pointer pointer,java.lang.String path,com.sun.jna.ptr.IntByReference lengthPointer) { return wrapperContained.query(pointer,path,lengthPointer); }
 // public java.util.Optional createNativeModuleInfo(java.lang.String path) { return wrapperContained.createNativeModuleInfo(path); }
 // public java.lang.String getStringFileInfoPath(java.lang.String key,int languageId,int codePage) { return wrapperContained.getStringFileInfoPath(key,languageId,codePage); }
 public void addDetailTo(yarnwrap.util.crash.CrashReportSection section) { wrapperContained.addDetailTo(section.wrapperContained); }
 // public java.util.OptionalInt getEnglishTranslationIndex(int indices) { return wrapperContained.getEnglishTranslationIndex(indices); }
+// public java.lang.String method_37969(Object module) { return wrapperContained.method_37969(module); }
 // public java.lang.String queryString(com.sun.jna.Pointer pointer,java.lang.String path,com.sun.jna.ptr.IntByReference lengthPointer) { return wrapperContained.queryString(pointer,path,lengthPointer); }
 
 }

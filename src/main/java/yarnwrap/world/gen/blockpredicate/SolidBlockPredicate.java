@@ -3,5 +3,6 @@ public class SolidBlockPredicate { public net.minecraft.world.gen.blockpredicate
 
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public com.mojang.datafixers.kinds.App method_39590(Object instance) { return wrapperContained.method_39590(instance); }
 
 }

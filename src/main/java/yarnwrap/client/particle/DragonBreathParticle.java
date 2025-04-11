@@ -21,5 +21,6 @@ public class DragonBreathParticle { public net.minecraft.client.particle.DragonB
 // public void MAX_COLOR(int value) { wrapperContained.MAX_COLOR = value; }
 // public boolean reachedGround() { return wrapperContained.reachedGround; }
 // public void reachedGround(boolean value) { wrapperContained.reachedGround = value; }
+// public DragonBreathParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ,yarnwrap.client.particle.SpriteProvider spriteProvider) { this.wrapperContained = new net.minecraft.client.particle.DragonBreathParticle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ,spriteProvider.wrapperContained); }
 
 }

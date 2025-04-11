@@ -27,11 +27,19 @@ public yarnwrap.text.Text CAN_PLACE_TEXT() { return new yarnwrap.text.Text(wrapp
 // public void showInTooltip(boolean value) { wrapperContained.showInTooltip = value; }
 // public java.util.List tooltipText() { return wrapperContained.tooltipText; }
 // public void tooltipText(java.util.List value) { wrapperContained.tooltipText = value; }
+public BlockPredicatesChecker(java.util.List predicates,boolean showInTooltip) { this.wrapperContained = new net.minecraft.item.BlockPredicatesChecker(predicates,showInTooltip); }
+// public BlockPredicatesChecker(java.util.List predicates,boolean showInTooltip,java.util.List tooltipText) { this.wrapperContained = new net.minecraft.item.BlockPredicatesChecker(predicates,showInTooltip,tooltipText); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public boolean check(yarnwrap.block.pattern.CachedBlockPosition cachedPos) { return wrapperContained.check(cachedPos.wrapperContained); }
 // public boolean canUseCache(yarnwrap.block.pattern.CachedBlockPosition pos,yarnwrap.block.pattern.CachedBlockPosition cachedPos,boolean nbtAware) { return wrapperContained.canUseCache(pos.wrapperContained,cachedPos.wrapperContained,nbtAware); }
 // public boolean showInTooltip() { return wrapperContained.showInTooltip(); }
+// public java.util.stream.Stream method_57325(yarnwrap.predicate.BlockPredicate predicate) { return wrapperContained.method_57325(predicate.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_57326(Object instance) { return wrapperContained.method_57326(instance); }
 // public java.util.List getTooltipText(java.util.List blockPredicates) { return wrapperContained.getTooltipText(blockPredicates); }
 public void addTooltips(java.util.function.Consumer adder) { wrapperContained.addTooltips(adder); }
+// public yarnwrap.item.BlockPredicatesChecker method_57332(yarnwrap.predicate.BlockPredicate predicate) { return new yarnwrap.item.BlockPredicatesChecker(wrapperContained.method_57332(predicate.wrapperContained)); }
+// public java.util.List method_57333(yarnwrap.item.BlockPredicatesChecker checker) { return wrapperContained.method_57333(checker.wrapperContained); }
+// public com.mojang.serialization.DataResult method_57334(yarnwrap.item.BlockPredicatesChecker checker) { return wrapperContained.method_57334(checker.wrapperContained); }
 public yarnwrap.item.BlockPredicatesChecker withShowInTooltip(boolean showInTooltip) { return new yarnwrap.item.BlockPredicatesChecker(wrapperContained.withShowInTooltip(showInTooltip)); }
 
 }

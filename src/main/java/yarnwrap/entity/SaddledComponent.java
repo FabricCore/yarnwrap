@@ -13,6 +13,7 @@ public class SaddledComponent { public net.minecraft.entity.SaddledComponent wra
 // public void saddled(yarnwrap.entity.data.TrackedData value) { wrapperContained.saddled = value.wrapperContained; }
 // public int MIN_BOOST_TIME() { return wrapperContained.MIN_BOOST_TIME; }
 // public void MIN_BOOST_TIME(int value) { wrapperContained.MIN_BOOST_TIME = value; }
+public SaddledComponent(yarnwrap.entity.data.DataTracker dataTracker,yarnwrap.entity.data.TrackedData boostTime,yarnwrap.entity.data.TrackedData saddled) { this.wrapperContained = new net.minecraft.entity.SaddledComponent(dataTracker.wrapperContained,boostTime.wrapperContained,saddled.wrapperContained); }
 public void boost() { wrapperContained.boost(); }
 public boolean boost(yarnwrap.util.math.random.Random random) { return wrapperContained.boost(random.wrapperContained); }
 public void writeNbt(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.writeNbt(nbt.wrapperContained); }

@@ -9,6 +9,7 @@ public class PathContext { public net.minecraft.entity.ai.pathing.PathContext wr
 // public void entityPos(yarnwrap.util.math.BlockPos value) { wrapperContained.entityPos = value.wrapperContained; }
 // public Object lastNodePos() { return wrapperContained.lastNodePos; }
 // // public void lastNodePos(Object value) { wrapperContained.lastNodePos = value; }
+public PathContext(yarnwrap.world.CollisionView world,yarnwrap.entity.mob.MobEntity entity) { this.wrapperContained = new net.minecraft.entity.ai.pathing.PathContext(world.wrapperContained,entity.wrapperContained); }
 public yarnwrap.world.CollisionView getWorld() { return new yarnwrap.world.CollisionView(wrapperContained.getWorld()); }
 public yarnwrap.entity.ai.pathing.PathNodeType getNodeType(int x,int y,int z) { return new yarnwrap.entity.ai.pathing.PathNodeType(wrapperContained.getNodeType(x,y,z)); }
 public yarnwrap.block.BlockState getBlockState(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getBlockState(pos.wrapperContained)); }

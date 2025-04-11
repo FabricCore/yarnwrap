@@ -19,6 +19,8 @@ public class Sampler { public net.minecraft.util.profiler.Sampler wrapperContain
 // public void ticksBuffer(io.netty.buffer.ByteBuf value) { wrapperContained.ticksBuffer = value; }
 // public double currentSample() { return wrapperContained.currentSample; }
 // public void currentSample(double value) { wrapperContained.currentSample = value; }
+// public Sampler(java.lang.String name,yarnwrap.util.profiler.SampleType type,java.util.function.DoubleSupplier retriever,java.lang.Runnable startAction,Object deviationChecker) { this.wrapperContained = new net.minecraft.util.profiler.Sampler(name,type.wrapperContained,retriever,startAction,deviationChecker); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.profiler.Sampler create(java.lang.String name,yarnwrap.util.profiler.SampleType type,java.util.function.DoubleSupplier retriever) { return new yarnwrap.util.profiler.Sampler(wrapperContained.create(name,type.wrapperContained,retriever)); }
 public yarnwrap.util.profiler.Sampler create(java.lang.String name,yarnwrap.util.profiler.SampleType type,java.lang.Object context,java.util.function.ToDoubleFunction retriever) { return new yarnwrap.util.profiler.Sampler(wrapperContained.create(name,type.wrapperContained,context,retriever)); }
 public Object builder(java.lang.String name,yarnwrap.util.profiler.SampleType type,java.util.function.ToDoubleFunction retriever,java.lang.Object context) { return wrapperContained.builder(name,type.wrapperContained,retriever,context); }

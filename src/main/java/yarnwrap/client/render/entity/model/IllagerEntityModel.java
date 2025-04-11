@@ -17,6 +17,7 @@ public class IllagerEntityModel { public net.minecraft.client.render.entity.mode
 // public void arms(yarnwrap.client.model.ModelPart value) { wrapperContained.arms = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart rightArm() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightArm); }
 // public void rightArm(yarnwrap.client.model.ModelPart value) { wrapperContained.rightArm = value.wrapperContained; }
+public IllagerEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.IllagerEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.ModelPart getHat() { return new yarnwrap.client.model.ModelPart(wrapperContained.getHat()); }
 // public yarnwrap.client.model.ModelPart getAttackingArm(yarnwrap.util.Arm arm) { return new yarnwrap.client.model.ModelPart(wrapperContained.getAttackingArm(arm.wrapperContained)); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }

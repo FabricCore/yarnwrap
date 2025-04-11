@@ -25,6 +25,7 @@ public class ServerLoginNetworkHandler { public net.minecraft.server.network.Ser
 // public void profile(com.mojang.authlib.GameProfile value) { wrapperContained.profile = value; }
 // public boolean transferred() { return wrapperContained.transferred; }
 // public void transferred(boolean value) { wrapperContained.transferred = value; }
+public ServerLoginNetworkHandler(yarnwrap.server.MinecraftServer server,yarnwrap.network.ClientConnection connection,boolean transferred) { this.wrapperContained = new net.minecraft.server.network.ServerLoginNetworkHandler(server.wrapperContained,connection.wrapperContained,transferred); }
 public void disconnect(yarnwrap.text.Text reason) { wrapperContained.disconnect(reason.wrapperContained); }
 public java.lang.String getConnectionInfo() { return wrapperContained.getConnectionInfo(); }
 // public boolean hasPlayerWithId(com.mojang.authlib.GameProfile profile) { return wrapperContained.hasPlayerWithId(profile); }

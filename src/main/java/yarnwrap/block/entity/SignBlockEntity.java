@@ -15,6 +15,7 @@ public class SignBlockEntity { public net.minecraft.block.entity.SignBlockEntity
 // public void backText(yarnwrap.block.entity.SignText value) { wrapperContained.backText = value.wrapperContained; }
 // public boolean waxed() { return wrapperContained.waxed; }
 // public void waxed(boolean value) { wrapperContained.waxed = value; }
+public SignBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.SignBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public java.util.UUID getEditor() { return wrapperContained.getEditor(); }
 public void setEditor(java.util.UUID editor) { wrapperContained.setEditor(editor); }
 // public void updateListeners() { wrapperContained.updateListeners(); }
@@ -28,10 +29,15 @@ public void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarn
 // public boolean setBackText(yarnwrap.block.entity.SignText backText) { return wrapperContained.setBackText(backText.wrapperContained); }
 public boolean setText(yarnwrap.block.entity.SignText text,boolean front) { return wrapperContained.setText(text.wrapperContained,front); }
 public boolean changeText(java.util.function.UnaryOperator textChanger,boolean front) { return wrapperContained.changeText(textChanger,front); }
+// public void method_49842(yarnwrap.nbt.NbtCompound backText) { wrapperContained.method_49842(backText.wrapperContained); }
 public yarnwrap.block.entity.SignText getText(boolean front) { return new yarnwrap.block.entity.SignText(wrapperContained.getText(front)); }
+// public yarnwrap.block.entity.SignText method_49845(yarnwrap.entity.player.PlayerEntity text) { return new yarnwrap.block.entity.SignText(wrapperContained.method_49845(text.wrapperContained)); }
 // public boolean setFrontText(yarnwrap.block.entity.SignText frontText) { return wrapperContained.setFrontText(frontText.wrapperContained); }
 public boolean isPlayerTooFarToEdit(java.util.UUID uuid) { return wrapperContained.isPlayerTooFarToEdit(uuid); }
+// public void method_49848(yarnwrap.nbt.NbtCompound frontText) { wrapperContained.method_49848(frontText.wrapperContained); }
 public boolean setWaxed(boolean waxed) { return wrapperContained.setWaxed(waxed); }
+// public void method_49850(yarnwrap.block.entity.SignText signText) { wrapperContained.method_49850(signText.wrapperContained); }
+// public void method_49851(yarnwrap.block.entity.SignText signText) { wrapperContained.method_49851(signText.wrapperContained); }
 // public yarnwrap.block.entity.SignText createText() { return new yarnwrap.block.entity.SignText(wrapperContained.createText()); }
 public yarnwrap.block.entity.SignText getFrontText() { return new yarnwrap.block.entity.SignText(wrapperContained.getFrontText()); }
 public yarnwrap.block.entity.SignText getBackText() { return new yarnwrap.block.entity.SignText(wrapperContained.getBackText()); }

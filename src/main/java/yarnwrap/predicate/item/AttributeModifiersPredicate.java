@@ -3,5 +3,6 @@ public class AttributeModifiersPredicate { public net.minecraft.predicate.item.A
 
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+// public com.mojang.datafixers.kinds.App method_59668(Object instance) { return wrapperContained.method_59668(instance); }
 
 }

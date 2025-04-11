@@ -25,6 +25,12 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void uses(int value) { wrapperContained.uses = value; }
 // public yarnwrap.item.ItemStack sellItem() { return new yarnwrap.item.ItemStack(wrapperContained.sellItem); }
 // public void sellItem(yarnwrap.item.ItemStack value) { wrapperContained.sellItem = value.wrapperContained; }
+// public TradeOffer(yarnwrap.village.TradeOffer offer) { this.wrapperContained = new net.minecraft.village.TradeOffer(offer.wrapperContained); }
+public TradeOffer(yarnwrap.village.TradedItem firstBuyItem,java.util.Optional secondBuyItem,yarnwrap.item.ItemStack sellItem,int maxUses,int merchantExperience,float priceMultiplier) { this.wrapperContained = new net.minecraft.village.TradeOffer(firstBuyItem.wrapperContained,secondBuyItem,sellItem.wrapperContained,maxUses,merchantExperience,priceMultiplier); }
+public TradeOffer(yarnwrap.village.TradedItem firstBuyItem,java.util.Optional secondBuyItem,yarnwrap.item.ItemStack sellItem,int uses,int maxUses,int merchantExperience,float priceMultiplier) { this.wrapperContained = new net.minecraft.village.TradeOffer(firstBuyItem.wrapperContained,secondBuyItem,sellItem.wrapperContained,uses,maxUses,merchantExperience,priceMultiplier); }
+public TradeOffer(yarnwrap.village.TradedItem firstBuyItem,java.util.Optional secondBuyItem,yarnwrap.item.ItemStack sellItem,int uses,int maxUses,int merchantExperience,float priceMultiplier,int demandBonus) { this.wrapperContained = new net.minecraft.village.TradeOffer(firstBuyItem.wrapperContained,secondBuyItem,sellItem.wrapperContained,uses,maxUses,merchantExperience,priceMultiplier,demandBonus); }
+// public TradeOffer(yarnwrap.village.TradedItem firstBuyItem,java.util.Optional secondBuyItem,yarnwrap.item.ItemStack sellItem,int uses,int maxUses,boolean rewardingPlayerExperience,int specialPrice,int demandBonus,float priceMultiplier,int merchantExperience) { this.wrapperContained = new net.minecraft.village.TradeOffer(firstBuyItem.wrapperContained,secondBuyItem,sellItem.wrapperContained,uses,maxUses,rewardingPlayerExperience,specialPrice,demandBonus,priceMultiplier,merchantExperience); }
+public TradeOffer(yarnwrap.village.TradedItem buyItem,yarnwrap.item.ItemStack sellItem,int maxUses,int merchantExperience,float priceMultiplier) { this.wrapperContained = new net.minecraft.village.TradeOffer(buyItem.wrapperContained,sellItem.wrapperContained,maxUses,merchantExperience,priceMultiplier); }
 public boolean matchesBuyItems(yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack buyItem) { return wrapperContained.matchesBuyItems(stack.wrapperContained,buyItem.wrapperContained); }
 public boolean depleteBuyItems(yarnwrap.item.ItemStack firstBuyStack,yarnwrap.item.ItemStack secondBuyStack) { return wrapperContained.depleteBuyItems(firstBuyStack.wrapperContained,secondBuyStack.wrapperContained); }
 public yarnwrap.item.ItemStack copySellItem() { return new yarnwrap.item.ItemStack(wrapperContained.copySellItem()); }
@@ -41,6 +47,17 @@ public boolean hasBeenUsed() { return wrapperContained.hasBeenUsed(); }
 public yarnwrap.village.TradeOffer copy() { return new yarnwrap.village.TradeOffer(wrapperContained.copy()); }
 public yarnwrap.village.TradeOffer read(yarnwrap.network.RegistryByteBuf buf) { return new yarnwrap.village.TradeOffer(wrapperContained.read(buf.wrapperContained)); }
 // public void write(yarnwrap.network.RegistryByteBuf buf,yarnwrap.village.TradeOffer offer) { wrapperContained.write(buf.wrapperContained,offer.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_56705(Object instance) { return wrapperContained.method_56705(instance); }
+// public java.lang.Integer method_56707(yarnwrap.village.TradeOffer tradeOffer) { return wrapperContained.method_56707(tradeOffer.wrapperContained); }
+// public java.lang.Float method_56708(yarnwrap.village.TradeOffer tradeOffer) { return wrapperContained.method_56708(tradeOffer.wrapperContained); }
+// public java.lang.Integer method_56709(yarnwrap.village.TradeOffer tradeOffer) { return wrapperContained.method_56709(tradeOffer.wrapperContained); }
+// public java.lang.Integer method_56710(yarnwrap.village.TradeOffer tradeOffer) { return wrapperContained.method_56710(tradeOffer.wrapperContained); }
+// public java.lang.Boolean method_56711(yarnwrap.village.TradeOffer tradeOffer) { return wrapperContained.method_56711(tradeOffer.wrapperContained); }
+// public java.lang.Integer method_56712(yarnwrap.village.TradeOffer tradeOffer) { return wrapperContained.method_56712(tradeOffer.wrapperContained); }
+// public java.lang.Integer method_56713(yarnwrap.village.TradeOffer tradeOffer) { return wrapperContained.method_56713(tradeOffer.wrapperContained); }
+// public yarnwrap.item.ItemStack method_56714(yarnwrap.village.TradeOffer tradeOffer) { return new yarnwrap.item.ItemStack(wrapperContained.method_56714(tradeOffer.wrapperContained)); }
+// public java.util.Optional method_56715(yarnwrap.village.TradeOffer tradeOffer) { return wrapperContained.method_56715(tradeOffer.wrapperContained); }
+// public yarnwrap.village.TradedItem method_56716(yarnwrap.village.TradeOffer tradeOffer) { return new yarnwrap.village.TradedItem(wrapperContained.method_56716(tradeOffer.wrapperContained)); }
 // public int getFirstBuyItemCount(yarnwrap.village.TradedItem firstBuyItem) { return wrapperContained.getFirstBuyItemCount(firstBuyItem.wrapperContained); }
 public yarnwrap.village.TradedItem getFirstBuyItem() { return new yarnwrap.village.TradedItem(wrapperContained.getFirstBuyItem()); }
 public java.util.Optional getSecondBuyItem() { return wrapperContained.getSecondBuyItem(); }

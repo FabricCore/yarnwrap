@@ -9,5 +9,6 @@ public float TEXT_SCALE_MULTIPLIER() { return wrapperContained.TEXT_SCALE_MULTIP
 // public void TEXT_SCALE_MULTIPLIER(float value) { wrapperContained.TEXT_SCALE_MULTIPLIER = value; }
 // public org.joml.Vector3f TEXT_SCALE() { return wrapperContained.TEXT_SCALE; }
 // public void TEXT_SCALE(org.joml.Vector3f value) { wrapperContained.TEXT_SCALE = value; }
+// public SignEditScreen(yarnwrap.block.entity.SignBlockEntity sign,boolean filtered) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.SignEditScreen(sign.wrapperContained,filtered); }
 
 }

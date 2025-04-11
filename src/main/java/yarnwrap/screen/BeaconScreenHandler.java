@@ -23,6 +23,8 @@ public class BeaconScreenHandler { public net.minecraft.screen.BeaconScreenHandl
 // public void HOTBAR_START(int value) { wrapperContained.HOTBAR_START = value; }
 // public int HOTBAR_END() { return wrapperContained.HOTBAR_END; }
 // public void HOTBAR_END(int value) { wrapperContained.HOTBAR_END = value; }
+public BeaconScreenHandler(int syncId,yarnwrap.inventory.Inventory inventory) { this.wrapperContained = new net.minecraft.screen.BeaconScreenHandler(syncId,inventory.wrapperContained); }
+public BeaconScreenHandler(int syncId,yarnwrap.inventory.Inventory inventory,yarnwrap.screen.PropertyDelegate propertyDelegate,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.BeaconScreenHandler(syncId,inventory.wrapperContained,propertyDelegate.wrapperContained,context.wrapperContained); }
 public void setEffects(java.util.Optional primary,java.util.Optional secondary) { wrapperContained.setEffects(primary,secondary); }
 public int getProperties() { return wrapperContained.getProperties(); }
 public yarnwrap.registry.entry.RegistryEntry getPrimaryEffect() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.getPrimaryEffect()); }

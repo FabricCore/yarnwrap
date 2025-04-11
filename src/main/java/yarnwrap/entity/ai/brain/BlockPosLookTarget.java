@@ -5,5 +5,7 @@ public class BlockPosLookTarget { public net.minecraft.entity.ai.brain.BlockPosL
 // public void blockPos(yarnwrap.util.math.BlockPos value) { wrapperContained.blockPos = value.wrapperContained; }
 // public yarnwrap.util.math.Vec3d pos() { return new yarnwrap.util.math.Vec3d(wrapperContained.pos); }
 // public void pos(yarnwrap.util.math.Vec3d value) { wrapperContained.pos = value.wrapperContained; }
+public BlockPosLookTarget(yarnwrap.util.math.BlockPos blockPos) { this.wrapperContained = new net.minecraft.entity.ai.brain.BlockPosLookTarget(blockPos.wrapperContained); }
+public BlockPosLookTarget(yarnwrap.util.math.Vec3d pos) { this.wrapperContained = new net.minecraft.entity.ai.brain.BlockPosLookTarget(pos.wrapperContained); }
 
 }

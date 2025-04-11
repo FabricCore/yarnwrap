@@ -21,6 +21,8 @@ public class AdvancementPositioner { public net.minecraft.advancement.Advancemen
 // public void row(float value) { wrapperContained.row = value; }
 // public yarnwrap.advancement.PlacedAdvancement advancement() { return new yarnwrap.advancement.PlacedAdvancement(wrapperContained.advancement); }
 // public void advancement(yarnwrap.advancement.PlacedAdvancement value) { wrapperContained.advancement = value.wrapperContained; }
+public AdvancementPositioner(yarnwrap.advancement.PlacedAdvancement advancement,yarnwrap.advancement.AdvancementPositioner parent,yarnwrap.advancement.AdvancementPositioner previousSibling,int childrenSize,int depth) { this.wrapperContained = new net.minecraft.advancement.AdvancementPositioner(advancement.wrapperContained,parent.wrapperContained,previousSibling.wrapperContained,childrenSize,depth); }
+// public void method_53710(yarnwrap.advancement.AdvancementDisplay display) { wrapperContained.method_53710(display.wrapperContained); }
 // public yarnwrap.advancement.AdvancementPositioner onFinishCalculation(yarnwrap.advancement.AdvancementPositioner last) { return new yarnwrap.advancement.AdvancementPositioner(wrapperContained.onFinishCalculation(last.wrapperContained)); }
 // public float findMinRowRecursively(float deltaRow,int depth,float minRow) { return wrapperContained.findMinRowRecursively(deltaRow,depth,minRow); }
 // public void increaseRowRecursively(float deltaRow) { wrapperContained.increaseRowRecursively(deltaRow); }

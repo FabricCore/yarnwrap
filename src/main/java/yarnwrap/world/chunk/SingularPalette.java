@@ -7,6 +7,7 @@ public class SingularPalette { public net.minecraft.world.chunk.SingularPalette 
 // public void entry(java.lang.Object value) { wrapperContained.entry = value; }
 // public yarnwrap.world.chunk.PaletteResizeListener listener() { return new yarnwrap.world.chunk.PaletteResizeListener(wrapperContained.listener); }
 // public void listener(yarnwrap.world.chunk.PaletteResizeListener value) { wrapperContained.listener = value.wrapperContained; }
+// public SingularPalette(yarnwrap.util.collection.IndexedIterable idList,yarnwrap.world.chunk.PaletteResizeListener listener,java.util.List entries) { this.wrapperContained = new net.minecraft.world.chunk.SingularPalette(idList.wrapperContained,listener.wrapperContained,entries); }
 // public yarnwrap.world.chunk.Palette create(int bitSize,yarnwrap.util.collection.IndexedIterable idList,yarnwrap.world.chunk.PaletteResizeListener listener,java.util.List entries) { return new yarnwrap.world.chunk.Palette(wrapperContained.create(bitSize,idList.wrapperContained,listener.wrapperContained,entries)); }
 
 }

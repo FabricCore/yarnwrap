@@ -25,6 +25,7 @@ public class BoatEntityModel { public net.minecraft.client.render.entity.model.B
 // public void LEFT(java.lang.String value) { wrapperContained.LEFT = value; }
 // public yarnwrap.client.model.ModelPart waterPatch() { return new yarnwrap.client.model.ModelPart(wrapperContained.waterPatch); }
 // public void waterPatch(yarnwrap.client.model.ModelPart value) { wrapperContained.waterPatch = value.wrapperContained; }
+public BoatEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.BoatEntityModel(root.wrapperContained); }
 // public void setPaddleAngle(yarnwrap.entity.vehicle.BoatEntity entity,int sigma,yarnwrap.client.model.ModelPart part,float angle) { wrapperContained.setPaddleAngle(entity.wrapperContained,sigma,part.wrapperContained,angle); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 // public Object getParts(yarnwrap.client.model.ModelPart root) { return wrapperContained.getParts(root.wrapperContained); }

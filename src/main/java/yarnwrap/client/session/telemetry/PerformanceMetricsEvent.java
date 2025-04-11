@@ -12,5 +12,6 @@ public class PerformanceMetricsEvent { public net.minecraft.client.session.telem
 // public long toKilos(long bytes) { return wrapperContained.toKilos(bytes); }
 // public void clearSamples() { wrapperContained.clearSamples(); }
 // public void sampleUsedMemory() { wrapperContained.sampleUsedMemory(); }
+// public void method_47979(Object map) { wrapperContained.method_47979(map); }
 
 }

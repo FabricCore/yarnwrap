@@ -5,8 +5,12 @@ public class PublishCommand { public net.minecraft.server.command.PublishCommand
 // public void ALREADY_PUBLISHED_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.ALREADY_PUBLISHED_EXCEPTION = value; }
 // public com.mojang.brigadier.exceptions.SimpleCommandExceptionType FAILED_EXCEPTION() { return wrapperContained.FAILED_EXCEPTION; }
 // public void FAILED_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.FAILED_EXCEPTION = value; }
+// public int method_13508(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13508(context); }
 // public int execute(yarnwrap.server.command.ServerCommandSource source,int port,boolean allowCommands,yarnwrap.world.GameMode gameMode) { return wrapperContained.execute(source.wrapperContained,port,allowCommands,gameMode.wrapperContained); }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
+// public com.mojang.brigadier.Message method_13511(java.lang.Object port) { return wrapperContained.method_13511(port); }
+// public int method_13512(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13512(context); }
+// public boolean method_13513(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13513(source.wrapperContained); }
 public yarnwrap.text.MutableText getStartedText(int port) { return new yarnwrap.text.MutableText(wrapperContained.getStartedText(port)); }
 
 }

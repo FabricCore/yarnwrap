@@ -15,10 +15,19 @@ public class PlayWithVillagerBabiesTask { public net.minecraft.entity.ai.brain.t
 // public void RUN_CHANCE(int value) { wrapperContained.RUN_CHANCE = value; }
 // public yarnwrap.entity.LivingEntity getInteractionTarget(yarnwrap.entity.LivingEntity baby) { return new yarnwrap.entity.LivingEntity(wrapperContained.getInteractionTarget(baby.wrapperContained)); }
 // public boolean isInteractionTargetOf(yarnwrap.entity.LivingEntity entity,yarnwrap.entity.LivingEntity baby) { return wrapperContained.isInteractionTargetOf(entity.wrapperContained,baby.wrapperContained); }
+// public java.lang.Integer method_19578(yarnwrap.entity.LivingEntity target,java.lang.Integer count) { return wrapperContained.method_19578(target.wrapperContained,count); }
 // public void setPlayTarget(yarnwrap.entity.ai.brain.MemoryQueryResult interactionTarget,yarnwrap.entity.ai.brain.MemoryQueryResult lookTarget,yarnwrap.entity.ai.brain.MemoryQueryResult walkTarget,yarnwrap.entity.LivingEntity baby) { wrapperContained.setPlayTarget(interactionTarget.wrapperContained,lookTarget.wrapperContained,walkTarget.wrapperContained,baby.wrapperContained); }
+// public boolean method_19581(Object entry) { return wrapperContained.method_19581(entry); }
+// public void method_19582(java.util.Map baby) { wrapperContained.method_19582(baby); }
+// public boolean method_19587(yarnwrap.entity.LivingEntity target) { return wrapperContained.method_19587(target.wrapperContained); }
 // public java.util.Optional getLeastPopularBabyInteractionTarget(java.util.List babies) { return wrapperContained.getLeastPopularBabyInteractionTarget(babies); }
 // public java.util.Map getBabyInteractionTargetCounts(java.util.List babies) { return wrapperContained.getBabyInteractionTargetCounts(babies); }
 // public boolean hasInteractionTarget(yarnwrap.entity.LivingEntity baby) { return wrapperContained.hasInteractionTarget(baby.wrapperContained); }
 public yarnwrap.entity.ai.brain.task.Task create() { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.create()); }
+// public boolean method_47001(yarnwrap.entity.mob.PathAwareEntity baby) { return wrapperContained.method_47001(baby.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_47002(Object context) { return wrapperContained.method_47002(context); }
+// public yarnwrap.entity.ai.brain.task.TaskRunnable method_47003(Object visibleVillagerBabies,yarnwrap.entity.ai.brain.MemoryQueryResult walkTarget,yarnwrap.entity.ai.brain.MemoryQueryResult lookTarget,yarnwrap.entity.ai.brain.MemoryQueryResult interactionTarget) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(wrapperContained.method_47003(visibleVillagerBabies,walkTarget.wrapperContained,lookTarget.wrapperContained,interactionTarget.wrapperContained)); }
+// public boolean method_47004(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,yarnwrap.entity.ai.brain.MemoryQueryResult time) { return wrapperContained.method_47004(world,entity.wrapperContained,time.wrapperContained); }
+// public void method_47005(yarnwrap.entity.ai.brain.MemoryQueryResult baby) { wrapperContained.method_47005(baby.wrapperContained); }
 
 }

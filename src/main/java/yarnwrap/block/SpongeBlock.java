@@ -11,5 +11,7 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public boolean absorbWater(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.absorbWater(world.wrapperContained,pos.wrapperContained); }
 // public void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.update(world.wrapperContained,pos.wrapperContained); }
+// public boolean method_49829(yarnwrap.util.math.BlockPos currentPos) { return wrapperContained.method_49829(currentPos.wrapperContained); }
+// public void method_49830(yarnwrap.util.math.BlockPos currentPos,java.util.function.Consumer queuer) { wrapperContained.method_49830(currentPos.wrapperContained,queuer); }
 
 }

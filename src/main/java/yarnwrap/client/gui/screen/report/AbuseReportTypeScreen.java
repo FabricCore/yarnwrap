@@ -19,5 +19,11 @@ public class AbuseReportTypeScreen { public net.minecraft.client.gui.screen.repo
 // public void selectedPlayer(yarnwrap.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry value) { wrapperContained.selectedPlayer = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.DirectionalLayoutWidget layout() { return new yarnwrap.client.gui.widget.DirectionalLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.DirectionalLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+public AbuseReportTypeScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.session.report.AbuseReportContext context,yarnwrap.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry selectedPlayer) { this.wrapperContained = new net.minecraft.client.gui.screen.report.AbuseReportTypeScreen(parent.wrapperContained,context.wrapperContained,selectedPlayer.wrapperContained); }
+// public void method_53581(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_53581(button.wrapperContained); }
+// public void method_53582(yarnwrap.client.gui.screen.report.AbuseReportTypeScreen child) { wrapperContained.method_53582(child.wrapperContained); }
+// public void method_53583(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_53583(button.wrapperContained); }
+// public void method_53584(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_53584(button.wrapperContained); }
+// public void method_53585(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_53585(button.wrapperContained); }
 
 }

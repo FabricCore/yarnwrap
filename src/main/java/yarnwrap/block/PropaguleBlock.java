@@ -15,5 +15,7 @@ public yarnwrap.block.BlockState getDefaultHangingState() { return new yarnwrap.
 // public boolean isHanging(yarnwrap.block.BlockState state) { return wrapperContained.isHanging(state.wrapperContained); }
 // public boolean isFullyGrown(yarnwrap.block.BlockState state) { return wrapperContained.isFullyGrown(state.wrapperContained); }
 public yarnwrap.block.BlockState getHangingState(int age) { return new yarnwrap.block.BlockState(wrapperContained.getHangingState(age)); }
+// public com.mojang.datafixers.kinds.App method_54032(Object instance) { return wrapperContained.method_54032(instance); }
+// public yarnwrap.block.SaplingGenerator method_54033(yarnwrap.block.PropaguleBlock block) { return new yarnwrap.block.SaplingGenerator(wrapperContained.method_54033(block.wrapperContained)); }
 
 }

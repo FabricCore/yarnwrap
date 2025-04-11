@@ -3,9 +3,12 @@ public class GoatHornItem { public net.minecraft.item.GoatHornItem wrapperContai
 
 // public yarnwrap.registry.tag.TagKey instrumentTag() { return new yarnwrap.registry.tag.TagKey(wrapperContained.instrumentTag); }
 // public void instrumentTag(yarnwrap.registry.tag.TagKey value) { wrapperContained.instrumentTag = value.wrapperContained; }
+// public GoatHornItem(Object settings,yarnwrap.registry.tag.TagKey instrumentTag) { this.wrapperContained = new net.minecraft.item.GoatHornItem(settings,instrumentTag.wrapperContained); }
 public yarnwrap.item.ItemStack getStackForInstrument(yarnwrap.item.Item item,yarnwrap.registry.entry.RegistryEntry instrument) { return new yarnwrap.item.ItemStack(wrapperContained.getStackForInstrument(item.wrapperContained,instrument.wrapperContained)); }
 public void setRandomInstrumentFromTag(yarnwrap.item.ItemStack stack,yarnwrap.registry.tag.TagKey instrumentTag,yarnwrap.util.math.random.Random random) { wrapperContained.setRandomInstrumentFromTag(stack.wrapperContained,instrumentTag.wrapperContained,random.wrapperContained); }
 // public void playSound(yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.Instrument instrument) { wrapperContained.playSound(world.wrapperContained,player.wrapperContained,instrument.wrapperContained); }
 // public java.util.Optional getInstrument(yarnwrap.item.ItemStack stack) { return wrapperContained.getInstrument(stack.wrapperContained); }
+// public java.lang.Integer method_45432(yarnwrap.registry.entry.RegistryEntry instrument) { return wrapperContained.method_45432(instrument.wrapperContained); }
+// public void method_45433(yarnwrap.item.ItemStack instrument) { wrapperContained.method_45433(instrument.wrapperContained); }
 
 }

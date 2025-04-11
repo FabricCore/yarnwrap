@@ -9,6 +9,8 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void function(java.util.Optional value) { wrapperContained.function = value; }
 // public boolean initialized() { return wrapperContained.initialized; }
 // public void initialized(boolean value) { wrapperContained.initialized = value; }
+public LazyContainer(yarnwrap.util.Identifier id) { this.wrapperContained = new net.minecraft.server.function.LazyContainer(id.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public java.util.Optional get(yarnwrap.server.function.CommandFunctionManager commandFunctionManager) { return wrapperContained.get(commandFunctionManager.wrapperContained); }
 public yarnwrap.util.Identifier getId() { return new yarnwrap.util.Identifier(wrapperContained.getId()); }
 

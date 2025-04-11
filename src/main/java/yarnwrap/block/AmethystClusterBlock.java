@@ -23,5 +23,9 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void height(float value) { wrapperContained.height = value; }
 // public float xzOffset() { return wrapperContained.xzOffset; }
 // public void xzOffset(float value) { wrapperContained.xzOffset = value; }
+// public AmethystClusterBlock(float height,float xzOffset,Object settings) { this.wrapperContained = new net.minecraft.block.AmethystClusterBlock(height,xzOffset,settings); }
+// public com.mojang.datafixers.kinds.App method_53970(Object instance) { return wrapperContained.method_53970(instance); }
+// public java.lang.Float method_53971(yarnwrap.block.AmethystClusterBlock block) { return wrapperContained.method_53971(block.wrapperContained); }
+// public java.lang.Float method_53972(yarnwrap.block.AmethystClusterBlock block) { return wrapperContained.method_53972(block.wrapperContained); }
 
 }

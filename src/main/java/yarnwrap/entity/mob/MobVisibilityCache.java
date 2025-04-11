@@ -7,6 +7,7 @@ public class MobVisibilityCache { public net.minecraft.entity.mob.MobVisibilityC
 // public void owner(yarnwrap.entity.mob.MobEntity value) { wrapperContained.owner = value.wrapperContained; }
 // public it.unimi.dsi.fastutil.ints.IntSet visibleEntities() { return wrapperContained.visibleEntities; }
 // public void visibleEntities(it.unimi.dsi.fastutil.ints.IntSet value) { wrapperContained.visibleEntities = value; }
+public MobVisibilityCache(yarnwrap.entity.mob.MobEntity owner) { this.wrapperContained = new net.minecraft.entity.mob.MobVisibilityCache(owner.wrapperContained); }
 public boolean canSee(yarnwrap.entity.Entity entity) { return wrapperContained.canSee(entity.wrapperContained); }
 public void clear() { wrapperContained.clear(); }
 

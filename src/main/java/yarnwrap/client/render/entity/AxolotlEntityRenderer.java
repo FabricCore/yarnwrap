@@ -3,5 +3,6 @@ public class AxolotlEntityRenderer { public net.minecraft.client.render.entity.A
 
 // public java.util.Map TEXTURES() { return wrapperContained.TEXTURES; }
 // public void TEXTURES(java.util.Map value) { wrapperContained.TEXTURES = value; }
+// public void method_33307(java.util.HashMap variants) { wrapperContained.method_33307(variants); }
 
 }

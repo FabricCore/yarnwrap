@@ -13,5 +13,7 @@ public class JungleTempleGenerator { public net.minecraft.structure.JungleTemple
 // // public void COBBLESTONE_RANDOMIZER(Object value) { wrapperContained.COBBLESTONE_RANDOMIZER = value; }
 public int DEPTH() { return wrapperContained.DEPTH; }
 // public void DEPTH(int value) { wrapperContained.DEPTH = value; }
+public JungleTempleGenerator(yarnwrap.nbt.NbtCompound nbt) { this.wrapperContained = new net.minecraft.structure.JungleTempleGenerator(nbt.wrapperContained); }
+public JungleTempleGenerator(yarnwrap.util.math.random.Random random,int x,int z) { this.wrapperContained = new net.minecraft.structure.JungleTempleGenerator(random.wrapperContained,x,z); }
 
 }

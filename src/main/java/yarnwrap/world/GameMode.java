@@ -17,6 +17,7 @@ public Object CODEC() { return wrapperContained.CODEC; }
 // public void id(int value) { wrapperContained.id = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// // public GameMode(java.lang.String id,int name) { this.wrapperContained = new net.minecraft.world.GameMode(id,name); }
 public int getId(yarnwrap.world.GameMode gameMode) { return wrapperContained.getId(gameMode.wrapperContained); }
 public yarnwrap.world.GameMode getOrNull(int id) { return new yarnwrap.world.GameMode(wrapperContained.getOrNull(id)); }
 public yarnwrap.text.Text getSimpleTranslatableName() { return new yarnwrap.text.Text(wrapperContained.getSimpleTranslatableName()); }

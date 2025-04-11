@@ -5,5 +5,6 @@ public class CreeperIgniteGoal { public net.minecraft.entity.ai.goal.CreeperIgni
 // public void creeper(yarnwrap.entity.mob.CreeperEntity value) { wrapperContained.creeper = value.wrapperContained; }
 // public yarnwrap.entity.LivingEntity target() { return new yarnwrap.entity.LivingEntity(wrapperContained.target); }
 // public void target(yarnwrap.entity.LivingEntity value) { wrapperContained.target = value.wrapperContained; }
+public CreeperIgniteGoal(yarnwrap.entity.mob.CreeperEntity creeper) { this.wrapperContained = new net.minecraft.entity.ai.goal.CreeperIgniteGoal(creeper.wrapperContained); }
 
 }

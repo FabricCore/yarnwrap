@@ -7,6 +7,9 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 public com.mojang.serialization.MapCodec MAP_CODEC() { return wrapperContained.MAP_CODEC; }
 // public void MAP_CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.MAP_CODEC = value; }
+public GlobalPos(yarnwrap.registry.RegistryKey dimension,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.util.math.GlobalPos(dimension.wrapperContained,pos.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.math.GlobalPos create(yarnwrap.registry.RegistryKey dimension,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.GlobalPos(wrapperContained.create(dimension.wrapperContained,pos.wrapperContained)); }
+// public com.mojang.datafixers.kinds.App method_29096(Object instance) { return wrapperContained.method_29096(instance); }
 
 }

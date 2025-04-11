@@ -9,6 +9,7 @@ public class BreezeBrain { public net.minecraft.entity.mob.BreezeBrain wrapperCo
 // public void addCoreTasks(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addCoreTasks(brain.wrapperContained); }
 // public void addFightTasks(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addFightTasks(breeze.wrapperContained,brain.wrapperContained); }
 // public void updateActivities(yarnwrap.entity.mob.BreezeEntity breeze) { wrapperContained.updateActivities(breeze.wrapperContained); }
+// public java.util.Optional method_55749(yarnwrap.entity.mob.BreezeEntity breeze) { return wrapperContained.method_55749(breeze.wrapperContained); }
 // public void addIdleTasks(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleTasks(brain.wrapperContained); }
 
 }

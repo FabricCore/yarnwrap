@@ -17,6 +17,7 @@ public yarnwrap.util.math.intprovider.UniformIntProvider COOLDOWN_RANGE() { retu
 // public void seeingTargetTicker(int value) { wrapperContained.seeingTargetTicker = value; }
 // public yarnwrap.entity.mob.HostileEntity actor() { return new yarnwrap.entity.mob.HostileEntity(wrapperContained.actor); }
 // public void actor(yarnwrap.entity.mob.HostileEntity value) { wrapperContained.actor = value.wrapperContained; }
+public CrossbowAttackGoal(yarnwrap.entity.mob.HostileEntity actor,double speed,float range) { this.wrapperContained = new net.minecraft.entity.ai.goal.CrossbowAttackGoal(actor.wrapperContained,speed,range); }
 // public boolean isUncharged() { return wrapperContained.isUncharged(); }
 // public boolean hasAliveTarget() { return wrapperContained.hasAliveTarget(); }
 // public boolean isEntityHoldingCrossbow() { return wrapperContained.isEntityHoldingCrossbow(); }

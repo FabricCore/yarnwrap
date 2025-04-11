@@ -3,6 +3,7 @@ public class FurnaceFuelSlot { public net.minecraft.screen.slot.FurnaceFuelSlot 
 
 // public yarnwrap.screen.AbstractFurnaceScreenHandler handler() { return new yarnwrap.screen.AbstractFurnaceScreenHandler(wrapperContained.handler); }
 // public void handler(yarnwrap.screen.AbstractFurnaceScreenHandler value) { wrapperContained.handler = value.wrapperContained; }
+public FurnaceFuelSlot(yarnwrap.screen.AbstractFurnaceScreenHandler handler,yarnwrap.inventory.Inventory inventory,int index,int x,int y) { this.wrapperContained = new net.minecraft.screen.slot.FurnaceFuelSlot(handler.wrapperContained,inventory.wrapperContained,index,x,y); }
 public boolean isBucket(yarnwrap.item.ItemStack stack) { return wrapperContained.isBucket(stack.wrapperContained); }
 
 }

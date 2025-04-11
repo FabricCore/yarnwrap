@@ -15,6 +15,10 @@ public double maxY() { return wrapperContained.maxY; }
 // public void maxY(double value) { wrapperContained.maxY = value; }
 // public double EPSILON() { return wrapperContained.EPSILON; }
 // public void EPSILON(double value) { wrapperContained.EPSILON = value; }
+public Box(double x1,double y1,double z1,double x2,double y2,double z2) { this.wrapperContained = new net.minecraft.util.math.Box(x1,y1,z1,x2,y2,z2); }
+public Box(yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.util.math.Box(pos.wrapperContained); }
+public Box(yarnwrap.util.math.Vec3d pos1,yarnwrap.util.math.Vec3d pos2) { this.wrapperContained = new net.minecraft.util.math.Box(pos1.wrapperContained,pos2.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public double getMin(Object axis) { return wrapperContained.getMin(axis); }
 public yarnwrap.util.math.Box shrink(double x,double y,double z) { return new yarnwrap.util.math.Box(wrapperContained.shrink(x,y,z)); }
 public boolean intersects(double minX,double minY,double minZ,double maxX,double maxY,double maxZ) { return wrapperContained.intersects(minX,minY,minZ,maxX,maxY,maxZ); }

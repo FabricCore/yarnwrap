@@ -5,6 +5,7 @@ public yarnwrap.state.property.BooleanProperty POWERED() { return new yarnwrap.s
 // public void POWERED(yarnwrap.state.property.BooleanProperty value) { wrapperContained.POWERED = value.wrapperContained; }
 // public Object type() { return wrapperContained.type; }
 // // public void type(Object value) { wrapperContained.type = value; }
+// public AbstractSkullBlock(Object type,Object settings) { this.wrapperContained = new net.minecraft.block.AbstractSkullBlock(type,settings); }
 public Object getSkullType() { return wrapperContained.getSkullType(); }
 
 }

@@ -19,6 +19,7 @@ public java.util.List CONNECTION_VARIANT_FUNCTIONS() { return wrapperContained.C
 // public void stoneStateFactories(java.util.Map value) { wrapperContained.stoneStateFactories = value; }
 // public java.util.Map CHISELED_BOOKSHELF_MODEL_CACHE() { return wrapperContained.CHISELED_BOOKSHELF_MODEL_CACHE; }
 // public void CHISELED_BOOKSHELF_MODEL_CACHE(java.util.Map value) { wrapperContained.CHISELED_BOOKSHELF_MODEL_CACHE = value; }
+public BlockStateModelGenerator(java.util.function.Consumer blockStateCollector,java.util.function.BiConsumer modelCollector,java.util.function.Consumer simpleItemModelExemptionCollector) { this.wrapperContained = new net.minecraft.data.client.BlockStateModelGenerator(blockStateCollector,modelCollector,simpleItemModelExemptionCollector); }
 // public void registerChorusPlant() { wrapperContained.registerChorusPlant(); }
 // public void registerComposter() { wrapperContained.registerComposter(); }
 // public void registerDaylightDetector() { wrapperContained.registerDaylightDetector(); }
@@ -178,13 +179,36 @@ public void registerSimpleCubeAll(yarnwrap.block.Block block) { wrapperContained
 // public yarnwrap.data.client.BlockStateVariant getDripstoneVariant(yarnwrap.util.math.Direction direction,yarnwrap.block.enums.Thickness thickness) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.getDripstoneVariant(direction.wrapperContained,thickness.wrapperContained)); }
 // public void registerSculkSensor() { wrapperContained.registerSculkSensor(); }
 // public void registerPetrifiedOakSlab() { wrapperContained.registerPetrifiedOakSlab(); }
+// public void method_33509(yarnwrap.data.client.TextureMap textureMap) { wrapperContained.method_33509(textureMap.wrapperContained); }
+// public void method_33512(yarnwrap.data.client.TextureMap textureMap) { wrapperContained.method_33512(textureMap.wrapperContained); }
 // public void registerWallPlant(yarnwrap.block.Block block) { wrapperContained.registerWallPlant(block.wrapperContained); }
 // public void registerCaveVines() { wrapperContained.registerCaveVines(); }
 // public void registerBigDripleaf() { wrapperContained.registerBigDripleaf(); }
 // public void registerSmallDripleaf() { wrapperContained.registerSmallDripleaf(); }
 // public void registerAzalea(yarnwrap.block.Block block) { wrapperContained.registerAzalea(block.wrapperContained); }
+// public void method_34603(yarnwrap.item.SpawnEggItem item) { wrapperContained.method_34603(item.wrapperContained); }
+// public void method_34605(yarnwrap.block.Block property) { wrapperContained.method_34605(property.wrapperContained); }
+// public yarnwrap.data.client.BlockStateVariant method_34606(yarnwrap.block.Block age) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_34606(age.wrapperContained)); }
 // public yarnwrap.data.client.BlockStateSupplier createStoneState(yarnwrap.block.Block block,yarnwrap.util.Identifier modelId,yarnwrap.data.client.TextureMap textures,java.util.function.BiConsumer modelCollector) { return new yarnwrap.data.client.BlockStateSupplier(wrapperContained.createStoneState(block.wrapperContained,modelId.wrapperContained,textures.wrapperContained,modelCollector)); }
+// public yarnwrap.data.client.BlockStateVariant method_34610(yarnwrap.block.enums.StructureBlockMode mode) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_34610(mode.wrapperContained)); }
+// public void method_34612(yarnwrap.data.family.BlockFamily family) { wrapperContained.method_34612(family.wrapperContained); }
+// public yarnwrap.data.client.BlockStateVariant method_34618(java.lang.Integer stage) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_34618(stage)); }
+// public yarnwrap.data.client.BlockStateVariant method_34619(java.lang.Integer tick,java.lang.Boolean locked,java.lang.Boolean on) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_34619(tick,locked,on)); }
+// public void method_34623(yarnwrap.data.client.TextureMap textures) { wrapperContained.method_34623(textures.wrapperContained); }
+// public yarnwrap.data.client.TextureMap method_34624(yarnwrap.data.client.TextureMap id) { return new yarnwrap.data.client.TextureMap(wrapperContained.method_34624(id.wrapperContained)); }
+// public yarnwrap.data.client.BlockStateVariant method_34625(yarnwrap.util.Identifier height) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_34625(height.wrapperContained)); }
+// public void method_34626(yarnwrap.util.Identifier textures) { wrapperContained.method_34626(textures.wrapperContained); }
+// public yarnwrap.data.client.BlockStateVariant method_34627(yarnwrap.util.Identifier phase) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_34627(phase.wrapperContained)); }
+// public yarnwrap.data.client.BlockStateVariant method_34628(yarnwrap.util.Identifier on,yarnwrap.util.Identifier shape) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_34628(on.wrapperContained,shape.wrapperContained)); }
+// public yarnwrap.data.client.BlockStateVariant method_34629(int age) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_34629(age)); }
+// public yarnwrap.data.client.BlockStateVariant method_34630(net.minecraft.util.Identifier[] charges) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_34630(charges)); }
 // public yarnwrap.data.client.BlockStateSupplier createDeepslateState(yarnwrap.block.Block block,yarnwrap.util.Identifier modelId,yarnwrap.data.client.TextureMap textures,java.util.function.BiConsumer modelCollector) { return new yarnwrap.data.client.BlockStateSupplier(wrapperContained.createDeepslateState(block.wrapperContained,modelId.wrapperContained,textures.wrapperContained,modelCollector)); }
+// public void method_34636(yarnwrap.data.client.TextureMap textures) { wrapperContained.method_34636(textures.wrapperContained); }
+// public yarnwrap.data.client.TextureMap method_34637(yarnwrap.data.client.TextureMap id) { return new yarnwrap.data.client.TextureMap(wrapperContained.method_34637(id.wrapperContained)); }
+// public void method_34639(yarnwrap.util.Identifier textures) { wrapperContained.method_34639(textures.wrapperContained); }
+// public void method_34643(yarnwrap.data.client.TextureMap textureMap) { wrapperContained.method_34643(textureMap.wrapperContained); }
+// public void method_34645(yarnwrap.util.Identifier textures) { wrapperContained.method_34645(textures.wrapperContained); }
+// public yarnwrap.data.client.BlockStateVariant method_34657(yarnwrap.util.Identifier modelId) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_34657(modelId.wrapperContained)); }
 // public void registerLightningRod() { wrapperContained.registerLightningRod(); }
 // public void registerSingleton(yarnwrap.block.Block block,yarnwrap.data.client.TextureMap textures,yarnwrap.data.client.Model model) { wrapperContained.registerSingleton(block.wrapperContained,textures.wrapperContained,model.wrapperContained); }
 // public void registerInfestedDeepslate() { wrapperContained.registerInfestedDeepslate(); }
@@ -193,30 +217,50 @@ public void registerSimpleCubeAll(yarnwrap.block.Block block) { wrapperContained
 // public void registerMuddyMangroveRoots() { wrapperContained.registerMuddyMangroveRoots(); }
 // public void registerMangrovePropagule() { wrapperContained.registerMangrovePropagule(); }
 // public void registerFrogspawn() { wrapperContained.registerFrogspawn(); }
+// public yarnwrap.data.client.BlockStateVariant method_42036(yarnwrap.util.Identifier bloom) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_42036(bloom.wrapperContained)); }
 // public void registerSculkShrieker() { wrapperContained.registerSculkShrieker(); }
 // public void registerSculkCatalyst() { wrapperContained.registerSculkCatalyst(); }
 // public yarnwrap.data.client.BlockStateSupplier createMudBrickState(yarnwrap.block.Block block,yarnwrap.util.Identifier modelId,yarnwrap.data.client.TextureMap textures,java.util.function.BiConsumer modelCollector) { return new yarnwrap.data.client.BlockStateSupplier(wrapperContained.createMudBrickState(block.wrapperContained,modelId.wrapperContained,textures.wrapperContained,modelCollector)); }
+// public yarnwrap.data.client.BlockStateVariant method_43818(yarnwrap.util.Identifier model) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_43818(model.wrapperContained)); }
+// public yarnwrap.data.client.BlockStateVariant method_43819(yarnwrap.util.Identifier model) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_43819(model.wrapperContained)); }
+// public yarnwrap.data.client.BlockStateVariant method_43820(yarnwrap.util.Identifier model) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_43820(model.wrapperContained)); }
+// public yarnwrap.data.client.BlockStateVariant method_43821(yarnwrap.util.Identifier model) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_43821(model.wrapperContained)); }
+// public yarnwrap.data.client.BlockStateVariant method_43822(yarnwrap.util.Identifier model) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_43822(model.wrapperContained)); }
+// public yarnwrap.data.client.BlockStateVariant method_43823(yarnwrap.util.Identifier model) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_43823(model.wrapperContained)); }
 // public yarnwrap.data.client.BlockStateSupplier createCustomFenceBlockState(yarnwrap.block.Block customFenceBlock,yarnwrap.util.Identifier postModelId,yarnwrap.util.Identifier northModelId,yarnwrap.util.Identifier eastModelId,yarnwrap.util.Identifier southModelId,yarnwrap.util.Identifier westModelId) { return new yarnwrap.data.client.BlockStateSupplier(wrapperContained.createCustomFenceBlockState(customFenceBlock.wrapperContained,postModelId.wrapperContained,northModelId.wrapperContained,eastModelId.wrapperContained,southModelId.wrapperContained,westModelId.wrapperContained)); }
 public void registerHangingSign(yarnwrap.block.Block strippedLog,yarnwrap.block.Block hangingSign,yarnwrap.block.Block wallHangingSign) { wrapperContained.registerHangingSign(strippedLog.wrapperContained,hangingSign.wrapperContained,wallHangingSign.wrapperContained); }
 // public void registerChiseledBookshelf() { wrapperContained.registerChiseledBookshelf(); }
 // public yarnwrap.data.client.BlockStateSupplier createUvLockedColumnBlockState(yarnwrap.block.Block block,yarnwrap.data.client.TextureMap textureMap,java.util.function.BiConsumer modelCollector) { return new yarnwrap.data.client.BlockStateSupplier(wrapperContained.createUvLockedColumnBlockState(block.wrapperContained,textureMap.wrapperContained,modelCollector)); }
+// public void method_47811(yarnwrap.data.client.MultipartBlockStateSupplier pair) { wrapperContained.method_47811(pair.wrapperContained); }
 // public void supplyChiseledBookshelfModels(yarnwrap.data.client.MultipartBlockStateSupplier blockStateSupplier,Object facingCondition,Object rotation) { wrapperContained.supplyChiseledBookshelfModels(blockStateSupplier.wrapperContained,facingCondition,rotation); }
+// public void method_47813(yarnwrap.data.client.MultipartBlockStateSupplier pair) { wrapperContained.method_47813(pair.wrapperContained); }
 // public void supplyChiseledBookshelfModel(yarnwrap.data.client.MultipartBlockStateSupplier blockStateSupplier,Object facingCondition,Object rotation,yarnwrap.state.property.BooleanProperty property,yarnwrap.data.client.Model model,boolean occupied) { wrapperContained.supplyChiseledBookshelfModel(blockStateSupplier.wrapperContained,facingCondition,rotation,property.wrapperContained,model.wrapperContained,occupied); }
+// public yarnwrap.util.Identifier method_47815(yarnwrap.data.client.Model key) { return new yarnwrap.util.Identifier(wrapperContained.method_47815(key.wrapperContained)); }
 // public void registerTintableCrossBlockStateWithStages(yarnwrap.block.Block block,Object tintType,yarnwrap.state.property.Property stageProperty,int stages) { wrapperContained.registerTintableCrossBlockStateWithStages(block.wrapperContained,tintType,stageProperty.wrapperContained,stages); }
+// public yarnwrap.data.client.BlockStateVariant method_49375(int stage) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_49375(stage)); }
+// public yarnwrap.data.client.BlockStateVariant method_49376(yarnwrap.block.Block dusted) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_49376(dusted.wrapperContained)); }
 // public void registerBrushableBlock(yarnwrap.block.Block block) { wrapperContained.registerBrushableBlock(block.wrapperContained); }
 // public void registerFlowerbed(yarnwrap.block.Block flowerbed) { wrapperContained.registerFlowerbed(flowerbed.wrapperContained); }
+// public yarnwrap.data.client.BlockStateVariant method_49985(yarnwrap.util.Identifier phase) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_49985(phase.wrapperContained)); }
+// public yarnwrap.data.client.BlockStateVariant method_49986(yarnwrap.block.Block age,java.lang.Integer half) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_49986(age.wrapperContained,half)); }
+// public yarnwrap.util.Identifier method_49987(java.lang.Integer hatch) { return new yarnwrap.util.Identifier(wrapperContained.method_49987(hatch)); }
+// public yarnwrap.data.client.BlockStateVariant method_49988(java.util.function.Function hatch) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_49988(hatch)); }
 // public void registerCalibratedSculkSensor() { wrapperContained.registerCalibratedSculkSensor(); }
 // public void registerSnifferEgg() { wrapperContained.registerSnifferEgg(); }
 // public void registerPitcherPlant() { wrapperContained.registerPitcherPlant(); }
 // public void registerPitcherCrop() { wrapperContained.registerPitcherCrop(); }
 public void registerGeneric(yarnwrap.block.Block block) { wrapperContained.registerGeneric(block.wrapperContained); }
 // public void registerCrafter() { wrapperContained.registerCrafter(); }
+// public yarnwrap.data.client.BlockStateVariant method_54655(yarnwrap.block.enums.Orientation orientation) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_54655(orientation.wrapperContained)); }
+// public yarnwrap.data.client.BlockStateVariant method_54821(yarnwrap.util.Identifier lit,yarnwrap.util.Identifier powered) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_54821(lit.wrapperContained,powered.wrapperContained)); }
 // public yarnwrap.data.client.BlockStateSupplier createCopperBulbBlockState(yarnwrap.block.Block copperBulbBlock,yarnwrap.util.Identifier modelId,yarnwrap.util.Identifier litModelId,yarnwrap.util.Identifier poweredModelId,yarnwrap.util.Identifier litPoweredModelId) { return new yarnwrap.data.client.BlockStateSupplier(wrapperContained.createCopperBulbBlockState(copperBulbBlock.wrapperContained,modelId.wrapperContained,litModelId.wrapperContained,poweredModelId.wrapperContained,litPoweredModelId.wrapperContained)); }
 // public void registerParentedDoor(yarnwrap.block.Block parent,yarnwrap.block.Block doorBlock) { wrapperContained.registerParentedDoor(parent.wrapperContained,doorBlock.wrapperContained); }
 // public void registerParentedTrapdoor(yarnwrap.block.Block parent,yarnwrap.block.Block trapdoorBlock) { wrapperContained.registerParentedTrapdoor(parent.wrapperContained,trapdoorBlock.wrapperContained); }
 // public void registerWaxedCopperBulb(yarnwrap.block.Block unwaxedCopperBulbBlock,yarnwrap.block.Block waxedCopperBulbBlock) { wrapperContained.registerWaxedCopperBulb(unwaxedCopperBulbBlock.wrapperContained,waxedCopperBulbBlock.wrapperContained); }
 // public void registerCopperBulb(yarnwrap.block.Block copperBulbBlock) { wrapperContained.registerCopperBulb(copperBulbBlock.wrapperContained); }
+// public yarnwrap.data.client.BlockStateVariant method_55305(yarnwrap.util.Identifier spawnerState,yarnwrap.util.Identifier ominous) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_55305(spawnerState.wrapperContained,ominous.wrapperContained)); }
 // public void registerTrialSpawner() { wrapperContained.registerTrialSpawner(); }
+// public yarnwrap.data.client.BlockStateVariant method_56885(yarnwrap.util.Identifier vaultState,yarnwrap.util.Identifier ominous) { return new yarnwrap.data.client.BlockStateVariant(wrapperContained.method_56885(vaultState.wrapperContained,ominous.wrapperContained)); }
 // public void registerVault() { wrapperContained.registerVault(); }
 
 }

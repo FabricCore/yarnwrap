@@ -199,6 +199,7 @@ public float getScaleFactor() { return wrapperContained.getScaleFactor(); }
 public double getAttackDistanceScalingFactor(yarnwrap.entity.Entity entity) { return wrapperContained.getAttackDistanceScalingFactor(entity.wrapperContained); }
 public boolean isTarget(yarnwrap.entity.LivingEntity entity,yarnwrap.entity.ai.TargetPredicate predicate) { return wrapperContained.isTarget(entity.wrapperContained,predicate.wrapperContained); }
 // public void setPositionInBed(yarnwrap.util.math.BlockPos pos) { wrapperContained.setPositionInBed(pos.wrapperContained); }
+// public void method_18393(yarnwrap.nbt.NbtCompound pos) { wrapperContained.method_18393(pos.wrapperContained); }
 public boolean canTarget(yarnwrap.entity.LivingEntity target) { return wrapperContained.canTarget(target.wrapperContained); }
 public float getArmorVisibility() { return wrapperContained.getArmorVisibility(); }
 public boolean canEquip(yarnwrap.item.ItemStack stack) { return wrapperContained.canEquip(stack.wrapperContained); }
@@ -208,6 +209,8 @@ public void wakeUp() { wrapperContained.wakeUp(); }
 public yarnwrap.util.math.Direction getSleepingDirection() { return new yarnwrap.util.math.Direction(wrapperContained.getSleepingDirection()); }
 public void setSleepingPosition(yarnwrap.util.math.BlockPos pos) { wrapperContained.setSleepingPosition(pos.wrapperContained); }
 public void sleep(yarnwrap.util.math.BlockPos pos) { wrapperContained.sleep(pos.wrapperContained); }
+// public void method_18404(yarnwrap.util.math.BlockPos pos) { wrapperContained.method_18404(pos.wrapperContained); }
+// public java.lang.Boolean method_18405(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_18405(pos.wrapperContained); }
 // public boolean isSleepingInBed() { return wrapperContained.isSleepingInBed(); }
 // public yarnwrap.util.math.Vec3d applyClimbingSpeed(yarnwrap.util.math.Vec3d motion) { return new yarnwrap.util.math.Vec3d(wrapperContained.applyClimbingSpeed(motion.wrapperContained)); }
 // public float getMovementSpeed(float slipperiness) { return wrapperContained.getMovementSpeed(slipperiness); }
@@ -230,6 +233,7 @@ public void swingHand(yarnwrap.util.Hand hand,boolean fromServerPlayer) { wrappe
 // public void onKilledBy(yarnwrap.entity.LivingEntity adversary) { wrapperContained.onKilledBy(adversary.wrapperContained); }
 // public void dropXp(yarnwrap.entity.Entity attacker) { wrapperContained.dropXp(attacker.wrapperContained); }
 public boolean isHolding(yarnwrap.item.Item item) { return wrapperContained.isHolding(item.wrapperContained); }
+// public boolean method_24519(yarnwrap.item.Item stack) { return wrapperContained.method_24519(stack.wrapperContained); }
 public boolean isHolding(java.util.function.Predicate predicate) { return wrapperContained.isHolding(predicate); }
 public com.google.common.collect.ImmutableList getPoses() { return wrapperContained.getPoses(); }
 public java.util.Optional getClimbingPos() { return wrapperContained.getClimbingPos(); }
@@ -240,6 +244,7 @@ public yarnwrap.util.math.Vec3d applyMovementInput(yarnwrap.util.math.Vec3d move
 public boolean canWalkOnFluid(yarnwrap.fluid.FluidState state) { return wrapperContained.canWalkOnFluid(state.wrapperContained); }
 public Object createLivingAttributes() { return wrapperContained.createLivingAttributes(); }
 // public boolean shouldDropLoot() { return wrapperContained.shouldDropLoot(); }
+// public void method_28305(yarnwrap.nbt.NbtCompound brain) { wrapperContained.method_28305(brain.wrapperContained); }
 // public Object createBrainProfile() { return wrapperContained.createBrainProfile(); }
 public void updateLimbs(boolean flutter) { wrapperContained.updateLimbs(flutter); }
 public void triggerItemPickedUpByEntityCriteria(yarnwrap.entity.ItemEntity item) { wrapperContained.triggerItemPickedUpByEntityCriteria(item.wrapperContained); }
@@ -247,6 +252,7 @@ public boolean hurtByWater() { return wrapperContained.hurtByWater(); }
 public boolean isDead() { return wrapperContained.isDead(); }
 public void setAttacking(yarnwrap.entity.player.PlayerEntity attacking) { wrapperContained.setAttacking(attacking.wrapperContained); }
 // public boolean shouldSwimInFluids() { return wrapperContained.shouldSwimInFluids(); }
+// public void method_30120(java.util.List slot,yarnwrap.entity.EquipmentSlot stack) { wrapperContained.method_30120(slot,stack.wrapperContained); }
 // public void checkHandStackSwap(java.util.Map equipmentChanges) { wrapperContained.checkHandStackSwap(equipmentChanges); }
 // public void setSyncedArmorStack(yarnwrap.entity.EquipmentSlot slot,yarnwrap.item.ItemStack armor) { wrapperContained.setSyncedArmorStack(slot.wrapperContained,armor.wrapperContained); }
 // public void sendEquipmentChanges(java.util.Map equipmentChanges) { wrapperContained.sendEquipmentChanges(equipmentChanges); }
@@ -259,6 +265,7 @@ public void setAttacking(yarnwrap.entity.player.PlayerEntity attacking) { wrappe
 public yarnwrap.util.math.Vec3d positionInPortal(yarnwrap.util.math.Vec3d pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.positionInPortal(pos.wrapperContained)); }
 // public yarnwrap.inventory.StackReference getStackReference(yarnwrap.entity.LivingEntity entity,yarnwrap.entity.EquipmentSlot slot) { return new yarnwrap.inventory.StackReference(wrapperContained.getStackReference(entity.wrapperContained,slot.wrapperContained)); }
 // public yarnwrap.entity.EquipmentSlot getEquipmentSlot(int slotId) { return new yarnwrap.entity.EquipmentSlot(wrapperContained.getEquipmentSlot(slotId)); }
+// public boolean method_32323(yarnwrap.entity.LivingEntity stack) { return wrapperContained.method_32323(stack.wrapperContained); }
 // public void removePowderSnowSlow() { wrapperContained.removePowderSnowSlow(); }
 // public void addPowderSnowSlowIfNeeded() { wrapperContained.addPowderSnowSlowIfNeeded(); }
 public yarnwrap.entity.EquipmentSlot getPreferredEquipmentSlot(yarnwrap.item.ItemStack stack) { return new yarnwrap.entity.EquipmentSlot(wrapperContained.getPreferredEquipmentSlot(stack.wrapperContained)); }
@@ -313,6 +320,7 @@ public boolean isInCreativeMode() { return wrapperContained.isInCreativeMode(); 
 // public int getSafeFallDistance(float health) { return wrapperContained.getSafeFallDistance(health); }
 // public float getJumpVelocity(float strength) { return wrapperContained.getJumpVelocity(strength); }
 // public void damageEquipment(yarnwrap.entity.damage.DamageSource source,float amount,net.minecraft.entity.EquipmentSlot[] slots) { wrapperContained.damageEquipment(source.wrapperContained,amount,slots); }
+// public void method_57294(yarnwrap.entity.attribute.AttributeContainer attribute,yarnwrap.item.ItemStack modifier) { wrapperContained.method_57294(attribute.wrapperContained,modifier.wrapperContained); }
 // public void updatePotionSwirls() { wrapperContained.updatePotionSwirls(); }
 public java.lang.Iterable getHandItems() { return wrapperContained.getHandItems(); }
 public boolean canTarget(yarnwrap.entity.EntityType type) { return wrapperContained.canTarget(type.wrapperContained); }

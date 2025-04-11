@@ -15,11 +15,16 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void stacks(java.util.List value) { wrapperContained.stacks = value; }
 // public org.apache.commons.lang3.math.Fraction occupancy() { return wrapperContained.occupancy; }
 // public void occupancy(org.apache.commons.lang3.math.Fraction value) { wrapperContained.occupancy = value; }
+public BundleContentsComponent(java.util.List stacks) { this.wrapperContained = new net.minecraft.component.type.BundleContentsComponent(stacks); }
+// public BundleContentsComponent(java.util.List stacks,org.apache.commons.lang3.math.Fraction occupancy) { this.wrapperContained = new net.minecraft.component.type.BundleContentsComponent(stacks,occupancy); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public java.lang.Iterable iterate() { return wrapperContained.iterate(); }
 public yarnwrap.item.ItemStack get(int index) { return new yarnwrap.item.ItemStack(wrapperContained.get(index)); }
 // public org.apache.commons.lang3.math.Fraction getOccupancy(yarnwrap.item.ItemStack stack) { return wrapperContained.getOccupancy(stack.wrapperContained); }
+// public java.util.List method_57424(yarnwrap.component.type.BundleContentsComponent component) { return wrapperContained.method_57424(component.wrapperContained); }
 // public org.apache.commons.lang3.math.Fraction calculateOccupancy(java.util.List stacks) { return wrapperContained.calculateOccupancy(stacks); }
 public int size() { return wrapperContained.size(); }
+// public java.util.List method_57427(yarnwrap.component.type.BundleContentsComponent component) { return wrapperContained.method_57427(component.wrapperContained); }
 public org.apache.commons.lang3.math.Fraction getOccupancy() { return wrapperContained.getOccupancy(); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 public java.util.stream.Stream stream() { return wrapperContained.stream(); }

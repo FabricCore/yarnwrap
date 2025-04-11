@@ -11,5 +11,6 @@ public class GuardianAttackSoundInstance { public net.minecraft.client.sound.Gua
 // public void BEAM_PROGRESS_PITCH_MULTIPLIER(float value) { wrapperContained.BEAM_PROGRESS_PITCH_MULTIPLIER = value; }
 // public yarnwrap.entity.mob.GuardianEntity guardian() { return new yarnwrap.entity.mob.GuardianEntity(wrapperContained.guardian); }
 // public void guardian(yarnwrap.entity.mob.GuardianEntity value) { wrapperContained.guardian = value.wrapperContained; }
+public GuardianAttackSoundInstance(yarnwrap.entity.mob.GuardianEntity guardian) { this.wrapperContained = new net.minecraft.client.sound.GuardianAttackSoundInstance(guardian.wrapperContained); }
 
 }

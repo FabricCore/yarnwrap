@@ -9,5 +9,6 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 // public yarnwrap.util.Identifier id() { return new yarnwrap.util.Identifier(wrapperContained.id()); }
 // public yarnwrap.recipe.Recipe value() { return new yarnwrap.recipe.Recipe(wrapperContained.value()); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 
 }

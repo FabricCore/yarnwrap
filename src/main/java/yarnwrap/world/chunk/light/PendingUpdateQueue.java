@@ -7,6 +7,7 @@ public class PendingUpdateQueue { public net.minecraft.world.chunk.light.Pending
 // public void pendingIdUpdatesByLevel(it.unimi.dsi.fastutil.longs.LongLinkedOpenHashSet[] value) { wrapperContained.pendingIdUpdatesByLevel = value; }
 // public int minPendingLevel() { return wrapperContained.minPendingLevel; }
 // public void minPendingLevel(int value) { wrapperContained.minPendingLevel = value; }
+public PendingUpdateQueue(int levelCount,int expectedLevelSize) { this.wrapperContained = new net.minecraft.world.chunk.light.PendingUpdateQueue(levelCount,expectedLevelSize); }
 public long dequeue() { return wrapperContained.dequeue(); }
 // public void increaseMinPendingLevel(int maxLevel) { wrapperContained.increaseMinPendingLevel(maxLevel); }
 public void enqueue(long id,int level) { wrapperContained.enqueue(id,level); }

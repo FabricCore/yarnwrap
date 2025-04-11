@@ -7,6 +7,8 @@ public class WorldBorderCenterChangedS2CPacket { public net.minecraft.network.pa
 // public void centerZ(double value) { wrapperContained.centerZ = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public WorldBorderCenterChangedS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.WorldBorderCenterChangedS2CPacket(buf.wrapperContained); }
+public WorldBorderCenterChangedS2CPacket(yarnwrap.world.border.WorldBorder worldBorder) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.WorldBorderCenterChangedS2CPacket(worldBorder.wrapperContained); }
 public double getCenterZ() { return wrapperContained.getCenterZ(); }
 public double getCenterX() { return wrapperContained.getCenterX(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

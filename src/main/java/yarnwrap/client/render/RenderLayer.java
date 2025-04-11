@@ -73,6 +73,7 @@ public int DEFAULT_BUFFER_SIZE() { return wrapperContained.DEFAULT_BUFFER_SIZE; 
 // public void FAST_CLOUDS(yarnwrap.client.render.RenderLayer value) { wrapperContained.FAST_CLOUDS = value.wrapperContained; }
 // public yarnwrap.client.render.RenderLayer FANCY_CLOUDS() { return new yarnwrap.client.render.RenderLayer(wrapperContained.FANCY_CLOUDS); }
 // public void FANCY_CLOUDS(yarnwrap.client.render.RenderLayer value) { wrapperContained.FANCY_CLOUDS = value.wrapperContained; }
+// public RenderLayer(java.lang.String name,yarnwrap.client.render.VertexFormat vertexFormat,Object drawMode,int expectedBufferSize,boolean hasCrumbling,boolean translucent,java.lang.Runnable startAction,java.lang.Runnable endAction) { this.wrapperContained = new net.minecraft.client.render.RenderLayer(name,vertexFormat.wrapperContained,drawMode,expectedBufferSize,hasCrumbling,translucent,startAction,endAction); }
 public java.util.List getBlockLayers() { return wrapperContained.getBlockLayers(); }
 public int getExpectedBufferSize() { return wrapperContained.getExpectedBufferSize(); }
 public yarnwrap.client.render.RenderLayer getEnergySwirl(yarnwrap.util.Identifier texture,float x,float y) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getEnergySwirl(texture.wrapperContained,x,y)); }
@@ -126,15 +127,39 @@ public yarnwrap.client.render.RenderLayer getGlintTranslucent() { return new yar
 // public Object of(Object program) { return wrapperContained.of(program); }
 public yarnwrap.client.render.RenderLayer getEndGateway() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getEndGateway()); }
 public yarnwrap.client.render.RenderLayer getLineStrip() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getLineStrip()); }
+// public yarnwrap.client.render.RenderLayer method_34822(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34822(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34823(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34823(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34824(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34824(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34825(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34825(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34826(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34826(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34827(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34827(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34829(yarnwrap.util.Identifier texture,java.lang.Boolean affectsOutline) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34829(texture.wrapperContained,affectsOutline)); }
+// public yarnwrap.client.render.RenderLayer method_34830(yarnwrap.util.Identifier texture,java.lang.Boolean affectsOutline) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34830(texture.wrapperContained,affectsOutline)); }
+// public yarnwrap.client.render.RenderLayer method_34831(yarnwrap.util.Identifier texture,java.lang.Boolean affectsOutline) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34831(texture.wrapperContained,affectsOutline)); }
+// public yarnwrap.client.render.RenderLayer method_34832(yarnwrap.util.Identifier texture,java.lang.Boolean affectsOutline) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34832(texture.wrapperContained,affectsOutline)); }
+// public yarnwrap.client.render.RenderLayer method_34833(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34833(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34834(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34834(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34835(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34835(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34836(yarnwrap.util.Identifier texture,Object transparency) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34836(texture.wrapperContained,transparency)); }
+// public yarnwrap.client.render.RenderLayer method_34837(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34837(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34838(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34838(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34839(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34839(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_34840(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_34840(texture.wrapperContained)); }
 public yarnwrap.client.render.RenderLayer getTextIntensity(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getTextIntensity(texture.wrapperContained)); }
 public yarnwrap.client.render.RenderLayer getTextIntensitySeeThrough(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getTextIntensitySeeThrough(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_36436(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_36436(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_36437(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_36437(texture.wrapperContained)); }
 public yarnwrap.client.render.RenderLayer getTextPolygonOffset(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getTextPolygonOffset(texture.wrapperContained)); }
 public yarnwrap.client.render.RenderLayer getTextIntensityPolygonOffset(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getTextIntensityPolygonOffset(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_37347(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_37347(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_37348(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_37348(texture.wrapperContained)); }
+// public yarnwrap.client.render.RenderLayer method_42598(yarnwrap.util.Identifier texture,java.lang.Boolean affectsOutline) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_42598(texture.wrapperContained,affectsOutline)); }
 public yarnwrap.client.render.RenderLayer getEntityTranslucentEmissive(yarnwrap.util.Identifier texture,boolean affectsOutline) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getEntityTranslucentEmissive(texture.wrapperContained,affectsOutline)); }
 public yarnwrap.client.render.RenderLayer getEntityTranslucentEmissive(yarnwrap.util.Identifier texture) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getEntityTranslucentEmissive(texture.wrapperContained)); }
 public boolean areVerticesNotShared() { return wrapperContained.areVerticesNotShared(); }
 public yarnwrap.client.render.RenderLayer getDebugQuads() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getDebugQuads()); }
 public yarnwrap.client.render.RenderLayer getDebugLineStrip(double lineWidth) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getDebugLineStrip(lineWidth)); }
+// public Object method_49044(java.lang.Double lineWidth) { return wrapperContained.method_49044(lineWidth); }
 public yarnwrap.client.render.RenderLayer getTextBackground() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getTextBackground()); }
 public yarnwrap.client.render.RenderLayer getTextBackgroundSeeThrough() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getTextBackgroundSeeThrough()); }
 public yarnwrap.client.render.RenderLayer getDebugFilledBox() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getDebugFilledBox()); }

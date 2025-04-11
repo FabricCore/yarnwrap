@@ -50,5 +50,7 @@ public java.lang.String encodeRsaPrivateKey(java.security.PrivateKey key) { retu
 public java.lang.String encodeRsaPublicKey(java.security.PublicKey key) { return wrapperContained.encodeRsaPublicKey(key); }
 // public java.security.PublicKey decodeRsaPublicKeyPem(java.lang.String key) { return wrapperContained.decodeRsaPublicKeyPem(key); }
 // public java.security.PrivateKey decodeEncodedRsaPrivateKey(byte key) { return wrapperContained.decodeEncodedRsaPrivateKey(key); }
+// public com.mojang.serialization.DataResult method_43526(java.lang.String key) { return wrapperContained.method_43526(key); }
+// public com.mojang.serialization.DataResult method_43527(java.lang.String key) { return wrapperContained.method_43527(key); }
 
 }

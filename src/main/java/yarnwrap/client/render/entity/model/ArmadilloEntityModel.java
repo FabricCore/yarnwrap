@@ -21,6 +21,7 @@ public class ArmadilloEntityModel { public net.minecraft.client.render.entity.mo
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart tail() { return new yarnwrap.client.model.ModelPart(wrapperContained.tail); }
 // public void tail(yarnwrap.client.model.ModelPart value) { wrapperContained.tail = value.wrapperContained; }
+public ArmadilloEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.ArmadilloEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

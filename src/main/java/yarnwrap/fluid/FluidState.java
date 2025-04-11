@@ -3,6 +3,7 @@ public class FluidState { public net.minecraft.fluid.FluidState wrapperContained
 
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public FluidState(yarnwrap.fluid.Fluid fluid,it.unimi.dsi.fastutil.objects.Reference2ObjectArrayMap propertyMap,com.mojang.serialization.MapCodec codec) { this.wrapperContained = new net.minecraft.fluid.FluidState(fluid.wrapperContained,propertyMap,codec); }
 public boolean canFlowTo(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.canFlowTo(world.wrapperContained,pos.wrapperContained); }
 public void onRandomTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { wrapperContained.onRandomTick(world.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 public yarnwrap.util.math.Vec3d getVelocity(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.getVelocity(world.wrapperContained,pos.wrapperContained)); }

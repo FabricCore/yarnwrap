@@ -69,6 +69,7 @@ public class HeldItemRenderer { public net.minecraft.client.render.item.HeldItem
 // public void equipProgressOffHand(float value) { wrapperContained.equipProgressOffHand = value; }
 // public float prevEquipProgressMainHand() { return wrapperContained.prevEquipProgressMainHand; }
 // public void prevEquipProgressMainHand(float value) { wrapperContained.prevEquipProgressMainHand = value; }
+public HeldItemRenderer(yarnwrap.client.MinecraftClient client,yarnwrap.client.render.entity.EntityRenderDispatcher entityRenderDispatcher,yarnwrap.client.render.item.ItemRenderer itemRenderer) { this.wrapperContained = new net.minecraft.client.render.item.HeldItemRenderer(client.wrapperContained,entityRenderDispatcher.wrapperContained,itemRenderer.wrapperContained); }
 // public void renderItem(float tickDelta,yarnwrap.client.util.math.MatrixStack matrices,Object vertexConsumers,yarnwrap.client.network.ClientPlayerEntity player,int light) { wrapperContained.renderItem(tickDelta,matrices.wrapperContained,vertexConsumers,player.wrapperContained,light); }
 public void resetEquipProgress(yarnwrap.util.Hand hand) { wrapperContained.resetEquipProgress(hand.wrapperContained); }
 // public void renderArm(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,yarnwrap.util.Arm arm) { wrapperContained.renderArm(matrices.wrapperContained,vertexConsumers.wrapperContained,light,arm.wrapperContained); }

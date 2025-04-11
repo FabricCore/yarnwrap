@@ -7,6 +7,8 @@ public class ScoreboardDisplayS2CPacket { public net.minecraft.network.packet.s2
 // public void name(java.lang.String value) { wrapperContained.name = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public ScoreboardDisplayS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ScoreboardDisplayS2CPacket(buf.wrapperContained); }
+public ScoreboardDisplayS2CPacket(yarnwrap.scoreboard.ScoreboardDisplaySlot slot,yarnwrap.scoreboard.ScoreboardObjective objective) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ScoreboardDisplayS2CPacket(slot.wrapperContained,objective.wrapperContained); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 public yarnwrap.scoreboard.ScoreboardDisplaySlot getSlot() { return new yarnwrap.scoreboard.ScoreboardDisplaySlot(wrapperContained.getSlot()); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

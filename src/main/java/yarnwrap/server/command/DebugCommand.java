@@ -11,8 +11,12 @@ public class DebugCommand { public net.minecraft.server.command.DebugCommand wra
 // public void NO_RECURSION_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.NO_RECURSION_EXCEPTION = value; }
 // public com.mojang.brigadier.exceptions.SimpleCommandExceptionType NO_RETURN_RUN_EXCEPTION() { return wrapperContained.NO_RETURN_RUN_EXCEPTION; }
 // public void NO_RETURN_RUN_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.NO_RETURN_RUN_EXCEPTION = value; }
+// public int method_13154(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13154(context); }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
+// public boolean method_13157(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13157(source.wrapperContained); }
 // public int executeStop(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeStop(source.wrapperContained); }
 // public int executeStart(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeStart(source.wrapperContained); }
+// public boolean method_13161(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13161(source.wrapperContained); }
+// public int method_36353(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_36353(context); }
 
 }

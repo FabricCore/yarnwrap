@@ -29,6 +29,9 @@ public class PopupScreen { public net.minecraft.client.gui.screen.PopupScreen wr
 // public void innerWidth(int value) { wrapperContained.innerWidth = value; }
 // public yarnwrap.client.gui.widget.DirectionalLayoutWidget layout() { return new yarnwrap.client.gui.widget.DirectionalLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.DirectionalLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+// public PopupScreen(yarnwrap.client.gui.screen.Screen backgroundScreen,int width,yarnwrap.util.Identifier image,yarnwrap.text.Text title,yarnwrap.text.Text message,java.util.List buttons,java.lang.Runnable onClosed) { this.wrapperContained = new net.minecraft.client.gui.screen.PopupScreen(backgroundScreen.wrapperContained,width,image.wrapperContained,title.wrapperContained,message.wrapperContained,buttons,onClosed); }
+// public void method_54122(Object button) { wrapperContained.method_54122(button); }
+// public void method_54123(yarnwrap.client.gui.screen.PopupScreen child) { wrapperContained.method_54123(child.wrapperContained); }
 // public yarnwrap.client.gui.widget.DirectionalLayoutWidget createButtonLayout() { return new yarnwrap.client.gui.widget.DirectionalLayoutWidget(wrapperContained.createButtonLayout()); }
 
 }

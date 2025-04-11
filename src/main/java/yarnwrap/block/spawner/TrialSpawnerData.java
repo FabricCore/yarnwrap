@@ -29,26 +29,38 @@ public void codec(com.mojang.serialization.MapCodec value) { wrapperContained.co
 // public void NEXT_MOB_SPAWNS_AT_KEY(java.lang.String value) { wrapperContained.NEXT_MOB_SPAWNS_AT_KEY = value; }
 // public yarnwrap.util.collection.DataPool itemsToDropWhenOminous() { return new yarnwrap.util.collection.DataPool(wrapperContained.itemsToDropWhenOminous); }
 // public void itemsToDropWhenOminous(yarnwrap.util.collection.DataPool value) { wrapperContained.itemsToDropWhenOminous = value.wrapperContained; }
+public TrialSpawnerData(java.util.Set players,java.util.Set spawnedMobsAlive,long cooldownEnd,long nextMobSpawnsAt,int totalSpawnedMobs,java.util.Optional spawnData,java.util.Optional rewardLootTable) { this.wrapperContained = new net.minecraft.block.spawner.TrialSpawnerData(players,spawnedMobsAlive,cooldownEnd,nextMobSpawnsAt,totalSpawnedMobs,spawnData,rewardLootTable); }
 public void reset() { wrapperContained.reset(); }
 public boolean isCooldownOver(yarnwrap.server.world.ServerWorld world) { return wrapperContained.isCooldownOver(world.wrapperContained); }
 // public boolean isCooldownPast(yarnwrap.server.world.ServerWorld world) { return wrapperContained.isCooldownPast(world.wrapperContained); }
 public boolean canSpawnMore(yarnwrap.server.world.ServerWorld world,yarnwrap.block.spawner.TrialSpawnerConfig config,int additionalPlayers) { return wrapperContained.canSpawnMore(world.wrapperContained,config.wrapperContained,additionalPlayers); }
 public void updatePlayers(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.spawner.TrialSpawnerLogic logic) { wrapperContained.updatePlayers(world.wrapperContained,pos.wrapperContained,logic.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_55187(Object instance) { return wrapperContained.method_55187(instance); }
 // public yarnwrap.block.spawner.MobSpawnerEntry getSpawnData(yarnwrap.block.spawner.TrialSpawnerLogic logic,yarnwrap.util.math.random.Random random) { return new yarnwrap.block.spawner.MobSpawnerEntry(wrapperContained.getSpawnData(logic.wrapperContained,random.wrapperContained)); }
 public void setEntityType(yarnwrap.block.spawner.TrialSpawnerLogic logic,yarnwrap.util.math.random.Random random,yarnwrap.entity.EntityType type) { wrapperContained.setEntityType(logic.wrapperContained,random.wrapperContained,type.wrapperContained); }
 public yarnwrap.entity.Entity setDisplayEntity(yarnwrap.block.spawner.TrialSpawnerLogic logic,yarnwrap.world.World world,yarnwrap.block.enums.TrialSpawnerState state) { return new yarnwrap.entity.Entity(wrapperContained.setDisplayEntity(logic.wrapperContained,world.wrapperContained,state.wrapperContained)); }
 public boolean hasSpawnedAllMobs(yarnwrap.block.spawner.TrialSpawnerConfig config,int additionalPlayers) { return wrapperContained.hasSpawnedAllMobs(config.wrapperContained,additionalPlayers); }
+// public java.util.Optional method_55193(yarnwrap.block.spawner.TrialSpawnerData data) { return wrapperContained.method_55193(data.wrapperContained); }
 public yarnwrap.nbt.NbtCompound getSpawnDataNbt(yarnwrap.block.enums.TrialSpawnerState state) { return new yarnwrap.nbt.NbtCompound(wrapperContained.getSpawnDataNbt(state.wrapperContained)); }
 public int getAdditionalPlayers(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getAdditionalPlayers(pos.wrapperContained); }
+// public void method_55196(yarnwrap.nbt.NbtCompound spawnData) { wrapperContained.method_55196(spawnData.wrapperContained); }
 public boolean hasSpawnData(yarnwrap.block.spawner.TrialSpawnerLogic logic,yarnwrap.util.math.random.Random random) { return wrapperContained.hasSpawnData(logic.wrapperContained,random.wrapperContained); }
 // public boolean isCooldownAtRepeating(yarnwrap.server.world.ServerWorld world) { return wrapperContained.isCooldownAtRepeating(world.wrapperContained); }
+// public java.util.Optional method_55199(yarnwrap.block.spawner.TrialSpawnerData data) { return wrapperContained.method_55199(data.wrapperContained); }
 public boolean areMobsDead() { return wrapperContained.areMobsDead(); }
+// public java.lang.Integer method_55201(yarnwrap.block.spawner.TrialSpawnerData data) { return wrapperContained.method_55201(data.wrapperContained); }
 public double getDisplayEntityRotation() { return wrapperContained.getDisplayEntityRotation(); }
+// public java.lang.Long method_55203(yarnwrap.block.spawner.TrialSpawnerData data) { return wrapperContained.method_55203(data.wrapperContained); }
 public double getLastDisplayEntityRotation() { return wrapperContained.getLastDisplayEntityRotation(); }
+// public java.lang.Long method_55205(yarnwrap.block.spawner.TrialSpawnerData data) { return wrapperContained.method_55205(data.wrapperContained); }
+// public java.util.Set method_55207(yarnwrap.block.spawner.TrialSpawnerData data) { return wrapperContained.method_55207(data.wrapperContained); }
+// public java.util.Set method_55208(yarnwrap.block.spawner.TrialSpawnerData data) { return wrapperContained.method_55208(data.wrapperContained); }
+// public void method_58713(yarnwrap.server.world.ServerWorld entity) { wrapperContained.method_58713(entity.wrapperContained); }
 // public yarnwrap.util.collection.DataPool getItemsToDropWhenOminous(yarnwrap.server.world.ServerWorld world,yarnwrap.block.spawner.TrialSpawnerConfig config,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.collection.DataPool(wrapperContained.getItemsToDropWhenOminous(world.wrapperContained,config.wrapperContained,pos.wrapperContained)); }
 // public long getLootSeed(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getLootSeed(world.wrapperContained,pos.wrapperContained); }
 // public void applyTrialOmen(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.applyTrialOmen(player.wrapperContained); }
 public void resetAndClearMobs(yarnwrap.block.spawner.TrialSpawnerLogic logic,yarnwrap.server.world.ServerWorld world) { wrapperContained.resetAndClearMobs(logic.wrapperContained,world.wrapperContained); }
 // public java.util.Optional findPlayerWithOmen(yarnwrap.server.world.ServerWorld world,java.util.List players) { return wrapperContained.findPlayerWithOmen(world.wrapperContained,players); }
+// public com.mojang.datafixers.util.Pair method_60790(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.method_60790(player.wrapperContained); }
 
 }

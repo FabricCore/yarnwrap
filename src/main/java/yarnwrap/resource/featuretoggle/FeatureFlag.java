@@ -5,5 +5,6 @@ public class FeatureFlag { public net.minecraft.resource.featuretoggle.FeatureFl
 // public void universe(yarnwrap.resource.featuretoggle.FeatureUniverse value) { wrapperContained.universe = value.wrapperContained; }
 // public long mask() { return wrapperContained.mask; }
 // public void mask(long value) { wrapperContained.mask = value; }
+// public FeatureFlag(yarnwrap.resource.featuretoggle.FeatureUniverse universe,int id) { this.wrapperContained = new net.minecraft.resource.featuretoggle.FeatureFlag(universe.wrapperContained,id); }
 
 }

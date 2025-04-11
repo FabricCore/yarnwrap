@@ -29,6 +29,9 @@ public class BuiltinModelItemRenderer { public net.minecraft.client.render.item.
 // public void modelTrident(yarnwrap.client.render.entity.model.TridentEntityModel value) { wrapperContained.modelTrident = value.wrapperContained; }
 // public yarnwrap.block.entity.DecoratedPotBlockEntity renderDecoratedPot() { return new yarnwrap.block.entity.DecoratedPotBlockEntity(wrapperContained.renderDecoratedPot); }
 // public void renderDecoratedPot(yarnwrap.block.entity.DecoratedPotBlockEntity value) { wrapperContained.renderDecoratedPot = value.wrapperContained; }
+public BuiltinModelItemRenderer(yarnwrap.client.render.block.entity.BlockEntityRenderDispatcher blockEntityRenderDispatcher,yarnwrap.client.render.entity.model.EntityModelLoader entityModelLoader) { this.wrapperContained = new net.minecraft.client.render.item.BuiltinModelItemRenderer(blockEntityRenderDispatcher.wrapperContained,entityModelLoader.wrapperContained); }
 public void render(yarnwrap.item.ItemStack stack,yarnwrap.client.render.model.json.ModelTransformationMode mode,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay) { wrapperContained.render(stack.wrapperContained,mode.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay); }
+// public yarnwrap.block.entity.ShulkerBoxBlockEntity method_32132(yarnwrap.util.DyeColor color) { return new yarnwrap.block.entity.ShulkerBoxBlockEntity(wrapperContained.method_32132(color.wrapperContained)); }
+// public void method_57795(yarnwrap.item.ItemStack profile) { wrapperContained.method_57795(profile.wrapperContained); }
 
 }

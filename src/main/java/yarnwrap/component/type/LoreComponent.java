@@ -11,6 +11,8 @@ public int MAX_LORES() { return wrapperContained.MAX_LORES; }
 // public void MAX_LORES(int value) { wrapperContained.MAX_LORES = value; }
 // public yarnwrap.text.Style STYLE() { return new yarnwrap.text.Style(wrapperContained.STYLE); }
 // public void STYLE(yarnwrap.text.Style value) { wrapperContained.STYLE = value.wrapperContained; }
+public LoreComponent(java.util.List lines) { this.wrapperContained = new net.minecraft.component.type.LoreComponent(lines); }
 public yarnwrap.component.type.LoreComponent with(yarnwrap.text.Text line) { return new yarnwrap.component.type.LoreComponent(wrapperContained.with(line.wrapperContained)); }
+// public yarnwrap.text.Text method_57500(yarnwrap.text.Text style) { return new yarnwrap.text.Text(wrapperContained.method_57500(style.wrapperContained)); }
 
 }

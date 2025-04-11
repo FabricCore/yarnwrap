@@ -5,5 +5,6 @@ public class VerticalBlockSample { public net.minecraft.world.gen.chunk.Vertical
 // public void states(net.minecraft.block.BlockState[] value) { wrapperContained.states = value; }
 // public int startY() { return wrapperContained.startY; }
 // public void startY(int value) { wrapperContained.startY = value; }
+public VerticalBlockSample(int startY,net.minecraft.block.BlockState[] states) { this.wrapperContained = new net.minecraft.world.gen.chunk.VerticalBlockSample(startY,states); }
 
 }

@@ -9,6 +9,7 @@ public com.mojang.serialization.MapCodec MODIFIER_CODEC() { return wrapperContai
 // public void min(int value) { wrapperContained.min = value; }
 // public int max() { return wrapperContained.max; }
 // public void max(int value) { wrapperContained.max = value; }
+// public SurfaceThresholdFilterPlacementModifier(Object heightmap,int min,int max) { this.wrapperContained = new net.minecraft.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier(heightmap,min,max); }
 // public yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier of(Object heightmap,int min,int max) { return new yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier(wrapperContained.of(heightmap,min,max)); }
 
 }

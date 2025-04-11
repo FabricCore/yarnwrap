@@ -5,6 +5,7 @@ public class Pair { public net.minecraft.util.Pair wrapperContained; public Pair
 // public void left(java.lang.Object value) { wrapperContained.left = value; }
 // public java.lang.Object right() { return wrapperContained.right; }
 // public void right(java.lang.Object value) { wrapperContained.right = value; }
+public Pair(java.lang.Object left,java.lang.Object right) { this.wrapperContained = new net.minecraft.util.Pair(left,right); }
 public java.lang.Object getRight() { return wrapperContained.getRight(); }
 public java.lang.Object getLeft() { return wrapperContained.getLeft(); }
 public void setLeft(java.lang.Object left) { wrapperContained.setLeft(left); }

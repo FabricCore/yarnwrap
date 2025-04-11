@@ -9,6 +9,7 @@ public class RealmsText { public net.minecraft.client.realms.dto.RealmsText wrap
 // public void translationKey(java.lang.String value) { wrapperContained.translationKey = value; }
 // public java.lang.String[] args() { return wrapperContained.args; }
 // public void args(java.lang.String[] value) { wrapperContained.args = value; }
+// public RealmsText(java.lang.String translationKey,java.lang.String[] args) { this.wrapperContained = new net.minecraft.client.realms.dto.RealmsText(translationKey,args); }
 public yarnwrap.client.realms.dto.RealmsText fromJson(com.google.gson.JsonObject json) { return new yarnwrap.client.realms.dto.RealmsText(wrapperContained.fromJson(json)); }
 public yarnwrap.text.Text toText(yarnwrap.text.Text fallback) { return new yarnwrap.text.Text(wrapperContained.toText(fallback.wrapperContained)); }
 public yarnwrap.text.Text toText() { return new yarnwrap.text.Text(wrapperContained.toText()); }

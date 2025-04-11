@@ -11,6 +11,7 @@ public class LevelPropagator { public net.minecraft.world.chunk.light.LevelPropa
 // public void MAX_LEVEL(int value) { wrapperContained.MAX_LEVEL = value; }
 // public yarnwrap.world.chunk.light.PendingUpdateQueue pendingUpdateQueue() { return new yarnwrap.world.chunk.light.PendingUpdateQueue(wrapperContained.pendingUpdateQueue); }
 // public void pendingUpdateQueue(yarnwrap.world.chunk.light.PendingUpdateQueue value) { wrapperContained.pendingUpdateQueue = value.wrapperContained; }
+// public LevelPropagator(int levelCount,int expectedLevelSize,int expectedTotalSize) { this.wrapperContained = new net.minecraft.world.chunk.light.LevelPropagator(levelCount,expectedLevelSize,expectedTotalSize); }
 // public void updateLevel(long sourceId,long id,int level,boolean decrease) { wrapperContained.updateLevel(sourceId,id,level,decrease); }
 // public int getLevel(long id) { return wrapperContained.getLevel(id); }
 // public void updateLevel(long sourceId,long id,int level,int currentLevel,int decrease) { wrapperContained.updateLevel(sourceId,id,level,currentLevel,decrease); }

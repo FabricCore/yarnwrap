@@ -21,6 +21,7 @@ public class BufferAllocator { public net.minecraft.client.util.BufferAllocator 
 // public void refCount(int value) { wrapperContained.refCount = value; }
 // public int clearCount() { return wrapperContained.clearCount; }
 // public void clearCount(int value) { wrapperContained.clearCount = value; }
+public BufferAllocator(int size) { this.wrapperContained = new net.minecraft.client.util.BufferAllocator(size); }
 public Object getAllocated() { return wrapperContained.getAllocated(); }
 public long allocate(int size) { return wrapperContained.allocate(size); }
 public void clear() { wrapperContained.clear(); }

@@ -13,5 +13,6 @@ public class NearestBedSensor { public net.minecraft.entity.ai.brain.sensor.Near
 // public void MAX_TRIES(int value) { wrapperContained.MAX_TRIES = value; }
 // public int MAX_EXPIRY_TIME() { return wrapperContained.MAX_EXPIRY_TIME; }
 // public void MAX_EXPIRY_TIME(int value) { wrapperContained.MAX_EXPIRY_TIME = value; }
+// public boolean method_21644(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_21644(pos.wrapperContained); }
 
 }

@@ -7,6 +7,7 @@ public class RecipeGroupButtonWidget { public net.minecraft.client.gui.screen.re
 // public void category(yarnwrap.client.recipebook.RecipeBookGroup value) { wrapperContained.category = value.wrapperContained; }
 // public yarnwrap.client.gui.screen.ButtonTextures TEXTURES() { return new yarnwrap.client.gui.screen.ButtonTextures(wrapperContained.TEXTURES); }
 // public void TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value) { wrapperContained.TEXTURES = value.wrapperContained; }
+public RecipeGroupButtonWidget(yarnwrap.client.recipebook.RecipeBookGroup category) { this.wrapperContained = new net.minecraft.client.gui.screen.recipebook.RecipeGroupButtonWidget(category.wrapperContained); }
 // public void renderIcons(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.item.ItemRenderer itemRenderer) { wrapperContained.renderIcons(context.wrapperContained,itemRenderer.wrapperContained); }
 public void checkForNewRecipes(yarnwrap.client.MinecraftClient client) { wrapperContained.checkForNewRecipes(client.wrapperContained); }
 public yarnwrap.client.recipebook.RecipeBookGroup getCategory() { return new yarnwrap.client.recipebook.RecipeBookGroup(wrapperContained.getCategory()); }

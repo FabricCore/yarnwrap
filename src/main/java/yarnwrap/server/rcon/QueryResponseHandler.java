@@ -37,6 +37,7 @@ public class QueryResponseHandler { public net.minecraft.server.rcon.QueryRespon
 // public void GAME_ID(java.lang.String value) { wrapperContained.GAME_ID = value; }
 // public long CLEAN_UP_THRESHOLD() { return wrapperContained.CLEAN_UP_THRESHOLD; }
 // public void CLEAN_UP_THRESHOLD(long value) { wrapperContained.CLEAN_UP_THRESHOLD = value; }
+// public QueryResponseHandler(yarnwrap.server.dedicated.DedicatedServer server,int queryPort) { this.wrapperContained = new net.minecraft.server.rcon.QueryResponseHandler(server.wrapperContained,queryPort); }
 // public void cleanUp() { wrapperContained.cleanUp(); }
 // public byte[] createRulesReply(java.net.DatagramPacket packet) { return wrapperContained.createRulesReply(packet); }
 // public byte[] getMessageBytes(java.net.SocketAddress address) { return wrapperContained.getMessageBytes(address); }
@@ -46,6 +47,7 @@ public class QueryResponseHandler { public net.minecraft.server.rcon.QueryRespon
 // public void handleIoException(java.lang.Exception e) { wrapperContained.handleIoException(e); }
 // public java.lang.Boolean isValidQuery(java.net.DatagramPacket packet) { return wrapperContained.isValidQuery(packet); }
 // public boolean initialize() { return wrapperContained.initialize(); }
+// public boolean method_27174(long query) { return wrapperContained.method_27174(query); }
 public yarnwrap.server.rcon.QueryResponseHandler create(yarnwrap.server.dedicated.DedicatedServer server) { return new yarnwrap.server.rcon.QueryResponseHandler(wrapperContained.create(server.wrapperContained)); }
 
 }

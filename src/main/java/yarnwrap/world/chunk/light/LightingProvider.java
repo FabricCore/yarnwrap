@@ -7,6 +7,7 @@ public class LightingProvider { public net.minecraft.world.chunk.light.LightingP
 // public void blockLightProvider(yarnwrap.world.chunk.light.ChunkLightProvider value) { wrapperContained.blockLightProvider = value.wrapperContained; }
 // public yarnwrap.world.HeightLimitView world() { return new yarnwrap.world.HeightLimitView(wrapperContained.world); }
 // public void world(yarnwrap.world.HeightLimitView value) { wrapperContained.world = value.wrapperContained; }
+public LightingProvider(yarnwrap.world.chunk.ChunkProvider chunkProvider,boolean hasBlockLight,boolean hasSkyLight) { this.wrapperContained = new net.minecraft.world.chunk.light.LightingProvider(chunkProvider.wrapperContained,hasBlockLight,hasSkyLight); }
 public void enqueueSectionData(yarnwrap.world.LightType lightType,yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.world.chunk.ChunkNibbleArray nibbles) { wrapperContained.enqueueSectionData(lightType.wrapperContained,pos.wrapperContained,nibbles.wrapperContained); }
 public yarnwrap.world.chunk.light.ChunkLightingView get(yarnwrap.world.LightType lightType) { return new yarnwrap.world.chunk.light.ChunkLightingView(wrapperContained.get(lightType.wrapperContained)); }
 public void setRetainData(yarnwrap.util.math.ChunkPos pos,boolean retainData) { wrapperContained.setRetainData(pos.wrapperContained,retainData); }

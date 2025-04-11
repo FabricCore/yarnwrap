@@ -25,6 +25,7 @@ public yarnwrap.client.sound.Sound MISSING_SOUND() { return new yarnwrap.client.
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public com.google.gson.Gson GSON() { return wrapperContained.GSON; }
 // public void GSON(com.google.gson.Gson value) { wrapperContained.GSON = value; }
+public SoundManager(yarnwrap.client.option.GameOptions gameOptions) { this.wrapperContained = new net.minecraft.client.sound.SoundManager(gameOptions.wrapperContained); }
 public void tick(boolean paused) { wrapperContained.tick(paused); }
 public java.lang.String getDebugString() { return wrapperContained.getDebugString(); }
 public void playNextTick(yarnwrap.client.sound.TickableSoundInstance sound) { wrapperContained.playNextTick(sound.wrapperContained); }

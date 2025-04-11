@@ -31,6 +31,7 @@ public Object players() { return wrapperContained.players; }
 // public void MAX_FAVICON_SIZE(int value) { wrapperContained.MAX_FAVICON_SIZE = value; }
 // public Object status() { return wrapperContained.status; }
 // // public void status(Object value) { wrapperContained.status = value; }
+// public ServerInfo(java.lang.String name,java.lang.String address,Object serverType) { this.wrapperContained = new net.minecraft.client.network.ServerInfo(name,address,serverType); }
 public Object getResourcePackPolicy() { return wrapperContained.getResourcePackPolicy(); }
 public yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt()); }
 public yarnwrap.client.network.ServerInfo fromNbt(yarnwrap.nbt.NbtCompound root) { return new yarnwrap.client.network.ServerInfo(wrapperContained.fromNbt(root.wrapperContained)); }

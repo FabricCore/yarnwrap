@@ -11,6 +11,9 @@ public class TestFunction { public net.minecraft.test.TestFunction wrapperContai
 // public void tickLimit(int value) { wrapperContained.tickLimit = value; }
 // public java.util.function.Consumer starter() { return wrapperContained.starter; }
 // public void starter(java.util.function.Consumer value) { wrapperContained.starter = value; }
+public TestFunction(java.lang.String batchId,java.lang.String templatePath,java.lang.String templateName,int tickLimit,long duration,boolean required,java.util.function.Consumer starter) { this.wrapperContained = new net.minecraft.test.TestFunction(batchId,templatePath,templateName,tickLimit,duration,required,starter); }
+public TestFunction(java.lang.String batchId,java.lang.String templatePath,java.lang.String templateName,yarnwrap.util.BlockRotation rotation,int tickLimit,long setupTicks,boolean required,java.util.function.Consumer starter) { this.wrapperContained = new net.minecraft.test.TestFunction(batchId,templatePath,templateName,rotation.wrapperContained,tickLimit,setupTicks,required,starter); }
+// public TestFunction(java.lang.String batchId,java.lang.String templatePath,java.lang.String templateName,yarnwrap.util.BlockRotation rotation,int tickLimit,long duration,boolean required) { this.wrapperContained = new net.minecraft.test.TestFunction(batchId,templatePath,templateName,rotation.wrapperContained,tickLimit,duration,required); }
 // public java.lang.String batchId() { return wrapperContained.batchId(); }
 // public java.lang.String templatePath() { return wrapperContained.templatePath(); }
 // public java.lang.String templateName() { return wrapperContained.templateName(); }

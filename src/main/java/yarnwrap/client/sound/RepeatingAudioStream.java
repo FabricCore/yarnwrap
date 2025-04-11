@@ -7,5 +7,6 @@ public class RepeatingAudioStream { public net.minecraft.client.sound.RepeatingA
 // public void delegate(yarnwrap.client.sound.AudioStream value) { wrapperContained.delegate = value.wrapperContained; }
 // public java.io.BufferedInputStream inputStream() { return wrapperContained.inputStream; }
 // public void inputStream(java.io.BufferedInputStream value) { wrapperContained.inputStream = value; }
+// public RepeatingAudioStream(Object delegateFactory,java.io.InputStream inputStream) { this.wrapperContained = new net.minecraft.client.sound.RepeatingAudioStream(delegateFactory,inputStream); }
 
 }

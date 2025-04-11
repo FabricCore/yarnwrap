@@ -3,6 +3,7 @@ public class EntityAttachments { public net.minecraft.entity.EntityAttachments w
 
 // public java.util.Map points() { return wrapperContained.points; }
 // public void points(java.util.Map value) { wrapperContained.points = value; }
+// public EntityAttachments(java.util.Map points) { this.wrapperContained = new net.minecraft.entity.EntityAttachments(points); }
 public Object builder() { return wrapperContained.builder(); }
 public yarnwrap.entity.EntityAttachments scale(float xScale,float yScale,float zScale) { return new yarnwrap.entity.EntityAttachments(wrapperContained.scale(xScale,yScale,zScale)); }
 public yarnwrap.util.math.Vec3d getPointNullable(yarnwrap.entity.EntityAttachmentType type,int index,float yaw) { return new yarnwrap.util.math.Vec3d(wrapperContained.getPointNullable(type.wrapperContained,index,yaw)); }

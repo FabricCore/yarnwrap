@@ -7,5 +7,8 @@ public class YawAdjustingLookControl { public net.minecraft.entity.ai.control.Ya
 // public void ADDED_YAW(int value) { wrapperContained.ADDED_YAW = value; }
 // public int yawAdjustThreshold() { return wrapperContained.yawAdjustThreshold; }
 // public void yawAdjustThreshold(int value) { wrapperContained.yawAdjustThreshold = value; }
+public YawAdjustingLookControl(yarnwrap.entity.mob.MobEntity entity,int yawAdjustThreshold) { this.wrapperContained = new net.minecraft.entity.ai.control.YawAdjustingLookControl(entity.wrapperContained,yawAdjustThreshold); }
+// public void method_37357(java.lang.Float pitch) { wrapperContained.method_37357(pitch); }
+// public void method_37358(java.lang.Float yaw) { wrapperContained.method_37358(yaw); }
 
 }

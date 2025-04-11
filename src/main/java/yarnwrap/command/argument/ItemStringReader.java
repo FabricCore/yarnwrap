@@ -29,8 +29,15 @@ public char EQUAL_SIGN() { return wrapperContained.EQUAL_SIGN; }
 // public void MALFORMED_ITEM_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.MALFORMED_ITEM_EXCEPTION = value; }
 public char EXCLAMATION_MARK() { return wrapperContained.EXCLAMATION_MARK; }
 // public void EXCLAMATION_MARK(char value) { wrapperContained.EXCLAMATION_MARK = value; }
+// public ItemStringReader(Object registryLookup) { this.wrapperContained = new net.minecraft.command.argument.ItemStringReader(registryLookup); }
 // public void consume(com.mojang.brigadier.StringReader reader,Object callbacks) { wrapperContained.consume(reader,callbacks); }
+// public com.mojang.brigadier.Message method_58518(java.lang.Object type) { return wrapperContained.method_58518(type); }
+// public com.mojang.brigadier.Message method_58519(java.lang.Object type,java.lang.Object error) { return wrapperContained.method_58519(type,error); }
+// public com.mojang.brigadier.Message method_58520(java.lang.Object id) { return wrapperContained.method_58520(id); }
+// public com.mojang.brigadier.Message method_58521(java.lang.Object id) { return wrapperContained.method_58521(id); }
+// public com.mojang.brigadier.exceptions.CommandSyntaxException method_59768(com.mojang.brigadier.StringReader error) { return wrapperContained.method_59768(error); }
 // public void validate(com.mojang.brigadier.StringReader reader,yarnwrap.registry.entry.RegistryEntry item,yarnwrap.component.ComponentChanges components) { wrapperContained.validate(reader,item.wrapperContained,components.wrapperContained); }
+// public com.mojang.brigadier.Message method_59770(java.lang.Object error) { return wrapperContained.method_59770(error); }
 // public Object consume(com.mojang.brigadier.StringReader reader) { return wrapperContained.consume(reader); }
 public java.util.concurrent.CompletableFuture getSuggestions(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.getSuggestions(builder); }
 

@@ -20,12 +20,23 @@ public class WorldBorderCommand { public net.minecraft.server.command.WorldBorde
 // public com.mojang.brigadier.exceptions.SimpleCommandExceptionType SET_FAILED_FAR_EXCEPTION() { return wrapperContained.SET_FAILED_FAR_EXCEPTION; }
 // public void SET_FAILED_FAR_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.SET_FAILED_FAR_EXCEPTION = value; }
 // public int executeSet(yarnwrap.server.command.ServerCommandSource source,double distance,long time) { return wrapperContained.executeSet(source.wrapperContained,distance,time); }
+// public int method_13855(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13855(context); }
 // public int executeWarningTime(yarnwrap.server.command.ServerCommandSource source,int time) { return wrapperContained.executeWarningTime(source.wrapperContained,time); }
+// public int method_13857(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13857(context); }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
 // public int executeWarningDistance(yarnwrap.server.command.ServerCommandSource source,int distance) { return wrapperContained.executeWarningDistance(source.wrapperContained,distance); }
+// public int method_13860(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13860(context); }
+// public int method_13861(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13861(context); }
+// public boolean method_13862(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13862(source.wrapperContained); }
 // public int executeDamage(yarnwrap.server.command.ServerCommandSource source,float damagePerBlock) { return wrapperContained.executeDamage(source.wrapperContained,damagePerBlock); }
+// public int method_13864(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13864(context); }
 // public int executeBuffer(yarnwrap.server.command.ServerCommandSource source,float distance) { return wrapperContained.executeBuffer(source.wrapperContained,distance); }
+// public int method_13866(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13866(context); }
+// public int method_13867(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13867(context); }
 // public int executeGet(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeGet(source.wrapperContained); }
 // public int executeCenter(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.Vec2f pos) { return wrapperContained.executeCenter(source.wrapperContained,pos.wrapperContained); }
+// public int method_13870(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13870(context); }
+// public int method_13871(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13871(context); }
+// public int method_13872(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13872(context); }
 
 }

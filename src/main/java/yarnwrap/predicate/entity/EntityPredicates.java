@@ -15,8 +15,16 @@ public java.util.function.Predicate EXCEPT_CREATIVE_OR_SPECTATOR() { return wrap
 // public void EXCEPT_CREATIVE_OR_SPECTATOR(java.util.function.Predicate value) { wrapperContained.EXCEPT_CREATIVE_OR_SPECTATOR = value; }
 public java.util.function.Predicate VALID_LIVING_ENTITY() { return wrapperContained.VALID_LIVING_ENTITY; }
 // public void VALID_LIVING_ENTITY(java.util.function.Predicate value) { wrapperContained.VALID_LIVING_ENTITY = value; }
+// public boolean method_24517(yarnwrap.entity.Entity entity) { return wrapperContained.method_24517(entity.wrapperContained); }
+// public boolean method_32878(yarnwrap.entity.Entity entity) { return wrapperContained.method_32878(entity.wrapperContained); }
+// public boolean method_5906(yarnwrap.entity.Entity testedEntity) { return wrapperContained.method_5906(testedEntity.wrapperContained); }
+// public boolean method_5908(yarnwrap.entity.Entity entity) { return wrapperContained.method_5908(entity.wrapperContained); }
 public java.util.function.Predicate maxDistance(double x,double y,double z,double max) { return wrapperContained.maxDistance(x,y,z,max); }
+// public boolean method_5910(yarnwrap.entity.Entity entity) { return wrapperContained.method_5910(entity.wrapperContained); }
 public java.util.function.Predicate canBePushedBy(yarnwrap.entity.Entity entity) { return wrapperContained.canBePushedBy(entity.wrapperContained); }
+// public boolean method_5912(double entity) { return wrapperContained.method_5912(entity); }
 public java.util.function.Predicate rides(yarnwrap.entity.Entity entity) { return wrapperContained.rides(entity.wrapperContained); }
+// public boolean method_5914(yarnwrap.entity.Entity entity) { return wrapperContained.method_5914(entity.wrapperContained); }
+// public boolean method_5915(yarnwrap.entity.Entity entityx) { return wrapperContained.method_5915(entityx.wrapperContained); }
 
 }

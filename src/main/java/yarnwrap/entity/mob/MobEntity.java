@@ -92,6 +92,7 @@ public int getMaxLookYawChange() { return wrapperContained.getMaxLookYawChange()
 public boolean canMobSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canMobSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 public boolean canGather(yarnwrap.item.ItemStack stack) { return wrapperContained.canGather(stack.wrapperContained); }
 // public boolean isDisallowedInPeaceful() { return wrapperContained.isDisallowedInPeaceful(); }
+// public void method_24522(yarnwrap.entity.player.PlayerEntity entity) { wrapperContained.method_24522(entity.wrapperContained); }
 public yarnwrap.item.ItemStack tryEquip(yarnwrap.item.ItemStack stack) { return new yarnwrap.item.ItemStack(wrapperContained.tryEquip(stack.wrapperContained)); }
 // public void equipLootStack(yarnwrap.entity.EquipmentSlot slot,yarnwrap.item.ItemStack stack) { wrapperContained.equipLootStack(slot.wrapperContained,stack.wrapperContained); }
 public boolean canUseRangedWeapon(yarnwrap.item.RangedWeaponItem weapon) { return wrapperContained.canUseRangedWeapon(weapon.wrapperContained); }
@@ -105,8 +106,10 @@ public yarnwrap.entity.mob.MobEntity convertTo(yarnwrap.entity.EntityType entity
 // public void enchantMainHandItem(yarnwrap.world.ServerWorldAccess world,yarnwrap.util.math.random.Random random,yarnwrap.world.LocalDifficulty localDifficulty) { wrapperContained.enchantMainHandItem(world.wrapperContained,random.wrapperContained,localDifficulty.wrapperContained); }
 public void clearPositionTarget() { wrapperContained.clearPositionTarget(); }
 public void clearGoalsAndTasks() { wrapperContained.clearGoalsAndTasks(); }
+// public void method_37341(yarnwrap.item.ItemStack stack) { wrapperContained.method_37341(stack.wrapperContained); }
 public boolean isInAttackRange(yarnwrap.entity.LivingEntity entity) { return wrapperContained.isInAttackRange(entity.wrapperContained); }
 // public yarnwrap.util.math.Vec3i getItemPickUpRangeExpander() { return new yarnwrap.util.math.Vec3i(wrapperContained.getItemPickUpRangeExpander()); }
+// public boolean method_47824(yarnwrap.entity.ai.goal.Goal goal) { return wrapperContained.method_47824(goal.wrapperContained); }
 public void clearGoals(java.util.function.Predicate predicate) { wrapperContained.clearGoals(predicate); }
 public void onFinishPathfinding() { wrapperContained.onFinishPathfinding(); }
 public void onStartPathfinding() { wrapperContained.onStartPathfinding(); }
@@ -122,6 +125,7 @@ public void setEquipmentFromTable(yarnwrap.entity.EquipmentTable equipmentTable)
 // public yarnwrap.loot.context.LootContextParameterSet createEquipmentLootParameters(yarnwrap.server.world.ServerWorld world) { return new yarnwrap.loot.context.LootContextParameterSet(wrapperContained.createEquipmentLootParameters(world.wrapperContained)); }
 // public float getDropChance(yarnwrap.entity.EquipmentSlot slot) { return wrapperContained.getDropChance(slot.wrapperContained); }
 public void setForwardSpeed(float forwardSpeed) { wrapperContained.setForwardSpeed(forwardSpeed); }
+// public void method_5932(boolean sendPacket,boolean dropItem) { wrapperContained.method_5932(sendPacket,dropItem); }
 // public boolean canPickUpLoot() { return wrapperContained.canPickUpLoot(); }
 public void setLeftHanded(boolean leftHanded) { wrapperContained.setLeftHanded(leftHanded); }
 public void setSidewaysSpeed(float sidewaysSpeed) { wrapperContained.setSidewaysSpeed(sidewaysSpeed); }
@@ -175,6 +179,7 @@ public yarnwrap.entity.ai.control.JumpControl getJumpControl() { return new yarn
 // public yarnwrap.sound.SoundEvent getAmbientSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getAmbientSound()); }
 public java.util.Set dropEquipment(java.util.function.Predicate dropPredicate) { return wrapperContained.dropEquipment(dropPredicate); }
 public void dropAllEquipment() { wrapperContained.dropAllEquipment(); }
+// public boolean method_60974(yarnwrap.item.ItemStack stack) { return wrapperContained.method_60974(stack.wrapperContained); }
 public boolean isAttacking() { return wrapperContained.isAttacking(); }
 public boolean isHorseArmor(yarnwrap.item.ItemStack stack) { return wrapperContained.isHorseArmor(stack.wrapperContained); }
 public void setBaby(boolean baby) { wrapperContained.setBaby(baby); }

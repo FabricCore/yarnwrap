@@ -23,10 +23,17 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec ENTRY_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.ENTRY_PACKET_CODEC); }
 // public void ENTRY_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.ENTRY_PACKET_CODEC = value.wrapperContained; }
+public WolfVariant(yarnwrap.util.Identifier wildId,yarnwrap.util.Identifier tameId,yarnwrap.util.Identifier angryId,yarnwrap.registry.entry.RegistryEntryList biomes) { this.wrapperContained = new net.minecraft.entity.passive.WolfVariant(wildId.wrapperContained,tameId.wrapperContained,angryId.wrapperContained,biomes.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
+// public com.mojang.datafixers.kinds.App method_58064(Object instance) { return wrapperContained.method_58064(instance); }
 public yarnwrap.util.Identifier getWildTextureId() { return new yarnwrap.util.Identifier(wrapperContained.getWildTextureId()); }
 // public yarnwrap.util.Identifier getTextureId(yarnwrap.util.Identifier id) { return new yarnwrap.util.Identifier(wrapperContained.getTextureId(id.wrapperContained)); }
+// public yarnwrap.util.Identifier method_58379(yarnwrap.entity.passive.WolfVariant wolfVariant) { return new yarnwrap.util.Identifier(wrapperContained.method_58379(wolfVariant.wrapperContained)); }
+// public java.lang.String method_58380(java.lang.String oldPath) { return wrapperContained.method_58380(oldPath); }
 public yarnwrap.util.Identifier getTameTextureId() { return new yarnwrap.util.Identifier(wrapperContained.getTameTextureId()); }
+// public yarnwrap.util.Identifier method_58382(yarnwrap.entity.passive.WolfVariant wolfVariant) { return new yarnwrap.util.Identifier(wrapperContained.method_58382(wolfVariant.wrapperContained)); }
 public yarnwrap.util.Identifier getAngryTextureId() { return new yarnwrap.util.Identifier(wrapperContained.getAngryTextureId()); }
+// public yarnwrap.util.Identifier method_58384(yarnwrap.entity.passive.WolfVariant wolfVariant) { return new yarnwrap.util.Identifier(wrapperContained.method_58384(wolfVariant.wrapperContained)); }
 public yarnwrap.registry.entry.RegistryEntryList getBiomes() { return new yarnwrap.registry.entry.RegistryEntryList(wrapperContained.getBiomes()); }
 
 }

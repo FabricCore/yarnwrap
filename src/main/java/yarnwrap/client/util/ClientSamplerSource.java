@@ -7,6 +7,7 @@ public class ClientSamplerSource { public net.minecraft.client.util.ClientSample
 // public void samplers(java.util.Set value) { wrapperContained.samplers = value; }
 // public yarnwrap.util.profiler.SamplerFactory factory() { return new yarnwrap.util.profiler.SamplerFactory(wrapperContained.factory); }
 // public void factory(yarnwrap.util.profiler.SamplerFactory value) { wrapperContained.factory = value.wrapperContained; }
+public ClientSamplerSource(java.util.function.LongSupplier nanoTimeSupplier,yarnwrap.client.render.WorldRenderer renderer) { this.wrapperContained = new net.minecraft.client.util.ClientSamplerSource(nanoTimeSupplier,renderer.wrapperContained); }
 // public void addInfoSamplers() { wrapperContained.addInfoSamplers(); }
 
 }

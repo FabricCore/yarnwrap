@@ -4,6 +4,7 @@ public class AbstractServerCommandSource { public net.minecraft.server.command.A
 public yarnwrap.server.command.AbstractServerCommandSource withReturnValueConsumer(yarnwrap.command.ReturnValueConsumer returnValueConsumer) { return new yarnwrap.server.command.AbstractServerCommandSource(wrapperContained.withReturnValueConsumer(returnValueConsumer.wrapperContained)); }
 public com.mojang.brigadier.CommandDispatcher getDispatcher() { return wrapperContained.getDispatcher(); }
 public yarnwrap.server.command.AbstractServerCommandSource withDummyReturnValueConsumer() { return new yarnwrap.server.command.AbstractServerCommandSource(wrapperContained.withDummyReturnValueConsumer()); }
+// public void method_54316(com.mojang.brigadier.context.CommandContext context,boolean success,int result) { wrapperContained.method_54316(context,success,result); }
 // public com.mojang.brigadier.ResultConsumer asResultConsumer() { return wrapperContained.asResultConsumer(); }
 public void handleException(com.mojang.brigadier.exceptions.CommandExceptionType type,com.mojang.brigadier.Message message,boolean silent,yarnwrap.server.function.Tracer tracer) { wrapperContained.handleException(type,message,silent,tracer.wrapperContained); }
 public void handleException(com.mojang.brigadier.exceptions.CommandSyntaxException exception,boolean silent,yarnwrap.server.function.Tracer tracer) { wrapperContained.handleException(exception,silent,tracer.wrapperContained); }

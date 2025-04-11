@@ -7,7 +7,10 @@ public com.mojang.brigadier.exceptions.DynamicCommandExceptionType INVALID_STYLE
 // public void EXAMPLES(java.util.Collection value) { wrapperContained.EXAMPLES = value; }
 // public Object registryLookup() { return wrapperContained.registryLookup; }
 // // public void registryLookup(Object value) { wrapperContained.registryLookup = value; }
+// public StyleArgumentType(Object registryLookup) { this.wrapperContained = new net.minecraft.command.argument.StyleArgumentType(registryLookup); }
 public yarnwrap.command.argument.StyleArgumentType style(yarnwrap.command.CommandRegistryAccess registryAccess) { return new yarnwrap.command.argument.StyleArgumentType(wrapperContained.style(registryAccess.wrapperContained)); }
 public yarnwrap.text.Style getStyle(com.mojang.brigadier.context.CommandContext context,java.lang.String style) { return new yarnwrap.text.Style(wrapperContained.getStyle(context,style)); }
+// public com.mojang.brigadier.Message method_55449(java.lang.Object style) { return wrapperContained.method_55449(style); }
+// public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 
 }

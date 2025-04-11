@@ -9,5 +9,6 @@ public com.mojang.brigadier.exceptions.SimpleCommandExceptionType INVALID_ANGLE_
 // public void INVALID_ANGLE_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.INVALID_ANGLE_EXCEPTION = value; }
 public yarnwrap.command.argument.AngleArgumentType angle() { return new yarnwrap.command.argument.AngleArgumentType(wrapperContained.angle()); }
 public float getAngle(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return wrapperContained.getAngle(context,name); }
+// public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 
 }

@@ -25,6 +25,7 @@ public class BrushableBlockEntity { public net.minecraft.block.entity.BrushableB
 // public void lootTable(yarnwrap.registry.RegistryKey value) { wrapperContained.lootTable = value.wrapperContained; }
 // public long lootTableSeed() { return wrapperContained.lootTableSeed; }
 // public void lootTableSeed(long value) { wrapperContained.lootTableSeed = value; }
+public BrushableBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.BrushableBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public boolean brush(long worldTime,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.math.Direction hitDirection) { return wrapperContained.brush(worldTime,player.wrapperContained,hitDirection.wrapperContained); }
 public void setLootTable(yarnwrap.registry.RegistryKey lootTable,long seed) { wrapperContained.setLootTable(lootTable.wrapperContained,seed); }
 public void generateItem(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.generateItem(player.wrapperContained); }

@@ -19,8 +19,10 @@ public class JumpInBedTask { public net.minecraft.entity.ai.brain.task.JumpInBed
 // public void JUMP_TIME_VARIANCE(int value) { wrapperContained.JUMP_TIME_VARIANCE = value; }
 // public int TICKS_TO_NEXT_JUMP() { return wrapperContained.TICKS_TO_NEXT_JUMP; }
 // public void TICKS_TO_NEXT_JUMP(int value) { wrapperContained.TICKS_TO_NEXT_JUMP = value; }
+public JumpInBedTask(float walkSpeed) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.JumpInBedTask(walkSpeed); }
 // public java.util.Optional getNearestBed(yarnwrap.entity.mob.MobEntity mob) { return wrapperContained.getNearestBed(mob.wrapperContained); }
 // public void setWalkTarget(yarnwrap.entity.mob.MobEntity mob,yarnwrap.util.math.BlockPos pos) { wrapperContained.setWalkTarget(mob.wrapperContained,pos.wrapperContained); }
+// public void method_19973(yarnwrap.server.world.ServerWorld pos) { wrapperContained.method_19973(pos.wrapperContained); }
 // public boolean isBedAt(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isBedAt(world.wrapperContained,pos.wrapperContained); }
 // public boolean shouldStartJumping(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.MobEntity mob) { return wrapperContained.shouldStartJumping(world.wrapperContained,mob.wrapperContained); }
 // public boolean isAboveBed(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.MobEntity mob) { return wrapperContained.isAboveBed(world.wrapperContained,mob.wrapperContained); }

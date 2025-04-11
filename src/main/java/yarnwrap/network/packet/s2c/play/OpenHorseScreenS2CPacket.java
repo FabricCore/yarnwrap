@@ -9,6 +9,8 @@ public class OpenHorseScreenS2CPacket { public net.minecraft.network.packet.s2c.
 // public void syncId(int value) { wrapperContained.syncId = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public OpenHorseScreenS2CPacket(int syncId,int slotColumnCount,int horseId) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.OpenHorseScreenS2CPacket(syncId,slotColumnCount,horseId); }
+// public OpenHorseScreenS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.OpenHorseScreenS2CPacket(buf.wrapperContained); }
 public int getSyncId() { return wrapperContained.getSyncId(); }
 public int getHorseId() { return wrapperContained.getHorseId(); }
 public int getSlotColumnCount() { return wrapperContained.getSlotColumnCount(); }

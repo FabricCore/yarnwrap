@@ -3,6 +3,7 @@ public class HitResult { public net.minecraft.util.hit.HitResult wrapperContaine
 
 // public yarnwrap.util.math.Vec3d pos() { return new yarnwrap.util.math.Vec3d(wrapperContained.pos); }
 // public void pos(yarnwrap.util.math.Vec3d value) { wrapperContained.pos = value.wrapperContained; }
+// public HitResult(yarnwrap.util.math.Vec3d pos) { this.wrapperContained = new net.minecraft.util.hit.HitResult(pos.wrapperContained); }
 public Object getType() { return wrapperContained.getType(); }
 public yarnwrap.util.math.Vec3d getPos() { return new yarnwrap.util.math.Vec3d(wrapperContained.getPos()); }
 public double squaredDistanceTo(yarnwrap.entity.Entity entity) { return wrapperContained.squaredDistanceTo(entity.wrapperContained); }

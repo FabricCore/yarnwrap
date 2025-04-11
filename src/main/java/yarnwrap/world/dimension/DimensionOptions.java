@@ -13,7 +13,9 @@ public yarnwrap.registry.RegistryKey NETHER() { return new yarnwrap.registry.Reg
 // public void NETHER(yarnwrap.registry.RegistryKey value) { wrapperContained.NETHER = value.wrapperContained; }
 public yarnwrap.registry.RegistryKey END() { return new yarnwrap.registry.RegistryKey(wrapperContained.END); }
 // public void END(yarnwrap.registry.RegistryKey value) { wrapperContained.END = value.wrapperContained; }
+public DimensionOptions(yarnwrap.registry.entry.RegistryEntry dimensionTypeEntry,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator) { this.wrapperContained = new net.minecraft.world.dimension.DimensionOptions(dimensionTypeEntry.wrapperContained,chunkGenerator.wrapperContained); }
 // public yarnwrap.registry.entry.RegistryEntry dimensionTypeEntry() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.dimensionTypeEntry()); }
 // public yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator() { return new yarnwrap.world.gen.chunk.ChunkGenerator(wrapperContained.chunkGenerator()); }
+// public com.mojang.datafixers.kinds.App method_29568(Object instance) { return wrapperContained.method_29568(instance); }
 
 }

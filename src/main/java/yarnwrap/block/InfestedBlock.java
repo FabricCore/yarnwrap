@@ -11,11 +11,14 @@ public class InfestedBlock { public net.minecraft.block.InfestedBlock wrapperCon
 // public void INFESTED_TO_REGULAR_STATE(java.util.Map value) { wrapperContained.INFESTED_TO_REGULAR_STATE = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public InfestedBlock(yarnwrap.block.Block regularBlock,Object settings) { this.wrapperContained = new net.minecraft.block.InfestedBlock(regularBlock.wrapperContained,settings); }
 public boolean isInfestable(yarnwrap.block.BlockState block) { return wrapperContained.isInfestable(block.wrapperContained); }
 public yarnwrap.block.BlockState toRegularState(yarnwrap.block.BlockState infestedState) { return new yarnwrap.block.BlockState(wrapperContained.toRegularState(infestedState.wrapperContained)); }
 public yarnwrap.block.Block getRegularBlock() { return new yarnwrap.block.Block(wrapperContained.getRegularBlock()); }
 // public void spawnSilverfish(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { wrapperContained.spawnSilverfish(world.wrapperContained,pos.wrapperContained); }
 // public yarnwrap.block.BlockState copyProperties(java.util.Map stateMap,yarnwrap.block.BlockState fromState,java.util.function.Supplier toStateSupplier) { return new yarnwrap.block.BlockState(wrapperContained.copyProperties(stateMap,fromState.wrapperContained,toStateSupplier)); }
+// public yarnwrap.block.BlockState method_36364(java.util.function.Supplier infestedState) { return new yarnwrap.block.BlockState(wrapperContained.method_36364(infestedState)); }
 public yarnwrap.block.BlockState fromRegularState(yarnwrap.block.BlockState regularState) { return new yarnwrap.block.BlockState(wrapperContained.fromRegularState(regularState.wrapperContained)); }
+// public com.mojang.datafixers.kinds.App method_54022(Object instance) { return wrapperContained.method_54022(instance); }
 
 }

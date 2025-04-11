@@ -5,6 +5,7 @@ public class EnumProperty { public net.minecraft.state.property.EnumProperty wra
 // public void values(com.google.common.collect.ImmutableSet value) { wrapperContained.values = value; }
 // public java.util.Map byName() { return wrapperContained.byName; }
 // public void byName(java.util.Map value) { wrapperContained.byName = value; }
+// public EnumProperty(java.lang.String name,java.lang.Class type,java.util.Collection values) { this.wrapperContained = new net.minecraft.state.property.EnumProperty(name,type,values); }
 public yarnwrap.state.property.EnumProperty of(java.lang.String name,java.lang.Class type,java.util.Collection values) { return new yarnwrap.state.property.EnumProperty(wrapperContained.of(name,type,values)); }
 public yarnwrap.state.property.EnumProperty of(java.lang.String name,java.lang.Class type,java.util.function.Predicate filter) { return new yarnwrap.state.property.EnumProperty(wrapperContained.of(name,type,filter)); }
 // public yarnwrap.state.property.EnumProperty of(java.lang.String name,java.lang.Class type,java.lang.Enum[] values) { return new yarnwrap.state.property.EnumProperty(wrapperContained.of(name,type,values)); }

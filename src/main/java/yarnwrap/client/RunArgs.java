@@ -11,5 +11,6 @@ public Object game() { return wrapperContained.game; }
 // // public void game(Object value) { wrapperContained.game = value; }
 public Object quickPlay() { return wrapperContained.quickPlay; }
 // // public void quickPlay(Object value) { wrapperContained.quickPlay = value; }
+// public RunArgs(Object network,yarnwrap.client.WindowSettings windowSettings,Object dirs,Object game,Object quickPlay) { this.wrapperContained = new net.minecraft.client.RunArgs(network,windowSettings.wrapperContained,dirs,game,quickPlay); }
 
 }

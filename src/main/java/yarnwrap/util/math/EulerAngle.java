@@ -9,6 +9,9 @@ public class EulerAngle { public net.minecraft.util.math.EulerAngle wrapperConta
 // public void pitch(float value) { wrapperContained.pitch = value; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public EulerAngle(float pitch,float yaw,float roll) { this.wrapperContained = new net.minecraft.util.math.EulerAngle(pitch,yaw,roll); }
+public EulerAngle(yarnwrap.nbt.NbtList serialized) { this.wrapperContained = new net.minecraft.util.math.EulerAngle(serialized.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.nbt.NbtList toNbt() { return new yarnwrap.nbt.NbtList(wrapperContained.toNbt()); }
 public float getPitch() { return wrapperContained.getPitch(); }
 public float getYaw() { return wrapperContained.getYaw(); }

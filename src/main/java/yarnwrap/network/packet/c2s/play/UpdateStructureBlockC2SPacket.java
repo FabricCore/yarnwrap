@@ -37,6 +37,8 @@ public class UpdateStructureBlockC2SPacket { public net.minecraft.network.packet
 // public void SHOW_BOUNDING_BOX_MASK(int value) { wrapperContained.SHOW_BOUNDING_BOX_MASK = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public UpdateStructureBlockC2SPacket(yarnwrap.util.math.BlockPos pos,Object action,yarnwrap.block.enums.StructureBlockMode mode,java.lang.String templateName,yarnwrap.util.math.BlockPos offset,yarnwrap.util.math.Vec3i size,yarnwrap.util.BlockMirror mirror,yarnwrap.util.BlockRotation rotation,java.lang.String metadata,boolean ignoreEntities,boolean showAir,boolean showBoundingBox,float integrity,long seed) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket(pos.wrapperContained,action,mode.wrapperContained,templateName,offset.wrapperContained,size.wrapperContained,mirror.wrapperContained,rotation.wrapperContained,metadata,ignoreEntities,showAir,showBoundingBox,integrity,seed); }
+// public UpdateStructureBlockC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket(buf.wrapperContained); }
 public yarnwrap.util.math.Vec3i getSize() { return new yarnwrap.util.math.Vec3i(wrapperContained.getSize()); }
 public yarnwrap.util.BlockMirror getMirror() { return new yarnwrap.util.BlockMirror(wrapperContained.getMirror()); }
 public float getIntegrity() { return wrapperContained.getIntegrity(); }

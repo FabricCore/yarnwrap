@@ -16,9 +16,11 @@ public class ServerConfigurationNetworkHandler { public net.minecraft.server.net
 // public yarnwrap.server.network.SynchronizeRegistriesTask synchronizedRegistriesTask() { return new yarnwrap.server.network.SynchronizeRegistriesTask(wrapperContained.synchronizedRegistriesTask); }
 // public void synchronizedRegistriesTask(yarnwrap.server.network.SynchronizeRegistriesTask value) { wrapperContained.synchronizedRegistriesTask = value.wrapperContained; }
 // public void onTaskFinished(Object key) { wrapperContained.onTaskFinished(key); }
+// public void method_52407(Object properties) { wrapperContained.method_52407(properties); }
 public void sendConfigurations() { wrapperContained.sendConfigurations(); }
 public void endConfiguration() { wrapperContained.endConfiguration(); }
 // public void queueSendResourcePackTask() { wrapperContained.queueSendResourcePackTask(); }
 // public void pollTask() { wrapperContained.pollTask(); }
+// public java.util.stream.Stream method_56530(yarnwrap.resource.ResourcePack pack) { return wrapperContained.method_56530(pack.wrapperContained); }
 
 }

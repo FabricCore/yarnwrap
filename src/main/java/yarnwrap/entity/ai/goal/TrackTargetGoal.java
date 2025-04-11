@@ -23,6 +23,8 @@ public class TrackTargetGoal { public net.minecraft.entity.ai.goal.TrackTargetGo
 // public void checkCanNavigate(boolean value) { wrapperContained.checkCanNavigate = value; }
 // public yarnwrap.entity.LivingEntity target() { return new yarnwrap.entity.LivingEntity(wrapperContained.target); }
 // public void target(yarnwrap.entity.LivingEntity value) { wrapperContained.target = value.wrapperContained; }
+// public TrackTargetGoal(yarnwrap.entity.mob.MobEntity mob,boolean checkVisibility) { this.wrapperContained = new net.minecraft.entity.ai.goal.TrackTargetGoal(mob.wrapperContained,checkVisibility); }
+// public TrackTargetGoal(yarnwrap.entity.mob.MobEntity mob,boolean checkVisibility,boolean checkNavigable) { this.wrapperContained = new net.minecraft.entity.ai.goal.TrackTargetGoal(mob.wrapperContained,checkVisibility,checkNavigable); }
 // public double getFollowRange() { return wrapperContained.getFollowRange(); }
 // public boolean canTrack(yarnwrap.entity.LivingEntity target,yarnwrap.entity.ai.TargetPredicate targetPredicate) { return wrapperContained.canTrack(target.wrapperContained,targetPredicate.wrapperContained); }
 // public boolean canNavigateToEntity(yarnwrap.entity.LivingEntity entity) { return wrapperContained.canNavigateToEntity(entity.wrapperContained); }

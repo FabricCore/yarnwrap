@@ -11,5 +11,6 @@ public class CuttingRecipe { public net.minecraft.recipe.CuttingRecipe wrapperCo
 // public void type(yarnwrap.recipe.RecipeType value) { wrapperContained.type = value.wrapperContained; }
 // public yarnwrap.recipe.RecipeSerializer serializer() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.serializer); }
 // public void serializer(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.serializer = value.wrapperContained; }
+// public CuttingRecipe(yarnwrap.recipe.RecipeType type,yarnwrap.recipe.RecipeSerializer serializer,java.lang.String group,yarnwrap.recipe.Ingredient ingredient,yarnwrap.item.ItemStack result) { this.wrapperContained = new net.minecraft.recipe.CuttingRecipe(type.wrapperContained,serializer.wrapperContained,group,ingredient.wrapperContained,result.wrapperContained); }
 
 }

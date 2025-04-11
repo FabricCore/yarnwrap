@@ -21,6 +21,10 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void FULLY_FILTERED_CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.FULLY_FILTERED_CODEC = value; }
 // public com.mojang.serialization.MapCodec PARTIALLY_FILTERED_CODEC() { return wrapperContained.PARTIALLY_FILTERED_CODEC; }
 // public void PARTIALLY_FILTERED_CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.PARTIALLY_FILTERED_CODEC = value; }
+public FilterMask(int length) { this.wrapperContained = new net.minecraft.network.message.FilterMask(length); }
+// public FilterMask(java.util.BitSet mask) { this.wrapperContained = new net.minecraft.network.message.FilterMask(mask); }
+// public FilterMask(java.util.BitSet mask,Object status) { this.wrapperContained = new net.minecraft.network.message.FilterMask(mask,status); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public boolean isPassThrough() { return wrapperContained.isPassThrough(); }
 public void markFiltered(int index) { wrapperContained.markFiltered(index); }
 public java.lang.String filter(java.lang.String raw) { return wrapperContained.filter(raw); }

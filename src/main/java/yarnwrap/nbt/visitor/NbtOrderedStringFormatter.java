@@ -33,8 +33,10 @@ public class NbtOrderedStringFormatter { public net.minecraft.nbt.visitor.NbtOrd
 // public void CURLY_CLOSE_BRACKET(java.lang.String value) { wrapperContained.CURLY_CLOSE_BRACKET = value; }
 // public java.lang.String NEW_LINE() { return wrapperContained.NEW_LINE; }
 // public void NEW_LINE(java.lang.String value) { wrapperContained.NEW_LINE = value; }
+public NbtOrderedStringFormatter(java.lang.String prefix,int indentationLevel,java.util.List pathParts) { this.wrapperContained = new net.minecraft.nbt.visitor.NbtOrderedStringFormatter(prefix,indentationLevel,pathParts); }
 public java.lang.String joinPath() { return wrapperContained.joinPath(); }
 // public java.lang.String escapeName(java.lang.String name) { return wrapperContained.escapeName(name); }
+// public void method_32282(java.util.HashMap map) { wrapperContained.method_32282(map); }
 public java.lang.String apply(yarnwrap.nbt.NbtElement element) { return wrapperContained.apply(element.wrapperContained); }
 // public void popPathPart() { wrapperContained.popPathPart(); }
 // public void pushPathPart(java.lang.String part) { wrapperContained.pushPathPart(part); }

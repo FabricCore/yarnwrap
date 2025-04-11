@@ -9,6 +9,7 @@ public class RconCommandOutput { public net.minecraft.server.rcon.RconCommandOut
 // public void RCON_NAME_TEXT(yarnwrap.text.Text value) { wrapperContained.RCON_NAME_TEXT = value.wrapperContained; }
 // public java.lang.String RCON_NAME() { return wrapperContained.RCON_NAME; }
 // public void RCON_NAME(java.lang.String value) { wrapperContained.RCON_NAME = value; }
+public RconCommandOutput(yarnwrap.server.MinecraftServer server) { this.wrapperContained = new net.minecraft.server.rcon.RconCommandOutput(server.wrapperContained); }
 public yarnwrap.server.command.ServerCommandSource createRconCommandSource() { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.createRconCommandSource()); }
 public java.lang.String asString() { return wrapperContained.asString(); }
 public void clear() { wrapperContained.clear(); }

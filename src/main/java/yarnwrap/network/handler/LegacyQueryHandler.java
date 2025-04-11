@@ -5,6 +5,8 @@ public class LegacyQueryHandler { public net.minecraft.network.handler.LegacyQue
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public yarnwrap.network.QueryableServer server() { return new yarnwrap.network.QueryableServer(wrapperContained.server); }
 // public void server(yarnwrap.network.QueryableServer value) { wrapperContained.server = value.wrapperContained; }
+public LegacyQueryHandler(yarnwrap.network.QueryableServer server) { this.wrapperContained = new net.minecraft.network.handler.LegacyQueryHandler(server.wrapperContained); }
+public void channelRead(io.netty.channel.ChannelHandlerContext ctx,java.lang.Object msg) { wrapperContained.channelRead(ctx,msg); }
 // public void reply(io.netty.channel.ChannelHandlerContext context,io.netty.buffer.ByteBuf buf) { wrapperContained.reply(context,buf); }
 // public java.lang.String getResponseFor1_2(yarnwrap.network.QueryableServer server) { return wrapperContained.getResponseFor1_2(server.wrapperContained); }
 // public boolean isLegacyQuery(io.netty.buffer.ByteBuf buf) { return wrapperContained.isLegacyQuery(buf); }

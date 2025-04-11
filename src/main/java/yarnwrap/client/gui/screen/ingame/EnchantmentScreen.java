@@ -35,6 +35,7 @@ public void ticks(int value) { wrapperContained.ticks = value; }
 // public void ENCHANTMENT_SLOT_HIGHLIGHTED_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.ENCHANTMENT_SLOT_HIGHLIGHTED_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier ENCHANTMENT_SLOT_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.ENCHANTMENT_SLOT_TEXTURE); }
 // public void ENCHANTMENT_SLOT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.ENCHANTMENT_SLOT_TEXTURE = value.wrapperContained; }
+public EnchantmentScreen(yarnwrap.screen.EnchantmentScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.EnchantmentScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 public void doTick() { wrapperContained.doTick(); }
 // public void drawBook(yarnwrap.client.gui.DrawContext context,int x,int y,float delta) { wrapperContained.drawBook(context.wrapperContained,x,y,delta); }
 

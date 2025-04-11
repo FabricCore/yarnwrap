@@ -33,6 +33,7 @@ public class WardenEntityModel { public net.minecraft.client.render.entity.model
 // public void headAndLimbs(java.util.List value) { wrapperContained.headAndLimbs = value; }
 // public java.util.List bodyHeadAndLimbs() { return wrapperContained.bodyHeadAndLimbs; }
 // public void bodyHeadAndLimbs(java.util.List value) { wrapperContained.bodyHeadAndLimbs = value; }
+public WardenEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.WardenEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 // public void setHeadAndBodyAngles(float animationProgress) { wrapperContained.setHeadAndBodyAngles(animationProgress); }
 // public void setHeadAngle(float yaw,float pitch) { wrapperContained.setHeadAngle(yaw,pitch); }

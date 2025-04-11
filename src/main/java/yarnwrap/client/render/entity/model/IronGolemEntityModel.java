@@ -13,6 +13,7 @@ public class IronGolemEntityModel { public net.minecraft.client.render.entity.mo
 // public void leftLeg(yarnwrap.client.model.ModelPart value) { wrapperContained.leftLeg = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
+public IronGolemEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.IronGolemEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.ModelPart getRightArm() { return new yarnwrap.client.model.ModelPart(wrapperContained.getRightArm()); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 

@@ -13,5 +13,6 @@ public class ThreadSafeRandom { public net.minecraft.util.math.random.ThreadSafe
 // public void seed(java.util.concurrent.atomic.AtomicLong value) { wrapperContained.seed = value; }
 // public yarnwrap.util.math.random.GaussianGenerator gaussianGenerator() { return new yarnwrap.util.math.random.GaussianGenerator(wrapperContained.gaussianGenerator); }
 // public void gaussianGenerator(yarnwrap.util.math.random.GaussianGenerator value) { wrapperContained.gaussianGenerator = value.wrapperContained; }
+public ThreadSafeRandom(long seed) { this.wrapperContained = new net.minecraft.util.math.random.ThreadSafeRandom(seed); }
 
 }

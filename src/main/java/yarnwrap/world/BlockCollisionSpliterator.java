@@ -21,6 +21,7 @@ public class BlockCollisionSpliterator { public net.minecraft.world.BlockCollisi
 // public void forEntity(boolean value) { wrapperContained.forEntity = value; }
 // public java.util.function.BiFunction resultFunction() { return wrapperContained.resultFunction; }
 // public void resultFunction(java.util.function.BiFunction value) { wrapperContained.resultFunction = value; }
+public BlockCollisionSpliterator(yarnwrap.world.CollisionView world,yarnwrap.entity.Entity entity,yarnwrap.util.math.Box box,boolean forEntity,java.util.function.BiFunction resultFunction) { this.wrapperContained = new net.minecraft.world.BlockCollisionSpliterator(world.wrapperContained,entity.wrapperContained,box.wrapperContained,forEntity,resultFunction); }
 // public yarnwrap.world.BlockView getChunk(int x,int z) { return new yarnwrap.world.BlockView(wrapperContained.getChunk(x,z)); }
 
 }

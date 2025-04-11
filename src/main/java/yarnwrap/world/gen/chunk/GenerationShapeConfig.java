@@ -21,10 +21,12 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void FLOATING_ISLANDS(yarnwrap.world.gen.chunk.GenerationShapeConfig value) { wrapperContained.FLOATING_ISLANDS = value.wrapperContained; }
 // public yarnwrap.world.gen.chunk.GenerationShapeConfig SURFACE() { return new yarnwrap.world.gen.chunk.GenerationShapeConfig(wrapperContained.SURFACE); }
 // public void SURFACE(yarnwrap.world.gen.chunk.GenerationShapeConfig value) { wrapperContained.SURFACE = value.wrapperContained; }
+// public GenerationShapeConfig(int minimumY,int height) { this.wrapperContained = new net.minecraft.world.gen.chunk.GenerationShapeConfig(minimumY,height); }
 // public int minimumY() { return wrapperContained.minimumY(); }
 // public int height() { return wrapperContained.height(); }
 // public int horizontalSize() { return wrapperContained.horizontalSize(); }
 // public int verticalSize() { return wrapperContained.verticalSize(); }
+// public com.mojang.datafixers.kinds.App method_28582(Object instance) { return wrapperContained.method_28582(instance); }
 public yarnwrap.world.gen.chunk.GenerationShapeConfig create(int minimumY,int height,int horizontalSize,int verticalSize) { return new yarnwrap.world.gen.chunk.GenerationShapeConfig(wrapperContained.create(minimumY,height,horizontalSize,verticalSize)); }
 // public com.mojang.serialization.DataResult checkHeight(yarnwrap.world.gen.chunk.GenerationShapeConfig config) { return wrapperContained.checkHeight(config.wrapperContained); }
 public int verticalCellBlockCount() { return wrapperContained.verticalCellBlockCount(); }

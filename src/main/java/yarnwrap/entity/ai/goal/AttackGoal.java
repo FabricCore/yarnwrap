@@ -7,5 +7,6 @@ public class AttackGoal { public net.minecraft.entity.ai.goal.AttackGoal wrapper
 // public void cooldown(int value) { wrapperContained.cooldown = value; }
 // public yarnwrap.entity.mob.MobEntity mob() { return new yarnwrap.entity.mob.MobEntity(wrapperContained.mob); }
 // public void mob(yarnwrap.entity.mob.MobEntity value) { wrapperContained.mob = value.wrapperContained; }
+public AttackGoal(yarnwrap.entity.mob.MobEntity mob) { this.wrapperContained = new net.minecraft.entity.ai.goal.AttackGoal(mob.wrapperContained); }
 
 }

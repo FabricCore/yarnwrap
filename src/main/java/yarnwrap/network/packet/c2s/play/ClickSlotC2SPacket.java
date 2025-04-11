@@ -21,6 +21,8 @@ public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
 // public yarnwrap.network.codec.PacketCodec STACK_MAP_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.STACK_MAP_CODEC); }
 // public void STACK_MAP_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.STACK_MAP_CODEC = value.wrapperContained; }
+public ClickSlotC2SPacket(int syncId,int revision,int slot,int button,yarnwrap.screen.slot.SlotActionType actionType,yarnwrap.item.ItemStack stack,it.unimi.dsi.fastutil.ints.Int2ObjectMap modifiedStacks) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket(syncId,revision,slot,button,actionType.wrapperContained,stack.wrapperContained,modifiedStacks); }
+// public ClickSlotC2SPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.ClickSlotC2SPacket(buf.wrapperContained); }
 public yarnwrap.item.ItemStack getStack() { return new yarnwrap.item.ItemStack(wrapperContained.getStack()); }
 public int getSlot() { return wrapperContained.getSlot(); }
 public int getButton() { return wrapperContained.getButton(); }

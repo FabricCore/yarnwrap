@@ -7,6 +7,7 @@ public class CachedMapper { public net.minecraft.util.CachedMapper wrapperContai
 // public void cachedInput(java.lang.Object value) { wrapperContained.cachedInput = value; }
 // public java.lang.Object cachedOutput() { return wrapperContained.cachedOutput; }
 // public void cachedOutput(java.lang.Object value) { wrapperContained.cachedOutput = value; }
+public CachedMapper(java.util.function.Function mapper) { this.wrapperContained = new net.minecraft.util.CachedMapper(mapper); }
 public java.lang.Object map(java.lang.Object input) { return wrapperContained.map(input); }
 
 }

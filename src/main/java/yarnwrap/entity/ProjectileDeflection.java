@@ -9,5 +9,10 @@ public yarnwrap.entity.ProjectileDeflection REDIRECTED() { return new yarnwrap.e
 // public void REDIRECTED(yarnwrap.entity.ProjectileDeflection value) { wrapperContained.REDIRECTED = value.wrapperContained; }
 public yarnwrap.entity.ProjectileDeflection TRANSFER_VELOCITY_DIRECTION() { return new yarnwrap.entity.ProjectileDeflection(wrapperContained.TRANSFER_VELOCITY_DIRECTION); }
 // public void TRANSFER_VELOCITY_DIRECTION(yarnwrap.entity.ProjectileDeflection value) { wrapperContained.TRANSFER_VELOCITY_DIRECTION = value.wrapperContained; }
+public void deflect(yarnwrap.entity.projectile.ProjectileEntity projectile,yarnwrap.entity.Entity hitEntity,yarnwrap.util.math.random.Random random) { wrapperContained.deflect(projectile.wrapperContained,hitEntity.wrapperContained,random.wrapperContained); }
+// public void method_56095(yarnwrap.entity.projectile.ProjectileEntity projectile,yarnwrap.entity.Entity hitEntity,yarnwrap.util.math.random.Random random) { wrapperContained.method_56095(projectile.wrapperContained,hitEntity.wrapperContained,random.wrapperContained); }
+// public void method_56096(yarnwrap.entity.projectile.ProjectileEntity projectile,yarnwrap.entity.Entity hitEntity,yarnwrap.util.math.random.Random random) { wrapperContained.method_56096(projectile.wrapperContained,hitEntity.wrapperContained,random.wrapperContained); }
+// public void method_59861(yarnwrap.entity.projectile.ProjectileEntity projectile,yarnwrap.entity.Entity hitEntity,yarnwrap.util.math.random.Random random) { wrapperContained.method_59861(projectile.wrapperContained,hitEntity.wrapperContained,random.wrapperContained); }
+// public void method_59862(yarnwrap.entity.projectile.ProjectileEntity projectile,yarnwrap.entity.Entity hitEntity,yarnwrap.util.math.random.Random random) { wrapperContained.method_59862(projectile.wrapperContained,hitEntity.wrapperContained,random.wrapperContained); }
 
 }

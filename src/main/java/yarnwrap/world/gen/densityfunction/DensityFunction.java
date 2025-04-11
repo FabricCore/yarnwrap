@@ -17,6 +17,7 @@ public yarnwrap.world.gen.densityfunction.DensityFunction cube() { return new ya
 public yarnwrap.world.gen.densityfunction.DensityFunction halfNegative() { return new yarnwrap.world.gen.densityfunction.DensityFunction(wrapperContained.halfNegative()); }
 public yarnwrap.world.gen.densityfunction.DensityFunction quarterNegative() { return new yarnwrap.world.gen.densityfunction.DensityFunction(wrapperContained.quarterNegative()); }
 public yarnwrap.world.gen.densityfunction.DensityFunction squeeze() { return new yarnwrap.world.gen.densityfunction.DensityFunction(wrapperContained.squeeze()); }
+// public yarnwrap.registry.entry.RegistryEntry method_41061(yarnwrap.world.gen.densityfunction.DensityFunction function) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.method_41061(function.wrapperContained)); }
 public yarnwrap.util.dynamic.CodecHolder getCodecHolder() { return new yarnwrap.util.dynamic.CodecHolder(wrapperContained.getCodecHolder()); }
 
 }

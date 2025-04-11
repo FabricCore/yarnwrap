@@ -9,6 +9,9 @@ public yarnwrap.state.property.IntProperty STAGE() { return new yarnwrap.state.p
 // public void SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.SHAPE = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public SaplingBlock(yarnwrap.block.SaplingGenerator generator,Object settings) { this.wrapperContained = new net.minecraft.block.SaplingBlock(generator.wrapperContained,settings); }
 public void generate(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.util.math.random.Random random) { wrapperContained.generate(world.wrapperContained,pos.wrapperContained,state.wrapperContained,random.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_54038(Object instance) { return wrapperContained.method_54038(instance); }
+// public yarnwrap.block.SaplingGenerator method_54039(yarnwrap.block.SaplingBlock block) { return new yarnwrap.block.SaplingGenerator(wrapperContained.method_54039(block.wrapperContained)); }
 
 }

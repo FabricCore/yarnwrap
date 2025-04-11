@@ -11,6 +11,7 @@ public class EndermiteEntityModel { public net.minecraft.client.render.entity.mo
 // public void bodySegments(net.minecraft.client.model.ModelPart[] value) { wrapperContained.bodySegments = value; }
 // public int[][] SEGMENT_UVS() { return wrapperContained.SEGMENT_UVS; }
 // public void SEGMENT_UVS(int[][] value) { wrapperContained.SEGMENT_UVS = value; }
+public EndermiteEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.EndermiteEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 // public java.lang.String getSegmentName(int index) { return wrapperContained.getSegmentName(index); }
 

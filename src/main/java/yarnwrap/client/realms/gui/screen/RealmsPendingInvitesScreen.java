@@ -31,8 +31,15 @@ public class RealmsPendingInvitesScreen { public net.minecraft.client.realms.gui
 // public void ACCEPT_HIGHLIGHTED_ICON_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.ACCEPT_HIGHLIGHTED_ICON_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier REJECT_HIGHLIGHTED_ICON_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.REJECT_HIGHLIGHTED_ICON_TEXTURE); }
 // public void REJECT_HIGHLIGHTED_ICON_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.REJECT_HIGHLIGHTED_ICON_TEXTURE = value.wrapperContained; }
+public RealmsPendingInvitesScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen(parent.wrapperContained,title.wrapperContained); }
 // public void updateButtonStates() { wrapperContained.updateButtonStates(); }
 // public boolean shouldAcceptAndRejectButtonBeVisible(int invite) { return wrapperContained.shouldAcceptAndRejectButtonBeVisible(invite); }
+// public void method_25175(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25175(button.wrapperContained); }
+// public void method_25177(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25177(button.wrapperContained); }
+// public void method_25179(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25179(button.wrapperContained); }
 // public void handle(int index,boolean accepted) { wrapperContained.handle(index,accepted); }
+// public void method_52673(int result) { wrapperContained.method_52673(result); }
+// public Object method_52674(yarnwrap.client.realms.dto.PendingInvite invite) { return wrapperContained.method_52674(invite.wrapperContained); }
+// public void method_52679(java.util.List pendingInvites) { wrapperContained.method_52679(pendingInvites); }
 
 }

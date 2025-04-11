@@ -5,6 +5,7 @@ public class PingMeasurer { public net.minecraft.client.network.PingMeasurer wra
 // public void handler(yarnwrap.client.network.ClientPlayNetworkHandler value) { wrapperContained.handler = value.wrapperContained; }
 // public yarnwrap.util.profiler.MultiValueDebugSampleLogImpl log() { return new yarnwrap.util.profiler.MultiValueDebugSampleLogImpl(wrapperContained.log); }
 // public void log(yarnwrap.util.profiler.MultiValueDebugSampleLogImpl value) { wrapperContained.log = value.wrapperContained; }
+public PingMeasurer(yarnwrap.client.network.ClientPlayNetworkHandler handler,yarnwrap.util.profiler.MultiValueDebugSampleLogImpl log) { this.wrapperContained = new net.minecraft.client.network.PingMeasurer(handler.wrapperContained,log.wrapperContained); }
 public void ping() { wrapperContained.ping(); }
 public void onPingResult(yarnwrap.network.packet.s2c.query.PingResultS2CPacket packet) { wrapperContained.onPingResult(packet.wrapperContained); }
 

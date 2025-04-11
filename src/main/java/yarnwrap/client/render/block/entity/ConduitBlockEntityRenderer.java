@@ -23,6 +23,7 @@ public yarnwrap.client.util.SpriteIdentifier OPEN_EYE_TEXTURE() { return new yar
 // public void OPEN_EYE_TEXTURE(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.OPEN_EYE_TEXTURE = value.wrapperContained; }
 public yarnwrap.client.util.SpriteIdentifier CLOSED_EYE_TEXTURE() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.CLOSED_EYE_TEXTURE); }
 // public void CLOSED_EYE_TEXTURE(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.CLOSED_EYE_TEXTURE = value.wrapperContained; }
+// public ConduitBlockEntityRenderer(Object ctx) { this.wrapperContained = new net.minecraft.client.render.block.entity.ConduitBlockEntityRenderer(ctx); }
 public yarnwrap.client.model.TexturedModelData getEyeTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getEyeTexturedModelData()); }
 public yarnwrap.client.model.TexturedModelData getWindTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getWindTexturedModelData()); }
 public yarnwrap.client.model.TexturedModelData getShellTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getShellTexturedModelData()); }

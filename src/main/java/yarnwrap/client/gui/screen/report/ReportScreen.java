@@ -39,16 +39,24 @@ public class ReportScreen { public net.minecraft.client.gui.screen.report.Report
 // public void checkbox(yarnwrap.client.gui.widget.CheckboxWidget value) { wrapperContained.checkbox = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.DirectionalLayoutWidget layout() { return new yarnwrap.client.gui.widget.DirectionalLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.DirectionalLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+// public ReportScreen(yarnwrap.text.Text title,yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.session.report.AbuseReportContext context,Object reportBuilder) { this.wrapperContained = new net.minecraft.client.gui.screen.report.ReportScreen(title.wrapperContained,parent.wrapperContained,context.wrapperContained,reportBuilder); }
 // public void onSent() { wrapperContained.onSent(); }
 // public void saveDraft() { wrapperContained.saveDraft(); }
 // public void resetDraft() { wrapperContained.resetDraft(); }
 // public yarnwrap.client.gui.widget.EditBoxWidget createCommentsBox(int width,int height,java.util.function.Consumer changeListener) { return new yarnwrap.client.gui.widget.EditBoxWidget(wrapperContained.createCommentsBox(width,height,changeListener)); }
+// public void method_53565(Object validationError) { wrapperContained.method_53565(validationError); }
+// public void method_53566(Object reportWithId) { wrapperContained.method_53566(reportWithId); }
+// public java.lang.Object method_53567(java.lang.Object v,java.lang.Throwable throwable) { return wrapperContained.method_53567(v,throwable); }
 // public void onSendError(java.lang.Throwable error) { wrapperContained.onSendError(error); }
 // public void showError(yarnwrap.text.Text errorMessage) { wrapperContained.showError(errorMessage.wrapperContained); }
 // public void trySend() { wrapperContained.trySend(); }
 // public void onChange() { wrapperContained.onChange(); }
 // public void addContent() { wrapperContained.addContent(); }
 // public void addAttestationCheckboxAndSendButton() { wrapperContained.addAttestationCheckboxAndSendButton(); }
+// public void method_61137(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_61137(button.wrapperContained); }
+// public void method_61138(yarnwrap.client.gui.widget.CheckboxWidget checkbox,boolean attested) { wrapperContained.method_61138(checkbox.wrapperContained,attested); }
+// public void method_61139(yarnwrap.client.gui.screen.report.ReportScreen child) { wrapperContained.method_61139(child.wrapperContained); }
+// public void method_61140(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_61140(button.wrapperContained); }
 // public void addTitle() { wrapperContained.addTitle(); }
 
 }

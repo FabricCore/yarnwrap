@@ -19,6 +19,8 @@ public yarnwrap.client.gui.screen.ConfirmLinkScreen createBanScreen(it.unimi.dsi
 // public yarnwrap.text.Text getTemporaryBanDurationText(com.mojang.authlib.minecraft.BanDetails banDetails) { return new yarnwrap.text.Text(wrapperContained.getTemporaryBanDurationText(banDetails)); }
 // public boolean isTemporary(com.mojang.authlib.minecraft.BanDetails banDetails) { return wrapperContained.isTemporary(banDetails); }
 public yarnwrap.client.gui.screen.ConfirmLinkScreen createSkinBanScreen(java.lang.Runnable onClose) { return new yarnwrap.client.gui.screen.ConfirmLinkScreen(wrapperContained.createSkinBanScreen(onClose)); }
+// public void method_53555(java.net.URI confirmed) { wrapperContained.method_53555(confirmed); }
 public yarnwrap.client.gui.screen.ConfirmLinkScreen createUsernameBanScreen(java.lang.String username,java.lang.Runnable onClose) { return new yarnwrap.client.gui.screen.ConfirmLinkScreen(wrapperContained.createUsernameBanScreen(username,onClose)); }
+// public void method_53557(java.net.URI confirmed) { wrapperContained.method_53557(confirmed); }
 
 }

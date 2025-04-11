@@ -19,5 +19,6 @@ public double SPRINTING_SPEED() { return wrapperContained.SPRINTING_SPEED; }
 // public void updateFleeing() { wrapperContained.updateFleeing(); }
 public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 public Object createOcelotAttributes() { return wrapperContained.createOcelotAttributes(); }
+// public boolean method_58370(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58370(stack.wrapperContained); }
 
 }

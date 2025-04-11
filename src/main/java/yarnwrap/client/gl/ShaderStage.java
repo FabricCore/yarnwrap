@@ -9,6 +9,7 @@ public class ShaderStage { public net.minecraft.client.gl.ShaderStage wrapperCon
 // public void name(java.lang.String value) { wrapperContained.name = value; }
 // public int MAX_INFO_LOG_LENGTH() { return wrapperContained.MAX_INFO_LOG_LENGTH; }
 // public void MAX_INFO_LOG_LENGTH(int value) { wrapperContained.MAX_INFO_LOG_LENGTH = value; }
+// public ShaderStage(Object type,int glRef,java.lang.String name) { this.wrapperContained = new net.minecraft.client.gl.ShaderStage(type,glRef,name); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 public void attachTo(yarnwrap.client.gl.ShaderProgramSetupView program) { wrapperContained.attachTo(program.wrapperContained); }
 public void release() { wrapperContained.release(); }

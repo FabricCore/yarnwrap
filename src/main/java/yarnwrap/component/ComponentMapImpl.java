@@ -7,6 +7,9 @@ public class ComponentMapImpl { public net.minecraft.component.ComponentMapImpl 
 // public void changedComponents(it.unimi.dsi.fastutil.objects.Reference2ObjectMap value) { wrapperContained.changedComponents = value; }
 // public boolean copyOnWrite() { return wrapperContained.copyOnWrite; }
 // public void copyOnWrite(boolean value) { wrapperContained.copyOnWrite = value; }
+public ComponentMapImpl(yarnwrap.component.ComponentMap baseComponents) { this.wrapperContained = new net.minecraft.component.ComponentMapImpl(baseComponents.wrapperContained); }
+// public ComponentMapImpl(yarnwrap.component.ComponentMap baseComponents,it.unimi.dsi.fastutil.objects.Reference2ObjectMap changedComponents,boolean copyOnWrite) { this.wrapperContained = new net.minecraft.component.ComponentMapImpl(baseComponents.wrapperContained,changedComponents,copyOnWrite); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public void setAll(yarnwrap.component.ComponentMap components) { wrapperContained.setAll(components.wrapperContained); }
 // public boolean shouldReuseChangesMap(yarnwrap.component.ComponentMap baseComponents,it.unimi.dsi.fastutil.objects.Reference2ObjectMap changedComponents) { return wrapperContained.shouldReuseChangesMap(baseComponents.wrapperContained,changedComponents); }
 public yarnwrap.component.ComponentMapImpl create(yarnwrap.component.ComponentMap baseComponents,yarnwrap.component.ComponentChanges changes) { return new yarnwrap.component.ComponentMapImpl(wrapperContained.create(baseComponents.wrapperContained,changes.wrapperContained)); }

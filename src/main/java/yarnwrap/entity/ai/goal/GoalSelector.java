@@ -11,11 +11,13 @@ public class GoalSelector { public net.minecraft.entity.ai.goal.GoalSelector wra
 // public void disabledControls(java.util.EnumSet value) { wrapperContained.disabledControls = value; }
 // public java.util.function.Supplier profiler() { return wrapperContained.profiler; }
 // public void profiler(java.util.function.Supplier value) { wrapperContained.profiler = value; }
+public GoalSelector(java.util.function.Supplier profiler) { this.wrapperContained = new net.minecraft.entity.ai.goal.GoalSelector(profiler); }
 public void clear(java.util.function.Predicate predicate) { wrapperContained.clear(predicate); }
 public java.util.Set getGoals() { return wrapperContained.getGoals(); }
 // public boolean usesAny(yarnwrap.entity.ai.goal.PrioritizedGoal goal,java.util.EnumSet controls) { return wrapperContained.usesAny(goal.wrapperContained,controls); }
 // public boolean canReplaceAll(yarnwrap.entity.ai.goal.PrioritizedGoal goal,java.util.Map goalsByControl) { return wrapperContained.canReplaceAll(goal.wrapperContained,goalsByControl); }
 public void tickGoals(boolean tickAll) { wrapperContained.tickGoals(tickAll); }
+// public boolean method_47828(java.util.function.Predicate goal) { return wrapperContained.method_47828(goal); }
 // public void enableControl(Object control) { wrapperContained.enableControl(control); }
 // public void disableControl(Object control) { wrapperContained.disableControl(control); }
 public void tick() { wrapperContained.tick(); }

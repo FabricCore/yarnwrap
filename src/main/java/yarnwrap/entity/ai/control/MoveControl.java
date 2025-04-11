@@ -19,6 +19,7 @@ public float REACHED_DESTINATION_DISTANCE_SQUARED() { return wrapperContained.RE
 // public void sidewaysMovement(float value) { wrapperContained.sidewaysMovement = value; }
 // public Object state() { return wrapperContained.state; }
 // // public void state(Object value) { wrapperContained.state = value; }
+public MoveControl(yarnwrap.entity.mob.MobEntity entity) { this.wrapperContained = new net.minecraft.entity.ai.control.MoveControl(entity.wrapperContained); }
 // public boolean isPosWalkable(float x,float z) { return wrapperContained.isPosWalkable(x,z); }
 public double getTargetY() { return wrapperContained.getTargetY(); }
 public double getTargetX() { return wrapperContained.getTargetX(); }

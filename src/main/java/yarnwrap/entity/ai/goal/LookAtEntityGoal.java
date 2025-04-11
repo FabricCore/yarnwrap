@@ -19,5 +19,9 @@ public float DEFAULT_CHANCE() { return wrapperContained.DEFAULT_CHANCE; }
 // public void targetType(java.lang.Class value) { wrapperContained.targetType = value; }
 // public yarnwrap.entity.mob.MobEntity mob() { return new yarnwrap.entity.mob.MobEntity(wrapperContained.mob); }
 // public void mob(yarnwrap.entity.mob.MobEntity value) { wrapperContained.mob = value.wrapperContained; }
+public LookAtEntityGoal(yarnwrap.entity.mob.MobEntity mob,java.lang.Class targetType,float range) { this.wrapperContained = new net.minecraft.entity.ai.goal.LookAtEntityGoal(mob.wrapperContained,targetType,range); }
+public LookAtEntityGoal(yarnwrap.entity.mob.MobEntity mob,java.lang.Class targetType,float range,float chance) { this.wrapperContained = new net.minecraft.entity.ai.goal.LookAtEntityGoal(mob.wrapperContained,targetType,range,chance); }
+public LookAtEntityGoal(yarnwrap.entity.mob.MobEntity mob,java.lang.Class targetType,float range,float chance,boolean lookForward) { this.wrapperContained = new net.minecraft.entity.ai.goal.LookAtEntityGoal(mob.wrapperContained,targetType,range,chance,lookForward); }
+// public boolean method_18414(yarnwrap.entity.mob.MobEntity entity) { return wrapperContained.method_18414(entity.wrapperContained); }
 
 }

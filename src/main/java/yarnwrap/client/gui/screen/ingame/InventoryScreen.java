@@ -11,6 +11,8 @@ public class InventoryScreen { public net.minecraft.client.gui.screen.ingame.Inv
 // public void mouseY(float value) { wrapperContained.mouseY = value; }
 // public float mouseX() { return wrapperContained.mouseX; }
 // public void mouseX(float value) { wrapperContained.mouseX = value; }
+public InventoryScreen(yarnwrap.entity.player.PlayerEntity player) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.InventoryScreen(player.wrapperContained); }
+// public void method_19891(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19891(button.wrapperContained); }
 // public void drawEntity(yarnwrap.client.gui.DrawContext context,int x1,int y1,int x2,int y2,int size,float mouseX,float mouseY,float entity) { wrapperContained.drawEntity(context.wrapperContained,x1,y1,x2,y2,size,mouseX,mouseY,entity); }
 // public void drawEntity(yarnwrap.client.gui.DrawContext context,float x,float y,float size,org.joml.Vector3f entity) { wrapperContained.drawEntity(context.wrapperContained,x,y,size,entity); }
 

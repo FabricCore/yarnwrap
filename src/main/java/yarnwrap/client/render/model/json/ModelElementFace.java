@@ -9,6 +9,7 @@ public class ModelElementFace { public net.minecraft.client.render.model.json.Mo
 // public void textureId(java.lang.String value) { wrapperContained.textureId = value; }
 // public yarnwrap.client.render.model.json.ModelElementTexture textureData() { return new yarnwrap.client.render.model.json.ModelElementTexture(wrapperContained.textureData); }
 // public void textureData(yarnwrap.client.render.model.json.ModelElementTexture value) { wrapperContained.textureData = value.wrapperContained; }
+public ModelElementFace(yarnwrap.util.math.Direction cullFace,int tintIndex,java.lang.String textureId,yarnwrap.client.render.model.json.ModelElementTexture textureData) { this.wrapperContained = new net.minecraft.client.render.model.json.ModelElementFace(cullFace.wrapperContained,tintIndex,textureId,textureData.wrapperContained); }
 // public yarnwrap.util.math.Direction cullFace() { return new yarnwrap.util.math.Direction(wrapperContained.cullFace()); }
 // public int tintIndex() { return wrapperContained.tintIndex(); }
 // public java.lang.String textureId() { return wrapperContained.textureId(); }

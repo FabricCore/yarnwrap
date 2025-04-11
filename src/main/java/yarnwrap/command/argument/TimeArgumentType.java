@@ -11,7 +11,11 @@ public class TimeArgumentType { public net.minecraft.command.argument.TimeArgume
 // public void INVALID_UNIT_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.INVALID_UNIT_EXCEPTION = value; }
 // public it.unimi.dsi.fastutil.objects.Object2IntMap UNITS() { return wrapperContained.UNITS; }
 // public void UNITS(it.unimi.dsi.fastutil.objects.Object2IntMap value) { wrapperContained.UNITS = value; }
+// public TimeArgumentType(int minimum) { this.wrapperContained = new net.minecraft.command.argument.TimeArgumentType(minimum); }
+public java.util.concurrent.CompletableFuture listSuggestions(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.listSuggestions(context,builder); }
 public yarnwrap.command.argument.TimeArgumentType time(int minimum) { return new yarnwrap.command.argument.TimeArgumentType(wrapperContained.time(minimum)); }
 public yarnwrap.command.argument.TimeArgumentType time() { return new yarnwrap.command.argument.TimeArgumentType(wrapperContained.time()); }
+// public com.mojang.brigadier.Message method_9491(java.lang.Object value,java.lang.Object minimum) { return wrapperContained.method_9491(value,minimum); }
+// public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 
 }

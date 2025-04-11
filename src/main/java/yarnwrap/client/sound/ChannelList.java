@@ -9,6 +9,8 @@ public class ChannelList { public net.minecraft.client.sound.ChannelList wrapper
 // public void currentBufferSize(int value) { wrapperContained.currentBufferSize = value; }
 // public java.nio.ByteBuffer buffer() { return wrapperContained.buffer; }
 // public void buffer(java.nio.ByteBuffer value) { wrapperContained.buffer = value; }
+public ChannelList(int size) { this.wrapperContained = new net.minecraft.client.sound.ChannelList(size); }
+public void accept(float value) { wrapperContained.accept(value); }
 public java.nio.ByteBuffer getBuffer() { return wrapperContained.getBuffer(); }
 public int getCurrentBufferSize() { return wrapperContained.getCurrentBufferSize(); }
 

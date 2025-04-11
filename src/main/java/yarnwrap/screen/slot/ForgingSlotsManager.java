@@ -5,6 +5,7 @@ public class ForgingSlotsManager { public net.minecraft.screen.slot.ForgingSlots
 // public void inputSlots(java.util.List value) { wrapperContained.inputSlots = value; }
 // public Object resultSlot() { return wrapperContained.resultSlot; }
 // // public void resultSlot(Object value) { wrapperContained.resultSlot = value; }
+// public ForgingSlotsManager(java.util.List inputSlots,Object resultSlot) { this.wrapperContained = new net.minecraft.screen.slot.ForgingSlotsManager(inputSlots,resultSlot); }
 public Object create() { return wrapperContained.create(); }
 public boolean hasSlotIndex(int index) { return wrapperContained.hasSlotIndex(index); }
 public Object getResultSlot() { return wrapperContained.getResultSlot(); }

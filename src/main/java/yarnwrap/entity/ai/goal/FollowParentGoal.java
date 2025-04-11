@@ -15,5 +15,6 @@ public int MIN_DISTANCE() { return wrapperContained.MIN_DISTANCE; }
 // public void delay(int value) { wrapperContained.delay = value; }
 // public yarnwrap.entity.passive.AnimalEntity animal() { return new yarnwrap.entity.passive.AnimalEntity(wrapperContained.animal); }
 // public void animal(yarnwrap.entity.passive.AnimalEntity value) { wrapperContained.animal = value.wrapperContained; }
+public FollowParentGoal(yarnwrap.entity.passive.AnimalEntity animal,double speed) { this.wrapperContained = new net.minecraft.entity.ai.goal.FollowParentGoal(animal.wrapperContained,speed); }
 
 }

@@ -11,6 +11,7 @@ public class CommandHistoryManager { public net.minecraft.client.util.CommandHis
 // public void path(java.nio.file.Path value) { wrapperContained.path = value; }
 // public yarnwrap.util.collection.ArrayListDeque history() { return new yarnwrap.util.collection.ArrayListDeque(wrapperContained.history); }
 // public void history(yarnwrap.util.collection.ArrayListDeque value) { wrapperContained.history = value.wrapperContained; }
+public CommandHistoryManager(java.nio.file.Path directoryPath) { this.wrapperContained = new net.minecraft.client.util.CommandHistoryManager(directoryPath); }
 public java.util.Collection getHistory() { return wrapperContained.getHistory(); }
 public void add(java.lang.String command) { wrapperContained.add(command); }
 // public void write() { wrapperContained.write(); }

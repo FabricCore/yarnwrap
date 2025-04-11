@@ -9,6 +9,8 @@ public class MoveToRaidCenterGoal { public net.minecraft.entity.ai.goal.MoveToRa
 // public void FREE_RAIDER_CHECK_INTERVAL(int value) { wrapperContained.FREE_RAIDER_CHECK_INTERVAL = value; }
 // public int nextFreeRaiderCheckAge() { return wrapperContained.nextFreeRaiderCheckAge; }
 // public void nextFreeRaiderCheckAge(int value) { wrapperContained.nextFreeRaiderCheckAge = value; }
+public MoveToRaidCenterGoal(yarnwrap.entity.raid.RaiderEntity actor) { this.wrapperContained = new net.minecraft.entity.ai.goal.MoveToRaidCenterGoal(actor.wrapperContained); }
 // public void includeFreeRaiders(yarnwrap.village.raid.Raid raid) { wrapperContained.includeFreeRaiders(raid.wrapperContained); }
+// public boolean method_16466(yarnwrap.village.raid.Raid raider) { return wrapperContained.method_16466(raider.wrapperContained); }
 
 }

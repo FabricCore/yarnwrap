@@ -13,5 +13,7 @@ public class Generic3x3ContainerScreenHandler { public net.minecraft.screen.Gene
 // public void HOTBAR_END(int value) { wrapperContained.HOTBAR_END = value; }
 // public yarnwrap.inventory.Inventory inventory() { return new yarnwrap.inventory.Inventory(wrapperContained.inventory); }
 // public void inventory(yarnwrap.inventory.Inventory value) { wrapperContained.inventory = value.wrapperContained; }
+public Generic3x3ContainerScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.Generic3x3ContainerScreenHandler(syncId,playerInventory.wrapperContained); }
+public Generic3x3ContainerScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.inventory.Inventory inventory) { this.wrapperContained = new net.minecraft.screen.Generic3x3ContainerScreenHandler(syncId,playerInventory.wrapperContained,inventory.wrapperContained); }
 
 }

@@ -9,6 +9,7 @@ public class ChunkRendererRegion { public net.minecraft.client.render.chunk.Chun
 // public void chunkXOffset(int value) { wrapperContained.chunkXOffset = value; }
 // public int chunkZOffset() { return wrapperContained.chunkZOffset; }
 // public void chunkZOffset(int value) { wrapperContained.chunkZOffset = value; }
+// public ChunkRendererRegion(yarnwrap.world.World world,int chunkX,int chunkZ,net.minecraft.client.render.chunk.RenderedChunk[] chunks) { this.wrapperContained = new net.minecraft.client.render.chunk.ChunkRendererRegion(world.wrapperContained,chunkX,chunkZ,chunks); }
 // public yarnwrap.client.render.chunk.RenderedChunk getRenderedChunk(int x,int z) { return new yarnwrap.client.render.chunk.RenderedChunk(wrapperContained.getRenderedChunk(x,z)); }
 public int getIndex(int xOffset,int zOffset,int x,int z) { return wrapperContained.getIndex(xOffset,zOffset,x,z); }
 

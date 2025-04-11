@@ -6,5 +6,6 @@ public yarnwrap.util.collection.Pool MONSTER_SPAWNS() { return new yarnwrap.util
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public void addPieces(yarnwrap.structure.StructurePiecesCollector collector,Object context) { wrapperContained.addPieces(collector.wrapperContained,context); }
+// public void method_41670(Object collector) { wrapperContained.method_41670(collector); }
 
 }

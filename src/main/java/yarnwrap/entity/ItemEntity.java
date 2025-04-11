@@ -23,7 +23,11 @@ public float uniqueOffset() { return wrapperContained.uniqueOffset; }
 // public void uniqueOffset(float value) { wrapperContained.uniqueOffset = value; }
 // public int itemAge() { return wrapperContained.itemAge; }
 // public void itemAge(int value) { wrapperContained.itemAge = value; }
+// public ItemEntity(yarnwrap.entity.ItemEntity entity) { this.wrapperContained = new net.minecraft.entity.ItemEntity(entity.wrapperContained); }
+public ItemEntity(yarnwrap.world.World world,double x,double y,double z,yarnwrap.item.ItemStack stack) { this.wrapperContained = new net.minecraft.entity.ItemEntity(world.wrapperContained,x,y,z,stack.wrapperContained); }
+public ItemEntity(yarnwrap.world.World world,double x,double y,double z,yarnwrap.item.ItemStack stack,double velocityX,double velocityY,double velocityZ) { this.wrapperContained = new net.minecraft.entity.ItemEntity(world.wrapperContained,x,y,z,stack.wrapperContained,velocityX,velocityY,velocityZ); }
 // public void merge(yarnwrap.entity.ItemEntity targetEntity,yarnwrap.item.ItemStack targetStack,yarnwrap.entity.ItemEntity sourceEntity,yarnwrap.item.ItemStack sourceStack) { wrapperContained.merge(targetEntity.wrapperContained,targetStack.wrapperContained,sourceEntity.wrapperContained,sourceStack.wrapperContained); }
+// public boolean method_20396(yarnwrap.entity.ItemEntity otherItemEntity) { return wrapperContained.method_20396(otherItemEntity.wrapperContained); }
 // public boolean canMerge() { return wrapperContained.canMerge(); }
 // public void merge(yarnwrap.entity.ItemEntity targetEntity,yarnwrap.item.ItemStack stack1,yarnwrap.item.ItemStack stack2) { wrapperContained.merge(targetEntity.wrapperContained,stack1.wrapperContained,stack2.wrapperContained); }
 public boolean canMerge(yarnwrap.item.ItemStack stack1,yarnwrap.item.ItemStack stack2) { return wrapperContained.canMerge(stack1.wrapperContained,stack2.wrapperContained); }

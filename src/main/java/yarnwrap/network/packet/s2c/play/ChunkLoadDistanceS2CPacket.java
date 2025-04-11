@@ -5,6 +5,8 @@ public class ChunkLoadDistanceS2CPacket { public net.minecraft.network.packet.s2
 // public void distance(int value) { wrapperContained.distance = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public ChunkLoadDistanceS2CPacket(int distance) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChunkLoadDistanceS2CPacket(distance); }
+// public ChunkLoadDistanceS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChunkLoadDistanceS2CPacket(buf.wrapperContained); }
 public int getDistance() { return wrapperContained.getDistance(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 

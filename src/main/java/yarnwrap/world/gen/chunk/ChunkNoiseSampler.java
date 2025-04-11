@@ -73,18 +73,24 @@ public class ChunkNoiseSampler { public net.minecraft.world.gen.chunk.ChunkNoise
 // public void startBlockX(int value) { wrapperContained.startBlockX = value; }
 // public Object beardifying() { return wrapperContained.beardifying; }
 // // public void beardifying(Object value) { wrapperContained.beardifying = value; }
+// public ChunkNoiseSampler(int horizontalCellCount,yarnwrap.world.gen.noise.NoiseConfig noiseConfig,int startBlockX,int startBlockZ,yarnwrap.world.gen.chunk.GenerationShapeConfig generationShapeConfig,Object beardifying,yarnwrap.world.gen.chunk.ChunkGeneratorSettings chunkGeneratorSettings,Object fluidLevelSampler,yarnwrap.world.gen.chunk.Blender blender) { this.wrapperContained = new net.minecraft.world.gen.chunk.ChunkNoiseSampler(horizontalCellCount,noiseConfig.wrapperContained,startBlockX,startBlockZ,generationShapeConfig.wrapperContained,beardifying,chunkGeneratorSettings.wrapperContained,fluidLevelSampler,blender.wrapperContained); }
 public void sampleStartDensity() { wrapperContained.sampleStartDensity(); }
 public void interpolateY(int blockY,double deltaY) { wrapperContained.interpolateY(blockY,deltaY); }
+// public void method_38338(double interpolator) { wrapperContained.method_38338(interpolator); }
 public void sampleEndDensity(int cellX) { wrapperContained.sampleEndDensity(cellX); }
+// public void method_38342(int interpolator) { wrapperContained.method_38342(interpolator); }
 public void swapBuffers() { wrapperContained.swapBuffers(); }
 public void interpolateX(int blockX,double deltaX) { wrapperContained.interpolateX(blockX,deltaX); }
+// public void method_38350(double interpolator) { wrapperContained.method_38350(interpolator); }
 public yarnwrap.world.gen.chunk.AquiferSampler getAquiferSampler() { return new yarnwrap.world.gen.chunk.AquiferSampler(wrapperContained.getAquiferSampler()); }
 public void interpolateZ(int blockZ,double deltaZ) { wrapperContained.interpolateZ(blockZ,deltaZ); }
+// public void method_38356(double interpolator) { wrapperContained.method_38356(interpolator); }
 public void onSampledCellCorners(int cellY,int cellZ) { wrapperContained.onSampledCellCorners(cellY,cellZ); }
 // public yarnwrap.world.gen.chunk.ChunkNoiseSampler create(yarnwrap.world.chunk.Chunk chunk,yarnwrap.world.gen.noise.NoiseConfig noiseConfig,Object beardifying,yarnwrap.world.gen.chunk.ChunkGeneratorSettings chunkGeneratorSettings,Object fluidLevelSampler,yarnwrap.world.gen.chunk.Blender blender) { return new yarnwrap.world.gen.chunk.ChunkNoiseSampler(wrapperContained.create(chunk.wrapperContained,noiseConfig.wrapperContained,beardifying,chunkGeneratorSettings.wrapperContained,fluidLevelSampler,blender.wrapperContained)); }
 // public int calculateSurfaceHeightEstimate(long columnPos) { return wrapperContained.calculateSurfaceHeightEstimate(columnPos); }
 public int estimateSurfaceHeight(int blockX,int blockZ) { return wrapperContained.estimateSurfaceHeight(blockX,blockZ); }
 // public yarnwrap.world.gen.densityfunction.DensityFunction getActualDensityFunction(yarnwrap.world.gen.densityfunction.DensityFunction function) { return new yarnwrap.world.gen.densityfunction.DensityFunction(wrapperContained.getActualDensityFunction(function.wrapperContained)); }
+// public yarnwrap.block.BlockState method_40530(yarnwrap.world.gen.densityfunction.DensityFunction pos) { return new yarnwrap.block.BlockState(wrapperContained.method_40530(pos.wrapperContained)); }
 // public Object createMultiNoiseSampler(yarnwrap.world.gen.noise.NoiseRouter noiseRouter,java.util.List spawnTarget) { return wrapperContained.createMultiNoiseSampler(noiseRouter.wrapperContained,spawnTarget); }
 // public void sampleDensity(boolean start,int cellX) { wrapperContained.sampleDensity(start,cellX); }
 // public yarnwrap.world.gen.densityfunction.DensityFunction getActualDensityFunctionImpl(yarnwrap.world.gen.densityfunction.DensityFunction function) { return new yarnwrap.world.gen.densityfunction.DensityFunction(wrapperContained.getActualDensityFunctionImpl(function.wrapperContained)); }

@@ -7,6 +7,7 @@ public class AbstractPlantPartBlock { public net.minecraft.block.AbstractPlantPa
 // public void tickWater(boolean value) { wrapperContained.tickWater = value; }
 // public yarnwrap.util.shape.VoxelShape outlineShape() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.outlineShape); }
 // public void outlineShape(yarnwrap.util.shape.VoxelShape value) { wrapperContained.outlineShape = value.wrapperContained; }
+// public AbstractPlantPartBlock(Object settings,yarnwrap.util.math.Direction growthDirection,yarnwrap.util.shape.VoxelShape outlineShape,boolean tickWater) { this.wrapperContained = new net.minecraft.block.AbstractPlantPartBlock(settings,growthDirection.wrapperContained,outlineShape.wrapperContained,tickWater); }
 // public yarnwrap.block.AbstractPlantStemBlock getStem() { return new yarnwrap.block.AbstractPlantStemBlock(wrapperContained.getStem()); }
 // public yarnwrap.block.Block getPlant() { return new yarnwrap.block.Block(wrapperContained.getPlant()); }
 // public boolean canAttachTo(yarnwrap.block.BlockState state) { return wrapperContained.canAttachTo(state.wrapperContained); }

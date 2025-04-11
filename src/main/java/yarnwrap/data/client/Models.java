@@ -14,6 +14,7 @@ public yarnwrap.data.client.Model TEMPLATE_POTTED_FLOWERING_AZALEA_BUSH() { retu
 // public yarnwrap.data.client.Model block(java.lang.String parent,java.lang.String variant,net.minecraft.data.client.TextureKey[] requiredTextureKeys) { return new yarnwrap.data.client.Model(wrapperContained.block(parent,variant,requiredTextureKeys)); }
 // public yarnwrap.data.client.Model block(java.lang.String parent,net.minecraft.data.client.TextureKey[] requiredTextureKeys) { return new yarnwrap.data.client.Model(wrapperContained.block(parent,requiredTextureKeys)); }
 // public yarnwrap.data.client.Model make(net.minecraft.data.client.TextureKey[] requiredTextureKeys) { return new yarnwrap.data.client.Model(wrapperContained.make(requiredTextureKeys)); }
+// public yarnwrap.data.client.Model method_25858(int stage) { return new yarnwrap.data.client.Model(wrapperContained.method_25858(stage)); }
 // public yarnwrap.data.client.Model item(java.lang.String parent,net.minecraft.data.client.TextureKey[] requiredTextureKeys) { return new yarnwrap.data.client.Model(wrapperContained.item(parent,requiredTextureKeys)); }
 
 }

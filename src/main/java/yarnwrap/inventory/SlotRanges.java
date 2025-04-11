@@ -8,13 +8,16 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public java.util.function.Function FROM_NAME() { return wrapperContained.FROM_NAME; }
 // public void FROM_NAME(java.util.function.Function value) { wrapperContained.FROM_NAME = value; }
 public java.util.stream.Stream streamNames() { return wrapperContained.streamNames(); }
+// public boolean method_58079(yarnwrap.inventory.SlotRange slotRange) { return wrapperContained.method_58079(slotRange.wrapperContained); }
 public yarnwrap.inventory.SlotRange fromName(java.lang.String name) { return new yarnwrap.inventory.SlotRange(wrapperContained.fromName(name)); }
 // public yarnwrap.inventory.SlotRange create(java.lang.String name,int slotId) { return new yarnwrap.inventory.SlotRange(wrapperContained.create(name,slotId)); }
 // public yarnwrap.inventory.SlotRange create(java.lang.String name,it.unimi.dsi.fastutil.ints.IntList slotIds) { return new yarnwrap.inventory.SlotRange(wrapperContained.create(name,slotIds)); }
 // // public yarnwrap.inventory.SlotRange create(java.lang.String name,int slotIds) { return new yarnwrap.inventory.SlotRange(wrapperContained.create(name,slotIds)); }
+// public void method_58084(java.util.ArrayList list) { wrapperContained.method_58084(list); }
 // public void createAndAdd(java.util.List list,java.lang.String name,int slotId) { wrapperContained.createAndAdd(list,name,slotId); }
 // public void createAndAdd(java.util.List list,java.lang.String baseName,int firstSlotId,int lastSlotId) { wrapperContained.createAndAdd(list,baseName,firstSlotId,lastSlotId); }
 // // public void createAndAdd(java.util.List list,java.lang.String name,int slots) { wrapperContained.createAndAdd(list,name,slots); }
 public java.util.stream.Stream streamSingleSlotNames() { return wrapperContained.streamSingleSlotNames(); }
+// public java.lang.String method_58089(java.lang.String name) { return wrapperContained.method_58089(name); }
 
 }

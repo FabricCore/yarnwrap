@@ -9,6 +9,8 @@ public class BlockBreakingProgressS2CPacket { public net.minecraft.network.packe
 // public void pos(yarnwrap.util.math.BlockPos value) { wrapperContained.pos = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public BlockBreakingProgressS2CPacket(int entityId,yarnwrap.util.math.BlockPos pos,int progress) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.BlockBreakingProgressS2CPacket(entityId,pos.wrapperContained,progress); }
+// public BlockBreakingProgressS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.BlockBreakingProgressS2CPacket(buf.wrapperContained); }
 public yarnwrap.util.math.BlockPos getPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getPos()); }
 public int getProgress() { return wrapperContained.getProgress(); }
 public int getEntityId() { return wrapperContained.getEntityId(); }

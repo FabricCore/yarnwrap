@@ -20,6 +20,7 @@ public Object getCrackLevel() { return wrapperContained.getCrackLevel(); }
 public Object createIronGolemAttributes() { return wrapperContained.createIronGolemAttributes(); }
 public boolean isPlayerCreated() { return wrapperContained.isPlayerCreated(); }
 public void setLookingAtVillager(boolean lookingAtVillager) { wrapperContained.setLookingAtVillager(lookingAtVillager); }
+// public boolean method_6498(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_6498(entity.wrapperContained); }
 public void setPlayerCreated(boolean playerCreated) { wrapperContained.setPlayerCreated(playerCreated); }
 public int getAttackTicksLeft() { return wrapperContained.getAttackTicksLeft(); }
 public int getLookingAtVillagerTicks() { return wrapperContained.getLookingAtVillagerTicks(); }

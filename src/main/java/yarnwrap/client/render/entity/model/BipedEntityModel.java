@@ -29,6 +29,8 @@ public boolean sneaking() { return wrapperContained.sneaking; }
 public void sneaking(boolean value) { wrapperContained.sneaking = value; }
 public yarnwrap.client.model.ModelPart rightArm() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightArm); }
 // public void rightArm(yarnwrap.client.model.ModelPart value) { wrapperContained.rightArm = value.wrapperContained; }
+public BipedEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.BipedEntityModel(root.wrapperContained); }
+public BipedEntityModel(yarnwrap.client.model.ModelPart root,java.util.function.Function renderLayerFactory) { this.wrapperContained = new net.minecraft.client.render.entity.model.BipedEntityModel(root.wrapperContained,renderLayerFactory); }
 // public float lerpAngle(float angleOne,float angleTwo,float magnitude) { return wrapperContained.lerpAngle(angleOne,angleTwo,magnitude); }
 public void setVisible(boolean visible) { wrapperContained.setVisible(visible); }
 // public yarnwrap.util.Arm getPreferredArm(yarnwrap.entity.LivingEntity entity) { return new yarnwrap.util.Arm(wrapperContained.getPreferredArm(entity.wrapperContained)); }

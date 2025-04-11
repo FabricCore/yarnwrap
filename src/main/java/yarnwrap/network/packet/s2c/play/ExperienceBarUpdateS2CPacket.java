@@ -9,6 +9,8 @@ public class ExperienceBarUpdateS2CPacket { public net.minecraft.network.packet.
 // public void experienceLevel(int value) { wrapperContained.experienceLevel = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public ExperienceBarUpdateS2CPacket(float barProgress,int experienceLevel,int experience) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ExperienceBarUpdateS2CPacket(barProgress,experienceLevel,experience); }
+// public ExperienceBarUpdateS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ExperienceBarUpdateS2CPacket(buf.wrapperContained); }
 public int getExperienceLevel() { return wrapperContained.getExperienceLevel(); }
 public int getExperience() { return wrapperContained.getExperience(); }
 public float getBarProgress() { return wrapperContained.getBarProgress(); }

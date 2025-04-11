@@ -4,5 +4,11 @@ public class LookAtMobWithIntervalTask { public net.minecraft.entity.ai.brain.ta
 public yarnwrap.entity.ai.brain.task.Task follow(float maxDistance,yarnwrap.util.math.intprovider.UniformIntProvider interval) { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.follow(maxDistance,interval.wrapperContained)); }
 // public yarnwrap.entity.ai.brain.task.Task follow(float maxDistance,yarnwrap.util.math.intprovider.UniformIntProvider interval,java.util.function.Predicate predicate) { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.follow(maxDistance,interval.wrapperContained,predicate)); }
 public yarnwrap.entity.ai.brain.task.Task follow(yarnwrap.entity.EntityType type,float maxDistance,yarnwrap.util.math.intprovider.UniformIntProvider interval) { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.follow(type.wrapperContained,maxDistance,interval.wrapperContained)); }
+// public boolean method_47070(yarnwrap.entity.EntityType entity) { return wrapperContained.method_47070(entity.wrapperContained); }
+// public boolean method_47071(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_47071(entity.wrapperContained); }
+// public boolean method_47072(yarnwrap.entity.LivingEntity other) { return wrapperContained.method_47072(other.wrapperContained); }
+// public boolean method_47073(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,java.util.function.Predicate time) { return wrapperContained.method_47073(world,entity.wrapperContained,time); }
+// public yarnwrap.entity.ai.brain.task.TaskRunnable method_47074(Object lookTarget,java.util.function.Predicate visibleMobs) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(wrapperContained.method_47074(lookTarget,visibleMobs)); }
+// public com.mojang.datafixers.kinds.App method_47075(java.util.function.Predicate context) { return wrapperContained.method_47075(context); }
 
 }

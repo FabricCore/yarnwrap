@@ -5,6 +5,7 @@ public yarnwrap.block.dispenser.DispenserBehavior NOOP() { return new yarnwrap.b
 // public void NOOP(yarnwrap.block.dispenser.DispenserBehavior value) { wrapperContained.NOOP = value.wrapperContained; }
 public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public yarnwrap.item.ItemStack dispense(yarnwrap.util.math.BlockPointer pointer,yarnwrap.item.ItemStack stack) { return new yarnwrap.item.ItemStack(wrapperContained.dispense(pointer.wrapperContained,stack.wrapperContained)); }
 // public yarnwrap.item.ItemStack doDispense(yarnwrap.util.math.BlockPointer pointer,yarnwrap.item.ItemStack stack) { return new yarnwrap.item.ItemStack(wrapperContained.doDispense(pointer.wrapperContained,stack.wrapperContained)); }
 // public void registerDefaults() { wrapperContained.registerDefaults(); }
 

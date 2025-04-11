@@ -15,9 +15,12 @@ public class TestSet { public net.minecraft.test.TestSet wrapperContained; publi
 // public void OPTIONAL_FAIL(char value) { wrapperContained.OPTIONAL_FAIL = value; }
 // public char REQUIRED_FAIL() { return wrapperContained.REQUIRED_FAIL; }
 // public void REQUIRED_FAIL(char value) { wrapperContained.REQUIRED_FAIL = value; }
+public TestSet(java.util.Collection tests) { this.wrapperContained = new net.minecraft.test.TestSet(tests); }
 public int getFailedRequiredTestCount() { return wrapperContained.getFailedRequiredTestCount(); }
 public void add(yarnwrap.test.GameTestState test) { wrapperContained.add(test.wrapperContained); }
 public void addListener(yarnwrap.test.TestListener listener) { wrapperContained.addListener(listener.wrapperContained); }
+// public void method_22232(yarnwrap.test.TestListener test) { wrapperContained.method_22232(test.wrapperContained); }
+// public void method_22233(java.lang.StringBuffer test) { wrapperContained.method_22233(test); }
 public int getFailedOptionalTestCount() { return wrapperContained.getFailedOptionalTestCount(); }
 public int getCompletedTestCount() { return wrapperContained.getCompletedTestCount(); }
 public boolean failed() { return wrapperContained.failed(); }

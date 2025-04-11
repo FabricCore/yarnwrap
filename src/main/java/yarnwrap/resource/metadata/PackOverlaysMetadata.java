@@ -8,6 +8,8 @@ public yarnwrap.resource.metadata.ResourceMetadataSerializer SERIALIZER() { retu
 // public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 public java.util.List getAppliedOverlays(int packFormat) { return wrapperContained.getAppliedOverlays(packFormat); }
+// public boolean method_52428(int overlay) { return wrapperContained.method_52428(overlay); }
+// public com.mojang.datafixers.kinds.App method_52429(Object instance) { return wrapperContained.method_52429(instance); }
 // public com.mojang.serialization.DataResult validate(java.lang.String directoryName) { return wrapperContained.validate(directoryName); }
 
 }

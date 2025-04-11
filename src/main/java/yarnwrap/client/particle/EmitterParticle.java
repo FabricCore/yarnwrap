@@ -9,5 +9,8 @@ public class EmitterParticle { public net.minecraft.client.particle.EmitterParti
 // public void maxEmitterAge(int value) { wrapperContained.maxEmitterAge = value; }
 // public int emitterAge() { return wrapperContained.emitterAge; }
 // public void emitterAge(int value) { wrapperContained.emitterAge = value; }
+public EmitterParticle(yarnwrap.client.world.ClientWorld world,yarnwrap.entity.Entity entity,yarnwrap.particle.ParticleEffect parameters) { this.wrapperContained = new net.minecraft.client.particle.EmitterParticle(world.wrapperContained,entity.wrapperContained,parameters.wrapperContained); }
+public EmitterParticle(yarnwrap.client.world.ClientWorld world,yarnwrap.entity.Entity entity,yarnwrap.particle.ParticleEffect parameters,int maxEmitterAge) { this.wrapperContained = new net.minecraft.client.particle.EmitterParticle(world.wrapperContained,entity.wrapperContained,parameters.wrapperContained,maxEmitterAge); }
+// public EmitterParticle(yarnwrap.client.world.ClientWorld world,yarnwrap.entity.Entity entity,yarnwrap.particle.ParticleEffect parameters,int maxEmitterAge,yarnwrap.util.math.Vec3d velocity) { this.wrapperContained = new net.minecraft.client.particle.EmitterParticle(world.wrapperContained,entity.wrapperContained,parameters.wrapperContained,maxEmitterAge,velocity.wrapperContained); }
 
 }

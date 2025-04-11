@@ -29,6 +29,7 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void DOUBLE_ARRAY_CODEC(com.mojang.serialization.Codec value) { wrapperContained.DOUBLE_ARRAY_CODEC = value; }
 // public java.util.List biomes() { return wrapperContained.biomes; }
 // public void biomes(java.util.List value) { wrapperContained.biomes = value; }
+// public BlendingData(int oldBottomSectionY,int oldTopSectionY,java.util.Optional heights) { this.wrapperContained = new net.minecraft.world.gen.chunk.BlendingData(oldBottomSectionY,oldTopSectionY,heights); }
 // public int getX(int index) { return wrapperContained.getX(index); }
 // public double getHeight(int biomeX,int biomeY,int biomeZ) { return wrapperContained.getHeight(biomeX,biomeY,biomeZ); }
 // public double getCollidableBlockDensity(int chunkBiomeX,int halfSectionY,int chunkBiomeZ) { return wrapperContained.getCollidableBlockDensity(chunkBiomeX,halfSectionY,chunkBiomeZ); }
@@ -39,13 +40,17 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void acceptHeights(int biomeX,int biomeZ,Object consumer) { wrapperContained.acceptHeights(biomeX,biomeZ,consumer); }
 // public int getZ(int index) { return wrapperContained.getZ(index); }
 // public double[] calculateCollidableBlockDensityColumn(yarnwrap.world.chunk.Chunk chunk,int chunkBlockX,int chunkBlockZ,int surfaceHeight) { return wrapperContained.calculateCollidableBlockDensityColumn(chunk.wrapperContained,chunkBlockX,chunkBlockZ,surfaceHeight); }
+// public boolean method_39567(double height) { return wrapperContained.method_39567(height); }
 public yarnwrap.world.gen.chunk.BlendingData getBlendingData(yarnwrap.world.ChunkRegion chunkRegion,int chunkX,int chunkZ) { return new yarnwrap.world.gen.chunk.BlendingData(wrapperContained.getBlendingData(chunkRegion.wrapperContained,chunkX,chunkZ)); }
+// public com.mojang.datafixers.kinds.App method_39571(Object instance) { return wrapperContained.method_39571(instance); }
 // public void initChunkBlendingData(yarnwrap.world.chunk.Chunk chunk,java.util.Set newNoiseChunkDirections) { wrapperContained.initChunkBlendingData(chunk.wrapperContained,newNoiseChunkDirections); }
 // public com.mojang.serialization.DataResult validate(yarnwrap.world.gen.chunk.BlendingData data) { return wrapperContained.validate(data.wrapperContained); }
+// public void method_39574(double heights2) { wrapperContained.method_39574(heights2); }
 // public double getCollidableBlockDensity(double collidableBlockDensityColumn,int halfSectionY) { return wrapperContained.getCollidableBlockDensity(collidableBlockDensityColumn,halfSectionY); }
 // public int getVerticalHalfSectionCount() { return wrapperContained.getVerticalHalfSectionCount(); }
 // public int getNorthWestIndex(int chunkBiomeX,int chunkBiomeZ) { return wrapperContained.getNorthWestIndex(chunkBiomeX,chunkBiomeZ); }
 public java.util.Set getAdjacentChunksWithNoise(yarnwrap.world.StructureWorldAccess access,int chunkX,int chunkZ,boolean oldNoise) { return wrapperContained.getAdjacentChunksWithNoise(access.wrapperContained,chunkX,chunkZ,oldNoise); }
+// public java.util.Optional method_39580(yarnwrap.world.gen.chunk.BlendingData blendingData) { return wrapperContained.method_39580(blendingData.wrapperContained); }
 // public int getOneAboveBottomHalfSectionY() { return wrapperContained.getOneAboveBottomHalfSectionY(); }
 // public int getSouthEastIndex(int chunkBiomeX,int chunkBiomeZ) { return wrapperContained.getSouthEastIndex(chunkBiomeX,chunkBiomeZ); }
 // public int getBottomHalfSectionY() { return wrapperContained.getBottomHalfSectionY(); }
@@ -56,5 +61,7 @@ public yarnwrap.world.HeightLimitView getOldHeightLimit() { return new yarnwrap.
 // public int getHalfSectionHeight(int halfSectionY) { return wrapperContained.getHalfSectionHeight(halfSectionY); }
 // public java.util.List getVerticalBiomeSections(yarnwrap.world.chunk.Chunk chunk,int chunkBlockX,int chunkBlockZ) { return wrapperContained.getVerticalBiomeSections(chunk.wrapperContained,chunkBlockX,chunkBlockZ); }
 // public int getVerticalBiomeCount() { return wrapperContained.getVerticalBiomeCount(); }
+// public java.lang.Integer method_41568(yarnwrap.world.gen.chunk.BlendingData blendingData) { return wrapperContained.method_41568(blendingData.wrapperContained); }
+// public java.lang.Integer method_41569(yarnwrap.world.gen.chunk.BlendingData blendingData) { return wrapperContained.method_41569(blendingData.wrapperContained); }
 
 }

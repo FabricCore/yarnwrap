@@ -99,6 +99,7 @@ public Object ENVIRONMENT() { return wrapperContained.ENVIRONMENT; }
 // public void CREATE_PRERELEASE_REALM_ENDPOINT(java.lang.String value) { wrapperContained.CREATE_PRERELEASE_REALM_ENDPOINT = value; }
 // public java.lang.String LIST_PRERELEASE_ELIGIBLE_WORLDS_ENDPOINT() { return wrapperContained.LIST_PRERELEASE_ELIGIBLE_WORLDS_ENDPOINT; }
 // public void LIST_PRERELEASE_ELIGIBLE_WORLDS_ENDPOINT(java.lang.String value) { wrapperContained.LIST_PRERELEASE_ELIGIBLE_WORLDS_ENDPOINT = value; }
+public RealmsClient(java.lang.String sessionId,java.lang.String username,yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.realms.RealmsClient(sessionId,username,client.wrapperContained); }
 public yarnwrap.client.realms.RealmsClient createRealmsClient(yarnwrap.client.MinecraftClient client) { return new yarnwrap.client.realms.RealmsClient(wrapperContained.createRealmsClient(client.wrapperContained)); }
 // public yarnwrap.client.realms.dto.WorldTemplatePaginatedList fetchWorldTemplates(int page,int pageSize,Object type) { return new yarnwrap.client.realms.dto.WorldTemplatePaginatedList(wrapperContained.fetchWorldTemplates(page,pageSize,type)); }
 // public yarnwrap.client.realms.dto.RealmsServer getOwnWorld(long worldId) { return new yarnwrap.client.realms.dto.RealmsServer(wrapperContained.getOwnWorld(worldId)); }

@@ -21,9 +21,14 @@ public class AccessibilityOnboardingScreen { public net.minecraft.client.gui.scr
 // public void TITLE_TEXT(yarnwrap.text.Text value) { wrapperContained.TITLE_TEXT = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+public AccessibilityOnboardingScreen(yarnwrap.client.option.GameOptions gameOptions,java.lang.Runnable onClose) { this.wrapperContained = new net.minecraft.client.gui.screen.AccessibilityOnboardingScreen(gameOptions.wrapperContained,onClose); }
 // public int yMargin() { return wrapperContained.yMargin(); }
 // public void tickNarratorPrompt() { wrapperContained.tickNarratorPrompt(); }
+// public void method_48639(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_48639(button.wrapperContained); }
 // public void setScreen(yarnwrap.client.gui.screen.Screen screen) { wrapperContained.setScreen(screen.wrapperContained); }
+// public void method_49297(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_49297(button.wrapperContained); }
+// public void method_49298(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_49298(button.wrapperContained); }
+// public void method_52746(yarnwrap.client.gui.widget.Positioner positioner) { wrapperContained.method_52746(positioner.wrapperContained); }
 // public void saveAndRun(boolean dontShowAgain,java.lang.Runnable callback) { wrapperContained.saveAndRun(dontShowAgain,callback); }
 
 }

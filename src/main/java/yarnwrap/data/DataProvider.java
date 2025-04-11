@@ -10,6 +10,8 @@ public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 public java.util.concurrent.CompletableFuture run(yarnwrap.data.DataWriter writer) { return wrapperContained.run(writer.wrapperContained); }
 // public java.util.concurrent.CompletableFuture writeToPath(yarnwrap.data.DataWriter writer,com.google.gson.JsonElement json,java.nio.file.Path path) { return wrapperContained.writeToPath(writer.wrapperContained,json,path); }
 public java.lang.String getName() { return wrapperContained.getName(); }
+// public void method_43808(it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap map) { wrapperContained.method_43808(map); }
+// public java.lang.String method_43809(java.lang.String key) { return wrapperContained.method_43809(key); }
 // public java.util.concurrent.CompletableFuture writeCodecToPath(yarnwrap.data.DataWriter writer,Object registryLookup,com.mojang.serialization.Codec codec,java.lang.Object value,java.nio.file.Path path) { return wrapperContained.writeCodecToPath(writer.wrapperContained,registryLookup,codec,value,path); }
 
 }

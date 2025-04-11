@@ -12,5 +12,6 @@ public yarnwrap.state.property.BooleanProperty ATTACHED() { return new yarnwrap.
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public boolean shouldTryAttaching(yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.hit.BlockHitResult hitResult,yarnwrap.block.entity.SignBlockEntity sign,yarnwrap.item.ItemStack stack) { return wrapperContained.shouldTryAttaching(player.wrapperContained,hitResult.wrapperContained,sign.wrapperContained,stack.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53991(Object instance) { return wrapperContained.method_53991(instance); }
 
 }

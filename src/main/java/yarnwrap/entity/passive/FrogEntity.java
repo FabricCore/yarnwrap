@@ -27,5 +27,6 @@ public boolean isValidFrogFood(yarnwrap.entity.LivingEntity entity) { return wra
 public void clearFrogTarget() { wrapperContained.clearFrogTarget(); }
 public java.util.Optional getFrogTarget() { return wrapperContained.getFrogTarget(); }
 public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason reason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,reason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public yarnwrap.registry.RegistryKey method_58389(yarnwrap.util.Identifier variant) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_58389(variant.wrapperContained)); }
 
 }

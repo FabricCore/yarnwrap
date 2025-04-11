@@ -3,6 +3,7 @@ public class ParticleUnflatteningFix { public net.minecraft.datafixer.fix.Partic
 
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public ParticleUnflatteningFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.ParticleUnflatteningFix(outputSchema); }
 // public com.mojang.serialization.Dynamic fixParticle(com.mojang.serialization.Dynamic dynamic) { return wrapperContained.fixParticle(dynamic); }
 // public com.mojang.serialization.Dynamic parseColor(com.mojang.serialization.Dynamic paramsReader) { return wrapperContained.parseColor(paramsReader); }
 // public com.mojang.serialization.Dynamic fixItemParticle(com.mojang.serialization.Dynamic dynamic,java.lang.String params) { return wrapperContained.fixItemParticle(dynamic,params); }

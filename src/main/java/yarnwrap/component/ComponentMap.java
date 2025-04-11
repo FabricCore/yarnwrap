@@ -14,9 +14,11 @@ public boolean contains(yarnwrap.component.ComponentType type) { return wrapperC
 public java.util.stream.Stream stream() { return wrapperContained.stream(); }
 public yarnwrap.component.Component copy(yarnwrap.component.ComponentType type) { return new yarnwrap.component.Component(wrapperContained.copy(type.wrapperContained)); }
 public int size() { return wrapperContained.size(); }
+// public yarnwrap.component.Component method_57836(yarnwrap.component.ComponentType type) { return new yarnwrap.component.Component(wrapperContained.method_57836(type.wrapperContained)); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 // public yarnwrap.component.ComponentMap of(yarnwrap.component.ComponentMap base,yarnwrap.component.ComponentMap overrides) { return new yarnwrap.component.ComponentMap(wrapperContained.of(base.wrapperContained,overrides.wrapperContained)); }
 // public com.mojang.serialization.Codec createCodec(com.mojang.serialization.Codec componentTypeCodec) { return wrapperContained.createCodec(componentTypeCodec); }
+// public com.mojang.serialization.DataResult method_60387(yarnwrap.component.ComponentMap componentMap) { return wrapperContained.method_60387(componentMap.wrapperContained); }
 // public com.mojang.serialization.Codec createCodecFromValueMap(com.mojang.serialization.Codec typeToValueMapCodec) { return wrapperContained.createCodecFromValueMap(typeToValueMapCodec); }
 
 }

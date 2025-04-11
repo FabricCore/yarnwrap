@@ -17,6 +17,8 @@ public class VanillaRecipeProvider { public net.minecraft.data.server.recipe.Van
 // public void REDSTONE_ORES(com.google.common.collect.ImmutableList value) { wrapperContained.REDSTONE_ORES = value; }
 // public com.google.common.collect.ImmutableList EMERALD_ORES() { return wrapperContained.EMERALD_ORES; }
 // public void EMERALD_ORES(com.google.common.collect.ImmutableList value) { wrapperContained.EMERALD_ORES = value; }
+// public Object method_51693(yarnwrap.item.Item template) { return wrapperContained.method_51693(template.wrapperContained); }
 public java.util.stream.Stream streamSmithingTemplates() { return wrapperContained.streamSmithingTemplates(); }
+// public void method_51695(yarnwrap.data.server.recipe.RecipeExporter template) { wrapperContained.method_51695(template.wrapperContained); }
 
 }

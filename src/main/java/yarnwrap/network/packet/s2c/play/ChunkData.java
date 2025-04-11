@@ -9,8 +9,11 @@ public class ChunkData { public net.minecraft.network.packet.s2c.play.ChunkData 
 // public void sectionsData(byte[] value) { wrapperContained.sectionsData = value; }
 // public java.util.List blockEntities() { return wrapperContained.blockEntities; }
 // public void blockEntities(java.util.List value) { wrapperContained.blockEntities = value; }
+public ChunkData(yarnwrap.world.chunk.WorldChunk chunk) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChunkData(chunk.wrapperContained); }
+public ChunkData(yarnwrap.network.RegistryByteBuf buf,int x,int z) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChunkData(buf.wrapperContained,x,z); }
 public yarnwrap.network.PacketByteBuf getSectionsDataBuf() { return new yarnwrap.network.PacketByteBuf(wrapperContained.getSectionsDataBuf()); }
 public java.util.function.Consumer getBlockEntities(int x,int z) { return wrapperContained.getBlockEntities(x,z); }
+// public void method_38588(int visitor) { wrapperContained.method_38588(visitor); }
 // public int getSectionsPacketSize(yarnwrap.world.chunk.WorldChunk chunk) { return wrapperContained.getSectionsPacketSize(chunk.wrapperContained); }
 public void write(yarnwrap.network.RegistryByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 public void writeSections(yarnwrap.network.PacketByteBuf buf,yarnwrap.world.chunk.WorldChunk chunk) { wrapperContained.writeSections(buf.wrapperContained,chunk.wrapperContained); }

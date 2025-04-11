@@ -33,6 +33,8 @@ public class FishingBobberEntity { public net.minecraft.entity.projectile.Fishin
 // public void waitCountdown(int value) { wrapperContained.waitCountdown = value; }
 // public Object state() { return wrapperContained.state; }
 // // public void state(Object value) { wrapperContained.state = value; }
+// public FishingBobberEntity(yarnwrap.entity.EntityType type,yarnwrap.world.World world,int luckBonus,int waitTimeReductionTicks) { this.wrapperContained = new net.minecraft.entity.projectile.FishingBobberEntity(type.wrapperContained,world.wrapperContained,luckBonus,waitTimeReductionTicks); }
+public FishingBobberEntity(yarnwrap.entity.player.PlayerEntity thrower,yarnwrap.world.World world,int luckBonus,int waitTimeReductionTicks) { this.wrapperContained = new net.minecraft.entity.projectile.FishingBobberEntity(thrower.wrapperContained,world.wrapperContained,luckBonus,waitTimeReductionTicks); }
 // public boolean isOpenOrWaterAround(yarnwrap.util.math.BlockPos pos) { return wrapperContained.isOpenOrWaterAround(pos.wrapperContained); }
 public boolean isInOpenWater() { return wrapperContained.isInOpenWater(); }
 // public Object getPositionType(yarnwrap.util.math.BlockPos start,yarnwrap.util.math.BlockPos end) { return wrapperContained.getPositionType(start.wrapperContained,end.wrapperContained); }

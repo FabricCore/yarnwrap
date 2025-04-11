@@ -5,6 +5,7 @@ public class GhastEntityModel { public net.minecraft.client.render.entity.model.
 // public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
 // public net.minecraft.client.model.ModelPart[] tentacles() { return wrapperContained.tentacles; }
 // public void tentacles(net.minecraft.client.model.ModelPart[] value) { wrapperContained.tentacles = value; }
+public GhastEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.GhastEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 // public java.lang.String getTentacleName(int index) { return wrapperContained.getTentacleName(index); }
 

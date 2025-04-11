@@ -11,6 +11,7 @@ public class CommandBlockMinecartEntity { public net.minecraft.entity.vehicle.Co
 // public void COMMAND(yarnwrap.entity.data.TrackedData value) { wrapperContained.COMMAND = value.wrapperContained; }
 // public yarnwrap.world.CommandBlockExecutor commandExecutor() { return new yarnwrap.world.CommandBlockExecutor(wrapperContained.commandExecutor); }
 // public void commandExecutor(yarnwrap.world.CommandBlockExecutor value) { wrapperContained.commandExecutor = value.wrapperContained; }
+public CommandBlockMinecartEntity(yarnwrap.world.World world,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.vehicle.CommandBlockMinecartEntity(world.wrapperContained,x,y,z); }
 public yarnwrap.world.CommandBlockExecutor getCommandExecutor() { return new yarnwrap.world.CommandBlockExecutor(wrapperContained.getCommandExecutor()); }
 
 }

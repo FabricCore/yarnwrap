@@ -11,6 +11,7 @@ public class NbtSizeTracker { public net.minecraft.nbt.NbtSizeTracker wrapperCon
 // public void maxDepth(int value) { wrapperContained.maxDepth = value; }
 // public int depth() { return wrapperContained.depth; }
 // public void depth(int value) { wrapperContained.depth = value; }
+public NbtSizeTracker(long maxBytes,int maxDepth) { this.wrapperContained = new net.minecraft.nbt.NbtSizeTracker(maxBytes,maxDepth); }
 public long getAllocatedBytes() { return wrapperContained.getAllocatedBytes(); }
 public void add(long bytes) { wrapperContained.add(bytes); }
 public yarnwrap.nbt.NbtSizeTracker ofUnlimitedBytes() { return new yarnwrap.nbt.NbtSizeTracker(wrapperContained.ofUnlimitedBytes()); }

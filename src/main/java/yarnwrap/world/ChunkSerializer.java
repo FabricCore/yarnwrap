@@ -33,9 +33,19 @@ public yarnwrap.world.chunk.ChunkType getChunkType(yarnwrap.nbt.NbtCompound nbt)
 public yarnwrap.nbt.NbtList toNbt(it.unimi.dsi.fastutil.shorts.ShortList[] lists) { return new yarnwrap.nbt.NbtList(wrapperContained.toNbt(lists)); }
 public yarnwrap.world.chunk.ProtoChunk deserialize(yarnwrap.server.world.ServerWorld world,yarnwrap.world.poi.PointOfInterestStorage poiStorage,yarnwrap.world.storage.StorageKey key,yarnwrap.util.math.ChunkPos chunkPos,yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.world.chunk.ProtoChunk(wrapperContained.deserialize(world.wrapperContained,poiStorage.wrapperContained,key.wrapperContained,chunkPos.wrapperContained,nbt.wrapperContained)); }
 public yarnwrap.nbt.NbtCompound serialize(yarnwrap.server.world.ServerWorld world,yarnwrap.world.chunk.Chunk chunk) { return new yarnwrap.nbt.NbtCompound(wrapperContained.serialize(world.wrapperContained,chunk.wrapperContained)); }
+// public boolean method_24029(yarnwrap.util.math.ChunkPos packedPos) { return wrapperContained.method_24029(packedPos.wrapperContained); }
 // public void logRecoverableError(yarnwrap.util.math.ChunkPos chunkPos,int y,java.lang.String message) { wrapperContained.logRecoverableError(chunkPos.wrapperContained,y,message); }
 // public com.mojang.serialization.Codec createCodec(yarnwrap.registry.Registry biomeRegistry) { return wrapperContained.createCodec(biomeRegistry.wrapperContained); }
+// public void method_39037(yarnwrap.util.math.ChunkPos errorMessage) { wrapperContained.method_39037(errorMessage.wrapperContained); }
+// public void method_39038(yarnwrap.util.math.ChunkPos errorMessage) { wrapperContained.method_39038(errorMessage.wrapperContained); }
 // public void serializeTicks(yarnwrap.server.world.ServerWorld world,yarnwrap.nbt.NbtCompound nbt,Object tickSchedulers) { wrapperContained.serializeTicks(world.wrapperContained,nbt.wrapperContained,tickSchedulers); }
+// public java.lang.String method_39312(yarnwrap.block.Block block) { return wrapperContained.method_39312(block.wrapperContained); }
+// public java.lang.String method_39313(yarnwrap.fluid.Fluid fluid) { return wrapperContained.method_39313(fluid.wrapperContained); }
+// public java.util.Optional method_39314(java.lang.String id) { return wrapperContained.method_39314(id); }
+// public java.util.Optional method_39316(java.lang.String id) { return wrapperContained.method_39316(id); }
+// public java.util.Optional method_39317(java.lang.String id) { return wrapperContained.method_39317(id); }
+// public java.util.Optional method_39318(java.lang.String id) { return wrapperContained.method_39318(id); }
 // public yarnwrap.nbt.NbtList getList(yarnwrap.nbt.NbtCompound nbt,java.lang.String key) { return new yarnwrap.nbt.NbtList(wrapperContained.getList(nbt.wrapperContained,key)); }
+// public void method_39797(yarnwrap.nbt.NbtList chunk) { wrapperContained.method_39797(chunk.wrapperContained); }
 
 }

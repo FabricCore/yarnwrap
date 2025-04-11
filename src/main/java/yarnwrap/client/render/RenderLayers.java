@@ -10,8 +10,10 @@ public class RenderLayers { public net.minecraft.client.render.RenderLayers wrap
 public yarnwrap.client.render.RenderLayer getItemLayer(yarnwrap.item.ItemStack stack,boolean direct) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getItemLayer(stack.wrapperContained,direct)); }
 public yarnwrap.client.render.RenderLayer getBlockLayer(yarnwrap.block.BlockState state) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getBlockLayer(state.wrapperContained)); }
 public yarnwrap.client.render.RenderLayer getFluidLayer(yarnwrap.fluid.FluidState state) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getFluidLayer(state.wrapperContained)); }
+// public void method_23681(java.util.HashMap map) { wrapperContained.method_23681(map); }
 public void setFancyGraphicsOrBetter(boolean fancyGraphicsOrBetter) { wrapperContained.setFancyGraphicsOrBetter(fancyGraphicsOrBetter); }
 public yarnwrap.client.render.RenderLayer getEntityBlockLayer(yarnwrap.block.BlockState state,boolean direct) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getEntityBlockLayer(state.wrapperContained,direct)); }
+// public void method_23685(java.util.HashMap map) { wrapperContained.method_23685(map); }
 public yarnwrap.client.render.RenderLayer getMovingBlockLayer(yarnwrap.block.BlockState state) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getMovingBlockLayer(state.wrapperContained)); }
 
 }

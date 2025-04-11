@@ -21,6 +21,7 @@ public class PlayerSkinTexture { public net.minecraft.client.texture.PlayerSkinT
 // public void url(java.lang.String value) { wrapperContained.url = value; }
 // public boolean loaded() { return wrapperContained.loaded; }
 // public void loaded(boolean value) { wrapperContained.loaded = value; }
+public PlayerSkinTexture(java.io.File cacheFile,java.lang.String url,yarnwrap.util.Identifier fallbackSkin,boolean convertLegacy,java.lang.Runnable callback) { this.wrapperContained = new net.minecraft.client.texture.PlayerSkinTexture(cacheFile,url,fallbackSkin.wrapperContained,convertLegacy,callback); }
 // public void stripColor(yarnwrap.client.texture.NativeImage image,int x1,int y1,int x2,int y2) { wrapperContained.stripColor(image.wrapperContained,x1,y1,x2,y2); }
 // public yarnwrap.client.texture.NativeImage loadTexture(java.io.InputStream stream) { return new yarnwrap.client.texture.NativeImage(wrapperContained.loadTexture(stream)); }
 // public void stripAlpha(yarnwrap.client.texture.NativeImage image,int x1,int y1,int x2,int y2) { wrapperContained.stripAlpha(image.wrapperContained,x1,y1,x2,y2); }

@@ -31,9 +31,13 @@ public class RealmsSubscriptionInfoScreen { public net.minecraft.client.realms.g
 // public void UNKNOWN_TEXT(yarnwrap.text.Text value) { wrapperContained.UNKNOWN_TEXT = value.wrapperContained; }
 // public yarnwrap.text.Text RECURRING_INFO_TEXT() { return new yarnwrap.text.Text(wrapperContained.RECURRING_INFO_TEXT); }
 // public void RECURRING_INFO_TEXT(yarnwrap.text.Text value) { wrapperContained.RECURRING_INFO_TEXT = value.wrapperContained; }
+public RealmsSubscriptionInfoScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.realms.dto.RealmsServer serverData,yarnwrap.client.gui.screen.Screen mainScreen) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsSubscriptionInfoScreen(parent.wrapperContained,serverData.wrapperContained,mainScreen.wrapperContained); }
 // public yarnwrap.text.Text daysLeftPresentation(int daysLeft) { return new yarnwrap.text.Text(wrapperContained.daysLeftPresentation(daysLeft)); }
 // public void getSubscription(long worldId) { wrapperContained.getSubscription(worldId); }
 // public yarnwrap.text.Text localPresentation(long time) { return new yarnwrap.text.Text(wrapperContained.localPresentation(time)); }
+// public void method_25266(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25266(button.wrapperContained); }
+// public void method_25268(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25268(button.wrapperContained); }
+// public void method_25270(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25270(button.wrapperContained); }
 // public void onDeletionConfirmed() { wrapperContained.onDeletionConfirmed(); }
 
 }

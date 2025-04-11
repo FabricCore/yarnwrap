@@ -29,13 +29,22 @@ public yarnwrap.world.storage.ChunkCompressionFormat DEFAULT_FORMAT() { return n
 // public void name(java.lang.String value) { wrapperContained.name = value; }
 public yarnwrap.world.storage.ChunkCompressionFormat CUSTOM() { return new yarnwrap.world.storage.ChunkCompressionFormat(wrapperContained.CUSTOM); }
 // public void CUSTOM(yarnwrap.world.storage.ChunkCompressionFormat value) { wrapperContained.CUSTOM = value.wrapperContained; }
+// public ChunkCompressionFormat(int id,java.lang.String name,Object inputStreamWrapper,Object outputStreamWrapper) { this.wrapperContained = new net.minecraft.world.storage.ChunkCompressionFormat(id,name,inputStreamWrapper,outputStreamWrapper); }
 public int getId() { return wrapperContained.getId(); }
 public yarnwrap.world.storage.ChunkCompressionFormat get(int id) { return new yarnwrap.world.storage.ChunkCompressionFormat(wrapperContained.get(id)); }
 // public yarnwrap.world.storage.ChunkCompressionFormat add(yarnwrap.world.storage.ChunkCompressionFormat version) { return new yarnwrap.world.storage.ChunkCompressionFormat(wrapperContained.add(version.wrapperContained)); }
 // public java.io.InputStream wrap(java.io.InputStream inputStream) { return wrapperContained.wrap(inputStream); }
 // public java.io.OutputStream wrap(java.io.OutputStream outputStream) { return wrapperContained.wrap(outputStream); }
 public boolean exists(int id) { return wrapperContained.exists(id); }
+// public java.io.InputStream method_21888(java.io.InputStream stream) { return wrapperContained.method_21888(stream); }
+// public java.io.OutputStream method_21889(java.io.OutputStream stream) { return wrapperContained.method_21889(stream); }
+// public java.io.InputStream method_39803(java.io.InputStream stream) { return wrapperContained.method_39803(stream); }
+// public java.io.OutputStream method_39804(java.io.OutputStream stream) { return wrapperContained.method_39804(stream); }
+// public java.io.InputStream method_39805(java.io.InputStream stream) { return wrapperContained.method_39805(stream); }
+// public java.io.OutputStream method_39806(java.io.OutputStream stream) { return wrapperContained.method_39806(stream); }
 public yarnwrap.world.storage.ChunkCompressionFormat getCurrentFormat() { return new yarnwrap.world.storage.ChunkCompressionFormat(wrapperContained.getCurrentFormat()); }
 public void setCurrentFormat(java.lang.String name) { wrapperContained.setCurrentFormat(name); }
+// public java.io.InputStream method_56569(java.io.InputStream stream) { return wrapperContained.method_56569(stream); }
+// public java.io.OutputStream method_56570(java.io.OutputStream stream) { return wrapperContained.method_56570(stream); }
 
 }

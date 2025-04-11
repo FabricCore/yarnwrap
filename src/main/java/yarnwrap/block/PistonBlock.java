@@ -19,9 +19,12 @@ public yarnwrap.state.property.BooleanProperty EXTENDED() { return new yarnwrap.
 // public void EXTENDED(yarnwrap.state.property.BooleanProperty value) { wrapperContained.EXTENDED = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public PistonBlock(boolean sticky,Object settings) { this.wrapperContained = new net.minecraft.block.PistonBlock(sticky,settings); }
 // public boolean move(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction dir,boolean retract) { return wrapperContained.move(world.wrapperContained,pos.wrapperContained,dir.wrapperContained,retract); }
 // public boolean shouldExtend(yarnwrap.world.RedstoneView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction pistonFace) { return wrapperContained.shouldExtend(world.wrapperContained,pos.wrapperContained,pistonFace.wrapperContained); }
 // public void tryMove(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.tryMove(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 public boolean isMovable(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction,boolean canBreak,yarnwrap.util.math.Direction pistonDir) { return wrapperContained.isMovable(state.wrapperContained,world.wrapperContained,pos.wrapperContained,direction.wrapperContained,canBreak,pistonDir.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_54091(Object instance) { return wrapperContained.method_54091(instance); }
+// public java.lang.Boolean method_54092(yarnwrap.block.PistonBlock block) { return wrapperContained.method_54092(block.wrapperContained); }
 
 }

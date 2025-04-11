@@ -7,5 +7,7 @@ public class BoatDispenserBehavior { public net.minecraft.block.dispenser.BoatDi
 // // public void boatType(Object value) { wrapperContained.boatType = value; }
 // public boolean chest() { return wrapperContained.chest; }
 // public void chest(boolean value) { wrapperContained.chest = value; }
+// public BoatDispenserBehavior(Object type) { this.wrapperContained = new net.minecraft.block.dispenser.BoatDispenserBehavior(type); }
+// public BoatDispenserBehavior(Object boatType,boolean chest) { this.wrapperContained = new net.minecraft.block.dispenser.BoatDispenserBehavior(boatType,chest); }
 
 }

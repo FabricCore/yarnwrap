@@ -11,6 +11,8 @@ public class RaycastContext { public net.minecraft.world.RaycastContext wrapperC
 // // public void fluid(Object value) { wrapperContained.fluid = value; }
 // public yarnwrap.block.ShapeContext shapeContext() { return new yarnwrap.block.ShapeContext(wrapperContained.shapeContext); }
 // public void shapeContext(yarnwrap.block.ShapeContext value) { wrapperContained.shapeContext = value.wrapperContained; }
+// public RaycastContext(yarnwrap.util.math.Vec3d start,yarnwrap.util.math.Vec3d end,Object shapeType,Object fluidHandling,yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.world.RaycastContext(start.wrapperContained,end.wrapperContained,shapeType,fluidHandling,entity.wrapperContained); }
+// public RaycastContext(yarnwrap.util.math.Vec3d start,yarnwrap.util.math.Vec3d end,Object shapeType,Object fluidHandling,yarnwrap.block.ShapeContext shapeContext) { this.wrapperContained = new net.minecraft.world.RaycastContext(start.wrapperContained,end.wrapperContained,shapeType,fluidHandling,shapeContext.wrapperContained); }
 public yarnwrap.util.math.Vec3d getEnd() { return new yarnwrap.util.math.Vec3d(wrapperContained.getEnd()); }
 public yarnwrap.util.shape.VoxelShape getBlockShape(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getBlockShape(state.wrapperContained,world.wrapperContained,pos.wrapperContained)); }
 public yarnwrap.util.shape.VoxelShape getFluidShape(yarnwrap.fluid.FluidState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getFluidShape(state.wrapperContained,world.wrapperContained,pos.wrapperContained)); }

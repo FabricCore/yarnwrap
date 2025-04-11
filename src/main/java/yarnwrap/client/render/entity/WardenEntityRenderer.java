@@ -11,5 +11,10 @@ public class WardenEntityRenderer { public net.minecraft.client.render.entity.Wa
 // public void PULSATING_SPOTS_1_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.PULSATING_SPOTS_1_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier PULSATING_SPOTS_2_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.PULSATING_SPOTS_2_TEXTURE); }
 // public void PULSATING_SPOTS_2_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.PULSATING_SPOTS_2_TEXTURE = value.wrapperContained; }
+// public float method_42607(yarnwrap.entity.mob.WardenEntity warden,float tickDelta,float animationProgress) { return wrapperContained.method_42607(warden.wrapperContained,tickDelta,animationProgress); }
+// public float method_42609(yarnwrap.entity.mob.WardenEntity warden,float tickDelta,float animationProgress) { return wrapperContained.method_42609(warden.wrapperContained,tickDelta,animationProgress); }
+// public float method_42610(yarnwrap.entity.mob.WardenEntity warden,float tickDelta,float animationProgress) { return wrapperContained.method_42610(warden.wrapperContained,tickDelta,animationProgress); }
+// public float method_42611(yarnwrap.entity.mob.WardenEntity warden,float tickDelta,float animationProgress) { return wrapperContained.method_42611(warden.wrapperContained,tickDelta,animationProgress); }
+// public float method_42612(yarnwrap.entity.mob.WardenEntity warden,float tickDelta,float animationProgress) { return wrapperContained.method_42612(warden.wrapperContained,tickDelta,animationProgress); }
 
 }

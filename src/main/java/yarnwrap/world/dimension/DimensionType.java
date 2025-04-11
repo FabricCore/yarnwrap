@@ -21,10 +21,12 @@ public int MIN_HEIGHT() { return wrapperContained.MIN_HEIGHT; }
 // public void MIN_HEIGHT(int value) { wrapperContained.MIN_HEIGHT = value; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+// public DimensionType(java.util.OptionalLong fixedTime,boolean hasSkylight,boolean ultrawarm,boolean coordinateScale,boolean piglinSafe) { this.wrapperContained = new net.minecraft.world.dimension.DimensionType(fixedTime,hasSkylight,ultrawarm,coordinateScale,piglinSafe); }
 // public boolean ultrawarm() { return wrapperContained.ultrawarm(); }
 // public yarnwrap.util.Identifier effects() { return new yarnwrap.util.Identifier(wrapperContained.effects()); }
 public java.nio.file.Path getSaveDirectory(yarnwrap.registry.RegistryKey worldRef,java.nio.file.Path worldDirectory) { return wrapperContained.getSaveDirectory(worldRef.wrapperContained,worldDirectory); }
 public com.mojang.serialization.DataResult worldFromDimensionNbt(com.mojang.serialization.Dynamic nbt) { return wrapperContained.worldFromDimensionNbt(nbt); }
+// public com.mojang.datafixers.kinds.App method_28522(Object instance) { return wrapperContained.method_28522(instance); }
 public float getSkyAngle(long time) { return wrapperContained.getSkyAngle(time); }
 public int getMoonPhase(long time) { return wrapperContained.getMoonPhase(time); }
 public boolean hasFixedTime() { return wrapperContained.hasFixedTime(); }

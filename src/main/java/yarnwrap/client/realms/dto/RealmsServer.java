@@ -47,10 +47,12 @@ public Object compatibility() { return wrapperContained.compatibility; }
 // public void compatibility(Object value) { wrapperContained.compatibility = value; }
 // public int NO_PARENT() { return wrapperContained.NO_PARENT; }
 // public void NO_PARENT(int value) { wrapperContained.NO_PARENT = value; }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public java.lang.String getDescription() { return wrapperContained.getDescription(); }
 public java.lang.String getWorldName(int slotId) { return wrapperContained.getWorldName(slotId); }
 // public java.util.List parseInvited(com.google.gson.JsonArray jsonArray) { return wrapperContained.parseInvited(jsonArray); }
 public yarnwrap.client.realms.dto.RealmsServer parse(com.google.gson.JsonObject node) { return new yarnwrap.client.realms.dto.RealmsServer(wrapperContained.parse(node)); }
+// public int method_25057(yarnwrap.client.realms.dto.PlayerInfo a,yarnwrap.client.realms.dto.PlayerInfo b) { return wrapperContained.method_25057(a.wrapperContained,b.wrapperContained); }
 // public void sortInvited(yarnwrap.client.realms.dto.RealmsServer server) { wrapperContained.sortInvited(server.wrapperContained); }
 public void setName(java.lang.String name) { wrapperContained.setName(name); }
 public java.util.Map cloneSlots(java.util.Map slots) { return wrapperContained.cloneSlots(slots); }

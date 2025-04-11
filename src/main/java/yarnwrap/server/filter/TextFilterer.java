@@ -27,16 +27,21 @@ public class TextFilterer { public net.minecraft.server.filter.TextFilterer wrap
 // // public void joinEncoder(Object value) { wrapperContained.joinEncoder = value; }
 // public Object leaveEncoder() { return wrapperContained.leaveEncoder; }
 // // public void leaveEncoder(Object value) { wrapperContained.leaveEncoder = value; }
+// public TextFilterer(java.net.URL chatEndpoint,Object messageEncoder,java.net.URL joinEndpoint,Object joinEncoder,java.net.URL leaveEndpoint,Object leaveEncoder,java.lang.String apiKey,Object ignorer,int parallelism) { this.wrapperContained = new net.minecraft.server.filter.TextFilterer(chatEndpoint,messageEncoder,joinEndpoint,joinEncoder,leaveEndpoint,leaveEncoder,apiKey,ignorer,parallelism); }
 // public com.google.gson.JsonObject sendJsonRequest(com.google.gson.JsonObject payload,java.net.URL endpoint) { return wrapperContained.sendJsonRequest(payload,endpoint); }
 public yarnwrap.server.filter.TextStream createFilterer(com.mojang.authlib.GameProfile gameProfile) { return new yarnwrap.server.filter.TextStream(wrapperContained.createFilterer(gameProfile)); }
 // public java.util.concurrent.CompletableFuture filterMessage(com.mojang.authlib.GameProfile gameProfile,java.lang.String message,Object ignorer,java.util.concurrent.Executor executor) { return wrapperContained.filterMessage(gameProfile,message,ignorer,executor); }
 // public void sendJoinOrLeaveRequest(com.mojang.authlib.GameProfile gameProfile,java.net.URL endpoint,Object profileEncoder,java.util.concurrent.Executor executor) { wrapperContained.sendJoinOrLeaveRequest(gameProfile,endpoint,profileEncoder,executor); }
 // public void consumeFully(java.io.InputStream inputStream) { wrapperContained.consumeFully(inputStream); }
+// public java.lang.Thread method_31301(java.lang.Runnable runnable) { return wrapperContained.method_31301(runnable); }
 // public void sendRequest(com.google.gson.JsonObject payload,java.net.URL endpoint) { wrapperContained.sendRequest(payload,endpoint); }
 // public java.net.HttpURLConnection createConnection(com.google.gson.JsonObject payload,java.net.URL endpoint) { return wrapperContained.createConnection(payload,endpoint); }
 public yarnwrap.server.filter.TextFilterer load(java.lang.String config) { return new yarnwrap.server.filter.TextFilterer(wrapperContained.load(config)); }
 // public java.net.URL getEndpoint(java.net.URI root,com.google.gson.JsonObject endpoints,java.lang.String key,java.lang.String fallback) { return wrapperContained.getEndpoint(root,endpoints,key,fallback); }
+// public com.google.gson.JsonObject method_42110(int profile,java.lang.String message) { return wrapperContained.method_42110(profile,message); }
 // public java.lang.String getValue(com.google.gson.JsonObject json,java.lang.String key,java.lang.String fallback) { return wrapperContained.getValue(json,key,fallback); }
+// public com.google.gson.JsonObject method_42112(java.lang.String profile) { return wrapperContained.method_42112(profile); }
+// public com.google.gson.JsonObject method_42113(java.lang.String profile,java.lang.String message) { return wrapperContained.method_42113(profile,message); }
 // public yarnwrap.network.message.FilterMask getMask(java.lang.String message,com.google.gson.JsonArray mask,Object ignorer) { return new yarnwrap.network.message.FilterMask(wrapperContained.getMask(message,mask,ignorer)); }
 
 }

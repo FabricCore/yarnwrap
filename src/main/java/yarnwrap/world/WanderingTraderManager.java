@@ -21,9 +21,12 @@ public int DEFAULT_SPAWN_DELAY() { return wrapperContained.DEFAULT_SPAWN_DELAY; 
 // public void MAX_SPAWN_CHANCE(int value) { wrapperContained.MAX_SPAWN_CHANCE = value; }
 // public int DEFAULT_SPAWN_CHANCE() { return wrapperContained.DEFAULT_SPAWN_CHANCE; }
 // public void DEFAULT_SPAWN_CHANCE(int value) { wrapperContained.DEFAULT_SPAWN_CHANCE = value; }
+public WanderingTraderManager(yarnwrap.world.level.ServerWorldProperties properties) { this.wrapperContained = new net.minecraft.world.WanderingTraderManager(properties.wrapperContained); }
 // public void spawnLlama(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.WanderingTraderEntity wanderingTrader,int range) { wrapperContained.spawnLlama(world.wrapperContained,wanderingTrader.wrapperContained,range); }
 // public yarnwrap.util.math.BlockPos getNearbySpawnPos(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,int range) { return new yarnwrap.util.math.BlockPos(wrapperContained.getNearbySpawnPos(world.wrapperContained,pos.wrapperContained,range)); }
 // public boolean trySpawn(yarnwrap.server.world.ServerWorld world) { return wrapperContained.trySpawn(world.wrapperContained); }
+// public boolean method_19631(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_19631(pos.wrapperContained); }
 // public boolean doesNotSuffocateAt(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.doesNotSuffocateAt(world.wrapperContained,pos.wrapperContained); }
+// public boolean method_44010(yarnwrap.registry.entry.RegistryEntry poiType) { return wrapperContained.method_44010(poiType.wrapperContained); }
 
 }

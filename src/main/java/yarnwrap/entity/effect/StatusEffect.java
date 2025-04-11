@@ -23,6 +23,8 @@ public yarnwrap.network.codec.PacketCodec ENTRY_PACKET_CODEC() { return new yarn
 // public void attributeModifiers(java.util.Map value) { wrapperContained.attributeModifiers = value; }
 // public int color() { return wrapperContained.color; }
 // public void color(int value) { wrapperContained.color = value; }
+// public StatusEffect(yarnwrap.entity.effect.StatusEffectCategory category,int color) { this.wrapperContained = new net.minecraft.entity.effect.StatusEffect(category.wrapperContained,color); }
+// public StatusEffect(yarnwrap.entity.effect.StatusEffectCategory category,int color,yarnwrap.particle.ParticleEffect particleEffect) { this.wrapperContained = new net.minecraft.entity.effect.StatusEffect(category.wrapperContained,color,particleEffect.wrapperContained); }
 public yarnwrap.entity.effect.StatusEffectCategory getCategory() { return new yarnwrap.entity.effect.StatusEffectCategory(wrapperContained.getCategory()); }
 public void onApplied(yarnwrap.entity.LivingEntity entity,int amplifier) { wrapperContained.onApplied(entity.wrapperContained,amplifier); }
 public boolean canApplyUpdateEffect(int duration,int amplifier) { return wrapperContained.canApplyUpdateEffect(duration,amplifier); }
@@ -35,15 +37,19 @@ public void onRemoved(yarnwrap.entity.attribute.AttributeContainer attributeCont
 public void applyInstantEffect(yarnwrap.entity.Entity source,yarnwrap.entity.Entity attacker,yarnwrap.entity.LivingEntity target,int amplifier,double proximity) { wrapperContained.applyInstantEffect(source.wrapperContained,attacker.wrapperContained,target.wrapperContained,amplifier,proximity); }
 // public yarnwrap.entity.effect.StatusEffect fadeTicks(int fadeTicks) { return new yarnwrap.entity.effect.StatusEffect(wrapperContained.fadeTicks(fadeTicks)); }
 public void forEachAttributeModifier(int amplifier,java.util.function.BiConsumer consumer) { wrapperContained.forEachAttributeModifier(amplifier,consumer); }
+// public void method_55651(java.util.function.BiConsumer attribute,int attributeModifierCreator) { wrapperContained.method_55651(attribute,attributeModifierCreator); }
 public int getFadeTicks() { return wrapperContained.getFadeTicks(); }
 // public yarnwrap.entity.effect.StatusEffect addAttributeModifier(yarnwrap.registry.entry.RegistryEntry attribute,yarnwrap.util.Identifier id,double amount,Object operation) { return new yarnwrap.entity.effect.StatusEffect(wrapperContained.addAttributeModifier(attribute.wrapperContained,id.wrapperContained,amount,operation)); }
 public java.lang.String getTranslationKey() { return wrapperContained.getTranslationKey(); }
 public boolean applyUpdateEffect(yarnwrap.entity.LivingEntity entity,int amplifier) { return wrapperContained.applyUpdateEffect(entity.wrapperContained,amplifier); }
 public boolean isBeneficial() { return wrapperContained.isBeneficial(); }
+// public yarnwrap.particle.ParticleEffect method_58145(int effect) { return new yarnwrap.particle.ParticleEffect(wrapperContained.method_58145(effect)); }
 public yarnwrap.particle.ParticleEffect createParticle(yarnwrap.entity.effect.StatusEffectInstance effect) { return new yarnwrap.particle.ParticleEffect(wrapperContained.createParticle(effect.wrapperContained)); }
+// public yarnwrap.particle.ParticleEffect method_58147(yarnwrap.particle.ParticleEffect effect) { return new yarnwrap.particle.ParticleEffect(wrapperContained.method_58147(effect.wrapperContained)); }
 public void onEntityDamage(yarnwrap.entity.LivingEntity entity,int amplifier,yarnwrap.entity.damage.DamageSource source,float amount) { wrapperContained.onEntityDamage(entity.wrapperContained,amplifier,source.wrapperContained,amount); }
 public yarnwrap.entity.effect.StatusEffect applySound(yarnwrap.sound.SoundEvent sound) { return new yarnwrap.entity.effect.StatusEffect(wrapperContained.applySound(sound.wrapperContained)); }
 // public void onEntityRemoval(yarnwrap.entity.LivingEntity entity,int amplifier,Object reason) { wrapperContained.onEntityRemoval(entity.wrapperContained,amplifier,reason); }
+// public void method_58618(yarnwrap.entity.LivingEntity sound) { wrapperContained.method_58618(sound.wrapperContained); }
 public yarnwrap.entity.effect.StatusEffect requires(net.minecraft.resource.featuretoggle.FeatureFlag[] requiredFeatures) { return new yarnwrap.entity.effect.StatusEffect(wrapperContained.requires(requiredFeatures)); }
 public void playApplySound(yarnwrap.entity.LivingEntity entity,int amplifier) { wrapperContained.playApplySound(entity.wrapperContained,amplifier); }
 

@@ -3,6 +3,7 @@ public class OptionListWidget { public net.minecraft.client.gui.widget.OptionLis
 
 // public yarnwrap.client.gui.screen.option.GameOptionsScreen optionsScreen() { return new yarnwrap.client.gui.screen.option.GameOptionsScreen(wrapperContained.optionsScreen); }
 // public void optionsScreen(yarnwrap.client.gui.screen.option.GameOptionsScreen value) { wrapperContained.optionsScreen = value.wrapperContained; }
+public OptionListWidget(yarnwrap.client.MinecraftClient client,int width,yarnwrap.client.gui.screen.option.GameOptionsScreen optionsScreen) { this.wrapperContained = new net.minecraft.client.gui.widget.OptionListWidget(client.wrapperContained,width,optionsScreen.wrapperContained); }
 public void addSingleOptionEntry(yarnwrap.client.option.SimpleOption option) { wrapperContained.addSingleOptionEntry(option.wrapperContained); }
 public void addWidgetEntry(yarnwrap.client.gui.widget.ClickableWidget firstWidget,yarnwrap.client.gui.widget.ClickableWidget secondWidget) { wrapperContained.addWidgetEntry(firstWidget.wrapperContained,secondWidget.wrapperContained); }
 public void addAll(net.minecraft.client.option.SimpleOption[] options) { wrapperContained.addAll(options); }

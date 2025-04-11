@@ -9,6 +9,8 @@ public class SplashTextResourceSupplier { public net.minecraft.client.resource.S
 // public void splashTexts(java.util.List value) { wrapperContained.splashTexts = value; }
 // public yarnwrap.client.session.Session session() { return new yarnwrap.client.session.Session(wrapperContained.session); }
 // public void session(yarnwrap.client.session.Session value) { wrapperContained.session = value.wrapperContained; }
+public SplashTextResourceSupplier(yarnwrap.client.session.Session session) { this.wrapperContained = new net.minecraft.client.resource.SplashTextResourceSupplier(session.wrapperContained); }
 public yarnwrap.client.gui.screen.SplashTextRenderer get() { return new yarnwrap.client.gui.screen.SplashTextRenderer(wrapperContained.get()); }
+// public boolean method_18664(java.lang.String splashText) { return wrapperContained.method_18664(splashText); }
 
 }

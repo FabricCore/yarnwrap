@@ -9,5 +9,10 @@ public int placementRadiusAroundFloor() { return wrapperContained.placementRadiu
 // public void placementRadiusAroundFloor(int value) { wrapperContained.placementRadiusAroundFloor = value; }
 public float placementProbabilityPerValidPosition() { return wrapperContained.placementProbabilityPerValidPosition; }
 // public void placementProbabilityPerValidPosition(float value) { wrapperContained.placementProbabilityPerValidPosition = value; }
+public UnderwaterMagmaFeatureConfig(int minDistanceBelowSurface,int floorSearchRange,float placementProbabilityPerValidPosition) { this.wrapperContained = new net.minecraft.world.gen.feature.UnderwaterMagmaFeatureConfig(minDistanceBelowSurface,floorSearchRange,placementProbabilityPerValidPosition); }
+// public com.mojang.datafixers.kinds.App method_33771(Object instance) { return wrapperContained.method_33771(instance); }
+// public java.lang.Float method_33772(yarnwrap.world.gen.feature.UnderwaterMagmaFeatureConfig config) { return wrapperContained.method_33772(config.wrapperContained); }
+// public java.lang.Integer method_33773(yarnwrap.world.gen.feature.UnderwaterMagmaFeatureConfig config) { return wrapperContained.method_33773(config.wrapperContained); }
+// public java.lang.Integer method_33774(yarnwrap.world.gen.feature.UnderwaterMagmaFeatureConfig config) { return wrapperContained.method_33774(config.wrapperContained); }
 
 }

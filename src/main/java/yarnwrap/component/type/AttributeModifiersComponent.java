@@ -14,7 +14,10 @@ public java.text.DecimalFormat DECIMAL_FORMAT() { return wrapperContained.DECIMA
 public Object builder() { return wrapperContained.builder(); }
 public double applyOperations(double base,yarnwrap.entity.EquipmentSlot slot) { return wrapperContained.applyOperations(base,slot.wrapperContained); }
 public void applyModifiers(yarnwrap.entity.EquipmentSlot slot,java.util.function.BiConsumer attributeConsumer) { wrapperContained.applyModifiers(slot.wrapperContained,attributeConsumer); }
+// public com.mojang.datafixers.kinds.App method_57483(Object instance) { return wrapperContained.method_57483(instance); }
 public yarnwrap.component.type.AttributeModifiersComponent with(yarnwrap.registry.entry.RegistryEntry attribute,yarnwrap.entity.attribute.EntityAttributeModifier modifier,yarnwrap.component.type.AttributeModifierSlot slot) { return new yarnwrap.component.type.AttributeModifiersComponent(wrapperContained.with(attribute.wrapperContained,modifier.wrapperContained,slot.wrapperContained)); }
+// public void method_57485(java.text.DecimalFormat format) { wrapperContained.method_57485(format); }
+// public yarnwrap.component.type.AttributeModifiersComponent method_58113(java.util.List attributeModifiers) { return new yarnwrap.component.type.AttributeModifiersComponent(wrapperContained.method_58113(attributeModifiers)); }
 public yarnwrap.component.type.AttributeModifiersComponent withShowInTooltip(boolean showInTooltip) { return new yarnwrap.component.type.AttributeModifiersComponent(wrapperContained.withShowInTooltip(showInTooltip)); }
 public void applyModifiers(yarnwrap.component.type.AttributeModifierSlot slot,java.util.function.BiConsumer attributeConsumer) { wrapperContained.applyModifiers(slot.wrapperContained,attributeConsumer); }
 

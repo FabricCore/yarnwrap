@@ -1753,7 +1753,22 @@ public yarnwrap.item.Item BLUE_BED() { return new yarnwrap.item.Item(wrapperCont
 // public void BLUE_BED(yarnwrap.item.Item value) { wrapperContained.BLUE_BED = value.wrapperContained; }
 public yarnwrap.item.Item register(yarnwrap.block.Block block,net.minecraft.block.Block[] blocks) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained,blocks)); }
 public yarnwrap.item.Item register(yarnwrap.registry.RegistryKey key,yarnwrap.item.Item item) { return new yarnwrap.item.Item(wrapperContained.register(key.wrapperContained,item.wrapperContained)); }
+// public Object method_58095(Object settings) { return wrapperContained.method_58095(settings); }
 public yarnwrap.item.Item register(yarnwrap.block.Block block,java.util.function.UnaryOperator settingsOperator) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained,settingsOperator)); }
+// public Object method_58097(Object settings) { return wrapperContained.method_58097(settings); }
+// public Object method_58098(Object settings) { return wrapperContained.method_58098(settings); }
+// public Object method_58099(Object settings) { return wrapperContained.method_58099(settings); }
+// public Object method_58100(Object settings) { return wrapperContained.method_58100(settings); }
+// public Object method_58101(Object settings) { return wrapperContained.method_58101(settings); }
+// public Object method_58102(Object settings) { return wrapperContained.method_58102(settings); }
+// public Object method_58103(Object settings) { return wrapperContained.method_58103(settings); }
+// public Object method_58104(Object settings) { return wrapperContained.method_58104(settings); }
+// public Object method_58105(Object settings) { return wrapperContained.method_58105(settings); }
+// public Object method_58106(Object settings) { return wrapperContained.method_58106(settings); }
+// public Object method_58107(Object settings) { return wrapperContained.method_58107(settings); }
+// public Object method_58108(Object settings) { return wrapperContained.method_58108(settings); }
+// public Object method_58109(Object settings) { return wrapperContained.method_58109(settings); }
+// public Object method_58110(Object settings) { return wrapperContained.method_58110(settings); }
 public yarnwrap.item.Item register(yarnwrap.block.Block block) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained)); }
 public yarnwrap.item.Item register(yarnwrap.util.Identifier id,yarnwrap.item.Item item) { return new yarnwrap.item.Item(wrapperContained.register(id.wrapperContained,item.wrapperContained)); }
 public yarnwrap.item.Item register(java.lang.String id,yarnwrap.item.Item item) { return new yarnwrap.item.Item(wrapperContained.register(id,item.wrapperContained)); }

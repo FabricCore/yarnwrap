@@ -9,6 +9,7 @@ public yarnwrap.recipe.BrewingRecipeRegistry EMPTY() { return new yarnwrap.recip
 // public void potionRecipes(java.util.List value) { wrapperContained.potionRecipes = value; }
 // public java.util.List itemRecipes() { return wrapperContained.itemRecipes; }
 // public void itemRecipes(java.util.List value) { wrapperContained.itemRecipes = value; }
+// public BrewingRecipeRegistry(java.util.List potionTypes,java.util.List potionRecipes,java.util.List itemRecipes) { this.wrapperContained = new net.minecraft.recipe.BrewingRecipeRegistry(potionTypes,potionRecipes,itemRecipes); }
 public boolean isBrewable(yarnwrap.registry.entry.RegistryEntry potion) { return wrapperContained.isBrewable(potion.wrapperContained); }
 // public void registerDefaults(Object builder) { wrapperContained.registerDefaults(builder); }
 // public boolean isPotionType(yarnwrap.item.ItemStack stack) { return wrapperContained.isPotionType(stack.wrapperContained); }

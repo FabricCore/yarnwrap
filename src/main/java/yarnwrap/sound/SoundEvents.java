@@ -8,6 +8,7 @@ public com.google.common.collect.ImmutableList GOAT_HORN_SOUNDS() { return wrapp
 // public yarnwrap.sound.SoundEvent register(java.lang.String id) { return new yarnwrap.sound.SoundEvent(wrapperContained.register(id)); }
 // public yarnwrap.registry.entry.RegistryEntry register(yarnwrap.util.Identifier id,yarnwrap.util.Identifier soundId,float distanceToTravel) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.register(id.wrapperContained,soundId.wrapperContained,distanceToTravel)); }
 // public com.google.common.collect.ImmutableList registerGoatHornSounds() { return wrapperContained.registerGoatHornSounds(); }
+// public Object method_43517(int variant) { return wrapperContained.method_43517(variant); }
 // public yarnwrap.sound.SoundEvent register(yarnwrap.util.Identifier id) { return new yarnwrap.sound.SoundEvent(wrapperContained.register(id.wrapperContained)); }
 // public yarnwrap.sound.SoundEvent register(yarnwrap.util.Identifier id,yarnwrap.util.Identifier soundId) { return new yarnwrap.sound.SoundEvent(wrapperContained.register(id.wrapperContained,soundId.wrapperContained)); }
 // public Object registerReference(yarnwrap.util.Identifier id) { return wrapperContained.registerReference(id.wrapperContained); }

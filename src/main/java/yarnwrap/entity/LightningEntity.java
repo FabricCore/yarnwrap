@@ -18,6 +18,7 @@ public void seed(long value) { wrapperContained.seed = value; }
 public void setCosmetic(boolean cosmetic) { wrapperContained.setCosmetic(cosmetic); }
 // public void powerLightningRod() { wrapperContained.powerLightningRod(); }
 // public void cleanOxidation(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.cleanOxidation(world.wrapperContained,pos.wrapperContained); }
+// public void method_34708(yarnwrap.world.World state) { wrapperContained.method_34708(state.wrapperContained); }
 // public void cleanOxidationAround(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,Object mutablePos,int count) { wrapperContained.cleanOxidationAround(world.wrapperContained,pos.wrapperContained,mutablePos,count); }
 // public java.util.Optional cleanOxidationAround(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.cleanOxidationAround(world.wrapperContained,pos.wrapperContained); }
 public yarnwrap.server.network.ServerPlayerEntity getChanneler() { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.getChanneler()); }

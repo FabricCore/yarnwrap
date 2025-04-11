@@ -17,6 +17,7 @@ public class BreezeEntityModel { public net.minecraft.client.render.entity.model
 // public void eyes(yarnwrap.client.model.ModelPart value) { wrapperContained.eyes = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart windBody() { return new yarnwrap.client.model.ModelPart(wrapperContained.windBody); }
 // public void windBody(yarnwrap.client.model.ModelPart value) { wrapperContained.windBody = value.wrapperContained; }
+public BreezeEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.BreezeEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData(int textureWidth,int textureHeight) { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData(textureWidth,textureHeight)); }
 public yarnwrap.client.model.ModelPart getHead() { return new yarnwrap.client.model.ModelPart(wrapperContained.getHead()); }
 public yarnwrap.client.model.ModelPart getEyes() { return new yarnwrap.client.model.ModelPart(wrapperContained.getEyes()); }

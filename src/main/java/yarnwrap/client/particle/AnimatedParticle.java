@@ -11,6 +11,7 @@ public class AnimatedParticle { public net.minecraft.client.particle.AnimatedPar
 // public void targetRed(float value) { wrapperContained.targetRed = value; }
 // public boolean changesColor() { return wrapperContained.changesColor; }
 // public void changesColor(boolean value) { wrapperContained.changesColor = value; }
+// public AnimatedParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,yarnwrap.client.particle.SpriteProvider spriteProvider,float upwardsAcceleration) { this.wrapperContained = new net.minecraft.client.particle.AnimatedParticle(world.wrapperContained,x,y,z,spriteProvider.wrapperContained,upwardsAcceleration); }
 public void setTargetColor(int rgbHex) { wrapperContained.setTargetColor(rgbHex); }
 public void setColor(int rgbHex) { wrapperContained.setColor(rgbHex); }
 

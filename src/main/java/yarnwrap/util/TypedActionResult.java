@@ -5,6 +5,7 @@ public class TypedActionResult { public net.minecraft.util.TypedActionResult wra
 // public void result(yarnwrap.util.ActionResult value) { wrapperContained.result = value.wrapperContained; }
 // public java.lang.Object value() { return wrapperContained.value; }
 // public void value(java.lang.Object value) { wrapperContained.value = value; }
+public TypedActionResult(yarnwrap.util.ActionResult result,java.lang.Object value) { this.wrapperContained = new net.minecraft.util.TypedActionResult(result.wrapperContained,value); }
 public yarnwrap.util.TypedActionResult success(java.lang.Object data) { return new yarnwrap.util.TypedActionResult(wrapperContained.success(data)); }
 public yarnwrap.util.TypedActionResult consume(java.lang.Object data) { return new yarnwrap.util.TypedActionResult(wrapperContained.consume(data)); }
 public yarnwrap.util.TypedActionResult pass(java.lang.Object data) { return new yarnwrap.util.TypedActionResult(wrapperContained.pass(data)); }

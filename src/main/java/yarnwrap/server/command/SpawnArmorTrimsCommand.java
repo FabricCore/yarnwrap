@@ -12,6 +12,13 @@ public class SpawnArmorTrimsCommand { public net.minecraft.server.command.SpawnA
 // public java.util.function.ToIntFunction MATERIAL_INDEX_GETTER() { return wrapperContained.MATERIAL_INDEX_GETTER; }
 // public void MATERIAL_INDEX_GETTER(java.util.function.ToIntFunction value) { wrapperContained.MATERIAL_INDEX_GETTER = value; }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
+// public int method_48334(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_48334(context); }
+// public boolean method_48335(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_48335(source.wrapperContained); }
 // public int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.execute(source.wrapperContained,player.wrapperContained); }
+// public void method_48337(yarnwrap.util.collection.DefaultedList material) { wrapperContained.method_48337(material.wrapperContained); }
+// public java.lang.Integer method_48338(yarnwrap.registry.Registry material) { return wrapperContained.method_48338(material.wrapperContained); }
+// public java.lang.Integer method_48339(yarnwrap.registry.Registry pattern) { return wrapperContained.method_48339(pattern.wrapperContained); }
+// public void method_48340(yarnwrap.registry.Registry pattern) { wrapperContained.method_48340(pattern.wrapperContained); }
+// public void method_48341(java.util.HashMap map) { wrapperContained.method_48341(map); }
 
 }

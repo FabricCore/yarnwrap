@@ -5,6 +5,7 @@ public class DataStreamHelper { public net.minecraft.server.rcon.DataStreamHelpe
 // public void byteArrayOutputStream(java.io.ByteArrayOutputStream value) { wrapperContained.byteArrayOutputStream = value; }
 // public java.io.DataOutputStream dataOutputStream() { return wrapperContained.dataOutputStream; }
 // public void dataOutputStream(java.io.DataOutputStream value) { wrapperContained.dataOutputStream = value; }
+public DataStreamHelper(int size) { this.wrapperContained = new net.minecraft.server.rcon.DataStreamHelper(size); }
 public byte[] bytes() { return wrapperContained.bytes(); }
 // public void writeBytes(java.lang.String value) { wrapperContained.writeBytes(value); }
 // public void writeShort(short value) { wrapperContained.writeShort(value); }

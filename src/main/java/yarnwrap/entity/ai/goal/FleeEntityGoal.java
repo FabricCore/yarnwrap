@@ -23,5 +23,8 @@ public class FleeEntityGoal { public net.minecraft.entity.ai.goal.FleeEntityGoal
 // public void fleeingEntityNavigation(yarnwrap.entity.ai.pathing.EntityNavigation value) { wrapperContained.fleeingEntityNavigation = value.wrapperContained; }
 // public double fastSpeed() { return wrapperContained.fastSpeed; }
 // public void fastSpeed(double value) { wrapperContained.fastSpeed = value; }
+public FleeEntityGoal(yarnwrap.entity.mob.PathAwareEntity mob,java.lang.Class fleeFromType,float distance,double slowSpeed,double fastSpeed) { this.wrapperContained = new net.minecraft.entity.ai.goal.FleeEntityGoal(mob.wrapperContained,fleeFromType,distance,slowSpeed,fastSpeed); }
+public FleeEntityGoal(yarnwrap.entity.mob.PathAwareEntity fleeingEntity,java.lang.Class classToFleeFrom,float fleeDistance,double fleeSlowSpeed,double fleeFastSpeed,java.util.function.Predicate inclusionSelector) { this.wrapperContained = new net.minecraft.entity.ai.goal.FleeEntityGoal(fleeingEntity.wrapperContained,classToFleeFrom,fleeDistance,fleeSlowSpeed,fleeFastSpeed,inclusionSelector); }
+public FleeEntityGoal(yarnwrap.entity.mob.PathAwareEntity mob,java.lang.Class fleeFromType,java.util.function.Predicate extraInclusionSelector,float distance,double slowSpeed,double fastSpeed,java.util.function.Predicate inclusionSelector) { this.wrapperContained = new net.minecraft.entity.ai.goal.FleeEntityGoal(mob.wrapperContained,fleeFromType,extraInclusionSelector,distance,slowSpeed,fastSpeed,inclusionSelector); }
 
 }

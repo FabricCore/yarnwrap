@@ -41,6 +41,7 @@ public class AdvancementWidget { public net.minecraft.client.gui.screen.advancem
 // public void TITLE_BOX_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TITLE_BOX_TEXTURE = value.wrapperContained; }
 // public yarnwrap.advancement.PlacedAdvancement advancement() { return new yarnwrap.advancement.PlacedAdvancement(wrapperContained.advancement); }
 // public void advancement(yarnwrap.advancement.PlacedAdvancement value) { wrapperContained.advancement = value.wrapperContained; }
+public AdvancementWidget(yarnwrap.client.gui.screen.advancement.AdvancementTab tab,yarnwrap.client.MinecraftClient client,yarnwrap.advancement.PlacedAdvancement advancement,yarnwrap.advancement.AdvancementDisplay display) { this.wrapperContained = new net.minecraft.client.gui.screen.advancement.AdvancementWidget(tab.wrapperContained,client.wrapperContained,advancement.wrapperContained,display.wrapperContained); }
 public void addChild(yarnwrap.client.gui.screen.advancement.AdvancementWidget widget) { wrapperContained.addChild(widget.wrapperContained); }
 public void renderLines(yarnwrap.client.gui.DrawContext context,int x,int y,boolean border) { wrapperContained.renderLines(context.wrapperContained,x,y,border); }
 public void renderWidgets(yarnwrap.client.gui.DrawContext context,int x,int y) { wrapperContained.renderWidgets(context.wrapperContained,x,y); }

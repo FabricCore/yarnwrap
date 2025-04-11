@@ -51,6 +51,8 @@ public int SPAWN_Y() { return wrapperContained.SPAWN_Y; }
 // public void origin(yarnwrap.util.math.BlockPos value) { wrapperContained.origin = value.wrapperContained; }
 // public boolean skipChunksLoadedCheck() { return wrapperContained.skipChunksLoadedCheck; }
 // public void skipChunksLoadedCheck(boolean value) { wrapperContained.skipChunksLoadedCheck = value; }
+// public EnderDragonFight(yarnwrap.server.world.ServerWorld world,long gatewaysSeed,Object data) { this.wrapperContained = new net.minecraft.entity.boss.dragon.EnderDragonFight(world.wrapperContained,gatewaysSeed,data); }
+// public EnderDragonFight(yarnwrap.server.world.ServerWorld world,long gatewaysSeed,Object data,yarnwrap.util.math.BlockPos origin) { this.wrapperContained = new net.minecraft.entity.boss.dragon.EnderDragonFight(world.wrapperContained,gatewaysSeed,data,origin.wrapperContained); }
 // public boolean worldContainsEndPortal() { return wrapperContained.worldContainsEndPortal(); }
 // public void convertFromLegacy() { wrapperContained.convertFromLegacy(); }
 // public void generateEndGateway(yarnwrap.util.math.BlockPos pos) { wrapperContained.generateEndGateway(pos.wrapperContained); }

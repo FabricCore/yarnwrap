@@ -9,5 +9,6 @@ public class TradeOutputSlot { public net.minecraft.screen.slot.TradeOutputSlot 
 // public void amount(int value) { wrapperContained.amount = value; }
 // public yarnwrap.village.MerchantInventory merchantInventory() { return new yarnwrap.village.MerchantInventory(wrapperContained.merchantInventory); }
 // public void merchantInventory(yarnwrap.village.MerchantInventory value) { wrapperContained.merchantInventory = value.wrapperContained; }
+public TradeOutputSlot(yarnwrap.entity.player.PlayerEntity player,yarnwrap.village.Merchant merchant,yarnwrap.village.MerchantInventory merchantInventory,int index,int x,int y) { this.wrapperContained = new net.minecraft.screen.slot.TradeOutputSlot(player.wrapperContained,merchant.wrapperContained,merchantInventory.wrapperContained,index,x,y); }
 
 }

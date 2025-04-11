@@ -9,6 +9,8 @@ public class ModelVariant { public net.minecraft.client.render.model.json.ModelV
 // public void uvLock(boolean value) { wrapperContained.uvLock = value; }
 // public yarnwrap.util.math.AffineTransformation rotation() { return new yarnwrap.util.math.AffineTransformation(wrapperContained.rotation); }
 // public void rotation(yarnwrap.util.math.AffineTransformation value) { wrapperContained.rotation = value.wrapperContained; }
+public ModelVariant(yarnwrap.util.Identifier location,yarnwrap.util.math.AffineTransformation rotation,boolean uvLock,int weight) { this.wrapperContained = new net.minecraft.client.render.model.json.ModelVariant(location.wrapperContained,rotation.wrapperContained,uvLock,weight); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.Identifier getLocation() { return new yarnwrap.util.Identifier(wrapperContained.getLocation()); }
 public int getWeight() { return wrapperContained.getWeight(); }
 

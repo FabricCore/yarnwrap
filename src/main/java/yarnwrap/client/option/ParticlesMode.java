@@ -7,6 +7,7 @@ public class ParticlesMode { public net.minecraft.client.option.ParticlesMode wr
 // public void id(int value) { wrapperContained.id = value; }
 // public java.lang.String translationKey() { return wrapperContained.translationKey; }
 // public void translationKey(java.lang.String value) { wrapperContained.translationKey = value; }
+// // public ParticlesMode(java.lang.String id,int translationKey) { this.wrapperContained = new net.minecraft.client.option.ParticlesMode(id,translationKey); }
 public yarnwrap.client.option.ParticlesMode byId(int id) { return new yarnwrap.client.option.ParticlesMode(wrapperContained.byId(id)); }
 
 }

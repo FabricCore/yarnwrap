@@ -17,6 +17,7 @@ public java.util.function.Predicate CAN_TAKE() { return wrapperContained.CAN_TAK
 // public void HAS_FISH(yarnwrap.entity.data.TrackedData value) { wrapperContained.HAS_FISH = value.wrapperContained; }
 public Object createDolphinAttributes() { return wrapperContained.createDolphinAttributes(); }
 // public boolean isNearTarget() { return wrapperContained.isNearTarget(); }
+// public boolean method_6485(yarnwrap.entity.ItemEntity item) { return wrapperContained.method_6485(item.wrapperContained); }
 public void setHasFish(boolean hasFish) { wrapperContained.setHasFish(hasFish); }
 public boolean hasFish() { return wrapperContained.hasFish(); }
 public void setMoistness(int moistness) { wrapperContained.setMoistness(moistness); }

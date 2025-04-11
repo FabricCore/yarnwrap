@@ -9,5 +9,7 @@ public class BlockDataObject { public net.minecraft.command.BlockDataObject wrap
 // public void INVALID_BLOCK_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.INVALID_BLOCK_EXCEPTION = value; }
 public java.util.function.Function TYPE_FACTORY() { return wrapperContained.TYPE_FACTORY; }
 // public void TYPE_FACTORY(java.util.function.Function value) { wrapperContained.TYPE_FACTORY = value; }
+public BlockDataObject(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.command.BlockDataObject(blockEntity.wrapperContained,pos.wrapperContained); }
+// public Object method_13878(java.lang.String argumentName) { return wrapperContained.method_13878(argumentName); }
 
 }

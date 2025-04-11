@@ -7,6 +7,7 @@ public class CompassAnglePredicateProvider { public net.minecraft.client.item.Co
 // // public void aimlessInterpolator(Object value) { wrapperContained.aimlessInterpolator = value; }
 public Object compassTarget() { return wrapperContained.compassTarget; }
 // // public void compassTarget(Object value) { wrapperContained.compassTarget = value; }
+// public CompassAnglePredicateProvider(Object compassTarget) { this.wrapperContained = new net.minecraft.client.item.CompassAnglePredicateProvider(compassTarget); }
 // public int scatter(int seed) { return wrapperContained.scatter(seed); }
 // public float getAimlessAngle(int seed,long time) { return wrapperContained.getAimlessAngle(seed,time); }
 // public double getBodyYaw(yarnwrap.entity.Entity entity) { return wrapperContained.getBodyYaw(entity.wrapperContained); }

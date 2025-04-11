@@ -9,6 +9,8 @@ public int MAX_FEATURE_FLAGS() { return wrapperContained.MAX_FEATURE_FLAGS; }
 // public void universe(yarnwrap.resource.featuretoggle.FeatureUniverse value) { wrapperContained.universe = value.wrapperContained; }
 // public long featuresMask() { return wrapperContained.featuresMask; }
 // public void featuresMask(long value) { wrapperContained.featuresMask = value; }
+// public FeatureSet(yarnwrap.resource.featuretoggle.FeatureUniverse universe,long featuresMask) { this.wrapperContained = new net.minecraft.resource.featuretoggle.FeatureSet(universe.wrapperContained,featuresMask); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.resource.featuretoggle.FeatureSet empty() { return new yarnwrap.resource.featuretoggle.FeatureSet(wrapperContained.empty()); }
 public yarnwrap.resource.featuretoggle.FeatureSet of(yarnwrap.resource.featuretoggle.FeatureFlag feature) { return new yarnwrap.resource.featuretoggle.FeatureSet(wrapperContained.of(feature.wrapperContained)); }
 public yarnwrap.resource.featuretoggle.FeatureSet of(yarnwrap.resource.featuretoggle.FeatureFlag feature1,net.minecraft.resource.featuretoggle.FeatureFlag[] features) { return new yarnwrap.resource.featuretoggle.FeatureSet(wrapperContained.of(feature1.wrapperContained,features)); }

@@ -13,5 +13,9 @@ public class BackupPromptScreen { public net.minecraft.client.gui.screen.world.B
 // // public void callback(Object value) { wrapperContained.callback = value; }
 // public java.lang.Runnable onCancel() { return wrapperContained.onCancel; }
 // public void onCancel(java.lang.Runnable value) { wrapperContained.onCancel = value; }
+// public BackupPromptScreen(java.lang.Runnable onCancel,Object callback,yarnwrap.text.Text title,yarnwrap.text.Text subtitle,boolean showEraseCacheCheckBox) { this.wrapperContained = new net.minecraft.client.gui.screen.world.BackupPromptScreen(onCancel,callback,title.wrapperContained,subtitle.wrapperContained,showEraseCacheCheckBox); }
+// public void method_19791(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19791(button.wrapperContained); }
+// public void method_19792(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19792(button.wrapperContained); }
+// public void method_19793(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19793(button.wrapperContained); }
 
 }

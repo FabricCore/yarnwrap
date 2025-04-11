@@ -29,6 +29,8 @@ public class ProfilerSystem { public net.minecraft.util.profiler.ProfilerSystem 
 // public void timeGetter(java.util.function.LongSupplier value) { wrapperContained.timeGetter = value; }
 // public java.util.Set sampleTypes() { return wrapperContained.sampleTypes; }
 // public void sampleTypes(java.util.Set value) { wrapperContained.sampleTypes = value; }
+public ProfilerSystem(java.util.function.LongSupplier timeGetter,java.util.function.IntSupplier tickGetter,boolean checkTimeout) { this.wrapperContained = new net.minecraft.util.profiler.ProfilerSystem(timeGetter,tickGetter,checkTimeout); }
+// public Object method_24245(java.lang.String k) { return wrapperContained.method_24245(k); }
 // public Object getCurrentInfo() { return wrapperContained.getCurrentInfo(); }
 
 }

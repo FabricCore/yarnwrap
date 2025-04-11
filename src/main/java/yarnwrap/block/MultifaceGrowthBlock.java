@@ -28,13 +28,17 @@ public class MultifaceGrowthBlock { public net.minecraft.block.MultifaceGrowthBl
 // public boolean canMirrorZ() { return wrapperContained.canMirrorZ; }
 // public void canMirrorZ(boolean value) { wrapperContained.canMirrorZ = value; }
 public boolean canGrowOn(yarnwrap.world.BlockView world,yarnwrap.util.math.Direction direction,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { return wrapperContained.canGrowOn(world.wrapperContained,direction.wrapperContained,pos.wrapperContained,state.wrapperContained); }
+// public yarnwrap.block.BlockState method_33361(yarnwrap.block.BlockState direction) { return new yarnwrap.block.BlockState(wrapperContained.method_33361(direction.wrapperContained)); }
 public yarnwrap.block.BlockState withDirection(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction) { return new yarnwrap.block.BlockState(wrapperContained.withDirection(state.wrapperContained,world.wrapperContained,pos.wrapperContained,direction.wrapperContained)); }
 // public yarnwrap.block.BlockState disableDirection(yarnwrap.block.BlockState state,yarnwrap.state.property.BooleanProperty direction) { return new yarnwrap.block.BlockState(wrapperContained.disableDirection(state.wrapperContained,direction.wrapperContained)); }
 public boolean hasDirection(yarnwrap.block.BlockState state,yarnwrap.util.math.Direction direction) { return wrapperContained.hasDirection(state.wrapperContained,direction.wrapperContained); }
 // public yarnwrap.block.BlockState mirror(yarnwrap.block.BlockState state,java.util.function.Function mirror) { return new yarnwrap.block.BlockState(wrapperContained.mirror(state.wrapperContained,mirror)); }
 // public yarnwrap.block.BlockState withAllDirections(yarnwrap.state.StateManager stateManager) { return new yarnwrap.block.BlockState(wrapperContained.withAllDirections(stateManager.wrapperContained)); }
 // public boolean canHaveDirection(yarnwrap.util.math.Direction direction) { return wrapperContained.canHaveDirection(direction.wrapperContained); }
+// public void method_33370(java.util.EnumMap shapes) { wrapperContained.method_33370(shapes); }
+// public boolean method_33372(yarnwrap.block.BlockState direction) { return wrapperContained.method_33372(direction.wrapperContained); }
 public yarnwrap.state.property.BooleanProperty getProperty(yarnwrap.util.math.Direction direction) { return new yarnwrap.state.property.BooleanProperty(wrapperContained.getProperty(direction.wrapperContained)); }
+// public boolean method_33376(yarnwrap.block.BlockState direction) { return wrapperContained.method_33376(direction.wrapperContained); }
 // public boolean isWaterlogged() { return wrapperContained.isWaterlogged(); }
 // public yarnwrap.util.shape.VoxelShape getShapeForState(yarnwrap.block.BlockState state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getShapeForState(state.wrapperContained)); }
 // public boolean hasAnyDirection(yarnwrap.block.BlockState state) { return wrapperContained.hasAnyDirection(state.wrapperContained); }

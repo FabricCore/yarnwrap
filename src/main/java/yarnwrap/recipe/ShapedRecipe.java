@@ -11,6 +11,10 @@ public class ShapedRecipe { public net.minecraft.recipe.ShapedRecipe wrapperCont
 // public void result(yarnwrap.item.ItemStack value) { wrapperContained.result = value.wrapperContained; }
 // public java.lang.String group() { return wrapperContained.group; }
 // public void group(java.lang.String value) { wrapperContained.group = value; }
+public ShapedRecipe(java.lang.String group,yarnwrap.recipe.book.CraftingRecipeCategory category,yarnwrap.recipe.RawShapedRecipe raw,yarnwrap.item.ItemStack result) { this.wrapperContained = new net.minecraft.recipe.ShapedRecipe(group,category.wrapperContained,raw.wrapperContained,result.wrapperContained); }
+public ShapedRecipe(java.lang.String group,yarnwrap.recipe.book.CraftingRecipeCategory category,yarnwrap.recipe.RawShapedRecipe raw,yarnwrap.item.ItemStack result,boolean showNotification) { this.wrapperContained = new net.minecraft.recipe.ShapedRecipe(group,category.wrapperContained,raw.wrapperContained,result.wrapperContained,showNotification); }
+// public boolean method_31585(yarnwrap.recipe.Ingredient ingredient) { return wrapperContained.method_31585(ingredient.wrapperContained); }
+// public boolean method_31586(yarnwrap.recipe.Ingredient ingredient) { return wrapperContained.method_31586(ingredient.wrapperContained); }
 public int getWidth() { return wrapperContained.getWidth(); }
 public int getHeight() { return wrapperContained.getHeight(); }
 

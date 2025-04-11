@@ -13,6 +13,7 @@ public class Session { public net.minecraft.client.session.Session wrapperContai
 // public void xuid(java.util.Optional value) { wrapperContained.xuid = value; }
 // public java.util.Optional clientId() { return wrapperContained.clientId; }
 // public void clientId(java.util.Optional value) { wrapperContained.clientId = value; }
+// public Session(java.lang.String username,java.util.UUID uuid,java.lang.String accessToken,java.util.Optional xuid,java.util.Optional clientId,Object accountType) { this.wrapperContained = new net.minecraft.client.session.Session(username,uuid,accessToken,xuid,clientId,accountType); }
 public java.lang.String getAccessToken() { return wrapperContained.getAccessToken(); }
 public java.lang.String getSessionId() { return wrapperContained.getSessionId(); }
 public java.lang.String getUsername() { return wrapperContained.getUsername(); }

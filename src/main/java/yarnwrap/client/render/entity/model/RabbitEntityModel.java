@@ -37,6 +37,7 @@ public class RabbitEntityModel { public net.minecraft.client.render.entity.model
 // public void nose(yarnwrap.client.model.ModelPart value) { wrapperContained.nose = value.wrapperContained; }
 // public float jumpProgress() { return wrapperContained.jumpProgress; }
 // public void jumpProgress(float value) { wrapperContained.jumpProgress = value; }
+public RabbitEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.RabbitEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

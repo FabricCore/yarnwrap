@@ -45,18 +45,23 @@ public com.mojang.serialization.Codec STRINGIFIED_CODEC() { return wrapperContai
 // public void STRINGIFIED_CODEC(com.mojang.serialization.Codec value) { wrapperContained.STRINGIFIED_CODEC = value; }
 public com.mojang.serialization.Codec NBT_COMPOUND_CODEC() { return wrapperContained.NBT_COMPOUND_CODEC; }
 // public void NBT_COMPOUND_CODEC(com.mojang.serialization.Codec value) { wrapperContained.NBT_COMPOUND_CODEC = value; }
+public StringNbtReader(com.mojang.brigadier.StringReader reader) { this.wrapperContained = new net.minecraft.nbt.StringNbtReader(reader); }
 // public boolean readComma() { return wrapperContained.readComma(); }
 // public yarnwrap.nbt.NbtElement parseArray() { return new yarnwrap.nbt.NbtElement(wrapperContained.parseArray()); }
 // public yarnwrap.nbt.NbtCompound parse(java.lang.String string) { return new yarnwrap.nbt.NbtCompound(wrapperContained.parse(string)); }
 // public void expect(char c) { wrapperContained.expect(c); }
+// public com.mojang.brigadier.Message method_10720(java.lang.Object type) { return wrapperContained.method_10720(type); }
 // public yarnwrap.nbt.NbtCompound readCompound() { return new yarnwrap.nbt.NbtCompound(wrapperContained.readCompound()); }
 // public yarnwrap.nbt.NbtElement parseElementPrimitive() { return new yarnwrap.nbt.NbtElement(wrapperContained.parseElementPrimitive()); }
 // public yarnwrap.nbt.NbtElement parseElement() { return new yarnwrap.nbt.NbtElement(wrapperContained.parseElement()); }
+// public com.mojang.brigadier.Message method_10724(java.lang.Object receivedType,java.lang.Object expectedType) { return wrapperContained.method_10724(receivedType,expectedType); }
 // public java.lang.String readString() { return wrapperContained.readString(); }
 // public yarnwrap.nbt.NbtElement parseElementPrimitiveArray() { return new yarnwrap.nbt.NbtElement(wrapperContained.parseElementPrimitiveArray()); }
 // public yarnwrap.nbt.NbtCompound parseCompound() { return new yarnwrap.nbt.NbtCompound(wrapperContained.parseCompound()); }
 // public java.util.List readArray(yarnwrap.nbt.NbtType arrayTypeReader,yarnwrap.nbt.NbtType typeReader) { return wrapperContained.readArray(arrayTypeReader.wrapperContained,typeReader.wrapperContained); }
 // public yarnwrap.nbt.NbtElement parseList() { return new yarnwrap.nbt.NbtElement(wrapperContained.parseList()); }
+// public com.mojang.brigadier.Message method_10730(java.lang.Object receivedType,java.lang.Object expectedType) { return wrapperContained.method_10730(receivedType,expectedType); }
 // public yarnwrap.nbt.NbtElement parsePrimitive(java.lang.String input) { return new yarnwrap.nbt.NbtElement(wrapperContained.parsePrimitive(input)); }
+// public com.mojang.serialization.DataResult method_53502(java.lang.String nbt) { return wrapperContained.method_53502(nbt); }
 
 }

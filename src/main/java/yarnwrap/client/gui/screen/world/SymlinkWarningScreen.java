@@ -17,7 +17,11 @@ public class SymlinkWarningScreen { public net.minecraft.client.gui.screen.world
 // public void grid(yarnwrap.client.gui.widget.GridWidget value) { wrapperContained.grid = value.wrapperContained; }
 // public java.lang.Runnable onClose() { return wrapperContained.onClose; }
 // public void onClose(java.lang.Runnable value) { wrapperContained.onClose = value; }
+public SymlinkWarningScreen(yarnwrap.text.Text title,yarnwrap.text.Text message,java.net.URI link,java.lang.Runnable onClose) { this.wrapperContained = new net.minecraft.client.gui.screen.world.SymlinkWarningScreen(title.wrapperContained,message.wrapperContained,link,onClose); }
+// public void method_52747(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_52747(button.wrapperContained); }
 public yarnwrap.client.gui.screen.Screen world(java.lang.Runnable onClose) { return new yarnwrap.client.gui.screen.Screen(wrapperContained.world(onClose)); }
+// public void method_52749(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_52749(button.wrapperContained); }
 public yarnwrap.client.gui.screen.Screen pack(java.lang.Runnable onClose) { return new yarnwrap.client.gui.screen.Screen(wrapperContained.pack(onClose)); }
+// public void method_52751(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_52751(button.wrapperContained); }
 
 }

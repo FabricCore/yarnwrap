@@ -7,5 +7,6 @@ public class CollisionDebugRenderer { public net.minecraft.client.render.debug.C
 // public void lastUpdateTime(double value) { wrapperContained.lastUpdateTime = value; }
 // public java.util.List collisions() { return wrapperContained.collisions; }
 // public void collisions(java.util.List value) { wrapperContained.collisions = value; }
+public CollisionDebugRenderer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.debug.CollisionDebugRenderer(client.wrapperContained); }
 
 }

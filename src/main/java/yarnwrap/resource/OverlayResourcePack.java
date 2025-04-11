@@ -5,5 +5,6 @@ public class OverlayResourcePack { public net.minecraft.resource.OverlayResource
 // public void base(yarnwrap.resource.ResourcePack value) { wrapperContained.base = value.wrapperContained; }
 // public java.util.List overlaysAndBase() { return wrapperContained.overlaysAndBase; }
 // public void overlaysAndBase(java.util.List value) { wrapperContained.overlaysAndBase = value; }
+public OverlayResourcePack(yarnwrap.resource.ResourcePack base,java.util.List overlays) { this.wrapperContained = new net.minecraft.resource.OverlayResourcePack(base.wrapperContained,overlays); }
 
 }

@@ -31,6 +31,9 @@ public class ParticleManager { public net.minecraft.client.particle.ParticleMana
 // public void FINDER(yarnwrap.resource.ResourceFinder value) { wrapperContained.FINDER = value.wrapperContained; }
 // public yarnwrap.util.Identifier PARTICLES_PATH() { return new yarnwrap.util.Identifier(wrapperContained.PARTICLES_PATH); }
 // public void PARTICLES_PATH(yarnwrap.util.Identifier value) { wrapperContained.PARTICLES_PATH = value.wrapperContained; }
+public ParticleManager(yarnwrap.client.world.ClientWorld world,yarnwrap.client.texture.TextureManager textureManager) { this.wrapperContained = new net.minecraft.client.particle.ParticleManager(world.wrapperContained,textureManager.wrapperContained); }
+// public java.util.Queue method_18125(yarnwrap.client.particle.ParticleTextureSheet sheet) { return wrapperContained.method_18125(sheet.wrapperContained); }
+// public void method_18126(yarnwrap.client.particle.ParticleTextureSheet sheet,java.util.Queue queue) { wrapperContained.method_18126(sheet.wrapperContained,queue); }
 public void clearAtlas() { wrapperContained.clearAtlas(); }
 // public void registerFactory(yarnwrap.particle.ParticleType type,Object factory) { wrapperContained.registerFactory(type.wrapperContained,factory); }
 // public java.util.Optional loadTextureList(yarnwrap.util.Identifier id,yarnwrap.resource.Resource resource) { return wrapperContained.loadTextureList(id.wrapperContained,resource.wrapperContained); }
@@ -49,9 +52,18 @@ public void addParticle(yarnwrap.client.particle.Particle particle) { wrapperCon
 // public void tickParticle(yarnwrap.client.particle.Particle particle) { wrapperContained.tickParticle(particle.wrapperContained); }
 public void addEmitter(yarnwrap.entity.Entity entity,yarnwrap.particle.ParticleEffect parameters) { wrapperContained.addEmitter(entity.wrapperContained,parameters.wrapperContained); }
 // public void registerDefaultFactories() { wrapperContained.registerDefaultFactories(); }
+// public void method_34020(yarnwrap.util.math.BlockPos minX,yarnwrap.block.BlockState minY,double minZ,double maxX,double maxY,double maxZ) { wrapperContained.method_34020(minX.wrapperContained,minY.wrapperContained,minZ,maxX,maxY,maxZ); }
 // public boolean canAdd(yarnwrap.particle.ParticleGroup group) { return wrapperContained.canAdd(group.wrapperContained); }
 // public void addTo(yarnwrap.particle.ParticleGroup group,int count) { wrapperContained.addTo(group.wrapperContained,count); }
+// public void method_34023(yarnwrap.particle.ParticleGroup group) { wrapperContained.method_34023(group.wrapperContained); }
+// public void method_45767(Object result) { wrapperContained.method_45767(result); }
+// public void method_45768(java.util.List id,java.util.concurrent.Executor resource) { wrapperContained.method_45768(id,resource); }
+// public java.util.concurrent.CompletionStage method_45772(java.util.concurrent.Executor particles) { return wrapperContained.method_45772(particles); }
 // public void clearParticles() { wrapperContained.clearParticles(); }
+// public yarnwrap.client.particle.ParticleFactory method_49336(Object spriteBillboardParticle) { return new yarnwrap.client.particle.ParticleFactory(wrapperContained.method_49336(spriteBillboardParticle)); }
+// public yarnwrap.client.particle.Particle method_49337(Object type,yarnwrap.client.particle.SpriteProvider world,yarnwrap.particle.ParticleEffect x,yarnwrap.client.world.ClientWorld y,double z,double velocityX,double velocityY,double velocityZ) { return new yarnwrap.client.particle.Particle(wrapperContained.method_49337(type,world.wrapperContained,x.wrapperContained,y.wrapperContained,z,velocityX,velocityY,velocityZ)); }
 // public void registerBlockLeakFactory(yarnwrap.particle.ParticleType type,Object factory) { wrapperContained.registerBlockLeakFactory(type.wrapperContained,factory); }
+// public yarnwrap.client.particle.ParticleFactory method_49915(yarnwrap.client.particle.SpriteProvider spriteProvider) { return new yarnwrap.client.particle.ParticleFactory(wrapperContained.method_49915(spriteProvider.wrapperContained)); }
+// public yarnwrap.client.particle.Particle method_49916(yarnwrap.client.particle.SpriteProvider parameters,yarnwrap.particle.SimpleParticleType world,yarnwrap.client.world.ClientWorld x,double y,double z,double velocityX,double velocityY,double velocityZ) { return new yarnwrap.client.particle.Particle(wrapperContained.method_49916(parameters.wrapperContained,world.wrapperContained,x.wrapperContained,y,z,velocityX,velocityY,velocityZ)); }
 
 }

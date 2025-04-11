@@ -13,7 +13,9 @@ public class FileResourcePackProvider { public net.minecraft.resource.FileResour
 // public void symlinkFinder(yarnwrap.util.path.SymlinkFinder value) { wrapperContained.symlinkFinder = value.wrapperContained; }
 // public yarnwrap.resource.ResourcePackPosition POSITION() { return new yarnwrap.resource.ResourcePackPosition(wrapperContained.POSITION); }
 // public void POSITION(yarnwrap.resource.ResourcePackPosition value) { wrapperContained.POSITION = value.wrapperContained; }
+public FileResourcePackProvider(java.nio.file.Path packsDir,yarnwrap.resource.ResourceType type,yarnwrap.resource.ResourcePackSource source,yarnwrap.util.path.SymlinkFinder symlinkFinder) { this.wrapperContained = new net.minecraft.resource.FileResourcePackProvider(packsDir,type.wrapperContained,source.wrapperContained,symlinkFinder.wrapperContained); }
 // public void forEachProfile(java.nio.file.Path path,yarnwrap.util.path.SymlinkFinder symlinkFinder,java.util.function.BiConsumer callback) { wrapperContained.forEachProfile(path,symlinkFinder.wrapperContained,callback); }
+// public void method_45272(java.util.function.Consumer path,java.nio.file.Path packFactory) { wrapperContained.method_45272(path,packFactory); }
 // public java.lang.String getFileName(java.nio.file.Path path) { return wrapperContained.getFileName(path); }
 // public yarnwrap.resource.ResourcePackInfo createPackInfo(java.nio.file.Path path) { return new yarnwrap.resource.ResourcePackInfo(wrapperContained.createPackInfo(path)); }
 

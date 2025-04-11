@@ -7,6 +7,7 @@ public class LivingEntityRenderer { public net.minecraft.client.render.entity.Li
 // public void model(yarnwrap.client.render.entity.model.EntityModel value) { wrapperContained.model = value.wrapperContained; }
 // public java.util.List features() { return wrapperContained.features; }
 // public void features(java.util.List value) { wrapperContained.features = value; }
+// public LivingEntityRenderer(Object ctx,yarnwrap.client.render.entity.model.EntityModel model,float shadowRadius) { this.wrapperContained = new net.minecraft.client.render.entity.LivingEntityRenderer(ctx,model.wrapperContained,shadowRadius); }
 // public float getYaw(yarnwrap.util.math.Direction direction) { return wrapperContained.getYaw(direction.wrapperContained); }
 // public float getAnimationCounter(yarnwrap.entity.LivingEntity entity,float tickDelta) { return wrapperContained.getAnimationCounter(entity.wrapperContained,tickDelta); }
 public int getOverlay(yarnwrap.entity.LivingEntity entity,float whiteOverlayProgress) { return wrapperContained.getOverlay(entity.wrapperContained,whiteOverlayProgress); }

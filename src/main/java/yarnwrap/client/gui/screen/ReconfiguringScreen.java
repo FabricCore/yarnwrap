@@ -9,5 +9,8 @@ public class ReconfiguringScreen { public net.minecraft.client.gui.screen.Reconf
 // public void tick(int value) { wrapperContained.tick = value; }
 // public yarnwrap.client.gui.widget.DirectionalLayoutWidget layout() { return new yarnwrap.client.gui.widget.DirectionalLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.DirectionalLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+public ReconfiguringScreen(yarnwrap.text.Text title,yarnwrap.network.ClientConnection connection) { this.wrapperContained = new net.minecraft.client.gui.screen.ReconfiguringScreen(title.wrapperContained,connection.wrapperContained); }
+// public void method_52757(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_52757(button.wrapperContained); }
+// public void method_52758(yarnwrap.client.gui.screen.ReconfiguringScreen child) { wrapperContained.method_52758(child.wrapperContained); }
 
 }

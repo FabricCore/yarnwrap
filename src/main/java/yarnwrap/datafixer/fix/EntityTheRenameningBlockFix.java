@@ -9,5 +9,6 @@ public java.util.Map BLOCKS() { return wrapperContained.BLOCKS; }
 // public void BLOCKS(java.util.Map value) { wrapperContained.BLOCKS = value; }
 public java.util.Map ITEMS() { return wrapperContained.ITEMS; }
 // public void ITEMS(java.util.Map value) { wrapperContained.ITEMS = value; }
+public EntityTheRenameningBlockFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityTheRenameningBlockFix(outputSchema,changesType); }
 
 }

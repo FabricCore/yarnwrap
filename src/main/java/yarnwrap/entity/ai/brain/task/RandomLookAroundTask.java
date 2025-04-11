@@ -9,5 +9,6 @@ public class RandomLookAroundTask { public net.minecraft.entity.ai.brain.task.Ra
 // public void minPitch(float value) { wrapperContained.minPitch = value; }
 // public float pitchRange() { return wrapperContained.pitchRange; }
 // public void pitchRange(float value) { wrapperContained.pitchRange = value; }
+public RandomLookAroundTask(yarnwrap.util.math.intprovider.IntProvider cooldown,float maxYaw,float minPitch,float maxPitch) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.RandomLookAroundTask(cooldown.wrapperContained,maxYaw,minPitch,maxPitch); }
 
 }

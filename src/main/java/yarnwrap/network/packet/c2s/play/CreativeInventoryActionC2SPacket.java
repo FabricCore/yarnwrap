@@ -7,6 +7,7 @@ public class CreativeInventoryActionC2SPacket { public net.minecraft.network.pac
 // public void stack(yarnwrap.item.ItemStack value) { wrapperContained.stack = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public CreativeInventoryActionC2SPacket(int slot,yarnwrap.item.ItemStack stack) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.CreativeInventoryActionC2SPacket(slot,stack.wrapperContained); }
 // public short slot() { return wrapperContained.slot(); }
 // public yarnwrap.item.ItemStack stack() { return new yarnwrap.item.ItemStack(wrapperContained.stack()); }
 

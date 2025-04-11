@@ -15,6 +15,7 @@ public class EntityUuidFix { public net.minecraft.datafixer.fix.EntityUuidFix wr
 // public void PROJECTILES(java.util.Set value) { wrapperContained.PROJECTILES = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public EntityUuidFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityUuidFix(outputSchema); }
 // public com.mojang.serialization.Dynamic updateAngryAtMemory() { return wrapperContained.updateAngryAtMemory(); }
 // public com.mojang.serialization.Dynamic updateEvokerFangs() { return wrapperContained.updateEvokerFangs(); }
 // public com.mojang.serialization.Dynamic updateZombieVillager() { return wrapperContained.updateZombieVillager(); }

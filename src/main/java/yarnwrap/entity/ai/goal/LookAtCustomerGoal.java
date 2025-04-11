@@ -3,5 +3,6 @@ public class LookAtCustomerGoal { public net.minecraft.entity.ai.goal.LookAtCust
 
 // public yarnwrap.entity.passive.MerchantEntity merchant() { return new yarnwrap.entity.passive.MerchantEntity(wrapperContained.merchant); }
 // public void merchant(yarnwrap.entity.passive.MerchantEntity value) { wrapperContained.merchant = value.wrapperContained; }
+public LookAtCustomerGoal(yarnwrap.entity.passive.MerchantEntity merchant) { this.wrapperContained = new net.minecraft.entity.ai.goal.LookAtCustomerGoal(merchant.wrapperContained); }
 
 }

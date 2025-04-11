@@ -13,9 +13,14 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public java.util.List setups() { return wrapperContained.setups; }
 // public void setups(java.util.List value) { wrapperContained.setups = value; }
+// public RuinedPortalStructure(Object config,java.util.List setups) { this.wrapperContained = new net.minecraft.world.gen.structure.RuinedPortalStructure(config,setups); }
+// public RuinedPortalStructure(Object config,Object setup) { this.wrapperContained = new net.minecraft.world.gen.structure.RuinedPortalStructure(config,setup); }
+// public yarnwrap.world.gen.chunk.VerticalBlockSample method_27205(yarnwrap.world.gen.chunk.ChunkGenerator pos) { return new yarnwrap.world.gen.chunk.VerticalBlockSample(wrapperContained.method_27205(pos.wrapperContained)); }
 // public boolean isColdAt(yarnwrap.util.math.BlockPos pos,yarnwrap.registry.entry.RegistryEntry biome) { return wrapperContained.isColdAt(pos.wrapperContained,biome.wrapperContained); }
 // public int choosePlacementHeight(yarnwrap.util.math.random.Random random,int min,int max) { return wrapperContained.choosePlacementHeight(random.wrapperContained,min,max); }
 // public int getFloorHeight(yarnwrap.util.math.random.Random random,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,Object verticalPlacement,boolean airPocket,int height,int blockCountY,yarnwrap.util.math.BlockBox box,yarnwrap.world.HeightLimitView world,yarnwrap.world.gen.noise.NoiseConfig noiseConfig) { return wrapperContained.getFloorHeight(random.wrapperContained,chunkGenerator.wrapperContained,verticalPlacement,airPocket,height,blockCountY,box.wrapperContained,world.wrapperContained,noiseConfig.wrapperContained); }
 // public boolean shouldPlaceAirPocket(yarnwrap.util.math.random.ChunkRandom random,float probability) { return wrapperContained.shouldPlaceAirPocket(random.wrapperContained,probability); }
+// public void method_41683(Object collector) { wrapperContained.method_41683(collector); }
+// public java.util.List method_41684(yarnwrap.world.gen.structure.RuinedPortalStructure structure) { return wrapperContained.method_41684(structure.wrapperContained); }
 
 }

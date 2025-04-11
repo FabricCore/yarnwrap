@@ -7,5 +7,6 @@ public class GameEventRenamesFix { public net.minecraft.datafixer.fix.GameEventR
 // // public void typeReference(Object value) { wrapperContained.typeReference = value; }
 // public java.util.function.UnaryOperator renamer() { return wrapperContained.renamer; }
 // public void renamer(java.util.function.UnaryOperator value) { wrapperContained.renamer = value; }
+// public GameEventRenamesFix(com.mojang.datafixers.schemas.Schema outputSchema,java.lang.String name,Object typeReference,java.util.function.UnaryOperator renamer) { this.wrapperContained = new net.minecraft.datafixer.fix.GameEventRenamesFix(outputSchema,name,typeReference,renamer); }
 
 }

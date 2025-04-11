@@ -17,6 +17,8 @@ public class ExperienceOrbEntity { public net.minecraft.entity.ExperienceOrbEnti
 // public void target(yarnwrap.entity.player.PlayerEntity value) { wrapperContained.target = value.wrapperContained; }
 // public int orbAge() { return wrapperContained.orbAge; }
 // public void orbAge(int value) { wrapperContained.orbAge = value; }
+public ExperienceOrbEntity(yarnwrap.world.World world,double x,double y,double z,int amount) { this.wrapperContained = new net.minecraft.entity.ExperienceOrbEntity(world.wrapperContained,x,y,z,amount); }
+// public boolean method_31492(int orb) { return wrapperContained.method_31492(orb); }
 public void spawn(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,int amount) { wrapperContained.spawn(world.wrapperContained,pos.wrapperContained,amount); }
 // public boolean isMergeable(yarnwrap.entity.ExperienceOrbEntity other) { return wrapperContained.isMergeable(other.wrapperContained); }
 // public boolean isMergeable(yarnwrap.entity.ExperienceOrbEntity orb,int seed,int amount) { return wrapperContained.isMergeable(orb.wrapperContained,seed,amount); }

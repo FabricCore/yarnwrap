@@ -11,6 +11,8 @@ public com.mojang.brigadier.exceptions.SimpleCommandExceptionType MISSING_BLOCK_
 // public void MISSING_BLOCK_POSITION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.MISSING_BLOCK_POSITION = value; }
 // public char TILDE() { return wrapperContained.TILDE; }
 // public void TILDE(char value) { wrapperContained.TILDE = value; }
+public CoordinateArgument(boolean relative,double value) { this.wrapperContained = new net.minecraft.command.argument.CoordinateArgument(relative,value); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public yarnwrap.command.argument.CoordinateArgument parse(com.mojang.brigadier.StringReader reader) { return new yarnwrap.command.argument.CoordinateArgument(wrapperContained.parse(reader)); }
 public double toAbsoluteCoordinate(double offset) { return wrapperContained.toAbsoluteCoordinate(offset); }
 public boolean isRelative() { return wrapperContained.isRelative(); }

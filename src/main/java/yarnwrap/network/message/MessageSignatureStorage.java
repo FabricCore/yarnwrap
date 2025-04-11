@@ -7,6 +7,7 @@ public class MessageSignatureStorage { public net.minecraft.network.message.Mess
 // public void signatures(net.minecraft.network.message.MessageSignatureData[] value) { wrapperContained.signatures = value; }
 public int MISSING() { return wrapperContained.MISSING; }
 // public void MISSING(int value) { wrapperContained.MISSING = value; }
+public MessageSignatureStorage(int maxEntries) { this.wrapperContained = new net.minecraft.network.message.MessageSignatureStorage(maxEntries); }
 public yarnwrap.network.message.MessageSignatureStorage create() { return new yarnwrap.network.message.MessageSignatureStorage(wrapperContained.create()); }
 // public void addFrom(java.util.ArrayDeque deque) { wrapperContained.addFrom(deque); }
 // public void addFrom(java.util.List signatures) { wrapperContained.addFrom(signatures); }

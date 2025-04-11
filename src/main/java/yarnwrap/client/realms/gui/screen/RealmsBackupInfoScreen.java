@@ -13,8 +13,11 @@ public class RealmsBackupInfoScreen { public net.minecraft.client.realms.gui.scr
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+public RealmsBackupInfoScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.realms.dto.Backup backup) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsBackupInfoScreen(parent.wrapperContained,backup.wrapperContained); }
 // public yarnwrap.text.Text gameDifficultyMetadata(java.lang.String value) { return new yarnwrap.text.Text(wrapperContained.gameDifficultyMetadata(value)); }
 // public yarnwrap.text.Text checkForSpecificMetadata(java.lang.String key,java.lang.String value) { return new yarnwrap.text.Text(wrapperContained.checkForSpecificMetadata(key,value)); }
 // public yarnwrap.text.Text gameModeMetadata(java.lang.String value) { return new yarnwrap.text.Text(wrapperContained.gameModeMetadata(value)); }
+// public void method_25105(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25105(button.wrapperContained); }
+// public void method_53513(yarnwrap.client.realms.gui.screen.RealmsBackupInfoScreen child) { wrapperContained.method_53513(child.wrapperContained); }
 
 }

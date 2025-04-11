@@ -13,6 +13,7 @@ public class Path { public net.minecraft.entity.ai.pathing.Path wrapperContained
 // public void nodes(java.util.List value) { wrapperContained.nodes = value; }
 // public int currentNodeIndex() { return wrapperContained.currentNodeIndex; }
 // public void currentNodeIndex(int value) { wrapperContained.currentNodeIndex = value; }
+public Path(java.util.List nodes,yarnwrap.util.math.BlockPos target,boolean reachesTarget) { this.wrapperContained = new net.minecraft.entity.ai.pathing.Path(nodes,target.wrapperContained,reachesTarget); }
 // public boolean reachesTarget() { return wrapperContained.reachesTarget(); }
 public float getManhattanDistanceFromTarget() { return wrapperContained.getManhattanDistanceFromTarget(); }
 public yarnwrap.entity.ai.pathing.PathNode getCurrentNode() { return new yarnwrap.entity.ai.pathing.PathNode(wrapperContained.getCurrentNode()); }
@@ -23,6 +24,7 @@ public yarnwrap.util.math.BlockPos getCurrentNodePos() { return new yarnwrap.uti
 public void setNode(int index,yarnwrap.entity.ai.pathing.PathNode node) { wrapperContained.setNode(index,node.wrapperContained); }
 public yarnwrap.entity.ai.pathing.Path fromBuf(yarnwrap.network.PacketByteBuf buf) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.fromBuf(buf.wrapperContained)); }
 public void toBuf(yarnwrap.network.PacketByteBuf buf) { wrapperContained.toBuf(buf.wrapperContained); }
+// public void method_35499(yarnwrap.network.PacketByteBuf buf,yarnwrap.entity.ai.pathing.PathNode node) { wrapperContained.method_35499(buf.wrapperContained,node.wrapperContained); }
 // public void setDebugInfo(net.minecraft.entity.ai.pathing.PathNode[] debugNodes,net.minecraft.entity.ai.pathing.PathNode[] debugSecondNodes,java.util.Set debugTargetNodes) { wrapperContained.setDebugInfo(debugNodes,debugSecondNodes,debugTargetNodes); }
 public void setLength(int length) { wrapperContained.setLength(length); }
 public int getLength() { return wrapperContained.getLength(); }

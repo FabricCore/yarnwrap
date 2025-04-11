@@ -5,6 +5,7 @@ public int MAX_BEAM_HEIGHT() { return wrapperContained.MAX_BEAM_HEIGHT; }
 // public void MAX_BEAM_HEIGHT(int value) { wrapperContained.MAX_BEAM_HEIGHT = value; }
 public yarnwrap.util.Identifier BEAM_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.BEAM_TEXTURE); }
 // public void BEAM_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.BEAM_TEXTURE = value.wrapperContained; }
+// public BeaconBlockEntityRenderer(Object ctx) { this.wrapperContained = new net.minecraft.client.render.block.entity.BeaconBlockEntityRenderer(ctx); }
 // public void renderBeamFace(Object matrix,yarnwrap.client.render.VertexConsumer vertices,int color,int yOffset,int height,float x1,float z1,float x2,float z2,float u1,float u2,float v1,float v2) { wrapperContained.renderBeamFace(matrix,vertices.wrapperContained,color,yOffset,height,x1,z1,x2,z2,u1,u2,v1,v2); }
 // public void renderBeamLayer(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,int color,int yOffset,int height,float x1,float z1,float x2,float z2,float x3,float z3,float x4,float z4,float u1,float u2,float v1,float v2) { wrapperContained.renderBeamLayer(matrices.wrapperContained,vertices.wrapperContained,color,yOffset,height,x1,z1,x2,z2,x3,z3,x4,z4,u1,u2,v1,v2); }
 // public void renderBeamVertex(Object matrix,yarnwrap.client.render.VertexConsumer vertices,int color,int y,float x,float z,float u,float v) { wrapperContained.renderBeamVertex(matrix,vertices.wrapperContained,color,y,x,z,u,v); }

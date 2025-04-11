@@ -25,6 +25,7 @@ public yarnwrap.util.Identifier BASE_ATTACK_DAMAGE_MODIFIER_ID() { return new ya
 // public void recipeRemainder(yarnwrap.item.Item value) { wrapperContained.recipeRemainder = value.wrapperContained; }
 // public java.lang.String translationKey() { return wrapperContained.translationKey; }
 // public void translationKey(java.lang.String value) { wrapperContained.translationKey = value; }
+// public Item(Object settings) { this.wrapperContained = new net.minecraft.item.Item(settings); }
 public boolean isNetworkSynced() { return wrapperContained.isNetworkSynced(); }
 public yarnwrap.sound.SoundEvent getEatSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getEatSound()); }
 public yarnwrap.sound.SoundEvent getDrinkSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getDrinkSound()); }

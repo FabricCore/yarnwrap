@@ -29,10 +29,14 @@ public class TelemetryInfoScreen { public net.minecraft.client.gui.screen.option
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.MultilineTextWidget textWidget() { return new yarnwrap.client.gui.widget.MultilineTextWidget(wrapperContained.textWidget); }
 // public void textWidget(yarnwrap.client.gui.widget.MultilineTextWidget value) { wrapperContained.textWidget = value.wrapperContained; }
+public TelemetryInfoScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.option.GameOptions options) { this.wrapperContained = new net.minecraft.client.gui.screen.option.TelemetryInfoScreen(parent.wrapperContained,options.wrapperContained); }
+// public void method_47646(double scroll) { wrapperContained.method_47646(scroll); }
 // public void openFeedbackPage(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.openFeedbackPage(button.wrapperContained); }
 // public void openLogDirectory(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.openLogDirectory(button.wrapperContained); }
+// public void method_48286(yarnwrap.client.gui.screen.option.TelemetryInfoScreen child) { wrapperContained.method_48286(child.wrapperContained); }
 // public void openPrivacyStatementPage(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.openPrivacyStatementPage(button.wrapperContained); }
 // public yarnwrap.client.gui.widget.ClickableWidget createOptInCheckbox() { return new yarnwrap.client.gui.widget.ClickableWidget(wrapperContained.createOptInCheckbox()); }
 // public void updateOptIn(yarnwrap.client.gui.widget.ClickableWidget checkbox,boolean checked) { wrapperContained.updateOptIn(checkbox.wrapperContained,checked); }
+// public void method_57768(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_57768(button.wrapperContained); }
 
 }

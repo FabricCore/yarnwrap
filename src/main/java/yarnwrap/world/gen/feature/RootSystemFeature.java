@@ -1,6 +1,7 @@
 package yarnwrap.world.gen.feature;
 public class RootSystemFeature { public net.minecraft.world.gen.feature.RootSystemFeature wrapperContained; public RootSystemFeature(net.minecraft.world.gen.feature.RootSystemFeature wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public boolean method_34307(yarnwrap.world.gen.feature.RootSystemFeatureConfig state) { return wrapperContained.method_34307(state.wrapperContained); }
 // public boolean generateTreeAndRoots(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.chunk.ChunkGenerator generator,yarnwrap.world.gen.feature.RootSystemFeatureConfig config,yarnwrap.util.math.random.Random random,Object mutablePos,yarnwrap.util.math.BlockPos pos) { return wrapperContained.generateTreeAndRoots(world.wrapperContained,generator.wrapperContained,config.wrapperContained,random.wrapperContained,mutablePos,pos.wrapperContained); }
 // public boolean hasSpaceForTree(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.feature.RootSystemFeatureConfig config,yarnwrap.util.math.BlockPos pos) { return wrapperContained.hasSpaceForTree(world.wrapperContained,config.wrapperContained,pos.wrapperContained); }
 // public void generateRoots(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.feature.RootSystemFeatureConfig config,yarnwrap.util.math.random.Random random,int x,int z,Object mutablePos) { wrapperContained.generateRoots(world.wrapperContained,config.wrapperContained,random.wrapperContained,x,z,mutablePos); }

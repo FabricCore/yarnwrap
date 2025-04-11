@@ -13,6 +13,7 @@ public java.util.Optional getKey() { return wrapperContained.getKey(); }
 public Object getType() { return wrapperContained.getType(); }
 public boolean ownerEquals(yarnwrap.registry.entry.RegistryEntryOwner owner) { return wrapperContained.ownerEquals(owner.wrapperContained); }
 public boolean matches(yarnwrap.registry.entry.RegistryEntry entry) { return wrapperContained.matches(entry.wrapperContained); }
+// public java.lang.String method_55839(yarnwrap.registry.RegistryKey key) { return wrapperContained.method_55839(key.wrapperContained); }
 public java.lang.String getIdAsString() { return wrapperContained.getIdAsString(); }
 
 }

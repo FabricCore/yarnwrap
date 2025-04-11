@@ -17,6 +17,7 @@ public java.lang.String FUSE_NBT_KEY() { return wrapperContained.FUSE_NBT_KEY; }
 // public void FUSE(yarnwrap.entity.data.TrackedData value) { wrapperContained.FUSE = value.wrapperContained; }
 // public yarnwrap.entity.LivingEntity causingEntity() { return new yarnwrap.entity.LivingEntity(wrapperContained.causingEntity); }
 // public void causingEntity(yarnwrap.entity.LivingEntity value) { wrapperContained.causingEntity = value.wrapperContained; }
+public TntEntity(yarnwrap.world.World world,double x,double y,double z,yarnwrap.entity.LivingEntity igniter) { this.wrapperContained = new net.minecraft.entity.TntEntity(world.wrapperContained,x,y,z,igniter.wrapperContained); }
 public void setBlockState(yarnwrap.block.BlockState state) { wrapperContained.setBlockState(state.wrapperContained); }
 public yarnwrap.block.BlockState getBlockState() { return new yarnwrap.block.BlockState(wrapperContained.getBlockState()); }
 // public void setTeleported(boolean teleported) { wrapperContained.setTeleported(teleported); }

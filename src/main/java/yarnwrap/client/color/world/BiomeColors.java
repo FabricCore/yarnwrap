@@ -7,6 +7,8 @@ public yarnwrap.world.biome.ColorResolver GRASS_COLOR() { return new yarnwrap.wo
 // public void GRASS_COLOR(yarnwrap.world.biome.ColorResolver value) { wrapperContained.GRASS_COLOR = value.wrapperContained; }
 public yarnwrap.world.biome.ColorResolver WATER_COLOR() { return new yarnwrap.world.biome.ColorResolver(wrapperContained.WATER_COLOR); }
 // public void WATER_COLOR(yarnwrap.world.biome.ColorResolver value) { wrapperContained.WATER_COLOR = value.wrapperContained; }
+// public int method_23790(yarnwrap.world.biome.Biome biome,double x,double z) { return wrapperContained.method_23790(biome.wrapperContained,x,z); }
+// public int method_23791(yarnwrap.world.biome.Biome biome,double x,double z) { return wrapperContained.method_23791(biome.wrapperContained,x,z); }
 public int getWaterColor(yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getWaterColor(world.wrapperContained,pos.wrapperContained); }
 public int getGrassColor(yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getGrassColor(world.wrapperContained,pos.wrapperContained); }
 // public int getColor(yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.biome.ColorResolver resolver) { return wrapperContained.getColor(world.wrapperContained,pos.wrapperContained,resolver.wrapperContained); }

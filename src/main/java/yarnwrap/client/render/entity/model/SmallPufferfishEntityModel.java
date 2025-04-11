@@ -7,6 +7,7 @@ public class SmallPufferfishEntityModel { public net.minecraft.client.render.ent
 // public void leftFin(yarnwrap.client.model.ModelPart value) { wrapperContained.leftFin = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart rightFin() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightFin); }
 // public void rightFin(yarnwrap.client.model.ModelPart value) { wrapperContained.rightFin = value.wrapperContained; }
+public SmallPufferfishEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.SmallPufferfishEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

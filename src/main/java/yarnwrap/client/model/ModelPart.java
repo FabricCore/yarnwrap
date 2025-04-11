@@ -29,6 +29,7 @@ public void zScale(float value) { wrapperContained.zScale = value; }
 // public void defaultTransform(yarnwrap.client.model.ModelTransform value) { wrapperContained.defaultTransform = value.wrapperContained; }
 public boolean hidden() { return wrapperContained.hidden; }
 public void hidden(boolean value) { wrapperContained.hidden = value; }
+public ModelPart(java.util.List cuboids,java.util.Map children) { this.wrapperContained = new net.minecraft.client.model.ModelPart(cuboids,children); }
 public void copyTransform(yarnwrap.client.model.ModelPart part) { wrapperContained.copyTransform(part.wrapperContained); }
 public void render(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,int light,int overlay) { wrapperContained.render(matrices.wrapperContained,vertices.wrapperContained,light,overlay); }
 public void render(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,int light,int overlay,int color) { wrapperContained.render(matrices.wrapperContained,vertices.wrapperContained,light,overlay,color); }
@@ -44,6 +45,7 @@ public java.util.stream.Stream traverse() { return wrapperContained.traverse(); 
 public void setAngles(float pitch,float yaw,float roll) { wrapperContained.setAngles(pitch,yaw,roll); }
 // public void forEachCuboid(yarnwrap.client.util.math.MatrixStack matrices,Object consumer) { wrapperContained.forEachCuboid(matrices.wrapperContained,consumer); }
 // public void forEachCuboid(yarnwrap.client.util.math.MatrixStack matrices,Object consumer,java.lang.String path) { wrapperContained.forEachCuboid(matrices.wrapperContained,consumer,path); }
+// public void method_35747(yarnwrap.client.util.math.MatrixStack name,Object part) { wrapperContained.method_35747(name.wrapperContained,part); }
 public void setDefaultTransform(yarnwrap.client.model.ModelTransform transform) { wrapperContained.setDefaultTransform(transform.wrapperContained); }
 public boolean hasChild(java.lang.String child) { return wrapperContained.hasChild(child); }
 public void translate(org.joml.Vector3f vec3f) { wrapperContained.translate(vec3f); }

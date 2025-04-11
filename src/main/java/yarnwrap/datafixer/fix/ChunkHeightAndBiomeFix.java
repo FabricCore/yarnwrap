@@ -21,19 +21,37 @@ public java.lang.String CONTEXT() { return wrapperContained.CONTEXT; }
 // public void STATUSES_TO_SKIP_UPDATE(java.util.Set value) { wrapperContained.STATUSES_TO_SKIP_UPDATE = value; }
 // public java.util.Set SURFACE_BLOCKS() { return wrapperContained.SURFACE_BLOCKS; }
 // public void SURFACE_BLOCKS(java.util.Set value) { wrapperContained.SURFACE_BLOCKS = value; }
+public ChunkHeightAndBiomeFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.ChunkHeightAndBiomeFix(outputSchema); }
 public int ceilLog2(int value) { return wrapperContained.ceilLog2(value); }
+// public com.mojang.datafixers.util.Pair method_38794(int mask) { return wrapperContained.method_38794(mask); }
+// public long method_38795(long entry) { return wrapperContained.method_38795(entry); }
+// public com.mojang.datafixers.Typed method_38796(com.mojang.datafixers.OpticFinder chunk) { return wrapperContained.method_38796(chunk); }
+// public com.mojang.datafixers.Typed method_38797(com.mojang.datafixers.Typed level) { return wrapperContained.method_38797(level); }
 // public com.mojang.serialization.Dynamic fixHeightmaps(com.mojang.serialization.Dynamic level) { return wrapperContained.fixHeightmaps(level); }
 // public com.mojang.serialization.Dynamic fixCarvingMasks(com.mojang.serialization.Dynamic level,int sectionsPerChunk,int oldBottomSectionY) { return wrapperContained.fixCarvingMasks(level,sectionsPerChunk,oldBottomSectionY); }
+// public com.mojang.datafixers.Typed method_38800(java.util.Set sections) { return wrapperContained.method_38800(sections); }
 // public com.mojang.serialization.Dynamic fixPaletteWithData(com.mojang.serialization.Dynamic palette,com.mojang.serialization.Dynamic data) { return wrapperContained.fixPaletteWithData(palette,data); }
 // public com.mojang.serialization.Dynamic fixBiomes(com.mojang.serialization.Dynamic level,it.unimi.dsi.fastutil.ints.Int2IntFunction biomeGetter) { return wrapperContained.fixBiomes(level,biomeGetter); }
+// public com.mojang.serialization.Dynamic method_38804(com.mojang.serialization.Dynamic rawBiomeId) { return wrapperContained.method_38804(rawBiomeId); }
 // public com.mojang.serialization.Dynamic fixChunkSectionList(com.mojang.serialization.Dynamic level,java.lang.String key) { return wrapperContained.fixChunkSectionList(level,key); }
 // public com.mojang.serialization.Dynamic[] fixBiomes(com.mojang.serialization.Dynamic level,boolean overworld,int heightAlreadyUpdated) { return wrapperContained.fixBiomes(level,overworld,heightAlreadyUpdated); }
 // public com.mojang.serialization.Dynamic fixLevel(com.mojang.serialization.Dynamic level,boolean overworld,boolean heightAlreadyUpdated,boolean atNoiseStatus) { return wrapperContained.fixLevel(level,overworld,heightAlreadyUpdated,atNoiseStatus); }
+// public com.mojang.serialization.Dynamic method_38808(boolean level2) { return wrapperContained.method_38808(level2); }
+// public int method_38809(int sectionY) { return wrapperContained.method_38809(sectionY); }
+// public int method_38810(int sectionY) { return wrapperContained.method_38810(sectionY); }
 // public com.mojang.serialization.Dynamic fixHeightmap(com.mojang.serialization.Dynamic heightmap) { return wrapperContained.fixHeightmap(heightmap); }
 // public com.mojang.serialization.Dynamic fixPalette() { return wrapperContained.fixPalette(); }
+// public int method_38814(int sectionY) { return wrapperContained.method_38814(sectionY); }
+// public int method_38815(int sectionY) { return wrapperContained.method_38815(sectionY); }
 // public com.mojang.serialization.Dynamic fixPalette(com.mojang.serialization.Dynamic palette) { return wrapperContained.fixPalette(palette); }
+// public com.mojang.serialization.Dynamic method_38818(com.mojang.serialization.Dynamic heightmaps) { return wrapperContained.method_38818(heightmaps); }
 // public com.mojang.serialization.Dynamic fixStatus(com.mojang.serialization.Dynamic level,java.util.Set blocks) { return wrapperContained.fixStatus(level,blocks); }
+// public com.mojang.serialization.Dynamic method_39518(java.util.Set status) { return wrapperContained.method_39518(status); }
 // public int getClamped(int is,int index) { return wrapperContained.getClamped(is,index); }
 // public com.mojang.serialization.Dynamic fixUpgradeData(com.mojang.serialization.Dynamic upgradeData) { return wrapperContained.fixUpgradeData(upgradeData); }
+// public void method_39755(java.util.Map key,com.mojang.serialization.Dynamic value) { wrapperContained.method_39755(key,value); }
+// public void method_39756(java.util.Map index) { wrapperContained.method_39756(index); }
+// public void method_39757(java.util.Map indicesMap) { wrapperContained.method_39757(indicesMap); }
+// public com.mojang.serialization.Dynamic method_39758(com.mojang.serialization.Dynamic indices) { return wrapperContained.method_39758(indices); }
 
 }

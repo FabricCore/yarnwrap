@@ -15,8 +15,12 @@ public class BitSetVoxelSet { public net.minecraft.util.shape.BitSetVoxelSet wra
 // public void storage(java.util.BitSet value) { wrapperContained.storage = value; }
 // public int maxZ() { return wrapperContained.maxZ; }
 // public void maxZ(int value) { wrapperContained.maxZ = value; }
+public BitSetVoxelSet(yarnwrap.util.shape.VoxelSet other) { this.wrapperContained = new net.minecraft.util.shape.BitSetVoxelSet(other.wrapperContained); }
+// public boolean method_1038(yarnwrap.util.function.BooleanBiFunction z1,yarnwrap.util.shape.VoxelSet z2,int zIndex) { return wrapperContained.method_1038(z1.wrapperContained,z2.wrapperContained,zIndex); }
 // public int getIndex(int x,int y,int z) { return wrapperContained.getIndex(x,y,z); }
 // // // public yarnwrap.util.shape.BitSetVoxelSet combine(yarnwrap.util.shape.VoxelSet first,yarnwrap.util.shape.VoxelSet second,yarnwrap.util.shape.PairList xPoints,yarnwrap.util.shape.PairList yPoints,yarnwrap.util.shape.PairList zPoints,yarnwrap.util.function.BooleanBiFunction function) { return new yarnwrap.util.shape.BitSetVoxelSet(wrapperContained.combine(first.wrapperContained,second.wrapperContained,xPoints.wrapperContained,yPoints.wrapperContained,zPoints.wrapperContained,function.wrapperContained)); }
+// // public boolean method_1041(yarnwrap.util.shape.PairList x1,yarnwrap.util.shape.PairList x2,yarnwrap.util.function.BooleanBiFunction xIndex) { return wrapperContained.method_1041(x1.wrapperContained,x2.wrapperContained,xIndex.wrapperContained); }
+// public boolean method_1042(yarnwrap.util.shape.PairList y1,yarnwrap.util.function.BooleanBiFunction y2,yarnwrap.util.shape.VoxelSet yIndex) { return wrapperContained.method_1042(y1.wrapperContained,y2.wrapperContained,yIndex.wrapperContained); }
 // public boolean isColumnFull(int z1,int z2,int x,int y) { return wrapperContained.isColumnFull(z1,z2,x,y); }
 // public boolean isXzSquareFull(int x1,int x2,int z1,int z2,int y) { return wrapperContained.isXzSquareFull(x1,x2,z1,z2,y); }
 public yarnwrap.util.shape.BitSetVoxelSet create(int sizeX,int sizeY,int sizeZ,int minX,int minY,int minZ,int maxX,int maxY,int maxZ) { return new yarnwrap.util.shape.BitSetVoxelSet(wrapperContained.create(sizeX,sizeY,sizeZ,minX,minY,minZ,maxX,maxY,maxZ)); }

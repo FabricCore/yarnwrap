@@ -5,6 +5,7 @@ public class ModelOverride { public net.minecraft.client.render.model.json.Model
 // public void modelId(yarnwrap.util.Identifier value) { wrapperContained.modelId = value.wrapperContained; }
 // public java.util.List conditions() { return wrapperContained.conditions; }
 // public void conditions(java.util.List value) { wrapperContained.conditions = value; }
+public ModelOverride(yarnwrap.util.Identifier modelId,java.util.List conditions) { this.wrapperContained = new net.minecraft.client.render.model.json.ModelOverride(modelId.wrapperContained,conditions); }
 public java.util.stream.Stream streamConditions() { return wrapperContained.streamConditions(); }
 public yarnwrap.util.Identifier getModelId() { return new yarnwrap.util.Identifier(wrapperContained.getModelId()); }
 

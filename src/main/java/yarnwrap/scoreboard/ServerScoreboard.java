@@ -7,6 +7,7 @@ public class ServerScoreboard { public net.minecraft.scoreboard.ServerScoreboard
 // public void objectives(java.util.Set value) { wrapperContained.objectives = value; }
 // public yarnwrap.server.MinecraftServer server() { return new yarnwrap.server.MinecraftServer(wrapperContained.server); }
 // public void server(yarnwrap.server.MinecraftServer value) { wrapperContained.server = value.wrapperContained; }
+public ServerScoreboard(yarnwrap.server.MinecraftServer server) { this.wrapperContained = new net.minecraft.scoreboard.ServerScoreboard(server.wrapperContained); }
 public void addUpdateListener(java.lang.Runnable listener) { wrapperContained.addUpdateListener(listener); }
 public int getSlot(yarnwrap.scoreboard.ScoreboardObjective objective) { return wrapperContained.getSlot(objective.wrapperContained); }
 public java.util.List createChangePackets(yarnwrap.scoreboard.ScoreboardObjective objective) { return wrapperContained.createChangePackets(objective.wrapperContained); }

@@ -53,13 +53,17 @@ public class SocialInteractionsScreen { public net.minecraft.client.gui.screen.m
 // public void parent(yarnwrap.client.gui.screen.Screen value) { wrapperContained.parent = value.wrapperContained; }
 // public yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(wrapperContained.TITLE); }
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
+public SocialInteractionsScreen(yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.gui.screen.multiplayer.SocialInteractionsScreen(parent.wrapperContained); }
 // public void updateServerLabel(yarnwrap.client.MinecraftClient client) { wrapperContained.updateServerLabel(client.wrapperContained); }
+// public void method_31351(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_31351(button.wrapperContained); }
 // public void setCurrentTab(Object currentTab) { wrapperContained.setCurrentTab(currentTab); }
 public void setPlayerOnline(yarnwrap.client.network.PlayerListEntry player) { wrapperContained.setPlayerOnline(player.wrapperContained); }
 public void setPlayerOffline(java.util.UUID uuid) { wrapperContained.setPlayerOffline(uuid); }
+// public void method_31356(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_31356(button.wrapperContained); }
 // public void onSearchChange(java.lang.String currentSearch) { wrapperContained.onSearchChange(currentSearch); }
 // public int getScreenHeight() { return wrapperContained.getScreenHeight(); }
 // public int getPlayerListBottom() { return wrapperContained.getPlayerListBottom(); }
 // public int getSearchBoxX() { return wrapperContained.getSearchBoxX(); }
+// public void method_31396(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_31396(button.wrapperContained); }
 
 }

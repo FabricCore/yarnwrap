@@ -7,6 +7,7 @@ public class EulaReader { public net.minecraft.server.dedicated.EulaReader wrapp
 // public void eulaFile(java.nio.file.Path value) { wrapperContained.eulaFile = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public EulaReader(java.nio.file.Path eulaFile) { this.wrapperContained = new net.minecraft.server.dedicated.EulaReader(eulaFile); }
 public boolean isEulaAgreedTo() { return wrapperContained.isEulaAgreedTo(); }
 // public boolean checkEulaAgreement() { return wrapperContained.checkEulaAgreement(); }
 // public void createEulaFile() { wrapperContained.createEulaFile(); }

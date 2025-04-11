@@ -5,6 +5,10 @@ public class FillPlayerHeadLootFunction { public net.minecraft.loot.function.Fil
 // // public void entity(Object value) { wrapperContained.entity = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public FillPlayerHeadLootFunction(java.util.List conditions,Object entity) { this.wrapperContained = new net.minecraft.loot.function.FillPlayerHeadLootFunction(conditions,entity); }
 // public Object builder(Object target) { return wrapperContained.builder(target); }
+// public yarnwrap.loot.function.LootFunction method_35523(Object conditions) { return new yarnwrap.loot.function.LootFunction(wrapperContained.method_35523(conditions)); }
+// public Object method_53338(yarnwrap.loot.function.FillPlayerHeadLootFunction function) { return wrapperContained.method_53338(function.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53339(Object instance) { return wrapperContained.method_53339(instance); }
 
 }

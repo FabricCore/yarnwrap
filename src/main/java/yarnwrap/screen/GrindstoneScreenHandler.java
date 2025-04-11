@@ -21,10 +21,16 @@ public int OUTPUT_ID() { return wrapperContained.OUTPUT_ID; }
 // public void HOTBAR_START(int value) { wrapperContained.HOTBAR_START = value; }
 // public int HOTBAR_END() { return wrapperContained.HOTBAR_END; }
 // public void HOTBAR_END(int value) { wrapperContained.HOTBAR_END = value; }
+public GrindstoneScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.GrindstoneScreenHandler(syncId,playerInventory.wrapperContained); }
+public GrindstoneScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.GrindstoneScreenHandler(syncId,playerInventory.wrapperContained,context.wrapperContained); }
 // public yarnwrap.item.ItemStack grind(yarnwrap.item.ItemStack item) { return new yarnwrap.item.ItemStack(wrapperContained.grind(item.wrapperContained)); }
 // public void updateResult() { wrapperContained.updateResult(); }
+// public void method_17415(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { wrapperContained.method_17415(world.wrapperContained,pos.wrapperContained); }
 // public void transferEnchantments(yarnwrap.item.ItemStack target,yarnwrap.item.ItemStack source) { wrapperContained.transferEnchantments(target.wrapperContained,source.wrapperContained); }
 // public yarnwrap.item.ItemStack getOutputStack(yarnwrap.item.ItemStack firstInput,yarnwrap.item.ItemStack secondInput) { return new yarnwrap.item.ItemStack(wrapperContained.getOutputStack(firstInput.wrapperContained,secondInput.wrapperContained)); }
+// public void method_58071(yarnwrap.item.ItemStack components) { wrapperContained.method_58071(components.wrapperContained); }
+// public void method_58072(Object components) { wrapperContained.method_58072(components); }
+// public boolean method_58073(yarnwrap.registry.entry.RegistryEntry enchantment) { return wrapperContained.method_58073(enchantment.wrapperContained); }
 // public yarnwrap.item.ItemStack combineItems(yarnwrap.item.ItemStack firstInput,yarnwrap.item.ItemStack secondInput) { return new yarnwrap.item.ItemStack(wrapperContained.combineItems(firstInput.wrapperContained,secondInput.wrapperContained)); }
 
 }

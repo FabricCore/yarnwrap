@@ -31,6 +31,7 @@ public class GuardianEntityModel { public net.minecraft.client.render.entity.mod
 // public void spikes(net.minecraft.client.model.ModelPart[] value) { wrapperContained.spikes = value; }
 // public yarnwrap.client.model.ModelPart eye() { return new yarnwrap.client.model.ModelPart(wrapperContained.eye); }
 // public void eye(yarnwrap.client.model.ModelPart value) { wrapperContained.eye = value.wrapperContained; }
+public GuardianEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.GuardianEntityModel(root.wrapperContained); }
 // public void updateSpikeExtensions(float animationProgress,float extension) { wrapperContained.updateSpikeExtensions(animationProgress,extension); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 // public java.lang.String getSpikeName(int index) { return wrapperContained.getSpikeName(index); }

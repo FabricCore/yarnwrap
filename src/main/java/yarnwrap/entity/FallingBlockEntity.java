@@ -23,7 +23,9 @@ public yarnwrap.nbt.NbtCompound blockEntityData() { return new yarnwrap.nbt.NbtC
 public void blockEntityData(yarnwrap.nbt.NbtCompound value) { wrapperContained.blockEntityData = value.wrapperContained; }
 // public yarnwrap.entity.data.TrackedData BLOCK_POS() { return new yarnwrap.entity.data.TrackedData(wrapperContained.BLOCK_POS); }
 // public void BLOCK_POS(yarnwrap.entity.data.TrackedData value) { wrapperContained.BLOCK_POS = value.wrapperContained; }
+// public FallingBlockEntity(yarnwrap.world.World world,double x,double y,double z,yarnwrap.block.BlockState block) { this.wrapperContained = new net.minecraft.entity.FallingBlockEntity(world.wrapperContained,x,y,z,block.wrapperContained); }
 public void onDestroyedOnLanding(yarnwrap.block.Block block,yarnwrap.util.math.BlockPos pos) { wrapperContained.onDestroyedOnLanding(block.wrapperContained,pos.wrapperContained); }
+// public void method_32879(yarnwrap.entity.damage.DamageSource entity) { wrapperContained.method_32879(entity.wrapperContained); }
 public yarnwrap.entity.FallingBlockEntity spawnFromBlock(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { return new yarnwrap.entity.FallingBlockEntity(wrapperContained.spawnFromBlock(world.wrapperContained,pos.wrapperContained,state.wrapperContained)); }
 public void setDestroyedOnLanding() { wrapperContained.setDestroyedOnLanding(); }
 public yarnwrap.block.BlockState getBlockState() { return new yarnwrap.block.BlockState(wrapperContained.getBlockState()); }

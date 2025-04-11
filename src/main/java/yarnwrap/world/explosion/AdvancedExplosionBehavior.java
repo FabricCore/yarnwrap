@@ -9,5 +9,6 @@ public class AdvancedExplosionBehavior { public net.minecraft.world.explosion.Ad
 // public void knockbackModifier(java.util.Optional value) { wrapperContained.knockbackModifier = value; }
 // public java.util.Optional immuneBlocks() { return wrapperContained.immuneBlocks; }
 // public void immuneBlocks(java.util.Optional value) { wrapperContained.immuneBlocks = value; }
+public AdvancedExplosionBehavior(boolean destroyBlocks,boolean damageEntities,java.util.Optional knockbackModifier,java.util.Optional immuneBlocks) { this.wrapperContained = new net.minecraft.world.explosion.AdvancedExplosionBehavior(destroyBlocks,damageEntities,knockbackModifier,immuneBlocks); }
 
 }

@@ -17,6 +17,7 @@ public double originX() { return wrapperContained.originX; }
 // public void UNSKEW_FACTOR_2D(double value) { wrapperContained.UNSKEW_FACTOR_2D = value; }
 // public double SKEW_FACTOR_2D() { return wrapperContained.SKEW_FACTOR_2D; }
 // public void SKEW_FACTOR_2D(double value) { wrapperContained.SKEW_FACTOR_2D = value; }
+public SimplexNoiseSampler(yarnwrap.util.math.random.Random random) { this.wrapperContained = new net.minecraft.util.math.noise.SimplexNoiseSampler(random.wrapperContained); }
 // public double dot(int gradient,double x,double y,double z) { return wrapperContained.dot(gradient,x,y,z); }
 public double sample(double x,double y) { return wrapperContained.sample(x,y); }
 // public double grad(int hash,double x,double y,double z,double distance) { return wrapperContained.grad(hash,x,y,z,distance); }

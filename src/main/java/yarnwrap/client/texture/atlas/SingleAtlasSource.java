@@ -9,5 +9,6 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void resource(yarnwrap.util.Identifier value) { wrapperContained.resource = value.wrapperContained; }
 // public java.util.Optional sprite() { return wrapperContained.sprite; }
 // public void sprite(java.util.Optional value) { wrapperContained.sprite = value; }
+public SingleAtlasSource(yarnwrap.util.Identifier resource,java.util.Optional sprite) { this.wrapperContained = new net.minecraft.client.texture.atlas.SingleAtlasSource(resource.wrapperContained,sprite); }
 
 }

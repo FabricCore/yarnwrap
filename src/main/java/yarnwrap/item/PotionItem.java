@@ -3,5 +3,6 @@ public class PotionItem { public net.minecraft.item.PotionItem wrapperContained;
 
 // public int MAX_USE_TIME() { return wrapperContained.MAX_USE_TIME; }
 // public void MAX_USE_TIME(int value) { wrapperContained.MAX_USE_TIME = value; }
+// public void method_57389(yarnwrap.entity.player.PlayerEntity effect) { wrapperContained.method_57389(effect.wrapperContained); }
 
 }

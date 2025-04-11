@@ -13,6 +13,14 @@ public class CompositeTask { public net.minecraft.entity.ai.brain.task.Composite
 // public void requiredMemoryState(java.util.Map value) { wrapperContained.requiredMemoryState = value; }
 // public Object status() { return wrapperContained.status; }
 // // public void status(Object value) { wrapperContained.status = value; }
+// public CompositeTask(java.util.Map requiredMemoryState,java.util.Set memoriesToForgetWhenStopped,Object order,Object runMode,java.util.List tasks) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.CompositeTask(requiredMemoryState,memoriesToForgetWhenStopped,order,runMode,tasks); }
+// public void method_18929(com.mojang.datafixers.util.Pair task) { wrapperContained.method_18929(task); }
+// public void method_46923(yarnwrap.server.world.ServerWorld task) { wrapperContained.method_46923(task.wrapperContained); }
 // public boolean shouldStart(yarnwrap.entity.LivingEntity entity) { return wrapperContained.shouldStart(entity.wrapperContained); }
+// public boolean method_46925(yarnwrap.entity.ai.brain.task.Task task) { return wrapperContained.method_46925(task.wrapperContained); }
+// public void method_46926(yarnwrap.server.world.ServerWorld task) { wrapperContained.method_46926(task.wrapperContained); }
+// public boolean method_46927(yarnwrap.entity.ai.brain.task.Task task) { return wrapperContained.method_46927(task.wrapperContained); }
+// public boolean method_46928(yarnwrap.entity.ai.brain.task.Task task) { return wrapperContained.method_46928(task.wrapperContained); }
+// public boolean method_46929(yarnwrap.entity.ai.brain.task.Task task) { return wrapperContained.method_46929(task.wrapperContained); }
 
 }

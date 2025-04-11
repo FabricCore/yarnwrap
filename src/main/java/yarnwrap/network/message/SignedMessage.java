@@ -23,11 +23,16 @@ public yarnwrap.network.message.SignedMessage withFilterMask(yarnwrap.network.me
 public yarnwrap.network.message.SignedMessage ofUnsigned(java.util.UUID sender,java.lang.String content) { return new yarnwrap.network.message.SignedMessage(wrapperContained.ofUnsigned(sender,content)); }
 public yarnwrap.network.message.SignedMessage withFilterMaskEnabled(boolean enabled) { return new yarnwrap.network.message.SignedMessage(wrapperContained.withFilterMaskEnabled(enabled)); }
 public boolean isFullyFiltered() { return wrapperContained.isFullyFiltered(); }
+// public void method_46289(Object updater) { wrapperContained.method_46289(updater); }
 // public void update(Object updater,yarnwrap.network.message.MessageLink link,yarnwrap.network.message.MessageBody body) { wrapperContained.update(updater,link.wrapperContained,body.wrapperContained); }
 public yarnwrap.text.Text getContent() { return new yarnwrap.text.Text(wrapperContained.getContent()); }
 public java.util.UUID getSender() { return wrapperContained.getSender(); }
 public boolean isSenderMissing() { return wrapperContained.isSenderMissing(); }
 public boolean hasSignature() { return wrapperContained.hasSignature(); }
+// public com.mojang.datafixers.kinds.App method_46608(Object instance) { return wrapperContained.method_46608(instance); }
+// public java.util.Optional method_46609(yarnwrap.network.message.SignedMessage message) { return wrapperContained.method_46609(message.wrapperContained); }
+// public yarnwrap.network.message.SignedMessage method_46610(yarnwrap.network.message.MessageLink link,java.util.Optional signature,yarnwrap.network.message.MessageBody signedBody,java.util.Optional unsignedContent,yarnwrap.network.message.FilterMask filterMask) { return new yarnwrap.network.message.SignedMessage(wrapperContained.method_46610(link.wrapperContained,signature,signedBody.wrapperContained,unsignedContent,filterMask.wrapperContained)); }
+// public java.util.Optional method_46611(yarnwrap.network.message.SignedMessage message) { return wrapperContained.method_46611(message.wrapperContained); }
 public yarnwrap.network.message.SignedMessage stripSignature() { return new yarnwrap.network.message.SignedMessage(wrapperContained.stripSignature()); }
 
 }

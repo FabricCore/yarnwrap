@@ -9,6 +9,7 @@ public class AdvancementObtainedStatus { public net.minecraft.client.gui.screen.
 // public void challengeFrameTexture(yarnwrap.util.Identifier value) { wrapperContained.challengeFrameTexture = value.wrapperContained; }
 // public yarnwrap.util.Identifier goalFrameTexture() { return new yarnwrap.util.Identifier(wrapperContained.goalFrameTexture); }
 // public void goalFrameTexture(yarnwrap.util.Identifier value) { wrapperContained.goalFrameTexture = value.wrapperContained; }
+// // public AdvancementObtainedStatus(java.lang.String boxTexture,int taskFrameTexture,yarnwrap.util.Identifier challengeFrameTexture,yarnwrap.util.Identifier goalFrameTexture) { this.wrapperContained = new net.minecraft.client.gui.screen.advancement.AdvancementObtainedStatus(boxTexture,taskFrameTexture,challengeFrameTexture.wrapperContained,goalFrameTexture.wrapperContained); }
 public yarnwrap.util.Identifier getBoxTexture() { return new yarnwrap.util.Identifier(wrapperContained.getBoxTexture()); }
 public yarnwrap.util.Identifier getFrameTexture(yarnwrap.advancement.AdvancementFrame frame) { return new yarnwrap.util.Identifier(wrapperContained.getFrameTexture(frame.wrapperContained)); }
 

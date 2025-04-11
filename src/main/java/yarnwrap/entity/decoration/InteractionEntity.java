@@ -24,8 +24,10 @@ public class InteractionEntity { public net.minecraft.entity.decoration.Interact
 // public Object interaction() { return wrapperContained.interaction; }
 // // public void interaction(Object value) { wrapperContained.interaction = value; }
 // public void setInteractionWidth(float width) { wrapperContained.setInteractionWidth(width); }
+// public void method_49110(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_49110(pair); }
 // public void setResponse(boolean response) { wrapperContained.setResponse(response); }
 // public void setInteractionHeight(float height) { wrapperContained.setInteractionHeight(height); }
+// public void method_49114(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_49114(pair); }
 // public float getInteractionWidth() { return wrapperContained.getInteractionWidth(); }
 // public float getInteractionHeight() { return wrapperContained.getInteractionHeight(); }
 // public boolean shouldRespond() { return wrapperContained.shouldRespond(); }

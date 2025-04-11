@@ -7,6 +7,9 @@ public class NarratedMultilineTextWidget { public net.minecraft.client.gui.widge
 // public void alwaysShowBorders(boolean value) { wrapperContained.alwaysShowBorders = value; }
 // public int margin() { return wrapperContained.margin; }
 // public void margin(int value) { wrapperContained.margin = value; }
+public NarratedMultilineTextWidget(int maxWidth,yarnwrap.text.Text message,yarnwrap.client.font.TextRenderer textRenderer) { this.wrapperContained = new net.minecraft.client.gui.widget.NarratedMultilineTextWidget(maxWidth,message.wrapperContained,textRenderer.wrapperContained); }
+public NarratedMultilineTextWidget(int maxWidth,yarnwrap.text.Text message,yarnwrap.client.font.TextRenderer textRenderer,int margin) { this.wrapperContained = new net.minecraft.client.gui.widget.NarratedMultilineTextWidget(maxWidth,message.wrapperContained,textRenderer.wrapperContained,margin); }
+public NarratedMultilineTextWidget(int maxWidth,yarnwrap.text.Text message,yarnwrap.client.font.TextRenderer textRenderer,boolean alwaysShowBorders,int margin) { this.wrapperContained = new net.minecraft.client.gui.widget.NarratedMultilineTextWidget(maxWidth,message.wrapperContained,textRenderer.wrapperContained,alwaysShowBorders,margin); }
 public void initMaxWidth(int baseWidth) { wrapperContained.initMaxWidth(baseWidth); }
 
 }

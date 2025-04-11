@@ -25,11 +25,18 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public yarnwrap.text.Text UNKNOWN_CONTENTS_TEXT() { return new yarnwrap.text.Text(wrapperContained.UNKNOWN_CONTENTS_TEXT); }
 // public void UNKNOWN_CONTENTS_TEXT(yarnwrap.text.Text value) { wrapperContained.UNKNOWN_CONTENTS_TEXT = value.wrapperContained; }
+// public ShulkerBoxBlock(yarnwrap.util.DyeColor color,Object settings) { this.wrapperContained = new net.minecraft.block.ShulkerBoxBlock(color.wrapperContained,settings); }
+// public void method_10524(yarnwrap.block.entity.ShulkerBoxBlockEntity lootConsumer) { wrapperContained.method_10524(lootConsumer.wrapperContained); }
 public yarnwrap.block.Block get(yarnwrap.util.DyeColor dyeColor) { return new yarnwrap.block.Block(wrapperContained.get(dyeColor.wrapperContained)); }
 public yarnwrap.util.DyeColor getColor(yarnwrap.block.Block block) { return new yarnwrap.util.DyeColor(wrapperContained.getColor(block.wrapperContained)); }
 public yarnwrap.util.DyeColor getColor(yarnwrap.item.Item item) { return new yarnwrap.util.DyeColor(wrapperContained.getColor(item.wrapperContained)); }
 public yarnwrap.util.DyeColor getColor() { return new yarnwrap.util.DyeColor(wrapperContained.getColor()); }
 public yarnwrap.item.ItemStack getItemStack(yarnwrap.util.DyeColor color) { return new yarnwrap.item.ItemStack(wrapperContained.getItemStack(color.wrapperContained)); }
 // public boolean canOpen(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.ShulkerBoxBlockEntity entity) { return wrapperContained.canOpen(state.wrapperContained,world.wrapperContained,pos.wrapperContained,entity.wrapperContained); }
+// public void method_38234(yarnwrap.item.ItemStack blockEntity) { wrapperContained.method_38234(blockEntity.wrapperContained); }
+// public void method_47378(java.util.EnumMap map) { wrapperContained.method_47378(map); }
+// public com.mojang.datafixers.kinds.App method_54040(Object instance) { return wrapperContained.method_54040(instance); }
+// public java.util.Optional method_54041(yarnwrap.block.ShulkerBoxBlock block) { return wrapperContained.method_54041(block.wrapperContained); }
+// public yarnwrap.block.ShulkerBoxBlock method_54042(java.util.Optional color,Object settings) { return new yarnwrap.block.ShulkerBoxBlock(wrapperContained.method_54042(color,settings)); }
 
 }

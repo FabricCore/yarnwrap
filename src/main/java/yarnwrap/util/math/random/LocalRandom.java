@@ -13,5 +13,6 @@ public class LocalRandom { public net.minecraft.util.math.random.LocalRandom wra
 // public void seed(long value) { wrapperContained.seed = value; }
 // public yarnwrap.util.math.random.GaussianGenerator gaussianGenerator() { return new yarnwrap.util.math.random.GaussianGenerator(wrapperContained.gaussianGenerator); }
 // public void gaussianGenerator(yarnwrap.util.math.random.GaussianGenerator value) { wrapperContained.gaussianGenerator = value.wrapperContained; }
+public LocalRandom(long seed) { this.wrapperContained = new net.minecraft.util.math.random.LocalRandom(seed); }
 
 }

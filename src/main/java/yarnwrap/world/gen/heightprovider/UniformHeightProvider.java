@@ -11,6 +11,10 @@ public com.mojang.serialization.MapCodec UNIFORM_CODEC() { return wrapperContain
 // public void maxOffset(yarnwrap.world.gen.YOffset value) { wrapperContained.maxOffset = value.wrapperContained; }
 // public it.unimi.dsi.fastutil.longs.LongSet warnedEmptyHeightRanges() { return wrapperContained.warnedEmptyHeightRanges; }
 // public void warnedEmptyHeightRanges(it.unimi.dsi.fastutil.longs.LongSet value) { wrapperContained.warnedEmptyHeightRanges = value; }
+// public UniformHeightProvider(yarnwrap.world.gen.YOffset minOffset,yarnwrap.world.gen.YOffset maxOffset) { this.wrapperContained = new net.minecraft.world.gen.heightprovider.UniformHeightProvider(minOffset.wrapperContained,maxOffset.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_35395(Object instance) { return wrapperContained.method_35395(instance); }
 public yarnwrap.world.gen.heightprovider.UniformHeightProvider create(yarnwrap.world.gen.YOffset minOffset,yarnwrap.world.gen.YOffset maxOffset) { return new yarnwrap.world.gen.heightprovider.UniformHeightProvider(wrapperContained.create(minOffset.wrapperContained,maxOffset.wrapperContained)); }
+// public yarnwrap.world.gen.YOffset method_35397(yarnwrap.world.gen.heightprovider.UniformHeightProvider provider) { return new yarnwrap.world.gen.YOffset(wrapperContained.method_35397(provider.wrapperContained)); }
+// public yarnwrap.world.gen.YOffset method_35398(yarnwrap.world.gen.heightprovider.UniformHeightProvider provider) { return new yarnwrap.world.gen.YOffset(wrapperContained.method_35398(provider.wrapperContained)); }
 
 }

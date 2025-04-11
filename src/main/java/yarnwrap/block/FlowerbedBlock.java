@@ -9,5 +9,6 @@ public yarnwrap.state.property.IntProperty FLOWER_AMOUNT() { return new yarnwrap
 // public void FACING_AND_AMOUNT_TO_SHAPE(java.util.function.BiFunction value) { wrapperContained.FACING_AND_AMOUNT_TO_SHAPE = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public yarnwrap.util.shape.VoxelShape method_52574(yarnwrap.util.math.Direction facing,java.lang.Integer flowerAmount) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_52574(facing.wrapperContained,flowerAmount)); }
 
 }

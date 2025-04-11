@@ -31,13 +31,19 @@ public void updateActivities(yarnwrap.entity.mob.WardenEntity warden) { wrapperC
 // public boolean isTargeting(yarnwrap.entity.mob.WardenEntity warden,yarnwrap.entity.LivingEntity entity) { return wrapperContained.isTargeting(warden.wrapperContained,entity.wrapperContained); }
 // public yarnwrap.entity.ai.brain.Brain create(yarnwrap.entity.mob.WardenEntity warden,com.mojang.serialization.Dynamic dynamic) { return new yarnwrap.entity.ai.brain.Brain(wrapperContained.create(warden.wrapperContained,dynamic)); }
 public void lookAtDisturbance(yarnwrap.entity.mob.WardenEntity warden,yarnwrap.util.math.BlockPos pos) { wrapperContained.lookAtDisturbance(warden.wrapperContained,pos.wrapperContained); }
+// public boolean method_42232(yarnwrap.entity.LivingEntity entityx) { return wrapperContained.method_42232(entityx.wrapperContained); }
 // public void addEmergeActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addEmergeActivities(brain.wrapperContained); }
 // public void removeDeadSuspect(yarnwrap.entity.mob.WardenEntity warden,yarnwrap.entity.LivingEntity suspect) { wrapperContained.removeDeadSuspect(warden.wrapperContained,suspect.wrapperContained); }
 // public void addFightActivities(yarnwrap.entity.mob.WardenEntity warden,yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addFightActivities(warden.wrapperContained,brain.wrapperContained); }
 // public void addDigActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addDigActivities(brain.wrapperContained); }
 // public void addIdleActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleActivities(brain.wrapperContained); }
+// public boolean method_42241(yarnwrap.entity.mob.WardenEntity entity) { return wrapperContained.method_42241(entity.wrapperContained); }
 // public void addInvestigateActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addInvestigateActivities(brain.wrapperContained); }
+// public boolean method_42243(yarnwrap.entity.mob.WardenEntity entity) { return wrapperContained.method_42243(entity.wrapperContained); }
 // public void addSniffActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addSniffActivities(brain.wrapperContained); }
 // public void addRoarActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addRoarActivities(brain.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_47302(Object context) { return wrapperContained.method_47302(context); }
+// public yarnwrap.entity.ai.brain.task.TaskRunnable method_47303(Object digCooldown) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(wrapperContained.method_47303(digCooldown)); }
+// public boolean method_47304(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,yarnwrap.server.world.ServerWorld time) { return wrapperContained.method_47304(world,entity.wrapperContained,time.wrapperContained); }
 
 }

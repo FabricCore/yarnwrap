@@ -25,12 +25,17 @@ public com.mojang.brigadier.exceptions.DynamicCommandExceptionType NOTHING_FOUND
 // public void NOTHING_FOUND_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.NOTHING_FOUND_EXCEPTION = value; }
 public com.mojang.brigadier.exceptions.SimpleCommandExceptionType INVALID_PATH_NODE_EXCEPTION() { return wrapperContained.INVALID_PATH_NODE_EXCEPTION; }
 // public void INVALID_PATH_NODE_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.INVALID_PATH_NODE_EXCEPTION = value; }
+// public com.mojang.brigadier.Message method_47969(java.lang.Object index) { return wrapperContained.method_47969(index); }
+// public com.mojang.brigadier.Message method_47970(java.lang.Object nbt) { return wrapperContained.method_47970(nbt); }
 // public Object readCompoundChildNode(com.mojang.brigadier.StringReader reader,java.lang.String name) { return wrapperContained.readCompoundChildNode(reader,name); }
+// public boolean method_9353(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.method_9353(nbt.wrapperContained); }
 // public boolean isNameCharacter(char c) { return wrapperContained.isNameCharacter(c); }
+// public com.mojang.brigadier.Message method_9356(java.lang.Object path) { return wrapperContained.method_9356(path); }
 // public java.lang.String readName(com.mojang.brigadier.StringReader reader) { return wrapperContained.readName(reader); }
 public Object getNbtPath(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return wrapperContained.getNbtPath(context,name); }
 // public java.util.function.Predicate getPredicate(yarnwrap.nbt.NbtCompound filter) { return wrapperContained.getPredicate(filter.wrapperContained); }
 public yarnwrap.command.argument.NbtPathArgumentType nbtPath() { return new yarnwrap.command.argument.NbtPathArgumentType(wrapperContained.nbtPath()); }
 // public Object parseNode(com.mojang.brigadier.StringReader reader,boolean root) { return wrapperContained.parseNode(reader,root); }
+// public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 
 }

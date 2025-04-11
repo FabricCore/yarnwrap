@@ -13,5 +13,6 @@ public class CheckedRandom { public net.minecraft.util.math.random.CheckedRandom
 // public void INCREMENT(long value) { wrapperContained.INCREMENT = value; }
 // public yarnwrap.util.math.random.GaussianGenerator gaussianGenerator() { return new yarnwrap.util.math.random.GaussianGenerator(wrapperContained.gaussianGenerator); }
 // public void gaussianGenerator(yarnwrap.util.math.random.GaussianGenerator value) { wrapperContained.gaussianGenerator = value.wrapperContained; }
+public CheckedRandom(long seed) { this.wrapperContained = new net.minecraft.util.math.random.CheckedRandom(seed); }
 
 }

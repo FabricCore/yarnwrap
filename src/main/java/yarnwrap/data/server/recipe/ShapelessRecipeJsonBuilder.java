@@ -13,6 +13,7 @@ public class ShapelessRecipeJsonBuilder { public net.minecraft.data.server.recip
 // public void group(java.lang.String value) { wrapperContained.group = value; }
 // public yarnwrap.recipe.book.RecipeCategory category() { return new yarnwrap.recipe.book.RecipeCategory(wrapperContained.category); }
 // public void category(yarnwrap.recipe.book.RecipeCategory value) { wrapperContained.category = value.wrapperContained; }
+public ShapelessRecipeJsonBuilder(yarnwrap.recipe.book.RecipeCategory category,yarnwrap.item.ItemConvertible output,int count) { this.wrapperContained = new net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder(category.wrapperContained,output.wrapperContained,count); }
 // public void validate(yarnwrap.util.Identifier recipeId) { wrapperContained.validate(recipeId.wrapperContained); }
 public yarnwrap.data.server.recipe.ShapelessRecipeJsonBuilder input(yarnwrap.registry.tag.TagKey tag) { return new yarnwrap.data.server.recipe.ShapelessRecipeJsonBuilder(wrapperContained.input(tag.wrapperContained)); }
 public yarnwrap.data.server.recipe.ShapelessRecipeJsonBuilder create(yarnwrap.recipe.book.RecipeCategory category,yarnwrap.item.ItemConvertible output) { return new yarnwrap.data.server.recipe.ShapelessRecipeJsonBuilder(wrapperContained.create(category.wrapperContained,output.wrapperContained)); }

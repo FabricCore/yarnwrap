@@ -7,6 +7,8 @@ public class PlacedAdvancement { public net.minecraft.advancement.PlacedAdvancem
 // public void parent(yarnwrap.advancement.PlacedAdvancement value) { wrapperContained.parent = value.wrapperContained; }
 // public java.util.Set children() { return wrapperContained.children; }
 // public void children(java.util.Set value) { wrapperContained.children = value; }
+public PlacedAdvancement(yarnwrap.advancement.AdvancementEntry advancementEntry,yarnwrap.advancement.PlacedAdvancement parent) { this.wrapperContained = new net.minecraft.advancement.PlacedAdvancement(advancementEntry.wrapperContained,parent.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.advancement.Advancement getAdvancement() { return new yarnwrap.advancement.Advancement(wrapperContained.getAdvancement()); }
 public yarnwrap.advancement.PlacedAdvancement findRoot(yarnwrap.advancement.PlacedAdvancement advancement) { return new yarnwrap.advancement.PlacedAdvancement(wrapperContained.findRoot(advancement.wrapperContained)); }
 public yarnwrap.advancement.AdvancementEntry getAdvancementEntry() { return new yarnwrap.advancement.AdvancementEntry(wrapperContained.getAdvancementEntry()); }

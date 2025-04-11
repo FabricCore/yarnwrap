@@ -13,6 +13,7 @@ public class TickDurationMonitor { public net.minecraft.util.TickDurationMonitor
 // public void tickResultsDirectory(java.io.File value) { wrapperContained.tickResultsDirectory = value; }
 // public yarnwrap.util.profiler.ReadableProfiler profiler() { return new yarnwrap.util.profiler.ReadableProfiler(wrapperContained.profiler); }
 // public void profiler(yarnwrap.util.profiler.ReadableProfiler value) { wrapperContained.profiler = value.wrapperContained; }
+public TickDurationMonitor(java.util.function.LongSupplier timeGetter,java.lang.String filename,long overtime) { this.wrapperContained = new net.minecraft.util.TickDurationMonitor(timeGetter,filename,overtime); }
 public yarnwrap.util.profiler.Profiler nextProfiler() { return new yarnwrap.util.profiler.Profiler(wrapperContained.nextProfiler()); }
 public yarnwrap.util.profiler.Profiler tickProfiler(yarnwrap.util.profiler.Profiler profiler,yarnwrap.util.TickDurationMonitor monitor) { return new yarnwrap.util.profiler.Profiler(wrapperContained.tickProfiler(profiler.wrapperContained,monitor.wrapperContained)); }
 public yarnwrap.util.TickDurationMonitor create(java.lang.String name) { return new yarnwrap.util.TickDurationMonitor(wrapperContained.create(name)); }

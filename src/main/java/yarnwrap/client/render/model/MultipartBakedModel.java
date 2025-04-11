@@ -17,5 +17,6 @@ public class MultipartBakedModel { public net.minecraft.client.render.model.Mult
 // public void ambientOcclusion(boolean value) { wrapperContained.ambientOcclusion = value; }
 // public java.util.Map stateCache() { return wrapperContained.stateCache; }
 // public void stateCache(java.util.Map value) { wrapperContained.stateCache = value; }
+public MultipartBakedModel(java.util.List components) { this.wrapperContained = new net.minecraft.client.render.model.MultipartBakedModel(components); }
 
 }

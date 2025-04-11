@@ -9,5 +9,6 @@ public class WaitTask { public net.minecraft.entity.ai.brain.task.WaitTask wrapp
 // // public void status(Object value) { wrapperContained.status = value; }
 // public long waitUntil() { return wrapperContained.waitUntil; }
 // public void waitUntil(long value) { wrapperContained.waitUntil = value; }
+public WaitTask(int minRunTime,int maxRunTime) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.WaitTask(minRunTime,maxRunTime); }
 
 }

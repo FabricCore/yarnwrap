@@ -21,6 +21,7 @@ public int textureWidth() { return wrapperContained.textureWidth; }
 public void textureWidth(int value) { wrapperContained.textureWidth = value; }
 public int texFilter() { return wrapperContained.texFilter; }
 public void texFilter(int value) { wrapperContained.texFilter = value; }
+// public Framebuffer(boolean useDepth) { this.wrapperContained = new net.minecraft.client.gl.Framebuffer(useDepth); }
 public void clear(boolean getError) { wrapperContained.clear(getError); }
 public void initFbo(int width,int height,boolean getError) { wrapperContained.initFbo(width,height,getError); }
 // public void setTexFilter(int texFilter,boolean force) { wrapperContained.setTexFilter(texFilter,force); }

@@ -81,6 +81,16 @@ public class StructureBlockScreen { public net.minecraft.client.gui.screen.ingam
 // public void buttonDetect(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.buttonDetect = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.TextFieldWidget inputPosZ() { return new yarnwrap.client.gui.widget.TextFieldWidget(wrapperContained.inputPosZ); }
 // public void inputPosZ(yarnwrap.client.gui.widget.TextFieldWidget value) { wrapperContained.inputPosZ = value.wrapperContained; }
+public StructureBlockScreen(yarnwrap.block.entity.StructureBlockBlockEntity structureBlock) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.StructureBlockScreen(structureBlock.wrapperContained); }
+// public void method_19898(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19898(button.wrapperContained); }
+// public void method_19899(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19899(button.wrapperContained); }
+// public void method_19900(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19900(button.wrapperContained); }
+// public void method_19901(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19901(button.wrapperContained); }
+// public void method_19906(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19906(button.wrapperContained); }
+// public void method_19908(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19908(button.wrapperContained); }
+// public void method_19909(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19909(button.wrapperContained); }
+// public void method_19910(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19910(button.wrapperContained); }
+// public void method_19911(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19911(button.wrapperContained); }
 // public float parseFloat(java.lang.String string) { return wrapperContained.parseFloat(string); }
 // public long parseLong(java.lang.String string) { return wrapperContained.parseLong(string); }
 // public void updateRotationButton() { wrapperContained.updateRotationButton(); }
@@ -89,5 +99,12 @@ public class StructureBlockScreen { public net.minecraft.client.gui.screen.ingam
 // public boolean updateStructureBlock(Object action) { return wrapperContained.updateStructureBlock(action); }
 // public int parseInt(java.lang.String string) { return wrapperContained.parseInt(string); }
 // public void updateWidgets(yarnwrap.block.enums.StructureBlockMode mode) { wrapperContained.updateWidgets(mode.wrapperContained); }
+// public void method_32651(yarnwrap.client.gui.widget.CyclingButtonWidget button,yarnwrap.util.BlockMirror mirror) { wrapperContained.method_32651(button.wrapperContained,mirror.wrapperContained); }
+// public void method_32652(yarnwrap.client.gui.widget.CyclingButtonWidget button,yarnwrap.block.enums.StructureBlockMode mode) { wrapperContained.method_32652(button.wrapperContained,mode.wrapperContained); }
+// public void method_32653(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean showBoundingBox) { wrapperContained.method_32653(button.wrapperContained,showBoundingBox); }
+// public yarnwrap.text.Text method_32654(yarnwrap.block.enums.StructureBlockMode value) { return new yarnwrap.text.Text(wrapperContained.method_32654(value.wrapperContained)); }
+// public void method_32655(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean showAir) { wrapperContained.method_32655(button.wrapperContained,showAir); }
+// public boolean method_32656(yarnwrap.block.enums.StructureBlockMode mode) { return wrapperContained.method_32656(mode.wrapperContained); }
+// public void method_32657(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean includeEntities) { wrapperContained.method_32657(button.wrapperContained,includeEntities); }
 
 }

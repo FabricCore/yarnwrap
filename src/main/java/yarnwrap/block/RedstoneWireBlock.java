@@ -47,5 +47,6 @@ public int getWireColor(int powerLevel) { return wrapperContained.getWireColor(p
 // public boolean canRunOnTop(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState floor) { return wrapperContained.canRunOnTop(world.wrapperContained,pos.wrapperContained,floor.wrapperContained); }
 // public void updateForNewState(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState oldState,yarnwrap.block.BlockState newState) { wrapperContained.updateForNewState(world.wrapperContained,pos.wrapperContained,oldState.wrapperContained,newState.wrapperContained); }
 // public boolean isNotConnected(yarnwrap.block.BlockState state) { return wrapperContained.isNotConnected(state.wrapperContained); }
+// public void method_31649(net.minecraft.util.math.Vec3d[] colors) { wrapperContained.method_31649(colors); }
 
 }

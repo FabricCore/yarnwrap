@@ -17,7 +17,13 @@ public class AddServerScreen { public net.minecraft.client.gui.screen.multiplaye
 // public void ENTER_NAME_TEXT(yarnwrap.text.Text value) { wrapperContained.ENTER_NAME_TEXT = value.wrapperContained; }
 // public yarnwrap.text.Text ENTER_IP_TEXT() { return new yarnwrap.text.Text(wrapperContained.ENTER_IP_TEXT); }
 // public void ENTER_IP_TEXT(yarnwrap.text.Text value) { wrapperContained.ENTER_IP_TEXT = value.wrapperContained; }
+public AddServerScreen(yarnwrap.client.gui.screen.Screen parent,it.unimi.dsi.fastutil.booleans.BooleanConsumer callback,yarnwrap.client.network.ServerInfo server) { this.wrapperContained = new net.minecraft.client.gui.screen.multiplayer.AddServerScreen(parent.wrapperContained,callback,server.wrapperContained); }
 // public void addAndClose() { wrapperContained.addAndClose(); }
+// public void method_36218(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_36218(button.wrapperContained); }
+// public void method_36219(yarnwrap.client.gui.widget.CyclingButtonWidget button,Object resourcePackPolicy) { wrapperContained.method_36219(button.wrapperContained,resourcePackPolicy); }
+// public void method_36220(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_36220(button.wrapperContained); }
+// public void method_36221(java.lang.String address) { wrapperContained.method_36221(address); }
+// public void method_36222(java.lang.String serverName) { wrapperContained.method_36222(serverName); }
 // public void updateAddButton() { wrapperContained.updateAddButton(); }
 
 }

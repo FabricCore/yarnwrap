@@ -19,6 +19,7 @@ public class TaskScreen { public net.minecraft.client.gui.screen.TaskScreen wrap
 // public void descriptionText(yarnwrap.text.Text value) { wrapperContained.descriptionText = value.wrapperContained; }
 // public int buttonCooldown() { return wrapperContained.buttonCooldown; }
 // public void buttonCooldown(int value) { wrapperContained.buttonCooldown = value; }
+// public TaskScreen(yarnwrap.text.Text title,yarnwrap.text.Text descriptionText,yarnwrap.text.Text closeButtonText,java.lang.Runnable closeCallback,int buttonCooldown) { this.wrapperContained = new net.minecraft.client.gui.screen.TaskScreen(title.wrapperContained,descriptionText.wrapperContained,closeButtonText.wrapperContained,closeCallback,buttonCooldown); }
 public yarnwrap.client.gui.screen.TaskScreen createRunningScreen(yarnwrap.text.Text title,yarnwrap.text.Text closeButtonText,java.lang.Runnable closeCallback) { return new yarnwrap.client.gui.screen.TaskScreen(wrapperContained.createRunningScreen(title.wrapperContained,closeButtonText.wrapperContained,closeCallback)); }
 public yarnwrap.client.gui.screen.TaskScreen createResultScreen(yarnwrap.text.Text title,yarnwrap.text.Text descriptionText,yarnwrap.text.Text closeButtonText,java.lang.Runnable closeCallback) { return new yarnwrap.client.gui.screen.TaskScreen(wrapperContained.createResultScreen(title.wrapperContained,descriptionText.wrapperContained,closeButtonText.wrapperContained,closeCallback)); }
 

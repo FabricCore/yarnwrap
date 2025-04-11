@@ -51,6 +51,7 @@ public class Window { public net.minecraft.client.util.Window wrapperContained; 
 // public void height(int value) { wrapperContained.height = value; }
 // public int y() { return wrapperContained.y; }
 // public void y(int value) { wrapperContained.y = value; }
+public Window(yarnwrap.client.WindowEventHandler eventHandler,yarnwrap.client.util.MonitorTracker monitorTracker,yarnwrap.client.WindowSettings settings,java.lang.String fullscreenVideoMode,java.lang.String title) { this.wrapperContained = new net.minecraft.client.util.Window(eventHandler.wrapperContained,monitorTracker.wrapperContained,settings.wrapperContained,fullscreenVideoMode,title); }
 public void setScaleFactor(double scaleFactor) { wrapperContained.setScaleFactor(scaleFactor); }
 public void swapBuffers() { wrapperContained.swapBuffers(); }
 public void setFramerateLimit(int framerateLimit) { wrapperContained.setFramerateLimit(framerateLimit); }

@@ -45,11 +45,20 @@ public class JigsawBlockScreen { public net.minecraft.client.gui.screen.ingame.J
 // public void selectionPriorityField(yarnwrap.client.gui.widget.TextFieldWidget value) { wrapperContained.selectionPriorityField = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.TextFieldWidget placementPriorityField() { return new yarnwrap.client.gui.widget.TextFieldWidget(wrapperContained.placementPriorityField); }
 // public void placementPriorityField(yarnwrap.client.gui.widget.TextFieldWidget value) { wrapperContained.placementPriorityField = value.wrapperContained; }
+public JigsawBlockScreen(yarnwrap.block.entity.JigsawBlockEntity jigsaw) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.JigsawBlockScreen(jigsaw.wrapperContained); }
 // public void onDone() { wrapperContained.onDone(); }
 // public void updateServer() { wrapperContained.updateServer(); }
 // public void onCancel() { wrapperContained.onCancel(); }
+// public void method_19892(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19892(button.wrapperContained); }
+// public void method_19893(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19893(button.wrapperContained); }
 // public void updateDoneButtonState() { wrapperContained.updateDoneButtonState(); }
+// public void method_20119(java.lang.String name) { wrapperContained.method_20119(name); }
+// public void method_20120(java.lang.String pool) { wrapperContained.method_20120(pool); }
+// public void method_26412(java.lang.String target) { wrapperContained.method_26412(target); }
+// public void method_27271(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_27271(button.wrapperContained); }
 // public void generate() { wrapperContained.generate(); }
+// public void method_32648(yarnwrap.client.gui.widget.CyclingButtonWidget button,Object joint) { wrapperContained.method_32648(button.wrapperContained,joint); }
+// public void method_32649(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean keepJigsaws) { wrapperContained.method_32649(button.wrapperContained,keepJigsaws); }
 // public int parseInt(java.lang.String value) { return wrapperContained.parseInt(value); }
 public boolean isValidId(java.lang.String id) { return wrapperContained.isValidId(id); }
 

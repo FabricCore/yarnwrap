@@ -19,5 +19,6 @@ public class HorseScreen { public net.minecraft.client.gui.screen.ingame.HorseSc
 // public void LLAMA_ARMOR_SLOT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.LLAMA_ARMOR_SLOT_TEXTURE = value.wrapperContained; }
 // public int slotColumnCount() { return wrapperContained.slotColumnCount; }
 // public void slotColumnCount(int value) { wrapperContained.slotColumnCount = value; }
+public HorseScreen(yarnwrap.screen.HorseScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.entity.passive.AbstractHorseEntity entity,int slotColumnCount) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.HorseScreen(handler.wrapperContained,inventory.wrapperContained,entity.wrapperContained,slotColumnCount); }
 
 }

@@ -4,5 +4,6 @@ public class SentTelemetryEvent { public net.minecraft.client.session.telemetry.
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 public com.mojang.authlib.minecraft.TelemetryEvent createEvent(com.mojang.authlib.minecraft.TelemetrySession session) { return wrapperContained.createEvent(session); }
+// public void method_47712(yarnwrap.client.session.telemetry.TelemetryEventType property) { wrapperContained.method_47712(property.wrapperContained); }
 
 }

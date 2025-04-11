@@ -17,6 +17,10 @@ public class GlBlendState { public net.minecraft.client.gl.GlBlendState wrapperC
 // public void srcAlpha(int value) { wrapperContained.srcAlpha = value; }
 // public int srcRgb() { return wrapperContained.srcRgb; }
 // public void srcRgb(int value) { wrapperContained.srcRgb = value; }
+public GlBlendState(int srcRgb,int dstRgb,int func) { this.wrapperContained = new net.minecraft.client.gl.GlBlendState(srcRgb,dstRgb,func); }
+public GlBlendState(int srcRgb,int dstRgb,int srcAlpha,int dstAlpha,int func) { this.wrapperContained = new net.minecraft.client.gl.GlBlendState(srcRgb,dstRgb,srcAlpha,dstAlpha,func); }
+// public GlBlendState(boolean separateBlend,boolean blendDisabled,int srcRgb,int dstRgb,int srcAlpha,int dstAlpha,int mode) { this.wrapperContained = new net.minecraft.client.gl.GlBlendState(separateBlend,blendDisabled,srcRgb,dstRgb,srcAlpha,dstAlpha,mode); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public int getFactorFromString(java.lang.String expression) { return wrapperContained.getFactorFromString(expression); }
 public void enable() { wrapperContained.enable(); }
 public boolean isBlendDisabled() { return wrapperContained.isBlendDisabled(); }

@@ -19,5 +19,6 @@ public int TRADING_GOSSIP_DECAY() { return wrapperContained.TRADING_GOSSIP_DECAY
 // public void TRADING_GOSSIP_DECAY(int value) { wrapperContained.TRADING_GOSSIP_DECAY = value; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+// // public VillageGossipType(java.lang.String key,int multiplier,java.lang.String maxReputation,int decay,int shareDecrement) { this.wrapperContained = new net.minecraft.village.VillageGossipType(key,multiplier,maxReputation,decay,shareDecrement); }
 
 }

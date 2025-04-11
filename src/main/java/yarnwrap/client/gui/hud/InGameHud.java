@@ -139,6 +139,7 @@ public void vignetteDarkness(float value) { wrapperContained.vignetteDarkness = 
 // public void SCOREBOARD_ENTRY_COMPARATOR(java.util.Comparator value) { wrapperContained.SCOREBOARD_ENTRY_COMPARATOR = value; }
 // public yarnwrap.client.gui.LayeredDrawer layeredDrawer() { return new yarnwrap.client.gui.LayeredDrawer(wrapperContained.layeredDrawer); }
 // public void layeredDrawer(yarnwrap.client.gui.LayeredDrawer value) { wrapperContained.layeredDrawer = value.wrapperContained; }
+public InGameHud(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.gui.hud.InGameHud(client.wrapperContained); }
 // public void updateVignetteDarkness(yarnwrap.entity.Entity entity) { wrapperContained.updateVignetteDarkness(entity.wrapperContained); }
 public void setRecordPlayingOverlay(yarnwrap.text.Text description) { wrapperContained.setRecordPlayingOverlay(description.wrapperContained); }
 // public int getHeartRows(int heartCount) { return wrapperContained.getHeartRows(heartCount); }
@@ -159,6 +160,7 @@ public void clear() { wrapperContained.clear(); }
 // public void tick() { wrapperContained.tick(); }
 // public void renderHeldItemTooltip(yarnwrap.client.gui.DrawContext context) { wrapperContained.renderHeldItemTooltip(context.wrapperContained); }
 public yarnwrap.client.gui.hud.PlayerListHud getPlayerListHud() { return new yarnwrap.client.gui.hud.PlayerListHud(wrapperContained.getPlayerListHud()); }
+// public boolean method_1751(yarnwrap.scoreboard.ScoreboardEntry score) { return wrapperContained.method_1751(score.wrapperContained); }
 // public void renderMountJumpBar(yarnwrap.entity.JumpingMount mount,yarnwrap.client.gui.DrawContext context,int x) { wrapperContained.renderMountJumpBar(mount.wrapperContained,context.wrapperContained,x); }
 public void render(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.render(context.wrapperContained,tickCounter.wrapperContained); }
 // public boolean shouldRenderSpectatorCrosshair(yarnwrap.util.hit.HitResult hitResult) { return wrapperContained.shouldRenderSpectatorCrosshair(hitResult.wrapperContained); }
@@ -185,6 +187,8 @@ public void renderAutosaveIndicator(yarnwrap.client.gui.DrawContext context,yarn
 public boolean shouldShowChatDisabledScreen() { return wrapperContained.shouldShowChatDisabledScreen(); }
 public void setCanShowChatDisabledScreen(boolean canShowChatDisabledScreen) { wrapperContained.setCanShowChatDisabledScreen(canShowChatDisabledScreen); }
 public yarnwrap.client.gui.hud.DebugHud getDebugHud() { return new yarnwrap.client.gui.hud.DebugHud(wrapperContained.getDebugHud()); }
+// public Object method_55439(yarnwrap.scoreboard.Scoreboard scoreboardEntry) { return wrapperContained.method_55439(scoreboardEntry.wrapperContained); }
+// public Object method_55441(int size) { return wrapperContained.method_55441(size); }
 // public void renderMiscOverlays(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.renderMiscOverlays(context.wrapperContained,tickCounter.wrapperContained); }
 // public void renderSleepOverlay(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.renderSleepOverlay(context.wrapperContained,tickCounter.wrapperContained); }
 // public void renderOverlayMessage(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.renderOverlayMessage(context.wrapperContained,tickCounter.wrapperContained); }
@@ -193,6 +197,9 @@ public yarnwrap.client.gui.hud.DebugHud getDebugHud() { return new yarnwrap.clie
 // public void renderScoreboardSidebar(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.renderScoreboardSidebar(context.wrapperContained,tickCounter.wrapperContained); }
 // public void renderPlayerList(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.renderPlayerList(context.wrapperContained,tickCounter.wrapperContained); }
 // public void renderMainHud(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.renderMainHud(context.wrapperContained,tickCounter.wrapperContained); }
+// public void method_55806(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.method_55806(context.wrapperContained,tickCounter.wrapperContained); }
+// public void method_55807(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.method_55807(context.wrapperContained,tickCounter.wrapperContained); }
+// public void method_55808(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.method_55808(context.wrapperContained,tickCounter.wrapperContained); }
 // public boolean shouldRenderExperience() { return wrapperContained.shouldRenderExperience(); }
 // public void renderExperienceLevel(yarnwrap.client.gui.DrawContext context,yarnwrap.client.render.RenderTickCounter tickCounter) { wrapperContained.renderExperienceLevel(context.wrapperContained,tickCounter.wrapperContained); }
 // public void renderFood(yarnwrap.client.gui.DrawContext context,yarnwrap.entity.player.PlayerEntity player,int top,int right) { wrapperContained.renderFood(context.wrapperContained,player.wrapperContained,top,right); }

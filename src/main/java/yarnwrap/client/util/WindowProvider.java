@@ -5,6 +5,7 @@ public class WindowProvider { public net.minecraft.client.util.WindowProvider wr
 // public void monitorTracker(yarnwrap.client.util.MonitorTracker value) { wrapperContained.monitorTracker = value.wrapperContained; }
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
+public WindowProvider(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.util.WindowProvider(client.wrapperContained); }
 public yarnwrap.client.util.Window createWindow(yarnwrap.client.WindowSettings settings,java.lang.String videoMode,java.lang.String title) { return new yarnwrap.client.util.Window(wrapperContained.createWindow(settings.wrapperContained,videoMode,title)); }
 
 }

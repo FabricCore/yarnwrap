@@ -2,6 +2,14 @@ package yarnwrap.entity.ai.brain.task;
 public class FindEntityTask { public net.minecraft.entity.ai.brain.task.FindEntityTask wrapperContained; public FindEntityTask(net.minecraft.entity.ai.brain.task.FindEntityTask wrapperContained) { this.wrapperContained = wrapperContained; }
 
 public yarnwrap.entity.ai.brain.task.Task create(yarnwrap.entity.EntityType type,int maxDistance,yarnwrap.entity.ai.brain.MemoryModuleType targetModule,float speed,int completionRange) { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.create(type.wrapperContained,maxDistance,targetModule.wrapperContained,speed,completionRange)); }
+// public boolean method_18948(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18948(entity.wrapperContained); }
+// public boolean method_18949(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18949(entity.wrapperContained); }
 public yarnwrap.entity.ai.brain.task.Task create(yarnwrap.entity.EntityType type,int maxDistance,java.util.function.Predicate entityPredicate,java.util.function.Predicate targetPredicate,yarnwrap.entity.ai.brain.MemoryModuleType targetModule,float speed,int completionRange) { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.create(type.wrapperContained,maxDistance,entityPredicate,targetPredicate,targetModule.wrapperContained,speed,completionRange)); }
+// public boolean method_46958(yarnwrap.entity.EntityType entity) { return wrapperContained.method_46958(entity.wrapperContained); }
+// public boolean method_46959(yarnwrap.entity.LivingEntity target) { return wrapperContained.method_46959(target.wrapperContained); }
+// public boolean method_46960(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,java.util.function.Predicate time) { return wrapperContained.method_46960(world,entity.wrapperContained,time); }
+// public yarnwrap.entity.ai.brain.task.TaskRunnable method_46961(Object targetValue,java.util.function.Predicate lookTarget,java.util.function.Predicate walkTarget,int visibleMobs) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(wrapperContained.method_46961(targetValue,lookTarget,walkTarget,visibleMobs)); }
+// public void method_46962(yarnwrap.entity.ai.brain.MemoryQueryResult target) { wrapperContained.method_46962(target.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_46963(yarnwrap.entity.ai.brain.MemoryModuleType context) { return wrapperContained.method_46963(context.wrapperContained); }
 
 }

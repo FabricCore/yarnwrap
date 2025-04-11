@@ -14,6 +14,7 @@ public com.mojang.serialization.Codec COLORS_CODEC() { return wrapperContained.C
 // public yarnwrap.text.Text CUSTOM_COLOR_TEXT() { return new yarnwrap.text.Text(wrapperContained.CUSTOM_COLOR_TEXT); }
 // public void CUSTOM_COLOR_TEXT(yarnwrap.text.Text value) { wrapperContained.CUSTOM_COLOR_TEXT = value.wrapperContained; }
 // public yarnwrap.text.Text getColorText(int color) { return new yarnwrap.text.Text(wrapperContained.getColorText(color)); }
+// public com.mojang.datafixers.kinds.App method_57473(Object instance) { return wrapperContained.method_57473(instance); }
 public yarnwrap.component.type.FireworkExplosionComponent withFadeColors(it.unimi.dsi.fastutil.ints.IntList fadeColors) { return new yarnwrap.component.type.FireworkExplosionComponent(wrapperContained.withFadeColors(fadeColors)); }
 public void appendShapeTooltip(java.util.function.Consumer textConsumer) { wrapperContained.appendShapeTooltip(textConsumer); }
 // public yarnwrap.text.Text appendColorsTooltipText(yarnwrap.text.MutableText text,it.unimi.dsi.fastutil.ints.IntList colors) { return new yarnwrap.text.Text(wrapperContained.appendColorsTooltipText(text.wrapperContained,colors)); }

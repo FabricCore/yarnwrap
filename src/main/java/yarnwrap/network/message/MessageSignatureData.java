@@ -8,6 +8,7 @@ public int SIZE() { return wrapperContained.SIZE; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 // public byte[] data() { return wrapperContained.data(); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public boolean verify(yarnwrap.network.encryption.SignatureVerifier verifier,yarnwrap.network.encryption.SignatureUpdatable updatable) { return wrapperContained.verify(verifier.wrapperContained,updatable.wrapperContained); }
 public void write(yarnwrap.network.PacketByteBuf buf,yarnwrap.network.message.MessageSignatureData signature) { wrapperContained.write(buf.wrapperContained,signature.wrapperContained); }
 public java.nio.ByteBuffer toByteBuffer() { return wrapperContained.toByteBuffer(); }

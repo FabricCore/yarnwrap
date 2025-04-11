@@ -23,6 +23,10 @@ public int RESULT_SLOT_INDEX() { return wrapperContained.RESULT_SLOT_INDEX; }
 // public void HOTBAR_START(int value) { wrapperContained.HOTBAR_START = value; }
 // public int HOTBAR_END() { return wrapperContained.HOTBAR_END; }
 // public void HOTBAR_END(int value) { wrapperContained.HOTBAR_END = value; }
+public CartographyTableScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory inventory) { this.wrapperContained = new net.minecraft.screen.CartographyTableScreenHandler(syncId,inventory.wrapperContained); }
+public CartographyTableScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.CartographyTableScreenHandler(syncId,inventory.wrapperContained,context.wrapperContained); }
+// public void method_17379(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { wrapperContained.method_17379(world.wrapperContained,pos.wrapperContained); }
 // public void updateResult(yarnwrap.item.ItemStack map,yarnwrap.item.ItemStack item,yarnwrap.item.ItemStack oldResult) { wrapperContained.updateResult(map.wrapperContained,item.wrapperContained,oldResult.wrapperContained); }
+// public void method_17382(yarnwrap.item.ItemStack world,yarnwrap.item.ItemStack pos) { wrapperContained.method_17382(world.wrapperContained,pos.wrapperContained); }
 
 }

@@ -13,12 +13,15 @@ public yarnwrap.state.property.BooleanProperty WATERLOGGED() { return new yarnwr
 // public void RESONATION_NOTE_PITCHES(float[] value) { wrapperContained.RESONATION_NOTE_PITCHES = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public SculkSensorBlock(Object settings) { this.wrapperContained = new net.minecraft.block.SculkSensorBlock(settings); }
 // public void updateNeighbors(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.updateNeighbors(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 public void setCooldown(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.setCooldown(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 public void setActive(yarnwrap.entity.Entity sourceEntity,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,int power,int frequency) { wrapperContained.setActive(sourceEntity.wrapperContained,world.wrapperContained,pos.wrapperContained,state.wrapperContained,power,frequency); }
+// public void method_32905(yarnwrap.world.World worldx,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState statex,yarnwrap.block.entity.SculkSensorBlockEntity blockEntity) { wrapperContained.method_32905(worldx.wrapperContained,pos.wrapperContained,statex.wrapperContained,blockEntity.wrapperContained); }
 public yarnwrap.block.enums.SculkSensorPhase getPhase(yarnwrap.block.BlockState state) { return new yarnwrap.block.enums.SculkSensorPhase(wrapperContained.getPhase(state.wrapperContained)); }
 public boolean isInactive(yarnwrap.block.BlockState state) { return wrapperContained.isInactive(state.wrapperContained); }
 public void tryResonate(yarnwrap.entity.Entity sourceEntity,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,int frequency) { wrapperContained.tryResonate(sourceEntity.wrapperContained,world.wrapperContained,pos.wrapperContained,frequency); }
+// public void method_49823(float frequency) { wrapperContained.method_49823(frequency); }
 public int getCooldownTime() { return wrapperContained.getCooldownTime(); }
 
 }

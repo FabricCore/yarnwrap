@@ -7,6 +7,7 @@ public class FpsSmoother { public net.minecraft.client.render.FpsSmoother wrappe
 // public void size(int value) { wrapperContained.size = value; }
 // public int index() { return wrapperContained.index; }
 // public void index(int value) { wrapperContained.index = value; }
+public FpsSmoother(int size) { this.wrapperContained = new net.minecraft.client.render.FpsSmoother(size); }
 public long getTargetUsedTime(long time) { return wrapperContained.getTargetUsedTime(time); }
 
 }

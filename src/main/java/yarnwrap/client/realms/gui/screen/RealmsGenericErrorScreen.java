@@ -7,8 +7,12 @@ public class RealmsGenericErrorScreen { public net.minecraft.client.realms.gui.s
 // // public void errorMessages(Object value) { wrapperContained.errorMessages = value; }
 // public yarnwrap.client.font.MultilineText description() { return new yarnwrap.client.font.MultilineText(wrapperContained.description); }
 // public void description(yarnwrap.client.font.MultilineText value) { wrapperContained.description = value.wrapperContained; }
+public RealmsGenericErrorScreen(yarnwrap.text.Text title,yarnwrap.text.Text description,yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsGenericErrorScreen(title.wrapperContained,description.wrapperContained,parent.wrapperContained); }
+public RealmsGenericErrorScreen(yarnwrap.text.Text description,yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsGenericErrorScreen(description.wrapperContained,parent.wrapperContained); }
+public RealmsGenericErrorScreen(yarnwrap.client.realms.exception.RealmsServiceException realmsServiceException,yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsGenericErrorScreen(realmsServiceException.wrapperContained,parent.wrapperContained); }
 // public Object getErrorMessages(yarnwrap.text.Text description) { return wrapperContained.getErrorMessages(description.wrapperContained); }
 // public Object getErrorMessages(yarnwrap.text.Text title,yarnwrap.text.Text description) { return wrapperContained.getErrorMessages(title.wrapperContained,description.wrapperContained); }
+// public void method_25160(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25160(button.wrapperContained); }
 // public Object getErrorMessages(yarnwrap.client.realms.exception.RealmsServiceException exception) { return wrapperContained.getErrorMessages(exception.wrapperContained); }
 
 }

@@ -15,8 +15,12 @@ public class EditGameRulesScreen { public net.minecraft.client.gui.screen.world.
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
 // public Object ruleListWidget() { return wrapperContained.ruleListWidget; }
 // // public void ruleListWidget(Object value) { wrapperContained.ruleListWidget = value; }
+public EditGameRulesScreen(yarnwrap.world.GameRules gameRules,java.util.function.Consumer ruleSaveConsumer) { this.wrapperContained = new net.minecraft.client.gui.screen.world.EditGameRulesScreen(gameRules.wrapperContained,ruleSaveConsumer); }
+// public void method_27619(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_27619(button.wrapperContained); }
 // public void markInvalid(Object ruleWidget) { wrapperContained.markInvalid(ruleWidget); }
 // public void markValid(Object ruleWidget) { wrapperContained.markValid(ruleWidget); }
 // public void updateDoneButton() { wrapperContained.updateDoneButton(); }
+// public void method_48682(yarnwrap.client.gui.screen.world.EditGameRulesScreen child) { wrapperContained.method_48682(child.wrapperContained); }
+// public void method_57770(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_57770(button.wrapperContained); }
 
 }

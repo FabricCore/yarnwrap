@@ -41,7 +41,11 @@ public yarnwrap.state.property.BooleanProperty POWERED() { return new yarnwrap.s
 // public void blockSetType(yarnwrap.block.BlockSetType value) { wrapperContained.blockSetType = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public ButtonBlock(yarnwrap.block.BlockSetType blockSetType,int pressTicks,Object settings) { this.wrapperContained = new net.minecraft.block.ButtonBlock(blockSetType.wrapperContained,pressTicks,settings); }
 public void powerOn(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player) { wrapperContained.powerOn(state.wrapperContained,world.wrapperContained,pos.wrapperContained,player.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53983(Object instance) { return wrapperContained.method_53983(instance); }
+// public java.lang.Integer method_53984(yarnwrap.block.ButtonBlock block) { return wrapperContained.method_53984(block.wrapperContained); }
+// public yarnwrap.block.BlockSetType method_53985(yarnwrap.block.ButtonBlock block) { return new yarnwrap.block.BlockSetType(wrapperContained.method_53985(block.wrapperContained)); }
 // public yarnwrap.sound.SoundEvent getClickSound(boolean powered) { return new yarnwrap.sound.SoundEvent(wrapperContained.getClickSound(powered)); }
 // public void updateNeighbors(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.updateNeighbors(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
 // public void playClickSound(yarnwrap.entity.player.PlayerEntity player,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,boolean powered) { wrapperContained.playClickSound(player.wrapperContained,world.wrapperContained,pos.wrapperContained,powered); }

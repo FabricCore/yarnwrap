@@ -13,6 +13,7 @@ public class ChainRestrictedNeighborUpdater { public net.minecraft.world.block.C
 // public void depth(int value) { wrapperContained.depth = value; }
 // public int maxChainDepth() { return wrapperContained.maxChainDepth; }
 // public void maxChainDepth(int value) { wrapperContained.maxChainDepth = value; }
+public ChainRestrictedNeighborUpdater(yarnwrap.world.World world,int maxChainDepth) { this.wrapperContained = new net.minecraft.world.block.ChainRestrictedNeighborUpdater(world.wrapperContained,maxChainDepth); }
 // public void runQueuedUpdates() { wrapperContained.runQueuedUpdates(); }
 // public void enqueue(yarnwrap.util.math.BlockPos pos,Object entry) { wrapperContained.enqueue(pos.wrapperContained,entry); }
 

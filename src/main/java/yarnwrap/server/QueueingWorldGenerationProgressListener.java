@@ -7,6 +7,7 @@ public class QueueingWorldGenerationProgressListener { public net.minecraft.serv
 // public void queue(yarnwrap.util.thread.TaskExecutor value) { wrapperContained.queue = value.wrapperContained; }
 // public boolean running() { return wrapperContained.running; }
 // public void running(boolean value) { wrapperContained.running = value; }
+// public QueueingWorldGenerationProgressListener(yarnwrap.server.WorldGenerationProgressListener progressListener,java.util.concurrent.Executor executor) { this.wrapperContained = new net.minecraft.server.QueueingWorldGenerationProgressListener(progressListener.wrapperContained,executor); }
 public yarnwrap.server.QueueingWorldGenerationProgressListener create(yarnwrap.server.WorldGenerationProgressListener progressListener,java.util.concurrent.Executor executor) { return new yarnwrap.server.QueueingWorldGenerationProgressListener(wrapperContained.create(progressListener.wrapperContained,executor)); }
 
 }

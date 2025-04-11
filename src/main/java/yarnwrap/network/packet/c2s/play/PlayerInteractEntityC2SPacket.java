@@ -11,6 +11,8 @@ public class PlayerInteractEntityC2SPacket { public net.minecraft.network.packet
 // // public void ATTACK(Object value) { wrapperContained.ATTACK = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public PlayerInteractEntityC2SPacket(int entityId,boolean playerSneaking,Object type) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket(entityId,playerSneaking,type); }
+// public PlayerInteractEntityC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket(buf.wrapperContained); }
 public yarnwrap.entity.Entity getEntity(yarnwrap.server.world.ServerWorld world) { return new yarnwrap.entity.Entity(wrapperContained.getEntity(world.wrapperContained)); }
 public boolean isPlayerSneaking() { return wrapperContained.isPlayerSneaking(); }
 public yarnwrap.network.packet.c2s.play.PlayerInteractEntityC2SPacket attack(yarnwrap.entity.Entity entity,boolean playerSneaking) { return new yarnwrap.network.packet.c2s.play.PlayerInteractEntityC2SPacket(wrapperContained.attack(entity.wrapperContained,playerSneaking)); }

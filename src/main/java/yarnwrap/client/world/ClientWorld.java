@@ -39,6 +39,7 @@ public class ClientWorld { public net.minecraft.client.world.ClientWorld wrapper
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public yarnwrap.world.tick.TickManager tickManager() { return new yarnwrap.world.tick.TickManager(wrapperContained.tickManager); }
 // public void tickManager(yarnwrap.world.tick.TickManager value) { wrapperContained.tickManager = value.wrapperContained; }
+// public ClientWorld(yarnwrap.client.network.ClientPlayNetworkHandler networkHandler,Object properties,yarnwrap.registry.RegistryKey registryRef,yarnwrap.registry.entry.RegistryEntry dimensionTypeEntry,int loadDistance,int simulationDistance,java.util.function.Supplier profiler,yarnwrap.client.render.WorldRenderer worldRenderer,boolean debugWorld,long seed) { this.wrapperContained = new net.minecraft.client.world.ClientWorld(networkHandler.wrapperContained,properties,registryRef.wrapperContained,dimensionTypeEntry.wrapperContained,loadDistance,simulationDistance,profiler,worldRenderer.wrapperContained,debugWorld,seed); }
 public void unloadBlockEntities(yarnwrap.world.chunk.WorldChunk chunk) { wrapperContained.unloadBlockEntities(chunk.wrapperContained); }
 public java.lang.Iterable getEntities() { return wrapperContained.getEntities(); }
 public void scheduleBlockRenders(int x,int y,int z) { wrapperContained.scheduleBlockRenders(x,y,z); }
@@ -47,6 +48,8 @@ public int getRegularEntityCount() { return wrapperContained.getRegularEntityCou
 public void tickEntity(yarnwrap.entity.Entity entity) { wrapperContained.tickEntity(entity.wrapperContained); }
 // public void tickPassenger(yarnwrap.entity.Entity entity,yarnwrap.entity.Entity passenger) { wrapperContained.tickPassenger(entity.wrapperContained,passenger.wrapperContained); }
 public yarnwrap.util.math.Vec3d getSkyColor(yarnwrap.util.math.Vec3d cameraPos,float tickDelta) { return new yarnwrap.util.math.Vec3d(wrapperContained.getSkyColor(cameraPos.wrapperContained,tickDelta)); }
+// public void method_23778(it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap map) { wrapperContained.method_23778(map); }
+// public void method_23779(yarnwrap.world.biome.ColorResolver resolver,yarnwrap.client.world.BiomeColorCache cache) { wrapperContained.method_23779(resolver.wrapperContained,cache.wrapperContained); }
 public int calculateColor(yarnwrap.util.math.BlockPos pos,yarnwrap.world.biome.ColorResolver colorResolver) { return wrapperContained.calculateColor(pos.wrapperContained,colorResolver.wrapperContained); }
 public void resetChunkColor(yarnwrap.util.math.ChunkPos chunkPos) { wrapperContained.resetChunkColor(chunkPos.wrapperContained); }
 public float getSkyBrightness(float tickDelta) { return wrapperContained.getSkyBrightness(tickDelta); }
@@ -54,6 +57,7 @@ public void reloadColor() { wrapperContained.reloadColor(); }
 public yarnwrap.util.math.Vec3d getCloudsColor(float tickDelta) { return new yarnwrap.util.math.Vec3d(wrapperContained.getCloudsColor(tickDelta)); }
 public float getStarBrightness(float tickDelta) { return wrapperContained.getStarBrightness(tickDelta); }
 public int getLightningTicksLeft() { return wrapperContained.getLightningTicksLeft(); }
+// public void method_24462(Object config) { wrapperContained.method_24462(config); }
 public void setSpawnPos(yarnwrap.util.math.BlockPos pos,float angle) { wrapperContained.setSpawnPos(pos.wrapperContained,angle); }
 public yarnwrap.client.render.DimensionEffects getDimensionEffects() { return new yarnwrap.client.render.DimensionEffects(wrapperContained.getDimensionEffects()); }
 public void setTime(long time) { wrapperContained.setTime(time); }
@@ -64,11 +68,17 @@ public void doRandomBlockDisplayTicks(int centerX,int centerY,int centerZ) { wra
 // public void randomBlockDisplayTick(int centerX,int centerY,int centerZ,int radius,yarnwrap.util.math.random.Random random,yarnwrap.block.Block block,Object pos) { wrapperContained.randomBlockDisplayTick(centerX,centerY,centerZ,radius,random.wrapperContained,block.wrapperContained,pos); }
 // public void removeEntity(int entityId,Object removalReason) { wrapperContained.removeEntity(entityId,removalReason); }
 // public void addParticle(yarnwrap.util.math.BlockPos pos,yarnwrap.particle.ParticleEffect parameters,yarnwrap.util.shape.VoxelShape shape,double y) { wrapperContained.addParticle(pos.wrapperContained,parameters.wrapperContained,shape.wrapperContained,y); }
+// public void method_32121(yarnwrap.util.math.ChunkPos resolver,yarnwrap.world.biome.ColorResolver cache) { wrapperContained.method_32121(resolver.wrapperContained,cache.wrapperContained); }
+// public void method_32124(yarnwrap.entity.Entity entity) { wrapperContained.method_32124(entity.wrapperContained); }
+// public yarnwrap.util.math.Vec3d method_32689(yarnwrap.world.biome.source.BiomeAccess x,int y,int z) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_32689(x.wrapperContained,y,z)); }
 // public yarnwrap.block.Block getBlockParticle() { return new yarnwrap.block.Block(wrapperContained.getBlockParticle()); }
 // public void putMapStates(java.util.Map mapStates) { wrapperContained.putMapStates(mapStates); }
 // public java.util.Map getMapStates() { return wrapperContained.getMapStates(); }
 public void runQueuedChunkUpdates() { wrapperContained.runQueuedChunkUpdates(); }
+// public int method_38535(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_38535(pos.wrapperContained); }
 public void enqueueChunkUpdate(java.lang.Runnable updater) { wrapperContained.enqueueChunkUpdate(updater); }
+// public int method_38537(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_38537(pos.wrapperContained); }
+// public int method_38538(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_38538(pos.wrapperContained); }
 public boolean hasNoChunkUpdaters() { return wrapperContained.hasNoChunkUpdaters(); }
 public void setSimulationDistance(int simulationDistance) { wrapperContained.setSimulationDistance(simulationDistance); }
 public int getSimulationDistance() { return wrapperContained.getSimulationDistance(); }

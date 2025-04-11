@@ -13,6 +13,7 @@ public class CrafterScreen { public net.minecraft.client.gui.screen.ingame.Craft
 // public void POWERED_REDSTONE_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.POWERED_REDSTONE_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier UNPOWERED_REDSTONE_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.UNPOWERED_REDSTONE_TEXTURE); }
 // public void UNPOWERED_REDSTONE_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.UNPOWERED_REDSTONE_TEXTURE = value.wrapperContained; }
+public CrafterScreen(yarnwrap.screen.CrafterScreenHandler handler,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.CrafterScreen(handler.wrapperContained,playerInventory.wrapperContained,title.wrapperContained); }
 // public void drawDisabledSlot(yarnwrap.client.gui.DrawContext context,yarnwrap.screen.slot.CrafterInputSlot slot) { wrapperContained.drawDisabledSlot(context.wrapperContained,slot.wrapperContained); }
 // public void drawArrowTexture(yarnwrap.client.gui.DrawContext context) { wrapperContained.drawArrowTexture(context.wrapperContained); }
 // public void enableSlot(int slotId) { wrapperContained.enableSlot(slotId); }

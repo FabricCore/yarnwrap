@@ -11,6 +11,7 @@ public class Divider { public net.minecraft.util.math.Divider wrapperContained; 
 // public void returnedCount(int value) { wrapperContained.returnedCount = value; }
 // public int remainder() { return wrapperContained.remainder; }
 // public void remainder(int value) { wrapperContained.remainder = value; }
+public Divider(int dividend,int divisor) { this.wrapperContained = new net.minecraft.util.math.Divider(dividend,divisor); }
 public java.lang.Iterable asIterable(int dividend,int divisor) { return wrapperContained.asIterable(dividend,divisor); }
 
 }

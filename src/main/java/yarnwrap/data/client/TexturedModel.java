@@ -57,11 +57,13 @@ public Object FLOWERBED_4() { return wrapperContained.FLOWERBED_4; }
 // // public void FLOWERBED_4(Object value) { wrapperContained.FLOWERBED_4 = value; }
 public Object CUBE_ALL_INNER_FACES() { return wrapperContained.CUBE_ALL_INNER_FACES; }
 // // public void CUBE_ALL_INNER_FACES(Object value) { wrapperContained.CUBE_ALL_INNER_FACES = value; }
+// public TexturedModel(yarnwrap.data.client.TextureMap textures,yarnwrap.data.client.Model model) { this.wrapperContained = new net.minecraft.data.client.TexturedModel(textures.wrapperContained,model.wrapperContained); }
 public yarnwrap.data.client.Model getModel() { return new yarnwrap.data.client.Model(wrapperContained.getModel()); }
 public yarnwrap.util.Identifier upload(yarnwrap.block.Block block,java.lang.String suffix,java.util.function.BiConsumer writer) { return new yarnwrap.util.Identifier(wrapperContained.upload(block.wrapperContained,suffix,writer)); }
 public yarnwrap.util.Identifier upload(yarnwrap.block.Block block,java.util.function.BiConsumer writer) { return new yarnwrap.util.Identifier(wrapperContained.upload(block.wrapperContained,writer)); }
 public yarnwrap.data.client.TexturedModel textures(java.util.function.Consumer texturesConsumer) { return new yarnwrap.data.client.TexturedModel(wrapperContained.textures(texturesConsumer)); }
 // public Object makeFactory(java.util.function.Function texturesGetter,yarnwrap.data.client.Model model) { return wrapperContained.makeFactory(texturesGetter,model.wrapperContained); }
+// public yarnwrap.data.client.TexturedModel method_25919(java.util.function.Function block) { return new yarnwrap.data.client.TexturedModel(wrapperContained.method_25919(block)); }
 public yarnwrap.data.client.TexturedModel getCubeAll(yarnwrap.util.Identifier id) { return new yarnwrap.data.client.TexturedModel(wrapperContained.getCubeAll(id.wrapperContained)); }
 public yarnwrap.data.client.TextureMap getTextures() { return new yarnwrap.data.client.TextureMap(wrapperContained.getTextures()); }
 

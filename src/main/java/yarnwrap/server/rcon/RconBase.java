@@ -11,6 +11,7 @@ public class RconBase { public net.minecraft.server.rcon.RconBase wrapperContain
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public boolean running() { return wrapperContained.running; }
 // public void running(boolean value) { wrapperContained.running = value; }
+// public RconBase(java.lang.String description) { this.wrapperContained = new net.minecraft.server.rcon.RconBase(description); }
 public boolean start() { return wrapperContained.start(); }
 public boolean isRunning() { return wrapperContained.isRunning(); }
 public void stop() { wrapperContained.stop(); }

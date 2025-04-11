@@ -8,6 +8,7 @@ public Object TYPE() { return wrapperContained.TYPE; }
 public yarnwrap.text.PlainTextContent EMPTY() { return new yarnwrap.text.PlainTextContent(wrapperContained.EMPTY); }
 // public void EMPTY(yarnwrap.text.PlainTextContent value) { wrapperContained.EMPTY = value.wrapperContained; }
 public java.lang.String string() { return wrapperContained.string(); }
+// public com.mojang.datafixers.kinds.App method_54231(Object instance) { return wrapperContained.method_54231(instance); }
 // public yarnwrap.text.PlainTextContent of(java.lang.String string) { return new yarnwrap.text.PlainTextContent(wrapperContained.of(string)); }
 
 }

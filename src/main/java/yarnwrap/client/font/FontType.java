@@ -7,6 +7,7 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 // public com.mojang.serialization.MapCodec loaderCodec() { return wrapperContained.loaderCodec; }
 // public void loaderCodec(com.mojang.serialization.MapCodec value) { wrapperContained.loaderCodec = value; }
+// // public FontType(java.lang.String id,int loaderCodec) { this.wrapperContained = new net.minecraft.client.font.FontType(id,loaderCodec); }
 public com.mojang.serialization.MapCodec getLoaderCodec() { return wrapperContained.getLoaderCodec(); }
 
 }

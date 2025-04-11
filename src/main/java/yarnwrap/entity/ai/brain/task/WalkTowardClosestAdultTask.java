@@ -1,7 +1,11 @@
 package yarnwrap.entity.ai.brain.task;
 public class WalkTowardClosestAdultTask { public net.minecraft.entity.ai.brain.task.WalkTowardClosestAdultTask wrapperContained; public WalkTowardClosestAdultTask(net.minecraft.entity.ai.brain.task.WalkTowardClosestAdultTask wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public java.lang.Float method_46895(float entity) { return wrapperContained.method_46895(entity); }
 public yarnwrap.entity.ai.brain.task.SingleTickTask create(yarnwrap.util.math.intprovider.UniformIntProvider executionRange,float speed) { return new yarnwrap.entity.ai.brain.task.SingleTickTask(wrapperContained.create(executionRange.wrapperContained,speed)); }
 public yarnwrap.entity.ai.brain.task.SingleTickTask create(yarnwrap.util.math.intprovider.UniformIntProvider executionRange,java.util.function.Function speed) { return new yarnwrap.entity.ai.brain.task.SingleTickTask(wrapperContained.create(executionRange.wrapperContained,speed)); }
+// public com.mojang.datafixers.kinds.App method_46898(yarnwrap.util.math.intprovider.UniformIntProvider context) { return wrapperContained.method_46898(context.wrapperContained); }
+// public yarnwrap.entity.ai.brain.task.TaskRunnable method_46899(Object nearestVisibleAdult,yarnwrap.util.math.intprovider.UniformIntProvider lookTarget,java.util.function.Function walkTarget) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(wrapperContained.method_46899(nearestVisibleAdult,lookTarget.wrapperContained,walkTarget)); }
+// public boolean method_46900(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,yarnwrap.util.math.intprovider.UniformIntProvider time) { return wrapperContained.method_46900(world,entity.wrapperContained,time.wrapperContained); }
 
 }

@@ -45,6 +45,7 @@ public class CreditsScreen { public net.minecraft.client.gui.screen.CreditsScree
 // public void CREDITS_TEXT_LOCATION(yarnwrap.util.Identifier value) { wrapperContained.CREDITS_TEXT_LOCATION = value.wrapperContained; }
 // public yarnwrap.util.Identifier POST_CREDITS_TEXT_LOCATION() { return new yarnwrap.util.Identifier(wrapperContained.POST_CREDITS_TEXT_LOCATION); }
 // public void POST_CREDITS_TEXT_LOCATION(yarnwrap.util.Identifier value) { wrapperContained.POST_CREDITS_TEXT_LOCATION = value.wrapperContained; }
+public CreditsScreen(boolean endCredits,java.lang.Runnable finishAction) { this.wrapperContained = new net.minecraft.client.gui.screen.CreditsScreen(endCredits,finishAction); }
 // public void closeScreen() { wrapperContained.closeScreen(); }
 // public void addText(yarnwrap.text.Text text,boolean centered) { wrapperContained.addText(text.wrapperContained,centered); }
 // public void addText(java.lang.String text) { wrapperContained.addText(text); }

@@ -25,6 +25,7 @@ public void visible(boolean value) { wrapperContained.visible = value; }
 // public void tooltip(yarnwrap.client.gui.tooltip.TooltipState value) { wrapperContained.tooltip = value.wrapperContained; }
 // public int navigationOrder() { return wrapperContained.navigationOrder; }
 // public void navigationOrder(int value) { wrapperContained.navigationOrder = value; }
+// public ClickableWidget(int x,int y,int width,int height,yarnwrap.text.Text message) { this.wrapperContained = new net.minecraft.client.gui.widget.ClickableWidget(x,y,width,height,message.wrapperContained); }
 public void onClick(double mouseX,double mouseY) { wrapperContained.onClick(mouseX,mouseY); }
 // public void onDrag(double mouseX,double mouseY,double deltaX,double deltaY) { wrapperContained.onDrag(mouseX,mouseY,deltaX,deltaY); }
 public void setAlpha(float alpha) { wrapperContained.setAlpha(alpha); }

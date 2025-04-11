@@ -11,11 +11,14 @@ public class BufferBuilderStorage { public net.minecraft.client.render.BufferBui
 // public void blockBufferBuildersPool(yarnwrap.client.render.chunk.BlockBufferBuilderPool value) { wrapperContained.blockBufferBuildersPool = value.wrapperContained; }
 // public Object entityVertexConsumers() { return wrapperContained.entityVertexConsumers; }
 // // public void entityVertexConsumers(Object value) { wrapperContained.entityVertexConsumers = value; }
+public BufferBuilderStorage(int maxBlockBuildersPoolSize) { this.wrapperContained = new net.minecraft.client.render.BufferBuilderStorage(maxBlockBuildersPoolSize); }
 public yarnwrap.client.render.chunk.BlockBufferAllocatorStorage getBlockBufferBuilders() { return new yarnwrap.client.render.chunk.BlockBufferAllocatorStorage(wrapperContained.getBlockBufferBuilders()); }
 public Object getEntityVertexConsumers() { return wrapperContained.getEntityVertexConsumers(); }
 public Object getEffectVertexConsumers() { return wrapperContained.getEffectVertexConsumers(); }
 public yarnwrap.client.render.OutlineVertexConsumerProvider getOutlineVertexConsumers() { return new yarnwrap.client.render.OutlineVertexConsumerProvider(wrapperContained.getOutlineVertexConsumers()); }
 // public void assignBufferBuilder(it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap builderStorage,yarnwrap.client.render.RenderLayer layer) { wrapperContained.assignBufferBuilder(builderStorage,layer.wrapperContained); }
+// public void method_54639(it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap map) { wrapperContained.method_54639(map); }
 public yarnwrap.client.render.chunk.BlockBufferBuilderPool getBlockBufferBuildersPool() { return new yarnwrap.client.render.chunk.BlockBufferBuilderPool(wrapperContained.getBlockBufferBuildersPool()); }
+// public void method_54641(it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap renderLayer) { wrapperContained.method_54641(renderLayer); }
 
 }

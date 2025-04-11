@@ -6,6 +6,8 @@ public class ClientDataPackManager { public net.minecraft.client.resource.Client
 // public java.util.Map knownPacks() { return wrapperContained.knownPacks; }
 // public void knownPacks(java.util.Map value) { wrapperContained.knownPacks = value; }
 public yarnwrap.resource.LifecycledResourceManager createResourceManager() { return new yarnwrap.resource.LifecycledResourceManager(wrapperContained.createResourceManager()); }
+// public void method_57047(Object knownPackInfo) { wrapperContained.method_57047(knownPackInfo); }
+// public void method_57048(Object resourcePackProfile) { wrapperContained.method_57048(resourcePackProfile); }
 public java.util.List getCommonKnownPacks(java.util.List serverKnownPacks) { return wrapperContained.getCommonKnownPacks(serverKnownPacks); }
 
 }

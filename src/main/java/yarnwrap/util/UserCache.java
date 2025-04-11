@@ -23,6 +23,7 @@ public class UserCache { public net.minecraft.util.UserCache wrapperContained; p
 // public void pendingRequests(java.util.Map value) { wrapperContained.pendingRequests = value; }
 // public java.util.concurrent.Executor executor() { return wrapperContained.executor; }
 // public void executor(java.util.concurrent.Executor value) { wrapperContained.executor = value; }
+public UserCache(com.mojang.authlib.GameProfileRepository profileRepository,java.io.File cacheFile) { this.wrapperContained = new net.minecraft.util.UserCache(profileRepository,cacheFile); }
 public void add(com.mojang.authlib.GameProfile profile) { wrapperContained.add(profile); }
 // public java.util.Optional findProfileByName(com.mojang.authlib.GameProfileRepository repository,java.lang.String name) { return wrapperContained.findProfileByName(repository,name); }
 public void setUseRemote(boolean value) { wrapperContained.setUseRemote(value); }
@@ -34,9 +35,12 @@ public java.util.List load() { return wrapperContained.load(); }
 public void save() { wrapperContained.save(); }
 // public void add(Object entry) { wrapperContained.add(entry); }
 // public com.google.gson.JsonElement entryToJson(Object entry,java.text.DateFormat dateFormat) { return wrapperContained.entryToJson(entry,dateFormat); }
+// public void method_30166(com.google.gson.JsonArray entry) { wrapperContained.method_30166(entry); }
 // public java.util.Optional entryFromJson(com.google.gson.JsonElement json,java.text.DateFormat dateFormat) { return wrapperContained.entryFromJson(json,dateFormat); }
+// public void method_30168(java.text.DateFormat json) { wrapperContained.method_30168(json); }
 // public long incrementAndGetAccessCount() { return wrapperContained.incrementAndGetAccessCount(); }
 // public java.text.DateFormat getDateFormat() { return wrapperContained.getDateFormat(); }
+// public void method_37155(java.lang.String profile,java.util.Optional throwable) { wrapperContained.method_37155(profile,throwable); }
 public java.util.concurrent.CompletableFuture findByNameAsync(java.lang.String username) { return wrapperContained.findByNameAsync(username); }
 public void setExecutor(java.util.concurrent.Executor executor) { wrapperContained.setExecutor(executor); }
 public void clearExecutor() { wrapperContained.clearExecutor(); }

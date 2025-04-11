@@ -7,6 +7,7 @@ public class ParsingState { public net.minecraft.command.argument.packrat.Parsin
 // public void rules(yarnwrap.command.argument.packrat.ParsingRules value) { wrapperContained.rules = value.wrapperContained; }
 // public yarnwrap.command.argument.packrat.ParseErrorList errors() { return new yarnwrap.command.argument.packrat.ParseErrorList(wrapperContained.errors); }
 // public void errors(yarnwrap.command.argument.packrat.ParseErrorList value) { wrapperContained.errors = value.wrapperContained; }
+// public ParsingState(yarnwrap.command.argument.packrat.ParsingRules rules,yarnwrap.command.argument.packrat.ParseErrorList errors) { this.wrapperContained = new net.minecraft.command.argument.packrat.ParsingState(rules.wrapperContained,errors.wrapperContained); }
 public yarnwrap.command.argument.packrat.ParseErrorList getErrors() { return new yarnwrap.command.argument.packrat.ParseErrorList(wrapperContained.getErrors()); }
 public void setCursor(int cursor) { wrapperContained.setCursor(cursor); }
 public java.util.Optional startParsing(yarnwrap.command.argument.packrat.Symbol startSymbol) { return wrapperContained.startParsing(startSymbol.wrapperContained); }

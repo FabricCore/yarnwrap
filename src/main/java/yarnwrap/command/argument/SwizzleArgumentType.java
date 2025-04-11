@@ -7,5 +7,6 @@ public class SwizzleArgumentType { public net.minecraft.command.argument.Swizzle
 // public void INVALID_SWIZZLE_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.INVALID_SWIZZLE_EXCEPTION = value; }
 public java.util.EnumSet getSwizzle(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return wrapperContained.getSwizzle(context,name); }
 public yarnwrap.command.argument.SwizzleArgumentType swizzle() { return new yarnwrap.command.argument.SwizzleArgumentType(wrapperContained.swizzle()); }
+// public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 
 }

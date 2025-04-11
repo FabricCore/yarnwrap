@@ -7,6 +7,7 @@ public class IdList { public net.minecraft.util.collection.IdList wrapperContain
 // public void nextId(int value) { wrapperContained.nextId = value; }
 // public it.unimi.dsi.fastutil.objects.Reference2IntMap idMap() { return wrapperContained.idMap; }
 // public void idMap(it.unimi.dsi.fastutil.objects.Reference2IntMap value) { wrapperContained.idMap = value; }
+public IdList(int initialSize) { this.wrapperContained = new net.minecraft.util.collection.IdList(initialSize); }
 public void set(java.lang.Object value,int id) { wrapperContained.set(value,id); }
 public void add(java.lang.Object value) { wrapperContained.add(value); }
 public boolean containsKey(int index) { return wrapperContained.containsKey(index); }

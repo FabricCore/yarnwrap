@@ -5,5 +5,6 @@ public class BlockFallingDustParticle { public net.minecraft.client.particle.Blo
 // public void spriteProvider(yarnwrap.client.particle.SpriteProvider value) { wrapperContained.spriteProvider = value.wrapperContained; }
 // public float rotationSpeed() { return wrapperContained.rotationSpeed; }
 // public void rotationSpeed(float value) { wrapperContained.rotationSpeed = value; }
+// public BlockFallingDustParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,float red,float green,float blue,yarnwrap.client.particle.SpriteProvider spriteProvider) { this.wrapperContained = new net.minecraft.client.particle.BlockFallingDustParticle(world.wrapperContained,x,y,z,red,green,blue,spriteProvider.wrapperContained); }
 
 }

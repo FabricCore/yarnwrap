@@ -13,6 +13,10 @@ public class WarningScreen { public net.minecraft.client.gui.screen.WarningScree
 // public void textWidget(yarnwrap.client.gui.widget.NarratedMultilineTextWidget value) { wrapperContained.textWidget = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.SimplePositioningWidget positioningWidget() { return new yarnwrap.client.gui.widget.SimplePositioningWidget(wrapperContained.positioningWidget); }
 // public void positioningWidget(yarnwrap.client.gui.widget.SimplePositioningWidget value) { wrapperContained.positioningWidget = value.wrapperContained; }
+// public WarningScreen(yarnwrap.text.Text header,yarnwrap.text.Text message,yarnwrap.text.Text narratedText) { this.wrapperContained = new net.minecraft.client.gui.screen.WarningScreen(header.wrapperContained,message.wrapperContained,narratedText.wrapperContained); }
+// public WarningScreen(yarnwrap.text.Text header,yarnwrap.text.Text messageText,yarnwrap.text.Text checkMessage,yarnwrap.text.Text narratedText) { this.wrapperContained = new net.minecraft.client.gui.screen.WarningScreen(header.wrapperContained,messageText.wrapperContained,checkMessage.wrapperContained,narratedText.wrapperContained); }
 // public yarnwrap.client.gui.widget.LayoutWidget getLayout() { return new yarnwrap.client.gui.widget.LayoutWidget(wrapperContained.getLayout()); }
+// public void method_57753(yarnwrap.client.gui.widget.Positioner positioner) { wrapperContained.method_57753(positioner.wrapperContained); }
+// public void method_57754(yarnwrap.client.gui.screen.WarningScreen child) { wrapperContained.method_57754(child.wrapperContained); }
 
 }

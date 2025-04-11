@@ -13,6 +13,7 @@ public class FeatureContext { public net.minecraft.world.gen.feature.util.Featur
 // public void config(yarnwrap.world.gen.feature.FeatureConfig value) { wrapperContained.config = value.wrapperContained; }
 // public java.util.Optional feature() { return wrapperContained.feature; }
 // public void feature(java.util.Optional value) { wrapperContained.feature = value; }
+public FeatureContext(java.util.Optional feature,yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.chunk.ChunkGenerator generator,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos origin,yarnwrap.world.gen.feature.FeatureConfig config) { this.wrapperContained = new net.minecraft.world.gen.feature.util.FeatureContext(feature,world.wrapperContained,generator.wrapperContained,random.wrapperContained,origin.wrapperContained,config.wrapperContained); }
 public yarnwrap.world.StructureWorldAccess getWorld() { return new yarnwrap.world.StructureWorldAccess(wrapperContained.getWorld()); }
 public yarnwrap.world.gen.chunk.ChunkGenerator getGenerator() { return new yarnwrap.world.gen.chunk.ChunkGenerator(wrapperContained.getGenerator()); }
 public yarnwrap.util.math.random.Random getRandom() { return new yarnwrap.util.math.random.Random(wrapperContained.getRandom()); }

@@ -13,6 +13,7 @@ public class SliderWidget { public net.minecraft.client.gui.widget.SliderWidget 
 // public void HANDLE_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.HANDLE_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier HANDLE_HIGHLIGHTED_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.HANDLE_HIGHLIGHTED_TEXTURE); }
 // public void HANDLE_HIGHLIGHTED_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.HANDLE_HIGHLIGHTED_TEXTURE = value.wrapperContained; }
+// public SliderWidget(int x,int y,int width,int height,yarnwrap.text.Text text,double value) { this.wrapperContained = new net.minecraft.client.gui.widget.SliderWidget(x,y,width,height,text.wrapperContained,value); }
 // public void applyValue() { wrapperContained.applyValue(); }
 // public void setValueFromMouse(double mouseX) { wrapperContained.setValueFromMouse(mouseX); }
 // public void updateMessage() { wrapperContained.updateMessage(); }

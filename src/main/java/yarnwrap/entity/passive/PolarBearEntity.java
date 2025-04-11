@@ -17,6 +17,7 @@ public class PolarBearEntity { public net.minecraft.entity.passive.PolarBearEnti
 // public void WARNING(yarnwrap.entity.data.TrackedData value) { wrapperContained.WARNING = value.wrapperContained; }
 public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 public Object createPolarBearAttributes() { return wrapperContained.createPolarBearAttributes(); }
+// public yarnwrap.registry.tag.TagKey method_60725(yarnwrap.entity.mob.PathAwareEntity polarBear) { return new yarnwrap.registry.tag.TagKey(wrapperContained.method_60725(polarBear.wrapperContained)); }
 public boolean isWarning() { return wrapperContained.isWarning(); }
 public float getWarningAnimationProgress(float tickDelta) { return wrapperContained.getWarningAnimationProgress(tickDelta); }
 // public void playWarningSound() { wrapperContained.playWarningSound(); }

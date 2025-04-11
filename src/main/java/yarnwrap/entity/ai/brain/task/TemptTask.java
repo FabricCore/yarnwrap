@@ -11,7 +11,10 @@ public double DEFAULT_STOP_DISTANCE() { return wrapperContained.DEFAULT_STOP_DIS
 // public void DEFAULT_STOP_DISTANCE(double value) { wrapperContained.DEFAULT_STOP_DISTANCE = value; }
 public double LARGE_ENTITY_STOP_DISTANCE() { return wrapperContained.LARGE_ENTITY_STOP_DISTANCE; }
 // public void LARGE_ENTITY_STOP_DISTANCE(double value) { wrapperContained.LARGE_ENTITY_STOP_DISTANCE = value; }
+public TemptTask(java.util.function.Function speed) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.TemptTask(speed); }
+public TemptTask(java.util.function.Function speed,java.util.function.Function stopDistanceGetter) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.TemptTask(speed,stopDistanceGetter); }
 // public float getSpeed(yarnwrap.entity.mob.PathAwareEntity entity) { return wrapperContained.getSpeed(entity.wrapperContained); }
 // public java.util.Optional getTemptingPlayer(yarnwrap.entity.mob.PathAwareEntity entity) { return wrapperContained.getTemptingPlayer(entity.wrapperContained); }
+// public java.lang.Double method_52173(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_52173(entity.wrapperContained); }
 
 }

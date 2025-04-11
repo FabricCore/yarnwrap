@@ -17,6 +17,9 @@ public class LookAtS2CPacket { public net.minecraft.network.packet.s2c.play.Look
 // // public void targetAnchor(Object value) { wrapperContained.targetAnchor = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public LookAtS2CPacket(Object selfAnchor,double targetX,double targetY,double targetZ) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.LookAtS2CPacket(selfAnchor,targetX,targetY,targetZ); }
+// public LookAtS2CPacket(Object selfAnchor,yarnwrap.entity.Entity entity,Object targetAnchor) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.LookAtS2CPacket(selfAnchor,entity.wrapperContained,targetAnchor); }
+// public LookAtS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.LookAtS2CPacket(buf.wrapperContained); }
 public Object getSelfAnchor() { return wrapperContained.getSelfAnchor(); }
 public yarnwrap.util.math.Vec3d getTargetPosition(yarnwrap.world.World world) { return new yarnwrap.util.math.Vec3d(wrapperContained.getTargetPosition(world.wrapperContained)); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

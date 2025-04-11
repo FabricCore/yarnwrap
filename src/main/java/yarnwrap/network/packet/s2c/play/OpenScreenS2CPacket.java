@@ -9,6 +9,7 @@ public class OpenScreenS2CPacket { public net.minecraft.network.packet.s2c.play.
 // public void name(yarnwrap.text.Text value) { wrapperContained.name = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public OpenScreenS2CPacket(int syncId,yarnwrap.screen.ScreenHandlerType screenHandlerId,yarnwrap.text.Text name) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.OpenScreenS2CPacket(syncId,screenHandlerId.wrapperContained,name.wrapperContained); }
 public int getSyncId() { return wrapperContained.getSyncId(); }
 public yarnwrap.screen.ScreenHandlerType getScreenHandlerType() { return new yarnwrap.screen.ScreenHandlerType(wrapperContained.getScreenHandlerType()); }
 public yarnwrap.text.Text getName() { return new yarnwrap.text.Text(wrapperContained.getName()); }

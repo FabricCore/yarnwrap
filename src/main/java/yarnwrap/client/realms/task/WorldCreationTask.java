@@ -11,5 +11,6 @@ public class WorldCreationTask { public net.minecraft.client.realms.task.WorldCr
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(wrapperContained.TITLE); }
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
+public WorldCreationTask(long worldId,java.lang.String name,java.lang.String motd) { this.wrapperContained = new net.minecraft.client.realms.task.WorldCreationTask(worldId,name,motd); }
 
 }

@@ -193,6 +193,7 @@ public class RenderPhase { public net.minecraft.client.render.RenderPhase wrappe
 // // public void BREEZE_WIND_PROGRAM(Object value) { wrapperContained.BREEZE_WIND_PROGRAM = value; }
 // public Object CLOUDS_PROGRAM() { return wrapperContained.CLOUDS_PROGRAM; }
 // // public void CLOUDS_PROGRAM(Object value) { wrapperContained.CLOUDS_PROGRAM = value; }
+// public RenderPhase(java.lang.String name,java.lang.Runnable beginAction,java.lang.Runnable endAction) { this.wrapperContained = new net.minecraft.client.render.RenderPhase(name,beginAction,endAction); }
 public void startDrawing() { wrapperContained.startDrawing(); }
 // public void setupGlintTexturing(float scale) { wrapperContained.setupGlintTexturing(scale); }
 public void endDrawing() { wrapperContained.endDrawing(); }

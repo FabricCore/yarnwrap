@@ -33,6 +33,7 @@ public yarnwrap.fluid.Fluid getStill() { return new yarnwrap.fluid.Fluid(wrapper
 // public boolean isMatchingAndStill(yarnwrap.fluid.FluidState state) { return wrapperContained.isMatchingAndStill(state.wrapperContained); }
 // public int getNextTickDelay(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.FluidState oldState,yarnwrap.fluid.FluidState newState) { return wrapperContained.getNextTickDelay(world.wrapperContained,pos.wrapperContained,oldState.wrapperContained,newState.wrapperContained); }
 // public boolean canFill(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.fluid.Fluid fluid) { return wrapperContained.canFill(world.wrapperContained,pos.wrapperContained,state.wrapperContained,fluid.wrapperContained); }
+// public yarnwrap.util.shape.VoxelShape method_17773(yarnwrap.world.BlockView state2) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_17773(state2.wrapperContained)); }
 // public boolean isFluidAboveEqual(yarnwrap.fluid.FluidState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isFluidAboveEqual(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
 
 }

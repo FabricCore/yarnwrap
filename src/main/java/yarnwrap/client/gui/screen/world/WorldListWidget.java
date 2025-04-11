@@ -47,10 +47,12 @@ public java.time.format.DateTimeFormatter DATE_FORMAT() { return wrapperContaine
 // public void JOIN_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.JOIN_TEXTURE = value.wrapperContained; }
 // public yarnwrap.text.Text INCOMPATIBLE_TOOLTIP() { return new yarnwrap.text.Text(wrapperContained.INCOMPATIBLE_TOOLTIP); }
 // public void INCOMPATIBLE_TOOLTIP(yarnwrap.text.Text value) { wrapperContained.INCOMPATIBLE_TOOLTIP = value.wrapperContained; }
+public WorldListWidget(yarnwrap.client.gui.screen.world.SelectWorldScreen parent,yarnwrap.client.MinecraftClient client,int width,int height,int y,int itemHeight,java.lang.String search,yarnwrap.client.gui.screen.world.WorldListWidget oldWidget) { this.wrapperContained = new net.minecraft.client.gui.screen.world.WorldListWidget(parent.wrapperContained,client.wrapperContained,width,height,y,itemHeight,search,oldWidget.wrapperContained); }
 public java.util.Optional getSelectedAsOptional() { return wrapperContained.getSelectedAsOptional(); }
 public yarnwrap.client.gui.screen.world.SelectWorldScreen getParent() { return new yarnwrap.client.gui.screen.world.SelectWorldScreen(wrapperContained.getParent()); }
 // public boolean shouldShow(java.lang.String search,yarnwrap.world.level.storage.LevelSummary summary) { return wrapperContained.shouldShow(search,summary.wrapperContained); }
 // public void showSummaries(java.lang.String search,java.util.List summaries) { wrapperContained.showSummaries(search,summaries); }
+// public java.util.List method_43455(java.lang.Throwable throwable) { return wrapperContained.method_43455(throwable); }
 // public void showUnableToLoadScreen(yarnwrap.text.Text message) { wrapperContained.showUnableToLoadScreen(message.wrapperContained); }
 // public java.util.concurrent.CompletableFuture loadLevels() { return wrapperContained.loadLevels(); }
 // public void showLoadingScreen() { wrapperContained.showLoadingScreen(); }

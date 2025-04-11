@@ -9,6 +9,7 @@ public class ChunkSectionCache { public net.minecraft.world.ChunkSectionCache wr
 // public void cachedSection(yarnwrap.world.chunk.ChunkSection value) { wrapperContained.cachedSection = value.wrapperContained; }
 // public long sectionPos() { return wrapperContained.sectionPos; }
 // public void sectionPos(long value) { wrapperContained.sectionPos = value; }
+public ChunkSectionCache(yarnwrap.world.WorldAccess world) { this.wrapperContained = new net.minecraft.world.ChunkSectionCache(world.wrapperContained); }
 public yarnwrap.world.chunk.ChunkSection getSection(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.world.chunk.ChunkSection(wrapperContained.getSection(pos.wrapperContained)); }
 public yarnwrap.block.BlockState getBlockState(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getBlockState(pos.wrapperContained)); }
 

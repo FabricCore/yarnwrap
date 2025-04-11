@@ -9,6 +9,7 @@ public class CsvWriter { public net.minecraft.util.CsvWriter wrapperContained; p
 // public void CRLF(java.lang.String value) { wrapperContained.CRLF = value; }
 // public java.lang.String COMMA() { return wrapperContained.COMMA; }
 // public void COMMA(java.lang.String value) { wrapperContained.COMMA = value; }
+// public CsvWriter(java.io.Writer writer,java.util.List columns) { this.wrapperContained = new net.minecraft.util.CsvWriter(writer,columns); }
 public Object makeHeader() { return wrapperContained.makeHeader(); }
 // public java.lang.String escape(java.lang.Object o) { return wrapperContained.escape(o); }
 // public void printRow(java.util.stream.Stream columns) { wrapperContained.printRow(columns); }

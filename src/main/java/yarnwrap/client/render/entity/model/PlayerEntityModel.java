@@ -31,9 +31,11 @@ public yarnwrap.client.model.ModelPart leftSleeve() { return new yarnwrap.client
 // public void cloak(yarnwrap.client.model.ModelPart value) { wrapperContained.cloak = value.wrapperContained; }
 public yarnwrap.client.model.ModelPart rightSleeve() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightSleeve); }
 // public void rightSleeve(yarnwrap.client.model.ModelPart value) { wrapperContained.rightSleeve = value.wrapperContained; }
+public PlayerEntityModel(yarnwrap.client.model.ModelPart root,boolean thinArms) { this.wrapperContained = new net.minecraft.client.render.entity.model.PlayerEntityModel(root.wrapperContained,thinArms); }
 public yarnwrap.client.model.ModelPart getRandomPart(yarnwrap.util.math.random.Random random) { return new yarnwrap.client.model.ModelPart(wrapperContained.getRandomPart(random.wrapperContained)); }
 public void renderCape(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,int light,int overlay) { wrapperContained.renderCape(matrices.wrapperContained,vertices.wrapperContained,light,overlay); }
 public void renderEars(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,int light,int overlay) { wrapperContained.renderEars(matrices.wrapperContained,vertices.wrapperContained,light,overlay); }
+// public boolean method_32027(yarnwrap.client.model.ModelPart part) { return wrapperContained.method_32027(part.wrapperContained); }
 public yarnwrap.client.model.ModelData getTexturedModelData(yarnwrap.client.model.Dilation dilation,boolean slim) { return new yarnwrap.client.model.ModelData(wrapperContained.getTexturedModelData(dilation.wrapperContained,slim)); }
 
 }

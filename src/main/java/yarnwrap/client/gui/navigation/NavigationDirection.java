@@ -8,6 +8,7 @@ public boolean isAfter(int a,int b) { return wrapperContained.isAfter(a,b); }
 public yarnwrap.client.gui.navigation.NavigationDirection getOpposite() { return new yarnwrap.client.gui.navigation.NavigationDirection(wrapperContained.getOpposite()); }
 public boolean isBefore(int a,int b) { return wrapperContained.isBefore(a,b); }
 public boolean isPositive() { return wrapperContained.isPositive(); }
+// public int method_48242(int a,int b) { return wrapperContained.method_48242(a,b); }
 public it.unimi.dsi.fastutil.ints.IntComparator getComparator() { return wrapperContained.getComparator(); }
 
 }

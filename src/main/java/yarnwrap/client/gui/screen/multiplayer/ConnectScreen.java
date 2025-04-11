@@ -25,6 +25,8 @@ public yarnwrap.text.Text ABORTED_TEXT() { return new yarnwrap.text.Text(wrapper
 // public void ABORTED_TEXT(yarnwrap.text.Text value) { wrapperContained.ABORTED_TEXT = value.wrapperContained; }
 // public io.netty.channel.ChannelFuture future() { return wrapperContained.future; }
 // public void future(io.netty.channel.ChannelFuture value) { wrapperContained.future = value; }
+// public ConnectScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.text.Text failureErrorMessage) { this.wrapperContained = new net.minecraft.client.gui.screen.multiplayer.ConnectScreen(parent.wrapperContained,failureErrorMessage.wrapperContained); }
+// public void method_19800(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19800(button.wrapperContained); }
 // public void connect(yarnwrap.client.MinecraftClient client,yarnwrap.client.network.ServerAddress address,yarnwrap.client.network.ServerInfo info,yarnwrap.client.network.CookieStorage cookieStorage) { wrapperContained.connect(client.wrapperContained,address.wrapperContained,info.wrapperContained,cookieStorage.wrapperContained); }
 // public void setStatus(yarnwrap.text.Text status) { wrapperContained.setStatus(status.wrapperContained); }
 public void connect(yarnwrap.client.gui.screen.Screen screen,yarnwrap.client.MinecraftClient client,yarnwrap.client.network.ServerAddress address,yarnwrap.client.network.ServerInfo info,boolean quickPlay,yarnwrap.client.network.CookieStorage cookieStorage) { wrapperContained.connect(screen.wrapperContained,client.wrapperContained,address.wrapperContained,info.wrapperContained,quickPlay,cookieStorage.wrapperContained); }

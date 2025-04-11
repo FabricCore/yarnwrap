@@ -9,6 +9,7 @@ public class RotationCalculator { public net.minecraft.util.math.RotationCalcula
 // public void rotationPerDegrees(float value) { wrapperContained.rotationPerDegrees = value; }
 // public float degreesPerRotation() { return wrapperContained.degreesPerRotation; }
 // public void degreesPerRotation(float value) { wrapperContained.degreesPerRotation = value; }
+public RotationCalculator(int precision) { this.wrapperContained = new net.minecraft.util.math.RotationCalculator(precision); }
 public int getMax() { return wrapperContained.getMax(); }
 public int toRotation(float degrees) { return wrapperContained.toRotation(degrees); }
 public float toDegrees(int rotation) { return wrapperContained.toDegrees(rotation); }

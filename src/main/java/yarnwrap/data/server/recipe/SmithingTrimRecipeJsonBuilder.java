@@ -11,6 +11,7 @@ public class SmithingTrimRecipeJsonBuilder { public net.minecraft.data.server.re
 // public void addition(yarnwrap.recipe.Ingredient value) { wrapperContained.addition = value.wrapperContained; }
 // public java.util.Map criteria() { return wrapperContained.criteria; }
 // public void criteria(java.util.Map value) { wrapperContained.criteria = value; }
+public SmithingTrimRecipeJsonBuilder(yarnwrap.recipe.book.RecipeCategory category,yarnwrap.recipe.Ingredient template,yarnwrap.recipe.Ingredient base,yarnwrap.recipe.Ingredient addition) { this.wrapperContained = new net.minecraft.data.server.recipe.SmithingTrimRecipeJsonBuilder(category.wrapperContained,template.wrapperContained,base.wrapperContained,addition.wrapperContained); }
 // public void validate(yarnwrap.util.Identifier recipeId) { wrapperContained.validate(recipeId.wrapperContained); }
 public yarnwrap.data.server.recipe.SmithingTrimRecipeJsonBuilder create(yarnwrap.recipe.Ingredient template,yarnwrap.recipe.Ingredient base,yarnwrap.recipe.Ingredient addition,yarnwrap.recipe.book.RecipeCategory category) { return new yarnwrap.data.server.recipe.SmithingTrimRecipeJsonBuilder(wrapperContained.create(template.wrapperContained,base.wrapperContained,addition.wrapperContained,category.wrapperContained)); }
 public yarnwrap.data.server.recipe.SmithingTrimRecipeJsonBuilder criterion(java.lang.String name,yarnwrap.advancement.AdvancementCriterion criterion) { return new yarnwrap.data.server.recipe.SmithingTrimRecipeJsonBuilder(wrapperContained.criterion(name,criterion.wrapperContained)); }

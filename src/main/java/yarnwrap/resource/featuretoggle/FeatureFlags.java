@@ -18,5 +18,6 @@ public yarnwrap.resource.featuretoggle.FeatureFlag TRADE_REBALANCE() { return ne
 public java.lang.String printMissingFlags(yarnwrap.resource.featuretoggle.FeatureManager featureManager,yarnwrap.resource.featuretoggle.FeatureSet featuresToCheck,yarnwrap.resource.featuretoggle.FeatureSet features) { return wrapperContained.printMissingFlags(featureManager.wrapperContained,featuresToCheck.wrapperContained,features.wrapperContained); }
 public boolean isNotVanilla(yarnwrap.resource.featuretoggle.FeatureSet features) { return wrapperContained.isNotVanilla(features.wrapperContained); }
 public java.lang.String printMissingFlags(yarnwrap.resource.featuretoggle.FeatureSet featuresToCheck,yarnwrap.resource.featuretoggle.FeatureSet features) { return wrapperContained.printMissingFlags(featuresToCheck.wrapperContained,features.wrapperContained); }
+// public boolean method_45408(java.util.Set id) { return wrapperContained.method_45408(id); }
 
 }

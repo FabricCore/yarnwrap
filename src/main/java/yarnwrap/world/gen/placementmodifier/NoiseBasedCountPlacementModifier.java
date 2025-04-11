@@ -9,6 +9,8 @@ public class NoiseBasedCountPlacementModifier { public net.minecraft.world.gen.p
 // public void noiseToCountRatio(int value) { wrapperContained.noiseToCountRatio = value; }
 public com.mojang.serialization.MapCodec MODIFIER_CODEC() { return wrapperContained.MODIFIER_CODEC; }
 // public void MODIFIER_CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.MODIFIER_CODEC = value; }
+// public NoiseBasedCountPlacementModifier(int noiseToCountRatio,double noiseFactor,double noiseOffset) { this.wrapperContained = new net.minecraft.world.gen.placementmodifier.NoiseBasedCountPlacementModifier(noiseToCountRatio,noiseFactor,noiseOffset); }
+// public com.mojang.datafixers.kinds.App method_28939(Object instance) { return wrapperContained.method_28939(instance); }
 public yarnwrap.world.gen.placementmodifier.NoiseBasedCountPlacementModifier of(int noiseToCountRatio,double noiseFactor,double noiseOffset) { return new yarnwrap.world.gen.placementmodifier.NoiseBasedCountPlacementModifier(wrapperContained.of(noiseToCountRatio,noiseFactor,noiseOffset)); }
 
 }

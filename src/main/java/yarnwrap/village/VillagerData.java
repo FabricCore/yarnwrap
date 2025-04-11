@@ -17,6 +17,7 @@ public int MAX_LEVEL() { return wrapperContained.MAX_LEVEL; }
 // public void MAX_LEVEL(int value) { wrapperContained.MAX_LEVEL = value; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public VillagerData(yarnwrap.village.VillagerType type,yarnwrap.village.VillagerProfession profession,int level) { this.wrapperContained = new net.minecraft.village.VillagerData(type.wrapperContained,profession.wrapperContained,level); }
 public yarnwrap.village.VillagerType getType() { return new yarnwrap.village.VillagerType(wrapperContained.getType()); }
 public yarnwrap.village.VillagerData withLevel(int level) { return new yarnwrap.village.VillagerData(wrapperContained.withLevel(level)); }
 public yarnwrap.village.VillagerData withProfession(yarnwrap.village.VillagerProfession profession) { return new yarnwrap.village.VillagerData(wrapperContained.withProfession(profession.wrapperContained)); }
@@ -26,5 +27,12 @@ public int getLevel() { return wrapperContained.getLevel(); }
 public int getLowerLevelExperience(int level) { return wrapperContained.getLowerLevelExperience(level); }
 public int getUpperLevelExperience(int level) { return wrapperContained.getUpperLevelExperience(level); }
 public boolean canLevelUp(int level) { return wrapperContained.canLevelUp(level); }
+// public java.lang.Integer method_28371(yarnwrap.village.VillagerData data) { return wrapperContained.method_28371(data.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_28372(Object instance) { return wrapperContained.method_28372(instance); }
+// public yarnwrap.village.VillagerProfession method_28373(yarnwrap.village.VillagerData data) { return new yarnwrap.village.VillagerProfession(wrapperContained.method_28373(data.wrapperContained)); }
+// public yarnwrap.village.VillagerType method_28374(yarnwrap.village.VillagerData data) { return new yarnwrap.village.VillagerType(wrapperContained.method_28374(data.wrapperContained)); }
+// public java.lang.Integer method_56089(yarnwrap.village.VillagerData data) { return wrapperContained.method_56089(data.wrapperContained); }
+// public yarnwrap.village.VillagerProfession method_56090(yarnwrap.village.VillagerData data) { return new yarnwrap.village.VillagerProfession(wrapperContained.method_56090(data.wrapperContained)); }
+// public yarnwrap.village.VillagerType method_56091(yarnwrap.village.VillagerData data) { return new yarnwrap.village.VillagerType(wrapperContained.method_56091(data.wrapperContained)); }
 
 }

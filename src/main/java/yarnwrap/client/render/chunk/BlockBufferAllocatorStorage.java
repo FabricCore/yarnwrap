@@ -10,5 +10,6 @@ public int EXPECTED_TOTAL_SIZE() { return wrapperContained.EXPECTED_TOTAL_SIZE; 
 public void clear() { wrapperContained.clear(); }
 public void reset() { wrapperContained.reset(); }
 public yarnwrap.client.util.BufferAllocator get(yarnwrap.client.render.RenderLayer layer) { return new yarnwrap.client.util.BufferAllocator(wrapperContained.get(layer.wrapperContained)); }
+// public void method_60896(it.unimi.dsi.fastutil.objects.Reference2ObjectArrayMap map) { wrapperContained.method_60896(map); }
 
 }

@@ -9,6 +9,8 @@ public class Resource { public net.minecraft.resource.Resource wrapperContained;
 // public void metadata(yarnwrap.resource.metadata.ResourceMetadata value) { wrapperContained.metadata = value.wrapperContained; }
 // public yarnwrap.resource.ResourcePack pack() { return new yarnwrap.resource.ResourcePack(wrapperContained.pack); }
 // public void pack(yarnwrap.resource.ResourcePack value) { wrapperContained.pack = value.wrapperContained; }
+public Resource(yarnwrap.resource.ResourcePack pack,yarnwrap.resource.InputSupplier inputSupplier) { this.wrapperContained = new net.minecraft.resource.Resource(pack.wrapperContained,inputSupplier.wrapperContained); }
+public Resource(yarnwrap.resource.ResourcePack pack,yarnwrap.resource.InputSupplier inputSupplier,yarnwrap.resource.InputSupplier metadataSupplier) { this.wrapperContained = new net.minecraft.resource.Resource(pack.wrapperContained,inputSupplier.wrapperContained,metadataSupplier.wrapperContained); }
 public java.lang.String getPackId() { return wrapperContained.getPackId(); }
 // public yarnwrap.resource.metadata.ResourceMetadata getMetadata() { return new yarnwrap.resource.metadata.ResourceMetadata(wrapperContained.getMetadata()); }
 // public java.io.InputStream getInputStream() { return wrapperContained.getInputStream(); }

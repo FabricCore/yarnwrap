@@ -5,5 +5,6 @@ public class OnAStickItem { public net.minecraft.item.OnAStickItem wrapperContai
 // public void target(yarnwrap.entity.EntityType value) { wrapperContained.target = value.wrapperContained; }
 // public int damagePerUse() { return wrapperContained.damagePerUse; }
 // public void damagePerUse(int value) { wrapperContained.damagePerUse = value; }
+// public OnAStickItem(Object settings,yarnwrap.entity.EntityType target,int damagePerUse) { this.wrapperContained = new net.minecraft.item.OnAStickItem(settings,target.wrapperContained,damagePerUse); }
 
 }

@@ -7,6 +7,7 @@ public class SoundEntry { public net.minecraft.client.sound.SoundEntry wrapperCo
 // public void subtitle(java.lang.String value) { wrapperContained.subtitle = value; }
 // public boolean replace() { return wrapperContained.replace; }
 // public void replace(boolean value) { wrapperContained.replace = value; }
+public SoundEntry(java.util.List sounds,boolean replace,java.lang.String subtitle) { this.wrapperContained = new net.minecraft.client.sound.SoundEntry(sounds,replace,subtitle); }
 public java.util.List getSounds() { return wrapperContained.getSounds(); }
 public java.lang.String getSubtitle() { return wrapperContained.getSubtitle(); }
 public boolean canReplace() { return wrapperContained.canReplace(); }

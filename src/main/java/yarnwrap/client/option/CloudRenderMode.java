@@ -9,5 +9,6 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 // public java.lang.String serializedId() { return wrapperContained.serializedId; }
 // public void serializedId(java.lang.String value) { wrapperContained.serializedId = value; }
+// // public CloudRenderMode(java.lang.String id,int serializedId,int translationKey) { this.wrapperContained = new net.minecraft.client.option.CloudRenderMode(id,serializedId,translationKey); }
 
 }

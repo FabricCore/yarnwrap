@@ -37,6 +37,8 @@ public int PAGE_HEIGHT() { return wrapperContained.PAGE_HEIGHT; }
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
 // public yarnwrap.client.gui.screen.Screen parent() { return new yarnwrap.client.gui.screen.Screen(wrapperContained.parent); }
 // public void parent(yarnwrap.client.gui.screen.Screen value) { wrapperContained.parent = value.wrapperContained; }
+public AdvancementsScreen(yarnwrap.client.network.ClientAdvancementManager advancementHandler) { this.wrapperContained = new net.minecraft.client.gui.screen.advancement.AdvancementsScreen(advancementHandler.wrapperContained); }
+public AdvancementsScreen(yarnwrap.client.network.ClientAdvancementManager advancementHandler,yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.gui.screen.advancement.AdvancementsScreen(advancementHandler.wrapperContained,parent.wrapperContained); }
 public void drawWindow(yarnwrap.client.gui.DrawContext context,int x,int y) { wrapperContained.drawWindow(context.wrapperContained,x,y); }
 public yarnwrap.client.gui.screen.advancement.AdvancementWidget getAdvancementWidget(yarnwrap.advancement.PlacedAdvancement advancement) { return new yarnwrap.client.gui.screen.advancement.AdvancementWidget(wrapperContained.getAdvancementWidget(advancement.wrapperContained)); }
 // public yarnwrap.client.gui.screen.advancement.AdvancementTab getTab(yarnwrap.advancement.PlacedAdvancement advancement) { return new yarnwrap.client.gui.screen.advancement.AdvancementTab(wrapperContained.getTab(advancement.wrapperContained)); }

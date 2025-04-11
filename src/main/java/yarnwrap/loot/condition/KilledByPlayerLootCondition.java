@@ -6,5 +6,6 @@ public class KilledByPlayerLootCondition { public net.minecraft.loot.condition.K
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public Object builder() { return wrapperContained.builder(); }
+// public boolean test(java.lang.Object context) { return wrapperContained.test(context); }
 
 }

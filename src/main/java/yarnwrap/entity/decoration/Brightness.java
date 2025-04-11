@@ -9,5 +9,6 @@ public yarnwrap.entity.decoration.Brightness FULL() { return new yarnwrap.entity
 public void FULL(yarnwrap.entity.decoration.Brightness value) { wrapperContained.FULL = value.wrapperContained; }
 public int pack() { return wrapperContained.pack(); }
 public yarnwrap.entity.decoration.Brightness unpack(int packed) { return new yarnwrap.entity.decoration.Brightness(wrapperContained.unpack(packed)); }
+// public com.mojang.datafixers.kinds.App method_48765(Object instance) { return wrapperContained.method_48765(instance); }
 
 }

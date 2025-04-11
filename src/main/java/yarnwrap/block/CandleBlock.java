@@ -23,6 +23,8 @@ public int MAX_CANDLE_AMOUNT() { return wrapperContained.MAX_CANDLE_AMOUNT; }
 // public void MAX_CANDLE_AMOUNT(int value) { wrapperContained.MAX_CANDLE_AMOUNT = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public boolean method_31628(Object statex) { return wrapperContained.method_31628(statex); }
 public boolean canBeLit(yarnwrap.block.BlockState state) { return wrapperContained.canBeLit(state.wrapperContained); }
+// public int method_31631(yarnwrap.block.BlockState state) { return wrapperContained.method_31631(state.wrapperContained); }
 
 }

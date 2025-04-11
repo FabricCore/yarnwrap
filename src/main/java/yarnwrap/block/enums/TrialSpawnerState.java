@@ -15,16 +15,23 @@ public class TrialSpawnerState { public net.minecraft.block.enums.TrialSpawnerSt
 // // public void particleEmitter(Object value) { wrapperContained.particleEmitter = value; }
 // public boolean playsSound() { return wrapperContained.playsSound; }
 // public void playsSound(boolean value) { wrapperContained.playsSound = value; }
+// // public TrialSpawnerState(java.lang.String id,int luminance,java.lang.String particleEmitter,int displayRotationSpeed,Object playsSound) { this.wrapperContained = new net.minecraft.block.enums.TrialSpawnerState(id,luminance,particleEmitter,displayRotationSpeed,playsSound); }
 public int getLuminance() { return wrapperContained.getLuminance(); }
 public void emitParticles(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,boolean ominous) { wrapperContained.emitParticles(world.wrapperContained,pos.wrapperContained,ominous); }
+// public void method_55211(yarnwrap.block.spawner.TrialSpawnerLogic lootTable) { wrapperContained.method_55211(lootTable.wrapperContained); }
+// public void method_55212(yarnwrap.block.spawner.TrialSpawnerData uuid) { wrapperContained.method_55212(uuid.wrapperContained); }
+// public void method_55213(yarnwrap.block.spawner.TrialSpawnerData spawnData) { wrapperContained.method_55213(spawnData.wrapperContained); }
 // public yarnwrap.block.enums.TrialSpawnerState tick(yarnwrap.util.math.BlockPos pos,yarnwrap.block.spawner.TrialSpawnerLogic logic,yarnwrap.server.world.ServerWorld world) { return new yarnwrap.block.enums.TrialSpawnerState(wrapperContained.tick(pos.wrapperContained,logic.wrapperContained,world.wrapperContained)); }
 public double getDisplayRotationSpeed() { return wrapperContained.getDisplayRotationSpeed(); }
 public boolean doesDisplayRotate() { return wrapperContained.doesDisplayRotate(); }
 // public boolean playsSound() { return wrapperContained.playsSound(); }
+// public void method_58718(yarnwrap.server.world.ServerWorld pos) { wrapperContained.method_58718(pos.wrapperContained); }
 // public boolean shouldCooldownEnd(yarnwrap.server.world.ServerWorld world,yarnwrap.block.spawner.TrialSpawnerData data) { return wrapperContained.shouldCooldownEnd(world.wrapperContained,data.wrapperContained); }
 // public void spawnOminousItemSpawner(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.spawner.TrialSpawnerLogic logic) { wrapperContained.spawnOminousItemSpawner(world.wrapperContained,pos.wrapperContained,logic.wrapperContained); }
 // public java.util.Optional getPosToSpawnItemSpawner(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.spawner.TrialSpawnerLogic logic,yarnwrap.block.spawner.TrialSpawnerData data) { return wrapperContained.getPosToSpawnItemSpawner(world.wrapperContained,pos.wrapperContained,logic.wrapperContained,data.wrapperContained); }
 // public java.util.Optional getPosAbove(yarnwrap.entity.Entity entity,yarnwrap.server.world.ServerWorld world) { return wrapperContained.getPosAbove(entity.wrapperContained,world.wrapperContained); }
+// public boolean method_58723(yarnwrap.util.math.BlockPos entity) { return wrapperContained.method_58723(entity.wrapperContained); }
+// public boolean method_58724(yarnwrap.util.math.BlockPos player) { return wrapperContained.method_58724(player.wrapperContained); }
 // public yarnwrap.entity.Entity getRandomEntity(java.util.List players,java.util.Set entityUuids,yarnwrap.block.spawner.TrialSpawnerLogic logic,yarnwrap.util.math.BlockPos pos,yarnwrap.server.world.ServerWorld world) { return new yarnwrap.entity.Entity(wrapperContained.getRandomEntity(players,entityUuids,logic.wrapperContained,pos.wrapperContained,world.wrapperContained)); }
 
 }

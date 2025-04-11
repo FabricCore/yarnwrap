@@ -9,5 +9,6 @@ public class AddFlagIfNotPresentFix { public net.minecraft.datafixer.fix.AddFlag
 // public void key(java.lang.String value) { wrapperContained.key = value; }
 // public Object typeReference() { return wrapperContained.typeReference; }
 // // public void typeReference(Object value) { wrapperContained.typeReference = value; }
+// public AddFlagIfNotPresentFix(com.mojang.datafixers.schemas.Schema outputSchema,Object typeReference,java.lang.String key,boolean value) { this.wrapperContained = new net.minecraft.datafixer.fix.AddFlagIfNotPresentFix(outputSchema,typeReference,key,value); }
 
 }

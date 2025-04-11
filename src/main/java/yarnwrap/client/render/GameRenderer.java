@@ -189,6 +189,8 @@ public yarnwrap.client.render.item.HeldItemRenderer firstPersonRenderer() { retu
 // public void blurPostProcessor(yarnwrap.client.gl.PostEffectProcessor value) { wrapperContained.blurPostProcessor = value.wrapperContained; }
 // public yarnwrap.util.Identifier BLUR_PROCESSOR() { return new yarnwrap.util.Identifier(wrapperContained.BLUR_PROCESSOR); }
 // public void BLUR_PROCESSOR(yarnwrap.util.Identifier value) { wrapperContained.BLUR_PROCESSOR = value.wrapperContained; }
+public GameRenderer(yarnwrap.client.MinecraftClient client,yarnwrap.client.render.item.HeldItemRenderer heldItemRenderer,yarnwrap.resource.ResourceManager resourceManager,yarnwrap.client.render.BufferBuilderStorage buffers) { this.wrapperContained = new net.minecraft.client.render.GameRenderer(client.wrapperContained,heldItemRenderer.wrapperContained,resourceManager.wrapperContained,buffers.wrapperContained); }
+// public boolean method_18144(yarnwrap.entity.Entity entity) { return wrapperContained.method_18144(entity.wrapperContained); }
 public yarnwrap.client.render.Camera getCamera() { return new yarnwrap.client.render.Camera(wrapperContained.getCamera()); }
 public void loadProjectionMatrix(org.joml.Matrix4f projectionMatrix) { wrapperContained.loadProjectionMatrix(projectionMatrix); }
 public org.joml.Matrix4f getBasicProjectionMatrix(double fov) { return wrapperContained.getBasicProjectionMatrix(fov); }
@@ -279,18 +281,75 @@ public void setRenderingPanorama(boolean renderingPanorama) { wrapperContained.s
 public yarnwrap.client.MinecraftClient getClient() { return new yarnwrap.client.MinecraftClient(wrapperContained.getClient()); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeTextIntensityProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeTextIntensityProgram()); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeTextIntensitySeeThroughProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeTextIntensitySeeThroughProgram()); }
+// public void method_36486(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36486(program.wrapperContained); }
+// public void method_36487(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36487(program.wrapperContained); }
+// public void method_36488(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36488(program.wrapperContained); }
+// public void method_36489(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36489(program.wrapperContained); }
+// public void method_36492(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36492(program.wrapperContained); }
+// public void method_36493(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36493(program.wrapperContained); }
+// public void method_36494(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36494(program.wrapperContained); }
+// public void method_36495(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36495(program.wrapperContained); }
+// public void method_36496(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36496(program.wrapperContained); }
+// public void method_36497(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36497(program.wrapperContained); }
+// public void method_36498(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36498(program.wrapperContained); }
+// public void method_36499(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36499(program.wrapperContained); }
+// public void method_36502(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36502(program.wrapperContained); }
+// public void method_36504(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36504(program.wrapperContained); }
+// public void method_36505(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36505(program.wrapperContained); }
+// public void method_36506(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36506(program.wrapperContained); }
+// public void method_36507(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36507(program.wrapperContained); }
+// public void method_36508(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36508(program.wrapperContained); }
+// public void method_36509(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36509(program.wrapperContained); }
+// public void method_36510(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36510(program.wrapperContained); }
+// public void method_36511(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36511(program.wrapperContained); }
+// public void method_36512(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_36512(pair); }
+// public void method_36513(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36513(program.wrapperContained); }
+// public void method_36516(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_36516(pair); }
+// public void method_36517(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36517(program.wrapperContained); }
+// public void method_36518(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36518(program.wrapperContained); }
+// public void method_36519(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36519(program.wrapperContained); }
+// public void method_36520(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36520(program.wrapperContained); }
+// public void method_36521(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36521(program.wrapperContained); }
+// public void method_36522(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36522(program.wrapperContained); }
+// public void method_36523(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36523(program.wrapperContained); }
+// public void method_36524(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36524(program.wrapperContained); }
+// public void method_36525(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36525(program.wrapperContained); }
+// public void method_36526(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36526(program.wrapperContained); }
+// public void method_36527(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36527(program.wrapperContained); }
+// public void method_36529(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36529(program.wrapperContained); }
+// public void method_36530(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36530(program.wrapperContained); }
+// public void method_36531(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36531(program.wrapperContained); }
+// public void method_36533(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36533(program.wrapperContained); }
+// public void method_36534(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36534(program.wrapperContained); }
+// public void method_36535(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36535(program.wrapperContained); }
+// public void method_36536(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36536(program.wrapperContained); }
+// public void method_36537(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36537(program.wrapperContained); }
+// public void method_36538(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36538(program.wrapperContained); }
+// public void method_36539(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36539(program.wrapperContained); }
+// public void method_36540(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36540(program.wrapperContained); }
+// public void method_36541(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_36541(program.wrapperContained); }
 // public void updateWorldIcon() { wrapperContained.updateWorldIcon(); }
+// public void method_37474(java.nio.file.Path path) { wrapperContained.method_37474(path); }
+// public void method_42594(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_42594(program.wrapperContained); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeEntityTranslucentEmissiveProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeEntityTranslucentEmissiveProgram()); }
 public yarnwrap.resource.ResourceReloader createProgramReloader() { return new yarnwrap.resource.ResourceReloader(wrapperContained.createProgramReloader()); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeTextBackgroundProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeTextBackgroundProgram()); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeTextBackgroundSeeThroughProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeTextBackgroundSeeThroughProgram()); }
+// public void method_49039(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_49039(program.wrapperContained); }
+// public void method_49040(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_49040(program.wrapperContained); }
+// public void method_51770(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_51770(program.wrapperContained); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeGuiProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeGuiProgram()); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeGuiOverlayProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeGuiOverlayProgram()); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeGuiTextHighlightProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeGuiTextHighlightProgram()); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeGuiGhostRecipeOverlayProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeGuiGhostRecipeOverlayProgram()); }
+// public void method_51775(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_51775(program.wrapperContained); }
+// public void method_51776(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_51776(program.wrapperContained); }
+// public void method_51777(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_51777(program.wrapperContained); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeBreezeWindProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeBreezeWindProgram()); }
+// public void method_55250(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_55250(program.wrapperContained); }
 // public yarnwrap.util.hit.HitResult findCrosshairTarget(yarnwrap.entity.Entity camera,double blockInteractionRange,double entityInteractionRange,float tickDelta) { return new yarnwrap.util.hit.HitResult(wrapperContained.findCrosshairTarget(camera.wrapperContained,blockInteractionRange,entityInteractionRange,tickDelta)); }
 // public yarnwrap.util.hit.HitResult ensureTargetInRange(yarnwrap.util.hit.HitResult hitResult,yarnwrap.util.math.Vec3d cameraPos,double interactionRange) { return new yarnwrap.util.hit.HitResult(wrapperContained.ensureTargetInRange(hitResult.wrapperContained,cameraPos.wrapperContained,interactionRange)); }
+// public void method_56845(yarnwrap.client.gl.ShaderProgram program) { wrapperContained.method_56845(program.wrapperContained); }
 public yarnwrap.client.gl.ShaderProgram getRenderTypeCloudsProgram() { return new yarnwrap.client.gl.ShaderProgram(wrapperContained.getRenderTypeCloudsProgram()); }
 public void renderBlur(float delta) { wrapperContained.renderBlur(delta); }
 // public void loadBlurPostProcessor(yarnwrap.resource.ResourceFactory resourceFactory) { wrapperContained.loadBlurPostProcessor(resourceFactory.wrapperContained); }

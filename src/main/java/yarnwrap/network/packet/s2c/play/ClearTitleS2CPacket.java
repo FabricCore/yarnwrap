@@ -5,6 +5,8 @@ public class ClearTitleS2CPacket { public net.minecraft.network.packet.s2c.play.
 // public void reset(boolean value) { wrapperContained.reset = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public ClearTitleS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ClearTitleS2CPacket(buf.wrapperContained); }
+public ClearTitleS2CPacket(boolean reset) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ClearTitleS2CPacket(reset); }
 public boolean shouldReset() { return wrapperContained.shouldReset(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 

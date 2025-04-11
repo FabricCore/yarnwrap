@@ -9,6 +9,8 @@ public class AbstractPressurePlateBlock { public net.minecraft.block.AbstractPre
 // public void PRESSED_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.PRESSED_SHAPE = value.wrapperContained; }
 // public yarnwrap.util.shape.VoxelShape DEFAULT_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.DEFAULT_SHAPE); }
 // public void DEFAULT_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.DEFAULT_SHAPE = value.wrapperContained; }
+// public AbstractPressurePlateBlock(Object settings,yarnwrap.block.BlockSetType blockSetType) { this.wrapperContained = new net.minecraft.block.AbstractPressurePlateBlock(settings,blockSetType.wrapperContained); }
+// public boolean method_52209(yarnwrap.entity.Entity entity) { return wrapperContained.method_52209(entity.wrapperContained); }
 // public int getEntityCount(yarnwrap.world.World world,yarnwrap.util.math.Box box,java.lang.Class entityClass) { return wrapperContained.getEntityCount(world.wrapperContained,box.wrapperContained,entityClass); }
 // public yarnwrap.block.BlockState setRedstoneOutput(yarnwrap.block.BlockState state,int rsOut) { return new yarnwrap.block.BlockState(wrapperContained.setRedstoneOutput(state.wrapperContained,rsOut)); }
 // public void updatePlateState(yarnwrap.entity.Entity entity,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,int output) { wrapperContained.updatePlateState(entity.wrapperContained,world.wrapperContained,pos.wrapperContained,state.wrapperContained,output); }

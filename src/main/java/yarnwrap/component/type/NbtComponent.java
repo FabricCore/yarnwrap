@@ -13,21 +13,28 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void nbt(yarnwrap.nbt.NbtCompound value) { wrapperContained.nbt = value.wrapperContained; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public NbtComponent(yarnwrap.nbt.NbtCompound nbt) { this.wrapperContained = new net.minecraft.component.type.NbtComponent(nbt.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public int getSize() { return wrapperContained.getSize(); }
 public void applyToEntity(yarnwrap.entity.Entity entity) { wrapperContained.applyToEntity(entity.wrapperContained); }
 public com.mojang.serialization.DataResult get(com.mojang.serialization.MapDecoder decoder) { return wrapperContained.get(decoder); }
 public com.mojang.serialization.DataResult with(com.mojang.serialization.DynamicOps ops,com.mojang.serialization.MapEncoder encoder,java.lang.Object value) { return wrapperContained.with(ops,encoder,value); }
+// public yarnwrap.nbt.NbtCompound method_57448(yarnwrap.component.type.NbtComponent component) { return new yarnwrap.nbt.NbtCompound(wrapperContained.method_57448(component.wrapperContained)); }
 // public boolean applyToBlockEntity(yarnwrap.block.entity.BlockEntity blockEntity,Object registryLookup) { return wrapperContained.applyToBlockEntity(blockEntity.wrapperContained,registryLookup); }
 public boolean contains(java.lang.String key) { return wrapperContained.contains(key); }
 public yarnwrap.component.type.NbtComponent apply(java.util.function.Consumer nbtConsumer) { return new yarnwrap.component.type.NbtComponent(wrapperContained.apply(nbtConsumer)); }
 public void set(yarnwrap.component.ComponentType type,yarnwrap.item.ItemStack stack,java.util.function.Consumer nbtSetter) { wrapperContained.set(type.wrapperContained,stack.wrapperContained,nbtSetter); }
 public void set(yarnwrap.component.ComponentType type,yarnwrap.item.ItemStack stack,yarnwrap.nbt.NbtCompound nbt) { wrapperContained.set(type.wrapperContained,stack.wrapperContained,nbt.wrapperContained); }
 public java.util.function.Predicate createPredicate(yarnwrap.component.ComponentType type,yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.createPredicate(type.wrapperContained,nbt.wrapperContained); }
+// public boolean method_57455(yarnwrap.component.ComponentType stack) { return wrapperContained.method_57455(stack.wrapperContained); }
 public yarnwrap.component.type.NbtComponent of(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.component.type.NbtComponent(wrapperContained.of(nbt.wrapperContained)); }
+// public yarnwrap.component.type.NbtComponent method_57457(yarnwrap.nbt.NbtElement nbt) { return new yarnwrap.component.type.NbtComponent(wrapperContained.method_57457(nbt.wrapperContained)); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
+// public com.mojang.serialization.DataResult method_57459(yarnwrap.component.type.NbtComponent component) { return wrapperContained.method_57459(component.wrapperContained); }
 public boolean matches(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.matches(nbt.wrapperContained); }
 public yarnwrap.nbt.NbtCompound copyNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.copyNbt()); }
 public yarnwrap.nbt.NbtCompound getNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.getNbt()); }
+// public yarnwrap.nbt.NbtCompound method_57464(yarnwrap.component.type.NbtComponent component) { return new yarnwrap.nbt.NbtCompound(wrapperContained.method_57464(component.wrapperContained)); }
 public com.mojang.serialization.DataResult get(com.mojang.serialization.DynamicOps ops,com.mojang.serialization.MapDecoder decoder) { return wrapperContained.get(ops,decoder); }
 
 }

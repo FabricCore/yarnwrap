@@ -12,6 +12,7 @@ public class BoneMealTask { public net.minecraft.entity.ai.brain.task.BoneMealTa
 // public int MAX_DURATION() { return wrapperContained.MAX_DURATION; }
 // public void MAX_DURATION(int value) { wrapperContained.MAX_DURATION = value; }
 // public void addLookWalkTargets(yarnwrap.entity.passive.VillagerEntity villager) { wrapperContained.addLookWalkTargets(villager.wrapperContained); }
+// public void method_26325(yarnwrap.entity.passive.VillagerEntity pos) { wrapperContained.method_26325(pos.wrapperContained); }
 // public boolean canBoneMeal(yarnwrap.util.math.BlockPos pos,yarnwrap.server.world.ServerWorld world) { return wrapperContained.canBoneMeal(pos.wrapperContained,world.wrapperContained); }
 // public java.util.Optional findBoneMealPos(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.VillagerEntity entity) { return wrapperContained.findBoneMealPos(world.wrapperContained,entity.wrapperContained); }
 

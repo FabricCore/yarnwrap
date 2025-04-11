@@ -55,6 +55,7 @@ public class RealmsConfigureWorldScreen { public net.minecraft.client.realms.gui
 // public void OPEN_STATUS_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.OPEN_STATUS_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier CLOSED_STATUS_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.CLOSED_STATUS_TEXTURE); }
 // public void CLOSED_STATUS_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.CLOSED_STATUS_TEXTURE = value.wrapperContained; }
+public RealmsConfigureWorldScreen(yarnwrap.client.realms.gui.screen.RealmsMainScreen parent,long serverId) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsConfigureWorldScreen(parent.wrapperContained,serverId); }
 // public void stateChanged() { wrapperContained.stateChanged(); }
 // public yarnwrap.client.realms.gui.RealmsWorldSlotButton addSlotButton(int slotIndex) { return new yarnwrap.client.realms.gui.RealmsWorldSlotButton(wrapperContained.addSlotButton(slotIndex)); }
 // public int buttonCenter(int i,int total) { return wrapperContained.buttonCenter(i,total); }
@@ -76,7 +77,16 @@ public yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen getNewScreen
 // public boolean isMinigame() { return wrapperContained.isMinigame(); }
 // public void hideRegularButtons() { wrapperContained.hideRegularButtons(); }
 // public void hideMinigameButtons() { wrapperContained.hideMinigameButtons(); }
+// public void method_25135(int button) { wrapperContained.method_25135(button); }
 // public void removeButton(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.removeButton(button.wrapperContained); }
+// public void method_25140(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25140(button.wrapperContained); }
+// public void method_25141(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25141(button.wrapperContained); }
+// public void method_25142(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25142(button.wrapperContained); }
+// public void method_25144(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25144(button.wrapperContained); }
+// public void method_25145(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25145(button.wrapperContained); }
+// public void method_25146(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25146(button.wrapperContained); }
+// public void method_25147(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25147(button.wrapperContained); }
+// public void method_25148(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25148(button.wrapperContained); }
 // public void switchMinigame(yarnwrap.client.realms.dto.WorldTemplate template) { wrapperContained.switchMinigame(template.wrapperContained); }
 // public void drawServerState(yarnwrap.client.gui.DrawContext context,int x,int y,int mouseX,int mouseY,yarnwrap.util.Identifier texture,java.util.function.Supplier tooltipGetter) { wrapperContained.drawServerState(context.wrapperContained,x,y,mouseX,mouseY,texture.wrapperContained,tooltipGetter); }
 

@@ -23,12 +23,16 @@ public class SculkShriekerBlockEntity { public net.minecraft.block.entity.SculkS
 // // public void vibrationCallback(Object value) { wrapperContained.vibrationCallback = value; }
 // public Object vibrationListenerData() { return wrapperContained.vibrationListenerData; }
 // // public void vibrationListenerData(Object value) { wrapperContained.vibrationListenerData = value; }
+public SculkShriekerBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.SculkShriekerBlockEntity(pos.wrapperContained,state.wrapperContained); }
+// public void method_42322(Object vibrationListener) { wrapperContained.method_42322(vibrationListener); }
 public void shriek(yarnwrap.server.world.ServerWorld world,yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.shriek(world.wrapperContained,player.wrapperContained); }
 // public boolean trySyncWarningLevel(yarnwrap.server.world.ServerWorld world,yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.trySyncWarningLevel(world.wrapperContained,player.wrapperContained); }
+// public void method_43146(it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap warningSounds) { wrapperContained.method_43146(warningSounds); }
 public void warn(yarnwrap.server.world.ServerWorld world) { wrapperContained.warn(world.wrapperContained); }
 // public boolean trySpawnWarden(yarnwrap.server.world.ServerWorld world) { return wrapperContained.trySpawnWarden(world.wrapperContained); }
 // public boolean canWarn(yarnwrap.server.world.ServerWorld world) { return wrapperContained.canWarn(world.wrapperContained); }
 // public void playWarningSound(yarnwrap.world.World world) { wrapperContained.playWarningSound(world.wrapperContained); }
+// public void method_44016(int warningLevel) { wrapperContained.method_44016(warningLevel); }
 // public void shriek(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity) { wrapperContained.shriek(world.wrapperContained,entity.wrapperContained); }
 public yarnwrap.server.network.ServerPlayerEntity findResponsiblePlayerFromEntity(yarnwrap.entity.Entity entity) { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.findResponsiblePlayerFromEntity(entity.wrapperContained)); }
 

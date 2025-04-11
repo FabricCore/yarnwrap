@@ -25,6 +25,7 @@ public class FontStorage { public net.minecraft.client.font.FontStorage wrapperC
 // public void allFonts(java.util.List value) { wrapperContained.allFonts = value; }
 // public java.util.List availableFonts() { return wrapperContained.availableFonts; }
 // public void availableFonts(java.util.List value) { wrapperContained.availableFonts = value; }
+public FontStorage(yarnwrap.client.texture.TextureManager textureManager,yarnwrap.util.Identifier id) { this.wrapperContained = new net.minecraft.client.font.FontStorage(textureManager.wrapperContained,id.wrapperContained); }
 public void setFonts(java.util.List allFonts,java.util.Set activeFilters) { wrapperContained.setFonts(allFonts,activeFilters); }
 // public void closeGlyphAtlases() { wrapperContained.closeGlyphAtlases(); }
 public yarnwrap.client.font.Glyph getGlyph(int codePoint,boolean validateAdvance) { return new yarnwrap.client.font.Glyph(wrapperContained.getGlyph(codePoint,validateAdvance)); }
@@ -35,7 +36,10 @@ public yarnwrap.client.font.GlyphRenderer getRectangleRenderer() { return new ya
 // public Object findGlyph(int codePoint) { return wrapperContained.findGlyph(codePoint); }
 // public yarnwrap.client.font.GlyphRenderer findGlyphRenderer(int codePoint) { return new yarnwrap.client.font.GlyphRenderer(wrapperContained.findGlyphRenderer(codePoint)); }
 // public boolean isAdvanceInvalid(yarnwrap.client.font.Glyph glyph) { return wrapperContained.isAdvanceInvalid(glyph.wrapperContained); }
+// public Object method_51636(int rowCount) { return wrapperContained.method_51636(rowCount); }
+// public net.minecraft.client.font.GlyphRenderer[][] method_51638(int rowCount) { return wrapperContained.method_51638(rowCount); }
 public yarnwrap.util.Identifier getId() { return new yarnwrap.util.Identifier(wrapperContained.getId()); }
+// public void method_57035(java.util.List codePoint) { wrapperContained.method_57035(codePoint); }
 public void setActiveFilters(java.util.Set activeFilters) { wrapperContained.setActiveFilters(activeFilters); }
 // public java.util.List applyFilters(java.util.List allFonts,java.util.Set activeFilters) { return wrapperContained.applyFilters(allFonts,activeFilters); }
 // public void clear() { wrapperContained.clear(); }

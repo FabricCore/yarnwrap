@@ -33,6 +33,8 @@ public class MerchantScreenHandler { public net.minecraft.screen.MerchantScreenH
 // public void merchantInventory(yarnwrap.village.MerchantInventory value) { wrapperContained.merchantInventory = value.wrapperContained; }
 // public yarnwrap.village.Merchant merchant() { return new yarnwrap.village.Merchant(wrapperContained.merchant); }
 // public void merchant(yarnwrap.village.Merchant value) { wrapperContained.merchant = value.wrapperContained; }
+public MerchantScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.MerchantScreenHandler(syncId,playerInventory.wrapperContained); }
+public MerchantScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.village.Merchant merchant) { this.wrapperContained = new net.minecraft.screen.MerchantScreenHandler(syncId,playerInventory.wrapperContained,merchant.wrapperContained); }
 public void setOffers(yarnwrap.village.TradeOfferList offers) { wrapperContained.setOffers(offers.wrapperContained); }
 public yarnwrap.village.TradeOfferList getRecipes() { return new yarnwrap.village.TradeOfferList(wrapperContained.getRecipes()); }
 public void setLeveled(boolean leveled) { wrapperContained.setLeveled(leveled); }
@@ -47,6 +49,7 @@ public void switchTo(int recipeIndex) { wrapperContained.switchTo(recipeIndex); 
 // public void playYesSound() { wrapperContained.playYesSound(); }
 public void setCanRefreshTrades(boolean canRefreshTrades) { wrapperContained.setCanRefreshTrades(canRefreshTrades); }
 // public boolean canRefreshTrades() { return wrapperContained.canRefreshTrades(); }
+// public void method_57323(yarnwrap.village.TradedItem item) { wrapperContained.method_57323(item.wrapperContained); }
 public void setRecipeIndex(int index) { wrapperContained.setRecipeIndex(index); }
 
 }

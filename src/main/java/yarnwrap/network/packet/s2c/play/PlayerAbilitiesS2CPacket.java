@@ -23,6 +23,8 @@ public class PlayerAbilitiesS2CPacket { public net.minecraft.network.packet.s2c.
 // public void CREATIVE_MODE_MASK(int value) { wrapperContained.CREATIVE_MODE_MASK = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public PlayerAbilitiesS2CPacket(yarnwrap.entity.player.PlayerAbilities abilities) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PlayerAbilitiesS2CPacket(abilities.wrapperContained); }
+// public PlayerAbilitiesS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PlayerAbilitiesS2CPacket(buf.wrapperContained); }
 public float getFlySpeed() { return wrapperContained.getFlySpeed(); }
 public float getWalkSpeed() { return wrapperContained.getWalkSpeed(); }
 public boolean isInvulnerable() { return wrapperContained.isInvulnerable(); }

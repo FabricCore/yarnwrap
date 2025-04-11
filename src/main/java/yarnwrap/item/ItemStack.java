@@ -39,6 +39,13 @@ public yarnwrap.item.ItemStack EMPTY() { return new yarnwrap.item.ItemStack(wrap
 // public void EMPTY(yarnwrap.item.ItemStack value) { wrapperContained.EMPTY = value.wrapperContained; }
 // public yarnwrap.item.Item item() { return new yarnwrap.item.Item(wrapperContained.item); }
 // public void item(yarnwrap.item.Item value) { wrapperContained.item = value.wrapperContained; }
+// public ItemStack(java.lang.Void v) { this.wrapperContained = new net.minecraft.item.ItemStack(v); }
+public ItemStack(yarnwrap.item.ItemConvertible item) { this.wrapperContained = new net.minecraft.item.ItemStack(item.wrapperContained); }
+public ItemStack(yarnwrap.item.ItemConvertible item,int count) { this.wrapperContained = new net.minecraft.item.ItemStack(item.wrapperContained,count); }
+// public ItemStack(yarnwrap.item.ItemConvertible item,int count,yarnwrap.component.ComponentMapImpl components) { this.wrapperContained = new net.minecraft.item.ItemStack(item.wrapperContained,count,components.wrapperContained); }
+public ItemStack(yarnwrap.registry.entry.RegistryEntry entry) { this.wrapperContained = new net.minecraft.item.ItemStack(entry.wrapperContained); }
+public ItemStack(yarnwrap.registry.entry.RegistryEntry itemEntry,int count) { this.wrapperContained = new net.minecraft.item.ItemStack(itemEntry.wrapperContained,count); }
+public ItemStack(yarnwrap.registry.entry.RegistryEntry item,int count,yarnwrap.component.ComponentChanges changes) { this.wrapperContained = new net.minecraft.item.ItemStack(item.wrapperContained,count,changes.wrapperContained); }
 public yarnwrap.sound.SoundEvent getDrinkSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getDrinkSound()); }
 public yarnwrap.sound.SoundEvent getEatSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getEatSound()); }
 public yarnwrap.entity.Entity getHolder() { return new yarnwrap.entity.Entity(wrapperContained.getHolder()); }
@@ -62,13 +69,17 @@ public yarnwrap.item.ItemStack copyWithCount(int count) { return new yarnwrap.it
 public yarnwrap.item.ItemStack copyAndEmpty() { return new yarnwrap.item.ItemStack(wrapperContained.copyAndEmpty()); }
 public boolean isIn(yarnwrap.registry.entry.RegistryEntryList registryEntryList) { return wrapperContained.isIn(registryEntryList.wrapperContained); }
 public void onCraftByCrafter(yarnwrap.world.World world) { wrapperContained.onCraftByCrafter(world.wrapperContained); }
+// public void method_56097(yarnwrap.entity.LivingEntity item) { wrapperContained.method_56097(item.wrapperContained); }
+// public java.util.Optional method_56700(yarnwrap.item.ItemStack stack) { return wrapperContained.method_56700(stack.wrapperContained); }
 public yarnwrap.item.ItemStack copyComponentsToNewStack(yarnwrap.item.ItemConvertible item,int count) { return new yarnwrap.item.ItemStack(wrapperContained.copyComponentsToNewStack(item.wrapperContained,count)); }
 public com.mojang.serialization.MapCodec createOptionalCodec(java.lang.String fieldName) { return wrapperContained.createOptionalCodec(fieldName); }
+// public yarnwrap.item.ItemStack method_56703(java.util.Optional optional) { return new yarnwrap.item.ItemStack(wrapperContained.method_56703(optional)); }
 // public yarnwrap.item.ItemStack copyComponentsToNewStackIgnoreEmpty(yarnwrap.item.ItemConvertible item,int count) { return new yarnwrap.item.ItemStack(wrapperContained.copyComponentsToNewStackIgnoreEmpty(item.wrapperContained,count)); }
 public void decrementUnlessCreative(int amount,yarnwrap.entity.LivingEntity entity) { wrapperContained.decrementUnlessCreative(amount,entity.wrapperContained); }
 public yarnwrap.sound.SoundEvent getBreakSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getBreakSound()); }
 public void applyAttributeModifiers(yarnwrap.entity.EquipmentSlot slot,java.util.function.BiConsumer attributeModifierConsumer) { wrapperContained.applyAttributeModifiers(slot.wrapperContained,attributeModifierConsumer); }
 public int hashCode(yarnwrap.item.ItemStack stack) { return wrapperContained.hashCode(stack.wrapperContained); }
+// public void method_57356(yarnwrap.registry.entry.RegistryEntry builder) { wrapperContained.method_57356(builder.wrapperContained); }
 public boolean canPlaceOn(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.canPlaceOn(pos.wrapperContained); }
 // public yarnwrap.nbt.NbtElement encode(Object registries) { return new yarnwrap.nbt.NbtElement(wrapperContained.encode(registries)); }
 // public yarnwrap.item.ItemStack fromNbtOrEmpty(Object registries,yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.item.ItemStack(wrapperContained.fromNbtOrEmpty(registries,nbt.wrapperContained)); }
@@ -82,13 +93,24 @@ public void applyUnvalidatedChanges(yarnwrap.component.ComponentChanges changes)
 public java.lang.Object apply(yarnwrap.component.ComponentType type,java.lang.Object defaultValue,java.lang.Object change,java.util.function.BiFunction applier) { return wrapperContained.apply(type.wrapperContained,defaultValue,change,applier); }
 public java.lang.Object apply(yarnwrap.component.ComponentType type,java.lang.Object defaultValue,java.util.function.UnaryOperator applier) { return wrapperContained.apply(type.wrapperContained,defaultValue,applier); }
 // public void appendTooltip(yarnwrap.component.ComponentType componentType,Object context,java.util.function.Consumer textConsumer,yarnwrap.item.tooltip.TooltipType type) { wrapperContained.appendTooltip(componentType.wrapperContained,context,textConsumer,type.wrapperContained); }
+// public void method_57370(org.apache.commons.lang3.mutable.MutableBoolean attribute,java.util.function.Consumer modifier) { wrapperContained.method_57370(attribute,modifier); }
+// public com.mojang.datafixers.kinds.App method_57371(Object instance) { return wrapperContained.method_57371(instance); }
 // public com.mojang.serialization.DataResult validate(yarnwrap.item.ItemStack stack) { return wrapperContained.validate(stack.wrapperContained); }
 public boolean canBreak(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.canBreak(pos.wrapperContained); }
+// public com.mojang.serialization.DataResult method_57374(yarnwrap.registry.entry.RegistryEntry entry) { return wrapperContained.method_57374(entry.wrapperContained); }
 // public yarnwrap.nbt.NbtElement encodeAllowEmpty(Object registries) { return new yarnwrap.nbt.NbtElement(wrapperContained.encodeAllowEmpty(registries)); }
 // public yarnwrap.nbt.NbtElement encode(Object registries,yarnwrap.nbt.NbtElement prefix) { return new yarnwrap.nbt.NbtElement(wrapperContained.encode(registries,prefix.wrapperContained)); }
+// public void method_57377(java.lang.String error) { wrapperContained.method_57377(error); }
+// public yarnwrap.item.ItemStack method_57378(java.util.Optional optional) { return new yarnwrap.item.ItemStack(wrapperContained.method_57378(optional)); }
 public java.lang.Object set(yarnwrap.component.ComponentType type,java.lang.Object value) { return wrapperContained.set(type.wrapperContained,value); }
 public yarnwrap.component.ComponentChanges getComponentChanges() { return new yarnwrap.component.ComponentChanges(wrapperContained.getComponentChanges()); }
 public java.lang.Object remove(yarnwrap.component.ComponentType type) { return wrapperContained.remove(type.wrapperContained); }
+// public java.util.Optional method_57382(yarnwrap.item.ItemStack stack) { return wrapperContained.method_57382(stack.wrapperContained); }
+// public yarnwrap.item.ItemStack method_57383(yarnwrap.item.ItemStack v) { return new yarnwrap.item.ItemStack(wrapperContained.method_57383(v.wrapperContained)); }
+// public yarnwrap.component.ComponentChanges method_57385(yarnwrap.item.ItemStack stack) { return new yarnwrap.component.ComponentChanges(wrapperContained.method_57385(stack.wrapperContained)); }
+// public com.mojang.datafixers.kinds.App method_58092(Object instance) { return wrapperContained.method_58092(instance); }
+// public yarnwrap.item.ItemStack method_58093(yarnwrap.registry.entry.RegistryEntry item,yarnwrap.component.ComponentChanges components) { return new yarnwrap.item.ItemStack(wrapperContained.method_58093(item.wrapperContained,components.wrapperContained)); }
+// public yarnwrap.component.ComponentChanges method_58094(yarnwrap.item.ItemStack stack) { return new yarnwrap.component.ComponentChanges(wrapperContained.method_58094(stack.wrapperContained)); }
 public boolean takesDamageFrom(yarnwrap.entity.damage.DamageSource source) { return wrapperContained.takesDamageFrom(source.wrapperContained); }
 public void capCount(int maxCount) { wrapperContained.capCount(maxCount); }
 public yarnwrap.component.type.ItemEnchantmentsComponent getEnchantments() { return new yarnwrap.component.type.ItemEnchantmentsComponent(wrapperContained.getEnchantments()); }
@@ -135,6 +157,7 @@ public boolean isInFrame() { return wrapperContained.isInFrame(); }
 public boolean isDamageable() { return wrapperContained.isDamageable(); }
 public yarnwrap.text.Text getName() { return new yarnwrap.text.Text(wrapperContained.getName()); }
 public int getBobbingAnimationTime() { return wrapperContained.getBobbingAnimationTime(); }
+// public yarnwrap.text.Style method_7966(yarnwrap.text.Style style) { return new yarnwrap.text.Style(wrapperContained.method_7966(style.wrapperContained)); }
 public boolean isUsedOnRelease() { return wrapperContained.isUsedOnRelease(); }
 public void damage(int amount,yarnwrap.entity.LivingEntity entity,yarnwrap.entity.EquipmentSlot slot) { wrapperContained.damage(amount,entity.wrapperContained,slot.wrapperContained); }
 public yarnwrap.item.ItemStack split(int amount) { return new yarnwrap.item.ItemStack(wrapperContained.split(amount)); }

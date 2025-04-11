@@ -9,5 +9,11 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void TOGGLE_CODEC(com.mojang.serialization.Codec value) { wrapperContained.TOGGLE_CODEC = value; }
 // public java.util.Map toggles() { return wrapperContained.toggles; }
 // public void toggles(java.util.Map value) { wrapperContained.toggles = value; }
+// public ToggleTooltipsLootFunction(java.util.List conditions,java.util.Map toggles) { this.wrapperContained = new net.minecraft.loot.function.ToggleTooltipsLootFunction(conditions,toggles); }
+// public void method_58463(yarnwrap.item.ItemStack componentType,Object showInTooltip) { wrapperContained.method_58463(componentType.wrapperContained,showInTooltip); }
+// public Object method_58464(Object toggle) { return wrapperContained.method_58464(toggle); }
+// public java.util.Map method_58465(yarnwrap.loot.function.ToggleTooltipsLootFunction lootFunction) { return wrapperContained.method_58465(lootFunction.wrapperContained); }
+// public com.mojang.serialization.DataResult method_58466(yarnwrap.component.ComponentType componentType) { return wrapperContained.method_58466(componentType.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_58467(Object instance) { return wrapperContained.method_58467(instance); }
 
 }

@@ -9,5 +9,6 @@ public class SmithingTransformRecipe { public net.minecraft.recipe.SmithingTrans
 // public void addition(yarnwrap.recipe.Ingredient value) { wrapperContained.addition = value.wrapperContained; }
 // public yarnwrap.item.ItemStack result() { return new yarnwrap.item.ItemStack(wrapperContained.result); }
 // public void result(yarnwrap.item.ItemStack value) { wrapperContained.result = value.wrapperContained; }
+public SmithingTransformRecipe(yarnwrap.recipe.Ingredient template,yarnwrap.recipe.Ingredient base,yarnwrap.recipe.Ingredient addition,yarnwrap.item.ItemStack result) { this.wrapperContained = new net.minecraft.recipe.SmithingTransformRecipe(template.wrapperContained,base.wrapperContained,addition.wrapperContained,result.wrapperContained); }
 
 }

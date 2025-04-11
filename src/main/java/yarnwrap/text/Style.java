@@ -25,6 +25,8 @@ public yarnwrap.text.Style EMPTY() { return new yarnwrap.text.Style(wrapperConta
 // public void EMPTY(yarnwrap.text.Style value) { wrapperContained.EMPTY = value.wrapperContained; }
 // public yarnwrap.util.Identifier font() { return new yarnwrap.util.Identifier(wrapperContained.font); }
 // public void font(yarnwrap.util.Identifier value) { wrapperContained.font = value.wrapperContained; }
+// public Style(yarnwrap.text.TextColor color,java.lang.Boolean bold,java.lang.Boolean italic,java.lang.Boolean underlined,java.lang.Boolean strikethrough,java.lang.Boolean obfuscated,yarnwrap.text.ClickEvent clickEvent,yarnwrap.text.HoverEvent hoverEvent,java.lang.String insertion,yarnwrap.util.Identifier font) { this.wrapperContained = new net.minecraft.text.Style(color.wrapperContained,bold,italic,underlined,strikethrough,obfuscated,clickEvent.wrapperContained,hoverEvent.wrapperContained,insertion,font.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.text.Style withHoverEvent(yarnwrap.text.HoverEvent hoverEvent) { return new yarnwrap.text.Style(wrapperContained.withHoverEvent(hoverEvent.wrapperContained)); }
 public java.lang.String getInsertion() { return wrapperContained.getInsertion(); }
 public yarnwrap.text.Style withClickEvent(yarnwrap.text.ClickEvent clickEvent) { return new yarnwrap.text.Style(wrapperContained.withClickEvent(clickEvent.wrapperContained)); }

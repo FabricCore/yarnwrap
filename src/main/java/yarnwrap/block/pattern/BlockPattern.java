@@ -9,6 +9,7 @@ public class BlockPattern { public net.minecraft.block.pattern.BlockPattern wrap
 // public void depth(int value) { wrapperContained.depth = value; }
 // public java.util.function.Predicate[][][] pattern() { return wrapperContained.pattern; }
 // public void pattern(java.util.function.Predicate[][][] value) { wrapperContained.pattern = value; }
+public BlockPattern(java.util.function.Predicate[][][] pattern) { this.wrapperContained = new net.minecraft.block.pattern.BlockPattern(pattern); }
 // public yarnwrap.util.math.BlockPos translate(yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction forwards,yarnwrap.util.math.Direction up,int offsetLeft,int offsetDown,int offsetForwards) { return new yarnwrap.util.math.BlockPos(wrapperContained.translate(pos.wrapperContained,forwards.wrapperContained,up.wrapperContained,offsetLeft,offsetDown,offsetForwards)); }
 public Object searchAround(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.searchAround(world.wrapperContained,pos.wrapperContained); }
 public com.google.common.cache.LoadingCache makeCache(yarnwrap.world.WorldView world,boolean forceLoad) { return wrapperContained.makeCache(world.wrapperContained,forceLoad); }

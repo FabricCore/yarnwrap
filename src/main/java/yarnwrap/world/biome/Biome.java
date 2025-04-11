@@ -27,6 +27,7 @@ public com.mojang.serialization.Codec REGISTRY_ENTRY_LIST_CODEC() { return wrapp
 // // public void FOLIAGE_NOISE(yarnwrap.util.math.noise.OctaveSimplexNoiseSampler value) { wrapperContained.FOLIAGE_NOISE = value.wrapperContained; }
 // public yarnwrap.util.math.noise.OctaveSimplexNoiseSampler TEMPERATURE_NOISE() { return new yarnwrap.util.math.noise.OctaveSimplexNoiseSampler(wrapperContained.TEMPERATURE_NOISE); }
 // public void TEMPERATURE_NOISE(yarnwrap.util.math.noise.OctaveSimplexNoiseSampler value) { wrapperContained.TEMPERATURE_NOISE = value.wrapperContained; }
+// public Biome(Object weather,yarnwrap.world.biome.BiomeEffects effects,yarnwrap.world.biome.GenerationSettings generationSettings,yarnwrap.world.biome.SpawnSettings spawnSettings) { this.wrapperContained = new net.minecraft.world.biome.Biome(weather,effects.wrapperContained,generationSettings.wrapperContained,spawnSettings.wrapperContained); }
 // public float getTemperature(yarnwrap.util.math.BlockPos blockPos) { return wrapperContained.getTemperature(blockPos.wrapperContained); }
 public int getFogColor() { return wrapperContained.getFogColor(); }
 public yarnwrap.world.biome.BiomeEffects getEffects() { return new yarnwrap.world.biome.BiomeEffects(wrapperContained.getEffects()); }
@@ -35,11 +36,20 @@ public java.util.Optional getLoopSound() { return wrapperContained.getLoopSound(
 public java.util.Optional getMoodSound() { return wrapperContained.getMoodSound(); }
 public java.util.Optional getAdditionsSound() { return wrapperContained.getAdditionsSound(); }
 public java.util.Optional getMusic() { return wrapperContained.getMusic(); }
+// public Object method_28409(yarnwrap.world.biome.Biome biome) { return wrapperContained.method_28409(biome.wrapperContained); }
+// public yarnwrap.world.biome.SpawnSettings method_28417(yarnwrap.world.biome.Biome biome) { return new yarnwrap.world.biome.SpawnSettings(wrapperContained.method_28417(biome.wrapperContained)); }
+// public yarnwrap.world.biome.GenerationSettings method_28418(yarnwrap.world.biome.Biome biome) { return new yarnwrap.world.biome.GenerationSettings(wrapperContained.method_28418(biome.wrapperContained)); }
+// public yarnwrap.world.biome.BiomeEffects method_28421(yarnwrap.world.biome.Biome biome) { return new yarnwrap.world.biome.BiomeEffects(wrapperContained.method_28421(biome.wrapperContained)); }
+// public Object method_28423(yarnwrap.world.biome.Biome biome) { return wrapperContained.method_28423(biome.wrapperContained); }
 // public int getDefaultGrassColor() { return wrapperContained.getDefaultGrassColor(); }
 // public int getDefaultFoliageColor() { return wrapperContained.getDefaultFoliageColor(); }
+// public com.mojang.datafixers.kinds.App method_30776(Object instance) { return wrapperContained.method_30776(instance); }
 public yarnwrap.world.biome.SpawnSettings getSpawnSettings() { return new yarnwrap.world.biome.SpawnSettings(wrapperContained.getSpawnSettings()); }
 public yarnwrap.world.biome.GenerationSettings getGenerationSettings() { return new yarnwrap.world.biome.GenerationSettings(wrapperContained.getGenerationSettings()); }
+// public yarnwrap.world.biome.BiomeEffects method_30971(yarnwrap.world.biome.Biome biome) { return new yarnwrap.world.biome.BiomeEffects(wrapperContained.method_30971(biome.wrapperContained)); }
 public boolean isCold(yarnwrap.util.math.BlockPos pos) { return wrapperContained.isCold(pos.wrapperContained); }
+// public yarnwrap.world.biome.Biome method_38103(Object weather,yarnwrap.world.biome.BiomeEffects effects) { return new yarnwrap.world.biome.Biome(wrapperContained.method_38103(weather,effects.wrapperContained)); }
+// public com.mojang.datafixers.kinds.App method_38104(Object instance) { return wrapperContained.method_38104(instance); }
 public boolean doesNotSnow(yarnwrap.util.math.BlockPos pos) { return wrapperContained.doesNotSnow(pos.wrapperContained); }
 public boolean shouldGenerateLowerFrozenOceanSurface(yarnwrap.util.math.BlockPos pos) { return wrapperContained.shouldGenerateLowerFrozenOceanSurface(pos.wrapperContained); }
 public Object getPrecipitation(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getPrecipitation(pos.wrapperContained); }

@@ -7,6 +7,7 @@ public class ServerBossBar { public net.minecraft.entity.boss.ServerBossBar wrap
 // public void players(java.util.Set value) { wrapperContained.players = value; }
 // public java.util.Set unmodifiablePlayers() { return wrapperContained.unmodifiablePlayers; }
 // public void unmodifiablePlayers(java.util.Set value) { wrapperContained.unmodifiablePlayers = value; }
+// public ServerBossBar(yarnwrap.text.Text displayName,Object color,Object style) { this.wrapperContained = new net.minecraft.entity.boss.ServerBossBar(displayName.wrapperContained,color,style); }
 public void addPlayer(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.addPlayer(player.wrapperContained); }
 public void removePlayer(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.removePlayer(player.wrapperContained); }
 // public void sendPacket(java.util.function.Function bossBarToPacketFunction) { wrapperContained.sendPacket(bossBarToPacketFunction); }

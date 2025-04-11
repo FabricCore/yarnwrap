@@ -15,6 +15,7 @@ public class AbstractCookingRecipe { public net.minecraft.recipe.AbstractCooking
 // public void ingredient(yarnwrap.recipe.Ingredient value) { wrapperContained.ingredient = value.wrapperContained; }
 // public java.lang.String group() { return wrapperContained.group; }
 // public void group(java.lang.String value) { wrapperContained.group = value; }
+// public AbstractCookingRecipe(yarnwrap.recipe.RecipeType type,java.lang.String group,yarnwrap.recipe.book.CookingRecipeCategory category,yarnwrap.recipe.Ingredient ingredient,yarnwrap.item.ItemStack result,float experience,int cookingTime) { this.wrapperContained = new net.minecraft.recipe.AbstractCookingRecipe(type.wrapperContained,group,category.wrapperContained,ingredient.wrapperContained,result.wrapperContained,experience,cookingTime); }
 public yarnwrap.recipe.book.CookingRecipeCategory getCategory() { return new yarnwrap.recipe.book.CookingRecipeCategory(wrapperContained.getCategory()); }
 public int getCookingTime() { return wrapperContained.getCookingTime(); }
 public float getExperience() { return wrapperContained.getExperience(); }

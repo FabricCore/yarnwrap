@@ -5,6 +5,7 @@ public class AtomicStack { public net.minecraft.util.thread.AtomicStack wrapperC
 // public void contents(java.util.concurrent.atomic.AtomicReferenceArray value) { wrapperContained.contents = value; }
 // public java.util.concurrent.atomic.AtomicInteger size() { return wrapperContained.size; }
 // public void size(java.util.concurrent.atomic.AtomicInteger value) { wrapperContained.size = value; }
+public AtomicStack(int maxSize) { this.wrapperContained = new net.minecraft.util.thread.AtomicStack(maxSize); }
 public java.util.List toList() { return wrapperContained.toList(); }
 public void push(java.lang.Object value) { wrapperContained.push(value); }
 

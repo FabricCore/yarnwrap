@@ -59,6 +59,8 @@ public int SQUARED_MAX_RAIDER_DISTANCE() { return wrapperContained.SQUARED_MAX_R
 // public void DEFAULT_PRE_RAID_TICKS(int value) { wrapperContained.DEFAULT_PRE_RAID_TICKS = value; }
 // public int MAX_ACTIVE_TICKS() { return wrapperContained.MAX_ACTIVE_TICKS; }
 // public void MAX_ACTIVE_TICKS(int value) { wrapperContained.MAX_ACTIVE_TICKS = value; }
+public Raid(int id,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.village.raid.Raid(id,world.wrapperContained,pos.wrapperContained); }
+public Raid(yarnwrap.server.world.ServerWorld world,yarnwrap.nbt.NbtCompound nbt) { this.wrapperContained = new net.minecraft.village.raid.Raid(world.wrapperContained,nbt.wrapperContained); }
 public boolean addToWave(int wave,yarnwrap.entity.raid.RaiderEntity entity,boolean countHealth) { return wrapperContained.addToWave(wave,entity.wrapperContained,countHealth); }
 public int getGroupsSpawned() { return wrapperContained.getGroupsSpawned(); }
 public void setWaveCaptain(int wave,yarnwrap.entity.raid.RaiderEntity entity) { wrapperContained.setWaveCaptain(wave,entity.wrapperContained); }
@@ -73,6 +75,7 @@ public yarnwrap.nbt.NbtCompound writeNbt(yarnwrap.nbt.NbtCompound nbt) { return 
 public boolean isActive() { return wrapperContained.isActive(); }
 // public boolean addToWave(int wave,yarnwrap.entity.raid.RaiderEntity entity) { return wrapperContained.addToWave(wave,entity.wrapperContained); }
 public void invalidate() { wrapperContained.invalidate(); }
+// public java.util.Set method_16508(java.lang.Integer wavex) { return wrapperContained.method_16508(wavex); }
 public void tick() { wrapperContained.tick(); }
 public void removeFromWave(yarnwrap.entity.raid.RaiderEntity entity,boolean countHealth) { wrapperContained.removeFromWave(entity.wrapperContained,countHealth); }
 public float getCurrentRaiderHealth() { return wrapperContained.getCurrentRaiderHealth(); }
@@ -92,6 +95,7 @@ public yarnwrap.world.World getWorld() { return new yarnwrap.world.World(wrapper
 public boolean isFinished() { return wrapperContained.isFinished(); }
 // public boolean shouldSpawnMoreGroups() { return wrapperContained.shouldSpawnMoreGroups(); }
 // public void removeObsoleteRaiders() { wrapperContained.removeObsoleteRaiders(); }
+// public boolean method_19208(yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.method_19208(player.wrapperContained); }
 // public boolean hasSpawnedFinalWave() { return wrapperContained.hasSpawnedFinalWave(); }
 // public boolean hasExtraWave() { return wrapperContained.hasExtraWave(); }
 // public boolean hasSpawnedExtraWave() { return wrapperContained.hasSpawnedExtraWave(); }
@@ -108,6 +112,7 @@ public boolean hasLost() { return wrapperContained.hasLost(); }
 public float getEnchantmentChance() { return wrapperContained.getEnchantmentChance(); }
 // public java.util.Optional preCalculateRavagerSpawnLocation(int proximity) { return wrapperContained.preCalculateRavagerSpawnLocation(proximity); }
 // public void setCenter(yarnwrap.util.math.BlockPos center) { wrapperContained.setCenter(center.wrapperContained); }
+// public double method_20510(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_20510(pos.wrapperContained); }
 // public void moveRaidCenter() { wrapperContained.moveRaidCenter(); }
 public void setBadOmenLevel(int badOmenLevel) { wrapperContained.setBadOmenLevel(badOmenLevel); }
 public float getTotalHealth() { return wrapperContained.getTotalHealth(); }

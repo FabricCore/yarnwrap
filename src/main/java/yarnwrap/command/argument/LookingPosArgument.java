@@ -9,6 +9,8 @@ public class LookingPosArgument { public net.minecraft.command.argument.LookingP
 // public void x(double value) { wrapperContained.x = value; }
 public char CARET() { return wrapperContained.CARET; }
 // public void CARET(char value) { wrapperContained.CARET = value; }
+public LookingPosArgument(double x,double y,double z) { this.wrapperContained = new net.minecraft.command.argument.LookingPosArgument(x,y,z); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public double readCoordinate(com.mojang.brigadier.StringReader reader,int startingCursorPos) { return wrapperContained.readCoordinate(reader,startingCursorPos); }
 // public yarnwrap.command.argument.LookingPosArgument parse(com.mojang.brigadier.StringReader reader) { return new yarnwrap.command.argument.LookingPosArgument(wrapperContained.parse(reader)); }
 

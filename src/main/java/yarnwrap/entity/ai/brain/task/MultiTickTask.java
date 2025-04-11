@@ -13,6 +13,9 @@ public class MultiTickTask { public net.minecraft.entity.ai.brain.task.MultiTick
 // public void requiredMemoryStates(java.util.Map value) { wrapperContained.requiredMemoryStates = value; }
 public int DEFAULT_RUN_TIME() { return wrapperContained.DEFAULT_RUN_TIME; }
 // public void DEFAULT_RUN_TIME(int value) { wrapperContained.DEFAULT_RUN_TIME = value; }
+// public MultiTickTask(java.util.Map requiredMemoryState) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.MultiTickTask(requiredMemoryState); }
+// public MultiTickTask(java.util.Map requiredMemoryState,int runTime) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.MultiTickTask(requiredMemoryState,runTime); }
+// public MultiTickTask(java.util.Map requiredMemoryState,int minRunTime,int maxRunTime) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.MultiTickTask(requiredMemoryState,minRunTime,maxRunTime); }
 // public boolean isTimeLimitExceeded(long time) { return wrapperContained.isTimeLimitExceeded(time); }
 // public boolean shouldRun(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity) { return wrapperContained.shouldRun(world.wrapperContained,entity.wrapperContained); }
 // public void run(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity,long time) { wrapperContained.run(world.wrapperContained,entity.wrapperContained,time); }

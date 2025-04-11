@@ -12,6 +12,7 @@ public void breed(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passiv
 public int getLoveTicks() { return wrapperContained.getLoveTicks(); }
 // public boolean isLightLevelValidForNaturalSpawn(yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isLightLevelValidForNaturalSpawn(world.wrapperContained,pos.wrapperContained); }
 public void breed(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.AnimalEntity other,yarnwrap.entity.passive.PassiveEntity baby) { wrapperContained.breed(world.wrapperContained,other.wrapperContained,baby.wrapperContained); }
+// public void method_49795(yarnwrap.entity.passive.AnimalEntity player) { wrapperContained.method_49795(player.wrapperContained); }
 public boolean canBreedWith(yarnwrap.entity.passive.AnimalEntity other) { return wrapperContained.canBreedWith(other.wrapperContained); }
 // public void eat(yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.Hand hand,yarnwrap.item.ItemStack stack) { wrapperContained.eat(player.wrapperContained,hand.wrapperContained,stack.wrapperContained); }
 public void setLoveTicks(int loveTicks) { wrapperContained.setLoveTicks(loveTicks); }

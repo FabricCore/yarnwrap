@@ -13,5 +13,11 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void hangingLeavesChance(float value) { wrapperContained.hangingLeavesChance = value; }
 // public float hangingLeavesExtensionChance() { return wrapperContained.hangingLeavesExtensionChance; }
 // public void hangingLeavesExtensionChance(float value) { wrapperContained.hangingLeavesExtensionChance = value; }
+public CherryFoliagePlacer(yarnwrap.util.math.intprovider.IntProvider radius,yarnwrap.util.math.intprovider.IntProvider offset,yarnwrap.util.math.intprovider.IntProvider height,float wideBottomLayerHoleChance,float cornerHoleChance,float hangingLeavesChance,float hangingLeavesExtensionChance) { this.wrapperContained = new net.minecraft.world.gen.foliage.CherryFoliagePlacer(radius.wrapperContained,offset.wrapperContained,height.wrapperContained,wideBottomLayerHoleChance,cornerHoleChance,hangingLeavesChance,hangingLeavesExtensionChance); }
+// public java.lang.Float method_49242(yarnwrap.world.gen.foliage.CherryFoliagePlacer foliagePlacer) { return wrapperContained.method_49242(foliagePlacer.wrapperContained); }
+// public java.lang.Float method_49243(yarnwrap.world.gen.foliage.CherryFoliagePlacer foliagePlacer) { return wrapperContained.method_49243(foliagePlacer.wrapperContained); }
+// public java.lang.Float method_49244(yarnwrap.world.gen.foliage.CherryFoliagePlacer foliagePlacer) { return wrapperContained.method_49244(foliagePlacer.wrapperContained); }
+// public java.lang.Float method_49245(yarnwrap.world.gen.foliage.CherryFoliagePlacer foliagePlacer) { return wrapperContained.method_49245(foliagePlacer.wrapperContained); }
+// public yarnwrap.util.math.intprovider.IntProvider method_49246(yarnwrap.world.gen.foliage.CherryFoliagePlacer foliagePlacer) { return new yarnwrap.util.math.intprovider.IntProvider(wrapperContained.method_49246(foliagePlacer.wrapperContained)); }
 
 }

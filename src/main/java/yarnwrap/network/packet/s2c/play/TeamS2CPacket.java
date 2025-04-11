@@ -25,6 +25,8 @@ public class TeamS2CPacket { public net.minecraft.network.packet.s2c.play.TeamS2
 // public void SECOND_MAX_VISIBILITY_OR_COLLISION_RULE_LENGTH(int value) { wrapperContained.SECOND_MAX_VISIBILITY_OR_COLLISION_RULE_LENGTH = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public TeamS2CPacket(java.lang.String teamName,int packetType,java.util.Optional team,java.util.Collection playerNames) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.TeamS2CPacket(teamName,packetType,team,playerNames); }
+// public TeamS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.TeamS2CPacket(buf.wrapperContained); }
 // public boolean containsPlayers(int packetType) { return wrapperContained.containsPlayers(packetType); }
 public yarnwrap.network.packet.s2c.play.TeamS2CPacket updateRemovedTeam(yarnwrap.scoreboard.Team team) { return new yarnwrap.network.packet.s2c.play.TeamS2CPacket(wrapperContained.updateRemovedTeam(team.wrapperContained)); }
 // public yarnwrap.network.packet.s2c.play.TeamS2CPacket changePlayerTeam(yarnwrap.scoreboard.Team team,java.lang.String playerName,Object operation) { return new yarnwrap.network.packet.s2c.play.TeamS2CPacket(wrapperContained.changePlayerTeam(team.wrapperContained,playerName,operation)); }

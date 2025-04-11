@@ -53,7 +53,11 @@ public class CreativeInventoryScreen { public net.minecraft.client.gui.screen.in
 // public void SCROLLER_DISABLED_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SCROLLER_DISABLED_TEXTURE = value.wrapperContained; }
 // public net.minecraft.util.Identifier[] TAB_TOP_UNSELECTED_TEXTURES() { return wrapperContained.TAB_TOP_UNSELECTED_TEXTURES; }
 // public void TAB_TOP_UNSELECTED_TEXTURES(net.minecraft.util.Identifier[] value) { wrapperContained.TAB_TOP_UNSELECTED_TEXTURES = value; }
+public CreativeInventoryScreen(yarnwrap.client.network.ClientPlayerEntity player,yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean operatorTabEnabled) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen(player.wrapperContained,enabledFeatures.wrapperContained,operatorTabEnabled); }
 // public void searchForTags(java.lang.String id) { wrapperContained.searchForTags(id); }
+// public boolean method_15873(java.util.function.Predicate tag) { return wrapperContained.method_15873(tag); }
+// public boolean method_15874(java.lang.String id) { return wrapperContained.method_15874(id); }
+// public boolean method_15875(java.lang.String id) { return wrapperContained.method_15875(id); }
 public void onHotbarKeyPress(yarnwrap.client.MinecraftClient client,int index,boolean restore,boolean save) { wrapperContained.onHotbarKeyPress(client.wrapperContained,index,restore,save); }
 // public boolean isClickInTab(yarnwrap.item.ItemGroup group,double mouseX,double mouseY) { return wrapperContained.isClickInTab(group.wrapperContained,mouseX,mouseY); }
 // public void search() { wrapperContained.search(); }
@@ -69,6 +73,7 @@ public void onHotbarKeyPress(yarnwrap.client.MinecraftClient client,int index,bo
 // public int getTabX(yarnwrap.item.ItemGroup group) { return wrapperContained.getTabX(group.wrapperContained); }
 // public int getTabY(yarnwrap.item.ItemGroup group) { return wrapperContained.getTabY(group.wrapperContained); }
 public boolean isInventoryTabSelected() { return wrapperContained.isInventoryTabSelected(); }
+// public void method_51455(yarnwrap.item.ItemStack tagKey) { wrapperContained.method_51455(tagKey.wrapperContained); }
 // public boolean populateDisplay(yarnwrap.client.search.SearchManager searchManager,yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean showOperatorTab,Object registryLookup) { return wrapperContained.populateDisplay(searchManager.wrapperContained,enabledFeatures.wrapperContained,showOperatorTab,registryLookup); }
 
 }

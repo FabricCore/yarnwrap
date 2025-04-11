@@ -7,5 +7,7 @@ public java.util.function.Function TYPE_FACTORY() { return wrapperContained.TYPE
 // public void TYPE_FACTORY(java.util.function.Function value) { wrapperContained.TYPE_FACTORY = value; }
 // public yarnwrap.entity.Entity entity() { return new yarnwrap.entity.Entity(wrapperContained.entity); }
 // public void entity(yarnwrap.entity.Entity value) { wrapperContained.entity = value.wrapperContained; }
+public EntityDataObject(yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.command.EntityDataObject(entity.wrapperContained); }
+// public Object method_13927(java.lang.String argumentName) { return wrapperContained.method_13927(argumentName); }
 
 }

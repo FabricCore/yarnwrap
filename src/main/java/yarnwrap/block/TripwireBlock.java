@@ -27,8 +27,11 @@ public yarnwrap.state.property.BooleanProperty ATTACHED() { return new yarnwrap.
 // public void SCHEDULED_TICK_DELAY(int value) { wrapperContained.SCHEDULED_TICK_DELAY = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public TripwireBlock(yarnwrap.block.Block hookBlock,Object settings) { this.wrapperContained = new net.minecraft.block.TripwireBlock(hookBlock.wrapperContained,settings); }
 public boolean shouldConnectTo(yarnwrap.block.BlockState state,yarnwrap.util.math.Direction facing) { return wrapperContained.shouldConnectTo(state.wrapperContained,facing.wrapperContained); }
 // public void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public void updatePowered(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.updatePowered(world.wrapperContained,pos.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_54060(Object instance) { return wrapperContained.method_54060(instance); }
+// public yarnwrap.block.Block method_54061(yarnwrap.block.TripwireBlock block) { return new yarnwrap.block.Block(wrapperContained.method_54061(block.wrapperContained)); }
 
 }

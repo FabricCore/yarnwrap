@@ -3,5 +3,6 @@ public class SculkSensorPhase { public net.minecraft.block.enums.SculkSensorPhas
 
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// public SculkSensorPhase(java.lang.String name) { this.wrapperContained = new net.minecraft.block.enums.SculkSensorPhase(name); }
 
 }

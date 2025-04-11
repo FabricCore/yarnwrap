@@ -11,6 +11,7 @@ public void pushX(double value) { wrapperContained.pushX = value; }
 // public void fuel(int value) { wrapperContained.fuel = value; }
 // public yarnwrap.entity.data.TrackedData LIT() { return new yarnwrap.entity.data.TrackedData(wrapperContained.LIT); }
 // public void LIT(yarnwrap.entity.data.TrackedData value) { wrapperContained.LIT = value.wrapperContained; }
+public FurnaceMinecartEntity(yarnwrap.world.World world,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.vehicle.FurnaceMinecartEntity(world.wrapperContained,x,y,z); }
 // public void setLit(boolean lit) { wrapperContained.setLit(lit); }
 // public boolean isLit() { return wrapperContained.isLit(); }
 

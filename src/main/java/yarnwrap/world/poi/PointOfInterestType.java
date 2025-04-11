@@ -13,5 +13,6 @@ public java.util.function.Predicate NONE() { return wrapperContained.NONE; }
 // public int ticketCount() { return wrapperContained.ticketCount(); }
 // public int searchDistance() { return wrapperContained.searchDistance(); }
 public boolean contains(yarnwrap.block.BlockState state) { return wrapperContained.contains(state.wrapperContained); }
+// public boolean method_43987(yarnwrap.registry.entry.RegistryEntry type) { return wrapperContained.method_43987(type.wrapperContained); }
 
 }

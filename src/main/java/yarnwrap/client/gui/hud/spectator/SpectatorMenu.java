@@ -33,6 +33,7 @@ public yarnwrap.client.gui.hud.spectator.SpectatorMenuCommand BLANK_COMMAND() { 
 // public void SCROLL_LEFT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SCROLL_LEFT_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier SCROLL_RIGHT_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.SCROLL_RIGHT_TEXTURE); }
 // public void SCROLL_RIGHT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SCROLL_RIGHT_TEXTURE = value.wrapperContained; }
+public SpectatorMenu(yarnwrap.client.gui.hud.spectator.SpectatorMenuCloseCallback closeCallback) { this.wrapperContained = new net.minecraft.client.gui.hud.spectator.SpectatorMenu(closeCallback.wrapperContained); }
 public java.util.List getCommands() { return wrapperContained.getCommands(); }
 public void useCommand(int slot) { wrapperContained.useCommand(slot); }
 public yarnwrap.client.gui.hud.spectator.SpectatorMenuState getCurrentState() { return new yarnwrap.client.gui.hud.spectator.SpectatorMenuState(wrapperContained.getCurrentState()); }

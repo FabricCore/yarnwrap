@@ -13,5 +13,8 @@ public class NoticeScreen { public net.minecraft.client.gui.screen.NoticeScreen 
 // public void NOTICE_TEXT_Y(int value) { wrapperContained.NOTICE_TEXT_Y = value; }
 // public boolean shouldCloseOnEsc() { return wrapperContained.shouldCloseOnEsc; }
 // public void shouldCloseOnEsc(boolean value) { wrapperContained.shouldCloseOnEsc = value; }
+public NoticeScreen(java.lang.Runnable actionHandler,yarnwrap.text.Text title,yarnwrap.text.Text notice) { this.wrapperContained = new net.minecraft.client.gui.screen.NoticeScreen(actionHandler,title.wrapperContained,notice.wrapperContained); }
+public NoticeScreen(java.lang.Runnable actionHandler,yarnwrap.text.Text title,yarnwrap.text.Text notice,yarnwrap.text.Text buttonText,boolean shouldCloseOnEsc) { this.wrapperContained = new net.minecraft.client.gui.screen.NoticeScreen(actionHandler,title.wrapperContained,notice.wrapperContained,buttonText.wrapperContained,shouldCloseOnEsc); }
+// public void method_19790(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19790(button.wrapperContained); }
 
 }

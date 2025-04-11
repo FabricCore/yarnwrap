@@ -7,5 +7,6 @@ public class SitOnOwnerShoulderGoal { public net.minecraft.entity.ai.goal.SitOnO
 // public void owner(yarnwrap.server.network.ServerPlayerEntity value) { wrapperContained.owner = value.wrapperContained; }
 // public boolean mounted() { return wrapperContained.mounted; }
 // public void mounted(boolean value) { wrapperContained.mounted = value; }
+public SitOnOwnerShoulderGoal(yarnwrap.entity.passive.TameableShoulderEntity tameable) { this.wrapperContained = new net.minecraft.entity.ai.goal.SitOnOwnerShoulderGoal(tameable.wrapperContained); }
 
 }

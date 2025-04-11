@@ -17,11 +17,14 @@ public class SpriteContents { public net.minecraft.client.texture.SpriteContents
 // // public void animation(Object value) { wrapperContained.animation = value; }
 // public yarnwrap.resource.metadata.ResourceMetadata metadata() { return new yarnwrap.resource.metadata.ResourceMetadata(wrapperContained.metadata); }
 // public void metadata(yarnwrap.resource.metadata.ResourceMetadata value) { wrapperContained.metadata = value.wrapperContained; }
+public SpriteContents(yarnwrap.util.Identifier id,yarnwrap.client.texture.SpriteDimensions dimensions,yarnwrap.client.texture.NativeImage image,yarnwrap.resource.metadata.ResourceMetadata metadata) { this.wrapperContained = new net.minecraft.client.texture.SpriteContents(id.wrapperContained,dimensions.wrapperContained,image.wrapperContained,metadata.wrapperContained); }
 public void generateMipmaps(int mipmapLevels) { wrapperContained.generateMipmaps(mipmapLevels); }
 public void upload(int x,int y) { wrapperContained.upload(x,y); }
 public boolean isPixelTransparent(int frame,int x,int y) { return wrapperContained.isPixelTransparent(frame,x,y); }
 // public void upload(int x,int y,int unpackSkipPixels,int unpackSkipRows,net.minecraft.client.texture.NativeImage[] images) { wrapperContained.upload(x,y,unpackSkipPixels,unpackSkipRows,images); }
 // public Object createAnimation(yarnwrap.client.texture.SpriteDimensions dimensions,int imageWidth,int imageHeight,yarnwrap.client.resource.metadata.AnimationResourceMetadata metadata) { return wrapperContained.createAnimation(dimensions.wrapperContained,imageWidth,imageHeight,metadata.wrapperContained); }
+// public boolean method_45813(it.unimi.dsi.fastutil.ints.IntSet frameIndex) { return wrapperContained.method_45813(frameIndex); }
+// public void method_45814(java.util.List index,int frameTime) { wrapperContained.method_45814(index,frameTime); }
 public java.util.stream.IntStream getDistinctFrameCount() { return wrapperContained.getDistinctFrameCount(); }
 public yarnwrap.client.texture.Animator createAnimator() { return new yarnwrap.client.texture.Animator(wrapperContained.createAnimator()); }
 // public int getFrameCount() { return wrapperContained.getFrameCount(); }

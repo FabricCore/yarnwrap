@@ -9,5 +9,6 @@ public class BuiltinBakedModel { public net.minecraft.client.render.model.Builti
 // public void transformation(yarnwrap.client.render.model.json.ModelTransformation value) { wrapperContained.transformation = value.wrapperContained; }
 // public yarnwrap.client.render.model.json.ModelOverrideList itemPropertyOverrides() { return new yarnwrap.client.render.model.json.ModelOverrideList(wrapperContained.itemPropertyOverrides); }
 // public void itemPropertyOverrides(yarnwrap.client.render.model.json.ModelOverrideList value) { wrapperContained.itemPropertyOverrides = value.wrapperContained; }
+public BuiltinBakedModel(yarnwrap.client.render.model.json.ModelTransformation transformation,yarnwrap.client.render.model.json.ModelOverrideList itemPropertyOverrides,yarnwrap.client.texture.Sprite sprite,boolean sideLit) { this.wrapperContained = new net.minecraft.client.render.model.BuiltinBakedModel(transformation.wrapperContained,itemPropertyOverrides.wrapperContained,sprite.wrapperContained,sideLit); }
 
 }

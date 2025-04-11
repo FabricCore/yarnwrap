@@ -3,6 +3,7 @@ public class AnyOfLootCondition { public net.minecraft.loot.condition.AnyOfLootC
 
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public AnyOfLootCondition(java.util.List terms) { this.wrapperContained = new net.minecraft.loot.condition.AnyOfLootCondition(terms); }
 // public Object builder(Object[] terms) { return wrapperContained.builder(terms); }
 
 }

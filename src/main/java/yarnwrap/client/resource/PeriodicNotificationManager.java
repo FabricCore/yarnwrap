@@ -13,8 +13,14 @@ public class PeriodicNotificationManager { public net.minecraft.client.resource.
 // public void timer(java.util.Timer value) { wrapperContained.timer = value; }
 // public Object task() { return wrapperContained.task; }
 // // public void task(Object value) { wrapperContained.task = value; }
+public PeriodicNotificationManager(yarnwrap.util.Identifier id,it.unimi.dsi.fastutil.objects.Object2BooleanFunction countryPredicate) { this.wrapperContained = new net.minecraft.client.resource.PeriodicNotificationManager(id.wrapperContained,countryPredicate); }
 // public void cancelTimer() { wrapperContained.cancelTimer(); }
+// public long method_40191(long entry) { return wrapperContained.method_40191(entry); }
+// public com.mojang.datafixers.kinds.App method_40193(Object instance) { return wrapperContained.method_40193(instance); }
+// public long method_40194(Object entry) { return wrapperContained.method_40194(entry); }
 // public long getMinDelay(java.util.List entries) { return wrapperContained.getMinDelay(entries); }
 // public long getPeriod(java.util.List entries,long minDelay) { return wrapperContained.getPeriod(entries,minDelay); }
+// public boolean method_40197(Object entry) { return wrapperContained.method_40197(entry); }
+// public boolean method_40200(Object entry) { return wrapperContained.method_40200(entry); }
 
 }

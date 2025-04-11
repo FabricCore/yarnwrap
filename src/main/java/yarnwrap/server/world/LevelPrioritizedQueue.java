@@ -13,6 +13,7 @@ public int LEVEL_COUNT() { return wrapperContained.LEVEL_COUNT; }
 // public void blockingChunks(it.unimi.dsi.fastutil.longs.LongSet value) { wrapperContained.blockingChunks = value; }
 // public int maxBlocking() { return wrapperContained.maxBlocking; }
 // public void maxBlocking(int value) { wrapperContained.maxBlocking = value; }
+public LevelPrioritizedQueue(java.lang.String name,int maxSize) { this.wrapperContained = new net.minecraft.server.world.LevelPrioritizedQueue(name,maxSize); }
 // public void updateLevel(int fromLevel,yarnwrap.util.math.ChunkPos pos,int toLevel) { wrapperContained.updateLevel(fromLevel,pos.wrapperContained,toLevel); }
 // public void add(java.util.Optional element,long pos,int level) { wrapperContained.add(element,pos,level); }
 public java.util.stream.Stream poll() { return wrapperContained.poll(); }

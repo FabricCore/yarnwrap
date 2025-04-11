@@ -9,6 +9,7 @@ public double originY() { return wrapperContained.originY; }
 // public void permutation(byte[] value) { wrapperContained.permutation = value; }
 public double originX() { return wrapperContained.originX; }
 // public void originX(double value) { wrapperContained.originX = value; }
+public PerlinNoiseSampler(yarnwrap.util.math.random.Random random) { this.wrapperContained = new net.minecraft.util.math.noise.PerlinNoiseSampler(random.wrapperContained); }
 public double sample(double x,double y,double z,double yScale,double yMax) { return wrapperContained.sample(x,y,z,yScale,yMax); }
 // public double grad(int hash,double x,double y,double z) { return wrapperContained.grad(hash,x,y,z); }
 // public int map(int input) { return wrapperContained.map(input); }

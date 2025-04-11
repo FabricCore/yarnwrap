@@ -3,5 +3,6 @@ public class ShulkerBoxBlockEntityRenderer { public net.minecraft.client.render.
 
 // public yarnwrap.client.render.entity.model.ShulkerEntityModel model() { return new yarnwrap.client.render.entity.model.ShulkerEntityModel(wrapperContained.model); }
 // public void model(yarnwrap.client.render.entity.model.ShulkerEntityModel value) { wrapperContained.model = value.wrapperContained; }
+// public ShulkerBoxBlockEntityRenderer(Object ctx) { this.wrapperContained = new net.minecraft.client.render.block.entity.ShulkerBoxBlockEntityRenderer(ctx); }
 
 }

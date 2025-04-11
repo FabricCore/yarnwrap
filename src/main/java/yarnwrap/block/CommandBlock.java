@@ -11,6 +11,9 @@ public yarnwrap.state.property.BooleanProperty CONDITIONAL() { return new yarnwr
 // public void auto(boolean value) { wrapperContained.auto = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public CommandBlock(boolean auto,Object settings) { this.wrapperContained = new net.minecraft.block.CommandBlock(auto,settings); }
+// public com.mojang.datafixers.kinds.App method_53998(Object instance) { return wrapperContained.method_53998(instance); }
+// public java.lang.Boolean method_53999(yarnwrap.block.CommandBlock block) { return wrapperContained.method_53999(block.wrapperContained); }
 // public void executeCommandChain(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction facing) { wrapperContained.executeCommandChain(world.wrapperContained,pos.wrapperContained,facing.wrapperContained); }
 // public void execute(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.CommandBlockExecutor executor,boolean hasCommand) { wrapperContained.execute(state.wrapperContained,world.wrapperContained,pos.wrapperContained,executor.wrapperContained,hasCommand); }
 

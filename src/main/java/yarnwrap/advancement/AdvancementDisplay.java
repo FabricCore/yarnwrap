@@ -25,6 +25,8 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public AdvancementDisplay(yarnwrap.item.ItemStack icon,yarnwrap.text.Text title,yarnwrap.text.Text description,java.util.Optional background,yarnwrap.advancement.AdvancementFrame frame,boolean showToast,boolean announceToChat,boolean hidden) { this.wrapperContained = new net.minecraft.advancement.AdvancementDisplay(icon.wrapperContained,title.wrapperContained,description.wrapperContained,background,frame.wrapperContained,showToast,announceToChat,hidden); }
+// public com.mojang.datafixers.kinds.App method_54939(Object instance) { return wrapperContained.method_54939(instance); }
 public boolean shouldAnnounceToChat() { return wrapperContained.shouldAnnounceToChat(); }
 public yarnwrap.text.Text getTitle() { return new yarnwrap.text.Text(wrapperContained.getTitle()); }
 public java.util.Optional getBackground() { return wrapperContained.getBackground(); }

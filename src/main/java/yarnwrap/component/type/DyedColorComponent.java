@@ -9,8 +9,10 @@ public int DEFAULT_COLOR() { return wrapperContained.DEFAULT_COLOR; }
 // public void DEFAULT_COLOR(int value) { wrapperContained.DEFAULT_COLOR = value; }
 // public com.mojang.serialization.Codec BASE_CODEC() { return wrapperContained.BASE_CODEC; }
 // public void BASE_CODEC(com.mojang.serialization.Codec value) { wrapperContained.BASE_CODEC = value; }
+// public com.mojang.datafixers.kinds.App method_57469(Object instance) { return wrapperContained.method_57469(instance); }
 public int getColor(yarnwrap.item.ItemStack stack,int defaultColor) { return wrapperContained.getColor(stack.wrapperContained,defaultColor); }
 public yarnwrap.item.ItemStack setColor(yarnwrap.item.ItemStack stack,java.util.List dyes) { return new yarnwrap.item.ItemStack(wrapperContained.setColor(stack.wrapperContained,dyes)); }
+// public yarnwrap.component.type.DyedColorComponent method_58112(java.lang.Integer rgb) { return new yarnwrap.component.type.DyedColorComponent(wrapperContained.method_58112(rgb)); }
 public yarnwrap.component.type.DyedColorComponent withShowInTooltip(boolean showInTooltip) { return new yarnwrap.component.type.DyedColorComponent(wrapperContained.withShowInTooltip(showInTooltip)); }
 
 }

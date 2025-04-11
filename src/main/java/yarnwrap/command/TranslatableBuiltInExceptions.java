@@ -55,5 +55,22 @@ public class TranslatableBuiltInExceptions { public net.minecraft.command.Transl
 // public void READER_EXPECTED_END_QUOTE(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.READER_EXPECTED_END_QUOTE = value; }
 // public com.mojang.brigadier.exceptions.DynamicCommandExceptionType READER_INVALID_FLOAT() { return wrapperContained.READER_INVALID_FLOAT; }
 // public void READER_INVALID_FLOAT(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.READER_INVALID_FLOAT = value; }
+// public com.mojang.brigadier.Message method_18479(java.lang.Object found,java.lang.Object max) { return wrapperContained.method_18479(found,max); }
+// public com.mojang.brigadier.Message method_18480(java.lang.Object found,java.lang.Object min) { return wrapperContained.method_18480(found,min); }
+// public com.mojang.brigadier.Message method_18481(java.lang.Object value) { return wrapperContained.method_18481(value); }
+// public com.mojang.brigadier.Message method_9178(java.lang.Object found,java.lang.Object max) { return wrapperContained.method_9178(found,max); }
+// public com.mojang.brigadier.Message method_9179(java.lang.Object value) { return wrapperContained.method_9179(value); }
+// public com.mojang.brigadier.Message method_9180(java.lang.Object found,java.lang.Object min) { return wrapperContained.method_9180(found,min); }
+// public com.mojang.brigadier.Message method_9181(java.lang.Object value) { return wrapperContained.method_9181(value); }
+// public com.mojang.brigadier.Message method_9182(java.lang.Object value) { return wrapperContained.method_9182(value); }
+// public com.mojang.brigadier.Message method_9183(java.lang.Object found,java.lang.Object max) { return wrapperContained.method_9183(found,max); }
+// public com.mojang.brigadier.Message method_9184(java.lang.Object message) { return wrapperContained.method_9184(message); }
+// public com.mojang.brigadier.Message method_9185(java.lang.Object value) { return wrapperContained.method_9185(value); }
+// public com.mojang.brigadier.Message method_9186(java.lang.Object found,java.lang.Object max) { return wrapperContained.method_9186(found,max); }
+// public com.mojang.brigadier.Message method_9187(java.lang.Object found,java.lang.Object min) { return wrapperContained.method_9187(found,min); }
+// public com.mojang.brigadier.Message method_9188(java.lang.Object symbol) { return wrapperContained.method_9188(symbol); }
+// public com.mojang.brigadier.Message method_9189(java.lang.Object expected) { return wrapperContained.method_9189(expected); }
+// public com.mojang.brigadier.Message method_9190(java.lang.Object found,java.lang.Object min) { return wrapperContained.method_9190(found,min); }
+// public com.mojang.brigadier.Message method_9191(java.lang.Object character) { return wrapperContained.method_9191(character); }
 
 }

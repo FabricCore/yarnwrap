@@ -29,6 +29,12 @@ public class OpenToLanScreen { public net.minecraft.client.gui.screen.OpenToLanS
 // public void MIN_PORT(int value) { wrapperContained.MIN_PORT = value; }
 // public int MAX_PORT() { return wrapperContained.MAX_PORT; }
 // public void MAX_PORT(int value) { wrapperContained.MAX_PORT = value; }
+public OpenToLanScreen(yarnwrap.client.gui.screen.Screen screen) { this.wrapperContained = new net.minecraft.client.gui.screen.OpenToLanScreen(screen.wrapperContained); }
+// public void method_19850(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19850(button.wrapperContained); }
+// public void method_19851(yarnwrap.server.integrated.IntegratedServer button) { wrapperContained.method_19851(button.wrapperContained); }
+// public void method_32638(yarnwrap.client.gui.widget.CyclingButtonWidget button,yarnwrap.world.GameMode gameMode) { wrapperContained.method_32638(button.wrapperContained,gameMode.wrapperContained); }
+// public void method_32639(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean allowCommands) { wrapperContained.method_32639(button.wrapperContained,allowCommands); }
+// public void method_47416(yarnwrap.client.gui.widget.ButtonWidget portText) { wrapperContained.method_47416(portText.wrapperContained); }
 // public yarnwrap.text.Text updatePort(java.lang.String portText) { return new yarnwrap.text.Text(wrapperContained.updatePort(portText)); }
 
 }

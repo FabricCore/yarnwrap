@@ -7,5 +7,7 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 public int MAX_EXPLOSIONS() { return wrapperContained.MAX_EXPLOSIONS; }
 // public void MAX_EXPLOSIONS(int value) { wrapperContained.MAX_EXPLOSIONS = value; }
+// public com.mojang.datafixers.kinds.App method_57478(Object instance) { return wrapperContained.method_57478(instance); }
+// public void method_57479(java.util.function.Consumer text) { wrapperContained.method_57479(text); }
 
 }

@@ -15,9 +15,11 @@ public class VanillaDataPackProvider { public net.minecraft.resource.VanillaData
 // public void BOTTOM_POSITION(yarnwrap.resource.ResourcePackPosition value) { wrapperContained.BOTTOM_POSITION = value.wrapperContained; }
 // public yarnwrap.resource.ResourcePackPosition TOP_POSITION() { return new yarnwrap.resource.ResourcePackPosition(wrapperContained.TOP_POSITION); }
 // public void TOP_POSITION(yarnwrap.resource.ResourcePackPosition value) { wrapperContained.TOP_POSITION = value.wrapperContained; }
+public VanillaDataPackProvider(yarnwrap.util.path.SymlinkFinder symlinkFinder) { this.wrapperContained = new net.minecraft.resource.VanillaDataPackProvider(symlinkFinder.wrapperContained); }
 // public yarnwrap.resource.ResourcePackManager createManager(Object session) { return new yarnwrap.resource.ResourcePackManager(wrapperContained.createManager(session)); }
 public yarnwrap.resource.ResourcePackManager createManager(java.nio.file.Path dataPacksPath,yarnwrap.util.path.SymlinkFinder symlinkFinder) { return new yarnwrap.resource.ResourcePackManager(wrapperContained.createManager(dataPacksPath,symlinkFinder.wrapperContained)); }
 public yarnwrap.resource.DefaultResourcePack createDefaultPack() { return new yarnwrap.resource.DefaultResourcePack(wrapperContained.createDefaultPack()); }
+// public boolean method_52442(java.nio.file.Path path) { return wrapperContained.method_52442(path); }
 public yarnwrap.resource.ResourcePackManager createClientManager() { return new yarnwrap.resource.ResourcePackManager(wrapperContained.createClientManager()); }
 // public yarnwrap.resource.ResourcePackInfo createInfo(java.lang.String id,yarnwrap.text.Text title) { return new yarnwrap.resource.ResourcePackInfo(wrapperContained.createInfo(id,title.wrapperContained)); }
 

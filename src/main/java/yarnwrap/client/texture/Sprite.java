@@ -17,6 +17,7 @@ public class Sprite { public net.minecraft.client.texture.Sprite wrapperContaine
 // public void maxU(float value) { wrapperContained.maxU = value; }
 // public float minU() { return wrapperContained.minU; }
 // public void minU(float value) { wrapperContained.minU = value; }
+// public Sprite(yarnwrap.util.Identifier atlasId,yarnwrap.client.texture.SpriteContents contents,int atlasWidth,int atlasHeight,int x,int y) { this.wrapperContained = new net.minecraft.client.texture.Sprite(atlasId.wrapperContained,contents.wrapperContained,atlasWidth,atlasHeight,x,y); }
 // public float getFrameDeltaFactor() { return wrapperContained.getFrameDeltaFactor(); }
 public float getAnimationFrameDelta() { return wrapperContained.getAnimationFrameDelta(); }
 public yarnwrap.client.render.VertexConsumer getTextureSpecificVertexConsumer(yarnwrap.client.render.VertexConsumer consumer) { return new yarnwrap.client.render.VertexConsumer(wrapperContained.getTextureSpecificVertexConsumer(consumer.wrapperContained)); }

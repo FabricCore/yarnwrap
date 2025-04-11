@@ -13,9 +13,12 @@ public class ResourcePackOrganizer { public net.minecraft.client.gui.screen.pack
 // public void resourcePackManager(yarnwrap.resource.ResourcePackManager value) { wrapperContained.resourcePackManager = value.wrapperContained; }
 // public java.util.function.Function iconIdSupplier() { return wrapperContained.iconIdSupplier; }
 // public void iconIdSupplier(java.util.function.Function value) { wrapperContained.iconIdSupplier = value; }
+public ResourcePackOrganizer(java.lang.Runnable updateCallback,java.util.function.Function iconIdSupplier,yarnwrap.resource.ResourcePackManager resourcePackManager,java.util.function.Consumer applier) { this.wrapperContained = new net.minecraft.client.gui.screen.pack.ResourcePackOrganizer(updateCallback,iconIdSupplier,resourcePackManager.wrapperContained,applier); }
 public java.util.stream.Stream getDisabledPacks() { return wrapperContained.getDisabledPacks(); }
+// public Object method_29640(yarnwrap.resource.ResourcePackProfile pack) { return wrapperContained.method_29640(pack.wrapperContained); }
 public void apply() { wrapperContained.apply(); }
 public java.util.stream.Stream getEnabledPacks() { return wrapperContained.getEnabledPacks(); }
+// public Object method_29644(yarnwrap.resource.ResourcePackProfile pack) { return wrapperContained.method_29644(pack.wrapperContained); }
 public void refresh() { wrapperContained.refresh(); }
 // public void refreshEnabledProfiles() { wrapperContained.refreshEnabledProfiles(); }
 

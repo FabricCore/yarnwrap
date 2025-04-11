@@ -41,7 +41,9 @@ public yarnwrap.server.world.OptionalChunk UNLOADED_WORLD_CHUNK() { return new y
 // public void postProcessingFuture(java.util.concurrent.CompletableFuture value) { wrapperContained.postProcessingFuture = value; }
 // public java.util.concurrent.CompletableFuture savingFuture() { return wrapperContained.savingFuture; }
 // public void savingFuture(java.util.concurrent.CompletableFuture value) { wrapperContained.savingFuture = value; }
+// public ChunkHolder(yarnwrap.util.math.ChunkPos pos,int level,yarnwrap.world.HeightLimitView world,yarnwrap.world.chunk.light.LightingProvider lightingProvider,Object levelUpdateListener,Object playersWatchingChunkProvider) { this.wrapperContained = new net.minecraft.server.world.ChunkHolder(pos.wrapperContained,level,world.wrapperContained,lightingProvider.wrapperContained,levelUpdateListener,playersWatchingChunkProvider); }
 // public void sendPacketToPlayers(java.util.List players,yarnwrap.network.packet.Packet packet) { wrapperContained.sendPacketToPlayers(players,packet.wrapperContained); }
+// public void method_13996(yarnwrap.network.packet.Packet player) { wrapperContained.method_13996(player.wrapperContained); }
 public java.util.concurrent.CompletableFuture getSavingFuture() { return wrapperContained.getSavingFuture(); }
 public void markForBlockUpdate(yarnwrap.util.math.BlockPos pos) { wrapperContained.markForBlockUpdate(pos.wrapperContained); }
 public java.util.concurrent.CompletableFuture getEntityTickingFuture() { return wrapperContained.getEntityTickingFuture(); }
@@ -57,12 +59,16 @@ public boolean isAccessible() { return wrapperContained.isAccessible(); }
 public void updateAccessibleStatus() { wrapperContained.updateAccessibleStatus(); }
 public java.util.concurrent.CompletableFuture getAccessibleFuture() { return wrapperContained.getAccessibleFuture(); }
 // public void tryUpdateBlockEntityAt(java.util.List players,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.tryUpdateBlockEntityAt(players,world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
+// public void method_30312(java.util.List pos,yarnwrap.world.World state) { wrapperContained.method_30312(pos,state.wrapperContained); }
 // public void decreaseLevel(yarnwrap.server.world.ServerChunkLoadingManager chunkLoadingManager,yarnwrap.server.world.ChunkLevelType target) { wrapperContained.decreaseLevel(chunkLoadingManager.wrapperContained,target.wrapperContained); }
 // public void increaseLevel(yarnwrap.server.world.ServerChunkLoadingManager chunkLoadingManager,java.util.concurrent.CompletableFuture chunkFuture,java.util.concurrent.Executor executor,yarnwrap.server.world.ChunkLevelType target) { wrapperContained.increaseLevel(chunkLoadingManager.wrapperContained,chunkFuture,executor,target.wrapperContained); }
+// public void method_31410(java.util.concurrent.CompletableFuture chunk) { wrapperContained.method_31410(chunk); }
+// public java.lang.Object method_39966(java.lang.Object thenResult) { return wrapperContained.method_39966(thenResult); }
 // public void combineSavingFuture(java.util.concurrent.CompletableFuture savingFuture) { wrapperContained.combineSavingFuture(savingFuture); }
 public void combinePostProcessingFuture(java.util.concurrent.CompletableFuture postProcessingFuture) { wrapperContained.combinePostProcessingFuture(postProcessingFuture); }
 public java.util.concurrent.CompletableFuture getPostProcessingFuture() { return wrapperContained.getPostProcessingFuture(); }
 public yarnwrap.world.chunk.WorldChunk getPostProcessedChunk() { return new yarnwrap.world.chunk.WorldChunk(wrapperContained.getPostProcessedChunk()); }
+// public void method_57117(java.util.concurrent.CompletableFuture optionalChunk) { wrapperContained.method_57117(optionalChunk); }
 public boolean isSavable() { return wrapperContained.isSavable(); }
 
 }

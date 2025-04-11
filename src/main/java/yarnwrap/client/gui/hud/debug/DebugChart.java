@@ -7,6 +7,7 @@ public class DebugChart { public net.minecraft.client.gui.hud.debug.DebugChart w
 // public void textRenderer(yarnwrap.client.font.TextRenderer value) { wrapperContained.textRenderer = value.wrapperContained; }
 // public yarnwrap.util.profiler.log.MultiValueDebugSampleLog log() { return new yarnwrap.util.profiler.log.MultiValueDebugSampleLog(wrapperContained.log); }
 // public void log(yarnwrap.util.profiler.log.MultiValueDebugSampleLog value) { wrapperContained.log = value.wrapperContained; }
+// public DebugChart(yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.util.profiler.log.MultiValueDebugSampleLog log) { this.wrapperContained = new net.minecraft.client.gui.hud.debug.DebugChart(textRenderer.wrapperContained,log.wrapperContained); }
 // public java.lang.String format(double value) { return wrapperContained.format(value); }
 // public int getColor(double value,double min,int minColor,double median,int medianColor,double max,int maxColor) { return wrapperContained.getColor(value,min,minColor,median,medianColor,max,maxColor); }
 public int getWidth(int centerX) { return wrapperContained.getWidth(centerX); }

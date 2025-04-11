@@ -25,6 +25,7 @@ public int UNLIMITED_LENGTH() { return wrapperContained.UNLIMITED_LENGTH; }
 // public void changeListener(java.util.function.Consumer value) { wrapperContained.changeListener = value; }
 // public java.lang.Runnable cursorChangeListener() { return wrapperContained.cursorChangeListener; }
 // public void cursorChangeListener(java.lang.Runnable value) { wrapperContained.cursorChangeListener = value; }
+public EditBox(yarnwrap.client.font.TextRenderer textRenderer,int width) { this.wrapperContained = new net.minecraft.client.gui.EditBox(textRenderer.wrapperContained,width); }
 public int getMaxLength() { return wrapperContained.getMaxLength(); }
 public void moveCursor(double x,double y) { wrapperContained.moveCursor(x,y); }
 public void setMaxLength(int maxLength) { wrapperContained.setMaxLength(maxLength); }
@@ -32,6 +33,7 @@ public void moveCursor(yarnwrap.client.input.CursorMovement movement,int amount)
 public void setCursorChangeListener(java.lang.Runnable cursorChangeListener) { wrapperContained.setCursorChangeListener(cursorChangeListener); }
 public void setText(java.lang.String text) { wrapperContained.setText(text); }
 public void setChangeListener(java.util.function.Consumer changeListener) { wrapperContained.setChangeListener(changeListener); }
+// public void method_44416(yarnwrap.text.Style style,int start,int end) { wrapperContained.method_44416(style.wrapperContained,start,end); }
 public void setSelecting(boolean selecting) { wrapperContained.setSelecting(selecting); }
 public boolean hasMaxLength() { return wrapperContained.hasMaxLength(); }
 public void delete(int offset) { wrapperContained.delete(offset); }
@@ -44,6 +46,7 @@ public void moveCursorLine(int offset) { wrapperContained.moveCursorLine(offset)
 // public java.lang.String truncate(java.lang.String value) { return wrapperContained.truncate(value); }
 public Object getSelection() { return wrapperContained.getSelection(); }
 public boolean handleSpecialKey(int keyCode) { return wrapperContained.handleSpecialKey(keyCode); }
+// public void method_44429(java.lang.String text) { wrapperContained.method_44429(text); }
 public int getLineCount() { return wrapperContained.getLineCount(); }
 // public Object getOffsetLine(int offsetFromCurrent) { return wrapperContained.getOffsetLine(offsetFromCurrent); }
 public int getCurrentLineIndex() { return wrapperContained.getCurrentLineIndex(); }

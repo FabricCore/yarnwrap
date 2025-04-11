@@ -13,6 +13,8 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void smallIslandsBiome(yarnwrap.registry.entry.RegistryEntry value) { wrapperContained.smallIslandsBiome = value.wrapperContained; }
 // public yarnwrap.registry.entry.RegistryEntry barrensBiome() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.barrensBiome); }
 // public void barrensBiome(yarnwrap.registry.entry.RegistryEntry value) { wrapperContained.barrensBiome = value.wrapperContained; }
+// public TheEndBiomeSource(yarnwrap.registry.entry.RegistryEntry centerBiome,yarnwrap.registry.entry.RegistryEntry highlandsBiome,yarnwrap.registry.entry.RegistryEntry midlandsBiome,yarnwrap.registry.entry.RegistryEntry smallIslandsBiome,yarnwrap.registry.entry.RegistryEntry barrensBiome) { this.wrapperContained = new net.minecraft.world.biome.source.TheEndBiomeSource(centerBiome.wrapperContained,highlandsBiome.wrapperContained,midlandsBiome.wrapperContained,smallIslandsBiome.wrapperContained,barrensBiome.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_46679(Object instance) { return wrapperContained.method_46679(instance); }
 public yarnwrap.world.biome.source.TheEndBiomeSource createVanilla(yarnwrap.registry.RegistryEntryLookup biomeLookup) { return new yarnwrap.world.biome.source.TheEndBiomeSource(wrapperContained.createVanilla(biomeLookup.wrapperContained)); }
 
 }

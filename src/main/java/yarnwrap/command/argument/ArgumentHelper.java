@@ -14,6 +14,7 @@ public boolean hasMinFlag(byte flags) { return wrapperContained.hasMinFlag(flags
 public com.google.gson.JsonObject toJson(com.mojang.brigadier.CommandDispatcher dispatcher,com.mojang.brigadier.tree.CommandNode rootNode) { return wrapperContained.toJson(dispatcher,rootNode); }
 public java.util.Set collectUsedArgumentTypes(com.mojang.brigadier.tree.CommandNode rootNode) { return wrapperContained.collectUsedArgumentTypes(rootNode); }
 // public void collectUsedArgumentTypes(com.mojang.brigadier.tree.CommandNode node,java.util.Set usedArgumentTypes,java.util.Set visitedNodes) { wrapperContained.collectUsedArgumentTypes(node,usedArgumentTypes,visitedNodes); }
+// public void method_41993(java.util.Set child) { wrapperContained.method_41993(child); }
 public int getMinMaxFlag(boolean hasMin,boolean hasMax) { return wrapperContained.getMinMaxFlag(hasMin,hasMax); }
 public boolean hasMaxFlag(byte flags) { return wrapperContained.hasMaxFlag(flags); }
 

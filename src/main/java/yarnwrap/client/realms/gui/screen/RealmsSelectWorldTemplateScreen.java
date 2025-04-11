@@ -33,6 +33,8 @@ public class RealmsSelectWorldTemplateScreen { public net.minecraft.client.realm
 // public void TRAILER_TEXT(yarnwrap.text.Text value) { wrapperContained.TRAILER_TEXT = value.wrapperContained; }
 // public yarnwrap.text.Text PUBLISHER_TEXT() { return new yarnwrap.text.Text(wrapperContained.PUBLISHER_TEXT); }
 // public void PUBLISHER_TEXT(yarnwrap.text.Text value) { wrapperContained.PUBLISHER_TEXT = value.wrapperContained; }
+// public RealmsSelectWorldTemplateScreen(yarnwrap.text.Text title,java.util.function.Consumer callback,Object worldType) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsSelectWorldTemplateScreen(title.wrapperContained,callback,worldType); }
+// public RealmsSelectWorldTemplateScreen(yarnwrap.text.Text title,java.util.function.Consumer callback,Object worldType,yarnwrap.client.realms.dto.WorldTemplatePaginatedList templateList) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsSelectWorldTemplateScreen(title.wrapperContained,callback,worldType,templateList.wrapperContained); }
 // public void renderMessages(yarnwrap.client.gui.DrawContext context,int x,int y,java.util.List messages) { wrapperContained.renderMessages(context.wrapperContained,x,y,messages); }
 // public void setPagination(yarnwrap.client.realms.dto.WorldTemplatePaginatedList templateList) { wrapperContained.setPagination(templateList.wrapperContained); }
 // public com.mojang.datafixers.util.Either fetchWorldTemplates(yarnwrap.client.realms.dto.WorldTemplatePaginatedList templateList,yarnwrap.client.realms.RealmsClient realms) { return wrapperContained.fetchWorldTemplates(templateList.wrapperContained,realms.wrapperContained); }
@@ -41,6 +43,12 @@ public void setWarning(net.minecraft.text.Text[] warning) { wrapperContained.set
 // public void selectTemplate() { wrapperContained.selectTemplate(); }
 // public void onTrailer() { wrapperContained.onTrailer(); }
 // public void onPublish() { wrapperContained.onPublish(); }
+// public int method_25230(Object segment) { return wrapperContained.method_25230(segment); }
+// public void method_25231(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25231(button.wrapperContained); }
+// public void method_25233(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25233(button.wrapperContained); }
+// public void method_25234(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25234(button.wrapperContained); }
+// public void method_25236(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25236(button.wrapperContained); }
 // public int getTemplateListTop() { return wrapperContained.getTemplateListTop(); }
+// public void method_53515(yarnwrap.client.realms.gui.screen.RealmsSelectWorldTemplateScreen child) { wrapperContained.method_53515(child.wrapperContained); }
 
 }

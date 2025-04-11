@@ -25,6 +25,12 @@ public int RESULT_ID() { return wrapperContained.RESULT_ID; }
 // public void result(yarnwrap.inventory.CraftingResultInventory value) { wrapperContained.result = value.wrapperContained; }
 // public yarnwrap.inventory.RecipeInputInventory input() { return new yarnwrap.inventory.RecipeInputInventory(wrapperContained.input); }
 // public void input(yarnwrap.inventory.RecipeInputInventory value) { wrapperContained.input = value.wrapperContained; }
+public CraftingScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.CraftingScreenHandler(syncId,playerInventory.wrapperContained); }
+public CraftingScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.CraftingScreenHandler(syncId,playerInventory.wrapperContained,context.wrapperContained); }
 // public void updateResult(yarnwrap.screen.ScreenHandler handler,yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.inventory.RecipeInputInventory craftingInventory,yarnwrap.inventory.CraftingResultInventory resultInventory,yarnwrap.recipe.RecipeEntry recipe) { wrapperContained.updateResult(handler.wrapperContained,world.wrapperContained,player.wrapperContained,craftingInventory.wrapperContained,resultInventory.wrapperContained,recipe.wrapperContained); }
+// public void method_17400(yarnwrap.item.ItemStack world,yarnwrap.entity.player.PlayerEntity pos) { wrapperContained.method_17400(world.wrapperContained,pos.wrapperContained); }
+// public void method_17401(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.method_17401(world.wrapperContained,pos.wrapperContained); }
+// public void method_17402(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { wrapperContained.method_17402(world.wrapperContained,pos.wrapperContained); }
+// public void method_59962(yarnwrap.recipe.RecipeEntry world,yarnwrap.world.World pos) { wrapperContained.method_59962(world.wrapperContained,pos.wrapperContained); }
 
 }

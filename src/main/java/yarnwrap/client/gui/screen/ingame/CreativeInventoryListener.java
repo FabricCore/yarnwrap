@@ -3,5 +3,6 @@ public class CreativeInventoryListener { public net.minecraft.client.gui.screen.
 
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
+public CreativeInventoryListener(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.CreativeInventoryListener(client.wrapperContained); }
 
 }

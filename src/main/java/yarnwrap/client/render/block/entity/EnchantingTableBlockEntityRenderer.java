@@ -5,5 +5,6 @@ public yarnwrap.client.util.SpriteIdentifier BOOK_TEXTURE() { return new yarnwra
 // public void BOOK_TEXTURE(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.BOOK_TEXTURE = value.wrapperContained; }
 // public yarnwrap.client.render.entity.model.BookModel book() { return new yarnwrap.client.render.entity.model.BookModel(wrapperContained.book); }
 // public void book(yarnwrap.client.render.entity.model.BookModel value) { wrapperContained.book = value.wrapperContained; }
+// public EnchantingTableBlockEntityRenderer(Object ctx) { this.wrapperContained = new net.minecraft.client.render.block.entity.EnchantingTableBlockEntityRenderer(ctx); }
 
 }

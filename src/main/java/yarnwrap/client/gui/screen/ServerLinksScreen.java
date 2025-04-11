@@ -15,5 +15,8 @@ public class ServerLinksScreen { public net.minecraft.client.gui.screen.ServerLi
 // public void layoutWidget(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layoutWidget = value.wrapperContained; }
 // public yarnwrap.server.ServerLinks serverLinks() { return new yarnwrap.server.ServerLinks(wrapperContained.serverLinks); }
 // public void serverLinks(yarnwrap.server.ServerLinks value) { wrapperContained.serverLinks = value.wrapperContained; }
+public ServerLinksScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.server.ServerLinks serverLinks) { this.wrapperContained = new net.minecraft.client.gui.screen.ServerLinksScreen(parent.wrapperContained,serverLinks.wrapperContained); }
+// public void method_60875(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_60875(button.wrapperContained); }
+// public void method_60876(yarnwrap.client.gui.screen.ServerLinksScreen child) { wrapperContained.method_60876(child.wrapperContained); }
 
 }

@@ -35,9 +35,13 @@ public java.lang.String UI_CATEGORY() { return wrapperContained.UI_CATEGORY; }
 // public void UI_CATEGORY(java.lang.String value) { wrapperContained.UI_CATEGORY = value; }
 public java.lang.String CREATIVE_CATEGORY() { return wrapperContained.CREATIVE_CATEGORY; }
 // public void CREATIVE_CATEGORY(java.lang.String value) { wrapperContained.CREATIVE_CATEGORY = value; }
+public KeyBinding(java.lang.String translationKey,int code,java.lang.String category) { this.wrapperContained = new net.minecraft.client.option.KeyBinding(translationKey,code,category); }
+// public KeyBinding(java.lang.String translationKey,Object type,int code,java.lang.String category) { this.wrapperContained = new net.minecraft.client.option.KeyBinding(translationKey,type,code,category); }
+// public int compareTo(java.lang.Object other) { return wrapperContained.compareTo(other); }
 public boolean isUnbound() { return wrapperContained.isUnbound(); }
 // public void setKeyPressed(Object key,boolean pressed) { wrapperContained.setKeyPressed(key,pressed); }
 public boolean matchesKey(int keyCode,int scanCode) { return wrapperContained.matchesKey(keyCode,scanCode); }
+// public void method_1418(java.util.HashMap map) { wrapperContained.method_1418(map); }
 public java.util.function.Supplier getLocalizedName(java.lang.String id) { return wrapperContained.getLocalizedName(id); }
 // public void onKeyPressed(Object key) { wrapperContained.onKeyPressed(key); }
 // public void setBoundKey(Object boundKey) { wrapperContained.setBoundKey(boundKey); }

@@ -15,6 +15,7 @@ public class SelectionManager { public net.minecraft.client.util.SelectionManage
 // public void stringSetter(java.util.function.Consumer value) { wrapperContained.stringSetter = value; }
 // public java.util.function.Predicate stringFilter() { return wrapperContained.stringFilter; }
 // public void stringFilter(java.util.function.Predicate value) { wrapperContained.stringFilter = value; }
+public SelectionManager(java.util.function.Supplier stringGetter,java.util.function.Consumer stringSetter,java.util.function.Supplier clipboardGetter,java.util.function.Consumer clipboardSetter,java.util.function.Predicate stringFilter) { this.wrapperContained = new net.minecraft.client.util.SelectionManager(stringGetter,stringSetter,clipboardGetter,clipboardSetter,stringFilter); }
 public void insert(java.lang.String string) { wrapperContained.insert(string); }
 // public java.lang.String deleteSelectedText(java.lang.String string) { return wrapperContained.deleteSelectedText(string); }
 public boolean insert(char c) { return wrapperContained.insert(c); }
@@ -33,6 +34,7 @@ public void moveCursorToStart(boolean shiftDown) { wrapperContained.moveCursorTo
 public void paste() { wrapperContained.paste(); }
 public void moveCursorPastWord(int offset,boolean shiftDown) { wrapperContained.moveCursorPastWord(offset,shiftDown); }
 public java.lang.String getClipboard(yarnwrap.client.MinecraftClient client) { return wrapperContained.getClipboard(client.wrapperContained); }
+// public void method_27557(yarnwrap.client.MinecraftClient clipboardString) { wrapperContained.method_27557(clipboardString.wrapperContained); }
 public void moveCursorToEnd(boolean shiftDown) { wrapperContained.moveCursorToEnd(shiftDown); }
 public void copy() { wrapperContained.copy(); }
 public void moveCursorTo(int position,boolean shiftDown) { wrapperContained.moveCursorTo(position,shiftDown); }

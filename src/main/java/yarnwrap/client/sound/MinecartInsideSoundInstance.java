@@ -7,5 +7,6 @@ public class MinecartInsideSoundInstance { public net.minecraft.client.sound.Min
 // public void minecart(yarnwrap.entity.vehicle.AbstractMinecartEntity value) { wrapperContained.minecart = value.wrapperContained; }
 // public yarnwrap.entity.player.PlayerEntity player() { return new yarnwrap.entity.player.PlayerEntity(wrapperContained.player); }
 // public void player(yarnwrap.entity.player.PlayerEntity value) { wrapperContained.player = value.wrapperContained; }
+public MinecartInsideSoundInstance(yarnwrap.entity.player.PlayerEntity player,yarnwrap.entity.vehicle.AbstractMinecartEntity minecart,boolean underwater) { this.wrapperContained = new net.minecraft.client.sound.MinecartInsideSoundInstance(player.wrapperContained,minecart.wrapperContained,underwater); }
 
 }

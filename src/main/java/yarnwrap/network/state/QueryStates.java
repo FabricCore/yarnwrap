@@ -9,5 +9,8 @@ public Object C2S_FACTORY() { return wrapperContained.C2S_FACTORY; }
 // // public void C2S_FACTORY(Object value) { wrapperContained.C2S_FACTORY = value; }
 public Object S2C_FACTORY() { return wrapperContained.S2C_FACTORY; }
 // // public void S2C_FACTORY(Object value) { wrapperContained.S2C_FACTORY = value; }
+// public void method_56029(yarnwrap.network.NetworkStateBuilder builder) { wrapperContained.method_56029(builder.wrapperContained); }
+// public void method_56030(yarnwrap.network.NetworkStateBuilder builder) { wrapperContained.method_56030(builder.wrapperContained); }
+// public io.netty.buffer.ByteBuf method_60934(io.netty.buffer.ByteBuf buf) { return wrapperContained.method_60934(buf); }
 
 }

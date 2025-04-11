@@ -27,9 +27,11 @@ public class ChunkBuilder { public net.minecraft.client.render.chunk.ChunkBuilde
 // public void buffersPool(yarnwrap.client.render.chunk.BlockBufferBuilderPool value) { wrapperContained.buffersPool = value.wrapperContained; }
 // public boolean stopped() { return wrapperContained.stopped; }
 // public void stopped(boolean value) { wrapperContained.stopped = value; }
+// public ChunkBuilder(yarnwrap.client.world.ClientWorld world,yarnwrap.client.render.WorldRenderer worldRenderer,java.util.concurrent.Executor executor,yarnwrap.client.render.BufferBuilderStorage bufferBuilderStorage) { this.wrapperContained = new net.minecraft.client.render.chunk.ChunkBuilder(world.wrapperContained,worldRenderer.wrapperContained,executor,bufferBuilderStorage.wrapperContained); }
 public void setCameraPosition(yarnwrap.util.math.Vec3d cameraPosition) { wrapperContained.setCameraPosition(cameraPosition.wrapperContained); }
 public yarnwrap.util.math.Vec3d getCameraPosition() { return new yarnwrap.util.math.Vec3d(wrapperContained.getCameraPosition()); }
 public void setWorld(yarnwrap.client.world.ClientWorld world) { wrapperContained.setWorld(world.wrapperContained); }
+// public void method_22755(yarnwrap.client.render.chunk.BlockBufferAllocatorStorage result,Object throwable) { wrapperContained.method_22755(result.wrapperContained,throwable); }
 // public void send(Object task) { wrapperContained.send(task); }
 public void upload() { wrapperContained.upload(); }
 // public void scheduleRunTasks() { wrapperContained.scheduleRunTasks(); }
@@ -43,6 +45,7 @@ public boolean isEmpty() { return wrapperContained.isEmpty(); }
 public void reset() { wrapperContained.reset(); }
 // public void clear() { wrapperContained.clear(); }
 public java.util.concurrent.CompletableFuture scheduleUpload(yarnwrap.client.render.BuiltBuffer builtBuffer,yarnwrap.client.gl.VertexBuffer glBuffer) { return wrapperContained.scheduleUpload(builtBuffer.wrapperContained,glBuffer.wrapperContained); }
+// public java.util.concurrent.CompletionStage method_38555(java.util.concurrent.CompletableFuture future) { return wrapperContained.method_38555(future); }
 // public Object pollTask() { return wrapperContained.pollTask(); }
 
 }

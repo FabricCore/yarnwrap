@@ -21,6 +21,11 @@ public class BiomeEffectSoundPlayer { public net.minecraft.client.sound.BiomeEff
 // public void moodPercentage(float value) { wrapperContained.moodPercentage = value; }
 // public int MAX_STRENGTH() { return wrapperContained.MAX_STRENGTH; }
 // public void MAX_STRENGTH(int value) { wrapperContained.MAX_STRENGTH = value; }
+public BiomeEffectSoundPlayer(yarnwrap.client.network.ClientPlayerEntity player,yarnwrap.client.sound.SoundManager soundManager,yarnwrap.world.biome.source.BiomeAccess biomeAccess) { this.wrapperContained = new net.minecraft.client.sound.BiomeEffectSoundPlayer(player.wrapperContained,soundManager.wrapperContained,biomeAccess.wrapperContained); }
+// public Object method_25459(yarnwrap.registry.entry.RegistryEntry sound,yarnwrap.world.biome.Biome loop) { return wrapperContained.method_25459(sound.wrapperContained,loop.wrapperContained); }
+// public void method_25460(yarnwrap.world.biome.Biome sound) { wrapperContained.method_25460(sound.wrapperContained); }
+// public void method_26270(yarnwrap.sound.BiomeAdditionsSound sound) { wrapperContained.method_26270(sound.wrapperContained); }
+// public void method_26271(yarnwrap.sound.BiomeMoodSound sound) { wrapperContained.method_26271(sound.wrapperContained); }
 public float getMoodPercentage() { return wrapperContained.getMoodPercentage(); }
 
 }

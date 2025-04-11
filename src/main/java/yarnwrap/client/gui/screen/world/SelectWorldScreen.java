@@ -19,6 +19,15 @@ public class SelectWorldScreen { public net.minecraft.client.gui.screen.world.Se
 // public void selectButton(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.selectButton = value.wrapperContained; }
 public yarnwrap.world.gen.GeneratorOptions DEBUG_GENERATOR_OPTIONS() { return new yarnwrap.world.gen.GeneratorOptions(wrapperContained.DEBUG_GENERATOR_OPTIONS); }
 // public void DEBUG_GENERATOR_OPTIONS(yarnwrap.world.gen.GeneratorOptions value) { wrapperContained.DEBUG_GENERATOR_OPTIONS = value.wrapperContained; }
+public SelectWorldScreen(yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.gui.screen.world.SelectWorldScreen(parent.wrapperContained); }
+// public void method_19939(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19939(button.wrapperContained); }
 public void worldSelected(yarnwrap.world.level.storage.LevelSummary levelSummary) { wrapperContained.worldSelected(levelSummary.wrapperContained); }
+// public void method_19941(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19941(button.wrapperContained); }
+// public void method_19942(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19942(button.wrapperContained); }
+// public void method_19943(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19943(button.wrapperContained); }
+// public void method_19944(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19944(button.wrapperContained); }
+// public void method_19945(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19945(button.wrapperContained); }
+// public void method_2744(java.lang.String search) { wrapperContained.method_2744(search); }
+// public void method_35739(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_35739(button.wrapperContained); }
 
 }

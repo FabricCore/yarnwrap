@@ -29,5 +29,6 @@ public class TropicalFishColorFeatureRenderer { public net.minecraft.client.rend
 // public void CLAYFISH_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.CLAYFISH_TEXTURE = value.wrapperContained; }
 // public yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel largeModel() { return new yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel(wrapperContained.largeModel); }
 // public void largeModel(yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel value) { wrapperContained.largeModel = value.wrapperContained; }
+public TropicalFishColorFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.EntityModelLoader loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
 
 }

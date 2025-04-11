@@ -7,6 +7,7 @@ public class ChunkPosKeyedStorage { public net.minecraft.world.storage.ChunkPosK
 // public void dataFixer(com.mojang.datafixers.DataFixer value) { wrapperContained.dataFixer = value; }
 // public yarnwrap.datafixer.DataFixTypes dataFixTypes() { return new yarnwrap.datafixer.DataFixTypes(wrapperContained.dataFixTypes); }
 // public void dataFixTypes(yarnwrap.datafixer.DataFixTypes value) { wrapperContained.dataFixTypes = value.wrapperContained; }
+public ChunkPosKeyedStorage(yarnwrap.world.storage.StorageKey storageKey,java.nio.file.Path directory,com.mojang.datafixers.DataFixer dataFixer,boolean dsync,yarnwrap.datafixer.DataFixTypes dataFixTypes) { this.wrapperContained = new net.minecraft.world.storage.ChunkPosKeyedStorage(storageKey.wrapperContained,directory,dataFixer,dsync,dataFixTypes.wrapperContained); }
 public java.util.concurrent.CompletableFuture set(yarnwrap.util.math.ChunkPos pos,yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.set(pos.wrapperContained,nbt.wrapperContained); }
 public com.mojang.serialization.Dynamic update(com.mojang.serialization.Dynamic nbt,int oldVersion) { return wrapperContained.update(nbt,oldVersion); }
 public java.util.concurrent.CompletableFuture read(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.read(pos.wrapperContained); }

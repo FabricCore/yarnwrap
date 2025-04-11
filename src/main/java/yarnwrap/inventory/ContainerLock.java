@@ -9,6 +9,7 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 public yarnwrap.inventory.ContainerLock EMPTY() { return new yarnwrap.inventory.ContainerLock(wrapperContained.EMPTY); }
 // public void EMPTY(yarnwrap.inventory.ContainerLock value) { wrapperContained.EMPTY = value.wrapperContained; }
+public ContainerLock(java.lang.String key) { this.wrapperContained = new net.minecraft.inventory.ContainerLock(key); }
 // public java.lang.String key() { return wrapperContained.key(); }
 public boolean canOpen(yarnwrap.item.ItemStack stack) { return wrapperContained.canOpen(stack.wrapperContained); }
 public yarnwrap.inventory.ContainerLock fromNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.inventory.ContainerLock(wrapperContained.fromNbt(nbt.wrapperContained)); }

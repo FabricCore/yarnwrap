@@ -13,6 +13,7 @@ public class RconClient { public net.minecraft.server.rcon.RconClient wrapperCon
 // public void password(java.lang.String value) { wrapperContained.password = value; }
 // public yarnwrap.server.dedicated.DedicatedServer server() { return new yarnwrap.server.dedicated.DedicatedServer(wrapperContained.server); }
 // public void server(yarnwrap.server.dedicated.DedicatedServer value) { wrapperContained.server = value.wrapperContained; }
+// public RconClient(yarnwrap.server.dedicated.DedicatedServer server,java.lang.String password,java.net.Socket socket) { this.wrapperContained = new net.minecraft.server.rcon.RconClient(server.wrapperContained,password,socket); }
 // public void fail() { wrapperContained.fail(); }
 // public void close() { wrapperContained.close(); }
 // public void respond(int sessionToken,java.lang.String message) { wrapperContained.respond(sessionToken,message); }

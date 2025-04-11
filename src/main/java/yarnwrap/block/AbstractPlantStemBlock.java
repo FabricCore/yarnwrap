@@ -7,6 +7,7 @@ public yarnwrap.state.property.IntProperty AGE() { return new yarnwrap.state.pro
 // public void growthChance(double value) { wrapperContained.growthChance = value; }
 public int MAX_AGE() { return wrapperContained.MAX_AGE; }
 // public void MAX_AGE(int value) { wrapperContained.MAX_AGE = value; }
+// public AbstractPlantStemBlock(Object settings,yarnwrap.util.math.Direction growthDirection,yarnwrap.util.shape.VoxelShape outlineShape,boolean tickWater,double growthChance) { this.wrapperContained = new net.minecraft.block.AbstractPlantStemBlock(settings,growthDirection.wrapperContained,outlineShape.wrapperContained,tickWater,growthChance); }
 // public boolean chooseStemState(yarnwrap.block.BlockState state) { return wrapperContained.chooseStemState(state.wrapperContained); }
 // public int getGrowthLength(yarnwrap.util.math.random.Random random) { return wrapperContained.getGrowthLength(random.wrapperContained); }
 // public yarnwrap.block.BlockState copyState(yarnwrap.block.BlockState from,yarnwrap.block.BlockState to) { return new yarnwrap.block.BlockState(wrapperContained.copyState(from.wrapperContained,to.wrapperContained)); }

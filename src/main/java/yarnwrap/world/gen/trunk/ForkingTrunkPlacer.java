@@ -3,5 +3,6 @@ public class ForkingTrunkPlacer { public net.minecraft.world.gen.trunk.ForkingTr
 
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public com.mojang.datafixers.kinds.App method_28899(Object instance) { return wrapperContained.method_28899(instance); }
 
 }

@@ -5,7 +5,10 @@ public class ItemStackArgumentType { public net.minecraft.command.argument.ItemS
 // public void EXAMPLES(java.util.Collection value) { wrapperContained.EXAMPLES = value; }
 // public yarnwrap.command.argument.ItemStringReader reader() { return new yarnwrap.command.argument.ItemStringReader(wrapperContained.reader); }
 // public void reader(yarnwrap.command.argument.ItemStringReader value) { wrapperContained.reader = value.wrapperContained; }
+public ItemStackArgumentType(yarnwrap.command.CommandRegistryAccess commandRegistryAccess) { this.wrapperContained = new net.minecraft.command.argument.ItemStackArgumentType(commandRegistryAccess.wrapperContained); }
+public java.util.concurrent.CompletableFuture listSuggestions(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.listSuggestions(context,builder); }
 public yarnwrap.command.argument.ItemStackArgumentType itemStack(yarnwrap.command.CommandRegistryAccess commandRegistryAccess) { return new yarnwrap.command.argument.ItemStackArgumentType(wrapperContained.itemStack(commandRegistryAccess.wrapperContained)); }
 public yarnwrap.command.argument.ItemStackArgument getItemStackArgument(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return new yarnwrap.command.argument.ItemStackArgument(wrapperContained.getItemStackArgument(context,name)); }
+// public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 
 }

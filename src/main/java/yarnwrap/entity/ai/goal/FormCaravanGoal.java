@@ -9,6 +9,8 @@ public yarnwrap.entity.passive.LlamaEntity llama() { return new yarnwrap.entity.
 // public void llama(yarnwrap.entity.passive.LlamaEntity value) { wrapperContained.llama = value.wrapperContained; }
 // public int counter() { return wrapperContained.counter; }
 // public void counter(int value) { wrapperContained.counter = value; }
+public FormCaravanGoal(yarnwrap.entity.passive.LlamaEntity llama,double speed) { this.wrapperContained = new net.minecraft.entity.ai.goal.FormCaravanGoal(llama.wrapperContained,speed); }
+// public boolean method_19616(yarnwrap.entity.Entity entity) { return wrapperContained.method_19616(entity.wrapperContained); }
 // public boolean canFollow(yarnwrap.entity.passive.LlamaEntity llama,int length) { return wrapperContained.canFollow(llama.wrapperContained,length); }
 
 }

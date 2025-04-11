@@ -5,6 +5,8 @@ public class SelectAdvancementTabS2CPacket { public net.minecraft.network.packet
 // public void tabId(yarnwrap.util.Identifier value) { wrapperContained.tabId = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public SelectAdvancementTabS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.SelectAdvancementTabS2CPacket(buf.wrapperContained); }
+public SelectAdvancementTabS2CPacket(yarnwrap.util.Identifier tabId) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.SelectAdvancementTabS2CPacket(tabId.wrapperContained); }
 public yarnwrap.util.Identifier getTabId() { return new yarnwrap.util.Identifier(wrapperContained.getTabId()); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 

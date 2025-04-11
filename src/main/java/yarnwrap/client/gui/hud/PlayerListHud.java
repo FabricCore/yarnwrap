@@ -45,6 +45,7 @@ public int MAX_ROWS() { return wrapperContained.MAX_ROWS; }
 // public void ABSORBING_HALF_HEART_BLINKING_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.ABSORBING_HALF_HEART_BLINKING_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier HALF_HEART_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.HALF_HEART_TEXTURE); }
 // public void HALF_HEART_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.HALF_HEART_TEXTURE = value.wrapperContained; }
+public PlayerListHud(yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.hud.InGameHud inGameHud) { this.wrapperContained = new net.minecraft.client.gui.hud.PlayerListHud(client.wrapperContained,inGameHud.wrapperContained); }
 public yarnwrap.text.Text getPlayerName(yarnwrap.client.network.PlayerListEntry entry) { return new yarnwrap.text.Text(wrapperContained.getPlayerName(entry.wrapperContained)); }
 public void render(yarnwrap.client.gui.DrawContext context,int scaledWindowWidth,yarnwrap.scoreboard.Scoreboard scoreboard,yarnwrap.scoreboard.ScoreboardObjective objective) { wrapperContained.render(context.wrapperContained,scaledWindowWidth,scoreboard.wrapperContained,objective.wrapperContained); }
 public void clear() { wrapperContained.clear(); }
@@ -55,6 +56,12 @@ public void setFooter(yarnwrap.text.Text footer) { wrapperContained.setFooter(fo
 public void setHeader(yarnwrap.text.Text header) { wrapperContained.setHeader(header.wrapperContained); }
 // public yarnwrap.text.Text applyGameModeFormatting(yarnwrap.client.network.PlayerListEntry entry,yarnwrap.text.MutableText name) { return new yarnwrap.text.Text(wrapperContained.applyGameModeFormatting(entry.wrapperContained,name.wrapperContained)); }
 // public void renderHearts(int y,int left,int right,java.util.UUID uuid,yarnwrap.client.gui.DrawContext context,int score) { wrapperContained.renderHearts(y,left,right,uuid,context.wrapperContained,score); }
+// public Object method_45591(int uuid2) { return wrapperContained.method_45591(uuid2); }
+// public int method_45592(yarnwrap.client.network.PlayerListEntry entry) { return wrapperContained.method_45592(entry.wrapperContained); }
+// public boolean method_45593(java.util.Set uuid) { return wrapperContained.method_45593(uuid); }
+// public java.util.UUID method_45594(yarnwrap.client.network.PlayerListEntry playerEntry) { return wrapperContained.method_45594(playerEntry.wrapperContained); }
+// public java.lang.String method_45595(yarnwrap.client.network.PlayerListEntry entry) { return wrapperContained.method_45595(entry.wrapperContained); }
+// public java.lang.String method_46511(yarnwrap.client.network.PlayerListEntry entry) { return wrapperContained.method_46511(entry.wrapperContained); }
 // public java.util.List collectPlayerEntries() { return wrapperContained.collectPlayerEntries(); }
 
 }

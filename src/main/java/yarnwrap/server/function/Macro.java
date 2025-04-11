@@ -13,8 +13,12 @@ public class Macro { public net.minecraft.server.function.Macro wrapperContained
 // public void id(yarnwrap.util.Identifier value) { wrapperContained.id = value.wrapperContained; }
 // public java.util.List lines() { return wrapperContained.lines; }
 // public void lines(java.util.List value) { wrapperContained.lines = value; }
+public Macro(yarnwrap.util.Identifier id,java.util.List lines,java.util.List varNames) { this.wrapperContained = new net.minecraft.server.function.Macro(id.wrapperContained,lines,varNames); }
 // public yarnwrap.server.function.Procedure withMacroReplaced(java.util.List varNames,java.util.List arguments,com.mojang.brigadier.CommandDispatcher dispatcher) { return new yarnwrap.server.function.Procedure(wrapperContained.withMacroReplaced(varNames,arguments,dispatcher)); }
 // public java.lang.String toString(yarnwrap.nbt.NbtElement nbt) { return wrapperContained.toString(nbt.wrapperContained); }
+// public void method_54423(java.text.DecimalFormat format) { wrapperContained.method_54423(format); }
 // public void addArgumentsByIndices(java.util.List arguments,it.unimi.dsi.fastutil.ints.IntList indices,java.util.List out) { wrapperContained.addArgumentsByIndices(arguments,indices,out); }
+// public java.lang.String method_54425(java.util.List path) { return wrapperContained.method_54425(path); }
+// public void method_54426(java.util.List index) { wrapperContained.method_54426(index); }
 
 }

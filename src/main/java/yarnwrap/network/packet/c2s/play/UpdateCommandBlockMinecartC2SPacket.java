@@ -9,6 +9,8 @@ public class UpdateCommandBlockMinecartC2SPacket { public net.minecraft.network.
 // public void command(java.lang.String value) { wrapperContained.command = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public UpdateCommandBlockMinecartC2SPacket(int entityId,java.lang.String command,boolean trackOutput) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateCommandBlockMinecartC2SPacket(entityId,command,trackOutput); }
+// public UpdateCommandBlockMinecartC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateCommandBlockMinecartC2SPacket(buf.wrapperContained); }
 public java.lang.String getCommand() { return wrapperContained.getCommand(); }
 public yarnwrap.world.CommandBlockExecutor getMinecartCommandExecutor(yarnwrap.world.World world) { return new yarnwrap.world.CommandBlockExecutor(wrapperContained.getMinecartCommandExecutor(world.wrapperContained)); }
 public boolean shouldTrackOutput() { return wrapperContained.shouldTrackOutput(); }

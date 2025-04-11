@@ -118,6 +118,10 @@ public java.lang.String regionFileCompression() { return wrapperContained.region
 public java.lang.String bugReportLink() { return wrapperContained.bugReportLink; }
 // public void bugReportLink(java.lang.String value) { wrapperContained.bugReportLink = value; }
 public yarnwrap.server.dedicated.ServerPropertiesHandler load(java.nio.file.Path path) { return new yarnwrap.server.dedicated.ServerPropertiesHandler(wrapperContained.load(path)); }
+// public java.lang.Integer method_16715(java.lang.Integer maxWorldSize) { return wrapperContained.method_16715(maxWorldSize); }
+// public java.lang.Integer method_27905(java.lang.Integer percentage) { return wrapperContained.method_27905(percentage); }
+// public java.lang.String method_41005(java.lang.String type) { return wrapperContained.method_41005(type); }
+// public com.google.gson.JsonObject method_41186(java.lang.String generatorSettings) { return wrapperContained.method_41186(generatorSettings); }
 // public java.util.Optional getServerResourcePackProperties(java.lang.String id,java.lang.String url,java.lang.String sha1,java.lang.String hash,boolean required,java.lang.String prompt) { return wrapperContained.getServerResourcePackProperties(id,url,sha1,hash,required,prompt); }
 // public yarnwrap.text.Text parseResourcePackPrompt(java.lang.String prompt) { return new yarnwrap.text.Text(wrapperContained.parseResourcePackPrompt(prompt)); }
 public yarnwrap.world.dimension.DimensionOptionsRegistryHolder createDimensionsRegistryHolder(yarnwrap.registry.DynamicRegistryManager dynamicRegistry) { return new yarnwrap.world.dimension.DimensionOptionsRegistryHolder(wrapperContained.createDimensionsRegistryHolder(dynamicRegistry.wrapperContained)); }

@@ -11,6 +11,7 @@ public class MerchantInventory { public net.minecraft.village.MerchantInventory 
 // public void merchant(yarnwrap.village.Merchant value) { wrapperContained.merchant = value.wrapperContained; }
 // public yarnwrap.util.collection.DefaultedList inventory() { return new yarnwrap.util.collection.DefaultedList(wrapperContained.inventory); }
 // public void inventory(yarnwrap.util.collection.DefaultedList value) { wrapperContained.inventory = value.wrapperContained; }
+public MerchantInventory(yarnwrap.village.Merchant merchant) { this.wrapperContained = new net.minecraft.village.MerchantInventory(merchant.wrapperContained); }
 public int getMerchantRewardedExperience() { return wrapperContained.getMerchantRewardedExperience(); }
 public yarnwrap.village.TradeOffer getTradeOffer() { return new yarnwrap.village.TradeOffer(wrapperContained.getTradeOffer()); }
 public void setOfferIndex(int index) { wrapperContained.setOfferIndex(index); }

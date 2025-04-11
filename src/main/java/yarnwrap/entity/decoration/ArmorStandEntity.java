@@ -63,6 +63,7 @@ public yarnwrap.entity.data.TrackedData TRACKER_RIGHT_LEG_ROTATION() { return ne
 // public void leftArmRotation(yarnwrap.util.math.EulerAngle value) { wrapperContained.leftArmRotation = value.wrapperContained; }
 public yarnwrap.entity.data.TrackedData TRACKER_LEFT_LEG_ROTATION() { return new yarnwrap.entity.data.TrackedData(wrapperContained.TRACKER_LEFT_LEG_ROTATION); }
 // public void TRACKER_LEFT_LEG_ROTATION(yarnwrap.entity.data.TrackedData value) { wrapperContained.TRACKER_LEFT_LEG_ROTATION = value.wrapperContained; }
+public ArmorStandEntity(yarnwrap.world.World world,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.decoration.ArmorStandEntity(world.wrapperContained,x,y,z); }
 // public boolean canClip() { return wrapperContained.canClip(); }
 // public yarnwrap.entity.EntityDimensions getDimensions(boolean marker) { return new yarnwrap.entity.EntityDimensions(wrapperContained.getDimensions(marker)); }
 public Object createArmorStandAttributes() { return wrapperContained.createArmorStandAttributes(); }
@@ -85,6 +86,7 @@ public boolean isSmall() { return wrapperContained.isSmall(); }
 // public boolean isSlotDisabled(yarnwrap.entity.EquipmentSlot slot) { return wrapperContained.isSlotDisabled(slot.wrapperContained); }
 // public yarnwrap.entity.EquipmentSlot getSlotFromPosition(yarnwrap.util.math.Vec3d hitPos) { return new yarnwrap.entity.EquipmentSlot(wrapperContained.getSlotFromPosition(hitPos.wrapperContained)); }
 public yarnwrap.util.math.EulerAngle getLeftLegRotation() { return new yarnwrap.util.math.EulerAngle(wrapperContained.getLeftLegRotation()); }
+// public boolean method_6918(yarnwrap.entity.Entity entity) { return wrapperContained.method_6918(entity.wrapperContained); }
 public void setHeadRotation(yarnwrap.util.math.EulerAngle angle) { wrapperContained.setHeadRotation(angle.wrapperContained); }
 // public void playBreakSound() { wrapperContained.playBreakSound(); }
 public yarnwrap.util.math.EulerAngle getHeadRotation() { return new yarnwrap.util.math.EulerAngle(wrapperContained.getHeadRotation()); }

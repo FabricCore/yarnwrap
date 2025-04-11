@@ -129,6 +129,7 @@ public net.minecraft.util.math.Direction[] DIRECTIONS() { return wrapperContaine
 // public void chunkRenderingDataPreparer(yarnwrap.client.render.ChunkRenderingDataPreparer value) { wrapperContained.chunkRenderingDataPreparer = value.wrapperContained; }
 // public it.unimi.dsi.fastutil.objects.ObjectArrayList builtChunks() { return wrapperContained.builtChunks; }
 // public void builtChunks(it.unimi.dsi.fastutil.objects.ObjectArrayList value) { wrapperContained.builtChunks = value; }
+public WorldRenderer(yarnwrap.client.MinecraftClient client,yarnwrap.client.render.entity.EntityRenderDispatcher entityRenderDispatcher,yarnwrap.client.render.block.entity.BlockEntityRenderDispatcher blockEntityRenderDispatcher,yarnwrap.client.render.BufferBuilderStorage bufferBuilders) { this.wrapperContained = new net.minecraft.client.render.WorldRenderer(client.wrapperContained,entityRenderDispatcher.wrapperContained,blockEntityRenderDispatcher.wrapperContained,bufferBuilders.wrapperContained); }
 // public void scheduleSectionRender(yarnwrap.util.math.BlockPos pos,boolean important) { wrapperContained.scheduleSectionRender(pos.wrapperContained,important); }
 public void scheduleBlockRenders(int x,int y,int z) { wrapperContained.scheduleBlockRenders(x,y,z); }
 public void scheduleBlockRenders(int minX,int minY,int minZ,int maxX,int maxY,int maxZ) { wrapperContained.scheduleBlockRenders(minX,minY,minZ,maxX,maxY,maxZ); }
@@ -145,6 +146,7 @@ public void drawBox(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.clie
 public void drawShapeOutline(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertexConsumer,yarnwrap.util.shape.VoxelShape shape,double offsetX,double offsetY,double offsetZ,float red,float green,float blue,float alpha,boolean colorize) { wrapperContained.drawShapeOutline(matrices.wrapperContained,vertexConsumer.wrapperContained,shape.wrapperContained,offsetX,offsetY,offsetZ,red,green,blue,alpha,colorize); }
 // public void renderCapturedFrustumVertex(yarnwrap.client.render.VertexConsumer vertexConsumer,org.joml.Matrix4f planeNum) { wrapperContained.renderCapturedFrustumVertex(vertexConsumer.wrapperContained,planeNum); }
 // public void renderCapturedFrustumFace(yarnwrap.client.render.VertexConsumer vertexConsumer,org.joml.Matrix4f plane0,int plane1,int plane2,int plane3,int r,int g,int b) { wrapperContained.renderCapturedFrustumFace(vertexConsumer.wrapperContained,plane0,plane1,plane2,plane3,r,g,b); }
+// public yarnwrap.client.render.VertexConsumer method_22986(Object renderLayer) { return new yarnwrap.client.render.VertexConsumer(wrapperContained.method_22986(renderLayer)); }
 // public void removeBlockBreakingInfo(yarnwrap.entity.player.BlockBreakingInfo info) { wrapperContained.removeBlockBreakingInfo(info.wrapperContained); }
 // public void renderChunkDebugInfo(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,yarnwrap.client.render.Camera camera) { wrapperContained.renderChunkDebugInfo(matrices.wrapperContained,vertexConsumers.wrapperContained,camera.wrapperContained); }
 public yarnwrap.client.gl.Framebuffer getEntityOutlinesFramebuffer() { return new yarnwrap.client.gl.Framebuffer(wrapperContained.getEntityOutlinesFramebuffer()); }
@@ -183,6 +185,7 @@ public java.lang.String getEntitiesDebugString() { return wrapperContained.getEn
 // public void captureFrustum(org.joml.Matrix4f positionMatrix,org.joml.Matrix4f projectionMatrix,double x,double y,double z,yarnwrap.client.render.Frustum frustum) { wrapperContained.captureFrustum(positionMatrix,projectionMatrix,x,y,z,frustum.wrapperContained); }
 // public void addParticle(yarnwrap.particle.ParticleEffect parameters,double x,double y,double z,double velocityX,double velocityY,double velocityZ) { wrapperContained.addParticle(parameters.wrapperContained,x,y,z,velocityX,velocityY,velocityZ); }
 // public void renderLightSky() { wrapperContained.renderLightSky(); }
+// public void method_3278(yarnwrap.client.render.VertexConsumer minX,Object minY,double minZ,double maxX,double maxY,float maxZ) { wrapperContained.method_3278(minX.wrapperContained,minY,minZ,maxX,maxY,maxZ); }
 public void reload() { wrapperContained.reload(); }
 public boolean isTerrainRenderComplete() { return wrapperContained.isTerrainRenderComplete(); }
 // public yarnwrap.client.particle.Particle spawnParticle(yarnwrap.particle.ParticleEffect parameters,boolean alwaysSpawn,double x,double y,double z,double velocityX,double velocityY,double velocityZ) { return new yarnwrap.client.particle.Particle(wrapperContained.spawnParticle(parameters.wrapperContained,alwaysSpawn,x,y,z,velocityX,velocityY,velocityZ)); }

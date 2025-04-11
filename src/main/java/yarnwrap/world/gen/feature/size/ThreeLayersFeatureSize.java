@@ -13,5 +13,7 @@ public class ThreeLayersFeatureSize { public net.minecraft.world.gen.feature.siz
 // public void upperSize(int value) { wrapperContained.upperSize = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+public ThreeLayersFeatureSize(int limit,int upperLimit,int lowerSize,int middleSize,int upperSize,java.util.OptionalInt minClippedHeight) { this.wrapperContained = new net.minecraft.world.gen.feature.size.ThreeLayersFeatureSize(limit,upperLimit,lowerSize,middleSize,upperSize,minClippedHeight); }
+// public com.mojang.datafixers.kinds.App method_28827(Object instance) { return wrapperContained.method_28827(instance); }
 
 }

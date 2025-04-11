@@ -13,6 +13,7 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // // public void category(Object value) { wrapperContained.category = value; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+// public EntityAttribute(java.lang.String translationKey,double fallback) { this.wrapperContained = new net.minecraft.entity.attribute.EntityAttribute(translationKey,fallback); }
 public yarnwrap.entity.attribute.EntityAttribute setTracked(boolean tracked) { return new yarnwrap.entity.attribute.EntityAttribute(wrapperContained.setTracked(tracked)); }
 public java.lang.String getTranslationKey() { return wrapperContained.getTranslationKey(); }
 // public yarnwrap.entity.attribute.EntityAttribute setCategory(Object category) { return new yarnwrap.entity.attribute.EntityAttribute(wrapperContained.setCategory(category)); }

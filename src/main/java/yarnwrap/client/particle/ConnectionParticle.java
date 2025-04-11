@@ -11,5 +11,6 @@ public class ConnectionParticle { public net.minecraft.client.particle.Connectio
 // public void fullBrightness(boolean value) { wrapperContained.fullBrightness = value; }
 // public Object dynamicAlpha() { return wrapperContained.dynamicAlpha; }
 // // public void dynamicAlpha(Object value) { wrapperContained.dynamicAlpha = value; }
+// public ConnectionParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ,boolean fullBrightness,Object dynamicAlpha) { this.wrapperContained = new net.minecraft.client.particle.ConnectionParticle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ,fullBrightness,dynamicAlpha); }
 
 }

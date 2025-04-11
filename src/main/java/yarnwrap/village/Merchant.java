@@ -1,6 +1,7 @@
 package yarnwrap.village;
 public class Merchant { public net.minecraft.village.Merchant wrapperContained; public Merchant(net.minecraft.village.Merchant wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.screen.ScreenHandler method_17448(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.entity.player.PlayerEntity playerx) { return new yarnwrap.screen.ScreenHandler(wrapperContained.method_17448(syncId,playerInventory.wrapperContained,playerx.wrapperContained)); }
 public void sendOffers(yarnwrap.entity.player.PlayerEntity player,yarnwrap.text.Text name,int levelProgress) { wrapperContained.sendOffers(player.wrapperContained,name.wrapperContained,levelProgress); }
 public yarnwrap.sound.SoundEvent getYesSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getYesSound()); }
 public int getExperience() { return wrapperContained.getExperience(); }

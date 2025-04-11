@@ -15,6 +15,7 @@ public class SpectatorHud { public net.minecraft.client.gui.hud.SpectatorHud wra
 // public void HOTBAR_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.HOTBAR_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier HOTBAR_SELECTION_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.HOTBAR_SELECTION_TEXTURE); }
 // public void HOTBAR_SELECTION_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.HOTBAR_SELECTION_TEXTURE = value.wrapperContained; }
+public SpectatorHud(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.gui.hud.SpectatorHud(client.wrapperContained); }
 // public void renderSpectatorMenu(yarnwrap.client.gui.DrawContext context,float height,int x,int y,yarnwrap.client.gui.hud.spectator.SpectatorMenuState state) { wrapperContained.renderSpectatorMenu(context.wrapperContained,height,x,y,state.wrapperContained); }
 public void cycleSlot(int offset) { wrapperContained.cycleSlot(offset); }
 public void selectSlot(int slot) { wrapperContained.selectSlot(slot); }

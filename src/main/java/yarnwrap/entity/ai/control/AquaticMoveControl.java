@@ -11,5 +11,6 @@ public class AquaticMoveControl { public net.minecraft.entity.ai.control.Aquatic
 // public void speedInAir(float value) { wrapperContained.speedInAir = value; }
 // public boolean buoyant() { return wrapperContained.buoyant; }
 // public void buoyant(boolean value) { wrapperContained.buoyant = value; }
+public AquaticMoveControl(yarnwrap.entity.mob.MobEntity entity,int pitchChange,int yawChange,float speedInWater,float speedInAir,boolean buoyant) { this.wrapperContained = new net.minecraft.entity.ai.control.AquaticMoveControl(entity.wrapperContained,pitchChange,yawChange,speedInWater,speedInAir,buoyant); }
 
 }

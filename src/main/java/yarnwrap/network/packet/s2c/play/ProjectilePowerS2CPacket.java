@@ -7,6 +7,8 @@ public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.
 // public void entityId(int value) { wrapperContained.entityId = value; }
 // public double accelerationPower() { return wrapperContained.accelerationPower; }
 // public void accelerationPower(double value) { wrapperContained.accelerationPower = value; }
+public ProjectilePowerS2CPacket(int entityId,double accelerationPower) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ProjectilePowerS2CPacket(entityId,accelerationPower); }
+// public ProjectilePowerS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ProjectilePowerS2CPacket(buf.wrapperContained); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 public int getEntityId() { return wrapperContained.getEntityId(); }
 public double getAccelerationPower() { return wrapperContained.getAccelerationPower(); }

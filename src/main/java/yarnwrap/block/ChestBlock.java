@@ -25,8 +25,10 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public yarnwrap.inventory.Inventory getInventory(yarnwrap.block.ChestBlock block,yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,boolean ignoreBlocked) { return new yarnwrap.inventory.Inventory(wrapperContained.getInventory(block.wrapperContained,state.wrapperContained,world.wrapperContained,pos.wrapperContained,ignoreBlocked)); }
 public Object getAnimationProgressRetriever(yarnwrap.block.entity.LidOpenable progress) { return wrapperContained.getAnimationProgressRetriever(progress.wrapperContained); }
+// public boolean method_24168(yarnwrap.world.WorldAccess worldx,yarnwrap.util.math.BlockPos posx) { return wrapperContained.method_24168(worldx.wrapperContained,posx.wrapperContained); }
 public Object getDoubleBlockType(yarnwrap.block.BlockState state) { return wrapperContained.getDoubleBlockType(state.wrapperContained); }
 public yarnwrap.block.entity.BlockEntityType getExpectedEntityType() { return new yarnwrap.block.entity.BlockEntityType(wrapperContained.getExpectedEntityType()); }
+// public yarnwrap.block.ChestBlock method_53992(Object settings) { return new yarnwrap.block.ChestBlock(wrapperContained.method_53992(settings)); }
 // public yarnwrap.util.math.Direction getNeighborChestDirection(yarnwrap.item.ItemPlacementContext ctx,yarnwrap.util.math.Direction dir) { return new yarnwrap.util.math.Direction(wrapperContained.getNeighborChestDirection(ctx.wrapperContained,dir.wrapperContained)); }
 // public boolean hasCatOnTop(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.hasCatOnTop(world.wrapperContained,pos.wrapperContained); }
 // public yarnwrap.stat.Stat getOpenStat() { return new yarnwrap.stat.Stat(wrapperContained.getOpenStat()); }

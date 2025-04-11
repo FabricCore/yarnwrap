@@ -7,6 +7,8 @@ public class EntityPassengersSetS2CPacket { public net.minecraft.network.packet.
 // public void entityId(int value) { wrapperContained.entityId = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public EntityPassengersSetS2CPacket(yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntityPassengersSetS2CPacket(entity.wrapperContained); }
+// public EntityPassengersSetS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntityPassengersSetS2CPacket(buf.wrapperContained); }
 public int[] getPassengerIds() { return wrapperContained.getPassengerIds(); }
 public int getEntityId() { return wrapperContained.getEntityId(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

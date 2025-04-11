@@ -13,6 +13,7 @@ public class SocialInteractionsManager { public net.minecraft.client.network.Soc
 // public void blockListLoaded(boolean value) { wrapperContained.blockListLoaded = value; }
 // public java.util.concurrent.CompletableFuture blockListLoader() { return wrapperContained.blockListLoader; }
 // public void blockListLoader(java.util.concurrent.CompletableFuture value) { wrapperContained.blockListLoader = value; }
+public SocialInteractionsManager(yarnwrap.client.MinecraftClient client,com.mojang.authlib.minecraft.UserApiService userApiService) { this.wrapperContained = new net.minecraft.client.network.SocialInteractionsManager(client.wrapperContained,userApiService); }
 public java.util.Set getHiddenPlayers() { return wrapperContained.getHiddenPlayers(); }
 public void setPlayerOnline(yarnwrap.client.network.PlayerListEntry player) { wrapperContained.setPlayerOnline(player.wrapperContained); }
 public void hidePlayer(java.util.UUID uuid) { wrapperContained.hidePlayer(uuid); }

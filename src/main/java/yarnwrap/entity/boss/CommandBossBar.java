@@ -9,10 +9,12 @@ public class CommandBossBar { public net.minecraft.entity.boss.CommandBossBar wr
 // public void maxValue(int value) { wrapperContained.maxValue = value; }
 // public int value() { return wrapperContained.value; }
 // public void value(int value) { wrapperContained.value = value; }
+public CommandBossBar(yarnwrap.util.Identifier id,yarnwrap.text.Text displayName) { this.wrapperContained = new net.minecraft.entity.boss.CommandBossBar(id.wrapperContained,displayName.wrapperContained); }
 public void setValue(int value) { wrapperContained.setValue(value); }
 public int getValue() { return wrapperContained.getValue(); }
 public void setMaxValue(int maxValue) { wrapperContained.setMaxValue(maxValue); }
 public void onPlayerConnect(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.onPlayerConnect(player.wrapperContained); }
+// public yarnwrap.text.Style method_12958(yarnwrap.text.Style style) { return new yarnwrap.text.Style(wrapperContained.method_12958(style.wrapperContained)); }
 public yarnwrap.util.Identifier getId() { return new yarnwrap.util.Identifier(wrapperContained.getId()); }
 public int getMaxValue() { return wrapperContained.getMaxValue(); }
 public void onPlayerDisconnect(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.onPlayerDisconnect(player.wrapperContained); }

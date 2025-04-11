@@ -7,5 +7,6 @@ public class TeleportToSpecificPlayerSpectatorCommand { public net.minecraft.cli
 // public void gameProfile(com.mojang.authlib.GameProfile value) { wrapperContained.gameProfile = value; }
 // public java.util.function.Supplier skinTexturesSupplier() { return wrapperContained.skinTexturesSupplier; }
 // public void skinTexturesSupplier(java.util.function.Supplier value) { wrapperContained.skinTexturesSupplier = value; }
+public TeleportToSpecificPlayerSpectatorCommand(com.mojang.authlib.GameProfile gameProfile) { this.wrapperContained = new net.minecraft.client.gui.hud.spectator.TeleportToSpecificPlayerSpectatorCommand(gameProfile); }
 
 }

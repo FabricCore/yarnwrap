@@ -6,6 +6,9 @@ public class PardonIpCommand { public net.minecraft.server.dedicated.command.Par
 // public com.mojang.brigadier.exceptions.SimpleCommandExceptionType ALREADY_UNBANNED_EXCEPTION() { return wrapperContained.ALREADY_UNBANNED_EXCEPTION; }
 // public void ALREADY_UNBANNED_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.ALREADY_UNBANNED_EXCEPTION = value; }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
+// public java.util.concurrent.CompletableFuture method_13479(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_13479(context,builder); }
+// public int method_13480(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13480(context); }
+// public boolean method_13481(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13481(source.wrapperContained); }
 // public int pardonIp(yarnwrap.server.command.ServerCommandSource source,java.lang.String target) { return wrapperContained.pardonIp(source.wrapperContained,target); }
 
 }

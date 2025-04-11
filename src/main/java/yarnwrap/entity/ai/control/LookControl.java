@@ -15,6 +15,7 @@ public class LookControl { public net.minecraft.entity.ai.control.LookControl wr
 // public void y(double value) { wrapperContained.y = value; }
 // public double x() { return wrapperContained.x; }
 // public void x(double value) { wrapperContained.x = value; }
+public LookControl(yarnwrap.entity.mob.MobEntity entity) { this.wrapperContained = new net.minecraft.entity.ai.control.LookControl(entity.wrapperContained); }
 public void lookAt(yarnwrap.util.math.Vec3d direction) { wrapperContained.lookAt(direction.wrapperContained); }
 public void lookAt(double x,double y,double z) { wrapperContained.lookAt(x,y,z); }
 // public double getLookingHeightFor(yarnwrap.entity.Entity entity) { return wrapperContained.getLookingHeightFor(entity.wrapperContained); }
@@ -23,6 +24,8 @@ public void lookAt(double x,double y,double z) { wrapperContained.lookAt(x,y,z);
 // public boolean shouldStayHorizontal() { return wrapperContained.shouldStayHorizontal(); }
 public void lookAt(yarnwrap.entity.Entity entity) { wrapperContained.lookAt(entity.wrapperContained); }
 // public void clampHeadYaw() { wrapperContained.clampHeadYaw(); }
+// public void method_37355(java.lang.Float pitch) { wrapperContained.method_37355(pitch); }
+// public void method_37356(java.lang.Float yaw) { wrapperContained.method_37356(yaw); }
 public boolean isLookingAtSpecificPosition() { return wrapperContained.isLookingAtSpecificPosition(); }
 public double getLookX() { return wrapperContained.getLookX(); }
 public void lookAt(yarnwrap.entity.Entity entity,float maxYawChange,float maxPitchChange) { wrapperContained.lookAt(entity.wrapperContained,maxYawChange,maxPitchChange); }

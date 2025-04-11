@@ -11,6 +11,7 @@ public class SaveVersionInfo { public net.minecraft.world.level.storage.SaveVers
 // public void version(yarnwrap.SaveVersion value) { wrapperContained.version = value.wrapperContained; }
 // public boolean stable() { return wrapperContained.stable; }
 // public void stable(boolean value) { wrapperContained.stable = value; }
+// public SaveVersionInfo(int levelFormatVersion,long lastPlayed,java.lang.String versionName,int versionId,java.lang.String series,boolean stable) { this.wrapperContained = new net.minecraft.world.level.storage.SaveVersionInfo(levelFormatVersion,lastPlayed,versionName,versionId,series,stable); }
 public int getLevelFormatVersion() { return wrapperContained.getLevelFormatVersion(); }
 public yarnwrap.world.level.storage.SaveVersionInfo fromDynamic(com.mojang.serialization.Dynamic dynamic) { return new yarnwrap.world.level.storage.SaveVersionInfo(wrapperContained.fromDynamic(dynamic)); }
 public long getLastPlayed() { return wrapperContained.getLastPlayed(); }

@@ -9,6 +9,7 @@ public yarnwrap.state.property.BooleanProperty WATERLOGGED() { return new yarnwr
 // public void forbidCurves(boolean value) { wrapperContained.forbidCurves = value; }
 // public yarnwrap.util.shape.VoxelShape ASCENDING_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.ASCENDING_SHAPE); }
 // public void ASCENDING_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.ASCENDING_SHAPE = value.wrapperContained; }
+// public AbstractRailBlock(boolean forbidCurves,Object settings) { this.wrapperContained = new net.minecraft.block.AbstractRailBlock(forbidCurves,settings); }
 // public yarnwrap.block.BlockState updateCurves(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,boolean notify) { return new yarnwrap.block.BlockState(wrapperContained.updateCurves(state.wrapperContained,world.wrapperContained,pos.wrapperContained,notify)); }
 // public boolean shouldDropRail(yarnwrap.util.math.BlockPos pos,yarnwrap.world.World world,yarnwrap.block.enums.RailShape shape) { return wrapperContained.shouldDropRail(pos.wrapperContained,world.wrapperContained,shape.wrapperContained); }
 public yarnwrap.state.property.Property getShapeProperty() { return new yarnwrap.state.property.Property(wrapperContained.getShapeProperty()); }

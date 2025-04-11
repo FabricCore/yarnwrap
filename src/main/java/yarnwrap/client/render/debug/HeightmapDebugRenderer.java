@@ -7,6 +7,7 @@ public class HeightmapDebugRenderer { public net.minecraft.client.render.debug.H
 // public void BOX_HEIGHT(float value) { wrapperContained.BOX_HEIGHT = value; }
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
+public HeightmapDebugRenderer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.debug.HeightmapDebugRenderer(client.wrapperContained); }
 // public org.joml.Vector3f getColorForHeightmapType(Object type) { return wrapperContained.getColorForHeightmapType(type); }
 
 }

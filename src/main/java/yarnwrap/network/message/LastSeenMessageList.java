@@ -9,5 +9,6 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 // public void updateSignatures(Object updater) { wrapperContained.updateSignatures(updater); }
 public Object pack(yarnwrap.network.message.MessageSignatureStorage storage) { return wrapperContained.pack(storage.wrapperContained); }
+// public Object method_46259(yarnwrap.network.message.MessageSignatureStorage signature) { return wrapperContained.method_46259(signature.wrapperContained); }
 
 }

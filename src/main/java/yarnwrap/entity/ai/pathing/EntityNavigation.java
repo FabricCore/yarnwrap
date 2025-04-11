@@ -43,6 +43,7 @@ public class EntityNavigation { public net.minecraft.entity.ai.pathing.EntityNav
 // public void entity(yarnwrap.entity.mob.MobEntity value) { wrapperContained.entity = value.wrapperContained; }
 // public long lastRecalculateTime() { return wrapperContained.lastRecalculateTime; }
 // public void lastRecalculateTime(long value) { wrapperContained.lastRecalculateTime = value; }
+// public EntityNavigation(yarnwrap.entity.mob.MobEntity entity,yarnwrap.world.World world) { this.wrapperContained = new net.minecraft.entity.ai.pathing.EntityNavigation(entity.wrapperContained,world.wrapperContained); }
 public boolean shouldRecalculatePath(yarnwrap.util.math.BlockPos pos) { return wrapperContained.shouldRecalculatePath(pos.wrapperContained); }
 // public yarnwrap.entity.ai.pathing.Path findPathToAny(java.util.Set positions,int range,boolean useHeadPos,int distance,float followRange) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathToAny(positions,range,useHeadPos,distance,followRange)); }
 public yarnwrap.entity.ai.pathing.Path findPathToAny(java.util.stream.Stream positions,int distance) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathToAny(positions,distance)); }

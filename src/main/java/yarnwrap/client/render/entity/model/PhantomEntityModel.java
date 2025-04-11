@@ -19,6 +19,7 @@ public class PhantomEntityModel { public net.minecraft.client.render.entity.mode
 // public void leftWingTip(yarnwrap.client.model.ModelPart value) { wrapperContained.leftWingTip = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart leftWingBase() { return new yarnwrap.client.model.ModelPart(wrapperContained.leftWingBase); }
 // public void leftWingBase(yarnwrap.client.model.ModelPart value) { wrapperContained.leftWingBase = value.wrapperContained; }
+public PhantomEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.PhantomEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

@@ -9,5 +9,8 @@ public class RealmsParentalConsentScreen { public net.minecraft.client.realms.gu
 // public void parent(yarnwrap.client.gui.screen.Screen value) { wrapperContained.parent = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.MultilineTextWidget privacyInfoWidget() { return new yarnwrap.client.gui.widget.MultilineTextWidget(wrapperContained.privacyInfoWidget); }
 // public void privacyInfoWidget(yarnwrap.client.gui.widget.MultilineTextWidget value) { wrapperContained.privacyInfoWidget = value.wrapperContained; }
+public RealmsParentalConsentScreen(yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsParentalConsentScreen(parent.wrapperContained); }
+// public void method_54573(yarnwrap.client.realms.gui.screen.RealmsParentalConsentScreen child) { wrapperContained.method_54573(child.wrapperContained); }
+// public void method_54574(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_54574(button.wrapperContained); }
 
 }

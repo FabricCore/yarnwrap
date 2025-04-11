@@ -17,11 +17,19 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void INLINE_CODEC(com.mojang.serialization.Codec value) { wrapperContained.INLINE_CODEC = value; }
 // public com.mojang.serialization.Codec BASE_CODEC() { return wrapperContained.BASE_CODEC; }
 // public void BASE_CODEC(com.mojang.serialization.Codec value) { wrapperContained.BASE_CODEC = value; }
+// public ItemEnchantmentsComponent(it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap enchantments,boolean showInTooltip) { this.wrapperContained = new net.minecraft.component.type.ItemEnchantmentsComponent(enchantments,showInTooltip); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public java.util.Set getEnchantments() { return wrapperContained.getEnchantments(); }
+// public com.mojang.datafixers.kinds.App method_57535(Object instance) { return wrapperContained.method_57535(instance); }
 public int getLevel(yarnwrap.registry.entry.RegistryEntry enchantment) { return wrapperContained.getLevel(enchantment.wrapperContained); }
+// public java.lang.Boolean method_57537(yarnwrap.component.type.ItemEnchantmentsComponent component) { return wrapperContained.method_57537(component.wrapperContained); }
 public java.util.Set getEnchantmentEntries() { return wrapperContained.getEnchantmentEntries(); }
+// public it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap method_57540(yarnwrap.component.type.ItemEnchantmentsComponent component) { return wrapperContained.method_57540(component.wrapperContained); }
 public int getSize() { return wrapperContained.getSize(); }
+// public java.lang.Boolean method_57542(yarnwrap.component.type.ItemEnchantmentsComponent component) { return wrapperContained.method_57542(component.wrapperContained); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
+// public it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap method_57544(yarnwrap.component.type.ItemEnchantmentsComponent component) { return wrapperContained.method_57544(component.wrapperContained); }
+// public yarnwrap.component.type.ItemEnchantmentsComponent method_58118(it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap map) { return new yarnwrap.component.type.ItemEnchantmentsComponent(wrapperContained.method_58118(map)); }
 public yarnwrap.component.type.ItemEnchantmentsComponent withShowInTooltip(boolean showInTooltip) { return new yarnwrap.component.type.ItemEnchantmentsComponent(wrapperContained.withShowInTooltip(showInTooltip)); }
 // public yarnwrap.registry.entry.RegistryEntryList getTooltipOrderList(Object registryLookup,yarnwrap.registry.RegistryKey registryRef,yarnwrap.registry.tag.TagKey tooltipOrderTag) { return new yarnwrap.registry.entry.RegistryEntryList(wrapperContained.getTooltipOrderList(registryLookup,registryRef.wrapperContained,tooltipOrderTag.wrapperContained)); }
 

@@ -19,6 +19,7 @@ public class CamelEntityModel { public net.minecraft.client.render.entity.model.
 // public void reins(net.minecraft.client.model.ModelPart[] value) { wrapperContained.reins = value; }
 // public float LIMB_DISTANCE_SCALE() { return wrapperContained.LIMB_DISTANCE_SCALE; }
 // public void LIMB_DISTANCE_SCALE(float value) { wrapperContained.LIMB_DISTANCE_SCALE = value; }
+public CamelEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.CamelEntityModel(root.wrapperContained); }
 // public void updateVisibleParts(yarnwrap.entity.passive.CamelEntity camel) { wrapperContained.updateVisibleParts(camel.wrapperContained); }
 // public void setHeadAngles(yarnwrap.entity.passive.CamelEntity entity,float headYaw,float headPitch,float animationProgress) { wrapperContained.setHeadAngles(entity.wrapperContained,headYaw,headPitch,animationProgress); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }

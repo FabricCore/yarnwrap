@@ -15,8 +15,12 @@ public int DEFAULT_QUALITY() { return wrapperContained.DEFAULT_QUALITY; }
 // public void compiledFunctions(java.util.function.BiFunction value) { wrapperContained.compiledFunctions = value; }
 // public yarnwrap.loot.LootChoice choice() { return new yarnwrap.loot.LootChoice(wrapperContained.choice); }
 // public void choice(yarnwrap.loot.LootChoice value) { wrapperContained.choice = value.wrapperContained; }
+// public LeafEntry(int weight,int quality,java.util.List conditions,java.util.List functions) { this.wrapperContained = new net.minecraft.loot.entry.LeafEntry(weight,quality,conditions,functions); }
 // public void generateLoot(java.util.function.Consumer lootConsumer,yarnwrap.loot.context.LootContext context) { wrapperContained.generateLoot(lootConsumer,context.wrapperContained); }
 // public Object builder(Object factory) { return wrapperContained.builder(factory); }
+// public java.util.List method_53289(yarnwrap.loot.entry.LeafEntry entry) { return wrapperContained.method_53289(entry.wrapperContained); }
 // public Object addLeafFields(Object instance) { return wrapperContained.addLeafFields(instance); }
+// public java.lang.Integer method_53291(yarnwrap.loot.entry.LeafEntry entry) { return wrapperContained.method_53291(entry.wrapperContained); }
+// public java.lang.Integer method_53292(yarnwrap.loot.entry.LeafEntry entry) { return wrapperContained.method_53292(entry.wrapperContained); }
 
 }

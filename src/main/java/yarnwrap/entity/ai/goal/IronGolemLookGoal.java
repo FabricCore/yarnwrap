@@ -11,5 +11,6 @@ public int MAX_LOOK_COOLDOWN() { return wrapperContained.MAX_LOOK_COOLDOWN; }
 // public void lookCountdown(int value) { wrapperContained.lookCountdown = value; }
 // public yarnwrap.entity.passive.VillagerEntity targetVillager() { return new yarnwrap.entity.passive.VillagerEntity(wrapperContained.targetVillager); }
 // public void targetVillager(yarnwrap.entity.passive.VillagerEntity value) { wrapperContained.targetVillager = value.wrapperContained; }
+public IronGolemLookGoal(yarnwrap.entity.passive.IronGolemEntity golem) { this.wrapperContained = new net.minecraft.entity.ai.goal.IronGolemLookGoal(golem.wrapperContained); }
 
 }

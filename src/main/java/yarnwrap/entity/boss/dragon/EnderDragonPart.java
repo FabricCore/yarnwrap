@@ -7,5 +7,6 @@ public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
 public yarnwrap.entity.boss.dragon.EnderDragonEntity owner() { return new yarnwrap.entity.boss.dragon.EnderDragonEntity(wrapperContained.owner); }
 // public void owner(yarnwrap.entity.boss.dragon.EnderDragonEntity value) { wrapperContained.owner = value.wrapperContained; }
+public EnderDragonPart(yarnwrap.entity.boss.dragon.EnderDragonEntity owner,java.lang.String name,float width,float height) { this.wrapperContained = new net.minecraft.entity.boss.dragon.EnderDragonPart(owner.wrapperContained,name,width,height); }
 
 }

@@ -17,12 +17,14 @@ public class ScoreboardObjective { public net.minecraft.scoreboard.ScoreboardObj
 // public void displayAutoUpdate(boolean value) { wrapperContained.displayAutoUpdate = value; }
 // public yarnwrap.scoreboard.number.NumberFormat numberFormat() { return new yarnwrap.scoreboard.number.NumberFormat(wrapperContained.numberFormat); }
 // public void numberFormat(yarnwrap.scoreboard.number.NumberFormat value) { wrapperContained.numberFormat = value.wrapperContained; }
+// public ScoreboardObjective(yarnwrap.scoreboard.Scoreboard scoreboard,java.lang.String name,yarnwrap.scoreboard.ScoreboardCriterion criterion,yarnwrap.text.Text displayName,Object renderType,boolean displayAutoUpdate,yarnwrap.scoreboard.number.NumberFormat numberFormat) { this.wrapperContained = new net.minecraft.scoreboard.ScoreboardObjective(scoreboard.wrapperContained,name,criterion.wrapperContained,displayName.wrapperContained,renderType,displayAutoUpdate,numberFormat.wrapperContained); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 public yarnwrap.text.Text getDisplayName() { return new yarnwrap.text.Text(wrapperContained.getDisplayName()); }
 // public void setRenderType(Object renderType) { wrapperContained.setRenderType(renderType); }
 public yarnwrap.scoreboard.ScoreboardCriterion getCriterion() { return new yarnwrap.scoreboard.ScoreboardCriterion(wrapperContained.getCriterion()); }
 public yarnwrap.scoreboard.Scoreboard getScoreboard() { return new yarnwrap.scoreboard.Scoreboard(wrapperContained.getScoreboard()); }
 public Object getRenderType() { return wrapperContained.getRenderType(); }
+// public yarnwrap.text.Style method_1119(yarnwrap.text.Style style) { return new yarnwrap.text.Style(wrapperContained.method_1119(style.wrapperContained)); }
 public yarnwrap.text.Text toHoverableText() { return new yarnwrap.text.Text(wrapperContained.toHoverableText()); }
 public void setDisplayName(yarnwrap.text.Text name) { wrapperContained.setDisplayName(name.wrapperContained); }
 // public yarnwrap.text.Text generateBracketedDisplayName() { return new yarnwrap.text.Text(wrapperContained.generateBracketedDisplayName()); }

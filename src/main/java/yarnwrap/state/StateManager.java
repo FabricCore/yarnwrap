@@ -9,6 +9,7 @@ public class StateManager { public net.minecraft.state.StateManager wrapperConta
 // public void properties(com.google.common.collect.ImmutableSortedMap value) { wrapperContained.properties = value; }
 // public java.lang.Object owner() { return wrapperContained.owner; }
 // public void owner(java.lang.Object value) { wrapperContained.owner = value; }
+// public StateManager(java.util.function.Function defaultStateGetter,java.lang.Object owner,Object factory,java.util.Map propertiesMap) { this.wrapperContained = new net.minecraft.state.StateManager(defaultStateGetter,owner,factory,propertiesMap); }
 public java.util.Collection getProperties() { return wrapperContained.getProperties(); }
 public java.lang.Object getOwner() { return wrapperContained.getOwner(); }
 public com.google.common.collect.ImmutableList getStates() { return wrapperContained.getStates(); }

@@ -8,5 +8,6 @@ public class CatSpawner { public net.minecraft.world.spawner.CatSpawner wrapperC
 // public int spawnInSwampHut(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.spawnInSwampHut(world.wrapperContained,pos.wrapperContained); }
 // public int spawn(yarnwrap.util.math.BlockPos pos,yarnwrap.server.world.ServerWorld world) { return wrapperContained.spawn(pos.wrapperContained,world.wrapperContained); }
 // public int spawnInHouse(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.spawnInHouse(world.wrapperContained,pos.wrapperContained); }
+// public boolean method_44004(yarnwrap.registry.entry.RegistryEntry entry) { return wrapperContained.method_44004(entry.wrapperContained); }
 
 }

@@ -25,8 +25,13 @@ public int OUTPUT_ID() { return wrapperContained.OUTPUT_ID; }
 // public void newItemName(java.lang.String value) { wrapperContained.newItemName = value; }
 // public int repairItemUsage() { return wrapperContained.repairItemUsage; }
 // public void repairItemUsage(int value) { wrapperContained.repairItemUsage = value; }
+public AnvilScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory inventory) { this.wrapperContained = new net.minecraft.screen.AnvilScreenHandler(syncId,inventory.wrapperContained); }
+public AnvilScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.AnvilScreenHandler(syncId,inventory.wrapperContained,context.wrapperContained); }
 public int getLevelCost() { return wrapperContained.getLevelCost(); }
 public int getNextCost(int cost) { return wrapperContained.getNextCost(cost); }
+// public void method_24922(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { wrapperContained.method_24922(world.wrapperContained,pos.wrapperContained); }
+// public boolean method_48350(yarnwrap.item.ItemStack stack) { return wrapperContained.method_48350(stack.wrapperContained); }
+// public boolean method_48351(yarnwrap.item.ItemStack stack) { return wrapperContained.method_48351(stack.wrapperContained); }
 // public java.lang.String sanitize(java.lang.String name) { return wrapperContained.sanitize(name); }
 public boolean setNewItemName(java.lang.String newItemName) { return wrapperContained.setNewItemName(newItemName); }
 

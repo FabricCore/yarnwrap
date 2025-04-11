@@ -11,6 +11,7 @@ public class RotatingCubeMapRenderer { public net.minecraft.client.gui.RotatingC
 // public void cubeMap(yarnwrap.client.gui.CubeMapRenderer value) { wrapperContained.cubeMap = value.wrapperContained; }
 public yarnwrap.util.Identifier OVERLAY_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.OVERLAY_TEXTURE); }
 // public void OVERLAY_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.OVERLAY_TEXTURE = value.wrapperContained; }
+public RotatingCubeMapRenderer(yarnwrap.client.gui.CubeMapRenderer cubeMap) { this.wrapperContained = new net.minecraft.client.gui.RotatingCubeMapRenderer(cubeMap.wrapperContained); }
 public void render(yarnwrap.client.gui.DrawContext context,int width,int height,float alpha,float tickDelta) { wrapperContained.render(context.wrapperContained,width,height,alpha,tickDelta); }
 // public float wrapOnce(float a,float b) { return wrapperContained.wrapOnce(a,b); }
 

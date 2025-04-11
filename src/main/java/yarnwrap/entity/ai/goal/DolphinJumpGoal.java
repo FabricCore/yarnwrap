@@ -9,6 +9,7 @@ public class DolphinJumpGoal { public net.minecraft.entity.ai.goal.DolphinJumpGo
 // public void inWater(boolean value) { wrapperContained.inWater = value; }
 // public int[] OFFSET_MULTIPLIERS() { return wrapperContained.OFFSET_MULTIPLIERS; }
 // public void OFFSET_MULTIPLIERS(int[] value) { wrapperContained.OFFSET_MULTIPLIERS = value; }
+public DolphinJumpGoal(yarnwrap.entity.passive.DolphinEntity dolphin,int chance) { this.wrapperContained = new net.minecraft.entity.ai.goal.DolphinJumpGoal(dolphin.wrapperContained,chance); }
 // public boolean isAirAbove(yarnwrap.util.math.BlockPos pos,int offsetX,int offsetZ,int multiplier) { return wrapperContained.isAirAbove(pos.wrapperContained,offsetX,offsetZ,multiplier); }
 // public boolean isWater(yarnwrap.util.math.BlockPos pos,int offsetX,int offsetZ,int multiplier) { return wrapperContained.isWater(pos.wrapperContained,offsetX,offsetZ,multiplier); }
 

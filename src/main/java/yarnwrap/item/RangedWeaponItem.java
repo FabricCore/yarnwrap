@@ -6,6 +6,8 @@ public java.util.function.Predicate BOW_PROJECTILES() { return wrapperContained.
 public java.util.function.Predicate CROSSBOW_HELD_PROJECTILES() { return wrapperContained.CROSSBOW_HELD_PROJECTILES; }
 // public void CROSSBOW_HELD_PROJECTILES(java.util.function.Predicate value) { wrapperContained.CROSSBOW_HELD_PROJECTILES = value; }
 public yarnwrap.item.ItemStack getHeldProjectile(yarnwrap.entity.LivingEntity entity,java.util.function.Predicate predicate) { return new yarnwrap.item.ItemStack(wrapperContained.getHeldProjectile(entity.wrapperContained,predicate)); }
+// public boolean method_18816(yarnwrap.item.ItemStack stack) { return wrapperContained.method_18816(stack.wrapperContained); }
+// public boolean method_18817(yarnwrap.item.ItemStack stack) { return wrapperContained.method_18817(stack.wrapperContained); }
 public java.util.function.Predicate getProjectiles() { return wrapperContained.getProjectiles(); }
 public java.util.function.Predicate getHeldProjectiles() { return wrapperContained.getHeldProjectiles(); }
 public int getRange() { return wrapperContained.getRange(); }

@@ -17,7 +17,15 @@ public class ExperimentsScreen { public net.minecraft.client.gui.screen.world.Ex
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
 // public yarnwrap.text.Text INFO_TEXT() { return new yarnwrap.text.Text(wrapperContained.INFO_TEXT); }
 // public void INFO_TEXT(yarnwrap.text.Text value) { wrapperContained.INFO_TEXT = value.wrapperContained; }
+public ExperimentsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.resource.ResourcePackManager resourcePackManager,java.util.function.Consumer applier) { this.wrapperContained = new net.minecraft.client.gui.screen.world.ExperimentsScreen(parent.wrapperContained,resourcePackManager.wrapperContained,applier); }
 // public yarnwrap.text.Text getDataPackName(yarnwrap.resource.ResourcePackProfile packProfile) { return new yarnwrap.text.Text(wrapperContained.getDataPackName(packProfile.wrapperContained)); }
+// public void method_49017(yarnwrap.resource.ResourcePackProfile enabled) { wrapperContained.method_49017(enabled.wrapperContained); }
+// public void method_49018(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_49018(button.wrapperContained); }
+// public void method_49019(yarnwrap.client.gui.screen.world.ExperimentsScreen widget) { wrapperContained.method_49019(widget.wrapperContained); }
+// public void method_49020(Object pack,yarnwrap.resource.ResourcePackProfile enabled) { wrapperContained.method_49020(pack,enabled.wrapperContained); }
+// public void method_49021(java.util.List pack,java.util.List enabled) { wrapperContained.method_49021(pack,enabled); }
+// public void method_49023(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_49023(button.wrapperContained); }
 // public void applyAndClose() { wrapperContained.applyAndClose(); }
+// public void method_52767(yarnwrap.client.gui.widget.Positioner positioner) { wrapperContained.method_52767(positioner.wrapperContained); }
 
 }

@@ -13,5 +13,6 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void lowStates(java.util.List value) { wrapperContained.lowStates = value; }
 // public java.util.List highStates() { return wrapperContained.highStates; }
 // public void highStates(java.util.List value) { wrapperContained.highStates = value; }
+// public NoiseThresholdBlockStateProvider(long seed,Object noiseParameters,float scale,float threshold,float highChance,yarnwrap.block.BlockState defaultState,java.util.List lowStates,java.util.List highStates) { this.wrapperContained = new net.minecraft.world.gen.stateprovider.NoiseThresholdBlockStateProvider(seed,noiseParameters,scale,threshold,highChance,defaultState.wrapperContained,lowStates,highStates); }
 
 }

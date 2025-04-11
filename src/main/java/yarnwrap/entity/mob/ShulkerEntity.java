@@ -34,6 +34,7 @@ public yarnwrap.util.math.Box calculateBoundingBox(float scale,yarnwrap.util.mat
 // public boolean isInvalidPosition(yarnwrap.util.math.BlockPos pos) { return wrapperContained.isInvalidPosition(pos.wrapperContained); }
 public java.util.Optional getRenderPositionOffset(float tickDelta) { return wrapperContained.getRenderPositionOffset(tickDelta); }
 // public void setAttachedFace(yarnwrap.util.math.Direction face) { wrapperContained.setAttachedFace(face.wrapperContained); }
+// public java.lang.Byte method_47879(yarnwrap.util.DyeColor color) { return wrapperContained.method_47879(color.wrapperContained); }
 // public int getPeekAmount() { return wrapperContained.getPeekAmount(); }
 public float getOpenProgress(float delta) { return wrapperContained.getOpenProgress(delta); }
 public yarnwrap.util.math.Direction getAttachedFace() { return new yarnwrap.util.math.Direction(wrapperContained.getAttachedFace()); }

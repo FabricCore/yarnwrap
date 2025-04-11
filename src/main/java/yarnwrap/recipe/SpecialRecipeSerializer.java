@@ -5,5 +5,7 @@ public class SpecialRecipeSerializer { public net.minecraft.recipe.SpecialRecipe
 // public void codec(com.mojang.serialization.MapCodec value) { wrapperContained.codec = value; }
 // public yarnwrap.network.codec.PacketCodec packetCodec() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.packetCodec); }
 // public void packetCodec(yarnwrap.network.codec.PacketCodec value) { wrapperContained.packetCodec = value.wrapperContained; }
+// public SpecialRecipeSerializer(Object factory) { this.wrapperContained = new net.minecraft.recipe.SpecialRecipeSerializer(factory); }
+// public com.mojang.datafixers.kinds.App method_53773(Object instance) { return wrapperContained.method_53773(instance); }
 
 }

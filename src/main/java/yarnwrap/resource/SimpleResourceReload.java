@@ -23,7 +23,11 @@ public class SimpleResourceReload { public net.minecraft.resource.SimpleResource
 // public void SECOND_PREPARE_APPLY_WEIGHT(int value) { wrapperContained.SECOND_PREPARE_APPLY_WEIGHT = value; }
 // public int RELOADER_WEIGHT() { return wrapperContained.RELOADER_WEIGHT; }
 // public void RELOADER_WEIGHT(int value) { wrapperContained.RELOADER_WEIGHT = value; }
+// public SimpleResourceReload(java.util.concurrent.Executor prepareExecutor,java.util.concurrent.Executor applyExecutor,yarnwrap.resource.ResourceManager manager,java.util.List reloaders,Object factory,java.util.concurrent.CompletableFuture initialStage) { this.wrapperContained = new net.minecraft.resource.SimpleResourceReload(prepareExecutor,applyExecutor,manager.wrapperContained,reloaders,factory,initialStage); }
+// public void method_18367(java.util.concurrent.Executor application) { wrapperContained.method_18367(application); }
+// public java.util.concurrent.CompletableFuture method_18368(java.util.concurrent.Executor synchronizer,Object resourceManager,yarnwrap.resource.ResourceManager reloader,yarnwrap.resource.ResourceReloader prepare,java.util.concurrent.Executor apply) { return wrapperContained.method_18368(synchronizer,resourceManager,reloader.wrapperContained,prepare.wrapperContained,apply); }
 public yarnwrap.resource.SimpleResourceReload create(yarnwrap.resource.ResourceManager manager,java.util.List reloaders,java.util.concurrent.Executor prepareExecutor,java.util.concurrent.Executor applyExecutor,java.util.concurrent.CompletableFuture initialStage) { return new yarnwrap.resource.SimpleResourceReload(wrapperContained.create(manager.wrapperContained,reloaders,prepareExecutor,applyExecutor,initialStage)); }
+// public void method_18372(java.util.concurrent.Executor preparation) { wrapperContained.method_18372(preparation); }
 public yarnwrap.resource.ResourceReload start(yarnwrap.resource.ResourceManager manager,java.util.List reloaders,java.util.concurrent.Executor prepareExecutor,java.util.concurrent.Executor applyExecutor,java.util.concurrent.CompletableFuture initialStage,boolean profiled) { return new yarnwrap.resource.ResourceReload(wrapperContained.start(manager.wrapperContained,reloaders,prepareExecutor,applyExecutor,initialStage,profiled)); }
 
 }

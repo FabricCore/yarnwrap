@@ -9,5 +9,6 @@ public class FlyingItemEntityRenderer { public net.minecraft.client.render.entit
 // public void MIN_DISTANCE(float value) { wrapperContained.MIN_DISTANCE = value; }
 // public yarnwrap.client.render.item.ItemRenderer itemRenderer() { return new yarnwrap.client.render.item.ItemRenderer(wrapperContained.itemRenderer); }
 // public void itemRenderer(yarnwrap.client.render.item.ItemRenderer value) { wrapperContained.itemRenderer = value.wrapperContained; }
+// public FlyingItemEntityRenderer(Object ctx,float scale,boolean lit) { this.wrapperContained = new net.minecraft.client.render.entity.FlyingItemEntityRenderer(ctx,scale,lit); }
 
 }

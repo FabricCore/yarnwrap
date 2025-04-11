@@ -7,6 +7,7 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 // public int index() { return wrapperContained.index; }
 // public void index(int value) { wrapperContained.index = value; }
+// // public EntityPose(java.lang.String index) { this.wrapperContained = new net.minecraft.entity.EntityPose(index); }
 public int getIndex() { return wrapperContained.getIndex(); }
 
 }

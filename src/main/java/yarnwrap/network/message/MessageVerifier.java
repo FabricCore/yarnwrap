@@ -8,5 +8,6 @@ public yarnwrap.network.message.MessageVerifier UNVERIFIED() { return new yarnwr
 public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 public yarnwrap.network.message.SignedMessage ensureVerified(yarnwrap.network.message.SignedMessage message) { return new yarnwrap.network.message.SignedMessage(wrapperContained.ensureVerified(message.wrapperContained)); }
+// public yarnwrap.network.message.SignedMessage method_55626(yarnwrap.network.message.SignedMessage message) { return new yarnwrap.network.message.SignedMessage(wrapperContained.method_55626(message.wrapperContained)); }
 
 }

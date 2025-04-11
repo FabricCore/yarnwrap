@@ -109,5 +109,6 @@ public int getMoveGoalTicks() { return wrapperContained.getMoveGoalTicks(); }
 public java.util.List getPossibleHives() { return wrapperContained.getPossibleHives(); }
 public yarnwrap.entity.ai.goal.GoalSelector getGoalSelector() { return new yarnwrap.entity.ai.goal.GoalSelector(wrapperContained.getGoalSelector()); }
 public void setHivePos(yarnwrap.util.math.BlockPos pos) { wrapperContained.setHivePos(pos.wrapperContained); }
+// public boolean method_58363(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58363(stack.wrapperContained); }
 
 }

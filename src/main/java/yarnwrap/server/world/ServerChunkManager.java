@@ -33,12 +33,14 @@ public yarnwrap.server.world.ServerChunkLoadingManager chunkLoadingManager() { r
 // // public void spawnInfo(Object value) { wrapperContained.spawnInfo = value; }
 // public int CACHE_SIZE() { return wrapperContained.CACHE_SIZE; }
 // public void CACHE_SIZE(int value) { wrapperContained.CACHE_SIZE = value; }
+// public ServerChunkManager(yarnwrap.server.world.ServerWorld world,Object session,com.mojang.datafixers.DataFixer dataFixer,yarnwrap.structure.StructureTemplateManager structureTemplateManager,java.util.concurrent.Executor workerExecutor,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,int viewDistance,int simulationDistance,boolean dsync,yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener,yarnwrap.world.chunk.ChunkStatusChangeListener chunkStatusChangeListener,java.util.function.Supplier persistentStateManagerFactory) { this.wrapperContained = new net.minecraft.server.world.ServerChunkManager(world.wrapperContained,session,dataFixer,structureTemplateManager.wrapperContained,workerExecutor,chunkGenerator.wrapperContained,viewDistance,simulationDistance,dsync,worldGenerationProgressListener.wrapperContained,chunkStatusChangeListener.wrapperContained,persistentStateManagerFactory); }
 public yarnwrap.world.gen.chunk.ChunkGenerator getChunkGenerator() { return new yarnwrap.world.gen.chunk.ChunkGenerator(wrapperContained.getChunkGenerator()); }
 public void updatePosition(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.updatePosition(player.wrapperContained); }
 public void markForUpdate(yarnwrap.util.math.BlockPos pos) { wrapperContained.markForUpdate(pos.wrapperContained); }
 // public yarnwrap.server.world.ChunkHolder getChunkHolder(long pos) { return new yarnwrap.server.world.ChunkHolder(wrapperContained.getChunkHolder(pos)); }
 // public java.util.concurrent.CompletableFuture getChunkFuture(int chunkX,int chunkZ,yarnwrap.world.chunk.ChunkStatus leastStatus,boolean create) { return wrapperContained.getChunkFuture(chunkX,chunkZ,leastStatus.wrapperContained,create); }
 public void applyViewDistance(int watchDistance) { wrapperContained.applyViewDistance(watchDistance); }
+// public java.util.concurrent.CompletionStage method_14159(java.util.concurrent.CompletableFuture future) { return wrapperContained.method_14159(future); }
 // public void tickChunks() { wrapperContained.tickChunks(); }
 // public boolean updateChunks() { return wrapperContained.updateChunks(); }
 public void addTicket(yarnwrap.server.world.ChunkTicketType ticketType,yarnwrap.util.math.ChunkPos pos,int radius,java.lang.Object argument) { wrapperContained.addTicket(ticketType.wrapperContained,pos.wrapperContained,radius,argument); }
@@ -62,6 +64,7 @@ public java.lang.String getChunkLoadingDebugInfo(yarnwrap.util.math.ChunkPos pos
 public Object getSpawnInfo() { return wrapperContained.getSpawnInfo(); }
 public boolean isTickingFutureReady(long pos) { return wrapperContained.isTickingFutureReady(pos); }
 public void applySimulationDistance(int simulationDistance) { wrapperContained.applySimulationDistance(simulationDistance); }
+// public void method_38784(Object chunk) { wrapperContained.method_38784(chunk); }
 public yarnwrap.world.storage.NbtScannable getChunkIoWorker() { return new yarnwrap.world.storage.NbtScannable(wrapperContained.getChunkIoWorker()); }
 public void removePersistentTickets() { wrapperContained.removePersistentTickets(); }
 public yarnwrap.world.gen.noise.NoiseConfig getNoiseConfig() { return new yarnwrap.world.gen.noise.NoiseConfig(wrapperContained.getNoiseConfig()); }

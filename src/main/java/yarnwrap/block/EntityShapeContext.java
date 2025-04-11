@@ -13,6 +13,9 @@ public class EntityShapeContext { public net.minecraft.block.EntityShapeContext 
 // public void walkOnFluidPredicate(java.util.function.Predicate value) { wrapperContained.walkOnFluidPredicate = value; }
 // public yarnwrap.entity.Entity entity() { return new yarnwrap.entity.Entity(wrapperContained.entity); }
 // public void entity(yarnwrap.entity.Entity value) { wrapperContained.entity = value.wrapperContained; }
+// public EntityShapeContext(yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.block.EntityShapeContext(entity.wrapperContained); }
+// public EntityShapeContext(boolean descending,double minY,yarnwrap.item.ItemStack heldItem,java.util.function.Predicate walkOnFluidPredicate,yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.block.EntityShapeContext(descending,minY,heldItem.wrapperContained,walkOnFluidPredicate,entity.wrapperContained); }
+// public boolean method_27868(yarnwrap.fluid.FluidState fluidState) { return wrapperContained.method_27868(fluidState.wrapperContained); }
 public yarnwrap.entity.Entity getEntity() { return new yarnwrap.entity.Entity(wrapperContained.getEntity()); }
 
 }

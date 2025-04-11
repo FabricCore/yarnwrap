@@ -9,6 +9,7 @@ public class ChunkTickScheduler { public net.minecraft.world.tick.ChunkTickSched
 // public void queuedTicks(java.util.Set value) { wrapperContained.queuedTicks = value; }
 // public java.util.function.BiConsumer tickConsumer() { return wrapperContained.tickConsumer; }
 // public void tickConsumer(java.util.function.BiConsumer value) { wrapperContained.tickConsumer = value; }
+public ChunkTickScheduler(java.util.List ticks) { this.wrapperContained = new net.minecraft.world.tick.ChunkTickScheduler(ticks); }
 public void disable(long time) { wrapperContained.disable(time); }
 public void setTickConsumer(java.util.function.BiConsumer tickConsumer) { wrapperContained.setTickConsumer(tickConsumer); }
 public void removeTicksIf(java.util.function.Predicate predicate) { wrapperContained.removeTicksIf(predicate); }

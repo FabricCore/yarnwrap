@@ -15,5 +15,10 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public yarnwrap.registry.RegistryKey attachedStemBlock() { return new yarnwrap.registry.RegistryKey(wrapperContained.attachedStemBlock); }
 // public void attachedStemBlock(yarnwrap.registry.RegistryKey value) { wrapperContained.attachedStemBlock = value.wrapperContained; }
+// public StemBlock(yarnwrap.registry.RegistryKey gourdBlock,yarnwrap.registry.RegistryKey attachedStemBlock,yarnwrap.registry.RegistryKey pickBlockItem,Object settings) { this.wrapperContained = new net.minecraft.block.StemBlock(gourdBlock.wrapperContained,attachedStemBlock.wrapperContained,pickBlockItem.wrapperContained,settings); }
+// public com.mojang.datafixers.kinds.App method_54049(Object instance) { return wrapperContained.method_54049(instance); }
+// public yarnwrap.registry.RegistryKey method_54050(yarnwrap.block.StemBlock block) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_54050(block.wrapperContained)); }
+// public yarnwrap.registry.RegistryKey method_54051(yarnwrap.block.StemBlock block) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_54051(block.wrapperContained)); }
+// public yarnwrap.registry.RegistryKey method_54052(yarnwrap.block.StemBlock block) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_54052(block.wrapperContained)); }
 
 }

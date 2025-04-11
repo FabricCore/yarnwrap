@@ -7,6 +7,7 @@ public class PandaEntityModel { public net.minecraft.client.render.entity.model.
 // public void lieOnBackAnimationProgress(float value) { wrapperContained.lieOnBackAnimationProgress = value; }
 // public float sittingAnimationProgress() { return wrapperContained.sittingAnimationProgress; }
 // public void sittingAnimationProgress(float value) { wrapperContained.sittingAnimationProgress = value; }
+public PandaEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.PandaEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

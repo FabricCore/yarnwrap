@@ -13,6 +13,8 @@ public int COPY_TIMES() { return wrapperContained.COPY_TIMES; }
 // public void COPY_TIMES(int value) { wrapperContained.COPY_TIMES = value; }
 // public int defaultValue() { return wrapperContained.defaultValue; }
 // public void defaultValue(int value) { wrapperContained.defaultValue = value; }
+public ChunkNibbleArray(int defaultValue) { this.wrapperContained = new net.minecraft.world.chunk.ChunkNibbleArray(defaultValue); }
+public ChunkNibbleArray(byte bytes) { this.wrapperContained = new net.minecraft.world.chunk.ChunkNibbleArray(bytes); }
 public byte[] asByteArray() { return wrapperContained.asByteArray(); }
 // public int getArrayIndex(int i) { return wrapperContained.getArrayIndex(i); }
 public int get(int x,int y,int z) { return wrapperContained.get(x,y,z); }

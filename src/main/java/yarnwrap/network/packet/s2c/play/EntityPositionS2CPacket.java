@@ -17,6 +17,8 @@ public class EntityPositionS2CPacket { public net.minecraft.network.packet.s2c.p
 // public void yaw(byte value) { wrapperContained.yaw = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public EntityPositionS2CPacket(yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntityPositionS2CPacket(entity.wrapperContained); }
+// public EntityPositionS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntityPositionS2CPacket(buf.wrapperContained); }
 public int getEntityId() { return wrapperContained.getEntityId(); }
 public double getX() { return wrapperContained.getX(); }
 public double getZ() { return wrapperContained.getZ(); }

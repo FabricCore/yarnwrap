@@ -5,5 +5,6 @@ public class TextureDimensions { public net.minecraft.client.model.TextureDimens
 // public void width(int value) { wrapperContained.width = value; }
 // public int height() { return wrapperContained.height; }
 // public void height(int value) { wrapperContained.height = value; }
+public TextureDimensions(int width,int height) { this.wrapperContained = new net.minecraft.client.model.TextureDimensions(width,height); }
 
 }

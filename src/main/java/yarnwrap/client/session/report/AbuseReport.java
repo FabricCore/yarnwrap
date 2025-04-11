@@ -13,6 +13,7 @@ public class AbuseReport { public net.minecraft.client.session.report.AbuseRepor
 // public void reason(yarnwrap.client.session.report.AbuseReportReason value) { wrapperContained.reason = value.wrapperContained; }
 // public boolean attested() { return wrapperContained.attested; }
 // public void attested(boolean value) { wrapperContained.attested = value; }
+// public AbuseReport(java.util.UUID reportId,java.time.Instant currentTime,java.util.UUID reportedPlayerUuid) { this.wrapperContained = new net.minecraft.client.session.report.AbuseReport(reportId,currentTime,reportedPlayerUuid); }
 public yarnwrap.client.session.report.AbuseReport copy() { return new yarnwrap.client.session.report.AbuseReport(wrapperContained.copy()); }
 public boolean playerUuidEquals(java.util.UUID uuid) { return wrapperContained.playerUuidEquals(uuid); }
 public yarnwrap.client.gui.screen.Screen createReportScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.session.report.AbuseReportContext context) { return new yarnwrap.client.gui.screen.Screen(wrapperContained.createReportScreen(parent.wrapperContained,context.wrapperContained)); }

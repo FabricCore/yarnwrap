@@ -5,6 +5,7 @@ public class AmbientStandGoal { public net.minecraft.entity.ai.goal.AmbientStand
 // public void entity(yarnwrap.entity.passive.AbstractHorseEntity value) { wrapperContained.entity = value.wrapperContained; }
 // public int cooldown() { return wrapperContained.cooldown; }
 // public void cooldown(int value) { wrapperContained.cooldown = value; }
+public AmbientStandGoal(yarnwrap.entity.passive.AbstractHorseEntity entity) { this.wrapperContained = new net.minecraft.entity.ai.goal.AmbientStandGoal(entity.wrapperContained); }
 // public void resetCooldown(yarnwrap.entity.passive.AbstractHorseEntity entity) { wrapperContained.resetCooldown(entity.wrapperContained); }
 // public void playAmbientStandSound() { wrapperContained.playAmbientStandSound(); }
 

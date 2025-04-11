@@ -19,5 +19,6 @@ public class DialogScreen { public net.minecraft.client.gui.screen.DialogScreen 
 // public void BUTTON_HEIGHT(int value) { wrapperContained.BUTTON_HEIGHT = value; }
 // public yarnwrap.text.Text narrationMessage() { return new yarnwrap.text.Text(wrapperContained.narrationMessage); }
 // public void narrationMessage(yarnwrap.text.Text value) { wrapperContained.narrationMessage = value.wrapperContained; }
+// public DialogScreen(yarnwrap.text.Text title,java.util.List messages,com.google.common.collect.ImmutableList choiceButtons) { this.wrapperContained = new net.minecraft.client.gui.screen.DialogScreen(title.wrapperContained,messages,choiceButtons); }
 
 }

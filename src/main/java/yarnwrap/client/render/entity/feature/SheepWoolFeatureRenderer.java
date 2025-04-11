@@ -5,5 +5,6 @@ public class SheepWoolFeatureRenderer { public net.minecraft.client.render.entit
 // public void model(yarnwrap.client.render.entity.model.SheepWoolEntityModel value) { wrapperContained.model = value.wrapperContained; }
 // public yarnwrap.util.Identifier SKIN() { return new yarnwrap.util.Identifier(wrapperContained.SKIN); }
 // public void SKIN(yarnwrap.util.Identifier value) { wrapperContained.SKIN = value.wrapperContained; }
+public SheepWoolFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.EntityModelLoader loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.SheepWoolFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
 
 }

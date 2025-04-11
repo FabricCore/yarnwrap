@@ -9,6 +9,7 @@ public java.util.function.IntFunction FROM_ID() { return wrapperContained.FROM_I
 // public void id(int value) { wrapperContained.id = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// // public ScoreboardDisplaySlot(java.lang.String id,int name) { this.wrapperContained = new net.minecraft.scoreboard.ScoreboardDisplaySlot(id,name); }
 public int getId() { return wrapperContained.getId(); }
 public yarnwrap.scoreboard.ScoreboardDisplaySlot fromFormatting(yarnwrap.util.Formatting formatting) { return new yarnwrap.scoreboard.ScoreboardDisplaySlot(wrapperContained.fromFormatting(formatting.wrapperContained)); }
 

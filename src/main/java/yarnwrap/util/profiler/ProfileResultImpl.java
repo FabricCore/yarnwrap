@@ -21,13 +21,20 @@ public class ProfileResultImpl { public net.minecraft.util.profiler.ProfileResul
 // public void COMPARATOR(java.util.Comparator value) { wrapperContained.COMPARATOR = value; }
 // public java.util.Map locationInfos() { return wrapperContained.locationInfos; }
 // public void locationInfos(java.util.Map value) { wrapperContained.locationInfos = value; }
+public ProfileResultImpl(java.util.Map locationInfos,long startTime,int startTick,long endTime,int endTick) { this.wrapperContained = new net.minecraft.util.profiler.ProfileResultImpl(locationInfos,startTime,startTick,endTime,endTick); }
 // public void appendTiming(int level,java.lang.String name,java.lang.StringBuilder sb) { wrapperContained.appendTiming(level,name,sb); }
 // public java.lang.String asString(long timeSpan,int tickSpan) { return wrapperContained.asString(timeSpan,tickSpan); }
+// public void method_24252(int entry) { wrapperContained.method_24252(entry); }
 // public void appendCounter(int depth,java.lang.String name,Object info,int tickSpan,java.lang.StringBuilder sb) { wrapperContained.appendCounter(depth,name,info,tickSpan,sb); }
 // public boolean isSubpath(java.lang.String parent,java.lang.String path) { return wrapperContained.isSubpath(parent,path); }
 // public java.lang.StringBuilder indent(java.lang.StringBuilder sb,int size) { return wrapperContained.indent(sb,size); }
+// public void method_24257(java.lang.StringBuilder name,int info) { wrapperContained.method_24257(name,info); }
+// public void method_24258(java.lang.StringBuilder marker,int count) { wrapperContained.method_24258(marker,count); }
+// public void method_24259(java.util.Map location,java.lang.String info) { wrapperContained.method_24259(location,info); }
 // public void appendCounterDump(java.util.Map counters,java.lang.StringBuilder sb,int tickSpan) { wrapperContained.appendCounterDump(counters,sb,tickSpan); }
+// public void method_24261(java.util.Map marker,java.util.List count) { wrapperContained.method_24261(marker,count); }
 // public yarnwrap.util.profiler.ProfileLocationInfo getInfo(java.lang.String path) { return new yarnwrap.util.profiler.ProfileLocationInfo(wrapperContained.getInfo(path)); }
+// public Object method_24263(java.lang.String k) { return wrapperContained.method_24263(k); }
 // public java.util.Map setupCounters() { return wrapperContained.setupCounters(); }
 
 }

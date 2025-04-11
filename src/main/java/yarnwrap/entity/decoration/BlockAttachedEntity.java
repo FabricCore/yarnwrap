@@ -7,6 +7,7 @@ public class BlockAttachedEntity { public net.minecraft.entity.decoration.BlockA
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public int attachCheckTimer() { return wrapperContained.attachCheckTimer; }
 // public void attachCheckTimer(int value) { wrapperContained.attachCheckTimer = value; }
+// public BlockAttachedEntity(yarnwrap.entity.EntityType type,yarnwrap.world.World world,yarnwrap.util.math.BlockPos attachedBlockPos) { this.wrapperContained = new net.minecraft.entity.decoration.BlockAttachedEntity(type.wrapperContained,world.wrapperContained,attachedBlockPos.wrapperContained); }
 public yarnwrap.util.math.BlockPos getAttachedBlockPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getAttachedBlockPos()); }
 public boolean canStayAttached() { return wrapperContained.canStayAttached(); }
 public void onBreak(yarnwrap.entity.Entity breaker) { wrapperContained.onBreak(breaker.wrapperContained); }

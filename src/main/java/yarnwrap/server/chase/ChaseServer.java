@@ -17,6 +17,7 @@ public class ChaseServer { public net.minecraft.server.chase.ChaseServer wrapper
 // public void socket(java.net.ServerSocket value) { wrapperContained.socket = value; }
 // public java.util.concurrent.CopyOnWriteArrayList clientSockets() { return wrapperContained.clientSockets; }
 // public void clientSockets(java.util.concurrent.CopyOnWriteArrayList value) { wrapperContained.clientSockets = value; }
+public ChaseServer(java.lang.String ip,int port,yarnwrap.server.PlayerManager playerManager,int interval) { this.wrapperContained = new net.minecraft.server.chase.ChaseServer(ip,port,playerManager.wrapperContained,interval); }
 // public void start() { wrapperContained.start(); }
 public void stop() { wrapperContained.stop(); }
 // public void runSender() { wrapperContained.runSender(); }

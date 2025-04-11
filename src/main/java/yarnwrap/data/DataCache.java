@@ -21,11 +21,14 @@ public class DataCache { public net.minecraft.data.DataCache wrapperContained; p
 // public void cachedDatas(java.util.Map value) { wrapperContained.cachedDatas = value; }
 // public int totalCacheMissCount() { return wrapperContained.totalCacheMissCount; }
 // public void totalCacheMissCount(int value) { wrapperContained.totalCacheMissCount = value; }
+// public DataCache(java.nio.file.Path root,java.util.Collection providerNames,yarnwrap.GameVersion gameVersion) { this.wrapperContained = new net.minecraft.data.DataCache(root,providerNames,gameVersion.wrapperContained); }
 // public void write() { wrapperContained.write(); }
 public boolean isVersionDifferent(java.lang.String providerName) { return wrapperContained.isVersionDifferent(providerName); }
 // public Object parseOrCreateCache(java.nio.file.Path root,java.nio.file.Path dataProviderPath) { return wrapperContained.parseOrCreateCache(root,dataProviderPath); }
 // public java.nio.file.Path getPath(java.lang.String providerName) { return wrapperContained.getPath(providerName); }
+// public Object method_46568(Object void_) { return wrapperContained.method_46568(void_); }
 // public void store(Object runResult) { wrapperContained.store(runResult); }
 // public java.util.concurrent.CompletableFuture run(java.lang.String providerName,Object runner) { return wrapperContained.run(providerName,runner); }
+// public void method_46571(java.util.Set providerName,java.lang.String cachedData) { wrapperContained.method_46571(providerName,cachedData); }
 
 }

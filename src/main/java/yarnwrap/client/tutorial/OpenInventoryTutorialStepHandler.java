@@ -13,5 +13,6 @@ public class OpenInventoryTutorialStepHandler { public net.minecraft.client.tuto
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
 // public yarnwrap.text.Text DESCRIPTION() { return new yarnwrap.text.Text(wrapperContained.DESCRIPTION); }
 // public void DESCRIPTION(yarnwrap.text.Text value) { wrapperContained.DESCRIPTION = value.wrapperContained; }
+public OpenInventoryTutorialStepHandler(yarnwrap.client.tutorial.TutorialManager manager) { this.wrapperContained = new net.minecraft.client.tutorial.OpenInventoryTutorialStepHandler(manager.wrapperContained); }
 
 }

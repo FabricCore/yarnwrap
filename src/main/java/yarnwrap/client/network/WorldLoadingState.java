@@ -9,6 +9,7 @@ public class WorldLoadingState { public net.minecraft.client.network.WorldLoadin
 // public void renderer(yarnwrap.client.render.WorldRenderer value) { wrapperContained.renderer = value.wrapperContained; }
 // public Object currentStep() { return wrapperContained.currentStep; }
 // // public void currentStep(Object value) { wrapperContained.currentStep = value; }
+public WorldLoadingState(yarnwrap.client.network.ClientPlayerEntity player,yarnwrap.client.world.ClientWorld world,yarnwrap.client.render.WorldRenderer renderer) { this.wrapperContained = new net.minecraft.client.network.WorldLoadingState(player.wrapperContained,world.wrapperContained,renderer.wrapperContained); }
 public void tick() { wrapperContained.tick(); }
 public boolean isReady() { return wrapperContained.isReady(); }
 public void handleChunksComingPacket() { wrapperContained.handleChunksComingPacket(); }

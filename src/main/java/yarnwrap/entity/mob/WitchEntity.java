@@ -13,6 +13,7 @@ public class WitchEntity { public net.minecraft.entity.mob.WitchEntity wrapperCo
 // public void DRINKING_SPEED_PENALTY_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.DRINKING_SPEED_PENALTY_MODIFIER_ID = value.wrapperContained; }
 // public yarnwrap.entity.data.TrackedData DRINKING() { return new yarnwrap.entity.data.TrackedData(wrapperContained.DRINKING); }
 // public void DRINKING(yarnwrap.entity.data.TrackedData value) { wrapperContained.DRINKING = value.wrapperContained; }
+// public boolean method_16474(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_16474(entity.wrapperContained); }
 public Object createWitchAttributes() { return wrapperContained.createWitchAttributes(); }
 public void setDrinking(boolean drinking) { wrapperContained.setDrinking(drinking); }
 public boolean isDrinking() { return wrapperContained.isDrinking(); }

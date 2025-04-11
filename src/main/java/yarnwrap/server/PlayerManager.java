@@ -53,6 +53,7 @@ public yarnwrap.text.Text FILTERED_FULL_TEXT() { return new yarnwrap.text.Text(w
 // public void FILTERED_FULL_TEXT(yarnwrap.text.Text value) { wrapperContained.FILTERED_FULL_TEXT = value.wrapperContained; }
 public yarnwrap.text.Text DUPLICATE_LOGIN_TEXT() { return new yarnwrap.text.Text(wrapperContained.DUPLICATE_LOGIN_TEXT); }
 // public void DUPLICATE_LOGIN_TEXT(yarnwrap.text.Text value) { wrapperContained.DUPLICATE_LOGIN_TEXT = value.wrapperContained; }
+// public PlayerManager(yarnwrap.server.MinecraftServer server,yarnwrap.registry.CombinedDynamicRegistries registryManager,yarnwrap.world.PlayerSaveHandler saveHandler,int maxPlayers) { this.wrapperContained = new net.minecraft.server.PlayerManager(server.wrapperContained,registryManager.wrapperContained,saveHandler.wrapperContained,maxPlayers); }
 // public yarnwrap.server.network.ServerPlayerEntity respawnPlayer(yarnwrap.server.network.ServerPlayerEntity player,boolean alive,Object removalReason) { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.respawnPlayer(player.wrapperContained,alive,removalReason)); }
 public void setWhitelistEnabled(boolean whitelistEnabled) { wrapperContained.setWhitelistEnabled(whitelistEnabled); }
 public java.util.List getPlayersByIp(java.lang.String ip) { return wrapperContained.getPlayersByIp(ip); }
@@ -104,8 +105,11 @@ public void remove(yarnwrap.server.network.ServerPlayerEntity player) { wrapperC
 public yarnwrap.server.network.ServerPlayerEntity createPlayer(com.mojang.authlib.GameProfile profile,yarnwrap.network.packet.c2s.common.SyncedClientOptions syncedOptions) { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.createPlayer(profile,syncedOptions.wrapperContained)); }
 public boolean isWhitelistEnabled() { return wrapperContained.isWhitelistEnabled(); }
 public void saveAllPlayerData() { wrapperContained.saveAllPlayerData(); }
+// public yarnwrap.entity.Entity method_18241(yarnwrap.server.world.ServerWorld vehicle) { return new yarnwrap.entity.Entity(wrapperContained.method_18241(vehicle.wrapperContained)); }
+// public void method_31441(yarnwrap.entity.Entity entity) { wrapperContained.method_31441(entity.wrapperContained); }
 public void setSimulationDistance(int simulationDistance) { wrapperContained.setSimulationDistance(simulationDistance); }
 public int getSimulationDistance() { return wrapperContained.getSimulationDistance(); }
+// public yarnwrap.text.Text method_43511(yarnwrap.text.Text player) { return new yarnwrap.text.Text(wrapperContained.method_43511(player.wrapperContained)); }
 public void broadcast(yarnwrap.text.Text message,java.util.function.Function playerMessageFactory,boolean overlay) { wrapperContained.broadcast(message.wrapperContained,playerMessageFactory,overlay); }
 public void broadcast(yarnwrap.text.Text message,boolean overlay) { wrapperContained.broadcast(message.wrapperContained,overlay); }
 // public void broadcast(yarnwrap.network.message.SignedMessage message,yarnwrap.server.network.ServerPlayerEntity sender,Object params) { wrapperContained.broadcast(message.wrapperContained,sender.wrapperContained,params); }
@@ -113,6 +117,7 @@ public void broadcast(yarnwrap.text.Text message,boolean overlay) { wrapperConta
 // public void broadcast(yarnwrap.network.message.SignedMessage message,java.util.function.Predicate shouldSendFiltered,yarnwrap.server.network.ServerPlayerEntity sender,Object params) { wrapperContained.broadcast(message.wrapperContained,shouldSendFiltered,sender.wrapperContained,params); }
 // public boolean verify(yarnwrap.network.message.SignedMessage message) { return wrapperContained.verify(message.wrapperContained); }
 public boolean disconnectDuplicateLogins(com.mojang.authlib.GameProfile profile) { return wrapperContained.disconnectDuplicateLogins(profile); }
+// public java.util.Optional method_55634(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.method_55634(nbt.wrapperContained); }
 public void sendStatusEffects(yarnwrap.entity.LivingEntity entity,yarnwrap.server.network.ServerPlayNetworkHandler networkHandler) { wrapperContained.sendStatusEffects(entity.wrapperContained,networkHandler.wrapperContained); }
 public void sendStatusEffects(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.sendStatusEffects(player.wrapperContained); }
 

@@ -9,5 +9,7 @@ public int foliageRadius() { return wrapperContained.foliageRadius; }
 // public void foliageRadius(int value) { wrapperContained.foliageRadius = value; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public HugeMushroomFeatureConfig(yarnwrap.world.gen.stateprovider.BlockStateProvider capProvider,yarnwrap.world.gen.stateprovider.BlockStateProvider stemProvider,int foliageRadius) { this.wrapperContained = new net.minecraft.world.gen.feature.HugeMushroomFeatureConfig(capProvider.wrapperContained,stemProvider.wrapperContained,foliageRadius); }
+// public com.mojang.datafixers.kinds.App method_28721(Object instance) { return wrapperContained.method_28721(instance); }
 
 }

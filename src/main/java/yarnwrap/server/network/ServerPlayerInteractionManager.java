@@ -27,6 +27,7 @@ public class ServerPlayerInteractionManager { public net.minecraft.server.networ
 // public void blockBreakingProgress(int value) { wrapperContained.blockBreakingProgress = value; }
 // public yarnwrap.world.GameMode previousGameMode() { return new yarnwrap.world.GameMode(wrapperContained.previousGameMode); }
 // public void previousGameMode(yarnwrap.world.GameMode value) { wrapperContained.previousGameMode = value.wrapperContained; }
+public ServerPlayerInteractionManager(yarnwrap.server.network.ServerPlayerEntity player) { this.wrapperContained = new net.minecraft.server.network.ServerPlayerInteractionManager(player.wrapperContained); }
 public yarnwrap.util.ActionResult interactItem(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.world.World world,yarnwrap.item.ItemStack stack,yarnwrap.util.Hand hand) { return new yarnwrap.util.ActionResult(wrapperContained.interactItem(player.wrapperContained,world.wrapperContained,stack.wrapperContained,hand.wrapperContained)); }
 public yarnwrap.world.GameMode getGameMode() { return new yarnwrap.world.GameMode(wrapperContained.getGameMode()); }
 public void setWorld(yarnwrap.server.world.ServerWorld world) { wrapperContained.setWorld(world.wrapperContained); }

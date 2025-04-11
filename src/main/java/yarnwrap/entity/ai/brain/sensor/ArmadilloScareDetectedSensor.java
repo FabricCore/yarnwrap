@@ -9,7 +9,9 @@ public class ArmadilloScareDetectedSensor { public net.minecraft.entity.ai.brain
 // public void memoryModuleType(yarnwrap.entity.ai.brain.MemoryModuleType value) { wrapperContained.memoryModuleType = value.wrapperContained; }
 // public int expiry() { return wrapperContained.expiry; }
 // public void expiry(int value) { wrapperContained.expiry = value; }
+public ArmadilloScareDetectedSensor(int senseInterval,java.util.function.BiPredicate threateningEntityPredicate,java.util.function.Predicate canRollUpPredicate,yarnwrap.entity.ai.brain.MemoryModuleType memoryModuleType,int expiry) { this.wrapperContained = new net.minecraft.entity.ai.brain.sensor.ArmadilloScareDetectedSensor(senseInterval,threateningEntityPredicate,canRollUpPredicate,memoryModuleType.wrapperContained,expiry); }
 public void tryDetectThreat(yarnwrap.entity.LivingEntity entity) { wrapperContained.tryDetectThreat(entity.wrapperContained); }
+// public boolean method_55703(yarnwrap.entity.LivingEntity threat) { return wrapperContained.method_55703(threat.wrapperContained); }
 public void onDetected(yarnwrap.entity.LivingEntity entity) { wrapperContained.onDetected(entity.wrapperContained); }
 public void clear(yarnwrap.entity.LivingEntity entity) { wrapperContained.clear(entity.wrapperContained); }
 

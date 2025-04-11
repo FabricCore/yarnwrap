@@ -9,5 +9,7 @@ public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.
 // public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
 public yarnwrap.state.property.BooleanProperty OMINOUS() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.OMINOUS); }
 // public void OMINOUS(yarnwrap.state.property.BooleanProperty value) { wrapperContained.OMINOUS = value.wrapperContained; }
+// public void method_56718(yarnwrap.server.world.ServerWorld worldx,yarnwrap.world.World pos,yarnwrap.util.math.BlockPos statex,yarnwrap.block.BlockState blockEntity) { wrapperContained.method_56718(worldx.wrapperContained,pos.wrapperContained,statex.wrapperContained,blockEntity.wrapperContained); }
+// public void method_56719(yarnwrap.world.World worldx,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState statex,yarnwrap.block.entity.VaultBlockEntity blockEntity) { wrapperContained.method_56719(worldx.wrapperContained,pos.wrapperContained,statex.wrapperContained,blockEntity.wrapperContained); }
 
 }

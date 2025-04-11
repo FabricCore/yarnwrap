@@ -3,6 +3,7 @@ public class NetworkSide { public net.minecraft.network.NetworkSide wrapperConta
 
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// public NetworkSide(java.lang.String name) { this.wrapperContained = new net.minecraft.network.NetworkSide(name); }
 public yarnwrap.network.NetworkSide getOpposite() { return new yarnwrap.network.NetworkSide(wrapperContained.getOpposite()); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 

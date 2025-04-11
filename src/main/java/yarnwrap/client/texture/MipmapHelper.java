@@ -9,6 +9,7 @@ public class MipmapHelper { public net.minecraft.client.texture.MipmapHelper wra
 // public int getColorComponent(int one,int two,int three,int four,int bits) { return wrapperContained.getColorComponent(one,two,three,four,bits); }
 // public int blend(int one,int two,int three,int four,boolean checkAlpha) { return wrapperContained.blend(one,two,three,four,checkAlpha); }
 public net.minecraft.client.texture.NativeImage[] getMipmapLevelsImages(net.minecraft.client.texture.NativeImage[] originals,int mipmap) { return wrapperContained.getMipmapLevelsImages(originals,mipmap); }
+// public void method_24103(float list) { wrapperContained.method_24103(list); }
 // public boolean hasAlpha(yarnwrap.client.texture.NativeImage image) { return wrapperContained.hasAlpha(image.wrapperContained); }
 
 }

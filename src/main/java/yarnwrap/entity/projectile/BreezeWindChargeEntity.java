@@ -3,5 +3,6 @@ public class BreezeWindChargeEntity { public net.minecraft.entity.projectile.Bre
 
 // public float EXPLOSION_POWER() { return wrapperContained.EXPLOSION_POWER; }
 // public void EXPLOSION_POWER(float value) { wrapperContained.EXPLOSION_POWER = value; }
+public BreezeWindChargeEntity(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.world.World world) { this.wrapperContained = new net.minecraft.entity.projectile.BreezeWindChargeEntity(breeze.wrapperContained,world.wrapperContained); }
 
 }

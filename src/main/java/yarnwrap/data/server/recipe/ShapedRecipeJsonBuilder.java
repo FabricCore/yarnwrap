@@ -17,6 +17,7 @@ public class ShapedRecipeJsonBuilder { public net.minecraft.data.server.recipe.S
 // public void showNotification(boolean value) { wrapperContained.showNotification = value; }
 // public java.util.Map criteria() { return wrapperContained.criteria; }
 // public void criteria(java.util.Map value) { wrapperContained.criteria = value; }
+public ShapedRecipeJsonBuilder(yarnwrap.recipe.book.RecipeCategory category,yarnwrap.item.ItemConvertible output,int count) { this.wrapperContained = new net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder(category.wrapperContained,output.wrapperContained,count); }
 public yarnwrap.data.server.recipe.ShapedRecipeJsonBuilder input(java.lang.Character c,yarnwrap.recipe.Ingredient ingredient) { return new yarnwrap.data.server.recipe.ShapedRecipeJsonBuilder(wrapperContained.input(c,ingredient.wrapperContained)); }
 // public yarnwrap.recipe.RawShapedRecipe validate(yarnwrap.util.Identifier recipeId) { return new yarnwrap.recipe.RawShapedRecipe(wrapperContained.validate(recipeId.wrapperContained)); }
 public yarnwrap.data.server.recipe.ShapedRecipeJsonBuilder input(java.lang.Character c,yarnwrap.registry.tag.TagKey tag) { return new yarnwrap.data.server.recipe.ShapedRecipeJsonBuilder(wrapperContained.input(c,tag.wrapperContained)); }

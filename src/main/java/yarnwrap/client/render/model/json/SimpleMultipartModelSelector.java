@@ -7,6 +7,11 @@ public class SimpleMultipartModelSelector { public net.minecraft.client.render.m
 // public void key(java.lang.String value) { wrapperContained.key = value; }
 // public com.google.common.base.Splitter VALUE_SPLITTER() { return wrapperContained.VALUE_SPLITTER; }
 // public void VALUE_SPLITTER(com.google.common.base.Splitter value) { wrapperContained.VALUE_SPLITTER = value; }
+public SimpleMultipartModelSelector(java.lang.String key,java.lang.String valueString) { this.wrapperContained = new net.minecraft.client.render.model.json.SimpleMultipartModelSelector(key,valueString); }
+// public boolean method_3524(java.util.List state) { return wrapperContained.method_3524(state); }
 // public java.util.function.Predicate createPredicate(yarnwrap.state.StateManager stateFactory,yarnwrap.state.property.Property property,java.lang.String valueString) { return wrapperContained.createPredicate(stateFactory.wrapperContained,property.wrapperContained,valueString); }
+// public java.util.function.Predicate method_3526(yarnwrap.state.StateManager value) { return wrapperContained.method_3526(value.wrapperContained); }
+// public boolean method_3527(yarnwrap.block.BlockState predicate) { return wrapperContained.method_3527(predicate.wrapperContained); }
+// public boolean method_3528(yarnwrap.state.property.Property state) { return wrapperContained.method_3528(state.wrapperContained); }
 
 }

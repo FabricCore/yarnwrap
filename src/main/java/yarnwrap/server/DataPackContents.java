@@ -19,6 +19,7 @@ public class DataPackContents { public net.minecraft.server.DataPackContents wra
 // // public void registryLookup(Object value) { wrapperContained.registryLookup = value; }
 // public Object reloadableRegistries() { return wrapperContained.reloadableRegistries; }
 // // public void reloadableRegistries(Object value) { wrapperContained.reloadableRegistries = value; }
+// public DataPackContents(Object dynamicRegistryManager,yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,Object environment,int functionPermissionLevel) { this.wrapperContained = new net.minecraft.server.DataPackContents(dynamicRegistryManager,enabledFeatures.wrapperContained,environment,functionPermissionLevel); }
 public yarnwrap.server.function.FunctionLoader getFunctionLoader() { return new yarnwrap.server.function.FunctionLoader(wrapperContained.getFunctionLoader()); }
 // public java.util.concurrent.CompletableFuture reload(yarnwrap.resource.ResourceManager manager,yarnwrap.registry.CombinedDynamicRegistries dynamicRegistries,yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,Object environment,int functionPermissionLevel,java.util.concurrent.Executor prepareExecutor,java.util.concurrent.Executor applyExecutor) { return wrapperContained.reload(manager.wrapperContained,dynamicRegistries.wrapperContained,enabledFeatures.wrapperContained,environment,functionPermissionLevel,prepareExecutor,applyExecutor); }
 public yarnwrap.recipe.RecipeManager getRecipeManager() { return new yarnwrap.recipe.RecipeManager(wrapperContained.getRecipeManager()); }
@@ -26,7 +27,13 @@ public yarnwrap.server.command.CommandManager getCommandManager() { return new y
 public yarnwrap.server.ServerAdvancementLoader getServerAdvancementLoader() { return new yarnwrap.server.ServerAdvancementLoader(wrapperContained.getServerAdvancementLoader()); }
 public void refresh() { wrapperContained.refresh(); }
 // public void repopulateTags(yarnwrap.registry.DynamicRegistryManager dynamicRegistryManager,Object tags) { wrapperContained.repopulateTags(dynamicRegistryManager.wrapperContained,tags); }
+// public java.util.List method_40423(Object entry) { return wrapperContained.method_40423(entry); }
+// public yarnwrap.registry.tag.TagKey method_40424(yarnwrap.registry.RegistryKey entry) { return new yarnwrap.registry.tag.TagKey(wrapperContained.method_40424(entry.wrapperContained)); }
+// public yarnwrap.server.DataPackContents method_40425(yarnwrap.server.DataPackContents void_) { return new yarnwrap.server.DataPackContents(wrapperContained.method_40425(void_.wrapperContained)); }
+// public void method_40426(Object tags) { wrapperContained.method_40426(tags); }
 public java.util.List getContents() { return wrapperContained.getContents(); }
+// public void method_42095(yarnwrap.server.DataPackContents void_,java.lang.Object throwable) { wrapperContained.method_42095(void_.wrapperContained,throwable); }
+// public java.util.concurrent.CompletionStage method_58296(yarnwrap.resource.featuretoggle.FeatureSet reloadedDynamicRegistries) { return wrapperContained.method_58296(reloadedDynamicRegistries.wrapperContained); }
 public Object getReloadableRegistries() { return wrapperContained.getReloadableRegistries(); }
 
 }

@@ -52,9 +52,11 @@ public java.util.List REBALANCED_WANDERING_TRADER_TRADES() { return wrapperConta
 // public Object SELL_SWAMP_HUT_MAP_TRADE() { return wrapperContained.SELL_SWAMP_HUT_MAP_TRADE; }
 // // public void SELL_SWAMP_HUT_MAP_TRADE(Object value) { wrapperContained.SELL_SWAMP_HUT_MAP_TRADE = value; }
 // public it.unimi.dsi.fastutil.ints.Int2ObjectMap copyToFastUtilMap(com.google.common.collect.ImmutableMap map) { return wrapperContained.copyToFastUtilMap(map); }
+// public void method_16929(java.util.HashMap map) { wrapperContained.method_16929(map); }
 // public Object createMasterLibrarianTradeFactory() { return wrapperContained.createMasterLibrarianTradeFactory(); }
 // public Object createLibrarianTradeFactory(int experience) { return wrapperContained.createLibrarianTradeFactory(experience); }
 // public yarnwrap.item.ItemStack createPotionStack(yarnwrap.registry.entry.RegistryEntry potion) { return new yarnwrap.item.ItemStack(wrapperContained.createPotionStack(potion.wrapperContained)); }
 // public yarnwrap.village.TradedItem createPotion(yarnwrap.registry.entry.RegistryEntry potion) { return new yarnwrap.village.TradedItem(wrapperContained.createPotion(potion.wrapperContained)); }
+// public Object method_57312(yarnwrap.registry.entry.RegistryEntry builder) { return wrapperContained.method_57312(builder.wrapperContained); }
 
 }

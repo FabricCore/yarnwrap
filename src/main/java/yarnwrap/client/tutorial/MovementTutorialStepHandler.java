@@ -29,5 +29,6 @@ public class MovementTutorialStepHandler { public net.minecraft.client.tutorial.
 // public void moveAroundCompletionTicks(int value) { wrapperContained.moveAroundCompletionTicks = value; }
 // public int lookedAroundTicks() { return wrapperContained.lookedAroundTicks; }
 // public void lookedAroundTicks(int value) { wrapperContained.lookedAroundTicks = value; }
+public MovementTutorialStepHandler(yarnwrap.client.tutorial.TutorialManager manager) { this.wrapperContained = new net.minecraft.client.tutorial.MovementTutorialStepHandler(manager.wrapperContained); }
 
 }

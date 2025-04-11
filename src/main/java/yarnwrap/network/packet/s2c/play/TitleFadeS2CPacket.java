@@ -9,6 +9,8 @@ public class TitleFadeS2CPacket { public net.minecraft.network.packet.s2c.play.T
 // public void fadeOutTicks(int value) { wrapperContained.fadeOutTicks = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public TitleFadeS2CPacket(int fadeInTicks,int stayTicks,int fadeOutTicks) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.TitleFadeS2CPacket(fadeInTicks,stayTicks,fadeOutTicks); }
+// public TitleFadeS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.TitleFadeS2CPacket(buf.wrapperContained); }
 public int getFadeInTicks() { return wrapperContained.getFadeInTicks(); }
 public int getStayTicks() { return wrapperContained.getStayTicks(); }
 public int getFadeOutTicks() { return wrapperContained.getFadeOutTicks(); }

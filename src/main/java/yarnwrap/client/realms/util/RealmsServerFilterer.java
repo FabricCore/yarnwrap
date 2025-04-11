@@ -7,6 +7,7 @@ public class RealmsServerFilterer { public net.minecraft.client.realms.util.Real
 // public void removedServers(java.util.Set value) { wrapperContained.removedServers = value; }
 // public java.util.List sortedServers() { return wrapperContained.sortedServers; }
 // public void sortedServers(java.util.List value) { wrapperContained.sortedServers = value; }
+public RealmsServerFilterer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.realms.util.RealmsServerFilterer(client.wrapperContained); }
 public void remove(yarnwrap.client.realms.dto.RealmsServer server) { wrapperContained.remove(server.wrapperContained); }
 public void filterAndSort(java.util.List servers) { wrapperContained.filterAndSort(servers); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }

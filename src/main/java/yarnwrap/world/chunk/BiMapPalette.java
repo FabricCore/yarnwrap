@@ -9,6 +9,9 @@ public class BiMapPalette { public net.minecraft.world.chunk.BiMapPalette wrappe
 // public void map(yarnwrap.util.collection.Int2ObjectBiMap value) { wrapperContained.map = value.wrapperContained; }
 // public yarnwrap.world.chunk.PaletteResizeListener listener() { return new yarnwrap.world.chunk.PaletteResizeListener(wrapperContained.listener); }
 // public void listener(yarnwrap.world.chunk.PaletteResizeListener value) { wrapperContained.listener = value.wrapperContained; }
+// public BiMapPalette(yarnwrap.util.collection.IndexedIterable idList,int indexBits,yarnwrap.world.chunk.PaletteResizeListener listener) { this.wrapperContained = new net.minecraft.world.chunk.BiMapPalette(idList.wrapperContained,indexBits,listener.wrapperContained); }
+// public BiMapPalette(yarnwrap.util.collection.IndexedIterable idList,int bits,yarnwrap.world.chunk.PaletteResizeListener listener,java.util.List entries) { this.wrapperContained = new net.minecraft.world.chunk.BiMapPalette(idList.wrapperContained,bits,listener.wrapperContained,entries); }
+// public BiMapPalette(yarnwrap.util.collection.IndexedIterable idList,int indexBits,yarnwrap.world.chunk.PaletteResizeListener listener,yarnwrap.util.collection.Int2ObjectBiMap map) { this.wrapperContained = new net.minecraft.world.chunk.BiMapPalette(idList.wrapperContained,indexBits,listener.wrapperContained,map.wrapperContained); }
 // public yarnwrap.world.chunk.Palette create(int bits,yarnwrap.util.collection.IndexedIterable idList,yarnwrap.world.chunk.PaletteResizeListener listener,java.util.List entries) { return new yarnwrap.world.chunk.Palette(wrapperContained.create(bits,idList.wrapperContained,listener.wrapperContained,entries)); }
 public java.util.List getElements() { return wrapperContained.getElements(); }
 

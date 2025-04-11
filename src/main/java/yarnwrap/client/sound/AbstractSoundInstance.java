@@ -27,5 +27,7 @@ public class AbstractSoundInstance { public net.minecraft.client.sound.AbstractS
 // public void y(double value) { wrapperContained.y = value; }
 // public int repeatDelay() { return wrapperContained.repeatDelay; }
 // public void repeatDelay(int value) { wrapperContained.repeatDelay = value; }
+// public AbstractSoundInstance(yarnwrap.util.Identifier soundId,yarnwrap.sound.SoundCategory category,yarnwrap.util.math.random.Random random) { this.wrapperContained = new net.minecraft.client.sound.AbstractSoundInstance(soundId.wrapperContained,category.wrapperContained,random.wrapperContained); }
+// public AbstractSoundInstance(yarnwrap.sound.SoundEvent sound,yarnwrap.sound.SoundCategory category,yarnwrap.util.math.random.Random random) { this.wrapperContained = new net.minecraft.client.sound.AbstractSoundInstance(sound.wrapperContained,category.wrapperContained,random.wrapperContained); }
 
 }

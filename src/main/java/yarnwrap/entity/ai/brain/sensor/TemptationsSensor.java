@@ -7,7 +7,10 @@ public class TemptationsSensor { public net.minecraft.entity.ai.brain.sensor.Tem
 // public void predicate(java.util.function.Predicate value) { wrapperContained.predicate = value; }
 public int MAX_DISTANCE() { return wrapperContained.MAX_DISTANCE; }
 // public void MAX_DISTANCE(int value) { wrapperContained.MAX_DISTANCE = value; }
+public TemptationsSensor(java.util.function.Predicate predicate) { this.wrapperContained = new net.minecraft.entity.ai.brain.sensor.TemptationsSensor(predicate); }
+// public boolean method_33214(yarnwrap.entity.mob.PathAwareEntity player) { return wrapperContained.method_33214(player.wrapperContained); }
 // public boolean test(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.test(player.wrapperContained); }
 // public boolean test(yarnwrap.item.ItemStack stack) { return wrapperContained.test(stack.wrapperContained); }
+// public boolean method_33217(yarnwrap.entity.mob.PathAwareEntity player) { return wrapperContained.method_33217(player.wrapperContained); }
 
 }

@@ -11,7 +11,11 @@ public class FixedBufferInputStream { public net.minecraft.util.FixedBufferInput
 // public void end(int value) { wrapperContained.end = value; }
 // public int start() { return wrapperContained.start; }
 // public void start(int value) { wrapperContained.start = value; }
+public FixedBufferInputStream(java.io.InputStream stream) { this.wrapperContained = new net.minecraft.util.FixedBufferInputStream(stream); }
+public FixedBufferInputStream(java.io.InputStream stream,int size) { this.wrapperContained = new net.minecraft.util.FixedBufferInputStream(stream,size); }
 // public int getAvailableBuffer() { return wrapperContained.getAvailableBuffer(); }
 // public void fill() { wrapperContained.fill(); }
+// public int read(byte buf,int offset,int length) { return wrapperContained.read(buf,offset,length); }
+// public long skip(long n) { return wrapperContained.skip(n); }
 
 }

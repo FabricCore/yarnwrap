@@ -63,6 +63,7 @@ public yarnwrap.util.Identifier INWORLD_FOOTER_SEPARATOR_TEXTURE() { return new 
 // public void INWORLD_FOOTER_SEPARATOR_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.INWORLD_FOOTER_SEPARATOR_TEXTURE = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.CyclingButtonWidget narratorToggleButton() { return new yarnwrap.client.gui.widget.CyclingButtonWidget(wrapperContained.narratorToggleButton); }
 // public void narratorToggleButton(yarnwrap.client.gui.widget.CyclingButtonWidget value) { wrapperContained.narratorToggleButton = value.wrapperContained; }
+// public Screen(yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.Screen(title.wrapperContained); }
 public void tick() { wrapperContained.tick(); }
 public java.util.List getTooltipFromItem(yarnwrap.client.MinecraftClient client,yarnwrap.item.ItemStack stack) { return wrapperContained.getTooltipFromItem(client.wrapperContained,stack.wrapperContained); }
 public void resize(yarnwrap.client.MinecraftClient client,int width,int height) { wrapperContained.resize(client.wrapperContained,width,height); }
@@ -119,6 +120,7 @@ public void blur() { wrapperContained.blur(); }
 // public void initTabNavigation() { wrapperContained.initTabNavigation(); }
 public void onDisplayed() { wrapperContained.onDisplayed(); }
 public yarnwrap.sound.MusicSound getMusic() { return new yarnwrap.sound.MusicSound(wrapperContained.getMusic()); }
+// public void method_52221(java.lang.Runnable runnable) { wrapperContained.method_52221(runnable); }
 public void renderInGameBackground(yarnwrap.client.gui.DrawContext context) { wrapperContained.renderInGameBackground(context.wrapperContained); }
 // public yarnwrap.text.Text getUsageNarrationText() { return new yarnwrap.text.Text(wrapperContained.getUsageNarrationText()); }
 // public void setInitialFocus() { wrapperContained.setInitialFocus(); }
@@ -128,6 +130,7 @@ public void renderInGameBackground(yarnwrap.client.gui.DrawContext context) { wr
 // public void renderDarkening(yarnwrap.client.gui.DrawContext context,int x,int y,int width,int height) { wrapperContained.renderDarkening(context.wrapperContained,x,y,width,height); }
 public void renderBackgroundTexture(yarnwrap.client.gui.DrawContext context,yarnwrap.util.Identifier texture,int x,int y,float u,float v,int width,int height) { wrapperContained.renderBackgroundTexture(context.wrapperContained,texture.wrapperContained,x,y,u,v,width,height); }
 // public void clearTooltip() { wrapperContained.clearTooltip(); }
+// public void method_61039(java.net.URI confirmed) { wrapperContained.method_61039(confirmed); }
 public void refreshNarrator(boolean previouslyDisabled) { wrapperContained.refreshNarrator(previouslyDisabled); }
 
 }

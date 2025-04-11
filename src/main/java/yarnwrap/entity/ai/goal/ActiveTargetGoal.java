@@ -11,6 +11,10 @@ public class ActiveTargetGoal { public net.minecraft.entity.ai.goal.ActiveTarget
 // public void targetClass(java.lang.Class value) { wrapperContained.targetClass = value; }
 // public yarnwrap.entity.LivingEntity targetEntity() { return new yarnwrap.entity.LivingEntity(wrapperContained.targetEntity); }
 // public void targetEntity(yarnwrap.entity.LivingEntity value) { wrapperContained.targetEntity = value.wrapperContained; }
+public ActiveTargetGoal(yarnwrap.entity.mob.MobEntity mob,java.lang.Class targetClass,int reciprocalChance,boolean checkVisibility,boolean checkCanNavigate,java.util.function.Predicate targetPredicate) { this.wrapperContained = new net.minecraft.entity.ai.goal.ActiveTargetGoal(mob.wrapperContained,targetClass,reciprocalChance,checkVisibility,checkCanNavigate,targetPredicate); }
+public ActiveTargetGoal(yarnwrap.entity.mob.MobEntity mob,java.lang.Class targetClass,boolean checkVisibility) { this.wrapperContained = new net.minecraft.entity.ai.goal.ActiveTargetGoal(mob.wrapperContained,targetClass,checkVisibility); }
+public ActiveTargetGoal(yarnwrap.entity.mob.MobEntity mob,java.lang.Class targetClass,boolean checkVisibility,java.util.function.Predicate targetPredicate) { this.wrapperContained = new net.minecraft.entity.ai.goal.ActiveTargetGoal(mob.wrapperContained,targetClass,checkVisibility,targetPredicate); }
+public ActiveTargetGoal(yarnwrap.entity.mob.MobEntity mob,java.lang.Class targetClass,boolean checkVisibility,boolean checkCanNavigate) { this.wrapperContained = new net.minecraft.entity.ai.goal.ActiveTargetGoal(mob.wrapperContained,targetClass,checkVisibility,checkCanNavigate); }
 // public void findClosestTarget() { wrapperContained.findClosestTarget(); }
 public void setTargetEntity(yarnwrap.entity.LivingEntity targetEntity) { wrapperContained.setTargetEntity(targetEntity.wrapperContained); }
 // public yarnwrap.util.math.Box getSearchBox(double distance) { return new yarnwrap.util.math.Box(wrapperContained.getSearchBox(distance)); }

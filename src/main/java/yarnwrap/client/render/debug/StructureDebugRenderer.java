@@ -9,6 +9,9 @@ public class StructureDebugRenderer { public net.minecraft.client.render.debug.S
 // public void structureBoundingBoxes(java.util.Map value) { wrapperContained.structureBoundingBoxes = value; }
 // public java.util.Map structurePiecesBoundingBoxes() { return wrapperContained.structurePiecesBoundingBoxes; }
 // public void structurePiecesBoundingBoxes(java.util.Map value) { wrapperContained.structurePiecesBoundingBoxes = value; }
+public StructureDebugRenderer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.debug.StructureDebugRenderer(client.wrapperContained); }
 public void addStructure(yarnwrap.util.math.BlockBox boundingBox,java.util.List pieces,yarnwrap.registry.RegistryKey dimensionKey) { wrapperContained.addStructure(boundingBox.wrapperContained,pieces,dimensionKey.wrapperContained); }
+// public java.util.Map method_52842(yarnwrap.registry.RegistryKey dimension) { return wrapperContained.method_52842(dimension.wrapperContained); }
+// public java.util.Map method_52843(yarnwrap.registry.RegistryKey dimension) { return wrapperContained.method_52843(dimension.wrapperContained); }
 
 }

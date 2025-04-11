@@ -19,8 +19,11 @@ public yarnwrap.state.property.BooleanProperty EAST() { return new yarnwrap.stat
 // public void EAST(yarnwrap.state.property.BooleanProperty value) { wrapperContained.EAST = value.wrapperContained; }
 // public it.unimi.dsi.fastutil.objects.Object2IntMap SHAPE_INDEX_CACHE() { return wrapperContained.SHAPE_INDEX_CACHE; }
 // public void SHAPE_INDEX_CACHE(it.unimi.dsi.fastutil.objects.Object2IntMap value) { wrapperContained.SHAPE_INDEX_CACHE = value; }
+// public HorizontalConnectingBlock(float radius1,float radius2,float boundingHeight1,float boundingHeight2,float collisionHeight,Object settings) { this.wrapperContained = new net.minecraft.block.HorizontalConnectingBlock(radius1,radius2,boundingHeight1,boundingHeight2,collisionHeight,settings); }
+// public int method_20517(yarnwrap.block.BlockState statex) { return wrapperContained.method_20517(statex.wrapperContained); }
 // public net.minecraft.util.shape.VoxelShape[] createShapes(float radius1,float radius2,float height1,float offset2,float height2) { return wrapperContained.createShapes(radius1,radius2,height1,offset2,height2); }
 // public int getDirectionMask(yarnwrap.util.math.Direction dir) { return wrapperContained.getDirectionMask(dir.wrapperContained); }
+// public boolean method_9986(Object entry) { return wrapperContained.method_9986(entry); }
 // public int getShapeIndex(yarnwrap.block.BlockState state) { return wrapperContained.getShapeIndex(state.wrapperContained); }
 
 }

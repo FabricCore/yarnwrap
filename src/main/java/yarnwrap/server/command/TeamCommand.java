@@ -24,21 +24,49 @@ public class TeamCommand { public net.minecraft.server.command.TeamCommand wrapp
 // public com.mojang.brigadier.exceptions.SimpleCommandExceptionType OPTION_DEATH_MESSAGE_VISIBILITY_UNCHANGED_EXCEPTION() { return wrapperContained.OPTION_DEATH_MESSAGE_VISIBILITY_UNCHANGED_EXCEPTION; }
 // public void OPTION_DEATH_MESSAGE_VISIBILITY_UNCHANGED_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.OPTION_DEATH_MESSAGE_VISIBILITY_UNCHANGED_EXCEPTION = value; }
 // public int executeModifyDisplayName(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,yarnwrap.text.Text displayName) { return wrapperContained.executeModifyDisplayName(source.wrapperContained,team.wrapperContained,displayName.wrapperContained); }
+// public int method_13712(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13712(context); }
 // public int executeModifyCollisionRule(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,Object collisionRule) { return wrapperContained.executeModifyCollisionRule(source.wrapperContained,team.wrapperContained,collisionRule); }
 // public int executeLeave(yarnwrap.server.command.ServerCommandSource source,java.util.Collection members) { return wrapperContained.executeLeave(source.wrapperContained,members); }
 // public int executeAdd(yarnwrap.server.command.ServerCommandSource source,java.lang.String team,yarnwrap.text.Text displayName) { return wrapperContained.executeAdd(source.wrapperContained,team,displayName.wrapperContained); }
+// public int method_13716(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13716(context); }
+// public int method_13717(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13717(context); }
+// public int method_13718(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13718(context); }
+// public boolean method_13719(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13719(source.wrapperContained); }
 // public int executeJoin(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,java.util.Collection members) { return wrapperContained.executeJoin(source.wrapperContained,team.wrapperContained,members); }
+// public int method_13721(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13721(context); }
+// public int method_13722(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13722(context); }
 // public int executeEmpty(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team) { return wrapperContained.executeEmpty(source.wrapperContained,team.wrapperContained); }
+// public int method_13724(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13724(context); }
+// public int method_13725(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13725(context); }
+// public int method_13726(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13726(context); }
+// public int method_13727(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13727(context); }
 // public int executeListTeams(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeListTeams(source.wrapperContained); }
+// public int method_13729(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13729(context); }
+// public int method_13730(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13730(context); }
+// public int method_13731(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13731(context); }
 // public int executeModifyNametagVisibility(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,Object visibility) { return wrapperContained.executeModifyNametagVisibility(source.wrapperContained,team.wrapperContained,visibility); }
+// public int method_13733(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13733(context); }
+// public int method_13734(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13734(context); }
 // public int executeModifyDeathMessageVisibility(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,Object visibility) { return wrapperContained.executeModifyDeathMessageVisibility(source.wrapperContained,team.wrapperContained,visibility); }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.command.CommandRegistryAccess registryAccess) { wrapperContained.register(dispatcher,registryAccess.wrapperContained); }
+// public int method_13737(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13737(context); }
+// public int method_13738(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13738(context); }
+// public int method_13739(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13739(context); }
+// public int method_13740(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13740(context); }
+// public int method_13742(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13742(context); }
 // public int executeModifyPrefix(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,yarnwrap.text.Text prefix) { return wrapperContained.executeModifyPrefix(source.wrapperContained,team.wrapperContained,prefix.wrapperContained); }
+// public int method_13744(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13744(context); }
 // public int executeModifyColor(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,yarnwrap.util.Formatting color) { return wrapperContained.executeModifyColor(source.wrapperContained,team.wrapperContained,color.wrapperContained); }
+// public int method_13746(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13746(context); }
 // public int executeRemove(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team) { return wrapperContained.executeRemove(source.wrapperContained,team.wrapperContained); }
 // public int executeListMembers(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team) { return wrapperContained.executeListMembers(source.wrapperContained,team.wrapperContained); }
+// public int method_13749(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13749(context); }
+// public int method_13750(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13750(context); }
 // public int executeModifySeeFriendlyInvisibles(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,boolean allowed) { return wrapperContained.executeModifySeeFriendlyInvisibles(source.wrapperContained,team.wrapperContained,allowed); }
+// public int method_13752(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13752(context); }
+// public int method_13753(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13753(context); }
 // public int executeModifyFriendlyFire(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,boolean allowed) { return wrapperContained.executeModifyFriendlyFire(source.wrapperContained,team.wrapperContained,allowed); }
+// public int method_13755(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13755(context); }
 // public int executeModifySuffix(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,yarnwrap.text.Text suffix) { return wrapperContained.executeModifySuffix(source.wrapperContained,team.wrapperContained,suffix.wrapperContained); }
 // public int executeAdd(yarnwrap.server.command.ServerCommandSource source,java.lang.String team) { return wrapperContained.executeAdd(source.wrapperContained,team); }
 // public yarnwrap.text.Text getMemberName(java.util.Collection members) { return new yarnwrap.text.Text(wrapperContained.getMemberName(members)); }

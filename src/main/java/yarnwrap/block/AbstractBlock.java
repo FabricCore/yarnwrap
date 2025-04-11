@@ -25,6 +25,7 @@ public class AbstractBlock { public net.minecraft.block.AbstractBlock wrapperCon
 // public void jumpVelocityMultiplier(float value) { wrapperContained.jumpVelocityMultiplier = value; }
 // public yarnwrap.resource.featuretoggle.FeatureSet requiredFeatures() { return new yarnwrap.resource.featuretoggle.FeatureSet(wrapperContained.requiredFeatures); }
 // public void requiredFeatures(yarnwrap.resource.featuretoggle.FeatureSet value) { wrapperContained.requiredFeatures = value.wrapperContained; }
+// public AbstractBlock(Object settings) { this.wrapperContained = new net.minecraft.block.AbstractBlock(settings); }
 // public yarnwrap.screen.NamedScreenHandlerFactory createScreenHandlerFactory(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.screen.NamedScreenHandlerFactory(wrapperContained.createScreenHandlerFactory(state.wrapperContained,world.wrapperContained,pos.wrapperContained)); }
 // public void onProjectileHit(yarnwrap.world.World world,yarnwrap.block.BlockState state,yarnwrap.util.hit.BlockHitResult hit,yarnwrap.entity.projectile.ProjectileEntity projectile) { wrapperContained.onProjectileHit(world.wrapperContained,state.wrapperContained,hit.wrapperContained,projectile.wrapperContained); }
 // public boolean canBucketPlace(yarnwrap.block.BlockState state,yarnwrap.fluid.Fluid fluid) { return wrapperContained.canBucketPlace(state.wrapperContained,fluid.wrapperContained); }
@@ -39,10 +40,12 @@ public float getHardness() { return wrapperContained.getHardness(); }
 // public boolean isShapeFullCube(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isShapeFullCube(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
 // public boolean isCullingShapeFullCube(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isCullingShapeFullCube(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
 // public com.mojang.serialization.MapCodec getCodec() { return wrapperContained.getCodec(); }
+// public com.mojang.datafixers.kinds.App method_54093(java.util.function.Function instance) { return wrapperContained.method_54093(instance); }
 public com.mojang.serialization.MapCodec createCodec(java.util.function.Function blockFromSettings) { return wrapperContained.createCodec(blockFromSettings); }
 public Object getSettings() { return wrapperContained.getSettings(); }
 // public com.mojang.serialization.codecs.RecordCodecBuilder createSettingsCodec() { return wrapperContained.createSettingsCodec(); }
 // public void onExploded(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.explosion.Explosion explosion,java.util.function.BiConsumer stackMerger) { wrapperContained.onExploded(state.wrapperContained,world.wrapperContained,pos.wrapperContained,explosion.wrapperContained,stackMerger); }
+// public void method_55224(java.util.function.BiConsumer stack) { wrapperContained.method_55224(stack); }
 // public yarnwrap.util.ItemActionResult onUseWithItem(yarnwrap.item.ItemStack stack,yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.Hand hand,yarnwrap.util.hit.BlockHitResult hit) { return new yarnwrap.util.ItemActionResult(wrapperContained.onUseWithItem(stack.wrapperContained,state.wrapperContained,world.wrapperContained,pos.wrapperContained,player.wrapperContained,hand.wrapperContained,hit.wrapperContained)); }
 // public yarnwrap.util.ActionResult onUse(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.hit.BlockHitResult hit) { return new yarnwrap.util.ActionResult(wrapperContained.onUse(state.wrapperContained,world.wrapperContained,pos.wrapperContained,player.wrapperContained,hit.wrapperContained)); }
 public yarnwrap.item.Item asItem() { return new yarnwrap.item.Item(wrapperContained.asItem()); }

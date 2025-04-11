@@ -17,5 +17,6 @@ public class BasicBakedModel { public net.minecraft.client.render.model.BasicBak
 // public void sprite(yarnwrap.client.texture.Sprite value) { wrapperContained.sprite = value.wrapperContained; }
 // public yarnwrap.client.render.model.json.ModelTransformation transformation() { return new yarnwrap.client.render.model.json.ModelTransformation(wrapperContained.transformation); }
 // public void transformation(yarnwrap.client.render.model.json.ModelTransformation value) { wrapperContained.transformation = value.wrapperContained; }
+public BasicBakedModel(java.util.List quads,java.util.Map faceQuads,boolean usesAo,boolean isSideLit,boolean hasDepth,yarnwrap.client.texture.Sprite sprite,yarnwrap.client.render.model.json.ModelTransformation transformation,yarnwrap.client.render.model.json.ModelOverrideList itemPropertyOverrides) { this.wrapperContained = new net.minecraft.client.render.model.BasicBakedModel(quads,faceQuads,usesAo,isSideLit,hasDepth,sprite.wrapperContained,transformation.wrapperContained,itemPropertyOverrides.wrapperContained); }
 
 }

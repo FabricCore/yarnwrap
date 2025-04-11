@@ -15,5 +15,6 @@ public float MAX_TICKS_FOR_ULTRA_RARE_SOUND_LOOP() { return wrapperContained.MAX
 // public void ticksUntilPlay(int value) { wrapperContained.ticksUntilPlay = value; }
 // public yarnwrap.client.network.ClientPlayerEntity player() { return new yarnwrap.client.network.ClientPlayerEntity(wrapperContained.player); }
 // public void player(yarnwrap.client.network.ClientPlayerEntity value) { wrapperContained.player = value.wrapperContained; }
+public AmbientSoundPlayer(yarnwrap.client.network.ClientPlayerEntity player,yarnwrap.client.sound.SoundManager soundManager) { this.wrapperContained = new net.minecraft.client.sound.AmbientSoundPlayer(player.wrapperContained,soundManager.wrapperContained); }
 
 }

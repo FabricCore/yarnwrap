@@ -61,8 +61,15 @@ public class BookEditScreen { public net.minecraft.client.gui.screen.ingame.Book
 // public void WIDTH(int value) { wrapperContained.WIDTH = value; }
 // public int HEIGHT() { return wrapperContained.HEIGHT; }
 // public void HEIGHT(int value) { wrapperContained.HEIGHT = value; }
+public BookEditScreen(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack itemStack,yarnwrap.util.Hand hand) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.BookEditScreen(player.wrapperContained,itemStack.wrapperContained,hand.wrapperContained); }
 // public int countPages() { return wrapperContained.countPages(); }
 // public void removeEmptyPages() { wrapperContained.removeEmptyPages(); }
+// public void method_19878(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19878(button.wrapperContained); }
+// public void method_19879(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19879(button.wrapperContained); }
+// public void method_19880(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19880(button.wrapperContained); }
+// public void method_19881(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19881(button.wrapperContained); }
+// public void method_19882(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19882(button.wrapperContained); }
+// public void method_19883(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19883(button.wrapperContained); }
 // public void finalizeBook(boolean signBook) { wrapperContained.finalizeBook(signBook); }
 // public void updateButtons() { wrapperContained.updateButtons(); }
 // public void moveToLineEnd() { wrapperContained.moveToLineEnd(); }
@@ -88,7 +95,10 @@ public class BookEditScreen { public net.minecraft.client.gui.screen.ingame.Book
 // public Object absolutePositionToScreenPosition(Object position) { return wrapperContained.absolutePositionToScreenPosition(position); }
 // public int getLineFromOffset(int lineStarts,int position) { return wrapperContained.getLineFromOffset(lineStarts,position); }
 // public boolean keyPressedEditMode(int keyCode,int scanCode,int modifiers) { return wrapperContained.keyPressedEditMode(keyCode,scanCode,modifiers); }
+// public boolean method_27593(java.lang.String string) { return wrapperContained.method_27593(string); }
+// public void method_27594(java.lang.String title) { wrapperContained.method_27594(title); }
 // public java.lang.String getClipboard() { return wrapperContained.getClipboard(); }
+// public boolean method_27596(java.lang.String string) { return wrapperContained.method_27596(string); }
 // public void moveUpLine() { wrapperContained.moveUpLine(); }
 // public void moveDownLine() { wrapperContained.moveDownLine(); }
 // public void changePage() { wrapperContained.changePage(); }

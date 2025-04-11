@@ -31,6 +31,7 @@ public yarnwrap.util.Identifier MINCERAFT_TEXTURE() { return new yarnwrap.util.I
 // public void EDITION_TEXTURE_HEIGHT(int value) { wrapperContained.EDITION_TEXTURE_HEIGHT = value; }
 // public int LOGO_AND_EDITION_OVERLAP() { return wrapperContained.LOGO_AND_EDITION_OVERLAP; }
 // public void LOGO_AND_EDITION_OVERLAP(int value) { wrapperContained.LOGO_AND_EDITION_OVERLAP = value; }
+public LogoDrawer(boolean ignoreAlpha) { this.wrapperContained = new net.minecraft.client.gui.LogoDrawer(ignoreAlpha); }
 public void draw(yarnwrap.client.gui.DrawContext context,int screenWidth,float alpha) { wrapperContained.draw(context.wrapperContained,screenWidth,alpha); }
 public void draw(yarnwrap.client.gui.DrawContext context,int screenWidth,float alpha,int y) { wrapperContained.draw(context.wrapperContained,screenWidth,alpha,y); }
 

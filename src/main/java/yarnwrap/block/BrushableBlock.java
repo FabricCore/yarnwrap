@@ -11,8 +11,10 @@ public class BrushableBlock { public net.minecraft.block.BrushableBlock wrapperC
 // public void brushingCompleteSound(yarnwrap.sound.SoundEvent value) { wrapperContained.brushingCompleteSound = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public BrushableBlock(yarnwrap.block.Block baseBlock,yarnwrap.sound.SoundEvent brushingSound,yarnwrap.sound.SoundEvent brushingCompleteSound,Object settings) { this.wrapperContained = new net.minecraft.block.BrushableBlock(baseBlock.wrapperContained,brushingSound.wrapperContained,brushingCompleteSound.wrapperContained,settings); }
 public yarnwrap.block.Block getBaseBlock() { return new yarnwrap.block.Block(wrapperContained.getBaseBlock()); }
 public yarnwrap.sound.SoundEvent getBrushingSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getBrushingSound()); }
 public yarnwrap.sound.SoundEvent getBrushingCompleteSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getBrushingCompleteSound()); }
+// public com.mojang.datafixers.kinds.App method_53982(Object instance) { return wrapperContained.method_53982(instance); }
 
 }

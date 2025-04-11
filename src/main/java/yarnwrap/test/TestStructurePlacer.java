@@ -21,5 +21,7 @@ public class TestStructurePlacer { public net.minecraft.test.TestStructurePlacer
 // public void maxX(float value) { wrapperContained.maxX = value; }
 // public java.util.Collection statesToClear() { return wrapperContained.statesToClear; }
 // public void statesToClear(java.util.Collection value) { wrapperContained.statesToClear = value; }
+public TestStructurePlacer(yarnwrap.util.math.BlockPos origin,int testsPerRow,boolean clearBeforeBatch) { this.wrapperContained = new net.minecraft.test.TestStructurePlacer(origin.wrapperContained,testsPerRow,clearBeforeBatch); }
+// public void method_61101(yarnwrap.server.world.ServerWorld state) { wrapperContained.method_61101(state.wrapperContained); }
 
 }

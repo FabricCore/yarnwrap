@@ -15,6 +15,7 @@ public class PlayerListEntry { public net.minecraft.client.network.PlayerListEnt
 // public void session(yarnwrap.network.encryption.PublicPlayerSession value) { wrapperContained.session = value.wrapperContained; }
 // public java.util.function.Supplier texturesSupplier() { return wrapperContained.texturesSupplier; }
 // public void texturesSupplier(java.util.function.Supplier value) { wrapperContained.texturesSupplier = value; }
+public PlayerListEntry(com.mojang.authlib.GameProfile profile,boolean secureChatEnforced) { this.wrapperContained = new net.minecraft.client.network.PlayerListEntry(profile,secureChatEnforced); }
 public yarnwrap.scoreboard.Team getScoreboardTeam() { return new yarnwrap.scoreboard.Team(wrapperContained.getScoreboardTeam()); }
 public yarnwrap.world.GameMode getGameMode() { return new yarnwrap.world.GameMode(wrapperContained.getGameMode()); }
 public int getLatency() { return wrapperContained.getLatency(); }

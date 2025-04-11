@@ -29,6 +29,7 @@ public yarnwrap.util.collection.DefaultedList main() { return new yarnwrap.util.
 // public void main(yarnwrap.util.collection.DefaultedList value) { wrapperContained.main = value.wrapperContained; }
 public yarnwrap.util.collection.DefaultedList armor() { return new yarnwrap.util.collection.DefaultedList(wrapperContained.armor); }
 // public void armor(yarnwrap.util.collection.DefaultedList value) { wrapperContained.armor = value.wrapperContained; }
+public PlayerInventory(yarnwrap.entity.player.PlayerEntity player) { this.wrapperContained = new net.minecraft.entity.player.PlayerInventory(player.wrapperContained); }
 public int remove(java.util.function.Predicate shouldRemove,int maxCount,yarnwrap.inventory.Inventory craftingInventory) { return wrapperContained.remove(shouldRemove,maxCount,craftingInventory.wrapperContained); }
 public void offer(yarnwrap.item.ItemStack stack,boolean notifiesClient) { wrapperContained.offer(stack.wrapperContained,notifiesClient); }
 public yarnwrap.item.ItemStack dropSelectedItem(boolean entireStack) { return new yarnwrap.item.ItemStack(wrapperContained.dropSelectedItem(entireStack)); }

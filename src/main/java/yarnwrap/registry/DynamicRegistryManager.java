@@ -10,6 +10,7 @@ public java.util.Optional getOptional(yarnwrap.registry.RegistryKey key) { retur
 // public Object of(yarnwrap.registry.Registry registries) { return wrapperContained.of(registries.wrapperContained); }
 public java.util.stream.Stream streamAllRegistries() { return wrapperContained.streamAllRegistries(); }
 public Object toImmutable() { return wrapperContained.toImmutable(); }
+// public com.mojang.serialization.Lifecycle method_41200(Object entry) { return wrapperContained.method_41200(entry); }
 public com.mojang.serialization.Lifecycle getRegistryLifecycle() { return wrapperContained.getRegistryLifecycle(); }
 
 }

@@ -9,7 +9,11 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void enabled(java.util.List value) { wrapperContained.enabled = value; }
 // public java.util.List disabled() { return wrapperContained.disabled; }
 // public void disabled(java.util.List value) { wrapperContained.disabled = value; }
+public DataPackSettings(java.util.List enabled,java.util.List disabled) { this.wrapperContained = new net.minecraft.resource.DataPackSettings(enabled,disabled); }
 public java.util.List getEnabled() { return wrapperContained.getEnabled(); }
+// public java.util.List method_29548(yarnwrap.resource.DataPackSettings settings) { return wrapperContained.method_29548(settings.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_29549(Object instance) { return wrapperContained.method_29549(instance); }
 public java.util.List getDisabled() { return wrapperContained.getDisabled(); }
+// public java.util.List method_29551(yarnwrap.resource.DataPackSettings settings) { return wrapperContained.method_29551(settings.wrapperContained); }
 
 }

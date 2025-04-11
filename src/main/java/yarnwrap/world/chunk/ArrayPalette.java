@@ -11,6 +11,8 @@ public class ArrayPalette { public net.minecraft.world.chunk.ArrayPalette wrappe
 // public void array(java.lang.Object[] value) { wrapperContained.array = value; }
 // public yarnwrap.world.chunk.PaletteResizeListener listener() { return new yarnwrap.world.chunk.PaletteResizeListener(wrapperContained.listener); }
 // public void listener(yarnwrap.world.chunk.PaletteResizeListener value) { wrapperContained.listener = value.wrapperContained; }
+// public ArrayPalette(yarnwrap.util.collection.IndexedIterable idList,int bits,yarnwrap.world.chunk.PaletteResizeListener listener,java.util.List list) { this.wrapperContained = new net.minecraft.world.chunk.ArrayPalette(idList.wrapperContained,bits,listener.wrapperContained,list); }
+// public ArrayPalette(yarnwrap.util.collection.IndexedIterable idList,java.lang.Object[] array,yarnwrap.world.chunk.PaletteResizeListener listener,int indexBits,int size) { this.wrapperContained = new net.minecraft.world.chunk.ArrayPalette(idList.wrapperContained,array,listener.wrapperContained,indexBits,size); }
 // public yarnwrap.world.chunk.Palette create(int bits,yarnwrap.util.collection.IndexedIterable idList,yarnwrap.world.chunk.PaletteResizeListener listener,java.util.List list) { return new yarnwrap.world.chunk.Palette(wrapperContained.create(bits,idList.wrapperContained,listener.wrapperContained,list)); }
 
 }

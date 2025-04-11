@@ -31,7 +31,12 @@ public class RealmsNotificationsScreen { public net.minecraft.client.realms.gui.
 // public boolean shouldShowRealmsNews() { return wrapperContained.shouldShowRealmsNews(); }
 // public boolean isTitleScreen() { return wrapperContained.isTitleScreen(); }
 // public Object getRunnersFactory() { return wrapperContained.getRunnersFactory(); }
+// public void method_49585(yarnwrap.client.realms.RealmsPeriodicCheckers news) { wrapperContained.method_49585(news.wrapperContained); }
 // public void addRunners(yarnwrap.client.realms.RealmsPeriodicCheckers checkers,Object manager) { wrapperContained.addRunners(checkers.wrapperContained,manager); }
+// public void method_49587(java.lang.Boolean trialAvailable) { wrapperContained.method_49587(trialAvailable); }
+// public void method_49588(java.lang.Integer pendingInvitesCount) { wrapperContained.method_49588(pendingInvitesCount); }
 // public void addNotificationRunner(yarnwrap.client.realms.RealmsPeriodicCheckers checkers,Object manager) { wrapperContained.addNotificationRunner(checkers.wrapperContained,manager); }
+// public void method_49591(java.util.List notifications) { wrapperContained.method_49591(notifications); }
+// public java.lang.Boolean method_52670(Object info) { return wrapperContained.method_52670(info); }
 
 }

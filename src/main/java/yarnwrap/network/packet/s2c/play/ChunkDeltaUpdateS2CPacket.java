@@ -9,6 +9,8 @@ public class ChunkDeltaUpdateS2CPacket { public net.minecraft.network.packet.s2c
 // public void blockStates(net.minecraft.block.BlockState[] value) { wrapperContained.blockStates = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public ChunkDeltaUpdateS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChunkDeltaUpdateS2CPacket(buf.wrapperContained); }
+public ChunkDeltaUpdateS2CPacket(yarnwrap.util.math.ChunkSectionPos sectionPos,it.unimi.dsi.fastutil.shorts.ShortSet positions,yarnwrap.world.chunk.ChunkSection section) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChunkDeltaUpdateS2CPacket(sectionPos.wrapperContained,positions,section.wrapperContained); }
 public void visitUpdates(java.util.function.BiConsumer visitor) { wrapperContained.visitUpdates(visitor); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 

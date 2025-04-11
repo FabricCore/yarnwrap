@@ -11,8 +11,11 @@ public class RealmsPrepareConnectionTask { public net.minecraft.client.realms.ta
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
 // public yarnwrap.text.Text APPLYING_PACK_TEXT() { return new yarnwrap.text.Text(wrapperContained.APPLYING_PACK_TEXT); }
 // public void APPLYING_PACK_TEXT(yarnwrap.text.Text value) { wrapperContained.APPLYING_PACK_TEXT = value.wrapperContained; }
+public RealmsPrepareConnectionTask(yarnwrap.client.gui.screen.Screen lastScreen,yarnwrap.client.realms.dto.RealmsServer server) { this.wrapperContained = new net.minecraft.client.realms.task.RealmsPrepareConnectionTask(lastScreen.wrapperContained,server.wrapperContained); }
+// public java.lang.Void method_25286(yarnwrap.client.realms.dto.RealmsServerAddress throwable) { return wrapperContained.method_25286(throwable.wrapperContained); }
 public yarnwrap.client.realms.gui.screen.RealmsLongRunningMcoTaskScreen createConnectingScreen(yarnwrap.client.realms.dto.RealmsServerAddress address) { return new yarnwrap.client.realms.gui.screen.RealmsLongRunningMcoTaskScreen(wrapperContained.createConnectingScreen(address.wrapperContained)); }
 // public yarnwrap.client.gui.screen.PopupScreen createResourcePackConfirmationScreen(yarnwrap.client.realms.dto.RealmsServerAddress address,java.util.UUID id,java.util.function.Function connectingScreenCreator) { return new yarnwrap.client.gui.screen.PopupScreen(wrapperContained.createResourcePackConfirmationScreen(address.wrapperContained,id,connectingScreenCreator)); }
+// public void method_32513(yarnwrap.client.realms.dto.RealmsServerAddress popup) { wrapperContained.method_32513(popup.wrapperContained); }
 // public java.util.concurrent.CompletableFuture downloadResourcePack(yarnwrap.client.realms.dto.RealmsServerAddress address,java.util.UUID id) { return wrapperContained.downloadResourcePack(address.wrapperContained,id); }
 // public yarnwrap.client.realms.dto.RealmsServerAddress join() { return new yarnwrap.client.realms.dto.RealmsServerAddress(wrapperContained.join()); }
 // public java.util.UUID getResourcePackId(yarnwrap.client.realms.dto.RealmsServer server) { return wrapperContained.getResourcePackId(server.wrapperContained); }

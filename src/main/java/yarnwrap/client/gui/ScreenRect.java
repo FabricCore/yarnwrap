@@ -3,6 +3,7 @@ public class ScreenRect { public net.minecraft.client.gui.ScreenRect wrapperCont
 
 // public yarnwrap.client.gui.ScreenRect EMPTY() { return new yarnwrap.client.gui.ScreenRect(wrapperContained.EMPTY); }
 // public void EMPTY(yarnwrap.client.gui.ScreenRect value) { wrapperContained.EMPTY = value.wrapperContained; }
+public ScreenRect(int sameAxis,int otherAxis,int width,int height) { this.wrapperContained = new net.minecraft.client.gui.ScreenRect(sameAxis,otherAxis,width,height); }
 public yarnwrap.client.gui.ScreenRect empty() { return new yarnwrap.client.gui.ScreenRect(wrapperContained.empty()); }
 public int getLength(yarnwrap.client.gui.navigation.NavigationAxis axis) { return wrapperContained.getLength(axis.wrapperContained); }
 public yarnwrap.client.gui.ScreenRect of(yarnwrap.client.gui.navigation.NavigationAxis axis,int sameAxisCoord,int otherAxisCoord,int sameAxisLength,int otherAxisLength) { return new yarnwrap.client.gui.ScreenRect(wrapperContained.of(axis.wrapperContained,sameAxisCoord,otherAxisCoord,sameAxisLength,otherAxisLength)); }

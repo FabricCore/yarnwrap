@@ -9,6 +9,8 @@ public yarnwrap.item.ItemStack get() { return new yarnwrap.item.ItemStack(wrappe
 // public yarnwrap.inventory.StackReference of(yarnwrap.entity.LivingEntity entity,yarnwrap.entity.EquipmentSlot slot) { return new yarnwrap.inventory.StackReference(wrapperContained.of(entity.wrapperContained,slot.wrapperContained)); }
 // public yarnwrap.inventory.StackReference of(yarnwrap.entity.LivingEntity entity,yarnwrap.entity.EquipmentSlot slot,java.util.function.Predicate filter) { return new yarnwrap.inventory.StackReference(wrapperContained.of(entity.wrapperContained,slot.wrapperContained,filter)); }
 public boolean set(yarnwrap.item.ItemStack stack) { return wrapperContained.set(stack.wrapperContained); }
+// public boolean method_32333(yarnwrap.item.ItemStack stack) { return wrapperContained.method_32333(stack.wrapperContained); }
+// public boolean method_32334(yarnwrap.item.ItemStack stack) { return wrapperContained.method_32334(stack.wrapperContained); }
 // public yarnwrap.inventory.StackReference of(java.util.function.Supplier getter,java.util.function.Consumer setter) { return new yarnwrap.inventory.StackReference(wrapperContained.of(getter,setter)); }
 
 }

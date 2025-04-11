@@ -7,6 +7,7 @@ public class ShulkerBulletEntityModel { public net.minecraft.client.render.entit
 // public void MAIN(java.lang.String value) { wrapperContained.MAIN = value; }
 // public yarnwrap.client.model.ModelPart bullet() { return new yarnwrap.client.model.ModelPart(wrapperContained.bullet); }
 // public void bullet(yarnwrap.client.model.ModelPart value) { wrapperContained.bullet = value.wrapperContained; }
+public ShulkerBulletEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.ShulkerBulletEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

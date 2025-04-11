@@ -35,7 +35,10 @@ public int OUTPUT_ID() { return wrapperContained.OUTPUT_ID; }
 // public void OUTPUT_START(int value) { wrapperContained.OUTPUT_START = value; }
 // public int OUTPUT_END() { return wrapperContained.OUTPUT_END; }
 // public void OUTPUT_END(int value) { wrapperContained.OUTPUT_END = value; }
+public StonecutterScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.StonecutterScreenHandler(syncId,playerInventory.wrapperContained); }
+public StonecutterScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.StonecutterScreenHandler(syncId,playerInventory.wrapperContained,context.wrapperContained); }
 // public void updateInput(yarnwrap.inventory.Inventory input,yarnwrap.item.ItemStack stack) { wrapperContained.updateInput(input.wrapperContained,stack.wrapperContained); }
+// public void method_17856(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { wrapperContained.method_17856(world.wrapperContained,pos.wrapperContained); }
 public void setContentsChangedListener(java.lang.Runnable contentsChangedListener) { wrapperContained.setContentsChangedListener(contentsChangedListener); }
 public int getSelectedRecipe() { return wrapperContained.getSelectedRecipe(); }
 public java.util.List getAvailableRecipes() { return wrapperContained.getAvailableRecipes(); }

@@ -17,6 +17,7 @@ public class BossBar { public net.minecraft.entity.boss.BossBar wrapperContained
 // // public void color(Object value) { wrapperContained.color = value; }
 // public Object style() { return wrapperContained.style; }
 // // public void style(Object value) { wrapperContained.style = value; }
+// public BossBar(java.util.UUID uuid,yarnwrap.text.Text name,Object color,Object style) { this.wrapperContained = new net.minecraft.entity.boss.BossBar(uuid,name.wrapperContained,color,style); }
 public yarnwrap.entity.boss.BossBar setDarkenSky(boolean darkenSky) { return new yarnwrap.entity.boss.BossBar(wrapperContained.setDarkenSky(darkenSky)); }
 public java.util.UUID getUuid() { return wrapperContained.getUuid(); }
 public void setPercent(float percent) { wrapperContained.setPercent(percent); }

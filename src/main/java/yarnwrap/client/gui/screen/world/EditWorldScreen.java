@@ -29,8 +29,18 @@ public class EditWorldScreen { public net.minecraft.client.gui.screen.world.Edit
 // public void layout(yarnwrap.client.gui.widget.DirectionalLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.TextFieldWidget nameFieldWidget() { return new yarnwrap.client.gui.widget.TextFieldWidget(wrapperContained.nameFieldWidget); }
 // public void nameFieldWidget(yarnwrap.client.gui.widget.TextFieldWidget value) { wrapperContained.nameFieldWidget = value.wrapperContained; }
+// public EditWorldScreen(yarnwrap.client.MinecraftClient client,Object session,java.lang.String levelName,it.unimi.dsi.fastutil.booleans.BooleanConsumer callback) { this.wrapperContained = new net.minecraft.client.gui.screen.world.EditWorldScreen(client.wrapperContained,session,levelName,callback); }
 // public void commit(java.lang.String levelName) { wrapperContained.commit(levelName); }
 // public boolean backupLevel(Object storageSession) { return wrapperContained.backupLevel(storageSession); }
+// public void method_54595(Object backup,yarnwrap.client.MinecraftClient eraseCache) { wrapperContained.method_54595(backup,eraseCache.wrapperContained); }
+// public void method_54596(Object button) { wrapperContained.method_54596(button); }
+// public void method_54598(yarnwrap.client.MinecraftClient button) { wrapperContained.method_54598(button.wrapperContained); }
 // public yarnwrap.client.gui.screen.world.EditWorldScreen create(yarnwrap.client.MinecraftClient client,Object session,it.unimi.dsi.fastutil.booleans.BooleanConsumer callback) { return new yarnwrap.client.gui.screen.world.EditWorldScreen(wrapperContained.create(client.wrapperContained,session,callback)); }
+// public void method_54600(yarnwrap.client.MinecraftClient button) { wrapperContained.method_54600(button.wrapperContained); }
+// public void method_54601(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_54601(button.wrapperContained); }
+// public void method_54602(yarnwrap.client.gui.widget.ButtonWidget name) { wrapperContained.method_54602(name.wrapperContained); }
+// public void method_54603(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_54603(button.wrapperContained); }
+// public void method_54604(yarnwrap.client.gui.screen.world.EditWorldScreen child) { wrapperContained.method_54604(child.wrapperContained); }
+// public void method_54606(Object button) { wrapperContained.method_54606(button); }
 
 }

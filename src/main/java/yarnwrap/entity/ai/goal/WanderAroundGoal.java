@@ -19,6 +19,9 @@ public int DEFAULT_CHANCE() { return wrapperContained.DEFAULT_CHANCE; }
 // public void mob(yarnwrap.entity.mob.PathAwareEntity value) { wrapperContained.mob = value.wrapperContained; }
 // public double speed() { return wrapperContained.speed; }
 // public void speed(double value) { wrapperContained.speed = value; }
+public WanderAroundGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed) { this.wrapperContained = new net.minecraft.entity.ai.goal.WanderAroundGoal(mob.wrapperContained,speed); }
+public WanderAroundGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed,int chance) { this.wrapperContained = new net.minecraft.entity.ai.goal.WanderAroundGoal(mob.wrapperContained,speed,chance); }
+public WanderAroundGoal(yarnwrap.entity.mob.PathAwareEntity entity,double speed,int chance,boolean canDespawn) { this.wrapperContained = new net.minecraft.entity.ai.goal.WanderAroundGoal(entity.wrapperContained,speed,chance,canDespawn); }
 // public yarnwrap.util.math.Vec3d getWanderTarget() { return new yarnwrap.util.math.Vec3d(wrapperContained.getWanderTarget()); }
 public void setChance(int chance) { wrapperContained.setChance(chance); }
 public void ignoreChanceOnce() { wrapperContained.ignoreChanceOnce(); }

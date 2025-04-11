@@ -33,22 +33,30 @@ public class WorldCreator { public net.minecraft.client.gui.screen.world.WorldCr
 // public void savesDirectory(java.nio.file.Path value) { wrapperContained.savesDirectory = value; }
 // public java.lang.String worldDirectoryName() { return wrapperContained.worldDirectoryName; }
 // public void worldDirectoryName(java.lang.String value) { wrapperContained.worldDirectoryName = value; }
+public WorldCreator(java.nio.file.Path savesDirectory,yarnwrap.client.world.GeneratorOptionsHolder generatorOptionsHolder,java.util.Optional defaultWorldType,java.util.OptionalLong seed) { this.wrapperContained = new net.minecraft.client.gui.screen.world.WorldCreator(savesDirectory,generatorOptionsHolder.wrapperContained,defaultWorldType,seed); }
 public void update() { wrapperContained.update(); }
 public void setDifficulty(yarnwrap.world.Difficulty difficulty) { wrapperContained.setDifficulty(difficulty.wrapperContained); }
 public void setGameRules(yarnwrap.world.GameRules gameRules) { wrapperContained.setGameRules(gameRules.wrapperContained); }
 // public boolean updateDataConfiguration(yarnwrap.resource.DataConfiguration dataConfiguration) { return wrapperContained.updateDataConfiguration(dataConfiguration.wrapperContained); }
+// public yarnwrap.world.gen.GeneratorOptions method_48699(yarnwrap.world.gen.GeneratorOptions options) { return new yarnwrap.world.gen.GeneratorOptions(wrapperContained.method_48699(options.wrapperContained)); }
 // public void applyModifier(Object modifier) { wrapperContained.applyModifier(modifier); }
 public void setGeneratorOptionsHolder(yarnwrap.client.world.GeneratorOptionsHolder generatorOptionsHolder) { wrapperContained.setGeneratorOptionsHolder(generatorOptionsHolder.wrapperContained); }
+// public java.util.Optional method_48702(yarnwrap.client.world.GeneratorOptionsHolder key2) { return wrapperContained.method_48702(key2.wrapperContained); }
 // public java.util.Optional getWorldPreset(yarnwrap.client.world.GeneratorOptionsHolder generatorOptionsHolder,java.util.Optional key) { return wrapperContained.getWorldPreset(generatorOptionsHolder.wrapperContained,key); }
 // public void setGameMode(Object gameMode) { wrapperContained.setGameMode(gameMode); }
 // public void setWorldType(Object worldType) { wrapperContained.setWorldType(worldType); }
+// public yarnwrap.world.dimension.DimensionOptionsRegistryHolder method_48706(yarnwrap.registry.entry.RegistryEntry registryManager,Object registryHolder) { return new yarnwrap.world.dimension.DimensionOptionsRegistryHolder(wrapperContained.method_48706(registryManager.wrapperContained,registryHolder)); }
+// public java.util.List method_48707(Object entryList) { return wrapperContained.method_48707(entryList); }
 // public java.util.Optional getWorldPresetList(yarnwrap.registry.Registry registry,yarnwrap.registry.tag.TagKey tag) { return wrapperContained.getWorldPresetList(registry.wrapperContained,tag.wrapperContained); }
 public void setWorldName(java.lang.String worldName) { wrapperContained.setWorldName(worldName); }
+// public boolean method_48711(java.util.List worldTypeList) { return wrapperContained.method_48711(worldTypeList); }
 public void addListener(java.util.function.Consumer listener) { wrapperContained.addListener(listener); }
 public void setCheatsEnabled(boolean cheatsEnabled) { wrapperContained.setCheatsEnabled(cheatsEnabled); }
+// public yarnwrap.world.gen.GeneratorOptions method_48714(boolean options) { return new yarnwrap.world.gen.GeneratorOptions(wrapperContained.method_48714(options)); }
 public java.lang.String getWorldName() { return wrapperContained.getWorldName(); }
 public void setSeed(java.lang.String seed) { wrapperContained.setSeed(seed); }
 public void setGenerateStructures(boolean generateStructures) { wrapperContained.setGenerateStructures(generateStructures); }
+// public yarnwrap.world.gen.GeneratorOptions method_48718(boolean options) { return new yarnwrap.world.gen.GeneratorOptions(wrapperContained.method_48718(options)); }
 public void setBonusChestEnabled(boolean bonusChestEnabled) { wrapperContained.setBonusChestEnabled(bonusChestEnabled); }
 public Object getGameMode() { return wrapperContained.getGameMode(); }
 public yarnwrap.world.Difficulty getDifficulty() { return new yarnwrap.world.Difficulty(wrapperContained.getDifficulty()); }

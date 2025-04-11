@@ -12,8 +12,10 @@ public com.mojang.serialization.MapCodec MAP_CODEC() { return wrapperContained.M
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 // public double value() { return wrapperContained.value(); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.entity.attribute.EntityAttributeModifier fromNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.entity.attribute.EntityAttributeModifier(wrapperContained.fromNbt(nbt.wrapperContained)); }
 public yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt()); }
 public boolean idMatches(yarnwrap.util.Identifier id) { return wrapperContained.idMatches(id.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_60719(Object instance) { return wrapperContained.method_60719(instance); }
 
 }

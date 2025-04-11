@@ -19,12 +19,17 @@ public class RealmsBrokenWorldScreen { public net.minecraft.client.realms.gui.sc
 // public void serverData(yarnwrap.client.realms.dto.RealmsServer value) { wrapperContained.serverData = value.wrapperContained; }
 // public yarnwrap.util.Identifier SLOT_FRAME_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.SLOT_FRAME_TEXTURE); }
 // public void SLOT_FRAME_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SLOT_FRAME_TEXTURE = value.wrapperContained; }
+public RealmsBrokenWorldScreen(yarnwrap.client.gui.screen.Screen parent,long serverId,boolean minigame) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsBrokenWorldScreen(parent.wrapperContained,serverId,minigame); }
 // public void addButtons() { wrapperContained.addButtons(); }
 // public int getFramePositionX(int i) { return wrapperContained.getFramePositionX(i); }
 // public void drawSlotFrame(yarnwrap.client.gui.DrawContext context,int x,int y,int mouseX,int mouseY,boolean activeSlot,java.lang.String slotName,int slotId,long templateId,java.lang.String templateImage,boolean empty) { wrapperContained.drawSlotFrame(context.wrapperContained,x,y,mouseX,mouseY,activeSlot,slotName,slotId,templateId,templateImage,empty); }
 // public void fetchServerData(long worldId) { wrapperContained.fetchServerData(worldId); }
 // public void downloadWorld(int slotId) { wrapperContained.downloadWorld(slotId); }
 // public boolean isMinigame() { return wrapperContained.isMinigame(); }
+// public void method_25120(int button) { wrapperContained.method_25120(button); }
+// public void method_25121(int successful) { wrapperContained.method_25121(successful); }
+// public void method_25122(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25122(button.wrapperContained); }
 public void play() { wrapperContained.play(); }
+// public void method_25124(int button) { wrapperContained.method_25124(button); }
 
 }

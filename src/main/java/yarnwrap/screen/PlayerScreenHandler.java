@@ -49,6 +49,7 @@ public boolean onServer() { return wrapperContained.onServer; }
 // public void craftingInput(yarnwrap.inventory.RecipeInputInventory value) { wrapperContained.craftingInput = value.wrapperContained; }
 // public net.minecraft.entity.EquipmentSlot[] EQUIPMENT_SLOT_ORDER() { return wrapperContained.EQUIPMENT_SLOT_ORDER; }
 // public void EQUIPMENT_SLOT_ORDER(net.minecraft.entity.EquipmentSlot[] value) { wrapperContained.EQUIPMENT_SLOT_ORDER = value; }
+public PlayerScreenHandler(yarnwrap.entity.player.PlayerInventory inventory,boolean onServer,yarnwrap.entity.player.PlayerEntity owner) { this.wrapperContained = new net.minecraft.screen.PlayerScreenHandler(inventory.wrapperContained,onServer,owner.wrapperContained); }
 public yarnwrap.inventory.RecipeInputInventory getCraftingInput() { return new yarnwrap.inventory.RecipeInputInventory(wrapperContained.getCraftingInput()); }
 public boolean isInHotbar(int slot) { return wrapperContained.isInHotbar(slot); }
 

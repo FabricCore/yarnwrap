@@ -17,7 +17,9 @@ public yarnwrap.world.chunk.ChunkStatus targetStatus() { return new yarnwrap.wor
 // public void chunks(yarnwrap.util.collection.BoundedRegionArray value) { wrapperContained.chunks = value.wrapperContained; }
 // public boolean allowGeneration() { return wrapperContained.allowGeneration; }
 // public void allowGeneration(boolean value) { wrapperContained.allowGeneration = value; }
+// public ChunkLoader(yarnwrap.world.ChunkLoadingManager chunkLoadingManager,yarnwrap.world.chunk.ChunkStatus targetStatus,yarnwrap.util.math.ChunkPos pos,yarnwrap.util.collection.BoundedRegionArray chunks) { this.wrapperContained = new net.minecraft.world.chunk.ChunkLoader(chunkLoadingManager.wrapperContained,targetStatus.wrapperContained,pos.wrapperContained,chunks.wrapperContained); }
 public java.util.concurrent.CompletableFuture run() { return wrapperContained.run(); }
+// public yarnwrap.world.chunk.AbstractChunkHolder method_60425(yarnwrap.world.ChunkLoadingManager x,int z) { return new yarnwrap.world.chunk.AbstractChunkHolder(wrapperContained.method_60425(x.wrapperContained,z)); }
 public yarnwrap.world.chunk.ChunkLoader create(yarnwrap.world.ChunkLoadingManager chunkLoadingManager,yarnwrap.world.chunk.ChunkStatus targetStatus,yarnwrap.util.math.ChunkPos pos) { return new yarnwrap.world.chunk.ChunkLoader(wrapperContained.create(chunkLoadingManager.wrapperContained,targetStatus.wrapperContained,pos.wrapperContained)); }
 // public void loadAll(yarnwrap.world.chunk.ChunkStatus targetStatus,boolean allowGeneration) { wrapperContained.loadAll(targetStatus.wrapperContained,allowGeneration); }
 // public boolean load(yarnwrap.world.chunk.ChunkStatus targetStatus,boolean allowGeneration,yarnwrap.world.chunk.AbstractChunkHolder chunkHolder) { return wrapperContained.load(targetStatus.wrapperContained,allowGeneration,chunkHolder.wrapperContained); }

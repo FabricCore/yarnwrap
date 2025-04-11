@@ -9,6 +9,7 @@ public class CyclingSlotIcon { public net.minecraft.client.gui.screen.ingame.Cyc
 // public void timer(int value) { wrapperContained.timer = value; }
 // public int currentIndex() { return wrapperContained.currentIndex; }
 // public void currentIndex(int value) { wrapperContained.currentIndex = value; }
+public CyclingSlotIcon(int slotId) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.CyclingSlotIcon(slotId); }
 // public float computeAlpha(float delta) { return wrapperContained.computeAlpha(delta); }
 public void render(yarnwrap.screen.ScreenHandler screenHandler,yarnwrap.client.gui.DrawContext context,float delta,int x,int y) { wrapperContained.render(screenHandler.wrapperContained,context.wrapperContained,delta,x,y); }
 // public void drawIcon(yarnwrap.screen.slot.Slot slot,yarnwrap.util.Identifier texture,float alpha,yarnwrap.client.gui.DrawContext context,int x,int y) { wrapperContained.drawIcon(slot.wrapperContained,texture.wrapperContained,alpha,context.wrapperContained,x,y); }

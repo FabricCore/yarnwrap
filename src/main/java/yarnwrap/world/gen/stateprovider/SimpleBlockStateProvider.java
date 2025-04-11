@@ -5,5 +5,6 @@ public class SimpleBlockStateProvider { public net.minecraft.world.gen.stateprov
 // public void state(yarnwrap.block.BlockState value) { wrapperContained.state = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public SimpleBlockStateProvider(yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.world.gen.stateprovider.SimpleBlockStateProvider(state.wrapperContained); }
 
 }

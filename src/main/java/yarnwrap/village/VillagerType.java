@@ -19,7 +19,9 @@ public yarnwrap.village.VillagerType TAIGA() { return new yarnwrap.village.Villa
 // public void BIOME_TO_TYPE(java.util.Map value) { wrapperContained.BIOME_TO_TYPE = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// public VillagerType(java.lang.String name) { this.wrapperContained = new net.minecraft.village.VillagerType(name); }
 public yarnwrap.village.VillagerType forBiome(yarnwrap.registry.entry.RegistryEntry biomeEntry) { return new yarnwrap.village.VillagerType(wrapperContained.forBiome(biomeEntry.wrapperContained)); }
 // public yarnwrap.village.VillagerType create(java.lang.String id) { return new yarnwrap.village.VillagerType(wrapperContained.create(id)); }
+// public void method_16932(java.util.HashMap map) { wrapperContained.method_16932(map); }
 
 }

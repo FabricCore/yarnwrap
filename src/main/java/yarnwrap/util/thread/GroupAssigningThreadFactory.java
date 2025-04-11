@@ -9,5 +9,8 @@ public class GroupAssigningThreadFactory { public net.minecraft.util.thread.Grou
 // public void nextIndex(java.util.concurrent.atomic.AtomicInteger value) { wrapperContained.nextIndex = value; }
 // public java.lang.String prefix() { return wrapperContained.prefix; }
 // public void prefix(java.lang.String value) { wrapperContained.prefix = value; }
+public GroupAssigningThreadFactory(java.lang.String name) { this.wrapperContained = new net.minecraft.util.thread.GroupAssigningThreadFactory(name); }
+// public void method_34995(java.lang.Runnable thread,java.lang.Thread throwable) { wrapperContained.method_34995(thread,throwable); }
+public java.lang.Thread newThread(java.lang.Runnable r) { return wrapperContained.newThread(r); }
 
 }

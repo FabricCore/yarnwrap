@@ -38,7 +38,9 @@ public void updateRemovedObjective(yarnwrap.scoreboard.ScoreboardObjective objec
 public void updateExistingObjective(yarnwrap.scoreboard.ScoreboardObjective objective) { wrapperContained.updateExistingObjective(objective.wrapperContained); }
 // public void updateScore(yarnwrap.scoreboard.ScoreHolder scoreHolder,yarnwrap.scoreboard.ScoreboardObjective objective,yarnwrap.scoreboard.ScoreboardScore score) { wrapperContained.updateScore(scoreHolder.wrapperContained,objective.wrapperContained,score.wrapperContained); }
 public java.util.Collection getKnownScoreHolders() { return wrapperContained.getKnownScoreHolders(); }
+// public java.util.List method_1179(java.lang.Object criterion2) { return wrapperContained.method_1179(criterion2); }
 public yarnwrap.scoreboard.ScoreAccess getOrCreateScore(yarnwrap.scoreboard.ScoreHolder scoreHolder,yarnwrap.scoreboard.ScoreboardObjective objective) { return new yarnwrap.scoreboard.ScoreAccess(wrapperContained.getOrCreateScore(scoreHolder.wrapperContained,objective.wrapperContained)); }
+// public void method_1182(java.util.function.Consumer objective) { wrapperContained.method_1182(objective); }
 public java.util.Collection getScoreboardEntries(yarnwrap.scoreboard.ScoreboardObjective objective) { return wrapperContained.getScoreboardEntries(objective.wrapperContained); }
 public void updateObjective(yarnwrap.scoreboard.ScoreboardObjective objective) { wrapperContained.updateObjective(objective.wrapperContained); }
 // public void readNbt(yarnwrap.nbt.NbtList list,Object registries) { wrapperContained.readNbt(list.wrapperContained,registries); }
@@ -50,9 +52,14 @@ public void removeObjective(yarnwrap.scoreboard.ScoreboardObjective objective) {
 public boolean clearTeam(java.lang.String scoreHolderName) { return wrapperContained.clearTeam(scoreHolderName); }
 public java.util.Collection getTeamNames() { return wrapperContained.getTeamNames(); }
 // public void resetScore(yarnwrap.scoreboard.ScoreHolder scoreHolder,yarnwrap.scoreboard.ScoreboardObjective objective) { wrapperContained.resetScore(scoreHolder.wrapperContained,objective.wrapperContained); }
+// public void method_55424(yarnwrap.scoreboard.ScoreboardObjective scoreHolderName,java.util.List scores) { wrapperContained.method_55424(scoreHolderName.wrapperContained,scores); }
 public yarnwrap.scoreboard.ScoreAccess getOrCreateScore(yarnwrap.scoreboard.ScoreHolder scoreHolder,yarnwrap.scoreboard.ScoreboardObjective objective,boolean forceWritable) { return new yarnwrap.scoreboard.ScoreAccess(wrapperContained.getOrCreateScore(scoreHolder.wrapperContained,objective.wrapperContained,forceWritable)); }
+// public void method_55426(Object objective,java.lang.String score) { wrapperContained.method_55426(objective,score); }
+// public void method_55427(org.apache.commons.lang3.mutable.MutableBoolean score) { wrapperContained.method_55427(score); }
+// public void method_55428(Object name,yarnwrap.nbt.NbtList scores) { wrapperContained.method_55428(name,scores.wrapperContained); }
 public void removeScores(yarnwrap.scoreboard.ScoreHolder scoreHolder) { wrapperContained.removeScores(scoreHolder.wrapperContained); }
 public yarnwrap.scoreboard.ReadableScoreboardScore getScore(yarnwrap.scoreboard.ScoreHolder scoreHolder,yarnwrap.scoreboard.ScoreboardObjective objective) { return new yarnwrap.scoreboard.ReadableScoreboardScore(wrapperContained.getScore(scoreHolder.wrapperContained,objective.wrapperContained)); }
 // public yarnwrap.scoreboard.Scores getScores(java.lang.String scoreHolderName) { return new yarnwrap.scoreboard.Scores(wrapperContained.getScores(scoreHolderName)); }
+// public yarnwrap.scoreboard.Scores method_55432(java.lang.String name) { return new yarnwrap.scoreboard.Scores(wrapperContained.method_55432(name)); }
 
 }

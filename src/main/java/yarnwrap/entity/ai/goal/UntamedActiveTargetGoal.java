@@ -3,5 +3,6 @@ public class UntamedActiveTargetGoal { public net.minecraft.entity.ai.goal.Untam
 
 // public yarnwrap.entity.passive.TameableEntity tameable() { return new yarnwrap.entity.passive.TameableEntity(wrapperContained.tameable); }
 // public void tameable(yarnwrap.entity.passive.TameableEntity value) { wrapperContained.tameable = value.wrapperContained; }
+public UntamedActiveTargetGoal(yarnwrap.entity.passive.TameableEntity tameable,java.lang.Class targetClass,boolean checkVisibility,java.util.function.Predicate targetPredicate) { this.wrapperContained = new net.minecraft.entity.ai.goal.UntamedActiveTargetGoal(tameable.wrapperContained,targetClass,checkVisibility,targetPredicate); }
 
 }

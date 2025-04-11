@@ -11,6 +11,7 @@ public yarnwrap.entity.passive.Cracks WOLF_ARMOR() { return new yarnwrap.entity.
 // public void mediumCrackThreshold(float value) { wrapperContained.mediumCrackThreshold = value; }
 // public float highCrackThreshold() { return wrapperContained.highCrackThreshold; }
 // public void highCrackThreshold(float value) { wrapperContained.highCrackThreshold = value; }
+// public Cracks(float lowCrackThreshold,float mediumCrackThreshold,float highCrackThreshold) { this.wrapperContained = new net.minecraft.entity.passive.Cracks(lowCrackThreshold,mediumCrackThreshold,highCrackThreshold); }
 public Object getCrackLevel(float health) { return wrapperContained.getCrackLevel(health); }
 public Object getCrackLevel(int currentDamage,int maxDamage) { return wrapperContained.getCrackLevel(currentDamage,maxDamage); }
 public Object getCrackLevel(yarnwrap.item.ItemStack stack) { return wrapperContained.getCrackLevel(stack.wrapperContained); }

@@ -5,8 +5,10 @@ public class LootContextPredicateValidator { public net.minecraft.predicate.enti
 // public void errorReporter(yarnwrap.util.ErrorReporter value) { wrapperContained.errorReporter = value.wrapperContained; }
 // public Object conditionsLookup() { return wrapperContained.conditionsLookup; }
 // // public void conditionsLookup(Object value) { wrapperContained.conditionsLookup = value; }
+// public LootContextPredicateValidator(yarnwrap.util.ErrorReporter errorReporter,Object conditionsLookup) { this.wrapperContained = new net.minecraft.predicate.entity.LootContextPredicateValidator(errorReporter.wrapperContained,conditionsLookup); }
 public void validate(yarnwrap.predicate.entity.LootContextPredicate predicate,yarnwrap.loot.context.LootContextType type,java.lang.String path) { wrapperContained.validate(predicate.wrapperContained,type.wrapperContained,path); }
 public void validateEntityPredicate(yarnwrap.predicate.entity.LootContextPredicate predicate,java.lang.String path) { wrapperContained.validateEntityPredicate(predicate.wrapperContained,path); }
+// public void method_54963(java.lang.String p) { wrapperContained.method_54963(p); }
 public void validate(java.util.List predicates,yarnwrap.loot.context.LootContextType type,java.lang.String path) { wrapperContained.validate(predicates,type.wrapperContained,path); }
 public void validateEntityPredicates(java.util.List predicates,java.lang.String path) { wrapperContained.validateEntityPredicates(predicates,path); }
 public void validateEntityPredicate(java.util.Optional predicate,java.lang.String path) { wrapperContained.validateEntityPredicate(predicate,path); }

@@ -131,6 +131,7 @@ public yarnwrap.block.MapColor RAW_IRON_PINK() { return new yarnwrap.block.MapCo
 // public void RAW_IRON_PINK(yarnwrap.block.MapColor value) { wrapperContained.RAW_IRON_PINK = value.wrapperContained; }
 public yarnwrap.block.MapColor LICHEN_GREEN() { return new yarnwrap.block.MapColor(wrapperContained.LICHEN_GREEN); }
 // public void LICHEN_GREEN(yarnwrap.block.MapColor value) { wrapperContained.LICHEN_GREEN = value.wrapperContained; }
+// public MapColor(int id,int color) { this.wrapperContained = new net.minecraft.block.MapColor(id,color); }
 // public int getRenderColor(Object brightness) { return wrapperContained.getRenderColor(brightness); }
 public yarnwrap.block.MapColor get(int id) { return new yarnwrap.block.MapColor(wrapperContained.get(id)); }
 public int getRenderColor(int colorByte) { return wrapperContained.getRenderColor(colorByte); }

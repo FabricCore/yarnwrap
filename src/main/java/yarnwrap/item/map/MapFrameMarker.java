@@ -7,6 +7,7 @@ public class MapFrameMarker { public net.minecraft.item.map.MapFrameMarker wrapp
 // public void rotation(int value) { wrapperContained.rotation = value; }
 // public yarnwrap.util.math.BlockPos pos() { return new yarnwrap.util.math.BlockPos(wrapperContained.pos); }
 // public void pos(yarnwrap.util.math.BlockPos value) { wrapperContained.pos = value.wrapperContained; }
+public MapFrameMarker(yarnwrap.util.math.BlockPos pos,int rotation,int entityId) { this.wrapperContained = new net.minecraft.item.map.MapFrameMarker(pos.wrapperContained,rotation,entityId); }
 public java.lang.String getKey(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getKey(pos.wrapperContained); }
 public java.lang.String getKey() { return wrapperContained.getKey(); }
 public int getRotation() { return wrapperContained.getRotation(); }

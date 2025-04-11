@@ -15,6 +15,7 @@ public class CroppedVoxelSet { public net.minecraft.util.shape.CroppedVoxelSet w
 // public void parent(yarnwrap.util.shape.VoxelSet value) { wrapperContained.parent = value.wrapperContained; }
 // public int maxZ() { return wrapperContained.maxZ; }
 // public void maxZ(int value) { wrapperContained.maxZ = value; }
+// public CroppedVoxelSet(yarnwrap.util.shape.VoxelSet parent,int minX,int minY,int minZ,int maxX,int maxY,int maxZ) { this.wrapperContained = new net.minecraft.util.shape.CroppedVoxelSet(parent.wrapperContained,minX,minY,minZ,maxX,maxY,maxZ); }
 // public int clamp(Object axis,int value) { return wrapperContained.clamp(axis,value); }
 
 }

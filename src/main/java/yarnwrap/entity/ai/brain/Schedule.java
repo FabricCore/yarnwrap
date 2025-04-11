@@ -14,7 +14,9 @@ public yarnwrap.entity.ai.brain.Schedule VILLAGER_DEFAULT() { return new yarnwra
 public int WORK_TIME() { return wrapperContained.WORK_TIME; }
 // public void WORK_TIME(int value) { wrapperContained.WORK_TIME = value; }
 public yarnwrap.entity.ai.brain.Activity getActivityForTime(int time) { return new yarnwrap.entity.ai.brain.Activity(wrapperContained.getActivityForTime(time)); }
+// public double method_19214(int rule) { return wrapperContained.method_19214(rule); }
 // public void addActivity(yarnwrap.entity.ai.brain.Activity activity) { wrapperContained.addActivity(activity.wrapperContained); }
+// public boolean method_19216(yarnwrap.entity.ai.brain.Activity rule) { return wrapperContained.method_19216(rule.wrapperContained); }
 // public yarnwrap.entity.ai.brain.ScheduleBuilder register(java.lang.String id) { return new yarnwrap.entity.ai.brain.ScheduleBuilder(wrapperContained.register(id)); }
 // public yarnwrap.entity.ai.brain.ScheduleRule getRule(yarnwrap.entity.ai.brain.Activity activity) { return new yarnwrap.entity.ai.brain.ScheduleRule(wrapperContained.getRule(activity.wrapperContained)); }
 // public java.util.List getOtherRules(yarnwrap.entity.ai.brain.Activity activity) { return wrapperContained.getOtherRules(activity.wrapperContained); }

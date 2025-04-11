@@ -19,6 +19,7 @@ public void charge(yarnwrap.entity.Entity charger,yarnwrap.world.World world,yar
 public boolean isNether(yarnwrap.world.World world) { return wrapperContained.isNether(world.wrapperContained); }
 // public boolean isChargeItem(yarnwrap.item.ItemStack stack) { return wrapperContained.isChargeItem(stack.wrapperContained); }
 // public boolean canCharge(yarnwrap.block.BlockState state) { return wrapperContained.canCharge(state.wrapperContained); }
+// public boolean method_29559(yarnwrap.world.World pos) { return wrapperContained.method_29559(pos.wrapperContained); }
 // public boolean hasStillWater(yarnwrap.util.math.BlockPos pos,yarnwrap.world.World world) { return wrapperContained.hasStillWater(pos.wrapperContained,world.wrapperContained); }
 // public void explode(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos explodedPos) { wrapperContained.explode(state.wrapperContained,world.wrapperContained,explodedPos.wrapperContained); }
 // public java.util.Optional findRespawnPosition(yarnwrap.entity.EntityType entity,yarnwrap.world.CollisionView world,yarnwrap.util.math.BlockPos pos,boolean ignoreInvalidPos) { return wrapperContained.findRespawnPosition(entity.wrapperContained,world.wrapperContained,pos.wrapperContained,ignoreInvalidPos); }

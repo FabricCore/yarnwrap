@@ -9,6 +9,7 @@ public class AtlasSprite { public net.minecraft.client.texture.atlas.AtlasSprite
 // public void image(java.util.concurrent.atomic.AtomicReference value) { wrapperContained.image = value; }
 // public java.util.concurrent.atomic.AtomicInteger regionCount() { return wrapperContained.regionCount; }
 // public void regionCount(java.util.concurrent.atomic.AtomicInteger value) { wrapperContained.regionCount = value; }
+public AtlasSprite(yarnwrap.util.Identifier id,yarnwrap.resource.Resource resource,int regionCount) { this.wrapperContained = new net.minecraft.client.texture.atlas.AtlasSprite(id.wrapperContained,resource.wrapperContained,regionCount); }
 // public yarnwrap.client.texture.NativeImage read() { return new yarnwrap.client.texture.NativeImage(wrapperContained.read()); }
 public void close() { wrapperContained.close(); }
 

@@ -15,6 +15,8 @@ public int NO_MAX_COUNT() { return wrapperContained.NO_MAX_COUNT; }
 // // public void type(Object value) { wrapperContained.type = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// // public EquipmentSlot(java.lang.String type,int entityId,Object maxCount,int armorStandId,int name) { this.wrapperContained = new net.minecraft.entity.EquipmentSlot(type,entityId,maxCount,armorStandId,name); }
+// // public EquipmentSlot(java.lang.String type,int entityId,Object armorStandId,int name) { this.wrapperContained = new net.minecraft.entity.EquipmentSlot(type,entityId,armorStandId,name); }
 public int getOffsetEntitySlotId(int offset) { return wrapperContained.getOffsetEntitySlotId(offset); }
 public boolean isArmorSlot() { return wrapperContained.isArmorSlot(); }
 public java.lang.String getName() { return wrapperContained.getName(); }

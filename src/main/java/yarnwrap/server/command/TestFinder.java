@@ -13,6 +13,7 @@ public class TestFinder { public net.minecraft.server.command.TestFinder wrapper
 // public void commandSource(yarnwrap.server.command.ServerCommandSource value) { wrapperContained.commandSource = value.wrapperContained; }
 // public java.util.function.Function runnerFactory() { return wrapperContained.runnerFactory; }
 // public void runnerFactory(java.util.function.Function value) { wrapperContained.runnerFactory = value; }
+// public TestFinder(yarnwrap.server.command.ServerCommandSource commandSource,java.util.function.Function runnerFactory,yarnwrap.test.TestFunctionFinder testFunctionFinder,yarnwrap.test.StructureBlockFinder structureBlockPosFinder) { this.wrapperContained = new net.minecraft.server.command.TestFinder(commandSource.wrapperContained,runnerFactory,testFunctionFinder.wrapperContained,structureBlockPosFinder.wrapperContained); }
 public yarnwrap.server.command.ServerCommandSource getCommandSource() { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.getCommandSource()); }
 // public java.lang.Object createRunner() { return wrapperContained.createRunner(); }
 

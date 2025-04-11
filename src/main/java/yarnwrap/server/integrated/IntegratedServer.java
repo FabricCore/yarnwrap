@@ -17,7 +17,10 @@ public class IntegratedServer { public net.minecraft.server.integrated.Integrate
 // public void lanPort(int value) { wrapperContained.lanPort = value; }
 // public boolean paused() { return wrapperContained.paused; }
 // public void paused(boolean value) { wrapperContained.paused = value; }
+// public IntegratedServer(java.lang.Thread serverThread,yarnwrap.client.MinecraftClient client,Object session,yarnwrap.resource.ResourcePackManager dataPackManager,yarnwrap.server.SaveLoader saveLoader,yarnwrap.util.ApiServices apiServices,yarnwrap.server.WorldGenerationProgressListenerFactory worldGenerationProgressListenerFactory) { this.wrapperContained = new net.minecraft.server.integrated.IntegratedServer(serverThread,client.wrapperContained,session,dataPackManager.wrapperContained,saveLoader.wrapperContained,apiServices.wrapperContained,worldGenerationProgressListenerFactory.wrapperContained); }
 // public void incrementTotalWorldTimeStat() { wrapperContained.incrementTotalWorldTimeStat(); }
+// public void method_48006(yarnwrap.network.encryption.PlayerKeyPair keys) { wrapperContained.method_48006(keys.wrapperContained); }
+// public void method_48007(java.util.Optional keyPair) { wrapperContained.method_48007(keyPair); }
 public void setLocalPlayerUuid(java.util.UUID localPlayerUuid) { wrapperContained.setLocalPlayerUuid(localPlayerUuid); }
 // public void checkLowDiskSpaceWarning() { wrapperContained.checkLowDiskSpaceWarning(); }
 

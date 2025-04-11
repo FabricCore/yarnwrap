@@ -9,6 +9,7 @@ public int TIMEOUT() { return wrapperContained.TIMEOUT; }
 // public void debugHud(yarnwrap.client.gui.hud.DebugHud value) { wrapperContained.debugHud = value.wrapperContained; }
 // public java.util.EnumMap lastTime() { return wrapperContained.lastTime; }
 // public void lastTime(java.util.EnumMap value) { wrapperContained.lastTime = value; }
+public DebugSampleSubscriber(yarnwrap.client.network.ClientPlayNetworkHandler handler,yarnwrap.client.gui.hud.DebugHud hud) { this.wrapperContained = new net.minecraft.client.network.DebugSampleSubscriber(handler.wrapperContained,hud.wrapperContained); }
 public void tick() { wrapperContained.tick(); }
 // public void subscribe(yarnwrap.util.profiler.log.DebugSampleType type) { wrapperContained.subscribe(type.wrapperContained); }
 

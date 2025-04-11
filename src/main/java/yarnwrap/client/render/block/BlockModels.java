@@ -5,6 +5,7 @@ public class BlockModels { public net.minecraft.client.render.block.BlockModels 
 // public void models(java.util.Map value) { wrapperContained.models = value; }
 // public yarnwrap.client.render.model.BakedModelManager modelManager() { return new yarnwrap.client.render.model.BakedModelManager(wrapperContained.modelManager); }
 // public void modelManager(yarnwrap.client.render.model.BakedModelManager value) { wrapperContained.modelManager = value.wrapperContained; }
+public BlockModels(yarnwrap.client.render.model.BakedModelManager modelManager) { this.wrapperContained = new net.minecraft.client.render.block.BlockModels(modelManager.wrapperContained); }
 public yarnwrap.client.render.model.BakedModelManager getModelManager() { return new yarnwrap.client.render.model.BakedModelManager(wrapperContained.getModelManager()); }
 // public java.lang.String propertyValueToString(yarnwrap.state.property.Property property,java.lang.Comparable value) { return wrapperContained.propertyValueToString(property.wrapperContained,value); }
 public yarnwrap.client.render.model.BakedModel getModel(yarnwrap.block.BlockState state) { return new yarnwrap.client.render.model.BakedModel(wrapperContained.getModel(state.wrapperContained)); }

@@ -15,6 +15,8 @@ public int UPDATE_PLAYER_INVENTORY_SYNC_ID() { return wrapperContained.UPDATE_PL
 // public void revision(int value) { wrapperContained.revision = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public ScreenHandlerSlotUpdateS2CPacket(int syncId,int revision,int slot,yarnwrap.item.ItemStack stack) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket(syncId,revision,slot,stack.wrapperContained); }
+// public ScreenHandlerSlotUpdateS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket(buf.wrapperContained); }
 public yarnwrap.item.ItemStack getStack() { return new yarnwrap.item.ItemStack(wrapperContained.getStack()); }
 public int getSlot() { return wrapperContained.getSlot(); }
 public int getSyncId() { return wrapperContained.getSyncId(); }

@@ -19,6 +19,7 @@ public class VertexBuffer { public net.minecraft.client.gl.VertexBuffer wrapperC
 // // public void sharedSequentialIndexBuffer(Object value) { wrapperContained.sharedSequentialIndexBuffer = value; }
 // public Object usage() { return wrapperContained.usage; }
 // // public void usage(Object value) { wrapperContained.usage = value; }
+// public VertexBuffer(Object usage) { this.wrapperContained = new net.minecraft.client.gl.VertexBuffer(usage); }
 public void upload(yarnwrap.client.render.BuiltBuffer data) { wrapperContained.upload(data.wrapperContained); }
 public void bind() { wrapperContained.bind(); }
 public void unbind() { wrapperContained.unbind(); }

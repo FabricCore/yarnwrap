@@ -5,5 +5,7 @@ public class DecoderHandler { public net.minecraft.network.handler.DecoderHandle
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public yarnwrap.network.NetworkState state() { return new yarnwrap.network.NetworkState(wrapperContained.state); }
 // public void state(yarnwrap.network.NetworkState value) { wrapperContained.state = value.wrapperContained; }
+public DecoderHandler(yarnwrap.network.NetworkState state) { this.wrapperContained = new net.minecraft.network.handler.DecoderHandler(state.wrapperContained); }
+// public void decode(io.netty.channel.ChannelHandlerContext context,io.netty.buffer.ByteBuf buf,java.util.List objects) { wrapperContained.decode(context,buf,objects); }
 
 }

@@ -81,8 +81,14 @@ public float getLerpProgress(float delta) { return wrapperContained.getLerpProgr
 // public yarnwrap.util.math.AffineTransformation getTransformation(yarnwrap.entity.data.DataTracker dataTracker) { return new yarnwrap.util.math.AffineTransformation(wrapperContained.getTransformation(dataTracker.wrapperContained)); }
 // public void setBrightness(yarnwrap.entity.decoration.Brightness brightness) { wrapperContained.setBrightness(brightness.wrapperContained); }
 // public void setBillboardMode(Object billboardMode) { wrapperContained.setBillboardMode(billboardMode); }
+// public void method_48848(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_48848(pair); }
 // public void setTransformation(yarnwrap.util.math.AffineTransformation transformation) { wrapperContained.setTransformation(transformation.wrapperContained); }
+// public void method_48851(yarnwrap.nbt.NbtCompound brightness) { wrapperContained.method_48851(brightness.wrapperContained); }
+// public void method_48855(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_48855(pair); }
+// public void method_48856(yarnwrap.nbt.NbtCompound billboard) { wrapperContained.method_48856(billboard.wrapperContained); }
 // public void setGlowColorOverride(int glowColorOverride) { wrapperContained.setGlowColorOverride(glowColorOverride); }
+// public void method_48859(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_48859(pair); }
+// public void method_48860(yarnwrap.nbt.NbtCompound transformations) { wrapperContained.method_48860(transformations.wrapperContained); }
 // public void setViewRange(float viewRange) { wrapperContained.setViewRange(viewRange); }
 // public void setShadowRadius(float shadowRadius) { wrapperContained.setShadowRadius(shadowRadius); }
 // public Object getBillboardMode() { return wrapperContained.getBillboardMode(); }

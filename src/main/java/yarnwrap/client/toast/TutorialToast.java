@@ -27,6 +27,7 @@ public int PROGRESS_BAR_Y() { return wrapperContained.PROGRESS_BAR_Y; }
 // public void PROGRESS_BAR_Y(int value) { wrapperContained.PROGRESS_BAR_Y = value; }
 // public yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.TEXTURE); }
 // public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
+// public TutorialToast(Object type,yarnwrap.text.Text title,yarnwrap.text.Text description,boolean hasProgressBar) { this.wrapperContained = new net.minecraft.client.toast.TutorialToast(type,title.wrapperContained,description.wrapperContained,hasProgressBar); }
 public void setProgress(float progress) { wrapperContained.setProgress(progress); }
 public void hide() { wrapperContained.hide(); }
 

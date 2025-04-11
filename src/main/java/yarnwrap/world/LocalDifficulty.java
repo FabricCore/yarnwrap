@@ -5,6 +5,7 @@ public class LocalDifficulty { public net.minecraft.world.LocalDifficulty wrappe
 // public void globalDifficulty(yarnwrap.world.Difficulty value) { wrapperContained.globalDifficulty = value.wrapperContained; }
 // public float localDifficulty() { return wrapperContained.localDifficulty; }
 // public void localDifficulty(float value) { wrapperContained.localDifficulty = value; }
+public LocalDifficulty(yarnwrap.world.Difficulty difficulty,long timeOfDay,long inhabitedTime,float moonSize) { this.wrapperContained = new net.minecraft.world.LocalDifficulty(difficulty.wrapperContained,timeOfDay,inhabitedTime,moonSize); }
 public boolean isAtLeastHard() { return wrapperContained.isAtLeastHard(); }
 public yarnwrap.world.Difficulty getGlobalDifficulty() { return new yarnwrap.world.Difficulty(wrapperContained.getGlobalDifficulty()); }
 public boolean isHarderThan(float difficulty) { return wrapperContained.isHarderThan(difficulty); }

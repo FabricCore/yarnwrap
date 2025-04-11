@@ -33,6 +33,7 @@ public class SpiderEntityModel { public net.minecraft.client.render.entity.model
 // public void LEFT_MIDDLE_HIND_LEG(java.lang.String value) { wrapperContained.LEFT_MIDDLE_HIND_LEG = value; }
 // public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
+public SpiderEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.SpiderEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

@@ -19,5 +19,6 @@ public boolean canAttachTo(yarnwrap.world.WorldView world,yarnwrap.block.BlockSt
 public boolean canAttachAt(yarnwrap.block.BlockState state,yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.canAttachAt(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
 // public boolean shouldTryAttaching(yarnwrap.block.BlockState state,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.hit.BlockHitResult hitResult,yarnwrap.block.entity.SignBlockEntity sign,yarnwrap.item.ItemStack stack) { return wrapperContained.shouldTryAttaching(state.wrapperContained,player.wrapperContained,hitResult.wrapperContained,sign.wrapperContained,stack.wrapperContained); }
 // public boolean isHitOnFacingAxis(yarnwrap.util.hit.BlockHitResult hitResult,yarnwrap.block.BlockState state) { return wrapperContained.isHitOnFacingAxis(hitResult.wrapperContained,state.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_54063(Object instance) { return wrapperContained.method_54063(instance); }
 
 }

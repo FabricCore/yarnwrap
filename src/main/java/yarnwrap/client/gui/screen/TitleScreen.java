@@ -23,13 +23,23 @@ public class TitleScreen { public net.minecraft.client.gui.screen.TitleScreen wr
 // public void NARRATOR_SCREEN_TITLE(yarnwrap.text.Text value) { wrapperContained.NARRATOR_SCREEN_TITLE = value.wrapperContained; }
 // public float backgroundAlpha() { return wrapperContained.backgroundAlpha; }
 // public void backgroundAlpha(float value) { wrapperContained.backgroundAlpha = value; }
+public TitleScreen(boolean doBackgroundFade) { this.wrapperContained = new net.minecraft.client.gui.screen.TitleScreen(doBackgroundFade); }
+public TitleScreen(boolean doBackgroundFade,yarnwrap.client.gui.LogoDrawer logoDrawer) { this.wrapperContained = new net.minecraft.client.gui.screen.TitleScreen(doBackgroundFade,logoDrawer.wrapperContained); }
 public java.util.concurrent.CompletableFuture loadTexturesAsync(yarnwrap.client.texture.TextureManager textureManager,java.util.concurrent.Executor executor) { return wrapperContained.loadTexturesAsync(textureManager.wrapperContained,executor); }
+// public void method_19857(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19857(button.wrapperContained); }
+// public void method_19858(boolean button) { wrapperContained.method_19858(button); }
 // public void onMultiplayerButtonPressed(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.onMultiplayerButtonPressed(button.wrapperContained); }
+// public void method_19861(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19861(button.wrapperContained); }
+// public void method_19862(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19862(button.wrapperContained); }
+// public void method_19863(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19863(button.wrapperContained); }
+// public void method_19864(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19864(button.wrapperContained); }
+// public void method_20109(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_20109(button.wrapperContained); }
 // public void onDemoDeletionConfirmed(boolean delete) { wrapperContained.onDemoDeletionConfirmed(delete); }
 // public void initWidgetsNormal(int y,int spacingY) { wrapperContained.initWidgetsNormal(y,spacingY); }
 // public void initWidgetsDemo(int y,int spacingY) { wrapperContained.initWidgetsDemo(y,spacingY); }
 // public boolean isRealmsNotificationsGuiDisplayed() { return wrapperContained.isRealmsNotificationsGuiDisplayed(); }
 // public boolean canReadDemoWorldData() { return wrapperContained.canReadDemoWorldData(); }
+// public void method_41198(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_41198(button.wrapperContained); }
 // public yarnwrap.text.Text getMultiplayerDisabledText() { return new yarnwrap.text.Text(wrapperContained.getMultiplayerDisabledText()); }
 // public void setWidgetAlpha(float alpha) { wrapperContained.setWidgetAlpha(alpha); }
 

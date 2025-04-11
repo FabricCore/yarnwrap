@@ -7,6 +7,7 @@ public class NarratorMode { public net.minecraft.client.option.NarratorMode wrap
 // public void id(int value) { wrapperContained.id = value; }
 // public yarnwrap.text.Text name() { return new yarnwrap.text.Text(wrapperContained.name); }
 // public void name(yarnwrap.text.Text value) { wrapperContained.name = value.wrapperContained; }
+// // public NarratorMode(java.lang.String id,int name) { this.wrapperContained = new net.minecraft.client.option.NarratorMode(id,name); }
 public int getId() { return wrapperContained.getId(); }
 public yarnwrap.client.option.NarratorMode byId(int id) { return new yarnwrap.client.option.NarratorMode(wrapperContained.byId(id)); }
 public yarnwrap.text.Text getName() { return new yarnwrap.text.Text(wrapperContained.getName()); }

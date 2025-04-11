@@ -15,6 +15,7 @@ public class Request { public net.minecraft.client.realms.Request wrapperContain
 // public void IS_PRERELEASE_HEADER(java.lang.String value) { wrapperContained.IS_PRERELEASE_HEADER = value; }
 // public java.lang.String COOKIE_HEADER() { return wrapperContained.COOKIE_HEADER; }
 // public void COOKIE_HEADER(java.lang.String value) { wrapperContained.COOKIE_HEADER = value; }
+// public Request(java.lang.String url,int connectTimeout,int readTimeout) { this.wrapperContained = new net.minecraft.client.realms.Request(url,connectTimeout,readTimeout); }
 public int getRetryAfterHeader() { return wrapperContained.getRetryAfterHeader(); }
 // public java.lang.String read(java.io.InputStream in) { return wrapperContained.read(in); }
 public yarnwrap.client.realms.Request get(java.lang.String url) { return new yarnwrap.client.realms.Request(wrapperContained.get(url)); }

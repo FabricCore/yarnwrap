@@ -13,9 +13,12 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void EFFECTLESS_COLOR(int value) { wrapperContained.EFFECTLESS_COLOR = value; }
 // public com.mojang.serialization.Codec BASE_CODEC() { return wrapperContained.BASE_CODEC; }
 // public void BASE_CODEC(com.mojang.serialization.Codec value) { wrapperContained.BASE_CODEC = value; }
+public PotionContentsComponent(yarnwrap.registry.entry.RegistryEntry potion) { this.wrapperContained = new net.minecraft.component.type.PotionContentsComponent(potion.wrapperContained); }
 public void buildTooltip(java.util.function.Consumer textConsumer,float durationMultiplier,float tickRate) { wrapperContained.buildTooltip(textConsumer,durationMultiplier,tickRate); }
+// public void method_55762(java.util.List attribute,yarnwrap.registry.entry.RegistryEntry modifier) { wrapperContained.method_55762(attribute,modifier.wrapperContained); }
 public java.lang.Iterable getEffects() { return wrapperContained.getEffects(); }
 public yarnwrap.component.type.PotionContentsComponent with(yarnwrap.entity.effect.StatusEffectInstance customEffect) { return new yarnwrap.component.type.PotionContentsComponent(wrapperContained.with(customEffect.wrapperContained)); }
+// public com.mojang.datafixers.kinds.App method_57399(Object instance) { return wrapperContained.method_57399(instance); }
 public yarnwrap.item.ItemStack createStack(yarnwrap.item.Item item,yarnwrap.registry.entry.RegistryEntry potion) { return new yarnwrap.item.ItemStack(wrapperContained.createStack(item.wrapperContained,potion.wrapperContained)); }
 public boolean matches(yarnwrap.registry.entry.RegistryEntry potion) { return wrapperContained.matches(potion.wrapperContained); }
 public void forEachEffect(java.util.function.Consumer effectConsumer) { wrapperContained.forEachEffect(effectConsumer); }

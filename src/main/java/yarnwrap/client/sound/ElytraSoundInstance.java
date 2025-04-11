@@ -5,5 +5,6 @@ public class ElytraSoundInstance { public net.minecraft.client.sound.ElytraSound
 // public void player(yarnwrap.client.network.ClientPlayerEntity value) { wrapperContained.player = value.wrapperContained; }
 // public int tickCount() { return wrapperContained.tickCount; }
 // public void tickCount(int value) { wrapperContained.tickCount = value; }
+public ElytraSoundInstance(yarnwrap.client.network.ClientPlayerEntity player) { this.wrapperContained = new net.minecraft.client.sound.ElytraSoundInstance(player.wrapperContained); }
 
 }

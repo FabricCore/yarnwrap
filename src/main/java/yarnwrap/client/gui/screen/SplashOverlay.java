@@ -33,6 +33,7 @@ public long RELOAD_START_FADE_DURATION() { return wrapperContained.RELOAD_START_
 // public void LOGO_OVERLAP(float value) { wrapperContained.LOGO_OVERLAP = value; }
 // public float PROGRESS_LERP_DELTA() { return wrapperContained.PROGRESS_LERP_DELTA; }
 // public void PROGRESS_LERP_DELTA(float value) { wrapperContained.PROGRESS_LERP_DELTA = value; }
+public SplashOverlay(yarnwrap.client.MinecraftClient client,yarnwrap.resource.ResourceReload monitor,java.util.function.Consumer exceptionHandler,boolean reloading) { this.wrapperContained = new net.minecraft.client.gui.screen.SplashOverlay(client.wrapperContained,monitor.wrapperContained,exceptionHandler,reloading); }
 // public void renderProgressBar(yarnwrap.client.gui.DrawContext minX,int minY,int maxX,int maxY,int opacity) { wrapperContained.renderProgressBar(minX.wrapperContained,minY,maxX,maxY,opacity); }
 public void init(yarnwrap.client.MinecraftClient client) { wrapperContained.init(client.wrapperContained); }
 // public int withAlpha(int color,int alpha) { return wrapperContained.withAlpha(color,alpha); }

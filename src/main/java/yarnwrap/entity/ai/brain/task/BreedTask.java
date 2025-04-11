@@ -17,7 +17,10 @@ public class BreedTask { public net.minecraft.entity.ai.brain.task.BreedTask wra
 // public void approachDistance(int value) { wrapperContained.approachDistance = value; }
 // public int DEFAULT_APPROACH_DISTANCE() { return wrapperContained.DEFAULT_APPROACH_DISTANCE; }
 // public void DEFAULT_APPROACH_DISTANCE(int value) { wrapperContained.DEFAULT_APPROACH_DISTANCE = value; }
+public BreedTask(yarnwrap.entity.EntityType targetType) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.BreedTask(targetType.wrapperContained); }
+public BreedTask(yarnwrap.entity.EntityType targetType,float speed,int approachDistance) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.BreedTask(targetType.wrapperContained,speed,approachDistance); }
 // public yarnwrap.entity.passive.AnimalEntity getBreedTarget(yarnwrap.entity.passive.AnimalEntity animal) { return new yarnwrap.entity.passive.AnimalEntity(wrapperContained.getBreedTarget(animal.wrapperContained)); }
+// public boolean method_24545(yarnwrap.entity.passive.AnimalEntity entity) { return wrapperContained.method_24545(entity.wrapperContained); }
 // public boolean hasBreedTarget(yarnwrap.entity.passive.AnimalEntity animal) { return wrapperContained.hasBreedTarget(animal.wrapperContained); }
 // public java.util.Optional findBreedTarget(yarnwrap.entity.passive.AnimalEntity animal) { return wrapperContained.findBreedTarget(animal.wrapperContained); }
 

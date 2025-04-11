@@ -4,5 +4,6 @@ public class IglooStructure { public net.minecraft.world.gen.structure.IglooStru
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public void addPieces(yarnwrap.structure.StructurePiecesCollector collector,Object context) { wrapperContained.addPieces(collector.wrapperContained,context); }
+// public void method_41657(Object collector) { wrapperContained.method_41657(collector); }
 
 }

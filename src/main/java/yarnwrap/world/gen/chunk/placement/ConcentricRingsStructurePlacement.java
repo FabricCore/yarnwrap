@@ -11,6 +11,9 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void count(int value) { wrapperContained.count = value; }
 // public yarnwrap.registry.entry.RegistryEntryList preferredBiomes() { return new yarnwrap.registry.entry.RegistryEntryList(wrapperContained.preferredBiomes); }
 // public void preferredBiomes(yarnwrap.registry.entry.RegistryEntryList value) { wrapperContained.preferredBiomes = value.wrapperContained; }
+public ConcentricRingsStructurePlacement(int distance,int spread,int structureCount,yarnwrap.registry.entry.RegistryEntryList preferredBiomes) { this.wrapperContained = new net.minecraft.world.gen.chunk.placement.ConcentricRingsStructurePlacement(distance,spread,structureCount,preferredBiomes.wrapperContained); }
+// public ConcentricRingsStructurePlacement(yarnwrap.util.math.Vec3i locateOffset,Object generationPredicateType,float frequency,int salt,java.util.Optional exclusionZone,int distance,int spread,int structureCount,yarnwrap.registry.entry.RegistryEntryList preferredBiomes) { this.wrapperContained = new net.minecraft.world.gen.chunk.placement.ConcentricRingsStructurePlacement(locateOffset.wrapperContained,generationPredicateType,frequency,salt,exclusionZone,distance,spread,structureCount,preferredBiomes.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_40167(Object instance) { return wrapperContained.method_40167(instance); }
 public int getDistance() { return wrapperContained.getDistance(); }
 public int getSpread() { return wrapperContained.getSpread(); }
 // public Object buildConcentricRingsCodec(Object instance) { return wrapperContained.buildConcentricRingsCodec(instance); }

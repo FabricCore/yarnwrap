@@ -33,9 +33,12 @@ public class ChunkTicketManager { public net.minecraft.server.world.ChunkTicketM
 // public void simulationDistanceTracker(yarnwrap.world.SimulationDistanceLevelPropagator value) { wrapperContained.simulationDistanceTracker = value.wrapperContained; }
 // public int simulationDistance() { return wrapperContained.simulationDistance; }
 // public void simulationDistance(int value) { wrapperContained.simulationDistance = value; }
+// public ChunkTicketManager(java.util.concurrent.Executor workerExecutor,java.util.concurrent.Executor mainThreadExecutor) { this.wrapperContained = new net.minecraft.server.world.ChunkTicketManager(workerExecutor,mainThreadExecutor); }
 // public boolean isUnloaded(long pos) { return wrapperContained.isUnloaded(pos); }
 // public void setChunkForced(yarnwrap.util.math.ChunkPos pos,boolean forced) { wrapperContained.setChunkForced(pos.wrapperContained,forced); }
 // public yarnwrap.server.world.ChunkHolder getChunkHolder(long pos) { return new yarnwrap.server.world.ChunkHolder(wrapperContained.getChunkHolder(pos)); }
+// public boolean method_14040(yarnwrap.server.world.ChunkTicket ticket) { return wrapperContained.method_14040(ticket.wrapperContained); }
+// public yarnwrap.util.collection.SortedArraySet method_14041(long pos) { return new yarnwrap.util.collection.SortedArraySet(wrapperContained.method_14041(pos)); }
 // public void addTicket(long position,yarnwrap.server.world.ChunkTicket ticket) { wrapperContained.addTicket(position,ticket.wrapperContained); }
 // public void purge() { wrapperContained.purge(); }
 // public int getLevel(yarnwrap.util.collection.SortedArraySet tickets) { return wrapperContained.getLevel(tickets.wrapperContained); }
@@ -45,11 +48,14 @@ public void handleChunkEnter(yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.ser
 public void handleChunkLeave(yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.handleChunkLeave(pos.wrapperContained,player.wrapperContained); }
 public int getTickedChunkCount() { return wrapperContained.getTickedChunkCount(); }
 // public yarnwrap.server.world.ChunkHolder setLevel(long pos,int level,yarnwrap.server.world.ChunkHolder holder) { return new yarnwrap.server.world.ChunkHolder(wrapperContained.setLevel(pos,level,holder.wrapperContained)); }
+// public void method_15891(yarnwrap.server.world.ServerChunkLoadingManager holder) { wrapperContained.method_15891(holder.wrapperContained); }
 public boolean update(yarnwrap.server.world.ServerChunkLoadingManager chunkLoadingManager) { return wrapperContained.update(chunkLoadingManager.wrapperContained); }
 public void addTicketWithLevel(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int level,java.lang.Object argument) { wrapperContained.addTicketWithLevel(type.wrapperContained,pos.wrapperContained,level,argument); }
 public void addTicket(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int radius,java.lang.Object argument) { wrapperContained.addTicket(type.wrapperContained,pos.wrapperContained,radius,argument); }
 public void removeTicket(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int radius,java.lang.Object argument) { wrapperContained.removeTicket(type.wrapperContained,pos.wrapperContained,radius,argument); }
+// public void method_17642(long optionalChunk) { wrapperContained.method_17642(optionalChunk); }
 // public void removeTicket(long pos,yarnwrap.server.world.ChunkTicket ticket) { wrapperContained.removeTicket(pos,ticket.wrapperContained); }
+// public it.unimi.dsi.fastutil.objects.ObjectSet method_17655(long sectionPos) { return wrapperContained.method_17655(sectionPos); }
 public void removeTicketWithLevel(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int level,java.lang.Object argument) { wrapperContained.removeTicketWithLevel(type.wrapperContained,pos.wrapperContained,level,argument); }
 public boolean shouldTick(long chunkPos) { return wrapperContained.shouldTick(chunkPos); }
 // public java.lang.String getTicket(long pos) { return wrapperContained.getTicket(pos); }
@@ -62,5 +68,6 @@ public boolean shouldTickBlocks(long chunkPos) { return wrapperContained.shouldT
 // public int getPlayerSimulationLevel() { return wrapperContained.getPlayerSimulationLevel(); }
 public void removePersistentTickets() { wrapperContained.removePersistentTickets(); }
 public boolean shouldDelayShutdown() { return wrapperContained.shouldDelayShutdown(); }
+// public void method_60451(yarnwrap.server.world.ServerChunkLoadingManager holder) { wrapperContained.method_60451(holder.wrapperContained); }
 
 }

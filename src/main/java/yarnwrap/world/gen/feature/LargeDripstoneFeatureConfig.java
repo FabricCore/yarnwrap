@@ -21,5 +21,16 @@ public int minRadiusForWind() { return wrapperContained.minRadiusForWind; }
 // public void minRadiusForWind(int value) { wrapperContained.minRadiusForWind = value; }
 public float minBluntnessForWind() { return wrapperContained.minBluntnessForWind; }
 // public void minBluntnessForWind(float value) { wrapperContained.minBluntnessForWind = value; }
+public LargeDripstoneFeatureConfig(int floorToCeilingSearchRange,yarnwrap.util.math.intprovider.IntProvider columnRadius,yarnwrap.util.math.floatprovider.FloatProvider heightScale,float maxColumnRadiusToCaveHeightRatio,yarnwrap.util.math.floatprovider.FloatProvider stalactiteBluntness,yarnwrap.util.math.floatprovider.FloatProvider stalagmiteBluntness,yarnwrap.util.math.floatprovider.FloatProvider windSpeed,int minRadiusForWind,float minBluntnessForWind) { this.wrapperContained = new net.minecraft.world.gen.feature.LargeDripstoneFeatureConfig(floorToCeilingSearchRange,columnRadius.wrapperContained,heightScale.wrapperContained,maxColumnRadiusToCaveHeightRatio,stalactiteBluntness.wrapperContained,stalagmiteBluntness.wrapperContained,windSpeed.wrapperContained,minRadiusForWind,minBluntnessForWind); }
+// public com.mojang.datafixers.kinds.App method_33052(Object instance) { return wrapperContained.method_33052(instance); }
+// public java.lang.Float method_33053(yarnwrap.world.gen.feature.LargeDripstoneFeatureConfig config) { return wrapperContained.method_33053(config.wrapperContained); }
+// public java.lang.Integer method_33054(yarnwrap.world.gen.feature.LargeDripstoneFeatureConfig config) { return wrapperContained.method_33054(config.wrapperContained); }
+// public yarnwrap.util.math.floatprovider.FloatProvider method_33055(yarnwrap.world.gen.feature.LargeDripstoneFeatureConfig config) { return new yarnwrap.util.math.floatprovider.FloatProvider(wrapperContained.method_33055(config.wrapperContained)); }
+// public yarnwrap.util.math.floatprovider.FloatProvider method_33056(yarnwrap.world.gen.feature.LargeDripstoneFeatureConfig config) { return new yarnwrap.util.math.floatprovider.FloatProvider(wrapperContained.method_33056(config.wrapperContained)); }
+// public yarnwrap.util.math.floatprovider.FloatProvider method_33057(yarnwrap.world.gen.feature.LargeDripstoneFeatureConfig config) { return new yarnwrap.util.math.floatprovider.FloatProvider(wrapperContained.method_33057(config.wrapperContained)); }
+// public java.lang.Float method_33058(yarnwrap.world.gen.feature.LargeDripstoneFeatureConfig config) { return wrapperContained.method_33058(config.wrapperContained); }
+// public yarnwrap.util.math.floatprovider.FloatProvider method_33059(yarnwrap.world.gen.feature.LargeDripstoneFeatureConfig config) { return new yarnwrap.util.math.floatprovider.FloatProvider(wrapperContained.method_33059(config.wrapperContained)); }
+// public yarnwrap.util.math.intprovider.IntProvider method_33060(yarnwrap.world.gen.feature.LargeDripstoneFeatureConfig config) { return new yarnwrap.util.math.intprovider.IntProvider(wrapperContained.method_33060(config.wrapperContained)); }
+// public java.lang.Integer method_33061(yarnwrap.world.gen.feature.LargeDripstoneFeatureConfig config) { return wrapperContained.method_33061(config.wrapperContained); }
 
 }

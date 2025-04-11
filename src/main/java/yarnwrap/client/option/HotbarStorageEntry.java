@@ -13,9 +13,16 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void EMPTY_STACK(com.mojang.serialization.Dynamic value) { wrapperContained.EMPTY_STACK = value; }
 // public java.util.List stacks() { return wrapperContained.stacks; }
 // public void stacks(java.util.List value) { wrapperContained.stacks = value; }
+// public HotbarStorageEntry(java.util.List stacks) { this.wrapperContained = new net.minecraft.client.option.HotbarStorageEntry(stacks); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 public void serialize(yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.registry.DynamicRegistryManager registryManager) { wrapperContained.serialize(playerInventory.wrapperContained,registryManager.wrapperContained); }
 // public boolean isEmpty(com.mojang.serialization.Dynamic stack) { return wrapperContained.isEmpty(stack); }
+// public java.util.List method_56838(yarnwrap.client.option.HotbarStorageEntry entry) { return wrapperContained.method_56838(entry.wrapperContained); }
 // public java.util.List deserialize(Object registryLookup) { return wrapperContained.deserialize(registryLookup); }
+// public yarnwrap.item.ItemStack method_56840(Object stack) { return new yarnwrap.item.ItemStack(wrapperContained.method_56840(stack)); }
+// public void method_56841(java.lang.String error) { wrapperContained.method_56841(error); }
+// public com.mojang.serialization.DataResult method_56842(java.util.List stacks) { return wrapperContained.method_56842(stacks); }
+// public com.mojang.serialization.Dynamic method_56843(yarnwrap.nbt.NbtElement nbt) { return wrapperContained.method_56843(nbt.wrapperContained); }
+// public void method_56844(java.lang.String error) { wrapperContained.method_56844(error); }
 
 }

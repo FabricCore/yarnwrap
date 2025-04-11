@@ -3,5 +3,6 @@ public class OptionSliderWidget { public net.minecraft.client.gui.widget.OptionS
 
 // public yarnwrap.client.option.GameOptions options() { return new yarnwrap.client.option.GameOptions(wrapperContained.options); }
 // public void options(yarnwrap.client.option.GameOptions value) { wrapperContained.options = value.wrapperContained; }
+// public OptionSliderWidget(yarnwrap.client.option.GameOptions options,int x,int y,int width,int height,double value) { this.wrapperContained = new net.minecraft.client.gui.widget.OptionSliderWidget(options.wrapperContained,x,y,width,height,value); }
 
 }

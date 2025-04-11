@@ -9,5 +9,6 @@ public class PlayerSkinWidget { public net.minecraft.client.gui.widget.PlayerSki
 // public void xRotation(float value) { wrapperContained.xRotation = value; }
 // public float yRotation() { return wrapperContained.yRotation; }
 // public void yRotation(float value) { wrapperContained.yRotation = value; }
+public PlayerSkinWidget(int width,int height,yarnwrap.client.render.entity.model.EntityModelLoader entityModelLoader,java.util.function.Supplier skinSupplier) { this.wrapperContained = new net.minecraft.client.gui.widget.PlayerSkinWidget(width,height,entityModelLoader.wrapperContained,skinSupplier); }
 
 }

@@ -10,5 +10,6 @@ public class MacWindowUtil { public net.minecraft.client.util.MacWindowUtil wrap
 // public void setApplicationIconImage(yarnwrap.resource.InputSupplier iconSupplier) { wrapperContained.setApplicationIconImage(iconSupplier.wrapperContained); }
 public void fixStyleMask(long handle) { wrapperContained.fixStyleMask(handle); }
 // public long getStyleMask(ca.weblite.objc.NSObject handle) { return wrapperContained.getStyleMask(handle); }
+// public void method_54103(ca.weblite.objc.NSObject windowHandle) { wrapperContained.method_54103(windowHandle); }
 
 }

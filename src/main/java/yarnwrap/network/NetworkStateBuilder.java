@@ -9,6 +9,7 @@ public class NetworkStateBuilder { public net.minecraft.network.NetworkStateBuil
 // public void packetTypes(java.util.List value) { wrapperContained.packetTypes = value; }
 // public yarnwrap.network.handler.PacketBundleHandler bundleHandler() { return new yarnwrap.network.handler.PacketBundleHandler(wrapperContained.bundleHandler); }
 // public void bundleHandler(yarnwrap.network.handler.PacketBundleHandler value) { wrapperContained.bundleHandler = value.wrapperContained; }
+public NetworkStateBuilder(yarnwrap.network.NetworkPhase type,yarnwrap.network.NetworkSide side) { this.wrapperContained = new net.minecraft.network.NetworkStateBuilder(type.wrapperContained,side.wrapperContained); }
 public Object buildFactory() { return wrapperContained.buildFactory(); }
 public yarnwrap.network.NetworkState build(java.util.function.Function bufUpgrader) { return new yarnwrap.network.NetworkState(wrapperContained.build(bufUpgrader)); }
 // public yarnwrap.network.codec.PacketCodec createCodec(java.util.function.Function bufUpgrader,java.util.List packetTypes) { return new yarnwrap.network.codec.PacketCodec(wrapperContained.createCodec(bufUpgrader,packetTypes)); }

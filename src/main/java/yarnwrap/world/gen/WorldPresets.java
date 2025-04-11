@@ -18,5 +18,6 @@ public java.util.Optional getWorldPreset(yarnwrap.world.dimension.DimensionOptio
 // public yarnwrap.registry.RegistryKey of(java.lang.String id) { return new yarnwrap.registry.RegistryKey(wrapperContained.of(id)); }
 public yarnwrap.world.dimension.DimensionOptionsRegistryHolder createDemoOptions(yarnwrap.registry.DynamicRegistryManager dynamicRegistryManager) { return new yarnwrap.world.dimension.DimensionOptionsRegistryHolder(wrapperContained.createDemoOptions(dynamicRegistryManager.wrapperContained)); }
 public yarnwrap.world.dimension.DimensionOptions getDefaultOverworldOptions(yarnwrap.registry.DynamicRegistryManager dynamicRegistryManager) { return new yarnwrap.world.dimension.DimensionOptions(wrapperContained.getDefaultOverworldOptions(dynamicRegistryManager.wrapperContained)); }
+// public java.util.Optional method_45547(yarnwrap.world.dimension.DimensionOptions overworld) { return wrapperContained.method_45547(overworld.wrapperContained); }
 
 }

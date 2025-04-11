@@ -25,6 +25,7 @@ public void flipTurn(float value) { wrapperContained.flipTurn = value; }
 // public void RANDOM(yarnwrap.util.math.random.Random value) { wrapperContained.RANDOM = value.wrapperContained; }
 public float flipRandom() { return wrapperContained.flipRandom; }
 public void flipRandom(float value) { wrapperContained.flipRandom = value; }
+public EnchantingTableBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.EnchantingTableBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void setCustomName(yarnwrap.text.Text customName) { wrapperContained.setCustomName(customName.wrapperContained); }
 public void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.EnchantingTableBlockEntity blockEntity) { wrapperContained.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 

@@ -19,6 +19,7 @@ public class OreVeinSampler { public net.minecraft.world.gen.OreVeinSampler wrap
 // public void RAW_ORE_BLOCK_CHANCE(float value) { wrapperContained.RAW_ORE_BLOCK_CHANCE = value; }
 // public float VEIN_GAP_THRESHOLD() { return wrapperContained.VEIN_GAP_THRESHOLD; }
 // public void VEIN_GAP_THRESHOLD(float value) { wrapperContained.VEIN_GAP_THRESHOLD = value; }
+// public yarnwrap.block.BlockState method_40547(yarnwrap.world.gen.densityfunction.DensityFunction pos) { return new yarnwrap.block.BlockState(wrapperContained.method_40547(pos.wrapperContained)); }
 // public Object create(yarnwrap.world.gen.densityfunction.DensityFunction veinToggle,yarnwrap.world.gen.densityfunction.DensityFunction veinRidged,yarnwrap.world.gen.densityfunction.DensityFunction veinGap,yarnwrap.util.math.random.RandomSplitter randomDeriver) { return wrapperContained.create(veinToggle.wrapperContained,veinRidged.wrapperContained,veinGap.wrapperContained,randomDeriver.wrapperContained); }
 
 }

@@ -27,16 +27,27 @@ public Object TYPE() { return wrapperContained.TYPE; }
 // public void OBJECT_ARGUMENT_CODEC(com.mojang.serialization.Codec value) { wrapperContained.OBJECT_ARGUMENT_CODEC = value; }
 // public com.mojang.serialization.Codec ARGUMENT_CODEC() { return wrapperContained.ARGUMENT_CODEC; }
 // public void ARGUMENT_CODEC(com.mojang.serialization.Codec value) { wrapperContained.ARGUMENT_CODEC = value; }
+public TranslatableTextContent(java.lang.String key,java.lang.String fallback,java.lang.Object[] args) { this.wrapperContained = new net.minecraft.text.TranslatableTextContent(key,fallback,args); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public java.lang.String getKey() { return wrapperContained.getKey(); }
 public java.lang.Object[] getArgs() { return wrapperContained.getArgs(); }
 // public void forEachPart(java.lang.String translation,java.util.function.Consumer partsConsumer) { wrapperContained.forEachPart(translation,partsConsumer); }
 // public void updateTranslations() { wrapperContained.updateTranslations(); }
 // public yarnwrap.text.StringVisitable getArg(int index) { return new yarnwrap.text.StringVisitable(wrapperContained.getArg(index)); }
 public java.lang.String getFallback() { return wrapperContained.getFallback(); }
+// public java.lang.Object method_54236(com.mojang.datafixers.util.Either either) { return wrapperContained.method_54236(either); }
+// public com.mojang.datafixers.kinds.App method_54237(Object instance) { return wrapperContained.method_54237(instance); }
 public boolean isPrimitive(java.lang.Object argument) { return wrapperContained.isPrimitive(argument); }
 // public yarnwrap.text.TranslatableTextContent of(java.lang.String key,java.util.Optional fallback,java.util.Optional args) { return new yarnwrap.text.TranslatableTextContent(wrapperContained.of(key,fallback,args)); }
+// public java.lang.Object[] method_54240(java.util.List list) { return wrapperContained.method_54240(list); }
 // public java.lang.Object[] toArray(java.util.Optional args) { return wrapperContained.toArray(args); }
+// public java.lang.Object method_54242(yarnwrap.text.Text text) { return wrapperContained.method_54242(text.wrapperContained); }
+// public java.util.Optional method_54243(yarnwrap.text.TranslatableTextContent content) { return wrapperContained.method_54243(content.wrapperContained); }
 // public java.util.Optional toOptionalList(java.lang.Object[] args) { return wrapperContained.toOptionalList(args); }
 // public com.mojang.serialization.DataResult validate(java.lang.Object object) { return wrapperContained.validate(object); }
+// public java.util.Optional method_54246(yarnwrap.text.TranslatableTextContent content) { return wrapperContained.method_54246(content.wrapperContained); }
+// public com.mojang.datafixers.util.Either method_54247(java.lang.Object argument) { return wrapperContained.method_54247(argument); }
+// public java.lang.String method_54248(yarnwrap.text.TranslatableTextContent content) { return wrapperContained.method_54248(content.wrapperContained); }
+// public java.lang.Object method_54249(java.lang.Object object) { return wrapperContained.method_54249(object); }
 
 }

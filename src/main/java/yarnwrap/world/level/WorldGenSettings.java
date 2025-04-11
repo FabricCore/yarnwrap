@@ -11,5 +11,6 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public yarnwrap.world.dimension.DimensionOptionsRegistryHolder dimensionOptionsRegistryHolder() { return new yarnwrap.world.dimension.DimensionOptionsRegistryHolder(wrapperContained.dimensionOptionsRegistryHolder()); }
 public com.mojang.serialization.DataResult encode(com.mojang.serialization.DynamicOps registryOps,yarnwrap.world.gen.GeneratorOptions generatorOptions,yarnwrap.world.dimension.DimensionOptionsRegistryHolder dimensionOptionsRegistryHolder) { return wrapperContained.encode(registryOps,generatorOptions.wrapperContained,dimensionOptionsRegistryHolder.wrapperContained); }
 public com.mojang.serialization.DataResult encode(com.mojang.serialization.DynamicOps registryOps,yarnwrap.world.gen.GeneratorOptions generatorOptions,yarnwrap.registry.DynamicRegistryManager dynamicRegistryManager) { return wrapperContained.encode(registryOps,generatorOptions.wrapperContained,dynamicRegistryManager.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_45540(Object instance) { return wrapperContained.method_45540(instance); }
 
 }

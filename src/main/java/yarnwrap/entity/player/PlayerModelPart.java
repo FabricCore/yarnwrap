@@ -9,6 +9,7 @@ public class PlayerModelPart { public net.minecraft.entity.player.PlayerModelPar
 // public void optionName(yarnwrap.text.Text value) { wrapperContained.optionName = value.wrapperContained; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// // public PlayerModelPart(java.lang.String id,int name) { this.wrapperContained = new net.minecraft.entity.player.PlayerModelPart(id,name); }
 public int getId() { return wrapperContained.getId(); }
 public yarnwrap.text.Text getOptionName() { return new yarnwrap.text.Text(wrapperContained.getOptionName()); }
 public java.lang.String getName() { return wrapperContained.getName(); }

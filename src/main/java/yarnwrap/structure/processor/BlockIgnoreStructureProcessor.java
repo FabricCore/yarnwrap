@@ -11,5 +11,7 @@ public yarnwrap.structure.processor.BlockIgnoreStructureProcessor IGNORE_AIR_AND
 // public void IGNORE_AIR_AND_STRUCTURE_BLOCKS(yarnwrap.structure.processor.BlockIgnoreStructureProcessor value) { wrapperContained.IGNORE_AIR_AND_STRUCTURE_BLOCKS = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+public BlockIgnoreStructureProcessor(java.util.List blocks) { this.wrapperContained = new net.minecraft.structure.processor.BlockIgnoreStructureProcessor(blocks); }
+// public java.util.List method_28968(yarnwrap.structure.processor.BlockIgnoreStructureProcessor processor) { return wrapperContained.method_28968(processor.wrapperContained); }
 
 }

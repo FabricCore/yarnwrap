@@ -19,6 +19,7 @@ public class DirectionTransformation { public net.minecraft.util.math.DirectionT
 // public void COMBINATIONS(net.minecraft.util.math.DirectionTransformation[][] value) { wrapperContained.COMBINATIONS = value; }
 // public net.minecraft.util.math.DirectionTransformation[] INVERSES() { return wrapperContained.INVERSES; }
 // public void INVERSES(net.minecraft.util.math.DirectionTransformation[] value) { wrapperContained.INVERSES = value; }
+// // public DirectionTransformation(java.lang.String name,int axisTransformation,java.lang.String flipX,yarnwrap.util.math.AxisTransformation flipY,boolean flipZ) { this.wrapperContained = new net.minecraft.util.math.DirectionTransformation(name,axisTransformation,flipX,flipY.wrapperContained,flipZ); }
 public yarnwrap.util.math.DirectionTransformation prepend(yarnwrap.util.math.DirectionTransformation transformation) { return new yarnwrap.util.math.DirectionTransformation(wrapperContained.prepend(transformation.wrapperContained)); }
 // public boolean shouldFlipDirection(Object axis) { return wrapperContained.shouldFlipDirection(axis); }
 public yarnwrap.util.math.Direction map(yarnwrap.util.math.Direction direction) { return new yarnwrap.util.math.Direction(wrapperContained.map(direction.wrapperContained)); }

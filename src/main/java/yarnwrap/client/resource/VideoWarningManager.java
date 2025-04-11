@@ -15,6 +15,7 @@ public class VideoWarningManager { public net.minecraft.client.resource.VideoWar
 // public void cancelledAfterWarning(boolean value) { wrapperContained.cancelledAfterWarning = value; }
 public boolean hasWarning() { return wrapperContained.hasWarning(); }
 // public void compilePatterns(com.google.gson.JsonArray array,java.util.List patterns) { wrapperContained.compilePatterns(array,patterns); }
+// public void method_30059(java.util.List json) { wrapperContained.method_30059(json); }
 public java.lang.String getRendererWarning() { return wrapperContained.getRendererWarning(); }
 // public com.google.gson.JsonObject loadWarnlist(yarnwrap.resource.ResourceManager resourceManager,yarnwrap.util.profiler.Profiler profiler) { return wrapperContained.loadWarnlist(resourceManager.wrapperContained,profiler.wrapperContained); }
 public java.lang.String getVersionWarning() { return wrapperContained.getVersionWarning(); }
@@ -26,6 +27,7 @@ public void cancelAfterWarnings() { wrapperContained.cancelAfterWarnings(); }
 public boolean shouldWarn() { return wrapperContained.shouldWarn(); }
 public boolean hasCancelledAfterWarning() { return wrapperContained.hasCancelledAfterWarning(); }
 public void reset() { wrapperContained.reset(); }
+// public void method_30919(java.lang.StringBuilder key,java.lang.String value) { wrapperContained.method_30919(key,value); }
 public java.lang.String getWarningsAsString() { return wrapperContained.getWarningsAsString(); }
 
 }

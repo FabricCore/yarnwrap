@@ -5,5 +5,6 @@ public class GridScreenTab { public net.minecraft.client.gui.tab.GridScreenTab w
 // public void grid(yarnwrap.client.gui.widget.GridWidget value) { wrapperContained.grid = value.wrapperContained; }
 // public yarnwrap.text.Text title() { return new yarnwrap.text.Text(wrapperContained.title); }
 // public void title(yarnwrap.text.Text value) { wrapperContained.title = value.wrapperContained; }
+public GridScreenTab(yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.tab.GridScreenTab(title.wrapperContained); }
 
 }

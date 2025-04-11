@@ -3,5 +3,6 @@ public class SwimGoal { public net.minecraft.entity.ai.goal.SwimGoal wrapperCont
 
 // public yarnwrap.entity.mob.MobEntity mob() { return new yarnwrap.entity.mob.MobEntity(wrapperContained.mob); }
 // public void mob(yarnwrap.entity.mob.MobEntity value) { wrapperContained.mob = value.wrapperContained; }
+public SwimGoal(yarnwrap.entity.mob.MobEntity mob) { this.wrapperContained = new net.minecraft.entity.ai.goal.SwimGoal(mob.wrapperContained); }
 
 }

@@ -12,5 +12,6 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void update(Object updater) { wrapperContained.update(updater); }
 public yarnwrap.network.message.MessageBody ofUnsigned(java.lang.String content) { return new yarnwrap.network.message.MessageBody(wrapperContained.ofUnsigned(content)); }
 public Object toSerialized(yarnwrap.network.message.MessageSignatureStorage storage) { return wrapperContained.toSerialized(storage.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_46612(Object instance) { return wrapperContained.method_46612(instance); }
 
 }

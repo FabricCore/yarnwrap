@@ -25,6 +25,7 @@ public yarnwrap.util.Identifier BLOCK_ATLAS_TEXTURE() { return new yarnwrap.util
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public java.util.Map sprites() { return wrapperContained.sprites; }
 // public void sprites(java.util.Map value) { wrapperContained.sprites = value; }
+public SpriteAtlasTexture(yarnwrap.util.Identifier id) { this.wrapperContained = new net.minecraft.client.texture.SpriteAtlasTexture(id.wrapperContained); }
 public yarnwrap.util.Identifier getId() { return new yarnwrap.util.Identifier(wrapperContained.getId()); }
 // public void applyTextureFilter(Object data) { wrapperContained.applyTextureFilter(data); }
 // public void upload(Object stitchResult) { wrapperContained.upload(stitchResult); }

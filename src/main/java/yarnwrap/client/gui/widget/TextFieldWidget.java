@@ -43,6 +43,9 @@ public int DEFAULT_EDITABLE_COLOR() { return wrapperContained.DEFAULT_EDITABLE_C
 // public void lastSwitchFocusTime(long value) { wrapperContained.lastSwitchFocusTime = value; }
 // public yarnwrap.client.gui.screen.ButtonTextures TEXTURES() { return new yarnwrap.client.gui.screen.ButtonTextures(wrapperContained.TEXTURES); }
 // public void TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value) { wrapperContained.TEXTURES = value.wrapperContained; }
+public TextFieldWidget(yarnwrap.client.font.TextRenderer textRenderer,int x,int y,int width,int height,yarnwrap.text.Text text) { this.wrapperContained = new net.minecraft.client.gui.widget.TextFieldWidget(textRenderer.wrapperContained,x,y,width,height,text.wrapperContained); }
+public TextFieldWidget(yarnwrap.client.font.TextRenderer textRenderer,int x,int y,int width,int height,yarnwrap.client.gui.widget.TextFieldWidget copyFrom,yarnwrap.text.Text text) { this.wrapperContained = new net.minecraft.client.gui.widget.TextFieldWidget(textRenderer.wrapperContained,x,y,width,height,copyFrom.wrapperContained,text.wrapperContained); }
+public TextFieldWidget(yarnwrap.client.font.TextRenderer textRenderer,int width,int height,yarnwrap.text.Text text) { this.wrapperContained = new net.minecraft.client.gui.widget.TextFieldWidget(textRenderer.wrapperContained,width,height,text.wrapperContained); }
 // public void erase(int offset) { wrapperContained.erase(offset); }
 // public boolean drawsBackground() { return wrapperContained.drawsBackground(); }
 public void setText(java.lang.String text) { wrapperContained.setText(text); }
@@ -63,6 +66,7 @@ public void setEditableColor(int editableColor) { wrapperContained.setEditableCo
 // public int getWordSkipPosition(int wordOffset,int cursorPosition) { return wrapperContained.getWordSkipPosition(wordOffset,cursorPosition); }
 public void setCursorToStart(boolean shiftKeyPressed) { wrapperContained.setCursorToStart(shiftKeyPressed); }
 public void setCursorToEnd(boolean shiftKeyPressed) { wrapperContained.setCursorToEnd(shiftKeyPressed); }
+// public yarnwrap.text.OrderedText method_1873(java.lang.String string,java.lang.Integer firstCharacterIndex) { return new yarnwrap.text.OrderedText(wrapperContained.method_1873(string,firstCharacterIndex)); }
 // public void onChanged(java.lang.String newText) { wrapperContained.onChanged(newText); }
 public void setSelectionStart(int cursor) { wrapperContained.setSelectionStart(cursor); }
 public void eraseWords(int wordOffset) { wrapperContained.eraseWords(wordOffset); }

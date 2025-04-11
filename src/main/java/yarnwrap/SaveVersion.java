@@ -7,6 +7,8 @@ public void MAIN_SERIES(java.lang.String value) { wrapperContained.MAIN_SERIES =
 // public void id(int value) { wrapperContained.id = value; }
 // public java.lang.String series() { return wrapperContained.series; }
 // public void series(java.lang.String value) { wrapperContained.series = value; }
+public SaveVersion(int id) { this.wrapperContained = new net.minecraft.SaveVersion(id); }
+public SaveVersion(int id,java.lang.String series) { this.wrapperContained = new net.minecraft.SaveVersion(id,series); }
 public boolean isNotMainSeries() { return wrapperContained.isNotMainSeries(); }
 public java.lang.String getSeries() { return wrapperContained.getSeries(); }
 public boolean isAvailableTo(yarnwrap.SaveVersion other) { return wrapperContained.isAvailableTo(other.wrapperContained); }

@@ -7,6 +7,8 @@ public class QueryBlockNbtC2SPacket { public net.minecraft.network.packet.c2s.pl
 // public void pos(yarnwrap.util.math.BlockPos value) { wrapperContained.pos = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public QueryBlockNbtC2SPacket(int transactionId,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.QueryBlockNbtC2SPacket(transactionId,pos.wrapperContained); }
+// public QueryBlockNbtC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.QueryBlockNbtC2SPacket(buf.wrapperContained); }
 public yarnwrap.util.math.BlockPos getPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getPos()); }
 public int getTransactionId() { return wrapperContained.getTransactionId(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

@@ -31,7 +31,10 @@ public class ChunkRegion { public net.minecraft.world.ChunkRegion wrapperContain
 // public void WORLDGEN_REGION_RANDOM_ID(yarnwrap.util.Identifier value) { wrapperContained.WORLDGEN_REGION_RANDOM_ID = value.wrapperContained; }
 // public yarnwrap.world.chunk.ChunkGenerationStep generationStep() { return new yarnwrap.world.chunk.ChunkGenerationStep(wrapperContained.generationStep); }
 // public void generationStep(yarnwrap.world.chunk.ChunkGenerationStep value) { wrapperContained.generationStep = value.wrapperContained; }
+public ChunkRegion(yarnwrap.server.world.ServerWorld world,yarnwrap.util.collection.BoundedRegionArray chunks,yarnwrap.world.chunk.ChunkGenerationStep generationStep,yarnwrap.world.chunk.Chunk centerPos) { this.wrapperContained = new net.minecraft.world.ChunkRegion(world.wrapperContained,chunks.wrapperContained,generationStep.wrapperContained,centerPos.wrapperContained); }
+// public yarnwrap.world.tick.BasicTickScheduler method_14337(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.world.tick.BasicTickScheduler(wrapperContained.method_14337(pos.wrapperContained)); }
 // public void markBlockForPostProcessing(yarnwrap.util.math.BlockPos pos) { wrapperContained.markBlockForPostProcessing(pos.wrapperContained); }
+// public yarnwrap.world.tick.BasicTickScheduler method_14340(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.world.tick.BasicTickScheduler(wrapperContained.method_14340(pos.wrapperContained)); }
 public yarnwrap.util.math.ChunkPos getCenterPos() { return new yarnwrap.util.math.ChunkPos(wrapperContained.getCenterPos()); }
 public boolean needsBlending(yarnwrap.util.math.ChunkPos chunkPos,int checkRadius) { return wrapperContained.needsBlending(chunkPos.wrapperContained,checkRadius); }
 

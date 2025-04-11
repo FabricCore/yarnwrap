@@ -5,6 +5,7 @@ public com.mojang.serialization.MapCodec MODIFIER_CODEC() { return wrapperContai
 // public void MODIFIER_CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.MODIFIER_CODEC = value; }
 // public yarnwrap.world.gen.blockpredicate.BlockPredicate predicate() { return new yarnwrap.world.gen.blockpredicate.BlockPredicate(wrapperContained.predicate); }
 // public void predicate(yarnwrap.world.gen.blockpredicate.BlockPredicate value) { wrapperContained.predicate = value.wrapperContained; }
+// public BlockFilterPlacementModifier(yarnwrap.world.gen.blockpredicate.BlockPredicate predicate) { this.wrapperContained = new net.minecraft.world.gen.placementmodifier.BlockFilterPlacementModifier(predicate.wrapperContained); }
 public yarnwrap.world.gen.placementmodifier.BlockFilterPlacementModifier of(yarnwrap.world.gen.blockpredicate.BlockPredicate predicate) { return new yarnwrap.world.gen.placementmodifier.BlockFilterPlacementModifier(wrapperContained.of(predicate.wrapperContained)); }
 
 }

@@ -11,6 +11,7 @@ public class ShulkerEntityModel { public net.minecraft.client.render.entity.mode
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart lid() { return new yarnwrap.client.model.ModelPart(wrapperContained.lid); }
 // public void lid(yarnwrap.client.model.ModelPart value) { wrapperContained.lid = value.wrapperContained; }
+public ShulkerEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.ShulkerEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.ModelPart getLid() { return new yarnwrap.client.model.ModelPart(wrapperContained.getLid()); }
 public yarnwrap.client.model.ModelPart getHead() { return new yarnwrap.client.model.ModelPart(wrapperContained.getHead()); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }

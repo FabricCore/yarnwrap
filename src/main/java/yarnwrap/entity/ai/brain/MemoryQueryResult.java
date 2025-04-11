@@ -7,6 +7,7 @@ public class MemoryQueryResult { public net.minecraft.entity.ai.brain.MemoryQuer
 // public void memory(yarnwrap.entity.ai.brain.MemoryModuleType value) { wrapperContained.memory = value.wrapperContained; }
 // public com.mojang.datafixers.kinds.App value() { return wrapperContained.value; }
 // public void value(com.mojang.datafixers.kinds.App value) { wrapperContained.value = value; }
+public MemoryQueryResult(yarnwrap.entity.ai.brain.Brain brain,yarnwrap.entity.ai.brain.MemoryModuleType memory,com.mojang.datafixers.kinds.App value) { this.wrapperContained = new net.minecraft.entity.ai.brain.MemoryQueryResult(brain.wrapperContained,memory.wrapperContained,value); }
 public com.mojang.datafixers.kinds.App getValue() { return wrapperContained.getValue(); }
 public void remember(java.lang.Object value) { wrapperContained.remember(value); }
 public void remember(java.lang.Object value,long expiry) { wrapperContained.remember(value,expiry); }

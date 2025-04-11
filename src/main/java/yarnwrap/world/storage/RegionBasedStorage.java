@@ -13,6 +13,7 @@ public java.lang.String MCA_EXTENSION() { return wrapperContained.MCA_EXTENSION;
 // public void MAX_CACHE_SIZE(int value) { wrapperContained.MAX_CACHE_SIZE = value; }
 // public yarnwrap.world.storage.StorageKey storageKey() { return new yarnwrap.world.storage.StorageKey(wrapperContained.storageKey); }
 // public void storageKey(yarnwrap.world.storage.StorageKey value) { wrapperContained.storageKey = value.wrapperContained; }
+// public RegionBasedStorage(yarnwrap.world.storage.StorageKey storageKey,java.nio.file.Path directory,boolean dsync) { this.wrapperContained = new net.minecraft.world.storage.RegionBasedStorage(storageKey.wrapperContained,directory,dsync); }
 // public yarnwrap.world.storage.RegionFile getRegionFile(yarnwrap.util.math.ChunkPos pos) { return new yarnwrap.world.storage.RegionFile(wrapperContained.getRegionFile(pos.wrapperContained)); }
 // public yarnwrap.nbt.NbtCompound getTagAt(yarnwrap.util.math.ChunkPos pos) { return new yarnwrap.nbt.NbtCompound(wrapperContained.getTagAt(pos.wrapperContained)); }
 // public void write(yarnwrap.util.math.ChunkPos pos,yarnwrap.nbt.NbtCompound nbt) { wrapperContained.write(pos.wrapperContained,nbt.wrapperContained); }

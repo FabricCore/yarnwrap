@@ -23,6 +23,8 @@ public class BrewingStandScreenHandler { public net.minecraft.screen.BrewingStan
 // public void ingredientSlot(yarnwrap.screen.slot.Slot value) { wrapperContained.ingredientSlot = value.wrapperContained; }
 // public yarnwrap.inventory.Inventory inventory() { return new yarnwrap.inventory.Inventory(wrapperContained.inventory); }
 // public void inventory(yarnwrap.inventory.Inventory value) { wrapperContained.inventory = value.wrapperContained; }
+public BrewingStandScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.BrewingStandScreenHandler(syncId,playerInventory.wrapperContained); }
+public BrewingStandScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.inventory.Inventory inventory,yarnwrap.screen.PropertyDelegate propertyDelegate) { this.wrapperContained = new net.minecraft.screen.BrewingStandScreenHandler(syncId,playerInventory.wrapperContained,inventory.wrapperContained,propertyDelegate.wrapperContained); }
 public int getFuel() { return wrapperContained.getFuel(); }
 public int getBrewTime() { return wrapperContained.getBrewTime(); }
 

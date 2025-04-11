@@ -16,6 +16,7 @@ public class ClientConfigurationNetworkHandler { public net.minecraft.client.net
 // public Object chatState() { return wrapperContained.chatState; }
 // // public void chatState(Object value) { wrapperContained.chatState = value; }
 // public void handleCustomPayload(yarnwrap.network.packet.CustomPayload payload) { wrapperContained.handleCustomPayload(payload.wrapperContained); }
+// public Object method_57043(yarnwrap.resource.ResourceFactory factory) { return wrapperContained.method_57043(factory.wrapperContained); }
 // public java.lang.Object openClientDataPack(java.util.function.Function opener) { return wrapperContained.openClientDataPack(opener); }
 
 }

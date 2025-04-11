@@ -14,8 +14,10 @@ public class TestFunctions { public net.minecraft.test.TestFunctions wrapperCont
 public java.util.Collection getTestFunctions() { return wrapperContained.getTestFunctions(); }
 // public boolean isInClass(yarnwrap.test.TestFunction testFunction,java.lang.String testClass) { return wrapperContained.isInClass(testFunction.wrapperContained,testClass); }
 public java.util.stream.Stream getTestFunctions(java.lang.String testClass) { return wrapperContained.getTestFunctions(testClass); }
+// public boolean method_22194(java.lang.String testFunction) { return wrapperContained.method_22194(testFunction); }
 public java.util.Collection getTestClasses() { return wrapperContained.getTestClasses(); }
 public boolean testClassExists(java.lang.String testClass) { return wrapperContained.testClassExists(testClass); }
+// public boolean method_22197(java.lang.String testFunction) { return wrapperContained.method_22197(testFunction); }
 public java.util.function.Consumer getBeforeBatchConsumer(java.lang.String batchId) { return wrapperContained.getBeforeBatchConsumer(batchId); }
 public java.util.Optional getTestFunction(java.lang.String structurePath) { return wrapperContained.getTestFunction(structurePath); }
 public yarnwrap.test.TestFunction getTestFunctionOrThrow(java.lang.String structurePath) { return new yarnwrap.test.TestFunction(wrapperContained.getTestFunctionOrThrow(structurePath)); }
@@ -26,8 +28,11 @@ public java.util.function.Consumer getAfterBatchConsumer(java.lang.String batchI
 public void register(java.lang.Class testClass) { wrapperContained.register(testClass); }
 public void register(java.lang.reflect.Method method) { wrapperContained.register(method); }
 // public void registerBatchConsumers(java.lang.reflect.Method method,java.lang.Class clazz,java.util.function.Function batchIdFunction,java.util.Map batchConsumerMap) { wrapperContained.registerBatchConsumers(method,clazz,batchIdFunction,batchConsumerMap); }
+// public void method_36071(java.lang.reflect.Method args) { wrapperContained.method_36071(args); }
 // public java.util.Collection getCustomTestFunctions(java.lang.reflect.Method method) { return wrapperContained.getCustomTestFunctions(method); }
 // public yarnwrap.test.TestFunction getTestFunction(java.lang.reflect.Method method) { return new yarnwrap.test.TestFunction(wrapperContained.getTestFunction(method)); }
 // public java.util.function.Consumer getInvoker(java.lang.reflect.Method method) { return wrapperContained.getInvoker(method); }
+// public void method_56217(yarnwrap.server.world.ServerWorld world) { wrapperContained.method_56217(world.wrapperContained); }
+// public void method_56218(yarnwrap.server.world.ServerWorld world) { wrapperContained.method_56218(world.wrapperContained); }
 
 }

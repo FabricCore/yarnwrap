@@ -17,6 +17,9 @@ public java.lang.String REALMS_NAMESPACE() { return wrapperContained.REALMS_NAME
 // public void REALMS_NAMESPACE(java.lang.String value) { wrapperContained.REALMS_NAMESPACE = value; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+// public Identifier(java.lang.String namespace,java.lang.String path) { this.wrapperContained = new net.minecraft.util.Identifier(namespace,path); }
+// public int compareTo(java.lang.Object other) { return wrapperContained.compareTo(other); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.Identifier tryParse(java.lang.String id) { return new yarnwrap.util.Identifier(wrapperContained.tryParse(id)); }
 public boolean isCharValid(char c) { return wrapperContained.isCharValid(c); }
 public java.lang.String getPath() { return wrapperContained.getPath(); }

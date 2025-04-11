@@ -7,6 +7,7 @@ public class ResourcePackManager { public net.minecraft.resource.ResourcePackMan
 // public void profiles(java.util.Map value) { wrapperContained.profiles = value; }
 // public java.util.Set providers() { return wrapperContained.providers; }
 // public void providers(java.util.Set value) { wrapperContained.providers = value; }
+public ResourcePackManager(net.minecraft.resource.ResourcePackProvider[] providers) { this.wrapperContained = new net.minecraft.resource.ResourcePackManager(providers); }
 public java.util.Collection getProfiles() { return wrapperContained.getProfiles(); }
 public java.util.Collection getEnabledProfiles() { return wrapperContained.getEnabledProfiles(); }
 public void scanPacks() { wrapperContained.scanPacks(); }
@@ -19,9 +20,11 @@ public boolean hasProfile(java.lang.String id) { return wrapperContained.hasProf
 public java.util.Collection getEnabledIds() { return wrapperContained.getEnabledIds(); }
 public java.util.List createResourcePacks() { return wrapperContained.createResourcePacks(); }
 // public java.util.Map providePackProfiles() { return wrapperContained.providePackProfiles(); }
+// public void method_29484(java.util.Map profile) { wrapperContained.method_29484(profile); }
 public yarnwrap.resource.featuretoggle.FeatureSet getRequestedFeatures() { return new yarnwrap.resource.featuretoggle.FeatureSet(wrapperContained.getRequestedFeatures()); }
 public boolean enable(java.lang.String profile) { return wrapperContained.enable(profile); }
 public boolean disable(java.lang.String profile) { return wrapperContained.disable(profile); }
+// public java.lang.String method_59808(yarnwrap.resource.ResourcePackProfile profile) { return wrapperContained.method_59808(profile.wrapperContained); }
 public java.lang.String listPacks(java.util.Collection profiles) { return wrapperContained.listPacks(profiles); }
 
 }

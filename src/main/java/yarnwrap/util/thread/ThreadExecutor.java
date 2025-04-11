@@ -9,6 +9,8 @@ public class ThreadExecutor { public net.minecraft.util.thread.ThreadExecutor wr
 // public void tasks(java.util.Queue value) { wrapperContained.tasks = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public ThreadExecutor(java.lang.String name) { this.wrapperContained = new net.minecraft.util.thread.ThreadExecutor(name); }
+public void execute(java.lang.Runnable runnable) { wrapperContained.execute(runnable); }
 public boolean runTask() { return wrapperContained.runTask(); }
 // public java.lang.Runnable createTask(java.lang.Runnable runnable) { return wrapperContained.createTask(runnable); }
 public boolean isOnThread() { return wrapperContained.isOnThread(); }

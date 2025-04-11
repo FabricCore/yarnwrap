@@ -7,6 +7,7 @@ public java.util.Set VALUES() { return wrapperContained.VALUES; }
 // public void VALUES(java.util.Set value) { wrapperContained.VALUES = value; }
 public java.util.Set ROT() { return wrapperContained.ROT; }
 // public void ROT(java.util.Set value) { wrapperContained.ROT = value; }
+// // public PositionFlag(java.lang.String shift) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PositionFlag(shift); }
 public int getBitfield(java.util.Set flags) { return wrapperContained.getBitfield(flags); }
 // public int getMask() { return wrapperContained.getMask(); }
 // public boolean isSet(int mask) { return wrapperContained.isSet(mask); }

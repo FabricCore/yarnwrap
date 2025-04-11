@@ -19,6 +19,7 @@ public Object notifications() { return wrapperContained.notifications; }
 // public void checkers(java.util.List value) { wrapperContained.checkers = value; }
 public Object onlinePlayers() { return wrapperContained.onlinePlayers; }
 // // public void onlinePlayers(Object value) { wrapperContained.onlinePlayers = value; }
+public RealmsPeriodicCheckers(yarnwrap.client.realms.RealmsClient client) { this.wrapperContained = new net.minecraft.client.realms.RealmsPeriodicCheckers(client.wrapperContained); }
 public java.util.List getCheckers() { return wrapperContained.getCheckers(); }
 
 }

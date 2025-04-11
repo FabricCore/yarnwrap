@@ -19,6 +19,8 @@ public class LevelSummary { public net.minecraft.world.level.storage.LevelSummar
 // public void experimental(boolean value) { wrapperContained.experimental = value; }
 public yarnwrap.text.Text SELECT_WORLD_TEXT() { return new yarnwrap.text.Text(wrapperContained.SELECT_WORLD_TEXT); }
 // public void SELECT_WORLD_TEXT(yarnwrap.text.Text value) { wrapperContained.SELECT_WORLD_TEXT = value.wrapperContained; }
+public LevelSummary(yarnwrap.world.level.LevelInfo levelInfo,yarnwrap.world.level.storage.SaveVersionInfo versionInfo,java.lang.String name,boolean requiresConversion,boolean locked,boolean experimental,java.nio.file.Path iconPath) { this.wrapperContained = new net.minecraft.world.level.storage.LevelSummary(levelInfo.wrapperContained,versionInfo.wrapperContained,name,requiresConversion,locked,experimental,iconPath); }
+// public int compareTo(java.lang.Object other) { return wrapperContained.compareTo(other); }
 public yarnwrap.world.GameMode getGameMode() { return new yarnwrap.world.GameMode(wrapperContained.getGameMode()); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 public long getLastPlayed() { return wrapperContained.getLastPlayed(); }

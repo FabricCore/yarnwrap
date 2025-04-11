@@ -47,20 +47,28 @@ public class DebugHud { public net.minecraft.client.gui.hud.DebugHud wrapperCont
 // public void packetSizeLog(yarnwrap.util.profiler.MultiValueDebugSampleLogImpl value) { wrapperContained.packetSizeLog = value.wrapperContained; }
 // public java.util.Map receivedDebugSamples() { return wrapperContained.receivedDebugSamples; }
 // public void receivedDebugSamples(java.util.Map value) { wrapperContained.receivedDebugSamples = value; }
+public DebugHud(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.gui.hud.DebugHud(client.wrapperContained); }
 // public yarnwrap.world.chunk.WorldChunk getChunk() { return new yarnwrap.world.chunk.WorldChunk(wrapperContained.getChunk()); }
 // public java.util.List getLeftText() { return wrapperContained.getLeftText(); }
 // public yarnwrap.world.chunk.WorldChunk getClientChunk() { return new yarnwrap.world.chunk.WorldChunk(wrapperContained.getClientChunk()); }
 // public long toMiB(long bytes) { return wrapperContained.toMiB(bytes); }
 // public java.util.List getRightText() { return wrapperContained.getRightText(); }
 // public yarnwrap.world.World getWorld() { return new yarnwrap.world.World(wrapperContained.getWorld()); }
+// public java.util.Optional method_1841(yarnwrap.server.integrated.IntegratedServer server) { return wrapperContained.method_1841(server.wrapperContained); }
 public void resetChunk() { wrapperContained.resetChunk(); }
 // public java.lang.String propertyToString(Object propEntry) { return wrapperContained.propertyToString(propEntry); }
 public void render(yarnwrap.client.gui.DrawContext context) { wrapperContained.render(context.wrapperContained); }
 // public void drawLeftText(yarnwrap.client.gui.DrawContext context) { wrapperContained.drawLeftText(context.wrapperContained); }
 // public void drawRightText(yarnwrap.client.gui.DrawContext context) { wrapperContained.drawRightText(context.wrapperContained); }
+// public void method_20455(java.util.EnumMap types) { wrapperContained.method_20455(types); }
 // public yarnwrap.server.world.ServerWorld getServerWorld() { return new yarnwrap.server.world.ServerWorld(wrapperContained.getServerWorld()); }
+// public java.lang.String method_27870(it.unimi.dsi.fastutil.objects.Object2IntMap group) { return wrapperContained.method_27870(group); }
 // public java.lang.String getServerWorldDebugString() { return wrapperContained.getServerWorldDebugString(); }
+// public java.lang.String method_40203(yarnwrap.registry.tag.TagKey tag) { return wrapperContained.method_40203(tag.wrapperContained); }
+// public java.lang.String method_40204(yarnwrap.world.biome.Biome biome_) { return wrapperContained.method_40204(biome_.wrapperContained); }
 // public java.lang.String getBiomeString(yarnwrap.registry.entry.RegistryEntry biome) { return wrapperContained.getBiomeString(biome.wrapperContained); }
+// public java.lang.String method_40206(yarnwrap.registry.RegistryKey biomeKey) { return wrapperContained.method_40206(biomeKey.wrapperContained); }
+// public java.lang.String method_40207(yarnwrap.registry.tag.TagKey tag) { return wrapperContained.method_40207(tag.wrapperContained); }
 // public void drawText(yarnwrap.client.gui.DrawContext context,java.util.List text,boolean left) { wrapperContained.drawText(context.wrapperContained,text,left); }
 public void pushToFrameLog(long value) { wrapperContained.pushToFrameLog(value); }
 public boolean shouldShowDebugHud() { return wrapperContained.shouldShowDebugHud(); }

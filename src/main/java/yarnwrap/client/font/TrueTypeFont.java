@@ -9,6 +9,7 @@ public class TrueTypeFont { public net.minecraft.client.font.TrueTypeFont wrappe
 // public void oversample(float value) { wrapperContained.oversample = value; }
 // public org.lwjgl.util.freetype.FT_Face face() { return wrapperContained.face; }
 // public void face(org.lwjgl.util.freetype.FT_Face value) { wrapperContained.face = value; }
+public TrueTypeFont(java.nio.ByteBuffer buffer,org.lwjgl.util.freetype.FT_Face face,float size,float oversample,float shiftX,float shiftY,java.lang.String excludedCharacters) { this.wrapperContained = new net.minecraft.client.font.TrueTypeFont(buffer,face,size,oversample,shiftX,shiftY,excludedCharacters); }
 // public org.lwjgl.util.freetype.FT_Face getInfo() { return wrapperContained.getInfo(); }
 
 }

@@ -7,6 +7,8 @@ public class DefaultPosArgument { public net.minecraft.command.argument.DefaultP
 // public void x(yarnwrap.command.argument.CoordinateArgument value) { wrapperContained.x = value.wrapperContained; }
 // public yarnwrap.command.argument.CoordinateArgument z() { return new yarnwrap.command.argument.CoordinateArgument(wrapperContained.z); }
 // public void z(yarnwrap.command.argument.CoordinateArgument value) { wrapperContained.z = value.wrapperContained; }
+public DefaultPosArgument(yarnwrap.command.argument.CoordinateArgument x,yarnwrap.command.argument.CoordinateArgument y,yarnwrap.command.argument.CoordinateArgument z) { this.wrapperContained = new net.minecraft.command.argument.DefaultPosArgument(x.wrapperContained,y.wrapperContained,z.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.command.argument.DefaultPosArgument absolute(double x,double y,double z) { return new yarnwrap.command.argument.DefaultPosArgument(wrapperContained.absolute(x,y,z)); }
 public yarnwrap.command.argument.DefaultPosArgument absolute(yarnwrap.util.math.Vec2f vec) { return new yarnwrap.command.argument.DefaultPosArgument(wrapperContained.absolute(vec.wrapperContained)); }
 // public yarnwrap.command.argument.DefaultPosArgument parse(com.mojang.brigadier.StringReader reader) { return new yarnwrap.command.argument.DefaultPosArgument(wrapperContained.parse(reader)); }

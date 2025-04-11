@@ -25,8 +25,14 @@ public class TestServer { public net.minecraft.test.TestServer wrapperContained;
 // public void stopwatch(com.google.common.base.Stopwatch value) { wrapperContained.stopwatch = value; }
 // public yarnwrap.util.profiler.MultiValueDebugSampleLogImpl debugSampleLog() { return new yarnwrap.util.profiler.MultiValueDebugSampleLogImpl(wrapperContained.debugSampleLog); }
 // public void debugSampleLog(yarnwrap.util.profiler.MultiValueDebugSampleLogImpl value) { wrapperContained.debugSampleLog = value.wrapperContained; }
+// public TestServer(java.lang.Thread serverThread,Object session,yarnwrap.resource.ResourcePackManager dataPackManager,yarnwrap.server.SaveLoader saveLoader,java.util.Collection testFunctions,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.test.TestServer(serverThread,session,dataPackManager.wrapperContained,saveLoader.wrapperContained,testFunctions,pos.wrapperContained); }
+// public void method_36094(yarnwrap.world.GameRules gameRules) { wrapperContained.method_36094(gameRules.wrapperContained); }
+// public void method_36095(yarnwrap.test.GameTestState test) { wrapperContained.method_36095(test.wrapperContained); }
 // public void runTestBatches(yarnwrap.server.world.ServerWorld world) { wrapperContained.runTestBatches(world.wrapperContained); }
+// public void method_36097(yarnwrap.test.GameTestState test) { wrapperContained.method_36097(test.wrapperContained); }
 // public boolean isTesting() { return wrapperContained.isTesting(); }
+// public Object method_40377(yarnwrap.world.level.LevelInfo context) { return wrapperContained.method_40377(context.wrapperContained); }
 // public yarnwrap.test.TestServer create(java.lang.Thread thread,Object session,yarnwrap.resource.ResourcePackManager resourcePackManager,java.util.Collection batches,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.test.TestServer(wrapperContained.create(thread,session,resourcePackManager.wrapperContained,batches,pos.wrapperContained)); }
+// public java.util.concurrent.CompletableFuture method_43615(Object executor) { return wrapperContained.method_43615(executor); }
 
 }

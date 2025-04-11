@@ -9,6 +9,7 @@ public class PacketCodecDispatcher { public net.minecraft.network.handler.Packet
 // public void packetTypes(java.util.List value) { wrapperContained.packetTypes = value; }
 // public it.unimi.dsi.fastutil.objects.Object2IntMap typeToIndex() { return wrapperContained.typeToIndex; }
 // public void typeToIndex(it.unimi.dsi.fastutil.objects.Object2IntMap value) { wrapperContained.typeToIndex = value; }
+// public PacketCodecDispatcher(java.util.function.Function packetIdGetter,java.util.List packetTypes,it.unimi.dsi.fastutil.objects.Object2IntMap typeToIndex) { this.wrapperContained = new net.minecraft.network.handler.PacketCodecDispatcher(packetIdGetter,packetTypes,typeToIndex); }
 public Object builder(java.util.function.Function packetIdGetter) { return wrapperContained.builder(packetIdGetter); }
 
 }

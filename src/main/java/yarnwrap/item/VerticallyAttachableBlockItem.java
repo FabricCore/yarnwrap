@@ -5,6 +5,7 @@ public class VerticallyAttachableBlockItem { public net.minecraft.item.Verticall
 // public void verticalAttachmentDirection(yarnwrap.util.math.Direction value) { wrapperContained.verticalAttachmentDirection = value.wrapperContained; }
 // public yarnwrap.block.Block wallBlock() { return new yarnwrap.block.Block(wrapperContained.wallBlock); }
 // public void wallBlock(yarnwrap.block.Block value) { wrapperContained.wallBlock = value.wrapperContained; }
+// public VerticallyAttachableBlockItem(yarnwrap.block.Block standingBlock,yarnwrap.block.Block wallBlock,Object settings,yarnwrap.util.math.Direction verticalAttachmentDirection) { this.wrapperContained = new net.minecraft.item.VerticallyAttachableBlockItem(standingBlock.wrapperContained,wallBlock.wrapperContained,settings,verticalAttachmentDirection.wrapperContained); }
 // public boolean canPlaceAt(yarnwrap.world.WorldView world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos) { return wrapperContained.canPlaceAt(world.wrapperContained,state.wrapperContained,pos.wrapperContained); }
 
 }

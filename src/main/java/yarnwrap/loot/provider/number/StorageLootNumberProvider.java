@@ -3,6 +3,7 @@ public class StorageLootNumberProvider { public net.minecraft.loot.provider.numb
 
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public com.mojang.datafixers.kinds.App method_58470(Object instance) { return wrapperContained.method_58470(instance); }
 // public java.util.Optional getNumber(yarnwrap.loot.context.LootContext context) { return wrapperContained.getNumber(context.wrapperContained); }
 
 }

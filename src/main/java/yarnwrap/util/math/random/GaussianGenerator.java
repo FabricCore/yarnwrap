@@ -7,6 +7,7 @@ public yarnwrap.util.math.random.Random baseRandom() { return new yarnwrap.util.
 // public void nextNextGaussian(double value) { wrapperContained.nextNextGaussian = value; }
 // public boolean hasNextGaussian() { return wrapperContained.hasNextGaussian; }
 // public void hasNextGaussian(boolean value) { wrapperContained.hasNextGaussian = value; }
+public GaussianGenerator(yarnwrap.util.math.random.Random baseRandom) { this.wrapperContained = new net.minecraft.util.math.random.GaussianGenerator(baseRandom.wrapperContained); }
 public double next() { return wrapperContained.next(); }
 public void reset() { wrapperContained.reset(); }
 

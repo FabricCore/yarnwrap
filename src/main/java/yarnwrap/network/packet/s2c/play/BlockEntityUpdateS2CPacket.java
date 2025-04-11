@@ -9,6 +9,7 @@ public class BlockEntityUpdateS2CPacket { public net.minecraft.network.packet.s2
 // public void pos(yarnwrap.util.math.BlockPos value) { wrapperContained.pos = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public BlockEntityUpdateS2CPacket(yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.BlockEntityType blockEntityType,yarnwrap.nbt.NbtCompound nbt) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.BlockEntityUpdateS2CPacket(pos.wrapperContained,blockEntityType.wrapperContained,nbt.wrapperContained); }
 public yarnwrap.nbt.NbtCompound getNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.getNbt()); }
 public yarnwrap.block.entity.BlockEntityType getBlockEntityType() { return new yarnwrap.block.entity.BlockEntityType(wrapperContained.getBlockEntityType()); }
 public yarnwrap.util.math.BlockPos getPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getPos()); }

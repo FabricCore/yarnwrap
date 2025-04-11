@@ -7,6 +7,7 @@ public class TimedTaskRunner { public net.minecraft.test.TimedTaskRunner wrapper
 // public void tasks(java.util.List value) { wrapperContained.tasks = value; }
 // public long tick() { return wrapperContained.tick; }
 // public void tick(long value) { wrapperContained.tick = value; }
+// public TimedTaskRunner(yarnwrap.test.GameTestState gameTest) { this.wrapperContained = new net.minecraft.test.TimedTaskRunner(gameTest.wrapperContained); }
 public void runSilently(long tick) { wrapperContained.runSilently(tick); }
 public void runReported(long tick) { wrapperContained.runReported(tick); }
 // public void runTasks(long tick) { wrapperContained.runTasks(tick); }

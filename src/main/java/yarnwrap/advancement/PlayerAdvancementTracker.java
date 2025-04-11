@@ -27,6 +27,7 @@ public class PlayerAdvancementTracker { public net.minecraft.advancement.PlayerA
 // public void advancementManager(yarnwrap.advancement.AdvancementManager value) { wrapperContained.advancementManager = value.wrapperContained; }
 // public com.mojang.serialization.Codec progressMapCodec() { return wrapperContained.progressMapCodec; }
 // public void progressMapCodec(com.mojang.serialization.Codec value) { wrapperContained.progressMapCodec = value; }
+public PlayerAdvancementTracker(com.mojang.datafixers.DataFixer dataFixer,yarnwrap.server.PlayerManager playerManager,yarnwrap.server.ServerAdvancementLoader advancementLoader,java.nio.file.Path filePath,yarnwrap.server.network.ServerPlayerEntity owner) { this.wrapperContained = new net.minecraft.advancement.PlayerAdvancementTracker(dataFixer,playerManager.wrapperContained,advancementLoader.wrapperContained,filePath,owner.wrapperContained); }
 // public void rewardEmptyAdvancements(yarnwrap.server.ServerAdvancementLoader advancementLoader) { wrapperContained.rewardEmptyAdvancements(advancementLoader.wrapperContained); }
 // public void load(yarnwrap.server.ServerAdvancementLoader advancementLoader) { wrapperContained.load(advancementLoader.wrapperContained); }
 // public void beginTracking(yarnwrap.advancement.AdvancementEntry advancement) { wrapperContained.beginTracking(advancement.wrapperContained); }
@@ -43,9 +44,14 @@ public void setDisplayTab(yarnwrap.advancement.AdvancementEntry advancement) { w
 // public void beginTrackingAllAdvancements(yarnwrap.server.ServerAdvancementLoader advancementLoader) { wrapperContained.beginTrackingAllAdvancements(advancementLoader.wrapperContained); }
 public void save() { wrapperContained.save(); }
 // public void calculateDisplay(yarnwrap.advancement.PlacedAdvancement root,java.util.Set added,java.util.Set removed) { wrapperContained.calculateDisplay(root.wrapperContained,added,removed); }
+// public void method_48027(java.util.Set advancement,java.util.Set displayed) { wrapperContained.method_48027(advancement,displayed); }
 // public void onStatusUpdate(yarnwrap.advancement.AdvancementEntry advancement) { wrapperContained.onStatusUpdate(advancement.wrapperContained); }
+// public boolean method_48029(yarnwrap.advancement.PlacedAdvancement advancement) { return wrapperContained.method_48029(advancement.wrapperContained); }
+// public void method_53637(yarnwrap.advancement.AdvancementEntry display) { wrapperContained.method_53637(display.wrapperContained); }
 // public void beginTracking(yarnwrap.advancement.AdvancementEntry advancement,java.lang.String id,yarnwrap.advancement.AdvancementCriterion criterion) { wrapperContained.beginTracking(advancement.wrapperContained,id,criterion.wrapperContained); }
+// public void method_53639(yarnwrap.server.ServerAdvancementLoader id,yarnwrap.util.Identifier progress) { wrapperContained.method_53639(id.wrapperContained,progress.wrapperContained); }
 // public void loadProgressMap(yarnwrap.server.ServerAdvancementLoader loader,Object progressMap) { wrapperContained.loadProgressMap(loader.wrapperContained,progressMap); }
+// public void method_53641(java.util.Map entry,yarnwrap.advancement.AdvancementEntry progress) { wrapperContained.method_53641(entry,progress.wrapperContained); }
 // public void endTrackingCompleted(yarnwrap.advancement.AdvancementEntry advancement,java.lang.String id,yarnwrap.advancement.AdvancementCriterion criterion) { wrapperContained.endTrackingCompleted(advancement.wrapperContained,id,criterion.wrapperContained); }
 // public Object createProgressMap() { return wrapperContained.createProgressMap(); }
 

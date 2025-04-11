@@ -5,6 +5,7 @@ public class BreezeWindFeatureRenderer { public net.minecraft.client.render.enti
 // public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
 // public yarnwrap.client.render.entity.model.BreezeEntityModel model() { return new yarnwrap.client.render.entity.model.BreezeEntityModel(wrapperContained.model); }
 // public void model(yarnwrap.client.render.entity.model.BreezeEntityModel value) { wrapperContained.model = value.wrapperContained; }
+// public BreezeWindFeatureRenderer(Object context) { this.wrapperContained = new net.minecraft.client.render.entity.feature.BreezeWindFeatureRenderer(context); }
 // public float getXOffset(float tickDelta) { return wrapperContained.getXOffset(tickDelta); }
 
 }

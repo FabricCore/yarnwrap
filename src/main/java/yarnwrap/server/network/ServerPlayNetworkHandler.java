@@ -79,19 +79,27 @@ public yarnwrap.server.network.ChunkDataSender chunkDataSender() { return new ya
 // public void chunkDataSender(yarnwrap.server.network.ChunkDataSender value) { wrapperContained.chunkDataSender = value.wrapperContained; }
 // public yarnwrap.text.Text INVALID_COMMAND_SIGNATURE_TEXT() { return new yarnwrap.text.Text(wrapperContained.INVALID_COMMAND_SIGNATURE_TEXT); }
 // public void INVALID_COMMAND_SIGNATURE_TEXT(yarnwrap.text.Text value) { wrapperContained.INVALID_COMMAND_SIGNATURE_TEXT = value.wrapperContained; }
+public ServerPlayNetworkHandler(yarnwrap.server.MinecraftServer server,yarnwrap.network.ClientConnection connection,yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.server.network.ConnectedClientData clientData) { this.wrapperContained = new net.minecraft.server.network.ServerPlayNetworkHandler(server.wrapperContained,connection.wrapperContained,player.wrapperContained,clientData.wrapperContained); }
 public void requestTeleport(double x,double y,double z,float yaw,float pitch,java.util.Set flags) { wrapperContained.requestTeleport(x,y,z,yaw,pitch,flags); }
 public void requestTeleport(double x,double y,double z,float yaw,float pitch) { wrapperContained.requestTeleport(x,y,z,yaw,pitch); }
+// public void method_14365(yarnwrap.network.packet.c2s.play.RequestCommandCompletionsC2SPacket suggestions) { wrapperContained.method_14365(suggestions.wrapperContained); }
 // public boolean isMovementInvalid(double x,double y,double z,float yaw,float pitch) { return wrapperContained.isMovementInvalid(x,y,z,yaw,pitch); }
 public void syncWithPlayerPosition() { wrapperContained.syncWithPlayerPosition(); }
+// public void method_17820(yarnwrap.network.packet.c2s.play.CraftRequestC2SPacket recipe) { wrapperContained.method_17820(recipe.wrapperContained); }
 // public boolean isPlayerNotCollidingWithBlocks(yarnwrap.world.WorldView world,yarnwrap.util.math.Box box,double newX,double newY,double newZ) { return wrapperContained.isPlayerNotCollidingWithBlocks(world.wrapperContained,box.wrapperContained,newX,newY,newZ); }
 // public boolean canPlace(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.item.ItemStack stack) { return wrapperContained.canPlace(player.wrapperContained,stack.wrapperContained); }
 // public boolean isEntityOnAir(yarnwrap.entity.Entity entity) { return wrapperContained.isEntityOnAir(entity.wrapperContained); }
+// public void method_31274(int texts) { wrapperContained.method_31274(texts); }
 // public java.util.concurrent.CompletableFuture filterText(java.lang.Object text,java.util.function.BiFunction filterer) { return wrapperContained.filterText(text,filterer); }
 // public void addBook(yarnwrap.server.filter.FilteredMessage title,java.util.List pages,int slotId) { wrapperContained.addBook(title.wrapperContained,pages,slotId); }
 // public java.util.concurrent.CompletableFuture filterText(java.lang.String text) { return wrapperContained.filterText(text); }
 // public void updateBookContent(java.util.List pages,int slotId) { wrapperContained.updateBookContent(pages,slotId); }
 // public java.util.concurrent.CompletableFuture filterTexts(java.util.List texts) { return wrapperContained.filterTexts(texts); }
 // public void onSignUpdate(yarnwrap.network.packet.c2s.play.UpdateSignC2SPacket packet,java.util.List signText) { wrapperContained.onSignUpdate(packet.wrapperContained,signText); }
+// public void method_31283(int texts) { wrapperContained.method_31283(texts); }
+// public java.lang.Object method_31284(java.lang.Object filtered) { return wrapperContained.method_31284(filtered); }
+// public void method_31285(yarnwrap.network.packet.c2s.play.UpdateSignC2SPacket texts) { wrapperContained.method_31285(texts.wrapperContained); }
+// public yarnwrap.text.RawFilteredPair method_33799(yarnwrap.server.filter.FilteredMessage page) { return new yarnwrap.text.RawFilteredPair(wrapperContained.method_33799(page.wrapperContained)); }
 // public double clampHorizontal(double d) { return wrapperContained.clampHorizontal(d); }
 // public double clampVertical(double d) { return wrapperContained.clampVertical(d); }
 public void updateSequence(int sequence) { wrapperContained.updateSequence(sequence); }
@@ -100,10 +108,12 @@ public void updateSequence(int sequence) { wrapperContained.updateSequence(seque
 // public void handleDecoratedMessage(yarnwrap.network.message.SignedMessage message) { wrapperContained.handleDecoratedMessage(message.wrapperContained); }
 // public void validateMessage(java.lang.String message,java.lang.Runnable callback) { wrapperContained.validateMessage(message,callback); }
 public void addPendingAcknowledgment(yarnwrap.network.message.SignedMessage message) { wrapperContained.addPendingAcknowledgment(message.wrapperContained); }
+// public yarnwrap.server.command.ServerCommandSource method_45002(yarnwrap.network.message.SignedCommandArguments source) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.method_45002(source.wrapperContained)); }
 // public com.mojang.brigadier.ParseResults parse(java.lang.String command) { return wrapperContained.parse(command); }
 // public java.util.Map collectArgumentMessages(yarnwrap.network.packet.c2s.play.ChatCommandSignedC2SPacket packet,yarnwrap.command.argument.SignedArgumentList arguments,yarnwrap.network.message.LastSeenMessageList lastSeenMessages) { return wrapperContained.collectArgumentMessages(packet.wrapperContained,arguments.wrapperContained,lastSeenMessages.wrapperContained); }
 // public void handleCommandExecution(yarnwrap.network.packet.c2s.play.ChatCommandSignedC2SPacket packet,yarnwrap.network.message.LastSeenMessageList lastSeenMessages) { wrapperContained.handleCommandExecution(packet.wrapperContained,lastSeenMessages.wrapperContained); }
 // public yarnwrap.network.message.SignedMessage getSignedMessage(yarnwrap.network.packet.c2s.play.ChatMessageC2SPacket packet,yarnwrap.network.message.LastSeenMessageList lastSeenMessages) { return new yarnwrap.network.message.SignedMessage(wrapperContained.getSignedMessage(packet.wrapperContained,lastSeenMessages.wrapperContained)); }
+// public void method_45064(yarnwrap.network.message.SignedMessage filtered) { wrapperContained.method_45064(filtered.wrapperContained); }
 // public void sendProfilelessChatMessage(yarnwrap.text.Text message,Object params) { wrapperContained.sendProfilelessChatMessage(message.wrapperContained,params); }
 // public java.util.Optional validateAcknowledgment(Object acknowledgment) { return wrapperContained.validateAcknowledgment(acknowledgment); }
 // public void sendChatMessage(yarnwrap.network.message.SignedMessage message,Object params) { wrapperContained.sendChatMessage(message.wrapperContained,params); }

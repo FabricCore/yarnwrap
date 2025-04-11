@@ -9,8 +9,10 @@ public int MAX_BOOKS() { return wrapperContained.MAX_BOOKS; }
 // public void inventory(yarnwrap.util.collection.DefaultedList value) { wrapperContained.inventory = value.wrapperContained; }
 // public int lastInteractedSlot() { return wrapperContained.lastInteractedSlot; }
 // public void lastInteractedSlot(int value) { wrapperContained.lastInteractedSlot = value; }
+public ChiseledBookshelfBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.ChiseledBookshelfBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public void updateState(int interactedSlot) { wrapperContained.updateState(interactedSlot); }
 public int getFilledSlotCount() { return wrapperContained.getFilledSlotCount(); }
 public int getLastInteractedSlot() { return wrapperContained.getLastInteractedSlot(); }
+// public boolean method_51356(yarnwrap.item.ItemStack stack2) { return wrapperContained.method_51356(stack2.wrapperContained); }
 
 }

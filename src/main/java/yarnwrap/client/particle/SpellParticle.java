@@ -7,6 +7,7 @@ public class SpellParticle { public net.minecraft.client.particle.SpellParticle 
 // public void RANDOM(yarnwrap.util.math.random.Random value) { wrapperContained.RANDOM = value.wrapperContained; }
 // public float defaultAlpha() { return wrapperContained.defaultAlpha; }
 // public void defaultAlpha(float value) { wrapperContained.defaultAlpha = value; }
+// public SpellParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ,yarnwrap.client.particle.SpriteProvider spriteProvider) { this.wrapperContained = new net.minecraft.client.particle.SpellParticle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ,spriteProvider.wrapperContained); }
 // public boolean isInvisible() { return wrapperContained.isInvisible(); }
 
 }

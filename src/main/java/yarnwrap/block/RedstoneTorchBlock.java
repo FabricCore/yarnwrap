@@ -11,5 +11,6 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public boolean shouldUnpower(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { return wrapperContained.shouldUnpower(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public boolean isBurnedOut(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,boolean addNew) { return wrapperContained.isBurnedOut(world.wrapperContained,pos.wrapperContained,addNew); }
+// public java.util.List method_20453(yarnwrap.world.BlockView worldx) { return wrapperContained.method_20453(worldx.wrapperContained); }
 
 }

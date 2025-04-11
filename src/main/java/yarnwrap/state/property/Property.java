@@ -11,16 +11,20 @@ public class Property { public net.minecraft.state.property.Property wrapperCont
 // public void codec(com.mojang.serialization.Codec value) { wrapperContained.codec = value; }
 // public com.mojang.serialization.Codec valueCodec() { return wrapperContained.valueCodec; }
 // public void valueCodec(com.mojang.serialization.Codec value) { wrapperContained.valueCodec = value; }
+// public Property(java.lang.String name,java.lang.Class type) { this.wrapperContained = new net.minecraft.state.property.Property(name,type); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public int computeHashCode() { return wrapperContained.computeHashCode(); }
 public java.util.Collection getValues() { return wrapperContained.getValues(); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 public java.util.Optional parse(java.lang.String name) { return wrapperContained.parse(name); }
 public java.lang.String name(java.lang.Comparable value) { return wrapperContained.name(value); }
 public java.lang.Class getType() { return wrapperContained.getType(); }
+// public com.mojang.serialization.DataResult method_28504(java.lang.String value) { return wrapperContained.method_28504(value); }
 public Object createValue(yarnwrap.state.State state) { return wrapperContained.createValue(state.wrapperContained); }
 public Object createValue(java.lang.Comparable value) { return wrapperContained.createValue(value); }
 public java.util.stream.Stream stream() { return wrapperContained.stream(); }
 public com.mojang.serialization.Codec getValueCodec() { return wrapperContained.getValueCodec(); }
+// public yarnwrap.state.State method_35306(yarnwrap.state.State property) { return new yarnwrap.state.State(wrapperContained.method_35306(property.wrapperContained)); }
 public com.mojang.serialization.DataResult parse(com.mojang.serialization.DynamicOps ops,yarnwrap.state.State state,java.lang.Object input) { return wrapperContained.parse(ops,state.wrapperContained,input); }
 public com.mojang.serialization.Codec getCodec() { return wrapperContained.getCodec(); }
 

@@ -27,6 +27,8 @@ public float pathLength() { return wrapperContained.pathLength; }
 public void pathLength(float value) { wrapperContained.pathLength = value; }
 public float heapWeight() { return wrapperContained.heapWeight; }
 public void heapWeight(float value) { wrapperContained.heapWeight = value; }
+public PathNode(int x,int y,int z) { this.wrapperContained = new net.minecraft.entity.ai.pathing.PathNode(x,y,z); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public float getManhattanDistance(yarnwrap.entity.ai.pathing.PathNode node) { return wrapperContained.getManhattanDistance(node.wrapperContained); }
 public float getManhattanDistance(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getManhattanDistance(pos.wrapperContained); }
 public yarnwrap.util.math.BlockPos getBlockPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getBlockPos()); }

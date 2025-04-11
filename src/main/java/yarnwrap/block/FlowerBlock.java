@@ -9,6 +9,9 @@ public class FlowerBlock { public net.minecraft.block.FlowerBlock wrapperContain
 // public void STEW_EFFECT_CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.STEW_EFFECT_CODEC = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public FlowerBlock(yarnwrap.registry.entry.RegistryEntry stewEffect,float effectLengthInSeconds,Object settings) { this.wrapperContained = new net.minecraft.block.FlowerBlock(stewEffect.wrapperContained,effectLengthInSeconds,settings); }
+// public FlowerBlock(yarnwrap.component.type.SuspiciousStewEffectsComponent stewEffects,Object settings) { this.wrapperContained = new net.minecraft.block.FlowerBlock(stewEffects.wrapperContained,settings); }
 // public yarnwrap.component.type.SuspiciousStewEffectsComponent createStewEffectList(yarnwrap.registry.entry.RegistryEntry effect,float effectLengthInSeconds) { return new yarnwrap.component.type.SuspiciousStewEffectsComponent(wrapperContained.createStewEffectList(effect.wrapperContained,effectLengthInSeconds)); }
+// public com.mojang.datafixers.kinds.App method_54016(Object instance) { return wrapperContained.method_54016(instance); }
 
 }

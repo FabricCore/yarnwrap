@@ -9,5 +9,6 @@ public class RealmsConnectTask { public net.minecraft.client.realms.task.RealmsC
 // public void server(yarnwrap.client.realms.dto.RealmsServer value) { wrapperContained.server = value.wrapperContained; }
 // public yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(wrapperContained.TITLE); }
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
+public RealmsConnectTask(yarnwrap.client.gui.screen.Screen lastScreen,yarnwrap.client.realms.dto.RealmsServer server,yarnwrap.client.realms.dto.RealmsServerAddress address) { this.wrapperContained = new net.minecraft.client.realms.task.RealmsConnectTask(lastScreen.wrapperContained,server.wrapperContained,address.wrapperContained); }
 
 }

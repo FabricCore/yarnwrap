@@ -25,6 +25,7 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public BlockPos(yarnwrap.util.math.Vec3i pos) { this.wrapperContained = new net.minecraft.util.math.BlockPos(pos.wrapperContained); }
 public long offset(long value,yarnwrap.util.math.Direction direction) { return wrapperContained.offset(value,direction.wrapperContained); }
 public int unpackLongX(long packedPos) { return wrapperContained.unpackLongX(packedPos); }
 public yarnwrap.util.math.BlockPos toImmutable() { return new yarnwrap.util.math.BlockPos(wrapperContained.toImmutable()); }
@@ -57,6 +58,9 @@ public java.lang.Iterable iterateOutwards(yarnwrap.util.math.BlockPos center,int
 public java.util.Optional findClosest(yarnwrap.util.math.BlockPos pos,int horizontalRange,int verticalRange,java.util.function.Predicate condition) { return wrapperContained.findClosest(pos.wrapperContained,horizontalRange,verticalRange,condition); }
 public java.util.stream.Stream streamOutwards(yarnwrap.util.math.BlockPos center,int maxX,int maxY,int maxZ) { return wrapperContained.streamOutwards(center.wrapperContained,maxX,maxY,maxZ); }
 public java.lang.Iterable iterateRandomly(yarnwrap.util.math.random.Random random,int count,int minX,int minY,int minZ,int maxX,int maxY,int maxZ) { return wrapperContained.iterateRandomly(random.wrapperContained,count,minX,minY,minZ,maxX,maxY,maxZ); }
+// public java.util.stream.IntStream method_29093(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_29093(pos.wrapperContained); }
+// public com.mojang.serialization.DataResult method_29094(java.util.stream.IntStream stream) { return wrapperContained.method_29094(stream); }
+// public yarnwrap.util.math.BlockPos method_29095(int values) { return new yarnwrap.util.math.BlockPos(wrapperContained.method_29095(values)); }
 public java.util.stream.Stream stream(yarnwrap.util.math.Box box) { return wrapperContained.stream(box.wrapperContained); }
 public java.lang.Iterable iterateInSquare(yarnwrap.util.math.BlockPos center,int radius,yarnwrap.util.math.Direction firstDirection,yarnwrap.util.math.Direction secondDirection) { return wrapperContained.iterateInSquare(center.wrapperContained,radius,firstDirection.wrapperContained,secondDirection.wrapperContained); }
 public yarnwrap.util.math.BlockPos withY(int y) { return new yarnwrap.util.math.BlockPos(wrapperContained.withY(y)); }
@@ -65,6 +69,7 @@ public yarnwrap.util.math.Vec3d toCenterPos() { return new yarnwrap.util.math.Ve
 public yarnwrap.util.math.BlockPos ofFloored(double x,double y,double z) { return new yarnwrap.util.math.BlockPos(wrapperContained.ofFloored(x,y,z)); }
 public yarnwrap.util.math.BlockPos ofFloored(yarnwrap.util.math.Position pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.ofFloored(pos.wrapperContained)); }
 public int iterateRecursively(yarnwrap.util.math.BlockPos pos,int maxDepth,int maxIterations,java.util.function.BiConsumer nextQueuer,java.util.function.Predicate callback) { return wrapperContained.iterateRecursively(pos.wrapperContained,maxDepth,maxIterations,nextQueuer,callback); }
+// public void method_49926(java.util.Queue queuedPos) { wrapperContained.method_49926(queuedPos); }
 public java.util.stream.Stream streamSouthEastSquare(yarnwrap.util.math.BlockPos pos) { return wrapperContained.streamSouthEastSquare(pos.wrapperContained); }
 public yarnwrap.util.math.BlockPos min(yarnwrap.util.math.BlockPos a,yarnwrap.util.math.BlockPos b) { return new yarnwrap.util.math.BlockPos(wrapperContained.min(a.wrapperContained,b.wrapperContained)); }
 public yarnwrap.util.math.BlockPos max(yarnwrap.util.math.BlockPos a,yarnwrap.util.math.BlockPos b) { return new yarnwrap.util.math.BlockPos(wrapperContained.max(a.wrapperContained,b.wrapperContained)); }

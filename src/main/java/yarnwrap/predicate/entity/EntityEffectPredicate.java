@@ -5,6 +5,7 @@ public class EntityEffectPredicate { public net.minecraft.predicate.entity.Entit
 // public void effects(java.util.Map value) { wrapperContained.effects = value; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public EntityEffectPredicate(java.util.Map effects) { this.wrapperContained = new net.minecraft.predicate.entity.EntityEffectPredicate(effects); }
 // public java.util.Map effects() { return wrapperContained.effects(); }
 public boolean test(yarnwrap.entity.Entity entity) { return wrapperContained.test(entity.wrapperContained); }
 public boolean test(java.util.Map effects) { return wrapperContained.test(effects); }

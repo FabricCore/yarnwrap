@@ -9,6 +9,8 @@ public class CraftRequestC2SPacket { public net.minecraft.network.packet.c2s.pla
 // public void syncId(int value) { wrapperContained.syncId = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public CraftRequestC2SPacket(int syncId,yarnwrap.recipe.RecipeEntry recipe,boolean craftAll) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.CraftRequestC2SPacket(syncId,recipe.wrapperContained,craftAll); }
+// public CraftRequestC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.CraftRequestC2SPacket(buf.wrapperContained); }
 public int getSyncId() { return wrapperContained.getSyncId(); }
 public boolean shouldCraftAll() { return wrapperContained.shouldCraftAll(); }
 public yarnwrap.util.Identifier getRecipeId() { return new yarnwrap.util.Identifier(wrapperContained.getRecipeId()); }

@@ -11,10 +11,12 @@ public class ChunkGenerationSample { public net.minecraft.util.profiling.jfr.sam
 // public void chunkStatus(yarnwrap.world.chunk.ChunkStatus value) { wrapperContained.chunkStatus = value.wrapperContained; }
 // public java.lang.String worldKey() { return wrapperContained.worldKey; }
 // public void worldKey(java.lang.String value) { wrapperContained.worldKey = value; }
+// public ChunkGenerationSample(java.time.Duration duration) { this.wrapperContained = new net.minecraft.util.profiling.jfr.sample.ChunkGenerationSample(duration); }
 // public yarnwrap.util.math.ChunkPos chunkPos() { return new yarnwrap.util.math.ChunkPos(wrapperContained.chunkPos()); }
 // public yarnwrap.util.math.ColumnPos centerPos() { return new yarnwrap.util.math.ColumnPos(wrapperContained.centerPos()); }
 // public yarnwrap.world.chunk.ChunkStatus chunkStatus() { return new yarnwrap.world.chunk.ChunkStatus(wrapperContained.chunkStatus()); }
 // public java.lang.String worldKey() { return wrapperContained.worldKey(); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.profiling.jfr.sample.ChunkGenerationSample fromEvent(jdk.jfr.consumer.RecordedEvent event) { return new yarnwrap.util.profiling.jfr.sample.ChunkGenerationSample(wrapperContained.fromEvent(event)); }
 
 }

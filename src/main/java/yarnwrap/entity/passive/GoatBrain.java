@@ -38,12 +38,22 @@ public float BABY_RAM_STRENGTH_MULTIPLIER() { return wrapperContained.BABY_RAM_S
 // public yarnwrap.util.math.intprovider.UniformIntProvider SCREAMING_RAM_COOLDOWN_RANGE() { return new yarnwrap.util.math.intprovider.UniformIntProvider(wrapperContained.SCREAMING_RAM_COOLDOWN_RANGE); }
 // public void SCREAMING_RAM_COOLDOWN_RANGE(yarnwrap.util.math.intprovider.UniformIntProvider value) { wrapperContained.SCREAMING_RAM_COOLDOWN_RANGE = value.wrapperContained; }
 public java.util.function.Predicate getTemptItemPredicate() { return wrapperContained.getTemptItemPredicate(); }
+// public java.lang.Float method_35182(yarnwrap.entity.LivingEntity goat) { return wrapperContained.method_35182(goat.wrapperContained); }
 // public yarnwrap.entity.ai.brain.Brain create(yarnwrap.entity.ai.brain.Brain brain) { return new yarnwrap.entity.ai.brain.Brain(wrapperContained.create(brain.wrapperContained)); }
 // public void resetLongJumpCooldown(yarnwrap.entity.passive.GoatEntity goat,yarnwrap.util.math.random.Random random) { wrapperContained.resetLongJumpCooldown(goat.wrapperContained,random.wrapperContained); }
 // public void addCoreActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addCoreActivities(brain.wrapperContained); }
 public void updateActivities(yarnwrap.entity.passive.GoatEntity goat) { wrapperContained.updateActivities(goat.wrapperContained); }
 // public void addIdleActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleActivities(brain.wrapperContained); }
 // public void addLongJumpActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addLongJumpActivities(brain.wrapperContained); }
+// public boolean method_36285(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_36285(entity.wrapperContained); }
+// public yarnwrap.sound.SoundEvent method_36286(yarnwrap.entity.passive.GoatEntity goat) { return new yarnwrap.sound.SoundEvent(wrapperContained.method_36286(goat.wrapperContained)); }
+// public yarnwrap.sound.SoundEvent method_36287(yarnwrap.entity.passive.GoatEntity goat) { return new yarnwrap.sound.SoundEvent(wrapperContained.method_36287(goat.wrapperContained)); }
 // public void addRamActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addRamActivities(brain.wrapperContained); }
+// public double method_36289(yarnwrap.entity.passive.GoatEntity goat) { return wrapperContained.method_36289(goat.wrapperContained); }
+// public yarnwrap.util.math.intprovider.UniformIntProvider method_36290(yarnwrap.entity.passive.GoatEntity goat) { return new yarnwrap.util.math.intprovider.UniformIntProvider(wrapperContained.method_36290(goat.wrapperContained)); }
+// public yarnwrap.sound.SoundEvent method_36291(yarnwrap.entity.passive.GoatEntity goat) { return new yarnwrap.sound.SoundEvent(wrapperContained.method_36291(goat.wrapperContained)); }
+// public int method_36553(yarnwrap.entity.passive.GoatEntity goat) { return wrapperContained.method_36553(goat.wrapperContained); }
+// public yarnwrap.sound.SoundEvent method_43543(yarnwrap.entity.passive.GoatEntity goat) { return new yarnwrap.sound.SoundEvent(wrapperContained.method_43543(goat.wrapperContained)); }
+// public boolean method_58391(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58391(stack.wrapperContained); }
 
 }

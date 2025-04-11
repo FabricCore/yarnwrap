@@ -31,6 +31,8 @@ public class ZombieEntity { public net.minecraft.entity.mob.ZombieEntity wrapper
 // public void breakDoorsGoal(yarnwrap.entity.ai.goal.BreakDoorGoal value) { wrapperContained.breakDoorsGoal = value.wrapperContained; }
 // public yarnwrap.entity.data.TrackedData BABY() { return new yarnwrap.entity.data.TrackedData(wrapperContained.BABY); }
 // public void BABY(yarnwrap.entity.data.TrackedData value) { wrapperContained.BABY = value.wrapperContained; }
+public ZombieEntity(yarnwrap.world.World world) { this.wrapperContained = new net.minecraft.entity.mob.ZombieEntity(world.wrapperContained); }
+// public boolean method_20009(yarnwrap.world.Difficulty difficulty) { return wrapperContained.method_20009(difficulty.wrapperContained); }
 public Object createZombieAttributes() { return wrapperContained.createZombieAttributes(); }
 public boolean shouldBeBaby(yarnwrap.util.math.random.Random random) { return wrapperContained.shouldBeBaby(random.wrapperContained); }
 // public void initAttributes() { wrapperContained.initAttributes(); }

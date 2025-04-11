@@ -3,5 +3,6 @@ public class DamageEntityEnchantmentEffect { public net.minecraft.enchantment.ef
 
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public com.mojang.datafixers.kinds.App method_60224(Object instance) { return wrapperContained.method_60224(instance); }
 
 }

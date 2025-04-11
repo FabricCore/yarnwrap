@@ -7,5 +7,6 @@ public class WeightedBakedModel { public net.minecraft.client.render.model.Weigh
 // public void models(java.util.List value) { wrapperContained.models = value; }
 // public yarnwrap.client.render.model.BakedModel defaultModel() { return new yarnwrap.client.render.model.BakedModel(wrapperContained.defaultModel); }
 // public void defaultModel(yarnwrap.client.render.model.BakedModel value) { wrapperContained.defaultModel = value.wrapperContained; }
+public WeightedBakedModel(java.util.List models) { this.wrapperContained = new net.minecraft.client.render.model.WeightedBakedModel(models); }
 
 }

@@ -9,6 +9,7 @@ public class RealmsLabel { public net.minecraft.client.realms.RealmsLabel wrappe
 // public void y(int value) { wrapperContained.y = value; }
 // public int color() { return wrapperContained.color; }
 // public void color(int value) { wrapperContained.color = value; }
+public RealmsLabel(yarnwrap.text.Text text,int x,int y,int color) { this.wrapperContained = new net.minecraft.client.realms.RealmsLabel(text.wrapperContained,x,y,color); }
 public yarnwrap.text.Text getText() { return new yarnwrap.text.Text(wrapperContained.getText()); }
 
 }

@@ -18,6 +18,7 @@ public int MAX_LEVEL() { return wrapperContained.MAX_LEVEL; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public void registerCompostableItem(float levelIncreaseChance,yarnwrap.item.ItemConvertible item) { wrapperContained.registerCompostableItem(levelIncreaseChance,item.wrapperContained); }
+// public void method_17755(net.minecraft.util.shape.VoxelShape[] shapes) { wrapperContained.method_17755(shapes); }
 // public yarnwrap.block.BlockState addToComposter(yarnwrap.entity.Entity user,yarnwrap.block.BlockState state,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack stack) { return new yarnwrap.block.BlockState(wrapperContained.addToComposter(user.wrapperContained,state.wrapperContained,world.wrapperContained,pos.wrapperContained,stack.wrapperContained)); }
 public void registerDefaultCompostableItems() { wrapperContained.registerDefaultCompostableItems(); }
 // public yarnwrap.block.BlockState emptyComposter(yarnwrap.entity.Entity user,yarnwrap.block.BlockState state,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.emptyComposter(user.wrapperContained,state.wrapperContained,world.wrapperContained,pos.wrapperContained)); }

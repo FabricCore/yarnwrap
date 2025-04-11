@@ -13,6 +13,7 @@ public void elytraPitch(float value) { wrapperContained.elytraPitch = value; }
 // public void playerListEntry(yarnwrap.client.network.PlayerListEntry value) { wrapperContained.playerListEntry = value.wrapperContained; }
 // public yarnwrap.util.math.Vec3d lastVelocity() { return new yarnwrap.util.math.Vec3d(wrapperContained.lastVelocity); }
 // public void lastVelocity(yarnwrap.util.math.Vec3d value) { wrapperContained.lastVelocity = value.wrapperContained; }
+// public AbstractClientPlayerEntity(yarnwrap.client.world.ClientWorld world,com.mojang.authlib.GameProfile profile) { this.wrapperContained = new net.minecraft.client.network.AbstractClientPlayerEntity(world.wrapperContained,profile); }
 public float getFovMultiplier() { return wrapperContained.getFovMultiplier(); }
 // public yarnwrap.client.network.PlayerListEntry getPlayerListEntry() { return new yarnwrap.client.network.PlayerListEntry(wrapperContained.getPlayerListEntry()); }
 public yarnwrap.util.math.Vec3d lerpVelocity(float tickDelta) { return new yarnwrap.util.math.Vec3d(wrapperContained.lerpVelocity(tickDelta)); }

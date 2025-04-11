@@ -7,6 +7,7 @@ public class SelectiveNbtCollector { public net.minecraft.nbt.scanner.SelectiveN
 // public void allPossibleTypes(java.util.Set value) { wrapperContained.allPossibleTypes = value; }
 // public java.util.Deque selectionStack() { return wrapperContained.selectionStack; }
 // public void selectionStack(java.util.Deque value) { wrapperContained.selectionStack = value; }
+public SelectiveNbtCollector(net.minecraft.nbt.scanner.NbtScanQuery[] queries) { this.wrapperContained = new net.minecraft.nbt.scanner.SelectiveNbtCollector(queries); }
 public int getQueriesLeft() { return wrapperContained.getQueriesLeft(); }
 
 }

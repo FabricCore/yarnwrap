@@ -7,11 +7,14 @@ public class DataCommandStorage { public net.minecraft.command.DataCommandStorag
 // public void stateManager(yarnwrap.world.PersistentStateManager value) { wrapperContained.stateManager = value.wrapperContained; }
 // public java.lang.String COMMAND_STORAGE_PREFIX() { return wrapperContained.COMMAND_STORAGE_PREFIX; }
 // public void COMMAND_STORAGE_PREFIX(java.lang.String value) { wrapperContained.COMMAND_STORAGE_PREFIX = value; }
+public DataCommandStorage(yarnwrap.world.PersistentStateManager stateManager) { this.wrapperContained = new net.minecraft.command.DataCommandStorage(stateManager.wrapperContained); }
 public java.util.stream.Stream getIds() { return wrapperContained.getIds(); }
 // public java.lang.String getSaveKey(java.lang.String namespace) { return wrapperContained.getSaveKey(namespace); }
 // public Object createStorage(java.lang.String namespace) { return wrapperContained.createStorage(namespace); }
+// public java.util.stream.Stream method_22545(Object entry) { return wrapperContained.method_22545(entry); }
 public yarnwrap.nbt.NbtCompound get(yarnwrap.util.Identifier id) { return new yarnwrap.nbt.NbtCompound(wrapperContained.get(id.wrapperContained)); }
 public void set(yarnwrap.util.Identifier id,yarnwrap.nbt.NbtCompound nbt) { wrapperContained.set(id.wrapperContained,nbt.wrapperContained); }
+// public Object method_52613(java.lang.String nbt,yarnwrap.nbt.NbtCompound registryLookup) { return wrapperContained.method_52613(nbt,registryLookup.wrapperContained); }
 // public Object getPersistentStateType(java.lang.String namespace) { return wrapperContained.getPersistentStateType(namespace); }
 
 }

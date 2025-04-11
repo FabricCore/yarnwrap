@@ -9,6 +9,7 @@ public int x() { return wrapperContained.x; }
 // public void x(int value) { wrapperContained.x = value; }
 public int y() { return wrapperContained.y; }
 // public void y(int value) { wrapperContained.y = value; }
+// public RealmsAcceptRejectButton(int width,int height,int x,int y) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsAcceptRejectButton(width,height,x,y); }
 public int getRight() { return wrapperContained.getRight(); }
 public void handleClick(int index) { wrapperContained.handleClick(index); }
 public void render(yarnwrap.client.gui.DrawContext context,int x,int y,int mouseX,int mouseY) { wrapperContained.render(context.wrapperContained,x,y,mouseX,mouseY); }

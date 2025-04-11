@@ -11,5 +11,6 @@ public class RealmsWorldResetDto { public net.minecraft.client.realms.dto.Realms
 // public void generateStructures(boolean value) { wrapperContained.generateStructures = value; }
 // public java.util.Set experiments() { return wrapperContained.experiments; }
 // public void experiments(java.util.Set value) { wrapperContained.experiments = value; }
+public RealmsWorldResetDto(java.lang.String seed,long worldTemplateId,int levelType,boolean generateStructures,java.util.Set experiments) { this.wrapperContained = new net.minecraft.client.realms.dto.RealmsWorldResetDto(seed,worldTemplateId,levelType,generateStructures,experiments); }
 
 }

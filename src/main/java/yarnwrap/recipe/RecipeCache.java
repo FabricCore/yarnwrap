@@ -5,6 +5,7 @@ public class RecipeCache { public net.minecraft.recipe.RecipeCache wrapperContai
 // // public void cache(Object value) { wrapperContained.cache = value; }
 // public java.lang.ref.WeakReference recipeManagerRef() { return wrapperContained.recipeManagerRef; }
 // public void recipeManagerRef(java.lang.ref.WeakReference value) { wrapperContained.recipeManagerRef = value; }
+public RecipeCache(int size) { this.wrapperContained = new net.minecraft.recipe.RecipeCache(size); }
 // public void sendToFront(int index) { wrapperContained.sendToFront(index); }
 // public java.util.Optional getAndCacheRecipe(yarnwrap.recipe.input.CraftingRecipeInput input,yarnwrap.world.World world) { return wrapperContained.getAndCacheRecipe(input.wrapperContained,world.wrapperContained); }
 // public void validateRecipeManager(yarnwrap.world.World world) { wrapperContained.validateRecipeManager(world.wrapperContained); }

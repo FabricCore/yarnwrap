@@ -7,7 +7,10 @@ public class GameModeArgumentType { public net.minecraft.command.argument.GameMo
 // public void VALUES(net.minecraft.world.GameMode[] value) { wrapperContained.VALUES = value; }
 // public com.mojang.brigadier.exceptions.DynamicCommandExceptionType INVALID_GAME_MODE_EXCEPTION() { return wrapperContained.INVALID_GAME_MODE_EXCEPTION; }
 // public void INVALID_GAME_MODE_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.INVALID_GAME_MODE_EXCEPTION = value; }
+public java.util.concurrent.CompletableFuture listSuggestions(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.listSuggestions(context,builder); }
 public yarnwrap.command.argument.GameModeArgumentType gameMode() { return new yarnwrap.command.argument.GameModeArgumentType(wrapperContained.gameMode()); }
 // public yarnwrap.world.GameMode getGameMode(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return new yarnwrap.world.GameMode(wrapperContained.getGameMode(context,name)); }
+// public com.mojang.brigadier.Message method_47386(java.lang.Object gameMode) { return wrapperContained.method_47386(gameMode); }
+// public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 
 }

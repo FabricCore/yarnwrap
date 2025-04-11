@@ -5,5 +5,7 @@ public yarnwrap.world.gen.stateprovider.BlockStateProvider stateProvider() { ret
 // public void stateProvider(yarnwrap.world.gen.stateprovider.BlockStateProvider value) { wrapperContained.stateProvider = value.wrapperContained; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public BlockPileFeatureConfig(yarnwrap.world.gen.stateprovider.BlockStateProvider stateProvider) { this.wrapperContained = new net.minecraft.world.gen.feature.BlockPileFeatureConfig(stateProvider.wrapperContained); }
+// public yarnwrap.world.gen.stateprovider.BlockStateProvider method_28683(yarnwrap.world.gen.feature.BlockPileFeatureConfig config) { return new yarnwrap.world.gen.stateprovider.BlockStateProvider(wrapperContained.method_28683(config.wrapperContained)); }
 
 }

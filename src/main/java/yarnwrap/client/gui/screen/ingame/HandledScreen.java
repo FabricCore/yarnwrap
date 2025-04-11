@@ -67,6 +67,7 @@ public yarnwrap.util.Identifier BACKGROUND_TEXTURE() { return new yarnwrap.util.
 // public void draggedStackRemainder(int value) { wrapperContained.draggedStackRemainder = value; }
 // public yarnwrap.text.Text playerInventoryTitle() { return new yarnwrap.text.Text(wrapperContained.playerInventoryTitle); }
 // public void playerInventoryTitle(yarnwrap.text.Text value) { wrapperContained.playerInventoryTitle = value.wrapperContained; }
+// public HandledScreen(yarnwrap.screen.ScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.HandledScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 // public boolean isPointWithinBounds(int x,int y,int width,int height,double pointX,double pointY) { return wrapperContained.isPointWithinBounds(x,y,width,height,pointX,pointY); }
 // public void calculateOffset() { wrapperContained.calculateOffset(); }
 // public void drawMouseoverTooltip(yarnwrap.client.gui.DrawContext context,int x,int y) { wrapperContained.drawMouseoverTooltip(context.wrapperContained,x,y); }

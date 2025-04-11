@@ -6,5 +6,6 @@ public class AbstractFurnaceRecipeBookScreen { public net.minecraft.client.gui.s
 // public yarnwrap.client.gui.screen.ButtonTextures TEXTURES() { return new yarnwrap.client.gui.screen.ButtonTextures(wrapperContained.TEXTURES); }
 // public void TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value) { wrapperContained.TEXTURES = value.wrapperContained; }
 // public java.util.Set getAllowedFuels() { return wrapperContained.getAllowedFuels(); }
+// public boolean method_49301(yarnwrap.item.Item item) { return wrapperContained.method_49301(item.wrapperContained); }
 
 }

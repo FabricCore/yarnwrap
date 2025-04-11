@@ -15,6 +15,7 @@ public class DimensionEffects { public net.minecraft.client.render.DimensionEffe
 // // public void skyType(Object value) { wrapperContained.skyType = value; }
 // public boolean darkened() { return wrapperContained.darkened; }
 // public void darkened(boolean value) { wrapperContained.darkened = value; }
+// public DimensionEffects(float cloudsHeight,boolean alternateSkyColor,Object skyType,boolean brightenLighting,boolean darkened) { this.wrapperContained = new net.minecraft.client.render.DimensionEffects(cloudsHeight,alternateSkyColor,skyType,brightenLighting,darkened); }
 public float getCloudsHeight() { return wrapperContained.getCloudsHeight(); }
 public float[] getFogColorOverride(float skyAngle,float tickDelta) { return wrapperContained.getFogColorOverride(skyAngle,tickDelta); }
 public boolean useThickFog(int camX,int camY) { return wrapperContained.useThickFog(camX,camY); }
@@ -22,6 +23,7 @@ public yarnwrap.client.render.DimensionEffects byDimensionType(yarnwrap.world.di
 public yarnwrap.util.math.Vec3d adjustFogColor(yarnwrap.util.math.Vec3d color,float sunHeight) { return new yarnwrap.util.math.Vec3d(wrapperContained.adjustFogColor(color.wrapperContained,sunHeight)); }
 public boolean isAlternateSkyColor() { return wrapperContained.isAlternateSkyColor(); }
 public boolean shouldBrightenLighting() { return wrapperContained.shouldBrightenLighting(); }
+// public void method_29092(it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap map) { wrapperContained.method_29092(map); }
 public Object getSkyType() { return wrapperContained.getSkyType(); }
 public boolean isDarkened() { return wrapperContained.isDarkened(); }
 

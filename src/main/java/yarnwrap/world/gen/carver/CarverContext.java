@@ -9,6 +9,7 @@ public class CarverContext { public net.minecraft.world.gen.carver.CarverContext
 // public void noiseConfig(yarnwrap.world.gen.noise.NoiseConfig value) { wrapperContained.noiseConfig = value.wrapperContained; }
 // public Object materialRule() { return wrapperContained.materialRule; }
 // // public void materialRule(Object value) { wrapperContained.materialRule = value; }
+// public CarverContext(yarnwrap.world.gen.chunk.NoiseChunkGenerator noiseChunkGenerator,yarnwrap.registry.DynamicRegistryManager registryManager,yarnwrap.world.HeightLimitView heightLimitView,yarnwrap.world.gen.chunk.ChunkNoiseSampler chunkNoiseSampler,yarnwrap.world.gen.noise.NoiseConfig noiseConfig,Object materialRule) { this.wrapperContained = new net.minecraft.world.gen.carver.CarverContext(noiseChunkGenerator.wrapperContained,registryManager.wrapperContained,heightLimitView.wrapperContained,chunkNoiseSampler.wrapperContained,noiseConfig.wrapperContained,materialRule); }
 public java.util.Optional applyMaterialRule(java.util.function.Function posToBiome,yarnwrap.world.chunk.Chunk chunk,yarnwrap.util.math.BlockPos pos,boolean hasFluid) { return wrapperContained.applyMaterialRule(posToBiome,chunk.wrapperContained,pos.wrapperContained,hasFluid); }
 public yarnwrap.registry.DynamicRegistryManager getRegistryManager() { return new yarnwrap.registry.DynamicRegistryManager(wrapperContained.getRegistryManager()); }
 public yarnwrap.world.gen.noise.NoiseConfig getNoiseConfig() { return new yarnwrap.world.gen.noise.NoiseConfig(wrapperContained.getNoiseConfig()); }

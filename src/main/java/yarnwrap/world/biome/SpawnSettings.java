@@ -15,6 +15,8 @@ public yarnwrap.world.biome.SpawnSettings INSTANCE() { return new yarnwrap.world
 // public void INSTANCE(yarnwrap.world.biome.SpawnSettings value) { wrapperContained.INSTANCE = value.wrapperContained; }
 public yarnwrap.util.collection.Pool EMPTY_ENTRY_POOL() { return new yarnwrap.util.collection.Pool(wrapperContained.EMPTY_ENTRY_POOL); }
 // public void EMPTY_ENTRY_POOL(yarnwrap.util.collection.Pool value) { wrapperContained.EMPTY_ENTRY_POOL = value.wrapperContained; }
+// public SpawnSettings(float creatureSpawnProbability,java.util.Map spawners,java.util.Map spawnCosts) { this.wrapperContained = new net.minecraft.world.biome.SpawnSettings(creatureSpawnProbability,spawners,spawnCosts); }
+// public com.mojang.datafixers.kinds.App method_30791(Object instance) { return wrapperContained.method_30791(instance); }
 public float getCreatureSpawnProbability() { return wrapperContained.getCreatureSpawnProbability(); }
 public Object getSpawnDensity(yarnwrap.entity.EntityType entityType) { return wrapperContained.getSpawnDensity(entityType.wrapperContained); }
 public yarnwrap.util.collection.Pool getSpawnEntries(yarnwrap.entity.SpawnGroup spawnGroup) { return new yarnwrap.util.collection.Pool(wrapperContained.getSpawnEntries(spawnGroup.wrapperContained)); }

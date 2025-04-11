@@ -13,7 +13,10 @@ public class PlayerStatsGui { public net.minecraft.server.dedicated.gui.PlayerSt
 // public void server(yarnwrap.server.MinecraftServer value) { wrapperContained.server = value.wrapperContained; }
 // public javax.swing.Timer timer() { return wrapperContained.timer; }
 // public void timer(javax.swing.Timer value) { wrapperContained.timer = value; }
+public PlayerStatsGui(yarnwrap.server.MinecraftServer server) { this.wrapperContained = new net.minecraft.server.dedicated.gui.PlayerStatsGui(server.wrapperContained); }
 // public void update() { wrapperContained.update(); }
+// public void method_13983(java.awt.event.ActionEvent event) { wrapperContained.method_13983(event); }
 public void stop() { wrapperContained.stop(); }
+public void paint(java.awt.Graphics graphics) { wrapperContained.paint(graphics); }
 
 }

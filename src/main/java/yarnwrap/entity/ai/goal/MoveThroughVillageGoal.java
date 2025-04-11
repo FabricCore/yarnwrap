@@ -17,7 +17,11 @@ public class MoveThroughVillageGoal { public net.minecraft.entity.ai.goal.MoveTh
 // public void requiresNighttime(boolean value) { wrapperContained.requiresNighttime = value; }
 // public yarnwrap.entity.mob.PathAwareEntity mob() { return new yarnwrap.entity.mob.PathAwareEntity(wrapperContained.mob); }
 // public void mob(yarnwrap.entity.mob.PathAwareEntity value) { wrapperContained.mob = value.wrapperContained; }
+public MoveThroughVillageGoal(yarnwrap.entity.mob.PathAwareEntity entity,double speed,boolean requiresNighttime,int distance,java.util.function.BooleanSupplier doorPassingThroughGetter) { this.wrapperContained = new net.minecraft.entity.ai.goal.MoveThroughVillageGoal(entity.wrapperContained,speed,requiresNighttime,distance,doorPassingThroughGetter); }
 // public boolean shouldVisit(yarnwrap.util.math.BlockPos pos) { return wrapperContained.shouldVisit(pos.wrapperContained); }
+// public double method_19053(yarnwrap.server.world.ServerWorld pos) { return wrapperContained.method_19053(pos.wrapperContained); }
+// public boolean method_43975(yarnwrap.registry.entry.RegistryEntry poiType) { return wrapperContained.method_43975(poiType.wrapperContained); }
+// public boolean method_43976(yarnwrap.registry.entry.RegistryEntry poiType) { return wrapperContained.method_43976(poiType.wrapperContained); }
 // public void forgetOldTarget() { wrapperContained.forgetOldTarget(); }
 
 }

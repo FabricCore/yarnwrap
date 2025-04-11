@@ -26,5 +26,6 @@ public java.util.UUID getPlayerUuidByName(yarnwrap.server.MinecraftServer server
 public boolean convertBannedPlayers(yarnwrap.server.MinecraftServer server) { return wrapperContained.convertBannedPlayers(server.wrapperContained); }
 // public void markFileConverted(java.io.File file) { wrapperContained.markFileConverted(file); }
 public boolean convertPlayerFiles(yarnwrap.server.dedicated.MinecraftDedicatedServer minecraftServer) { return wrapperContained.convertPlayerFiles(minecraftServer.wrapperContained); }
+// public boolean method_14552(java.lang.String playerName) { return wrapperContained.method_14552(playerName); }
 
 }

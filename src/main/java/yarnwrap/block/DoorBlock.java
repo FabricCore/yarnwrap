@@ -23,6 +23,7 @@ public yarnwrap.state.property.EnumProperty HALF() { return new yarnwrap.state.p
 // public void blockSetType(yarnwrap.block.BlockSetType value) { wrapperContained.blockSetType = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public DoorBlock(yarnwrap.block.BlockSetType type,Object settings) { this.wrapperContained = new net.minecraft.block.DoorBlock(type.wrapperContained,settings); }
 public void setOpen(yarnwrap.entity.Entity entity,yarnwrap.world.World world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,boolean open) { wrapperContained.setOpen(entity.wrapperContained,world.wrapperContained,state.wrapperContained,pos.wrapperContained,open); }
 // public yarnwrap.block.enums.DoorHinge getHinge(yarnwrap.item.ItemPlacementContext ctx) { return new yarnwrap.block.enums.DoorHinge(wrapperContained.getHinge(ctx.wrapperContained)); }
 // public void playOpenCloseSound(yarnwrap.entity.Entity entity,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,boolean open) { wrapperContained.playOpenCloseSound(entity.wrapperContained,world.wrapperContained,pos.wrapperContained,open); }
@@ -30,5 +31,6 @@ public boolean canOpenByHand(yarnwrap.world.World world,yarnwrap.util.math.Block
 public boolean canOpenByHand(yarnwrap.block.BlockState state) { return wrapperContained.canOpenByHand(state.wrapperContained); }
 public boolean isOpen(yarnwrap.block.BlockState state) { return wrapperContained.isOpen(state.wrapperContained); }
 public yarnwrap.block.BlockSetType getBlockSetType() { return new yarnwrap.block.BlockSetType(wrapperContained.getBlockSetType()); }
+// public com.mojang.datafixers.kinds.App method_54010(Object instance) { return wrapperContained.method_54010(instance); }
 
 }

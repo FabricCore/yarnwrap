@@ -9,6 +9,7 @@ public java.util.function.ToIntFunction STATE_TO_LUMINANCE() { return wrapperCon
 // public void STATE_TO_LUMINANCE(java.util.function.ToIntFunction value) { wrapperContained.STATE_TO_LUMINANCE = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public int method_35281(yarnwrap.block.BlockState state) { return wrapperContained.method_35281(state.wrapperContained); }
 public yarnwrap.item.ItemStack addNbtForLevel(yarnwrap.item.ItemStack stack,int level) { return new yarnwrap.item.ItemStack(wrapperContained.addNbtForLevel(stack.wrapperContained,level)); }
 
 }

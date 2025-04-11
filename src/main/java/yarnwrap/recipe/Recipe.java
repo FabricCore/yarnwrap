@@ -7,6 +7,7 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 public yarnwrap.item.ItemStack createIcon() { return new yarnwrap.item.ItemStack(wrapperContained.createIcon()); }
 public yarnwrap.recipe.RecipeType getType() { return new yarnwrap.recipe.RecipeType(wrapperContained.getType()); }
+// public boolean method_31583(yarnwrap.recipe.Ingredient ingredient) { return wrapperContained.method_31583(ingredient.wrapperContained); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 public boolean showNotification() { return wrapperContained.showNotification(); }
 // public yarnwrap.item.ItemStack getResult(Object registriesLookup) { return new yarnwrap.item.ItemStack(wrapperContained.getResult(registriesLookup)); }

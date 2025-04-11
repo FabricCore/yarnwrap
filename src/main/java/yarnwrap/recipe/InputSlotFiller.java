@@ -7,6 +7,7 @@ public class InputSlotFiller { public net.minecraft.recipe.InputSlotFiller wrapp
 // public void handler(yarnwrap.screen.AbstractRecipeScreenHandler value) { wrapperContained.handler = value.wrapperContained; }
 // public yarnwrap.entity.player.PlayerInventory inventory() { return new yarnwrap.entity.player.PlayerInventory(wrapperContained.inventory); }
 // public void inventory(yarnwrap.entity.player.PlayerInventory value) { wrapperContained.inventory = value.wrapperContained; }
+public InputSlotFiller(yarnwrap.screen.AbstractRecipeScreenHandler handler) { this.wrapperContained = new net.minecraft.recipe.InputSlotFiller(handler.wrapperContained); }
 // public int getAmountToFill(boolean craftAll,int limit,boolean recipeInCraftingSlots) { return wrapperContained.getAmountToFill(craftAll,limit,recipeInCraftingSlots); }
 // public void fillInputSlots(yarnwrap.recipe.RecipeEntry recipe,boolean craftAll) { wrapperContained.fillInputSlots(recipe.wrapperContained,craftAll); }
 // public void returnInputs() { wrapperContained.returnInputs(); }

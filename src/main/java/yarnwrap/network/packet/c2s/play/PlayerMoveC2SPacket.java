@@ -17,6 +17,7 @@ public class PlayerMoveC2SPacket { public net.minecraft.network.packet.c2s.play.
 // public void changePosition(boolean value) { wrapperContained.changePosition = value; }
 // public boolean onGround() { return wrapperContained.onGround; }
 // public void onGround(boolean value) { wrapperContained.onGround = value; }
+// public PlayerMoveC2SPacket(double x,double y,double z,float yaw,float pitch,boolean onGround,boolean changePosition,boolean changeLook) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket(x,y,z,yaw,pitch,onGround,changePosition,changeLook); }
 public double getY(double currentY) { return wrapperContained.getY(currentY); }
 public double getX(double currentX) { return wrapperContained.getX(currentX); }
 public float getPitch(float currentPitch) { return wrapperContained.getPitch(currentPitch); }

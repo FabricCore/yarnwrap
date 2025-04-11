@@ -15,6 +15,7 @@ public class WorldIcon { public net.minecraft.client.gui.screen.world.WorldIcon 
 // public void texture(yarnwrap.client.texture.NativeImageBackedTexture value) { wrapperContained.texture = value.wrapperContained; }
 // public boolean closed() { return wrapperContained.closed; }
 // public void closed(boolean value) { wrapperContained.closed = value; }
+// public WorldIcon(yarnwrap.client.texture.TextureManager textureManager,yarnwrap.util.Identifier id) { this.wrapperContained = new net.minecraft.client.gui.screen.world.WorldIcon(textureManager.wrapperContained,id.wrapperContained); }
 public void destroy() { wrapperContained.destroy(); }
 public void load(yarnwrap.client.texture.NativeImage image) { wrapperContained.load(image.wrapperContained); }
 public yarnwrap.client.gui.screen.world.WorldIcon forWorld(yarnwrap.client.texture.TextureManager textureManager,java.lang.String worldName) { return new yarnwrap.client.gui.screen.world.WorldIcon(wrapperContained.forWorld(textureManager.wrapperContained,worldName)); }

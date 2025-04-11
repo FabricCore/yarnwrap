@@ -39,6 +39,7 @@ public class JsonEffectShaderProgram { public net.minecraft.client.gl.JsonEffect
 // public void glRef(int value) { wrapperContained.glRef = value; }
 // public java.lang.String PROGRAM_DIRECTORY() { return wrapperContained.PROGRAM_DIRECTORY; }
 // public void PROGRAM_DIRECTORY(java.lang.String value) { wrapperContained.PROGRAM_DIRECTORY = value; }
+// public JsonEffectShaderProgram(yarnwrap.resource.ResourceFactory factory,java.lang.String name) { this.wrapperContained = new net.minecraft.client.gl.JsonEffectShaderProgram(factory.wrapperContained,name); }
 // public void finalizeUniformsAndSamplers() { wrapperContained.finalizeUniformsAndSamplers(); }
 // public void bindSampler(java.lang.String samplerName) { wrapperContained.bindSampler(samplerName); }
 public yarnwrap.client.gl.GlUniform getUniformByName(java.lang.String name) { return new yarnwrap.client.gl.GlUniform(wrapperContained.getUniformByName(name)); }

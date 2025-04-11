@@ -25,6 +25,7 @@ public yarnwrap.util.Identifier PANORAMA_3() { return new yarnwrap.util.Identifi
 // public void CHECKMARK(yarnwrap.util.Identifier value) { wrapperContained.CHECKMARK = value.wrapperContained; }
 // public yarnwrap.text.Text MINIGAME_SLOT_NAME() { return new yarnwrap.text.Text(wrapperContained.MINIGAME_SLOT_NAME); }
 // public void MINIGAME_SLOT_NAME(yarnwrap.text.Text value) { wrapperContained.MINIGAME_SLOT_NAME = value.wrapperContained; }
+// public RealmsWorldSlotButton(int x,int y,int width,int height,int slotIndex,Object pressAction) { this.wrapperContained = new net.minecraft.client.realms.gui.RealmsWorldSlotButton(x,y,width,height,slotIndex,pressAction); }
 public Object getState() { return wrapperContained.getState(); }
 // public Object getAction(yarnwrap.client.realms.dto.RealmsServer server,boolean active,boolean minigame) { return wrapperContained.getAction(server.wrapperContained,active,minigame); }
 public void setServer(yarnwrap.client.realms.dto.RealmsServer server) { wrapperContained.setServer(server.wrapperContained); }

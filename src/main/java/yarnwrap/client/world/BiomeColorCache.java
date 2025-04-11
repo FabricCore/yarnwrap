@@ -11,6 +11,7 @@ public class BiomeColorCache { public net.minecraft.client.world.BiomeColorCache
 // public void MAX_ENTRY_SIZE(int value) { wrapperContained.MAX_ENTRY_SIZE = value; }
 // public java.util.function.ToIntFunction colorFactory() { return wrapperContained.colorFactory; }
 // public void colorFactory(java.util.function.ToIntFunction value) { wrapperContained.colorFactory = value; }
+public BiomeColorCache(java.util.function.ToIntFunction colorFactory) { this.wrapperContained = new net.minecraft.client.world.BiomeColorCache(colorFactory); }
 public void reset() { wrapperContained.reset(); }
 public void reset(int chunkX,int chunkZ) { wrapperContained.reset(chunkX,chunkZ); }
 public int getBiomeColor(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getBiomeColor(pos.wrapperContained); }

@@ -21,6 +21,7 @@ public int ATTACK_DAMAGE_COOLDOWN() { return wrapperContained.ATTACK_DAMAGE_COOL
 // public void ageOnLastDamage(int value) { wrapperContained.ageOnLastDamage = value; }
 // public yarnwrap.entity.LivingEntity entity() { return new yarnwrap.entity.LivingEntity(wrapperContained.entity); }
 // public void entity(yarnwrap.entity.LivingEntity value) { wrapperContained.entity = value.wrapperContained; }
+public DamageTracker(yarnwrap.entity.LivingEntity entity) { this.wrapperContained = new net.minecraft.entity.damage.DamageTracker(entity.wrapperContained); }
 // public yarnwrap.text.Text getFallDeathMessage(yarnwrap.entity.damage.DamageRecord damageRecord,yarnwrap.entity.Entity attacker) { return new yarnwrap.text.Text(wrapperContained.getFallDeathMessage(damageRecord.wrapperContained,attacker.wrapperContained)); }
 // public boolean isAttackerLiving(yarnwrap.entity.damage.DamageSource damageSource) { return wrapperContained.isAttackerLiving(damageSource.wrapperContained); }
 // public yarnwrap.text.Text getDisplayName(yarnwrap.entity.Entity entity) { return new yarnwrap.text.Text(wrapperContained.getDisplayName(entity.wrapperContained)); }

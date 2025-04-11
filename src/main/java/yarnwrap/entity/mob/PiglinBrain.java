@@ -27,6 +27,8 @@ public yarnwrap.item.Item BARTERING_ITEM() { return new yarnwrap.item.Item(wrapp
 // public yarnwrap.entity.ai.brain.task.RandomTask makeRandomFollowTask() { return new yarnwrap.entity.ai.brain.task.RandomTask(wrapperContained.makeRandomFollowTask()); }
 // public yarnwrap.entity.ai.brain.task.RandomTask makeRandomWanderTask() { return new yarnwrap.entity.ai.brain.task.RandomTask(wrapperContained.makeRandomWanderTask()); }
 public boolean wearsGoldArmor(yarnwrap.entity.LivingEntity entity) { return wrapperContained.wearsGoldArmor(entity.wrapperContained); }
+// public boolean method_24720(yarnwrap.entity.LivingEntity preferredTarget) { return wrapperContained.method_24720(preferredTarget.wrapperContained); }
+// public void method_24721(yarnwrap.entity.LivingEntity piglinx) { wrapperContained.method_24721(piglinx.wrapperContained); }
 // public void tickActivities(yarnwrap.entity.mob.PiglinEntity piglin) { wrapperContained.tickActivities(piglin.wrapperContained); }
 // public boolean canRide(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.Entity ridden) { return wrapperContained.canRide(piglin.wrapperContained,ridden.wrapperContained); }
 // public void onAttacked(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity attacker) { wrapperContained.onAttacked(piglin.wrapperContained,attacker.wrapperContained); }
@@ -38,14 +40,17 @@ public yarnwrap.util.ActionResult playerInteract(yarnwrap.entity.mob.PiglinEntit
 // public void drop(yarnwrap.entity.mob.PiglinEntity piglin,java.util.List items,yarnwrap.util.math.Vec3d pos) { wrapperContained.drop(piglin.wrapperContained,items,pos.wrapperContained); }
 // public yarnwrap.entity.ai.brain.Brain create(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ai.brain.Brain brain) { return new yarnwrap.entity.ai.brain.Brain(wrapperContained.create(piglin.wrapperContained,brain.wrapperContained)); }
 public void onGuardedBlockInteracted(yarnwrap.entity.player.PlayerEntity player,boolean blockOpen) { wrapperContained.onGuardedBlockInteracted(player.wrapperContained,blockOpen); }
+// public void method_24734(yarnwrap.entity.player.PlayerEntity piglin) { wrapperContained.method_24734(piglin.wrapperContained); }
 // public boolean isGoldenItem(yarnwrap.item.ItemStack stack) { return wrapperContained.isGoldenItem(stack.wrapperContained); }
 // public void setHuntedRecently(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.util.math.random.Random random) { wrapperContained.setHuntedRecently(piglin.wrapperContained,random.wrapperContained); }
 // public yarnwrap.entity.ai.brain.task.Task makeRememberRideableHoglinTask() { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.makeRememberRideableHoglinTask()); }
 // public yarnwrap.entity.ai.brain.task.Task makeGoToSoulFireTask() { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.makeGoToSoulFireTask()); }
 public boolean isGoldHoldingPlayer(yarnwrap.entity.LivingEntity target) { return wrapperContained.isGoldHoldingPlayer(target.wrapperContained); }
+// public void method_24740(yarnwrap.entity.LivingEntity nearbyPiglin) { wrapperContained.method_24740(nearbyPiglin.wrapperContained); }
 // public void consumeOffHandItem(yarnwrap.entity.mob.PiglinEntity piglin,boolean barter) { wrapperContained.consumeOffHandItem(piglin.wrapperContained,barter); }
 // public void angerAtCloserTargets(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.angerAtCloserTargets(piglin.wrapperContained,target.wrapperContained); }
 // public void addIdleActivities(yarnwrap.entity.ai.brain.Brain piglin) { wrapperContained.addIdleActivities(piglin.wrapperContained); }
+// public boolean method_24745(boolean piglin) { return wrapperContained.method_24745(piglin); }
 // public boolean acceptsForBarter(yarnwrap.item.ItemStack stack) { return wrapperContained.acceptsForBarter(stack.wrapperContained); }
 // public yarnwrap.entity.ai.brain.task.Task makeFleeFromZombifiedPiglinTask() { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.makeFleeFromZombifiedPiglinTask()); }
 // public boolean isHoldingCrossbow(yarnwrap.entity.LivingEntity piglin) { return wrapperContained.isHoldingCrossbow(piglin.wrapperContained); }
@@ -70,6 +75,7 @@ public boolean isGoldHoldingPlayer(yarnwrap.entity.LivingEntity target) { return
 // public void doBarter(yarnwrap.entity.mob.PiglinEntity piglin,java.util.List items) { wrapperContained.doBarter(piglin.wrapperContained,items); }
 // public void runAwayFrom(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.runAwayFrom(piglin.wrapperContained,target.wrapperContained); }
 // public void dropBarteredItem(yarnwrap.entity.mob.PiglinEntity piglin,java.util.List items) { wrapperContained.dropBarteredItem(piglin.wrapperContained,items); }
+// public boolean method_24775(yarnwrap.entity.mob.PiglinEntity target) { return wrapperContained.method_24775(target.wrapperContained); }
 // public java.util.List getBarteredItem(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getBarteredItem(piglin.wrapperContained); }
 // public java.util.Optional getPreferredTarget(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getPreferredTarget(piglin.wrapperContained); }
 // public java.util.List getNearbyVisiblePiglins(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getNearbyVisiblePiglins(piglin.wrapperContained); }
@@ -90,19 +96,26 @@ public boolean isGoldHoldingPlayer(yarnwrap.entity.LivingEntity target) { return
 // public void pickupItemWithOffHand(yarnwrap.entity.mob.PiglinEntity piglin) { wrapperContained.pickupItemWithOffHand(piglin.wrapperContained); }
 // public java.util.List getNearbyPiglins(yarnwrap.entity.mob.AbstractPiglinEntity piglin) { return wrapperContained.getNearbyPiglins(piglin.wrapperContained); }
 // public boolean isWillingToTrade(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.item.ItemStack nearbyItems) { return wrapperContained.isWillingToTrade(piglin.wrapperContained,nearbyItems.wrapperContained); }
+// public boolean method_29275(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.method_29275(piglin.wrapperContained); }
 // public boolean isHuntingTarget(yarnwrap.entity.LivingEntity piglin,yarnwrap.entity.LivingEntity target) { return wrapperContained.isHuntingTarget(piglin.wrapperContained,target.wrapperContained); }
 // public boolean canRideHoglin(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.canRideHoglin(piglin.wrapperContained); }
 public boolean isZombified(yarnwrap.entity.EntityType entityType) { return wrapperContained.isZombified(entityType.wrapperContained); }
+// public void method_29535(yarnwrap.entity.LivingEntity avoiding) { wrapperContained.method_29535(avoiding.wrapperContained); }
 public java.util.Optional getAvoiding(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getAvoiding(piglin.wrapperContained); }
 // public boolean getNearestZombifiedPiglin(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getNearestZombifiedPiglin(piglin.wrapperContained); }
 // public boolean hasTargetToAvoid(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.hasTargetToAvoid(piglin.wrapperContained); }
+// public void method_29943(yarnwrap.entity.mob.AbstractPiglinEntity nearbyPiglin) { wrapperContained.method_29943(nearbyPiglin.wrapperContained); }
+// public void method_29944(yarnwrap.entity.mob.AbstractPiglinEntity player) { wrapperContained.method_29944(player.wrapperContained); }
 // public void angerNearbyPiglins(yarnwrap.entity.mob.AbstractPiglinEntity piglin) { wrapperContained.angerNearbyPiglins(piglin.wrapperContained); }
 // public void becomeAngryWithPlayer(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity player) { wrapperContained.becomeAngryWithPlayer(piglin.wrapperContained,player.wrapperContained); }
 public java.util.Optional getNearestDetectedPlayer(yarnwrap.entity.mob.AbstractPiglinEntity piglin) { return wrapperContained.getNearestDetectedPlayer(piglin.wrapperContained); }
 // public yarnwrap.sound.SoundEvent getSound(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ai.brain.Activity activity) { return new yarnwrap.sound.SoundEvent(wrapperContained.getSound(piglin.wrapperContained,activity.wrapperContained)); }
+// public yarnwrap.sound.SoundEvent method_30088(yarnwrap.entity.mob.PiglinEntity activity) { return new yarnwrap.sound.SoundEvent(wrapperContained.method_30088(activity.wrapperContained)); }
 // public void swapItemWithOffHand(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.item.ItemStack stack) { wrapperContained.swapItemWithOffHand(piglin.wrapperContained,stack.wrapperContained); }
 // public yarnwrap.entity.ai.brain.task.Task goToNemesisTask() { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.goToNemesisTask()); }
 public java.util.Optional getCurrentActivitySound(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getCurrentActivitySound(piglin.wrapperContained); }
+// public boolean method_30241(yarnwrap.entity.mob.AbstractPiglinEntity nearbyVisiblePiglin) { return wrapperContained.method_30241(nearbyVisiblePiglin.wrapperContained); }
 // public com.google.common.collect.ImmutableList makeFollowTasks() { return wrapperContained.makeFollowTasks(); }
+// public boolean method_47273(Object entity) { return wrapperContained.method_47273(entity); }
 
 }

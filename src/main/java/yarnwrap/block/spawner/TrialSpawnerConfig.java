@@ -6,6 +6,7 @@ public yarnwrap.block.spawner.TrialSpawnerConfig DEFAULT() { return new yarnwrap
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 public int getTotalMobs(int additionalPlayers) { return wrapperContained.getTotalMobs(additionalPlayers); }
+// public com.mojang.datafixers.kinds.App method_55180(Object instance) { return wrapperContained.method_55180(instance); }
 public int getSimultaneousMobs(int additionalPlayers) { return wrapperContained.getSimultaneousMobs(additionalPlayers); }
 public long getCooldownLength() { return wrapperContained.getCooldownLength(); }
 

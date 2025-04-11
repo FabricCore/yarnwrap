@@ -5,6 +5,7 @@ public class EnderChestBlockEntity { public net.minecraft.block.entity.EnderChes
 // public void lidAnimator(yarnwrap.block.entity.ChestLidAnimator value) { wrapperContained.lidAnimator = value.wrapperContained; }
 // public yarnwrap.block.entity.ViewerCountManager stateManager() { return new yarnwrap.block.entity.ViewerCountManager(wrapperContained.stateManager); }
 // public void stateManager(yarnwrap.block.entity.ViewerCountManager value) { wrapperContained.stateManager = value.wrapperContained; }
+public EnderChestBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.EnderChestBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public boolean canPlayerUse(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.canPlayerUse(player.wrapperContained); }
 public void onOpen(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.onOpen(player.wrapperContained); }
 public void onClose(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.onClose(player.wrapperContained); }

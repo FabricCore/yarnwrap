@@ -61,6 +61,7 @@ public class NbtTextFormatter { public net.minecraft.nbt.visitor.NbtTextFormatte
 // public void INT_TYPE_SUFFIX(yarnwrap.text.Text value) { wrapperContained.INT_TYPE_SUFFIX = value.wrapperContained; }
 // public yarnwrap.text.Text LONG_TYPE_SUFFIX() { return new yarnwrap.text.Text(wrapperContained.LONG_TYPE_SUFFIX); }
 // public void LONG_TYPE_SUFFIX(yarnwrap.text.Text value) { wrapperContained.LONG_TYPE_SUFFIX = value.wrapperContained; }
+public NbtTextFormatter(java.lang.String prefix) { this.wrapperContained = new net.minecraft.nbt.visitor.NbtTextFormatter(prefix); }
 // public yarnwrap.text.Text escapeName(java.lang.String name) { return new yarnwrap.text.Text(wrapperContained.escapeName(name)); }
 public yarnwrap.text.Text apply(yarnwrap.nbt.NbtElement element) { return new yarnwrap.text.Text(wrapperContained.apply(element.wrapperContained)); }
 // public void formatSubElement(yarnwrap.nbt.NbtElement element,boolean indent) { wrapperContained.formatSubElement(element.wrapperContained,indent); }

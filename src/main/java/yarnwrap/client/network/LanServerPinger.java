@@ -19,6 +19,7 @@ public int PING_PORT() { return wrapperContained.PING_PORT; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public java.lang.String addressPort() { return wrapperContained.addressPort; }
 // public void addressPort(java.lang.String value) { wrapperContained.addressPort = value; }
+// public LanServerPinger(java.lang.String motd,java.lang.String addressPort) { this.wrapperContained = new net.minecraft.client.network.LanServerPinger(motd,addressPort); }
 public java.lang.String createAnnouncement(java.lang.String motd,java.lang.String addressPort) { return wrapperContained.createAnnouncement(motd,addressPort); }
 public java.lang.String parseAnnouncementMotd(java.lang.String announcement) { return wrapperContained.parseAnnouncementMotd(announcement); }
 public java.lang.String parseAnnouncementAddressPort(java.lang.String announcement) { return wrapperContained.parseAnnouncementAddressPort(announcement); }

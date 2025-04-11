@@ -11,6 +11,9 @@ public int MAX_AGE() { return wrapperContained.MAX_AGE; }
 // public void SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.SHAPE = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public ChorusFlowerBlock(yarnwrap.block.Block plantBlock,Object settings) { this.wrapperContained = new net.minecraft.block.ChorusFlowerBlock(plantBlock.wrapperContained,settings); }
+// public com.mojang.datafixers.kinds.App method_53994(Object instance) { return wrapperContained.method_53994(instance); }
+// public yarnwrap.block.Block method_53995(yarnwrap.block.ChorusFlowerBlock block) { return new yarnwrap.block.Block(wrapperContained.method_53995(block.wrapperContained)); }
 public void generate(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random,int size) { wrapperContained.generate(world.wrapperContained,pos.wrapperContained,random.wrapperContained,size); }
 // public void grow(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,int age) { wrapperContained.grow(world.wrapperContained,pos.wrapperContained,age); }
 // public boolean isSurroundedByAir(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction exceptDirection) { return wrapperContained.isSurroundedByAir(world.wrapperContained,pos.wrapperContained,exceptDirection.wrapperContained); }

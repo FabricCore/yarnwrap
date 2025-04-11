@@ -9,6 +9,7 @@ public class PendingUpdateManager { public net.minecraft.client.network.PendingU
 // public void pendingSequence(boolean value) { wrapperContained.pendingSequence = value; }
 public yarnwrap.client.network.PendingUpdateManager incrementSequence() { return new yarnwrap.client.network.PendingUpdateManager(wrapperContained.incrementSequence()); }
 public void processPendingUpdates(int maxProcessableSequence,yarnwrap.client.world.ClientWorld world) { wrapperContained.processPendingUpdates(maxProcessableSequence,world.wrapperContained); }
+// public Object method_41939(yarnwrap.block.BlockState posLong,yarnwrap.client.network.ClientPlayerEntity pendingUpdate) { return wrapperContained.method_41939(posLong.wrapperContained,pendingUpdate.wrapperContained); }
 public boolean hasPendingUpdate(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { return wrapperContained.hasPendingUpdate(pos.wrapperContained,state.wrapperContained); }
 public void addPendingUpdate(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.client.network.ClientPlayerEntity player) { wrapperContained.addPendingUpdate(pos.wrapperContained,state.wrapperContained,player.wrapperContained); }
 public int getSequence() { return wrapperContained.getSequence(); }

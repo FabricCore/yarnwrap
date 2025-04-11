@@ -13,6 +13,7 @@ public class EvokerFangsEntity { public net.minecraft.entity.mob.EvokerFangsEnti
 // public void warmup(int value) { wrapperContained.warmup = value; }
 // public boolean startedAttack() { return wrapperContained.startedAttack; }
 // public void startedAttack(boolean value) { wrapperContained.startedAttack = value; }
+public EvokerFangsEntity(yarnwrap.world.World world,double x,double y,double z,float yaw,int warmup,yarnwrap.entity.LivingEntity owner) { this.wrapperContained = new net.minecraft.entity.mob.EvokerFangsEntity(world.wrapperContained,x,y,z,yaw,warmup,owner.wrapperContained); }
 // public void damage(yarnwrap.entity.LivingEntity target) { wrapperContained.damage(target.wrapperContained); }
 public float getAnimationProgress(float tickDelta) { return wrapperContained.getAnimationProgress(tickDelta); }
 public void setOwner(yarnwrap.entity.LivingEntity owner) { wrapperContained.setOwner(owner.wrapperContained); }

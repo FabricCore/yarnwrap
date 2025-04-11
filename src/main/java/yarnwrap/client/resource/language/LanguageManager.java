@@ -11,6 +11,8 @@ public class LanguageManager { public net.minecraft.client.resource.language.Lan
 // public void languageDefs(java.util.Map value) { wrapperContained.languageDefs = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public LanguageManager(java.lang.String languageCode,java.util.function.Consumer reloadCallback) { this.wrapperContained = new net.minecraft.client.resource.language.LanguageManager(languageCode,reloadCallback); }
+// public void method_29392(java.util.Map pack) { wrapperContained.method_29392(pack); }
 // public java.util.Map loadAvailableLanguages(java.util.stream.Stream packs) { return wrapperContained.loadAvailableLanguages(packs); }
 public java.util.SortedMap getAllLanguages() { return wrapperContained.getAllLanguages(); }
 public void setLanguage(java.lang.String languageCode) { wrapperContained.setLanguage(languageCode); }

@@ -5,5 +5,6 @@ public class SkyLightDebugRenderer { public net.minecraft.client.render.debug.Sk
 // public void RANGE(int value) { wrapperContained.RANGE = value; }
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
+public SkyLightDebugRenderer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.debug.SkyLightDebugRenderer(client.wrapperContained); }
 
 }

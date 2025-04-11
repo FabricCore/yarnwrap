@@ -7,6 +7,7 @@ public class GoToVillageGoal { public net.minecraft.entity.ai.goal.GoToVillageGo
 // public void searchRange(int value) { wrapperContained.searchRange = value; }
 // public yarnwrap.util.math.BlockPos targetPosition() { return new yarnwrap.util.math.BlockPos(wrapperContained.targetPosition); }
 // public void targetPosition(yarnwrap.util.math.BlockPos value) { wrapperContained.targetPosition = value.wrapperContained; }
+public GoToVillageGoal(yarnwrap.entity.mob.PathAwareEntity mob,int searchRange) { this.wrapperContained = new net.minecraft.entity.ai.goal.GoToVillageGoal(mob.wrapperContained,searchRange); }
 // public void findOtherWaypoint() { wrapperContained.findOtherWaypoint(); }
 
 }

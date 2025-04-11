@@ -11,6 +11,7 @@ public class MessageHandler { public net.minecraft.client.network.message.Messag
 // public void lastProcessTime(long value) { wrapperContained.lastProcessTime = value; }
 // public yarnwrap.text.Text VALIDATION_ERROR_TEXT() { return new yarnwrap.text.Text(wrapperContained.VALIDATION_ERROR_TEXT); }
 // public void VALIDATION_ERROR_TEXT(yarnwrap.text.Text value) { wrapperContained.VALIDATION_ERROR_TEXT = value.wrapperContained; }
+public MessageHandler(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.network.message.MessageHandler(client.wrapperContained); }
 // public yarnwrap.client.network.message.MessageTrustStatus getStatus(yarnwrap.network.message.SignedMessage message,yarnwrap.text.Text decorated,java.time.Instant receptionTimestamp) { return new yarnwrap.client.network.message.MessageTrustStatus(wrapperContained.getStatus(message.wrapperContained,decorated.wrapperContained,receptionTimestamp)); }
 // public java.util.UUID extractSender(yarnwrap.text.Text text) { return wrapperContained.extractSender(text.wrapperContained); }
 // public void addToChatLog(yarnwrap.text.Text message,java.time.Instant timestamp) { wrapperContained.addToChatLog(message.wrapperContained,timestamp); }
@@ -28,6 +29,7 @@ public boolean removeDelayedMessage(yarnwrap.network.message.MessageSignatureDat
 public long getUnprocessedMessageCount() { return wrapperContained.getUnprocessedMessageCount(); }
 public void processAll() { wrapperContained.processAll(); }
 // public void onProfilelessMessage(yarnwrap.text.Text content,Object params) { wrapperContained.onProfilelessMessage(content.wrapperContained,params); }
+// public boolean method_45747(yarnwrap.network.message.MessageSignatureData message) { return wrapperContained.method_45747(message.wrapperContained); }
 // public void onChatMessage(yarnwrap.network.message.SignedMessage message,com.mojang.authlib.GameProfile sender,Object params) { wrapperContained.onChatMessage(message.wrapperContained,sender,params); }
 // public void onUnverifiedMessage(java.util.UUID sender,Object parameters) { wrapperContained.onUnverifiedMessage(sender,parameters); }
 

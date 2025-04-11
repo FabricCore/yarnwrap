@@ -9,5 +9,6 @@ public class ShapelessRecipe { public net.minecraft.recipe.ShapelessRecipe wrapp
 // public void group(java.lang.String value) { wrapperContained.group = value; }
 // public yarnwrap.item.ItemStack result() { return new yarnwrap.item.ItemStack(wrapperContained.result); }
 // public void result(yarnwrap.item.ItemStack value) { wrapperContained.result = value.wrapperContained; }
+public ShapelessRecipe(java.lang.String group,yarnwrap.recipe.book.CraftingRecipeCategory category,yarnwrap.item.ItemStack result,yarnwrap.util.collection.DefaultedList ingredients) { this.wrapperContained = new net.minecraft.recipe.ShapelessRecipe(group,category.wrapperContained,result.wrapperContained,ingredients.wrapperContained); }
 
 }

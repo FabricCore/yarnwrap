@@ -16,7 +16,9 @@ public class RavagerEntity { public net.minecraft.entity.mob.RavagerEntity wrapp
 // public int roarTick() { return wrapperContained.roarTick; }
 // public void roarTick(int value) { wrapperContained.roarTick = value; }
 public Object createRavagerAttributes() { return wrapperContained.createRavagerAttributes(); }
+// public boolean method_39955(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_39955(entity.wrapperContained); }
 // public void knockBack(yarnwrap.entity.Entity entity) { wrapperContained.knockBack(entity.wrapperContained); }
+// public boolean method_7069(yarnwrap.entity.Entity entity) { return wrapperContained.method_7069(entity.wrapperContained); }
 public int getAttackTick() { return wrapperContained.getAttackTick(); }
 // public void roar() { wrapperContained.roar(); }
 public int getRoarTick() { return wrapperContained.getRoarTick(); }

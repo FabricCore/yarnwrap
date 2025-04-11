@@ -15,6 +15,10 @@ public com.google.common.collect.ImmutableList createRaidTasks(yarnwrap.village.
 public com.google.common.collect.ImmutableList createHideTasks(yarnwrap.village.VillagerProfession profession,float speed) { return wrapperContained.createHideTasks(profession.wrapperContained,speed); }
 // public com.mojang.datafixers.util.Pair createFreeFollowTask() { return wrapperContained.createFreeFollowTask(); }
 // public com.mojang.datafixers.util.Pair createBusyFollowTask() { return wrapperContained.createBusyFollowTask(); }
+// public boolean method_43968(yarnwrap.registry.entry.RegistryEntry poiType) { return wrapperContained.method_43968(poiType.wrapperContained); }
+// public boolean method_43969(yarnwrap.registry.entry.RegistryEntry poiType) { return wrapperContained.method_43969(poiType.wrapperContained); }
+// public boolean method_43970(yarnwrap.registry.entry.RegistryEntry poiType) { return wrapperContained.method_43970(poiType.wrapperContained); }
+// public boolean method_43971(yarnwrap.registry.entry.RegistryEntry poiType) { return wrapperContained.method_43971(poiType.wrapperContained); }
 // public boolean hasActiveRaid(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity) { return wrapperContained.hasActiveRaid(world.wrapperContained,entity.wrapperContained); }
 // public boolean wonRaid(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity) { return wrapperContained.wonRaid(world.wrapperContained,entity.wrapperContained); }
 

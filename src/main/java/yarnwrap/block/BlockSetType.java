@@ -37,6 +37,7 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 public yarnwrap.block.BlockSetType COPPER() { return new yarnwrap.block.BlockSetType(wrapperContained.COPPER); }
 // public void COPPER(yarnwrap.block.BlockSetType value) { wrapperContained.COPPER = value.wrapperContained; }
+public BlockSetType(java.lang.String name) { this.wrapperContained = new net.minecraft.block.BlockSetType(name); }
 public java.util.stream.Stream stream() { return wrapperContained.stream(); }
 // public yarnwrap.block.BlockSetType register(yarnwrap.block.BlockSetType blockSetType) { return new yarnwrap.block.BlockSetType(wrapperContained.register(blockSetType.wrapperContained)); }
 

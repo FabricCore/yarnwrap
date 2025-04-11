@@ -23,6 +23,8 @@ public class SystemToast { public net.minecraft.client.toast.SystemToast wrapper
 // public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
 // public boolean hidden() { return wrapperContained.hidden; }
 // public void hidden(boolean value) { wrapperContained.hidden = value; }
+// public SystemToast(Object type,yarnwrap.text.Text title,java.util.List lines,int width) { this.wrapperContained = new net.minecraft.client.toast.SystemToast(type,title.wrapperContained,lines,width); }
+// public SystemToast(Object type,yarnwrap.text.Text title,yarnwrap.text.Text description) { this.wrapperContained = new net.minecraft.client.toast.SystemToast(type,title.wrapperContained,description.wrapperContained); }
 // public void show(yarnwrap.client.toast.ToastManager manager,Object type,yarnwrap.text.Text title,yarnwrap.text.Text description) { wrapperContained.show(manager.wrapperContained,type,title.wrapperContained,description.wrapperContained); }
 public void setContent(yarnwrap.text.Text title,yarnwrap.text.Text description) { wrapperContained.setContent(title.wrapperContained,description.wrapperContained); }
 public void addWorldAccessFailureToast(yarnwrap.client.MinecraftClient client,java.lang.String worldName) { wrapperContained.addWorldAccessFailureToast(client.wrapperContained,worldName); }

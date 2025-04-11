@@ -63,6 +63,8 @@ public class Particle { public net.minecraft.client.particle.Particle wrapperCon
 // public void boundingBox(yarnwrap.util.math.Box value) { wrapperContained.boundingBox = value.wrapperContained; }
 // public double x() { return wrapperContained.x; }
 // public void x(double value) { wrapperContained.x = value; }
+// public Particle(yarnwrap.client.world.ClientWorld world,double x,double y,double z) { this.wrapperContained = new net.minecraft.client.particle.Particle(world.wrapperContained,x,y,z); }
+// public Particle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ) { this.wrapperContained = new net.minecraft.client.particle.Particle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ); }
 public yarnwrap.client.particle.ParticleTextureSheet getType() { return new yarnwrap.client.particle.ParticleTextureSheet(wrapperContained.getType()); }
 public void setPos(double x,double y,double z) { wrapperContained.setPos(x,y,z); }
 public yarnwrap.util.math.Box getBoundingBox() { return new yarnwrap.util.math.Box(wrapperContained.getBoundingBox()); }

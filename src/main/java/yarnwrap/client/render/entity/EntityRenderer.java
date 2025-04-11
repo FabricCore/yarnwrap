@@ -9,6 +9,7 @@ public class EntityRenderer { public net.minecraft.client.render.entity.EntityRe
 // public void shadowRadius(float value) { wrapperContained.shadowRadius = value; }
 // public yarnwrap.client.render.entity.EntityRenderDispatcher dispatcher() { return new yarnwrap.client.render.entity.EntityRenderDispatcher(wrapperContained.dispatcher); }
 // public void dispatcher(yarnwrap.client.render.entity.EntityRenderDispatcher value) { wrapperContained.dispatcher = value.wrapperContained; }
+// public EntityRenderer(Object ctx) { this.wrapperContained = new net.minecraft.client.render.entity.EntityRenderer(ctx); }
 public yarnwrap.util.math.Vec3d getPositionOffset(yarnwrap.entity.Entity entity,float tickDelta) { return new yarnwrap.util.math.Vec3d(wrapperContained.getPositionOffset(entity.wrapperContained,tickDelta)); }
 // public int getBlockLight(yarnwrap.entity.Entity entity,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getBlockLight(entity.wrapperContained,pos.wrapperContained); }
 public int getLight(yarnwrap.entity.Entity entity,float tickDelta) { return wrapperContained.getLight(entity.wrapperContained,tickDelta); }

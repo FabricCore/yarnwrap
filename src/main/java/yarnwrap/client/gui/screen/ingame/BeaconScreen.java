@@ -25,6 +25,8 @@ public class BeaconScreen { public net.minecraft.client.gui.screen.ingame.Beacon
 // public void BUTTON_DISABLED_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.BUTTON_DISABLED_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier BUTTON_SELECTED_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.BUTTON_SELECTED_TEXTURE); }
 // public void BUTTON_SELECTED_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.BUTTON_SELECTED_TEXTURE = value.wrapperContained; }
+public BeaconScreen(yarnwrap.screen.BeaconScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.BeaconScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
+// public void method_37075(int button) { wrapperContained.method_37075(button); }
 // public void addButton(yarnwrap.client.gui.widget.ClickableWidget button) { wrapperContained.addButton(button.wrapperContained); }
 // public void tickButtons() { wrapperContained.tickButtons(); }
 

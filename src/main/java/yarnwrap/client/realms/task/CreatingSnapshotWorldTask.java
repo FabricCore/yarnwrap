@@ -19,5 +19,6 @@ public class CreatingSnapshotWorldTask { public net.minecraft.client.realms.task
 // public void worldCreationTask(yarnwrap.client.realms.task.WorldCreationTask value) { wrapperContained.worldCreationTask = value.wrapperContained; }
 // public yarnwrap.client.realms.task.ResettingNormalWorldTask resettingNormalWorldTask() { return new yarnwrap.client.realms.task.ResettingNormalWorldTask(wrapperContained.resettingNormalWorldTask); }
 // public void resettingNormalWorldTask(yarnwrap.client.realms.task.ResettingNormalWorldTask value) { wrapperContained.resettingNormalWorldTask = value.wrapperContained; }
+public CreatingSnapshotWorldTask(yarnwrap.client.realms.gui.screen.RealmsMainScreen mainScreen,long parentId,yarnwrap.client.realms.gui.screen.ResetWorldInfo resetWorldInfo,java.lang.String name,java.lang.String motd) { this.wrapperContained = new net.minecraft.client.realms.task.CreatingSnapshotWorldTask(mainScreen.wrapperContained,parentId,resetWorldInfo.wrapperContained,name,motd); }
 
 }

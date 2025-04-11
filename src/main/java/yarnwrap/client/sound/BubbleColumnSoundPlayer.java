@@ -7,5 +7,7 @@ public class BubbleColumnSoundPlayer { public net.minecraft.client.sound.BubbleC
 // public void hasPlayedForCurrentColumn(boolean value) { wrapperContained.hasPlayedForCurrentColumn = value; }
 // public boolean firstTick() { return wrapperContained.firstTick; }
 // public void firstTick(boolean value) { wrapperContained.firstTick = value; }
+public BubbleColumnSoundPlayer(yarnwrap.client.network.ClientPlayerEntity player) { this.wrapperContained = new net.minecraft.client.sound.BubbleColumnSoundPlayer(player.wrapperContained); }
+// public boolean method_29714(yarnwrap.block.BlockState state) { return wrapperContained.method_29714(state.wrapperContained); }
 
 }

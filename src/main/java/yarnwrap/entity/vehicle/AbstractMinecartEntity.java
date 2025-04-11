@@ -33,8 +33,11 @@ public class AbstractMinecartEntity { public net.minecraft.entity.vehicle.Abstra
 // public void CUSTOM_BLOCK_PRESENT(yarnwrap.entity.data.TrackedData value) { wrapperContained.CUSTOM_BLOCK_PRESENT = value.wrapperContained; }
 // public yarnwrap.entity.data.TrackedData CUSTOM_BLOCK_ID() { return new yarnwrap.entity.data.TrackedData(wrapperContained.CUSTOM_BLOCK_ID); }
 // public void CUSTOM_BLOCK_ID(yarnwrap.entity.data.TrackedData value) { wrapperContained.CUSTOM_BLOCK_ID = value.wrapperContained; }
+// public AbstractMinecartEntity(yarnwrap.entity.EntityType type,yarnwrap.world.World world,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.vehicle.AbstractMinecartEntity(type.wrapperContained,world.wrapperContained,x,y,z); }
 // public boolean willHitBlockAt(yarnwrap.util.math.BlockPos pos) { return wrapperContained.willHitBlockAt(pos.wrapperContained); }
 // public com.mojang.datafixers.util.Pair getAdjacentRailPositionsByShape(yarnwrap.block.enums.RailShape shape) { return wrapperContained.getAdjacentRailPositionsByShape(shape.wrapperContained); }
+// public void method_22865(java.util.EnumMap map) { wrapperContained.method_22865(map); }
+// public yarnwrap.util.shape.VoxelShape method_30340(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_30340(pos.wrapperContained)); }
 // public double getMaxSpeed() { return wrapperContained.getMaxSpeed(); }
 public yarnwrap.util.math.Vec3d snapPositionToRailWithOffset(double x,double y,double z,double offset) { return new yarnwrap.util.math.Vec3d(wrapperContained.snapPositionToRailWithOffset(x,y,z,offset)); }
 public void onActivatorRail(int x,int y,int z,boolean powered) { wrapperContained.onActivatorRail(x,y,z,powered); }

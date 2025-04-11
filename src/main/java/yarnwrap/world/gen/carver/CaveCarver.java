@@ -7,5 +7,6 @@ public class CaveCarver { public net.minecraft.world.gen.carver.CaveCarver wrapp
 // public int getMaxCaveCount() { return wrapperContained.getMaxCaveCount(); }
 // public double getTunnelSystemHeightWidthRatio() { return wrapperContained.getTunnelSystemHeightWidthRatio(); }
 // public boolean isPositionExcluded(double scaledRelativeX,double scaledRelativeY,double scaledRelativeZ,double floorY) { return wrapperContained.isPositionExcluded(scaledRelativeX,scaledRelativeY,scaledRelativeZ,floorY); }
+// public boolean method_33975(double contextx,yarnwrap.world.gen.carver.CarverContext scaledRelativeX,double scaledRelativeY,double scaledRelativeZ,double y) { return wrapperContained.method_33975(contextx,scaledRelativeX.wrapperContained,scaledRelativeY,scaledRelativeZ,y); }
 
 }

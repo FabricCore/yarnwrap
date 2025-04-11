@@ -37,6 +37,7 @@ public class BeeEntityModel { public net.minecraft.client.render.entity.model.Be
 // public void MIDDLE_LEGS(java.lang.String value) { wrapperContained.MIDDLE_LEGS = value; }
 // public java.lang.String BACK_LEGS() { return wrapperContained.BACK_LEGS; }
 // public void BACK_LEGS(java.lang.String value) { wrapperContained.BACK_LEGS = value; }
+public BeeEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.BeeEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

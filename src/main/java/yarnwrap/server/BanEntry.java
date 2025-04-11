@@ -13,6 +13,8 @@ public java.text.SimpleDateFormat DATE_FORMAT() { return wrapperContained.DATE_F
 // public void DATE_FORMAT(java.text.SimpleDateFormat value) { wrapperContained.DATE_FORMAT = value; }
 public java.lang.String FOREVER() { return wrapperContained.FOREVER; }
 // public void FOREVER(java.lang.String value) { wrapperContained.FOREVER = value; }
+// public BanEntry(java.lang.Object key,com.google.gson.JsonObject json) { this.wrapperContained = new net.minecraft.server.BanEntry(key,json); }
+// public BanEntry(java.lang.Object key,java.util.Date creationDate,java.lang.String source,java.util.Date expiryDate,java.lang.String reason) { this.wrapperContained = new net.minecraft.server.BanEntry(key,creationDate,source,expiryDate,reason); }
 public java.lang.String getSource() { return wrapperContained.getSource(); }
 public java.util.Date getExpiryDate() { return wrapperContained.getExpiryDate(); }
 public java.lang.String getReason() { return wrapperContained.getReason(); }

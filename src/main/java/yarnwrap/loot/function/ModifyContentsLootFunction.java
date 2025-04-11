@@ -7,5 +7,10 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void component(yarnwrap.loot.ContainerComponentModifier value) { wrapperContained.component = value.wrapperContained; }
 // public yarnwrap.loot.function.LootFunction modifier() { return new yarnwrap.loot.function.LootFunction(wrapperContained.modifier); }
 // public void modifier(yarnwrap.loot.function.LootFunction value) { wrapperContained.modifier = value.wrapperContained; }
+// public ModifyContentsLootFunction(java.util.List conditions,yarnwrap.loot.ContainerComponentModifier component,yarnwrap.loot.function.LootFunction modifier) { this.wrapperContained = new net.minecraft.loot.function.ModifyContentsLootFunction(conditions,component.wrapperContained,modifier.wrapperContained); }
+// public yarnwrap.item.ItemStack method_59743(yarnwrap.loot.context.LootContext content) { return new yarnwrap.item.ItemStack(wrapperContained.method_59743(content.wrapperContained)); }
+// public yarnwrap.loot.function.LootFunction method_59744(yarnwrap.loot.function.ModifyContentsLootFunction lootFunction) { return new yarnwrap.loot.function.LootFunction(wrapperContained.method_59744(lootFunction.wrapperContained)); }
+// public com.mojang.datafixers.kinds.App method_59745(Object instance) { return wrapperContained.method_59745(instance); }
+// public yarnwrap.loot.ContainerComponentModifier method_59746(yarnwrap.loot.function.ModifyContentsLootFunction lootFunction) { return new yarnwrap.loot.ContainerComponentModifier(wrapperContained.method_59746(lootFunction.wrapperContained)); }
 
 }

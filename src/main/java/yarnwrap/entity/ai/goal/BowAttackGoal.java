@@ -19,6 +19,7 @@ public class BowAttackGoal { public net.minecraft.entity.ai.goal.BowAttackGoal w
 // public void attackInterval(int value) { wrapperContained.attackInterval = value; }
 // public yarnwrap.entity.mob.HostileEntity actor() { return new yarnwrap.entity.mob.HostileEntity(wrapperContained.actor); }
 // public void actor(yarnwrap.entity.mob.HostileEntity value) { wrapperContained.actor = value.wrapperContained; }
+public BowAttackGoal(yarnwrap.entity.mob.HostileEntity actor,double speed,int attackInterval,float range) { this.wrapperContained = new net.minecraft.entity.ai.goal.BowAttackGoal(actor.wrapperContained,speed,attackInterval,range); }
 public void setAttackInterval(int attackInterval) { wrapperContained.setAttackInterval(attackInterval); }
 // public boolean isHoldingBow() { return wrapperContained.isHoldingBow(); }
 

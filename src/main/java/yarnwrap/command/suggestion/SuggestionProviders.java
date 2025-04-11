@@ -14,8 +14,13 @@ public com.mojang.brigadier.suggestion.SuggestionProvider AVAILABLE_SOUNDS() { r
 public com.mojang.brigadier.suggestion.SuggestionProvider SUMMONABLE_ENTITIES() { return wrapperContained.SUMMONABLE_ENTITIES; }
 // public void SUMMONABLE_ENTITIES(com.mojang.brigadier.suggestion.SuggestionProvider value) { wrapperContained.SUMMONABLE_ENTITIES = value; }
 public com.mojang.brigadier.suggestion.SuggestionProvider register(yarnwrap.util.Identifier id,com.mojang.brigadier.suggestion.SuggestionProvider provider) { return wrapperContained.register(id.wrapperContained,provider); }
+// public com.mojang.brigadier.Message method_10023(yarnwrap.entity.EntityType entityType) { return wrapperContained.method_10023(entityType.wrapperContained); }
 public com.mojang.brigadier.suggestion.SuggestionProvider byId(yarnwrap.util.Identifier id) { return wrapperContained.byId(id.wrapperContained); }
+// public java.util.concurrent.CompletableFuture method_10025(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_10025(context,builder); }
 public com.mojang.brigadier.suggestion.SuggestionProvider getLocalProvider(com.mojang.brigadier.suggestion.SuggestionProvider provider) { return wrapperContained.getLocalProvider(provider); }
 public yarnwrap.util.Identifier computeId(com.mojang.brigadier.suggestion.SuggestionProvider provider) { return new yarnwrap.util.Identifier(wrapperContained.computeId(provider)); }
+// public java.util.concurrent.CompletableFuture method_10028(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_10028(context,builder); }
+// public java.util.concurrent.CompletableFuture method_10029(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_10029(context,builder); }
+// public java.util.concurrent.CompletableFuture method_10030(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_10030(context,builder); }
 
 }

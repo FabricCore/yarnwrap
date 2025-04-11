@@ -19,6 +19,8 @@ public class LongRunningSampleStatistics { public net.minecraft.util.profiling.j
 // public int count() { return wrapperContained.count(); }
 // public java.util.Map quantiles() { return wrapperContained.quantiles(); }
 // public java.time.Duration totalDuration() { return wrapperContained.totalDuration(); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
+// public long method_38059(yarnwrap.util.profiling.jfr.sample.LongRunningSample sample) { return wrapperContained.method_38059(sample.wrapperContained); }
 public yarnwrap.util.profiling.jfr.sample.LongRunningSampleStatistics fromSamples(java.util.List samples) { return new yarnwrap.util.profiling.jfr.sample.LongRunningSampleStatistics(wrapperContained.fromSamples(samples)); }
 
 }

@@ -3,5 +3,10 @@ public class StructurePoolAliasLookup { public net.minecraft.structure.pool.alia
 
 public yarnwrap.structure.pool.alias.StructurePoolAliasLookup EMPTY() { return new yarnwrap.structure.pool.alias.StructurePoolAliasLookup(wrapperContained.EMPTY); }
 // public void EMPTY(yarnwrap.structure.pool.alias.StructurePoolAliasLookup value) { wrapperContained.EMPTY = value.wrapperContained; }
+// public yarnwrap.structure.pool.alias.StructurePoolAliasLookup create(java.util.List bindings,yarnwrap.util.math.BlockPos pos,long seed) { return new yarnwrap.structure.pool.alias.StructurePoolAliasLookup(wrapperContained.create(bindings,pos.wrapperContained,seed)); }
+public yarnwrap.registry.RegistryKey lookup(yarnwrap.registry.RegistryKey pool) { return new yarnwrap.registry.RegistryKey(wrapperContained.lookup(pool.wrapperContained)); }
+// public void method_54511(yarnwrap.util.math.random.Random binding) { wrapperContained.method_54511(binding.wrapperContained); }
+// public yarnwrap.registry.RegistryKey method_54512(java.util.Map alias) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_54512(alias)); }
+// public yarnwrap.registry.RegistryKey method_54513(yarnwrap.registry.RegistryKey pool) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_54513(pool.wrapperContained)); }
 
 }

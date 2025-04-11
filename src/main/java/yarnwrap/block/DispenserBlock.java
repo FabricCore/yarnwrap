@@ -15,6 +15,7 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public yarnwrap.block.dispenser.ItemDispenserBehavior DEFAULT_BEHAVIOR() { return new yarnwrap.block.dispenser.ItemDispenserBehavior(wrapperContained.DEFAULT_BEHAVIOR); }
 // public void DEFAULT_BEHAVIOR(yarnwrap.block.dispenser.ItemDispenserBehavior value) { wrapperContained.DEFAULT_BEHAVIOR = value.wrapperContained; }
+// public void method_10008(it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap map) { wrapperContained.method_10008(map); }
 public void registerBehavior(yarnwrap.item.ItemConvertible provider,yarnwrap.block.dispenser.DispenserBehavior behavior) { wrapperContained.registerBehavior(provider.wrapperContained,behavior.wrapperContained); }
 public yarnwrap.util.math.Position getOutputLocation(yarnwrap.util.math.BlockPointer pointer,double facingOffset,yarnwrap.util.math.Vec3d constantOffset) { return new yarnwrap.util.math.Position(wrapperContained.getOutputLocation(pointer.wrapperContained,facingOffset,constantOffset.wrapperContained)); }
 // public yarnwrap.block.dispenser.DispenserBehavior getBehaviorForItem(yarnwrap.world.World world,yarnwrap.item.ItemStack stack) { return new yarnwrap.block.dispenser.DispenserBehavior(wrapperContained.getBehaviorForItem(world.wrapperContained,stack.wrapperContained)); }

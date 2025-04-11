@@ -29,6 +29,7 @@ public java.lang.String SELECTION_PRIORITY_KEY() { return wrapperContained.SELEC
 // public void placementPriority(int value) { wrapperContained.placementPriority = value; }
 // public int selectionPriority() { return wrapperContained.selectionPriority; }
 // public void selectionPriority(int value) { wrapperContained.selectionPriority = value; }
+public JigsawBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.JigsawBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void setFinalState(java.lang.String finalState) { wrapperContained.setFinalState(finalState); }
 public void setTarget(yarnwrap.util.Identifier target) { wrapperContained.setTarget(target.wrapperContained); }
 public void setName(yarnwrap.util.Identifier name) { wrapperContained.setName(name.wrapperContained); }

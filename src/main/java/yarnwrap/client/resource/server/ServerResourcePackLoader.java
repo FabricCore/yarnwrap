@@ -29,6 +29,7 @@ public class ServerResourcePackLoader { public net.minecraft.client.resource.ser
 // public void SHA1_PATTERN(java.util.regex.Pattern value) { wrapperContained.SHA1_PATTERN = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public ServerResourcePackLoader(yarnwrap.client.MinecraftClient client,java.nio.file.Path downloadsDirectory,Object runArgs) { this.wrapperContained = new net.minecraft.client.resource.server.ServerResourcePackLoader(client.wrapperContained,downloadsDirectory,runArgs); }
 public yarnwrap.resource.ResourcePackProvider getPassthroughPackProvider() { return new yarnwrap.resource.ResourcePackProvider(wrapperContained.getPassthroughPackProvider()); }
 // public Object createListener(int entryCount) { return wrapperContained.createListener(entryCount); }
 // public yarnwrap.client.resource.server.DownloadQueuer createDownloadQueuer(yarnwrap.util.Downloader downloader,java.util.concurrent.Executor executor,yarnwrap.client.session.Session session,java.net.Proxy proxy) { return new yarnwrap.client.resource.server.DownloadQueuer(wrapperContained.createDownloadQueuer(downloader.wrapperContained,executor,session.wrapperContained,proxy)); }
@@ -39,11 +40,13 @@ public void remove(java.util.UUID id) { wrapperContained.remove(id); }
 public void addResourcePack(java.util.UUID id,java.net.URL url,java.lang.String hash) { wrapperContained.addResourcePack(id,url,hash); }
 public void addResourcePack(java.util.UUID id,java.nio.file.Path path) { wrapperContained.addResourcePack(id,path); }
 // public java.lang.Runnable createPackChangeCallback(java.util.concurrent.Executor executor) { return wrapperContained.createPackChangeCallback(executor); }
+// public void method_55526(java.util.function.Consumer packAdder) { wrapperContained.method_55526(packAdder); }
 // public yarnwrap.client.resource.server.PackStateChangeCallback getStateChangeCallback(yarnwrap.network.ClientConnection connection) { return new yarnwrap.client.resource.server.PackStateChangeCallback(wrapperContained.getStateChangeCallback(connection.wrapperContained)); }
 // public void init(yarnwrap.network.ClientConnection connection,Object acceptanceStatus) { wrapperContained.init(connection.wrapperContained,acceptanceStatus); }
 public void onReloadFailure() { wrapperContained.onReloadFailure(); }
 // public yarnwrap.resource.ResourcePackProvider getPackProvider(java.util.List serverPacks) { return new yarnwrap.resource.ResourcePackProvider(wrapperContained.getPackProvider(serverPacks)); }
 public java.util.concurrent.CompletableFuture getPackLoadFuture(java.util.UUID id) { return wrapperContained.getPackLoadFuture(id); }
+// public void method_55534(java.util.function.Consumer profileAdder) { wrapperContained.method_55534(profileAdder); }
 public void onForcedReloadFailure() { wrapperContained.onForcedReloadFailure(); }
 public void onReloadSuccess() { wrapperContained.onReloadSuccess(); }
 public void removeAll() { wrapperContained.removeAll(); }

@@ -17,6 +17,9 @@ public class ItemCommand { public net.minecraft.server.command.ItemCommand wrapp
 // public void MODIFIER_SUGGESTION_PROVIDER(com.mojang.brigadier.suggestion.SuggestionProvider value) { wrapperContained.MODIFIER_SUGGESTION_PROVIDER = value; }
 // public yarnwrap.item.ItemStack getStackInSlot(yarnwrap.entity.Entity entity,int slotId) { return new yarnwrap.item.ItemStack(wrapperContained.getStackInSlot(entity.wrapperContained,slotId)); }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.command.CommandRegistryAccess commandRegistryAccess) { wrapperContained.register(dispatcher,commandRegistryAccess.wrapperContained); }
+// public int method_32708(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32708(context); }
+// public java.util.concurrent.CompletableFuture method_32709(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_32709(context,builder); }
+// public boolean method_32710(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_32710(source.wrapperContained); }
 // public int executeBlockCopyEntity(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity sourceEntity,int sourceSlot,yarnwrap.util.math.BlockPos pos,int slot) { return wrapperContained.executeBlockCopyEntity(source.wrapperContained,sourceEntity.wrapperContained,sourceSlot,pos.wrapperContained,slot); }
 // public int executeBlockCopyEntity(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity sourceEntity,int sourceSlot,yarnwrap.util.math.BlockPos pos,int slot,yarnwrap.registry.entry.RegistryEntry lootFunction) { return wrapperContained.executeBlockCopyEntity(source.wrapperContained,sourceEntity.wrapperContained,sourceSlot,pos.wrapperContained,slot,lootFunction.wrapperContained); }
 // public int executeEntityCopyEntity(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity sourceEntity,int sourceSlot,java.util.Collection targets,int slot) { return wrapperContained.executeEntityCopyEntity(source.wrapperContained,sourceEntity.wrapperContained,sourceSlot,targets,slot); }
@@ -32,5 +35,24 @@ public void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.
 // public yarnwrap.inventory.Inventory getInventoryAtPos(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.BlockPos pos,com.mojang.brigadier.exceptions.Dynamic3CommandExceptionType exception) { return new yarnwrap.inventory.Inventory(wrapperContained.getInventoryAtPos(source.wrapperContained,pos.wrapperContained,exception)); }
 // public int executeEntityReplace(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,int slot,yarnwrap.item.ItemStack stack) { return wrapperContained.executeEntityReplace(source.wrapperContained,targets,slot,stack.wrapperContained); }
 // public int executeEntityModify(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,int slot,yarnwrap.registry.entry.RegistryEntry lootFunction) { return wrapperContained.executeEntityModify(source.wrapperContained,targets,slot,lootFunction.wrapperContained); }
+// public com.mojang.brigadier.Message method_32726(java.lang.Object slot) { return wrapperContained.method_32726(slot); }
+// public com.mojang.brigadier.Message method_32727(java.lang.Object itemName,java.lang.Object slot) { return wrapperContained.method_32727(itemName,slot); }
+// public com.mojang.brigadier.Message method_32728(java.lang.Object x,java.lang.Object y,java.lang.Object z) { return wrapperContained.method_32728(x,y,z); }
+// public int method_32729(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32729(context); }
+// public com.mojang.brigadier.Message method_32730(java.lang.Object slot) { return wrapperContained.method_32730(slot); }
+// public com.mojang.brigadier.Message method_32731(java.lang.Object x,java.lang.Object y,java.lang.Object z) { return wrapperContained.method_32731(x,y,z); }
+// public int method_32732(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32732(context); }
+// public com.mojang.brigadier.Message method_32733(java.lang.Object slot) { return wrapperContained.method_32733(slot); }
+// public int method_32734(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32734(context); }
+// public int method_32735(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32735(context); }
+// public int method_32736(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32736(context); }
+// public int method_32737(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32737(context); }
+// public int method_32738(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32738(context); }
+// public int method_32739(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32739(context); }
+// public int method_32740(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32740(context); }
+// public int method_32741(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32741(context); }
+// public int method_32742(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32742(context); }
+// public int method_32743(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32743(context); }
+// public int method_32744(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32744(context); }
 
 }

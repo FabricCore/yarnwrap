@@ -9,6 +9,7 @@ public class ChestBlockEntity { public net.minecraft.block.entity.ChestBlockEnti
 // public void lidAnimator(yarnwrap.block.entity.ChestLidAnimator value) { wrapperContained.lidAnimator = value.wrapperContained; }
 // public int VIEWER_COUNT_UPDATE_EVENT_TYPE() { return wrapperContained.VIEWER_COUNT_UPDATE_EVENT_TYPE; }
 // public void VIEWER_COUNT_UPDATE_EVENT_TYPE(int value) { wrapperContained.VIEWER_COUNT_UPDATE_EVENT_TYPE = value; }
+public ChestBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.ChestBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void copyInventory(yarnwrap.block.entity.ChestBlockEntity from,yarnwrap.block.entity.ChestBlockEntity to) { wrapperContained.copyInventory(from.wrapperContained,to.wrapperContained); }
 public int getPlayersLookingInChestCount(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getPlayersLookingInChestCount(world.wrapperContained,pos.wrapperContained); }
 // public void onViewerCountUpdate(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,int oldViewerCount,int newViewerCount) { wrapperContained.onViewerCountUpdate(world.wrapperContained,pos.wrapperContained,state.wrapperContained,oldViewerCount,newViewerCount); }

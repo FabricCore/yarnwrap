@@ -3,6 +3,7 @@ public class ModelIdentifier { public net.minecraft.client.util.ModelIdentifier 
 
 public java.lang.String INVENTORY_VARIANT() { return wrapperContained.INVENTORY_VARIANT; }
 // public void INVENTORY_VARIANT(java.lang.String value) { wrapperContained.INVENTORY_VARIANT = value; }
+public ModelIdentifier(yarnwrap.util.Identifier id,java.lang.String variant) { this.wrapperContained = new net.minecraft.client.util.ModelIdentifier(id.wrapperContained,variant); }
 public yarnwrap.client.util.ModelIdentifier ofVanilla(java.lang.String path,java.lang.String variant) { return new yarnwrap.client.util.ModelIdentifier(wrapperContained.ofVanilla(path,variant)); }
 // public java.lang.String toLowerCase(java.lang.String string) { return wrapperContained.toLowerCase(string); }
 public java.lang.String getVariant() { return wrapperContained.getVariant(); }

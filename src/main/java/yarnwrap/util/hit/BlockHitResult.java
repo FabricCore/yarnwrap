@@ -9,6 +9,8 @@ public class BlockHitResult { public net.minecraft.util.hit.BlockHitResult wrapp
 // public void missed(boolean value) { wrapperContained.missed = value; }
 // public boolean insideBlock() { return wrapperContained.insideBlock; }
 // public void insideBlock(boolean value) { wrapperContained.insideBlock = value; }
+public BlockHitResult(yarnwrap.util.math.Vec3d pos,yarnwrap.util.math.Direction side,yarnwrap.util.math.BlockPos blockPos,boolean insideBlock) { this.wrapperContained = new net.minecraft.util.hit.BlockHitResult(pos.wrapperContained,side.wrapperContained,blockPos.wrapperContained,insideBlock); }
+// public BlockHitResult(boolean missed,yarnwrap.util.math.Vec3d pos,yarnwrap.util.math.Direction side,yarnwrap.util.math.BlockPos blockPos,boolean insideBlock) { this.wrapperContained = new net.minecraft.util.hit.BlockHitResult(missed,pos.wrapperContained,side.wrapperContained,blockPos.wrapperContained,insideBlock); }
 public yarnwrap.util.math.BlockPos getBlockPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getBlockPos()); }
 public yarnwrap.util.hit.BlockHitResult createMissed(yarnwrap.util.math.Vec3d pos,yarnwrap.util.math.Direction side,yarnwrap.util.math.BlockPos blockPos) { return new yarnwrap.util.hit.BlockHitResult(wrapperContained.createMissed(pos.wrapperContained,side.wrapperContained,blockPos.wrapperContained)); }
 public yarnwrap.util.hit.BlockHitResult withSide(yarnwrap.util.math.Direction side) { return new yarnwrap.util.hit.BlockHitResult(wrapperContained.withSide(side.wrapperContained)); }

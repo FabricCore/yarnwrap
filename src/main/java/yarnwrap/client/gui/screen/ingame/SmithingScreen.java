@@ -23,8 +23,10 @@ public class SmithingScreen { public net.minecraft.client.gui.screen.ingame.Smit
 // public void armorStand(yarnwrap.entity.decoration.ArmorStandEntity value) { wrapperContained.armorStand = value.wrapperContained; }
 // public yarnwrap.util.Identifier ERROR_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.ERROR_TEXTURE); }
 // public void ERROR_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.ERROR_TEXTURE = value.wrapperContained; }
+public SmithingScreen(yarnwrap.screen.SmithingScreenHandler handler,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.SmithingScreen(handler.wrapperContained,playerInventory.wrapperContained,title.wrapperContained); }
 // public java.util.Optional getSmithingTemplate() { return wrapperContained.getSmithingTemplate(); }
 // public boolean hasInvalidRecipe() { return wrapperContained.hasInvalidRecipe(); }
+// public void method_48475(yarnwrap.client.gui.DrawContext text) { wrapperContained.method_48475(text.wrapperContained); }
 // public void renderSlotTooltip(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY) { wrapperContained.renderSlotTooltip(context.wrapperContained,mouseX,mouseY); }
 // public void equipArmorStand(yarnwrap.item.ItemStack stack) { wrapperContained.equipArmorStand(stack.wrapperContained); }
 

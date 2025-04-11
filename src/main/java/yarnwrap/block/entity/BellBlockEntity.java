@@ -21,15 +21,20 @@ public void lastSideHit(yarnwrap.util.math.Direction value) { wrapperContained.l
 // public void MAX_RESONATING_TICKS(int value) { wrapperContained.MAX_RESONATING_TICKS = value; }
 // public int MAX_BELL_HEARING_DISTANCE() { return wrapperContained.MAX_BELL_HEARING_DISTANCE; }
 // public void MAX_BELL_HEARING_DISTANCE(int value) { wrapperContained.MAX_BELL_HEARING_DISTANCE = value; }
+public BellBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.BellBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void activate(yarnwrap.util.math.Direction direction) { wrapperContained.activate(direction.wrapperContained); }
+// public boolean method_20217(yarnwrap.util.math.BlockPos entity) { return wrapperContained.method_20217(entity.wrapperContained); }
 // public void applyParticlesToRaiders(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List hearingEntities) { wrapperContained.applyParticlesToRaiders(world.wrapperContained,pos.wrapperContained,hearingEntities); }
 // public void notifyMemoriesOfBell() { wrapperContained.notifyMemoriesOfBell(); }
 // public boolean isRaiderEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.entity.LivingEntity entity) { return wrapperContained.isRaiderEntity(pos.wrapperContained,entity.wrapperContained); }
+// public void method_20519(yarnwrap.util.math.BlockPos entity) { wrapperContained.method_20519(entity.wrapperContained); }
 // public void applyGlowToEntity(yarnwrap.entity.LivingEntity entity) { wrapperContained.applyGlowToEntity(entity.wrapperContained); }
 // public void applyGlowToRaiders(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List hearingEntities) { wrapperContained.applyGlowToRaiders(world.wrapperContained,pos.wrapperContained,hearingEntities); }
 // public boolean raidersHearBell(yarnwrap.util.math.BlockPos pos,java.util.List hearingEntities) { return wrapperContained.raidersHearBell(pos.wrapperContained,hearingEntities); }
 public void clientTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.BellBlockEntity blockEntity) { wrapperContained.clientTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 // public void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.BellBlockEntity blockEntity,Object bellEffect) { wrapperContained.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained,bellEffect); }
 public void serverTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.BellBlockEntity blockEntity) { wrapperContained.serverTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
+// public boolean method_31660(yarnwrap.util.math.BlockPos entity) { return wrapperContained.method_31660(entity.wrapperContained); }
+// public boolean method_31661(yarnwrap.util.math.BlockPos entity) { return wrapperContained.method_31661(entity.wrapperContained); }
 
 }

@@ -35,7 +35,10 @@ public yarnwrap.state.property.BooleanProperty OPEN() { return new yarnwrap.stat
 // public void type(yarnwrap.block.WoodType value) { wrapperContained.type = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public FenceGateBlock(yarnwrap.block.WoodType type,Object settings) { this.wrapperContained = new net.minecraft.block.FenceGateBlock(type.wrapperContained,settings); }
 // public boolean isWall(yarnwrap.block.BlockState state) { return wrapperContained.isWall(state.wrapperContained); }
 public boolean canWallConnect(yarnwrap.block.BlockState state,yarnwrap.util.math.Direction side) { return wrapperContained.canWallConnect(state.wrapperContained,side.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_54013(Object instance) { return wrapperContained.method_54013(instance); }
+// public yarnwrap.block.WoodType method_54014(yarnwrap.block.FenceGateBlock block) { return new yarnwrap.block.WoodType(wrapperContained.method_54014(block.wrapperContained)); }
 
 }

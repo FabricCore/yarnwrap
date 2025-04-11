@@ -7,6 +7,8 @@ public class DedicatedServerWatchdog { public net.minecraft.server.dedicated.Ded
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public long maxTickTime() { return wrapperContained.maxTickTime; }
 // public void maxTickTime(long value) { wrapperContained.maxTickTime = value; }
+public DedicatedServerWatchdog(yarnwrap.server.dedicated.MinecraftDedicatedServer server) { this.wrapperContained = new net.minecraft.server.dedicated.DedicatedServerWatchdog(server.wrapperContained); }
 // public void shutdown() { wrapperContained.shutdown(); }
+// public java.lang.String method_31376(yarnwrap.server.world.ServerWorld world) { return wrapperContained.method_31376(world.wrapperContained); }
 
 }

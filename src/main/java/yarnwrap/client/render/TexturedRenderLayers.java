@@ -66,11 +66,13 @@ public yarnwrap.client.util.SpriteIdentifier DECORATED_POT_BASE() { return new y
 public yarnwrap.client.util.SpriteIdentifier DECORATED_POT_SIDE() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.DECORATED_POT_SIDE); }
 // public void DECORATED_POT_SIDE(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.DECORATED_POT_SIDE = value.wrapperContained; }
 public yarnwrap.client.render.RenderLayer getBannerPatterns() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getBannerPatterns()); }
+// public yarnwrap.client.util.SpriteIdentifier method_24061(yarnwrap.util.DyeColor color) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.method_24061(color.wrapperContained)); }
 public yarnwrap.client.util.SpriteIdentifier getChestTextureId(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.block.enums.ChestType type,boolean christmas) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getChestTextureId(blockEntity.wrapperContained,type.wrapperContained,christmas)); }
 // public yarnwrap.client.util.SpriteIdentifier getChestTextureId(yarnwrap.block.enums.ChestType type,yarnwrap.client.util.SpriteIdentifier single,yarnwrap.client.util.SpriteIdentifier left,yarnwrap.client.util.SpriteIdentifier right) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getChestTextureId(type.wrapperContained,single.wrapperContained,left.wrapperContained,right.wrapperContained)); }
 // public yarnwrap.client.util.SpriteIdentifier createSignTextureId(yarnwrap.block.WoodType type) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.createSignTextureId(type.wrapperContained)); }
 // public yarnwrap.client.util.SpriteIdentifier createChestTextureId(java.lang.String variant) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.createChestTextureId(variant)); }
 public yarnwrap.client.render.RenderLayer getShieldPatterns() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getShieldPatterns()); }
+// public yarnwrap.client.util.SpriteIdentifier method_24068(java.lang.String colorName) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.method_24068(colorName)); }
 public yarnwrap.client.render.RenderLayer getBeds() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getBeds()); }
 public yarnwrap.client.render.RenderLayer getShulkerBoxes() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getShulkerBoxes()); }
 public yarnwrap.client.render.RenderLayer getSign() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getSign()); }
@@ -88,5 +90,7 @@ public yarnwrap.client.render.RenderLayer getHangingSign() { return new yarnwrap
 public yarnwrap.client.render.RenderLayer getArmorTrims(boolean decal) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getArmorTrims(decal)); }
 public yarnwrap.client.util.SpriteIdentifier getDecoratedPotPatternTextureId(yarnwrap.registry.RegistryKey potPatternKey) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getDecoratedPotPatternTextureId(potPatternKey.wrapperContained)); }
 // public yarnwrap.client.util.SpriteIdentifier createDecoratedPotPatternTextureId(yarnwrap.util.Identifier patternId) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.createDecoratedPotPatternTextureId(patternId.wrapperContained)); }
+// public yarnwrap.client.util.SpriteIdentifier method_58138(yarnwrap.util.Identifier id) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.method_58138(id.wrapperContained)); }
+// public yarnwrap.client.util.SpriteIdentifier method_58139(yarnwrap.util.Identifier id) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.method_58139(id.wrapperContained)); }
 
 }

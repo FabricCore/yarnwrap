@@ -13,8 +13,10 @@ public class HotbarStorage { public net.minecraft.client.option.HotbarStorage wr
 // public void dataFixer(com.mojang.datafixers.DataFixer value) { wrapperContained.dataFixer = value; }
 public int STORAGE_ENTRY_COUNT() { return wrapperContained.STORAGE_ENTRY_COUNT; }
 // public void STORAGE_ENTRY_COUNT(int value) { wrapperContained.STORAGE_ENTRY_COUNT = value; }
+public HotbarStorage(java.nio.file.Path directory,com.mojang.datafixers.DataFixer dataFixer) { this.wrapperContained = new net.minecraft.client.option.HotbarStorage(directory,dataFixer); }
 public void save() { wrapperContained.save(); }
 public yarnwrap.client.option.HotbarStorageEntry getSavedHotbar(int i) { return new yarnwrap.client.option.HotbarStorageEntry(wrapperContained.getSavedHotbar(i)); }
 // public void load() { wrapperContained.load(); }
+// public void method_56825(java.lang.String error) { wrapperContained.method_56825(error); }
 
 }

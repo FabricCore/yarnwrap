@@ -19,5 +19,7 @@ public class FollowMobGoal { public net.minecraft.entity.ai.goal.FollowMobGoal w
 // public void oldWaterPathFindingPenalty(float value) { wrapperContained.oldWaterPathFindingPenalty = value; }
 // public float minDistance() { return wrapperContained.minDistance; }
 // public void minDistance(float value) { wrapperContained.minDistance = value; }
+public FollowMobGoal(yarnwrap.entity.mob.MobEntity mob,double speed,float minDistance,float maxDistance) { this.wrapperContained = new net.minecraft.entity.ai.goal.FollowMobGoal(mob.wrapperContained,speed,minDistance,maxDistance); }
+// public boolean method_6259(yarnwrap.entity.mob.MobEntity target) { return wrapperContained.method_6259(target.wrapperContained); }
 
 }

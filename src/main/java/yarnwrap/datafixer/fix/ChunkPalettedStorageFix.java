@@ -43,14 +43,21 @@ public class ChunkPalettedStorageFix { public net.minecraft.datafixer.fix.ChunkP
 // public void SKULL(java.util.Map value) { wrapperContained.SKULL = value; }
 // public java.util.BitSet BLOCKS_NEEDING_IN_PLACE_UPDATE() { return wrapperContained.BLOCKS_NEEDING_IN_PLACE_UPDATE; }
 // public void BLOCKS_NEEDING_IN_PLACE_UPDATE(java.util.BitSet value) { wrapperContained.BLOCKS_NEEDING_IN_PLACE_UPDATE = value; }
+// public void method_15603(it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap map) { wrapperContained.method_15603(map); }
 // public void buildBanner(java.util.Map out,int colorId,java.lang.String color) { wrapperContained.buildBanner(out,colorId,color); }
+// public void method_15607(java.util.HashMap map) { wrapperContained.method_15607(map); }
+// public void method_15608(java.util.HashMap map) { wrapperContained.method_15608(map); }
 // public void buildSkull(java.util.Map out,int variant,java.lang.String mob,java.lang.String block) { wrapperContained.buildSkull(out,variant,mob,block); }
 // public void buildDoor(java.util.Map out,java.lang.String name,int firstStateId) { wrapperContained.buildDoor(out,name,firstStateId); }
+// public void method_15613(java.util.HashMap map) { wrapperContained.method_15613(map); }
 public int getSideToUpgradeFlag(boolean west,boolean east,boolean north,boolean south) { return wrapperContained.getSideToUpgradeFlag(west,east,north,south); }
 // public int addTo() { return wrapperContained.addTo(); }
+// public void method_15626(java.util.HashMap map) { wrapperContained.method_15626(map); }
+// public void method_15631(java.util.HashMap map) { wrapperContained.method_15631(map); }
 // public com.mojang.serialization.Dynamic fixChunk(com.mojang.serialization.Dynamic chunkDynamic) { return wrapperContained.fixChunk(chunkDynamic); }
 // public void buildBed(java.util.Map out,int colorId,java.lang.String color) { wrapperContained.buildBed(out,colorId,color); }
 // public java.lang.String getName() { return wrapperContained.getName(); }
 // public java.lang.String getProperty(com.mojang.serialization.Dynamic propertyKey) { return wrapperContained.getProperty(propertyKey); }
+// public void method_15639(java.util.HashMap map) { wrapperContained.method_15639(map); }
 
 }

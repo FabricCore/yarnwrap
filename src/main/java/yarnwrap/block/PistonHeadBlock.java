@@ -50,5 +50,6 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public yarnwrap.util.shape.VoxelShape getHeadShape(yarnwrap.util.math.Direction direction,boolean shortHead) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getHeadShape(direction.wrapperContained,shortHead)); }
 // public boolean isAttached(yarnwrap.block.BlockState headState,yarnwrap.block.BlockState pistonState) { return wrapperContained.isAttached(headState.wrapperContained,pistonState.wrapperContained); }
 // public net.minecraft.util.shape.VoxelShape[] getHeadShapes(boolean shortHead) { return wrapperContained.getHeadShapes(shortHead); }
+// public yarnwrap.util.shape.VoxelShape method_31020(boolean direction) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_31020(direction)); }
 
 }

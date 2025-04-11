@@ -15,6 +15,7 @@ public class VexEntityModel { public net.minecraft.client.render.entity.model.Ve
 // public void leftArm(yarnwrap.client.model.ModelPart value) { wrapperContained.leftArm = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
+public VexEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.VexEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 // public void translateForHand(yarnwrap.client.util.math.MatrixStack matrices,boolean mainHand) { wrapperContained.translateForHand(matrices.wrapperContained,mainHand); }
 // public void setChargingArmAngles(yarnwrap.item.ItemStack mainHandStack,yarnwrap.item.ItemStack offHandStack) { wrapperContained.setChargingArmAngles(mainHandStack.wrapperContained,offHandStack.wrapperContained); }

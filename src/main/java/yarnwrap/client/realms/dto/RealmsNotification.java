@@ -25,6 +25,7 @@ public class RealmsNotification { public net.minecraft.client.realms.dto.RealmsN
 // public void INFO_POPUP_TYPE(java.lang.String value) { wrapperContained.INFO_POPUP_TYPE = value; }
 // public yarnwrap.text.Text OPEN_LINK_TEXT() { return new yarnwrap.text.Text(wrapperContained.OPEN_LINK_TEXT); }
 // public void OPEN_LINK_TEXT(yarnwrap.text.Text value) { wrapperContained.OPEN_LINK_TEXT = value.wrapperContained; }
+// public RealmsNotification(java.util.UUID uuid,boolean dismissable,boolean seen,java.lang.String type) { this.wrapperContained = new net.minecraft.client.realms.dto.RealmsNotification(uuid,dismissable,seen,type); }
 public boolean isSeen() { return wrapperContained.isSeen(); }
 // public yarnwrap.client.realms.dto.RealmsNotification fromJson(com.google.gson.JsonObject json) { return new yarnwrap.client.realms.dto.RealmsNotification(wrapperContained.fromJson(json)); }
 public java.util.List parse(java.lang.String json) { return wrapperContained.parse(json); }

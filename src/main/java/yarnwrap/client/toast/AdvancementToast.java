@@ -9,5 +9,6 @@ public int DEFAULT_DURATION_MS() { return wrapperContained.DEFAULT_DURATION_MS; 
 // public void DEFAULT_DURATION_MS(int value) { wrapperContained.DEFAULT_DURATION_MS = value; }
 // public yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.TEXTURE); }
 // public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
+public AdvancementToast(yarnwrap.advancement.AdvancementEntry advancement) { this.wrapperContained = new net.minecraft.client.toast.AdvancementToast(advancement.wrapperContained); }
 
 }

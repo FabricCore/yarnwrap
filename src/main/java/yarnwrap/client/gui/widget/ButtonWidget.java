@@ -13,6 +13,8 @@ public int DEFAULT_HEIGHT() { return wrapperContained.DEFAULT_HEIGHT; }
 // // public void DEFAULT_NARRATION_SUPPLIER(Object value) { wrapperContained.DEFAULT_NARRATION_SUPPLIER = value; }
 // public Object narrationSupplier() { return wrapperContained.narrationSupplier; }
 // // public void narrationSupplier(Object value) { wrapperContained.narrationSupplier = value; }
+// public ButtonWidget(int x,int y,int width,int height,yarnwrap.text.Text message,Object onPress,Object narrationSupplier) { this.wrapperContained = new net.minecraft.client.gui.widget.ButtonWidget(x,y,width,height,message.wrapperContained,onPress,narrationSupplier); }
+// public yarnwrap.text.MutableText method_46429(java.util.function.Supplier textSupplier) { return new yarnwrap.text.MutableText(wrapperContained.method_46429(textSupplier)); }
 // public Object builder(yarnwrap.text.Text message,Object onPress) { return wrapperContained.builder(message.wrapperContained,onPress); }
 
 }

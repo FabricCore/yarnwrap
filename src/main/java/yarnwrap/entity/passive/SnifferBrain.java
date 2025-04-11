@@ -18,6 +18,9 @@ public class SnifferBrain { public net.minecraft.entity.passive.SnifferBrain wra
 // public void addDigActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addDigActivities(brain.wrapperContained); }
 // public void addIdleActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleActivities(brain.wrapperContained); }
 public java.util.function.Predicate getTemptItemPredicate() { return wrapperContained.getTemptItemPredicate(); }
+// public java.lang.Float method_51160(yarnwrap.entity.LivingEntity sniffer) { return wrapperContained.method_51160(sniffer.wrapperContained); }
 // public yarnwrap.entity.passive.SnifferEntity stopDiggingOrSniffing(yarnwrap.entity.passive.SnifferEntity sniffer) { return new yarnwrap.entity.passive.SnifferEntity(wrapperContained.stopDiggingOrSniffing(sniffer.wrapperContained)); }
+// public java.lang.Double method_52174(yarnwrap.entity.LivingEntity sniffer) { return wrapperContained.method_52174(sniffer.wrapperContained); }
+// public boolean method_58394(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58394(stack.wrapperContained); }
 
 }

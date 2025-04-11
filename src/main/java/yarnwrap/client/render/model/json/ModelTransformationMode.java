@@ -9,6 +9,7 @@ public java.util.function.IntFunction FROM_INDEX() { return wrapperContained.FRO
 // public void index(byte value) { wrapperContained.index = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// // public ModelTransformationMode(java.lang.String index,int name) { this.wrapperContained = new net.minecraft.client.render.model.json.ModelTransformationMode(index,name); }
 public boolean isFirstPerson() { return wrapperContained.isFirstPerson(); }
 public byte getIndex() { return wrapperContained.getIndex(); }
 

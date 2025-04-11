@@ -5,7 +5,9 @@ public class MultipartBlockStateSupplier { public net.minecraft.data.client.Mult
 // public void block(yarnwrap.block.Block value) { wrapperContained.block = value.wrapperContained; }
 // public java.util.List multiparts() { return wrapperContained.multiparts; }
 // public void multiparts(java.util.List value) { wrapperContained.multiparts = value; }
+// public MultipartBlockStateSupplier(yarnwrap.block.Block block) { this.wrapperContained = new net.minecraft.data.client.MultipartBlockStateSupplier(block.wrapperContained); }
 public yarnwrap.data.client.MultipartBlockStateSupplier create(yarnwrap.block.Block block) { return new yarnwrap.data.client.MultipartBlockStateSupplier(wrapperContained.create(block.wrapperContained)); }
+// public void method_25759(yarnwrap.state.StateManager multipart) { wrapperContained.method_25759(multipart.wrapperContained); }
 public yarnwrap.data.client.MultipartBlockStateSupplier with(yarnwrap.data.client.When condition,yarnwrap.data.client.BlockStateVariant variant) { return new yarnwrap.data.client.MultipartBlockStateSupplier(wrapperContained.with(condition.wrapperContained,variant.wrapperContained)); }
 public yarnwrap.data.client.MultipartBlockStateSupplier with(yarnwrap.data.client.When condition,java.util.List variants) { return new yarnwrap.data.client.MultipartBlockStateSupplier(wrapperContained.with(condition.wrapperContained,variants)); }
 public yarnwrap.data.client.MultipartBlockStateSupplier with(yarnwrap.data.client.When condition,net.minecraft.data.client.BlockStateVariant[] variants) { return new yarnwrap.data.client.MultipartBlockStateSupplier(wrapperContained.with(condition.wrapperContained,variants)); }

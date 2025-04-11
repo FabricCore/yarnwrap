@@ -11,5 +11,11 @@ public float chanceOfSpreadRadius2() { return wrapperContained.chanceOfSpreadRad
 // public void chanceOfSpreadRadius2(float value) { wrapperContained.chanceOfSpreadRadius2 = value; }
 public float chanceOfSpreadRadius3() { return wrapperContained.chanceOfSpreadRadius3; }
 // public void chanceOfSpreadRadius3(float value) { wrapperContained.chanceOfSpreadRadius3 = value; }
+public SmallDripstoneFeatureConfig(float chanceOfTallerDripstone,float chanceOfDirectionalSpread,float chanceOfSpreadRadius2,float chanceOfSpreadRadius3) { this.wrapperContained = new net.minecraft.world.gen.feature.SmallDripstoneFeatureConfig(chanceOfTallerDripstone,chanceOfDirectionalSpread,chanceOfSpreadRadius2,chanceOfSpreadRadius3); }
+// public com.mojang.datafixers.kinds.App method_33062(Object instance) { return wrapperContained.method_33062(instance); }
+// public java.lang.Float method_33063(yarnwrap.world.gen.feature.SmallDripstoneFeatureConfig config) { return wrapperContained.method_33063(config.wrapperContained); }
+// public java.lang.Float method_39176(yarnwrap.world.gen.feature.SmallDripstoneFeatureConfig config) { return wrapperContained.method_39176(config.wrapperContained); }
+// public java.lang.Float method_39177(yarnwrap.world.gen.feature.SmallDripstoneFeatureConfig config) { return wrapperContained.method_39177(config.wrapperContained); }
+// public java.lang.Float method_39178(yarnwrap.world.gen.feature.SmallDripstoneFeatureConfig config) { return wrapperContained.method_39178(config.wrapperContained); }
 
 }

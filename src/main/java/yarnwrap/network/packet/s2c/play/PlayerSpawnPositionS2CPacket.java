@@ -7,6 +7,8 @@ public class PlayerSpawnPositionS2CPacket { public net.minecraft.network.packet.
 // public void angle(float value) { wrapperContained.angle = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public PlayerSpawnPositionS2CPacket(yarnwrap.util.math.BlockPos pos,float angle) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PlayerSpawnPositionS2CPacket(pos.wrapperContained,angle); }
+// public PlayerSpawnPositionS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PlayerSpawnPositionS2CPacket(buf.wrapperContained); }
 public yarnwrap.util.math.BlockPos getPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getPos()); }
 public float getAngle() { return wrapperContained.getAngle(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

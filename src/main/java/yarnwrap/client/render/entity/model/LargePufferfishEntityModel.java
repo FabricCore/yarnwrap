@@ -7,6 +7,7 @@ public class LargePufferfishEntityModel { public net.minecraft.client.render.ent
 // public void leftBlueFin(yarnwrap.client.model.ModelPart value) { wrapperContained.leftBlueFin = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart rightBlueFin() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightBlueFin); }
 // public void rightBlueFin(yarnwrap.client.model.ModelPart value) { wrapperContained.rightBlueFin = value.wrapperContained; }
+public LargePufferfishEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.LargePufferfishEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

@@ -7,5 +7,9 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void minHeightForLeaves(int value) { wrapperContained.minHeightForLeaves = value; }
 // public yarnwrap.util.math.intprovider.IntProvider bendLength() { return new yarnwrap.util.math.intprovider.IntProvider(wrapperContained.bendLength); }
 // public void bendLength(yarnwrap.util.math.intprovider.IntProvider value) { wrapperContained.bendLength = value.wrapperContained; }
+public BendingTrunkPlacer(int baseHeight,int firstRandomHeight,int secondRandomHeight,int minHeightForLeaves,yarnwrap.util.math.intprovider.IntProvider bendLength) { this.wrapperContained = new net.minecraft.world.gen.trunk.BendingTrunkPlacer(baseHeight,firstRandomHeight,secondRandomHeight,minHeightForLeaves,bendLength.wrapperContained); }
+// public yarnwrap.util.math.intprovider.IntProvider method_34372(yarnwrap.world.gen.trunk.BendingTrunkPlacer placer) { return new yarnwrap.util.math.intprovider.IntProvider(wrapperContained.method_34372(placer.wrapperContained)); }
+// public com.mojang.datafixers.kinds.App method_34373(Object instance) { return wrapperContained.method_34373(instance); }
+// public java.lang.Integer method_34374(yarnwrap.world.gen.trunk.BendingTrunkPlacer placer) { return wrapperContained.method_34374(placer.wrapperContained); }
 
 }

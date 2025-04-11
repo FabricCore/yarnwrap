@@ -33,11 +33,16 @@ public java.util.function.BiConsumer ARBITRARY() { return wrapperContained.ARBIT
 // public void ARBITRARY(java.util.function.BiConsumer value) { wrapperContained.ARBITRARY = value; }
 // public java.util.List predicates() { return wrapperContained.predicates; }
 // public void predicates(java.util.List value) { wrapperContained.predicates = value; }
+// public EntitySelector(int count,boolean includesNonPlayers,boolean localWorldOnly,java.util.List predicates,Object distance,java.util.function.Function positionOffset,yarnwrap.util.math.Box box,java.util.function.BiConsumer sorter,boolean senderOnly,java.lang.String playerName,java.util.UUID uuid,yarnwrap.entity.EntityType type,boolean usesAt) { this.wrapperContained = new net.minecraft.command.EntitySelector(count,includesNonPlayers,localWorldOnly,predicates,distance,positionOffset,box.wrapperContained,sorter,senderOnly,playerName,uuid,type.wrapperContained,usesAt); }
 // public boolean usesAt() { return wrapperContained.usesAt(); }
+// public void method_47802(yarnwrap.util.math.Vec3d pos,java.util.List entities) { wrapperContained.method_47802(pos.wrapperContained,entities); }
 // public int getAppendLimit() { return wrapperContained.getAppendLimit(); }
+// public boolean method_61159(yarnwrap.resource.featuretoggle.FeatureSet entity) { return wrapperContained.method_61159(entity.wrapperContained); }
 // public yarnwrap.util.math.Box getOffsetBox(yarnwrap.util.math.Vec3d offset) { return new yarnwrap.util.math.Box(wrapperContained.getOffsetBox(offset.wrapperContained)); }
 // public yarnwrap.entity.Entity getEntity(yarnwrap.server.command.ServerCommandSource source) { return new yarnwrap.entity.Entity(wrapperContained.getEntity(source.wrapperContained)); }
+// public boolean method_9810(yarnwrap.util.math.Box entity) { return wrapperContained.method_9810(entity.wrapperContained); }
 // public yarnwrap.server.network.ServerPlayerEntity getPlayer(yarnwrap.server.command.ServerCommandSource source) { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.getPlayer(source.wrapperContained)); }
+// public boolean method_9812(yarnwrap.util.math.Vec3d entity) { return wrapperContained.method_9812(entity.wrapperContained); }
 // public java.util.List getPlayers(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.getPlayers(source.wrapperContained); }
 // public java.util.List getEntities(yarnwrap.util.math.Vec3d pos,java.util.List entities) { return wrapperContained.getEntities(pos.wrapperContained,entities); }
 public int getLimit() { return wrapperContained.getLimit(); }

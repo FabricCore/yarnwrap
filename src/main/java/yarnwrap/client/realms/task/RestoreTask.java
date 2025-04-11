@@ -11,5 +11,6 @@ public class RestoreTask { public net.minecraft.client.realms.task.RestoreTask w
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(wrapperContained.TITLE); }
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
+public RestoreTask(yarnwrap.client.realms.dto.Backup backup,long worldId,yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen lastScreen) { this.wrapperContained = new net.minecraft.client.realms.task.RestoreTask(backup.wrapperContained,worldId,lastScreen.wrapperContained); }
 
 }

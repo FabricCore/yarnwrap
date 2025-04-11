@@ -11,6 +11,7 @@ public class Tooltip { public net.minecraft.client.gui.tooltip.Tooltip wrapperCo
 // public void narration(yarnwrap.text.Text value) { wrapperContained.narration = value.wrapperContained; }
 // public yarnwrap.util.Language language() { return new yarnwrap.util.Language(wrapperContained.language); }
 // public void language(yarnwrap.util.Language value) { wrapperContained.language = value.wrapperContained; }
+// public Tooltip(yarnwrap.text.Text content,yarnwrap.text.Text narration) { this.wrapperContained = new net.minecraft.client.gui.tooltip.Tooltip(content.wrapperContained,narration.wrapperContained); }
 public java.util.List getLines(yarnwrap.client.MinecraftClient client) { return wrapperContained.getLines(client.wrapperContained); }
 public java.util.List wrapLines(yarnwrap.client.MinecraftClient client,yarnwrap.text.Text text) { return wrapperContained.wrapLines(client.wrapperContained,text.wrapperContained); }
 public yarnwrap.client.gui.tooltip.Tooltip of(yarnwrap.text.Text content) { return new yarnwrap.client.gui.tooltip.Tooltip(wrapperContained.of(content.wrapperContained)); }

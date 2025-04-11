@@ -17,9 +17,15 @@ public class FunctionLoader { public net.minecraft.server.function.FunctionLoade
 // public void FINDER(yarnwrap.resource.ResourceFinder value) { wrapperContained.FINDER = value.wrapperContained; }
 public yarnwrap.registry.RegistryKey FUNCTION_REGISTRY_KEY() { return new yarnwrap.registry.RegistryKey(wrapperContained.FUNCTION_REGISTRY_KEY); }
 // public void FUNCTION_REGISTRY_KEY(yarnwrap.registry.RegistryKey value) { wrapperContained.FUNCTION_REGISTRY_KEY = value.wrapperContained; }
+public FunctionLoader(int level,com.mojang.brigadier.CommandDispatcher commandDispatcher) { this.wrapperContained = new net.minecraft.server.function.FunctionLoader(level,commandDispatcher); }
 public java.util.Map getFunctions() { return wrapperContained.getFunctions(); }
+// public java.util.concurrent.CompletionStage method_29449(java.util.concurrent.Executor functions) { return wrapperContained.method_29449(functions); }
 // public java.util.List readLines(yarnwrap.resource.Resource resource) { return wrapperContained.readLines(resource.wrapperContained); }
+// public void method_29452(Object id,yarnwrap.util.Identifier functionFuture) { wrapperContained.method_29452(id,functionFuture.wrapperContained); }
+// public void method_29453(com.mojang.datafixers.util.Pair intermediate) { wrapperContained.method_29453(intermediate); }
+// public java.util.Map method_29455(java.util.Map unused,java.lang.Void ex) { return wrapperContained.method_29455(unused,ex); }
 public java.util.Optional get(yarnwrap.util.Identifier id) { return wrapperContained.get(id.wrapperContained); }
+// public java.lang.Object method_29457(yarnwrap.util.Identifier function,Object ex) { return wrapperContained.method_29457(function.wrapperContained,ex); }
 public java.lang.Iterable getTags() { return wrapperContained.getTags(); }
 public java.util.Collection getTagOrEmpty(yarnwrap.util.Identifier id) { return wrapperContained.getTagOrEmpty(id.wrapperContained); }
 

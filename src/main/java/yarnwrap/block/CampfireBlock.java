@@ -19,11 +19,16 @@ public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.
 // public void fireDamage(int value) { wrapperContained.fireDamage = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public CampfireBlock(boolean emitsParticles,int fireDamage,Object settings) { this.wrapperContained = new net.minecraft.block.CampfireBlock(emitsParticles,fireDamage,settings); }
 public void spawnSmokeParticle(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,boolean isSignal,boolean lotsOfSmoke) { wrapperContained.spawnSmokeParticle(world.wrapperContained,pos.wrapperContained,isSignal,lotsOfSmoke); }
 // public boolean isSignalFireBaseBlock(yarnwrap.block.BlockState state) { return wrapperContained.isSignalFireBaseBlock(state.wrapperContained); }
 public boolean isLitCampfireInRange(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isLitCampfireInRange(world.wrapperContained,pos.wrapperContained); }
 public boolean isLitCampfire(yarnwrap.block.BlockState state) { return wrapperContained.isLitCampfire(state.wrapperContained); }
 public void extinguish(yarnwrap.entity.Entity entity,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.extinguish(entity.wrapperContained,world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
+// public boolean method_30034(Object statex) { return wrapperContained.method_30034(statex); }
 public boolean canBeLit(yarnwrap.block.BlockState state) { return wrapperContained.canBeLit(state.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53986(Object instance) { return wrapperContained.method_53986(instance); }
+// public java.lang.Integer method_53987(yarnwrap.block.CampfireBlock block) { return wrapperContained.method_53987(block.wrapperContained); }
+// public java.lang.Boolean method_53988(yarnwrap.block.CampfireBlock block) { return wrapperContained.method_53988(block.wrapperContained); }
 
 }

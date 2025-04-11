@@ -43,6 +43,7 @@ public int DEFAULT_COOK_TIME() { return wrapperContained.DEFAULT_COOK_TIME; }
 // // public void matchGetter(Object value) { wrapperContained.matchGetter = value; }
 // public java.util.Map fuelTimes() { return wrapperContained.fuelTimes; }
 // public void fuelTimes(java.util.Map value) { wrapperContained.fuelTimes = value; }
+// public AbstractFurnaceBlockEntity(yarnwrap.block.entity.BlockEntityType blockEntityType,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.recipe.RecipeType recipeType) { this.wrapperContained = new net.minecraft.block.entity.AbstractFurnaceBlockEntity(blockEntityType.wrapperContained,pos.wrapperContained,state.wrapperContained,recipeType.wrapperContained); }
 // public boolean canAcceptRecipeOutput(yarnwrap.registry.DynamicRegistryManager registryManager,yarnwrap.recipe.RecipeEntry recipe,yarnwrap.util.collection.DefaultedList slots,int count) { return wrapperContained.canAcceptRecipeOutput(registryManager.wrapperContained,recipe.wrapperContained,slots.wrapperContained,count); }
 // public void addFuel(java.util.Map fuelTimes,yarnwrap.registry.tag.TagKey tag,int fuelTime) { wrapperContained.addFuel(fuelTimes,tag.wrapperContained,fuelTime); }
 public boolean canUseAsFuel(yarnwrap.item.ItemStack stack) { return wrapperContained.canUseAsFuel(stack.wrapperContained); }
@@ -53,10 +54,13 @@ public java.util.Map createFuelTimeMap() { return wrapperContained.createFuelTim
 // public boolean craftRecipe(yarnwrap.registry.DynamicRegistryManager registryManager,yarnwrap.recipe.RecipeEntry recipe,yarnwrap.util.collection.DefaultedList slots,int count) { return wrapperContained.craftRecipe(registryManager.wrapperContained,recipe.wrapperContained,slots.wrapperContained,count); }
 // public int getCookTime(yarnwrap.world.World world,yarnwrap.block.entity.AbstractFurnaceBlockEntity furnace) { return wrapperContained.getCookTime(world.wrapperContained,furnace.wrapperContained); }
 // public void dropExperience(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,int multiplier,float experience) { wrapperContained.dropExperience(world.wrapperContained,pos.wrapperContained,multiplier,experience); }
+// public void method_17761(java.util.List recipe) { wrapperContained.method_17761(recipe); }
 public void dropExperienceForRecipesUsed(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.dropExperienceForRecipesUsed(player.wrapperContained); }
+// public void method_24431(yarnwrap.nbt.NbtCompound identifier,yarnwrap.util.Identifier count) { wrapperContained.method_24431(identifier.wrapperContained,count.wrapperContained); }
 // public boolean isNonFlammableWood(yarnwrap.item.Item item) { return wrapperContained.isNonFlammableWood(item.wrapperContained); }
 public java.util.List getRecipesUsedAndDropExperience(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos) { return wrapperContained.getRecipesUsedAndDropExperience(world.wrapperContained,pos.wrapperContained); }
 public void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.AbstractFurnaceBlockEntity blockEntity) { wrapperContained.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
+// public java.lang.Integer method_53790(yarnwrap.recipe.RecipeEntry recipe) { return wrapperContained.method_53790(recipe.wrapperContained); }
 public void clearFuelTimes() { wrapperContained.clearFuelTimes(); }
 
 }

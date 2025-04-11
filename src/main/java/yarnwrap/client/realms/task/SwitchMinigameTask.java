@@ -11,5 +11,6 @@ public class SwitchMinigameTask { public net.minecraft.client.realms.task.Switch
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(wrapperContained.TITLE); }
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
+public SwitchMinigameTask(long worldId,yarnwrap.client.realms.dto.WorldTemplate worldTemplate,yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen lastScreen) { this.wrapperContained = new net.minecraft.client.realms.task.SwitchMinigameTask(worldId,worldTemplate.wrapperContained,lastScreen.wrapperContained); }
 
 }

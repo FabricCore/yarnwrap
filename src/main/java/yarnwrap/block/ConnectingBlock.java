@@ -19,7 +19,9 @@ public yarnwrap.state.property.BooleanProperty NORTH() { return new yarnwrap.sta
 // public void FACINGS(net.minecraft.util.math.Direction[] value) { wrapperContained.FACINGS = value; }
 public yarnwrap.state.property.BooleanProperty EAST() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.EAST); }
 // public void EAST(yarnwrap.state.property.BooleanProperty value) { wrapperContained.EAST = value.wrapperContained; }
+// public ConnectingBlock(float radius,Object settings) { this.wrapperContained = new net.minecraft.block.ConnectingBlock(radius,settings); }
 // public int getConnectionMask(yarnwrap.block.BlockState state) { return wrapperContained.getConnectionMask(state.wrapperContained); }
+// public void method_10369(java.util.EnumMap directions) { wrapperContained.method_10369(directions); }
 // public net.minecraft.util.shape.VoxelShape[] generateFacingsToShapeMap(float radius) { return wrapperContained.generateFacingsToShapeMap(radius); }
 
 }

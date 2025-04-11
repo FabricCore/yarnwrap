@@ -33,6 +33,7 @@ public class StriderEntityModel { public net.minecraft.client.render.entity.mode
 // public void LEFT_MIDDLE_BRISTLE(java.lang.String value) { wrapperContained.LEFT_MIDDLE_BRISTLE = value; }
 // public java.lang.String LEFT_BOTTOM_BRISTLE() { return wrapperContained.LEFT_BOTTOM_BRISTLE; }
 // public void LEFT_BOTTOM_BRISTLE(java.lang.String value) { wrapperContained.LEFT_BOTTOM_BRISTLE = value; }
+public StriderEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.StriderEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

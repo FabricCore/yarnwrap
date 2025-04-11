@@ -5,6 +5,8 @@ public class UpdateDifficultyLockC2SPacket { public net.minecraft.network.packet
 // public void difficultyLocked(boolean value) { wrapperContained.difficultyLocked = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public UpdateDifficultyLockC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateDifficultyLockC2SPacket(buf.wrapperContained); }
+public UpdateDifficultyLockC2SPacket(boolean difficultyLocked) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateDifficultyLockC2SPacket(difficultyLocked); }
 public boolean isDifficultyLocked() { return wrapperContained.isDifficultyLocked(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 

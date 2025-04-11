@@ -19,6 +19,7 @@ public java.lang.String HIGH_CONTRAST_ID() { return wrapperContained.HIGH_CONTRA
 // public void REQUIRED_POSITION(yarnwrap.resource.ResourcePackPosition value) { wrapperContained.REQUIRED_POSITION = value.wrapperContained; }
 // public yarnwrap.resource.ResourcePackPosition OPTIONAL_POSITION() { return new yarnwrap.resource.ResourcePackPosition(wrapperContained.OPTIONAL_POSITION); }
 // public void OPTIONAL_POSITION(yarnwrap.resource.ResourcePackPosition value) { wrapperContained.OPTIONAL_POSITION = value.wrapperContained; }
+public DefaultClientResourcePackProvider(java.nio.file.Path assetsPath,yarnwrap.util.path.SymlinkFinder symlinkFinder) { this.wrapperContained = new net.minecraft.client.resource.DefaultClientResourcePackProvider(assetsPath,symlinkFinder.wrapperContained); }
 // public java.nio.file.Path getResourcePacksPath(java.nio.file.Path path) { return wrapperContained.getResourcePacksPath(path); }
 // public yarnwrap.resource.DefaultResourcePack createDefaultPack(java.nio.file.Path assetsPath) { return new yarnwrap.resource.DefaultResourcePack(wrapperContained.createDefaultPack(assetsPath)); }
 // public yarnwrap.resource.ResourcePackInfo createInfo(java.lang.String id,yarnwrap.text.Text title) { return new yarnwrap.resource.ResourcePackInfo(wrapperContained.createInfo(id,title.wrapperContained)); }

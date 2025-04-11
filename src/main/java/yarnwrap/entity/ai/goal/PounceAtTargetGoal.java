@@ -7,5 +7,6 @@ public class PounceAtTargetGoal { public net.minecraft.entity.ai.goal.PounceAtTa
 // public void mob(yarnwrap.entity.mob.MobEntity value) { wrapperContained.mob = value.wrapperContained; }
 // public yarnwrap.entity.LivingEntity target() { return new yarnwrap.entity.LivingEntity(wrapperContained.target); }
 // public void target(yarnwrap.entity.LivingEntity value) { wrapperContained.target = value.wrapperContained; }
+public PounceAtTargetGoal(yarnwrap.entity.mob.MobEntity mob,float velocity) { this.wrapperContained = new net.minecraft.entity.ai.goal.PounceAtTargetGoal(mob.wrapperContained,velocity); }
 
 }

@@ -11,6 +11,8 @@ public yarnwrap.nbt.NbtByte ONE() { return new yarnwrap.nbt.NbtByte(wrapperConta
 // public void ONE(yarnwrap.nbt.NbtByte value) { wrapperContained.ONE = value.wrapperContained; }
 // public int SIZE() { return wrapperContained.SIZE; }
 // public void SIZE(int value) { wrapperContained.SIZE = value; }
+// public NbtByte(byte value) { this.wrapperContained = new net.minecraft.nbt.NbtByte(value); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.nbt.NbtByte of(byte value) { return new yarnwrap.nbt.NbtByte(wrapperContained.of(value)); }
 public yarnwrap.nbt.NbtByte of(boolean value) { return new yarnwrap.nbt.NbtByte(wrapperContained.of(value)); }
 

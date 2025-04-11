@@ -13,6 +13,7 @@ public class ServerTickManager { public net.minecraft.server.ServerTickManager w
 // public void wasFrozen(boolean value) { wrapperContained.wasFrozen = value; }
 // public yarnwrap.server.MinecraftServer server() { return new yarnwrap.server.MinecraftServer(wrapperContained.server); }
 // public void server(yarnwrap.server.MinecraftServer value) { wrapperContained.server = value.wrapperContained; }
+public ServerTickManager(yarnwrap.server.MinecraftServer server) { this.wrapperContained = new net.minecraft.server.ServerTickManager(server.wrapperContained); }
 public boolean isSprinting() { return wrapperContained.isSprinting(); }
 public boolean step(int ticks) { return wrapperContained.step(ticks); }
 public void sendPackets(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.sendPackets(player.wrapperContained); }

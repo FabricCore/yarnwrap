@@ -15,5 +15,6 @@ public class WanderNearTargetGoal { public net.minecraft.entity.ai.goal.WanderNe
 // public void z(double value) { wrapperContained.z = value; }
 // public float maxDistance() { return wrapperContained.maxDistance; }
 // public void maxDistance(float value) { wrapperContained.maxDistance = value; }
+public WanderNearTargetGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed,float maxDistance) { this.wrapperContained = new net.minecraft.entity.ai.goal.WanderNearTargetGoal(mob.wrapperContained,speed,maxDistance); }
 
 }

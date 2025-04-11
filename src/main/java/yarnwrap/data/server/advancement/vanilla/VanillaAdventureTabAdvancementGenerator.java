@@ -17,10 +17,17 @@ public class VanillaAdventureTabAdvancementGenerator { public net.minecraft.data
 // public yarnwrap.advancement.AdvancementCriterion createLightningStrike(Object range,java.util.Optional entity) { return new yarnwrap.advancement.AdvancementCriterion(wrapperContained.createLightningStrike(range,entity)); }
 // public void buildAdventuringTime(Object registryLookup,java.util.function.Consumer exporter,yarnwrap.advancement.AdvancementEntry parent,Object biomeSourceListPreset) { wrapperContained.buildAdventuringTime(registryLookup,exporter,parent.wrapperContained,biomeSourceListPreset); }
 // public Object requireAllExclusiveTrimmedArmor(Object builder) { return wrapperContained.requireAllExclusiveTrimmedArmor(builder); }
+// public void method_51690(Object templatex) { wrapperContained.method_51690(templatex); }
 // public Object requireTrimmedArmor(Object builder) { return wrapperContained.requireTrimmedArmor(builder); }
 // public Object requireSalvagedSherd(Object builder) { return wrapperContained.requireSalvagedSherd(builder); }
 // public yarnwrap.advancement.AdvancementCriterion requirePlacedBlockReadByComparator(yarnwrap.block.Block block) { return new yarnwrap.advancement.AdvancementCriterion(wrapperContained.requirePlacedBlockReadByComparator(block.wrapperContained)); }
+// public Object method_51816(yarnwrap.block.Block facing) { return wrapperContained.method_51816(facing.wrapperContained); }
+// public Object method_51817(yarnwrap.util.math.Direction facing) { return wrapperContained.method_51817(facing.wrapperContained); }
 // public yarnwrap.advancement.AdvancementCriterion requirePlacedComparatorReadingBlock(yarnwrap.block.Block block) { return new yarnwrap.advancement.AdvancementCriterion(wrapperContained.requirePlacedComparatorReadingBlock(block.wrapperContained)); }
+// public void method_54650(Object template) { wrapperContained.method_54650(template); }
+// public void method_54651(Object pair) { wrapperContained.method_54651(pair); }
+// public boolean method_54652(java.util.Set template) { return wrapperContained.method_54652(template); }
+// public void method_55580(Object type) { wrapperContained.method_55580(type); }
 public yarnwrap.advancement.AdvancementEntry createKillMobAdvancements(yarnwrap.advancement.AdvancementEntry parent,java.util.function.Consumer exporter,java.util.List monsters) { return new yarnwrap.advancement.AdvancementEntry(wrapperContained.createKillMobAdvancements(parent.wrapperContained,exporter,monsters)); }
 
 }

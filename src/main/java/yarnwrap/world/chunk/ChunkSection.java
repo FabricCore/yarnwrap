@@ -11,6 +11,8 @@ public class ChunkSection { public net.minecraft.world.chunk.ChunkSection wrappe
 // public void randomTickableBlockCount(short value) { wrapperContained.randomTickableBlockCount = value; }
 // public yarnwrap.world.chunk.ReadableContainer biomeContainer() { return new yarnwrap.world.chunk.ReadableContainer(wrapperContained.biomeContainer); }
 // public void biomeContainer(yarnwrap.world.chunk.ReadableContainer value) { wrapperContained.biomeContainer = value.wrapperContained; }
+public ChunkSection(yarnwrap.registry.Registry biomeRegistry) { this.wrapperContained = new net.minecraft.world.chunk.ChunkSection(biomeRegistry.wrapperContained); }
+public ChunkSection(yarnwrap.world.chunk.PalettedContainer blockStateContainer,yarnwrap.world.chunk.ReadableContainer biomeContainer) { this.wrapperContained = new net.minecraft.world.chunk.ChunkSection(blockStateContainer.wrapperContained,biomeContainer.wrapperContained); }
 public void calculateCounts() { wrapperContained.calculateCounts(); }
 public yarnwrap.block.BlockState getBlockState(int x,int y,int z) { return new yarnwrap.block.BlockState(wrapperContained.getBlockState(x,y,z)); }
 public yarnwrap.fluid.FluidState getFluidState(int x,int y,int z) { return new yarnwrap.fluid.FluidState(wrapperContained.getFluidState(x,y,z)); }

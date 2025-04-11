@@ -15,6 +15,7 @@ public class UploadInfo { public net.minecraft.client.realms.dto.UploadInfo wrap
 // public void HTTP_PROTOCOL(java.lang.String value) { wrapperContained.HTTP_PROTOCOL = value; }
 // public int PORT() { return wrapperContained.PORT; }
 // public void PORT(int value) { wrapperContained.PORT = value; }
+// public UploadInfo(boolean worldClosed,java.lang.String token,java.net.URI uploadEndpoint) { this.wrapperContained = new net.minecraft.client.realms.dto.UploadInfo(worldClosed,token,uploadEndpoint); }
 public java.lang.String getToken() { return wrapperContained.getToken(); }
 public yarnwrap.client.realms.dto.UploadInfo parse(java.lang.String json) { return new yarnwrap.client.realms.dto.UploadInfo(wrapperContained.parse(json)); }
 public java.net.URI getUploadEndpoint() { return wrapperContained.getUploadEndpoint(); }

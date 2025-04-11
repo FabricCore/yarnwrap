@@ -7,6 +7,7 @@ public class EntityTrackingSection { public net.minecraft.world.entity.EntityTra
 // public void collection(yarnwrap.util.collection.TypeFilterableList value) { wrapperContained.collection = value.wrapperContained; }
 // public yarnwrap.world.entity.EntityTrackingStatus status() { return new yarnwrap.world.entity.EntityTrackingStatus(wrapperContained.status); }
 // public void status(yarnwrap.world.entity.EntityTrackingStatus value) { wrapperContained.status = value.wrapperContained; }
+public EntityTrackingSection(java.lang.Class entityClass,yarnwrap.world.entity.EntityTrackingStatus status) { this.wrapperContained = new net.minecraft.world.entity.EntityTrackingSection(entityClass,status.wrapperContained); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 public Object forEach(yarnwrap.util.TypeFilter type,yarnwrap.util.math.Box box,yarnwrap.util.function.LazyIterationConsumer consumer) { return wrapperContained.forEach(type.wrapperContained,box.wrapperContained,consumer.wrapperContained); }
 public yarnwrap.world.entity.EntityTrackingStatus swapStatus(yarnwrap.world.entity.EntityTrackingStatus status) { return new yarnwrap.world.entity.EntityTrackingStatus(wrapperContained.swapStatus(status.wrapperContained)); }

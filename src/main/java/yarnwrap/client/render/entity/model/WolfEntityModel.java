@@ -27,6 +27,7 @@ public class WolfEntityModel { public net.minecraft.client.render.entity.model.W
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart torso() { return new yarnwrap.client.model.ModelPart(wrapperContained.torso); }
 // public void torso(yarnwrap.client.model.ModelPart value) { wrapperContained.torso = value.wrapperContained; }
+public WolfEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.WolfEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.ModelData getTexturedModelData(yarnwrap.client.model.Dilation dilation) { return new yarnwrap.client.model.ModelData(wrapperContained.getTexturedModelData(dilation.wrapperContained)); }
 
 }

@@ -165,14 +165,62 @@ public yarnwrap.registry.Registry ENCHANTMENT_VALUE_EFFECT_TYPE() { return new y
 // public void ENCHANTMENT_VALUE_EFFECT_TYPE(yarnwrap.registry.Registry value) { wrapperContained.ENCHANTMENT_VALUE_EFFECT_TYPE = value.wrapperContained; }
 public yarnwrap.registry.Registry ENCHANTMENT_PROVIDER_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.ENCHANTMENT_PROVIDER_TYPE); }
 // public void ENCHANTMENT_PROVIDER_TYPE(yarnwrap.registry.Registry value) { wrapperContained.ENCHANTMENT_PROVIDER_TYPE = value.wrapperContained; }
+// public java.lang.Object method_47450(yarnwrap.registry.Registry registry) { return wrapperContained.method_47450(registry.wrapperContained); }
+// public java.lang.Object method_47451(yarnwrap.registry.Registry registry) { return wrapperContained.method_47451(registry.wrapperContained); }
+// public java.lang.Object method_47452(yarnwrap.registry.Registry registry) { return wrapperContained.method_47452(registry.wrapperContained); }
+// public java.lang.Object method_47453(yarnwrap.registry.Registry registry) { return wrapperContained.method_47453(registry.wrapperContained); }
+// public java.lang.Object method_47454(yarnwrap.registry.Registry registry) { return wrapperContained.method_47454(registry.wrapperContained); }
+// public java.lang.Object method_47455(yarnwrap.registry.Registry registry) { return wrapperContained.method_47455(registry.wrapperContained); }
+// public java.lang.Object method_47456(yarnwrap.registry.Registry registry) { return wrapperContained.method_47456(registry.wrapperContained); }
+// public java.lang.Object method_47457(yarnwrap.registry.Registry registry) { return wrapperContained.method_47457(registry.wrapperContained); }
+// public java.lang.Object method_47459(yarnwrap.registry.Registry registry) { return wrapperContained.method_47459(registry.wrapperContained); }
+// public java.lang.Object method_47460(yarnwrap.registry.Registry registry) { return wrapperContained.method_47460(registry.wrapperContained); }
+// public java.lang.Object method_47461(yarnwrap.registry.Registry registry) { return wrapperContained.method_47461(registry.wrapperContained); }
+// public java.lang.Object method_47462(yarnwrap.registry.Registry registry) { return wrapperContained.method_47462(registry.wrapperContained); }
+// public java.lang.Object method_47465(yarnwrap.registry.Registry registry) { return wrapperContained.method_47465(registry.wrapperContained); }
+// public java.lang.Object method_47466(yarnwrap.registry.Registry registry) { return wrapperContained.method_47466(registry.wrapperContained); }
+// public java.lang.Object method_47467(yarnwrap.registry.Registry registry) { return wrapperContained.method_47467(registry.wrapperContained); }
+// public java.lang.Object method_47469(yarnwrap.registry.Registry registry) { return wrapperContained.method_47469(registry.wrapperContained); }
+// public java.lang.Object method_47470(yarnwrap.registry.Registry registry) { return wrapperContained.method_47470(registry.wrapperContained); }
+// public java.lang.Object method_47471(yarnwrap.registry.Registry registry) { return wrapperContained.method_47471(registry.wrapperContained); }
+// public java.lang.Object method_47472(yarnwrap.registry.Registry registry) { return wrapperContained.method_47472(registry.wrapperContained); }
+// public java.lang.Object method_47474(yarnwrap.registry.Registry registry) { return wrapperContained.method_47474(registry.wrapperContained); }
+// public java.lang.Object method_47475(yarnwrap.registry.Registry registry) { return wrapperContained.method_47475(registry.wrapperContained); }
 public void bootstrap() { wrapperContained.bootstrap(); }
 // public yarnwrap.registry.MutableRegistry create(yarnwrap.registry.RegistryKey key,yarnwrap.registry.MutableRegistry registry,Object initializer) { return new yarnwrap.registry.MutableRegistry(wrapperContained.create(key.wrapperContained,registry.wrapperContained,initializer)); }
 // public yarnwrap.registry.Registry create(yarnwrap.registry.RegistryKey key,Object initializer) { return new yarnwrap.registry.Registry(wrapperContained.create(key.wrapperContained,initializer)); }
 // public yarnwrap.registry.DefaultedRegistry create(yarnwrap.registry.RegistryKey key,java.lang.String defaultId,Object initializer) { return new yarnwrap.registry.DefaultedRegistry(wrapperContained.create(key.wrapperContained,defaultId,initializer)); }
+// public void method_47482(yarnwrap.util.Identifier id,java.util.function.Supplier initializer) { wrapperContained.method_47482(id.wrapperContained,initializer); }
 // public void validate(yarnwrap.registry.Registry registries) { wrapperContained.validate(registries.wrapperContained); }
+// public void method_47484(yarnwrap.registry.Registry registry) { wrapperContained.method_47484(registry.wrapperContained); }
 // public void init() { wrapperContained.init(); }
 // public yarnwrap.registry.DefaultedRegistry createIntrusive(yarnwrap.registry.RegistryKey key,java.lang.String defaultId,Object initializer) { return new yarnwrap.registry.DefaultedRegistry(wrapperContained.createIntrusive(key.wrapperContained,defaultId,initializer)); }
 // public void freezeRegistries() { wrapperContained.freezeRegistries(); }
+// public java.lang.Object method_47492(yarnwrap.registry.Registry registry) { return wrapperContained.method_47492(registry.wrapperContained); }
+// public java.lang.Object method_47493(yarnwrap.registry.Registry registry) { return wrapperContained.method_47493(registry.wrapperContained); }
+// public java.lang.Object method_47494(yarnwrap.registry.Registry registry) { return wrapperContained.method_47494(registry.wrapperContained); }
+// public java.lang.Object method_47495(yarnwrap.registry.Registry registry) { return wrapperContained.method_47495(registry.wrapperContained); }
+// public java.lang.Object method_47496(yarnwrap.registry.Registry registry) { return wrapperContained.method_47496(registry.wrapperContained); }
+// public java.lang.Object method_47497(yarnwrap.registry.Registry registry) { return wrapperContained.method_47497(registry.wrapperContained); }
+// public java.lang.Object method_47498(yarnwrap.registry.Registry registry) { return wrapperContained.method_47498(registry.wrapperContained); }
+// public java.lang.Object method_47499(yarnwrap.registry.Registry registry) { return wrapperContained.method_47499(registry.wrapperContained); }
+// public java.lang.Object method_47500(yarnwrap.registry.Registry registry) { return wrapperContained.method_47500(registry.wrapperContained); }
+// public java.lang.Object method_47501(yarnwrap.registry.Registry registry) { return wrapperContained.method_47501(registry.wrapperContained); }
+// public java.lang.Object method_47502(yarnwrap.registry.Registry registry) { return wrapperContained.method_47502(registry.wrapperContained); }
+// public java.lang.Object method_47503(yarnwrap.registry.Registry registry) { return wrapperContained.method_47503(registry.wrapperContained); }
+// public java.lang.Object method_47504(yarnwrap.registry.Registry registry) { return wrapperContained.method_47504(registry.wrapperContained); }
+// public java.lang.Object method_47505(yarnwrap.registry.Registry registry) { return wrapperContained.method_47505(registry.wrapperContained); }
+// public java.lang.Object method_47506(yarnwrap.registry.Registry registry) { return wrapperContained.method_47506(registry.wrapperContained); }
+// public java.lang.Object method_47507(yarnwrap.registry.Registry registry) { return wrapperContained.method_47507(registry.wrapperContained); }
+// public java.lang.Object method_47508(yarnwrap.registry.Registry registry) { return wrapperContained.method_47508(registry.wrapperContained); }
+// public java.lang.Object method_47509(yarnwrap.registry.Registry registry) { return wrapperContained.method_47509(registry.wrapperContained); }
+// public java.lang.Object method_47510(yarnwrap.registry.Registry registry) { return wrapperContained.method_47510(registry.wrapperContained); }
+// public java.lang.Object method_47511(yarnwrap.registry.Registry registry) { return wrapperContained.method_47511(registry.wrapperContained); }
+// public java.lang.Object method_47512(yarnwrap.registry.Registry registry) { return wrapperContained.method_47512(registry.wrapperContained); }
+// public java.lang.Object method_47513(yarnwrap.registry.Registry registry) { return wrapperContained.method_47513(registry.wrapperContained); }
+// public java.lang.Object method_47514(yarnwrap.registry.Registry registry) { return wrapperContained.method_47514(registry.wrapperContained); }
+// public java.lang.Object method_47515(yarnwrap.registry.Registry registry) { return wrapperContained.method_47515(registry.wrapperContained); }
+// public java.lang.Object method_49927(yarnwrap.registry.Registry registry) { return wrapperContained.method_49927(registry.wrapperContained); }
 // public yarnwrap.registry.Registry createIntrusive(yarnwrap.registry.RegistryKey key,Object initializer) { return new yarnwrap.registry.Registry(wrapperContained.createIntrusive(key.wrapperContained,initializer)); }
 
 }

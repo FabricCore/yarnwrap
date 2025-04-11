@@ -13,6 +13,7 @@ public class LockHelper { public net.minecraft.util.thread.LockHelper wrapperCon
 // public void thread(java.lang.Thread value) { wrapperContained.thread = value; }
 // public yarnwrap.util.crash.CrashException crashException() { return new yarnwrap.util.crash.CrashException(wrapperContained.crashException); }
 // public void crashException(yarnwrap.util.crash.CrashException value) { wrapperContained.crashException = value.wrapperContained; }
+public LockHelper(java.lang.String name) { this.wrapperContained = new net.minecraft.util.thread.LockHelper(name); }
 public yarnwrap.util.crash.CrashException crash(java.lang.String message,java.lang.Thread thread) { return new yarnwrap.util.crash.CrashException(wrapperContained.crash(message,thread)); }
 // public void lock() { wrapperContained.lock(); }
 // public java.lang.String formatStackTraceForThread(java.lang.Thread thread) { return wrapperContained.formatStackTraceForThread(thread); }

@@ -8,6 +8,9 @@ public class FeatureDebugLogger { public net.minecraft.world.gen.feature.util.Fe
 public void clear() { wrapperContained.clear(); }
 public void incrementTotalChunksCount(yarnwrap.server.world.ServerWorld world) { wrapperContained.incrementTotalChunksCount(world.wrapperContained); }
 public void incrementFeatureCount(yarnwrap.server.world.ServerWorld world,yarnwrap.world.gen.feature.ConfiguredFeature configuredFeature,java.util.Optional placedFeature) { wrapperContained.incrementFeatureCount(world.wrapperContained,configuredFeature.wrapperContained,placedFeature); }
+// public void method_39600(yarnwrap.server.world.ServerWorld world,Object features) { wrapperContained.method_39600(world.wrapperContained,features); }
+// public java.lang.Integer method_39601(Object featureData,java.lang.Integer count) { return wrapperContained.method_39601(featureData,count); }
+// public void method_39602(java.lang.String featureData,java.lang.Integer count) { wrapperContained.method_39602(featureData,count); }
 public void dump() { wrapperContained.dump(); }
 
 }

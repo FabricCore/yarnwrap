@@ -31,6 +31,7 @@ public int PROPERTY_COUNT() { return wrapperContained.PROPERTY_COUNT; }
 // public void INPUT_SLOT_INDEX(int value) { wrapperContained.INPUT_SLOT_INDEX = value; }
 // public int FUEL_SLOT_INDEX() { return wrapperContained.FUEL_SLOT_INDEX; }
 // public void FUEL_SLOT_INDEX(int value) { wrapperContained.FUEL_SLOT_INDEX = value; }
+public BrewingStandBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.BrewingStandBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public boolean canCraft(yarnwrap.recipe.BrewingRecipeRegistry brewingRecipeRegistry,yarnwrap.util.collection.DefaultedList slots) { return wrapperContained.canCraft(brewingRecipeRegistry.wrapperContained,slots.wrapperContained); }
 // public boolean[] getSlotsEmpty() { return wrapperContained.getSlotsEmpty(); }
 // public void craft(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.collection.DefaultedList slots) { wrapperContained.craft(world.wrapperContained,pos.wrapperContained,slots.wrapperContained); }

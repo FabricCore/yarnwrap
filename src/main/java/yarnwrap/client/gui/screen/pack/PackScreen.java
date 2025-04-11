@@ -33,11 +33,19 @@ public class PackScreen { public net.minecraft.client.gui.screen.pack.PackScreen
 // public void OPEN_FOLDER(yarnwrap.text.Text value) { wrapperContained.OPEN_FOLDER = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+public PackScreen(yarnwrap.resource.ResourcePackManager resourcePackManager,java.util.function.Consumer applier,java.nio.file.Path file,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.pack.PackScreen(resourcePackManager.wrapperContained,applier,file,title.wrapperContained); }
 // public void copyPacks(yarnwrap.client.MinecraftClient client,java.util.List srcPaths,java.nio.file.Path destPath) { wrapperContained.copyPacks(client.wrapperContained,srcPaths,destPath); }
+// public void method_29670(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_29670(button.wrapperContained); }
+// public void method_29672(yarnwrap.client.gui.screen.pack.PackListWidget pack) { wrapperContained.method_29672(pack.wrapperContained); }
 // public void updatePackList(yarnwrap.client.gui.screen.pack.PackListWidget widget,java.util.stream.Stream packs) { wrapperContained.updatePackList(widget.wrapperContained,packs); }
+// public void method_29674(java.nio.file.Path toCopy) { wrapperContained.method_29674(toCopy); }
+// public void method_29675(java.nio.file.Path src) { wrapperContained.method_29675(src); }
+// public void method_29676(java.util.List confirmed) { wrapperContained.method_29676(confirmed); }
 // public void updatePackLists() { wrapperContained.updatePackLists(); }
 // public void refresh() { wrapperContained.refresh(); }
+// public void method_29982(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_29982(button.wrapperContained); }
 // public yarnwrap.util.Identifier getPackIconTexture(yarnwrap.resource.ResourcePackProfile resourcePackProfile) { return new yarnwrap.util.Identifier(wrapperContained.getPackIconTexture(resourcePackProfile.wrapperContained)); }
+// public yarnwrap.util.Identifier method_30288(yarnwrap.resource.ResourcePackProfile profileName) { return new yarnwrap.util.Identifier(wrapperContained.method_30288(profileName.wrapperContained)); }
 // public yarnwrap.util.Identifier loadPackIcon(yarnwrap.client.texture.TextureManager textureManager,yarnwrap.resource.ResourcePackProfile resourcePackProfile) { return new yarnwrap.util.Identifier(wrapperContained.loadPackIcon(textureManager.wrapperContained,resourcePackProfile.wrapperContained)); }
 // public void closeDirectoryWatcher() { wrapperContained.closeDirectoryWatcher(); }
 public void switchFocusedList(yarnwrap.client.gui.screen.pack.PackListWidget listWidget) { wrapperContained.switchFocusedList(listWidget.wrapperContained); }

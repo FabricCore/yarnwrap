@@ -19,6 +19,7 @@ public class GlUniform { public net.minecraft.client.gl.GlUniform wrapperContain
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public java.nio.FloatBuffer floatData() { return wrapperContained.floatData; }
 // public void floatData(java.nio.FloatBuffer value) { wrapperContained.floatData = value; }
+public GlUniform(java.lang.String name,int dataType,int count,yarnwrap.client.gl.ShaderProgramSetupView program) { this.wrapperContained = new net.minecraft.client.gl.GlUniform(name,dataType,count,program.wrapperContained); }
 // public void uploadMatrix() { wrapperContained.uploadMatrix(); }
 public void setLocation(int location) { wrapperContained.setLocation(location); }
 public java.lang.String getName() { return wrapperContained.getName(); }

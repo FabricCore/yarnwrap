@@ -11,5 +11,6 @@ public class HorseBondWithPlayerGoal { public net.minecraft.entity.ai.goal.Horse
 // public void horse(yarnwrap.entity.passive.AbstractHorseEntity value) { wrapperContained.horse = value.wrapperContained; }
 // public double targetZ() { return wrapperContained.targetZ; }
 // public void targetZ(double value) { wrapperContained.targetZ = value; }
+public HorseBondWithPlayerGoal(yarnwrap.entity.passive.AbstractHorseEntity horse,double speed) { this.wrapperContained = new net.minecraft.entity.ai.goal.HorseBondWithPlayerGoal(horse.wrapperContained,speed); }
 
 }

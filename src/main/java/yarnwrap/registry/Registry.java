@@ -1,6 +1,7 @@
 package yarnwrap.registry;
 public class Registry { public net.minecraft.registry.Registry wrapperContained; public Registry(net.minecraft.registry.Registry wrapperContained) { this.wrapperContained = wrapperContained; }
 
+public java.util.stream.Stream keys(com.mojang.serialization.DynamicOps ops) { return wrapperContained.keys(ops); }
 public java.util.stream.Stream stream() { return wrapperContained.stream(); }
 public yarnwrap.util.Identifier getId(java.lang.Object value) { return new yarnwrap.util.Identifier(wrapperContained.getId(value)); }
 public java.lang.Object get(yarnwrap.util.Identifier id) { return wrapperContained.get(id.wrapperContained); }
@@ -17,6 +18,7 @@ public yarnwrap.registry.RegistryKey getKey() { return new yarnwrap.registry.Reg
 public com.mojang.serialization.Lifecycle getLifecycle() { return wrapperContained.getLifecycle(); }
 public java.lang.Object getOrThrow(yarnwrap.registry.RegistryKey key) { return wrapperContained.getOrThrow(key.wrapperContained); }
 public java.util.Optional getOrEmpty(yarnwrap.registry.RegistryKey key) { return wrapperContained.getOrEmpty(key.wrapperContained); }
+// public java.lang.Object method_34028(com.mojang.serialization.DynamicOps id) { return wrapperContained.method_34028(id); }
 public boolean contains(yarnwrap.registry.RegistryKey key) { return wrapperContained.contains(key.wrapperContained); }
 // public java.lang.Object register(yarnwrap.registry.Registry registry,yarnwrap.registry.RegistryKey key,java.lang.Object entry) { return wrapperContained.register(registry.wrapperContained,key.wrapperContained,entry); }
 public com.mojang.serialization.Codec getCodec() { return wrapperContained.getCodec(); }
@@ -39,14 +41,20 @@ public java.util.Set getKeys() { return wrapperContained.getKeys(); }
 public yarnwrap.registry.entry.RegistryEntryOwner getEntryOwner() { return new yarnwrap.registry.entry.RegistryEntryOwner(wrapperContained.getEntryOwner()); }
 public Object getReadOnlyWrapper() { return wrapperContained.getReadOnlyWrapper(); }
 public Object getTagCreatingWrapper() { return wrapperContained.getTagCreatingWrapper(); }
+// public com.mojang.serialization.DataResult method_47448(java.lang.Object value) { return wrapperContained.method_47448(value); }
 public yarnwrap.registry.entry.RegistryEntry getEntry(java.lang.Object value) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.getEntry(value)); }
 // public Object registerReference(yarnwrap.registry.Registry registry,yarnwrap.registry.RegistryKey key,java.lang.Object entry) { return wrapperContained.registerReference(registry.wrapperContained,key.wrapperContained,entry); }
 // public Object registerReference(yarnwrap.registry.Registry registry,yarnwrap.util.Identifier id,java.lang.Object entry) { return wrapperContained.registerReference(registry.wrapperContained,id.wrapperContained,entry); }
 public java.util.Optional getEntry(yarnwrap.util.Identifier id) { return wrapperContained.getEntry(id.wrapperContained); }
 public java.util.Optional getRandomEntry(yarnwrap.registry.tag.TagKey tag,yarnwrap.util.math.random.Random random) { return wrapperContained.getRandomEntry(tag.wrapperContained,random.wrapperContained); }
+// public java.util.Optional method_56160(yarnwrap.util.math.random.Random entryList) { return wrapperContained.method_56160(entryList.wrapperContained); }
 public java.util.Optional getEntryInfo(yarnwrap.registry.RegistryKey key) { return wrapperContained.getEntryInfo(key.wrapperContained); }
 // public com.mojang.serialization.Codec getReferenceEntryCodec() { return wrapperContained.getReferenceEntryCodec(); }
+// public com.mojang.serialization.Lifecycle method_57060(Object entry) { return wrapperContained.method_57060(entry); }
 // public com.mojang.serialization.DataResult validateReference(yarnwrap.registry.entry.RegistryEntry entry) { return wrapperContained.validateReference(entry.wrapperContained); }
+// public yarnwrap.util.Identifier method_57062(Object entry) { return new yarnwrap.util.Identifier(wrapperContained.method_57062(entry)); }
+// public yarnwrap.registry.entry.RegistryEntry method_57064(Object entry) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.method_57064(entry)); }
+// public com.mojang.serialization.DataResult method_57065(yarnwrap.util.Identifier id) { return wrapperContained.method_57065(id.wrapperContained); }
 public java.util.Optional getDefaultEntry() { return wrapperContained.getDefaultEntry(); }
 
 }

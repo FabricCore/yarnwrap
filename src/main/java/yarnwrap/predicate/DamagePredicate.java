@@ -7,8 +7,10 @@ public class DamagePredicate { public net.minecraft.predicate.DamagePredicate wr
 // // public void taken(Object value) { wrapperContained.taken = value; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+// public DamagePredicate(Object dealt,Object taken) { this.wrapperContained = new net.minecraft.predicate.DamagePredicate(dealt,taken); }
 // public Object dealt() { return wrapperContained.dealt(); }
 // public Object taken() { return wrapperContained.taken(); }
+// public com.mojang.datafixers.kinds.App method_54973(Object instance) { return wrapperContained.method_54973(instance); }
 public boolean test(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.entity.damage.DamageSource source,float dealt,float taken,boolean blocked) { return wrapperContained.test(player.wrapperContained,source.wrapperContained,dealt,taken,blocked); }
 
 }

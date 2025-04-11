@@ -15,6 +15,7 @@ public int INVENTORY_SIZE() { return wrapperContained.INVENTORY_SIZE; }
 // public void AVAILABLE_SLOTS_CACHE(int[][] value) { wrapperContained.AVAILABLE_SLOTS_CACHE = value; }
 // public yarnwrap.util.math.Direction facing() { return new yarnwrap.util.math.Direction(wrapperContained.facing); }
 // public void facing(yarnwrap.util.math.Direction value) { wrapperContained.facing = value.wrapperContained; }
+public HopperBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.HopperBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void onEntityCollided(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.entity.Entity entity,yarnwrap.block.entity.HopperBlockEntity blockEntity) { wrapperContained.onEntityCollided(world.wrapperContained,pos.wrapperContained,state.wrapperContained,entity.wrapperContained,blockEntity.wrapperContained); }
 public java.util.List getInputItemEntities(yarnwrap.world.World world,yarnwrap.block.entity.Hopper hopper) { return wrapperContained.getInputItemEntities(world.wrapperContained,hopper.wrapperContained); }
 // public void setTransferCooldown(int transferCooldown) { wrapperContained.setTransferCooldown(transferCooldown); }

@@ -13,6 +13,7 @@ public class DataTracker { public net.minecraft.entity.data.DataTracker wrapperC
 // public void MAX_DATA_VALUE_ID(int value) { wrapperContained.MAX_DATA_VALUE_ID = value; }
 // public yarnwrap.util.collection.Class2IntMap CLASS_TO_LAST_ID() { return new yarnwrap.util.collection.Class2IntMap(wrapperContained.CLASS_TO_LAST_ID); }
 // public void CLASS_TO_LAST_ID(yarnwrap.util.collection.Class2IntMap value) { wrapperContained.CLASS_TO_LAST_ID = value.wrapperContained; }
+// public DataTracker(yarnwrap.entity.data.DataTracked trackedEntity,Object[] entries) { this.wrapperContained = new net.minecraft.entity.data.DataTracker(trackedEntity.wrapperContained,entries); }
 public void set(yarnwrap.entity.data.TrackedData key,java.lang.Object value) { wrapperContained.set(key.wrapperContained,value); }
 public void writeUpdatedEntries(java.util.List entries) { wrapperContained.writeUpdatedEntries(entries); }
 public java.util.List getDirtyEntries() { return wrapperContained.getDirtyEntries(); }

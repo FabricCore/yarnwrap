@@ -5,6 +5,7 @@ public class VariantSetting { public net.minecraft.data.client.VariantSetting wr
 // public void key(java.lang.String value) { wrapperContained.key = value; }
 // public java.util.function.Function writer() { return wrapperContained.writer; }
 // public void writer(java.util.function.Function value) { wrapperContained.writer = value; }
+public VariantSetting(java.lang.String key,java.util.function.Function writer) { this.wrapperContained = new net.minecraft.data.client.VariantSetting(key,writer); }
 public Object evaluate(java.lang.Object value) { return wrapperContained.evaluate(value); }
 
 }

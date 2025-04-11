@@ -3,6 +3,7 @@ public class DefaultAttributeContainer { public net.minecraft.entity.attribute.D
 
 // public java.util.Map instances() { return wrapperContained.instances; }
 // public void instances(java.util.Map value) { wrapperContained.instances = value; }
+// public DefaultAttributeContainer(java.util.Map instances) { this.wrapperContained = new net.minecraft.entity.attribute.DefaultAttributeContainer(instances); }
 public Object builder() { return wrapperContained.builder(); }
 public double getValue(yarnwrap.registry.entry.RegistryEntry attribute) { return wrapperContained.getValue(attribute.wrapperContained); }
 public yarnwrap.entity.attribute.EntityAttributeInstance createOverride(java.util.function.Consumer updateCallback,yarnwrap.registry.entry.RegistryEntry attribute) { return new yarnwrap.entity.attribute.EntityAttributeInstance(wrapperContained.createOverride(updateCallback,attribute.wrapperContained)); }

@@ -81,10 +81,13 @@ public yarnwrap.sound.SoundEvent getAmbientStandSound() { return new yarnwrap.so
 public int getMinAmbientStandDelay() { return wrapperContained.getMinAmbientStandDelay(); }
 // public double calculateAttributeBaseValue(double parentBase,double otherParentBase,double min,double max,yarnwrap.util.math.random.Random random) { return wrapperContained.calculateAttributeBaseValue(parentBase,otherParentBase,min,max,random.wrapperContained); }
 // public void setChildAttribute(yarnwrap.entity.passive.PassiveEntity other,yarnwrap.entity.passive.AbstractHorseEntity child,yarnwrap.registry.entry.RegistryEntry attribute,double min,double max) { wrapperContained.setChildAttribute(other.wrapperContained,child.wrapperContained,attribute.wrapperContained,min,max); }
+// public int method_49129(int max) { return wrapperContained.method_49129(max); }
+// public int method_49130(int max) { return wrapperContained.method_49130(max); }
 // public yarnwrap.util.math.Vec2f getControlledRotation(yarnwrap.entity.LivingEntity controllingPassenger) { return new yarnwrap.util.math.Vec2f(wrapperContained.getControlledRotation(controllingPassenger.wrapperContained)); }
 // public boolean isWooden(yarnwrap.sound.BlockSoundGroup soundGroup) { return wrapperContained.isWooden(soundGroup.wrapperContained); }
 // public void updateSaddledFlag() { wrapperContained.updateSaddledFlag(); }
 public yarnwrap.inventory.Inventory getInventory() { return new yarnwrap.inventory.Inventory(wrapperContained.getInventory()); }
+// public boolean method_58392(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58392(stack.wrapperContained); }
 // public void initAttributes(yarnwrap.util.math.random.Random random) { wrapperContained.initAttributes(random.wrapperContained); }
 public int getInventorySize(int columns) { return wrapperContained.getInventorySize(columns); }
 public int getInventoryColumns() { return wrapperContained.getInventoryColumns(); }
@@ -104,6 +107,7 @@ public void setAngry(boolean angry) { wrapperContained.setAngry(angry); }
 // public void setEating() { wrapperContained.setEating(); }
 public float getEatingGrassAnimationProgress(float tickDelta) { return wrapperContained.getEatingGrassAnimationProgress(tickDelta); }
 public void setEatingGrass(boolean eatingGrass) { wrapperContained.setEatingGrass(eatingGrass); }
+// public boolean method_6741(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_6741(entity.wrapperContained); }
 // public boolean receiveFood(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack item) { return wrapperContained.receiveFood(player.wrapperContained,item.wrapperContained); }
 // public void setChildAttributes(yarnwrap.entity.passive.PassiveEntity other,yarnwrap.entity.passive.AbstractHorseEntity child) { wrapperContained.setChildAttributes(other.wrapperContained,child.wrapperContained); }
 public boolean isBred() { return wrapperContained.isBred(); }

@@ -69,6 +69,7 @@ public yarnwrap.client.gl.GlUniform fogShape() { return new yarnwrap.client.gl.G
 // public void CORE_DIRECTORY(java.lang.String value) { wrapperContained.CORE_DIRECTORY = value; }
 public yarnwrap.client.gl.GlUniform glintAlpha() { return new yarnwrap.client.gl.GlUniform(wrapperContained.glintAlpha); }
 // public void glintAlpha(yarnwrap.client.gl.GlUniform value) { wrapperContained.glintAlpha = value.wrapperContained; }
+// public ShaderProgram(yarnwrap.resource.ResourceFactory factory,java.lang.String name,yarnwrap.client.render.VertexFormat format) { this.wrapperContained = new net.minecraft.client.gl.ShaderProgram(factory.wrapperContained,name,format.wrapperContained); }
 // public yarnwrap.client.gl.ShaderStage loadShader(yarnwrap.resource.ResourceFactory factory,Object type,java.lang.String name) { return new yarnwrap.client.gl.ShaderStage(wrapperContained.loadShader(factory.wrapperContained,type,name)); }
 // public void readSampler(com.google.gson.JsonElement json) { wrapperContained.readSampler(json); }
 public yarnwrap.client.gl.GlUniform getUniform(java.lang.String name) { return new yarnwrap.client.gl.GlUniform(wrapperContained.getUniform(name)); }

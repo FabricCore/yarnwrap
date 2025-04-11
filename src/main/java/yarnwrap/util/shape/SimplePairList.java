@@ -11,5 +11,6 @@ public class SimplePairList { public net.minecraft.util.shape.SimplePairList wra
 // public void ZERO(it.unimi.dsi.fastutil.doubles.DoubleList value) { wrapperContained.ZERO = value; }
 // public int size() { return wrapperContained.size; }
 // public void size(int value) { wrapperContained.size = value; }
+public SimplePairList(it.unimi.dsi.fastutil.doubles.DoubleList first,it.unimi.dsi.fastutil.doubles.DoubleList second,boolean includeFirstOnly,boolean includeSecondOnly) { this.wrapperContained = new net.minecraft.util.shape.SimplePairList(first,second,includeFirstOnly,includeSecondOnly); }
 
 }

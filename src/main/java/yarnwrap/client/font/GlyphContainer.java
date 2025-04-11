@@ -17,11 +17,13 @@ public class GlyphContainer { public net.minecraft.client.font.GlyphContainer wr
 // public void rows(java.lang.Object[][] value) { wrapperContained.rows = value; }
 // public java.util.function.IntFunction makeRow() { return wrapperContained.makeRow; }
 // public void makeRow(java.util.function.IntFunction value) { wrapperContained.makeRow = value; }
+public GlyphContainer(java.util.function.IntFunction makeRow,java.util.function.IntFunction makeScroll) { this.wrapperContained = new net.minecraft.client.font.GlyphContainer(makeRow,makeScroll); }
 public void clear() { wrapperContained.clear(); }
 public java.lang.Object get(int codePoint) { return wrapperContained.get(codePoint); }
 public java.lang.Object put(int codePoint,java.lang.Object glyph) { return wrapperContained.put(codePoint,glyph); }
 public java.lang.Object computeIfAbsent(int codePoint,java.util.function.IntFunction ifAbsent) { return wrapperContained.computeIfAbsent(codePoint,ifAbsent); }
 // public void forEachGlyph(Object glyphConsumer) { wrapperContained.forEachGlyph(glyphConsumer); }
+// public void method_51602(it.unimi.dsi.fastutil.ints.IntOpenHashSet codePoint,int glyph) { wrapperContained.method_51602(codePoint,glyph); }
 public it.unimi.dsi.fastutil.ints.IntSet getProvidedGlyphs() { return wrapperContained.getProvidedGlyphs(); }
 public java.lang.Object remove(int codePoint) { return wrapperContained.remove(codePoint); }
 

@@ -3,6 +3,7 @@ public class PropertyMap { public net.minecraft.client.session.telemetry.Propert
 
 // public java.util.Map backingMap() { return wrapperContained.backingMap; }
 // public void backingMap(java.util.Map value) { wrapperContained.backingMap = value; }
+// public PropertyMap(java.util.Map backingMap) { this.wrapperContained = new net.minecraft.client.session.telemetry.PropertyMap(backingMap); }
 public Object builder() { return wrapperContained.builder(); }
 public java.lang.Object get(yarnwrap.client.session.telemetry.TelemetryEventProperty property) { return wrapperContained.get(property.wrapperContained); }
 public com.mojang.serialization.MapCodec createCodec(java.util.List properties) { return wrapperContained.createCodec(properties); }

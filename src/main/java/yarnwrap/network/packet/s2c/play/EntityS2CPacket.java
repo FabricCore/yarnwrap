@@ -19,6 +19,7 @@ public class EntityS2CPacket { public net.minecraft.network.packet.s2c.play.Enti
 // public void yaw(byte value) { wrapperContained.yaw = value; }
 // public boolean positionChanged() { return wrapperContained.positionChanged; }
 // public void positionChanged(boolean value) { wrapperContained.positionChanged = value; }
+// public EntityS2CPacket(int entityId,short deltaX,short deltaY,short deltaZ,byte yaw,byte pitch,boolean onGround,boolean rotate,boolean positionChanged) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntityS2CPacket(entityId,deltaX,deltaY,deltaZ,yaw,pitch,onGround,rotate,positionChanged); }
 public yarnwrap.entity.Entity getEntity(yarnwrap.world.World world) { return new yarnwrap.entity.Entity(wrapperContained.getEntity(world.wrapperContained)); }
 public byte getYaw() { return wrapperContained.getYaw(); }
 public byte getPitch() { return wrapperContained.getPitch(); }

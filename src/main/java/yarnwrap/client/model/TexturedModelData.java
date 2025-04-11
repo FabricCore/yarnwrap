@@ -5,6 +5,7 @@ public class TexturedModelData { public net.minecraft.client.model.TexturedModel
 // public void data(yarnwrap.client.model.ModelData value) { wrapperContained.data = value.wrapperContained; }
 // public yarnwrap.client.model.TextureDimensions dimensions() { return new yarnwrap.client.model.TextureDimensions(wrapperContained.dimensions); }
 // public void dimensions(yarnwrap.client.model.TextureDimensions value) { wrapperContained.dimensions = value.wrapperContained; }
+// public TexturedModelData(yarnwrap.client.model.ModelData data,yarnwrap.client.model.TextureDimensions dimensions) { this.wrapperContained = new net.minecraft.client.model.TexturedModelData(data.wrapperContained,dimensions.wrapperContained); }
 public yarnwrap.client.model.ModelPart createModel() { return new yarnwrap.client.model.ModelPart(wrapperContained.createModel()); }
 public yarnwrap.client.model.TexturedModelData of(yarnwrap.client.model.ModelData partData,int textureWidth,int textureHeight) { return new yarnwrap.client.model.TexturedModelData(wrapperContained.of(partData.wrapperContained,textureWidth,textureHeight)); }
 

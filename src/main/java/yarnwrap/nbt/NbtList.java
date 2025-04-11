@@ -9,6 +9,9 @@ public yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(wrapperCont
 // public void TYPE(yarnwrap.nbt.NbtType value) { wrapperContained.TYPE = value.wrapperContained; }
 // public int SIZE() { return wrapperContained.SIZE; }
 // public void SIZE(int value) { wrapperContained.SIZE = value; }
+// public NbtList(java.util.List list,byte type) { this.wrapperContained = new net.minecraft.nbt.NbtList(list,type); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
+public java.lang.Object get(int index) { return wrapperContained.get(index); }
 public int getInt(int index) { return wrapperContained.getInt(index); }
 public yarnwrap.nbt.NbtCompound getCompound(int index) { return new yarnwrap.nbt.NbtCompound(wrapperContained.getCompound(index)); }
 public yarnwrap.nbt.NbtList getList(int index) { return new yarnwrap.nbt.NbtList(wrapperContained.getList(index)); }

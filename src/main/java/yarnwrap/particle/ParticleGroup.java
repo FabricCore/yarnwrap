@@ -5,6 +5,7 @@ public yarnwrap.particle.ParticleGroup SPORE_BLOSSOM_AIR() { return new yarnwrap
 // public void SPORE_BLOSSOM_AIR(yarnwrap.particle.ParticleGroup value) { wrapperContained.SPORE_BLOSSOM_AIR = value.wrapperContained; }
 // public int maxCount() { return wrapperContained.maxCount; }
 // public void maxCount(int value) { wrapperContained.maxCount = value; }
+public ParticleGroup(int maxCount) { this.wrapperContained = new net.minecraft.particle.ParticleGroup(maxCount); }
 public int getMaxCount() { return wrapperContained.getMaxCount(); }
 
 }

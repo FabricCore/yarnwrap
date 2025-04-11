@@ -5,6 +5,7 @@ public float DEFAULT_MAX_INTERACTION_RANGE() { return wrapperContained.DEFAULT_M
 // public void DEFAULT_MAX_INTERACTION_RANGE(float value) { wrapperContained.DEFAULT_MAX_INTERACTION_RANGE = value; }
 public int count(yarnwrap.item.Item item) { return wrapperContained.count(item.wrapperContained); }
 public boolean containsAny(java.util.Set items) { return wrapperContained.containsAny(items); }
+// public boolean method_43255(java.util.Set stack) { return wrapperContained.method_43255(stack); }
 public boolean containsAny(java.util.function.Predicate predicate) { return wrapperContained.containsAny(predicate); }
 public boolean canTransferTo(yarnwrap.inventory.Inventory hopperInventory,int slot,yarnwrap.item.ItemStack stack) { return wrapperContained.canTransferTo(hopperInventory.wrapperContained,slot,stack.wrapperContained); }
 // public boolean canPlayerUse(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.canPlayerUse(blockEntity.wrapperContained,player.wrapperContained); }

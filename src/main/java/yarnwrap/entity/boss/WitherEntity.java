@@ -34,6 +34,7 @@ public class WitherEntity { public net.minecraft.entity.boss.WitherEntity wrappe
 // public float[] prevSideHeadPitches() { return wrapperContained.prevSideHeadPitches; }
 // public void prevSideHeadPitches(float[] value) { wrapperContained.prevSideHeadPitches = value; }
 public Object createWitherAttributes() { return wrapperContained.createWitherAttributes(); }
+// public boolean method_6873(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_6873(entity.wrapperContained); }
 // public double getHeadX(int headIndex) { return wrapperContained.getHeadX(headIndex); }
 public void setInvulTimer(int ticks) { wrapperContained.setInvulTimer(ticks); }
 public void setTrackedEntityId(int headIndex,int id) { wrapperContained.setTrackedEntityId(headIndex,id); }

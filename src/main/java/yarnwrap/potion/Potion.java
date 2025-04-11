@@ -11,6 +11,9 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void baseName(java.lang.String value) { wrapperContained.baseName = value; }
 // public java.util.List effects() { return wrapperContained.effects; }
 // public void effects(java.util.List value) { wrapperContained.effects = value; }
+public Potion(java.lang.String baseName,net.minecraft.entity.effect.StatusEffectInstance[] effects) { this.wrapperContained = new net.minecraft.potion.Potion(baseName,effects); }
+public Potion(net.minecraft.entity.effect.StatusEffectInstance[] effects) { this.wrapperContained = new net.minecraft.potion.Potion(effects); }
+// public java.lang.String method_57396(yarnwrap.registry.RegistryKey key) { return wrapperContained.method_57396(key.wrapperContained); }
 public yarnwrap.potion.Potion requires(net.minecraft.resource.featuretoggle.FeatureFlag[] requiredFeatures) { return new yarnwrap.potion.Potion(wrapperContained.requires(requiredFeatures)); }
 public java.util.List getEffects() { return wrapperContained.getEffects(); }
 public boolean hasInstantEffect() { return wrapperContained.hasInstantEffect(); }

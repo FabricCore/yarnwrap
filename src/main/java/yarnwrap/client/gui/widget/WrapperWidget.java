@@ -9,5 +9,8 @@ public class WrapperWidget { public net.minecraft.client.gui.widget.WrapperWidge
 // public void x(int value) { wrapperContained.x = value; }
 // public int y() { return wrapperContained.y; }
 // public void y(int value) { wrapperContained.y = value; }
+// public WrapperWidget(int x,int y,int width,int height) { this.wrapperContained = new net.minecraft.client.gui.widget.WrapperWidget(x,y,width,height); }
+// public void method_48223(int element) { wrapperContained.method_48223(element); }
+// public void method_48226(int element) { wrapperContained.method_48226(element); }
 
 }

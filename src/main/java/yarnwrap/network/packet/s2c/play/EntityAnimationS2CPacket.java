@@ -17,6 +17,8 @@ public int ENCHANTED_HIT() { return wrapperContained.ENCHANTED_HIT; }
 // public void ENCHANTED_HIT(int value) { wrapperContained.ENCHANTED_HIT = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public EntityAnimationS2CPacket(yarnwrap.entity.Entity entity,int animationId) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntityAnimationS2CPacket(entity.wrapperContained,animationId); }
+// public EntityAnimationS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntityAnimationS2CPacket(buf.wrapperContained); }
 public int getAnimationId() { return wrapperContained.getAnimationId(); }
 public int getEntityId() { return wrapperContained.getEntityId(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

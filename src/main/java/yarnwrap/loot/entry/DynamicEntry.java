@@ -5,6 +5,10 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public yarnwrap.util.Identifier name() { return new yarnwrap.util.Identifier(wrapperContained.name); }
 // public void name(yarnwrap.util.Identifier value) { wrapperContained.name = value.wrapperContained; }
+// public DynamicEntry(yarnwrap.util.Identifier name,int weight,int quality,java.util.List conditions,java.util.List functions) { this.wrapperContained = new net.minecraft.loot.entry.DynamicEntry(name.wrapperContained,weight,quality,conditions,functions); }
 public Object builder(yarnwrap.util.Identifier name) { return wrapperContained.builder(name.wrapperContained); }
+// public yarnwrap.loot.entry.LeafEntry method_391(yarnwrap.util.Identifier weight,int quality,int conditions,java.util.List functions) { return new yarnwrap.loot.entry.LeafEntry(wrapperContained.method_391(weight.wrapperContained,quality,conditions,functions)); }
+// public yarnwrap.util.Identifier method_53282(yarnwrap.loot.entry.DynamicEntry entry) { return new yarnwrap.util.Identifier(wrapperContained.method_53282(entry.wrapperContained)); }
+// public com.mojang.datafixers.kinds.App method_53283(Object instance) { return wrapperContained.method_53283(instance); }
 
 }

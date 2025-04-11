@@ -11,6 +11,7 @@ public class SubtitlesHud { public net.minecraft.client.gui.hud.SubtitlesHud wra
 // public void REMOVE_DELAY(long value) { wrapperContained.REMOVE_DELAY = value; }
 // public java.util.List audibleEntries() { return wrapperContained.audibleEntries; }
 // public void audibleEntries(java.util.List value) { wrapperContained.audibleEntries = value; }
+public SubtitlesHud(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.gui.hud.SubtitlesHud(client.wrapperContained); }
 public void render(yarnwrap.client.gui.DrawContext context) { wrapperContained.render(context.wrapperContained); }
 
 }

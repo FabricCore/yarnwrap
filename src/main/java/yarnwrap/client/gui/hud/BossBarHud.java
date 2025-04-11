@@ -17,6 +17,7 @@ public class BossBarHud { public net.minecraft.client.gui.hud.BossBarHud wrapper
 // public void NOTCHED_BACKGROUND_TEXTURES(net.minecraft.util.Identifier[] value) { wrapperContained.NOTCHED_BACKGROUND_TEXTURES = value; }
 // public net.minecraft.util.Identifier[] NOTCHED_PROGRESS_TEXTURES() { return wrapperContained.NOTCHED_PROGRESS_TEXTURES; }
 // public void NOTCHED_PROGRESS_TEXTURES(net.minecraft.util.Identifier[] value) { wrapperContained.NOTCHED_PROGRESS_TEXTURES = value; }
+public BossBarHud(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.gui.hud.BossBarHud(client.wrapperContained); }
 public void handlePacket(yarnwrap.network.packet.s2c.play.BossBarS2CPacket packet) { wrapperContained.handlePacket(packet.wrapperContained); }
 public void render(yarnwrap.client.gui.DrawContext context) { wrapperContained.render(context.wrapperContained); }
 public boolean shouldDarkenSky() { return wrapperContained.shouldDarkenSky(); }

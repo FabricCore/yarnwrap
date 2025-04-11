@@ -7,5 +7,6 @@ public class BitmapFont { public net.minecraft.client.font.BitmapFont wrapperCon
 // public void image(yarnwrap.client.texture.NativeImage value) { wrapperContained.image = value.wrapperContained; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public BitmapFont(yarnwrap.client.texture.NativeImage image,yarnwrap.client.font.GlyphContainer glyphs) { this.wrapperContained = new net.minecraft.client.font.BitmapFont(image.wrapperContained,glyphs.wrapperContained); }
 
 }

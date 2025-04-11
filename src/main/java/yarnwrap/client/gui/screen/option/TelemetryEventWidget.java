@@ -17,12 +17,14 @@ public class TelemetryEventWidget { public net.minecraft.client.gui.screen.optio
 // public void scrollConsumer(java.util.function.DoubleConsumer value) { wrapperContained.scrollConsumer = value; }
 // public java.lang.String DISABLED_TRANSLATION_KEY() { return wrapperContained.DISABLED_TRANSLATION_KEY; }
 // public void DISABLED_TRANSLATION_KEY(java.lang.String value) { wrapperContained.DISABLED_TRANSLATION_KEY = value; }
+public TelemetryEventWidget(int x,int y,int width,int height,yarnwrap.client.font.TextRenderer textRenderer) { this.wrapperContained = new net.minecraft.client.gui.screen.option.TelemetryEventWidget(x,y,width,height,textRenderer.wrapperContained); }
 // public void appendEventInfo(Object builder,yarnwrap.client.session.telemetry.TelemetryEventType eventType,boolean disabled) { wrapperContained.appendEventInfo(builder,eventType.wrapperContained,disabled); }
 // public void appendProperties(yarnwrap.client.session.telemetry.TelemetryEventType eventType,Object builder,boolean disabled) { wrapperContained.appendProperties(eventType.wrapperContained,builder,disabled); }
 public void setScrollConsumer(java.util.function.DoubleConsumer scrollConsumer) { wrapperContained.setScrollConsumer(scrollConsumer); }
 public void refresh(boolean optionalTelemetryEnabled) { wrapperContained.refresh(optionalTelemetryEnabled); }
 // public Object collectContents(boolean optionalTelemetryEnabled) { return wrapperContained.collectContents(optionalTelemetryEnabled); }
 // public int getGridWidth() { return wrapperContained.getGridWidth(); }
+// public void method_48285(yarnwrap.client.gui.DrawContext widget) { wrapperContained.method_48285(widget.wrapperContained); }
 // public yarnwrap.text.Text formatTitleText(yarnwrap.text.Text title,boolean disabled) { return new yarnwrap.text.Text(wrapperContained.formatTitleText(title.wrapperContained,disabled)); }
 public void initContents() { wrapperContained.initContents(); }
 

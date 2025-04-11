@@ -49,6 +49,7 @@ public class RealmsDownloadLatestWorldScreen { public net.minecraft.client.realm
 // public void onBack(it.unimi.dsi.fastutil.booleans.BooleanConsumer value) { wrapperContained.onBack = value; }
 // public yarnwrap.client.gui.widget.ButtonWidget cancelButton() { return new yarnwrap.client.gui.widget.ButtonWidget(wrapperContained.cancelButton); }
 // public void cancelButton(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.cancelButton = value.wrapperContained; }
+public RealmsDownloadLatestWorldScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.realms.dto.WorldDownload worldDownload,java.lang.String worldName,it.unimi.dsi.fastutil.booleans.BooleanConsumer onBack) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsDownloadLatestWorldScreen(parent.wrapperContained,worldDownload.wrapperContained,worldName,onBack); }
 // public long getContentLength(java.lang.String downloadLink) { return wrapperContained.getContentLength(downloadLink); }
 // public void checkDownloadSize() { wrapperContained.checkDownloadSize(); }
 // public void drawDownloadSpeed0(yarnwrap.client.gui.DrawContext context,long bytesPerSecond) { wrapperContained.drawDownloadSpeed0(context.wrapperContained,bytesPerSecond); }
@@ -57,6 +58,7 @@ public class RealmsDownloadLatestWorldScreen { public net.minecraft.client.realm
 // public void drawDownloadSpeed(yarnwrap.client.gui.DrawContext context) { wrapperContained.drawDownloadSpeed(context.wrapperContained); }
 // public void downloadSave() { wrapperContained.downloadSave(); }
 // public void downloadCancelled() { wrapperContained.downloadCancelled(); }
+// public void method_25158(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25158(button.wrapperContained); }
 // public yarnwrap.text.Text getNarration() { return new yarnwrap.text.Text(wrapperContained.getNarration()); }
 
 }

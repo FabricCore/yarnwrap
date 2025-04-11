@@ -9,6 +9,7 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 // public java.lang.String id() { return wrapperContained.id; }
 // public void id(java.lang.String value) { wrapperContained.id = value; }
+// // public BlockMirror(java.lang.String id,int directionTransformation) { this.wrapperContained = new net.minecraft.util.BlockMirror(id,directionTransformation); }
 public yarnwrap.util.math.Direction apply(yarnwrap.util.math.Direction direction) { return new yarnwrap.util.math.Direction(wrapperContained.apply(direction.wrapperContained)); }
 public int mirror(int rotation,int fullTurn) { return wrapperContained.mirror(rotation,fullTurn); }
 public yarnwrap.util.BlockRotation getRotation(yarnwrap.util.math.Direction direction) { return new yarnwrap.util.BlockRotation(wrapperContained.getRotation(direction.wrapperContained)); }

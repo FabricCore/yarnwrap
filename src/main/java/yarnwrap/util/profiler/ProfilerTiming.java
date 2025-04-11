@@ -9,6 +9,8 @@ public double parentSectionUsagePercentage() { return wrapperContained.parentSec
 // public void parentSectionUsagePercentage(double value) { wrapperContained.parentSectionUsagePercentage = value; }
 public long visitCount() { return wrapperContained.visitCount; }
 // public void visitCount(long value) { wrapperContained.visitCount = value; }
+public ProfilerTiming(java.lang.String name,double parentUsagePercentage,double totalUsagePercentage,long visitCount) { this.wrapperContained = new net.minecraft.util.profiler.ProfilerTiming(name,parentUsagePercentage,totalUsagePercentage,visitCount); }
+// public int compareTo(java.lang.Object other) { return wrapperContained.compareTo(other); }
 public int getColor() { return wrapperContained.getColor(); }
 
 }

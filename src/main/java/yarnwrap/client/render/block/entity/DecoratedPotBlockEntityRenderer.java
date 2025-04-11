@@ -29,6 +29,7 @@ public class DecoratedPotBlockEntityRenderer { public net.minecraft.client.rende
 // public void top(yarnwrap.client.model.ModelPart value) { wrapperContained.top = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart bottom() { return new yarnwrap.client.model.ModelPart(wrapperContained.bottom); }
 // public void bottom(yarnwrap.client.model.ModelPart value) { wrapperContained.bottom = value.wrapperContained; }
+// public DecoratedPotBlockEntityRenderer(Object context) { this.wrapperContained = new net.minecraft.client.render.block.entity.DecoratedPotBlockEntityRenderer(context); }
 // public yarnwrap.client.util.SpriteIdentifier getTextureIdFromSherd(java.util.Optional sherd) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getTextureIdFromSherd(sherd)); }
 // public void renderDecoratedSide(yarnwrap.client.model.ModelPart part,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.util.SpriteIdentifier textureId) { wrapperContained.renderDecoratedSide(part.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,textureId.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTopBottomNeckTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTopBottomNeckTexturedModelData()); }

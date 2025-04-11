@@ -5,6 +5,7 @@ public class AbstractBeeSoundInstance { public net.minecraft.client.sound.Abstra
 // public void bee(yarnwrap.entity.passive.BeeEntity value) { wrapperContained.bee = value.wrapperContained; }
 // public boolean replaced() { return wrapperContained.replaced; }
 // public void replaced(boolean value) { wrapperContained.replaced = value; }
+// public AbstractBeeSoundInstance(yarnwrap.entity.passive.BeeEntity entity,yarnwrap.sound.SoundEvent sound,yarnwrap.sound.SoundCategory soundCategory) { this.wrapperContained = new net.minecraft.client.sound.AbstractBeeSoundInstance(entity.wrapperContained,sound.wrapperContained,soundCategory.wrapperContained); }
 // public yarnwrap.client.sound.MovingSoundInstance getReplacement() { return new yarnwrap.client.sound.MovingSoundInstance(wrapperContained.getReplacement()); }
 // public boolean shouldReplace() { return wrapperContained.shouldReplace(); }
 // public float getMinPitch() { return wrapperContained.getMinPitch(); }

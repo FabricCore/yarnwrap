@@ -9,6 +9,8 @@ public class Stat { public net.minecraft.stat.Stat wrapperContained; public Stat
 // public void type(yarnwrap.stat.StatType value) { wrapperContained.type = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+// public Stat(yarnwrap.stat.StatType type,java.lang.Object value,yarnwrap.stat.StatFormatter formatter) { this.wrapperContained = new net.minecraft.stat.Stat(type.wrapperContained,value,formatter.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.stat.StatType getType() { return new yarnwrap.stat.StatType(wrapperContained.getType()); }
 public java.lang.String getName(yarnwrap.stat.StatType type,java.lang.Object value) { return wrapperContained.getName(type.wrapperContained,value); }
 public java.lang.Object getValue() { return wrapperContained.getValue(); }

@@ -5,11 +5,16 @@ public class RecipeBookOptions { public net.minecraft.recipe.book.RecipeBookOpti
 // public void CATEGORY_OPTION_NAMES(java.util.Map value) { wrapperContained.CATEGORY_OPTION_NAMES = value; }
 // public java.util.Map categoryOptions() { return wrapperContained.categoryOptions; }
 // public void categoryOptions(java.util.Map value) { wrapperContained.categoryOptions = value; }
+// public RecipeBookOptions(java.util.Map categoryOptions) { this.wrapperContained = new net.minecraft.recipe.book.RecipeBookOptions(categoryOptions); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.recipe.book.RecipeBookOptions copy() { return new yarnwrap.recipe.book.RecipeBookOptions(wrapperContained.copy()); }
 public void copyFrom(yarnwrap.recipe.book.RecipeBookOptions other) { wrapperContained.copyFrom(other.wrapperContained); }
 public boolean isGuiOpen(yarnwrap.recipe.book.RecipeBookCategory category) { return wrapperContained.isGuiOpen(category.wrapperContained); }
 public void setGuiOpen(yarnwrap.recipe.book.RecipeBookCategory category,boolean open) { wrapperContained.setGuiOpen(category.wrapperContained,open); }
+// public void method_30182(java.util.EnumMap categoryOptions) { wrapperContained.method_30182(categoryOptions); }
 public yarnwrap.recipe.book.RecipeBookOptions fromNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.recipe.book.RecipeBookOptions(wrapperContained.fromNbt(nbt.wrapperContained)); }
+// public void method_30184(yarnwrap.nbt.NbtCompound category,yarnwrap.recipe.book.RecipeBookCategory pair) { wrapperContained.method_30184(category.wrapperContained,pair.wrapperContained); }
+// public void method_30185(yarnwrap.nbt.NbtCompound category,java.util.Map pair) { wrapperContained.method_30185(category.wrapperContained,pair); }
 public yarnwrap.recipe.book.RecipeBookOptions fromPacket(yarnwrap.network.PacketByteBuf buf) { return new yarnwrap.recipe.book.RecipeBookOptions(wrapperContained.fromPacket(buf.wrapperContained)); }
 public boolean isFilteringCraftable(yarnwrap.recipe.book.RecipeBookCategory category) { return wrapperContained.isFilteringCraftable(category.wrapperContained); }
 public void setFilteringCraftable(yarnwrap.recipe.book.RecipeBookCategory category,boolean filtering) { wrapperContained.setFilteringCraftable(category.wrapperContained,filtering); }

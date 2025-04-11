@@ -21,8 +21,11 @@ public yarnwrap.server.world.ChunkTicketType POST_TELEPORT() { return new yarnwr
 // public void POST_TELEPORT(yarnwrap.server.world.ChunkTicketType value) { wrapperContained.POST_TELEPORT = value.wrapperContained; }
 // public long expiryTicks() { return wrapperContained.expiryTicks; }
 // public void expiryTicks(long value) { wrapperContained.expiryTicks = value; }
+// public ChunkTicketType(java.lang.String name,java.util.Comparator argumentComparator,long expiryTicks) { this.wrapperContained = new net.minecraft.server.world.ChunkTicketType(name,argumentComparator,expiryTicks); }
 public yarnwrap.server.world.ChunkTicketType create(java.lang.String name,java.util.Comparator argumentComparator) { return new yarnwrap.server.world.ChunkTicketType(wrapperContained.create(name,argumentComparator)); }
 public java.util.Comparator getArgumentComparator() { return wrapperContained.getArgumentComparator(); }
+// public int method_17315(yarnwrap.util.Unit a,yarnwrap.util.Unit b) { return wrapperContained.method_17315(a.wrapperContained,b.wrapperContained); }
+// public int method_17316(yarnwrap.util.Unit a,yarnwrap.util.Unit b) { return wrapperContained.method_17316(a.wrapperContained,b.wrapperContained); }
 public yarnwrap.server.world.ChunkTicketType create(java.lang.String name,java.util.Comparator argumentComparator,int expiryTicks) { return new yarnwrap.server.world.ChunkTicketType(wrapperContained.create(name,argumentComparator,expiryTicks)); }
 public long getExpiryTicks() { return wrapperContained.getExpiryTicks(); }
 

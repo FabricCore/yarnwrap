@@ -7,5 +7,9 @@ public class LegacyServerPinger { public net.minecraft.client.network.LegacyServ
 // public void serverAddress(yarnwrap.client.network.ServerAddress value) { wrapperContained.serverAddress = value.wrapperContained; }
 // public Object handler() { return wrapperContained.handler; }
 // // public void handler(Object value) { wrapperContained.handler = value; }
+// public LegacyServerPinger(yarnwrap.client.network.ServerAddress serverAddress,Object handler) { this.wrapperContained = new net.minecraft.client.network.LegacyServerPinger(serverAddress.wrapperContained,handler); }
+// public void channelActive(io.netty.channel.ChannelHandlerContext context) { wrapperContained.channelActive(context); }
+// public void channelRead0(io.netty.channel.ChannelHandlerContext context,java.lang.Object buf) { wrapperContained.channelRead0(context,buf); }
+public void exceptionCaught(io.netty.channel.ChannelHandlerContext context,java.lang.Throwable throwable) { wrapperContained.exceptionCaught(context,throwable); }
 
 }

@@ -12,5 +12,8 @@ public int COOLDOWN() { return wrapperContained.COOLDOWN; }
 // public int RUN_TIME() { return wrapperContained.RUN_TIME; }
 // public void RUN_TIME(int value) { wrapperContained.RUN_TIME = value; }
 public void cooldown(yarnwrap.entity.LivingEntity warden,int cooldown) { wrapperContained.cooldown(warden.wrapperContained,cooldown); }
+// public void method_43265(yarnwrap.entity.mob.WardenEntity target) { wrapperContained.method_43265(target.wrapperContained); }
+// public boolean method_43266(yarnwrap.entity.mob.WardenEntity target) { return wrapperContained.method_43266(target.wrapperContained); }
+// public void method_43973(yarnwrap.entity.mob.WardenEntity target) { wrapperContained.method_43973(target.wrapperContained); }
 
 }

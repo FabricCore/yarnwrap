@@ -3,6 +3,7 @@ public class ImmutableBlockBox { public net.minecraft.util.math.ImmutableBlockBo
 
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public ImmutableBlockBox(yarnwrap.util.math.BlockPos first,yarnwrap.util.math.BlockPos second) { this.wrapperContained = new net.minecraft.util.math.ImmutableBlockBox(first.wrapperContained,second.wrapperContained); }
 public boolean isSingleBlock() { return wrapperContained.isSingleBlock(); }
 public yarnwrap.util.math.ImmutableBlockBox of(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.ImmutableBlockBox(wrapperContained.of(pos.wrapperContained)); }
 public yarnwrap.util.math.ImmutableBlockBox of(yarnwrap.util.math.BlockPos first,yarnwrap.util.math.BlockPos second) { return new yarnwrap.util.math.ImmutableBlockBox(wrapperContained.of(first.wrapperContained,second.wrapperContained)); }

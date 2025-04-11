@@ -3,6 +3,7 @@ public class RootPlacerType { public net.minecraft.world.gen.root.RootPlacerType
 
 // public com.mojang.serialization.MapCodec codec() { return wrapperContained.codec; }
 // public void codec(com.mojang.serialization.MapCodec value) { wrapperContained.codec = value; }
+// public RootPlacerType(com.mojang.serialization.MapCodec codec) { this.wrapperContained = new net.minecraft.world.gen.root.RootPlacerType(codec); }
 public com.mojang.serialization.MapCodec getCodec() { return wrapperContained.getCodec(); }
 // public yarnwrap.world.gen.root.RootPlacerType register(java.lang.String id,com.mojang.serialization.MapCodec codec) { return new yarnwrap.world.gen.root.RootPlacerType(wrapperContained.register(id,codec)); }
 

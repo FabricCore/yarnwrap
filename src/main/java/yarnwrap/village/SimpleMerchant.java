@@ -7,5 +7,6 @@ public class SimpleMerchant { public net.minecraft.village.SimpleMerchant wrappe
 // public void player(yarnwrap.entity.player.PlayerEntity value) { wrapperContained.player = value.wrapperContained; }
 // public yarnwrap.village.TradeOfferList offers() { return new yarnwrap.village.TradeOfferList(wrapperContained.offers); }
 // public void offers(yarnwrap.village.TradeOfferList value) { wrapperContained.offers = value.wrapperContained; }
+public SimpleMerchant(yarnwrap.entity.player.PlayerEntity player) { this.wrapperContained = new net.minecraft.village.SimpleMerchant(player.wrapperContained); }
 
 }

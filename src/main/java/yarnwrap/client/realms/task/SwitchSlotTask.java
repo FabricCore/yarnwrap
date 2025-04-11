@@ -11,5 +11,6 @@ public class SwitchSlotTask { public net.minecraft.client.realms.task.SwitchSlot
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(wrapperContained.TITLE); }
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
+public SwitchSlotTask(long worldId,int slot,java.lang.Runnable callback) { this.wrapperContained = new net.minecraft.client.realms.task.SwitchSlotTask(worldId,slot,callback); }
 
 }

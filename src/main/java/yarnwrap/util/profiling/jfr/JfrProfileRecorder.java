@@ -33,12 +33,17 @@ public class JfrProfileRecorder { public net.minecraft.util.profiling.jfr.JfrPro
 // public void chunkRegionReadCounter(java.util.Map value) { wrapperContained.chunkRegionReadCounter = value; }
 // public java.util.Map chunkRegionWriteCounter() { return wrapperContained.chunkRegionWriteCounter; }
 // public void chunkRegionWriteCounter(java.util.Map value) { wrapperContained.chunkRegionWriteCounter = value; }
+// public JfrProfileRecorder(java.util.stream.Stream events) { this.wrapperContained = new net.minecraft.util.profiling.jfr.JfrProfileRecorder(events); }
 // public yarnwrap.util.profiling.jfr.JfrProfile createProfile() { return new yarnwrap.util.profiling.jfr.JfrProfile(wrapperContained.createProfile()); }
 public yarnwrap.util.profiling.jfr.JfrProfile readProfile(java.nio.file.Path path) { return new yarnwrap.util.profiling.jfr.JfrProfile(wrapperContained.readProfile(path)); }
 // public void handleEvents(java.util.stream.Stream events) { wrapperContained.handleEvents(events); }
+// public void method_38003(jdk.jfr.consumer.RecordedEvent event) { wrapperContained.method_38003(event); }
 // public void addFileIoSample(jdk.jfr.consumer.RecordedEvent event,java.util.List samples,java.lang.String bytesKey) { wrapperContained.addFileIoSample(event,samples,bytesKey); }
+// public Object method_39432(yarnwrap.util.profiling.jfr.sample.PacketSample packet) { return wrapperContained.method_39432(packet.wrapperContained); }
 // public yarnwrap.util.profiling.jfr.sample.NetworkIoStatistics createNetworkIoStatistics(java.time.Duration duration,java.util.Map packetsToCounter) { return new yarnwrap.util.profiling.jfr.sample.NetworkIoStatistics(wrapperContained.createNetworkIoStatistics(duration,packetsToCounter)); }
+// public com.mojang.datafixers.util.Pair method_39434(Object entry) { return wrapperContained.method_39434(entry); }
 // public void addPacket(jdk.jfr.consumer.RecordedEvent event,int bytes,java.util.Map packetsToCounter) { wrapperContained.addPacket(event,bytes,packetsToCounter); }
+// public Object method_56981(yarnwrap.util.profiling.jfr.sample.ChunkRegionSample chunk) { return wrapperContained.method_56981(chunk.wrapperContained); }
 // public void addChunkRegionEvent(jdk.jfr.consumer.RecordedEvent event,int bytes,java.util.Map chunksToCounter) { wrapperContained.addChunkRegionEvent(event,bytes,chunksToCounter); }
 
 }

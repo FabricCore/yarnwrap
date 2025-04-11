@@ -15,6 +15,10 @@ public class RealmsLongRunningMcoTaskScreen { public net.minecraft.client.realms
 // public void loading(yarnwrap.client.realms.gui.RealmsLoadingWidget value) { wrapperContained.loading = value.wrapperContained; }
 // public java.util.List tasks() { return wrapperContained.tasks; }
 // public void tasks(java.util.List value) { wrapperContained.tasks = value; }
+public RealmsLongRunningMcoTaskScreen(yarnwrap.client.gui.screen.Screen parent,net.minecraft.client.realms.task.LongRunningTask[] tasks) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsLongRunningMcoTaskScreen(parent.wrapperContained,tasks); }
+// public void method_25168(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25168(button.wrapperContained); }
+// public void method_53795(yarnwrap.client.realms.gui.screen.RealmsLongRunningMcoTaskScreen child) { wrapperContained.method_53795(child.wrapperContained); }
+// public void method_53796(yarnwrap.client.gui.widget.Positioner positioner) { wrapperContained.method_53796(positioner.wrapperContained); }
 public void setTitle(yarnwrap.text.Text title) { wrapperContained.setTitle(title.wrapperContained); }
 // public void onCancel() { wrapperContained.onCancel(); }
 

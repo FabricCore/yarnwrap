@@ -31,9 +31,12 @@ public yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(wrapperContain
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
 // public yarnwrap.client.realms.task.WorldCreationTask creationTask() { return new yarnwrap.client.realms.task.WorldCreationTask(wrapperContained.creationTask); }
 // public void creationTask(yarnwrap.client.realms.task.WorldCreationTask value) { wrapperContained.creationTask = value.wrapperContained; }
+public RealmsSelectFileToUploadScreen(yarnwrap.client.realms.task.WorldCreationTask creationTask,long worldId,int slotId,yarnwrap.client.realms.gui.screen.RealmsCreateWorldScreen parent) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsSelectFileToUploadScreen(creationTask.wrapperContained,worldId,slotId,parent.wrapperContained); }
 // public void loadLevelList() { wrapperContained.loadLevelList(); }
 // public yarnwrap.text.Text getGameModeName(yarnwrap.world.level.storage.LevelSummary summary) { return new yarnwrap.text.Text(wrapperContained.getGameModeName(summary.wrapperContained)); }
 // public void upload() { wrapperContained.upload(); }
 // public java.lang.String getLastPlayed(yarnwrap.world.level.storage.LevelSummary summary) { return wrapperContained.getLastPlayed(summary.wrapperContained); }
+// public void method_25221(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25221(button.wrapperContained); }
+// public void method_38508(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_38508(button.wrapperContained); }
 
 }

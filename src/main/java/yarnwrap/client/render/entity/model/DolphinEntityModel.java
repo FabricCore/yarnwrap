@@ -9,6 +9,7 @@ public class DolphinEntityModel { public net.minecraft.client.render.entity.mode
 // public void tail(yarnwrap.client.model.ModelPart value) { wrapperContained.tail = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart body() { return new yarnwrap.client.model.ModelPart(wrapperContained.body); }
 // public void body(yarnwrap.client.model.ModelPart value) { wrapperContained.body = value.wrapperContained; }
+public DolphinEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.DolphinEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

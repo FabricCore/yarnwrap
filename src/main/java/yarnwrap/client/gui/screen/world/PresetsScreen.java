@@ -35,10 +35,13 @@ public yarnwrap.text.Text UNKNOWN_PRESET_TEXT() { return new yarnwrap.text.Text(
 // public void UNKNOWN_PRESET_TEXT(yarnwrap.text.Text value) { wrapperContained.UNKNOWN_PRESET_TEXT = value.wrapperContained; }
 // public yarnwrap.util.Identifier SLOT_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.SLOT_TEXTURE); }
 // public void SLOT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SLOT_TEXTURE = value.wrapperContained; }
+public PresetsScreen(yarnwrap.client.gui.screen.world.CustomizeFlatLevelScreen parent) { this.wrapperContained = new net.minecraft.client.gui.screen.world.PresetsScreen(parent.wrapperContained); }
+// public void method_19846(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19846(button.wrapperContained); }
 public void updateSelectButton(boolean hasSelected) { wrapperContained.updateSelectButton(hasSelected); }
 // public java.util.List parsePresetLayersString(yarnwrap.registry.RegistryEntryLookup blockLookup,java.lang.String layers) { return wrapperContained.parsePresetLayersString(blockLookup.wrapperContained,layers); }
 // public yarnwrap.world.gen.chunk.FlatChunkGeneratorLayer parseLayerString(yarnwrap.registry.RegistryEntryLookup blockLookup,java.lang.String layer,int layerStartHeight) { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorLayer(wrapperContained.parseLayerString(blockLookup.wrapperContained,layer,layerStartHeight)); }
 public yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig parsePresetString(yarnwrap.registry.RegistryEntryLookup blockLookup,yarnwrap.registry.RegistryEntryLookup biomeLookup,yarnwrap.registry.RegistryEntryLookup structureSetLookup,yarnwrap.registry.RegistryEntryLookup placedFeatureLookup,java.lang.String preset,yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config) { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(wrapperContained.parsePresetString(blockLookup.wrapperContained,biomeLookup.wrapperContained,structureSetLookup.wrapperContained,placedFeatureLookup.wrapperContained,preset,config.wrapperContained)); }
+// public yarnwrap.registry.RegistryKey method_29061(yarnwrap.util.Identifier biomeId) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_29061(biomeId.wrapperContained)); }
 // public java.lang.String getGeneratorConfigString(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config) { return wrapperContained.getGeneratorConfigString(config.wrapperContained); }
 
 }

@@ -31,9 +31,11 @@ public int MAX_DURATION_IN_SECONDS() { return wrapperContained.MAX_DURATION_IN_S
 // public void samplerSource(yarnwrap.util.profiler.SamplerSource value) { wrapperContained.samplerSource = value.wrapperContained; }
 // public java.util.Set samplers() { return wrapperContained.samplers; }
 // public void samplers(java.util.Set value) { wrapperContained.samplers = value; }
+// public DebugRecorder(yarnwrap.util.profiler.SamplerSource samplerSource,java.util.function.LongSupplier timeGetter,java.util.concurrent.Executor dumpExecutor,yarnwrap.util.profiler.RecordDumper dumper,java.util.function.Consumer resultConsumer,java.util.function.Consumer dumpConsumer) { this.wrapperContained = new net.minecraft.util.profiler.DebugRecorder(samplerSource.wrapperContained,timeGetter,dumpExecutor,dumper.wrapperContained,resultConsumer,dumpConsumer); }
 // public void checkState() { wrapperContained.checkState(); }
 // public void dump(yarnwrap.util.profiler.ProfileResult result) { wrapperContained.dump(result.wrapperContained); }
 public void setGlobalDumpConsumer(java.util.function.Consumer consumer) { wrapperContained.setGlobalDumpConsumer(consumer); }
+// public java.util.List method_37190(yarnwrap.util.profiler.Sampler s) { return wrapperContained.method_37190(s.wrapperContained); }
 public yarnwrap.util.profiler.DebugRecorder of(yarnwrap.util.profiler.SamplerSource source,java.util.function.LongSupplier timeGetter,java.util.concurrent.Executor dumpExecutor,yarnwrap.util.profiler.RecordDumper dumper,java.util.function.Consumer resultConsumer,java.util.function.Consumer dumpConsumer) { return new yarnwrap.util.profiler.DebugRecorder(wrapperContained.of(source.wrapperContained,timeGetter,dumpExecutor,dumper.wrapperContained,resultConsumer,dumpConsumer)); }
 // public void forceStop(java.util.Collection samplers) { wrapperContained.forceStop(samplers); }
 

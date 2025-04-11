@@ -15,6 +15,7 @@ public class CommandFunctionManager { public net.minecraft.server.function.Comma
 // public void loader(yarnwrap.server.function.FunctionLoader value) { wrapperContained.loader = value.wrapperContained; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public CommandFunctionManager(yarnwrap.server.MinecraftServer server,yarnwrap.server.function.FunctionLoader loader) { this.wrapperContained = new net.minecraft.server.function.CommandFunctionManager(server.wrapperContained,loader.wrapperContained); }
 public yarnwrap.server.command.ServerCommandSource getScheduledCommandSource() { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.getScheduledCommandSource()); }
 public com.mojang.brigadier.CommandDispatcher getDispatcher() { return wrapperContained.getDispatcher(); }
 public void execute(yarnwrap.server.function.CommandFunction function,yarnwrap.server.command.ServerCommandSource source) { wrapperContained.execute(function.wrapperContained,source.wrapperContained); }
@@ -26,5 +27,6 @@ public java.util.Collection getTag(yarnwrap.util.Identifier id) { return wrapper
 public java.lang.Iterable getAllFunctions() { return wrapperContained.getAllFunctions(); }
 public java.lang.Iterable getFunctionTags() { return wrapperContained.getFunctionTags(); }
 // public void load(yarnwrap.server.function.FunctionLoader loader) { wrapperContained.load(loader.wrapperContained); }
+// public void method_54252(yarnwrap.server.function.Procedure context) { wrapperContained.method_54252(context.wrapperContained); }
 
 }

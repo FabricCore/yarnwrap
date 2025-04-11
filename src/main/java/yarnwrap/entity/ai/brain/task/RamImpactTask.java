@@ -19,6 +19,7 @@ public float SPEED_STRENGTH_MULTIPLIER() { return wrapperContained.SPEED_STRENGT
 // public void impactSoundFactory(java.util.function.Function value) { wrapperContained.impactSoundFactory = value; }
 // public java.util.function.Function hornBreakSoundFactory() { return wrapperContained.hornBreakSoundFactory; }
 // public void hornBreakSoundFactory(java.util.function.Function value) { wrapperContained.hornBreakSoundFactory = value; }
+public RamImpactTask(java.util.function.Function cooldownRangeFactory,yarnwrap.entity.ai.TargetPredicate targetPredicate,float speed,java.util.function.ToDoubleFunction strengthMultiplierFactory,java.util.function.Function impactSoundFactory,java.util.function.Function hornBreakSoundFactory) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.RamImpactTask(cooldownRangeFactory,targetPredicate.wrapperContained,speed,strengthMultiplierFactory,impactSoundFactory,hornBreakSoundFactory); }
 // public void finishRam(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.GoatEntity goat) { wrapperContained.finishRam(world.wrapperContained,goat.wrapperContained); }
 // public boolean shouldSnapHorn(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.GoatEntity goat) { return wrapperContained.shouldSnapHorn(world.wrapperContained,goat.wrapperContained); }
 

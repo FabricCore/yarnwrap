@@ -11,6 +11,7 @@ public class LogFileCompressor { public net.minecraft.util.logging.LogFileCompre
 // public void directory(java.nio.file.Path value) { wrapperContained.directory = value; }
 // public java.lang.String extension() { return wrapperContained.extension; }
 // public void extension(java.lang.String value) { wrapperContained.extension = value; }
+// public LogFileCompressor(java.nio.file.Path directory,java.lang.String extension) { this.wrapperContained = new net.minecraft.util.logging.LogFileCompressor(directory,extension); }
 // public Object getAll() { return wrapperContained.getAll(); }
 // public void compress(java.nio.channels.ReadableByteChannel source,java.nio.file.Path outputPath) { wrapperContained.compress(source,outputPath); }
 // public Object get(java.nio.file.Path path) { return wrapperContained.get(path); }

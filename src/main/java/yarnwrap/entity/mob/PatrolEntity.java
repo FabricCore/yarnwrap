@@ -18,5 +18,6 @@ public boolean canLead() { return wrapperContained.canLead(); }
 // public boolean isRaidCenterSet() { return wrapperContained.isRaidCenterSet(); }
 public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public void setPatrolling(boolean patrolling) { wrapperContained.setPatrolling(patrolling); }
+// public void method_57005(yarnwrap.util.math.BlockPos patrolTarget) { wrapperContained.method_57005(patrolTarget.wrapperContained); }
 
 }

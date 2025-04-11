@@ -11,6 +11,7 @@ public int total() { return wrapperContained.total; }
 public void total(int value) { wrapperContained.total = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public WorldTemplatePaginatedList(int size) { this.wrapperContained = new net.minecraft.client.realms.dto.WorldTemplatePaginatedList(size); }
 public yarnwrap.client.realms.dto.WorldTemplatePaginatedList parse(java.lang.String json) { return new yarnwrap.client.realms.dto.WorldTemplatePaginatedList(wrapperContained.parse(json)); }
 public boolean isLastPage() { return wrapperContained.isLastPage(); }
 

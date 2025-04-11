@@ -5,6 +5,7 @@ public class UnihexFont { public net.minecraft.client.font.UnihexFont wrapperCon
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public yarnwrap.client.font.GlyphContainer glyphs() { return new yarnwrap.client.font.GlyphContainer(wrapperContained.glyphs); }
 // public void glyphs(yarnwrap.client.font.GlyphContainer value) { wrapperContained.glyphs = value.wrapperContained; }
+// public UnihexFont(yarnwrap.client.font.GlyphContainer glyphs) { this.wrapperContained = new net.minecraft.client.font.UnihexFont(glyphs.wrapperContained); }
 // public int getHexDigitValue(int lineNum,byte digit) { return wrapperContained.getHexDigitValue(lineNum,digit); }
 // public int getHexDigitValue(int lineNum,it.unimi.dsi.fastutil.bytes.ByteList bytes,int index) { return wrapperContained.getHexDigitValue(lineNum,bytes,index); }
 // public void readLines(java.io.InputStream stream,Object callback) { wrapperContained.readLines(stream,callback); }

@@ -13,6 +13,7 @@ public class DownloadingTerrainScreen { public net.minecraft.client.gui.screen.D
 // // public void worldEntryReason(Object value) { wrapperContained.worldEntryReason = value; }
 // public yarnwrap.client.texture.Sprite backgroundSprite() { return new yarnwrap.client.texture.Sprite(wrapperContained.backgroundSprite); }
 // public void backgroundSprite(yarnwrap.client.texture.Sprite value) { wrapperContained.backgroundSprite = value.wrapperContained; }
+// public DownloadingTerrainScreen(java.util.function.BooleanSupplier shouldClose,Object worldEntryReason) { this.wrapperContained = new net.minecraft.client.gui.screen.DownloadingTerrainScreen(shouldClose,worldEntryReason); }
 // public yarnwrap.client.texture.Sprite getBackgroundSprite() { return new yarnwrap.client.texture.Sprite(wrapperContained.getBackgroundSprite()); }
 
 }

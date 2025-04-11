@@ -9,6 +9,7 @@ public class LootContext { public net.minecraft.loot.context.LootContext wrapper
 // public void random(yarnwrap.util.math.random.Random value) { wrapperContained.random = value.wrapperContained; }
 // public java.util.Set activeEntries() { return wrapperContained.activeEntries; }
 // public void activeEntries(java.util.Set value) { wrapperContained.activeEntries = value; }
+// public LootContext(yarnwrap.loot.context.LootContextParameterSet parameters,yarnwrap.util.math.random.Random random,Object lookup) { this.wrapperContained = new net.minecraft.loot.context.LootContext(parameters.wrapperContained,random.wrapperContained,lookup); }
 public yarnwrap.util.math.random.Random getRandom() { return new yarnwrap.util.math.random.Random(wrapperContained.getRandom()); }
 // public void markInactive(Object entry) { wrapperContained.markInactive(entry); }
 public java.lang.Object get(yarnwrap.loot.context.LootContextParameter parameter) { return wrapperContained.get(parameter.wrapperContained); }

@@ -7,6 +7,7 @@ public class CrashReportSection { public net.minecraft.util.crash.CrashReportSec
 // public void title(java.lang.String value) { wrapperContained.title = value; }
 // public java.lang.StackTraceElement[] stackTrace() { return wrapperContained.stackTrace; }
 // public void stackTrace(java.lang.StackTraceElement[] value) { wrapperContained.stackTrace = value; }
+public CrashReportSection(java.lang.String title) { this.wrapperContained = new net.minecraft.util.crash.CrashReportSection(title); }
 public void addStackTrace(java.lang.StringBuilder crashReportBuilder) { wrapperContained.addStackTrace(crashReportBuilder); }
 public java.lang.StackTraceElement[] getStackTrace() { return wrapperContained.getStackTrace(); }
 public yarnwrap.util.crash.CrashReportSection add(java.lang.String name,yarnwrap.util.crash.CrashCallable callable) { return new yarnwrap.util.crash.CrashReportSection(wrapperContained.add(name,callable.wrapperContained)); }

@@ -13,6 +13,8 @@ public yarnwrap.recipe.input.CraftingRecipeInput EMPTY() { return new yarnwrap.r
 // public void matcher(yarnwrap.recipe.RecipeMatcher value) { wrapperContained.matcher = value.wrapperContained; }
 // public int stackCount() { return wrapperContained.stackCount; }
 // public void stackCount(int value) { wrapperContained.stackCount = value; }
+// public CraftingRecipeInput(int width,int height,java.util.List stacks) { this.wrapperContained = new net.minecraft.recipe.input.CraftingRecipeInput(width,height,stacks); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.item.ItemStack getStackInSlot(int x,int y) { return new yarnwrap.item.ItemStack(wrapperContained.getStackInSlot(x,y)); }
 public yarnwrap.recipe.input.CraftingRecipeInput create(int width,int height,java.util.List stacks) { return new yarnwrap.recipe.input.CraftingRecipeInput(wrapperContained.create(width,height,stacks)); }
 public yarnwrap.recipe.RecipeMatcher getRecipeMatcher() { return new yarnwrap.recipe.RecipeMatcher(wrapperContained.getRecipeMatcher()); }

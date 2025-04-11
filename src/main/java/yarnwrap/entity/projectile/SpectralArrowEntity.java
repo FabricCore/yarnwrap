@@ -3,5 +3,7 @@ public class SpectralArrowEntity { public net.minecraft.entity.projectile.Spectr
 
 // public int duration() { return wrapperContained.duration; }
 // public void duration(int value) { wrapperContained.duration = value; }
+public SpectralArrowEntity(yarnwrap.world.World world,double x,double y,double z,yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack shotFrom) { this.wrapperContained = new net.minecraft.entity.projectile.SpectralArrowEntity(world.wrapperContained,x,y,z,stack.wrapperContained,shotFrom.wrapperContained); }
+public SpectralArrowEntity(yarnwrap.world.World world,yarnwrap.entity.LivingEntity owner,yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack shotFrom) { this.wrapperContained = new net.minecraft.entity.projectile.SpectralArrowEntity(world.wrapperContained,owner.wrapperContained,stack.wrapperContained,shotFrom.wrapperContained); }
 
 }

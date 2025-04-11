@@ -11,7 +11,9 @@ public int STOP_TRACK_MS() { return wrapperContained.STOP_TRACK_MS; }
 // public void subscriptionMap(java.util.EnumMap value) { wrapperContained.subscriptionMap = value; }
 // public java.util.Queue pendingQueue() { return wrapperContained.pendingQueue; }
 // public void pendingQueue(java.util.Queue value) { wrapperContained.pendingQueue = value; }
+public SampleSubscriptionTracker(yarnwrap.server.PlayerManager playerManager) { this.wrapperContained = new net.minecraft.server.SampleSubscriptionTracker(playerManager.wrapperContained); }
 public void tick(int tick) { wrapperContained.tick(tick); }
+// public boolean method_56653(int entry) { return wrapperContained.method_56653(entry); }
 // public void onSubscription(long time,int tick) { wrapperContained.onSubscription(time,tick); }
 public void sendPacket(yarnwrap.network.packet.s2c.play.DebugSampleS2CPacket packet) { wrapperContained.sendPacket(packet.wrapperContained); }
 public void addPlayer(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.util.profiler.log.DebugSampleType type) { wrapperContained.addPlayer(player.wrapperContained,type.wrapperContained); }

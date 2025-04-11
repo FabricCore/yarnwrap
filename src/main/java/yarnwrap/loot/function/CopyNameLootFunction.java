@@ -5,6 +5,10 @@ public class CopyNameLootFunction { public net.minecraft.loot.function.CopyNameL
 // // public void source(Object value) { wrapperContained.source = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public CopyNameLootFunction(java.util.List conditions,Object source) { this.wrapperContained = new net.minecraft.loot.function.CopyNameLootFunction(conditions,source); }
 // public Object builder(Object source) { return wrapperContained.builder(source); }
+// public yarnwrap.loot.function.LootFunction method_474(Object conditions) { return new yarnwrap.loot.function.LootFunction(wrapperContained.method_474(conditions)); }
+// public Object method_53313(yarnwrap.loot.function.CopyNameLootFunction function) { return wrapperContained.method_53313(function.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53314(Object instance) { return wrapperContained.method_53314(instance); }
 
 }

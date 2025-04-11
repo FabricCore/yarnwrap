@@ -11,5 +11,6 @@ public yarnwrap.text.StringVisitable EMPTY() { return new yarnwrap.text.StringVi
 // public yarnwrap.text.StringVisitable styled(java.lang.String string,yarnwrap.text.Style style) { return new yarnwrap.text.StringVisitable(wrapperContained.styled(string,style.wrapperContained)); }
 // public yarnwrap.text.StringVisitable concat(java.util.List visitables) { return new yarnwrap.text.StringVisitable(wrapperContained.concat(visitables)); }
 // public yarnwrap.text.StringVisitable concat(net.minecraft.text.StringVisitable[] visitables) { return new yarnwrap.text.StringVisitable(wrapperContained.concat(visitables)); }
+// public java.util.Optional method_30067(java.lang.StringBuilder string) { return wrapperContained.method_30067(string); }
 
 }

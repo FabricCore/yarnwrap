@@ -8,5 +8,6 @@ public float getAmountFilled(yarnwrap.item.ItemStack stack) { return wrapperCont
 // public void playRemoveOneSound(yarnwrap.entity.Entity entity) { wrapperContained.playRemoveOneSound(entity.wrapperContained); }
 // public void playInsertSound(yarnwrap.entity.Entity entity) { wrapperContained.playInsertSound(entity.wrapperContained); }
 // public void playDropContentsSound(yarnwrap.entity.Entity entity) { wrapperContained.playDropContentsSound(entity.wrapperContained); }
+// public void method_57341(yarnwrap.entity.player.PlayerEntity stack) { wrapperContained.method_57341(stack.wrapperContained); }
 
 }

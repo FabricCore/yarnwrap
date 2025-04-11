@@ -15,7 +15,9 @@ public class DataGenerator { public net.minecraft.data.DataGenerator wrapperCont
 // public void output(yarnwrap.data.DataOutput value) { wrapperContained.output = value.wrapperContained; }
 // public java.util.Set providerNames() { return wrapperContained.providerNames; }
 // public void providerNames(java.util.Set value) { wrapperContained.providerNames = value; }
+public DataGenerator(java.nio.file.Path outputPath,yarnwrap.GameVersion gameVersion,boolean ignoreCache) { this.wrapperContained = new net.minecraft.data.DataGenerator(outputPath,gameVersion.wrapperContained,ignoreCache); }
 // public void run() { wrapperContained.run(); }
+// public void method_46563(yarnwrap.data.DataCache name,com.google.common.base.Stopwatch provider) { wrapperContained.method_46563(name.wrapperContained,provider); }
 public Object createVanillaPack(boolean shouldRun) { return wrapperContained.createVanillaPack(shouldRun); }
 public Object createVanillaSubPack(boolean shouldRun,java.lang.String packName) { return wrapperContained.createVanillaSubPack(shouldRun,packName); }
 

@@ -33,6 +33,11 @@ public class EntitySpawnS2CPacket { public net.minecraft.network.packet.s2c.play
 // public void headYaw(byte value) { wrapperContained.headYaw = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public EntitySpawnS2CPacket(int entityId,java.util.UUID uuid,double x,double y,double z,float pitch,float yaw,yarnwrap.entity.EntityType entityType,int entityData,yarnwrap.util.math.Vec3d velocity,double headYaw) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitySpawnS2CPacket(entityId,uuid,x,y,z,pitch,yaw,entityType.wrapperContained,entityData,velocity.wrapperContained,headYaw); }
+public EntitySpawnS2CPacket(yarnwrap.entity.Entity entity,int entityData,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitySpawnS2CPacket(entity.wrapperContained,entityData,pos.wrapperContained); }
+public EntitySpawnS2CPacket(yarnwrap.entity.Entity entity,yarnwrap.server.network.EntityTrackerEntry entityTrackerEntry) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitySpawnS2CPacket(entity.wrapperContained,entityTrackerEntry.wrapperContained); }
+public EntitySpawnS2CPacket(yarnwrap.entity.Entity entity,yarnwrap.server.network.EntityTrackerEntry entityTrackerEntry,int entityData) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitySpawnS2CPacket(entity.wrapperContained,entityTrackerEntry.wrapperContained,entityData); }
+// public EntitySpawnS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitySpawnS2CPacket(buf.wrapperContained); }
 public java.util.UUID getUuid() { return wrapperContained.getUuid(); }
 public int getEntityData() { return wrapperContained.getEntityData(); }
 public int getEntityId() { return wrapperContained.getEntityId(); }

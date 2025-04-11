@@ -29,11 +29,22 @@ public yarnwrap.resource.ResourceFinder FINDER() { return new yarnwrap.resource.
 // // public void missingModel(Object value) { wrapperContained.missingModel = value; }
 // public Object context() { return wrapperContained.context; }
 // // public void context(Object value) { wrapperContained.context = value; }
+public BlockStatesLoader(java.util.Map blockStates,yarnwrap.util.profiler.Profiler profiler,yarnwrap.client.render.model.UnbakedModel missingModel,yarnwrap.client.color.block.BlockColors blockColors,java.util.function.BiConsumer onLoad) { this.wrapperContained = new net.minecraft.client.render.model.BlockStatesLoader(blockStates,profiler.wrapperContained,missingModel.wrapperContained,blockColors.wrapperContained,onLoad); }
 public void load() { wrapperContained.load(); }
+// public void method_61052(int state) { wrapperContained.method_61052(state); }
 // public void loadBlockStates(yarnwrap.util.Identifier id,yarnwrap.state.StateManager stateManager) { wrapperContained.loadBlockStates(id.wrapperContained,stateManager.wrapperContained); }
+// public boolean method_61054(yarnwrap.block.Block state) { return wrapperContained.method_61054(state.wrapperContained); }
 // public java.util.function.Predicate toStatePredicate(yarnwrap.state.StateManager stateManager,java.lang.String predicate) { return wrapperContained.toStatePredicate(stateManager.wrapperContained,predicate); }
 // public java.lang.Comparable parseProperty(yarnwrap.state.property.Property property,java.lang.String value) { return wrapperContained.parseProperty(property.wrapperContained,value); }
+// public java.util.Set method_61060(Object definition) { return wrapperContained.method_61060(definition); }
+// public void method_61061(Object definition,java.util.Set states) { wrapperContained.method_61061(definition,states); }
+// public void method_61062(it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap map) { wrapperContained.method_61062(map); }
 // public void addStates(java.lang.Iterable states) { wrapperContained.addStates(states); }
+// public void method_61064(java.util.List variant,yarnwrap.state.StateManager model) { wrapperContained.method_61064(variant,model.wrapperContained); }
+// public void method_61065(java.util.Map state) { wrapperContained.method_61065(state); }
+// public void method_61066(java.util.Map modelId,yarnwrap.util.Identifier state) { wrapperContained.method_61066(modelId,state.wrapperContained); }
+// public void method_61067(java.util.Map state) { wrapperContained.method_61067(state); }
+// public void method_61068(java.util.Map state) { wrapperContained.method_61068(state); }
 public it.unimi.dsi.fastutil.objects.Object2IntMap getStateLookup() { return wrapperContained.getStateLookup(); }
 
 }

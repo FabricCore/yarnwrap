@@ -17,12 +17,14 @@ public class DedicatedServerGui { public net.minecraft.server.dedicated.gui.Dedi
 // public void TITLE(java.lang.String value) { wrapperContained.TITLE = value; }
 // public java.lang.String SHUTTING_DOWN_TITLE() { return wrapperContained.SHUTTING_DOWN_TITLE; }
 // public void SHUTTING_DOWN_TITLE(java.lang.String value) { wrapperContained.SHUTTING_DOWN_TITLE = value; }
+// public DedicatedServerGui(yarnwrap.server.dedicated.MinecraftDedicatedServer server) { this.wrapperContained = new net.minecraft.server.dedicated.gui.DedicatedServerGui(server.wrapperContained); }
 public yarnwrap.server.dedicated.gui.DedicatedServerGui create(yarnwrap.server.dedicated.MinecraftDedicatedServer server) { return new yarnwrap.server.dedicated.gui.DedicatedServerGui(wrapperContained.create(server.wrapperContained)); }
 public void appendToConsole(javax.swing.JTextArea textArea,javax.swing.JScrollPane scrollPane,java.lang.String message) { wrapperContained.appendToConsole(textArea,scrollPane,message); }
 // public javax.swing.JComponent createLogPanel() { return wrapperContained.createLogPanel(); }
 public void start() { wrapperContained.start(); }
 // public javax.swing.JComponent createPlaysPanel() { return wrapperContained.createPlaysPanel(); }
 // public javax.swing.JComponent createStatsPanel() { return wrapperContained.createStatsPanel(); }
+// public void method_13977(javax.swing.JTextField event) { wrapperContained.method_13977(event); }
 public void addStopTask(java.lang.Runnable task) { wrapperContained.addStopTask(task); }
 // public void runStopTasks() { wrapperContained.runStopTasks(); }
 public void stop() { wrapperContained.stop(); }

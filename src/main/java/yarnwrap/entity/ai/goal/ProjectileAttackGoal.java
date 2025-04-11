@@ -21,5 +21,7 @@ public class ProjectileAttackGoal { public net.minecraft.entity.ai.goal.Projecti
 // public void maxShootRange(float value) { wrapperContained.maxShootRange = value; }
 // public double mobSpeed() { return wrapperContained.mobSpeed; }
 // public void mobSpeed(double value) { wrapperContained.mobSpeed = value; }
+public ProjectileAttackGoal(yarnwrap.entity.ai.RangedAttackMob mob,double mobSpeed,int intervalTicks,float maxShootRange) { this.wrapperContained = new net.minecraft.entity.ai.goal.ProjectileAttackGoal(mob.wrapperContained,mobSpeed,intervalTicks,maxShootRange); }
+public ProjectileAttackGoal(yarnwrap.entity.ai.RangedAttackMob mob,double mobSpeed,int minIntervalTicks,int maxIntervalTicks,float maxShootRange) { this.wrapperContained = new net.minecraft.entity.ai.goal.ProjectileAttackGoal(mob.wrapperContained,mobSpeed,minIntervalTicks,maxIntervalTicks,maxShootRange); }
 
 }

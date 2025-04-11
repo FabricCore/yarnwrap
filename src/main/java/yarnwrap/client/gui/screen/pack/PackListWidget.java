@@ -25,5 +25,6 @@ public class PackListWidget { public net.minecraft.client.gui.screen.pack.PackLi
 // public void MOVE_DOWN_HIGHLIGHTED_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.MOVE_DOWN_HIGHLIGHTED_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier MOVE_DOWN_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.MOVE_DOWN_TEXTURE); }
 // public void MOVE_DOWN_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.MOVE_DOWN_TEXTURE = value.wrapperContained; }
+public PackListWidget(yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.screen.pack.PackScreen screen,int width,int height,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.pack.PackListWidget(client.wrapperContained,screen.wrapperContained,width,height,title.wrapperContained); }
 
 }

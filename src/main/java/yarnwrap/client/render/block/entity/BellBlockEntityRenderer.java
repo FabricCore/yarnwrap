@@ -7,6 +7,7 @@ public yarnwrap.client.util.SpriteIdentifier BELL_BODY_TEXTURE() { return new ya
 // public void bellBody(yarnwrap.client.model.ModelPart value) { wrapperContained.bellBody = value.wrapperContained; }
 // public java.lang.String BELL_BODY() { return wrapperContained.BELL_BODY; }
 // public void BELL_BODY(java.lang.String value) { wrapperContained.BELL_BODY = value; }
+// public BellBlockEntityRenderer(Object ctx) { this.wrapperContained = new net.minecraft.client.render.block.entity.BellBlockEntityRenderer(ctx); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

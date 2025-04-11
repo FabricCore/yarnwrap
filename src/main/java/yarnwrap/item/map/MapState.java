@@ -41,6 +41,7 @@ public int MAX_DECORATIONS() { return wrapperContained.MAX_DECORATIONS; }
 // public void decorationCount(int value) { wrapperContained.decorationCount = value; }
 // public java.lang.String FRAME_PREFIX() { return wrapperContained.FRAME_PREFIX; }
 // public void FRAME_PREFIX(java.lang.String value) { wrapperContained.FRAME_PREFIX = value; }
+// public MapState(int centerX,int centerZ,byte scale,boolean showDecorations,boolean unlimitedTracking,boolean locked,yarnwrap.registry.RegistryKey dimension) { this.wrapperContained = new net.minecraft.item.map.MapState(centerX,centerZ,scale,showDecorations,unlimitedTracking,locked,dimension.wrapperContained); }
 public yarnwrap.network.packet.Packet getPlayerMarkerPacket(yarnwrap.component.type.MapIdComponent mapId,yarnwrap.entity.player.PlayerEntity player) { return new yarnwrap.network.packet.Packet(wrapperContained.getPlayerMarkerPacket(mapId.wrapperContained,player.wrapperContained)); }
 public Object getPlayerSyncData(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.getPlayerSyncData(player.wrapperContained); }
 public void update(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack stack) { wrapperContained.update(player.wrapperContained,stack.wrapperContained); }
@@ -66,6 +67,10 @@ public java.util.Collection getBanners() { return wrapperContained.getBanners();
 public boolean decorationCountNotLessThan(int decorationCount) { return wrapperContained.decorationCountNotLessThan(decorationCount); }
 public Object getPersistentStateType() { return wrapperContained.getPersistentStateType(); }
 // public java.util.function.Predicate getEqualPredicate(yarnwrap.item.ItemStack stack) { return wrapperContained.getEqualPredicate(stack.wrapperContained); }
+// public boolean method_55785(yarnwrap.item.ItemStack other) { return wrapperContained.method_55785(other.wrapperContained); }
+// public void method_56815(java.lang.String banner) { wrapperContained.method_56815(banner); }
+// public void method_57626(yarnwrap.entity.player.PlayerEntity id,java.lang.String decoration) { wrapperContained.method_57626(id.wrapperContained,decoration); }
+// public yarnwrap.component.type.MapDecorationsComponent method_57627(java.lang.String decorations) { return new yarnwrap.component.type.MapDecorationsComponent(wrapperContained.method_57627(decorations)); }
 // public java.lang.String getFrameDecorationKey(int id) { return wrapperContained.getFrameDecorationKey(id); }
 
 }

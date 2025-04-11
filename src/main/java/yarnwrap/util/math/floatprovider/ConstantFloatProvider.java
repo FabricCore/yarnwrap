@@ -7,6 +7,7 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public float value() { return wrapperContained.value; }
 // public void value(float value) { wrapperContained.value = value; }
+// public ConstantFloatProvider(float value) { this.wrapperContained = new net.minecraft.util.math.floatprovider.ConstantFloatProvider(value); }
 public yarnwrap.util.math.floatprovider.ConstantFloatProvider create(float value) { return new yarnwrap.util.math.floatprovider.ConstantFloatProvider(wrapperContained.create(value)); }
 public float getValue() { return wrapperContained.getValue(); }
 

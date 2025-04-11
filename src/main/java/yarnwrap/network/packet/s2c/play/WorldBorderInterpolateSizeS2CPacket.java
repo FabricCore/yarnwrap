@@ -9,6 +9,8 @@ public class WorldBorderInterpolateSizeS2CPacket { public net.minecraft.network.
 // public void sizeLerpTime(long value) { wrapperContained.sizeLerpTime = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public WorldBorderInterpolateSizeS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.WorldBorderInterpolateSizeS2CPacket(buf.wrapperContained); }
+public WorldBorderInterpolateSizeS2CPacket(yarnwrap.world.border.WorldBorder worldBorder) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.WorldBorderInterpolateSizeS2CPacket(worldBorder.wrapperContained); }
 public double getSize() { return wrapperContained.getSize(); }
 public double getSizeLerpTarget() { return wrapperContained.getSizeLerpTarget(); }
 public long getSizeLerpTime() { return wrapperContained.getSizeLerpTime(); }

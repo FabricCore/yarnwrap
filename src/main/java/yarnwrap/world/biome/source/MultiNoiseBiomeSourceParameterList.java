@@ -9,7 +9,9 @@ public com.mojang.serialization.Codec REGISTRY_CODEC() { return wrapperContained
 // // public void preset(Object value) { wrapperContained.preset = value; }
 // public Object entries() { return wrapperContained.entries; }
 // // public void entries(Object value) { wrapperContained.entries = value; }
+// public MultiNoiseBiomeSourceParameterList(Object preset,yarnwrap.registry.RegistryEntryLookup biomeLookup) { this.wrapperContained = new net.minecraft.world.biome.source.MultiNoiseBiomeSourceParameterList(preset,biomeLookup.wrapperContained); }
 public Object getEntries() { return wrapperContained.getEntries(); }
+// public Object method_49509(Object preset) { return wrapperContained.method_49509(preset); }
 public java.util.Map getPresetToEntriesMap() { return wrapperContained.getPresetToEntriesMap(); }
 
 }

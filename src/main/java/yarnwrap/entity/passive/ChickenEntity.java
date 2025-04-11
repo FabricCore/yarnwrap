@@ -18,6 +18,7 @@ public void flapProgress(float value) { wrapperContained.flapProgress = value; }
 public float maxWingDeviation() { return wrapperContained.maxWingDeviation; }
 public void maxWingDeviation(float value) { wrapperContained.maxWingDeviation = value; }
 public Object createChickenAttributes() { return wrapperContained.createChickenAttributes(); }
+// public boolean method_58366(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58366(stack.wrapperContained); }
 // public boolean hasJockey() { return wrapperContained.hasJockey(); }
 public void setHasJockey(boolean hasJockey) { wrapperContained.setHasJockey(hasJockey); }
 

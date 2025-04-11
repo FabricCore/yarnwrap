@@ -7,6 +7,7 @@ public class VindicatorEntity { public net.minecraft.entity.mob.VindicatorEntity
 // public void JOHNNY_KEY(java.lang.String value) { wrapperContained.JOHNNY_KEY = value; }
 // public boolean johnny() { return wrapperContained.johnny; }
 // public void johnny(boolean value) { wrapperContained.johnny = value; }
+// public boolean method_20007(yarnwrap.world.Difficulty difficulty) { return wrapperContained.method_20007(difficulty.wrapperContained); }
 public Object createVindicatorAttributes() { return wrapperContained.createVindicatorAttributes(); }
 
 }

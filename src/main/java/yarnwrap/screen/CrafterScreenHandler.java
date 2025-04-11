@@ -9,6 +9,8 @@ public class CrafterScreenHandler { public net.minecraft.screen.CrafterScreenHan
 // public void player(yarnwrap.entity.player.PlayerEntity value) { wrapperContained.player = value.wrapperContained; }
 // public yarnwrap.inventory.RecipeInputInventory inputInventory() { return new yarnwrap.inventory.RecipeInputInventory(wrapperContained.inputInventory); }
 // public void inputInventory(yarnwrap.inventory.RecipeInputInventory value) { wrapperContained.inputInventory = value.wrapperContained; }
+public CrafterScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.CrafterScreenHandler(syncId,playerInventory.wrapperContained); }
+public CrafterScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.inventory.RecipeInputInventory inputInventory,yarnwrap.screen.PropertyDelegate propertyDelegate) { this.wrapperContained = new net.minecraft.screen.CrafterScreenHandler(syncId,playerInventory.wrapperContained,inputInventory.wrapperContained,propertyDelegate.wrapperContained); }
 public void setSlotEnabled(int slot,boolean enabled) { wrapperContained.setSlotEnabled(slot,enabled); }
 // public void addSlots(yarnwrap.entity.player.PlayerInventory playerInventory) { wrapperContained.addSlots(playerInventory.wrapperContained); }
 public boolean isSlotDisabled(int slot) { return wrapperContained.isSlotDisabled(slot); }

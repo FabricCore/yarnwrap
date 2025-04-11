@@ -25,6 +25,7 @@ public class PostEffectProcessor { public net.minecraft.client.gl.PostEffectProc
 // public void MAIN_TARGET_NAME(java.lang.String value) { wrapperContained.MAIN_TARGET_NAME = value; }
 // public yarnwrap.resource.ResourceFactory resourceFactory() { return new yarnwrap.resource.ResourceFactory(wrapperContained.resourceFactory); }
 // public void resourceFactory(yarnwrap.resource.ResourceFactory value) { wrapperContained.resourceFactory = value.wrapperContained; }
+// public PostEffectProcessor(yarnwrap.client.texture.TextureManager textureManager,yarnwrap.resource.ResourceFactory resourceFactory,yarnwrap.client.gl.Framebuffer framebuffer,yarnwrap.util.Identifier id) { this.wrapperContained = new net.minecraft.client.gl.PostEffectProcessor(textureManager.wrapperContained,resourceFactory.wrapperContained,framebuffer.wrapperContained,id.wrapperContained); }
 // public void parseEffect(yarnwrap.client.texture.TextureManager textureManager,yarnwrap.util.Identifier id) { wrapperContained.parseEffect(textureManager.wrapperContained,id.wrapperContained); }
 // public void parsePass(yarnwrap.client.texture.TextureManager textureManager,com.google.gson.JsonElement jsonPass) { wrapperContained.parsePass(textureManager.wrapperContained,jsonPass); }
 public void render(float tickDelta) { wrapperContained.render(tickDelta); }

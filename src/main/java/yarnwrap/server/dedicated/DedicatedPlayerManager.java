@@ -3,6 +3,7 @@ public class DedicatedPlayerManager { public net.minecraft.server.dedicated.Dedi
 
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public DedicatedPlayerManager(yarnwrap.server.dedicated.MinecraftDedicatedServer server,yarnwrap.registry.CombinedDynamicRegistries tracker,yarnwrap.world.PlayerSaveHandler saveHandler) { this.wrapperContained = new net.minecraft.server.dedicated.DedicatedPlayerManager(server.wrapperContained,tracker.wrapperContained,saveHandler.wrapperContained); }
 // public void saveUserBanList() { wrapperContained.saveUserBanList(); }
 // public void loadIpBanList() { wrapperContained.loadIpBanList(); }
 // public void saveIpBanList() { wrapperContained.saveIpBanList(); }

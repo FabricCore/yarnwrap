@@ -9,6 +9,8 @@ public class SpriteIdentifier { public net.minecraft.client.util.SpriteIdentifie
 // public void layer(yarnwrap.client.render.RenderLayer value) { wrapperContained.layer = value.wrapperContained; }
 public java.util.Comparator COMPARATOR() { return wrapperContained.COMPARATOR; }
 // public void COMPARATOR(java.util.Comparator value) { wrapperContained.COMPARATOR = value; }
+public SpriteIdentifier(yarnwrap.util.Identifier atlas,yarnwrap.util.Identifier texture) { this.wrapperContained = new net.minecraft.client.util.SpriteIdentifier(atlas.wrapperContained,texture.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.Identifier getAtlasId() { return new yarnwrap.util.Identifier(wrapperContained.getAtlasId()); }
 public yarnwrap.client.render.VertexConsumer getVertexConsumer(yarnwrap.client.render.VertexConsumerProvider vertexConsumers,java.util.function.Function layerFactory) { return new yarnwrap.client.render.VertexConsumer(wrapperContained.getVertexConsumer(vertexConsumers.wrapperContained,layerFactory)); }
 public yarnwrap.client.render.RenderLayer getRenderLayer(java.util.function.Function layerFactory) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getRenderLayer(layerFactory)); }

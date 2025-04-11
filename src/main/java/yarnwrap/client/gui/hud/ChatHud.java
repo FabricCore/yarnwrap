@@ -27,6 +27,7 @@ public class ChatHud { public net.minecraft.client.gui.hud.ChatHud wrapperContai
 // public void DELETED_MARKER_TEXT(yarnwrap.text.Text value) { wrapperContained.DELETED_MARKER_TEXT = value.wrapperContained; }
 // public java.util.List removalQueue() { return wrapperContained.removalQueue; }
 // public void removalQueue(java.util.List value) { wrapperContained.removalQueue = value; }
+public ChatHud(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.gui.hud.ChatHud(client.wrapperContained); }
 public void scroll(int scroll) { wrapperContained.scroll(scroll); }
 public void addToMessageHistory(java.lang.String message) { wrapperContained.addToMessageHistory(message); }
 public void render(yarnwrap.client.gui.DrawContext context,int currentTick,int mouseX,int mouseY,boolean focused) { wrapperContained.render(context.wrapperContained,currentTick,mouseX,mouseY,focused); }
@@ -61,6 +62,7 @@ public void removeMessage(yarnwrap.network.message.MessageSignatureData signatur
 // public void refresh() { wrapperContained.refresh(); }
 // public void logChatMessage(yarnwrap.client.gui.hud.ChatHudLine message) { wrapperContained.logChatMessage(message.wrapperContained); }
 public void tickRemovalQueueIfExists() { wrapperContained.tickRemovalQueueIfExists(); }
+// public boolean method_45585(int message) { return wrapperContained.method_45585(message); }
 // public yarnwrap.client.gui.hud.ChatHudLine createRemovalMarker(yarnwrap.client.gui.hud.ChatHudLine original) { return new yarnwrap.client.gui.hud.ChatHudLine(wrapperContained.createRemovalMarker(original.wrapperContained)); }
 // public Object queueForRemoval(yarnwrap.network.message.MessageSignatureData signature) { return wrapperContained.queueForRemoval(signature.wrapperContained); }
 // public int getMessageIndex(double chatLineX,double chatLineY) { return wrapperContained.getMessageIndex(chatLineX,chatLineY); }

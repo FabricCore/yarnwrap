@@ -24,6 +24,10 @@ public class ZombifiedPiglinEntity { public net.minecraft.entity.mob.ZombifiedPi
 public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 public Object createZombifiedPiglinAttributes() { return wrapperContained.createZombifiedPiglinAttributes(); }
 // public void playAngrySound() { wrapperContained.playAngrySound(); }
+// public void method_29937(yarnwrap.entity.mob.ZombifiedPiglinEntity zombifiedPiglin) { wrapperContained.method_29937(zombifiedPiglin.wrapperContained); }
+// public boolean method_29938(yarnwrap.entity.mob.ZombifiedPiglinEntity zombifiedPiglin) { return wrapperContained.method_29938(zombifiedPiglin.wrapperContained); }
+// public boolean method_29939(yarnwrap.entity.mob.ZombifiedPiglinEntity zombifiedPiglin) { return wrapperContained.method_29939(zombifiedPiglin.wrapperContained); }
+// public boolean method_29940(yarnwrap.entity.mob.ZombifiedPiglinEntity zombifiedPiglin) { return wrapperContained.method_29940(zombifiedPiglin.wrapperContained); }
 // public void tickAngerPassing() { wrapperContained.tickAngerPassing(); }
 // public void angerNearbyZombifiedPiglins() { wrapperContained.angerNearbyZombifiedPiglins(); }
 // public void tickAngrySound() { wrapperContained.tickAngrySound(); }

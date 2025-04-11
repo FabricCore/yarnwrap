@@ -7,6 +7,7 @@ public class AttackIndicator { public net.minecraft.client.option.AttackIndicato
 // public void id(int value) { wrapperContained.id = value; }
 // public java.lang.String translationKey() { return wrapperContained.translationKey; }
 // public void translationKey(java.lang.String value) { wrapperContained.translationKey = value; }
+// // public AttackIndicator(java.lang.String id,int translationKey) { this.wrapperContained = new net.minecraft.client.option.AttackIndicator(id,translationKey); }
 public yarnwrap.client.option.AttackIndicator byId(int id) { return new yarnwrap.client.option.AttackIndicator(wrapperContained.byId(id)); }
 
 }

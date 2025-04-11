@@ -7,5 +7,7 @@ public yarnwrap.util.Identifier getBlockModelId(yarnwrap.block.Block block) { re
 public yarnwrap.util.Identifier getBlockSubModelId(yarnwrap.block.Block block,java.lang.String suffix) { return new yarnwrap.util.Identifier(wrapperContained.getBlockSubModelId(block.wrapperContained,suffix)); }
 public yarnwrap.util.Identifier getMinecraftNamespacedBlock(java.lang.String name) { return new yarnwrap.util.Identifier(wrapperContained.getMinecraftNamespacedBlock(name)); }
 public yarnwrap.util.Identifier getMinecraftNamespacedItem(java.lang.String name) { return new yarnwrap.util.Identifier(wrapperContained.getMinecraftNamespacedItem(name)); }
+// public java.lang.String method_46196(java.lang.String path) { return wrapperContained.method_46196(path); }
+// public java.lang.String method_46197(java.lang.String path) { return wrapperContained.method_46197(path); }
 
 }

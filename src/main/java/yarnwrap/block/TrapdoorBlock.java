@@ -25,7 +25,10 @@ public yarnwrap.state.property.BooleanProperty OPEN() { return new yarnwrap.stat
 // public void blockSetType(yarnwrap.block.BlockSetType value) { wrapperContained.blockSetType = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public TrapdoorBlock(yarnwrap.block.BlockSetType type,Object settings) { this.wrapperContained = new net.minecraft.block.TrapdoorBlock(type.wrapperContained,settings); }
 // public void playToggleSound(yarnwrap.entity.player.PlayerEntity player,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,boolean open) { wrapperContained.playToggleSound(player.wrapperContained,world.wrapperContained,pos.wrapperContained,open); }
+// public com.mojang.datafixers.kinds.App method_54058(Object instance) { return wrapperContained.method_54058(instance); }
+// public yarnwrap.block.BlockSetType method_54059(yarnwrap.block.TrapdoorBlock block) { return new yarnwrap.block.BlockSetType(wrapperContained.method_54059(block.wrapperContained)); }
 // public yarnwrap.block.BlockSetType getBlockSetType() { return new yarnwrap.block.BlockSetType(wrapperContained.getBlockSetType()); }
 // public void flip(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player) { wrapperContained.flip(state.wrapperContained,world.wrapperContained,pos.wrapperContained,player.wrapperContained); }
 

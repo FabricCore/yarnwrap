@@ -11,5 +11,6 @@ public yarnwrap.scoreboard.number.StyledNumberFormat YELLOW() { return new yarnw
 // public void YELLOW(yarnwrap.scoreboard.number.StyledNumberFormat value) { wrapperContained.YELLOW = value.wrapperContained; }
 // public yarnwrap.text.Style style() { return new yarnwrap.text.Style(wrapperContained.style); }
 // public void style(yarnwrap.text.Style value) { wrapperContained.style = value.wrapperContained; }
+public StyledNumberFormat(yarnwrap.text.Style style) { this.wrapperContained = new net.minecraft.scoreboard.number.StyledNumberFormat(style.wrapperContained); }
 
 }

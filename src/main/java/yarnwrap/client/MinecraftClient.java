@@ -255,6 +255,7 @@ public yarnwrap.client.font.TextRenderer advanceValidatingTextRenderer() { retur
 // public void userPropertiesFuture(java.util.concurrent.CompletableFuture value) { wrapperContained.userPropertiesFuture = value; }
 // public yarnwrap.client.texture.MapDecorationsAtlasManager mapDecorationsAtlasManager() { return new yarnwrap.client.texture.MapDecorationsAtlasManager(wrapperContained.mapDecorationsAtlasManager); }
 // public void mapDecorationsAtlasManager(yarnwrap.client.texture.MapDecorationsAtlasManager value) { wrapperContained.mapDecorationsAtlasManager = value.wrapperContained; }
+public MinecraftClient(yarnwrap.client.RunArgs args) { this.wrapperContained = new net.minecraft.client.MinecraftClient(args.wrapperContained); }
 public yarnwrap.resource.ResourceManager getResourceManager() { return new yarnwrap.resource.ResourceManager(wrapperContained.getResourceManager()); }
 public java.nio.file.Path getResourcePackDir() { return wrapperContained.getResourcePackDir(); }
 public yarnwrap.client.render.item.ItemRenderer getItemRenderer() { return new yarnwrap.client.render.item.ItemRenderer(wrapperContained.getItemRenderer()); }
@@ -274,6 +275,7 @@ public yarnwrap.client.color.block.BlockColors getBlockColors() { return new yar
 // public void handleGlErrorByDisableVsync(int error,long description) { wrapperContained.handleGlErrorByDisableVsync(error,description); }
 public void setScreen(yarnwrap.client.gui.screen.Screen screen) { wrapperContained.setScreen(screen.wrapperContained); }
 // public void handleInputEvents() { wrapperContained.handleInputEvents(); }
+// public void method_1510(yarnwrap.text.Text status) { wrapperContained.method_1510(status.wrapperContained); }
 // public void doItemPick() { wrapperContained.doItemPick(); }
 public java.util.concurrent.CompletableFuture reloadResourcesConcurrently() { return wrapperContained.reloadResourcesConcurrently(); }
 public void run() { wrapperContained.run(); }
@@ -323,6 +325,7 @@ public void scheduleStop() { wrapperContained.scheduleStop(); }
 // public int getFramerateLimit() { return wrapperContained.getFramerateLimit(); }
 public yarnwrap.util.profiler.Profiler getProfiler() { return new yarnwrap.util.profiler.Profiler(wrapperContained.getProfiler()); }
 // public void checkGameData() { wrapperContained.checkGameData(); }
+// public yarnwrap.server.WorldGenerationProgressListener method_17533(int spawnChunkRadius) { return new yarnwrap.server.WorldGenerationProgressListener(wrapperContained.method_17533(spawnChunkRadius)); }
 public yarnwrap.client.resource.SplashTextResourceSupplier getSplashTextLoader() { return new yarnwrap.client.resource.SplashTextResourceSupplier(wrapperContained.getSplashTextLoader()); }
 public void disconnect(yarnwrap.client.gui.screen.Screen disconnectionScreen,boolean transferring) { wrapperContained.disconnect(disconnectionScreen.wrapperContained,transferring); }
 // public void setWorld(yarnwrap.client.world.ClientWorld world) { wrapperContained.setWorld(world.wrapperContained); }
@@ -332,6 +335,7 @@ public yarnwrap.client.texture.PaintingManager getPaintingManager() { return new
 public void setOverlay(yarnwrap.client.gui.screen.Overlay overlay) { wrapperContained.setOverlay(overlay.wrapperContained); }
 public yarnwrap.client.texture.StatusEffectSpriteManager getStatusEffectSpriteManager() { return new yarnwrap.client.texture.StatusEffectSpriteManager(wrapperContained.getStatusEffectSpriteManager()); }
 public yarnwrap.client.gui.screen.Overlay getOverlay() { return new yarnwrap.client.gui.screen.Overlay(wrapperContained.getOverlay()); }
+// public java.util.concurrent.CompletionStage method_18507(java.util.concurrent.CompletableFuture future) { return wrapperContained.method_18507(future); }
 public void openGameMenu(boolean pauseOnly) { wrapperContained.openGameMenu(pauseOnly); }
 public boolean isRunning() { return wrapperContained.isRunning(); }
 public void addSystemDetailsToCrashReport(yarnwrap.client.MinecraftClient client,yarnwrap.client.resource.language.LanguageManager languageManager,java.lang.String version,yarnwrap.client.option.GameOptions options,yarnwrap.util.crash.CrashReport report) { wrapperContained.addSystemDetailsToCrashReport(client.wrapperContained,languageManager.wrapperContained,version,options.wrapperContained,report.wrapperContained); }
@@ -339,6 +343,7 @@ public yarnwrap.client.util.Window getWindow() { return new yarnwrap.client.util
 public yarnwrap.client.render.BufferBuilderStorage getBufferBuilders() { return new yarnwrap.client.render.BufferBuilderStorage(wrapperContained.getBufferBuilders()); }
 public void setMipmapLevels(int mipmapLevels) { wrapperContained.setMipmapLevels(mipmapLevels); }
 // public void handleResourceReloadException(java.lang.Throwable throwable,Object loadingContext) { wrapperContained.handleResourceReloadException(throwable,loadingContext); }
+// public void method_24228(boolean error) { wrapperContained.method_24228(error); }
 // public java.lang.String getWindowTitle() { return wrapperContained.getWindowTitle(); }
 public void updateWindowTitle() { wrapperContained.updateWindowTitle(); }
 public yarnwrap.util.ModStatus getModStatus() { return new yarnwrap.util.ModStatus(wrapperContained.getModStatus()); }
@@ -348,6 +353,7 @@ public boolean hasOutline(yarnwrap.entity.Entity entity) { return wrapperContain
 // public void openChatScreen(java.lang.String text) { wrapperContained.openChatScreen(text); }
 public boolean shouldBlockMessages(java.util.UUID sender) { return wrapperContained.shouldBlockMessages(sender); }
 public boolean isMultiplayerEnabled() { return wrapperContained.isMultiplayerEnabled(); }
+// public yarnwrap.server.integrated.IntegratedServer method_29603(Object thread) { return new yarnwrap.server.integrated.IntegratedServer(wrapperContained.method_29603(thread)); }
 // public void startIntegratedServer(Object session,yarnwrap.resource.ResourcePackManager dataPackManager,yarnwrap.server.SaveLoader saveLoader,boolean newWorld) { wrapperContained.startIntegratedServer(session,dataPackManager.wrapperContained,saveLoader.wrapperContained,newWorld); }
 public boolean isFabulousGraphicsOrBetter() { return wrapperContained.isFabulousGraphicsOrBetter(); }
 public void setScreenAndRender(yarnwrap.client.gui.screen.Screen screen) { wrapperContained.setScreenAndRender(screen.wrapperContained); }
@@ -361,22 +367,34 @@ public yarnwrap.client.render.block.entity.BlockEntityRenderDispatcher getBlockE
 public boolean shouldFilterText() { return wrapperContained.shouldFilterText(); }
 public Object getChatRestriction() { return wrapperContained.getChatRestriction(); }
 public boolean toggleDebugProfiler(java.util.function.Consumer chatMessageSender) { return wrapperContained.toggleDebugProfiler(chatMessageSender); }
+// public void method_34746(java.util.function.Consumer result) { wrapperContained.method_34746(result); }
 public yarnwrap.text.Text takePanorama(java.io.File directory,int width,int height) { return new yarnwrap.text.Text(wrapperContained.takePanorama(directory,width,height)); }
 // public yarnwrap.text.Text takeHugeScreenshot(java.io.File gameDirectory,int unitWidth,int unitHeight,int width,int height) { return new yarnwrap.text.Text(wrapperContained.takeHugeScreenshot(gameDirectory,unitWidth,unitHeight,width,height)); }
+// public yarnwrap.text.Style method_35700(java.io.File style) { return new yarnwrap.text.Style(wrapperContained.method_35700(style)); }
+// public void method_35701(yarnwrap.text.Text message) { wrapperContained.method_35701(message.wrapperContained); }
 public yarnwrap.server.WorldGenerationProgressTracker getWorldGenerationProgressTracker() { return new yarnwrap.server.WorldGenerationProgressTracker(wrapperContained.getWorldGenerationProgressTracker()); }
+// public yarnwrap.text.Style method_35704(java.io.File style) { return new yarnwrap.text.Style(wrapperContained.method_35704(style)); }
 public boolean isRealmsEnabled() { return wrapperContained.isRealmsEnabled(); }
 // public java.util.concurrent.CompletableFuture reloadResources(boolean force,Object loadingContext) { return wrapperContained.reloadResources(force,loadingContext); }
 // public yarnwrap.util.SystemDetails addSystemDetailsToCrashReport(yarnwrap.util.SystemDetails systemDetails,yarnwrap.client.MinecraftClient client,yarnwrap.client.resource.language.LanguageManager languageManager,java.lang.String version,yarnwrap.client.option.GameOptions options) { return new yarnwrap.util.SystemDetails(wrapperContained.addSystemDetailsToCrashReport(systemDetails.wrapperContained,client.wrapperContained,languageManager.wrapperContained,version,options.wrapperContained)); }
 // public java.nio.file.Path saveProfilingResult(yarnwrap.util.SystemDetails details,java.util.List files) { return wrapperContained.saveProfilingResult(details.wrapperContained,files); }
+// public void method_37276(yarnwrap.util.SystemDetails files) { wrapperContained.method_37276(files.wrapperContained); }
+// public void method_37277(yarnwrap.util.profiler.ProfileResult result) { wrapperContained.method_37277(result.wrapperContained); }
+// public yarnwrap.text.Style method_37281(java.nio.file.Path style) { return new yarnwrap.text.Style(wrapperContained.method_37281(style)); }
+// public void method_37283(java.util.function.Consumer path) { wrapperContained.method_37283(path); }
 // public void stopRecorder() { wrapperContained.stopRecorder(); }
+// public void method_37290(java.util.function.Consumer result) { wrapperContained.method_37290(result); }
+// public void method_37291(java.util.function.Consumer path) { wrapperContained.method_37291(path); }
 public void loadBlockList() { wrapperContained.loadBlockList(); }
 // public boolean isCountrySetTo(java.lang.Object country) { return wrapperContained.isCountrySetTo(country); }
+// public void method_41731(yarnwrap.client.gl.GlTimer glTimer) { wrapperContained.method_41731(glTimer.wrapperContained); }
 // public void forceStopRecorder() { wrapperContained.forceStopRecorder(); }
 public double getGpuUtilizationPercentage() { return wrapperContained.getGpuUtilizationPercentage(); }
 public yarnwrap.server.integrated.IntegratedServerLoader createIntegratedServerLoader() { return new yarnwrap.server.integrated.IntegratedServerLoader(wrapperContained.createIntegratedServerLoader()); }
 public void setCrashReportSupplier(yarnwrap.util.crash.CrashReport crashReport) { wrapperContained.setCrashReportSupplier(crashReport.wrapperContained); }
 public yarnwrap.client.session.ProfileKeys getProfileKeys() { return new yarnwrap.client.session.ProfileKeys(wrapperContained.getProfileKeys()); }
 public yarnwrap.network.encryption.SignatureVerifier getServicesSignatureVerifier() { return new yarnwrap.network.encryption.SignatureVerifier(wrapperContained.getServicesSignatureVerifier()); }
+// public void method_44352(boolean confirmed) { wrapperContained.method_44352(confirmed); }
 public void ensureAbuseReportContext(yarnwrap.client.session.report.ReporterEnvironment environment) { wrapperContained.ensureAbuseReportContext(environment.wrapperContained); }
 public yarnwrap.client.session.report.AbuseReportContext getAbuseReportContext() { return new yarnwrap.client.session.report.AbuseReportContext(wrapperContained.getAbuseReportContext()); }
 public yarnwrap.client.realms.RealmsPeriodicCheckers getRealmsPeriodicCheckers() { return new yarnwrap.client.realms.RealmsPeriodicCheckers(wrapperContained.getRealmsPeriodicCheckers()); }
@@ -394,6 +412,7 @@ public boolean isOptionalTelemetryEnabled() { return wrapperContained.isOptional
 public void setNavigationType(yarnwrap.client.gui.navigation.GuiNavigationType navigationType) { wrapperContained.setNavigationType(navigationType.wrapperContained); }
 public yarnwrap.client.gui.navigation.GuiNavigationType getNavigationType() { return new yarnwrap.client.gui.navigation.GuiNavigationType(wrapperContained.getNavigationType()); }
 // public void showResourceReloadFailureToast(yarnwrap.text.Text description) { wrapperContained.showResourceReloadFailureToast(description.wrapperContained); }
+// public void method_49293(boolean throwable) { wrapperContained.method_49293(throwable); }
 // public void onForcedResourceReloadFailure() { wrapperContained.onForcedResourceReloadFailure(); }
 public yarnwrap.client.QuickPlayLogger getQuickPlayLogger() { return new yarnwrap.client.QuickPlayLogger(wrapperContained.getQuickPlayLogger()); }
 // public void collectLoadTimes(Object loadingContext) { wrapperContained.collectLoadTimes(loadingContext); }
@@ -406,6 +425,12 @@ public com.mojang.authlib.GameProfile getGameProfile() { return wrapperContained
 // public void onFinishedLoading(Object loadingContext) { wrapperContained.onFinishedLoading(loadingContext); }
 public boolean isFinishedLoading() { return wrapperContained.isFinishedLoading(); }
 public boolean isUsernameBanned() { return wrapperContained.isUsernameBanned(); }
+// public yarnwrap.client.gui.screen.Screen method_53519(com.mojang.authlib.GameProfile onClose) { return new yarnwrap.client.gui.screen.Screen(wrapperContained.method_53519(onClose)); }
+// public yarnwrap.client.gui.screen.Screen method_53520(com.mojang.authlib.minecraft.BanDetails onClose) { return new yarnwrap.client.gui.screen.Screen(wrapperContained.method_53520(onClose)); }
+// public void method_53521(Object throwable) { wrapperContained.method_53521(throwable); }
+// public void method_53522(Object error) { wrapperContained.method_53522(error); }
+// public yarnwrap.client.gui.screen.Screen method_53523(java.lang.Runnable onClose) { return new yarnwrap.client.gui.screen.Screen(wrapperContained.method_53523(onClose)); }
+// public void method_53524(java.lang.Runnable confirmed) { wrapperContained.method_53524(confirmed); }
 // public void createInitScreens(java.util.List list) { wrapperContained.createInitScreens(list); }
 public yarnwrap.client.gui.hud.DebugHud getDebugHud() { return new yarnwrap.client.gui.hud.DebugHud(wrapperContained.getDebugHud()); }
 // public java.lang.Runnable onInitFinished(Object loadingContext) { return wrapperContained.onInitFinished(loadingContext); }
@@ -421,6 +446,7 @@ public boolean providesProfileKeys() { return wrapperContained.providesProfileKe
 public void disconnect(yarnwrap.client.gui.screen.Screen disconnectionScreen) { wrapperContained.disconnect(disconnectionScreen.wrapperContained); }
 // public void onFontOptionsChanged() { wrapperContained.onFontOptionsChanged(); }
 public yarnwrap.client.texture.MapDecorationsAtlasManager getMapDecorationsAtlasManager() { return new yarnwrap.client.texture.MapDecorationsAtlasManager(wrapperContained.getMapDecorationsAtlasManager()); }
+// public void method_60320(yarnwrap.client.resource.language.TranslationStorage translationStorage) { wrapperContained.method_60320(translationStorage.wrapperContained); }
 public yarnwrap.client.render.RenderTickCounter getRenderTickCounter() { return new yarnwrap.client.render.RenderTickCounter(wrapperContained.getRenderTickCounter()); }
 // public boolean shouldTick() { return wrapperContained.shouldTick(); }
 

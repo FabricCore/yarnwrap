@@ -11,6 +11,8 @@ public class JigsawJunction { public net.minecraft.structure.JigsawJunction wrap
 // public void sourceX(int value) { wrapperContained.sourceX = value; }
 // public Object destProjection() { return wrapperContained.destProjection; }
 // // public void destProjection(Object value) { wrapperContained.destProjection = value; }
+// public JigsawJunction(int sourceX,int sourceGroundY,int sourceZ,int deltaY,Object destProjection) { this.wrapperContained = new net.minecraft.structure.JigsawJunction(sourceX,sourceGroundY,sourceZ,deltaY,destProjection); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public int getSourceZ() { return wrapperContained.getSourceZ(); }
 public int getSourceX() { return wrapperContained.getSourceX(); }
 public int getSourceGroundY() { return wrapperContained.getSourceGroundY(); }

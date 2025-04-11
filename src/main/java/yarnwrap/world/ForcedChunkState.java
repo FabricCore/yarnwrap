@@ -7,6 +7,7 @@ public java.lang.String CHUNKS_KEY() { return wrapperContained.CHUNKS_KEY; }
 // public void FORCED_KEY(java.lang.String value) { wrapperContained.FORCED_KEY = value; }
 // public it.unimi.dsi.fastutil.longs.LongSet chunks() { return wrapperContained.chunks; }
 // public void chunks(it.unimi.dsi.fastutil.longs.LongSet value) { wrapperContained.chunks = value; }
+// public ForcedChunkState(it.unimi.dsi.fastutil.longs.LongSet chunks) { this.wrapperContained = new net.minecraft.world.ForcedChunkState(chunks); }
 // public yarnwrap.world.ForcedChunkState fromNbt(yarnwrap.nbt.NbtCompound nbt,Object registryLookup) { return new yarnwrap.world.ForcedChunkState(wrapperContained.fromNbt(nbt.wrapperContained,registryLookup)); }
 public Object getPersistentStateType() { return wrapperContained.getPersistentStateType(); }
 public it.unimi.dsi.fastutil.longs.LongSet getChunks() { return wrapperContained.getChunks(); }

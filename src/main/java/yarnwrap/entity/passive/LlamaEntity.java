@@ -17,6 +17,7 @@ public class LlamaEntity { public net.minecraft.entity.passive.LlamaEntity wrapp
 // public void following(yarnwrap.entity.passive.LlamaEntity value) { wrapperContained.following = value.wrapperContained; }
 // public yarnwrap.entity.passive.LlamaEntity createChild() { return new yarnwrap.entity.passive.LlamaEntity(wrapperContained.createChild()); }
 public Object createLlamaAttributes() { return wrapperContained.createLlamaAttributes(); }
+// public boolean method_58393(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58393(stack.wrapperContained); }
 public void follow(yarnwrap.entity.passive.LlamaEntity llama) { wrapperContained.follow(llama.wrapperContained); }
 // public void spitAt(yarnwrap.entity.LivingEntity target) { wrapperContained.spitAt(target.wrapperContained); }
 public boolean hasFollower() { return wrapperContained.hasFollower(); }

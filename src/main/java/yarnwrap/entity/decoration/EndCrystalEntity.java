@@ -7,6 +7,7 @@ public int endCrystalAge() { return wrapperContained.endCrystalAge; }
 public void endCrystalAge(int value) { wrapperContained.endCrystalAge = value; }
 // public yarnwrap.entity.data.TrackedData SHOW_BOTTOM() { return new yarnwrap.entity.data.TrackedData(wrapperContained.SHOW_BOTTOM); }
 // public void SHOW_BOTTOM(yarnwrap.entity.data.TrackedData value) { wrapperContained.SHOW_BOTTOM = value.wrapperContained; }
+public EndCrystalEntity(yarnwrap.world.World world,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.decoration.EndCrystalEntity(world.wrapperContained,x,y,z); }
 // public void crystalDestroyed(yarnwrap.entity.damage.DamageSource source) { wrapperContained.crystalDestroyed(source.wrapperContained); }
 public boolean shouldShowBottom() { return wrapperContained.shouldShowBottom(); }
 public void setBeamTarget(yarnwrap.util.math.BlockPos beamTarget) { wrapperContained.setBeamTarget(beamTarget.wrapperContained); }

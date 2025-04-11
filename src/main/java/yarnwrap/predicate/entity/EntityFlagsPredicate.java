@@ -6,6 +6,7 @@ public class EntityFlagsPredicate { public net.minecraft.predicate.entity.Entity
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 // public java.util.Optional isSneaking() { return wrapperContained.isSneaking(); }
+// public com.mojang.datafixers.kinds.App method_53131(Object instance) { return wrapperContained.method_53131(instance); }
 public boolean test(yarnwrap.entity.Entity entity) { return wrapperContained.test(entity.wrapperContained); }
 
 }

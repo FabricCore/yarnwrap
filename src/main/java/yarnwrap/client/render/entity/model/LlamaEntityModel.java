@@ -17,6 +17,7 @@ public class LlamaEntityModel { public net.minecraft.client.render.entity.model.
 // public void rightChest(yarnwrap.client.model.ModelPart value) { wrapperContained.rightChest = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart leftChest() { return new yarnwrap.client.model.ModelPart(wrapperContained.leftChest); }
 // public void leftChest(yarnwrap.client.model.ModelPart value) { wrapperContained.leftChest = value.wrapperContained; }
+public LlamaEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.LlamaEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData(yarnwrap.client.model.Dilation dilation) { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData(dilation.wrapperContained)); }
 
 }

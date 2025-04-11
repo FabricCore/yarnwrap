@@ -11,5 +11,8 @@ public yarnwrap.data.client.VariantSetting UVLOCK() { return new yarnwrap.data.c
 // public void UVLOCK(yarnwrap.data.client.VariantSetting value) { wrapperContained.UVLOCK = value.wrapperContained; }
 public yarnwrap.data.client.VariantSetting WEIGHT() { return new yarnwrap.data.client.VariantSetting(wrapperContained.WEIGHT); }
 // public void WEIGHT(yarnwrap.data.client.VariantSetting value) { wrapperContained.WEIGHT = value.wrapperContained; }
+// public com.google.gson.JsonElement method_25831(Object rotation) { return wrapperContained.method_25831(rotation); }
+// public com.google.gson.JsonElement method_25832(yarnwrap.util.Identifier id) { return wrapperContained.method_25832(id.wrapperContained); }
+// public com.google.gson.JsonElement method_25833(Object rotation) { return wrapperContained.method_25833(rotation); }
 
 }

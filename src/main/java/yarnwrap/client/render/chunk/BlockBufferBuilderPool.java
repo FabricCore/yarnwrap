@@ -7,6 +7,7 @@ public class BlockBufferBuilderPool { public net.minecraft.client.render.chunk.B
 // public void availableBuilders(java.util.Queue value) { wrapperContained.availableBuilders = value; }
 // public int availableBuilderCount() { return wrapperContained.availableBuilderCount; }
 // public void availableBuilderCount(int value) { wrapperContained.availableBuilderCount = value; }
+// public BlockBufferBuilderPool(java.util.List availableBuilders) { this.wrapperContained = new net.minecraft.client.render.chunk.BlockBufferBuilderPool(availableBuilders); }
 public yarnwrap.client.render.chunk.BlockBufferAllocatorStorage acquire() { return new yarnwrap.client.render.chunk.BlockBufferAllocatorStorage(wrapperContained.acquire()); }
 public yarnwrap.client.render.chunk.BlockBufferBuilderPool allocate(int max) { return new yarnwrap.client.render.chunk.BlockBufferBuilderPool(wrapperContained.allocate(max)); }
 public void release(yarnwrap.client.render.chunk.BlockBufferAllocatorStorage builders) { wrapperContained.release(builders.wrapperContained); }

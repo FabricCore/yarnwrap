@@ -19,11 +19,14 @@ public class AbstractCommandBlockScreen { public net.minecraft.client.gui.screen
 // public void toggleTrackingOutputButton(yarnwrap.client.gui.widget.CyclingButtonWidget value) { wrapperContained.toggleTrackingOutputButton = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.ButtonWidget doneButton() { return new yarnwrap.client.gui.widget.ButtonWidget(wrapperContained.doneButton); }
 // public void doneButton(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.doneButton = value.wrapperContained; }
+// public void method_19875(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19875(button.wrapperContained); }
+// public void method_19876(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19876(button.wrapperContained); }
 // public yarnwrap.world.CommandBlockExecutor getCommandExecutor() { return new yarnwrap.world.CommandBlockExecutor(wrapperContained.getCommandExecutor()); }
 // public void syncSettingsToServer(yarnwrap.world.CommandBlockExecutor commandExecutor) { wrapperContained.syncSettingsToServer(commandExecutor.wrapperContained); }
 // public void commitAndClose() { wrapperContained.commitAndClose(); }
 // public void onCommandChanged(java.lang.String text) { wrapperContained.onCommandChanged(text); }
 // public int getTrackOutputButtonHeight() { return wrapperContained.getTrackOutputButtonHeight(); }
+// public void method_32641(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean trackOutput) { wrapperContained.method_32641(button.wrapperContained,trackOutput); }
 // public void setPreviousOutputText(boolean trackOutput) { wrapperContained.setPreviousOutputText(trackOutput); }
 
 }

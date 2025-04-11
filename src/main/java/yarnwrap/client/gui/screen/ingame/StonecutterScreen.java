@@ -39,6 +39,7 @@ public class StonecutterScreen { public net.minecraft.client.gui.screen.ingame.S
 // public void SCROLLER_DISABLED_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SCROLLER_DISABLED_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier RECIPE_SELECTED_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.RECIPE_SELECTED_TEXTURE); }
 // public void RECIPE_SELECTED_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.RECIPE_SELECTED_TEXTURE = value.wrapperContained; }
+public StonecutterScreen(yarnwrap.screen.StonecutterScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.StonecutterScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 // public void renderRecipeIcons(yarnwrap.client.gui.DrawContext context,int x,int y,int scrollOffset) { wrapperContained.renderRecipeIcons(context.wrapperContained,x,y,scrollOffset); }
 // public void renderRecipeBackground(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,int x,int y,int scrollOffset) { wrapperContained.renderRecipeBackground(context.wrapperContained,mouseX,mouseY,x,y,scrollOffset); }
 // public int getMaxScroll() { return wrapperContained.getMaxScroll(); }

@@ -33,5 +33,22 @@ public yarnwrap.util.function.BooleanBiFunction NOT_SECOND() { return new yarnwr
 // public void NOT_SECOND(yarnwrap.util.function.BooleanBiFunction value) { wrapperContained.NOT_SECOND = value.wrapperContained; }
 public yarnwrap.util.function.BooleanBiFunction CAUSED_BY() { return new yarnwrap.util.function.BooleanBiFunction(wrapperContained.CAUSED_BY); }
 // public void CAUSED_BY(yarnwrap.util.function.BooleanBiFunction value) { wrapperContained.CAUSED_BY = value.wrapperContained; }
+public boolean apply(boolean a,boolean b) { return wrapperContained.apply(a,b); }
+// public boolean method_16781(boolean a,boolean b) { return wrapperContained.method_16781(a,b); }
+// public boolean method_16782(boolean a,boolean b) { return wrapperContained.method_16782(a,b); }
+// public boolean method_16783(boolean a,boolean b) { return wrapperContained.method_16783(a,b); }
+// public boolean method_16784(boolean a,boolean b) { return wrapperContained.method_16784(a,b); }
+// public boolean method_16785(boolean a,boolean b) { return wrapperContained.method_16785(a,b); }
+// public boolean method_16786(boolean a,boolean b) { return wrapperContained.method_16786(a,b); }
+// public boolean method_16787(boolean a,boolean b) { return wrapperContained.method_16787(a,b); }
+// public boolean method_16788(boolean a,boolean b) { return wrapperContained.method_16788(a,b); }
+// public boolean method_16789(boolean a,boolean b) { return wrapperContained.method_16789(a,b); }
+// public boolean method_16790(boolean a,boolean b) { return wrapperContained.method_16790(a,b); }
+// public boolean method_16791(boolean a,boolean b) { return wrapperContained.method_16791(a,b); }
+// public boolean method_16792(boolean a,boolean b) { return wrapperContained.method_16792(a,b); }
+// public boolean method_16793(boolean a,boolean b) { return wrapperContained.method_16793(a,b); }
+// public boolean method_16794(boolean a,boolean b) { return wrapperContained.method_16794(a,b); }
+// public boolean method_16795(boolean a,boolean b) { return wrapperContained.method_16795(a,b); }
+// public boolean method_16796(boolean a,boolean b) { return wrapperContained.method_16796(a,b); }
 
 }

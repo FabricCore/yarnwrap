@@ -27,6 +27,7 @@ public class Team { public net.minecraft.scoreboard.Team wrapperContained; publi
 // // public void collisionRule(Object value) { wrapperContained.collisionRule = value; }
 // public yarnwrap.text.Style nameStyle() { return new yarnwrap.text.Style(wrapperContained.nameStyle); }
 // public void nameStyle(yarnwrap.text.Style value) { wrapperContained.nameStyle = value.wrapperContained; }
+public Team(yarnwrap.scoreboard.Scoreboard scoreboard,java.lang.String name) { this.wrapperContained = new net.minecraft.scoreboard.Team(scoreboard.wrapperContained,name); }
 // public void setDeathMessageVisibilityRule(Object deathMessageVisibilityRule) { wrapperContained.setDeathMessageVisibilityRule(deathMessageVisibilityRule); }
 public void setFriendlyFireAllowed(boolean friendlyFire) { wrapperContained.setFriendlyFireAllowed(friendlyFire); }
 public yarnwrap.text.Text getSuffix() { return new yarnwrap.text.Text(wrapperContained.getSuffix()); }

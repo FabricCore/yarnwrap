@@ -11,6 +11,11 @@ public com.mojang.serialization.MapCodec BIASED_TO_BOTTOM_CODEC() { return wrapp
 // public void maxOffset(yarnwrap.world.gen.YOffset value) { wrapperContained.maxOffset = value.wrapperContained; }
 // public int inner() { return wrapperContained.inner; }
 // public void inner(int value) { wrapperContained.inner = value; }
+// public BiasedToBottomHeightProvider(yarnwrap.world.gen.YOffset minOffset,yarnwrap.world.gen.YOffset maxOffset,int inner) { this.wrapperContained = new net.minecraft.world.gen.heightprovider.BiasedToBottomHeightProvider(minOffset.wrapperContained,maxOffset.wrapperContained,inner); }
+// public com.mojang.datafixers.kinds.App method_35376(Object instance) { return wrapperContained.method_35376(instance); }
 public yarnwrap.world.gen.heightprovider.BiasedToBottomHeightProvider create(yarnwrap.world.gen.YOffset minOffset,yarnwrap.world.gen.YOffset maxOffset,int inner) { return new yarnwrap.world.gen.heightprovider.BiasedToBottomHeightProvider(wrapperContained.create(minOffset.wrapperContained,maxOffset.wrapperContained,inner)); }
+// public java.lang.Integer method_35378(yarnwrap.world.gen.heightprovider.BiasedToBottomHeightProvider provider) { return wrapperContained.method_35378(provider.wrapperContained); }
+// public yarnwrap.world.gen.YOffset method_35379(yarnwrap.world.gen.heightprovider.BiasedToBottomHeightProvider provider) { return new yarnwrap.world.gen.YOffset(wrapperContained.method_35379(provider.wrapperContained)); }
+// public yarnwrap.world.gen.YOffset method_35380(yarnwrap.world.gen.heightprovider.BiasedToBottomHeightProvider provider) { return new yarnwrap.world.gen.YOffset(wrapperContained.method_35380(provider.wrapperContained)); }
 
 }

@@ -21,6 +21,7 @@ public class SerializingRegionBasedStorage { public net.minecraft.world.storage.
 // public void storageAccess(yarnwrap.world.storage.ChunkPosKeyedStorage value) { wrapperContained.storageAccess = value.wrapperContained; }
 // public yarnwrap.server.world.ChunkErrorHandler errorHandler() { return new yarnwrap.server.world.ChunkErrorHandler(wrapperContained.errorHandler); }
 // public void errorHandler(yarnwrap.server.world.ChunkErrorHandler value) { wrapperContained.errorHandler = value.wrapperContained; }
+public SerializingRegionBasedStorage(yarnwrap.world.storage.ChunkPosKeyedStorage storageAccess,java.util.function.Function codecFactory,java.util.function.Function factory,yarnwrap.registry.DynamicRegistryManager registryManager,yarnwrap.server.world.ChunkErrorHandler errorHandler,yarnwrap.world.HeightLimitView world) { this.wrapperContained = new net.minecraft.world.storage.SerializingRegionBasedStorage(storageAccess.wrapperContained,codecFactory,factory,registryManager.wrapperContained,errorHandler.wrapperContained,world.wrapperContained); }
 // public void onUpdate(long pos) { wrapperContained.onUpdate(pos); }
 // public void loadDataAt(yarnwrap.util.math.ChunkPos pos) { wrapperContained.loadDataAt(pos.wrapperContained); }
 // public void tick(java.util.function.BooleanSupplier shouldKeepTicking) { wrapperContained.tick(shouldKeepTicking); }
@@ -29,13 +30,18 @@ public class SerializingRegionBasedStorage { public net.minecraft.world.storage.
 // public java.util.Optional getIfLoaded(long pos) { return wrapperContained.getIfLoaded(pos); }
 // public java.util.Optional get(long pos) { return wrapperContained.get(pos); }
 // public java.lang.Object getOrCreate(long pos) { return wrapperContained.getOrCreate(pos); }
+// public void method_20366(long sections) { wrapperContained.method_20366(sections); }
 // public com.mojang.serialization.Dynamic serialize(yarnwrap.util.math.ChunkPos chunkPos,com.mojang.serialization.DynamicOps ops) { return wrapperContained.serialize(chunkPos.wrapperContained,ops); }
 // public void update(yarnwrap.util.math.ChunkPos pos,yarnwrap.registry.RegistryOps ops,yarnwrap.nbt.NbtCompound nbt) { wrapperContained.update(pos.wrapperContained,ops.wrapperContained,nbt.wrapperContained); }
 // public int getDataVersion(com.mojang.serialization.Dynamic dynamic) { return wrapperContained.getDataVersion(dynamic); }
 // public void save(yarnwrap.util.math.ChunkPos pos) { wrapperContained.save(pos.wrapperContained); }
 public void saveChunk(yarnwrap.util.math.ChunkPos pos) { wrapperContained.saveChunk(pos.wrapperContained); }
 // public java.util.concurrent.CompletableFuture loadNbt(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.loadNbt(pos.wrapperContained); }
+// public java.util.Optional method_28511(long dynamic) { return wrapperContained.method_28511(dynamic); }
+// public void method_28512(java.util.Map object) { wrapperContained.method_28512(object); }
 // public long chunkSectionPosAsLong(yarnwrap.util.math.ChunkPos chunkPos,int y) { return wrapperContained.chunkSectionPosAsLong(chunkPos.wrapperContained,y); }
 public boolean hasUnsavedElements() { return wrapperContained.hasUnsavedElements(); }
+// public java.util.Optional method_43412(yarnwrap.util.math.ChunkPos throwable) { return wrapperContained.method_43412(throwable.wrapperContained); }
+// public java.lang.Void method_61006(yarnwrap.util.math.ChunkPos throwable) { return wrapperContained.method_61006(throwable.wrapperContained); }
 
 }

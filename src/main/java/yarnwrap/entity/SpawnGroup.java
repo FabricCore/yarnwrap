@@ -15,6 +15,7 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void peaceful(boolean value) { wrapperContained.peaceful = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// // public SpawnGroup(java.lang.String name,int spawnCap,java.lang.String peaceful,int rare,boolean immediateDespawnRange) { this.wrapperContained = new net.minecraft.entity.SpawnGroup(name,spawnCap,peaceful,rare,immediateDespawnRange); }
 public int getImmediateDespawnRange() { return wrapperContained.getImmediateDespawnRange(); }
 public int getDespawnStartRange() { return wrapperContained.getDespawnStartRange(); }
 public java.lang.String getName() { return wrapperContained.getName(); }

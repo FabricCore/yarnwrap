@@ -9,6 +9,8 @@ public Object create(yarnwrap.state.property.Property first,yarnwrap.state.prope
 public Object create(yarnwrap.state.property.Property first,yarnwrap.state.property.Property second,yarnwrap.state.property.Property third) { return wrapperContained.create(first.wrapperContained,second.wrapperContained,third.wrapperContained); }
 public Object create(yarnwrap.state.property.Property first,yarnwrap.state.property.Property second,yarnwrap.state.property.Property third,yarnwrap.state.property.Property fourth) { return wrapperContained.create(first.wrapperContained,second.wrapperContained,third.wrapperContained,fourth.wrapperContained); }
 public Object create(yarnwrap.state.property.Property first,yarnwrap.state.property.Property second,yarnwrap.state.property.Property third,yarnwrap.state.property.Property fourth,yarnwrap.state.property.Property fifth) { return wrapperContained.create(first.wrapperContained,second.wrapperContained,third.wrapperContained,fourth.wrapperContained,fifth.wrapperContained); }
+// public java.util.stream.Stream method_25788(yarnwrap.state.property.Property propertiesMap) { return wrapperContained.method_25788(propertiesMap.wrapperContained); }
+// public boolean method_25789(yarnwrap.data.client.PropertiesMap propertiesMap) { return wrapperContained.method_25789(propertiesMap.wrapperContained); }
 // public void register(yarnwrap.data.client.PropertiesMap condition,java.util.List possibleVariants) { wrapperContained.register(condition.wrapperContained,possibleVariants); }
 // public java.util.List getProperties() { return wrapperContained.getProperties(); }
 // public void checkAllPropertyDefinitions() { wrapperContained.checkAllPropertyDefinitions(); }

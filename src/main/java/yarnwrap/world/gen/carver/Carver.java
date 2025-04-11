@@ -15,6 +15,7 @@ public yarnwrap.world.gen.carver.Carver RAVINE() { return new yarnwrap.world.gen
 // public void WATER(yarnwrap.fluid.FluidState value) { wrapperContained.WATER = value.wrapperContained; }
 // public com.mojang.serialization.MapCodec codec() { return wrapperContained.codec; }
 // public void codec(com.mojang.serialization.MapCodec value) { wrapperContained.codec = value; }
+// public Carver(com.mojang.serialization.Codec configCodec) { this.wrapperContained = new net.minecraft.world.gen.carver.Carver(configCodec); }
 public boolean carve(yarnwrap.world.gen.carver.CarverContext context,yarnwrap.world.gen.carver.CarverConfig config,yarnwrap.world.chunk.Chunk chunk,java.util.function.Function posToBiome,yarnwrap.util.math.random.Random random,yarnwrap.world.gen.chunk.AquiferSampler aquiferSampler,yarnwrap.util.math.ChunkPos pos,yarnwrap.world.gen.carver.CarvingMask mask) { return wrapperContained.carve(context.wrapperContained,config.wrapperContained,chunk.wrapperContained,posToBiome,random.wrapperContained,aquiferSampler.wrapperContained,pos.wrapperContained,mask.wrapperContained); }
 // public yarnwrap.world.gen.carver.Carver register(java.lang.String name,yarnwrap.world.gen.carver.Carver carver) { return new yarnwrap.world.gen.carver.Carver(wrapperContained.register(name,carver.wrapperContained)); }
 public boolean shouldCarve(yarnwrap.world.gen.carver.CarverConfig config,yarnwrap.util.math.random.Random random) { return wrapperContained.shouldCarve(config.wrapperContained,random.wrapperContained); }
@@ -28,5 +29,6 @@ public com.mojang.serialization.MapCodec getCodec() { return wrapperContained.ge
 // public boolean isDebug(yarnwrap.world.gen.carver.CarverConfig config) { return wrapperContained.isDebug(config.wrapperContained); }
 // public yarnwrap.block.BlockState getDebugState(yarnwrap.world.gen.carver.CarverConfig config,yarnwrap.block.BlockState state) { return new yarnwrap.block.BlockState(wrapperContained.getDebugState(config.wrapperContained,state.wrapperContained)); }
 // public yarnwrap.block.BlockState getState(yarnwrap.world.gen.carver.CarverContext context,yarnwrap.world.gen.carver.CarverConfig config,yarnwrap.util.math.BlockPos pos,yarnwrap.world.gen.chunk.AquiferSampler sampler) { return new yarnwrap.block.BlockState(wrapperContained.getState(context.wrapperContained,config.wrapperContained,pos.wrapperContained,sampler.wrapperContained)); }
+// public void method_39116(yarnwrap.world.chunk.Chunk state) { wrapperContained.method_39116(state.wrapperContained); }
 
 }

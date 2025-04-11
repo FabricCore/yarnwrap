@@ -5,5 +5,6 @@ public class GiantEntityRenderer { public net.minecraft.client.render.entity.Gia
 // public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
 // public float scale() { return wrapperContained.scale; }
 // public void scale(float value) { wrapperContained.scale = value; }
+// public GiantEntityRenderer(Object ctx,float scale) { this.wrapperContained = new net.minecraft.client.render.entity.GiantEntityRenderer(ctx,scale); }
 
 }

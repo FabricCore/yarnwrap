@@ -11,6 +11,7 @@ public int TICKS_PER_SECOND() { return wrapperContained.TICKS_PER_SECOND; }
 // public void pos(yarnwrap.util.math.BlockPos value) { wrapperContained.pos = value.wrapperContained; }
 // public Object changeNotifier() { return wrapperContained.changeNotifier; }
 // // public void changeNotifier(Object value) { wrapperContained.changeNotifier = value; }
+// public JukeboxManager(Object changeNotifier,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.block.jukebox.JukeboxManager(changeNotifier,pos.wrapperContained); }
 public boolean isPlaying() { return wrapperContained.isPlaying(); }
 public void stopPlaying(yarnwrap.world.WorldAccess world,yarnwrap.block.BlockState state) { wrapperContained.stopPlaying(world.wrapperContained,state.wrapperContained); }
 // public void spawnNoteParticles(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { wrapperContained.spawnNoteParticles(world.wrapperContained,pos.wrapperContained); }

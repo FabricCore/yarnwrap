@@ -7,10 +7,14 @@ public class SimpleInventory { public net.minecraft.inventory.SimpleInventory wr
 // public void listeners(java.util.List value) { wrapperContained.listeners = value; }
 // public int size() { return wrapperContained.size; }
 // public void size(int value) { wrapperContained.size = value; }
+public SimpleInventory(int size) { this.wrapperContained = new net.minecraft.inventory.SimpleInventory(size); }
+public SimpleInventory(net.minecraft.item.ItemStack[] items) { this.wrapperContained = new net.minecraft.inventory.SimpleInventory(items); }
 public yarnwrap.item.ItemStack removeItem(yarnwrap.item.Item item,int count) { return new yarnwrap.item.ItemStack(wrapperContained.removeItem(item.wrapperContained,count)); }
 // public void transfer(yarnwrap.item.ItemStack source,yarnwrap.item.ItemStack target) { wrapperContained.transfer(source.wrapperContained,target.wrapperContained); }
 // public void addToNewSlot(yarnwrap.item.ItemStack stack) { wrapperContained.addToNewSlot(stack.wrapperContained); }
 // public void addToExistingSlot(yarnwrap.item.ItemStack stack) { wrapperContained.addToExistingSlot(stack.wrapperContained); }
+// public boolean method_20635(yarnwrap.item.ItemStack stack) { return wrapperContained.method_20635(stack.wrapperContained); }
+// public boolean method_24513(yarnwrap.item.ItemStack stack) { return wrapperContained.method_24513(stack.wrapperContained); }
 public java.util.List clearToList() { return wrapperContained.clearToList(); }
 public boolean canInsert(yarnwrap.item.ItemStack stack) { return wrapperContained.canInsert(stack.wrapperContained); }
 public yarnwrap.util.collection.DefaultedList getHeldStacks() { return new yarnwrap.util.collection.DefaultedList(wrapperContained.getHeldStacks()); }

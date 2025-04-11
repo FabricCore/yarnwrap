@@ -17,6 +17,9 @@ public class NativeImage { public net.minecraft.client.texture.NativeImage wrapp
 // public void width(int value) { wrapperContained.width = value; }
 // public java.util.Set WRITE_TO_FILE_OPEN_OPTIONS() { return wrapperContained.WRITE_TO_FILE_OPEN_OPTIONS; }
 // public void WRITE_TO_FILE_OPEN_OPTIONS(java.util.Set value) { wrapperContained.WRITE_TO_FILE_OPEN_OPTIONS = value; }
+public NativeImage(int width,int height,boolean useStb) { this.wrapperContained = new net.minecraft.client.texture.NativeImage(width,height,useStb); }
+// public NativeImage(Object format,int width,int height,boolean useStb) { this.wrapperContained = new net.minecraft.client.texture.NativeImage(format,width,height,useStb); }
+// public NativeImage(Object format,int width,int height,boolean useStb,long pointer) { this.wrapperContained = new net.minecraft.client.texture.NativeImage(format,width,height,useStb,pointer); }
 public void upload(int level,int offsetX,int offsetY,int unpackSkipPixels,int unpackSkipRows,int width,int height,boolean blur,boolean clamp,boolean mipmap,boolean close) { wrapperContained.upload(level,offsetX,offsetY,unpackSkipPixels,unpackSkipRows,width,height,blur,clamp,mipmap,close); }
 // public boolean write(java.nio.channels.WritableByteChannel channel) { return wrapperContained.write(channel); }
 // public byte[] getBytes() { return wrapperContained.getBytes(); }

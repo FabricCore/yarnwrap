@@ -5,6 +5,8 @@ public class Pool { public net.minecraft.util.collection.Pool wrapperContained; 
 // public void totalWeight(int value) { wrapperContained.totalWeight = value; }
 // public com.google.common.collect.ImmutableList entries() { return wrapperContained.entries; }
 // public void entries(com.google.common.collect.ImmutableList value) { wrapperContained.entries = value; }
+// public Pool(java.util.List entries) { this.wrapperContained = new net.minecraft.util.collection.Pool(entries); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.collection.Pool of(java.util.List entries) { return new yarnwrap.util.collection.Pool(wrapperContained.of(entries)); }
 public yarnwrap.util.collection.Pool of(net.minecraft.util.collection.Weighted[] entries) { return new yarnwrap.util.collection.Pool(wrapperContained.of(entries)); }
 public yarnwrap.util.collection.Pool empty() { return new yarnwrap.util.collection.Pool(wrapperContained.empty()); }

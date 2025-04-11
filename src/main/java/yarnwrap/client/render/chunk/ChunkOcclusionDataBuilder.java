@@ -16,6 +16,7 @@ public class ChunkOcclusionDataBuilder { public net.minecraft.client.render.chun
 // public net.minecraft.util.math.Direction[] DIRECTIONS() { return wrapperContained.DIRECTIONS; }
 // public void DIRECTIONS(net.minecraft.util.math.Direction[] value) { wrapperContained.DIRECTIONS = value; }
 public yarnwrap.client.render.chunk.ChunkOcclusionData build() { return new yarnwrap.client.render.chunk.ChunkOcclusionData(wrapperContained.build()); }
+// public void method_3680(int edgePoints) { wrapperContained.method_3680(edgePoints); }
 // public int pack(int x,int y,int z) { return wrapperContained.pack(x,y,z); }
 public void markClosed(yarnwrap.util.math.BlockPos pos) { wrapperContained.markClosed(pos.wrapperContained); }
 // public int pack(yarnwrap.util.math.BlockPos pos) { return wrapperContained.pack(pos.wrapperContained); }

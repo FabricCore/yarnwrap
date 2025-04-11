@@ -7,5 +7,6 @@ public class TrackIronGolemTargetGoal { public net.minecraft.entity.ai.goal.Trac
 // public void golem(yarnwrap.entity.passive.IronGolemEntity value) { wrapperContained.golem = value.wrapperContained; }
 // public yarnwrap.entity.LivingEntity target() { return new yarnwrap.entity.LivingEntity(wrapperContained.target); }
 // public void target(yarnwrap.entity.LivingEntity value) { wrapperContained.target = value.wrapperContained; }
+public TrackIronGolemTargetGoal(yarnwrap.entity.passive.IronGolemEntity golem) { this.wrapperContained = new net.minecraft.entity.ai.goal.TrackIronGolemTargetGoal(golem.wrapperContained); }
 
 }

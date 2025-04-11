@@ -19,6 +19,7 @@ public class GlyphRenderer { public net.minecraft.client.font.GlyphRenderer wrap
 // public void maxX(float value) { wrapperContained.maxX = value; }
 // public yarnwrap.client.font.TextRenderLayerSet textRenderLayers() { return new yarnwrap.client.font.TextRenderLayerSet(wrapperContained.textRenderLayers); }
 // public void textRenderLayers(yarnwrap.client.font.TextRenderLayerSet value) { wrapperContained.textRenderLayers = value.wrapperContained; }
+public GlyphRenderer(yarnwrap.client.font.TextRenderLayerSet textRenderLayers,float minU,float maxU,float minV,float maxV,float minX,float maxX,float minY,float maxY) { this.wrapperContained = new net.minecraft.client.font.GlyphRenderer(textRenderLayers.wrapperContained,minU,maxU,minV,maxV,minX,maxX,minY,maxY); }
 public void draw(boolean italic,float x,float y,org.joml.Matrix4f matrix,yarnwrap.client.render.VertexConsumer vertexConsumer,float red,float green,float blue,float alpha,int light) { wrapperContained.draw(italic,x,y,matrix,vertexConsumer.wrapperContained,red,green,blue,alpha,light); }
 // public void drawRectangle(Object rectangle,org.joml.Matrix4f matrix,yarnwrap.client.render.VertexConsumer vertexConsumer,int light) { wrapperContained.drawRectangle(rectangle,matrix,vertexConsumer.wrapperContained,light); }
 // public yarnwrap.client.render.RenderLayer getLayer(Object layerType) { return new yarnwrap.client.render.RenderLayer(wrapperContained.getLayer(layerType)); }

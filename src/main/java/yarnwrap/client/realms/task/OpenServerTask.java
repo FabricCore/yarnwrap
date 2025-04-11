@@ -13,5 +13,6 @@ public class OpenServerTask { public net.minecraft.client.realms.task.OpenServer
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(wrapperContained.TITLE); }
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
+public OpenServerTask(yarnwrap.client.realms.dto.RealmsServer realmsServer,yarnwrap.client.gui.screen.Screen returnScreen,boolean join,yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.realms.task.OpenServerTask(realmsServer.wrapperContained,returnScreen.wrapperContained,join,client.wrapperContained); }
 
 }

@@ -15,6 +15,8 @@ public class BossBarS2CPacket { public net.minecraft.network.packet.s2c.play.Bos
 // public void THICKEN_FOG_MASK(int value) { wrapperContained.THICKEN_FOG_MASK = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public BossBarS2CPacket(java.util.UUID uuid,Object action) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.BossBarS2CPacket(uuid,action); }
+// public BossBarS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.BossBarS2CPacket(buf.wrapperContained); }
 public yarnwrap.network.packet.s2c.play.BossBarS2CPacket add(yarnwrap.entity.boss.BossBar bar) { return new yarnwrap.network.packet.s2c.play.BossBarS2CPacket(wrapperContained.add(bar.wrapperContained)); }
 public yarnwrap.network.packet.s2c.play.BossBarS2CPacket remove(java.util.UUID uuid) { return new yarnwrap.network.packet.s2c.play.BossBarS2CPacket(wrapperContained.remove(uuid)); }
 // public void accept(Object consumer) { wrapperContained.accept(consumer); }

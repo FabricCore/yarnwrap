@@ -7,6 +7,7 @@ public com.mojang.serialization.MapCodec CONSTANT_CODEC() { return wrapperContai
 // public void CONSTANT_CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CONSTANT_CODEC = value; }
 // public yarnwrap.world.gen.YOffset offset() { return new yarnwrap.world.gen.YOffset(wrapperContained.offset); }
 // public void offset(yarnwrap.world.gen.YOffset value) { wrapperContained.offset = value.wrapperContained; }
+// public ConstantHeightProvider(yarnwrap.world.gen.YOffset offset) { this.wrapperContained = new net.minecraft.world.gen.heightprovider.ConstantHeightProvider(offset.wrapperContained); }
 public yarnwrap.world.gen.heightprovider.ConstantHeightProvider create(yarnwrap.world.gen.YOffset offset) { return new yarnwrap.world.gen.heightprovider.ConstantHeightProvider(wrapperContained.create(offset.wrapperContained)); }
 public yarnwrap.world.gen.YOffset getOffset() { return new yarnwrap.world.gen.YOffset(wrapperContained.getOffset()); }
 

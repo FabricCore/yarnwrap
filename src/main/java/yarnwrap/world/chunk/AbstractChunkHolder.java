@@ -21,6 +21,7 @@ public java.util.concurrent.CompletableFuture UNLOADED_FUTURE() { return wrapper
 // public void chunkLoader(java.util.concurrent.atomic.AtomicReference value) { wrapperContained.chunkLoader = value; }
 // public java.util.concurrent.atomic.AtomicInteger refCount() { return wrapperContained.refCount; }
 // public void refCount(java.util.concurrent.atomic.AtomicInteger value) { wrapperContained.refCount = value; }
+// public AbstractChunkHolder(yarnwrap.util.math.ChunkPos pos) { this.wrapperContained = new net.minecraft.world.chunk.AbstractChunkHolder(pos.wrapperContained); }
 public int getLevel() { return wrapperContained.getLevel(); }
 public int getCompletedLevel() { return wrapperContained.getCompletedLevel(); }
 // public void unload(int statusIndex,java.util.concurrent.CompletableFuture previousFuture) { wrapperContained.unload(statusIndex,previousFuture); }
@@ -33,6 +34,7 @@ public java.util.concurrent.CompletableFuture load(yarnwrap.world.chunk.ChunkSta
 // public void completeChunkFuture(yarnwrap.world.chunk.ChunkStatus status,yarnwrap.world.chunk.Chunk chunk) { wrapperContained.completeChunkFuture(status.wrapperContained,chunk.wrapperContained); }
 // public void unload(yarnwrap.world.chunk.ChunkStatus from,yarnwrap.world.chunk.ChunkStatus to) { wrapperContained.unload(from.wrapperContained,to.wrapperContained); }
 // public java.util.concurrent.CompletableFuture generate(yarnwrap.world.chunk.ChunkGenerationStep step,yarnwrap.world.ChunkLoadingManager chunkLoadingManager,yarnwrap.util.collection.BoundedRegionArray chunks) { return wrapperContained.generate(step.wrapperContained,chunkLoadingManager.wrapperContained,chunks.wrapperContained); }
+// public yarnwrap.server.world.OptionalChunk method_60462(yarnwrap.world.chunk.ChunkGenerationStep chunk,yarnwrap.world.chunk.Chunk throwable) { return new yarnwrap.server.world.OptionalChunk(wrapperContained.method_60462(chunk.wrapperContained,throwable.wrapperContained)); }
 public yarnwrap.world.chunk.Chunk getOrNull(yarnwrap.world.chunk.ChunkStatus requestedStatus) { return new yarnwrap.world.chunk.Chunk(wrapperContained.getOrNull(requestedStatus.wrapperContained)); }
 // public java.util.concurrent.CompletableFuture getOrCreateFuture(yarnwrap.world.chunk.ChunkStatus status) { return wrapperContained.getOrCreateFuture(status.wrapperContained); }
 // public yarnwrap.world.chunk.ChunkStatus getMaxPendingStatus(yarnwrap.world.chunk.ChunkStatus checkUpperBound) { return new yarnwrap.world.chunk.ChunkStatus(wrapperContained.getMaxPendingStatus(checkUpperBound.wrapperContained)); }

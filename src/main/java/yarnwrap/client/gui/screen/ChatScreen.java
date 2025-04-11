@@ -17,6 +17,7 @@ public double SHIFT_SCROLL_AMOUNT() { return wrapperContained.SHIFT_SCROLL_AMOUN
 // public void USAGE_TEXT(yarnwrap.text.Text value) { wrapperContained.USAGE_TEXT = value.wrapperContained; }
 // public int MAX_INDICATOR_TOOLTIP_WIDTH() { return wrapperContained.MAX_INDICATOR_TOOLTIP_WIDTH; }
 // public void MAX_INDICATOR_TOOLTIP_WIDTH(int value) { wrapperContained.MAX_INDICATOR_TOOLTIP_WIDTH = value; }
+public ChatScreen(java.lang.String originalChatText) { this.wrapperContained = new net.minecraft.client.gui.screen.ChatScreen(originalChatText); }
 // public void setText(java.lang.String text) { wrapperContained.setText(text); }
 public void setChatFromHistory(int offset) { wrapperContained.setChatFromHistory(offset); }
 // public void onChatFieldUpdate(java.lang.String chatText) { wrapperContained.onChatFieldUpdate(chatText); }

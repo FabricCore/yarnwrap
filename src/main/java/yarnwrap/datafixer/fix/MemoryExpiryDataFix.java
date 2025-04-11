@@ -1,6 +1,7 @@
 package yarnwrap.datafixer.fix;
 public class MemoryExpiryDataFix { public net.minecraft.datafixer.fix.MemoryExpiryDataFix wrapperContained; public MemoryExpiryDataFix(net.minecraft.datafixer.fix.MemoryExpiryDataFix wrapperContained) { this.wrapperContained = wrapperContained; }
 
+public MemoryExpiryDataFix(com.mojang.datafixers.schemas.Schema outputSchema,java.lang.String choiceName) { this.wrapperContained = new net.minecraft.datafixer.fix.MemoryExpiryDataFix(outputSchema,choiceName); }
 public com.mojang.serialization.Dynamic updateBrain(com.mojang.serialization.Dynamic entityDynamic) { return wrapperContained.updateBrain(entityDynamic); }
 // public com.mojang.datafixers.util.Pair updateMemoryMapValues(com.mojang.datafixers.util.Pair memoryKv) { return wrapperContained.updateMemoryMapValues(memoryKv); }
 // public com.mojang.serialization.Dynamic updateMemories(com.mojang.serialization.Dynamic brainDynamic) { return wrapperContained.updateMemories(brainDynamic); }

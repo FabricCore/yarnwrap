@@ -3,5 +3,6 @@ public class WhiteAshParticle { public net.minecraft.client.particle.WhiteAshPar
 
 // public int COLOR() { return wrapperContained.COLOR; }
 // public void COLOR(int value) { wrapperContained.COLOR = value; }
+// public WhiteAshParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ,float scaleMultiplier,yarnwrap.client.particle.SpriteProvider spriteProvider) { this.wrapperContained = new net.minecraft.client.particle.WhiteAshParticle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ,scaleMultiplier,spriteProvider.wrapperContained); }
 
 }

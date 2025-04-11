@@ -21,10 +21,13 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void beesVariant(java.util.Optional value) { wrapperContained.beesVariant = value; }
 // public java.util.Optional rareBeesVariant() { return wrapperContained.rareBeesVariant; }
 // public void rareBeesVariant(java.util.Optional value) { wrapperContained.rareBeesVariant = value; }
+public SaplingGenerator(java.lang.String id,float rareChance,java.util.Optional megaVariant,java.util.Optional rareMegaVariant,java.util.Optional regularVariant,java.util.Optional rareRegularVariant,java.util.Optional beesVariant,java.util.Optional rareBeesVariant) { this.wrapperContained = new net.minecraft.block.SaplingGenerator(id,rareChance,megaVariant,rareMegaVariant,regularVariant,rareRegularVariant,beesVariant,rareBeesVariant); }
+public SaplingGenerator(java.lang.String id,java.util.Optional megaVariant,java.util.Optional regularVariant,java.util.Optional beesVariant) { this.wrapperContained = new net.minecraft.block.SaplingGenerator(id,megaVariant,regularVariant,beesVariant); }
 public boolean generate(yarnwrap.server.world.ServerWorld world,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.util.math.random.Random random) { return wrapperContained.generate(world.wrapperContained,chunkGenerator.wrapperContained,pos.wrapperContained,state.wrapperContained,random.wrapperContained); }
 // public yarnwrap.registry.RegistryKey getMegaTreeFeature(yarnwrap.util.math.random.Random random) { return new yarnwrap.registry.RegistryKey(wrapperContained.getMegaTreeFeature(random.wrapperContained)); }
 // public yarnwrap.registry.RegistryKey getSmallTreeFeature(yarnwrap.util.math.random.Random random,boolean flowersNearby) { return new yarnwrap.registry.RegistryKey(wrapperContained.getSmallTreeFeature(random.wrapperContained,flowersNearby)); }
 // public boolean areFlowersNearby(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.areFlowersNearby(world.wrapperContained,pos.wrapperContained); }
+// public java.lang.String method_54089(yarnwrap.block.SaplingGenerator generator) { return wrapperContained.method_54089(generator.wrapperContained); }
 // public boolean canGenerateLargeTree(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,int x,int z) { return wrapperContained.canGenerateLargeTree(state.wrapperContained,world.wrapperContained,pos.wrapperContained,x,z); }
 
 }

@@ -45,9 +45,21 @@ public java.util.List GAME_MODES() { return wrapperContained.GAME_MODES; }
 // public void defaultSlotName(java.lang.String value) { wrapperContained.defaultSlotName = value; }
 // public java.lang.String slotName() { return wrapperContained.slotName; }
 // public void slotName(java.lang.String value) { wrapperContained.slotName = value; }
+// public RealmsSlotOptionsScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen parent,yarnwrap.client.realms.dto.RealmsWorldOptions options,Object worldType,int activeSlot) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen(parent.wrapperContained,options.wrapperContained,worldType,activeSlot); }
 // public void saveSettings() { wrapperContained.saveSettings(); }
+// public void method_25255(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25255(button.wrapperContained); }
+// public void method_25256(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25256(button.wrapperContained); }
+// public void method_32495(yarnwrap.client.gui.widget.CyclingButtonWidget button,yarnwrap.client.gui.widget.CyclingButtonWidget difficulty) { wrapperContained.method_32495(button.wrapperContained,difficulty.wrapperContained); }
+// public void method_32496(yarnwrap.client.gui.widget.CyclingButtonWidget button,yarnwrap.world.GameMode gameModeIndex) { wrapperContained.method_32496(button.wrapperContained,gameModeIndex.wrapperContained); }
+// public void method_32497(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean commandBlocks) { wrapperContained.method_32497(button.wrapperContained,commandBlocks); }
 // public java.lang.Object get(java.util.List list,int index,int fallbackIndex) { return wrapperContained.get(list,index,fallbackIndex); }
 // public int indexOf(java.util.List list,java.lang.Object value,int fallbackIndex) { return wrapperContained.indexOf(list,value,fallbackIndex); }
+// public void method_32500(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean forceGameMode) { wrapperContained.method_32500(button.wrapperContained,forceGameMode); }
+// public void method_32502(java.lang.Boolean spawnNpcs) { wrapperContained.method_32502(spawnNpcs); }
+// public void method_32503(java.lang.Boolean spawnMonsters) { wrapperContained.method_32503(spawnMonsters); }
+// public void method_32504(java.lang.Boolean spawnAnimals) { wrapperContained.method_32504(spawnAnimals); }
+// public void method_32505(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean pvp) { wrapperContained.method_32505(button.wrapperContained,pvp); }
+// public void method_43754(java.util.function.Consumer button,yarnwrap.text.Text value) { wrapperContained.method_43754(button,value.wrapperContained); }
 // public Object getSpawnToggleButtonCallback(yarnwrap.text.Text text,java.util.function.Consumer valueSetter) { return wrapperContained.getSpawnToggleButtonCallback(text.wrapperContained,valueSetter); }
 // public void setSlotName(java.lang.String slotName) { wrapperContained.setSlotName(slotName); }
 

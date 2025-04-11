@@ -9,9 +9,11 @@ public class Orientation { public net.minecraft.block.enums.Orientation wrapperC
 // public void rotation(yarnwrap.util.math.Direction value) { wrapperContained.rotation = value.wrapperContained; }
 // public yarnwrap.util.math.Direction facing() { return new yarnwrap.util.math.Direction(wrapperContained.facing); }
 // public void facing(yarnwrap.util.math.Direction value) { wrapperContained.facing = value.wrapperContained; }
+// // public Orientation(java.lang.String name,int facing,java.lang.String rotation) { this.wrapperContained = new net.minecraft.block.enums.Orientation(name,facing,rotation); }
 public yarnwrap.block.enums.Orientation byDirections(yarnwrap.util.math.Direction facing,yarnwrap.util.math.Direction rotation) { return new yarnwrap.block.enums.Orientation(wrapperContained.byDirections(facing.wrapperContained,rotation.wrapperContained)); }
 public yarnwrap.util.math.Direction getFacing() { return new yarnwrap.util.math.Direction(wrapperContained.getFacing()); }
 // public int getIndex(yarnwrap.util.math.Direction facing,yarnwrap.util.math.Direction rotation) { return wrapperContained.getIndex(facing.wrapperContained,rotation.wrapperContained); }
 public yarnwrap.util.math.Direction getRotation() { return new yarnwrap.util.math.Direction(wrapperContained.getRotation()); }
+// public void method_35840(it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap map) { wrapperContained.method_35840(map); }
 
 }

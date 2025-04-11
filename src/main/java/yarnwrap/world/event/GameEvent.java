@@ -5,6 +5,7 @@ public int DEFAULT_RANGE() { return wrapperContained.DEFAULT_RANGE; }
 // public void DEFAULT_RANGE(int value) { wrapperContained.DEFAULT_RANGE = value; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public GameEvent(int range) { this.wrapperContained = new net.minecraft.world.event.GameEvent(range); }
 // public Object register(java.lang.String id) { return wrapperContained.register(id); }
 // public Object register(java.lang.String id,int range) { return wrapperContained.register(id,range); }
 public yarnwrap.registry.entry.RegistryEntry registerAndGetDefault(yarnwrap.registry.Registry registry) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.registerAndGetDefault(registry.wrapperContained)); }

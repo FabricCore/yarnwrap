@@ -3,5 +3,6 @@ public class CrafterInputSlot { public net.minecraft.screen.slot.CrafterInputSlo
 
 // public yarnwrap.screen.CrafterScreenHandler crafterScreenHandler() { return new yarnwrap.screen.CrafterScreenHandler(wrapperContained.crafterScreenHandler); }
 // public void crafterScreenHandler(yarnwrap.screen.CrafterScreenHandler value) { wrapperContained.crafterScreenHandler = value.wrapperContained; }
+public CrafterInputSlot(yarnwrap.inventory.Inventory inventory,int index,int x,int y,yarnwrap.screen.CrafterScreenHandler crafterScreenHandler) { this.wrapperContained = new net.minecraft.screen.slot.CrafterInputSlot(inventory.wrapperContained,index,x,y,crafterScreenHandler.wrapperContained); }
 
 }

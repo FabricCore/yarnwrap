@@ -21,6 +21,8 @@ public class EntityStatusEffectS2CPacket { public net.minecraft.network.packet.s
 // public void KEEP_FADING_MASK(int value) { wrapperContained.KEEP_FADING_MASK = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public EntityStatusEffectS2CPacket(int entityId,yarnwrap.entity.effect.StatusEffectInstance effect,boolean keepFading) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntityStatusEffectS2CPacket(entityId,effect.wrapperContained,keepFading); }
+// public EntityStatusEffectS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntityStatusEffectS2CPacket(buf.wrapperContained); }
 public boolean shouldShowIcon() { return wrapperContained.shouldShowIcon(); }
 public int getEntityId() { return wrapperContained.getEntityId(); }
 public int getDuration() { return wrapperContained.getDuration(); }

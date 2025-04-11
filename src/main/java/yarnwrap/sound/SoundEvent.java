@@ -17,11 +17,13 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec ENTRY_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.ENTRY_PACKET_CODEC); }
 // public void ENTRY_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.ENTRY_PACKET_CODEC = value.wrapperContained; }
+// public SoundEvent(yarnwrap.util.Identifier id,float distanceToTravel,boolean useStaticDistance) { this.wrapperContained = new net.minecraft.sound.SoundEvent(id.wrapperContained,distanceToTravel,useStaticDistance); }
 public yarnwrap.util.Identifier getId() { return new yarnwrap.util.Identifier(wrapperContained.getId()); }
 public float getDistanceToTravel(float volume) { return wrapperContained.getDistanceToTravel(volume); }
 public yarnwrap.sound.SoundEvent of(yarnwrap.util.Identifier id) { return new yarnwrap.sound.SoundEvent(wrapperContained.of(id.wrapperContained)); }
 public yarnwrap.sound.SoundEvent of(yarnwrap.util.Identifier id,float distanceToTravel) { return new yarnwrap.sound.SoundEvent(wrapperContained.of(id.wrapperContained,distanceToTravel)); }
 // public yarnwrap.sound.SoundEvent of(yarnwrap.util.Identifier id,java.util.Optional distanceToTravel) { return new yarnwrap.sound.SoundEvent(wrapperContained.of(id.wrapperContained,distanceToTravel)); }
+// public com.mojang.datafixers.kinds.App method_47957(Object instance) { return wrapperContained.method_47957(instance); }
 // public java.util.Optional getStaticDistanceToTravel() { return wrapperContained.getStaticDistanceToTravel(); }
 
 }

@@ -20,7 +20,9 @@ public java.lang.String collect() { return wrapperContained.collect(); }
 public void addSection(java.lang.String name,java.lang.String value) { wrapperContained.addSection(name,value); }
 public void addSection(java.lang.String name,java.util.function.Supplier valueSupplier) { wrapperContained.addSection(name,valueSupplier); }
 public void writeTo(java.lang.StringBuilder stringBuilder) { wrapperContained.writeTo(stringBuilder); }
+// public void method_37125(java.lang.StringBuilder name,java.lang.String value) { wrapperContained.method_37125(name,value); }
 // public void addPhysicalMemoryGroup(java.util.List memories) { wrapperContained.addPhysicalMemoryGroup(memories); }
+// public java.lang.String method_37127(Object entry) { return wrapperContained.method_37127(entry); }
 // public void addHardwareGroup(oshi.SystemInfo systemInfo) { wrapperContained.addHardwareGroup(systemInfo); }
 // public void addProcessorGroup(oshi.hardware.CentralProcessor centralProcessor) { wrapperContained.addProcessorGroup(centralProcessor); }
 // public void addGlobalMemoryGroup(oshi.hardware.GlobalMemory globalMemory) { wrapperContained.addGlobalMemoryGroup(globalMemory); }

@@ -9,6 +9,7 @@ public class PortalManager { public net.minecraft.world.dimension.PortalManager 
 // public void ticksInPortal(int value) { wrapperContained.ticksInPortal = value; }
 // public boolean inPortal() { return wrapperContained.inPortal; }
 // public void inPortal(boolean value) { wrapperContained.inPortal = value; }
+public PortalManager(yarnwrap.block.Portal portal,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.world.dimension.PortalManager(portal.wrapperContained,pos.wrapperContained); }
 public Object getEffect() { return wrapperContained.getEffect(); }
 public yarnwrap.world.TeleportTarget createTeleportTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity) { return new yarnwrap.world.TeleportTarget(wrapperContained.createTeleportTarget(world.wrapperContained,entity.wrapperContained)); }
 public boolean tick(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,boolean canUsePortals) { return wrapperContained.tick(world.wrapperContained,entity.wrapperContained,canUsePortals); }

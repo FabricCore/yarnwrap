@@ -77,6 +77,7 @@ public class ClientPlayNetworkHandler { public net.minecraft.client.network.Clie
 // public void brewingRecipeRegistry(yarnwrap.recipe.BrewingRecipeRegistry value) { wrapperContained.brewingRecipeRegistry = value.wrapperContained; }
 // public yarnwrap.client.search.SearchManager searchManager() { return new yarnwrap.client.search.SearchManager(wrapperContained.searchManager); }
 // public void searchManager(yarnwrap.client.search.SearchManager value) { wrapperContained.searchManager = value.wrapperContained; }
+// public ClientPlayNetworkHandler(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.network.ClientPlayNetworkHandler(client.wrapperContained); }
 public java.util.UUID getSessionId() { return wrapperContained.getSessionId(); }
 // public yarnwrap.item.ItemStack getActiveTotemOfUndying(yarnwrap.entity.player.PlayerEntity player) { return new yarnwrap.item.ItemStack(wrapperContained.getActiveTotemOfUndying(player.wrapperContained)); }
 public yarnwrap.client.network.ClientAdvancementManager getAdvancementHandler() { return new yarnwrap.client.network.ClientAdvancementManager(wrapperContained.getAdvancementHandler()); }
@@ -93,12 +94,21 @@ public yarnwrap.client.world.ClientWorld getWorld() { return new yarnwrap.client
 public Object getRegistryManager() { return wrapperContained.getRegistryManager(); }
 public java.util.Set getWorldKeys() { return wrapperContained.getWorldKeys(); }
 public java.util.Collection getPlayerUuids() { return wrapperContained.getPlayerUuids(); }
+// public void method_34007(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.method_34007(pos.wrapperContained,state.wrapperContained); }
+// public void method_34008(yarnwrap.entity.LivingEntity pair) { wrapperContained.method_34008(pair.wrapperContained); }
+// public void method_34009(yarnwrap.screen.ScreenHandler recipe) { wrapperContained.method_34009(recipe.wrapperContained); }
+// public void method_34010(yarnwrap.scoreboard.Team team) { wrapperContained.method_34010(team.wrapperContained); }
+// public void method_34011(yarnwrap.client.recipebook.ClientRecipeBook recipe) { wrapperContained.method_34011(recipe.wrapperContained); }
+// public void method_34012(yarnwrap.client.recipebook.ClientRecipeBook recipeResultCollection) { wrapperContained.method_34012(recipeResultCollection.wrapperContained); }
+// public void method_37472(int entityId) { wrapperContained.method_37472(entityId); }
 // public void loadChunk(int x,int z,yarnwrap.network.packet.s2c.play.ChunkData chunkData) { wrapperContained.loadChunk(x,z,chunkData.wrapperContained); }
 // public void scheduleRenderChunk(yarnwrap.world.chunk.WorldChunk chunk,int x,int z) { wrapperContained.scheduleRenderChunk(chunk.wrapperContained,x,z); }
+// public void method_38542(yarnwrap.network.packet.s2c.play.BlockEntityUpdateS2CPacket blockEntity) { wrapperContained.method_38542(blockEntity.wrapperContained); }
 // public void readLightData(int x,int z,yarnwrap.network.packet.s2c.play.LightData data) { wrapperContained.readLightData(x,z,data.wrapperContained); }
 // public void playSpawnSound(yarnwrap.entity.Entity entity) { wrapperContained.playSpawnSound(entity.wrapperContained); }
 public void acknowledge(yarnwrap.network.message.SignedMessage message,boolean displayed) { wrapperContained.acknowledge(message.wrapperContained,displayed); }
 public boolean hasFeature(yarnwrap.resource.featuretoggle.FeatureSet feature) { return wrapperContained.hasFeature(feature.wrapperContained); }
+// public yarnwrap.network.message.MessageSignatureData method_45722(java.time.Instant value) { return new yarnwrap.network.message.MessageSignatureData(wrapperContained.method_45722(value)); }
 // public void handlePlayerListAction(Object action,Object receivedEntry,yarnwrap.client.network.PlayerListEntry currentEntry) { wrapperContained.handlePlayerListAction(action,receivedEntry,currentEntry.wrapperContained); }
 // public void setPublicSession(Object receivedEntry,yarnwrap.client.network.PlayerListEntry currentEntry) { wrapperContained.setPublicSession(receivedEntry,currentEntry.wrapperContained); }
 public void sendChatMessage(java.lang.String content) { wrapperContained.sendChatMessage(content); }
@@ -109,6 +119,8 @@ public java.util.Collection getListedPlayerListEntries() { return wrapperContain
 public yarnwrap.client.network.ServerInfo getServerInfo() { return new yarnwrap.client.network.ServerInfo(wrapperContained.getServerInfo()); }
 public yarnwrap.resource.featuretoggle.FeatureSet getEnabledFeatures() { return new yarnwrap.resource.featuretoggle.FeatureSet(wrapperContained.getEnabledFeatures()); }
 // public void sendAcknowledgment() { wrapperContained.sendAcknowledgment(); }
+// public void method_46525(java.util.Optional keyPair) { wrapperContained.method_46525(keyPair); }
+// public void method_46528(java.util.Optional keyPair) { wrapperContained.method_46528(keyPair); }
 // public boolean isSecureChatEnforced() { return wrapperContained.isSecureChatEnforced(); }
 public void updateKeyPair(yarnwrap.network.encryption.PlayerKeyPair keyPair) { wrapperContained.updateKeyPair(keyPair.wrapperContained); }
 public void unloadWorld() { wrapperContained.unloadWorld(); }

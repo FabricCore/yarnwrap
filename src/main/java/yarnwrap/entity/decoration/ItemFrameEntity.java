@@ -9,6 +9,8 @@ public class ItemFrameEntity { public net.minecraft.entity.decoration.ItemFrameE
 // public void ITEM_STACK(yarnwrap.entity.data.TrackedData value) { wrapperContained.ITEM_STACK = value.wrapperContained; }
 // public yarnwrap.entity.data.TrackedData ROTATION() { return new yarnwrap.entity.data.TrackedData(wrapperContained.ROTATION); }
 // public void ROTATION(yarnwrap.entity.data.TrackedData value) { wrapperContained.ROTATION = value.wrapperContained; }
+public ItemFrameEntity(yarnwrap.entity.EntityType type,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction facing) { this.wrapperContained = new net.minecraft.entity.decoration.ItemFrameEntity(type.wrapperContained,world.wrapperContained,pos.wrapperContained,facing.wrapperContained); }
+public ItemFrameEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction facing) { this.wrapperContained = new net.minecraft.entity.decoration.ItemFrameEntity(world.wrapperContained,pos.wrapperContained,facing.wrapperContained); }
 // public yarnwrap.item.ItemStack getAsItemStack() { return new yarnwrap.item.ItemStack(wrapperContained.getAsItemStack()); }
 public yarnwrap.sound.SoundEvent getRemoveItemSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getRemoveItemSound()); }
 public yarnwrap.sound.SoundEvent getBreakSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getBreakSound()); }

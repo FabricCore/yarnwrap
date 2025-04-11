@@ -9,6 +9,8 @@ public class LightUpdateS2CPacket { public net.minecraft.network.packet.s2c.play
 // public void data(yarnwrap.network.packet.s2c.play.LightData value) { wrapperContained.data = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public LightUpdateS2CPacket(yarnwrap.util.math.ChunkPos chunkPos,yarnwrap.world.chunk.light.LightingProvider lightProvider,java.util.BitSet skyBits,java.util.BitSet blockBits) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.LightUpdateS2CPacket(chunkPos.wrapperContained,lightProvider.wrapperContained,skyBits,blockBits); }
+// public LightUpdateS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.LightUpdateS2CPacket(buf.wrapperContained); }
 public int getChunkZ() { return wrapperContained.getChunkZ(); }
 public int getChunkX() { return wrapperContained.getChunkX(); }
 public yarnwrap.network.packet.s2c.play.LightData getData() { return new yarnwrap.network.packet.s2c.play.LightData(wrapperContained.getData()); }

@@ -24,6 +24,7 @@ public void prevFlapProgress(float value) { wrapperContained.prevFlapProgress = 
 public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 public Object createParrotAttributes() { return wrapperContained.createParrotAttributes(); }
 // public void flapWings() { wrapperContained.flapWings(); }
+// public void method_6579(java.util.HashMap map) { wrapperContained.method_6579(map); }
 public float getSoundPitch(yarnwrap.util.math.random.Random random) { return wrapperContained.getSoundPitch(random.wrapperContained); }
 public boolean isSongPlaying() { return wrapperContained.isSongPlaying(); }
 public yarnwrap.sound.SoundEvent getRandomSound(yarnwrap.world.World world,yarnwrap.util.math.random.Random random) { return new yarnwrap.sound.SoundEvent(wrapperContained.getRandomSound(world.wrapperContained,random.wrapperContained)); }

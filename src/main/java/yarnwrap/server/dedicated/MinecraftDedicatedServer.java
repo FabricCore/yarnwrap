@@ -23,14 +23,18 @@ public class MinecraftDedicatedServer { public net.minecraft.server.dedicated.Mi
 // public void subscriptionTracker(yarnwrap.server.SampleSubscriptionTracker value) { wrapperContained.subscriptionTracker = value.wrapperContained; }
 // public yarnwrap.server.ServerLinks serverLinks() { return new yarnwrap.server.ServerLinks(wrapperContained.serverLinks); }
 // public void serverLinks(yarnwrap.server.ServerLinks value) { wrapperContained.serverLinks = value.wrapperContained; }
+// public MinecraftDedicatedServer(java.lang.Thread serverThread,Object session,yarnwrap.resource.ResourcePackManager dataPackManager,yarnwrap.server.SaveLoader saveLoader,yarnwrap.server.dedicated.ServerPropertiesLoader propertiesLoader,com.mojang.datafixers.DataFixer dataFixer,yarnwrap.util.ApiServices apiServices,yarnwrap.server.WorldGenerationProgressListenerFactory worldGenerationProgressListenerFactory) { this.wrapperContained = new net.minecraft.server.dedicated.MinecraftDedicatedServer(serverThread,session,dataPackManager.wrapperContained,saveLoader.wrapperContained,propertiesLoader.wrapperContained,dataFixer,apiServices.wrapperContained,worldGenerationProgressListenerFactory.wrapperContained); }
 public void executeQueuedCommands() { wrapperContained.executeQueuedCommands(); }
 // public void sleepFiveSeconds() { wrapperContained.sleepFiveSeconds(); }
 public long getMaxTickTime() { return wrapperContained.getMaxTickTime(); }
 public void enqueueCommand(java.lang.String command,yarnwrap.server.command.ServerCommandSource commandSource) { wrapperContained.enqueueCommand(command,commandSource.wrapperContained); }
 public void createGui() { wrapperContained.createGui(); }
 // public boolean convertData() { return wrapperContained.convertData(); }
+// public yarnwrap.server.dedicated.ServerPropertiesHandler method_16710(int serverPropertiesHandler) { return new yarnwrap.server.dedicated.ServerPropertiesHandler(wrapperContained.method_16710(serverPropertiesHandler)); }
+// public yarnwrap.server.dedicated.ServerPropertiesHandler method_16711(boolean serverPropertiesHandler) { return new yarnwrap.server.dedicated.ServerPropertiesHandler(wrapperContained.method_16711(serverPropertiesHandler)); }
 public void setUseWhitelist(boolean useWhitelist) { wrapperContained.setUseWhitelist(useWhitelist); }
 // public java.util.Optional parseBugReportLink(yarnwrap.server.dedicated.ServerPropertiesHandler propertiesHandler) { return wrapperContained.parseBugReportLink(propertiesHandler.wrapperContained); }
 // public yarnwrap.server.ServerLinks loadServerLinks(yarnwrap.server.dedicated.ServerPropertiesLoader propertiesLoader) { return new yarnwrap.server.ServerLinks(wrapperContained.loadServerLinks(propertiesLoader.wrapperContained)); }
+// public yarnwrap.server.ServerLinks method_60941(java.net.URI uri) { return new yarnwrap.server.ServerLinks(wrapperContained.method_60941(uri)); }
 
 }

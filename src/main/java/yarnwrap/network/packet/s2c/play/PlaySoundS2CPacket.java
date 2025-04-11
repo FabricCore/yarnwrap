@@ -21,6 +21,8 @@ public float COORDINATE_SCALE() { return wrapperContained.COORDINATE_SCALE; }
 // public void seed(long value) { wrapperContained.seed = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public PlaySoundS2CPacket(yarnwrap.registry.entry.RegistryEntry sound,yarnwrap.sound.SoundCategory category,double x,double y,double z,float volume,float pitch,long seed) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PlaySoundS2CPacket(sound.wrapperContained,category.wrapperContained,x,y,z,volume,pitch,seed); }
+// public PlaySoundS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PlaySoundS2CPacket(buf.wrapperContained); }
 public yarnwrap.sound.SoundCategory getCategory() { return new yarnwrap.sound.SoundCategory(wrapperContained.getCategory()); }
 public double getY() { return wrapperContained.getY(); }
 public double getX() { return wrapperContained.getX(); }

@@ -11,6 +11,7 @@ public class Monitor { public net.minecraft.client.util.Monitor wrapperContained
 // public void handle(long value) { wrapperContained.handle = value; }
 // public yarnwrap.client.util.VideoMode currentVideoMode() { return new yarnwrap.client.util.VideoMode(wrapperContained.currentVideoMode); }
 // public void currentVideoMode(yarnwrap.client.util.VideoMode value) { wrapperContained.currentVideoMode = value.wrapperContained; }
+public Monitor(long handle) { this.wrapperContained = new net.minecraft.client.util.Monitor(handle); }
 public yarnwrap.client.util.VideoMode findClosestVideoMode(java.util.Optional videoMode) { return new yarnwrap.client.util.VideoMode(wrapperContained.findClosestVideoMode(videoMode)); }
 public void populateVideoModes() { wrapperContained.populateVideoModes(); }
 public int getViewportX() { return wrapperContained.getViewportX(); }

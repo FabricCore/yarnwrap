@@ -7,5 +7,6 @@ public class TrackOwnerAttackerGoal { public net.minecraft.entity.ai.goal.TrackO
 // public void tameable(yarnwrap.entity.passive.TameableEntity value) { wrapperContained.tameable = value.wrapperContained; }
 // public yarnwrap.entity.LivingEntity attacker() { return new yarnwrap.entity.LivingEntity(wrapperContained.attacker); }
 // public void attacker(yarnwrap.entity.LivingEntity value) { wrapperContained.attacker = value.wrapperContained; }
+public TrackOwnerAttackerGoal(yarnwrap.entity.passive.TameableEntity tameable) { this.wrapperContained = new net.minecraft.entity.ai.goal.TrackOwnerAttackerGoal(tameable.wrapperContained); }
 
 }

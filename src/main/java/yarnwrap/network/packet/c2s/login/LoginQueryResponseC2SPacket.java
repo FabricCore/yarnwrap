@@ -13,6 +13,7 @@ public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.
 // public yarnwrap.network.packet.c2s.login.LoginQueryResponsePayload response() { return new yarnwrap.network.packet.c2s.login.LoginQueryResponsePayload(wrapperContained.response()); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 // public yarnwrap.network.packet.c2s.login.LoginQueryResponsePayload readPayload(int queryId,yarnwrap.network.PacketByteBuf buf) { return new yarnwrap.network.packet.c2s.login.LoginQueryResponsePayload(wrapperContained.readPayload(queryId,buf.wrapperContained)); }
+// public void method_52291(yarnwrap.network.PacketByteBuf buf,yarnwrap.network.packet.c2s.login.LoginQueryResponsePayload response) { wrapperContained.method_52291(buf.wrapperContained,response.wrapperContained); }
 // public yarnwrap.network.packet.c2s.login.LoginQueryResponseC2SPacket read(yarnwrap.network.PacketByteBuf buf) { return new yarnwrap.network.packet.c2s.login.LoginQueryResponseC2SPacket(wrapperContained.read(buf.wrapperContained)); }
 // public yarnwrap.network.packet.c2s.login.LoginQueryResponsePayload getVanillaPayload(yarnwrap.network.PacketByteBuf buf) { return new yarnwrap.network.packet.c2s.login.LoginQueryResponsePayload(wrapperContained.getVanillaPayload(buf.wrapperContained)); }
 

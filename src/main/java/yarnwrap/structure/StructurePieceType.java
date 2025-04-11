@@ -111,6 +111,7 @@ public yarnwrap.structure.StructurePieceType NETHER_FOSSIL() { return new yarnwr
 // public void NETHER_FOSSIL(yarnwrap.structure.StructurePieceType value) { wrapperContained.NETHER_FOSSIL = value.wrapperContained; }
 public yarnwrap.structure.StructurePieceType RUINED_PORTAL() { return new yarnwrap.structure.StructurePieceType(wrapperContained.RUINED_PORTAL); }
 // public void RUINED_PORTAL(yarnwrap.structure.StructurePieceType value) { wrapperContained.RUINED_PORTAL = value.wrapperContained; }
+public yarnwrap.structure.StructurePiece load(yarnwrap.structure.StructureContext context,yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.structure.StructurePiece(wrapperContained.load(context.wrapperContained,nbt.wrapperContained)); }
 // public yarnwrap.structure.StructurePieceType register(Object type,java.lang.String id) { return new yarnwrap.structure.StructurePieceType(wrapperContained.register(type,id)); }
 // // public yarnwrap.structure.StructurePieceType register(Object type,java.lang.String id) { return new yarnwrap.structure.StructurePieceType(wrapperContained.register(type,id)); }
 // public yarnwrap.structure.StructurePieceType register(yarnwrap.structure.StructurePieceType type,java.lang.String id) { return new yarnwrap.structure.StructurePieceType(wrapperContained.register(type.wrapperContained,id)); }

@@ -9,5 +9,6 @@ public class ChunkLoadingDebugRenderer { public net.minecraft.client.render.debu
 // public void lastUpdateTime(double value) { wrapperContained.lastUpdateTime = value; }
 // public int LOADING_DATA_CHUNK_RANGE() { return wrapperContained.LOADING_DATA_CHUNK_RANGE; }
 // public void LOADING_DATA_CHUNK_RANGE(int value) { wrapperContained.LOADING_DATA_CHUNK_RANGE = value; }
+public ChunkLoadingDebugRenderer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.debug.ChunkLoadingDebugRenderer(client.wrapperContained); }
 
 }

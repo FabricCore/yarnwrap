@@ -7,6 +7,7 @@ public class NetworkIoStatistics { public net.minecraft.util.profiling.jfr.sampl
 // public void topContributors(java.util.List value) { wrapperContained.topContributors = value; }
 // public java.time.Duration duration() { return wrapperContained.duration; }
 // public void duration(java.time.Duration value) { wrapperContained.duration = value; }
+public NetworkIoStatistics(java.time.Duration duration,java.util.List packetsToStatistics) { this.wrapperContained = new net.minecraft.util.profiling.jfr.sample.NetworkIoStatistics(duration,packetsToStatistics); }
 public double getCountPerSecond() { return wrapperContained.getCountPerSecond(); }
 public double getBytesPerSecond() { return wrapperContained.getBytesPerSecond(); }
 public long getTotalCount() { return wrapperContained.getTotalCount(); }

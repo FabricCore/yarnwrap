@@ -15,6 +15,7 @@ public class MessagesListAdder { public net.minecraft.client.session.report.Mess
 // public void lastMessage(yarnwrap.network.message.SignedMessage value) { wrapperContained.lastMessage = value.wrapperContained; }
 // public yarnwrap.network.message.MessageLink link() { return new yarnwrap.network.message.MessageLink(wrapperContained.link); }
 // public void link(yarnwrap.network.message.MessageLink value) { wrapperContained.link = value.wrapperContained; }
+public MessagesListAdder(yarnwrap.client.session.report.AbuseReportContext context,java.util.function.Predicate reportablePredicate) { this.wrapperContained = new net.minecraft.client.session.report.MessagesListAdder(context.wrapperContained,reportablePredicate); }
 // public void add(int minAmount,Object messages) { wrapperContained.add(minAmount,messages); }
 // public boolean tryAdd(Object messages,Object message) { return wrapperContained.tryAdd(messages,message); }
 

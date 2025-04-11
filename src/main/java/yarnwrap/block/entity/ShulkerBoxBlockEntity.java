@@ -17,6 +17,8 @@ public class ShulkerBoxBlockEntity { public net.minecraft.block.entity.ShulkerBo
 // public void cachedColor(yarnwrap.util.DyeColor value) { wrapperContained.cachedColor = value.wrapperContained; }
 public int INVENTORY_SIZE() { return wrapperContained.INVENTORY_SIZE; }
 // public void INVENTORY_SIZE(int value) { wrapperContained.INVENTORY_SIZE = value; }
+public ShulkerBoxBlockEntity(yarnwrap.util.DyeColor color,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.ShulkerBoxBlockEntity(color.wrapperContained,pos.wrapperContained,state.wrapperContained); }
+public ShulkerBoxBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.ShulkerBoxBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public float getAnimationProgress(float delta) { return wrapperContained.getAnimationProgress(delta); }
 public Object getAnimationStage() { return wrapperContained.getAnimationStage(); }
 public yarnwrap.util.math.Box getBoundingBox(yarnwrap.block.BlockState state) { return new yarnwrap.util.math.Box(wrapperContained.getBoundingBox(state.wrapperContained)); }

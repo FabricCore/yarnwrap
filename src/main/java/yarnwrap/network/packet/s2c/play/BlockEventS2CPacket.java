@@ -11,6 +11,8 @@ public class BlockEventS2CPacket { public net.minecraft.network.packet.s2c.play.
 // public void pos(yarnwrap.util.math.BlockPos value) { wrapperContained.pos = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public BlockEventS2CPacket(yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block block,int type,int data) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.BlockEventS2CPacket(pos.wrapperContained,block.wrapperContained,type,data); }
+// public BlockEventS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.BlockEventS2CPacket(buf.wrapperContained); }
 public int getType() { return wrapperContained.getType(); }
 public yarnwrap.block.Block getBlock() { return new yarnwrap.block.Block(wrapperContained.getBlock()); }
 public int getData() { return wrapperContained.getData(); }

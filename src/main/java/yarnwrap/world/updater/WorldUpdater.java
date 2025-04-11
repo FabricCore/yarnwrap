@@ -55,10 +55,12 @@ public class WorldUpdater { public net.minecraft.world.updater.WorldUpdater wrap
 // public void updateThread(java.lang.Thread value) { wrapperContained.updateThread = value; }
 // public int totalChunkCount() { return wrapperContained.totalChunkCount; }
 // public void totalChunkCount(int value) { wrapperContained.totalChunkCount = value; }
+// public WorldUpdater(Object session,com.mojang.datafixers.DataFixer dataFixer,yarnwrap.registry.DynamicRegistryManager dynamicRegistryManager,boolean eraseCache,boolean recreateRegionFiles) { this.wrapperContained = new net.minecraft.world.updater.WorldUpdater(session,dataFixer,dynamicRegistryManager.wrapperContained,eraseCache,recreateRegionFiles); }
 public java.util.Set getWorlds() { return wrapperContained.getWorlds(); }
 public float getProgress(yarnwrap.registry.RegistryKey world) { return wrapperContained.getProgress(world.wrapperContained); }
 public yarnwrap.text.Text getStatus() { return new yarnwrap.text.Text(wrapperContained.getStatus()); }
 public int getTotalChunkCount() { return wrapperContained.getTotalChunkCount(); }
+// public void method_5398(java.lang.Thread thread,java.lang.Throwable throwable) { wrapperContained.method_5398(thread,throwable); }
 public int getSkippedChunkCount() { return wrapperContained.getSkippedChunkCount(); }
 public int getUpgradedChunkCount() { return wrapperContained.getUpgradedChunkCount(); }
 public float getProgress() { return wrapperContained.getProgress(); }

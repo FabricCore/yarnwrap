@@ -9,6 +9,7 @@ public class XmlReportingTestCompletionListener { public net.minecraft.test.XmlR
 // public void stopwatch(com.google.common.base.Stopwatch value) { wrapperContained.stopwatch = value; }
 // public java.io.File file() { return wrapperContained.file; }
 // public void file(java.io.File value) { wrapperContained.file = value; }
+// public XmlReportingTestCompletionListener(java.io.File file) { this.wrapperContained = new net.minecraft.test.XmlReportingTestCompletionListener(file); }
 // public void saveReport(java.io.File file) { wrapperContained.saveReport(file); }
 // public org.w3c.dom.Element addTestCase(yarnwrap.test.GameTestState test,java.lang.String name) { return wrapperContained.addTestCase(test.wrapperContained,name); }
 

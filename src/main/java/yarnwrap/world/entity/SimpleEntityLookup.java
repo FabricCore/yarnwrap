@@ -5,5 +5,6 @@ public class SimpleEntityLookup { public net.minecraft.world.entity.SimpleEntity
 // public void index(yarnwrap.world.entity.EntityIndex value) { wrapperContained.index = value.wrapperContained; }
 // public yarnwrap.world.entity.SectionedEntityCache cache() { return new yarnwrap.world.entity.SectionedEntityCache(wrapperContained.cache); }
 // public void cache(yarnwrap.world.entity.SectionedEntityCache value) { wrapperContained.cache = value.wrapperContained; }
+public SimpleEntityLookup(yarnwrap.world.entity.EntityIndex index,yarnwrap.world.entity.SectionedEntityCache cache) { this.wrapperContained = new net.minecraft.world.entity.SimpleEntityLookup(index.wrapperContained,cache.wrapperContained); }
 
 }

@@ -13,6 +13,9 @@ public class DebugChunkGenerator { public net.minecraft.world.gen.chunk.DebugChu
 // public void BARRIER(yarnwrap.block.BlockState value) { wrapperContained.BARRIER = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public DebugChunkGenerator(Object biomeEntry) { this.wrapperContained = new net.minecraft.world.gen.chunk.DebugChunkGenerator(biomeEntry); }
 public yarnwrap.block.BlockState getBlockState(int x,int z) { return new yarnwrap.block.BlockState(wrapperContained.getBlockState(x,z)); }
+// public java.util.stream.Stream method_12579(yarnwrap.block.Block block) { return wrapperContained.method_12579(block.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_40465(Object instance) { return wrapperContained.method_40465(instance); }
 
 }

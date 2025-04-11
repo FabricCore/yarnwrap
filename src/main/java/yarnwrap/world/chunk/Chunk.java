@@ -41,6 +41,7 @@ public int MISSING_SECTION() { return wrapperContained.MISSING_SECTION; }
 // public void MISSING_SECTION(int value) { wrapperContained.MISSING_SECTION = value; }
 // public yarnwrap.world.chunk.light.ChunkSkyLight chunkSkyLight() { return new yarnwrap.world.chunk.light.ChunkSkyLight(wrapperContained.chunkSkyLight); }
 // public void chunkSkyLight(yarnwrap.world.chunk.light.ChunkSkyLight value) { wrapperContained.chunkSkyLight = value.wrapperContained; }
+// public Chunk(yarnwrap.util.math.ChunkPos pos,yarnwrap.world.chunk.UpgradeData upgradeData,yarnwrap.world.HeightLimitView heightLimitView,yarnwrap.registry.Registry biomeRegistry,long inhabitedTime,net.minecraft.world.chunk.ChunkSection[] sectionArray,yarnwrap.world.gen.chunk.BlendingData blendingData) { this.wrapperContained = new net.minecraft.world.chunk.Chunk(pos.wrapperContained,upgradeData.wrapperContained,heightLimitView.wrapperContained,biomeRegistry.wrapperContained,inhabitedTime,sectionArray,blendingData.wrapperContained); }
 public void addEntity(yarnwrap.entity.Entity entity) { wrapperContained.addEntity(entity.wrapperContained); }
 public yarnwrap.world.chunk.UpgradeData getUpgradeData() { return new yarnwrap.world.chunk.UpgradeData(wrapperContained.getUpgradeData()); }
 public yarnwrap.util.math.ChunkPos getPos() { return new yarnwrap.util.math.ChunkPos(wrapperContained.getPos()); }
@@ -79,6 +80,8 @@ public yarnwrap.world.gen.chunk.ChunkNoiseSampler getOrCreateChunkNoiseSampler(j
 // public void fillSectionArray(yarnwrap.registry.Registry biomeRegistry,net.minecraft.world.chunk.ChunkSection[] sectionArray) { wrapperContained.fillSectionArray(biomeRegistry.wrapperContained,sectionArray); }
 // public void populateBiomes(yarnwrap.world.biome.source.BiomeSupplier biomeSupplier,Object sampler) { wrapperContained.populateBiomes(biomeSupplier.wrapperContained,sampler); }
 public yarnwrap.world.chunk.ChunkSection getSection(int yIndex) { return new yarnwrap.world.chunk.ChunkSection(wrapperContained.getSection(yIndex)); }
+// public yarnwrap.world.Heightmap method_38260(Object type2) { return new yarnwrap.world.Heightmap(wrapperContained.method_38260(type2)); }
+// public it.unimi.dsi.fastutil.longs.LongSet method_38261(yarnwrap.world.gen.structure.Structure type2) { return wrapperContained.method_38261(type2.wrapperContained); }
 public void increaseInhabitedTime(long delta) { wrapperContained.increaseInhabitedTime(delta); }
 public boolean hasStructureReferences() { return wrapperContained.hasStructureReferences(); }
 public void setBlendingData(yarnwrap.world.gen.chunk.BlendingData blendingData) { wrapperContained.setBlendingData(blendingData.wrapperContained); }
@@ -91,6 +94,7 @@ public yarnwrap.world.HeightLimitView getHeightLimitView() { return new yarnwrap
 public boolean hasBelowZeroRetrogen() { return wrapperContained.hasBelowZeroRetrogen(); }
 public yarnwrap.world.biome.GenerationSettings getOrCreateGenerationSettings(java.util.function.Supplier generationSettingsCreator) { return new yarnwrap.world.biome.GenerationSettings(wrapperContained.getOrCreateGenerationSettings(generationSettingsCreator)); }
 public void refreshSurfaceY() { wrapperContained.refreshSurfaceY(); }
+// public boolean method_51523(yarnwrap.block.BlockState blockState) { return wrapperContained.method_51523(blockState.wrapperContained); }
 public void forEachBlockMatchingPredicate(java.util.function.Predicate predicate,java.util.function.BiConsumer consumer) { wrapperContained.forEachBlockMatchingPredicate(predicate,consumer); }
 public yarnwrap.world.chunk.ChunkStatus getMaxStatus() { return new yarnwrap.world.chunk.ChunkStatus(wrapperContained.getMaxStatus()); }
 public boolean isSectionEmpty(int sectionCoord) { return wrapperContained.isSectionEmpty(sectionCoord); }

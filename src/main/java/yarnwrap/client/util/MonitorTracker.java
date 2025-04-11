@@ -7,6 +7,7 @@ public class MonitorTracker { public net.minecraft.client.util.MonitorTracker wr
 // public void pointerToMonitorMap(it.unimi.dsi.fastutil.longs.Long2ObjectMap value) { wrapperContained.pointerToMonitorMap = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public MonitorTracker(yarnwrap.client.util.MonitorFactory monitorFactory) { this.wrapperContained = new net.minecraft.client.util.MonitorTracker(monitorFactory.wrapperContained); }
 public int clamp(int value,int min,int max) { return wrapperContained.clamp(value,min,max); }
 public void stop() { wrapperContained.stop(); }
 public yarnwrap.client.util.Monitor getMonitor(long pointer) { return new yarnwrap.client.util.Monitor(wrapperContained.getMonitor(pointer)); }

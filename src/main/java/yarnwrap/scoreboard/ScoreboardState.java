@@ -7,6 +7,7 @@ public java.lang.String SCOREBOARD_KEY() { return wrapperContained.SCOREBOARD_KE
 // public void SCOREBOARD_KEY(java.lang.String value) { wrapperContained.SCOREBOARD_KEY = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public ScoreboardState(yarnwrap.scoreboard.Scoreboard scoreboard) { this.wrapperContained = new net.minecraft.scoreboard.ScoreboardState(scoreboard.wrapperContained); }
 // public void readTeamPlayersNbt(yarnwrap.scoreboard.Team team,yarnwrap.nbt.NbtList nbt) { wrapperContained.readTeamPlayersNbt(team.wrapperContained,nbt.wrapperContained); }
 // public yarnwrap.nbt.NbtList objectivesToNbt(Object registries) { return new yarnwrap.nbt.NbtList(wrapperContained.objectivesToNbt(registries)); }
 // public yarnwrap.nbt.NbtList teamsToNbt(Object registries) { return new yarnwrap.nbt.NbtList(wrapperContained.teamsToNbt(registries)); }

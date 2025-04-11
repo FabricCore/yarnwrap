@@ -47,6 +47,7 @@ public class ChatInputSuggestor { public net.minecraft.client.gui.screen.ChatInp
 // public void HIGHLIGHT_STYLES(java.util.List value) { wrapperContained.HIGHLIGHT_STYLES = value; }
 // public boolean canLeave() { return wrapperContained.canLeave; }
 // public void canLeave(boolean value) { wrapperContained.canLeave = value; }
+public ChatInputSuggestor(yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.screen.Screen owner,yarnwrap.client.gui.widget.TextFieldWidget textField,yarnwrap.client.font.TextRenderer textRenderer,boolean slashOptional,boolean suggestingWhenEmpty,int inWindowIndexOffset,int maxSuggestionSize,boolean chatScreenSized,int color) { this.wrapperContained = new net.minecraft.client.gui.screen.ChatInputSuggestor(client.wrapperContained,owner.wrapperContained,textField.wrapperContained,textRenderer.wrapperContained,slashOptional,suggestingWhenEmpty,inWindowIndexOffset,maxSuggestionSize,chatScreenSized,color); }
 public void show(boolean narrateFirstSuggestion) { wrapperContained.show(narrateFirstSuggestion); }
 public boolean mouseScrolled(double amount) { return wrapperContained.mouseScrolled(amount); }
 public boolean mouseClicked(double mouseX,double mouseY,int button) { return wrapperContained.mouseClicked(mouseX,mouseY,button); }

@@ -13,6 +13,7 @@ public class SyncedClientOptions { public net.minecraft.network.packet.c2s.commo
 // public void allowsServerListing(boolean value) { wrapperContained.allowsServerListing = value; }
 public int MAX_LANGUAGE_CODE_LENGTH() { return wrapperContained.MAX_LANGUAGE_CODE_LENGTH; }
 // public void MAX_LANGUAGE_CODE_LENGTH(int value) { wrapperContained.MAX_LANGUAGE_CODE_LENGTH = value; }
+public SyncedClientOptions(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.common.SyncedClientOptions(buf.wrapperContained); }
 // public boolean chatColorsEnabled() { return wrapperContained.chatColorsEnabled(); }
 // public int playerModelParts() { return wrapperContained.playerModelParts(); }
 // public yarnwrap.util.Arm mainArm() { return new yarnwrap.util.Arm(wrapperContained.mainArm()); }

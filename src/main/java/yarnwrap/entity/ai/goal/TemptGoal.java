@@ -29,6 +29,7 @@ public class TemptGoal { public net.minecraft.entity.ai.goal.TemptGoal wrapperCo
 // public void lastPlayerZ(double value) { wrapperContained.lastPlayerZ = value; }
 // public java.util.function.Predicate foodPredicate() { return wrapperContained.foodPredicate; }
 // public void foodPredicate(java.util.function.Predicate value) { wrapperContained.foodPredicate = value; }
+public TemptGoal(yarnwrap.entity.mob.PathAwareEntity entity,double speed,java.util.function.Predicate foodPredicate,boolean canBeScared) { this.wrapperContained = new net.minecraft.entity.ai.goal.TemptGoal(entity.wrapperContained,speed,foodPredicate,canBeScared); }
 // // public boolean canBeScared() { return wrapperContained.canBeScared(); }
 // public boolean isTemptedBy(yarnwrap.entity.LivingEntity entity) { return wrapperContained.isTemptedBy(entity.wrapperContained); }
 public boolean isActive() { return wrapperContained.isActive(); }

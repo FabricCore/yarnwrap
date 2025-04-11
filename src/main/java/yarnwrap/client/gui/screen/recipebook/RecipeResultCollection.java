@@ -13,6 +13,7 @@ public class RecipeResultCollection { public net.minecraft.client.gui.screen.rec
 // public void singleOutput(boolean value) { wrapperContained.singleOutput = value; }
 // public yarnwrap.registry.DynamicRegistryManager registryManager() { return new yarnwrap.registry.DynamicRegistryManager(wrapperContained.registryManager); }
 // public void registryManager(yarnwrap.registry.DynamicRegistryManager value) { wrapperContained.registryManager = value.wrapperContained; }
+public RecipeResultCollection(yarnwrap.registry.DynamicRegistryManager registryManager,java.util.List recipes) { this.wrapperContained = new net.minecraft.client.gui.screen.recipebook.RecipeResultCollection(registryManager.wrapperContained,recipes); }
 public void initialize(yarnwrap.recipe.book.RecipeBook recipeBook) { wrapperContained.initialize(recipeBook.wrapperContained); }
 public java.util.List getRecipes(boolean craftable) { return wrapperContained.getRecipes(craftable); }
 public void computeCraftables(yarnwrap.recipe.RecipeMatcher recipeFinder,int gridWidth,int gridHeight,yarnwrap.recipe.book.RecipeBook recipeBook) { wrapperContained.computeCraftables(recipeFinder.wrapperContained,gridWidth,gridHeight,recipeBook.wrapperContained); }

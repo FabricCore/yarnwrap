@@ -63,7 +63,9 @@ public double EMIT_SOUND_EVENT_PADDLE_ROTATION() { return wrapperContained.EMIT_
 // public void RIGHT_PADDLE_MOVING(yarnwrap.entity.data.TrackedData value) { wrapperContained.RIGHT_PADDLE_MOVING = value.wrapperContained; }
 // public float nearbySlipperiness() { return wrapperContained.nearbySlipperiness; }
 // public void nearbySlipperiness(float value) { wrapperContained.nearbySlipperiness = value; }
+public BoatEntity(yarnwrap.world.World world,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.vehicle.BoatEntity(world.wrapperContained,x,y,z); }
 public boolean canCollide(yarnwrap.entity.Entity entity,yarnwrap.entity.Entity other) { return wrapperContained.canCollide(entity.wrapperContained,other.wrapperContained); }
+// public boolean method_31552(yarnwrap.entity.Entity entity) { return wrapperContained.method_31552(entity.wrapperContained); }
 // public float getPassengerHorizontalOffset() { return wrapperContained.getPassengerHorizontalOffset(); }
 // public int getMaxPassengers() { return wrapperContained.getMaxPassengers(); }
 public boolean isSmallerThanBoat(yarnwrap.entity.Entity entity) { return wrapperContained.isSmallerThanBoat(entity.wrapperContained); }

@@ -5,6 +5,7 @@ public class ScheduleRuleEntry { public net.minecraft.entity.ai.brain.ScheduleRu
 // public void startTime(int value) { wrapperContained.startTime = value; }
 // public float priority() { return wrapperContained.priority; }
 // public void priority(float value) { wrapperContained.priority = value; }
+public ScheduleRuleEntry(int startTime,float priority) { this.wrapperContained = new net.minecraft.entity.ai.brain.ScheduleRuleEntry(startTime,priority); }
 public int getStartTime() { return wrapperContained.getStartTime(); }
 public float getPriority() { return wrapperContained.getPriority(); }
 

@@ -17,6 +17,11 @@ public class TextureStitcher { public net.minecraft.client.texture.TextureStitch
 // public void width(int value) { wrapperContained.width = value; }
 // public int mipLevel() { return wrapperContained.mipLevel; }
 // public void mipLevel(int value) { wrapperContained.mipLevel = value; }
+public TextureStitcher(int maxWidth,int maxHeight,int mipLevel) { this.wrapperContained = new net.minecraft.client.texture.TextureStitcher(maxWidth,maxHeight,mipLevel); }
+// public yarnwrap.util.Identifier method_18337(Object holder) { return new yarnwrap.util.Identifier(wrapperContained.method_18337(holder)); }
+// public java.lang.Integer method_18338(Object holder) { return wrapperContained.method_18338(holder); }
+// public java.lang.Integer method_18339(Object holder) { return wrapperContained.method_18339(holder); }
+// public Object method_21686(Object holder) { return wrapperContained.method_21686(holder); }
 // public void getStitchedSprites(Object consumer) { wrapperContained.getStitchedSprites(consumer); }
 // public boolean fit(Object holder) { return wrapperContained.fit(holder); }
 // public int applyMipLevel(int size,int mipLevel) { return wrapperContained.applyMipLevel(size,mipLevel); }

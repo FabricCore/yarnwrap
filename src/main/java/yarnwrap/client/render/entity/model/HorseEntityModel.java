@@ -61,6 +61,7 @@ public class HorseEntityModel { public net.minecraft.client.render.entity.model.
 // public void body(yarnwrap.client.model.ModelPart value) { wrapperContained.body = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
+public HorseEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.HorseEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.ModelData getModelData(yarnwrap.client.model.Dilation dilation) { return new yarnwrap.client.model.ModelData(wrapperContained.getModelData(dilation.wrapperContained)); }
 
 }

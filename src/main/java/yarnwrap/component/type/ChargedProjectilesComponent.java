@@ -9,6 +9,8 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 // public java.util.List projectiles() { return wrapperContained.projectiles; }
 // public void projectiles(java.util.List value) { wrapperContained.projectiles = value; }
+// public ChargedProjectilesComponent(java.util.List projectiles) { this.wrapperContained = new net.minecraft.component.type.ChargedProjectilesComponent(projectiles); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public java.util.List getProjectiles() { return wrapperContained.getProjectiles(); }
 public boolean contains(yarnwrap.item.Item item) { return wrapperContained.contains(item.wrapperContained); }
 public yarnwrap.component.type.ChargedProjectilesComponent of(yarnwrap.item.ItemStack projectile) { return new yarnwrap.component.type.ChargedProjectilesComponent(wrapperContained.of(projectile.wrapperContained)); }

@@ -75,6 +75,7 @@ public float prevNauseaIntensity() { return wrapperContained.prevNauseaIntensity
 public void prevNauseaIntensity(float value) { wrapperContained.prevNauseaIntensity = value; }
 // public boolean limitedCraftingEnabled() { return wrapperContained.limitedCraftingEnabled; }
 // public void limitedCraftingEnabled(boolean value) { wrapperContained.limitedCraftingEnabled = value; }
+public ClientPlayerEntity(yarnwrap.client.MinecraftClient client,yarnwrap.client.world.ClientWorld world,yarnwrap.client.network.ClientPlayNetworkHandler networkHandler,yarnwrap.stat.StatHandler stats,yarnwrap.client.recipebook.ClientRecipeBook recipeBook,boolean lastSneaking,boolean lastSprinting) { this.wrapperContained = new net.minecraft.client.network.ClientPlayerEntity(client.wrapperContained,world.wrapperContained,networkHandler.wrapperContained,stats.wrapperContained,recipeBook.wrapperContained,lastSneaking,lastSprinting); }
 public boolean shouldSlowDown() { return wrapperContained.shouldSlowDown(); }
 // public boolean isWalking() { return wrapperContained.isWalking(); }
 // public boolean shouldAutoJump() { return wrapperContained.shouldAutoJump(); }
@@ -91,6 +92,7 @@ public void openRidingInventory() { wrapperContained.openRidingInventory(); }
 // public void sendMovementPackets() { wrapperContained.sendMovementPackets(); }
 public void closeScreen() { wrapperContained.closeScreen(); }
 public void updateHealth(float health) { wrapperContained.updateHealth(health); }
+// public java.util.stream.Stream method_3139(yarnwrap.util.shape.VoxelShape shape) { return wrapperContained.method_3139(shape.wrapperContained); }
 public float getUnderwaterVisibility() { return wrapperContained.getUnderwaterVisibility(); }
 public void onRecipeDisplayed(yarnwrap.recipe.RecipeEntry recipe) { wrapperContained.onRecipeDisplayed(recipe.wrapperContained); }
 public yarnwrap.stat.StatHandler getStatHandler() { return new yarnwrap.stat.StatHandler(wrapperContained.getStatHandler()); }

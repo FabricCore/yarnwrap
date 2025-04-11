@@ -29,6 +29,11 @@ public class CustomizeFlatLevelScreen { public net.minecraft.client.gui.screen.w
 // public void ICON_OFFSET_Y(int value) { wrapperContained.ICON_OFFSET_Y = value; }
 // public yarnwrap.util.Identifier SLOT_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.SLOT_TEXTURE); }
 // public void SLOT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SLOT_TEXTURE = value.wrapperContained; }
+public CustomizeFlatLevelScreen(yarnwrap.client.gui.screen.world.CreateWorldScreen parent,java.util.function.Consumer configConsumer,yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config) { this.wrapperContained = new net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen(parent.wrapperContained,configConsumer,config.wrapperContained); }
+// public void method_19804(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19804(button.wrapperContained); }
+// public void method_19805(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19805(button.wrapperContained); }
+// public void method_19806(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19806(button.wrapperContained); }
+// public void method_20093(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_20093(button.wrapperContained); }
 // public void updateRemoveLayerButton() { wrapperContained.updateRemoveLayerButton(); }
 // public boolean hasLayerSelected() { return wrapperContained.hasLayerSelected(); }
 public void setConfig(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config) { wrapperContained.setConfig(config.wrapperContained); }

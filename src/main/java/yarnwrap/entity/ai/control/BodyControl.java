@@ -13,6 +13,7 @@ public class BodyControl { public net.minecraft.entity.ai.control.BodyControl wr
 // public void bodyAdjustTicks(int value) { wrapperContained.bodyAdjustTicks = value; }
 // public yarnwrap.entity.mob.MobEntity entity() { return new yarnwrap.entity.mob.MobEntity(wrapperContained.entity); }
 // public void entity(yarnwrap.entity.mob.MobEntity value) { wrapperContained.entity = value.wrapperContained; }
+public BodyControl(yarnwrap.entity.mob.MobEntity entity) { this.wrapperContained = new net.minecraft.entity.ai.control.BodyControl(entity.wrapperContained); }
 // public void keepUpBody() { wrapperContained.keepUpBody(); }
 // public void keepUpHead() { wrapperContained.keepUpHead(); }
 // public void slowlyAdjustBody() { wrapperContained.slowlyAdjustBody(); }

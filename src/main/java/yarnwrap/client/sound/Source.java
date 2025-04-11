@@ -11,6 +11,7 @@ public class Source { public net.minecraft.client.sound.Source wrapperContained;
 // public void bufferSize(int value) { wrapperContained.bufferSize = value; }
 // public yarnwrap.client.sound.AudioStream stream() { return new yarnwrap.client.sound.AudioStream(wrapperContained.stream); }
 // public void stream(yarnwrap.client.sound.AudioStream value) { wrapperContained.stream = value.wrapperContained; }
+// public Source(int pointer) { this.wrapperContained = new net.minecraft.client.sound.Source(pointer); }
 // public yarnwrap.client.sound.Source create() { return new yarnwrap.client.sound.Source(wrapperContained.create()); }
 public void setPitch(float pitch) { wrapperContained.setPitch(pitch); }
 // public void read(int count) { wrapperContained.read(count); }
@@ -21,9 +22,11 @@ public void setStream(yarnwrap.client.sound.AudioStream stream) { wrapperContain
 public void setLooping(boolean looping) { wrapperContained.setLooping(looping); }
 public void close() { wrapperContained.close(); }
 public void setVolume(float volume) { wrapperContained.setVolume(volume); }
+// public void method_19648(int pointer) { wrapperContained.method_19648(pointer); }
 public void setRelative(boolean relative) { wrapperContained.setRelative(relative); }
 public void play() { wrapperContained.play(); }
 public void setAttenuation(float attenuation) { wrapperContained.setAttenuation(attenuation); }
+// public void method_19652(int pointer) { wrapperContained.method_19652(pointer); }
 public void pause() { wrapperContained.pause(); }
 public void resume() { wrapperContained.resume(); }
 public void stop() { wrapperContained.stop(); }

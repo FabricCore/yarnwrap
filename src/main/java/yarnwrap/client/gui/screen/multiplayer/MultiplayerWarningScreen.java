@@ -11,5 +11,6 @@ public class MultiplayerWarningScreen { public net.minecraft.client.gui.screen.m
 // public void NARRATED_TEXT(yarnwrap.text.Text value) { wrapperContained.NARRATED_TEXT = value.wrapperContained; }
 // public yarnwrap.client.gui.screen.Screen parent() { return new yarnwrap.client.gui.screen.Screen(wrapperContained.parent); }
 // public void parent(yarnwrap.client.gui.screen.Screen value) { wrapperContained.parent = value.wrapperContained; }
+public MultiplayerWarningScreen(yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.gui.screen.multiplayer.MultiplayerWarningScreen(parent.wrapperContained); }
 
 }

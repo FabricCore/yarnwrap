@@ -21,6 +21,7 @@ public class ParrotEntityModel { public net.minecraft.client.render.entity.model
 // public void body(yarnwrap.client.model.ModelPart value) { wrapperContained.body = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart tail() { return new yarnwrap.client.model.ModelPart(wrapperContained.tail); }
 // public void tail(yarnwrap.client.model.ModelPart value) { wrapperContained.tail = value.wrapperContained; }
+public ParrotEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.ParrotEntityModel(root.wrapperContained); }
 public void poseOnShoulder(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertexConsumer,int light,int overlay,float limbAngle,float limbDistance,float headYaw,float headPitch,int danceAngle) { wrapperContained.poseOnShoulder(matrices.wrapperContained,vertexConsumer.wrapperContained,light,overlay,limbAngle,limbDistance,headYaw,headPitch,danceAngle); }
 // public Object getPose(yarnwrap.entity.passive.ParrotEntity parrot) { return wrapperContained.getPose(parrot.wrapperContained); }
 // public void animateModel(Object pose) { wrapperContained.animateModel(pose); }

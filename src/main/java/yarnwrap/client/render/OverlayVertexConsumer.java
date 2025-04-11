@@ -19,5 +19,6 @@ public class OverlayVertexConsumer { public net.minecraft.client.render.OverlayV
 // public void normal(org.joml.Vector3f value) { wrapperContained.normal = value; }
 // public org.joml.Vector3f pos() { return wrapperContained.pos; }
 // public void pos(org.joml.Vector3f value) { wrapperContained.pos = value; }
+// public OverlayVertexConsumer(yarnwrap.client.render.VertexConsumer delegate,Object matrix,float textureScale) { this.wrapperContained = new net.minecraft.client.render.OverlayVertexConsumer(delegate.wrapperContained,matrix,textureScale); }
 
 }

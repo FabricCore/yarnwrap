@@ -13,11 +13,16 @@ public class TextColor { public net.minecraft.text.TextColor wrapperContained; p
 // public void RGB_PREFIX(java.lang.String value) { wrapperContained.RGB_PREFIX = value; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+// public TextColor(int rgb) { this.wrapperContained = new net.minecraft.text.TextColor(rgb); }
+// public TextColor(int rgb,java.lang.String name) { this.wrapperContained = new net.minecraft.text.TextColor(rgb,name); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public int getRgb() { return wrapperContained.getRgb(); }
 public yarnwrap.text.TextColor fromRgb(int rgb) { return new yarnwrap.text.TextColor(wrapperContained.fromRgb(rgb)); }
 public yarnwrap.text.TextColor fromFormatting(yarnwrap.util.Formatting formatting) { return new yarnwrap.text.TextColor(wrapperContained.fromFormatting(formatting.wrapperContained)); }
 public com.mojang.serialization.DataResult parse(java.lang.String name) { return wrapperContained.parse(name); }
+// public java.lang.String method_27720(yarnwrap.text.TextColor textColor) { return wrapperContained.method_27720(textColor.wrapperContained); }
 public java.lang.String getName() { return wrapperContained.getName(); }
+// public yarnwrap.text.TextColor method_27722(yarnwrap.util.Formatting formatting) { return new yarnwrap.text.TextColor(wrapperContained.method_27722(formatting.wrapperContained)); }
 // public java.lang.String getHexCode() { return wrapperContained.getHexCode(); }
 
 }

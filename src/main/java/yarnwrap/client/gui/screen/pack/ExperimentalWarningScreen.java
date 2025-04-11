@@ -13,5 +13,10 @@ public class ExperimentalWarningScreen { public net.minecraft.client.gui.screen.
 // public void enabledProfiles(java.util.Collection value) { wrapperContained.enabledProfiles = value; }
 // public yarnwrap.client.gui.widget.GridWidget grid() { return new yarnwrap.client.gui.widget.GridWidget(wrapperContained.grid); }
 // public void grid(yarnwrap.client.gui.widget.GridWidget value) { wrapperContained.grid = value.wrapperContained; }
+public ExperimentalWarningScreen(java.util.Collection enabledProfiles,it.unimi.dsi.fastutil.booleans.BooleanConsumer callback) { this.wrapperContained = new net.minecraft.client.gui.screen.pack.ExperimentalWarningScreen(enabledProfiles,callback); }
+// public void method_45666(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_45666(button.wrapperContained); }
+// public void method_45667(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_45667(button.wrapperContained); }
+// public void method_45668(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_45668(button.wrapperContained); }
+// public void method_49008(yarnwrap.client.gui.screen.pack.ExperimentalWarningScreen child) { wrapperContained.method_49008(child.wrapperContained); }
 
 }

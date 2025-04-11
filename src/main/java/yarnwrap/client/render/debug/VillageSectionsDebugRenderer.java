@@ -8,5 +8,6 @@ public class VillageSectionsDebugRenderer { public net.minecraft.client.render.d
 public void addSection(yarnwrap.util.math.ChunkSectionPos pos) { wrapperContained.addSection(pos.wrapperContained); }
 public void removeSection(yarnwrap.util.math.ChunkSectionPos pos) { wrapperContained.removeSection(pos.wrapperContained); }
 // public void drawBoxAtCenterOf(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,yarnwrap.util.math.ChunkSectionPos sectionPos) { wrapperContained.drawBoxAtCenterOf(matrices.wrapperContained,vertexConsumers.wrapperContained,sectionPos.wrapperContained); }
+// public void method_49049(yarnwrap.util.math.BlockPos section) { wrapperContained.method_49049(section.wrapperContained); }
 
 }

@@ -1,6 +1,9 @@
 package yarnwrap.entity.ai.brain.task;
 public class VillagerWalkTowardsTask { public net.minecraft.entity.ai.brain.task.VillagerWalkTowardsTask wrapperContained; public VillagerWalkTowardsTask(net.minecraft.entity.ai.brain.task.VillagerWalkTowardsTask wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.entity.ai.brain.task.TaskRunnable method_47100(Object cantReachWalkTargetSince,int walkTarget,yarnwrap.entity.ai.brain.MemoryModuleType destinationResult) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(wrapperContained.method_47100(cantReachWalkTargetSince,walkTarget,destinationResult.wrapperContained)); }
+// public boolean method_47101(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,yarnwrap.entity.ai.brain.MemoryQueryResult time) { return wrapperContained.method_47101(world,entity.wrapperContained,time.wrapperContained); }
 public yarnwrap.entity.ai.brain.task.SingleTickTask create(yarnwrap.entity.ai.brain.MemoryModuleType destination,float speed,int completionRange,int maxDistance,int maxRunTime) { return new yarnwrap.entity.ai.brain.task.SingleTickTask(wrapperContained.create(destination.wrapperContained,speed,completionRange,maxDistance,maxRunTime)); }
+// public com.mojang.datafixers.kinds.App method_47103(yarnwrap.entity.ai.brain.MemoryModuleType context) { return wrapperContained.method_47103(context.wrapperContained); }
 
 }

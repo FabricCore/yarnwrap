@@ -18,7 +18,10 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void breakPatternBlocks(yarnwrap.world.World world,Object patternResult) { wrapperContained.breakPatternBlocks(world.wrapperContained,patternResult); }
 // public void spawnEntity(yarnwrap.world.World world,Object patternResult,yarnwrap.entity.Entity entity,yarnwrap.util.math.BlockPos pos) { wrapperContained.spawnEntity(world.wrapperContained,patternResult,entity.wrapperContained,pos.wrapperContained); }
 // public void updatePatternBlocks(yarnwrap.world.World world,Object patternResult) { wrapperContained.updatePatternBlocks(world.wrapperContained,patternResult); }
+// public boolean method_51167(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.method_51167(pos.wrapperContained); }
+// public boolean method_51168(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.method_51168(pos.wrapperContained); }
 // public yarnwrap.block.pattern.BlockPattern getIronGolemDispenserPattern() { return new yarnwrap.block.pattern.BlockPattern(wrapperContained.getIronGolemDispenserPattern()); }
+// public boolean method_9728(yarnwrap.block.BlockState state) { return wrapperContained.method_9728(state.wrapperContained); }
 // public yarnwrap.block.pattern.BlockPattern getSnowGolemPattern() { return new yarnwrap.block.pattern.BlockPattern(wrapperContained.getSnowGolemPattern()); }
 // public yarnwrap.block.pattern.BlockPattern getIronGolemPattern() { return new yarnwrap.block.pattern.BlockPattern(wrapperContained.getIronGolemPattern()); }
 // public void trySpawnEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.trySpawnEntity(world.wrapperContained,pos.wrapperContained); }

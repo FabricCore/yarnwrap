@@ -17,5 +17,6 @@ public boolean canBeEnabledLater() { return wrapperContained.canBeEnabledLater()
 // // public java.util.function.UnaryOperator getSourceTextSupplier(java.lang.String translationKey) { return wrapperContained.getSourceTextSupplier(translationKey); }
 // public yarnwrap.resource.ResourcePackSource create(java.util.function.UnaryOperator sourceTextSupplier,boolean canBeEnabledLater) { return new yarnwrap.resource.ResourcePackSource(wrapperContained.create(sourceTextSupplier,canBeEnabledLater)); }
 public yarnwrap.text.Text decorate(yarnwrap.text.Text packDisplayName) { return new yarnwrap.text.Text(wrapperContained.decorate(packDisplayName.wrapperContained)); }
+// public yarnwrap.text.Text method_45283(yarnwrap.text.Text name) { return new yarnwrap.text.Text(wrapperContained.method_45283(name.wrapperContained)); }
 
 }

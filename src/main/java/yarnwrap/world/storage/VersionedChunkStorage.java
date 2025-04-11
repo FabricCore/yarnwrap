@@ -9,11 +9,13 @@ public class VersionedChunkStorage { public net.minecraft.world.storage.Versione
 // public void worker(yarnwrap.world.storage.StorageIoWorker value) { wrapperContained.worker = value.wrapperContained; }
 public int FEATURE_UPDATING_VERSION() { return wrapperContained.FEATURE_UPDATING_VERSION; }
 // public void FEATURE_UPDATING_VERSION(int value) { wrapperContained.FEATURE_UPDATING_VERSION = value; }
+public VersionedChunkStorage(yarnwrap.world.storage.StorageKey storageKey,java.nio.file.Path directory,com.mojang.datafixers.DataFixer dataFixer,boolean dsync) { this.wrapperContained = new net.minecraft.world.storage.VersionedChunkStorage(storageKey.wrapperContained,directory,dataFixer,dsync); }
 public yarnwrap.nbt.NbtCompound updateChunkNbt(yarnwrap.registry.RegistryKey worldKey,java.util.function.Supplier persistentStateManagerFactory,yarnwrap.nbt.NbtCompound nbt,java.util.Optional generatorCodecKey) { return new yarnwrap.nbt.NbtCompound(wrapperContained.updateChunkNbt(worldKey.wrapperContained,persistentStateManagerFactory,nbt.wrapperContained,generatorCodecKey)); }
 public int getDataVersion(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.getDataVersion(nbt.wrapperContained); }
 public java.util.concurrent.CompletableFuture setNbt(yarnwrap.util.math.ChunkPos chunkPos,yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.setNbt(chunkPos.wrapperContained,nbt.wrapperContained); }
 public java.util.concurrent.CompletableFuture getNbt(yarnwrap.util.math.ChunkPos chunkPos) { return wrapperContained.getNbt(chunkPos.wrapperContained); }
 public void completeAll() { wrapperContained.completeAll(); }
+// public void method_39798(yarnwrap.nbt.NbtCompound key) { wrapperContained.method_39798(key.wrapperContained); }
 public void saveContextToNbt(yarnwrap.nbt.NbtCompound nbt,yarnwrap.registry.RegistryKey worldKey,java.util.Optional generatorCodecKey) { wrapperContained.saveContextToNbt(nbt.wrapperContained,worldKey.wrapperContained,generatorCodecKey); }
 public yarnwrap.world.storage.NbtScannable getWorker() { return new yarnwrap.world.storage.NbtScannable(wrapperContained.getWorker()); }
 public boolean needsBlending(yarnwrap.util.math.ChunkPos chunkPos,int checkRadius) { return wrapperContained.needsBlending(chunkPos.wrapperContained,checkRadius); }

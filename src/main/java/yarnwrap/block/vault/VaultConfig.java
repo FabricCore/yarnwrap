@@ -7,6 +7,8 @@ public class VaultConfig { public net.minecraft.block.vault.VaultConfig wrapperC
 // public void DEFAULT(yarnwrap.block.vault.VaultConfig value) { wrapperContained.DEFAULT = value.wrapperContained; }
 // public com.mojang.serialization.Codec codec() { return wrapperContained.codec; }
 // public void codec(com.mojang.serialization.Codec value) { wrapperContained.codec = value; }
+public VaultConfig(yarnwrap.registry.RegistryKey lootTable,double activationRange,double deactivationRange,yarnwrap.item.ItemStack keyItem,java.util.Optional overrideLootTableToDisplay) { this.wrapperContained = new net.minecraft.block.vault.VaultConfig(lootTable.wrapperContained,activationRange,deactivationRange,keyItem.wrapperContained,overrideLootTableToDisplay); }
+// public com.mojang.datafixers.kinds.App method_56764(Object instance) { return wrapperContained.method_56764(instance); }
 // public com.mojang.serialization.DataResult validate() { return wrapperContained.validate(); }
 
 }

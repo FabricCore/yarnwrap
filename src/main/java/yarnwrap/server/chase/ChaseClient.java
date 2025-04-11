@@ -17,9 +17,11 @@ public class ChaseClient { public net.minecraft.server.chase.ChaseClient wrapper
 // public void socket(java.net.Socket value) { wrapperContained.socket = value; }
 // public java.lang.Thread thread() { return wrapperContained.thread; }
 // public void thread(java.lang.Thread value) { wrapperContained.thread = value; }
+public ChaseClient(java.lang.String ip,int port,yarnwrap.server.MinecraftServer minecraftServer) { this.wrapperContained = new net.minecraft.server.chase.ChaseClient(ip,port,minecraftServer.wrapperContained); }
 public void start() { wrapperContained.start(); }
 // public void parseMessage(java.lang.String message) { wrapperContained.parseMessage(message); }
 // public void executeTeleportCommand(java.util.Scanner scanner) { wrapperContained.executeTeleportCommand(scanner); }
+// public void method_38758(Object pos) { wrapperContained.method_38758(pos); }
 public void stop() { wrapperContained.stop(); }
 // public void executeCommand(java.lang.String command) { wrapperContained.executeCommand(command); }
 // public java.util.Optional getTeleportPos(java.util.Scanner scanner) { return wrapperContained.getTeleportPos(scanner); }

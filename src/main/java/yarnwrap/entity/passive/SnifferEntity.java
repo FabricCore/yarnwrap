@@ -36,6 +36,7 @@ public yarnwrap.entity.passive.SnifferEntity finishDigging(boolean explored) { r
 public boolean isDiggingOrSearching() { return wrapperContained.isDiggingOrSearching(); }
 public boolean canTryToDig() { return wrapperContained.canTryToDig(); }
 // public yarnwrap.entity.passive.SnifferEntity playScentingSound() { return new yarnwrap.entity.passive.SnifferEntity(wrapperContained.playScentingSound()); }
+// public boolean method_51157(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_51157(pos.wrapperContained); }
 public boolean isTempted() { return wrapperContained.isTempted(); }
 public boolean isSearching() { return wrapperContained.isSearching(); }
 // public yarnwrap.util.math.BlockPos getDigPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getDigPos()); }

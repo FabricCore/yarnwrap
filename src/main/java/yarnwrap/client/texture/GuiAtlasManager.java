@@ -3,6 +3,7 @@ public class GuiAtlasManager { public net.minecraft.client.texture.GuiAtlasManag
 
 // public java.util.Set METADATA_READERS() { return wrapperContained.METADATA_READERS; }
 // public void METADATA_READERS(java.util.Set value) { wrapperContained.METADATA_READERS = value; }
+public GuiAtlasManager(yarnwrap.client.texture.TextureManager manager) { this.wrapperContained = new net.minecraft.client.texture.GuiAtlasManager(manager.wrapperContained); }
 public yarnwrap.client.texture.Scaling getScaling(yarnwrap.client.texture.Sprite sprite) { return new yarnwrap.client.texture.Scaling(wrapperContained.getScaling(sprite.wrapperContained)); }
 // public yarnwrap.client.resource.metadata.GuiResourceMetadata getGuiMetadata(yarnwrap.client.texture.Sprite sprite) { return new yarnwrap.client.resource.metadata.GuiResourceMetadata(wrapperContained.getGuiMetadata(sprite.wrapperContained)); }
 

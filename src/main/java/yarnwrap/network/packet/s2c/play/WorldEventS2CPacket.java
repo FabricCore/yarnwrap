@@ -11,6 +11,8 @@ public class WorldEventS2CPacket { public net.minecraft.network.packet.s2c.play.
 // public void pos(yarnwrap.util.math.BlockPos value) { wrapperContained.pos = value.wrapperContained; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public WorldEventS2CPacket(int eventId,yarnwrap.util.math.BlockPos pos,int data,boolean global) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.WorldEventS2CPacket(eventId,pos.wrapperContained,data,global); }
+// public WorldEventS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.WorldEventS2CPacket(buf.wrapperContained); }
 public yarnwrap.util.math.BlockPos getPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getPos()); }
 public int getEventId() { return wrapperContained.getEventId(); }
 public boolean isGlobal() { return wrapperContained.isGlobal(); }

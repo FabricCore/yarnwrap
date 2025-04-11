@@ -7,5 +7,8 @@ public class CoralBlock { public net.minecraft.block.CoralBlock wrapperContained
 // public void SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.SHAPE = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public CoralBlock(yarnwrap.block.Block deadCoralBlock,Object settings) { this.wrapperContained = new net.minecraft.block.CoralBlock(deadCoralBlock.wrapperContained,settings); }
+// public com.mojang.datafixers.kinds.App method_54006(Object instance) { return wrapperContained.method_54006(instance); }
+// public yarnwrap.block.Block method_54007(yarnwrap.block.CoralBlock block) { return new yarnwrap.block.Block(wrapperContained.method_54007(block.wrapperContained)); }
 
 }

@@ -7,6 +7,7 @@ public class NoteBlockInstrument { public net.minecraft.block.enums.NoteBlockIns
 // public void sound(yarnwrap.registry.entry.RegistryEntry value) { wrapperContained.sound = value.wrapperContained; }
 // public Object type() { return wrapperContained.type; }
 // // public void type(Object value) { wrapperContained.type = value; }
+// // public NoteBlockInstrument(java.lang.String name,int sound,java.lang.String type) { this.wrapperContained = new net.minecraft.block.enums.NoteBlockInstrument(name,sound,type); }
 public yarnwrap.registry.entry.RegistryEntry getSound() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.getSound()); }
 public boolean canBePitched() { return wrapperContained.canBePitched(); }
 public boolean hasCustomSound() { return wrapperContained.hasCustomSound(); }

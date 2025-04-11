@@ -7,5 +7,6 @@ public class CraftingResultSlot { public net.minecraft.screen.slot.CraftingResul
 // public void amount(int value) { wrapperContained.amount = value; }
 // public yarnwrap.inventory.RecipeInputInventory input() { return new yarnwrap.inventory.RecipeInputInventory(wrapperContained.input); }
 // public void input(yarnwrap.inventory.RecipeInputInventory value) { wrapperContained.input = value.wrapperContained; }
+public CraftingResultSlot(yarnwrap.entity.player.PlayerEntity player,yarnwrap.inventory.RecipeInputInventory input,yarnwrap.inventory.Inventory inventory,int index,int x,int y) { this.wrapperContained = new net.minecraft.screen.slot.CraftingResultSlot(player.wrapperContained,input.wrapperContained,inventory.wrapperContained,index,x,y); }
 
 }

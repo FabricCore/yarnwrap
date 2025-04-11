@@ -23,10 +23,13 @@ public java.lang.String ID_NBT_KEY() { return wrapperContained.ID_NBT_KEY; }
 // public void BASE_NBT_KEY(java.lang.String value) { wrapperContained.BASE_NBT_KEY = value; }
 // public java.lang.String MODIFIERS_NBT_KEY() { return wrapperContained.MODIFIERS_NBT_KEY; }
 // public void MODIFIERS_NBT_KEY(java.lang.String value) { wrapperContained.MODIFIERS_NBT_KEY = value; }
+public EntityAttributeInstance(yarnwrap.registry.entry.RegistryEntry type,java.util.function.Consumer updateCallback) { this.wrapperContained = new net.minecraft.entity.attribute.EntityAttributeInstance(type.wrapperContained,updateCallback); }
 public void setFrom(yarnwrap.entity.attribute.EntityAttributeInstance other) { wrapperContained.setFrom(other.wrapperContained); }
+// public void method_26832(Object operation,java.util.Map modifiers) { wrapperContained.method_26832(operation,modifiers); }
 public void readNbt(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.readNbt(nbt.wrapperContained); }
 // public java.util.Collection getModifiersByOperation(Object operation) { return wrapperContained.getModifiersByOperation(operation); }
 public void addTemporaryModifier(yarnwrap.entity.attribute.EntityAttributeModifier modifier) { wrapperContained.addTemporaryModifier(modifier.wrapperContained); }
+// public java.util.Map method_26836(Object operationx) { return wrapperContained.method_26836(operationx); }
 public void addPersistentModifier(yarnwrap.entity.attribute.EntityAttributeModifier modifier) { wrapperContained.addPersistentModifier(modifier.wrapperContained); }
 // public void onUpdate() { wrapperContained.onUpdate(); }
 public yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt()); }

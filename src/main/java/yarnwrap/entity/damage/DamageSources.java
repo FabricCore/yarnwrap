@@ -51,6 +51,7 @@ public class DamageSources { public net.minecraft.entity.damage.DamageSources wr
 // public void genericKill(yarnwrap.entity.damage.DamageSource value) { wrapperContained.genericKill = value.wrapperContained; }
 // public yarnwrap.entity.damage.DamageSource campfire() { return new yarnwrap.entity.damage.DamageSource(wrapperContained.campfire); }
 // public void campfire(yarnwrap.entity.damage.DamageSource value) { wrapperContained.campfire = value.wrapperContained; }
+public DamageSources(yarnwrap.registry.DynamicRegistryManager registryManager) { this.wrapperContained = new net.minecraft.entity.damage.DamageSources(registryManager.wrapperContained); }
 // public yarnwrap.entity.damage.DamageSource inFire() { return new yarnwrap.entity.damage.DamageSource(wrapperContained.inFire()); }
 // public yarnwrap.entity.damage.DamageSource create(yarnwrap.registry.RegistryKey key) { return new yarnwrap.entity.damage.DamageSource(wrapperContained.create(key.wrapperContained)); }
 // public yarnwrap.entity.damage.DamageSource create(yarnwrap.registry.RegistryKey key,yarnwrap.entity.Entity attacker) { return new yarnwrap.entity.damage.DamageSource(wrapperContained.create(key.wrapperContained,attacker.wrapperContained)); }

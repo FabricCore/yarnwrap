@@ -7,6 +7,7 @@ public class WindChargeEntityModel { public net.minecraft.client.render.entity.m
 // public void windCharge(yarnwrap.client.model.ModelPart value) { wrapperContained.windCharge = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart wind() { return new yarnwrap.client.model.ModelPart(wrapperContained.wind); }
 // public void wind(yarnwrap.client.model.ModelPart value) { wrapperContained.wind = value.wrapperContained; }
+public WindChargeEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.WindChargeEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

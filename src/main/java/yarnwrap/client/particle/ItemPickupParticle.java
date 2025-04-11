@@ -23,6 +23,8 @@ public class ItemPickupParticle { public net.minecraft.client.particle.ItemPicku
 // public void lastTargetY(double value) { wrapperContained.lastTargetY = value; }
 // public double lastTargetZ() { return wrapperContained.lastTargetZ; }
 // public void lastTargetZ(double value) { wrapperContained.lastTargetZ = value; }
+public ItemPickupParticle(yarnwrap.client.render.entity.EntityRenderDispatcher dispatcher,yarnwrap.client.render.BufferBuilderStorage bufferStorage,yarnwrap.client.world.ClientWorld world,yarnwrap.entity.Entity itemEntity,yarnwrap.entity.Entity interactingEntity) { this.wrapperContained = new net.minecraft.client.particle.ItemPickupParticle(dispatcher.wrapperContained,bufferStorage.wrapperContained,world.wrapperContained,itemEntity.wrapperContained,interactingEntity.wrapperContained); }
+// public ItemPickupParticle(yarnwrap.client.render.entity.EntityRenderDispatcher dispatcher,yarnwrap.client.render.BufferBuilderStorage bufferStorage,yarnwrap.client.world.ClientWorld world,yarnwrap.entity.Entity itemEntity,yarnwrap.entity.Entity interactingEntity,yarnwrap.util.math.Vec3d velocity) { this.wrapperContained = new net.minecraft.client.particle.ItemPickupParticle(dispatcher.wrapperContained,bufferStorage.wrapperContained,world.wrapperContained,itemEntity.wrapperContained,interactingEntity.wrapperContained,velocity.wrapperContained); }
 // public yarnwrap.entity.Entity getOrCopy(yarnwrap.entity.Entity entity) { return new yarnwrap.entity.Entity(wrapperContained.getOrCopy(entity.wrapperContained)); }
 // public void updateTargetPos() { wrapperContained.updateTargetPos(); }
 // public void updateLastTargetPos() { wrapperContained.updateLastTargetPos(); }

@@ -15,6 +15,9 @@ public class RealmsTermsScreen { public net.minecraft.client.realms.gui.screen.R
 // public void SENTENCE_ONE_TEXT(yarnwrap.text.Text value) { wrapperContained.SENTENCE_ONE_TEXT = value.wrapperContained; }
 // public yarnwrap.text.Text SENTENCE_TWO_TEXT() { return new yarnwrap.text.Text(wrapperContained.SENTENCE_TWO_TEXT); }
 // public void SENTENCE_TWO_TEXT(yarnwrap.text.Text value) { wrapperContained.SENTENCE_TWO_TEXT = value.wrapperContained; }
+public RealmsTermsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.realms.dto.RealmsServer realmsServer) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsTermsScreen(parent.wrapperContained,realmsServer.wrapperContained); }
 // public void agreedToTos() { wrapperContained.agreedToTos(); }
+// public void method_25274(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25274(button.wrapperContained); }
+// public void method_25275(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25275(button.wrapperContained); }
 
 }

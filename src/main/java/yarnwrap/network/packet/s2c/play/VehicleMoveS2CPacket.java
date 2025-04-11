@@ -13,6 +13,8 @@ public class VehicleMoveS2CPacket { public net.minecraft.network.packet.s2c.play
 // public void x(double value) { wrapperContained.x = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public VehicleMoveS2CPacket(yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.VehicleMoveS2CPacket(entity.wrapperContained); }
+// public VehicleMoveS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.VehicleMoveS2CPacket(buf.wrapperContained); }
 public double getZ() { return wrapperContained.getZ(); }
 public float getPitch() { return wrapperContained.getPitch(); }
 public double getX() { return wrapperContained.getX(); }

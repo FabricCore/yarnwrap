@@ -15,7 +15,12 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public com.mojang.serialization.Codec FLUID_CODEC() { return wrapperContained.FLUID_CODEC; }
 // public void FLUID_CODEC(com.mojang.serialization.Codec value) { wrapperContained.FLUID_CODEC = value; }
+// public FluidBlock(yarnwrap.fluid.FlowableFluid fluid,Object settings) { this.wrapperContained = new net.minecraft.block.FluidBlock(fluid.wrapperContained,settings); }
 // public boolean receiveNeighborFluids(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { return wrapperContained.receiveNeighborFluids(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public void playExtinguishSound(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { wrapperContained.playExtinguishSound(world.wrapperContained,pos.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_54027(Object instance) { return wrapperContained.method_54027(instance); }
+// public yarnwrap.fluid.FlowableFluid method_54028(yarnwrap.block.FluidBlock block) { return new yarnwrap.fluid.FlowableFluid(wrapperContained.method_54028(block.wrapperContained)); }
+// public yarnwrap.fluid.Fluid method_54029(yarnwrap.fluid.FlowableFluid fluid) { return new yarnwrap.fluid.Fluid(wrapperContained.method_54029(fluid.wrapperContained)); }
+// public com.mojang.serialization.DataResult method_54030(yarnwrap.fluid.Fluid fluid) { return wrapperContained.method_54030(fluid.wrapperContained); }
 
 }

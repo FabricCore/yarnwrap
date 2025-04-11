@@ -7,6 +7,7 @@ public class JsonDataLoader { public net.minecraft.resource.JsonDataLoader wrapp
 // public void gson(com.google.gson.Gson value) { wrapperContained.gson = value; }
 // public java.lang.String dataType() { return wrapperContained.dataType; }
 // public void dataType(java.lang.String value) { wrapperContained.dataType = value; }
+// public JsonDataLoader(com.google.gson.Gson gson,java.lang.String dataType) { this.wrapperContained = new net.minecraft.resource.JsonDataLoader(gson,dataType); }
 public void load(yarnwrap.resource.ResourceManager manager,java.lang.String dataType,com.google.gson.Gson gson,java.util.Map results) { wrapperContained.load(manager.wrapperContained,dataType,gson,results); }
 
 }

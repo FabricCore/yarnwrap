@@ -15,6 +15,7 @@ public class WorldGenerationProgressTracker { public net.minecraft.server.WorldG
 // public void size(int value) { wrapperContained.size = value; }
 // public boolean running() { return wrapperContained.running; }
 // public void running(boolean value) { wrapperContained.running = value; }
+// public WorldGenerationProgressTracker(yarnwrap.server.WorldGenerationProgressLogger progressLogger,int centerSize,int radius,int size) { this.wrapperContained = new net.minecraft.server.WorldGenerationProgressTracker(progressLogger.wrapperContained,centerSize,radius,size); }
 public yarnwrap.world.chunk.ChunkStatus getChunkStatus(int x,int z) { return new yarnwrap.world.chunk.ChunkStatus(wrapperContained.getChunkStatus(x,z)); }
 public int getCenterSize() { return wrapperContained.getCenterSize(); }
 public int getSize() { return wrapperContained.getSize(); }

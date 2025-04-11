@@ -11,6 +11,7 @@ public class MusicTracker { public net.minecraft.client.sound.MusicTracker wrapp
 // public void current(yarnwrap.client.sound.SoundInstance value) { wrapperContained.current = value.wrapperContained; }
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
+public MusicTracker(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.sound.MusicTracker(client.wrapperContained); }
 public void tick() { wrapperContained.tick(); }
 public void play(yarnwrap.sound.MusicSound type) { wrapperContained.play(type.wrapperContained); }
 public void stop() { wrapperContained.stop(); }

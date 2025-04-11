@@ -7,6 +7,7 @@ public class ZipResourcePack { public net.minecraft.resource.ZipResourcePack wra
 // // public void zipFile(Object value) { wrapperContained.zipFile = value; }
 // public java.lang.String overlay() { return wrapperContained.overlay; }
 // public void overlay(java.lang.String value) { wrapperContained.overlay = value; }
+// public ZipResourcePack(yarnwrap.resource.ResourcePackInfo info,Object zipFile,java.lang.String overlay) { this.wrapperContained = new net.minecraft.resource.ZipResourcePack(info.wrapperContained,zipFile,overlay); }
 // public yarnwrap.resource.InputSupplier openFile(java.lang.String path) { return new yarnwrap.resource.InputSupplier(wrapperContained.openFile(path)); }
 // public java.lang.String toPath(yarnwrap.resource.ResourceType type,yarnwrap.util.Identifier id) { return wrapperContained.toPath(type.wrapperContained,id.wrapperContained); }
 // public java.lang.String appendOverlayPrefix(java.lang.String path) { return wrapperContained.appendOverlayPrefix(path); }

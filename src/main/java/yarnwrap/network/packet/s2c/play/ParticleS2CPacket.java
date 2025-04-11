@@ -23,6 +23,8 @@ public class ParticleS2CPacket { public net.minecraft.network.packet.s2c.play.Pa
 // public void speed(float value) { wrapperContained.speed = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public ParticleS2CPacket(yarnwrap.particle.ParticleEffect parameters,boolean longDistance,double x,double y,double z,float offsetX,float offsetY,float offsetZ,float speed,int count) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ParticleS2CPacket(parameters.wrapperContained,longDistance,x,y,z,offsetX,offsetY,offsetZ,speed,count); }
+// public ParticleS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ParticleS2CPacket(buf.wrapperContained); }
 public float getSpeed() { return wrapperContained.getSpeed(); }
 public double getX() { return wrapperContained.getX(); }
 public int getCount() { return wrapperContained.getCount(); }

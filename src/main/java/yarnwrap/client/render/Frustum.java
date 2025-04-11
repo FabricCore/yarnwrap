@@ -15,6 +15,8 @@ public int RECESSION_SCALE() { return wrapperContained.RECESSION_SCALE; }
 // public void frustumIntersection(org.joml.FrustumIntersection value) { wrapperContained.frustumIntersection = value; }
 // public org.joml.Matrix4f positionProjectionMatrix() { return wrapperContained.positionProjectionMatrix; }
 // public void positionProjectionMatrix(org.joml.Matrix4f value) { wrapperContained.positionProjectionMatrix = value; }
+public Frustum(yarnwrap.client.render.Frustum frustum) { this.wrapperContained = new net.minecraft.client.render.Frustum(frustum.wrapperContained); }
+public Frustum(org.joml.Matrix4f positionMatrix,org.joml.Matrix4f projectionMatrix) { this.wrapperContained = new net.minecraft.client.render.Frustum(positionMatrix,projectionMatrix); }
 public void setPosition(double cameraX,double cameraY,double cameraZ) { wrapperContained.setPosition(cameraX,cameraY,cameraZ); }
 // public boolean isVisible(double minX,double minY,double minZ,double maxX,double maxY,double maxZ) { return wrapperContained.isVisible(minX,minY,minZ,maxX,maxY,maxZ); }
 // public void init(org.joml.Matrix4f positionMatrix,org.joml.Matrix4f projectionMatrix) { wrapperContained.init(positionMatrix,projectionMatrix); }

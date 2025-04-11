@@ -11,7 +11,11 @@ public class BiomeParametersProvider { public net.minecraft.data.report.BiomePar
 // public void BIOME_KEY_CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.BIOME_KEY_CODEC = value; }
 // public com.mojang.serialization.Codec BIOME_ENTRY_CODEC() { return wrapperContained.BIOME_ENTRY_CODEC; }
 // public void BIOME_ENTRY_CODEC(com.mojang.serialization.Codec value) { wrapperContained.BIOME_ENTRY_CODEC = value; }
+public BiomeParametersProvider(yarnwrap.data.DataOutput output,java.util.concurrent.CompletableFuture registryLookupFuture) { this.wrapperContained = new net.minecraft.data.report.BiomeParametersProvider(output.wrapperContained,registryLookupFuture); }
 // public java.util.concurrent.CompletableFuture write(java.nio.file.Path path,yarnwrap.data.DataWriter writer,com.mojang.serialization.DynamicOps ops,com.mojang.serialization.Encoder codec,java.lang.Object biomeSource) { return wrapperContained.write(path,writer.wrapperContained,ops,codec,biomeSource); }
+// public void method_42031(java.nio.file.Path error) { wrapperContained.method_42031(error); }
 // public java.nio.file.Path resolvePath(yarnwrap.util.Identifier id) { return wrapperContained.resolvePath(id.wrapperContained); }
+// public java.util.concurrent.CompletionStage method_46810(yarnwrap.data.DataWriter lookup) { return wrapperContained.method_46810(lookup.wrapperContained); }
+// public void method_49648(java.util.List preset,yarnwrap.data.DataWriter entries) { wrapperContained.method_49648(preset,entries.wrapperContained); }
 
 }

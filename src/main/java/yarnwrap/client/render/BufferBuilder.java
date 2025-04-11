@@ -27,6 +27,7 @@ public class BufferBuilder { public net.minecraft.client.render.BufferBuilder wr
 // public void offsetsByElementId(int[] value) { wrapperContained.offsetsByElementId = value; }
 // public int currentMask() { return wrapperContained.currentMask; }
 // public void currentMask(int value) { wrapperContained.currentMask = value; }
+// public BufferBuilder(yarnwrap.client.util.BufferAllocator allocator,Object drawMode,yarnwrap.client.render.VertexFormat format) { this.wrapperContained = new net.minecraft.client.render.BufferBuilder(allocator.wrapperContained,drawMode,format.wrapperContained); }
 public yarnwrap.client.render.BuiltBuffer endNullable() { return new yarnwrap.client.render.BuiltBuffer(wrapperContained.endNullable()); }
 // public byte floatToByte(float f) { return wrapperContained.floatToByte(f); }
 // public void putColor(long pointer,int argb) { wrapperContained.putColor(pointer,argb); }

@@ -12,11 +12,14 @@ public class CamelBrain { public net.minecraft.entity.passive.CamelBrain wrapper
 // public com.google.common.collect.ImmutableList MEMORY_MODULES() { return wrapperContained.MEMORY_MODULES; }
 // public void MEMORY_MODULES(com.google.common.collect.ImmutableList value) { wrapperContained.MEMORY_MODULES = value; }
 public Object createProfile() { return wrapperContained.createProfile(); }
+// public java.lang.Float method_45364(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_45364(entity.wrapperContained); }
 // public yarnwrap.entity.ai.brain.Brain create(yarnwrap.entity.ai.brain.Brain brain) { return new yarnwrap.entity.ai.brain.Brain(wrapperContained.create(brain.wrapperContained)); }
 public void updateActivities(yarnwrap.entity.passive.CamelEntity camel) { wrapperContained.updateActivities(camel.wrapperContained); }
 // public void initialize(yarnwrap.entity.passive.CamelEntity camel,yarnwrap.util.math.random.Random random) { wrapperContained.initialize(camel.wrapperContained,random.wrapperContained); }
 public java.util.function.Predicate getTemptItemPredicate() { return wrapperContained.getTemptItemPredicate(); }
 // public void addCoreActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addCoreActivities(brain.wrapperContained); }
 // public void addIdleActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleActivities(brain.wrapperContained); }
+// public java.lang.Double method_52549(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_52549(entity.wrapperContained); }
+// public boolean method_58388(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58388(stack.wrapperContained); }
 
 }

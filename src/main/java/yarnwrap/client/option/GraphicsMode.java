@@ -7,6 +7,7 @@ public class GraphicsMode { public net.minecraft.client.option.GraphicsMode wrap
 // public void id(int value) { wrapperContained.id = value; }
 // public java.lang.String translationKey() { return wrapperContained.translationKey; }
 // public void translationKey(java.lang.String value) { wrapperContained.translationKey = value; }
+// // public GraphicsMode(java.lang.String id,int translationKey) { this.wrapperContained = new net.minecraft.client.option.GraphicsMode(id,translationKey); }
 public yarnwrap.client.option.GraphicsMode byId(int id) { return new yarnwrap.client.option.GraphicsMode(wrapperContained.byId(id)); }
 
 }

@@ -15,6 +15,7 @@ public class RecipeToast { public net.minecraft.client.toast.RecipeToast wrapper
 // public void DEFAULT_DURATION_MS(long value) { wrapperContained.DEFAULT_DURATION_MS = value; }
 // public yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.TEXTURE); }
 // public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
+public RecipeToast(yarnwrap.recipe.RecipeEntry recipe) { this.wrapperContained = new net.minecraft.client.toast.RecipeToast(recipe.wrapperContained); }
 // public void addRecipes(yarnwrap.recipe.RecipeEntry recipe) { wrapperContained.addRecipes(recipe.wrapperContained); }
 public void show(yarnwrap.client.toast.ToastManager manager,yarnwrap.recipe.RecipeEntry recipe) { wrapperContained.show(manager.wrapperContained,recipe.wrapperContained); }
 

@@ -21,6 +21,7 @@ public yarnwrap.client.resource.metadata.AnimationResourceMetadataReader READER(
 // public void width(int value) { wrapperContained.width = value; }
 // public java.util.List frames() { return wrapperContained.frames; }
 // public void frames(java.util.List value) { wrapperContained.frames = value; }
+public AnimationResourceMetadata(java.util.List frames,int width,int height,int defaultFrameTime,boolean interpolate) { this.wrapperContained = new net.minecraft.client.resource.metadata.AnimationResourceMetadata(frames,width,height,defaultFrameTime,interpolate); }
 public yarnwrap.client.texture.SpriteDimensions getSize(int defaultWidth,int defaultHeight) { return new yarnwrap.client.texture.SpriteDimensions(wrapperContained.getSize(defaultWidth,defaultHeight)); }
 // public void forEachFrame(Object consumer) { wrapperContained.forEachFrame(consumer); }
 public int getDefaultFrameTime() { return wrapperContained.getDefaultFrameTime(); }

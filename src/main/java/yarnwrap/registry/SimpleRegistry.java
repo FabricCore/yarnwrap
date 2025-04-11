@@ -29,10 +29,25 @@ public class SimpleRegistry { public net.minecraft.registry.SimpleRegistry wrapp
 // public void keyToEntryInfo(java.util.Map value) { wrapperContained.keyToEntryInfo = value; }
 // public java.lang.Object tagLock() { return wrapperContained.tagLock; }
 // public void tagLock(java.lang.Object value) { wrapperContained.tagLock = value; }
+public SimpleRegistry(yarnwrap.registry.RegistryKey key,com.mojang.serialization.Lifecycle lifecycle) { this.wrapperContained = new net.minecraft.registry.SimpleRegistry(key.wrapperContained,lifecycle); }
+public SimpleRegistry(yarnwrap.registry.RegistryKey key,com.mojang.serialization.Lifecycle lifecycle,boolean intrusive) { this.wrapperContained = new net.minecraft.registry.SimpleRegistry(key.wrapperContained,lifecycle,intrusive); }
+// public void method_39665(it.unimi.dsi.fastutil.objects.Reference2IntOpenHashMap map) { wrapperContained.method_39665(map); }
 // public java.lang.Object getValue(Object entry) { return wrapperContained.getValue(entry); }
+// public void method_40255(Object entryList) { wrapperContained.method_40255(entryList); }
+// public boolean method_40256(Object entry) { return wrapperContained.method_40256(entry); }
+// public void method_40258(java.util.Map tag,yarnwrap.registry.tag.TagKey entries) { wrapperContained.method_40258(tag,entries.wrapperContained); }
+// public void method_40259(java.util.Map entry) { wrapperContained.method_40259(entry); }
+// public void method_40261(Object entry) { wrapperContained.method_40261(entry); }
+// public com.mojang.datafixers.util.Pair method_40262(Object entry) { return wrapperContained.method_40262(entry); }
+// public void method_40263(java.util.Map tag,yarnwrap.registry.tag.TagKey entries) { wrapperContained.method_40263(tag,entries.wrapperContained); }
+// public Object method_40271(java.lang.Object valuex) { return wrapperContained.method_40271(valuex); }
 // public void assertNotFrozen(yarnwrap.registry.RegistryKey key) { wrapperContained.assertNotFrozen(key.wrapperContained); }
 // public Object createNamedEntryList(yarnwrap.registry.tag.TagKey tag) { return wrapperContained.createNamedEntryList(tag.wrapperContained); }
+// public java.lang.String method_40563(yarnwrap.registry.tag.TagKey tag) { return wrapperContained.method_40563(tag.wrapperContained); }
 // public Object getOrCreateEntry(yarnwrap.registry.RegistryKey key) { return wrapperContained.getOrCreateEntry(key.wrapperContained); }
+// public Object method_44299(yarnwrap.registry.RegistryKey key2) { return wrapperContained.method_44299(key2.wrapperContained); }
+// public void method_45938(java.lang.Object value,Object entry) { wrapperContained.method_45938(value,entry); }
 // public void assertNotFrozen() { wrapperContained.assertNotFrozen(); }
+// public Object method_56594(yarnwrap.registry.RegistryKey k) { return wrapperContained.method_56594(k.wrapperContained); }
 
 }

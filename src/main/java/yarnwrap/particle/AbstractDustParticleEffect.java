@@ -9,6 +9,8 @@ public float MAX_SCALE() { return wrapperContained.MAX_SCALE; }
 // public void MAX_SCALE(float value) { wrapperContained.MAX_SCALE = value; }
 // public com.mojang.serialization.Codec SCALE_CODEC() { return wrapperContained.SCALE_CODEC; }
 // public void SCALE_CODEC(com.mojang.serialization.Codec value) { wrapperContained.SCALE_CODEC = value; }
+// public AbstractDustParticleEffect(float scale) { this.wrapperContained = new net.minecraft.particle.AbstractDustParticleEffect(scale); }
+// public com.mojang.serialization.DataResult method_59844(java.lang.Float scale) { return wrapperContained.method_59844(scale); }
 public float getScale() { return wrapperContained.getScale(); }
 
 }

@@ -13,8 +13,11 @@ public class ForgingScreenHandler { public net.minecraft.screen.ForgingScreenHan
 // public void inputSlotIndices(java.util.List value) { wrapperContained.inputSlotIndices = value; }
 // public int resultSlotIndex() { return wrapperContained.resultSlotIndex; }
 // public void resultSlotIndex(int value) { wrapperContained.resultSlotIndex = value; }
+// public ForgingScreenHandler(yarnwrap.screen.ScreenHandlerType type,int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.ForgingScreenHandler(type.wrapperContained,syncId,playerInventory.wrapperContained,context.wrapperContained); }
 // public void onTakeOutput(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack stack) { wrapperContained.onTakeOutput(player.wrapperContained,stack.wrapperContained); }
+// public java.lang.Boolean method_24924(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { return wrapperContained.method_24924(world.wrapperContained,pos.wrapperContained); }
 // public boolean canUse(yarnwrap.block.BlockState state) { return wrapperContained.canUse(state.wrapperContained); }
+// public void method_24926(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { wrapperContained.method_24926(world.wrapperContained,pos.wrapperContained); }
 // public boolean canTakeOutput(yarnwrap.entity.player.PlayerEntity player,boolean present) { return wrapperContained.canTakeOutput(player.wrapperContained,present); }
 public void updateResult() { wrapperContained.updateResult(); }
 // public yarnwrap.screen.slot.ForgingSlotsManager getForgingSlotsManager() { return new yarnwrap.screen.slot.ForgingSlotsManager(wrapperContained.getForgingSlotsManager()); }

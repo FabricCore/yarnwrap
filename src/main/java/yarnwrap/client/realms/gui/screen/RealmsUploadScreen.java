@@ -51,6 +51,7 @@ public class RealmsUploadScreen { public net.minecraft.client.realms.gui.screen.
 // public void creationTask(yarnwrap.client.realms.task.WorldCreationTask value) { wrapperContained.creationTask = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+public RealmsUploadScreen(yarnwrap.client.realms.task.WorldCreationTask creationTask,long worldId,int slotId,yarnwrap.client.realms.gui.screen.RealmsCreateWorldScreen parent,yarnwrap.world.level.storage.LevelSummary selectedLevel) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsUploadScreen(creationTask.wrapperContained,worldId,slotId,parent.wrapperContained,selectedLevel.wrapperContained); }
 // public boolean verify(java.io.File archive) { return wrapperContained.verify(archive); }
 // public void addFileToTarGz(org.apache.commons.compress.archivers.tar.TarArchiveOutputStream tOut,java.lang.String path,java.lang.String base,boolean root) { wrapperContained.addFileToTarGz(tOut,path,base,root); }
 // public java.io.File tarGzipArchive(java.io.File pathToDirectoryFile) { return wrapperContained.tarGzipArchive(pathToDirectoryFile); }
@@ -61,7 +62,11 @@ public class RealmsUploadScreen { public net.minecraft.client.realms.gui.screen.
 // public void drawUploadSpeed(yarnwrap.client.gui.DrawContext context) { wrapperContained.drawUploadSpeed(context.wrapperContained); }
 // public void upload() { wrapperContained.upload(); }
 // public void uploadCancelled() { wrapperContained.uploadCancelled(); }
+// public void method_22105(yarnwrap.client.realms.gui.screen.UploadResult result) { wrapperContained.method_22105(result.wrapperContained); }
+// public void method_25276(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25276(button.wrapperContained); }
+// public void method_25277(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25277(button.wrapperContained); }
 // public void setStatusTexts(net.minecraft.text.Text[] statusTexts) { wrapperContained.setStatusTexts(statusTexts); }
 // public yarnwrap.text.Text getNarration() { return new yarnwrap.text.Text(wrapperContained.getNarration()); }
+// public void method_56133(yarnwrap.client.realms.gui.screen.RealmsUploadScreen child) { wrapperContained.method_56133(child.wrapperContained); }
 
 }

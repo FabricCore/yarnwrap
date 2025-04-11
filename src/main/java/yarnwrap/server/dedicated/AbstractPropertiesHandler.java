@@ -5,6 +5,7 @@ public class AbstractPropertiesHandler { public net.minecraft.server.dedicated.A
 // public void properties(java.util.Properties value) { wrapperContained.properties = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public AbstractPropertiesHandler(java.util.Properties properties) { this.wrapperContained = new net.minecraft.server.dedicated.AbstractPropertiesHandler(properties); }
 // public int transformedParseInt(java.lang.String key,java.util.function.UnaryOperator transformer,int fallback) { return wrapperContained.transformedParseInt(key,transformer,fallback); }
 // public java.util.function.Function wrapNumberParser(java.util.function.Function parser) { return wrapperContained.wrapNumberParser(parser); }
 // public java.util.function.Function combineParser(java.util.function.IntFunction intParser,java.util.function.Function fallbackParser) { return wrapperContained.combineParser(intParser,fallbackParser); }
@@ -14,8 +15,11 @@ public class AbstractPropertiesHandler { public net.minecraft.server.dedicated.A
 // public int getInt(java.lang.String key,int fallback) { return wrapperContained.getInt(key,fallback); }
 public java.util.Properties loadProperties(java.nio.file.Path path) { return wrapperContained.loadProperties(path); }
 public void saveProperties(java.nio.file.Path path) { wrapperContained.saveProperties(path); }
+// public java.lang.Object method_16729(java.util.function.IntFunction string) { return wrapperContained.method_16729(string); }
 // public Object accessor(java.lang.String key,java.util.function.Function parser,java.lang.Object fallback) { return wrapperContained.accessor(key,parser,fallback); }
+// public java.lang.Object method_16731(java.util.function.Function value) { return wrapperContained.method_16731(value); }
 // public java.lang.String getString(java.lang.String key,java.lang.String fallback) { return wrapperContained.getString(key,fallback); }
+// public java.lang.Number method_16733(java.util.function.Function string) { return wrapperContained.method_16733(string); }
 // public java.lang.String getStringValue(java.lang.String key) { return wrapperContained.getStringValue(key); }
 // public java.lang.Object get(java.lang.String key,java.util.function.Function parser,java.util.function.UnaryOperator parsedTransformer,java.util.function.Function stringifier,java.lang.Object fallback) { return wrapperContained.get(key,parser,parsedTransformer,stringifier,fallback); }
 // public java.lang.Boolean getDeprecatedBoolean(java.lang.String key) { return wrapperContained.getDeprecatedBoolean(key); }

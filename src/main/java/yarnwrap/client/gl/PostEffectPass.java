@@ -19,6 +19,7 @@ public yarnwrap.client.gl.Framebuffer output() { return new yarnwrap.client.gl.F
 // public void program(yarnwrap.client.gl.JsonEffectShaderProgram value) { wrapperContained.program = value.wrapperContained; }
 // public int texFilter() { return wrapperContained.texFilter; }
 // public void texFilter(int value) { wrapperContained.texFilter = value; }
+// public PostEffectPass(yarnwrap.resource.ResourceFactory resourceFactory,java.lang.String programName,yarnwrap.client.gl.Framebuffer input,yarnwrap.client.gl.Framebuffer output,boolean linear) { this.wrapperContained = new net.minecraft.client.gl.PostEffectPass(resourceFactory.wrapperContained,programName,input.wrapperContained,output.wrapperContained,linear); }
 public void setProjectionMatrix(org.joml.Matrix4f projectionMatrix) { wrapperContained.setProjectionMatrix(projectionMatrix); }
 public void addAuxTarget(java.lang.String name,java.util.function.IntSupplier valueSupplier,int width,int height) { wrapperContained.addAuxTarget(name,valueSupplier,width,height); }
 public void render(float time) { wrapperContained.render(time); }

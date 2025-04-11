@@ -19,6 +19,8 @@ public class StructurePiece { public net.minecraft.structure.StructurePiece wrap
 // public void type(yarnwrap.structure.StructurePieceType value) { wrapperContained.type = value.wrapperContained; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public StructurePiece(yarnwrap.structure.StructurePieceType type,int length,yarnwrap.util.math.BlockBox boundingBox) { this.wrapperContained = new net.minecraft.structure.StructurePiece(type.wrapperContained,length,boundingBox.wrapperContained); }
+// public StructurePiece(yarnwrap.structure.StructurePieceType type,yarnwrap.nbt.NbtCompound nbt) { this.wrapperContained = new net.minecraft.structure.StructurePiece(type.wrapperContained,nbt.wrapperContained); }
 // public boolean addChest(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.BlockBox boundingBox,yarnwrap.util.math.random.Random random,int x,int y,int z,yarnwrap.registry.RegistryKey lootTable) { return wrapperContained.addChest(world.wrapperContained,boundingBox.wrapperContained,random.wrapperContained,x,y,z,lootTable.wrapperContained); }
 public yarnwrap.block.BlockState orientateChest(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { return new yarnwrap.block.BlockState(wrapperContained.orientateChest(world.wrapperContained,pos.wrapperContained,state.wrapperContained)); }
 // public void addBlock(yarnwrap.world.StructureWorldAccess world,yarnwrap.block.BlockState block,int x,int y,int z,yarnwrap.util.math.BlockBox box) { wrapperContained.addBlock(world.wrapperContained,block.wrapperContained,x,y,z,box.wrapperContained); }
@@ -56,6 +58,7 @@ public yarnwrap.util.BlockRotation getRotation() { return new yarnwrap.util.Bloc
 // public void fillWithOutline(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.BlockBox box,yarnwrap.util.math.BlockBox fillBox,boolean cantReplaceAir,yarnwrap.util.math.random.Random random,Object randomizer) { wrapperContained.fillWithOutline(world.wrapperContained,box.wrapperContained,fillBox.wrapperContained,cantReplaceAir,random.wrapperContained,randomizer); }
 // public yarnwrap.util.math.Direction getRandomHorizontalDirection(yarnwrap.util.math.random.Random random) { return new yarnwrap.util.math.Direction(wrapperContained.getRandomHorizontalDirection(random.wrapperContained)); }
 public yarnwrap.util.math.BlockPos getCenter() { return new yarnwrap.util.math.BlockPos(wrapperContained.getCenter()); }
+// public java.lang.IllegalArgumentException method_35459(java.lang.String error) { return wrapperContained.method_35459(error); }
 public yarnwrap.util.BlockMirror getMirror() { return new yarnwrap.util.BlockMirror(wrapperContained.getMirror()); }
 public yarnwrap.structure.StructurePiece firstIntersecting(java.util.List pieces,yarnwrap.util.math.BlockBox box) { return new yarnwrap.structure.StructurePiece(wrapperContained.firstIntersecting(pieces,box.wrapperContained)); }
 public yarnwrap.util.math.BlockBox boundingBox(java.util.stream.Stream pieces) { return new yarnwrap.util.math.BlockBox(wrapperContained.boundingBox(pieces)); }

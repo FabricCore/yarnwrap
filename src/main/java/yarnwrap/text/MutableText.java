@@ -11,6 +11,8 @@ public class MutableText { public net.minecraft.text.MutableText wrapperContaine
 // public void ordered(yarnwrap.text.OrderedText value) { wrapperContained.ordered = value.wrapperContained; }
 // public yarnwrap.util.Language language() { return new yarnwrap.util.Language(wrapperContained.language); }
 // public void language(yarnwrap.util.Language value) { wrapperContained.language = value.wrapperContained; }
+// public MutableText(yarnwrap.text.TextContent content,java.util.List siblings,yarnwrap.text.Style style) { this.wrapperContained = new net.minecraft.text.MutableText(content.wrapperContained,siblings,style.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.text.MutableText append(yarnwrap.text.Text text) { return new yarnwrap.text.MutableText(wrapperContained.append(text.wrapperContained)); }
 public yarnwrap.text.MutableText setStyle(yarnwrap.text.Style style) { return new yarnwrap.text.MutableText(wrapperContained.setStyle(style.wrapperContained)); }
 public yarnwrap.text.MutableText formatted(yarnwrap.util.Formatting formatting) { return new yarnwrap.text.MutableText(wrapperContained.formatted(formatting.wrapperContained)); }

@@ -31,6 +31,7 @@ public class StructureBlockBlockEntity { public net.minecraft.block.entity.Struc
 // public void rotation(yarnwrap.util.BlockRotation value) { wrapperContained.rotation = value.wrapperContained; }
 public java.lang.String AUTHOR_KEY() { return wrapperContained.AUTHOR_KEY; }
 // public void AUTHOR_KEY(java.lang.String value) { wrapperContained.AUTHOR_KEY = value; }
+public StructureBlockBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.StructureBlockBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void setTemplateName(java.lang.String templateName) { wrapperContained.setTemplateName(templateName); }
 public void setTemplateName(yarnwrap.util.Identifier templateName) { wrapperContained.setTemplateName(templateName.wrapperContained); }
 public yarnwrap.util.BlockMirror getMirror() { return new yarnwrap.util.BlockMirror(wrapperContained.getMirror()); }
@@ -69,8 +70,13 @@ public boolean detectStructureSize() { return wrapperContained.detectStructureSi
 public boolean hasStructureName() { return wrapperContained.hasStructureName(); }
 public void setRotation(yarnwrap.util.BlockRotation rotation) { wrapperContained.setRotation(rotation.wrapperContained); }
 public yarnwrap.util.math.random.Random createRandom(long seed) { return new yarnwrap.util.math.random.Random(wrapperContained.createRandom(seed)); }
+// public yarnwrap.block.entity.StructureBlockBlockEntity method_34273(yarnwrap.block.entity.BlockEntity blockEntity) { return new yarnwrap.block.entity.StructureBlockBlockEntity(wrapperContained.method_34273(blockEntity.wrapperContained)); }
+// public boolean method_34274(yarnwrap.block.entity.StructureBlockBlockEntity blockEntity) { return wrapperContained.method_34274(blockEntity.wrapperContained); }
+// public boolean method_34275(yarnwrap.util.math.BlockPos box) { return wrapperContained.method_34275(box.wrapperContained); }
 // public java.util.stream.Stream streamCornerPos(yarnwrap.util.math.BlockPos start,yarnwrap.util.math.BlockPos end) { return wrapperContained.streamCornerPos(start.wrapperContained,end.wrapperContained); }
 // public java.util.Optional getStructureBox(yarnwrap.util.math.BlockPos pos,java.util.stream.Stream corners) { return wrapperContained.getStructureBox(pos.wrapperContained,corners); }
+// public boolean method_34278(yarnwrap.block.entity.BlockEntity blockEntity) { return wrapperContained.method_34278(blockEntity.wrapperContained); }
+// public boolean method_34279(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_34279(pos.wrapperContained); }
 public boolean loadAndTryPlaceStructure(yarnwrap.server.world.ServerWorld world) { return wrapperContained.loadAndTryPlaceStructure(world.wrapperContained); }
 // public void loadAndPlaceStructure(yarnwrap.server.world.ServerWorld world,yarnwrap.structure.StructureTemplate template) { wrapperContained.loadAndPlaceStructure(world.wrapperContained,template.wrapperContained); }
 // public void loadStructure(yarnwrap.structure.StructureTemplate template) { wrapperContained.loadStructure(template.wrapperContained); }

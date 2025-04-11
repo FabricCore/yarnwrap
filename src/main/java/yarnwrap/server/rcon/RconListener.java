@@ -11,7 +11,9 @@ public class RconListener { public net.minecraft.server.rcon.RconListener wrappe
 // public void SERVER_LOGGER(org.slf4j.Logger value) { wrapperContained.SERVER_LOGGER = value; }
 // public yarnwrap.server.dedicated.DedicatedServer server() { return new yarnwrap.server.dedicated.DedicatedServer(wrapperContained.server); }
 // public void server(yarnwrap.server.dedicated.DedicatedServer value) { wrapperContained.server = value.wrapperContained; }
+// public RconListener(yarnwrap.server.dedicated.DedicatedServer server,java.net.ServerSocket listener,java.lang.String password) { this.wrapperContained = new net.minecraft.server.rcon.RconListener(server.wrapperContained,listener,password); }
 // public void removeStoppedClients() { wrapperContained.removeStoppedClients(); }
+// public boolean method_27175(yarnwrap.server.rcon.RconClient client) { return wrapperContained.method_27175(client.wrapperContained); }
 // public void closeSocket(java.net.ServerSocket socket) { wrapperContained.closeSocket(socket); }
 public yarnwrap.server.rcon.RconListener create(yarnwrap.server.dedicated.DedicatedServer server) { return new yarnwrap.server.rcon.RconListener(wrapperContained.create(server.wrapperContained)); }
 

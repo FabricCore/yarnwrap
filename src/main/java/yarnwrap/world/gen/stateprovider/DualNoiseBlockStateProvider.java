@@ -11,6 +11,7 @@ public com.mojang.serialization.MapCodec DUAL_CODEC() { return wrapperContained.
 // public void slowScale(float value) { wrapperContained.slowScale = value; }
 // public yarnwrap.util.math.noise.DoublePerlinNoiseSampler slowNoiseSampler() { return new yarnwrap.util.math.noise.DoublePerlinNoiseSampler(wrapperContained.slowNoiseSampler); }
 // public void slowNoiseSampler(yarnwrap.util.math.noise.DoublePerlinNoiseSampler value) { wrapperContained.slowNoiseSampler = value.wrapperContained; }
+// public DualNoiseBlockStateProvider(yarnwrap.util.dynamic.Range variety,Object slowNoiseParameters,float slowScale,long seed,Object noiseParameters,float scale,java.util.List states) { this.wrapperContained = new net.minecraft.world.gen.stateprovider.DualNoiseBlockStateProvider(variety.wrapperContained,slowNoiseParameters,slowScale,seed,noiseParameters,scale,states); }
 // public double getSlowNoiseValue(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getSlowNoiseValue(pos.wrapperContained); }
 
 }

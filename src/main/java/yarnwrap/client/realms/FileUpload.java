@@ -31,6 +31,7 @@ public class FileUpload { public net.minecraft.client.realms.FileUpload wrapperC
 // public void UPLOAD_ENDPOINT(java.lang.String value) { wrapperContained.UPLOAD_ENDPOINT = value; }
 // public java.lang.String worldVersion() { return wrapperContained.worldVersion; }
 // public void worldVersion(java.lang.String value) { wrapperContained.worldVersion = value; }
+public FileUpload(java.io.File file,long worldId,int slotId,yarnwrap.client.realms.dto.UploadInfo uploadInfo,yarnwrap.client.session.Session session,java.lang.String clientVersion,java.lang.String worldVersion,yarnwrap.client.realms.UploadStatus uploadStatus) { this.wrapperContained = new net.minecraft.client.realms.FileUpload(file,worldId,slotId,uploadInfo.wrapperContained,session.wrapperContained,clientVersion,worldVersion,uploadStatus.wrapperContained); }
 public void cancel() { wrapperContained.cancel(); }
 // public yarnwrap.client.realms.gui.screen.UploadResult requestUpload(int currentAttempt) { return new yarnwrap.client.realms.gui.screen.UploadResult(wrapperContained.requestUpload(currentAttempt)); }
 // public boolean shouldRetry(long retryDelaySeconds,int currentAttempt) { return wrapperContained.shouldRetry(retryDelaySeconds,currentAttempt); }

@@ -3,5 +3,6 @@ public class DecoratedPotFieldRenameFix { public net.minecraft.datafixer.fix.Dec
 
 // public java.lang.String DECORATED_POT_ID() { return wrapperContained.DECORATED_POT_ID; }
 // public void DECORATED_POT_ID(java.lang.String value) { wrapperContained.DECORATED_POT_ID = value; }
+public DecoratedPotFieldRenameFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.DecoratedPotFieldRenameFix(outputSchema); }
 
 }

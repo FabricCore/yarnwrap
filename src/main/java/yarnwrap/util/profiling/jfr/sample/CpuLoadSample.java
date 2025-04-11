@@ -10,6 +10,7 @@ public class CpuLoadSample { public net.minecraft.util.profiling.jfr.sample.CpuL
 // public double jvm() { return wrapperContained.jvm(); }
 // public double userJvm() { return wrapperContained.userJvm(); }
 // public double system() { return wrapperContained.system(); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.profiling.jfr.sample.CpuLoadSample fromEvent(jdk.jfr.consumer.RecordedEvent event) { return new yarnwrap.util.profiling.jfr.sample.CpuLoadSample(wrapperContained.fromEvent(event)); }
 
 }

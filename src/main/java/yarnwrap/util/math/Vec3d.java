@@ -11,6 +11,9 @@ public yarnwrap.util.math.Vec3d ZERO() { return new yarnwrap.util.math.Vec3d(wra
 // public void ZERO(yarnwrap.util.math.Vec3d value) { wrapperContained.ZERO = value.wrapperContained; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public Vec3d(double x,double y,double z) { this.wrapperContained = new net.minecraft.util.math.Vec3d(x,y,z); }
+public Vec3d(org.joml.Vector3f vec) { this.wrapperContained = new net.minecraft.util.math.Vec3d(vec); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.math.Vec3d add(yarnwrap.util.math.Vec3d vec) { return new yarnwrap.util.math.Vec3d(wrapperContained.add(vec.wrapperContained)); }
 public yarnwrap.util.math.Vec3d subtract(yarnwrap.util.math.Vec3d vec) { return new yarnwrap.util.math.Vec3d(wrapperContained.subtract(vec.wrapperContained)); }
 public yarnwrap.util.math.Vec3d multiply(double value) { return new yarnwrap.util.math.Vec3d(wrapperContained.multiply(value)); }
@@ -45,6 +48,9 @@ public yarnwrap.util.math.Vec3d lerp(yarnwrap.util.math.Vec3d to,double delta) {
 public double horizontalLength() { return wrapperContained.horizontalLength(); }
 public double horizontalLengthSquared() { return wrapperContained.horizontalLengthSquared(); }
 // public yarnwrap.util.math.Vec3d withAxis(Object axis,double value) { return new yarnwrap.util.math.Vec3d(wrapperContained.withAxis(axis,value)); }
+// public com.mojang.serialization.DataResult method_42394(java.util.List coordinates) { return wrapperContained.method_42394(coordinates); }
+// public yarnwrap.util.math.Vec3d method_42395(java.util.List coords) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_42395(coords)); }
+// public java.util.List method_42396(yarnwrap.util.math.Vec3d vec) { return wrapperContained.method_42396(vec.wrapperContained); }
 public yarnwrap.util.math.Vec3d offset(yarnwrap.util.math.Direction direction,double value) { return new yarnwrap.util.math.Vec3d(wrapperContained.offset(direction.wrapperContained,value)); }
 public org.joml.Vector3f toVector3f() { return wrapperContained.toVector3f(); }
 public yarnwrap.util.math.Vec3d addRandom(yarnwrap.util.math.random.Random random,float multiplier) { return new yarnwrap.util.math.Vec3d(wrapperContained.addRandom(random.wrapperContained,multiplier)); }

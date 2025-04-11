@@ -23,6 +23,7 @@ public class Sensor { public net.minecraft.entity.ai.brain.sensor.Sensor wrapper
 // public void ATTACKABLE_TARGET_PREDICATE_IGNORE_VISIBILITY(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.ATTACKABLE_TARGET_PREDICATE_IGNORE_VISIBILITY = value.wrapperContained; }
 // public yarnwrap.entity.ai.TargetPredicate ATTACKABLE_TARGET_PREDICATE_IGNORE_VISIBILITY_OR_DISTANCE_SCALING() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.ATTACKABLE_TARGET_PREDICATE_IGNORE_VISIBILITY_OR_DISTANCE_SCALING); }
 // public void ATTACKABLE_TARGET_PREDICATE_IGNORE_VISIBILITY_OR_DISTANCE_SCALING(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.ATTACKABLE_TARGET_PREDICATE_IGNORE_VISIBILITY_OR_DISTANCE_SCALING = value.wrapperContained; }
+// public Sensor(int senseInterval) { this.wrapperContained = new net.minecraft.entity.ai.brain.sensor.Sensor(senseInterval); }
 public java.util.Set getOutputMemoryModules() { return wrapperContained.getOutputMemoryModules(); }
 public void tick(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity) { wrapperContained.tick(world.wrapperContained,entity.wrapperContained); }
 // public void sense(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity) { wrapperContained.sense(world.wrapperContained,entity.wrapperContained); }

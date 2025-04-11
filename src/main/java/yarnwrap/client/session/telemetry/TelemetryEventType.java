@@ -31,12 +31,15 @@ public yarnwrap.client.session.telemetry.TelemetryEventType ADVANCEMENT_MADE() {
 // public void ADVANCEMENT_MADE(yarnwrap.client.session.telemetry.TelemetryEventType value) { wrapperContained.ADVANCEMENT_MADE = value.wrapperContained; }
 public yarnwrap.client.session.telemetry.TelemetryEventType GAME_LOAD_TIMES() { return new yarnwrap.client.session.telemetry.TelemetryEventType(wrapperContained.GAME_LOAD_TIMES); }
 // public void GAME_LOAD_TIMES(yarnwrap.client.session.telemetry.TelemetryEventType value) { wrapperContained.GAME_LOAD_TIMES = value.wrapperContained; }
+// public TelemetryEventType(java.lang.String id,java.lang.String exportKey,java.util.List properties,boolean optional) { this.wrapperContained = new net.minecraft.client.session.telemetry.TelemetryEventType(id,exportKey,properties,optional); }
 public java.lang.String getId() { return wrapperContained.getId(); }
 public com.mojang.authlib.minecraft.TelemetryEvent createEvent(com.mojang.authlib.minecraft.TelemetrySession session,yarnwrap.client.session.telemetry.PropertyMap properties) { return wrapperContained.createEvent(session,properties.wrapperContained); }
 public boolean hasProperty(yarnwrap.client.session.telemetry.TelemetryEventProperty property) { return wrapperContained.hasProperty(property.wrapperContained); }
+// public yarnwrap.client.session.telemetry.SentTelemetryEvent method_47723(yarnwrap.client.session.telemetry.PropertyMap map) { return new yarnwrap.client.session.telemetry.SentTelemetryEvent(wrapperContained.method_47723(map.wrapperContained)); }
 // public yarnwrap.text.MutableText getText(java.lang.String key) { return new yarnwrap.text.MutableText(wrapperContained.getText(key)); }
 public Object builder(java.lang.String id,java.lang.String sentEventId) { return wrapperContained.builder(id,sentEventId); }
 public java.util.List getProperties() { return wrapperContained.getProperties(); }
+// public com.mojang.serialization.DataResult method_47727(java.lang.String id) { return wrapperContained.method_47727(id); }
 public com.mojang.serialization.MapCodec getCodec() { return wrapperContained.getCodec(); }
 public boolean isOptional() { return wrapperContained.isOptional(); }
 public yarnwrap.text.MutableText getTitle() { return new yarnwrap.text.MutableText(wrapperContained.getTitle()); }

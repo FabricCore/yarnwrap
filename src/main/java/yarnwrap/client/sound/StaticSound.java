@@ -9,6 +9,7 @@ public class StaticSound { public net.minecraft.client.sound.StaticSound wrapper
 // public void hasBuffer(boolean value) { wrapperContained.hasBuffer = value; }
 // public int streamBufferPointer() { return wrapperContained.streamBufferPointer; }
 // public void streamBufferPointer(int value) { wrapperContained.streamBufferPointer = value; }
+public StaticSound(java.nio.ByteBuffer sample,javax.sound.sampled.AudioFormat format) { this.wrapperContained = new net.minecraft.client.sound.StaticSound(sample,format); }
 // public java.util.OptionalInt getStreamBufferPointer() { return wrapperContained.getStreamBufferPointer(); }
 public void close() { wrapperContained.close(); }
 public java.util.OptionalInt takeStreamBufferPointer() { return wrapperContained.takeStreamBufferPointer(); }

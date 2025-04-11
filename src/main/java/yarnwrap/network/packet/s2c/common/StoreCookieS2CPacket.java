@@ -7,6 +7,7 @@ public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.
 // public void MAX_COOKIE_LENGTH(int value) { wrapperContained.MAX_COOKIE_LENGTH = value; }
 public yarnwrap.network.codec.PacketCodec COOKIE_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.COOKIE_PACKET_CODEC); }
 // public void COOKIE_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.COOKIE_PACKET_CODEC = value.wrapperContained; }
+// public StoreCookieS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.common.StoreCookieS2CPacket(buf.wrapperContained); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 
 }

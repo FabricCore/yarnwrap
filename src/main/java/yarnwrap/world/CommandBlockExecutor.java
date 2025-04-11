@@ -29,6 +29,7 @@ public void setCustomName(yarnwrap.text.Text customName) { wrapperContained.setC
 public void setLastOutput(yarnwrap.text.Text lastOutput) { wrapperContained.setLastOutput(lastOutput.wrapperContained); }
 public yarnwrap.text.Text getLastOutput() { return new yarnwrap.text.Text(wrapperContained.getLastOutput()); }
 public yarnwrap.server.world.ServerWorld getWorld() { return new yarnwrap.server.world.ServerWorld(wrapperContained.getWorld()); }
+// public void method_8294(boolean successful,int returnValue) { wrapperContained.method_8294(successful,returnValue); }
 public void markDirty() { wrapperContained.markDirty(); }
 public boolean isTrackingOutput() { return wrapperContained.isTrackingOutput(); }
 // public yarnwrap.nbt.NbtCompound writeNbt(yarnwrap.nbt.NbtCompound nbt,Object registries) { return new yarnwrap.nbt.NbtCompound(wrapperContained.writeNbt(nbt.wrapperContained,registries)); }

@@ -13,6 +13,7 @@ public class HandshakeC2SPacket { public net.minecraft.network.packet.c2s.handsh
 // public void MAX_ADDRESS_LENGTH(int value) { wrapperContained.MAX_ADDRESS_LENGTH = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public HandshakeC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.handshake.HandshakeC2SPacket(buf.wrapperContained); }
 // public int protocolVersion() { return wrapperContained.protocolVersion(); }
 // public java.lang.String address() { return wrapperContained.address(); }
 // public int port() { return wrapperContained.port(); }

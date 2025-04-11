@@ -3,6 +3,7 @@ public class CodecCache { public net.minecraft.util.dynamic.CodecCache wrapperCo
 
 // public com.google.common.cache.LoadingCache cache() { return wrapperContained.cache; }
 // public void cache(com.google.common.cache.LoadingCache value) { wrapperContained.cache = value; }
+public CodecCache(int size) { this.wrapperContained = new net.minecraft.util.dynamic.CodecCache(size); }
 public com.mojang.serialization.Codec wrap(com.mojang.serialization.Codec codec) { return wrapperContained.wrap(codec); }
 
 }

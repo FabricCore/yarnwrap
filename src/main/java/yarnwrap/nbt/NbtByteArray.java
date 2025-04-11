@@ -7,6 +7,10 @@ public yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(wrapperCont
 // public void TYPE(yarnwrap.nbt.NbtType value) { wrapperContained.TYPE = value.wrapperContained; }
 // public int SIZE() { return wrapperContained.SIZE; }
 // public void SIZE(int value) { wrapperContained.SIZE = value; }
+public NbtByteArray(java.util.List value) { this.wrapperContained = new net.minecraft.nbt.NbtByteArray(value); }
+// public NbtByteArray(byte value) { this.wrapperContained = new net.minecraft.nbt.NbtByteArray(value); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
+public java.lang.Object get(int index) { return wrapperContained.get(index); }
 public byte[] getByteArray() { return wrapperContained.getByteArray(); }
 // public byte[] toArray(java.util.List list) { return wrapperContained.toArray(list); }
 

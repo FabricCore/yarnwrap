@@ -5,6 +5,8 @@ public com.mojang.serialization.codecs.PrimitiveCodec CODEC() { return wrapperCo
 // public void CODEC(com.mojang.serialization.codecs.PrimitiveCodec value) { wrapperContained.CODEC = value; }
 // public com.mojang.datafixers.types.Type IDENTIFIER_TYPE() { return wrapperContained.IDENTIFIER_TYPE; }
 // public void IDENTIFIER_TYPE(com.mojang.datafixers.types.Type value) { wrapperContained.IDENTIFIER_TYPE = value; }
+public IdentifierNormalizingSchema(int versionKey,com.mojang.datafixers.schemas.Schema parent) { this.wrapperContained = new net.minecraft.datafixer.schema.IdentifierNormalizingSchema(versionKey,parent); }
+// public com.mojang.datafixers.types.Type getChoiceType(Object type,java.lang.String choiceName) { return wrapperContained.getChoiceType(type,choiceName); }
 public com.mojang.datafixers.types.Type getIdentifierType() { return wrapperContained.getIdentifierType(); }
 public java.lang.String normalize(java.lang.String id) { return wrapperContained.normalize(id); }
 

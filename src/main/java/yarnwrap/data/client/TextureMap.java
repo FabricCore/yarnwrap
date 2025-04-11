@@ -66,6 +66,8 @@ public yarnwrap.data.client.TextureMap register(yarnwrap.data.client.TextureKey 
 public yarnwrap.data.client.TextureMap topBottom(yarnwrap.util.Identifier top,yarnwrap.util.Identifier bottom) { return new yarnwrap.data.client.TextureMap(wrapperContained.topBottom(top.wrapperContained,bottom.wrapperContained)); }
 public yarnwrap.data.client.TextureMap wool(yarnwrap.util.Identifier id) { return new yarnwrap.data.client.TextureMap(wrapperContained.wool(id.wrapperContained)); }
 public yarnwrap.data.client.TextureMap sculkShrieker(boolean canSummon) { return new yarnwrap.data.client.TextureMap(wrapperContained.sculkShrieker(canSummon)); }
+// public java.lang.String method_46198(java.lang.String path) { return wrapperContained.method_46198(path); }
+// public java.lang.String method_46199(java.lang.String path) { return wrapperContained.method_46199(path); }
 public yarnwrap.data.client.TextureMap textureSideTop(yarnwrap.block.Block block) { return new yarnwrap.data.client.TextureMap(wrapperContained.textureSideTop(block.wrapperContained)); }
 public yarnwrap.data.client.TextureMap textureParticle(yarnwrap.block.Block block) { return new yarnwrap.data.client.TextureMap(wrapperContained.textureParticle(block.wrapperContained)); }
 public yarnwrap.data.client.TextureMap layered(yarnwrap.util.Identifier layer0,yarnwrap.util.Identifier layer1) { return new yarnwrap.data.client.TextureMap(wrapperContained.layered(layer0.wrapperContained,layer1.wrapperContained)); }

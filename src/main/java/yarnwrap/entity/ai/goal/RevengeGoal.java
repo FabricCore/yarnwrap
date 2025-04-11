@@ -13,6 +13,7 @@ public class RevengeGoal { public net.minecraft.entity.ai.goal.RevengeGoal wrapp
 // public void groupRevenge(boolean value) { wrapperContained.groupRevenge = value; }
 // public java.lang.Class[] noHelpTypes() { return wrapperContained.noHelpTypes; }
 // public void noHelpTypes(java.lang.Class[] value) { wrapperContained.noHelpTypes = value; }
+public RevengeGoal(yarnwrap.entity.mob.PathAwareEntity mob,java.lang.Class[] noRevengeTypes) { this.wrapperContained = new net.minecraft.entity.ai.goal.RevengeGoal(mob.wrapperContained,noRevengeTypes); }
 // public void callSameTypeForRevenge() { wrapperContained.callSameTypeForRevenge(); }
 public yarnwrap.entity.ai.goal.RevengeGoal setGroupRevenge(java.lang.Class[] noHelpTypes) { return new yarnwrap.entity.ai.goal.RevengeGoal(wrapperContained.setGroupRevenge(noHelpTypes)); }
 // public void setMobEntityTarget(yarnwrap.entity.mob.MobEntity mob,yarnwrap.entity.LivingEntity target) { wrapperContained.setMobEntityTarget(mob.wrapperContained,target.wrapperContained); }

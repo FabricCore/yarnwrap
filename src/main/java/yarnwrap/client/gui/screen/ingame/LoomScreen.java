@@ -57,6 +57,7 @@ public class LoomScreen { public net.minecraft.client.gui.screen.ingame.LoomScre
 // public void PATTERN_SLOT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.PATTERN_SLOT_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier ERROR_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.ERROR_TEXTURE); }
 // public void ERROR_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.ERROR_TEXTURE = value.wrapperContained; }
+public LoomScreen(yarnwrap.screen.LoomScreenHandler screenHandler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.LoomScreen(screenHandler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 // public void onInventoryChanged() { wrapperContained.onInventoryChanged(); }
 // public void drawBanner(yarnwrap.client.gui.DrawContext context,yarnwrap.registry.entry.RegistryEntry pattern,int x,int y) { wrapperContained.drawBanner(context.wrapperContained,pattern.wrapperContained,x,y); }
 // public int getRows() { return wrapperContained.getRows(); }

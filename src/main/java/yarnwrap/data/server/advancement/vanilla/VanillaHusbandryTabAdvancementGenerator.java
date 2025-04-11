@@ -17,9 +17,15 @@ public java.util.List EGG_LAYING_ANIMALS() { return wrapperContained.EGG_LAYING_
 // public Object requireListedFishBucketsFilled(Object builder) { return wrapperContained.requireListedFishBucketsFilled(builder); }
 // public Object requireFoodItemsEaten(Object builder) { return wrapperContained.requireFoodItemsEaten(builder); }
 // public Object requireListedAnimalsBred(Object advancementBuilder,java.util.stream.Stream breedableAnimals,java.util.stream.Stream eggLayingAnimals) { return wrapperContained.requireListedAnimalsBred(advancementBuilder,breedableAnimals,eggLayingAnimals); }
+// public void method_16117(Object entry) { wrapperContained.method_16117(entry); }
 // public Object requireAllCatsTamed(Object builder) { return wrapperContained.requireAllCatsTamed(builder); }
 // public Object requireAllFrogsOnLeads(Object builder) { return wrapperContained.requireAllFrogsOnLeads(builder); }
+// public void method_43363(Object variant) { wrapperContained.method_43363(variant); }
 public yarnwrap.advancement.AdvancementEntry createBreedAllAnimalsAdvancement(yarnwrap.advancement.AdvancementEntry parent,java.util.function.Consumer exporter,java.util.stream.Stream breedableAnimals,java.util.stream.Stream eggLayingAnimals) { return new yarnwrap.advancement.AdvancementEntry(wrapperContained.createBreedAllAnimalsAdvancement(parent.wrapperContained,exporter,breedableAnimals,eggLayingAnimals)); }
+// public void method_48497(Object type) { wrapperContained.method_48497(type); }
+// public void method_48498(Object type) { wrapperContained.method_48498(type); }
+// public yarnwrap.util.Identifier method_58572(Object entry) { return new yarnwrap.util.Identifier(wrapperContained.method_58572(entry)); }
 // public Object requireAllWolvesTamed(Object builder,Object registryLookup) { return wrapperContained.requireAllWolvesTamed(builder,registryLookup); }
+// public void method_59776(Object key) { wrapperContained.method_59776(key); }
 
 }

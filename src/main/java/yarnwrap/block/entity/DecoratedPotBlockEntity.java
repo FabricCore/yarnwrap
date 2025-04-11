@@ -17,6 +17,7 @@ public Object lastWobbleType() { return wrapperContained.lastWobbleType; }
 // public void lootTableId(yarnwrap.registry.RegistryKey value) { wrapperContained.lootTableId = value.wrapperContained; }
 // public long lootTableSeed() { return wrapperContained.lootTableSeed; }
 // public void lootTableSeed(long value) { wrapperContained.lootTableSeed = value; }
+public DecoratedPotBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.DecoratedPotBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void readFrom(yarnwrap.item.ItemStack stack) { wrapperContained.readFrom(stack.wrapperContained); }
 public yarnwrap.util.math.Direction getHorizontalFacing() { return new yarnwrap.util.math.Direction(wrapperContained.getHorizontalFacing()); }
 public yarnwrap.block.entity.Sherds getSherds() { return new yarnwrap.block.entity.Sherds(wrapperContained.getSherds()); }

@@ -9,6 +9,7 @@ public class ChunkToNibbleArrayMap { public net.minecraft.world.chunk.ChunkToNib
 // public void arrays(it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap value) { wrapperContained.arrays = value; }
 // public boolean cacheEnabled() { return wrapperContained.cacheEnabled; }
 // public void cacheEnabled(boolean value) { wrapperContained.cacheEnabled = value; }
+// public ChunkToNibbleArrayMap(it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap arrays) { this.wrapperContained = new net.minecraft.world.chunk.ChunkToNibbleArrayMap(arrays); }
 public void put(long pos,yarnwrap.world.chunk.ChunkNibbleArray data) { wrapperContained.put(pos,data.wrapperContained); }
 public yarnwrap.world.chunk.ChunkNibbleArray removeChunk(long chunkPos) { return new yarnwrap.world.chunk.ChunkNibbleArray(wrapperContained.removeChunk(chunkPos)); }
 public yarnwrap.world.chunk.ChunkNibbleArray get(long chunkPos) { return new yarnwrap.world.chunk.ChunkNibbleArray(wrapperContained.get(chunkPos)); }

@@ -23,6 +23,7 @@ public class CuboidBlockIterator { public net.minecraft.util.CuboidBlockIterator
 // public void totalSize(int value) { wrapperContained.totalSize = value; }
 // public int blocksIterated() { return wrapperContained.blocksIterated; }
 // public void blocksIterated(int value) { wrapperContained.blocksIterated = value; }
+public CuboidBlockIterator(int startX,int startY,int startZ,int endX,int endY,int endZ) { this.wrapperContained = new net.minecraft.util.CuboidBlockIterator(startX,startY,startZ,endX,endY,endZ); }
 public boolean step() { return wrapperContained.step(); }
 public int getX() { return wrapperContained.getX(); }
 public int getY() { return wrapperContained.getY(); }

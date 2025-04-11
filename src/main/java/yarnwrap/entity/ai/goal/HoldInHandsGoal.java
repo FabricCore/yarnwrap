@@ -9,5 +9,6 @@ public class HoldInHandsGoal { public net.minecraft.entity.ai.goal.HoldInHandsGo
 // public void condition(java.util.function.Predicate value) { wrapperContained.condition = value; }
 // public yarnwrap.sound.SoundEvent sound() { return new yarnwrap.sound.SoundEvent(wrapperContained.sound); }
 // public void sound(yarnwrap.sound.SoundEvent value) { wrapperContained.sound = value.wrapperContained; }
+public HoldInHandsGoal(yarnwrap.entity.mob.MobEntity actor,yarnwrap.item.ItemStack item,yarnwrap.sound.SoundEvent sound,java.util.function.Predicate condition) { this.wrapperContained = new net.minecraft.entity.ai.goal.HoldInHandsGoal(actor.wrapperContained,item.wrapperContained,sound.wrapperContained,condition); }
 
 }

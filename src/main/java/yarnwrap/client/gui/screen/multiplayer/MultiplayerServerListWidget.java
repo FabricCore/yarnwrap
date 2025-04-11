@@ -63,9 +63,12 @@ public class MultiplayerServerListWidget { public net.minecraft.client.gui.scree
 // public void JOIN_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.JOIN_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier MOVE_UP_HIGHLIGHTED_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.MOVE_UP_HIGHLIGHTED_TEXTURE); }
 // public void MOVE_UP_HIGHLIGHTED_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.MOVE_UP_HIGHLIGHTED_TEXTURE = value.wrapperContained; }
+public MultiplayerServerListWidget(yarnwrap.client.gui.screen.multiplayer.MultiplayerScreen screen,yarnwrap.client.MinecraftClient client,int width,int height,int top,int bottom) { this.wrapperContained = new net.minecraft.client.gui.screen.multiplayer.MultiplayerServerListWidget(screen.wrapperContained,client.wrapperContained,width,height,top,bottom); }
 public void setServers(yarnwrap.client.option.ServerList servers) { wrapperContained.setServers(servers.wrapperContained); }
 public void setLanServers(java.util.List lanServers) { wrapperContained.setLanServers(lanServers); }
 // public void updateEntries() { wrapperContained.updateEntries(); }
+// public void method_36888(yarnwrap.client.gui.screen.multiplayer.MultiplayerServerListWidget lanServer) { wrapperContained.method_36888(lanServer.wrapperContained); }
+// public void method_36889(yarnwrap.client.gui.screen.multiplayer.MultiplayerServerListWidget server) { wrapperContained.method_36889(server.wrapperContained); }
 public void onRemoved() { wrapperContained.onRemoved(); }
 
 }

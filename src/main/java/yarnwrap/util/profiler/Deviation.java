@@ -7,5 +7,6 @@ public int ticks() { return wrapperContained.ticks; }
 // public void ticks(int value) { wrapperContained.ticks = value; }
 public yarnwrap.util.profiler.ProfileResult result() { return new yarnwrap.util.profiler.ProfileResult(wrapperContained.result); }
 // public void result(yarnwrap.util.profiler.ProfileResult value) { wrapperContained.result = value.wrapperContained; }
+public Deviation(java.time.Instant instant,int ticks,yarnwrap.util.profiler.ProfileResult result) { this.wrapperContained = new net.minecraft.util.profiler.Deviation(instant,ticks,result.wrapperContained); }
 
 }

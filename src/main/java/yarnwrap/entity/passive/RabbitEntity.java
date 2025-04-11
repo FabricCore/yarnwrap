@@ -24,6 +24,7 @@ public double MELEE_ATTACK_SPEED() { return wrapperContained.MELEE_ATTACK_SPEED;
 public boolean canSpawn(yarnwrap.entity.EntityType entity,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(entity.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 public Object createRabbitAttributes() { return wrapperContained.createRabbitAttributes(); }
 // public Object getTypeFromPos(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getTypeFromPos(world.wrapperContained,pos.wrapperContained); }
+// public boolean method_58374(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58374(stack.wrapperContained); }
 public float getJumpProgress(float delta) { return wrapperContained.getJumpProgress(delta); }
 public void setSpeed(double speed) { wrapperContained.setSpeed(speed); }
 // public boolean wantsCarrots() { return wrapperContained.wantsCarrots(); }

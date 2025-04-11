@@ -19,6 +19,7 @@ public yarnwrap.resource.ResourceFinder FINDER() { return new yarnwrap.resource.
 // public void id(yarnwrap.util.Identifier value) { wrapperContained.id = value.wrapperContained; }
 // public Object registrationType() { return wrapperContained.registrationType; }
 // // public void registrationType(Object value) { wrapperContained.registrationType = value; }
+// public Sound(yarnwrap.util.Identifier id,yarnwrap.util.math.floatprovider.FloatSupplier volume,yarnwrap.util.math.floatprovider.FloatSupplier pitch,int weight,Object registrationType,boolean stream,boolean preload,int attenuation) { this.wrapperContained = new net.minecraft.client.sound.Sound(id.wrapperContained,volume.wrapperContained,pitch.wrapperContained,weight,registrationType,stream,preload,attenuation); }
 public boolean isPreloaded() { return wrapperContained.isPreloaded(); }
 public yarnwrap.util.Identifier getLocation() { return new yarnwrap.util.Identifier(wrapperContained.getLocation()); }
 public yarnwrap.util.Identifier getIdentifier() { return new yarnwrap.util.Identifier(wrapperContained.getIdentifier()); }

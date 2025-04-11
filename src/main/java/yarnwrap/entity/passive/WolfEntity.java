@@ -31,11 +31,14 @@ public java.util.function.Predicate FOLLOW_TAMED_PREDICATE() { return wrapperCon
 // public void canShakeWaterOff(boolean value) { wrapperContained.canShakeWaterOff = value; }
 // public float begAnimationProgress() { return wrapperContained.begAnimationProgress; }
 // public void begAnimationProgress(float value) { wrapperContained.begAnimationProgress = value; }
+// public boolean method_18444(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18444(entity.wrapperContained); }
 public Object createWolfAttributes() { return wrapperContained.createWolfAttributes(); }
 // public void resetShake() { wrapperContained.resetShake(); }
 public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 public boolean hasArmor() { return wrapperContained.hasArmor(); }
 // public boolean shouldArmorAbsorbDamage(yarnwrap.entity.damage.DamageSource source) { return wrapperContained.shouldArmorAbsorbDamage(source.wrapperContained); }
+// public java.util.Optional method_58059(yarnwrap.registry.RegistryKey variantKey) { return wrapperContained.method_58059(variantKey.wrapperContained); }
+// public yarnwrap.registry.RegistryKey method_58060(yarnwrap.util.Identifier variantId) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_58060(variantId.wrapperContained)); }
 public yarnwrap.util.Identifier getTextureId() { return new yarnwrap.util.Identifier(wrapperContained.getTextureId()); }
 // public void tryTame(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.tryTame(player.wrapperContained); }
 public float getFurWetBrightnessMultiplier(float tickDelta) { return wrapperContained.getFurWetBrightnessMultiplier(tickDelta); }

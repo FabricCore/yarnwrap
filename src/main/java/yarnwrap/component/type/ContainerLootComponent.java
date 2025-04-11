@@ -3,5 +3,6 @@ public class ContainerLootComponent { public net.minecraft.component.type.Contai
 
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+// public com.mojang.datafixers.kinds.App method_57513(Object instance) { return wrapperContained.method_57513(instance); }
 
 }

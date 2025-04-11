@@ -22,6 +22,7 @@ public boolean hasCustomer() { return wrapperContained.hasCustomer(); }
 public void playCelebrateSound() { wrapperContained.playCelebrateSound(); }
 public int getHeadRollingTimeLeft() { return wrapperContained.getHeadRollingTimeLeft(); }
 public void setHeadRollingTimeLeft(int ticks) { wrapperContained.setHeadRollingTimeLeft(ticks); }
+// public void method_56682(yarnwrap.village.TradeOfferList offers) { wrapperContained.method_56682(offers.wrapperContained); }
 // public void fillRecipes() { wrapperContained.fillRecipes(); }
 
 }

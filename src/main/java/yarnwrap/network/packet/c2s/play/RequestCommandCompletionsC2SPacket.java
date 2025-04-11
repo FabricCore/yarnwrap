@@ -7,6 +7,8 @@ public class RequestCommandCompletionsC2SPacket { public net.minecraft.network.p
 // public void partialCommand(java.lang.String value) { wrapperContained.partialCommand = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public RequestCommandCompletionsC2SPacket(int completionId,java.lang.String partialCommand) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.RequestCommandCompletionsC2SPacket(completionId,partialCommand); }
+// public RequestCommandCompletionsC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.RequestCommandCompletionsC2SPacket(buf.wrapperContained); }
 public java.lang.String getPartialCommand() { return wrapperContained.getPartialCommand(); }
 public int getCompletionId() { return wrapperContained.getCompletionId(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

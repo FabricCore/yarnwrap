@@ -25,6 +25,7 @@ public class ClientPlayerInteractionManager { public net.minecraft.client.networ
 // public void networkHandler(yarnwrap.client.network.ClientPlayNetworkHandler value) { wrapperContained.networkHandler = value.wrapperContained; }
 // public int lastSelectedSlot() { return wrapperContained.lastSelectedSlot; }
 // public void lastSelectedSlot(int value) { wrapperContained.lastSelectedSlot = value; }
+public ClientPlayerInteractionManager(yarnwrap.client.MinecraftClient client,yarnwrap.client.network.ClientPlayNetworkHandler networkHandler) { this.wrapperContained = new net.minecraft.client.network.ClientPlayerInteractionManager(client.wrapperContained,networkHandler.wrapperContained); }
 public yarnwrap.world.GameMode getPreviousGameMode() { return new yarnwrap.world.GameMode(wrapperContained.getPreviousGameMode()); }
 public boolean hasRidingInventory() { return wrapperContained.hasRidingInventory(); }
 public yarnwrap.util.ActionResult interactBlock(yarnwrap.client.network.ClientPlayerEntity player,yarnwrap.util.Hand hand,yarnwrap.util.hit.BlockHitResult hitResult) { return new yarnwrap.util.ActionResult(wrapperContained.interactBlock(player.wrapperContained,hand.wrapperContained,hitResult.wrapperContained)); }
@@ -58,8 +59,14 @@ public void tick() { wrapperContained.tick(); }
 public boolean isFlyingLocked() { return wrapperContained.isFlyingLocked(); }
 public yarnwrap.client.network.ClientPlayerEntity createPlayer(yarnwrap.client.world.ClientWorld world,yarnwrap.stat.StatHandler statHandler,yarnwrap.client.recipebook.ClientRecipeBook recipeBook) { return new yarnwrap.client.network.ClientPlayerEntity(wrapperContained.createPlayer(world.wrapperContained,statHandler.wrapperContained,recipeBook.wrapperContained)); }
 public void setGameModes(yarnwrap.world.GameMode gameMode,yarnwrap.world.GameMode previousGameMode) { wrapperContained.setGameModes(gameMode.wrapperContained,previousGameMode.wrapperContained); }
+// public yarnwrap.network.packet.Packet method_41929(yarnwrap.util.Hand sequence) { return new yarnwrap.network.packet.Packet(wrapperContained.method_41929(sequence.wrapperContained)); }
+// public yarnwrap.network.packet.Packet method_41930(yarnwrap.block.BlockState sequence) { return new yarnwrap.network.packet.Packet(wrapperContained.method_41930(sequence.wrapperContained)); }
 // public void sendSequencedPacket(yarnwrap.client.world.ClientWorld world,yarnwrap.client.network.SequencedPacketCreator packetCreator) { wrapperContained.sendSequencedPacket(world.wrapperContained,packetCreator.wrapperContained); }
+// public yarnwrap.network.packet.Packet method_41932(yarnwrap.util.math.BlockPos sequence) { return new yarnwrap.network.packet.Packet(wrapperContained.method_41932(sequence.wrapperContained)); }
+// public yarnwrap.network.packet.Packet method_41933(org.apache.commons.lang3.mutable.MutableObject sequence) { return new yarnwrap.network.packet.Packet(wrapperContained.method_41933(sequence)); }
 // public yarnwrap.util.ActionResult interactBlockInternal(yarnwrap.client.network.ClientPlayerEntity player,yarnwrap.util.Hand hand,yarnwrap.util.hit.BlockHitResult hitResult) { return new yarnwrap.util.ActionResult(wrapperContained.interactBlockInternal(player.wrapperContained,hand.wrapperContained,hitResult.wrapperContained)); }
+// public yarnwrap.network.packet.Packet method_41935(yarnwrap.util.math.BlockPos sequence) { return new yarnwrap.network.packet.Packet(wrapperContained.method_41935(sequence.wrapperContained)); }
+// public yarnwrap.network.packet.Packet method_41936(yarnwrap.util.math.BlockPos sequence) { return new yarnwrap.network.packet.Packet(wrapperContained.method_41936(sequence.wrapperContained)); }
 public int getBlockBreakingProgress() { return wrapperContained.getBlockBreakingProgress(); }
 public void slotChangedState(int slot,int screenHandlerId,boolean newState) { wrapperContained.slotChangedState(slot,screenHandlerId,newState); }
 

@@ -7,5 +7,6 @@ public class SmithingTrimRecipe { public net.minecraft.recipe.SmithingTrimRecipe
 // public void base(yarnwrap.recipe.Ingredient value) { wrapperContained.base = value.wrapperContained; }
 // public yarnwrap.recipe.Ingredient addition() { return new yarnwrap.recipe.Ingredient(wrapperContained.addition); }
 // public void addition(yarnwrap.recipe.Ingredient value) { wrapperContained.addition = value.wrapperContained; }
+public SmithingTrimRecipe(yarnwrap.recipe.Ingredient template,yarnwrap.recipe.Ingredient base,yarnwrap.recipe.Ingredient addition) { this.wrapperContained = new net.minecraft.recipe.SmithingTrimRecipe(template.wrapperContained,base.wrapperContained,addition.wrapperContained); }
 
 }

@@ -37,6 +37,7 @@ public yarnwrap.registry.RegistryKey FLOATING_ISLANDS() { return new yarnwrap.re
 // public void FLOATING_ISLANDS(yarnwrap.registry.RegistryKey value) { wrapperContained.FLOATING_ISLANDS = value.wrapperContained; }
 public yarnwrap.registry.RegistryKey LARGE_BIOMES() { return new yarnwrap.registry.RegistryKey(wrapperContained.LARGE_BIOMES); }
 // public void LARGE_BIOMES(yarnwrap.registry.RegistryKey value) { wrapperContained.LARGE_BIOMES = value.wrapperContained; }
+// public ChunkGeneratorSettings(yarnwrap.world.gen.chunk.GenerationShapeConfig surfaceRule) { this.wrapperContained = new net.minecraft.world.gen.chunk.ChunkGeneratorSettings(surfaceRule.wrapperContained); }
 // public yarnwrap.world.gen.chunk.GenerationShapeConfig generationShapeConfig() { return new yarnwrap.world.gen.chunk.GenerationShapeConfig(wrapperContained.generationShapeConfig()); }
 // public yarnwrap.block.BlockState defaultBlock() { return new yarnwrap.block.BlockState(wrapperContained.defaultBlock()); }
 // public yarnwrap.block.BlockState defaultFluid() { return new yarnwrap.block.BlockState(wrapperContained.defaultFluid()); }
@@ -46,6 +47,7 @@ public yarnwrap.registry.RegistryKey LARGE_BIOMES() { return new yarnwrap.regist
 // public boolean aquifers() { return wrapperContained.aquifers(); }
 // public boolean oreVeins() { return wrapperContained.oreVeins(); }
 // public boolean usesLegacyRandom() { return wrapperContained.usesLegacyRandom(); }
+// public com.mojang.datafixers.kinds.App method_28558(Object instance) { return wrapperContained.method_28558(instance); }
 // public yarnwrap.world.gen.chunk.ChunkGeneratorSettings createNetherSettings(yarnwrap.registry.Registerable registerable) { return new yarnwrap.world.gen.chunk.ChunkGeneratorSettings(wrapperContained.createNetherSettings(registerable.wrapperContained)); }
 // public yarnwrap.world.gen.chunk.ChunkGeneratorSettings createEndSettings(yarnwrap.registry.Registerable registerable) { return new yarnwrap.world.gen.chunk.ChunkGeneratorSettings(wrapperContained.createEndSettings(registerable.wrapperContained)); }
 // public yarnwrap.world.gen.chunk.ChunkGeneratorSettings createSurfaceSettings(yarnwrap.registry.Registerable registerable,boolean amplified,boolean largeBiomes) { return new yarnwrap.world.gen.chunk.ChunkGeneratorSettings(wrapperContained.createSurfaceSettings(registerable.wrapperContained,amplified,largeBiomes)); }

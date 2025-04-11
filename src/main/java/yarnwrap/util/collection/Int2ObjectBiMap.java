@@ -17,6 +17,8 @@ public class Int2ObjectBiMap { public net.minecraft.util.collection.Int2ObjectBi
 // public void ABSENT(int value) { wrapperContained.ABSENT = value; }
 // public float LOAD_FACTOR() { return wrapperContained.LOAD_FACTOR; }
 // public void LOAD_FACTOR(float value) { wrapperContained.LOAD_FACTOR = value; }
+// public Int2ObjectBiMap(int size) { this.wrapperContained = new net.minecraft.util.collection.Int2ObjectBiMap(size); }
+// public Int2ObjectBiMap(java.lang.Object[] values,int ids,java.lang.Object[][] idToValues,int nextId,int size) { this.wrapperContained = new net.minecraft.util.collection.Int2ObjectBiMap(values,ids,idToValues,nextId,size); }
 // public int getIdFromIndex(int index) { return wrapperContained.getIdFromIndex(index); }
 // public int findFree(int size) { return wrapperContained.findFree(size); }
 // public void resize(int newSize) { wrapperContained.resize(newSize); }

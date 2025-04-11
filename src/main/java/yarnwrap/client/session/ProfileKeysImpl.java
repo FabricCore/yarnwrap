@@ -15,7 +15,9 @@ public class ProfileKeysImpl { public net.minecraft.client.session.ProfileKeysIm
 // public void TIME_UNTIL_FIRST_EXPIRY_CHECK(java.time.Duration value) { wrapperContained.TIME_UNTIL_FIRST_EXPIRY_CHECK = value; }
 // public java.time.Instant expiryCheckTime() { return wrapperContained.expiryCheckTime; }
 // public void expiryCheckTime(java.time.Instant value) { wrapperContained.expiryCheckTime = value; }
+public ProfileKeysImpl(com.mojang.authlib.minecraft.UserApiService userApiService,java.util.UUID uuid,java.nio.file.Path root) { this.wrapperContained = new net.minecraft.client.session.ProfileKeysImpl(userApiService,uuid,root); }
 // public void saveKeyPairToFile(yarnwrap.network.encryption.PlayerKeyPair keyPair) { wrapperContained.saveKeyPairToFile(keyPair.wrapperContained); }
+// public void method_43601(com.google.gson.JsonElement json) { wrapperContained.method_43601(json); }
 // public java.util.concurrent.CompletableFuture getKeyPair(java.util.Optional currentKey) { return wrapperContained.getKeyPair(currentKey); }
 // public yarnwrap.network.encryption.PlayerKeyPair fetchKeyPair(com.mojang.authlib.minecraft.UserApiService userApiService) { return new yarnwrap.network.encryption.PlayerKeyPair(wrapperContained.fetchKeyPair(userApiService)); }
 // public java.util.Optional loadKeyPairFromFile() { return wrapperContained.loadKeyPairFromFile(); }

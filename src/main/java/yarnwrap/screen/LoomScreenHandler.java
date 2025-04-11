@@ -35,6 +35,9 @@ public class LoomScreenHandler { public net.minecraft.screen.LoomScreenHandler w
 // public void bannerPatternLookup(yarnwrap.registry.RegistryEntryLookup value) { wrapperContained.bannerPatternLookup = value.wrapperContained; }
 // public yarnwrap.inventory.Inventory input() { return new yarnwrap.inventory.Inventory(wrapperContained.input); }
 // public void input(yarnwrap.inventory.Inventory value) { wrapperContained.input = value.wrapperContained; }
+public LoomScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.LoomScreenHandler(syncId,playerInventory.wrapperContained); }
+public LoomScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.LoomScreenHandler(syncId,playerInventory.wrapperContained,context.wrapperContained); }
+// public void method_17420(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { wrapperContained.method_17420(world.wrapperContained,pos.wrapperContained); }
 public void setInventoryChangeListener(java.lang.Runnable inventoryChangeListener) { wrapperContained.setInventoryChangeListener(inventoryChangeListener); }
 public yarnwrap.screen.slot.Slot getBannerSlot() { return new yarnwrap.screen.slot.Slot(wrapperContained.getBannerSlot()); }
 public yarnwrap.screen.slot.Slot getDyeSlot() { return new yarnwrap.screen.slot.Slot(wrapperContained.getDyeSlot()); }
@@ -43,6 +46,7 @@ public yarnwrap.screen.slot.Slot getOutputSlot() { return new yarnwrap.screen.sl
 // public java.util.List getPatternsFor(yarnwrap.item.ItemStack stack) { return wrapperContained.getPatternsFor(stack.wrapperContained); }
 public java.util.List getBannerPatterns() { return wrapperContained.getBannerPatterns(); }
 // public boolean isPatternIndexValid(int index) { return wrapperContained.isPatternIndexValid(index); }
+// public yarnwrap.component.type.BannerPatternsComponent method_57322(yarnwrap.registry.entry.RegistryEntry component) { return new yarnwrap.component.type.BannerPatternsComponent(wrapperContained.method_57322(component.wrapperContained)); }
 public int getSelectedPattern() { return wrapperContained.getSelectedPattern(); }
 // public void updateOutputSlot(yarnwrap.registry.entry.RegistryEntry pattern) { wrapperContained.updateOutputSlot(pattern.wrapperContained); }
 

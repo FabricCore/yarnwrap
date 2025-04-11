@@ -7,5 +7,6 @@ public class RateLimitedConnection { public net.minecraft.network.RateLimitedCon
 // public void RATE_LIMIT_EXCEEDED_MESSAGE(yarnwrap.text.Text value) { wrapperContained.RATE_LIMIT_EXCEEDED_MESSAGE = value.wrapperContained; }
 // public int rateLimit() { return wrapperContained.rateLimit; }
 // public void rateLimit(int value) { wrapperContained.rateLimit = value; }
+public RateLimitedConnection(int rateLimit) { this.wrapperContained = new net.minecraft.network.RateLimitedConnection(rateLimit); }
 
 }

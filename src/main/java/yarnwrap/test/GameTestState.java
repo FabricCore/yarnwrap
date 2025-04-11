@@ -41,12 +41,15 @@ public class GameTestState { public net.minecraft.test.GameTestState wrapperCont
 // public void boxMinPos(yarnwrap.util.math.BlockPos value) { wrapperContained.boxMinPos = value.wrapperContained; }
 // public yarnwrap.test.TestAttemptConfig testAttemptConfig() { return new yarnwrap.test.TestAttemptConfig(wrapperContained.testAttemptConfig); }
 // public void testAttemptConfig(yarnwrap.test.TestAttemptConfig value) { wrapperContained.testAttemptConfig = value.wrapperContained; }
+public GameTestState(yarnwrap.test.TestFunction testFunction,yarnwrap.util.BlockRotation rotation,yarnwrap.server.world.ServerWorld world,yarnwrap.test.TestAttemptConfig testAttemptConfig) { this.wrapperContained = new net.minecraft.test.GameTestState(testFunction.wrapperContained,rotation.wrapperContained,world.wrapperContained,testAttemptConfig.wrapperContained); }
 public void tick(yarnwrap.test.TestRunContext context) { wrapperContained.tick(context.wrapperContained); }
 public yarnwrap.test.GameTestState init() { return new yarnwrap.test.GameTestState(wrapperContained.init()); }
 public void addListener(yarnwrap.test.TestListener listener) { wrapperContained.addListener(listener.wrapperContained); }
 public void fail(java.lang.Throwable throwable) { wrapperContained.fail(throwable); }
 public java.lang.String getTemplatePath() { return wrapperContained.getTemplatePath(); }
+// public void method_22171(yarnwrap.test.TestRunContext listener) { wrapperContained.method_22171(listener.wrapperContained); }
 public yarnwrap.util.math.BlockPos getPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getPos()); }
+// public void method_22175(yarnwrap.test.TestListener listener) { wrapperContained.method_22175(listener.wrapperContained); }
 public yarnwrap.server.world.ServerWorld getWorld() { return new yarnwrap.server.world.ServerWorld(wrapperContained.getWorld()); }
 public boolean isPassed() { return wrapperContained.isPassed(); }
 public boolean isFailed() { return wrapperContained.isFailed(); }
@@ -57,6 +60,8 @@ public boolean isRequired() { return wrapperContained.isRequired(); }
 public boolean isOptional() { return wrapperContained.isOptional(); }
 public yarnwrap.test.GameTestState startCountdown(int additionalExpectedStopTime) { return new yarnwrap.test.GameTestState(wrapperContained.startCountdown(additionalExpectedStopTime)); }
 // public void setPos(yarnwrap.util.math.BlockPos pos) { wrapperContained.setPos(pos.wrapperContained); }
+// public void method_23636(yarnwrap.test.TimedTaskRunner runner) { wrapperContained.method_23636(runner.wrapperContained); }
+// public void method_23637(yarnwrap.test.TimedTaskRunner runner) { wrapperContained.method_23637(runner.wrapperContained); }
 public java.lang.String getTemplateName() { return wrapperContained.getTemplateName(); }
 // public void start() { wrapperContained.start(); }
 // public void complete() { wrapperContained.complete(); }
@@ -66,6 +71,7 @@ public boolean isFlaky() { return wrapperContained.isFlaky(); }
 public int getMaxAttempts() { return wrapperContained.getMaxAttempts(); }
 public int getRequiredSuccesses() { return wrapperContained.getRequiredSuccesses(); }
 // public void tickTests() { wrapperContained.tickTests(); }
+// public void method_33316(yarnwrap.test.TestRunContext listener) { wrapperContained.method_33316(listener.wrapperContained); }
 public yarnwrap.block.entity.StructureBlockBlockEntity getStructureBlockBlockEntity() { return new yarnwrap.block.entity.StructureBlockBlockEntity(wrapperContained.getStructureBlockBlockEntity()); }
 public void runAtTick(long tick,java.lang.Runnable runnable) { wrapperContained.runAtTick(tick,runnable); }
 public yarnwrap.util.math.Box getBoundingBox() { return new yarnwrap.util.math.Box(wrapperContained.getBoundingBox()); }
@@ -74,6 +80,9 @@ public void completeIfSuccessful() { wrapperContained.completeIfSuccessful(); }
 // public long getTick() { return wrapperContained.getTick(); }
 // public yarnwrap.test.TimedTaskRunner createTimedTaskRunner() { return new yarnwrap.test.TimedTaskRunner(wrapperContained.createTimedTaskRunner()); }
 public int getTickLimit() { return wrapperContained.getTickLimit(); }
+// public void method_54434(yarnwrap.entity.Entity entity) { wrapperContained.method_54434(entity.wrapperContained); }
+// public boolean method_54435(yarnwrap.entity.Entity entity) { return wrapperContained.method_54435(entity.wrapperContained); }
+// public boolean method_54900(yarnwrap.util.math.ChunkPos chunkPos) { return wrapperContained.method_54900(chunkPos.wrapperContained); }
 public java.util.stream.Stream streamListeners() { return wrapperContained.streamListeners(); }
 public yarnwrap.test.GameTestState copy() { return new yarnwrap.test.GameTestState(wrapperContained.copy()); }
 // public boolean initialize() { return wrapperContained.initialize(); }

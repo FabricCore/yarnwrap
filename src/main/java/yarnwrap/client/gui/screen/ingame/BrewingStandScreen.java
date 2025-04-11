@@ -11,5 +11,6 @@ public class BrewingStandScreen { public net.minecraft.client.gui.screen.ingame.
 // public void BREW_PROGRESS_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.BREW_PROGRESS_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier BUBBLES_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.BUBBLES_TEXTURE); }
 // public void BUBBLES_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.BUBBLES_TEXTURE = value.wrapperContained; }
+public BrewingStandScreen(yarnwrap.screen.BrewingStandScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.BrewingStandScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 
 }

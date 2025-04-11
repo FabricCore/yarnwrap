@@ -15,5 +15,6 @@ public void remove(long pos,yarnwrap.server.world.ChunkTicket ticket) { wrapperC
 public void remove(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int level,java.lang.Object argument) { wrapperContained.remove(type.wrapperContained,pos.wrapperContained,level,argument); }
 public java.lang.String getTickingTicket(long pos) { return wrapperContained.getTickingTicket(pos); }
 // public yarnwrap.util.collection.SortedArraySet getTickets(long pos) { return new yarnwrap.util.collection.SortedArraySet(wrapperContained.getTickets(pos)); }
+// public yarnwrap.util.collection.SortedArraySet method_38645(long p) { return new yarnwrap.util.collection.SortedArraySet(wrapperContained.method_38645(p)); }
 
 }

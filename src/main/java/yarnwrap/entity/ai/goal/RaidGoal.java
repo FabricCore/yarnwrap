@@ -5,6 +5,7 @@ public class RaidGoal { public net.minecraft.entity.ai.goal.RaidGoal wrapperCont
 // public void cooldown(int value) { wrapperContained.cooldown = value; }
 // public int MAX_COOLDOWN() { return wrapperContained.MAX_COOLDOWN; }
 // public void MAX_COOLDOWN(int value) { wrapperContained.MAX_COOLDOWN = value; }
+public RaidGoal(yarnwrap.entity.raid.RaiderEntity raider,java.lang.Class targetEntityClass,boolean checkVisibility,java.util.function.Predicate targetPredicate) { this.wrapperContained = new net.minecraft.entity.ai.goal.RaidGoal(raider.wrapperContained,targetEntityClass,checkVisibility,targetPredicate); }
 public int getCooldown() { return wrapperContained.getCooldown(); }
 public void decreaseCooldown() { wrapperContained.decreaseCooldown(); }
 

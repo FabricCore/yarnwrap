@@ -7,6 +7,7 @@ public it.unimi.dsi.fastutil.ints.Int2ObjectMap modelIds() { return wrapperConta
 // public void modelIds(it.unimi.dsi.fastutil.ints.Int2ObjectMap value) { wrapperContained.modelIds = value; }
 // public it.unimi.dsi.fastutil.ints.Int2ObjectMap models() { return wrapperContained.models; }
 // public void models(it.unimi.dsi.fastutil.ints.Int2ObjectMap value) { wrapperContained.models = value; }
+public ItemModels(yarnwrap.client.render.model.BakedModelManager modelManager) { this.wrapperContained = new net.minecraft.client.render.item.ItemModels(modelManager.wrapperContained); }
 public yarnwrap.client.render.model.BakedModelManager getModelManager() { return new yarnwrap.client.render.model.BakedModelManager(wrapperContained.getModelManager()); }
 public yarnwrap.client.render.model.BakedModel getModel(yarnwrap.item.Item item) { return new yarnwrap.client.render.model.BakedModel(wrapperContained.getModel(item.wrapperContained)); }
 // public int getModelId(yarnwrap.item.Item item) { return wrapperContained.getModelId(item.wrapperContained); }

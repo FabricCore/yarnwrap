@@ -21,8 +21,10 @@ public void sendBeehiveDebugData(yarnwrap.world.World world,yarnwrap.util.math.B
 // public void sendPoi(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { wrapperContained.sendPoi(world.wrapperContained,pos.wrapperContained); }
 public void sendGameEvent(yarnwrap.world.World world,yarnwrap.registry.entry.RegistryEntry event,yarnwrap.util.math.Vec3d pos) { wrapperContained.sendGameEvent(world.wrapperContained,event.wrapperContained,pos.wrapperContained); }
 public void sendGameEventListener(yarnwrap.world.World world,yarnwrap.world.event.listener.GameEventListener eventListener) { wrapperContained.sendGameEventListener(world.wrapperContained,eventListener.wrapperContained); }
+// public void method_36155(yarnwrap.server.world.ServerWorld world,yarnwrap.world.poi.PointOfInterest poi) { wrapperContained.method_36155(world.wrapperContained,poi.wrapperContained); }
 // public java.lang.String format(yarnwrap.server.world.ServerWorld world,java.lang.Object object) { return wrapperContained.format(world.wrapperContained,object); }
 // public java.util.List listMemories(yarnwrap.entity.LivingEntity entity,long currentTime) { return wrapperContained.listMemories(entity.wrapperContained,currentTime); }
+// public void method_36162(java.util.List goal) { wrapperContained.method_36162(goal); }
 public void sendBreezeDebugData(yarnwrap.entity.mob.BreezeEntity breeze) { wrapperContained.sendBreezeDebugData(breeze.wrapperContained); }
 
 }

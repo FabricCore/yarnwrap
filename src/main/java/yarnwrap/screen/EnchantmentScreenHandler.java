@@ -17,6 +17,11 @@ public int[] enchantmentId() { return wrapperContained.enchantmentId; }
 // public void context(yarnwrap.screen.ScreenHandlerContext value) { wrapperContained.context = value.wrapperContained; }
 // public yarnwrap.screen.Property seed() { return new yarnwrap.screen.Property(wrapperContained.seed); }
 // public void seed(yarnwrap.screen.Property value) { wrapperContained.seed = value.wrapperContained; }
+public EnchantmentScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.EnchantmentScreenHandler(syncId,playerInventory.wrapperContained); }
+public EnchantmentScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.EnchantmentScreenHandler(syncId,playerInventory.wrapperContained,context.wrapperContained); }
+// public void method_17410(yarnwrap.item.ItemStack world,int pos) { wrapperContained.method_17410(world.wrapperContained,pos); }
+// public void method_17411(yarnwrap.item.ItemStack world,yarnwrap.world.World pos) { wrapperContained.method_17411(world.wrapperContained,pos.wrapperContained); }
+// public void method_17412(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { wrapperContained.method_17412(world.wrapperContained,pos.wrapperContained); }
 public int getSeed() { return wrapperContained.getSeed(); }
 // public java.util.List generateEnchantments(yarnwrap.registry.DynamicRegistryManager registryManager,yarnwrap.item.ItemStack stack,int slot,int level) { return wrapperContained.generateEnchantments(registryManager.wrapperContained,stack.wrapperContained,slot,level); }
 public int getLapisCount() { return wrapperContained.getLapisCount(); }

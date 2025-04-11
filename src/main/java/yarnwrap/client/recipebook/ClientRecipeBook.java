@@ -11,6 +11,12 @@ public java.util.List getOrderedResults() { return wrapperContained.getOrderedRe
 public java.util.List getResultsForGroup(yarnwrap.client.recipebook.RecipeBookGroup category) { return wrapperContained.getResultsForGroup(category.wrapperContained); }
 // public yarnwrap.client.recipebook.RecipeBookGroup getGroupForRecipe(yarnwrap.recipe.RecipeEntry recipe) { return new yarnwrap.client.recipebook.RecipeBookGroup(wrapperContained.getGroupForRecipe(recipe.wrapperContained)); }
 public void reload(java.lang.Iterable recipes,yarnwrap.registry.DynamicRegistryManager registryManager) { wrapperContained.reload(recipes,registryManager.wrapperContained); }
+// public void method_30279(java.util.Map recipeBookGroup) { wrapperContained.method_30279(recipeBookGroup); }
+// public java.util.stream.Stream method_30280(java.util.Map searchGroup) { return wrapperContained.method_30280(searchGroup); }
+// public void method_30281(java.util.Map group,yarnwrap.client.recipebook.RecipeBookGroup searchGroups) { wrapperContained.method_30281(group,searchGroups.wrapperContained); }
+// public java.util.List method_30282(yarnwrap.client.recipebook.RecipeBookGroup group) { return wrapperContained.method_30282(group.wrapperContained); }
 // public java.util.Map toGroupedMap(java.lang.Iterable recipes) { return wrapperContained.toGroupedMap(recipes); }
+// public java.util.List method_30284(yarnwrap.client.recipebook.RecipeBookGroup group) { return wrapperContained.method_30284(group.wrapperContained); }
+// public yarnwrap.client.gui.screen.recipebook.RecipeResultCollection method_48464(yarnwrap.registry.DynamicRegistryManager recipes) { return new yarnwrap.client.gui.screen.recipebook.RecipeResultCollection(wrapperContained.method_48464(recipes.wrapperContained)); }
 
 }

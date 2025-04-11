@@ -32,6 +32,7 @@ public boolean shouldConnectTo(yarnwrap.world.BlockView world,yarnwrap.util.math
 // public int getAdjacentBlockCount(yarnwrap.block.BlockState state) { return wrapperContained.getAdjacentBlockCount(state.wrapperContained); }
 // public boolean hasAdjacentBlocks(yarnwrap.block.BlockState state) { return wrapperContained.hasAdjacentBlocks(state.wrapperContained); }
 // public boolean canGrowAt(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.canGrowAt(world.wrapperContained,pos.wrapperContained); }
+// public boolean method_10826(Object entry) { return wrapperContained.method_10826(entry); }
 // public yarnwrap.block.BlockState getPlacementShape(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getPlacementShape(state.wrapperContained,world.wrapperContained,pos.wrapperContained)); }
 public yarnwrap.state.property.BooleanProperty getFacingProperty(yarnwrap.util.math.Direction direction) { return new yarnwrap.state.property.BooleanProperty(wrapperContained.getFacingProperty(direction.wrapperContained)); }
 // public boolean shouldHaveSide(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction side) { return wrapperContained.shouldHaveSide(world.wrapperContained,pos.wrapperContained,side.wrapperContained); }

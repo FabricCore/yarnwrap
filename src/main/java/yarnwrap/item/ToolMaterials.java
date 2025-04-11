@@ -13,5 +13,6 @@ public class ToolMaterials { public net.minecraft.item.ToolMaterials wrapperCont
 // public void miningSpeed(float value) { wrapperContained.miningSpeed = value; }
 // public int enchantability() { return wrapperContained.enchantability; }
 // public void enchantability(int value) { wrapperContained.enchantability = value; }
+// // public ToolMaterials(java.lang.String inverseTag,int itemDurability,yarnwrap.registry.tag.TagKey miningSpeed,int attackDamage,float enchantability,float repairIngredient) { this.wrapperContained = new net.minecraft.item.ToolMaterials(inverseTag,itemDurability,miningSpeed.wrapperContained,attackDamage,enchantability,repairIngredient); }
 
 }

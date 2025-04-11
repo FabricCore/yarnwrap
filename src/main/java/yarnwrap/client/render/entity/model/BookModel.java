@@ -23,6 +23,7 @@ public class BookModel { public net.minecraft.client.render.entity.model.BookMod
 // public void rightCover(yarnwrap.client.model.ModelPart value) { wrapperContained.rightCover = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart rightFlippingPage() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightFlippingPage); }
 // public void rightFlippingPage(yarnwrap.client.model.ModelPart value) { wrapperContained.rightFlippingPage = value.wrapperContained; }
+public BookModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.BookModel(root.wrapperContained); }
 public void setPageAngles(float pageTurnAmount,float leftFlipAmount,float rightFlipAmount,float pageTurnSpeed) { wrapperContained.setPageAngles(pageTurnAmount,leftFlipAmount,rightFlipAmount,pageTurnSpeed); }
 // public void renderBook(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,int light,int overlay) { wrapperContained.renderBook(matrices.wrapperContained,vertices.wrapperContained,light,overlay); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }

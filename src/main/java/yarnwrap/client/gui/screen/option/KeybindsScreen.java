@@ -11,5 +11,8 @@ public void lastKeyCodeUpdateTime(long value) { wrapperContained.lastKeyCodeUpda
 // public void resetAllButton(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.resetAllButton = value.wrapperContained; }
 // public yarnwrap.text.Text TITLE_TEXT() { return new yarnwrap.text.Text(wrapperContained.TITLE_TEXT); }
 // public void TITLE_TEXT(yarnwrap.text.Text value) { wrapperContained.TITLE_TEXT = value.wrapperContained; }
+public KeybindsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.option.GameOptions gameOptions) { this.wrapperContained = new net.minecraft.client.gui.screen.option.KeybindsScreen(parent.wrapperContained,gameOptions.wrapperContained); }
+// public void method_57748(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_57748(button.wrapperContained); }
+// public void method_60342(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_60342(button.wrapperContained); }
 
 }

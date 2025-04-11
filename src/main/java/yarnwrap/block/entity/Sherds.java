@@ -7,9 +7,12 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+// public Sherds(java.util.List sherds) { this.wrapperContained = new net.minecraft.block.entity.Sherds(sherds); }
+public Sherds(yarnwrap.item.Item back,yarnwrap.item.Item left,yarnwrap.item.Item right,yarnwrap.item.Item front) { this.wrapperContained = new net.minecraft.block.entity.Sherds(back.wrapperContained,left.wrapperContained,right.wrapperContained,front.wrapperContained); }
 public java.util.List stream() { return wrapperContained.stream(); }
 public yarnwrap.nbt.NbtCompound toNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt(nbt.wrapperContained)); }
 // public java.util.Optional getSherd(java.util.List sherds,int index) { return wrapperContained.getSherd(sherds,index); }
 public yarnwrap.block.entity.Sherds fromNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.block.entity.Sherds(wrapperContained.fromNbt(nbt.wrapperContained)); }
+// public yarnwrap.item.Item method_57592(java.util.Optional item) { return new yarnwrap.item.Item(wrapperContained.method_57592(item)); }
 
 }

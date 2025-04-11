@@ -15,6 +15,8 @@ public class SetTradeOffersS2CPacket { public net.minecraft.network.packet.s2c.p
 // public void refreshable(boolean value) { wrapperContained.refreshable = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public SetTradeOffersS2CPacket(int syncId,yarnwrap.village.TradeOfferList offers,int levelProgress,int experience,boolean leveled,boolean refreshable) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.SetTradeOffersS2CPacket(syncId,offers.wrapperContained,levelProgress,experience,leveled,refreshable); }
+// public SetTradeOffersS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.SetTradeOffersS2CPacket(buf.wrapperContained); }
 public int getSyncId() { return wrapperContained.getSyncId(); }
 public yarnwrap.village.TradeOfferList getOffers() { return new yarnwrap.village.TradeOfferList(wrapperContained.getOffers()); }
 public int getLevelProgress() { return wrapperContained.getLevelProgress(); }

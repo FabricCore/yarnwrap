@@ -15,6 +15,8 @@ public class PlayerInputC2SPacket { public net.minecraft.network.packet.c2s.play
 // public void SNEAKING_MASK(int value) { wrapperContained.SNEAKING_MASK = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public PlayerInputC2SPacket(float sideways,float forward,boolean jumping,boolean sneaking) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.PlayerInputC2SPacket(sideways,forward,jumping,sneaking); }
+// public PlayerInputC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.PlayerInputC2SPacket(buf.wrapperContained); }
 public boolean isSneaking() { return wrapperContained.isSneaking(); }
 public boolean isJumping() { return wrapperContained.isJumping(); }
 public float getSideways() { return wrapperContained.getSideways(); }

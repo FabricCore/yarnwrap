@@ -1,6 +1,7 @@
 package yarnwrap.entity;
 public class EntityDimensions { public net.minecraft.entity.EntityDimensions wrapperContained; public EntityDimensions(net.minecraft.entity.EntityDimensions wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public EntityDimensions(float width,float height,boolean fixed) { this.wrapperContained = new net.minecraft.entity.EntityDimensions(width,height,fixed); }
 public yarnwrap.entity.EntityDimensions scaled(float ratio) { return new yarnwrap.entity.EntityDimensions(wrapperContained.scaled(ratio)); }
 public yarnwrap.entity.EntityDimensions changing(float width,float height) { return new yarnwrap.entity.EntityDimensions(wrapperContained.changing(width,height)); }
 public yarnwrap.entity.EntityDimensions fixed(float width,float height) { return new yarnwrap.entity.EntityDimensions(wrapperContained.fixed(width,height)); }

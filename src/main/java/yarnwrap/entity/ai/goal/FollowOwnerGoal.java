@@ -17,5 +17,6 @@ public class FollowOwnerGoal { public net.minecraft.entity.ai.goal.FollowOwnerGo
 // public void minDistance(float value) { wrapperContained.minDistance = value; }
 // public float maxDistance() { return wrapperContained.maxDistance; }
 // public void maxDistance(float value) { wrapperContained.maxDistance = value; }
+public FollowOwnerGoal(yarnwrap.entity.passive.TameableEntity tameable,double speed,float minDistance,float maxDistance) { this.wrapperContained = new net.minecraft.entity.ai.goal.FollowOwnerGoal(tameable.wrapperContained,speed,minDistance,maxDistance); }
 
 }

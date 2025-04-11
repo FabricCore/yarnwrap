@@ -9,6 +9,7 @@ public class TeamTeleportSpectatorMenu { public net.minecraft.client.gui.hud.spe
 // public void commands(java.util.List value) { wrapperContained.commands = value; }
 // public yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.TEXTURE); }
 // public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
+// public java.util.stream.Stream method_47431(yarnwrap.client.MinecraftClient team) { return wrapperContained.method_47431(team.wrapperContained); }
 // public java.util.List getCommands(yarnwrap.client.MinecraftClient client,yarnwrap.scoreboard.Scoreboard scoreboard) { return wrapperContained.getCommands(client.wrapperContained,scoreboard.wrapperContained); }
 
 }

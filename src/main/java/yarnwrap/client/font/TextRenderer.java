@@ -17,6 +17,7 @@ public int ARABIC_SHAPING_LETTERS_SHAPE() { return wrapperContained.ARABIC_SHAPI
 // public void ARABIC_SHAPING_LETTERS_SHAPE(int value) { wrapperContained.ARABIC_SHAPING_LETTERS_SHAPE = value; }
 // public boolean validateAdvance() { return wrapperContained.validateAdvance; }
 // public void validateAdvance(boolean value) { wrapperContained.validateAdvance = value; }
+public TextRenderer(java.util.function.Function fontStorageAccessor,boolean validateAdvance) { this.wrapperContained = new net.minecraft.client.font.TextRenderer(fontStorageAccessor,validateAdvance); }
 // public void drawGlyph(yarnwrap.client.font.GlyphRenderer glyphRenderer,boolean bold,boolean italic,float weight,float x,float y,org.joml.Matrix4f matrix,yarnwrap.client.render.VertexConsumer vertexConsumer,float red,float green,float blue,float alpha,int light) { wrapperContained.drawGlyph(glyphRenderer.wrapperContained,bold,italic,weight,x,y,matrix,vertexConsumer.wrapperContained,red,green,blue,alpha,light); }
 public int getWrappedLinesHeight(java.lang.String text,int maxWidth) { return wrapperContained.getWrappedLinesHeight(text,maxWidth); }
 public yarnwrap.text.StringVisitable trimToWidth(yarnwrap.text.StringVisitable text,int width) { return new yarnwrap.text.StringVisitable(wrapperContained.trimToWidth(text.wrapperContained,width)); }
@@ -28,6 +29,7 @@ public int getWidth(java.lang.String text) { return wrapperContained.getWidth(te
 public java.util.List wrapLines(yarnwrap.text.StringVisitable text,int width) { return wrapperContained.wrapLines(text.wrapperContained,width); }
 // public int draw(yarnwrap.text.OrderedText text,float x,float y,int color,boolean shadow,org.joml.Matrix4f matrix,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,Object layerType,int backgroundColor,int light) { return wrapperContained.draw(text.wrapperContained,x,y,color,shadow,matrix,vertexConsumers.wrapperContained,layerType,backgroundColor,light); }
 // public int tweakTransparency(int argb) { return wrapperContained.tweakTransparency(argb); }
+// public float method_27516(int codePoint,yarnwrap.text.Style style) { return wrapperContained.method_27516(codePoint,style.wrapperContained); }
 // public int draw(java.lang.String text,float x,float y,int color,boolean shadow,org.joml.Matrix4f matrix,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,Object layerType,int backgroundColor,int light) { return wrapperContained.draw(text,x,y,color,shadow,matrix,vertexConsumers.wrapperContained,layerType,backgroundColor,light); }
 // public int draw(java.lang.String text,float x,float y,int color,boolean shadow,org.joml.Matrix4f matrix,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,Object layerType,int backgroundColor,int light,boolean rightToLeft) { return wrapperContained.draw(text,x,y,color,shadow,matrix,vertexConsumers.wrapperContained,layerType,backgroundColor,light,rightToLeft); }
 public java.lang.String trimToWidth(java.lang.String text,int maxWidth) { return wrapperContained.trimToWidth(text,maxWidth); }
@@ -40,6 +42,7 @@ public yarnwrap.client.font.TextHandler getTextHandler() { return new yarnwrap.c
 public int getWidth(yarnwrap.text.OrderedText text) { return wrapperContained.getWidth(text.wrapperContained); }
 // public int draw(yarnwrap.text.Text text,float x,float y,int color,boolean shadow,org.joml.Matrix4f matrix,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,Object layerType,int backgroundColor,int light) { return wrapperContained.draw(text.wrapperContained,x,y,color,shadow,matrix,vertexConsumers.wrapperContained,layerType,backgroundColor,light); }
 public void drawWithOutline(yarnwrap.text.OrderedText text,float x,float y,int color,int outlineColor,org.joml.Matrix4f matrix,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light) { wrapperContained.drawWithOutline(text.wrapperContained,x,y,color,outlineColor,matrix,vertexConsumers.wrapperContained,light); }
+// public boolean method_37297(Object index,float style,int codePoint) { return wrapperContained.method_37297(index,style,codePoint); }
 public int getWrappedLinesHeight(yarnwrap.text.StringVisitable text,int maxWidth) { return wrapperContained.getWrappedLinesHeight(text.wrapperContained,maxWidth); }
 
 }

@@ -31,11 +31,14 @@ public class AreaEffectCloudEntity { public net.minecraft.entity.AreaEffectCloud
 // public void owner(yarnwrap.entity.LivingEntity value) { wrapperContained.owner = value.wrapperContained; }
 // public yarnwrap.entity.data.TrackedData WAITING() { return new yarnwrap.entity.data.TrackedData(wrapperContained.WAITING); }
 // public void WAITING(yarnwrap.entity.data.TrackedData value) { wrapperContained.WAITING = value.wrapperContained; }
+public AreaEffectCloudEntity(yarnwrap.world.World world,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.AreaEffectCloudEntity(world.wrapperContained,x,y,z); }
+// public boolean method_32874(Object entry) { return wrapperContained.method_32874(entry); }
 public void setDurationOnUse(int durationOnUse) { wrapperContained.setDurationOnUse(durationOnUse); }
 public float getRadiusOnUse() { return wrapperContained.getRadiusOnUse(); }
 public float getRadiusGrowth() { return wrapperContained.getRadiusGrowth(); }
 public int getDurationOnUse() { return wrapperContained.getDurationOnUse(); }
 public int getWaitTime() { return wrapperContained.getWaitTime(); }
+// public int method_48564(int duration) { return wrapperContained.method_48564(duration); }
 public void setWaitTime(int waitTime) { wrapperContained.setWaitTime(waitTime); }
 public void setRadiusGrowth(float radiusGrowth) { wrapperContained.setRadiusGrowth(radiusGrowth); }
 // public void updateColor() { wrapperContained.updateColor(); }

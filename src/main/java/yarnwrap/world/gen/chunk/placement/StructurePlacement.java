@@ -15,6 +15,7 @@ public com.mojang.serialization.Codec TYPE_CODEC() { return wrapperContained.TYP
 // public void salt(int value) { wrapperContained.salt = value; }
 // public java.util.Optional exclusionZone() { return wrapperContained.exclusionZone; }
 // public void exclusionZone(java.util.Optional value) { wrapperContained.exclusionZone = value; }
+// public StructurePlacement(yarnwrap.util.math.Vec3i locateOffset,Object frequencyReductionMethod,float frequency,int salt,java.util.Optional exclusionZone) { this.wrapperContained = new net.minecraft.world.gen.chunk.placement.StructurePlacement(locateOffset.wrapperContained,frequencyReductionMethod,frequency,salt,exclusionZone); }
 public yarnwrap.world.gen.chunk.placement.StructurePlacementType getType() { return new yarnwrap.world.gen.chunk.placement.StructurePlacementType(wrapperContained.getType()); }
 // public boolean isStartChunk(yarnwrap.world.gen.chunk.placement.StructurePlacementCalculator calculator,int chunkX,int chunkZ) { return wrapperContained.isStartChunk(calculator.wrapperContained,chunkX,chunkZ); }
 // public boolean defaultShouldGenerate(long seed,int salt,int chunkX,int chunkZ,float frequency) { return wrapperContained.defaultShouldGenerate(seed,salt,chunkX,chunkZ,frequency); }

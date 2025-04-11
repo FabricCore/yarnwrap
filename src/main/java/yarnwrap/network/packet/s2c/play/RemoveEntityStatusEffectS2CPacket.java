@@ -3,6 +3,7 @@ public class RemoveEntityStatusEffectS2CPacket { public net.minecraft.network.pa
 
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public RemoveEntityStatusEffectS2CPacket(int entityId) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.RemoveEntityStatusEffectS2CPacket(entityId); }
 public yarnwrap.entity.Entity getEntity(yarnwrap.world.World world) { return new yarnwrap.entity.Entity(wrapperContained.getEntity(world.wrapperContained)); }
 
 }

@@ -9,10 +9,14 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CONDITION_LIST_CODEC(com.mojang.serialization.Codec value) { wrapperContained.CONDITION_LIST_CODEC = value; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public StatePredicate(java.util.List conditions) { this.wrapperContained = new net.minecraft.predicate.StatePredicate(conditions); }
 // public java.util.List conditions() { return wrapperContained.conditions(); }
 public boolean test(yarnwrap.block.BlockState state) { return wrapperContained.test(state.wrapperContained); }
 public boolean test(yarnwrap.state.StateManager stateManager,yarnwrap.state.State container) { return wrapperContained.test(stateManager.wrapperContained,container.wrapperContained); }
 public boolean test(yarnwrap.fluid.FluidState state) { return wrapperContained.test(state.wrapperContained); }
 public java.util.Optional findMissing(yarnwrap.state.StateManager stateManager) { return wrapperContained.findMissing(stateManager.wrapperContained); }
+// public java.util.Map method_53236(java.util.List conditions) { return wrapperContained.method_53236(conditions); }
+// public Object method_53237(Object state) { return wrapperContained.method_53237(state); }
+// public java.util.List method_53238(java.util.Map states) { return wrapperContained.method_53238(states); }
 
 }

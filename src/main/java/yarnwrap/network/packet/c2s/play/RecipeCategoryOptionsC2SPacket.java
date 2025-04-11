@@ -9,6 +9,8 @@ public class RecipeCategoryOptionsC2SPacket { public net.minecraft.network.packe
 // public void filteringCraftable(boolean value) { wrapperContained.filteringCraftable = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public RecipeCategoryOptionsC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.RecipeCategoryOptionsC2SPacket(buf.wrapperContained); }
+public RecipeCategoryOptionsC2SPacket(yarnwrap.recipe.book.RecipeBookCategory category,boolean guiOpen,boolean filteringCraftable) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.RecipeCategoryOptionsC2SPacket(category.wrapperContained,guiOpen,filteringCraftable); }
 public yarnwrap.recipe.book.RecipeBookCategory getCategory() { return new yarnwrap.recipe.book.RecipeBookCategory(wrapperContained.getCategory()); }
 public boolean isGuiOpen() { return wrapperContained.isGuiOpen(); }
 public boolean isFilteringCraftable() { return wrapperContained.isFilteringCraftable(); }

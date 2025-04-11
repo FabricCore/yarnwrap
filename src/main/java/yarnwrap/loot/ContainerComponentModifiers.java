@@ -11,5 +11,6 @@ public java.util.Map TYPE_TO_MODIFIER() { return wrapperContained.TYPE_TO_MODIFI
 // public void TYPE_TO_MODIFIER(java.util.Map value) { wrapperContained.TYPE_TO_MODIFIER = value; }
 public com.mojang.serialization.Codec MODIFIER_CODEC() { return wrapperContained.MODIFIER_CODEC; }
 // public void MODIFIER_CODEC(com.mojang.serialization.Codec value) { wrapperContained.MODIFIER_CODEC = value; }
+// public com.mojang.serialization.DataResult method_59729(yarnwrap.component.ComponentType componentType) { return wrapperContained.method_59729(componentType.wrapperContained); }
 
 }

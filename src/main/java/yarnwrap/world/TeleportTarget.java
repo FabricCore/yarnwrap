@@ -15,6 +15,8 @@ public Object SEND_TRAVEL_THROUGH_PORTAL_PACKET() { return wrapperContained.SEND
 // // public void SEND_TRAVEL_THROUGH_PORTAL_PACKET(Object value) { wrapperContained.SEND_TRAVEL_THROUGH_PORTAL_PACKET = value; }
 public Object ADD_PORTAL_CHUNK_TICKET() { return wrapperContained.ADD_PORTAL_CHUNK_TICKET; }
 // // public void ADD_PORTAL_CHUNK_TICKET(Object value) { wrapperContained.ADD_PORTAL_CHUNK_TICKET = value; }
+// public TeleportTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,Object postDimensionTransition) { this.wrapperContained = new net.minecraft.world.TeleportTarget(world.wrapperContained,entity.wrapperContained,postDimensionTransition); }
+// public TeleportTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.util.math.Vec3d velocity,float yaw,float pitch,Object postDimensionTransition) { this.wrapperContained = new net.minecraft.world.TeleportTarget(world.wrapperContained,pos.wrapperContained,velocity.wrapperContained,yaw,pitch,postDimensionTransition); }
 // public yarnwrap.server.world.ServerWorld world() { return new yarnwrap.server.world.ServerWorld(wrapperContained.world()); }
 // public yarnwrap.util.math.Vec3d velocity() { return new yarnwrap.util.math.Vec3d(wrapperContained.velocity()); }
 // public float yaw() { return wrapperContained.yaw(); }
@@ -23,5 +25,6 @@ public Object ADD_PORTAL_CHUNK_TICKET() { return wrapperContained.ADD_PORTAL_CHU
 // public yarnwrap.util.math.Vec3d getWorldSpawnPos(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity) { return new yarnwrap.util.math.Vec3d(wrapperContained.getWorldSpawnPos(world.wrapperContained,entity.wrapperContained)); }
 // public void sendTravelThroughPortalPacket(yarnwrap.entity.Entity entity) { wrapperContained.sendTravelThroughPortalPacket(entity.wrapperContained); }
 // public void addPortalChunkTicket(yarnwrap.entity.Entity entity) { wrapperContained.addPortalChunkTicket(entity.wrapperContained); }
+// public void method_61026(yarnwrap.entity.Entity entity) { wrapperContained.method_61026(entity.wrapperContained); }
 
 }

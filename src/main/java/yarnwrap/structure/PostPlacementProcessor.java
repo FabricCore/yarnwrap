@@ -3,5 +3,7 @@ public class PostPlacementProcessor { public net.minecraft.structure.PostPlaceme
 
 public yarnwrap.structure.PostPlacementProcessor EMPTY() { return new yarnwrap.structure.PostPlacementProcessor(wrapperContained.EMPTY); }
 // public void EMPTY(yarnwrap.structure.PostPlacementProcessor value) { wrapperContained.EMPTY = value.wrapperContained; }
+public void afterPlace(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.StructureAccessor structureAccessor,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockBox chunkBox,yarnwrap.util.math.ChunkPos pos,yarnwrap.structure.StructurePiecesList children) { wrapperContained.afterPlace(world.wrapperContained,structureAccessor.wrapperContained,chunkGenerator.wrapperContained,random.wrapperContained,chunkBox.wrapperContained,pos.wrapperContained,children.wrapperContained); }
+// public void method_38701(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.StructureAccessor structureAccessor,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockBox chunkBox,yarnwrap.util.math.ChunkPos pos,yarnwrap.structure.StructurePiecesList children) { wrapperContained.method_38701(world.wrapperContained,structureAccessor.wrapperContained,chunkGenerator.wrapperContained,random.wrapperContained,chunkBox.wrapperContained,pos.wrapperContained,children.wrapperContained); }
 
 }

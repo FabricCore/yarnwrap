@@ -7,6 +7,7 @@ public class ChoiceFix { public net.minecraft.datafixer.fix.ChoiceFix wrapperCon
 // // public void type(Object value) { wrapperContained.type = value; }
 // public java.lang.String choiceName() { return wrapperContained.choiceName; }
 // public void choiceName(java.lang.String value) { wrapperContained.choiceName = value; }
+// public ChoiceFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType,java.lang.String name,Object type,java.lang.String choiceName) { this.wrapperContained = new net.minecraft.datafixer.fix.ChoiceFix(outputSchema,changesType,name,type,choiceName); }
 // public com.mojang.datafixers.Typed transform(com.mojang.datafixers.Typed inputTyped) { return wrapperContained.transform(inputTyped); }
 
 }

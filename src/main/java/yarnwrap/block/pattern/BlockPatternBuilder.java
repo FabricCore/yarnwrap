@@ -17,5 +17,6 @@ public yarnwrap.block.pattern.BlockPatternBuilder aisle(java.lang.String[] patte
 // public java.util.function.Predicate[][][] bakePredicates() { return wrapperContained.bakePredicates(); }
 public yarnwrap.block.pattern.BlockPattern build() { return new yarnwrap.block.pattern.BlockPattern(wrapperContained.build()); }
 // public void validate() { wrapperContained.validate(); }
+// public boolean method_38861(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.method_38861(pos.wrapperContained); }
 
 }

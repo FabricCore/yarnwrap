@@ -7,6 +7,7 @@ public class ChatVisibility { public net.minecraft.network.message.ChatVisibilit
 // public void id(int value) { wrapperContained.id = value; }
 // public java.lang.String translationKey() { return wrapperContained.translationKey; }
 // public void translationKey(java.lang.String value) { wrapperContained.translationKey = value; }
+// // public ChatVisibility(java.lang.String id,int translationKey) { this.wrapperContained = new net.minecraft.network.message.ChatVisibility(id,translationKey); }
 public yarnwrap.network.message.ChatVisibility byId(int id) { return new yarnwrap.network.message.ChatVisibility(wrapperContained.byId(id)); }
 
 }

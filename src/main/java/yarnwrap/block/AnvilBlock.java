@@ -29,6 +29,7 @@ public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.
 // public void Z_STEP_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.Z_STEP_SHAPE = value.wrapperContained; }
 // public yarnwrap.util.shape.VoxelShape Z_AXIS_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.Z_AXIS_SHAPE); }
 // public void Z_AXIS_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.Z_AXIS_SHAPE = value.wrapperContained; }
+// public yarnwrap.screen.ScreenHandler method_17453(yarnwrap.world.World syncId,yarnwrap.util.math.BlockPos inventory,int player) { return new yarnwrap.screen.ScreenHandler(wrapperContained.method_17453(syncId.wrapperContained,inventory.wrapperContained,player)); }
 public yarnwrap.block.BlockState getLandingState(yarnwrap.block.BlockState fallingState) { return new yarnwrap.block.BlockState(wrapperContained.getLandingState(fallingState.wrapperContained)); }
 
 }

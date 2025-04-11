@@ -11,6 +11,8 @@ public class Downloader { public net.minecraft.util.Downloader wrapperContained;
 // public void executor(yarnwrap.util.thread.TaskExecutor value) { wrapperContained.executor = value.wrapperContained; }
 // public int MAX_RETAINED_CACHE_FILES() { return wrapperContained.MAX_RETAINED_CACHE_FILES; }
 // public void MAX_RETAINED_CACHE_FILES(int value) { wrapperContained.MAX_RETAINED_CACHE_FILES = value; }
+// public Downloader(java.nio.file.Path directory) { this.wrapperContained = new net.minecraft.util.Downloader(directory); }
+// public void method_55485(Object id,Object entry) { wrapperContained.method_55485(id,entry); }
 // public java.util.concurrent.CompletableFuture downloadAsync(Object config,java.util.Map entries) { return wrapperContained.downloadAsync(config,entries); }
 // public com.mojang.datafixers.util.Either getFileInfo(java.nio.file.Path path) { return wrapperContained.getFileInfo(path); }
 // public Object download(Object config,java.util.Map entries) { return wrapperContained.download(config,entries); }

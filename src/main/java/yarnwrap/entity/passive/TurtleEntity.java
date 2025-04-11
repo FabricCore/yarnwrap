@@ -23,12 +23,14 @@ public java.util.function.Predicate BABY_TURTLE_ON_LAND_FILTER() { return wrappe
 // public void ACTIVELY_TRAVELING(yarnwrap.entity.data.TrackedData value) { wrapperContained.ACTIVELY_TRAVELING = value.wrapperContained; }
 public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 public Object createTurtleAttributes() { return wrapperContained.createTurtleAttributes(); }
+// public boolean method_58376(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58376(stack.wrapperContained); }
 // public void setDiggingSand(boolean diggingSand) { wrapperContained.setDiggingSand(diggingSand); }
 public boolean hasEgg() { return wrapperContained.hasEgg(); }
 // public void setHasEgg(boolean hasEgg) { wrapperContained.setHasEgg(hasEgg); }
 public void setHomePos(yarnwrap.util.math.BlockPos pos) { wrapperContained.setHomePos(pos.wrapperContained); }
 // public boolean isLandBound() { return wrapperContained.isLandBound(); }
 // public yarnwrap.util.math.BlockPos getTravelPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getTravelPos()); }
+// public boolean method_6688(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_6688(entity.wrapperContained); }
 // public boolean isActivelyTraveling() { return wrapperContained.isActivelyTraveling(); }
 // public yarnwrap.util.math.BlockPos getHomePos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getHomePos()); }
 public boolean isDiggingSand() { return wrapperContained.isDiggingSand(); }

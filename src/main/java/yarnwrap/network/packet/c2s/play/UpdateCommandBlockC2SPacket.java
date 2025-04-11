@@ -21,6 +21,8 @@ public class UpdateCommandBlockC2SPacket { public net.minecraft.network.packet.c
 // public void ALWAYS_ACTIVE_MASK(int value) { wrapperContained.ALWAYS_ACTIVE_MASK = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public UpdateCommandBlockC2SPacket(yarnwrap.util.math.BlockPos pos,java.lang.String command,Object type,boolean trackOutput,boolean conditional,boolean alwaysActive) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateCommandBlockC2SPacket(pos.wrapperContained,command,type,trackOutput,conditional,alwaysActive); }
+// public UpdateCommandBlockC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateCommandBlockC2SPacket(buf.wrapperContained); }
 public Object getType() { return wrapperContained.getType(); }
 public java.lang.String getCommand() { return wrapperContained.getCommand(); }
 public boolean isConditional() { return wrapperContained.isConditional(); }

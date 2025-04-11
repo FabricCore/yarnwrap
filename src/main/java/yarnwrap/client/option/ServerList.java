@@ -13,6 +13,7 @@ public class ServerList { public net.minecraft.client.option.ServerList wrapperC
 // public void MAX_HIDDEN_ENTRIES(int value) { wrapperContained.MAX_HIDDEN_ENTRIES = value; }
 // public java.util.List hiddenServers() { return wrapperContained.hiddenServers; }
 // public void hiddenServers(java.util.List value) { wrapperContained.hiddenServers = value; }
+public ServerList(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.option.ServerList(client.wrapperContained); }
 public void set(int index,yarnwrap.client.network.ServerInfo serverInfo) { wrapperContained.set(index,serverInfo.wrapperContained); }
 public void loadFile() { wrapperContained.loadFile(); }
 public yarnwrap.client.network.ServerInfo get(int index) { return new yarnwrap.client.network.ServerInfo(wrapperContained.get(index)); }

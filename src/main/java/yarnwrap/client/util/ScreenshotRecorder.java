@@ -17,10 +17,12 @@ public class ScreenshotRecorder { public net.minecraft.client.util.ScreenshotRec
 // public void file(java.io.File value) { wrapperContained.file = value; }
 public java.lang.String SCREENSHOTS_DIRECTORY() { return wrapperContained.SCREENSHOTS_DIRECTORY; }
 // public void SCREENSHOTS_DIRECTORY(java.lang.String value) { wrapperContained.SCREENSHOTS_DIRECTORY = value; }
+// public ScreenshotRecorder(java.io.File gameDirectory,int width,int height,int unitHeight) { this.wrapperContained = new net.minecraft.client.util.ScreenshotRecorder(gameDirectory,width,height,unitHeight); }
 public void saveScreenshot(java.io.File gameDirectory,yarnwrap.client.gl.Framebuffer framebuffer,java.util.function.Consumer messageReceiver) { wrapperContained.saveScreenshot(gameDirectory,framebuffer.wrapperContained,messageReceiver); }
 // public java.io.File getScreenshotFilename(java.io.File directory) { return wrapperContained.getScreenshotFilename(directory); }
 // public void saveScreenshotInner(java.io.File gameDirectory,java.lang.String fileName,yarnwrap.client.gl.Framebuffer framebuffer,java.util.function.Consumer messageReceiver) { wrapperContained.saveScreenshotInner(gameDirectory,fileName,framebuffer.wrapperContained,messageReceiver); }
 public yarnwrap.client.texture.NativeImage takeScreenshot(yarnwrap.client.gl.Framebuffer framebuffer) { return new yarnwrap.client.texture.NativeImage(wrapperContained.takeScreenshot(framebuffer.wrapperContained)); }
+// public yarnwrap.text.Style method_1664(java.io.File style) { return new yarnwrap.text.Style(wrapperContained.method_1664(style)); }
 public void saveScreenshot(java.io.File gameDirectory,java.lang.String fileName,yarnwrap.client.gl.Framebuffer framebuffer,java.util.function.Consumer messageReceiver) { wrapperContained.saveScreenshot(gameDirectory,fileName,framebuffer.wrapperContained,messageReceiver); }
 // public void writeToStream() { wrapperContained.writeToStream(); }
 public void getIntoBuffer(java.nio.ByteBuffer data,int startWidth,int startHeight,int unitWidth,int unitHeight) { wrapperContained.getIntoBuffer(data,startWidth,startHeight,unitWidth,unitHeight); }

@@ -3,6 +3,7 @@ public class AbstractUuidFix { public net.minecraft.datafixer.fix.AbstractUuidFi
 
 // public Object typeReference() { return wrapperContained.typeReference; }
 // // public void typeReference(Object value) { wrapperContained.typeReference = value; }
+// public AbstractUuidFix(com.mojang.datafixers.schemas.Schema outputSchema,Object typeReference) { this.wrapperContained = new net.minecraft.datafixer.fix.AbstractUuidFix(outputSchema,typeReference); }
 // public java.util.Optional createArrayFromCompoundUuid() { return wrapperContained.createArrayFromCompoundUuid(); }
 // public java.util.Optional createArray(com.mojang.serialization.Dynamic mostBits,long leastBits) { return wrapperContained.createArray(mostBits,leastBits); }
 // public java.util.Optional createArrayFromStringUuid(com.mojang.serialization.Dynamic key) { return wrapperContained.createArrayFromStringUuid(key); }

@@ -20,9 +20,11 @@ public float WATER_FOG_CHANGE_DURATION() { return wrapperContained.WATER_FOG_CHA
 // public long lastWaterFogColorUpdateTime() { return wrapperContained.lastWaterFogColorUpdateTime; }
 // public void lastWaterFogColorUpdateTime(long value) { wrapperContained.lastWaterFogColorUpdateTime = value; }
 public void clearFog() { wrapperContained.clearFog(); }
+// public yarnwrap.util.math.Vec3d method_24873(yarnwrap.client.world.ClientWorld x,yarnwrap.world.biome.source.BiomeAccess y,float z) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_24873(x.wrapperContained,y.wrapperContained,z)); }
 public void render(yarnwrap.client.render.Camera camera,float tickDelta,yarnwrap.client.world.ClientWorld world,int viewDistance,float skyDarkness) { wrapperContained.render(camera.wrapperContained,tickDelta,world.wrapperContained,viewDistance,skyDarkness); }
 // public void applyFog(yarnwrap.client.render.Camera camera,Object fogType,float viewDistance,boolean thickFog,float tickDelta) { wrapperContained.applyFog(camera.wrapperContained,fogType,viewDistance,thickFog,tickDelta); }
 public void applyFogColor() { wrapperContained.applyFogColor(); }
 // public Object getFogModifier(yarnwrap.entity.Entity entity,float tickDelta) { return wrapperContained.getFogModifier(entity.wrapperContained,tickDelta); }
+// public boolean method_42589(yarnwrap.entity.LivingEntity modifier) { return wrapperContained.method_42589(modifier.wrapperContained); }
 
 }

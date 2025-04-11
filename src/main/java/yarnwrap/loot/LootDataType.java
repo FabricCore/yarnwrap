@@ -10,9 +10,12 @@ public yarnwrap.loot.LootDataType LOOT_TABLES() { return new yarnwrap.loot.LootD
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 public java.util.Optional parse(yarnwrap.util.Identifier id,com.mojang.serialization.DynamicOps ops,java.lang.Object json) { return wrapperContained.parse(id.wrapperContained,ops,json); }
+// public void method_51207(yarnwrap.loot.LootTableReporter reporter,yarnwrap.registry.RegistryKey key,yarnwrap.loot.context.LootContextAware value) { wrapperContained.method_51207(reporter.wrapperContained,key.wrapperContained,value.wrapperContained); }
+// public void method_51208(yarnwrap.loot.LootTableReporter reporter,yarnwrap.registry.RegistryKey key,yarnwrap.loot.LootTable value) { wrapperContained.method_51208(reporter.wrapperContained,key.wrapperContained,value.wrapperContained); }
 public void validate(yarnwrap.loot.LootTableReporter reporter,yarnwrap.registry.RegistryKey key,java.lang.Object value) { wrapperContained.validate(reporter.wrapperContained,key.wrapperContained,value); }
 public java.util.stream.Stream stream() { return wrapperContained.stream(); }
 // public Object simpleValidator() { return wrapperContained.simpleValidator(); }
 // public Object tableValidator() { return wrapperContained.tableValidator(); }
+// public void method_53267(yarnwrap.util.Identifier error) { wrapperContained.method_53267(error.wrapperContained); }
 
 }

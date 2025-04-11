@@ -9,6 +9,9 @@ public class BlockBreakingInfo { public net.minecraft.entity.player.BlockBreakin
 // public void actorNetworkId(int value) { wrapperContained.actorNetworkId = value; }
 // public yarnwrap.util.math.BlockPos pos() { return new yarnwrap.util.math.BlockPos(wrapperContained.pos); }
 // public void pos(yarnwrap.util.math.BlockPos value) { wrapperContained.pos = value.wrapperContained; }
+public BlockBreakingInfo(int breakingEntityId,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.entity.player.BlockBreakingInfo(breakingEntityId,pos.wrapperContained); }
+// public int compareTo(java.lang.Object other) { return wrapperContained.compareTo(other); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public void setStage(int stage) { wrapperContained.setStage(stage); }
 public int getStage() { return wrapperContained.getStage(); }
 public void setLastUpdateTick(int lastUpdateTick) { wrapperContained.setLastUpdateTick(lastUpdateTick); }

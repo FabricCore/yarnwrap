@@ -10,9 +10,11 @@ public com.mojang.serialization.Codec PERSISTENT_CODEC() { return wrapperContain
 public com.mojang.serialization.Codec TYPE_TO_VALUE_MAP_CODEC() { return wrapperContained.TYPE_TO_VALUE_MAP_CODEC; }
 // public void TYPE_TO_VALUE_MAP_CODEC(com.mojang.serialization.Codec value) { wrapperContained.TYPE_TO_VALUE_MAP_CODEC = value; }
 // public Object builder() { return wrapperContained.builder(); }
+// public yarnwrap.network.codec.PacketCodec method_57874(yarnwrap.network.codec.PacketCodec packetCodec) { return new yarnwrap.network.codec.PacketCodec(wrapperContained.method_57874(packetCodec.wrapperContained)); }
 public com.mojang.serialization.Codec getCodec() { return wrapperContained.getCodec(); }
 public com.mojang.serialization.Codec getCodecOrThrow() { return wrapperContained.getCodecOrThrow(); }
 public boolean shouldSkipSerialization() { return wrapperContained.shouldSkipSerialization(); }
 public yarnwrap.network.codec.PacketCodec getPacketCodec() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.getPacketCodec()); }
+// public com.mojang.serialization.DataResult method_58761(yarnwrap.component.ComponentType componentType) { return wrapperContained.method_58761(componentType.wrapperContained); }
 
 }

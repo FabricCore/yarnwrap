@@ -9,5 +9,7 @@ public class OutOfMemoryScreen { public net.minecraft.client.gui.screen.OutOfMem
 // public void MAX_TEXT_WIDTH(int value) { wrapperContained.MAX_TEXT_WIDTH = value; }
 // public yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+// public void method_19834(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19834(button.wrapperContained); }
+// public void method_19835(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19835(button.wrapperContained); }
 
 }

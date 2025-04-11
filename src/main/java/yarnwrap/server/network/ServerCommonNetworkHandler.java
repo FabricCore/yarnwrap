@@ -31,6 +31,7 @@ public int KEEP_ALIVE_INTERVAL() { return wrapperContained.KEEP_ALIVE_INTERVAL; 
 // public void transitionStartTime(long value) { wrapperContained.transitionStartTime = value; }
 // public boolean transitioning() { return wrapperContained.transitioning; }
 // public void transitioning(boolean value) { wrapperContained.transitioning = value; }
+// public ServerCommonNetworkHandler(yarnwrap.server.MinecraftServer server,yarnwrap.network.ClientConnection connection,yarnwrap.server.network.ConnectedClientData clientData) { this.wrapperContained = new net.minecraft.server.network.ServerCommonNetworkHandler(server.wrapperContained,connection.wrapperContained,clientData.wrapperContained); }
 public void sendPacket(yarnwrap.network.packet.Packet packet) { wrapperContained.sendPacket(packet.wrapperContained); }
 public void send(yarnwrap.network.packet.Packet packet,yarnwrap.network.PacketCallbacks callbacks) { wrapperContained.send(packet.wrapperContained,callbacks.wrapperContained); }
 public void disconnect(yarnwrap.text.Text reason) { wrapperContained.disconnect(reason.wrapperContained); }

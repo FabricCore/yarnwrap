@@ -7,6 +7,7 @@ public class TabButtonWidget { public net.minecraft.client.gui.widget.TabButtonW
 // public void tab(yarnwrap.client.gui.tab.Tab value) { wrapperContained.tab = value.wrapperContained; }
 // public yarnwrap.client.gui.screen.ButtonTextures TAB_BUTTON_TEXTURES() { return new yarnwrap.client.gui.screen.ButtonTextures(wrapperContained.TAB_BUTTON_TEXTURES); }
 // public void TAB_BUTTON_TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value) { wrapperContained.TAB_BUTTON_TEXTURES = value.wrapperContained; }
+public TabButtonWidget(yarnwrap.client.gui.tab.TabManager tabManager,yarnwrap.client.gui.tab.Tab tab,int width,int height) { this.wrapperContained = new net.minecraft.client.gui.widget.TabButtonWidget(tabManager.wrapperContained,tab.wrapperContained,width,height); }
 public void drawMessage(yarnwrap.client.gui.DrawContext context,yarnwrap.client.font.TextRenderer textRenderer,int color) { wrapperContained.drawMessage(context.wrapperContained,textRenderer.wrapperContained,color); }
 public yarnwrap.client.gui.tab.Tab getTab() { return new yarnwrap.client.gui.tab.Tab(wrapperContained.getTab()); }
 // public void drawCurrentTabLine(yarnwrap.client.gui.DrawContext context,yarnwrap.client.font.TextRenderer textRenderer,int color) { wrapperContained.drawCurrentTabLine(context.wrapperContained,textRenderer.wrapperContained,color); }

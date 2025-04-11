@@ -19,6 +19,7 @@ public class OggAudioStream { public net.minecraft.client.sound.OggAudioStream w
 // public void dspState(com.jcraft.jorbis.DspState value) { wrapperContained.dspState = value; }
 // public com.jcraft.jorbis.Block block() { return wrapperContained.block; }
 // public void block(com.jcraft.jorbis.Block value) { wrapperContained.block = value; }
+// public OggAudioStream(java.io.InputStream inputStream) { this.wrapperContained = new net.minecraft.client.sound.OggAudioStream(inputStream); }
 // public com.jcraft.jogg.Packet readIdentificationPacket(com.jcraft.jogg.Page page) { return wrapperContained.readIdentificationPacket(page); }
 // public boolean isError(int code) { return wrapperContained.isError(code); }
 // public boolean read() { return wrapperContained.read(); }

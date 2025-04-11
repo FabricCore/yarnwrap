@@ -9,6 +9,9 @@ public class LootTableReporter { public net.minecraft.loot.LootTableReporter wra
 // public void referenceStack(java.util.Set value) { wrapperContained.referenceStack = value; }
 // public yarnwrap.util.ErrorReporter errorReporter() { return new yarnwrap.util.ErrorReporter(wrapperContained.errorReporter); }
 // public void errorReporter(yarnwrap.util.ErrorReporter value) { wrapperContained.errorReporter = value.wrapperContained; }
+public LootTableReporter(yarnwrap.util.ErrorReporter errorReporter,yarnwrap.loot.context.LootContextType contextType) { this.wrapperContained = new net.minecraft.loot.LootTableReporter(errorReporter.wrapperContained,contextType.wrapperContained); }
+// public LootTableReporter(yarnwrap.util.ErrorReporter errorReporter,yarnwrap.loot.context.LootContextType contextType,java.util.Optional dataLookup,java.util.Set referenceStack) { this.wrapperContained = new net.minecraft.loot.LootTableReporter(errorReporter.wrapperContained,contextType.wrapperContained,dataLookup,referenceStack); }
+// public LootTableReporter(yarnwrap.util.ErrorReporter errorReporter,yarnwrap.loot.context.LootContextType contextType,Object dataLookup) { this.wrapperContained = new net.minecraft.loot.LootTableReporter(errorReporter.wrapperContained,contextType.wrapperContained,dataLookup); }
 public void validateContext(yarnwrap.loot.context.LootContextAware contextAware) { wrapperContained.validateContext(contextAware.wrapperContained); }
 public yarnwrap.loot.LootTableReporter withContextType(yarnwrap.loot.context.LootContextType contextType) { return new yarnwrap.loot.LootTableReporter(wrapperContained.withContextType(contextType.wrapperContained)); }
 public void report(java.lang.String message) { wrapperContained.report(message); }

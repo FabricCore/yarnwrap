@@ -3,5 +3,6 @@ public class DustPlumeParticle { public net.minecraft.client.particle.DustPlumeP
 
 // public int COLOR() { return wrapperContained.COLOR; }
 // public void COLOR(int value) { wrapperContained.COLOR = value; }
+// public DustPlumeParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ,float scaleMultiplier,yarnwrap.client.particle.SpriteProvider spriteProvider) { this.wrapperContained = new net.minecraft.client.particle.DustPlumeParticle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ,scaleMultiplier,spriteProvider.wrapperContained); }
 
 }

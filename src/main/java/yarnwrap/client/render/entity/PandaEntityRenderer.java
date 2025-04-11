@@ -3,6 +3,7 @@ public class PandaEntityRenderer { public net.minecraft.client.render.entity.Pan
 
 // public java.util.Map TEXTURES() { return wrapperContained.TEXTURES; }
 // public void TEXTURES(java.util.Map value) { wrapperContained.TEXTURES = value; }
+// public void method_17796(java.util.EnumMap map) { wrapperContained.method_17796(map); }
 // public float getAngle() { return wrapperContained.getAngle(); }
 
 }

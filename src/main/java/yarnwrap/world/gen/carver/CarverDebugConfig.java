@@ -15,7 +15,9 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void lavaState(yarnwrap.block.BlockState value) { wrapperContained.lavaState = value.wrapperContained; }
 // public yarnwrap.block.BlockState barrierState() { return new yarnwrap.block.BlockState(wrapperContained.barrierState); }
 // public void barrierState(yarnwrap.block.BlockState value) { wrapperContained.barrierState = value.wrapperContained; }
+// public CarverDebugConfig(boolean debugMode,yarnwrap.block.BlockState airState,yarnwrap.block.BlockState waterState,yarnwrap.block.BlockState lavaState,yarnwrap.block.BlockState barrierState) { this.wrapperContained = new net.minecraft.world.gen.carver.CarverDebugConfig(debugMode,airState.wrapperContained,waterState.wrapperContained,lavaState.wrapperContained,barrierState.wrapperContained); }
 public boolean isDebugMode() { return wrapperContained.isDebugMode(); }
+// public com.mojang.datafixers.kinds.App method_33971(Object instance) { return wrapperContained.method_33971(instance); }
 public yarnwrap.world.gen.carver.CarverDebugConfig create(boolean debugMode,yarnwrap.block.BlockState debugState) { return new yarnwrap.world.gen.carver.CarverDebugConfig(wrapperContained.create(debugMode,debugState.wrapperContained)); }
 public yarnwrap.block.BlockState getAirState() { return new yarnwrap.block.BlockState(wrapperContained.getAirState()); }
 public yarnwrap.world.gen.carver.CarverDebugConfig create(yarnwrap.block.BlockState airState,yarnwrap.block.BlockState waterState,yarnwrap.block.BlockState lavaState,yarnwrap.block.BlockState barrierState) { return new yarnwrap.world.gen.carver.CarverDebugConfig(wrapperContained.create(airState.wrapperContained,waterState.wrapperContained,lavaState.wrapperContained,barrierState.wrapperContained)); }

@@ -5,5 +5,6 @@ public class SimpleNamedScreenHandlerFactory { public net.minecraft.screen.Simpl
 // public void baseFactory(yarnwrap.screen.ScreenHandlerFactory value) { wrapperContained.baseFactory = value.wrapperContained; }
 // public yarnwrap.text.Text name() { return new yarnwrap.text.Text(wrapperContained.name); }
 // public void name(yarnwrap.text.Text value) { wrapperContained.name = value.wrapperContained; }
+public SimpleNamedScreenHandlerFactory(yarnwrap.screen.ScreenHandlerFactory baseFactory,yarnwrap.text.Text name) { this.wrapperContained = new net.minecraft.screen.SimpleNamedScreenHandlerFactory(baseFactory.wrapperContained,name.wrapperContained); }
 
 }

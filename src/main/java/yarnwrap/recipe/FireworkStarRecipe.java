@@ -11,5 +11,6 @@ public class FireworkStarRecipe { public net.minecraft.recipe.FireworkStarRecipe
 // public void TYPE_MODIFIER_MAP(java.util.Map value) { wrapperContained.TYPE_MODIFIER_MAP = value; }
 // public yarnwrap.recipe.Ingredient FLICKER_MODIFIER() { return new yarnwrap.recipe.Ingredient(wrapperContained.FLICKER_MODIFIER); }
 // public void FLICKER_MODIFIER(yarnwrap.recipe.Ingredient value) { wrapperContained.FLICKER_MODIFIER = value.wrapperContained; }
+// public void method_8085(java.util.HashMap typeModifiers) { wrapperContained.method_8085(typeModifiers); }
 
 }

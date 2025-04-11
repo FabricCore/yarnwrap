@@ -17,6 +17,9 @@ public int DEFAULT_HEADER_FOOTER_HEIGHT() { return wrapperContained.DEFAULT_HEAD
 // public void footerHeight(int value) { wrapperContained.footerHeight = value; }
 // public int FOOTER_MARGIN_TOP() { return wrapperContained.FOOTER_MARGIN_TOP; }
 // public void FOOTER_MARGIN_TOP(int value) { wrapperContained.FOOTER_MARGIN_TOP = value; }
+public ThreePartsLayoutWidget(yarnwrap.client.gui.screen.Screen screen) { this.wrapperContained = new net.minecraft.client.gui.widget.ThreePartsLayoutWidget(screen.wrapperContained); }
+public ThreePartsLayoutWidget(yarnwrap.client.gui.screen.Screen screen,int headerFooterHeight) { this.wrapperContained = new net.minecraft.client.gui.widget.ThreePartsLayoutWidget(screen.wrapperContained,headerFooterHeight); }
+public ThreePartsLayoutWidget(yarnwrap.client.gui.screen.Screen screen,int headerHeight,int footerHeight) { this.wrapperContained = new net.minecraft.client.gui.widget.ThreePartsLayoutWidget(screen.wrapperContained,headerHeight,footerHeight); }
 public void setFooterHeight(int footerHeight) { wrapperContained.setFooterHeight(footerHeight); }
 public yarnwrap.client.gui.widget.Widget addHeader(yarnwrap.client.gui.widget.Widget widget) { return new yarnwrap.client.gui.widget.Widget(wrapperContained.addHeader(widget.wrapperContained)); }
 public yarnwrap.client.gui.widget.Widget addHeader(yarnwrap.client.gui.widget.Widget widget,java.util.function.Consumer callback) { return new yarnwrap.client.gui.widget.Widget(wrapperContained.addHeader(widget.wrapperContained,callback)); }

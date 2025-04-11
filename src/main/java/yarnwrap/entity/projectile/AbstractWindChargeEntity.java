@@ -3,6 +3,7 @@ public class AbstractWindChargeEntity { public net.minecraft.entity.projectile.A
 
 public yarnwrap.world.explosion.ExplosionBehavior EXPLOSION_BEHAVIOR() { return new yarnwrap.world.explosion.ExplosionBehavior(wrapperContained.EXPLOSION_BEHAVIOR); }
 // public void EXPLOSION_BEHAVIOR(yarnwrap.world.explosion.ExplosionBehavior value) { wrapperContained.EXPLOSION_BEHAVIOR = value.wrapperContained; }
+// public AbstractWindChargeEntity(yarnwrap.entity.EntityType type,yarnwrap.world.World world,yarnwrap.entity.Entity owner,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.projectile.AbstractWindChargeEntity(type.wrapperContained,world.wrapperContained,owner.wrapperContained,x,y,z); }
 // public void createExplosion(yarnwrap.util.math.Vec3d pos) { wrapperContained.createExplosion(pos.wrapperContained); }
 
 }

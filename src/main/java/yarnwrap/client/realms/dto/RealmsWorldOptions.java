@@ -41,6 +41,7 @@ public java.lang.String version() { return wrapperContained.version; }
 // public void version(java.lang.String value) { wrapperContained.version = value; }
 public Object compatibility() { return wrapperContained.compatibility; }
 // // public void compatibility(Object value) { wrapperContained.compatibility = value; }
+// public RealmsWorldOptions(boolean pvp,boolean spawnAnimals,boolean spawnMonsters,boolean spawnNpcs,int spawnProtection,boolean commandBlocks,int difficulty,int gameMode,boolean forceGameMode,java.lang.String slotName,java.lang.String version,Object compatibility) { this.wrapperContained = new net.minecraft.client.realms.dto.RealmsWorldOptions(pvp,spawnAnimals,spawnMonsters,spawnNpcs,spawnProtection,commandBlocks,difficulty,gameMode,forceGameMode,slotName,version,compatibility); }
 public yarnwrap.client.realms.dto.RealmsWorldOptions getDefaults() { return new yarnwrap.client.realms.dto.RealmsWorldOptions(wrapperContained.getDefaults()); }
 public java.lang.String getSlotName(int index) { return wrapperContained.getSlotName(index); }
 public yarnwrap.client.realms.dto.RealmsWorldOptions parse(com.google.gson.JsonObject json) { return new yarnwrap.client.realms.dto.RealmsWorldOptions(wrapperContained.parse(json)); }

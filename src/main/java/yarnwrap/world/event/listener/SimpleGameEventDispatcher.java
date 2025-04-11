@@ -15,6 +15,7 @@ public class SimpleGameEventDispatcher { public net.minecraft.world.event.listen
 // public void ySectionCoord(int value) { wrapperContained.ySectionCoord = value; }
 // public Object disposalCallback() { return wrapperContained.disposalCallback; }
 // // public void disposalCallback(Object value) { wrapperContained.disposalCallback = value; }
+// public SimpleGameEventDispatcher(yarnwrap.server.world.ServerWorld world,int ySectionCoord,Object disposalCallback) { this.wrapperContained = new net.minecraft.world.event.listener.SimpleGameEventDispatcher(world.wrapperContained,ySectionCoord,disposalCallback); }
 // public java.util.Optional dispatchTo(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d listenerPos,yarnwrap.world.event.listener.GameEventListener listener) { return wrapperContained.dispatchTo(world.wrapperContained,listenerPos.wrapperContained,listener.wrapperContained); }
 
 }

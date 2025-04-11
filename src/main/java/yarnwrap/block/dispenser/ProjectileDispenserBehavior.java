@@ -5,5 +5,6 @@ public class ProjectileDispenserBehavior { public net.minecraft.block.dispenser.
 // public void projectile(yarnwrap.item.ProjectileItem value) { wrapperContained.projectile = value.wrapperContained; }
 // public Object projectileSettings() { return wrapperContained.projectileSettings; }
 // // public void projectileSettings(Object value) { wrapperContained.projectileSettings = value; }
+public ProjectileDispenserBehavior(yarnwrap.item.Item item) { this.wrapperContained = new net.minecraft.block.dispenser.ProjectileDispenserBehavior(item.wrapperContained); }
 
 }

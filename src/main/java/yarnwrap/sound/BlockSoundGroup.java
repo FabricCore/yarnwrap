@@ -241,6 +241,7 @@ public yarnwrap.sound.BlockSoundGroup HEAVY_CORE() { return new yarnwrap.sound.B
 // public void HEAVY_CORE(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.HEAVY_CORE = value.wrapperContained; }
 public yarnwrap.sound.BlockSoundGroup COBWEB() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.COBWEB); }
 // public void COBWEB(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.COBWEB = value.wrapperContained; }
+public BlockSoundGroup(float volume,float pitch,yarnwrap.sound.SoundEvent breakSound,yarnwrap.sound.SoundEvent stepSound,yarnwrap.sound.SoundEvent placeSound,yarnwrap.sound.SoundEvent hitSound,yarnwrap.sound.SoundEvent fallSound) { this.wrapperContained = new net.minecraft.sound.BlockSoundGroup(volume,pitch,breakSound.wrapperContained,stepSound.wrapperContained,placeSound.wrapperContained,hitSound.wrapperContained,fallSound.wrapperContained); }
 public yarnwrap.sound.SoundEvent getFallSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getFallSound()); }
 public yarnwrap.sound.SoundEvent getStepSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getStepSound()); }
 public yarnwrap.sound.SoundEvent getBreakSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getBreakSound()); }

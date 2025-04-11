@@ -9,6 +9,7 @@ public class Rect2i { public net.minecraft.client.util.math.Rect2i wrapperContai
 // public void y(int value) { wrapperContained.y = value; }
 // public int x() { return wrapperContained.x; }
 // public void x(int value) { wrapperContained.x = value; }
+public Rect2i(int x,int y,int width,int height) { this.wrapperContained = new net.minecraft.client.util.math.Rect2i(x,y,width,height); }
 public boolean contains(int x,int y) { return wrapperContained.contains(x,y); }
 public int getWidth() { return wrapperContained.getWidth(); }
 public int getHeight() { return wrapperContained.getHeight(); }

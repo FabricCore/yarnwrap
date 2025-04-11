@@ -11,6 +11,8 @@ public class WordPackedArray { public net.minecraft.util.math.WordPackedArray wr
 // public void length(int value) { wrapperContained.length = value; }
 // public int BIT_TO_LONG_INDEX_SHIFT() { return wrapperContained.BIT_TO_LONG_INDEX_SHIFT; }
 // public void BIT_TO_LONG_INDEX_SHIFT(int value) { wrapperContained.BIT_TO_LONG_INDEX_SHIFT = value; }
+public WordPackedArray(int unitSize,int length) { this.wrapperContained = new net.minecraft.util.math.WordPackedArray(unitSize,length); }
+// public WordPackedArray(int unitSize,int length,long array) { this.wrapperContained = new net.minecraft.util.math.WordPackedArray(unitSize,length,array); }
 public long[] getAlignedArray() { return wrapperContained.getAlignedArray(); }
 public int get(int index) { return wrapperContained.get(index); }
 public void set(int index,int value) { wrapperContained.set(index,value); }

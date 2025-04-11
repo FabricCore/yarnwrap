@@ -9,6 +9,7 @@ public class ResettingWorldTask { public net.minecraft.client.realms.task.Resett
 // public void callback(java.lang.Runnable value) { wrapperContained.callback = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public ResettingWorldTask(long serverId,yarnwrap.text.Text title,java.lang.Runnable callback) { this.wrapperContained = new net.minecraft.client.realms.task.ResettingWorldTask(serverId,title.wrapperContained,callback); }
 // public void resetWorld(yarnwrap.client.realms.RealmsClient client,long worldId) { wrapperContained.resetWorld(client.wrapperContained,worldId); }
 
 }

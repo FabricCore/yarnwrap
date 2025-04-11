@@ -17,6 +17,8 @@ public int FULLY_PUFFED() { return wrapperContained.FULLY_PUFFED; }
 // public void BLOW_UP_FILTER(java.util.function.Predicate value) { wrapperContained.BLOW_UP_FILTER = value; }
 // public yarnwrap.entity.data.TrackedData PUFF_STATE() { return new yarnwrap.entity.data.TrackedData(wrapperContained.PUFF_STATE); }
 // public void PUFF_STATE(yarnwrap.entity.data.TrackedData value) { wrapperContained.PUFF_STATE = value.wrapperContained; }
+// public boolean method_36550(yarnwrap.entity.mob.MobEntity entity) { return wrapperContained.method_36550(entity.wrapperContained); }
+// public boolean method_6591(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_6591(entity.wrapperContained); }
 // public float getScaleForPuffState(int puffState) { return wrapperContained.getScaleForPuffState(puffState); }
 // public void sting(yarnwrap.entity.mob.MobEntity mob) { wrapperContained.sting(mob.wrapperContained); }
 public int getPuffState() { return wrapperContained.getPuffState(); }

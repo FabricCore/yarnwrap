@@ -19,10 +19,13 @@ public class NoiseConfig { public net.minecraft.world.gen.noise.NoiseConfig wrap
 // public void noises(java.util.Map value) { wrapperContained.noises = value; }
 // public java.util.Map randomDerivers() { return wrapperContained.randomDerivers; }
 // public void randomDerivers(java.util.Map value) { wrapperContained.randomDerivers = value; }
+// public NoiseConfig(yarnwrap.world.gen.chunk.ChunkGeneratorSettings chunkGeneratorSettings,yarnwrap.registry.RegistryEntryLookup noiseParametersLookup,long seed) { this.wrapperContained = new net.minecraft.world.gen.noise.NoiseConfig(chunkGeneratorSettings.wrapperContained,noiseParametersLookup.wrapperContained,seed); }
 public yarnwrap.world.gen.noise.NoiseConfig create(yarnwrap.world.gen.chunk.ChunkGeneratorSettings chunkGeneratorSettings,yarnwrap.registry.RegistryEntryLookup noiseParametersLookup,long legacyWorldSeed) { return new yarnwrap.world.gen.noise.NoiseConfig(wrapperContained.create(chunkGeneratorSettings.wrapperContained,noiseParametersLookup.wrapperContained,legacyWorldSeed)); }
 // public yarnwrap.world.gen.noise.NoiseConfig create(Object registryLookup,yarnwrap.registry.RegistryKey chunkGeneratorSettingsKey,long legacyWorldSeed) { return new yarnwrap.world.gen.noise.NoiseConfig(wrapperContained.create(registryLookup,chunkGeneratorSettingsKey.wrapperContained,legacyWorldSeed)); }
 public yarnwrap.util.math.noise.DoublePerlinNoiseSampler getOrCreateSampler(yarnwrap.registry.RegistryKey noiseParametersKey) { return new yarnwrap.util.math.noise.DoublePerlinNoiseSampler(wrapperContained.getOrCreateSampler(noiseParametersKey.wrapperContained)); }
+// public yarnwrap.util.math.noise.DoublePerlinNoiseSampler method_41559(yarnwrap.registry.RegistryKey key) { return new yarnwrap.util.math.noise.DoublePerlinNoiseSampler(wrapperContained.method_41559(key.wrapperContained)); }
 public yarnwrap.util.math.random.RandomSplitter getOrCreateRandomDeriver(yarnwrap.util.Identifier id) { return new yarnwrap.util.math.random.RandomSplitter(wrapperContained.getOrCreateRandomDeriver(id.wrapperContained)); }
+// public yarnwrap.util.math.random.RandomSplitter method_41561(yarnwrap.util.Identifier id2) { return new yarnwrap.util.math.random.RandomSplitter(wrapperContained.method_41561(id2.wrapperContained)); }
 public yarnwrap.world.gen.noise.NoiseRouter getNoiseRouter() { return new yarnwrap.world.gen.noise.NoiseRouter(wrapperContained.getNoiseRouter()); }
 public Object getMultiNoiseSampler() { return wrapperContained.getMultiNoiseSampler(); }
 public yarnwrap.world.gen.surfacebuilder.SurfaceBuilder getSurfaceBuilder() { return new yarnwrap.world.gen.surfacebuilder.SurfaceBuilder(wrapperContained.getSurfaceBuilder()); }

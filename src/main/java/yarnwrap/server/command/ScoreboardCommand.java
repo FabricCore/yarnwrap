@@ -13,31 +13,56 @@ public class ScoreboardCommand { public net.minecraft.server.command.ScoreboardC
 // public void PLAYERS_ENABLE_FAILED_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.PLAYERS_ENABLE_FAILED_EXCEPTION = value; }
 // public com.mojang.brigadier.exceptions.SimpleCommandExceptionType OBJECTIVES_DISPLAY_ALREADY_EMPTY_EXCEPTION() { return wrapperContained.OBJECTIVES_DISPLAY_ALREADY_EMPTY_EXCEPTION; }
 // public void OBJECTIVES_DISPLAY_ALREADY_EMPTY_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.OBJECTIVES_DISPLAY_ALREADY_EMPTY_EXCEPTION = value; }
+// public int method_13574(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13574(context); }
 // public int executeReset(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets) { return wrapperContained.executeReset(source.wrapperContained,targets); }
 // public int executeModifyObjective(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.ScoreboardObjective objective,yarnwrap.text.Text displayName) { return wrapperContained.executeModifyObjective(source.wrapperContained,objective.wrapperContained,displayName.wrapperContained); }
+// public int method_13577(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13577(context); }
 // public int executeAdd(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.scoreboard.ScoreboardObjective objective,int score) { return wrapperContained.executeAdd(source.wrapperContained,targets,objective.wrapperContained,score); }
+// public int method_13579(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13579(context); }
+// public int method_13580(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13580(context); }
 // public int executeModifyRenderType(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.ScoreboardObjective objective,Object type) { return wrapperContained.executeModifyRenderType(source.wrapperContained,objective.wrapperContained,type); }
+// public int method_13582(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13582(context); }
+// public int method_13583(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13583(context); }
 // public int executeOperation(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.scoreboard.ScoreboardObjective targetObjective,Object operation,java.util.Collection sources,yarnwrap.scoreboard.ScoreboardObjective sourceObjectives) { return wrapperContained.executeOperation(source.wrapperContained,targets,targetObjective.wrapperContained,operation,sources,sourceObjectives.wrapperContained); }
+// public boolean method_13585(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13585(source.wrapperContained); }
 // public int executeReset(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.scoreboard.ScoreboardObjective objective) { return wrapperContained.executeReset(source.wrapperContained,targets,objective.wrapperContained); }
+// public java.util.concurrent.CompletableFuture method_13587(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_13587(context,builder); }
+// public int method_13588(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13588(context); }
 // public int executeListPlayers(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeListPlayers(source.wrapperContained); }
+// public int method_13590(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13590(context); }
+// public int method_13591(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13591(context); }
 // public int executeClearDisplay(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.ScoreboardDisplaySlot slot) { return wrapperContained.executeClearDisplay(source.wrapperContained,slot.wrapperContained); }
+// public int method_13593(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13593(context); }
+// public int method_13594(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13594(context); }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.command.CommandRegistryAccess registryAccess) { wrapperContained.register(dispatcher,registryAccess.wrapperContained); }
 // public int executeSetDisplay(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.ScoreboardDisplaySlot slot,yarnwrap.scoreboard.ScoreboardObjective objective) { return wrapperContained.executeSetDisplay(source.wrapperContained,slot.wrapperContained,objective.wrapperContained); }
 // public int executeListObjectives(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeListObjectives(source.wrapperContained); }
+// public int method_13598(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13598(context); }
+// public int method_13599(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13599(context); }
 // public int executeRemove(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.scoreboard.ScoreboardObjective objective,int score) { return wrapperContained.executeRemove(source.wrapperContained,targets,objective.wrapperContained,score); }
+// public int method_13601(Object context) { return wrapperContained.method_13601(context); }
 // public int executeRemoveObjective(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.ScoreboardObjective objective) { return wrapperContained.executeRemoveObjective(source.wrapperContained,objective.wrapperContained); }
+// public int method_13603(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13603(context); }
 // public int executeSet(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.scoreboard.ScoreboardObjective objective,int score) { return wrapperContained.executeSet(source.wrapperContained,targets,objective.wrapperContained,score); }
+// public com.mojang.brigadier.Message method_13605(java.lang.Object objective,java.lang.Object target) { return wrapperContained.method_13605(objective,target); }
 // public com.mojang.brigadier.builder.LiteralArgumentBuilder makeRenderTypeArguments() { return wrapperContained.makeRenderTypeArguments(); }
 // public int executeGet(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.ScoreHolder scoreHolder,yarnwrap.scoreboard.ScoreboardObjective objective) { return wrapperContained.executeGet(source.wrapperContained,scoreHolder.wrapperContained,objective.wrapperContained); }
+// public int method_13608(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13608(context); }
 // public int executeEnable(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.scoreboard.ScoreboardObjective objective) { return wrapperContained.executeEnable(source.wrapperContained,targets,objective.wrapperContained); }
+// public int method_13610(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13610(context); }
 // public int executeAddObjective(yarnwrap.server.command.ServerCommandSource source,java.lang.String objective,yarnwrap.scoreboard.ScoreboardCriterion criteria,yarnwrap.text.Text displayName) { return wrapperContained.executeAddObjective(source.wrapperContained,objective,criteria.wrapperContained,displayName.wrapperContained); }
+// public int method_13612(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13612(context); }
 // public java.util.concurrent.CompletableFuture suggestDisabled(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestDisabled(source.wrapperContained,targets,builder); }
 // public int executeListScores(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.ScoreHolder scoreHolder) { return wrapperContained.executeListScores(source.wrapperContained,scoreHolder.wrapperContained); }
+// public int method_55344(Object context) { return wrapperContained.method_55344(context); }
 // public com.mojang.brigadier.builder.ArgumentBuilder makeNumberFormatArguments(yarnwrap.command.CommandRegistryAccess registryAccess,com.mojang.brigadier.builder.ArgumentBuilder argumentBuilder,Object executor) { return wrapperContained.makeNumberFormatArguments(registryAccess.wrapperContained,argumentBuilder,executor); }
 // public int executeModifyObjectiveFormat(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.ScoreboardObjective objective,yarnwrap.scoreboard.number.NumberFormat format) { return wrapperContained.executeModifyObjectiveFormat(source.wrapperContained,objective.wrapperContained,format.wrapperContained); }
 // public int executeModifyDisplayAutoUpdate(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.ScoreboardObjective objective,boolean enable) { return wrapperContained.executeModifyDisplayAutoUpdate(source.wrapperContained,objective.wrapperContained,enable); }
 // public int executeSetDisplayName(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.scoreboard.ScoreboardObjective objective,yarnwrap.text.Text displayName) { return wrapperContained.executeSetDisplayName(source.wrapperContained,targets,objective.wrapperContained,displayName.wrapperContained); }
 // public int executeSetNumberFormat(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.scoreboard.ScoreboardObjective objective,yarnwrap.scoreboard.number.NumberFormat numberFormat) { return wrapperContained.executeSetNumberFormat(source.wrapperContained,targets,objective.wrapperContained,numberFormat.wrapperContained); }
 // public yarnwrap.text.Text getNextDisplayName(java.util.Collection targets) { return new yarnwrap.text.Text(wrapperContained.getNextDisplayName(targets)); }
+// public int method_55355(Object context) { return wrapperContained.method_55355(context); }
+// public int method_55360(Object context) { return wrapperContained.method_55360(context); }
+// public int method_55363(Object context) { return wrapperContained.method_55363(context); }
 
 }

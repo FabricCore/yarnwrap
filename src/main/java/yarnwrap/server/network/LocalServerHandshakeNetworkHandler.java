@@ -5,5 +5,6 @@ public class LocalServerHandshakeNetworkHandler { public net.minecraft.server.ne
 // public void connection(yarnwrap.network.ClientConnection value) { wrapperContained.connection = value.wrapperContained; }
 // public yarnwrap.server.MinecraftServer server() { return new yarnwrap.server.MinecraftServer(wrapperContained.server); }
 // public void server(yarnwrap.server.MinecraftServer value) { wrapperContained.server = value.wrapperContained; }
+public LocalServerHandshakeNetworkHandler(yarnwrap.server.MinecraftServer server,yarnwrap.network.ClientConnection connection) { this.wrapperContained = new net.minecraft.server.network.LocalServerHandshakeNetworkHandler(server.wrapperContained,connection.wrapperContained); }
 
 }

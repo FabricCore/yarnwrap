@@ -27,6 +27,7 @@ public class FrogEntityModel { public net.minecraft.client.render.entity.model.F
 // public void SWIMMING_LIMB_ANGLE_SCALE(float value) { wrapperContained.SWIMMING_LIMB_ANGLE_SCALE = value; }
 // public float LIMB_DISTANCE_SCALE() { return wrapperContained.LIMB_DISTANCE_SCALE; }
 // public void LIMB_DISTANCE_SCALE(float value) { wrapperContained.LIMB_DISTANCE_SCALE = value; }
+public FrogEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.FrogEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

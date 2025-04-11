@@ -21,6 +21,9 @@ public boolean isWithinShortRange(yarnwrap.util.math.Vec3d pos) { return wrapper
 public Object createBreezeAttributes() { return wrapperContained.createBreezeAttributes(); }
 public yarnwrap.entity.mob.BreezeEntity resetLongJumpingParticleAddCount() { return new yarnwrap.entity.mob.BreezeEntity(wrapperContained.resetLongJumpingParticleAddCount()); }
 public void playWhirlSound() { wrapperContained.playWhirlSound(); }
+// public void method_56087(yarnwrap.entity.projectile.ProjectileEntity projectile,yarnwrap.entity.Entity hitEntity,yarnwrap.util.math.random.Random random) { wrapperContained.method_56087(projectile.wrapperContained,hitEntity.wrapperContained,random.wrapperContained); }
+// public yarnwrap.entity.LivingEntity method_56560(yarnwrap.entity.Entity livingAttacker) { return new yarnwrap.entity.LivingEntity(wrapperContained.method_56560(livingAttacker.wrapperContained)); }
+// public boolean method_56561(yarnwrap.entity.Entity attacker) { return wrapperContained.method_56561(attacker.wrapperContained); }
 public java.util.Optional getHurtBy() { return wrapperContained.getHurtBy(); }
 
 }

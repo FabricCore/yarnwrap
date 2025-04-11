@@ -11,6 +11,8 @@ public class ResourcePackProfile { public net.minecraft.resource.ResourcePackPro
 // // public void metaData(Object value) { wrapperContained.metaData = value; }
 // public yarnwrap.resource.ResourcePackPosition position() { return new yarnwrap.resource.ResourcePackPosition(wrapperContained.position); }
 // public void position(yarnwrap.resource.ResourcePackPosition value) { wrapperContained.position = value.wrapperContained; }
+// public ResourcePackProfile(yarnwrap.resource.ResourcePackInfo info,Object packFactory,Object metaData,yarnwrap.resource.ResourcePackPosition position) { this.wrapperContained = new net.minecraft.resource.ResourcePackProfile(info.wrapperContained,packFactory,metaData,position.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.text.Text getDisplayName() { return new yarnwrap.text.Text(wrapperContained.getDisplayName()); }
 public yarnwrap.resource.ResourcePack createResourcePack() { return new yarnwrap.resource.ResourcePack(wrapperContained.createResourcePack()); }
 public yarnwrap.text.Text getDescription() { return new yarnwrap.text.Text(wrapperContained.getDescription()); }

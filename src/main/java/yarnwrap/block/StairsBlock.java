@@ -41,11 +41,15 @@ public yarnwrap.state.property.BooleanProperty WATERLOGGED() { return new yarnwr
 // public void baseBlock(yarnwrap.block.Block value) { wrapperContained.baseBlock = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public StairsBlock(yarnwrap.block.BlockState baseBlockState,Object settings) { this.wrapperContained = new net.minecraft.block.StairsBlock(baseBlockState.wrapperContained,settings); }
 // public yarnwrap.util.shape.VoxelShape composeShape(int i,yarnwrap.util.shape.VoxelShape base,yarnwrap.util.shape.VoxelShape northWest,yarnwrap.util.shape.VoxelShape northEast,yarnwrap.util.shape.VoxelShape southWest,yarnwrap.util.shape.VoxelShape southEast) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.composeShape(i,base.wrapperContained,northWest.wrapperContained,northEast.wrapperContained,southWest.wrapperContained,southEast.wrapperContained)); }
 // public net.minecraft.util.shape.VoxelShape[] composeShapes(yarnwrap.util.shape.VoxelShape base,yarnwrap.util.shape.VoxelShape northWest,yarnwrap.util.shape.VoxelShape northEast,yarnwrap.util.shape.VoxelShape southWest,yarnwrap.util.shape.VoxelShape southEast) { return wrapperContained.composeShapes(base.wrapperContained,northWest.wrapperContained,northEast.wrapperContained,southWest.wrapperContained,southEast.wrapperContained); }
 // public int getShapeIndexIndex(yarnwrap.block.BlockState state) { return wrapperContained.getShapeIndexIndex(state.wrapperContained); }
+// public yarnwrap.util.shape.VoxelShape method_10674(yarnwrap.util.shape.VoxelShape i) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_10674(i.wrapperContained)); }
 // public yarnwrap.block.enums.StairShape getStairShape(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.enums.StairShape(wrapperContained.getStairShape(state.wrapperContained,world.wrapperContained,pos.wrapperContained)); }
 public boolean isStairs(yarnwrap.block.BlockState state) { return wrapperContained.isStairs(state.wrapperContained); }
 // public boolean isDifferentOrientation(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction dir) { return wrapperContained.isDifferentOrientation(state.wrapperContained,world.wrapperContained,pos.wrapperContained,dir.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_54046(Object instance) { return wrapperContained.method_54046(instance); }
+// public yarnwrap.block.BlockState method_54047(yarnwrap.block.StairsBlock block) { return new yarnwrap.block.BlockState(wrapperContained.method_54047(block.wrapperContained)); }
 
 }

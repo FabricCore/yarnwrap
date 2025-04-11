@@ -11,5 +11,10 @@ public yarnwrap.stat.StatFormatter DIVIDE_BY_TEN() { return new yarnwrap.stat.St
 // public void DIVIDE_BY_TEN(yarnwrap.stat.StatFormatter value) { wrapperContained.DIVIDE_BY_TEN = value.wrapperContained; }
 public yarnwrap.stat.StatFormatter TIME() { return new yarnwrap.stat.StatFormatter(wrapperContained.TIME); }
 // public void TIME(yarnwrap.stat.StatFormatter value) { wrapperContained.TIME = value.wrapperContained; }
+public java.lang.String format(int value) { return wrapperContained.format(value); }
+// public java.lang.String method_16816(int cm) { return wrapperContained.method_16816(cm); }
+// public void method_16817(java.text.DecimalFormat decimalFormat) { wrapperContained.method_16817(decimalFormat); }
+// public java.lang.String method_16818(int i) { return wrapperContained.method_16818(i); }
+// public java.lang.String method_16819(int ticks) { return wrapperContained.method_16819(ticks); }
 
 }

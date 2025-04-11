@@ -13,6 +13,9 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void name(java.lang.String value) { wrapperContained.name = value; }
 // public yarnwrap.util.Formatting formatting() { return new yarnwrap.util.Formatting(wrapperContained.formatting); }
 // public void formatting(yarnwrap.util.Formatting value) { wrapperContained.formatting = value.wrapperContained; }
+// // public Rarity(java.lang.String index,int name,int formatting) { this.wrapperContained = new net.minecraft.util.Rarity(index,name,formatting); }
 public yarnwrap.util.Formatting getFormatting() { return new yarnwrap.util.Formatting(wrapperContained.getFormatting()); }
+// public int method_58414(yarnwrap.util.Rarity value) { return wrapperContained.method_58414(value.wrapperContained); }
+// public int method_58415(yarnwrap.util.Rarity value) { return wrapperContained.method_58415(value.wrapperContained); }
 
 }

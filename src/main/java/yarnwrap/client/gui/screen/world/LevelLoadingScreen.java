@@ -11,6 +11,8 @@ public class LevelLoadingScreen { public net.minecraft.client.gui.screen.world.L
 // public void NARRATION_DELAY(long value) { wrapperContained.NARRATION_DELAY = value; }
 // public boolean done() { return wrapperContained.done; }
 // public void done(boolean value) { wrapperContained.done = value; }
+public LevelLoadingScreen(yarnwrap.server.WorldGenerationProgressTracker progressProvider) { this.wrapperContained = new net.minecraft.client.gui.screen.world.LevelLoadingScreen(progressProvider.wrapperContained); }
+// public void method_17537(it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap map) { wrapperContained.method_17537(map); }
 public void drawChunkMap(yarnwrap.client.gui.DrawContext context,yarnwrap.server.WorldGenerationProgressTracker progressProvider,int centerX,int centerY,int pixelSize,int pixelMargin) { wrapperContained.drawChunkMap(context.wrapperContained,progressProvider.wrapperContained,centerX,centerY,pixelSize,pixelMargin); }
 // public yarnwrap.text.Text getPercentage() { return new yarnwrap.text.Text(wrapperContained.getPercentage()); }
 

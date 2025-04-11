@@ -39,6 +39,7 @@ public class Mouse { public net.minecraft.client.Mouse wrapperContained; public 
 // public void lastTickTime(double value) { wrapperContained.lastTickTime = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public Mouse(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.Mouse(client.wrapperContained); }
 // public void onMouseScroll(long window,double horizontal,double vertical) { wrapperContained.onMouseScroll(window,horizontal,vertical); }
 public void onResolutionChanged() { wrapperContained.onResolutionChanged(); }
 // public void onCursorPos(long window,double x,double y) { wrapperContained.onCursorPos(window,x,y); }
@@ -52,6 +53,10 @@ public boolean wasRightButtonClicked() { return wrapperContained.wasRightButtonC
 public void unlockCursor() { wrapperContained.unlockCursor(); }
 public void lockCursor() { wrapperContained.lockCursor(); }
 public boolean isCursorLocked() { return wrapperContained.isCursorLocked(); }
+// public void method_22684(long window,int button,int action,int modifiers) { wrapperContained.method_22684(window,button,action,modifiers); }
+// public void method_22685(long window,double offsetX,double offsetY) { wrapperContained.method_22685(window,offsetX,offsetY); }
+// public void method_22688(long window,double x,double y) { wrapperContained.method_22688(window,x,y); }
+// public void method_29615(long window,int count,long names) { wrapperContained.method_29615(window,count,names); }
 // public void onFilesDropped(long window,java.util.List paths,int invalidFilesCount) { wrapperContained.onFilesDropped(window,paths,invalidFilesCount); }
 public void setResolutionChanged() { wrapperContained.setResolutionChanged(); }
 public boolean wasMiddleButtonClicked() { return wrapperContained.wasMiddleButtonClicked(); }

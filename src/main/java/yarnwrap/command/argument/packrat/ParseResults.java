@@ -3,6 +3,7 @@ public class ParseResults { public net.minecraft.command.argument.packrat.ParseR
 
 // public it.unimi.dsi.fastutil.objects.Object2ObjectMap results() { return wrapperContained.results; }
 // public void results(it.unimi.dsi.fastutil.objects.Object2ObjectMap value) { wrapperContained.results = value; }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public java.lang.Object get(yarnwrap.command.argument.packrat.Symbol symbol) { return wrapperContained.get(symbol.wrapperContained); }
 public void put(yarnwrap.command.argument.packrat.Symbol symbol,java.lang.Object value) { wrapperContained.put(symbol.wrapperContained,value); }
 public void putAll(yarnwrap.command.argument.packrat.ParseResults results) { wrapperContained.putAll(results.wrapperContained); }

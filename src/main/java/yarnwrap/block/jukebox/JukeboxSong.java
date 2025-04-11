@@ -13,6 +13,7 @@ public yarnwrap.network.codec.PacketCodec ENTRY_PACKET_CODEC() { return new yarn
 // public void TICKS_PER_SECOND(int value) { wrapperContained.TICKS_PER_SECOND = value; }
 public int getLengthInTicks() { return wrapperContained.getLengthInTicks(); }
 public boolean shouldStopPlaying(long ticksSinceSongStarted) { return wrapperContained.shouldStopPlaying(ticksSinceSongStarted); }
+// public com.mojang.datafixers.kinds.App method_60752(Object instance) { return wrapperContained.method_60752(instance); }
 // public java.util.Optional getSongEntryFromStack(Object registryLookup,yarnwrap.item.ItemStack stack) { return wrapperContained.getSongEntryFromStack(registryLookup,stack.wrapperContained); }
 
 }

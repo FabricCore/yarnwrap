@@ -12,11 +12,13 @@ public class HoglinBrain { public net.minecraft.entity.mob.HoglinBrain wrapperCo
 // public float AVOID_TARGET_SPEED() { return wrapperContained.AVOID_TARGET_SPEED; }
 // public void AVOID_TARGET_SPEED(float value) { wrapperContained.AVOID_TARGET_SPEED = value; }
 // public yarnwrap.entity.ai.brain.task.RandomTask makeRandomWalkTask() { return new yarnwrap.entity.ai.brain.task.RandomTask(wrapperContained.makeRandomWalkTask()); }
+// public void method_24663(yarnwrap.entity.LivingEntity hoglinx) { wrapperContained.method_24663(hoglinx.wrapperContained); }
 // public void refreshActivities(yarnwrap.entity.mob.HoglinEntity hoglin) { wrapperContained.refreshActivities(hoglin.wrapperContained); }
 // public void onAttacking(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target) { wrapperContained.onAttacking(hoglin.wrapperContained,target.wrapperContained); }
 // public void addCoreTasks(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addCoreTasks(brain.wrapperContained); }
 // public yarnwrap.entity.ai.brain.Brain create(yarnwrap.entity.ai.brain.Brain brain) { return new yarnwrap.entity.ai.brain.Brain(wrapperContained.create(brain.wrapperContained)); }
 // public boolean isWarpedFungusAround(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isWarpedFungusAround(hoglin.wrapperContained,pos.wrapperContained); }
+// public void method_24670(yarnwrap.entity.LivingEntity hoglinx) { wrapperContained.method_24670(hoglinx.wrapperContained); }
 // public void onAttacked(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity attacker) { wrapperContained.onAttacked(hoglin.wrapperContained,attacker.wrapperContained); }
 // public void addIdleTasks(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleTasks(brain.wrapperContained); }
 // public void askAdultsToAvoid(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target) { wrapperContained.askAdultsToAvoid(hoglin.wrapperContained,target.wrapperContained); }
@@ -36,6 +38,7 @@ public class HoglinBrain { public net.minecraft.entity.mob.HoglinBrain wrapperCo
 // public boolean isLoneAdult(yarnwrap.entity.mob.HoglinEntity hoglin) { return wrapperContained.isLoneAdult(hoglin.wrapperContained); }
 // public yarnwrap.sound.SoundEvent getSoundEvent(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.ai.brain.Activity activity) { return new yarnwrap.sound.SoundEvent(wrapperContained.getSoundEvent(hoglin.wrapperContained,activity.wrapperContained)); }
 public java.util.Optional getSoundEvent(yarnwrap.entity.mob.HoglinEntity hoglin) { return wrapperContained.getSoundEvent(hoglin.wrapperContained); }
+// public yarnwrap.sound.SoundEvent method_30084(yarnwrap.entity.mob.HoglinEntity activity) { return new yarnwrap.sound.SoundEvent(wrapperContained.method_30084(activity.wrapperContained)); }
 // public boolean hasNearestRepellent(yarnwrap.entity.mob.HoglinEntity hoglin) { return wrapperContained.hasNearestRepellent(hoglin.wrapperContained); }
 
 }

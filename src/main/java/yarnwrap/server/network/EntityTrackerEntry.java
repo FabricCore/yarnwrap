@@ -35,12 +35,15 @@ public class EntityTrackerEntry { public net.minecraft.server.network.EntityTrac
 // public void trackedPos(yarnwrap.entity.TrackedPosition value) { wrapperContained.trackedPos = value.wrapperContained; }
 // public java.util.List changedEntries() { return wrapperContained.changedEntries; }
 // public void changedEntries(java.util.List value) { wrapperContained.changedEntries = value; }
+public EntityTrackerEntry(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,int tickInterval,boolean alwaysUpdateVelocity,java.util.function.Consumer receiver) { this.wrapperContained = new net.minecraft.server.network.EntityTrackerEntry(world.wrapperContained,entity.wrapperContained,tickInterval,alwaysUpdateVelocity,receiver); }
 public void stopTracking(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.stopTracking(player.wrapperContained); }
 // public void syncEntityData() { wrapperContained.syncEntityData(); }
 public void tick() { wrapperContained.tick(); }
 public void sendPackets(yarnwrap.server.network.ServerPlayerEntity player,java.util.function.Consumer sender) { wrapperContained.sendPackets(player.wrapperContained,sender); }
 // public void sendSyncPacket(yarnwrap.network.packet.Packet packet) { wrapperContained.sendSyncPacket(packet.wrapperContained); }
 public void startTracking(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.startTracking(player.wrapperContained); }
+// public void method_49426(yarnwrap.entity.Entity passenger) { wrapperContained.method_49426(passenger.wrapperContained); }
+// public boolean method_49752(java.util.List passenger) { return wrapperContained.method_49752(passenger); }
 // public java.util.stream.Stream streamChangedPassengers(java.util.List passengers,java.util.List lastPassengers) { return wrapperContained.streamChangedPassengers(passengers,lastPassengers); }
 public yarnwrap.util.math.Vec3d getPos() { return new yarnwrap.util.math.Vec3d(wrapperContained.getPos()); }
 public yarnwrap.util.math.Vec3d getVelocity() { return new yarnwrap.util.math.Vec3d(wrapperContained.getVelocity()); }

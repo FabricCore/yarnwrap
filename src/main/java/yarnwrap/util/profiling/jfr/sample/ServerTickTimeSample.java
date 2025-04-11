@@ -7,6 +7,7 @@ public class ServerTickTimeSample { public net.minecraft.util.profiling.jfr.samp
 // public void averageTickMs(java.time.Duration value) { wrapperContained.averageTickMs = value; }
 // public java.time.Instant time() { return wrapperContained.time(); }
 // public java.time.Duration averageTickMs() { return wrapperContained.averageTickMs(); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.util.profiling.jfr.sample.ServerTickTimeSample fromEvent(jdk.jfr.consumer.RecordedEvent event) { return new yarnwrap.util.profiling.jfr.sample.ServerTickTimeSample(wrapperContained.fromEvent(event)); }
 
 }

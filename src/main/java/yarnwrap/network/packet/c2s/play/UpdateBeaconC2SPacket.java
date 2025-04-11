@@ -3,5 +3,6 @@ public class UpdateBeaconC2SPacket { public net.minecraft.network.packet.c2s.pla
 
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public UpdateBeaconC2SPacket(java.util.Optional primaryEffectId,java.util.Optional secondaryEffectId) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateBeaconC2SPacket(primaryEffectId,secondaryEffectId); }
 
 }

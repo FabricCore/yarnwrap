@@ -5,6 +5,7 @@ public class ChoiceTypesFix { public net.minecraft.datafixer.fix.ChoiceTypesFix 
 // public void name(java.lang.String value) { wrapperContained.name = value; }
 // public Object types() { return wrapperContained.types; }
 // // public void types(Object value) { wrapperContained.types = value; }
+// public ChoiceTypesFix(com.mojang.datafixers.schemas.Schema outputSchema,java.lang.String name,Object types) { this.wrapperContained = new net.minecraft.datafixer.fix.ChoiceTypesFix(outputSchema,name,types); }
 // public com.mojang.datafixers.TypeRewriteRule fixChoiceTypes(Object inputChoiceType,Object outputChoiceType) { return wrapperContained.fixChoiceTypes(inputChoiceType,outputChoiceType); }
 
 }

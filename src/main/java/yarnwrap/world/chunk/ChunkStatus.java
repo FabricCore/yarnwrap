@@ -13,6 +13,7 @@ public java.util.EnumSet NORMAL_HEIGHTMAP_TYPES() { return wrapperContained.NORM
 // public void NORMAL_HEIGHTMAP_TYPES(java.util.EnumSet value) { wrapperContained.NORMAL_HEIGHTMAP_TYPES = value; }
 // public java.util.EnumSet WORLD_GEN_HEIGHTMAP_TYPES() { return wrapperContained.WORLD_GEN_HEIGHTMAP_TYPES; }
 // public void WORLD_GEN_HEIGHTMAP_TYPES(java.util.EnumSet value) { wrapperContained.WORLD_GEN_HEIGHTMAP_TYPES = value; }
+// public ChunkStatus(yarnwrap.world.chunk.ChunkStatus previous,java.util.EnumSet heightMapTypes,yarnwrap.world.chunk.ChunkType chunkType) { this.wrapperContained = new net.minecraft.world.chunk.ChunkStatus(previous.wrapperContained,heightMapTypes,chunkType.wrapperContained); }
 public java.util.EnumSet getHeightmapTypes() { return wrapperContained.getHeightmapTypes(); }
 public yarnwrap.world.chunk.ChunkType getChunkType() { return new yarnwrap.world.chunk.ChunkType(wrapperContained.getChunkType()); }
 public boolean isAtLeast(yarnwrap.world.chunk.ChunkStatus other) { return wrapperContained.isAtLeast(other.wrapperContained); }

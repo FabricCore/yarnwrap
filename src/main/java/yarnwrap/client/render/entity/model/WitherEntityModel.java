@@ -25,6 +25,7 @@ public class WitherEntityModel { public net.minecraft.client.render.entity.model
 // public void RIBCAGE_PITCH_OFFSET(float value) { wrapperContained.RIBCAGE_PITCH_OFFSET = value; }
 // public float TAIL_PITCH_OFFSET() { return wrapperContained.TAIL_PITCH_OFFSET; }
 // public void TAIL_PITCH_OFFSET(float value) { wrapperContained.TAIL_PITCH_OFFSET = value; }
+public WitherEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.WitherEntityModel(root.wrapperContained); }
 // public void rotateHead(yarnwrap.entity.boss.WitherEntity entity,yarnwrap.client.model.ModelPart head,int sigma) { wrapperContained.rotateHead(entity.wrapperContained,head.wrapperContained,sigma); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData(yarnwrap.client.model.Dilation dilation) { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData(dilation.wrapperContained)); }
 

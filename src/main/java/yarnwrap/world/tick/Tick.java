@@ -20,7 +20,9 @@ public yarnwrap.nbt.NbtCompound orderedTickToNbt(yarnwrap.world.tick.OrderedTick
 public yarnwrap.world.tick.Tick create(java.lang.Object type,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.world.tick.Tick(wrapperContained.create(type,pos.wrapperContained)); }
 // public yarnwrap.nbt.NbtCompound toNbt(java.lang.String type,yarnwrap.util.math.BlockPos pos,int delay,yarnwrap.world.tick.TickPriority priority) { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt(type,pos.wrapperContained,delay,priority.wrapperContained)); }
 public yarnwrap.nbt.NbtCompound toNbt(java.util.function.Function typeToNameFunction) { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt(typeToNameFunction)); }
+// public void method_39405(long tick) { wrapperContained.method_39405(tick); }
 public void tick(yarnwrap.nbt.NbtList tickList,java.util.function.Function nameToTypeFunction,yarnwrap.util.math.ChunkPos pos,java.util.function.Consumer tickConsumer) { wrapperContained.tick(tickList.wrapperContained,nameToTypeFunction,pos.wrapperContained,tickConsumer); }
+// public yarnwrap.world.tick.Tick method_40558(yarnwrap.nbt.NbtCompound type) { return new yarnwrap.world.tick.Tick(wrapperContained.method_40558(type.wrapperContained)); }
 public java.util.Optional fromNbt(yarnwrap.nbt.NbtCompound nbt,java.util.function.Function nameToType) { return wrapperContained.fromNbt(nbt.wrapperContained,nameToType); }
 
 }

@@ -14,6 +14,7 @@ public class ProjectileEntity { public net.minecraft.entity.projectile.Projectil
 public void setVelocity(yarnwrap.entity.Entity shooter,float pitch,float yaw,float roll,float speed,float divergence) { wrapperContained.setVelocity(shooter.wrapperContained,pitch,yaw,roll,speed,divergence); }
 // public void onBlockHit(yarnwrap.util.hit.BlockHitResult blockHitResult) { wrapperContained.onBlockHit(blockHitResult.wrapperContained); }
 // public boolean canHit(yarnwrap.entity.Entity entity) { return wrapperContained.canHit(entity.wrapperContained); }
+// public boolean method_26959(yarnwrap.entity.Entity entity) { return wrapperContained.method_26959(entity.wrapperContained); }
 // public float updateRotation(float prevRot,float newRot) { return wrapperContained.updateRotation(prevRot,newRot); }
 // public boolean shouldLeaveOwner() { return wrapperContained.shouldLeaveOwner(); }
 // public void updateRotation() { wrapperContained.updateRotation(); }

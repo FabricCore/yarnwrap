@@ -21,6 +21,7 @@ public int PROPERTIES_COUNT() { return wrapperContained.PROPERTIES_COUNT; }
 // public void inputStacks(yarnwrap.util.collection.DefaultedList value) { wrapperContained.inputStacks = value.wrapperContained; }
 // public int craftingTicksRemaining() { return wrapperContained.craftingTicksRemaining; }
 // public void craftingTicksRemaining(int value) { wrapperContained.craftingTicksRemaining = value; }
+public CrafterBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.CrafterBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public boolean betterSlotExists(int count,yarnwrap.item.ItemStack stack,int slot) { return wrapperContained.betterSlotExists(count,stack.wrapperContained,slot); }
 public void setSlotEnabled(int slot,boolean enabled) { wrapperContained.setSlotEnabled(slot,enabled); }
 public void tickCrafting(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.CrafterBlockEntity blockEntity) { wrapperContained.tickCrafting(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }

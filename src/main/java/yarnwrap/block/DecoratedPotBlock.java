@@ -13,5 +13,7 @@ public yarnwrap.state.property.BooleanProperty CRACKED() { return new yarnwrap.s
 // public void CRACKED(yarnwrap.state.property.BooleanProperty value) { wrapperContained.CRACKED = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public void method_49815(yarnwrap.block.entity.DecoratedPotBlockEntity lootConsumer) { wrapperContained.method_49815(lootConsumer.wrapperContained); }
+// public void method_51510(java.util.List sherd) { wrapperContained.method_51510(sherd); }
 
 }

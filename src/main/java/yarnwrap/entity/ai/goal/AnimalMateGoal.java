@@ -15,6 +15,8 @@ public class AnimalMateGoal { public net.minecraft.entity.ai.goal.AnimalMateGoal
 // public void mate(yarnwrap.entity.passive.AnimalEntity value) { wrapperContained.mate = value.wrapperContained; }
 // public double speed() { return wrapperContained.speed; }
 // public void speed(double value) { wrapperContained.speed = value; }
+public AnimalMateGoal(yarnwrap.entity.passive.AnimalEntity animal,double speed) { this.wrapperContained = new net.minecraft.entity.ai.goal.AnimalMateGoal(animal.wrapperContained,speed); }
+public AnimalMateGoal(yarnwrap.entity.passive.AnimalEntity animal,double speed,java.lang.Class entityClass) { this.wrapperContained = new net.minecraft.entity.ai.goal.AnimalMateGoal(animal.wrapperContained,speed,entityClass); }
 // public void breed() { wrapperContained.breed(); }
 // public yarnwrap.entity.passive.AnimalEntity findMate() { return new yarnwrap.entity.passive.AnimalEntity(wrapperContained.findMate()); }
 

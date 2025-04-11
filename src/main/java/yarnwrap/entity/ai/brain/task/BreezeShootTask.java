@@ -18,6 +18,9 @@ public class BreezeShootTask { public net.minecraft.entity.ai.brain.task.BreezeS
 // public int SHOOT_COOLDOWN_EXPIRY() { return wrapperContained.SHOOT_COOLDOWN_EXPIRY; }
 // public void SHOOT_COOLDOWN_EXPIRY(int value) { wrapperContained.SHOOT_COOLDOWN_EXPIRY = value; }
 public boolean isFacingTarget(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.entity.LivingEntity target) { return wrapperContained.isFacingTarget(breeze.wrapperContained,target.wrapperContained); }
+// public java.lang.Boolean method_55039(yarnwrap.entity.mob.BreezeEntity withinRange) { return wrapperContained.method_55039(withinRange.wrapperContained); }
 // public boolean isTargetWithinRange(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.entity.LivingEntity target) { return wrapperContained.isTargetWithinRange(breeze.wrapperContained,target.wrapperContained); }
+// public void method_55043(yarnwrap.entity.mob.BreezeEntity target) { wrapperContained.method_55043(target.wrapperContained); }
+// public java.lang.Boolean method_55045(yarnwrap.entity.mob.BreezeEntity target) { return wrapperContained.method_55045(target.wrapperContained); }
 
 }

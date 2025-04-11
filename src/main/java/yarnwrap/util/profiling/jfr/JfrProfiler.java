@@ -27,6 +27,7 @@ public java.lang.String NETWORK() { return wrapperContained.NETWORK; }
 // public void summaryRecorderByAddress(java.util.Map value) { wrapperContained.summaryRecorderByAddress = value; }
 public java.lang.String STORAGE() { return wrapperContained.STORAGE; }
 // public void STORAGE(java.lang.String value) { wrapperContained.STORAGE = value; }
+// public void method_37982(yarnwrap.util.profiling.jfr.InstanceType recording) { wrapperContained.method_37982(recording.wrapperContained); }
 // public boolean start(java.io.Reader reader,yarnwrap.util.profiling.jfr.InstanceType instanceType) { return wrapperContained.start(reader,instanceType.wrapperContained); }
 // public void addListener() { wrapperContained.addListener(); }
 public yarnwrap.util.profiling.jfr.JfrProfiler getInstance() { return new yarnwrap.util.profiling.jfr.JfrProfiler(wrapperContained.getInstance()); }

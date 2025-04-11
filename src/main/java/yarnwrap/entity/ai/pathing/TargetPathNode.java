@@ -7,6 +7,7 @@ public class TargetPathNode { public net.minecraft.entity.ai.pathing.TargetPathN
 // public void nearestNode(yarnwrap.entity.ai.pathing.PathNode value) { wrapperContained.nearestNode = value.wrapperContained; }
 // public boolean reached() { return wrapperContained.reached; }
 // public void reached(boolean value) { wrapperContained.reached = value; }
+public TargetPathNode(yarnwrap.entity.ai.pathing.PathNode node) { this.wrapperContained = new net.minecraft.entity.ai.pathing.TargetPathNode(node.wrapperContained); }
 public void updateNearestNode(float distance,yarnwrap.entity.ai.pathing.PathNode node) { wrapperContained.updateNearestNode(distance,node.wrapperContained); }
 public yarnwrap.entity.ai.pathing.TargetPathNode fromBuffer(yarnwrap.network.PacketByteBuf buffer) { return new yarnwrap.entity.ai.pathing.TargetPathNode(wrapperContained.fromBuffer(buffer.wrapperContained)); }
 public yarnwrap.entity.ai.pathing.PathNode getNearestNode() { return new yarnwrap.entity.ai.pathing.PathNode(wrapperContained.getNearestNode()); }

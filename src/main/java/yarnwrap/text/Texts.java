@@ -11,6 +11,7 @@ public yarnwrap.text.Text DEFAULT_SEPARATOR_TEXT() { return new yarnwrap.text.Te
 public yarnwrap.text.Text toText(com.mojang.brigadier.Message message) { return new yarnwrap.text.Text(wrapperContained.toText(message)); }
 public yarnwrap.text.Text join(java.util.Collection elements,java.util.function.Function transformer) { return new yarnwrap.text.Text(wrapperContained.join(elements,transformer)); }
 public yarnwrap.text.MutableText bracketed(yarnwrap.text.Text text) { return new yarnwrap.text.MutableText(wrapperContained.bracketed(text.wrapperContained)); }
+// public yarnwrap.text.Text method_10886(java.lang.String string) { return new yarnwrap.text.Text(wrapperContained.method_10886(string)); }
 public yarnwrap.text.Text joinOrdered(java.util.Collection elements,java.util.function.Function transformer) { return new yarnwrap.text.Text(wrapperContained.joinOrdered(elements,transformer)); }
 public yarnwrap.text.Text joinOrdered(java.util.Collection strings) { return new yarnwrap.text.Text(wrapperContained.joinOrdered(strings)); }
 public yarnwrap.text.MutableText setStyleIfAbsent(yarnwrap.text.MutableText text,yarnwrap.text.Style style) { return new yarnwrap.text.MutableText(wrapperContained.setStyleIfAbsent(text.wrapperContained,style.wrapperContained)); }
@@ -21,5 +22,6 @@ public yarnwrap.text.MutableText join(java.util.Collection elements,yarnwrap.tex
 public yarnwrap.text.Text join(java.util.Collection texts,yarnwrap.text.Text separator) { return new yarnwrap.text.Text(wrapperContained.join(texts,separator.wrapperContained)); }
 public boolean hasTranslation(yarnwrap.text.Text text) { return wrapperContained.hasTranslation(text.wrapperContained); }
 public yarnwrap.text.MutableText bracketedCopyable(java.lang.String string) { return new yarnwrap.text.MutableText(wrapperContained.bracketedCopyable(string)); }
+// public yarnwrap.text.Style method_47524(java.lang.String style) { return new yarnwrap.text.Style(wrapperContained.method_47524(style)); }
 
 }

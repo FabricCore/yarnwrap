@@ -55,12 +55,17 @@ public com.mojang.brigadier.exceptions.DynamicCommandExceptionType UNKNOWN_BLOCK
 // public void registryWrapper(yarnwrap.registry.RegistryWrapper value) { wrapperContained.registryWrapper = value.wrapperContained; }
 // public boolean allowSnbt() { return wrapperContained.allowSnbt; }
 // public void allowSnbt(boolean value) { wrapperContained.allowSnbt = value; }
+// public BlockArgumentParser(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowTag,boolean allowSnbt) { this.wrapperContained = new net.minecraft.command.argument.BlockArgumentParser(registryWrapper.wrapperContained,reader,allowTag,allowSnbt); }
 // public Object block(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowSnbt) { return wrapperContained.block(registryWrapper.wrapperContained,reader,allowSnbt); }
 // public Object block(yarnwrap.registry.RegistryWrapper registryWrapper,java.lang.String string,boolean allowSnbt) { return wrapperContained.block(registryWrapper.wrapperContained,string,allowSnbt); }
+// public com.mojang.brigadier.Message method_41958(java.lang.Object tag) { return wrapperContained.method_41958(tag); }
+// public java.lang.String method_41959(yarnwrap.registry.RegistryKey key) { return wrapperContained.method_41959(key.wrapperContained); }
 // public com.mojang.datafixers.util.Either blockOrTag(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowSnbt) { return wrapperContained.blockOrTag(registryWrapper.wrapperContained,reader,allowSnbt); }
 // public com.mojang.datafixers.util.Either blockOrTag(yarnwrap.registry.RegistryWrapper registryWrapper,java.lang.String string,boolean allowSnbt) { return wrapperContained.blockOrTag(registryWrapper.wrapperContained,string,allowSnbt); }
 // public java.util.concurrent.CompletableFuture suggestBlockId(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestBlockId(builder); }
 // public void parseBlockProperties() { wrapperContained.parseBlockProperties(); }
+// public com.mojang.brigadier.Message method_9660(java.lang.Object block,java.lang.Object property,java.lang.Object value) { return wrapperContained.method_9660(block,property,value); }
+// public com.mojang.brigadier.Message method_9661(java.lang.Object block,java.lang.Object property) { return wrapperContained.method_9661(block,property); }
 // public com.mojang.brigadier.suggestion.SuggestionsBuilder suggestPropertyValues(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,yarnwrap.state.property.Property property) { return wrapperContained.suggestPropertyValues(builder,property.wrapperContained); }
 // public void stringifyProperty(java.lang.StringBuilder builder,yarnwrap.state.property.Property property,java.lang.Comparable value) { wrapperContained.stringifyProperty(builder,property.wrapperContained,value); }
 // public java.util.concurrent.CompletableFuture suggestBlockProperties(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestBlockProperties(builder); }
@@ -79,10 +84,15 @@ public java.util.concurrent.CompletableFuture getSuggestions(yarnwrap.registry.R
 // public java.util.concurrent.CompletableFuture suggestSnbtOrTagProperties(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestSnbtOrTagProperties(builder); }
 // public void parseTagProperties() { wrapperContained.parseTagProperties(); }
 // public java.util.concurrent.CompletableFuture suggestSnbtOrBlockProperties(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestSnbtOrBlockProperties(builder); }
+// public com.mojang.brigadier.Message method_9682(java.lang.Object block) { return wrapperContained.method_9682(block); }
+// public java.util.concurrent.CompletableFuture method_9683(java.lang.String builder) { return wrapperContained.method_9683(builder); }
+// public java.util.concurrent.CompletableFuture method_9684(yarnwrap.state.property.Property builder) { return wrapperContained.method_9684(builder.wrapperContained); }
 public java.lang.String stringifyBlockState(yarnwrap.block.BlockState state) { return wrapperContained.stringifyBlockState(state.wrapperContained); }
+// public com.mojang.brigadier.Message method_9686(java.lang.Object block,java.lang.Object property) { return wrapperContained.method_9686(block,property); }
 // public java.util.concurrent.CompletableFuture suggestSnbt(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestSnbt(builder); }
 // public java.util.concurrent.CompletableFuture suggestCommaOrEnd(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestCommaOrEnd(builder); }
 // public java.util.concurrent.CompletableFuture suggestTagPropertyValues(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,java.lang.String name) { return wrapperContained.suggestTagPropertyValues(builder,name); }
+// public com.mojang.brigadier.Message method_9691(java.lang.Object block,java.lang.Object property) { return wrapperContained.method_9691(block,property); }
 // public java.util.concurrent.CompletableFuture suggestEqualsCharacter(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestEqualsCharacter(builder); }
 
 }

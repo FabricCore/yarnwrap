@@ -7,5 +7,8 @@ public class DataPackFailureScreen { public net.minecraft.client.gui.screen.worl
 // public void goBack(java.lang.Runnable value) { wrapperContained.goBack = value; }
 // public java.lang.Runnable runServerInSafeMode() { return wrapperContained.runServerInSafeMode; }
 // public void runServerInSafeMode(java.lang.Runnable value) { wrapperContained.runServerInSafeMode = value; }
+public DataPackFailureScreen(java.lang.Runnable goBack,java.lang.Runnable runServerInSafeMode) { this.wrapperContained = new net.minecraft.client.gui.screen.world.DataPackFailureScreen(goBack,runServerInSafeMode); }
+// public void method_29345(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_29345(button.wrapperContained); }
+// public void method_29346(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_29346(button.wrapperContained); }
 
 }

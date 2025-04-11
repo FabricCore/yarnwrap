@@ -15,6 +15,7 @@ public class ShulkerBulletEntity { public net.minecraft.entity.projectile.Shulke
 // public void targetY(double value) { wrapperContained.targetY = value; }
 // public double targetX() { return wrapperContained.targetX; }
 // public void targetX(double value) { wrapperContained.targetX = value; }
+// public ShulkerBulletEntity(yarnwrap.world.World world,yarnwrap.entity.LivingEntity owner,yarnwrap.entity.Entity target,Object axis) { this.wrapperContained = new net.minecraft.entity.projectile.ShulkerBulletEntity(world.wrapperContained,owner.wrapperContained,target.wrapperContained,axis); }
 // public yarnwrap.util.math.Direction getDirection() { return new yarnwrap.util.math.Direction(wrapperContained.getDirection()); }
 // public void destroy() { wrapperContained.destroy(); }
 // public void changeTargetDirection(Object axis) { wrapperContained.changeTargetDirection(axis); }

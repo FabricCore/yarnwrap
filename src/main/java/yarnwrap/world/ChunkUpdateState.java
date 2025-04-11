@@ -9,6 +9,7 @@ public class ChunkUpdateState { public net.minecraft.world.ChunkUpdateState wrap
 // public void REMAINING_KEY(java.lang.String value) { wrapperContained.REMAINING_KEY = value; }
 // public java.lang.String ALL_KEY() { return wrapperContained.ALL_KEY; }
 // public void ALL_KEY(java.lang.String value) { wrapperContained.ALL_KEY = value; }
+// public ChunkUpdateState(it.unimi.dsi.fastutil.longs.LongSet all,it.unimi.dsi.fastutil.longs.LongSet remaining) { this.wrapperContained = new net.minecraft.world.ChunkUpdateState(all,remaining); }
 public boolean isRemaining(long pos) { return wrapperContained.isRemaining(pos); }
 public void markResolved(long pos) { wrapperContained.markResolved(pos); }
 public void add(long pos) { wrapperContained.add(pos); }

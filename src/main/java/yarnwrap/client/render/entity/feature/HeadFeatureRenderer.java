@@ -11,6 +11,8 @@ public class HeadFeatureRenderer { public net.minecraft.client.render.entity.fea
 // public void headModels(java.util.Map value) { wrapperContained.headModels = value; }
 // public yarnwrap.client.render.item.HeldItemRenderer heldItemRenderer() { return new yarnwrap.client.render.item.HeldItemRenderer(wrapperContained.heldItemRenderer); }
 // public void heldItemRenderer(yarnwrap.client.render.item.HeldItemRenderer value) { wrapperContained.heldItemRenderer = value.wrapperContained; }
+public HeadFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.EntityModelLoader loader,float scaleX,float scaleY,float scaleZ,yarnwrap.client.render.item.HeldItemRenderer heldItemRenderer) { this.wrapperContained = new net.minecraft.client.render.entity.feature.HeadFeatureRenderer(context.wrapperContained,loader.wrapperContained,scaleX,scaleY,scaleZ,heldItemRenderer.wrapperContained); }
+public HeadFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.EntityModelLoader loader,yarnwrap.client.render.item.HeldItemRenderer heldItemRenderer) { this.wrapperContained = new net.minecraft.client.render.entity.feature.HeadFeatureRenderer(context.wrapperContained,loader.wrapperContained,heldItemRenderer.wrapperContained); }
 public void translate(yarnwrap.client.util.math.MatrixStack matrices,boolean villager) { wrapperContained.translate(matrices.wrapperContained,villager); }
 
 }

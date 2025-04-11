@@ -13,6 +13,8 @@ public int TAKE_BOOK_BUTTON_ID() { return wrapperContained.TAKE_BOOK_BUTTON_ID; 
 // public void TAKE_BOOK_BUTTON_ID(int value) { wrapperContained.TAKE_BOOK_BUTTON_ID = value; }
 public int BASE_JUMP_TO_PAGE_BUTTON_ID() { return wrapperContained.BASE_JUMP_TO_PAGE_BUTTON_ID; }
 // public void BASE_JUMP_TO_PAGE_BUTTON_ID(int value) { wrapperContained.BASE_JUMP_TO_PAGE_BUTTON_ID = value; }
+public LecternScreenHandler(int syncId) { this.wrapperContained = new net.minecraft.screen.LecternScreenHandler(syncId); }
+public LecternScreenHandler(int syncId,yarnwrap.inventory.Inventory inventory,yarnwrap.screen.PropertyDelegate propertyDelegate) { this.wrapperContained = new net.minecraft.screen.LecternScreenHandler(syncId,inventory.wrapperContained,propertyDelegate.wrapperContained); }
 public yarnwrap.item.ItemStack getBookItem() { return new yarnwrap.item.ItemStack(wrapperContained.getBookItem()); }
 public int getPage() { return wrapperContained.getPage(); }
 

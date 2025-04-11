@@ -13,6 +13,7 @@ public class OutlineVertexConsumerProvider { public net.minecraft.client.render.
 // public void blue(int value) { wrapperContained.blue = value; }
 // public int alpha() { return wrapperContained.alpha; }
 // public void alpha(int value) { wrapperContained.alpha = value; }
+// public OutlineVertexConsumerProvider(Object parent) { this.wrapperContained = new net.minecraft.client.render.OutlineVertexConsumerProvider(parent); }
 public void draw() { wrapperContained.draw(); }
 public void setColor(int red,int green,int blue,int alpha) { wrapperContained.setColor(red,green,blue,alpha); }
 

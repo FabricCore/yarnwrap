@@ -5,5 +5,7 @@ public class TagMatchRuleTest { public net.minecraft.structure.rule.TagMatchRule
 // public void tag(yarnwrap.registry.tag.TagKey value) { wrapperContained.tag = value.wrapperContained; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+public TagMatchRuleTest(yarnwrap.registry.tag.TagKey tag) { this.wrapperContained = new net.minecraft.structure.rule.TagMatchRuleTest(tag.wrapperContained); }
+// public yarnwrap.registry.tag.TagKey method_28999(yarnwrap.structure.rule.TagMatchRuleTest ruleTest) { return new yarnwrap.registry.tag.TagKey(wrapperContained.method_28999(ruleTest.wrapperContained)); }
 
 }

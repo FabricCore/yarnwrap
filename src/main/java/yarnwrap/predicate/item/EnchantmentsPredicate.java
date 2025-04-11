@@ -3,6 +3,7 @@ public class EnchantmentsPredicate { public net.minecraft.predicate.item.Enchant
 
 // public java.util.List enchantments() { return wrapperContained.enchantments; }
 // public void enchantments(java.util.List value) { wrapperContained.enchantments = value; }
+// public EnchantmentsPredicate(java.util.List enchantments) { this.wrapperContained = new net.minecraft.predicate.item.EnchantmentsPredicate(enchantments); }
 // public Object enchantments(java.util.List enchantments) { return wrapperContained.enchantments(enchantments); }
 public com.mojang.serialization.Codec createCodec(java.util.function.Function predicateFunction) { return wrapperContained.createCodec(predicateFunction); }
 // public java.util.List getEnchantments() { return wrapperContained.getEnchantments(); }

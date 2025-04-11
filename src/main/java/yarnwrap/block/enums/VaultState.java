@@ -5,6 +5,7 @@ public class VaultState { public net.minecraft.block.enums.VaultState wrapperCon
 // public void id(java.lang.String value) { wrapperContained.id = value; }
 // public Object light() { return wrapperContained.light; }
 // // public void light(Object value) { wrapperContained.light = value; }
+// // public VaultState(java.lang.String id,int light) { this.wrapperContained = new net.minecraft.block.enums.VaultState(id,light); }
 public int getLuminance() { return wrapperContained.getLuminance(); }
 // public void ejectItem(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack stack,float pitchModifier) { wrapperContained.ejectItem(world.wrapperContained,pos.wrapperContained,stack.wrapperContained,pitchModifier); }
 public yarnwrap.block.enums.VaultState update(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.vault.VaultConfig config,yarnwrap.block.vault.VaultServerData serverData,yarnwrap.block.vault.VaultSharedData sharedData) { return new yarnwrap.block.enums.VaultState(wrapperContained.update(world.wrapperContained,pos.wrapperContained,config.wrapperContained,serverData.wrapperContained,sharedData.wrapperContained)); }

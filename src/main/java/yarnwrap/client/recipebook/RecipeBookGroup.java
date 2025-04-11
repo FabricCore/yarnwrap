@@ -13,6 +13,7 @@ public java.util.List CRAFTING() { return wrapperContained.CRAFTING; }
 // public void CRAFTING(java.util.List value) { wrapperContained.CRAFTING = value; }
 public java.util.Map SEARCH_MAP() { return wrapperContained.SEARCH_MAP; }
 // public void SEARCH_MAP(java.util.Map value) { wrapperContained.SEARCH_MAP = value; }
+// public RecipeBookGroup(java.lang.String entries) { this.wrapperContained = new net.minecraft.client.recipebook.RecipeBookGroup(entries); }
 public java.util.List getIcons() { return wrapperContained.getIcons(); }
 public java.util.List getGroups(yarnwrap.recipe.book.RecipeBookCategory category) { return wrapperContained.getGroups(category.wrapperContained); }
 

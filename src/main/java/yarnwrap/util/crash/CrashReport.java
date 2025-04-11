@@ -19,6 +19,7 @@ public class CrashReport { public net.minecraft.util.crash.CrashReport wrapperCo
 // public void cause(java.lang.Throwable value) { wrapperContained.cause = value; }
 // public java.time.format.DateTimeFormatter DATE_TIME_FORMATTER() { return wrapperContained.DATE_TIME_FORMATTER; }
 // public void DATE_TIME_FORMATTER(java.time.format.DateTimeFormatter value) { wrapperContained.DATE_TIME_FORMATTER = value; }
+public CrashReport(java.lang.String message,java.lang.Throwable cause) { this.wrapperContained = new net.minecraft.util.crash.CrashReport(message,cause); }
 public void initCrashReport() { wrapperContained.initCrashReport(); }
 public java.lang.String getStackTrace() { return wrapperContained.getStackTrace(); }
 public void addDetails(java.lang.StringBuilder crashReportBuilder) { wrapperContained.addDetails(crashReportBuilder); }

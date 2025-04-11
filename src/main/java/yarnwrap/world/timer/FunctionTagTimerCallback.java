@@ -3,5 +3,6 @@ public class FunctionTagTimerCallback { public net.minecraft.world.timer.Functio
 
 // public yarnwrap.util.Identifier name() { return new yarnwrap.util.Identifier(wrapperContained.name); }
 // public void name(yarnwrap.util.Identifier value) { wrapperContained.name = value.wrapperContained; }
+public FunctionTagTimerCallback(yarnwrap.util.Identifier name) { this.wrapperContained = new net.minecraft.world.timer.FunctionTagTimerCallback(name.wrapperContained); }
 
 }

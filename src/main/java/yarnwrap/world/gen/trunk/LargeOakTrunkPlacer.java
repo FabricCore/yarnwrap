@@ -9,5 +9,7 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public int getLongestSide(yarnwrap.util.math.BlockPos offset) { return wrapperContained.getLongestSide(offset.wrapperContained); }
 // public Object getLogAxis(yarnwrap.util.math.BlockPos branchStart,yarnwrap.util.math.BlockPos branchEnd) { return wrapperContained.getLogAxis(branchStart.wrapperContained,branchEnd.wrapperContained); }
 // public float shouldGenerateBranch(int treeHeight,int height) { return wrapperContained.shouldGenerateBranch(treeHeight,height); }
+// public com.mojang.datafixers.kinds.App method_28898(Object instance) { return wrapperContained.method_28898(instance); }
+// public yarnwrap.block.BlockState method_35374(yarnwrap.util.math.BlockPos state) { return new yarnwrap.block.BlockState(wrapperContained.method_35374(state.wrapperContained)); }
 
 }

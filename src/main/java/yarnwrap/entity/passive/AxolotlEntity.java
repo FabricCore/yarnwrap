@@ -39,5 +39,6 @@ public void setPlayingDead(boolean playingDead) { wrapperContained.setPlayingDea
 public void appreciatePlayer(yarnwrap.entity.passive.AxolotlEntity axolotl,yarnwrap.entity.LivingEntity entity) { wrapperContained.appreciatePlayer(axolotl.wrapperContained,entity.wrapperContained); }
 public void hydrateFromPotion() { wrapperContained.hydrateFromPotion(); }
 public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.ServerWorldAccess world,yarnwrap.entity.SpawnReason reason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,reason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public void method_57305(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.method_57305(nbt.wrapperContained); }
 
 }

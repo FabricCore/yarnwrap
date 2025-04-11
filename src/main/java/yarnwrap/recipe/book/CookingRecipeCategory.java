@@ -5,5 +5,6 @@ public Object CODEC() { return wrapperContained.CODEC; }
 // // public void CODEC(Object value) { wrapperContained.CODEC = value; }
 // public java.lang.String id() { return wrapperContained.id; }
 // public void id(java.lang.String value) { wrapperContained.id = value; }
+// public CookingRecipeCategory(java.lang.String id) { this.wrapperContained = new net.minecraft.recipe.book.CookingRecipeCategory(id); }
 
 }

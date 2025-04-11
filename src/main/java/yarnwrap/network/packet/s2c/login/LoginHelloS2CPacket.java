@@ -11,6 +11,8 @@ public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
 // public boolean needsAuthentication() { return wrapperContained.needsAuthentication; }
 // public void needsAuthentication(boolean value) { wrapperContained.needsAuthentication = value; }
+// public LoginHelloS2CPacket(java.lang.String serverId,byte publicKey,byte nonce,boolean needsAuthentication) { this.wrapperContained = new net.minecraft.network.packet.s2c.login.LoginHelloS2CPacket(serverId,publicKey,nonce,needsAuthentication); }
+// public LoginHelloS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.login.LoginHelloS2CPacket(buf.wrapperContained); }
 public java.lang.String getServerId() { return wrapperContained.getServerId(); }
 // public java.security.PublicKey getPublicKey() { return wrapperContained.getPublicKey(); }
 public byte[] getNonce() { return wrapperContained.getNonce(); }

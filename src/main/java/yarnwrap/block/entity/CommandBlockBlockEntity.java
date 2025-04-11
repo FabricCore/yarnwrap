@@ -9,6 +9,7 @@ public class CommandBlockBlockEntity { public net.minecraft.block.entity.Command
 // public void powered(boolean value) { wrapperContained.powered = value; }
 // public yarnwrap.world.CommandBlockExecutor commandExecutor() { return new yarnwrap.world.CommandBlockExecutor(wrapperContained.commandExecutor); }
 // public void commandExecutor(yarnwrap.world.CommandBlockExecutor value) { wrapperContained.commandExecutor = value.wrapperContained; }
+public CommandBlockBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.CommandBlockBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void setPowered(boolean powered) { wrapperContained.setPowered(powered); }
 public Object getCommandBlockType() { return wrapperContained.getCommandBlockType(); }
 public yarnwrap.world.CommandBlockExecutor getCommandExecutor() { return new yarnwrap.world.CommandBlockExecutor(wrapperContained.getCommandExecutor()); }

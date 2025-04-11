@@ -5,5 +5,6 @@ public class SoulParticle { public net.minecraft.client.particle.SoulParticle wr
 // public void spriteProvider(yarnwrap.client.particle.SpriteProvider value) { wrapperContained.spriteProvider = value.wrapperContained; }
 // public boolean sculk() { return wrapperContained.sculk; }
 // public void sculk(boolean value) { wrapperContained.sculk = value; }
+// public SoulParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ,yarnwrap.client.particle.SpriteProvider spriteProvider) { this.wrapperContained = new net.minecraft.client.particle.SoulParticle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ,spriteProvider.wrapperContained); }
 
 }

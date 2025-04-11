@@ -7,6 +7,8 @@ public class ChunkRenderDistanceCenterS2CPacket { public net.minecraft.network.p
 // public void chunkZ(int value) { wrapperContained.chunkZ = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public ChunkRenderDistanceCenterS2CPacket(int x,int z) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChunkRenderDistanceCenterS2CPacket(x,z); }
+// public ChunkRenderDistanceCenterS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChunkRenderDistanceCenterS2CPacket(buf.wrapperContained); }
 public int getChunkX() { return wrapperContained.getChunkX(); }
 public int getChunkZ() { return wrapperContained.getChunkZ(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

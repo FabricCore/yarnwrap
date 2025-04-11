@@ -5,5 +5,7 @@ public float probability() { return wrapperContained.probability; }
 // public void probability(float value) { wrapperContained.probability = value; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public ProbabilityConfig(float probability) { this.wrapperContained = new net.minecraft.world.gen.ProbabilityConfig(probability); }
+// public com.mojang.datafixers.kinds.App method_28748(Object instance) { return wrapperContained.method_28748(instance); }
 
 }

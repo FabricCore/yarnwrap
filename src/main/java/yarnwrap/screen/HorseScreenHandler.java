@@ -7,5 +7,6 @@ public class HorseScreenHandler { public net.minecraft.screen.HorseScreenHandler
 // public void inventory(yarnwrap.inventory.Inventory value) { wrapperContained.inventory = value.wrapperContained; }
 // public yarnwrap.entity.passive.AbstractHorseEntity entity() { return new yarnwrap.entity.passive.AbstractHorseEntity(wrapperContained.entity); }
 // public void entity(yarnwrap.entity.passive.AbstractHorseEntity value) { wrapperContained.entity = value.wrapperContained; }
+public HorseScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.inventory.Inventory inventory,yarnwrap.entity.passive.AbstractHorseEntity entity,int slotColumnCount) { this.wrapperContained = new net.minecraft.screen.HorseScreenHandler(syncId,playerInventory.wrapperContained,inventory.wrapperContained,entity.wrapperContained,slotColumnCount); }
 
 }

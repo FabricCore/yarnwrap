@@ -9,6 +9,7 @@ public Object CODEC() { return wrapperContained.CODEC; }
 // public void id(int value) { wrapperContained.id = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// // public Difficulty(java.lang.String id,int name) { this.wrapperContained = new net.minecraft.world.Difficulty(id,name); }
 public yarnwrap.world.Difficulty byName(java.lang.String name) { return new yarnwrap.world.Difficulty(wrapperContained.byName(name)); }
 public yarnwrap.text.Text getInfo() { return new yarnwrap.text.Text(wrapperContained.getInfo()); }
 public java.lang.String getName() { return wrapperContained.getName(); }

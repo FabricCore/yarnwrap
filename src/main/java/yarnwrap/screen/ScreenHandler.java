@@ -37,18 +37,22 @@ public int syncId() { return wrapperContained.syncId; }
 // public void trackedStacks(yarnwrap.util.collection.DefaultedList value) { wrapperContained.trackedStacks = value.wrapperContained; }
 // public java.util.List listeners() { return wrapperContained.listeners; }
 // public void listeners(java.util.List value) { wrapperContained.listeners = value; }
+// public ScreenHandler(yarnwrap.screen.ScreenHandlerType type,int syncId) { this.wrapperContained = new net.minecraft.screen.ScreenHandler(type.wrapperContained,syncId); }
 public yarnwrap.screen.ScreenHandlerType getType() { return new yarnwrap.screen.ScreenHandlerType(wrapperContained.getType()); }
 // public void checkSize(yarnwrap.inventory.Inventory inventory,int expectedSize) { wrapperContained.checkSize(inventory.wrapperContained,expectedSize); }
 // public void addProperties(yarnwrap.screen.PropertyDelegate propertyDelegate) { wrapperContained.addProperties(propertyDelegate.wrapperContained); }
 // public void checkDataCount(yarnwrap.screen.PropertyDelegate data,int expectedCount) { wrapperContained.checkDataCount(data.wrapperContained,expectedCount); }
 // public yarnwrap.screen.Property addProperty(yarnwrap.screen.Property property) { return new yarnwrap.screen.Property(wrapperContained.addProperty(property.wrapperContained)); }
 // public boolean canUse(yarnwrap.screen.ScreenHandlerContext context,yarnwrap.entity.player.PlayerEntity player,yarnwrap.block.Block block) { return wrapperContained.canUse(context.wrapperContained,player.wrapperContained,block.wrapperContained); }
+// public java.lang.Boolean method_17696(yarnwrap.block.Block world,yarnwrap.entity.player.PlayerEntity pos) { return wrapperContained.method_17696(world.wrapperContained,pos.wrapperContained); }
 // public void internalOnSlotClick(int slotIndex,int button,yarnwrap.screen.slot.SlotActionType actionType,yarnwrap.entity.player.PlayerEntity player) { wrapperContained.internalOnSlotClick(slotIndex,button,actionType.wrapperContained,player.wrapperContained); }
 public void setPreviousTrackedSlot(int slot,yarnwrap.item.ItemStack stack) { wrapperContained.setPreviousTrackedSlot(slot,stack.wrapperContained); }
 // public void updateTrackedSlot(int slot,yarnwrap.item.ItemStack stack,java.util.function.Supplier copySupplier) { wrapperContained.updateTrackedSlot(slot,stack.wrapperContained,copySupplier); }
 public void copySharedSlots(yarnwrap.screen.ScreenHandler handler) { wrapperContained.copySharedSlots(handler.wrapperContained); }
 public void updateSyncHandler(yarnwrap.screen.ScreenHandlerSyncHandler handler) { wrapperContained.updateSyncHandler(handler.wrapperContained); }
+// public void method_34249(yarnwrap.screen.slot.Slot stack) { wrapperContained.method_34249(stack.wrapperContained); }
 public void setPreviousCursorStack(yarnwrap.item.ItemStack stack) { wrapperContained.setPreviousCursorStack(stack.wrapperContained); }
+// public void method_34251(yarnwrap.item.ItemStack stack) { wrapperContained.method_34251(stack.wrapperContained); }
 public void syncState() { wrapperContained.syncState(); }
 // public void checkSlotUpdates(int slot,yarnwrap.item.ItemStack stack,java.util.function.Supplier copySupplier) { wrapperContained.checkSlotUpdates(slot,stack.wrapperContained,copySupplier); }
 public void setCursorStack(yarnwrap.item.ItemStack stack) { wrapperContained.setCursorStack(stack.wrapperContained); }

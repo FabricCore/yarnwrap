@@ -18,9 +18,16 @@ public void DIMENSIONS(com.google.common.collect.BiMap value) { wrapperContained
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
+// public int method_38771(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_38771(context); }
 // public int stop(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.stop(source.wrapperContained); }
 // public int startServer(yarnwrap.server.command.ServerCommandSource source,java.lang.String ip,int port) { return wrapperContained.startServer(source.wrapperContained,ip,port); }
+// public int method_38774(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_38774(context); }
 // public boolean isRunning(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.isRunning(source.wrapperContained); }
 // public int startClient(yarnwrap.server.command.ServerCommandSource source,java.lang.String ip,int port) { return wrapperContained.startClient(source.wrapperContained,ip,port); }
+// public int method_38777(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_38777(context); }
+// public int method_38778(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_38778(context); }
+// public int method_38779(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_38779(context); }
+// public int method_38780(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_38780(context); }
+// public int method_38781(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_38781(context); }
 
 }

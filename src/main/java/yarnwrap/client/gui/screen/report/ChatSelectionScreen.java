@@ -23,7 +23,10 @@ public class ChatSelectionScreen { public net.minecraft.client.gui.screen.report
 // public void contextMessage(yarnwrap.client.font.MultilineText value) { wrapperContained.contextMessage = value.wrapperContained; }
 // public yarnwrap.util.Identifier CHECKMARK_ICON_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.CHECKMARK_ICON_TEXTURE); }
 // public void CHECKMARK_ICON_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.CHECKMARK_ICON_TEXTURE = value.wrapperContained; }
+// public ChatSelectionScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.session.report.AbuseReportContext reporter,Object report,java.util.function.Consumer newReportConsumer) { this.wrapperContained = new net.minecraft.client.gui.screen.report.ChatSelectionScreen(parent.wrapperContained,reporter.wrapperContained,report,newReportConsumer); }
+// public void method_44493(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_44493(button.wrapperContained); }
 // public boolean isSentByReportedPlayer(yarnwrap.client.session.report.log.ReceivedMessage message) { return wrapperContained.isSentByReportedPlayer(message.wrapperContained); }
+// public void method_44496(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_44496(button.wrapperContained); }
 // public void addMessages() { wrapperContained.addMessages(); }
 // public void addMoreMessages() { wrapperContained.addMoreMessages(); }
 // public void setDoneButtonActivation() { wrapperContained.setDoneButtonActivation(); }

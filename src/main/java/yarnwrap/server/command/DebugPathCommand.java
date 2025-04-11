@@ -8,6 +8,8 @@ public class DebugPathCommand { public net.minecraft.server.command.DebugPathCom
 // public com.mojang.brigadier.exceptions.SimpleCommandExceptionType TARGET_NOT_REACHED_EXCEPTION() { return wrapperContained.TARGET_NOT_REACHED_EXCEPTION; }
 // public void TARGET_NOT_REACHED_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.TARGET_NOT_REACHED_EXCEPTION = value; }
 public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
+// public int method_36188(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_36188(context); }
+// public boolean method_36189(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_36189(source.wrapperContained); }
 // public int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.BlockPos pos) { return wrapperContained.execute(source.wrapperContained,pos.wrapperContained); }
 
 }

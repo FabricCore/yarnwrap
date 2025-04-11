@@ -11,6 +11,7 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void MAP_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.MAP_PACKET_CODEC = value.wrapperContained; }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 public yarnwrap.block.BlockState applyToState(yarnwrap.block.BlockState state) { return new yarnwrap.block.BlockState(wrapperContained.applyToState(state.wrapperContained)); }
+// public yarnwrap.block.BlockState method_57416(yarnwrap.block.BlockState valuex) { return new yarnwrap.block.BlockState(wrapperContained.method_57416(valuex.wrapperContained)); }
 // public yarnwrap.block.BlockState applyToState(yarnwrap.block.BlockState state,yarnwrap.state.property.Property property,java.lang.String value) { return new yarnwrap.block.BlockState(wrapperContained.applyToState(state.wrapperContained,property.wrapperContained,value)); }
 public java.lang.Comparable getValue(yarnwrap.state.property.Property property) { return wrapperContained.getValue(property.wrapperContained); }
 public yarnwrap.component.type.BlockStateComponent with(yarnwrap.state.property.Property property,yarnwrap.block.BlockState fromState) { return new yarnwrap.component.type.BlockStateComponent(wrapperContained.with(property.wrapperContained,fromState.wrapperContained)); }

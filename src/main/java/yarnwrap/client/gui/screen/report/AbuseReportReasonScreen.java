@@ -19,6 +19,8 @@ public class AbuseReportReasonScreen { public net.minecraft.client.gui.screen.re
 // public void reason(yarnwrap.client.session.report.AbuseReportReason value) { wrapperContained.reason = value.wrapperContained; }
 // public yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(wrapperContained.layout); }
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+public AbuseReportReasonScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.session.report.AbuseReportReason reason,java.util.function.Consumer reasonConsumer) { this.wrapperContained = new net.minecraft.client.gui.screen.report.AbuseReportReasonScreen(parent.wrapperContained,reason.wrapperContained,reasonConsumer); }
+// public void method_44520(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_44520(button.wrapperContained); }
 // public int getTop() { return wrapperContained.getTop(); }
 // public int getBottom() { return wrapperContained.getBottom(); }
 // public int getRight() { return wrapperContained.getRight(); }

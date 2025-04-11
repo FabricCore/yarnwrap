@@ -5,5 +5,6 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// public StructureTerrainAdaptation(java.lang.String name) { this.wrapperContained = new net.minecraft.world.gen.StructureTerrainAdaptation(name); }
 
 }

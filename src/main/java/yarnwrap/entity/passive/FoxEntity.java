@@ -51,8 +51,14 @@ public int CHASING_FLAG() { return wrapperContained.CHASING_FLAG; }
 // public void EATING_DURATION(int value) { wrapperContained.EATING_DURATION = value; }
 // public yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(wrapperContained.BABY_BASE_DIMENSIONS); }
 // public void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value) { wrapperContained.BABY_BASE_DIMENSIONS = value.wrapperContained; }
+// public boolean method_18253(yarnwrap.entity.Entity entity) { return wrapperContained.method_18253(entity.wrapperContained); }
+// public boolean method_18254(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18254(entity.wrapperContained); }
 public boolean canJumpChase(yarnwrap.entity.passive.FoxEntity fox,yarnwrap.entity.LivingEntity chasedEntity) { return wrapperContained.canJumpChase(fox.wrapperContained,chasedEntity.wrapperContained); }
+// public boolean method_18261(yarnwrap.entity.Entity entity) { return wrapperContained.method_18261(entity.wrapperContained); }
+// public boolean method_18262(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18262(entity.wrapperContained); }
+// public boolean method_18265(yarnwrap.entity.ItemEntity item) { return wrapperContained.method_18265(item.wrapperContained); }
 // public void addTrustedUuid(java.util.UUID uuid) { wrapperContained.addTrustedUuid(uuid); }
+// public boolean method_18267(yarnwrap.entity.Entity entity) { return wrapperContained.method_18267(entity.wrapperContained); }
 // public void setFoxFlag(int mask,boolean value) { wrapperContained.setFoxFlag(mask,value); }
 public boolean isSitting() { return wrapperContained.isSitting(); }
 public boolean isWalking() { return wrapperContained.isWalking(); }
@@ -78,7 +84,11 @@ public float getBodyRotationHeightOffset(float tickDelta) { return wrapperContai
 // public void setAggressive(boolean aggressive) { wrapperContained.setAggressive(aggressive); }
 // public void setSleeping(boolean sleeping) { wrapperContained.setSleeping(sleeping); }
 // public boolean canTrust(java.util.UUID uuid) { return wrapperContained.canTrust(uuid); }
+// public boolean method_18429(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18429(entity.wrapperContained); }
 // public boolean canEat(yarnwrap.item.ItemStack stack) { return wrapperContained.canEat(stack.wrapperContained); }
+// public boolean method_18431(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18431(entity.wrapperContained); }
+// public boolean method_20451(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_20451(entity.wrapperContained); }
+// public boolean method_24347(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_24347(entity.wrapperContained); }
 public Object createFoxAttributes() { return wrapperContained.createFoxAttributes(); }
 public boolean isJumping() { return wrapperContained.isJumping(); }
 public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }

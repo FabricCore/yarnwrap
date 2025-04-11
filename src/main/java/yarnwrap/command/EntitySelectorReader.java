@@ -117,6 +117,7 @@ public char TAG_MODIFIER() { return wrapperContained.TAG_MODIFIER; }
 // public void ALL_ENTITIES(char value) { wrapperContained.ALL_ENTITIES = value; }
 // public char NEAREST_ENTITY() { return wrapperContained.NEAREST_ENTITY; }
 // public void NEAREST_ENTITY(char value) { wrapperContained.NEAREST_ENTITY = value; }
+public EntitySelectorReader(com.mojang.brigadier.StringReader reader,boolean atAllowed) { this.wrapperContained = new net.minecraft.command.EntitySelectorReader(reader,atAllowed); }
 // public boolean excludesTeam() { return wrapperContained.excludesTeam(); }
 // public java.util.concurrent.CompletableFuture suggestDefinerNext(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,java.util.function.Consumer consumer) { return wrapperContained.suggestDefinerNext(builder,consumer); }
 public java.util.function.BiConsumer getSorter() { return wrapperContained.getSorter(); }
@@ -140,18 +141,25 @@ public void setX(double x) { wrapperContained.setX(x); }
 public java.lang.Double getDx() { return wrapperContained.getDx(); }
 public void setLocalWorldOnly() { wrapperContained.setLocalWorldOnly(); }
 public yarnwrap.command.FloatRangeArgument getYawRange() { return new yarnwrap.command.FloatRangeArgument(wrapperContained.getYawRange()); }
+// public java.util.concurrent.CompletableFuture method_9854(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,java.util.function.Consumer consumer) { return wrapperContained.method_9854(builder,consumer); }
 public void setYawRange(yarnwrap.command.FloatRangeArgument yawRange) { wrapperContained.setYawRange(yawRange.wrapperContained); }
+// public boolean method_9856(yarnwrap.entity.Entity entity) { return wrapperContained.method_9856(entity.wrapperContained); }
 public void setExcludesGameMode(boolean excludesGameMode) { wrapperContained.setExcludesGameMode(excludesGameMode); }
 // public java.util.concurrent.CompletableFuture suggestNormal(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,java.util.function.Consumer consumer) { return wrapperContained.suggestNormal(builder,consumer); }
 // public java.util.function.Predicate rotationPredicate(yarnwrap.command.FloatRangeArgument angleRange,java.util.function.ToDoubleFunction entityToAngle) { return wrapperContained.rotationPredicate(angleRange.wrapperContained,entityToAngle); }
 public void setExcludesEntityType() { wrapperContained.setExcludesEntityType(); }
 // public boolean selectsAdvancements() { return wrapperContained.selectsAdvancements(); }
+// public int method_9862(yarnwrap.util.math.Vec3d entity1,yarnwrap.entity.Entity entity2) { return wrapperContained.method_9862(entity1.wrapperContained,entity2.wrapperContained); }
+// public com.mojang.brigadier.Message method_9863(java.lang.Object selectorType) { return wrapperContained.method_9863(selectorType); }
 public void setY(double y) { wrapperContained.setY(y); }
 public void setSelectsTeam(boolean selectsTeam) { wrapperContained.setSelectsTeam(selectsTeam); }
 // public boolean hasLimit() { return wrapperContained.hasLimit(); }
+// public void method_9867(yarnwrap.util.math.Vec3d pos,java.util.List entities) { wrapperContained.method_9867(pos.wrapperContained,entities); }
 public java.lang.Double getZ() { return wrapperContained.getZ(); }
+// public yarnwrap.util.math.Vec3d method_9869(yarnwrap.util.math.Vec3d pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_9869(pos.wrapperContained)); }
 // public void setDistance(Object distance) { wrapperContained.setDistance(distance); }
 public yarnwrap.command.EntitySelector build() { return new yarnwrap.command.EntitySelector(wrapperContained.build()); }
+// public yarnwrap.util.math.Vec3d method_9872(yarnwrap.util.math.Vec3d pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_9872(pos.wrapperContained)); }
 public Object getDistance() { return wrapperContained.getDistance(); }
 // public void readArguments() { wrapperContained.readArguments(); }
 public void setSuggestionProvider(java.util.function.BiFunction suggestionProvider) { wrapperContained.setSuggestionProvider(suggestionProvider); }
@@ -159,12 +167,14 @@ public void setHasLimit(boolean hasLimit) { wrapperContained.setHasLimit(hasLimi
 // public void buildPredicate() { wrapperContained.buildPredicate(); }
 public void setZ(double z) { wrapperContained.setZ(z); }
 // public java.util.concurrent.CompletableFuture suggestSelector(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,java.util.function.Consumer consumer) { return wrapperContained.suggestSelector(builder,consumer); }
+// public boolean method_9881(java.util.function.ToDoubleFunction entity) { return wrapperContained.method_9881(entity); }
 // public yarnwrap.command.EntitySelector read() { return new yarnwrap.command.EntitySelector(wrapperContained.read()); }
 public yarnwrap.command.FloatRangeArgument getPitchRange() { return new yarnwrap.command.FloatRangeArgument(wrapperContained.getPitchRange()); }
 public java.lang.Double getY() { return wrapperContained.getY(); }
 public boolean isSenderOnly() { return wrapperContained.isSenderOnly(); }
 public boolean selectsEntityType() { return wrapperContained.selectsEntityType(); }
 public void setHasSorter(boolean hasSorter) { wrapperContained.setHasSorter(hasSorter); }
+// public void method_9888(yarnwrap.util.math.Vec3d pos,java.util.List entities) { wrapperContained.method_9888(pos.wrapperContained,entities); }
 // public boolean hasSorter() { return wrapperContained.hasSorter(); }
 public void setSelectsGameMode(boolean selectsGameMode) { wrapperContained.setSelectsGameMode(selectsGameMode); }
 public void setDx(double dx) { wrapperContained.setDx(dx); }
@@ -173,10 +183,13 @@ public boolean readNegationCharacter() { return wrapperContained.readNegationCha
 // public yarnwrap.util.math.Box createBox(double x,double y,double z) { return new yarnwrap.util.math.Box(wrapperContained.createBox(x,y,z)); }
 public Object getLevelRange() { return wrapperContained.getLevelRange(); }
 // public void suggestSelector(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { wrapperContained.suggestSelector(builder); }
+// public int method_9897(yarnwrap.util.math.Vec3d entity1,yarnwrap.entity.Entity entity2) { return wrapperContained.method_9897(entity1.wrapperContained,entity2.wrapperContained); }
 public void setPitchRange(yarnwrap.command.FloatRangeArgument pitchRange) { wrapperContained.setPitchRange(pitchRange.wrapperContained); }
 public void setSelectsName(boolean selectsName) { wrapperContained.setSelectsName(selectsName); }
 public void setLimit(int limit) { wrapperContained.setLimit(limit); }
+// public void method_9901(yarnwrap.util.math.Vec3d pos,java.util.List entities) { wrapperContained.method_9901(pos.wrapperContained,entities); }
 public java.lang.Double getX() { return wrapperContained.getX(); }
+// public com.mojang.brigadier.Message method_9903(java.lang.Object option) { return wrapperContained.method_9903(option); }
 // public boolean selectsTeam() { return wrapperContained.selectsTeam(); }
 public void setDy(double dy) { wrapperContained.setDy(dy); }
 public void setSelectsAdvancements(boolean selectsAdvancements) { wrapperContained.setSelectsAdvancements(selectsAdvancements); }

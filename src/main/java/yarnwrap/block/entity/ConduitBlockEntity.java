@@ -21,9 +21,12 @@ public void ticks(int value) { wrapperContained.ticks = value; }
 // public void targetEntity(yarnwrap.entity.LivingEntity value) { wrapperContained.targetEntity = value.wrapperContained; }
 // public int MIN_BLOCKS_TO_ACTIVATE() { return wrapperContained.MIN_BLOCKS_TO_ACTIVATE; }
 // public void MIN_BLOCKS_TO_ACTIVATE(int value) { wrapperContained.MIN_BLOCKS_TO_ACTIVATE = value; }
+public ConduitBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.ConduitBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public void givePlayersEffects(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List activatingBlocks) { wrapperContained.givePlayersEffects(world.wrapperContained,pos.wrapperContained,activatingBlocks); }
 // public yarnwrap.entity.LivingEntity findTargetEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.UUID uuid) { return new yarnwrap.entity.LivingEntity(wrapperContained.findTargetEntity(world.wrapperContained,pos.wrapperContained,uuid)); }
+// public boolean method_11058(java.util.UUID entity) { return wrapperContained.method_11058(entity); }
 // public yarnwrap.util.math.Box getAttackZone(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.Box(wrapperContained.getAttackZone(pos.wrapperContained)); }
+// public boolean method_11060(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_11060(entity.wrapperContained); }
 public float getRotation(float tickDelta) { return wrapperContained.getRotation(tickDelta); }
 // public void setEyeOpen(boolean eyeOpen) { wrapperContained.setEyeOpen(eyeOpen); }
 // public void spawnNautilusParticles(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List activatingBlocks,yarnwrap.entity.Entity entity,int ticks) { wrapperContained.spawnNautilusParticles(world.wrapperContained,pos.wrapperContained,activatingBlocks,entity.wrapperContained,ticks); }

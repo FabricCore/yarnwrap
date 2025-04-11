@@ -5,6 +5,8 @@ public com.mojang.serialization.MapCodec MODIFIER_CODEC() { return wrapperContai
 // public void MODIFIER_CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.MODIFIER_CODEC = value; }
 // public Object heightmap() { return wrapperContained.heightmap; }
 // // public void heightmap(Object value) { wrapperContained.heightmap = value; }
+// public HeightmapPlacementModifier(Object heightmap) { this.wrapperContained = new net.minecraft.world.gen.placementmodifier.HeightmapPlacementModifier(heightmap); }
+// public com.mojang.datafixers.kinds.App method_34330(Object instance) { return wrapperContained.method_34330(instance); }
 // public yarnwrap.world.gen.placementmodifier.HeightmapPlacementModifier of(Object heightmap) { return new yarnwrap.world.gen.placementmodifier.HeightmapPlacementModifier(wrapperContained.of(heightmap)); }
 
 }

@@ -7,6 +7,7 @@ public class TickTimeTracker { public net.minecraft.util.profiler.TickTimeTracke
 // public void tickGetter(java.util.function.IntSupplier value) { wrapperContained.tickGetter = value; }
 // public yarnwrap.util.profiler.ReadableProfiler profiler() { return new yarnwrap.util.profiler.ReadableProfiler(wrapperContained.profiler); }
 // public void profiler(yarnwrap.util.profiler.ReadableProfiler value) { wrapperContained.profiler = value.wrapperContained; }
+public TickTimeTracker(java.util.function.LongSupplier timeGetter,java.util.function.IntSupplier tickGetter) { this.wrapperContained = new net.minecraft.util.profiler.TickTimeTracker(timeGetter,tickGetter); }
 public boolean isActive() { return wrapperContained.isActive(); }
 public void disable() { wrapperContained.disable(); }
 public void enable() { wrapperContained.enable(); }

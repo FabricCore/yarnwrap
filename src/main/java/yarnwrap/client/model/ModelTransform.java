@@ -15,6 +15,7 @@ public float yaw() { return wrapperContained.yaw; }
 // public void yaw(float value) { wrapperContained.yaw = value; }
 public float roll() { return wrapperContained.roll; }
 // public void roll(float value) { wrapperContained.roll = value; }
+// public ModelTransform(float pivotX,float pivotY,float pivotZ,float pitch,float yaw,float roll) { this.wrapperContained = new net.minecraft.client.model.ModelTransform(pivotX,pivotY,pivotZ,pitch,yaw,roll); }
 public yarnwrap.client.model.ModelTransform pivot(float pivotX,float pivotY,float pivotZ) { return new yarnwrap.client.model.ModelTransform(wrapperContained.pivot(pivotX,pivotY,pivotZ)); }
 public yarnwrap.client.model.ModelTransform of(float pivotX,float pivotY,float pivotZ,float pitch,float yaw,float roll) { return new yarnwrap.client.model.ModelTransform(wrapperContained.of(pivotX,pivotY,pivotZ,pitch,yaw,roll)); }
 public yarnwrap.client.model.ModelTransform rotation(float pitch,float yaw,float roll) { return new yarnwrap.client.model.ModelTransform(wrapperContained.rotation(pitch,yaw,roll)); }

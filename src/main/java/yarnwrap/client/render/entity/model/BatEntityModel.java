@@ -17,6 +17,7 @@ public class BatEntityModel { public net.minecraft.client.render.entity.model.Ba
 // public void leftWingTip(yarnwrap.client.model.ModelPart value) { wrapperContained.leftWingTip = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart feet() { return new yarnwrap.client.model.ModelPart(wrapperContained.feet); }
 // public void feet(yarnwrap.client.model.ModelPart value) { wrapperContained.feet = value.wrapperContained; }
+public BatEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.BatEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 // public void setRoostingHeadAngles(float yaw) { wrapperContained.setRoostingHeadAngles(yaw); }
 

@@ -7,6 +7,7 @@ public class ChunkBuilderMode { public net.minecraft.client.render.ChunkBuilderM
 // public void id(int value) { wrapperContained.id = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// // public ChunkBuilderMode(java.lang.String id,int name) { this.wrapperContained = new net.minecraft.client.render.ChunkBuilderMode(id,name); }
 public yarnwrap.client.render.ChunkBuilderMode get(int id) { return new yarnwrap.client.render.ChunkBuilderMode(wrapperContained.get(id)); }
 
 }

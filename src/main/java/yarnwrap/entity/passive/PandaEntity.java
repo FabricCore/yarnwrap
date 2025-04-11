@@ -60,7 +60,9 @@ public void playingTicks(int value) { wrapperContained.playingTicks = value; }
 public boolean isIdle() { return wrapperContained.isIdle(); }
 public Object createPandaAttributes() { return wrapperContained.createPandaAttributes(); }
 public boolean isBrown() { return wrapperContained.isBrown(); }
+// public boolean method_58371(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58371(stack.wrapperContained); }
 // public void updateLieOnBackAnimation() { wrapperContained.updateLieOnBackAnimation(); }
+// public boolean method_6504(yarnwrap.entity.ItemEntity item) { return wrapperContained.method_6504(item.wrapperContained); }
 public void setLyingOnBack(boolean lyingOnBack) { wrapperContained.setLyingOnBack(lyingOnBack); }
 public Object getHiddenGene() { return wrapperContained.getHiddenGene(); }
 public boolean isWorried() { return wrapperContained.isWorried(); }

@@ -7,5 +7,6 @@ public int RUN_TIME() { return wrapperContained.RUN_TIME; }
 // public void cooldownRange(yarnwrap.util.math.intprovider.UniformIntProvider value) { wrapperContained.cooldownRange = value.wrapperContained; }
 // public yarnwrap.sound.SoundEvent sound() { return new yarnwrap.sound.SoundEvent(wrapperContained.sound); }
 // public void sound(yarnwrap.sound.SoundEvent value) { wrapperContained.sound = value.wrapperContained; }
+public LeapingChargeTask(yarnwrap.util.math.intprovider.UniformIntProvider cooldownRange,yarnwrap.sound.SoundEvent sound) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.LeapingChargeTask(cooldownRange.wrapperContained,sound.wrapperContained); }
 
 }

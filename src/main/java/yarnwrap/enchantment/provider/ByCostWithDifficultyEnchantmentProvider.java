@@ -5,5 +5,6 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public int MAX_COST() { return wrapperContained.MAX_COST; }
 // public void MAX_COST(int value) { wrapperContained.MAX_COST = value; }
+// public com.mojang.datafixers.kinds.App method_60269(Object instance) { return wrapperContained.method_60269(instance); }
 
 }

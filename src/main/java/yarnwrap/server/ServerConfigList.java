@@ -9,6 +9,7 @@ public class ServerConfigList { public net.minecraft.server.ServerConfigList wra
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public com.google.gson.Gson GSON() { return wrapperContained.GSON; }
 // public void GSON(com.google.gson.Gson value) { wrapperContained.GSON = value; }
+// public ServerConfigList(java.io.File file) { this.wrapperContained = new net.minecraft.server.ServerConfigList(file); }
 // public void save() { wrapperContained.save(); }
 // public void load() { wrapperContained.load(); }
 // public void removeInvalidEntries() { wrapperContained.removeInvalidEntries(); }
@@ -23,5 +24,6 @@ public boolean isEmpty() { return wrapperContained.isEmpty(); }
 // public yarnwrap.server.ServerConfigEntry fromJson(com.google.gson.JsonObject json) { return new yarnwrap.server.ServerConfigEntry(wrapperContained.fromJson(json)); }
 public java.io.File getFile() { return wrapperContained.getFile(); }
 // public boolean contains() { return wrapperContained.contains(); }
+// public com.google.gson.JsonObject method_24897(yarnwrap.server.ServerConfigEntry entry) { return wrapperContained.method_24897(entry.wrapperContained); }
 
 }

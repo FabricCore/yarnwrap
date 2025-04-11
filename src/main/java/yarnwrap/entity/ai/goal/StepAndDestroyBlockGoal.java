@@ -9,6 +9,7 @@ public class StepAndDestroyBlockGoal { public net.minecraft.entity.ai.goal.StepA
 // public void counter(int value) { wrapperContained.counter = value; }
 // public yarnwrap.entity.mob.MobEntity stepAndDestroyMob() { return new yarnwrap.entity.mob.MobEntity(wrapperContained.stepAndDestroyMob); }
 // public void stepAndDestroyMob(yarnwrap.entity.mob.MobEntity value) { wrapperContained.stepAndDestroyMob = value.wrapperContained; }
+public StepAndDestroyBlockGoal(yarnwrap.block.Block targetBlock,yarnwrap.entity.mob.PathAwareEntity mob,double speed,int maxYDifference) { this.wrapperContained = new net.minecraft.entity.ai.goal.StepAndDestroyBlockGoal(targetBlock.wrapperContained,mob.wrapperContained,speed,maxYDifference); }
 public void tickStepping(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { wrapperContained.tickStepping(world.wrapperContained,pos.wrapperContained); }
 // public yarnwrap.util.math.BlockPos tweakToProperPos(yarnwrap.util.math.BlockPos pos,yarnwrap.world.BlockView world) { return new yarnwrap.util.math.BlockPos(wrapperContained.tweakToProperPos(pos.wrapperContained,world.wrapperContained)); }
 public void onDestroyBlock(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.onDestroyBlock(world.wrapperContained,pos.wrapperContained); }

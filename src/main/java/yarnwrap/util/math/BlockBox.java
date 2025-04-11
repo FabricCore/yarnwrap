@@ -17,6 +17,9 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public BlockBox(int minX,int minY,int minZ,int maxX,int maxY,int maxZ) { this.wrapperContained = new net.minecraft.util.math.BlockBox(minX,minY,minZ,maxX,maxY,maxZ); }
+public BlockBox(yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.util.math.BlockBox(pos.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public boolean intersects(yarnwrap.util.math.BlockBox other) { return wrapperContained.intersects(other.wrapperContained); }
 public yarnwrap.util.math.Vec3i getDimensions() { return new yarnwrap.util.math.Vec3i(wrapperContained.getDimensions()); }
 public int getBlockCountY() { return wrapperContained.getBlockCountY(); }
@@ -32,6 +35,9 @@ public yarnwrap.util.math.BlockBox move(yarnwrap.util.math.Vec3i vec) { return n
 public yarnwrap.util.math.BlockBox encompass(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockBox(wrapperContained.encompass(pos.wrapperContained)); }
 public yarnwrap.util.math.BlockBox create(yarnwrap.util.math.Vec3i first,yarnwrap.util.math.Vec3i second) { return new yarnwrap.util.math.BlockBox(wrapperContained.create(first.wrapperContained,second.wrapperContained)); }
 public void forEachVertex(java.util.function.Consumer consumer) { wrapperContained.forEachVertex(consumer); }
+// public com.mojang.serialization.DataResult method_34392(java.util.stream.IntStream values) { return wrapperContained.method_34392(values); }
+// public yarnwrap.util.math.BlockBox method_34393(int array) { return new yarnwrap.util.math.BlockBox(wrapperContained.method_34393(array)); }
+// public java.util.stream.IntStream method_34394(yarnwrap.util.math.BlockBox box) { return wrapperContained.method_34394(box.wrapperContained); }
 public yarnwrap.util.math.BlockBox expand(int offset) { return new yarnwrap.util.math.BlockBox(wrapperContained.expand(offset)); }
 public java.util.Optional encompassPositions(java.lang.Iterable positions) { return wrapperContained.encompassPositions(positions); }
 public yarnwrap.util.math.BlockBox encompass(yarnwrap.util.math.BlockBox box) { return new yarnwrap.util.math.BlockBox(wrapperContained.encompass(box.wrapperContained)); }

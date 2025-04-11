@@ -11,5 +11,6 @@ public void clear() { wrapperContained.clear(); }
 public void start(yarnwrap.test.GameTestState test) { wrapperContained.start(test.wrapperContained); }
 public void tick() { wrapperContained.tick(); }
 public void setRunContext(yarnwrap.test.TestRunContext runContext) { wrapperContained.setRunContext(runContext.wrapperContained); }
+// public void method_56242(yarnwrap.test.GameTestState test) { wrapperContained.method_56242(test.wrapperContained); }
 
 }

@@ -7,5 +7,10 @@ public com.mojang.serialization.Codec ENTRY_CODEC() { return wrapperContained.EN
 // public void ENTRY_CODEC(com.mojang.serialization.Codec value) { wrapperContained.ENTRY_CODEC = value; }
 public yarnwrap.network.codec.PacketCodec ENTRY_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.ENTRY_PACKET_CODEC); }
 // public void ENTRY_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.ENTRY_PACKET_CODEC = value.wrapperContained; }
+public DamageType(java.lang.String msgId,float exhaustion) { this.wrapperContained = new net.minecraft.entity.damage.DamageType(msgId,exhaustion); }
+public DamageType(java.lang.String msgId,float exhaustion,yarnwrap.entity.damage.DamageEffects effects) { this.wrapperContained = new net.minecraft.entity.damage.DamageType(msgId,exhaustion,effects.wrapperContained); }
+public DamageType(java.lang.String msgId,yarnwrap.entity.damage.DamageScaling scaling,float exhaustion) { this.wrapperContained = new net.minecraft.entity.damage.DamageType(msgId,scaling.wrapperContained,exhaustion); }
+public DamageType(java.lang.String msgId,yarnwrap.entity.damage.DamageScaling scaling,float exhaustion,yarnwrap.entity.damage.DamageEffects effects) { this.wrapperContained = new net.minecraft.entity.damage.DamageType(msgId,scaling.wrapperContained,exhaustion,effects.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_48838(Object instance) { return wrapperContained.method_48838(instance); }
 
 }

@@ -17,9 +17,13 @@ public class ConfirmScreen { public net.minecraft.client.gui.screen.ConfirmScree
 // public void buttons(java.util.List value) { wrapperContained.buttons = value; }
 // public int TITLE_BOTTOM_MARGIN() { return wrapperContained.TITLE_BOTTOM_MARGIN; }
 // public void TITLE_BOTTOM_MARGIN(int value) { wrapperContained.TITLE_BOTTOM_MARGIN = value; }
+public ConfirmScreen(it.unimi.dsi.fastutil.booleans.BooleanConsumer callback,yarnwrap.text.Text title,yarnwrap.text.Text message) { this.wrapperContained = new net.minecraft.client.gui.screen.ConfirmScreen(callback,title.wrapperContained,message.wrapperContained); }
+public ConfirmScreen(it.unimi.dsi.fastutil.booleans.BooleanConsumer callback,yarnwrap.text.Text title,yarnwrap.text.Text message,yarnwrap.text.Text yesText,yarnwrap.text.Text noText) { this.wrapperContained = new net.minecraft.client.gui.screen.ConfirmScreen(callback,title.wrapperContained,message.wrapperContained,yesText.wrapperContained,noText.wrapperContained); }
 public void disableButtons(int ticks) { wrapperContained.disableButtons(ticks); }
 // public void addButtons(int y) { wrapperContained.addButtons(y); }
 // public void addButton(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.addButton(button.wrapperContained); }
+// public void method_37053(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_37053(button.wrapperContained); }
+// public void method_37054(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_37054(button.wrapperContained); }
 // public int getTitleY() { return wrapperContained.getTitleY(); }
 // public int getMessageY() { return wrapperContained.getMessageY(); }
 // public int getMessagesHeight() { return wrapperContained.getMessagesHeight(); }

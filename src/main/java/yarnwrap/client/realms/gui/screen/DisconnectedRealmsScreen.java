@@ -9,5 +9,6 @@ public class DisconnectedRealmsScreen { public net.minecraft.client.realms.gui.s
 // public void parent(yarnwrap.client.gui.screen.Screen value) { wrapperContained.parent = value.wrapperContained; }
 // public int textHeight() { return wrapperContained.textHeight; }
 // public void textHeight(int value) { wrapperContained.textHeight = value; }
+public DisconnectedRealmsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.text.Text title,yarnwrap.text.Text reason) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.DisconnectedRealmsScreen(parent.wrapperContained,title.wrapperContained,reason.wrapperContained); }
 
 }

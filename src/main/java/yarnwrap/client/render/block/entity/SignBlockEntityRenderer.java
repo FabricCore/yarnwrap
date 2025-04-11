@@ -15,14 +15,18 @@ public class SignBlockEntityRenderer { public net.minecraft.client.render.block.
 // public void SCALE(float value) { wrapperContained.SCALE = value; }
 // public yarnwrap.util.math.Vec3d TEXT_OFFSET() { return new yarnwrap.util.math.Vec3d(wrapperContained.TEXT_OFFSET); }
 // public void TEXT_OFFSET(yarnwrap.util.math.Vec3d value) { wrapperContained.TEXT_OFFSET = value.wrapperContained; }
+// public SignBlockEntityRenderer(Object ctx) { this.wrapperContained = new net.minecraft.client.render.block.entity.SignBlockEntityRenderer(ctx); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
+// public yarnwrap.block.WoodType method_32156(yarnwrap.block.WoodType signType) { return new yarnwrap.block.WoodType(wrapperContained.method_32156(signType.wrapperContained)); }
 public Object createSignModel(yarnwrap.client.render.entity.model.EntityModelLoader entityModelLoader,yarnwrap.block.WoodType type) { return wrapperContained.createSignModel(entityModelLoader.wrapperContained,type.wrapperContained); }
+// public Object method_32158(Object signType) { return wrapperContained.method_32158(signType); }
 public int getColor(yarnwrap.block.entity.SignText sign) { return wrapperContained.getColor(sign.wrapperContained); }
 // public boolean shouldRender(yarnwrap.util.math.BlockPos pos,int signColor) { return wrapperContained.shouldRender(pos.wrapperContained,signColor); }
 // public yarnwrap.util.math.Vec3d getTextOffset() { return new yarnwrap.util.math.Vec3d(wrapperContained.getTextOffset()); }
 // public yarnwrap.client.util.SpriteIdentifier getTextureId(yarnwrap.block.WoodType signType) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getTextureId(signType.wrapperContained)); }
 // public void renderSignModel(yarnwrap.client.util.math.MatrixStack matrices,int light,int overlay,yarnwrap.client.model.Model model,yarnwrap.client.render.VertexConsumer vertexConsumers) { wrapperContained.renderSignModel(matrices.wrapperContained,light,overlay,model.wrapperContained,vertexConsumers.wrapperContained); }
 // public void renderText(yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.SignText signText,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int lineHeight,int lineWidth,boolean front) { wrapperContained.renderText(pos.wrapperContained,signText.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light,lineHeight,lineWidth,front); }
+// public yarnwrap.text.OrderedText method_45799(int text) { return new yarnwrap.text.OrderedText(wrapperContained.method_45799(text)); }
 // public void renderSign(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.block.WoodType woodType,yarnwrap.client.model.Model model) { wrapperContained.renderSign(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,woodType.wrapperContained,model.wrapperContained); }
 // public void setAngles(yarnwrap.client.util.math.MatrixStack matrices,float rotationDegrees,yarnwrap.block.BlockState state) { wrapperContained.setAngles(matrices.wrapperContained,rotationDegrees,state.wrapperContained); }
 // public void setTextAngles(yarnwrap.client.util.math.MatrixStack matrices,boolean front,yarnwrap.util.math.Vec3d translation) { wrapperContained.setTextAngles(matrices.wrapperContained,front,translation.wrapperContained); }

@@ -9,8 +9,10 @@ public class TutorialManager { public net.minecraft.client.tutorial.TutorialMana
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
 // public yarnwrap.client.tutorial.TutorialStepHandler currentHandler() { return new yarnwrap.client.tutorial.TutorialStepHandler(wrapperContained.currentHandler); }
 // public void currentHandler(yarnwrap.client.tutorial.TutorialStepHandler value) { wrapperContained.currentHandler = value.wrapperContained; }
+public TutorialManager(yarnwrap.client.MinecraftClient client,yarnwrap.client.option.GameOptions options) { this.wrapperContained = new net.minecraft.client.tutorial.TutorialManager(client.wrapperContained,options.wrapperContained); }
 public void remove(yarnwrap.client.toast.TutorialToast toast) { wrapperContained.remove(toast.wrapperContained); }
 public void add(yarnwrap.client.toast.TutorialToast toast,int ticks) { wrapperContained.add(toast.wrapperContained,ticks); }
+// public boolean method_31366(yarnwrap.client.toast.TutorialToast entry) { return wrapperContained.method_31366(entry.wrapperContained); }
 public void onPickupSlotClick(yarnwrap.item.ItemStack cursorStack,yarnwrap.item.ItemStack slotStack,yarnwrap.util.ClickType clickType) { wrapperContained.onPickupSlotClick(cursorStack.wrapperContained,slotStack.wrapperContained,clickType.wrapperContained); }
 public boolean isInSurvival() { return wrapperContained.isInSurvival(); }
 public void onSlotUpdate(yarnwrap.item.ItemStack stack) { wrapperContained.onSlotUpdate(stack.wrapperContained); }

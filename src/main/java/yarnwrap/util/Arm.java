@@ -11,6 +11,7 @@ public java.util.function.IntFunction BY_ID() { return wrapperContained.BY_ID; }
 // public void BY_ID(java.util.function.IntFunction value) { wrapperContained.BY_ID = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// // public Arm(java.lang.String id,int name,int translationKey) { this.wrapperContained = new net.minecraft.util.Arm(id,name,translationKey); }
 public yarnwrap.util.Arm getOpposite() { return new yarnwrap.util.Arm(wrapperContained.getOpposite()); }
 
 }

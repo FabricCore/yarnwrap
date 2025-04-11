@@ -9,6 +9,7 @@ public class SteppedCommandAction { public net.minecraft.command.SteppedCommandA
 // public void selfCommandQueueEntry(yarnwrap.command.CommandQueueEntry value) { wrapperContained.selfCommandQueueEntry = value.wrapperContained; }
 // public int nextActionIndex() { return wrapperContained.nextActionIndex; }
 // public void nextActionIndex(int value) { wrapperContained.nextActionIndex = value; }
+// public SteppedCommandAction(Object wrapper,java.util.List actions,yarnwrap.command.Frame frame) { this.wrapperContained = new net.minecraft.command.SteppedCommandAction(wrapper,actions,frame.wrapperContained); }
 // public void enqueueCommands(yarnwrap.command.CommandExecutionContext context,yarnwrap.command.Frame frame,java.util.List actions,Object wrapper) { wrapperContained.enqueueCommands(context.wrapperContained,frame.wrapperContained,actions,wrapper); }
 
 }

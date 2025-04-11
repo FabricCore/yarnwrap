@@ -15,5 +15,6 @@ public class SittingScanningPhase { public net.minecraft.entity.boss.dragon.phas
 // public void MAX_PLAYER_RANGE(int value) { wrapperContained.MAX_PLAYER_RANGE = value; }
 // public int ticks() { return wrapperContained.ticks; }
 // public void ticks(int value) { wrapperContained.ticks = value; }
+// public boolean method_18447(yarnwrap.entity.boss.dragon.EnderDragonEntity player) { return wrapperContained.method_18447(player.wrapperContained); }
 
 }

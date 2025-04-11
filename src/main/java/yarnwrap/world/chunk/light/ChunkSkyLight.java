@@ -9,6 +9,7 @@ public class ChunkSkyLight { public net.minecraft.world.chunk.light.ChunkSkyLigh
 // // public void reusableBlockPos1(Object value) { wrapperContained.reusableBlockPos1 = value; }
 // public Object reusableBlockPos2() { return wrapperContained.reusableBlockPos2; }
 // // public void reusableBlockPos2(Object value) { wrapperContained.reusableBlockPos2 = value; }
+public ChunkSkyLight(yarnwrap.world.HeightLimitView heightLimitView) { this.wrapperContained = new net.minecraft.world.chunk.light.ChunkSkyLight(heightLimitView.wrapperContained); }
 public int getMaxSurfaceY() { return wrapperContained.getMaxSurfaceY(); }
 // public void fill(int y) { wrapperContained.fill(y); }
 public int get(int localX,int localZ) { return wrapperContained.get(localX,localZ); }

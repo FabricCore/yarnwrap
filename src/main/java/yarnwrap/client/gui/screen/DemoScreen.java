@@ -7,5 +7,7 @@ public class DemoScreen { public net.minecraft.client.gui.screen.DemoScreen wrap
 // public void movementText(yarnwrap.client.font.MultilineText value) { wrapperContained.movementText = value.wrapperContained; }
 // public yarnwrap.client.font.MultilineText fullWrappedText() { return new yarnwrap.client.font.MultilineText(wrapperContained.fullWrappedText); }
 // public void fullWrappedText(yarnwrap.client.font.MultilineText value) { wrapperContained.fullWrappedText = value.wrapperContained; }
+// public void method_19810(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19810(button.wrapperContained); }
+// public void method_19811(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19811(button.wrapperContained); }
 
 }

@@ -19,7 +19,9 @@ public class ScoreboardScore { public net.minecraft.scoreboard.ScoreboardScore w
 // public void numberFormat(yarnwrap.scoreboard.number.NumberFormat value) { wrapperContained.numberFormat = value.wrapperContained; }
 public void setLocked(boolean locked) { wrapperContained.setLocked(locked); }
 public void setScore(int score) { wrapperContained.setScore(score); }
+// public void method_55402(yarnwrap.scoreboard.ScoreboardScore format) { wrapperContained.method_55402(format.wrapperContained); }
 // public yarnwrap.scoreboard.ScoreboardScore fromNbt(yarnwrap.nbt.NbtCompound nbt,Object registries) { return new yarnwrap.scoreboard.ScoreboardScore(wrapperContained.fromNbt(nbt.wrapperContained,registries)); }
+// public void method_55404(yarnwrap.nbt.NbtCompound formatElement) { wrapperContained.method_55404(formatElement.wrapperContained); }
 public void setDisplayText(yarnwrap.text.Text text) { wrapperContained.setDisplayText(text.wrapperContained); }
 public void setNumberFormat(yarnwrap.scoreboard.number.NumberFormat numberFormat) { wrapperContained.setNumberFormat(numberFormat.wrapperContained); }
 public yarnwrap.text.Text getDisplayText() { return new yarnwrap.text.Text(wrapperContained.getDisplayText()); }

@@ -14,6 +14,7 @@ public double Y_OFFSET() { return wrapperContained.Y_OFFSET; }
 // public boolean isValidAdjacentSuccessor(yarnwrap.entity.ai.pathing.PathNode node,yarnwrap.entity.ai.pathing.PathNode successor) { return wrapperContained.isValidAdjacentSuccessor(node.wrapperContained,successor.wrapperContained); }
 // public yarnwrap.entity.ai.pathing.PathNodeType getLandNodeType(yarnwrap.entity.ai.pathing.PathContext context,Object pos) { return new yarnwrap.entity.ai.pathing.PathNodeType(wrapperContained.getLandNodeType(context.wrapperContained,pos)); }
 // public boolean checkBoxCollision(yarnwrap.util.math.Box box) { return wrapperContained.checkBoxCollision(box.wrapperContained); }
+// public boolean method_29305(yarnwrap.util.math.Box box2) { return wrapperContained.method_29305(box2.wrapperContained); }
 // public boolean isBlocked(yarnwrap.entity.ai.pathing.PathNode node) { return wrapperContained.isBlocked(node.wrapperContained); }
 // public boolean isValidDiagonalSuccessor(yarnwrap.entity.ai.pathing.PathNode xNode,yarnwrap.entity.ai.pathing.PathNode zNode,yarnwrap.entity.ai.pathing.PathNode xDiagNode) { return wrapperContained.isValidDiagonalSuccessor(xNode.wrapperContained,zNode.wrapperContained,xDiagNode.wrapperContained); }
 // public yarnwrap.entity.ai.pathing.PathNodeType getNodeType(int x,int y,int z) { return new yarnwrap.entity.ai.pathing.PathNodeType(wrapperContained.getNodeType(x,y,z)); }

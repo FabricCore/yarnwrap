@@ -7,6 +7,13 @@ public class AdvancementCriteriaRenameFix { public net.minecraft.datafixer.fix.A
 // public void advancementId(java.lang.String value) { wrapperContained.advancementId = value; }
 // public java.util.function.UnaryOperator renamer() { return wrapperContained.renamer; }
 // public void renamer(java.util.function.UnaryOperator value) { wrapperContained.renamer = value; }
+public AdvancementCriteriaRenameFix(com.mojang.datafixers.schemas.Schema outputSchema,java.lang.String description,java.lang.String advancementId,java.util.function.UnaryOperator renamer) { this.wrapperContained = new net.minecraft.datafixer.fix.AdvancementCriteriaRenameFix(outputSchema,description,advancementId,renamer); }
+// public com.mojang.datafixers.Typed method_43063(com.mojang.datafixers.Typed typed) { return wrapperContained.method_43063(typed); }
+// public com.mojang.datafixers.util.Pair method_43064(com.mojang.datafixers.util.Pair pair) { return wrapperContained.method_43064(pair); }
 // public com.mojang.serialization.Dynamic update(com.mojang.serialization.Dynamic advancements) { return wrapperContained.update(advancements); }
+// public com.mojang.serialization.Dynamic method_43066(com.mojang.serialization.Dynamic keyString) { return wrapperContained.method_43066(keyString); }
+// public com.mojang.serialization.Dynamic method_43067(com.mojang.serialization.Dynamic advancement) { return wrapperContained.method_43067(advancement); }
+// public com.mojang.serialization.Dynamic method_43068(com.mojang.serialization.Dynamic criteria) { return wrapperContained.method_43068(criteria); }
+// public com.mojang.serialization.Dynamic method_43069(com.mojang.serialization.Dynamic key) { return wrapperContained.method_43069(key); }
 
 }

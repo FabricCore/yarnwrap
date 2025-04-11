@@ -9,5 +9,6 @@ public class ChaseBoatGoal { public net.minecraft.entity.ai.goal.ChaseBoatGoal w
 // public void passenger(yarnwrap.entity.player.PlayerEntity value) { wrapperContained.passenger = value.wrapperContained; }
 // public int updateCountdownTicks() { return wrapperContained.updateCountdownTicks; }
 // public void updateCountdownTicks(int value) { wrapperContained.updateCountdownTicks = value; }
+public ChaseBoatGoal(yarnwrap.entity.mob.PathAwareEntity mob) { this.wrapperContained = new net.minecraft.entity.ai.goal.ChaseBoatGoal(mob.wrapperContained); }
 
 }

@@ -9,6 +9,10 @@ public int z() { return wrapperContained.z; }
 // public void z(int value) { wrapperContained.z = value; }
 public int x() { return wrapperContained.x; }
 // public void x(int value) { wrapperContained.x = value; }
+public ChunkPos(int x,int z) { this.wrapperContained = new net.minecraft.util.math.ChunkPos(x,z); }
+public ChunkPos(long pos) { this.wrapperContained = new net.minecraft.util.math.ChunkPos(pos); }
+public ChunkPos(yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.util.math.ChunkPos(pos.wrapperContained); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public int getRegionX() { return wrapperContained.getRegionX(); }
 public int getRegionZ() { return wrapperContained.getRegionZ(); }
 public int getRegionRelativeX() { return wrapperContained.getRegionRelativeX(); }

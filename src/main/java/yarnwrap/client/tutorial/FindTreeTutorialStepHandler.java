@@ -13,6 +13,8 @@ public class FindTreeTutorialStepHandler { public net.minecraft.client.tutorial.
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
 // public yarnwrap.client.toast.TutorialToast toast() { return new yarnwrap.client.toast.TutorialToast(wrapperContained.toast); }
 // public void toast(yarnwrap.client.toast.TutorialToast value) { wrapperContained.toast = value.wrapperContained; }
+public FindTreeTutorialStepHandler(yarnwrap.client.tutorial.TutorialManager manager) { this.wrapperContained = new net.minecraft.client.tutorial.FindTreeTutorialStepHandler(manager.wrapperContained); }
+// public boolean method_43340(yarnwrap.item.ItemStack stack) { return wrapperContained.method_43340(stack.wrapperContained); }
 // public boolean hasItem(yarnwrap.client.network.ClientPlayerEntity player) { return wrapperContained.hasItem(player.wrapperContained); }
 public boolean hasBrokenTreeBlocks(yarnwrap.client.network.ClientPlayerEntity player) { return wrapperContained.hasBrokenTreeBlocks(player.wrapperContained); }
 

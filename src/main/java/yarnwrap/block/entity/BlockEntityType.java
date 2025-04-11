@@ -11,6 +11,7 @@ public class BlockEntityType { public net.minecraft.block.entity.BlockEntityType
 // public void blocks(java.util.Set value) { wrapperContained.blocks = value; }
 // public Object registryEntry() { return wrapperContained.registryEntry; }
 // // public void registryEntry(Object value) { wrapperContained.registryEntry = value; }
+// public BlockEntityType(Object factory,java.util.Set blocks,com.mojang.datafixers.types.Type type) { this.wrapperContained = new net.minecraft.block.entity.BlockEntityType(factory,blocks,type); }
 // public yarnwrap.block.entity.BlockEntityType create(java.lang.String id,Object builder) { return new yarnwrap.block.entity.BlockEntityType(wrapperContained.create(id,builder)); }
 public yarnwrap.block.entity.BlockEntity instantiate(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { return new yarnwrap.block.entity.BlockEntity(wrapperContained.instantiate(pos.wrapperContained,state.wrapperContained)); }
 public yarnwrap.util.Identifier getId(yarnwrap.block.entity.BlockEntityType type) { return new yarnwrap.util.Identifier(wrapperContained.getId(type.wrapperContained)); }

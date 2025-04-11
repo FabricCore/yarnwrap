@@ -5,6 +5,7 @@ public class CommonPlayerSpawnInfo { public net.minecraft.network.packet.s2c.pla
 // public void gameMode(yarnwrap.world.GameMode value) { wrapperContained.gameMode = value.wrapperContained; }
 // public yarnwrap.world.GameMode prevGameMode() { return new yarnwrap.world.GameMode(wrapperContained.prevGameMode); }
 // public void prevGameMode(yarnwrap.world.GameMode value) { wrapperContained.prevGameMode = value.wrapperContained; }
+public CommonPlayerSpawnInfo(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.CommonPlayerSpawnInfo(buf.wrapperContained); }
 // public yarnwrap.world.GameMode gameMode() { return new yarnwrap.world.GameMode(wrapperContained.gameMode()); }
 // public yarnwrap.world.GameMode prevGameMode() { return new yarnwrap.world.GameMode(wrapperContained.prevGameMode()); }
 public void write(yarnwrap.network.RegistryByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

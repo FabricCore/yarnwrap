@@ -27,6 +27,8 @@ public class RegionFile { public net.minecraft.world.storage.RegionFile wrapperC
 // public void path(java.nio.file.Path value) { wrapperContained.path = value; }
 // public yarnwrap.world.storage.StorageKey storageKey() { return new yarnwrap.world.storage.StorageKey(wrapperContained.storageKey); }
 // public void storageKey(yarnwrap.world.storage.StorageKey value) { wrapperContained.storageKey = value.wrapperContained; }
+// public RegionFile(yarnwrap.world.storage.StorageKey storageKey,java.nio.file.Path path,java.nio.file.Path directory,yarnwrap.world.storage.ChunkCompressionFormat compressionFormat,boolean dsync) { this.wrapperContained = new net.minecraft.world.storage.RegionFile(storageKey.wrapperContained,path,directory,compressionFormat.wrapperContained,dsync); }
+// public RegionFile(yarnwrap.world.storage.StorageKey storageKey,java.nio.file.Path directory,java.nio.file.Path path,boolean dsync) { this.wrapperContained = new net.minecraft.world.storage.RegionFile(storageKey.wrapperContained,directory,path,dsync); }
 // public int getSectorData(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.getSectorData(pos.wrapperContained); }
 public boolean hasChunk(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.hasChunk(pos.wrapperContained); }
 // public int getIndex(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.getIndex(pos.wrapperContained); }

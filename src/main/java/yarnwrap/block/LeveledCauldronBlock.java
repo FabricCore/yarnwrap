@@ -15,7 +15,11 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public Object precipitation() { return wrapperContained.precipitation; }
 // // public void precipitation(Object value) { wrapperContained.precipitation = value; }
+// public LeveledCauldronBlock(Object precipitation,Object behaviorMap,Object settings) { this.wrapperContained = new net.minecraft.block.LeveledCauldronBlock(precipitation,behaviorMap,settings); }
 public void decrementFluidLevel(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.decrementFluidLevel(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
 // public void onFireCollision(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.onFireCollision(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_54024(Object instance) { return wrapperContained.method_54024(instance); }
+// public Object method_54025(yarnwrap.block.LeveledCauldronBlock block) { return wrapperContained.method_54025(block.wrapperContained); }
+// public Object method_54026(yarnwrap.block.LeveledCauldronBlock block) { return wrapperContained.method_54026(block.wrapperContained); }
 
 }

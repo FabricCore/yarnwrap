@@ -3,6 +3,7 @@ public class BanReason { public net.minecraft.client.session.BanReason wrapperCo
 
 // public yarnwrap.text.Text description() { return new yarnwrap.text.Text(wrapperContained.description); }
 // public void description(yarnwrap.text.Text value) { wrapperContained.description = value.wrapperContained; }
+// public BanReason(java.lang.String id) { this.wrapperContained = new net.minecraft.client.session.BanReason(id); }
 public yarnwrap.text.Text getDescription() { return new yarnwrap.text.Text(wrapperContained.getDescription()); }
 public yarnwrap.client.session.BanReason byId(int id) { return new yarnwrap.client.session.BanReason(wrapperContained.byId(id)); }
 

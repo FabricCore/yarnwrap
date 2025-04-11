@@ -19,6 +19,9 @@ public class PackedIntegerArray { public net.minecraft.util.collection.PackedInt
 // public void indexOffset(int value) { wrapperContained.indexOffset = value; }
 // public int indexShift() { return wrapperContained.indexShift; }
 // public void indexShift(int value) { wrapperContained.indexShift = value; }
+public PackedIntegerArray(int elementBits,int size) { this.wrapperContained = new net.minecraft.util.collection.PackedIntegerArray(elementBits,size); }
+// public PackedIntegerArray(int elementBits,int size,int data) { this.wrapperContained = new net.minecraft.util.collection.PackedIntegerArray(elementBits,size,data); }
+// public PackedIntegerArray(int elementBits,int size,long data) { this.wrapperContained = new net.minecraft.util.collection.PackedIntegerArray(elementBits,size,data); }
 // public int getStorageIndex(int index) { return wrapperContained.getStorageIndex(index); }
 
 }

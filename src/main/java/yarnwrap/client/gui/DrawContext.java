@@ -13,6 +13,8 @@ public class DrawContext { public net.minecraft.client.gui.DrawContext wrapperCo
 // public void runningDrawCallback(boolean value) { wrapperContained.runningDrawCallback = value; }
 // public yarnwrap.client.texture.GuiAtlasManager guiAtlasManager() { return new yarnwrap.client.texture.GuiAtlasManager(wrapperContained.guiAtlasManager); }
 // public void guiAtlasManager(yarnwrap.client.texture.GuiAtlasManager value) { wrapperContained.guiAtlasManager = value.wrapperContained; }
+// public DrawContext(yarnwrap.client.MinecraftClient client,yarnwrap.client.util.math.MatrixStack matrices,Object vertexConsumers) { this.wrapperContained = new net.minecraft.client.gui.DrawContext(client.wrapperContained,matrices.wrapperContained,vertexConsumers); }
+// public DrawContext(yarnwrap.client.MinecraftClient client,Object vertexConsumers) { this.wrapperContained = new net.minecraft.client.gui.DrawContext(client.wrapperContained,vertexConsumers); }
 public void drawTexture(yarnwrap.util.Identifier texture,int x,int y,float u,float v,int width,int height,int textureWidth,int textureHeight) { wrapperContained.drawTexture(texture.wrapperContained,x,y,u,v,width,height,textureWidth,textureHeight); }
 public void drawTexture(yarnwrap.util.Identifier texture,int x,int y,int z,float u,float v,int width,int height,int textureWidth,int textureHeight) { wrapperContained.drawTexture(texture.wrapperContained,x,y,z,u,v,width,height,textureWidth,textureHeight); }
 public void drawHorizontalLine(int x1,int x2,int y,int color) { wrapperContained.drawHorizontalLine(x1,x2,y,color); }
@@ -59,6 +61,7 @@ public void drawTooltip(yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.
 public int drawText(yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.text.Text text,int x,int y,int color,boolean shadow) { return wrapperContained.drawText(textRenderer.wrapperContained,text.wrapperContained,x,y,color,shadow); }
 public void drawTextWrapped(yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.text.StringVisitable text,int x,int y,int width,int color) { wrapperContained.drawTextWrapped(textRenderer.wrapperContained,text.wrapperContained,x,y,width,color); }
 public void drawHoverEvent(yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.text.Style style,int x,int y) { wrapperContained.drawHoverEvent(textRenderer.wrapperContained,style.wrapperContained,x,y); }
+// public void method_51442(java.util.List data) { wrapperContained.method_51442(data); }
 public int getScaledWindowHeight() { return wrapperContained.getScaledWindowHeight(); }
 public void drawItemWithoutEntity(yarnwrap.item.ItemStack stack,int x,int y) { wrapperContained.drawItemWithoutEntity(stack.wrapperContained,x,y); }
 public void drawItemTooltip(yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.item.ItemStack stack,int x,int y) { wrapperContained.drawItemTooltip(textRenderer.wrapperContained,stack.wrapperContained,x,y); }

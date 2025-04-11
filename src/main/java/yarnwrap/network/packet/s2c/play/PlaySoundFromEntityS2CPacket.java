@@ -15,6 +15,8 @@ public class PlaySoundFromEntityS2CPacket { public net.minecraft.network.packet.
 // public void seed(long value) { wrapperContained.seed = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public PlaySoundFromEntityS2CPacket(yarnwrap.registry.entry.RegistryEntry sound,yarnwrap.sound.SoundCategory category,yarnwrap.entity.Entity entity,float volume,float pitch,long seed) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PlaySoundFromEntityS2CPacket(sound.wrapperContained,category.wrapperContained,entity.wrapperContained,volume,pitch,seed); }
+// public PlaySoundFromEntityS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PlaySoundFromEntityS2CPacket(buf.wrapperContained); }
 public float getPitch() { return wrapperContained.getPitch(); }
 public yarnwrap.sound.SoundCategory getCategory() { return new yarnwrap.sound.SoundCategory(wrapperContained.getCategory()); }
 public yarnwrap.registry.entry.RegistryEntry getSound() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.getSound()); }

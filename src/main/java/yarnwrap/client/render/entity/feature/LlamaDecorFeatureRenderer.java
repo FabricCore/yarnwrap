@@ -7,5 +7,6 @@ public class LlamaDecorFeatureRenderer { public net.minecraft.client.render.enti
 // public void LLAMA_DECOR(net.minecraft.util.Identifier[] value) { wrapperContained.LLAMA_DECOR = value; }
 // public yarnwrap.client.render.entity.model.LlamaEntityModel model() { return new yarnwrap.client.render.entity.model.LlamaEntityModel(wrapperContained.model); }
 // public void model(yarnwrap.client.render.entity.model.LlamaEntityModel value) { wrapperContained.model = value.wrapperContained; }
+public LlamaDecorFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.EntityModelLoader loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
 
 }

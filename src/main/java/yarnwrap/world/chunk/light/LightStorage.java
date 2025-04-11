@@ -25,6 +25,7 @@ public class LightStorage { public net.minecraft.world.chunk.light.LightStorage 
 // public void hasLightUpdates(boolean value) { wrapperContained.hasLightUpdates = value; }
 // public it.unimi.dsi.fastutil.longs.LongSet enabledColumns() { return wrapperContained.enabledColumns; }
 // public void enabledColumns(it.unimi.dsi.fastutil.longs.LongSet value) { wrapperContained.enabledColumns = value; }
+// public LightStorage(yarnwrap.world.LightType lightType,yarnwrap.world.chunk.ChunkProvider chunkProvider,yarnwrap.world.chunk.ChunkToNibbleArrayMap lightData) { this.wrapperContained = new net.minecraft.world.chunk.light.LightStorage(lightType.wrapperContained,chunkProvider.wrapperContained,lightData.wrapperContained); }
 // public yarnwrap.world.chunk.ChunkNibbleArray getLightSection(long sectionPos,boolean cached) { return new yarnwrap.world.chunk.ChunkNibbleArray(wrapperContained.getLightSection(sectionPos,cached)); }
 // public void onLoadSection(long sectionPos) { wrapperContained.onLoadSection(sectionPos); }
 // public boolean hasSection(long sectionPos) { return wrapperContained.hasSection(sectionPos); }
@@ -44,6 +45,7 @@ public yarnwrap.world.chunk.ChunkNibbleArray getLightSection(long sectionPos) { 
 public void setRetainColumn(long sectionPos,boolean retain) { wrapperContained.setRetainColumn(sectionPos,retain); }
 // public void addNotifySections(long id) { wrapperContained.addNotifySections(id); }
 // public void setSectionPropagation(long sectionPos,byte flags) { wrapperContained.setSectionPropagation(sectionPos,flags); }
+// public yarnwrap.world.chunk.ChunkNibbleArray method_51547(long sectionPos) { return new yarnwrap.world.chunk.ChunkNibbleArray(wrapperContained.method_51547(sectionPos)); }
 // public boolean isSectionInEnabledColumn(long sectionPos) { return wrapperContained.isSectionInEnabledColumn(sectionPos); }
 public Object getStatus(long sectionPos) { return wrapperContained.getStatus(sectionPos); }
 // public void queueForUpdate(long sectionPos) { wrapperContained.queueForUpdate(sectionPos); }

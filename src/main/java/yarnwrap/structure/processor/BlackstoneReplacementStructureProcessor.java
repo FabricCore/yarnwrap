@@ -7,5 +7,6 @@ public yarnwrap.structure.processor.BlackstoneReplacementStructureProcessor INST
 // public void replacementMap(java.util.Map value) { wrapperContained.replacementMap = value; }
 public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public void method_27255(java.util.HashMap replacements) { wrapperContained.method_27255(replacements); }
 
 }

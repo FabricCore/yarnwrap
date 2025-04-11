@@ -5,5 +5,6 @@ public class SnowGolemPumpkinFeatureRenderer { public net.minecraft.client.rende
 // public void blockRenderManager(yarnwrap.client.render.block.BlockRenderManager value) { wrapperContained.blockRenderManager = value.wrapperContained; }
 // public yarnwrap.client.render.item.ItemRenderer itemRenderer() { return new yarnwrap.client.render.item.ItemRenderer(wrapperContained.itemRenderer); }
 // public void itemRenderer(yarnwrap.client.render.item.ItemRenderer value) { wrapperContained.itemRenderer = value.wrapperContained; }
+public SnowGolemPumpkinFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.block.BlockRenderManager blockRenderManager,yarnwrap.client.render.item.ItemRenderer itemRenderer) { this.wrapperContained = new net.minecraft.client.render.entity.feature.SnowGolemPumpkinFeatureRenderer(context.wrapperContained,blockRenderManager.wrapperContained,itemRenderer.wrapperContained); }
 
 }

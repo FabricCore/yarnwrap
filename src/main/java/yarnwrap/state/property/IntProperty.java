@@ -7,6 +7,7 @@ public class IntProperty { public net.minecraft.state.property.IntProperty wrapp
 // public void min(int value) { wrapperContained.min = value; }
 // public int max() { return wrapperContained.max; }
 // public void max(int value) { wrapperContained.max = value; }
+// public IntProperty(java.lang.String name,int min,int max) { this.wrapperContained = new net.minecraft.state.property.IntProperty(name,min,max); }
 public yarnwrap.state.property.IntProperty of(java.lang.String name,int min,int max) { return new yarnwrap.state.property.IntProperty(wrapperContained.of(name,min,max)); }
 
 }

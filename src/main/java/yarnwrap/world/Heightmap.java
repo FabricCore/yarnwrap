@@ -13,6 +13,7 @@ public class Heightmap { public net.minecraft.world.Heightmap wrapperContained; 
 // public void SUFFOCATES(java.util.function.Predicate value) { wrapperContained.SUFFOCATES = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public Heightmap(yarnwrap.world.chunk.Chunk chunk,Object type) { this.wrapperContained = new net.minecraft.world.Heightmap(chunk.wrapperContained,type); }
 // public int toIndex(int x,int z) { return wrapperContained.toIndex(x,z); }
 public boolean trackUpdate(int x,int y,int z,yarnwrap.block.BlockState state) { return wrapperContained.trackUpdate(x,y,z,state.wrapperContained); }
 public long[] asLongArray() { return wrapperContained.asLongArray(); }
@@ -20,6 +21,8 @@ public long[] asLongArray() { return wrapperContained.asLongArray(); }
 // public int get(int index) { return wrapperContained.get(index); }
 // public void set(int x,int z,int height) { wrapperContained.set(x,z,height); }
 public int get(int x,int z) { return wrapperContained.get(x,z); }
+// public boolean method_16682(yarnwrap.block.BlockState state) { return wrapperContained.method_16682(state.wrapperContained); }
 public void populateHeightmaps(yarnwrap.world.chunk.Chunk chunk,java.util.Set types) { wrapperContained.populateHeightmaps(chunk.wrapperContained,types); }
+public int method_35334(int x,int z) { return wrapperContained.method_35334(x,z); }
 
 }

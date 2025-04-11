@@ -21,6 +21,7 @@ public yarnwrap.GameVersion CURRENT() { return new yarnwrap.GameVersion(wrapperC
 // public void CURRENT(yarnwrap.GameVersion value) { wrapperContained.CURRENT = value.wrapperContained; }
 // public int resourcePackVersion() { return wrapperContained.resourcePackVersion; }
 // public void resourcePackVersion(int value) { wrapperContained.resourcePackVersion = value; }
+// public MinecraftVersion(com.google.gson.JsonObject json) { this.wrapperContained = new net.minecraft.MinecraftVersion(json); }
 public yarnwrap.GameVersion create() { return new yarnwrap.GameVersion(wrapperContained.create()); }
 
 }

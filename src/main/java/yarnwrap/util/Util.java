@@ -41,18 +41,22 @@ public void throwUnchecked(java.lang.Throwable t) { wrapperContained.throwUnchec
 // public int getRandom(int array,net.minecraft.util.math.random.Random[] random) { return wrapperContained.getRandom(array,random); }
 public java.lang.Object getRandom(java.lang.Object[] array,yarnwrap.util.math.random.Random random) { return wrapperContained.getRandom(array,random.wrapperContained); }
 public int moveCursor(java.lang.String string,int cursor,int delta) { return wrapperContained.moveCursor(string,cursor,delta); }
+// public java.lang.Thread method_27956(java.lang.String runnable) { return wrapperContained.method_27956(runnable); }
 // public void attemptShutdown(java.util.concurrent.ExecutorService service) { wrapperContained.attemptShutdown(service); }
 public java.util.concurrent.ExecutorService getIoWorkerExecutor() { return wrapperContained.getIoWorkerExecutor(); }
 // public java.util.concurrent.ExecutorService createIoWorker(java.lang.String namePrefix,boolean daemon) { return wrapperContained.createIoWorker(namePrefix,daemon); }
 // public java.util.concurrent.ExecutorService createWorker(java.lang.String name) { return wrapperContained.createWorker(name); }
+// public java.util.concurrent.ForkJoinWorkerThread method_28123(java.lang.String pool) { return wrapperContained.method_28123(pool); }
 // public com.mojang.datafixers.types.Type getChoiceType(Object typeReference,java.lang.String id) { return wrapperContained.getChoiceType(typeReference,id); }
 public java.util.function.Consumer addPrefix(java.lang.String prefix,java.util.function.Consumer consumer) { return wrapperContained.addPrefix(prefix,consumer); }
+// public void method_29189(java.util.function.Consumer string) { wrapperContained.method_29189(string); }
 public com.mojang.serialization.DataResult decodeFixedLengthArray(java.util.stream.IntStream stream,int length) { return wrapperContained.decodeFixedLengthArray(stream,length); }
 // public com.mojang.datafixers.types.Type getChoiceTypeInternal(Object typeReference,java.lang.String id) { return wrapperContained.getChoiceTypeInternal(typeReference,id); }
 public void startTimerHack() { wrapperContained.startTimerHack(); }
 // public void relativeCopy(java.nio.file.Path src,java.nio.file.Path dest,java.nio.file.Path toCopy) { wrapperContained.relativeCopy(src,dest,toCopy); }
 public java.lang.String replaceInvalidChars(java.lang.String string,yarnwrap.util.function.CharPredicate predicate) { return wrapperContained.replaceInvalidChars(string,predicate.wrapperContained); }
 // public boolean attemptTasks(int retries,java.lang.String taskName,java.util.function.BooleanSupplier[] tasks) { return wrapperContained.attemptTasks(retries,taskName,tasks); }
+// public java.lang.String method_30623(yarnwrap.util.function.CharPredicate charCode) { return wrapperContained.method_30623(charCode.wrapperContained); }
 // public java.util.function.BooleanSupplier deleteTask(java.nio.file.Path path) { return wrapperContained.deleteTask(path); }
 // public java.util.function.BooleanSupplier renameTask(java.nio.file.Path src,java.nio.file.Path dest) { return wrapperContained.renameTask(src,dest); }
 public void backupAndReplace(java.nio.file.Path current,java.nio.file.Path newPath,java.nio.file.Path backup) { wrapperContained.backupAndReplace(current,newPath,backup); }
@@ -67,10 +71,13 @@ public java.lang.Runnable debugRunnable(java.lang.String activeThreadName,java.l
 public java.util.concurrent.CompletableFuture combineSafe(java.util.List futures) { return wrapperContained.combineSafe(futures); }
 public java.util.function.BiFunction memoize(java.util.function.BiFunction biFunction) { return wrapperContained.memoize(biFunction); }
 public java.util.function.Function memoize(java.util.function.Function function) { return wrapperContained.memoize(function); }
+// public boolean method_37153(java.nio.file.spi.FileSystemProvider fileSystemProvider) { return wrapperContained.method_37153(fileSystemProvider); }
 public java.util.function.Supplier debugSupplier(java.lang.String activeThreadName,java.util.function.Supplier supplier) { return wrapperContained.debugSupplier(activeThreadName,supplier); }
 public void setMissingBreakpointHandler(java.util.function.Consumer missingBreakpointHandler) { wrapperContained.setMissingBreakpointHandler(missingBreakpointHandler); }
+// public void method_38647(java.lang.String message) { wrapperContained.method_38647(message); }
 // public int getMaxBackgroundThreads() { return wrapperContained.getMaxBackgroundThreads(); }
 public void error(java.lang.String message,java.lang.Throwable throwable) { wrapperContained.error(message,throwable); }
+// public java.util.List method_40082(java.util.List void_) { return wrapperContained.method_40082(void_); }
 public java.util.Optional getRandomOrEmpty(java.util.List list,yarnwrap.util.math.random.Random random) { return wrapperContained.getRandomOrEmpty(list,random.wrapperContained); }
 public boolean backupAndReplace(java.nio.file.Path current,java.nio.file.Path newPath,java.nio.file.Path backup,boolean noRestoreOnFail) { return wrapperContained.backupAndReplace(current,newPath,backup,noRestoreOnFail); }
 public java.util.function.Supplier debugSupplier(java.util.function.Supplier supplier,java.util.function.Supplier messageSupplier) { return wrapperContained.debugSupplier(supplier,messageSupplier); }
@@ -79,7 +86,11 @@ public void shuffle(java.util.List list,yarnwrap.util.math.random.Random random)
 public it.unimi.dsi.fastutil.ints.IntArrayList shuffle(java.util.stream.IntStream stream,yarnwrap.util.math.random.Random random) { return wrapperContained.shuffle(stream,random.wrapperContained); }
 public java.util.List copyShuffled(java.util.stream.Stream stream,yarnwrap.util.math.random.Random random) { return wrapperContained.copyShuffled(stream,random.wrapperContained); }
 public java.util.List copyShuffled(java.lang.Object[] array,yarnwrap.util.math.random.Random random) { return wrapperContained.copyShuffled(array,random.wrapperContained); }
+// public java.util.List method_43368(java.util.List void_) { return wrapperContained.method_43368(void_); }
+// public void method_43369(java.util.concurrent.CompletableFuture throwable) { wrapperContained.method_43369(throwable); }
 // public java.util.concurrent.CompletableFuture combine(java.util.List futures,java.util.function.Consumer exceptionHandler) { return wrapperContained.combine(futures,exceptionHandler); }
+// public void method_43371(java.util.List future) { wrapperContained.method_43371(future); }
+// public void method_43372(java.util.function.Consumer value,java.util.List throwable) { wrapperContained.method_43372(value,throwable); }
 public java.util.concurrent.CompletableFuture combineCancellable(java.util.List futures) { return wrapperContained.combineCancellable(futures); }
 public java.lang.Object waitAndApply(java.util.function.Function resultFactory,java.util.function.Predicate donePredicate) { return wrapperContained.waitAndApply(resultFactory,donePredicate); }
 public java.util.concurrent.CompletableFuture waitAndApply(java.util.function.Function resultFactory) { return wrapperContained.waitAndApply(resultFactory); }
@@ -113,6 +124,7 @@ public long getMeasuringTimeMs() { return wrapperContained.getMeasuringTimeMs();
 public long getEpochTimeMs() { return wrapperContained.getEpochTimeMs(); }
 public java.lang.Object next(java.lang.Iterable iterable,java.lang.Object object) { return wrapperContained.next(iterable,object); }
 public java.util.stream.Collector toMap() { return wrapperContained.toMap(); }
+// public boolean method_666(java.lang.String runtimeArg) { return wrapperContained.method_666(runtimeArg); }
 public Object getOperatingSystem() { return wrapperContained.getOperatingSystem(); }
 
 }

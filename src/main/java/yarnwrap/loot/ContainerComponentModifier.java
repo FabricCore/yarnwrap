@@ -7,6 +7,7 @@ public void apply(yarnwrap.item.ItemStack stack,java.util.function.UnaryOperator
 public void apply(yarnwrap.item.ItemStack stack,java.util.stream.Stream contents) { wrapperContained.apply(stack.wrapperContained,contents); }
 public java.util.stream.Stream stream(java.lang.Object component) { return wrapperContained.stream(component); }
 public java.lang.Object create(java.lang.Object component,java.util.stream.Stream contents) { return wrapperContained.create(component,contents); }
+// public yarnwrap.item.ItemStack method_59725(java.util.function.UnaryOperator contentStack) { return new yarnwrap.item.ItemStack(wrapperContained.method_59725(contentStack)); }
 public java.lang.Object getDefault() { return wrapperContained.getDefault(); }
 
 }

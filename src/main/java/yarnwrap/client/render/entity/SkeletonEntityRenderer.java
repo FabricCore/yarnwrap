@@ -3,5 +3,6 @@ public class SkeletonEntityRenderer { public net.minecraft.client.render.entity.
 
 // public yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.TEXTURE); }
 // public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
+// public SkeletonEntityRenderer(Object ctx,yarnwrap.client.render.entity.model.EntityModelLayer layer,yarnwrap.client.render.entity.model.EntityModelLayer legArmorLayer,yarnwrap.client.render.entity.model.EntityModelLayer bodyArmorLayer) { this.wrapperContained = new net.minecraft.client.render.entity.SkeletonEntityRenderer(ctx,layer.wrapperContained,legArmorLayer.wrapperContained,bodyArmorLayer.wrapperContained); }
 
 }

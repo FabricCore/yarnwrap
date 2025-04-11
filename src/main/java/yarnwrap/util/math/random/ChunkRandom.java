@@ -5,6 +5,7 @@ public class ChunkRandom { public net.minecraft.util.math.random.ChunkRandom wra
 // public void sampleCount(int value) { wrapperContained.sampleCount = value; }
 // public yarnwrap.util.math.random.Random baseRandom() { return new yarnwrap.util.math.random.Random(wrapperContained.baseRandom); }
 // public void baseRandom(yarnwrap.util.math.random.Random value) { wrapperContained.baseRandom = value.wrapperContained; }
+public ChunkRandom(yarnwrap.util.math.random.Random baseRandom) { this.wrapperContained = new net.minecraft.util.math.random.ChunkRandom(baseRandom.wrapperContained); }
 public long setPopulationSeed(long worldSeed,int blockX,int blockZ) { return wrapperContained.setPopulationSeed(worldSeed,blockX,blockZ); }
 public yarnwrap.util.math.random.Random getSlimeRandom(int chunkX,int chunkZ,long worldSeed,long scrambler) { return new yarnwrap.util.math.random.Random(wrapperContained.getSlimeRandom(chunkX,chunkZ,worldSeed,scrambler)); }
 public void setCarverSeed(long worldSeed,int chunkX,int chunkZ) { wrapperContained.setCarverSeed(worldSeed,chunkX,chunkZ); }

@@ -5,5 +5,6 @@ public class GustEmitterParticle { public net.minecraft.client.particle.GustEmit
 // public void deviation(double value) { wrapperContained.deviation = value; }
 // public int interval() { return wrapperContained.interval; }
 // public void interval(int value) { wrapperContained.interval = value; }
+// public GustEmitterParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double deviation,int maxAge,int interval) { this.wrapperContained = new net.minecraft.client.particle.GustEmitterParticle(world.wrapperContained,x,y,z,deviation,maxAge,interval); }
 
 }

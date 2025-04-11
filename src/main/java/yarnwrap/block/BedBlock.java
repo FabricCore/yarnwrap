@@ -27,6 +27,7 @@ public yarnwrap.state.property.EnumProperty PART() { return new yarnwrap.state.p
 // public void PART(yarnwrap.state.property.EnumProperty value) { wrapperContained.PART = value.wrapperContained; }
 public yarnwrap.state.property.BooleanProperty OCCUPIED() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.OCCUPIED); }
 // public void OCCUPIED(yarnwrap.state.property.BooleanProperty value) { wrapperContained.OCCUPIED = value.wrapperContained; }
+// public BedBlock(yarnwrap.util.DyeColor color,Object settings) { this.wrapperContained = new net.minecraft.block.BedBlock(color.wrapperContained,settings); }
 public yarnwrap.util.math.Direction getDirection(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.Direction(wrapperContained.getDirection(world.wrapperContained,pos.wrapperContained)); }
 // public void bounceEntity(yarnwrap.entity.Entity entity) { wrapperContained.bounceEntity(entity.wrapperContained); }
 // public boolean wakeVillager(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.wakeVillager(world.wrapperContained,pos.wrapperContained); }
@@ -39,6 +40,8 @@ public boolean isBedWorking(yarnwrap.world.World world) { return wrapperContaine
 // public int[][] getAroundAndOnBedOffsets(yarnwrap.util.math.Direction bedDirection,yarnwrap.util.math.Direction respawnDirection) { return wrapperContained.getAroundAndOnBedOffsets(bedDirection.wrapperContained,respawnDirection.wrapperContained); }
 // public boolean isBedBelow(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isBedBelow(world.wrapperContained,pos.wrapperContained); }
 // public int[][] getAroundBedOffsets(yarnwrap.util.math.Direction bedDirection,yarnwrap.util.math.Direction respawnDirection) { return wrapperContained.getAroundBedOffsets(bedDirection.wrapperContained,respawnDirection.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53978(Object instance) { return wrapperContained.method_53978(instance); }
+// public void method_55767(yarnwrap.entity.player.PlayerEntity reason) { wrapperContained.method_55767(reason.wrapperContained); }
 public java.util.Optional findWakeUpPosition(yarnwrap.entity.EntityType type,yarnwrap.world.CollisionView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction bedDirection,float spawnAngle) { return wrapperContained.findWakeUpPosition(type.wrapperContained,world.wrapperContained,pos.wrapperContained,bedDirection.wrapperContained,spawnAngle); }
 public yarnwrap.util.DyeColor getColor() { return new yarnwrap.util.DyeColor(wrapperContained.getColor()); }
 // public yarnwrap.util.math.Direction getDirectionTowardsOtherPart(yarnwrap.block.enums.BedPart part,yarnwrap.util.math.Direction direction) { return new yarnwrap.util.math.Direction(wrapperContained.getDirectionTowardsOtherPart(part.wrapperContained,direction.wrapperContained)); }

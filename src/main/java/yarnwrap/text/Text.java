@@ -5,10 +5,12 @@ public yarnwrap.text.TextContent getContent() { return new yarnwrap.text.TextCon
 public java.util.List getSiblings() { return wrapperContained.getSiblings(); }
 public java.lang.String asTruncatedString(int length) { return wrapperContained.asTruncatedString(length); }
 public yarnwrap.text.Style getStyle() { return new yarnwrap.text.Style(wrapperContained.getStyle()); }
+// public java.util.Optional method_27655(int string) { return wrapperContained.method_27655(string); }
 public yarnwrap.text.MutableText copy() { return new yarnwrap.text.MutableText(wrapperContained.copy()); }
 public yarnwrap.text.MutableText copyContentOnly() { return new yarnwrap.text.MutableText(wrapperContained.copyContentOnly()); }
 // public yarnwrap.text.Text of(java.lang.String string) { return new yarnwrap.text.Text(wrapperContained.of(string)); }
 public yarnwrap.text.OrderedText asOrderedText() { return new yarnwrap.text.OrderedText(wrapperContained.asOrderedText()); }
+// public java.util.Optional method_36135(java.util.List styleOverride,yarnwrap.text.Style text) { return wrapperContained.method_36135(styleOverride,text.wrapperContained); }
 public java.util.List getWithStyle(yarnwrap.text.Style style) { return wrapperContained.getWithStyle(style.wrapperContained); }
 // public yarnwrap.text.MutableText score(java.lang.String name,java.lang.String objective) { return new yarnwrap.text.MutableText(wrapperContained.score(name,objective)); }
 // public yarnwrap.text.MutableText selector(java.lang.String pattern,java.util.Optional separator) { return new yarnwrap.text.MutableText(wrapperContained.selector(pattern,separator)); }

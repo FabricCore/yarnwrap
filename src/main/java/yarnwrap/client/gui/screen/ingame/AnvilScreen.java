@@ -15,6 +15,7 @@ public class AnvilScreen { public net.minecraft.client.gui.screen.ingame.AnvilSc
 // public void TEXT_FIELD_DISABLED_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXT_FIELD_DISABLED_TEXTURE = value.wrapperContained; }
 // public yarnwrap.util.Identifier ERROR_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.ERROR_TEXTURE); }
 // public void ERROR_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.ERROR_TEXTURE = value.wrapperContained; }
+public AnvilScreen(yarnwrap.screen.AnvilScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.AnvilScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 // public void onRenamed(java.lang.String name) { wrapperContained.onRenamed(name); }
 
 }

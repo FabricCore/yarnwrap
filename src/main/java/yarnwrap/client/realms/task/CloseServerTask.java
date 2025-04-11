@@ -9,5 +9,6 @@ public class CloseServerTask { public net.minecraft.client.realms.task.CloseServ
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(wrapperContained.TITLE); }
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
+public CloseServerTask(yarnwrap.client.realms.dto.RealmsServer realmsServer,yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen configureWorldScreen) { this.wrapperContained = new net.minecraft.client.realms.task.CloseServerTask(realmsServer.wrapperContained,configureWorldScreen.wrapperContained); }
 
 }

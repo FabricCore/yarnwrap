@@ -9,6 +9,7 @@ public class VoxelSet { public net.minecraft.util.shape.VoxelSet wrapperContaine
 // public void sizeX(int value) { wrapperContained.sizeX = value; }
 // public Object AXES() { return wrapperContained.AXES; }
 // // public void AXES(Object value) { wrapperContained.AXES = value; }
+// public VoxelSet(int sizeX,int sizeY,int sizeZ) { this.wrapperContained = new net.minecraft.util.shape.VoxelSet(sizeX,sizeY,sizeZ); }
 public boolean inBoundsAndContains(int x,int y,int z) { return wrapperContained.inBoundsAndContains(x,y,z); }
 // public int getMax(Object axis) { return wrapperContained.getMax(axis); }
 // public void forEachDirection(Object consumer) { wrapperContained.forEachDirection(consumer); }

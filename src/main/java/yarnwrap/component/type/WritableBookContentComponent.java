@@ -17,6 +17,10 @@ public com.mojang.serialization.Codec PAGES_CODEC() { return wrapperContained.PA
 // public void PAGES_CODEC(com.mojang.serialization.Codec value) { wrapperContained.PAGES_CODEC = value; }
 public int MAX_PAGE_COUNT() { return wrapperContained.MAX_PAGE_COUNT; }
 // public void MAX_PAGE_COUNT(int value) { wrapperContained.MAX_PAGE_COUNT = value; }
+public WritableBookContentComponent(java.util.List pages) { this.wrapperContained = new net.minecraft.component.type.WritableBookContentComponent(pages); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
+// public com.mojang.datafixers.kinds.App method_57516(Object instance) { return wrapperContained.method_57516(instance); }
 public java.util.stream.Stream stream(boolean shouldFilter) { return wrapperContained.stream(shouldFilter); }
+// public java.lang.String method_57518(boolean page) { return wrapperContained.method_57518(page); }
 
 }

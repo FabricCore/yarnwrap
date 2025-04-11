@@ -17,6 +17,8 @@ public class PlayerPositionLookS2CPacket { public net.minecraft.network.packet.s
 // public void flags(java.util.Set value) { wrapperContained.flags = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public PlayerPositionLookS2CPacket(double x,double y,double z,float yaw,float pitch,java.util.Set flags,int teleportId) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket(x,y,z,yaw,pitch,flags,teleportId); }
+// public PlayerPositionLookS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PlayerPositionLookS2CPacket(buf.wrapperContained); }
 public java.util.Set getFlags() { return wrapperContained.getFlags(); }
 public double getX() { return wrapperContained.getX(); }
 public double getY() { return wrapperContained.getY(); }

@@ -7,5 +7,6 @@ public class AttackWithOwnerGoal { public net.minecraft.entity.ai.goal.AttackWit
 // public void tameable(yarnwrap.entity.passive.TameableEntity value) { wrapperContained.tameable = value.wrapperContained; }
 // public yarnwrap.entity.LivingEntity attacking() { return new yarnwrap.entity.LivingEntity(wrapperContained.attacking); }
 // public void attacking(yarnwrap.entity.LivingEntity value) { wrapperContained.attacking = value.wrapperContained; }
+public AttackWithOwnerGoal(yarnwrap.entity.passive.TameableEntity tameable) { this.wrapperContained = new net.minecraft.entity.ai.goal.AttackWithOwnerGoal(tameable.wrapperContained); }
 
 }

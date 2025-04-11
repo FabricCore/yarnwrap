@@ -11,6 +11,7 @@ public class WorldGenerationProgressLogger { public net.minecraft.server.WorldGe
 // public void startTime(long value) { wrapperContained.startTime = value; }
 // public long nextMessageTime() { return wrapperContained.nextMessageTime; }
 // public void nextMessageTime(long value) { wrapperContained.nextMessageTime = value; }
+// public WorldGenerationProgressLogger(int radius) { this.wrapperContained = new net.minecraft.server.WorldGenerationProgressLogger(radius); }
 public int getProgressPercentage() { return wrapperContained.getProgressPercentage(); }
 public yarnwrap.server.WorldGenerationProgressLogger create(int spawnChunkRadius) { return new yarnwrap.server.WorldGenerationProgressLogger(wrapperContained.create(spawnChunkRadius)); }
 public yarnwrap.server.WorldGenerationProgressLogger noSpawnChunks() { return new yarnwrap.server.WorldGenerationProgressLogger(wrapperContained.noSpawnChunks()); }

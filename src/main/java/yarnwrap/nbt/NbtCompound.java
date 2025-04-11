@@ -9,6 +9,8 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 // public int SIZE() { return wrapperContained.SIZE; }
 // public void SIZE(int value) { wrapperContained.SIZE = value; }
+// public NbtCompound(java.util.Map entries) { this.wrapperContained = new net.minecraft.nbt.NbtCompound(entries); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public long getLong(java.lang.String key) { return wrapperContained.getLong(key); }
 public void putLongArray(java.lang.String key,java.util.List value) { wrapperContained.putLongArray(key,value); }
 // public void putIntArray(java.lang.String key,int value) { wrapperContained.putIntArray(key,value); }
@@ -50,6 +52,8 @@ public float getFloat(java.lang.String key) { return wrapperContained.getFloat(k
 public java.util.UUID getUuid(java.lang.String key) { return wrapperContained.getUuid(key); }
 public void putUuid(java.lang.String key,java.util.UUID value) { wrapperContained.putUuid(key,value); }
 public boolean containsUuid(java.lang.String key) { return wrapperContained.containsUuid(key); }
+// public com.mojang.serialization.DataResult method_29141(com.mojang.serialization.Dynamic dynamic) { return wrapperContained.method_29141(dynamic); }
+// public com.mojang.serialization.Dynamic method_29142(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.method_29142(nbt.wrapperContained); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 public void putByteArray(java.lang.String key,java.util.List value) { wrapperContained.putByteArray(key,value); }
 // public yarnwrap.nbt.NbtCompound shallowCopy() { return new yarnwrap.nbt.NbtCompound(wrapperContained.shallowCopy()); }

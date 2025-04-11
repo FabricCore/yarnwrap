@@ -11,9 +11,11 @@ public class AbuseReportContext { public net.minecraft.client.session.report.Abu
 // public void chatLog(yarnwrap.client.session.report.log.ChatLog value) { wrapperContained.chatLog = value.wrapperContained; }
 // public yarnwrap.client.session.report.AbuseReport draft() { return new yarnwrap.client.session.report.AbuseReport(wrapperContained.draft); }
 // public void draft(yarnwrap.client.session.report.AbuseReport value) { wrapperContained.draft = value.wrapperContained; }
+public AbuseReportContext(yarnwrap.client.session.report.AbuseReportSender sender,yarnwrap.client.session.report.ReporterEnvironment environment,yarnwrap.client.session.report.log.ChatLog chatLog) { this.wrapperContained = new net.minecraft.client.session.report.AbuseReportContext(sender.wrapperContained,environment.wrapperContained,chatLog.wrapperContained); }
 public boolean environmentEquals(yarnwrap.client.session.report.ReporterEnvironment environment) { return wrapperContained.environmentEquals(environment.wrapperContained); }
 public yarnwrap.client.session.report.AbuseReportContext create(yarnwrap.client.session.report.ReporterEnvironment environment,com.mojang.authlib.minecraft.UserApiService userApiService) { return new yarnwrap.client.session.report.AbuseReportContext(wrapperContained.create(environment.wrapperContained,userApiService)); }
 public yarnwrap.client.session.report.AbuseReportSender getSender() { return new yarnwrap.client.session.report.AbuseReportSender(wrapperContained.getSender()); }
+// public void method_46551(yarnwrap.client.MinecraftClient confirmed) { wrapperContained.method_46551(confirmed.wrapperContained); }
 public void tryShowDraftScreen(yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.screen.Screen parent,java.lang.Runnable callback,boolean quit) { wrapperContained.tryShowDraftScreen(client.wrapperContained,parent.wrapperContained,callback,quit); }
 public void setDraft(yarnwrap.client.session.report.AbuseReport draft) { wrapperContained.setDraft(draft.wrapperContained); }
 public boolean draftPlayerUuidEquals(java.util.UUID uuid) { return wrapperContained.draftPlayerUuidEquals(uuid); }

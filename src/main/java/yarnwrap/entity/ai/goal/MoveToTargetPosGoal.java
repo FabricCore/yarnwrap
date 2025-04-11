@@ -27,6 +27,8 @@ public double speed() { return wrapperContained.speed; }
 // public void cooldown(int value) { wrapperContained.cooldown = value; }
 // public int maxYDifference() { return wrapperContained.maxYDifference; }
 // public void maxYDifference(int value) { wrapperContained.maxYDifference = value; }
+// public MoveToTargetPosGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed,int range) { this.wrapperContained = new net.minecraft.entity.ai.goal.MoveToTargetPosGoal(mob.wrapperContained,speed,range); }
+// public MoveToTargetPosGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed,int range,int maxYDifference) { this.wrapperContained = new net.minecraft.entity.ai.goal.MoveToTargetPosGoal(mob.wrapperContained,speed,range,maxYDifference); }
 // public yarnwrap.util.math.BlockPos getTargetPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getTargetPos()); }
 // public void startMovingToTarget() { wrapperContained.startMovingToTarget(); }
 public double getDesiredDistanceToTarget() { return wrapperContained.getDesiredDistanceToTarget(); }

@@ -3,6 +3,9 @@ public class WalkTowardsPosTask { public net.minecraft.entity.ai.brain.task.Walk
 
 // public yarnwrap.util.math.BlockPos fuzz(yarnwrap.entity.mob.MobEntity mob,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.fuzz(mob.wrapperContained,pos.wrapperContained)); }
 // public int fuzz(yarnwrap.util.math.random.Random random) { return wrapperContained.fuzz(random.wrapperContained); }
+// public yarnwrap.entity.ai.brain.task.TaskRunnable method_46939(Object pos,int attackTarget,float walkTarget,yarnwrap.entity.ai.brain.MemoryQueryResult lookTarget) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(wrapperContained.method_46939(pos,attackTarget,walkTarget,lookTarget.wrapperContained)); }
+// public boolean method_46940(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,int time) { return wrapperContained.method_46940(world,entity.wrapperContained,time); }
 public yarnwrap.entity.ai.brain.task.SingleTickTask create(yarnwrap.entity.ai.brain.MemoryModuleType posModule,int completionRange,float speed) { return new yarnwrap.entity.ai.brain.task.SingleTickTask(wrapperContained.create(posModule.wrapperContained,completionRange,speed)); }
+// public com.mojang.datafixers.kinds.App method_46942(yarnwrap.entity.ai.brain.MemoryModuleType context) { return wrapperContained.method_46942(context.wrapperContained); }
 
 }

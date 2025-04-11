@@ -15,6 +15,7 @@ public yarnwrap.text.Text ERROR_TITLE() { return new yarnwrap.text.Text(wrapperC
 // public void TO_WORLD(yarnwrap.text.Text value) { wrapperContained.TO_WORLD = value.wrapperContained; }
 // public yarnwrap.text.Text TO_REALMS() { return new yarnwrap.text.Text(wrapperContained.TO_REALMS); }
 // public void TO_REALMS(yarnwrap.text.Text value) { wrapperContained.TO_REALMS = value.wrapperContained; }
+// public boolean method_51258(long server) { return wrapperContained.method_51258(server); }
 // public void startRealms(yarnwrap.client.MinecraftClient client,yarnwrap.client.realms.RealmsClient realmsClient,java.lang.String realmId) { wrapperContained.startRealms(client.wrapperContained,realmsClient.wrapperContained,realmId); }
 // public void startQuickPlay(yarnwrap.client.MinecraftClient client,Object quickPlay,yarnwrap.client.realms.RealmsClient realmsClient) { wrapperContained.startQuickPlay(client.wrapperContained,quickPlay,realmsClient.wrapperContained); }
 // public void startSingleplayer(yarnwrap.client.MinecraftClient client,java.lang.String levelName) { wrapperContained.startSingleplayer(client.wrapperContained,levelName); }

@@ -9,6 +9,7 @@ public int LOG_SIZE() { return wrapperContained.LOG_SIZE; }
 // public void start(int value) { wrapperContained.start = value; }
 // public int length() { return wrapperContained.length; }
 // public void length(int value) { wrapperContained.length = value; }
+public MultiValueDebugSampleLogImpl(int dimensions) { this.wrapperContained = new net.minecraft.util.profiler.MultiValueDebugSampleLogImpl(dimensions); }
 // public int wrap(int index) { return wrapperContained.wrap(index); }
 
 }

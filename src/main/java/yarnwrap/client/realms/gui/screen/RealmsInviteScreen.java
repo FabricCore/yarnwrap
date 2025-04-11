@@ -25,7 +25,9 @@ public class RealmsInviteScreen { public net.minecraft.client.realms.gui.screen.
 // public void inviteButton(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.inviteButton = value.wrapperContained; }
 // public yarnwrap.text.Text INVITE_TEXT() { return new yarnwrap.text.Text(wrapperContained.INVITE_TEXT); }
 // public void INVITE_TEXT(yarnwrap.text.Text value) { wrapperContained.INVITE_TEXT = value.wrapperContained; }
+public RealmsInviteScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen configureScreen,yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.realms.dto.RealmsServer serverData) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsInviteScreen(configureScreen.wrapperContained,parent.wrapperContained,serverData.wrapperContained); }
 // public void onInvite() { wrapperContained.onInvite(); }
 // public void showError(yarnwrap.text.Text errorMessage) { wrapperContained.showError(errorMessage.wrapperContained); }
+// public void method_25162(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25162(button.wrapperContained); }
 
 }

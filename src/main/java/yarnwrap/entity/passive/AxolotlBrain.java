@@ -25,5 +25,6 @@ public void updateActivities(yarnwrap.entity.passive.AxolotlEntity axolotl) { wr
 // public void addCoreActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addCoreActivities(brain.wrapperContained); }
 // public void addIdleActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleActivities(brain.wrapperContained); }
 // public boolean canGoToLookTarget(yarnwrap.entity.LivingEntity entity) { return wrapperContained.canGoToLookTarget(entity.wrapperContained); }
+// public boolean method_58387(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58387(stack.wrapperContained); }
 
 }

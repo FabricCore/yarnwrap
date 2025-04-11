@@ -13,6 +13,7 @@ public class DoorInteractGoal { public net.minecraft.entity.ai.goal.DoorInteract
 // public void mob(yarnwrap.entity.mob.MobEntity value) { wrapperContained.mob = value.wrapperContained; }
 // public yarnwrap.util.math.BlockPos doorPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.doorPos); }
 // public void doorPos(yarnwrap.util.math.BlockPos value) { wrapperContained.doorPos = value.wrapperContained; }
+// public DoorInteractGoal(yarnwrap.entity.mob.MobEntity mob) { this.wrapperContained = new net.minecraft.entity.ai.goal.DoorInteractGoal(mob.wrapperContained); }
 // public void setDoorOpen(boolean open) { wrapperContained.setDoorOpen(open); }
 // public boolean isDoorOpen() { return wrapperContained.isDoorOpen(); }
 

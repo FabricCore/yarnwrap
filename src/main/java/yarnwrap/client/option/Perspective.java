@@ -7,6 +7,7 @@ public class Perspective { public net.minecraft.client.option.Perspective wrappe
 // public void firstPerson(boolean value) { wrapperContained.firstPerson = value; }
 // public boolean frontView() { return wrapperContained.frontView; }
 // public void frontView(boolean value) { wrapperContained.frontView = value; }
+// // public Perspective(java.lang.String firstPerson,int frontView) { this.wrapperContained = new net.minecraft.client.option.Perspective(firstPerson,frontView); }
 public boolean isFirstPerson() { return wrapperContained.isFirstPerson(); }
 public boolean isFrontView() { return wrapperContained.isFrontView(); }
 public yarnwrap.client.option.Perspective next() { return new yarnwrap.client.option.Perspective(wrapperContained.next()); }

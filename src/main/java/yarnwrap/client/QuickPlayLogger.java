@@ -11,6 +11,8 @@ public class QuickPlayLogger { public net.minecraft.client.QuickPlayLogger wrapp
 // public void path(java.nio.file.Path value) { wrapperContained.path = value; }
 // public Object world() { return wrapperContained.world; }
 // // public void world(Object value) { wrapperContained.world = value; }
+// public QuickPlayLogger(java.lang.String relativePath) { this.wrapperContained = new net.minecraft.client.QuickPlayLogger(relativePath); }
+// public void method_51264(com.google.gson.JsonElement json) { wrapperContained.method_51264(json); }
 public void save(yarnwrap.client.MinecraftClient client) { wrapperContained.save(client.wrapperContained); }
 // public void setWorld(Object worldType,java.lang.String id,java.lang.String name) { wrapperContained.setWorld(worldType,id,name); }
 public yarnwrap.client.QuickPlayLogger create(java.lang.String relativePath) { return new yarnwrap.client.QuickPlayLogger(wrapperContained.create(relativePath)); }

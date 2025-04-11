@@ -11,6 +11,7 @@ public class BoundedRegionArray { public net.minecraft.util.collection.BoundedRe
 // public void maxZ(int value) { wrapperContained.maxZ = value; }
 // public java.lang.Object[] array() { return wrapperContained.array; }
 // public void array(java.lang.Object[] value) { wrapperContained.array = value; }
+// public BoundedRegionArray(int minX,int minZ,int maxX,int maxZ,Object getter) { this.wrapperContained = new net.minecraft.util.collection.BoundedRegionArray(minX,minZ,maxX,maxZ,getter); }
 public java.lang.Object get(int x,int z) { return wrapperContained.get(x,z); }
 // public yarnwrap.util.collection.BoundedRegionArray create(int centerX,int centerZ,int radius,Object getter) { return new yarnwrap.util.collection.BoundedRegionArray(wrapperContained.create(centerX,centerZ,radius,getter)); }
 public void forEach(java.util.function.Consumer callback) { wrapperContained.forEach(callback); }

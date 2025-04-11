@@ -15,6 +15,7 @@ public void active(boolean value) { wrapperContained.active = value; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 public java.util.function.Supplier DEFAULT_CHANNEL() { return wrapperContained.DEFAULT_CHANNEL; }
 // public void DEFAULT_CHANNEL(java.util.function.Supplier value) { wrapperContained.DEFAULT_CHANNEL = value; }
+public ServerNetworkIo(yarnwrap.server.MinecraftServer server) { this.wrapperContained = new net.minecraft.server.ServerNetworkIo(server.wrapperContained); }
 public yarnwrap.server.MinecraftServer getServer() { return new yarnwrap.server.MinecraftServer(wrapperContained.getServer()); }
 public java.net.SocketAddress bindLocal() { return wrapperContained.bindLocal(); }
 // public void bind(java.net.InetAddress address,int port) { wrapperContained.bind(address,port); }

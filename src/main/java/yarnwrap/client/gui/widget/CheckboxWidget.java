@@ -17,6 +17,7 @@ public class CheckboxWidget { public net.minecraft.client.gui.widget.CheckboxWid
 // // public void callback(Object value) { wrapperContained.callback = value; }
 // public yarnwrap.client.gui.widget.MultilineTextWidget textWidget() { return new yarnwrap.client.gui.widget.MultilineTextWidget(wrapperContained.textWidget); }
 // public void textWidget(yarnwrap.client.gui.widget.MultilineTextWidget value) { wrapperContained.textWidget = value.wrapperContained; }
+// public CheckboxWidget(int x,int y,int maxWidth,yarnwrap.text.Text message,yarnwrap.client.font.TextRenderer textRenderer,boolean checked,Object callback) { this.wrapperContained = new net.minecraft.client.gui.widget.CheckboxWidget(x,y,maxWidth,message.wrapperContained,textRenderer.wrapperContained,checked,callback); }
 public boolean isChecked() { return wrapperContained.isChecked(); }
 public int getCheckboxSize(yarnwrap.client.font.TextRenderer textRenderer) { return wrapperContained.getCheckboxSize(textRenderer.wrapperContained); }
 public Object builder(yarnwrap.text.Text text,yarnwrap.client.font.TextRenderer textRenderer) { return wrapperContained.builder(text.wrapperContained,textRenderer.wrapperContained); }

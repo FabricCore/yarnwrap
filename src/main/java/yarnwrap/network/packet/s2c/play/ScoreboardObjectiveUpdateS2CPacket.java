@@ -19,6 +19,8 @@ public int UPDATE_MODE() { return wrapperContained.UPDATE_MODE; }
 // public void numberFormat(java.util.Optional value) { wrapperContained.numberFormat = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public ScoreboardObjectiveUpdateS2CPacket(yarnwrap.scoreboard.ScoreboardObjective objective,int mode) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ScoreboardObjectiveUpdateS2CPacket(objective.wrapperContained,mode); }
+// public ScoreboardObjectiveUpdateS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ScoreboardObjectiveUpdateS2CPacket(buf.wrapperContained); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 public yarnwrap.text.Text getDisplayName() { return new yarnwrap.text.Text(wrapperContained.getDisplayName()); }
 public int getMode() { return wrapperContained.getMode(); }

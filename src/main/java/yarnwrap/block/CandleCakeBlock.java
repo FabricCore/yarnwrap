@@ -17,8 +17,12 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 // public yarnwrap.block.CandleBlock candle() { return new yarnwrap.block.CandleBlock(wrapperContained.candle); }
 // public void candle(yarnwrap.block.CandleBlock value) { wrapperContained.candle = value.wrapperContained; }
+// public CandleCakeBlock(yarnwrap.block.Block candle,Object settings) { this.wrapperContained = new net.minecraft.block.CandleCakeBlock(candle.wrapperContained,settings); }
 public yarnwrap.block.BlockState getCandleCakeFromCandle(yarnwrap.block.CandleBlock candle) { return new yarnwrap.block.BlockState(wrapperContained.getCandleCakeFromCandle(candle.wrapperContained)); }
+// public boolean method_31633(yarnwrap.block.BlockState statex) { return wrapperContained.method_31633(statex.wrapperContained); }
 // public boolean isHittingCandle(yarnwrap.util.hit.BlockHitResult hitResult) { return wrapperContained.isHittingCandle(hitResult.wrapperContained); }
 public boolean canBeLit(yarnwrap.block.BlockState state) { return wrapperContained.canBeLit(state.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53989(Object instance) { return wrapperContained.method_53989(instance); }
+// public yarnwrap.block.Block method_53990(yarnwrap.block.CandleCakeBlock block) { return new yarnwrap.block.Block(wrapperContained.method_53990(block.wrapperContained)); }
 
 }

@@ -9,6 +9,8 @@ public com.mojang.serialization.Codec LIST_CODEC() { return wrapperContained.LIS
 public void LIST_CODEC(com.mojang.serialization.Codec value) { wrapperContained.LIST_CODEC = value; }
 // public com.google.common.collect.BiMap SOURCE_TYPE_BY_ID() { return wrapperContained.SOURCE_TYPE_BY_ID; }
 // public void SOURCE_TYPE_BY_ID(com.google.common.collect.BiMap value) { wrapperContained.SOURCE_TYPE_BY_ID = value; }
+// public com.mojang.serialization.DataResult method_47677(yarnwrap.util.Identifier id) { return wrapperContained.method_47677(id.wrapperContained); }
+// public com.mojang.serialization.DataResult method_47679(yarnwrap.client.texture.atlas.AtlasSourceType type) { return wrapperContained.method_47679(type.wrapperContained); }
 // public yarnwrap.client.texture.atlas.AtlasSourceType register(java.lang.String id,com.mojang.serialization.MapCodec codec) { return new yarnwrap.client.texture.atlas.AtlasSourceType(wrapperContained.register(id,codec)); }
 
 }

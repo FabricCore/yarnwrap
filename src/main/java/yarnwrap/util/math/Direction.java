@@ -29,7 +29,10 @@ public java.util.function.IntFunction ID_TO_VALUE_FUNCTION() { return wrapperCon
 // public void ID_TO_VALUE_FUNCTION(java.util.function.IntFunction value) { wrapperContained.ID_TO_VALUE_FUNCTION = value; }
 public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+// // public Direction(java.lang.String id,int idOpposite,int idHorizontal,int name,int direction,java.lang.String axis,Object vector) { this.wrapperContained = new net.minecraft.util.math.Direction(id,idOpposite,idHorizontal,name,direction,axis,vector); }
 public yarnwrap.util.math.Direction fromHorizontal(int value) { return new yarnwrap.util.math.Direction(wrapperContained.fromHorizontal(value)); }
+// public int method_10140(yarnwrap.util.math.Direction direction) { return wrapperContained.method_10140(direction.wrapperContained); }
+// public int method_10141(yarnwrap.util.math.Direction direction) { return wrapperContained.method_10141(direction.wrapperContained); }
 public yarnwrap.util.math.Direction getFacing(double x,double y,double z) { return new yarnwrap.util.math.Direction(wrapperContained.getFacing(x,y,z)); }
 public yarnwrap.util.math.Direction byId(int id) { return new yarnwrap.util.math.Direction(wrapperContained.byId(id)); }
 public float asRotation() { return wrapperContained.asRotation(); }
@@ -40,6 +43,7 @@ public int getOffsetX() { return wrapperContained.getOffsetX(); }
 public yarnwrap.util.math.Direction fromRotation(double rotation) { return new yarnwrap.util.math.Direction(wrapperContained.fromRotation(rotation)); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 public yarnwrap.util.math.Direction getOpposite() { return new yarnwrap.util.math.Direction(wrapperContained.getOpposite()); }
+// public boolean method_10155(yarnwrap.util.math.Direction direction) { return wrapperContained.method_10155(direction.wrapperContained); }
 // public yarnwrap.util.math.Direction get(Object direction,Object axis) { return new yarnwrap.util.math.Direction(wrapperContained.get(direction,axis)); }
 public net.minecraft.util.math.Direction[] getEntityFacingOrder(yarnwrap.entity.Entity entity) { return wrapperContained.getEntityFacingOrder(entity.wrapperContained); }
 public yarnwrap.util.math.Direction rotateYCounterclockwise() { return new yarnwrap.util.math.Direction(wrapperContained.rotateYCounterclockwise()); }

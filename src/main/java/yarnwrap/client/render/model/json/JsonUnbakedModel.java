@@ -29,6 +29,7 @@ public void id(java.lang.String value) { wrapperContained.id = value; }
 // public void GSON(com.google.gson.Gson value) { wrapperContained.GSON = value; }
 // public java.util.List overrides() { return wrapperContained.overrides; }
 // public void overrides(java.util.List value) { wrapperContained.overrides = value; }
+// public JsonUnbakedModel(yarnwrap.util.Identifier parentId,java.util.List elements,java.util.Map textureMap,java.lang.Boolean ambientOcclusion,Object guiLight,yarnwrap.client.render.model.json.ModelTransformation transformations,java.util.List overrides) { this.wrapperContained = new net.minecraft.client.render.model.json.JsonUnbakedModel(parentId.wrapperContained,elements,textureMap,ambientOcclusion,guiLight,transformations.wrapperContained,overrides); }
 public yarnwrap.client.util.SpriteIdentifier resolveSprite(java.lang.String spriteName) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.resolveSprite(spriteName)); }
 public Object getGuiLight() { return wrapperContained.getGuiLight(); }
 public yarnwrap.client.render.model.json.JsonUnbakedModel deserialize(java.lang.String json) { return new yarnwrap.client.render.model.json.JsonUnbakedModel(wrapperContained.deserialize(json)); }
@@ -46,5 +47,6 @@ public boolean useAmbientOcclusion() { return wrapperContained.useAmbientOcclusi
 // public yarnwrap.client.render.model.BakedModel bake(yarnwrap.client.render.model.Baker baker,yarnwrap.client.render.model.json.JsonUnbakedModel parent,java.util.function.Function textureGetter,yarnwrap.client.render.model.ModelBakeSettings settings) { return new yarnwrap.client.render.model.BakedModel(wrapperContained.bake(baker.wrapperContained,parent.wrapperContained,textureGetter,settings.wrapperContained)); }
 // public yarnwrap.client.render.model.BakedQuad createQuad(yarnwrap.client.render.model.json.ModelElement element,yarnwrap.client.render.model.json.ModelElementFace elementFace,yarnwrap.client.texture.Sprite sprite,yarnwrap.util.math.Direction side,yarnwrap.client.render.model.ModelBakeSettings settings) { return new yarnwrap.client.render.model.BakedQuad(wrapperContained.createQuad(element.wrapperContained,elementFace.wrapperContained,sprite.wrapperContained,side.wrapperContained,settings.wrapperContained)); }
 public boolean needsResolution() { return wrapperContained.needsResolution(); }
+// public void method_45786(java.util.function.Function override) { wrapperContained.method_45786(override); }
 
 }

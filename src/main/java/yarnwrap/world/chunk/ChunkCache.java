@@ -13,6 +13,7 @@ public class ChunkCache { public net.minecraft.world.chunk.ChunkCache wrapperCon
 // public void chunks(net.minecraft.world.chunk.Chunk[][] value) { wrapperContained.chunks = value; }
 // public yarnwrap.world.World world() { return new yarnwrap.world.World(wrapperContained.world); }
 // public void world(yarnwrap.world.World value) { wrapperContained.world = value.wrapperContained; }
+public ChunkCache(yarnwrap.world.World world,yarnwrap.util.math.BlockPos minPos,yarnwrap.util.math.BlockPos maxPos) { this.wrapperContained = new net.minecraft.world.chunk.ChunkCache(world.wrapperContained,minPos.wrapperContained,maxPos.wrapperContained); }
 // public yarnwrap.world.chunk.Chunk getChunk(int chunkX,int chunkZ) { return new yarnwrap.world.chunk.Chunk(wrapperContained.getChunk(chunkX,chunkZ)); }
 // public yarnwrap.world.chunk.Chunk getChunk(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.world.chunk.Chunk(wrapperContained.getChunk(pos.wrapperContained)); }
 public yarnwrap.util.profiler.Profiler getProfiler() { return new yarnwrap.util.profiler.Profiler(wrapperContained.getProfiler()); }

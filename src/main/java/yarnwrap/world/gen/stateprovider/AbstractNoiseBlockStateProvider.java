@@ -9,6 +9,7 @@ public class AbstractNoiseBlockStateProvider { public net.minecraft.world.gen.st
 // public void scale(float value) { wrapperContained.scale = value; }
 // public yarnwrap.util.math.noise.DoublePerlinNoiseSampler noiseSampler() { return new yarnwrap.util.math.noise.DoublePerlinNoiseSampler(wrapperContained.noiseSampler); }
 // public void noiseSampler(yarnwrap.util.math.noise.DoublePerlinNoiseSampler value) { wrapperContained.noiseSampler = value.wrapperContained; }
+// public AbstractNoiseBlockStateProvider(long seed,Object noiseParameters,float scale) { this.wrapperContained = new net.minecraft.world.gen.stateprovider.AbstractNoiseBlockStateProvider(seed,noiseParameters,scale); }
 // public Object fillCodecFields(Object instance) { return wrapperContained.fillCodecFields(instance); }
 // public double getNoiseValue(yarnwrap.util.math.BlockPos pos,double scale) { return wrapperContained.getNoiseValue(pos.wrapperContained,scale); }
 

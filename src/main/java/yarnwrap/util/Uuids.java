@@ -22,9 +22,13 @@ public com.mojang.serialization.Codec LINKED_SET_CODEC() { return wrapperContain
 // public int[] toIntArray(long uuidMost,long uuidLeast) { return wrapperContained.toIntArray(uuidMost,uuidLeast); }
 public int[] toIntArray(java.util.UUID uuid) { return wrapperContained.toIntArray(uuid); }
 // public java.util.UUID toUuid(int array) { return wrapperContained.toUuid(array); }
+// public com.mojang.serialization.DataResult method_29122(java.util.stream.IntStream uuidStream) { return wrapperContained.method_29122(uuidStream); }
+// public java.util.stream.IntStream method_29727(java.util.UUID uuid) { return wrapperContained.method_29727(uuid); }
 public java.util.UUID toUuid(com.mojang.serialization.Dynamic dynamic) { return wrapperContained.toUuid(dynamic); }
 public java.util.UUID getOfflinePlayerUuid(java.lang.String nickname) { return wrapperContained.getOfflinePlayerUuid(nickname); }
 public byte[] toByteArray(java.util.UUID uuid) { return wrapperContained.toByteArray(uuid); }
+// public com.mojang.serialization.DataResult method_46560(java.lang.String string) { return wrapperContained.method_46560(string); }
+// public com.mojang.serialization.DataResult method_47804(java.lang.String string) { return wrapperContained.method_47804(string); }
 public com.mojang.authlib.GameProfile getOfflinePlayerProfile(java.lang.String nickname) { return wrapperContained.getOfflinePlayerProfile(nickname); }
 
 }

@@ -11,6 +11,8 @@ public class AbstractFurnaceScreenHandler { public net.minecraft.screen.Abstract
 // public void world(yarnwrap.world.World value) { wrapperContained.world = value.wrapperContained; }
 // public yarnwrap.inventory.Inventory inventory() { return new yarnwrap.inventory.Inventory(wrapperContained.inventory); }
 // public void inventory(yarnwrap.inventory.Inventory value) { wrapperContained.inventory = value.wrapperContained; }
+// public AbstractFurnaceScreenHandler(yarnwrap.screen.ScreenHandlerType type,yarnwrap.recipe.RecipeType recipeType,yarnwrap.recipe.book.RecipeBookCategory category,int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.AbstractFurnaceScreenHandler(type.wrapperContained,recipeType.wrapperContained,category.wrapperContained,syncId,playerInventory.wrapperContained); }
+// public AbstractFurnaceScreenHandler(yarnwrap.screen.ScreenHandlerType type,yarnwrap.recipe.RecipeType recipeType,yarnwrap.recipe.book.RecipeBookCategory category,int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.inventory.Inventory inventory,yarnwrap.screen.PropertyDelegate propertyDelegate) { this.wrapperContained = new net.minecraft.screen.AbstractFurnaceScreenHandler(type.wrapperContained,recipeType.wrapperContained,category.wrapperContained,syncId,playerInventory.wrapperContained,inventory.wrapperContained,propertyDelegate.wrapperContained); }
 // public boolean isFuel(yarnwrap.item.ItemStack itemStack) { return wrapperContained.isFuel(itemStack.wrapperContained); }
 public float getCookProgress() { return wrapperContained.getCookProgress(); }
 public float getFuelProgress() { return wrapperContained.getFuelProgress(); }

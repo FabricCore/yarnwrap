@@ -13,6 +13,7 @@ public class RaftEntityModel { public net.minecraft.client.render.entity.model.R
 // public void rightPaddle(yarnwrap.client.model.ModelPart value) { wrapperContained.rightPaddle = value.wrapperContained; }
 // public com.google.common.collect.ImmutableList parts() { return wrapperContained.parts; }
 // public void parts(com.google.common.collect.ImmutableList value) { wrapperContained.parts = value; }
+public RaftEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.RaftEntityModel(root.wrapperContained); }
 // public Object getParts(yarnwrap.client.model.ModelPart root) { return wrapperContained.getParts(root.wrapperContained); }
 // public void setPaddleAngle(yarnwrap.entity.vehicle.BoatEntity entity,int sigma,yarnwrap.client.model.ModelPart part,float angle) { wrapperContained.setPaddleAngle(entity.wrapperContained,sigma,part.wrapperContained,angle); }
 public void addParts(yarnwrap.client.model.ModelPartData modelPartData) { wrapperContained.addParts(modelPartData.wrapperContained); }

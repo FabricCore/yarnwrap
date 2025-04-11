@@ -31,7 +31,10 @@ public class RealmsBackupScreen { public net.minecraft.client.realms.gui.screen.
 // public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
 // public yarnwrap.text.Text DOWNLOAD_TEXT() { return new yarnwrap.text.Text(wrapperContained.DOWNLOAD_TEXT); }
 // public void DOWNLOAD_TEXT(yarnwrap.text.Text value) { wrapperContained.DOWNLOAD_TEXT = value.wrapperContained; }
+public RealmsBackupScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen parent,yarnwrap.client.realms.dto.RealmsServer serverData,int slotId) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsBackupScreen(parent.wrapperContained,serverData.wrapperContained,slotId); }
 // public void downloadClicked() { wrapperContained.downloadClicked(); }
+// public void method_25110(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25110(button.wrapperContained); }
+// public void method_25113(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25113(button.wrapperContained); }
 // public void startBackupFetcher() { wrapperContained.startBackupFetcher(); }
 
 }

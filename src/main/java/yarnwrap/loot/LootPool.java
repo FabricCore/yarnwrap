@@ -17,9 +17,17 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void rolls(yarnwrap.loot.provider.number.LootNumberProvider value) { wrapperContained.rolls = value.wrapperContained; }
 // public yarnwrap.loot.provider.number.LootNumberProvider bonusRolls() { return new yarnwrap.loot.provider.number.LootNumberProvider(wrapperContained.bonusRolls); }
 // public void bonusRolls(yarnwrap.loot.provider.number.LootNumberProvider value) { wrapperContained.bonusRolls = value.wrapperContained; }
+// public LootPool(java.util.List entries,java.util.List conditions,java.util.List functions,yarnwrap.loot.provider.number.LootNumberProvider rolls,yarnwrap.loot.provider.number.LootNumberProvider bonusRolls) { this.wrapperContained = new net.minecraft.loot.LootPool(entries,conditions,functions,rolls.wrapperContained,bonusRolls.wrapperContained); }
 public void addGeneratedLoot(java.util.function.Consumer lootConsumer,yarnwrap.loot.context.LootContext context) { wrapperContained.addGeneratedLoot(lootConsumer,context.wrapperContained); }
+// public void method_342(yarnwrap.loot.context.LootContext choice) { wrapperContained.method_342(choice.wrapperContained); }
 // public void supplyOnce(java.util.function.Consumer lootConsumer,yarnwrap.loot.context.LootContext context) { wrapperContained.supplyOnce(lootConsumer,context.wrapperContained); }
 public Object builder() { return wrapperContained.builder(); }
 public void validate(yarnwrap.loot.LootTableReporter reporter) { wrapperContained.validate(reporter.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53268(Object instance) { return wrapperContained.method_53268(instance); }
+// public yarnwrap.loot.provider.number.LootNumberProvider method_53269(yarnwrap.loot.LootPool pool) { return new yarnwrap.loot.provider.number.LootNumberProvider(wrapperContained.method_53269(pool.wrapperContained)); }
+// public yarnwrap.loot.provider.number.LootNumberProvider method_53270(yarnwrap.loot.LootPool pool) { return new yarnwrap.loot.provider.number.LootNumberProvider(wrapperContained.method_53270(pool.wrapperContained)); }
+// public java.util.List method_53271(yarnwrap.loot.LootPool pool) { return wrapperContained.method_53271(pool.wrapperContained); }
+// public java.util.List method_53272(yarnwrap.loot.LootPool pool) { return wrapperContained.method_53272(pool.wrapperContained); }
+// public java.util.List method_53273(yarnwrap.loot.LootPool pool) { return wrapperContained.method_53273(pool.wrapperContained); }
 
 }

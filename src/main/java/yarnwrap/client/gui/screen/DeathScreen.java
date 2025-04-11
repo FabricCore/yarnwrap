@@ -15,8 +15,12 @@ public class DeathScreen { public net.minecraft.client.gui.screen.DeathScreen wr
 // public void titleScreenButton(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.titleScreenButton = value.wrapperContained; }
 // public yarnwrap.util.Identifier DRAFT_REPORT_ICON_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.DRAFT_REPORT_ICON_TEXTURE); }
 // public void DRAFT_REPORT_ICON_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.DRAFT_REPORT_ICON_TEXTURE = value.wrapperContained; }
+public DeathScreen(yarnwrap.text.Text message,boolean isHardcore) { this.wrapperContained = new net.minecraft.client.gui.screen.DeathScreen(message.wrapperContained,isHardcore); }
+// public void method_19809(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19809(button.wrapperContained); }
 // public yarnwrap.text.Style getTextComponentUnderMouse(int mouseX) { return new yarnwrap.text.Style(wrapperContained.getTextComponentUnderMouse(mouseX)); }
 // public void quitLevel() { wrapperContained.quitLevel(); }
+// public void method_47938(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_47938(button.wrapperContained); }
+// public void method_47939(boolean confirmed) { wrapperContained.method_47939(confirmed); }
 // public void onTitleScreenButtonClicked() { wrapperContained.onTitleScreenButtonClicked(); }
 // public void setButtonsActive(boolean active) { wrapperContained.setButtonsActive(active); }
 // public void fillBackgroundGradient(yarnwrap.client.gui.DrawContext context,int width,int height) { wrapperContained.fillBackgroundGradient(context.wrapperContained,width,height); }

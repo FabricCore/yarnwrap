@@ -21,6 +21,7 @@ public int MAX_BLOCK_LIGHT_COORDINATE() { return wrapperContained.MAX_BLOCK_LIGH
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
 // public yarnwrap.client.texture.NativeImageBackedTexture texture() { return new yarnwrap.client.texture.NativeImageBackedTexture(wrapperContained.texture); }
 // public void texture(yarnwrap.client.texture.NativeImageBackedTexture value) { wrapperContained.texture = value.wrapperContained; }
+public LightmapTextureManager(yarnwrap.client.render.GameRenderer renderer,yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.LightmapTextureManager(renderer.wrapperContained,client.wrapperContained); }
 public float getBrightness(yarnwrap.world.dimension.DimensionType type,int lightLevel) { return wrapperContained.getBrightness(type.wrapperContained,lightLevel); }
 public int pack(int block,int sky) { return wrapperContained.pack(block,sky); }
 // public float easeOutQuart(float x) { return wrapperContained.easeOutQuart(x); }

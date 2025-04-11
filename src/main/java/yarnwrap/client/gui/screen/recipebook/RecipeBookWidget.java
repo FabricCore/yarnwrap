@@ -51,8 +51,13 @@ public yarnwrap.client.gui.screen.ButtonTextures BUTTON_TEXTURES() { return new 
 // public void FILTER_BUTTON_TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value) { wrapperContained.FILTER_BUTTON_TEXTURES = value.wrapperContained; }
 // public yarnwrap.text.Text getToggleCraftableButtonText() { return new yarnwrap.text.Text(wrapperContained.getToggleCraftableButtonText()); }
 // public void triggerPirateSpeakEasterEgg(java.lang.String search) { wrapperContained.triggerPirateSpeakEasterEgg(search); }
+// public void method_2577(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection) { wrapperContained.method_2577(resultCollection.wrapperContained); }
 public void reset() { wrapperContained.reset(); }
+// public boolean method_2580(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection) { return wrapperContained.method_2580(resultCollection.wrapperContained); }
 public void drawGhostSlots(yarnwrap.client.gui.DrawContext context,int x,int y,boolean notInventory,float delta) { wrapperContained.drawGhostSlots(context.wrapperContained,x,y,notInventory,delta); }
+// public boolean method_2582(yarnwrap.client.gui.screen.recipebook.RecipeGroupButtonWidget button) { return wrapperContained.method_2582(button.wrapperContained); }
+// public boolean method_2583(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection) { return wrapperContained.method_2583(resultCollection.wrapperContained); }
+// public boolean method_2584(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection) { return wrapperContained.method_2584(resultCollection.wrapperContained); }
 // public void setBookButtonTexture() { wrapperContained.setBookButtonTexture(); }
 // public void refreshSearchResults() { wrapperContained.refreshSearchResults(); }
 // public void refreshInputs() { wrapperContained.refreshInputs(); }
@@ -74,6 +79,8 @@ public void drawTooltip(yarnwrap.client.gui.DrawContext context,int x,int y,int 
 public boolean isOpen() { return wrapperContained.isOpen(); }
 // public void refreshTabButtons() { wrapperContained.refreshTabButtons(); }
 // public boolean isGuiOpen() { return wrapperContained.isGuiOpen(); }
+// public void method_37308(java.util.List button) { wrapperContained.method_37308(button); }
 // public void updateTooltip() { wrapperContained.updateTooltip(); }
+// public boolean method_53871(it.unimi.dsi.fastutil.objects.ObjectSet resultCollection) { return wrapperContained.method_53871(resultCollection); }
 
 }

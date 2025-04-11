@@ -263,5 +263,7 @@ public yarnwrap.state.property.EnumProperty VAULT_STATE() { return new yarnwrap.
 // public void VAULT_STATE(yarnwrap.state.property.EnumProperty value) { wrapperContained.VAULT_STATE = value.wrapperContained; }
 public yarnwrap.state.property.BooleanProperty OMINOUS() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.OMINOUS); }
 // public void OMINOUS(yarnwrap.state.property.BooleanProperty value) { wrapperContained.OMINOUS = value.wrapperContained; }
+// public boolean method_11813(yarnwrap.block.enums.RailShape shape) { return wrapperContained.method_11813(shape.wrapperContained); }
+// public boolean method_11814(yarnwrap.util.math.Direction facing) { return wrapperContained.method_11814(facing.wrapperContained); }
 
 }

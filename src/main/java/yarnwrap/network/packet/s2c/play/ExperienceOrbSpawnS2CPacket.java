@@ -13,6 +13,8 @@ public class ExperienceOrbSpawnS2CPacket { public net.minecraft.network.packet.s
 // public void entityId(int value) { wrapperContained.entityId = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public ExperienceOrbSpawnS2CPacket(yarnwrap.entity.ExperienceOrbEntity orb,yarnwrap.server.network.EntityTrackerEntry entry) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ExperienceOrbSpawnS2CPacket(orb.wrapperContained,entry.wrapperContained); }
+// public ExperienceOrbSpawnS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ExperienceOrbSpawnS2CPacket(buf.wrapperContained); }
 public double getZ() { return wrapperContained.getZ(); }
 public double getY() { return wrapperContained.getY(); }
 public int getEntityId() { return wrapperContained.getEntityId(); }

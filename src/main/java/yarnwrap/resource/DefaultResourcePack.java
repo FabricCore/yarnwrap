@@ -13,8 +13,14 @@ public class DefaultResourcePack { public net.minecraft.resource.DefaultResource
 // public void namespacePaths(java.util.Map value) { wrapperContained.namespacePaths = value; }
 // public yarnwrap.resource.ResourcePackInfo info() { return new yarnwrap.resource.ResourcePackInfo(wrapperContained.info); }
 // public void info(yarnwrap.resource.ResourcePackInfo value) { wrapperContained.info = value.wrapperContained; }
+// public DefaultResourcePack(yarnwrap.resource.ResourcePackInfo info,yarnwrap.resource.metadata.ResourceMetadataMap metadata,java.util.Set namespaces,java.util.List rootPaths,java.util.Map namespacePaths) { this.wrapperContained = new net.minecraft.resource.DefaultResourcePack(info.wrapperContained,metadata.wrapperContained,namespaces,rootPaths,namespacePaths); }
 // public void collectIdentifiers(Object consumer,java.lang.String namespace,java.nio.file.Path root,java.util.List prefixSegments) { wrapperContained.collectIdentifiers(consumer,namespace,root,prefixSegments); }
 public yarnwrap.resource.ResourceFactory getFactory() { return new yarnwrap.resource.ResourceFactory(wrapperContained.getFactory()); }
+// public java.util.Optional method_45188(yarnwrap.util.Identifier id) { return wrapperContained.method_45188(id.wrapperContained); }
+// public yarnwrap.resource.InputSupplier method_45189(yarnwrap.util.Identifier segments) { return new yarnwrap.resource.InputSupplier(wrapperContained.method_45189(segments.wrapperContained)); }
+// public void method_45190(yarnwrap.util.Identifier segments) { wrapperContained.method_45190(segments.wrapperContained); }
 public void forEachNamespacedPath(yarnwrap.resource.ResourceType type,yarnwrap.util.Identifier path,java.util.function.Consumer consumer) { wrapperContained.forEachNamespacedPath(type.wrapperContained,path.wrapperContained,consumer); }
+// public void method_45193(yarnwrap.resource.ResourceType segments) { wrapperContained.method_45193(segments.wrapperContained); }
+// public yarnwrap.resource.Resource method_45194(yarnwrap.resource.InputSupplier stream) { return new yarnwrap.resource.Resource(wrapperContained.method_45194(stream.wrapperContained)); }
 
 }

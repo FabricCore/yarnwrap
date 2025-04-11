@@ -13,7 +13,13 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 // public org.joml.Vector3f fromColor() { return wrapperContained.fromColor; }
 // public void fromColor(org.joml.Vector3f value) { wrapperContained.fromColor = value; }
+public DustColorTransitionParticleEffect(org.joml.Vector3f fromColor,org.joml.Vector3f toColor,float scale) { this.wrapperContained = new net.minecraft.particle.DustColorTransitionParticleEffect(fromColor,toColor,scale); }
+// public com.mojang.datafixers.kinds.App method_33107(Object instance) { return wrapperContained.method_33107(instance); }
+// public org.joml.Vector3f method_33109(yarnwrap.particle.DustColorTransitionParticleEffect effect) { return wrapperContained.method_33109(effect.wrapperContained); }
 public org.joml.Vector3f getFromColor() { return wrapperContained.getFromColor(); }
+// public org.joml.Vector3f method_33111(yarnwrap.particle.DustColorTransitionParticleEffect effect) { return wrapperContained.method_33111(effect.wrapperContained); }
 public org.joml.Vector3f getToColor() { return wrapperContained.getToColor(); }
+// public org.joml.Vector3f method_56172(yarnwrap.particle.DustColorTransitionParticleEffect effect) { return wrapperContained.method_56172(effect.wrapperContained); }
+// public org.joml.Vector3f method_56173(yarnwrap.particle.DustColorTransitionParticleEffect effect) { return wrapperContained.method_56173(effect.wrapperContained); }
 
 }

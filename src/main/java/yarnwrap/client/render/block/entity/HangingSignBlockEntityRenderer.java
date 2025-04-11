@@ -25,6 +25,7 @@ public class HangingSignBlockEntityRenderer { public net.minecraft.client.render
 // public void TEXT_SCALE(float value) { wrapperContained.TEXT_SCALE = value; }
 // public yarnwrap.util.math.Vec3d TEXT_OFFSET() { return new yarnwrap.util.math.Vec3d(wrapperContained.TEXT_OFFSET); }
 // public void TEXT_OFFSET(yarnwrap.util.math.Vec3d value) { wrapperContained.TEXT_OFFSET = value.wrapperContained; }
+// public Object method_45794(Object type) { return wrapperContained.method_45794(type); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

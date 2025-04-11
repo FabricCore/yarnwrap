@@ -7,6 +7,8 @@ public yarnwrap.util.thread.ExecutorSampling INSTANCE() { return new yarnwrap.ut
 // public void activeExecutors(java.util.WeakHashMap value) { wrapperContained.activeExecutors = value; }
 public void add(yarnwrap.util.thread.SampleableExecutor executor) { wrapperContained.add(executor.wrapperContained); }
 public java.util.List createSamplers() { return wrapperContained.createSamplers(); }
+// public yarnwrap.util.profiler.Sampler method_37179(Object entry) { return new yarnwrap.util.profiler.Sampler(wrapperContained.method_37179(entry)); }
 // public java.util.List mergeSimilarSamplers(java.util.Map samplers) { return wrapperContained.mergeSimilarSamplers(samplers); }
+// public java.util.stream.Stream method_37181(yarnwrap.util.thread.SampleableExecutor executor) { return wrapperContained.method_37181(executor.wrapperContained); }
 
 }

@@ -21,6 +21,7 @@ public class EditBoxWidget { public net.minecraft.client.gui.widget.EditBoxWidge
 // public void CURSOR_BLINK_INTERVAL(int value) { wrapperContained.CURSOR_BLINK_INTERVAL = value; }
 // public long lastSwitchFocusTime() { return wrapperContained.lastSwitchFocusTime; }
 // public void lastSwitchFocusTime(long value) { wrapperContained.lastSwitchFocusTime = value; }
+public EditBoxWidget(yarnwrap.client.font.TextRenderer textRenderer,int x,int y,int width,int height,yarnwrap.text.Text placeholder,yarnwrap.text.Text message) { this.wrapperContained = new net.minecraft.client.gui.widget.EditBoxWidget(textRenderer.wrapperContained,x,y,width,height,placeholder.wrapperContained,message.wrapperContained); }
 public void setText(java.lang.String text) { wrapperContained.setText(text); }
 public void setChangeListener(java.util.function.Consumer changeListener) { wrapperContained.setChangeListener(changeListener); }
 public void setMaxLength(int maxLength) { wrapperContained.setMaxLength(maxLength); }

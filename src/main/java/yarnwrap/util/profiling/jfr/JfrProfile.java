@@ -40,7 +40,10 @@ public class JfrProfile { public net.minecraft.util.profiling.jfr.JfrProfile wra
 // public java.util.List serverTickTimeSamples() { return wrapperContained.serverTickTimeSamples(); }
 // public java.util.List cpuLoadSamples() { return wrapperContained.cpuLoadSamples(); }
 // public Object gcHeapSummaryStatistics() { return wrapperContained.gcHeapSummaryStatistics(); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public java.util.List getChunkGenerationSampleStatistics() { return wrapperContained.getChunkGenerationSampleStatistics(); }
+// public java.time.Duration method_38007(com.mojang.datafixers.util.Pair pair) { return wrapperContained.method_38007(pair); }
+// public com.mojang.datafixers.util.Pair method_38008(Object entry) { return wrapperContained.method_38008(entry); }
 public java.lang.String toJson() { return wrapperContained.toJson(); }
 
 }

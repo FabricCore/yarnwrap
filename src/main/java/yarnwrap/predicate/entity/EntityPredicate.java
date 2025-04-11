@@ -15,8 +15,11 @@ public com.mojang.serialization.Codec LOOT_CONTEXT_PREDICATE_CODEC() { return wr
 // public java.util.Optional distance() { return wrapperContained.distance(); }
 // public java.util.Optional typeSpecific() { return wrapperContained.typeSpecific(); }
 public yarnwrap.loot.context.LootContext createAdvancementEntityLootContext(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.entity.Entity target) { return new yarnwrap.loot.context.LootContext(wrapperContained.createAdvancementEntityLootContext(player.wrapperContained,target.wrapperContained)); }
+// public boolean method_37227(yarnwrap.server.world.ServerWorld entityx) { return wrapperContained.method_37227(entityx.wrapperContained); }
 public yarnwrap.predicate.entity.LootContextPredicate asLootContextPredicate(yarnwrap.predicate.entity.EntityPredicate predicate) { return new yarnwrap.predicate.entity.LootContextPredicate(wrapperContained.asLootContextPredicate(predicate.wrapperContained)); }
 // public yarnwrap.predicate.entity.LootContextPredicate contextPredicateFromEntityPredicate(Object builder) { return new yarnwrap.predicate.entity.LootContextPredicate(wrapperContained.contextPredicateFromEntityPredicate(builder)); }
+// public com.mojang.serialization.Codec method_53135(com.mojang.serialization.Codec entityPredicateCodec) { return wrapperContained.method_53135(entityPredicateCodec); }
+// public com.mojang.datafixers.kinds.App method_53136(com.mojang.serialization.Codec instance) { return wrapperContained.method_53136(instance); }
 public java.util.Optional contextPredicateFromEntityPredicate(java.util.Optional entityPredicate) { return wrapperContained.contextPredicateFromEntityPredicate(entityPredicate); }
 // public java.util.List contextPredicateFromEntityPredicates(Object[] builders) { return wrapperContained.contextPredicateFromEntityPredicates(builders); }
 public boolean test(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.entity.Entity entity) { return wrapperContained.test(world.wrapperContained,pos.wrapperContained,entity.wrapperContained); }

@@ -7,6 +7,7 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 // public yarnwrap.text.Text TOOLTIP_TEXT() { return new yarnwrap.text.Text(wrapperContained.TOOLTIP_TEXT); }
 // public void TOOLTIP_TEXT(yarnwrap.text.Text value) { wrapperContained.TOOLTIP_TEXT = value.wrapperContained; }
+// public com.mojang.datafixers.kinds.App method_57515(Object instance) { return wrapperContained.method_57515(instance); }
 public yarnwrap.component.type.UnbreakableComponent withShowInTooltip(boolean showInTooltip) { return new yarnwrap.component.type.UnbreakableComponent(wrapperContained.withShowInTooltip(showInTooltip)); }
 
 }

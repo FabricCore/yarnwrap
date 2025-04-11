@@ -7,6 +7,10 @@ public class WalkTarget { public net.minecraft.entity.ai.brain.WalkTarget wrappe
 // public void speed(float value) { wrapperContained.speed = value; }
 // public int completionRange() { return wrapperContained.completionRange; }
 // public void completionRange(int value) { wrapperContained.completionRange = value; }
+public WalkTarget(yarnwrap.entity.Entity entity,float speed,int completionRange) { this.wrapperContained = new net.minecraft.entity.ai.brain.WalkTarget(entity.wrapperContained,speed,completionRange); }
+public WalkTarget(yarnwrap.util.math.BlockPos pos,float speed,int completionRange) { this.wrapperContained = new net.minecraft.entity.ai.brain.WalkTarget(pos.wrapperContained,speed,completionRange); }
+public WalkTarget(yarnwrap.util.math.Vec3d pos,float speed,int completionRange) { this.wrapperContained = new net.minecraft.entity.ai.brain.WalkTarget(pos.wrapperContained,speed,completionRange); }
+public WalkTarget(yarnwrap.entity.ai.brain.LookTarget lookTarget,float speed,int completionRange) { this.wrapperContained = new net.minecraft.entity.ai.brain.WalkTarget(lookTarget.wrapperContained,speed,completionRange); }
 public yarnwrap.entity.ai.brain.LookTarget getLookTarget() { return new yarnwrap.entity.ai.brain.LookTarget(wrapperContained.getLookTarget()); }
 public float getSpeed() { return wrapperContained.getSpeed(); }
 public int getCompletionRange() { return wrapperContained.getCompletionRange(); }

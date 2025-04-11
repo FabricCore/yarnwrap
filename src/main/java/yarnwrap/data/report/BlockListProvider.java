@@ -5,5 +5,8 @@ public class BlockListProvider { public net.minecraft.data.report.BlockListProvi
 // public void output(yarnwrap.data.DataOutput value) { wrapperContained.output = value.wrapperContained; }
 // public java.util.concurrent.CompletableFuture registryLookupFuture() { return wrapperContained.registryLookupFuture; }
 // public void registryLookupFuture(java.util.concurrent.CompletableFuture value) { wrapperContained.registryLookupFuture = value; }
+public BlockListProvider(yarnwrap.data.DataOutput output,java.util.concurrent.CompletableFuture registryLookupFuture) { this.wrapperContained = new net.minecraft.data.report.BlockListProvider(output.wrapperContained,registryLookupFuture); }
+// public void method_57952(yarnwrap.registry.RegistryOps entry) { wrapperContained.method_57952(entry.wrapperContained); }
+// public java.util.concurrent.CompletionStage method_57954(yarnwrap.data.DataWriter registryLookup) { return wrapperContained.method_57954(registryLookup.wrapperContained); }
 
 }

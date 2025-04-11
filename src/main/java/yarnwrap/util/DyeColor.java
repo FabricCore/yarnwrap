@@ -21,6 +21,7 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void fireworkColor(int value) { wrapperContained.fireworkColor = value; }
 // public int id() { return wrapperContained.id; }
 // public void id(int value) { wrapperContained.id = value; }
+// // public DyeColor(java.lang.String id,int name,int entityColor,java.lang.String mapColor,int fireworkColor,yarnwrap.block.MapColor signColor) { this.wrapperContained = new net.minecraft.util.DyeColor(id,name,entityColor,mapColor,fireworkColor,signColor.wrapperContained); }
 public int getSignColor() { return wrapperContained.getSignColor(); }
 public yarnwrap.util.DyeColor byFireworkColor(int color) { return new yarnwrap.util.DyeColor(wrapperContained.byFireworkColor(color)); }
 public int getEntityColor() { return wrapperContained.getEntityColor(); }
@@ -30,5 +31,7 @@ public yarnwrap.util.DyeColor byId(int id) { return new yarnwrap.util.DyeColor(w
 public java.lang.String getName() { return wrapperContained.getName(); }
 public yarnwrap.util.DyeColor byName(java.lang.String name,yarnwrap.util.DyeColor defaultColor) { return new yarnwrap.util.DyeColor(wrapperContained.byName(name,defaultColor.wrapperContained)); }
 public yarnwrap.block.MapColor getMapColor() { return new yarnwrap.block.MapColor(wrapperContained.getMapColor()); }
+// public java.lang.Integer method_7795(yarnwrap.util.DyeColor color) { return wrapperContained.method_7795(color.wrapperContained); }
+// public yarnwrap.util.DyeColor method_7797(yarnwrap.util.DyeColor color) { return new yarnwrap.util.DyeColor(wrapperContained.method_7797(color.wrapperContained)); }
 
 }

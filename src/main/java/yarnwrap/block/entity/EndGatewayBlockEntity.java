@@ -28,6 +28,7 @@ public boolean needsCooldownBeforeTeleporting() { return wrapperContained.needsC
 public void clientTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.EndGatewayBlockEntity blockEntity) { wrapperContained.clientTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 // public yarnwrap.util.math.Vec3d findTeleportLocation(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.findTeleportLocation(world.wrapperContained,pos.wrapperContained)); }
 public void serverTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.EndGatewayBlockEntity blockEntity) { wrapperContained.serverTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
+// public void method_57012(yarnwrap.util.math.BlockPos exitPortalPos) { wrapperContained.method_57012(exitPortalPos.wrapperContained); }
 public yarnwrap.util.math.Vec3d getOrCreateExitPortalPos(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.getOrCreateExitPortalPos(world.wrapperContained,pos.wrapperContained)); }
 
 }

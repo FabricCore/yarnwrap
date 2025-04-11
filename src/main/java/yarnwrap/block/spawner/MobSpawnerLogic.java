@@ -29,8 +29,11 @@ public java.lang.String SPAWN_DATA_KEY() { return wrapperContained.SPAWN_DATA_KE
 // public void maxNearbyEntities(int value) { wrapperContained.maxNearbyEntities = value; }
 // public double rotation() { return wrapperContained.rotation; }
 // public void rotation(double value) { wrapperContained.rotation = value; }
+// public yarnwrap.entity.Entity method_18085(double entity) { return new yarnwrap.entity.Entity(wrapperContained.method_18085(entity)); }
 public void serverTick(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { wrapperContained.serverTick(world.wrapperContained,pos.wrapperContained); }
 public void clientTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.clientTick(world.wrapperContained,pos.wrapperContained); }
+// public void method_33356(yarnwrap.world.World spawnPotential) { wrapperContained.method_33356(spawnPotential.wrapperContained); }
+// public void method_38080(java.lang.String error) { wrapperContained.method_38080(error); }
 // public yarnwrap.block.spawner.MobSpawnerEntry getSpawnEntry(yarnwrap.world.World world,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.spawner.MobSpawnerEntry(wrapperContained.getSpawnEntry(world.wrapperContained,random.wrapperContained,pos.wrapperContained)); }
 public yarnwrap.nbt.NbtCompound writeNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.nbt.NbtCompound(wrapperContained.writeNbt(nbt.wrapperContained)); }
 public void sendStatus(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,int status) { wrapperContained.sendStatus(world.wrapperContained,pos.wrapperContained,status); }

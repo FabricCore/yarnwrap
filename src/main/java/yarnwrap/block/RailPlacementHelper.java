@@ -13,6 +13,7 @@ public class RailPlacementHelper { public net.minecraft.block.RailPlacementHelpe
 // public void pos(yarnwrap.util.math.BlockPos value) { wrapperContained.pos = value.wrapperContained; }
 // public yarnwrap.block.AbstractRailBlock block() { return new yarnwrap.block.AbstractRailBlock(wrapperContained.block); }
 // public void block(yarnwrap.block.AbstractRailBlock value) { wrapperContained.block = value.wrapperContained; }
+public RailPlacementHelper(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.RailPlacementHelper(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public boolean canConnect(yarnwrap.block.RailPlacementHelper placementHelper) { return wrapperContained.canConnect(placementHelper.wrapperContained); }
 // public boolean isVerticallyNearRail(yarnwrap.util.math.BlockPos pos) { return wrapperContained.isVerticallyNearRail(pos.wrapperContained); }
 public java.util.List getNeighbors() { return wrapperContained.getNeighbors(); }

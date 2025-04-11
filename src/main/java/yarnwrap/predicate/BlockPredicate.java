@@ -10,6 +10,7 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public java.util.Optional state() { return wrapperContained.state(); }
 public boolean test(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.test(world.wrapperContained,pos.wrapperContained); }
 public boolean hasNbt() { return wrapperContained.hasNbt(); }
+// public com.mojang.datafixers.kinds.App method_57144(Object instance) { return wrapperContained.method_57144(instance); }
 // public boolean testBlockEntity(yarnwrap.world.WorldView world,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.predicate.NbtPredicate nbtPredicate) { return wrapperContained.testBlockEntity(world.wrapperContained,blockEntity.wrapperContained,nbtPredicate.wrapperContained); }
 // public boolean testState(yarnwrap.block.BlockState state) { return wrapperContained.testState(state.wrapperContained); }
 public boolean test(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.test(pos.wrapperContained); }

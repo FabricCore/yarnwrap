@@ -45,6 +45,8 @@ public Object INITIAL_CHUNKS_COMING() { return wrapperContained.INITIAL_CHUNKS_C
 // // public void INITIAL_CHUNKS_COMING(Object value) { wrapperContained.INITIAL_CHUNKS_COMING = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public GameStateChangeS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.GameStateChangeS2CPacket(buf.wrapperContained); }
+// public GameStateChangeS2CPacket(Object reason,float value) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.GameStateChangeS2CPacket(reason,value); }
 public Object getReason() { return wrapperContained.getReason(); }
 public float getValue() { return wrapperContained.getValue(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

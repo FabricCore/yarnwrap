@@ -3,6 +3,7 @@ public class DripstoneHelper { public net.minecraft.world.gen.feature.util.Drips
 
 // public double scaleHeightFromRadius(double radius,double scale,double heightScale,double bluntness) { return wrapperContained.scaleHeightFromRadius(radius,scale,heightScale,bluntness); }
 // public boolean canGenerate(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.canGenerate(world.wrapperContained,pos.wrapperContained); }
+// public void method_33007(yarnwrap.world.WorldAccess state) { wrapperContained.method_33007(state.wrapperContained); }
 // public boolean generateDripstoneBlock(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.generateDripstoneBlock(world.wrapperContained,pos.wrapperContained); }
 // public boolean canGenerateBase(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.BlockPos pos,int height) { return wrapperContained.canGenerateBase(world.wrapperContained,pos.wrapperContained,height); }
 // public void generatePointedDripstone(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction,int height,boolean merge) { wrapperContained.generatePointedDripstone(world.wrapperContained,pos.wrapperContained,direction.wrapperContained,height,merge); }

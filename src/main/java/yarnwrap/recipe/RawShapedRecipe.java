@@ -19,14 +19,17 @@ public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.n
 // public void ingredientCount(int value) { wrapperContained.ingredientCount = value; }
 // public boolean symmetrical() { return wrapperContained.symmetrical; }
 // public void symmetrical(boolean value) { wrapperContained.symmetrical = value; }
+public RawShapedRecipe(int width,int height,yarnwrap.util.collection.DefaultedList ingredients,java.util.Optional data) { this.wrapperContained = new net.minecraft.recipe.RawShapedRecipe(width,height,ingredients.wrapperContained,data); }
 public boolean matches(yarnwrap.recipe.input.CraftingRecipeInput input) { return wrapperContained.matches(input.wrapperContained); }
 // public boolean matches(yarnwrap.recipe.input.CraftingRecipeInput input,boolean mirrored) { return wrapperContained.matches(input.wrapperContained,mirrored); }
 // public com.mojang.serialization.DataResult fromData(Object data) { return wrapperContained.fromData(data); }
+// public com.mojang.serialization.DataResult method_55081(yarnwrap.recipe.RawShapedRecipe recipe) { return wrapperContained.method_55081(recipe.wrapperContained); }
 // public int findFirstSymbol(java.lang.String line) { return wrapperContained.findFirstSymbol(line); }
 // public java.lang.String[] removePadding(java.util.List pattern) { return wrapperContained.removePadding(pattern); }
 public yarnwrap.recipe.RawShapedRecipe create(java.util.Map key,java.util.List pattern) { return new yarnwrap.recipe.RawShapedRecipe(wrapperContained.create(key,pattern)); }
 public yarnwrap.recipe.RawShapedRecipe create(java.util.Map key,java.lang.String[] pattern) { return new yarnwrap.recipe.RawShapedRecipe(wrapperContained.create(key,pattern)); }
 // public void writeToBuf(yarnwrap.network.RegistryByteBuf buf) { wrapperContained.writeToBuf(buf.wrapperContained); }
+// public yarnwrap.recipe.Ingredient method_55088(yarnwrap.network.RegistryByteBuf ingredient) { return new yarnwrap.recipe.Ingredient(wrapperContained.method_55088(ingredient.wrapperContained)); }
 // public int findLastSymbol(java.lang.String line) { return wrapperContained.findLastSymbol(line); }
 // public yarnwrap.recipe.RawShapedRecipe readFromBuf(yarnwrap.network.RegistryByteBuf buf) { return new yarnwrap.recipe.RawShapedRecipe(wrapperContained.readFromBuf(buf.wrapperContained)); }
 public int getWidth() { return wrapperContained.getWidth(); }

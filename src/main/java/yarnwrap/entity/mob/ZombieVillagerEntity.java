@@ -23,6 +23,9 @@ public void setOfferData(yarnwrap.village.TradeOfferList offerData) { wrapperCon
 public void setXp(int xp) { wrapperContained.setXp(xp); }
 public void setGossipData(yarnwrap.nbt.NbtElement gossipData) { wrapperContained.setGossipData(gossipData.wrapperContained); }
 public int getXp() { return wrapperContained.getXp(); }
+// public void method_40125(Object profession) { wrapperContained.method_40125(profession); }
+// public void method_56681(yarnwrap.village.TradeOfferList offerData) { wrapperContained.method_56681(offerData.wrapperContained); }
+// public boolean method_60978(yarnwrap.item.ItemStack stack) { return wrapperContained.method_60978(stack.wrapperContained); }
 // public int getConversionRate() { return wrapperContained.getConversionRate(); }
 // public void finishConversion(yarnwrap.server.world.ServerWorld world) { wrapperContained.finishConversion(world.wrapperContained); }
 public boolean isConverting() { return wrapperContained.isConverting(); }

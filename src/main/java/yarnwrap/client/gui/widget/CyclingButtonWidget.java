@@ -23,10 +23,13 @@ public java.util.function.BooleanSupplier HAS_ALT_DOWN() { return wrapperContain
 // // public void tooltipFactory(Object value) { wrapperContained.tooltipFactory = value; }
 // public boolean optionTextOmitted() { return wrapperContained.optionTextOmitted; }
 // public void optionTextOmitted(boolean value) { wrapperContained.optionTextOmitted = value; }
+// public CyclingButtonWidget(int x,int y,int width,int height,yarnwrap.text.Text message,yarnwrap.text.Text optionText,int index,java.lang.Object value,Object values,java.util.function.Function valueToText,java.util.function.Function narrationMessageFactory,Object callback,Object tooltipFactory,boolean optionTextOmitted) { this.wrapperContained = new net.minecraft.client.gui.widget.CyclingButtonWidget(x,y,width,height,message.wrapperContained,optionText.wrapperContained,index,value,values,valueToText,narrationMessageFactory,callback,tooltipFactory,optionTextOmitted); }
 public java.lang.Object getValue() { return wrapperContained.getValue(); }
+// public yarnwrap.text.Text method_32604(java.lang.Boolean value) { return new yarnwrap.text.Text(wrapperContained.method_32604(value)); }
 public void setValue(java.lang.Object value) { wrapperContained.setValue(value); }
 public Object builder(java.util.function.Function valueToText) { return wrapperContained.builder(valueToText); }
 public Object onOffBuilder(yarnwrap.text.Text on,yarnwrap.text.Text off) { return wrapperContained.onOffBuilder(on.wrapperContained,off.wrapperContained); }
+// public yarnwrap.text.Text method_32608(yarnwrap.text.Text value) { return new yarnwrap.text.Text(wrapperContained.method_32608(value.wrapperContained)); }
 // public void internalSetValue(java.lang.Object value) { wrapperContained.internalSetValue(value); }
 // public yarnwrap.text.MutableText composeGenericOptionText(java.lang.Object value) { return new yarnwrap.text.MutableText(wrapperContained.composeGenericOptionText(value)); }
 public yarnwrap.text.MutableText getGenericNarrationMessage() { return new yarnwrap.text.MutableText(wrapperContained.getGenericNarrationMessage()); }

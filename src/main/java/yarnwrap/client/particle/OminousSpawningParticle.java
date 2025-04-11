@@ -11,5 +11,6 @@ public class OminousSpawningParticle { public net.minecraft.client.particle.Omin
 // public void startX(double value) { wrapperContained.startX = value; }
 // public double startY() { return wrapperContained.startY; }
 // public void startY(double value) { wrapperContained.startY = value; }
+// public OminousSpawningParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ,int fromColor,int toColor) { this.wrapperContained = new net.minecraft.client.particle.OminousSpawningParticle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ,fromColor,toColor); }
 
 }

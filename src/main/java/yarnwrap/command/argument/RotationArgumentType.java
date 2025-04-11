@@ -7,5 +7,6 @@ public com.mojang.brigadier.exceptions.SimpleCommandExceptionType INCOMPLETE_ROT
 // public void INCOMPLETE_ROTATION_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.INCOMPLETE_ROTATION_EXCEPTION = value; }
 public yarnwrap.command.argument.PosArgument getRotation(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return new yarnwrap.command.argument.PosArgument(wrapperContained.getRotation(context,name)); }
 public yarnwrap.command.argument.RotationArgumentType rotation() { return new yarnwrap.command.argument.RotationArgumentType(wrapperContained.rotation()); }
+// public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 
 }

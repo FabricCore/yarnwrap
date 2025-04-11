@@ -9,6 +9,9 @@ public class MultilineTextWidget { public net.minecraft.client.gui.widget.Multil
 // public void maxRows(java.util.OptionalInt value) { wrapperContained.maxRows = value; }
 // public yarnwrap.util.CachedMapper cacheKeyToText() { return new yarnwrap.util.CachedMapper(wrapperContained.cacheKeyToText); }
 // public void cacheKeyToText(yarnwrap.util.CachedMapper value) { wrapperContained.cacheKeyToText = value.wrapperContained; }
+public MultilineTextWidget(int x,int y,yarnwrap.text.Text message,yarnwrap.client.font.TextRenderer textRenderer) { this.wrapperContained = new net.minecraft.client.gui.widget.MultilineTextWidget(x,y,message.wrapperContained,textRenderer.wrapperContained); }
+public MultilineTextWidget(yarnwrap.text.Text message,yarnwrap.client.font.TextRenderer textRenderer) { this.wrapperContained = new net.minecraft.client.gui.widget.MultilineTextWidget(message.wrapperContained,textRenderer.wrapperContained); }
+// public yarnwrap.client.font.MultilineText method_48980(yarnwrap.client.font.TextRenderer cacheKey) { return new yarnwrap.client.font.MultilineText(wrapperContained.method_48980(cacheKey.wrapperContained)); }
 public yarnwrap.client.gui.widget.MultilineTextWidget setCentered(boolean centered) { return new yarnwrap.client.gui.widget.MultilineTextWidget(wrapperContained.setCentered(centered)); }
 // public Object getCacheKey() { return wrapperContained.getCacheKey(); }
 public yarnwrap.client.gui.widget.MultilineTextWidget setMaxWidth(int maxWidth) { return new yarnwrap.client.gui.widget.MultilineTextWidget(wrapperContained.setMaxWidth(maxWidth)); }

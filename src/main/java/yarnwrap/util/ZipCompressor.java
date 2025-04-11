@@ -9,8 +9,10 @@ public class ZipCompressor { public net.minecraft.util.ZipCompressor wrapperCont
 // public void temp(java.nio.file.Path value) { wrapperContained.temp = value; }
 // public java.nio.file.FileSystem zip() { return wrapperContained.zip; }
 // public void zip(java.nio.file.FileSystem value) { wrapperContained.zip = value; }
+public ZipCompressor(java.nio.file.Path file) { this.wrapperContained = new net.minecraft.util.ZipCompressor(file); }
 public void copyAll(java.nio.file.Path source) { wrapperContained.copyAll(source); }
 public void copy(java.nio.file.Path target,java.io.File source) { wrapperContained.copy(target,source); }
 public void write(java.nio.file.Path target,java.lang.String content) { wrapperContained.write(target,content); }
+// public boolean method_37164(java.nio.file.Path path,java.nio.file.attribute.BasicFileAttributes attributes) { return wrapperContained.method_37164(path,attributes); }
 
 }

@@ -57,6 +57,11 @@ public org.slf4j.Marker PACKET_SENT_MARKER() { return wrapperContained.PACKET_SE
 // public void duringLogin(boolean value) { wrapperContained.duringLogin = value; }
 // public yarnwrap.network.DisconnectionInfo disconnectionInfo() { return new yarnwrap.network.DisconnectionInfo(wrapperContained.disconnectionInfo); }
 // public void disconnectionInfo(yarnwrap.network.DisconnectionInfo value) { wrapperContained.disconnectionInfo = value.wrapperContained; }
+public ClientConnection(yarnwrap.network.NetworkSide side) { this.wrapperContained = new net.minecraft.network.ClientConnection(side.wrapperContained); }
+// public void channelActive(io.netty.channel.ChannelHandlerContext context) { wrapperContained.channelActive(context); }
+public void channelInactive(io.netty.channel.ChannelHandlerContext context) { wrapperContained.channelInactive(context); }
+// public void channelRead0(io.netty.channel.ChannelHandlerContext context,java.lang.Object packet) { wrapperContained.channelRead0(context,packet); }
+public void exceptionCaught(io.netty.channel.ChannelHandlerContext context,java.lang.Throwable ex) { wrapperContained.exceptionCaught(context,ex); }
 public void send(yarnwrap.network.packet.Packet packet) { wrapperContained.send(packet.wrapperContained); }
 public yarnwrap.network.listener.PacketListener getPacketListener() { return new yarnwrap.network.listener.PacketListener(wrapperContained.getPacketListener()); }
 public float getAveragePacketsSent() { return wrapperContained.getAveragePacketsSent(); }
@@ -82,13 +87,19 @@ public boolean isChannelAbsent() { return wrapperContained.isChannelAbsent(); }
 public yarnwrap.network.NetworkSide getSide() { return new yarnwrap.network.NetworkSide(wrapperContained.getSide()); }
 public yarnwrap.network.NetworkSide getOppositeSide() { return new yarnwrap.network.NetworkSide(wrapperContained.getOppositeSide()); }
 // public void sendInternal(yarnwrap.network.packet.Packet packet,yarnwrap.network.PacketCallbacks callbacks,boolean flush) { wrapperContained.sendInternal(packet.wrapperContained,callbacks.wrapperContained,flush); }
+// public void method_40062(org.slf4j.Marker marker) { wrapperContained.method_40062(marker); }
+// public void method_40063(org.slf4j.Marker marker) { wrapperContained.method_40063(marker); }
+// public void method_40064(org.slf4j.Marker marker) { wrapperContained.method_40064(marker); }
+// public void method_45082(yarnwrap.network.PacketCallbacks future) { wrapperContained.method_45082(future.wrapperContained); }
 public void addHandlers(io.netty.channel.ChannelPipeline pipeline,yarnwrap.network.NetworkSide side,boolean local,yarnwrap.network.handler.PacketSizeLogger packetSizeLogger) { wrapperContained.addHandlers(pipeline,side.wrapperContained,local,packetSizeLogger.wrapperContained); }
 public io.netty.channel.ChannelFuture connect(java.net.InetSocketAddress address,boolean useEpoll,yarnwrap.network.ClientConnection connection) { return wrapperContained.connect(address,useEpoll,connection.wrapperContained); }
+// public void method_52900(yarnwrap.network.NetworkState connection) { wrapperContained.method_52900(connection.wrapperContained); }
 public void connect(java.lang.String address,int port,yarnwrap.network.listener.ClientLoginPacketListener listener) { wrapperContained.connect(address,port,listener.wrapperContained); }
 public void connect(java.lang.String address,int port,yarnwrap.network.listener.ClientQueryPacketListener listener) { wrapperContained.connect(address,port,listener.wrapperContained); }
 // public void connect(java.lang.String address,int port,yarnwrap.network.NetworkState outboundState,yarnwrap.network.NetworkState inboundState,yarnwrap.network.listener.ClientPacketListener prePlayStateListener,yarnwrap.network.packet.c2s.handshake.ConnectionIntent intent) { wrapperContained.connect(address,port,outboundState.wrapperContained,inboundState.wrapperContained,prePlayStateListener.wrapperContained,intent.wrapperContained); }
 public void submit(java.util.function.Consumer task) { wrapperContained.submit(task); }
 public void send(yarnwrap.network.packet.Packet packet,yarnwrap.network.PacketCallbacks callbacks,boolean flush) { wrapperContained.send(packet.wrapperContained,callbacks.wrapperContained,flush); }
+// public void method_52907(yarnwrap.network.packet.Packet connection) { wrapperContained.method_52907(connection.wrapperContained); }
 public java.lang.String getAddressAsString(boolean logIps) { return wrapperContained.getAddressAsString(logIps); }
 public void addLocalValidator(io.netty.channel.ChannelPipeline pipeline,yarnwrap.network.NetworkSide side) { wrapperContained.addLocalValidator(pipeline,side.wrapperContained); }
 public void setInitialPacketListener(yarnwrap.network.listener.PacketListener packetListener) { wrapperContained.setInitialPacketListener(packetListener.wrapperContained); }
@@ -97,8 +108,11 @@ public void flush() { wrapperContained.flush(); }
 public void resetPacketSizeLog(yarnwrap.util.profiler.MultiValueDebugSampleLogImpl log) { wrapperContained.resetPacketSizeLog(log.wrapperContained); }
 public void addFlowControlHandler(io.netty.channel.ChannelPipeline pipeline) { wrapperContained.addFlowControlHandler(pipeline); }
 public void connect(java.lang.String address,int port,yarnwrap.network.NetworkState outboundState,yarnwrap.network.NetworkState inboundState,yarnwrap.network.listener.ClientPacketListener prePlayStateListener,boolean transfer) { wrapperContained.connect(address,port,outboundState.wrapperContained,inboundState.wrapperContained,prePlayStateListener.wrapperContained,transfer); }
+// public void method_56327(yarnwrap.network.handler.PacketBundler context) { wrapperContained.method_56327(context.wrapperContained); }
+// public void method_56328(yarnwrap.network.handler.PacketUnbundler context) { wrapperContained.method_56328(context.wrapperContained); }
 public void transitionOutbound(yarnwrap.network.NetworkState newState) { wrapperContained.transitionOutbound(newState.wrapperContained); }
 public void transitionInbound(yarnwrap.network.NetworkState state,yarnwrap.network.listener.PacketListener packetListener) { wrapperContained.transitionInbound(state.wrapperContained,packetListener.wrapperContained); }
+// public void method_56331(boolean context) { wrapperContained.method_56331(context); }
 // public void setPacketListener(yarnwrap.network.NetworkState state,yarnwrap.network.listener.PacketListener listener) { wrapperContained.setPacketListener(state.wrapperContained,listener.wrapperContained); }
 // public java.lang.String getOutboundHandlerName(boolean sendingSide) { return wrapperContained.getOutboundHandlerName(sendingSide); }
 // public java.lang.String getInboundHandlerName(boolean receivingSide) { return wrapperContained.getInboundHandlerName(receivingSide); }

@@ -7,6 +7,7 @@ public yarnwrap.client.render.entity.feature.VillagerResourceMetadataReader READ
 // // public void hatType(Object value) { wrapperContained.hatType = value; }
 public java.lang.String KEY() { return wrapperContained.KEY; }
 // public void KEY(java.lang.String value) { wrapperContained.KEY = value; }
+// public VillagerResourceMetadata(Object hatType) { this.wrapperContained = new net.minecraft.client.render.entity.feature.VillagerResourceMetadata(hatType); }
 public Object getHatType() { return wrapperContained.getHatType(); }
 
 }

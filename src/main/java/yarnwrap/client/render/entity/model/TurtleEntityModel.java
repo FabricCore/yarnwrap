@@ -5,6 +5,7 @@ public class TurtleEntityModel { public net.minecraft.client.render.entity.model
 // public void EGG_BELLY(java.lang.String value) { wrapperContained.EGG_BELLY = value; }
 // public yarnwrap.client.model.ModelPart plastron() { return new yarnwrap.client.model.ModelPart(wrapperContained.plastron); }
 // public void plastron(yarnwrap.client.model.ModelPart value) { wrapperContained.plastron = value.wrapperContained; }
+public TurtleEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.TurtleEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

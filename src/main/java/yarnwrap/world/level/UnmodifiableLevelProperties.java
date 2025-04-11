@@ -5,5 +5,6 @@ public class UnmodifiableLevelProperties { public net.minecraft.world.level.Unmo
 // public void worldProperties(yarnwrap.world.level.ServerWorldProperties value) { wrapperContained.worldProperties = value.wrapperContained; }
 // public yarnwrap.world.SaveProperties saveProperties() { return new yarnwrap.world.SaveProperties(wrapperContained.saveProperties); }
 // public void saveProperties(yarnwrap.world.SaveProperties value) { wrapperContained.saveProperties = value.wrapperContained; }
+public UnmodifiableLevelProperties(yarnwrap.world.SaveProperties saveProperties,yarnwrap.world.level.ServerWorldProperties worldProperties) { this.wrapperContained = new net.minecraft.world.level.UnmodifiableLevelProperties(saveProperties.wrapperContained,worldProperties.wrapperContained); }
 
 }

@@ -11,6 +11,8 @@ public class StopSoundS2CPacket { public net.minecraft.network.packet.s2c.play.S
 // public void SOUND_ID_MASK(int value) { wrapperContained.SOUND_ID_MASK = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public StopSoundS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.StopSoundS2CPacket(buf.wrapperContained); }
+public StopSoundS2CPacket(yarnwrap.util.Identifier soundId,yarnwrap.sound.SoundCategory category) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.StopSoundS2CPacket(soundId.wrapperContained,category.wrapperContained); }
 public yarnwrap.sound.SoundCategory getCategory() { return new yarnwrap.sound.SoundCategory(wrapperContained.getCategory()); }
 public yarnwrap.util.Identifier getSoundId() { return new yarnwrap.util.Identifier(wrapperContained.getSoundId()); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

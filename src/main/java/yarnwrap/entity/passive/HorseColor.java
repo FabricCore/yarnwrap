@@ -9,6 +9,7 @@ public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 // public java.lang.String name() { return wrapperContained.name; }
 // public void name(java.lang.String value) { wrapperContained.name = value; }
+// // public HorseColor(java.lang.String id,int name) { this.wrapperContained = new net.minecraft.entity.passive.HorseColor(id,name); }
 public int getId() { return wrapperContained.getId(); }
 public yarnwrap.entity.passive.HorseColor byId(int id) { return new yarnwrap.entity.passive.HorseColor(wrapperContained.byId(id)); }
 

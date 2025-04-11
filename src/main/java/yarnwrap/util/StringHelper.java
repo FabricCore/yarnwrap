@@ -17,6 +17,7 @@ public java.lang.String truncateChat(java.lang.String text) { return wrapperCont
 public boolean isValidChar(char c) { return wrapperContained.isValidChar(c); }
 public boolean isWhitespace(int c) { return wrapperContained.isWhitespace(c); }
 public java.lang.String stripInvalidChars(java.lang.String string,boolean allowLinebreak) { return wrapperContained.stripInvalidChars(string,allowLinebreak); }
+// public boolean method_57178(int c) { return wrapperContained.method_57178(c); }
 public boolean isValidPlayerName(java.lang.String name) { return wrapperContained.isValidPlayerName(name); }
 public java.lang.String stripInvalidChars(java.lang.String string) { return wrapperContained.stripInvalidChars(string); }
 public boolean isBlank(java.lang.String string) { return wrapperContained.isBlank(string); }

@@ -5,6 +5,7 @@ public class TextureKey { public net.minecraft.data.client.TextureKey wrapperCon
 // public void name(java.lang.String value) { wrapperContained.name = value; }
 // public yarnwrap.data.client.TextureKey parent() { return new yarnwrap.data.client.TextureKey(wrapperContained.parent); }
 // public void parent(yarnwrap.data.client.TextureKey value) { wrapperContained.parent = value.wrapperContained; }
+// public TextureKey(java.lang.String name,yarnwrap.data.client.TextureKey parent) { this.wrapperContained = new net.minecraft.data.client.TextureKey(name,parent.wrapperContained); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 public yarnwrap.data.client.TextureKey getParent() { return new yarnwrap.data.client.TextureKey(wrapperContained.getParent()); }
 // public yarnwrap.data.client.TextureKey of(java.lang.String name) { return new yarnwrap.data.client.TextureKey(wrapperContained.of(name)); }

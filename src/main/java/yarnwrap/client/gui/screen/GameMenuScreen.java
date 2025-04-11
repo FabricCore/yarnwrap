@@ -45,8 +45,12 @@ public class GameMenuScreen { public net.minecraft.client.gui.screen.GameMenuScr
 // public void SERVER_LINKS_TEXT(yarnwrap.text.Text value) { wrapperContained.SERVER_LINKS_TEXT = value.wrapperContained; }
 // public yarnwrap.text.Text FEEDBACK_TEXT() { return new yarnwrap.text.Text(wrapperContained.FEEDBACK_TEXT); }
 // public void FEEDBACK_TEXT(yarnwrap.text.Text value) { wrapperContained.FEEDBACK_TEXT = value.wrapperContained; }
+public GameMenuScreen(boolean showMenu) { this.wrapperContained = new net.minecraft.client.gui.screen.GameMenuScreen(showMenu); }
+// public void method_19836(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19836(button.wrapperContained); }
+// public void method_19845(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19845(button.wrapperContained); }
 // public void initWidgets() { wrapperContained.initWidgets(); }
 // public void disconnect() { wrapperContained.disconnect(); }
+// public void method_47898(java.util.function.Supplier button) { wrapperContained.method_47898(button); }
 // public yarnwrap.client.gui.widget.ButtonWidget createUrlButton(yarnwrap.client.gui.screen.Screen parent,yarnwrap.text.Text text,java.net.URI uri) { return new yarnwrap.client.gui.widget.ButtonWidget(wrapperContained.createUrlButton(parent.wrapperContained,text.wrapperContained,uri)); }
 // public yarnwrap.client.gui.widget.ButtonWidget createButton(yarnwrap.text.Text text,java.util.function.Supplier screenSupplier) { return new yarnwrap.client.gui.widget.ButtonWidget(wrapperContained.createButton(text.wrapperContained,screenSupplier)); }
 public boolean shouldShowMenu() { return wrapperContained.shouldShowMenu(); }

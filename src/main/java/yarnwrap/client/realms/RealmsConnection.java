@@ -9,6 +9,7 @@ public class RealmsConnection { public net.minecraft.client.realms.RealmsConnect
 // public void aborted(boolean value) { wrapperContained.aborted = value; }
 // public yarnwrap.network.ClientConnection connection() { return new yarnwrap.network.ClientConnection(wrapperContained.connection); }
 // public void connection(yarnwrap.network.ClientConnection value) { wrapperContained.connection = value.wrapperContained; }
+public RealmsConnection(yarnwrap.client.gui.screen.Screen onlineScreen) { this.wrapperContained = new net.minecraft.client.realms.RealmsConnection(onlineScreen.wrapperContained); }
 public void abort() { wrapperContained.abort(); }
 public void connect(yarnwrap.client.realms.dto.RealmsServer server,yarnwrap.client.network.ServerAddress address) { wrapperContained.connect(server.wrapperContained,address.wrapperContained); }
 public void tick() { wrapperContained.tick(); }

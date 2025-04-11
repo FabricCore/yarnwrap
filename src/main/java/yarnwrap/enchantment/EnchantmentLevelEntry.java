@@ -5,5 +5,6 @@ public yarnwrap.registry.entry.RegistryEntry enchantment() { return new yarnwrap
 // public void enchantment(yarnwrap.registry.entry.RegistryEntry value) { wrapperContained.enchantment = value.wrapperContained; }
 public int level() { return wrapperContained.level; }
 // public void level(int value) { wrapperContained.level = value; }
+public EnchantmentLevelEntry(yarnwrap.registry.entry.RegistryEntry enchantment,int level) { this.wrapperContained = new net.minecraft.enchantment.EnchantmentLevelEntry(enchantment.wrapperContained,level); }
 
 }

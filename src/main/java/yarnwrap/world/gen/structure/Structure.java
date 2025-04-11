@@ -7,6 +7,7 @@ public com.mojang.serialization.Codec ENTRY_CODEC() { return wrapperContained.EN
 // public void ENTRY_CODEC(com.mojang.serialization.Codec value) { wrapperContained.ENTRY_CODEC = value; }
 // public Object config() { return wrapperContained.config; }
 // // public void config(Object value) { wrapperContained.config = value; }
+// public Structure(Object config) { this.wrapperContained = new net.minecraft.world.gen.structure.Structure(config); }
 // public java.util.Optional getStructurePosition(Object context) { return wrapperContained.getStructurePosition(context); }
 public void postPlace(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.StructureAccessor structureAccessor,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockBox box,yarnwrap.util.math.ChunkPos chunkPos,yarnwrap.structure.StructurePiecesList pieces) { wrapperContained.postPlace(world.wrapperContained,structureAccessor.wrapperContained,chunkGenerator.wrapperContained,random.wrapperContained,box.wrapperContained,chunkPos.wrapperContained,pieces.wrapperContained); }
 public yarnwrap.registry.entry.RegistryEntryList getValidBiomes() { return new yarnwrap.registry.entry.RegistryEntryList(wrapperContained.getValidBiomes()); }
@@ -22,8 +23,11 @@ public yarnwrap.world.gen.structure.StructureType getType() { return new yarnwra
 // public int getMinCornerHeight(Object context,int x,int z,int width,int height) { return wrapperContained.getMinCornerHeight(context,x,z,width,height); }
 // public yarnwrap.util.math.BlockPos getShiftedPos(Object context,yarnwrap.util.BlockRotation rotation) { return new yarnwrap.util.math.BlockPos(wrapperContained.getShiftedPos(context,rotation.wrapperContained)); }
 // public com.mojang.serialization.codecs.RecordCodecBuilder configCodecBuilder(Object instance) { return wrapperContained.configCodecBuilder(instance); }
+// public Object method_42698(yarnwrap.world.gen.structure.Structure feature) { return wrapperContained.method_42698(feature.wrapperContained); }
 public com.mojang.serialization.MapCodec createCodec(java.util.function.Function featureCreator) { return wrapperContained.createCodec(featureCreator); }
+// public com.mojang.datafixers.kinds.App method_42700(java.util.function.Function instance) { return wrapperContained.method_42700(instance); }
 public yarnwrap.world.gen.StructureTerrainAdaptation getTerrainAdaptation() { return new yarnwrap.world.gen.StructureTerrainAdaptation(wrapperContained.getTerrainAdaptation()); }
+// public boolean method_47931(Object position) { return wrapperContained.method_47931(position); }
 // public java.util.Optional getValidStructurePosition(Object context) { return wrapperContained.getValidStructurePosition(context); }
 // public int getAverageCornerHeights(Object context,int x,int width,int z,int height) { return wrapperContained.getAverageCornerHeights(context,x,width,z,height); }
 

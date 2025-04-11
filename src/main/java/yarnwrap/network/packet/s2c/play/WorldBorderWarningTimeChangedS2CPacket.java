@@ -5,6 +5,8 @@ public class WorldBorderWarningTimeChangedS2CPacket { public net.minecraft.netwo
 // public void warningTime(int value) { wrapperContained.warningTime = value; }
 public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+// public WorldBorderWarningTimeChangedS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.WorldBorderWarningTimeChangedS2CPacket(buf.wrapperContained); }
+public WorldBorderWarningTimeChangedS2CPacket(yarnwrap.world.border.WorldBorder worldBorder) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.WorldBorderWarningTimeChangedS2CPacket(worldBorder.wrapperContained); }
 public int getWarningTime() { return wrapperContained.getWarningTime(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 

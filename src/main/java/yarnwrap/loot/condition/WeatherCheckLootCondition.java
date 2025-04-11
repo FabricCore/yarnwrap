@@ -10,5 +10,7 @@ public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC
 // public java.util.Optional raining() { return wrapperContained.raining(); }
 // public java.util.Optional thundering() { return wrapperContained.thundering(); }
 public Object create() { return wrapperContained.create(); }
+// public com.mojang.datafixers.kinds.App method_53429(Object instance) { return wrapperContained.method_53429(instance); }
+// public boolean test(java.lang.Object context) { return wrapperContained.test(context); }
 
 }

@@ -17,6 +17,7 @@ public java.lang.String INVALID() { return wrapperContained.INVALID; }
 // public void children(yarnwrap.structure.StructurePiecesList value) { wrapperContained.children = value.wrapperContained; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+public StructureStart(yarnwrap.world.gen.structure.Structure structure,yarnwrap.util.math.ChunkPos pos,int references,yarnwrap.structure.StructurePiecesList children) { this.wrapperContained = new net.minecraft.structure.StructureStart(structure.wrapperContained,pos.wrapperContained,references,children.wrapperContained); }
 public java.util.List getChildren() { return wrapperContained.getChildren(); }
 public void incrementReferences() { wrapperContained.incrementReferences(); }
 public yarnwrap.util.math.BlockBox getBoundingBox() { return new yarnwrap.util.math.BlockBox(wrapperContained.getBoundingBox()); }

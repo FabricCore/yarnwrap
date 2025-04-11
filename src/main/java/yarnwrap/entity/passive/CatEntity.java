@@ -49,6 +49,8 @@ public float getHeadDownAnimation(float tickDelta) { return wrapperContained.get
 public yarnwrap.util.DyeColor getCollarColor() { return new yarnwrap.util.DyeColor(wrapperContained.getCollarColor()); }
 public Object createCatAttributes() { return wrapperContained.createCatAttributes(); }
 // public void tryTame(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.tryTame(player.wrapperContained); }
+// public yarnwrap.registry.RegistryKey method_58364(yarnwrap.util.Identifier id) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_58364(id.wrapperContained)); }
+// public boolean method_58365(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58365(stack.wrapperContained); }
 // public void onTamedChanged() { wrapperContained.onTamedChanged(); }
 
 }

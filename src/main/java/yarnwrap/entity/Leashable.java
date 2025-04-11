@@ -18,6 +18,7 @@ public boolean beforeLeashTick(yarnwrap.entity.Entity leashHolder,float distance
 // public void resolveLeashData(yarnwrap.entity.Entity entity,Object leashData) { wrapperContained.resolveLeashData(entity.wrapperContained,leashData); }
 // public void detachLeash(yarnwrap.entity.Entity entity,boolean sendPacket,boolean dropItem) { wrapperContained.detachLeash(entity.wrapperContained,sendPacket,dropItem); }
 // public void setLeashData(Object leashData) { wrapperContained.setLeashData(leashData); }
+// public yarnwrap.nbt.NbtElement method_60961(java.util.UUID uuid) { return new yarnwrap.nbt.NbtElement(wrapperContained.method_60961(uuid)); }
 // public void writeLeashDataToNbt(yarnwrap.nbt.NbtCompound nbt,Object leashData) { wrapperContained.writeLeashDataToNbt(nbt.wrapperContained,leashData); }
 public void onShortLeashTick(yarnwrap.entity.Entity entity) { wrapperContained.onShortLeashTick(entity.wrapperContained); }
 public void attachLeash(yarnwrap.entity.Entity leashHolder,boolean sendPacket) { wrapperContained.attachLeash(leashHolder.wrapperContained,sendPacket); }

@@ -40,10 +40,12 @@ public void registerFlammableBlock(yarnwrap.block.Block block,int burnChance,int
 // public boolean areBlocksAroundFlammable(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.areBlocksAroundFlammable(world.wrapperContained,pos.wrapperContained); }
 // public int getBurnChance(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getBurnChance(world.wrapperContained,pos.wrapperContained); }
 // public void trySpreadingFire(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,int spreadFactor,yarnwrap.util.math.random.Random random,int currentAge) { wrapperContained.trySpreadingFire(world.wrapperContained,pos.wrapperContained,spreadFactor,random.wrapperContained,currentAge); }
+// public boolean method_10197(Object entry) { return wrapperContained.method_10197(entry); }
 // public yarnwrap.block.BlockState getStateForPosition(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getStateForPosition(world.wrapperContained,pos.wrapperContained)); }
 public void registerDefaultFlammables() { wrapperContained.registerDefaultFlammables(); }
 // public yarnwrap.block.BlockState getStateWithAge(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,int age) { return new yarnwrap.block.BlockState(wrapperContained.getStateWithAge(world.wrapperContained,pos.wrapperContained,age)); }
 // public int getFireTickDelay(yarnwrap.util.math.random.Random random) { return wrapperContained.getFireTickDelay(random.wrapperContained); }
 // public yarnwrap.util.shape.VoxelShape getShapeForState(yarnwrap.block.BlockState state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getShapeForState(state.wrapperContained)); }
+// public boolean method_31017(yarnwrap.block.BlockState state) { return wrapperContained.method_31017(state.wrapperContained); }
 
 }

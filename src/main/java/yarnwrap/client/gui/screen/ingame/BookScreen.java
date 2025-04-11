@@ -29,6 +29,8 @@ public Object EMPTY_PROVIDER() { return wrapperContained.EMPTY_PROVIDER; }
 // public void WIDTH(int value) { wrapperContained.WIDTH = value; }
 // public int HEIGHT() { return wrapperContained.HEIGHT; }
 // public void HEIGHT(int value) { wrapperContained.HEIGHT = value; }
+// public BookScreen(Object pageProvider) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.BookScreen(pageProvider); }
+// public BookScreen(Object contents,boolean playPageTurnSound) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.BookScreen(contents,playPageTurnSound); }
 public yarnwrap.text.Style getTextStyleAt(double x,double y) { return new yarnwrap.text.Style(wrapperContained.getTextStyleAt(x,y)); }
 // public int getPageCount() { return wrapperContained.getPageCount(); }
 // public void goToPreviousPage() { wrapperContained.goToPreviousPage(); }
@@ -39,6 +41,9 @@ public boolean setPage(int index) { return wrapperContained.setPage(index); }
 // public void addCloseButton() { wrapperContained.addCloseButton(); }
 // public void addPageButtons() { wrapperContained.addPageButtons(); }
 // public boolean jumpToPage(int page) { return wrapperContained.jumpToPage(page); }
+// public void method_19884(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19884(button.wrapperContained); }
+// public void method_19885(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19885(button.wrapperContained); }
+// public void method_19886(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19886(button.wrapperContained); }
 // public void closeScreen() { wrapperContained.closeScreen(); }
 
 }

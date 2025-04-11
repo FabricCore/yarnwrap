@@ -5,5 +5,6 @@ public class SimpleParticleType { public net.minecraft.particle.SimpleParticleTy
 // public void codec(com.mojang.serialization.MapCodec value) { wrapperContained.codec = value; }
 // public yarnwrap.network.codec.PacketCodec packetCodec() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.packetCodec); }
 // public void packetCodec(yarnwrap.network.codec.PacketCodec value) { wrapperContained.packetCodec = value.wrapperContained; }
+// public SimpleParticleType(boolean alwaysShow) { this.wrapperContained = new net.minecraft.particle.SimpleParticleType(alwaysShow); }
 
 }

@@ -19,6 +19,8 @@ public class SuffixArray { public net.minecraft.client.search.SuffixArray wrappe
 // public void textStarts(it.unimi.dsi.fastutil.ints.IntList value) { wrapperContained.textStarts = value; }
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public int method_38937(int a,int b) { return wrapperContained.method_38937(a,b); }
+// public void method_4803(int i,int j) { wrapperContained.method_4803(i,j); }
 public java.util.List findAll(java.lang.String text) { return wrapperContained.findAll(text); }
 // public int compare(java.lang.String string,int suffixIndex) { return wrapperContained.compare(string,suffixIndex); }
 public void add(java.lang.Object object,java.lang.String text) { wrapperContained.add(object,text); }

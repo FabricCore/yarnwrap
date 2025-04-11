@@ -13,8 +13,11 @@ public class SilverfishEntityModel { public net.minecraft.client.render.entity.m
 // public void SEGMENT_SIZES(int[][] value) { wrapperContained.SEGMENT_SIZES = value; }
 // public net.minecraft.client.model.ModelPart[] body() { return wrapperContained.body; }
 // public void body(net.minecraft.client.model.ModelPart[] value) { wrapperContained.body = value; }
+public SilverfishEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.SilverfishEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 // public java.lang.String getLayerName(int index) { return wrapperContained.getLayerName(index); }
+// public yarnwrap.client.model.ModelPart method_32044(yarnwrap.client.model.ModelPart index) { return new yarnwrap.client.model.ModelPart(wrapperContained.method_32044(index.wrapperContained)); }
 // public java.lang.String getSegmentName(int index) { return wrapperContained.getSegmentName(index); }
+// public yarnwrap.client.model.ModelPart method_32046(yarnwrap.client.model.ModelPart index) { return new yarnwrap.client.model.ModelPart(wrapperContained.method_32046(index.wrapperContained)); }
 
 }

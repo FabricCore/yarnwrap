@@ -7,5 +7,6 @@ public class ClientBossBar { public net.minecraft.client.gui.hud.ClientBossBar w
 // public void healthLatest(float value) { wrapperContained.healthLatest = value; }
 // public long HEALTH_CHANGE_ANIMATION_MS() { return wrapperContained.HEALTH_CHANGE_ANIMATION_MS; }
 // public void HEALTH_CHANGE_ANIMATION_MS(long value) { wrapperContained.HEALTH_CHANGE_ANIMATION_MS = value; }
+// public ClientBossBar(java.util.UUID uuid,yarnwrap.text.Text name,float percent,Object color,Object style,boolean darkenSky,boolean dragonMusic,boolean thickenFog) { this.wrapperContained = new net.minecraft.client.gui.hud.ClientBossBar(uuid,name.wrapperContained,percent,color,style,darkenSky,dragonMusic,thickenFog); }
 
 }

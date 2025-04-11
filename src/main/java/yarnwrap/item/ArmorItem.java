@@ -9,6 +9,7 @@ public yarnwrap.block.dispenser.DispenserBehavior DISPENSER_BEHAVIOR() { return 
 // public void DISPENSER_BEHAVIOR(yarnwrap.block.dispenser.DispenserBehavior value) { wrapperContained.DISPENSER_BEHAVIOR = value.wrapperContained; }
 // public yarnwrap.registry.entry.RegistryEntry material() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.material); }
 // public void material(yarnwrap.registry.entry.RegistryEntry value) { wrapperContained.material = value.wrapperContained; }
+// public ArmorItem(yarnwrap.registry.entry.RegistryEntry material,Object type,Object settings) { this.wrapperContained = new net.minecraft.item.ArmorItem(material.wrapperContained,type,settings); }
 public float getToughness() { return wrapperContained.getToughness(); }
 public Object getType() { return wrapperContained.getType(); }
 public boolean dispenseArmor(yarnwrap.util.math.BlockPointer pointer,yarnwrap.item.ItemStack armor) { return wrapperContained.dispenseArmor(pointer.wrapperContained,armor.wrapperContained); }

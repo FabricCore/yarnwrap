@@ -7,6 +7,7 @@ public class AnimalArmorItem { public net.minecraft.item.AnimalArmorItem wrapper
 // // public void type(Object value) { wrapperContained.type = value; }
 // public yarnwrap.util.Identifier overlayTexture() { return new yarnwrap.util.Identifier(wrapperContained.overlayTexture); }
 // public void overlayTexture(yarnwrap.util.Identifier value) { wrapperContained.overlayTexture = value.wrapperContained; }
+// public AnimalArmorItem(yarnwrap.registry.entry.RegistryEntry material,Object type,boolean hasOverlay,Object settings) { this.wrapperContained = new net.minecraft.item.AnimalArmorItem(material.wrapperContained,type,hasOverlay,settings); }
 public yarnwrap.util.Identifier getEntityTexture() { return new yarnwrap.util.Identifier(wrapperContained.getEntityTexture()); }
 public Object getType() { return wrapperContained.getType(); }
 public yarnwrap.util.Identifier getOverlayTexture() { return new yarnwrap.util.Identifier(wrapperContained.getOverlayTexture()); }

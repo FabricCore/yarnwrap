@@ -15,6 +15,7 @@ public class HoldTradeOffersTask { public net.minecraft.entity.ai.brain.task.Hol
 // public void RUN_INTERVAL(int value) { wrapperContained.RUN_INTERVAL = value; }
 // public int OFFER_SHOWING_INTERVAL() { return wrapperContained.OFFER_SHOWING_INTERVAL; }
 // public void OFFER_SHOWING_INTERVAL(int value) { wrapperContained.OFFER_SHOWING_INTERVAL = value; }
+public HoldTradeOffersTask(int minRunTime,int maxRunTime) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.HoldTradeOffersTask(minRunTime,maxRunTime); }
 // public void refreshShownOffer(yarnwrap.entity.passive.VillagerEntity villager) { wrapperContained.refreshShownOffer(villager.wrapperContained); }
 // public void setupOffers(yarnwrap.entity.LivingEntity customer,yarnwrap.entity.passive.VillagerEntity villager) { wrapperContained.setupOffers(customer.wrapperContained,villager.wrapperContained); }
 // public boolean isPossible(yarnwrap.village.TradeOffer offer) { return wrapperContained.isPossible(offer.wrapperContained); }

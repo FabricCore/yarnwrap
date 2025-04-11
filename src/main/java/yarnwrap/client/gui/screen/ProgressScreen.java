@@ -11,5 +11,6 @@ public class ProgressScreen { public net.minecraft.client.gui.screen.ProgressScr
 // public void task(yarnwrap.text.Text value) { wrapperContained.task = value.wrapperContained; }
 // public boolean closeAfterFinished() { return wrapperContained.closeAfterFinished; }
 // public void closeAfterFinished(boolean value) { wrapperContained.closeAfterFinished = value; }
+public ProgressScreen(boolean closeAfterFinished) { this.wrapperContained = new net.minecraft.client.gui.screen.ProgressScreen(closeAfterFinished); }
 
 }

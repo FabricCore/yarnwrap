@@ -13,6 +13,7 @@ public class CraftPlanksTutorialStepHandler { public net.minecraft.client.tutori
 // public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
 // public yarnwrap.text.Text DESCRIPTION() { return new yarnwrap.text.Text(wrapperContained.DESCRIPTION); }
 // public void DESCRIPTION(yarnwrap.text.Text value) { wrapperContained.DESCRIPTION = value.wrapperContained; }
+public CraftPlanksTutorialStepHandler(yarnwrap.client.tutorial.TutorialManager manager) { this.wrapperContained = new net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler(manager.wrapperContained); }
 public boolean hasCrafted(yarnwrap.client.network.ClientPlayerEntity player,yarnwrap.registry.tag.TagKey tag) { return wrapperContained.hasCrafted(player.wrapperContained,tag.wrapperContained); }
 
 }

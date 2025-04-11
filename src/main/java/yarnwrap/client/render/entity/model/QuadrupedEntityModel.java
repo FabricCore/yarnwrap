@@ -13,6 +13,7 @@ public class QuadrupedEntityModel { public net.minecraft.client.render.entity.mo
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart body() { return new yarnwrap.client.model.ModelPart(wrapperContained.body); }
 // public void body(yarnwrap.client.model.ModelPart value) { wrapperContained.body = value.wrapperContained; }
+// public QuadrupedEntityModel(yarnwrap.client.model.ModelPart root,boolean headScaled,float childHeadYOffset,float childHeadZOffset,float invertedChildHeadScale,float invertedChildBodyScale,int childBodyYOffset) { this.wrapperContained = new net.minecraft.client.render.entity.model.QuadrupedEntityModel(root.wrapperContained,headScaled,childHeadYOffset,childHeadZOffset,invertedChildHeadScale,invertedChildBodyScale,childBodyYOffset); }
 public yarnwrap.client.model.ModelData getModelData(int stanceWidth,yarnwrap.client.model.Dilation dilation) { return new yarnwrap.client.model.ModelData(wrapperContained.getModelData(stanceWidth,dilation.wrapperContained)); }
 
 }

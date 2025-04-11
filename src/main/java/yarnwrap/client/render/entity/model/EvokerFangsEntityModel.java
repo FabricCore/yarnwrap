@@ -15,6 +15,7 @@ public class EvokerFangsEntityModel { public net.minecraft.client.render.entity.
 // public void lowerJaw(yarnwrap.client.model.ModelPart value) { wrapperContained.lowerJaw = value.wrapperContained; }
 // public yarnwrap.client.model.ModelPart upperJaw() { return new yarnwrap.client.model.ModelPart(wrapperContained.upperJaw); }
 // public void upperJaw(yarnwrap.client.model.ModelPart value) { wrapperContained.upperJaw = value.wrapperContained; }
+public EvokerFangsEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.EvokerFangsEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

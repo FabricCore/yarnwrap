@@ -15,6 +15,8 @@ public class LightData { public net.minecraft.network.packet.s2c.play.LightData 
 // public void blockNibbles(java.util.List value) { wrapperContained.blockNibbles = value; }
 // public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
+public LightData(yarnwrap.util.math.ChunkPos pos,yarnwrap.world.chunk.light.LightingProvider lightProvider,java.util.BitSet skyBits,java.util.BitSet blockBits) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.LightData(pos.wrapperContained,lightProvider.wrapperContained,skyBits,blockBits); }
+public LightData(yarnwrap.network.PacketByteBuf buf,int x,int y) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.LightData(buf.wrapperContained,x,y); }
 public java.util.BitSet getInitedSky() { return wrapperContained.getInitedSky(); }
 // public void putChunk(yarnwrap.util.math.ChunkPos pos,yarnwrap.world.chunk.light.LightingProvider lightProvider,yarnwrap.world.LightType type,int y,java.util.BitSet initialized,java.util.BitSet uninitialized,java.util.List nibbles) { wrapperContained.putChunk(pos.wrapperContained,lightProvider.wrapperContained,type.wrapperContained,y,initialized,uninitialized,nibbles); }
 public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

@@ -15,6 +15,7 @@ public class CreeperEntityModel { public net.minecraft.client.render.entity.mode
 // public void HEAD_AND_BODY_Y_PIVOT(int value) { wrapperContained.HEAD_AND_BODY_Y_PIVOT = value; }
 // public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
+public CreeperEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.CreeperEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData(yarnwrap.client.model.Dilation dilation) { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData(dilation.wrapperContained)); }
 
 }

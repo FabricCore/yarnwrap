@@ -9,6 +9,7 @@ public class AbstractFireBlock { public net.minecraft.block.AbstractFireBlock wr
 // public void BASE_SOUND_VOLUME(float value) { wrapperContained.BASE_SOUND_VOLUME = value; }
 // public int SET_ON_FIRE_SECONDS() { return wrapperContained.SET_ON_FIRE_SECONDS; }
 // public void SET_ON_FIRE_SECONDS(int value) { wrapperContained.SET_ON_FIRE_SECONDS = value; }
+// public AbstractFireBlock(Object settings,float damage) { this.wrapperContained = new net.minecraft.block.AbstractFireBlock(settings,damage); }
 // public boolean isFlammable(yarnwrap.block.BlockState state) { return wrapperContained.isFlammable(state.wrapperContained); }
 public yarnwrap.block.BlockState getState(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getState(world.wrapperContained,pos.wrapperContained)); }
 public boolean canPlaceAt(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction) { return wrapperContained.canPlaceAt(world.wrapperContained,pos.wrapperContained,direction.wrapperContained); }

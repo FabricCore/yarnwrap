@@ -11,6 +11,9 @@ public yarnwrap.util.math.Vec3i ZERO() { return new yarnwrap.util.math.Vec3i(wra
 // public void ZERO(yarnwrap.util.math.Vec3i value) { wrapperContained.ZERO = value.wrapperContained; }
 public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public Vec3i(int x,int y,int z) { this.wrapperContained = new net.minecraft.util.math.Vec3i(x,y,z); }
+// public int compareTo(java.lang.Object vec) { return wrapperContained.compareTo(vec); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public yarnwrap.util.math.Vec3i setY(int y) { return new yarnwrap.util.math.Vec3i(wrapperContained.setY(y)); }
 public yarnwrap.util.math.Vec3i crossProduct(yarnwrap.util.math.Vec3i vec) { return new yarnwrap.util.math.Vec3i(wrapperContained.crossProduct(vec.wrapperContained)); }
 public int getZ() { return wrapperContained.getZ(); }
@@ -28,6 +31,9 @@ public yarnwrap.util.math.Vec3i offset(yarnwrap.util.math.Direction direction,in
 public yarnwrap.util.math.Vec3i down(int distance) { return new yarnwrap.util.math.Vec3i(wrapperContained.down(distance)); }
 public yarnwrap.util.math.Vec3i down() { return new yarnwrap.util.math.Vec3i(wrapperContained.down()); }
 public java.lang.String toShortString() { return wrapperContained.toShortString(); }
+// public java.util.stream.IntStream method_29124(yarnwrap.util.math.Vec3i vec) { return wrapperContained.method_29124(vec.wrapperContained); }
+// public com.mojang.serialization.DataResult method_29125(java.util.stream.IntStream stream) { return wrapperContained.method_29125(stream); }
+// public yarnwrap.util.math.Vec3i method_29126(int coordinates) { return new yarnwrap.util.math.Vec3i(wrapperContained.method_29126(coordinates)); }
 // public int getComponentAlongAxis(Object axis) { return wrapperContained.getComponentAlongAxis(axis); }
 public yarnwrap.util.math.Vec3i up(int distance) { return new yarnwrap.util.math.Vec3i(wrapperContained.up(distance)); }
 public yarnwrap.util.math.Vec3i up() { return new yarnwrap.util.math.Vec3i(wrapperContained.up()); }
@@ -47,5 +53,6 @@ public yarnwrap.util.math.Vec3i north() { return new yarnwrap.util.math.Vec3i(wr
 public yarnwrap.util.math.Vec3i multiply(int scale) { return new yarnwrap.util.math.Vec3i(wrapperContained.multiply(scale)); }
 public com.mojang.serialization.Codec createOffsetCodec(int maxAbsValue) { return wrapperContained.createOffsetCodec(maxAbsValue); }
 public double getSquaredDistance(double x,double y,double z) { return wrapperContained.getSquaredDistance(x,y,z); }
+// public com.mojang.serialization.DataResult method_48305(int vec) { return wrapperContained.method_48305(vec); }
 
 }

@@ -5,5 +5,6 @@ public java.util.Map ENTITIES() { return wrapperContained.ENTITIES; }
 // public void ENTITIES(java.util.Map value) { wrapperContained.ENTITIES = value; }
 public java.util.Map SPAWN_EGGS() { return wrapperContained.SPAWN_EGGS; }
 // public void SPAWN_EGGS(java.util.Map value) { wrapperContained.SPAWN_EGGS = value; }
+public EntityCodSalmonFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityCodSalmonFix(outputSchema,changesType); }
 
 }

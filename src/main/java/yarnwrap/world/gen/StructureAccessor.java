@@ -7,6 +7,7 @@ public class StructureAccessor { public net.minecraft.world.gen.StructureAccesso
 // public void options(yarnwrap.world.gen.GeneratorOptions value) { wrapperContained.options = value.wrapperContained; }
 // public yarnwrap.world.StructureLocator locator() { return new yarnwrap.world.StructureLocator(wrapperContained.locator); }
 // public void locator(yarnwrap.world.StructureLocator value) { wrapperContained.locator = value.wrapperContained; }
+public StructureAccessor(yarnwrap.world.WorldAccess world,yarnwrap.world.gen.GeneratorOptions options,yarnwrap.world.StructureLocator locator) { this.wrapperContained = new net.minecraft.world.gen.StructureAccessor(world.wrapperContained,options.wrapperContained,locator.wrapperContained); }
 public void addStructureReference(yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.world.gen.structure.Structure structure,long reference,yarnwrap.world.StructureHolder holder) { wrapperContained.addStructureReference(pos.wrapperContained,structure.wrapperContained,reference,holder.wrapperContained); }
 public yarnwrap.structure.StructureStart getStructureStart(yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.world.gen.structure.Structure structure,yarnwrap.world.StructureHolder holder) { return new yarnwrap.structure.StructureStart(wrapperContained.getStructureStart(pos.wrapperContained,structure.wrapperContained,holder.wrapperContained)); }
 public void setStructureStart(yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.world.gen.structure.Structure structure,yarnwrap.structure.StructureStart structureStart,yarnwrap.world.StructureHolder holder) { wrapperContained.setStructureStart(pos.wrapperContained,structure.wrapperContained,structureStart.wrapperContained,holder.wrapperContained); }
@@ -25,6 +26,8 @@ public java.util.List getStructureStarts(yarnwrap.util.math.ChunkPos pos,java.ut
 public yarnwrap.registry.DynamicRegistryManager getRegistryManager() { return new yarnwrap.registry.DynamicRegistryManager(wrapperContained.getRegistryManager()); }
 public java.util.Map getStructureReferences(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getStructureReferences(pos.wrapperContained); }
 public yarnwrap.structure.StructureStart getStructureContaining(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate) { return new yarnwrap.structure.StructureStart(wrapperContained.getStructureContaining(pos.wrapperContained,predicate)); }
+// public boolean method_41414(yarnwrap.registry.Registry structure) { return wrapperContained.method_41414(structure.wrapperContained); }
+// public boolean method_57559(yarnwrap.registry.tag.TagKey structure) { return wrapperContained.method_57559(structure.wrapperContained); }
 public yarnwrap.structure.StructureStart getStructureContaining(yarnwrap.util.math.BlockPos pos,yarnwrap.registry.tag.TagKey tag) { return new yarnwrap.structure.StructureStart(wrapperContained.getStructureContaining(pos.wrapperContained,tag.wrapperContained)); }
 
 }

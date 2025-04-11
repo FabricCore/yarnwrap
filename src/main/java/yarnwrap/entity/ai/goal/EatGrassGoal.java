@@ -11,6 +11,7 @@ public class EatGrassGoal { public net.minecraft.entity.ai.goal.EatGrassGoal wra
 // public void SHORT_GRASS_PREDICATE(java.util.function.Predicate value) { wrapperContained.SHORT_GRASS_PREDICATE = value; }
 // public yarnwrap.entity.mob.MobEntity mob() { return new yarnwrap.entity.mob.MobEntity(wrapperContained.mob); }
 // public void mob(yarnwrap.entity.mob.MobEntity value) { wrapperContained.mob = value.wrapperContained; }
+public EatGrassGoal(yarnwrap.entity.mob.MobEntity mob) { this.wrapperContained = new net.minecraft.entity.ai.goal.EatGrassGoal(mob.wrapperContained); }
 public int getTimer() { return wrapperContained.getTimer(); }
 
 }

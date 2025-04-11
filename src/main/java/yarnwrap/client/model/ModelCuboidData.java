@@ -17,6 +17,7 @@ public class ModelCuboidData { public net.minecraft.client.model.ModelCuboidData
 // public void textureScale(yarnwrap.client.util.math.Vector2f value) { wrapperContained.textureScale = value.wrapperContained; }
 // public java.util.Set directions() { return wrapperContained.directions; }
 // public void directions(java.util.Set value) { wrapperContained.directions = value; }
+// public ModelCuboidData(java.lang.String name,float textureX,float textureY,float offsetX,float offsetY,float offsetZ,float sizeX,float sizeY,float sizeZ,yarnwrap.client.model.Dilation extra,boolean mirror,float textureScaleX,float textureScaleY,java.util.Set directions) { this.wrapperContained = new net.minecraft.client.model.ModelCuboidData(name,textureX,textureY,offsetX,offsetY,offsetZ,sizeX,sizeY,sizeZ,extra.wrapperContained,mirror,textureScaleX,textureScaleY,directions); }
 public Object createCuboid(int textureWidth,int textureHeight) { return wrapperContained.createCuboid(textureWidth,textureHeight); }
 
 }

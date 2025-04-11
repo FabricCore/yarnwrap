@@ -9,5 +9,6 @@ public com.mojang.serialization.Codec ENTRY_CODEC() { return wrapperContained.EN
 // public void ENTRY_CODEC(com.mojang.serialization.Codec value) { wrapperContained.ENTRY_CODEC = value; }
 public yarnwrap.network.codec.PacketCodec ENTRY_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.ENTRY_PACKET_CODEC); }
 // public void ENTRY_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.ENTRY_PACKET_CODEC = value.wrapperContained; }
+// public com.mojang.datafixers.kinds.App method_58123(Object instance) { return wrapperContained.method_58123(instance); }
 
 }

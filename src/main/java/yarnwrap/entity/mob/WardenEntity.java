@@ -51,6 +51,8 @@ public float getHeartPitch(float tickDelta) { return wrapperContained.getHeartPi
 public void addDarknessToClosePlayers(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.entity.Entity entity,int range) { wrapperContained.addDarknessToClosePlayers(world.wrapperContained,pos.wrapperContained,entity.wrapperContained,range); }
 // public void addDigParticles(yarnwrap.entity.AnimationState animationState) { wrapperContained.addDigParticles(animationState.wrapperContained); }
 public boolean isValidTarget(yarnwrap.entity.Entity entity) { return wrapperContained.isValidTarget(entity.wrapperContained); }
+// public void method_42208(yarnwrap.entity.ai.WardenAngerManager angerManager) { wrapperContained.method_42208(angerManager.wrapperContained); }
+// public void method_42209(yarnwrap.nbt.NbtCompound angerNbt) { wrapperContained.method_42209(angerNbt.wrapperContained); }
 public void removeSuspect(yarnwrap.entity.Entity entity) { wrapperContained.removeSuspect(entity.wrapperContained); }
 public void increaseAngerAt(yarnwrap.entity.Entity entity,int amount,boolean listening) { wrapperContained.increaseAngerAt(entity.wrapperContained,amount,listening); }
 public void increaseAngerAt(yarnwrap.entity.Entity entity) { wrapperContained.increaseAngerAt(entity.wrapperContained); }
@@ -63,8 +65,10 @@ public yarnwrap.entity.ai.WardenAngerManager getAngerManager() { return new yarn
 public Object addAttributes() { return wrapperContained.addAttributes(); }
 public int getAnger() { return wrapperContained.getAnger(); }
 public float getTendrilPitch(float tickDelta) { return wrapperContained.getTendrilPitch(tickDelta); }
+// public void method_42669(yarnwrap.nbt.NbtCompound listenerData) { wrapperContained.method_42669(listenerData.wrapperContained); }
 // public boolean isDiggingOrEmerging() { return wrapperContained.isDiggingOrEmerging(); }
 public void updateAttackTarget(yarnwrap.entity.LivingEntity target) { wrapperContained.updateAttackTarget(target.wrapperContained); }
 // public int getAngerAtTarget() { return wrapperContained.getAngerAtTarget(); }
+// public void method_51303(Object listenerData) { wrapperContained.method_51303(listenerData); }
 
 }

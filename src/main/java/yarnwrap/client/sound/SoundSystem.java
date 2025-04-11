@@ -61,7 +61,19 @@ public int OPENAL_SOFT_ON_LENGTH() { return wrapperContained.OPENAL_SOFT_ON_LENG
 // public void started(boolean value) { wrapperContained.started = value; }
 // public java.util.Map startTicks() { return wrapperContained.startTicks; }
 // public void startTicks(java.util.Map value) { wrapperContained.startTicks = value; }
+public SoundSystem(yarnwrap.client.sound.SoundManager loader,yarnwrap.client.option.GameOptions settings,yarnwrap.resource.ResourceFactory resourceFactory) { this.wrapperContained = new net.minecraft.client.sound.SoundSystem(loader.wrapperContained,settings.wrapperContained,resourceFactory.wrapperContained); }
+// public void method_19748(float source) { wrapperContained.method_19748(source); }
+// public void method_19749(float source) { wrapperContained.method_19749(source); }
+// public void method_19750(float source) { wrapperContained.method_19750(source); }
+// public void method_19752(yarnwrap.client.sound.StaticSound source) { wrapperContained.method_19752(source.wrapperContained); }
 public void stop(yarnwrap.client.sound.SoundInstance sound) { wrapperContained.stop(sound.wrapperContained); }
+// public void method_19754(yarnwrap.client.sound.SoundInstance source,Object sourceManager) { wrapperContained.method_19754(source.wrapperContained,sourceManager); }
+// public void method_19755(yarnwrap.client.sound.AudioStream source) { wrapperContained.method_19755(source.wrapperContained); }
+// public void method_19756(Object source) { wrapperContained.method_19756(source); }
+// public void method_19757(Object sound) { wrapperContained.method_19757(sound); }
+// public void method_19758(Object stream) { wrapperContained.method_19758(stream); }
+// public void method_19759(java.util.stream.Stream sources) { wrapperContained.method_19759(sources); }
+// public void method_19760(java.util.stream.Stream sources) { wrapperContained.method_19760(sources); }
 public void pauseAll() { wrapperContained.pauseAll(); }
 public void resumeAll() { wrapperContained.resumeAll(); }
 public void tick(boolean paused) { wrapperContained.tick(paused); }

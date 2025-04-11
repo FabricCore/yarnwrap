@@ -17,6 +17,8 @@ public class PistonBlockEntity { public net.minecraft.block.entity.PistonBlockEn
 // public void progress(float value) { wrapperContained.progress = value; }
 // public long savedWorldTime() { return wrapperContained.savedWorldTime; }
 // public void savedWorldTime(long value) { wrapperContained.savedWorldTime = value; }
+public PistonBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.PistonBlockEntity(pos.wrapperContained,state.wrapperContained); }
+public PistonBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.BlockState pushedBlock,yarnwrap.util.math.Direction facing,boolean extending,boolean source) { this.wrapperContained = new net.minecraft.block.entity.PistonBlockEntity(pos.wrapperContained,state.wrapperContained,pushedBlock.wrapperContained,facing.wrapperContained,extending,source); }
 public float getRenderOffsetX(float tickDelta) { return wrapperContained.getRenderOffsetX(tickDelta); }
 public yarnwrap.block.BlockState getPushedBlock() { return new yarnwrap.block.BlockState(wrapperContained.getPushedBlock()); }
 // public yarnwrap.block.BlockState getHeadBlockState() { return new yarnwrap.block.BlockState(wrapperContained.getHeadBlockState()); }
@@ -38,6 +40,7 @@ public boolean isSource() { return wrapperContained.isSource(); }
 // public boolean isPushingHoneyBlock() { return wrapperContained.isPushingHoneyBlock(); }
 // public boolean canMoveEntity(yarnwrap.util.math.Box box,yarnwrap.entity.Entity entity,yarnwrap.util.math.BlockPos pos) { return wrapperContained.canMoveEntity(box.wrapperContained,entity.wrapperContained,pos.wrapperContained); }
 // public void moveEntity(yarnwrap.util.math.Direction direction,yarnwrap.entity.Entity entity,double distance,yarnwrap.util.math.Direction movementDirection) { wrapperContained.moveEntity(direction.wrapperContained,entity.wrapperContained,distance,movementDirection.wrapperContained); }
+// public boolean method_23673(yarnwrap.util.math.Box entity) { return wrapperContained.method_23673(entity.wrapperContained); }
 // public void moveEntitiesInHoneyBlock(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,float blockEntity) { wrapperContained.moveEntitiesInHoneyBlock(world.wrapperContained,pos.wrapperContained,blockEntity); }
 public void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.PistonBlockEntity blockEntity) { wrapperContained.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 

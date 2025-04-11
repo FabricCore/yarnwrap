@@ -33,8 +33,10 @@ public class RecoverWorldScreen { public net.minecraft.client.gui.screen.world.R
 // public void exceptionWidget(yarnwrap.client.gui.widget.MultilineTextWidget value) { wrapperContained.exceptionWidget = value.wrapperContained; }
 // public Object session() { return wrapperContained.session; }
 // // public void session(Object value) { wrapperContained.session = value; }
+// public RecoverWorldScreen(yarnwrap.client.MinecraftClient client,it.unimi.dsi.fastutil.booleans.BooleanConsumer callback,Object session) { this.wrapperContained = new net.minecraft.client.gui.screen.world.RecoverWorldScreen(client.wrapperContained,callback,session); }
 // public java.lang.Exception getLoadingException(Object session,boolean old) { return wrapperContained.getLoadingException(session,old); }
 // public yarnwrap.text.Text toText(Object session,boolean old,java.lang.Exception exception) { return new yarnwrap.text.Text(wrapperContained.toText(session,old,exception)); }
 // public void tryRestore(yarnwrap.client.MinecraftClient client) { wrapperContained.tryRestore(client.wrapperContained); }
+// public void method_54587(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_54587(button.wrapperContained); }
 
 }

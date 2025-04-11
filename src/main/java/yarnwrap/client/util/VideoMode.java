@@ -15,6 +15,10 @@ public class VideoMode { public net.minecraft.client.util.VideoMode wrapperConta
 // public void width(int value) { wrapperContained.width = value; }
 // public java.util.regex.Pattern PATTERN() { return wrapperContained.PATTERN; }
 // public void PATTERN(java.util.regex.Pattern value) { wrapperContained.PATTERN = value; }
+public VideoMode(int width,int height,int redBits,int greenBits,int blueBits,int refreshRate) { this.wrapperContained = new net.minecraft.client.util.VideoMode(width,height,redBits,greenBits,blueBits,refreshRate); }
+// public VideoMode(Object buffer) { this.wrapperContained = new net.minecraft.client.util.VideoMode(buffer); }
+public VideoMode(org.lwjgl.glfw.GLFWVidMode vidMode) { this.wrapperContained = new net.minecraft.client.util.VideoMode(vidMode); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public java.util.Optional fromString(java.lang.String string) { return wrapperContained.fromString(string); }
 public int getRedBits() { return wrapperContained.getRedBits(); }
 public int getGreenBits() { return wrapperContained.getGreenBits(); }

@@ -7,6 +7,7 @@ public class AbstractCauldronBlock { public net.minecraft.block.AbstractCauldron
 // public void RAYCAST_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.RAYCAST_SHAPE = value.wrapperContained; }
 // public Object behaviorMap() { return wrapperContained.behaviorMap; }
 // // public void behaviorMap(Object value) { wrapperContained.behaviorMap = value; }
+// public AbstractCauldronBlock(Object settings,Object behaviorMap) { this.wrapperContained = new net.minecraft.block.AbstractCauldronBlock(settings,behaviorMap); }
 // public double getFluidHeight(yarnwrap.block.BlockState state) { return wrapperContained.getFluidHeight(state.wrapperContained); }
 // public boolean isEntityTouchingFluid(yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.Entity entity) { return wrapperContained.isEntityTouchingFluid(state.wrapperContained,pos.wrapperContained,entity.wrapperContained); }
 // public void fillFromDripstone(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.Fluid fluid) { wrapperContained.fillFromDripstone(state.wrapperContained,world.wrapperContained,pos.wrapperContained,fluid.wrapperContained); }

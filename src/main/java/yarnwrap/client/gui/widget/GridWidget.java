@@ -11,6 +11,7 @@ public class GridWidget { public net.minecraft.client.gui.widget.GridWidget wrap
 // public void rowSpacing(int value) { wrapperContained.rowSpacing = value; }
 // public int columnSpacing() { return wrapperContained.columnSpacing; }
 // public void columnSpacing(int value) { wrapperContained.columnSpacing = value; }
+public GridWidget(int x,int y) { this.wrapperContained = new net.minecraft.client.gui.widget.GridWidget(x,y); }
 public yarnwrap.client.gui.widget.Widget add(yarnwrap.client.gui.widget.Widget widget,int row,int column) { return new yarnwrap.client.gui.widget.Widget(wrapperContained.add(widget.wrapperContained,row,column)); }
 public yarnwrap.client.gui.widget.Widget add(yarnwrap.client.gui.widget.Widget widget,int row,int column,int occupiedRows,int occupiedColumns) { return new yarnwrap.client.gui.widget.Widget(wrapperContained.add(widget.wrapperContained,row,column,occupiedRows,occupiedColumns)); }
 public yarnwrap.client.gui.widget.Widget add(yarnwrap.client.gui.widget.Widget widget,int row,int column,int occupiedRows,int occupiedColumns,yarnwrap.client.gui.widget.Positioner positioner) { return new yarnwrap.client.gui.widget.Widget(wrapperContained.add(widget.wrapperContained,row,column,occupiedRows,occupiedColumns,positioner.wrapperContained)); }

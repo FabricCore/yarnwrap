@@ -9,6 +9,7 @@ public yarnwrap.client.network.AllowedAddressResolver DEFAULT() { return new yar
 // public void redirectResolver(yarnwrap.client.network.RedirectResolver value) { wrapperContained.redirectResolver = value.wrapperContained; }
 // public yarnwrap.client.network.BlockListChecker blockListChecker() { return new yarnwrap.client.network.BlockListChecker(wrapperContained.blockListChecker); }
 // public void blockListChecker(yarnwrap.client.network.BlockListChecker value) { wrapperContained.blockListChecker = value.wrapperContained; }
+// public AllowedAddressResolver(yarnwrap.client.network.AddressResolver addressResolver,yarnwrap.client.network.RedirectResolver redirectResolver,yarnwrap.client.network.BlockListChecker blockListChecker) { this.wrapperContained = new net.minecraft.client.network.AllowedAddressResolver(addressResolver.wrapperContained,redirectResolver.wrapperContained,blockListChecker.wrapperContained); }
 public java.util.Optional resolve(yarnwrap.client.network.ServerAddress address) { return wrapperContained.resolve(address.wrapperContained); }
 
 }

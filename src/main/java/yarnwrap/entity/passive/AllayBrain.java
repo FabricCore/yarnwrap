@@ -18,7 +18,9 @@ public void rememberNoteBlock(yarnwrap.entity.LivingEntity allay,yarnwrap.util.m
 public void updateActivities(yarnwrap.entity.passive.AllayEntity allay) { wrapperContained.updateActivities(allay.wrapperContained); }
 // public java.util.Optional getLikedLookTarget(yarnwrap.entity.LivingEntity allay) { return wrapperContained.getLikedLookTarget(allay.wrapperContained); }
 // public void addCoreActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addCoreActivities(brain.wrapperContained); }
+// public boolean method_42664(yarnwrap.entity.passive.AllayEntity allay) { return wrapperContained.method_42664(allay.wrapperContained); }
 // public void addIdleActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleActivities(brain.wrapperContained); }
+// public yarnwrap.entity.ai.brain.LookTarget method_43092(yarnwrap.server.network.ServerPlayerEntity player) { return new yarnwrap.entity.ai.brain.LookTarget(wrapperContained.method_43092(player.wrapperContained)); }
 public java.util.Optional getLikedPlayer(yarnwrap.entity.LivingEntity allay) { return wrapperContained.getLikedPlayer(allay.wrapperContained); }
 // public boolean hasNearestVisibleWantedItem(yarnwrap.entity.LivingEntity entity) { return wrapperContained.hasNearestVisibleWantedItem(entity.wrapperContained); }
 

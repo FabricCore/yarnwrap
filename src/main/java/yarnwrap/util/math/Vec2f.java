@@ -21,6 +21,7 @@ public float x() { return wrapperContained.x; }
 // public void x(float value) { wrapperContained.x = value; }
 public yarnwrap.util.math.Vec2f NORTH_UNIT() { return new yarnwrap.util.math.Vec2f(wrapperContained.NORTH_UNIT); }
 // public void NORTH_UNIT(yarnwrap.util.math.Vec2f value) { wrapperContained.NORTH_UNIT = value.wrapperContained; }
+public Vec2f(float x,float y) { this.wrapperContained = new net.minecraft.util.math.Vec2f(x,y); }
 public boolean equals(yarnwrap.util.math.Vec2f other) { return wrapperContained.equals(other.wrapperContained); }
 public yarnwrap.util.math.Vec2f normalize() { return new yarnwrap.util.math.Vec2f(wrapperContained.normalize()); }
 public yarnwrap.util.math.Vec2f multiply(float value) { return new yarnwrap.util.math.Vec2f(wrapperContained.multiply(value)); }

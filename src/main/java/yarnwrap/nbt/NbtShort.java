@@ -7,6 +7,8 @@ public yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(wrapperCont
 // public void TYPE(yarnwrap.nbt.NbtType value) { wrapperContained.TYPE = value.wrapperContained; }
 // public int SIZE() { return wrapperContained.SIZE; }
 // public void SIZE(int value) { wrapperContained.SIZE = value; }
+// public NbtShort(short value) { this.wrapperContained = new net.minecraft.nbt.NbtShort(value); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public yarnwrap.nbt.NbtShort of(short value) { return new yarnwrap.nbt.NbtShort(wrapperContained.of(value)); }
 
 }

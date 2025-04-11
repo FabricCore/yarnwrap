@@ -5,5 +5,6 @@ public class NbtElementArgumentType { public net.minecraft.command.argument.NbtE
 // public void EXAMPLES(java.util.Collection value) { wrapperContained.EXAMPLES = value; }
 public yarnwrap.command.argument.NbtElementArgumentType nbtElement() { return new yarnwrap.command.argument.NbtElementArgumentType(wrapperContained.nbtElement()); }
 public yarnwrap.nbt.NbtElement getNbtElement(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return new yarnwrap.nbt.NbtElement(wrapperContained.getNbtElement(context,name)); }
+// public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 
 }

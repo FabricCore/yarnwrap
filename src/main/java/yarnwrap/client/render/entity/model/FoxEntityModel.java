@@ -21,6 +21,7 @@ public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model
 // public void HEAD_Y_PIVOT(float value) { wrapperContained.HEAD_Y_PIVOT = value; }
 // public float LEG_Y_PIVOT() { return wrapperContained.LEG_Y_PIVOT; }
 // public void LEG_Y_PIVOT(float value) { wrapperContained.LEG_Y_PIVOT = value; }
+public FoxEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.FoxEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }

@@ -13,6 +13,7 @@ public class BlockFamily { public net.minecraft.data.family.BlockFamily wrapperC
 // public void group(java.lang.String value) { wrapperContained.group = value; }
 // public java.lang.String unlockCriterionName() { return wrapperContained.unlockCriterionName; }
 // public void unlockCriterionName(java.lang.String value) { wrapperContained.unlockCriterionName = value; }
+// public BlockFamily(yarnwrap.block.Block baseBlock) { this.wrapperContained = new net.minecraft.data.family.BlockFamily(baseBlock.wrapperContained); }
 public yarnwrap.block.Block getBaseBlock() { return new yarnwrap.block.Block(wrapperContained.getBaseBlock()); }
 // public yarnwrap.block.Block getVariant(Object variant) { return new yarnwrap.block.Block(wrapperContained.getVariant(variant)); }
 public java.util.Map getVariants() { return wrapperContained.getVariants(); }

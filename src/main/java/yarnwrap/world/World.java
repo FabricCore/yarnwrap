@@ -67,6 +67,7 @@ public boolean isClient() { return wrapperContained.isClient; }
 // public void rainGradientPrev(float value) { wrapperContained.rainGradientPrev = value; }
 // public int lcgBlockSeed() { return wrapperContained.lcgBlockSeed; }
 // public void lcgBlockSeed(int value) { wrapperContained.lcgBlockSeed = value; }
+// public World(yarnwrap.world.MutableWorldProperties properties,yarnwrap.registry.RegistryKey registryRef,yarnwrap.registry.DynamicRegistryManager registryManager,yarnwrap.registry.entry.RegistryEntry dimensionEntry,java.util.function.Supplier profiler,boolean isClient,boolean debugWorld,long biomeAccess,int maxChainedNeighborUpdates) { this.wrapperContained = new net.minecraft.world.World(properties.wrapperContained,registryRef.wrapperContained,registryManager.wrapperContained,dimensionEntry.wrapperContained,profiler,isClient,debugWorld,biomeAccess,maxChainedNeighborUpdates); }
 public yarnwrap.util.profiler.Profiler getProfiler() { return new yarnwrap.util.profiler.Profiler(wrapperContained.getProfiler()); }
 public void scheduleBlockRerenderIfNeeded(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState old,yarnwrap.block.BlockState updated) { wrapperContained.scheduleBlockRerenderIfNeeded(pos.wrapperContained,old.wrapperContained,updated.wrapperContained); }
 public void addImportantParticle(yarnwrap.particle.ParticleEffect parameters,boolean alwaysSpawn,double x,double y,double z,double velocityX,double velocityY,double velocityZ) { wrapperContained.addImportantParticle(parameters.wrapperContained,alwaysSpawn,x,y,z,velocityX,velocityY,velocityZ); }
@@ -86,6 +87,7 @@ public boolean isDebugWorld() { return wrapperContained.isDebugWorld(); }
 public yarnwrap.registry.RegistryKey getRegistryKey() { return new yarnwrap.registry.RegistryKey(wrapperContained.getRegistryKey()); }
 public java.lang.String asString() { return wrapperContained.asString(); }
 // public yarnwrap.world.entity.EntityLookup getEntityLookup() { return new yarnwrap.world.entity.EntityLookup(wrapperContained.getEntityLookup()); }
+// public void method_31593(yarnwrap.entity.Entity entity) { wrapperContained.method_31593(entity.wrapperContained); }
 public void addBlockEntityTicker(yarnwrap.world.chunk.BlockEntityTickInvoker ticker) { wrapperContained.addBlockEntityTicker(ticker.wrapperContained); }
 public void addBlockBreakParticles(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.addBlockBreakParticles(pos.wrapperContained,state.wrapperContained); }
 public boolean shouldUpdatePostDeath(yarnwrap.entity.Entity entity) { return wrapperContained.shouldUpdatePostDeath(entity.wrapperContained); }
@@ -104,6 +106,7 @@ public void playSoundAtBlockCenter(yarnwrap.util.math.BlockPos pos,yarnwrap.soun
 // public Object getDestructionType(Object gameRuleKey) { return wrapperContained.getDestructionType(gameRuleKey); }
 public void collectEntitiesByType(yarnwrap.util.TypeFilter filter,yarnwrap.util.math.Box box,java.util.function.Predicate predicate,java.util.List result) { wrapperContained.collectEntitiesByType(filter.wrapperContained,box.wrapperContained,predicate,result); }
 public void collectEntitiesByType(yarnwrap.util.TypeFilter filter,yarnwrap.util.math.Box box,java.util.function.Predicate predicate,java.util.List result,int limit) { wrapperContained.collectEntitiesByType(filter.wrapperContained,box.wrapperContained,predicate,result,limit); }
+// public Object method_47576(java.util.function.Predicate entity) { return wrapperContained.method_47576(entity); }
 public void playSound(yarnwrap.entity.player.PlayerEntity source,double x,double y,double z,yarnwrap.sound.SoundEvent sound,yarnwrap.sound.SoundCategory category,float volume,float pitch,long seed) { wrapperContained.playSound(source.wrapperContained,x,y,z,sound.wrapperContained,category.wrapperContained,volume,pitch,seed); }
 public void sendEntityDamage(yarnwrap.entity.Entity entity,yarnwrap.entity.damage.DamageSource damageSource) { wrapperContained.sendEntityDamage(entity.wrapperContained,damageSource.wrapperContained); }
 public yarnwrap.entity.damage.DamageSources getDamageSources() { return new yarnwrap.entity.damage.DamageSources(wrapperContained.getDamageSources()); }

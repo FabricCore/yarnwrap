@@ -17,6 +17,8 @@ public yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(wrapperCont
 // public void NULL(char value) { wrapperContained.NULL = value; }
 // public int SIZE() { return wrapperContained.SIZE; }
 // public void SIZE(int value) { wrapperContained.SIZE = value; }
+// public NbtString(java.lang.String value) { this.wrapperContained = new net.minecraft.nbt.NbtString(value); }
+public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 public java.lang.String escape(java.lang.String value) { return wrapperContained.escape(value); }
 public yarnwrap.nbt.NbtString of(java.lang.String value) { return new yarnwrap.nbt.NbtString(wrapperContained.of(value)); }
 // public void skip(java.io.DataInput input) { wrapperContained.skip(input); }

@@ -9,6 +9,7 @@ public class BlockModelRenderer { public net.minecraft.client.render.block.Block
 // public void colors(yarnwrap.client.color.block.BlockColors value) { wrapperContained.colors = value.wrapperContained; }
 // public java.lang.ThreadLocal BRIGHTNESS_CACHE() { return wrapperContained.BRIGHTNESS_CACHE; }
 // public void BRIGHTNESS_CACHE(java.lang.ThreadLocal value) { wrapperContained.BRIGHTNESS_CACHE = value; }
+public BlockModelRenderer(yarnwrap.client.color.block.BlockColors colors) { this.wrapperContained = new net.minecraft.client.render.block.BlockModelRenderer(colors.wrapperContained); }
 public void enableBrightnessCache() { wrapperContained.enableBrightnessCache(); }
 public void disableBrightnessCache() { wrapperContained.disableBrightnessCache(); }
 // public void renderQuad(yarnwrap.world.BlockRenderView world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,yarnwrap.client.render.VertexConsumer vertexConsumer,Object matrixEntry,yarnwrap.client.render.model.BakedQuad quad,float brightness0,float brightness1,float brightness2,float brightness3,int light0,int light1,int light2,int light3,int overlay) { wrapperContained.renderQuad(world.wrapperContained,state.wrapperContained,pos.wrapperContained,vertexConsumer.wrapperContained,matrixEntry,quad.wrapperContained,brightness0,brightness1,brightness2,brightness3,light0,light1,light2,light3,overlay); }

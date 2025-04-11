@@ -5,5 +5,6 @@ public class DrownedOverlayFeatureRenderer { public net.minecraft.client.render.
 // public void SKIN(yarnwrap.util.Identifier value) { wrapperContained.SKIN = value.wrapperContained; }
 // public yarnwrap.client.render.entity.model.DrownedEntityModel model() { return new yarnwrap.client.render.entity.model.DrownedEntityModel(wrapperContained.model); }
 // public void model(yarnwrap.client.render.entity.model.DrownedEntityModel value) { wrapperContained.model = value.wrapperContained; }
+public DrownedOverlayFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.EntityModelLoader loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.DrownedOverlayFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
 
 }

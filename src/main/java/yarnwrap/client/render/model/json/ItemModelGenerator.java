@@ -3,6 +3,7 @@ public class ItemModelGenerator { public net.minecraft.client.render.model.json.
 
 public java.util.List LAYERS() { return wrapperContained.LAYERS; }
 // public void LAYERS(java.util.List value) { wrapperContained.LAYERS = value; }
+// public void method_33428(int frame) { wrapperContained.method_33428(frame); }
 // public void buildCube(Object side,java.util.List cubes,yarnwrap.client.texture.SpriteContents sprite,int frame,int x,int y,int width,int height) { wrapperContained.buildCube(side,cubes,sprite.wrapperContained,frame,x,y,width,height); }
 // public boolean isPixelTransparent(yarnwrap.client.texture.SpriteContents sprite,int frame,int x,int y,int width,int height) { return wrapperContained.isPixelTransparent(sprite.wrapperContained,frame,x,y,width,height); }
 // public java.util.List getFrames(yarnwrap.client.texture.SpriteContents sprite) { return wrapperContained.getFrames(sprite.wrapperContained); }

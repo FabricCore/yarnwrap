@@ -5,5 +5,6 @@ public class FlightMoveControl { public net.minecraft.entity.ai.control.FlightMo
 // public void maxPitchChange(int value) { wrapperContained.maxPitchChange = value; }
 // public boolean noGravity() { return wrapperContained.noGravity; }
 // public void noGravity(boolean value) { wrapperContained.noGravity = value; }
+public FlightMoveControl(yarnwrap.entity.mob.MobEntity entity,int maxPitchChange,boolean noGravity) { this.wrapperContained = new net.minecraft.entity.ai.control.FlightMoveControl(entity.wrapperContained,maxPitchChange,noGravity); }
 
 }

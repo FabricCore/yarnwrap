@@ -23,6 +23,7 @@ public class HoglinEntityModel { public net.minecraft.client.render.entity.model
 // public void HEAD_PITCH_START(float value) { wrapperContained.HEAD_PITCH_START = value; }
 // public float HEAD_PITCH_END() { return wrapperContained.HEAD_PITCH_END; }
 // public void HEAD_PITCH_END(float value) { wrapperContained.HEAD_PITCH_END = value; }
+public HoglinEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.HoglinEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 
 }
