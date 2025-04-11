@@ -3,7 +3,7 @@
   "id": "yarnwrap",
   "version": "${version}",
   "name": "yarnwrap",
-  "description": "Movement automation utility.",
+  "description": "Yarn bindings.",
   "authors": [
     "Siriusmart"
   ],

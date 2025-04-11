@@ -1,0 +1,10 @@
+package yarnwrap.loot.entry;
+public class ItemEntry { public net.minecraft.loot.entry.ItemEntry wrapperContained; public ItemEntry(net.minecraft.loot.entry.ItemEntry wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+// public yarnwrap.registry.entry.RegistryEntry item() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.item); }
+// public void item(yarnwrap.registry.entry.RegistryEntry value) { wrapperContained.item = value.wrapperContained; }
+public Object builder(yarnwrap.item.ItemConvertible drop) { return wrapperContained.builder(drop.wrapperContained); }
+
+}

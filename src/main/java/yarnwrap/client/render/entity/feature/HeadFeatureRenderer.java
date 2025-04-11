@@ -1,0 +1,16 @@
+package yarnwrap.client.render.entity.feature;
+public class HeadFeatureRenderer { public net.minecraft.client.render.entity.feature.HeadFeatureRenderer wrapperContained; public HeadFeatureRenderer(net.minecraft.client.render.entity.feature.HeadFeatureRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public float scaleX() { return wrapperContained.scaleX; }
+// public void scaleX(float value) { wrapperContained.scaleX = value; }
+// public float scaleY() { return wrapperContained.scaleY; }
+// public void scaleY(float value) { wrapperContained.scaleY = value; }
+// public float scaleZ() { return wrapperContained.scaleZ; }
+// public void scaleZ(float value) { wrapperContained.scaleZ = value; }
+// public java.util.Map headModels() { return wrapperContained.headModels; }
+// public void headModels(java.util.Map value) { wrapperContained.headModels = value; }
+// public yarnwrap.client.render.item.HeldItemRenderer heldItemRenderer() { return new yarnwrap.client.render.item.HeldItemRenderer(wrapperContained.heldItemRenderer); }
+// public void heldItemRenderer(yarnwrap.client.render.item.HeldItemRenderer value) { wrapperContained.heldItemRenderer = value.wrapperContained; }
+public void translate(yarnwrap.client.util.math.MatrixStack matrices,boolean villager) { wrapperContained.translate(matrices.wrapperContained,villager); }
+
+}

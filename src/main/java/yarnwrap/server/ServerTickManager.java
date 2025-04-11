@@ -1,0 +1,28 @@
+package yarnwrap.server;
+public class ServerTickManager { public net.minecraft.server.ServerTickManager wrapperContained; public ServerTickManager(net.minecraft.server.ServerTickManager wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public long sprintTicks() { return wrapperContained.sprintTicks; }
+// public void sprintTicks(long value) { wrapperContained.sprintTicks = value; }
+// public long sprintStartTime() { return wrapperContained.sprintStartTime; }
+// public void sprintStartTime(long value) { wrapperContained.sprintStartTime = value; }
+// public long sprintTime() { return wrapperContained.sprintTime; }
+// public void sprintTime(long value) { wrapperContained.sprintTime = value; }
+// public long scheduledSprintTicks() { return wrapperContained.scheduledSprintTicks; }
+// public void scheduledSprintTicks(long value) { wrapperContained.scheduledSprintTicks = value; }
+// public boolean wasFrozen() { return wrapperContained.wasFrozen; }
+// public void wasFrozen(boolean value) { wrapperContained.wasFrozen = value; }
+// public yarnwrap.server.MinecraftServer server() { return new yarnwrap.server.MinecraftServer(wrapperContained.server); }
+// public void server(yarnwrap.server.MinecraftServer value) { wrapperContained.server = value.wrapperContained; }
+public boolean isSprinting() { return wrapperContained.isSprinting(); }
+public boolean step(int ticks) { return wrapperContained.step(ticks); }
+public void sendPackets(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.sendPackets(player.wrapperContained); }
+public boolean stopStepping() { return wrapperContained.stopStepping(); }
+public boolean startSprint(int ticks) { return wrapperContained.startSprint(ticks); }
+public boolean stopSprinting() { return wrapperContained.stopSprinting(); }
+public boolean sprint() { return wrapperContained.sprint(); }
+public void updateSprintTime() { wrapperContained.updateSprintTime(); }
+// public void sendUpdateTickRatePacket() { wrapperContained.sendUpdateTickRatePacket(); }
+// public void sendStepPacket() { wrapperContained.sendStepPacket(); }
+// public void finishSprinting() { wrapperContained.finishSprinting(); }
+
+}
