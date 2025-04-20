@@ -17,7 +17,7 @@ Yarnwrap contains
 
 ## Usage
 
-Yarnwrap is a library mod, **put it in the mods folder**.
+Yarnwrap is a library mod, **put it in the mods folder**, Fabric API required.
 
 ### Class Conversion
 
