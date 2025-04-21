@@ -11,7 +11,7 @@ Yarnwrap contains
 
 | Version | Download                                                                                            |
 | ------- | --------------------------------------------------------------------------------------------------- |
-| 1.21.1  | [1.21.1b2](https://github.com/FabricCore/yarnwrap/releases/download/1.21.1b2/yarnwrap-1.21.1b2.jar) |
+| 1.21.1  | [1.21.1b2](https://github.com/FabricCore/yarnwrap/releases/download/1.21.1b2/yarnwrap-1_21_1b2.jar) |
 
 > I would appreciate if you give this project a star :)
 
