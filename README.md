@@ -37,10 +37,10 @@ net.minecarft.name.of.Type = wrapped.wrapperContained;
 
 ### Event Listeners (Runnables)
 
-**yarnwrap.Core** implements the functional interfaces to be used as a listener to Fabric API events.
+**yarnwrap.Runnable** implements the functional interfaces to be used as a listener to Fabric API events.
 
 ```java
-yarnwrap.Core runnable = Core.runnable.create("label", "function f() { ... }");
+yarnwrap.Runnable runnable = Core.runnable.create("label", "function f() { ... }");
 ClientTickEvents.START_CLIENT_TICK.register(runnable);
 ```
 
