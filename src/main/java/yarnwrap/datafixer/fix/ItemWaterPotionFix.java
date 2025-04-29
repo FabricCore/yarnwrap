@@ -3,5 +3,6 @@ public class ItemWaterPotionFix { public net.minecraft.datafixer.fix.ItemWaterPo
 
 public ItemWaterPotionFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.ItemWaterPotionFix(outputSchema,changesType); }
 // public com.mojang.datafixers.Typed method_5048(com.mojang.datafixers.OpticFinder itemStackTyped) { return wrapperContained.method_5048(itemStackTyped); }
+// public static com.mojang.datafixers.Typed method_5048(com.mojang.datafixers.OpticFinder itemStackTyped, ) { return net.minecraft.datafixer.fix.ItemWaterPotionFix.method_5048(itemStackTyped); }
 
 }

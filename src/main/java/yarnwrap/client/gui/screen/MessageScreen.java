@@ -3,5 +3,8 @@ public class MessageScreen { public net.minecraft.client.gui.screen.MessageScree
 
 // public yarnwrap.client.gui.widget.NarratedMultilineTextWidget textWidget() { return new yarnwrap.client.gui.widget.NarratedMultilineTextWidget(wrapperContained.textWidget); }
 // public void textWidget(yarnwrap.client.gui.widget.NarratedMultilineTextWidget value) { wrapperContained.textWidget = value.wrapperContained; }
+// public static yarnwrap.client.gui.widget.NarratedMultilineTextWidget textWidget() { return new yarnwrap.client.gui.widget.NarratedMultilineTextWidget(net.minecraft.client.gui.screen.MessageScreen.textWidget); }
+// public static void textWidget(yarnwrap.client.gui.widget.NarratedMultilineTextWidget value, ) { net.minecraft.client.gui.screen.MessageScreen.textWidget = value.wrapperContained; }
+
 
 }

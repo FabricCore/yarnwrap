@@ -3,7 +3,10 @@ public class ItemCustomNameToComponentFix { public net.minecraft.datafixer.fix.I
 
 public ItemCustomNameToComponentFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesTyped) { this.wrapperContained = new net.minecraft.datafixer.fix.ItemCustomNameToComponentFix(outputSchema,changesTyped); }
 // public com.mojang.serialization.Dynamic fixCustomName(com.mojang.serialization.Dynamic tagDynamic) { return wrapperContained.fixCustomName(tagDynamic); }
+// public static com.mojang.serialization.Dynamic fixCustomName(com.mojang.serialization.Dynamic tagDynamic, ) { return net.minecraft.datafixer.fix.ItemCustomNameToComponentFix.fixCustomName(tagDynamic); }
 // public com.mojang.datafixers.Typed method_5002(com.mojang.datafixers.OpticFinder itemStackTyped) { return wrapperContained.method_5002(itemStackTyped); }
+// public static com.mojang.datafixers.Typed method_5002(com.mojang.datafixers.OpticFinder itemStackTyped, ) { return net.minecraft.datafixer.fix.ItemCustomNameToComponentFix.method_5002(itemStackTyped); }
 // public com.mojang.datafixers.Typed method_5003(com.mojang.datafixers.Typed tagTyped) { return wrapperContained.method_5003(tagTyped); }
+// public static com.mojang.datafixers.Typed method_5003(com.mojang.datafixers.Typed tagTyped, ) { return net.minecraft.datafixer.fix.ItemCustomNameToComponentFix.method_5003(tagTyped); }
 
 }

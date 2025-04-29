@@ -3,6 +3,9 @@ public class EntityTrackingSoundInstance { public net.minecraft.client.sound.Ent
 
 // public yarnwrap.entity.Entity entity() { return new yarnwrap.entity.Entity(wrapperContained.entity); }
 // public void entity(yarnwrap.entity.Entity value) { wrapperContained.entity = value.wrapperContained; }
+// public static yarnwrap.entity.Entity entity() { return new yarnwrap.entity.Entity(net.minecraft.client.sound.EntityTrackingSoundInstance.entity); }
+// public static void entity(yarnwrap.entity.Entity value, ) { net.minecraft.client.sound.EntityTrackingSoundInstance.entity = value.wrapperContained; }
+
 public EntityTrackingSoundInstance(yarnwrap.sound.SoundEvent sound,yarnwrap.sound.SoundCategory category,float volume,float pitch,yarnwrap.entity.Entity entity,long seed) { this.wrapperContained = new net.minecraft.client.sound.EntityTrackingSoundInstance(sound.wrapperContained,category.wrapperContained,volume,pitch,entity.wrapperContained,seed); }
 
 }

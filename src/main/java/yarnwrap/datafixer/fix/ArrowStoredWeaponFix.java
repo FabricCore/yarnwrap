@@ -3,6 +3,8 @@ public class ArrowStoredWeaponFix { public net.minecraft.datafixer.fix.ArrowStor
 
 public ArrowStoredWeaponFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.ArrowStoredWeaponFix(outputSchema); }
 // public java.util.function.Function fixFor(java.lang.String entityId) { return wrapperContained.fixFor(entityId); }
+// public static java.util.function.Function fixFor(java.lang.String entityId, ) { return net.minecraft.datafixer.fix.ArrowStoredWeaponFix.fixFor(entityId); }
 // public java.util.function.Function method_59912(java.lang.String name) { return wrapperContained.method_59912(name); }
+// public static java.util.function.Function method_59912(java.lang.String name, ) { return net.minecraft.datafixer.fix.ArrowStoredWeaponFix.method_59912(name); }
 
 }

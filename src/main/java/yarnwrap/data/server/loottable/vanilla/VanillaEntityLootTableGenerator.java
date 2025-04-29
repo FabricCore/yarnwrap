@@ -3,5 +3,6 @@ public class VanillaEntityLootTableGenerator { public net.minecraft.data.server.
 
 // public VanillaEntityLootTableGenerator(Object registryLookup) { this.wrapperContained = new net.minecraft.data.server.loottable.vanilla.VanillaEntityLootTableGenerator(registryLookup); }
 public Object createElderGuardianTableBuilder() { return wrapperContained.createElderGuardianTableBuilder(); }
+// public static Object createElderGuardianTableBuilder() { return net.minecraft.data.server.loottable.vanilla.VanillaEntityLootTableGenerator.createElderGuardianTableBuilder(); }
 
 }

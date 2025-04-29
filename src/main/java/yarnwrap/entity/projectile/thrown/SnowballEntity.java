@@ -4,5 +4,6 @@ public class SnowballEntity { public net.minecraft.entity.projectile.thrown.Snow
 public SnowballEntity(yarnwrap.world.World world,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.projectile.thrown.SnowballEntity(world.wrapperContained,x,y,z); }
 public SnowballEntity(yarnwrap.world.World world,yarnwrap.entity.LivingEntity owner) { this.wrapperContained = new net.minecraft.entity.projectile.thrown.SnowballEntity(world.wrapperContained,owner.wrapperContained); }
 // public yarnwrap.particle.ParticleEffect getParticleParameters() { return new yarnwrap.particle.ParticleEffect(wrapperContained.getParticleParameters()); }
+// public static yarnwrap.particle.ParticleEffect getParticleParameters() { return new yarnwrap.particle.ParticleEffect(net.minecraft.entity.projectile.thrown.SnowballEntity.getParticleParameters()); }
 
 }

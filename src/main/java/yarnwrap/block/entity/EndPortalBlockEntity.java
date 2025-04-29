@@ -3,5 +3,6 @@ public class EndPortalBlockEntity { public net.minecraft.block.entity.EndPortalB
 
 public EndPortalBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.EndPortalBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public boolean shouldDrawSide(yarnwrap.util.math.Direction direction) { return wrapperContained.shouldDrawSide(direction.wrapperContained); }
+// public static boolean shouldDrawSide(yarnwrap.util.math.Direction direction, ) { return net.minecraft.block.entity.EndPortalBlockEntity.shouldDrawSide(direction.wrapperContained); }
 
 }

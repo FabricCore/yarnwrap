@@ -3,5 +3,6 @@ public class FontOptionsScreen { public net.minecraft.client.gui.screen.option.F
 
 public FontOptionsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.option.GameOptions gameOptions) { this.wrapperContained = new net.minecraft.client.gui.screen.option.FontOptionsScreen(parent.wrapperContained,gameOptions.wrapperContained); }
 // public net.minecraft.client.option.SimpleOption[] getOptions(yarnwrap.client.option.GameOptions gameOptions) { return wrapperContained.getOptions(gameOptions.wrapperContained); }
+// public static net.minecraft.client.option.SimpleOption[] getOptions(yarnwrap.client.option.GameOptions gameOptions, ) { return net.minecraft.client.gui.screen.option.FontOptionsScreen.getOptions(gameOptions.wrapperContained); }
 
 }

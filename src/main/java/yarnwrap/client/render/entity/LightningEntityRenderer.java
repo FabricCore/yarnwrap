@@ -2,5 +2,6 @@ package yarnwrap.client.render.entity;
 public class LightningEntityRenderer { public net.minecraft.client.render.entity.LightningEntityRenderer wrapperContained; public LightningEntityRenderer(net.minecraft.client.render.entity.LightningEntityRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
 
 // public void drawBranch(org.joml.Matrix4f matrix,yarnwrap.client.render.VertexConsumer buffer,float x1,float z1,int y,float x2,float z2,float red,float green,float blue,float offset2,float offset1,boolean shiftEast1,boolean shiftSouth1,boolean shiftEast2,boolean shiftSouth2) { wrapperContained.drawBranch(matrix,buffer.wrapperContained,x1,z1,y,x2,z2,red,green,blue,offset2,offset1,shiftEast1,shiftSouth1,shiftEast2,shiftSouth2); }
+// public static void drawBranch(org.joml.Matrix4f matrix,yarnwrap.client.render.VertexConsumer buffer,float x1,float z1,int y,float x2,float z2,float red,float green,float blue,float offset2,float offset1,boolean shiftEast1,boolean shiftSouth1,boolean shiftEast2,boolean shiftSouth2, ) { net.minecraft.client.render.entity.LightningEntityRenderer.drawBranch(matrix,buffer.wrapperContained,x1,z1,y,x2,z2,red,green,blue,offset2,offset1,shiftEast1,shiftSouth1,shiftEast2,shiftSouth2); }
 
 }

@@ -2,15 +2,26 @@ package yarnwrap.entity.ai.brain.task;
 public class WorkStationCompetitionTask { public net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask wrapperContained; public WorkStationCompetitionTask(net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask wrapperContained) { this.wrapperContained = wrapperContained; }
 
 // public boolean isCompletedWorkStation(yarnwrap.registry.entry.RegistryEntry poiType,yarnwrap.village.VillagerProfession profession) { return wrapperContained.isCompletedWorkStation(poiType.wrapperContained,profession.wrapperContained); }
+// public static boolean isCompletedWorkStation(yarnwrap.registry.entry.RegistryEntry poiType,yarnwrap.village.VillagerProfession profession, ) { return net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.isCompletedWorkStation(poiType.wrapperContained,profession.wrapperContained); }
 // public yarnwrap.entity.passive.VillagerEntity keepJobSiteForMoreExperiencedVillager(yarnwrap.entity.passive.VillagerEntity first,yarnwrap.entity.passive.VillagerEntity second) { return new yarnwrap.entity.passive.VillagerEntity(wrapperContained.keepJobSiteForMoreExperiencedVillager(first.wrapperContained,second.wrapperContained)); }
+// public static yarnwrap.entity.passive.VillagerEntity keepJobSiteForMoreExperiencedVillager(yarnwrap.entity.passive.VillagerEntity first,yarnwrap.entity.passive.VillagerEntity second, ) { return new yarnwrap.entity.passive.VillagerEntity(net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.keepJobSiteForMoreExperiencedVillager(first.wrapperContained,second.wrapperContained)); }
 // public boolean isUsingWorkStationAt(yarnwrap.util.math.GlobalPos pos,yarnwrap.registry.entry.RegistryEntry poiType,yarnwrap.entity.passive.VillagerEntity villager) { return wrapperContained.isUsingWorkStationAt(pos.wrapperContained,poiType.wrapperContained,villager.wrapperContained); }
-public yarnwrap.entity.ai.brain.task.Task create() { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.create()); }
+// public static boolean isUsingWorkStationAt(yarnwrap.util.math.GlobalPos pos,yarnwrap.registry.entry.RegistryEntry poiType,yarnwrap.entity.passive.VillagerEntity villager, ) { return net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.isUsingWorkStationAt(pos.wrapperContained,poiType.wrapperContained,villager.wrapperContained); }
+// public yarnwrap.entity.ai.brain.task.Task create() { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.create()); }
+public static yarnwrap.entity.ai.brain.task.Task create() { return new yarnwrap.entity.ai.brain.task.Task(net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.create()); }
 // public yarnwrap.entity.passive.VillagerEntity method_47007(yarnwrap.entity.LivingEntity villager) { return new yarnwrap.entity.passive.VillagerEntity(wrapperContained.method_47007(villager.wrapperContained)); }
+// public static yarnwrap.entity.passive.VillagerEntity method_47007(yarnwrap.entity.LivingEntity villager, ) { return new yarnwrap.entity.passive.VillagerEntity(net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.method_47007(villager.wrapperContained)); }
 // public com.mojang.datafixers.kinds.App method_47008(Object context) { return wrapperContained.method_47008(context); }
+// public static com.mojang.datafixers.kinds.App method_47008(Object context, ) { return net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.method_47008(context); }
 // public yarnwrap.entity.ai.brain.task.TaskRunnable method_47009(Object jobSite,yarnwrap.entity.ai.brain.MemoryQueryResult mobs) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(wrapperContained.method_47009(jobSite,mobs.wrapperContained)); }
+// public static yarnwrap.entity.ai.brain.task.TaskRunnable method_47009(Object jobSite,yarnwrap.entity.ai.brain.MemoryQueryResult mobs, ) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.method_47009(jobSite,mobs.wrapperContained)); }
 // public boolean method_47010(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,yarnwrap.entity.ai.brain.MemoryQueryResult time) { return wrapperContained.method_47010(world,entity.wrapperContained,time.wrapperContained); }
+// public static boolean method_47010(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,yarnwrap.entity.ai.brain.MemoryQueryResult time, ) { return net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.method_47010(world,entity.wrapperContained,time.wrapperContained); }
 // public void method_47011(Object poiType) { wrapperContained.method_47011(poiType); }
+// public static void method_47011(Object poiType, ) { net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.method_47011(poiType); }
 // public boolean method_47012(yarnwrap.entity.passive.VillagerEntity mob) { return wrapperContained.method_47012(mob.wrapperContained); }
+// public static boolean method_47012(yarnwrap.entity.passive.VillagerEntity mob, ) { return net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.method_47012(mob.wrapperContained); }
 // public boolean method_47013(yarnwrap.util.math.GlobalPos villager) { return wrapperContained.method_47013(villager.wrapperContained); }
+// public static boolean method_47013(yarnwrap.util.math.GlobalPos villager, ) { return net.minecraft.entity.ai.brain.task.WorkStationCompetitionTask.method_47013(villager.wrapperContained); }
 
 }

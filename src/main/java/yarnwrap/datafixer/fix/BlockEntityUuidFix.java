@@ -3,8 +3,12 @@ public class BlockEntityUuidFix { public net.minecraft.datafixer.fix.BlockEntity
 
 public BlockEntityUuidFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.BlockEntityUuidFix(outputSchema); }
 // public com.mojang.serialization.Dynamic method_26015(com.mojang.serialization.Dynamic ownerDynamic) { return wrapperContained.method_26015(ownerDynamic); }
+// public static com.mojang.serialization.Dynamic method_26015(com.mojang.serialization.Dynamic ownerDynamic, ) { return net.minecraft.datafixer.fix.BlockEntityUuidFix.method_26015(ownerDynamic); }
 // public com.mojang.serialization.Dynamic updateSkull(com.mojang.serialization.Dynamic skullDynamic) { return wrapperContained.updateSkull(skullDynamic); }
+// public static com.mojang.serialization.Dynamic updateSkull(com.mojang.serialization.Dynamic skullDynamic, ) { return net.minecraft.datafixer.fix.BlockEntityUuidFix.updateSkull(skullDynamic); }
 // public com.mojang.serialization.Dynamic updateConduit(com.mojang.serialization.Dynamic conduitDynamic) { return wrapperContained.updateConduit(conduitDynamic); }
+// public static com.mojang.serialization.Dynamic updateConduit(com.mojang.serialization.Dynamic conduitDynamic, ) { return net.minecraft.datafixer.fix.BlockEntityUuidFix.updateConduit(conduitDynamic); }
 // public com.mojang.serialization.Dynamic method_26019(com.mojang.serialization.Dynamic ownerDynamic) { return wrapperContained.method_26019(ownerDynamic); }
+// public static com.mojang.serialization.Dynamic method_26019(com.mojang.serialization.Dynamic ownerDynamic, ) { return net.minecraft.datafixer.fix.BlockEntityUuidFix.method_26019(ownerDynamic); }
 
 }

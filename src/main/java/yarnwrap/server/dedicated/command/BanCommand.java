@@ -3,10 +3,18 @@ public class BanCommand { public net.minecraft.server.dedicated.command.BanComma
 
 // public com.mojang.brigadier.exceptions.SimpleCommandExceptionType ALREADY_BANNED_EXCEPTION() { return wrapperContained.ALREADY_BANNED_EXCEPTION; }
 // public void ALREADY_BANNED_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.ALREADY_BANNED_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType ALREADY_BANNED_EXCEPTION() { return net.minecraft.server.dedicated.command.BanCommand.ALREADY_BANNED_EXCEPTION; }
+// public static void ALREADY_BANNED_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value, ) { net.minecraft.server.dedicated.command.BanCommand.ALREADY_BANNED_EXCEPTION = value; }
+
 // public int method_13020(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13020(context); }
-public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
+// public static int method_13020(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.BanCommand.method_13020(context); }
+// public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
+// public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.dedicated.command.BanCommand.register(dispatcher); }
 // public int ban(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.text.Text reason) { return wrapperContained.ban(source.wrapperContained,targets,reason.wrapperContained); }
+// public static int ban(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.text.Text reason, ) { return net.minecraft.server.dedicated.command.BanCommand.ban(source.wrapperContained,targets,reason.wrapperContained); }
 // public int method_13023(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13023(context); }
+// public static int method_13023(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.BanCommand.method_13023(context); }
 // public boolean method_13024(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13024(source.wrapperContained); }
+// public static boolean method_13024(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.BanCommand.method_13024(source.wrapperContained); }
 
 }

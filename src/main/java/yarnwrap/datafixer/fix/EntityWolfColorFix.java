@@ -3,6 +3,8 @@ public class EntityWolfColorFix { public net.minecraft.datafixer.fix.EntityWolfC
 
 public EntityWolfColorFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityWolfColorFix(outputSchema,changesType); }
 public com.mojang.serialization.Dynamic fixCollarColor(com.mojang.serialization.Dynamic wolfDynamic) { return wrapperContained.fixCollarColor(wolfDynamic); }
+// public static com.mojang.serialization.Dynamic fixCollarColor(com.mojang.serialization.Dynamic wolfDynamic, ) { return net.minecraft.datafixer.fix.EntityWolfColorFix.fixCollarColor(wolfDynamic); }
 // public com.mojang.serialization.Dynamic method_4989(com.mojang.serialization.Dynamic colorDynamic) { return wrapperContained.method_4989(colorDynamic); }
+// public static com.mojang.serialization.Dynamic method_4989(com.mojang.serialization.Dynamic colorDynamic, ) { return net.minecraft.datafixer.fix.EntityWolfColorFix.method_4989(colorDynamic); }
 
 }

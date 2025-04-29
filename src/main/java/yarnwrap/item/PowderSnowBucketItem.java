@@ -3,6 +3,9 @@ public class PowderSnowBucketItem { public net.minecraft.item.PowderSnowBucketIt
 
 // public yarnwrap.sound.SoundEvent placeSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.placeSound); }
 // public void placeSound(yarnwrap.sound.SoundEvent value) { wrapperContained.placeSound = value.wrapperContained; }
+// public static yarnwrap.sound.SoundEvent placeSound() { return new yarnwrap.sound.SoundEvent(net.minecraft.item.PowderSnowBucketItem.placeSound); }
+// public static void placeSound(yarnwrap.sound.SoundEvent value, ) { net.minecraft.item.PowderSnowBucketItem.placeSound = value.wrapperContained; }
+
 // public PowderSnowBucketItem(yarnwrap.block.Block block,yarnwrap.sound.SoundEvent placeSound,Object settings) { this.wrapperContained = new net.minecraft.item.PowderSnowBucketItem(block.wrapperContained,placeSound.wrapperContained,settings); }
 
 }

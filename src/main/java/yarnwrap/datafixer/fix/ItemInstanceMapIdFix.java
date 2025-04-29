@@ -3,5 +3,6 @@ public class ItemInstanceMapIdFix { public net.minecraft.datafixer.fix.ItemInsta
 
 public ItemInstanceMapIdFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.ItemInstanceMapIdFix(outputSchema,changesType); }
 // public com.mojang.datafixers.Typed method_5032(com.mojang.datafixers.OpticFinder itemStack) { return wrapperContained.method_5032(itemStack); }
+// public static com.mojang.datafixers.Typed method_5032(com.mojang.datafixers.OpticFinder itemStack, ) { return net.minecraft.datafixer.fix.ItemInstanceMapIdFix.method_5032(itemStack); }
 
 }

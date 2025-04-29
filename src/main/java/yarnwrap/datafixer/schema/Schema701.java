@@ -3,6 +3,8 @@ public class Schema701 { public net.minecraft.datafixer.schema.Schema701 wrapper
 
 public Schema701(int versionKey,com.mojang.datafixers.schemas.Schema parent) { this.wrapperContained = new net.minecraft.datafixer.schema.Schema701(versionKey,parent); }
 // public void targetEntityItems(com.mojang.datafixers.schemas.Schema schema,java.util.Map map,java.lang.String entityId) { wrapperContained.targetEntityItems(schema,map,entityId); }
+// public static void targetEntityItems(com.mojang.datafixers.schemas.Schema schema,java.util.Map map,java.lang.String entityId, ) { net.minecraft.datafixer.schema.Schema701.targetEntityItems(schema,map,entityId); }
 public java.util.Map registerEntities(com.mojang.datafixers.schemas.Schema schema) { return wrapperContained.registerEntities(schema); }
+// public static java.util.Map registerEntities(com.mojang.datafixers.schemas.Schema schema, ) { return net.minecraft.datafixer.schema.Schema701.registerEntities(schema); }
 
 }

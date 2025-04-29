@@ -2,6 +2,8 @@ package yarnwrap.entity;
 public class LargeEntitySpawnHelper { public net.minecraft.entity.LargeEntitySpawnHelper wrapperContained; public LargeEntitySpawnHelper(net.minecraft.entity.LargeEntitySpawnHelper wrapperContained) { this.wrapperContained = wrapperContained; }
 
 // public boolean findSpawnPos(yarnwrap.server.world.ServerWorld world,int verticalRange,Object pos,Object requirements) { return wrapperContained.findSpawnPos(world.wrapperContained,verticalRange,pos,requirements); }
+// public static boolean findSpawnPos(yarnwrap.server.world.ServerWorld world,int verticalRange,Object pos,Object requirements, ) { return net.minecraft.entity.LargeEntitySpawnHelper.findSpawnPos(world.wrapperContained,verticalRange,pos,requirements); }
 // public java.util.Optional trySpawnAt(yarnwrap.entity.EntityType entityType,yarnwrap.entity.SpawnReason reason,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,int tries,int horizontalRange,int verticalRange,Object requirements) { return wrapperContained.trySpawnAt(entityType.wrapperContained,reason.wrapperContained,world.wrapperContained,pos.wrapperContained,tries,horizontalRange,verticalRange,requirements); }
+// public static java.util.Optional trySpawnAt(yarnwrap.entity.EntityType entityType,yarnwrap.entity.SpawnReason reason,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,int tries,int horizontalRange,int verticalRange,Object requirements, ) { return net.minecraft.entity.LargeEntitySpawnHelper.trySpawnAt(entityType.wrapperContained,reason.wrapperContained,world.wrapperContained,pos.wrapperContained,tries,horizontalRange,verticalRange,requirements); }
 
 }

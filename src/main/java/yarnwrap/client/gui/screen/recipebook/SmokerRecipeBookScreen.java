@@ -3,5 +3,8 @@ public class SmokerRecipeBookScreen { public net.minecraft.client.gui.screen.rec
 
 // public yarnwrap.text.Text TOGGLE_SMOKABLE_RECIPES_TEXT() { return new yarnwrap.text.Text(wrapperContained.TOGGLE_SMOKABLE_RECIPES_TEXT); }
 // public void TOGGLE_SMOKABLE_RECIPES_TEXT(yarnwrap.text.Text value) { wrapperContained.TOGGLE_SMOKABLE_RECIPES_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text TOGGLE_SMOKABLE_RECIPES_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.recipebook.SmokerRecipeBookScreen.TOGGLE_SMOKABLE_RECIPES_TEXT); }
+// public static void TOGGLE_SMOKABLE_RECIPES_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.recipebook.SmokerRecipeBookScreen.TOGGLE_SMOKABLE_RECIPES_TEXT = value.wrapperContained; }
+
 
 }

@@ -3,6 +3,9 @@ public class WaterDebugRenderer { public net.minecraft.client.render.debug.Water
 
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
+// public static yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(net.minecraft.client.render.debug.WaterDebugRenderer.client); }
+// public static void client(yarnwrap.client.MinecraftClient value, ) { net.minecraft.client.render.debug.WaterDebugRenderer.client = value.wrapperContained; }
+
 public WaterDebugRenderer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.debug.WaterDebugRenderer(client.wrapperContained); }
 
 }

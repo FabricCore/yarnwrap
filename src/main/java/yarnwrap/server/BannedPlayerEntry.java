@@ -5,5 +5,6 @@ public BannedPlayerEntry(com.google.gson.JsonObject json) { this.wrapperContaine
 public BannedPlayerEntry(com.mojang.authlib.GameProfile profile) { this.wrapperContained = new net.minecraft.server.BannedPlayerEntry(profile); }
 public BannedPlayerEntry(com.mojang.authlib.GameProfile profile,java.util.Date created,java.lang.String source,java.util.Date expiry,java.lang.String reason) { this.wrapperContained = new net.minecraft.server.BannedPlayerEntry(profile,created,source,expiry,reason); }
 // public com.mojang.authlib.GameProfile profileFromJson(com.google.gson.JsonObject json) { return wrapperContained.profileFromJson(json); }
+// public static com.mojang.authlib.GameProfile profileFromJson(com.google.gson.JsonObject json, ) { return net.minecraft.server.BannedPlayerEntry.profileFromJson(json); }
 
 }

@@ -3,5 +3,6 @@ public class VillagerProfessionFix { public net.minecraft.datafixer.fix.Villager
 
 public VillagerProfessionFix(com.mojang.datafixers.schemas.Schema outputSchema,java.lang.String entity) { this.wrapperContained = new net.minecraft.datafixer.fix.VillagerProfessionFix(outputSchema,entity); }
 // public java.lang.String convertProfessionId(int professionId,int careerId) { return wrapperContained.convertProfessionId(professionId,careerId); }
+// public static java.lang.String convertProfessionId(int professionId,int careerId, ) { return net.minecraft.datafixer.fix.VillagerProfessionFix.convertProfessionId(professionId,careerId); }
 
 }

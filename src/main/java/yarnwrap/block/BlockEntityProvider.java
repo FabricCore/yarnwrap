@@ -2,7 +2,10 @@ package yarnwrap.block;
 public class BlockEntityProvider { public net.minecraft.block.BlockEntityProvider wrapperContained; public BlockEntityProvider(net.minecraft.block.BlockEntityProvider wrapperContained) { this.wrapperContained = wrapperContained; }
 
 public yarnwrap.block.entity.BlockEntity createBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { return new yarnwrap.block.entity.BlockEntity(wrapperContained.createBlockEntity(pos.wrapperContained,state.wrapperContained)); }
+// public static yarnwrap.block.entity.BlockEntity createBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { return new yarnwrap.block.entity.BlockEntity(net.minecraft.block.BlockEntityProvider.createBlockEntity(pos.wrapperContained,state.wrapperContained)); }
 public yarnwrap.block.entity.BlockEntityTicker getTicker(yarnwrap.world.World world,yarnwrap.block.BlockState state,yarnwrap.block.entity.BlockEntityType type) { return new yarnwrap.block.entity.BlockEntityTicker(wrapperContained.getTicker(world.wrapperContained,state.wrapperContained,type.wrapperContained)); }
+// public static yarnwrap.block.entity.BlockEntityTicker getTicker(yarnwrap.world.World world,yarnwrap.block.BlockState state,yarnwrap.block.entity.BlockEntityType type, ) { return new yarnwrap.block.entity.BlockEntityTicker(net.minecraft.block.BlockEntityProvider.getTicker(world.wrapperContained,state.wrapperContained,type.wrapperContained)); }
 public yarnwrap.world.event.listener.GameEventListener getGameEventListener(yarnwrap.server.world.ServerWorld world,yarnwrap.block.entity.BlockEntity blockEntity) { return new yarnwrap.world.event.listener.GameEventListener(wrapperContained.getGameEventListener(world.wrapperContained,blockEntity.wrapperContained)); }
+// public static yarnwrap.world.event.listener.GameEventListener getGameEventListener(yarnwrap.server.world.ServerWorld world,yarnwrap.block.entity.BlockEntity blockEntity, ) { return new yarnwrap.world.event.listener.GameEventListener(net.minecraft.block.BlockEntityProvider.getGameEventListener(world.wrapperContained,blockEntity.wrapperContained)); }
 
 }

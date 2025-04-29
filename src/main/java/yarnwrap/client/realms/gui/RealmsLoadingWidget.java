@@ -3,6 +3,9 @@ public class RealmsLoadingWidget { public net.minecraft.client.realms.gui.Realms
 
 // public yarnwrap.client.font.TextRenderer textRenderer() { return new yarnwrap.client.font.TextRenderer(wrapperContained.textRenderer); }
 // public void textRenderer(yarnwrap.client.font.TextRenderer value) { wrapperContained.textRenderer = value.wrapperContained; }
+// public static yarnwrap.client.font.TextRenderer textRenderer() { return new yarnwrap.client.font.TextRenderer(net.minecraft.client.realms.gui.RealmsLoadingWidget.textRenderer); }
+// public static void textRenderer(yarnwrap.client.font.TextRenderer value, ) { net.minecraft.client.realms.gui.RealmsLoadingWidget.textRenderer = value.wrapperContained; }
+
 public RealmsLoadingWidget(yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.text.Text message) { this.wrapperContained = new net.minecraft.client.realms.gui.RealmsLoadingWidget(textRenderer.wrapperContained,message.wrapperContained); }
 
 }

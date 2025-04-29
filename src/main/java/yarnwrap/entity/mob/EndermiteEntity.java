@@ -3,9 +3,17 @@ public class EndermiteEntity { public net.minecraft.entity.mob.EndermiteEntity w
 
 // public int DESPAWN_TIME() { return wrapperContained.DESPAWN_TIME; }
 // public void DESPAWN_TIME(int value) { wrapperContained.DESPAWN_TIME = value; }
+// public static int DESPAWN_TIME() { return net.minecraft.entity.mob.EndermiteEntity.DESPAWN_TIME; }
+// public static void DESPAWN_TIME(int value, ) { net.minecraft.entity.mob.EndermiteEntity.DESPAWN_TIME = value; }
+
 // public int lifeTime() { return wrapperContained.lifeTime; }
 // public void lifeTime(int value) { wrapperContained.lifeTime = value; }
-public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
-public Object createEndermiteAttributes() { return wrapperContained.createEndermiteAttributes(); }
+// public static int lifeTime() { return net.minecraft.entity.mob.EndermiteEntity.lifeTime; }
+// public static void lifeTime(int value, ) { net.minecraft.entity.mob.EndermiteEntity.lifeTime = value; }
+
+// public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.mob.EndermiteEntity.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public Object createEndermiteAttributes() { return wrapperContained.createEndermiteAttributes(); }
+public static Object createEndermiteAttributes() { return net.minecraft.entity.mob.EndermiteEntity.createEndermiteAttributes(); }
 
 }

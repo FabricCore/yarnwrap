@@ -3,5 +3,6 @@ public class OminousBannerBlockEntityRenameFix { public net.minecraft.datafixer.
 
 public OminousBannerBlockEntityRenameFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.OminousBannerBlockEntityRenameFix(outputSchema,changesType); }
 // public com.mojang.serialization.Dynamic fixBannerName(com.mojang.serialization.Dynamic bannerDynamic) { return wrapperContained.fixBannerName(bannerDynamic); }
+// public static com.mojang.serialization.Dynamic fixBannerName(com.mojang.serialization.Dynamic bannerDynamic, ) { return net.minecraft.datafixer.fix.OminousBannerBlockEntityRenameFix.fixBannerName(bannerDynamic); }
 
 }

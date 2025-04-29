@@ -3,11 +3,21 @@ public class ClientDataPackManager { public net.minecraft.client.resource.Client
 
 // public yarnwrap.resource.ResourcePackManager packManager() { return new yarnwrap.resource.ResourcePackManager(wrapperContained.packManager); }
 // public void packManager(yarnwrap.resource.ResourcePackManager value) { wrapperContained.packManager = value.wrapperContained; }
+// public static yarnwrap.resource.ResourcePackManager packManager() { return new yarnwrap.resource.ResourcePackManager(net.minecraft.client.resource.ClientDataPackManager.packManager); }
+// public static void packManager(yarnwrap.resource.ResourcePackManager value, ) { net.minecraft.client.resource.ClientDataPackManager.packManager = value.wrapperContained; }
+
 // public java.util.Map knownPacks() { return wrapperContained.knownPacks; }
 // public void knownPacks(java.util.Map value) { wrapperContained.knownPacks = value; }
+// public static java.util.Map knownPacks() { return net.minecraft.client.resource.ClientDataPackManager.knownPacks; }
+// public static void knownPacks(java.util.Map value, ) { net.minecraft.client.resource.ClientDataPackManager.knownPacks = value; }
+
 public yarnwrap.resource.LifecycledResourceManager createResourceManager() { return new yarnwrap.resource.LifecycledResourceManager(wrapperContained.createResourceManager()); }
+// public static yarnwrap.resource.LifecycledResourceManager createResourceManager() { return new yarnwrap.resource.LifecycledResourceManager(net.minecraft.client.resource.ClientDataPackManager.createResourceManager()); }
 // public void method_57047(Object knownPackInfo) { wrapperContained.method_57047(knownPackInfo); }
+// public static void method_57047(Object knownPackInfo, ) { net.minecraft.client.resource.ClientDataPackManager.method_57047(knownPackInfo); }
 // public void method_57048(Object resourcePackProfile) { wrapperContained.method_57048(resourcePackProfile); }
+// public static void method_57048(Object resourcePackProfile, ) { net.minecraft.client.resource.ClientDataPackManager.method_57048(resourcePackProfile); }
 public java.util.List getCommonKnownPacks(java.util.List serverKnownPacks) { return wrapperContained.getCommonKnownPacks(serverKnownPacks); }
+// public static java.util.List getCommonKnownPacks(java.util.List serverKnownPacks, ) { return net.minecraft.client.resource.ClientDataPackManager.getCommonKnownPacks(serverKnownPacks); }
 
 }

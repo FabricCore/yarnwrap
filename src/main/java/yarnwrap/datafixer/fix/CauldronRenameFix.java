@@ -3,5 +3,6 @@ public class CauldronRenameFix { public net.minecraft.datafixer.fix.CauldronRena
 
 public CauldronRenameFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.CauldronRenameFix(outputSchema,changesType); }
 // public com.mojang.serialization.Dynamic rename(com.mojang.serialization.Dynamic cauldronDynamic) { return wrapperContained.rename(cauldronDynamic); }
+// public static com.mojang.serialization.Dynamic rename(com.mojang.serialization.Dynamic cauldronDynamic, ) { return net.minecraft.datafixer.fix.CauldronRenameFix.rename(cauldronDynamic); }
 
 }

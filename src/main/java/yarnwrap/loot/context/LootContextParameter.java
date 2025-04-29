@@ -3,7 +3,11 @@ public class LootContextParameter { public net.minecraft.loot.context.LootContex
 
 // public yarnwrap.util.Identifier id() { return new yarnwrap.util.Identifier(wrapperContained.id); }
 // public void id(yarnwrap.util.Identifier value) { wrapperContained.id = value.wrapperContained; }
+// public static yarnwrap.util.Identifier id() { return new yarnwrap.util.Identifier(net.minecraft.loot.context.LootContextParameter.id); }
+// public static void id(yarnwrap.util.Identifier value, ) { net.minecraft.loot.context.LootContextParameter.id = value.wrapperContained; }
+
 public LootContextParameter(yarnwrap.util.Identifier id) { this.wrapperContained = new net.minecraft.loot.context.LootContextParameter(id.wrapperContained); }
 public yarnwrap.util.Identifier getId() { return new yarnwrap.util.Identifier(wrapperContained.getId()); }
+// public static yarnwrap.util.Identifier getId() { return new yarnwrap.util.Identifier(net.minecraft.loot.context.LootContextParameter.getId()); }
 
 }

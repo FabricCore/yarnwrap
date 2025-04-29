@@ -3,5 +3,8 @@ public class PhantomSpawner { public net.minecraft.world.spawner.PhantomSpawner 
 
 // public int cooldown() { return wrapperContained.cooldown; }
 // public void cooldown(int value) { wrapperContained.cooldown = value; }
+// public static int cooldown() { return net.minecraft.world.spawner.PhantomSpawner.cooldown; }
+// public static void cooldown(int value, ) { net.minecraft.world.spawner.PhantomSpawner.cooldown = value; }
+
 
 }

@@ -3,5 +3,6 @@ public class MapDecorationsAtlasManager { public net.minecraft.client.texture.Ma
 
 public MapDecorationsAtlasManager(yarnwrap.client.texture.TextureManager manager) { this.wrapperContained = new net.minecraft.client.texture.MapDecorationsAtlasManager(manager.wrapperContained); }
 public yarnwrap.client.texture.Sprite getSprite(yarnwrap.item.map.MapDecoration decoration) { return new yarnwrap.client.texture.Sprite(wrapperContained.getSprite(decoration.wrapperContained)); }
+// public static yarnwrap.client.texture.Sprite getSprite(yarnwrap.item.map.MapDecoration decoration, ) { return new yarnwrap.client.texture.Sprite(net.minecraft.client.texture.MapDecorationsAtlasManager.getSprite(decoration.wrapperContained)); }
 
 }

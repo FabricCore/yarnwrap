@@ -3,7 +3,12 @@ public class CrashMemoryReserve { public net.minecraft.util.crash.CrashMemoryRes
 
 // public byte[] reservedMemory() { return wrapperContained.reservedMemory; }
 // public void reservedMemory(byte[] value) { wrapperContained.reservedMemory = value; }
-public void reserveMemory() { wrapperContained.reserveMemory(); }
-public void releaseMemory() { wrapperContained.releaseMemory(); }
+// public static byte[] reservedMemory() { return net.minecraft.util.crash.CrashMemoryReserve.reservedMemory; }
+// public static void reservedMemory(byte[] value, ) { net.minecraft.util.crash.CrashMemoryReserve.reservedMemory = value; }
+
+// public void reserveMemory() { wrapperContained.reserveMemory(); }
+public static void reserveMemory() { net.minecraft.util.crash.CrashMemoryReserve.reserveMemory(); }
+// public void releaseMemory() { wrapperContained.releaseMemory(); }
+public static void releaseMemory() { net.minecraft.util.crash.CrashMemoryReserve.releaseMemory(); }
 
 }

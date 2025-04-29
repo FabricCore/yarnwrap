@@ -3,7 +3,11 @@ public class AbstractBannerBlock { public net.minecraft.block.AbstractBannerBloc
 
 // public yarnwrap.util.DyeColor color() { return new yarnwrap.util.DyeColor(wrapperContained.color); }
 // public void color(yarnwrap.util.DyeColor value) { wrapperContained.color = value.wrapperContained; }
+// public static yarnwrap.util.DyeColor color() { return new yarnwrap.util.DyeColor(net.minecraft.block.AbstractBannerBlock.color); }
+// public static void color(yarnwrap.util.DyeColor value, ) { net.minecraft.block.AbstractBannerBlock.color = value.wrapperContained; }
+
 // public AbstractBannerBlock(yarnwrap.util.DyeColor color,Object settings) { this.wrapperContained = new net.minecraft.block.AbstractBannerBlock(color.wrapperContained,settings); }
 public yarnwrap.util.DyeColor getColor() { return new yarnwrap.util.DyeColor(wrapperContained.getColor()); }
+// public static yarnwrap.util.DyeColor getColor() { return new yarnwrap.util.DyeColor(net.minecraft.block.AbstractBannerBlock.getColor()); }
 
 }

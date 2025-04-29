@@ -3,6 +3,9 @@ public class ExplosionLargeParticle { public net.minecraft.client.particle.Explo
 
 // public yarnwrap.client.particle.SpriteProvider spriteProvider() { return new yarnwrap.client.particle.SpriteProvider(wrapperContained.spriteProvider); }
 // public void spriteProvider(yarnwrap.client.particle.SpriteProvider value) { wrapperContained.spriteProvider = value.wrapperContained; }
+// public static yarnwrap.client.particle.SpriteProvider spriteProvider() { return new yarnwrap.client.particle.SpriteProvider(net.minecraft.client.particle.ExplosionLargeParticle.spriteProvider); }
+// public static void spriteProvider(yarnwrap.client.particle.SpriteProvider value, ) { net.minecraft.client.particle.ExplosionLargeParticle.spriteProvider = value.wrapperContained; }
+
 // public ExplosionLargeParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double spriteProvider) { this.wrapperContained = new net.minecraft.client.particle.ExplosionLargeParticle(world.wrapperContained,x,y,z,spriteProvider); }
 
 }

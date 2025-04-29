@@ -3,5 +3,6 @@ public class OminousBannerItemRenameFix { public net.minecraft.datafixer.fix.Omi
 
 public OminousBannerItemRenameFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.OminousBannerItemRenameFix(outputSchema); }
 // public boolean method_44194(java.lang.String itemId) { return wrapperContained.method_44194(itemId); }
+// public static boolean method_44194(java.lang.String itemId, ) { return net.minecraft.datafixer.fix.OminousBannerItemRenameFix.method_44194(itemId); }
 
 }

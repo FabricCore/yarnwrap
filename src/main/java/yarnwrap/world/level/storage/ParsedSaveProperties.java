@@ -3,6 +3,10 @@ public class ParsedSaveProperties { public net.minecraft.world.level.storage.Par
 
 // public yarnwrap.world.SaveProperties properties() { return new yarnwrap.world.SaveProperties(wrapperContained.properties); }
 // public void properties(yarnwrap.world.SaveProperties value) { wrapperContained.properties = value.wrapperContained; }
+// public static yarnwrap.world.SaveProperties properties() { return new yarnwrap.world.SaveProperties(net.minecraft.world.level.storage.ParsedSaveProperties.properties); }
+// public static void properties(yarnwrap.world.SaveProperties value, ) { net.minecraft.world.level.storage.ParsedSaveProperties.properties = value.wrapperContained; }
+
 // public yarnwrap.world.SaveProperties properties() { return new yarnwrap.world.SaveProperties(wrapperContained.properties()); }
+// // public static yarnwrap.world.SaveProperties properties() { return new yarnwrap.world.SaveProperties(net.minecraft.world.level.storage.ParsedSaveProperties.properties()); }
 
 }

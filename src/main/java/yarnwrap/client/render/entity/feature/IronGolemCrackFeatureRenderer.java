@@ -3,5 +3,8 @@ public class IronGolemCrackFeatureRenderer { public net.minecraft.client.render.
 
 // public java.util.Map CRACK_TEXTURES() { return wrapperContained.CRACK_TEXTURES; }
 // public void CRACK_TEXTURES(java.util.Map value) { wrapperContained.CRACK_TEXTURES = value; }
+// public static java.util.Map CRACK_TEXTURES() { return net.minecraft.client.render.entity.feature.IronGolemCrackFeatureRenderer.CRACK_TEXTURES; }
+// public static void CRACK_TEXTURES(java.util.Map value, ) { net.minecraft.client.render.entity.feature.IronGolemCrackFeatureRenderer.CRACK_TEXTURES = value; }
+
 
 }

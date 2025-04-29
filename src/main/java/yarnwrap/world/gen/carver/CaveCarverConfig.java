@@ -1,21 +1,38 @@
 package yarnwrap.world.gen.carver;
 public class CaveCarverConfig { public net.minecraft.world.gen.carver.CaveCarverConfig wrapperContained; public CaveCarverConfig(net.minecraft.world.gen.carver.CaveCarverConfig wrapperContained) { this.wrapperContained = wrapperContained; }
 
-public com.mojang.serialization.Codec CAVE_CODEC() { return wrapperContained.CAVE_CODEC; }
+// public com.mojang.serialization.Codec CAVE_CODEC() { return wrapperContained.CAVE_CODEC; }
 // public void CAVE_CODEC(com.mojang.serialization.Codec value) { wrapperContained.CAVE_CODEC = value; }
+public static com.mojang.serialization.Codec CAVE_CODEC() { return net.minecraft.world.gen.carver.CaveCarverConfig.CAVE_CODEC; }
+// public static void CAVE_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.world.gen.carver.CaveCarverConfig.CAVE_CODEC = value; }
+
 public yarnwrap.util.math.floatprovider.FloatProvider horizontalRadiusMultiplier() { return new yarnwrap.util.math.floatprovider.FloatProvider(wrapperContained.horizontalRadiusMultiplier); }
 // public void horizontalRadiusMultiplier(yarnwrap.util.math.floatprovider.FloatProvider value) { wrapperContained.horizontalRadiusMultiplier = value.wrapperContained; }
+// public static yarnwrap.util.math.floatprovider.FloatProvider horizontalRadiusMultiplier() { return new yarnwrap.util.math.floatprovider.FloatProvider(net.minecraft.world.gen.carver.CaveCarverConfig.horizontalRadiusMultiplier); }
+// public static void horizontalRadiusMultiplier(yarnwrap.util.math.floatprovider.FloatProvider value, ) { net.minecraft.world.gen.carver.CaveCarverConfig.horizontalRadiusMultiplier = value.wrapperContained; }
+
 public yarnwrap.util.math.floatprovider.FloatProvider verticalRadiusMultiplier() { return new yarnwrap.util.math.floatprovider.FloatProvider(wrapperContained.verticalRadiusMultiplier); }
 // public void verticalRadiusMultiplier(yarnwrap.util.math.floatprovider.FloatProvider value) { wrapperContained.verticalRadiusMultiplier = value.wrapperContained; }
+// public static yarnwrap.util.math.floatprovider.FloatProvider verticalRadiusMultiplier() { return new yarnwrap.util.math.floatprovider.FloatProvider(net.minecraft.world.gen.carver.CaveCarverConfig.verticalRadiusMultiplier); }
+// public static void verticalRadiusMultiplier(yarnwrap.util.math.floatprovider.FloatProvider value, ) { net.minecraft.world.gen.carver.CaveCarverConfig.verticalRadiusMultiplier = value.wrapperContained; }
+
 // public yarnwrap.util.math.floatprovider.FloatProvider floorLevel() { return new yarnwrap.util.math.floatprovider.FloatProvider(wrapperContained.floorLevel); }
 // public void floorLevel(yarnwrap.util.math.floatprovider.FloatProvider value) { wrapperContained.floorLevel = value.wrapperContained; }
+// public static yarnwrap.util.math.floatprovider.FloatProvider floorLevel() { return new yarnwrap.util.math.floatprovider.FloatProvider(net.minecraft.world.gen.carver.CaveCarverConfig.floorLevel); }
+// public static void floorLevel(yarnwrap.util.math.floatprovider.FloatProvider value, ) { net.minecraft.world.gen.carver.CaveCarverConfig.floorLevel = value.wrapperContained; }
+
 public CaveCarverConfig(float probability,yarnwrap.world.gen.heightprovider.HeightProvider y,yarnwrap.util.math.floatprovider.FloatProvider yScale,yarnwrap.world.gen.YOffset lavaLevel,yarnwrap.world.gen.carver.CarverDebugConfig debugConfig,yarnwrap.registry.entry.RegistryEntryList replaceable,yarnwrap.util.math.floatprovider.FloatProvider horizontalRadiusMultiplier,yarnwrap.util.math.floatprovider.FloatProvider verticalRadiusMultiplier,yarnwrap.util.math.floatprovider.FloatProvider floorLevel) { this.wrapperContained = new net.minecraft.world.gen.carver.CaveCarverConfig(probability,y.wrapperContained,yScale.wrapperContained,lavaLevel.wrapperContained,debugConfig.wrapperContained,replaceable.wrapperContained,horizontalRadiusMultiplier.wrapperContained,verticalRadiusMultiplier.wrapperContained,floorLevel.wrapperContained); }
 public CaveCarverConfig(float probability,yarnwrap.world.gen.heightprovider.HeightProvider y,yarnwrap.util.math.floatprovider.FloatProvider yScale,yarnwrap.world.gen.YOffset lavaLevel,yarnwrap.registry.entry.RegistryEntryList replaceable,yarnwrap.util.math.floatprovider.FloatProvider horizontalRadiusMultiplier,yarnwrap.util.math.floatprovider.FloatProvider verticalRadiusMultiplier,yarnwrap.util.math.floatprovider.FloatProvider floorLevel) { this.wrapperContained = new net.minecraft.world.gen.carver.CaveCarverConfig(probability,y.wrapperContained,yScale.wrapperContained,lavaLevel.wrapperContained,replaceable.wrapperContained,horizontalRadiusMultiplier.wrapperContained,verticalRadiusMultiplier.wrapperContained,floorLevel.wrapperContained); }
 public CaveCarverConfig(yarnwrap.world.gen.carver.CarverConfig config,yarnwrap.util.math.floatprovider.FloatProvider horizontalRadiusMultiplier,yarnwrap.util.math.floatprovider.FloatProvider verticalRadiusMultiplier,yarnwrap.util.math.floatprovider.FloatProvider floorLevel) { this.wrapperContained = new net.minecraft.world.gen.carver.CaveCarverConfig(config.wrapperContained,horizontalRadiusMultiplier.wrapperContained,verticalRadiusMultiplier.wrapperContained,floorLevel.wrapperContained); }
 // public com.mojang.datafixers.kinds.App method_35352(Object instance) { return wrapperContained.method_35352(instance); }
+// public static com.mojang.datafixers.kinds.App method_35352(Object instance, ) { return net.minecraft.world.gen.carver.CaveCarverConfig.method_35352(instance); }
 // public yarnwrap.util.math.floatprovider.FloatProvider method_35353(yarnwrap.world.gen.carver.CaveCarverConfig config) { return new yarnwrap.util.math.floatprovider.FloatProvider(wrapperContained.method_35353(config.wrapperContained)); }
+// public static yarnwrap.util.math.floatprovider.FloatProvider method_35353(yarnwrap.world.gen.carver.CaveCarverConfig config, ) { return new yarnwrap.util.math.floatprovider.FloatProvider(net.minecraft.world.gen.carver.CaveCarverConfig.method_35353(config.wrapperContained)); }
 // public yarnwrap.util.math.floatprovider.FloatProvider method_35354(yarnwrap.world.gen.carver.CaveCarverConfig config) { return new yarnwrap.util.math.floatprovider.FloatProvider(wrapperContained.method_35354(config.wrapperContained)); }
+// public static yarnwrap.util.math.floatprovider.FloatProvider method_35354(yarnwrap.world.gen.carver.CaveCarverConfig config, ) { return new yarnwrap.util.math.floatprovider.FloatProvider(net.minecraft.world.gen.carver.CaveCarverConfig.method_35354(config.wrapperContained)); }
 // public yarnwrap.util.math.floatprovider.FloatProvider method_35355(yarnwrap.world.gen.carver.CaveCarverConfig config) { return new yarnwrap.util.math.floatprovider.FloatProvider(wrapperContained.method_35355(config.wrapperContained)); }
+// public static yarnwrap.util.math.floatprovider.FloatProvider method_35355(yarnwrap.world.gen.carver.CaveCarverConfig config, ) { return new yarnwrap.util.math.floatprovider.FloatProvider(net.minecraft.world.gen.carver.CaveCarverConfig.method_35355(config.wrapperContained)); }
 // public yarnwrap.world.gen.carver.CarverConfig method_35356(yarnwrap.world.gen.carver.CaveCarverConfig config) { return new yarnwrap.world.gen.carver.CarverConfig(wrapperContained.method_35356(config.wrapperContained)); }
+// public static yarnwrap.world.gen.carver.CarverConfig method_35356(yarnwrap.world.gen.carver.CaveCarverConfig config, ) { return new yarnwrap.world.gen.carver.CarverConfig(net.minecraft.world.gen.carver.CaveCarverConfig.method_35356(config.wrapperContained)); }
 
 }

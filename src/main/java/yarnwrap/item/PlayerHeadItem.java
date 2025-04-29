@@ -3,5 +3,6 @@ public class PlayerHeadItem { public net.minecraft.item.PlayerHeadItem wrapperCo
 
 // public PlayerHeadItem(yarnwrap.block.Block block,yarnwrap.block.Block wallBlock,Object settings) { this.wrapperContained = new net.minecraft.item.PlayerHeadItem(block.wrapperContained,wallBlock.wrapperContained,settings); }
 // public void method_57388(yarnwrap.item.ItemStack profile) { wrapperContained.method_57388(profile.wrapperContained); }
+// public static void method_57388(yarnwrap.item.ItemStack profile, ) { net.minecraft.item.PlayerHeadItem.method_57388(profile.wrapperContained); }
 
 }

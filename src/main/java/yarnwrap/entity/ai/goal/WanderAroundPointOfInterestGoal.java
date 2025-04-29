@@ -3,8 +3,14 @@ public class WanderAroundPointOfInterestGoal { public net.minecraft.entity.ai.go
 
 // public int HORIZONTAL_RANGE() { return wrapperContained.HORIZONTAL_RANGE; }
 // public void HORIZONTAL_RANGE(int value) { wrapperContained.HORIZONTAL_RANGE = value; }
+// public static int HORIZONTAL_RANGE() { return net.minecraft.entity.ai.goal.WanderAroundPointOfInterestGoal.HORIZONTAL_RANGE; }
+// public static void HORIZONTAL_RANGE(int value, ) { net.minecraft.entity.ai.goal.WanderAroundPointOfInterestGoal.HORIZONTAL_RANGE = value; }
+
 // public int VERTICAL_RANGE() { return wrapperContained.VERTICAL_RANGE; }
 // public void VERTICAL_RANGE(int value) { wrapperContained.VERTICAL_RANGE = value; }
+// public static int VERTICAL_RANGE() { return net.minecraft.entity.ai.goal.WanderAroundPointOfInterestGoal.VERTICAL_RANGE; }
+// public static void VERTICAL_RANGE(int value, ) { net.minecraft.entity.ai.goal.WanderAroundPointOfInterestGoal.VERTICAL_RANGE = value; }
+
 public WanderAroundPointOfInterestGoal(yarnwrap.entity.mob.PathAwareEntity entity,double speed,boolean canDespawn) { this.wrapperContained = new net.minecraft.entity.ai.goal.WanderAroundPointOfInterestGoal(entity.wrapperContained,speed,canDespawn); }
 
 }

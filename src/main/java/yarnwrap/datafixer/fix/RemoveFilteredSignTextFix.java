@@ -3,5 +3,6 @@ public class RemoveFilteredSignTextFix { public net.minecraft.datafixer.fix.Remo
 
 public RemoveFilteredSignTextFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.RemoveFilteredSignTextFix(outputSchema); }
 // public com.mojang.serialization.Dynamic method_44190(com.mojang.serialization.Dynamic blockEntity) { return wrapperContained.method_44190(blockEntity); }
+// public static com.mojang.serialization.Dynamic method_44190(com.mojang.serialization.Dynamic blockEntity, ) { return net.minecraft.datafixer.fix.RemoveFilteredSignTextFix.method_44190(blockEntity); }
 
 }

@@ -3,7 +3,11 @@ public class MooshroomMushroomFeatureRenderer { public net.minecraft.client.rend
 
 // public yarnwrap.client.render.block.BlockRenderManager blockRenderManager() { return new yarnwrap.client.render.block.BlockRenderManager(wrapperContained.blockRenderManager); }
 // public void blockRenderManager(yarnwrap.client.render.block.BlockRenderManager value) { wrapperContained.blockRenderManager = value.wrapperContained; }
+// public static yarnwrap.client.render.block.BlockRenderManager blockRenderManager() { return new yarnwrap.client.render.block.BlockRenderManager(net.minecraft.client.render.entity.feature.MooshroomMushroomFeatureRenderer.blockRenderManager); }
+// public static void blockRenderManager(yarnwrap.client.render.block.BlockRenderManager value, ) { net.minecraft.client.render.entity.feature.MooshroomMushroomFeatureRenderer.blockRenderManager = value.wrapperContained; }
+
 public MooshroomMushroomFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.block.BlockRenderManager blockRenderManager) { this.wrapperContained = new net.minecraft.client.render.entity.feature.MooshroomMushroomFeatureRenderer(context.wrapperContained,blockRenderManager.wrapperContained); }
 // public void renderMushroom(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,boolean renderAsModel,yarnwrap.block.BlockState mushroomState,int overlay,yarnwrap.client.render.model.BakedModel mushroomModel) { wrapperContained.renderMushroom(matrices.wrapperContained,vertexConsumers.wrapperContained,light,renderAsModel,mushroomState.wrapperContained,overlay,mushroomModel.wrapperContained); }
+// public static void renderMushroom(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,boolean renderAsModel,yarnwrap.block.BlockState mushroomState,int overlay,yarnwrap.client.render.model.BakedModel mushroomModel, ) { net.minecraft.client.render.entity.feature.MooshroomMushroomFeatureRenderer.renderMushroom(matrices.wrapperContained,vertexConsumers.wrapperContained,light,renderAsModel,mushroomState.wrapperContained,overlay,mushroomModel.wrapperContained); }
 
 }

@@ -3,6 +3,9 @@ public class AddTrappedChestFix { public net.minecraft.datafixer.fix.AddTrappedC
 
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.datafixer.fix.AddTrappedChestFix.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.datafixer.fix.AddTrappedChestFix.LOGGER = value; }
+
 public AddTrappedChestFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.AddTrappedChestFix(outputSchema,changesType); }
 
 }

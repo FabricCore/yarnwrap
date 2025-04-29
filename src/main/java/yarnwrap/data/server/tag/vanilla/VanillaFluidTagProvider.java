@@ -3,5 +3,6 @@ public class VanillaFluidTagProvider { public net.minecraft.data.server.tag.vani
 
 public VanillaFluidTagProvider(yarnwrap.data.DataOutput output,java.util.concurrent.CompletableFuture registryLookupFuture) { this.wrapperContained = new net.minecraft.data.server.tag.vanilla.VanillaFluidTagProvider(output.wrapperContained,registryLookupFuture); }
 // public yarnwrap.registry.RegistryKey method_46825(yarnwrap.fluid.Fluid fluid) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_46825(fluid.wrapperContained)); }
+// public static yarnwrap.registry.RegistryKey method_46825(yarnwrap.fluid.Fluid fluid, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.data.server.tag.vanilla.VanillaFluidTagProvider.method_46825(fluid.wrapperContained)); }
 
 }

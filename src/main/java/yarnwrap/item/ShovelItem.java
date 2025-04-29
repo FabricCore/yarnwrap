@@ -3,5 +3,8 @@ public class ShovelItem { public net.minecraft.item.ShovelItem wrapperContained;
 
 // public java.util.Map PATH_STATES() { return wrapperContained.PATH_STATES; }
 // public void PATH_STATES(java.util.Map value) { wrapperContained.PATH_STATES = value; }
+// public static java.util.Map PATH_STATES() { return net.minecraft.item.ShovelItem.PATH_STATES; }
+// public static void PATH_STATES(java.util.Map value, ) { net.minecraft.item.ShovelItem.PATH_STATES = value; }
+
 
 }

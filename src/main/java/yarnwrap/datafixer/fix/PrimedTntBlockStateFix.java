@@ -3,6 +3,8 @@ public class PrimedTntBlockStateFix { public net.minecraft.datafixer.fix.PrimedT
 
 public PrimedTntBlockStateFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.PrimedTntBlockStateFix(outputSchema); }
 // public com.mojang.serialization.Dynamic fixFuse(com.mojang.serialization.Dynamic data) { return wrapperContained.fixFuse(data); }
+// public static com.mojang.serialization.Dynamic fixFuse(com.mojang.serialization.Dynamic data, ) { return net.minecraft.datafixer.fix.PrimedTntBlockStateFix.fixFuse(data); }
 // public com.mojang.serialization.Dynamic fixBlockState(com.mojang.serialization.Dynamic data) { return wrapperContained.fixBlockState(data); }
+// public static com.mojang.serialization.Dynamic fixBlockState(com.mojang.serialization.Dynamic data, ) { return net.minecraft.datafixer.fix.PrimedTntBlockStateFix.fixBlockState(data); }
 
 }

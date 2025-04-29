@@ -3,5 +3,8 @@ public class BlockPlacementDispenserBehavior { public net.minecraft.block.dispen
 
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.block.dispenser.BlockPlacementDispenserBehavior.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.block.dispenser.BlockPlacementDispenserBehavior.LOGGER = value; }
+
 
 }

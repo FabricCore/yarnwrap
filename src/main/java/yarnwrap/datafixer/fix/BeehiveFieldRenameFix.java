@@ -3,6 +3,8 @@ public class BeehiveFieldRenameFix { public net.minecraft.datafixer.fix.BeehiveF
 
 public BeehiveFieldRenameFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.BeehiveFieldRenameFix(outputSchema); }
 // public com.mojang.serialization.Dynamic removeBeesField() { return wrapperContained.removeBeesField(); }
+// public static com.mojang.serialization.Dynamic removeBeesField() { return net.minecraft.datafixer.fix.BeehiveFieldRenameFix.removeBeesField(); }
 // public com.mojang.serialization.Dynamic renameFields() { return wrapperContained.renameFields(); }
+// public static com.mojang.serialization.Dynamic renameFields() { return net.minecraft.datafixer.fix.BeehiveFieldRenameFix.renameFields(); }
 
 }
