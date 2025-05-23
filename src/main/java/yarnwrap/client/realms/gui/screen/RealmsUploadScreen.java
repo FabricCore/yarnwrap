@@ -1,11 +1,6 @@
 package yarnwrap.client.realms.gui.screen;
 public class RealmsUploadScreen { public net.minecraft.client.realms.gui.screen.RealmsUploadScreen wrapperContained; public RealmsUploadScreen(net.minecraft.client.realms.gui.screen.RealmsUploadScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.LOGGER = value; }
-
 // public yarnwrap.client.realms.gui.screen.RealmsCreateWorldScreen parent() { return new yarnwrap.client.realms.gui.screen.RealmsCreateWorldScreen(wrapperContained.parent); }
 // public void parent(yarnwrap.client.realms.gui.screen.RealmsCreateWorldScreen value) { wrapperContained.parent = value.wrapperContained; }
 // public static yarnwrap.client.realms.gui.screen.RealmsCreateWorldScreen parent() { return new yarnwrap.client.realms.gui.screen.RealmsCreateWorldScreen(net.minecraft.client.realms.gui.screen.RealmsUploadScreen.parent); }
@@ -26,10 +21,10 @@ public class RealmsUploadScreen { public net.minecraft.client.realms.gui.screen.
 // public static int slotId() { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.slotId; }
 // public static void slotId(int value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.slotId = value; }
 
-// public yarnwrap.client.realms.UploadStatus uploadStatus() { return new yarnwrap.client.realms.UploadStatus(wrapperContained.uploadStatus); }
-// public void uploadStatus(yarnwrap.client.realms.UploadStatus value) { wrapperContained.uploadStatus = value.wrapperContained; }
-// public static yarnwrap.client.realms.UploadStatus uploadStatus() { return new yarnwrap.client.realms.UploadStatus(net.minecraft.client.realms.gui.screen.RealmsUploadScreen.uploadStatus); }
-// public static void uploadStatus(yarnwrap.client.realms.UploadStatus value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.uploadStatus = value.wrapperContained; }
+// public yarnwrap.client.realms.util.UploadProgress uploadProgress() { return new yarnwrap.client.realms.util.UploadProgress(wrapperContained.uploadProgress); }
+// public void uploadProgress(yarnwrap.client.realms.util.UploadProgress value) { wrapperContained.uploadProgress = value.wrapperContained; }
+// public static yarnwrap.client.realms.util.UploadProgress uploadProgress() { return new yarnwrap.client.realms.util.UploadProgress(net.minecraft.client.realms.gui.screen.RealmsUploadScreen.uploadProgress); }
+// public static void uploadProgress(yarnwrap.client.realms.util.UploadProgress value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.uploadProgress = value.wrapperContained; }
 
 // public com.google.common.util.concurrent.RateLimiter narrationRateLimiter() { return wrapperContained.narrationRateLimiter; }
 // public void narrationRateLimiter(com.google.common.util.concurrent.RateLimiter value) { wrapperContained.narrationRateLimiter = value; }
@@ -86,26 +81,6 @@ public class RealmsUploadScreen { public net.minecraft.client.realms.gui.screen.
 // public static java.lang.String[] DOTS() { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.DOTS; }
 // public static void DOTS(java.lang.String[] value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.DOTS = value; }
 
-// public java.lang.Long previousWrittenBytes() { return wrapperContained.previousWrittenBytes; }
-// public void previousWrittenBytes(java.lang.Long value) { wrapperContained.previousWrittenBytes = value; }
-// public static java.lang.Long previousWrittenBytes() { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.previousWrittenBytes; }
-// public static void previousWrittenBytes(java.lang.Long value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.previousWrittenBytes = value; }
-
-// public java.lang.Long previousTimeSnapshot() { return wrapperContained.previousTimeSnapshot; }
-// public void previousTimeSnapshot(java.lang.Long value) { wrapperContained.previousTimeSnapshot = value; }
-// public static java.lang.Long previousTimeSnapshot() { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.previousTimeSnapshot; }
-// public static void previousTimeSnapshot(java.lang.Long value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.previousTimeSnapshot = value; }
-
-// public long bytesPerSecond() { return wrapperContained.bytesPerSecond; }
-// public void bytesPerSecond(long value) { wrapperContained.bytesPerSecond = value; }
-// public static long bytesPerSecond() { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.bytesPerSecond; }
-// public static void bytesPerSecond(long value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.bytesPerSecond = value; }
-
-// public java.util.concurrent.locks.ReentrantLock UPLOAD_LOCK() { return wrapperContained.UPLOAD_LOCK; }
-// public void UPLOAD_LOCK(java.util.concurrent.locks.ReentrantLock value) { wrapperContained.UPLOAD_LOCK = value; }
-// public static java.util.concurrent.locks.ReentrantLock UPLOAD_LOCK() { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.UPLOAD_LOCK; }
-// public static void UPLOAD_LOCK(java.util.concurrent.locks.ReentrantLock value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.UPLOAD_LOCK = value; }
-
 // public net.minecraft.text.Text[] statusTexts() { return wrapperContained.statusTexts; }
 // public void statusTexts(net.minecraft.text.Text[] value) { wrapperContained.statusTexts = value; }
 // public static net.minecraft.text.Text[] statusTexts() { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.statusTexts; }
@@ -126,13 +101,12 @@ public class RealmsUploadScreen { public net.minecraft.client.realms.gui.screen.
 // public static yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(net.minecraft.client.realms.gui.screen.RealmsUploadScreen.layout); }
 // public static void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.layout = value.wrapperContained; }
 
+// public java.util.concurrent.atomic.AtomicReference uploader() { return wrapperContained.uploader; }
+// public void uploader(java.util.concurrent.atomic.AtomicReference value) { wrapperContained.uploader = value; }
+// public static java.util.concurrent.atomic.AtomicReference uploader() { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.uploader; }
+// public static void uploader(java.util.concurrent.atomic.AtomicReference value, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.uploader = value; }
+
 public RealmsUploadScreen(yarnwrap.client.realms.task.WorldCreationTask creationTask,long worldId,int slotId,yarnwrap.client.realms.gui.screen.RealmsCreateWorldScreen parent,yarnwrap.world.level.storage.LevelSummary selectedLevel) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsUploadScreen(creationTask.wrapperContained,worldId,slotId,parent.wrapperContained,selectedLevel.wrapperContained); }
-// public boolean verify(java.io.File archive) { return wrapperContained.verify(archive); }
-// public static boolean verify(java.io.File archive, ) { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.verify(archive); }
-// public void addFileToTarGz(org.apache.commons.compress.archivers.tar.TarArchiveOutputStream tOut,java.lang.String path,java.lang.String base,boolean root) { wrapperContained.addFileToTarGz(tOut,path,base,root); }
-// public static void addFileToTarGz(org.apache.commons.compress.archivers.tar.TarArchiveOutputStream tOut,java.lang.String path,java.lang.String base,boolean root, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.addFileToTarGz(tOut,path,base,root); }
-// public java.io.File tarGzipArchive(java.io.File pathToDirectoryFile) { return wrapperContained.tarGzipArchive(pathToDirectoryFile); }
-// public static java.io.File tarGzipArchive(java.io.File pathToDirectoryFile, ) { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.tarGzipArchive(pathToDirectoryFile); }
 // public void onBack() { wrapperContained.onBack(); }
 // public static void onBack() { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.onBack(); }
 // public void drawUploadSpeed0(yarnwrap.client.gui.DrawContext context,long bytesPerSecond) { wrapperContained.drawUploadSpeed0(context.wrapperContained,bytesPerSecond); }
@@ -145,10 +119,6 @@ public RealmsUploadScreen(yarnwrap.client.realms.task.WorldCreationTask creation
 // public static void drawUploadSpeed(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.drawUploadSpeed(context.wrapperContained); }
 // public void upload() { wrapperContained.upload(); }
 // public static void upload() { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.upload(); }
-// public void uploadCancelled() { wrapperContained.uploadCancelled(); }
-// public static void uploadCancelled() { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.uploadCancelled(); }
-// public void method_22105(yarnwrap.client.realms.gui.screen.UploadResult result) { wrapperContained.method_22105(result.wrapperContained); }
-// public static void method_22105(yarnwrap.client.realms.gui.screen.UploadResult result, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.method_22105(result.wrapperContained); }
 // public void method_25276(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25276(button.wrapperContained); }
 // public static void method_25276(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.method_25276(button.wrapperContained); }
 // public void method_25277(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25277(button.wrapperContained); }
@@ -159,5 +129,7 @@ public RealmsUploadScreen(yarnwrap.client.realms.task.WorldCreationTask creation
 // public static yarnwrap.text.Text getNarration() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.screen.RealmsUploadScreen.getNarration()); }
 // public void method_56133(yarnwrap.client.realms.gui.screen.RealmsUploadScreen child) { wrapperContained.method_56133(child.wrapperContained); }
 // public static void method_56133(yarnwrap.client.realms.gui.screen.RealmsUploadScreen child, ) { net.minecraft.client.realms.gui.screen.RealmsUploadScreen.method_56133(child.wrapperContained); }
+// public java.lang.Object method_64364(java.lang.Object v,java.lang.Throwable throwable) { return wrapperContained.method_64364(v,throwable); }
+// public static java.lang.Object method_64364(java.lang.Object v,java.lang.Throwable throwable, ) { return net.minecraft.client.realms.gui.screen.RealmsUploadScreen.method_64364(v,throwable); }
 
 }

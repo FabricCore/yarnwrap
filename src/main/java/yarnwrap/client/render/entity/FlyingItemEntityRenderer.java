@@ -11,15 +11,10 @@ public class FlyingItemEntityRenderer { public net.minecraft.client.render.entit
 // public static boolean lit() { return net.minecraft.client.render.entity.FlyingItemEntityRenderer.lit; }
 // public static void lit(boolean value, ) { net.minecraft.client.render.entity.FlyingItemEntityRenderer.lit = value; }
 
-// public float MIN_DISTANCE() { return wrapperContained.MIN_DISTANCE; }
-// public void MIN_DISTANCE(float value) { wrapperContained.MIN_DISTANCE = value; }
-// public static float MIN_DISTANCE() { return net.minecraft.client.render.entity.FlyingItemEntityRenderer.MIN_DISTANCE; }
-// public static void MIN_DISTANCE(float value, ) { net.minecraft.client.render.entity.FlyingItemEntityRenderer.MIN_DISTANCE = value; }
-
-// public yarnwrap.client.render.item.ItemRenderer itemRenderer() { return new yarnwrap.client.render.item.ItemRenderer(wrapperContained.itemRenderer); }
-// public void itemRenderer(yarnwrap.client.render.item.ItemRenderer value) { wrapperContained.itemRenderer = value.wrapperContained; }
-// public static yarnwrap.client.render.item.ItemRenderer itemRenderer() { return new yarnwrap.client.render.item.ItemRenderer(net.minecraft.client.render.entity.FlyingItemEntityRenderer.itemRenderer); }
-// public static void itemRenderer(yarnwrap.client.render.item.ItemRenderer value, ) { net.minecraft.client.render.entity.FlyingItemEntityRenderer.itemRenderer = value.wrapperContained; }
+// public yarnwrap.client.item.ItemModelManager itemModelManager() { return new yarnwrap.client.item.ItemModelManager(wrapperContained.itemModelManager); }
+// public void itemModelManager(yarnwrap.client.item.ItemModelManager value) { wrapperContained.itemModelManager = value.wrapperContained; }
+// public static yarnwrap.client.item.ItemModelManager itemModelManager() { return new yarnwrap.client.item.ItemModelManager(net.minecraft.client.render.entity.FlyingItemEntityRenderer.itemModelManager); }
+// public static void itemModelManager(yarnwrap.client.item.ItemModelManager value, ) { net.minecraft.client.render.entity.FlyingItemEntityRenderer.itemModelManager = value.wrapperContained; }
 
 // public FlyingItemEntityRenderer(Object ctx,float scale,boolean lit) { this.wrapperContained = new net.minecraft.client.render.entity.FlyingItemEntityRenderer(ctx,scale,lit); }
 

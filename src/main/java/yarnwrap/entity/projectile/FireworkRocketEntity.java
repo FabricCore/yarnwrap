@@ -31,13 +31,34 @@ public class FireworkRocketEntity { public net.minecraft.entity.projectile.Firew
 // public static yarnwrap.entity.LivingEntity shooter() { return new yarnwrap.entity.LivingEntity(net.minecraft.entity.projectile.FireworkRocketEntity.shooter); }
 // public static void shooter(yarnwrap.entity.LivingEntity value, ) { net.minecraft.entity.projectile.FireworkRocketEntity.shooter = value.wrapperContained; }
 
+// public int DEFAULT_LIFE() { return wrapperContained.DEFAULT_LIFE; }
+// public void DEFAULT_LIFE(int value) { wrapperContained.DEFAULT_LIFE = value; }
+// public static int DEFAULT_LIFE() { return net.minecraft.entity.projectile.FireworkRocketEntity.DEFAULT_LIFE; }
+// public static void DEFAULT_LIFE(int value, ) { net.minecraft.entity.projectile.FireworkRocketEntity.DEFAULT_LIFE = value; }
+
+// public int DEFAULT_LIFE_TIME() { return wrapperContained.DEFAULT_LIFE_TIME; }
+// public void DEFAULT_LIFE_TIME(int value) { wrapperContained.DEFAULT_LIFE_TIME = value; }
+// public static int DEFAULT_LIFE_TIME() { return net.minecraft.entity.projectile.FireworkRocketEntity.DEFAULT_LIFE_TIME; }
+// public static void DEFAULT_LIFE_TIME(int value, ) { net.minecraft.entity.projectile.FireworkRocketEntity.DEFAULT_LIFE_TIME = value; }
+
+// public boolean DEFAULT_SHOT_AT_ANGLE() { return wrapperContained.DEFAULT_SHOT_AT_ANGLE; }
+// public void DEFAULT_SHOT_AT_ANGLE(boolean value) { wrapperContained.DEFAULT_SHOT_AT_ANGLE = value; }
+// public static boolean DEFAULT_SHOT_AT_ANGLE() { return net.minecraft.entity.projectile.FireworkRocketEntity.DEFAULT_SHOT_AT_ANGLE; }
+// public static void DEFAULT_SHOT_AT_ANGLE(boolean value, ) { net.minecraft.entity.projectile.FireworkRocketEntity.DEFAULT_SHOT_AT_ANGLE = value; }
+
 public FireworkRocketEntity(yarnwrap.world.World world,double x,double y,double z,yarnwrap.item.ItemStack stack) { this.wrapperContained = new net.minecraft.entity.projectile.FireworkRocketEntity(world.wrapperContained,x,y,z,stack.wrapperContained); }
 public FireworkRocketEntity(yarnwrap.world.World world,yarnwrap.entity.Entity entity,double x,double y,double z,yarnwrap.item.ItemStack stack) { this.wrapperContained = new net.minecraft.entity.projectile.FireworkRocketEntity(world.wrapperContained,entity.wrapperContained,x,y,z,stack.wrapperContained); }
 public FireworkRocketEntity(yarnwrap.world.World world,yarnwrap.item.ItemStack stack,double x,double y,double z,boolean shotAtAngle) { this.wrapperContained = new net.minecraft.entity.projectile.FireworkRocketEntity(world.wrapperContained,stack.wrapperContained,x,y,z,shotAtAngle); }
 public FireworkRocketEntity(yarnwrap.world.World world,yarnwrap.item.ItemStack stack,yarnwrap.entity.Entity entity,double x,double y,double z,boolean shotAtAngle) { this.wrapperContained = new net.minecraft.entity.projectile.FireworkRocketEntity(world.wrapperContained,stack.wrapperContained,entity.wrapperContained,x,y,z,shotAtAngle); }
 public FireworkRocketEntity(yarnwrap.world.World world,yarnwrap.item.ItemStack stack,yarnwrap.entity.LivingEntity shooter) { this.wrapperContained = new net.minecraft.entity.projectile.FireworkRocketEntity(world.wrapperContained,stack.wrapperContained,shooter.wrapperContained); }
-// public void explodeAndRemove() { wrapperContained.explodeAndRemove(); }
-// public static void explodeAndRemove() { net.minecraft.entity.projectile.FireworkRocketEntity.explodeAndRemove(); }
+// public void explode(yarnwrap.server.world.ServerWorld world) { wrapperContained.explode(world.wrapperContained); }
+// public static void explode(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.entity.projectile.FireworkRocketEntity.explode(world.wrapperContained); }
+// public boolean wasShotByEntity() { return wrapperContained.wasShotByEntity(); }
+// public static boolean wasShotByEntity() { return net.minecraft.entity.projectile.FireworkRocketEntity.wasShotByEntity(); }
+public boolean wasShotAtAngle() { return wrapperContained.wasShotAtAngle(); }
+// public static boolean wasShotAtAngle() { return net.minecraft.entity.projectile.FireworkRocketEntity.wasShotAtAngle(); }
+// public void explodeAndRemove(yarnwrap.server.world.ServerWorld world) { wrapperContained.explodeAndRemove(world.wrapperContained); }
+// public static void explodeAndRemove(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.entity.projectile.FireworkRocketEntity.explodeAndRemove(world.wrapperContained); }
 // public void method_18072(int id) { wrapperContained.method_18072(id); }
 // public static void method_18072(int id, ) { net.minecraft.entity.projectile.FireworkRocketEntity.method_18072(id); }
 // public boolean hasExplosionEffects() { return wrapperContained.hasExplosionEffects(); }
@@ -46,11 +67,5 @@ public FireworkRocketEntity(yarnwrap.world.World world,yarnwrap.item.ItemStack s
 // public static yarnwrap.item.ItemStack getDefaultStack() { return new yarnwrap.item.ItemStack(net.minecraft.entity.projectile.FireworkRocketEntity.getDefaultStack()); }
 // public java.util.List getExplosions() { return wrapperContained.getExplosions(); }
 // public static java.util.List getExplosions() { return net.minecraft.entity.projectile.FireworkRocketEntity.getExplosions(); }
-// public void explode() { wrapperContained.explode(); }
-// public static void explode() { net.minecraft.entity.projectile.FireworkRocketEntity.explode(); }
-// public boolean wasShotByEntity() { return wrapperContained.wasShotByEntity(); }
-// public static boolean wasShotByEntity() { return net.minecraft.entity.projectile.FireworkRocketEntity.wasShotByEntity(); }
-public boolean wasShotAtAngle() { return wrapperContained.wasShotAtAngle(); }
-// public static boolean wasShotAtAngle() { return net.minecraft.entity.projectile.FireworkRocketEntity.wasShotAtAngle(); }
 
 }

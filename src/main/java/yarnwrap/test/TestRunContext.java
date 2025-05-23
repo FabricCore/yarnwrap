@@ -51,11 +51,6 @@ public static int DEFAULT_TESTS_PER_ROW() { return net.minecraft.test.TestRunCon
 // public static boolean stopped() { return net.minecraft.test.TestRunContext.stopped; }
 // public static void stopped(boolean value, ) { net.minecraft.test.TestRunContext.stopped = value; }
 
-// public yarnwrap.test.GameTestBatch currentBatch() { return new yarnwrap.test.GameTestBatch(wrapperContained.currentBatch); }
-// public void currentBatch(yarnwrap.test.GameTestBatch value) { wrapperContained.currentBatch = value.wrapperContained; }
-// public static yarnwrap.test.GameTestBatch currentBatch() { return new yarnwrap.test.GameTestBatch(net.minecraft.test.TestRunContext.currentBatch); }
-// public static void currentBatch(yarnwrap.test.GameTestBatch value, ) { net.minecraft.test.TestRunContext.currentBatch = value.wrapperContained; }
-
 // public Object reuseSpawner() { return wrapperContained.reuseSpawner; }
 // // public void reuseSpawner(Object value) { wrapperContained.reuseSpawner = value; }
 // // public static Object reuseSpawner() { return net.minecraft.test.TestRunContext.reuseSpawner; }
@@ -70,6 +65,11 @@ public static int DEFAULT_TESTS_PER_ROW() { return net.minecraft.test.TestRunCon
 // public void stopAfterFailure(boolean value) { wrapperContained.stopAfterFailure = value; }
 // public static boolean stopAfterFailure() { return net.minecraft.test.TestRunContext.stopAfterFailure; }
 // public static void stopAfterFailure(boolean value, ) { net.minecraft.test.TestRunContext.stopAfterFailure = value; }
+
+// public yarnwrap.registry.entry.RegistryEntry environment() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.environment); }
+// public void environment(yarnwrap.registry.entry.RegistryEntry value) { wrapperContained.environment = value.wrapperContained; }
+// public static yarnwrap.registry.entry.RegistryEntry environment() { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.test.TestRunContext.environment); }
+// public static void environment(yarnwrap.registry.entry.RegistryEntry value, ) { net.minecraft.test.TestRunContext.environment = value.wrapperContained; }
 
 // public TestRunContext(Object batcher,java.util.Collection batches,yarnwrap.server.world.ServerWorld world,yarnwrap.test.TestManager manager,Object reuseSpawner,Object initialSpawner,boolean stopAfterFailure) { this.wrapperContained = new net.minecraft.test.TestRunContext(batcher,batches,world.wrapperContained,manager.wrapperContained,reuseSpawner,initialSpawner,stopAfterFailure); }
 // public void clearDebugMarkers(yarnwrap.server.world.ServerWorld world) { wrapperContained.clearDebugMarkers(world.wrapperContained); }
@@ -90,8 +90,8 @@ public void retry(yarnwrap.test.GameTestState state) { wrapperContained.retry(st
 // public static void method_56225(yarnwrap.test.GameTestState listener, ) { net.minecraft.test.TestRunContext.method_56225(listener.wrapperContained); }
 public void start() { wrapperContained.start(); }
 // public static void start() { net.minecraft.test.TestRunContext.start(); }
-// public void method_56227(yarnwrap.test.BatchListener listener) { wrapperContained.method_56227(listener.wrapperContained); }
-// public static void method_56227(yarnwrap.test.BatchListener listener, ) { net.minecraft.test.TestRunContext.method_56227(listener.wrapperContained); }
+// public void method_56227(yarnwrap.test.GameTestBatch listener) { wrapperContained.method_56227(listener.wrapperContained); }
+// public static void method_56227(yarnwrap.test.GameTestBatch listener, ) { net.minecraft.test.TestRunContext.method_56227(listener.wrapperContained); }
 // public java.util.Optional prepareStructure(yarnwrap.test.GameTestState oldState) { return wrapperContained.prepareStructure(oldState.wrapperContained); }
 // public static java.util.Optional prepareStructure(yarnwrap.test.GameTestState oldState, ) { return net.minecraft.test.TestRunContext.prepareStructure(oldState.wrapperContained); }
 public void clear() { wrapperContained.clear(); }
@@ -102,5 +102,7 @@ public void clear() { wrapperContained.clear(); }
 // public static void onFinish() { net.minecraft.test.TestRunContext.onFinish(); }
 // public java.lang.String method_57072(yarnwrap.test.GameTestState state) { return wrapperContained.method_57072(state.wrapperContained); }
 // public static java.lang.String method_57072(yarnwrap.test.GameTestState state, ) { return net.minecraft.test.TestRunContext.method_57072(state.wrapperContained); }
+// public void clearEnvironment() { wrapperContained.clearEnvironment(); }
+// public static void clearEnvironment() { net.minecraft.test.TestRunContext.clearEnvironment(); }
 
 }

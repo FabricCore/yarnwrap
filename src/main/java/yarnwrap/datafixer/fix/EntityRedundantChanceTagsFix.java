@@ -6,7 +6,6 @@ public class EntityRedundantChanceTagsFix { public net.minecraft.datafixer.fix.E
 // public static com.mojang.serialization.Codec FLOAT_LIST_CODEC() { return net.minecraft.datafixer.fix.EntityRedundantChanceTagsFix.FLOAT_LIST_CODEC; }
 // public static void FLOAT_LIST_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.datafixer.fix.EntityRedundantChanceTagsFix.FLOAT_LIST_CODEC = value; }
 
-public EntityRedundantChanceTagsFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityRedundantChanceTagsFix(outputSchema,changesType); }
 // public com.mojang.serialization.Dynamic method_28188(com.mojang.serialization.Dynamic entityTyped) { return wrapperContained.method_28188(entityTyped); }
 // public static com.mojang.serialization.Dynamic method_28188(com.mojang.serialization.Dynamic entityTyped, ) { return net.minecraft.datafixer.fix.EntityRedundantChanceTagsFix.method_28188(entityTyped); }
 // public java.lang.Boolean method_30072(int chances) { return wrapperContained.method_30072(chances); }

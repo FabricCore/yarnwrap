@@ -1,19 +1,25 @@
 package yarnwrap.client.render.entity;
 public class BoatEntityRenderer { public net.minecraft.client.render.entity.BoatEntityRenderer wrapperContained; public BoatEntityRenderer(net.minecraft.client.render.entity.BoatEntityRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.Map texturesAndModels() { return wrapperContained.texturesAndModels; }
-// public void texturesAndModels(java.util.Map value) { wrapperContained.texturesAndModels = value; }
-// public static java.util.Map texturesAndModels() { return net.minecraft.client.render.entity.BoatEntityRenderer.texturesAndModels; }
-// public static void texturesAndModels(java.util.Map value, ) { net.minecraft.client.render.entity.BoatEntityRenderer.texturesAndModels = value; }
+// public yarnwrap.client.model.Model waterMaskModel() { return new yarnwrap.client.model.Model(wrapperContained.waterMaskModel); }
+// public void waterMaskModel(yarnwrap.client.model.Model value) { wrapperContained.waterMaskModel = value.wrapperContained; }
+// public static yarnwrap.client.model.Model waterMaskModel() { return new yarnwrap.client.model.Model(net.minecraft.client.render.entity.BoatEntityRenderer.waterMaskModel); }
+// public static void waterMaskModel(yarnwrap.client.model.Model value, ) { net.minecraft.client.render.entity.BoatEntityRenderer.waterMaskModel = value.wrapperContained; }
 
-// public BoatEntityRenderer(Object ctx,boolean chest) { this.wrapperContained = new net.minecraft.client.render.entity.BoatEntityRenderer(ctx,chest); }
-// public Object method_32162(Object type) { return wrapperContained.method_32162(type); }
-// public static Object method_32162(Object type, ) { return net.minecraft.client.render.entity.BoatEntityRenderer.method_32162(type); }
-// public com.mojang.datafixers.util.Pair method_32163(boolean type) { return wrapperContained.method_32163(type); }
-// public static com.mojang.datafixers.util.Pair method_32163(boolean type, ) { return net.minecraft.client.render.entity.BoatEntityRenderer.method_32163(type); }
-// public yarnwrap.util.Identifier getTexture(Object type,boolean chest) { return new yarnwrap.util.Identifier(wrapperContained.getTexture(type,chest)); }
-// public static yarnwrap.util.Identifier getTexture(Object type,boolean chest, ) { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.BoatEntityRenderer.getTexture(type,chest)); }
-// public yarnwrap.client.render.entity.model.CompositeEntityModel createModel(Object ctx,Object type,boolean chest) { return new yarnwrap.client.render.entity.model.CompositeEntityModel(wrapperContained.createModel(ctx,type,chest)); }
-// public static yarnwrap.client.render.entity.model.CompositeEntityModel createModel(Object ctx,Object type,boolean chest, ) { return new yarnwrap.client.render.entity.model.CompositeEntityModel(net.minecraft.client.render.entity.BoatEntityRenderer.createModel(ctx,type,chest)); }
+// public yarnwrap.util.Identifier texture() { return new yarnwrap.util.Identifier(wrapperContained.texture); }
+// public void texture(yarnwrap.util.Identifier value) { wrapperContained.texture = value.wrapperContained; }
+// public static yarnwrap.util.Identifier texture() { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.BoatEntityRenderer.texture); }
+// public static void texture(yarnwrap.util.Identifier value, ) { net.minecraft.client.render.entity.BoatEntityRenderer.texture = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModel model() { return new yarnwrap.client.render.entity.model.EntityModel(wrapperContained.model); }
+// public void model(yarnwrap.client.render.entity.model.EntityModel value) { wrapperContained.model = value.wrapperContained; }
+// public static yarnwrap.client.render.entity.model.EntityModel model() { return new yarnwrap.client.render.entity.model.EntityModel(net.minecraft.client.render.entity.BoatEntityRenderer.model); }
+// public static void model(yarnwrap.client.render.entity.model.EntityModel value, ) { net.minecraft.client.render.entity.BoatEntityRenderer.model = value.wrapperContained; }
+
+// public BoatEntityRenderer(Object ctx,yarnwrap.client.render.entity.model.EntityModelLayer layer) { this.wrapperContained = new net.minecraft.client.render.entity.BoatEntityRenderer(ctx,layer.wrapperContained); }
+// public yarnwrap.client.render.RenderLayer method_62386(yarnwrap.util.Identifier id) { return new yarnwrap.client.render.RenderLayer(wrapperContained.method_62386(id.wrapperContained)); }
+// public static yarnwrap.client.render.RenderLayer method_62386(yarnwrap.util.Identifier id, ) { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.entity.BoatEntityRenderer.method_62386(id.wrapperContained)); }
+// public java.lang.String method_64523(java.lang.String path) { return wrapperContained.method_64523(path); }
+// public static java.lang.String method_64523(java.lang.String path, ) { return net.minecraft.client.render.entity.BoatEntityRenderer.method_64523(path); }
 
 }

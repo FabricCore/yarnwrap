@@ -16,6 +16,11 @@ public class WindChargeEntity { public net.minecraft.entity.projectile.WindCharg
 // public static int deflectCooldown() { return net.minecraft.entity.projectile.WindChargeEntity.deflectCooldown; }
 // public static void deflectCooldown(int value, ) { net.minecraft.entity.projectile.WindChargeEntity.deflectCooldown = value; }
 
+// public float MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED() { return wrapperContained.MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED; }
+// public void MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED(float value) { wrapperContained.MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED = value; }
+// public static float MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED() { return net.minecraft.entity.projectile.WindChargeEntity.MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED; }
+// public static void MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED(float value, ) { net.minecraft.entity.projectile.WindChargeEntity.MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED = value; }
+
 public WindChargeEntity(yarnwrap.entity.player.PlayerEntity player,yarnwrap.world.World world,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.projectile.WindChargeEntity(player.wrapperContained,world.wrapperContained,x,y,z); }
 public WindChargeEntity(yarnwrap.world.World world,double x,double y,double z,yarnwrap.util.math.Vec3d velocity) { this.wrapperContained = new net.minecraft.entity.projectile.WindChargeEntity(world.wrapperContained,x,y,z,velocity.wrapperContained); }
 

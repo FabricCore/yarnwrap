@@ -17,7 +17,7 @@ public class SplashTextRenderer { public net.minecraft.client.gui.screen.SplashT
 // public static void text(java.lang.String value, ) { net.minecraft.client.gui.screen.SplashTextRenderer.text = value; }
 
 public SplashTextRenderer(java.lang.String text) { this.wrapperContained = new net.minecraft.client.gui.screen.SplashTextRenderer(text); }
-public void render(yarnwrap.client.gui.DrawContext context,int screenWidth,yarnwrap.client.font.TextRenderer textRenderer,int alpha) { wrapperContained.render(context.wrapperContained,screenWidth,textRenderer.wrapperContained,alpha); }
-// public static void render(yarnwrap.client.gui.DrawContext context,int screenWidth,yarnwrap.client.font.TextRenderer textRenderer,int alpha, ) { net.minecraft.client.gui.screen.SplashTextRenderer.render(context.wrapperContained,screenWidth,textRenderer.wrapperContained,alpha); }
+// public void render(yarnwrap.client.gui.DrawContext context,int screenWidth,yarnwrap.client.font.TextRenderer textRenderer,float alpha) { wrapperContained.render(context.wrapperContained,screenWidth,textRenderer.wrapperContained,alpha); }
+// public static void render(yarnwrap.client.gui.DrawContext context,int screenWidth,yarnwrap.client.font.TextRenderer textRenderer,float alpha, ) { net.minecraft.client.gui.screen.SplashTextRenderer.render(context.wrapperContained,screenWidth,textRenderer.wrapperContained,alpha); }
 
 }

@@ -43,5 +43,7 @@ public yarnwrap.client.render.chunk.BlockBufferBuilderPool getBlockBufferBuilder
 // public static yarnwrap.client.render.chunk.BlockBufferBuilderPool getBlockBufferBuildersPool() { return new yarnwrap.client.render.chunk.BlockBufferBuilderPool(net.minecraft.client.render.BufferBuilderStorage.getBlockBufferBuildersPool()); }
 // public void method_54641(it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap renderLayer) { wrapperContained.method_54641(renderLayer); }
 // public static void method_54641(it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap renderLayer, ) { net.minecraft.client.render.BufferBuilderStorage.method_54641(renderLayer); }
+// public void method_62263(it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap objectMap) { wrapperContained.method_62263(objectMap); }
+// public static void method_62263(it.unimi.dsi.fastutil.objects.Object2ObjectLinkedOpenHashMap objectMap, ) { net.minecraft.client.render.BufferBuilderStorage.method_62263(objectMap); }
 
 }

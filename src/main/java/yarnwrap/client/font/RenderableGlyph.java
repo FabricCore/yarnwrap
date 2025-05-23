@@ -7,8 +7,8 @@ public float getYMin() { return wrapperContained.getYMin(); }
 // public static float getYMin() { return net.minecraft.client.font.RenderableGlyph.getYMin(); }
 public float getYMax() { return wrapperContained.getYMax(); }
 // public static float getYMax() { return net.minecraft.client.font.RenderableGlyph.getYMax(); }
-public void upload(int x,int y) { wrapperContained.upload(x,y); }
-// public static void upload(int x,int y, ) { net.minecraft.client.font.RenderableGlyph.upload(x,y); }
+public void upload(int x,int y,com.mojang.blaze3d.textures.GpuTexture texture) { wrapperContained.upload(x,y,texture); }
+// public static void upload(int x,int y,com.mojang.blaze3d.textures.GpuTexture texture, ) { net.minecraft.client.font.RenderableGlyph.upload(x,y,texture); }
 public int getWidth() { return wrapperContained.getWidth(); }
 // public static int getWidth() { return net.minecraft.client.font.RenderableGlyph.getWidth(); }
 public int getHeight() { return wrapperContained.getHeight(); }

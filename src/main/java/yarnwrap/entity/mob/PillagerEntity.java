@@ -11,11 +11,11 @@ public class PillagerEntity { public net.minecraft.entity.mob.PillagerEntity wra
 // public static yarnwrap.inventory.SimpleInventory inventory() { return new yarnwrap.inventory.SimpleInventory(net.minecraft.entity.mob.PillagerEntity.inventory); }
 // public static void inventory(yarnwrap.inventory.SimpleInventory value, ) { net.minecraft.entity.mob.PillagerEntity.inventory = value.wrapperContained; }
 
-// public Object createPillagerAttributes() { return wrapperContained.createPillagerAttributes(); }
-public static Object createPillagerAttributes() { return net.minecraft.entity.mob.PillagerEntity.createPillagerAttributes(); }
 public boolean isCharging() { return wrapperContained.isCharging(); }
 // public static boolean isCharging() { return net.minecraft.entity.mob.PillagerEntity.isCharging(); }
 // public boolean isRaidCaptain(yarnwrap.item.ItemStack stack) { return wrapperContained.isRaidCaptain(stack.wrapperContained); }
 // public static boolean isRaidCaptain(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.mob.PillagerEntity.isRaidCaptain(stack.wrapperContained); }
+// public Object createPillagerAttributes() { return wrapperContained.createPillagerAttributes(); }
+public static Object createPillagerAttributes() { return net.minecraft.entity.mob.PillagerEntity.createPillagerAttributes(); }
 
 }

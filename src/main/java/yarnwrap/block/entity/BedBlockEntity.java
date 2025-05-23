@@ -10,7 +10,5 @@ public BedBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState 
 public BedBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.util.DyeColor color) { this.wrapperContained = new net.minecraft.block.entity.BedBlockEntity(pos.wrapperContained,state.wrapperContained,color.wrapperContained); }
 public yarnwrap.util.DyeColor getColor() { return new yarnwrap.util.DyeColor(wrapperContained.getColor()); }
 // public static yarnwrap.util.DyeColor getColor() { return new yarnwrap.util.DyeColor(net.minecraft.block.entity.BedBlockEntity.getColor()); }
-public void setColor(yarnwrap.util.DyeColor color) { wrapperContained.setColor(color.wrapperContained); }
-// public static void setColor(yarnwrap.util.DyeColor color, ) { net.minecraft.block.entity.BedBlockEntity.setColor(color.wrapperContained); }
 
 }

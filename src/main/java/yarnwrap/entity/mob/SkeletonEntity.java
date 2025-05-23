@@ -26,7 +26,12 @@ public static java.lang.String STRAY_CONVERSION_TIME_KEY() { return net.minecraf
 // public static int TOTAL_CONVERSION_TIME() { return net.minecraft.entity.mob.SkeletonEntity.TOTAL_CONVERSION_TIME; }
 // public static void TOTAL_CONVERSION_TIME(int value, ) { net.minecraft.entity.mob.SkeletonEntity.TOTAL_CONVERSION_TIME = value; }
 
-// public void setConversionTime(int time) { wrapperContained.setConversionTime(time); }
+// public int DEFAULT_STRAY_CONVERSION_TIME() { return wrapperContained.DEFAULT_STRAY_CONVERSION_TIME; }
+// public void DEFAULT_STRAY_CONVERSION_TIME(int value) { wrapperContained.DEFAULT_STRAY_CONVERSION_TIME = value; }
+// public static int DEFAULT_STRAY_CONVERSION_TIME() { return net.minecraft.entity.mob.SkeletonEntity.DEFAULT_STRAY_CONVERSION_TIME; }
+// public static void DEFAULT_STRAY_CONVERSION_TIME(int value, ) { net.minecraft.entity.mob.SkeletonEntity.DEFAULT_STRAY_CONVERSION_TIME = value; }
+
+public void setConversionTime(int time) { wrapperContained.setConversionTime(time); }
 // public static void setConversionTime(int time, ) { net.minecraft.entity.mob.SkeletonEntity.setConversionTime(time); }
 public boolean isConverting() { return wrapperContained.isConverting(); }
 // public static boolean isConverting() { return net.minecraft.entity.mob.SkeletonEntity.isConverting(); }
@@ -34,5 +39,7 @@ public boolean isConverting() { return wrapperContained.isConverting(); }
 // public static void convertToStray() { net.minecraft.entity.mob.SkeletonEntity.convertToStray(); }
 public void setConverting(boolean converting) { wrapperContained.setConverting(converting); }
 // public static void setConverting(boolean converting, ) { net.minecraft.entity.mob.SkeletonEntity.setConverting(converting); }
+// public void method_63652(yarnwrap.entity.mob.StrayEntity stray) { wrapperContained.method_63652(stray.wrapperContained); }
+// public static void method_63652(yarnwrap.entity.mob.StrayEntity stray, ) { net.minecraft.entity.mob.SkeletonEntity.method_63652(stray.wrapperContained); }
 
 }

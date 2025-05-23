@@ -56,6 +56,11 @@ public class ZoglinEntity { public net.minecraft.entity.mob.ZoglinEntity wrapper
 // public static float DEFAULT_MOVEMENT_SPEED() { return net.minecraft.entity.mob.ZoglinEntity.DEFAULT_MOVEMENT_SPEED; }
 // public static void DEFAULT_MOVEMENT_SPEED(float value, ) { net.minecraft.entity.mob.ZoglinEntity.DEFAULT_MOVEMENT_SPEED = value; }
 
+// public boolean DEFAULT_IS_BABY() { return wrapperContained.DEFAULT_IS_BABY; }
+// public void DEFAULT_IS_BABY(boolean value) { wrapperContained.DEFAULT_IS_BABY = value; }
+// public static boolean DEFAULT_IS_BABY() { return net.minecraft.entity.mob.ZoglinEntity.DEFAULT_IS_BABY; }
+// public static void DEFAULT_IS_BABY(boolean value, ) { net.minecraft.entity.mob.ZoglinEntity.DEFAULT_IS_BABY = value; }
+
 // public void addCoreTasks(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addCoreTasks(brain.wrapperContained); }
 // public static void addCoreTasks(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.ZoglinEntity.addCoreTasks(brain.wrapperContained); }
 // public void addIdleTasks(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleTasks(brain.wrapperContained); }
@@ -66,15 +71,19 @@ public class ZoglinEntity { public net.minecraft.entity.mob.ZoglinEntity wrapper
 // public static void tickBrain() { net.minecraft.entity.mob.ZoglinEntity.tickBrain(); }
 // public void playAngrySound() { wrapperContained.playAngrySound(); }
 // public static void playAngrySound() { net.minecraft.entity.mob.ZoglinEntity.playAngrySound(); }
-// public java.util.Optional getHoglinTarget() { return wrapperContained.getHoglinTarget(); }
-// public static java.util.Optional getHoglinTarget() { return net.minecraft.entity.mob.ZoglinEntity.getHoglinTarget(); }
-// public boolean shouldAttack(yarnwrap.entity.LivingEntity entity) { return wrapperContained.shouldAttack(entity.wrapperContained); }
-// public static boolean shouldAttack(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.mob.ZoglinEntity.shouldAttack(entity.wrapperContained); }
+// public java.util.Optional getHoglinTarget(yarnwrap.server.world.ServerWorld world) { return wrapperContained.getHoglinTarget(world.wrapperContained); }
+// public static java.util.Optional getHoglinTarget(yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.entity.mob.ZoglinEntity.getHoglinTarget(world.wrapperContained); }
+// public boolean shouldAttack(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity target) { return wrapperContained.shouldAttack(world.wrapperContained,target.wrapperContained); }
+// public static boolean shouldAttack(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity target, ) { return net.minecraft.entity.mob.ZoglinEntity.shouldAttack(world.wrapperContained,target.wrapperContained); }
 // public Object createZoglinAttributes() { return wrapperContained.createZoglinAttributes(); }
 public static Object createZoglinAttributes() { return net.minecraft.entity.mob.ZoglinEntity.createZoglinAttributes(); }
 // public void setAttackTarget(yarnwrap.entity.LivingEntity entity) { wrapperContained.setAttackTarget(entity.wrapperContained); }
 // public static void setAttackTarget(yarnwrap.entity.LivingEntity entity, ) { net.minecraft.entity.mob.ZoglinEntity.setAttackTarget(entity.wrapperContained); }
 public boolean isAdult() { return wrapperContained.isAdult(); }
 // public static boolean isAdult() { return net.minecraft.entity.mob.ZoglinEntity.isAdult(); }
+// public java.util.Optional method_64468(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.ZoglinEntity target) { return wrapperContained.method_64468(world.wrapperContained,target.wrapperContained); }
+// public static java.util.Optional method_64468(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.ZoglinEntity target, ) { return net.minecraft.entity.mob.ZoglinEntity.method_64468(world.wrapperContained,target.wrapperContained); }
+// public boolean method_64469(yarnwrap.server.world.ServerWorld target) { return wrapperContained.method_64469(target.wrapperContained); }
+// public static boolean method_64469(yarnwrap.server.world.ServerWorld target, ) { return net.minecraft.entity.mob.ZoglinEntity.method_64469(target.wrapperContained); }
 
 }

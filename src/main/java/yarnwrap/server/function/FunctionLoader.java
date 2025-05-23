@@ -60,7 +60,9 @@ public java.util.Optional get(yarnwrap.util.Identifier id) { return wrapperConta
 // public static java.lang.Object method_29457(yarnwrap.util.Identifier function,Object ex, ) { return net.minecraft.server.function.FunctionLoader.method_29457(function.wrapperContained,ex); }
 public java.lang.Iterable getTags() { return wrapperContained.getTags(); }
 // public static java.lang.Iterable getTags() { return net.minecraft.server.function.FunctionLoader.getTags(); }
-public java.util.Collection getTagOrEmpty(yarnwrap.util.Identifier id) { return wrapperContained.getTagOrEmpty(id.wrapperContained); }
-// public static java.util.Collection getTagOrEmpty(yarnwrap.util.Identifier id, ) { return net.minecraft.server.function.FunctionLoader.getTagOrEmpty(id.wrapperContained); }
+public java.util.List getTagOrEmpty(yarnwrap.util.Identifier id) { return wrapperContained.getTagOrEmpty(id.wrapperContained); }
+// public static java.util.List getTagOrEmpty(yarnwrap.util.Identifier id, ) { return net.minecraft.server.function.FunctionLoader.getTagOrEmpty(id.wrapperContained); }
+// public java.util.Optional method_64567(yarnwrap.util.Identifier id,boolean required) { return wrapperContained.method_64567(id.wrapperContained,required); }
+// public static java.util.Optional method_64567(yarnwrap.util.Identifier id,boolean required, ) { return net.minecraft.server.function.FunctionLoader.method_64567(id.wrapperContained,required); }
 
 }

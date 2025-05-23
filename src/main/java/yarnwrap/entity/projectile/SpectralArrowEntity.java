@@ -6,6 +6,11 @@ public class SpectralArrowEntity { public net.minecraft.entity.projectile.Spectr
 // public static int duration() { return net.minecraft.entity.projectile.SpectralArrowEntity.duration; }
 // public static void duration(int value, ) { net.minecraft.entity.projectile.SpectralArrowEntity.duration = value; }
 
+// public int DEFAULT_DURATION() { return wrapperContained.DEFAULT_DURATION; }
+// public void DEFAULT_DURATION(int value) { wrapperContained.DEFAULT_DURATION = value; }
+// public static int DEFAULT_DURATION() { return net.minecraft.entity.projectile.SpectralArrowEntity.DEFAULT_DURATION; }
+// public static void DEFAULT_DURATION(int value, ) { net.minecraft.entity.projectile.SpectralArrowEntity.DEFAULT_DURATION = value; }
+
 public SpectralArrowEntity(yarnwrap.world.World world,double x,double y,double z,yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack shotFrom) { this.wrapperContained = new net.minecraft.entity.projectile.SpectralArrowEntity(world.wrapperContained,x,y,z,stack.wrapperContained,shotFrom.wrapperContained); }
 public SpectralArrowEntity(yarnwrap.world.World world,yarnwrap.entity.LivingEntity owner,yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack shotFrom) { this.wrapperContained = new net.minecraft.entity.projectile.SpectralArrowEntity(world.wrapperContained,owner.wrapperContained,stack.wrapperContained,shotFrom.wrapperContained); }
 

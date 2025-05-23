@@ -16,6 +16,11 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.reso
 public static yarnwrap.resource.DataConfiguration SAFE_MODE() { return new yarnwrap.resource.DataConfiguration(net.minecraft.resource.DataConfiguration.SAFE_MODE); }
 // public static void SAFE_MODE(yarnwrap.resource.DataConfiguration value, ) { net.minecraft.resource.DataConfiguration.SAFE_MODE = value.wrapperContained; }
 
+// public com.mojang.serialization.MapCodec MAP_CODEC() { return wrapperContained.MAP_CODEC; }
+// public void MAP_CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.MAP_CODEC = value; }
+public static com.mojang.serialization.MapCodec MAP_CODEC() { return net.minecraft.resource.DataConfiguration.MAP_CODEC; }
+// public static void MAP_CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.resource.DataConfiguration.MAP_CODEC = value; }
+
 public yarnwrap.resource.DataConfiguration withFeaturesAdded(yarnwrap.resource.featuretoggle.FeatureSet features) { return new yarnwrap.resource.DataConfiguration(wrapperContained.withFeaturesAdded(features.wrapperContained)); }
 // public static yarnwrap.resource.DataConfiguration withFeaturesAdded(yarnwrap.resource.featuretoggle.FeatureSet features, ) { return new yarnwrap.resource.DataConfiguration(net.minecraft.resource.DataConfiguration.withFeaturesAdded(features.wrapperContained)); }
 // public com.mojang.datafixers.kinds.App method_45450(Object instance) { return wrapperContained.method_45450(instance); }

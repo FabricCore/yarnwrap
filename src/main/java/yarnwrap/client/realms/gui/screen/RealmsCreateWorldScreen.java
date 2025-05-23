@@ -161,6 +161,11 @@ public static yarnwrap.text.Text CREATING_TEXT() { return new yarnwrap.text.Text
 // public static yarnwrap.client.realms.task.WorldCreationTask creationTask() { return new yarnwrap.client.realms.task.WorldCreationTask(net.minecraft.client.realms.gui.screen.RealmsCreateWorldScreen.creationTask); }
 // public static void creationTask(yarnwrap.client.realms.task.WorldCreationTask value, ) { net.minecraft.client.realms.gui.screen.RealmsCreateWorldScreen.creationTask = value.wrapperContained; }
 
+// public yarnwrap.text.Text NEW_WORLD_BUTTON_TEXT() { return new yarnwrap.text.Text(wrapperContained.NEW_WORLD_BUTTON_TEXT); }
+// public void NEW_WORLD_BUTTON_TEXT(yarnwrap.text.Text value) { wrapperContained.NEW_WORLD_BUTTON_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text NEW_WORLD_BUTTON_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.screen.RealmsCreateWorldScreen.NEW_WORLD_BUTTON_TEXT); }
+// public static void NEW_WORLD_BUTTON_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.realms.gui.screen.RealmsCreateWorldScreen.NEW_WORLD_BUTTON_TEXT = value.wrapperContained; }
+
 // public RealmsCreateWorldScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.realms.dto.RealmsServer serverData,int slot,yarnwrap.text.Text title,yarnwrap.text.Text subtitle,int subtitleColor,yarnwrap.text.Text taskTitle,java.lang.Runnable callback) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsCreateWorldScreen(parent.wrapperContained,serverData.wrapperContained,slot,title.wrapperContained,subtitle.wrapperContained,subtitleColor,taskTitle.wrapperContained,callback); }
 public RealmsCreateWorldScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.realms.dto.RealmsServer serverData,int slot,yarnwrap.text.Text title,yarnwrap.text.Text subtitle,int subtitleColor,yarnwrap.text.Text taskTitle,yarnwrap.client.realms.task.WorldCreationTask creationTask,java.lang.Runnable callback) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsCreateWorldScreen(parent.wrapperContained,serverData.wrapperContained,slot,title.wrapperContained,subtitle.wrapperContained,subtitleColor,taskTitle.wrapperContained,creationTask.wrapperContained,callback); }
 // public void method_25211(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25211(button.wrapperContained); }
@@ -171,8 +176,6 @@ public RealmsCreateWorldScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap
 // public static void method_25213(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsCreateWorldScreen.method_25213(button.wrapperContained); }
 // public void onSelectWorldTemplate(yarnwrap.client.realms.dto.WorldTemplate template) { wrapperContained.onSelectWorldTemplate(template.wrapperContained); }
 // public static void onSelectWorldTemplate(yarnwrap.client.realms.dto.WorldTemplate template, ) { net.minecraft.client.realms.gui.screen.RealmsCreateWorldScreen.onSelectWorldTemplate(template.wrapperContained); }
-// public void onResetNormalWorld(yarnwrap.client.realms.gui.screen.ResetWorldInfo info) { wrapperContained.onResetNormalWorld(info.wrapperContained); }
-// public static void onResetNormalWorld(yarnwrap.client.realms.gui.screen.ResetWorldInfo info, ) { net.minecraft.client.realms.gui.screen.RealmsCreateWorldScreen.onResetNormalWorld(info.wrapperContained); }
 // public void method_53799(yarnwrap.client.realms.gui.screen.RealmsCreateWorldScreen child) { wrapperContained.method_53799(child.wrapperContained); }
 // public static void method_53799(yarnwrap.client.realms.gui.screen.RealmsCreateWorldScreen child, ) { net.minecraft.client.realms.gui.screen.RealmsCreateWorldScreen.method_53799(child.wrapperContained); }
 // public void method_53800(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_53800(button.wrapperContained); }

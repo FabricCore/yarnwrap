@@ -22,12 +22,6 @@ public static yarnwrap.recipe.BrewingRecipeRegistry EMPTY() { return new yarnwra
 // public static void itemRecipes(java.util.List value, ) { net.minecraft.recipe.BrewingRecipeRegistry.itemRecipes = value; }
 
 // public BrewingRecipeRegistry(java.util.List potionTypes,java.util.List potionRecipes,java.util.List itemRecipes) { this.wrapperContained = new net.minecraft.recipe.BrewingRecipeRegistry(potionTypes,potionRecipes,itemRecipes); }
-public boolean isBrewable(yarnwrap.registry.entry.RegistryEntry potion) { return wrapperContained.isBrewable(potion.wrapperContained); }
-// public static boolean isBrewable(yarnwrap.registry.entry.RegistryEntry potion, ) { return net.minecraft.recipe.BrewingRecipeRegistry.isBrewable(potion.wrapperContained); }
-// public void registerDefaults(Object builder) { wrapperContained.registerDefaults(builder); }
-// public static void registerDefaults(Object builder, ) { net.minecraft.recipe.BrewingRecipeRegistry.registerDefaults(builder); }
-// public boolean isPotionType(yarnwrap.item.ItemStack stack) { return wrapperContained.isPotionType(stack.wrapperContained); }
-// public static boolean isPotionType(yarnwrap.item.ItemStack stack, ) { return net.minecraft.recipe.BrewingRecipeRegistry.isPotionType(stack.wrapperContained); }
 public boolean isPotionRecipeIngredient(yarnwrap.item.ItemStack stack) { return wrapperContained.isPotionRecipeIngredient(stack.wrapperContained); }
 // public static boolean isPotionRecipeIngredient(yarnwrap.item.ItemStack stack, ) { return net.minecraft.recipe.BrewingRecipeRegistry.isPotionRecipeIngredient(stack.wrapperContained); }
 public boolean hasItemRecipe(yarnwrap.item.ItemStack input,yarnwrap.item.ItemStack ingredient) { return wrapperContained.hasItemRecipe(input.wrapperContained,ingredient.wrapperContained); }
@@ -44,5 +38,11 @@ public yarnwrap.item.ItemStack craft(yarnwrap.item.ItemStack ingredient,yarnwrap
 // public static yarnwrap.item.ItemStack craft(yarnwrap.item.ItemStack ingredient,yarnwrap.item.ItemStack input, ) { return new yarnwrap.item.ItemStack(net.minecraft.recipe.BrewingRecipeRegistry.craft(ingredient.wrapperContained,input.wrapperContained)); }
 public boolean isItemRecipeIngredient(yarnwrap.item.ItemStack stack) { return wrapperContained.isItemRecipeIngredient(stack.wrapperContained); }
 // public static boolean isItemRecipeIngredient(yarnwrap.item.ItemStack stack, ) { return net.minecraft.recipe.BrewingRecipeRegistry.isItemRecipeIngredient(stack.wrapperContained); }
+public boolean isBrewable(yarnwrap.registry.entry.RegistryEntry potion) { return wrapperContained.isBrewable(potion.wrapperContained); }
+// public static boolean isBrewable(yarnwrap.registry.entry.RegistryEntry potion, ) { return net.minecraft.recipe.BrewingRecipeRegistry.isBrewable(potion.wrapperContained); }
+// public void registerDefaults(Object builder) { wrapperContained.registerDefaults(builder); }
+// public static void registerDefaults(Object builder, ) { net.minecraft.recipe.BrewingRecipeRegistry.registerDefaults(builder); }
+// public boolean isPotionType(yarnwrap.item.ItemStack stack) { return wrapperContained.isPotionType(stack.wrapperContained); }
+// public static boolean isPotionType(yarnwrap.item.ItemStack stack, ) { return net.minecraft.recipe.BrewingRecipeRegistry.isPotionType(stack.wrapperContained); }
 
 }

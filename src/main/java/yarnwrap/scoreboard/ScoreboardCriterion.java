@@ -36,6 +36,11 @@ public static net.minecraft.scoreboard.ScoreboardCriterion[] TEAM_KILLS() { retu
 // public static java.util.Map SIMPLE_CRITERIA() { return net.minecraft.scoreboard.ScoreboardCriterion.SIMPLE_CRITERIA; }
 // public static void SIMPLE_CRITERIA(java.util.Map value, ) { net.minecraft.scoreboard.ScoreboardCriterion.SIMPLE_CRITERIA = value; }
 
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.scoreboard.ScoreboardCriterion.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.scoreboard.ScoreboardCriterion.CODEC = value; }
+
 // public ScoreboardCriterion(java.lang.String name) { this.wrapperContained = new net.minecraft.scoreboard.ScoreboardCriterion(name); }
 // public ScoreboardCriterion(java.lang.String name,boolean readOnly,Object defaultRenderType) { this.wrapperContained = new net.minecraft.scoreboard.ScoreboardCriterion(name,readOnly,defaultRenderType); }
 // public java.util.Optional getOrCreateStatCriterion(yarnwrap.stat.StatType statType,yarnwrap.util.Identifier id) { return wrapperContained.getOrCreateStatCriterion(statType.wrapperContained,id.wrapperContained); }
@@ -56,5 +61,7 @@ public Object getDefaultRenderType() { return wrapperContained.getDefaultRenderT
 // public static yarnwrap.scoreboard.ScoreboardCriterion create(java.lang.String name, ) { return new yarnwrap.scoreboard.ScoreboardCriterion(net.minecraft.scoreboard.ScoreboardCriterion.create(name)); }
 // public java.util.Set getAllSimpleCriteria() { return wrapperContained.getAllSimpleCriteria(); }
 public static java.util.Set getAllSimpleCriteria() { return net.minecraft.scoreboard.ScoreboardCriterion.getAllSimpleCriteria(); }
+// public com.mojang.serialization.DataResult method_67466(java.lang.String name) { return wrapperContained.method_67466(name); }
+// public static com.mojang.serialization.DataResult method_67466(java.lang.String name, ) { return net.minecraft.scoreboard.ScoreboardCriterion.method_67466(name); }
 
 }

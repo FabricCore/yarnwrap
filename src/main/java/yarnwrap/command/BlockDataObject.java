@@ -21,6 +21,11 @@ public class BlockDataObject { public net.minecraft.command.BlockDataObject wrap
 public static java.util.function.Function TYPE_FACTORY() { return net.minecraft.command.BlockDataObject.TYPE_FACTORY; }
 // public static void TYPE_FACTORY(java.util.function.Function value, ) { net.minecraft.command.BlockDataObject.TYPE_FACTORY = value; }
 
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.command.BlockDataObject.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.command.BlockDataObject.LOGGER = value; }
+
 public BlockDataObject(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.command.BlockDataObject(blockEntity.wrapperContained,pos.wrapperContained); }
 // public Object method_13878(java.lang.String argumentName) { return wrapperContained.method_13878(argumentName); }
 // public static Object method_13878(java.lang.String argumentName, ) { return net.minecraft.command.BlockDataObject.method_13878(argumentName); }

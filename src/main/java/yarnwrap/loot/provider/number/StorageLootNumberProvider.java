@@ -8,7 +8,7 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 
 // public com.mojang.datafixers.kinds.App method_58470(Object instance) { return wrapperContained.method_58470(instance); }
 // public static com.mojang.datafixers.kinds.App method_58470(Object instance, ) { return net.minecraft.loot.provider.number.StorageLootNumberProvider.method_58470(instance); }
-// public java.util.Optional getNumber(yarnwrap.loot.context.LootContext context) { return wrapperContained.getNumber(context.wrapperContained); }
-// public static java.util.Optional getNumber(yarnwrap.loot.context.LootContext context, ) { return net.minecraft.loot.provider.number.StorageLootNumberProvider.getNumber(context.wrapperContained); }
+// public java.lang.Number getNumber(yarnwrap.loot.context.LootContext context,java.lang.Number fallback) { return wrapperContained.getNumber(context.wrapperContained,fallback); }
+// public static java.lang.Number getNumber(yarnwrap.loot.context.LootContext context,java.lang.Number fallback, ) { return net.minecraft.loot.provider.number.StorageLootNumberProvider.getNumber(context.wrapperContained,fallback); }
 
 }

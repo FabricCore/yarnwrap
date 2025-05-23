@@ -51,11 +51,14 @@ public static char FORMATTING_CODE_PREFIX() { return net.minecraft.util.Formatti
 public static com.mojang.serialization.Codec CODEC() { return net.minecraft.util.Formatting.CODEC; }
 // public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.util.Formatting.CODEC = value; }
 
+// public com.mojang.serialization.Codec COLOR_CODEC() { return wrapperContained.COLOR_CODEC; }
+// public void COLOR_CODEC(com.mojang.serialization.Codec value) { wrapperContained.COLOR_CODEC = value; }
+public static com.mojang.serialization.Codec COLOR_CODEC() { return net.minecraft.util.Formatting.COLOR_CODEC; }
+// public static void COLOR_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.util.Formatting.COLOR_CODEC = value; }
+
 // // public Formatting(java.lang.String name,int code,java.lang.String colorIndex,char colorValue) { this.wrapperContained = new net.minecraft.util.Formatting(name,code,colorIndex,colorValue); }
 // // public Formatting(java.lang.String name,int code,java.lang.String modifier) { this.wrapperContained = new net.minecraft.util.Formatting(name,code,modifier); }
 // // public Formatting(java.lang.String name,int code,java.lang.String modifier,char colorIndex,boolean colorValue) { this.wrapperContained = new net.minecraft.util.Formatting(name,code,modifier,colorIndex,colorValue); }
-public char getCode() { return wrapperContained.getCode(); }
-// public static char getCode() { return net.minecraft.util.Formatting.getCode(); }
 // public java.lang.String method_531(yarnwrap.util.Formatting f) { return wrapperContained.method_531(f.wrapperContained); }
 // public static java.lang.String method_531(yarnwrap.util.Formatting f, ) { return net.minecraft.util.Formatting.method_531(f.wrapperContained); }
 public java.lang.Integer getColorValue() { return wrapperContained.getColorValue(); }
@@ -82,5 +85,9 @@ public boolean isColor() { return wrapperContained.isColor(); }
 // public static boolean isColor() { return net.minecraft.util.Formatting.isColor(); }
 // public yarnwrap.util.Formatting byCode(char code) { return new yarnwrap.util.Formatting(wrapperContained.byCode(code)); }
 // public static yarnwrap.util.Formatting byCode(char code, ) { return new yarnwrap.util.Formatting(net.minecraft.util.Formatting.byCode(code)); }
+public char getCode() { return wrapperContained.getCode(); }
+// public static char getCode() { return net.minecraft.util.Formatting.getCode(); }
+// public com.mojang.serialization.DataResult method_67477(yarnwrap.util.Formatting formatting) { return wrapperContained.method_67477(formatting.wrapperContained); }
+// public static com.mojang.serialization.DataResult method_67477(yarnwrap.util.Formatting formatting, ) { return net.minecraft.util.Formatting.method_67477(formatting.wrapperContained); }
 
 }

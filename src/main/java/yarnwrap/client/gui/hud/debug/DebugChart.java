@@ -41,5 +41,7 @@ public void render(yarnwrap.client.gui.DrawContext context,int x,int width) { wr
 // public static void drawTotalBar(yarnwrap.client.gui.DrawContext context,int y,int x,int index, ) { net.minecraft.client.gui.hud.debug.DebugChart.drawTotalBar(context.wrapperContained,y,x,index); }
 // public void drawOverlayBar(yarnwrap.client.gui.DrawContext context,int y,int x,int index) { wrapperContained.drawOverlayBar(context.wrapperContained,y,x,index); }
 // public static void drawOverlayBar(yarnwrap.client.gui.DrawContext context,int y,int x,int index, ) { net.minecraft.client.gui.hud.debug.DebugChart.drawOverlayBar(context.wrapperContained,y,x,index); }
+public int getHeight() { return wrapperContained.getHeight(); }
+// public static int getHeight() { return net.minecraft.client.gui.hud.debug.DebugChart.getHeight(); }
 
 }

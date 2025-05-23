@@ -126,6 +126,11 @@ public yarnwrap.registry.Registry registry() { return new yarnwrap.registry.Regi
 // public static yarnwrap.entity.damage.DamageSource campfire() { return new yarnwrap.entity.damage.DamageSource(net.minecraft.entity.damage.DamageSources.campfire); }
 // public static void campfire(yarnwrap.entity.damage.DamageSource value, ) { net.minecraft.entity.damage.DamageSources.campfire = value.wrapperContained; }
 
+// public yarnwrap.entity.damage.DamageSource enderPearl() { return new yarnwrap.entity.damage.DamageSource(wrapperContained.enderPearl); }
+// public void enderPearl(yarnwrap.entity.damage.DamageSource value) { wrapperContained.enderPearl = value.wrapperContained; }
+// public static yarnwrap.entity.damage.DamageSource enderPearl() { return new yarnwrap.entity.damage.DamageSource(net.minecraft.entity.damage.DamageSources.enderPearl); }
+// public static void enderPearl(yarnwrap.entity.damage.DamageSource value, ) { net.minecraft.entity.damage.DamageSources.enderPearl = value.wrapperContained; }
+
 public DamageSources(yarnwrap.registry.DynamicRegistryManager registryManager) { this.wrapperContained = new net.minecraft.entity.damage.DamageSources(registryManager.wrapperContained); }
 // public yarnwrap.entity.damage.DamageSource inFire() { return new yarnwrap.entity.damage.DamageSource(wrapperContained.inFire()); }
 // // public static yarnwrap.entity.damage.DamageSource inFire() { return new yarnwrap.entity.damage.DamageSource(net.minecraft.entity.damage.DamageSources.inFire()); }
@@ -225,5 +230,9 @@ public yarnwrap.entity.damage.DamageSource windCharge(yarnwrap.entity.Entity sou
 // public static yarnwrap.entity.damage.DamageSource windCharge(yarnwrap.entity.Entity source,yarnwrap.entity.LivingEntity attacker, ) { return new yarnwrap.entity.damage.DamageSource(net.minecraft.entity.damage.DamageSources.windCharge(source.wrapperContained,attacker.wrapperContained)); }
 // public yarnwrap.entity.damage.DamageSource campfire() { return new yarnwrap.entity.damage.DamageSource(wrapperContained.campfire()); }
 // // public static yarnwrap.entity.damage.DamageSource campfire() { return new yarnwrap.entity.damage.DamageSource(net.minecraft.entity.damage.DamageSources.campfire()); }
+public yarnwrap.entity.damage.DamageSource maceSmash(yarnwrap.entity.Entity attacker) { return new yarnwrap.entity.damage.DamageSource(wrapperContained.maceSmash(attacker.wrapperContained)); }
+// public static yarnwrap.entity.damage.DamageSource maceSmash(yarnwrap.entity.Entity attacker, ) { return new yarnwrap.entity.damage.DamageSource(net.minecraft.entity.damage.DamageSources.maceSmash(attacker.wrapperContained)); }
+// public yarnwrap.entity.damage.DamageSource enderPearl() { return new yarnwrap.entity.damage.DamageSource(wrapperContained.enderPearl()); }
+// // public static yarnwrap.entity.damage.DamageSource enderPearl() { return new yarnwrap.entity.damage.DamageSource(net.minecraft.entity.damage.DamageSources.enderPearl()); }
 
 }

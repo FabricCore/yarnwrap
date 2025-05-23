@@ -16,11 +16,6 @@ public class ArmadilloEntityModel { public net.minecraft.client.render.entity.mo
 // public static java.lang.String LEFT_EAR_CUBE() { return net.minecraft.client.render.entity.model.ArmadilloEntityModel.LEFT_EAR_CUBE; }
 // public static void LEFT_EAR_CUBE(java.lang.String value, ) { net.minecraft.client.render.entity.model.ArmadilloEntityModel.LEFT_EAR_CUBE = value; }
 
-// public yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(wrapperContained.root); }
-// public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.ArmadilloEntityModel.root); }
-// public static void root(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.ArmadilloEntityModel.root = value.wrapperContained; }
-
 // public yarnwrap.client.model.ModelPart body() { return new yarnwrap.client.model.ModelPart(wrapperContained.body); }
 // public void body(yarnwrap.client.model.ModelPart value) { wrapperContained.body = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart body() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.ArmadilloEntityModel.body); }
@@ -51,7 +46,11 @@ public class ArmadilloEntityModel { public net.minecraft.client.render.entity.mo
 // public static yarnwrap.client.model.ModelPart tail() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.ArmadilloEntityModel.tail); }
 // public static void tail(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.ArmadilloEntityModel.tail = value.wrapperContained; }
 
-public ArmadilloEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.ArmadilloEntityModel(root.wrapperContained); }
+// public yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.BABY_TRANSFORMER); }
+// public void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.BABY_TRANSFORMER = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.ArmadilloEntityModel.BABY_TRANSFORMER); }
+// public static void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.ArmadilloEntityModel.BABY_TRANSFORMER = value.wrapperContained; }
+
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.ArmadilloEntityModel.getTexturedModelData()); }
 

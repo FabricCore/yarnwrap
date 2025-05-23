@@ -23,7 +23,5 @@ public class TitleCommand { public net.minecraft.server.command.TitleCommand wra
 // public static int method_13808(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TitleCommand.method_13808(context); }
 // public int method_13809(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13809(context); }
 // public static int method_13809(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TitleCommand.method_13809(context); }
-// public boolean method_13810(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13810(source.wrapperContained); }
-// public static boolean method_13810(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.TitleCommand.method_13810(source.wrapperContained); }
 
 }

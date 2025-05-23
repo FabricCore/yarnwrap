@@ -96,10 +96,10 @@ public static yarnwrap.util.math.BlockPos END_SPAWN_POS() { return new yarnwrap.
 // public static java.util.Set loadedMobs() { return net.minecraft.server.world.ServerWorld.loadedMobs; }
 // public static void loadedMobs(java.util.Set value, ) { net.minecraft.server.world.ServerWorld.loadedMobs = value; }
 
-// public it.unimi.dsi.fastutil.ints.Int2ObjectMap dragonParts() { return wrapperContained.dragonParts; }
-// public void dragonParts(it.unimi.dsi.fastutil.ints.Int2ObjectMap value) { wrapperContained.dragonParts = value; }
-// public static it.unimi.dsi.fastutil.ints.Int2ObjectMap dragonParts() { return net.minecraft.server.world.ServerWorld.dragonParts; }
-// public static void dragonParts(it.unimi.dsi.fastutil.ints.Int2ObjectMap value, ) { net.minecraft.server.world.ServerWorld.dragonParts = value; }
+// public it.unimi.dsi.fastutil.ints.Int2ObjectMap enderDragonParts() { return wrapperContained.enderDragonParts; }
+// public void enderDragonParts(it.unimi.dsi.fastutil.ints.Int2ObjectMap value) { wrapperContained.enderDragonParts = value; }
+// public static it.unimi.dsi.fastutil.ints.Int2ObjectMap enderDragonParts() { return net.minecraft.server.world.ServerWorld.enderDragonParts; }
+// public static void enderDragonParts(it.unimi.dsi.fastutil.ints.Int2ObjectMap value, ) { net.minecraft.server.world.ServerWorld.enderDragonParts = value; }
 
 // public yarnwrap.world.EntityList entityList() { return new yarnwrap.world.EntityList(wrapperContained.entityList); }
 // public void entityList(yarnwrap.world.EntityList value) { wrapperContained.entityList = value.wrapperContained; }
@@ -181,9 +181,20 @@ public static yarnwrap.util.math.intprovider.IntProvider THUNDER_WEATHER_DURATIO
 // public static yarnwrap.entity.ai.pathing.PathNodeTypeCache pathNodeTypeCache() { return new yarnwrap.entity.ai.pathing.PathNodeTypeCache(net.minecraft.server.world.ServerWorld.pathNodeTypeCache); }
 // public static void pathNodeTypeCache(yarnwrap.entity.ai.pathing.PathNodeTypeCache value, ) { net.minecraft.server.world.ServerWorld.pathNodeTypeCache = value.wrapperContained; }
 
+// public yarnwrap.server.network.ServerWaypointHandler waypointHandler() { return new yarnwrap.server.network.ServerWaypointHandler(wrapperContained.waypointHandler); }
+// public void waypointHandler(yarnwrap.server.network.ServerWaypointHandler value) { wrapperContained.waypointHandler = value.wrapperContained; }
+// public static yarnwrap.server.network.ServerWaypointHandler waypointHandler() { return new yarnwrap.server.network.ServerWaypointHandler(net.minecraft.server.world.ServerWorld.waypointHandler); }
+// public static void waypointHandler(yarnwrap.server.network.ServerWaypointHandler value, ) { net.minecraft.server.world.ServerWorld.waypointHandler = value.wrapperContained; }
+
 // public ServerWorld(yarnwrap.server.MinecraftServer server,java.util.concurrent.Executor workerExecutor,Object session,yarnwrap.world.level.ServerWorldProperties properties,yarnwrap.registry.RegistryKey worldKey,yarnwrap.world.dimension.DimensionOptions dimensionOptions,yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener,boolean debugWorld,long seed,java.util.List spawners,boolean shouldTickTime,yarnwrap.util.math.random.RandomSequencesState randomSequencesState) { this.wrapperContained = new net.minecraft.server.world.ServerWorld(server.wrapperContained,workerExecutor,session,properties.wrapperContained,worldKey.wrapperContained,dimensionOptions.wrapperContained,worldGenerationProgressListener.wrapperContained,debugWorld,seed,spawners,shouldTickTime,randomSequencesState.wrapperContained); }
-public boolean spawnParticles(yarnwrap.server.network.ServerPlayerEntity viewer,yarnwrap.particle.ParticleEffect particle,boolean force,double x,double y,double z,int count,double deltaX,double deltaY,double deltaZ,double speed) { return wrapperContained.spawnParticles(viewer.wrapperContained,particle.wrapperContained,force,x,y,z,count,deltaX,deltaY,deltaZ,speed); }
-// public static boolean spawnParticles(yarnwrap.server.network.ServerPlayerEntity viewer,yarnwrap.particle.ParticleEffect particle,boolean force,double x,double y,double z,int count,double deltaX,double deltaY,double deltaZ,double speed, ) { return net.minecraft.server.world.ServerWorld.spawnParticles(viewer.wrapperContained,particle.wrapperContained,force,x,y,z,count,deltaX,deltaY,deltaZ,speed); }
+public void updateSleepingPlayers() { wrapperContained.updateSleepingPlayers(); }
+// public static void updateSleepingPlayers() { net.minecraft.server.world.ServerWorld.updateSleepingPlayers(); }
+public yarnwrap.util.math.BlockPos locateStructure(yarnwrap.registry.tag.TagKey structureTag,yarnwrap.util.math.BlockPos pos,int radius,boolean skipReferencedStructures) { return new yarnwrap.util.math.BlockPos(wrapperContained.locateStructure(structureTag.wrapperContained,pos.wrapperContained,radius,skipReferencedStructures)); }
+// public static yarnwrap.util.math.BlockPos locateStructure(yarnwrap.registry.tag.TagKey structureTag,yarnwrap.util.math.BlockPos pos,int radius,boolean skipReferencedStructures, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.server.world.ServerWorld.locateStructure(structureTag.wrapperContained,pos.wrapperContained,radius,skipReferencedStructures)); }
+public void setSpawnPos(yarnwrap.util.math.BlockPos pos,float angle) { wrapperContained.setSpawnPos(pos.wrapperContained,angle); }
+// public static void setSpawnPos(yarnwrap.util.math.BlockPos pos,float angle, ) { net.minecraft.server.world.ServerWorld.setSpawnPos(pos.wrapperContained,angle); }
+public boolean spawnParticles(yarnwrap.server.network.ServerPlayerEntity viewer,yarnwrap.particle.ParticleEffect parameters,boolean force,boolean important,double x,double y,double z,int count,double offsetX,double offsetY,double offsetZ,double speed) { return wrapperContained.spawnParticles(viewer.wrapperContained,parameters.wrapperContained,force,important,x,y,z,count,offsetX,offsetY,offsetZ,speed); }
+// public static boolean spawnParticles(yarnwrap.server.network.ServerPlayerEntity viewer,yarnwrap.particle.ParticleEffect parameters,boolean force,boolean important,double x,double y,double z,int count,double offsetX,double offsetY,double offsetZ,double speed, ) { return net.minecraft.server.world.ServerWorld.spawnParticles(viewer.wrapperContained,parameters.wrapperContained,force,important,x,y,z,count,offsetX,offsetY,offsetZ,speed); }
 // public void tickFluid(yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.Fluid fluid) { wrapperContained.tickFluid(pos.wrapperContained,fluid.wrapperContained); }
 // public static void tickFluid(yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.Fluid fluid, ) { net.minecraft.server.world.ServerWorld.tickFluid(pos.wrapperContained,fluid.wrapperContained); }
 public yarnwrap.world.dimension.PortalForcer getPortalForcer() { return new yarnwrap.world.dimension.PortalForcer(wrapperContained.getPortalForcer()); }
@@ -198,12 +209,10 @@ public boolean isInBlockTick() { return wrapperContained.isInBlockTick(); }
 // public static boolean isInBlockTick() { return net.minecraft.server.world.ServerWorld.isInBlockTick(); }
 public yarnwrap.structure.StructureTemplateManager getStructureTemplateManager() { return new yarnwrap.structure.StructureTemplateManager(wrapperContained.getStructureTemplateManager()); }
 // public static yarnwrap.structure.StructureTemplateManager getStructureTemplateManager() { return new yarnwrap.structure.StructureTemplateManager(net.minecraft.server.world.ServerWorld.getStructureTemplateManager()); }
-// public void saveLevel() { wrapperContained.saveLevel(); }
-// public static void saveLevel() { net.minecraft.server.world.ServerWorld.saveLevel(); }
+// public void savePersistentState(boolean flush) { wrapperContained.savePersistentState(flush); }
+// public static void savePersistentState(boolean flush, ) { net.minecraft.server.world.ServerWorld.savePersistentState(flush); }
 // public void tickBlock(yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block block) { wrapperContained.tickBlock(pos.wrapperContained,block.wrapperContained); }
 // public static void tickBlock(yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block block, ) { net.minecraft.server.world.ServerWorld.tickBlock(pos.wrapperContained,block.wrapperContained); }
-public yarnwrap.entity.Entity getEntity(java.util.UUID uuid) { return new yarnwrap.entity.Entity(wrapperContained.getEntity(uuid)); }
-// public static yarnwrap.entity.Entity getEntity(java.util.UUID uuid, ) { return new yarnwrap.entity.Entity(net.minecraft.server.world.ServerWorld.getEntity(uuid)); }
 public boolean sendToPlayerIfNearby(yarnwrap.server.network.ServerPlayerEntity player,boolean force,double x,double y,double z,yarnwrap.network.packet.Packet packet) { return wrapperContained.sendToPlayerIfNearby(player.wrapperContained,force,x,y,z,packet.wrapperContained); }
 // public static boolean sendToPlayerIfNearby(yarnwrap.server.network.ServerPlayerEntity player,boolean force,double x,double y,double z,yarnwrap.network.packet.Packet packet, ) { return net.minecraft.server.world.ServerWorld.sendToPlayerIfNearby(player.wrapperContained,force,x,y,z,packet.wrapperContained); }
 // public void processSyncedBlockEvents() { wrapperContained.processSyncedBlockEvents(); }
@@ -212,8 +221,12 @@ public void resetWeather() { wrapperContained.resetWeather(); }
 // public static void resetWeather() { net.minecraft.server.world.ServerWorld.resetWeather(); }
 public void resetIdleTimeout() { wrapperContained.resetIdleTimeout(); }
 // public static void resetIdleTimeout() { net.minecraft.server.world.ServerWorld.resetIdleTimeout(); }
-public int spawnParticles(yarnwrap.particle.ParticleEffect particle,double x,double y,double z,int count,double deltaX,double deltaY,double deltaZ,double speed) { return wrapperContained.spawnParticles(particle.wrapperContained,x,y,z,count,deltaX,deltaY,deltaZ,speed); }
-// public static int spawnParticles(yarnwrap.particle.ParticleEffect particle,double x,double y,double z,int count,double deltaX,double deltaY,double deltaZ,double speed, ) { return net.minecraft.server.world.ServerWorld.spawnParticles(particle.wrapperContained,x,y,z,count,deltaX,deltaY,deltaZ,speed); }
+public int spawnParticles(yarnwrap.particle.ParticleEffect parameters,boolean force,boolean important,double x,double y,double z,int count,double offsetX,double offsetY,double offsetZ,double speed) { return wrapperContained.spawnParticles(parameters.wrapperContained,force,important,x,y,z,count,offsetX,offsetY,offsetZ,speed); }
+// public static int spawnParticles(yarnwrap.particle.ParticleEffect parameters,boolean force,boolean important,double x,double y,double z,int count,double offsetX,double offsetY,double offsetZ,double speed, ) { return net.minecraft.server.world.ServerWorld.spawnParticles(parameters.wrapperContained,force,important,x,y,z,count,offsetX,offsetY,offsetZ,speed); }
+public yarnwrap.component.type.MapIdComponent increaseAndGetMapId() { return new yarnwrap.component.type.MapIdComponent(wrapperContained.increaseAndGetMapId()); }
+// public static yarnwrap.component.type.MapIdComponent increaseAndGetMapId() { return new yarnwrap.component.type.MapIdComponent(net.minecraft.server.world.ServerWorld.increaseAndGetMapId()); }
+public void putMapState(yarnwrap.component.type.MapIdComponent id,yarnwrap.item.map.MapState state) { wrapperContained.putMapState(id.wrapperContained,state.wrapperContained); }
+// public static void putMapState(yarnwrap.component.type.MapIdComponent id,yarnwrap.item.map.MapState state, ) { net.minecraft.server.world.ServerWorld.putMapState(id.wrapperContained,state.wrapperContained); }
 public yarnwrap.world.PersistentStateManager getPersistentStateManager() { return new yarnwrap.world.PersistentStateManager(wrapperContained.getPersistentStateManager()); }
 // public static yarnwrap.world.PersistentStateManager getPersistentStateManager() { return new yarnwrap.world.PersistentStateManager(net.minecraft.server.world.ServerWorld.getPersistentStateManager()); }
 public it.unimi.dsi.fastutil.longs.LongSet getForcedChunks() { return wrapperContained.getForcedChunks(); }
@@ -272,10 +285,6 @@ public yarnwrap.village.raid.Raid getRaidAt(yarnwrap.util.math.BlockPos pos) { r
 // public static yarnwrap.village.raid.Raid getRaidAt(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.village.raid.Raid(net.minecraft.server.world.ServerWorld.getRaidAt(pos.wrapperContained)); }
 public boolean hasRaidAt(yarnwrap.util.math.BlockPos pos) { return wrapperContained.hasRaidAt(pos.wrapperContained); }
 // public static boolean hasRaidAt(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.server.world.ServerWorld.hasRaidAt(pos.wrapperContained); }
-// public void method_19535(yarnwrap.util.math.BlockPos newPoiType) { wrapperContained.method_19535(newPoiType.wrapperContained); }
-// public static void method_19535(yarnwrap.util.math.BlockPos newPoiType, ) { net.minecraft.server.world.ServerWorld.method_19535(newPoiType.wrapperContained); }
-// public void method_19536(yarnwrap.util.math.BlockPos oldPoiType) { wrapperContained.method_19536(oldPoiType.wrapperContained); }
-// public static void method_19536(yarnwrap.util.math.BlockPos oldPoiType, ) { net.minecraft.server.world.ServerWorld.method_19536(oldPoiType.wrapperContained); }
 public boolean isNearOccupiedPointOfInterest(yarnwrap.util.math.ChunkSectionPos sectionPos) { return wrapperContained.isNearOccupiedPointOfInterest(sectionPos.wrapperContained); }
 // public static boolean isNearOccupiedPointOfInterest(yarnwrap.util.math.ChunkSectionPos sectionPos, ) { return net.minecraft.server.world.ServerWorld.isNearOccupiedPointOfInterest(sectionPos.wrapperContained); }
 // public void dumpEntities(java.io.Writer writer,java.lang.Iterable entities) { wrapperContained.dumpEntities(writer,entities); }
@@ -320,12 +329,10 @@ public java.lang.String getDebugString() { return wrapperContained.getDebugStrin
 // public static boolean method_31421(yarnwrap.registry.entry.RegistryEntry poiType, ) { return net.minecraft.server.world.ServerWorld.method_31421(poiType.wrapperContained); }
 public void loadEntities(java.util.stream.Stream entities) { wrapperContained.loadEntities(entities); }
 // public static void loadEntities(java.util.stream.Stream entities, ) { net.minecraft.server.world.ServerWorld.loadEntities(entities); }
-public yarnwrap.entity.Entity getDragonPart(int id) { return new yarnwrap.entity.Entity(wrapperContained.getDragonPart(id)); }
-// public static yarnwrap.entity.Entity getDragonPart(int id, ) { return new yarnwrap.entity.Entity(net.minecraft.server.world.ServerWorld.getDragonPart(id)); }
+public yarnwrap.entity.Entity getEntityOrDragonPart(int id) { return new yarnwrap.entity.Entity(wrapperContained.getEntityOrDragonPart(id)); }
+// public static yarnwrap.entity.Entity getEntityOrDragonPart(int id, ) { return new yarnwrap.entity.Entity(net.minecraft.server.world.ServerWorld.getEntityOrDragonPart(id)); }
 public void addEntities(java.util.stream.Stream entities) { wrapperContained.addEntities(entities); }
 // public static void addEntities(java.util.stream.Stream entities, ) { net.minecraft.server.world.ServerWorld.addEntities(entities); }
-// public boolean shouldCancelSpawn(yarnwrap.entity.Entity entity) { return wrapperContained.shouldCancelSpawn(entity.wrapperContained); }
-// public static boolean shouldCancelSpawn(yarnwrap.entity.Entity entity, ) { return net.minecraft.server.world.ServerWorld.shouldCancelSpawn(entity.wrapperContained); }
 // public java.lang.String method_31431(yarnwrap.entity.Entity entity) { return wrapperContained.method_31431(entity.wrapperContained); }
 // public static java.lang.String method_31431(yarnwrap.entity.Entity entity, ) { return net.minecraft.server.world.ServerWorld.method_31431(entity.wrapperContained); }
 public int getLogicalHeight() { return wrapperContained.getLogicalHeight(); }
@@ -340,20 +347,16 @@ public boolean isSleepingEnabled() { return wrapperContained.isSleepingEnabled()
 // public static boolean method_34680(yarnwrap.util.math.BlockPos innerPos, ) { return net.minecraft.server.world.ServerWorld.method_34680(innerPos.wrapperContained); }
 public boolean isChunkLoaded(long chunkPos) { return wrapperContained.isChunkLoaded(chunkPos); }
 // public static boolean isChunkLoaded(long chunkPos, ) { return net.minecraft.server.world.ServerWorld.isChunkLoaded(chunkPos); }
-// public boolean isTickingFutureReady(long chunkPos) { return wrapperContained.isTickingFutureReady(chunkPos); }
+public boolean isTickingFutureReady(long chunkPos) { return wrapperContained.isTickingFutureReady(chunkPos); }
 // public static boolean isTickingFutureReady(long chunkPos, ) { return net.minecraft.server.world.ServerWorld.isTickingFutureReady(chunkPos); }
-public boolean shouldTickEntity(yarnwrap.util.math.BlockPos pos) { return wrapperContained.shouldTickEntity(pos.wrapperContained); }
-// public static boolean shouldTickEntity(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.server.world.ServerWorld.shouldTickEntity(pos.wrapperContained); }
+public boolean shouldTickEntityAt(yarnwrap.util.math.BlockPos pos) { return wrapperContained.shouldTickEntityAt(pos.wrapperContained); }
+// public static boolean shouldTickEntityAt(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.server.world.ServerWorld.shouldTickEntityAt(pos.wrapperContained); }
 public void disableTickSchedulers(yarnwrap.world.chunk.WorldChunk chunk) { wrapperContained.disableTickSchedulers(chunk.wrapperContained); }
 // public static void disableTickSchedulers(yarnwrap.world.chunk.WorldChunk chunk, ) { net.minecraft.server.world.ServerWorld.disableTickSchedulers(chunk.wrapperContained); }
 // public void tickWeather() { wrapperContained.tickWeather(); }
 // public static void tickWeather() { net.minecraft.server.world.ServerWorld.tickWeather(); }
 public void cacheStructures(yarnwrap.world.chunk.Chunk chunk) { wrapperContained.cacheStructures(chunk.wrapperContained); }
 // public static void cacheStructures(yarnwrap.world.chunk.Chunk chunk, ) { net.minecraft.server.world.ServerWorld.cacheStructures(chunk.wrapperContained); }
-public boolean shouldTick(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.shouldTick(pos.wrapperContained); }
-// public static boolean shouldTick(yarnwrap.util.math.ChunkPos pos, ) { return net.minecraft.server.world.ServerWorld.shouldTick(pos.wrapperContained); }
-public boolean shouldTick(yarnwrap.util.math.BlockPos pos) { return wrapperContained.shouldTick(pos.wrapperContained); }
-// public static boolean shouldTick(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.server.world.ServerWorld.shouldTick(pos.wrapperContained); }
 public com.mojang.datafixers.util.Pair locateBiome(java.util.function.Predicate predicate,yarnwrap.util.math.BlockPos pos,int radius,int horizontalBlockCheckInterval,int verticalBlockCheckInterval) { return wrapperContained.locateBiome(predicate,pos.wrapperContained,radius,horizontalBlockCheckInterval,verticalBlockCheckInterval); }
 // public static com.mojang.datafixers.util.Pair locateBiome(java.util.function.Predicate predicate,yarnwrap.util.math.BlockPos pos,int radius,int horizontalBlockCheckInterval,int verticalBlockCheckInterval, ) { return net.minecraft.server.world.ServerWorld.locateBiome(predicate,pos.wrapperContained,radius,horizontalBlockCheckInterval,verticalBlockCheckInterval); }
 public void collectEntitiesByType(yarnwrap.util.TypeFilter filter,java.util.function.Predicate predicate,java.util.List result) { wrapperContained.collectEntitiesByType(filter.wrapperContained,predicate,result); }
@@ -374,11 +377,31 @@ public void tickIceAndSnow(yarnwrap.util.math.BlockPos pos) { wrapperContained.t
 // public static void tickIceAndSnow(yarnwrap.util.math.BlockPos pos, ) { net.minecraft.server.world.ServerWorld.tickIceAndSnow(pos.wrapperContained); }
 public yarnwrap.entity.ai.pathing.PathNodeTypeCache getPathNodeTypeCache() { return new yarnwrap.entity.ai.pathing.PathNodeTypeCache(wrapperContained.getPathNodeTypeCache()); }
 // public static yarnwrap.entity.ai.pathing.PathNodeTypeCache getPathNodeTypeCache() { return new yarnwrap.entity.ai.pathing.PathNodeTypeCache(net.minecraft.server.world.ServerWorld.getPathNodeTypeCache()); }
-public void updateSleepingPlayers() { wrapperContained.updateSleepingPlayers(); }
-// public static void updateSleepingPlayers() { net.minecraft.server.world.ServerWorld.updateSleepingPlayers(); }
-public yarnwrap.util.math.BlockPos locateStructure(yarnwrap.registry.tag.TagKey structureTag,yarnwrap.util.math.BlockPos pos,int radius,boolean skipReferencedStructures) { return new yarnwrap.util.math.BlockPos(wrapperContained.locateStructure(structureTag.wrapperContained,pos.wrapperContained,radius,skipReferencedStructures)); }
-// public static yarnwrap.util.math.BlockPos locateStructure(yarnwrap.registry.tag.TagKey structureTag,yarnwrap.util.math.BlockPos pos,int radius,boolean skipReferencedStructures, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.server.world.ServerWorld.locateStructure(structureTag.wrapperContained,pos.wrapperContained,radius,skipReferencedStructures)); }
-public void setSpawnPos(yarnwrap.util.math.BlockPos pos,float angle) { wrapperContained.setSpawnPos(pos.wrapperContained,angle); }
-// public static void setSpawnPos(yarnwrap.util.math.BlockPos pos,float angle, ) { net.minecraft.server.world.ServerWorld.setSpawnPos(pos.wrapperContained,angle); }
+// public Object getDestructionType(Object decayRule) { return wrapperContained.getDestructionType(decayRule); }
+// public static Object getDestructionType(Object decayRule, ) { return net.minecraft.server.world.ServerWorld.getDestructionType(decayRule); }
+public yarnwrap.world.GameRules getGameRules() { return new yarnwrap.world.GameRules(wrapperContained.getGameRules()); }
+// public static yarnwrap.world.GameRules getGameRules() { return new yarnwrap.world.GameRules(net.minecraft.server.world.ServerWorld.getGameRules()); }
+// public void method_65057(yarnwrap.util.math.BlockPos player) { wrapperContained.method_65057(player.wrapperContained); }
+// public static void method_65057(yarnwrap.util.math.BlockPos player, ) { net.minecraft.server.world.ServerWorld.method_65057(player.wrapperContained); }
+public int spawnParticles(yarnwrap.particle.ParticleEffect parameters,double x,double y,double z,int count,double offsetX,double offsetY,double offsetZ,double speed) { return wrapperContained.spawnParticles(parameters.wrapperContained,x,y,z,count,offsetX,offsetY,offsetZ,speed); }
+// public static int spawnParticles(yarnwrap.particle.ParticleEffect parameters,double x,double y,double z,int count,double offsetX,double offsetY,double offsetZ,double speed, ) { return net.minecraft.server.world.ServerWorld.spawnParticles(parameters.wrapperContained,x,y,z,count,offsetX,offsetY,offsetZ,speed); }
+// public void method_66017(yarnwrap.util.math.BlockPos newPoiType) { wrapperContained.method_66017(newPoiType.wrapperContained); }
+// public static void method_66017(yarnwrap.util.math.BlockPos newPoiType, ) { net.minecraft.server.world.ServerWorld.method_66017(newPoiType.wrapperContained); }
+// public void method_66019(yarnwrap.util.math.BlockPos oldPoiType) { wrapperContained.method_66019(oldPoiType.wrapperContained); }
+// public static void method_66019(yarnwrap.util.math.BlockPos oldPoiType, ) { net.minecraft.server.world.ServerWorld.method_66019(oldPoiType.wrapperContained); }
+public boolean shouldTickTestAt(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.shouldTickTestAt(pos.wrapperContained); }
+// public static boolean shouldTickTestAt(yarnwrap.util.math.ChunkPos pos, ) { return net.minecraft.server.world.ServerWorld.shouldTickTestAt(pos.wrapperContained); }
+public void tickThunder(yarnwrap.world.chunk.WorldChunk chunk) { wrapperContained.tickThunder(chunk.wrapperContained); }
+// public static void tickThunder(yarnwrap.world.chunk.WorldChunk chunk, ) { net.minecraft.server.world.ServerWorld.tickThunder(chunk.wrapperContained); }
+public boolean shouldTickChunkAt(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.shouldTickChunkAt(pos.wrapperContained); }
+// public static boolean shouldTickChunkAt(yarnwrap.util.math.ChunkPos pos, ) { return net.minecraft.server.world.ServerWorld.shouldTickChunkAt(pos.wrapperContained); }
+public boolean canSpawnEntitiesAt(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.canSpawnEntitiesAt(pos.wrapperContained); }
+// public static boolean canSpawnEntitiesAt(yarnwrap.util.math.ChunkPos pos, ) { return net.minecraft.server.world.ServerWorld.canSpawnEntitiesAt(pos.wrapperContained); }
+public boolean shouldTickBlockAt(yarnwrap.util.math.BlockPos pos) { return wrapperContained.shouldTickBlockAt(pos.wrapperContained); }
+// public static boolean shouldTickBlockAt(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.server.world.ServerWorld.shouldTickBlockAt(pos.wrapperContained); }
+// public void onStateReplacedWithCommands(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState oldState) { wrapperContained.onStateReplacedWithCommands(pos.wrapperContained,oldState.wrapperContained); }
+// public static void onStateReplacedWithCommands(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState oldState, ) { net.minecraft.server.world.ServerWorld.onStateReplacedWithCommands(pos.wrapperContained,oldState.wrapperContained); }
+// public yarnwrap.server.network.ServerWaypointHandler getWaypointHandler() { return new yarnwrap.server.network.ServerWaypointHandler(wrapperContained.getWaypointHandler()); }
+// public static yarnwrap.server.network.ServerWaypointHandler getWaypointHandler() { return new yarnwrap.server.network.ServerWaypointHandler(net.minecraft.server.world.ServerWorld.getWaypointHandler()); }
 
 }

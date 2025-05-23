@@ -1,15 +1,15 @@
 package yarnwrap.entity.ai.pathing;
 public class WaterPathNodeMaker { public net.minecraft.entity.ai.pathing.WaterPathNodeMaker wrapperContained; public WaterPathNodeMaker(net.minecraft.entity.ai.pathing.WaterPathNodeMaker wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public it.unimi.dsi.fastutil.longs.Long2ObjectMap nodePosToType() { return wrapperContained.nodePosToType; }
-// public void nodePosToType(it.unimi.dsi.fastutil.longs.Long2ObjectMap value) { wrapperContained.nodePosToType = value; }
-// public static it.unimi.dsi.fastutil.longs.Long2ObjectMap nodePosToType() { return net.minecraft.entity.ai.pathing.WaterPathNodeMaker.nodePosToType; }
-// public static void nodePosToType(it.unimi.dsi.fastutil.longs.Long2ObjectMap value, ) { net.minecraft.entity.ai.pathing.WaterPathNodeMaker.nodePosToType = value; }
-
 // public boolean canJumpOutOfWater() { return wrapperContained.canJumpOutOfWater; }
 // public void canJumpOutOfWater(boolean value) { wrapperContained.canJumpOutOfWater = value; }
 // public static boolean canJumpOutOfWater() { return net.minecraft.entity.ai.pathing.WaterPathNodeMaker.canJumpOutOfWater; }
 // public static void canJumpOutOfWater(boolean value, ) { net.minecraft.entity.ai.pathing.WaterPathNodeMaker.canJumpOutOfWater = value; }
+
+// public it.unimi.dsi.fastutil.longs.Long2ObjectMap nodePosToType() { return wrapperContained.nodePosToType; }
+// public void nodePosToType(it.unimi.dsi.fastutil.longs.Long2ObjectMap value) { wrapperContained.nodePosToType = value; }
+// public static it.unimi.dsi.fastutil.longs.Long2ObjectMap nodePosToType() { return net.minecraft.entity.ai.pathing.WaterPathNodeMaker.nodePosToType; }
+// public static void nodePosToType(it.unimi.dsi.fastutil.longs.Long2ObjectMap value, ) { net.minecraft.entity.ai.pathing.WaterPathNodeMaker.nodePosToType = value; }
 
 public WaterPathNodeMaker(boolean canJumpOutOfWater) { this.wrapperContained = new net.minecraft.entity.ai.pathing.WaterPathNodeMaker(canJumpOutOfWater); }
 // public yarnwrap.entity.ai.pathing.PathNodeType method_38486(int pos) { return new yarnwrap.entity.ai.pathing.PathNodeType(wrapperContained.method_38486(pos)); }

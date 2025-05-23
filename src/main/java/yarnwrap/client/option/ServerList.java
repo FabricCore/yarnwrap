@@ -16,11 +16,6 @@ public class ServerList { public net.minecraft.client.option.ServerList wrapperC
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.client.option.ServerList.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.option.ServerList.LOGGER = value; }
 
-// public yarnwrap.util.thread.TaskExecutor IO_EXECUTOR() { return new yarnwrap.util.thread.TaskExecutor(wrapperContained.IO_EXECUTOR); }
-// public void IO_EXECUTOR(yarnwrap.util.thread.TaskExecutor value) { wrapperContained.IO_EXECUTOR = value.wrapperContained; }
-// public static yarnwrap.util.thread.TaskExecutor IO_EXECUTOR() { return new yarnwrap.util.thread.TaskExecutor(net.minecraft.client.option.ServerList.IO_EXECUTOR); }
-// public static void IO_EXECUTOR(yarnwrap.util.thread.TaskExecutor value, ) { net.minecraft.client.option.ServerList.IO_EXECUTOR = value.wrapperContained; }
-
 // public int MAX_HIDDEN_ENTRIES() { return wrapperContained.MAX_HIDDEN_ENTRIES; }
 // public void MAX_HIDDEN_ENTRIES(int value) { wrapperContained.MAX_HIDDEN_ENTRIES = value; }
 // public static int MAX_HIDDEN_ENTRIES() { return net.minecraft.client.option.ServerList.MAX_HIDDEN_ENTRIES; }
@@ -30,6 +25,11 @@ public class ServerList { public net.minecraft.client.option.ServerList wrapperC
 // public void hiddenServers(java.util.List value) { wrapperContained.hiddenServers = value; }
 // public static java.util.List hiddenServers() { return net.minecraft.client.option.ServerList.hiddenServers; }
 // public static void hiddenServers(java.util.List value, ) { net.minecraft.client.option.ServerList.hiddenServers = value; }
+
+// public yarnwrap.util.thread.SimpleConsecutiveExecutor IO_EXECUTOR() { return new yarnwrap.util.thread.SimpleConsecutiveExecutor(wrapperContained.IO_EXECUTOR); }
+// public void IO_EXECUTOR(yarnwrap.util.thread.SimpleConsecutiveExecutor value) { wrapperContained.IO_EXECUTOR = value.wrapperContained; }
+// public static yarnwrap.util.thread.SimpleConsecutiveExecutor IO_EXECUTOR() { return new yarnwrap.util.thread.SimpleConsecutiveExecutor(net.minecraft.client.option.ServerList.IO_EXECUTOR); }
+// public static void IO_EXECUTOR(yarnwrap.util.thread.SimpleConsecutiveExecutor value, ) { net.minecraft.client.option.ServerList.IO_EXECUTOR = value.wrapperContained; }
 
 public ServerList(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.option.ServerList(client.wrapperContained); }
 public void set(int index,yarnwrap.client.network.ServerInfo serverInfo) { wrapperContained.set(index,serverInfo.wrapperContained); }
@@ -56,5 +56,7 @@ public yarnwrap.client.network.ServerInfo get(java.lang.String address) { return
 // public static yarnwrap.client.network.ServerInfo get(java.lang.String address, ) { return new yarnwrap.client.network.ServerInfo(net.minecraft.client.option.ServerList.get(address)); }
 public yarnwrap.client.network.ServerInfo tryUnhide(java.lang.String address) { return new yarnwrap.client.network.ServerInfo(wrapperContained.tryUnhide(address)); }
 // public static yarnwrap.client.network.ServerInfo tryUnhide(java.lang.String address, ) { return new yarnwrap.client.network.ServerInfo(net.minecraft.client.option.ServerList.tryUnhide(address)); }
+// public void method_68474(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.method_68474(nbt.wrapperContained); }
+// public static void method_68474(yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.client.option.ServerList.method_68474(nbt.wrapperContained); }
 
 }

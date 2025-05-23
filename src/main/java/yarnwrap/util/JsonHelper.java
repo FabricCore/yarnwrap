@@ -26,8 +26,6 @@ public class JsonHelper { public net.minecraft.util.JsonHelper wrapperContained;
 // public static int getInt(com.google.gson.JsonObject object,java.lang.String element, ) { return net.minecraft.util.JsonHelper.getInt(object,element); }
 // public com.google.gson.JsonArray getArray(com.google.gson.JsonObject object,java.lang.String element) { return wrapperContained.getArray(object,element); }
 // public static com.google.gson.JsonArray getArray(com.google.gson.JsonObject object,java.lang.String element, ) { return net.minecraft.util.JsonHelper.getArray(object,element); }
-// public java.lang.Object deserialize(com.google.gson.Gson gson,java.lang.String content,com.google.gson.reflect.TypeToken typeToken,boolean lenient) { return wrapperContained.deserialize(gson,content,typeToken,lenient); }
-// public static java.lang.Object deserialize(com.google.gson.Gson gson,java.lang.String content,com.google.gson.reflect.TypeToken typeToken,boolean lenient, ) { return net.minecraft.util.JsonHelper.deserialize(gson,content,typeToken,lenient); }
 // public long asLong(com.google.gson.JsonElement element,java.lang.String name) { return wrapperContained.asLong(element,name); }
 // public static long asLong(com.google.gson.JsonElement element,java.lang.String name, ) { return net.minecraft.util.JsonHelper.asLong(element,name); }
 // public boolean hasArray(com.google.gson.JsonObject object,java.lang.String element) { return wrapperContained.hasArray(object,element); }
@@ -36,8 +34,6 @@ public class JsonHelper { public net.minecraft.util.JsonHelper wrapperContained;
 // public static java.lang.String getString(com.google.gson.JsonObject object,java.lang.String element, ) { return net.minecraft.util.JsonHelper.getString(object,element); }
 // public java.lang.String getType(com.google.gson.JsonElement element) { return wrapperContained.getType(element); }
 // public static java.lang.String getType(com.google.gson.JsonElement element, ) { return net.minecraft.util.JsonHelper.getType(element); }
-// public java.lang.Object deserialize(com.google.gson.Gson gson,java.io.Reader reader,java.lang.Class type,boolean lenient) { return wrapperContained.deserialize(gson,reader,type,lenient); }
-// public static java.lang.Object deserialize(com.google.gson.Gson gson,java.io.Reader reader,java.lang.Class type,boolean lenient, ) { return net.minecraft.util.JsonHelper.deserialize(gson,reader,type,lenient); }
 // public boolean asBoolean(com.google.gson.JsonElement element,java.lang.String name) { return wrapperContained.asBoolean(element,name); }
 // public static boolean asBoolean(com.google.gson.JsonElement element,java.lang.String name, ) { return net.minecraft.util.JsonHelper.asBoolean(element,name); }
 // public float asFloat(com.google.gson.JsonElement element,java.lang.String name) { return wrapperContained.asFloat(element,name); }
@@ -48,10 +44,6 @@ public class JsonHelper { public net.minecraft.util.JsonHelper wrapperContained;
 // public static byte getByte(com.google.gson.JsonObject object,java.lang.String element,byte defaultByte, ) { return net.minecraft.util.JsonHelper.getByte(object,element,defaultByte); }
 // public java.lang.Object deserialize(com.google.gson.JsonObject object,java.lang.String element,com.google.gson.JsonDeserializationContext context,java.lang.Class type) { return wrapperContained.deserialize(object,element,context,type); }
 // public static java.lang.Object deserialize(com.google.gson.JsonObject object,java.lang.String element,com.google.gson.JsonDeserializationContext context,java.lang.Class type, ) { return net.minecraft.util.JsonHelper.deserialize(object,element,context,type); }
-// public java.lang.Object deserialize(com.google.gson.Gson gson,java.io.Reader reader,com.google.gson.reflect.TypeToken typeToken,boolean lenient) { return wrapperContained.deserialize(gson,reader,typeToken,lenient); }
-// public static java.lang.Object deserialize(com.google.gson.Gson gson,java.io.Reader reader,com.google.gson.reflect.TypeToken typeToken,boolean lenient, ) { return net.minecraft.util.JsonHelper.deserialize(gson,reader,typeToken,lenient); }
-// public com.google.gson.JsonObject deserialize(java.io.Reader reader,boolean lenient) { return wrapperContained.deserialize(reader,lenient); }
-// public static com.google.gson.JsonObject deserialize(java.io.Reader reader,boolean lenient, ) { return net.minecraft.util.JsonHelper.deserialize(reader,lenient); }
 // public boolean isNumber(com.google.gson.JsonElement element) { return wrapperContained.isNumber(element); }
 // public static boolean isNumber(com.google.gson.JsonElement element, ) { return net.minecraft.util.JsonHelper.isNumber(element); }
 // public java.lang.Object deserialize(com.google.gson.Gson gson,java.io.Reader reader,java.lang.Class type) { return wrapperContained.deserialize(gson,reader,type); }
@@ -60,8 +52,6 @@ public class JsonHelper { public net.minecraft.util.JsonHelper wrapperContained;
 // public static float getFloat(com.google.gson.JsonObject object,java.lang.String element,float defaultFloat, ) { return net.minecraft.util.JsonHelper.getFloat(object,element,defaultFloat); }
 // public boolean hasPrimitive(com.google.gson.JsonObject object,java.lang.String element) { return wrapperContained.hasPrimitive(object,element); }
 // public static boolean hasPrimitive(com.google.gson.JsonObject object,java.lang.String element, ) { return net.minecraft.util.JsonHelper.hasPrimitive(object,element); }
-// public java.lang.Object deserialize(com.google.gson.Gson gson,java.lang.String content,java.lang.Class type,boolean lenient) { return wrapperContained.deserialize(gson,content,type,lenient); }
-// public static java.lang.Object deserialize(com.google.gson.Gson gson,java.lang.String content,java.lang.Class type,boolean lenient, ) { return net.minecraft.util.JsonHelper.deserialize(gson,content,type,lenient); }
 // public long getLong(com.google.gson.JsonObject object,java.lang.String element,long defaultLong) { return wrapperContained.getLong(object,element,defaultLong); }
 // public static long getLong(com.google.gson.JsonObject object,java.lang.String element,long defaultLong, ) { return net.minecraft.util.JsonHelper.getLong(object,element,defaultLong); }
 // public com.google.gson.JsonObject getObject(com.google.gson.JsonObject object,java.lang.String element,com.google.gson.JsonObject defaultObject) { return wrapperContained.getObject(object,element,defaultObject); }
@@ -98,8 +88,6 @@ public class JsonHelper { public net.minecraft.util.JsonHelper wrapperContained;
 // public static com.google.gson.JsonObject getObject(com.google.gson.JsonObject object,java.lang.String element, ) { return net.minecraft.util.JsonHelper.getObject(object,element); }
 // public java.lang.Object deserialize(com.google.gson.Gson gson,java.io.Reader reader,com.google.gson.reflect.TypeToken typeToken) { return wrapperContained.deserialize(gson,reader,typeToken); }
 // public static java.lang.Object deserialize(com.google.gson.Gson gson,java.io.Reader reader,com.google.gson.reflect.TypeToken typeToken, ) { return net.minecraft.util.JsonHelper.deserialize(gson,reader,typeToken); }
-// public com.google.gson.JsonObject deserialize(java.lang.String content,boolean lenient) { return wrapperContained.deserialize(content,lenient); }
-// public static com.google.gson.JsonObject deserialize(java.lang.String content,boolean lenient, ) { return net.minecraft.util.JsonHelper.deserialize(content,lenient); }
 // public long getLong(com.google.gson.JsonObject object,java.lang.String name) { return wrapperContained.getLong(object,name); }
 // public static long getLong(com.google.gson.JsonObject object,java.lang.String name, ) { return net.minecraft.util.JsonHelper.getLong(object,name); }
 // public char getChar(com.google.gson.JsonObject object,java.lang.String element,char defaultChar) { return wrapperContained.getChar(object,element,defaultChar); }
@@ -152,13 +140,11 @@ public class JsonHelper { public net.minecraft.util.JsonHelper wrapperContained;
 // public static com.google.gson.JsonArray deserializeArray(java.lang.String content, ) { return net.minecraft.util.JsonHelper.deserializeArray(content); }
 // public java.lang.String toSortedString(com.google.gson.JsonElement json) { return wrapperContained.toSortedString(json); }
 // public static java.lang.String toSortedString(com.google.gson.JsonElement json, ) { return net.minecraft.util.JsonHelper.toSortedString(json); }
-// public java.lang.Object deserializeNullable(com.google.gson.Gson gson,java.io.Reader reader,com.google.gson.reflect.TypeToken typeToken,boolean lenient) { return wrapperContained.deserializeNullable(gson,reader,typeToken,lenient); }
-// public static java.lang.Object deserializeNullable(com.google.gson.Gson gson,java.io.Reader reader,com.google.gson.reflect.TypeToken typeToken,boolean lenient, ) { return net.minecraft.util.JsonHelper.deserializeNullable(gson,reader,typeToken,lenient); }
-// public java.lang.Object deserializeNullable(com.google.gson.Gson gson,java.io.Reader reader,java.lang.Class type,boolean lenient) { return wrapperContained.deserializeNullable(gson,reader,type,lenient); }
-// public static java.lang.Object deserializeNullable(com.google.gson.Gson gson,java.io.Reader reader,java.lang.Class type,boolean lenient, ) { return net.minecraft.util.JsonHelper.deserializeNullable(gson,reader,type,lenient); }
-// public java.lang.Object deserializeNullable(com.google.gson.Gson gson,java.lang.String content,java.lang.Class type,boolean lenient) { return wrapperContained.deserializeNullable(gson,content,type,lenient); }
-// public static java.lang.Object deserializeNullable(com.google.gson.Gson gson,java.lang.String content,java.lang.Class type,boolean lenient, ) { return net.minecraft.util.JsonHelper.deserializeNullable(gson,content,type,lenient); }
+// public java.lang.Object deserializeNullable(com.google.gson.Gson gson,java.io.Reader reader,com.google.gson.reflect.TypeToken typeToken) { return wrapperContained.deserializeNullable(gson,reader,typeToken); }
+// public static java.lang.Object deserializeNullable(com.google.gson.Gson gson,java.io.Reader reader,com.google.gson.reflect.TypeToken typeToken, ) { return net.minecraft.util.JsonHelper.deserializeNullable(gson,reader,typeToken); }
 // public com.google.gson.JsonElement getElement(com.google.gson.JsonObject object,java.lang.String name) { return wrapperContained.getElement(object,name); }
 // public static com.google.gson.JsonElement getElement(com.google.gson.JsonObject object,java.lang.String name, ) { return net.minecraft.util.JsonHelper.getElement(object,name); }
+// public boolean isTooLarge(com.google.gson.JsonElement json,int maxLength) { return wrapperContained.isTooLarge(json,maxLength); }
+// public static boolean isTooLarge(com.google.gson.JsonElement json,int maxLength, ) { return net.minecraft.util.JsonHelper.isTooLarge(json,maxLength); }
 
 }

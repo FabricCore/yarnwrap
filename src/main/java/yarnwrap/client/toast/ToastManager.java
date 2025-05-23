@@ -21,17 +21,22 @@ public class ToastManager { public net.minecraft.client.toast.ToastManager wrapp
 // public static int SPACES() { return net.minecraft.client.toast.ToastManager.SPACES; }
 // public static void SPACES(int value, ) { net.minecraft.client.toast.ToastManager.SPACES = value; }
 
-// public int ALL_OCCUPIED() { return wrapperContained.ALL_OCCUPIED; }
-// public void ALL_OCCUPIED(int value) { wrapperContained.ALL_OCCUPIED = value; }
-// public static int ALL_OCCUPIED() { return net.minecraft.client.toast.ToastManager.ALL_OCCUPIED; }
-// public static void ALL_OCCUPIED(int value, ) { net.minecraft.client.toast.ToastManager.ALL_OCCUPIED = value; }
-
 // public java.util.BitSet occupiedSpaces() { return wrapperContained.occupiedSpaces; }
 // public void occupiedSpaces(java.util.BitSet value) { wrapperContained.occupiedSpaces = value; }
 // public static java.util.BitSet occupiedSpaces() { return net.minecraft.client.toast.ToastManager.occupiedSpaces; }
 // public static void occupiedSpaces(java.util.BitSet value, ) { net.minecraft.client.toast.ToastManager.occupiedSpaces = value; }
 
-public ToastManager(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.toast.ToastManager(client.wrapperContained); }
+// public java.util.Set queuedToastSounds() { return wrapperContained.queuedToastSounds; }
+// public void queuedToastSounds(java.util.Set value) { wrapperContained.queuedToastSounds = value; }
+// public static java.util.Set queuedToastSounds() { return net.minecraft.client.toast.ToastManager.queuedToastSounds; }
+// public static void queuedToastSounds(java.util.Set value, ) { net.minecraft.client.toast.ToastManager.queuedToastSounds = value; }
+
+// public Object nowPlayingToast() { return wrapperContained.nowPlayingToast; }
+// public void nowPlayingToast(Object value) { wrapperContained.nowPlayingToast = value; }
+// // public static Object nowPlayingToast() { return net.minecraft.client.toast.ToastManager.nowPlayingToast; }
+// public static void nowPlayingToast(Object value, ) { net.minecraft.client.toast.ToastManager.nowPlayingToast = value; }
+
+// public ToastManager(yarnwrap.client.MinecraftClient client,yarnwrap.client.option.GameOptions gameOptions) { this.wrapperContained = new net.minecraft.client.toast.ToastManager(client.wrapperContained,gameOptions.wrapperContained); }
 public yarnwrap.client.MinecraftClient getClient() { return new yarnwrap.client.MinecraftClient(wrapperContained.getClient()); }
 // public static yarnwrap.client.MinecraftClient getClient() { return new yarnwrap.client.MinecraftClient(net.minecraft.client.toast.ToastManager.getClient()); }
 public void draw(yarnwrap.client.gui.DrawContext context) { wrapperContained.draw(context.wrapperContained); }
@@ -44,13 +49,23 @@ public void clear() { wrapperContained.clear(); }
 // public static void clear() { net.minecraft.client.toast.ToastManager.clear(); }
 // public int getTopIndex(int requiredSpaces) { return wrapperContained.getTopIndex(requiredSpaces); }
 // public static int getTopIndex(int requiredSpaces, ) { return net.minecraft.client.toast.ToastManager.getTopIndex(requiredSpaces); }
-// public boolean method_45074(int visibleEntry) { return wrapperContained.method_45074(visibleEntry); }
-// public static boolean method_45074(int visibleEntry, ) { return net.minecraft.client.toast.ToastManager.method_45074(visibleEntry); }
-// public boolean method_45075(yarnwrap.client.toast.Toast toast) { return wrapperContained.method_45075(toast.wrapperContained); }
-// public static boolean method_45075(yarnwrap.client.toast.Toast toast, ) { return net.minecraft.client.toast.ToastManager.method_45075(toast.wrapperContained); }
 // public int getEmptySpaceCount() { return wrapperContained.getEmptySpaceCount(); }
 // public static int getEmptySpaceCount() { return net.minecraft.client.toast.ToastManager.getEmptySpaceCount(); }
 public double getNotificationDisplayTimeMultiplier() { return wrapperContained.getNotificationDisplayTimeMultiplier(); }
 // public static double getNotificationDisplayTimeMultiplier() { return net.minecraft.client.toast.ToastManager.getNotificationDisplayTimeMultiplier(); }
+public void update() { wrapperContained.update(); }
+// public static void update() { net.minecraft.client.toast.ToastManager.update(); }
+// public boolean method_61991(org.apache.commons.lang3.mutable.MutableBoolean entry) { return wrapperContained.method_61991(entry); }
+// public static boolean method_61991(org.apache.commons.lang3.mutable.MutableBoolean entry, ) { return net.minecraft.client.toast.ToastManager.method_61991(entry); }
+// public boolean method_61992(yarnwrap.client.toast.Toast toast) { return wrapperContained.method_61992(toast.wrapperContained); }
+// public static boolean method_61992(yarnwrap.client.toast.Toast toast, ) { return net.minecraft.client.toast.ToastManager.method_61992(toast.wrapperContained); }
+// public void onMusicTrackStart() { wrapperContained.onMusicTrackStart(); }
+// public static void onMusicTrackStart() { net.minecraft.client.toast.ToastManager.onMusicTrackStart(); }
+// public void onMusicTrackStop() { wrapperContained.onMusicTrackStop(); }
+// public static void onMusicTrackStop() { net.minecraft.client.toast.ToastManager.onMusicTrackStop(); }
+// public void showNowPlayingToast() { wrapperContained.showNowPlayingToast(); }
+// public static void showNowPlayingToast() { net.minecraft.client.toast.ToastManager.showNowPlayingToast(); }
+// public void hideNowPlayingToast() { wrapperContained.hideNowPlayingToast(); }
+// public static void hideNowPlayingToast() { net.minecraft.client.toast.ToastManager.hideNowPlayingToast(); }
 
 }

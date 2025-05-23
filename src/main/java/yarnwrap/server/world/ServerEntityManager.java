@@ -157,5 +157,7 @@ public boolean shouldTick(yarnwrap.util.math.BlockPos pos) { return wrapperConta
 // public static boolean shouldTick(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.server.world.ServerEntityManager.shouldTick(pos.wrapperContained); }
 public int getIndexSize() { return wrapperContained.getIndexSize(); }
 // public static int getIndexSize() { return net.minecraft.server.world.ServerEntityManager.getIndexSize(); }
+public boolean shouldTickTest(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.shouldTickTest(pos.wrapperContained); }
+// public static boolean shouldTickTest(yarnwrap.util.math.ChunkPos pos, ) { return net.minecraft.server.world.ServerEntityManager.shouldTickTest(pos.wrapperContained); }
 
 }

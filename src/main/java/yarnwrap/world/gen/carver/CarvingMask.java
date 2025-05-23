@@ -16,8 +16,8 @@ public class CarvingMask { public net.minecraft.world.gen.carver.CarvingMask wra
 // // public static Object maskPredicate() { return net.minecraft.world.gen.carver.CarvingMask.maskPredicate; }
 // // public static void maskPredicate(Object value, ) { net.minecraft.world.gen.carver.CarvingMask.maskPredicate = value; }
 
-public CarvingMask(int height,int bottomY) { this.wrapperContained = new net.minecraft.world.gen.carver.CarvingMask(height,bottomY); }
 // public CarvingMask(long mask,int bottomY) { this.wrapperContained = new net.minecraft.world.gen.carver.CarvingMask(mask,bottomY); }
+public CarvingMask(int height,int bottomY) { this.wrapperContained = new net.minecraft.world.gen.carver.CarvingMask(height,bottomY); }
 public long[] getMask() { return wrapperContained.getMask(); }
 // public static long[] getMask() { return net.minecraft.world.gen.carver.CarvingMask.getMask(); }
 public void set(int offsetX,int y,int offsetZ) { wrapperContained.set(offsetX,y,offsetZ); }

@@ -1,5 +1,5 @@
 plugins {
-    id "fabric-loom" version "1.8-SNAPSHOT"
+    id "fabric-loom" version "1.10-SNAPSHOT"
 }
 
 base {
@@ -25,7 +25,7 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-    modImplementation files('lib/jscore-1_21_1.jar')
+    modImplementation files('lib/jscore-1_21_5.jar')
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 }

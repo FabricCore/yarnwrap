@@ -116,16 +116,32 @@ public Object compatibility() { return wrapperContained.compatibility; }
 // public static int NO_PARENT() { return net.minecraft.client.realms.dto.RealmsServer.NO_PARENT; }
 // public static void NO_PARENT(int value, ) { net.minecraft.client.realms.dto.RealmsServer.NO_PARENT = value; }
 
+public boolean hardcore() { return wrapperContained.hardcore; }
+public void hardcore(boolean value) { wrapperContained.hardcore = value; }
+// public static boolean hardcore() { return net.minecraft.client.realms.dto.RealmsServer.hardcore; }
+// public static void hardcore(boolean value, ) { net.minecraft.client.realms.dto.RealmsServer.hardcore = value; }
+
+public int gameMode() { return wrapperContained.gameMode; }
+public void gameMode(int value) { wrapperContained.gameMode = value; }
+// public static int gameMode() { return net.minecraft.client.realms.dto.RealmsServer.gameMode; }
+// public static void gameMode(int value, ) { net.minecraft.client.realms.dto.RealmsServer.gameMode = value; }
+
+// public java.util.List emptySlots() { return wrapperContained.emptySlots; }
+// public void emptySlots(java.util.List value) { wrapperContained.emptySlots = value; }
+// public static java.util.List emptySlots() { return net.minecraft.client.realms.dto.RealmsServer.emptySlots; }
+// public static void emptySlots(java.util.List value, ) { net.minecraft.client.realms.dto.RealmsServer.emptySlots = value; }
+
+// public yarnwrap.client.realms.dto.RealmsRegionSelectionPreference regionSelectionPreference() { return new yarnwrap.client.realms.dto.RealmsRegionSelectionPreference(wrapperContained.regionSelectionPreference); }
+// public void regionSelectionPreference(yarnwrap.client.realms.dto.RealmsRegionSelectionPreference value) { wrapperContained.regionSelectionPreference = value.wrapperContained; }
+// public static yarnwrap.client.realms.dto.RealmsRegionSelectionPreference regionSelectionPreference() { return new yarnwrap.client.realms.dto.RealmsRegionSelectionPreference(net.minecraft.client.realms.dto.RealmsServer.regionSelectionPreference); }
+// public static void regionSelectionPreference(yarnwrap.client.realms.dto.RealmsRegionSelectionPreference value, ) { net.minecraft.client.realms.dto.RealmsServer.regionSelectionPreference = value.wrapperContained; }
+
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.client.realms.dto.RealmsServer.equals(o); }
 public java.lang.String getDescription() { return wrapperContained.getDescription(); }
 // public static java.lang.String getDescription() { return net.minecraft.client.realms.dto.RealmsServer.getDescription(); }
 public java.lang.String getWorldName(int slotId) { return wrapperContained.getWorldName(slotId); }
 // public static java.lang.String getWorldName(int slotId, ) { return net.minecraft.client.realms.dto.RealmsServer.getWorldName(slotId); }
-// public java.util.List parseInvited(com.google.gson.JsonArray jsonArray) { return wrapperContained.parseInvited(jsonArray); }
-// public static java.util.List parseInvited(com.google.gson.JsonArray jsonArray, ) { return net.minecraft.client.realms.dto.RealmsServer.parseInvited(jsonArray); }
-// public yarnwrap.client.realms.dto.RealmsServer parse(com.google.gson.JsonObject node) { return new yarnwrap.client.realms.dto.RealmsServer(wrapperContained.parse(node)); }
-// public static yarnwrap.client.realms.dto.RealmsServer parse(com.google.gson.JsonObject node, ) { return new yarnwrap.client.realms.dto.RealmsServer(net.minecraft.client.realms.dto.RealmsServer.parse(node)); }
 // public int method_25057(yarnwrap.client.realms.dto.PlayerInfo a,yarnwrap.client.realms.dto.PlayerInfo b) { return wrapperContained.method_25057(a.wrapperContained,b.wrapperContained); }
 // public static int method_25057(yarnwrap.client.realms.dto.PlayerInfo a,yarnwrap.client.realms.dto.PlayerInfo b, ) { return net.minecraft.client.realms.dto.RealmsServer.method_25057(a.wrapperContained,b.wrapperContained); }
 // public void sortInvited(yarnwrap.client.realms.dto.RealmsServer server) { wrapperContained.sortInvited(server.wrapperContained); }
@@ -136,20 +152,14 @@ public java.util.Map cloneSlots(java.util.Map slots) { return wrapperContained.c
 // public static java.util.Map cloneSlots(java.util.Map slots, ) { return net.minecraft.client.realms.dto.RealmsServer.cloneSlots(slots); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 // public static java.lang.String getName() { return net.minecraft.client.realms.dto.RealmsServer.getName(); }
-// public java.util.Map parseSlots(com.google.gson.JsonArray json) { return wrapperContained.parseSlots(json); }
-// public static java.util.Map parseSlots(com.google.gson.JsonArray json, ) { return net.minecraft.client.realms.dto.RealmsServer.parseSlots(json); }
 public void setDescription(java.lang.String description) { wrapperContained.setDescription(description); }
 // public static void setDescription(java.lang.String description, ) { net.minecraft.client.realms.dto.RealmsServer.setDescription(description); }
 public java.lang.String getMinigameName() { return wrapperContained.getMinigameName(); }
 // public static java.lang.String getMinigameName() { return net.minecraft.client.realms.dto.RealmsServer.getMinigameName(); }
-// public yarnwrap.client.realms.dto.RealmsServer parse(java.lang.String json) { return new yarnwrap.client.realms.dto.RealmsServer(wrapperContained.parse(json)); }
-// public static yarnwrap.client.realms.dto.RealmsServer parse(java.lang.String json, ) { return new yarnwrap.client.realms.dto.RealmsServer(net.minecraft.client.realms.dto.RealmsServer.parse(json)); }
-// public Object getState(java.lang.String state) { return wrapperContained.getState(state); }
-// public static Object getState(java.lang.String state, ) { return net.minecraft.client.realms.dto.RealmsServer.getState(state); }
-// public java.util.Map getEmptySlots() { return wrapperContained.getEmptySlots(); }
-// public static java.util.Map getEmptySlots() { return net.minecraft.client.realms.dto.RealmsServer.getEmptySlots(); }
-// public Object getWorldType(java.lang.String worldType) { return wrapperContained.getWorldType(worldType); }
-// public static Object getWorldType(java.lang.String worldType, ) { return net.minecraft.client.realms.dto.RealmsServer.getWorldType(worldType); }
+// public yarnwrap.client.realms.dto.RealmsServer parse(yarnwrap.client.realms.CheckedGson gson,java.lang.String json) { return new yarnwrap.client.realms.dto.RealmsServer(wrapperContained.parse(gson.wrapperContained,json)); }
+// public static yarnwrap.client.realms.dto.RealmsServer parse(yarnwrap.client.realms.CheckedGson gson,java.lang.String json, ) { return new yarnwrap.client.realms.dto.RealmsServer(net.minecraft.client.realms.dto.RealmsServer.parse(gson.wrapperContained,json)); }
+// // public java.util.List getEmptySlots() { return wrapperContained.getEmptySlots(); }
+// // public static java.util.List getEmptySlots() { return net.minecraft.client.realms.dto.RealmsServer.getEmptySlots(); }
 public yarnwrap.client.network.ServerInfo createServerInfo(java.lang.String address) { return new yarnwrap.client.network.ServerInfo(wrapperContained.createServerInfo(address)); }
 // public static yarnwrap.client.network.ServerInfo createServerInfo(java.lang.String address, ) { return new yarnwrap.client.network.ServerInfo(net.minecraft.client.realms.dto.RealmsServer.createServerInfo(address)); }
 public boolean isCompatible() { return wrapperContained.isCompatible(); }
@@ -158,11 +168,15 @@ public boolean needsUpgrade() { return wrapperContained.needsUpgrade(); }
 // public static boolean needsUpgrade() { return net.minecraft.client.realms.dto.RealmsServer.needsUpgrade(); }
 public boolean needsDowngrade() { return wrapperContained.needsDowngrade(); }
 // public static boolean needsDowngrade() { return net.minecraft.client.realms.dto.RealmsServer.needsDowngrade(); }
-// public Object getCompatibility(java.lang.String compatibility) { return wrapperContained.getCompatibility(compatibility); }
-// public static Object getCompatibility(java.lang.String compatibility, ) { return net.minecraft.client.realms.dto.RealmsServer.getCompatibility(compatibility); }
-public boolean hasParentWorld() { return wrapperContained.hasParentWorld(); }
-// public static boolean hasParentWorld() { return net.minecraft.client.realms.dto.RealmsServer.hasParentWorld(); }
+public boolean isPrerelease() { return wrapperContained.isPrerelease(); }
+// public static boolean isPrerelease() { return net.minecraft.client.realms.dto.RealmsServer.isPrerelease(); }
 public boolean isMinigame() { return wrapperContained.isMinigame(); }
 // public static boolean isMinigame() { return net.minecraft.client.realms.dto.RealmsServer.isMinigame(); }
+// public void replaceNullsWithDefaults(yarnwrap.client.realms.dto.RealmsServer server) { wrapperContained.replaceNullsWithDefaults(server.wrapperContained); }
+// public static void replaceNullsWithDefaults(yarnwrap.client.realms.dto.RealmsServer server, ) { net.minecraft.client.realms.dto.RealmsServer.replaceNullsWithDefaults(server.wrapperContained); }
+// public void method_71177(yarnwrap.client.realms.dto.RealmsServer slot) { wrapperContained.method_71177(slot.wrapperContained); }
+// public static void method_71177(yarnwrap.client.realms.dto.RealmsServer slot, ) { net.minecraft.client.realms.dto.RealmsServer.method_71177(slot.wrapperContained); }
+// public void populateSlots(yarnwrap.client.realms.dto.RealmsServer server) { wrapperContained.populateSlots(server.wrapperContained); }
+// public static void populateSlots(yarnwrap.client.realms.dto.RealmsServer server, ) { net.minecraft.client.realms.dto.RealmsServer.populateSlots(server.wrapperContained); }
 
 }

@@ -1,8 +1,6 @@
 package yarnwrap.world;
 public class WorldProperties { public net.minecraft.world.WorldProperties wrapperContained; public WorldProperties(net.minecraft.world.WorldProperties wrapperContained) { this.wrapperContained = wrapperContained; }
 
-public yarnwrap.world.GameRules getGameRules() { return new yarnwrap.world.GameRules(wrapperContained.getGameRules()); }
-// public static yarnwrap.world.GameRules getGameRules() { return new yarnwrap.world.GameRules(net.minecraft.world.WorldProperties.getGameRules()); }
 public void populateCrashReport(yarnwrap.util.crash.CrashReportSection reportSection,yarnwrap.world.HeightLimitView world) { wrapperContained.populateCrashReport(reportSection.wrapperContained,world.wrapperContained); }
 // public static void populateCrashReport(yarnwrap.util.crash.CrashReportSection reportSection,yarnwrap.world.HeightLimitView world, ) { net.minecraft.world.WorldProperties.populateCrashReport(reportSection.wrapperContained,world.wrapperContained); }
 public boolean isHardcore() { return wrapperContained.isHardcore(); }

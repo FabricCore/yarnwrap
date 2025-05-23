@@ -1,10 +1,10 @@
 package yarnwrap.client.render.entity.model;
 public class SpiderEntityModel { public net.minecraft.client.render.entity.model.SpiderEntityModel wrapperContained; public SpiderEntityModel(net.minecraft.client.render.entity.model.SpiderEntityModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(wrapperContained.root); }
-// public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.SpiderEntityModel.root); }
-// public static void root(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.SpiderEntityModel.root = value.wrapperContained; }
+// public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
+// public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.SpiderEntityModel.head); }
+// public static void head(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.SpiderEntityModel.head = value.wrapperContained; }
 
 // public yarnwrap.client.model.ModelPart rightHindLeg() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightHindLeg); }
 // public void rightHindLeg(yarnwrap.client.model.ModelPart value) { wrapperContained.rightHindLeg = value.wrapperContained; }
@@ -76,12 +76,6 @@ public class SpiderEntityModel { public net.minecraft.client.render.entity.model
 // public static java.lang.String LEFT_MIDDLE_HIND_LEG() { return net.minecraft.client.render.entity.model.SpiderEntityModel.LEFT_MIDDLE_HIND_LEG; }
 // public static void LEFT_MIDDLE_HIND_LEG(java.lang.String value, ) { net.minecraft.client.render.entity.model.SpiderEntityModel.LEFT_MIDDLE_HIND_LEG = value; }
 
-// public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
-// public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.SpiderEntityModel.head); }
-// public static void head(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.SpiderEntityModel.head = value.wrapperContained; }
-
-public SpiderEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.SpiderEntityModel(root.wrapperContained); }
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.SpiderEntityModel.getTexturedModelData()); }
 

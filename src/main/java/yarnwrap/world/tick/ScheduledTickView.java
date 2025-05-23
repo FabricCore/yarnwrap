@@ -1,0 +1,21 @@
+package yarnwrap.world.tick;
+public class ScheduledTickView { public net.minecraft.world.tick.ScheduledTickView wrapperContained; public ScheduledTickView(net.minecraft.world.tick.ScheduledTickView wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public yarnwrap.world.tick.QueryableTickScheduler getBlockTickScheduler() { return new yarnwrap.world.tick.QueryableTickScheduler(wrapperContained.getBlockTickScheduler()); }
+// public static yarnwrap.world.tick.QueryableTickScheduler getBlockTickScheduler() { return new yarnwrap.world.tick.QueryableTickScheduler(net.minecraft.world.tick.ScheduledTickView.getBlockTickScheduler()); }
+public yarnwrap.world.tick.QueryableTickScheduler getFluidTickScheduler() { return new yarnwrap.world.tick.QueryableTickScheduler(wrapperContained.getFluidTickScheduler()); }
+// public static yarnwrap.world.tick.QueryableTickScheduler getFluidTickScheduler() { return new yarnwrap.world.tick.QueryableTickScheduler(net.minecraft.world.tick.ScheduledTickView.getFluidTickScheduler()); }
+public yarnwrap.world.tick.OrderedTick createOrderedTick(yarnwrap.util.math.BlockPos pos,java.lang.Object type,int delay) { return new yarnwrap.world.tick.OrderedTick(wrapperContained.createOrderedTick(pos.wrapperContained,type,delay)); }
+// public static yarnwrap.world.tick.OrderedTick createOrderedTick(yarnwrap.util.math.BlockPos pos,java.lang.Object type,int delay, ) { return new yarnwrap.world.tick.OrderedTick(net.minecraft.world.tick.ScheduledTickView.createOrderedTick(pos.wrapperContained,type,delay)); }
+public yarnwrap.world.tick.OrderedTick createOrderedTick(yarnwrap.util.math.BlockPos pos,java.lang.Object type,int delay,yarnwrap.world.tick.TickPriority priority) { return new yarnwrap.world.tick.OrderedTick(wrapperContained.createOrderedTick(pos.wrapperContained,type,delay,priority.wrapperContained)); }
+// public static yarnwrap.world.tick.OrderedTick createOrderedTick(yarnwrap.util.math.BlockPos pos,java.lang.Object type,int delay,yarnwrap.world.tick.TickPriority priority, ) { return new yarnwrap.world.tick.OrderedTick(net.minecraft.world.tick.ScheduledTickView.createOrderedTick(pos.wrapperContained,type,delay,priority.wrapperContained)); }
+public void scheduleBlockTick(yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block block,int delay) { wrapperContained.scheduleBlockTick(pos.wrapperContained,block.wrapperContained,delay); }
+// public static void scheduleBlockTick(yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block block,int delay, ) { net.minecraft.world.tick.ScheduledTickView.scheduleBlockTick(pos.wrapperContained,block.wrapperContained,delay); }
+public void scheduleBlockTick(yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block block,int delay,yarnwrap.world.tick.TickPriority priority) { wrapperContained.scheduleBlockTick(pos.wrapperContained,block.wrapperContained,delay,priority.wrapperContained); }
+// public static void scheduleBlockTick(yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block block,int delay,yarnwrap.world.tick.TickPriority priority, ) { net.minecraft.world.tick.ScheduledTickView.scheduleBlockTick(pos.wrapperContained,block.wrapperContained,delay,priority.wrapperContained); }
+public void scheduleFluidTick(yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.Fluid fluid,int delay) { wrapperContained.scheduleFluidTick(pos.wrapperContained,fluid.wrapperContained,delay); }
+// public static void scheduleFluidTick(yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.Fluid fluid,int delay, ) { net.minecraft.world.tick.ScheduledTickView.scheduleFluidTick(pos.wrapperContained,fluid.wrapperContained,delay); }
+public void scheduleFluidTick(yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.Fluid fluid,int delay,yarnwrap.world.tick.TickPriority priority) { wrapperContained.scheduleFluidTick(pos.wrapperContained,fluid.wrapperContained,delay,priority.wrapperContained); }
+// public static void scheduleFluidTick(yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.Fluid fluid,int delay,yarnwrap.world.tick.TickPriority priority, ) { net.minecraft.world.tick.ScheduledTickView.scheduleFluidTick(pos.wrapperContained,fluid.wrapperContained,delay,priority.wrapperContained); }
+
+}

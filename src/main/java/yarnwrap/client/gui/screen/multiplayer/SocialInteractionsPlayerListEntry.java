@@ -101,25 +101,25 @@ public static int LIGHT_GRAY_COLOR() { return net.minecraft.client.gui.screen.mu
 // public static java.time.Duration TOOLTIP_DELAY() { return net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.TOOLTIP_DELAY; }
 // public static void TOOLTIP_DELAY(java.time.Duration value, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.TOOLTIP_DELAY = value; }
 
-// public yarnwrap.text.Text hideText() { return new yarnwrap.text.Text(wrapperContained.hideText); }
-// public void hideText(yarnwrap.text.Text value) { wrapperContained.hideText = value.wrapperContained; }
-// public static yarnwrap.text.Text hideText() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.hideText); }
-// public static void hideText(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.hideText = value.wrapperContained; }
+// public yarnwrap.text.Text HIDE_TEXT() { return new yarnwrap.text.Text(wrapperContained.HIDE_TEXT); }
+// public void HIDE_TEXT(yarnwrap.text.Text value) { wrapperContained.HIDE_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text HIDE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.HIDE_TEXT); }
+// public static void HIDE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.HIDE_TEXT = value.wrapperContained; }
 
-// public yarnwrap.text.Text showText() { return new yarnwrap.text.Text(wrapperContained.showText); }
-// public void showText(yarnwrap.text.Text value) { wrapperContained.showText = value.wrapperContained; }
-// public static yarnwrap.text.Text showText() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.showText); }
-// public static void showText(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.showText = value.wrapperContained; }
+// public yarnwrap.text.Text SHOW_TEXT() { return new yarnwrap.text.Text(wrapperContained.SHOW_TEXT); }
+// public void SHOW_TEXT(yarnwrap.text.Text value) { wrapperContained.SHOW_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text SHOW_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.SHOW_TEXT); }
+// public static void SHOW_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.SHOW_TEXT = value.wrapperContained; }
 
 // public yarnwrap.client.gui.widget.ButtonWidget reportButton() { return new yarnwrap.client.gui.widget.ButtonWidget(wrapperContained.reportButton); }
 // public void reportButton(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.reportButton = value.wrapperContained; }
 // public static yarnwrap.client.gui.widget.ButtonWidget reportButton() { return new yarnwrap.client.gui.widget.ButtonWidget(net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.reportButton); }
 // public static void reportButton(yarnwrap.client.gui.widget.ButtonWidget value, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.reportButton = value.wrapperContained; }
 
-// public yarnwrap.text.Text reportText() { return new yarnwrap.text.Text(wrapperContained.reportText); }
-// public void reportText(yarnwrap.text.Text value) { wrapperContained.reportText = value.wrapperContained; }
-// public static yarnwrap.text.Text reportText() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.reportText); }
-// public static void reportText(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.reportText = value.wrapperContained; }
+// public yarnwrap.text.Text REPORT_TEXT() { return new yarnwrap.text.Text(wrapperContained.REPORT_TEXT); }
+// public void REPORT_TEXT(yarnwrap.text.Text value) { wrapperContained.REPORT_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text REPORT_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.REPORT_TEXT); }
+// public static void REPORT_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.REPORT_TEXT = value.wrapperContained; }
 
 // public yarnwrap.text.Text REPORT_DISABLED_TEXT() { return new yarnwrap.text.Text(wrapperContained.REPORT_DISABLED_TEXT); }
 // public void REPORT_DISABLED_TEXT(yarnwrap.text.Text value) { wrapperContained.REPORT_DISABLED_TEXT = value.wrapperContained; }
@@ -199,5 +199,7 @@ public java.util.function.Supplier getSkinSupplier() { return wrapperContained.g
 // public static java.util.function.Supplier getSkinSupplier() { return net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.getSkinSupplier(); }
 public boolean isReportable() { return wrapperContained.isReportable(); }
 // public static boolean isReportable() { return net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.isReportable(); }
+// public void updateHasDraftReport(yarnwrap.client.session.report.AbuseReportContext context) { wrapperContained.updateHasDraftReport(context.wrapperContained); }
+// public static void updateHasDraftReport(yarnwrap.client.session.report.AbuseReportContext context, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry.updateHasDraftReport(context.wrapperContained); }
 
 }

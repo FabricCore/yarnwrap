@@ -17,8 +17,8 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 // public static void options(java.util.Optional value, ) { net.minecraft.loot.function.EnchantWithLevelsLootFunction.options = value; }
 
 // public EnchantWithLevelsLootFunction(java.util.List conditions,yarnwrap.loot.provider.number.LootNumberProvider levels,java.util.Optional options) { this.wrapperContained = new net.minecraft.loot.function.EnchantWithLevelsLootFunction(conditions,levels.wrapperContained,options); }
-// public Object builder(Object registryLookup,yarnwrap.loot.provider.number.LootNumberProvider levels) { return wrapperContained.builder(registryLookup,levels.wrapperContained); }
-// public static Object builder(Object registryLookup,yarnwrap.loot.provider.number.LootNumberProvider levels, ) { return net.minecraft.loot.function.EnchantWithLevelsLootFunction.builder(registryLookup,levels.wrapperContained); }
+// public Object builder(Object registries,yarnwrap.loot.provider.number.LootNumberProvider levels) { return wrapperContained.builder(registries,levels.wrapperContained); }
+// public static Object builder(Object registries,yarnwrap.loot.provider.number.LootNumberProvider levels, ) { return net.minecraft.loot.function.EnchantWithLevelsLootFunction.builder(registries,levels.wrapperContained); }
 // public java.util.Optional method_53329(yarnwrap.loot.function.EnchantWithLevelsLootFunction function) { return wrapperContained.method_53329(function.wrapperContained); }
 // public static java.util.Optional method_53329(yarnwrap.loot.function.EnchantWithLevelsLootFunction function, ) { return net.minecraft.loot.function.EnchantWithLevelsLootFunction.method_53329(function.wrapperContained); }
 // public com.mojang.datafixers.kinds.App method_53330(Object instance) { return wrapperContained.method_53330(instance); }

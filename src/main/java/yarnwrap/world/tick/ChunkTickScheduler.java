@@ -28,8 +28,6 @@ public void setTickConsumer(java.util.function.BiConsumer tickConsumer) { wrappe
 // public static void setTickConsumer(java.util.function.BiConsumer tickConsumer, ) { net.minecraft.world.tick.ChunkTickScheduler.setTickConsumer(tickConsumer); }
 public void removeTicksIf(java.util.function.Predicate predicate) { wrapperContained.removeTicksIf(predicate); }
 // public static void removeTicksIf(java.util.function.Predicate predicate, ) { net.minecraft.world.tick.ChunkTickScheduler.removeTicksIf(predicate); }
-// public yarnwrap.world.tick.ChunkTickScheduler create(yarnwrap.nbt.NbtList tickQueue,java.util.function.Function nameToTypeFunction,yarnwrap.util.math.ChunkPos pos) { return new yarnwrap.world.tick.ChunkTickScheduler(wrapperContained.create(tickQueue.wrapperContained,nameToTypeFunction,pos.wrapperContained)); }
-// public static yarnwrap.world.tick.ChunkTickScheduler create(yarnwrap.nbt.NbtList tickQueue,java.util.function.Function nameToTypeFunction,yarnwrap.util.math.ChunkPos pos, ) { return new yarnwrap.world.tick.ChunkTickScheduler(net.minecraft.world.tick.ChunkTickScheduler.create(tickQueue.wrapperContained,nameToTypeFunction,pos.wrapperContained)); }
 public yarnwrap.world.tick.OrderedTick peekNextTick() { return new yarnwrap.world.tick.OrderedTick(wrapperContained.peekNextTick()); }
 // public static yarnwrap.world.tick.OrderedTick peekNextTick() { return new yarnwrap.world.tick.OrderedTick(net.minecraft.world.tick.ChunkTickScheduler.peekNextTick()); }
 // public void queueTick(yarnwrap.world.tick.OrderedTick orderedTick) { wrapperContained.queueTick(orderedTick.wrapperContained); }

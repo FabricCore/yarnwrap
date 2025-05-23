@@ -11,5 +11,7 @@ public AccessibilityOptionsScreen(yarnwrap.client.gui.screen.Screen parent,yarnw
 // public static void method_31384(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.option.AccessibilityOptionsScreen.method_31384(button.wrapperContained); }
 // public net.minecraft.client.option.SimpleOption[] getOptions(yarnwrap.client.option.GameOptions gameOptions) { return wrapperContained.getOptions(gameOptions.wrapperContained); }
 // public static net.minecraft.client.option.SimpleOption[] getOptions(yarnwrap.client.option.GameOptions gameOptions, ) { return net.minecraft.client.gui.screen.option.AccessibilityOptionsScreen.getOptions(gameOptions.wrapperContained); }
+// public boolean isMinecartImprovementsExperimentEnabled() { return wrapperContained.isMinecartImprovementsExperimentEnabled(); }
+// public static boolean isMinecartImprovementsExperimentEnabled() { return net.minecraft.client.gui.screen.option.AccessibilityOptionsScreen.isMinecartImprovementsExperimentEnabled(); }
 
 }

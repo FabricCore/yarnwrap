@@ -23,5 +23,7 @@ public OrderedTick(java.lang.Object type,yarnwrap.util.math.BlockPos pos,long tr
 // public static yarnwrap.world.tick.OrderedTick create(java.lang.Object type,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.world.tick.OrderedTick(net.minecraft.world.tick.OrderedTick.create(type,pos.wrapperContained)); }
 // public int method_39412(yarnwrap.world.tick.OrderedTick first,yarnwrap.world.tick.OrderedTick second) { return wrapperContained.method_39412(first.wrapperContained,second.wrapperContained); }
 // public static int method_39412(yarnwrap.world.tick.OrderedTick first,yarnwrap.world.tick.OrderedTick second, ) { return net.minecraft.world.tick.OrderedTick.method_39412(first.wrapperContained,second.wrapperContained); }
+public yarnwrap.world.tick.Tick toTick(long time) { return new yarnwrap.world.tick.Tick(wrapperContained.toTick(time)); }
+// public static yarnwrap.world.tick.Tick toTick(long time, ) { return new yarnwrap.world.tick.Tick(net.minecraft.world.tick.OrderedTick.toTick(time)); }
 
 }

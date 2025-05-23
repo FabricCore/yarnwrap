@@ -1,10 +1,10 @@
 package yarnwrap.block;
 public class CakeBlock { public net.minecraft.block.CakeBlock wrapperContained; public CakeBlock(net.minecraft.block.CakeBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public net.minecraft.util.shape.VoxelShape[] BITES_TO_SHAPE() { return wrapperContained.BITES_TO_SHAPE; }
-// public void BITES_TO_SHAPE(net.minecraft.util.shape.VoxelShape[] value) { wrapperContained.BITES_TO_SHAPE = value; }
-// public static net.minecraft.util.shape.VoxelShape[] BITES_TO_SHAPE() { return net.minecraft.block.CakeBlock.BITES_TO_SHAPE; }
-// public static void BITES_TO_SHAPE(net.minecraft.util.shape.VoxelShape[] value, ) { net.minecraft.block.CakeBlock.BITES_TO_SHAPE = value; }
+// public net.minecraft.util.shape.VoxelShape[] SHAPES_BY_BITES() { return wrapperContained.SHAPES_BY_BITES; }
+// public void SHAPES_BY_BITES(net.minecraft.util.shape.VoxelShape[] value) { wrapperContained.SHAPES_BY_BITES = value; }
+// public static net.minecraft.util.shape.VoxelShape[] SHAPES_BY_BITES() { return net.minecraft.block.CakeBlock.SHAPES_BY_BITES; }
+// public static void SHAPES_BY_BITES(net.minecraft.util.shape.VoxelShape[] value, ) { net.minecraft.block.CakeBlock.SHAPES_BY_BITES = value; }
 
 // public yarnwrap.state.property.IntProperty BITES() { return new yarnwrap.state.property.IntProperty(wrapperContained.BITES); }
 // public void BITES(yarnwrap.state.property.IntProperty value) { wrapperContained.BITES = value.wrapperContained; }
@@ -26,9 +26,11 @@ public static int MAX_BITES() { return net.minecraft.block.CakeBlock.MAX_BITES; 
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.CakeBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.CakeBlock.CODEC = value; }
 
-// public int getComparatorOutput(int bites) { return wrapperContained.getComparatorOutput(bites); }
-// public static int getComparatorOutput(int bites, ) { return net.minecraft.block.CakeBlock.getComparatorOutput(bites); }
 // public yarnwrap.util.ActionResult tryEat(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.entity.player.PlayerEntity player) { return new yarnwrap.util.ActionResult(wrapperContained.tryEat(world.wrapperContained,pos.wrapperContained,state.wrapperContained,player.wrapperContained)); }
 // public static yarnwrap.util.ActionResult tryEat(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.entity.player.PlayerEntity player, ) { return new yarnwrap.util.ActionResult(net.minecraft.block.CakeBlock.tryEat(world.wrapperContained,pos.wrapperContained,state.wrapperContained,player.wrapperContained)); }
+// public int getComparatorOutput(int bites) { return wrapperContained.getComparatorOutput(bites); }
+// public static int getComparatorOutput(int bites, ) { return net.minecraft.block.CakeBlock.getComparatorOutput(bites); }
+// public yarnwrap.util.shape.VoxelShape method_66420(int bites) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_66420(bites)); }
+// public static yarnwrap.util.shape.VoxelShape method_66420(int bites, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.CakeBlock.method_66420(bites)); }
 
 }

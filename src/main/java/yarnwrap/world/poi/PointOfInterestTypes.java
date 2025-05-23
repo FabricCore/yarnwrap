@@ -30,6 +30,12 @@ public class PointOfInterestTypes { public net.minecraft.world.poi.PointOfIntere
 // public static yarnwrap.world.poi.PointOfInterestType register(yarnwrap.registry.Registry registry,yarnwrap.registry.RegistryKey key,java.util.Set states,int ticketCount,int searchDistance, ) { return new yarnwrap.world.poi.PointOfInterestType(net.minecraft.world.poi.PointOfInterestTypes.register(registry.wrapperContained,key.wrapperContained,states,ticketCount,searchDistance)); }
 // public yarnwrap.registry.RegistryKey of(java.lang.String id) { return new yarnwrap.registry.RegistryKey(wrapperContained.of(id)); }
 // public static yarnwrap.registry.RegistryKey of(java.lang.String id, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.world.poi.PointOfInterestTypes.of(id)); }
+// public java.util.stream.Stream method_43995(yarnwrap.block.Block block) { return wrapperContained.method_43995(block.wrapperContained); }
+// public static java.util.stream.Stream method_43995(yarnwrap.block.Block block, ) { return net.minecraft.world.poi.PointOfInterestTypes.method_43995(block.wrapperContained); }
+// public boolean method_43996(yarnwrap.block.BlockState state) { return wrapperContained.method_43996(state.wrapperContained); }
+// public static boolean method_43996(yarnwrap.block.BlockState state, ) { return net.minecraft.world.poi.PointOfInterestTypes.method_43996(state.wrapperContained); }
+// public java.util.stream.Stream method_43997(yarnwrap.block.Block block) { return wrapperContained.method_43997(block.wrapperContained); }
+// public static java.util.stream.Stream method_43997(yarnwrap.block.Block block, ) { return net.minecraft.world.poi.PointOfInterestTypes.method_43997(block.wrapperContained); }
 // public boolean isPointOfInterest(yarnwrap.block.BlockState state) { return wrapperContained.isPointOfInterest(state.wrapperContained); }
 // public static boolean isPointOfInterest(yarnwrap.block.BlockState state, ) { return net.minecraft.world.poi.PointOfInterestTypes.isPointOfInterest(state.wrapperContained); }
 

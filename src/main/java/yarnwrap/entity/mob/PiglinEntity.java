@@ -51,6 +51,16 @@ public class PiglinEntity { public net.minecraft.entity.mob.PiglinEntity wrapper
 // public static yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(net.minecraft.entity.mob.PiglinEntity.BABY_BASE_DIMENSIONS); }
 // public static void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value, ) { net.minecraft.entity.mob.PiglinEntity.BABY_BASE_DIMENSIONS = value.wrapperContained; }
 
+// public boolean DEFAULT_IS_BABY() { return wrapperContained.DEFAULT_IS_BABY; }
+// public void DEFAULT_IS_BABY(boolean value) { wrapperContained.DEFAULT_IS_BABY = value; }
+// public static boolean DEFAULT_IS_BABY() { return net.minecraft.entity.mob.PiglinEntity.DEFAULT_IS_BABY; }
+// public static void DEFAULT_IS_BABY(boolean value, ) { net.minecraft.entity.mob.PiglinEntity.DEFAULT_IS_BABY = value; }
+
+// public boolean DEFAULT_CANNOT_HUNT() { return wrapperContained.DEFAULT_CANNOT_HUNT; }
+// public void DEFAULT_CANNOT_HUNT(boolean value) { wrapperContained.DEFAULT_CANNOT_HUNT = value; }
+// public static boolean DEFAULT_CANNOT_HUNT() { return net.minecraft.entity.mob.PiglinEntity.DEFAULT_CANNOT_HUNT; }
+// public static void DEFAULT_CANNOT_HUNT(boolean value, ) { net.minecraft.entity.mob.PiglinEntity.DEFAULT_CANNOT_HUNT = value; }
+
 // public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.mob.PiglinEntity.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public void equipAtChance(yarnwrap.entity.EquipmentSlot slot,yarnwrap.item.ItemStack stack,yarnwrap.util.math.random.Random random) { wrapperContained.equipAtChance(slot.wrapperContained,stack.wrapperContained,random.wrapperContained); }
@@ -79,5 +89,9 @@ public boolean isDancing() { return wrapperContained.isDancing(); }
 // public static boolean isDancing() { return net.minecraft.entity.mob.PiglinEntity.isDancing(); }
 public void setDancing(boolean dancing) { wrapperContained.setDancing(dancing); }
 // public static void setDancing(boolean dancing, ) { net.minecraft.entity.mob.PiglinEntity.setDancing(dancing); }
+// public void method_64471(yarnwrap.server.world.ServerWorld stack) { wrapperContained.method_64471(stack.wrapperContained); }
+// public static void method_64471(yarnwrap.server.world.ServerWorld stack, ) { net.minecraft.entity.mob.PiglinEntity.method_64471(stack.wrapperContained); }
+// public void method_64472(yarnwrap.server.world.ServerWorld stack) { wrapperContained.method_64472(stack.wrapperContained); }
+// public static void method_64472(yarnwrap.server.world.ServerWorld stack, ) { net.minecraft.entity.mob.PiglinEntity.method_64472(stack.wrapperContained); }
 
 }

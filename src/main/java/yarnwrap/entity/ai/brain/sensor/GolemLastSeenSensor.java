@@ -13,6 +13,8 @@ public class GolemLastSeenSensor { public net.minecraft.entity.ai.brain.sensor.G
 
 // public void senseIronGolem(yarnwrap.entity.LivingEntity entity) { wrapperContained.senseIronGolem(entity.wrapperContained); }
 // public static void senseIronGolem(yarnwrap.entity.LivingEntity entity, ) { net.minecraft.entity.ai.brain.sensor.GolemLastSeenSensor.senseIronGolem(entity.wrapperContained); }
+// public boolean method_20657(yarnwrap.entity.LivingEntity seenEntity) { return wrapperContained.method_20657(seenEntity.wrapperContained); }
+// public static boolean method_20657(yarnwrap.entity.LivingEntity seenEntity, ) { return net.minecraft.entity.ai.brain.sensor.GolemLastSeenSensor.method_20657(seenEntity.wrapperContained); }
 // public void rememberIronGolem(yarnwrap.entity.LivingEntity entity) { wrapperContained.rememberIronGolem(entity.wrapperContained); }
 // public static void rememberIronGolem(yarnwrap.entity.LivingEntity entity, ) { net.minecraft.entity.ai.brain.sensor.GolemLastSeenSensor.rememberIronGolem(entity.wrapperContained); }
 

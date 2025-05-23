@@ -16,5 +16,7 @@ public static com.mojang.serialization.MapCodec MODIFIER_CODEC() { return net.mi
 // public static yarnwrap.world.gen.placementmodifier.CountPlacementModifier of(int count, ) { return new yarnwrap.world.gen.placementmodifier.CountPlacementModifier(net.minecraft.world.gen.placementmodifier.CountPlacementModifier.of(count)); }
 // public yarnwrap.world.gen.placementmodifier.CountPlacementModifier of(yarnwrap.util.math.intprovider.IntProvider count) { return new yarnwrap.world.gen.placementmodifier.CountPlacementModifier(wrapperContained.of(count.wrapperContained)); }
 // public static yarnwrap.world.gen.placementmodifier.CountPlacementModifier of(yarnwrap.util.math.intprovider.IntProvider count, ) { return new yarnwrap.world.gen.placementmodifier.CountPlacementModifier(net.minecraft.world.gen.placementmodifier.CountPlacementModifier.of(count.wrapperContained)); }
+// public yarnwrap.util.math.intprovider.IntProvider method_39625(yarnwrap.world.gen.placementmodifier.CountPlacementModifier placementModifier) { return new yarnwrap.util.math.intprovider.IntProvider(wrapperContained.method_39625(placementModifier.wrapperContained)); }
+// public static yarnwrap.util.math.intprovider.IntProvider method_39625(yarnwrap.world.gen.placementmodifier.CountPlacementModifier placementModifier, ) { return new yarnwrap.util.math.intprovider.IntProvider(net.minecraft.world.gen.placementmodifier.CountPlacementModifier.method_39625(placementModifier.wrapperContained)); }
 
 }

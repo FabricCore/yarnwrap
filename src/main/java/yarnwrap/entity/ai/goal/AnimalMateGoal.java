@@ -1,11 +1,6 @@
 package yarnwrap.entity.ai.goal;
 public class AnimalMateGoal { public net.minecraft.entity.ai.goal.AnimalMateGoal wrapperContained; public AnimalMateGoal(net.minecraft.entity.ai.goal.AnimalMateGoal wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.entity.ai.TargetPredicate VALID_MATE_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.VALID_MATE_PREDICATE); }
-// public void VALID_MATE_PREDICATE(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.VALID_MATE_PREDICATE = value.wrapperContained; }
-// public static yarnwrap.entity.ai.TargetPredicate VALID_MATE_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.AnimalMateGoal.VALID_MATE_PREDICATE); }
-// public static void VALID_MATE_PREDICATE(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.AnimalMateGoal.VALID_MATE_PREDICATE = value.wrapperContained; }
-
 // public int timer() { return wrapperContained.timer; }
 // public void timer(int value) { wrapperContained.timer = value; }
 // public static int timer() { return net.minecraft.entity.ai.goal.AnimalMateGoal.timer; }
@@ -21,10 +16,10 @@ public class AnimalMateGoal { public net.minecraft.entity.ai.goal.AnimalMateGoal
 // public static yarnwrap.entity.passive.AnimalEntity animal() { return new yarnwrap.entity.passive.AnimalEntity(net.minecraft.entity.ai.goal.AnimalMateGoal.animal); }
 // public static void animal(yarnwrap.entity.passive.AnimalEntity value, ) { net.minecraft.entity.ai.goal.AnimalMateGoal.animal = value.wrapperContained; }
 
-// public yarnwrap.world.World world() { return new yarnwrap.world.World(wrapperContained.world); }
-// public void world(yarnwrap.world.World value) { wrapperContained.world = value.wrapperContained; }
-// public static yarnwrap.world.World world() { return new yarnwrap.world.World(net.minecraft.entity.ai.goal.AnimalMateGoal.world); }
-// public static void world(yarnwrap.world.World value, ) { net.minecraft.entity.ai.goal.AnimalMateGoal.world = value.wrapperContained; }
+// public yarnwrap.server.world.ServerWorld world() { return new yarnwrap.server.world.ServerWorld(wrapperContained.world); }
+// public void world(yarnwrap.server.world.ServerWorld value) { wrapperContained.world = value.wrapperContained; }
+// public static yarnwrap.server.world.ServerWorld world() { return new yarnwrap.server.world.ServerWorld(net.minecraft.entity.ai.goal.AnimalMateGoal.world); }
+// public static void world(yarnwrap.server.world.ServerWorld value, ) { net.minecraft.entity.ai.goal.AnimalMateGoal.world = value.wrapperContained; }
 
 // public yarnwrap.entity.passive.AnimalEntity mate() { return new yarnwrap.entity.passive.AnimalEntity(wrapperContained.mate); }
 // public void mate(yarnwrap.entity.passive.AnimalEntity value) { wrapperContained.mate = value.wrapperContained; }
@@ -35,6 +30,11 @@ public class AnimalMateGoal { public net.minecraft.entity.ai.goal.AnimalMateGoal
 // public void speed(double value) { wrapperContained.speed = value; }
 // public static double speed() { return net.minecraft.entity.ai.goal.AnimalMateGoal.speed; }
 // public static void speed(double value, ) { net.minecraft.entity.ai.goal.AnimalMateGoal.speed = value; }
+
+// public yarnwrap.entity.ai.TargetPredicate VALID_MATE_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.VALID_MATE_PREDICATE); }
+// public void VALID_MATE_PREDICATE(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.VALID_MATE_PREDICATE = value.wrapperContained; }
+// public static yarnwrap.entity.ai.TargetPredicate VALID_MATE_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.AnimalMateGoal.VALID_MATE_PREDICATE); }
+// public static void VALID_MATE_PREDICATE(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.AnimalMateGoal.VALID_MATE_PREDICATE = value.wrapperContained; }
 
 public AnimalMateGoal(yarnwrap.entity.passive.AnimalEntity animal,double speed) { this.wrapperContained = new net.minecraft.entity.ai.goal.AnimalMateGoal(animal.wrapperContained,speed); }
 public AnimalMateGoal(yarnwrap.entity.passive.AnimalEntity animal,double speed,java.lang.Class entityClass) { this.wrapperContained = new net.minecraft.entity.ai.goal.AnimalMateGoal(animal.wrapperContained,speed,entityClass); }

@@ -11,15 +11,15 @@ public static float DISPLAY_ROTATION_SPEED() { return net.minecraft.block.vault.
 // public static float displayRotation() { return net.minecraft.block.vault.VaultClientData.displayRotation; }
 // public static void displayRotation(float value, ) { net.minecraft.block.vault.VaultClientData.displayRotation = value; }
 
-// public float prevDisplayRotation() { return wrapperContained.prevDisplayRotation; }
-// public void prevDisplayRotation(float value) { wrapperContained.prevDisplayRotation = value; }
-// public static float prevDisplayRotation() { return net.minecraft.block.vault.VaultClientData.prevDisplayRotation; }
-// public static void prevDisplayRotation(float value, ) { net.minecraft.block.vault.VaultClientData.prevDisplayRotation = value; }
+// public float lastDisplayRotation() { return wrapperContained.lastDisplayRotation; }
+// public void lastDisplayRotation(float value) { wrapperContained.lastDisplayRotation = value; }
+// public static float lastDisplayRotation() { return net.minecraft.block.vault.VaultClientData.lastDisplayRotation; }
+// public static void lastDisplayRotation(float value, ) { net.minecraft.block.vault.VaultClientData.lastDisplayRotation = value; }
 
 public float getDisplayRotation() { return wrapperContained.getDisplayRotation(); }
 // public static float getDisplayRotation() { return net.minecraft.block.vault.VaultClientData.getDisplayRotation(); }
-public float getPreviousDisplayRotation() { return wrapperContained.getPreviousDisplayRotation(); }
-// public static float getPreviousDisplayRotation() { return net.minecraft.block.vault.VaultClientData.getPreviousDisplayRotation(); }
+public float getLastDisplayRotation() { return wrapperContained.getLastDisplayRotation(); }
+// public static float getLastDisplayRotation() { return net.minecraft.block.vault.VaultClientData.getLastDisplayRotation(); }
 // public void rotateDisplay() { wrapperContained.rotateDisplay(); }
 // public static void rotateDisplay() { net.minecraft.block.vault.VaultClientData.rotateDisplay(); }
 

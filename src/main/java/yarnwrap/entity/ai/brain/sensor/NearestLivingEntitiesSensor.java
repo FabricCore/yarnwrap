@@ -3,9 +3,5 @@ public class NearestLivingEntitiesSensor { public net.minecraft.entity.ai.brain.
 
 // public boolean method_19097(yarnwrap.entity.LivingEntity e) { return wrapperContained.method_19097(e.wrapperContained); }
 // public static boolean method_19097(yarnwrap.entity.LivingEntity e, ) { return net.minecraft.entity.ai.brain.sensor.NearestLivingEntitiesSensor.method_19097(e.wrapperContained); }
-// public int getHorizontalExpansion() { return wrapperContained.getHorizontalExpansion(); }
-// public static int getHorizontalExpansion() { return net.minecraft.entity.ai.brain.sensor.NearestLivingEntitiesSensor.getHorizontalExpansion(); }
-// public int getHeightExpansion() { return wrapperContained.getHeightExpansion(); }
-// public static int getHeightExpansion() { return net.minecraft.entity.ai.brain.sensor.NearestLivingEntitiesSensor.getHeightExpansion(); }
 
 }

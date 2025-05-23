@@ -1,11 +1,6 @@
 package yarnwrap.server.network;
 public class ServerPlayNetworkHandler { public net.minecraft.server.network.ServerPlayNetworkHandler wrapperContained; public ServerPlayNetworkHandler(net.minecraft.server.network.ServerPlayNetworkHandler wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int messageCooldown() { return wrapperContained.messageCooldown; }
-// public void messageCooldown(int value) { wrapperContained.messageCooldown = value; }
-// public static int messageCooldown() { return net.minecraft.server.network.ServerPlayNetworkHandler.messageCooldown; }
-// public static void messageCooldown(int value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.messageCooldown = value; }
-
 // public int movePacketsCount() { return wrapperContained.movePacketsCount; }
 // public void movePacketsCount(int value) { wrapperContained.movePacketsCount = value; }
 // public static int movePacketsCount() { return net.minecraft.server.network.ServerPlayNetworkHandler.movePacketsCount; }
@@ -71,11 +66,6 @@ public class ServerPlayNetworkHandler { public net.minecraft.server.network.Serv
 // public static boolean floating() { return net.minecraft.server.network.ServerPlayNetworkHandler.floating; }
 // public static void floating(boolean value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.floating = value; }
 
-// public int creativeItemDropThreshold() { return wrapperContained.creativeItemDropThreshold; }
-// public void creativeItemDropThreshold(int value) { wrapperContained.creativeItemDropThreshold = value; }
-// public static int creativeItemDropThreshold() { return net.minecraft.server.network.ServerPlayNetworkHandler.creativeItemDropThreshold; }
-// public static void creativeItemDropThreshold(int value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.creativeItemDropThreshold = value; }
-
 // public int lastTickMovePacketsCount() { return wrapperContained.lastTickMovePacketsCount; }
 // public void lastTickMovePacketsCount(int value) { wrapperContained.lastTickMovePacketsCount = value; }
 // public static int lastTickMovePacketsCount() { return net.minecraft.server.network.ServerPlayNetworkHandler.lastTickMovePacketsCount; }
@@ -91,10 +81,10 @@ public class ServerPlayNetworkHandler { public net.minecraft.server.network.Serv
 // public static int floatingTicks() { return net.minecraft.server.network.ServerPlayNetworkHandler.floatingTicks; }
 // public static void floatingTicks(int value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.floatingTicks = value; }
 
-// public int prevTeleportCheckTicks() { return wrapperContained.prevTeleportCheckTicks; }
-// public void prevTeleportCheckTicks(int value) { wrapperContained.prevTeleportCheckTicks = value; }
-// public static int prevTeleportCheckTicks() { return net.minecraft.server.network.ServerPlayNetworkHandler.prevTeleportCheckTicks; }
-// public static void prevTeleportCheckTicks(int value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.prevTeleportCheckTicks = value; }
+// public int lastTeleportCheckTicks() { return wrapperContained.lastTeleportCheckTicks; }
+// public void lastTeleportCheckTicks(int value) { wrapperContained.lastTeleportCheckTicks = value; }
+// public static int lastTeleportCheckTicks() { return net.minecraft.server.network.ServerPlayNetworkHandler.lastTeleportCheckTicks; }
+// public static void lastTeleportCheckTicks(int value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.lastTeleportCheckTicks = value; }
 
 public yarnwrap.server.network.ServerPlayerEntity player() { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.player); }
 public void player(yarnwrap.server.network.ServerPlayerEntity value) { wrapperContained.player = value.wrapperContained; }
@@ -196,9 +186,29 @@ public yarnwrap.server.network.ChunkDataSender chunkDataSender() { return new ya
 // public static yarnwrap.text.Text INVALID_COMMAND_SIGNATURE_TEXT() { return new yarnwrap.text.Text(net.minecraft.server.network.ServerPlayNetworkHandler.INVALID_COMMAND_SIGNATURE_TEXT); }
 // public static void INVALID_COMMAND_SIGNATURE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.INVALID_COMMAND_SIGNATURE_TEXT = value.wrapperContained; }
 
+// public boolean movedThisTick() { return wrapperContained.movedThisTick; }
+// public void movedThisTick(boolean value) { wrapperContained.movedThisTick = value; }
+// public static boolean movedThisTick() { return net.minecraft.server.network.ServerPlayNetworkHandler.movedThisTick; }
+// public static void movedThisTick(boolean value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.movedThisTick = value; }
+
+// public yarnwrap.util.Cooldown messageCooldown() { return new yarnwrap.util.Cooldown(wrapperContained.messageCooldown); }
+// public void messageCooldown(yarnwrap.util.Cooldown value) { wrapperContained.messageCooldown = value.wrapperContained; }
+// public static yarnwrap.util.Cooldown messageCooldown() { return new yarnwrap.util.Cooldown(net.minecraft.server.network.ServerPlayNetworkHandler.messageCooldown); }
+// public static void messageCooldown(yarnwrap.util.Cooldown value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.messageCooldown = value.wrapperContained; }
+
+// public yarnwrap.util.Cooldown creativeItemDropCooldown() { return new yarnwrap.util.Cooldown(wrapperContained.creativeItemDropCooldown); }
+// public void creativeItemDropCooldown(yarnwrap.util.Cooldown value) { wrapperContained.creativeItemDropCooldown = value.wrapperContained; }
+// public static yarnwrap.util.Cooldown creativeItemDropCooldown() { return new yarnwrap.util.Cooldown(net.minecraft.server.network.ServerPlayNetworkHandler.creativeItemDropCooldown); }
+// public static void creativeItemDropCooldown(yarnwrap.util.Cooldown value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.creativeItemDropCooldown = value.wrapperContained; }
+
+// public int globalChatMessageIndex() { return wrapperContained.globalChatMessageIndex; }
+// public void globalChatMessageIndex(int value) { wrapperContained.globalChatMessageIndex = value; }
+// public static int globalChatMessageIndex() { return net.minecraft.server.network.ServerPlayNetworkHandler.globalChatMessageIndex; }
+// public static void globalChatMessageIndex(int value, ) { net.minecraft.server.network.ServerPlayNetworkHandler.globalChatMessageIndex = value; }
+
 public ServerPlayNetworkHandler(yarnwrap.server.MinecraftServer server,yarnwrap.network.ClientConnection connection,yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.server.network.ConnectedClientData clientData) { this.wrapperContained = new net.minecraft.server.network.ServerPlayNetworkHandler(server.wrapperContained,connection.wrapperContained,player.wrapperContained,clientData.wrapperContained); }
-public void requestTeleport(double x,double y,double z,float yaw,float pitch,java.util.Set flags) { wrapperContained.requestTeleport(x,y,z,yaw,pitch,flags); }
-// public static void requestTeleport(double x,double y,double z,float yaw,float pitch,java.util.Set flags, ) { net.minecraft.server.network.ServerPlayNetworkHandler.requestTeleport(x,y,z,yaw,pitch,flags); }
+public void requestTeleport(yarnwrap.entity.player.PlayerPosition pos,java.util.Set flags) { wrapperContained.requestTeleport(pos.wrapperContained,flags); }
+// public static void requestTeleport(yarnwrap.entity.player.PlayerPosition pos,java.util.Set flags, ) { net.minecraft.server.network.ServerPlayNetworkHandler.requestTeleport(pos.wrapperContained,flags); }
 public void requestTeleport(double x,double y,double z,float yaw,float pitch) { wrapperContained.requestTeleport(x,y,z,yaw,pitch); }
 // public static void requestTeleport(double x,double y,double z,float yaw,float pitch, ) { net.minecraft.server.network.ServerPlayNetworkHandler.requestTeleport(x,y,z,yaw,pitch); }
 // public void method_14365(yarnwrap.network.packet.c2s.play.RequestCommandCompletionsC2SPacket suggestions) { wrapperContained.method_14365(suggestions.wrapperContained); }
@@ -207,8 +217,6 @@ public void requestTeleport(double x,double y,double z,float yaw,float pitch) { 
 // public static boolean isMovementInvalid(double x,double y,double z,float yaw,float pitch, ) { return net.minecraft.server.network.ServerPlayNetworkHandler.isMovementInvalid(x,y,z,yaw,pitch); }
 public void syncWithPlayerPosition() { wrapperContained.syncWithPlayerPosition(); }
 // public static void syncWithPlayerPosition() { net.minecraft.server.network.ServerPlayNetworkHandler.syncWithPlayerPosition(); }
-// public void method_17820(yarnwrap.network.packet.c2s.play.CraftRequestC2SPacket recipe) { wrapperContained.method_17820(recipe.wrapperContained); }
-// public static void method_17820(yarnwrap.network.packet.c2s.play.CraftRequestC2SPacket recipe, ) { net.minecraft.server.network.ServerPlayNetworkHandler.method_17820(recipe.wrapperContained); }
 // public boolean isPlayerNotCollidingWithBlocks(yarnwrap.world.WorldView world,yarnwrap.util.math.Box box,double newX,double newY,double newZ) { return wrapperContained.isPlayerNotCollidingWithBlocks(world.wrapperContained,box.wrapperContained,newX,newY,newZ); }
 // public static boolean isPlayerNotCollidingWithBlocks(yarnwrap.world.WorldView world,yarnwrap.util.math.Box box,double newX,double newY,double newZ, ) { return net.minecraft.server.network.ServerPlayNetworkHandler.isPlayerNotCollidingWithBlocks(world.wrapperContained,box.wrapperContained,newX,newY,newZ); }
 // public boolean canPlace(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.item.ItemStack stack) { return wrapperContained.canPlace(player.wrapperContained,stack.wrapperContained); }
@@ -251,8 +259,6 @@ public void updateSequence(int sequence) { wrapperContained.updateSequence(seque
 // public static void handleDecoratedMessage(yarnwrap.network.message.SignedMessage message, ) { net.minecraft.server.network.ServerPlayNetworkHandler.handleDecoratedMessage(message.wrapperContained); }
 // public void validateMessage(java.lang.String message,java.lang.Runnable callback) { wrapperContained.validateMessage(message,callback); }
 // public static void validateMessage(java.lang.String message,java.lang.Runnable callback, ) { net.minecraft.server.network.ServerPlayNetworkHandler.validateMessage(message,callback); }
-public void addPendingAcknowledgment(yarnwrap.network.message.SignedMessage message) { wrapperContained.addPendingAcknowledgment(message.wrapperContained); }
-// public static void addPendingAcknowledgment(yarnwrap.network.message.SignedMessage message, ) { net.minecraft.server.network.ServerPlayNetworkHandler.addPendingAcknowledgment(message.wrapperContained); }
 // public yarnwrap.server.command.ServerCommandSource method_45002(yarnwrap.network.message.SignedCommandArguments source) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.method_45002(source.wrapperContained)); }
 // public static yarnwrap.server.command.ServerCommandSource method_45002(yarnwrap.network.message.SignedCommandArguments source, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.network.ServerPlayNetworkHandler.method_45002(source.wrapperContained)); }
 // public com.mojang.brigadier.ParseResults parse(java.lang.String command) { return wrapperContained.parse(command); }
@@ -293,5 +299,13 @@ public void reconfigure() { wrapperContained.reconfigure(); }
 // public static java.util.Map toUnsignedSignatures(java.util.List arguments, ) { return net.minecraft.server.network.ServerPlayNetworkHandler.toUnsignedSignatures(arguments); }
 // public boolean handlePendingTeleport() { return wrapperContained.handlePendingTeleport(); }
 // public static boolean handlePendingTeleport() { return net.minecraft.server.network.ServerPlayNetworkHandler.handlePendingTeleport(); }
+// public void handleMovement(yarnwrap.util.math.Vec3d movement) { wrapperContained.handleMovement(movement.wrapperContained); }
+// public static void handleMovement(yarnwrap.util.math.Vec3d movement, ) { net.minecraft.server.network.ServerPlayNetworkHandler.handleMovement(movement.wrapperContained); }
+// public boolean shouldCheckMovement(boolean elytra) { return wrapperContained.shouldCheckMovement(elytra); }
+// public static boolean shouldCheckMovement(boolean elytra, ) { return net.minecraft.server.network.ServerPlayNetworkHandler.shouldCheckMovement(elytra); }
+// public void onPickItem(yarnwrap.item.ItemStack stack) { wrapperContained.onPickItem(stack.wrapperContained); }
+// public static void onPickItem(yarnwrap.item.ItemStack stack, ) { net.minecraft.server.network.ServerPlayNetworkHandler.onPickItem(stack.wrapperContained); }
+// public void copyBlockDataToStack(yarnwrap.block.BlockState state,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack stack) { wrapperContained.copyBlockDataToStack(state.wrapperContained,world.wrapperContained,pos.wrapperContained,stack.wrapperContained); }
+// public static void copyBlockDataToStack(yarnwrap.block.BlockState state,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack stack, ) { net.minecraft.server.network.ServerPlayNetworkHandler.copyBlockDataToStack(state.wrapperContained,world.wrapperContained,pos.wrapperContained,stack.wrapperContained); }
 
 }

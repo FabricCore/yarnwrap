@@ -21,9 +21,9 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.pred
 // // public static Object dealt() { return net.minecraft.predicate.DamagePredicate.dealt(); }
 // public Object taken() { return wrapperContained.taken(); }
 // // public static Object taken() { return net.minecraft.predicate.DamagePredicate.taken(); }
-// public com.mojang.datafixers.kinds.App method_54973(Object instance) { return wrapperContained.method_54973(instance); }
-// public static com.mojang.datafixers.kinds.App method_54973(Object instance, ) { return net.minecraft.predicate.DamagePredicate.method_54973(instance); }
 public boolean test(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.entity.damage.DamageSource source,float dealt,float taken,boolean blocked) { return wrapperContained.test(player.wrapperContained,source.wrapperContained,dealt,taken,blocked); }
 // public static boolean test(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.entity.damage.DamageSource source,float dealt,float taken,boolean blocked, ) { return net.minecraft.predicate.DamagePredicate.test(player.wrapperContained,source.wrapperContained,dealt,taken,blocked); }
+// public com.mojang.datafixers.kinds.App method_54973(Object instance) { return wrapperContained.method_54973(instance); }
+// public static com.mojang.datafixers.kinds.App method_54973(Object instance, ) { return net.minecraft.predicate.DamagePredicate.method_54973(instance); }
 
 }

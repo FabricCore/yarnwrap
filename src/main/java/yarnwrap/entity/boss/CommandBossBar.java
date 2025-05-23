@@ -21,6 +21,11 @@ public class CommandBossBar { public net.minecraft.entity.boss.CommandBossBar wr
 // public static int value() { return net.minecraft.entity.boss.CommandBossBar.value; }
 // public static void value(int value, ) { net.minecraft.entity.boss.CommandBossBar.value = value; }
 
+// public int DEFAULT_MAX_VALUE() { return wrapperContained.DEFAULT_MAX_VALUE; }
+// public void DEFAULT_MAX_VALUE(int value) { wrapperContained.DEFAULT_MAX_VALUE = value; }
+// public static int DEFAULT_MAX_VALUE() { return net.minecraft.entity.boss.CommandBossBar.DEFAULT_MAX_VALUE; }
+// public static void DEFAULT_MAX_VALUE(int value, ) { net.minecraft.entity.boss.CommandBossBar.DEFAULT_MAX_VALUE = value; }
+
 public CommandBossBar(yarnwrap.util.Identifier id,yarnwrap.text.Text displayName) { this.wrapperContained = new net.minecraft.entity.boss.CommandBossBar(id.wrapperContained,displayName.wrapperContained); }
 public void setValue(int value) { wrapperContained.setValue(value); }
 // public static void setValue(int value, ) { net.minecraft.entity.boss.CommandBossBar.setValue(value); }
@@ -40,13 +45,13 @@ public void onPlayerDisconnect(yarnwrap.server.network.ServerPlayerEntity player
 // public static void onPlayerDisconnect(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.entity.boss.CommandBossBar.onPlayerDisconnect(player.wrapperContained); }
 public boolean addPlayers(java.util.Collection players) { return wrapperContained.addPlayers(players); }
 // public static boolean addPlayers(java.util.Collection players, ) { return net.minecraft.entity.boss.CommandBossBar.addPlayers(players); }
-// public yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt()); }
-// public static yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(net.minecraft.entity.boss.CommandBossBar.toNbt()); }
 public void addPlayer(java.util.UUID uuid) { wrapperContained.addPlayer(uuid); }
 // public static void addPlayer(java.util.UUID uuid, ) { net.minecraft.entity.boss.CommandBossBar.addPlayer(uuid); }
 public yarnwrap.text.Text toHoverableText() { return new yarnwrap.text.Text(wrapperContained.toHoverableText()); }
 // public static yarnwrap.text.Text toHoverableText() { return new yarnwrap.text.Text(net.minecraft.entity.boss.CommandBossBar.toHoverableText()); }
-// public yarnwrap.entity.boss.CommandBossBar fromNbt(yarnwrap.nbt.NbtCompound nbt,yarnwrap.util.Identifier id) { return new yarnwrap.entity.boss.CommandBossBar(wrapperContained.fromNbt(nbt.wrapperContained,id.wrapperContained)); }
-// public static yarnwrap.entity.boss.CommandBossBar fromNbt(yarnwrap.nbt.NbtCompound nbt,yarnwrap.util.Identifier id, ) { return new yarnwrap.entity.boss.CommandBossBar(net.minecraft.entity.boss.CommandBossBar.fromNbt(nbt.wrapperContained,id.wrapperContained)); }
+// public yarnwrap.entity.boss.CommandBossBar fromSerialized(yarnwrap.util.Identifier id,Object serialized) { return new yarnwrap.entity.boss.CommandBossBar(wrapperContained.fromSerialized(id.wrapperContained,serialized)); }
+// public static yarnwrap.entity.boss.CommandBossBar fromSerialized(yarnwrap.util.Identifier id,Object serialized, ) { return new yarnwrap.entity.boss.CommandBossBar(net.minecraft.entity.boss.CommandBossBar.fromSerialized(id.wrapperContained,serialized)); }
+public Object toSerialized() { return wrapperContained.toSerialized(); }
+// public static Object toSerialized() { return net.minecraft.entity.boss.CommandBossBar.toSerialized(); }
 
 }

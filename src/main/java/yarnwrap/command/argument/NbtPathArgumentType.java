@@ -1,6 +1,21 @@
 package yarnwrap.command.argument;
 public class NbtPathArgumentType { public net.minecraft.command.argument.NbtPathArgumentType wrapperContained; public NbtPathArgumentType(net.minecraft.command.argument.NbtPathArgumentType wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public java.util.Collection EXAMPLES() { return wrapperContained.EXAMPLES; }
+// public void EXAMPLES(java.util.Collection value) { wrapperContained.EXAMPLES = value; }
+// public static java.util.Collection EXAMPLES() { return net.minecraft.command.argument.NbtPathArgumentType.EXAMPLES; }
+// public static void EXAMPLES(java.util.Collection value, ) { net.minecraft.command.argument.NbtPathArgumentType.EXAMPLES = value; }
+
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType NOTHING_FOUND_EXCEPTION() { return wrapperContained.NOTHING_FOUND_EXCEPTION; }
+// public void NOTHING_FOUND_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.NOTHING_FOUND_EXCEPTION = value; }
+public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType NOTHING_FOUND_EXCEPTION() { return net.minecraft.command.argument.NbtPathArgumentType.NOTHING_FOUND_EXCEPTION; }
+// public static void NOTHING_FOUND_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.command.argument.NbtPathArgumentType.NOTHING_FOUND_EXCEPTION = value; }
+
+// public com.mojang.brigadier.exceptions.SimpleCommandExceptionType INVALID_PATH_NODE_EXCEPTION() { return wrapperContained.INVALID_PATH_NODE_EXCEPTION; }
+// public void INVALID_PATH_NODE_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.INVALID_PATH_NODE_EXCEPTION = value; }
+public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType INVALID_PATH_NODE_EXCEPTION() { return net.minecraft.command.argument.NbtPathArgumentType.INVALID_PATH_NODE_EXCEPTION; }
+// public static void INVALID_PATH_NODE_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value, ) { net.minecraft.command.argument.NbtPathArgumentType.INVALID_PATH_NODE_EXCEPTION = value; }
+
 // public char LEFT_SQUARE_BRACKET() { return wrapperContained.LEFT_SQUARE_BRACKET; }
 // public void LEFT_SQUARE_BRACKET(char value) { wrapperContained.LEFT_SQUARE_BRACKET = value; }
 // public static char LEFT_SQUARE_BRACKET() { return net.minecraft.command.argument.NbtPathArgumentType.LEFT_SQUARE_BRACKET; }
@@ -46,25 +61,6 @@ public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType TOO_DEE
 // public static char SINGLE_QUOTE() { return net.minecraft.command.argument.NbtPathArgumentType.SINGLE_QUOTE; }
 // public static void SINGLE_QUOTE(char value, ) { net.minecraft.command.argument.NbtPathArgumentType.SINGLE_QUOTE = value; }
 
-// public java.util.Collection EXAMPLES() { return wrapperContained.EXAMPLES; }
-// public void EXAMPLES(java.util.Collection value) { wrapperContained.EXAMPLES = value; }
-// public static java.util.Collection EXAMPLES() { return net.minecraft.command.argument.NbtPathArgumentType.EXAMPLES; }
-// public static void EXAMPLES(java.util.Collection value, ) { net.minecraft.command.argument.NbtPathArgumentType.EXAMPLES = value; }
-
-// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType NOTHING_FOUND_EXCEPTION() { return wrapperContained.NOTHING_FOUND_EXCEPTION; }
-// public void NOTHING_FOUND_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.NOTHING_FOUND_EXCEPTION = value; }
-public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType NOTHING_FOUND_EXCEPTION() { return net.minecraft.command.argument.NbtPathArgumentType.NOTHING_FOUND_EXCEPTION; }
-// public static void NOTHING_FOUND_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.command.argument.NbtPathArgumentType.NOTHING_FOUND_EXCEPTION = value; }
-
-// public com.mojang.brigadier.exceptions.SimpleCommandExceptionType INVALID_PATH_NODE_EXCEPTION() { return wrapperContained.INVALID_PATH_NODE_EXCEPTION; }
-// public void INVALID_PATH_NODE_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.INVALID_PATH_NODE_EXCEPTION = value; }
-public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType INVALID_PATH_NODE_EXCEPTION() { return net.minecraft.command.argument.NbtPathArgumentType.INVALID_PATH_NODE_EXCEPTION; }
-// public static void INVALID_PATH_NODE_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value, ) { net.minecraft.command.argument.NbtPathArgumentType.INVALID_PATH_NODE_EXCEPTION = value; }
-
-// public com.mojang.brigadier.Message method_47969(java.lang.Object index) { return wrapperContained.method_47969(index); }
-// public static com.mojang.brigadier.Message method_47969(java.lang.Object index, ) { return net.minecraft.command.argument.NbtPathArgumentType.method_47969(index); }
-// public com.mojang.brigadier.Message method_47970(java.lang.Object nbt) { return wrapperContained.method_47970(nbt); }
-// public static com.mojang.brigadier.Message method_47970(java.lang.Object nbt, ) { return net.minecraft.command.argument.NbtPathArgumentType.method_47970(nbt); }
 // public Object readCompoundChildNode(com.mojang.brigadier.StringReader reader,java.lang.String name) { return wrapperContained.readCompoundChildNode(reader,name); }
 // public static Object readCompoundChildNode(com.mojang.brigadier.StringReader reader,java.lang.String name, ) { return net.minecraft.command.argument.NbtPathArgumentType.readCompoundChildNode(reader,name); }
 // public boolean method_9353(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.method_9353(nbt.wrapperContained); }
@@ -83,6 +79,10 @@ public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType INVALID
 public static yarnwrap.command.argument.NbtPathArgumentType nbtPath() { return new yarnwrap.command.argument.NbtPathArgumentType(net.minecraft.command.argument.NbtPathArgumentType.nbtPath()); }
 // public Object parseNode(com.mojang.brigadier.StringReader reader,boolean root) { return wrapperContained.parseNode(reader,root); }
 // public static Object parseNode(com.mojang.brigadier.StringReader reader,boolean root, ) { return net.minecraft.command.argument.NbtPathArgumentType.parseNode(reader,root); }
+// public com.mojang.brigadier.Message method_47969(java.lang.Object index) { return wrapperContained.method_47969(index); }
+// public static com.mojang.brigadier.Message method_47969(java.lang.Object index, ) { return net.minecraft.command.argument.NbtPathArgumentType.method_47969(index); }
+// public com.mojang.brigadier.Message method_47970(java.lang.Object nbt) { return wrapperContained.method_47970(nbt); }
+// public static com.mojang.brigadier.Message method_47970(java.lang.Object nbt, ) { return net.minecraft.command.argument.NbtPathArgumentType.method_47970(nbt); }
 // public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 // public static java.lang.Object parse(com.mojang.brigadier.StringReader reader, ) { return net.minecraft.command.argument.NbtPathArgumentType.parse(reader); }
 

@@ -6,7 +6,6 @@ public class EntityIdFix { public net.minecraft.datafixer.fix.EntityIdFix wrappe
 // public static java.util.Map RENAMED_ENTITIES() { return net.minecraft.datafixer.fix.EntityIdFix.RENAMED_ENTITIES; }
 // public static void RENAMED_ENTITIES(java.util.Map value, ) { net.minecraft.datafixer.fix.EntityIdFix.RENAMED_ENTITIES = value; }
 
-public EntityIdFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityIdFix(outputSchema,changesType); }
 // public void method_15708(java.util.HashMap map) { wrapperContained.method_15708(map); }
 // public static void method_15708(java.util.HashMap map, ) { net.minecraft.datafixer.fix.EntityIdFix.method_15708(map); }
 

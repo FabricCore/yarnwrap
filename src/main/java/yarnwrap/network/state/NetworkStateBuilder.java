@@ -1,0 +1,52 @@
+package yarnwrap.network.state;
+public class NetworkStateBuilder { public net.minecraft.network.state.NetworkStateBuilder wrapperContained; public NetworkStateBuilder(net.minecraft.network.state.NetworkStateBuilder wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public yarnwrap.network.NetworkPhase phase() { return new yarnwrap.network.NetworkPhase(wrapperContained.phase); }
+// public void phase(yarnwrap.network.NetworkPhase value) { wrapperContained.phase = value.wrapperContained; }
+// public static yarnwrap.network.NetworkPhase phase() { return new yarnwrap.network.NetworkPhase(net.minecraft.network.state.NetworkStateBuilder.phase); }
+// public static void phase(yarnwrap.network.NetworkPhase value, ) { net.minecraft.network.state.NetworkStateBuilder.phase = value.wrapperContained; }
+
+// public yarnwrap.network.NetworkSide side() { return new yarnwrap.network.NetworkSide(wrapperContained.side); }
+// public void side(yarnwrap.network.NetworkSide value) { wrapperContained.side = value.wrapperContained; }
+// public static yarnwrap.network.NetworkSide side() { return new yarnwrap.network.NetworkSide(net.minecraft.network.state.NetworkStateBuilder.side); }
+// public static void side(yarnwrap.network.NetworkSide value, ) { net.minecraft.network.state.NetworkStateBuilder.side = value.wrapperContained; }
+
+// public java.util.List packetTypes() { return wrapperContained.packetTypes; }
+// public void packetTypes(java.util.List value) { wrapperContained.packetTypes = value; }
+// public static java.util.List packetTypes() { return net.minecraft.network.state.NetworkStateBuilder.packetTypes; }
+// public static void packetTypes(java.util.List value, ) { net.minecraft.network.state.NetworkStateBuilder.packetTypes = value; }
+
+// public yarnwrap.network.handler.PacketBundleHandler bundleHandler() { return new yarnwrap.network.handler.PacketBundleHandler(wrapperContained.bundleHandler); }
+// public void bundleHandler(yarnwrap.network.handler.PacketBundleHandler value) { wrapperContained.bundleHandler = value.wrapperContained; }
+// public static yarnwrap.network.handler.PacketBundleHandler bundleHandler() { return new yarnwrap.network.handler.PacketBundleHandler(net.minecraft.network.state.NetworkStateBuilder.bundleHandler); }
+// public static void bundleHandler(yarnwrap.network.handler.PacketBundleHandler value, ) { net.minecraft.network.state.NetworkStateBuilder.bundleHandler = value.wrapperContained; }
+
+public NetworkStateBuilder(yarnwrap.network.NetworkPhase phase,yarnwrap.network.NetworkSide side) { this.wrapperContained = new net.minecraft.network.state.NetworkStateBuilder(phase.wrapperContained,side.wrapperContained); }
+public yarnwrap.network.state.ContextAwareNetworkStateFactory buildContextAwareFactory() { return new yarnwrap.network.state.ContextAwareNetworkStateFactory(wrapperContained.buildContextAwareFactory()); }
+// public static yarnwrap.network.state.ContextAwareNetworkStateFactory buildContextAwareFactory() { return new yarnwrap.network.state.ContextAwareNetworkStateFactory(net.minecraft.network.state.NetworkStateBuilder.buildContextAwareFactory()); }
+// public yarnwrap.network.codec.PacketCodec createCodec(java.util.function.Function bufUpgrader,java.util.List packetTypes,java.lang.Object context) { return new yarnwrap.network.codec.PacketCodec(wrapperContained.createCodec(bufUpgrader,packetTypes,context)); }
+// public static yarnwrap.network.codec.PacketCodec createCodec(java.util.function.Function bufUpgrader,java.util.List packetTypes,java.lang.Object context, ) { return new yarnwrap.network.codec.PacketCodec(net.minecraft.network.state.NetworkStateBuilder.createCodec(bufUpgrader,packetTypes,context)); }
+// public yarnwrap.network.state.NetworkStateFactory c2s(yarnwrap.network.NetworkPhase type,java.util.function.Consumer registrar) { return new yarnwrap.network.state.NetworkStateFactory(wrapperContained.c2s(type.wrapperContained,registrar)); }
+// public static yarnwrap.network.state.NetworkStateFactory c2s(yarnwrap.network.NetworkPhase type,java.util.function.Consumer registrar, ) { return new yarnwrap.network.state.NetworkStateFactory(net.minecraft.network.state.NetworkStateBuilder.c2s(type.wrapperContained,registrar)); }
+// public yarnwrap.network.state.NetworkStateFactory build(yarnwrap.network.NetworkPhase type,yarnwrap.network.NetworkSide side,java.util.function.Consumer registrar) { return new yarnwrap.network.state.NetworkStateFactory(wrapperContained.build(type.wrapperContained,side.wrapperContained,registrar)); }
+// public static yarnwrap.network.state.NetworkStateFactory build(yarnwrap.network.NetworkPhase type,yarnwrap.network.NetworkSide side,java.util.function.Consumer registrar, ) { return new yarnwrap.network.state.NetworkStateFactory(net.minecraft.network.state.NetworkStateBuilder.build(type.wrapperContained,side.wrapperContained,registrar)); }
+public yarnwrap.network.state.NetworkStateBuilder addBundle(yarnwrap.network.packet.PacketType id,java.util.function.Function bundler,yarnwrap.network.packet.BundleSplitterPacket splitter) { return new yarnwrap.network.state.NetworkStateBuilder(wrapperContained.addBundle(id.wrapperContained,bundler,splitter.wrapperContained)); }
+// public static yarnwrap.network.state.NetworkStateBuilder addBundle(yarnwrap.network.packet.PacketType id,java.util.function.Function bundler,yarnwrap.network.packet.BundleSplitterPacket splitter, ) { return new yarnwrap.network.state.NetworkStateBuilder(net.minecraft.network.state.NetworkStateBuilder.addBundle(id.wrapperContained,bundler,splitter.wrapperContained)); }
+public yarnwrap.network.state.NetworkStateBuilder add(yarnwrap.network.packet.PacketType type,yarnwrap.network.codec.PacketCodec codec) { return new yarnwrap.network.state.NetworkStateBuilder(wrapperContained.add(type.wrapperContained,codec.wrapperContained)); }
+// public static yarnwrap.network.state.NetworkStateBuilder add(yarnwrap.network.packet.PacketType type,yarnwrap.network.codec.PacketCodec codec, ) { return new yarnwrap.network.state.NetworkStateBuilder(net.minecraft.network.state.NetworkStateBuilder.add(type.wrapperContained,codec.wrapperContained)); }
+// public yarnwrap.network.state.NetworkStateFactory s2c(yarnwrap.network.NetworkPhase type,java.util.function.Consumer registrar) { return new yarnwrap.network.state.NetworkStateFactory(wrapperContained.s2c(type.wrapperContained,registrar)); }
+// public static yarnwrap.network.state.NetworkStateFactory s2c(yarnwrap.network.NetworkPhase type,java.util.function.Consumer registrar, ) { return new yarnwrap.network.state.NetworkStateFactory(net.minecraft.network.state.NetworkStateBuilder.s2c(type.wrapperContained,registrar)); }
+public yarnwrap.network.state.NetworkStateFactory buildFactory(java.lang.Object context) { return new yarnwrap.network.state.NetworkStateFactory(wrapperContained.buildFactory(context)); }
+// public static yarnwrap.network.state.NetworkStateFactory buildFactory(java.lang.Object context, ) { return new yarnwrap.network.state.NetworkStateFactory(net.minecraft.network.state.NetworkStateBuilder.buildFactory(context)); }
+// public Object createState(yarnwrap.network.NetworkPhase phase,yarnwrap.network.NetworkSide side,java.util.List types) { return wrapperContained.createState(phase.wrapperContained,side.wrapperContained,types); }
+// public static Object createState(yarnwrap.network.NetworkPhase phase,yarnwrap.network.NetworkSide side,java.util.List types, ) { return net.minecraft.network.state.NetworkStateBuilder.createState(phase.wrapperContained,side.wrapperContained,types); }
+public yarnwrap.network.state.NetworkStateBuilder add(yarnwrap.network.packet.PacketType type,yarnwrap.network.codec.PacketCodec codec,yarnwrap.network.packet.PacketCodecModifier modifier) { return new yarnwrap.network.state.NetworkStateBuilder(wrapperContained.add(type.wrapperContained,codec.wrapperContained,modifier.wrapperContained)); }
+// public static yarnwrap.network.state.NetworkStateBuilder add(yarnwrap.network.packet.PacketType type,yarnwrap.network.codec.PacketCodec codec,yarnwrap.network.packet.PacketCodecModifier modifier, ) { return new yarnwrap.network.state.NetworkStateBuilder(net.minecraft.network.state.NetworkStateBuilder.add(type.wrapperContained,codec.wrapperContained,modifier.wrapperContained)); }
+// public yarnwrap.network.state.ContextAwareNetworkStateFactory buildContextAware(yarnwrap.network.NetworkPhase type,yarnwrap.network.NetworkSide side,java.util.function.Consumer registrar) { return new yarnwrap.network.state.ContextAwareNetworkStateFactory(wrapperContained.buildContextAware(type.wrapperContained,side.wrapperContained,registrar)); }
+// public static yarnwrap.network.state.ContextAwareNetworkStateFactory buildContextAware(yarnwrap.network.NetworkPhase type,yarnwrap.network.NetworkSide side,java.util.function.Consumer registrar, ) { return new yarnwrap.network.state.ContextAwareNetworkStateFactory(net.minecraft.network.state.NetworkStateBuilder.buildContextAware(type.wrapperContained,side.wrapperContained,registrar)); }
+// public yarnwrap.network.state.ContextAwareNetworkStateFactory contextAwareC2S(yarnwrap.network.NetworkPhase type,java.util.function.Consumer registrar) { return new yarnwrap.network.state.ContextAwareNetworkStateFactory(wrapperContained.contextAwareC2S(type.wrapperContained,registrar)); }
+// public static yarnwrap.network.state.ContextAwareNetworkStateFactory contextAwareC2S(yarnwrap.network.NetworkPhase type,java.util.function.Consumer registrar, ) { return new yarnwrap.network.state.ContextAwareNetworkStateFactory(net.minecraft.network.state.NetworkStateBuilder.contextAwareC2S(type.wrapperContained,registrar)); }
+// public yarnwrap.network.state.ContextAwareNetworkStateFactory contextAwareS2C(yarnwrap.network.NetworkPhase type,java.util.function.Consumer registrar) { return new yarnwrap.network.state.ContextAwareNetworkStateFactory(wrapperContained.contextAwareS2C(type.wrapperContained,registrar)); }
+// public static yarnwrap.network.state.ContextAwareNetworkStateFactory contextAwareS2C(yarnwrap.network.NetworkPhase type,java.util.function.Consumer registrar, ) { return new yarnwrap.network.state.ContextAwareNetworkStateFactory(net.minecraft.network.state.NetworkStateBuilder.contextAwareS2C(type.wrapperContained,registrar)); }
+
+}

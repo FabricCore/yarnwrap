@@ -7,5 +7,7 @@ public void refreshGrid(yarnwrap.client.gui.ScreenRect tabArea) { wrapperContain
 // public static void refreshGrid(yarnwrap.client.gui.ScreenRect tabArea, ) { net.minecraft.client.gui.tab.Tab.refreshGrid(tabArea.wrapperContained); }
 public void forEachChild(java.util.function.Consumer consumer) { wrapperContained.forEachChild(consumer); }
 // public static void forEachChild(java.util.function.Consumer consumer, ) { net.minecraft.client.gui.tab.Tab.forEachChild(consumer); }
+// public yarnwrap.text.Text getNarratedHint() { return new yarnwrap.text.Text(wrapperContained.getNarratedHint()); }
+// public static yarnwrap.text.Text getNarratedHint() { return new yarnwrap.text.Text(net.minecraft.client.gui.tab.Tab.getNarratedHint()); }
 
 }

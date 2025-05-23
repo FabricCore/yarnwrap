@@ -56,11 +56,6 @@ public class SmithingTemplateItem { public net.minecraft.item.SmithingTemplateIt
 // public static yarnwrap.text.Text ingredientsText() { return new yarnwrap.text.Text(net.minecraft.item.SmithingTemplateItem.ingredientsText); }
 // public static void ingredientsText(yarnwrap.text.Text value, ) { net.minecraft.item.SmithingTemplateItem.ingredientsText = value.wrapperContained; }
 
-// public yarnwrap.text.Text titleText() { return new yarnwrap.text.Text(wrapperContained.titleText); }
-// public void titleText(yarnwrap.text.Text value) { wrapperContained.titleText = value.wrapperContained; }
-// public static yarnwrap.text.Text titleText() { return new yarnwrap.text.Text(net.minecraft.item.SmithingTemplateItem.titleText); }
-// public static void titleText(yarnwrap.text.Text value, ) { net.minecraft.item.SmithingTemplateItem.titleText = value.wrapperContained; }
-
 // public yarnwrap.text.Text baseSlotDescriptionText() { return new yarnwrap.text.Text(wrapperContained.baseSlotDescriptionText); }
 // public void baseSlotDescriptionText(yarnwrap.text.Text value) { wrapperContained.baseSlotDescriptionText = value.wrapperContained; }
 // public static yarnwrap.text.Text baseSlotDescriptionText() { return new yarnwrap.text.Text(net.minecraft.item.SmithingTemplateItem.baseSlotDescriptionText); }
@@ -100,11 +95,6 @@ public class SmithingTemplateItem { public net.minecraft.item.SmithingTemplateIt
 // public void APPLIES_TO_TEXT(yarnwrap.text.Text value) { wrapperContained.APPLIES_TO_TEXT = value.wrapperContained; }
 // public static yarnwrap.text.Text APPLIES_TO_TEXT() { return new yarnwrap.text.Text(net.minecraft.item.SmithingTemplateItem.APPLIES_TO_TEXT); }
 // public static void APPLIES_TO_TEXT(yarnwrap.text.Text value, ) { net.minecraft.item.SmithingTemplateItem.APPLIES_TO_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.Text NETHERITE_UPGRADE_TEXT() { return new yarnwrap.text.Text(wrapperContained.NETHERITE_UPGRADE_TEXT); }
-// public void NETHERITE_UPGRADE_TEXT(yarnwrap.text.Text value) { wrapperContained.NETHERITE_UPGRADE_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text NETHERITE_UPGRADE_TEXT() { return new yarnwrap.text.Text(net.minecraft.item.SmithingTemplateItem.NETHERITE_UPGRADE_TEXT); }
-// public static void NETHERITE_UPGRADE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.item.SmithingTemplateItem.NETHERITE_UPGRADE_TEXT = value.wrapperContained; }
 
 // public yarnwrap.text.Text ARMOR_TRIM_APPLIES_TO_TEXT() { return new yarnwrap.text.Text(wrapperContained.ARMOR_TRIM_APPLIES_TO_TEXT); }
 // public void ARMOR_TRIM_APPLIES_TO_TEXT(yarnwrap.text.Text value) { wrapperContained.ARMOR_TRIM_APPLIES_TO_TEXT = value.wrapperContained; }
@@ -181,7 +171,12 @@ public class SmithingTemplateItem { public net.minecraft.item.SmithingTemplateIt
 // public static yarnwrap.util.Identifier EMPTY_SLOT_AMETHYST_SHARD_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.item.SmithingTemplateItem.EMPTY_SLOT_AMETHYST_SHARD_TEXTURE); }
 // public static void EMPTY_SLOT_AMETHYST_SHARD_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.item.SmithingTemplateItem.EMPTY_SLOT_AMETHYST_SHARD_TEXTURE = value.wrapperContained; }
 
-public SmithingTemplateItem(yarnwrap.text.Text appliesToText,yarnwrap.text.Text ingredientsText,yarnwrap.text.Text titleText,yarnwrap.text.Text baseSlotDescriptionText,yarnwrap.text.Text additionsSlotDescriptionText,java.util.List emptyBaseSlotTextures,java.util.List emptyAdditionsSlotTextures,net.minecraft.resource.featuretoggle.FeatureFlag[] requiredFeatures) { this.wrapperContained = new net.minecraft.item.SmithingTemplateItem(appliesToText.wrapperContained,ingredientsText.wrapperContained,titleText.wrapperContained,baseSlotDescriptionText.wrapperContained,additionsSlotDescriptionText.wrapperContained,emptyBaseSlotTextures,emptyAdditionsSlotTextures,requiredFeatures); }
+// public yarnwrap.text.Text SMITHING_TEMPLATE_TEXT() { return new yarnwrap.text.Text(wrapperContained.SMITHING_TEMPLATE_TEXT); }
+// public void SMITHING_TEMPLATE_TEXT(yarnwrap.text.Text value) { wrapperContained.SMITHING_TEMPLATE_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text SMITHING_TEMPLATE_TEXT() { return new yarnwrap.text.Text(net.minecraft.item.SmithingTemplateItem.SMITHING_TEMPLATE_TEXT); }
+// public static void SMITHING_TEMPLATE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.item.SmithingTemplateItem.SMITHING_TEMPLATE_TEXT = value.wrapperContained; }
+
+// public SmithingTemplateItem(yarnwrap.text.Text appliesToText,yarnwrap.text.Text ingredientsText,yarnwrap.text.Text baseSlotDescriptionText,yarnwrap.text.Text additionsSlotDescriptionText,java.util.List emptyBaseSlotTextures,java.util.List emptyAdditionsSlotTextures,Object settings) { this.wrapperContained = new net.minecraft.item.SmithingTemplateItem(appliesToText.wrapperContained,ingredientsText.wrapperContained,baseSlotDescriptionText.wrapperContained,additionsSlotDescriptionText.wrapperContained,emptyBaseSlotTextures,emptyAdditionsSlotTextures,settings); }
 public java.util.List getEmptyAdditionsSlotTextures() { return wrapperContained.getEmptyAdditionsSlotTextures(); }
 // public static java.util.List getEmptyAdditionsSlotTextures() { return net.minecraft.item.SmithingTemplateItem.getEmptyAdditionsSlotTextures(); }
 // public java.util.List getArmorTrimEmptyBaseSlotTextures() { return wrapperContained.getArmorTrimEmptyBaseSlotTextures(); }
@@ -192,12 +187,10 @@ public java.util.List getEmptyAdditionsSlotTextures() { return wrapperContained.
 // public static java.util.List getNetheriteUpgradeEmptyBaseSlotTextures() { return net.minecraft.item.SmithingTemplateItem.getNetheriteUpgradeEmptyBaseSlotTextures(); }
 // public java.util.List getNetheriteUpgradeEmptyAdditionsSlotTextures() { return wrapperContained.getNetheriteUpgradeEmptyAdditionsSlotTextures(); }
 // public static java.util.List getNetheriteUpgradeEmptyAdditionsSlotTextures() { return net.minecraft.item.SmithingTemplateItem.getNetheriteUpgradeEmptyAdditionsSlotTextures(); }
-// public yarnwrap.item.SmithingTemplateItem of(yarnwrap.registry.RegistryKey trimPattern,net.minecraft.resource.featuretoggle.FeatureFlag[] requiredFeatures) { return new yarnwrap.item.SmithingTemplateItem(wrapperContained.of(trimPattern.wrapperContained,requiredFeatures)); }
-// public static yarnwrap.item.SmithingTemplateItem of(yarnwrap.registry.RegistryKey trimPattern,net.minecraft.resource.featuretoggle.FeatureFlag[] requiredFeatures, ) { return new yarnwrap.item.SmithingTemplateItem(net.minecraft.item.SmithingTemplateItem.of(trimPattern.wrapperContained,requiredFeatures)); }
-// public yarnwrap.item.SmithingTemplateItem of(yarnwrap.util.Identifier trimPatternIn,net.minecraft.resource.featuretoggle.FeatureFlag[] requiredFeatures) { return new yarnwrap.item.SmithingTemplateItem(wrapperContained.of(trimPatternIn.wrapperContained,requiredFeatures)); }
-// public static yarnwrap.item.SmithingTemplateItem of(yarnwrap.util.Identifier trimPatternIn,net.minecraft.resource.featuretoggle.FeatureFlag[] requiredFeatures, ) { return new yarnwrap.item.SmithingTemplateItem(net.minecraft.item.SmithingTemplateItem.of(trimPatternIn.wrapperContained,requiredFeatures)); }
-// public yarnwrap.item.SmithingTemplateItem createNetheriteUpgrade() { return new yarnwrap.item.SmithingTemplateItem(wrapperContained.createNetheriteUpgrade()); }
-public static yarnwrap.item.SmithingTemplateItem createNetheriteUpgrade() { return new yarnwrap.item.SmithingTemplateItem(net.minecraft.item.SmithingTemplateItem.createNetheriteUpgrade()); }
+// public yarnwrap.item.SmithingTemplateItem of(Object settings) { return new yarnwrap.item.SmithingTemplateItem(wrapperContained.of(settings)); }
+// public static yarnwrap.item.SmithingTemplateItem of(Object settings, ) { return new yarnwrap.item.SmithingTemplateItem(net.minecraft.item.SmithingTemplateItem.of(settings)); }
+// public yarnwrap.item.SmithingTemplateItem createNetheriteUpgrade(Object settings) { return new yarnwrap.item.SmithingTemplateItem(wrapperContained.createNetheriteUpgrade(settings)); }
+// public static yarnwrap.item.SmithingTemplateItem createNetheriteUpgrade(Object settings, ) { return new yarnwrap.item.SmithingTemplateItem(net.minecraft.item.SmithingTemplateItem.createNetheriteUpgrade(settings)); }
 public yarnwrap.text.Text getBaseSlotDescription() { return new yarnwrap.text.Text(wrapperContained.getBaseSlotDescription()); }
 // public static yarnwrap.text.Text getBaseSlotDescription() { return new yarnwrap.text.Text(net.minecraft.item.SmithingTemplateItem.getBaseSlotDescription()); }
 public yarnwrap.text.Text getAdditionsSlotDescription() { return new yarnwrap.text.Text(wrapperContained.getAdditionsSlotDescription()); }

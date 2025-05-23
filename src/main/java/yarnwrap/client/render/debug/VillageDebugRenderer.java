@@ -26,20 +26,10 @@ public class VillageDebugRenderer { public net.minecraft.client.render.debug.Vil
 // public static java.util.UUID targetedEntity() { return net.minecraft.client.render.debug.VillageDebugRenderer.targetedEntity; }
 // public static void targetedEntity(java.util.UUID value, ) { net.minecraft.client.render.debug.VillageDebugRenderer.targetedEntity = value; }
 
-// public int YELLOW() { return wrapperContained.YELLOW; }
-// public void YELLOW(int value) { wrapperContained.YELLOW = value; }
-// public static int YELLOW() { return net.minecraft.client.render.debug.VillageDebugRenderer.YELLOW; }
-// public static void YELLOW(int value, ) { net.minecraft.client.render.debug.VillageDebugRenderer.YELLOW = value; }
-
 // public int AQUA() { return wrapperContained.AQUA; }
 // public void AQUA(int value) { wrapperContained.AQUA = value; }
 // public static int AQUA() { return net.minecraft.client.render.debug.VillageDebugRenderer.AQUA; }
 // public static void AQUA(int value, ) { net.minecraft.client.render.debug.VillageDebugRenderer.AQUA = value; }
-
-// public int GREEN() { return wrapperContained.GREEN; }
-// public void GREEN(int value) { wrapperContained.GREEN = value; }
-// public static int GREEN() { return net.minecraft.client.render.debug.VillageDebugRenderer.GREEN; }
-// public static void GREEN(int value, ) { net.minecraft.client.render.debug.VillageDebugRenderer.GREEN = value; }
 
 // public int GRAY() { return wrapperContained.GRAY; }
 // public void GRAY(int value) { wrapperContained.GRAY = value; }
@@ -50,11 +40,6 @@ public class VillageDebugRenderer { public net.minecraft.client.render.debug.Vil
 // public void PINK(int value) { wrapperContained.PINK = value; }
 // public static int PINK() { return net.minecraft.client.render.debug.VillageDebugRenderer.PINK; }
 // public static void PINK(int value, ) { net.minecraft.client.render.debug.VillageDebugRenderer.PINK = value; }
-
-// public int RED() { return wrapperContained.RED; }
-// public void RED(int value) { wrapperContained.RED = value; }
-// public static int RED() { return net.minecraft.client.render.debug.VillageDebugRenderer.RED; }
-// public static void RED(int value, ) { net.minecraft.client.render.debug.VillageDebugRenderer.RED = value; }
 
 // public int ORANGE() { return wrapperContained.ORANGE; }
 // public void ORANGE(int value) { wrapperContained.ORANGE = value; }
@@ -80,11 +65,6 @@ public class VillageDebugRenderer { public net.minecraft.client.render.debug.Vil
 // public void DEFAULT_DRAWN_STRING_SIZE(float value) { wrapperContained.DEFAULT_DRAWN_STRING_SIZE = value; }
 // public static float DEFAULT_DRAWN_STRING_SIZE() { return net.minecraft.client.render.debug.VillageDebugRenderer.DEFAULT_DRAWN_STRING_SIZE; }
 // public static void DEFAULT_DRAWN_STRING_SIZE(float value, ) { net.minecraft.client.render.debug.VillageDebugRenderer.DEFAULT_DRAWN_STRING_SIZE = value; }
-
-// public int WHITE() { return wrapperContained.WHITE; }
-// public void WHITE(int value) { wrapperContained.WHITE = value; }
-// public static int WHITE() { return net.minecraft.client.render.debug.VillageDebugRenderer.WHITE; }
-// public static void WHITE(int value, ) { net.minecraft.client.render.debug.VillageDebugRenderer.WHITE = value; }
 
 public VillageDebugRenderer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.debug.VillageDebugRenderer(client.wrapperContained); }
 // public void addBrain(Object brain) { wrapperContained.addBrain(brain); }

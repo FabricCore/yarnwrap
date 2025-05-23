@@ -26,10 +26,10 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static int height() { return net.minecraft.recipe.RawShapedRecipe.height; }
 // public static void height(int value, ) { net.minecraft.recipe.RawShapedRecipe.height = value; }
 
-// public yarnwrap.util.collection.DefaultedList ingredients() { return new yarnwrap.util.collection.DefaultedList(wrapperContained.ingredients); }
-// public void ingredients(yarnwrap.util.collection.DefaultedList value) { wrapperContained.ingredients = value.wrapperContained; }
-// public static yarnwrap.util.collection.DefaultedList ingredients() { return new yarnwrap.util.collection.DefaultedList(net.minecraft.recipe.RawShapedRecipe.ingredients); }
-// public static void ingredients(yarnwrap.util.collection.DefaultedList value, ) { net.minecraft.recipe.RawShapedRecipe.ingredients = value.wrapperContained; }
+// public java.util.List ingredients() { return wrapperContained.ingredients; }
+// public void ingredients(java.util.List value) { wrapperContained.ingredients = value; }
+// public static java.util.List ingredients() { return net.minecraft.recipe.RawShapedRecipe.ingredients; }
+// public static void ingredients(java.util.List value, ) { net.minecraft.recipe.RawShapedRecipe.ingredients = value; }
 
 // public java.util.Optional data() { return wrapperContained.data; }
 // public void data(java.util.Optional value) { wrapperContained.data = value; }
@@ -46,7 +46,12 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static boolean symmetrical() { return net.minecraft.recipe.RawShapedRecipe.symmetrical; }
 // public static void symmetrical(boolean value, ) { net.minecraft.recipe.RawShapedRecipe.symmetrical = value; }
 
-public RawShapedRecipe(int width,int height,yarnwrap.util.collection.DefaultedList ingredients,java.util.Optional data) { this.wrapperContained = new net.minecraft.recipe.RawShapedRecipe(width,height,ingredients.wrapperContained,data); }
+// public char SPACE() { return wrapperContained.SPACE; }
+// public void SPACE(char value) { wrapperContained.SPACE = value; }
+public static char SPACE() { return net.minecraft.recipe.RawShapedRecipe.SPACE; }
+// public static void SPACE(char value, ) { net.minecraft.recipe.RawShapedRecipe.SPACE = value; }
+
+public RawShapedRecipe(int width,int height,java.util.List ingredients,java.util.Optional data) { this.wrapperContained = new net.minecraft.recipe.RawShapedRecipe(width,height,ingredients,data); }
 public boolean matches(yarnwrap.recipe.input.CraftingRecipeInput input) { return wrapperContained.matches(input.wrapperContained); }
 // public static boolean matches(yarnwrap.recipe.input.CraftingRecipeInput input, ) { return net.minecraft.recipe.RawShapedRecipe.matches(input.wrapperContained); }
 // public boolean matches(yarnwrap.recipe.input.CraftingRecipeInput input,boolean mirrored) { return wrapperContained.matches(input.wrapperContained,mirrored); }
@@ -63,19 +68,21 @@ public boolean matches(yarnwrap.recipe.input.CraftingRecipeInput input) { return
 // public static yarnwrap.recipe.RawShapedRecipe create(java.util.Map key,java.util.List pattern, ) { return new yarnwrap.recipe.RawShapedRecipe(net.minecraft.recipe.RawShapedRecipe.create(key,pattern)); }
 // public yarnwrap.recipe.RawShapedRecipe create(java.util.Map key,java.lang.String[] pattern) { return new yarnwrap.recipe.RawShapedRecipe(wrapperContained.create(key,pattern)); }
 // public static yarnwrap.recipe.RawShapedRecipe create(java.util.Map key,java.lang.String[] pattern, ) { return new yarnwrap.recipe.RawShapedRecipe(net.minecraft.recipe.RawShapedRecipe.create(key,pattern)); }
-// public void writeToBuf(yarnwrap.network.RegistryByteBuf buf) { wrapperContained.writeToBuf(buf.wrapperContained); }
-// public static void writeToBuf(yarnwrap.network.RegistryByteBuf buf, ) { net.minecraft.recipe.RawShapedRecipe.writeToBuf(buf.wrapperContained); }
-// public yarnwrap.recipe.Ingredient method_55088(yarnwrap.network.RegistryByteBuf ingredient) { return new yarnwrap.recipe.Ingredient(wrapperContained.method_55088(ingredient.wrapperContained)); }
-// public static yarnwrap.recipe.Ingredient method_55088(yarnwrap.network.RegistryByteBuf ingredient, ) { return new yarnwrap.recipe.Ingredient(net.minecraft.recipe.RawShapedRecipe.method_55088(ingredient.wrapperContained)); }
 // public int findLastSymbol(java.lang.String line) { return wrapperContained.findLastSymbol(line); }
 // public static int findLastSymbol(java.lang.String line, ) { return net.minecraft.recipe.RawShapedRecipe.findLastSymbol(line); }
-// public yarnwrap.recipe.RawShapedRecipe readFromBuf(yarnwrap.network.RegistryByteBuf buf) { return new yarnwrap.recipe.RawShapedRecipe(wrapperContained.readFromBuf(buf.wrapperContained)); }
-// public static yarnwrap.recipe.RawShapedRecipe readFromBuf(yarnwrap.network.RegistryByteBuf buf, ) { return new yarnwrap.recipe.RawShapedRecipe(net.minecraft.recipe.RawShapedRecipe.readFromBuf(buf.wrapperContained)); }
 public int getWidth() { return wrapperContained.getWidth(); }
 // public static int getWidth() { return net.minecraft.recipe.RawShapedRecipe.getWidth(); }
 public int getHeight() { return wrapperContained.getHeight(); }
 // public static int getHeight() { return net.minecraft.recipe.RawShapedRecipe.getHeight(); }
-public yarnwrap.util.collection.DefaultedList getIngredients() { return new yarnwrap.util.collection.DefaultedList(wrapperContained.getIngredients()); }
-// public static yarnwrap.util.collection.DefaultedList getIngredients() { return new yarnwrap.util.collection.DefaultedList(net.minecraft.recipe.RawShapedRecipe.getIngredients()); }
+public java.util.List getIngredients() { return wrapperContained.getIngredients(); }
+// public static java.util.List getIngredients() { return net.minecraft.recipe.RawShapedRecipe.getIngredients(); }
+// public java.util.List method_61694(yarnwrap.recipe.RawShapedRecipe recipe) { return wrapperContained.method_61694(recipe.wrapperContained); }
+// public static java.util.List method_61694(yarnwrap.recipe.RawShapedRecipe recipe, ) { return net.minecraft.recipe.RawShapedRecipe.method_61694(recipe.wrapperContained); }
+// public yarnwrap.recipe.RawShapedRecipe create(java.lang.Integer width,java.lang.Integer height,java.util.List ingredients) { return new yarnwrap.recipe.RawShapedRecipe(wrapperContained.create(width,height,ingredients)); }
+// public static yarnwrap.recipe.RawShapedRecipe create(java.lang.Integer width,java.lang.Integer height,java.util.List ingredients, ) { return new yarnwrap.recipe.RawShapedRecipe(net.minecraft.recipe.RawShapedRecipe.create(width,height,ingredients)); }
+// public java.lang.Integer method_61696(yarnwrap.recipe.RawShapedRecipe recipe) { return wrapperContained.method_61696(recipe.wrapperContained); }
+// public static java.lang.Integer method_61696(yarnwrap.recipe.RawShapedRecipe recipe, ) { return net.minecraft.recipe.RawShapedRecipe.method_61696(recipe.wrapperContained); }
+// public java.lang.Integer method_61697(yarnwrap.recipe.RawShapedRecipe recipe) { return wrapperContained.method_61697(recipe.wrapperContained); }
+// public static java.lang.Integer method_61697(yarnwrap.recipe.RawShapedRecipe recipe, ) { return net.minecraft.recipe.RawShapedRecipe.method_61697(recipe.wrapperContained); }
 
 }

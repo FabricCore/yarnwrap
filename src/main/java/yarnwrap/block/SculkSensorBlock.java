@@ -31,7 +31,6 @@ public static yarnwrap.state.property.BooleanProperty WATERLOGGED() { return new
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.SculkSensorBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.SculkSensorBlock.CODEC = value; }
 
-// public SculkSensorBlock(Object settings) { this.wrapperContained = new net.minecraft.block.SculkSensorBlock(settings); }
 // public void updateNeighbors(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.updateNeighbors(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public static void updateNeighbors(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.SculkSensorBlock.updateNeighbors(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public void setCooldown(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.setCooldown(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }

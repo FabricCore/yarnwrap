@@ -151,11 +151,6 @@ public class RealmsMainScreen { public net.minecraft.client.realms.gui.screen.Re
 // public static yarnwrap.util.Identifier NEWS_ICON_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.realms.gui.screen.RealmsMainScreen.NEWS_ICON_TEXTURE); }
 // public static void NEWS_ICON_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.NEWS_ICON_TEXTURE = value.wrapperContained; }
 
-// public yarnwrap.util.Identifier REALMS_TITLE_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.REALMS_TITLE_TEXTURE); }
-// public void REALMS_TITLE_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.REALMS_TITLE_TEXTURE = value.wrapperContained; }
-// public static yarnwrap.util.Identifier REALMS_TITLE_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.realms.gui.screen.RealmsMainScreen.REALMS_TITLE_TEXTURE); }
-// public static void REALMS_TITLE_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.REALMS_TITLE_TEXTURE = value.wrapperContained; }
-
 // public yarnwrap.util.Identifier NO_REALMS_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.NO_REALMS_TEXTURE); }
 // public void NO_REALMS_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.NO_REALMS_TEXTURE = value.wrapperContained; }
 // public static yarnwrap.util.Identifier NO_REALMS_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.realms.gui.screen.RealmsMainScreen.NO_REALMS_TEXTURE); }
@@ -261,10 +256,10 @@ public class RealmsMainScreen { public net.minecraft.client.realms.gui.screen.Re
 // public static java.util.List availableSnapshotServers() { return net.minecraft.client.realms.gui.screen.RealmsMainScreen.availableSnapshotServers; }
 // public static void availableSnapshotServers(java.util.List value, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.availableSnapshotServers = value; }
 
-// public boolean gameOnSnapshot() { return wrapperContained.gameOnSnapshot; }
-// public void gameOnSnapshot(boolean value) { wrapperContained.gameOnSnapshot = value; }
-// public static boolean gameOnSnapshot() { return net.minecraft.client.realms.gui.screen.RealmsMainScreen.gameOnSnapshot; }
-// public static void gameOnSnapshot(boolean value, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.gameOnSnapshot = value; }
+// public boolean GAME_ON_SNAPSHOT() { return wrapperContained.GAME_ON_SNAPSHOT; }
+// public void GAME_ON_SNAPSHOT(boolean value) { wrapperContained.GAME_ON_SNAPSHOT = value; }
+// public static boolean GAME_ON_SNAPSHOT() { return net.minecraft.client.realms.gui.screen.RealmsMainScreen.GAME_ON_SNAPSHOT; }
+// public static void GAME_ON_SNAPSHOT(boolean value, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.GAME_ON_SNAPSHOT = value; }
 
 // public boolean showingSnapshotRealms() { return wrapperContained.showingSnapshotRealms; }
 // public void showingSnapshotRealms(boolean value) { wrapperContained.showingSnapshotRealms = value; }
@@ -286,11 +281,14 @@ public class RealmsMainScreen { public net.minecraft.client.realms.gui.screen.Re
 // public static yarnwrap.client.realms.dto.RealmsServerPlayerList onlinePlayers() { return new yarnwrap.client.realms.dto.RealmsServerPlayerList(net.minecraft.client.realms.gui.screen.RealmsMainScreen.onlinePlayers); }
 // public static void onlinePlayers(yarnwrap.client.realms.dto.RealmsServerPlayerList value, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.onlinePlayers = value.wrapperContained; }
 
+// public yarnwrap.util.Identifier HARDCORE_ICON_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.HARDCORE_ICON_TEXTURE); }
+// public void HARDCORE_ICON_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.HARDCORE_ICON_TEXTURE = value.wrapperContained; }
+public static yarnwrap.util.Identifier HARDCORE_ICON_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.realms.gui.screen.RealmsMainScreen.HARDCORE_ICON_TEXTURE); }
+// public static void HARDCORE_ICON_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.HARDCORE_ICON_TEXTURE = value.wrapperContained; }
+
 public RealmsMainScreen(yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsMainScreen(parent.wrapperContained); }
 // public void play(yarnwrap.client.realms.dto.RealmsServer serverData,yarnwrap.client.gui.screen.Screen parent) { wrapperContained.play(serverData.wrapperContained,parent.wrapperContained); }
 // public static void play(yarnwrap.client.realms.dto.RealmsServer serverData,yarnwrap.client.gui.screen.Screen parent, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.play(serverData.wrapperContained,parent.wrapperContained); }
-// public boolean shouldPlayButtonBeActive(yarnwrap.client.realms.dto.RealmsServer server) { return wrapperContained.shouldPlayButtonBeActive(server.wrapperContained); }
-// public static boolean shouldPlayButtonBeActive(yarnwrap.client.realms.dto.RealmsServer server, ) { return net.minecraft.client.realms.gui.screen.RealmsMainScreen.shouldPlayButtonBeActive(server.wrapperContained); }
 // public boolean shouldRenewButtonBeActive(yarnwrap.client.realms.dto.RealmsServer server) { return wrapperContained.shouldRenewButtonBeActive(server.wrapperContained); }
 // public static boolean shouldRenewButtonBeActive(yarnwrap.client.realms.dto.RealmsServer server, ) { return net.minecraft.client.realms.gui.screen.RealmsMainScreen.shouldRenewButtonBeActive(server.wrapperContained); }
 // public void configureClicked(yarnwrap.client.realms.dto.RealmsServer serverData) { wrapperContained.configureClicked(serverData.wrapperContained); }
@@ -309,8 +307,8 @@ public RealmsMainScreen(yarnwrap.client.gui.screen.Screen parent) { this.wrapper
 // public static void leaveServer(yarnwrap.client.realms.dto.RealmsServer server, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.leaveServer(server.wrapperContained); }
 // public boolean isOwnedNotExpired(yarnwrap.client.realms.dto.RealmsServer serverData) { return wrapperContained.isOwnedNotExpired(serverData.wrapperContained); }
 // public static boolean isOwnedNotExpired(yarnwrap.client.realms.dto.RealmsServer serverData, ) { return net.minecraft.client.realms.gui.screen.RealmsMainScreen.isOwnedNotExpired(serverData.wrapperContained); }
-// public yarnwrap.client.realms.dto.RealmsServer findServer() { return new yarnwrap.client.realms.dto.RealmsServer(wrapperContained.findServer()); }
-// public static yarnwrap.client.realms.dto.RealmsServer findServer() { return new yarnwrap.client.realms.dto.RealmsServer(net.minecraft.client.realms.gui.screen.RealmsMainScreen.findServer()); }
+// public yarnwrap.client.realms.dto.RealmsServer getSelectedServer() { return new yarnwrap.client.realms.dto.RealmsServer(wrapperContained.getSelectedServer()); }
+// public static yarnwrap.client.realms.dto.RealmsServer getSelectedServer() { return new yarnwrap.client.realms.dto.RealmsServer(net.minecraft.client.realms.gui.screen.RealmsMainScreen.getSelectedServer()); }
 // public void method_38504(yarnwrap.client.realms.dto.RealmsServer popup) { wrapperContained.method_38504(popup.wrapperContained); }
 // public static void method_38504(yarnwrap.client.realms.dto.RealmsServer popup, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.method_38504(popup.wrapperContained); }
 public void removeSelection() { wrapperContained.removeSelection(); }
@@ -329,8 +327,6 @@ public void removeSelection() { wrapperContained.removeSelection(); }
 // public static boolean shouldLeaveButtonBeActive(yarnwrap.client.realms.dto.RealmsServer server, ) { return net.minecraft.client.realms.gui.screen.RealmsMainScreen.shouldLeaveButtonBeActive(server.wrapperContained); }
 // public void refresh() { wrapperContained.refresh(); }
 // public static void refresh() { net.minecraft.client.realms.gui.screen.RealmsMainScreen.refresh(); }
-// public boolean addNotificationEntry(yarnwrap.client.realms.dto.RealmsNotification notification) { return wrapperContained.addNotificationEntry(notification.wrapperContained); }
-// public static boolean addNotificationEntry(yarnwrap.client.realms.dto.RealmsNotification notification, ) { return net.minecraft.client.realms.gui.screen.RealmsMainScreen.addNotificationEntry(notification.wrapperContained); }
 // public void request(Object request,java.util.function.Consumer resultConsumer) { wrapperContained.request(request,resultConsumer); }
 // public static void request(Object request,java.util.function.Consumer resultConsumer, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.request(request,resultConsumer); }
 // public java.lang.Void method_49554(java.lang.Throwable throwable) { return wrapperContained.method_49554(throwable); }
@@ -417,5 +413,7 @@ public static boolean isSnapshotRealmsEligible() { return net.minecraft.client.r
 // public static void method_60860(yarnwrap.client.realms.dto.RealmsServerPlayerList onlinePlayers, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.method_60860(onlinePlayers.wrapperContained); }
 // public void showNeedsUpgradeScreen(yarnwrap.client.realms.dto.RealmsServer serverData,yarnwrap.client.gui.screen.Screen parent) { wrapperContained.showNeedsUpgradeScreen(serverData.wrapperContained,parent.wrapperContained); }
 // public static void showNeedsUpgradeScreen(yarnwrap.client.realms.dto.RealmsServer serverData,yarnwrap.client.gui.screen.Screen parent, ) { net.minecraft.client.realms.gui.screen.RealmsMainScreen.showNeedsUpgradeScreen(serverData.wrapperContained,parent.wrapperContained); }
+// public yarnwrap.text.Text getGameModeText(int id,boolean hardcore) { return new yarnwrap.text.Text(wrapperContained.getGameModeText(id,hardcore)); }
+// public static yarnwrap.text.Text getGameModeText(int id,boolean hardcore, ) { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.screen.RealmsMainScreen.getGameModeText(id,hardcore)); }
 
 }

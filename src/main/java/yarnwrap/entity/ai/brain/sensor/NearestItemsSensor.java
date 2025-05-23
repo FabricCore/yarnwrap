@@ -16,8 +16,8 @@ public static int MAX_RANGE() { return net.minecraft.entity.ai.brain.sensor.Near
 // public static long VERTICAL_RANGE() { return net.minecraft.entity.ai.brain.sensor.NearestItemsSensor.VERTICAL_RANGE; }
 // public static void VERTICAL_RANGE(long value, ) { net.minecraft.entity.ai.brain.sensor.NearestItemsSensor.VERTICAL_RANGE = value; }
 
-// public boolean method_24643(yarnwrap.entity.mob.MobEntity itemEntity) { return wrapperContained.method_24643(itemEntity.wrapperContained); }
-// public static boolean method_24643(yarnwrap.entity.mob.MobEntity itemEntity, ) { return net.minecraft.entity.ai.brain.sensor.NearestItemsSensor.method_24643(itemEntity.wrapperContained); }
+// public boolean method_24643(yarnwrap.entity.mob.MobEntity itemEntityx) { return wrapperContained.method_24643(itemEntityx.wrapperContained); }
+// public static boolean method_24643(yarnwrap.entity.mob.MobEntity itemEntityx, ) { return net.minecraft.entity.ai.brain.sensor.NearestItemsSensor.method_24643(itemEntityx.wrapperContained); }
 // public boolean method_24644(yarnwrap.entity.ItemEntity itemEntity) { return wrapperContained.method_24644(itemEntity.wrapperContained); }
 // public static boolean method_24644(yarnwrap.entity.ItemEntity itemEntity, ) { return net.minecraft.entity.ai.brain.sensor.NearestItemsSensor.method_24644(itemEntity.wrapperContained); }
 // public boolean method_24646(yarnwrap.entity.mob.MobEntity itemEntity) { return wrapperContained.method_24646(itemEntity.wrapperContained); }

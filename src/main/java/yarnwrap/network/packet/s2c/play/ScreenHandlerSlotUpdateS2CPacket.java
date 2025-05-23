@@ -16,16 +16,6 @@ public class ScreenHandlerSlotUpdateS2CPacket { public net.minecraft.network.pac
 // public static yarnwrap.item.ItemStack stack() { return new yarnwrap.item.ItemStack(net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket.stack); }
 // public static void stack(yarnwrap.item.ItemStack value, ) { net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket.stack = value.wrapperContained; }
 
-// public int UPDATE_CURSOR_SYNC_ID() { return wrapperContained.UPDATE_CURSOR_SYNC_ID; }
-// public void UPDATE_CURSOR_SYNC_ID(int value) { wrapperContained.UPDATE_CURSOR_SYNC_ID = value; }
-public static int UPDATE_CURSOR_SYNC_ID() { return net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket.UPDATE_CURSOR_SYNC_ID; }
-// public static void UPDATE_CURSOR_SYNC_ID(int value, ) { net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket.UPDATE_CURSOR_SYNC_ID = value; }
-
-// public int UPDATE_PLAYER_INVENTORY_SYNC_ID() { return wrapperContained.UPDATE_PLAYER_INVENTORY_SYNC_ID; }
-// public void UPDATE_PLAYER_INVENTORY_SYNC_ID(int value) { wrapperContained.UPDATE_PLAYER_INVENTORY_SYNC_ID = value; }
-public static int UPDATE_PLAYER_INVENTORY_SYNC_ID() { return net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket.UPDATE_PLAYER_INVENTORY_SYNC_ID; }
-// public static void UPDATE_PLAYER_INVENTORY_SYNC_ID(int value, ) { net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket.UPDATE_PLAYER_INVENTORY_SYNC_ID = value; }
-
 // public int revision() { return wrapperContained.revision; }
 // public void revision(int value) { wrapperContained.revision = value; }
 // public static int revision() { return net.minecraft.network.packet.s2c.play.ScreenHandlerSlotUpdateS2CPacket.revision; }

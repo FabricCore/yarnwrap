@@ -8,7 +8,5 @@ public OptionsMenuBlurrinessFix(com.mojang.datafixers.schemas.Schema outputSchem
 // public static com.mojang.serialization.Dynamic method_60601(com.mojang.serialization.Dynamic optionsDynamic, ) { return net.minecraft.datafixer.fix.OptionsMenuBlurrinessFix.method_60601(optionsDynamic); }
 // public int update(java.lang.String value) { return wrapperContained.update(value); }
 // public static int update(java.lang.String value, ) { return net.minecraft.datafixer.fix.OptionsMenuBlurrinessFix.update(value); }
-// public com.mojang.serialization.Dynamic method_60603(com.mojang.serialization.Dynamic menuBackgroundBlurriness) { return wrapperContained.method_60603(menuBackgroundBlurriness); }
-// public static com.mojang.serialization.Dynamic method_60603(com.mojang.serialization.Dynamic menuBackgroundBlurriness, ) { return net.minecraft.datafixer.fix.OptionsMenuBlurrinessFix.method_60603(menuBackgroundBlurriness); }
 
 }

@@ -11,8 +11,6 @@ public yarnwrap.client.texture.SpriteAtlasTexture getAtlas(yarnwrap.util.Identif
 // public static yarnwrap.client.texture.SpriteAtlasTexture getAtlas(yarnwrap.util.Identifier id, ) { return new yarnwrap.client.texture.SpriteAtlasTexture(net.minecraft.client.render.model.SpriteAtlasManager.getAtlas(id.wrapperContained)); }
 public java.util.Map reload(yarnwrap.resource.ResourceManager resourceManager,int mipmapLevels,java.util.concurrent.Executor executor) { return wrapperContained.reload(resourceManager.wrapperContained,mipmapLevels,executor); }
 // public static java.util.Map reload(yarnwrap.resource.ResourceManager resourceManager,int mipmapLevels,java.util.concurrent.Executor executor, ) { return net.minecraft.client.render.model.SpriteAtlasManager.reload(resourceManager.wrapperContained,mipmapLevels,executor); }
-// public java.util.concurrent.CompletableFuture method_45863(yarnwrap.resource.ResourceManager entry) { return wrapperContained.method_45863(entry.wrapperContained); }
-// public static java.util.concurrent.CompletableFuture method_45863(yarnwrap.resource.ResourceManager entry, ) { return net.minecraft.client.render.model.SpriteAtlasManager.method_45863(entry.wrapperContained); }
 // public Object method_45864(yarnwrap.client.texture.TextureManager entry) { return wrapperContained.method_45864(entry.wrapperContained); }
 // public static Object method_45864(yarnwrap.client.texture.TextureManager entry, ) { return net.minecraft.client.render.model.SpriteAtlasManager.method_45864(entry.wrapperContained); }
 // public Object method_45867(Object stitchResult) { return wrapperContained.method_45867(stitchResult); }

@@ -34,7 +34,7 @@ public yarnwrap.util.Identifier getTextureId() { return new yarnwrap.util.Identi
 // public static yarnwrap.util.Identifier getTextureId() { return new yarnwrap.util.Identifier(net.minecraft.client.util.SpriteIdentifier.getTextureId()); }
 public yarnwrap.client.texture.Sprite getSprite() { return new yarnwrap.client.texture.Sprite(wrapperContained.getSprite()); }
 // public static yarnwrap.client.texture.Sprite getSprite() { return new yarnwrap.client.texture.Sprite(net.minecraft.client.util.SpriteIdentifier.getSprite()); }
-public yarnwrap.client.render.VertexConsumer getVertexConsumer(yarnwrap.client.render.VertexConsumerProvider vertexConsumers,java.util.function.Function layerFactory,boolean glint) { return new yarnwrap.client.render.VertexConsumer(wrapperContained.getVertexConsumer(vertexConsumers.wrapperContained,layerFactory,glint)); }
-// public static yarnwrap.client.render.VertexConsumer getVertexConsumer(yarnwrap.client.render.VertexConsumerProvider vertexConsumers,java.util.function.Function layerFactory,boolean glint, ) { return new yarnwrap.client.render.VertexConsumer(net.minecraft.client.util.SpriteIdentifier.getVertexConsumer(vertexConsumers.wrapperContained,layerFactory,glint)); }
+public yarnwrap.client.render.VertexConsumer getVertexConsumer(yarnwrap.client.render.VertexConsumerProvider vertexConsumers,java.util.function.Function layerFactory,boolean solid,boolean glint) { return new yarnwrap.client.render.VertexConsumer(wrapperContained.getVertexConsumer(vertexConsumers.wrapperContained,layerFactory,solid,glint)); }
+// public static yarnwrap.client.render.VertexConsumer getVertexConsumer(yarnwrap.client.render.VertexConsumerProvider vertexConsumers,java.util.function.Function layerFactory,boolean solid,boolean glint, ) { return new yarnwrap.client.render.VertexConsumer(net.minecraft.client.util.SpriteIdentifier.getVertexConsumer(vertexConsumers.wrapperContained,layerFactory,solid,glint)); }
 
 }

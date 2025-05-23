@@ -26,10 +26,10 @@ public class SpriteLoader { public net.minecraft.client.texture.SpriteLoader wra
 // public static int height() { return net.minecraft.client.texture.SpriteLoader.height; }
 // public static void height(int value, ) { net.minecraft.client.texture.SpriteLoader.height = value; }
 
-// public java.util.Set METADATA_READERS() { return wrapperContained.METADATA_READERS; }
-// public void METADATA_READERS(java.util.Set value) { wrapperContained.METADATA_READERS = value; }
-public static java.util.Set METADATA_READERS() { return net.minecraft.client.texture.SpriteLoader.METADATA_READERS; }
-// public static void METADATA_READERS(java.util.Set value, ) { net.minecraft.client.texture.SpriteLoader.METADATA_READERS = value; }
+// public java.util.Set METADATA_SERIALIZERS() { return wrapperContained.METADATA_SERIALIZERS; }
+// public void METADATA_SERIALIZERS(java.util.Set value) { wrapperContained.METADATA_SERIALIZERS = value; }
+public static java.util.Set METADATA_SERIALIZERS() { return net.minecraft.client.texture.SpriteLoader.METADATA_SERIALIZERS; }
+// public static void METADATA_SERIALIZERS(java.util.Set value, ) { net.minecraft.client.texture.SpriteLoader.METADATA_SERIALIZERS = value; }
 
 public SpriteLoader(yarnwrap.util.Identifier id,int maxTextureSize,int width,int height) { this.wrapperContained = new net.minecraft.client.texture.SpriteLoader(id.wrapperContained,maxTextureSize,width,height); }
 // public void method_45826(int sprite) { wrapperContained.method_45826(sprite); }

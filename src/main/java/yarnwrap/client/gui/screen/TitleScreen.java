@@ -1,6 +1,16 @@
 package yarnwrap.client.gui.screen;
 public class TitleScreen { public net.minecraft.client.gui.screen.TitleScreen wrapperContained; public TitleScreen(net.minecraft.client.gui.screen.TitleScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.client.gui.screen.SplashTextRenderer splashText() { return new yarnwrap.client.gui.screen.SplashTextRenderer(wrapperContained.splashText); }
+// public void splashText(yarnwrap.client.gui.screen.SplashTextRenderer value) { wrapperContained.splashText = value.wrapperContained; }
+// public static yarnwrap.client.gui.screen.SplashTextRenderer splashText() { return new yarnwrap.client.gui.screen.SplashTextRenderer(net.minecraft.client.gui.screen.TitleScreen.splashText); }
+// public static void splashText(yarnwrap.client.gui.screen.SplashTextRenderer value, ) { net.minecraft.client.gui.screen.TitleScreen.splashText = value.wrapperContained; }
+
+// public yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen realmsNotificationGui() { return new yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen(wrapperContained.realmsNotificationGui); }
+// public void realmsNotificationGui(yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen value) { wrapperContained.realmsNotificationGui = value.wrapperContained; }
+// public static yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen realmsNotificationGui() { return new yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen(net.minecraft.client.gui.screen.TitleScreen.realmsNotificationGui); }
+// public static void realmsNotificationGui(yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen value, ) { net.minecraft.client.gui.screen.TitleScreen.realmsNotificationGui = value.wrapperContained; }
+
 // public long backgroundFadeStart() { return wrapperContained.backgroundFadeStart; }
 // public void backgroundFadeStart(long value) { wrapperContained.backgroundFadeStart = value; }
 // public static long backgroundFadeStart() { return net.minecraft.client.gui.screen.TitleScreen.backgroundFadeStart; }
@@ -15,21 +25,6 @@ public class TitleScreen { public net.minecraft.client.gui.screen.TitleScreen wr
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.client.gui.screen.TitleScreen.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.gui.screen.TitleScreen.LOGGER = value; }
-
-// public yarnwrap.client.gui.screen.SplashTextRenderer splashText() { return new yarnwrap.client.gui.screen.SplashTextRenderer(wrapperContained.splashText); }
-// public void splashText(yarnwrap.client.gui.screen.SplashTextRenderer value) { wrapperContained.splashText = value.wrapperContained; }
-// public static yarnwrap.client.gui.screen.SplashTextRenderer splashText() { return new yarnwrap.client.gui.screen.SplashTextRenderer(net.minecraft.client.gui.screen.TitleScreen.splashText); }
-// public static void splashText(yarnwrap.client.gui.screen.SplashTextRenderer value, ) { net.minecraft.client.gui.screen.TitleScreen.splashText = value.wrapperContained; }
-
-// public yarnwrap.client.gui.widget.ButtonWidget buttonResetDemo() { return new yarnwrap.client.gui.widget.ButtonWidget(wrapperContained.buttonResetDemo); }
-// public void buttonResetDemo(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.buttonResetDemo = value.wrapperContained; }
-// public static yarnwrap.client.gui.widget.ButtonWidget buttonResetDemo() { return new yarnwrap.client.gui.widget.ButtonWidget(net.minecraft.client.gui.screen.TitleScreen.buttonResetDemo); }
-// public static void buttonResetDemo(yarnwrap.client.gui.widget.ButtonWidget value, ) { net.minecraft.client.gui.screen.TitleScreen.buttonResetDemo = value.wrapperContained; }
-
-// public yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen realmsNotificationGui() { return new yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen(wrapperContained.realmsNotificationGui); }
-// public void realmsNotificationGui(yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen value) { wrapperContained.realmsNotificationGui = value.wrapperContained; }
-// public static yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen realmsNotificationGui() { return new yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen(net.minecraft.client.gui.screen.TitleScreen.realmsNotificationGui); }
-// public static void realmsNotificationGui(yarnwrap.client.realms.gui.screen.RealmsNotificationsScreen value, ) { net.minecraft.client.gui.screen.TitleScreen.realmsNotificationGui = value.wrapperContained; }
 
 // public yarnwrap.text.Text COPYRIGHT() { return new yarnwrap.text.Text(wrapperContained.COPYRIGHT); }
 // public void COPYRIGHT(yarnwrap.text.Text value) { wrapperContained.COPYRIGHT = value.wrapperContained; }
@@ -51,15 +46,14 @@ public class TitleScreen { public net.minecraft.client.gui.screen.TitleScreen wr
 // public static yarnwrap.text.Text NARRATOR_SCREEN_TITLE() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.TitleScreen.NARRATOR_SCREEN_TITLE); }
 // public static void NARRATOR_SCREEN_TITLE(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.TitleScreen.NARRATOR_SCREEN_TITLE = value.wrapperContained; }
 
-// public float backgroundAlpha() { return wrapperContained.backgroundAlpha; }
-// public void backgroundAlpha(float value) { wrapperContained.backgroundAlpha = value; }
-// public static float backgroundAlpha() { return net.minecraft.client.gui.screen.TitleScreen.backgroundAlpha; }
-// public static void backgroundAlpha(float value, ) { net.minecraft.client.gui.screen.TitleScreen.backgroundAlpha = value; }
-
 public TitleScreen(boolean doBackgroundFade) { this.wrapperContained = new net.minecraft.client.gui.screen.TitleScreen(doBackgroundFade); }
 public TitleScreen(boolean doBackgroundFade,yarnwrap.client.gui.LogoDrawer logoDrawer) { this.wrapperContained = new net.minecraft.client.gui.screen.TitleScreen(doBackgroundFade,logoDrawer.wrapperContained); }
-// public java.util.concurrent.CompletableFuture loadTexturesAsync(yarnwrap.client.texture.TextureManager textureManager,java.util.concurrent.Executor executor) { return wrapperContained.loadTexturesAsync(textureManager.wrapperContained,executor); }
-// public static java.util.concurrent.CompletableFuture loadTexturesAsync(yarnwrap.client.texture.TextureManager textureManager,java.util.concurrent.Executor executor, ) { return net.minecraft.client.gui.screen.TitleScreen.loadTexturesAsync(textureManager.wrapperContained,executor); }
+// public int addNormalWidgets(int y,int spacingY) { return wrapperContained.addNormalWidgets(y,spacingY); }
+// public static int addNormalWidgets(int y,int spacingY, ) { return net.minecraft.client.gui.screen.TitleScreen.addNormalWidgets(y,spacingY); }
+// public int addDemoWidgets(int y,int spacingY) { return wrapperContained.addDemoWidgets(y,spacingY); }
+// public static int addDemoWidgets(int y,int spacingY, ) { return net.minecraft.client.gui.screen.TitleScreen.addDemoWidgets(y,spacingY); }
+// public boolean isRealmsNotificationsGuiDisplayed() { return wrapperContained.isRealmsNotificationsGuiDisplayed(); }
+// public static boolean isRealmsNotificationsGuiDisplayed() { return net.minecraft.client.gui.screen.TitleScreen.isRealmsNotificationsGuiDisplayed(); }
 // public void method_19857(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19857(button.wrapperContained); }
 // public static void method_19857(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.TitleScreen.method_19857(button.wrapperContained); }
 // public void method_19858(boolean button) { wrapperContained.method_19858(button); }
@@ -78,19 +72,19 @@ public TitleScreen(boolean doBackgroundFade,yarnwrap.client.gui.LogoDrawer logoD
 // public static void method_20109(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.TitleScreen.method_20109(button.wrapperContained); }
 // public void onDemoDeletionConfirmed(boolean delete) { wrapperContained.onDemoDeletionConfirmed(delete); }
 // public static void onDemoDeletionConfirmed(boolean delete, ) { net.minecraft.client.gui.screen.TitleScreen.onDemoDeletionConfirmed(delete); }
-// public void initWidgetsNormal(int y,int spacingY) { wrapperContained.initWidgetsNormal(y,spacingY); }
-// public static void initWidgetsNormal(int y,int spacingY, ) { net.minecraft.client.gui.screen.TitleScreen.initWidgetsNormal(y,spacingY); }
-// public void initWidgetsDemo(int y,int spacingY) { wrapperContained.initWidgetsDemo(y,spacingY); }
-// public static void initWidgetsDemo(int y,int spacingY, ) { net.minecraft.client.gui.screen.TitleScreen.initWidgetsDemo(y,spacingY); }
-// public boolean isRealmsNotificationsGuiDisplayed() { return wrapperContained.isRealmsNotificationsGuiDisplayed(); }
-// public static boolean isRealmsNotificationsGuiDisplayed() { return net.minecraft.client.gui.screen.TitleScreen.isRealmsNotificationsGuiDisplayed(); }
 // public boolean canReadDemoWorldData() { return wrapperContained.canReadDemoWorldData(); }
 // public static boolean canReadDemoWorldData() { return net.minecraft.client.gui.screen.TitleScreen.canReadDemoWorldData(); }
 // public void method_41198(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_41198(button.wrapperContained); }
 // public static void method_41198(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.TitleScreen.method_41198(button.wrapperContained); }
 // public yarnwrap.text.Text getMultiplayerDisabledText() { return new yarnwrap.text.Text(wrapperContained.getMultiplayerDisabledText()); }
 // public static yarnwrap.text.Text getMultiplayerDisabledText() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.TitleScreen.getMultiplayerDisabledText()); }
-// public void setWidgetAlpha(float alpha) { wrapperContained.setWidgetAlpha(alpha); }
-// public static void setWidgetAlpha(float alpha, ) { net.minecraft.client.gui.screen.TitleScreen.setWidgetAlpha(alpha); }
+// public void method_55814(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_55814(button.wrapperContained); }
+// public static void method_55814(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.TitleScreen.method_55814(button.wrapperContained); }
+// public int addDevelopmentWidgets(int y,int spacingY) { return wrapperContained.addDevelopmentWidgets(y,spacingY); }
+// public static int addDevelopmentWidgets(int y,int spacingY, ) { return net.minecraft.client.gui.screen.TitleScreen.addDevelopmentWidgets(y,spacingY); }
+// public void method_64238(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_64238(button.wrapperContained); }
+// public static void method_64238(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.TitleScreen.method_64238(button.wrapperContained); }
+// public void registerTextures(yarnwrap.client.texture.TextureManager textureManager) { wrapperContained.registerTextures(textureManager.wrapperContained); }
+// public static void registerTextures(yarnwrap.client.texture.TextureManager textureManager, ) { net.minecraft.client.gui.screen.TitleScreen.registerTextures(textureManager.wrapperContained); }
 
 }

@@ -37,5 +37,7 @@ public double nextGaussian() { return wrapperContained.nextGaussian(); }
 // public static double nextGaussian() { return net.minecraft.util.math.random.Random.nextGaussian(); }
 public double nextTriangular(double mode,double deviation) { return wrapperContained.nextTriangular(mode,deviation); }
 // public static double nextTriangular(double mode,double deviation, ) { return net.minecraft.util.math.random.Random.nextTriangular(mode,deviation); }
+public float nextTriangular(float mode,float deviation) { return wrapperContained.nextTriangular(mode,deviation); }
+// public static float nextTriangular(float mode,float deviation, ) { return net.minecraft.util.math.random.Random.nextTriangular(mode,deviation); }
 
 }

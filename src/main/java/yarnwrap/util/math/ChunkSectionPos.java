@@ -103,5 +103,7 @@ public yarnwrap.util.math.BlockPos unpackBlockPos(short packedLocalPos) { return
 // public static int getSectionCoordFloored(double coord, ) { return net.minecraft.util.math.ChunkSectionPos.getSectionCoordFloored(coord); }
 // public long withZeroY(int x,int z) { return wrapperContained.withZeroY(x,z); }
 // public static long withZeroY(int x,int z, ) { return net.minecraft.util.math.ChunkSectionPos.withZeroY(x,z); }
+// public long toChunkPos(long sectionPos) { return wrapperContained.toChunkPos(sectionPos); }
+// public static long toChunkPos(long sectionPos, ) { return net.minecraft.util.math.ChunkSectionPos.toChunkPos(sectionPos); }
 
 }

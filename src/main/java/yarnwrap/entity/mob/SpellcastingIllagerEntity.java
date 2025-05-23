@@ -16,6 +16,11 @@ public class SpellcastingIllagerEntity { public net.minecraft.entity.mob.Spellca
 // public static yarnwrap.entity.data.TrackedData SPELL() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.mob.SpellcastingIllagerEntity.SPELL); }
 // public static void SPELL(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.mob.SpellcastingIllagerEntity.SPELL = value.wrapperContained; }
 
+// public int DEFAULT_SPELL_TICKS() { return wrapperContained.DEFAULT_SPELL_TICKS; }
+// public void DEFAULT_SPELL_TICKS(int value) { wrapperContained.DEFAULT_SPELL_TICKS = value; }
+// public static int DEFAULT_SPELL_TICKS() { return net.minecraft.entity.mob.SpellcastingIllagerEntity.DEFAULT_SPELL_TICKS; }
+// public static void DEFAULT_SPELL_TICKS(int value, ) { net.minecraft.entity.mob.SpellcastingIllagerEntity.DEFAULT_SPELL_TICKS = value; }
+
 public boolean isSpellcasting() { return wrapperContained.isSpellcasting(); }
 // public static boolean isSpellcasting() { return net.minecraft.entity.mob.SpellcastingIllagerEntity.isSpellcasting(); }
 // public void setSpell(Object spell) { wrapperContained.setSpell(spell); }

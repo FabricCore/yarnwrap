@@ -1,11 +1,6 @@
 package yarnwrap.client.particle;
 public class ItemPickupParticle { public net.minecraft.client.particle.ItemPickupParticle wrapperContained; public ItemPickupParticle(net.minecraft.client.particle.ItemPickupParticle wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.render.BufferBuilderStorage bufferStorage() { return new yarnwrap.client.render.BufferBuilderStorage(wrapperContained.bufferStorage); }
-// public void bufferStorage(yarnwrap.client.render.BufferBuilderStorage value) { wrapperContained.bufferStorage = value.wrapperContained; }
-// public static yarnwrap.client.render.BufferBuilderStorage bufferStorage() { return new yarnwrap.client.render.BufferBuilderStorage(net.minecraft.client.particle.ItemPickupParticle.bufferStorage); }
-// public static void bufferStorage(yarnwrap.client.render.BufferBuilderStorage value, ) { net.minecraft.client.particle.ItemPickupParticle.bufferStorage = value.wrapperContained; }
-
 // public yarnwrap.entity.Entity interactingEntity() { return new yarnwrap.entity.Entity(wrapperContained.interactingEntity); }
 // public void interactingEntity(yarnwrap.entity.Entity value) { wrapperContained.interactingEntity = value.wrapperContained; }
 // public static yarnwrap.entity.Entity interactingEntity() { return new yarnwrap.entity.Entity(net.minecraft.client.particle.ItemPickupParticle.interactingEntity); }
@@ -56,8 +51,8 @@ public class ItemPickupParticle { public net.minecraft.client.particle.ItemPicku
 // public static double lastTargetZ() { return net.minecraft.client.particle.ItemPickupParticle.lastTargetZ; }
 // public static void lastTargetZ(double value, ) { net.minecraft.client.particle.ItemPickupParticle.lastTargetZ = value; }
 
-public ItemPickupParticle(yarnwrap.client.render.entity.EntityRenderDispatcher dispatcher,yarnwrap.client.render.BufferBuilderStorage bufferStorage,yarnwrap.client.world.ClientWorld world,yarnwrap.entity.Entity itemEntity,yarnwrap.entity.Entity interactingEntity) { this.wrapperContained = new net.minecraft.client.particle.ItemPickupParticle(dispatcher.wrapperContained,bufferStorage.wrapperContained,world.wrapperContained,itemEntity.wrapperContained,interactingEntity.wrapperContained); }
-// public ItemPickupParticle(yarnwrap.client.render.entity.EntityRenderDispatcher dispatcher,yarnwrap.client.render.BufferBuilderStorage bufferStorage,yarnwrap.client.world.ClientWorld world,yarnwrap.entity.Entity itemEntity,yarnwrap.entity.Entity interactingEntity,yarnwrap.util.math.Vec3d velocity) { this.wrapperContained = new net.minecraft.client.particle.ItemPickupParticle(dispatcher.wrapperContained,bufferStorage.wrapperContained,world.wrapperContained,itemEntity.wrapperContained,interactingEntity.wrapperContained,velocity.wrapperContained); }
+public ItemPickupParticle(yarnwrap.client.render.entity.EntityRenderDispatcher dispatcher,yarnwrap.client.world.ClientWorld world,yarnwrap.entity.Entity itemEntity,yarnwrap.entity.Entity interactingEntity) { this.wrapperContained = new net.minecraft.client.particle.ItemPickupParticle(dispatcher.wrapperContained,world.wrapperContained,itemEntity.wrapperContained,interactingEntity.wrapperContained); }
+// public ItemPickupParticle(yarnwrap.client.render.entity.EntityRenderDispatcher dispatcher,yarnwrap.client.world.ClientWorld world,yarnwrap.entity.Entity itemEntity,yarnwrap.entity.Entity interactingEntity,yarnwrap.util.math.Vec3d velocity) { this.wrapperContained = new net.minecraft.client.particle.ItemPickupParticle(dispatcher.wrapperContained,world.wrapperContained,itemEntity.wrapperContained,interactingEntity.wrapperContained,velocity.wrapperContained); }
 // public yarnwrap.entity.Entity getOrCopy(yarnwrap.entity.Entity entity) { return new yarnwrap.entity.Entity(wrapperContained.getOrCopy(entity.wrapperContained)); }
 // public static yarnwrap.entity.Entity getOrCopy(yarnwrap.entity.Entity entity, ) { return new yarnwrap.entity.Entity(net.minecraft.client.particle.ItemPickupParticle.getOrCopy(entity.wrapperContained)); }
 // public void updateTargetPos() { wrapperContained.updateTargetPos(); }

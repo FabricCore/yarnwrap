@@ -41,12 +41,12 @@ public yarnwrap.registry.entry.RegistryEntryList canPlaceOn() { return new yarnw
 // public static it.unimi.dsi.fastutil.objects.ObjectArrayList directions() { return net.minecraft.world.gen.feature.MultifaceGrowthFeatureConfig.directions; }
 // public static void directions(it.unimi.dsi.fastutil.objects.ObjectArrayList value, ) { net.minecraft.world.gen.feature.MultifaceGrowthFeatureConfig.directions = value; }
 
-public yarnwrap.block.MultifaceGrowthBlock lichen() { return new yarnwrap.block.MultifaceGrowthBlock(wrapperContained.lichen); }
-// public void lichen(yarnwrap.block.MultifaceGrowthBlock value) { wrapperContained.lichen = value.wrapperContained; }
-// public static yarnwrap.block.MultifaceGrowthBlock lichen() { return new yarnwrap.block.MultifaceGrowthBlock(net.minecraft.world.gen.feature.MultifaceGrowthFeatureConfig.lichen); }
-// public static void lichen(yarnwrap.block.MultifaceGrowthBlock value, ) { net.minecraft.world.gen.feature.MultifaceGrowthFeatureConfig.lichen = value.wrapperContained; }
+public yarnwrap.block.MultifaceGrowthBlock block() { return new yarnwrap.block.MultifaceGrowthBlock(wrapperContained.block); }
+// public void block(yarnwrap.block.MultifaceGrowthBlock value) { wrapperContained.block = value.wrapperContained; }
+// public static yarnwrap.block.MultifaceGrowthBlock block() { return new yarnwrap.block.MultifaceGrowthBlock(net.minecraft.world.gen.feature.MultifaceGrowthFeatureConfig.block); }
+// public static void block(yarnwrap.block.MultifaceGrowthBlock value, ) { net.minecraft.world.gen.feature.MultifaceGrowthFeatureConfig.block = value.wrapperContained; }
 
-public MultifaceGrowthFeatureConfig(yarnwrap.block.MultifaceGrowthBlock lichen,int searchRange,boolean placeOnFloor,boolean placeOnCeiling,boolean placeOnWalls,float spreadChance,yarnwrap.registry.entry.RegistryEntryList canPlaceOn) { this.wrapperContained = new net.minecraft.world.gen.feature.MultifaceGrowthFeatureConfig(lichen.wrapperContained,searchRange,placeOnFloor,placeOnCeiling,placeOnWalls,spreadChance,canPlaceOn.wrapperContained); }
+public MultifaceGrowthFeatureConfig(yarnwrap.block.MultifaceGrowthBlock block,int searchRange,boolean placeOnFloor,boolean placeOnCeiling,boolean placeOnWalls,float spreadChance,yarnwrap.registry.entry.RegistryEntryList canPlaceOn) { this.wrapperContained = new net.minecraft.world.gen.feature.MultifaceGrowthFeatureConfig(block.wrapperContained,searchRange,placeOnFloor,placeOnCeiling,placeOnWalls,spreadChance,canPlaceOn.wrapperContained); }
 // public com.mojang.datafixers.kinds.App method_33398(Object instance) { return wrapperContained.method_33398(instance); }
 // public static com.mojang.datafixers.kinds.App method_33398(Object instance, ) { return net.minecraft.world.gen.feature.MultifaceGrowthFeatureConfig.method_33398(instance); }
 // public yarnwrap.registry.entry.RegistryEntryList method_33399(yarnwrap.world.gen.feature.MultifaceGrowthFeatureConfig config) { return new yarnwrap.registry.entry.RegistryEntryList(wrapperContained.method_33399(config.wrapperContained)); }

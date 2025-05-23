@@ -36,5 +36,23 @@ public static yarnwrap.screen.slot.SlotActionType THROW() { return new yarnwrap.
 public static yarnwrap.screen.slot.SlotActionType CLONE() { return new yarnwrap.screen.slot.SlotActionType(net.minecraft.screen.slot.SlotActionType.CLONE); }
 // public static void CLONE(yarnwrap.screen.slot.SlotActionType value, ) { net.minecraft.screen.slot.SlotActionType.CLONE = value.wrapperContained; }
 
+// public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
+// public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.screen.slot.SlotActionType.PACKET_CODEC); }
+// public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.screen.slot.SlotActionType.PACKET_CODEC = value.wrapperContained; }
+
+// public java.util.function.IntFunction INDEX_MAPPER() { return wrapperContained.INDEX_MAPPER; }
+// public void INDEX_MAPPER(java.util.function.IntFunction value) { wrapperContained.INDEX_MAPPER = value; }
+// public static java.util.function.IntFunction INDEX_MAPPER() { return net.minecraft.screen.slot.SlotActionType.INDEX_MAPPER; }
+// public static void INDEX_MAPPER(java.util.function.IntFunction value, ) { net.minecraft.screen.slot.SlotActionType.INDEX_MAPPER = value; }
+
+// public int index() { return wrapperContained.index; }
+// public void index(int value) { wrapperContained.index = value; }
+// public static int index() { return net.minecraft.screen.slot.SlotActionType.index; }
+// public static void index(int value, ) { net.minecraft.screen.slot.SlotActionType.index = value; }
+
+// // public SlotActionType(java.lang.String index) { this.wrapperContained = new net.minecraft.screen.slot.SlotActionType(index); }
+public int getIndex() { return wrapperContained.getIndex(); }
+// public static int getIndex() { return net.minecraft.screen.slot.SlotActionType.getIndex(); }
 
 }

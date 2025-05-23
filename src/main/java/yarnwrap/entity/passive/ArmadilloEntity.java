@@ -64,5 +64,7 @@ public void unroll() { wrapperContained.unroll(); }
 // public static void unroll() { net.minecraft.entity.passive.ArmadilloEntity.unroll(); }
 // public boolean canSpawn(yarnwrap.entity.EntityType entityType,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(entityType.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public static boolean canSpawn(yarnwrap.entity.EntityType entityType,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.passive.ArmadilloEntity.canSpawn(entityType.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public void method_68268(java.lang.Integer scuteTime) { wrapperContained.method_68268(scuteTime); }
+// public static void method_68268(java.lang.Integer scuteTime, ) { net.minecraft.entity.passive.ArmadilloEntity.method_68268(scuteTime); }
 
 }

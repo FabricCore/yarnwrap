@@ -11,7 +11,6 @@ public class DragonHeadEntityModel { public net.minecraft.client.render.entity.m
 // public static yarnwrap.client.model.ModelPart jaw() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.DragonHeadEntityModel.jaw); }
 // public static void jaw(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.DragonHeadEntityModel.jaw = value.wrapperContained; }
 
-public DragonHeadEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.DragonHeadEntityModel(root.wrapperContained); }
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.DragonHeadEntityModel.getTexturedModelData()); }
 

@@ -11,6 +11,11 @@ public class CatCollarFeatureRenderer { public net.minecraft.client.render.entit
 // public static yarnwrap.client.render.entity.model.CatEntityModel model() { return new yarnwrap.client.render.entity.model.CatEntityModel(net.minecraft.client.render.entity.feature.CatCollarFeatureRenderer.model); }
 // public static void model(yarnwrap.client.render.entity.model.CatEntityModel value, ) { net.minecraft.client.render.entity.feature.CatCollarFeatureRenderer.model = value.wrapperContained; }
 
-public CatCollarFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.EntityModelLoader loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.CatCollarFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
+// public yarnwrap.client.render.entity.model.CatEntityModel babyModel() { return new yarnwrap.client.render.entity.model.CatEntityModel(wrapperContained.babyModel); }
+// public void babyModel(yarnwrap.client.render.entity.model.CatEntityModel value) { wrapperContained.babyModel = value.wrapperContained; }
+// public static yarnwrap.client.render.entity.model.CatEntityModel babyModel() { return new yarnwrap.client.render.entity.model.CatEntityModel(net.minecraft.client.render.entity.feature.CatCollarFeatureRenderer.babyModel); }
+// public static void babyModel(yarnwrap.client.render.entity.model.CatEntityModel value, ) { net.minecraft.client.render.entity.feature.CatCollarFeatureRenderer.babyModel = value.wrapperContained; }
+
+public CatCollarFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.LoadedEntityModels loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.CatCollarFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
 
 }

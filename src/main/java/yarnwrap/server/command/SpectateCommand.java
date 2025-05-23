@@ -11,8 +11,6 @@ public class SpectateCommand { public net.minecraft.server.command.SpectateComma
 // public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType NOT_SPECTATOR_EXCEPTION() { return net.minecraft.server.command.SpectateCommand.NOT_SPECTATOR_EXCEPTION; }
 // public static void NOT_SPECTATOR_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.SpectateCommand.NOT_SPECTATOR_EXCEPTION = value; }
 
-// public boolean method_23651(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_23651(source.wrapperContained); }
-// public static boolean method_23651(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.SpectateCommand.method_23651(source.wrapperContained); }
 // public int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity entity,yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.execute(source.wrapperContained,entity.wrapperContained,player.wrapperContained); }
 // public static int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity entity,yarnwrap.server.network.ServerPlayerEntity player, ) { return net.minecraft.server.command.SpectateCommand.execute(source.wrapperContained,entity.wrapperContained,player.wrapperContained); }
 // public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }

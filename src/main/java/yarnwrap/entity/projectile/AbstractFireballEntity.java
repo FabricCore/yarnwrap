@@ -6,6 +6,11 @@ public class AbstractFireballEntity { public net.minecraft.entity.projectile.Abs
 // public static yarnwrap.entity.data.TrackedData ITEM() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.projectile.AbstractFireballEntity.ITEM); }
 // public static void ITEM(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.projectile.AbstractFireballEntity.ITEM = value.wrapperContained; }
 
+// public float MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED() { return wrapperContained.MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED; }
+// public void MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED(float value) { wrapperContained.MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED = value; }
+// public static float MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED() { return net.minecraft.entity.projectile.AbstractFireballEntity.MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED; }
+// public static void MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED(float value, ) { net.minecraft.entity.projectile.AbstractFireballEntity.MAX_RENDER_DISTANCE_WHEN_NEWLY_SPAWNED = value; }
+
 public void setItem(yarnwrap.item.ItemStack stack) { wrapperContained.setItem(stack.wrapperContained); }
 // public static void setItem(yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.projectile.AbstractFireballEntity.setItem(stack.wrapperContained); }
 // public yarnwrap.item.ItemStack getItem() { return new yarnwrap.item.ItemStack(wrapperContained.getItem()); }

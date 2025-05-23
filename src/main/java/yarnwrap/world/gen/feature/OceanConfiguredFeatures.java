@@ -26,11 +26,6 @@ public static yarnwrap.registry.RegistryKey SEAGRASS_TALL() { return new yarnwra
 public static yarnwrap.registry.RegistryKey SEA_PICKLE() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.OceanConfiguredFeatures.SEA_PICKLE); }
 // public static void SEA_PICKLE(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.OceanConfiguredFeatures.SEA_PICKLE = value.wrapperContained; }
 
-// public yarnwrap.registry.RegistryKey SEAGRASS_SIMPLE() { return new yarnwrap.registry.RegistryKey(wrapperContained.SEAGRASS_SIMPLE); }
-// public void SEAGRASS_SIMPLE(yarnwrap.registry.RegistryKey value) { wrapperContained.SEAGRASS_SIMPLE = value.wrapperContained; }
-public static yarnwrap.registry.RegistryKey SEAGRASS_SIMPLE() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.OceanConfiguredFeatures.SEAGRASS_SIMPLE); }
-// public static void SEAGRASS_SIMPLE(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.OceanConfiguredFeatures.SEAGRASS_SIMPLE = value.wrapperContained; }
-
 // public yarnwrap.registry.RegistryKey KELP() { return new yarnwrap.registry.RegistryKey(wrapperContained.KELP); }
 // public void KELP(yarnwrap.registry.RegistryKey value) { wrapperContained.KELP = value.wrapperContained; }
 public static yarnwrap.registry.RegistryKey KELP() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.OceanConfiguredFeatures.KELP); }

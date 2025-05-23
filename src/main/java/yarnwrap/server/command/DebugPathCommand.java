@@ -20,8 +20,6 @@ public class DebugPathCommand { public net.minecraft.server.command.DebugPathCom
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.DebugPathCommand.register(dispatcher); }
 // public int method_36188(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_36188(context); }
 // public static int method_36188(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.DebugPathCommand.method_36188(context); }
-// public boolean method_36189(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_36189(source.wrapperContained); }
-// public static boolean method_36189(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.DebugPathCommand.method_36189(source.wrapperContained); }
 // public int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.BlockPos pos) { return wrapperContained.execute(source.wrapperContained,pos.wrapperContained); }
 // public static int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.server.command.DebugPathCommand.execute(source.wrapperContained,pos.wrapperContained); }
 

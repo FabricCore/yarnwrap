@@ -61,6 +61,21 @@ public static double SCREAMING_CHANCE() { return net.minecraft.entity.passive.Go
 // public static yarnwrap.entity.data.TrackedData RIGHT_HORN() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.GoatEntity.RIGHT_HORN); }
 // public static void RIGHT_HORN(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.GoatEntity.RIGHT_HORN = value.wrapperContained; }
 
+// public boolean DEFAULT_SCREAMING() { return wrapperContained.DEFAULT_SCREAMING; }
+// public void DEFAULT_SCREAMING(boolean value) { wrapperContained.DEFAULT_SCREAMING = value; }
+// public static boolean DEFAULT_SCREAMING() { return net.minecraft.entity.passive.GoatEntity.DEFAULT_SCREAMING; }
+// public static void DEFAULT_SCREAMING(boolean value, ) { net.minecraft.entity.passive.GoatEntity.DEFAULT_SCREAMING = value; }
+
+// public boolean DEFAULT_LEFT_HORN() { return wrapperContained.DEFAULT_LEFT_HORN; }
+// public void DEFAULT_LEFT_HORN(boolean value) { wrapperContained.DEFAULT_LEFT_HORN = value; }
+// public static boolean DEFAULT_LEFT_HORN() { return net.minecraft.entity.passive.GoatEntity.DEFAULT_LEFT_HORN; }
+// public static void DEFAULT_LEFT_HORN(boolean value, ) { net.minecraft.entity.passive.GoatEntity.DEFAULT_LEFT_HORN = value; }
+
+// public boolean DEFAULT_RIGHT_HORN() { return wrapperContained.DEFAULT_RIGHT_HORN; }
+// public void DEFAULT_RIGHT_HORN(boolean value) { wrapperContained.DEFAULT_RIGHT_HORN = value; }
+// public static boolean DEFAULT_RIGHT_HORN() { return net.minecraft.entity.passive.GoatEntity.DEFAULT_RIGHT_HORN; }
+// public static void DEFAULT_RIGHT_HORN(boolean value, ) { net.minecraft.entity.passive.GoatEntity.DEFAULT_RIGHT_HORN = value; }
+
 public boolean isScreaming() { return wrapperContained.isScreaming(); }
 // public static boolean isScreaming() { return net.minecraft.entity.passive.GoatEntity.isScreaming(); }
 // public Object createGoatAttributes() { return wrapperContained.createGoatAttributes(); }
@@ -85,5 +100,7 @@ public void removeHorns() { wrapperContained.removeHorns(); }
 // public static void removeHorns() { net.minecraft.entity.passive.GoatEntity.removeHorns(); }
 public yarnwrap.item.ItemStack getGoatHornStack() { return new yarnwrap.item.ItemStack(wrapperContained.getGoatHornStack()); }
 // public static yarnwrap.item.ItemStack getGoatHornStack() { return new yarnwrap.item.ItemStack(net.minecraft.entity.passive.GoatEntity.getGoatHornStack()); }
+// public yarnwrap.item.ItemStack method_61482(yarnwrap.registry.entry.RegistryEntry instrument) { return new yarnwrap.item.ItemStack(wrapperContained.method_61482(instrument.wrapperContained)); }
+// public static yarnwrap.item.ItemStack method_61482(yarnwrap.registry.entry.RegistryEntry instrument, ) { return new yarnwrap.item.ItemStack(net.minecraft.entity.passive.GoatEntity.method_61482(instrument.wrapperContained)); }
 
 }

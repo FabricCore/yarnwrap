@@ -206,8 +206,8 @@ public void disconnectAllPlayers() { wrapperContained.disconnectAllPlayers(); }
 // public static void disconnectAllPlayers() { net.minecraft.server.PlayerManager.disconnectAllPlayers(); }
 public void reloadWhitelist() { wrapperContained.reloadWhitelist(); }
 // public static void reloadWhitelist() { net.minecraft.server.PlayerManager.reloadWhitelist(); }
-public java.util.Optional loadPlayerData(yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.loadPlayerData(player.wrapperContained); }
-// public static java.util.Optional loadPlayerData(yarnwrap.server.network.ServerPlayerEntity player, ) { return net.minecraft.server.PlayerManager.loadPlayerData(player.wrapperContained); }
+// public java.util.Optional loadPlayerData(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.util.ErrorReporter errorReporter) { return wrapperContained.loadPlayerData(player.wrapperContained,errorReporter.wrapperContained); }
+// public static java.util.Optional loadPlayerData(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.util.ErrorReporter errorReporter, ) { return net.minecraft.server.PlayerManager.loadPlayerData(player.wrapperContained,errorReporter.wrapperContained); }
 public void updatePlayerLatency() { wrapperContained.updatePlayerLatency(); }
 // public static void updatePlayerLatency() { net.minecraft.server.PlayerManager.updatePlayerLatency(); }
 public yarnwrap.server.network.ServerPlayerEntity getPlayer(java.util.UUID uuid) { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.getPlayer(uuid)); }
@@ -234,8 +234,6 @@ public boolean isWhitelistEnabled() { return wrapperContained.isWhitelistEnabled
 // public static boolean isWhitelistEnabled() { return net.minecraft.server.PlayerManager.isWhitelistEnabled(); }
 public void saveAllPlayerData() { wrapperContained.saveAllPlayerData(); }
 // public static void saveAllPlayerData() { net.minecraft.server.PlayerManager.saveAllPlayerData(); }
-// public yarnwrap.entity.Entity method_18241(yarnwrap.server.world.ServerWorld vehicle) { return new yarnwrap.entity.Entity(wrapperContained.method_18241(vehicle.wrapperContained)); }
-// public static yarnwrap.entity.Entity method_18241(yarnwrap.server.world.ServerWorld vehicle, ) { return new yarnwrap.entity.Entity(net.minecraft.server.PlayerManager.method_18241(vehicle.wrapperContained)); }
 // public void method_31441(yarnwrap.entity.Entity entity) { wrapperContained.method_31441(entity.wrapperContained); }
 // public static void method_31441(yarnwrap.entity.Entity entity, ) { net.minecraft.server.PlayerManager.method_31441(entity.wrapperContained); }
 public void setSimulationDistance(int simulationDistance) { wrapperContained.setSimulationDistance(simulationDistance); }
@@ -258,11 +256,13 @@ public void broadcast(yarnwrap.text.Text message,boolean overlay) { wrapperConta
 // public static boolean verify(yarnwrap.network.message.SignedMessage message, ) { return net.minecraft.server.PlayerManager.verify(message.wrapperContained); }
 public boolean disconnectDuplicateLogins(com.mojang.authlib.GameProfile profile) { return wrapperContained.disconnectDuplicateLogins(profile); }
 // public static boolean disconnectDuplicateLogins(com.mojang.authlib.GameProfile profile, ) { return net.minecraft.server.PlayerManager.disconnectDuplicateLogins(profile); }
-// public java.util.Optional method_55634(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.method_55634(nbt.wrapperContained); }
-// public static java.util.Optional method_55634(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.server.PlayerManager.method_55634(nbt.wrapperContained); }
+// public java.util.Optional method_55634(yarnwrap.storage.ReadView view) { return wrapperContained.method_55634(view.wrapperContained); }
+// public static java.util.Optional method_55634(yarnwrap.storage.ReadView view, ) { return net.minecraft.server.PlayerManager.method_55634(view.wrapperContained); }
 public void sendStatusEffects(yarnwrap.entity.LivingEntity entity,yarnwrap.server.network.ServerPlayNetworkHandler networkHandler) { wrapperContained.sendStatusEffects(entity.wrapperContained,networkHandler.wrapperContained); }
 // public static void sendStatusEffects(yarnwrap.entity.LivingEntity entity,yarnwrap.server.network.ServerPlayNetworkHandler networkHandler, ) { net.minecraft.server.PlayerManager.sendStatusEffects(entity.wrapperContained,networkHandler.wrapperContained); }
 public void sendStatusEffects(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.sendStatusEffects(player.wrapperContained); }
 // public static void sendStatusEffects(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.server.PlayerManager.sendStatusEffects(player.wrapperContained); }
+// public void method_68176(yarnwrap.server.network.ServerPlayerEntity view) { wrapperContained.method_68176(view.wrapperContained); }
+// public static void method_68176(yarnwrap.server.network.ServerPlayerEntity view, ) { net.minecraft.server.PlayerManager.method_68176(view.wrapperContained); }
 
 }

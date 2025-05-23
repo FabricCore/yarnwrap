@@ -1,10 +1,10 @@
 package yarnwrap.util.math;
 public class AffineTransformation { public net.minecraft.util.math.AffineTransformation wrapperContained; public AffineTransformation(net.minecraft.util.math.AffineTransformation wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public org.joml.Matrix4f matrix() { return wrapperContained.matrix; }
-// public void matrix(org.joml.Matrix4f value) { wrapperContained.matrix = value; }
-// public static org.joml.Matrix4f matrix() { return net.minecraft.util.math.AffineTransformation.matrix; }
-// public static void matrix(org.joml.Matrix4f value, ) { net.minecraft.util.math.AffineTransformation.matrix = value; }
+// public org.joml.Matrix4fc matrix() { return wrapperContained.matrix; }
+// public void matrix(org.joml.Matrix4fc value) { wrapperContained.matrix = value; }
+// public static org.joml.Matrix4fc matrix() { return net.minecraft.util.math.AffineTransformation.matrix; }
+// public static void matrix(org.joml.Matrix4fc value, ) { net.minecraft.util.math.AffineTransformation.matrix = value; }
 
 // public boolean initialized() { return wrapperContained.initialized; }
 // public void initialized(boolean value) { wrapperContained.initialized = value; }
@@ -46,7 +46,7 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.util
 public static com.mojang.serialization.Codec ANY_CODEC() { return net.minecraft.util.math.AffineTransformation.ANY_CODEC; }
 // public static void ANY_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.util.math.AffineTransformation.ANY_CODEC = value; }
 
-public AffineTransformation(org.joml.Matrix4f matrix) { this.wrapperContained = new net.minecraft.util.math.AffineTransformation(matrix); }
+public AffineTransformation(org.joml.Matrix4fc matrix) { this.wrapperContained = new net.minecraft.util.math.AffineTransformation(matrix); }
 public AffineTransformation(org.joml.Vector3f translation,org.joml.Quaternionf leftRotation,org.joml.Vector3f scale,org.joml.Quaternionf rightRotation) { this.wrapperContained = new net.minecraft.util.math.AffineTransformation(translation,leftRotation,scale,rightRotation); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.util.math.AffineTransformation.equals(o); }
@@ -58,8 +58,8 @@ public yarnwrap.util.math.AffineTransformation multiply(yarnwrap.util.math.Affin
 // public static org.joml.Matrix4f setup(org.joml.Vector3f translation,org.joml.Quaternionf leftRotation,org.joml.Vector3f scale,org.joml.Quaternionf rightRotation, ) { return net.minecraft.util.math.AffineTransformation.setup(translation,leftRotation,scale,rightRotation); }
 public yarnwrap.util.math.AffineTransformation invert() { return new yarnwrap.util.math.AffineTransformation(wrapperContained.invert()); }
 // public static yarnwrap.util.math.AffineTransformation invert() { return new yarnwrap.util.math.AffineTransformation(net.minecraft.util.math.AffineTransformation.invert()); }
-public org.joml.Matrix4f getMatrix() { return wrapperContained.getMatrix(); }
-// public static org.joml.Matrix4f getMatrix() { return net.minecraft.util.math.AffineTransformation.getMatrix(); }
+public org.joml.Matrix4fc getMatrix() { return wrapperContained.getMatrix(); }
+// public static org.joml.Matrix4fc getMatrix() { return net.minecraft.util.math.AffineTransformation.getMatrix(); }
 public org.joml.Quaternionf getLeftRotation() { return wrapperContained.getLeftRotation(); }
 // public static org.joml.Quaternionf getLeftRotation() { return net.minecraft.util.math.AffineTransformation.getLeftRotation(); }
 // public void init() { wrapperContained.init(); }
@@ -80,5 +80,9 @@ public org.joml.Quaternionf getRightRotation() { return wrapperContained.getRigh
 // public static org.joml.Vector3f method_49063(yarnwrap.util.math.AffineTransformation affineTransformation, ) { return net.minecraft.util.math.AffineTransformation.method_49063(affineTransformation.wrapperContained); }
 // public org.joml.Quaternionf method_49064(yarnwrap.util.math.AffineTransformation affineTransformation) { return wrapperContained.method_49064(affineTransformation.wrapperContained); }
 // public static org.joml.Quaternionf method_49064(yarnwrap.util.math.AffineTransformation affineTransformation, ) { return net.minecraft.util.math.AffineTransformation.method_49064(affineTransformation.wrapperContained); }
+// public org.joml.Vector3f method_49065(yarnwrap.util.math.AffineTransformation affineTransformation) { return wrapperContained.method_49065(affineTransformation.wrapperContained); }
+// public static org.joml.Vector3f method_49065(yarnwrap.util.math.AffineTransformation affineTransformation, ) { return net.minecraft.util.math.AffineTransformation.method_49065(affineTransformation.wrapperContained); }
+public org.joml.Matrix4f copyMatrix() { return wrapperContained.copyMatrix(); }
+// public static org.joml.Matrix4f copyMatrix() { return net.minecraft.util.math.AffineTransformation.copyMatrix(); }
 
 }

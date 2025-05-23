@@ -11,6 +11,11 @@ public class CombinedEntry { public net.minecraft.loot.entry.CombinedEntry wrapp
 // public static yarnwrap.loot.entry.EntryCombiner predicate() { return new yarnwrap.loot.entry.EntryCombiner(net.minecraft.loot.entry.CombinedEntry.predicate); }
 // public static void predicate(yarnwrap.loot.entry.EntryCombiner value, ) { net.minecraft.loot.entry.CombinedEntry.predicate = value.wrapperContained; }
 
+// public Object EMPTY_CHILDREN_LIST_ERROR() { return wrapperContained.EMPTY_CHILDREN_LIST_ERROR; }
+// public void EMPTY_CHILDREN_LIST_ERROR(Object value) { wrapperContained.EMPTY_CHILDREN_LIST_ERROR = value; }
+// // public static Object EMPTY_CHILDREN_LIST_ERROR() { return net.minecraft.loot.entry.CombinedEntry.EMPTY_CHILDREN_LIST_ERROR; }
+// public static void EMPTY_CHILDREN_LIST_ERROR(Object value, ) { net.minecraft.loot.entry.CombinedEntry.EMPTY_CHILDREN_LIST_ERROR = value; }
+
 // public CombinedEntry(java.util.List terms,java.util.List conditions) { this.wrapperContained = new net.minecraft.loot.entry.CombinedEntry(terms,conditions); }
 // public yarnwrap.loot.entry.EntryCombiner combine(java.util.List terms) { return new yarnwrap.loot.entry.EntryCombiner(wrapperContained.combine(terms)); }
 // public static yarnwrap.loot.entry.EntryCombiner combine(java.util.List terms, ) { return new yarnwrap.loot.entry.EntryCombiner(net.minecraft.loot.entry.CombinedEntry.combine(terms)); }

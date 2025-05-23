@@ -6,10 +6,10 @@ public class ChunkData { public net.minecraft.network.packet.s2c.play.ChunkData 
 // public static int MAX_SECTIONS_DATA_SIZE() { return net.minecraft.network.packet.s2c.play.ChunkData.MAX_SECTIONS_DATA_SIZE; }
 // public static void MAX_SECTIONS_DATA_SIZE(int value, ) { net.minecraft.network.packet.s2c.play.ChunkData.MAX_SECTIONS_DATA_SIZE = value; }
 
-// public yarnwrap.nbt.NbtCompound heightmap() { return new yarnwrap.nbt.NbtCompound(wrapperContained.heightmap); }
-// public void heightmap(yarnwrap.nbt.NbtCompound value) { wrapperContained.heightmap = value.wrapperContained; }
-// public static yarnwrap.nbt.NbtCompound heightmap() { return new yarnwrap.nbt.NbtCompound(net.minecraft.network.packet.s2c.play.ChunkData.heightmap); }
-// public static void heightmap(yarnwrap.nbt.NbtCompound value, ) { net.minecraft.network.packet.s2c.play.ChunkData.heightmap = value.wrapperContained; }
+// public java.util.Map heightmap() { return wrapperContained.heightmap; }
+// public void heightmap(java.util.Map value) { wrapperContained.heightmap = value; }
+// public static java.util.Map heightmap() { return net.minecraft.network.packet.s2c.play.ChunkData.heightmap; }
+// public static void heightmap(java.util.Map value, ) { net.minecraft.network.packet.s2c.play.ChunkData.heightmap = value; }
 
 // public byte[] sectionsData() { return wrapperContained.sectionsData; }
 // public void sectionsData(byte[] value) { wrapperContained.sectionsData = value; }
@@ -20,6 +20,11 @@ public class ChunkData { public net.minecraft.network.packet.s2c.play.ChunkData 
 // public void blockEntities(java.util.List value) { wrapperContained.blockEntities = value; }
 // public static java.util.List blockEntities() { return net.minecraft.network.packet.s2c.play.ChunkData.blockEntities; }
 // public static void blockEntities(java.util.List value, ) { net.minecraft.network.packet.s2c.play.ChunkData.blockEntities = value; }
+
+// public yarnwrap.network.codec.PacketCodec HEIGHTMAPS_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.HEIGHTMAPS_PACKET_CODEC); }
+// public void HEIGHTMAPS_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.HEIGHTMAPS_PACKET_CODEC = value.wrapperContained; }
+// public static yarnwrap.network.codec.PacketCodec HEIGHTMAPS_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.network.packet.s2c.play.ChunkData.HEIGHTMAPS_PACKET_CODEC); }
+// public static void HEIGHTMAPS_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.network.packet.s2c.play.ChunkData.HEIGHTMAPS_PACKET_CODEC = value.wrapperContained; }
 
 public ChunkData(yarnwrap.world.chunk.WorldChunk chunk) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChunkData(chunk.wrapperContained); }
 public ChunkData(yarnwrap.network.RegistryByteBuf buf,int x,int z) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ChunkData(buf.wrapperContained,x,z); }
@@ -37,9 +42,15 @@ public void write(yarnwrap.network.RegistryByteBuf buf) { wrapperContained.write
 // public static void writeSections(yarnwrap.network.PacketByteBuf buf,yarnwrap.world.chunk.WorldChunk chunk, ) { net.minecraft.network.packet.s2c.play.ChunkData.writeSections(buf.wrapperContained,chunk.wrapperContained); }
 // public void iterateBlockEntities(Object consumer,int x,int z) { wrapperContained.iterateBlockEntities(consumer,x,z); }
 // public static void iterateBlockEntities(Object consumer,int x,int z, ) { net.minecraft.network.packet.s2c.play.ChunkData.iterateBlockEntities(consumer,x,z); }
-public yarnwrap.nbt.NbtCompound getHeightmap() { return new yarnwrap.nbt.NbtCompound(wrapperContained.getHeightmap()); }
-// public static yarnwrap.nbt.NbtCompound getHeightmap() { return new yarnwrap.nbt.NbtCompound(net.minecraft.network.packet.s2c.play.ChunkData.getHeightmap()); }
+public java.util.Map getHeightmap() { return wrapperContained.getHeightmap(); }
+// public static java.util.Map getHeightmap() { return net.minecraft.network.packet.s2c.play.ChunkData.getHeightmap(); }
 // public io.netty.buffer.ByteBuf getWritableSectionsDataBuf() { return wrapperContained.getWritableSectionsDataBuf(); }
 // public static io.netty.buffer.ByteBuf getWritableSectionsDataBuf() { return net.minecraft.network.packet.s2c.play.ChunkData.getWritableSectionsDataBuf(); }
+// public java.util.Map method_67557(int size) { return wrapperContained.method_67557(size); }
+// public static java.util.Map method_67557(int size, ) { return net.minecraft.network.packet.s2c.play.ChunkData.method_67557(size); }
+// public long[] method_67558(Object entry) { return wrapperContained.method_67558(entry); }
+// public static long[] method_67558(Object entry, ) { return net.minecraft.network.packet.s2c.play.ChunkData.method_67558(entry); }
+// public boolean method_67559(Object entry) { return wrapperContained.method_67559(entry); }
+// public static boolean method_67559(Object entry, ) { return net.minecraft.network.packet.s2c.play.ChunkData.method_67559(entry); }
 
 }

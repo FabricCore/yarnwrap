@@ -1,6 +1,16 @@
 package yarnwrap.loot.operator;
 public class BoundedIntUnaryOperator { public net.minecraft.loot.operator.BoundedIntUnaryOperator wrapperContained; public BoundedIntUnaryOperator(net.minecraft.loot.operator.BoundedIntUnaryOperator wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.loot.provider.number.LootNumberProvider max() { return new yarnwrap.loot.provider.number.LootNumberProvider(wrapperContained.max); }
+// public void max(yarnwrap.loot.provider.number.LootNumberProvider value) { wrapperContained.max = value.wrapperContained; }
+// public static yarnwrap.loot.provider.number.LootNumberProvider max() { return new yarnwrap.loot.provider.number.LootNumberProvider(net.minecraft.loot.operator.BoundedIntUnaryOperator.max); }
+// public static void max(yarnwrap.loot.provider.number.LootNumberProvider value, ) { net.minecraft.loot.operator.BoundedIntUnaryOperator.max = value.wrapperContained; }
+
+// public yarnwrap.loot.provider.number.LootNumberProvider min() { return new yarnwrap.loot.provider.number.LootNumberProvider(wrapperContained.min); }
+// public void min(yarnwrap.loot.provider.number.LootNumberProvider value) { wrapperContained.min = value.wrapperContained; }
+// public static yarnwrap.loot.provider.number.LootNumberProvider min() { return new yarnwrap.loot.provider.number.LootNumberProvider(net.minecraft.loot.operator.BoundedIntUnaryOperator.min); }
+// public static void min(yarnwrap.loot.provider.number.LootNumberProvider value, ) { net.minecraft.loot.operator.BoundedIntUnaryOperator.min = value.wrapperContained; }
+
 // public Object applier() { return wrapperContained.applier; }
 // // public void applier(Object value) { wrapperContained.applier = value; }
 // // public static Object applier() { return net.minecraft.loot.operator.BoundedIntUnaryOperator.applier; }
@@ -20,16 +30,6 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.loot
 // public void OPERATOR_CODEC(com.mojang.serialization.Codec value) { wrapperContained.OPERATOR_CODEC = value; }
 // public static com.mojang.serialization.Codec OPERATOR_CODEC() { return net.minecraft.loot.operator.BoundedIntUnaryOperator.OPERATOR_CODEC; }
 // public static void OPERATOR_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.loot.operator.BoundedIntUnaryOperator.OPERATOR_CODEC = value; }
-
-// public yarnwrap.loot.provider.number.LootNumberProvider max() { return new yarnwrap.loot.provider.number.LootNumberProvider(wrapperContained.max); }
-// public void max(yarnwrap.loot.provider.number.LootNumberProvider value) { wrapperContained.max = value.wrapperContained; }
-// public static yarnwrap.loot.provider.number.LootNumberProvider max() { return new yarnwrap.loot.provider.number.LootNumberProvider(net.minecraft.loot.operator.BoundedIntUnaryOperator.max); }
-// public static void max(yarnwrap.loot.provider.number.LootNumberProvider value, ) { net.minecraft.loot.operator.BoundedIntUnaryOperator.max = value.wrapperContained; }
-
-// public yarnwrap.loot.provider.number.LootNumberProvider min() { return new yarnwrap.loot.provider.number.LootNumberProvider(wrapperContained.min); }
-// public void min(yarnwrap.loot.provider.number.LootNumberProvider value) { wrapperContained.min = value.wrapperContained; }
-// public static yarnwrap.loot.provider.number.LootNumberProvider min() { return new yarnwrap.loot.provider.number.LootNumberProvider(net.minecraft.loot.operator.BoundedIntUnaryOperator.min); }
-// public static void min(yarnwrap.loot.provider.number.LootNumberProvider value, ) { net.minecraft.loot.operator.BoundedIntUnaryOperator.min = value.wrapperContained; }
 
 // public BoundedIntUnaryOperator(java.util.Optional min,java.util.Optional max) { this.wrapperContained = new net.minecraft.loot.operator.BoundedIntUnaryOperator(min,max); }
 // public BoundedIntUnaryOperator(yarnwrap.loot.provider.number.LootNumberProvider min,yarnwrap.loot.provider.number.LootNumberProvider max) { this.wrapperContained = new net.minecraft.loot.operator.BoundedIntUnaryOperator(min.wrapperContained,max.wrapperContained); }

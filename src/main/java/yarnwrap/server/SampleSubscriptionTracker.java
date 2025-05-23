@@ -16,10 +16,10 @@ public static int STOP_TRACK_MS() { return net.minecraft.server.SampleSubscripti
 // public static yarnwrap.server.PlayerManager playerManager() { return new yarnwrap.server.PlayerManager(net.minecraft.server.SampleSubscriptionTracker.playerManager); }
 // public static void playerManager(yarnwrap.server.PlayerManager value, ) { net.minecraft.server.SampleSubscriptionTracker.playerManager = value.wrapperContained; }
 
-// public java.util.EnumMap subscriptionMap() { return wrapperContained.subscriptionMap; }
-// public void subscriptionMap(java.util.EnumMap value) { wrapperContained.subscriptionMap = value; }
-// public static java.util.EnumMap subscriptionMap() { return net.minecraft.server.SampleSubscriptionTracker.subscriptionMap; }
-// public static void subscriptionMap(java.util.EnumMap value, ) { net.minecraft.server.SampleSubscriptionTracker.subscriptionMap = value; }
+// public java.util.Map subscriptionMap() { return wrapperContained.subscriptionMap; }
+// public void subscriptionMap(java.util.Map value) { wrapperContained.subscriptionMap = value; }
+// public static java.util.Map subscriptionMap() { return net.minecraft.server.SampleSubscriptionTracker.subscriptionMap; }
+// public static void subscriptionMap(java.util.Map value, ) { net.minecraft.server.SampleSubscriptionTracker.subscriptionMap = value; }
 
 // public java.util.Queue pendingQueue() { return wrapperContained.pendingQueue; }
 // public void pendingQueue(java.util.Queue value) { wrapperContained.pendingQueue = value; }
@@ -41,5 +41,7 @@ public boolean shouldPush(yarnwrap.util.profiler.log.DebugSampleType type) { ret
 // public static boolean shouldPush(yarnwrap.util.profiler.log.DebugSampleType type, ) { return net.minecraft.server.SampleSubscriptionTracker.shouldPush(type.wrapperContained); }
 // public void onUnsubscription(long measuringTimeMs,int tick) { wrapperContained.onUnsubscription(measuringTimeMs,tick); }
 // public static void onUnsubscription(long measuringTimeMs,int tick, ) { net.minecraft.server.SampleSubscriptionTracker.onUnsubscription(measuringTimeMs,tick); }
+// public java.util.Map method_66206(yarnwrap.util.profiler.log.DebugSampleType type) { return wrapperContained.method_66206(type.wrapperContained); }
+// public static java.util.Map method_66206(yarnwrap.util.profiler.log.DebugSampleType type, ) { return net.minecraft.server.SampleSubscriptionTracker.method_66206(type.wrapperContained); }
 
 }

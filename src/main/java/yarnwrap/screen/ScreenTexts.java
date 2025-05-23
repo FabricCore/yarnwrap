@@ -111,6 +111,11 @@ public static yarnwrap.text.Text DISCONNECT() { return new yarnwrap.text.Text(ne
 public static yarnwrap.text.Text CONNECT_FAILED_TRANSFER() { return new yarnwrap.text.Text(net.minecraft.screen.ScreenTexts.CONNECT_FAILED_TRANSFER); }
 // public static void CONNECT_FAILED_TRANSFER(yarnwrap.text.Text value, ) { net.minecraft.screen.ScreenTexts.CONNECT_FAILED_TRANSFER = value.wrapperContained; }
 
+// public yarnwrap.text.Text RETURN_TO_MENU() { return new yarnwrap.text.Text(wrapperContained.RETURN_TO_MENU); }
+// public void RETURN_TO_MENU(yarnwrap.text.Text value) { wrapperContained.RETURN_TO_MENU = value.wrapperContained; }
+// public static yarnwrap.text.Text RETURN_TO_MENU() { return new yarnwrap.text.Text(net.minecraft.screen.ScreenTexts.RETURN_TO_MENU); }
+// public static void RETURN_TO_MENU(yarnwrap.text.Text value, ) { net.minecraft.screen.ScreenTexts.RETURN_TO_MENU = value.wrapperContained; }
+
 // public yarnwrap.text.MutableText composeToggleText(yarnwrap.text.Text text,boolean value) { return new yarnwrap.text.MutableText(wrapperContained.composeToggleText(text.wrapperContained,value)); }
 // public static yarnwrap.text.MutableText composeToggleText(yarnwrap.text.Text text,boolean value, ) { return new yarnwrap.text.MutableText(net.minecraft.screen.ScreenTexts.composeToggleText(text.wrapperContained,value)); }
 // public yarnwrap.text.MutableText composeGenericOptionText(yarnwrap.text.Text text,yarnwrap.text.Text value) { return new yarnwrap.text.MutableText(wrapperContained.composeGenericOptionText(text.wrapperContained,value.wrapperContained)); }
@@ -131,5 +136,7 @@ public static yarnwrap.text.Text CONNECT_FAILED_TRANSFER() { return new yarnwrap
 // public static yarnwrap.text.MutableText minutes(long minutes, ) { return new yarnwrap.text.MutableText(net.minecraft.screen.ScreenTexts.minutes(minutes)); }
 // public yarnwrap.text.MutableText space() { return new yarnwrap.text.MutableText(wrapperContained.space()); }
 public static yarnwrap.text.MutableText space() { return new yarnwrap.text.MutableText(net.minecraft.screen.ScreenTexts.space()); }
+// public yarnwrap.text.Text returnToMenuOrDisconnect(boolean singleplayer) { return new yarnwrap.text.Text(wrapperContained.returnToMenuOrDisconnect(singleplayer)); }
+// public static yarnwrap.text.Text returnToMenuOrDisconnect(boolean singleplayer, ) { return new yarnwrap.text.Text(net.minecraft.screen.ScreenTexts.returnToMenuOrDisconnect(singleplayer)); }
 
 }

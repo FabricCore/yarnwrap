@@ -20,7 +20,5 @@ public static float THROW_SPEED() { return net.minecraft.item.TridentItem.THROW_
 public static yarnwrap.component.type.AttributeModifiersComponent createAttributeModifiers() { return new yarnwrap.component.type.AttributeModifiersComponent(net.minecraft.item.TridentItem.createAttributeModifiers()); }
 // public yarnwrap.component.type.ToolComponent createToolComponent() { return new yarnwrap.component.type.ToolComponent(wrapperContained.createToolComponent()); }
 public static yarnwrap.component.type.ToolComponent createToolComponent() { return new yarnwrap.component.type.ToolComponent(net.minecraft.item.TridentItem.createToolComponent()); }
-// public boolean isAboutToBreak(yarnwrap.item.ItemStack stack) { return wrapperContained.isAboutToBreak(stack.wrapperContained); }
-// public static boolean isAboutToBreak(yarnwrap.item.ItemStack stack, ) { return net.minecraft.item.TridentItem.isAboutToBreak(stack.wrapperContained); }
 
 }

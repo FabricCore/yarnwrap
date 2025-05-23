@@ -11,11 +11,6 @@ public class SwitchMinigameTask { public net.minecraft.client.realms.task.Switch
 // public static yarnwrap.client.realms.dto.WorldTemplate worldTemplate() { return new yarnwrap.client.realms.dto.WorldTemplate(net.minecraft.client.realms.task.SwitchMinigameTask.worldTemplate); }
 // public static void worldTemplate(yarnwrap.client.realms.dto.WorldTemplate value, ) { net.minecraft.client.realms.task.SwitchMinigameTask.worldTemplate = value.wrapperContained; }
 
-// public yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen lastScreen() { return new yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen(wrapperContained.lastScreen); }
-// public void lastScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen value) { wrapperContained.lastScreen = value.wrapperContained; }
-// public static yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen lastScreen() { return new yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen(net.minecraft.client.realms.task.SwitchMinigameTask.lastScreen); }
-// public static void lastScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen value, ) { net.minecraft.client.realms.task.SwitchMinigameTask.lastScreen = value.wrapperContained; }
-
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.client.realms.task.SwitchMinigameTask.LOGGER; }

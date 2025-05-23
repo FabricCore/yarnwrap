@@ -17,8 +17,6 @@ public class Schema1460 { public net.minecraft.datafixer.schema.Schema1460 wrapp
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5245(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema1460.method_5245(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5246(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5246(name); }
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5246(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema1460.method_5246(name); }
-// public com.mojang.datafixers.types.templates.TypeTemplate method_5247(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5247(name); }
-// public static com.mojang.datafixers.types.templates.TypeTemplate method_5247(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema1460.method_5247(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5249(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5249(name); }
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5249(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema1460.method_5249(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5250(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5250(name); }
@@ -41,12 +39,8 @@ public class Schema1460 { public net.minecraft.datafixer.schema.Schema1460 wrapp
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5265(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema1460.method_5265(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5270(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5270(name); }
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5270(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema1460.method_5270(name); }
-// public com.mojang.datafixers.types.templates.TypeTemplate method_5271(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5271(name); }
-// public static com.mojang.datafixers.types.templates.TypeTemplate method_5271(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema1460.method_5271(name); }
-// public com.mojang.datafixers.types.templates.TypeTemplate method_5272(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5272(name); }
-// public static com.mojang.datafixers.types.templates.TypeTemplate method_5272(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema1460.method_5272(name); }
-// public void method_5273(com.mojang.datafixers.schemas.Schema schema,java.util.Map map,java.lang.String name) { wrapperContained.method_5273(schema,map,name); }
-// public static void method_5273(com.mojang.datafixers.schemas.Schema schema,java.util.Map map,java.lang.String name, ) { net.minecraft.datafixer.schema.Schema1460.method_5273(schema,map,name); }
+// public void registerInventory(com.mojang.datafixers.schemas.Schema schema,java.util.Map map,java.lang.String name) { wrapperContained.registerInventory(schema,map,name); }
+// public static void registerInventory(com.mojang.datafixers.schemas.Schema schema,java.util.Map map,java.lang.String name, ) { net.minecraft.datafixer.schema.Schema1460.registerInventory(schema,map,name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5275(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5275(name); }
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5275(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema1460.method_5275(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5277(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5277(name); }

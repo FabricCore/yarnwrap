@@ -18,13 +18,13 @@ public static yarnwrap.network.codec.PacketCodec OPTIONAL_PACKET_CODEC() { retur
 
 public TradedItem(yarnwrap.item.ItemConvertible item) { this.wrapperContained = new net.minecraft.village.TradedItem(item.wrapperContained); }
 public TradedItem(yarnwrap.item.ItemConvertible item,int count) { this.wrapperContained = new net.minecraft.village.TradedItem(item.wrapperContained,count); }
-public TradedItem(yarnwrap.registry.entry.RegistryEntry item,int count,yarnwrap.predicate.ComponentPredicate components) { this.wrapperContained = new net.minecraft.village.TradedItem(item.wrapperContained,count,components.wrapperContained); }
+public TradedItem(yarnwrap.registry.entry.RegistryEntry item,int count,yarnwrap.predicate.component.ComponentMapPredicate components) { this.wrapperContained = new net.minecraft.village.TradedItem(item.wrapperContained,count,components.wrapperContained); }
 // public com.mojang.datafixers.kinds.App method_57551(Object instance) { return wrapperContained.method_57551(instance); }
 // public static com.mojang.datafixers.kinds.App method_57551(Object instance, ) { return net.minecraft.village.TradedItem.method_57551(instance); }
 public boolean matches(yarnwrap.item.ItemStack stack) { return wrapperContained.matches(stack.wrapperContained); }
 // public static boolean matches(yarnwrap.item.ItemStack stack, ) { return net.minecraft.village.TradedItem.matches(stack.wrapperContained); }
-// public yarnwrap.item.ItemStack createDisplayStack(yarnwrap.registry.entry.RegistryEntry item,int count,yarnwrap.predicate.ComponentPredicate components) { return new yarnwrap.item.ItemStack(wrapperContained.createDisplayStack(item.wrapperContained,count,components.wrapperContained)); }
-// public static yarnwrap.item.ItemStack createDisplayStack(yarnwrap.registry.entry.RegistryEntry item,int count,yarnwrap.predicate.ComponentPredicate components, ) { return new yarnwrap.item.ItemStack(net.minecraft.village.TradedItem.createDisplayStack(item.wrapperContained,count,components.wrapperContained)); }
+// public yarnwrap.item.ItemStack createDisplayStack(yarnwrap.registry.entry.RegistryEntry item,int count,yarnwrap.predicate.component.ComponentMapPredicate components) { return new yarnwrap.item.ItemStack(wrapperContained.createDisplayStack(item.wrapperContained,count,components.wrapperContained)); }
+// public static yarnwrap.item.ItemStack createDisplayStack(yarnwrap.registry.entry.RegistryEntry item,int count,yarnwrap.predicate.component.ComponentMapPredicate components, ) { return new yarnwrap.item.ItemStack(net.minecraft.village.TradedItem.createDisplayStack(item.wrapperContained,count,components.wrapperContained)); }
 public yarnwrap.village.TradedItem withComponents(java.util.function.UnaryOperator builderCallback) { return new yarnwrap.village.TradedItem(wrapperContained.withComponents(builderCallback)); }
 // public static yarnwrap.village.TradedItem withComponents(java.util.function.UnaryOperator builderCallback, ) { return new yarnwrap.village.TradedItem(net.minecraft.village.TradedItem.withComponents(builderCallback)); }
 

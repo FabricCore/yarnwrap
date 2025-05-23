@@ -82,16 +82,6 @@ public static java.util.function.BiConsumer ARBITRARY() { return net.minecraft.c
 // public static void predicates(java.util.List value, ) { net.minecraft.command.EntitySelector.predicates = value; }
 
 // public EntitySelector(int count,boolean includesNonPlayers,boolean localWorldOnly,java.util.List predicates,Object distance,java.util.function.Function positionOffset,yarnwrap.util.math.Box box,java.util.function.BiConsumer sorter,boolean senderOnly,java.lang.String playerName,java.util.UUID uuid,yarnwrap.entity.EntityType type,boolean usesAt) { this.wrapperContained = new net.minecraft.command.EntitySelector(count,includesNonPlayers,localWorldOnly,predicates,distance,positionOffset,box.wrapperContained,sorter,senderOnly,playerName,uuid,type.wrapperContained,usesAt); }
-// public boolean usesAt() { return wrapperContained.usesAt(); }
-// // public static boolean usesAt() { return net.minecraft.command.EntitySelector.usesAt(); }
-// public void method_47802(yarnwrap.util.math.Vec3d pos,java.util.List entities) { wrapperContained.method_47802(pos.wrapperContained,entities); }
-// public static void method_47802(yarnwrap.util.math.Vec3d pos,java.util.List entities, ) { net.minecraft.command.EntitySelector.method_47802(pos.wrapperContained,entities); }
-// public int getAppendLimit() { return wrapperContained.getAppendLimit(); }
-// public static int getAppendLimit() { return net.minecraft.command.EntitySelector.getAppendLimit(); }
-// public boolean method_61159(yarnwrap.resource.featuretoggle.FeatureSet entity) { return wrapperContained.method_61159(entity.wrapperContained); }
-// public static boolean method_61159(yarnwrap.resource.featuretoggle.FeatureSet entity, ) { return net.minecraft.command.EntitySelector.method_61159(entity.wrapperContained); }
-// public yarnwrap.util.math.Box getOffsetBox(yarnwrap.util.math.Vec3d offset) { return new yarnwrap.util.math.Box(wrapperContained.getOffsetBox(offset.wrapperContained)); }
-// public static yarnwrap.util.math.Box getOffsetBox(yarnwrap.util.math.Vec3d offset, ) { return new yarnwrap.util.math.Box(net.minecraft.command.EntitySelector.getOffsetBox(offset.wrapperContained)); }
 // public yarnwrap.entity.Entity getEntity(yarnwrap.server.command.ServerCommandSource source) { return new yarnwrap.entity.Entity(wrapperContained.getEntity(source.wrapperContained)); }
 // public static yarnwrap.entity.Entity getEntity(yarnwrap.server.command.ServerCommandSource source, ) { return new yarnwrap.entity.Entity(net.minecraft.command.EntitySelector.getEntity(source.wrapperContained)); }
 // public boolean method_9810(yarnwrap.util.math.Box entity) { return wrapperContained.method_9810(entity.wrapperContained); }
@@ -122,5 +112,15 @@ public boolean isLocalWorldOnly() { return wrapperContained.isLocalWorldOnly(); 
 // public static yarnwrap.text.Text getNames(java.util.List entities, ) { return new yarnwrap.text.Text(net.minecraft.command.EntitySelector.getNames(entities)); }
 // public void appendEntitiesFromWorld(java.util.List entities,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Box box,java.util.function.Predicate predicate) { wrapperContained.appendEntitiesFromWorld(entities,world.wrapperContained,box.wrapperContained,predicate); }
 // public static void appendEntitiesFromWorld(java.util.List entities,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Box box,java.util.function.Predicate predicate, ) { net.minecraft.command.EntitySelector.appendEntitiesFromWorld(entities,world.wrapperContained,box.wrapperContained,predicate); }
+// public boolean usesAt() { return wrapperContained.usesAt(); }
+// // public static boolean usesAt() { return net.minecraft.command.EntitySelector.usesAt(); }
+// public void method_47802(yarnwrap.util.math.Vec3d pos,java.util.List entities) { wrapperContained.method_47802(pos.wrapperContained,entities); }
+// public static void method_47802(yarnwrap.util.math.Vec3d pos,java.util.List entities, ) { net.minecraft.command.EntitySelector.method_47802(pos.wrapperContained,entities); }
+// public int getAppendLimit() { return wrapperContained.getAppendLimit(); }
+// public static int getAppendLimit() { return net.minecraft.command.EntitySelector.getAppendLimit(); }
+// public boolean method_61159(yarnwrap.resource.featuretoggle.FeatureSet entity) { return wrapperContained.method_61159(entity.wrapperContained); }
+// public static boolean method_61159(yarnwrap.resource.featuretoggle.FeatureSet entity, ) { return net.minecraft.command.EntitySelector.method_61159(entity.wrapperContained); }
+// public yarnwrap.util.math.Box getOffsetBox(yarnwrap.util.math.Vec3d offset) { return new yarnwrap.util.math.Box(wrapperContained.getOffsetBox(offset.wrapperContained)); }
+// public static yarnwrap.util.math.Box getOffsetBox(yarnwrap.util.math.Vec3d offset, ) { return new yarnwrap.util.math.Box(net.minecraft.command.EntitySelector.getOffsetBox(offset.wrapperContained)); }
 
 }

@@ -26,6 +26,11 @@ public static yarnwrap.util.math.Vec3i ZERO() { return new yarnwrap.util.math.Ve
 public static com.mojang.serialization.Codec CODEC() { return net.minecraft.util.math.Vec3i.CODEC; }
 // public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.util.math.Vec3i.CODEC = value; }
 
+// public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
+// public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.util.math.Vec3i.PACKET_CODEC); }
+// public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.util.math.Vec3i.PACKET_CODEC = value.wrapperContained; }
+
 public Vec3i(int x,int y,int z) { this.wrapperContained = new net.minecraft.util.math.Vec3i(x,y,z); }
 // public int compareTo(java.lang.Object vec) { return wrapperContained.compareTo(vec); }
 // public static int compareTo(java.lang.Object vec, ) { return net.minecraft.util.math.Vec3i.compareTo(vec); }
@@ -111,5 +116,7 @@ public double getSquaredDistance(double x,double y,double z) { return wrapperCon
 // public static double getSquaredDistance(double x,double y,double z, ) { return net.minecraft.util.math.Vec3i.getSquaredDistance(x,y,z); }
 // public com.mojang.serialization.DataResult method_48305(int vec) { return wrapperContained.method_48305(vec); }
 // public static com.mojang.serialization.DataResult method_48305(int vec, ) { return net.minecraft.util.math.Vec3i.method_48305(vec); }
+public int getChebyshevDistance(yarnwrap.util.math.Vec3i vec) { return wrapperContained.getChebyshevDistance(vec.wrapperContained); }
+// public static int getChebyshevDistance(yarnwrap.util.math.Vec3i vec, ) { return net.minecraft.util.math.Vec3i.getChebyshevDistance(vec.wrapperContained); }
 
 }

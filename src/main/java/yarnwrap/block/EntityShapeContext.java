@@ -31,11 +31,22 @@ public class EntityShapeContext { public net.minecraft.block.EntityShapeContext 
 // public static yarnwrap.entity.Entity entity() { return new yarnwrap.entity.Entity(net.minecraft.block.EntityShapeContext.entity); }
 // public static void entity(yarnwrap.entity.Entity value, ) { net.minecraft.block.EntityShapeContext.entity = value.wrapperContained; }
 
-// public EntityShapeContext(yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.block.EntityShapeContext(entity.wrapperContained); }
-// public EntityShapeContext(boolean descending,double minY,yarnwrap.item.ItemStack heldItem,java.util.function.Predicate walkOnFluidPredicate,yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.block.EntityShapeContext(descending,minY,heldItem.wrapperContained,walkOnFluidPredicate,entity.wrapperContained); }
+// public boolean placement() { return wrapperContained.placement; }
+// public void placement(boolean value) { wrapperContained.placement = value; }
+// public static boolean placement() { return net.minecraft.block.EntityShapeContext.placement; }
+// public static void placement(boolean value, ) { net.minecraft.block.EntityShapeContext.placement = value; }
+
+// public EntityShapeContext(yarnwrap.entity.Entity entity,boolean collidesWithFluid,boolean placement) { this.wrapperContained = new net.minecraft.block.EntityShapeContext(entity.wrapperContained,collidesWithFluid,placement); }
+// public EntityShapeContext(boolean descending,boolean placement,double minY,yarnwrap.item.ItemStack heldItem,java.util.function.Predicate walkOnFluidPredicate,yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.block.EntityShapeContext(descending,placement,minY,heldItem.wrapperContained,walkOnFluidPredicate,entity.wrapperContained); }
 // public boolean method_27868(yarnwrap.fluid.FluidState fluidState) { return wrapperContained.method_27868(fluidState.wrapperContained); }
 // public static boolean method_27868(yarnwrap.fluid.FluidState fluidState, ) { return net.minecraft.block.EntityShapeContext.method_27868(fluidState.wrapperContained); }
 public yarnwrap.entity.Entity getEntity() { return new yarnwrap.entity.Entity(wrapperContained.getEntity()); }
 // public static yarnwrap.entity.Entity getEntity() { return new yarnwrap.entity.Entity(net.minecraft.block.EntityShapeContext.getEntity()); }
+// public boolean method_61894(yarnwrap.fluid.FluidState state) { return wrapperContained.method_61894(state.wrapperContained); }
+// public static boolean method_61894(yarnwrap.fluid.FluidState state, ) { return net.minecraft.block.EntityShapeContext.method_61894(state.wrapperContained); }
+// public boolean method_61895(yarnwrap.fluid.FluidState state) { return wrapperContained.method_61895(state.wrapperContained); }
+// public static boolean method_61895(yarnwrap.fluid.FluidState state, ) { return net.minecraft.block.EntityShapeContext.method_61895(state.wrapperContained); }
+// public boolean method_67717(yarnwrap.entity.LivingEntity state) { return wrapperContained.method_67717(state.wrapperContained); }
+// public static boolean method_67717(yarnwrap.entity.LivingEntity state, ) { return net.minecraft.block.EntityShapeContext.method_67717(state.wrapperContained); }
 
 }

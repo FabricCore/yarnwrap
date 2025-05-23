@@ -15,7 +15,7 @@ public int index(java.lang.Object object) { return wrapperContained.index(object
 // public static int index(java.lang.Object object, ) { return net.minecraft.world.chunk.Palette.index(object); }
 public boolean hasAny(java.util.function.Predicate predicate) { return wrapperContained.hasAny(predicate); }
 // public static boolean hasAny(java.util.function.Predicate predicate, ) { return net.minecraft.world.chunk.Palette.hasAny(predicate); }
-public yarnwrap.world.chunk.Palette copy() { return new yarnwrap.world.chunk.Palette(wrapperContained.copy()); }
-// public static yarnwrap.world.chunk.Palette copy() { return new yarnwrap.world.chunk.Palette(net.minecraft.world.chunk.Palette.copy()); }
+// public yarnwrap.world.chunk.Palette copy(yarnwrap.world.chunk.PaletteResizeListener resizeListener) { return new yarnwrap.world.chunk.Palette(wrapperContained.copy(resizeListener.wrapperContained)); }
+// public static yarnwrap.world.chunk.Palette copy(yarnwrap.world.chunk.PaletteResizeListener resizeListener, ) { return new yarnwrap.world.chunk.Palette(net.minecraft.world.chunk.Palette.copy(resizeListener.wrapperContained)); }
 
 }

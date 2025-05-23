@@ -13,8 +13,6 @@ public class ShulkerEntityRenderer { public net.minecraft.client.render.entity.S
 
 // public yarnwrap.util.Identifier method_22792(yarnwrap.client.util.SpriteIdentifier spriteId) { return new yarnwrap.util.Identifier(wrapperContained.method_22792(spriteId.wrapperContained)); }
 // public static yarnwrap.util.Identifier method_22792(yarnwrap.client.util.SpriteIdentifier spriteId, ) { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.ShulkerEntityRenderer.method_22792(spriteId.wrapperContained)); }
-// public boolean method_33436(yarnwrap.entity.mob.ShulkerEntity renderPositionOffset) { return wrapperContained.method_33436(renderPositionOffset.wrapperContained); }
-// public static boolean method_33436(yarnwrap.entity.mob.ShulkerEntity renderPositionOffset, ) { return net.minecraft.client.render.entity.ShulkerEntityRenderer.method_33436(renderPositionOffset.wrapperContained); }
 // public yarnwrap.util.Identifier getTexture(yarnwrap.util.DyeColor shulkerColor) { return new yarnwrap.util.Identifier(wrapperContained.getTexture(shulkerColor.wrapperContained)); }
 // public static yarnwrap.util.Identifier getTexture(yarnwrap.util.DyeColor shulkerColor, ) { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.ShulkerEntityRenderer.getTexture(shulkerColor.wrapperContained)); }
 

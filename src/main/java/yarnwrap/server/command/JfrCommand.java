@@ -23,8 +23,6 @@ public class JfrCommand { public net.minecraft.server.command.JfrCommand wrapper
 // public static int method_38616(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.JfrCommand.method_38616(context); }
 // public int executeStop(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeStop(source.wrapperContained); }
 // public static int executeStop(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.JfrCommand.executeStop(source.wrapperContained); }
-// public boolean method_38618(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_38618(source.wrapperContained); }
-// public static boolean method_38618(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.JfrCommand.method_38618(source.wrapperContained); }
 // public yarnwrap.text.Style method_39499(java.nio.file.Path style) { return new yarnwrap.text.Style(wrapperContained.method_39499(style)); }
 // public static yarnwrap.text.Style method_39499(java.nio.file.Path style, ) { return new yarnwrap.text.Style(net.minecraft.server.command.JfrCommand.method_39499(style)); }
 

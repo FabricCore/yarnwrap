@@ -101,7 +101,13 @@ public static int MAX_DECORATIONS() { return net.minecraft.item.map.MapState.MAX
 // public static java.lang.String FRAME_PREFIX() { return net.minecraft.item.map.MapState.FRAME_PREFIX; }
 // public static void FRAME_PREFIX(java.lang.String value, ) { net.minecraft.item.map.MapState.FRAME_PREFIX = value; }
 
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.item.map.MapState.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.item.map.MapState.CODEC = value; }
+
 // public MapState(int centerX,int centerZ,byte scale,boolean showDecorations,boolean unlimitedTracking,boolean locked,yarnwrap.registry.RegistryKey dimension) { this.wrapperContained = new net.minecraft.item.map.MapState(centerX,centerZ,scale,showDecorations,unlimitedTracking,locked,dimension.wrapperContained); }
+// public MapState(yarnwrap.registry.RegistryKey dimension,int centerX,int centerZ,byte scale,java.nio.ByteBuffer colors,boolean showDecorations,boolean unlimitedTracking,boolean locked,java.util.List banners,java.util.List frames) { this.wrapperContained = new net.minecraft.item.map.MapState(dimension.wrapperContained,centerX,centerZ,scale,colors,showDecorations,unlimitedTracking,locked,banners,frames); }
 public yarnwrap.network.packet.Packet getPlayerMarkerPacket(yarnwrap.component.type.MapIdComponent mapId,yarnwrap.entity.player.PlayerEntity player) { return new yarnwrap.network.packet.Packet(wrapperContained.getPlayerMarkerPacket(mapId.wrapperContained,player.wrapperContained)); }
 // public static yarnwrap.network.packet.Packet getPlayerMarkerPacket(yarnwrap.component.type.MapIdComponent mapId,yarnwrap.entity.player.PlayerEntity player, ) { return new yarnwrap.network.packet.Packet(net.minecraft.item.map.MapState.getPlayerMarkerPacket(mapId.wrapperContained,player.wrapperContained)); }
 public Object getPlayerSyncData(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.getPlayerSyncData(player.wrapperContained); }
@@ -136,8 +142,6 @@ public void replaceDecorations(java.util.List decorations) { wrapperContained.re
 // public static void replaceDecorations(java.util.List decorations, ) { net.minecraft.item.map.MapState.replaceDecorations(decorations); }
 public void setColor(int x,int z,byte color) { wrapperContained.setColor(x,z,color); }
 // public static void setColor(int x,int z,byte color, ) { net.minecraft.item.map.MapState.setColor(x,z,color); }
-// public yarnwrap.item.map.MapState fromNbt(yarnwrap.nbt.NbtCompound nbt,Object registryLookup) { return new yarnwrap.item.map.MapState(wrapperContained.fromNbt(nbt.wrapperContained,registryLookup)); }
-// public static yarnwrap.item.map.MapState fromNbt(yarnwrap.nbt.NbtCompound nbt,Object registryLookup, ) { return new yarnwrap.item.map.MapState(net.minecraft.item.map.MapState.fromNbt(nbt.wrapperContained,registryLookup)); }
 public boolean hasExplorationMapDecoration() { return wrapperContained.hasExplorationMapDecoration(); }
 // public static boolean hasExplorationMapDecoration() { return net.minecraft.item.map.MapState.hasExplorationMapDecoration(); }
 public java.lang.Iterable getDecorations() { return wrapperContained.getDecorations(); }
@@ -148,19 +152,53 @@ public java.util.Collection getBanners() { return wrapperContained.getBanners();
 // public static java.util.Collection getBanners() { return net.minecraft.item.map.MapState.getBanners(); }
 public boolean decorationCountNotLessThan(int decorationCount) { return wrapperContained.decorationCountNotLessThan(decorationCount); }
 // public static boolean decorationCountNotLessThan(int decorationCount, ) { return net.minecraft.item.map.MapState.decorationCountNotLessThan(decorationCount); }
-// public Object getPersistentStateType() { return wrapperContained.getPersistentStateType(); }
-public static Object getPersistentStateType() { return net.minecraft.item.map.MapState.getPersistentStateType(); }
 // public java.util.function.Predicate getEqualPredicate(yarnwrap.item.ItemStack stack) { return wrapperContained.getEqualPredicate(stack.wrapperContained); }
 // public static java.util.function.Predicate getEqualPredicate(yarnwrap.item.ItemStack stack, ) { return net.minecraft.item.map.MapState.getEqualPredicate(stack.wrapperContained); }
 // public boolean method_55785(yarnwrap.item.ItemStack other) { return wrapperContained.method_55785(other.wrapperContained); }
 // public static boolean method_55785(yarnwrap.item.ItemStack other, ) { return net.minecraft.item.map.MapState.method_55785(other.wrapperContained); }
-// public void method_56815(java.lang.String banner) { wrapperContained.method_56815(banner); }
-// public static void method_56815(java.lang.String banner, ) { net.minecraft.item.map.MapState.method_56815(banner); }
 // public void method_57626(yarnwrap.entity.player.PlayerEntity id,java.lang.String decoration) { wrapperContained.method_57626(id.wrapperContained,decoration); }
 // public static void method_57626(yarnwrap.entity.player.PlayerEntity id,java.lang.String decoration, ) { net.minecraft.item.map.MapState.method_57626(id.wrapperContained,decoration); }
 // public yarnwrap.component.type.MapDecorationsComponent method_57627(java.lang.String decorations) { return new yarnwrap.component.type.MapDecorationsComponent(wrapperContained.method_57627(decorations)); }
 // public static yarnwrap.component.type.MapDecorationsComponent method_57627(java.lang.String decorations, ) { return new yarnwrap.component.type.MapDecorationsComponent(net.minecraft.item.map.MapState.method_57627(decorations)); }
 // public java.lang.String getFrameDecorationKey(int id) { return wrapperContained.getFrameDecorationKey(id); }
 // public static java.lang.String getFrameDecorationKey(int id, ) { return net.minecraft.item.map.MapState.getFrameDecorationKey(id); }
+// public byte offsetToMarkerPosition(float d) { return wrapperContained.offsetToMarkerPosition(d); }
+// public static byte offsetToMarkerPosition(float d, ) { return net.minecraft.item.map.MapState.offsetToMarkerPosition(d); }
+// public boolean isInBounds(float dx,float dz) { return wrapperContained.isInBounds(dx,dz); }
+// public static boolean isInBounds(float dx,float dz, ) { return net.minecraft.item.map.MapState.isInBounds(dx,dz); }
+// public byte getPlayerMarkerRotation(yarnwrap.world.WorldAccess world,double rotation) { return wrapperContained.getPlayerMarkerRotation(world.wrapperContained,rotation); }
+// public static byte getPlayerMarkerRotation(yarnwrap.world.WorldAccess world,double rotation, ) { return net.minecraft.item.map.MapState.getPlayerMarkerRotation(world.wrapperContained,rotation); }
+// public Object getMarker(yarnwrap.registry.entry.RegistryEntry type,yarnwrap.world.WorldAccess world,double rotation,float dx,float dz) { return wrapperContained.getMarker(type.wrapperContained,world.wrapperContained,rotation,dx,dz); }
+// public static Object getMarker(yarnwrap.registry.entry.RegistryEntry type,yarnwrap.world.WorldAccess world,double rotation,float dx,float dz, ) { return net.minecraft.item.map.MapState.getMarker(type.wrapperContained,world.wrapperContained,rotation,dx,dz); }
+// public yarnwrap.registry.entry.RegistryEntry getPlayerMarker(float dx,float dz) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.getPlayerMarker(dx,dz)); }
+// public static yarnwrap.registry.entry.RegistryEntry getPlayerMarker(float dx,float dz, ) { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.item.map.MapState.getPlayerMarker(dx,dz)); }
+// public com.mojang.datafixers.util.Pair getPlayerMarkerAndRotation(yarnwrap.registry.entry.RegistryEntry type,yarnwrap.world.WorldAccess world,double rotation,float dx,float dz) { return wrapperContained.getPlayerMarkerAndRotation(type.wrapperContained,world.wrapperContained,rotation,dx,dz); }
+// public static com.mojang.datafixers.util.Pair getPlayerMarkerAndRotation(yarnwrap.registry.entry.RegistryEntry type,yarnwrap.world.WorldAccess world,double rotation,float dx,float dz, ) { return net.minecraft.item.map.MapState.getPlayerMarkerAndRotation(type.wrapperContained,world.wrapperContained,rotation,dx,dz); }
+// public boolean hasMapInvisibilityEquipment(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.hasMapInvisibilityEquipment(player.wrapperContained); }
+// public static boolean hasMapInvisibilityEquipment(yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.item.map.MapState.hasMapInvisibilityEquipment(player.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_67424(Object instance) { return wrapperContained.method_67424(instance); }
+// public static com.mojang.datafixers.kinds.App method_67424(Object instance, ) { return net.minecraft.item.map.MapState.method_67424(instance); }
+// public yarnwrap.world.PersistentStateType createStateType(yarnwrap.component.type.MapIdComponent mapId) { return new yarnwrap.world.PersistentStateType(wrapperContained.createStateType(mapId.wrapperContained)); }
+// public static yarnwrap.world.PersistentStateType createStateType(yarnwrap.component.type.MapIdComponent mapId, ) { return new yarnwrap.world.PersistentStateType(net.minecraft.item.map.MapState.createStateType(mapId.wrapperContained)); }
+// public java.util.List method_67426(yarnwrap.item.map.MapState mapState) { return wrapperContained.method_67426(mapState.wrapperContained); }
+// public static java.util.List method_67426(yarnwrap.item.map.MapState mapState, ) { return net.minecraft.item.map.MapState.method_67426(mapState.wrapperContained); }
+// public java.util.List method_67427(yarnwrap.item.map.MapState mapState) { return wrapperContained.method_67427(mapState.wrapperContained); }
+// public static java.util.List method_67427(yarnwrap.item.map.MapState mapState, ) { return net.minecraft.item.map.MapState.method_67427(mapState.wrapperContained); }
+// public java.lang.Boolean method_67428(yarnwrap.item.map.MapState mapState) { return wrapperContained.method_67428(mapState.wrapperContained); }
+// public static java.lang.Boolean method_67428(yarnwrap.item.map.MapState mapState, ) { return net.minecraft.item.map.MapState.method_67428(mapState.wrapperContained); }
+// public java.lang.Boolean method_67429(yarnwrap.item.map.MapState mapState) { return wrapperContained.method_67429(mapState.wrapperContained); }
+// public static java.lang.Boolean method_67429(yarnwrap.item.map.MapState mapState, ) { return net.minecraft.item.map.MapState.method_67429(mapState.wrapperContained); }
+// public java.lang.Boolean method_67430(yarnwrap.item.map.MapState mapState) { return wrapperContained.method_67430(mapState.wrapperContained); }
+// public static java.lang.Boolean method_67430(yarnwrap.item.map.MapState mapState, ) { return net.minecraft.item.map.MapState.method_67430(mapState.wrapperContained); }
+// public java.nio.ByteBuffer method_67431(yarnwrap.item.map.MapState mapState) { return wrapperContained.method_67431(mapState.wrapperContained); }
+// public static java.nio.ByteBuffer method_67431(yarnwrap.item.map.MapState mapState, ) { return net.minecraft.item.map.MapState.method_67431(mapState.wrapperContained); }
+// public java.lang.Byte method_67432(yarnwrap.item.map.MapState mapState) { return wrapperContained.method_67432(mapState.wrapperContained); }
+// public static java.lang.Byte method_67432(yarnwrap.item.map.MapState mapState, ) { return net.minecraft.item.map.MapState.method_67432(mapState.wrapperContained); }
+// public java.lang.Integer method_67433(yarnwrap.item.map.MapState mapState) { return wrapperContained.method_67433(mapState.wrapperContained); }
+// public static java.lang.Integer method_67433(yarnwrap.item.map.MapState mapState, ) { return net.minecraft.item.map.MapState.method_67433(mapState.wrapperContained); }
+// public java.lang.Integer method_67435(yarnwrap.item.map.MapState mapState) { return wrapperContained.method_67435(mapState.wrapperContained); }
+// public static java.lang.Integer method_67435(yarnwrap.item.map.MapState mapState, ) { return net.minecraft.item.map.MapState.method_67435(mapState.wrapperContained); }
+// public yarnwrap.registry.RegistryKey method_67436(yarnwrap.item.map.MapState mapState) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_67436(mapState.wrapperContained)); }
+// public static yarnwrap.registry.RegistryKey method_67436(yarnwrap.item.map.MapState mapState, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.item.map.MapState.method_67436(mapState.wrapperContained)); }
 
 }

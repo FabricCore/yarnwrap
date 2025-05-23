@@ -63,15 +63,30 @@ public class HoglinEntity { public net.minecraft.entity.mob.HoglinEntity wrapper
 
 // public int CONVERSION_TIME() { return wrapperContained.CONVERSION_TIME; }
 // public void CONVERSION_TIME(int value) { wrapperContained.CONVERSION_TIME = value; }
-// public static int CONVERSION_TIME() { return net.minecraft.entity.mob.HoglinEntity.CONVERSION_TIME; }
+public static int CONVERSION_TIME() { return net.minecraft.entity.mob.HoglinEntity.CONVERSION_TIME; }
 // public static void CONVERSION_TIME(int value, ) { net.minecraft.entity.mob.HoglinEntity.CONVERSION_TIME = value; }
+
+// public boolean DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION() { return wrapperContained.DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION; }
+// public void DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION(boolean value) { wrapperContained.DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION = value; }
+// public static boolean DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION() { return net.minecraft.entity.mob.HoglinEntity.DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION; }
+// public static void DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION(boolean value, ) { net.minecraft.entity.mob.HoglinEntity.DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION = value; }
+
+// public int DEFAULT_TIME_IN_OVERWORLD() { return wrapperContained.DEFAULT_TIME_IN_OVERWORLD; }
+// public void DEFAULT_TIME_IN_OVERWORLD(int value) { wrapperContained.DEFAULT_TIME_IN_OVERWORLD = value; }
+// public static int DEFAULT_TIME_IN_OVERWORLD() { return net.minecraft.entity.mob.HoglinEntity.DEFAULT_TIME_IN_OVERWORLD; }
+// public static void DEFAULT_TIME_IN_OVERWORLD(int value, ) { net.minecraft.entity.mob.HoglinEntity.DEFAULT_TIME_IN_OVERWORLD = value; }
+
+// public boolean DEFAULT_CANNOT_BE_HUNTED() { return wrapperContained.DEFAULT_CANNOT_BE_HUNTED; }
+// public void DEFAULT_CANNOT_BE_HUNTED(boolean value) { wrapperContained.DEFAULT_CANNOT_BE_HUNTED = value; }
+// public static boolean DEFAULT_CANNOT_BE_HUNTED() { return net.minecraft.entity.mob.HoglinEntity.DEFAULT_CANNOT_BE_HUNTED; }
+// public static void DEFAULT_CANNOT_BE_HUNTED(boolean value, ) { net.minecraft.entity.mob.HoglinEntity.DEFAULT_CANNOT_BE_HUNTED = value; }
 
 // public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.mob.HoglinEntity.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 public boolean isAdult() { return wrapperContained.isAdult(); }
 // public static boolean isAdult() { return net.minecraft.entity.mob.HoglinEntity.isAdult(); }
-// public void zombify(yarnwrap.server.world.ServerWorld word) { wrapperContained.zombify(word.wrapperContained); }
-// public static void zombify(yarnwrap.server.world.ServerWorld word, ) { net.minecraft.entity.mob.HoglinEntity.zombify(word.wrapperContained); }
+// public void zombify() { wrapperContained.zombify(); }
+// public static void zombify() { net.minecraft.entity.mob.HoglinEntity.zombify(); }
 // public Object createHoglinAttributes() { return wrapperContained.createHoglinAttributes(); }
 public static Object createHoglinAttributes() { return net.minecraft.entity.mob.HoglinEntity.createHoglinAttributes(); }
 public boolean canConvert() { return wrapperContained.canConvert(); }
@@ -84,5 +99,9 @@ public void setImmuneToZombification(boolean immuneToZombification) { wrapperCon
 // public static void setImmuneToZombification(boolean immuneToZombification, ) { net.minecraft.entity.mob.HoglinEntity.setImmuneToZombification(immuneToZombification); }
 // public void setCannotBeHunted(boolean cannotBeHunted) { wrapperContained.setCannotBeHunted(cannotBeHunted); }
 // public static void setCannotBeHunted(boolean cannotBeHunted, ) { net.minecraft.entity.mob.HoglinEntity.setCannotBeHunted(cannotBeHunted); }
+// public void method_63661(yarnwrap.entity.mob.ZoglinEntity zoglin) { wrapperContained.method_63661(zoglin.wrapperContained); }
+// public static void method_63661(yarnwrap.entity.mob.ZoglinEntity zoglin, ) { net.minecraft.entity.mob.HoglinEntity.method_63661(zoglin.wrapperContained); }
+public void setTimeInOverworld(int timeInOverworld) { wrapperContained.setTimeInOverworld(timeInOverworld); }
+// public static void setTimeInOverworld(int timeInOverworld, ) { net.minecraft.entity.mob.HoglinEntity.setTimeInOverworld(timeInOverworld); }
 
 }

@@ -1,6 +1,14 @@
 package yarnwrap.world;
 public class BlockView { public net.minecraft.world.BlockView wrapperContained; public BlockView(net.minecraft.world.BlockView wrapperContained) { this.wrapperContained = wrapperContained; }
 
+public yarnwrap.fluid.FluidState getFluidState(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.fluid.FluidState(wrapperContained.getFluidState(pos.wrapperContained)); }
+// public static yarnwrap.fluid.FluidState getFluidState(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.fluid.FluidState(net.minecraft.world.BlockView.getFluidState(pos.wrapperContained)); }
+public int getLuminance(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getLuminance(pos.wrapperContained); }
+// public static int getLuminance(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.BlockView.getLuminance(pos.wrapperContained); }
+public yarnwrap.block.BlockState getBlockState(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getBlockState(pos.wrapperContained)); }
+// public static yarnwrap.block.BlockState getBlockState(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.block.BlockState(net.minecraft.world.BlockView.getBlockState(pos.wrapperContained)); }
+public yarnwrap.block.entity.BlockEntity getBlockEntity(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.entity.BlockEntity(wrapperContained.getBlockEntity(pos.wrapperContained)); }
+// public static yarnwrap.block.entity.BlockEntity getBlockEntity(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.block.entity.BlockEntity(net.minecraft.world.BlockView.getBlockEntity(pos.wrapperContained)); }
 public yarnwrap.util.hit.BlockHitResult raycast(yarnwrap.world.RaycastContext context) { return new yarnwrap.util.hit.BlockHitResult(wrapperContained.raycast(context.wrapperContained)); }
 // public static yarnwrap.util.hit.BlockHitResult raycast(yarnwrap.world.RaycastContext context, ) { return new yarnwrap.util.hit.BlockHitResult(net.minecraft.world.BlockView.raycast(context.wrapperContained)); }
 // public yarnwrap.util.hit.BlockHitResult method_17743(yarnwrap.world.RaycastContext innerContext,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.hit.BlockHitResult(wrapperContained.method_17743(innerContext.wrapperContained,pos.wrapperContained)); }
@@ -25,15 +33,9 @@ public yarnwrap.util.hit.BlockHitResult raycast(yarnwrap.world.BlockStateRaycast
 // public static yarnwrap.util.hit.BlockHitResult method_32882(yarnwrap.world.BlockStateRaycastContext innerContext, ) { return new yarnwrap.util.hit.BlockHitResult(net.minecraft.world.BlockView.method_32882(innerContext.wrapperContained)); }
 public java.util.Optional getBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.BlockEntityType type) { return wrapperContained.getBlockEntity(pos.wrapperContained,type.wrapperContained); }
 // public static java.util.Optional getBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.BlockEntityType type, ) { return net.minecraft.world.BlockView.getBlockEntity(pos.wrapperContained,type.wrapperContained); }
-public int getMaxLightLevel() { return wrapperContained.getMaxLightLevel(); }
-// public static int getMaxLightLevel() { return net.minecraft.world.BlockView.getMaxLightLevel(); }
-public yarnwrap.fluid.FluidState getFluidState(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.fluid.FluidState(wrapperContained.getFluidState(pos.wrapperContained)); }
-// public static yarnwrap.fluid.FluidState getFluidState(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.fluid.FluidState(net.minecraft.world.BlockView.getFluidState(pos.wrapperContained)); }
-public int getLuminance(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getLuminance(pos.wrapperContained); }
-// public static int getLuminance(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.BlockView.getLuminance(pos.wrapperContained); }
-public yarnwrap.block.BlockState getBlockState(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getBlockState(pos.wrapperContained)); }
-// public static yarnwrap.block.BlockState getBlockState(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.block.BlockState(net.minecraft.world.BlockView.getBlockState(pos.wrapperContained)); }
-public yarnwrap.block.entity.BlockEntity getBlockEntity(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.entity.BlockEntity(wrapperContained.getBlockEntity(pos.wrapperContained)); }
-// public static yarnwrap.block.entity.BlockEntity getBlockEntity(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.block.entity.BlockEntity(net.minecraft.world.BlockView.getBlockEntity(pos.wrapperContained)); }
+// public int collectCollisionsBetween(it.unimi.dsi.fastutil.longs.LongSet visited,yarnwrap.util.math.Vec3d oldPos,yarnwrap.util.math.Vec3d newPos,yarnwrap.util.math.Box boundingBox,Object visitor) { return wrapperContained.collectCollisionsBetween(visited,oldPos.wrapperContained,newPos.wrapperContained,boundingBox.wrapperContained,visitor); }
+// public static int collectCollisionsBetween(it.unimi.dsi.fastutil.longs.LongSet visited,yarnwrap.util.math.Vec3d oldPos,yarnwrap.util.math.Vec3d newPos,yarnwrap.util.math.Box boundingBox,Object visitor, ) { return net.minecraft.world.BlockView.collectCollisionsBetween(visited,oldPos.wrapperContained,newPos.wrapperContained,boundingBox.wrapperContained,visitor); }
+// public boolean collectCollisionsBetween(yarnwrap.util.math.Vec3d from,yarnwrap.util.math.Vec3d to,yarnwrap.util.math.Box box,Object visitor) { return wrapperContained.collectCollisionsBetween(from.wrapperContained,to.wrapperContained,box.wrapperContained,visitor); }
+// public static boolean collectCollisionsBetween(yarnwrap.util.math.Vec3d from,yarnwrap.util.math.Vec3d to,yarnwrap.util.math.Box box,Object visitor, ) { return net.minecraft.world.BlockView.collectCollisionsBetween(from.wrapperContained,to.wrapperContained,box.wrapperContained,visitor); }
 
 }

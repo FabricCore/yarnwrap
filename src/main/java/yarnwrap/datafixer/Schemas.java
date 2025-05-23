@@ -46,5 +46,21 @@ public static com.mojang.datafixers.DataFixer getFixer() { return net.minecraft.
 // public static java.lang.String method_57076(java.util.Map string, ) { return net.minecraft.datafixer.Schemas.method_57076(string); }
 // public java.util.concurrent.CompletableFuture optimize(java.util.Set requiredTypes) { return wrapperContained.optimize(requiredTypes); }
 // public static java.util.concurrent.CompletableFuture optimize(java.util.Set requiredTypes, ) { return net.minecraft.datafixer.Schemas.optimize(requiredTypes); }
+// public double method_65952(double followRange) { return wrapperContained.method_65952(followRange); }
+// public static double method_65952(double followRange, ) { return net.minecraft.datafixer.Schemas.method_65952(followRange); }
+// public double method_65953(double followRange) { return wrapperContained.method_65953(followRange); }
+// public static double method_65953(double followRange, ) { return net.minecraft.datafixer.Schemas.method_65953(followRange); }
+// public double method_65954(double followRange) { return wrapperContained.method_65954(followRange); }
+// public static double method_65954(double followRange, ) { return net.minecraft.datafixer.Schemas.method_65954(followRange); }
+// public double method_65955(double followRange) { return wrapperContained.method_65955(followRange); }
+// public static double method_65955(double followRange, ) { return net.minecraft.datafixer.Schemas.method_65955(followRange); }
+// public double method_65956(double followRange) { return wrapperContained.method_65956(followRange); }
+// public static double method_65956(double followRange, ) { return net.minecraft.datafixer.Schemas.method_65956(followRange); }
+// public double method_65957(double followRange) { return wrapperContained.method_65957(followRange); }
+// public static double method_65957(double followRange, ) { return net.minecraft.datafixer.Schemas.method_65957(followRange); }
+// public java.lang.String method_66036(java.lang.String value) { return wrapperContained.method_66036(value); }
+// public static java.lang.String method_66036(java.lang.String value, ) { return net.minecraft.datafixer.Schemas.method_66036(value); }
+// public java.lang.String method_67100(java.lang.String value) { return wrapperContained.method_67100(value); }
+// public static java.lang.String method_67100(java.lang.String value, ) { return net.minecraft.datafixer.Schemas.method_67100(value); }
 
 }

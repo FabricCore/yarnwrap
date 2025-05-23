@@ -35,14 +35,10 @@ public class RandomCommand { public net.minecraft.server.command.RandomCommand w
 // public static int method_52328(boolean context, ) { return net.minecraft.server.command.RandomCommand.method_52328(context); }
 // public int method_52331(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_52331(context); }
 // public static int method_52331(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.RandomCommand.method_52331(context); }
-// public boolean method_52332(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_52332(source.wrapperContained); }
-// public static boolean method_52332(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.RandomCommand.method_52332(source.wrapperContained); }
 // public int method_52333(boolean context) { return wrapperContained.method_52333(context); }
 // public static int method_52333(boolean context, ) { return net.minecraft.server.command.RandomCommand.method_52333(context); }
 // public int method_52335(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_52335(context); }
 // public static int method_52335(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.RandomCommand.method_52335(context); }
-// public boolean method_52336(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_52336(source.wrapperContained); }
-// public static boolean method_52336(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.RandomCommand.method_52336(source.wrapperContained); }
 // public int method_52337(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_52337(context); }
 // public static int method_52337(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.RandomCommand.method_52337(context); }
 // public int method_52338(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_52338(context); }

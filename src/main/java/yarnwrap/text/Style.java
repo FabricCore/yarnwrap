@@ -61,7 +61,12 @@ public static yarnwrap.text.Style EMPTY() { return new yarnwrap.text.Style(net.m
 // public static yarnwrap.util.Identifier font() { return new yarnwrap.util.Identifier(net.minecraft.text.Style.font); }
 // public static void font(yarnwrap.util.Identifier value, ) { net.minecraft.text.Style.font = value.wrapperContained; }
 
-// public Style(yarnwrap.text.TextColor color,java.lang.Boolean bold,java.lang.Boolean italic,java.lang.Boolean underlined,java.lang.Boolean strikethrough,java.lang.Boolean obfuscated,yarnwrap.text.ClickEvent clickEvent,yarnwrap.text.HoverEvent hoverEvent,java.lang.String insertion,yarnwrap.util.Identifier font) { this.wrapperContained = new net.minecraft.text.Style(color.wrapperContained,bold,italic,underlined,strikethrough,obfuscated,clickEvent.wrapperContained,hoverEvent.wrapperContained,insertion,font.wrapperContained); }
+// public java.lang.Integer shadowColor() { return wrapperContained.shadowColor; }
+// public void shadowColor(java.lang.Integer value) { wrapperContained.shadowColor = value; }
+// public static java.lang.Integer shadowColor() { return net.minecraft.text.Style.shadowColor; }
+// public static void shadowColor(java.lang.Integer value, ) { net.minecraft.text.Style.shadowColor = value; }
+
+// public Style(yarnwrap.text.TextColor color,java.lang.Integer shadowColor,java.lang.Boolean bold,java.lang.Boolean italic,java.lang.Boolean underlined,java.lang.Boolean strikethrough,java.lang.Boolean obfuscated,yarnwrap.text.ClickEvent clickEvent,yarnwrap.text.HoverEvent hoverEvent,java.lang.String insertion,yarnwrap.util.Identifier font) { this.wrapperContained = new net.minecraft.text.Style(color.wrapperContained,shadowColor,bold,italic,underlined,strikethrough,obfuscated,clickEvent.wrapperContained,hoverEvent.wrapperContained,insertion,font.wrapperContained); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.text.Style.equals(o); }
 public yarnwrap.text.Style withHoverEvent(yarnwrap.text.HoverEvent hoverEvent) { return new yarnwrap.text.Style(wrapperContained.withHoverEvent(hoverEvent.wrapperContained)); }
@@ -118,9 +123,13 @@ public yarnwrap.text.Style withStrikethrough(java.lang.Boolean strikethrough) { 
 // public static yarnwrap.text.Style withStrikethrough(java.lang.Boolean strikethrough, ) { return new yarnwrap.text.Style(net.minecraft.text.Style.withStrikethrough(strikethrough)); }
 public yarnwrap.text.Style withObfuscated(java.lang.Boolean obfuscated) { return new yarnwrap.text.Style(wrapperContained.withObfuscated(obfuscated)); }
 // public static yarnwrap.text.Style withObfuscated(java.lang.Boolean obfuscated, ) { return new yarnwrap.text.Style(net.minecraft.text.Style.withObfuscated(obfuscated)); }
-// public yarnwrap.text.Style of(java.util.Optional color,java.util.Optional bold,java.util.Optional italic,java.util.Optional underlined,java.util.Optional strikethrough,java.util.Optional obfuscated) { return new yarnwrap.text.Style(wrapperContained.of(color,bold,italic,underlined,strikethrough,obfuscated)); }
-// public static yarnwrap.text.Style of(java.util.Optional color,java.util.Optional bold,java.util.Optional italic,java.util.Optional underlined,java.util.Optional strikethrough,java.util.Optional obfuscated, ) { return new yarnwrap.text.Style(net.minecraft.text.Style.of(color,bold,italic,underlined,strikethrough,obfuscated)); }
+// public yarnwrap.text.Style of(java.util.Optional color,java.util.Optional shadowColor,java.util.Optional bold,java.util.Optional italic,java.util.Optional underlined,java.util.Optional strikethrough,java.util.Optional obfuscated,java.util.Optional clickEvent,java.util.Optional hoverEvent,java.util.Optional insertion,java.util.Optional font) { return new yarnwrap.text.Style(wrapperContained.of(color,shadowColor,bold,italic,underlined,strikethrough,obfuscated,clickEvent,hoverEvent,insertion,font)); }
+// public static yarnwrap.text.Style of(java.util.Optional color,java.util.Optional shadowColor,java.util.Optional bold,java.util.Optional italic,java.util.Optional underlined,java.util.Optional strikethrough,java.util.Optional obfuscated,java.util.Optional clickEvent,java.util.Optional hoverEvent,java.util.Optional insertion,java.util.Optional font, ) { return new yarnwrap.text.Style(net.minecraft.text.Style.of(color,shadowColor,bold,italic,underlined,strikethrough,obfuscated,clickEvent,hoverEvent,insertion,font)); }
 // public yarnwrap.text.Style with(yarnwrap.text.Style newStyle,java.lang.Object oldAttribute,java.lang.Object newAttribute) { return new yarnwrap.text.Style(wrapperContained.with(newStyle.wrapperContained,oldAttribute,newAttribute)); }
 // public static yarnwrap.text.Style with(yarnwrap.text.Style newStyle,java.lang.Object oldAttribute,java.lang.Object newAttribute, ) { return new yarnwrap.text.Style(net.minecraft.text.Style.with(newStyle.wrapperContained,oldAttribute,newAttribute)); }
+public java.lang.Integer getShadowColor() { return wrapperContained.getShadowColor(); }
+// public static java.lang.Integer getShadowColor() { return net.minecraft.text.Style.getShadowColor(); }
+public yarnwrap.text.Style withShadowColor(int shadowColor) { return new yarnwrap.text.Style(wrapperContained.withShadowColor(shadowColor)); }
+// public static yarnwrap.text.Style withShadowColor(int shadowColor, ) { return new yarnwrap.text.Style(net.minecraft.text.Style.withShadowColor(shadowColor)); }
 
 }

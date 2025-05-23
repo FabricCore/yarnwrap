@@ -26,8 +26,8 @@ public class ArrayPalette { public net.minecraft.world.chunk.ArrayPalette wrappe
 // public static yarnwrap.world.chunk.PaletteResizeListener listener() { return new yarnwrap.world.chunk.PaletteResizeListener(net.minecraft.world.chunk.ArrayPalette.listener); }
 // public static void listener(yarnwrap.world.chunk.PaletteResizeListener value, ) { net.minecraft.world.chunk.ArrayPalette.listener = value.wrapperContained; }
 
-// public ArrayPalette(yarnwrap.util.collection.IndexedIterable idList,int bits,yarnwrap.world.chunk.PaletteResizeListener listener,java.util.List list) { this.wrapperContained = new net.minecraft.world.chunk.ArrayPalette(idList.wrapperContained,bits,listener.wrapperContained,list); }
 // public ArrayPalette(yarnwrap.util.collection.IndexedIterable idList,java.lang.Object[] array,yarnwrap.world.chunk.PaletteResizeListener listener,int indexBits,int size) { this.wrapperContained = new net.minecraft.world.chunk.ArrayPalette(idList.wrapperContained,array,listener.wrapperContained,indexBits,size); }
+// public ArrayPalette(yarnwrap.util.collection.IndexedIterable idList,int bits,yarnwrap.world.chunk.PaletteResizeListener listener,java.util.List list) { this.wrapperContained = new net.minecraft.world.chunk.ArrayPalette(idList.wrapperContained,bits,listener.wrapperContained,list); }
 // public yarnwrap.world.chunk.Palette create(int bits,yarnwrap.util.collection.IndexedIterable idList,yarnwrap.world.chunk.PaletteResizeListener listener,java.util.List list) { return new yarnwrap.world.chunk.Palette(wrapperContained.create(bits,idList.wrapperContained,listener.wrapperContained,list)); }
 // public static yarnwrap.world.chunk.Palette create(int bits,yarnwrap.util.collection.IndexedIterable idList,yarnwrap.world.chunk.PaletteResizeListener listener,java.util.List list, ) { return new yarnwrap.world.chunk.Palette(net.minecraft.world.chunk.ArrayPalette.create(bits,idList.wrapperContained,listener.wrapperContained,list)); }
 

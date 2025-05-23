@@ -26,6 +26,10 @@ public class Language { public net.minecraft.util.Language wrapperContained; pub
 public static java.lang.String DEFAULT_LANGUAGE() { return net.minecraft.util.Language.DEFAULT_LANGUAGE; }
 // public static void DEFAULT_LANGUAGE(java.lang.String value, ) { net.minecraft.util.Language.DEFAULT_LANGUAGE = value; }
 
+public boolean hasTranslation(java.lang.String key) { return wrapperContained.hasTranslation(key); }
+// public static boolean hasTranslation(java.lang.String key, ) { return net.minecraft.util.Language.hasTranslation(key); }
+public java.lang.String get(java.lang.String key,java.lang.String fallback) { return wrapperContained.get(key,fallback); }
+// public static java.lang.String get(java.lang.String key,java.lang.String fallback, ) { return net.minecraft.util.Language.get(key,fallback); }
 // public yarnwrap.util.Language getInstance() { return new yarnwrap.util.Language(wrapperContained.getInstance()); }
 public static yarnwrap.util.Language getInstance() { return new yarnwrap.util.Language(net.minecraft.util.Language.getInstance()); }
 // public void load(java.io.InputStream inputStream,java.util.function.BiConsumer entryConsumer) { wrapperContained.load(inputStream,entryConsumer); }
@@ -40,10 +44,6 @@ public java.util.List reorder(java.util.List texts) { return wrapperContained.re
 // public static java.util.List reorder(java.util.List texts, ) { return net.minecraft.util.Language.reorder(texts); }
 public yarnwrap.text.OrderedText reorder(yarnwrap.text.StringVisitable text) { return new yarnwrap.text.OrderedText(wrapperContained.reorder(text.wrapperContained)); }
 // public static yarnwrap.text.OrderedText reorder(yarnwrap.text.StringVisitable text, ) { return new yarnwrap.text.OrderedText(net.minecraft.util.Language.reorder(text.wrapperContained)); }
-public boolean hasTranslation(java.lang.String key) { return wrapperContained.hasTranslation(key); }
-// public static boolean hasTranslation(java.lang.String key, ) { return net.minecraft.util.Language.hasTranslation(key); }
-public java.lang.String get(java.lang.String key,java.lang.String fallback) { return wrapperContained.get(key,fallback); }
-// public static java.lang.String get(java.lang.String key,java.lang.String fallback, ) { return net.minecraft.util.Language.get(key,fallback); }
 public java.lang.String get(java.lang.String key) { return wrapperContained.get(key); }
 // public static java.lang.String get(java.lang.String key, ) { return net.minecraft.util.Language.get(key); }
 // public void load(java.util.function.BiConsumer entryConsumer,java.lang.String path) { wrapperContained.load(entryConsumer,path); }

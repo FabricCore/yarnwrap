@@ -62,8 +62,6 @@ public class WorldBorderCommand { public net.minecraft.server.command.WorldBorde
 // public static int method_13860(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.WorldBorderCommand.method_13860(context); }
 // public int method_13861(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13861(context); }
 // public static int method_13861(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.WorldBorderCommand.method_13861(context); }
-// public boolean method_13862(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13862(source.wrapperContained); }
-// public static boolean method_13862(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.WorldBorderCommand.method_13862(source.wrapperContained); }
 // public int executeDamage(yarnwrap.server.command.ServerCommandSource source,float damagePerBlock) { return wrapperContained.executeDamage(source.wrapperContained,damagePerBlock); }
 // public static int executeDamage(yarnwrap.server.command.ServerCommandSource source,float damagePerBlock, ) { return net.minecraft.server.command.WorldBorderCommand.executeDamage(source.wrapperContained,damagePerBlock); }
 // public int method_13864(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13864(context); }

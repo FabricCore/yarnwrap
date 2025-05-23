@@ -16,11 +16,6 @@ public void attackingAnimationState(yarnwrap.entity.AnimationState value) { wrap
 // public static yarnwrap.entity.AnimationState attackingAnimationState() { return new yarnwrap.entity.AnimationState(net.minecraft.entity.mob.WardenEntity.attackingAnimationState); }
 // public static void attackingAnimationState(yarnwrap.entity.AnimationState value, ) { net.minecraft.entity.mob.WardenEntity.attackingAnimationState = value.wrapperContained; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.entity.mob.WardenEntity.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.entity.mob.WardenEntity.LOGGER = value; }
-
 // public yarnwrap.entity.ai.WardenAngerManager angerManager() { return new yarnwrap.entity.ai.WardenAngerManager(wrapperContained.angerManager); }
 // public void angerManager(yarnwrap.entity.ai.WardenAngerManager value) { wrapperContained.angerManager = value.wrapperContained; }
 // public static yarnwrap.entity.ai.WardenAngerManager angerManager() { return new yarnwrap.entity.ai.WardenAngerManager(net.minecraft.entity.mob.WardenEntity.angerManager); }
@@ -66,15 +61,15 @@ public void attackingAnimationState(yarnwrap.entity.AnimationState value) { wrap
 // public static int ANGRINESS_AMOUNT() { return net.minecraft.entity.mob.WardenEntity.ANGRINESS_AMOUNT; }
 // public static void ANGRINESS_AMOUNT(int value, ) { net.minecraft.entity.mob.WardenEntity.ANGRINESS_AMOUNT = value; }
 
-// public int tendrilPitch() { return wrapperContained.tendrilPitch; }
-// public void tendrilPitch(int value) { wrapperContained.tendrilPitch = value; }
-// public static int tendrilPitch() { return net.minecraft.entity.mob.WardenEntity.tendrilPitch; }
-// public static void tendrilPitch(int value, ) { net.minecraft.entity.mob.WardenEntity.tendrilPitch = value; }
+// public int tendrilAlpha() { return wrapperContained.tendrilAlpha; }
+// public void tendrilAlpha(int value) { wrapperContained.tendrilAlpha = value; }
+// public static int tendrilAlpha() { return net.minecraft.entity.mob.WardenEntity.tendrilAlpha; }
+// public static void tendrilAlpha(int value, ) { net.minecraft.entity.mob.WardenEntity.tendrilAlpha = value; }
 
-// public int lastTendrilPitch() { return wrapperContained.lastTendrilPitch; }
-// public void lastTendrilPitch(int value) { wrapperContained.lastTendrilPitch = value; }
-// public static int lastTendrilPitch() { return net.minecraft.entity.mob.WardenEntity.lastTendrilPitch; }
-// public static void lastTendrilPitch(int value, ) { net.minecraft.entity.mob.WardenEntity.lastTendrilPitch = value; }
+// public int lastTendrilAlpha() { return wrapperContained.lastTendrilAlpha; }
+// public void lastTendrilAlpha(int value) { wrapperContained.lastTendrilAlpha = value; }
+// public static int lastTendrilAlpha() { return net.minecraft.entity.mob.WardenEntity.lastTendrilAlpha; }
+// public static void lastTendrilAlpha(int value, ) { net.minecraft.entity.mob.WardenEntity.lastTendrilAlpha = value; }
 
 // public int heartbeatCooldown() { return wrapperContained.heartbeatCooldown; }
 // public void heartbeatCooldown(int value) { wrapperContained.heartbeatCooldown = value; }
@@ -116,18 +111,19 @@ public void chargingSonicBoomAnimationState(yarnwrap.entity.AnimationState value
 // // public static Object vibrationListenerData() { return net.minecraft.entity.mob.WardenEntity.vibrationListenerData; }
 // // public static void vibrationListenerData(Object value, ) { net.minecraft.entity.mob.WardenEntity.vibrationListenerData = value; }
 
-public float getHeartPitch(float tickDelta) { return wrapperContained.getHeartPitch(tickDelta); }
-// public static float getHeartPitch(float tickDelta, ) { return net.minecraft.entity.mob.WardenEntity.getHeartPitch(tickDelta); }
+// public int FOLLOW_RANGE() { return wrapperContained.FOLLOW_RANGE; }
+// public void FOLLOW_RANGE(int value) { wrapperContained.FOLLOW_RANGE = value; }
+// public static int FOLLOW_RANGE() { return net.minecraft.entity.mob.WardenEntity.FOLLOW_RANGE; }
+// public static void FOLLOW_RANGE(int value, ) { net.minecraft.entity.mob.WardenEntity.FOLLOW_RANGE = value; }
+
+public float getHeartAlpha(float tickProgress) { return wrapperContained.getHeartAlpha(tickProgress); }
+// public static float getHeartAlpha(float tickProgress, ) { return net.minecraft.entity.mob.WardenEntity.getHeartAlpha(tickProgress); }
 // public void addDarknessToClosePlayers(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.entity.Entity entity,int range) { wrapperContained.addDarknessToClosePlayers(world.wrapperContained,pos.wrapperContained,entity.wrapperContained,range); }
 // public static void addDarknessToClosePlayers(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.entity.Entity entity,int range, ) { net.minecraft.entity.mob.WardenEntity.addDarknessToClosePlayers(world.wrapperContained,pos.wrapperContained,entity.wrapperContained,range); }
 // public void addDigParticles(yarnwrap.entity.AnimationState animationState) { wrapperContained.addDigParticles(animationState.wrapperContained); }
 // public static void addDigParticles(yarnwrap.entity.AnimationState animationState, ) { net.minecraft.entity.mob.WardenEntity.addDigParticles(animationState.wrapperContained); }
 public boolean isValidTarget(yarnwrap.entity.Entity entity) { return wrapperContained.isValidTarget(entity.wrapperContained); }
 // public static boolean isValidTarget(yarnwrap.entity.Entity entity, ) { return net.minecraft.entity.mob.WardenEntity.isValidTarget(entity.wrapperContained); }
-// public void method_42208(yarnwrap.entity.ai.WardenAngerManager angerManager) { wrapperContained.method_42208(angerManager.wrapperContained); }
-// public static void method_42208(yarnwrap.entity.ai.WardenAngerManager angerManager, ) { net.minecraft.entity.mob.WardenEntity.method_42208(angerManager.wrapperContained); }
-// public void method_42209(yarnwrap.nbt.NbtCompound angerNbt) { wrapperContained.method_42209(angerNbt.wrapperContained); }
-// public static void method_42209(yarnwrap.nbt.NbtCompound angerNbt, ) { net.minecraft.entity.mob.WardenEntity.method_42209(angerNbt.wrapperContained); }
 public void removeSuspect(yarnwrap.entity.Entity entity) { wrapperContained.removeSuspect(entity.wrapperContained); }
 // public static void removeSuspect(yarnwrap.entity.Entity entity, ) { net.minecraft.entity.mob.WardenEntity.removeSuspect(entity.wrapperContained); }
 public void increaseAngerAt(yarnwrap.entity.Entity entity,int amount,boolean listening) { wrapperContained.increaseAngerAt(entity.wrapperContained,amount,listening); }
@@ -150,17 +146,13 @@ public yarnwrap.entity.ai.WardenAngerManager getAngerManager() { return new yarn
 public static Object addAttributes() { return net.minecraft.entity.mob.WardenEntity.addAttributes(); }
 public int getAnger() { return wrapperContained.getAnger(); }
 // public static int getAnger() { return net.minecraft.entity.mob.WardenEntity.getAnger(); }
-public float getTendrilPitch(float tickDelta) { return wrapperContained.getTendrilPitch(tickDelta); }
-// public static float getTendrilPitch(float tickDelta, ) { return net.minecraft.entity.mob.WardenEntity.getTendrilPitch(tickDelta); }
-// public void method_42669(yarnwrap.nbt.NbtCompound listenerData) { wrapperContained.method_42669(listenerData.wrapperContained); }
-// public static void method_42669(yarnwrap.nbt.NbtCompound listenerData, ) { net.minecraft.entity.mob.WardenEntity.method_42669(listenerData.wrapperContained); }
+public float getTendrilAlpha(float tickProgress) { return wrapperContained.getTendrilAlpha(tickProgress); }
+// public static float getTendrilAlpha(float tickProgress, ) { return net.minecraft.entity.mob.WardenEntity.getTendrilAlpha(tickProgress); }
 // public boolean isDiggingOrEmerging() { return wrapperContained.isDiggingOrEmerging(); }
 // public static boolean isDiggingOrEmerging() { return net.minecraft.entity.mob.WardenEntity.isDiggingOrEmerging(); }
 public void updateAttackTarget(yarnwrap.entity.LivingEntity target) { wrapperContained.updateAttackTarget(target.wrapperContained); }
 // public static void updateAttackTarget(yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.WardenEntity.updateAttackTarget(target.wrapperContained); }
 // public int getAngerAtTarget() { return wrapperContained.getAngerAtTarget(); }
 // public static int getAngerAtTarget() { return net.minecraft.entity.mob.WardenEntity.getAngerAtTarget(); }
-// public void method_51303(Object listenerData) { wrapperContained.method_51303(listenerData); }
-// public static void method_51303(Object listenerData, ) { net.minecraft.entity.mob.WardenEntity.method_51303(listenerData); }
 
 }

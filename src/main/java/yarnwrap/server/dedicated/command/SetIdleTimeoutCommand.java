@@ -7,7 +7,5 @@ public class SetIdleTimeoutCommand { public net.minecraft.server.dedicated.comma
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.dedicated.command.SetIdleTimeoutCommand.register(dispatcher); }
 // public int method_13632(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13632(context); }
 // public static int method_13632(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.SetIdleTimeoutCommand.method_13632(context); }
-// public boolean method_13633(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13633(source.wrapperContained); }
-// public static boolean method_13633(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.SetIdleTimeoutCommand.method_13633(source.wrapperContained); }
 
 }

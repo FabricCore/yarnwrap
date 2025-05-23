@@ -1,11 +1,6 @@
 package yarnwrap.client.render.debug;
 public class StructureDebugRenderer { public net.minecraft.client.render.debug.StructureDebugRenderer wrapperContained; public StructureDebugRenderer(net.minecraft.client.render.debug.StructureDebugRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int RANGE() { return wrapperContained.RANGE; }
-// public void RANGE(int value) { wrapperContained.RANGE = value; }
-// public static int RANGE() { return net.minecraft.client.render.debug.StructureDebugRenderer.RANGE; }
-// public static void RANGE(int value, ) { net.minecraft.client.render.debug.StructureDebugRenderer.RANGE = value; }
-
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
 // public static yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(net.minecraft.client.render.debug.StructureDebugRenderer.client); }
@@ -20,6 +15,11 @@ public class StructureDebugRenderer { public net.minecraft.client.render.debug.S
 // public void structurePiecesBoundingBoxes(java.util.Map value) { wrapperContained.structurePiecesBoundingBoxes = value; }
 // public static java.util.Map structurePiecesBoundingBoxes() { return net.minecraft.client.render.debug.StructureDebugRenderer.structurePiecesBoundingBoxes; }
 // public static void structurePiecesBoundingBoxes(java.util.Map value, ) { net.minecraft.client.render.debug.StructureDebugRenderer.structurePiecesBoundingBoxes = value; }
+
+// public int RANGE() { return wrapperContained.RANGE; }
+// public void RANGE(int value) { wrapperContained.RANGE = value; }
+// public static int RANGE() { return net.minecraft.client.render.debug.StructureDebugRenderer.RANGE; }
+// public static void RANGE(int value, ) { net.minecraft.client.render.debug.StructureDebugRenderer.RANGE = value; }
 
 public StructureDebugRenderer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.debug.StructureDebugRenderer(client.wrapperContained); }
 public void addStructure(yarnwrap.util.math.BlockBox boundingBox,java.util.List pieces,yarnwrap.registry.RegistryKey dimensionKey) { wrapperContained.addStructure(boundingBox.wrapperContained,pieces,dimensionKey.wrapperContained); }

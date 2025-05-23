@@ -11,16 +11,9 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.c
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.client.texture.atlas.SingleAtlasSource.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.texture.atlas.SingleAtlasSource.LOGGER = value; }
 
-// public yarnwrap.util.Identifier resource() { return new yarnwrap.util.Identifier(wrapperContained.resource); }
-// public void resource(yarnwrap.util.Identifier value) { wrapperContained.resource = value.wrapperContained; }
-// public static yarnwrap.util.Identifier resource() { return new yarnwrap.util.Identifier(net.minecraft.client.texture.atlas.SingleAtlasSource.resource); }
-// public static void resource(yarnwrap.util.Identifier value, ) { net.minecraft.client.texture.atlas.SingleAtlasSource.resource = value.wrapperContained; }
-
-// public java.util.Optional sprite() { return wrapperContained.sprite; }
-// public void sprite(java.util.Optional value) { wrapperContained.sprite = value; }
-// public static java.util.Optional sprite() { return net.minecraft.client.texture.atlas.SingleAtlasSource.sprite; }
-// public static void sprite(java.util.Optional value, ) { net.minecraft.client.texture.atlas.SingleAtlasSource.sprite = value; }
-
+public SingleAtlasSource(yarnwrap.util.Identifier resourceId) { this.wrapperContained = new net.minecraft.client.texture.atlas.SingleAtlasSource(resourceId.wrapperContained); }
 public SingleAtlasSource(yarnwrap.util.Identifier resource,java.util.Optional sprite) { this.wrapperContained = new net.minecraft.client.texture.atlas.SingleAtlasSource(resource.wrapperContained,sprite); }
+// public com.mojang.datafixers.kinds.App method_47687(Object instance) { return wrapperContained.method_47687(instance); }
+// public static com.mojang.datafixers.kinds.App method_47687(Object instance, ) { return net.minecraft.client.texture.atlas.SingleAtlasSource.method_47687(instance); }
 
 }

@@ -22,10 +22,10 @@ public class CyclingSlotIcon { public net.minecraft.client.gui.screen.ingame.Cyc
 // public static void currentIndex(int value, ) { net.minecraft.client.gui.screen.ingame.CyclingSlotIcon.currentIndex = value; }
 
 public CyclingSlotIcon(int slotId) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.CyclingSlotIcon(slotId); }
-// public float computeAlpha(float delta) { return wrapperContained.computeAlpha(delta); }
-// public static float computeAlpha(float delta, ) { return net.minecraft.client.gui.screen.ingame.CyclingSlotIcon.computeAlpha(delta); }
-public void render(yarnwrap.screen.ScreenHandler screenHandler,yarnwrap.client.gui.DrawContext context,float delta,int x,int y) { wrapperContained.render(screenHandler.wrapperContained,context.wrapperContained,delta,x,y); }
-// public static void render(yarnwrap.screen.ScreenHandler screenHandler,yarnwrap.client.gui.DrawContext context,float delta,int x,int y, ) { net.minecraft.client.gui.screen.ingame.CyclingSlotIcon.render(screenHandler.wrapperContained,context.wrapperContained,delta,x,y); }
+// public float computeAlpha(float deltaTicks) { return wrapperContained.computeAlpha(deltaTicks); }
+// public static float computeAlpha(float deltaTicks, ) { return net.minecraft.client.gui.screen.ingame.CyclingSlotIcon.computeAlpha(deltaTicks); }
+public void render(yarnwrap.screen.ScreenHandler screenHandler,yarnwrap.client.gui.DrawContext context,float deltaTicks,int x,int y) { wrapperContained.render(screenHandler.wrapperContained,context.wrapperContained,deltaTicks,x,y); }
+// public static void render(yarnwrap.screen.ScreenHandler screenHandler,yarnwrap.client.gui.DrawContext context,float deltaTicks,int x,int y, ) { net.minecraft.client.gui.screen.ingame.CyclingSlotIcon.render(screenHandler.wrapperContained,context.wrapperContained,deltaTicks,x,y); }
 // public void drawIcon(yarnwrap.screen.slot.Slot slot,yarnwrap.util.Identifier texture,float alpha,yarnwrap.client.gui.DrawContext context,int x,int y) { wrapperContained.drawIcon(slot.wrapperContained,texture.wrapperContained,alpha,context.wrapperContained,x,y); }
 // public static void drawIcon(yarnwrap.screen.slot.Slot slot,yarnwrap.util.Identifier texture,float alpha,yarnwrap.client.gui.DrawContext context,int x,int y, ) { net.minecraft.client.gui.screen.ingame.CyclingSlotIcon.drawIcon(slot.wrapperContained,texture.wrapperContained,alpha,context.wrapperContained,x,y); }
 public void updateTexture(java.util.List textures) { wrapperContained.updateTexture(textures); }

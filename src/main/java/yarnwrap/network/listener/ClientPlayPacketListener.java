@@ -27,8 +27,6 @@ public void onOpenHorseScreen(yarnwrap.network.packet.s2c.play.OpenHorseScreenS2
 // public static void onOpenHorseScreen(yarnwrap.network.packet.s2c.play.OpenHorseScreenS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onOpenHorseScreen(packet.wrapperContained); }
 public void onCraftFailedResponse(yarnwrap.network.packet.s2c.play.CraftFailedResponseS2CPacket packet) { wrapperContained.onCraftFailedResponse(packet.wrapperContained); }
 // public static void onCraftFailedResponse(yarnwrap.network.packet.s2c.play.CraftFailedResponseS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onCraftFailedResponse(packet.wrapperContained); }
-public void onExperienceOrbSpawn(yarnwrap.network.packet.s2c.play.ExperienceOrbSpawnS2CPacket packet) { wrapperContained.onExperienceOrbSpawn(packet.wrapperContained); }
-// public static void onExperienceOrbSpawn(yarnwrap.network.packet.s2c.play.ExperienceOrbSpawnS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onExperienceOrbSpawn(packet.wrapperContained); }
 public void onLookAt(yarnwrap.network.packet.s2c.play.LookAtS2CPacket packet) { wrapperContained.onLookAt(packet.wrapperContained); }
 // public static void onLookAt(yarnwrap.network.packet.s2c.play.LookAtS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onLookAt(packet.wrapperContained); }
 public void onEntityTrackerUpdate(yarnwrap.network.packet.s2c.play.EntityTrackerUpdateS2CPacket packet) { wrapperContained.onEntityTrackerUpdate(packet.wrapperContained); }
@@ -65,8 +63,8 @@ public void onEntitySpawn(yarnwrap.network.packet.s2c.play.EntitySpawnS2CPacket 
 // public static void onEntitySpawn(yarnwrap.network.packet.s2c.play.EntitySpawnS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onEntitySpawn(packet.wrapperContained); }
 public void onPlayerList(yarnwrap.network.packet.s2c.play.PlayerListS2CPacket packet) { wrapperContained.onPlayerList(packet.wrapperContained); }
 // public static void onPlayerList(yarnwrap.network.packet.s2c.play.PlayerListS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onPlayerList(packet.wrapperContained); }
-public void onUnlockRecipes(yarnwrap.network.packet.s2c.play.ChangeUnlockedRecipesS2CPacket packet) { wrapperContained.onUnlockRecipes(packet.wrapperContained); }
-// public static void onUnlockRecipes(yarnwrap.network.packet.s2c.play.ChangeUnlockedRecipesS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onUnlockRecipes(packet.wrapperContained); }
+public void onRecipeBookRemove(yarnwrap.network.packet.s2c.play.RecipeBookRemoveS2CPacket packet) { wrapperContained.onRecipeBookRemove(packet.wrapperContained); }
+// public static void onRecipeBookRemove(yarnwrap.network.packet.s2c.play.RecipeBookRemoveS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onRecipeBookRemove(packet.wrapperContained); }
 public void onBlockBreakingProgress(yarnwrap.network.packet.s2c.play.BlockBreakingProgressS2CPacket packet) { wrapperContained.onBlockBreakingProgress(packet.wrapperContained); }
 // public static void onBlockBreakingProgress(yarnwrap.network.packet.s2c.play.BlockBreakingProgressS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onBlockBreakingProgress(packet.wrapperContained); }
 public void onPlayerRespawn(yarnwrap.network.packet.s2c.play.PlayerRespawnS2CPacket packet) { wrapperContained.onPlayerRespawn(packet.wrapperContained); }
@@ -219,5 +217,23 @@ public void onDebugSample(yarnwrap.network.packet.s2c.play.DebugSampleS2CPacket 
 // public static void onDebugSample(yarnwrap.network.packet.s2c.play.DebugSampleS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onDebugSample(packet.wrapperContained); }
 public void onProjectilePower(yarnwrap.network.packet.s2c.play.ProjectilePowerS2CPacket packet) { wrapperContained.onProjectilePower(packet.wrapperContained); }
 // public static void onProjectilePower(yarnwrap.network.packet.s2c.play.ProjectilePowerS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onProjectilePower(packet.wrapperContained); }
+public void onMoveMinecartAlongTrack(yarnwrap.network.packet.s2c.play.MoveMinecartAlongTrackS2CPacket packet) { wrapperContained.onMoveMinecartAlongTrack(packet.wrapperContained); }
+// public static void onMoveMinecartAlongTrack(yarnwrap.network.packet.s2c.play.MoveMinecartAlongTrackS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onMoveMinecartAlongTrack(packet.wrapperContained); }
+public void onSetCursorItem(yarnwrap.network.packet.s2c.play.SetCursorItemS2CPacket packet) { wrapperContained.onSetCursorItem(packet.wrapperContained); }
+// public static void onSetCursorItem(yarnwrap.network.packet.s2c.play.SetCursorItemS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onSetCursorItem(packet.wrapperContained); }
+public void onSetPlayerInventory(yarnwrap.network.packet.s2c.play.SetPlayerInventoryS2CPacket packet) { wrapperContained.onSetPlayerInventory(packet.wrapperContained); }
+// public static void onSetPlayerInventory(yarnwrap.network.packet.s2c.play.SetPlayerInventoryS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onSetPlayerInventory(packet.wrapperContained); }
+public void onEntityPositionSync(yarnwrap.network.packet.s2c.play.EntityPositionSyncS2CPacket packet) { wrapperContained.onEntityPositionSync(packet.wrapperContained); }
+// public static void onEntityPositionSync(yarnwrap.network.packet.s2c.play.EntityPositionSyncS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onEntityPositionSync(packet.wrapperContained); }
+public void onPlayerRotation(yarnwrap.network.packet.s2c.play.PlayerRotationS2CPacket packet) { wrapperContained.onPlayerRotation(packet.wrapperContained); }
+// public static void onPlayerRotation(yarnwrap.network.packet.s2c.play.PlayerRotationS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onPlayerRotation(packet.wrapperContained); }
+public void onRecipeBookAdd(yarnwrap.network.packet.s2c.play.RecipeBookAddS2CPacket packet) { wrapperContained.onRecipeBookAdd(packet.wrapperContained); }
+// public static void onRecipeBookAdd(yarnwrap.network.packet.s2c.play.RecipeBookAddS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onRecipeBookAdd(packet.wrapperContained); }
+public void onRecipeBookSettings(yarnwrap.network.packet.s2c.play.RecipeBookSettingsS2CPacket packet) { wrapperContained.onRecipeBookSettings(packet.wrapperContained); }
+// public static void onRecipeBookSettings(yarnwrap.network.packet.s2c.play.RecipeBookSettingsS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onRecipeBookSettings(packet.wrapperContained); }
+public void onTestInstanceBlockStatus(yarnwrap.network.packet.s2c.play.TestInstanceBlockStatusS2CPacket packet) { wrapperContained.onTestInstanceBlockStatus(packet.wrapperContained); }
+// public static void onTestInstanceBlockStatus(yarnwrap.network.packet.s2c.play.TestInstanceBlockStatusS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onTestInstanceBlockStatus(packet.wrapperContained); }
+// public void onWaypoint(yarnwrap.network.packet.s2c.play.WaypointS2CPacket packet) { wrapperContained.onWaypoint(packet.wrapperContained); }
+// public static void onWaypoint(yarnwrap.network.packet.s2c.play.WaypointS2CPacket packet, ) { net.minecraft.network.listener.ClientPlayPacketListener.onWaypoint(packet.wrapperContained); }
 
 }

@@ -6,10 +6,10 @@ public class PerformanceMetricsEvent { public net.minecraft.client.session.telem
 // public static long MAX_MEMORY_KB() { return net.minecraft.client.session.telemetry.PerformanceMetricsEvent.MAX_MEMORY_KB; }
 // public static void MAX_MEMORY_KB(long value, ) { net.minecraft.client.session.telemetry.PerformanceMetricsEvent.MAX_MEMORY_KB = value; }
 
-// public it.unimi.dsi.fastutil.longs.LongList frameRateSamples() { return wrapperContained.frameRateSamples; }
-// public void frameRateSamples(it.unimi.dsi.fastutil.longs.LongList value) { wrapperContained.frameRateSamples = value; }
-// public static it.unimi.dsi.fastutil.longs.LongList frameRateSamples() { return net.minecraft.client.session.telemetry.PerformanceMetricsEvent.frameRateSamples; }
-// public static void frameRateSamples(it.unimi.dsi.fastutil.longs.LongList value, ) { net.minecraft.client.session.telemetry.PerformanceMetricsEvent.frameRateSamples = value; }
+// public it.unimi.dsi.fastutil.longs.LongList fpsSamples() { return wrapperContained.fpsSamples; }
+// public void fpsSamples(it.unimi.dsi.fastutil.longs.LongList value) { wrapperContained.fpsSamples = value; }
+// public static it.unimi.dsi.fastutil.longs.LongList fpsSamples() { return net.minecraft.client.session.telemetry.PerformanceMetricsEvent.fpsSamples; }
+// public static void fpsSamples(it.unimi.dsi.fastutil.longs.LongList value, ) { net.minecraft.client.session.telemetry.PerformanceMetricsEvent.fpsSamples = value; }
 
 // public it.unimi.dsi.fastutil.longs.LongList renderTimeSamples() { return wrapperContained.renderTimeSamples; }
 // public void renderTimeSamples(it.unimi.dsi.fastutil.longs.LongList value) { wrapperContained.renderTimeSamples = value; }

@@ -37,8 +37,6 @@ public class RideCommand { public net.minecraft.server.command.RideCommand wrapp
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.RideCommand.register(dispatcher); }
 // public int method_48079(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_48079(context); }
 // public static int method_48079(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.RideCommand.method_48079(context); }
-// public boolean method_48080(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_48080(source.wrapperContained); }
-// public static boolean method_48080(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.RideCommand.method_48080(source.wrapperContained); }
 // public int executeDismount(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity rider) { return wrapperContained.executeDismount(source.wrapperContained,rider.wrapperContained); }
 // public static int executeDismount(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity rider, ) { return net.minecraft.server.command.RideCommand.executeDismount(source.wrapperContained,rider.wrapperContained); }
 // public int executeMount(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity rider,yarnwrap.entity.Entity vehicle) { return wrapperContained.executeMount(source.wrapperContained,rider.wrapperContained,vehicle.wrapperContained); }

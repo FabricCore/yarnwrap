@@ -26,21 +26,28 @@ public static float KNOCKBACK_RANGE() { return net.minecraft.item.MaceItem.KNOCK
 // public static float KNOCKBACK_POWER() { return net.minecraft.item.MaceItem.KNOCKBACK_POWER; }
 // public static void KNOCKBACK_POWER(float value, ) { net.minecraft.item.MaceItem.KNOCKBACK_POWER = value; }
 
+// public float HEAVY_SMASH_SOUND_FALL_DISTANCE_THRESHOLD() { return wrapperContained.HEAVY_SMASH_SOUND_FALL_DISTANCE_THRESHOLD; }
+// public void HEAVY_SMASH_SOUND_FALL_DISTANCE_THRESHOLD(float value) { wrapperContained.HEAVY_SMASH_SOUND_FALL_DISTANCE_THRESHOLD = value; }
+// public static float HEAVY_SMASH_SOUND_FALL_DISTANCE_THRESHOLD() { return net.minecraft.item.MaceItem.HEAVY_SMASH_SOUND_FALL_DISTANCE_THRESHOLD; }
+// public static void HEAVY_SMASH_SOUND_FALL_DISTANCE_THRESHOLD(float value, ) { net.minecraft.item.MaceItem.HEAVY_SMASH_SOUND_FALL_DISTANCE_THRESHOLD = value; }
+
 // public void method_58409(yarnwrap.entity.Entity entity) { wrapperContained.method_58409(entity.wrapperContained); }
 // public static void method_58409(yarnwrap.entity.Entity entity, ) { net.minecraft.item.MaceItem.method_58409(entity.wrapperContained); }
-// public void knockbackNearbyEntities(yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.entity.Entity attacked) { wrapperContained.knockbackNearbyEntities(world.wrapperContained,player.wrapperContained,attacked.wrapperContained); }
-// public static void knockbackNearbyEntities(yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.entity.Entity attacked, ) { net.minecraft.item.MaceItem.knockbackNearbyEntities(world.wrapperContained,player.wrapperContained,attacked.wrapperContained); }
+// public void knockbackNearbyEntities(yarnwrap.world.World world,yarnwrap.entity.Entity attacker,yarnwrap.entity.Entity attacked) { wrapperContained.knockbackNearbyEntities(world.wrapperContained,attacker.wrapperContained,attacked.wrapperContained); }
+// public static void knockbackNearbyEntities(yarnwrap.world.World world,yarnwrap.entity.Entity attacker,yarnwrap.entity.Entity attacked, ) { net.minecraft.item.MaceItem.knockbackNearbyEntities(world.wrapperContained,attacker.wrapperContained,attacked.wrapperContained); }
 // public yarnwrap.component.type.ToolComponent createToolComponent() { return new yarnwrap.component.type.ToolComponent(wrapperContained.createToolComponent()); }
 public static yarnwrap.component.type.ToolComponent createToolComponent() { return new yarnwrap.component.type.ToolComponent(net.minecraft.item.MaceItem.createToolComponent()); }
 // public boolean shouldDealAdditionalDamage(yarnwrap.entity.LivingEntity attacker) { return wrapperContained.shouldDealAdditionalDamage(attacker.wrapperContained); }
 // public static boolean shouldDealAdditionalDamage(yarnwrap.entity.LivingEntity attacker, ) { return net.minecraft.item.MaceItem.shouldDealAdditionalDamage(attacker.wrapperContained); }
-// public java.util.function.Predicate getKnockbackPredicate(yarnwrap.entity.player.PlayerEntity player,yarnwrap.entity.Entity attacked) { return wrapperContained.getKnockbackPredicate(player.wrapperContained,attacked.wrapperContained); }
-// public static java.util.function.Predicate getKnockbackPredicate(yarnwrap.entity.player.PlayerEntity player,yarnwrap.entity.Entity attacked, ) { return net.minecraft.item.MaceItem.getKnockbackPredicate(player.wrapperContained,attacked.wrapperContained); }
-// public boolean method_58661(yarnwrap.entity.player.PlayerEntity entity) { return wrapperContained.method_58661(entity.wrapperContained); }
-// public static boolean method_58661(yarnwrap.entity.player.PlayerEntity entity, ) { return net.minecraft.item.MaceItem.method_58661(entity.wrapperContained); }
-// public double getKnockback(yarnwrap.entity.player.PlayerEntity player,yarnwrap.entity.LivingEntity attacked,yarnwrap.util.math.Vec3d distance) { return wrapperContained.getKnockback(player.wrapperContained,attacked.wrapperContained,distance.wrapperContained); }
-// public static double getKnockback(yarnwrap.entity.player.PlayerEntity player,yarnwrap.entity.LivingEntity attacked,yarnwrap.util.math.Vec3d distance, ) { return net.minecraft.item.MaceItem.getKnockback(player.wrapperContained,attacked.wrapperContained,distance.wrapperContained); }
+// public java.util.function.Predicate getKnockbackPredicate(yarnwrap.entity.Entity attacker,yarnwrap.entity.Entity attacked) { return wrapperContained.getKnockbackPredicate(attacker.wrapperContained,attacked.wrapperContained); }
+// public static java.util.function.Predicate getKnockbackPredicate(yarnwrap.entity.Entity attacker,yarnwrap.entity.Entity attacked, ) { return net.minecraft.item.MaceItem.getKnockbackPredicate(attacker.wrapperContained,attacked.wrapperContained); }
+// public boolean method_58661(yarnwrap.entity.Entity entity) { return wrapperContained.method_58661(entity.wrapperContained); }
+// public static boolean method_58661(yarnwrap.entity.Entity entity, ) { return net.minecraft.item.MaceItem.method_58661(entity.wrapperContained); }
+// public double getKnockback(yarnwrap.entity.Entity attacker,yarnwrap.entity.LivingEntity attacked,yarnwrap.util.math.Vec3d distance) { return wrapperContained.getKnockback(attacker.wrapperContained,attacked.wrapperContained,distance.wrapperContained); }
+// public static double getKnockback(yarnwrap.entity.Entity attacker,yarnwrap.entity.LivingEntity attacked,yarnwrap.util.math.Vec3d distance, ) { return net.minecraft.item.MaceItem.getKnockback(attacker.wrapperContained,attacked.wrapperContained,distance.wrapperContained); }
 // public yarnwrap.component.type.AttributeModifiersComponent createAttributeModifiers() { return new yarnwrap.component.type.AttributeModifiersComponent(wrapperContained.createAttributeModifiers()); }
 public static yarnwrap.component.type.AttributeModifiersComponent createAttributeModifiers() { return new yarnwrap.component.type.AttributeModifiersComponent(net.minecraft.item.MaceItem.createAttributeModifiers()); }
+// public yarnwrap.util.math.Vec3d getCurrentExplosionImpactPos(yarnwrap.server.network.ServerPlayerEntity player) { return new yarnwrap.util.math.Vec3d(wrapperContained.getCurrentExplosionImpactPos(player.wrapperContained)); }
+// public static yarnwrap.util.math.Vec3d getCurrentExplosionImpactPos(yarnwrap.server.network.ServerPlayerEntity player, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.item.MaceItem.getCurrentExplosionImpactPos(player.wrapperContained)); }
 
 }

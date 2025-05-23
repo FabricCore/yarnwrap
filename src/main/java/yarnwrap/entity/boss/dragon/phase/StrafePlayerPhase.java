@@ -1,11 +1,6 @@
 package yarnwrap.entity.boss.dragon.phase;
 public class StrafePlayerPhase { public net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase wrapperContained; public StrafePlayerPhase(net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int MINIMUM_TARGET_SPOT_AMOUNT() { return wrapperContained.MINIMUM_TARGET_SPOT_AMOUNT; }
-// public void MINIMUM_TARGET_SPOT_AMOUNT(int value) { wrapperContained.MINIMUM_TARGET_SPOT_AMOUNT = value; }
-// public static int MINIMUM_TARGET_SPOT_AMOUNT() { return net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase.MINIMUM_TARGET_SPOT_AMOUNT; }
-// public static void MINIMUM_TARGET_SPOT_AMOUNT(int value, ) { net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase.MINIMUM_TARGET_SPOT_AMOUNT = value; }
-
 // public yarnwrap.util.math.Vec3d pathTarget() { return new yarnwrap.util.math.Vec3d(wrapperContained.pathTarget); }
 // public void pathTarget(yarnwrap.util.math.Vec3d value) { wrapperContained.pathTarget = value.wrapperContained; }
 // public static yarnwrap.util.math.Vec3d pathTarget() { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase.pathTarget); }
@@ -35,6 +30,11 @@ public class StrafePlayerPhase { public net.minecraft.entity.boss.dragon.phase.S
 // public void target(yarnwrap.entity.LivingEntity value) { wrapperContained.target = value.wrapperContained; }
 // public static yarnwrap.entity.LivingEntity target() { return new yarnwrap.entity.LivingEntity(net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase.target); }
 // public static void target(yarnwrap.entity.LivingEntity value, ) { net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase.target = value.wrapperContained; }
+
+// public int MINIMUM_TARGET_SPOT_AMOUNT() { return wrapperContained.MINIMUM_TARGET_SPOT_AMOUNT; }
+// public void MINIMUM_TARGET_SPOT_AMOUNT(int value) { wrapperContained.MINIMUM_TARGET_SPOT_AMOUNT = value; }
+// public static int MINIMUM_TARGET_SPOT_AMOUNT() { return net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase.MINIMUM_TARGET_SPOT_AMOUNT; }
+// public static void MINIMUM_TARGET_SPOT_AMOUNT(int value, ) { net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase.MINIMUM_TARGET_SPOT_AMOUNT = value; }
 
 // public void updatePath() { wrapperContained.updatePath(); }
 // public static void updatePath() { net.minecraft.entity.boss.dragon.phase.StrafePlayerPhase.updatePath(); }

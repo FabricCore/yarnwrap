@@ -27,16 +27,16 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 // public static void enchantment(yarnwrap.registry.entry.RegistryEntry value, ) { net.minecraft.loot.function.EnchantedCountIncreaseLootFunction.enchantment = value.wrapperContained; }
 
 // public EnchantedCountIncreaseLootFunction(java.util.List conditions,yarnwrap.registry.entry.RegistryEntry enchantment,yarnwrap.loot.provider.number.LootNumberProvider count,int limit) { this.wrapperContained = new net.minecraft.loot.function.EnchantedCountIncreaseLootFunction(conditions,enchantment.wrapperContained,count.wrapperContained,limit); }
+// public Object builder(Object registries,yarnwrap.loot.provider.number.LootNumberProvider count) { return wrapperContained.builder(registries,count.wrapperContained); }
+// public static Object builder(Object registries,yarnwrap.loot.provider.number.LootNumberProvider count, ) { return net.minecraft.loot.function.EnchantedCountIncreaseLootFunction.builder(registries,count.wrapperContained); }
+// public boolean hasLimit() { return wrapperContained.hasLimit(); }
+// public static boolean hasLimit() { return net.minecraft.loot.function.EnchantedCountIncreaseLootFunction.hasLimit(); }
 // public java.lang.Integer method_53348(yarnwrap.loot.function.EnchantedCountIncreaseLootFunction function) { return wrapperContained.method_53348(function.wrapperContained); }
 // public static java.lang.Integer method_53348(yarnwrap.loot.function.EnchantedCountIncreaseLootFunction function, ) { return net.minecraft.loot.function.EnchantedCountIncreaseLootFunction.method_53348(function.wrapperContained); }
 // public com.mojang.datafixers.kinds.App method_53349(Object instance) { return wrapperContained.method_53349(instance); }
 // public static com.mojang.datafixers.kinds.App method_53349(Object instance, ) { return net.minecraft.loot.function.EnchantedCountIncreaseLootFunction.method_53349(instance); }
 // public yarnwrap.loot.provider.number.LootNumberProvider method_53350(yarnwrap.loot.function.EnchantedCountIncreaseLootFunction function) { return new yarnwrap.loot.provider.number.LootNumberProvider(wrapperContained.method_53350(function.wrapperContained)); }
 // public static yarnwrap.loot.provider.number.LootNumberProvider method_53350(yarnwrap.loot.function.EnchantedCountIncreaseLootFunction function, ) { return new yarnwrap.loot.provider.number.LootNumberProvider(net.minecraft.loot.function.EnchantedCountIncreaseLootFunction.method_53350(function.wrapperContained)); }
-// public Object builder(Object registryLookup,yarnwrap.loot.provider.number.LootNumberProvider count) { return wrapperContained.builder(registryLookup,count.wrapperContained); }
-// public static Object builder(Object registryLookup,yarnwrap.loot.provider.number.LootNumberProvider count, ) { return net.minecraft.loot.function.EnchantedCountIncreaseLootFunction.builder(registryLookup,count.wrapperContained); }
-// public boolean hasLimit() { return wrapperContained.hasLimit(); }
-// public static boolean hasLimit() { return net.minecraft.loot.function.EnchantedCountIncreaseLootFunction.hasLimit(); }
 // public yarnwrap.registry.entry.RegistryEntry method_60296(yarnwrap.loot.function.EnchantedCountIncreaseLootFunction function) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.method_60296(function.wrapperContained)); }
 // public static yarnwrap.registry.entry.RegistryEntry method_60296(yarnwrap.loot.function.EnchantedCountIncreaseLootFunction function, ) { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.loot.function.EnchantedCountIncreaseLootFunction.method_60296(function.wrapperContained)); }
 

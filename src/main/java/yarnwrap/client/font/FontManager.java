@@ -64,8 +64,8 @@ public yarnwrap.client.font.TextRenderer createAdvanceValidatingTextRenderer() {
 // public static java.util.concurrent.CompletableFuture loadIndex(yarnwrap.resource.ResourceManager resourceManager,java.util.concurrent.Executor executor, ) { return net.minecraft.client.font.FontManager.loadIndex(resourceManager.wrapperContained,executor); }
 // public void method_51609(yarnwrap.resource.DependencyTracker entry) { wrapperContained.method_51609(entry.wrapperContained); }
 // public static void method_51609(yarnwrap.resource.DependencyTracker entry, ) { net.minecraft.client.font.FontManager.method_51609(entry.wrapperContained); }
-// public void method_51610(yarnwrap.util.profiler.Profiler index) { wrapperContained.method_51610(index.wrapperContained); }
-// public static void method_51610(yarnwrap.util.profiler.Profiler index, ) { net.minecraft.client.font.FontManager.method_51610(index.wrapperContained); }
+// public void method_51610(Object index) { wrapperContained.method_51610(index); }
+// public static void method_51610(Object index, ) { net.minecraft.client.font.FontManager.method_51610(index); }
 // public java.util.concurrent.CompletableFuture method_51611(Object dest) { return wrapperContained.method_51611(dest); }
 // public static java.util.concurrent.CompletableFuture method_51611(Object dest, ) { return net.minecraft.client.font.FontManager.method_51611(dest); }
 // public void method_51612(Object loadable) { wrapperContained.method_51612(loadable); }

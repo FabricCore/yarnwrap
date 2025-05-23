@@ -32,6 +32,12 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.entity.attribute.EntityAttribute.PACKET_CODEC = value.wrapperContained; }
 
 // public EntityAttribute(java.lang.String translationKey,double fallback) { this.wrapperContained = new net.minecraft.entity.attribute.EntityAttribute(translationKey,fallback); }
+public double clamp(double value) { return wrapperContained.clamp(value); }
+// public static double clamp(double value, ) { return net.minecraft.entity.attribute.EntityAttribute.clamp(value); }
+public boolean isTracked() { return wrapperContained.isTracked(); }
+// public static boolean isTracked() { return net.minecraft.entity.attribute.EntityAttribute.isTracked(); }
+public double getDefaultValue() { return wrapperContained.getDefaultValue(); }
+// public static double getDefaultValue() { return net.minecraft.entity.attribute.EntityAttribute.getDefaultValue(); }
 public yarnwrap.entity.attribute.EntityAttribute setTracked(boolean tracked) { return new yarnwrap.entity.attribute.EntityAttribute(wrapperContained.setTracked(tracked)); }
 // public static yarnwrap.entity.attribute.EntityAttribute setTracked(boolean tracked, ) { return new yarnwrap.entity.attribute.EntityAttribute(net.minecraft.entity.attribute.EntityAttribute.setTracked(tracked)); }
 public java.lang.String getTranslationKey() { return wrapperContained.getTranslationKey(); }
@@ -40,11 +46,5 @@ public java.lang.String getTranslationKey() { return wrapperContained.getTransla
 // public static yarnwrap.entity.attribute.EntityAttribute setCategory(Object category, ) { return new yarnwrap.entity.attribute.EntityAttribute(net.minecraft.entity.attribute.EntityAttribute.setCategory(category)); }
 public yarnwrap.util.Formatting getFormatting(boolean addition) { return new yarnwrap.util.Formatting(wrapperContained.getFormatting(addition)); }
 // public static yarnwrap.util.Formatting getFormatting(boolean addition, ) { return new yarnwrap.util.Formatting(net.minecraft.entity.attribute.EntityAttribute.getFormatting(addition)); }
-public double clamp(double value) { return wrapperContained.clamp(value); }
-// public static double clamp(double value, ) { return net.minecraft.entity.attribute.EntityAttribute.clamp(value); }
-public boolean isTracked() { return wrapperContained.isTracked(); }
-// public static boolean isTracked() { return net.minecraft.entity.attribute.EntityAttribute.isTracked(); }
-public double getDefaultValue() { return wrapperContained.getDefaultValue(); }
-// public static double getDefaultValue() { return net.minecraft.entity.attribute.EntityAttribute.getDefaultValue(); }
 
 }

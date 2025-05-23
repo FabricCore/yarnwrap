@@ -6,6 +6,7 @@ public class HoeItem { public net.minecraft.item.HoeItem wrapperContained; publi
 // public static java.util.Map TILLING_ACTIONS() { return net.minecraft.item.HoeItem.TILLING_ACTIONS; }
 // public static void TILLING_ACTIONS(java.util.Map value, ) { net.minecraft.item.HoeItem.TILLING_ACTIONS = value; }
 
+// public HoeItem(yarnwrap.item.ToolMaterial material,float attackDamage,float attackSpeed,Object settings) { this.wrapperContained = new net.minecraft.item.HoeItem(material.wrapperContained,attackDamage,attackSpeed,settings); }
 // public void method_36984(yarnwrap.block.BlockState context) { wrapperContained.method_36984(context.wrapperContained); }
 // public static void method_36984(yarnwrap.block.BlockState context, ) { net.minecraft.item.HoeItem.method_36984(context.wrapperContained); }
 // public java.util.function.Consumer createTillAndDropAction(yarnwrap.block.BlockState result,yarnwrap.item.ItemConvertible droppedItem) { return wrapperContained.createTillAndDropAction(result.wrapperContained,droppedItem.wrapperContained); }

@@ -30,9 +30,15 @@ public boolean contains(yarnwrap.item.Item item) { return wrapperContained.conta
 // public static boolean contains(yarnwrap.item.Item item, ) { return net.minecraft.component.type.ChargedProjectilesComponent.contains(item.wrapperContained); }
 // public yarnwrap.component.type.ChargedProjectilesComponent of(yarnwrap.item.ItemStack projectile) { return new yarnwrap.component.type.ChargedProjectilesComponent(wrapperContained.of(projectile.wrapperContained)); }
 // public static yarnwrap.component.type.ChargedProjectilesComponent of(yarnwrap.item.ItemStack projectile, ) { return new yarnwrap.component.type.ChargedProjectilesComponent(net.minecraft.component.type.ChargedProjectilesComponent.of(projectile.wrapperContained)); }
+// public java.util.List method_57440(yarnwrap.component.type.ChargedProjectilesComponent component) { return wrapperContained.method_57440(component.wrapperContained); }
+// public static java.util.List method_57440(yarnwrap.component.type.ChargedProjectilesComponent component, ) { return net.minecraft.component.type.ChargedProjectilesComponent.method_57440(component.wrapperContained); }
 // public yarnwrap.component.type.ChargedProjectilesComponent of(java.util.List projectiles) { return new yarnwrap.component.type.ChargedProjectilesComponent(wrapperContained.of(projectiles)); }
 // public static yarnwrap.component.type.ChargedProjectilesComponent of(java.util.List projectiles, ) { return new yarnwrap.component.type.ChargedProjectilesComponent(net.minecraft.component.type.ChargedProjectilesComponent.of(projectiles)); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 // public static boolean isEmpty() { return net.minecraft.component.type.ChargedProjectilesComponent.isEmpty(); }
+// public void appendProjectileTooltip(Object context,java.util.function.Consumer textConsumer,yarnwrap.item.ItemStack projectile,int count) { wrapperContained.appendProjectileTooltip(context,textConsumer,projectile.wrapperContained,count); }
+// public static void appendProjectileTooltip(Object context,java.util.function.Consumer textConsumer,yarnwrap.item.ItemStack projectile,int count, ) { net.minecraft.component.type.ChargedProjectilesComponent.appendProjectileTooltip(context,textConsumer,projectile.wrapperContained,count); }
+// public void method_67536(java.util.function.Consumer tooltip) { wrapperContained.method_67536(tooltip); }
+// public static void method_67536(java.util.function.Consumer tooltip, ) { net.minecraft.component.type.ChargedProjectilesComponent.method_67536(tooltip); }
 
 }

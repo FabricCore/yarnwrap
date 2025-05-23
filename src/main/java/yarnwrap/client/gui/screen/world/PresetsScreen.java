@@ -1,16 +1,6 @@
 package yarnwrap.client.gui.screen.world;
 public class PresetsScreen { public net.minecraft.client.gui.screen.world.PresetsScreen wrapperContained; public PresetsScreen(net.minecraft.client.gui.screen.world.PresetsScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.gui.screen.world.PresetsScreen.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.gui.screen.world.PresetsScreen.LOGGER = value; }
-
-// public yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config() { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(wrapperContained.config); }
-// public void config(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig value) { wrapperContained.config = value.wrapperContained; }
-// public static yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config() { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(net.minecraft.client.gui.screen.world.PresetsScreen.config); }
-// public static void config(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig value, ) { net.minecraft.client.gui.screen.world.PresetsScreen.config = value.wrapperContained; }
-
 // public yarnwrap.client.gui.screen.world.CustomizeFlatLevelScreen parent() { return new yarnwrap.client.gui.screen.world.CustomizeFlatLevelScreen(wrapperContained.parent); }
 // public void parent(yarnwrap.client.gui.screen.world.CustomizeFlatLevelScreen value) { wrapperContained.parent = value.wrapperContained; }
 // public static yarnwrap.client.gui.screen.world.CustomizeFlatLevelScreen parent() { return new yarnwrap.client.gui.screen.world.CustomizeFlatLevelScreen(net.minecraft.client.gui.screen.world.PresetsScreen.parent); }
@@ -40,6 +30,16 @@ public class PresetsScreen { public net.minecraft.client.gui.screen.world.Preset
 // public void selectPresetButton(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.selectPresetButton = value.wrapperContained; }
 // public static yarnwrap.client.gui.widget.ButtonWidget selectPresetButton() { return new yarnwrap.client.gui.widget.ButtonWidget(net.minecraft.client.gui.screen.world.PresetsScreen.selectPresetButton); }
 // public static void selectPresetButton(yarnwrap.client.gui.widget.ButtonWidget value, ) { net.minecraft.client.gui.screen.world.PresetsScreen.selectPresetButton = value.wrapperContained; }
+
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.gui.screen.world.PresetsScreen.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.gui.screen.world.PresetsScreen.LOGGER = value; }
+
+// public yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config() { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(wrapperContained.config); }
+// public void config(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig value) { wrapperContained.config = value.wrapperContained; }
+// public static yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config() { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(net.minecraft.client.gui.screen.world.PresetsScreen.config); }
+// public static void config(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig value, ) { net.minecraft.client.gui.screen.world.PresetsScreen.config = value.wrapperContained; }
 
 // public yarnwrap.registry.RegistryKey BIOME_KEY() { return new yarnwrap.registry.RegistryKey(wrapperContained.BIOME_KEY); }
 // public void BIOME_KEY(yarnwrap.registry.RegistryKey value) { wrapperContained.BIOME_KEY = value.wrapperContained; }

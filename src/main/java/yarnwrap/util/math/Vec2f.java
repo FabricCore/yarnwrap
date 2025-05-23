@@ -51,6 +51,11 @@ public float x() { return wrapperContained.x; }
 public static yarnwrap.util.math.Vec2f NORTH_UNIT() { return new yarnwrap.util.math.Vec2f(net.minecraft.util.math.Vec2f.NORTH_UNIT); }
 // public static void NORTH_UNIT(yarnwrap.util.math.Vec2f value, ) { net.minecraft.util.math.Vec2f.NORTH_UNIT = value.wrapperContained; }
 
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.util.math.Vec2f.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.util.math.Vec2f.CODEC = value; }
+
 public Vec2f(float x,float y) { this.wrapperContained = new net.minecraft.util.math.Vec2f(x,y); }
 public boolean equals(yarnwrap.util.math.Vec2f other) { return wrapperContained.equals(other.wrapperContained); }
 // public static boolean equals(yarnwrap.util.math.Vec2f other, ) { return net.minecraft.util.math.Vec2f.equals(other.wrapperContained); }
@@ -72,5 +77,11 @@ public yarnwrap.util.math.Vec2f negate() { return new yarnwrap.util.math.Vec2f(w
 // public static yarnwrap.util.math.Vec2f negate() { return new yarnwrap.util.math.Vec2f(net.minecraft.util.math.Vec2f.negate()); }
 public float distanceSquared(yarnwrap.util.math.Vec2f vec) { return wrapperContained.distanceSquared(vec.wrapperContained); }
 // public static float distanceSquared(yarnwrap.util.math.Vec2f vec, ) { return net.minecraft.util.math.Vec2f.distanceSquared(vec.wrapperContained); }
+// public com.mojang.serialization.DataResult method_67710(java.util.List rawList) { return wrapperContained.method_67710(rawList); }
+// public static com.mojang.serialization.DataResult method_67710(java.util.List rawList, ) { return net.minecraft.util.math.Vec2f.method_67710(rawList); }
+// public yarnwrap.util.math.Vec2f method_67711(java.util.List list) { return new yarnwrap.util.math.Vec2f(wrapperContained.method_67711(list)); }
+// public static yarnwrap.util.math.Vec2f method_67711(java.util.List list, ) { return new yarnwrap.util.math.Vec2f(net.minecraft.util.math.Vec2f.method_67711(list)); }
+// public java.util.List method_67712(yarnwrap.util.math.Vec2f vec) { return wrapperContained.method_67712(vec.wrapperContained); }
+// public static java.util.List method_67712(yarnwrap.util.math.Vec2f vec, ) { return net.minecraft.util.math.Vec2f.method_67712(vec.wrapperContained); }
 
 }

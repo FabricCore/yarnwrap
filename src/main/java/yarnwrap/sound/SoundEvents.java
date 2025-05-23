@@ -11,6 +11,11 @@ public static int GOAT_HORN_SOUND_COUNT() { return net.minecraft.sound.SoundEven
 public static com.google.common.collect.ImmutableList GOAT_HORN_SOUNDS() { return net.minecraft.sound.SoundEvents.GOAT_HORN_SOUNDS; }
 // public static void GOAT_HORN_SOUNDS(com.google.common.collect.ImmutableList value, ) { net.minecraft.sound.SoundEvents.GOAT_HORN_SOUNDS = value; }
 
+// public java.util.Map WOLF_SOUNDS() { return wrapperContained.WOLF_SOUNDS; }
+// public void WOLF_SOUNDS(java.util.Map value) { wrapperContained.WOLF_SOUNDS = value; }
+public static java.util.Map WOLF_SOUNDS() { return net.minecraft.sound.SoundEvents.WOLF_SOUNDS; }
+// public static void WOLF_SOUNDS(java.util.Map value, ) { net.minecraft.sound.SoundEvents.WOLF_SOUNDS = value; }
+
 // public yarnwrap.sound.SoundEvent register(java.lang.String id) { return new yarnwrap.sound.SoundEvent(wrapperContained.register(id)); }
 // public static yarnwrap.sound.SoundEvent register(java.lang.String id, ) { return new yarnwrap.sound.SoundEvent(net.minecraft.sound.SoundEvents.register(id)); }
 // public yarnwrap.registry.entry.RegistryEntry register(yarnwrap.util.Identifier id,yarnwrap.util.Identifier soundId,float distanceToTravel) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.register(id.wrapperContained,soundId.wrapperContained,distanceToTravel)); }
@@ -29,5 +34,11 @@ public static com.google.common.collect.ImmutableList GOAT_HORN_SOUNDS() { retur
 // public static Object registerReference(yarnwrap.util.Identifier id,yarnwrap.util.Identifier soundId, ) { return net.minecraft.sound.SoundEvents.registerReference(id.wrapperContained,soundId.wrapperContained); }
 // public Object registerReference(java.lang.String id) { return wrapperContained.registerReference(id); }
 // public static Object registerReference(java.lang.String id, ) { return net.minecraft.sound.SoundEvents.registerReference(id); }
+// public yarnwrap.entity.passive.WolfSoundVariant method_68125(Object type) { return new yarnwrap.entity.passive.WolfSoundVariant(wrapperContained.method_68125(type)); }
+// public static yarnwrap.entity.passive.WolfSoundVariant method_68125(Object type, ) { return new yarnwrap.entity.passive.WolfSoundVariant(net.minecraft.sound.SoundEvents.method_68125(type)); }
+// public java.util.Map createWolfSoundMap() { return wrapperContained.createWolfSoundMap(); }
+// public static java.util.Map createWolfSoundMap() { return net.minecraft.sound.SoundEvents.createWolfSoundMap(); }
+// public Object method_68127(Object type) { return wrapperContained.method_68127(type); }
+// public static Object method_68127(Object type, ) { return net.minecraft.sound.SoundEvents.method_68127(type); }
 
 }

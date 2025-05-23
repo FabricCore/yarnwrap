@@ -14,5 +14,7 @@ public static yarnwrap.registry.RegistryKey EMPTY() { return new yarnwrap.regist
 // public static yarnwrap.registry.RegistryKey ofVanilla(java.lang.String id, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.structure.pool.StructurePools.ofVanilla(id)); }
 // public yarnwrap.registry.RegistryKey of(java.lang.String id) { return new yarnwrap.registry.RegistryKey(wrapperContained.of(id)); }
 // public static yarnwrap.registry.RegistryKey of(java.lang.String id, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.structure.pool.StructurePools.of(id)); }
+// public yarnwrap.registry.RegistryKey of(yarnwrap.util.Identifier id) { return new yarnwrap.registry.RegistryKey(wrapperContained.of(id.wrapperContained)); }
+// public static yarnwrap.registry.RegistryKey of(yarnwrap.util.Identifier id, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.structure.pool.StructurePools.of(id.wrapperContained)); }
 
 }

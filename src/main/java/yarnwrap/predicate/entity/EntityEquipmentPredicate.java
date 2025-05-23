@@ -10,7 +10,7 @@ public boolean test(yarnwrap.entity.Entity entity) { return wrapperContained.tes
 // public static boolean test(yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityEquipmentPredicate.test(entity.wrapperContained); }
 // public com.mojang.datafixers.kinds.App method_53129(Object instance) { return wrapperContained.method_53129(instance); }
 // public static com.mojang.datafixers.kinds.App method_53129(Object instance, ) { return net.minecraft.predicate.entity.EntityEquipmentPredicate.method_53129(instance); }
-// public yarnwrap.predicate.entity.EntityEquipmentPredicate ominousBannerOnHead(yarnwrap.registry.RegistryEntryLookup bannerPatternLookup) { return new yarnwrap.predicate.entity.EntityEquipmentPredicate(wrapperContained.ominousBannerOnHead(bannerPatternLookup.wrapperContained)); }
-// public static yarnwrap.predicate.entity.EntityEquipmentPredicate ominousBannerOnHead(yarnwrap.registry.RegistryEntryLookup bannerPatternLookup, ) { return new yarnwrap.predicate.entity.EntityEquipmentPredicate(net.minecraft.predicate.entity.EntityEquipmentPredicate.ominousBannerOnHead(bannerPatternLookup.wrapperContained)); }
+// public yarnwrap.predicate.entity.EntityEquipmentPredicate ominousBannerOnHead(yarnwrap.registry.RegistryEntryLookup itemLookup,yarnwrap.registry.RegistryEntryLookup bannerPatternLookup) { return new yarnwrap.predicate.entity.EntityEquipmentPredicate(wrapperContained.ominousBannerOnHead(itemLookup.wrapperContained,bannerPatternLookup.wrapperContained)); }
+// public static yarnwrap.predicate.entity.EntityEquipmentPredicate ominousBannerOnHead(yarnwrap.registry.RegistryEntryLookup itemLookup,yarnwrap.registry.RegistryEntryLookup bannerPatternLookup, ) { return new yarnwrap.predicate.entity.EntityEquipmentPredicate(net.minecraft.predicate.entity.EntityEquipmentPredicate.ominousBannerOnHead(itemLookup.wrapperContained,bannerPatternLookup.wrapperContained)); }
 
 }

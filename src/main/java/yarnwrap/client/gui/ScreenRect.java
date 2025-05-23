@@ -37,5 +37,13 @@ public yarnwrap.client.gui.ScreenRect intersection(yarnwrap.client.gui.ScreenRec
 // public static yarnwrap.client.gui.ScreenRect intersection(yarnwrap.client.gui.ScreenRect other, ) { return new yarnwrap.client.gui.ScreenRect(net.minecraft.client.gui.ScreenRect.intersection(other.wrapperContained)); }
 public boolean contains(int x,int y) { return wrapperContained.contains(x,y); }
 // public static boolean contains(int x,int y, ) { return net.minecraft.client.gui.ScreenRect.contains(x,y); }
+// public yarnwrap.client.gui.ScreenRect transform(org.joml.Matrix3x2f transformation) { return new yarnwrap.client.gui.ScreenRect(wrapperContained.transform(transformation)); }
+// public static yarnwrap.client.gui.ScreenRect transform(org.joml.Matrix3x2f transformation, ) { return new yarnwrap.client.gui.ScreenRect(net.minecraft.client.gui.ScreenRect.transform(transformation)); }
+// public yarnwrap.client.gui.ScreenRect transformEachVertex(org.joml.Matrix3x2f transformation) { return new yarnwrap.client.gui.ScreenRect(wrapperContained.transformEachVertex(transformation)); }
+// public static yarnwrap.client.gui.ScreenRect transformEachVertex(org.joml.Matrix3x2f transformation, ) { return new yarnwrap.client.gui.ScreenRect(net.minecraft.client.gui.ScreenRect.transformEachVertex(transformation)); }
+// public boolean intersects(yarnwrap.client.gui.ScreenRect other) { return wrapperContained.intersects(other.wrapperContained); }
+// public static boolean intersects(yarnwrap.client.gui.ScreenRect other, ) { return net.minecraft.client.gui.ScreenRect.intersects(other.wrapperContained); }
+// public boolean contains(yarnwrap.client.gui.ScreenRect other) { return wrapperContained.contains(other.wrapperContained); }
+// public static boolean contains(yarnwrap.client.gui.ScreenRect other, ) { return net.minecraft.client.gui.ScreenRect.contains(other.wrapperContained); }
 
 }

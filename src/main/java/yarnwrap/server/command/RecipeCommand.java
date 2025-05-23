@@ -25,7 +25,5 @@ public class RecipeCommand { public net.minecraft.server.command.RecipeCommand w
 // public static int executeGive(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,java.util.Collection recipes, ) { return net.minecraft.server.command.RecipeCommand.executeGive(source.wrapperContained,targets,recipes); }
 // public int method_13521(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13521(context); }
 // public static int method_13521(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.RecipeCommand.method_13521(context); }
-// public boolean method_13522(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13522(source.wrapperContained); }
-// public static boolean method_13522(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.RecipeCommand.method_13522(source.wrapperContained); }
 
 }

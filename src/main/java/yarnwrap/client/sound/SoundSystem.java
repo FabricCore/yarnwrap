@@ -1,6 +1,61 @@
 package yarnwrap.client.sound;
 public class SoundSystem { public net.minecraft.client.sound.SoundSystem wrapperContained; public SoundSystem(net.minecraft.client.sound.SoundSystem wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public int ticks() { return wrapperContained.ticks; }
+// public void ticks(int value) { wrapperContained.ticks = value; }
+// public static int ticks() { return net.minecraft.client.sound.SoundSystem.ticks; }
+// public static void ticks(int value, ) { net.minecraft.client.sound.SoundSystem.ticks = value; }
+
+// public java.util.List preloadedSounds() { return wrapperContained.preloadedSounds; }
+// public void preloadedSounds(java.util.List value) { wrapperContained.preloadedSounds = value; }
+// public static java.util.List preloadedSounds() { return net.minecraft.client.sound.SoundSystem.preloadedSounds; }
+// public static void preloadedSounds(java.util.List value, ) { net.minecraft.client.sound.SoundSystem.preloadedSounds = value; }
+
+// public yarnwrap.client.sound.SoundManager loader() { return new yarnwrap.client.sound.SoundManager(wrapperContained.loader); }
+// public void loader(yarnwrap.client.sound.SoundManager value) { wrapperContained.loader = value.wrapperContained; }
+// public static yarnwrap.client.sound.SoundManager loader() { return new yarnwrap.client.sound.SoundManager(net.minecraft.client.sound.SoundSystem.loader); }
+// public static void loader(yarnwrap.client.sound.SoundManager value, ) { net.minecraft.client.sound.SoundSystem.loader = value.wrapperContained; }
+
+// public org.slf4j.Marker MARKER() { return wrapperContained.MARKER; }
+// public void MARKER(org.slf4j.Marker value) { wrapperContained.MARKER = value; }
+// public static org.slf4j.Marker MARKER() { return net.minecraft.client.sound.SoundSystem.MARKER; }
+// public static void MARKER(org.slf4j.Marker value, ) { net.minecraft.client.sound.SoundSystem.MARKER = value; }
+
+// public yarnwrap.client.option.GameOptions settings() { return new yarnwrap.client.option.GameOptions(wrapperContained.settings); }
+// public void settings(yarnwrap.client.option.GameOptions value) { wrapperContained.settings = value.wrapperContained; }
+// public static yarnwrap.client.option.GameOptions settings() { return new yarnwrap.client.option.GameOptions(net.minecraft.client.sound.SoundSystem.settings); }
+// public static void settings(yarnwrap.client.option.GameOptions value, ) { net.minecraft.client.sound.SoundSystem.settings = value.wrapperContained; }
+
+// public java.util.List tickingSounds() { return wrapperContained.tickingSounds; }
+// public void tickingSounds(java.util.List value) { wrapperContained.tickingSounds = value; }
+// public static java.util.List tickingSounds() { return net.minecraft.client.sound.SoundSystem.tickingSounds; }
+// public static void tickingSounds(java.util.List value, ) { net.minecraft.client.sound.SoundSystem.tickingSounds = value; }
+
+// public java.util.List listeners() { return wrapperContained.listeners; }
+// public void listeners(java.util.List value) { wrapperContained.listeners = value; }
+// public static java.util.List listeners() { return net.minecraft.client.sound.SoundSystem.listeners; }
+// public static void listeners(java.util.List value, ) { net.minecraft.client.sound.SoundSystem.listeners = value; }
+
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.sound.SoundSystem.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.sound.SoundSystem.LOGGER = value; }
+
+// public java.util.Set UNKNOWN_SOUNDS() { return wrapperContained.UNKNOWN_SOUNDS; }
+// public void UNKNOWN_SOUNDS(java.util.Set value) { wrapperContained.UNKNOWN_SOUNDS = value; }
+// public static java.util.Set UNKNOWN_SOUNDS() { return net.minecraft.client.sound.SoundSystem.UNKNOWN_SOUNDS; }
+// public static void UNKNOWN_SOUNDS(java.util.Set value, ) { net.minecraft.client.sound.SoundSystem.UNKNOWN_SOUNDS = value; }
+
+// public boolean started() { return wrapperContained.started; }
+// public void started(boolean value) { wrapperContained.started = value; }
+// public static boolean started() { return net.minecraft.client.sound.SoundSystem.started; }
+// public static void started(boolean value, ) { net.minecraft.client.sound.SoundSystem.started = value; }
+
+// public java.util.Map soundStartTicks() { return wrapperContained.soundStartTicks; }
+// public void soundStartTicks(java.util.Map value) { wrapperContained.soundStartTicks = value; }
+// public static java.util.Map soundStartTicks() { return net.minecraft.client.sound.SoundSystem.soundStartTicks; }
+// public static void soundStartTicks(java.util.Map value, ) { net.minecraft.client.sound.SoundSystem.soundStartTicks = value; }
+
 // public yarnwrap.client.sound.SoundEngine soundEngine() { return new yarnwrap.client.sound.SoundEngine(wrapperContained.soundEngine); }
 // public void soundEngine(yarnwrap.client.sound.SoundEngine value) { wrapperContained.soundEngine = value.wrapperContained; }
 // public static yarnwrap.client.sound.SoundEngine soundEngine() { return new yarnwrap.client.sound.SoundEngine(net.minecraft.client.sound.SoundSystem.soundEngine); }
@@ -96,62 +151,38 @@ public static int OPENAL_SOFT_ON_LENGTH() { return net.minecraft.client.sound.So
 // public static java.util.concurrent.atomic.AtomicReference deviceChangeStatus() { return net.minecraft.client.sound.SoundSystem.deviceChangeStatus; }
 // public static void deviceChangeStatus(java.util.concurrent.atomic.AtomicReference value, ) { net.minecraft.client.sound.SoundSystem.deviceChangeStatus = value; }
 
-// public int ticks() { return wrapperContained.ticks; }
-// public void ticks(int value) { wrapperContained.ticks = value; }
-// public static int ticks() { return net.minecraft.client.sound.SoundSystem.ticks; }
-// public static void ticks(int value, ) { net.minecraft.client.sound.SoundSystem.ticks = value; }
-
-// public java.util.List preloadedSounds() { return wrapperContained.preloadedSounds; }
-// public void preloadedSounds(java.util.List value) { wrapperContained.preloadedSounds = value; }
-// public static java.util.List preloadedSounds() { return net.minecraft.client.sound.SoundSystem.preloadedSounds; }
-// public static void preloadedSounds(java.util.List value, ) { net.minecraft.client.sound.SoundSystem.preloadedSounds = value; }
-
-// public yarnwrap.client.sound.SoundManager loader() { return new yarnwrap.client.sound.SoundManager(wrapperContained.loader); }
-// public void loader(yarnwrap.client.sound.SoundManager value) { wrapperContained.loader = value.wrapperContained; }
-// public static yarnwrap.client.sound.SoundManager loader() { return new yarnwrap.client.sound.SoundManager(net.minecraft.client.sound.SoundSystem.loader); }
-// public static void loader(yarnwrap.client.sound.SoundManager value, ) { net.minecraft.client.sound.SoundSystem.loader = value.wrapperContained; }
-
-// public org.slf4j.Marker MARKER() { return wrapperContained.MARKER; }
-// public void MARKER(org.slf4j.Marker value) { wrapperContained.MARKER = value; }
-// public static org.slf4j.Marker MARKER() { return net.minecraft.client.sound.SoundSystem.MARKER; }
-// public static void MARKER(org.slf4j.Marker value, ) { net.minecraft.client.sound.SoundSystem.MARKER = value; }
-
-// public yarnwrap.client.option.GameOptions settings() { return new yarnwrap.client.option.GameOptions(wrapperContained.settings); }
-// public void settings(yarnwrap.client.option.GameOptions value) { wrapperContained.settings = value.wrapperContained; }
-// public static yarnwrap.client.option.GameOptions settings() { return new yarnwrap.client.option.GameOptions(net.minecraft.client.sound.SoundSystem.settings); }
-// public static void settings(yarnwrap.client.option.GameOptions value, ) { net.minecraft.client.sound.SoundSystem.settings = value.wrapperContained; }
-
-// public java.util.List tickingSounds() { return wrapperContained.tickingSounds; }
-// public void tickingSounds(java.util.List value) { wrapperContained.tickingSounds = value; }
-// public static java.util.List tickingSounds() { return net.minecraft.client.sound.SoundSystem.tickingSounds; }
-// public static void tickingSounds(java.util.List value, ) { net.minecraft.client.sound.SoundSystem.tickingSounds = value; }
-
-// public java.util.List listeners() { return wrapperContained.listeners; }
-// public void listeners(java.util.List value) { wrapperContained.listeners = value; }
-// public static java.util.List listeners() { return net.minecraft.client.sound.SoundSystem.listeners; }
-// public static void listeners(java.util.List value, ) { net.minecraft.client.sound.SoundSystem.listeners = value; }
-
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.sound.SoundSystem.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.sound.SoundSystem.LOGGER = value; }
-
-// public java.util.Set UNKNOWN_SOUNDS() { return wrapperContained.UNKNOWN_SOUNDS; }
-// public void UNKNOWN_SOUNDS(java.util.Set value) { wrapperContained.UNKNOWN_SOUNDS = value; }
-// public static java.util.Set UNKNOWN_SOUNDS() { return net.minecraft.client.sound.SoundSystem.UNKNOWN_SOUNDS; }
-// public static void UNKNOWN_SOUNDS(java.util.Set value, ) { net.minecraft.client.sound.SoundSystem.UNKNOWN_SOUNDS = value; }
-
-// public boolean started() { return wrapperContained.started; }
-// public void started(boolean value) { wrapperContained.started = value; }
-// public static boolean started() { return net.minecraft.client.sound.SoundSystem.started; }
-// public static void started(boolean value, ) { net.minecraft.client.sound.SoundSystem.started = value; }
-
-// public java.util.Map startTicks() { return wrapperContained.startTicks; }
-// public void startTicks(java.util.Map value) { wrapperContained.startTicks = value; }
-// public static java.util.Map startTicks() { return net.minecraft.client.sound.SoundSystem.startTicks; }
-// public static void startTicks(java.util.Map value, ) { net.minecraft.client.sound.SoundSystem.startTicks = value; }
-
-public SoundSystem(yarnwrap.client.sound.SoundManager loader,yarnwrap.client.option.GameOptions settings,yarnwrap.resource.ResourceFactory resourceFactory) { this.wrapperContained = new net.minecraft.client.sound.SoundSystem(loader.wrapperContained,settings.wrapperContained,resourceFactory.wrapperContained); }
+public boolean isPlaying(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.isPlaying(sound.wrapperContained); }
+// public static boolean isPlaying(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.isPlaying(sound.wrapperContained); }
+public void reloadSounds() { wrapperContained.reloadSounds(); }
+// public static void reloadSounds() { net.minecraft.client.sound.SoundSystem.reloadSounds(); }
+public void stopSounds(yarnwrap.util.Identifier id,yarnwrap.sound.SoundCategory category) { wrapperContained.stopSounds(id.wrapperContained,category.wrapperContained); }
+// public static void stopSounds(yarnwrap.util.Identifier id,yarnwrap.sound.SoundCategory category, ) { net.minecraft.client.sound.SoundSystem.stopSounds(id.wrapperContained,category.wrapperContained); }
+public void updateListenerPosition(yarnwrap.client.render.Camera camera) { wrapperContained.updateListenerPosition(camera.wrapperContained); }
+// public static void updateListenerPosition(yarnwrap.client.render.Camera camera, ) { net.minecraft.client.sound.SoundSystem.updateListenerPosition(camera.wrapperContained); }
+public void stopAll() { wrapperContained.stopAll(); }
+// public static void stopAll() { net.minecraft.client.sound.SoundSystem.stopAll(); }
+// public void updateSoundVolume(yarnwrap.sound.SoundCategory category) { wrapperContained.updateSoundVolume(category.wrapperContained); }
+// public static void updateSoundVolume(yarnwrap.sound.SoundCategory category, ) { net.minecraft.client.sound.SoundSystem.updateSoundVolume(category.wrapperContained); }
+// public void start() { wrapperContained.start(); }
+// public static void start() { net.minecraft.client.sound.SoundSystem.start(); }
+public void unregisterListener(yarnwrap.client.sound.SoundInstanceListener listener) { wrapperContained.unregisterListener(listener.wrapperContained); }
+// public static void unregisterListener(yarnwrap.client.sound.SoundInstanceListener listener, ) { net.minecraft.client.sound.SoundSystem.unregisterListener(listener.wrapperContained); }
+// public float getAdjustedPitch(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.getAdjustedPitch(sound.wrapperContained); }
+// public static float getAdjustedPitch(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.getAdjustedPitch(sound.wrapperContained); }
+public void addPreloadedSound(yarnwrap.client.sound.Sound sound) { wrapperContained.addPreloadedSound(sound.wrapperContained); }
+// public static void addPreloadedSound(yarnwrap.client.sound.Sound sound, ) { net.minecraft.client.sound.SoundSystem.addPreloadedSound(sound.wrapperContained); }
+public void play(yarnwrap.client.sound.SoundInstance sound,int delay) { wrapperContained.play(sound.wrapperContained,delay); }
+// public static void play(yarnwrap.client.sound.SoundInstance sound,int delay, ) { net.minecraft.client.sound.SoundSystem.play(sound.wrapperContained,delay); }
+// public float getAdjustedVolume(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.getAdjustedVolume(sound.wrapperContained); }
+// public static float getAdjustedVolume(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.getAdjustedVolume(sound.wrapperContained); }
+// public Object play(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.play(sound.wrapperContained); }
+// // public static Object play(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.play(sound.wrapperContained); }
+public void registerListener(yarnwrap.client.sound.SoundInstanceListener listener) { wrapperContained.registerListener(listener.wrapperContained); }
+// public static void registerListener(yarnwrap.client.sound.SoundInstanceListener listener, ) { net.minecraft.client.sound.SoundSystem.registerListener(listener.wrapperContained); }
+public void stop() { wrapperContained.stop(); }
+// public static void stop() { net.minecraft.client.sound.SoundSystem.stop(); }
+// public void tick() { wrapperContained.tick(); }
+// public static void tick() { net.minecraft.client.sound.SoundSystem.tick(); }
 // public void method_19748(float source) { wrapperContained.method_19748(source); }
 // public static void method_19748(float source, ) { net.minecraft.client.sound.SoundSystem.method_19748(source); }
 // public void method_19749(float source) { wrapperContained.method_19749(source); }
@@ -174,10 +205,6 @@ public void stop(yarnwrap.client.sound.SoundInstance sound) { wrapperContained.s
 // public static void method_19758(Object stream, ) { net.minecraft.client.sound.SoundSystem.method_19758(stream); }
 // public void method_19759(java.util.stream.Stream sources) { wrapperContained.method_19759(sources); }
 // public static void method_19759(java.util.stream.Stream sources, ) { net.minecraft.client.sound.SoundSystem.method_19759(sources); }
-// public void method_19760(java.util.stream.Stream sources) { wrapperContained.method_19760(sources); }
-// public static void method_19760(java.util.stream.Stream sources, ) { net.minecraft.client.sound.SoundSystem.method_19760(sources); }
-public void pauseAll() { wrapperContained.pauseAll(); }
-// public static void pauseAll() { net.minecraft.client.sound.SoundSystem.pauseAll(); }
 public void resumeAll() { wrapperContained.resumeAll(); }
 // public static void resumeAll() { net.minecraft.client.sound.SoundSystem.resumeAll(); }
 public void tick(boolean paused) { wrapperContained.tick(paused); }
@@ -186,10 +213,10 @@ public java.lang.String getDebugString() { return wrapperContained.getDebugStrin
 // public static java.lang.String getDebugString() { return net.minecraft.client.sound.SoundSystem.getDebugString(); }
 public void playNextTick(yarnwrap.client.sound.TickableSoundInstance sound) { wrapperContained.playNextTick(sound.wrapperContained); }
 // public static void playNextTick(yarnwrap.client.sound.TickableSoundInstance sound, ) { net.minecraft.client.sound.SoundSystem.playNextTick(sound.wrapperContained); }
-// public boolean canRepeatInstantly(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.canRepeatInstantly(sound.wrapperContained); }
-// public static boolean canRepeatInstantly(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.canRepeatInstantly(sound.wrapperContained); }
-// public boolean isRepeatDelayed(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.isRepeatDelayed(sound.wrapperContained); }
-// public static boolean isRepeatDelayed(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.isRepeatDelayed(sound.wrapperContained); }
+// public boolean hasRepeatDelay(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.hasRepeatDelay(sound.wrapperContained); }
+// public static boolean hasRepeatDelay(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.hasRepeatDelay(sound.wrapperContained); }
+// public boolean shouldDelayRepeat(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.shouldDelayRepeat(sound.wrapperContained); }
+// public static boolean shouldDelayRepeat(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.shouldDelayRepeat(sound.wrapperContained); }
 // public boolean shouldRepeatInstantly(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.shouldRepeatInstantly(sound.wrapperContained); }
 // public static boolean shouldRepeatInstantly(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.shouldRepeatInstantly(sound.wrapperContained); }
 public java.util.List getSoundDevices() { return wrapperContained.getSoundDevices(); }
@@ -198,43 +225,17 @@ public java.util.List getSoundDevices() { return wrapperContained.getSoundDevice
 // public static boolean shouldReloadSounds() { return net.minecraft.client.sound.SoundSystem.shouldReloadSounds(); }
 // public float getAdjustedVolume(float volume,yarnwrap.sound.SoundCategory category) { return wrapperContained.getAdjustedVolume(volume,category.wrapperContained); }
 // public static float getAdjustedVolume(float volume,yarnwrap.sound.SoundCategory category, ) { return net.minecraft.client.sound.SoundSystem.getAdjustedVolume(volume,category.wrapperContained); }
-public boolean isPlaying(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.isPlaying(sound.wrapperContained); }
-// public static boolean isPlaying(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.isPlaying(sound.wrapperContained); }
-public void reloadSounds() { wrapperContained.reloadSounds(); }
-// public static void reloadSounds() { net.minecraft.client.sound.SoundSystem.reloadSounds(); }
-public void stopSounds(yarnwrap.util.Identifier id,yarnwrap.sound.SoundCategory category) { wrapperContained.stopSounds(id.wrapperContained,category.wrapperContained); }
-// public static void stopSounds(yarnwrap.util.Identifier id,yarnwrap.sound.SoundCategory category, ) { net.minecraft.client.sound.SoundSystem.stopSounds(id.wrapperContained,category.wrapperContained); }
-public void updateListenerPosition(yarnwrap.client.render.Camera camera) { wrapperContained.updateListenerPosition(camera.wrapperContained); }
-// public static void updateListenerPosition(yarnwrap.client.render.Camera camera, ) { net.minecraft.client.sound.SoundSystem.updateListenerPosition(camera.wrapperContained); }
-public void stopAll() { wrapperContained.stopAll(); }
-// public static void stopAll() { net.minecraft.client.sound.SoundSystem.stopAll(); }
-public void updateSoundVolume(yarnwrap.sound.SoundCategory category,float volume) { wrapperContained.updateSoundVolume(category.wrapperContained,volume); }
-// public static void updateSoundVolume(yarnwrap.sound.SoundCategory category,float volume, ) { net.minecraft.client.sound.SoundSystem.updateSoundVolume(category.wrapperContained,volume); }
-// public void start() { wrapperContained.start(); }
-// public static void start() { net.minecraft.client.sound.SoundSystem.start(); }
-public void unregisterListener(yarnwrap.client.sound.SoundInstanceListener listener) { wrapperContained.unregisterListener(listener.wrapperContained); }
-// public static void unregisterListener(yarnwrap.client.sound.SoundInstanceListener listener, ) { net.minecraft.client.sound.SoundSystem.unregisterListener(listener.wrapperContained); }
-// public float getAdjustedPitch(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.getAdjustedPitch(sound.wrapperContained); }
-// public static float getAdjustedPitch(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.getAdjustedPitch(sound.wrapperContained); }
-// public float getSoundVolume(yarnwrap.sound.SoundCategory category) { return wrapperContained.getSoundVolume(category.wrapperContained); }
-// public static float getSoundVolume(yarnwrap.sound.SoundCategory category, ) { return net.minecraft.client.sound.SoundSystem.getSoundVolume(category.wrapperContained); }
-public void addPreloadedSound(yarnwrap.client.sound.Sound sound) { wrapperContained.addPreloadedSound(sound.wrapperContained); }
-// public static void addPreloadedSound(yarnwrap.client.sound.Sound sound, ) { net.minecraft.client.sound.SoundSystem.addPreloadedSound(sound.wrapperContained); }
-public void play(yarnwrap.client.sound.SoundInstance sound,int delay) { wrapperContained.play(sound.wrapperContained,delay); }
-// public static void play(yarnwrap.client.sound.SoundInstance sound,int delay, ) { net.minecraft.client.sound.SoundSystem.play(sound.wrapperContained,delay); }
-// public float getAdjustedVolume(yarnwrap.client.sound.SoundInstance sound) { return wrapperContained.getAdjustedVolume(sound.wrapperContained); }
-// public static float getAdjustedVolume(yarnwrap.client.sound.SoundInstance sound, ) { return net.minecraft.client.sound.SoundSystem.getAdjustedVolume(sound.wrapperContained); }
-public void play(yarnwrap.client.sound.SoundInstance sound) { wrapperContained.play(sound.wrapperContained); }
-// public static void play(yarnwrap.client.sound.SoundInstance sound, ) { net.minecraft.client.sound.SoundSystem.play(sound.wrapperContained); }
-public void registerListener(yarnwrap.client.sound.SoundInstanceListener listener) { wrapperContained.registerListener(listener.wrapperContained); }
-// public static void registerListener(yarnwrap.client.sound.SoundInstanceListener listener, ) { net.minecraft.client.sound.SoundSystem.registerListener(listener.wrapperContained); }
-public void stop() { wrapperContained.stop(); }
-// public static void stop() { net.minecraft.client.sound.SoundSystem.stop(); }
-// public void tick() { wrapperContained.tick(); }
-// public static void tick() { net.minecraft.client.sound.SoundSystem.tick(); }
 public void stopAbruptly() { wrapperContained.stopAbruptly(); }
 // public static void stopAbruptly() { net.minecraft.client.sound.SoundSystem.stopAbruptly(); }
 public yarnwrap.client.sound.SoundListenerTransform getListenerTransform() { return new yarnwrap.client.sound.SoundListenerTransform(wrapperContained.getListenerTransform()); }
 // public static yarnwrap.client.sound.SoundListenerTransform getListenerTransform() { return new yarnwrap.client.sound.SoundListenerTransform(net.minecraft.client.sound.SoundSystem.getListenerTransform()); }
+// public void method_65256(float source) { wrapperContained.method_65256(source); }
+// public static void method_65256(float source, ) { net.minecraft.client.sound.SoundSystem.method_65256(source); }
+public void setVolume(yarnwrap.client.sound.SoundInstance sound,float volume) { wrapperContained.setVolume(sound.wrapperContained,volume); }
+// public static void setVolume(yarnwrap.client.sound.SoundInstance sound,float volume, ) { net.minecraft.client.sound.SoundSystem.setVolume(sound.wrapperContained,volume); }
+// public void pauseAllExcept(net.minecraft.sound.SoundCategory[] categories) { wrapperContained.pauseAllExcept(categories); }
+// public static void pauseAllExcept(net.minecraft.sound.SoundCategory[] categories, ) { net.minecraft.client.sound.SoundSystem.pauseAllExcept(categories); }
+// public void tickPaused() { wrapperContained.tickPaused(); }
+// public static void tickPaused() { net.minecraft.client.sound.SoundSystem.tickPaused(); }
 
 }

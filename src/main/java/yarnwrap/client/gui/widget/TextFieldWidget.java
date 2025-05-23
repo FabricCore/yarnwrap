@@ -106,11 +106,29 @@ public static int DEFAULT_EDITABLE_COLOR() { return net.minecraft.client.gui.wid
 // public static yarnwrap.client.gui.screen.ButtonTextures TEXTURES() { return new yarnwrap.client.gui.screen.ButtonTextures(net.minecraft.client.gui.widget.TextFieldWidget.TEXTURES); }
 // public static void TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value, ) { net.minecraft.client.gui.widget.TextFieldWidget.TEXTURES = value.wrapperContained; }
 
-public TextFieldWidget(yarnwrap.client.font.TextRenderer textRenderer,int x,int y,int width,int height,yarnwrap.text.Text text) { this.wrapperContained = new net.minecraft.client.gui.widget.TextFieldWidget(textRenderer.wrapperContained,x,y,width,height,text.wrapperContained); }
+// public int textX() { return wrapperContained.textX; }
+// public void textX(int value) { wrapperContained.textX = value; }
+// public static int textX() { return net.minecraft.client.gui.widget.TextFieldWidget.textX; }
+// public static void textX(int value, ) { net.minecraft.client.gui.widget.TextFieldWidget.textX = value; }
+
+// public int textY() { return wrapperContained.textY; }
+// public void textY(int value) { wrapperContained.textY = value; }
+// public static int textY() { return net.minecraft.client.gui.widget.TextFieldWidget.textY; }
+// public static void textY(int value, ) { net.minecraft.client.gui.widget.TextFieldWidget.textY = value; }
+
+// public boolean centered() { return wrapperContained.centered; }
+// public void centered(boolean value) { wrapperContained.centered = value; }
+// public static boolean centered() { return net.minecraft.client.gui.widget.TextFieldWidget.centered; }
+// public static void centered(boolean value, ) { net.minecraft.client.gui.widget.TextFieldWidget.centered = value; }
+
+// public boolean textShadow() { return wrapperContained.textShadow; }
+// public void textShadow(boolean value) { wrapperContained.textShadow = value; }
+// public static boolean textShadow() { return net.minecraft.client.gui.widget.TextFieldWidget.textShadow; }
+// public static void textShadow(boolean value, ) { net.minecraft.client.gui.widget.TextFieldWidget.textShadow = value; }
+
 public TextFieldWidget(yarnwrap.client.font.TextRenderer textRenderer,int x,int y,int width,int height,yarnwrap.client.gui.widget.TextFieldWidget copyFrom,yarnwrap.text.Text text) { this.wrapperContained = new net.minecraft.client.gui.widget.TextFieldWidget(textRenderer.wrapperContained,x,y,width,height,copyFrom.wrapperContained,text.wrapperContained); }
+public TextFieldWidget(yarnwrap.client.font.TextRenderer textRenderer,int x,int y,int width,int height,yarnwrap.text.Text text) { this.wrapperContained = new net.minecraft.client.gui.widget.TextFieldWidget(textRenderer.wrapperContained,x,y,width,height,text.wrapperContained); }
 public TextFieldWidget(yarnwrap.client.font.TextRenderer textRenderer,int width,int height,yarnwrap.text.Text text) { this.wrapperContained = new net.minecraft.client.gui.widget.TextFieldWidget(textRenderer.wrapperContained,width,height,text.wrapperContained); }
-// public void erase(int offset) { wrapperContained.erase(offset); }
-// public static void erase(int offset, ) { net.minecraft.client.gui.widget.TextFieldWidget.erase(offset); }
 // public boolean drawsBackground() { return wrapperContained.drawsBackground(); }
 // // public static boolean drawsBackground() { return net.minecraft.client.gui.widget.TextFieldWidget.drawsBackground(); }
 public void setText(java.lang.String text) { wrapperContained.setText(text); }
@@ -181,6 +199,8 @@ public int getCharacterX(int index) { return wrapperContained.getCharacterX(inde
 // public static int getCharacterX(int index, ) { return net.minecraft.client.gui.widget.TextFieldWidget.getCharacterX(index); }
 public void setTextPredicate(java.util.function.Predicate textPredicate) { wrapperContained.setTextPredicate(textPredicate); }
 // public static void setTextPredicate(java.util.function.Predicate textPredicate, ) { net.minecraft.client.gui.widget.TextFieldWidget.setTextPredicate(textPredicate); }
+// public void erase(int offset) { wrapperContained.erase(offset); }
+// public static void erase(int offset, ) { net.minecraft.client.gui.widget.TextFieldWidget.erase(offset); }
 public boolean isActive() { return wrapperContained.isActive(); }
 // public static boolean isActive() { return net.minecraft.client.gui.widget.TextFieldWidget.isActive(); }
 // public boolean isEditable() { return wrapperContained.isEditable(); }
@@ -193,5 +213,13 @@ public void setPlaceholder(yarnwrap.text.Text placeholder) { wrapperContained.se
 // public static void updateFirstCharacterIndex(int cursor, ) { net.minecraft.client.gui.widget.TextFieldWidget.updateFirstCharacterIndex(cursor); }
 public void eraseCharactersTo(int position) { wrapperContained.eraseCharactersTo(position); }
 // public static void eraseCharactersTo(int position, ) { net.minecraft.client.gui.widget.TextFieldWidget.eraseCharactersTo(position); }
+// public void setCentered(boolean centered) { wrapperContained.setCentered(centered); }
+// public static void setCentered(boolean centered, ) { net.minecraft.client.gui.widget.TextFieldWidget.setCentered(centered); }
+// public void setTextShadow(boolean textShadow) { wrapperContained.setTextShadow(textShadow); }
+// public static void setTextShadow(boolean textShadow, ) { net.minecraft.client.gui.widget.TextFieldWidget.setTextShadow(textShadow); }
+// public void updateTextPosition() { wrapperContained.updateTextPosition(); }
+// public static void updateTextPosition() { net.minecraft.client.gui.widget.TextFieldWidget.updateTextPosition(); }
+// public boolean isCentered() { return wrapperContained.isCentered(); }
+// public static boolean isCentered() { return net.minecraft.client.gui.widget.TextFieldWidget.isCentered(); }
 
 }

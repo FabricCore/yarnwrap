@@ -1,21 +1,6 @@
 package yarnwrap.entity.passive;
 public class RabbitEntity { public net.minecraft.entity.passive.RabbitEntity wrapperContained; public RabbitEntity(net.minecraft.entity.passive.RabbitEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public double ESCAPE_DANGER_SPEED() { return wrapperContained.ESCAPE_DANGER_SPEED; }
-// public void ESCAPE_DANGER_SPEED(double value) { wrapperContained.ESCAPE_DANGER_SPEED = value; }
-public static double ESCAPE_DANGER_SPEED() { return net.minecraft.entity.passive.RabbitEntity.ESCAPE_DANGER_SPEED; }
-// public static void ESCAPE_DANGER_SPEED(double value, ) { net.minecraft.entity.passive.RabbitEntity.ESCAPE_DANGER_SPEED = value; }
-
-// public double MELEE_ATTACK_SPEED() { return wrapperContained.MELEE_ATTACK_SPEED; }
-// public void MELEE_ATTACK_SPEED(double value) { wrapperContained.MELEE_ATTACK_SPEED = value; }
-public static double MELEE_ATTACK_SPEED() { return net.minecraft.entity.passive.RabbitEntity.MELEE_ATTACK_SPEED; }
-// public static void MELEE_ATTACK_SPEED(double value, ) { net.minecraft.entity.passive.RabbitEntity.MELEE_ATTACK_SPEED = value; }
-
-// public yarnwrap.util.Identifier KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID() { return new yarnwrap.util.Identifier(wrapperContained.KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID); }
-// public void KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID = value.wrapperContained; }
-// public static yarnwrap.util.Identifier KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID() { return new yarnwrap.util.Identifier(net.minecraft.entity.passive.RabbitEntity.KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID); }
-// public static void KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID(yarnwrap.util.Identifier value, ) { net.minecraft.entity.passive.RabbitEntity.KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID = value.wrapperContained; }
-
 // public yarnwrap.util.Identifier KILLER_BUNNY() { return new yarnwrap.util.Identifier(wrapperContained.KILLER_BUNNY); }
 // public void KILLER_BUNNY(yarnwrap.util.Identifier value) { wrapperContained.KILLER_BUNNY = value.wrapperContained; }
 // public static yarnwrap.util.Identifier KILLER_BUNNY() { return new yarnwrap.util.Identifier(net.minecraft.entity.passive.RabbitEntity.KILLER_BUNNY); }
@@ -46,21 +31,33 @@ public static double MELEE_ATTACK_SPEED() { return net.minecraft.entity.passive.
 // public static int jumpTicks() { return net.minecraft.entity.passive.RabbitEntity.jumpTicks; }
 // public static void jumpTicks(int value, ) { net.minecraft.entity.passive.RabbitEntity.jumpTicks = value; }
 
-// public yarnwrap.entity.data.TrackedData RABBIT_TYPE() { return new yarnwrap.entity.data.TrackedData(wrapperContained.RABBIT_TYPE); }
-// public void RABBIT_TYPE(yarnwrap.entity.data.TrackedData value) { wrapperContained.RABBIT_TYPE = value.wrapperContained; }
-// public static yarnwrap.entity.data.TrackedData RABBIT_TYPE() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.RabbitEntity.RABBIT_TYPE); }
-// public static void RABBIT_TYPE(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.RabbitEntity.RABBIT_TYPE = value.wrapperContained; }
+// public yarnwrap.entity.data.TrackedData VARIANT() { return new yarnwrap.entity.data.TrackedData(wrapperContained.VARIANT); }
+// public void VARIANT(yarnwrap.entity.data.TrackedData value) { wrapperContained.VARIANT = value.wrapperContained; }
+// public static yarnwrap.entity.data.TrackedData VARIANT() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.RabbitEntity.VARIANT); }
+// public static void VARIANT(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.RabbitEntity.VARIANT = value.wrapperContained; }
 
-// public boolean canSpawn(yarnwrap.entity.EntityType entity,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(entity.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
-// public static boolean canSpawn(yarnwrap.entity.EntityType entity,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.passive.RabbitEntity.canSpawn(entity.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
-// public Object createRabbitAttributes() { return wrapperContained.createRabbitAttributes(); }
-public static Object createRabbitAttributes() { return net.minecraft.entity.passive.RabbitEntity.createRabbitAttributes(); }
-// public Object getTypeFromPos(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getTypeFromPos(world.wrapperContained,pos.wrapperContained); }
-// public static Object getTypeFromPos(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.passive.RabbitEntity.getTypeFromPos(world.wrapperContained,pos.wrapperContained); }
-// public boolean method_58374(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58374(stack.wrapperContained); }
-// public static boolean method_58374(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.passive.RabbitEntity.method_58374(stack.wrapperContained); }
-public float getJumpProgress(float delta) { return wrapperContained.getJumpProgress(delta); }
-// public static float getJumpProgress(float delta, ) { return net.minecraft.entity.passive.RabbitEntity.getJumpProgress(delta); }
+// public double ESCAPE_DANGER_SPEED() { return wrapperContained.ESCAPE_DANGER_SPEED; }
+// public void ESCAPE_DANGER_SPEED(double value) { wrapperContained.ESCAPE_DANGER_SPEED = value; }
+public static double ESCAPE_DANGER_SPEED() { return net.minecraft.entity.passive.RabbitEntity.ESCAPE_DANGER_SPEED; }
+// public static void ESCAPE_DANGER_SPEED(double value, ) { net.minecraft.entity.passive.RabbitEntity.ESCAPE_DANGER_SPEED = value; }
+
+// public double MELEE_ATTACK_SPEED() { return wrapperContained.MELEE_ATTACK_SPEED; }
+// public void MELEE_ATTACK_SPEED(double value) { wrapperContained.MELEE_ATTACK_SPEED = value; }
+public static double MELEE_ATTACK_SPEED() { return net.minecraft.entity.passive.RabbitEntity.MELEE_ATTACK_SPEED; }
+// public static void MELEE_ATTACK_SPEED(double value, ) { net.minecraft.entity.passive.RabbitEntity.MELEE_ATTACK_SPEED = value; }
+
+// public yarnwrap.util.Identifier KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID() { return new yarnwrap.util.Identifier(wrapperContained.KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID); }
+// public void KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID = value.wrapperContained; }
+// public static yarnwrap.util.Identifier KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID() { return new yarnwrap.util.Identifier(net.minecraft.entity.passive.RabbitEntity.KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID); }
+// public static void KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID(yarnwrap.util.Identifier value, ) { net.minecraft.entity.passive.RabbitEntity.KILLER_BUNNY_ATTACK_DAMAGE_MODIFIER_ID = value.wrapperContained; }
+
+// public int DEFAULT_MORE_CARROT_TICKS() { return wrapperContained.DEFAULT_MORE_CARROT_TICKS; }
+// public void DEFAULT_MORE_CARROT_TICKS(int value) { wrapperContained.DEFAULT_MORE_CARROT_TICKS = value; }
+// public static int DEFAULT_MORE_CARROT_TICKS() { return net.minecraft.entity.passive.RabbitEntity.DEFAULT_MORE_CARROT_TICKS; }
+// public static void DEFAULT_MORE_CARROT_TICKS(int value, ) { net.minecraft.entity.passive.RabbitEntity.DEFAULT_MORE_CARROT_TICKS = value; }
+
+public float getJumpProgress(float tickProgress) { return wrapperContained.getJumpProgress(tickProgress); }
+// public static float getJumpProgress(float tickProgress, ) { return net.minecraft.entity.passive.RabbitEntity.getJumpProgress(tickProgress); }
 public void setSpeed(double speed) { wrapperContained.setSpeed(speed); }
 // public static void setSpeed(double speed, ) { net.minecraft.entity.passive.RabbitEntity.setSpeed(speed); }
 // public boolean wantsCarrots() { return wrapperContained.wantsCarrots(); }
@@ -79,5 +76,17 @@ public void startJump() { wrapperContained.startJump(); }
 // public static void scheduleJump() { net.minecraft.entity.passive.RabbitEntity.scheduleJump(); }
 // public void disableJump() { wrapperContained.disableJump(); }
 // public static void disableJump() { net.minecraft.entity.passive.RabbitEntity.disableJump(); }
+// public boolean canSpawn(yarnwrap.entity.EntityType entity,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(entity.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public static boolean canSpawn(yarnwrap.entity.EntityType entity,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.passive.RabbitEntity.canSpawn(entity.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public Object createRabbitAttributes() { return wrapperContained.createRabbitAttributes(); }
+public static Object createRabbitAttributes() { return net.minecraft.entity.passive.RabbitEntity.createRabbitAttributes(); }
+// public void setVariant(Object variant) { wrapperContained.setVariant(variant); }
+// public static void setVariant(Object variant, ) { net.minecraft.entity.passive.RabbitEntity.setVariant(variant); }
+// public Object getVariantFromPos(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getVariantFromPos(world.wrapperContained,pos.wrapperContained); }
+// public static Object getVariantFromPos(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.passive.RabbitEntity.getVariantFromPos(world.wrapperContained,pos.wrapperContained); }
+public Object getVariant() { return wrapperContained.getVariant(); }
+// public static Object getVariant() { return net.minecraft.entity.passive.RabbitEntity.getVariant(); }
+// public boolean method_58374(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58374(stack.wrapperContained); }
+// public static boolean method_58374(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.passive.RabbitEntity.method_58374(stack.wrapperContained); }
 
 }

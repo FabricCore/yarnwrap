@@ -1,11 +1,6 @@
 package yarnwrap.network.packet.s2c.play;
 public class GameJoinS2CPacket { public net.minecraft.network.packet.s2c.play.GameJoinS2CPacket wrapperContained; public GameJoinS2CPacket(net.minecraft.network.packet.s2c.play.GameJoinS2CPacket wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public boolean showDeathScreen() { return wrapperContained.showDeathScreen; }
-// public void showDeathScreen(boolean value) { wrapperContained.showDeathScreen = value; }
-// public static boolean showDeathScreen() { return net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.showDeathScreen; }
-// public static void showDeathScreen(boolean value, ) { net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.showDeathScreen = value; }
-
 // public int playerEntityId() { return wrapperContained.playerEntityId; }
 // public void playerEntityId(int value) { wrapperContained.playerEntityId = value; }
 // public static int playerEntityId() { return net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.playerEntityId; }
@@ -36,6 +31,11 @@ public class GameJoinS2CPacket { public net.minecraft.network.packet.s2c.play.Ga
 // public static boolean reducedDebugInfo() { return net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.reducedDebugInfo; }
 // public static void reducedDebugInfo(boolean value, ) { net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.reducedDebugInfo = value; }
 
+// public boolean showDeathScreen() { return wrapperContained.showDeathScreen; }
+// public void showDeathScreen(boolean value) { wrapperContained.showDeathScreen = value; }
+// public static boolean showDeathScreen() { return net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.showDeathScreen; }
+// public static void showDeathScreen(boolean value, ) { net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.showDeathScreen = value; }
+
 // public yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.CODEC); }
 // public void CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.CODEC = value.wrapperContained; }
 public static yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.CODEC); }
@@ -43,8 +43,6 @@ public static yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.n
 
 // public GameJoinS2CPacket(int playerEntityId) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.GameJoinS2CPacket(playerEntityId); }
 // public GameJoinS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.GameJoinS2CPacket(buf.wrapperContained); }
-// public boolean showDeathScreen() { return wrapperContained.showDeathScreen(); }
-// // public static boolean showDeathScreen() { return net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.showDeathScreen(); }
 // public int playerEntityId() { return wrapperContained.playerEntityId(); }
 // // public static int playerEntityId() { return net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.playerEntityId(); }
 // public boolean hardcore() { return wrapperContained.hardcore(); }
@@ -57,6 +55,8 @@ public static yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.n
 // // public static int viewDistance() { return net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.viewDistance(); }
 // public boolean reducedDebugInfo() { return wrapperContained.reducedDebugInfo(); }
 // // public static boolean reducedDebugInfo() { return net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.reducedDebugInfo(); }
+// public boolean showDeathScreen() { return wrapperContained.showDeathScreen(); }
+// // public static boolean showDeathScreen() { return net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.showDeathScreen(); }
 // public yarnwrap.registry.RegistryKey method_34135(yarnwrap.network.PacketByteBuf b) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_34135(b.wrapperContained)); }
 // public static yarnwrap.registry.RegistryKey method_34135(yarnwrap.network.PacketByteBuf b, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.network.packet.s2c.play.GameJoinS2CPacket.method_34135(b.wrapperContained)); }
 // public void write(yarnwrap.network.RegistryByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

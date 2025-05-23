@@ -1,16 +1,6 @@
 package yarnwrap.client.render.entity.model;
 public class RabbitEntityModel { public net.minecraft.client.render.entity.model.RabbitEntityModel wrapperContained; public RabbitEntityModel(net.minecraft.client.render.entity.model.RabbitEntityModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart leftHindLeg() { return new yarnwrap.client.model.ModelPart(wrapperContained.leftHindLeg); }
-// public void leftHindLeg(yarnwrap.client.model.ModelPart value) { wrapperContained.leftHindLeg = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart leftHindLeg() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.RabbitEntityModel.leftHindLeg); }
-// public static void leftHindLeg(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.leftHindLeg = value.wrapperContained; }
-
-// public yarnwrap.client.model.ModelPart rightHindLeg() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightHindLeg); }
-// public void rightHindLeg(yarnwrap.client.model.ModelPart value) { wrapperContained.rightHindLeg = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart rightHindLeg() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.RabbitEntityModel.rightHindLeg); }
-// public static void rightHindLeg(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.rightHindLeg = value.wrapperContained; }
-
 // public yarnwrap.client.model.ModelPart leftHaunch() { return new yarnwrap.client.model.ModelPart(wrapperContained.leftHaunch); }
 // public void leftHaunch(yarnwrap.client.model.ModelPart value) { wrapperContained.leftHaunch = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart leftHaunch() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.RabbitEntityModel.leftHaunch); }
@@ -35,16 +25,6 @@ public class RabbitEntityModel { public net.minecraft.client.render.entity.model
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.RabbitEntityModel.head); }
 // public static void head(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.head = value.wrapperContained; }
-
-// public yarnwrap.client.model.ModelPart rightEar() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightEar); }
-// public void rightEar(yarnwrap.client.model.ModelPart value) { wrapperContained.rightEar = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart rightEar() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.RabbitEntityModel.rightEar); }
-// public static void rightEar(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.rightEar = value.wrapperContained; }
-
-// public yarnwrap.client.model.ModelPart leftEar() { return new yarnwrap.client.model.ModelPart(wrapperContained.leftEar); }
-// public void leftEar(yarnwrap.client.model.ModelPart value) { wrapperContained.leftEar = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart leftEar() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.RabbitEntityModel.leftEar); }
-// public static void leftEar(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.leftEar = value.wrapperContained; }
 
 // public float HAUNCH_JUMP_PITCH_MULTIPLIER() { return wrapperContained.HAUNCH_JUMP_PITCH_MULTIPLIER; }
 // public void HAUNCH_JUMP_PITCH_MULTIPLIER(float value) { wrapperContained.HAUNCH_JUMP_PITCH_MULTIPLIER = value; }
@@ -71,28 +51,17 @@ public class RabbitEntityModel { public net.minecraft.client.render.entity.model
 // public static float SCALE() { return net.minecraft.client.render.entity.model.RabbitEntityModel.SCALE; }
 // public static void SCALE(float value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.SCALE = value; }
 
-// public yarnwrap.client.model.ModelPart tail() { return new yarnwrap.client.model.ModelPart(wrapperContained.tail); }
-// public void tail(yarnwrap.client.model.ModelPart value) { wrapperContained.tail = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart tail() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.RabbitEntityModel.tail); }
-// public static void tail(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.tail = value.wrapperContained; }
+// public yarnwrap.client.render.entity.model.ModelTransformer ADULT_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.ADULT_TRANSFORMER); }
+// public void ADULT_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.ADULT_TRANSFORMER = value.wrapperContained; }
+// public static yarnwrap.client.render.entity.model.ModelTransformer ADULT_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.RabbitEntityModel.ADULT_TRANSFORMER); }
+// public static void ADULT_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.ADULT_TRANSFORMER = value.wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart body() { return new yarnwrap.client.model.ModelPart(wrapperContained.body); }
-// public void body(yarnwrap.client.model.ModelPart value) { wrapperContained.body = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart body() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.RabbitEntityModel.body); }
-// public static void body(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.body = value.wrapperContained; }
+// public yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.BABY_TRANSFORMER); }
+// public void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.BABY_TRANSFORMER = value.wrapperContained; }
+// public static yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.RabbitEntityModel.BABY_TRANSFORMER); }
+// public static void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.BABY_TRANSFORMER = value.wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart nose() { return new yarnwrap.client.model.ModelPart(wrapperContained.nose); }
-// public void nose(yarnwrap.client.model.ModelPart value) { wrapperContained.nose = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart nose() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.RabbitEntityModel.nose); }
-// public static void nose(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.nose = value.wrapperContained; }
-
-// public float jumpProgress() { return wrapperContained.jumpProgress; }
-// public void jumpProgress(float value) { wrapperContained.jumpProgress = value; }
-// public static float jumpProgress() { return net.minecraft.client.render.entity.model.RabbitEntityModel.jumpProgress; }
-// public static void jumpProgress(float value, ) { net.minecraft.client.render.entity.model.RabbitEntityModel.jumpProgress = value; }
-
-public RabbitEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.RabbitEntityModel(root.wrapperContained); }
-// public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
-public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.RabbitEntityModel.getTexturedModelData()); }
+// public yarnwrap.client.model.TexturedModelData getTexturedModelData(boolean baby) { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData(baby)); }
+// public static yarnwrap.client.model.TexturedModelData getTexturedModelData(boolean baby, ) { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.RabbitEntityModel.getTexturedModelData(baby)); }
 
 }

@@ -381,6 +381,76 @@ public static yarnwrap.registry.RegistryKey FLOWER_CHERRY() { return new yarnwra
 public static yarnwrap.registry.RegistryKey TREES_CHERRY() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.TREES_CHERRY); }
 // public static void TREES_CHERRY(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.TREES_CHERRY = value.wrapperContained; }
 
+// public yarnwrap.registry.RegistryKey PALE_GARDEN_VEGETATION() { return new yarnwrap.registry.RegistryKey(wrapperContained.PALE_GARDEN_VEGETATION); }
+// public void PALE_GARDEN_VEGETATION(yarnwrap.registry.RegistryKey value) { wrapperContained.PALE_GARDEN_VEGETATION = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PALE_GARDEN_VEGETATION() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PALE_GARDEN_VEGETATION); }
+// public static void PALE_GARDEN_VEGETATION(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PALE_GARDEN_VEGETATION = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey FLOWER_PALE_GARDEN() { return new yarnwrap.registry.RegistryKey(wrapperContained.FLOWER_PALE_GARDEN); }
+// public void FLOWER_PALE_GARDEN(yarnwrap.registry.RegistryKey value) { wrapperContained.FLOWER_PALE_GARDEN = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey FLOWER_PALE_GARDEN() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.FLOWER_PALE_GARDEN); }
+// public static void FLOWER_PALE_GARDEN(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.FLOWER_PALE_GARDEN = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PALE_GARDEN_FLOWERS() { return new yarnwrap.registry.RegistryKey(wrapperContained.PALE_GARDEN_FLOWERS); }
+// public void PALE_GARDEN_FLOWERS(yarnwrap.registry.RegistryKey value) { wrapperContained.PALE_GARDEN_FLOWERS = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PALE_GARDEN_FLOWERS() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PALE_GARDEN_FLOWERS); }
+// public static void PALE_GARDEN_FLOWERS(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PALE_GARDEN_FLOWERS = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PALE_MOSS_PATCH() { return new yarnwrap.registry.RegistryKey(wrapperContained.PALE_MOSS_PATCH); }
+// public void PALE_MOSS_PATCH(yarnwrap.registry.RegistryKey value) { wrapperContained.PALE_MOSS_PATCH = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PALE_MOSS_PATCH() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PALE_MOSS_PATCH); }
+// public static void PALE_MOSS_PATCH(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PALE_MOSS_PATCH = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PATCH_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(wrapperContained.PATCH_LEAF_LITTER); }
+// public void PATCH_LEAF_LITTER(yarnwrap.registry.RegistryKey value) { wrapperContained.PATCH_LEAF_LITTER = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PATCH_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_LEAF_LITTER); }
+// public static void PATCH_LEAF_LITTER(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_LEAF_LITTER = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey WILDFLOWERS_BIRCH_FOREST() { return new yarnwrap.registry.RegistryKey(wrapperContained.WILDFLOWERS_BIRCH_FOREST); }
+// public void WILDFLOWERS_BIRCH_FOREST(yarnwrap.registry.RegistryKey value) { wrapperContained.WILDFLOWERS_BIRCH_FOREST = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey WILDFLOWERS_BIRCH_FOREST() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.WILDFLOWERS_BIRCH_FOREST); }
+// public static void WILDFLOWERS_BIRCH_FOREST(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.WILDFLOWERS_BIRCH_FOREST = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey WILDFLOWERS_MEADOW() { return new yarnwrap.registry.RegistryKey(wrapperContained.WILDFLOWERS_MEADOW); }
+// public void WILDFLOWERS_MEADOW(yarnwrap.registry.RegistryKey value) { wrapperContained.WILDFLOWERS_MEADOW = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey WILDFLOWERS_MEADOW() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.WILDFLOWERS_MEADOW); }
+// public static void WILDFLOWERS_MEADOW(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.WILDFLOWERS_MEADOW = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PATCH_GRASS_MEADOW() { return new yarnwrap.registry.RegistryKey(wrapperContained.PATCH_GRASS_MEADOW); }
+// public void PATCH_GRASS_MEADOW(yarnwrap.registry.RegistryKey value) { wrapperContained.PATCH_GRASS_MEADOW = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PATCH_GRASS_MEADOW() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_GRASS_MEADOW); }
+// public static void PATCH_GRASS_MEADOW(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_GRASS_MEADOW = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PATCH_BUSH() { return new yarnwrap.registry.RegistryKey(wrapperContained.PATCH_BUSH); }
+// public void PATCH_BUSH(yarnwrap.registry.RegistryKey value) { wrapperContained.PATCH_BUSH = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PATCH_BUSH() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_BUSH); }
+// public static void PATCH_BUSH(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_BUSH = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PATCH_FIREFLY_BUSH() { return new yarnwrap.registry.RegistryKey(wrapperContained.PATCH_FIREFLY_BUSH); }
+// public void PATCH_FIREFLY_BUSH(yarnwrap.registry.RegistryKey value) { wrapperContained.PATCH_FIREFLY_BUSH = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PATCH_FIREFLY_BUSH() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_FIREFLY_BUSH); }
+// public static void PATCH_FIREFLY_BUSH(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_FIREFLY_BUSH = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PATCH_FIREFLY_BUSH_NEAR_WATER() { return new yarnwrap.registry.RegistryKey(wrapperContained.PATCH_FIREFLY_BUSH_NEAR_WATER); }
+// public void PATCH_FIREFLY_BUSH_NEAR_WATER(yarnwrap.registry.RegistryKey value) { wrapperContained.PATCH_FIREFLY_BUSH_NEAR_WATER = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PATCH_FIREFLY_BUSH_NEAR_WATER() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_FIREFLY_BUSH_NEAR_WATER); }
+// public static void PATCH_FIREFLY_BUSH_NEAR_WATER(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_FIREFLY_BUSH_NEAR_WATER = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PATCH_FIREFLY_BUSH_NEAR_WATER_SWAMP() { return new yarnwrap.registry.RegistryKey(wrapperContained.PATCH_FIREFLY_BUSH_NEAR_WATER_SWAMP); }
+// public void PATCH_FIREFLY_BUSH_NEAR_WATER_SWAMP(yarnwrap.registry.RegistryKey value) { wrapperContained.PATCH_FIREFLY_BUSH_NEAR_WATER_SWAMP = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PATCH_FIREFLY_BUSH_NEAR_WATER_SWAMP() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_FIREFLY_BUSH_NEAR_WATER_SWAMP); }
+// public static void PATCH_FIREFLY_BUSH_NEAR_WATER_SWAMP(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_FIREFLY_BUSH_NEAR_WATER_SWAMP = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PATCH_DRY_GRASS_BADLANDS() { return new yarnwrap.registry.RegistryKey(wrapperContained.PATCH_DRY_GRASS_BADLANDS); }
+// public void PATCH_DRY_GRASS_BADLANDS(yarnwrap.registry.RegistryKey value) { wrapperContained.PATCH_DRY_GRASS_BADLANDS = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PATCH_DRY_GRASS_BADLANDS() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_DRY_GRASS_BADLANDS); }
+// public static void PATCH_DRY_GRASS_BADLANDS(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_DRY_GRASS_BADLANDS = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PATCH_DRY_GRASS_DESERT() { return new yarnwrap.registry.RegistryKey(wrapperContained.PATCH_DRY_GRASS_DESERT); }
+// public void PATCH_DRY_GRASS_DESERT(yarnwrap.registry.RegistryKey value) { wrapperContained.PATCH_DRY_GRASS_DESERT = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PATCH_DRY_GRASS_DESERT() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_DRY_GRASS_DESERT); }
+// public static void PATCH_DRY_GRASS_DESERT(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.VegetationPlacedFeatures.PATCH_DRY_GRASS_DESERT = value.wrapperContained; }
+
 // public java.util.List modifiers(int count) { return wrapperContained.modifiers(count); }
 // public static java.util.List modifiers(int count, ) { return net.minecraft.world.gen.feature.VegetationPlacedFeatures.modifiers(count); }
 // public java.util.List mushroomModifiers(int chance,yarnwrap.world.gen.placementmodifier.PlacementModifier modifier) { return wrapperContained.mushroomModifiers(chance,modifier.wrapperContained); }

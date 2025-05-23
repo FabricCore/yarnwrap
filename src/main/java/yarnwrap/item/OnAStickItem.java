@@ -11,6 +11,6 @@ public class OnAStickItem { public net.minecraft.item.OnAStickItem wrapperContai
 // public static int damagePerUse() { return net.minecraft.item.OnAStickItem.damagePerUse; }
 // public static void damagePerUse(int value, ) { net.minecraft.item.OnAStickItem.damagePerUse = value; }
 
-// public OnAStickItem(Object settings,yarnwrap.entity.EntityType target,int damagePerUse) { this.wrapperContained = new net.minecraft.item.OnAStickItem(settings,target.wrapperContained,damagePerUse); }
+// public OnAStickItem(yarnwrap.entity.EntityType target,int damagePerUse,Object settings) { this.wrapperContained = new net.minecraft.item.OnAStickItem(target.wrapperContained,damagePerUse,settings); }
 
 }

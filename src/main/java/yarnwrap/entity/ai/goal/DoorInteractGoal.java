@@ -32,9 +32,9 @@ public class DoorInteractGoal { public net.minecraft.entity.ai.goal.DoorInteract
 // public static void doorPos(yarnwrap.util.math.BlockPos value, ) { net.minecraft.entity.ai.goal.DoorInteractGoal.doorPos = value.wrapperContained; }
 
 // public DoorInteractGoal(yarnwrap.entity.mob.MobEntity mob) { this.wrapperContained = new net.minecraft.entity.ai.goal.DoorInteractGoal(mob.wrapperContained); }
-// public void setDoorOpen(boolean open) { wrapperContained.setDoorOpen(open); }
-// public static void setDoorOpen(boolean open, ) { net.minecraft.entity.ai.goal.DoorInteractGoal.setDoorOpen(open); }
 // public boolean isDoorOpen() { return wrapperContained.isDoorOpen(); }
 // public static boolean isDoorOpen() { return net.minecraft.entity.ai.goal.DoorInteractGoal.isDoorOpen(); }
+// public void setDoorOpen(boolean open) { wrapperContained.setDoorOpen(open); }
+// public static void setDoorOpen(boolean open, ) { net.minecraft.entity.ai.goal.DoorInteractGoal.setDoorOpen(open); }
 
 }

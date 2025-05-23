@@ -16,11 +16,6 @@ public class ExecuteCommand { public net.minecraft.server.command.ExecuteCommand
 // public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType CONDITIONAL_FAIL_COUNT_EXCEPTION() { return net.minecraft.server.command.ExecuteCommand.CONDITIONAL_FAIL_COUNT_EXCEPTION; }
 // public static void CONDITIONAL_FAIL_COUNT_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.ExecuteCommand.CONDITIONAL_FAIL_COUNT_EXCEPTION = value; }
 
-// public com.mojang.brigadier.suggestion.SuggestionProvider LOOT_CONDITIONS() { return wrapperContained.LOOT_CONDITIONS; }
-// public void LOOT_CONDITIONS(com.mojang.brigadier.suggestion.SuggestionProvider value) { wrapperContained.LOOT_CONDITIONS = value; }
-// public static com.mojang.brigadier.suggestion.SuggestionProvider LOOT_CONDITIONS() { return net.minecraft.server.command.ExecuteCommand.LOOT_CONDITIONS; }
-// public static void LOOT_CONDITIONS(com.mojang.brigadier.suggestion.SuggestionProvider value, ) { net.minecraft.server.command.ExecuteCommand.LOOT_CONDITIONS = value; }
-
 // public int MAX_BLOCKS() { return wrapperContained.MAX_BLOCKS; }
 // public void MAX_BLOCKS(int value) { wrapperContained.MAX_BLOCKS = value; }
 // public static int MAX_BLOCKS() { return net.minecraft.server.command.ExecuteCommand.MAX_BLOCKS; }
@@ -30,6 +25,11 @@ public class ExecuteCommand { public net.minecraft.server.command.ExecuteCommand
 // public void INSTANTIATION_FAILURE_EXCEPTION(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value) { wrapperContained.INSTANTIATION_FAILURE_EXCEPTION = value; }
 public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType INSTANTIATION_FAILURE_EXCEPTION() { return net.minecraft.server.command.ExecuteCommand.INSTANTIATION_FAILURE_EXCEPTION; }
 // public static void INSTANTIATION_FAILURE_EXCEPTION(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value, ) { net.minecraft.server.command.ExecuteCommand.INSTANTIATION_FAILURE_EXCEPTION = value; }
+
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.server.command.ExecuteCommand.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.server.command.ExecuteCommand.LOGGER = value; }
 
 // public boolean method_13249(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13249(context); }
 // public static boolean method_13249(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ExecuteCommand.method_13249(context); }
@@ -41,10 +41,6 @@ public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType INSTA
 // public static yarnwrap.server.command.ServerCommandSource method_13252(com.mojang.brigadier.context.CommandContext context, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.command.ExecuteCommand.method_13252(context)); }
 // public com.mojang.brigadier.builder.ArgumentBuilder method_13253(com.mojang.brigadier.tree.LiteralCommandNode builderx) { return wrapperContained.method_13253(builderx); }
 // public static com.mojang.brigadier.builder.ArgumentBuilder method_13253(com.mojang.brigadier.tree.LiteralCommandNode builderx, ) { return net.minecraft.server.command.ExecuteCommand.method_13253(builderx); }
-// public boolean method_13254(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13254(source.wrapperContained); }
-// public static boolean method_13254(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.ExecuteCommand.method_13254(source.wrapperContained); }
-// public boolean method_13255(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13255(source.wrapperContained); }
-// public static boolean method_13255(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.ExecuteCommand.method_13255(source.wrapperContained); }
 // public yarnwrap.server.command.ServerCommandSource method_13256(Object context) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.method_13256(context)); }
 // public static yarnwrap.server.command.ServerCommandSource method_13256(Object context, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.command.ExecuteCommand.method_13256(context)); }
 // public boolean method_13257(int targetScore,int sourceScore) { return wrapperContained.method_13257(targetScore,sourceScore); }
@@ -183,8 +179,6 @@ public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType INSTA
 // public static boolean testLootCondition(yarnwrap.server.command.ServerCommandSource source,yarnwrap.registry.entry.RegistryEntry lootCondition, ) { return net.minecraft.server.command.ExecuteCommand.testLootCondition(source.wrapperContained,lootCondition.wrapperContained); }
 // public boolean method_22830(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_22830(context); }
 // public static boolean method_22830(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ExecuteCommand.method_22830(context); }
-// public java.util.concurrent.CompletableFuture method_22831(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_22831(context,builder); }
-// public static java.util.concurrent.CompletableFuture method_22831(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.command.ExecuteCommand.method_22831(context,builder); }
 // public boolean method_47527(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_47527(context); }
 // public static boolean method_47527(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ExecuteCommand.method_47527(context); }
 // public boolean isLoaded(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isLoaded(world.wrapperContained,pos.wrapperContained); }
@@ -209,6 +203,8 @@ public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType INSTA
 // public static java.util.Optional method_48068(yarnwrap.entity.Entity entity, ) { return net.minecraft.server.command.ExecuteCommand.method_48068(entity.wrapperContained); }
 // public java.util.Optional method_48069(yarnwrap.entity.Entity entity) { return wrapperContained.method_48069(entity.wrapperContained); }
 // public static java.util.Optional method_48069(yarnwrap.entity.Entity entity, ) { return net.minecraft.server.command.ExecuteCommand.method_48069(entity.wrapperContained); }
+// public boolean method_48070(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_48070(context); }
+// public static boolean method_48070(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ExecuteCommand.method_48070(context); }
 // public java.util.Optional method_48071(yarnwrap.entity.Entity entity) { return wrapperContained.method_48071(entity.wrapperContained); }
 // public static java.util.Optional method_48071(yarnwrap.entity.Entity entity, ) { return net.minecraft.server.command.ExecuteCommand.method_48071(entity.wrapperContained); }
 // public java.util.Optional method_48072(yarnwrap.entity.Entity entity) { return wrapperContained.method_48072(entity.wrapperContained); }
@@ -231,17 +227,25 @@ public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType INSTA
 // public static yarnwrap.server.command.ServerCommandSource method_49419(com.mojang.brigadier.context.CommandContext context, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.command.ExecuteCommand.method_49419(context)); }
 // public com.mojang.brigadier.Message method_54263(java.lang.Object function,java.lang.Object message) { return wrapperContained.method_54263(function,message); }
 // public static com.mojang.brigadier.Message method_54263(java.lang.Object function,java.lang.Object message, ) { return net.minecraft.server.command.ExecuteCommand.method_54263(function,message); }
-// public void enqueueExecutions(yarnwrap.server.command.AbstractServerCommandSource baseSource,java.util.List sources,java.util.function.Function functionSourceGetter,java.util.function.IntPredicate predicate,com.mojang.brigadier.context.ContextChain contextChain,yarnwrap.nbt.NbtCompound args,yarnwrap.command.ExecutionControl control,Object functionNamesGetter,yarnwrap.command.ExecutionFlags flags) { wrapperContained.enqueueExecutions(baseSource.wrapperContained,sources,functionSourceGetter,predicate,contextChain,args.wrapperContained,control.wrapperContained,functionNamesGetter,flags.wrapperContained); }
-// public static void enqueueExecutions(yarnwrap.server.command.AbstractServerCommandSource baseSource,java.util.List sources,java.util.function.Function functionSourceGetter,java.util.function.IntPredicate predicate,com.mojang.brigadier.context.ContextChain contextChain,yarnwrap.nbt.NbtCompound args,yarnwrap.command.ExecutionControl control,Object functionNamesGetter,yarnwrap.command.ExecutionFlags flags, ) { net.minecraft.server.command.ExecuteCommand.enqueueExecutions(baseSource.wrapperContained,sources,functionSourceGetter,predicate,contextChain,args.wrapperContained,control.wrapperContained,functionNamesGetter,flags.wrapperContained); }
+// public void enqueueExecutions(yarnwrap.server.command.AbstractServerCommandSource baseSource,java.util.List sources,java.util.function.Function functionSourceGetter,java.util.function.IntPredicate predicate,com.mojang.brigadier.context.ContextChain contextChain,yarnwrap.nbt.NbtCompound args,yarnwrap.command.ExecutionControl control,yarnwrap.command.ArgumentGetter functionNamesGetter,yarnwrap.command.ExecutionFlags flags) { wrapperContained.enqueueExecutions(baseSource.wrapperContained,sources,functionSourceGetter,predicate,contextChain,args.wrapperContained,control.wrapperContained,functionNamesGetter.wrapperContained,flags.wrapperContained); }
+// public static void enqueueExecutions(yarnwrap.server.command.AbstractServerCommandSource baseSource,java.util.List sources,java.util.function.Function functionSourceGetter,java.util.function.IntPredicate predicate,com.mojang.brigadier.context.ContextChain contextChain,yarnwrap.nbt.NbtCompound args,yarnwrap.command.ExecutionControl control,yarnwrap.command.ArgumentGetter functionNamesGetter,yarnwrap.command.ExecutionFlags flags, ) { net.minecraft.server.command.ExecuteCommand.enqueueExecutions(baseSource.wrapperContained,sources,functionSourceGetter,predicate,contextChain,args.wrapperContained,control.wrapperContained,functionNamesGetter.wrapperContained,flags.wrapperContained); }
 // public void method_54852(java.util.List newControl) { wrapperContained.method_54852(newControl); }
 // public static void method_54852(java.util.List newControl, ) { net.minecraft.server.command.ExecuteCommand.method_54852(newControl); }
 // public void method_54853(java.util.function.IntPredicate successful,java.util.List returnValue) { wrapperContained.method_54853(successful,returnValue); }
 // public static void method_54853(java.util.function.IntPredicate successful,java.util.List returnValue, ) { net.minecraft.server.command.ExecuteCommand.method_54853(successful,returnValue); }
 // public boolean method_55338(int targetScore,int sourceScore) { return wrapperContained.method_55338(targetScore,sourceScore); }
 // public static boolean method_55338(int targetScore,int sourceScore, ) { return net.minecraft.server.command.ExecuteCommand.method_55338(targetScore,sourceScore); }
+// public int method_58033(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_58033(context); }
+// public static int method_58033(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ExecuteCommand.method_58033(context); }
 // public int countMatchingItems(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.BlockPos pos,yarnwrap.inventory.SlotRange slotRange,java.util.function.Predicate predicate) { return wrapperContained.countMatchingItems(source.wrapperContained,pos.wrapperContained,slotRange.wrapperContained,predicate); }
 // public static int countMatchingItems(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.BlockPos pos,yarnwrap.inventory.SlotRange slotRange,java.util.function.Predicate predicate, ) { return net.minecraft.server.command.ExecuteCommand.countMatchingItems(source.wrapperContained,pos.wrapperContained,slotRange.wrapperContained,predicate); }
 // public int countMatchingItems(java.lang.Iterable entities,yarnwrap.inventory.SlotRange slotRange,java.util.function.Predicate predicate) { return wrapperContained.countMatchingItems(entities,slotRange.wrapperContained,predicate); }
 // public static int countMatchingItems(java.lang.Iterable entities,yarnwrap.inventory.SlotRange slotRange,java.util.function.Predicate predicate, ) { return net.minecraft.server.command.ExecuteCommand.countMatchingItems(entities,slotRange.wrapperContained,predicate); }
+// public int method_58036(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_58036(context); }
+// public static int method_58036(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ExecuteCommand.method_58036(context); }
+// public java.util.Collection method_58037(boolean context) { return wrapperContained.method_58037(context); }
+// public static java.util.Collection method_58037(boolean context, ) { return net.minecraft.server.command.ExecuteCommand.method_58037(context); }
+// public java.util.Collection method_58038(boolean context) { return wrapperContained.method_58038(context); }
+// public static java.util.Collection method_58038(boolean context, ) { return net.minecraft.server.command.ExecuteCommand.method_58038(context); }
 
 }

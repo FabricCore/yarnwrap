@@ -6,10 +6,10 @@ public class Properties { public net.minecraft.state.property.Properties wrapper
 public static yarnwrap.state.property.BooleanProperty FALLING() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.state.property.Properties.FALLING); }
 // public static void FALLING(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.state.property.Properties.FALLING = value.wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty HORIZONTAL_FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.HORIZONTAL_FACING); }
-// public void HORIZONTAL_FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.HORIZONTAL_FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty HORIZONTAL_FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.state.property.Properties.HORIZONTAL_FACING); }
-// public static void HORIZONTAL_FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.state.property.Properties.HORIZONTAL_FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty HORIZONTAL_FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.HORIZONTAL_FACING); }
+// public void HORIZONTAL_FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.HORIZONTAL_FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty HORIZONTAL_FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.state.property.Properties.HORIZONTAL_FACING); }
+// public static void HORIZONTAL_FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.state.property.Properties.HORIZONTAL_FACING = value.wrapperContained; }
 
 // public yarnwrap.state.property.IntProperty AGE_5() { return new yarnwrap.state.property.IntProperty(wrapperContained.AGE_5); }
 // public void AGE_5(yarnwrap.state.property.IntProperty value) { wrapperContained.AGE_5 = value.wrapperContained; }
@@ -226,10 +226,10 @@ public static yarnwrap.state.property.EnumProperty EAST_WIRE_CONNECTION() { retu
 public static yarnwrap.state.property.IntProperty NOTE() { return new yarnwrap.state.property.IntProperty(net.minecraft.state.property.Properties.NOTE); }
 // public static void NOTE(yarnwrap.state.property.IntProperty value, ) { net.minecraft.state.property.Properties.NOTE = value.wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.state.property.Properties.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.state.property.Properties.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.state.property.Properties.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.state.property.Properties.FACING = value.wrapperContained; }
 
 // public yarnwrap.state.property.BooleanProperty DRAG() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.DRAG); }
 // public void DRAG(yarnwrap.state.property.BooleanProperty value) { wrapperContained.DRAG = value.wrapperContained; }
@@ -326,10 +326,10 @@ public static yarnwrap.state.property.IntProperty PICKLES() { return new yarnwra
 public static yarnwrap.state.property.BooleanProperty HAS_RECORD() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.state.property.Properties.HAS_RECORD); }
 // public static void HAS_RECORD(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.state.property.Properties.HAS_RECORD = value.wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty HOPPER_FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.HOPPER_FACING); }
-// public void HOPPER_FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.HOPPER_FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty HOPPER_FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.state.property.Properties.HOPPER_FACING); }
-// public static void HOPPER_FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.state.property.Properties.HOPPER_FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty HOPPER_FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.HOPPER_FACING); }
+// public void HOPPER_FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.HOPPER_FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty HOPPER_FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.state.property.Properties.HOPPER_FACING); }
+// public static void HOPPER_FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.state.property.Properties.HOPPER_FACING = value.wrapperContained; }
 
 // public yarnwrap.state.property.BooleanProperty DOWN() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.DOWN); }
 // public void DOWN(yarnwrap.state.property.BooleanProperty value) { wrapperContained.DOWN = value.wrapperContained; }
@@ -461,10 +461,10 @@ public static yarnwrap.state.property.EnumProperty ORIENTATION() { return new ya
 public static yarnwrap.state.property.IntProperty CANDLES() { return new yarnwrap.state.property.IntProperty(net.minecraft.state.property.Properties.CANDLES); }
 // public static void CANDLES(yarnwrap.state.property.IntProperty value, ) { net.minecraft.state.property.Properties.CANDLES = value.wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty VERTICAL_DIRECTION() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.VERTICAL_DIRECTION); }
-// public void VERTICAL_DIRECTION(yarnwrap.state.property.DirectionProperty value) { wrapperContained.VERTICAL_DIRECTION = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty VERTICAL_DIRECTION() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.state.property.Properties.VERTICAL_DIRECTION); }
-// public static void VERTICAL_DIRECTION(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.state.property.Properties.VERTICAL_DIRECTION = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty VERTICAL_DIRECTION() { return new yarnwrap.state.property.EnumProperty(wrapperContained.VERTICAL_DIRECTION); }
+// public void VERTICAL_DIRECTION(yarnwrap.state.property.EnumProperty value) { wrapperContained.VERTICAL_DIRECTION = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty VERTICAL_DIRECTION() { return new yarnwrap.state.property.EnumProperty(net.minecraft.state.property.Properties.VERTICAL_DIRECTION); }
+// public static void VERTICAL_DIRECTION(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.state.property.Properties.VERTICAL_DIRECTION = value.wrapperContained; }
 
 // public yarnwrap.state.property.EnumProperty THICKNESS() { return new yarnwrap.state.property.EnumProperty(wrapperContained.THICKNESS); }
 // public void THICKNESS(yarnwrap.state.property.EnumProperty value) { wrapperContained.THICKNESS = value.wrapperContained; }
@@ -486,10 +486,10 @@ public static yarnwrap.state.property.BooleanProperty BERRIES() { return new yar
 public static yarnwrap.state.property.EnumProperty TILT() { return new yarnwrap.state.property.EnumProperty(net.minecraft.state.property.Properties.TILT); }
 // public static void TILT(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.state.property.Properties.TILT = value.wrapperContained; }
 
-// public int LEVEL_3_MIN() { return wrapperContained.LEVEL_3_MIN; }
-// public void LEVEL_3_MIN(int value) { wrapperContained.LEVEL_3_MIN = value; }
-public static int LEVEL_3_MIN() { return net.minecraft.state.property.Properties.LEVEL_3_MIN; }
-// public static void LEVEL_3_MIN(int value, ) { net.minecraft.state.property.Properties.LEVEL_3_MIN = value; }
+// public int LEVEL_8_MIN() { return wrapperContained.LEVEL_8_MIN; }
+// public void LEVEL_8_MIN(int value) { wrapperContained.LEVEL_8_MIN = value; }
+public static int LEVEL_8_MIN() { return net.minecraft.state.property.Properties.LEVEL_8_MIN; }
+// public static void LEVEL_8_MIN(int value, ) { net.minecraft.state.property.Properties.LEVEL_8_MIN = value; }
 
 // public int LEVEL_1_8_MIN() { return wrapperContained.LEVEL_1_8_MIN; }
 // public void LEVEL_1_8_MIN(int value) { wrapperContained.LEVEL_1_8_MIN = value; }
@@ -655,6 +655,41 @@ public static yarnwrap.state.property.EnumProperty VAULT_STATE() { return new ya
 // public void OMINOUS(yarnwrap.state.property.BooleanProperty value) { wrapperContained.OMINOUS = value.wrapperContained; }
 public static yarnwrap.state.property.BooleanProperty OMINOUS() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.state.property.Properties.OMINOUS); }
 // public static void OMINOUS(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.state.property.Properties.OMINOUS = value.wrapperContained; }
+
+// public yarnwrap.state.property.BooleanProperty TIP() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.TIP); }
+// public void TIP(yarnwrap.state.property.BooleanProperty value) { wrapperContained.TIP = value.wrapperContained; }
+public static yarnwrap.state.property.BooleanProperty TIP() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.state.property.Properties.TIP); }
+// public static void TIP(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.state.property.Properties.TIP = value.wrapperContained; }
+
+// public yarnwrap.state.property.BooleanProperty NATURAL() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.NATURAL); }
+// public void NATURAL(yarnwrap.state.property.BooleanProperty value) { wrapperContained.NATURAL = value.wrapperContained; }
+public static yarnwrap.state.property.BooleanProperty NATURAL() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.state.property.Properties.NATURAL); }
+// public static void NATURAL(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.state.property.Properties.NATURAL = value.wrapperContained; }
+
+// public yarnwrap.state.property.IntProperty SEGMENT_AMOUNT() { return new yarnwrap.state.property.IntProperty(wrapperContained.SEGMENT_AMOUNT); }
+// public void SEGMENT_AMOUNT(yarnwrap.state.property.IntProperty value) { wrapperContained.SEGMENT_AMOUNT = value.wrapperContained; }
+public static yarnwrap.state.property.IntProperty SEGMENT_AMOUNT() { return new yarnwrap.state.property.IntProperty(net.minecraft.state.property.Properties.SEGMENT_AMOUNT); }
+// public static void SEGMENT_AMOUNT(yarnwrap.state.property.IntProperty value, ) { net.minecraft.state.property.Properties.SEGMENT_AMOUNT = value.wrapperContained; }
+
+// public yarnwrap.state.property.EnumProperty CREAKING_HEART_STATE() { return new yarnwrap.state.property.EnumProperty(wrapperContained.CREAKING_HEART_STATE); }
+// public void CREAKING_HEART_STATE(yarnwrap.state.property.EnumProperty value) { wrapperContained.CREAKING_HEART_STATE = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty CREAKING_HEART_STATE() { return new yarnwrap.state.property.EnumProperty(net.minecraft.state.property.Properties.CREAKING_HEART_STATE); }
+// public static void CREAKING_HEART_STATE(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.state.property.Properties.CREAKING_HEART_STATE = value.wrapperContained; }
+
+// public yarnwrap.state.property.EnumProperty TEST_BLOCK_MODE() { return new yarnwrap.state.property.EnumProperty(wrapperContained.TEST_BLOCK_MODE); }
+// public void TEST_BLOCK_MODE(yarnwrap.state.property.EnumProperty value) { wrapperContained.TEST_BLOCK_MODE = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty TEST_BLOCK_MODE() { return new yarnwrap.state.property.EnumProperty(net.minecraft.state.property.Properties.TEST_BLOCK_MODE); }
+// public static void TEST_BLOCK_MODE(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.state.property.Properties.TEST_BLOCK_MODE = value.wrapperContained; }
+
+// public yarnwrap.state.property.BooleanProperty MAP() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.MAP); }
+// public void MAP(yarnwrap.state.property.BooleanProperty value) { wrapperContained.MAP = value.wrapperContained; }
+public static yarnwrap.state.property.BooleanProperty MAP() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.state.property.Properties.MAP); }
+// public static void MAP(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.state.property.Properties.MAP = value.wrapperContained; }
+
+// public yarnwrap.state.property.IntProperty HYDRATION() { return new yarnwrap.state.property.IntProperty(wrapperContained.HYDRATION); }
+// public void HYDRATION(yarnwrap.state.property.IntProperty value) { wrapperContained.HYDRATION = value.wrapperContained; }
+// public static yarnwrap.state.property.IntProperty HYDRATION() { return new yarnwrap.state.property.IntProperty(net.minecraft.state.property.Properties.HYDRATION); }
+// public static void HYDRATION(yarnwrap.state.property.IntProperty value, ) { net.minecraft.state.property.Properties.HYDRATION = value.wrapperContained; }
 
 // public boolean method_11813(yarnwrap.block.enums.RailShape shape) { return wrapperContained.method_11813(shape.wrapperContained); }
 // public static boolean method_11813(yarnwrap.block.enums.RailShape shape, ) { return net.minecraft.state.property.Properties.method_11813(shape.wrapperContained); }

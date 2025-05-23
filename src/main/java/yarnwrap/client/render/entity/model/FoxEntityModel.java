@@ -51,7 +51,11 @@ public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model
 // public static float LEG_Y_PIVOT() { return net.minecraft.client.render.entity.model.FoxEntityModel.LEG_Y_PIVOT; }
 // public static void LEG_Y_PIVOT(float value, ) { net.minecraft.client.render.entity.model.FoxEntityModel.LEG_Y_PIVOT = value; }
 
-public FoxEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.FoxEntityModel(root.wrapperContained); }
+// public yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.BABY_TRANSFORMER); }
+// public void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.BABY_TRANSFORMER = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.FoxEntityModel.BABY_TRANSFORMER); }
+// public static void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.FoxEntityModel.BABY_TRANSFORMER = value.wrapperContained; }
+
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.FoxEntityModel.getTexturedModelData()); }
 

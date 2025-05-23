@@ -6,7 +6,6 @@ public class EntityBlockStateFix { public net.minecraft.datafixer.fix.EntityBloc
 // public static java.util.Map BLOCK_NAME_TO_ID() { return net.minecraft.datafixer.fix.EntityBlockStateFix.BLOCK_NAME_TO_ID; }
 // public static void BLOCK_NAME_TO_ID(java.util.Map value, ) { net.minecraft.datafixer.fix.EntityBlockStateFix.BLOCK_NAME_TO_ID = value; }
 
-public EntityBlockStateFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityBlockStateFix(outputSchema,changesType); }
 // public com.mojang.datafixers.Typed method_15680(com.mojang.datafixers.Typed arrow) { return wrapperContained.method_15680(arrow); }
 // public static com.mojang.datafixers.Typed method_15680(com.mojang.datafixers.Typed arrow, ) { return net.minecraft.datafixer.fix.EntityBlockStateFix.method_15680(arrow); }
 // public com.mojang.datafixers.Typed useFunction(com.mojang.datafixers.Typed entity,java.lang.String entityId,java.util.function.Function function) { return wrapperContained.useFunction(entity,entityId,function); }

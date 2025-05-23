@@ -30,5 +30,7 @@ public yarnwrap.block.Block getContent() { return new yarnwrap.block.Block(wrapp
 // public static com.mojang.datafixers.kinds.App method_54017(Object instance, ) { return net.minecraft.block.FlowerPotBlock.method_54017(instance); }
 // public yarnwrap.block.Block method_54018(yarnwrap.block.FlowerPotBlock block) { return new yarnwrap.block.Block(wrapperContained.method_54018(block.wrapperContained)); }
 // public static yarnwrap.block.Block method_54018(yarnwrap.block.FlowerPotBlock block, ) { return new yarnwrap.block.Block(net.minecraft.block.FlowerPotBlock.method_54018(block.wrapperContained)); }
+public yarnwrap.block.BlockState getToggledState(yarnwrap.block.BlockState state) { return new yarnwrap.block.BlockState(wrapperContained.getToggledState(state.wrapperContained)); }
+// public static yarnwrap.block.BlockState getToggledState(yarnwrap.block.BlockState state, ) { return new yarnwrap.block.BlockState(net.minecraft.block.FlowerPotBlock.getToggledState(state.wrapperContained)); }
 
 }

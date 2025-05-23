@@ -108,8 +108,8 @@ public static yarnwrap.server.world.OptionalChunk UNLOADED_WORLD_CHUNK() { retur
 // public static void method_13996(yarnwrap.network.packet.Packet player, ) { net.minecraft.server.world.ChunkHolder.method_13996(player.wrapperContained); }
 public java.util.concurrent.CompletableFuture getSavingFuture() { return wrapperContained.getSavingFuture(); }
 // public static java.util.concurrent.CompletableFuture getSavingFuture() { return net.minecraft.server.world.ChunkHolder.getSavingFuture(); }
-public void markForBlockUpdate(yarnwrap.util.math.BlockPos pos) { wrapperContained.markForBlockUpdate(pos.wrapperContained); }
-// public static void markForBlockUpdate(yarnwrap.util.math.BlockPos pos, ) { net.minecraft.server.world.ChunkHolder.markForBlockUpdate(pos.wrapperContained); }
+public boolean markForBlockUpdate(yarnwrap.util.math.BlockPos pos) { return wrapperContained.markForBlockUpdate(pos.wrapperContained); }
+// public static boolean markForBlockUpdate(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.server.world.ChunkHolder.markForBlockUpdate(pos.wrapperContained); }
 public java.util.concurrent.CompletableFuture getEntityTickingFuture() { return wrapperContained.getEntityTickingFuture(); }
 // public static java.util.concurrent.CompletableFuture getEntityTickingFuture() { return net.minecraft.server.world.ChunkHolder.getEntityTickingFuture(); }
 public void flushUpdates(yarnwrap.world.chunk.WorldChunk chunk) { wrapperContained.flushUpdates(chunk.wrapperContained); }
@@ -118,8 +118,8 @@ public void flushUpdates(yarnwrap.world.chunk.WorldChunk chunk) { wrapperContain
 // public static void updateFutures(yarnwrap.server.world.ServerChunkLoadingManager chunkLoadingManager,java.util.concurrent.Executor executor, ) { net.minecraft.server.world.ChunkHolder.updateFutures(chunkLoadingManager.wrapperContained,executor); }
 // public void sendBlockEntityUpdatePacket(java.util.List players,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.sendBlockEntityUpdatePacket(players,world.wrapperContained,pos.wrapperContained); }
 // public static void sendBlockEntityUpdatePacket(java.util.List players,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.server.world.ChunkHolder.sendBlockEntityUpdatePacket(players,world.wrapperContained,pos.wrapperContained); }
-public void markForLightUpdate(yarnwrap.world.LightType lightType,int y) { wrapperContained.markForLightUpdate(lightType.wrapperContained,y); }
-// public static void markForLightUpdate(yarnwrap.world.LightType lightType,int y, ) { net.minecraft.server.world.ChunkHolder.markForLightUpdate(lightType.wrapperContained,y); }
+public boolean markForLightUpdate(yarnwrap.world.LightType lightType,int y) { return wrapperContained.markForLightUpdate(lightType.wrapperContained,y); }
+// public static boolean markForLightUpdate(yarnwrap.world.LightType lightType,int y, ) { return net.minecraft.server.world.ChunkHolder.markForLightUpdate(lightType.wrapperContained,y); }
 public void setLevel(int level) { wrapperContained.setLevel(level); }
 // public static void setLevel(int level, ) { net.minecraft.server.world.ChunkHolder.setLevel(level); }
 public yarnwrap.world.chunk.WorldChunk getWorldChunk() { return new yarnwrap.world.chunk.WorldChunk(wrapperContained.getWorldChunk()); }
@@ -146,8 +146,6 @@ public java.util.concurrent.CompletableFuture getAccessibleFuture() { return wra
 // public static void method_31410(java.util.concurrent.CompletableFuture chunk, ) { net.minecraft.server.world.ChunkHolder.method_31410(chunk); }
 // public java.lang.Object method_39966(java.lang.Object thenResult) { return wrapperContained.method_39966(thenResult); }
 // public static java.lang.Object method_39966(java.lang.Object thenResult, ) { return net.minecraft.server.world.ChunkHolder.method_39966(thenResult); }
-// public void combineSavingFuture(java.util.concurrent.CompletableFuture savingFuture) { wrapperContained.combineSavingFuture(savingFuture); }
-// public static void combineSavingFuture(java.util.concurrent.CompletableFuture savingFuture, ) { net.minecraft.server.world.ChunkHolder.combineSavingFuture(savingFuture); }
 public void combinePostProcessingFuture(java.util.concurrent.CompletableFuture postProcessingFuture) { wrapperContained.combinePostProcessingFuture(postProcessingFuture); }
 // public static void combinePostProcessingFuture(java.util.concurrent.CompletableFuture postProcessingFuture, ) { net.minecraft.server.world.ChunkHolder.combinePostProcessingFuture(postProcessingFuture); }
 public java.util.concurrent.CompletableFuture getPostProcessingFuture() { return wrapperContained.getPostProcessingFuture(); }
@@ -158,5 +156,7 @@ public yarnwrap.world.chunk.WorldChunk getPostProcessedChunk() { return new yarn
 // public static void method_57117(java.util.concurrent.CompletableFuture optionalChunk, ) { net.minecraft.server.world.ChunkHolder.method_57117(optionalChunk); }
 public boolean isSavable() { return wrapperContained.isSavable(); }
 // public static boolean isSavable() { return net.minecraft.server.world.ChunkHolder.isSavable(); }
+public boolean hasPendingUpdates() { return wrapperContained.hasPendingUpdates(); }
+// public static boolean hasPendingUpdates() { return net.minecraft.server.world.ChunkHolder.hasPendingUpdates(); }
 
 }

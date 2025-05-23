@@ -14,7 +14,5 @@ public class PardonCommand { public net.minecraft.server.dedicated.command.Pardo
 // public static java.util.concurrent.CompletableFuture method_13474(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.dedicated.command.PardonCommand.method_13474(context,builder); }
 // public int method_13475(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13475(context); }
 // public static int method_13475(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.PardonCommand.method_13475(context); }
-// public boolean method_13476(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13476(source.wrapperContained); }
-// public static boolean method_13476(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.PardonCommand.method_13476(source.wrapperContained); }
 
 }

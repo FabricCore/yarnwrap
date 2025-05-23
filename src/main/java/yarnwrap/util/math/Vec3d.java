@@ -26,7 +26,13 @@ public static yarnwrap.util.math.Vec3d ZERO() { return new yarnwrap.util.math.Ve
 public static com.mojang.serialization.Codec CODEC() { return net.minecraft.util.math.Vec3d.CODEC; }
 // public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.util.math.Vec3d.CODEC = value; }
 
+// public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
+// public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.util.math.Vec3d.PACKET_CODEC); }
+// public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.util.math.Vec3d.PACKET_CODEC = value.wrapperContained; }
+
 public Vec3d(double x,double y,double z) { this.wrapperContained = new net.minecraft.util.math.Vec3d(x,y,z); }
+public Vec3d(yarnwrap.util.math.Vec3i vec) { this.wrapperContained = new net.minecraft.util.math.Vec3d(vec.wrapperContained); }
 public Vec3d(org.joml.Vector3f vec) { this.wrapperContained = new net.minecraft.util.math.Vec3d(vec); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.util.math.Vec3d.equals(o); }
@@ -114,5 +120,15 @@ public yarnwrap.util.math.Vec3d addRandom(yarnwrap.util.math.random.Random rando
 // public static yarnwrap.util.math.Vec3d add(yarnwrap.util.math.Vec3i vec,double deltaX,double deltaY,double deltaZ, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.util.math.Vec3d.add(vec.wrapperContained,deltaX,deltaY,deltaZ)); }
 public boolean isWithinRangeOf(yarnwrap.util.math.Vec3d vec,double horizontalRange,double verticalRange) { return wrapperContained.isWithinRangeOf(vec.wrapperContained,horizontalRange,verticalRange); }
 // public static boolean isWithinRangeOf(yarnwrap.util.math.Vec3d vec,double horizontalRange,double verticalRange, ) { return net.minecraft.util.math.Vec3d.isWithinRangeOf(vec.wrapperContained,horizontalRange,verticalRange); }
+public yarnwrap.util.math.Vec3d subtract(double value) { return new yarnwrap.util.math.Vec3d(wrapperContained.subtract(value)); }
+// public static yarnwrap.util.math.Vec3d subtract(double value, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.util.math.Vec3d.subtract(value)); }
+public yarnwrap.util.math.Vec3d add(double value) { return new yarnwrap.util.math.Vec3d(wrapperContained.add(value)); }
+// public static yarnwrap.util.math.Vec3d add(double value, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.util.math.Vec3d.add(value)); }
+public yarnwrap.util.math.Vec3d getHorizontal() { return new yarnwrap.util.math.Vec3d(wrapperContained.getHorizontal()); }
+// public static yarnwrap.util.math.Vec3d getHorizontal() { return new yarnwrap.util.math.Vec3d(net.minecraft.util.math.Vec3d.getHorizontal()); }
+public yarnwrap.util.math.Vec3d projectOnto(yarnwrap.util.math.Vec3d vec) { return new yarnwrap.util.math.Vec3d(wrapperContained.projectOnto(vec.wrapperContained)); }
+// public static yarnwrap.util.math.Vec3d projectOnto(yarnwrap.util.math.Vec3d vec, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.util.math.Vec3d.projectOnto(vec.wrapperContained)); }
+// public yarnwrap.util.math.Vec3d rotateYClockwise() { return new yarnwrap.util.math.Vec3d(wrapperContained.rotateYClockwise()); }
+// public static yarnwrap.util.math.Vec3d rotateYClockwise() { return new yarnwrap.util.math.Vec3d(net.minecraft.util.math.Vec3d.rotateYClockwise()); }
 
 }

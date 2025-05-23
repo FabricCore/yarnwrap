@@ -16,6 +16,11 @@ public class FeaturePoolElement { public net.minecraft.structure.pool.FeaturePoo
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.structure.pool.FeaturePoolElement.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.structure.pool.FeaturePoolElement.CODEC = value; }
 
+// public yarnwrap.util.Identifier DEFAULT_NAME() { return new yarnwrap.util.Identifier(wrapperContained.DEFAULT_NAME); }
+// public void DEFAULT_NAME(yarnwrap.util.Identifier value) { wrapperContained.DEFAULT_NAME = value.wrapperContained; }
+// public static yarnwrap.util.Identifier DEFAULT_NAME() { return new yarnwrap.util.Identifier(net.minecraft.structure.pool.FeaturePoolElement.DEFAULT_NAME); }
+// public static void DEFAULT_NAME(yarnwrap.util.Identifier value, ) { net.minecraft.structure.pool.FeaturePoolElement.DEFAULT_NAME = value.wrapperContained; }
+
 // public FeaturePoolElement(yarnwrap.registry.entry.RegistryEntry feature,Object projection) { this.wrapperContained = new net.minecraft.structure.pool.FeaturePoolElement(feature.wrapperContained,projection); }
 // public yarnwrap.nbt.NbtCompound createDefaultJigsawNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.createDefaultJigsawNbt()); }
 // public static yarnwrap.nbt.NbtCompound createDefaultJigsawNbt() { return new yarnwrap.nbt.NbtCompound(net.minecraft.structure.pool.FeaturePoolElement.createDefaultJigsawNbt()); }

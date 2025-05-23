@@ -11,6 +11,11 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 public static com.mojang.serialization.Codec CODEC() { return net.minecraft.component.type.MapIdComponent.CODEC; }
 // public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.component.type.MapIdComponent.CODEC = value; }
 
+// public yarnwrap.text.Text LOCKED_TOOLTIP_TEXT() { return new yarnwrap.text.Text(wrapperContained.LOCKED_TOOLTIP_TEXT); }
+// public void LOCKED_TOOLTIP_TEXT(yarnwrap.text.Text value) { wrapperContained.LOCKED_TOOLTIP_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text LOCKED_TOOLTIP_TEXT() { return new yarnwrap.text.Text(net.minecraft.component.type.MapIdComponent.LOCKED_TOOLTIP_TEXT); }
+// public static void LOCKED_TOOLTIP_TEXT(yarnwrap.text.Text value, ) { net.minecraft.component.type.MapIdComponent.LOCKED_TOOLTIP_TEXT = value.wrapperContained; }
+
 public java.lang.String asString() { return wrapperContained.asString(); }
 // public static java.lang.String asString() { return net.minecraft.component.type.MapIdComponent.asString(); }
 

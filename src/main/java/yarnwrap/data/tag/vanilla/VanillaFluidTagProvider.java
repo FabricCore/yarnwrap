@@ -1,0 +1,8 @@
+package yarnwrap.data.tag.vanilla;
+public class VanillaFluidTagProvider { public net.minecraft.data.tag.vanilla.VanillaFluidTagProvider wrapperContained; public VanillaFluidTagProvider(net.minecraft.data.tag.vanilla.VanillaFluidTagProvider wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public VanillaFluidTagProvider(yarnwrap.data.DataOutput output,java.util.concurrent.CompletableFuture registriesFuture) { this.wrapperContained = new net.minecraft.data.tag.vanilla.VanillaFluidTagProvider(output.wrapperContained,registriesFuture); }
+// public yarnwrap.registry.RegistryKey method_46825(yarnwrap.fluid.Fluid fluid) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_46825(fluid.wrapperContained)); }
+// public static yarnwrap.registry.RegistryKey method_46825(yarnwrap.fluid.Fluid fluid, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.data.tag.vanilla.VanillaFluidTagProvider.method_46825(fluid.wrapperContained)); }
+
+}

@@ -49,10 +49,10 @@ public class EntityS2CPacket { public net.minecraft.network.packet.s2c.play.Enti
 // public EntityS2CPacket(int entityId,short deltaX,short deltaY,short deltaZ,byte yaw,byte pitch,boolean onGround,boolean rotate,boolean positionChanged) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntityS2CPacket(entityId,deltaX,deltaY,deltaZ,yaw,pitch,onGround,rotate,positionChanged); }
 public yarnwrap.entity.Entity getEntity(yarnwrap.world.World world) { return new yarnwrap.entity.Entity(wrapperContained.getEntity(world.wrapperContained)); }
 // public static yarnwrap.entity.Entity getEntity(yarnwrap.world.World world, ) { return new yarnwrap.entity.Entity(net.minecraft.network.packet.s2c.play.EntityS2CPacket.getEntity(world.wrapperContained)); }
-public byte getYaw() { return wrapperContained.getYaw(); }
-// public static byte getYaw() { return net.minecraft.network.packet.s2c.play.EntityS2CPacket.getYaw(); }
-public byte getPitch() { return wrapperContained.getPitch(); }
-// public static byte getPitch() { return net.minecraft.network.packet.s2c.play.EntityS2CPacket.getPitch(); }
+public float getYaw() { return wrapperContained.getYaw(); }
+// public static float getYaw() { return net.minecraft.network.packet.s2c.play.EntityS2CPacket.getYaw(); }
+public float getPitch() { return wrapperContained.getPitch(); }
+// public static float getPitch() { return net.minecraft.network.packet.s2c.play.EntityS2CPacket.getPitch(); }
 public boolean hasRotation() { return wrapperContained.hasRotation(); }
 // public static boolean hasRotation() { return net.minecraft.network.packet.s2c.play.EntityS2CPacket.hasRotation(); }
 public boolean isOnGround() { return wrapperContained.isOnGround(); }

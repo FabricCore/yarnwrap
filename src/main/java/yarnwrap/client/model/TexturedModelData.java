@@ -16,5 +16,7 @@ public yarnwrap.client.model.ModelPart createModel() { return new yarnwrap.clien
 // public static yarnwrap.client.model.ModelPart createModel() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.model.TexturedModelData.createModel()); }
 // public yarnwrap.client.model.TexturedModelData of(yarnwrap.client.model.ModelData partData,int textureWidth,int textureHeight) { return new yarnwrap.client.model.TexturedModelData(wrapperContained.of(partData.wrapperContained,textureWidth,textureHeight)); }
 // public static yarnwrap.client.model.TexturedModelData of(yarnwrap.client.model.ModelData partData,int textureWidth,int textureHeight, ) { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.model.TexturedModelData.of(partData.wrapperContained,textureWidth,textureHeight)); }
+public yarnwrap.client.model.TexturedModelData transform(yarnwrap.client.render.entity.model.ModelTransformer transformer) { return new yarnwrap.client.model.TexturedModelData(wrapperContained.transform(transformer.wrapperContained)); }
+// public static yarnwrap.client.model.TexturedModelData transform(yarnwrap.client.render.entity.model.ModelTransformer transformer, ) { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.model.TexturedModelData.transform(transformer.wrapperContained)); }
 
 }

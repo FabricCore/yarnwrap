@@ -37,8 +37,8 @@ public class VideoMode { public net.minecraft.client.util.VideoMode wrapperConta
 // public static void PATTERN(java.util.regex.Pattern value, ) { net.minecraft.client.util.VideoMode.PATTERN = value; }
 
 public VideoMode(int width,int height,int redBits,int greenBits,int blueBits,int refreshRate) { this.wrapperContained = new net.minecraft.client.util.VideoMode(width,height,redBits,greenBits,blueBits,refreshRate); }
-// public VideoMode(Object buffer) { this.wrapperContained = new net.minecraft.client.util.VideoMode(buffer); }
 public VideoMode(org.lwjgl.glfw.GLFWVidMode vidMode) { this.wrapperContained = new net.minecraft.client.util.VideoMode(vidMode); }
+// public VideoMode(Object buffer) { this.wrapperContained = new net.minecraft.client.util.VideoMode(buffer); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.client.util.VideoMode.equals(o); }
 // public java.util.Optional fromString(java.lang.String string) { return wrapperContained.fromString(string); }

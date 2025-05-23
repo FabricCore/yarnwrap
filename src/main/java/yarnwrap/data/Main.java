@@ -3,23 +3,23 @@ public class Main { public net.minecraft.data.Main wrapperContained; public Main
 
 // public void main(java.lang.String[] args) { wrapperContained.main(args); }
 // public static void main(java.lang.String[] args, ) { net.minecraft.data.Main.main(args); }
-// public yarnwrap.data.dev.NbtProvider method_46595(java.util.Collection outputx) { return new yarnwrap.data.dev.NbtProvider(wrapperContained.method_46595(outputx)); }
-// public static yarnwrap.data.dev.NbtProvider method_46595(java.util.Collection outputx, ) { return new yarnwrap.data.dev.NbtProvider(net.minecraft.data.Main.method_46595(outputx)); }
-// public yarnwrap.data.MetadataProvider method_46597(yarnwrap.data.DataOutput outputx) { return new yarnwrap.data.MetadataProvider(wrapperContained.method_46597(outputx.wrapperContained)); }
-// public static yarnwrap.data.MetadataProvider method_46597(yarnwrap.data.DataOutput outputx, ) { return new yarnwrap.data.MetadataProvider(net.minecraft.data.Main.method_46597(outputx.wrapperContained)); }
-// public yarnwrap.data.SnbtProvider method_46598(java.util.Collection outputx) { return new yarnwrap.data.SnbtProvider(wrapperContained.method_46598(outputx)); }
-// public static yarnwrap.data.SnbtProvider method_46598(java.util.Collection outputx, ) { return new yarnwrap.data.SnbtProvider(net.minecraft.data.Main.method_46598(outputx)); }
-// public yarnwrap.data.server.tag.vanilla.VanillaItemTagProvider method_46599(java.util.concurrent.CompletableFuture outputx) { return new yarnwrap.data.server.tag.vanilla.VanillaItemTagProvider(wrapperContained.method_46599(outputx)); }
-// public static yarnwrap.data.server.tag.vanilla.VanillaItemTagProvider method_46599(java.util.concurrent.CompletableFuture outputx, ) { return new yarnwrap.data.server.tag.vanilla.VanillaItemTagProvider(net.minecraft.data.Main.method_46599(outputx)); }
-// public Object toFactory(java.util.function.BiFunction baseFactory,java.util.concurrent.CompletableFuture registryLookupFuture) { return wrapperContained.toFactory(baseFactory,registryLookupFuture); }
-// public static Object toFactory(java.util.function.BiFunction baseFactory,java.util.concurrent.CompletableFuture registryLookupFuture, ) { return net.minecraft.data.Main.toFactory(baseFactory,registryLookupFuture); }
-// public yarnwrap.data.DataProvider method_46840(java.util.function.BiFunction output) { return new yarnwrap.data.DataProvider(wrapperContained.method_46840(output)); }
-// public static yarnwrap.data.DataProvider method_46840(java.util.function.BiFunction output, ) { return new yarnwrap.data.DataProvider(net.minecraft.data.Main.method_46840(output)); }
 // public java.nio.file.Path method_4967(java.lang.String input) { return wrapperContained.method_4967(input); }
 // public static java.nio.file.Path method_4967(java.lang.String input, ) { return net.minecraft.data.Main.method_4967(input); }
-// public yarnwrap.data.DataGenerator create(java.nio.file.Path output,java.util.Collection inputs,boolean includeClient,boolean includeServer,boolean includeDev,boolean includeReports,boolean validate,yarnwrap.GameVersion gameVersion,boolean ignoreCache) { return new yarnwrap.data.DataGenerator(wrapperContained.create(output,inputs,includeClient,includeServer,includeDev,includeReports,validate,gameVersion.wrapperContained,ignoreCache)); }
-// public static yarnwrap.data.DataGenerator create(java.nio.file.Path output,java.util.Collection inputs,boolean includeClient,boolean includeServer,boolean includeDev,boolean includeReports,boolean validate,yarnwrap.GameVersion gameVersion,boolean ignoreCache, ) { return new yarnwrap.data.DataGenerator(net.minecraft.data.Main.create(output,inputs,includeClient,includeServer,includeDev,includeReports,validate,gameVersion.wrapperContained,ignoreCache)); }
-// public yarnwrap.data.MetadataProvider method_52888(yarnwrap.data.DataOutput outputx) { return new yarnwrap.data.MetadataProvider(wrapperContained.method_52888(outputx.wrapperContained)); }
-// public static yarnwrap.data.MetadataProvider method_52888(yarnwrap.data.DataOutput outputx, ) { return new yarnwrap.data.MetadataProvider(net.minecraft.data.Main.method_52888(outputx.wrapperContained)); }
+// public void create(yarnwrap.data.DataGenerator dataGenerator,java.util.Collection inputs,boolean includeClient,boolean includeServer,boolean includeDev) { wrapperContained.create(dataGenerator.wrapperContained,inputs,includeClient,includeServer,includeDev); }
+// public static void create(yarnwrap.data.DataGenerator dataGenerator,java.util.Collection inputs,boolean includeClient,boolean includeServer,boolean includeDev, ) { net.minecraft.data.Main.create(dataGenerator.wrapperContained,inputs,includeClient,includeServer,includeDev); }
+// public Object toFactory(java.util.function.BiFunction baseFactory,java.util.concurrent.CompletableFuture registriesFuture) { return wrapperContained.toFactory(baseFactory,registriesFuture); }
+// public static Object toFactory(java.util.function.BiFunction baseFactory,java.util.concurrent.CompletableFuture registriesFuture, ) { return net.minecraft.data.Main.toFactory(baseFactory,registriesFuture); }
+// public yarnwrap.data.DataProvider method_46840(java.util.function.BiFunction output) { return new yarnwrap.data.DataProvider(wrapperContained.method_46840(output)); }
+// public static yarnwrap.data.DataProvider method_46840(java.util.function.BiFunction output, ) { return new yarnwrap.data.DataProvider(net.minecraft.data.Main.method_46840(output)); }
+// public yarnwrap.data.dev.NbtProvider method_65775(java.util.Collection output) { return new yarnwrap.data.dev.NbtProvider(wrapperContained.method_65775(output)); }
+// public static yarnwrap.data.dev.NbtProvider method_65775(java.util.Collection output, ) { return new yarnwrap.data.dev.NbtProvider(net.minecraft.data.Main.method_65775(output)); }
+// public yarnwrap.data.MetadataProvider method_65777(yarnwrap.data.DataOutput output) { return new yarnwrap.data.MetadataProvider(wrapperContained.method_65777(output.wrapperContained)); }
+// public static yarnwrap.data.MetadataProvider method_65777(yarnwrap.data.DataOutput output, ) { return new yarnwrap.data.MetadataProvider(net.minecraft.data.Main.method_65777(output.wrapperContained)); }
+// public yarnwrap.data.SnbtProvider method_65778(java.util.Collection output) { return new yarnwrap.data.SnbtProvider(wrapperContained.method_65778(output)); }
+// public static yarnwrap.data.SnbtProvider method_65778(java.util.Collection output, ) { return new yarnwrap.data.SnbtProvider(net.minecraft.data.Main.method_65778(output)); }
+// public yarnwrap.data.MetadataProvider method_65779(yarnwrap.data.DataOutput output) { return new yarnwrap.data.MetadataProvider(wrapperContained.method_65779(output.wrapperContained)); }
+// public static yarnwrap.data.MetadataProvider method_65779(yarnwrap.data.DataOutput output, ) { return new yarnwrap.data.MetadataProvider(net.minecraft.data.Main.method_65779(output.wrapperContained)); }
+// public yarnwrap.data.MetadataProvider method_65780(yarnwrap.data.DataOutput output) { return new yarnwrap.data.MetadataProvider(wrapperContained.method_65780(output.wrapperContained)); }
+// public static yarnwrap.data.MetadataProvider method_65780(yarnwrap.data.DataOutput output, ) { return new yarnwrap.data.MetadataProvider(net.minecraft.data.Main.method_65780(output.wrapperContained)); }
 
 }

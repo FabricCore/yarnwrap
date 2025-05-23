@@ -23,5 +23,7 @@ public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static yarnwrap.util.math.GlobalPos create(yarnwrap.registry.RegistryKey dimension,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.GlobalPos(net.minecraft.util.math.GlobalPos.create(dimension.wrapperContained,pos.wrapperContained)); }
 // public com.mojang.datafixers.kinds.App method_29096(Object instance) { return wrapperContained.method_29096(instance); }
 // public static com.mojang.datafixers.kinds.App method_29096(Object instance, ) { return net.minecraft.util.math.GlobalPos.method_29096(instance); }
+public boolean isWithinRange(yarnwrap.registry.RegistryKey dimension,yarnwrap.util.math.BlockPos otherPos,int maxDistance) { return wrapperContained.isWithinRange(dimension.wrapperContained,otherPos.wrapperContained,maxDistance); }
+// public static boolean isWithinRange(yarnwrap.registry.RegistryKey dimension,yarnwrap.util.math.BlockPos otherPos,int maxDistance, ) { return net.minecraft.util.math.GlobalPos.isWithinRange(dimension.wrapperContained,otherPos.wrapperContained,maxDistance); }
 
 }

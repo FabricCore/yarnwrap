@@ -10,5 +10,7 @@ public class BreezeMovementUtil { public net.minecraft.entity.ai.brain.task.Bree
 // public static yarnwrap.util.math.Vec3d getRandomPosBehindTarget(yarnwrap.entity.LivingEntity target,yarnwrap.util.math.random.Random random, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.ai.brain.task.BreezeMovementUtil.getRandomPosBehindTarget(target.wrapperContained,random.wrapperContained)); }
 // public boolean canMoveTo(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.util.math.Vec3d pos) { return wrapperContained.canMoveTo(breeze.wrapperContained,pos.wrapperContained); }
 // public static boolean canMoveTo(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.util.math.Vec3d pos, ) { return net.minecraft.entity.ai.brain.task.BreezeMovementUtil.canMoveTo(breeze.wrapperContained,pos.wrapperContained); }
+// public double getMaxMoveDistance(yarnwrap.entity.mob.BreezeEntity breeze) { return wrapperContained.getMaxMoveDistance(breeze.wrapperContained); }
+// public static double getMaxMoveDistance(yarnwrap.entity.mob.BreezeEntity breeze, ) { return net.minecraft.entity.ai.brain.task.BreezeMovementUtil.getMaxMoveDistance(breeze.wrapperContained); }
 
 }

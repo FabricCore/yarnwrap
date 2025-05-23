@@ -1,6 +1,26 @@
 package yarnwrap.client.render.entity.model;
 public class GuardianEntityModel { public net.minecraft.client.render.entity.model.GuardianEntityModel wrapperContained; public GuardianEntityModel(net.minecraft.client.render.entity.model.GuardianEntityModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public net.minecraft.client.model.ModelPart[] tail() { return wrapperContained.tail; }
+// public void tail(net.minecraft.client.model.ModelPart[] value) { wrapperContained.tail = value; }
+// public static net.minecraft.client.model.ModelPart[] tail() { return net.minecraft.client.render.entity.model.GuardianEntityModel.tail; }
+// public static void tail(net.minecraft.client.model.ModelPart[] value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.tail = value; }
+
+// public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
+// public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.GuardianEntityModel.head); }
+// public static void head(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.head = value.wrapperContained; }
+
+// public net.minecraft.client.model.ModelPart[] spikes() { return wrapperContained.spikes; }
+// public void spikes(net.minecraft.client.model.ModelPart[] value) { wrapperContained.spikes = value; }
+// public static net.minecraft.client.model.ModelPart[] spikes() { return net.minecraft.client.render.entity.model.GuardianEntityModel.spikes; }
+// public static void spikes(net.minecraft.client.model.ModelPart[] value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.spikes = value; }
+
+// public yarnwrap.client.model.ModelPart eye() { return new yarnwrap.client.model.ModelPart(wrapperContained.eye); }
+// public void eye(yarnwrap.client.model.ModelPart value) { wrapperContained.eye = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart eye() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.GuardianEntityModel.eye); }
+// public static void eye(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.eye = value.wrapperContained; }
+
 // public float[] SPIKE_PITCHES() { return wrapperContained.SPIKE_PITCHES; }
 // public void SPIKE_PITCHES(float[] value) { wrapperContained.SPIKE_PITCHES = value; }
 // public static float[] SPIKE_PITCHES() { return net.minecraft.client.render.entity.model.GuardianEntityModel.SPIKE_PITCHES; }
@@ -31,11 +51,6 @@ public class GuardianEntityModel { public net.minecraft.client.render.entity.mod
 // public static float[] SPIKE_PIVOTS_Z() { return net.minecraft.client.render.entity.model.GuardianEntityModel.SPIKE_PIVOTS_Z; }
 // public static void SPIKE_PIVOTS_Z(float[] value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.SPIKE_PIVOTS_Z = value; }
 
-// public yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(wrapperContained.root); }
-// public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.GuardianEntityModel.root); }
-// public static void root(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.root = value.wrapperContained; }
-
 // public java.lang.String EYE() { return wrapperContained.EYE; }
 // public void EYE(java.lang.String value) { wrapperContained.EYE = value; }
 // public static java.lang.String EYE() { return net.minecraft.client.render.entity.model.GuardianEntityModel.EYE; }
@@ -56,27 +71,11 @@ public class GuardianEntityModel { public net.minecraft.client.render.entity.mod
 // public static java.lang.String TAIL2() { return net.minecraft.client.render.entity.model.GuardianEntityModel.TAIL2; }
 // public static void TAIL2(java.lang.String value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.TAIL2 = value; }
 
-// public net.minecraft.client.model.ModelPart[] tail() { return wrapperContained.tail; }
-// public void tail(net.minecraft.client.model.ModelPart[] value) { wrapperContained.tail = value; }
-// public static net.minecraft.client.model.ModelPart[] tail() { return net.minecraft.client.render.entity.model.GuardianEntityModel.tail; }
-// public static void tail(net.minecraft.client.model.ModelPart[] value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.tail = value; }
+// public yarnwrap.client.render.entity.model.ModelTransformer ELDER_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.ELDER_TRANSFORMER); }
+// public void ELDER_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.ELDER_TRANSFORMER = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.ModelTransformer ELDER_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.GuardianEntityModel.ELDER_TRANSFORMER); }
+// public static void ELDER_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.ELDER_TRANSFORMER = value.wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
-// public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.GuardianEntityModel.head); }
-// public static void head(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.head = value.wrapperContained; }
-
-// public net.minecraft.client.model.ModelPart[] spikes() { return wrapperContained.spikes; }
-// public void spikes(net.minecraft.client.model.ModelPart[] value) { wrapperContained.spikes = value; }
-// public static net.minecraft.client.model.ModelPart[] spikes() { return net.minecraft.client.render.entity.model.GuardianEntityModel.spikes; }
-// public static void spikes(net.minecraft.client.model.ModelPart[] value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.spikes = value; }
-
-// public yarnwrap.client.model.ModelPart eye() { return new yarnwrap.client.model.ModelPart(wrapperContained.eye); }
-// public void eye(yarnwrap.client.model.ModelPart value) { wrapperContained.eye = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart eye() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.GuardianEntityModel.eye); }
-// public static void eye(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.eye = value.wrapperContained; }
-
-public GuardianEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.GuardianEntityModel(root.wrapperContained); }
 // public void updateSpikeExtensions(float animationProgress,float extension) { wrapperContained.updateSpikeExtensions(animationProgress,extension); }
 // public static void updateSpikeExtensions(float animationProgress,float extension, ) { net.minecraft.client.render.entity.model.GuardianEntityModel.updateSpikeExtensions(animationProgress,extension); }
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
@@ -91,5 +90,7 @@ public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { r
 // public static float getSpikePivotY(int index,float animationProgress,float extension, ) { return net.minecraft.client.render.entity.model.GuardianEntityModel.getSpikePivotY(index,animationProgress,extension); }
 // public float getSpikePivotZ(int index,float animationProgress,float extension) { return wrapperContained.getSpikePivotZ(index,animationProgress,extension); }
 // public static float getSpikePivotZ(int index,float animationProgress,float extension, ) { return net.minecraft.client.render.entity.model.GuardianEntityModel.getSpikePivotZ(index,animationProgress,extension); }
+// public yarnwrap.client.model.TexturedModelData getElderTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getElderTexturedModelData()); }
+public static yarnwrap.client.model.TexturedModelData getElderTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.GuardianEntityModel.getElderTexturedModelData()); }
 
 }

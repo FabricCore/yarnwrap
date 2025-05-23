@@ -1,141 +1,6 @@
 package yarnwrap.server;
 public class MinecraftServer { public net.minecraft.server.MinecraftServer wrapperContained; public MinecraftServer(net.minecraft.server.MinecraftServer wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.lang.Thread serverThread() { return wrapperContained.serverThread; }
-// public void serverThread(java.lang.Thread value) { wrapperContained.serverThread = value; }
-// public static java.lang.Thread serverThread() { return net.minecraft.server.MinecraftServer.serverThread; }
-// public static void serverThread(java.lang.Thread value, ) { net.minecraft.server.MinecraftServer.serverThread = value; }
-
-// public yarnwrap.util.profiler.Profiler profiler() { return new yarnwrap.util.profiler.Profiler(wrapperContained.profiler); }
-// public void profiler(yarnwrap.util.profiler.Profiler value) { wrapperContained.profiler = value.wrapperContained; }
-// public static yarnwrap.util.profiler.Profiler profiler() { return new yarnwrap.util.profiler.Profiler(net.minecraft.server.MinecraftServer.profiler); }
-// public static void profiler(yarnwrap.util.profiler.Profiler value, ) { net.minecraft.server.MinecraftServer.profiler = value.wrapperContained; }
-
-// public java.util.concurrent.Executor workerExecutor() { return wrapperContained.workerExecutor; }
-// public void workerExecutor(java.util.concurrent.Executor value) { wrapperContained.workerExecutor = value; }
-// public static java.util.concurrent.Executor workerExecutor() { return net.minecraft.server.MinecraftServer.workerExecutor; }
-// public static void workerExecutor(java.util.concurrent.Executor value, ) { net.minecraft.server.MinecraftServer.workerExecutor = value; }
-
-// public yarnwrap.server.WorldGenerationProgressListenerFactory worldGenerationProgressListenerFactory() { return new yarnwrap.server.WorldGenerationProgressListenerFactory(wrapperContained.worldGenerationProgressListenerFactory); }
-// public void worldGenerationProgressListenerFactory(yarnwrap.server.WorldGenerationProgressListenerFactory value) { wrapperContained.worldGenerationProgressListenerFactory = value.wrapperContained; }
-// public static yarnwrap.server.WorldGenerationProgressListenerFactory worldGenerationProgressListenerFactory() { return new yarnwrap.server.WorldGenerationProgressListenerFactory(net.minecraft.server.MinecraftServer.worldGenerationProgressListenerFactory); }
-// public static void worldGenerationProgressListenerFactory(yarnwrap.server.WorldGenerationProgressListenerFactory value, ) { net.minecraft.server.MinecraftServer.worldGenerationProgressListenerFactory = value.wrapperContained; }
-
-// public java.lang.String serverId() { return wrapperContained.serverId; }
-// public void serverId(java.lang.String value) { wrapperContained.serverId = value; }
-// public static java.lang.String serverId() { return net.minecraft.server.MinecraftServer.serverId; }
-// public static void serverId(java.lang.String value, ) { net.minecraft.server.MinecraftServer.serverId = value; }
-
-// public yarnwrap.world.level.LevelInfo DEMO_LEVEL_INFO() { return new yarnwrap.world.level.LevelInfo(wrapperContained.DEMO_LEVEL_INFO); }
-// public void DEMO_LEVEL_INFO(yarnwrap.world.level.LevelInfo value) { wrapperContained.DEMO_LEVEL_INFO = value.wrapperContained; }
-public static yarnwrap.world.level.LevelInfo DEMO_LEVEL_INFO() { return new yarnwrap.world.level.LevelInfo(net.minecraft.server.MinecraftServer.DEMO_LEVEL_INFO); }
-// public static void DEMO_LEVEL_INFO(yarnwrap.world.level.LevelInfo value, ) { net.minecraft.server.MinecraftServer.DEMO_LEVEL_INFO = value.wrapperContained; }
-
-// public boolean waitingForNextTick() { return wrapperContained.waitingForNextTick; }
-// public void waitingForNextTick(boolean value) { wrapperContained.waitingForNextTick = value; }
-// public static boolean waitingForNextTick() { return net.minecraft.server.MinecraftServer.waitingForNextTick; }
-// public static void waitingForNextTick(boolean value, ) { net.minecraft.server.MinecraftServer.waitingForNextTick = value; }
-
-// public yarnwrap.command.DataCommandStorage dataCommandStorage() { return new yarnwrap.command.DataCommandStorage(wrapperContained.dataCommandStorage); }
-// public void dataCommandStorage(yarnwrap.command.DataCommandStorage value) { wrapperContained.dataCommandStorage = value.wrapperContained; }
-// public static yarnwrap.command.DataCommandStorage dataCommandStorage() { return new yarnwrap.command.DataCommandStorage(net.minecraft.server.MinecraftServer.dataCommandStorage); }
-// public static void dataCommandStorage(yarnwrap.command.DataCommandStorage value, ) { net.minecraft.server.MinecraftServer.dataCommandStorage = value.wrapperContained; }
-
-// public yarnwrap.util.profiler.Recorder recorder() { return new yarnwrap.util.profiler.Recorder(wrapperContained.recorder); }
-// public void recorder(yarnwrap.util.profiler.Recorder value) { wrapperContained.recorder = value.wrapperContained; }
-// public static yarnwrap.util.profiler.Recorder recorder() { return new yarnwrap.util.profiler.Recorder(net.minecraft.server.MinecraftServer.recorder); }
-// public static void recorder(yarnwrap.util.profiler.Recorder value, ) { net.minecraft.server.MinecraftServer.recorder = value.wrapperContained; }
-
-// public Object session() { return wrapperContained.session; }
-// // public void session(Object value) { wrapperContained.session = value; }
-// // public static Object session() { return net.minecraft.server.MinecraftServer.session; }
-// // public static void session(Object value, ) { net.minecraft.server.MinecraftServer.session = value; }
-
-// public yarnwrap.structure.StructureTemplateManager structureTemplateManager() { return new yarnwrap.structure.StructureTemplateManager(wrapperContained.structureTemplateManager); }
-// public void structureTemplateManager(yarnwrap.structure.StructureTemplateManager value) { wrapperContained.structureTemplateManager = value.wrapperContained; }
-// public static yarnwrap.structure.StructureTemplateManager structureTemplateManager() { return new yarnwrap.structure.StructureTemplateManager(net.minecraft.server.MinecraftServer.structureTemplateManager); }
-// public static void structureTemplateManager(yarnwrap.structure.StructureTemplateManager value, ) { net.minecraft.server.MinecraftServer.structureTemplateManager = value.wrapperContained; }
-
-// public yarnwrap.world.PlayerSaveHandler saveHandler() { return new yarnwrap.world.PlayerSaveHandler(wrapperContained.saveHandler); }
-// public void saveHandler(yarnwrap.world.PlayerSaveHandler value) { wrapperContained.saveHandler = value.wrapperContained; }
-// public static yarnwrap.world.PlayerSaveHandler saveHandler() { return new yarnwrap.world.PlayerSaveHandler(net.minecraft.server.MinecraftServer.saveHandler); }
-// public static void saveHandler(yarnwrap.world.PlayerSaveHandler value, ) { net.minecraft.server.MinecraftServer.saveHandler = value.wrapperContained; }
-
-// public yarnwrap.world.SaveProperties saveProperties() { return new yarnwrap.world.SaveProperties(wrapperContained.saveProperties); }
-// public void saveProperties(yarnwrap.world.SaveProperties value) { wrapperContained.saveProperties = value.wrapperContained; }
-// public static yarnwrap.world.SaveProperties saveProperties() { return new yarnwrap.world.SaveProperties(net.minecraft.server.MinecraftServer.saveProperties); }
-// public static void saveProperties(yarnwrap.world.SaveProperties value, ) { net.minecraft.server.MinecraftServer.saveProperties = value.wrapperContained; }
-
-// public yarnwrap.registry.CombinedDynamicRegistries combinedDynamicRegistries() { return new yarnwrap.registry.CombinedDynamicRegistries(wrapperContained.combinedDynamicRegistries); }
-// public void combinedDynamicRegistries(yarnwrap.registry.CombinedDynamicRegistries value) { wrapperContained.combinedDynamicRegistries = value.wrapperContained; }
-// public static yarnwrap.registry.CombinedDynamicRegistries combinedDynamicRegistries() { return new yarnwrap.registry.CombinedDynamicRegistries(net.minecraft.server.MinecraftServer.combinedDynamicRegistries); }
-// public static void combinedDynamicRegistries(yarnwrap.registry.CombinedDynamicRegistries value, ) { net.minecraft.server.MinecraftServer.combinedDynamicRegistries = value.wrapperContained; }
-
-// public Object resourceManagerHolder() { return wrapperContained.resourceManagerHolder; }
-// // public void resourceManagerHolder(Object value) { wrapperContained.resourceManagerHolder = value; }
-// // public static Object resourceManagerHolder() { return net.minecraft.server.MinecraftServer.resourceManagerHolder; }
-// // public static void resourceManagerHolder(Object value, ) { net.minecraft.server.MinecraftServer.resourceManagerHolder = value; }
-
-// public int MAX_WORLD_BORDER_RADIUS() { return wrapperContained.MAX_WORLD_BORDER_RADIUS; }
-// public void MAX_WORLD_BORDER_RADIUS(int value) { wrapperContained.MAX_WORLD_BORDER_RADIUS = value; }
-public static int MAX_WORLD_BORDER_RADIUS() { return net.minecraft.server.MinecraftServer.MAX_WORLD_BORDER_RADIUS; }
-// public static void MAX_WORLD_BORDER_RADIUS(int value, ) { net.minecraft.server.MinecraftServer.MAX_WORLD_BORDER_RADIUS = value; }
-
-// public java.util.function.Consumer recorderResultConsumer() { return wrapperContained.recorderResultConsumer; }
-// public void recorderResultConsumer(java.util.function.Consumer value) { wrapperContained.recorderResultConsumer = value; }
-// public static java.util.function.Consumer recorderResultConsumer() { return net.minecraft.server.MinecraftServer.recorderResultConsumer; }
-// public static void recorderResultConsumer(java.util.function.Consumer value, ) { net.minecraft.server.MinecraftServer.recorderResultConsumer = value; }
-
-// public java.util.function.Consumer recorderDumpConsumer() { return wrapperContained.recorderDumpConsumer; }
-// public void recorderDumpConsumer(java.util.function.Consumer value) { wrapperContained.recorderDumpConsumer = value; }
-// public static java.util.function.Consumer recorderDumpConsumer() { return net.minecraft.server.MinecraftServer.recorderDumpConsumer; }
-// public static void recorderDumpConsumer(java.util.function.Consumer value, ) { net.minecraft.server.MinecraftServer.recorderDumpConsumer = value; }
-
-// public boolean needsRecorderSetup() { return wrapperContained.needsRecorderSetup; }
-// public void needsRecorderSetup(boolean value) { wrapperContained.needsRecorderSetup = value; }
-// public static boolean needsRecorderSetup() { return net.minecraft.server.MinecraftServer.needsRecorderSetup; }
-// public static void needsRecorderSetup(boolean value, ) { net.minecraft.server.MinecraftServer.needsRecorderSetup = value; }
-
-// public Object debugStart() { return wrapperContained.debugStart; }
-// // public void debugStart(Object value) { wrapperContained.debugStart = value; }
-// // public static Object debugStart() { return net.minecraft.server.MinecraftServer.debugStart; }
-// // public static void debugStart(Object value, ) { net.minecraft.server.MinecraftServer.debugStart = value; }
-
-// public boolean needsDebugSetup() { return wrapperContained.needsDebugSetup; }
-// public void needsDebugSetup(boolean value) { wrapperContained.needsDebugSetup = value; }
-// public static boolean needsDebugSetup() { return net.minecraft.server.MinecraftServer.needsDebugSetup; }
-// public static void needsDebugSetup(boolean value, ) { net.minecraft.server.MinecraftServer.needsDebugSetup = value; }
-
-// public java.lang.String VANILLA() { return wrapperContained.VANILLA; }
-// public void VANILLA(java.lang.String value) { wrapperContained.VANILLA = value; }
-public static java.lang.String VANILLA() { return net.minecraft.server.MinecraftServer.VANILLA; }
-// public static void VANILLA(java.lang.String value, ) { net.minecraft.server.MinecraftServer.VANILLA = value; }
-
-// public boolean saving() { return wrapperContained.saving; }
-// public void saving(boolean value) { wrapperContained.saving = value; }
-// public static boolean saving() { return net.minecraft.server.MinecraftServer.saving; }
-// public static void saving(boolean value, ) { net.minecraft.server.MinecraftServer.saving = value; }
-
-// public com.mojang.authlib.GameProfile ANONYMOUS_PLAYER_PROFILE() { return wrapperContained.ANONYMOUS_PLAYER_PROFILE; }
-// public void ANONYMOUS_PLAYER_PROFILE(com.mojang.authlib.GameProfile value) { wrapperContained.ANONYMOUS_PLAYER_PROFILE = value; }
-public static com.mojang.authlib.GameProfile ANONYMOUS_PLAYER_PROFILE() { return net.minecraft.server.MinecraftServer.ANONYMOUS_PLAYER_PROFILE; }
-// public static void ANONYMOUS_PLAYER_PROFILE(com.mojang.authlib.GameProfile value, ) { net.minecraft.server.MinecraftServer.ANONYMOUS_PLAYER_PROFILE = value; }
-
-// public com.mojang.authlib.GameProfile hostProfile() { return wrapperContained.hostProfile; }
-// public void hostProfile(com.mojang.authlib.GameProfile value) { wrapperContained.hostProfile = value; }
-// public static com.mojang.authlib.GameProfile hostProfile() { return net.minecraft.server.MinecraftServer.hostProfile; }
-// public static void hostProfile(com.mojang.authlib.GameProfile value, ) { net.minecraft.server.MinecraftServer.hostProfile = value; }
-
-// public yarnwrap.util.ApiServices apiServices() { return new yarnwrap.util.ApiServices(wrapperContained.apiServices); }
-// public void apiServices(yarnwrap.util.ApiServices value) { wrapperContained.apiServices = value.wrapperContained; }
-// public static yarnwrap.util.ApiServices apiServices() { return new yarnwrap.util.ApiServices(net.minecraft.server.MinecraftServer.apiServices); }
-// public static void apiServices(yarnwrap.util.ApiServices value, ) { net.minecraft.server.MinecraftServer.apiServices = value.wrapperContained; }
-
-// public Object favicon() { return wrapperContained.favicon; }
-// // public void favicon(Object value) { wrapperContained.favicon = value; }
-// // public static Object favicon() { return net.minecraft.server.MinecraftServer.favicon; }
-// // public static void favicon(Object value, ) { net.minecraft.server.MinecraftServer.favicon = value; }
-
 // public boolean onlineMode() { return wrapperContained.onlineMode; }
 // public void onlineMode(boolean value) { wrapperContained.onlineMode = value; }
 // public static boolean onlineMode() { return net.minecraft.server.MinecraftServer.onlineMode; }
@@ -281,6 +146,136 @@ public static com.mojang.authlib.GameProfile ANONYMOUS_PLAYER_PROFILE() { return
 // public static boolean pvpEnabled() { return net.minecraft.server.MinecraftServer.pvpEnabled; }
 // public static void pvpEnabled(boolean value, ) { net.minecraft.server.MinecraftServer.pvpEnabled = value; }
 
+// public java.lang.Thread serverThread() { return wrapperContained.serverThread; }
+// public void serverThread(java.lang.Thread value) { wrapperContained.serverThread = value; }
+// public static java.lang.Thread serverThread() { return net.minecraft.server.MinecraftServer.serverThread; }
+// public static void serverThread(java.lang.Thread value, ) { net.minecraft.server.MinecraftServer.serverThread = value; }
+
+// public java.util.concurrent.Executor workerExecutor() { return wrapperContained.workerExecutor; }
+// public void workerExecutor(java.util.concurrent.Executor value) { wrapperContained.workerExecutor = value; }
+// public static java.util.concurrent.Executor workerExecutor() { return net.minecraft.server.MinecraftServer.workerExecutor; }
+// public static void workerExecutor(java.util.concurrent.Executor value, ) { net.minecraft.server.MinecraftServer.workerExecutor = value; }
+
+// public yarnwrap.server.WorldGenerationProgressListenerFactory worldGenerationProgressListenerFactory() { return new yarnwrap.server.WorldGenerationProgressListenerFactory(wrapperContained.worldGenerationProgressListenerFactory); }
+// public void worldGenerationProgressListenerFactory(yarnwrap.server.WorldGenerationProgressListenerFactory value) { wrapperContained.worldGenerationProgressListenerFactory = value.wrapperContained; }
+// public static yarnwrap.server.WorldGenerationProgressListenerFactory worldGenerationProgressListenerFactory() { return new yarnwrap.server.WorldGenerationProgressListenerFactory(net.minecraft.server.MinecraftServer.worldGenerationProgressListenerFactory); }
+// public static void worldGenerationProgressListenerFactory(yarnwrap.server.WorldGenerationProgressListenerFactory value, ) { net.minecraft.server.MinecraftServer.worldGenerationProgressListenerFactory = value.wrapperContained; }
+
+// public java.lang.String serverId() { return wrapperContained.serverId; }
+// public void serverId(java.lang.String value) { wrapperContained.serverId = value; }
+// public static java.lang.String serverId() { return net.minecraft.server.MinecraftServer.serverId; }
+// public static void serverId(java.lang.String value, ) { net.minecraft.server.MinecraftServer.serverId = value; }
+
+// public yarnwrap.world.level.LevelInfo DEMO_LEVEL_INFO() { return new yarnwrap.world.level.LevelInfo(wrapperContained.DEMO_LEVEL_INFO); }
+// public void DEMO_LEVEL_INFO(yarnwrap.world.level.LevelInfo value) { wrapperContained.DEMO_LEVEL_INFO = value.wrapperContained; }
+public static yarnwrap.world.level.LevelInfo DEMO_LEVEL_INFO() { return new yarnwrap.world.level.LevelInfo(net.minecraft.server.MinecraftServer.DEMO_LEVEL_INFO); }
+// public static void DEMO_LEVEL_INFO(yarnwrap.world.level.LevelInfo value, ) { net.minecraft.server.MinecraftServer.DEMO_LEVEL_INFO = value.wrapperContained; }
+
+// public boolean hasJustExecutedTask() { return wrapperContained.hasJustExecutedTask; }
+// public void hasJustExecutedTask(boolean value) { wrapperContained.hasJustExecutedTask = value; }
+// public static boolean hasJustExecutedTask() { return net.minecraft.server.MinecraftServer.hasJustExecutedTask; }
+// public static void hasJustExecutedTask(boolean value, ) { net.minecraft.server.MinecraftServer.hasJustExecutedTask = value; }
+
+// public yarnwrap.command.DataCommandStorage dataCommandStorage() { return new yarnwrap.command.DataCommandStorage(wrapperContained.dataCommandStorage); }
+// public void dataCommandStorage(yarnwrap.command.DataCommandStorage value) { wrapperContained.dataCommandStorage = value.wrapperContained; }
+// public static yarnwrap.command.DataCommandStorage dataCommandStorage() { return new yarnwrap.command.DataCommandStorage(net.minecraft.server.MinecraftServer.dataCommandStorage); }
+// public static void dataCommandStorage(yarnwrap.command.DataCommandStorage value, ) { net.minecraft.server.MinecraftServer.dataCommandStorage = value.wrapperContained; }
+
+// public yarnwrap.util.profiler.Recorder recorder() { return new yarnwrap.util.profiler.Recorder(wrapperContained.recorder); }
+// public void recorder(yarnwrap.util.profiler.Recorder value) { wrapperContained.recorder = value.wrapperContained; }
+// public static yarnwrap.util.profiler.Recorder recorder() { return new yarnwrap.util.profiler.Recorder(net.minecraft.server.MinecraftServer.recorder); }
+// public static void recorder(yarnwrap.util.profiler.Recorder value, ) { net.minecraft.server.MinecraftServer.recorder = value.wrapperContained; }
+
+// public Object session() { return wrapperContained.session; }
+// // public void session(Object value) { wrapperContained.session = value; }
+// // public static Object session() { return net.minecraft.server.MinecraftServer.session; }
+// // public static void session(Object value, ) { net.minecraft.server.MinecraftServer.session = value; }
+
+// public yarnwrap.structure.StructureTemplateManager structureTemplateManager() { return new yarnwrap.structure.StructureTemplateManager(wrapperContained.structureTemplateManager); }
+// public void structureTemplateManager(yarnwrap.structure.StructureTemplateManager value) { wrapperContained.structureTemplateManager = value.wrapperContained; }
+// public static yarnwrap.structure.StructureTemplateManager structureTemplateManager() { return new yarnwrap.structure.StructureTemplateManager(net.minecraft.server.MinecraftServer.structureTemplateManager); }
+// public static void structureTemplateManager(yarnwrap.structure.StructureTemplateManager value, ) { net.minecraft.server.MinecraftServer.structureTemplateManager = value.wrapperContained; }
+
+// public yarnwrap.world.PlayerSaveHandler saveHandler() { return new yarnwrap.world.PlayerSaveHandler(wrapperContained.saveHandler); }
+// public void saveHandler(yarnwrap.world.PlayerSaveHandler value) { wrapperContained.saveHandler = value.wrapperContained; }
+// public static yarnwrap.world.PlayerSaveHandler saveHandler() { return new yarnwrap.world.PlayerSaveHandler(net.minecraft.server.MinecraftServer.saveHandler); }
+// public static void saveHandler(yarnwrap.world.PlayerSaveHandler value, ) { net.minecraft.server.MinecraftServer.saveHandler = value.wrapperContained; }
+
+// public yarnwrap.world.SaveProperties saveProperties() { return new yarnwrap.world.SaveProperties(wrapperContained.saveProperties); }
+// public void saveProperties(yarnwrap.world.SaveProperties value) { wrapperContained.saveProperties = value.wrapperContained; }
+// public static yarnwrap.world.SaveProperties saveProperties() { return new yarnwrap.world.SaveProperties(net.minecraft.server.MinecraftServer.saveProperties); }
+// public static void saveProperties(yarnwrap.world.SaveProperties value, ) { net.minecraft.server.MinecraftServer.saveProperties = value.wrapperContained; }
+
+// public yarnwrap.registry.CombinedDynamicRegistries combinedDynamicRegistries() { return new yarnwrap.registry.CombinedDynamicRegistries(wrapperContained.combinedDynamicRegistries); }
+// public void combinedDynamicRegistries(yarnwrap.registry.CombinedDynamicRegistries value) { wrapperContained.combinedDynamicRegistries = value.wrapperContained; }
+// public static yarnwrap.registry.CombinedDynamicRegistries combinedDynamicRegistries() { return new yarnwrap.registry.CombinedDynamicRegistries(net.minecraft.server.MinecraftServer.combinedDynamicRegistries); }
+// public static void combinedDynamicRegistries(yarnwrap.registry.CombinedDynamicRegistries value, ) { net.minecraft.server.MinecraftServer.combinedDynamicRegistries = value.wrapperContained; }
+
+// public Object resourceManagerHolder() { return wrapperContained.resourceManagerHolder; }
+// // public void resourceManagerHolder(Object value) { wrapperContained.resourceManagerHolder = value; }
+// // public static Object resourceManagerHolder() { return net.minecraft.server.MinecraftServer.resourceManagerHolder; }
+// // public static void resourceManagerHolder(Object value, ) { net.minecraft.server.MinecraftServer.resourceManagerHolder = value; }
+
+// public int MAX_WORLD_BORDER_RADIUS() { return wrapperContained.MAX_WORLD_BORDER_RADIUS; }
+// public void MAX_WORLD_BORDER_RADIUS(int value) { wrapperContained.MAX_WORLD_BORDER_RADIUS = value; }
+public static int MAX_WORLD_BORDER_RADIUS() { return net.minecraft.server.MinecraftServer.MAX_WORLD_BORDER_RADIUS; }
+// public static void MAX_WORLD_BORDER_RADIUS(int value, ) { net.minecraft.server.MinecraftServer.MAX_WORLD_BORDER_RADIUS = value; }
+
+// public java.util.function.Consumer recorderResultConsumer() { return wrapperContained.recorderResultConsumer; }
+// public void recorderResultConsumer(java.util.function.Consumer value) { wrapperContained.recorderResultConsumer = value; }
+// public static java.util.function.Consumer recorderResultConsumer() { return net.minecraft.server.MinecraftServer.recorderResultConsumer; }
+// public static void recorderResultConsumer(java.util.function.Consumer value, ) { net.minecraft.server.MinecraftServer.recorderResultConsumer = value; }
+
+// public java.util.function.Consumer recorderDumpConsumer() { return wrapperContained.recorderDumpConsumer; }
+// public void recorderDumpConsumer(java.util.function.Consumer value) { wrapperContained.recorderDumpConsumer = value; }
+// public static java.util.function.Consumer recorderDumpConsumer() { return net.minecraft.server.MinecraftServer.recorderDumpConsumer; }
+// public static void recorderDumpConsumer(java.util.function.Consumer value, ) { net.minecraft.server.MinecraftServer.recorderDumpConsumer = value; }
+
+// public boolean needsRecorderSetup() { return wrapperContained.needsRecorderSetup; }
+// public void needsRecorderSetup(boolean value) { wrapperContained.needsRecorderSetup = value; }
+// public static boolean needsRecorderSetup() { return net.minecraft.server.MinecraftServer.needsRecorderSetup; }
+// public static void needsRecorderSetup(boolean value, ) { net.minecraft.server.MinecraftServer.needsRecorderSetup = value; }
+
+// public Object debugStart() { return wrapperContained.debugStart; }
+// // public void debugStart(Object value) { wrapperContained.debugStart = value; }
+// // public static Object debugStart() { return net.minecraft.server.MinecraftServer.debugStart; }
+// // public static void debugStart(Object value, ) { net.minecraft.server.MinecraftServer.debugStart = value; }
+
+// public boolean needsDebugSetup() { return wrapperContained.needsDebugSetup; }
+// public void needsDebugSetup(boolean value) { wrapperContained.needsDebugSetup = value; }
+// public static boolean needsDebugSetup() { return net.minecraft.server.MinecraftServer.needsDebugSetup; }
+// public static void needsDebugSetup(boolean value, ) { net.minecraft.server.MinecraftServer.needsDebugSetup = value; }
+
+// public java.lang.String VANILLA() { return wrapperContained.VANILLA; }
+// public void VANILLA(java.lang.String value) { wrapperContained.VANILLA = value; }
+public static java.lang.String VANILLA() { return net.minecraft.server.MinecraftServer.VANILLA; }
+// public static void VANILLA(java.lang.String value, ) { net.minecraft.server.MinecraftServer.VANILLA = value; }
+
+// public boolean saving() { return wrapperContained.saving; }
+// public void saving(boolean value) { wrapperContained.saving = value; }
+// public static boolean saving() { return net.minecraft.server.MinecraftServer.saving; }
+// public static void saving(boolean value, ) { net.minecraft.server.MinecraftServer.saving = value; }
+
+// public com.mojang.authlib.GameProfile ANONYMOUS_PLAYER_PROFILE() { return wrapperContained.ANONYMOUS_PLAYER_PROFILE; }
+// public void ANONYMOUS_PLAYER_PROFILE(com.mojang.authlib.GameProfile value) { wrapperContained.ANONYMOUS_PLAYER_PROFILE = value; }
+public static com.mojang.authlib.GameProfile ANONYMOUS_PLAYER_PROFILE() { return net.minecraft.server.MinecraftServer.ANONYMOUS_PLAYER_PROFILE; }
+// public static void ANONYMOUS_PLAYER_PROFILE(com.mojang.authlib.GameProfile value, ) { net.minecraft.server.MinecraftServer.ANONYMOUS_PLAYER_PROFILE = value; }
+
+// public com.mojang.authlib.GameProfile hostProfile() { return wrapperContained.hostProfile; }
+// public void hostProfile(com.mojang.authlib.GameProfile value) { wrapperContained.hostProfile = value; }
+// public static com.mojang.authlib.GameProfile hostProfile() { return net.minecraft.server.MinecraftServer.hostProfile; }
+// public static void hostProfile(com.mojang.authlib.GameProfile value, ) { net.minecraft.server.MinecraftServer.hostProfile = value; }
+
+// public yarnwrap.util.ApiServices apiServices() { return new yarnwrap.util.ApiServices(wrapperContained.apiServices); }
+// public void apiServices(yarnwrap.util.ApiServices value) { wrapperContained.apiServices = value.wrapperContained; }
+// public static yarnwrap.util.ApiServices apiServices() { return new yarnwrap.util.ApiServices(net.minecraft.server.MinecraftServer.apiServices); }
+// public static void apiServices(yarnwrap.util.ApiServices value, ) { net.minecraft.server.MinecraftServer.apiServices = value.wrapperContained; }
+
+// public Object favicon() { return wrapperContained.favicon; }
+// // public void favicon(Object value) { wrapperContained.favicon = value; }
+// // public static Object favicon() { return net.minecraft.server.MinecraftServer.favicon; }
+// // public static void favicon(Object value, ) { net.minecraft.server.MinecraftServer.favicon = value; }
+
 // public int ticksUntilAutosave() { return wrapperContained.ticksUntilAutosave; }
 // public void ticksUntilAutosave(int value) { wrapperContained.ticksUntilAutosave = value; }
 // public static int ticksUntilAutosave() { return net.minecraft.server.MinecraftServer.ticksUntilAutosave; }
@@ -341,10 +336,10 @@ public static com.mojang.authlib.GameProfile ANONYMOUS_PLAYER_PROFILE() { return
 // public static long PREPARE_START_REGION_TICK_DELAY_NANOS() { return net.minecraft.server.MinecraftServer.PREPARE_START_REGION_TICK_DELAY_NANOS; }
 // public static void PREPARE_START_REGION_TICK_DELAY_NANOS(long value, ) { net.minecraft.server.MinecraftServer.PREPARE_START_REGION_TICK_DELAY_NANOS = value; }
 
-// public long prevFullTickLogTime() { return wrapperContained.prevFullTickLogTime; }
-// public void prevFullTickLogTime(long value) { wrapperContained.prevFullTickLogTime = value; }
-// public static long prevFullTickLogTime() { return net.minecraft.server.MinecraftServer.prevFullTickLogTime; }
-// public static void prevFullTickLogTime(long value, ) { net.minecraft.server.MinecraftServer.prevFullTickLogTime = value; }
+// public long lastFullTickLogTime() { return wrapperContained.lastFullTickLogTime; }
+// public void lastFullTickLogTime(long value) { wrapperContained.lastFullTickLogTime = value; }
+// public static long lastFullTickLogTime() { return net.minecraft.server.MinecraftServer.lastFullTickLogTime; }
+// public static void lastFullTickLogTime(long value, ) { net.minecraft.server.MinecraftServer.lastFullTickLogTime = value; }
 
 // public long tasksStartTime() { return wrapperContained.tasksStartTime; }
 // public void tasksStartTime(long value) { wrapperContained.tasksStartTime = value; }
@@ -366,11 +361,212 @@ public static com.mojang.authlib.GameProfile ANONYMOUS_PLAYER_PROFILE() { return
 // public static java.util.concurrent.atomic.AtomicReference WORLD_GEN_EXCEPTION() { return net.minecraft.server.MinecraftServer.WORLD_GEN_EXCEPTION; }
 // public static void WORLD_GEN_EXCEPTION(java.util.concurrent.atomic.AtomicReference value, ) { net.minecraft.server.MinecraftServer.WORLD_GEN_EXCEPTION = value; }
 
+// public yarnwrap.item.FuelRegistry fuelRegistry() { return new yarnwrap.item.FuelRegistry(wrapperContained.fuelRegistry); }
+// public void fuelRegistry(yarnwrap.item.FuelRegistry value) { wrapperContained.fuelRegistry = value.wrapperContained; }
+// public static yarnwrap.item.FuelRegistry fuelRegistry() { return new yarnwrap.item.FuelRegistry(net.minecraft.server.MinecraftServer.fuelRegistry); }
+// public static void fuelRegistry(yarnwrap.item.FuelRegistry value, ) { net.minecraft.server.MinecraftServer.fuelRegistry = value.wrapperContained; }
+
+// public int idleTickCount() { return wrapperContained.idleTickCount; }
+// public void idleTickCount(int value) { wrapperContained.idleTickCount = value; }
+// public static int idleTickCount() { return net.minecraft.server.MinecraftServer.idleTickCount; }
+// public static void idleTickCount(int value, ) { net.minecraft.server.MinecraftServer.idleTickCount = value; }
+
+// public yarnwrap.util.crash.SuppressedExceptionsTracker suppressedExceptionsTracker() { return new yarnwrap.util.crash.SuppressedExceptionsTracker(wrapperContained.suppressedExceptionsTracker); }
+// public void suppressedExceptionsTracker(yarnwrap.util.crash.SuppressedExceptionsTracker value) { wrapperContained.suppressedExceptionsTracker = value.wrapperContained; }
+// public static yarnwrap.util.crash.SuppressedExceptionsTracker suppressedExceptionsTracker() { return new yarnwrap.util.crash.SuppressedExceptionsTracker(net.minecraft.server.MinecraftServer.suppressedExceptionsTracker); }
+// public static void suppressedExceptionsTracker(yarnwrap.util.crash.SuppressedExceptionsTracker value, ) { net.minecraft.server.MinecraftServer.suppressedExceptionsTracker = value.wrapperContained; }
+
+// public boolean waitingForNextTick() { return wrapperContained.waitingForNextTick; }
+// public void waitingForNextTick(boolean value) { wrapperContained.waitingForNextTick = value; }
+// public static boolean waitingForNextTick() { return net.minecraft.server.MinecraftServer.waitingForNextTick; }
+// public static void waitingForNextTick(boolean value, ) { net.minecraft.server.MinecraftServer.waitingForNextTick = value; }
+
+// public com.mojang.jtracy.DiscontinuousFrame discontinuousFrame() { return wrapperContained.discontinuousFrame; }
+// public void discontinuousFrame(com.mojang.jtracy.DiscontinuousFrame value) { wrapperContained.discontinuousFrame = value; }
+// public static com.mojang.jtracy.DiscontinuousFrame discontinuousFrame() { return net.minecraft.server.MinecraftServer.discontinuousFrame; }
+// public static void discontinuousFrame(com.mojang.jtracy.DiscontinuousFrame value, ) { net.minecraft.server.MinecraftServer.discontinuousFrame = value; }
+
 // public MinecraftServer(java.lang.Thread serverThread,Object session,yarnwrap.resource.ResourcePackManager dataPackManager,yarnwrap.server.SaveLoader saveLoader,java.net.Proxy proxy,com.mojang.datafixers.DataFixer dataFixer,yarnwrap.util.ApiServices apiServices,yarnwrap.server.WorldGenerationProgressListenerFactory worldGenerationProgressListenerFactory) { this.wrapperContained = new net.minecraft.server.MinecraftServer(serverThread,session,dataPackManager.wrapperContained,saveLoader.wrapperContained,proxy,dataFixer,apiServices.wrapperContained,worldGenerationProgressListenerFactory.wrapperContained); }
+public java.security.KeyPair getKeyPair() { return wrapperContained.getKeyPair(); }
+// public static java.security.KeyPair getKeyPair() { return net.minecraft.server.MinecraftServer.getKeyPair(); }
+public boolean isFlightEnabled() { return wrapperContained.isFlightEnabled(); }
+// public static boolean isFlightEnabled() { return net.minecraft.server.MinecraftServer.isFlightEnabled(); }
+public com.mojang.authlib.GameProfileRepository getGameProfileRepo() { return wrapperContained.getGameProfileRepo(); }
+// public static com.mojang.authlib.GameProfileRepository getGameProfileRepo() { return net.minecraft.server.MinecraftServer.getGameProfileRepo(); }
+public boolean save(boolean suppressLogs,boolean flush,boolean force) { return wrapperContained.save(suppressLogs,flush,force); }
+// public static boolean save(boolean suppressLogs,boolean flush,boolean force, ) { return net.minecraft.server.MinecraftServer.save(suppressLogs,flush,force); }
+public boolean isSingleplayer() { return wrapperContained.isSingleplayer(); }
+// public static boolean isSingleplayer() { return net.minecraft.server.MinecraftServer.isSingleplayer(); }
+public java.util.Optional getIconFile() { return wrapperContained.getIconFile(); }
+// public static java.util.Optional getIconFile() { return net.minecraft.server.MinecraftServer.getIconFile(); }
+public boolean hasGui() { return wrapperContained.hasGui(); }
+// public static boolean hasGui() { return net.minecraft.server.MinecraftServer.hasGui(); }
+public void kickNonWhitelistedPlayers(yarnwrap.server.command.ServerCommandSource source) { wrapperContained.kickNonWhitelistedPlayers(source.wrapperContained); }
+// public static void kickNonWhitelistedPlayers(yarnwrap.server.command.ServerCommandSource source, ) { net.minecraft.server.MinecraftServer.kickNonWhitelistedPlayers(source.wrapperContained); }
+public boolean isEnforceWhitelist() { return wrapperContained.isEnforceWhitelist(); }
+// public static boolean isEnforceWhitelist() { return net.minecraft.server.MinecraftServer.isEnforceWhitelist(); }
+public void setDemo(boolean demo) { wrapperContained.setDemo(demo); }
+// public static void setDemo(boolean demo, ) { net.minecraft.server.MinecraftServer.setDemo(demo); }
+public void setEnforceWhitelist(boolean enforceWhitelist) { wrapperContained.setEnforceWhitelist(enforceWhitelist); }
+// public static void setEnforceWhitelist(boolean enforceWhitelist, ) { net.minecraft.server.MinecraftServer.setEnforceWhitelist(enforceWhitelist); }
+public boolean shouldBroadcastRconToOps() { return wrapperContained.shouldBroadcastRconToOps(); }
+// public static boolean shouldBroadcastRconToOps() { return net.minecraft.server.MinecraftServer.shouldBroadcastRconToOps(); }
+public yarnwrap.server.command.CommandManager getCommandManager() { return new yarnwrap.server.command.CommandManager(wrapperContained.getCommandManager()); }
+// public static yarnwrap.server.command.CommandManager getCommandManager() { return new yarnwrap.server.command.CommandManager(net.minecraft.server.MinecraftServer.getCommandManager()); }
+// public void loadWorld() { wrapperContained.loadWorld(); }
+// public static void loadWorld() { net.minecraft.server.MinecraftServer.loadWorld(); }
+public java.lang.Iterable getWorlds() { return wrapperContained.getWorlds(); }
+// public static java.lang.Iterable getWorlds() { return net.minecraft.server.MinecraftServer.getWorlds(); }
+public yarnwrap.server.command.ServerCommandSource getCommandSource() { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.getCommandSource()); }
+// public static yarnwrap.server.command.ServerCommandSource getCommandSource() { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.MinecraftServer.getCommandSource()); }
+public yarnwrap.server.function.CommandFunctionManager getCommandFunctionManager() { return new yarnwrap.server.function.CommandFunctionManager(wrapperContained.getCommandFunctionManager()); }
+// public static yarnwrap.server.function.CommandFunctionManager getCommandFunctionManager() { return new yarnwrap.server.function.CommandFunctionManager(net.minecraft.server.MinecraftServer.getCommandFunctionManager()); }
+public void addServerGuiTickable(java.lang.Runnable tickable) { wrapperContained.addServerGuiTickable(tickable); }
+// public static void addServerGuiTickable(java.lang.Runnable tickable, ) { net.minecraft.server.MinecraftServer.addServerGuiTickable(tickable); }
+public void setCrashReport(yarnwrap.util.crash.CrashReport report) { wrapperContained.setCrashReport(report.wrapperContained); }
+// public static void setCrashReport(yarnwrap.util.crash.CrashReport report, ) { net.minecraft.server.MinecraftServer.setCrashReport(report.wrapperContained); }
+public void setFlightEnabled(boolean flightEnabled) { wrapperContained.setFlightEnabled(flightEnabled); }
+// public static void setFlightEnabled(boolean flightEnabled, ) { net.minecraft.server.MinecraftServer.setFlightEnabled(flightEnabled); }
+public void stop(boolean waitForShutdown) { wrapperContained.stop(waitForShutdown); }
+// public static void stop(boolean waitForShutdown, ) { net.minecraft.server.MinecraftServer.stop(waitForShutdown); }
+public void tick(java.util.function.BooleanSupplier shouldKeepTicking) { wrapperContained.tick(shouldKeepTicking); }
+// public static void tick(java.util.function.BooleanSupplier shouldKeepTicking, ) { net.minecraft.server.MinecraftServer.tick(shouldKeepTicking); }
+public int getMaxWorldBorderRadius() { return wrapperContained.getMaxWorldBorderRadius(); }
+// public static int getMaxWorldBorderRadius() { return net.minecraft.server.MinecraftServer.getMaxWorldBorderRadius(); }
+public boolean isStopped() { return wrapperContained.isStopped(); }
+// public static boolean isStopped() { return net.minecraft.server.MinecraftServer.isStopped(); }
+public boolean isHardcore() { return wrapperContained.isHardcore(); }
+// public static boolean isHardcore() { return net.minecraft.server.MinecraftServer.isHardcore(); }
+public int getServerPort() { return wrapperContained.getServerPort(); }
+// public static int getServerPort() { return net.minecraft.server.MinecraftServer.getServerPort(); }
+public java.nio.file.Path getPath(java.lang.String path) { return wrapperContained.getPath(path); }
+// public static java.nio.file.Path getPath(java.lang.String path, ) { return net.minecraft.server.MinecraftServer.getPath(path); }
+public boolean isUsingNativeTransport() { return wrapperContained.isUsingNativeTransport(); }
+// public static boolean isUsingNativeTransport() { return net.minecraft.server.MinecraftServer.isUsingNativeTransport(); }
+public yarnwrap.server.PlayerManager getPlayerManager() { return new yarnwrap.server.PlayerManager(wrapperContained.getPlayerManager()); }
+// public static yarnwrap.server.PlayerManager getPlayerManager() { return new yarnwrap.server.PlayerManager(net.minecraft.server.MinecraftServer.getPlayerManager()); }
+public yarnwrap.world.GameMode getForcedGameMode() { return new yarnwrap.world.GameMode(wrapperContained.getForcedGameMode()); }
+// public static yarnwrap.world.GameMode getForcedGameMode() { return new yarnwrap.world.GameMode(net.minecraft.server.MinecraftServer.getForcedGameMode()); }
+public boolean openToLan(yarnwrap.world.GameMode gameMode,boolean cheatsAllowed,int port) { return wrapperContained.openToLan(gameMode.wrapperContained,cheatsAllowed,port); }
+// public static boolean openToLan(yarnwrap.world.GameMode gameMode,boolean cheatsAllowed,int port, ) { return net.minecraft.server.MinecraftServer.openToLan(gameMode.wrapperContained,cheatsAllowed,port); }
+public void setPreventProxyConnections(boolean preventProxyConnections) { wrapperContained.setPreventProxyConnections(preventProxyConnections); }
+// public static void setPreventProxyConnections(boolean preventProxyConnections, ) { net.minecraft.server.MinecraftServer.setPreventProxyConnections(preventProxyConnections); }
+public yarnwrap.server.ServerMetadata getServerMetadata() { return new yarnwrap.server.ServerMetadata(wrapperContained.getServerMetadata()); }
+// public static yarnwrap.server.ServerMetadata getServerMetadata() { return new yarnwrap.server.ServerMetadata(net.minecraft.server.MinecraftServer.getServerMetadata()); }
+public yarnwrap.world.GameRules getGameRules() { return new yarnwrap.world.GameRules(wrapperContained.getGameRules()); }
+// public static yarnwrap.world.GameRules getGameRules() { return new yarnwrap.world.GameRules(net.minecraft.server.MinecraftServer.getGameRules()); }
+public yarnwrap.recipe.ServerRecipeManager getRecipeManager() { return new yarnwrap.recipe.ServerRecipeManager(wrapperContained.getRecipeManager()); }
+// public static yarnwrap.recipe.ServerRecipeManager getRecipeManager() { return new yarnwrap.recipe.ServerRecipeManager(net.minecraft.server.MinecraftServer.getRecipeManager()); }
+public int getNetworkCompressionThreshold() { return wrapperContained.getNetworkCompressionThreshold(); }
+// public static int getNetworkCompressionThreshold() { return net.minecraft.server.MinecraftServer.getNetworkCompressionThreshold(); }
+// public void prepareStartRegion(yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener) { wrapperContained.prepareStartRegion(worldGenerationProgressListener.wrapperContained); }
+// public static void prepareStartRegion(yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener, ) { net.minecraft.server.MinecraftServer.prepareStartRegion(worldGenerationProgressListener.wrapperContained); }
+public boolean shouldPreventProxyConnections() { return wrapperContained.shouldPreventProxyConnections(); }
+// public static boolean shouldPreventProxyConnections() { return net.minecraft.server.MinecraftServer.shouldPreventProxyConnections(); }
+public void setDifficulty(yarnwrap.world.Difficulty difficulty,boolean forceUpdate) { wrapperContained.setDifficulty(difficulty.wrapperContained,forceUpdate); }
+// public static void setDifficulty(yarnwrap.world.Difficulty difficulty,boolean forceUpdate, ) { net.minecraft.server.MinecraftServer.setDifficulty(difficulty.wrapperContained,forceUpdate); }
+public void setServerPort(int serverPort) { wrapperContained.setServerPort(serverPort); }
+// public static void setServerPort(int serverPort, ) { net.minecraft.server.MinecraftServer.setServerPort(serverPort); }
+public int getTicks() { return wrapperContained.getTicks(); }
+// public static int getTicks() { return net.minecraft.server.MinecraftServer.getTicks(); }
+public void shutdown() { wrapperContained.shutdown(); }
+// public static void shutdown() { net.minecraft.server.MinecraftServer.shutdown(); }
+public boolean isMonsterSpawningEnabled() { return wrapperContained.isMonsterSpawningEnabled(); }
+// public static boolean isMonsterSpawningEnabled() { return net.minecraft.server.MinecraftServer.isMonsterSpawningEnabled(); }
+public boolean isSpawnProtected(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.isSpawnProtected(world.wrapperContained,pos.wrapperContained,player.wrapperContained); }
+// public static boolean isSpawnProtected(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.server.MinecraftServer.isSpawnProtected(world.wrapperContained,pos.wrapperContained,player.wrapperContained); }
+// public void createWorlds(yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener) { wrapperContained.createWorlds(worldGenerationProgressListener.wrapperContained); }
+// public static void createWorlds(yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener, ) { net.minecraft.server.MinecraftServer.createWorlds(worldGenerationProgressListener.wrapperContained); }
+public yarnwrap.server.ServerNetworkIo getNetworkIo() { return new yarnwrap.server.ServerNetworkIo(wrapperContained.getNetworkIo()); }
+// public static yarnwrap.server.ServerNetworkIo getNetworkIo() { return new yarnwrap.server.ServerNetworkIo(net.minecraft.server.MinecraftServer.getNetworkIo()); }
+public yarnwrap.world.GameMode getDefaultGameMode() { return new yarnwrap.world.GameMode(wrapperContained.getDefaultGameMode()); }
+// public static yarnwrap.world.GameMode getDefaultGameMode() { return new yarnwrap.world.GameMode(net.minecraft.server.MinecraftServer.getDefaultGameMode()); }
+public yarnwrap.util.UserCache getUserCache() { return new yarnwrap.util.UserCache(wrapperContained.getUserCache()); }
+// public static yarnwrap.util.UserCache getUserCache() { return new yarnwrap.util.UserCache(net.minecraft.server.MinecraftServer.getUserCache()); }
+public int getOpPermissionLevel() { return wrapperContained.getOpPermissionLevel(); }
+// public static int getOpPermissionLevel() { return net.minecraft.server.MinecraftServer.getOpPermissionLevel(); }
+public boolean isDemo() { return wrapperContained.isDemo(); }
+// public static boolean isDemo() { return net.minecraft.server.MinecraftServer.isDemo(); }
+public void setPlayerIdleTimeout(int playerIdleTimeout) { wrapperContained.setPlayerIdleTimeout(playerIdleTimeout); }
+// public static void setPlayerIdleTimeout(int playerIdleTimeout, ) { net.minecraft.server.MinecraftServer.setPlayerIdleTimeout(playerIdleTimeout); }
+public boolean isRunning() { return wrapperContained.isRunning(); }
+// public static boolean isRunning() { return net.minecraft.server.MinecraftServer.isRunning(); }
+public boolean areCommandBlocksEnabled() { return wrapperContained.areCommandBlocksEnabled(); }
+// public static boolean areCommandBlocksEnabled() { return net.minecraft.server.MinecraftServer.areCommandBlocksEnabled(); }
+// public void tickWorlds(java.util.function.BooleanSupplier shouldKeepTicking) { wrapperContained.tickWorlds(shouldKeepTicking); }
+// public static void tickWorlds(java.util.function.BooleanSupplier shouldKeepTicking, ) { net.minecraft.server.MinecraftServer.tickWorlds(shouldKeepTicking); }
+public void setPvpEnabled(boolean pvpEnabled) { wrapperContained.setPvpEnabled(pvpEnabled); }
+// public static void setPvpEnabled(boolean pvpEnabled, ) { net.minecraft.server.MinecraftServer.setPvpEnabled(pvpEnabled); }
+public boolean isDedicated() { return wrapperContained.isDedicated(); }
+// public static boolean isDedicated() { return net.minecraft.server.MinecraftServer.isDedicated(); }
+public java.lang.String getServerIp() { return wrapperContained.getServerIp(); }
+// public static java.lang.String getServerIp() { return net.minecraft.server.MinecraftServer.getServerIp(); }
+public boolean isLoading() { return wrapperContained.isLoading(); }
+// public static boolean isLoading() { return net.minecraft.server.MinecraftServer.isLoading(); }
+public void exit() { wrapperContained.exit(); }
+// public static void exit() { net.minecraft.server.MinecraftServer.exit(); }
+// public boolean setupServer() { return wrapperContained.setupServer(); }
+// public static boolean setupServer() { return net.minecraft.server.MinecraftServer.setupServer(); }
+public long getTimeReference() { return wrapperContained.getTimeReference(); }
+// public static long getTimeReference() { return net.minecraft.server.MinecraftServer.getTimeReference(); }
+public boolean isOnlineMode() { return wrapperContained.isOnlineMode(); }
+// public static boolean isOnlineMode() { return net.minecraft.server.MinecraftServer.isOnlineMode(); }
+public int getSpawnRadius(yarnwrap.server.world.ServerWorld world) { return wrapperContained.getSpawnRadius(world.wrapperContained); }
+// public static int getSpawnRadius(yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.server.MinecraftServer.getSpawnRadius(world.wrapperContained); }
+public java.nio.file.Path getRunDirectory() { return wrapperContained.getRunDirectory(); }
+// public static java.nio.file.Path getRunDirectory() { return net.minecraft.server.MinecraftServer.getRunDirectory(); }
+public void startDebug() { wrapperContained.startDebug(); }
+// public static void startDebug() { net.minecraft.server.MinecraftServer.startDebug(); }
+public void setMotd(java.lang.String motd) { wrapperContained.setMotd(motd); }
+// public static void setMotd(java.lang.String motd, ) { net.minecraft.server.MinecraftServer.setMotd(motd); }
+public int getPermissionLevel(com.mojang.authlib.GameProfile profile) { return wrapperContained.getPermissionLevel(profile); }
+// public static int getPermissionLevel(com.mojang.authlib.GameProfile profile, ) { return net.minecraft.server.MinecraftServer.getPermissionLevel(profile); }
+public yarnwrap.resource.ResourcePackManager getDataPackManager() { return new yarnwrap.resource.ResourcePackManager(wrapperContained.getDataPackManager()); }
+// public static yarnwrap.resource.ResourcePackManager getDataPackManager() { return new yarnwrap.resource.ResourcePackManager(net.minecraft.server.MinecraftServer.getDataPackManager()); }
+public yarnwrap.entity.boss.BossBarManager getBossBarManager() { return new yarnwrap.entity.boss.BossBarManager(wrapperContained.getBossBarManager()); }
+// public static yarnwrap.entity.boss.BossBarManager getBossBarManager() { return new yarnwrap.entity.boss.BossBarManager(net.minecraft.server.MinecraftServer.getBossBarManager()); }
+public void setDefaultGameMode(yarnwrap.world.GameMode gameMode) { wrapperContained.setDefaultGameMode(gameMode.wrapperContained); }
+// public static void setDefaultGameMode(yarnwrap.world.GameMode gameMode, ) { net.minecraft.server.MinecraftServer.setDefaultGameMode(gameMode.wrapperContained); }
+public int getSpawnProtectionRadius() { return wrapperContained.getSpawnProtectionRadius(); }
+// public static int getSpawnProtectionRadius() { return net.minecraft.server.MinecraftServer.getSpawnProtectionRadius(); }
+public void setServerIp(java.lang.String serverIp) { wrapperContained.setServerIp(serverIp); }
+// public static void setServerIp(java.lang.String serverIp, ) { net.minecraft.server.MinecraftServer.setServerIp(serverIp); }
+public com.mojang.authlib.minecraft.MinecraftSessionService getSessionService() { return wrapperContained.getSessionService(); }
+// public static com.mojang.authlib.minecraft.MinecraftSessionService getSessionService() { return net.minecraft.server.MinecraftServer.getSessionService(); }
+public yarnwrap.scoreboard.ServerScoreboard getScoreboard() { return new yarnwrap.scoreboard.ServerScoreboard(wrapperContained.getScoreboard()); }
+// public static yarnwrap.scoreboard.ServerScoreboard getScoreboard() { return new yarnwrap.scoreboard.ServerScoreboard(net.minecraft.server.MinecraftServer.getScoreboard()); }
+public void setPlayerManager(yarnwrap.server.PlayerManager playerManager) { wrapperContained.setPlayerManager(playerManager.wrapperContained); }
+// public static void setPlayerManager(yarnwrap.server.PlayerManager playerManager, ) { net.minecraft.server.MinecraftServer.setPlayerManager(playerManager.wrapperContained); }
+public yarnwrap.server.world.ServerWorld getWorld(yarnwrap.registry.RegistryKey key) { return new yarnwrap.server.world.ServerWorld(wrapperContained.getWorld(key.wrapperContained)); }
+// public static yarnwrap.server.world.ServerWorld getWorld(yarnwrap.registry.RegistryKey key, ) { return new yarnwrap.server.world.ServerWorld(net.minecraft.server.MinecraftServer.getWorld(key.wrapperContained)); }
+public yarnwrap.server.ServerAdvancementLoader getAdvancementLoader() { return new yarnwrap.server.ServerAdvancementLoader(wrapperContained.getAdvancementLoader()); }
+// public static yarnwrap.server.ServerAdvancementLoader getAdvancementLoader() { return new yarnwrap.server.ServerAdvancementLoader(net.minecraft.server.MinecraftServer.getAdvancementLoader()); }
+public boolean isPvpEnabled() { return wrapperContained.isPvpEnabled(); }
+// public static boolean isPvpEnabled() { return net.minecraft.server.MinecraftServer.isPvpEnabled(); }
+// public void method_3854(java.lang.Thread thread,java.lang.Throwable throwable) { wrapperContained.method_3854(thread,throwable); }
+// public static void method_3854(java.lang.Thread thread,java.lang.Throwable throwable, ) { net.minecraft.server.MinecraftServer.method_3854(thread,throwable); }
+public com.mojang.datafixers.DataFixer getDataFixer() { return wrapperContained.getDataFixer(); }
+// public static com.mojang.datafixers.DataFixer getDataFixer() { return net.minecraft.server.MinecraftServer.getDataFixer(); }
+public void forcePlayerSampleUpdate() { wrapperContained.forcePlayerSampleUpdate(); }
+// public static void forcePlayerSampleUpdate() { net.minecraft.server.MinecraftServer.forcePlayerSampleUpdate(); }
+public java.lang.String[] getPlayerNames() { return wrapperContained.getPlayerNames(); }
+// public static java.lang.String[] getPlayerNames() { return net.minecraft.server.MinecraftServer.getPlayerNames(); }
+public yarnwrap.util.SystemDetails addExtraSystemDetails(yarnwrap.util.SystemDetails details) { return new yarnwrap.util.SystemDetails(wrapperContained.addExtraSystemDetails(details.wrapperContained)); }
+// public static yarnwrap.util.SystemDetails addExtraSystemDetails(yarnwrap.util.SystemDetails details, ) { return new yarnwrap.util.SystemDetails(net.minecraft.server.MinecraftServer.addExtraSystemDetails(details.wrapperContained)); }
+public boolean isRemote() { return wrapperContained.isRemote(); }
+// public static boolean isRemote() { return net.minecraft.server.MinecraftServer.isRemote(); }
+public int getPlayerIdleTimeout() { return wrapperContained.getPlayerIdleTimeout(); }
+// public static int getPlayerIdleTimeout() { return net.minecraft.server.MinecraftServer.getPlayerIdleTimeout(); }
+public void setOnlineMode(boolean onlineMode) { wrapperContained.setOnlineMode(onlineMode); }
+// public static void setOnlineMode(boolean onlineMode, ) { net.minecraft.server.MinecraftServer.setOnlineMode(onlineMode); }
+// public boolean shouldKeepTicking() { return wrapperContained.shouldKeepTicking(); }
+// public static boolean shouldKeepTicking() { return net.minecraft.server.MinecraftServer.shouldKeepTicking(); }
+// public boolean isMainThread() { return wrapperContained.isMainThread(); }
+// public static boolean isMainThread() { return net.minecraft.server.MinecraftServer.isMainThread(); }
 public boolean isStopping() { return wrapperContained.isStopping(); }
 // public static boolean isStopping() { return net.minecraft.server.MinecraftServer.isStopping(); }
-public yarnwrap.util.profiler.Profiler getProfiler() { return new yarnwrap.util.profiler.Profiler(wrapperContained.getProfiler()); }
-// public static yarnwrap.util.profiler.Profiler getProfiler() { return new yarnwrap.util.profiler.Profiler(net.minecraft.server.MinecraftServer.getProfiler()); }
+// public yarnwrap.util.profiler.Profiler startTickMetrics() { return new yarnwrap.util.profiler.Profiler(wrapperContained.startTickMetrics()); }
+// public static yarnwrap.util.profiler.Profiler startTickMetrics() { return new yarnwrap.util.profiler.Profiler(net.minecraft.server.MinecraftServer.startTickMetrics()); }
 // public void runTasksTillTickEnd() { wrapperContained.runTasksTillTickEnd(); }
 // public static void runTasksTillTickEnd() { net.minecraft.server.MinecraftServer.runTasksTillTickEnd(); }
 // public void setServerId(java.lang.String serverId) { wrapperContained.setServerId(serverId); }
@@ -403,8 +599,6 @@ public yarnwrap.command.DataCommandStorage getDataCommandStorage() { return new 
 // public static yarnwrap.command.DataCommandStorage getDataCommandStorage() { return new yarnwrap.command.DataCommandStorage(net.minecraft.server.MinecraftServer.getDataCommandStorage()); }
 public yarnwrap.util.ModStatus getModStatus() { return new yarnwrap.util.ModStatus(wrapperContained.getModStatus()); }
 // public static yarnwrap.util.ModStatus getModStatus() { return new yarnwrap.util.ModStatus(net.minecraft.server.MinecraftServer.getModStatus()); }
-// public void startTickMetrics() { wrapperContained.startTickMetrics(); }
-// public static void startTickMetrics() { net.minecraft.server.MinecraftServer.startTickMetrics(); }
 public boolean isDebugRunning() { return wrapperContained.isDebugRunning(); }
 // public static boolean isDebugRunning() { return net.minecraft.server.MinecraftServer.isDebugRunning(); }
 public yarnwrap.util.profiler.ProfileResult stopDebug() { return new yarnwrap.util.profiler.ProfileResult(wrapperContained.stopDebug()); }
@@ -467,34 +661,10 @@ public java.net.Proxy getProxy() { return wrapperContained.getProxy(); }
 // public static java.net.Proxy getProxy() { return net.minecraft.server.MinecraftServer.getProxy(); }
 // public void dumpProperties(java.nio.file.Path file) { wrapperContained.dumpProperties(file); }
 // public static void dumpProperties(java.nio.file.Path file, ) { net.minecraft.server.MinecraftServer.dumpProperties(file); }
-public java.security.KeyPair getKeyPair() { return wrapperContained.getKeyPair(); }
-// public static java.security.KeyPair getKeyPair() { return net.minecraft.server.MinecraftServer.getKeyPair(); }
-public boolean isFlightEnabled() { return wrapperContained.isFlightEnabled(); }
-// public static boolean isFlightEnabled() { return net.minecraft.server.MinecraftServer.isFlightEnabled(); }
-public com.mojang.authlib.GameProfileRepository getGameProfileRepo() { return wrapperContained.getGameProfileRepo(); }
-// public static com.mojang.authlib.GameProfileRepository getGameProfileRepo() { return net.minecraft.server.MinecraftServer.getGameProfileRepo(); }
-public boolean save(boolean suppressLogs,boolean flush,boolean force) { return wrapperContained.save(suppressLogs,flush,force); }
-// public static boolean save(boolean suppressLogs,boolean flush,boolean force, ) { return net.minecraft.server.MinecraftServer.save(suppressLogs,flush,force); }
-public boolean isSingleplayer() { return wrapperContained.isSingleplayer(); }
-// public static boolean isSingleplayer() { return net.minecraft.server.MinecraftServer.isSingleplayer(); }
-public java.util.Optional getIconFile() { return wrapperContained.getIconFile(); }
-// public static java.util.Optional getIconFile() { return net.minecraft.server.MinecraftServer.getIconFile(); }
-public boolean hasGui() { return wrapperContained.hasGui(); }
-// public static boolean hasGui() { return net.minecraft.server.MinecraftServer.hasGui(); }
-public void kickNonWhitelistedPlayers(yarnwrap.server.command.ServerCommandSource source) { wrapperContained.kickNonWhitelistedPlayers(source.wrapperContained); }
-// public static void kickNonWhitelistedPlayers(yarnwrap.server.command.ServerCommandSource source, ) { net.minecraft.server.MinecraftServer.kickNonWhitelistedPlayers(source.wrapperContained); }
-public boolean isEnforceWhitelist() { return wrapperContained.isEnforceWhitelist(); }
-// public static boolean isEnforceWhitelist() { return net.minecraft.server.MinecraftServer.isEnforceWhitelist(); }
-public void setDemo(boolean demo) { wrapperContained.setDemo(demo); }
-// public static void setDemo(boolean demo, ) { net.minecraft.server.MinecraftServer.setDemo(demo); }
-public void setEnforceWhitelist(boolean enforceWhitelist) { wrapperContained.setEnforceWhitelist(enforceWhitelist); }
-// public static void setEnforceWhitelist(boolean enforceWhitelist, ) { net.minecraft.server.MinecraftServer.setEnforceWhitelist(enforceWhitelist); }
 // public void method_37318(yarnwrap.util.profiler.ProfileResult profileResult) { wrapperContained.method_37318(profileResult.wrapperContained); }
 // public static void method_37318(yarnwrap.util.profiler.ProfileResult profileResult, ) { net.minecraft.server.MinecraftServer.method_37318(profileResult.wrapperContained); }
 // public void method_37319(java.util.function.Consumer result) { wrapperContained.method_37319(result); }
 // public static void method_37319(java.util.function.Consumer result, ) { net.minecraft.server.MinecraftServer.method_37319(result); }
-public boolean shouldBroadcastRconToOps() { return wrapperContained.shouldBroadcastRconToOps(); }
-// public static boolean shouldBroadcastRconToOps() { return net.minecraft.server.MinecraftServer.shouldBroadcastRconToOps(); }
 public void setupRecorder(java.util.function.Consumer resultConsumer,java.util.function.Consumer dumpConsumer) { wrapperContained.setupRecorder(resultConsumer,dumpConsumer); }
 // public static void setupRecorder(java.util.function.Consumer resultConsumer,java.util.function.Consumer dumpConsumer, ) { net.minecraft.server.MinecraftServer.setupRecorder(resultConsumer,dumpConsumer); }
 public boolean isRecorderActive() { return wrapperContained.isRecorderActive(); }
@@ -507,166 +677,10 @@ public yarnwrap.util.SystemDetails addSystemDetails(yarnwrap.util.SystemDetails 
 // public static yarnwrap.util.SystemDetails addSystemDetails(yarnwrap.util.SystemDetails details, ) { return new yarnwrap.util.SystemDetails(net.minecraft.server.MinecraftServer.addSystemDetails(details.wrapperContained)); }
 // public void method_37329(java.nio.file.Path path) { wrapperContained.method_37329(path); }
 // public static void method_37329(java.nio.file.Path path, ) { net.minecraft.server.MinecraftServer.method_37329(path); }
-public yarnwrap.server.command.CommandManager getCommandManager() { return new yarnwrap.server.command.CommandManager(wrapperContained.getCommandManager()); }
-// public static yarnwrap.server.command.CommandManager getCommandManager() { return new yarnwrap.server.command.CommandManager(net.minecraft.server.MinecraftServer.getCommandManager()); }
-// public void loadWorld() { wrapperContained.loadWorld(); }
-// public static void loadWorld() { net.minecraft.server.MinecraftServer.loadWorld(); }
-public boolean shouldSpawnNpcs() { return wrapperContained.shouldSpawnNpcs(); }
-// public static boolean shouldSpawnNpcs() { return net.minecraft.server.MinecraftServer.shouldSpawnNpcs(); }
-// public void method_37370(java.nio.file.Path path) { wrapperContained.method_37370(path); }
-// public static void method_37370(java.nio.file.Path path, ) { net.minecraft.server.MinecraftServer.method_37370(path); }
-public java.lang.Iterable getWorlds() { return wrapperContained.getWorlds(); }
-// public static java.lang.Iterable getWorlds() { return net.minecraft.server.MinecraftServer.getWorlds(); }
-public yarnwrap.server.command.ServerCommandSource getCommandSource() { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.getCommandSource()); }
-// public static yarnwrap.server.command.ServerCommandSource getCommandSource() { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.MinecraftServer.getCommandSource()); }
-public yarnwrap.server.function.CommandFunctionManager getCommandFunctionManager() { return new yarnwrap.server.function.CommandFunctionManager(wrapperContained.getCommandFunctionManager()); }
-// public static yarnwrap.server.function.CommandFunctionManager getCommandFunctionManager() { return new yarnwrap.server.function.CommandFunctionManager(net.minecraft.server.MinecraftServer.getCommandFunctionManager()); }
-public void addServerGuiTickable(java.lang.Runnable tickable) { wrapperContained.addServerGuiTickable(tickable); }
-// public static void addServerGuiTickable(java.lang.Runnable tickable, ) { net.minecraft.server.MinecraftServer.addServerGuiTickable(tickable); }
-public void setCrashReport(yarnwrap.util.crash.CrashReport report) { wrapperContained.setCrashReport(report.wrapperContained); }
-// public static void setCrashReport(yarnwrap.util.crash.CrashReport report, ) { net.minecraft.server.MinecraftServer.setCrashReport(report.wrapperContained); }
-public void setFlightEnabled(boolean flightEnabled) { wrapperContained.setFlightEnabled(flightEnabled); }
-// public static void setFlightEnabled(boolean flightEnabled, ) { net.minecraft.server.MinecraftServer.setFlightEnabled(flightEnabled); }
-public void stop(boolean waitForShutdown) { wrapperContained.stop(waitForShutdown); }
-// public static void stop(boolean waitForShutdown, ) { net.minecraft.server.MinecraftServer.stop(waitForShutdown); }
-public void tick(java.util.function.BooleanSupplier shouldKeepTicking) { wrapperContained.tick(shouldKeepTicking); }
-// public static void tick(java.util.function.BooleanSupplier shouldKeepTicking, ) { net.minecraft.server.MinecraftServer.tick(shouldKeepTicking); }
-public int getMaxWorldBorderRadius() { return wrapperContained.getMaxWorldBorderRadius(); }
-// public static int getMaxWorldBorderRadius() { return net.minecraft.server.MinecraftServer.getMaxWorldBorderRadius(); }
-public boolean isStopped() { return wrapperContained.isStopped(); }
-// public static boolean isStopped() { return net.minecraft.server.MinecraftServer.isStopped(); }
-public boolean isHardcore() { return wrapperContained.isHardcore(); }
-// public static boolean isHardcore() { return net.minecraft.server.MinecraftServer.isHardcore(); }
-public int getServerPort() { return wrapperContained.getServerPort(); }
-// public static int getServerPort() { return net.minecraft.server.MinecraftServer.getServerPort(); }
-public java.nio.file.Path getPath(java.lang.String path) { return wrapperContained.getPath(path); }
-// public static java.nio.file.Path getPath(java.lang.String path, ) { return net.minecraft.server.MinecraftServer.getPath(path); }
-public boolean isUsingNativeTransport() { return wrapperContained.isUsingNativeTransport(); }
-// public static boolean isUsingNativeTransport() { return net.minecraft.server.MinecraftServer.isUsingNativeTransport(); }
-public yarnwrap.server.PlayerManager getPlayerManager() { return new yarnwrap.server.PlayerManager(wrapperContained.getPlayerManager()); }
-// public static yarnwrap.server.PlayerManager getPlayerManager() { return new yarnwrap.server.PlayerManager(net.minecraft.server.MinecraftServer.getPlayerManager()); }
-public yarnwrap.world.GameMode getForcedGameMode() { return new yarnwrap.world.GameMode(wrapperContained.getForcedGameMode()); }
-// public static yarnwrap.world.GameMode getForcedGameMode() { return new yarnwrap.world.GameMode(net.minecraft.server.MinecraftServer.getForcedGameMode()); }
-public boolean openToLan(yarnwrap.world.GameMode gameMode,boolean cheatsAllowed,int port) { return wrapperContained.openToLan(gameMode.wrapperContained,cheatsAllowed,port); }
-// public static boolean openToLan(yarnwrap.world.GameMode gameMode,boolean cheatsAllowed,int port, ) { return net.minecraft.server.MinecraftServer.openToLan(gameMode.wrapperContained,cheatsAllowed,port); }
-public void setPreventProxyConnections(boolean preventProxyConnections) { wrapperContained.setPreventProxyConnections(preventProxyConnections); }
-// public static void setPreventProxyConnections(boolean preventProxyConnections, ) { net.minecraft.server.MinecraftServer.setPreventProxyConnections(preventProxyConnections); }
-public yarnwrap.server.ServerMetadata getServerMetadata() { return new yarnwrap.server.ServerMetadata(wrapperContained.getServerMetadata()); }
-// public static yarnwrap.server.ServerMetadata getServerMetadata() { return new yarnwrap.server.ServerMetadata(net.minecraft.server.MinecraftServer.getServerMetadata()); }
-public yarnwrap.world.GameRules getGameRules() { return new yarnwrap.world.GameRules(wrapperContained.getGameRules()); }
-// public static yarnwrap.world.GameRules getGameRules() { return new yarnwrap.world.GameRules(net.minecraft.server.MinecraftServer.getGameRules()); }
-public yarnwrap.recipe.RecipeManager getRecipeManager() { return new yarnwrap.recipe.RecipeManager(wrapperContained.getRecipeManager()); }
-// public static yarnwrap.recipe.RecipeManager getRecipeManager() { return new yarnwrap.recipe.RecipeManager(net.minecraft.server.MinecraftServer.getRecipeManager()); }
-public int getNetworkCompressionThreshold() { return wrapperContained.getNetworkCompressionThreshold(); }
-// public static int getNetworkCompressionThreshold() { return net.minecraft.server.MinecraftServer.getNetworkCompressionThreshold(); }
-// public void prepareStartRegion(yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener) { wrapperContained.prepareStartRegion(worldGenerationProgressListener.wrapperContained); }
-// public static void prepareStartRegion(yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener, ) { net.minecraft.server.MinecraftServer.prepareStartRegion(worldGenerationProgressListener.wrapperContained); }
-public boolean shouldPreventProxyConnections() { return wrapperContained.shouldPreventProxyConnections(); }
-// public static boolean shouldPreventProxyConnections() { return net.minecraft.server.MinecraftServer.shouldPreventProxyConnections(); }
-public void setDifficulty(yarnwrap.world.Difficulty difficulty,boolean forceUpdate) { wrapperContained.setDifficulty(difficulty.wrapperContained,forceUpdate); }
-// public static void setDifficulty(yarnwrap.world.Difficulty difficulty,boolean forceUpdate, ) { net.minecraft.server.MinecraftServer.setDifficulty(difficulty.wrapperContained,forceUpdate); }
-public void setServerPort(int serverPort) { wrapperContained.setServerPort(serverPort); }
-// public static void setServerPort(int serverPort, ) { net.minecraft.server.MinecraftServer.setServerPort(serverPort); }
-public int getTicks() { return wrapperContained.getTicks(); }
-// public static int getTicks() { return net.minecraft.server.MinecraftServer.getTicks(); }
-public void shutdown() { wrapperContained.shutdown(); }
-// public static void shutdown() { net.minecraft.server.MinecraftServer.shutdown(); }
-public boolean isMonsterSpawningEnabled() { return wrapperContained.isMonsterSpawningEnabled(); }
-// public static boolean isMonsterSpawningEnabled() { return net.minecraft.server.MinecraftServer.isMonsterSpawningEnabled(); }
-public boolean isSpawnProtected(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.isSpawnProtected(world.wrapperContained,pos.wrapperContained,player.wrapperContained); }
-// public static boolean isSpawnProtected(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.server.MinecraftServer.isSpawnProtected(world.wrapperContained,pos.wrapperContained,player.wrapperContained); }
-// public void createWorlds(yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener) { wrapperContained.createWorlds(worldGenerationProgressListener.wrapperContained); }
-// public static void createWorlds(yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener, ) { net.minecraft.server.MinecraftServer.createWorlds(worldGenerationProgressListener.wrapperContained); }
-public yarnwrap.server.ServerNetworkIo getNetworkIo() { return new yarnwrap.server.ServerNetworkIo(wrapperContained.getNetworkIo()); }
-// public static yarnwrap.server.ServerNetworkIo getNetworkIo() { return new yarnwrap.server.ServerNetworkIo(net.minecraft.server.MinecraftServer.getNetworkIo()); }
-public yarnwrap.world.GameMode getDefaultGameMode() { return new yarnwrap.world.GameMode(wrapperContained.getDefaultGameMode()); }
-// public static yarnwrap.world.GameMode getDefaultGameMode() { return new yarnwrap.world.GameMode(net.minecraft.server.MinecraftServer.getDefaultGameMode()); }
-public yarnwrap.util.UserCache getUserCache() { return new yarnwrap.util.UserCache(wrapperContained.getUserCache()); }
-// public static yarnwrap.util.UserCache getUserCache() { return new yarnwrap.util.UserCache(net.minecraft.server.MinecraftServer.getUserCache()); }
-public boolean shouldSpawnAnimals() { return wrapperContained.shouldSpawnAnimals(); }
-// public static boolean shouldSpawnAnimals() { return net.minecraft.server.MinecraftServer.shouldSpawnAnimals(); }
-public int getOpPermissionLevel() { return wrapperContained.getOpPermissionLevel(); }
-// public static int getOpPermissionLevel() { return net.minecraft.server.MinecraftServer.getOpPermissionLevel(); }
-public boolean isDemo() { return wrapperContained.isDemo(); }
-// public static boolean isDemo() { return net.minecraft.server.MinecraftServer.isDemo(); }
-public void setPlayerIdleTimeout(int playerIdleTimeout) { wrapperContained.setPlayerIdleTimeout(playerIdleTimeout); }
-// public static void setPlayerIdleTimeout(int playerIdleTimeout, ) { net.minecraft.server.MinecraftServer.setPlayerIdleTimeout(playerIdleTimeout); }
-public boolean isRunning() { return wrapperContained.isRunning(); }
-// public static boolean isRunning() { return net.minecraft.server.MinecraftServer.isRunning(); }
-public boolean areCommandBlocksEnabled() { return wrapperContained.areCommandBlocksEnabled(); }
-// public static boolean areCommandBlocksEnabled() { return net.minecraft.server.MinecraftServer.areCommandBlocksEnabled(); }
-public void tickWorlds(java.util.function.BooleanSupplier shouldKeepTicking) { wrapperContained.tickWorlds(shouldKeepTicking); }
-// public static void tickWorlds(java.util.function.BooleanSupplier shouldKeepTicking, ) { net.minecraft.server.MinecraftServer.tickWorlds(shouldKeepTicking); }
-public void setPvpEnabled(boolean pvpEnabled) { wrapperContained.setPvpEnabled(pvpEnabled); }
-// public static void setPvpEnabled(boolean pvpEnabled, ) { net.minecraft.server.MinecraftServer.setPvpEnabled(pvpEnabled); }
-public boolean isDedicated() { return wrapperContained.isDedicated(); }
-// public static boolean isDedicated() { return net.minecraft.server.MinecraftServer.isDedicated(); }
-public java.lang.String getServerIp() { return wrapperContained.getServerIp(); }
-// public static java.lang.String getServerIp() { return net.minecraft.server.MinecraftServer.getServerIp(); }
-public boolean isLoading() { return wrapperContained.isLoading(); }
-// public static boolean isLoading() { return net.minecraft.server.MinecraftServer.isLoading(); }
-public void exit() { wrapperContained.exit(); }
-// public static void exit() { net.minecraft.server.MinecraftServer.exit(); }
-// public boolean setupServer() { return wrapperContained.setupServer(); }
-// public static boolean setupServer() { return net.minecraft.server.MinecraftServer.setupServer(); }
-public long getTimeReference() { return wrapperContained.getTimeReference(); }
-// public static long getTimeReference() { return net.minecraft.server.MinecraftServer.getTimeReference(); }
-public boolean isOnlineMode() { return wrapperContained.isOnlineMode(); }
-// public static boolean isOnlineMode() { return net.minecraft.server.MinecraftServer.isOnlineMode(); }
-public int getSpawnRadius(yarnwrap.server.world.ServerWorld world) { return wrapperContained.getSpawnRadius(world.wrapperContained); }
-// public static int getSpawnRadius(yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.server.MinecraftServer.getSpawnRadius(world.wrapperContained); }
-public java.nio.file.Path getRunDirectory() { return wrapperContained.getRunDirectory(); }
-// public static java.nio.file.Path getRunDirectory() { return net.minecraft.server.MinecraftServer.getRunDirectory(); }
-public void startDebug() { wrapperContained.startDebug(); }
-// public static void startDebug() { net.minecraft.server.MinecraftServer.startDebug(); }
-public void setMotd(java.lang.String motd) { wrapperContained.setMotd(motd); }
-// public static void setMotd(java.lang.String motd, ) { net.minecraft.server.MinecraftServer.setMotd(motd); }
-public int getPermissionLevel(com.mojang.authlib.GameProfile profile) { return wrapperContained.getPermissionLevel(profile); }
-// public static int getPermissionLevel(com.mojang.authlib.GameProfile profile, ) { return net.minecraft.server.MinecraftServer.getPermissionLevel(profile); }
-public yarnwrap.resource.ResourcePackManager getDataPackManager() { return new yarnwrap.resource.ResourcePackManager(wrapperContained.getDataPackManager()); }
-// public static yarnwrap.resource.ResourcePackManager getDataPackManager() { return new yarnwrap.resource.ResourcePackManager(net.minecraft.server.MinecraftServer.getDataPackManager()); }
-public yarnwrap.entity.boss.BossBarManager getBossBarManager() { return new yarnwrap.entity.boss.BossBarManager(wrapperContained.getBossBarManager()); }
-// public static yarnwrap.entity.boss.BossBarManager getBossBarManager() { return new yarnwrap.entity.boss.BossBarManager(net.minecraft.server.MinecraftServer.getBossBarManager()); }
-public void setDefaultGameMode(yarnwrap.world.GameMode gameMode) { wrapperContained.setDefaultGameMode(gameMode.wrapperContained); }
-// public static void setDefaultGameMode(yarnwrap.world.GameMode gameMode, ) { net.minecraft.server.MinecraftServer.setDefaultGameMode(gameMode.wrapperContained); }
-public int getSpawnProtectionRadius() { return wrapperContained.getSpawnProtectionRadius(); }
-// public static int getSpawnProtectionRadius() { return net.minecraft.server.MinecraftServer.getSpawnProtectionRadius(); }
-public void setServerIp(java.lang.String serverIp) { wrapperContained.setServerIp(serverIp); }
-// public static void setServerIp(java.lang.String serverIp, ) { net.minecraft.server.MinecraftServer.setServerIp(serverIp); }
-public com.mojang.authlib.minecraft.MinecraftSessionService getSessionService() { return wrapperContained.getSessionService(); }
-// public static com.mojang.authlib.minecraft.MinecraftSessionService getSessionService() { return net.minecraft.server.MinecraftServer.getSessionService(); }
-public yarnwrap.scoreboard.ServerScoreboard getScoreboard() { return new yarnwrap.scoreboard.ServerScoreboard(wrapperContained.getScoreboard()); }
-// public static yarnwrap.scoreboard.ServerScoreboard getScoreboard() { return new yarnwrap.scoreboard.ServerScoreboard(net.minecraft.server.MinecraftServer.getScoreboard()); }
-public void setPlayerManager(yarnwrap.server.PlayerManager playerManager) { wrapperContained.setPlayerManager(playerManager.wrapperContained); }
-// public static void setPlayerManager(yarnwrap.server.PlayerManager playerManager, ) { net.minecraft.server.MinecraftServer.setPlayerManager(playerManager.wrapperContained); }
-public yarnwrap.server.world.ServerWorld getWorld(yarnwrap.registry.RegistryKey key) { return new yarnwrap.server.world.ServerWorld(wrapperContained.getWorld(key.wrapperContained)); }
-// public static yarnwrap.server.world.ServerWorld getWorld(yarnwrap.registry.RegistryKey key, ) { return new yarnwrap.server.world.ServerWorld(net.minecraft.server.MinecraftServer.getWorld(key.wrapperContained)); }
-public yarnwrap.server.ServerAdvancementLoader getAdvancementLoader() { return new yarnwrap.server.ServerAdvancementLoader(wrapperContained.getAdvancementLoader()); }
-// public static yarnwrap.server.ServerAdvancementLoader getAdvancementLoader() { return new yarnwrap.server.ServerAdvancementLoader(net.minecraft.server.MinecraftServer.getAdvancementLoader()); }
-public boolean isPvpEnabled() { return wrapperContained.isPvpEnabled(); }
-// public static boolean isPvpEnabled() { return net.minecraft.server.MinecraftServer.isPvpEnabled(); }
-// public void method_3854(java.lang.Thread thread,java.lang.Throwable throwable) { wrapperContained.method_3854(thread,throwable); }
-// public static void method_3854(java.lang.Thread thread,java.lang.Throwable throwable, ) { net.minecraft.server.MinecraftServer.method_3854(thread,throwable); }
-public com.mojang.datafixers.DataFixer getDataFixer() { return wrapperContained.getDataFixer(); }
-// public static com.mojang.datafixers.DataFixer getDataFixer() { return net.minecraft.server.MinecraftServer.getDataFixer(); }
-public void forcePlayerSampleUpdate() { wrapperContained.forcePlayerSampleUpdate(); }
-// public static void forcePlayerSampleUpdate() { net.minecraft.server.MinecraftServer.forcePlayerSampleUpdate(); }
-public java.lang.String[] getPlayerNames() { return wrapperContained.getPlayerNames(); }
-// public static java.lang.String[] getPlayerNames() { return net.minecraft.server.MinecraftServer.getPlayerNames(); }
 // public java.lang.String method_38580(Object module) { return wrapperContained.method_38580(module); }
 // public static java.lang.String method_38580(Object module, ) { return net.minecraft.server.MinecraftServer.method_38580(module); }
 // public void dumpNativeModules(java.nio.file.Path path) { wrapperContained.dumpNativeModules(path); }
 // public static void dumpNativeModules(java.nio.file.Path path, ) { net.minecraft.server.MinecraftServer.dumpNativeModules(path); }
-public yarnwrap.util.SystemDetails addExtraSystemDetails(yarnwrap.util.SystemDetails details) { return new yarnwrap.util.SystemDetails(wrapperContained.addExtraSystemDetails(details.wrapperContained)); }
-// public static yarnwrap.util.SystemDetails addExtraSystemDetails(yarnwrap.util.SystemDetails details, ) { return new yarnwrap.util.SystemDetails(net.minecraft.server.MinecraftServer.addExtraSystemDetails(details.wrapperContained)); }
-public boolean isRemote() { return wrapperContained.isRemote(); }
-// public static boolean isRemote() { return net.minecraft.server.MinecraftServer.isRemote(); }
-public int getPlayerIdleTimeout() { return wrapperContained.getPlayerIdleTimeout(); }
-// public static int getPlayerIdleTimeout() { return net.minecraft.server.MinecraftServer.getPlayerIdleTimeout(); }
-public void setOnlineMode(boolean onlineMode) { wrapperContained.setOnlineMode(onlineMode); }
-// public static void setOnlineMode(boolean onlineMode, ) { net.minecraft.server.MinecraftServer.setOnlineMode(onlineMode); }
-// public boolean shouldKeepTicking() { return wrapperContained.shouldKeepTicking(); }
-// public static boolean shouldKeepTicking() { return net.minecraft.server.MinecraftServer.shouldKeepTicking(); }
 public boolean saveAll(boolean suppressLogs,boolean flush,boolean force) { return wrapperContained.saveAll(suppressLogs,flush,force); }
 // public static boolean saveAll(boolean suppressLogs,boolean flush,boolean force, ) { return net.minecraft.server.MinecraftServer.saveAll(suppressLogs,flush,force); }
 public boolean isSaving() { return wrapperContained.isSaving(); }
@@ -725,8 +739,6 @@ public boolean shouldLogIps() { return wrapperContained.shouldLogIps(); }
 // public static boolean shouldLogIps() { return net.minecraft.server.MinecraftServer.shouldLogIps(); }
 // public void method_53501(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.method_53501(player.wrapperContained); }
 // public static void method_53501(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.server.MinecraftServer.method_53501(player.wrapperContained); }
-// public boolean isMainThread() { return wrapperContained.isMainThread(); }
-// public static boolean isMainThread() { return net.minecraft.server.MinecraftServer.isMainThread(); }
 public boolean isPaused() { return wrapperContained.isPaused(); }
 // public static boolean isPaused() { return net.minecraft.server.MinecraftServer.isPaused(); }
 public void updateAutosaveTicks() { wrapperContained.updateAutosaveTicks(); }
@@ -775,5 +787,19 @@ public yarnwrap.server.ServerLinks getServerLinks() { return new yarnwrap.server
 // public static yarnwrap.server.ServerLinks getServerLinks() { return new yarnwrap.server.ServerLinks(net.minecraft.server.MinecraftServer.getServerLinks()); }
 // public void writeChunkIoReport(yarnwrap.util.crash.CrashReport report,yarnwrap.util.math.ChunkPos pos,yarnwrap.world.storage.StorageKey key) { wrapperContained.writeChunkIoReport(report.wrapperContained,pos.wrapperContained,key.wrapperContained); }
 // public static void writeChunkIoReport(yarnwrap.util.crash.CrashReport report,yarnwrap.util.math.ChunkPos pos,yarnwrap.world.storage.StorageKey key, ) { net.minecraft.server.MinecraftServer.writeChunkIoReport(report.wrapperContained,pos.wrapperContained,key.wrapperContained); }
+public void tickNetworkIo() { wrapperContained.tickNetworkIo(); }
+// public static void tickNetworkIo() { net.minecraft.server.MinecraftServer.tickNetworkIo(); }
+// public int getPauseWhenEmptySeconds() { return wrapperContained.getPauseWhenEmptySeconds(); }
+// public static int getPauseWhenEmptySeconds() { return net.minecraft.server.MinecraftServer.getPauseWhenEmptySeconds(); }
+public void onPacketException(java.lang.Throwable exception,yarnwrap.network.packet.PacketType type) { wrapperContained.onPacketException(exception,type.wrapperContained); }
+// public static void onPacketException(java.lang.Throwable exception,yarnwrap.network.packet.PacketType type, ) { net.minecraft.server.MinecraftServer.onPacketException(exception,type.wrapperContained); }
+// public void runAutosave() { wrapperContained.runAutosave(); }
+// public static void runAutosave() { net.minecraft.server.MinecraftServer.runAutosave(); }
+public yarnwrap.item.FuelRegistry getFuelRegistry() { return new yarnwrap.item.FuelRegistry(wrapperContained.getFuelRegistry()); }
+// public static yarnwrap.item.FuelRegistry getFuelRegistry() { return new yarnwrap.item.FuelRegistry(net.minecraft.server.MinecraftServer.getFuelRegistry()); }
+// public void method_64261(java.nio.file.Path path) { wrapperContained.method_64261(path); }
+// public static void method_64261(java.nio.file.Path path, ) { net.minecraft.server.MinecraftServer.method_64261(path); }
+// public void handleCustomClickAction(yarnwrap.util.Identifier id,java.util.Optional payload) { wrapperContained.handleCustomClickAction(id.wrapperContained,payload); }
+// public static void handleCustomClickAction(yarnwrap.util.Identifier id,java.util.Optional payload, ) { net.minecraft.server.MinecraftServer.handleCustomClickAction(id.wrapperContained,payload); }
 
 }

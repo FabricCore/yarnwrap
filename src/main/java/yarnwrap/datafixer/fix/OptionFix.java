@@ -21,7 +21,5 @@ public OptionFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean chang
 // public static com.mojang.datafixers.Typed method_30019(com.mojang.datafixers.Typed optionsTyped, ) { return net.minecraft.datafixer.fix.OptionFix.method_30019(optionsTyped); }
 // public com.mojang.serialization.Dynamic method_30020(com.mojang.serialization.Dynamic optionsDynamic) { return wrapperContained.method_30020(optionsDynamic); }
 // public static com.mojang.serialization.Dynamic method_30020(com.mojang.serialization.Dynamic optionsDynamic, ) { return net.minecraft.datafixer.fix.OptionFix.method_30020(optionsDynamic); }
-// public com.mojang.serialization.Dynamic method_30021(com.mojang.serialization.Dynamic setting) { return wrapperContained.method_30021(setting); }
-// public static com.mojang.serialization.Dynamic method_30021(com.mojang.serialization.Dynamic setting, ) { return net.minecraft.datafixer.fix.OptionFix.method_30021(setting); }
 
 }

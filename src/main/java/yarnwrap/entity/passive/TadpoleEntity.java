@@ -31,6 +31,11 @@ public static float WIDTH() { return net.minecraft.entity.passive.TadpoleEntity.
 public static float HEIGHT() { return net.minecraft.entity.passive.TadpoleEntity.HEIGHT; }
 // public static void HEIGHT(float value, ) { net.minecraft.entity.passive.TadpoleEntity.HEIGHT = value; }
 
+// public int DEFAULT_TADPOLE_AGE() { return wrapperContained.DEFAULT_TADPOLE_AGE; }
+// public void DEFAULT_TADPOLE_AGE(int value) { wrapperContained.DEFAULT_TADPOLE_AGE = value; }
+// public static int DEFAULT_TADPOLE_AGE() { return net.minecraft.entity.passive.TadpoleEntity.DEFAULT_TADPOLE_AGE; }
+// public static void DEFAULT_TADPOLE_AGE(int value, ) { net.minecraft.entity.passive.TadpoleEntity.DEFAULT_TADPOLE_AGE = value; }
+
 // public void eatSlimeBall(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack stack) { wrapperContained.eatSlimeBall(player.wrapperContained,stack.wrapperContained); }
 // public static void eatSlimeBall(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.passive.TadpoleEntity.eatSlimeBall(player.wrapperContained,stack.wrapperContained); }
 // public void increaseAge(int seconds) { wrapperContained.increaseAge(seconds); }
@@ -49,5 +54,7 @@ public static Object createTadpoleAttributes() { return net.minecraft.entity.pas
 // public static int getTicksUntilGrowth() { return net.minecraft.entity.passive.TadpoleEntity.getTicksUntilGrowth(); }
 // public boolean isFrogFood(yarnwrap.item.ItemStack stack) { return wrapperContained.isFrogFood(stack.wrapperContained); }
 // public static boolean isFrogFood(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.passive.TadpoleEntity.isFrogFood(stack.wrapperContained); }
+// public void method_63651(yarnwrap.server.world.ServerWorld frog) { wrapperContained.method_63651(frog.wrapperContained); }
+// public static void method_63651(yarnwrap.server.world.ServerWorld frog, ) { net.minecraft.entity.passive.TadpoleEntity.method_63651(frog.wrapperContained); }
 
 }

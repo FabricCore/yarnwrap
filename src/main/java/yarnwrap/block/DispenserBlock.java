@@ -1,10 +1,10 @@
 package yarnwrap.block;
 public class DispenserBlock { public net.minecraft.block.DispenserBlock wrapperContained; public DispenserBlock(net.minecraft.block.DispenserBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.DispenserBlock.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.DispenserBlock.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.DispenserBlock.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.DispenserBlock.FACING = value.wrapperContained; }
 
 // public java.util.Map BEHAVIORS() { return wrapperContained.BEHAVIORS; }
 // public void BEHAVIORS(java.util.Map value) { wrapperContained.BEHAVIORS = value; }
@@ -36,8 +36,6 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static yarnwrap.block.dispenser.ItemDispenserBehavior DEFAULT_BEHAVIOR() { return new yarnwrap.block.dispenser.ItemDispenserBehavior(net.minecraft.block.DispenserBlock.DEFAULT_BEHAVIOR); }
 // public static void DEFAULT_BEHAVIOR(yarnwrap.block.dispenser.ItemDispenserBehavior value, ) { net.minecraft.block.DispenserBlock.DEFAULT_BEHAVIOR = value.wrapperContained; }
 
-// public void method_10008(it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap map) { wrapperContained.method_10008(map); }
-// public static void method_10008(it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap map, ) { net.minecraft.block.DispenserBlock.method_10008(map); }
 // public void registerBehavior(yarnwrap.item.ItemConvertible provider,yarnwrap.block.dispenser.DispenserBehavior behavior) { wrapperContained.registerBehavior(provider.wrapperContained,behavior.wrapperContained); }
 // public static void registerBehavior(yarnwrap.item.ItemConvertible provider,yarnwrap.block.dispenser.DispenserBehavior behavior, ) { net.minecraft.block.DispenserBlock.registerBehavior(provider.wrapperContained,behavior.wrapperContained); }
 // public yarnwrap.util.math.Position getOutputLocation(yarnwrap.util.math.BlockPointer pointer,double facingOffset,yarnwrap.util.math.Vec3d constantOffset) { return new yarnwrap.util.math.Position(wrapperContained.getOutputLocation(pointer.wrapperContained,facingOffset,constantOffset.wrapperContained)); }
@@ -50,5 +48,7 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static void registerProjectileBehavior(yarnwrap.item.ItemConvertible projectile, ) { net.minecraft.block.DispenserBlock.registerProjectileBehavior(projectile.wrapperContained); }
 // public yarnwrap.util.math.Position getOutputLocation(yarnwrap.util.math.BlockPointer pointer) { return new yarnwrap.util.math.Position(wrapperContained.getOutputLocation(pointer.wrapperContained)); }
 // public static yarnwrap.util.math.Position getOutputLocation(yarnwrap.util.math.BlockPointer pointer, ) { return new yarnwrap.util.math.Position(net.minecraft.block.DispenserBlock.getOutputLocation(pointer.wrapperContained)); }
+// public yarnwrap.block.dispenser.DispenserBehavior getBehaviorForItem(yarnwrap.item.ItemStack stack) { return new yarnwrap.block.dispenser.DispenserBehavior(wrapperContained.getBehaviorForItem(stack.wrapperContained)); }
+// public static yarnwrap.block.dispenser.DispenserBehavior getBehaviorForItem(yarnwrap.item.ItemStack stack, ) { return new yarnwrap.block.dispenser.DispenserBehavior(net.minecraft.block.DispenserBlock.getBehaviorForItem(stack.wrapperContained)); }
 
 }

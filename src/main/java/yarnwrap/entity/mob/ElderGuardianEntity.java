@@ -21,6 +21,8 @@ public static float SCALE() { return net.minecraft.entity.mob.ElderGuardianEntit
 // public static int MINING_FATIGUE_AMPLIFIER() { return net.minecraft.entity.mob.ElderGuardianEntity.MINING_FATIGUE_AMPLIFIER; }
 // public static void MINING_FATIGUE_AMPLIFIER(int value, ) { net.minecraft.entity.mob.ElderGuardianEntity.MINING_FATIGUE_AMPLIFIER = value; }
 
+// public void method_7011(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.method_7011(player.wrapperContained); }
+// public static void method_7011(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.entity.mob.ElderGuardianEntity.method_7011(player.wrapperContained); }
 // public Object createElderGuardianAttributes() { return wrapperContained.createElderGuardianAttributes(); }
 public static Object createElderGuardianAttributes() { return net.minecraft.entity.mob.ElderGuardianEntity.createElderGuardianAttributes(); }
 

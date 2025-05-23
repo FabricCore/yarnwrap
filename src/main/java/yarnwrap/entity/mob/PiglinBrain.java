@@ -62,8 +62,6 @@ public static yarnwrap.item.Item BARTERING_ITEM() { return new yarnwrap.item.Ite
 // public static yarnwrap.entity.ai.brain.task.RandomTask makeRandomFollowTask() { return new yarnwrap.entity.ai.brain.task.RandomTask(net.minecraft.entity.mob.PiglinBrain.makeRandomFollowTask()); }
 // public yarnwrap.entity.ai.brain.task.RandomTask makeRandomWanderTask() { return new yarnwrap.entity.ai.brain.task.RandomTask(wrapperContained.makeRandomWanderTask()); }
 // public static yarnwrap.entity.ai.brain.task.RandomTask makeRandomWanderTask() { return new yarnwrap.entity.ai.brain.task.RandomTask(net.minecraft.entity.mob.PiglinBrain.makeRandomWanderTask()); }
-// public boolean wearsGoldArmor(yarnwrap.entity.LivingEntity entity) { return wrapperContained.wearsGoldArmor(entity.wrapperContained); }
-// public static boolean wearsGoldArmor(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.mob.PiglinBrain.wearsGoldArmor(entity.wrapperContained); }
 // public boolean method_24720(yarnwrap.entity.LivingEntity preferredTarget) { return wrapperContained.method_24720(preferredTarget.wrapperContained); }
 // public static boolean method_24720(yarnwrap.entity.LivingEntity preferredTarget, ) { return net.minecraft.entity.mob.PiglinBrain.method_24720(preferredTarget.wrapperContained); }
 // public void method_24721(yarnwrap.entity.LivingEntity piglinx) { wrapperContained.method_24721(piglinx.wrapperContained); }
@@ -72,26 +70,26 @@ public static yarnwrap.item.Item BARTERING_ITEM() { return new yarnwrap.item.Ite
 // public static void tickActivities(yarnwrap.entity.mob.PiglinEntity piglin, ) { net.minecraft.entity.mob.PiglinBrain.tickActivities(piglin.wrapperContained); }
 // public boolean canRide(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.Entity ridden) { return wrapperContained.canRide(piglin.wrapperContained,ridden.wrapperContained); }
 // public static boolean canRide(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.Entity ridden, ) { return net.minecraft.entity.mob.PiglinBrain.canRide(piglin.wrapperContained,ridden.wrapperContained); }
-// public void onAttacked(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity attacker) { wrapperContained.onAttacked(piglin.wrapperContained,attacker.wrapperContained); }
-// public static void onAttacked(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity attacker, ) { net.minecraft.entity.mob.PiglinBrain.onAttacked(piglin.wrapperContained,attacker.wrapperContained); }
-// public void addCoreActivities(yarnwrap.entity.ai.brain.Brain piglin) { wrapperContained.addCoreActivities(piglin.wrapperContained); }
-// public static void addCoreActivities(yarnwrap.entity.ai.brain.Brain piglin, ) { net.minecraft.entity.mob.PiglinBrain.addCoreActivities(piglin.wrapperContained); }
-// public void loot(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ItemEntity drop) { wrapperContained.loot(piglin.wrapperContained,drop.wrapperContained); }
-// public static void loot(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ItemEntity drop, ) { net.minecraft.entity.mob.PiglinBrain.loot(piglin.wrapperContained,drop.wrapperContained); }
+// public void onAttacked(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity attacker) { wrapperContained.onAttacked(world.wrapperContained,piglin.wrapperContained,attacker.wrapperContained); }
+// public static void onAttacked(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity attacker, ) { net.minecraft.entity.mob.PiglinBrain.onAttacked(world.wrapperContained,piglin.wrapperContained,attacker.wrapperContained); }
+// public void addCoreActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addCoreActivities(brain.wrapperContained); }
+// public static void addCoreActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.PiglinBrain.addCoreActivities(brain.wrapperContained); }
+// public void loot(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ItemEntity itemEntity) { wrapperContained.loot(world.wrapperContained,piglin.wrapperContained,itemEntity.wrapperContained); }
+// public static void loot(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ItemEntity itemEntity, ) { net.minecraft.entity.mob.PiglinBrain.loot(world.wrapperContained,piglin.wrapperContained,itemEntity.wrapperContained); }
 // public void dropBarteredItem(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.player.PlayerEntity player,java.util.List items) { wrapperContained.dropBarteredItem(piglin.wrapperContained,player.wrapperContained,items); }
 // public static void dropBarteredItem(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.player.PlayerEntity player,java.util.List items, ) { net.minecraft.entity.mob.PiglinBrain.dropBarteredItem(piglin.wrapperContained,player.wrapperContained,items); }
-// public yarnwrap.util.ActionResult playerInteract(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.Hand hand) { return new yarnwrap.util.ActionResult(wrapperContained.playerInteract(piglin.wrapperContained,player.wrapperContained,hand.wrapperContained)); }
-// public static yarnwrap.util.ActionResult playerInteract(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.Hand hand, ) { return new yarnwrap.util.ActionResult(net.minecraft.entity.mob.PiglinBrain.playerInteract(piglin.wrapperContained,player.wrapperContained,hand.wrapperContained)); }
+// public yarnwrap.util.ActionResult playerInteract(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.Hand hand) { return new yarnwrap.util.ActionResult(wrapperContained.playerInteract(world.wrapperContained,piglin.wrapperContained,player.wrapperContained,hand.wrapperContained)); }
+// public static yarnwrap.util.ActionResult playerInteract(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.Hand hand, ) { return new yarnwrap.util.ActionResult(net.minecraft.entity.mob.PiglinBrain.playerInteract(world.wrapperContained,piglin.wrapperContained,player.wrapperContained,hand.wrapperContained)); }
 // public boolean canGather(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.item.ItemStack stack) { return wrapperContained.canGather(piglin.wrapperContained,stack.wrapperContained); }
 // public static boolean canGather(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.mob.PiglinBrain.canGather(piglin.wrapperContained,stack.wrapperContained); }
 // public void drop(yarnwrap.entity.mob.PiglinEntity piglin,java.util.List items,yarnwrap.util.math.Vec3d pos) { wrapperContained.drop(piglin.wrapperContained,items,pos.wrapperContained); }
 // public static void drop(yarnwrap.entity.mob.PiglinEntity piglin,java.util.List items,yarnwrap.util.math.Vec3d pos, ) { net.minecraft.entity.mob.PiglinBrain.drop(piglin.wrapperContained,items,pos.wrapperContained); }
 // public yarnwrap.entity.ai.brain.Brain create(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ai.brain.Brain brain) { return new yarnwrap.entity.ai.brain.Brain(wrapperContained.create(piglin.wrapperContained,brain.wrapperContained)); }
 // public static yarnwrap.entity.ai.brain.Brain create(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ai.brain.Brain brain, ) { return new yarnwrap.entity.ai.brain.Brain(net.minecraft.entity.mob.PiglinBrain.create(piglin.wrapperContained,brain.wrapperContained)); }
-// public void onGuardedBlockInteracted(yarnwrap.entity.player.PlayerEntity player,boolean blockOpen) { wrapperContained.onGuardedBlockInteracted(player.wrapperContained,blockOpen); }
-// public static void onGuardedBlockInteracted(yarnwrap.entity.player.PlayerEntity player,boolean blockOpen, ) { net.minecraft.entity.mob.PiglinBrain.onGuardedBlockInteracted(player.wrapperContained,blockOpen); }
-// public void method_24734(yarnwrap.entity.player.PlayerEntity piglin) { wrapperContained.method_24734(piglin.wrapperContained); }
-// public static void method_24734(yarnwrap.entity.player.PlayerEntity piglin, ) { net.minecraft.entity.mob.PiglinBrain.method_24734(piglin.wrapperContained); }
+// public void onGuardedBlockInteracted(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.player.PlayerEntity player,boolean blockOpen) { wrapperContained.onGuardedBlockInteracted(world.wrapperContained,player.wrapperContained,blockOpen); }
+// public static void onGuardedBlockInteracted(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.player.PlayerEntity player,boolean blockOpen, ) { net.minecraft.entity.mob.PiglinBrain.onGuardedBlockInteracted(world.wrapperContained,player.wrapperContained,blockOpen); }
+// public void method_24734(yarnwrap.server.world.ServerWorld nearbyPiglin) { wrapperContained.method_24734(nearbyPiglin.wrapperContained); }
+// public static void method_24734(yarnwrap.server.world.ServerWorld nearbyPiglin, ) { net.minecraft.entity.mob.PiglinBrain.method_24734(nearbyPiglin.wrapperContained); }
 // public boolean isGoldenItem(yarnwrap.item.ItemStack stack) { return wrapperContained.isGoldenItem(stack.wrapperContained); }
 // public static boolean isGoldenItem(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.mob.PiglinBrain.isGoldenItem(stack.wrapperContained); }
 // public void setHuntedRecently(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.util.math.random.Random random) { wrapperContained.setHuntedRecently(piglin.wrapperContained,random.wrapperContained); }
@@ -104,12 +102,12 @@ public static yarnwrap.item.Item BARTERING_ITEM() { return new yarnwrap.item.Ite
 // public static boolean isGoldHoldingPlayer(yarnwrap.entity.LivingEntity target, ) { return net.minecraft.entity.mob.PiglinBrain.isGoldHoldingPlayer(target.wrapperContained); }
 // public void method_24740(yarnwrap.entity.LivingEntity nearbyPiglin) { wrapperContained.method_24740(nearbyPiglin.wrapperContained); }
 // public static void method_24740(yarnwrap.entity.LivingEntity nearbyPiglin, ) { net.minecraft.entity.mob.PiglinBrain.method_24740(nearbyPiglin.wrapperContained); }
-// public void consumeOffHandItem(yarnwrap.entity.mob.PiglinEntity piglin,boolean barter) { wrapperContained.consumeOffHandItem(piglin.wrapperContained,barter); }
-// public static void consumeOffHandItem(yarnwrap.entity.mob.PiglinEntity piglin,boolean barter, ) { net.minecraft.entity.mob.PiglinBrain.consumeOffHandItem(piglin.wrapperContained,barter); }
-// public void angerAtCloserTargets(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.angerAtCloserTargets(piglin.wrapperContained,target.wrapperContained); }
-// public static void angerAtCloserTargets(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.PiglinBrain.angerAtCloserTargets(piglin.wrapperContained,target.wrapperContained); }
-// public void addIdleActivities(yarnwrap.entity.ai.brain.Brain piglin) { wrapperContained.addIdleActivities(piglin.wrapperContained); }
-// public static void addIdleActivities(yarnwrap.entity.ai.brain.Brain piglin, ) { net.minecraft.entity.mob.PiglinBrain.addIdleActivities(piglin.wrapperContained); }
+// public void consumeOffHandItem(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,boolean barter) { wrapperContained.consumeOffHandItem(world.wrapperContained,piglin.wrapperContained,barter); }
+// public static void consumeOffHandItem(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,boolean barter, ) { net.minecraft.entity.mob.PiglinBrain.consumeOffHandItem(world.wrapperContained,piglin.wrapperContained,barter); }
+// public void angerAtCloserTargets(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.angerAtCloserTargets(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
+// public static void angerAtCloserTargets(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.PiglinBrain.angerAtCloserTargets(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
+// public void addIdleActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleActivities(brain.wrapperContained); }
+// public static void addIdleActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.PiglinBrain.addIdleActivities(brain.wrapperContained); }
 // public boolean method_24745(boolean piglin) { return wrapperContained.method_24745(piglin); }
 // public static boolean method_24745(boolean piglin, ) { return net.minecraft.entity.mob.PiglinBrain.method_24745(piglin); }
 // public boolean acceptsForBarter(yarnwrap.item.ItemStack stack) { return wrapperContained.acceptsForBarter(stack.wrapperContained); }
@@ -118,28 +116,28 @@ public static yarnwrap.item.Item BARTERING_ITEM() { return new yarnwrap.item.Ite
 // public static yarnwrap.entity.ai.brain.task.Task makeFleeFromZombifiedPiglinTask() { return new yarnwrap.entity.ai.brain.task.Task(net.minecraft.entity.mob.PiglinBrain.makeFleeFromZombifiedPiglinTask()); }
 // public boolean isHoldingCrossbow(yarnwrap.entity.LivingEntity piglin) { return wrapperContained.isHoldingCrossbow(piglin.wrapperContained); }
 // public static boolean isHoldingCrossbow(yarnwrap.entity.LivingEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.isHoldingCrossbow(piglin.wrapperContained); }
-// public void becomeAngryWith(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.becomeAngryWith(piglin.wrapperContained,target.wrapperContained); }
-// public static void becomeAngryWith(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.PiglinBrain.becomeAngryWith(piglin.wrapperContained,target.wrapperContained); }
+// public void becomeAngryWith(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.becomeAngryWith(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
+// public static void becomeAngryWith(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.PiglinBrain.becomeAngryWith(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
 // public void addFightActivities(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addFightActivities(piglin.wrapperContained,brain.wrapperContained); }
 // public static void addFightActivities(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.PiglinBrain.addFightActivities(piglin.wrapperContained,brain.wrapperContained); }
 // public boolean isFood(yarnwrap.item.ItemStack stack) { return wrapperContained.isFood(stack.wrapperContained); }
 // public static boolean isFood(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.mob.PiglinBrain.isFood(stack.wrapperContained); }
 // public void setAdmiringItem(yarnwrap.entity.LivingEntity entity) { wrapperContained.setAdmiringItem(entity.wrapperContained); }
 // public static void setAdmiringItem(yarnwrap.entity.LivingEntity entity, ) { net.minecraft.entity.mob.PiglinBrain.setAdmiringItem(entity.wrapperContained); }
-// public boolean isPreferredAttackTarget(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity target) { return wrapperContained.isPreferredAttackTarget(piglin.wrapperContained,target.wrapperContained); }
-// public static boolean isPreferredAttackTarget(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { return net.minecraft.entity.mob.PiglinBrain.isPreferredAttackTarget(piglin.wrapperContained,target.wrapperContained); }
+// public boolean isPreferredAttackTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity target) { return wrapperContained.isPreferredAttackTarget(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
+// public static boolean isPreferredAttackTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { return net.minecraft.entity.mob.PiglinBrain.isPreferredAttackTarget(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
 // public void addCelebrateActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addCelebrateActivities(brain.wrapperContained); }
 // public static void addCelebrateActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.PiglinBrain.addCelebrateActivities(brain.wrapperContained); }
-// public void tryRevenge(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.tryRevenge(piglin.wrapperContained,target.wrapperContained); }
-// public static void tryRevenge(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.PiglinBrain.tryRevenge(piglin.wrapperContained,target.wrapperContained); }
+// public void tryRevenge(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.tryRevenge(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
+// public static void tryRevenge(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.PiglinBrain.tryRevenge(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
 // public void addAdmireItemActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addAdmireItemActivities(brain.wrapperContained); }
 // public static void addAdmireItemActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.PiglinBrain.addAdmireItemActivities(brain.wrapperContained); }
 // public boolean hasPlayerHoldingWantedItemNearby(yarnwrap.entity.LivingEntity entity) { return wrapperContained.hasPlayerHoldingWantedItemNearby(entity.wrapperContained); }
 // public static boolean hasPlayerHoldingWantedItemNearby(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.mob.PiglinBrain.hasPlayerHoldingWantedItemNearby(entity.wrapperContained); }
 // public void rememberHunting(yarnwrap.entity.mob.AbstractPiglinEntity piglin) { wrapperContained.rememberHunting(piglin.wrapperContained); }
 // public static void rememberHunting(yarnwrap.entity.mob.AbstractPiglinEntity piglin, ) { net.minecraft.entity.mob.PiglinBrain.rememberHunting(piglin.wrapperContained); }
-// public void angerAtIfCloser(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.angerAtIfCloser(piglin.wrapperContained,target.wrapperContained); }
-// public static void angerAtIfCloser(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.PiglinBrain.angerAtIfCloser(piglin.wrapperContained,target.wrapperContained); }
+// public void angerAtIfCloser(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.angerAtIfCloser(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
+// public static void angerAtIfCloser(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.PiglinBrain.angerAtIfCloser(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
 // public void addAvoidActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addAvoidActivities(brain.wrapperContained); }
 // public static void addAvoidActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.PiglinBrain.addAvoidActivities(brain.wrapperContained); }
 // public boolean canWander(yarnwrap.entity.LivingEntity piglin) { return wrapperContained.canWander(piglin.wrapperContained); }
@@ -160,12 +158,12 @@ public static yarnwrap.item.Item BARTERING_ITEM() { return new yarnwrap.item.Ite
 // public static void runAwayFrom(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.PiglinBrain.runAwayFrom(piglin.wrapperContained,target.wrapperContained); }
 // public void dropBarteredItem(yarnwrap.entity.mob.PiglinEntity piglin,java.util.List items) { wrapperContained.dropBarteredItem(piglin.wrapperContained,items); }
 // public static void dropBarteredItem(yarnwrap.entity.mob.PiglinEntity piglin,java.util.List items, ) { net.minecraft.entity.mob.PiglinBrain.dropBarteredItem(piglin.wrapperContained,items); }
-// public boolean method_24775(yarnwrap.entity.mob.PiglinEntity target) { return wrapperContained.method_24775(target.wrapperContained); }
-// public static boolean method_24775(yarnwrap.entity.mob.PiglinEntity target, ) { return net.minecraft.entity.mob.PiglinBrain.method_24775(target.wrapperContained); }
+// public boolean method_24775(yarnwrap.entity.mob.PiglinEntity world,yarnwrap.server.world.ServerWorld target) { return wrapperContained.method_24775(world.wrapperContained,target.wrapperContained); }
+// public static boolean method_24775(yarnwrap.entity.mob.PiglinEntity world,yarnwrap.server.world.ServerWorld target, ) { return net.minecraft.entity.mob.PiglinBrain.method_24775(world.wrapperContained,target.wrapperContained); }
 // public java.util.List getBarteredItem(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getBarteredItem(piglin.wrapperContained); }
 // public static java.util.List getBarteredItem(yarnwrap.entity.mob.PiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.getBarteredItem(piglin.wrapperContained); }
-// public java.util.Optional getPreferredTarget(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getPreferredTarget(piglin.wrapperContained); }
-// public static java.util.Optional getPreferredTarget(yarnwrap.entity.mob.PiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.getPreferredTarget(piglin.wrapperContained); }
+// public java.util.Optional getPreferredTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getPreferredTarget(world.wrapperContained,piglin.wrapperContained); }
+// public static java.util.Optional getPreferredTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.getPreferredTarget(world.wrapperContained,piglin.wrapperContained); }
 // public java.util.List getNearbyVisiblePiglins(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getNearbyVisiblePiglins(piglin.wrapperContained); }
 // public static java.util.List getNearbyVisiblePiglins(yarnwrap.entity.mob.PiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.getNearbyVisiblePiglins(piglin.wrapperContained); }
 // public void stopWalking(yarnwrap.entity.mob.PiglinEntity piglin) { wrapperContained.stopWalking(piglin.wrapperContained); }
@@ -196,8 +194,8 @@ public static yarnwrap.item.Item BARTERING_ITEM() { return new yarnwrap.item.Ite
 // public static boolean doesNotHaveGoldInOffHand(yarnwrap.entity.mob.PiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.doesNotHaveGoldInOffHand(piglin.wrapperContained); }
 // public boolean hasItemInOffHand(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.hasItemInOffHand(piglin.wrapperContained); }
 // public static boolean hasItemInOffHand(yarnwrap.entity.mob.PiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.hasItemInOffHand(piglin.wrapperContained); }
-// public void pickupItemWithOffHand(yarnwrap.entity.mob.PiglinEntity piglin) { wrapperContained.pickupItemWithOffHand(piglin.wrapperContained); }
-// public static void pickupItemWithOffHand(yarnwrap.entity.mob.PiglinEntity piglin, ) { net.minecraft.entity.mob.PiglinBrain.pickupItemWithOffHand(piglin.wrapperContained); }
+// public void pickupItemWithOffHand(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin) { wrapperContained.pickupItemWithOffHand(world.wrapperContained,piglin.wrapperContained); }
+// public static void pickupItemWithOffHand(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin, ) { net.minecraft.entity.mob.PiglinBrain.pickupItemWithOffHand(world.wrapperContained,piglin.wrapperContained); }
 // public java.util.List getNearbyPiglins(yarnwrap.entity.mob.AbstractPiglinEntity piglin) { return wrapperContained.getNearbyPiglins(piglin.wrapperContained); }
 // public static java.util.List getNearbyPiglins(yarnwrap.entity.mob.AbstractPiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.getNearbyPiglins(piglin.wrapperContained); }
 // public boolean isWillingToTrade(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.item.ItemStack nearbyItems) { return wrapperContained.isWillingToTrade(piglin.wrapperContained,nearbyItems.wrapperContained); }
@@ -218,22 +216,22 @@ public static yarnwrap.item.Item BARTERING_ITEM() { return new yarnwrap.item.Ite
 // public static boolean getNearestZombifiedPiglin(yarnwrap.entity.mob.PiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.getNearestZombifiedPiglin(piglin.wrapperContained); }
 // public boolean hasTargetToAvoid(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.hasTargetToAvoid(piglin.wrapperContained); }
 // public static boolean hasTargetToAvoid(yarnwrap.entity.mob.PiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.hasTargetToAvoid(piglin.wrapperContained); }
-// public void method_29943(yarnwrap.entity.mob.AbstractPiglinEntity nearbyPiglin) { wrapperContained.method_29943(nearbyPiglin.wrapperContained); }
-// public static void method_29943(yarnwrap.entity.mob.AbstractPiglinEntity nearbyPiglin, ) { net.minecraft.entity.mob.PiglinBrain.method_29943(nearbyPiglin.wrapperContained); }
-// public void method_29944(yarnwrap.entity.mob.AbstractPiglinEntity player) { wrapperContained.method_29944(player.wrapperContained); }
-// public static void method_29944(yarnwrap.entity.mob.AbstractPiglinEntity player, ) { net.minecraft.entity.mob.PiglinBrain.method_29944(player.wrapperContained); }
-// public void angerNearbyPiglins(yarnwrap.entity.mob.AbstractPiglinEntity piglin) { wrapperContained.angerNearbyPiglins(piglin.wrapperContained); }
-// public static void angerNearbyPiglins(yarnwrap.entity.mob.AbstractPiglinEntity piglin, ) { net.minecraft.entity.mob.PiglinBrain.angerNearbyPiglins(piglin.wrapperContained); }
-// public void becomeAngryWithPlayer(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity player) { wrapperContained.becomeAngryWithPlayer(piglin.wrapperContained,player.wrapperContained); }
-// public static void becomeAngryWithPlayer(yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity player, ) { net.minecraft.entity.mob.PiglinBrain.becomeAngryWithPlayer(piglin.wrapperContained,player.wrapperContained); }
+// public void method_29943(yarnwrap.server.world.ServerWorld nearbyPiglin) { wrapperContained.method_29943(nearbyPiglin.wrapperContained); }
+// public static void method_29943(yarnwrap.server.world.ServerWorld nearbyPiglin, ) { net.minecraft.entity.mob.PiglinBrain.method_29943(nearbyPiglin.wrapperContained); }
+// public void method_29944(yarnwrap.server.world.ServerWorld player) { wrapperContained.method_29944(player.wrapperContained); }
+// public static void method_29944(yarnwrap.server.world.ServerWorld player, ) { net.minecraft.entity.mob.PiglinBrain.method_29944(player.wrapperContained); }
+// public void angerNearbyPiglins(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin) { wrapperContained.angerNearbyPiglins(world.wrapperContained,piglin.wrapperContained); }
+// public static void angerNearbyPiglins(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin, ) { net.minecraft.entity.mob.PiglinBrain.angerNearbyPiglins(world.wrapperContained,piglin.wrapperContained); }
+// public void becomeAngryWithPlayer(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target) { wrapperContained.becomeAngryWithPlayer(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
+// public static void becomeAngryWithPlayer(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.AbstractPiglinEntity piglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.PiglinBrain.becomeAngryWithPlayer(world.wrapperContained,piglin.wrapperContained,target.wrapperContained); }
 // public java.util.Optional getNearestDetectedPlayer(yarnwrap.entity.mob.AbstractPiglinEntity piglin) { return wrapperContained.getNearestDetectedPlayer(piglin.wrapperContained); }
 // public static java.util.Optional getNearestDetectedPlayer(yarnwrap.entity.mob.AbstractPiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.getNearestDetectedPlayer(piglin.wrapperContained); }
 // public yarnwrap.sound.SoundEvent getSound(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ai.brain.Activity activity) { return new yarnwrap.sound.SoundEvent(wrapperContained.getSound(piglin.wrapperContained,activity.wrapperContained)); }
 // public static yarnwrap.sound.SoundEvent getSound(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.entity.ai.brain.Activity activity, ) { return new yarnwrap.sound.SoundEvent(net.minecraft.entity.mob.PiglinBrain.getSound(piglin.wrapperContained,activity.wrapperContained)); }
 // public yarnwrap.sound.SoundEvent method_30088(yarnwrap.entity.mob.PiglinEntity activity) { return new yarnwrap.sound.SoundEvent(wrapperContained.method_30088(activity.wrapperContained)); }
 // public static yarnwrap.sound.SoundEvent method_30088(yarnwrap.entity.mob.PiglinEntity activity, ) { return new yarnwrap.sound.SoundEvent(net.minecraft.entity.mob.PiglinBrain.method_30088(activity.wrapperContained)); }
-// public void swapItemWithOffHand(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.item.ItemStack stack) { wrapperContained.swapItemWithOffHand(piglin.wrapperContained,stack.wrapperContained); }
-// public static void swapItemWithOffHand(yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.mob.PiglinBrain.swapItemWithOffHand(piglin.wrapperContained,stack.wrapperContained); }
+// public void swapItemWithOffHand(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.item.ItemStack stack) { wrapperContained.swapItemWithOffHand(world.wrapperContained,piglin.wrapperContained,stack.wrapperContained); }
+// public static void swapItemWithOffHand(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity piglin,yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.mob.PiglinBrain.swapItemWithOffHand(world.wrapperContained,piglin.wrapperContained,stack.wrapperContained); }
 // public yarnwrap.entity.ai.brain.task.Task goToNemesisTask() { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.goToNemesisTask()); }
 // public static yarnwrap.entity.ai.brain.task.Task goToNemesisTask() { return new yarnwrap.entity.ai.brain.task.Task(net.minecraft.entity.mob.PiglinBrain.goToNemesisTask()); }
 // public java.util.Optional getCurrentActivitySound(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.getCurrentActivitySound(piglin.wrapperContained); }
@@ -244,5 +242,13 @@ public static yarnwrap.item.Item BARTERING_ITEM() { return new yarnwrap.item.Ite
 // public static com.google.common.collect.ImmutableList makeFollowTasks() { return net.minecraft.entity.mob.PiglinBrain.makeFollowTasks(); }
 // public boolean method_47273(Object entity) { return wrapperContained.method_47273(entity); }
 // public static boolean method_47273(Object entity, ) { return net.minecraft.entity.mob.PiglinBrain.method_47273(entity); }
+// public boolean method_47274(yarnwrap.entity.mob.PiglinEntity piglin) { return wrapperContained.method_47274(piglin.wrapperContained); }
+// public static boolean method_47274(yarnwrap.entity.mob.PiglinEntity piglin, ) { return net.minecraft.entity.mob.PiglinBrain.method_47274(piglin.wrapperContained); }
+// public boolean isWearingPiglinSafeArmor(yarnwrap.entity.LivingEntity entity) { return wrapperContained.isWearingPiglinSafeArmor(entity.wrapperContained); }
+// public static boolean isWearingPiglinSafeArmor(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.mob.PiglinBrain.isWearingPiglinSafeArmor(entity.wrapperContained); }
+// public boolean method_64473(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity target) { return wrapperContained.method_64473(world.wrapperContained,target.wrapperContained); }
+// public static boolean method_64473(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity target, ) { return net.minecraft.entity.mob.PiglinBrain.method_64473(world.wrapperContained,target.wrapperContained); }
+// public boolean method_64474(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity target) { return wrapperContained.method_64474(world.wrapperContained,target.wrapperContained); }
+// public static boolean method_64474(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.PiglinEntity target, ) { return net.minecraft.entity.mob.PiglinBrain.method_64474(world.wrapperContained,target.wrapperContained); }
 
 }

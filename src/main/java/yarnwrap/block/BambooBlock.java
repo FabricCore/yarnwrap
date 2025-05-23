@@ -1,11 +1,6 @@
 package yarnwrap.block;
 public class BambooBlock { public net.minecraft.block.BambooBlock wrapperContained; public BambooBlock(net.minecraft.block.BambooBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
-// public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
-public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.BambooBlock.CODEC; }
-// public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.BambooBlock.CODEC = value; }
-
 // public yarnwrap.util.shape.VoxelShape SMALL_LEAVES_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.SMALL_LEAVES_SHAPE); }
 // public void SMALL_LEAVES_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.SMALL_LEAVES_SHAPE = value.wrapperContained; }
 // public static yarnwrap.util.shape.VoxelShape SMALL_LEAVES_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.BambooBlock.SMALL_LEAVES_SHAPE); }
@@ -35,6 +30,11 @@ public static yarnwrap.state.property.IntProperty STAGE() { return new yarnwrap.
 // public void LEAVES(yarnwrap.state.property.EnumProperty value) { wrapperContained.LEAVES = value.wrapperContained; }
 public static yarnwrap.state.property.EnumProperty LEAVES() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.BambooBlock.LEAVES); }
 // public static void LEAVES(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.BambooBlock.LEAVES = value.wrapperContained; }
+
+// public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.BambooBlock.CODEC; }
+// public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.BambooBlock.CODEC = value; }
 
 // public void updateLeaves(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random,int height) { wrapperContained.updateLeaves(state.wrapperContained,world.wrapperContained,pos.wrapperContained,random.wrapperContained,height); }
 // public static void updateLeaves(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random,int height, ) { net.minecraft.block.BambooBlock.updateLeaves(state.wrapperContained,world.wrapperContained,pos.wrapperContained,random.wrapperContained,height); }

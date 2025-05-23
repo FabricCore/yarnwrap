@@ -16,7 +16,12 @@ public class TickTimeTracker { public net.minecraft.util.profiler.TickTimeTracke
 // public static yarnwrap.util.profiler.ReadableProfiler profiler() { return new yarnwrap.util.profiler.ReadableProfiler(net.minecraft.util.profiler.TickTimeTracker.profiler); }
 // public static void profiler(yarnwrap.util.profiler.ReadableProfiler value, ) { net.minecraft.util.profiler.TickTimeTracker.profiler = value.wrapperContained; }
 
-public TickTimeTracker(java.util.function.LongSupplier timeGetter,java.util.function.IntSupplier tickGetter) { this.wrapperContained = new net.minecraft.util.profiler.TickTimeTracker(timeGetter,tickGetter); }
+// public java.util.function.BooleanSupplier timeoutDisabled() { return wrapperContained.timeoutDisabled; }
+// public void timeoutDisabled(java.util.function.BooleanSupplier value) { wrapperContained.timeoutDisabled = value; }
+// public static java.util.function.BooleanSupplier timeoutDisabled() { return net.minecraft.util.profiler.TickTimeTracker.timeoutDisabled; }
+// public static void timeoutDisabled(java.util.function.BooleanSupplier value, ) { net.minecraft.util.profiler.TickTimeTracker.timeoutDisabled = value; }
+
+public TickTimeTracker(java.util.function.LongSupplier timeGetter,java.util.function.IntSupplier tickGetter,java.util.function.BooleanSupplier timeoutDisabled) { this.wrapperContained = new net.minecraft.util.profiler.TickTimeTracker(timeGetter,tickGetter,timeoutDisabled); }
 public boolean isActive() { return wrapperContained.isActive(); }
 // public static boolean isActive() { return net.minecraft.util.profiler.TickTimeTracker.isActive(); }
 public void disable() { wrapperContained.disable(); }

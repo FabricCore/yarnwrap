@@ -11,25 +11,10 @@ public static yarnwrap.state.property.BooleanProperty WEST() { return new yarnwr
 public static java.util.Map FACING_PROPERTIES() { return net.minecraft.block.VineBlock.FACING_PROPERTIES; }
 // public static void FACING_PROPERTIES(java.util.Map value, ) { net.minecraft.block.VineBlock.FACING_PROPERTIES = value; }
 
-// public yarnwrap.util.shape.VoxelShape UP_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.UP_SHAPE); }
-// public void UP_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.UP_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape UP_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.VineBlock.UP_SHAPE); }
-// public static void UP_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.VineBlock.UP_SHAPE = value.wrapperContained; }
-
 // public yarnwrap.state.property.BooleanProperty SOUTH() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.SOUTH); }
 // public void SOUTH(yarnwrap.state.property.BooleanProperty value) { wrapperContained.SOUTH = value.wrapperContained; }
 public static yarnwrap.state.property.BooleanProperty SOUTH() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.VineBlock.SOUTH); }
 // public static void SOUTH(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.VineBlock.SOUTH = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape NORTH_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.NORTH_SHAPE); }
-// public void NORTH_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.NORTH_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape NORTH_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.VineBlock.NORTH_SHAPE); }
-// public static void NORTH_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.VineBlock.NORTH_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape SOUTH_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.SOUTH_SHAPE); }
-// public void SOUTH_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.SOUTH_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape SOUTH_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.VineBlock.SOUTH_SHAPE); }
-// public static void SOUTH_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.VineBlock.SOUTH_SHAPE = value.wrapperContained; }
 
 // public yarnwrap.state.property.BooleanProperty EAST() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.EAST); }
 // public void EAST(yarnwrap.state.property.BooleanProperty value) { wrapperContained.EAST = value.wrapperContained; }
@@ -41,30 +26,20 @@ public static yarnwrap.state.property.BooleanProperty EAST() { return new yarnwr
 public static yarnwrap.state.property.BooleanProperty UP() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.VineBlock.UP); }
 // public static void UP(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.VineBlock.UP = value.wrapperContained; }
 
-// public yarnwrap.util.shape.VoxelShape EAST_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.EAST_SHAPE); }
-// public void EAST_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.EAST_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape EAST_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.VineBlock.EAST_SHAPE); }
-// public static void EAST_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.VineBlock.EAST_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape WEST_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.WEST_SHAPE); }
-// public void WEST_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.WEST_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape WEST_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.VineBlock.WEST_SHAPE); }
-// public static void WEST_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.VineBlock.WEST_SHAPE = value.wrapperContained; }
-
 // public yarnwrap.state.property.BooleanProperty NORTH() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.NORTH); }
 // public void NORTH(yarnwrap.state.property.BooleanProperty value) { wrapperContained.NORTH = value.wrapperContained; }
 public static yarnwrap.state.property.BooleanProperty NORTH() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.VineBlock.NORTH); }
 // public static void NORTH(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.VineBlock.NORTH = value.wrapperContained; }
 
-// public java.util.Map shapesByState() { return wrapperContained.shapesByState; }
-// public void shapesByState(java.util.Map value) { wrapperContained.shapesByState = value; }
-// public static java.util.Map shapesByState() { return net.minecraft.block.VineBlock.shapesByState; }
-// public static void shapesByState(java.util.Map value, ) { net.minecraft.block.VineBlock.shapesByState = value; }
-
 // public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.VineBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.VineBlock.CODEC = value; }
+
+// public java.util.function.Function shapeFunction() { return wrapperContained.shapeFunction; }
+// public void shapeFunction(java.util.function.Function value) { wrapperContained.shapeFunction = value; }
+// public static java.util.function.Function shapeFunction() { return net.minecraft.block.VineBlock.shapeFunction; }
+// public static void shapeFunction(java.util.function.Function value, ) { net.minecraft.block.VineBlock.shapeFunction = value; }
 
 // public yarnwrap.block.BlockState getGrownState(yarnwrap.block.BlockState above,yarnwrap.block.BlockState state,yarnwrap.util.math.random.Random random) { return new yarnwrap.block.BlockState(wrapperContained.getGrownState(above.wrapperContained,state.wrapperContained,random.wrapperContained)); }
 // public static yarnwrap.block.BlockState getGrownState(yarnwrap.block.BlockState above,yarnwrap.block.BlockState state,yarnwrap.util.math.random.Random random, ) { return new yarnwrap.block.BlockState(net.minecraft.block.VineBlock.getGrownState(above.wrapperContained,state.wrapperContained,random.wrapperContained)); }
@@ -86,7 +61,9 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static boolean shouldHaveSide(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction side, ) { return net.minecraft.block.VineBlock.shouldHaveSide(world.wrapperContained,pos.wrapperContained,side.wrapperContained); }
 // public boolean hasHorizontalSide(yarnwrap.block.BlockState state) { return wrapperContained.hasHorizontalSide(state.wrapperContained); }
 // public static boolean hasHorizontalSide(yarnwrap.block.BlockState state, ) { return net.minecraft.block.VineBlock.hasHorizontalSide(state.wrapperContained); }
-// public yarnwrap.util.shape.VoxelShape getShapeForState(yarnwrap.block.BlockState state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getShapeForState(state.wrapperContained)); }
-// public static yarnwrap.util.shape.VoxelShape getShapeForState(yarnwrap.block.BlockState state, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.VineBlock.getShapeForState(state.wrapperContained)); }
+// public yarnwrap.util.shape.VoxelShape method_66470(java.util.Map state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_66470(state)); }
+// public static yarnwrap.util.shape.VoxelShape method_66470(java.util.Map state, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.VineBlock.method_66470(state)); }
+// public java.util.function.Function createShapeFunction() { return wrapperContained.createShapeFunction(); }
+// public static java.util.function.Function createShapeFunction() { return net.minecraft.block.VineBlock.createShapeFunction(); }
 
 }

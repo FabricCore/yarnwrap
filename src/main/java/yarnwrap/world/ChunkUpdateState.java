@@ -11,15 +11,15 @@ public class ChunkUpdateState { public net.minecraft.world.ChunkUpdateState wrap
 // public static it.unimi.dsi.fastutil.longs.LongSet remaining() { return net.minecraft.world.ChunkUpdateState.remaining; }
 // public static void remaining(it.unimi.dsi.fastutil.longs.LongSet value, ) { net.minecraft.world.ChunkUpdateState.remaining = value; }
 
-// public java.lang.String REMAINING_KEY() { return wrapperContained.REMAINING_KEY; }
-// public void REMAINING_KEY(java.lang.String value) { wrapperContained.REMAINING_KEY = value; }
-// public static java.lang.String REMAINING_KEY() { return net.minecraft.world.ChunkUpdateState.REMAINING_KEY; }
-// public static void REMAINING_KEY(java.lang.String value, ) { net.minecraft.world.ChunkUpdateState.REMAINING_KEY = value; }
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.world.ChunkUpdateState.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.world.ChunkUpdateState.CODEC = value; }
 
-// public java.lang.String ALL_KEY() { return wrapperContained.ALL_KEY; }
-// public void ALL_KEY(java.lang.String value) { wrapperContained.ALL_KEY = value; }
-// public static java.lang.String ALL_KEY() { return net.minecraft.world.ChunkUpdateState.ALL_KEY; }
-// public static void ALL_KEY(java.lang.String value, ) { net.minecraft.world.ChunkUpdateState.ALL_KEY = value; }
+// public com.mojang.serialization.Codec LONG_SET_CODEC() { return wrapperContained.LONG_SET_CODEC; }
+// public void LONG_SET_CODEC(com.mojang.serialization.Codec value) { wrapperContained.LONG_SET_CODEC = value; }
+// public static com.mojang.serialization.Codec LONG_SET_CODEC() { return net.minecraft.world.ChunkUpdateState.LONG_SET_CODEC; }
+// public static void LONG_SET_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.world.ChunkUpdateState.LONG_SET_CODEC = value; }
 
 // public ChunkUpdateState(it.unimi.dsi.fastutil.longs.LongSet all,it.unimi.dsi.fastutil.longs.LongSet remaining) { this.wrapperContained = new net.minecraft.world.ChunkUpdateState(all,remaining); }
 public boolean isRemaining(long pos) { return wrapperContained.isRemaining(pos); }
@@ -32,9 +32,13 @@ public boolean contains(long pos) { return wrapperContained.contains(pos); }
 // public static boolean contains(long pos, ) { return net.minecraft.world.ChunkUpdateState.contains(pos); }
 public it.unimi.dsi.fastutil.longs.LongSet getAll() { return wrapperContained.getAll(); }
 // public static it.unimi.dsi.fastutil.longs.LongSet getAll() { return net.minecraft.world.ChunkUpdateState.getAll(); }
-// public yarnwrap.world.ChunkUpdateState fromNbt(yarnwrap.nbt.NbtCompound nbt,Object registryLookup) { return new yarnwrap.world.ChunkUpdateState(wrapperContained.fromNbt(nbt.wrapperContained,registryLookup)); }
-// public static yarnwrap.world.ChunkUpdateState fromNbt(yarnwrap.nbt.NbtCompound nbt,Object registryLookup, ) { return new yarnwrap.world.ChunkUpdateState(net.minecraft.world.ChunkUpdateState.fromNbt(nbt.wrapperContained,registryLookup)); }
-// public Object getPersistentStateType() { return wrapperContained.getPersistentStateType(); }
-public static Object getPersistentStateType() { return net.minecraft.world.ChunkUpdateState.getPersistentStateType(); }
+// public com.mojang.datafixers.kinds.App method_67410(Object instance) { return wrapperContained.method_67410(instance); }
+// public static com.mojang.datafixers.kinds.App method_67410(Object instance, ) { return net.minecraft.world.ChunkUpdateState.method_67410(instance); }
+// public it.unimi.dsi.fastutil.longs.LongSet method_67411(yarnwrap.world.ChunkUpdateState state) { return wrapperContained.method_67411(state.wrapperContained); }
+// public static it.unimi.dsi.fastutil.longs.LongSet method_67411(yarnwrap.world.ChunkUpdateState state, ) { return net.minecraft.world.ChunkUpdateState.method_67411(state.wrapperContained); }
+// public yarnwrap.world.PersistentStateType createStateType(java.lang.String id) { return new yarnwrap.world.PersistentStateType(wrapperContained.createStateType(id)); }
+// public static yarnwrap.world.PersistentStateType createStateType(java.lang.String id, ) { return new yarnwrap.world.PersistentStateType(net.minecraft.world.ChunkUpdateState.createStateType(id)); }
+// public it.unimi.dsi.fastutil.longs.LongSet method_67413(yarnwrap.world.ChunkUpdateState state) { return wrapperContained.method_67413(state.wrapperContained); }
+// public static it.unimi.dsi.fastutil.longs.LongSet method_67413(yarnwrap.world.ChunkUpdateState state, ) { return net.minecraft.world.ChunkUpdateState.method_67413(state.wrapperContained); }
 
 }

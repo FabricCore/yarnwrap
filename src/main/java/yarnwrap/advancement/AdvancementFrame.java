@@ -22,11 +22,11 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.adva
 // public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.advancement.AdvancementFrame.CODEC = value; }
 
 // // public AdvancementFrame(java.lang.String id,int titleFormat) { this.wrapperContained = new net.minecraft.advancement.AdvancementFrame(id,titleFormat); }
+public yarnwrap.util.Formatting getTitleFormat() { return new yarnwrap.util.Formatting(wrapperContained.getTitleFormat()); }
+// public static yarnwrap.util.Formatting getTitleFormat() { return new yarnwrap.util.Formatting(net.minecraft.advancement.AdvancementFrame.getTitleFormat()); }
 public yarnwrap.text.Text getToastText() { return new yarnwrap.text.Text(wrapperContained.getToastText()); }
 // public static yarnwrap.text.Text getToastText() { return new yarnwrap.text.Text(net.minecraft.advancement.AdvancementFrame.getToastText()); }
 public yarnwrap.text.MutableText getChatAnnouncementText(yarnwrap.advancement.AdvancementEntry advancementEntry,yarnwrap.server.network.ServerPlayerEntity player) { return new yarnwrap.text.MutableText(wrapperContained.getChatAnnouncementText(advancementEntry.wrapperContained,player.wrapperContained)); }
 // public static yarnwrap.text.MutableText getChatAnnouncementText(yarnwrap.advancement.AdvancementEntry advancementEntry,yarnwrap.server.network.ServerPlayerEntity player, ) { return new yarnwrap.text.MutableText(net.minecraft.advancement.AdvancementFrame.getChatAnnouncementText(advancementEntry.wrapperContained,player.wrapperContained)); }
-public yarnwrap.util.Formatting getTitleFormat() { return new yarnwrap.util.Formatting(wrapperContained.getTitleFormat()); }
-// public static yarnwrap.util.Formatting getTitleFormat() { return new yarnwrap.util.Formatting(net.minecraft.advancement.AdvancementFrame.getTitleFormat()); }
 
 }

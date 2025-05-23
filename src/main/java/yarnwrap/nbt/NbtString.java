@@ -1,11 +1,6 @@
 package yarnwrap.nbt;
 public class NbtString { public net.minecraft.nbt.NbtString wrapperContained; public NbtString(net.minecraft.nbt.NbtString wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.lang.String value() { return wrapperContained.value; }
-// public void value(java.lang.String value) { wrapperContained.value = value; }
-// public static java.lang.String value() { return net.minecraft.nbt.NbtString.value; }
-// public static void value(java.lang.String value, ) { net.minecraft.nbt.NbtString.value = value; }
-
 // public yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(wrapperContained.TYPE); }
 // public void TYPE(yarnwrap.nbt.NbtType value) { wrapperContained.TYPE = value.wrapperContained; }
 public static yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(net.minecraft.nbt.NbtString.TYPE); }
@@ -41,7 +36,7 @@ public static yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(net.
 // public static int SIZE() { return net.minecraft.nbt.NbtString.SIZE; }
 // public static void SIZE(int value, ) { net.minecraft.nbt.NbtString.SIZE = value; }
 
-// public NbtString(java.lang.String value) { this.wrapperContained = new net.minecraft.nbt.NbtString(value); }
+public NbtString(java.lang.String value) { this.wrapperContained = new net.minecraft.nbt.NbtString(value); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.nbt.NbtString.equals(o); }
 // public java.lang.String escape(java.lang.String value) { return wrapperContained.escape(value); }
@@ -50,5 +45,7 @@ public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static yarnwrap.nbt.NbtString of(java.lang.String value, ) { return new yarnwrap.nbt.NbtString(net.minecraft.nbt.NbtString.of(value)); }
 // public void skip(java.io.DataInput input) { wrapperContained.skip(input); }
 // public static void skip(java.io.DataInput input, ) { net.minecraft.nbt.NbtString.skip(input); }
+// public void appendEscaped(java.lang.String value,java.lang.StringBuilder builder) { wrapperContained.appendEscaped(value,builder); }
+// public static void appendEscaped(java.lang.String value,java.lang.StringBuilder builder, ) { net.minecraft.nbt.NbtString.appendEscaped(value,builder); }
 
 }

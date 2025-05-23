@@ -46,8 +46,6 @@ public class SuffixArray { public net.minecraft.client.search.SuffixArray wrappe
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.client.search.SuffixArray.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.search.SuffixArray.LOGGER = value; }
 
-// public int method_38937(int a,int b) { return wrapperContained.method_38937(a,b); }
-// public static int method_38937(int a,int b, ) { return net.minecraft.client.search.SuffixArray.method_38937(a,b); }
 // public void method_4803(int i,int j) { wrapperContained.method_4803(i,j); }
 // public static void method_4803(int i,int j, ) { net.minecraft.client.search.SuffixArray.method_4803(i,j); }
 public java.util.List findAll(java.lang.String text) { return wrapperContained.findAll(text); }
@@ -62,5 +60,7 @@ public void build() { wrapperContained.build(); }
 // public static java.lang.String getDebugString(int suffixIndex, ) { return net.minecraft.client.search.SuffixArray.getDebugString(suffixIndex); }
 // public void printArray() { wrapperContained.printArray(); }
 // public static void printArray() { net.minecraft.client.search.SuffixArray.printArray(); }
+// public int method_38937(int a,int b) { return wrapperContained.method_38937(a,b); }
+// public static int method_38937(int a,int b, ) { return net.minecraft.client.search.SuffixArray.method_38937(a,b); }
 
 }

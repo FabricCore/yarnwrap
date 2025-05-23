@@ -12,8 +12,6 @@ public static java.lang.String FILTERED_CORRECT() { return net.minecraft.datafix
 // public static void DEFAULT_COLOR(java.lang.String value, ) { net.minecraft.datafixer.fix.UpdateSignTextFormatFix.DEFAULT_COLOR = value; }
 
 public UpdateSignTextFormatFix(com.mojang.datafixers.schemas.Schema outputSchema,java.lang.String name,java.lang.String blockEntityId) { this.wrapperContained = new net.minecraft.datafixer.fix.UpdateSignTextFormatFix(outputSchema,name,blockEntityId); }
-// public com.mojang.serialization.Dynamic updateSignTextFormat(com.mojang.serialization.Dynamic signData) { return wrapperContained.updateSignTextFormat(signData); }
-// public static com.mojang.serialization.Dynamic updateSignTextFormat(com.mojang.serialization.Dynamic signData, ) { return net.minecraft.datafixer.fix.UpdateSignTextFormatFix.updateSignTextFormat(signData); }
 // public java.util.stream.Stream streamKeys(com.mojang.serialization.Dynamic signData,java.lang.String prefix) { return wrapperContained.streamKeys(signData,prefix); }
 // public static java.util.stream.Stream streamKeys(com.mojang.serialization.Dynamic signData,java.lang.String prefix, ) { return net.minecraft.datafixer.fix.UpdateSignTextFormatFix.streamKeys(signData,prefix); }
 // public com.mojang.serialization.Dynamic method_52470(com.mojang.serialization.Dynamic text) { return wrapperContained.method_52470(text); }

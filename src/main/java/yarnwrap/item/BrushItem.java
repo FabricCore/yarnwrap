@@ -15,7 +15,5 @@ public static int ANIMATION_DURATION() { return net.minecraft.item.BrushItem.ANI
 // public static void addDustParticles(yarnwrap.world.World world,yarnwrap.util.hit.BlockHitResult hitResult,yarnwrap.block.BlockState state,yarnwrap.util.math.Vec3d userRotation,yarnwrap.util.Arm arm, ) { net.minecraft.item.BrushItem.addDustParticles(world.wrapperContained,hitResult.wrapperContained,state.wrapperContained,userRotation.wrapperContained,arm.wrapperContained); }
 // public yarnwrap.util.hit.HitResult getHitResult(yarnwrap.entity.player.PlayerEntity user) { return new yarnwrap.util.hit.HitResult(wrapperContained.getHitResult(user.wrapperContained)); }
 // public static yarnwrap.util.hit.HitResult getHitResult(yarnwrap.entity.player.PlayerEntity user, ) { return new yarnwrap.util.hit.HitResult(net.minecraft.item.BrushItem.getHitResult(user.wrapperContained)); }
-// public boolean method_51309(yarnwrap.entity.Entity entity) { return wrapperContained.method_51309(entity.wrapperContained); }
-// public static boolean method_51309(yarnwrap.entity.Entity entity, ) { return net.minecraft.item.BrushItem.method_51309(entity.wrapperContained); }
 
 }

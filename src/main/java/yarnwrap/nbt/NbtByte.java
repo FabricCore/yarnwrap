@@ -1,11 +1,6 @@
 package yarnwrap.nbt;
 public class NbtByte { public net.minecraft.nbt.NbtByte wrapperContained; public NbtByte(net.minecraft.nbt.NbtByte wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public byte value() { return wrapperContained.value; }
-// public void value(byte value) { wrapperContained.value = value; }
-// public static byte value() { return net.minecraft.nbt.NbtByte.value; }
-// public static void value(byte value, ) { net.minecraft.nbt.NbtByte.value = value; }
-
 // public yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(wrapperContained.TYPE); }
 // public void TYPE(yarnwrap.nbt.NbtType value) { wrapperContained.TYPE = value.wrapperContained; }
 public static yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(net.minecraft.nbt.NbtByte.TYPE); }
@@ -26,7 +21,7 @@ public static yarnwrap.nbt.NbtByte ONE() { return new yarnwrap.nbt.NbtByte(net.m
 // public static int SIZE() { return net.minecraft.nbt.NbtByte.SIZE; }
 // public static void SIZE(int value, ) { net.minecraft.nbt.NbtByte.SIZE = value; }
 
-// public NbtByte(byte value) { this.wrapperContained = new net.minecraft.nbt.NbtByte(value); }
+public NbtByte(byte value) { this.wrapperContained = new net.minecraft.nbt.NbtByte(value); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.nbt.NbtByte.equals(o); }
 // public yarnwrap.nbt.NbtByte of(byte value) { return new yarnwrap.nbt.NbtByte(wrapperContained.of(value)); }

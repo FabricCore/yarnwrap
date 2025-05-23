@@ -146,20 +146,15 @@ public static java.lang.String GLOW_COLOR_OVERRIDE_NBT_KEY() { return net.minecr
 // public static boolean interpolationDurationSet() { return net.minecraft.entity.decoration.DisplayEntity.interpolationDurationSet; }
 // public static void interpolationDurationSet(boolean value, ) { net.minecraft.entity.decoration.DisplayEntity.interpolationDurationSet = value; }
 
-// public Object renderState() { return wrapperContained.renderState; }
-// // public void renderState(Object value) { wrapperContained.renderState = value; }
-// // public static Object renderState() { return net.minecraft.entity.decoration.DisplayEntity.renderState; }
-// // public static void renderState(Object value, ) { net.minecraft.entity.decoration.DisplayEntity.renderState = value; }
+// public Object renderProperties() { return wrapperContained.renderProperties; }
+// // public void renderProperties(Object value) { wrapperContained.renderProperties = value; }
+// // public static Object renderProperties() { return net.minecraft.entity.decoration.DisplayEntity.renderProperties; }
+// // public static void renderProperties(Object value, ) { net.minecraft.entity.decoration.DisplayEntity.renderProperties = value; }
 
 // public boolean renderingDataSet() { return wrapperContained.renderingDataSet; }
 // public void renderingDataSet(boolean value) { wrapperContained.renderingDataSet = value; }
 // public static boolean renderingDataSet() { return net.minecraft.entity.decoration.DisplayEntity.renderingDataSet; }
 // public static void renderingDataSet(boolean value, ) { net.minecraft.entity.decoration.DisplayEntity.renderingDataSet = value; }
-
-// public Object interpolationTarget() { return wrapperContained.interpolationTarget; }
-// // public void interpolationTarget(Object value) { wrapperContained.interpolationTarget = value; }
-// // public static Object interpolationTarget() { return net.minecraft.entity.decoration.DisplayEntity.interpolationTarget; }
-// // public static void interpolationTarget(Object value, ) { net.minecraft.entity.decoration.DisplayEntity.interpolationTarget = value; }
 
 // public java.lang.String TELEPORT_DURATION_KEY() { return wrapperContained.TELEPORT_DURATION_KEY; }
 // public void TELEPORT_DURATION_KEY(java.lang.String value) { wrapperContained.TELEPORT_DURATION_KEY = value; }
@@ -191,30 +186,40 @@ public static java.lang.String START_INTERPOLATION_KEY() { return net.minecraft.
 // public static yarnwrap.entity.data.TrackedData TELEPORT_DURATION() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.decoration.DisplayEntity.TELEPORT_DURATION); }
 // public static void TELEPORT_DURATION(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.decoration.DisplayEntity.TELEPORT_DURATION = value.wrapperContained; }
 
-public float getLerpProgress(float delta) { return wrapperContained.getLerpProgress(delta); }
-// public static float getLerpProgress(float delta, ) { return net.minecraft.entity.decoration.DisplayEntity.getLerpProgress(delta); }
+// public boolean tooSmallToRender() { return wrapperContained.tooSmallToRender; }
+// public void tooSmallToRender(boolean value) { wrapperContained.tooSmallToRender = value; }
+// public static boolean tooSmallToRender() { return net.minecraft.entity.decoration.DisplayEntity.tooSmallToRender; }
+// public static void tooSmallToRender(boolean value, ) { net.minecraft.entity.decoration.DisplayEntity.tooSmallToRender = value; }
+
+// public yarnwrap.entity.PositionInterpolator interpolator() { return new yarnwrap.entity.PositionInterpolator(wrapperContained.interpolator); }
+// public void interpolator(yarnwrap.entity.PositionInterpolator value) { wrapperContained.interpolator = value.wrapperContained; }
+// public static yarnwrap.entity.PositionInterpolator interpolator() { return new yarnwrap.entity.PositionInterpolator(net.minecraft.entity.decoration.DisplayEntity.interpolator); }
+// public static void interpolator(yarnwrap.entity.PositionInterpolator value, ) { net.minecraft.entity.decoration.DisplayEntity.interpolator = value.wrapperContained; }
+
+// public int DEFAULT_INTERPOLATION_DURATION() { return wrapperContained.DEFAULT_INTERPOLATION_DURATION; }
+// public void DEFAULT_INTERPOLATION_DURATION(int value) { wrapperContained.DEFAULT_INTERPOLATION_DURATION = value; }
+// public static int DEFAULT_INTERPOLATION_DURATION() { return net.minecraft.entity.decoration.DisplayEntity.DEFAULT_INTERPOLATION_DURATION; }
+// public static void DEFAULT_INTERPOLATION_DURATION(int value, ) { net.minecraft.entity.decoration.DisplayEntity.DEFAULT_INTERPOLATION_DURATION = value; }
+
+// public int DEFAULT_START_INTERPOLATION() { return wrapperContained.DEFAULT_START_INTERPOLATION; }
+// public void DEFAULT_START_INTERPOLATION(int value) { wrapperContained.DEFAULT_START_INTERPOLATION = value; }
+// public static int DEFAULT_START_INTERPOLATION() { return net.minecraft.entity.decoration.DisplayEntity.DEFAULT_START_INTERPOLATION; }
+// public static void DEFAULT_START_INTERPOLATION(int value, ) { net.minecraft.entity.decoration.DisplayEntity.DEFAULT_START_INTERPOLATION = value; }
+
+public yarnwrap.util.math.Box getVisibilityBoundingBox() { return new yarnwrap.util.math.Box(wrapperContained.getVisibilityBoundingBox()); }
+// public static yarnwrap.util.math.Box getVisibilityBoundingBox() { return new yarnwrap.util.math.Box(net.minecraft.entity.decoration.DisplayEntity.getVisibilityBoundingBox()); }
+public float getLerpProgress(float tickProgress) { return wrapperContained.getLerpProgress(tickProgress); }
+// public static float getLerpProgress(float tickProgress, ) { return net.minecraft.entity.decoration.DisplayEntity.getLerpProgress(tickProgress); }
 // public yarnwrap.util.math.AffineTransformation getTransformation(yarnwrap.entity.data.DataTracker dataTracker) { return new yarnwrap.util.math.AffineTransformation(wrapperContained.getTransformation(dataTracker.wrapperContained)); }
 // public static yarnwrap.util.math.AffineTransformation getTransformation(yarnwrap.entity.data.DataTracker dataTracker, ) { return new yarnwrap.util.math.AffineTransformation(net.minecraft.entity.decoration.DisplayEntity.getTransformation(dataTracker.wrapperContained)); }
 public void setBrightness(yarnwrap.entity.decoration.Brightness brightness) { wrapperContained.setBrightness(brightness.wrapperContained); }
 // public static void setBrightness(yarnwrap.entity.decoration.Brightness brightness, ) { net.minecraft.entity.decoration.DisplayEntity.setBrightness(brightness.wrapperContained); }
 // public void setBillboardMode(Object billboardMode) { wrapperContained.setBillboardMode(billboardMode); }
 // public static void setBillboardMode(Object billboardMode, ) { net.minecraft.entity.decoration.DisplayEntity.setBillboardMode(billboardMode); }
-// public void method_48848(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_48848(pair); }
-// public static void method_48848(com.mojang.datafixers.util.Pair pair, ) { net.minecraft.entity.decoration.DisplayEntity.method_48848(pair); }
 public void setTransformation(yarnwrap.util.math.AffineTransformation transformation) { wrapperContained.setTransformation(transformation.wrapperContained); }
 // public static void setTransformation(yarnwrap.util.math.AffineTransformation transformation, ) { net.minecraft.entity.decoration.DisplayEntity.setTransformation(transformation.wrapperContained); }
-// public void method_48851(yarnwrap.nbt.NbtCompound brightness) { wrapperContained.method_48851(brightness.wrapperContained); }
-// public static void method_48851(yarnwrap.nbt.NbtCompound brightness, ) { net.minecraft.entity.decoration.DisplayEntity.method_48851(brightness.wrapperContained); }
-// public void method_48855(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_48855(pair); }
-// public static void method_48855(com.mojang.datafixers.util.Pair pair, ) { net.minecraft.entity.decoration.DisplayEntity.method_48855(pair); }
-// public void method_48856(yarnwrap.nbt.NbtCompound billboard) { wrapperContained.method_48856(billboard.wrapperContained); }
-// public static void method_48856(yarnwrap.nbt.NbtCompound billboard, ) { net.minecraft.entity.decoration.DisplayEntity.method_48856(billboard.wrapperContained); }
 public void setGlowColorOverride(int glowColorOverride) { wrapperContained.setGlowColorOverride(glowColorOverride); }
 // public static void setGlowColorOverride(int glowColorOverride, ) { net.minecraft.entity.decoration.DisplayEntity.setGlowColorOverride(glowColorOverride); }
-// public void method_48859(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_48859(pair); }
-// public static void method_48859(com.mojang.datafixers.util.Pair pair, ) { net.minecraft.entity.decoration.DisplayEntity.method_48859(pair); }
-// public void method_48860(yarnwrap.nbt.NbtCompound transformations) { wrapperContained.method_48860(transformations.wrapperContained); }
-// public static void method_48860(yarnwrap.nbt.NbtCompound transformations, ) { net.minecraft.entity.decoration.DisplayEntity.method_48860(transformations.wrapperContained); }
 public void setViewRange(float viewRange) { wrapperContained.setViewRange(viewRange); }
 // public static void setViewRange(float viewRange, ) { net.minecraft.entity.decoration.DisplayEntity.setViewRange(viewRange); }
 public void setShadowRadius(float shadowRadius) { wrapperContained.setShadowRadius(shadowRadius); }
@@ -265,5 +270,7 @@ public int getStartInterpolation() { return wrapperContained.getStartInterpolati
 // public static int getStartInterpolation() { return net.minecraft.entity.decoration.DisplayEntity.getStartInterpolation(); }
 public int getTeleportDuration() { return wrapperContained.getTeleportDuration(); }
 // public static int getTeleportDuration() { return net.minecraft.entity.decoration.DisplayEntity.getTeleportDuration(); }
+public boolean shouldRender() { return wrapperContained.shouldRender(); }
+// public static boolean shouldRender() { return net.minecraft.entity.decoration.DisplayEntity.shouldRender(); }
 
 }

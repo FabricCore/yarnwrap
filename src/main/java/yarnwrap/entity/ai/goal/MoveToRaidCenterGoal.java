@@ -24,7 +24,5 @@ public class MoveToRaidCenterGoal { public net.minecraft.entity.ai.goal.MoveToRa
 public MoveToRaidCenterGoal(yarnwrap.entity.raid.RaiderEntity actor) { this.wrapperContained = new net.minecraft.entity.ai.goal.MoveToRaidCenterGoal(actor.wrapperContained); }
 // public void includeFreeRaiders(yarnwrap.village.raid.Raid raid) { wrapperContained.includeFreeRaiders(raid.wrapperContained); }
 // public static void includeFreeRaiders(yarnwrap.village.raid.Raid raid, ) { net.minecraft.entity.ai.goal.MoveToRaidCenterGoal.includeFreeRaiders(raid.wrapperContained); }
-// public boolean method_16466(yarnwrap.village.raid.Raid raider) { return wrapperContained.method_16466(raider.wrapperContained); }
-// public static boolean method_16466(yarnwrap.village.raid.Raid raider, ) { return net.minecraft.entity.ai.goal.MoveToRaidCenterGoal.method_16466(raider.wrapperContained); }
 
 }

@@ -7,5 +7,7 @@ public class PaintingVariants { public net.minecraft.entity.decoration.painting.
 // public static yarnwrap.registry.RegistryKey of(java.lang.String id, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.entity.decoration.painting.PaintingVariants.of(id)); }
 // public void register(yarnwrap.registry.Registerable registry,yarnwrap.registry.RegistryKey key,int width,int height) { wrapperContained.register(registry.wrapperContained,key.wrapperContained,width,height); }
 // public static void register(yarnwrap.registry.Registerable registry,yarnwrap.registry.RegistryKey key,int width,int height, ) { net.minecraft.entity.decoration.painting.PaintingVariants.register(registry.wrapperContained,key.wrapperContained,width,height); }
+// public void register(yarnwrap.registry.Registerable registry,yarnwrap.registry.RegistryKey key,int width,int height,boolean hasAuthor) { wrapperContained.register(registry.wrapperContained,key.wrapperContained,width,height,hasAuthor); }
+// public static void register(yarnwrap.registry.Registerable registry,yarnwrap.registry.RegistryKey key,int width,int height,boolean hasAuthor, ) { net.minecraft.entity.decoration.painting.PaintingVariants.register(registry.wrapperContained,key.wrapperContained,width,height,hasAuthor); }
 
 }

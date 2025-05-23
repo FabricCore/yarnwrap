@@ -1,16 +1,6 @@
 package yarnwrap.client.tutorial;
 public class TutorialManager { public net.minecraft.client.tutorial.TutorialManager wrapperContained; public TutorialManager(net.minecraft.client.tutorial.TutorialManager wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.List entries() { return wrapperContained.entries; }
-// public void entries(java.util.List value) { wrapperContained.entries = value; }
-// public static java.util.List entries() { return net.minecraft.client.tutorial.TutorialManager.entries; }
-// public static void entries(java.util.List value, ) { net.minecraft.client.tutorial.TutorialManager.entries = value; }
-
-// public yarnwrap.client.tutorial.BundleTutorial bundleTutorial() { return new yarnwrap.client.tutorial.BundleTutorial(wrapperContained.bundleTutorial); }
-// public void bundleTutorial(yarnwrap.client.tutorial.BundleTutorial value) { wrapperContained.bundleTutorial = value.wrapperContained; }
-// public static yarnwrap.client.tutorial.BundleTutorial bundleTutorial() { return new yarnwrap.client.tutorial.BundleTutorial(net.minecraft.client.tutorial.TutorialManager.bundleTutorial); }
-// public static void bundleTutorial(yarnwrap.client.tutorial.BundleTutorial value, ) { net.minecraft.client.tutorial.TutorialManager.bundleTutorial = value.wrapperContained; }
-
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
 // public static yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(net.minecraft.client.tutorial.TutorialManager.client); }
@@ -22,14 +12,6 @@ public class TutorialManager { public net.minecraft.client.tutorial.TutorialMana
 // public static void currentHandler(yarnwrap.client.tutorial.TutorialStepHandler value, ) { net.minecraft.client.tutorial.TutorialManager.currentHandler = value.wrapperContained; }
 
 public TutorialManager(yarnwrap.client.MinecraftClient client,yarnwrap.client.option.GameOptions options) { this.wrapperContained = new net.minecraft.client.tutorial.TutorialManager(client.wrapperContained,options.wrapperContained); }
-public void remove(yarnwrap.client.toast.TutorialToast toast) { wrapperContained.remove(toast.wrapperContained); }
-// public static void remove(yarnwrap.client.toast.TutorialToast toast, ) { net.minecraft.client.tutorial.TutorialManager.remove(toast.wrapperContained); }
-public void add(yarnwrap.client.toast.TutorialToast toast,int ticks) { wrapperContained.add(toast.wrapperContained,ticks); }
-// public static void add(yarnwrap.client.toast.TutorialToast toast,int ticks, ) { net.minecraft.client.tutorial.TutorialManager.add(toast.wrapperContained,ticks); }
-// public boolean method_31366(yarnwrap.client.toast.TutorialToast entry) { return wrapperContained.method_31366(entry.wrapperContained); }
-// public static boolean method_31366(yarnwrap.client.toast.TutorialToast entry, ) { return net.minecraft.client.tutorial.TutorialManager.method_31366(entry.wrapperContained); }
-public void onPickupSlotClick(yarnwrap.item.ItemStack cursorStack,yarnwrap.item.ItemStack slotStack,yarnwrap.util.ClickType clickType) { wrapperContained.onPickupSlotClick(cursorStack.wrapperContained,slotStack.wrapperContained,clickType.wrapperContained); }
-// public static void onPickupSlotClick(yarnwrap.item.ItemStack cursorStack,yarnwrap.item.ItemStack slotStack,yarnwrap.util.ClickType clickType, ) { net.minecraft.client.tutorial.TutorialManager.onPickupSlotClick(cursorStack.wrapperContained,slotStack.wrapperContained,clickType.wrapperContained); }
 public boolean isInSurvival() { return wrapperContained.isInSurvival(); }
 // public static boolean isInSurvival() { return net.minecraft.client.tutorial.TutorialManager.isInSurvival(); }
 public void onSlotUpdate(yarnwrap.item.ItemStack stack) { wrapperContained.onSlotUpdate(stack.wrapperContained); }
@@ -56,5 +38,7 @@ public void createHandler() { wrapperContained.createHandler(); }
 // public static void createHandler() { net.minecraft.client.tutorial.TutorialManager.createHandler(); }
 public void tick() { wrapperContained.tick(); }
 // public static void tick() { net.minecraft.client.tutorial.TutorialManager.tick(); }
+public void onPickupSlotClick(yarnwrap.item.ItemStack cursorStack,yarnwrap.item.ItemStack slotStack,yarnwrap.util.ClickType clickType) { wrapperContained.onPickupSlotClick(cursorStack.wrapperContained,slotStack.wrapperContained,clickType.wrapperContained); }
+// public static void onPickupSlotClick(yarnwrap.item.ItemStack cursorStack,yarnwrap.item.ItemStack slotStack,yarnwrap.util.ClickType clickType, ) { net.minecraft.client.tutorial.TutorialManager.onPickupSlotClick(cursorStack.wrapperContained,slotStack.wrapperContained,clickType.wrapperContained); }
 
 }

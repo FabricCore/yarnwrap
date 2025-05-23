@@ -71,5 +71,9 @@ public boolean hasSignature() { return wrapperContained.hasSignature(); }
 // public static java.util.Optional method_46611(yarnwrap.network.message.SignedMessage message, ) { return net.minecraft.network.message.SignedMessage.method_46611(message.wrapperContained); }
 public yarnwrap.network.message.SignedMessage stripSignature() { return new yarnwrap.network.message.SignedMessage(wrapperContained.stripSignature()); }
 // public static yarnwrap.network.message.SignedMessage stripSignature() { return new yarnwrap.network.message.SignedMessage(net.minecraft.network.message.SignedMessage.stripSignature()); }
+// public java.lang.String method_68859(yarnwrap.network.message.MessageSignatureData entry) { return wrapperContained.method_68859(entry.wrapperContained); }
+// public static java.lang.String method_68859(yarnwrap.network.message.MessageSignatureData entry, ) { return net.minecraft.network.message.SignedMessage.method_68859(entry.wrapperContained); }
+// public java.lang.String toString(yarnwrap.network.message.SignedMessage message) { return wrapperContained.toString(message.wrapperContained); }
+// public static java.lang.String toString(yarnwrap.network.message.SignedMessage message, ) { return net.minecraft.network.message.SignedMessage.toString(message.wrapperContained); }
 
 }

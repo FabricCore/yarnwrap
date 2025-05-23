@@ -45,8 +45,8 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.t
 public NbtTextContent(java.lang.String rawPath,boolean interpret,java.util.Optional separator,yarnwrap.text.NbtDataSource dataSource) { this.wrapperContained = new net.minecraft.text.NbtTextContent(rawPath,interpret,separator,dataSource.wrapperContained); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.text.NbtTextContent.equals(o); }
-// public java.util.stream.Stream method_10917(yarnwrap.server.command.ServerCommandSource text) { return wrapperContained.method_10917(text.wrapperContained); }
-// public static java.util.stream.Stream method_10917(yarnwrap.server.command.ServerCommandSource text, ) { return net.minecraft.text.NbtTextContent.method_10917(text.wrapperContained); }
+// public java.util.stream.Stream method_10917(yarnwrap.registry.RegistryOps nbt) { return wrapperContained.method_10917(nbt.wrapperContained); }
+// public static java.util.stream.Stream method_10917(yarnwrap.registry.RegistryOps nbt, ) { return net.minecraft.text.NbtTextContent.method_10917(nbt.wrapperContained); }
 // public java.util.stream.Stream method_10918(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.method_10918(nbt.wrapperContained); }
 // public static java.util.stream.Stream method_10918(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.text.NbtTextContent.method_10918(nbt.wrapperContained); }
 // public Object parsePath(java.lang.String rawPath) { return wrapperContained.parsePath(rawPath); }
@@ -67,5 +67,7 @@ public yarnwrap.text.NbtDataSource getDataSource() { return new yarnwrap.text.Nb
 // public static yarnwrap.text.NbtDataSource getDataSource() { return new yarnwrap.text.NbtDataSource(net.minecraft.text.NbtTextContent.getDataSource()); }
 // public com.mojang.datafixers.kinds.App method_54230(Object instance) { return wrapperContained.method_54230(instance); }
 // public static com.mojang.datafixers.kinds.App method_54230(Object instance, ) { return net.minecraft.text.NbtTextContent.method_54230(instance); }
+// public java.lang.String asString(yarnwrap.nbt.NbtElement nbt) { return wrapperContained.asString(nbt.wrapperContained); }
+// public static java.lang.String asString(yarnwrap.nbt.NbtElement nbt, ) { return net.minecraft.text.NbtTextContent.asString(nbt.wrapperContained); }
 
 }

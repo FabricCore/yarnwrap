@@ -11,9 +11,9 @@ public static yarnwrap.state.property.BooleanProperty UNSTABLE() { return new ya
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.TntBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.TntBlock.CODEC = value; }
 
-// public void primeTnt(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.LivingEntity igniter) { wrapperContained.primeTnt(world.wrapperContained,pos.wrapperContained,igniter.wrapperContained); }
-// public static void primeTnt(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.LivingEntity igniter, ) { net.minecraft.block.TntBlock.primeTnt(world.wrapperContained,pos.wrapperContained,igniter.wrapperContained); }
-// public void primeTnt(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.primeTnt(world.wrapperContained,pos.wrapperContained); }
-// public static void primeTnt(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.TntBlock.primeTnt(world.wrapperContained,pos.wrapperContained); }
+// public boolean primeTnt(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.LivingEntity igniter) { return wrapperContained.primeTnt(world.wrapperContained,pos.wrapperContained,igniter.wrapperContained); }
+// public static boolean primeTnt(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.LivingEntity igniter, ) { return net.minecraft.block.TntBlock.primeTnt(world.wrapperContained,pos.wrapperContained,igniter.wrapperContained); }
+// public boolean primeTnt(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.primeTnt(world.wrapperContained,pos.wrapperContained); }
+// public static boolean primeTnt(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.TntBlock.primeTnt(world.wrapperContained,pos.wrapperContained); }
 
 }

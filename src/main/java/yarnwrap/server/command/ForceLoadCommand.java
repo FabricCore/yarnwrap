@@ -42,8 +42,6 @@ public class ForceLoadCommand { public net.minecraft.server.command.ForceLoadCom
 // public static com.mojang.brigadier.Message method_13369(java.lang.Object chunkPos,java.lang.Object registryKey, ) { return net.minecraft.server.command.ForceLoadCommand.method_13369(chunkPos,registryKey); }
 // public int method_13370(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13370(context); }
 // public static int method_13370(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ForceLoadCommand.method_13370(context); }
-// public boolean method_13371(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13371(source.wrapperContained); }
-// public static boolean method_13371(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.ForceLoadCommand.method_13371(source.wrapperContained); }
 // public int executeChange(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.ColumnPos from,yarnwrap.util.math.ColumnPos to,boolean forceLoaded) { return wrapperContained.executeChange(source.wrapperContained,from.wrapperContained,to.wrapperContained,forceLoaded); }
 // public static int executeChange(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.ColumnPos from,yarnwrap.util.math.ColumnPos to,boolean forceLoaded, ) { return net.minecraft.server.command.ForceLoadCommand.executeChange(source.wrapperContained,from.wrapperContained,to.wrapperContained,forceLoaded); }
 // public int executeQuery(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeQuery(source.wrapperContained); }

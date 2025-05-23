@@ -16,10 +16,10 @@ public class ParticleS2CPacket { public net.minecraft.network.packet.s2c.play.Pa
 // public static int count() { return net.minecraft.network.packet.s2c.play.ParticleS2CPacket.count; }
 // public static void count(int value, ) { net.minecraft.network.packet.s2c.play.ParticleS2CPacket.count = value; }
 
-// public boolean longDistance() { return wrapperContained.longDistance; }
-// public void longDistance(boolean value) { wrapperContained.longDistance = value; }
-// public static boolean longDistance() { return net.minecraft.network.packet.s2c.play.ParticleS2CPacket.longDistance; }
-// public static void longDistance(boolean value, ) { net.minecraft.network.packet.s2c.play.ParticleS2CPacket.longDistance = value; }
+// public boolean forceSpawn() { return wrapperContained.forceSpawn; }
+// public void forceSpawn(boolean value) { wrapperContained.forceSpawn = value; }
+// public static boolean forceSpawn() { return net.minecraft.network.packet.s2c.play.ParticleS2CPacket.forceSpawn; }
+// public static void forceSpawn(boolean value, ) { net.minecraft.network.packet.s2c.play.ParticleS2CPacket.forceSpawn = value; }
 
 // public float offsetX() { return wrapperContained.offsetX; }
 // public void offsetX(float value) { wrapperContained.offsetX = value; }
@@ -56,7 +56,12 @@ public class ParticleS2CPacket { public net.minecraft.network.packet.s2c.play.Pa
 public static yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.network.packet.s2c.play.ParticleS2CPacket.CODEC); }
 // public static void CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.network.packet.s2c.play.ParticleS2CPacket.CODEC = value.wrapperContained; }
 
-public ParticleS2CPacket(yarnwrap.particle.ParticleEffect parameters,boolean longDistance,double x,double y,double z,float offsetX,float offsetY,float offsetZ,float speed,int count) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ParticleS2CPacket(parameters.wrapperContained,longDistance,x,y,z,offsetX,offsetY,offsetZ,speed,count); }
+// public boolean important() { return wrapperContained.important; }
+// public void important(boolean value) { wrapperContained.important = value; }
+// public static boolean important() { return net.minecraft.network.packet.s2c.play.ParticleS2CPacket.important; }
+// public static void important(boolean value, ) { net.minecraft.network.packet.s2c.play.ParticleS2CPacket.important = value; }
+
+public ParticleS2CPacket(yarnwrap.particle.ParticleEffect parameters,boolean forceSpawn,boolean important,double x,double y,double z,float offsetX,float offsetY,float offsetZ,float speed,int count) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ParticleS2CPacket(parameters.wrapperContained,forceSpawn,important,x,y,z,offsetX,offsetY,offsetZ,speed,count); }
 // public ParticleS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.ParticleS2CPacket(buf.wrapperContained); }
 public float getSpeed() { return wrapperContained.getSpeed(); }
 // public static float getSpeed() { return net.minecraft.network.packet.s2c.play.ParticleS2CPacket.getSpeed(); }
@@ -76,9 +81,11 @@ public float getOffsetZ() { return wrapperContained.getOffsetZ(); }
 // public static float getOffsetZ() { return net.minecraft.network.packet.s2c.play.ParticleS2CPacket.getOffsetZ(); }
 public yarnwrap.particle.ParticleEffect getParameters() { return new yarnwrap.particle.ParticleEffect(wrapperContained.getParameters()); }
 // public static yarnwrap.particle.ParticleEffect getParameters() { return new yarnwrap.particle.ParticleEffect(net.minecraft.network.packet.s2c.play.ParticleS2CPacket.getParameters()); }
-public boolean isLongDistance() { return wrapperContained.isLongDistance(); }
-// public static boolean isLongDistance() { return net.minecraft.network.packet.s2c.play.ParticleS2CPacket.isLongDistance(); }
+public boolean shouldForceSpawn() { return wrapperContained.shouldForceSpawn(); }
+// public static boolean shouldForceSpawn() { return net.minecraft.network.packet.s2c.play.ParticleS2CPacket.shouldForceSpawn(); }
 // public void write(yarnwrap.network.RegistryByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 // public static void write(yarnwrap.network.RegistryByteBuf buf, ) { net.minecraft.network.packet.s2c.play.ParticleS2CPacket.write(buf.wrapperContained); }
+public boolean isImportant() { return wrapperContained.isImportant(); }
+// public static boolean isImportant() { return net.minecraft.network.packet.s2c.play.ParticleS2CPacket.isImportant(); }
 
 }

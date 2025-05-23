@@ -51,7 +51,22 @@ public class EditBoxWidget { public net.minecraft.client.gui.widget.EditBoxWidge
 // public static long lastSwitchFocusTime() { return net.minecraft.client.gui.widget.EditBoxWidget.lastSwitchFocusTime; }
 // public static void lastSwitchFocusTime(long value, ) { net.minecraft.client.gui.widget.EditBoxWidget.lastSwitchFocusTime = value; }
 
-public EditBoxWidget(yarnwrap.client.font.TextRenderer textRenderer,int x,int y,int width,int height,yarnwrap.text.Text placeholder,yarnwrap.text.Text message) { this.wrapperContained = new net.minecraft.client.gui.widget.EditBoxWidget(textRenderer.wrapperContained,x,y,width,height,placeholder.wrapperContained,message.wrapperContained); }
+// public int textColor() { return wrapperContained.textColor; }
+// public void textColor(int value) { wrapperContained.textColor = value; }
+// public static int textColor() { return net.minecraft.client.gui.widget.EditBoxWidget.textColor; }
+// public static void textColor(int value, ) { net.minecraft.client.gui.widget.EditBoxWidget.textColor = value; }
+
+// public boolean textShadow() { return wrapperContained.textShadow; }
+// public void textShadow(boolean value) { wrapperContained.textShadow = value; }
+// public static boolean textShadow() { return net.minecraft.client.gui.widget.EditBoxWidget.textShadow; }
+// public static void textShadow(boolean value, ) { net.minecraft.client.gui.widget.EditBoxWidget.textShadow = value; }
+
+// public int cursorColor() { return wrapperContained.cursorColor; }
+// public void cursorColor(int value) { wrapperContained.cursorColor = value; }
+// public static int cursorColor() { return net.minecraft.client.gui.widget.EditBoxWidget.cursorColor; }
+// public static void cursorColor(int value, ) { net.minecraft.client.gui.widget.EditBoxWidget.cursorColor = value; }
+
+// public EditBoxWidget(yarnwrap.client.font.TextRenderer textRenderer,int x,int y,int width,int height,yarnwrap.text.Text placeholder,yarnwrap.text.Text message,int textColor,boolean textShadow,int cursorColor,boolean hasBackground,boolean hasOverlay) { this.wrapperContained = new net.minecraft.client.gui.widget.EditBoxWidget(textRenderer.wrapperContained,x,y,width,height,placeholder.wrapperContained,message.wrapperContained,textColor,textShadow,cursorColor,hasBackground,hasOverlay); }
 public void setText(java.lang.String text) { wrapperContained.setText(text); }
 // public static void setText(java.lang.String text, ) { net.minecraft.client.gui.widget.EditBoxWidget.setText(text); }
 public void setChangeListener(java.util.function.Consumer changeListener) { wrapperContained.setChangeListener(changeListener); }
@@ -66,7 +81,9 @@ public java.lang.String getText() { return wrapperContained.getText(); }
 // public static java.lang.String getText() { return net.minecraft.client.gui.widget.EditBoxWidget.getText(); }
 // public void onCursorChange() { wrapperContained.onCursorChange(); }
 // public static void onCursorChange() { net.minecraft.client.gui.widget.EditBoxWidget.onCursorChange(); }
-// public double getMaxLinesWithoutOverflow() { return wrapperContained.getMaxLinesWithoutOverflow(); }
-// public static double getMaxLinesWithoutOverflow() { return net.minecraft.client.gui.widget.EditBoxWidget.getMaxLinesWithoutOverflow(); }
+// public void setMaxLines(int maxLines) { wrapperContained.setMaxLines(maxLines); }
+// public static void setMaxLines(int maxLines, ) { net.minecraft.client.gui.widget.EditBoxWidget.setMaxLines(maxLines); }
+// public Object builder() { return wrapperContained.builder(); }
+// public static Object builder() { return net.minecraft.client.gui.widget.EditBoxWidget.builder(); }
 
 }

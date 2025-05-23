@@ -1,0 +1,11 @@
+package yarnwrap.block;
+public class Falling { public net.minecraft.block.Falling wrapperContained; public Falling(net.minecraft.block.Falling wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public void onLanding(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState fallingBlockState,yarnwrap.block.BlockState currentStateInPos,yarnwrap.entity.FallingBlockEntity fallingBlockEntity) { wrapperContained.onLanding(world.wrapperContained,pos.wrapperContained,fallingBlockState.wrapperContained,currentStateInPos.wrapperContained,fallingBlockEntity.wrapperContained); }
+// public static void onLanding(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState fallingBlockState,yarnwrap.block.BlockState currentStateInPos,yarnwrap.entity.FallingBlockEntity fallingBlockEntity, ) { net.minecraft.block.Falling.onLanding(world.wrapperContained,pos.wrapperContained,fallingBlockState.wrapperContained,currentStateInPos.wrapperContained,fallingBlockEntity.wrapperContained); }
+public void onDestroyedOnLanding(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.FallingBlockEntity fallingBlockEntity) { wrapperContained.onDestroyedOnLanding(world.wrapperContained,pos.wrapperContained,fallingBlockEntity.wrapperContained); }
+// public static void onDestroyedOnLanding(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.FallingBlockEntity fallingBlockEntity, ) { net.minecraft.block.Falling.onDestroyedOnLanding(world.wrapperContained,pos.wrapperContained,fallingBlockEntity.wrapperContained); }
+public yarnwrap.entity.damage.DamageSource getDamageSource(yarnwrap.entity.Entity attacker) { return new yarnwrap.entity.damage.DamageSource(wrapperContained.getDamageSource(attacker.wrapperContained)); }
+// public static yarnwrap.entity.damage.DamageSource getDamageSource(yarnwrap.entity.Entity attacker, ) { return new yarnwrap.entity.damage.DamageSource(net.minecraft.block.Falling.getDamageSource(attacker.wrapperContained)); }
+
+}

@@ -6,11 +6,6 @@ public class TrackedDataHandlerRegistry { public net.minecraft.entity.data.Track
 public static yarnwrap.entity.data.TrackedDataHandler BLOCK_STATE() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.BLOCK_STATE); }
 // public static void BLOCK_STATE(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.BLOCK_STATE = value.wrapperContained; }
 
-// public yarnwrap.entity.data.TrackedDataHandler OPTIONAL_UUID() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.OPTIONAL_UUID); }
-// public void OPTIONAL_UUID(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.OPTIONAL_UUID = value.wrapperContained; }
-public static yarnwrap.entity.data.TrackedDataHandler OPTIONAL_UUID() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.OPTIONAL_UUID); }
-// public static void OPTIONAL_UUID(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.OPTIONAL_UUID = value.wrapperContained; }
-
 // public yarnwrap.entity.data.TrackedDataHandler PARTICLE() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.PARTICLE); }
 // public void PARTICLE(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.PARTICLE = value.wrapperContained; }
 public static yarnwrap.entity.data.TrackedDataHandler PARTICLE() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.PARTICLE); }
@@ -126,20 +121,20 @@ public static yarnwrap.entity.data.TrackedDataHandler PAINTING_VARIANT() { retur
 public static yarnwrap.entity.data.TrackedDataHandler LONG() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.LONG); }
 // public static void LONG(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.LONG = value.wrapperContained; }
 
-// public yarnwrap.entity.data.TrackedDataHandler QUATERNIONF() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.QUATERNIONF); }
-// public void QUATERNIONF(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.QUATERNIONF = value.wrapperContained; }
-public static yarnwrap.entity.data.TrackedDataHandler QUATERNIONF() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.QUATERNIONF); }
-// public static void QUATERNIONF(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.QUATERNIONF = value.wrapperContained; }
+// public yarnwrap.entity.data.TrackedDataHandler QUATERNION_F() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.QUATERNION_F); }
+// public void QUATERNION_F(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.QUATERNION_F = value.wrapperContained; }
+public static yarnwrap.entity.data.TrackedDataHandler QUATERNION_F() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.QUATERNION_F); }
+// public static void QUATERNION_F(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.QUATERNION_F = value.wrapperContained; }
 
 // public yarnwrap.entity.data.TrackedDataHandler OPTIONAL_BLOCK_STATE() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.OPTIONAL_BLOCK_STATE); }
 // public void OPTIONAL_BLOCK_STATE(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.OPTIONAL_BLOCK_STATE = value.wrapperContained; }
 public static yarnwrap.entity.data.TrackedDataHandler OPTIONAL_BLOCK_STATE() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.OPTIONAL_BLOCK_STATE); }
 // public static void OPTIONAL_BLOCK_STATE(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.OPTIONAL_BLOCK_STATE = value.wrapperContained; }
 
-// public yarnwrap.entity.data.TrackedDataHandler VECTOR3F() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.VECTOR3F); }
-// public void VECTOR3F(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.VECTOR3F = value.wrapperContained; }
-public static yarnwrap.entity.data.TrackedDataHandler VECTOR3F() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.VECTOR3F); }
-// public static void VECTOR3F(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.VECTOR3F = value.wrapperContained; }
+// public yarnwrap.entity.data.TrackedDataHandler VECTOR_3F() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.VECTOR_3F); }
+// public void VECTOR_3F(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.VECTOR_3F = value.wrapperContained; }
+public static yarnwrap.entity.data.TrackedDataHandler VECTOR_3F() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.VECTOR_3F); }
+// public static void VECTOR_3F(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.VECTOR_3F = value.wrapperContained; }
 
 // public yarnwrap.entity.data.TrackedDataHandler SNIFFER_STATE() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.SNIFFER_STATE); }
 // public void SNIFFER_STATE(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.SNIFFER_STATE = value.wrapperContained; }
@@ -170,6 +165,31 @@ public static yarnwrap.entity.data.TrackedDataHandler WOLF_VARIANT() { return ne
 // public void PARTICLE_LIST(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.PARTICLE_LIST = value.wrapperContained; }
 public static yarnwrap.entity.data.TrackedDataHandler PARTICLE_LIST() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.PARTICLE_LIST); }
 // public static void PARTICLE_LIST(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.PARTICLE_LIST = value.wrapperContained; }
+
+// public yarnwrap.entity.data.TrackedDataHandler PIG_VARIANT() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.PIG_VARIANT); }
+// public void PIG_VARIANT(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.PIG_VARIANT = value.wrapperContained; }
+public static yarnwrap.entity.data.TrackedDataHandler PIG_VARIANT() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.PIG_VARIANT); }
+// public static void PIG_VARIANT(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.PIG_VARIANT = value.wrapperContained; }
+
+// public yarnwrap.entity.data.TrackedDataHandler LAZY_ENTITY_REFERENCE() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.LAZY_ENTITY_REFERENCE); }
+// public void LAZY_ENTITY_REFERENCE(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.LAZY_ENTITY_REFERENCE = value.wrapperContained; }
+public static yarnwrap.entity.data.TrackedDataHandler LAZY_ENTITY_REFERENCE() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.LAZY_ENTITY_REFERENCE); }
+// public static void LAZY_ENTITY_REFERENCE(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.LAZY_ENTITY_REFERENCE = value.wrapperContained; }
+
+// public yarnwrap.entity.data.TrackedDataHandler COW_VARIANT() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.COW_VARIANT); }
+// public void COW_VARIANT(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.COW_VARIANT = value.wrapperContained; }
+public static yarnwrap.entity.data.TrackedDataHandler COW_VARIANT() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.COW_VARIANT); }
+// public static void COW_VARIANT(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.COW_VARIANT = value.wrapperContained; }
+
+// public yarnwrap.entity.data.TrackedDataHandler CHICKEN_VARIANT() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.CHICKEN_VARIANT); }
+// public void CHICKEN_VARIANT(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.CHICKEN_VARIANT = value.wrapperContained; }
+public static yarnwrap.entity.data.TrackedDataHandler CHICKEN_VARIANT() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.CHICKEN_VARIANT); }
+// public static void CHICKEN_VARIANT(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.CHICKEN_VARIANT = value.wrapperContained; }
+
+// public yarnwrap.entity.data.TrackedDataHandler WOLF_SOUND_VARIANT() { return new yarnwrap.entity.data.TrackedDataHandler(wrapperContained.WOLF_SOUND_VARIANT); }
+// public void WOLF_SOUND_VARIANT(yarnwrap.entity.data.TrackedDataHandler value) { wrapperContained.WOLF_SOUND_VARIANT = value.wrapperContained; }
+public static yarnwrap.entity.data.TrackedDataHandler WOLF_SOUND_VARIANT() { return new yarnwrap.entity.data.TrackedDataHandler(net.minecraft.entity.data.TrackedDataHandlerRegistry.WOLF_SOUND_VARIANT); }
+// public static void WOLF_SOUND_VARIANT(yarnwrap.entity.data.TrackedDataHandler value, ) { net.minecraft.entity.data.TrackedDataHandlerRegistry.WOLF_SOUND_VARIANT = value.wrapperContained; }
 
 // public int getId(yarnwrap.entity.data.TrackedDataHandler handler) { return wrapperContained.getId(handler.wrapperContained); }
 // public static int getId(yarnwrap.entity.data.TrackedDataHandler handler, ) { return net.minecraft.entity.data.TrackedDataHandlerRegistry.getId(handler.wrapperContained); }

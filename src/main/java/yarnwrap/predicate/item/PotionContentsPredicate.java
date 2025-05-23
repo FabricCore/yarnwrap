@@ -6,7 +6,7 @@ public class PotionContentsPredicate { public net.minecraft.predicate.item.Potio
 public static com.mojang.serialization.Codec CODEC() { return net.minecraft.predicate.item.PotionContentsPredicate.CODEC; }
 // public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.predicate.item.PotionContentsPredicate.CODEC = value; }
 
-// public yarnwrap.predicate.item.ItemSubPredicate potionContents(yarnwrap.registry.entry.RegistryEntryList potions) { return new yarnwrap.predicate.item.ItemSubPredicate(wrapperContained.potionContents(potions.wrapperContained)); }
-// public static yarnwrap.predicate.item.ItemSubPredicate potionContents(yarnwrap.registry.entry.RegistryEntryList potions, ) { return new yarnwrap.predicate.item.ItemSubPredicate(net.minecraft.predicate.item.PotionContentsPredicate.potionContents(potions.wrapperContained)); }
+// public yarnwrap.predicate.component.ComponentPredicate potionContents(yarnwrap.registry.entry.RegistryEntryList potions) { return new yarnwrap.predicate.component.ComponentPredicate(wrapperContained.potionContents(potions.wrapperContained)); }
+// public static yarnwrap.predicate.component.ComponentPredicate potionContents(yarnwrap.registry.entry.RegistryEntryList potions, ) { return new yarnwrap.predicate.component.ComponentPredicate(net.minecraft.predicate.item.PotionContentsPredicate.potionContents(potions.wrapperContained)); }
 
 }

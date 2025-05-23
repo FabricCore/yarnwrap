@@ -32,9 +32,9 @@ public class EscapeSunlightGoal { public net.minecraft.entity.ai.goal.EscapeSunl
 // public static void speed(double value, ) { net.minecraft.entity.ai.goal.EscapeSunlightGoal.speed = value; }
 
 public EscapeSunlightGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed) { this.wrapperContained = new net.minecraft.entity.ai.goal.EscapeSunlightGoal(mob.wrapperContained,speed); }
-// public boolean targetShadedPos() { return wrapperContained.targetShadedPos(); }
-// public static boolean targetShadedPos() { return net.minecraft.entity.ai.goal.EscapeSunlightGoal.targetShadedPos(); }
 // public yarnwrap.util.math.Vec3d locateShadedPos() { return new yarnwrap.util.math.Vec3d(wrapperContained.locateShadedPos()); }
 // public static yarnwrap.util.math.Vec3d locateShadedPos() { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.ai.goal.EscapeSunlightGoal.locateShadedPos()); }
+// public boolean targetShadedPos() { return wrapperContained.targetShadedPos(); }
+// public static boolean targetShadedPos() { return net.minecraft.entity.ai.goal.EscapeSunlightGoal.targetShadedPos(); }
 
 }

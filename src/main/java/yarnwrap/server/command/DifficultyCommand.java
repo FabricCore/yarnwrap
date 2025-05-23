@@ -12,8 +12,6 @@ public class DifficultyCommand { public net.minecraft.server.command.DifficultyC
 // public static com.mojang.brigadier.Message method_13170(java.lang.Object difficulty, ) { return net.minecraft.server.command.DifficultyCommand.method_13170(difficulty); }
 // public int method_13171(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13171(context); }
 // public static int method_13171(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.DifficultyCommand.method_13171(context); }
-// public boolean method_13172(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13172(source.wrapperContained); }
-// public static boolean method_13172(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.DifficultyCommand.method_13172(source.wrapperContained); }
 // public int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.world.Difficulty difficulty) { return wrapperContained.execute(source.wrapperContained,difficulty.wrapperContained); }
 // public static int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.world.Difficulty difficulty, ) { return net.minecraft.server.command.DifficultyCommand.execute(source.wrapperContained,difficulty.wrapperContained); }
 // public int method_13174(yarnwrap.world.Difficulty context) { return wrapperContained.method_13174(context.wrapperContained); }

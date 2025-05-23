@@ -1,6 +1,11 @@
 package yarnwrap.client.gui.screen;
 public class SplashOverlay { public net.minecraft.client.gui.screen.SplashOverlay wrapperContained; public SplashOverlay(net.minecraft.client.gui.screen.SplashOverlay wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.util.Identifier LOGO() { return new yarnwrap.util.Identifier(wrapperContained.LOGO); }
+// public void LOGO(yarnwrap.util.Identifier value) { wrapperContained.LOGO = value.wrapperContained; }
+public static yarnwrap.util.Identifier LOGO() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.SplashOverlay.LOGO); }
+// public static void LOGO(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.SplashOverlay.LOGO = value.wrapperContained; }
+
 // public yarnwrap.resource.ResourceReload reload() { return new yarnwrap.resource.ResourceReload(wrapperContained.reload); }
 // public void reload(yarnwrap.resource.ResourceReload value) { wrapperContained.reload = value.wrapperContained; }
 // public static yarnwrap.resource.ResourceReload reload() { return new yarnwrap.resource.ResourceReload(net.minecraft.client.gui.screen.SplashOverlay.reload); }
@@ -35,11 +40,6 @@ public class SplashOverlay { public net.minecraft.client.gui.screen.SplashOverla
 // public void reloadStartTime(long value) { wrapperContained.reloadStartTime = value; }
 // public static long reloadStartTime() { return net.minecraft.client.gui.screen.SplashOverlay.reloadStartTime; }
 // public static void reloadStartTime(long value, ) { net.minecraft.client.gui.screen.SplashOverlay.reloadStartTime = value; }
-
-// public yarnwrap.util.Identifier LOGO() { return new yarnwrap.util.Identifier(wrapperContained.LOGO); }
-// public void LOGO(yarnwrap.util.Identifier value) { wrapperContained.LOGO = value.wrapperContained; }
-// public static yarnwrap.util.Identifier LOGO() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.SplashOverlay.LOGO); }
-// public static void LOGO(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.SplashOverlay.LOGO = value.wrapperContained; }
 
 // public java.util.function.IntSupplier BRAND_ARGB() { return wrapperContained.BRAND_ARGB; }
 // public void BRAND_ARGB(java.util.function.IntSupplier value) { wrapperContained.BRAND_ARGB = value; }
@@ -82,10 +82,10 @@ public static long RELOAD_START_FADE_DURATION() { return net.minecraft.client.gu
 // public static void PROGRESS_LERP_DELTA(float value, ) { net.minecraft.client.gui.screen.SplashOverlay.PROGRESS_LERP_DELTA = value; }
 
 public SplashOverlay(yarnwrap.client.MinecraftClient client,yarnwrap.resource.ResourceReload monitor,java.util.function.Consumer exceptionHandler,boolean reloading) { this.wrapperContained = new net.minecraft.client.gui.screen.SplashOverlay(client.wrapperContained,monitor.wrapperContained,exceptionHandler,reloading); }
-// public void renderProgressBar(yarnwrap.client.gui.DrawContext minX,int minY,int maxX,int maxY,int opacity) { wrapperContained.renderProgressBar(minX.wrapperContained,minY,maxX,maxY,opacity); }
-// public static void renderProgressBar(yarnwrap.client.gui.DrawContext minX,int minY,int maxX,int maxY,int opacity, ) { net.minecraft.client.gui.screen.SplashOverlay.renderProgressBar(minX.wrapperContained,minY,maxX,maxY,opacity); }
-// public void init(yarnwrap.client.MinecraftClient client) { wrapperContained.init(client.wrapperContained); }
-// public static void init(yarnwrap.client.MinecraftClient client, ) { net.minecraft.client.gui.screen.SplashOverlay.init(client.wrapperContained); }
+// public void renderProgressBar(yarnwrap.client.gui.DrawContext context,int minX,int minY,int maxX,int maxY,float opacity) { wrapperContained.renderProgressBar(context.wrapperContained,minX,minY,maxX,maxY,opacity); }
+// public static void renderProgressBar(yarnwrap.client.gui.DrawContext context,int minX,int minY,int maxX,int maxY,float opacity, ) { net.minecraft.client.gui.screen.SplashOverlay.renderProgressBar(context.wrapperContained,minX,minY,maxX,maxY,opacity); }
+// public void init(yarnwrap.client.texture.TextureManager textureManager) { wrapperContained.init(textureManager.wrapperContained); }
+// public static void init(yarnwrap.client.texture.TextureManager textureManager, ) { net.minecraft.client.gui.screen.SplashOverlay.init(textureManager.wrapperContained); }
 // public int withAlpha(int color,int alpha) { return wrapperContained.withAlpha(color,alpha); }
 // public static int withAlpha(int color,int alpha, ) { return net.minecraft.client.gui.screen.SplashOverlay.withAlpha(color,alpha); }
 

@@ -22,8 +22,14 @@ public static com.mojang.serialization.MapCodec MODIFIER_CODEC() { return net.mi
 // public static void MODIFIER_CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier.MODIFIER_CODEC = value; }
 
 // public NoiseThresholdCountPlacementModifier(double noiseLevel,int belowNoise,int aboveNoise) { this.wrapperContained = new net.minecraft.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier(noiseLevel,belowNoise,aboveNoise); }
+// public java.lang.Integer method_28732(yarnwrap.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier placementModifier) { return wrapperContained.method_28732(placementModifier.wrapperContained); }
+// public static java.lang.Integer method_28732(yarnwrap.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier placementModifier, ) { return net.minecraft.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier.method_28732(placementModifier.wrapperContained); }
 // public com.mojang.datafixers.kinds.App method_28733(Object instance) { return wrapperContained.method_28733(instance); }
 // public static com.mojang.datafixers.kinds.App method_28733(Object instance, ) { return net.minecraft.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier.method_28733(instance); }
+// public java.lang.Integer method_28734(yarnwrap.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier placementModifier) { return wrapperContained.method_28734(placementModifier.wrapperContained); }
+// public static java.lang.Integer method_28734(yarnwrap.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier placementModifier, ) { return net.minecraft.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier.method_28734(placementModifier.wrapperContained); }
+// public java.lang.Double method_28735(yarnwrap.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier placementModifier) { return wrapperContained.method_28735(placementModifier.wrapperContained); }
+// public static java.lang.Double method_28735(yarnwrap.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier placementModifier, ) { return net.minecraft.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier.method_28735(placementModifier.wrapperContained); }
 // public yarnwrap.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier of(double noiseLevel,int belowNoise,int aboveNoise) { return new yarnwrap.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier(wrapperContained.of(noiseLevel,belowNoise,aboveNoise)); }
 // public static yarnwrap.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier of(double noiseLevel,int belowNoise,int aboveNoise, ) { return new yarnwrap.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier(net.minecraft.world.gen.placementmodifier.NoiseThresholdCountPlacementModifier.of(noiseLevel,belowNoise,aboveNoise)); }
 

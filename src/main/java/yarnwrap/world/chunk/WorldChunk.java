@@ -51,6 +51,11 @@ public class WorldChunk { public net.minecraft.world.chunk.WorldChunk wrapperCon
 // public static yarnwrap.world.tick.ChunkTickScheduler fluidTickScheduler() { return new yarnwrap.world.tick.ChunkTickScheduler(net.minecraft.world.chunk.WorldChunk.fluidTickScheduler); }
 // public static void fluidTickScheduler(yarnwrap.world.tick.ChunkTickScheduler value, ) { net.minecraft.world.chunk.WorldChunk.fluidTickScheduler = value.wrapperContained; }
 
+// public Object unsavedListener() { return wrapperContained.unsavedListener; }
+// // public void unsavedListener(Object value) { wrapperContained.unsavedListener = value; }
+// // public static Object unsavedListener() { return net.minecraft.world.chunk.WorldChunk.unsavedListener; }
+// // public static void unsavedListener(Object value, ) { net.minecraft.world.chunk.WorldChunk.unsavedListener = value; }
+
 public WorldChunk(yarnwrap.world.World world,yarnwrap.util.math.ChunkPos pos) { this.wrapperContained = new net.minecraft.world.chunk.WorldChunk(world.wrapperContained,pos.wrapperContained); }
 // public WorldChunk(yarnwrap.world.World world,yarnwrap.util.math.ChunkPos pos,yarnwrap.world.chunk.UpgradeData upgradeData,yarnwrap.world.tick.ChunkTickScheduler blockTickScheduler,yarnwrap.world.tick.ChunkTickScheduler fluidTickScheduler,long inhabitedTime,net.minecraft.world.chunk.ChunkSection[] sectionArrayInitializer,Object entityLoader,yarnwrap.world.gen.chunk.BlendingData blendingData) { this.wrapperContained = new net.minecraft.world.chunk.WorldChunk(world.wrapperContained,pos.wrapperContained,upgradeData.wrapperContained,blockTickScheduler.wrapperContained,fluidTickScheduler.wrapperContained,inhabitedTime,sectionArrayInitializer,entityLoader,blendingData.wrapperContained); }
 // public WorldChunk(yarnwrap.server.world.ServerWorld world,yarnwrap.world.chunk.ProtoChunk protoChunk,Object entityLoader) { this.wrapperContained = new net.minecraft.world.chunk.WorldChunk(world.wrapperContained,protoChunk.wrapperContained,entityLoader); }
@@ -70,12 +75,12 @@ public java.util.Map getBlockEntities() { return wrapperContained.getBlockEntiti
 // public static java.util.Map getBlockEntities() { return net.minecraft.world.chunk.WorldChunk.getBlockEntities(); }
 public void addBlockEntity(yarnwrap.block.entity.BlockEntity blockEntity) { wrapperContained.addBlockEntity(blockEntity.wrapperContained); }
 // public static void addBlockEntity(yarnwrap.block.entity.BlockEntity blockEntity, ) { net.minecraft.world.chunk.WorldChunk.addBlockEntity(blockEntity.wrapperContained); }
-public void runPostProcessing() { wrapperContained.runPostProcessing(); }
-// public static void runPostProcessing() { net.minecraft.world.chunk.WorldChunk.runPostProcessing(); }
+public void runPostProcessing(yarnwrap.server.world.ServerWorld world) { wrapperContained.runPostProcessing(world.wrapperContained); }
+// public static void runPostProcessing(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.world.chunk.WorldChunk.runPostProcessing(world.wrapperContained); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 // public static boolean isEmpty() { return net.minecraft.world.chunk.WorldChunk.isEmpty(); }
-// public void loadFromPacket(yarnwrap.network.PacketByteBuf buf,yarnwrap.nbt.NbtCompound nbt) { wrapperContained.loadFromPacket(buf.wrapperContained,nbt.wrapperContained); }
-// public static void loadFromPacket(yarnwrap.network.PacketByteBuf buf,yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.world.chunk.WorldChunk.loadFromPacket(buf.wrapperContained,nbt.wrapperContained); }
+public void loadFromPacket(yarnwrap.network.PacketByteBuf buf,java.util.Map heightmaps,java.util.function.Consumer blockEntityVisitorConsumer) { wrapperContained.loadFromPacket(buf.wrapperContained,heightmaps,blockEntityVisitorConsumer); }
+// public static void loadFromPacket(yarnwrap.network.PacketByteBuf buf,java.util.Map heightmaps,java.util.function.Consumer blockEntityVisitorConsumer, ) { net.minecraft.world.chunk.WorldChunk.loadFromPacket(buf.wrapperContained,heightmaps,blockEntityVisitorConsumer); }
 public yarnwrap.server.world.ChunkLevelType getLevelType() { return new yarnwrap.server.world.ChunkLevelType(wrapperContained.getLevelType()); }
 // public static yarnwrap.server.world.ChunkLevelType getLevelType() { return new yarnwrap.server.world.ChunkLevelType(net.minecraft.world.chunk.WorldChunk.getLevelType()); }
 public void setLoadedToWorld(boolean loadedToWorld) { wrapperContained.setLoadedToWorld(loadedToWorld); }
@@ -88,8 +93,8 @@ public void updateAllBlockEntities() { wrapperContained.updateAllBlockEntities()
 // public static void updateAllBlockEntities() { net.minecraft.world.chunk.WorldChunk.updateAllBlockEntities(); }
 // public boolean canTickBlockEntities() { return wrapperContained.canTickBlockEntities(); }
 // public static boolean canTickBlockEntities() { return net.minecraft.world.chunk.WorldChunk.canTickBlockEntities(); }
-// public void method_31716(yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.BlockEntityType blockEntityType,yarnwrap.nbt.NbtCompound nbtx) { wrapperContained.method_31716(pos.wrapperContained,blockEntityType.wrapperContained,nbtx.wrapperContained); }
-// public static void method_31716(yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.BlockEntityType blockEntityType,yarnwrap.nbt.NbtCompound nbtx, ) { net.minecraft.world.chunk.WorldChunk.method_31716(pos.wrapperContained,blockEntityType.wrapperContained,nbtx.wrapperContained); }
+// public void method_31716(Object pos,yarnwrap.util.math.BlockPos blockEntityType,yarnwrap.block.entity.BlockEntityType nbt) { wrapperContained.method_31716(pos,blockEntityType.wrapperContained,nbt.wrapperContained); }
+// public static void method_31716(Object pos,yarnwrap.util.math.BlockPos blockEntityType,yarnwrap.block.entity.BlockEntityType nbt, ) { net.minecraft.world.chunk.WorldChunk.method_31716(pos,blockEntityType.wrapperContained,nbt.wrapperContained); }
 // public yarnwrap.world.chunk.BlockEntityTickInvoker wrapTicker(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.block.entity.BlockEntityTicker blockEntityTicker) { return new yarnwrap.world.chunk.BlockEntityTickInvoker(wrapperContained.wrapTicker(blockEntity.wrapperContained,blockEntityTicker.wrapperContained)); }
 // public static yarnwrap.world.chunk.BlockEntityTickInvoker wrapTicker(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.block.entity.BlockEntityTicker blockEntityTicker, ) { return new yarnwrap.world.chunk.BlockEntityTickInvoker(net.minecraft.world.chunk.WorldChunk.wrapTicker(blockEntity.wrapperContained,blockEntityTicker.wrapperContained)); }
 // public Object method_31719(yarnwrap.block.entity.BlockEntity pos,yarnwrap.block.entity.BlockEntityTicker ticker) { return wrapperContained.method_31719(pos.wrapperContained,ticker.wrapperContained); }
@@ -120,5 +125,9 @@ public void loadBiomeFromPacket(yarnwrap.network.PacketByteBuf buf) { wrapperCon
 // public static void loadBiomeFromPacket(yarnwrap.network.PacketByteBuf buf, ) { net.minecraft.world.chunk.WorldChunk.loadBiomeFromPacket(buf.wrapperContained); }
 // public void removeGameEventDispatcher(int ySectionCoord) { wrapperContained.removeGameEventDispatcher(ySectionCoord); }
 // public static void removeGameEventDispatcher(int ySectionCoord, ) { net.minecraft.world.chunk.WorldChunk.removeGameEventDispatcher(ySectionCoord); }
+// public void method_65065(yarnwrap.util.math.ChunkPos pos) { wrapperContained.method_65065(pos.wrapperContained); }
+// public static void method_65065(yarnwrap.util.math.ChunkPos pos, ) { net.minecraft.world.chunk.WorldChunk.method_65065(pos.wrapperContained); }
+// public void setUnsavedListener(Object unsavedListener) { wrapperContained.setUnsavedListener(unsavedListener); }
+// public static void setUnsavedListener(Object unsavedListener, ) { net.minecraft.world.chunk.WorldChunk.setUnsavedListener(unsavedListener); }
 
 }

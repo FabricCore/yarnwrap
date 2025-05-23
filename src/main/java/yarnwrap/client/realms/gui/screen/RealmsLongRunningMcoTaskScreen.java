@@ -26,10 +26,10 @@ public class RealmsLongRunningMcoTaskScreen { public net.minecraft.client.realms
 // public static yarnwrap.client.gui.widget.DirectionalLayoutWidget layout() { return new yarnwrap.client.gui.widget.DirectionalLayoutWidget(net.minecraft.client.realms.gui.screen.RealmsLongRunningMcoTaskScreen.layout); }
 // public static void layout(yarnwrap.client.gui.widget.DirectionalLayoutWidget value, ) { net.minecraft.client.realms.gui.screen.RealmsLongRunningMcoTaskScreen.layout = value.wrapperContained; }
 
-// public yarnwrap.client.realms.gui.RealmsLoadingWidget loading() { return new yarnwrap.client.realms.gui.RealmsLoadingWidget(wrapperContained.loading); }
-// public void loading(yarnwrap.client.realms.gui.RealmsLoadingWidget value) { wrapperContained.loading = value.wrapperContained; }
-// public static yarnwrap.client.realms.gui.RealmsLoadingWidget loading() { return new yarnwrap.client.realms.gui.RealmsLoadingWidget(net.minecraft.client.realms.gui.screen.RealmsLongRunningMcoTaskScreen.loading); }
-// public static void loading(yarnwrap.client.realms.gui.RealmsLoadingWidget value, ) { net.minecraft.client.realms.gui.screen.RealmsLongRunningMcoTaskScreen.loading = value.wrapperContained; }
+// public yarnwrap.client.gui.widget.LoadingWidget loading() { return new yarnwrap.client.gui.widget.LoadingWidget(wrapperContained.loading); }
+// public void loading(yarnwrap.client.gui.widget.LoadingWidget value) { wrapperContained.loading = value.wrapperContained; }
+// public static yarnwrap.client.gui.widget.LoadingWidget loading() { return new yarnwrap.client.gui.widget.LoadingWidget(net.minecraft.client.realms.gui.screen.RealmsLongRunningMcoTaskScreen.loading); }
+// public static void loading(yarnwrap.client.gui.widget.LoadingWidget value, ) { net.minecraft.client.realms.gui.screen.RealmsLongRunningMcoTaskScreen.loading = value.wrapperContained; }
 
 // public java.util.List tasks() { return wrapperContained.tasks; }
 // public void tasks(java.util.List value) { wrapperContained.tasks = value; }

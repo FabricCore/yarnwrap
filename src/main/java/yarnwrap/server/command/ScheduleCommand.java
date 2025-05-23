@@ -16,18 +16,17 @@ public class ScheduleCommand { public net.minecraft.server.command.ScheduleComma
 // public static com.mojang.brigadier.suggestion.SuggestionProvider SUGGESTION_PROVIDER() { return net.minecraft.server.command.ScheduleCommand.SUGGESTION_PROVIDER; }
 // public static void SUGGESTION_PROVIDER(com.mojang.brigadier.suggestion.SuggestionProvider value, ) { net.minecraft.server.command.ScheduleCommand.SUGGESTION_PROVIDER = value; }
 
+// public com.mojang.brigadier.exceptions.SimpleCommandExceptionType MACRO_EXCEPTION() { return wrapperContained.MACRO_EXCEPTION; }
+// public void MACRO_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.MACRO_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType MACRO_EXCEPTION() { return net.minecraft.server.command.ScheduleCommand.MACRO_EXCEPTION; }
+// public static void MACRO_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value, ) { net.minecraft.server.command.ScheduleCommand.MACRO_EXCEPTION = value; }
+
 // public int execute(yarnwrap.server.command.ServerCommandSource source,com.mojang.datafixers.util.Pair function,int time,boolean replace) { return wrapperContained.execute(source.wrapperContained,function,time,replace); }
 // public static int execute(yarnwrap.server.command.ServerCommandSource source,com.mojang.datafixers.util.Pair function,int time,boolean replace, ) { return net.minecraft.server.command.ScheduleCommand.execute(source.wrapperContained,function,time,replace); }
 // public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.ScheduleCommand.register(dispatcher); }
 // public int method_13568(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13568(context); }
 // public static int method_13568(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ScheduleCommand.method_13568(context); }
-// public boolean method_13569(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13569(source.wrapperContained); }
-// public static boolean method_13569(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.ScheduleCommand.method_13569(source.wrapperContained); }
-// public void method_13570(yarnwrap.util.Identifier functions) { wrapperContained.method_13570(functions.wrapperContained); }
-// public static void method_13570(yarnwrap.util.Identifier functions, ) { net.minecraft.server.command.ScheduleCommand.method_13570(functions.wrapperContained); }
-// public void method_13571(yarnwrap.util.Identifier function2) { wrapperContained.method_13571(function2.wrapperContained); }
-// public static void method_13571(yarnwrap.util.Identifier function2, ) { net.minecraft.server.command.ScheduleCommand.method_13571(function2.wrapperContained); }
 // public int clearEvent(yarnwrap.server.command.ServerCommandSource source,java.lang.String eventName) { return wrapperContained.clearEvent(source.wrapperContained,eventName); }
 // public static int clearEvent(yarnwrap.server.command.ServerCommandSource source,java.lang.String eventName, ) { return net.minecraft.server.command.ScheduleCommand.clearEvent(source.wrapperContained,eventName); }
 // public int method_22834(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_22834(context); }
@@ -36,9 +35,9 @@ public class ScheduleCommand { public net.minecraft.server.command.ScheduleComma
 // public static java.util.concurrent.CompletableFuture method_22835(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.command.ScheduleCommand.method_22835(context,builder); }
 // public com.mojang.brigadier.Message method_22836(java.lang.Object eventName) { return wrapperContained.method_22836(eventName); }
 // public static com.mojang.brigadier.Message method_22836(java.lang.Object eventName, ) { return net.minecraft.server.command.ScheduleCommand.method_22836(eventName); }
-// public int method_22837(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_22837(context); }
-// public static int method_22837(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ScheduleCommand.method_22837(context); }
-// public int method_22838(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_22838(context); }
-// public static int method_22838(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ScheduleCommand.method_22838(context); }
+// public int method_71690(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_71690(context); }
+// public static int method_71690(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ScheduleCommand.method_71690(context); }
+// public int method_71691(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_71691(context); }
+// public static int method_71691(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ScheduleCommand.method_71691(context); }
 
 }

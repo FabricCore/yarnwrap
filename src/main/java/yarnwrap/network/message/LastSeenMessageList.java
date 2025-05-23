@@ -22,5 +22,7 @@ public Object pack(yarnwrap.network.message.MessageSignatureStorage storage) { r
 // public static Object pack(yarnwrap.network.message.MessageSignatureStorage storage, ) { return net.minecraft.network.message.LastSeenMessageList.pack(storage.wrapperContained); }
 // public Object method_46259(yarnwrap.network.message.MessageSignatureStorage signature) { return wrapperContained.method_46259(signature.wrapperContained); }
 // public static Object method_46259(yarnwrap.network.message.MessageSignatureStorage signature, ) { return net.minecraft.network.message.LastSeenMessageList.method_46259(signature.wrapperContained); }
+public byte calculateChecksum() { return wrapperContained.calculateChecksum(); }
+// public static byte calculateChecksum() { return net.minecraft.network.message.LastSeenMessageList.calculateChecksum(); }
 
 }

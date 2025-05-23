@@ -26,20 +26,20 @@ public class AllayEntity { public net.minecraft.entity.passive.AllayEntity wrapp
 // public static com.google.common.collect.ImmutableList MEMORY_MODULES() { return net.minecraft.entity.passive.AllayEntity.MEMORY_MODULES; }
 // public static void MEMORY_MODULES(com.google.common.collect.ImmutableList value, ) { net.minecraft.entity.passive.AllayEntity.MEMORY_MODULES = value; }
 
+// public float itemHoldAnimationTicks() { return wrapperContained.itemHoldAnimationTicks; }
+// public void itemHoldAnimationTicks(float value) { wrapperContained.itemHoldAnimationTicks = value; }
+// public static float itemHoldAnimationTicks() { return net.minecraft.entity.passive.AllayEntity.itemHoldAnimationTicks; }
+// public static void itemHoldAnimationTicks(float value, ) { net.minecraft.entity.passive.AllayEntity.itemHoldAnimationTicks = value; }
+
+// public float lastItemHoldAnimationTicks() { return wrapperContained.lastItemHoldAnimationTicks; }
+// public void lastItemHoldAnimationTicks(float value) { wrapperContained.lastItemHoldAnimationTicks = value; }
+// public static float lastItemHoldAnimationTicks() { return net.minecraft.entity.passive.AllayEntity.lastItemHoldAnimationTicks; }
+// public static void lastItemHoldAnimationTicks(float value, ) { net.minecraft.entity.passive.AllayEntity.lastItemHoldAnimationTicks = value; }
+
 // public com.google.common.collect.ImmutableList THROW_SOUND_PITCHES() { return wrapperContained.THROW_SOUND_PITCHES; }
 // public void THROW_SOUND_PITCHES(com.google.common.collect.ImmutableList value) { wrapperContained.THROW_SOUND_PITCHES = value; }
 public static com.google.common.collect.ImmutableList THROW_SOUND_PITCHES() { return net.minecraft.entity.passive.AllayEntity.THROW_SOUND_PITCHES; }
 // public static void THROW_SOUND_PITCHES(com.google.common.collect.ImmutableList value, ) { net.minecraft.entity.passive.AllayEntity.THROW_SOUND_PITCHES = value; }
-
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.entity.passive.AllayEntity.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.entity.passive.AllayEntity.LOGGER = value; }
-
-// public yarnwrap.recipe.Ingredient DUPLICATION_INGREDIENT() { return new yarnwrap.recipe.Ingredient(wrapperContained.DUPLICATION_INGREDIENT); }
-// public void DUPLICATION_INGREDIENT(yarnwrap.recipe.Ingredient value) { wrapperContained.DUPLICATION_INGREDIENT = value.wrapperContained; }
-// public static yarnwrap.recipe.Ingredient DUPLICATION_INGREDIENT() { return new yarnwrap.recipe.Ingredient(net.minecraft.entity.passive.AllayEntity.DUPLICATION_INGREDIENT); }
-// public static void DUPLICATION_INGREDIENT(yarnwrap.recipe.Ingredient value, ) { net.minecraft.entity.passive.AllayEntity.DUPLICATION_INGREDIENT = value.wrapperContained; }
 
 // public int DUPLICATION_COOLDOWN() { return wrapperContained.DUPLICATION_COOLDOWN; }
 // public void DUPLICATION_COOLDOWN(int value) { wrapperContained.DUPLICATION_COOLDOWN = value; }
@@ -81,10 +81,25 @@ public static com.google.common.collect.ImmutableList THROW_SOUND_PITCHES() { re
 // public static float danceTicks() { return net.minecraft.entity.passive.AllayEntity.danceTicks; }
 // public static void danceTicks(float value, ) { net.minecraft.entity.passive.AllayEntity.danceTicks = value; }
 
+// public float spinningAnimationTicks() { return wrapperContained.spinningAnimationTicks; }
+// public void spinningAnimationTicks(float value) { wrapperContained.spinningAnimationTicks = value; }
+// public static float spinningAnimationTicks() { return net.minecraft.entity.passive.AllayEntity.spinningAnimationTicks; }
+// public static void spinningAnimationTicks(float value, ) { net.minecraft.entity.passive.AllayEntity.spinningAnimationTicks = value; }
+
+// public float lastSpinningAnimationTicks() { return wrapperContained.lastSpinningAnimationTicks; }
+// public void lastSpinningAnimationTicks(float value) { wrapperContained.lastSpinningAnimationTicks = value; }
+// public static float lastSpinningAnimationTicks() { return net.minecraft.entity.passive.AllayEntity.lastSpinningAnimationTicks; }
+// public static void lastSpinningAnimationTicks(float value, ) { net.minecraft.entity.passive.AllayEntity.lastSpinningAnimationTicks = value; }
+
 // public Object vibrationListenerData() { return wrapperContained.vibrationListenerData; }
 // // public void vibrationListenerData(Object value) { wrapperContained.vibrationListenerData = value; }
 // // public static Object vibrationListenerData() { return net.minecraft.entity.passive.AllayEntity.vibrationListenerData; }
 // // public static void vibrationListenerData(Object value, ) { net.minecraft.entity.passive.AllayEntity.vibrationListenerData = value; }
+
+// public int DEFAULT_DUPLICATION_COOLDOWN() { return wrapperContained.DEFAULT_DUPLICATION_COOLDOWN; }
+// public void DEFAULT_DUPLICATION_COOLDOWN(int value) { wrapperContained.DEFAULT_DUPLICATION_COOLDOWN = value; }
+// public static int DEFAULT_DUPLICATION_COOLDOWN() { return net.minecraft.entity.passive.AllayEntity.DEFAULT_DUPLICATION_COOLDOWN; }
+// public static void DEFAULT_DUPLICATION_COOLDOWN(int value, ) { net.minecraft.entity.passive.AllayEntity.DEFAULT_DUPLICATION_COOLDOWN = value; }
 
 // public boolean isItemPickupCoolingDown() { return wrapperContained.isItemPickupCoolingDown(); }
 // public static boolean isItemPickupCoolingDown() { return net.minecraft.entity.passive.AllayEntity.isItemPickupCoolingDown(); }
@@ -92,6 +107,8 @@ public static com.google.common.collect.ImmutableList THROW_SOUND_PITCHES() { re
 public static Object createAllayAttributes() { return net.minecraft.entity.passive.AllayEntity.createAllayAttributes(); }
 public boolean isHoldingItem() { return wrapperContained.isHoldingItem(); }
 // public static boolean isHoldingItem() { return net.minecraft.entity.passive.AllayEntity.isHoldingItem(); }
+public float getItemHoldAnimationTicks(float tickProgress) { return wrapperContained.getItemHoldAnimationTicks(tickProgress); }
+// public static float getItemHoldAnimationTicks(float tickProgress, ) { return net.minecraft.entity.passive.AllayEntity.getItemHoldAnimationTicks(tickProgress); }
 // public void decrementStackUnlessInCreative(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack stack) { wrapperContained.decrementStackUnlessInCreative(player.wrapperContained,stack.wrapperContained); }
 // public static void decrementStackUnlessInCreative(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.passive.AllayEntity.decrementStackUnlessInCreative(player.wrapperContained,stack.wrapperContained); }
 public void updateJukeboxPos(yarnwrap.util.math.BlockPos jukeboxPos,boolean playing) { wrapperContained.updateJukeboxPos(jukeboxPos.wrapperContained,playing); }
@@ -110,15 +127,21 @@ public boolean isSpinning() { return wrapperContained.isSpinning(); }
 // public static void startDuplicationCooldown() { net.minecraft.entity.passive.AllayEntity.startDuplicationCooldown(); }
 // public boolean canDuplicate() { return wrapperContained.canDuplicate(); }
 // public static boolean canDuplicate() { return net.minecraft.entity.passive.AllayEntity.canDuplicate(); }
-// public boolean matchesDuplicationIngredient(yarnwrap.item.ItemStack stack) { return wrapperContained.matchesDuplicationIngredient(stack.wrapperContained); }
-// public static boolean matchesDuplicationIngredient(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.passive.AllayEntity.matchesDuplicationIngredient(stack.wrapperContained); }
 public void setDancing(boolean dancing) { wrapperContained.setDancing(dancing); }
 // public static void setDancing(boolean dancing, ) { net.minecraft.entity.passive.AllayEntity.setDancing(dancing); }
+public float getSpinningAnimationTicks(float tickProgress) { return wrapperContained.getSpinningAnimationTicks(tickProgress); }
+// public static float getSpinningAnimationTicks(float tickProgress, ) { return net.minecraft.entity.passive.AllayEntity.getSpinningAnimationTicks(tickProgress); }
 // public void addHeartParticle() { wrapperContained.addHeartParticle(); }
 // public static void addHeartParticle() { net.minecraft.entity.passive.AllayEntity.addHeartParticle(); }
 // public boolean areItemsEqual(yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack stack2) { return wrapperContained.areItemsEqual(stack.wrapperContained,stack2.wrapperContained); }
 // public static boolean areItemsEqual(yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack stack2, ) { return net.minecraft.entity.passive.AllayEntity.areItemsEqual(stack.wrapperContained,stack2.wrapperContained); }
 // public boolean areDifferentPotions(yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack stack2) { return wrapperContained.areDifferentPotions(stack.wrapperContained,stack2.wrapperContained); }
 // public static boolean areDifferentPotions(yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack stack2, ) { return net.minecraft.entity.passive.AllayEntity.areDifferentPotions(stack.wrapperContained,stack2.wrapperContained); }
+// public void method_64454(yarnwrap.server.world.ServerWorld stack) { wrapperContained.method_64454(stack.wrapperContained); }
+// public static void method_64454(yarnwrap.server.world.ServerWorld stack, ) { net.minecraft.entity.passive.AllayEntity.method_64454(stack.wrapperContained); }
+// public boolean isLikedBy(yarnwrap.entity.Entity player) { return wrapperContained.isLikedBy(player.wrapperContained); }
+// public static boolean isLikedBy(yarnwrap.entity.Entity player, ) { return net.minecraft.entity.passive.AllayEntity.isLikedBy(player.wrapperContained); }
+// public void setDuplicationCooldown(long duplicationCooldown) { wrapperContained.setDuplicationCooldown(duplicationCooldown); }
+// public static void setDuplicationCooldown(long duplicationCooldown, ) { net.minecraft.entity.passive.AllayEntity.setDuplicationCooldown(duplicationCooldown); }
 
 }

@@ -1,10 +1,10 @@
 package yarnwrap.block;
 public class CarvedPumpkinBlock { public net.minecraft.block.CarvedPumpkinBlock wrapperContained; public CarvedPumpkinBlock(net.minecraft.block.CarvedPumpkinBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.CarvedPumpkinBlock.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.CarvedPumpkinBlock.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.CarvedPumpkinBlock.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.CarvedPumpkinBlock.FACING = value.wrapperContained; }
 
 // public yarnwrap.block.pattern.BlockPattern snowGolemDispenserPattern() { return new yarnwrap.block.pattern.BlockPattern(wrapperContained.snowGolemDispenserPattern); }
 // public void snowGolemDispenserPattern(yarnwrap.block.pattern.BlockPattern value) { wrapperContained.snowGolemDispenserPattern = value.wrapperContained; }
@@ -36,16 +36,6 @@ public static yarnwrap.state.property.DirectionProperty FACING() { return new ya
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.CarvedPumpkinBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.CarvedPumpkinBlock.CODEC = value; }
 
-// public void breakPatternBlocks(yarnwrap.world.World world,Object patternResult) { wrapperContained.breakPatternBlocks(world.wrapperContained,patternResult); }
-// public static void breakPatternBlocks(yarnwrap.world.World world,Object patternResult, ) { net.minecraft.block.CarvedPumpkinBlock.breakPatternBlocks(world.wrapperContained,patternResult); }
-// public void spawnEntity(yarnwrap.world.World world,Object patternResult,yarnwrap.entity.Entity entity,yarnwrap.util.math.BlockPos pos) { wrapperContained.spawnEntity(world.wrapperContained,patternResult,entity.wrapperContained,pos.wrapperContained); }
-// public static void spawnEntity(yarnwrap.world.World world,Object patternResult,yarnwrap.entity.Entity entity,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.CarvedPumpkinBlock.spawnEntity(world.wrapperContained,patternResult,entity.wrapperContained,pos.wrapperContained); }
-// public void updatePatternBlocks(yarnwrap.world.World world,Object patternResult) { wrapperContained.updatePatternBlocks(world.wrapperContained,patternResult); }
-// public static void updatePatternBlocks(yarnwrap.world.World world,Object patternResult, ) { net.minecraft.block.CarvedPumpkinBlock.updatePatternBlocks(world.wrapperContained,patternResult); }
-// public boolean method_51167(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.method_51167(pos.wrapperContained); }
-// public static boolean method_51167(yarnwrap.block.pattern.CachedBlockPosition pos, ) { return net.minecraft.block.CarvedPumpkinBlock.method_51167(pos.wrapperContained); }
-// public boolean method_51168(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.method_51168(pos.wrapperContained); }
-// public static boolean method_51168(yarnwrap.block.pattern.CachedBlockPosition pos, ) { return net.minecraft.block.CarvedPumpkinBlock.method_51168(pos.wrapperContained); }
 // public yarnwrap.block.pattern.BlockPattern getIronGolemDispenserPattern() { return new yarnwrap.block.pattern.BlockPattern(wrapperContained.getIronGolemDispenserPattern()); }
 // public static yarnwrap.block.pattern.BlockPattern getIronGolemDispenserPattern() { return new yarnwrap.block.pattern.BlockPattern(net.minecraft.block.CarvedPumpkinBlock.getIronGolemDispenserPattern()); }
 // public boolean method_9728(yarnwrap.block.BlockState state) { return wrapperContained.method_9728(state.wrapperContained); }
@@ -60,5 +50,15 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static yarnwrap.block.pattern.BlockPattern getSnowGolemDispenserPattern() { return new yarnwrap.block.pattern.BlockPattern(net.minecraft.block.CarvedPumpkinBlock.getSnowGolemDispenserPattern()); }
 public boolean canDispense(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.canDispense(world.wrapperContained,pos.wrapperContained); }
 // public static boolean canDispense(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.CarvedPumpkinBlock.canDispense(world.wrapperContained,pos.wrapperContained); }
+// public void breakPatternBlocks(yarnwrap.world.World world,Object patternResult) { wrapperContained.breakPatternBlocks(world.wrapperContained,patternResult); }
+// public static void breakPatternBlocks(yarnwrap.world.World world,Object patternResult, ) { net.minecraft.block.CarvedPumpkinBlock.breakPatternBlocks(world.wrapperContained,patternResult); }
+// public void spawnEntity(yarnwrap.world.World world,Object patternResult,yarnwrap.entity.Entity entity,yarnwrap.util.math.BlockPos pos) { wrapperContained.spawnEntity(world.wrapperContained,patternResult,entity.wrapperContained,pos.wrapperContained); }
+// public static void spawnEntity(yarnwrap.world.World world,Object patternResult,yarnwrap.entity.Entity entity,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.CarvedPumpkinBlock.spawnEntity(world.wrapperContained,patternResult,entity.wrapperContained,pos.wrapperContained); }
+// public void updatePatternBlocks(yarnwrap.world.World world,Object patternResult) { wrapperContained.updatePatternBlocks(world.wrapperContained,patternResult); }
+// public static void updatePatternBlocks(yarnwrap.world.World world,Object patternResult, ) { net.minecraft.block.CarvedPumpkinBlock.updatePatternBlocks(world.wrapperContained,patternResult); }
+// public boolean method_51167(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.method_51167(pos.wrapperContained); }
+// public static boolean method_51167(yarnwrap.block.pattern.CachedBlockPosition pos, ) { return net.minecraft.block.CarvedPumpkinBlock.method_51167(pos.wrapperContained); }
+// public boolean method_51168(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.method_51168(pos.wrapperContained); }
+// public static boolean method_51168(yarnwrap.block.pattern.CachedBlockPosition pos, ) { return net.minecraft.block.CarvedPumpkinBlock.method_51168(pos.wrapperContained); }
 
 }

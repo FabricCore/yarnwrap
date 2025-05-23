@@ -11,11 +11,6 @@ public class GameMenuScreen { public net.minecraft.client.gui.screen.GameMenuScr
 // public static yarnwrap.client.gui.widget.ButtonWidget exitButton() { return new yarnwrap.client.gui.widget.ButtonWidget(net.minecraft.client.gui.screen.GameMenuScreen.exitButton); }
 // public static void exitButton(yarnwrap.client.gui.widget.ButtonWidget value, ) { net.minecraft.client.gui.screen.GameMenuScreen.exitButton = value.wrapperContained; }
 
-// public yarnwrap.text.Text RETURN_TO_MENU_TEXT() { return new yarnwrap.text.Text(wrapperContained.RETURN_TO_MENU_TEXT); }
-// public void RETURN_TO_MENU_TEXT(yarnwrap.text.Text value) { wrapperContained.RETURN_TO_MENU_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text RETURN_TO_MENU_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.GameMenuScreen.RETURN_TO_MENU_TEXT); }
-// public static void RETURN_TO_MENU_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.GameMenuScreen.RETURN_TO_MENU_TEXT = value.wrapperContained; }
-
 // public yarnwrap.text.Text SAVING_LEVEL_TEXT() { return new yarnwrap.text.Text(wrapperContained.SAVING_LEVEL_TEXT); }
 // public void SAVING_LEVEL_TEXT(yarnwrap.text.Text value) { wrapperContained.SAVING_LEVEL_TEXT = value.wrapperContained; }
 // public static yarnwrap.text.Text SAVING_LEVEL_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.GameMenuScreen.SAVING_LEVEL_TEXT); }
@@ -101,15 +96,15 @@ public class GameMenuScreen { public net.minecraft.client.gui.screen.GameMenuScr
 // public static yarnwrap.util.Identifier DRAFT_REPORT_ICON_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.GameMenuScreen.DRAFT_REPORT_ICON_TEXTURE); }
 // public static void DRAFT_REPORT_ICON_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.GameMenuScreen.DRAFT_REPORT_ICON_TEXTURE = value.wrapperContained; }
 
-// public yarnwrap.text.Text SERVER_LINKS_TEXT() { return new yarnwrap.text.Text(wrapperContained.SERVER_LINKS_TEXT); }
-// public void SERVER_LINKS_TEXT(yarnwrap.text.Text value) { wrapperContained.SERVER_LINKS_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text SERVER_LINKS_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.GameMenuScreen.SERVER_LINKS_TEXT); }
-// public static void SERVER_LINKS_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.GameMenuScreen.SERVER_LINKS_TEXT = value.wrapperContained; }
-
 // public yarnwrap.text.Text FEEDBACK_TEXT() { return new yarnwrap.text.Text(wrapperContained.FEEDBACK_TEXT); }
 // public void FEEDBACK_TEXT(yarnwrap.text.Text value) { wrapperContained.FEEDBACK_TEXT = value.wrapperContained; }
 // public static yarnwrap.text.Text FEEDBACK_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.GameMenuScreen.FEEDBACK_TEXT); }
 // public static void FEEDBACK_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.GameMenuScreen.FEEDBACK_TEXT = value.wrapperContained; }
+
+// public yarnwrap.client.gui.tooltip.Tooltip CUSTOM_OPTIONS_TOOLTIP() { return new yarnwrap.client.gui.tooltip.Tooltip(wrapperContained.CUSTOM_OPTIONS_TOOLTIP); }
+// public void CUSTOM_OPTIONS_TOOLTIP(yarnwrap.client.gui.tooltip.Tooltip value) { wrapperContained.CUSTOM_OPTIONS_TOOLTIP = value.wrapperContained; }
+// public static yarnwrap.client.gui.tooltip.Tooltip CUSTOM_OPTIONS_TOOLTIP() { return new yarnwrap.client.gui.tooltip.Tooltip(net.minecraft.client.gui.screen.GameMenuScreen.CUSTOM_OPTIONS_TOOLTIP); }
+// public static void CUSTOM_OPTIONS_TOOLTIP(yarnwrap.client.gui.tooltip.Tooltip value, ) { net.minecraft.client.gui.screen.GameMenuScreen.CUSTOM_OPTIONS_TOOLTIP = value.wrapperContained; }
 
 public GameMenuScreen(boolean showMenu) { this.wrapperContained = new net.minecraft.client.gui.screen.GameMenuScreen(showMenu); }
 // public void method_19836(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19836(button.wrapperContained); }
@@ -130,5 +125,13 @@ public boolean shouldShowMenu() { return wrapperContained.shouldShowMenu(); }
 // public static boolean shouldShowMenu() { return net.minecraft.client.gui.screen.GameMenuScreen.shouldShowMenu(); }
 // public void addFeedbackAndBugsButtons(yarnwrap.client.gui.screen.Screen parentScreen,Object gridAdder) { wrapperContained.addFeedbackAndBugsButtons(parentScreen.wrapperContained,gridAdder); }
 // public static void addFeedbackAndBugsButtons(yarnwrap.client.gui.screen.Screen parentScreen,Object gridAdder, ) { net.minecraft.client.gui.screen.GameMenuScreen.addFeedbackAndBugsButtons(parentScreen.wrapperContained,gridAdder); }
+// public java.util.Optional getCustomOptionsDialog() { return wrapperContained.getCustomOptionsDialog(); }
+// public static java.util.Optional getCustomOptionsDialog() { return net.minecraft.client.gui.screen.GameMenuScreen.getCustomOptionsDialog(); }
+// public void method_71840(yarnwrap.client.MinecraftClient button) { wrapperContained.method_71840(button.wrapperContained); }
+// public static void method_71840(yarnwrap.client.MinecraftClient button, ) { net.minecraft.client.gui.screen.GameMenuScreen.method_71840(button.wrapperContained); }
+// public void addFeedbackAndCustomOptionsButtons(yarnwrap.client.MinecraftClient client,yarnwrap.registry.entry.RegistryEntry customOptions,Object gridAdder) { wrapperContained.addFeedbackAndCustomOptionsButtons(client.wrapperContained,customOptions.wrapperContained,gridAdder); }
+// public static void addFeedbackAndCustomOptionsButtons(yarnwrap.client.MinecraftClient client,yarnwrap.registry.entry.RegistryEntry customOptions,Object gridAdder, ) { net.minecraft.client.gui.screen.GameMenuScreen.addFeedbackAndCustomOptionsButtons(client.wrapperContained,customOptions.wrapperContained,gridAdder); }
+// public boolean shouldShowNowPlayingToast() { return wrapperContained.shouldShowNowPlayingToast(); }
+// public static boolean shouldShowNowPlayingToast() { return net.minecraft.client.gui.screen.GameMenuScreen.shouldShowNowPlayingToast(); }
 
 }

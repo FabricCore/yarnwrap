@@ -25,5 +25,7 @@ public int getThickness() { return wrapperContained.getThickness(); }
 // public static com.mojang.datafixers.kinds.App method_28909(Object instance, ) { return net.minecraft.world.gen.chunk.FlatChunkGeneratorLayer.method_28909(instance); }
 // public yarnwrap.block.Block method_28910(yarnwrap.world.gen.chunk.FlatChunkGeneratorLayer layer) { return new yarnwrap.block.Block(wrapperContained.method_28910(layer.wrapperContained)); }
 // public static yarnwrap.block.Block method_28910(yarnwrap.world.gen.chunk.FlatChunkGeneratorLayer layer, ) { return new yarnwrap.block.Block(net.minecraft.world.gen.chunk.FlatChunkGeneratorLayer.method_28910(layer.wrapperContained)); }
+// public yarnwrap.world.gen.chunk.FlatChunkGeneratorLayer withMaxThickness(int maxThickness) { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorLayer(wrapperContained.withMaxThickness(maxThickness)); }
+// public static yarnwrap.world.gen.chunk.FlatChunkGeneratorLayer withMaxThickness(int maxThickness, ) { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorLayer(net.minecraft.world.gen.chunk.FlatChunkGeneratorLayer.withMaxThickness(maxThickness)); }
 
 }

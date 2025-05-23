@@ -75,8 +75,8 @@ public PlayerAdvancementTracker(com.mojang.datafixers.DataFixer dataFixer,yarnwr
 // public static void beginTracking(yarnwrap.advancement.AdvancementEntry advancement, ) { net.minecraft.advancement.PlayerAdvancementTracker.beginTracking(advancement.wrapperContained); }
 public void setOwner(yarnwrap.server.network.ServerPlayerEntity owner) { wrapperContained.setOwner(owner.wrapperContained); }
 // public static void setOwner(yarnwrap.server.network.ServerPlayerEntity owner, ) { net.minecraft.advancement.PlayerAdvancementTracker.setOwner(owner.wrapperContained); }
-public void sendUpdate(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.sendUpdate(player.wrapperContained); }
-// public static void sendUpdate(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.advancement.PlayerAdvancementTracker.sendUpdate(player.wrapperContained); }
+public void sendUpdate(yarnwrap.server.network.ServerPlayerEntity player,boolean showToast) { wrapperContained.sendUpdate(player.wrapperContained,showToast); }
+// public static void sendUpdate(yarnwrap.server.network.ServerPlayerEntity player,boolean showToast, ) { net.minecraft.advancement.PlayerAdvancementTracker.sendUpdate(player.wrapperContained,showToast); }
 public boolean grantCriterion(yarnwrap.advancement.AdvancementEntry advancement,java.lang.String criterionName) { return wrapperContained.grantCriterion(advancement.wrapperContained,criterionName); }
 // public static boolean grantCriterion(yarnwrap.advancement.AdvancementEntry advancement,java.lang.String criterionName, ) { return net.minecraft.advancement.PlayerAdvancementTracker.grantCriterion(advancement.wrapperContained,criterionName); }
 // public void endTrackingCompleted(yarnwrap.advancement.AdvancementEntry advancement) { wrapperContained.endTrackingCompleted(advancement.wrapperContained); }

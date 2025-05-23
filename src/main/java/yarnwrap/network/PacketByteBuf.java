@@ -57,6 +57,10 @@ public boolean getBoolean(int index) { return wrapperContained.getBoolean(index)
 // public static boolean getBoolean(int index, ) { return net.minecraft.network.PacketByteBuf.getBoolean(index); }
 public byte getByte(int index) { return wrapperContained.getByte(index); }
 // public static byte getByte(int index, ) { return net.minecraft.network.PacketByteBuf.getByte(index); }
+// public io.netty.buffer.ByteBuf getBytes(int index,byte bytes) { return wrapperContained.getBytes(index,bytes); }
+// public static io.netty.buffer.ByteBuf getBytes(int index,byte bytes, ) { return net.minecraft.network.PacketByteBuf.getBytes(index,bytes); }
+// public io.netty.buffer.ByteBuf getBytes(int index,byte bytes,int outputIndex,int length) { return wrapperContained.getBytes(index,bytes,outputIndex,length); }
+// public static io.netty.buffer.ByteBuf getBytes(int index,byte bytes,int outputIndex,int length, ) { return net.minecraft.network.PacketByteBuf.getBytes(index,bytes,outputIndex,length); }
 public io.netty.buffer.ByteBuf getBytes(int index,io.netty.buffer.ByteBuf buf) { return wrapperContained.getBytes(index,buf); }
 // public static io.netty.buffer.ByteBuf getBytes(int index,io.netty.buffer.ByteBuf buf, ) { return net.minecraft.network.PacketByteBuf.getBytes(index,buf); }
 public io.netty.buffer.ByteBuf getBytes(int index,io.netty.buffer.ByteBuf buf,int length) { return wrapperContained.getBytes(index,buf,length); }
@@ -71,10 +75,6 @@ public io.netty.buffer.ByteBuf getBytes(int index,java.nio.ByteBuffer buf) { ret
 // public static int getBytes(int index,java.nio.channels.FileChannel channel,long pos,int length, ) { return net.minecraft.network.PacketByteBuf.getBytes(index,channel,pos,length); }
 // public int getBytes(int index,java.nio.channels.GatheringByteChannel channel,int length) { return wrapperContained.getBytes(index,channel,length); }
 // public static int getBytes(int index,java.nio.channels.GatheringByteChannel channel,int length, ) { return net.minecraft.network.PacketByteBuf.getBytes(index,channel,length); }
-// public io.netty.buffer.ByteBuf getBytes(int index,byte bytes) { return wrapperContained.getBytes(index,bytes); }
-// public static io.netty.buffer.ByteBuf getBytes(int index,byte bytes, ) { return net.minecraft.network.PacketByteBuf.getBytes(index,bytes); }
-// public io.netty.buffer.ByteBuf getBytes(int index,byte bytes,int outputIndex,int length) { return wrapperContained.getBytes(index,bytes,outputIndex,length); }
-// public static io.netty.buffer.ByteBuf getBytes(int index,byte bytes,int outputIndex,int length, ) { return net.minecraft.network.PacketByteBuf.getBytes(index,bytes,outputIndex,length); }
 public char getChar(int index) { return wrapperContained.getChar(index); }
 // public static char getChar(int index, ) { return net.minecraft.network.PacketByteBuf.getChar(index); }
 public java.lang.CharSequence getCharSequence(int index,int length,java.nio.charset.Charset charset) { return wrapperContained.getCharSequence(index,length,charset); }
@@ -125,8 +125,8 @@ public int[] readIntArray() { return wrapperContained.readIntArray(); }
 // public static int[] readIntArray() { return net.minecraft.network.PacketByteBuf.readIntArray(); }
 public yarnwrap.network.PacketByteBuf writeString(java.lang.String string,int maxLength) { return new yarnwrap.network.PacketByteBuf(wrapperContained.writeString(string,maxLength)); }
 // public static yarnwrap.network.PacketByteBuf writeString(java.lang.String string,int maxLength, ) { return new yarnwrap.network.PacketByteBuf(net.minecraft.network.PacketByteBuf.writeString(string,maxLength)); }
-// public yarnwrap.network.PacketByteBuf writeLongArray(long array) { return new yarnwrap.network.PacketByteBuf(wrapperContained.writeLongArray(array)); }
-// public static yarnwrap.network.PacketByteBuf writeLongArray(long array, ) { return new yarnwrap.network.PacketByteBuf(net.minecraft.network.PacketByteBuf.writeLongArray(array)); }
+// public yarnwrap.network.PacketByteBuf writeLongArray(long values) { return new yarnwrap.network.PacketByteBuf(wrapperContained.writeLongArray(values)); }
+// public static yarnwrap.network.PacketByteBuf writeLongArray(long values, ) { return new yarnwrap.network.PacketByteBuf(net.minecraft.network.PacketByteBuf.writeLongArray(values)); }
 public java.util.UUID readUuid() { return wrapperContained.readUuid(); }
 // public static java.util.UUID readUuid() { return net.minecraft.network.PacketByteBuf.readUuid(); }
 public yarnwrap.network.PacketByteBuf writeVarLong(long value) { return new yarnwrap.network.PacketByteBuf(wrapperContained.writeVarLong(value)); }
@@ -147,8 +147,8 @@ public int[] readIntArray(int maxSize) { return wrapperContained.readIntArray(ma
 // public static int[] readIntArray(int maxSize, ) { return net.minecraft.network.PacketByteBuf.readIntArray(maxSize); }
 public java.lang.String readString(int maxLength) { return wrapperContained.readString(maxLength); }
 // public static java.lang.String readString(int maxLength, ) { return net.minecraft.network.PacketByteBuf.readString(maxLength); }
-// public long[] readLongArray(long toArray) { return wrapperContained.readLongArray(toArray); }
-// public static long[] readLongArray(long toArray, ) { return net.minecraft.network.PacketByteBuf.readLongArray(toArray); }
+// public long[] readLongArray(io.netty.buffer.ByteBuf buf) { return wrapperContained.readLongArray(buf); }
+// public static long[] readLongArray(io.netty.buffer.ByteBuf buf, ) { return net.minecraft.network.PacketByteBuf.readLongArray(buf); }
 public java.util.Date readDate() { return wrapperContained.readDate(); }
 // public static java.util.Date readDate() { return net.minecraft.network.PacketByteBuf.readDate(); }
 public byte[] readByteArray(int maxSize) { return wrapperContained.readByteArray(maxSize); }
@@ -159,8 +159,6 @@ public yarnwrap.network.PacketByteBuf writeVarInt(int value) { return new yarnwr
 // public static yarnwrap.network.PacketByteBuf writeIntArray(int array, ) { return new yarnwrap.network.PacketByteBuf(net.minecraft.network.PacketByteBuf.writeIntArray(array)); }
 public yarnwrap.network.PacketByteBuf writeBlockPos(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.network.PacketByteBuf(wrapperContained.writeBlockPos(pos.wrapperContained)); }
 // public static yarnwrap.network.PacketByteBuf writeBlockPos(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.network.PacketByteBuf(net.minecraft.network.PacketByteBuf.writeBlockPos(pos.wrapperContained)); }
-// public long[] readLongArray(long toArray,int maxSize) { return wrapperContained.readLongArray(toArray,maxSize); }
-// public static long[] readLongArray(long toArray,int maxSize, ) { return net.minecraft.network.PacketByteBuf.readLongArray(toArray,maxSize); }
 public yarnwrap.util.Identifier readIdentifier() { return new yarnwrap.util.Identifier(wrapperContained.readIdentifier()); }
 // public static yarnwrap.util.Identifier readIdentifier() { return new yarnwrap.util.Identifier(net.minecraft.network.PacketByteBuf.readIdentifier()); }
 public yarnwrap.util.math.BlockPos readBlockPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.readBlockPos()); }
@@ -323,12 +321,46 @@ public yarnwrap.registry.RegistryKey readRegistryRefKey() { return new yarnwrap.
 // public static java.lang.Object readNullable(io.netty.buffer.ByteBuf buf,yarnwrap.network.codec.PacketDecoder reader, ) { return net.minecraft.network.PacketByteBuf.readNullable(buf,reader.wrapperContained); }
 // public void writeByteArray(io.netty.buffer.ByteBuf buf,byte array) { wrapperContained.writeByteArray(buf,array); }
 // public static void writeByteArray(io.netty.buffer.ByteBuf buf,byte array, ) { net.minecraft.network.PacketByteBuf.writeByteArray(buf,array); }
+// public void writeVec3d(io.netty.buffer.ByteBuf buf,yarnwrap.util.math.Vec3d vec) { wrapperContained.writeVec3d(buf,vec.wrapperContained); }
+// public static void writeVec3d(io.netty.buffer.ByteBuf buf,yarnwrap.util.math.Vec3d vec, ) { net.minecraft.network.PacketByteBuf.writeVec3d(buf,vec.wrapperContained); }
+// public void writeSyncId(io.netty.buffer.ByteBuf buf,int syncId) { wrapperContained.writeSyncId(buf,syncId); }
+// public static void writeSyncId(io.netty.buffer.ByteBuf buf,int syncId, ) { net.minecraft.network.PacketByteBuf.writeSyncId(buf,syncId); }
+// public yarnwrap.util.math.Vec3d readVec3d(io.netty.buffer.ByteBuf buf) { return new yarnwrap.util.math.Vec3d(wrapperContained.readVec3d(buf)); }
+// public static yarnwrap.util.math.Vec3d readVec3d(io.netty.buffer.ByteBuf buf, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.network.PacketByteBuf.readVec3d(buf)); }
+public void writeSyncId(int syncId) { wrapperContained.writeSyncId(syncId); }
+// public static void writeSyncId(int syncId, ) { net.minecraft.network.PacketByteBuf.writeSyncId(syncId); }
+// public int readSyncId(io.netty.buffer.ByteBuf buf) { return wrapperContained.readSyncId(buf); }
+// public static int readSyncId(io.netty.buffer.ByteBuf buf, ) { return net.minecraft.network.PacketByteBuf.readSyncId(buf); }
+public int readSyncId() { return wrapperContained.readSyncId(); }
+// public static int readSyncId() { return net.minecraft.network.PacketByteBuf.readSyncId(); }
+// public void writeChunkPos(io.netty.buffer.ByteBuf buf,yarnwrap.util.math.ChunkPos pos) { wrapperContained.writeChunkPos(buf,pos.wrapperContained); }
+// public static void writeChunkPos(io.netty.buffer.ByteBuf buf,yarnwrap.util.math.ChunkPos pos, ) { net.minecraft.network.PacketByteBuf.writeChunkPos(buf,pos.wrapperContained); }
+// public yarnwrap.util.math.ChunkPos readChunkPos(io.netty.buffer.ByteBuf buf) { return new yarnwrap.util.math.ChunkPos(wrapperContained.readChunkPos(buf)); }
+// public static yarnwrap.util.math.ChunkPos readChunkPos(io.netty.buffer.ByteBuf buf, ) { return new yarnwrap.util.math.ChunkPos(net.minecraft.network.PacketByteBuf.readChunkPos(buf)); }
+// public void writeLongArray(io.netty.buffer.ByteBuf buf,long values) { wrapperContained.writeLongArray(buf,values); }
+// public static void writeLongArray(io.netty.buffer.ByteBuf buf,long values, ) { net.minecraft.network.PacketByteBuf.writeLongArray(buf,values); }
+// public void writeFixedLengthLongArray(io.netty.buffer.ByteBuf buf,long values) { wrapperContained.writeFixedLengthLongArray(buf,values); }
+// public static void writeFixedLengthLongArray(io.netty.buffer.ByteBuf buf,long values, ) { net.minecraft.network.PacketByteBuf.writeFixedLengthLongArray(buf,values); }
+// public yarnwrap.network.PacketByteBuf writeFixedLengthLongArray(long values) { return new yarnwrap.network.PacketByteBuf(wrapperContained.writeFixedLengthLongArray(values)); }
+// public static yarnwrap.network.PacketByteBuf writeFixedLengthLongArray(long values, ) { return new yarnwrap.network.PacketByteBuf(net.minecraft.network.PacketByteBuf.writeFixedLengthLongArray(values)); }
+// public long[] readFixedLengthLongArray(io.netty.buffer.ByteBuf buf,long values) { return wrapperContained.readFixedLengthLongArray(buf,values); }
+// public static long[] readFixedLengthLongArray(io.netty.buffer.ByteBuf buf,long values, ) { return net.minecraft.network.PacketByteBuf.readFixedLengthLongArray(buf,values); }
+// public long[] readFixedLengthLongArray(long values) { return wrapperContained.readFixedLengthLongArray(values); }
+// public static long[] readFixedLengthLongArray(long values, ) { return net.minecraft.network.PacketByteBuf.readFixedLengthLongArray(values); }
+// public void writeEither(com.mojang.datafixers.util.Either either,yarnwrap.network.codec.PacketEncoder leftEncoder,yarnwrap.network.codec.PacketEncoder rightEncoder) { wrapperContained.writeEither(either,leftEncoder.wrapperContained,rightEncoder.wrapperContained); }
+// public static void writeEither(com.mojang.datafixers.util.Either either,yarnwrap.network.codec.PacketEncoder leftEncoder,yarnwrap.network.codec.PacketEncoder rightEncoder, ) { net.minecraft.network.PacketByteBuf.writeEither(either,leftEncoder.wrapperContained,rightEncoder.wrapperContained); }
+// public com.mojang.datafixers.util.Either readEither(yarnwrap.network.codec.PacketDecoder leftDecoder,yarnwrap.network.codec.PacketDecoder rightDecoder) { return wrapperContained.readEither(leftDecoder.wrapperContained,rightDecoder.wrapperContained); }
+// public static com.mojang.datafixers.util.Either readEither(yarnwrap.network.codec.PacketDecoder leftDecoder,yarnwrap.network.codec.PacketDecoder rightDecoder, ) { return net.minecraft.network.PacketByteBuf.readEither(leftDecoder.wrapperContained,rightDecoder.wrapperContained); }
 public java.nio.ByteBuffer nioBuffer(int index,int length) { return wrapperContained.nioBuffer(index,length); }
 // public static java.nio.ByteBuffer nioBuffer(int index,int length, ) { return net.minecraft.network.PacketByteBuf.nioBuffer(index,length); }
 public java.nio.ByteBuffer[] nioBuffers(int index,int length) { return wrapperContained.nioBuffers(index,length); }
 // public static java.nio.ByteBuffer[] nioBuffers(int index,int length, ) { return net.minecraft.network.PacketByteBuf.nioBuffers(index,length); }
 public io.netty.buffer.ByteBuf order(java.nio.ByteOrder byteOrder) { return wrapperContained.order(byteOrder); }
 // public static io.netty.buffer.ByteBuf order(java.nio.ByteOrder byteOrder, ) { return net.minecraft.network.PacketByteBuf.order(byteOrder); }
+public io.netty.buffer.ByteBuf readBytes(byte bytes) { return wrapperContained.readBytes(bytes); }
+// public static io.netty.buffer.ByteBuf readBytes(byte bytes, ) { return net.minecraft.network.PacketByteBuf.readBytes(bytes); }
+// public io.netty.buffer.ByteBuf readBytes(byte bytes,int outputIndex,int length) { return wrapperContained.readBytes(bytes,outputIndex,length); }
+// public static io.netty.buffer.ByteBuf readBytes(byte bytes,int outputIndex,int length, ) { return net.minecraft.network.PacketByteBuf.readBytes(bytes,outputIndex,length); }
 public io.netty.buffer.ByteBuf readBytes(int length) { return wrapperContained.readBytes(length); }
 // public static io.netty.buffer.ByteBuf readBytes(int length, ) { return net.minecraft.network.PacketByteBuf.readBytes(length); }
 public io.netty.buffer.ByteBuf readBytes(io.netty.buffer.ByteBuf buf) { return wrapperContained.readBytes(buf); }
@@ -345,18 +377,14 @@ public io.netty.buffer.ByteBuf readBytes(java.nio.ByteBuffer buf) { return wrapp
 // public static int readBytes(java.nio.channels.FileChannel channel,long pos,int length, ) { return net.minecraft.network.PacketByteBuf.readBytes(channel,pos,length); }
 // public int readBytes(java.nio.channels.GatheringByteChannel channel,int length) { return wrapperContained.readBytes(channel,length); }
 // public static int readBytes(java.nio.channels.GatheringByteChannel channel,int length, ) { return net.minecraft.network.PacketByteBuf.readBytes(channel,length); }
-public io.netty.buffer.ByteBuf readBytes(byte bytes) { return wrapperContained.readBytes(bytes); }
-// public static io.netty.buffer.ByteBuf readBytes(byte bytes, ) { return net.minecraft.network.PacketByteBuf.readBytes(bytes); }
-// public io.netty.buffer.ByteBuf readBytes(byte bytes,int outputIndex,int length) { return wrapperContained.readBytes(bytes,outputIndex,length); }
-// public static io.netty.buffer.ByteBuf readBytes(byte bytes,int outputIndex,int length, ) { return net.minecraft.network.PacketByteBuf.readBytes(bytes,outputIndex,length); }
 public java.lang.CharSequence readCharSequence(int length,java.nio.charset.Charset charset) { return wrapperContained.readCharSequence(length,charset); }
 // public static java.lang.CharSequence readCharSequence(int length,java.nio.charset.Charset charset, ) { return net.minecraft.network.PacketByteBuf.readCharSequence(length,charset); }
+public io.netty.buffer.ByteBuf readerIndex(int index) { return wrapperContained.readerIndex(index); }
+// public static io.netty.buffer.ByteBuf readerIndex(int index, ) { return net.minecraft.network.PacketByteBuf.readerIndex(index); }
 public io.netty.buffer.ByteBuf readRetainedSlice(int length) { return wrapperContained.readRetainedSlice(length); }
 // public static io.netty.buffer.ByteBuf readRetainedSlice(int length, ) { return net.minecraft.network.PacketByteBuf.readRetainedSlice(length); }
 public io.netty.buffer.ByteBuf readSlice(int length) { return wrapperContained.readSlice(length); }
 // public static io.netty.buffer.ByteBuf readSlice(int length, ) { return net.minecraft.network.PacketByteBuf.readSlice(length); }
-public io.netty.buffer.ByteBuf readerIndex(int index) { return wrapperContained.readerIndex(index); }
-// public static io.netty.buffer.ByteBuf readerIndex(int index, ) { return net.minecraft.network.PacketByteBuf.readerIndex(index); }
 public boolean release(int decrement) { return wrapperContained.release(decrement); }
 // public static boolean release(int decrement, ) { return net.minecraft.network.PacketByteBuf.release(decrement); }
 public io.netty.buffer.ByteBuf retain(int increment) { return wrapperContained.retain(increment); }
@@ -369,6 +397,10 @@ public io.netty.buffer.ByteBuf setBoolean(int index,boolean value) { return wrap
 // public static io.netty.buffer.ByteBuf setBoolean(int index,boolean value, ) { return net.minecraft.network.PacketByteBuf.setBoolean(index,value); }
 public io.netty.buffer.ByteBuf setByte(int index,int value) { return wrapperContained.setByte(index,value); }
 // public static io.netty.buffer.ByteBuf setByte(int index,int value, ) { return net.minecraft.network.PacketByteBuf.setByte(index,value); }
+// public io.netty.buffer.ByteBuf setBytes(int index,byte bytes) { return wrapperContained.setBytes(index,bytes); }
+// public static io.netty.buffer.ByteBuf setBytes(int index,byte bytes, ) { return net.minecraft.network.PacketByteBuf.setBytes(index,bytes); }
+// public io.netty.buffer.ByteBuf setBytes(int index,byte bytes,int sourceIndex,int length) { return wrapperContained.setBytes(index,bytes,sourceIndex,length); }
+// public static io.netty.buffer.ByteBuf setBytes(int index,byte bytes,int sourceIndex,int length, ) { return net.minecraft.network.PacketByteBuf.setBytes(index,bytes,sourceIndex,length); }
 public io.netty.buffer.ByteBuf setBytes(int index,io.netty.buffer.ByteBuf buf) { return wrapperContained.setBytes(index,buf); }
 // public static io.netty.buffer.ByteBuf setBytes(int index,io.netty.buffer.ByteBuf buf, ) { return net.minecraft.network.PacketByteBuf.setBytes(index,buf); }
 public io.netty.buffer.ByteBuf setBytes(int index,io.netty.buffer.ByteBuf buf,int length) { return wrapperContained.setBytes(index,buf,length); }
@@ -383,10 +415,6 @@ public io.netty.buffer.ByteBuf setBytes(int index,java.nio.ByteBuffer buf) { ret
 // public static int setBytes(int index,java.nio.channels.FileChannel channel,long pos,int length, ) { return net.minecraft.network.PacketByteBuf.setBytes(index,channel,pos,length); }
 // public int setBytes(int index,java.nio.channels.ScatteringByteChannel channel,int length) { return wrapperContained.setBytes(index,channel,length); }
 // public static int setBytes(int index,java.nio.channels.ScatteringByteChannel channel,int length, ) { return net.minecraft.network.PacketByteBuf.setBytes(index,channel,length); }
-// public io.netty.buffer.ByteBuf setBytes(int index,byte bytes) { return wrapperContained.setBytes(index,bytes); }
-// public static io.netty.buffer.ByteBuf setBytes(int index,byte bytes, ) { return net.minecraft.network.PacketByteBuf.setBytes(index,bytes); }
-// public io.netty.buffer.ByteBuf setBytes(int index,byte bytes,int sourceIndex,int length) { return wrapperContained.setBytes(index,bytes,sourceIndex,length); }
-// public static io.netty.buffer.ByteBuf setBytes(int index,byte bytes,int sourceIndex,int length, ) { return net.minecraft.network.PacketByteBuf.setBytes(index,bytes,sourceIndex,length); }
 public io.netty.buffer.ByteBuf setChar(int index,int value) { return wrapperContained.setChar(index,value); }
 // public static io.netty.buffer.ByteBuf setChar(int index,int value, ) { return net.minecraft.network.PacketByteBuf.setChar(index,value); }
 public int setCharSequence(int index,java.lang.CharSequence sequence,java.nio.charset.Charset charset) { return wrapperContained.setCharSequence(index,sequence,charset); }
@@ -429,6 +457,10 @@ public io.netty.buffer.ByteBuf writeBoolean(boolean value) { return wrapperConta
 // public static io.netty.buffer.ByteBuf writeBoolean(boolean value, ) { return net.minecraft.network.PacketByteBuf.writeBoolean(value); }
 public io.netty.buffer.ByteBuf writeByte(int value) { return wrapperContained.writeByte(value); }
 // public static io.netty.buffer.ByteBuf writeByte(int value, ) { return net.minecraft.network.PacketByteBuf.writeByte(value); }
+// public io.netty.buffer.ByteBuf writeBytes(byte bytes) { return wrapperContained.writeBytes(bytes); }
+// public static io.netty.buffer.ByteBuf writeBytes(byte bytes, ) { return net.minecraft.network.PacketByteBuf.writeBytes(bytes); }
+// public io.netty.buffer.ByteBuf writeBytes(byte bytes,int sourceIndex,int length) { return wrapperContained.writeBytes(bytes,sourceIndex,length); }
+// public static io.netty.buffer.ByteBuf writeBytes(byte bytes,int sourceIndex,int length, ) { return net.minecraft.network.PacketByteBuf.writeBytes(bytes,sourceIndex,length); }
 public io.netty.buffer.ByteBuf writeBytes(io.netty.buffer.ByteBuf buf) { return wrapperContained.writeBytes(buf); }
 // public static io.netty.buffer.ByteBuf writeBytes(io.netty.buffer.ByteBuf buf, ) { return net.minecraft.network.PacketByteBuf.writeBytes(buf); }
 public io.netty.buffer.ByteBuf writeBytes(io.netty.buffer.ByteBuf buf,int length) { return wrapperContained.writeBytes(buf,length); }
@@ -443,10 +475,6 @@ public io.netty.buffer.ByteBuf writeBytes(java.nio.ByteBuffer buf) { return wrap
 // public static int writeBytes(java.nio.channels.FileChannel channel,long pos,int length, ) { return net.minecraft.network.PacketByteBuf.writeBytes(channel,pos,length); }
 // public int writeBytes(java.nio.channels.ScatteringByteChannel channel,int length) { return wrapperContained.writeBytes(channel,length); }
 // public static int writeBytes(java.nio.channels.ScatteringByteChannel channel,int length, ) { return net.minecraft.network.PacketByteBuf.writeBytes(channel,length); }
-// public io.netty.buffer.ByteBuf writeBytes(byte bytes) { return wrapperContained.writeBytes(bytes); }
-// public static io.netty.buffer.ByteBuf writeBytes(byte bytes, ) { return net.minecraft.network.PacketByteBuf.writeBytes(bytes); }
-// public io.netty.buffer.ByteBuf writeBytes(byte bytes,int sourceIndex,int length) { return wrapperContained.writeBytes(bytes,sourceIndex,length); }
-// public static io.netty.buffer.ByteBuf writeBytes(byte bytes,int sourceIndex,int length, ) { return net.minecraft.network.PacketByteBuf.writeBytes(bytes,sourceIndex,length); }
 public io.netty.buffer.ByteBuf writeChar(int value) { return wrapperContained.writeChar(value); }
 // public static io.netty.buffer.ByteBuf writeChar(int value, ) { return net.minecraft.network.PacketByteBuf.writeChar(value); }
 public int writeCharSequence(java.lang.CharSequence sequence,java.nio.charset.Charset charset) { return wrapperContained.writeCharSequence(sequence,charset); }
@@ -467,13 +495,13 @@ public io.netty.buffer.ByteBuf writeMedium(int value) { return wrapperContained.
 // public static io.netty.buffer.ByteBuf writeMedium(int value, ) { return net.minecraft.network.PacketByteBuf.writeMedium(value); }
 public io.netty.buffer.ByteBuf writeMediumLE(int value) { return wrapperContained.writeMediumLE(value); }
 // public static io.netty.buffer.ByteBuf writeMediumLE(int value, ) { return net.minecraft.network.PacketByteBuf.writeMediumLE(value); }
+public io.netty.buffer.ByteBuf writerIndex(int index) { return wrapperContained.writerIndex(index); }
+// public static io.netty.buffer.ByteBuf writerIndex(int index, ) { return net.minecraft.network.PacketByteBuf.writerIndex(index); }
 public io.netty.buffer.ByteBuf writeShort(int value) { return wrapperContained.writeShort(value); }
 // public static io.netty.buffer.ByteBuf writeShort(int value, ) { return net.minecraft.network.PacketByteBuf.writeShort(value); }
 public io.netty.buffer.ByteBuf writeShortLE(int value) { return wrapperContained.writeShortLE(value); }
 // public static io.netty.buffer.ByteBuf writeShortLE(int value, ) { return net.minecraft.network.PacketByteBuf.writeShortLE(value); }
 public io.netty.buffer.ByteBuf writeZero(int length) { return wrapperContained.writeZero(length); }
 // public static io.netty.buffer.ByteBuf writeZero(int length, ) { return net.minecraft.network.PacketByteBuf.writeZero(length); }
-public io.netty.buffer.ByteBuf writerIndex(int index) { return wrapperContained.writerIndex(index); }
-// public static io.netty.buffer.ByteBuf writerIndex(int index, ) { return net.minecraft.network.PacketByteBuf.writerIndex(index); }
 
 }

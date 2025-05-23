@@ -11,6 +11,7 @@ public static com.mojang.serialization.Codec SLOT_DROP_CHANCES_CODEC() { return 
 public static com.mojang.serialization.Codec CODEC() { return net.minecraft.entity.EquipmentTable.CODEC; }
 // public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.entity.EquipmentTable.CODEC = value; }
 
+public EquipmentTable(yarnwrap.registry.RegistryKey lootTable,float slotDropChances) { this.wrapperContained = new net.minecraft.entity.EquipmentTable(lootTable.wrapperContained,slotDropChances); }
 // public java.util.Map createSlotDropChances(float dropChance) { return wrapperContained.createSlotDropChances(dropChance); }
 // public static java.util.Map createSlotDropChances(float dropChance, ) { return net.minecraft.entity.EquipmentTable.createSlotDropChances(dropChance); }
 // public java.util.Map method_59659(com.mojang.datafixers.util.Either either) { return wrapperContained.method_59659(either); }

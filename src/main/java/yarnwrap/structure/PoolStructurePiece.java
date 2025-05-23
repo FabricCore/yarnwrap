@@ -31,11 +31,6 @@ public class PoolStructurePiece { public net.minecraft.structure.PoolStructurePi
 // public static yarnwrap.structure.StructureTemplateManager structureTemplateManager() { return new yarnwrap.structure.StructureTemplateManager(net.minecraft.structure.PoolStructurePiece.structureTemplateManager); }
 // public static void structureTemplateManager(yarnwrap.structure.StructureTemplateManager value, ) { net.minecraft.structure.PoolStructurePiece.structureTemplateManager = value.wrapperContained; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.structure.PoolStructurePiece.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.structure.PoolStructurePiece.LOGGER = value; }
-
 // public yarnwrap.structure.StructureLiquidSettings liquidSettings() { return new yarnwrap.structure.StructureLiquidSettings(wrapperContained.liquidSettings); }
 // public void liquidSettings(yarnwrap.structure.StructureLiquidSettings value) { wrapperContained.liquidSettings = value.wrapperContained; }
 // public static yarnwrap.structure.StructureLiquidSettings liquidSettings() { return new yarnwrap.structure.StructureLiquidSettings(net.minecraft.structure.PoolStructurePiece.liquidSettings); }
@@ -57,9 +52,5 @@ public yarnwrap.util.math.BlockPos getPos() { return new yarnwrap.util.math.Bloc
 // public static void method_16649(com.mojang.serialization.DynamicOps junctionTag, ) { net.minecraft.structure.PoolStructurePiece.method_16649(junctionTag); }
 public void generate(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.StructureAccessor structureAccessor,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockBox boundingBox,yarnwrap.util.math.BlockPos pivot,boolean keepJigsaws) { wrapperContained.generate(world.wrapperContained,structureAccessor.wrapperContained,chunkGenerator.wrapperContained,random.wrapperContained,boundingBox.wrapperContained,pivot.wrapperContained,keepJigsaws); }
 // public static void generate(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.StructureAccessor structureAccessor,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockBox boundingBox,yarnwrap.util.math.BlockPos pivot,boolean keepJigsaws, ) { net.minecraft.structure.PoolStructurePiece.generate(world.wrapperContained,structureAccessor.wrapperContained,chunkGenerator.wrapperContained,random.wrapperContained,boundingBox.wrapperContained,pivot.wrapperContained,keepJigsaws); }
-// public void method_28949(yarnwrap.nbt.NbtCompound poolElement) { wrapperContained.method_28949(poolElement.wrapperContained); }
-// public static void method_28949(yarnwrap.nbt.NbtCompound poolElement, ) { net.minecraft.structure.PoolStructurePiece.method_28949(poolElement.wrapperContained); }
-// public java.lang.IllegalStateException method_35448(java.lang.String error) { return wrapperContained.method_35448(error); }
-// public static java.lang.IllegalStateException method_35448(java.lang.String error, ) { return net.minecraft.structure.PoolStructurePiece.method_35448(error); }
 
 }

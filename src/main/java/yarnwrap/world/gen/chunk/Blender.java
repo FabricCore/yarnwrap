@@ -73,8 +73,6 @@ public yarnwrap.world.biome.source.BiomeSupplier getBiomeSupplier(yarnwrap.world
 // public static double getDistance(double x1,double y1,double z1,double x2,double y2,double z2, ) { return net.minecraft.world.gen.chunk.Blender.getDistance(x1,y1,z1,x2,y2,z2); }
 // public void createCarvingMasks(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.chunk.ProtoChunk chunk) { wrapperContained.createCarvingMasks(world.wrapperContained,chunk.wrapperContained); }
 // public static void createCarvingMasks(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.chunk.ProtoChunk chunk, ) { net.minecraft.world.gen.chunk.Blender.createCarvingMasks(world.wrapperContained,chunk.wrapperContained); }
-// public void method_39810(Object mask) { wrapperContained.method_39810(mask); }
-// public static void method_39810(Object mask, ) { net.minecraft.world.gen.chunk.Blender.method_39810(mask); }
 // public boolean method_39811(Object offsetX,int y,int offsetZ) { return wrapperContained.method_39811(offsetX,y,offsetZ); }
 // public static boolean method_39811(Object offsetX,int y,int offsetZ, ) { return net.minecraft.world.gen.chunk.Blender.method_39811(offsetX,y,offsetZ); }
 // public Object createDistanceFunction(yarnwrap.util.math.EightWayDirection direction,yarnwrap.world.gen.chunk.BlendingData data) { return wrapperContained.createDistanceFunction(direction.wrapperContained,data.wrapperContained); }

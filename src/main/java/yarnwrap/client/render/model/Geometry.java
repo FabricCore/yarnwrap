@@ -1,0 +1,14 @@
+package yarnwrap.client.render.model;
+public class Geometry { public net.minecraft.client.render.model.Geometry wrapperContained; public Geometry(net.minecraft.client.render.model.Geometry wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public yarnwrap.client.render.model.Geometry EMPTY() { return new yarnwrap.client.render.model.Geometry(wrapperContained.EMPTY); }
+// public void EMPTY(yarnwrap.client.render.model.Geometry value) { wrapperContained.EMPTY = value.wrapperContained; }
+public static yarnwrap.client.render.model.Geometry EMPTY() { return new yarnwrap.client.render.model.Geometry(net.minecraft.client.render.model.Geometry.EMPTY); }
+// public static void EMPTY(yarnwrap.client.render.model.Geometry value, ) { net.minecraft.client.render.model.Geometry.EMPTY = value.wrapperContained; }
+
+public yarnwrap.client.render.model.BakedGeometry bake(yarnwrap.client.render.model.ModelTextures textures,yarnwrap.client.render.model.Baker baker,yarnwrap.client.render.model.ModelBakeSettings settings,yarnwrap.client.render.model.SimpleModel model) { return new yarnwrap.client.render.model.BakedGeometry(wrapperContained.bake(textures.wrapperContained,baker.wrapperContained,settings.wrapperContained,model.wrapperContained)); }
+// public static yarnwrap.client.render.model.BakedGeometry bake(yarnwrap.client.render.model.ModelTextures textures,yarnwrap.client.render.model.Baker baker,yarnwrap.client.render.model.ModelBakeSettings settings,yarnwrap.client.render.model.SimpleModel model, ) { return new yarnwrap.client.render.model.BakedGeometry(net.minecraft.client.render.model.Geometry.bake(textures.wrapperContained,baker.wrapperContained,settings.wrapperContained,model.wrapperContained)); }
+// public yarnwrap.client.render.model.BakedGeometry method_68062(yarnwrap.client.render.model.ModelTextures textures,yarnwrap.client.render.model.Baker baker,yarnwrap.client.render.model.ModelBakeSettings settings,yarnwrap.client.render.model.SimpleModel model) { return new yarnwrap.client.render.model.BakedGeometry(wrapperContained.method_68062(textures.wrapperContained,baker.wrapperContained,settings.wrapperContained,model.wrapperContained)); }
+// public static yarnwrap.client.render.model.BakedGeometry method_68062(yarnwrap.client.render.model.ModelTextures textures,yarnwrap.client.render.model.Baker baker,yarnwrap.client.render.model.ModelBakeSettings settings,yarnwrap.client.render.model.SimpleModel model, ) { return new yarnwrap.client.render.model.BakedGeometry(net.minecraft.client.render.model.Geometry.method_68062(textures.wrapperContained,baker.wrapperContained,settings.wrapperContained,model.wrapperContained)); }
+
+}

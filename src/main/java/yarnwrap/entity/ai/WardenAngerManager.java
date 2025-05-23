@@ -1,15 +1,15 @@
 package yarnwrap.entity.ai;
 public class WardenAngerManager { public net.minecraft.entity.ai.WardenAngerManager wrapperContained; public WardenAngerManager(net.minecraft.entity.ai.WardenAngerManager wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int maxAnger() { return wrapperContained.maxAnger; }
-// public void maxAnger(int value) { wrapperContained.maxAnger = value; }
-// public static int maxAnger() { return net.minecraft.entity.ai.WardenAngerManager.maxAnger; }
-// public static void maxAnger(int value, ) { net.minecraft.entity.ai.WardenAngerManager.maxAnger = value; }
+// public int MAX_ANGER() { return wrapperContained.MAX_ANGER; }
+// public void MAX_ANGER(int value) { wrapperContained.MAX_ANGER = value; }
+// public static int MAX_ANGER() { return net.minecraft.entity.ai.WardenAngerManager.MAX_ANGER; }
+// public static void MAX_ANGER(int value, ) { net.minecraft.entity.ai.WardenAngerManager.MAX_ANGER = value; }
 
-// public int angerDecreasePerTick() { return wrapperContained.angerDecreasePerTick; }
-// public void angerDecreasePerTick(int value) { wrapperContained.angerDecreasePerTick = value; }
-// public static int angerDecreasePerTick() { return net.minecraft.entity.ai.WardenAngerManager.angerDecreasePerTick; }
-// public static void angerDecreasePerTick(int value, ) { net.minecraft.entity.ai.WardenAngerManager.angerDecreasePerTick = value; }
+// public int ANGER_DECREASE_PER_TICK() { return wrapperContained.ANGER_DECREASE_PER_TICK; }
+// public void ANGER_DECREASE_PER_TICK(int value) { wrapperContained.ANGER_DECREASE_PER_TICK = value; }
+// public static int ANGER_DECREASE_PER_TICK() { return net.minecraft.entity.ai.WardenAngerManager.ANGER_DECREASE_PER_TICK; }
+// public static void ANGER_DECREASE_PER_TICK(int value, ) { net.minecraft.entity.ai.WardenAngerManager.ANGER_DECREASE_PER_TICK = value; }
 
 // public it.unimi.dsi.fastutil.objects.Object2IntMap suspectsToAngerLevel() { return wrapperContained.suspectsToAngerLevel; }
 // public void suspectsToAngerLevel(it.unimi.dsi.fastutil.objects.Object2IntMap value) { wrapperContained.suspectsToAngerLevel = value; }

@@ -17,8 +17,6 @@ public class PardonIpCommand { public net.minecraft.server.dedicated.command.Par
 // public static java.util.concurrent.CompletableFuture method_13479(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.dedicated.command.PardonIpCommand.method_13479(context,builder); }
 // public int method_13480(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13480(context); }
 // public static int method_13480(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.PardonIpCommand.method_13480(context); }
-// public boolean method_13481(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13481(source.wrapperContained); }
-// public static boolean method_13481(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.PardonIpCommand.method_13481(source.wrapperContained); }
 // public int pardonIp(yarnwrap.server.command.ServerCommandSource source,java.lang.String target) { return wrapperContained.pardonIp(source.wrapperContained,target); }
 // public static int pardonIp(yarnwrap.server.command.ServerCommandSource source,java.lang.String target, ) { return net.minecraft.server.dedicated.command.PardonIpCommand.pardonIp(source.wrapperContained,target); }
 

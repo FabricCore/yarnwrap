@@ -1,6 +1,11 @@
 package yarnwrap.client.gui.screen.ingame;
 public class BeaconScreen { public net.minecraft.client.gui.screen.ingame.BeaconScreen wrapperContained; public BeaconScreen(net.minecraft.client.gui.screen.ingame.BeaconScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.TEXTURE); }
+// public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
+// public static yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.ingame.BeaconScreen.TEXTURE); }
+// public static void TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.ingame.BeaconScreen.TEXTURE = value.wrapperContained; }
+
 // public yarnwrap.registry.entry.RegistryEntry primaryEffect() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.primaryEffect); }
 // public void primaryEffect(yarnwrap.registry.entry.RegistryEntry value) { wrapperContained.primaryEffect = value.wrapperContained; }
 // public static yarnwrap.registry.entry.RegistryEntry primaryEffect() { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.client.gui.screen.ingame.BeaconScreen.primaryEffect); }
@@ -20,11 +25,6 @@ public class BeaconScreen { public net.minecraft.client.gui.screen.ingame.Beacon
 // public void SECONDARY_POWER_TEXT(yarnwrap.text.Text value) { wrapperContained.SECONDARY_POWER_TEXT = value.wrapperContained; }
 // public static yarnwrap.text.Text SECONDARY_POWER_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.ingame.BeaconScreen.SECONDARY_POWER_TEXT); }
 // public static void SECONDARY_POWER_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.ingame.BeaconScreen.SECONDARY_POWER_TEXT = value.wrapperContained; }
-
-// public yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.TEXTURE); }
-// public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
-// public static yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.ingame.BeaconScreen.TEXTURE); }
-// public static void TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.ingame.BeaconScreen.TEXTURE = value.wrapperContained; }
 
 // public java.util.List buttons() { return wrapperContained.buttons; }
 // public void buttons(java.util.List value) { wrapperContained.buttons = value; }

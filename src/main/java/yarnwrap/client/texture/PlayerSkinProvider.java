@@ -31,7 +31,7 @@ public class PlayerSkinProvider { public net.minecraft.client.texture.PlayerSkin
 // public static com.mojang.authlib.minecraft.MinecraftSessionService sessionService() { return net.minecraft.client.texture.PlayerSkinProvider.sessionService; }
 // public static void sessionService(com.mojang.authlib.minecraft.MinecraftSessionService value, ) { net.minecraft.client.texture.PlayerSkinProvider.sessionService = value; }
 
-public PlayerSkinProvider(yarnwrap.client.texture.TextureManager textureManager,java.nio.file.Path directory,com.mojang.authlib.minecraft.MinecraftSessionService sessionService,java.util.concurrent.Executor executor) { this.wrapperContained = new net.minecraft.client.texture.PlayerSkinProvider(textureManager.wrapperContained,directory,sessionService,executor); }
+public PlayerSkinProvider(java.nio.file.Path directory,com.mojang.authlib.minecraft.MinecraftSessionService sessionService,java.util.concurrent.Executor executor) { this.wrapperContained = new net.minecraft.client.texture.PlayerSkinProvider(directory,sessionService,executor); }
 public java.util.function.Supplier getSkinTexturesSupplier(com.mojang.authlib.GameProfile profile) { return wrapperContained.getSkinTexturesSupplier(profile); }
 // public static java.util.function.Supplier getSkinTexturesSupplier(com.mojang.authlib.GameProfile profile, ) { return net.minecraft.client.texture.PlayerSkinProvider.getSkinTexturesSupplier(profile); }
 // public java.util.concurrent.CompletableFuture fetchSkinTextures(java.util.UUID uuid,com.mojang.authlib.minecraft.MinecraftProfileTextures textures) { return wrapperContained.fetchSkinTextures(uuid,textures); }

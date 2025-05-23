@@ -22,10 +22,6 @@ public static com.mojang.brigadier.suggestion.SuggestionProvider SUGGESTION_PROV
 // public static void SUGGESTION_PROVIDER(com.mojang.brigadier.suggestion.SuggestionProvider value, ) { net.minecraft.command.argument.ScoreHolderArgumentType.SUGGESTION_PROVIDER = value; }
 
 public ScoreHolderArgumentType(boolean multiple) { this.wrapperContained = new net.minecraft.command.argument.ScoreHolderArgumentType(multiple); }
-// public java.util.Collection method_55587(java.lang.String source,java.util.List holders) { return wrapperContained.method_55587(source,holders); }
-// public static java.util.Collection method_55587(java.lang.String source,java.util.List holders, ) { return net.minecraft.command.argument.ScoreHolderArgumentType.method_55587(source,holders); }
-// public java.util.Collection method_55588(java.util.UUID source,java.util.List holders) { return wrapperContained.method_55588(source,holders); }
-// public static java.util.Collection method_55588(java.util.UUID source,java.util.List holders, ) { return net.minecraft.command.argument.ScoreHolderArgumentType.method_55588(source,holders); }
 // public yarnwrap.command.argument.ScoreHolderArgumentType scoreHolder() { return new yarnwrap.command.argument.ScoreHolderArgumentType(wrapperContained.scoreHolder()); }
 public static yarnwrap.command.argument.ScoreHolderArgumentType scoreHolder() { return new yarnwrap.command.argument.ScoreHolderArgumentType(net.minecraft.command.argument.ScoreHolderArgumentType.scoreHolder()); }
 // public void method_9448(com.mojang.brigadier.context.CommandContext builderx) { wrapperContained.method_9448(builderx); }
@@ -48,6 +44,10 @@ public static yarnwrap.command.argument.ScoreHolderArgumentType scoreHolders() {
 // public static java.util.Collection method_9457(yarnwrap.server.command.ServerCommandSource source,java.util.function.Supplier players, ) { return net.minecraft.command.argument.ScoreHolderArgumentType.method_9457(source.wrapperContained,players); }
 // public java.util.Collection getScoreHolders(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return wrapperContained.getScoreHolders(context,name); }
 // public static java.util.Collection getScoreHolders(com.mojang.brigadier.context.CommandContext context,java.lang.String name, ) { return net.minecraft.command.argument.ScoreHolderArgumentType.getScoreHolders(context,name); }
+// public java.util.Collection method_55587(java.lang.String source,java.util.List holders) { return wrapperContained.method_55587(source,holders); }
+// public static java.util.Collection method_55587(java.lang.String source,java.util.List holders, ) { return net.minecraft.command.argument.ScoreHolderArgumentType.method_55587(source,holders); }
+// public java.util.Collection method_55588(java.util.UUID source,java.util.List holders) { return wrapperContained.method_55588(source,holders); }
+// public static java.util.Collection method_55588(java.util.UUID source,java.util.List holders, ) { return net.minecraft.command.argument.ScoreHolderArgumentType.method_55588(source,holders); }
 // public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 // public static java.lang.Object parse(com.mojang.brigadier.StringReader reader, ) { return net.minecraft.command.argument.ScoreHolderArgumentType.parse(reader); }
 // public java.lang.Object parse(com.mojang.brigadier.StringReader reader,java.lang.Object source) { return wrapperContained.parse(reader,source); }

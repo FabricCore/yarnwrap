@@ -36,6 +36,31 @@ public class DatapackCommand { public net.minecraft.server.command.DatapackComma
 // public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType CANNOT_DISABLE_FEATURE_EXCEPTION() { return net.minecraft.server.command.DatapackCommand.CANNOT_DISABLE_FEATURE_EXCEPTION; }
 // public static void CANNOT_DISABLE_FEATURE_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.DatapackCommand.CANNOT_DISABLE_FEATURE_EXCEPTION = value; }
 
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.server.command.DatapackCommand.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.server.command.DatapackCommand.LOGGER = value; }
+
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType INVALID_NAME_EXCEPTION() { return wrapperContained.INVALID_NAME_EXCEPTION; }
+// public void INVALID_NAME_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.INVALID_NAME_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType INVALID_NAME_EXCEPTION() { return net.minecraft.server.command.DatapackCommand.INVALID_NAME_EXCEPTION; }
+// public static void INVALID_NAME_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.DatapackCommand.INVALID_NAME_EXCEPTION = value; }
+
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType ALREADY_EXISTS_EXCEPTION() { return wrapperContained.ALREADY_EXISTS_EXCEPTION; }
+// public void ALREADY_EXISTS_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.ALREADY_EXISTS_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType ALREADY_EXISTS_EXCEPTION() { return net.minecraft.server.command.DatapackCommand.ALREADY_EXISTS_EXCEPTION; }
+// public static void ALREADY_EXISTS_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.DatapackCommand.ALREADY_EXISTS_EXCEPTION = value; }
+
+// public com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType METADATA_ENCODE_FAILURE_EXCEPTION() { return wrapperContained.METADATA_ENCODE_FAILURE_EXCEPTION; }
+// public void METADATA_ENCODE_FAILURE_EXCEPTION(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value) { wrapperContained.METADATA_ENCODE_FAILURE_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType METADATA_ENCODE_FAILURE_EXCEPTION() { return net.minecraft.server.command.DatapackCommand.METADATA_ENCODE_FAILURE_EXCEPTION; }
+// public static void METADATA_ENCODE_FAILURE_EXCEPTION(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value, ) { net.minecraft.server.command.DatapackCommand.METADATA_ENCODE_FAILURE_EXCEPTION = value; }
+
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType IO_FAILURE_EXCEPTION() { return wrapperContained.IO_FAILURE_EXCEPTION; }
+// public void IO_FAILURE_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.IO_FAILURE_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType IO_FAILURE_EXCEPTION() { return net.minecraft.server.command.DatapackCommand.IO_FAILURE_EXCEPTION; }
+// public static void IO_FAILURE_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.DatapackCommand.IO_FAILURE_EXCEPTION = value; }
+
 // public int method_13111(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13111(context); }
 // public static int method_13111(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.DatapackCommand.method_13111(context); }
 // public void method_13112(com.mojang.brigadier.context.CommandContext profiles,java.util.List profile) { wrapperContained.method_13112(profiles,profile); }
@@ -50,8 +75,6 @@ public class DatapackCommand { public net.minecraft.server.command.DatapackComma
 // public static com.mojang.brigadier.Message method_13117(java.lang.Object name, ) { return net.minecraft.server.command.DatapackCommand.method_13117(name); }
 // public int method_13118(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13118(context); }
 // public static int method_13118(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.DatapackCommand.method_13118(context); }
-// public boolean method_13119(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13119(source.wrapperContained); }
-// public static boolean method_13119(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.DatapackCommand.method_13119(source.wrapperContained); }
 // public java.util.concurrent.CompletableFuture method_13120(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_13120(context,builder); }
 // public static java.util.concurrent.CompletableFuture method_13120(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.command.DatapackCommand.method_13120(context,builder); }
 // public int executeList(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeList(source.wrapperContained); }
@@ -60,8 +83,8 @@ public class DatapackCommand { public net.minecraft.server.command.DatapackComma
 // public static void method_13122(java.util.List profiles,yarnwrap.resource.ResourcePackProfile profile, ) { net.minecraft.server.command.DatapackCommand.method_13122(profiles,profile.wrapperContained); }
 // public int method_13123(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13123(context); }
 // public static int method_13123(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.DatapackCommand.method_13123(context); }
-// public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
-// public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.DatapackCommand.register(dispatcher); }
+// public void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.command.CommandRegistryAccess registryAccess) { wrapperContained.register(dispatcher,registryAccess.wrapperContained); }
+// public static void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.command.CommandRegistryAccess registryAccess, ) { net.minecraft.server.command.DatapackCommand.register(dispatcher,registryAccess.wrapperContained); }
 // public int executeListEnabled(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeListEnabled(source.wrapperContained); }
 // public static int executeListEnabled(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.DatapackCommand.executeListEnabled(source.wrapperContained); }
 // public yarnwrap.resource.ResourcePackProfile getPackContainer(com.mojang.brigadier.context.CommandContext context,java.lang.String name,boolean enable) { return new yarnwrap.resource.ResourcePackProfile(wrapperContained.getPackContainer(context,name,enable)); }
@@ -102,5 +125,17 @@ public class DatapackCommand { public net.minecraft.server.command.DatapackComma
 // public static com.mojang.brigadier.Message method_45146(java.lang.Object name,java.lang.Object flags, ) { return net.minecraft.server.command.DatapackCommand.method_45146(name,flags); }
 // public com.mojang.brigadier.Message method_58142(java.lang.Object name) { return wrapperContained.method_58142(name); }
 // public static com.mojang.brigadier.Message method_58142(java.lang.Object name, ) { return net.minecraft.server.command.DatapackCommand.method_58142(name); }
+// public int method_70597(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_70597(context); }
+// public static int method_70597(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.DatapackCommand.method_70597(context); }
+// public int executeCreate(yarnwrap.server.command.ServerCommandSource source,java.lang.String id,yarnwrap.text.Text description) { return wrapperContained.executeCreate(source.wrapperContained,id,description.wrapperContained); }
+// public static int executeCreate(yarnwrap.server.command.ServerCommandSource source,java.lang.String id,yarnwrap.text.Text description, ) { return net.minecraft.server.command.DatapackCommand.executeCreate(source.wrapperContained,id,description.wrapperContained); }
+// public com.mojang.brigadier.Message method_70599(java.lang.Object name) { return wrapperContained.method_70599(name); }
+// public static com.mojang.brigadier.Message method_70599(java.lang.Object name, ) { return net.minecraft.server.command.DatapackCommand.method_70599(name); }
+// public com.mojang.brigadier.Message method_70600(java.lang.Object name,java.lang.Object message) { return wrapperContained.method_70600(name,message); }
+// public static com.mojang.brigadier.Message method_70600(java.lang.Object name,java.lang.Object message, ) { return net.minecraft.server.command.DatapackCommand.method_70600(name,message); }
+// public com.mojang.brigadier.Message method_70602(java.lang.Object name) { return wrapperContained.method_70602(name); }
+// public static com.mojang.brigadier.Message method_70602(java.lang.Object name, ) { return net.minecraft.server.command.DatapackCommand.method_70602(name); }
+// public com.mojang.brigadier.Message method_70603(java.lang.Object name) { return wrapperContained.method_70603(name); }
+// public static com.mojang.brigadier.Message method_70603(java.lang.Object name, ) { return net.minecraft.server.command.DatapackCommand.method_70603(name); }
 
 }

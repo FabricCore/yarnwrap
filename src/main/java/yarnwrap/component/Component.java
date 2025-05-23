@@ -12,7 +12,7 @@ public com.mojang.serialization.DataResult encode(com.mojang.serialization.Dynam
 // public static yarnwrap.component.Component of(Object entry, ) { return new yarnwrap.component.Component(net.minecraft.component.Component.of(entry)); }
 // public yarnwrap.component.Component of(yarnwrap.component.ComponentType type,java.lang.Object value) { return new yarnwrap.component.Component(wrapperContained.of(type.wrapperContained,value)); }
 // public static yarnwrap.component.Component of(yarnwrap.component.ComponentType type,java.lang.Object value, ) { return new yarnwrap.component.Component(net.minecraft.component.Component.of(type.wrapperContained,value)); }
-public void apply(yarnwrap.component.ComponentMapImpl components) { wrapperContained.apply(components.wrapperContained); }
-// public static void apply(yarnwrap.component.ComponentMapImpl components, ) { net.minecraft.component.Component.apply(components.wrapperContained); }
+public void apply(yarnwrap.component.MergedComponentMap components) { wrapperContained.apply(components.wrapperContained); }
+// public static void apply(yarnwrap.component.MergedComponentMap components, ) { net.minecraft.component.Component.apply(components.wrapperContained); }
 
 }

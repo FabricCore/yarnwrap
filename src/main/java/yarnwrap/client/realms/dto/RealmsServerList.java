@@ -11,7 +11,7 @@ public void servers(java.util.List value) { wrapperContained.servers = value; }
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.client.realms.dto.RealmsServerList.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.realms.dto.RealmsServerList.LOGGER = value; }
 
-// public yarnwrap.client.realms.dto.RealmsServerList parse(java.lang.String json) { return new yarnwrap.client.realms.dto.RealmsServerList(wrapperContained.parse(json)); }
-// public static yarnwrap.client.realms.dto.RealmsServerList parse(java.lang.String json, ) { return new yarnwrap.client.realms.dto.RealmsServerList(net.minecraft.client.realms.dto.RealmsServerList.parse(json)); }
+// public yarnwrap.client.realms.dto.RealmsServerList parse(yarnwrap.client.realms.CheckedGson gson,java.lang.String json) { return new yarnwrap.client.realms.dto.RealmsServerList(wrapperContained.parse(gson.wrapperContained,json)); }
+// public static yarnwrap.client.realms.dto.RealmsServerList parse(yarnwrap.client.realms.CheckedGson gson,java.lang.String json, ) { return new yarnwrap.client.realms.dto.RealmsServerList(net.minecraft.client.realms.dto.RealmsServerList.parse(gson.wrapperContained,json)); }
 
 }

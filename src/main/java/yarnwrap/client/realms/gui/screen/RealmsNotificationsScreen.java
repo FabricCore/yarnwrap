@@ -86,7 +86,7 @@ public class RealmsNotificationsScreen { public net.minecraft.client.realms.gui.
 // public static void addNotificationRunner(yarnwrap.client.realms.RealmsPeriodicCheckers checkers,Object manager, ) { net.minecraft.client.realms.gui.screen.RealmsNotificationsScreen.addNotificationRunner(checkers.wrapperContained,manager); }
 // public void method_49591(java.util.List notifications) { wrapperContained.method_49591(notifications); }
 // public static void method_49591(java.util.List notifications, ) { net.minecraft.client.realms.gui.screen.RealmsNotificationsScreen.method_49591(notifications); }
-// public java.lang.Boolean method_52670(Object info) { return wrapperContained.method_52670(info); }
-// public static java.lang.Boolean method_52670(Object info, ) { return net.minecraft.client.realms.gui.screen.RealmsNotificationsScreen.method_52670(info); }
+// public java.lang.Boolean method_68700(Object info) { return wrapperContained.method_68700(info); }
+// public static java.lang.Boolean method_68700(Object info, ) { return net.minecraft.client.realms.gui.screen.RealmsNotificationsScreen.method_68700(info); }
 
 }

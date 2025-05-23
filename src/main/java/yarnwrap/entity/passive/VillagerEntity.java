@@ -1,15 +1,15 @@
 package yarnwrap.entity.passive;
 public class VillagerEntity { public net.minecraft.entity.passive.VillagerEntity wrapperContained; public VillagerEntity(net.minecraft.entity.passive.VillagerEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.entity.data.TrackedData VILLAGER_DATA() { return new yarnwrap.entity.data.TrackedData(wrapperContained.VILLAGER_DATA); }
+// public void VILLAGER_DATA(yarnwrap.entity.data.TrackedData value) { wrapperContained.VILLAGER_DATA = value.wrapperContained; }
+// public static yarnwrap.entity.data.TrackedData VILLAGER_DATA() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.VillagerEntity.VILLAGER_DATA); }
+// public static void VILLAGER_DATA(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.VillagerEntity.VILLAGER_DATA = value.wrapperContained; }
+
 // public java.util.Map ITEM_FOOD_VALUES() { return wrapperContained.ITEM_FOOD_VALUES; }
 // public void ITEM_FOOD_VALUES(java.util.Map value) { wrapperContained.ITEM_FOOD_VALUES = value; }
 public static java.util.Map ITEM_FOOD_VALUES() { return net.minecraft.entity.passive.VillagerEntity.ITEM_FOOD_VALUES; }
 // public static void ITEM_FOOD_VALUES(java.util.Map value, ) { net.minecraft.entity.passive.VillagerEntity.ITEM_FOOD_VALUES = value; }
-
-// public java.util.Set GATHERABLE_ITEMS() { return wrapperContained.GATHERABLE_ITEMS; }
-// public void GATHERABLE_ITEMS(java.util.Set value) { wrapperContained.GATHERABLE_ITEMS = value; }
-// public static java.util.Set GATHERABLE_ITEMS() { return net.minecraft.entity.passive.VillagerEntity.GATHERABLE_ITEMS; }
-// public static void GATHERABLE_ITEMS(java.util.Set value, ) { net.minecraft.entity.passive.VillagerEntity.GATHERABLE_ITEMS = value; }
 
 // public int levelUpTimer() { return wrapperContained.levelUpTimer; }
 // public void levelUpTimer(int value) { wrapperContained.levelUpTimer = value; }
@@ -91,12 +91,17 @@ public static java.util.Map POINTS_OF_INTEREST() { return net.minecraft.entity.p
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.entity.passive.VillagerEntity.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.entity.passive.VillagerEntity.LOGGER = value; }
 
-// public yarnwrap.entity.data.TrackedData VILLAGER_DATA() { return new yarnwrap.entity.data.TrackedData(wrapperContained.VILLAGER_DATA); }
-// public void VILLAGER_DATA(yarnwrap.entity.data.TrackedData value) { wrapperContained.VILLAGER_DATA = value.wrapperContained; }
-// public static yarnwrap.entity.data.TrackedData VILLAGER_DATA() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.VillagerEntity.VILLAGER_DATA); }
-// public static void VILLAGER_DATA(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.VillagerEntity.VILLAGER_DATA = value.wrapperContained; }
+// public boolean DEFAULT_NATURAL() { return wrapperContained.DEFAULT_NATURAL; }
+// public void DEFAULT_NATURAL(boolean value) { wrapperContained.DEFAULT_NATURAL = value; }
+// public static boolean DEFAULT_NATURAL() { return net.minecraft.entity.passive.VillagerEntity.DEFAULT_NATURAL; }
+// public static void DEFAULT_NATURAL(boolean value, ) { net.minecraft.entity.passive.VillagerEntity.DEFAULT_NATURAL = value; }
 
-public VillagerEntity(yarnwrap.entity.EntityType entityType,yarnwrap.world.World world,yarnwrap.village.VillagerType type) { this.wrapperContained = new net.minecraft.entity.passive.VillagerEntity(entityType.wrapperContained,world.wrapperContained,type.wrapperContained); }
+public VillagerEntity(yarnwrap.entity.EntityType entityType,yarnwrap.world.World world,yarnwrap.registry.RegistryKey type) { this.wrapperContained = new net.minecraft.entity.passive.VillagerEntity(entityType.wrapperContained,world.wrapperContained,type.wrapperContained); }
+public VillagerEntity(yarnwrap.entity.EntityType entityType,yarnwrap.world.World world,yarnwrap.registry.entry.RegistryEntry type) { this.wrapperContained = new net.minecraft.entity.passive.VillagerEntity(entityType.wrapperContained,world.wrapperContained,type.wrapperContained); }
+public boolean canShareFoodForBreeding() { return wrapperContained.canShareFoodForBreeding(); }
+// public static boolean canShareFoodForBreeding() { return net.minecraft.entity.passive.VillagerEntity.canShareFoodForBreeding(); }
+public boolean needsFoodForBreeding() { return wrapperContained.needsFoodForBreeding(); }
+// public static boolean needsFoodForBreeding() { return net.minecraft.entity.passive.VillagerEntity.needsFoodForBreeding(); }
 public void setOffers(yarnwrap.village.TradeOfferList offers) { wrapperContained.setOffers(offers.wrapperContained); }
 // public static void setOffers(yarnwrap.village.TradeOfferList offers, ) { net.minecraft.entity.passive.VillagerEntity.setOffers(offers.wrapperContained); }
 // public void levelUp() { wrapperContained.levelUp(); }
@@ -143,8 +148,8 @@ public void setExperience(int experience) { wrapperContained.setExperience(exper
 // public static void setExperience(int experience, ) { net.minecraft.entity.passive.VillagerEntity.setExperience(experience); }
 // public void sayNo() { wrapperContained.sayNo(); }
 // public static void sayNo() { net.minecraft.entity.passive.VillagerEntity.sayNo(); }
-// public boolean method_20593(yarnwrap.village.VillageGossipType gossipType) { return wrapperContained.method_20593(gossipType.wrapperContained); }
-// public static boolean method_20593(yarnwrap.village.VillageGossipType gossipType, ) { return net.minecraft.entity.passive.VillagerEntity.method_20593(gossipType.wrapperContained); }
+// public boolean method_20593(yarnwrap.village.VillagerGossipType gossipType) { return wrapperContained.method_20593(gossipType.wrapperContained); }
+// public static boolean method_20593(yarnwrap.village.VillagerGossipType gossipType, ) { return net.minecraft.entity.passive.VillagerEntity.method_20593(gossipType.wrapperContained); }
 public int getReputation(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.getReputation(player.wrapperContained); }
 // public static int getReputation(yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.entity.passive.VillagerEntity.getReputation(player.wrapperContained); }
 public boolean canSummonGolem(long time) { return wrapperContained.canSummonGolem(time); }
@@ -159,8 +164,8 @@ public void summonGolem(yarnwrap.server.world.ServerWorld world,long time,int re
 // public static void decayGossip() { net.minecraft.entity.passive.VillagerEntity.decayGossip(); }
 public void eatForBreeding() { wrapperContained.eatForBreeding(); }
 // public static void eatForBreeding() { net.minecraft.entity.passive.VillagerEntity.eatForBreeding(); }
-// public boolean lacksFood() { return wrapperContained.lacksFood(); }
-// public static boolean lacksFood() { return net.minecraft.entity.passive.VillagerEntity.lacksFood(); }
+// public boolean canEatFood() { return wrapperContained.canEatFood(); }
+// public static boolean canEatFood() { return net.minecraft.entity.passive.VillagerEntity.canEatFood(); }
 // public void method_20699(yarnwrap.server.world.ServerWorld observer) { wrapperContained.method_20699(observer.wrapperContained); }
 // public static void method_20699(yarnwrap.server.world.ServerWorld observer, ) { net.minecraft.entity.passive.VillagerEntity.method_20699(observer.wrapperContained); }
 // public boolean hasRecentlySlept(long worldTime) { return wrapperContained.hasRecentlySlept(worldTime); }
@@ -173,8 +178,8 @@ public boolean shouldRestock() { return wrapperContained.shouldRestock(); }
 // public static boolean needsRestock() { return net.minecraft.entity.passive.VillagerEntity.needsRestock(); }
 // public boolean canRestock() { return wrapperContained.canRestock(); }
 // public static boolean canRestock() { return net.minecraft.entity.passive.VillagerEntity.canRestock(); }
-public void readGossipDataNbt(yarnwrap.nbt.NbtElement nbt) { wrapperContained.readGossipDataNbt(nbt.wrapperContained); }
-// public static void readGossipDataNbt(yarnwrap.nbt.NbtElement nbt, ) { net.minecraft.entity.passive.VillagerEntity.readGossipDataNbt(nbt.wrapperContained); }
+public void readGossipData(yarnwrap.village.VillagerGossips gossips) { wrapperContained.readGossipData(gossips.wrapperContained); }
+// public static void readGossipData(yarnwrap.village.VillagerGossips gossips, ) { net.minecraft.entity.passive.VillagerEntity.readGossipData(gossips.wrapperContained); }
 public yarnwrap.village.VillagerGossips getGossip() { return new yarnwrap.village.VillagerGossips(wrapperContained.getGossip()); }
 // public static yarnwrap.village.VillagerGossips getGossip() { return new yarnwrap.village.VillagerGossips(net.minecraft.entity.passive.VillagerEntity.getGossip()); }
 // public void restockAndUpdateDemandBonus() { wrapperContained.restockAndUpdateDemandBonus(); }
@@ -193,11 +198,11 @@ public boolean isNatural() { return wrapperContained.isNatural(); }
 // public static void sendOffersToCustomer() { net.minecraft.entity.passive.VillagerEntity.sendOffersToCustomer(); }
 // public boolean method_51304(yarnwrap.item.ItemStack stack) { return wrapperContained.method_51304(stack.wrapperContained); }
 // public static boolean method_51304(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.passive.VillagerEntity.method_51304(stack.wrapperContained); }
-// public void method_56683(yarnwrap.village.VillagerData villagerData) { wrapperContained.method_56683(villagerData.wrapperContained); }
-// public static void method_56683(yarnwrap.village.VillagerData villagerData, ) { net.minecraft.entity.passive.VillagerEntity.method_56683(villagerData.wrapperContained); }
-public boolean wantsToStartBreeding() { return wrapperContained.wantsToStartBreeding(); }
-// public static boolean wantsToStartBreeding() { return net.minecraft.entity.passive.VillagerEntity.wantsToStartBreeding(); }
-public boolean canBreed() { return wrapperContained.canBreed(); }
-// public static boolean canBreed() { return net.minecraft.entity.passive.VillagerEntity.canBreed(); }
+// public boolean method_63012(long lastSlept) { return wrapperContained.method_63012(lastSlept); }
+// public static boolean method_63012(long lastSlept, ) { return net.minecraft.entity.passive.VillagerEntity.method_63012(lastSlept); }
+// public void method_63666(yarnwrap.server.world.ServerWorld witch) { wrapperContained.method_63666(witch.wrapperContained); }
+// public static void method_63666(yarnwrap.server.world.ServerWorld witch, ) { net.minecraft.entity.passive.VillagerEntity.method_63666(witch.wrapperContained); }
+// public yarnwrap.village.VillagerData createVillagerData() { return new yarnwrap.village.VillagerData(wrapperContained.createVillagerData()); }
+public static yarnwrap.village.VillagerData createVillagerData() { return new yarnwrap.village.VillagerData(net.minecraft.entity.passive.VillagerEntity.createVillagerData()); }
 
 }

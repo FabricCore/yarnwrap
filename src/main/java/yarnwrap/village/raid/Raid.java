@@ -51,11 +51,6 @@ public class Raid { public net.minecraft.village.raid.Raid wrapperContained; pub
 // public static java.util.Map waveToRaiders() { return net.minecraft.village.raid.Raid.waveToRaiders; }
 // public static void waveToRaiders(java.util.Map value, ) { net.minecraft.village.raid.Raid.waveToRaiders = value; }
 
-// public yarnwrap.server.world.ServerWorld world() { return new yarnwrap.server.world.ServerWorld(wrapperContained.world); }
-// public void world(yarnwrap.server.world.ServerWorld value) { wrapperContained.world = value.wrapperContained; }
-// public static yarnwrap.server.world.ServerWorld world() { return new yarnwrap.server.world.ServerWorld(net.minecraft.village.raid.Raid.world); }
-// public static void world(yarnwrap.server.world.ServerWorld value, ) { net.minecraft.village.raid.Raid.world = value.wrapperContained; }
-
 // public float totalHealth() { return wrapperContained.totalHealth; }
 // public void totalHealth(float value) { wrapperContained.totalHealth = value; }
 // public static float totalHealth() { return net.minecraft.village.raid.Raid.totalHealth; }
@@ -66,15 +61,10 @@ public class Raid { public net.minecraft.village.raid.Raid wrapperContained; pub
 // public static int wavesSpawned() { return net.minecraft.village.raid.Raid.wavesSpawned; }
 // public static void wavesSpawned(int value, ) { net.minecraft.village.raid.Raid.wavesSpawned = value; }
 
-// public int badOmenLevel() { return wrapperContained.badOmenLevel; }
-// public void badOmenLevel(int value) { wrapperContained.badOmenLevel = value; }
-// public static int badOmenLevel() { return net.minecraft.village.raid.Raid.badOmenLevel; }
-// public static void badOmenLevel(int value, ) { net.minecraft.village.raid.Raid.badOmenLevel = value; }
-
-// public int id() { return wrapperContained.id; }
-// public void id(int value) { wrapperContained.id = value; }
-// public static int id() { return net.minecraft.village.raid.Raid.id; }
-// public static void id(int value, ) { net.minecraft.village.raid.Raid.id = value; }
+// public int raidOmenLevel() { return wrapperContained.raidOmenLevel; }
+// public void raidOmenLevel(int value) { wrapperContained.raidOmenLevel = value; }
+// public static int raidOmenLevel() { return net.minecraft.village.raid.Raid.raidOmenLevel; }
+// public static void raidOmenLevel(int value, ) { net.minecraft.village.raid.Raid.raidOmenLevel = value; }
 
 // public yarnwrap.text.Text EVENT_TEXT() { return new yarnwrap.text.Text(wrapperContained.EVENT_TEXT); }
 // public void EVENT_TEXT(yarnwrap.text.Text value) { wrapperContained.EVENT_TEXT = value.wrapperContained; }
@@ -111,10 +101,10 @@ public class Raid { public net.minecraft.village.raid.Raid wrapperContained; pub
 // public static int finishCooldown() { return net.minecraft.village.raid.Raid.finishCooldown; }
 // public static void finishCooldown(int value, ) { net.minecraft.village.raid.Raid.finishCooldown = value; }
 
-// public java.util.Optional preCalculatedRavagerSpawnLocation() { return wrapperContained.preCalculatedRavagerSpawnLocation; }
-// public void preCalculatedRavagerSpawnLocation(java.util.Optional value) { wrapperContained.preCalculatedRavagerSpawnLocation = value; }
-// public static java.util.Optional preCalculatedRavagerSpawnLocation() { return net.minecraft.village.raid.Raid.preCalculatedRavagerSpawnLocation; }
-// public static void preCalculatedRavagerSpawnLocation(java.util.Optional value, ) { net.minecraft.village.raid.Raid.preCalculatedRavagerSpawnLocation = value; }
+// public java.util.Optional preCalculatedRaidersSpawnLocation() { return wrapperContained.preCalculatedRaidersSpawnLocation; }
+// public void preCalculatedRaidersSpawnLocation(java.util.Optional value) { wrapperContained.preCalculatedRaidersSpawnLocation = value; }
+// public static java.util.Optional preCalculatedRaidersSpawnLocation() { return net.minecraft.village.raid.Raid.preCalculatedRaidersSpawnLocation; }
+// public static void preCalculatedRaidersSpawnLocation(java.util.Optional value, ) { net.minecraft.village.raid.Raid.preCalculatedRaidersSpawnLocation = value; }
 
 // public int MAX_DESPAWN_COUNTER() { return wrapperContained.MAX_DESPAWN_COUNTER; }
 // public void MAX_DESPAWN_COUNTER(int value) { wrapperContained.MAX_DESPAWN_COUNTER = value; }
@@ -146,78 +136,78 @@ public static int SQUARED_MAX_RAIDER_DISTANCE() { return net.minecraft.village.r
 // public static int MAX_ACTIVE_TICKS() { return net.minecraft.village.raid.Raid.MAX_ACTIVE_TICKS; }
 // public static void MAX_ACTIVE_TICKS(int value, ) { net.minecraft.village.raid.Raid.MAX_ACTIVE_TICKS = value; }
 
-public Raid(int id,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.village.raid.Raid(id,world.wrapperContained,pos.wrapperContained); }
-public Raid(yarnwrap.server.world.ServerWorld world,yarnwrap.nbt.NbtCompound nbt) { this.wrapperContained = new net.minecraft.village.raid.Raid(world.wrapperContained,nbt.wrapperContained); }
-public boolean addToWave(int wave,yarnwrap.entity.raid.RaiderEntity entity,boolean countHealth) { return wrapperContained.addToWave(wave,entity.wrapperContained,countHealth); }
-// public static boolean addToWave(int wave,yarnwrap.entity.raid.RaiderEntity entity,boolean countHealth, ) { return net.minecraft.village.raid.Raid.addToWave(wave,entity.wrapperContained,countHealth); }
+// public yarnwrap.entity.SpawnLocation RAVAGER_SPAWN_LOCATION() { return new yarnwrap.entity.SpawnLocation(wrapperContained.RAVAGER_SPAWN_LOCATION); }
+// public void RAVAGER_SPAWN_LOCATION(yarnwrap.entity.SpawnLocation value) { wrapperContained.RAVAGER_SPAWN_LOCATION = value.wrapperContained; }
+public static yarnwrap.entity.SpawnLocation RAVAGER_SPAWN_LOCATION() { return new yarnwrap.entity.SpawnLocation(net.minecraft.village.raid.Raid.RAVAGER_SPAWN_LOCATION); }
+// public static void RAVAGER_SPAWN_LOCATION(yarnwrap.entity.SpawnLocation value, ) { net.minecraft.village.raid.Raid.RAVAGER_SPAWN_LOCATION = value.wrapperContained; }
+
+// public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.village.raid.Raid.CODEC; }
+// public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.village.raid.Raid.CODEC = value; }
+
+public Raid(yarnwrap.util.math.BlockPos center,yarnwrap.world.Difficulty difficulty) { this.wrapperContained = new net.minecraft.village.raid.Raid(center.wrapperContained,difficulty.wrapperContained); }
+// public Raid(boolean started,boolean active,long ticksActive,int raidOmenLevel,int wavesSpawned,int preRaidTicks,int postRaidTicks,float totalHealth,int waveCount,Object status,yarnwrap.util.math.BlockPos center,java.util.Set heroesOfTheVillage) { this.wrapperContained = new net.minecraft.village.raid.Raid(started,active,ticksActive,raidOmenLevel,wavesSpawned,preRaidTicks,postRaidTicks,totalHealth,waveCount,status,center.wrapperContained,heroesOfTheVillage); }
+public boolean addToWave(yarnwrap.server.world.ServerWorld world,int wave,yarnwrap.entity.raid.RaiderEntity raider,boolean countHealth) { return wrapperContained.addToWave(world.wrapperContained,wave,raider.wrapperContained,countHealth); }
+// public static boolean addToWave(yarnwrap.server.world.ServerWorld world,int wave,yarnwrap.entity.raid.RaiderEntity raider,boolean countHealth, ) { return net.minecraft.village.raid.Raid.addToWave(world.wrapperContained,wave,raider.wrapperContained,countHealth); }
 public int getGroupsSpawned() { return wrapperContained.getGroupsSpawned(); }
 // public static int getGroupsSpawned() { return net.minecraft.village.raid.Raid.getGroupsSpawned(); }
 public void setWaveCaptain(int wave,yarnwrap.entity.raid.RaiderEntity entity) { wrapperContained.setWaveCaptain(wave,entity.wrapperContained); }
 // public static void setWaveCaptain(int wave,yarnwrap.entity.raid.RaiderEntity entity, ) { net.minecraft.village.raid.Raid.setWaveCaptain(wave,entity.wrapperContained); }
 public int getBadOmenLevel() { return wrapperContained.getBadOmenLevel(); }
 // public static int getBadOmenLevel() { return net.minecraft.village.raid.Raid.getBadOmenLevel(); }
-public int getRaidId() { return wrapperContained.getRaidId(); }
-// public static int getRaidId() { return net.minecraft.village.raid.Raid.getRaidId(); }
 public yarnwrap.util.math.BlockPos getCenter() { return new yarnwrap.util.math.BlockPos(wrapperContained.getCenter()); }
 // public static yarnwrap.util.math.BlockPos getCenter() { return new yarnwrap.util.math.BlockPos(net.minecraft.village.raid.Raid.getCenter()); }
 public yarnwrap.entity.raid.RaiderEntity getCaptain(int wave) { return new yarnwrap.entity.raid.RaiderEntity(wrapperContained.getCaptain(wave)); }
 // public static yarnwrap.entity.raid.RaiderEntity getCaptain(int wave, ) { return new yarnwrap.entity.raid.RaiderEntity(net.minecraft.village.raid.Raid.getCaptain(wave)); }
-// public void updateBarToPlayers() { wrapperContained.updateBarToPlayers(); }
-// public static void updateBarToPlayers() { net.minecraft.village.raid.Raid.updateBarToPlayers(); }
+// public void updateBarToPlayers(yarnwrap.server.world.ServerWorld world) { wrapperContained.updateBarToPlayers(world.wrapperContained); }
+// public static void updateBarToPlayers(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.village.raid.Raid.updateBarToPlayers(world.wrapperContained); }
 public void removeLeader(int wave) { wrapperContained.removeLeader(wave); }
 // public static void removeLeader(int wave, ) { net.minecraft.village.raid.Raid.removeLeader(wave); }
 // public java.util.function.Predicate isInRaidDistance() { return wrapperContained.isInRaidDistance(); }
 // public static java.util.function.Predicate isInRaidDistance() { return net.minecraft.village.raid.Raid.isInRaidDistance(); }
-public yarnwrap.nbt.NbtCompound writeNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.nbt.NbtCompound(wrapperContained.writeNbt(nbt.wrapperContained)); }
-// public static yarnwrap.nbt.NbtCompound writeNbt(yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.village.raid.Raid.writeNbt(nbt.wrapperContained)); }
 public boolean isActive() { return wrapperContained.isActive(); }
 // public static boolean isActive() { return net.minecraft.village.raid.Raid.isActive(); }
-// public boolean addToWave(int wave,yarnwrap.entity.raid.RaiderEntity entity) { return wrapperContained.addToWave(wave,entity.wrapperContained); }
-// public static boolean addToWave(int wave,yarnwrap.entity.raid.RaiderEntity entity, ) { return net.minecraft.village.raid.Raid.addToWave(wave,entity.wrapperContained); }
+// public boolean addToWave(yarnwrap.server.world.ServerWorld world,int wave,yarnwrap.entity.raid.RaiderEntity raider) { return wrapperContained.addToWave(world.wrapperContained,wave,raider.wrapperContained); }
+// public static boolean addToWave(yarnwrap.server.world.ServerWorld world,int wave,yarnwrap.entity.raid.RaiderEntity raider, ) { return net.minecraft.village.raid.Raid.addToWave(world.wrapperContained,wave,raider.wrapperContained); }
 public void invalidate() { wrapperContained.invalidate(); }
 // public static void invalidate() { net.minecraft.village.raid.Raid.invalidate(); }
 // public java.util.Set method_16508(java.lang.Integer wavex) { return wrapperContained.method_16508(wavex); }
 // public static java.util.Set method_16508(java.lang.Integer wavex, ) { return net.minecraft.village.raid.Raid.method_16508(wavex); }
-public void tick() { wrapperContained.tick(); }
-// public static void tick() { net.minecraft.village.raid.Raid.tick(); }
-public void removeFromWave(yarnwrap.entity.raid.RaiderEntity entity,boolean countHealth) { wrapperContained.removeFromWave(entity.wrapperContained,countHealth); }
-// public static void removeFromWave(yarnwrap.entity.raid.RaiderEntity entity,boolean countHealth, ) { net.minecraft.village.raid.Raid.removeFromWave(entity.wrapperContained,countHealth); }
+public void tick(yarnwrap.server.world.ServerWorld world) { wrapperContained.tick(world.wrapperContained); }
+// public static void tick(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.village.raid.Raid.tick(world.wrapperContained); }
+public void removeFromWave(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.raid.RaiderEntity raider,boolean countHealth) { wrapperContained.removeFromWave(world.wrapperContained,raider.wrapperContained,countHealth); }
+// public static void removeFromWave(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.raid.RaiderEntity raider,boolean countHealth, ) { net.minecraft.village.raid.Raid.removeFromWave(world.wrapperContained,raider.wrapperContained,countHealth); }
 public float getCurrentRaiderHealth() { return wrapperContained.getCurrentRaiderHealth(); }
 // public static float getCurrentRaiderHealth() { return net.minecraft.village.raid.Raid.getCurrentRaiderHealth(); }
 public int getMaxAcceptableBadOmenLevel() { return wrapperContained.getMaxAcceptableBadOmenLevel(); }
 // public static int getMaxAcceptableBadOmenLevel() { return net.minecraft.village.raid.Raid.getMaxAcceptableBadOmenLevel(); }
-// public yarnwrap.item.ItemStack getOminousBanner(yarnwrap.registry.RegistryEntryLookup bannerPatternLookup) { return new yarnwrap.item.ItemStack(wrapperContained.getOminousBanner(bannerPatternLookup.wrapperContained)); }
-// public static yarnwrap.item.ItemStack getOminousBanner(yarnwrap.registry.RegistryEntryLookup bannerPatternLookup, ) { return new yarnwrap.item.ItemStack(net.minecraft.village.raid.Raid.getOminousBanner(bannerPatternLookup.wrapperContained)); }
-public void addRaider(int wave,yarnwrap.entity.raid.RaiderEntity raider,yarnwrap.util.math.BlockPos pos,boolean existing) { wrapperContained.addRaider(wave,raider.wrapperContained,pos.wrapperContained,existing); }
-// public static void addRaider(int wave,yarnwrap.entity.raid.RaiderEntity raider,yarnwrap.util.math.BlockPos pos,boolean existing, ) { net.minecraft.village.raid.Raid.addRaider(wave,raider.wrapperContained,pos.wrapperContained,existing); }
+public void addRaider(yarnwrap.server.world.ServerWorld world,int wave,yarnwrap.entity.raid.RaiderEntity raider,yarnwrap.util.math.BlockPos pos,boolean existing) { wrapperContained.addRaider(world.wrapperContained,wave,raider.wrapperContained,pos.wrapperContained,existing); }
+// public static void addRaider(yarnwrap.server.world.ServerWorld world,int wave,yarnwrap.entity.raid.RaiderEntity raider,yarnwrap.util.math.BlockPos pos,boolean existing, ) { net.minecraft.village.raid.Raid.addRaider(world.wrapperContained,wave,raider.wrapperContained,pos.wrapperContained,existing); }
 public int getRaiderCount() { return wrapperContained.getRaiderCount(); }
 // public static int getRaiderCount() { return net.minecraft.village.raid.Raid.getRaiderCount(); }
-// public boolean start() { return wrapperContained.start(); }
-// public static boolean start() { return net.minecraft.village.raid.Raid.start(); }
+public boolean start(yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.start(player.wrapperContained); }
+// public static boolean start(yarnwrap.server.network.ServerPlayerEntity player, ) { return net.minecraft.village.raid.Raid.start(player.wrapperContained); }
 // public boolean canSpawnRaiders() { return wrapperContained.canSpawnRaiders(); }
 // public static boolean canSpawnRaiders() { return net.minecraft.village.raid.Raid.canSpawnRaiders(); }
-// public void markDirty() { wrapperContained.markDirty(); }
-// public static void markDirty() { net.minecraft.village.raid.Raid.markDirty(); }
-// public void playRaidHorn(yarnwrap.util.math.BlockPos pos) { wrapperContained.playRaidHorn(pos.wrapperContained); }
-// public static void playRaidHorn(yarnwrap.util.math.BlockPos pos, ) { net.minecraft.village.raid.Raid.playRaidHorn(pos.wrapperContained); }
-// public void spawnNextWave(yarnwrap.util.math.BlockPos pos) { wrapperContained.spawnNextWave(pos.wrapperContained); }
-// public static void spawnNextWave(yarnwrap.util.math.BlockPos pos, ) { net.minecraft.village.raid.Raid.spawnNextWave(pos.wrapperContained); }
+// public void markDirty(yarnwrap.server.world.ServerWorld world) { wrapperContained.markDirty(world.wrapperContained); }
+// public static void markDirty(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.village.raid.Raid.markDirty(world.wrapperContained); }
+// public void playRaidHorn(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { wrapperContained.playRaidHorn(world.wrapperContained,pos.wrapperContained); }
+// public static void playRaidHorn(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.village.raid.Raid.playRaidHorn(world.wrapperContained,pos.wrapperContained); }
+// public void spawnNextWave(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { wrapperContained.spawnNextWave(world.wrapperContained,pos.wrapperContained); }
+// public static void spawnNextWave(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.village.raid.Raid.spawnNextWave(world.wrapperContained,pos.wrapperContained); }
 public void updateBar() { wrapperContained.updateBar(); }
 // public static void updateBar() { net.minecraft.village.raid.Raid.updateBar(); }
 public boolean hasStarted() { return wrapperContained.hasStarted(); }
 // public static boolean hasStarted() { return net.minecraft.village.raid.Raid.hasStarted(); }
-// public yarnwrap.util.math.BlockPos getRavagerSpawnLocation(int proximity,int tries) { return new yarnwrap.util.math.BlockPos(wrapperContained.getRavagerSpawnLocation(proximity,tries)); }
-// public static yarnwrap.util.math.BlockPos getRavagerSpawnLocation(int proximity,int tries, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.village.raid.Raid.getRavagerSpawnLocation(proximity,tries)); }
-public yarnwrap.world.World getWorld() { return new yarnwrap.world.World(wrapperContained.getWorld()); }
-// public static yarnwrap.world.World getWorld() { return new yarnwrap.world.World(net.minecraft.village.raid.Raid.getWorld()); }
+// public yarnwrap.util.math.BlockPos findRandomRaidersSpawnLocation(yarnwrap.server.world.ServerWorld world,int proximity) { return new yarnwrap.util.math.BlockPos(wrapperContained.findRandomRaidersSpawnLocation(world.wrapperContained,proximity)); }
+// public static yarnwrap.util.math.BlockPos findRandomRaidersSpawnLocation(yarnwrap.server.world.ServerWorld world,int proximity, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.village.raid.Raid.findRandomRaidersSpawnLocation(world.wrapperContained,proximity)); }
 public boolean isFinished() { return wrapperContained.isFinished(); }
 // public static boolean isFinished() { return net.minecraft.village.raid.Raid.isFinished(); }
 // public boolean shouldSpawnMoreGroups() { return wrapperContained.shouldSpawnMoreGroups(); }
 // public static boolean shouldSpawnMoreGroups() { return net.minecraft.village.raid.Raid.shouldSpawnMoreGroups(); }
-// public void removeObsoleteRaiders() { wrapperContained.removeObsoleteRaiders(); }
-// public static void removeObsoleteRaiders() { net.minecraft.village.raid.Raid.removeObsoleteRaiders(); }
-// public boolean method_19208(yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.method_19208(player.wrapperContained); }
-// public static boolean method_19208(yarnwrap.server.network.ServerPlayerEntity player, ) { return net.minecraft.village.raid.Raid.method_19208(player.wrapperContained); }
+// public void removeObsoleteRaiders(yarnwrap.server.world.ServerWorld world) { wrapperContained.removeObsoleteRaiders(world.wrapperContained); }
+// public static void removeObsoleteRaiders(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.village.raid.Raid.removeObsoleteRaiders(world.wrapperContained); }
 // public boolean hasSpawnedFinalWave() { return wrapperContained.hasSpawnedFinalWave(); }
 // public static boolean hasSpawnedFinalWave() { return net.minecraft.village.raid.Raid.hasSpawnedFinalWave(); }
 // public boolean hasExtraWave() { return wrapperContained.hasExtraWave(); }
@@ -246,19 +236,49 @@ public boolean hasLost() { return wrapperContained.hasLost(); }
 // public static boolean hasLost() { return net.minecraft.village.raid.Raid.hasLost(); }
 public float getEnchantmentChance() { return wrapperContained.getEnchantmentChance(); }
 // public static float getEnchantmentChance() { return net.minecraft.village.raid.Raid.getEnchantmentChance(); }
-// public java.util.Optional preCalculateRavagerSpawnLocation(int proximity) { return wrapperContained.preCalculateRavagerSpawnLocation(proximity); }
-// public static java.util.Optional preCalculateRavagerSpawnLocation(int proximity, ) { return net.minecraft.village.raid.Raid.preCalculateRavagerSpawnLocation(proximity); }
+// public java.util.Optional getRaidersSpawnLocation(yarnwrap.server.world.ServerWorld world) { return wrapperContained.getRaidersSpawnLocation(world.wrapperContained); }
+// public static java.util.Optional getRaidersSpawnLocation(yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.village.raid.Raid.getRaidersSpawnLocation(world.wrapperContained); }
 // public void setCenter(yarnwrap.util.math.BlockPos center) { wrapperContained.setCenter(center.wrapperContained); }
 // public static void setCenter(yarnwrap.util.math.BlockPos center, ) { net.minecraft.village.raid.Raid.setCenter(center.wrapperContained); }
 // public double method_20510(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_20510(pos.wrapperContained); }
 // public static double method_20510(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.village.raid.Raid.method_20510(pos.wrapperContained); }
-// public void moveRaidCenter() { wrapperContained.moveRaidCenter(); }
-// public static void moveRaidCenter() { net.minecraft.village.raid.Raid.moveRaidCenter(); }
+// public void moveRaidCenter(yarnwrap.server.world.ServerWorld world) { wrapperContained.moveRaidCenter(world.wrapperContained); }
+// public static void moveRaidCenter(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.village.raid.Raid.moveRaidCenter(world.wrapperContained); }
 public void setBadOmenLevel(int badOmenLevel) { wrapperContained.setBadOmenLevel(badOmenLevel); }
 // public static void setBadOmenLevel(int badOmenLevel, ) { net.minecraft.village.raid.Raid.setBadOmenLevel(badOmenLevel); }
 public float getTotalHealth() { return wrapperContained.getTotalHealth(); }
 // public static float getTotalHealth() { return net.minecraft.village.raid.Raid.getTotalHealth(); }
 public java.util.Set getAllRaiders() { return wrapperContained.getAllRaiders(); }
 // public static java.util.Set getAllRaiders() { return net.minecraft.village.raid.Raid.getAllRaiders(); }
+// public yarnwrap.item.ItemStack createOminousBanner(yarnwrap.registry.RegistryEntryLookup bannerPatternLookup) { return new yarnwrap.item.ItemStack(wrapperContained.createOminousBanner(bannerPatternLookup.wrapperContained)); }
+// public static yarnwrap.item.ItemStack createOminousBanner(yarnwrap.registry.RegistryEntryLookup bannerPatternLookup, ) { return new yarnwrap.item.ItemStack(net.minecraft.village.raid.Raid.createOminousBanner(bannerPatternLookup.wrapperContained)); }
+// public com.mojang.datafixers.kinds.App method_67361(Object instance) { return wrapperContained.method_67361(instance); }
+// public static com.mojang.datafixers.kinds.App method_67361(Object instance, ) { return net.minecraft.village.raid.Raid.method_67361(instance); }
+// public java.util.Set method_67362(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67362(raid.wrapperContained); }
+// public static java.util.Set method_67362(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67362(raid.wrapperContained); }
+// public boolean method_67363(yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.method_67363(player.wrapperContained); }
+// public static boolean method_67363(yarnwrap.server.network.ServerPlayerEntity player, ) { return net.minecraft.village.raid.Raid.method_67363(player.wrapperContained); }
+// public yarnwrap.util.math.BlockPos method_67364(yarnwrap.village.raid.Raid raid) { return new yarnwrap.util.math.BlockPos(wrapperContained.method_67364(raid.wrapperContained)); }
+// public static yarnwrap.util.math.BlockPos method_67364(yarnwrap.village.raid.Raid raid, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.village.raid.Raid.method_67364(raid.wrapperContained)); }
+// public Object method_67365(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67365(raid.wrapperContained); }
+// public static Object method_67365(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67365(raid.wrapperContained); }
+// public java.lang.Integer method_67366(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67366(raid.wrapperContained); }
+// public static java.lang.Integer method_67366(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67366(raid.wrapperContained); }
+// public java.lang.Float method_67367(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67367(raid.wrapperContained); }
+// public static java.lang.Float method_67367(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67367(raid.wrapperContained); }
+// public java.lang.Integer method_67368(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67368(raid.wrapperContained); }
+// public static java.lang.Integer method_67368(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67368(raid.wrapperContained); }
+// public java.lang.Integer method_67370(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67370(raid.wrapperContained); }
+// public static java.lang.Integer method_67370(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67370(raid.wrapperContained); }
+// public java.lang.Integer method_67371(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67371(raid.wrapperContained); }
+// public static java.lang.Integer method_67371(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67371(raid.wrapperContained); }
+// public java.lang.Integer method_67372(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67372(raid.wrapperContained); }
+// public static java.lang.Integer method_67372(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67372(raid.wrapperContained); }
+// public java.lang.Long method_67373(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67373(raid.wrapperContained); }
+// public static java.lang.Long method_67373(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67373(raid.wrapperContained); }
+// public java.lang.Boolean method_67374(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67374(raid.wrapperContained); }
+// public static java.lang.Boolean method_67374(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67374(raid.wrapperContained); }
+// public java.lang.Boolean method_67375(yarnwrap.village.raid.Raid raid) { return wrapperContained.method_67375(raid.wrapperContained); }
+// public static java.lang.Boolean method_67375(yarnwrap.village.raid.Raid raid, ) { return net.minecraft.village.raid.Raid.method_67375(raid.wrapperContained); }
 
 }

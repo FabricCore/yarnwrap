@@ -6,11 +6,25 @@ public class CatVariant { public net.minecraft.entity.passive.CatVariant wrapper
 public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.entity.passive.CatVariant.PACKET_CODEC); }
 // public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.entity.passive.CatVariant.PACKET_CODEC = value.wrapperContained; }
 
-// public yarnwrap.entity.passive.CatVariant register(yarnwrap.registry.Registry registry,yarnwrap.registry.RegistryKey key,java.lang.String textureId) { return new yarnwrap.entity.passive.CatVariant(wrapperContained.register(registry.wrapperContained,key.wrapperContained,textureId)); }
-// public static yarnwrap.entity.passive.CatVariant register(yarnwrap.registry.Registry registry,yarnwrap.registry.RegistryKey key,java.lang.String textureId, ) { return new yarnwrap.entity.passive.CatVariant(net.minecraft.entity.passive.CatVariant.register(registry.wrapperContained,key.wrapperContained,textureId)); }
-// public yarnwrap.entity.passive.CatVariant registerAndGetDefault(yarnwrap.registry.Registry registry) { return new yarnwrap.entity.passive.CatVariant(wrapperContained.registerAndGetDefault(registry.wrapperContained)); }
-// public static yarnwrap.entity.passive.CatVariant registerAndGetDefault(yarnwrap.registry.Registry registry, ) { return new yarnwrap.entity.passive.CatVariant(net.minecraft.entity.passive.CatVariant.registerAndGetDefault(registry.wrapperContained)); }
-// public yarnwrap.registry.RegistryKey of(java.lang.String id) { return new yarnwrap.registry.RegistryKey(wrapperContained.of(id)); }
-// public static yarnwrap.registry.RegistryKey of(java.lang.String id, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.entity.passive.CatVariant.of(id)); }
+// public com.mojang.serialization.Codec ENTRY_CODEC() { return wrapperContained.ENTRY_CODEC; }
+// public void ENTRY_CODEC(com.mojang.serialization.Codec value) { wrapperContained.ENTRY_CODEC = value; }
+public static com.mojang.serialization.Codec ENTRY_CODEC() { return net.minecraft.entity.passive.CatVariant.ENTRY_CODEC; }
+// public static void ENTRY_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.entity.passive.CatVariant.ENTRY_CODEC = value; }
+
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.entity.passive.CatVariant.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.entity.passive.CatVariant.CODEC = value; }
+
+// public com.mojang.serialization.Codec NETWORK_CODEC() { return wrapperContained.NETWORK_CODEC; }
+// public void NETWORK_CODEC(com.mojang.serialization.Codec value) { wrapperContained.NETWORK_CODEC = value; }
+public static com.mojang.serialization.Codec NETWORK_CODEC() { return net.minecraft.entity.passive.CatVariant.NETWORK_CODEC; }
+// public static void NETWORK_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.entity.passive.CatVariant.NETWORK_CODEC = value; }
+
+// public CatVariant(yarnwrap.util.AssetInfo assetInfo) { this.wrapperContained = new net.minecraft.entity.passive.CatVariant(assetInfo.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_67127(Object instance) { return wrapperContained.method_67127(instance); }
+// public static com.mojang.datafixers.kinds.App method_67127(Object instance, ) { return net.minecraft.entity.passive.CatVariant.method_67127(instance); }
+// public com.mojang.datafixers.kinds.App method_67128(Object instance) { return wrapperContained.method_67128(instance); }
+// public static com.mojang.datafixers.kinds.App method_67128(Object instance, ) { return net.minecraft.entity.passive.CatVariant.method_67128(instance); }
 
 }

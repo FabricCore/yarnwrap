@@ -21,8 +21,8 @@ public java.util.Optional getOwner(yarnwrap.registry.RegistryKey registryRef) { 
 // public static com.mojang.serialization.DataResult method_46630(yarnwrap.registry.RegistryKey ops, ) { return net.minecraft.registry.RegistryOps.method_46630(ops.wrapperContained); }
 // public com.mojang.serialization.DataResult method_46631(yarnwrap.registry.RegistryKey ops) { return wrapperContained.method_46631(ops.wrapperContained); }
 // public static com.mojang.serialization.DataResult method_46631(yarnwrap.registry.RegistryKey ops, ) { return net.minecraft.registry.RegistryOps.method_46631(ops.wrapperContained); }
-// // public yarnwrap.registry.RegistryOps of(com.mojang.serialization.DynamicOps delegate,Object wrapperLookup) { return new yarnwrap.registry.RegistryOps(wrapperContained.of(delegate,wrapperLookup)); }
-// // public static yarnwrap.registry.RegistryOps of(com.mojang.serialization.DynamicOps delegate,Object wrapperLookup, ) { return new yarnwrap.registry.RegistryOps(net.minecraft.registry.RegistryOps.of(delegate,wrapperLookup)); }
+// // public yarnwrap.registry.RegistryOps of(com.mojang.serialization.DynamicOps delegate,Object registries) { return new yarnwrap.registry.RegistryOps(wrapperContained.of(delegate,registries)); }
+// // public static yarnwrap.registry.RegistryOps of(com.mojang.serialization.DynamicOps delegate,Object registries, ) { return new yarnwrap.registry.RegistryOps(net.minecraft.registry.RegistryOps.of(delegate,registries)); }
 // public Object method_46633(java.lang.Object object) { return wrapperContained.method_46633(object); }
 // public static Object method_46633(java.lang.Object object, ) { return net.minecraft.registry.RegistryOps.method_46633(object); }
 public java.util.Optional getEntryLookup(yarnwrap.registry.RegistryKey registryRef) { return wrapperContained.getEntryLookup(registryRef.wrapperContained); }
@@ -33,8 +33,8 @@ public java.util.Optional getEntryLookup(yarnwrap.registry.RegistryKey registryR
 // public static com.mojang.serialization.codecs.RecordCodecBuilder getEntryLookupCodec(yarnwrap.registry.RegistryKey registryRef, ) { return net.minecraft.registry.RegistryOps.getEntryLookupCodec(registryRef.wrapperContained); }
 // public com.mojang.serialization.codecs.RecordCodecBuilder getEntryCodec(yarnwrap.registry.RegistryKey key) { return wrapperContained.getEntryCodec(key.wrapperContained); }
 // public static com.mojang.serialization.codecs.RecordCodecBuilder getEntryCodec(yarnwrap.registry.RegistryKey key, ) { return net.minecraft.registry.RegistryOps.getEntryCodec(key.wrapperContained); }
-// public com.mojang.serialization.Dynamic withRegistry(com.mojang.serialization.Dynamic dynamic,Object registryLookup) { return wrapperContained.withRegistry(dynamic,registryLookup); }
-// public static com.mojang.serialization.Dynamic withRegistry(com.mojang.serialization.Dynamic dynamic,Object registryLookup, ) { return net.minecraft.registry.RegistryOps.withRegistry(dynamic,registryLookup); }
+// public com.mojang.serialization.Dynamic withRegistry(com.mojang.serialization.Dynamic dynamic,Object registries) { return wrapperContained.withRegistry(dynamic,registries); }
+// public static com.mojang.serialization.Dynamic withRegistry(com.mojang.serialization.Dynamic dynamic,Object registries, ) { return net.minecraft.registry.RegistryOps.withRegistry(dynamic,registries); }
 public yarnwrap.registry.RegistryOps withDelegate(com.mojang.serialization.DynamicOps delegate) { return new yarnwrap.registry.RegistryOps(wrapperContained.withDelegate(delegate)); }
 // public static yarnwrap.registry.RegistryOps withDelegate(com.mojang.serialization.DynamicOps delegate, ) { return new yarnwrap.registry.RegistryOps(net.minecraft.registry.RegistryOps.withDelegate(delegate)); }
 

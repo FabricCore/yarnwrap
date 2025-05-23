@@ -11,6 +11,5 @@ public static java.util.Map ENTITIES() { return net.minecraft.datafixer.fix.Enti
 public static java.util.Map SPAWN_EGGS() { return net.minecraft.datafixer.fix.EntityCodSalmonFix.SPAWN_EGGS; }
 // public static void SPAWN_EGGS(java.util.Map value, ) { net.minecraft.datafixer.fix.EntityCodSalmonFix.SPAWN_EGGS = value; }
 
-public EntityCodSalmonFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityCodSalmonFix(outputSchema,changesType); }
 
 }

@@ -1,11 +1,6 @@
 package yarnwrap.block;
 public class TrapdoorBlock { public net.minecraft.block.TrapdoorBlock wrapperContained; public TrapdoorBlock(net.minecraft.block.TrapdoorBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.util.shape.VoxelShape SOUTH_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.SOUTH_SHAPE); }
-// public void SOUTH_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.SOUTH_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape SOUTH_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TrapdoorBlock.SOUTH_SHAPE); }
-// public static void SOUTH_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TrapdoorBlock.SOUTH_SHAPE = value.wrapperContained; }
-
 // public yarnwrap.state.property.EnumProperty HALF() { return new yarnwrap.state.property.EnumProperty(wrapperContained.HALF); }
 // public void HALF(yarnwrap.state.property.EnumProperty value) { wrapperContained.HALF = value.wrapperContained; }
 public static yarnwrap.state.property.EnumProperty HALF() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.TrapdoorBlock.HALF); }
@@ -16,40 +11,15 @@ public static yarnwrap.state.property.EnumProperty HALF() { return new yarnwrap.
 public static yarnwrap.state.property.BooleanProperty WATERLOGGED() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.TrapdoorBlock.WATERLOGGED); }
 // public static void WATERLOGGED(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.TrapdoorBlock.WATERLOGGED = value.wrapperContained; }
 
-// public yarnwrap.util.shape.VoxelShape EAST_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.EAST_SHAPE); }
-// public void EAST_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.EAST_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape EAST_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TrapdoorBlock.EAST_SHAPE); }
-// public static void EAST_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TrapdoorBlock.EAST_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape OPEN_TOP_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.OPEN_TOP_SHAPE); }
-// public void OPEN_TOP_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.OPEN_TOP_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape OPEN_TOP_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TrapdoorBlock.OPEN_TOP_SHAPE); }
-// public static void OPEN_TOP_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TrapdoorBlock.OPEN_TOP_SHAPE = value.wrapperContained; }
-
 // public yarnwrap.state.property.BooleanProperty POWERED() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.POWERED); }
 // public void POWERED(yarnwrap.state.property.BooleanProperty value) { wrapperContained.POWERED = value.wrapperContained; }
 public static yarnwrap.state.property.BooleanProperty POWERED() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.TrapdoorBlock.POWERED); }
 // public static void POWERED(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.TrapdoorBlock.POWERED = value.wrapperContained; }
 
-// public yarnwrap.util.shape.VoxelShape WEST_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.WEST_SHAPE); }
-// public void WEST_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.WEST_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape WEST_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TrapdoorBlock.WEST_SHAPE); }
-// public static void WEST_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TrapdoorBlock.WEST_SHAPE = value.wrapperContained; }
-
 // public yarnwrap.state.property.BooleanProperty OPEN() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.OPEN); }
 // public void OPEN(yarnwrap.state.property.BooleanProperty value) { wrapperContained.OPEN = value.wrapperContained; }
 public static yarnwrap.state.property.BooleanProperty OPEN() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.TrapdoorBlock.OPEN); }
 // public static void OPEN(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.TrapdoorBlock.OPEN = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape OPEN_BOTTOM_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.OPEN_BOTTOM_SHAPE); }
-// public void OPEN_BOTTOM_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.OPEN_BOTTOM_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape OPEN_BOTTOM_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TrapdoorBlock.OPEN_BOTTOM_SHAPE); }
-// public static void OPEN_BOTTOM_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TrapdoorBlock.OPEN_BOTTOM_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape NORTH_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.NORTH_SHAPE); }
-// public void NORTH_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.NORTH_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape NORTH_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TrapdoorBlock.NORTH_SHAPE); }
-// public static void NORTH_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TrapdoorBlock.NORTH_SHAPE = value.wrapperContained; }
 
 // public yarnwrap.block.BlockSetType blockSetType() { return new yarnwrap.block.BlockSetType(wrapperContained.blockSetType); }
 // public void blockSetType(yarnwrap.block.BlockSetType value) { wrapperContained.blockSetType = value.wrapperContained; }
@@ -60,6 +30,11 @@ public static yarnwrap.state.property.BooleanProperty OPEN() { return new yarnwr
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.TrapdoorBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.TrapdoorBlock.CODEC = value; }
+
+// public java.util.Map shapeByDirection() { return wrapperContained.shapeByDirection; }
+// public void shapeByDirection(java.util.Map value) { wrapperContained.shapeByDirection = value; }
+// public static java.util.Map shapeByDirection() { return net.minecraft.block.TrapdoorBlock.shapeByDirection; }
+// public static void shapeByDirection(java.util.Map value, ) { net.minecraft.block.TrapdoorBlock.shapeByDirection = value; }
 
 // public TrapdoorBlock(yarnwrap.block.BlockSetType type,Object settings) { this.wrapperContained = new net.minecraft.block.TrapdoorBlock(type.wrapperContained,settings); }
 // public void playToggleSound(yarnwrap.entity.player.PlayerEntity player,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,boolean open) { wrapperContained.playToggleSound(player.wrapperContained,world.wrapperContained,pos.wrapperContained,open); }

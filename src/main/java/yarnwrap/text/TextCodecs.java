@@ -6,11 +6,6 @@ public class TextCodecs { public net.minecraft.text.TextCodecs wrapperContained;
 public static com.mojang.serialization.Codec CODEC() { return net.minecraft.text.TextCodecs.CODEC; }
 // public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.text.TextCodecs.CODEC = value; }
 
-// public com.mojang.serialization.Codec STRINGIFIED_CODEC() { return wrapperContained.STRINGIFIED_CODEC; }
-// public void STRINGIFIED_CODEC(com.mojang.serialization.Codec value) { wrapperContained.STRINGIFIED_CODEC = value; }
-public static com.mojang.serialization.Codec STRINGIFIED_CODEC() { return net.minecraft.text.TextCodecs.STRINGIFIED_CODEC; }
-// public static void STRINGIFIED_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.text.TextCodecs.STRINGIFIED_CODEC = value; }
-
 // public yarnwrap.network.codec.PacketCodec REGISTRY_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.REGISTRY_PACKET_CODEC); }
 // public void REGISTRY_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.REGISTRY_PACKET_CODEC = value.wrapperContained; }
 public static yarnwrap.network.codec.PacketCodec REGISTRY_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.text.TextCodecs.REGISTRY_PACKET_CODEC); }
@@ -54,7 +49,7 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static yarnwrap.text.Text method_54175(com.mojang.datafixers.util.Either either2, ) { return new yarnwrap.text.Text(net.minecraft.text.TextCodecs.method_54175(either2)); }
 // public yarnwrap.text.Text method_54177(yarnwrap.text.Text text) { return new yarnwrap.text.Text(wrapperContained.method_54177(text.wrapperContained)); }
 // public static yarnwrap.text.Text method_54177(yarnwrap.text.Text text, ) { return new yarnwrap.text.Text(net.minecraft.text.TextCodecs.method_54177(text.wrapperContained)); }
-// public com.mojang.serialization.Codec codec(int maxSerializedLength) { return wrapperContained.codec(maxSerializedLength); }
-// public static com.mojang.serialization.Codec codec(int maxSerializedLength, ) { return net.minecraft.text.TextCodecs.codec(maxSerializedLength); }
+// public com.mojang.serialization.Codec withJsonLengthLimit(int maxLength) { return wrapperContained.withJsonLengthLimit(maxLength); }
+// public static com.mojang.serialization.Codec withJsonLengthLimit(int maxLength, ) { return net.minecraft.text.TextCodecs.withJsonLengthLimit(maxLength); }
 
 }

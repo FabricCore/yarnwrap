@@ -47,10 +47,6 @@ public class CrashReport { public net.minecraft.util.crash.CrashReport wrapperCo
 // public static void DATE_TIME_FORMATTER(java.time.format.DateTimeFormatter value, ) { net.minecraft.util.crash.CrashReport.DATE_TIME_FORMATTER = value; }
 
 public CrashReport(java.lang.String message,java.lang.Throwable cause) { this.wrapperContained = new net.minecraft.util.crash.CrashReport(message,cause); }
-// public void initCrashReport() { wrapperContained.initCrashReport(); }
-public static void initCrashReport() { net.minecraft.util.crash.CrashReport.initCrashReport(); }
-public java.lang.String getStackTrace() { return wrapperContained.getStackTrace(); }
-// public static java.lang.String getStackTrace() { return net.minecraft.util.crash.CrashReport.getStackTrace(); }
 public void addDetails(java.lang.StringBuilder crashReportBuilder) { wrapperContained.addDetails(crashReportBuilder); }
 // public static void addDetails(java.lang.StringBuilder crashReportBuilder, ) { net.minecraft.util.crash.CrashReport.addDetails(crashReportBuilder); }
 public yarnwrap.util.crash.CrashReportSection addElement(java.lang.String name,int ignoredStackTraceCallCount) { return new yarnwrap.util.crash.CrashReportSection(wrapperContained.addElement(name,ignoredStackTraceCallCount)); }
@@ -71,6 +67,10 @@ public boolean writeToFile(java.nio.file.Path path,yarnwrap.util.crash.ReportTyp
 // public static boolean writeToFile(java.nio.file.Path path,yarnwrap.util.crash.ReportType type,java.util.List extraInfo, ) { return net.minecraft.util.crash.CrashReport.writeToFile(path,type.wrapperContained,extraInfo); }
 public java.nio.file.Path getFile() { return wrapperContained.getFile(); }
 // public static java.nio.file.Path getFile() { return net.minecraft.util.crash.CrashReport.getFile(); }
+// public void initCrashReport() { wrapperContained.initCrashReport(); }
+public static void initCrashReport() { net.minecraft.util.crash.CrashReport.initCrashReport(); }
+public java.lang.String getStackTrace() { return wrapperContained.getStackTrace(); }
+// public static java.lang.String getStackTrace() { return net.minecraft.util.crash.CrashReport.getStackTrace(); }
 public boolean writeToFile(java.nio.file.Path path,yarnwrap.util.crash.ReportType type) { return wrapperContained.writeToFile(path,type.wrapperContained); }
 // public static boolean writeToFile(java.nio.file.Path path,yarnwrap.util.crash.ReportType type, ) { return net.minecraft.util.crash.CrashReport.writeToFile(path,type.wrapperContained); }
 public java.lang.String asString(yarnwrap.util.crash.ReportType type) { return wrapperContained.asString(type.wrapperContained); }

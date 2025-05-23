@@ -1,26 +1,6 @@
 package yarnwrap.recipe;
 public class RecipeSerializer { public net.minecraft.recipe.RecipeSerializer wrapperContained; public RecipeSerializer(net.minecraft.recipe.RecipeSerializer wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.recipe.RecipeSerializer BLASTING() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.BLASTING); }
-// public void BLASTING(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.BLASTING = value.wrapperContained; }
-public static yarnwrap.recipe.RecipeSerializer BLASTING() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.BLASTING); }
-// public static void BLASTING(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.BLASTING = value.wrapperContained; }
-
-// public yarnwrap.recipe.RecipeSerializer SMOKING() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.SMOKING); }
-// public void SMOKING(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.SMOKING = value.wrapperContained; }
-public static yarnwrap.recipe.RecipeSerializer SMOKING() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.SMOKING); }
-// public static void SMOKING(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.SMOKING = value.wrapperContained; }
-
-// public yarnwrap.recipe.RecipeSerializer CAMPFIRE_COOKING() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.CAMPFIRE_COOKING); }
-// public void CAMPFIRE_COOKING(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.CAMPFIRE_COOKING = value.wrapperContained; }
-public static yarnwrap.recipe.RecipeSerializer CAMPFIRE_COOKING() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.CAMPFIRE_COOKING); }
-// public static void CAMPFIRE_COOKING(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.CAMPFIRE_COOKING = value.wrapperContained; }
-
-// public yarnwrap.recipe.RecipeSerializer REPAIR_ITEM() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.REPAIR_ITEM); }
-// public void REPAIR_ITEM(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.REPAIR_ITEM = value.wrapperContained; }
-public static yarnwrap.recipe.RecipeSerializer REPAIR_ITEM() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.REPAIR_ITEM); }
-// public static void REPAIR_ITEM(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.REPAIR_ITEM = value.wrapperContained; }
-
 // public yarnwrap.recipe.RecipeSerializer ARMOR_DYE() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.ARMOR_DYE); }
 // public void ARMOR_DYE(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.ARMOR_DYE = value.wrapperContained; }
 public static yarnwrap.recipe.RecipeSerializer ARMOR_DYE() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.ARMOR_DYE); }
@@ -30,11 +10,6 @@ public static yarnwrap.recipe.RecipeSerializer ARMOR_DYE() { return new yarnwrap
 // public void BOOK_CLONING(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.BOOK_CLONING = value.wrapperContained; }
 public static yarnwrap.recipe.RecipeSerializer BOOK_CLONING() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.BOOK_CLONING); }
 // public static void BOOK_CLONING(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.BOOK_CLONING = value.wrapperContained; }
-
-// public yarnwrap.recipe.RecipeSerializer SUSPICIOUS_STEW() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.SUSPICIOUS_STEW); }
-// public void SUSPICIOUS_STEW(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.SUSPICIOUS_STEW = value.wrapperContained; }
-public static yarnwrap.recipe.RecipeSerializer SUSPICIOUS_STEW() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.SUSPICIOUS_STEW); }
-// public static void SUSPICIOUS_STEW(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.SUSPICIOUS_STEW = value.wrapperContained; }
 
 // public yarnwrap.recipe.RecipeSerializer SHAPELESS() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.SHAPELESS); }
 // public void SHAPELESS(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.SHAPELESS = value.wrapperContained; }
@@ -76,11 +51,6 @@ public static yarnwrap.recipe.RecipeSerializer MAP_EXTENDING() { return new yarn
 public static yarnwrap.recipe.RecipeSerializer SHIELD_DECORATION() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.SHIELD_DECORATION); }
 // public static void SHIELD_DECORATION(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.SHIELD_DECORATION = value.wrapperContained; }
 
-// public yarnwrap.recipe.RecipeSerializer SHULKER_BOX() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.SHULKER_BOX); }
-// public void SHULKER_BOX(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.recipe.RecipeSerializer SHULKER_BOX() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.SHULKER_BOX); }
-// public static void SHULKER_BOX(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.SHULKER_BOX = value.wrapperContained; }
-
 // public yarnwrap.recipe.RecipeSerializer SMELTING() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.SMELTING); }
 // public void SMELTING(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.SMELTING = value.wrapperContained; }
 public static yarnwrap.recipe.RecipeSerializer SMELTING() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.SMELTING); }
@@ -95,6 +65,26 @@ public static yarnwrap.recipe.RecipeSerializer FIREWORK_ROCKET() { return new ya
 // public void MAP_CLONING(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.MAP_CLONING = value.wrapperContained; }
 public static yarnwrap.recipe.RecipeSerializer MAP_CLONING() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.MAP_CLONING); }
 // public static void MAP_CLONING(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.MAP_CLONING = value.wrapperContained; }
+
+// public yarnwrap.recipe.RecipeSerializer BLASTING() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.BLASTING); }
+// public void BLASTING(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.BLASTING = value.wrapperContained; }
+public static yarnwrap.recipe.RecipeSerializer BLASTING() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.BLASTING); }
+// public static void BLASTING(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.BLASTING = value.wrapperContained; }
+
+// public yarnwrap.recipe.RecipeSerializer SMOKING() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.SMOKING); }
+// public void SMOKING(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.SMOKING = value.wrapperContained; }
+public static yarnwrap.recipe.RecipeSerializer SMOKING() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.SMOKING); }
+// public static void SMOKING(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.SMOKING = value.wrapperContained; }
+
+// public yarnwrap.recipe.RecipeSerializer CAMPFIRE_COOKING() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.CAMPFIRE_COOKING); }
+// public void CAMPFIRE_COOKING(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.CAMPFIRE_COOKING = value.wrapperContained; }
+public static yarnwrap.recipe.RecipeSerializer CAMPFIRE_COOKING() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.CAMPFIRE_COOKING); }
+// public static void CAMPFIRE_COOKING(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.CAMPFIRE_COOKING = value.wrapperContained; }
+
+// public yarnwrap.recipe.RecipeSerializer REPAIR_ITEM() { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.REPAIR_ITEM); }
+// public void REPAIR_ITEM(yarnwrap.recipe.RecipeSerializer value) { wrapperContained.REPAIR_ITEM = value.wrapperContained; }
+public static yarnwrap.recipe.RecipeSerializer REPAIR_ITEM() { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.REPAIR_ITEM); }
+// public static void REPAIR_ITEM(yarnwrap.recipe.RecipeSerializer value, ) { net.minecraft.recipe.RecipeSerializer.REPAIR_ITEM = value.wrapperContained; }
 
 // public yarnwrap.recipe.RecipeSerializer register(java.lang.String id,yarnwrap.recipe.RecipeSerializer serializer) { return new yarnwrap.recipe.RecipeSerializer(wrapperContained.register(id,serializer.wrapperContained)); }
 // public static yarnwrap.recipe.RecipeSerializer register(java.lang.String id,yarnwrap.recipe.RecipeSerializer serializer, ) { return new yarnwrap.recipe.RecipeSerializer(net.minecraft.recipe.RecipeSerializer.register(id,serializer.wrapperContained)); }

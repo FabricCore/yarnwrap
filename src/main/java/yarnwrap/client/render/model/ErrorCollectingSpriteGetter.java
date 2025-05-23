@@ -1,0 +1,11 @@
+package yarnwrap.client.render.model;
+public class ErrorCollectingSpriteGetter { public net.minecraft.client.render.model.ErrorCollectingSpriteGetter wrapperContained; public ErrorCollectingSpriteGetter(net.minecraft.client.render.model.ErrorCollectingSpriteGetter wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public yarnwrap.client.texture.Sprite get(yarnwrap.client.util.SpriteIdentifier id,yarnwrap.client.render.model.SimpleModel model) { return new yarnwrap.client.texture.Sprite(wrapperContained.get(id.wrapperContained,model.wrapperContained)); }
+// public static yarnwrap.client.texture.Sprite get(yarnwrap.client.util.SpriteIdentifier id,yarnwrap.client.render.model.SimpleModel model, ) { return new yarnwrap.client.texture.Sprite(net.minecraft.client.render.model.ErrorCollectingSpriteGetter.get(id.wrapperContained,model.wrapperContained)); }
+public yarnwrap.client.texture.Sprite getMissing(java.lang.String name,yarnwrap.client.render.model.SimpleModel model) { return new yarnwrap.client.texture.Sprite(wrapperContained.getMissing(name,model.wrapperContained)); }
+// public static yarnwrap.client.texture.Sprite getMissing(java.lang.String name,yarnwrap.client.render.model.SimpleModel model, ) { return new yarnwrap.client.texture.Sprite(net.minecraft.client.render.model.ErrorCollectingSpriteGetter.getMissing(name,model.wrapperContained)); }
+public yarnwrap.client.texture.Sprite get(yarnwrap.client.render.model.ModelTextures texture,java.lang.String name,yarnwrap.client.render.model.SimpleModel model) { return new yarnwrap.client.texture.Sprite(wrapperContained.get(texture.wrapperContained,name,model.wrapperContained)); }
+// public static yarnwrap.client.texture.Sprite get(yarnwrap.client.render.model.ModelTextures texture,java.lang.String name,yarnwrap.client.render.model.SimpleModel model, ) { return new yarnwrap.client.texture.Sprite(net.minecraft.client.render.model.ErrorCollectingSpriteGetter.get(texture.wrapperContained,name,model.wrapperContained)); }
+
+}

@@ -1,10 +1,10 @@
 package yarnwrap.block;
 public class PointedDripstoneBlock { public net.minecraft.block.PointedDripstoneBlock wrapperContained; public PointedDripstoneBlock(net.minecraft.block.PointedDripstoneBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty VERTICAL_DIRECTION() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.VERTICAL_DIRECTION); }
-// public void VERTICAL_DIRECTION(yarnwrap.state.property.DirectionProperty value) { wrapperContained.VERTICAL_DIRECTION = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty VERTICAL_DIRECTION() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.PointedDripstoneBlock.VERTICAL_DIRECTION); }
-// public static void VERTICAL_DIRECTION(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.PointedDripstoneBlock.VERTICAL_DIRECTION = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty VERTICAL_DIRECTION() { return new yarnwrap.state.property.EnumProperty(wrapperContained.VERTICAL_DIRECTION); }
+// public void VERTICAL_DIRECTION(yarnwrap.state.property.EnumProperty value) { wrapperContained.VERTICAL_DIRECTION = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty VERTICAL_DIRECTION() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.PointedDripstoneBlock.VERTICAL_DIRECTION); }
+// public static void VERTICAL_DIRECTION(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.PointedDripstoneBlock.VERTICAL_DIRECTION = value.wrapperContained; }
 
 // public yarnwrap.state.property.EnumProperty THICKNESS() { return new yarnwrap.state.property.EnumProperty(wrapperContained.THICKNESS); }
 // public void THICKNESS(yarnwrap.state.property.EnumProperty value) { wrapperContained.THICKNESS = value.wrapperContained; }
@@ -45,6 +45,16 @@ public static yarnwrap.state.property.BooleanProperty WATERLOGGED() { return new
 // public void BASE_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.BASE_SHAPE = value.wrapperContained; }
 // public static yarnwrap.util.shape.VoxelShape BASE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.PointedDripstoneBlock.BASE_SHAPE); }
 // public static void BASE_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.PointedDripstoneBlock.BASE_SHAPE = value.wrapperContained; }
+
+// public double DOWN_TIP_Y() { return wrapperContained.DOWN_TIP_Y; }
+// public void DOWN_TIP_Y(double value) { wrapperContained.DOWN_TIP_Y = value; }
+// public static double DOWN_TIP_Y() { return net.minecraft.block.PointedDripstoneBlock.DOWN_TIP_Y; }
+// public static void DOWN_TIP_Y(double value, ) { net.minecraft.block.PointedDripstoneBlock.DOWN_TIP_Y = value; }
+
+// public float MAX_HORIZONTAL_MODEL_OFFSET() { return wrapperContained.MAX_HORIZONTAL_MODEL_OFFSET; }
+// public void MAX_HORIZONTAL_MODEL_OFFSET(float value) { wrapperContained.MAX_HORIZONTAL_MODEL_OFFSET = value; }
+// public static float MAX_HORIZONTAL_MODEL_OFFSET() { return net.minecraft.block.PointedDripstoneBlock.MAX_HORIZONTAL_MODEL_OFFSET; }
+// public static void MAX_HORIZONTAL_MODEL_OFFSET(float value, ) { net.minecraft.block.PointedDripstoneBlock.MAX_HORIZONTAL_MODEL_OFFSET = value; }
 
 // public float WATER_DRIP_CHANCE() { return wrapperContained.WATER_DRIP_CHANCE; }
 // public void WATER_DRIP_CHANCE(float value) { wrapperContained.WATER_DRIP_CHANCE = value; }

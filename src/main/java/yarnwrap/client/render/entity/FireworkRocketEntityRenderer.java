@@ -1,10 +1,10 @@
 package yarnwrap.client.render.entity;
 public class FireworkRocketEntityRenderer { public net.minecraft.client.render.entity.FireworkRocketEntityRenderer wrapperContained; public FireworkRocketEntityRenderer(net.minecraft.client.render.entity.FireworkRocketEntityRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.render.item.ItemRenderer itemRenderer() { return new yarnwrap.client.render.item.ItemRenderer(wrapperContained.itemRenderer); }
-// public void itemRenderer(yarnwrap.client.render.item.ItemRenderer value) { wrapperContained.itemRenderer = value.wrapperContained; }
-// public static yarnwrap.client.render.item.ItemRenderer itemRenderer() { return new yarnwrap.client.render.item.ItemRenderer(net.minecraft.client.render.entity.FireworkRocketEntityRenderer.itemRenderer); }
-// public static void itemRenderer(yarnwrap.client.render.item.ItemRenderer value, ) { net.minecraft.client.render.entity.FireworkRocketEntityRenderer.itemRenderer = value.wrapperContained; }
+// public yarnwrap.client.item.ItemModelManager itemModelManager() { return new yarnwrap.client.item.ItemModelManager(wrapperContained.itemModelManager); }
+// public void itemModelManager(yarnwrap.client.item.ItemModelManager value) { wrapperContained.itemModelManager = value.wrapperContained; }
+// public static yarnwrap.client.item.ItemModelManager itemModelManager() { return new yarnwrap.client.item.ItemModelManager(net.minecraft.client.render.entity.FireworkRocketEntityRenderer.itemModelManager); }
+// public static void itemModelManager(yarnwrap.client.item.ItemModelManager value, ) { net.minecraft.client.render.entity.FireworkRocketEntityRenderer.itemModelManager = value.wrapperContained; }
 
 
 }

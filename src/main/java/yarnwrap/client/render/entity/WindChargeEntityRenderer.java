@@ -11,7 +11,7 @@ public class WindChargeEntityRenderer { public net.minecraft.client.render.entit
 // public static yarnwrap.client.render.entity.model.WindChargeEntityModel model() { return new yarnwrap.client.render.entity.model.WindChargeEntityModel(net.minecraft.client.render.entity.WindChargeEntityRenderer.model); }
 // public static void model(yarnwrap.client.render.entity.model.WindChargeEntityModel value, ) { net.minecraft.client.render.entity.WindChargeEntityRenderer.model = value.wrapperContained; }
 
-// public float getXOffset(float tickDelta) { return wrapperContained.getXOffset(tickDelta); }
-// public static float getXOffset(float tickDelta, ) { return net.minecraft.client.render.entity.WindChargeEntityRenderer.getXOffset(tickDelta); }
+// public float getXOffset(float tickProgress) { return wrapperContained.getXOffset(tickProgress); }
+// public static float getXOffset(float tickProgress, ) { return net.minecraft.client.render.entity.WindChargeEntityRenderer.getXOffset(tickProgress); }
 
 }

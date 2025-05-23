@@ -1,11 +1,6 @@
 package yarnwrap.entity.decoration;
 public class ItemFrameEntity { public net.minecraft.entity.decoration.ItemFrameEntity wrapperContained; public ItemFrameEntity(net.minecraft.entity.decoration.ItemFrameEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public boolean fixed() { return wrapperContained.fixed; }
-// public void fixed(boolean value) { wrapperContained.fixed = value; }
-// public static boolean fixed() { return net.minecraft.entity.decoration.ItemFrameEntity.fixed; }
-// public static void fixed(boolean value, ) { net.minecraft.entity.decoration.ItemFrameEntity.fixed = value; }
-
 // public float itemDropChance() { return wrapperContained.itemDropChance; }
 // public void itemDropChance(float value) { wrapperContained.itemDropChance = value; }
 // public static float itemDropChance() { return net.minecraft.entity.decoration.ItemFrameEntity.itemDropChance; }
@@ -21,8 +16,51 @@ public class ItemFrameEntity { public net.minecraft.entity.decoration.ItemFrameE
 // public static yarnwrap.entity.data.TrackedData ROTATION() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.decoration.ItemFrameEntity.ROTATION); }
 // public static void ROTATION(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.decoration.ItemFrameEntity.ROTATION = value.wrapperContained; }
 
+// public boolean fixed() { return wrapperContained.fixed; }
+// public void fixed(boolean value) { wrapperContained.fixed = value; }
+// public static boolean fixed() { return net.minecraft.entity.decoration.ItemFrameEntity.fixed; }
+// public static void fixed(boolean value, ) { net.minecraft.entity.decoration.ItemFrameEntity.fixed = value; }
+
+// public byte DEFAULT_ITEM_ROTATION() { return wrapperContained.DEFAULT_ITEM_ROTATION; }
+// public void DEFAULT_ITEM_ROTATION(byte value) { wrapperContained.DEFAULT_ITEM_ROTATION = value; }
+// public static byte DEFAULT_ITEM_ROTATION() { return net.minecraft.entity.decoration.ItemFrameEntity.DEFAULT_ITEM_ROTATION; }
+// public static void DEFAULT_ITEM_ROTATION(byte value, ) { net.minecraft.entity.decoration.ItemFrameEntity.DEFAULT_ITEM_ROTATION = value; }
+
+// public float DEFAULT_ITEM_DROP_CHANCE() { return wrapperContained.DEFAULT_ITEM_DROP_CHANCE; }
+// public void DEFAULT_ITEM_DROP_CHANCE(float value) { wrapperContained.DEFAULT_ITEM_DROP_CHANCE = value; }
+// public static float DEFAULT_ITEM_DROP_CHANCE() { return net.minecraft.entity.decoration.ItemFrameEntity.DEFAULT_ITEM_DROP_CHANCE; }
+// public static void DEFAULT_ITEM_DROP_CHANCE(float value, ) { net.minecraft.entity.decoration.ItemFrameEntity.DEFAULT_ITEM_DROP_CHANCE = value; }
+
+// public boolean DEFAULT_INVISIBLE() { return wrapperContained.DEFAULT_INVISIBLE; }
+// public void DEFAULT_INVISIBLE(boolean value) { wrapperContained.DEFAULT_INVISIBLE = value; }
+// public static boolean DEFAULT_INVISIBLE() { return net.minecraft.entity.decoration.ItemFrameEntity.DEFAULT_INVISIBLE; }
+// public static void DEFAULT_INVISIBLE(boolean value, ) { net.minecraft.entity.decoration.ItemFrameEntity.DEFAULT_INVISIBLE = value; }
+
+// public boolean DEFAULT_FIXED() { return wrapperContained.DEFAULT_FIXED; }
+// public void DEFAULT_FIXED(boolean value) { wrapperContained.DEFAULT_FIXED = value; }
+// public static boolean DEFAULT_FIXED() { return net.minecraft.entity.decoration.ItemFrameEntity.DEFAULT_FIXED; }
+// public static void DEFAULT_FIXED(boolean value, ) { net.minecraft.entity.decoration.ItemFrameEntity.DEFAULT_FIXED = value; }
+
 public ItemFrameEntity(yarnwrap.entity.EntityType type,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction facing) { this.wrapperContained = new net.minecraft.entity.decoration.ItemFrameEntity(type.wrapperContained,world.wrapperContained,pos.wrapperContained,facing.wrapperContained); }
 public ItemFrameEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction facing) { this.wrapperContained = new net.minecraft.entity.decoration.ItemFrameEntity(world.wrapperContained,pos.wrapperContained,facing.wrapperContained); }
+public void setHeldItemStack(yarnwrap.item.ItemStack value,boolean update) { wrapperContained.setHeldItemStack(value.wrapperContained,update); }
+// public static void setHeldItemStack(yarnwrap.item.ItemStack value,boolean update, ) { net.minecraft.entity.decoration.ItemFrameEntity.setHeldItemStack(value.wrapperContained,update); }
+public int getRotation() { return wrapperContained.getRotation(); }
+// public static int getRotation() { return net.minecraft.entity.decoration.ItemFrameEntity.getRotation(); }
+public void setHeldItemStack(yarnwrap.item.ItemStack stack) { wrapperContained.setHeldItemStack(stack.wrapperContained); }
+// public static void setHeldItemStack(yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.decoration.ItemFrameEntity.setHeldItemStack(stack.wrapperContained); }
+// public void dropHeldStack(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,boolean dropSelf) { wrapperContained.dropHeldStack(world.wrapperContained,entity.wrapperContained,dropSelf); }
+// public static void dropHeldStack(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,boolean dropSelf, ) { net.minecraft.entity.decoration.ItemFrameEntity.dropHeldStack(world.wrapperContained,entity.wrapperContained,dropSelf); }
+// public void removeFromFrame(yarnwrap.item.ItemStack stack) { wrapperContained.removeFromFrame(stack.wrapperContained); }
+// public static void removeFromFrame(yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.decoration.ItemFrameEntity.removeFromFrame(stack.wrapperContained); }
+public int getComparatorPower() { return wrapperContained.getComparatorPower(); }
+// public static int getComparatorPower() { return net.minecraft.entity.decoration.ItemFrameEntity.getComparatorPower(); }
+public void setRotation(int value) { wrapperContained.setRotation(value); }
+// public static void setRotation(int value, ) { net.minecraft.entity.decoration.ItemFrameEntity.setRotation(value); }
+public yarnwrap.item.ItemStack getHeldItemStack() { return new yarnwrap.item.ItemStack(wrapperContained.getHeldItemStack()); }
+// public static yarnwrap.item.ItemStack getHeldItemStack() { return new yarnwrap.item.ItemStack(net.minecraft.entity.decoration.ItemFrameEntity.getHeldItemStack()); }
+// public void setRotation(int value,boolean updateComparators) { wrapperContained.setRotation(value,updateComparators); }
+// public static void setRotation(int value,boolean updateComparators, ) { net.minecraft.entity.decoration.ItemFrameEntity.setRotation(value,updateComparators); }
 // public yarnwrap.item.ItemStack getAsItemStack() { return new yarnwrap.item.ItemStack(wrapperContained.getAsItemStack()); }
 // public static yarnwrap.item.ItemStack getAsItemStack() { return new yarnwrap.item.ItemStack(net.minecraft.entity.decoration.ItemFrameEntity.getAsItemStack()); }
 public yarnwrap.sound.SoundEvent getRemoveItemSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getRemoveItemSound()); }
@@ -37,27 +75,13 @@ public yarnwrap.sound.SoundEvent getRotateItemSound() { return new yarnwrap.soun
 // public static yarnwrap.sound.SoundEvent getRotateItemSound() { return new yarnwrap.sound.SoundEvent(net.minecraft.entity.decoration.ItemFrameEntity.getRotateItemSound()); }
 // public void setAsStackHolder(yarnwrap.item.ItemStack stack) { wrapperContained.setAsStackHolder(stack.wrapperContained); }
 // public static void setAsStackHolder(yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.decoration.ItemFrameEntity.setAsStackHolder(stack.wrapperContained); }
-// public yarnwrap.component.type.MapIdComponent getMapId() { return new yarnwrap.component.type.MapIdComponent(wrapperContained.getMapId()); }
-// public static yarnwrap.component.type.MapIdComponent getMapId() { return new yarnwrap.component.type.MapIdComponent(net.minecraft.entity.decoration.ItemFrameEntity.getMapId()); }
+public yarnwrap.component.type.MapIdComponent getMapId(yarnwrap.item.ItemStack stack) { return new yarnwrap.component.type.MapIdComponent(wrapperContained.getMapId(stack.wrapperContained)); }
+// public static yarnwrap.component.type.MapIdComponent getMapId(yarnwrap.item.ItemStack stack, ) { return new yarnwrap.component.type.MapIdComponent(net.minecraft.entity.decoration.ItemFrameEntity.getMapId(stack.wrapperContained)); }
 public boolean containsMap() { return wrapperContained.containsMap(); }
 // public static boolean containsMap() { return net.minecraft.entity.decoration.ItemFrameEntity.containsMap(); }
-public void setHeldItemStack(yarnwrap.item.ItemStack value,boolean update) { wrapperContained.setHeldItemStack(value.wrapperContained,update); }
-// public static void setHeldItemStack(yarnwrap.item.ItemStack value,boolean update, ) { net.minecraft.entity.decoration.ItemFrameEntity.setHeldItemStack(value.wrapperContained,update); }
-public int getRotation() { return wrapperContained.getRotation(); }
-// public static int getRotation() { return net.minecraft.entity.decoration.ItemFrameEntity.getRotation(); }
-public void setHeldItemStack(yarnwrap.item.ItemStack stack) { wrapperContained.setHeldItemStack(stack.wrapperContained); }
-// public static void setHeldItemStack(yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.decoration.ItemFrameEntity.setHeldItemStack(stack.wrapperContained); }
-// public void dropHeldStack(yarnwrap.entity.Entity entity,boolean alwaysDrop) { wrapperContained.dropHeldStack(entity.wrapperContained,alwaysDrop); }
-// public static void dropHeldStack(yarnwrap.entity.Entity entity,boolean alwaysDrop, ) { net.minecraft.entity.decoration.ItemFrameEntity.dropHeldStack(entity.wrapperContained,alwaysDrop); }
-// public void removeFromFrame(yarnwrap.item.ItemStack stack) { wrapperContained.removeFromFrame(stack.wrapperContained); }
-// public static void removeFromFrame(yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.decoration.ItemFrameEntity.removeFromFrame(stack.wrapperContained); }
-public int getComparatorPower() { return wrapperContained.getComparatorPower(); }
-// public static int getComparatorPower() { return net.minecraft.entity.decoration.ItemFrameEntity.getComparatorPower(); }
-public void setRotation(int value) { wrapperContained.setRotation(value); }
-// public static void setRotation(int value, ) { net.minecraft.entity.decoration.ItemFrameEntity.setRotation(value); }
-public yarnwrap.item.ItemStack getHeldItemStack() { return new yarnwrap.item.ItemStack(wrapperContained.getHeldItemStack()); }
-// public static yarnwrap.item.ItemStack getHeldItemStack() { return new yarnwrap.item.ItemStack(net.minecraft.entity.decoration.ItemFrameEntity.getHeldItemStack()); }
-// public void setRotation(int value,boolean updateComparators) { wrapperContained.setRotation(value,updateComparators); }
-// public static void setRotation(int value,boolean updateComparators, ) { net.minecraft.entity.decoration.ItemFrameEntity.setRotation(value,updateComparators); }
+// public boolean shouldDropHeldStackWhenDamaged(yarnwrap.entity.damage.DamageSource damageSource) { return wrapperContained.shouldDropHeldStackWhenDamaged(damageSource.wrapperContained); }
+// public static boolean shouldDropHeldStackWhenDamaged(yarnwrap.entity.damage.DamageSource damageSource, ) { return net.minecraft.entity.decoration.ItemFrameEntity.shouldDropHeldStackWhenDamaged(damageSource.wrapperContained); }
+// public boolean canDamageWhenFixed(yarnwrap.entity.damage.DamageSource damageSource) { return wrapperContained.canDamageWhenFixed(damageSource.wrapperContained); }
+// public static boolean canDamageWhenFixed(yarnwrap.entity.damage.DamageSource damageSource, ) { return net.minecraft.entity.decoration.ItemFrameEntity.canDamageWhenFixed(damageSource.wrapperContained); }
 
 }

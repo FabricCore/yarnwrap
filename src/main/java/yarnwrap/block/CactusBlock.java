@@ -26,5 +26,25 @@ public static int MAX_AGE() { return net.minecraft.block.CactusBlock.MAX_AGE; }
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.CactusBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.CactusBlock.CODEC = value; }
 
+// public int TALL_THRESHOLD() { return wrapperContained.TALL_THRESHOLD; }
+// public void TALL_THRESHOLD(int value) { wrapperContained.TALL_THRESHOLD = value; }
+// public static int TALL_THRESHOLD() { return net.minecraft.block.CactusBlock.TALL_THRESHOLD; }
+// public static void TALL_THRESHOLD(int value, ) { net.minecraft.block.CactusBlock.TALL_THRESHOLD = value; }
+
+// public int FLOWER_GROWTH_AGE() { return wrapperContained.FLOWER_GROWTH_AGE; }
+// public void FLOWER_GROWTH_AGE(int value) { wrapperContained.FLOWER_GROWTH_AGE = value; }
+// public static int FLOWER_GROWTH_AGE() { return net.minecraft.block.CactusBlock.FLOWER_GROWTH_AGE; }
+// public static void FLOWER_GROWTH_AGE(int value, ) { net.minecraft.block.CactusBlock.FLOWER_GROWTH_AGE = value; }
+
+// public double FLOWER_CHANCE_WHEN_SHORT() { return wrapperContained.FLOWER_CHANCE_WHEN_SHORT; }
+// public void FLOWER_CHANCE_WHEN_SHORT(double value) { wrapperContained.FLOWER_CHANCE_WHEN_SHORT = value; }
+// public static double FLOWER_CHANCE_WHEN_SHORT() { return net.minecraft.block.CactusBlock.FLOWER_CHANCE_WHEN_SHORT; }
+// public static void FLOWER_CHANCE_WHEN_SHORT(double value, ) { net.minecraft.block.CactusBlock.FLOWER_CHANCE_WHEN_SHORT = value; }
+
+// public double FLOWER_CHANCE_WHEN_TALL() { return wrapperContained.FLOWER_CHANCE_WHEN_TALL; }
+// public void FLOWER_CHANCE_WHEN_TALL(double value) { wrapperContained.FLOWER_CHANCE_WHEN_TALL = value; }
+// public static double FLOWER_CHANCE_WHEN_TALL() { return net.minecraft.block.CactusBlock.FLOWER_CHANCE_WHEN_TALL; }
+// public static void FLOWER_CHANCE_WHEN_TALL(double value, ) { net.minecraft.block.CactusBlock.FLOWER_CHANCE_WHEN_TALL = value; }
+
 
 }

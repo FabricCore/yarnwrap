@@ -56,8 +56,16 @@ public class HoglinEntityModel { public net.minecraft.client.render.entity.model
 // public static float HEAD_PITCH_END() { return net.minecraft.client.render.entity.model.HoglinEntityModel.HEAD_PITCH_END; }
 // public static void HEAD_PITCH_END(float value, ) { net.minecraft.client.render.entity.model.HoglinEntityModel.HEAD_PITCH_END = value; }
 
-public HoglinEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.HoglinEntityModel(root.wrapperContained); }
+// public yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.BABY_TRANSFORMER); }
+// public void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.BABY_TRANSFORMER = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.HoglinEntityModel.BABY_TRANSFORMER); }
+// public static void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.HoglinEntityModel.BABY_TRANSFORMER = value.wrapperContained; }
+
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.HoglinEntityModel.getTexturedModelData()); }
+// public yarnwrap.client.model.TexturedModelData getBabyTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getBabyTexturedModelData()); }
+public static yarnwrap.client.model.TexturedModelData getBabyTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.HoglinEntityModel.getBabyTexturedModelData()); }
+// public yarnwrap.client.model.ModelData getModelData() { return new yarnwrap.client.model.ModelData(wrapperContained.getModelData()); }
+// public static yarnwrap.client.model.ModelData getModelData() { return new yarnwrap.client.model.ModelData(net.minecraft.client.render.entity.model.HoglinEntityModel.getModelData()); }
 
 }

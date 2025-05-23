@@ -51,6 +51,11 @@ public class SmithingScreen { public net.minecraft.client.gui.screen.ingame.Smit
 // public static yarnwrap.entity.decoration.ArmorStandEntity armorStand() { return new yarnwrap.entity.decoration.ArmorStandEntity(net.minecraft.client.gui.screen.ingame.SmithingScreen.armorStand); }
 // public static void armorStand(yarnwrap.entity.decoration.ArmorStandEntity value, ) { net.minecraft.client.gui.screen.ingame.SmithingScreen.armorStand = value.wrapperContained; }
 
+// public org.joml.Vector3f ARMOR_STAND_TRANSLATION() { return wrapperContained.ARMOR_STAND_TRANSLATION; }
+// public void ARMOR_STAND_TRANSLATION(org.joml.Vector3f value) { wrapperContained.ARMOR_STAND_TRANSLATION = value; }
+// public static org.joml.Vector3f ARMOR_STAND_TRANSLATION() { return net.minecraft.client.gui.screen.ingame.SmithingScreen.ARMOR_STAND_TRANSLATION; }
+// public static void ARMOR_STAND_TRANSLATION(org.joml.Vector3f value, ) { net.minecraft.client.gui.screen.ingame.SmithingScreen.ARMOR_STAND_TRANSLATION = value; }
+
 // public yarnwrap.util.Identifier ERROR_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.ERROR_TEXTURE); }
 // public void ERROR_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.ERROR_TEXTURE = value.wrapperContained; }
 // public static yarnwrap.util.Identifier ERROR_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.ingame.SmithingScreen.ERROR_TEXTURE); }

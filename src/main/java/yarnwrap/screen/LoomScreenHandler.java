@@ -1,6 +1,11 @@
 package yarnwrap.screen;
 public class LoomScreenHandler { public net.minecraft.screen.LoomScreenHandler wrapperContained; public LoomScreenHandler(net.minecraft.screen.LoomScreenHandler wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.inventory.Inventory input() { return new yarnwrap.inventory.Inventory(wrapperContained.input); }
+// public void input(yarnwrap.inventory.Inventory value) { wrapperContained.input = value.wrapperContained; }
+// public static yarnwrap.inventory.Inventory input() { return new yarnwrap.inventory.Inventory(net.minecraft.screen.LoomScreenHandler.input); }
+// public static void input(yarnwrap.inventory.Inventory value, ) { net.minecraft.screen.LoomScreenHandler.input = value.wrapperContained; }
+
 // public yarnwrap.screen.ScreenHandlerContext context() { return new yarnwrap.screen.ScreenHandlerContext(wrapperContained.context); }
 // public void context(yarnwrap.screen.ScreenHandlerContext value) { wrapperContained.context = value.wrapperContained; }
 // public static yarnwrap.screen.ScreenHandlerContext context() { return new yarnwrap.screen.ScreenHandlerContext(net.minecraft.screen.LoomScreenHandler.context); }
@@ -81,13 +86,12 @@ public class LoomScreenHandler { public net.minecraft.screen.LoomScreenHandler w
 // public static yarnwrap.registry.RegistryEntryLookup bannerPatternLookup() { return new yarnwrap.registry.RegistryEntryLookup(net.minecraft.screen.LoomScreenHandler.bannerPatternLookup); }
 // public static void bannerPatternLookup(yarnwrap.registry.RegistryEntryLookup value, ) { net.minecraft.screen.LoomScreenHandler.bannerPatternLookup = value.wrapperContained; }
 
-// public yarnwrap.inventory.Inventory input() { return new yarnwrap.inventory.Inventory(wrapperContained.input); }
-// public void input(yarnwrap.inventory.Inventory value) { wrapperContained.input = value.wrapperContained; }
-// public static yarnwrap.inventory.Inventory input() { return new yarnwrap.inventory.Inventory(net.minecraft.screen.LoomScreenHandler.input); }
-// public static void input(yarnwrap.inventory.Inventory value, ) { net.minecraft.screen.LoomScreenHandler.input = value.wrapperContained; }
-
 public LoomScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.LoomScreenHandler(syncId,playerInventory.wrapperContained); }
 public LoomScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.LoomScreenHandler(syncId,playerInventory.wrapperContained,context.wrapperContained); }
+public int getSelectedPattern() { return wrapperContained.getSelectedPattern(); }
+// public static int getSelectedPattern() { return net.minecraft.screen.LoomScreenHandler.getSelectedPattern(); }
+// public void updateOutputSlot(yarnwrap.registry.entry.RegistryEntry pattern) { wrapperContained.updateOutputSlot(pattern.wrapperContained); }
+// public static void updateOutputSlot(yarnwrap.registry.entry.RegistryEntry pattern, ) { net.minecraft.screen.LoomScreenHandler.updateOutputSlot(pattern.wrapperContained); }
 // public void method_17420(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { wrapperContained.method_17420(world.wrapperContained,pos.wrapperContained); }
 // public static void method_17420(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos, ) { net.minecraft.screen.LoomScreenHandler.method_17420(world.wrapperContained,pos.wrapperContained); }
 public void setInventoryChangeListener(java.lang.Runnable inventoryChangeListener) { wrapperContained.setInventoryChangeListener(inventoryChangeListener); }
@@ -108,9 +112,5 @@ public java.util.List getBannerPatterns() { return wrapperContained.getBannerPat
 // public static boolean isPatternIndexValid(int index, ) { return net.minecraft.screen.LoomScreenHandler.isPatternIndexValid(index); }
 // public yarnwrap.component.type.BannerPatternsComponent method_57322(yarnwrap.registry.entry.RegistryEntry component) { return new yarnwrap.component.type.BannerPatternsComponent(wrapperContained.method_57322(component.wrapperContained)); }
 // public static yarnwrap.component.type.BannerPatternsComponent method_57322(yarnwrap.registry.entry.RegistryEntry component, ) { return new yarnwrap.component.type.BannerPatternsComponent(net.minecraft.screen.LoomScreenHandler.method_57322(component.wrapperContained)); }
-public int getSelectedPattern() { return wrapperContained.getSelectedPattern(); }
-// public static int getSelectedPattern() { return net.minecraft.screen.LoomScreenHandler.getSelectedPattern(); }
-// public void updateOutputSlot(yarnwrap.registry.entry.RegistryEntry pattern) { wrapperContained.updateOutputSlot(pattern.wrapperContained); }
-// public static void updateOutputSlot(yarnwrap.registry.entry.RegistryEntry pattern, ) { net.minecraft.screen.LoomScreenHandler.updateOutputSlot(pattern.wrapperContained); }
 
 }

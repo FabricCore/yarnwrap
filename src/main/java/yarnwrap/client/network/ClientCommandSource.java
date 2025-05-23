@@ -26,7 +26,12 @@ public class ClientCommandSource { public net.minecraft.client.network.ClientCom
 // public static java.util.Set chatSuggestions() { return net.minecraft.client.network.ClientCommandSource.chatSuggestions; }
 // public static void chatSuggestions(java.util.Set value, ) { net.minecraft.client.network.ClientCommandSource.chatSuggestions = value; }
 
-public ClientCommandSource(yarnwrap.client.network.ClientPlayNetworkHandler networkHandler,yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.network.ClientCommandSource(networkHandler.wrapperContained,client.wrapperContained); }
+// public boolean elevatedPermissions() { return wrapperContained.elevatedPermissions; }
+// public void elevatedPermissions(boolean value) { wrapperContained.elevatedPermissions = value; }
+// public static boolean elevatedPermissions() { return net.minecraft.client.network.ClientCommandSource.elevatedPermissions; }
+// public static void elevatedPermissions(boolean value, ) { net.minecraft.client.network.ClientCommandSource.elevatedPermissions = value; }
+
+// public ClientCommandSource(yarnwrap.client.network.ClientPlayNetworkHandler networkHandler,yarnwrap.client.MinecraftClient client,boolean elevatedPermissions) { this.wrapperContained = new net.minecraft.client.network.ClientCommandSource(networkHandler.wrapperContained,client.wrapperContained,elevatedPermissions); }
 // public java.lang.String format(double d) { return wrapperContained.format(d); }
 // public static java.lang.String format(double d, ) { return net.minecraft.client.network.ClientCommandSource.format(d); }
 // public java.lang.String format(int i) { return wrapperContained.format(i); }
@@ -37,5 +42,7 @@ public void onCommandSuggestions(int completionId,com.mojang.brigadier.suggestio
 // public static java.util.concurrent.CompletableFuture method_41232(Object registry, ) { return net.minecraft.client.network.ClientCommandSource.method_41232(registry); }
 // public void onChatSuggestions(Object action,java.util.List suggestions) { wrapperContained.onChatSuggestions(action,suggestions); }
 // public static void onChatSuggestions(Object action,java.util.List suggestions, ) { net.minecraft.client.network.ClientCommandSource.onChatSuggestions(action,suggestions); }
+// public boolean isTrusted() { return wrapperContained.isTrusted(); }
+// public static boolean isTrusted() { return net.minecraft.client.network.ClientCommandSource.isTrusted(); }
 
 }

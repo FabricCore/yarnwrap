@@ -61,5 +61,20 @@ public static int END_GENERATION_HEIGHT() { return net.minecraft.world.dimension
 public static int END_LOGICAL_HEIGHT() { return net.minecraft.world.dimension.YLevels.END_LOGICAL_HEIGHT; }
 // public static void END_LOGICAL_HEIGHT(int value, ) { net.minecraft.world.dimension.YLevels.END_LOGICAL_HEIGHT = value; }
 
+// public int DEFAULT_SEA_LEVEL() { return wrapperContained.DEFAULT_SEA_LEVEL; }
+// public void DEFAULT_SEA_LEVEL(int value) { wrapperContained.DEFAULT_SEA_LEVEL = value; }
+public static int DEFAULT_SEA_LEVEL() { return net.minecraft.world.dimension.YLevels.DEFAULT_SEA_LEVEL; }
+// public static void DEFAULT_SEA_LEVEL(int value, ) { net.minecraft.world.dimension.YLevels.DEFAULT_SEA_LEVEL = value; }
+
+// public int CLOUD_VERTICAL_SIZE() { return wrapperContained.CLOUD_VERTICAL_SIZE; }
+// public void CLOUD_VERTICAL_SIZE(int value) { wrapperContained.CLOUD_VERTICAL_SIZE = value; }
+// public static int CLOUD_VERTICAL_SIZE() { return net.minecraft.world.dimension.YLevels.CLOUD_VERTICAL_SIZE; }
+// public static void CLOUD_VERTICAL_SIZE(int value, ) { net.minecraft.world.dimension.YLevels.CLOUD_VERTICAL_SIZE = value; }
+
+// public int OVERWORLD_CLOUD_HEIGHT() { return wrapperContained.OVERWORLD_CLOUD_HEIGHT; }
+// public void OVERWORLD_CLOUD_HEIGHT(int value) { wrapperContained.OVERWORLD_CLOUD_HEIGHT = value; }
+// public static int OVERWORLD_CLOUD_HEIGHT() { return net.minecraft.world.dimension.YLevels.OVERWORLD_CLOUD_HEIGHT; }
+// public static void OVERWORLD_CLOUD_HEIGHT(int value, ) { net.minecraft.world.dimension.YLevels.OVERWORLD_CLOUD_HEIGHT = value; }
+
 
 }

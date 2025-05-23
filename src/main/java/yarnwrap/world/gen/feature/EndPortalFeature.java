@@ -14,5 +14,7 @@ public class EndPortalFeature { public net.minecraft.world.gen.feature.EndPortal
 public EndPortalFeature(boolean open) { this.wrapperContained = new net.minecraft.world.gen.feature.EndPortalFeature(open); }
 // public yarnwrap.util.math.BlockPos offsetOrigin(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.offsetOrigin(pos.wrapperContained)); }
 // public static yarnwrap.util.math.BlockPos offsetOrigin(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.gen.feature.EndPortalFeature.offsetOrigin(pos.wrapperContained)); }
+// public void place(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block block) { wrapperContained.place(world.wrapperContained,pos.wrapperContained,block.wrapperContained); }
+// public static void place(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.Block block, ) { net.minecraft.world.gen.feature.EndPortalFeature.place(world.wrapperContained,pos.wrapperContained,block.wrapperContained); }
 
 }

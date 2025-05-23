@@ -26,26 +26,6 @@ public static java.util.function.ToIntFunction STATE_TO_LUMINANCE() { return net
 // public static it.unimi.dsi.fastutil.ints.Int2ObjectMap CANDLES_TO_PARTICLE_OFFSETS() { return net.minecraft.block.CandleBlock.CANDLES_TO_PARTICLE_OFFSETS; }
 // public static void CANDLES_TO_PARTICLE_OFFSETS(it.unimi.dsi.fastutil.ints.Int2ObjectMap value, ) { net.minecraft.block.CandleBlock.CANDLES_TO_PARTICLE_OFFSETS = value; }
 
-// public yarnwrap.util.shape.VoxelShape ONE_CANDLE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.ONE_CANDLE_SHAPE); }
-// public void ONE_CANDLE_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.ONE_CANDLE_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape ONE_CANDLE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.CandleBlock.ONE_CANDLE_SHAPE); }
-// public static void ONE_CANDLE_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.CandleBlock.ONE_CANDLE_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape TWO_CANDLES_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.TWO_CANDLES_SHAPE); }
-// public void TWO_CANDLES_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.TWO_CANDLES_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape TWO_CANDLES_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.CandleBlock.TWO_CANDLES_SHAPE); }
-// public static void TWO_CANDLES_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.CandleBlock.TWO_CANDLES_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape THREE_CANDLES_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.THREE_CANDLES_SHAPE); }
-// public void THREE_CANDLES_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.THREE_CANDLES_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape THREE_CANDLES_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.CandleBlock.THREE_CANDLES_SHAPE); }
-// public static void THREE_CANDLES_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.CandleBlock.THREE_CANDLES_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape FOUR_CANDLES_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.FOUR_CANDLES_SHAPE); }
-// public void FOUR_CANDLES_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.FOUR_CANDLES_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape FOUR_CANDLES_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.CandleBlock.FOUR_CANDLES_SHAPE); }
-// public static void FOUR_CANDLES_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.CandleBlock.FOUR_CANDLES_SHAPE = value.wrapperContained; }
-
 // public int MAX_CANDLE_AMOUNT() { return wrapperContained.MAX_CANDLE_AMOUNT; }
 // public void MAX_CANDLE_AMOUNT(int value) { wrapperContained.MAX_CANDLE_AMOUNT = value; }
 public static int MAX_CANDLE_AMOUNT() { return net.minecraft.block.CandleBlock.MAX_CANDLE_AMOUNT; }
@@ -55,6 +35,11 @@ public static int MAX_CANDLE_AMOUNT() { return net.minecraft.block.CandleBlock.M
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.CandleBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.CandleBlock.CODEC = value; }
+
+// public net.minecraft.util.shape.VoxelShape[] SHAPES_BY_CANDLES() { return wrapperContained.SHAPES_BY_CANDLES; }
+// public void SHAPES_BY_CANDLES(net.minecraft.util.shape.VoxelShape[] value) { wrapperContained.SHAPES_BY_CANDLES = value; }
+// public static net.minecraft.util.shape.VoxelShape[] SHAPES_BY_CANDLES() { return net.minecraft.block.CandleBlock.SHAPES_BY_CANDLES; }
+// public static void SHAPES_BY_CANDLES(net.minecraft.util.shape.VoxelShape[] value, ) { net.minecraft.block.CandleBlock.SHAPES_BY_CANDLES = value; }
 
 // public boolean method_31628(Object statex) { return wrapperContained.method_31628(statex); }
 // public static boolean method_31628(Object statex, ) { return net.minecraft.block.CandleBlock.method_31628(statex); }

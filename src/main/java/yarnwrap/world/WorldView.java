@@ -1,6 +1,24 @@
 package yarnwrap.world;
 public class WorldView { public net.minecraft.world.WorldView wrapperContained; public WorldView(net.minecraft.world.WorldView wrapperContained) { this.wrapperContained = wrapperContained; }
 
+public yarnwrap.world.chunk.Chunk getChunk(int chunkX,int chunkZ) { return new yarnwrap.world.chunk.Chunk(wrapperContained.getChunk(chunkX,chunkZ)); }
+// public static yarnwrap.world.chunk.Chunk getChunk(int chunkX,int chunkZ, ) { return new yarnwrap.world.chunk.Chunk(net.minecraft.world.WorldView.getChunk(chunkX,chunkZ)); }
+public boolean isChunkLoaded(int chunkX,int chunkZ) { return wrapperContained.isChunkLoaded(chunkX,chunkZ); }
+// public static boolean isChunkLoaded(int chunkX,int chunkZ, ) { return net.minecraft.world.WorldView.isChunkLoaded(chunkX,chunkZ); }
+public yarnwrap.world.chunk.Chunk getChunk(int chunkX,int chunkZ,yarnwrap.world.chunk.ChunkStatus leastStatus,boolean create) { return new yarnwrap.world.chunk.Chunk(wrapperContained.getChunk(chunkX,chunkZ,leastStatus.wrapperContained,create)); }
+// public static yarnwrap.world.chunk.Chunk getChunk(int chunkX,int chunkZ,yarnwrap.world.chunk.ChunkStatus leastStatus,boolean create, ) { return new yarnwrap.world.chunk.Chunk(net.minecraft.world.WorldView.getChunk(chunkX,chunkZ,leastStatus.wrapperContained,create)); }
+public int getAmbientDarkness() { return wrapperContained.getAmbientDarkness(); }
+// public static int getAmbientDarkness() { return net.minecraft.world.WorldView.getAmbientDarkness(); }
+public yarnwrap.world.dimension.DimensionType getDimension() { return new yarnwrap.world.dimension.DimensionType(wrapperContained.getDimension()); }
+// public static yarnwrap.world.dimension.DimensionType getDimension() { return new yarnwrap.world.dimension.DimensionType(net.minecraft.world.WorldView.getDimension()); }
+// public yarnwrap.util.math.BlockPos getTopPosition(Object heightmap,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.getTopPosition(heightmap,pos.wrapperContained)); }
+// public static yarnwrap.util.math.BlockPos getTopPosition(Object heightmap,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.WorldView.getTopPosition(heightmap,pos.wrapperContained)); }
+public boolean isClient() { return wrapperContained.isClient(); }
+// public static boolean isClient() { return net.minecraft.world.WorldView.isClient(); }
+public int getSeaLevel() { return wrapperContained.getSeaLevel(); }
+// public static int getSeaLevel() { return net.minecraft.world.WorldView.getSeaLevel(); }
+// public int getTopY(Object heightmap,int x,int z) { return wrapperContained.getTopY(heightmap,x,z); }
+// public static int getTopY(Object heightmap,int x,int z, ) { return net.minecraft.world.WorldView.getTopY(heightmap,x,z); }
 public int getLightLevel(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getLightLevel(pos.wrapperContained); }
 // public static int getLightLevel(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.WorldView.getLightLevel(pos.wrapperContained); }
 public boolean isChunkLoaded(yarnwrap.util.math.BlockPos pos) { return wrapperContained.isChunkLoaded(pos.wrapperContained); }
@@ -45,23 +63,7 @@ public yarnwrap.resource.featuretoggle.FeatureSet getEnabledFeatures() { return 
 // public static yarnwrap.resource.featuretoggle.FeatureSet getEnabledFeatures() { return new yarnwrap.resource.featuretoggle.FeatureSet(net.minecraft.world.WorldView.getEnabledFeatures()); }
 public yarnwrap.registry.RegistryWrapper createCommandRegistryWrapper(yarnwrap.registry.RegistryKey registryRef) { return new yarnwrap.registry.RegistryWrapper(wrapperContained.createCommandRegistryWrapper(registryRef.wrapperContained)); }
 // public static yarnwrap.registry.RegistryWrapper createCommandRegistryWrapper(yarnwrap.registry.RegistryKey registryRef, ) { return new yarnwrap.registry.RegistryWrapper(net.minecraft.world.WorldView.createCommandRegistryWrapper(registryRef.wrapperContained)); }
-public yarnwrap.world.chunk.Chunk getChunk(int chunkX,int chunkZ) { return new yarnwrap.world.chunk.Chunk(wrapperContained.getChunk(chunkX,chunkZ)); }
-// public static yarnwrap.world.chunk.Chunk getChunk(int chunkX,int chunkZ, ) { return new yarnwrap.world.chunk.Chunk(net.minecraft.world.WorldView.getChunk(chunkX,chunkZ)); }
-public boolean isChunkLoaded(int chunkX,int chunkZ) { return wrapperContained.isChunkLoaded(chunkX,chunkZ); }
-// public static boolean isChunkLoaded(int chunkX,int chunkZ, ) { return net.minecraft.world.WorldView.isChunkLoaded(chunkX,chunkZ); }
-public yarnwrap.world.chunk.Chunk getChunk(int chunkX,int chunkZ,yarnwrap.world.chunk.ChunkStatus leastStatus,boolean create) { return new yarnwrap.world.chunk.Chunk(wrapperContained.getChunk(chunkX,chunkZ,leastStatus.wrapperContained,create)); }
-// public static yarnwrap.world.chunk.Chunk getChunk(int chunkX,int chunkZ,yarnwrap.world.chunk.ChunkStatus leastStatus,boolean create, ) { return new yarnwrap.world.chunk.Chunk(net.minecraft.world.WorldView.getChunk(chunkX,chunkZ,leastStatus.wrapperContained,create)); }
-public int getAmbientDarkness() { return wrapperContained.getAmbientDarkness(); }
-// public static int getAmbientDarkness() { return net.minecraft.world.WorldView.getAmbientDarkness(); }
-public yarnwrap.world.dimension.DimensionType getDimension() { return new yarnwrap.world.dimension.DimensionType(wrapperContained.getDimension()); }
-// public static yarnwrap.world.dimension.DimensionType getDimension() { return new yarnwrap.world.dimension.DimensionType(net.minecraft.world.WorldView.getDimension()); }
-// public yarnwrap.util.math.BlockPos getTopPosition(Object heightmap,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.getTopPosition(heightmap,pos.wrapperContained)); }
-// public static yarnwrap.util.math.BlockPos getTopPosition(Object heightmap,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.WorldView.getTopPosition(heightmap,pos.wrapperContained)); }
-public boolean isClient() { return wrapperContained.isClient(); }
-// public static boolean isClient() { return net.minecraft.world.WorldView.isClient(); }
-public int getSeaLevel() { return wrapperContained.getSeaLevel(); }
-// public static int getSeaLevel() { return net.minecraft.world.WorldView.getSeaLevel(); }
-// public int getTopY(Object heightmap,int x,int z) { return wrapperContained.getTopY(heightmap,x,z); }
-// public static int getTopY(Object heightmap,int x,int z, ) { return net.minecraft.world.WorldView.getTopY(heightmap,x,z); }
+// public int getTopY(Object heightmap,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getTopY(heightmap,pos.wrapperContained); }
+// public static int getTopY(Object heightmap,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.WorldView.getTopY(heightmap,pos.wrapperContained); }
 
 }

@@ -30,8 +30,6 @@ public void dropRecord() { wrapperContained.dropRecord(); }
 // public static void dropRecord() { net.minecraft.block.entity.JukeboxBlockEntity.dropRecord(); }
 // public void method_60780(yarnwrap.registry.entry.RegistryEntry song) { wrapperContained.method_60780(song.wrapperContained); }
 // public static void method_60780(yarnwrap.registry.entry.RegistryEntry song, ) { net.minecraft.block.entity.JukeboxBlockEntity.method_60780(song.wrapperContained); }
-// public void method_60781(yarnwrap.nbt.NbtCompound song) { wrapperContained.method_60781(song.wrapperContained); }
-// public static void method_60781(yarnwrap.nbt.NbtCompound song, ) { net.minecraft.block.entity.JukeboxBlockEntity.method_60781(song.wrapperContained); }
 // public void onRecordStackChanged(boolean hasRecord) { wrapperContained.onRecordStackChanged(hasRecord); }
 // public static void onRecordStackChanged(boolean hasRecord, ) { net.minecraft.block.entity.JukeboxBlockEntity.onRecordStackChanged(hasRecord); }
 // public void method_60783(yarnwrap.registry.entry.RegistryEntry song) { wrapperContained.method_60783(song.wrapperContained); }
@@ -44,5 +42,9 @@ public void reloadDisc() { wrapperContained.reloadDisc(); }
 // public static void reloadDisc() { net.minecraft.block.entity.JukeboxBlockEntity.reloadDisc(); }
 public int getComparatorOutput() { return wrapperContained.getComparatorOutput(); }
 // public static int getComparatorOutput() { return net.minecraft.block.entity.JukeboxBlockEntity.getComparatorOutput(); }
+// public void method_68286(java.lang.Long song) { wrapperContained.method_68286(song); }
+// public static void method_68286(java.lang.Long song, ) { net.minecraft.block.entity.JukeboxBlockEntity.method_68286(song); }
+// public void method_68287(yarnwrap.storage.ReadView ticksSinceSongStarted) { wrapperContained.method_68287(ticksSinceSongStarted.wrapperContained); }
+// public static void method_68287(yarnwrap.storage.ReadView ticksSinceSongStarted, ) { net.minecraft.block.entity.JukeboxBlockEntity.method_68287(ticksSinceSongStarted.wrapperContained); }
 
 }

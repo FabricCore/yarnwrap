@@ -76,5 +76,11 @@ public static java.lang.String STORAGE() { return net.minecraft.util.profiling.j
 public static yarnwrap.util.profiling.jfr.JfrProfiler getInstance() { return new yarnwrap.util.profiling.jfr.JfrProfiler(net.minecraft.util.profiling.jfr.JfrProfiler.getInstance()); }
 // public Object getOrCreateSummaryRecorder(java.net.SocketAddress address) { return wrapperContained.getOrCreateSummaryRecorder(address); }
 // public static Object getOrCreateSummaryRecorder(java.net.SocketAddress address, ) { return net.minecraft.util.profiling.jfr.JfrProfiler.getOrCreateSummaryRecorder(address); }
+// public void method_65106(yarnwrap.util.profiling.jfr.event.ChunkGenerationEvent success) { wrapperContained.method_65106(success.wrapperContained); }
+// public static void method_65106(yarnwrap.util.profiling.jfr.event.ChunkGenerationEvent success, ) { net.minecraft.util.profiling.jfr.JfrProfiler.method_65106(success.wrapperContained); }
+// public void method_65107(yarnwrap.util.profiling.jfr.event.StructureGenerationEvent success) { wrapperContained.method_65107(success.wrapperContained); }
+// public static void method_65107(yarnwrap.util.profiling.jfr.event.StructureGenerationEvent success, ) { net.minecraft.util.profiling.jfr.JfrProfiler.method_65107(success.wrapperContained); }
+// public void method_65108(net.minecraft.util.profiling.jfr.event.WorldLoadFinishedEvent success) { wrapperContained.method_65108(success); }
+// public static void method_65108(net.minecraft.util.profiling.jfr.event.WorldLoadFinishedEvent success, ) { net.minecraft.util.profiling.jfr.JfrProfiler.method_65108(success); }
 
 }

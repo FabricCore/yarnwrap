@@ -29,8 +29,8 @@ public yarnwrap.item.Item getBucketItem() { return new yarnwrap.item.Item(wrappe
 // public static void randomDisplayTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.FluidState state,yarnwrap.util.math.random.Random random, ) { net.minecraft.fluid.Fluid.randomDisplayTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,random.wrapperContained); }
 // public boolean canBeReplacedWith(yarnwrap.fluid.FluidState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.Fluid fluid,yarnwrap.util.math.Direction direction) { return wrapperContained.canBeReplacedWith(state.wrapperContained,world.wrapperContained,pos.wrapperContained,fluid.wrapperContained,direction.wrapperContained); }
 // public static boolean canBeReplacedWith(yarnwrap.fluid.FluidState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.Fluid fluid,yarnwrap.util.math.Direction direction, ) { return net.minecraft.fluid.Fluid.canBeReplacedWith(state.wrapperContained,world.wrapperContained,pos.wrapperContained,fluid.wrapperContained,direction.wrapperContained); }
-// public void onScheduledTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.FluidState state) { wrapperContained.onScheduledTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
-// public static void onScheduledTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.FluidState state, ) { net.minecraft.fluid.Fluid.onScheduledTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
+// public void onScheduledTick(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState blockState,yarnwrap.fluid.FluidState fluidState) { wrapperContained.onScheduledTick(world.wrapperContained,pos.wrapperContained,blockState.wrapperContained,fluidState.wrapperContained); }
+// public static void onScheduledTick(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState blockState,yarnwrap.fluid.FluidState fluidState, ) { net.minecraft.fluid.Fluid.onScheduledTick(world.wrapperContained,pos.wrapperContained,blockState.wrapperContained,fluidState.wrapperContained); }
 public int getLevel(yarnwrap.fluid.FluidState state) { return wrapperContained.getLevel(state.wrapperContained); }
 // public static int getLevel(yarnwrap.fluid.FluidState state, ) { return net.minecraft.fluid.Fluid.getLevel(state.wrapperContained); }
 public boolean matchesType(yarnwrap.fluid.Fluid fluid) { return wrapperContained.matchesType(fluid.wrapperContained); }
@@ -55,8 +55,8 @@ public int getTickRate(yarnwrap.world.WorldView world) { return wrapperContained
 // public static yarnwrap.block.BlockState toBlockState(yarnwrap.fluid.FluidState state, ) { return new yarnwrap.block.BlockState(net.minecraft.fluid.Fluid.toBlockState(state.wrapperContained)); }
 public boolean isIn(yarnwrap.registry.tag.TagKey tag) { return wrapperContained.isIn(tag.wrapperContained); }
 // public static boolean isIn(yarnwrap.registry.tag.TagKey tag, ) { return net.minecraft.fluid.Fluid.isIn(tag.wrapperContained); }
-// public void onRandomTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.FluidState state,yarnwrap.util.math.random.Random random) { wrapperContained.onRandomTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,random.wrapperContained); }
-// public static void onRandomTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.FluidState state,yarnwrap.util.math.random.Random random, ) { net.minecraft.fluid.Fluid.onRandomTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,random.wrapperContained); }
+// public void onRandomTick(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.FluidState state,yarnwrap.util.math.random.Random random) { wrapperContained.onRandomTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,random.wrapperContained); }
+// public static void onRandomTick(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.FluidState state,yarnwrap.util.math.random.Random random, ) { net.minecraft.fluid.Fluid.onRandomTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,random.wrapperContained); }
 public boolean isStill(yarnwrap.fluid.FluidState state) { return wrapperContained.isStill(state.wrapperContained); }
 // public static boolean isStill(yarnwrap.fluid.FluidState state, ) { return net.minecraft.fluid.Fluid.isStill(state.wrapperContained); }
 // public boolean isEmpty() { return wrapperContained.isEmpty(); }
@@ -71,5 +71,9 @@ public java.util.Optional getBucketFillSound() { return wrapperContained.getBuck
 // public static java.util.Optional getBucketFillSound() { return net.minecraft.fluid.Fluid.getBucketFillSound(); }
 public Object getRegistryEntry() { return wrapperContained.getRegistryEntry(); }
 // public static Object getRegistryEntry() { return net.minecraft.fluid.Fluid.getRegistryEntry(); }
+public yarnwrap.util.math.Box getCollisionBox(yarnwrap.fluid.FluidState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.Box(wrapperContained.getCollisionBox(state.wrapperContained,world.wrapperContained,pos.wrapperContained)); }
+// public static yarnwrap.util.math.Box getCollisionBox(yarnwrap.fluid.FluidState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.Box(net.minecraft.fluid.Fluid.getCollisionBox(state.wrapperContained,world.wrapperContained,pos.wrapperContained)); }
+// public void onEntityCollision(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.Entity entity,yarnwrap.entity.EntityCollisionHandler handler) { wrapperContained.onEntityCollision(world.wrapperContained,pos.wrapperContained,entity.wrapperContained,handler.wrapperContained); }
+// public static void onEntityCollision(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.Entity entity,yarnwrap.entity.EntityCollisionHandler handler, ) { net.minecraft.fluid.Fluid.onEntityCollision(world.wrapperContained,pos.wrapperContained,entity.wrapperContained,handler.wrapperContained); }
 
 }

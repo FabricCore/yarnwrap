@@ -58,8 +58,8 @@ public PrepareRamTask(java.util.function.ToIntFunction cooldownFactory,int minDi
 // public static java.util.Optional findRamStart(yarnwrap.entity.mob.PathAwareEntity entity,yarnwrap.entity.LivingEntity target, ) { return net.minecraft.entity.ai.brain.task.PrepareRamTask.findRamStart(entity.wrapperContained,target.wrapperContained); }
 // public boolean canReach(yarnwrap.entity.mob.PathAwareEntity entity,yarnwrap.util.math.BlockPos target) { return wrapperContained.canReach(entity.wrapperContained,target.wrapperContained); }
 // public static boolean canReach(yarnwrap.entity.mob.PathAwareEntity entity,yarnwrap.util.math.BlockPos target, ) { return net.minecraft.entity.ai.brain.task.PrepareRamTask.canReach(entity.wrapperContained,target.wrapperContained); }
-// public java.util.Optional method_36264(yarnwrap.entity.mob.PathAwareEntity mob) { return wrapperContained.method_36264(mob.wrapperContained); }
-// public static java.util.Optional method_36264(yarnwrap.entity.mob.PathAwareEntity mob, ) { return net.minecraft.entity.ai.brain.task.PrepareRamTask.method_36264(mob.wrapperContained); }
+// public java.util.Optional method_36264(yarnwrap.server.world.ServerWorld mobs) { return wrapperContained.method_36264(mobs.wrapperContained); }
+// public static java.util.Optional method_36264(yarnwrap.server.world.ServerWorld mobs, ) { return net.minecraft.entity.ai.brain.task.PrepareRamTask.method_36264(mobs.wrapperContained); }
 // public boolean method_36265(yarnwrap.entity.ai.pathing.EntityNavigation start) { return wrapperContained.method_36265(start.wrapperContained); }
 // public static boolean method_36265(yarnwrap.entity.ai.pathing.EntityNavigation start, ) { return net.minecraft.entity.ai.brain.task.PrepareRamTask.method_36265(start.wrapperContained); }
 // public yarnwrap.util.math.Vec3d calculateRamTarget(yarnwrap.util.math.BlockPos start,yarnwrap.util.math.BlockPos end) { return new yarnwrap.util.math.Vec3d(wrapperContained.calculateRamTarget(start.wrapperContained,end.wrapperContained)); }
@@ -68,7 +68,7 @@ public PrepareRamTask(java.util.function.ToIntFunction cooldownFactory,int minDi
 // public static void findRam(yarnwrap.entity.mob.PathAwareEntity entity,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.ai.brain.task.PrepareRamTask.findRam(entity.wrapperContained,target.wrapperContained); }
 // public void method_36270(yarnwrap.entity.mob.PathAwareEntity mob) { wrapperContained.method_36270(mob.wrapperContained); }
 // public static void method_36270(yarnwrap.entity.mob.PathAwareEntity mob, ) { net.minecraft.entity.ai.brain.task.PrepareRamTask.method_36270(mob.wrapperContained); }
-// public boolean method_36272(yarnwrap.entity.mob.PathAwareEntity mobx) { return wrapperContained.method_36272(mobx.wrapperContained); }
-// public static boolean method_36272(yarnwrap.entity.mob.PathAwareEntity mobx, ) { return net.minecraft.entity.ai.brain.task.PrepareRamTask.method_36272(mobx.wrapperContained); }
+// public boolean method_36272(yarnwrap.server.world.ServerWorld mob) { return wrapperContained.method_36272(mob.wrapperContained); }
+// public static boolean method_36272(yarnwrap.server.world.ServerWorld mob, ) { return net.minecraft.entity.ai.brain.task.PrepareRamTask.method_36272(mob.wrapperContained); }
 
 }

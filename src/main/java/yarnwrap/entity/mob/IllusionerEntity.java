@@ -11,9 +11,9 @@ public class IllusionerEntity { public net.minecraft.entity.mob.IllusionerEntity
 // public static net.minecraft.util.math.Vec3d[][] mirrorCopyOffsets() { return net.minecraft.entity.mob.IllusionerEntity.mirrorCopyOffsets; }
 // public static void mirrorCopyOffsets(net.minecraft.util.math.Vec3d[][] value, ) { net.minecraft.entity.mob.IllusionerEntity.mirrorCopyOffsets = value; }
 
+public net.minecraft.util.math.Vec3d[] getMirrorCopyOffsets(float tickProgress) { return wrapperContained.getMirrorCopyOffsets(tickProgress); }
+// public static net.minecraft.util.math.Vec3d[] getMirrorCopyOffsets(float tickProgress, ) { return net.minecraft.entity.mob.IllusionerEntity.getMirrorCopyOffsets(tickProgress); }
 // public Object createIllusionerAttributes() { return wrapperContained.createIllusionerAttributes(); }
 public static Object createIllusionerAttributes() { return net.minecraft.entity.mob.IllusionerEntity.createIllusionerAttributes(); }
-public net.minecraft.util.math.Vec3d[] getMirrorCopyOffsets(float tickDelta) { return wrapperContained.getMirrorCopyOffsets(tickDelta); }
-// public static net.minecraft.util.math.Vec3d[] getMirrorCopyOffsets(float tickDelta, ) { return net.minecraft.entity.mob.IllusionerEntity.getMirrorCopyOffsets(tickDelta); }
 
 }

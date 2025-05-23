@@ -6,10 +6,10 @@ public class StructurePool { public net.minecraft.structure.pool.StructurePool w
 // public static it.unimi.dsi.fastutil.objects.ObjectArrayList elements() { return net.minecraft.structure.pool.StructurePool.elements; }
 // public static void elements(it.unimi.dsi.fastutil.objects.ObjectArrayList value, ) { net.minecraft.structure.pool.StructurePool.elements = value; }
 
-// public java.util.List elementCounts() { return wrapperContained.elementCounts; }
-// public void elementCounts(java.util.List value) { wrapperContained.elementCounts = value; }
-// public static java.util.List elementCounts() { return net.minecraft.structure.pool.StructurePool.elementCounts; }
-// public static void elementCounts(java.util.List value, ) { net.minecraft.structure.pool.StructurePool.elementCounts = value; }
+// public java.util.List elementWeights() { return wrapperContained.elementWeights; }
+// public void elementWeights(java.util.List value) { wrapperContained.elementWeights = value; }
+// public static java.util.List elementWeights() { return net.minecraft.structure.pool.StructurePool.elementWeights; }
+// public static void elementWeights(java.util.List value, ) { net.minecraft.structure.pool.StructurePool.elementWeights = value; }
 
 // public int highestY() { return wrapperContained.highestY; }
 // public void highestY(int value) { wrapperContained.highestY = value; }
@@ -41,8 +41,8 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.stru
 // public static yarnwrap.registry.entry.RegistryEntry fallback() { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.structure.pool.StructurePool.fallback); }
 // public static void fallback(yarnwrap.registry.entry.RegistryEntry value, ) { net.minecraft.structure.pool.StructurePool.fallback = value.wrapperContained; }
 
-public StructurePool(yarnwrap.registry.entry.RegistryEntry fallback,java.util.List elementCounts) { this.wrapperContained = new net.minecraft.structure.pool.StructurePool(fallback.wrapperContained,elementCounts); }
-// public StructurePool(yarnwrap.registry.entry.RegistryEntry fallback,java.util.List elementCountsByGetters,Object projection) { this.wrapperContained = new net.minecraft.structure.pool.StructurePool(fallback.wrapperContained,elementCountsByGetters,projection); }
+public StructurePool(yarnwrap.registry.entry.RegistryEntry fallback,java.util.List elementWeights) { this.wrapperContained = new net.minecraft.structure.pool.StructurePool(fallback.wrapperContained,elementWeights); }
+// public StructurePool(yarnwrap.registry.entry.RegistryEntry fallback,java.util.List elementWeightsByGetters,Object projection) { this.wrapperContained = new net.minecraft.structure.pool.StructurePool(fallback.wrapperContained,elementWeightsByGetters,projection); }
 public yarnwrap.structure.pool.StructurePoolElement getRandomElement(yarnwrap.util.math.random.Random random) { return new yarnwrap.structure.pool.StructurePoolElement(wrapperContained.getRandomElement(random.wrapperContained)); }
 // public static yarnwrap.structure.pool.StructurePoolElement getRandomElement(yarnwrap.util.math.random.Random random, ) { return new yarnwrap.structure.pool.StructurePoolElement(net.minecraft.structure.pool.StructurePool.getRandomElement(random.wrapperContained)); }
 public int getElementCount() { return wrapperContained.getElementCount(); }
@@ -61,5 +61,7 @@ public int getHighestY(yarnwrap.structure.StructureTemplateManager structureTemp
 // public static boolean method_35372(yarnwrap.structure.pool.StructurePoolElement element, ) { return net.minecraft.structure.pool.StructurePool.method_35372(element.wrapperContained); }
 public yarnwrap.registry.entry.RegistryEntry getFallback() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.getFallback()); }
 // public static yarnwrap.registry.entry.RegistryEntry getFallback() { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.structure.pool.StructurePool.getFallback()); }
+public java.util.List getElementWeights() { return wrapperContained.getElementWeights(); }
+// public static java.util.List getElementWeights() { return net.minecraft.structure.pool.StructurePool.getElementWeights(); }
 
 }

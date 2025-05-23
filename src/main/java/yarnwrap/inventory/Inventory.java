@@ -6,20 +6,6 @@ public class Inventory { public net.minecraft.inventory.Inventory wrapperContain
 public static float DEFAULT_MAX_INTERACTION_RANGE() { return net.minecraft.inventory.Inventory.DEFAULT_MAX_INTERACTION_RANGE; }
 // public static void DEFAULT_MAX_INTERACTION_RANGE(float value, ) { net.minecraft.inventory.Inventory.DEFAULT_MAX_INTERACTION_RANGE = value; }
 
-public int count(yarnwrap.item.Item item) { return wrapperContained.count(item.wrapperContained); }
-// public static int count(yarnwrap.item.Item item, ) { return net.minecraft.inventory.Inventory.count(item.wrapperContained); }
-public boolean containsAny(java.util.Set items) { return wrapperContained.containsAny(items); }
-// public static boolean containsAny(java.util.Set items, ) { return net.minecraft.inventory.Inventory.containsAny(items); }
-// public boolean method_43255(java.util.Set stack) { return wrapperContained.method_43255(stack); }
-// public static boolean method_43255(java.util.Set stack, ) { return net.minecraft.inventory.Inventory.method_43255(stack); }
-public boolean containsAny(java.util.function.Predicate predicate) { return wrapperContained.containsAny(predicate); }
-// public static boolean containsAny(java.util.function.Predicate predicate, ) { return net.minecraft.inventory.Inventory.containsAny(predicate); }
-public boolean canTransferTo(yarnwrap.inventory.Inventory hopperInventory,int slot,yarnwrap.item.ItemStack stack) { return wrapperContained.canTransferTo(hopperInventory.wrapperContained,slot,stack.wrapperContained); }
-// public static boolean canTransferTo(yarnwrap.inventory.Inventory hopperInventory,int slot,yarnwrap.item.ItemStack stack, ) { return net.minecraft.inventory.Inventory.canTransferTo(hopperInventory.wrapperContained,slot,stack.wrapperContained); }
-// public boolean canPlayerUse(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.canPlayerUse(blockEntity.wrapperContained,player.wrapperContained); }
-// public static boolean canPlayerUse(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.inventory.Inventory.canPlayerUse(blockEntity.wrapperContained,player.wrapperContained); }
-// public boolean canPlayerUse(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.player.PlayerEntity player,float range) { return wrapperContained.canPlayerUse(blockEntity.wrapperContained,player.wrapperContained,range); }
-// public static boolean canPlayerUse(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.player.PlayerEntity player,float range, ) { return net.minecraft.inventory.Inventory.canPlayerUse(blockEntity.wrapperContained,player.wrapperContained,range); }
 public void markDirty() { wrapperContained.markDirty(); }
 // public static void markDirty() { net.minecraft.inventory.Inventory.markDirty(); }
 public void onClose(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.onClose(player.wrapperContained); }
@@ -44,6 +30,20 @@ public int getMaxCountPerStack() { return wrapperContained.getMaxCountPerStack()
 // public static int getMaxCountPerStack() { return net.minecraft.inventory.Inventory.getMaxCountPerStack(); }
 public void setStack(int slot,yarnwrap.item.ItemStack stack) { wrapperContained.setStack(slot,stack.wrapperContained); }
 // public static void setStack(int slot,yarnwrap.item.ItemStack stack, ) { net.minecraft.inventory.Inventory.setStack(slot,stack.wrapperContained); }
+public int count(yarnwrap.item.Item item) { return wrapperContained.count(item.wrapperContained); }
+// public static int count(yarnwrap.item.Item item, ) { return net.minecraft.inventory.Inventory.count(item.wrapperContained); }
+public boolean containsAny(java.util.Set items) { return wrapperContained.containsAny(items); }
+// public static boolean containsAny(java.util.Set items, ) { return net.minecraft.inventory.Inventory.containsAny(items); }
+// public boolean method_43255(java.util.Set stack) { return wrapperContained.method_43255(stack); }
+// public static boolean method_43255(java.util.Set stack, ) { return net.minecraft.inventory.Inventory.method_43255(stack); }
+public boolean containsAny(java.util.function.Predicate predicate) { return wrapperContained.containsAny(predicate); }
+// public static boolean containsAny(java.util.function.Predicate predicate, ) { return net.minecraft.inventory.Inventory.containsAny(predicate); }
+public boolean canTransferTo(yarnwrap.inventory.Inventory hopperInventory,int slot,yarnwrap.item.ItemStack stack) { return wrapperContained.canTransferTo(hopperInventory.wrapperContained,slot,stack.wrapperContained); }
+// public static boolean canTransferTo(yarnwrap.inventory.Inventory hopperInventory,int slot,yarnwrap.item.ItemStack stack, ) { return net.minecraft.inventory.Inventory.canTransferTo(hopperInventory.wrapperContained,slot,stack.wrapperContained); }
+// public boolean canPlayerUse(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.canPlayerUse(blockEntity.wrapperContained,player.wrapperContained); }
+// public static boolean canPlayerUse(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.inventory.Inventory.canPlayerUse(blockEntity.wrapperContained,player.wrapperContained); }
+// public boolean canPlayerUse(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.player.PlayerEntity player,float range) { return wrapperContained.canPlayerUse(blockEntity.wrapperContained,player.wrapperContained,range); }
+// public static boolean canPlayerUse(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.player.PlayerEntity player,float range, ) { return net.minecraft.inventory.Inventory.canPlayerUse(blockEntity.wrapperContained,player.wrapperContained,range); }
 public int getMaxCount(yarnwrap.item.ItemStack stack) { return wrapperContained.getMaxCount(stack.wrapperContained); }
 // public static int getMaxCount(yarnwrap.item.ItemStack stack, ) { return net.minecraft.inventory.Inventory.getMaxCount(stack.wrapperContained); }
 

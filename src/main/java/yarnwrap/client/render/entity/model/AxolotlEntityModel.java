@@ -56,34 +56,24 @@ public class AxolotlEntityModel { public net.minecraft.client.render.entity.mode
 public static float MOVING_IN_WATER_LEG_PITCH() { return net.minecraft.client.render.entity.model.AxolotlEntityModel.MOVING_IN_WATER_LEG_PITCH; }
 // public static void MOVING_IN_WATER_LEG_PITCH(float value, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.MOVING_IN_WATER_LEG_PITCH = value; }
 
-public AxolotlEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.AxolotlEntityModel(root.wrapperContained); }
+// public yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.BABY_TRANSFORMER); }
+// public void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.BABY_TRANSFORMER = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.AxolotlEntityModel.BABY_TRANSFORMER); }
+// public static void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.BABY_TRANSFORMER = value.wrapperContained; }
+
 // public void setStandingOnGroundAngles(float animationProgress,float headYaw) { wrapperContained.setStandingOnGroundAngles(animationProgress,headYaw); }
 // public static void setStandingOnGroundAngles(float animationProgress,float headYaw, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.setStandingOnGroundAngles(animationProgress,headYaw); }
-// public void resetAngles(yarnwrap.entity.passive.AxolotlEntity axolotl,float headYaw,float headPitch) { wrapperContained.resetAngles(axolotl.wrapperContained,headYaw,headPitch); }
-// public static void resetAngles(yarnwrap.entity.passive.AxolotlEntity axolotl,float headYaw,float headPitch, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.resetAngles(axolotl.wrapperContained,headYaw,headPitch); }
 // public void setMovingOnGroundAngles(float animationProgress,float headYaw) { wrapperContained.setMovingOnGroundAngles(animationProgress,headYaw); }
 // public static void setMovingOnGroundAngles(float animationProgress,float headYaw, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.setMovingOnGroundAngles(animationProgress,headYaw); }
-// public void setMovingInWaterAngles(float animationProgress,float headPitch) { wrapperContained.setMovingInWaterAngles(animationProgress,headPitch); }
-// public static void setMovingInWaterAngles(float animationProgress,float headPitch, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.setMovingInWaterAngles(animationProgress,headPitch); }
+// public void setMovingInWaterAngles(float headPitch) { wrapperContained.setMovingInWaterAngles(headPitch); }
+// public static void setMovingInWaterAngles(float headPitch, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.setMovingInWaterAngles(headPitch); }
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.AxolotlEntityModel.getTexturedModelData()); }
-// public void setStandingInWaterAngles(float animationProgress) { wrapperContained.setStandingInWaterAngles(animationProgress); }
-// public static void setStandingInWaterAngles(float animationProgress, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.setStandingInWaterAngles(animationProgress); }
+// public void setStandingInWaterAngles() { wrapperContained.setStandingInWaterAngles(); }
+// public static void setStandingInWaterAngles() { net.minecraft.client.render.entity.model.AxolotlEntityModel.setStandingInWaterAngles(); }
 // public void setPlayingDeadAngles(float headYaw) { wrapperContained.setPlayingDeadAngles(headYaw); }
 // public static void setPlayingDeadAngles(float headYaw, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.setPlayingDeadAngles(headYaw); }
 // public void copyLegAngles() { wrapperContained.copyLegAngles(); }
 // public static void copyLegAngles() { net.minecraft.client.render.entity.model.AxolotlEntityModel.copyLegAngles(); }
-// public float lerpAngleDegrees(float start,float end) { return wrapperContained.lerpAngleDegrees(start,end); }
-// public static float lerpAngleDegrees(float start,float end, ) { return net.minecraft.client.render.entity.model.AxolotlEntityModel.lerpAngleDegrees(start,end); }
-// public float lerpAngleDegrees(float delta,float start,float end) { return wrapperContained.lerpAngleDegrees(delta,start,end); }
-// public static float lerpAngleDegrees(float delta,float start,float end, ) { return net.minecraft.client.render.entity.model.AxolotlEntityModel.lerpAngleDegrees(delta,start,end); }
-// public void updateAnglesCache(yarnwrap.entity.passive.AxolotlEntity axolotl) { wrapperContained.updateAnglesCache(axolotl.wrapperContained); }
-// public static void updateAnglesCache(yarnwrap.entity.passive.AxolotlEntity axolotl, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.updateAnglesCache(axolotl.wrapperContained); }
-// public org.joml.Vector3f getAngles(yarnwrap.client.model.ModelPart part) { return wrapperContained.getAngles(part.wrapperContained); }
-// public static org.joml.Vector3f getAngles(yarnwrap.client.model.ModelPart part, ) { return net.minecraft.client.render.entity.model.AxolotlEntityModel.getAngles(part.wrapperContained); }
-// public void setAngles(yarnwrap.client.model.ModelPart part,float pitch,float yaw,float roll) { wrapperContained.setAngles(part.wrapperContained,pitch,yaw,roll); }
-// public static void setAngles(yarnwrap.client.model.ModelPart part,float pitch,float yaw,float roll, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.setAngles(part.wrapperContained,pitch,yaw,roll); }
-// public void setAngles(yarnwrap.client.model.ModelPart part,org.joml.Vector3f angles) { wrapperContained.setAngles(part.wrapperContained,angles); }
-// public static void setAngles(yarnwrap.client.model.ModelPart part,org.joml.Vector3f angles, ) { net.minecraft.client.render.entity.model.AxolotlEntityModel.setAngles(part.wrapperContained,angles); }
 
 }

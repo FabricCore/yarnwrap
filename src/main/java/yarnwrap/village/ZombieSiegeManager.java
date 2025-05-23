@@ -1,16 +1,6 @@
 package yarnwrap.village;
 public class ZombieSiegeManager { public net.minecraft.village.ZombieSiegeManager wrapperContained; public ZombieSiegeManager(net.minecraft.village.ZombieSiegeManager wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public Object state() { return wrapperContained.state; }
-// // public void state(Object value) { wrapperContained.state = value; }
-// // public static Object state() { return net.minecraft.village.ZombieSiegeManager.state; }
-// // public static void state(Object value, ) { net.minecraft.village.ZombieSiegeManager.state = value; }
-
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.village.ZombieSiegeManager.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.village.ZombieSiegeManager.LOGGER = value; }
-
 // public int startZ() { return wrapperContained.startZ; }
 // public void startZ(int value) { wrapperContained.startZ = value; }
 // public static int startZ() { return net.minecraft.village.ZombieSiegeManager.startZ; }
@@ -40,6 +30,16 @@ public class ZombieSiegeManager { public net.minecraft.village.ZombieSiegeManage
 // public void spawned(boolean value) { wrapperContained.spawned = value; }
 // public static boolean spawned() { return net.minecraft.village.ZombieSiegeManager.spawned; }
 // public static void spawned(boolean value, ) { net.minecraft.village.ZombieSiegeManager.spawned = value; }
+
+// public Object state() { return wrapperContained.state; }
+// // public void state(Object value) { wrapperContained.state = value; }
+// // public static Object state() { return net.minecraft.village.ZombieSiegeManager.state; }
+// // public static void state(Object value, ) { net.minecraft.village.ZombieSiegeManager.state = value; }
+
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.village.ZombieSiegeManager.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.village.ZombieSiegeManager.LOGGER = value; }
 
 // public boolean spawn(yarnwrap.server.world.ServerWorld world) { return wrapperContained.spawn(world.wrapperContained); }
 // public static boolean spawn(yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.village.ZombieSiegeManager.spawn(world.wrapperContained); }

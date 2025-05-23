@@ -146,5 +146,7 @@ public void setHeader(yarnwrap.text.Text header) { wrapperContained.setHeader(he
 // public static java.lang.String method_46511(yarnwrap.client.network.PlayerListEntry entry, ) { return net.minecraft.client.gui.hud.PlayerListHud.method_46511(entry.wrapperContained); }
 // public java.util.List collectPlayerEntries() { return wrapperContained.collectPlayerEntries(); }
 // public static java.util.List collectPlayerEntries() { return net.minecraft.client.gui.hud.PlayerListHud.collectPlayerEntries(); }
+// public int method_61982(yarnwrap.client.network.PlayerListEntry entry) { return wrapperContained.method_61982(entry.wrapperContained); }
+// public static int method_61982(yarnwrap.client.network.PlayerListEntry entry, ) { return net.minecraft.client.gui.hud.PlayerListHud.method_61982(entry.wrapperContained); }
 
 }

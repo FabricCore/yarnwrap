@@ -16,13 +16,13 @@ public static yarnwrap.state.property.BooleanProperty DRAG() { return new yarnwr
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.BubbleColumnBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.BubbleColumnBlock.CODEC = value; }
 
+// public boolean isStillWater(yarnwrap.block.BlockState state) { return wrapperContained.isStillWater(state.wrapperContained); }
+// public static boolean isStillWater(yarnwrap.block.BlockState state, ) { return net.minecraft.block.BubbleColumnBlock.isStillWater(state.wrapperContained); }
 // public void update(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState water,yarnwrap.block.BlockState bubbleSource) { wrapperContained.update(world.wrapperContained,pos.wrapperContained,water.wrapperContained,bubbleSource.wrapperContained); }
 // public static void update(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState water,yarnwrap.block.BlockState bubbleSource, ) { net.minecraft.block.BubbleColumnBlock.update(world.wrapperContained,pos.wrapperContained,water.wrapperContained,bubbleSource.wrapperContained); }
 // public void update(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public static void update(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.BubbleColumnBlock.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public yarnwrap.block.BlockState getBubbleState(yarnwrap.block.BlockState state) { return new yarnwrap.block.BlockState(wrapperContained.getBubbleState(state.wrapperContained)); }
 // public static yarnwrap.block.BlockState getBubbleState(yarnwrap.block.BlockState state, ) { return new yarnwrap.block.BlockState(net.minecraft.block.BubbleColumnBlock.getBubbleState(state.wrapperContained)); }
-// public boolean isStillWater(yarnwrap.block.BlockState state) { return wrapperContained.isStillWater(state.wrapperContained); }
-// public static boolean isStillWater(yarnwrap.block.BlockState state, ) { return net.minecraft.block.BubbleColumnBlock.isStillWater(state.wrapperContained); }
 
 }

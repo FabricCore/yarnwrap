@@ -3,7 +3,7 @@ public class SerializableRegistries { public net.minecraft.registry.Serializable
 
 // public java.util.Set SYNCED_REGISTRIES() { return wrapperContained.SYNCED_REGISTRIES; }
 // public void SYNCED_REGISTRIES(java.util.Set value) { wrapperContained.SYNCED_REGISTRIES = value; }
-public static java.util.Set SYNCED_REGISTRIES() { return net.minecraft.registry.SerializableRegistries.SYNCED_REGISTRIES; }
+// public static java.util.Set SYNCED_REGISTRIES() { return net.minecraft.registry.SerializableRegistries.SYNCED_REGISTRIES; }
 // public static void SYNCED_REGISTRIES(java.util.Set value, ) { net.minecraft.registry.SerializableRegistries.SYNCED_REGISTRIES = value; }
 
 // public java.util.stream.Stream streamRegistryManagerEntries(yarnwrap.registry.CombinedDynamicRegistries combinedRegistries) { return wrapperContained.streamRegistryManagerEntries(combinedRegistries.wrapperContained); }
@@ -26,5 +26,7 @@ public static java.util.Set SYNCED_REGISTRIES() { return net.minecraft.registry.
 // public static java.lang.IllegalArgumentException method_56600(Object error, ) { return net.minecraft.registry.SerializableRegistries.method_56600(error); }
 // public boolean method_56601(Object registry) { return wrapperContained.method_56601(registry); }
 // public static boolean method_56601(Object registry, ) { return net.minecraft.registry.SerializableRegistries.method_56601(registry); }
+// public boolean isSynced(yarnwrap.registry.RegistryKey key) { return wrapperContained.isSynced(key.wrapperContained); }
+// public static boolean isSynced(yarnwrap.registry.RegistryKey key, ) { return net.minecraft.registry.SerializableRegistries.isSynced(key.wrapperContained); }
 
 }

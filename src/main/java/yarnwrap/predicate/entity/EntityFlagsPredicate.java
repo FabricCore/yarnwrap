@@ -13,9 +13,9 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.pred
 
 // public java.util.Optional isSneaking() { return wrapperContained.isSneaking(); }
 // // public static java.util.Optional isSneaking() { return net.minecraft.predicate.entity.EntityFlagsPredicate.isSneaking(); }
-// public com.mojang.datafixers.kinds.App method_53131(Object instance) { return wrapperContained.method_53131(instance); }
-// public static com.mojang.datafixers.kinds.App method_53131(Object instance, ) { return net.minecraft.predicate.entity.EntityFlagsPredicate.method_53131(instance); }
 public boolean test(yarnwrap.entity.Entity entity) { return wrapperContained.test(entity.wrapperContained); }
 // public static boolean test(yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityFlagsPredicate.test(entity.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53131(Object instance) { return wrapperContained.method_53131(instance); }
+// public static com.mojang.datafixers.kinds.App method_53131(Object instance, ) { return net.minecraft.predicate.entity.EntityFlagsPredicate.method_53131(instance); }
 
 }

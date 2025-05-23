@@ -61,8 +61,6 @@ public static java.util.List TARGET_OBJECT_TYPES() { return net.minecraft.server
 // public static int method_13888(com.mojang.brigadier.context.CommandContext context,yarnwrap.nbt.NbtCompound sourceNbt,Object path,java.util.List elements, ) { return net.minecraft.server.command.DataCommand.method_13888(context,sourceNbt.wrapperContained,path,elements); }
 // public com.mojang.brigadier.builder.ArgumentBuilder method_13889(Object builder) { return wrapperContained.method_13889(builder); }
 // public static com.mojang.brigadier.builder.ArgumentBuilder method_13889(Object builder, ) { return net.minecraft.server.command.DataCommand.method_13889(builder); }
-// public boolean method_13890(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13890(source.wrapperContained); }
-// public static boolean method_13890(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.DataCommand.method_13890(source.wrapperContained); }
 // public int method_13891(com.mojang.brigadier.context.CommandContext context,yarnwrap.nbt.NbtCompound sourceNbt,Object path,java.util.List elements) { return wrapperContained.method_13891(context,sourceNbt.wrapperContained,path,elements); }
 // public static int method_13891(com.mojang.brigadier.context.CommandContext context,yarnwrap.nbt.NbtCompound sourceNbt,Object path,java.util.List elements, ) { return net.minecraft.server.command.DataCommand.method_13891(context,sourceNbt.wrapperContained,path,elements); }
 // public com.mojang.brigadier.Message method_13892(java.lang.Object path) { return wrapperContained.method_13892(path); }

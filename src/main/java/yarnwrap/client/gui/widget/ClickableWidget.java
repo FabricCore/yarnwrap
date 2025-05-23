@@ -61,6 +61,16 @@ public void visible(boolean value) { wrapperContained.visible = value; }
 // public static int navigationOrder() { return net.minecraft.client.gui.widget.ClickableWidget.navigationOrder; }
 // public static void navigationOrder(int value, ) { net.minecraft.client.gui.widget.ClickableWidget.navigationOrder = value; }
 
+// public double FOCUSED_NARRATION_DELAY() { return wrapperContained.FOCUSED_NARRATION_DELAY; }
+// public void FOCUSED_NARRATION_DELAY(double value) { wrapperContained.FOCUSED_NARRATION_DELAY = value; }
+// public static double FOCUSED_NARRATION_DELAY() { return net.minecraft.client.gui.widget.ClickableWidget.FOCUSED_NARRATION_DELAY; }
+// public static void FOCUSED_NARRATION_DELAY(double value, ) { net.minecraft.client.gui.widget.ClickableWidget.FOCUSED_NARRATION_DELAY = value; }
+
+// public double UNFOCUSED_NARRATION_DELAY() { return wrapperContained.UNFOCUSED_NARRATION_DELAY; }
+// public void UNFOCUSED_NARRATION_DELAY(double value) { wrapperContained.UNFOCUSED_NARRATION_DELAY = value; }
+// public static double UNFOCUSED_NARRATION_DELAY() { return net.minecraft.client.gui.widget.ClickableWidget.UNFOCUSED_NARRATION_DELAY; }
+// public static void UNFOCUSED_NARRATION_DELAY(double value, ) { net.minecraft.client.gui.widget.ClickableWidget.UNFOCUSED_NARRATION_DELAY = value; }
+
 // public ClickableWidget(int x,int y,int width,int height,yarnwrap.text.Text message) { this.wrapperContained = new net.minecraft.client.gui.widget.ClickableWidget(x,y,width,height,message.wrapperContained); }
 public void onClick(double mouseX,double mouseY) { wrapperContained.onClick(mouseX,mouseY); }
 // public static void onClick(double mouseX,double mouseY, ) { net.minecraft.client.gui.widget.ClickableWidget.onClick(mouseX,mouseY); }
@@ -80,8 +90,6 @@ public void setWidth(int width) { wrapperContained.setWidth(width); }
 // public static void setWidth(int width, ) { net.minecraft.client.gui.widget.ClickableWidget.setWidth(width); }
 // public yarnwrap.text.MutableText getNarrationMessage() { return new yarnwrap.text.MutableText(wrapperContained.getNarrationMessage()); }
 // public static yarnwrap.text.MutableText getNarrationMessage() { return new yarnwrap.text.MutableText(net.minecraft.client.gui.widget.ClickableWidget.getNarrationMessage()); }
-// public boolean clicked(double mouseX,double mouseY) { return wrapperContained.clicked(mouseX,mouseY); }
-// public static boolean clicked(double mouseX,double mouseY, ) { return net.minecraft.client.gui.widget.ClickableWidget.clicked(mouseX,mouseY); }
 public boolean isSelected() { return wrapperContained.isSelected(); }
 // public static boolean isSelected() { return net.minecraft.client.gui.widget.ClickableWidget.isSelected(); }
 public yarnwrap.text.Text getMessage() { return new yarnwrap.text.Text(wrapperContained.getMessage()); }
@@ -96,8 +104,8 @@ public void setTooltip(yarnwrap.client.gui.tooltip.Tooltip tooltip) { wrapperCon
 // public static void setTooltip(yarnwrap.client.gui.tooltip.Tooltip tooltip, ) { net.minecraft.client.gui.widget.ClickableWidget.setTooltip(tooltip.wrapperContained); }
 public void setTooltipDelay(java.time.Duration tooltipDelay) { wrapperContained.setTooltipDelay(tooltipDelay); }
 // public static void setTooltipDelay(java.time.Duration tooltipDelay, ) { net.minecraft.client.gui.widget.ClickableWidget.setTooltipDelay(tooltipDelay); }
-// public void renderWidget(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float delta) { wrapperContained.renderWidget(context.wrapperContained,mouseX,mouseY,delta); }
-// public static void renderWidget(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float delta, ) { net.minecraft.client.gui.widget.ClickableWidget.renderWidget(context.wrapperContained,mouseX,mouseY,delta); }
+// public void renderWidget(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float deltaTicks) { wrapperContained.renderWidget(context.wrapperContained,mouseX,mouseY,deltaTicks); }
+// public static void renderWidget(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float deltaTicks, ) { net.minecraft.client.gui.widget.ClickableWidget.renderWidget(context.wrapperContained,mouseX,mouseY,deltaTicks); }
 public void setNavigationOrder(int navigationOrder) { wrapperContained.setNavigationOrder(navigationOrder); }
 // public static void setNavigationOrder(int navigationOrder, ) { net.minecraft.client.gui.widget.ClickableWidget.setNavigationOrder(navigationOrder); }
 // public void drawScrollableText(yarnwrap.client.gui.DrawContext context,yarnwrap.client.font.TextRenderer textRenderer,int xMargin,int color) { wrapperContained.drawScrollableText(context.wrapperContained,textRenderer.wrapperContained,xMargin,color); }
@@ -106,8 +114,6 @@ public void setNavigationOrder(int navigationOrder) { wrapperContained.setNaviga
 // public static void drawScrollableText(yarnwrap.client.gui.DrawContext context,yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.text.Text text,int centerX,int startX,int startY,int endX,int endY,int color, ) { net.minecraft.client.gui.widget.ClickableWidget.drawScrollableText(context.wrapperContained,textRenderer.wrapperContained,text.wrapperContained,centerX,startX,startY,endX,endY,color); }
 public boolean isHovered() { return wrapperContained.isHovered(); }
 // public static boolean isHovered() { return net.minecraft.client.gui.widget.ClickableWidget.isHovered(); }
-public yarnwrap.client.gui.tooltip.Tooltip getTooltip() { return new yarnwrap.client.gui.tooltip.Tooltip(wrapperContained.getTooltip()); }
-// public static yarnwrap.client.gui.tooltip.Tooltip getTooltip() { return new yarnwrap.client.gui.tooltip.Tooltip(net.minecraft.client.gui.widget.ClickableWidget.getTooltip()); }
 // public void drawScrollableText(yarnwrap.client.gui.DrawContext context,yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.text.Text text,int startX,int startY,int endX,int endY,int color) { wrapperContained.drawScrollableText(context.wrapperContained,textRenderer.wrapperContained,text.wrapperContained,startX,startY,endX,endY,color); }
 // public static void drawScrollableText(yarnwrap.client.gui.DrawContext context,yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.text.Text text,int startX,int startY,int endX,int endY,int color, ) { net.minecraft.client.gui.widget.ClickableWidget.drawScrollableText(context.wrapperContained,textRenderer.wrapperContained,text.wrapperContained,startX,startY,endX,endY,color); }
 public void setHeight(int height) { wrapperContained.setHeight(height); }
@@ -120,5 +126,7 @@ public void setDimensionsAndPosition(int width,int height,int x,int y) { wrapper
 // public static void setDimensionsAndPosition(int width,int height,int x,int y, ) { net.minecraft.client.gui.widget.ClickableWidget.setDimensionsAndPosition(width,height,x,y); }
 public void setDimensions(int width,int height) { wrapperContained.setDimensions(width,height); }
 // public static void setDimensions(int width,int height, ) { net.minecraft.client.gui.widget.ClickableWidget.setDimensions(width,height); }
+// public void playClickSound(yarnwrap.client.sound.SoundManager soundManager) { wrapperContained.playClickSound(soundManager.wrapperContained); }
+// public static void playClickSound(yarnwrap.client.sound.SoundManager soundManager, ) { net.minecraft.client.gui.widget.ClickableWidget.playClickSound(soundManager.wrapperContained); }
 
 }

@@ -52,5 +52,7 @@ public class DebugInfoSender { public net.minecraft.server.network.DebugInfoSend
 // public static void method_36162(java.util.List goal, ) { net.minecraft.server.network.DebugInfoSender.method_36162(goal); }
 // public void sendBreezeDebugData(yarnwrap.entity.mob.BreezeEntity breeze) { wrapperContained.sendBreezeDebugData(breeze.wrapperContained); }
 // public static void sendBreezeDebugData(yarnwrap.entity.mob.BreezeEntity breeze, ) { net.minecraft.server.network.DebugInfoSender.sendBreezeDebugData(breeze.wrapperContained); }
+// public void sendRedstoneUpdateOrder(yarnwrap.world.World world,yarnwrap.network.packet.s2c.custom.DebugRedstoneUpdateOrderCustomPayload payload) { wrapperContained.sendRedstoneUpdateOrder(world.wrapperContained,payload.wrapperContained); }
+// public static void sendRedstoneUpdateOrder(yarnwrap.world.World world,yarnwrap.network.packet.s2c.custom.DebugRedstoneUpdateOrderCustomPayload payload, ) { net.minecraft.server.network.DebugInfoSender.sendRedstoneUpdateOrder(world.wrapperContained,payload.wrapperContained); }
 
 }

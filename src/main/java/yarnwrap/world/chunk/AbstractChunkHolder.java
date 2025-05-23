@@ -51,11 +51,18 @@ public static java.util.concurrent.CompletableFuture UNLOADED_FUTURE() { return 
 // public static java.util.concurrent.atomic.AtomicInteger refCount() { return net.minecraft.world.chunk.AbstractChunkHolder.refCount; }
 // public static void refCount(java.util.concurrent.atomic.AtomicInteger value, ) { net.minecraft.world.chunk.AbstractChunkHolder.refCount = value; }
 
+// public java.util.concurrent.CompletableFuture referenceFuture() { return wrapperContained.referenceFuture; }
+// public void referenceFuture(java.util.concurrent.CompletableFuture value) { wrapperContained.referenceFuture = value; }
+// public static java.util.concurrent.CompletableFuture referenceFuture() { return net.minecraft.world.chunk.AbstractChunkHolder.referenceFuture; }
+// public static void referenceFuture(java.util.concurrent.CompletableFuture value, ) { net.minecraft.world.chunk.AbstractChunkHolder.referenceFuture = value; }
+
 // public AbstractChunkHolder(yarnwrap.util.math.ChunkPos pos) { this.wrapperContained = new net.minecraft.world.chunk.AbstractChunkHolder(pos.wrapperContained); }
 public int getLevel() { return wrapperContained.getLevel(); }
 // public static int getLevel() { return net.minecraft.world.chunk.AbstractChunkHolder.getLevel(); }
 public int getCompletedLevel() { return wrapperContained.getCompletedLevel(); }
 // public static int getCompletedLevel() { return net.minecraft.world.chunk.AbstractChunkHolder.getCompletedLevel(); }
+// public void combineSavingFuture(java.util.concurrent.CompletableFuture savingFuture) { wrapperContained.combineSavingFuture(savingFuture); }
+// public static void combineSavingFuture(java.util.concurrent.CompletableFuture savingFuture, ) { net.minecraft.world.chunk.AbstractChunkHolder.combineSavingFuture(savingFuture); }
 // public void unload(int statusIndex,java.util.concurrent.CompletableFuture previousFuture) { wrapperContained.unload(statusIndex,previousFuture); }
 // public static void unload(int statusIndex,java.util.concurrent.CompletableFuture previousFuture, ) { net.minecraft.world.chunk.AbstractChunkHolder.unload(statusIndex,previousFuture); }
 // public void clearLoader(yarnwrap.world.chunk.ChunkLoader loader) { wrapperContained.clearLoader(loader.wrapperContained); }
@@ -92,8 +99,6 @@ public void incrementRefCount() { wrapperContained.incrementRefCount(); }
 // public static void incrementRefCount() { net.minecraft.world.chunk.AbstractChunkHolder.incrementRefCount(); }
 public void decrementRefCount() { wrapperContained.decrementRefCount(); }
 // public static void decrementRefCount() { net.minecraft.world.chunk.AbstractChunkHolder.decrementRefCount(); }
-public int getRefCount() { return wrapperContained.getRefCount(); }
-// public static int getRefCount() { return net.minecraft.world.chunk.AbstractChunkHolder.getRefCount(); }
 public yarnwrap.world.chunk.Chunk getLatest() { return new yarnwrap.world.chunk.Chunk(wrapperContained.getLatest()); }
 // public static yarnwrap.world.chunk.Chunk getLatest() { return new yarnwrap.world.chunk.Chunk(net.minecraft.world.chunk.AbstractChunkHolder.getLatest()); }
 public yarnwrap.world.chunk.ChunkStatus getActualStatus() { return new yarnwrap.world.chunk.ChunkStatus(wrapperContained.getActualStatus()); }

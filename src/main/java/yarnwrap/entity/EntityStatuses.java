@@ -11,16 +11,6 @@ public static byte SET_OP_LEVEL_3() { return net.minecraft.entity.EntityStatuses
 public static byte SET_OP_LEVEL_4() { return net.minecraft.entity.EntityStatuses.SET_OP_LEVEL_4; }
 // public static void SET_OP_LEVEL_4(byte value, ) { net.minecraft.entity.EntityStatuses.SET_OP_LEVEL_4 = value; }
 
-// public byte BLOCK_WITH_SHIELD() { return wrapperContained.BLOCK_WITH_SHIELD; }
-// public void BLOCK_WITH_SHIELD(byte value) { wrapperContained.BLOCK_WITH_SHIELD = value; }
-public static byte BLOCK_WITH_SHIELD() { return net.minecraft.entity.EntityStatuses.BLOCK_WITH_SHIELD; }
-// public static void BLOCK_WITH_SHIELD(byte value, ) { net.minecraft.entity.EntityStatuses.BLOCK_WITH_SHIELD = value; }
-
-// public byte BREAK_SHIELD() { return wrapperContained.BREAK_SHIELD; }
-// public void BREAK_SHIELD(byte value) { wrapperContained.BREAK_SHIELD = value; }
-public static byte BREAK_SHIELD() { return net.minecraft.entity.EntityStatuses.BREAK_SHIELD; }
-// public static void BREAK_SHIELD(byte value, ) { net.minecraft.entity.EntityStatuses.BREAK_SHIELD = value; }
-
 // public byte PULL_HOOKED_ENTITY() { return wrapperContained.PULL_HOOKED_ENTITY; }
 // public void PULL_HOOKED_ENTITY(byte value) { wrapperContained.PULL_HOOKED_ENTITY = value; }
 public static byte PULL_HOOKED_ENTITY() { return net.minecraft.entity.EntityStatuses.PULL_HOOKED_ENTITY; }
@@ -285,6 +275,26 @@ public static byte PEEKING() { return net.minecraft.entity.EntityStatuses.PEEKIN
 // public void BREAK_BODY(byte value) { wrapperContained.BREAK_BODY = value; }
 public static byte BREAK_BODY() { return net.minecraft.entity.EntityStatuses.BREAK_BODY; }
 // public static void BREAK_BODY(byte value, ) { net.minecraft.entity.EntityStatuses.BREAK_BODY = value; }
+
+// public byte INVULNERABLE_CREAKING_HIT() { return wrapperContained.INVULNERABLE_CREAKING_HIT; }
+// public void INVULNERABLE_CREAKING_HIT(byte value) { wrapperContained.INVULNERABLE_CREAKING_HIT = value; }
+public static byte INVULNERABLE_CREAKING_HIT() { return net.minecraft.entity.EntityStatuses.INVULNERABLE_CREAKING_HIT; }
+// public static void INVULNERABLE_CREAKING_HIT(byte value, ) { net.minecraft.entity.EntityStatuses.INVULNERABLE_CREAKING_HIT = value; }
+
+// public byte ADD_BUBBLE_PARTICLES() { return wrapperContained.ADD_BUBBLE_PARTICLES; }
+// public void ADD_BUBBLE_PARTICLES(byte value) { wrapperContained.ADD_BUBBLE_PARTICLES = value; }
+public static byte ADD_BUBBLE_PARTICLES() { return net.minecraft.entity.EntityStatuses.ADD_BUBBLE_PARTICLES; }
+// public static void ADD_BUBBLE_PARTICLES(byte value, ) { net.minecraft.entity.EntityStatuses.ADD_BUBBLE_PARTICLES = value; }
+
+// public byte BREAK_SADDLE() { return wrapperContained.BREAK_SADDLE; }
+// public void BREAK_SADDLE(byte value) { wrapperContained.BREAK_SADDLE = value; }
+public static byte BREAK_SADDLE() { return net.minecraft.entity.EntityStatuses.BREAK_SADDLE; }
+// public static void BREAK_SADDLE(byte value, ) { net.minecraft.entity.EntityStatuses.BREAK_SADDLE = value; }
+
+// public byte RAVAGER_ROAR() { return wrapperContained.RAVAGER_ROAR; }
+// public void RAVAGER_ROAR(byte value) { wrapperContained.RAVAGER_ROAR = value; }
+// public static byte RAVAGER_ROAR() { return net.minecraft.entity.EntityStatuses.RAVAGER_ROAR; }
+// public static void RAVAGER_ROAR(byte value, ) { net.minecraft.entity.EntityStatuses.RAVAGER_ROAR = value; }
 
 
 }

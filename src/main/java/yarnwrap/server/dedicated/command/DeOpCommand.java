@@ -14,7 +14,5 @@ public class DeOpCommand { public net.minecraft.server.dedicated.command.DeOpCom
 // public static java.util.concurrent.CompletableFuture method_13145(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.dedicated.command.DeOpCommand.method_13145(context,builder); }
 // public int method_13146(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13146(context); }
 // public static int method_13146(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.DeOpCommand.method_13146(context); }
-// public boolean method_13147(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13147(source.wrapperContained); }
-// public static boolean method_13147(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.DeOpCommand.method_13147(source.wrapperContained); }
 
 }

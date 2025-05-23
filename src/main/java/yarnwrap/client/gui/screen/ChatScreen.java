@@ -1,16 +1,6 @@
 package yarnwrap.client.gui.screen;
 public class ChatScreen { public net.minecraft.client.gui.screen.ChatScreen wrapperContained; public ChatScreen(net.minecraft.client.gui.screen.ChatScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.lang.String originalChatText() { return wrapperContained.originalChatText; }
-// public void originalChatText(java.lang.String value) { wrapperContained.originalChatText = value; }
-// public static java.lang.String originalChatText() { return net.minecraft.client.gui.screen.ChatScreen.originalChatText; }
-// public static void originalChatText(java.lang.String value, ) { net.minecraft.client.gui.screen.ChatScreen.originalChatText = value; }
-
-// public yarnwrap.client.gui.screen.ChatInputSuggestor chatInputSuggestor() { return new yarnwrap.client.gui.screen.ChatInputSuggestor(wrapperContained.chatInputSuggestor); }
-// public void chatInputSuggestor(yarnwrap.client.gui.screen.ChatInputSuggestor value) { wrapperContained.chatInputSuggestor = value.wrapperContained; }
-// public static yarnwrap.client.gui.screen.ChatInputSuggestor chatInputSuggestor() { return new yarnwrap.client.gui.screen.ChatInputSuggestor(net.minecraft.client.gui.screen.ChatScreen.chatInputSuggestor); }
-// public static void chatInputSuggestor(yarnwrap.client.gui.screen.ChatInputSuggestor value, ) { net.minecraft.client.gui.screen.ChatScreen.chatInputSuggestor = value.wrapperContained; }
-
 // public yarnwrap.client.gui.widget.TextFieldWidget chatField() { return new yarnwrap.client.gui.widget.TextFieldWidget(wrapperContained.chatField); }
 // public void chatField(yarnwrap.client.gui.widget.TextFieldWidget value) { wrapperContained.chatField = value.wrapperContained; }
 // public static yarnwrap.client.gui.widget.TextFieldWidget chatField() { return new yarnwrap.client.gui.widget.TextFieldWidget(net.minecraft.client.gui.screen.ChatScreen.chatField); }
@@ -25,6 +15,16 @@ public class ChatScreen { public net.minecraft.client.gui.screen.ChatScreen wrap
 // public void chatLastMessage(java.lang.String value) { wrapperContained.chatLastMessage = value; }
 // public static java.lang.String chatLastMessage() { return net.minecraft.client.gui.screen.ChatScreen.chatLastMessage; }
 // public static void chatLastMessage(java.lang.String value, ) { net.minecraft.client.gui.screen.ChatScreen.chatLastMessage = value; }
+
+// public java.lang.String originalChatText() { return wrapperContained.originalChatText; }
+// public void originalChatText(java.lang.String value) { wrapperContained.originalChatText = value; }
+// public static java.lang.String originalChatText() { return net.minecraft.client.gui.screen.ChatScreen.originalChatText; }
+// public static void originalChatText(java.lang.String value, ) { net.minecraft.client.gui.screen.ChatScreen.originalChatText = value; }
+
+// public yarnwrap.client.gui.screen.ChatInputSuggestor chatInputSuggestor() { return new yarnwrap.client.gui.screen.ChatInputSuggestor(wrapperContained.chatInputSuggestor); }
+// public void chatInputSuggestor(yarnwrap.client.gui.screen.ChatInputSuggestor value) { wrapperContained.chatInputSuggestor = value.wrapperContained; }
+// public static yarnwrap.client.gui.screen.ChatInputSuggestor chatInputSuggestor() { return new yarnwrap.client.gui.screen.ChatInputSuggestor(net.minecraft.client.gui.screen.ChatScreen.chatInputSuggestor); }
+// public static void chatInputSuggestor(yarnwrap.client.gui.screen.ChatInputSuggestor value, ) { net.minecraft.client.gui.screen.ChatScreen.chatInputSuggestor = value.wrapperContained; }
 
 // public double SHIFT_SCROLL_AMOUNT() { return wrapperContained.SHIFT_SCROLL_AMOUNT; }
 // public void SHIFT_SCROLL_AMOUNT(double value) { wrapperContained.SHIFT_SCROLL_AMOUNT = value; }

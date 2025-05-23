@@ -43,8 +43,6 @@ public class TickCommand { public net.minecraft.server.command.TickCommand wrapp
 // public static int executeStopSprint(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.TickCommand.executeStopSprint(source.wrapperContained); }
 // public int method_54708(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_54708(context); }
 // public static int method_54708(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TickCommand.method_54708(context); }
-// public boolean method_54709(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_54709(source.wrapperContained); }
-// public static boolean method_54709(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.TickCommand.method_54709(source.wrapperContained); }
 // public int method_54711(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_54711(context); }
 // public static int method_54711(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TickCommand.method_54711(context); }
 // public int method_54713(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_54713(context); }

@@ -6,6 +6,7 @@ public class AxeItem { public net.minecraft.item.AxeItem wrapperContained; publi
 // public static java.util.Map STRIPPED_BLOCKS() { return net.minecraft.item.AxeItem.STRIPPED_BLOCKS; }
 // public static void STRIPPED_BLOCKS(java.util.Map value, ) { net.minecraft.item.AxeItem.STRIPPED_BLOCKS = value; }
 
+// public AxeItem(yarnwrap.item.ToolMaterial material,float attackDamage,float attackSpeed,Object settings) { this.wrapperContained = new net.minecraft.item.AxeItem(material.wrapperContained,attackDamage,attackSpeed,settings); }
 // public java.util.Optional getStrippedState(yarnwrap.block.BlockState state) { return wrapperContained.getStrippedState(state.wrapperContained); }
 // public static java.util.Optional getStrippedState(yarnwrap.block.BlockState state, ) { return net.minecraft.item.AxeItem.getStrippedState(state.wrapperContained); }
 // public yarnwrap.block.BlockState method_34717(yarnwrap.block.BlockState block) { return new yarnwrap.block.BlockState(wrapperContained.method_34717(block.wrapperContained)); }

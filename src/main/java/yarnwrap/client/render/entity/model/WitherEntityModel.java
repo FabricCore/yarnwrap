@@ -1,11 +1,6 @@
 package yarnwrap.client.render.entity.model;
 public class WitherEntityModel { public net.minecraft.client.render.entity.model.WitherEntityModel wrapperContained; public WitherEntityModel(net.minecraft.client.render.entity.model.WitherEntityModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(wrapperContained.root); }
-// public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WitherEntityModel.root); }
-// public static void root(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WitherEntityModel.root = value.wrapperContained; }
-
 // public yarnwrap.client.model.ModelPart centerHead() { return new yarnwrap.client.model.ModelPart(wrapperContained.centerHead); }
 // public void centerHead(yarnwrap.client.model.ModelPart value) { wrapperContained.centerHead = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart centerHead() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WitherEntityModel.centerHead); }
@@ -61,9 +56,8 @@ public class WitherEntityModel { public net.minecraft.client.render.entity.model
 // public static float TAIL_PITCH_OFFSET() { return net.minecraft.client.render.entity.model.WitherEntityModel.TAIL_PITCH_OFFSET; }
 // public static void TAIL_PITCH_OFFSET(float value, ) { net.minecraft.client.render.entity.model.WitherEntityModel.TAIL_PITCH_OFFSET = value; }
 
-public WitherEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.WitherEntityModel(root.wrapperContained); }
-// public void rotateHead(yarnwrap.entity.boss.WitherEntity entity,yarnwrap.client.model.ModelPart head,int sigma) { wrapperContained.rotateHead(entity.wrapperContained,head.wrapperContained,sigma); }
-// public static void rotateHead(yarnwrap.entity.boss.WitherEntity entity,yarnwrap.client.model.ModelPart head,int sigma, ) { net.minecraft.client.render.entity.model.WitherEntityModel.rotateHead(entity.wrapperContained,head.wrapperContained,sigma); }
+// public void rotateHead(yarnwrap.client.render.entity.state.WitherEntityRenderState head,yarnwrap.client.model.ModelPart sigma) { wrapperContained.rotateHead(head.wrapperContained,sigma.wrapperContained); }
+// public static void rotateHead(yarnwrap.client.render.entity.state.WitherEntityRenderState head,yarnwrap.client.model.ModelPart sigma, ) { net.minecraft.client.render.entity.model.WitherEntityModel.rotateHead(head.wrapperContained,sigma.wrapperContained); }
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData(yarnwrap.client.model.Dilation dilation) { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData(dilation.wrapperContained)); }
 // public static yarnwrap.client.model.TexturedModelData getTexturedModelData(yarnwrap.client.model.Dilation dilation, ) { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.WitherEntityModel.getTexturedModelData(dilation.wrapperContained)); }
 

@@ -10,7 +10,5 @@ public class SaveOffCommand { public net.minecraft.server.dedicated.command.Save
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.dedicated.command.SaveOffCommand.register(dispatcher); }
 // public int method_13557(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13557(context); }
 // public static int method_13557(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.SaveOffCommand.method_13557(context); }
-// public boolean method_13558(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13558(source.wrapperContained); }
-// public static boolean method_13558(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.SaveOffCommand.method_13558(source.wrapperContained); }
 
 }

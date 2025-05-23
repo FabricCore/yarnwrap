@@ -1,16 +1,6 @@
 package yarnwrap.entity.ai.goal;
 public class RevengeGoal { public net.minecraft.entity.ai.goal.RevengeGoal wrapperContained; public RevengeGoal(net.minecraft.entity.ai.goal.RevengeGoal wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.entity.ai.TargetPredicate VALID_AVOIDABLES_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.VALID_AVOIDABLES_PREDICATE); }
-// public void VALID_AVOIDABLES_PREDICATE(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.VALID_AVOIDABLES_PREDICATE = value.wrapperContained; }
-// public static yarnwrap.entity.ai.TargetPredicate VALID_AVOIDABLES_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.RevengeGoal.VALID_AVOIDABLES_PREDICATE); }
-// public static void VALID_AVOIDABLES_PREDICATE(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.RevengeGoal.VALID_AVOIDABLES_PREDICATE = value.wrapperContained; }
-
-// public int BOX_VERTICAL_EXPANSION() { return wrapperContained.BOX_VERTICAL_EXPANSION; }
-// public void BOX_VERTICAL_EXPANSION(int value) { wrapperContained.BOX_VERTICAL_EXPANSION = value; }
-// public static int BOX_VERTICAL_EXPANSION() { return net.minecraft.entity.ai.goal.RevengeGoal.BOX_VERTICAL_EXPANSION; }
-// public static void BOX_VERTICAL_EXPANSION(int value, ) { net.minecraft.entity.ai.goal.RevengeGoal.BOX_VERTICAL_EXPANSION = value; }
-
 // public java.lang.Class[] noRevengeTypes() { return wrapperContained.noRevengeTypes; }
 // public void noRevengeTypes(java.lang.Class[] value) { wrapperContained.noRevengeTypes = value; }
 // public static java.lang.Class[] noRevengeTypes() { return net.minecraft.entity.ai.goal.RevengeGoal.noRevengeTypes; }
@@ -30,6 +20,16 @@ public class RevengeGoal { public net.minecraft.entity.ai.goal.RevengeGoal wrapp
 // public void noHelpTypes(java.lang.Class[] value) { wrapperContained.noHelpTypes = value; }
 // public static java.lang.Class[] noHelpTypes() { return net.minecraft.entity.ai.goal.RevengeGoal.noHelpTypes; }
 // public static void noHelpTypes(java.lang.Class[] value, ) { net.minecraft.entity.ai.goal.RevengeGoal.noHelpTypes = value; }
+
+// public yarnwrap.entity.ai.TargetPredicate VALID_AVOIDABLES_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.VALID_AVOIDABLES_PREDICATE); }
+// public void VALID_AVOIDABLES_PREDICATE(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.VALID_AVOIDABLES_PREDICATE = value.wrapperContained; }
+// public static yarnwrap.entity.ai.TargetPredicate VALID_AVOIDABLES_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.RevengeGoal.VALID_AVOIDABLES_PREDICATE); }
+// public static void VALID_AVOIDABLES_PREDICATE(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.RevengeGoal.VALID_AVOIDABLES_PREDICATE = value.wrapperContained; }
+
+// public int BOX_VERTICAL_EXPANSION() { return wrapperContained.BOX_VERTICAL_EXPANSION; }
+// public void BOX_VERTICAL_EXPANSION(int value) { wrapperContained.BOX_VERTICAL_EXPANSION = value; }
+// public static int BOX_VERTICAL_EXPANSION() { return net.minecraft.entity.ai.goal.RevengeGoal.BOX_VERTICAL_EXPANSION; }
+// public static void BOX_VERTICAL_EXPANSION(int value, ) { net.minecraft.entity.ai.goal.RevengeGoal.BOX_VERTICAL_EXPANSION = value; }
 
 public RevengeGoal(yarnwrap.entity.mob.PathAwareEntity mob,java.lang.Class[] noRevengeTypes) { this.wrapperContained = new net.minecraft.entity.ai.goal.RevengeGoal(mob.wrapperContained,noRevengeTypes); }
 // public void callSameTypeForRevenge() { wrapperContained.callSameTypeForRevenge(); }

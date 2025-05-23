@@ -1,156 +1,128 @@
 package yarnwrap.server.world;
 public class ChunkTicketManager { public net.minecraft.server.world.ChunkTicketManager wrapperContained; public ChunkTicketManager(net.minecraft.server.world.ChunkTicketManager wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public long age() { return wrapperContained.age; }
-// public void age(long value) { wrapperContained.age = value; }
-// public static long age() { return net.minecraft.server.world.ChunkTicketManager.age; }
-// public static void age(long value, ) { net.minecraft.server.world.ChunkTicketManager.age = value; }
-
-// public it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap ticketsByPosition() { return wrapperContained.ticketsByPosition; }
-// public void ticketsByPosition(it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap value) { wrapperContained.ticketsByPosition = value; }
-// public static it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap ticketsByPosition() { return net.minecraft.server.world.ChunkTicketManager.ticketsByPosition; }
-// public static void ticketsByPosition(it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap value, ) { net.minecraft.server.world.ChunkTicketManager.ticketsByPosition = value; }
-
-// public java.util.Set chunkHoldersWithPendingUpdates() { return wrapperContained.chunkHoldersWithPendingUpdates; }
-// public void chunkHoldersWithPendingUpdates(java.util.Set value) { wrapperContained.chunkHoldersWithPendingUpdates = value; }
-// public static java.util.Set chunkHoldersWithPendingUpdates() { return net.minecraft.server.world.ChunkTicketManager.chunkHoldersWithPendingUpdates; }
-// public static void chunkHoldersWithPendingUpdates(java.util.Set value, ) { net.minecraft.server.world.ChunkTicketManager.chunkHoldersWithPendingUpdates = value; }
+// public int DEFAULT_TICKETS_MAP_SIZE() { return wrapperContained.DEFAULT_TICKETS_MAP_SIZE; }
+// public void DEFAULT_TICKETS_MAP_SIZE(int value) { wrapperContained.DEFAULT_TICKETS_MAP_SIZE = value; }
+// public static int DEFAULT_TICKETS_MAP_SIZE() { return net.minecraft.server.world.ChunkTicketManager.DEFAULT_TICKETS_MAP_SIZE; }
+// public static void DEFAULT_TICKETS_MAP_SIZE(int value, ) { net.minecraft.server.world.ChunkTicketManager.DEFAULT_TICKETS_MAP_SIZE = value; }
 
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.server.world.ChunkTicketManager.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.server.world.ChunkTicketManager.LOGGER = value; }
 
-// public int NEARBY_PLAYER_TICKET_LEVEL() { return wrapperContained.NEARBY_PLAYER_TICKET_LEVEL; }
-// public void NEARBY_PLAYER_TICKET_LEVEL(int value) { wrapperContained.NEARBY_PLAYER_TICKET_LEVEL = value; }
-// public static int NEARBY_PLAYER_TICKET_LEVEL() { return net.minecraft.server.world.ChunkTicketManager.NEARBY_PLAYER_TICKET_LEVEL; }
-// public static void NEARBY_PLAYER_TICKET_LEVEL(int value, ) { net.minecraft.server.world.ChunkTicketManager.NEARBY_PLAYER_TICKET_LEVEL = value; }
+// public it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap tickets() { return wrapperContained.tickets; }
+// public void tickets(it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap value) { wrapperContained.tickets = value; }
+// public static it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap tickets() { return net.minecraft.server.world.ChunkTicketManager.tickets; }
+// public static void tickets(it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap value, ) { net.minecraft.server.world.ChunkTicketManager.tickets = value; }
 
-// public it.unimi.dsi.fastutil.longs.Long2ObjectMap playersByChunkPos() { return wrapperContained.playersByChunkPos; }
-// public void playersByChunkPos(it.unimi.dsi.fastutil.longs.Long2ObjectMap value) { wrapperContained.playersByChunkPos = value; }
-// public static it.unimi.dsi.fastutil.longs.Long2ObjectMap playersByChunkPos() { return net.minecraft.server.world.ChunkTicketManager.playersByChunkPos; }
-// public static void playersByChunkPos(it.unimi.dsi.fastutil.longs.Long2ObjectMap value, ) { net.minecraft.server.world.ChunkTicketManager.playersByChunkPos = value; }
+// public it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap savedTickets() { return wrapperContained.savedTickets; }
+// public void savedTickets(it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap value) { wrapperContained.savedTickets = value; }
+// public static it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap savedTickets() { return net.minecraft.server.world.ChunkTicketManager.savedTickets; }
+// public static void savedTickets(it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap value, ) { net.minecraft.server.world.ChunkTicketManager.savedTickets = value; }
 
-// public Object distanceFromNearestPlayerTracker() { return wrapperContained.distanceFromNearestPlayerTracker; }
-// // public void distanceFromNearestPlayerTracker(Object value) { wrapperContained.distanceFromNearestPlayerTracker = value; }
-// // public static Object distanceFromNearestPlayerTracker() { return net.minecraft.server.world.ChunkTicketManager.distanceFromNearestPlayerTracker; }
-// // public static void distanceFromNearestPlayerTracker(Object value, ) { net.minecraft.server.world.ChunkTicketManager.distanceFromNearestPlayerTracker = value; }
+// public it.unimi.dsi.fastutil.longs.LongSet forcedChunks() { return wrapperContained.forcedChunks; }
+// public void forcedChunks(it.unimi.dsi.fastutil.longs.LongSet value) { wrapperContained.forcedChunks = value; }
+// public static it.unimi.dsi.fastutil.longs.LongSet forcedChunks() { return net.minecraft.server.world.ChunkTicketManager.forcedChunks; }
+// public static void forcedChunks(it.unimi.dsi.fastutil.longs.LongSet value, ) { net.minecraft.server.world.ChunkTicketManager.forcedChunks = value; }
 
-// public Object nearbyChunkTicketUpdater() { return wrapperContained.nearbyChunkTicketUpdater; }
-// // public void nearbyChunkTicketUpdater(Object value) { wrapperContained.nearbyChunkTicketUpdater = value; }
-// // public static Object nearbyChunkTicketUpdater() { return net.minecraft.server.world.ChunkTicketManager.nearbyChunkTicketUpdater; }
-// // public static void nearbyChunkTicketUpdater(Object value, ) { net.minecraft.server.world.ChunkTicketManager.nearbyChunkTicketUpdater = value; }
+// public Object loadingLevelUpdater() { return wrapperContained.loadingLevelUpdater; }
+// // public void loadingLevelUpdater(Object value) { wrapperContained.loadingLevelUpdater = value; }
+// // public static Object loadingLevelUpdater() { return net.minecraft.server.world.ChunkTicketManager.loadingLevelUpdater; }
+// // public static void loadingLevelUpdater(Object value, ) { net.minecraft.server.world.ChunkTicketManager.loadingLevelUpdater = value; }
 
-// public yarnwrap.server.world.ChunkTaskPrioritySystem levelUpdateListener() { return new yarnwrap.server.world.ChunkTaskPrioritySystem(wrapperContained.levelUpdateListener); }
-// public void levelUpdateListener(yarnwrap.server.world.ChunkTaskPrioritySystem value) { wrapperContained.levelUpdateListener = value.wrapperContained; }
-// public static yarnwrap.server.world.ChunkTaskPrioritySystem levelUpdateListener() { return new yarnwrap.server.world.ChunkTaskPrioritySystem(net.minecraft.server.world.ChunkTicketManager.levelUpdateListener); }
-// public static void levelUpdateListener(yarnwrap.server.world.ChunkTaskPrioritySystem value, ) { net.minecraft.server.world.ChunkTicketManager.levelUpdateListener = value.wrapperContained; }
+// public Object simulationLevelUpdater() { return wrapperContained.simulationLevelUpdater; }
+// // public void simulationLevelUpdater(Object value) { wrapperContained.simulationLevelUpdater = value; }
+// // public static Object simulationLevelUpdater() { return net.minecraft.server.world.ChunkTicketManager.simulationLevelUpdater; }
+// // public static void simulationLevelUpdater(Object value, ) { net.minecraft.server.world.ChunkTicketManager.simulationLevelUpdater = value; }
 
-// public yarnwrap.util.thread.MessageListener playerTicketThrottler() { return new yarnwrap.util.thread.MessageListener(wrapperContained.playerTicketThrottler); }
-// public void playerTicketThrottler(yarnwrap.util.thread.MessageListener value) { wrapperContained.playerTicketThrottler = value.wrapperContained; }
-// public static yarnwrap.util.thread.MessageListener playerTicketThrottler() { return new yarnwrap.util.thread.MessageListener(net.minecraft.server.world.ChunkTicketManager.playerTicketThrottler); }
-// public static void playerTicketThrottler(yarnwrap.util.thread.MessageListener value, ) { net.minecraft.server.world.ChunkTicketManager.playerTicketThrottler = value.wrapperContained; }
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.server.world.ChunkTicketManager.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.server.world.ChunkTicketManager.CODEC = value; }
 
-// public yarnwrap.util.thread.MessageListener playerTicketThrottlerUnblocker() { return new yarnwrap.util.thread.MessageListener(wrapperContained.playerTicketThrottlerUnblocker); }
-// public void playerTicketThrottlerUnblocker(yarnwrap.util.thread.MessageListener value) { wrapperContained.playerTicketThrottlerUnblocker = value.wrapperContained; }
-// public static yarnwrap.util.thread.MessageListener playerTicketThrottlerUnblocker() { return new yarnwrap.util.thread.MessageListener(net.minecraft.server.world.ChunkTicketManager.playerTicketThrottlerUnblocker); }
-// public static void playerTicketThrottlerUnblocker(yarnwrap.util.thread.MessageListener value, ) { net.minecraft.server.world.ChunkTicketManager.playerTicketThrottlerUnblocker = value.wrapperContained; }
+// public yarnwrap.world.PersistentStateType STATE_TYPE() { return new yarnwrap.world.PersistentStateType(wrapperContained.STATE_TYPE); }
+// public void STATE_TYPE(yarnwrap.world.PersistentStateType value) { wrapperContained.STATE_TYPE = value.wrapperContained; }
+public static yarnwrap.world.PersistentStateType STATE_TYPE() { return new yarnwrap.world.PersistentStateType(net.minecraft.server.world.ChunkTicketManager.STATE_TYPE); }
+// public static void STATE_TYPE(yarnwrap.world.PersistentStateType value, ) { net.minecraft.server.world.ChunkTicketManager.STATE_TYPE = value.wrapperContained; }
 
-// public it.unimi.dsi.fastutil.longs.LongSet freshPlayerTicketPositions() { return wrapperContained.freshPlayerTicketPositions; }
-// public void freshPlayerTicketPositions(it.unimi.dsi.fastutil.longs.LongSet value) { wrapperContained.freshPlayerTicketPositions = value; }
-// public static it.unimi.dsi.fastutil.longs.LongSet freshPlayerTicketPositions() { return net.minecraft.server.world.ChunkTicketManager.freshPlayerTicketPositions; }
-// public static void freshPlayerTicketPositions(it.unimi.dsi.fastutil.longs.LongSet value, ) { net.minecraft.server.world.ChunkTicketManager.freshPlayerTicketPositions = value; }
+// public com.mojang.serialization.Codec TICKET_POS_CODEC() { return wrapperContained.TICKET_POS_CODEC; }
+// public void TICKET_POS_CODEC(com.mojang.serialization.Codec value) { wrapperContained.TICKET_POS_CODEC = value; }
+// public static com.mojang.serialization.Codec TICKET_POS_CODEC() { return net.minecraft.server.world.ChunkTicketManager.TICKET_POS_CODEC; }
+// public static void TICKET_POS_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.server.world.ChunkTicketManager.TICKET_POS_CODEC = value; }
 
-// public java.util.concurrent.Executor mainThreadExecutor() { return wrapperContained.mainThreadExecutor; }
-// public void mainThreadExecutor(java.util.concurrent.Executor value) { wrapperContained.mainThreadExecutor = value; }
-// public static java.util.concurrent.Executor mainThreadExecutor() { return net.minecraft.server.world.ChunkTicketManager.mainThreadExecutor; }
-// public static void mainThreadExecutor(java.util.concurrent.Executor value, ) { net.minecraft.server.world.ChunkTicketManager.mainThreadExecutor = value; }
-
-// public Object distanceFromTicketTracker() { return wrapperContained.distanceFromTicketTracker; }
-// // public void distanceFromTicketTracker(Object value) { wrapperContained.distanceFromTicketTracker = value; }
-// // public static Object distanceFromTicketTracker() { return net.minecraft.server.world.ChunkTicketManager.distanceFromTicketTracker; }
-// // public static void distanceFromTicketTracker(Object value, ) { net.minecraft.server.world.ChunkTicketManager.distanceFromTicketTracker = value; }
-
-// public yarnwrap.world.SimulationDistanceLevelPropagator simulationDistanceTracker() { return new yarnwrap.world.SimulationDistanceLevelPropagator(wrapperContained.simulationDistanceTracker); }
-// public void simulationDistanceTracker(yarnwrap.world.SimulationDistanceLevelPropagator value) { wrapperContained.simulationDistanceTracker = value.wrapperContained; }
-// public static yarnwrap.world.SimulationDistanceLevelPropagator simulationDistanceTracker() { return new yarnwrap.world.SimulationDistanceLevelPropagator(net.minecraft.server.world.ChunkTicketManager.simulationDistanceTracker); }
-// public static void simulationDistanceTracker(yarnwrap.world.SimulationDistanceLevelPropagator value, ) { net.minecraft.server.world.ChunkTicketManager.simulationDistanceTracker = value.wrapperContained; }
-
-// public int simulationDistance() { return wrapperContained.simulationDistance; }
-// public void simulationDistance(int value) { wrapperContained.simulationDistance = value; }
-// public static int simulationDistance() { return net.minecraft.server.world.ChunkTicketManager.simulationDistance; }
-// public static void simulationDistance(int value, ) { net.minecraft.server.world.ChunkTicketManager.simulationDistance = value; }
-
-// public ChunkTicketManager(java.util.concurrent.Executor workerExecutor,java.util.concurrent.Executor mainThreadExecutor) { this.wrapperContained = new net.minecraft.server.world.ChunkTicketManager(workerExecutor,mainThreadExecutor); }
-// public boolean isUnloaded(long pos) { return wrapperContained.isUnloaded(pos); }
-// public static boolean isUnloaded(long pos, ) { return net.minecraft.server.world.ChunkTicketManager.isUnloaded(pos); }
-// public void setChunkForced(yarnwrap.util.math.ChunkPos pos,boolean forced) { wrapperContained.setChunkForced(pos.wrapperContained,forced); }
-// public static void setChunkForced(yarnwrap.util.math.ChunkPos pos,boolean forced, ) { net.minecraft.server.world.ChunkTicketManager.setChunkForced(pos.wrapperContained,forced); }
-// public yarnwrap.server.world.ChunkHolder getChunkHolder(long pos) { return new yarnwrap.server.world.ChunkHolder(wrapperContained.getChunkHolder(pos)); }
-// public static yarnwrap.server.world.ChunkHolder getChunkHolder(long pos, ) { return new yarnwrap.server.world.ChunkHolder(net.minecraft.server.world.ChunkTicketManager.getChunkHolder(pos)); }
-// public boolean method_14040(yarnwrap.server.world.ChunkTicket ticket) { return wrapperContained.method_14040(ticket.wrapperContained); }
-// public static boolean method_14040(yarnwrap.server.world.ChunkTicket ticket, ) { return net.minecraft.server.world.ChunkTicketManager.method_14040(ticket.wrapperContained); }
-// public yarnwrap.util.collection.SortedArraySet method_14041(long pos) { return new yarnwrap.util.collection.SortedArraySet(wrapperContained.method_14041(pos)); }
-// public static yarnwrap.util.collection.SortedArraySet method_14041(long pos, ) { return new yarnwrap.util.collection.SortedArraySet(net.minecraft.server.world.ChunkTicketManager.method_14041(pos)); }
-// public void addTicket(long position,yarnwrap.server.world.ChunkTicket ticket) { wrapperContained.addTicket(position,ticket.wrapperContained); }
-// public static void addTicket(long position,yarnwrap.server.world.ChunkTicket ticket, ) { net.minecraft.server.world.ChunkTicketManager.addTicket(position,ticket.wrapperContained); }
-// public void purge() { wrapperContained.purge(); }
-// public static void purge() { net.minecraft.server.world.ChunkTicketManager.purge(); }
-// public int getLevel(yarnwrap.util.collection.SortedArraySet tickets) { return wrapperContained.getLevel(tickets.wrapperContained); }
-// public static int getLevel(yarnwrap.util.collection.SortedArraySet tickets, ) { return net.minecraft.server.world.ChunkTicketManager.getLevel(tickets.wrapperContained); }
-public void handleChunkEnter(yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.handleChunkEnter(pos.wrapperContained,player.wrapperContained); }
-// public static void handleChunkEnter(yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.server.world.ChunkTicketManager.handleChunkEnter(pos.wrapperContained,player.wrapperContained); }
-// public void setWatchDistance(int viewDistance) { wrapperContained.setWatchDistance(viewDistance); }
-// public static void setWatchDistance(int viewDistance, ) { net.minecraft.server.world.ChunkTicketManager.setWatchDistance(viewDistance); }
-// public yarnwrap.util.collection.SortedArraySet getTicketSet(long position) { return new yarnwrap.util.collection.SortedArraySet(wrapperContained.getTicketSet(position)); }
-// public static yarnwrap.util.collection.SortedArraySet getTicketSet(long position, ) { return new yarnwrap.util.collection.SortedArraySet(net.minecraft.server.world.ChunkTicketManager.getTicketSet(position)); }
-public void handleChunkLeave(yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.handleChunkLeave(pos.wrapperContained,player.wrapperContained); }
-// public static void handleChunkLeave(yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.server.world.ChunkTicketManager.handleChunkLeave(pos.wrapperContained,player.wrapperContained); }
-public int getTickedChunkCount() { return wrapperContained.getTickedChunkCount(); }
-// public static int getTickedChunkCount() { return net.minecraft.server.world.ChunkTicketManager.getTickedChunkCount(); }
-// public yarnwrap.server.world.ChunkHolder setLevel(long pos,int level,yarnwrap.server.world.ChunkHolder holder) { return new yarnwrap.server.world.ChunkHolder(wrapperContained.setLevel(pos,level,holder.wrapperContained)); }
-// public static yarnwrap.server.world.ChunkHolder setLevel(long pos,int level,yarnwrap.server.world.ChunkHolder holder, ) { return new yarnwrap.server.world.ChunkHolder(net.minecraft.server.world.ChunkTicketManager.setLevel(pos,level,holder.wrapperContained)); }
-// public void method_15891(yarnwrap.server.world.ServerChunkLoadingManager holder) { wrapperContained.method_15891(holder.wrapperContained); }
-// public static void method_15891(yarnwrap.server.world.ServerChunkLoadingManager holder, ) { net.minecraft.server.world.ChunkTicketManager.method_15891(holder.wrapperContained); }
-public boolean update(yarnwrap.server.world.ServerChunkLoadingManager chunkLoadingManager) { return wrapperContained.update(chunkLoadingManager.wrapperContained); }
-// public static boolean update(yarnwrap.server.world.ServerChunkLoadingManager chunkLoadingManager, ) { return net.minecraft.server.world.ChunkTicketManager.update(chunkLoadingManager.wrapperContained); }
-public void addTicketWithLevel(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int level,java.lang.Object argument) { wrapperContained.addTicketWithLevel(type.wrapperContained,pos.wrapperContained,level,argument); }
-// public static void addTicketWithLevel(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int level,java.lang.Object argument, ) { net.minecraft.server.world.ChunkTicketManager.addTicketWithLevel(type.wrapperContained,pos.wrapperContained,level,argument); }
-public void addTicket(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int radius,java.lang.Object argument) { wrapperContained.addTicket(type.wrapperContained,pos.wrapperContained,radius,argument); }
-// public static void addTicket(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int radius,java.lang.Object argument, ) { net.minecraft.server.world.ChunkTicketManager.addTicket(type.wrapperContained,pos.wrapperContained,radius,argument); }
-public void removeTicket(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int radius,java.lang.Object argument) { wrapperContained.removeTicket(type.wrapperContained,pos.wrapperContained,radius,argument); }
-// public static void removeTicket(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int radius,java.lang.Object argument, ) { net.minecraft.server.world.ChunkTicketManager.removeTicket(type.wrapperContained,pos.wrapperContained,radius,argument); }
-// public void method_17642(long optionalChunk) { wrapperContained.method_17642(optionalChunk); }
-// public static void method_17642(long optionalChunk, ) { net.minecraft.server.world.ChunkTicketManager.method_17642(optionalChunk); }
-// public void removeTicket(long pos,yarnwrap.server.world.ChunkTicket ticket) { wrapperContained.removeTicket(pos,ticket.wrapperContained); }
-// public static void removeTicket(long pos,yarnwrap.server.world.ChunkTicket ticket, ) { net.minecraft.server.world.ChunkTicketManager.removeTicket(pos,ticket.wrapperContained); }
-// public it.unimi.dsi.fastutil.objects.ObjectSet method_17655(long sectionPos) { return wrapperContained.method_17655(sectionPos); }
-// public static it.unimi.dsi.fastutil.objects.ObjectSet method_17655(long sectionPos, ) { return net.minecraft.server.world.ChunkTicketManager.method_17655(sectionPos); }
-public void removeTicketWithLevel(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int level,java.lang.Object argument) { wrapperContained.removeTicketWithLevel(type.wrapperContained,pos.wrapperContained,level,argument); }
-// public static void removeTicketWithLevel(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int level,java.lang.Object argument, ) { net.minecraft.server.world.ChunkTicketManager.removeTicketWithLevel(type.wrapperContained,pos.wrapperContained,level,argument); }
-public boolean shouldTick(long chunkPos) { return wrapperContained.shouldTick(chunkPos); }
-// public static boolean shouldTick(long chunkPos, ) { return net.minecraft.server.world.ChunkTicketManager.shouldTick(chunkPos); }
-// public java.lang.String getTicket(long pos) { return wrapperContained.getTicket(pos); }
-// public static java.lang.String getTicket(long pos, ) { return net.minecraft.server.world.ChunkTicketManager.getTicket(pos); }
-public java.lang.String toDumpString() { return wrapperContained.toDumpString(); }
-// public static java.lang.String toDumpString() { return net.minecraft.server.world.ChunkTicketManager.toDumpString(); }
-// public void dump(java.lang.String path) { wrapperContained.dump(path); }
-// public static void dump(java.lang.String path, ) { net.minecraft.server.world.ChunkTicketManager.dump(path); }
-public void setSimulationDistance(int simulationDistance) { wrapperContained.setSimulationDistance(simulationDistance); }
-// public static void setSimulationDistance(int simulationDistance, ) { net.minecraft.server.world.ChunkTicketManager.setSimulationDistance(simulationDistance); }
-public boolean shouldTickEntities(long chunkPos) { return wrapperContained.shouldTickEntities(chunkPos); }
-// public static boolean shouldTickEntities(long chunkPos, ) { return net.minecraft.server.world.ChunkTicketManager.shouldTickEntities(chunkPos); }
-// public yarnwrap.world.SimulationDistanceLevelPropagator getSimulationDistanceTracker() { return new yarnwrap.world.SimulationDistanceLevelPropagator(wrapperContained.getSimulationDistanceTracker()); }
-// public static yarnwrap.world.SimulationDistanceLevelPropagator getSimulationDistanceTracker() { return new yarnwrap.world.SimulationDistanceLevelPropagator(net.minecraft.server.world.ChunkTicketManager.getSimulationDistanceTracker()); }
-public boolean shouldTickBlocks(long chunkPos) { return wrapperContained.shouldTickBlocks(chunkPos); }
-// public static boolean shouldTickBlocks(long chunkPos, ) { return net.minecraft.server.world.ChunkTicketManager.shouldTickBlocks(chunkPos); }
-// public int getPlayerSimulationLevel() { return wrapperContained.getPlayerSimulationLevel(); }
-// public static int getPlayerSimulationLevel() { return net.minecraft.server.world.ChunkTicketManager.getPlayerSimulationLevel(); }
-public void removePersistentTickets() { wrapperContained.removePersistentTickets(); }
-// public static void removePersistentTickets() { net.minecraft.server.world.ChunkTicketManager.removePersistentTickets(); }
-public boolean shouldDelayShutdown() { return wrapperContained.shouldDelayShutdown(); }
-// public static boolean shouldDelayShutdown() { return net.minecraft.server.world.ChunkTicketManager.shouldDelayShutdown(); }
-// public void method_60451(yarnwrap.server.world.ServerChunkLoadingManager holder) { wrapperContained.method_60451(holder.wrapperContained); }
-// public static void method_60451(yarnwrap.server.world.ServerChunkLoadingManager holder, ) { net.minecraft.server.world.ChunkTicketManager.method_60451(holder.wrapperContained); }
+// public ChunkTicketManager(it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap tickets,it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap savedTickets) { this.wrapperContained = new net.minecraft.server.world.ChunkTicketManager(tickets,savedTickets); }
+public void updateLevel(int level,yarnwrap.server.world.ChunkTicketType type) { wrapperContained.updateLevel(level,type.wrapperContained); }
+// public static void updateLevel(int level,yarnwrap.server.world.ChunkTicketType type, ) { net.minecraft.server.world.ChunkTicketManager.updateLevel(level,type.wrapperContained); }
+public java.util.List getTickets(long pos) { return wrapperContained.getTickets(pos); }
+// public static java.util.List getTickets(long pos, ) { return net.minecraft.server.world.ChunkTicketManager.getTickets(pos); }
+public boolean addTicket(long pos,yarnwrap.server.world.ChunkTicket ticket) { return wrapperContained.addTicket(pos,ticket.wrapperContained); }
+// public static boolean addTicket(long pos,yarnwrap.server.world.ChunkTicket ticket, ) { return net.minecraft.server.world.ChunkTicketManager.addTicket(pos,ticket.wrapperContained); }
+public int getLevel(long pos,boolean forSimulation) { return wrapperContained.getLevel(pos,forSimulation); }
+// public static int getLevel(long pos,boolean forSimulation, ) { return net.minecraft.server.world.ChunkTicketManager.getLevel(pos,forSimulation); }
+// public boolean method_66355(yarnwrap.server.world.ChunkTicket ticket) { return wrapperContained.method_66355(ticket.wrapperContained); }
+// public static boolean method_66355(yarnwrap.server.world.ChunkTicket ticket, ) { return net.minecraft.server.world.ChunkTicketManager.method_66355(ticket.wrapperContained); }
+// public boolean ticketsEqual(yarnwrap.server.world.ChunkTicket a,yarnwrap.server.world.ChunkTicket b) { return wrapperContained.ticketsEqual(a.wrapperContained,b.wrapperContained); }
+// public static boolean ticketsEqual(yarnwrap.server.world.ChunkTicket a,yarnwrap.server.world.ChunkTicket b, ) { return net.minecraft.server.world.ChunkTicketManager.ticketsEqual(a.wrapperContained,b.wrapperContained); }
+public void addTicket(yarnwrap.server.world.ChunkTicket ticket,yarnwrap.util.math.ChunkPos pos) { wrapperContained.addTicket(ticket.wrapperContained,pos.wrapperContained); }
+// public static void addTicket(yarnwrap.server.world.ChunkTicket ticket,yarnwrap.util.math.ChunkPos pos, ) { net.minecraft.server.world.ChunkTicketManager.addTicket(ticket.wrapperContained,pos.wrapperContained); }
+public void addTicket(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int radius) { wrapperContained.addTicket(type.wrapperContained,pos.wrapperContained,radius); }
+// public static void addTicket(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int radius, ) { net.minecraft.server.world.ChunkTicketManager.addTicket(type.wrapperContained,pos.wrapperContained,radius); }
+public boolean setChunkForced(yarnwrap.util.math.ChunkPos pos,boolean forced) { return wrapperContained.setChunkForced(pos.wrapperContained,forced); }
+// public static boolean setChunkForced(yarnwrap.util.math.ChunkPos pos,boolean forced, ) { return net.minecraft.server.world.ChunkTicketManager.setChunkForced(pos.wrapperContained,forced); }
+// public void setLoadingLevelUpdater(Object loadingLevelUpdater) { wrapperContained.setLoadingLevelUpdater(loadingLevelUpdater); }
+// public static void setLoadingLevelUpdater(Object loadingLevelUpdater, ) { net.minecraft.server.world.ChunkTicketManager.setLoadingLevelUpdater(loadingLevelUpdater); }
+// public java.util.List method_66361(Object pos) { return wrapperContained.method_66361(pos); }
+// public static java.util.List method_66361(Object pos, ) { return net.minecraft.server.world.ChunkTicketManager.method_66361(pos); }
+// public int getLevel(java.util.List tickets,boolean forSimulation) { return wrapperContained.getLevel(tickets,forSimulation); }
+// public static int getLevel(java.util.List tickets,boolean forSimulation, ) { return net.minecraft.server.world.ChunkTicketManager.getLevel(tickets,forSimulation); }
+// public it.unimi.dsi.fastutil.longs.LongSet getAllChunksMatching(java.util.function.Predicate predicate) { return wrapperContained.getAllChunksMatching(predicate); }
+// public static it.unimi.dsi.fastutil.longs.LongSet getAllChunksMatching(java.util.function.Predicate predicate, ) { return net.minecraft.server.world.ChunkTicketManager.getAllChunksMatching(predicate); }
+public void removeTicketsIf(java.util.function.Predicate predicate,it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap transferTo) { wrapperContained.removeTicketsIf(predicate,transferTo); }
+// public static void removeTicketsIf(java.util.function.Predicate predicate,it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap transferTo, ) { net.minecraft.server.world.ChunkTicketManager.removeTicketsIf(predicate,transferTo); }
+public void promoteToRealTickets() { wrapperContained.promoteToRealTickets(); }
+// public static void promoteToRealTickets() { net.minecraft.server.world.ChunkTicketManager.promoteToRealTickets(); }
+// public java.util.List getTicketsMutable(long pos) { return wrapperContained.getTicketsMutable(pos); }
+// public static java.util.List getTicketsMutable(long pos, ) { return net.minecraft.server.world.ChunkTicketManager.getTicketsMutable(pos); }
+public boolean removeTicket(long pos,yarnwrap.server.world.ChunkTicket ticket) { return wrapperContained.removeTicket(pos,ticket.wrapperContained); }
+// public static boolean removeTicket(long pos,yarnwrap.server.world.ChunkTicket ticket, ) { return net.minecraft.server.world.ChunkTicketManager.removeTicket(pos,ticket.wrapperContained); }
+public java.lang.String getDebugString(long pos,boolean forSimulation) { return wrapperContained.getDebugString(pos,forSimulation); }
+// public static java.lang.String getDebugString(long pos,boolean forSimulation, ) { return net.minecraft.server.world.ChunkTicketManager.getDebugString(pos,forSimulation); }
+// public boolean method_66371(yarnwrap.server.world.ChunkTicket ticket) { return wrapperContained.method_66371(ticket.wrapperContained); }
+// public static boolean method_66371(yarnwrap.server.world.ChunkTicket ticket, ) { return net.minecraft.server.world.ChunkTicketManager.method_66371(ticket.wrapperContained); }
+public void removeTicket(yarnwrap.server.world.ChunkTicket ticket,yarnwrap.util.math.ChunkPos pos) { wrapperContained.removeTicket(ticket.wrapperContained,pos.wrapperContained); }
+// public static void removeTicket(yarnwrap.server.world.ChunkTicket ticket,yarnwrap.util.math.ChunkPos pos, ) { net.minecraft.server.world.ChunkTicketManager.removeTicket(ticket.wrapperContained,pos.wrapperContained); }
+public void removeTicket(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int radius) { wrapperContained.removeTicket(type.wrapperContained,pos.wrapperContained,radius); }
+// public static void removeTicket(yarnwrap.server.world.ChunkTicketType type,yarnwrap.util.math.ChunkPos pos,int radius, ) { net.minecraft.server.world.ChunkTicketManager.removeTicket(type.wrapperContained,pos.wrapperContained,radius); }
+// public void setSimulationLevelUpdater(Object simulationLevelUpdater) { wrapperContained.setSimulationLevelUpdater(simulationLevelUpdater); }
+// public static void setSimulationLevelUpdater(Object simulationLevelUpdater, ) { net.minecraft.server.world.ChunkTicketManager.setSimulationLevelUpdater(simulationLevelUpdater); }
+// public yarnwrap.server.world.ChunkTicket getActiveTicket(java.util.List tickets,boolean forSimulation) { return new yarnwrap.server.world.ChunkTicket(wrapperContained.getActiveTicket(tickets,forSimulation)); }
+// public static yarnwrap.server.world.ChunkTicket getActiveTicket(java.util.List tickets,boolean forSimulation, ) { return new yarnwrap.server.world.ChunkTicket(net.minecraft.server.world.ChunkTicketManager.getActiveTicket(tickets,forSimulation)); }
+public boolean hasTickets() { return wrapperContained.hasTickets(); }
+// public static boolean hasTickets() { return net.minecraft.server.world.ChunkTicketManager.hasTickets(); }
+// public java.util.List method_66379(long chunkPos) { return wrapperContained.method_66379(chunkPos); }
+// public static java.util.List method_66379(long chunkPos, ) { return net.minecraft.server.world.ChunkTicketManager.method_66379(chunkPos); }
+// public boolean method_66380(yarnwrap.server.world.ChunkTicket ticket) { return wrapperContained.method_66380(ticket.wrapperContained); }
+// public static boolean method_66380(yarnwrap.server.world.ChunkTicket ticket, ) { return net.minecraft.server.world.ChunkTicketManager.method_66380(ticket.wrapperContained); }
+public void tick() { wrapperContained.tick(); }
+// public static void tick() { net.minecraft.server.world.ChunkTicketManager.tick(); }
+public void shutdown() { wrapperContained.shutdown(); }
+// public static void shutdown() { net.minecraft.server.world.ChunkTicketManager.shutdown(); }
+public it.unimi.dsi.fastutil.longs.LongSet getForcedChunks() { return wrapperContained.getForcedChunks(); }
+// public static it.unimi.dsi.fastutil.longs.LongSet getForcedChunks() { return net.minecraft.server.world.ChunkTicketManager.getForcedChunks(); }
+// public void recomputeForcedChunks() { wrapperContained.recomputeForcedChunks(); }
+// public static void recomputeForcedChunks() { net.minecraft.server.world.ChunkTicketManager.recomputeForcedChunks(); }
+// public com.mojang.datafixers.kinds.App method_67394(Object instance) { return wrapperContained.method_67394(instance); }
+// public static com.mojang.datafixers.kinds.App method_67394(Object instance, ) { return net.minecraft.server.world.ChunkTicketManager.method_67394(instance); }
+// public yarnwrap.server.world.ChunkTicketManager create(java.util.List tickets) { return new yarnwrap.server.world.ChunkTicketManager(wrapperContained.create(tickets)); }
+// public static yarnwrap.server.world.ChunkTicketManager create(java.util.List tickets, ) { return new yarnwrap.server.world.ChunkTicketManager(net.minecraft.server.world.ChunkTicketManager.create(tickets)); }
+// public void method_67396(java.util.List pos,yarnwrap.util.math.ChunkPos ticket) { wrapperContained.method_67396(pos,ticket.wrapperContained); }
+// public static void method_67396(java.util.List pos,yarnwrap.util.math.ChunkPos ticket, ) { net.minecraft.server.world.ChunkTicketManager.method_67396(pos,ticket.wrapperContained); }
+// public void forEachTicket(java.util.function.BiConsumer ticketConsumer) { wrapperContained.forEachTicket(ticketConsumer); }
+// public static void forEachTicket(java.util.function.BiConsumer ticketConsumer, ) { net.minecraft.server.world.ChunkTicketManager.forEachTicket(ticketConsumer); }
+// public void forEachTicket(java.util.function.BiConsumer ticketConsumer,it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap tickets) { wrapperContained.forEachTicket(ticketConsumer,tickets); }
+// public static void forEachTicket(java.util.function.BiConsumer ticketConsumer,it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap tickets, ) { net.minecraft.server.world.ChunkTicketManager.forEachTicket(ticketConsumer,tickets); }
+// public java.util.List getTickets() { return wrapperContained.getTickets(); }
+// public static java.util.List getTickets() { return net.minecraft.server.world.ChunkTicketManager.getTickets(); }
 
 }

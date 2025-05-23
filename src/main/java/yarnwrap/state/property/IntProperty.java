@@ -1,10 +1,10 @@
 package yarnwrap.state.property;
 public class IntProperty { public net.minecraft.state.property.IntProperty wrapperContained; public IntProperty(net.minecraft.state.property.IntProperty wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public com.google.common.collect.ImmutableSet values() { return wrapperContained.values; }
-// public void values(com.google.common.collect.ImmutableSet value) { wrapperContained.values = value; }
-// public static com.google.common.collect.ImmutableSet values() { return net.minecraft.state.property.IntProperty.values; }
-// public static void values(com.google.common.collect.ImmutableSet value, ) { net.minecraft.state.property.IntProperty.values = value; }
+// public it.unimi.dsi.fastutil.ints.IntImmutableList values() { return wrapperContained.values; }
+// public void values(it.unimi.dsi.fastutil.ints.IntImmutableList value) { wrapperContained.values = value; }
+// public static it.unimi.dsi.fastutil.ints.IntImmutableList values() { return net.minecraft.state.property.IntProperty.values; }
+// public static void values(it.unimi.dsi.fastutil.ints.IntImmutableList value, ) { net.minecraft.state.property.IntProperty.values = value; }
 
 // public int min() { return wrapperContained.min; }
 // public void min(int value) { wrapperContained.min = value; }

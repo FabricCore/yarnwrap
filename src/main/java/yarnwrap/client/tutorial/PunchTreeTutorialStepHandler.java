@@ -1,11 +1,6 @@
 package yarnwrap.client.tutorial;
 public class PunchTreeTutorialStepHandler { public net.minecraft.client.tutorial.PunchTreeTutorialStepHandler wrapperContained; public PunchTreeTutorialStepHandler(net.minecraft.client.tutorial.PunchTreeTutorialStepHandler wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int DELAY() { return wrapperContained.DELAY; }
-// public void DELAY(int value) { wrapperContained.DELAY = value; }
-// public static int DELAY() { return net.minecraft.client.tutorial.PunchTreeTutorialStepHandler.DELAY; }
-// public static void DELAY(int value, ) { net.minecraft.client.tutorial.PunchTreeTutorialStepHandler.DELAY = value; }
-
 // public yarnwrap.client.tutorial.TutorialManager manager() { return new yarnwrap.client.tutorial.TutorialManager(wrapperContained.manager); }
 // public void manager(yarnwrap.client.tutorial.TutorialManager value) { wrapperContained.manager = value.wrapperContained; }
 // public static yarnwrap.client.tutorial.TutorialManager manager() { return new yarnwrap.client.tutorial.TutorialManager(net.minecraft.client.tutorial.PunchTreeTutorialStepHandler.manager); }
@@ -35,6 +30,11 @@ public class PunchTreeTutorialStepHandler { public net.minecraft.client.tutorial
 // public void DESCRIPTION(yarnwrap.text.Text value) { wrapperContained.DESCRIPTION = value.wrapperContained; }
 // public static yarnwrap.text.Text DESCRIPTION() { return new yarnwrap.text.Text(net.minecraft.client.tutorial.PunchTreeTutorialStepHandler.DESCRIPTION); }
 // public static void DESCRIPTION(yarnwrap.text.Text value, ) { net.minecraft.client.tutorial.PunchTreeTutorialStepHandler.DESCRIPTION = value.wrapperContained; }
+
+// public int DELAY() { return wrapperContained.DELAY; }
+// public void DELAY(int value) { wrapperContained.DELAY = value; }
+// public static int DELAY() { return net.minecraft.client.tutorial.PunchTreeTutorialStepHandler.DELAY; }
+// public static void DELAY(int value, ) { net.minecraft.client.tutorial.PunchTreeTutorialStepHandler.DELAY = value; }
 
 public PunchTreeTutorialStepHandler(yarnwrap.client.tutorial.TutorialManager manager) { this.wrapperContained = new net.minecraft.client.tutorial.PunchTreeTutorialStepHandler(manager.wrapperContained); }
 

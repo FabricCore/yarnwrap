@@ -25,9 +25,15 @@ public class MatrixUtil { public net.minecraft.util.math.MatrixUtil wrapperConta
 // public static org.joml.Quaternionf applyJacobiIterations(org.joml.Matrix3f AtA,int numJacobiIterations, ) { return net.minecraft.util.math.MatrixUtil.applyJacobiIterations(AtA,numJacobiIterations); }
 // public void conjugate(org.joml.Matrix3f X,org.joml.Matrix3f A) { wrapperContained.conjugate(X,A); }
 // public static void conjugate(org.joml.Matrix3f X,org.joml.Matrix3f A, ) { net.minecraft.util.math.MatrixUtil.conjugate(X,A); }
-// public boolean isTranslation(org.joml.Matrix4f matrix) { return wrapperContained.isTranslation(matrix); }
-// public static boolean isTranslation(org.joml.Matrix4f matrix, ) { return net.minecraft.util.math.MatrixUtil.isTranslation(matrix); }
-// public boolean isOrthonormal(org.joml.Matrix4f matrix) { return wrapperContained.isOrthonormal(matrix); }
-// public static boolean isOrthonormal(org.joml.Matrix4f matrix, ) { return net.minecraft.util.math.MatrixUtil.isOrthonormal(matrix); }
+// public boolean isTranslation(org.joml.Matrix4fc matrix) { return wrapperContained.isTranslation(matrix); }
+// public static boolean isTranslation(org.joml.Matrix4fc matrix, ) { return net.minecraft.util.math.MatrixUtil.isTranslation(matrix); }
+// public boolean isOrthonormal(org.joml.Matrix4fc matrix) { return wrapperContained.isOrthonormal(matrix); }
+// public static boolean isOrthonormal(org.joml.Matrix4fc matrix, ) { return net.minecraft.util.math.MatrixUtil.isOrthonormal(matrix); }
+// public boolean isIdentity(org.joml.Matrix4fc matrix) { return wrapperContained.isIdentity(matrix); }
+// public static boolean isIdentity(org.joml.Matrix4fc matrix, ) { return net.minecraft.util.math.MatrixUtil.isIdentity(matrix); }
+// public boolean hasProperty(org.joml.Matrix4fc matrix,int property) { return wrapperContained.hasProperty(matrix,property); }
+// public static boolean hasProperty(org.joml.Matrix4fc matrix,int property, ) { return net.minecraft.util.math.MatrixUtil.hasProperty(matrix,property); }
+// public boolean isPropertyBitSet(org.joml.Matrix4fc matrix,int property) { return wrapperContained.isPropertyBitSet(matrix,property); }
+// public static boolean isPropertyBitSet(org.joml.Matrix4fc matrix,int property, ) { return net.minecraft.util.math.MatrixUtil.isPropertyBitSet(matrix,property); }
 
 }

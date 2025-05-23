@@ -1,6 +1,2386 @@
 package yarnwrap.item;
 public class Items { public net.minecraft.item.Items wrapperContained; public Items(net.minecraft.item.Items wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.item.Item ORANGE_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.ORANGE_TERRACOTTA); }
+// public void ORANGE_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.ORANGE_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item ORANGE_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_TERRACOTTA); }
+// public static void ORANGE_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_PRESSURE_PLATE); }
+// public void JUNGLE_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.JUNGLE_PRESSURE_PLATE = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_PRESSURE_PLATE); }
+// public static void JUNGLE_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_PRESSURE_PLATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_BUTTON() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_BUTTON); }
+// public void SPRUCE_BUTTON(yarnwrap.item.Item value) { wrapperContained.SPRUCE_BUTTON = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_BUTTON); }
+// public static void SPRUCE_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_BUTTON = value.wrapperContained; }
+
+// public yarnwrap.item.Item YELLOW_BANNER() { return new yarnwrap.item.Item(wrapperContained.YELLOW_BANNER); }
+// public void YELLOW_BANNER(yarnwrap.item.Item value) { wrapperContained.YELLOW_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item YELLOW_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_BANNER); }
+// public static void YELLOW_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGENTA_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_SHULKER_BOX); }
+// public void MAGENTA_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.MAGENTA_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item MAGENTA_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_SHULKER_BOX); }
+// public static void MAGENTA_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_BUBBLE_CORAL() { return new yarnwrap.item.Item(wrapperContained.DEAD_BUBBLE_CORAL); }
+// public void DEAD_BUBBLE_CORAL(yarnwrap.item.Item value) { wrapperContained.DEAD_BUBBLE_CORAL = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_BUBBLE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BUBBLE_CORAL); }
+// public static void DEAD_BUBBLE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BUBBLE_CORAL = value.wrapperContained; }
+
+// public yarnwrap.item.Item STONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.STONE_STAIRS); }
+// public void STONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.STONE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item STONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_STAIRS); }
+// public static void STONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item LAPIS_BLOCK() { return new yarnwrap.item.Item(wrapperContained.LAPIS_BLOCK); }
+// public void LAPIS_BLOCK(yarnwrap.item.Item value) { wrapperContained.LAPIS_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item LAPIS_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.LAPIS_BLOCK); }
+// public static void LAPIS_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LAPIS_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item END_ROD() { return new yarnwrap.item.Item(wrapperContained.END_ROD); }
+// public void END_ROD(yarnwrap.item.Item value) { wrapperContained.END_ROD = value.wrapperContained; }
+public static yarnwrap.item.Item END_ROD() { return new yarnwrap.item.Item(net.minecraft.item.Items.END_ROD); }
+// public static void END_ROD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.END_ROD = value.wrapperContained; }
+
+// public yarnwrap.item.Item PRISMARINE_WALL() { return new yarnwrap.item.Item(wrapperContained.PRISMARINE_WALL); }
+// public void PRISMARINE_WALL(yarnwrap.item.Item value) { wrapperContained.PRISMARINE_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item PRISMARINE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.PRISMARINE_WALL); }
+// public static void PRISMARINE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PRISMARINE_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item ORANGE_BED() { return new yarnwrap.item.Item(wrapperContained.ORANGE_BED); }
+// public void ORANGE_BED(yarnwrap.item.Item value) { wrapperContained.ORANGE_BED = value.wrapperContained; }
+public static yarnwrap.item.Item ORANGE_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_BED); }
+// public static void ORANGE_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item PETRIFIED_OAK_SLAB() { return new yarnwrap.item.Item(wrapperContained.PETRIFIED_OAK_SLAB); }
+// public void PETRIFIED_OAK_SLAB(yarnwrap.item.Item value) { wrapperContained.PETRIFIED_OAK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item PETRIFIED_OAK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.PETRIFIED_OAK_SLAB); }
+// public static void PETRIFIED_OAK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PETRIFIED_OAK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item SOUL_SAND() { return new yarnwrap.item.Item(wrapperContained.SOUL_SAND); }
+// public void SOUL_SAND(yarnwrap.item.Item value) { wrapperContained.SOUL_SAND = value.wrapperContained; }
+public static yarnwrap.item.Item SOUL_SAND() { return new yarnwrap.item.Item(net.minecraft.item.Items.SOUL_SAND); }
+// public static void SOUL_SAND(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SOUL_SAND = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_ACACIA_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_ACACIA_LOG); }
+// public void STRIPPED_ACACIA_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_ACACIA_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_ACACIA_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_ACACIA_LOG); }
+// public static void STRIPPED_ACACIA_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_ACACIA_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item FLOWER_POT() { return new yarnwrap.item.Item(wrapperContained.FLOWER_POT); }
+// public void FLOWER_POT(yarnwrap.item.Item value) { wrapperContained.FLOWER_POT = value.wrapperContained; }
+public static yarnwrap.item.Item FLOWER_POT() { return new yarnwrap.item.Item(net.minecraft.item.Items.FLOWER_POT); }
+// public static void FLOWER_POT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FLOWER_POT = value.wrapperContained; }
+
+// public yarnwrap.item.Item IRON_BARS() { return new yarnwrap.item.Item(wrapperContained.IRON_BARS); }
+// public void IRON_BARS(yarnwrap.item.Item value) { wrapperContained.IRON_BARS = value.wrapperContained; }
+public static yarnwrap.item.Item IRON_BARS() { return new yarnwrap.item.Item(net.minecraft.item.Items.IRON_BARS); }
+// public static void IRON_BARS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.IRON_BARS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BARRIER() { return new yarnwrap.item.Item(wrapperContained.BARRIER); }
+// public void BARRIER(yarnwrap.item.Item value) { wrapperContained.BARRIER = value.wrapperContained; }
+public static yarnwrap.item.Item BARRIER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BARRIER); }
+// public static void BARRIER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BARRIER = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_BLUE_CARPET() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_CARPET); }
+// public void LIGHT_BLUE_CARPET(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_BLUE_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_CARPET); }
+// public static void LIGHT_BLUE_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item NETHER_BRICK_FENCE() { return new yarnwrap.item.Item(wrapperContained.NETHER_BRICK_FENCE); }
+// public void NETHER_BRICK_FENCE(yarnwrap.item.Item value) { wrapperContained.NETHER_BRICK_FENCE = value.wrapperContained; }
+public static yarnwrap.item.Item NETHER_BRICK_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_BRICK_FENCE); }
+// public static void NETHER_BRICK_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_BRICK_FENCE = value.wrapperContained; }
+
+// public yarnwrap.item.Item PACKED_ICE() { return new yarnwrap.item.Item(wrapperContained.PACKED_ICE); }
+// public void PACKED_ICE(yarnwrap.item.Item value) { wrapperContained.PACKED_ICE = value.wrapperContained; }
+public static yarnwrap.item.Item PACKED_ICE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PACKED_ICE); }
+// public static void PACKED_ICE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PACKED_ICE = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHISELED_QUARTZ_BLOCK() { return new yarnwrap.item.Item(wrapperContained.CHISELED_QUARTZ_BLOCK); }
+// public void CHISELED_QUARTZ_BLOCK(yarnwrap.item.Item value) { wrapperContained.CHISELED_QUARTZ_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item CHISELED_QUARTZ_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHISELED_QUARTZ_BLOCK); }
+// public static void CHISELED_QUARTZ_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHISELED_QUARTZ_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item CYAN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.CYAN_STAINED_GLASS_PANE); }
+// public void CYAN_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.CYAN_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item CYAN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_STAINED_GLASS_PANE); }
+// public static void CYAN_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_BUBBLE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DEAD_BUBBLE_CORAL_BLOCK); }
+// public void DEAD_BUBBLE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.DEAD_BUBBLE_CORAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_BUBBLE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BUBBLE_CORAL_BLOCK); }
+// public static void DEAD_BUBBLE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BUBBLE_CORAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item YELLOW_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.YELLOW_STAINED_GLASS); }
+// public void YELLOW_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.YELLOW_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item YELLOW_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_STAINED_GLASS); }
+// public static void YELLOW_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLACK_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BLACK_GLAZED_TERRACOTTA); }
+// public void BLACK_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BLACK_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item BLACK_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_GLAZED_TERRACOTTA); }
+// public static void BLACK_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_FENCE_GATE); }
+// public void JUNGLE_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.JUNGLE_FENCE_GATE = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_FENCE_GATE); }
+// public static void JUNGLE_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_FENCE_GATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPLE_CARPET() { return new yarnwrap.item.Item(wrapperContained.PURPLE_CARPET); }
+// public void PURPLE_CARPET(yarnwrap.item.Item value) { wrapperContained.PURPLE_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item PURPLE_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_CARPET); }
+// public static void PURPLE_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item HORN_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.HORN_CORAL_BLOCK); }
+// public void HORN_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.HORN_CORAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item HORN_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.HORN_CORAL_BLOCK); }
+// public static void HORN_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HORN_CORAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item STICKY_PISTON() { return new yarnwrap.item.Item(wrapperContained.STICKY_PISTON); }
+// public void STICKY_PISTON(yarnwrap.item.Item value) { wrapperContained.STICKY_PISTON = value.wrapperContained; }
+public static yarnwrap.item.Item STICKY_PISTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.STICKY_PISTON); }
+// public static void STICKY_PISTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STICKY_PISTON = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHEST() { return new yarnwrap.item.Item(wrapperContained.CHEST); }
+// public void CHEST(yarnwrap.item.Item value) { wrapperContained.CHEST = value.wrapperContained; }
+public static yarnwrap.item.Item CHEST() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHEST); }
+// public static void CHEST(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHEST = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAVEL() { return new yarnwrap.item.Item(wrapperContained.GRAVEL); }
+// public void GRAVEL(yarnwrap.item.Item value) { wrapperContained.GRAVEL = value.wrapperContained; }
+public static yarnwrap.item.Item GRAVEL() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAVEL); }
+// public static void GRAVEL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAVEL = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_SIGN() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_SIGN); }
+// public void SPRUCE_SIGN(yarnwrap.item.Item value) { wrapperContained.SPRUCE_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_SIGN); }
+// public static void SPRUCE_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLACK_BED() { return new yarnwrap.item.Item(wrapperContained.BLACK_BED); }
+// public void BLACK_BED(yarnwrap.item.Item value) { wrapperContained.BLACK_BED = value.wrapperContained; }
+public static yarnwrap.item.Item BLACK_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_BED); }
+// public static void BLACK_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_PLANKS() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_PLANKS); }
+// public void SPRUCE_PLANKS(yarnwrap.item.Item value) { wrapperContained.SPRUCE_PLANKS = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_PLANKS); }
+// public static void SPRUCE_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_PLANKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.ACACIA_FENCE_GATE); }
+// public void ACACIA_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.ACACIA_FENCE_GATE = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_FENCE_GATE); }
+// public static void ACACIA_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_FENCE_GATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_CARPET() { return new yarnwrap.item.Item(wrapperContained.BLUE_CARPET); }
+// public void BLUE_CARPET(yarnwrap.item.Item value) { wrapperContained.BLUE_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_CARPET); }
+// public static void BLUE_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_PLANKS() { return new yarnwrap.item.Item(wrapperContained.OAK_PLANKS); }
+// public void OAK_PLANKS(yarnwrap.item.Item value) { wrapperContained.OAK_PLANKS = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_PLANKS); }
+// public static void OAK_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_PLANKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGENTA_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_STAINED_GLASS_PANE); }
+// public void MAGENTA_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.MAGENTA_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item MAGENTA_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_STAINED_GLASS_PANE); }
+// public static void MAGENTA_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item GREEN_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.GREEN_CONCRETE); }
+// public void GREEN_CONCRETE(yarnwrap.item.Item value) { wrapperContained.GREEN_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item GREEN_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_CONCRETE); }
+// public static void GREEN_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item LADDER() { return new yarnwrap.item.Item(wrapperContained.LADDER); }
+// public void LADDER(yarnwrap.item.Item value) { wrapperContained.LADDER = value.wrapperContained; }
+public static yarnwrap.item.Item LADDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LADDER); }
+// public static void LADDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LADDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_STAIRS); }
+// public void SPRUCE_STAIRS(yarnwrap.item.Item value) { wrapperContained.SPRUCE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_STAIRS); }
+// public static void SPRUCE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_BANNER() { return new yarnwrap.item.Item(wrapperContained.BROWN_BANNER); }
+// public void BROWN_BANNER(yarnwrap.item.Item value) { wrapperContained.BROWN_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_BANNER); }
+// public static void BROWN_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_LOG() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_LOG); }
+// public void JUNGLE_LOG(yarnwrap.item.Item value) { wrapperContained.JUNGLE_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_LOG); }
+// public static void JUNGLE_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.BLUE_STAINED_GLASS); }
+// public void BLUE_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.BLUE_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_STAINED_GLASS); }
+// public static void BLUE_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item PINK_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.PINK_CONCRETE); }
+// public void PINK_CONCRETE(yarnwrap.item.Item value) { wrapperContained.PINK_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item PINK_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_CONCRETE); }
+// public static void PINK_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_BANNER() { return new yarnwrap.item.Item(wrapperContained.BLUE_BANNER); }
+// public void BLUE_BANNER(yarnwrap.item.Item value) { wrapperContained.BLUE_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_BANNER); }
+// public static void BLUE_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item RAIL() { return new yarnwrap.item.Item(wrapperContained.RAIL); }
+// public void RAIL(yarnwrap.item.Item value) { wrapperContained.RAIL = value.wrapperContained; }
+public static yarnwrap.item.Item RAIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.RAIL); }
+// public static void RAIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RAIL = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_STAIRS() { return new yarnwrap.item.Item(wrapperContained.BIRCH_STAIRS); }
+// public void BIRCH_STAIRS(yarnwrap.item.Item value) { wrapperContained.BIRCH_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_STAIRS); }
+// public static void BIRCH_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_GRAY_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_TERRACOTTA); }
+// public void LIGHT_GRAY_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_GRAY_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_TERRACOTTA); }
+// public static void LIGHT_GRAY_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item ORANGE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.ORANGE_GLAZED_TERRACOTTA); }
+// public void ORANGE_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.ORANGE_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item ORANGE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_GLAZED_TERRACOTTA); }
+// public static void ORANGE_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item CONDUIT() { return new yarnwrap.item.Item(wrapperContained.CONDUIT); }
+// public void CONDUIT(yarnwrap.item.Item value) { wrapperContained.CONDUIT = value.wrapperContained; }
+public static yarnwrap.item.Item CONDUIT() { return new yarnwrap.item.Item(net.minecraft.item.Items.CONDUIT); }
+// public static void CONDUIT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CONDUIT = value.wrapperContained; }
+
+// public yarnwrap.item.Item GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.GLASS_PANE); }
+// public void GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GLASS_PANE); }
+// public static void GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item YELLOW_CARPET() { return new yarnwrap.item.Item(wrapperContained.YELLOW_CARPET); }
+// public void YELLOW_CARPET(yarnwrap.item.Item value) { wrapperContained.YELLOW_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item YELLOW_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_CARPET); }
+// public static void YELLOW_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_GRAY_BED() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_BED); }
+// public void LIGHT_GRAY_BED(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_BED = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_GRAY_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_BED); }
+// public static void LIGHT_GRAY_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item INFESTED_CHISELED_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.INFESTED_CHISELED_STONE_BRICKS); }
+// public void INFESTED_CHISELED_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.INFESTED_CHISELED_STONE_BRICKS = value.wrapperContained; }
+public static yarnwrap.item.Item INFESTED_CHISELED_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_CHISELED_STONE_BRICKS); }
+// public static void INFESTED_CHISELED_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_CHISELED_STONE_BRICKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item END_STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.END_STONE_BRICK_STAIRS); }
+// public void END_STONE_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.END_STONE_BRICK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item END_STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.END_STONE_BRICK_STAIRS); }
+// public static void END_STONE_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.END_STONE_BRICK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item WHITE_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.WHITE_TERRACOTTA); }
+// public void WHITE_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.WHITE_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item WHITE_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_TERRACOTTA); }
+// public static void WHITE_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLACK_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.BLACK_STAINED_GLASS_PANE); }
+// public void BLACK_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.BLACK_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item BLACK_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_STAINED_GLASS_PANE); }
+// public static void BLACK_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item SEAGRASS() { return new yarnwrap.item.Item(wrapperContained.SEAGRASS); }
+// public void SEAGRASS(yarnwrap.item.Item value) { wrapperContained.SEAGRASS = value.wrapperContained; }
+public static yarnwrap.item.Item SEAGRASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SEAGRASS); }
+// public static void SEAGRASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SEAGRASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_FIRE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DEAD_FIRE_CORAL_BLOCK); }
+// public void DEAD_FIRE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.DEAD_FIRE_CORAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_FIRE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_FIRE_CORAL_BLOCK); }
+// public static void DEAD_FIRE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_FIRE_CORAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item AIR() { return new yarnwrap.item.Item(wrapperContained.AIR); }
+// public void AIR(yarnwrap.item.Item value) { wrapperContained.AIR = value.wrapperContained; }
+public static yarnwrap.item.Item AIR() { return new yarnwrap.item.Item(net.minecraft.item.Items.AIR); }
+// public static void AIR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.AIR = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.BLUE_CONCRETE_POWDER); }
+// public void BLUE_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.BLUE_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_CONCRETE_POWDER); }
+// public static void BLUE_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_DOOR() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_DOOR); }
+// public void SPRUCE_DOOR(yarnwrap.item.Item value) { wrapperContained.SPRUCE_DOOR = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_DOOR); }
+// public static void SPRUCE_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_DOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item SMOOTH_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_SANDSTONE_STAIRS); }
+// public void SMOOTH_SANDSTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.SMOOTH_SANDSTONE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item SMOOTH_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_SANDSTONE_STAIRS); }
+// public static void SMOOTH_SANDSTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_SANDSTONE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_LOG() { return new yarnwrap.item.Item(wrapperContained.BIRCH_LOG); }
+// public void BIRCH_LOG(yarnwrap.item.Item value) { wrapperContained.BIRCH_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_LOG); }
+// public static void BIRCH_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_GRAY_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_GLAZED_TERRACOTTA); }
+// public void LIGHT_GRAY_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_GRAY_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_GLAZED_TERRACOTTA); }
+// public static void LIGHT_GRAY_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.ACACIA_PRESSURE_PLATE); }
+// public void ACACIA_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.ACACIA_PRESSURE_PLATE = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_PRESSURE_PLATE); }
+// public static void ACACIA_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_PRESSURE_PLATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_BUTTON() { return new yarnwrap.item.Item(wrapperContained.BIRCH_BUTTON); }
+// public void BIRCH_BUTTON(yarnwrap.item.Item value) { wrapperContained.BIRCH_BUTTON = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_BUTTON); }
+// public static void BIRCH_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_BUTTON = value.wrapperContained; }
+
+// public yarnwrap.item.Item WHITE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.WHITE_GLAZED_TERRACOTTA); }
+// public void WHITE_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.WHITE_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item WHITE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_GLAZED_TERRACOTTA); }
+// public static void WHITE_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_ICE() { return new yarnwrap.item.Item(wrapperContained.BLUE_ICE); }
+// public void BLUE_ICE(yarnwrap.item.Item value) { wrapperContained.BLUE_ICE = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_ICE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_ICE); }
+// public static void BLUE_ICE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_ICE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLACK_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BLACK_TERRACOTTA); }
+// public void BLACK_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BLACK_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item BLACK_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_TERRACOTTA); }
+// public static void BLACK_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item NETHER_WART_BLOCK() { return new yarnwrap.item.Item(wrapperContained.NETHER_WART_BLOCK); }
+// public void NETHER_WART_BLOCK(yarnwrap.item.Item value) { wrapperContained.NETHER_WART_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item NETHER_WART_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_WART_BLOCK); }
+// public static void NETHER_WART_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_WART_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_SLAB() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_SLAB); }
+// public void SPRUCE_SLAB(yarnwrap.item.Item value) { wrapperContained.SPRUCE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_SLAB); }
+// public static void SPRUCE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.ACACIA_TRAPDOOR); }
+// public void ACACIA_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.ACACIA_TRAPDOOR = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_TRAPDOOR); }
+// public static void ACACIA_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_TRAPDOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_PLANKS() { return new yarnwrap.item.Item(wrapperContained.BIRCH_PLANKS); }
+// public void BIRCH_PLANKS(yarnwrap.item.Item value) { wrapperContained.BIRCH_PLANKS = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_PLANKS); }
+// public static void BIRCH_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_PLANKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item COBBLESTONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.COBBLESTONE_SLAB); }
+// public void COBBLESTONE_SLAB(yarnwrap.item.Item value) { wrapperContained.COBBLESTONE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item COBBLESTONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.COBBLESTONE_SLAB); }
+// public static void COBBLESTONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COBBLESTONE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_BLUE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_STAINED_GLASS_PANE); }
+// public void LIGHT_BLUE_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_BLUE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_STAINED_GLASS_PANE); }
+// public static void LIGHT_BLUE_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.RED_CONCRETE); }
+// public void RED_CONCRETE(yarnwrap.item.Item value) { wrapperContained.RED_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item RED_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_CONCRETE); }
+// public static void RED_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item GREEN_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.GREEN_CONCRETE_POWDER); }
+// public void GREEN_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.GREEN_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item GREEN_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_CONCRETE_POWDER); }
+// public static void GREEN_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_DOOR() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_DOOR); }
+// public void JUNGLE_DOOR(yarnwrap.item.Item value) { wrapperContained.JUNGLE_DOOR = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_DOOR); }
+// public static void JUNGLE_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_DOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_SAND() { return new yarnwrap.item.Item(wrapperContained.RED_SAND); }
+// public void RED_SAND(yarnwrap.item.Item value) { wrapperContained.RED_SAND = value.wrapperContained; }
+public static yarnwrap.item.Item RED_SAND() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_SAND); }
+// public static void RED_SAND(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_SAND = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_WOOD() { return new yarnwrap.item.Item(wrapperContained.BIRCH_WOOD); }
+// public void BIRCH_WOOD(yarnwrap.item.Item value) { wrapperContained.BIRCH_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_WOOD); }
+// public static void BIRCH_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPUR_SLAB() { return new yarnwrap.item.Item(wrapperContained.PURPUR_SLAB); }
+// public void PURPUR_SLAB(yarnwrap.item.Item value) { wrapperContained.PURPUR_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item PURPUR_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPUR_SLAB); }
+// public static void PURPUR_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPUR_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_SIGN() { return new yarnwrap.item.Item(wrapperContained.ACACIA_SIGN); }
+// public void ACACIA_SIGN(yarnwrap.item.Item value) { wrapperContained.ACACIA_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_SIGN); }
+// public static void ACACIA_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item YELLOW_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.YELLOW_CONCRETE_POWDER); }
+// public void YELLOW_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.YELLOW_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item YELLOW_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_CONCRETE_POWDER); }
+// public static void YELLOW_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item ANDESITE_WALL() { return new yarnwrap.item.Item(wrapperContained.ANDESITE_WALL); }
+// public void ANDESITE_WALL(yarnwrap.item.Item value) { wrapperContained.ANDESITE_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item ANDESITE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.ANDESITE_WALL); }
+// public static void ANDESITE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ANDESITE_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_WOOD() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_WOOD); }
+// public void SPRUCE_WOOD(yarnwrap.item.Item value) { wrapperContained.SPRUCE_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_WOOD); }
+// public static void SPRUCE_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item DETECTOR_RAIL() { return new yarnwrap.item.Item(wrapperContained.DETECTOR_RAIL); }
+// public void DETECTOR_RAIL(yarnwrap.item.Item value) { wrapperContained.DETECTOR_RAIL = value.wrapperContained; }
+public static yarnwrap.item.Item DETECTOR_RAIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DETECTOR_RAIL); }
+// public static void DETECTOR_RAIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DETECTOR_RAIL = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.OAK_STAIRS); }
+// public void OAK_STAIRS(yarnwrap.item.Item value) { wrapperContained.OAK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_STAIRS); }
+// public static void OAK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item CYAN_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.CYAN_SHULKER_BOX); }
+// public void CYAN_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.CYAN_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item CYAN_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_SHULKER_BOX); }
+// public static void CYAN_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item FIRE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.FIRE_CORAL_FAN); }
+// public void FIRE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.FIRE_CORAL_FAN = value.wrapperContained; }
+public static yarnwrap.item.Item FIRE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.FIRE_CORAL_FAN); }
+// public static void FIRE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FIRE_CORAL_FAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item SMOOTH_QUARTZ_SLAB() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_QUARTZ_SLAB); }
+// public void SMOOTH_QUARTZ_SLAB(yarnwrap.item.Item value) { wrapperContained.SMOOTH_QUARTZ_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item SMOOTH_QUARTZ_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_QUARTZ_SLAB); }
+// public static void SMOOTH_QUARTZ_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_QUARTZ_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_DARK_OAK_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_DARK_OAK_WOOD); }
+// public void STRIPPED_DARK_OAK_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_DARK_OAK_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_DARK_OAK_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_DARK_OAK_WOOD); }
+// public static void STRIPPED_DARK_OAK_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_DARK_OAK_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item PINK_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.PINK_CONCRETE_POWDER); }
+// public void PINK_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.PINK_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item PINK_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_CONCRETE_POWDER); }
+// public static void PINK_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item SANDSTONE_WALL() { return new yarnwrap.item.Item(wrapperContained.SANDSTONE_WALL); }
+// public void SANDSTONE_WALL(yarnwrap.item.Item value) { wrapperContained.SANDSTONE_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item SANDSTONE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.SANDSTONE_WALL); }
+// public static void SANDSTONE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SANDSTONE_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_SLAB() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_SLAB); }
+// public void JUNGLE_SLAB(yarnwrap.item.Item value) { wrapperContained.JUNGLE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_SLAB); }
+// public static void JUNGLE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item INFESTED_STONE() { return new yarnwrap.item.Item(wrapperContained.INFESTED_STONE); }
+// public void INFESTED_STONE(yarnwrap.item.Item value) { wrapperContained.INFESTED_STONE = value.wrapperContained; }
+public static yarnwrap.item.Item INFESTED_STONE() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_STONE); }
+// public static void INFESTED_STONE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_STONE = value.wrapperContained; }
+
+// public yarnwrap.item.Item POLISHED_GRANITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.POLISHED_GRANITE_SLAB); }
+// public void POLISHED_GRANITE_SLAB(yarnwrap.item.Item value) { wrapperContained.POLISHED_GRANITE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item POLISHED_GRANITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_GRANITE_SLAB); }
+// public static void POLISHED_GRANITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_GRANITE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item REDSTONE_LAMP() { return new yarnwrap.item.Item(wrapperContained.REDSTONE_LAMP); }
+// public void REDSTONE_LAMP(yarnwrap.item.Item value) { wrapperContained.REDSTONE_LAMP = value.wrapperContained; }
+public static yarnwrap.item.Item REDSTONE_LAMP() { return new yarnwrap.item.Item(net.minecraft.item.Items.REDSTONE_LAMP); }
+// public static void REDSTONE_LAMP(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REDSTONE_LAMP = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_BRAIN_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DEAD_BRAIN_CORAL_BLOCK); }
+// public void DEAD_BRAIN_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.DEAD_BRAIN_CORAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_BRAIN_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BRAIN_CORAL_BLOCK); }
+// public static void DEAD_BRAIN_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BRAIN_CORAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRUCTURE_BLOCK() { return new yarnwrap.item.Item(wrapperContained.STRUCTURE_BLOCK); }
+// public void STRUCTURE_BLOCK(yarnwrap.item.Item value) { wrapperContained.STRUCTURE_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item STRUCTURE_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRUCTURE_BLOCK); }
+// public static void STRUCTURE_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRUCTURE_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item HOPPER() { return new yarnwrap.item.Item(wrapperContained.HOPPER); }
+// public void HOPPER(yarnwrap.item.Item value) { wrapperContained.HOPPER = value.wrapperContained; }
+public static yarnwrap.item.Item HOPPER() { return new yarnwrap.item.Item(net.minecraft.item.Items.HOPPER); }
+// public static void HOPPER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HOPPER = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_GRAY_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_STAINED_GLASS_PANE); }
+// public void LIGHT_GRAY_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_GRAY_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_STAINED_GLASS_PANE); }
+// public static void LIGHT_GRAY_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item IRON_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.IRON_TRAPDOOR); }
+// public void IRON_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.IRON_TRAPDOOR = value.wrapperContained; }
+public static yarnwrap.item.Item IRON_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.IRON_TRAPDOOR); }
+// public static void IRON_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.IRON_TRAPDOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item BONE_BLOCK() { return new yarnwrap.item.Item(wrapperContained.BONE_BLOCK); }
+// public void BONE_BLOCK(yarnwrap.item.Item value) { wrapperContained.BONE_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item BONE_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.BONE_BLOCK); }
+// public static void BONE_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BONE_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGENTA_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_STAINED_GLASS); }
+// public void MAGENTA_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.MAGENTA_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item MAGENTA_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_STAINED_GLASS); }
+// public static void MAGENTA_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item GREEN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.GREEN_GLAZED_TERRACOTTA); }
+// public void GREEN_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.GREEN_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item GREEN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_GLAZED_TERRACOTTA); }
+// public static void GREEN_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item SNOW_BLOCK() { return new yarnwrap.item.Item(wrapperContained.SNOW_BLOCK); }
+// public void SNOW_BLOCK(yarnwrap.item.Item value) { wrapperContained.SNOW_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item SNOW_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.SNOW_BLOCK); }
+// public static void SNOW_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SNOW_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item TRAPPED_CHEST() { return new yarnwrap.item.Item(wrapperContained.TRAPPED_CHEST); }
+// public void TRAPPED_CHEST(yarnwrap.item.Item value) { wrapperContained.TRAPPED_CHEST = value.wrapperContained; }
+public static yarnwrap.item.Item TRAPPED_CHEST() { return new yarnwrap.item.Item(net.minecraft.item.Items.TRAPPED_CHEST); }
+// public static void TRAPPED_CHEST(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TRAPPED_CHEST = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_OAK_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_OAK_WOOD); }
+// public void STRIPPED_OAK_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_OAK_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_OAK_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_OAK_WOOD); }
+// public static void STRIPPED_OAK_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_OAK_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item PISTON() { return new yarnwrap.item.Item(wrapperContained.PISTON); }
+// public void PISTON(yarnwrap.item.Item value) { wrapperContained.PISTON = value.wrapperContained; }
+public static yarnwrap.item.Item PISTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.PISTON); }
+// public static void PISTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PISTON = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIME_CARPET() { return new yarnwrap.item.Item(wrapperContained.LIME_CARPET); }
+// public void LIME_CARPET(yarnwrap.item.Item value) { wrapperContained.LIME_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item LIME_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_CARPET); }
+// public static void LIME_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item TALL_GRASS() { return new yarnwrap.item.Item(wrapperContained.TALL_GRASS); }
+// public void TALL_GRASS(yarnwrap.item.Item value) { wrapperContained.TALL_GRASS = value.wrapperContained; }
+public static yarnwrap.item.Item TALL_GRASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.TALL_GRASS); }
+// public static void TALL_GRASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TALL_GRASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item CYAN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.CYAN_GLAZED_TERRACOTTA); }
+// public void CYAN_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.CYAN_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item CYAN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_GLAZED_TERRACOTTA); }
+// public static void CYAN_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item WHITE_BED() { return new yarnwrap.item.Item(wrapperContained.WHITE_BED); }
+// public void WHITE_BED(yarnwrap.item.Item value) { wrapperContained.WHITE_BED = value.wrapperContained; }
+public static yarnwrap.item.Item WHITE_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_BED); }
+// public static void WHITE_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.TERRACOTTA); }
+// public void TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.TERRACOTTA); }
+// public static void TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPLE_BED() { return new yarnwrap.item.Item(wrapperContained.PURPLE_BED); }
+// public void PURPLE_BED(yarnwrap.item.Item value) { wrapperContained.PURPLE_BED = value.wrapperContained; }
+public static yarnwrap.item.Item PURPLE_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_BED); }
+// public static void PURPLE_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item SMOOTH_RED_SANDSTONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_RED_SANDSTONE_SLAB); }
+// public void SMOOTH_RED_SANDSTONE_SLAB(yarnwrap.item.Item value) { wrapperContained.SMOOTH_RED_SANDSTONE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item SMOOTH_RED_SANDSTONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_RED_SANDSTONE_SLAB); }
+// public static void SMOOTH_RED_SANDSTONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_RED_SANDSTONE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLACK_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.BLACK_SHULKER_BOX); }
+// public void BLACK_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.BLACK_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item BLACK_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_SHULKER_BOX); }
+// public static void BLACK_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_HORN_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.DEAD_HORN_CORAL_FAN); }
+// public void DEAD_HORN_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.DEAD_HORN_CORAL_FAN = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_HORN_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_HORN_CORAL_FAN); }
+// public static void DEAD_HORN_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_HORN_CORAL_FAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRASS_BLOCK() { return new yarnwrap.item.Item(wrapperContained.GRASS_BLOCK); }
+// public void GRASS_BLOCK(yarnwrap.item.Item value) { wrapperContained.GRASS_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item GRASS_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRASS_BLOCK); }
+// public static void GRASS_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRASS_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item YELLOW_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.YELLOW_SHULKER_BOX); }
+// public void YELLOW_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.YELLOW_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item YELLOW_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_SHULKER_BOX); }
+// public static void YELLOW_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_HORN_CORAL() { return new yarnwrap.item.Item(wrapperContained.DEAD_HORN_CORAL); }
+// public void DEAD_HORN_CORAL(yarnwrap.item.Item value) { wrapperContained.DEAD_HORN_CORAL = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_HORN_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_HORN_CORAL); }
+// public static void DEAD_HORN_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_HORN_CORAL = value.wrapperContained; }
+
+// public yarnwrap.item.Item MOSSY_COBBLESTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.MOSSY_COBBLESTONE_STAIRS); }
+// public void MOSSY_COBBLESTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.MOSSY_COBBLESTONE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item MOSSY_COBBLESTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_COBBLESTONE_STAIRS); }
+// public static void MOSSY_COBBLESTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_COBBLESTONE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item PINK_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.PINK_GLAZED_TERRACOTTA); }
+// public void PINK_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.PINK_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item PINK_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_GLAZED_TERRACOTTA); }
+// public static void PINK_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item FIRE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.FIRE_CORAL_BLOCK); }
+// public void FIRE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.FIRE_CORAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item FIRE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.FIRE_CORAL_BLOCK); }
+// public static void FIRE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FIRE_CORAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item GLASS() { return new yarnwrap.item.Item(wrapperContained.GLASS); }
+// public void GLASS(yarnwrap.item.Item value) { wrapperContained.GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.GLASS); }
+// public static void GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item OBSIDIAN() { return new yarnwrap.item.Item(wrapperContained.OBSIDIAN); }
+// public void OBSIDIAN(yarnwrap.item.Item value) { wrapperContained.OBSIDIAN = value.wrapperContained; }
+public static yarnwrap.item.Item OBSIDIAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.OBSIDIAN); }
+// public static void OBSIDIAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OBSIDIAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item END_STONE_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.END_STONE_BRICK_SLAB); }
+// public void END_STONE_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.END_STONE_BRICK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item END_STONE_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.END_STONE_BRICK_SLAB); }
+// public static void END_STONE_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.END_STONE_BRICK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_ACACIA_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_ACACIA_WOOD); }
+// public void STRIPPED_ACACIA_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_ACACIA_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_ACACIA_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_ACACIA_WOOD); }
+// public static void STRIPPED_ACACIA_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_ACACIA_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_BLUE_BED() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_BED); }
+// public void LIGHT_BLUE_BED(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_BED = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_BLUE_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_BED); }
+// public static void LIGHT_BLUE_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.BIRCH_FENCE_GATE); }
+// public void BIRCH_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.BIRCH_FENCE_GATE = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_FENCE_GATE); }
+// public static void BIRCH_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_FENCE_GATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item CYAN_CARPET() { return new yarnwrap.item.Item(wrapperContained.CYAN_CARPET); }
+// public void CYAN_CARPET(yarnwrap.item.Item value) { wrapperContained.CYAN_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item CYAN_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_CARPET); }
+// public static void CYAN_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item SMOOTH_STONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_STONE_SLAB); }
+// public void SMOOTH_STONE_SLAB(yarnwrap.item.Item value) { wrapperContained.SMOOTH_STONE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item SMOOTH_STONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_STONE_SLAB); }
+// public static void SMOOTH_STONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_STONE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item INFESTED_CRACKED_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.INFESTED_CRACKED_STONE_BRICKS); }
+// public void INFESTED_CRACKED_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.INFESTED_CRACKED_STONE_BRICKS = value.wrapperContained; }
+public static yarnwrap.item.Item INFESTED_CRACKED_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_CRACKED_STONE_BRICKS); }
+// public static void INFESTED_CRACKED_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_CRACKED_STONE_BRICKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_FENCE_GATE); }
+// public void DARK_OAK_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_FENCE_GATE = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_FENCE_GATE); }
+// public static void DARK_OAK_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_FENCE_GATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_CARPET() { return new yarnwrap.item.Item(wrapperContained.BROWN_CARPET); }
+// public void BROWN_CARPET(yarnwrap.item.Item value) { wrapperContained.BROWN_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_CARPET); }
+// public static void BROWN_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item GREEN_BANNER() { return new yarnwrap.item.Item(wrapperContained.GREEN_BANNER); }
+// public void GREEN_BANNER(yarnwrap.item.Item value) { wrapperContained.GREEN_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item GREEN_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_BANNER); }
+// public static void GREEN_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_NETHER_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.RED_NETHER_BRICK_STAIRS); }
+// public void RED_NETHER_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.RED_NETHER_BRICK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item RED_NETHER_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_NETHER_BRICK_STAIRS); }
+// public static void RED_NETHER_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_NETHER_BRICK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAY_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.GRAY_TERRACOTTA); }
+// public void GRAY_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.GRAY_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item GRAY_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_TERRACOTTA); }
+// public static void GRAY_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item SEA_LANTERN() { return new yarnwrap.item.Item(wrapperContained.SEA_LANTERN); }
+// public void SEA_LANTERN(yarnwrap.item.Item value) { wrapperContained.SEA_LANTERN = value.wrapperContained; }
+public static yarnwrap.item.Item SEA_LANTERN() { return new yarnwrap.item.Item(net.minecraft.item.Items.SEA_LANTERN); }
+// public static void SEA_LANTERN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SEA_LANTERN = value.wrapperContained; }
+
+// public yarnwrap.item.Item COBBLESTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.COBBLESTONE_STAIRS); }
+// public void COBBLESTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.COBBLESTONE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item COBBLESTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.COBBLESTONE_STAIRS); }
+// public static void COBBLESTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COBBLESTONE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_STAIRS); }
+// public void JUNGLE_STAIRS(yarnwrap.item.Item value) { wrapperContained.JUNGLE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_STAIRS); }
+// public static void JUNGLE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRANITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.GRANITE_SLAB); }
+// public void GRANITE_SLAB(yarnwrap.item.Item value) { wrapperContained.GRANITE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item GRANITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRANITE_SLAB); }
+// public static void GRANITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRANITE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item POLISHED_ANDESITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.POLISHED_ANDESITE_STAIRS); }
+// public void POLISHED_ANDESITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.POLISHED_ANDESITE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item POLISHED_ANDESITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_ANDESITE_STAIRS); }
+// public static void POLISHED_ANDESITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_ANDESITE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGENTA_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_GLAZED_TERRACOTTA); }
+// public void MAGENTA_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.MAGENTA_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item MAGENTA_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_GLAZED_TERRACOTTA); }
+// public static void MAGENTA_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item POLISHED_GRANITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.POLISHED_GRANITE_STAIRS); }
+// public void POLISHED_GRANITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.POLISHED_GRANITE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item POLISHED_GRANITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_GRANITE_STAIRS); }
+// public static void POLISHED_GRANITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_GRANITE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_SLAB() { return new yarnwrap.item.Item(wrapperContained.OAK_SLAB); }
+// public void OAK_SLAB(yarnwrap.item.Item value) { wrapperContained.OAK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_SLAB); }
+// public static void OAK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_TRAPDOOR); }
+// public void JUNGLE_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.JUNGLE_TRAPDOOR = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_TRAPDOOR); }
+// public static void JUNGLE_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_TRAPDOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item NETHERRACK() { return new yarnwrap.item.Item(wrapperContained.NETHERRACK); }
+// public void NETHERRACK(yarnwrap.item.Item value) { wrapperContained.NETHERRACK = value.wrapperContained; }
+public static yarnwrap.item.Item NETHERRACK() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHERRACK); }
+// public static void NETHERRACK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHERRACK = value.wrapperContained; }
+
+// public yarnwrap.item.Item PINK_BANNER() { return new yarnwrap.item.Item(wrapperContained.PINK_BANNER); }
+// public void PINK_BANNER(yarnwrap.item.Item value) { wrapperContained.PINK_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item PINK_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_BANNER); }
+// public static void PINK_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.BROWN_STAINED_GLASS); }
+// public void BROWN_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.BROWN_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_STAINED_GLASS); }
+// public static void BROWN_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAY_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.GRAY_CONCRETE); }
+// public void GRAY_CONCRETE(yarnwrap.item.Item value) { wrapperContained.GRAY_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item GRAY_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_CONCRETE); }
+// public static void GRAY_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_JUNGLE_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_JUNGLE_LOG); }
+// public void STRIPPED_JUNGLE_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_JUNGLE_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_JUNGLE_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_JUNGLE_LOG); }
+// public static void STRIPPED_JUNGLE_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_JUNGLE_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGENTA_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_CONCRETE_POWDER); }
+// public void MAGENTA_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.MAGENTA_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item MAGENTA_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_CONCRETE_POWDER); }
+// public static void MAGENTA_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item STONE_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.STONE_BRICK_WALL); }
+// public void STONE_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.STONE_BRICK_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item STONE_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_BRICK_WALL); }
+// public static void STONE_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_BRICK_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIME_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.LIME_STAINED_GLASS); }
+// public void LIME_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.LIME_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item LIME_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_STAINED_GLASS); }
+// public static void LIME_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item WHITE_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.WHITE_CONCRETE); }
+// public void WHITE_CONCRETE(yarnwrap.item.Item value) { wrapperContained.WHITE_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item WHITE_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_CONCRETE); }
+// public static void WHITE_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.BRICK_SLAB); }
+// public void BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.BRICK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRICK_SLAB); }
+// public static void BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRICK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item CRACKED_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.CRACKED_STONE_BRICKS); }
+// public void CRACKED_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.CRACKED_STONE_BRICKS = value.wrapperContained; }
+public static yarnwrap.item.Item CRACKED_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.CRACKED_STONE_BRICKS); }
+// public static void CRACKED_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CRACKED_STONE_BRICKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGENTA_BED() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_BED); }
+// public void MAGENTA_BED(yarnwrap.item.Item value) { wrapperContained.MAGENTA_BED = value.wrapperContained; }
+public static yarnwrap.item.Item MAGENTA_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_BED); }
+// public static void MAGENTA_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.BLUE_SHULKER_BOX); }
+// public void BLUE_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.BLUE_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_SHULKER_BOX); }
+// public static void BLUE_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_TUBE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.DEAD_TUBE_CORAL_FAN); }
+// public void DEAD_TUBE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.DEAD_TUBE_CORAL_FAN = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_TUBE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_TUBE_CORAL_FAN); }
+// public static void DEAD_TUBE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_TUBE_CORAL_FAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.RED_TERRACOTTA); }
+// public void RED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.RED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item RED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_TERRACOTTA); }
+// public static void RED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGMA_BLOCK() { return new yarnwrap.item.Item(wrapperContained.MAGMA_BLOCK); }
+// public void MAGMA_BLOCK(yarnwrap.item.Item value) { wrapperContained.MAGMA_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item MAGMA_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGMA_BLOCK); }
+// public static void MAGMA_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGMA_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item DISPENSER() { return new yarnwrap.item.Item(wrapperContained.DISPENSER); }
+// public void DISPENSER(yarnwrap.item.Item value) { wrapperContained.DISPENSER = value.wrapperContained; }
+public static yarnwrap.item.Item DISPENSER() { return new yarnwrap.item.Item(net.minecraft.item.Items.DISPENSER); }
+// public static void DISPENSER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DISPENSER = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHORUS_PLANT() { return new yarnwrap.item.Item(wrapperContained.CHORUS_PLANT); }
+// public void CHORUS_PLANT(yarnwrap.item.Item value) { wrapperContained.CHORUS_PLANT = value.wrapperContained; }
+public static yarnwrap.item.Item CHORUS_PLANT() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHORUS_PLANT); }
+// public static void CHORUS_PLANT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHORUS_PLANT = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_SANDSTONE_WALL() { return new yarnwrap.item.Item(wrapperContained.RED_SANDSTONE_WALL); }
+// public void RED_SANDSTONE_WALL(yarnwrap.item.Item value) { wrapperContained.RED_SANDSTONE_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item RED_SANDSTONE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_SANDSTONE_WALL); }
+// public static void RED_SANDSTONE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_SANDSTONE_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_SPRUCE_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_SPRUCE_WOOD); }
+// public void STRIPPED_SPRUCE_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_SPRUCE_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_SPRUCE_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_SPRUCE_WOOD); }
+// public static void STRIPPED_SPRUCE_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_SPRUCE_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_GRAY_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_STAINED_GLASS); }
+// public void LIGHT_GRAY_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_GRAY_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_STAINED_GLASS); }
+// public static void LIGHT_GRAY_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_BLUE_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_CONCRETE); }
+// public void LIGHT_BLUE_CONCRETE(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_BLUE_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_CONCRETE); }
+// public static void LIGHT_BLUE_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item FARMLAND() { return new yarnwrap.item.Item(wrapperContained.FARMLAND); }
+// public void FARMLAND(yarnwrap.item.Item value) { wrapperContained.FARMLAND = value.wrapperContained; }
+public static yarnwrap.item.Item FARMLAND() { return new yarnwrap.item.Item(net.minecraft.item.Items.FARMLAND); }
+// public static void FARMLAND(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FARMLAND = value.wrapperContained; }
+
+// public yarnwrap.item.Item TRIPWIRE_HOOK() { return new yarnwrap.item.Item(wrapperContained.TRIPWIRE_HOOK); }
+// public void TRIPWIRE_HOOK(yarnwrap.item.Item value) { wrapperContained.TRIPWIRE_HOOK = value.wrapperContained; }
+public static yarnwrap.item.Item TRIPWIRE_HOOK() { return new yarnwrap.item.Item(net.minecraft.item.Items.TRIPWIRE_HOOK); }
+// public static void TRIPWIRE_HOOK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TRIPWIRE_HOOK = value.wrapperContained; }
+
+// public yarnwrap.item.Item GREEN_BED() { return new yarnwrap.item.Item(wrapperContained.GREEN_BED); }
+// public void GREEN_BED(yarnwrap.item.Item value) { wrapperContained.GREEN_BED = value.wrapperContained; }
+public static yarnwrap.item.Item GREEN_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_BED); }
+// public static void GREEN_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item MOSSY_COBBLESTONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.MOSSY_COBBLESTONE_SLAB); }
+// public void MOSSY_COBBLESTONE_SLAB(yarnwrap.item.Item value) { wrapperContained.MOSSY_COBBLESTONE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item MOSSY_COBBLESTONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_COBBLESTONE_SLAB); }
+// public static void MOSSY_COBBLESTONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_COBBLESTONE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.OAK_TRAPDOOR); }
+// public void OAK_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.OAK_TRAPDOOR = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_TRAPDOOR); }
+// public static void OAK_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_TRAPDOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_BLUE_BANNER() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_BANNER); }
+// public void LIGHT_BLUE_BANNER(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_BLUE_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_BANNER); }
+// public static void LIGHT_BLUE_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item ORANGE_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.ORANGE_SHULKER_BOX); }
+// public void ORANGE_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.ORANGE_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item ORANGE_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_SHULKER_BOX); }
+// public static void ORANGE_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_BRAIN_CORAL() { return new yarnwrap.item.Item(wrapperContained.DEAD_BRAIN_CORAL); }
+// public void DEAD_BRAIN_CORAL(yarnwrap.item.Item value) { wrapperContained.DEAD_BRAIN_CORAL = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_BRAIN_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BRAIN_CORAL); }
+// public static void DEAD_BRAIN_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BRAIN_CORAL = value.wrapperContained; }
+
+// public yarnwrap.item.Item PODZOL() { return new yarnwrap.item.Item(wrapperContained.PODZOL); }
+// public void PODZOL(yarnwrap.item.Item value) { wrapperContained.PODZOL = value.wrapperContained; }
+public static yarnwrap.item.Item PODZOL() { return new yarnwrap.item.Item(net.minecraft.item.Items.PODZOL); }
+// public static void PODZOL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PODZOL = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGENTA_CARPET() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_CARPET); }
+// public void MAGENTA_CARPET(yarnwrap.item.Item value) { wrapperContained.MAGENTA_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item MAGENTA_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_CARPET); }
+// public static void MAGENTA_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item YELLOW_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.YELLOW_TERRACOTTA); }
+// public void YELLOW_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.YELLOW_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item YELLOW_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_TERRACOTTA); }
+// public static void YELLOW_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item PRISMARINE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.PRISMARINE_STAIRS); }
+// public void PRISMARINE_STAIRS(yarnwrap.item.Item value) { wrapperContained.PRISMARINE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item PRISMARINE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PRISMARINE_STAIRS); }
+// public static void PRISMARINE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PRISMARINE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item CYAN_BED() { return new yarnwrap.item.Item(wrapperContained.CYAN_BED); }
+// public void CYAN_BED(yarnwrap.item.Item value) { wrapperContained.CYAN_BED = value.wrapperContained; }
+public static yarnwrap.item.Item CYAN_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_BED); }
+// public static void CYAN_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.OAK_PRESSURE_PLATE); }
+// public void OAK_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.OAK_PRESSURE_PLATE = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_PRESSURE_PLATE); }
+// public static void OAK_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_PRESSURE_PLATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item COBBLESTONE_WALL() { return new yarnwrap.item.Item(wrapperContained.COBBLESTONE_WALL); }
+// public void COBBLESTONE_WALL(yarnwrap.item.Item value) { wrapperContained.COBBLESTONE_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item COBBLESTONE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.COBBLESTONE_WALL); }
+// public static void COBBLESTONE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COBBLESTONE_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item ORANGE_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.ORANGE_STAINED_GLASS); }
+// public void ORANGE_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.ORANGE_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item ORANGE_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_STAINED_GLASS); }
+// public static void ORANGE_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BROWN_GLAZED_TERRACOTTA); }
+// public void BROWN_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BROWN_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_GLAZED_TERRACOTTA); }
+// public static void BROWN_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item POLISHED_ANDESITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.POLISHED_ANDESITE_SLAB); }
+// public void POLISHED_ANDESITE_SLAB(yarnwrap.item.Item value) { wrapperContained.POLISHED_ANDESITE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item POLISHED_ANDESITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_ANDESITE_SLAB); }
+// public static void POLISHED_ANDESITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_ANDESITE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item SKELETON_SKULL() { return new yarnwrap.item.Item(wrapperContained.SKELETON_SKULL); }
+// public void SKELETON_SKULL(yarnwrap.item.Item value) { wrapperContained.SKELETON_SKULL = value.wrapperContained; }
+public static yarnwrap.item.Item SKELETON_SKULL() { return new yarnwrap.item.Item(net.minecraft.item.Items.SKELETON_SKULL); }
+// public static void SKELETON_SKULL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SKELETON_SKULL = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_SLAB() { return new yarnwrap.item.Item(wrapperContained.ACACIA_SLAB); }
+// public void ACACIA_SLAB(yarnwrap.item.Item value) { wrapperContained.ACACIA_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_SLAB); }
+// public static void ACACIA_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item INFESTED_COBBLESTONE() { return new yarnwrap.item.Item(wrapperContained.INFESTED_COBBLESTONE); }
+// public void INFESTED_COBBLESTONE(yarnwrap.item.Item value) { wrapperContained.INFESTED_COBBLESTONE = value.wrapperContained; }
+public static yarnwrap.item.Item INFESTED_COBBLESTONE() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_COBBLESTONE); }
+// public static void INFESTED_COBBLESTONE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_COBBLESTONE = value.wrapperContained; }
+
+// public yarnwrap.item.Item TUBE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.TUBE_CORAL_BLOCK); }
+// public void TUBE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.TUBE_CORAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item TUBE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.TUBE_CORAL_BLOCK); }
+// public static void TUBE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TUBE_CORAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_PLANKS() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_PLANKS); }
+// public void DARK_OAK_PLANKS(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_PLANKS = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_PLANKS); }
+// public static void DARK_OAK_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_PLANKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPLE_BANNER() { return new yarnwrap.item.Item(wrapperContained.PURPLE_BANNER); }
+// public void PURPLE_BANNER(yarnwrap.item.Item value) { wrapperContained.PURPLE_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item PURPLE_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_BANNER); }
+// public static void PURPLE_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLACK_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.BLACK_STAINED_GLASS); }
+// public void BLACK_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.BLACK_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item BLACK_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_STAINED_GLASS); }
+// public static void BLACK_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPLE_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.PURPLE_CONCRETE); }
+// public void PURPLE_CONCRETE(yarnwrap.item.Item value) { wrapperContained.PURPLE_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item PURPLE_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_CONCRETE); }
+// public static void PURPLE_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item QUARTZ_SLAB() { return new yarnwrap.item.Item(wrapperContained.QUARTZ_SLAB); }
+// public void QUARTZ_SLAB(yarnwrap.item.Item value) { wrapperContained.QUARTZ_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item QUARTZ_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.QUARTZ_SLAB); }
+// public static void QUARTZ_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.QUARTZ_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_OAK_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_OAK_LOG); }
+// public void STRIPPED_OAK_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_OAK_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_OAK_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_OAK_LOG); }
+// public static void STRIPPED_OAK_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_OAK_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item PINK_BED() { return new yarnwrap.item.Item(wrapperContained.PINK_BED); }
+// public void PINK_BED(yarnwrap.item.Item value) { wrapperContained.PINK_BED = value.wrapperContained; }
+public static yarnwrap.item.Item PINK_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_BED); }
+// public static void PINK_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIME_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.LIME_CONCRETE_POWDER); }
+// public void LIME_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.LIME_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item LIME_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_CONCRETE_POWDER); }
+// public static void LIME_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_NETHER_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.RED_NETHER_BRICK_WALL); }
+// public void RED_NETHER_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.RED_NETHER_BRICK_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item RED_NETHER_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_NETHER_BRICK_WALL); }
+// public static void RED_NETHER_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_NETHER_BRICK_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_SIGN() { return new yarnwrap.item.Item(wrapperContained.BIRCH_SIGN); }
+// public void BIRCH_SIGN(yarnwrap.item.Item value) { wrapperContained.BIRCH_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_SIGN); }
+// public static void BIRCH_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item ICE() { return new yarnwrap.item.Item(wrapperContained.ICE); }
+// public void ICE(yarnwrap.item.Item value) { wrapperContained.ICE = value.wrapperContained; }
+public static yarnwrap.item.Item ICE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ICE); }
+// public static void ICE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ICE = value.wrapperContained; }
+
+// public yarnwrap.item.Item DAMAGED_ANVIL() { return new yarnwrap.item.Item(wrapperContained.DAMAGED_ANVIL); }
+// public void DAMAGED_ANVIL(yarnwrap.item.Item value) { wrapperContained.DAMAGED_ANVIL = value.wrapperContained; }
+public static yarnwrap.item.Item DAMAGED_ANVIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DAMAGED_ANVIL); }
+// public static void DAMAGED_ANVIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DAMAGED_ANVIL = value.wrapperContained; }
+
+// public yarnwrap.item.Item SMOOTH_QUARTZ_STAIRS() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_QUARTZ_STAIRS); }
+// public void SMOOTH_QUARTZ_STAIRS(yarnwrap.item.Item value) { wrapperContained.SMOOTH_QUARTZ_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item SMOOTH_QUARTZ_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_QUARTZ_STAIRS); }
+// public static void SMOOTH_QUARTZ_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_QUARTZ_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.BROWN_CONCRETE_POWDER); }
+// public void BROWN_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.BROWN_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_CONCRETE_POWDER); }
+// public static void BROWN_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_DOOR() { return new yarnwrap.item.Item(wrapperContained.BIRCH_DOOR); }
+// public void BIRCH_DOOR(yarnwrap.item.Item value) { wrapperContained.BIRCH_DOOR = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_DOOR); }
+// public static void BIRCH_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_DOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_WOOD() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_WOOD); }
+// public void JUNGLE_WOOD(yarnwrap.item.Item value) { wrapperContained.JUNGLE_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_WOOD); }
+// public static void JUNGLE_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item PRISMARINE_SLAB() { return new yarnwrap.item.Item(wrapperContained.PRISMARINE_SLAB); }
+// public void PRISMARINE_SLAB(yarnwrap.item.Item value) { wrapperContained.PRISMARINE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item PRISMARINE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.PRISMARINE_SLAB); }
+// public static void PRISMARINE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PRISMARINE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item SANDSTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.SANDSTONE_STAIRS); }
+// public void SANDSTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.SANDSTONE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item SANDSTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SANDSTONE_STAIRS); }
+// public static void SANDSTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SANDSTONE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item NETHER_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.NETHER_BRICK_STAIRS); }
+// public void NETHER_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.NETHER_BRICK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item NETHER_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_BRICK_STAIRS); }
+// public static void NETHER_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_BRICK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_STAIRS() { return new yarnwrap.item.Item(wrapperContained.ACACIA_STAIRS); }
+// public void ACACIA_STAIRS(yarnwrap.item.Item value) { wrapperContained.ACACIA_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_STAIRS); }
+// public static void ACACIA_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_GRAY_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_SHULKER_BOX); }
+// public void LIGHT_GRAY_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_GRAY_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_SHULKER_BOX); }
+// public static void LIGHT_GRAY_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item BUBBLE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.BUBBLE_CORAL_FAN); }
+// public void BUBBLE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.BUBBLE_CORAL_FAN = value.wrapperContained; }
+public static yarnwrap.item.Item BUBBLE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.BUBBLE_CORAL_FAN); }
+// public static void BUBBLE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BUBBLE_CORAL_FAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_FENCE() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_FENCE); }
+// public void DARK_OAK_FENCE(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_FENCE = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_FENCE); }
+// public static void DARK_OAK_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_FENCE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BLUE_TERRACOTTA); }
+// public void BLUE_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BLUE_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_TERRACOTTA); }
+// public static void BLUE_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.RED_SANDSTONE_STAIRS); }
+// public void RED_SANDSTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.RED_SANDSTONE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item RED_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_SANDSTONE_STAIRS); }
+// public static void RED_SANDSTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_SANDSTONE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_FENCE() { return new yarnwrap.item.Item(wrapperContained.BIRCH_FENCE); }
+// public void BIRCH_FENCE(yarnwrap.item.Item value) { wrapperContained.BIRCH_FENCE = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_FENCE); }
+// public static void BIRCH_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_FENCE = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_WOOD() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_WOOD); }
+// public void DARK_OAK_WOOD(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_WOOD); }
+// public static void DARK_OAK_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_PRISMARINE_SLAB() { return new yarnwrap.item.Item(wrapperContained.DARK_PRISMARINE_SLAB); }
+// public void DARK_PRISMARINE_SLAB(yarnwrap.item.Item value) { wrapperContained.DARK_PRISMARINE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_PRISMARINE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_PRISMARINE_SLAB); }
+// public static void DARK_PRISMARINE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_PRISMARINE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item COARSE_DIRT() { return new yarnwrap.item.Item(wrapperContained.COARSE_DIRT); }
+// public void COARSE_DIRT(yarnwrap.item.Item value) { wrapperContained.COARSE_DIRT = value.wrapperContained; }
+public static yarnwrap.item.Item COARSE_DIRT() { return new yarnwrap.item.Item(net.minecraft.item.Items.COARSE_DIRT); }
+// public static void COARSE_DIRT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COARSE_DIRT = value.wrapperContained; }
+
+// public yarnwrap.item.Item GREEN_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.GREEN_SHULKER_BOX); }
+// public void GREEN_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.GREEN_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item GREEN_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_SHULKER_BOX); }
+// public static void GREEN_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_BUBBLE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.DEAD_BUBBLE_CORAL_FAN); }
+// public void DEAD_BUBBLE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.DEAD_BUBBLE_CORAL_FAN = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_BUBBLE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BUBBLE_CORAL_FAN); }
+// public static void DEAD_BUBBLE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BUBBLE_CORAL_FAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_BED() { return new yarnwrap.item.Item(wrapperContained.BROWN_BED); }
+// public void BROWN_BED(yarnwrap.item.Item value) { wrapperContained.BROWN_BED = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_BED); }
+// public static void BROWN_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item CRAFTING_TABLE() { return new yarnwrap.item.Item(wrapperContained.CRAFTING_TABLE); }
+// public void CRAFTING_TABLE(yarnwrap.item.Item value) { wrapperContained.CRAFTING_TABLE = value.wrapperContained; }
+public static yarnwrap.item.Item CRAFTING_TABLE() { return new yarnwrap.item.Item(net.minecraft.item.Items.CRAFTING_TABLE); }
+// public static void CRAFTING_TABLE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CRAFTING_TABLE = value.wrapperContained; }
+
+// public yarnwrap.item.Item ENDER_CHEST() { return new yarnwrap.item.Item(wrapperContained.ENDER_CHEST); }
+// public void ENDER_CHEST(yarnwrap.item.Item value) { wrapperContained.ENDER_CHEST = value.wrapperContained; }
+public static yarnwrap.item.Item ENDER_CHEST() { return new yarnwrap.item.Item(net.minecraft.item.Items.ENDER_CHEST); }
+// public static void ENDER_CHEST(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ENDER_CHEST = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BROWN_TERRACOTTA); }
+// public void BROWN_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BROWN_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_TERRACOTTA); }
+// public static void BROWN_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item REPEATING_COMMAND_BLOCK() { return new yarnwrap.item.Item(wrapperContained.REPEATING_COMMAND_BLOCK); }
+// public void REPEATING_COMMAND_BLOCK(yarnwrap.item.Item value) { wrapperContained.REPEATING_COMMAND_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item REPEATING_COMMAND_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.REPEATING_COMMAND_BLOCK); }
+// public static void REPEATING_COMMAND_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REPEATING_COMMAND_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item ZOMBIE_HEAD() { return new yarnwrap.item.Item(wrapperContained.ZOMBIE_HEAD); }
+// public void ZOMBIE_HEAD(yarnwrap.item.Item value) { wrapperContained.ZOMBIE_HEAD = value.wrapperContained; }
+public static yarnwrap.item.Item ZOMBIE_HEAD() { return new yarnwrap.item.Item(net.minecraft.item.Items.ZOMBIE_HEAD); }
+// public static void ZOMBIE_HEAD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ZOMBIE_HEAD = value.wrapperContained; }
+
+// public yarnwrap.item.Item FERN() { return new yarnwrap.item.Item(wrapperContained.FERN); }
+// public void FERN(yarnwrap.item.Item value) { wrapperContained.FERN = value.wrapperContained; }
+public static yarnwrap.item.Item FERN() { return new yarnwrap.item.Item(net.minecraft.item.Items.FERN); }
+// public static void FERN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FERN = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_BIRCH_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_BIRCH_WOOD); }
+// public void STRIPPED_BIRCH_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_BIRCH_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_BIRCH_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_BIRCH_WOOD); }
+// public static void STRIPPED_BIRCH_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_BIRCH_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item BRAIN_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.BRAIN_CORAL_BLOCK); }
+// public void BRAIN_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.BRAIN_CORAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item BRAIN_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRAIN_CORAL_BLOCK); }
+// public static void BRAIN_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRAIN_CORAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item COAL_ORE() { return new yarnwrap.item.Item(wrapperContained.COAL_ORE); }
+// public void COAL_ORE(yarnwrap.item.Item value) { wrapperContained.COAL_ORE = value.wrapperContained; }
+public static yarnwrap.item.Item COAL_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.COAL_ORE); }
+// public static void COAL_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COAL_ORE = value.wrapperContained; }
+
+// public yarnwrap.item.Item STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.STONE_BRICK_STAIRS); }
+// public void STONE_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.STONE_BRICK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_BRICK_STAIRS); }
+// public static void STONE_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_BRICK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_CARPET() { return new yarnwrap.item.Item(wrapperContained.RED_CARPET); }
+// public void RED_CARPET(yarnwrap.item.Item value) { wrapperContained.RED_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item RED_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_CARPET); }
+// public static void RED_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item WHITE_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.WHITE_STAINED_GLASS); }
+// public void WHITE_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.WHITE_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item WHITE_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_STAINED_GLASS); }
+// public static void WHITE_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BLUE_GLAZED_TERRACOTTA); }
+// public void BLUE_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BLUE_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_GLAZED_TERRACOTTA); }
+// public static void BLUE_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item ORANGE_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.ORANGE_CONCRETE_POWDER); }
+// public void ORANGE_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.ORANGE_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item ORANGE_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_CONCRETE_POWDER); }
+// public static void ORANGE_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRANITE_WALL() { return new yarnwrap.item.Item(wrapperContained.GRANITE_WALL); }
+// public void GRANITE_WALL(yarnwrap.item.Item value) { wrapperContained.GRANITE_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item GRANITE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRANITE_WALL); }
+// public static void GRANITE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRANITE_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPUR_PILLAR() { return new yarnwrap.item.Item(wrapperContained.PURPUR_PILLAR); }
+// public void PURPUR_PILLAR(yarnwrap.item.Item value) { wrapperContained.PURPUR_PILLAR = value.wrapperContained; }
+public static yarnwrap.item.Item PURPUR_PILLAR() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPUR_PILLAR); }
+// public static void PURPUR_PILLAR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPUR_PILLAR = value.wrapperContained; }
+
+// public yarnwrap.item.Item DANDELION() { return new yarnwrap.item.Item(wrapperContained.DANDELION); }
+// public void DANDELION(yarnwrap.item.Item value) { wrapperContained.DANDELION = value.wrapperContained; }
+public static yarnwrap.item.Item DANDELION() { return new yarnwrap.item.Item(net.minecraft.item.Items.DANDELION); }
+// public static void DANDELION(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DANDELION = value.wrapperContained; }
+
+// public yarnwrap.item.Item GOLD_BLOCK() { return new yarnwrap.item.Item(wrapperContained.GOLD_BLOCK); }
+// public void GOLD_BLOCK(yarnwrap.item.Item value) { wrapperContained.GOLD_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item GOLD_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.GOLD_BLOCK); }
+// public static void GOLD_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GOLD_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_TRAPDOOR); }
+// public void SPRUCE_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.SPRUCE_TRAPDOOR = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_TRAPDOOR); }
+// public static void SPRUCE_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_TRAPDOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_SIGN() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_SIGN); }
+// public void DARK_OAK_SIGN(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_SIGN); }
+// public static void DARK_OAK_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item QUARTZ_STAIRS() { return new yarnwrap.item.Item(wrapperContained.QUARTZ_STAIRS); }
+// public void QUARTZ_STAIRS(yarnwrap.item.Item value) { wrapperContained.QUARTZ_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item QUARTZ_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.QUARTZ_STAIRS); }
+// public static void QUARTZ_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.QUARTZ_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item PINK_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.PINK_STAINED_GLASS_PANE); }
+// public void PINK_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.PINK_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item PINK_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_STAINED_GLASS_PANE); }
+// public static void PINK_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.BROWN_STAINED_GLASS_PANE); }
+// public void BROWN_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.BROWN_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_STAINED_GLASS_PANE); }
+// public static void BROWN_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item NETHER_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.NETHER_BRICK_SLAB); }
+// public void NETHER_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.NETHER_BRICK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item NETHER_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_BRICK_SLAB); }
+// public static void NETHER_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_BRICK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_MUSHROOM_BLOCK() { return new yarnwrap.item.Item(wrapperContained.BROWN_MUSHROOM_BLOCK); }
+// public void BROWN_MUSHROOM_BLOCK(yarnwrap.item.Item value) { wrapperContained.BROWN_MUSHROOM_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_MUSHROOM_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_MUSHROOM_BLOCK); }
+// public static void BROWN_MUSHROOM_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_MUSHROOM_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAY_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.GRAY_STAINED_GLASS); }
+// public void GRAY_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.GRAY_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item GRAY_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_STAINED_GLASS); }
+// public static void GRAY_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGENTA_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_CONCRETE); }
+// public void MAGENTA_CONCRETE(yarnwrap.item.Item value) { wrapperContained.MAGENTA_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item MAGENTA_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_CONCRETE); }
+// public static void MAGENTA_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLACK_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.BLACK_CONCRETE_POWDER); }
+// public void BLACK_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.BLACK_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item BLACK_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_CONCRETE_POWDER); }
+// public static void BLACK_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_DOOR() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_DOOR); }
+// public void DARK_OAK_DOOR(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_DOOR = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_DOOR); }
+// public static void DARK_OAK_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_DOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item DIRT_PATH() { return new yarnwrap.item.Item(wrapperContained.DIRT_PATH); }
+// public void DIRT_PATH(yarnwrap.item.Item value) { wrapperContained.DIRT_PATH = value.wrapperContained; }
+public static yarnwrap.item.Item DIRT_PATH() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIRT_PATH); }
+// public static void DIRT_PATH(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIRT_PATH = value.wrapperContained; }
+
+// public yarnwrap.item.Item PINK_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.PINK_SHULKER_BOX); }
+// public void PINK_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.PINK_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item PINK_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_SHULKER_BOX); }
+// public static void PINK_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item TUBE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.TUBE_CORAL_FAN); }
+// public void TUBE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.TUBE_CORAL_FAN = value.wrapperContained; }
+public static yarnwrap.item.Item TUBE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.TUBE_CORAL_FAN); }
+// public static void TUBE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TUBE_CORAL_FAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_NETHER_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.RED_NETHER_BRICK_SLAB); }
+// public void RED_NETHER_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.RED_NETHER_BRICK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item RED_NETHER_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_NETHER_BRICK_SLAB); }
+// public static void RED_NETHER_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_NETHER_BRICK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item STONE_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.STONE_BRICK_SLAB); }
+// public void STONE_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.STONE_BRICK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item STONE_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_BRICK_SLAB); }
+// public static void STONE_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_BRICK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHISELED_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.CHISELED_STONE_BRICKS); }
+// public void CHISELED_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.CHISELED_STONE_BRICKS = value.wrapperContained; }
+public static yarnwrap.item.Item CHISELED_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHISELED_STONE_BRICKS); }
+// public static void CHISELED_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHISELED_STONE_BRICKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item ANDESITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.ANDESITE_STAIRS); }
+// public void ANDESITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.ANDESITE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item ANDESITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.ANDESITE_STAIRS); }
+// public static void ANDESITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ANDESITE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item REDSTONE_TORCH() { return new yarnwrap.item.Item(wrapperContained.REDSTONE_TORCH); }
+// public void REDSTONE_TORCH(yarnwrap.item.Item value) { wrapperContained.REDSTONE_TORCH = value.wrapperContained; }
+public static yarnwrap.item.Item REDSTONE_TORCH() { return new yarnwrap.item.Item(net.minecraft.item.Items.REDSTONE_TORCH); }
+// public static void REDSTONE_TORCH(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REDSTONE_TORCH = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_BUTTON() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_BUTTON); }
+// public void DARK_OAK_BUTTON(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_BUTTON = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_BUTTON); }
+// public static void DARK_OAK_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_BUTTON = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPONGE() { return new yarnwrap.item.Item(wrapperContained.SPONGE); }
+// public void SPONGE(yarnwrap.item.Item value) { wrapperContained.SPONGE = value.wrapperContained; }
+public static yarnwrap.item.Item SPONGE() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPONGE); }
+// public static void SPONGE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPONGE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BOOKSHELF() { return new yarnwrap.item.Item(wrapperContained.BOOKSHELF); }
+// public void BOOKSHELF(yarnwrap.item.Item value) { wrapperContained.BOOKSHELF = value.wrapperContained; }
+public static yarnwrap.item.Item BOOKSHELF() { return new yarnwrap.item.Item(net.minecraft.item.Items.BOOKSHELF); }
+// public static void BOOKSHELF(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BOOKSHELF = value.wrapperContained; }
+
+// public yarnwrap.item.Item OBSERVER() { return new yarnwrap.item.Item(wrapperContained.OBSERVER); }
+// public void OBSERVER(yarnwrap.item.Item value) { wrapperContained.OBSERVER = value.wrapperContained; }
+public static yarnwrap.item.Item OBSERVER() { return new yarnwrap.item.Item(net.minecraft.item.Items.OBSERVER); }
+// public static void OBSERVER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OBSERVER = value.wrapperContained; }
+
+// public yarnwrap.item.Item BUBBLE_CORAL() { return new yarnwrap.item.Item(wrapperContained.BUBBLE_CORAL); }
+// public void BUBBLE_CORAL(yarnwrap.item.Item value) { wrapperContained.BUBBLE_CORAL = value.wrapperContained; }
+public static yarnwrap.item.Item BUBBLE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.BUBBLE_CORAL); }
+// public static void BUBBLE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BUBBLE_CORAL = value.wrapperContained; }
+
+// public yarnwrap.item.Item WHITE_BANNER() { return new yarnwrap.item.Item(wrapperContained.WHITE_BANNER); }
+// public void WHITE_BANNER(yarnwrap.item.Item value) { wrapperContained.WHITE_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item WHITE_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_BANNER); }
+// public static void WHITE_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_SLAB() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_SLAB); }
+// public void DARK_OAK_SLAB(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_SLAB); }
+// public static void DARK_OAK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item INFESTED_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.INFESTED_STONE_BRICKS); }
+// public void INFESTED_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.INFESTED_STONE_BRICKS = value.wrapperContained; }
+public static yarnwrap.item.Item INFESTED_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_STONE_BRICKS); }
+// public static void INFESTED_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_STONE_BRICKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BEDROCK() { return new yarnwrap.item.Item(wrapperContained.BEDROCK); }
+// public void BEDROCK(yarnwrap.item.Item value) { wrapperContained.BEDROCK = value.wrapperContained; }
+public static yarnwrap.item.Item BEDROCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.BEDROCK); }
+// public static void BEDROCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BEDROCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.SHULKER_BOX); }
+// public void SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.SHULKER_BOX); }
+// public static void SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item FIRE_CORAL() { return new yarnwrap.item.Item(wrapperContained.FIRE_CORAL); }
+// public void FIRE_CORAL(yarnwrap.item.Item value) { wrapperContained.FIRE_CORAL = value.wrapperContained; }
+public static yarnwrap.item.Item FIRE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.FIRE_CORAL); }
+// public static void FIRE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FIRE_CORAL = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIME_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.LIME_SHULKER_BOX); }
+// public void LIME_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.LIME_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item LIME_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_SHULKER_BOX); }
+// public static void LIME_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_TUBE_CORAL() { return new yarnwrap.item.Item(wrapperContained.DEAD_TUBE_CORAL); }
+// public void DEAD_TUBE_CORAL(yarnwrap.item.Item value) { wrapperContained.DEAD_TUBE_CORAL = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_TUBE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_TUBE_CORAL); }
+// public static void DEAD_TUBE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_TUBE_CORAL = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHISELED_SANDSTONE() { return new yarnwrap.item.Item(wrapperContained.CHISELED_SANDSTONE); }
+// public void CHISELED_SANDSTONE(yarnwrap.item.Item value) { wrapperContained.CHISELED_SANDSTONE = value.wrapperContained; }
+public static yarnwrap.item.Item CHISELED_SANDSTONE() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHISELED_SANDSTONE); }
+// public static void CHISELED_SANDSTONE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHISELED_SANDSTONE = value.wrapperContained; }
+
+// public yarnwrap.item.Item WET_SPONGE() { return new yarnwrap.item.Item(wrapperContained.WET_SPONGE); }
+// public void WET_SPONGE(yarnwrap.item.Item value) { wrapperContained.WET_SPONGE = value.wrapperContained; }
+public static yarnwrap.item.Item WET_SPONGE() { return new yarnwrap.item.Item(net.minecraft.item.Items.WET_SPONGE); }
+// public static void WET_SPONGE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WET_SPONGE = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_GRAY_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_CONCRETE_POWDER); }
+// public void LIGHT_GRAY_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_GRAY_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_CONCRETE_POWDER); }
+// public static void LIGHT_GRAY_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item DIORITE_WALL() { return new yarnwrap.item.Item(wrapperContained.DIORITE_WALL); }
+// public void DIORITE_WALL(yarnwrap.item.Item value) { wrapperContained.DIORITE_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item DIORITE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIORITE_WALL); }
+// public static void DIORITE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIORITE_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item LARGE_FERN() { return new yarnwrap.item.Item(wrapperContained.LARGE_FERN); }
+// public void LARGE_FERN(yarnwrap.item.Item value) { wrapperContained.LARGE_FERN = value.wrapperContained; }
+public static yarnwrap.item.Item LARGE_FERN() { return new yarnwrap.item.Item(net.minecraft.item.Items.LARGE_FERN); }
+// public static void LARGE_FERN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LARGE_FERN = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPLE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.PURPLE_GLAZED_TERRACOTTA); }
+// public void PURPLE_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.PURPLE_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item PURPLE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_GLAZED_TERRACOTTA); }
+// public static void PURPLE_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUKEBOX() { return new yarnwrap.item.Item(wrapperContained.JUKEBOX); }
+// public void JUKEBOX(yarnwrap.item.Item value) { wrapperContained.JUKEBOX = value.wrapperContained; }
+public static yarnwrap.item.Item JUKEBOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUKEBOX); }
+// public static void JUKEBOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUKEBOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DAYLIGHT_DETECTOR() { return new yarnwrap.item.Item(wrapperContained.DAYLIGHT_DETECTOR); }
+// public void DAYLIGHT_DETECTOR(yarnwrap.item.Item value) { wrapperContained.DAYLIGHT_DETECTOR = value.wrapperContained; }
+public static yarnwrap.item.Item DAYLIGHT_DETECTOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.DAYLIGHT_DETECTOR); }
+// public static void DAYLIGHT_DETECTOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DAYLIGHT_DETECTOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item POLISHED_DIORITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.POLISHED_DIORITE_SLAB); }
+// public void POLISHED_DIORITE_SLAB(yarnwrap.item.Item value) { wrapperContained.POLISHED_DIORITE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item POLISHED_DIORITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_DIORITE_SLAB); }
+// public static void POLISHED_DIORITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_DIORITE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLACK_BANNER() { return new yarnwrap.item.Item(wrapperContained.BLACK_BANNER); }
+// public void BLACK_BANNER(yarnwrap.item.Item value) { wrapperContained.BLACK_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item BLACK_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_BANNER); }
+// public static void BLACK_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item PLAYER_HEAD() { return new yarnwrap.item.Item(wrapperContained.PLAYER_HEAD); }
+// public void PLAYER_HEAD(yarnwrap.item.Item value) { wrapperContained.PLAYER_HEAD = value.wrapperContained; }
+public static yarnwrap.item.Item PLAYER_HEAD() { return new yarnwrap.item.Item(net.minecraft.item.Items.PLAYER_HEAD); }
+// public static void PLAYER_HEAD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PLAYER_HEAD = value.wrapperContained; }
+
+// public yarnwrap.item.Item MOSSY_STONE_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.MOSSY_STONE_BRICK_SLAB); }
+// public void MOSSY_STONE_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.MOSSY_STONE_BRICK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item MOSSY_STONE_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_STONE_BRICK_SLAB); }
+// public static void MOSSY_STONE_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_STONE_BRICK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item PINK_CARPET() { return new yarnwrap.item.Item(wrapperContained.PINK_CARPET); }
+// public void PINK_CARPET(yarnwrap.item.Item value) { wrapperContained.PINK_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item PINK_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_CARPET); }
+// public static void PINK_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIME_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.LIME_STAINED_GLASS_PANE); }
+// public void LIME_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.LIME_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item LIME_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_STAINED_GLASS_PANE); }
+// public static void LIME_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item WHITE_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.WHITE_CONCRETE_POWDER); }
+// public void WHITE_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.WHITE_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item WHITE_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_CONCRETE_POWDER); }
+// public static void WHITE_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_LOG() { return new yarnwrap.item.Item(wrapperContained.OAK_LOG); }
+// public void OAK_LOG(yarnwrap.item.Item value) { wrapperContained.OAK_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_LOG); }
+// public static void OAK_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.BROWN_SHULKER_BOX); }
+// public void BROWN_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.BROWN_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_SHULKER_BOX); }
+// public static void BROWN_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_BRAIN_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.DEAD_BRAIN_CORAL_FAN); }
+// public void DEAD_BRAIN_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.DEAD_BRAIN_CORAL_FAN = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_BRAIN_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BRAIN_CORAL_FAN); }
+// public static void DEAD_BRAIN_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BRAIN_CORAL_FAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_BANNER() { return new yarnwrap.item.Item(wrapperContained.RED_BANNER); }
+// public void RED_BANNER(yarnwrap.item.Item value) { wrapperContained.RED_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item RED_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_BANNER); }
+// public static void RED_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_WOOD() { return new yarnwrap.item.Item(wrapperContained.ACACIA_WOOD); }
+// public void ACACIA_WOOD(yarnwrap.item.Item value) { wrapperContained.ACACIA_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_WOOD); }
+// public static void ACACIA_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item PRISMARINE_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.PRISMARINE_BRICK_SLAB); }
+// public void PRISMARINE_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.PRISMARINE_BRICK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item PRISMARINE_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.PRISMARINE_BRICK_SLAB); }
+// public static void PRISMARINE_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PRISMARINE_BRICK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item HEAVY_WEIGHTED_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.HEAVY_WEIGHTED_PRESSURE_PLATE); }
+// public void HEAVY_WEIGHTED_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.HEAVY_WEIGHTED_PRESSURE_PLATE = value.wrapperContained; }
+public static yarnwrap.item.Item HEAVY_WEIGHTED_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.HEAVY_WEIGHTED_PRESSURE_PLATE); }
+// public static void HEAVY_WEIGHTED_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HEAVY_WEIGHTED_PRESSURE_PLATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item CYAN_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.CYAN_CONCRETE_POWDER); }
+// public void CYAN_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.CYAN_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item CYAN_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_CONCRETE_POWDER); }
+// public static void CYAN_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item IRON_DOOR() { return new yarnwrap.item.Item(wrapperContained.IRON_DOOR); }
+// public void IRON_DOOR(yarnwrap.item.Item value) { wrapperContained.IRON_DOOR = value.wrapperContained; }
+public static yarnwrap.item.Item IRON_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.IRON_DOOR); }
+// public static void IRON_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.IRON_DOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item STONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.STONE_SLAB); }
+// public void STONE_SLAB(yarnwrap.item.Item value) { wrapperContained.STONE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item STONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_SLAB); }
+// public static void STONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item INFESTED_MOSSY_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.INFESTED_MOSSY_STONE_BRICKS); }
+// public void INFESTED_MOSSY_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.INFESTED_MOSSY_STONE_BRICKS = value.wrapperContained; }
+public static yarnwrap.item.Item INFESTED_MOSSY_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_MOSSY_STONE_BRICKS); }
+// public static void INFESTED_MOSSY_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_MOSSY_STONE_BRICKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item IRON_ORE() { return new yarnwrap.item.Item(wrapperContained.IRON_ORE); }
+// public void IRON_ORE(yarnwrap.item.Item value) { wrapperContained.IRON_ORE = value.wrapperContained; }
+public static yarnwrap.item.Item IRON_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.IRON_ORE); }
+// public static void IRON_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.IRON_ORE = value.wrapperContained; }
+
+// public yarnwrap.item.Item SHORT_GRASS() { return new yarnwrap.item.Item(wrapperContained.SHORT_GRASS); }
+// public void SHORT_GRASS(yarnwrap.item.Item value) { wrapperContained.SHORT_GRASS = value.wrapperContained; }
+public static yarnwrap.item.Item SHORT_GRASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SHORT_GRASS); }
+// public static void SHORT_GRASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SHORT_GRASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item DIAMOND_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DIAMOND_BLOCK); }
+// public void DIAMOND_BLOCK(yarnwrap.item.Item value) { wrapperContained.DIAMOND_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item DIAMOND_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIAMOND_BLOCK); }
+// public static void DIAMOND_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIAMOND_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item REDSTONE_ORE() { return new yarnwrap.item.Item(wrapperContained.REDSTONE_ORE); }
+// public void REDSTONE_ORE(yarnwrap.item.Item value) { wrapperContained.REDSTONE_ORE = value.wrapperContained; }
+public static yarnwrap.item.Item REDSTONE_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.REDSTONE_ORE); }
+// public static void REDSTONE_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REDSTONE_ORE = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_BUTTON() { return new yarnwrap.item.Item(wrapperContained.ACACIA_BUTTON); }
+// public void ACACIA_BUTTON(yarnwrap.item.Item value) { wrapperContained.ACACIA_BUTTON = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_BUTTON); }
+// public static void ACACIA_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_BUTTON = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRANITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.GRANITE_STAIRS); }
+// public void GRANITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.GRANITE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item GRANITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRANITE_STAIRS); }
+// public static void GRANITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRANITE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item MYCELIUM() { return new yarnwrap.item.Item(wrapperContained.MYCELIUM); }
+// public void MYCELIUM(yarnwrap.item.Item value) { wrapperContained.MYCELIUM = value.wrapperContained; }
+public static yarnwrap.item.Item MYCELIUM() { return new yarnwrap.item.Item(net.minecraft.item.Items.MYCELIUM); }
+// public static void MYCELIUM(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MYCELIUM = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLACK_CARPET() { return new yarnwrap.item.Item(wrapperContained.BLACK_CARPET); }
+// public void BLACK_CARPET(yarnwrap.item.Item value) { wrapperContained.BLACK_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item BLACK_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_CARPET); }
+// public static void BLACK_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRUCTURE_VOID() { return new yarnwrap.item.Item(wrapperContained.STRUCTURE_VOID); }
+// public void STRUCTURE_VOID(yarnwrap.item.Item value) { wrapperContained.STRUCTURE_VOID = value.wrapperContained; }
+public static yarnwrap.item.Item STRUCTURE_VOID() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRUCTURE_VOID); }
+// public static void STRUCTURE_VOID(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRUCTURE_VOID = value.wrapperContained; }
+
+// public yarnwrap.item.Item BRAIN_CORAL() { return new yarnwrap.item.Item(wrapperContained.BRAIN_CORAL); }
+// public void BRAIN_CORAL(yarnwrap.item.Item value) { wrapperContained.BRAIN_CORAL = value.wrapperContained; }
+public static yarnwrap.item.Item BRAIN_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRAIN_CORAL); }
+// public static void BRAIN_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRAIN_CORAL = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAY_BANNER() { return new yarnwrap.item.Item(wrapperContained.GRAY_BANNER); }
+// public void GRAY_BANNER(yarnwrap.item.Item value) { wrapperContained.GRAY_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item GRAY_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_BANNER); }
+// public static void GRAY_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item TURTLE_EGG() { return new yarnwrap.item.Item(wrapperContained.TURTLE_EGG); }
+// public void TURTLE_EGG(yarnwrap.item.Item value) { wrapperContained.TURTLE_EGG = value.wrapperContained; }
+public static yarnwrap.item.Item TURTLE_EGG() { return new yarnwrap.item.Item(net.minecraft.item.Items.TURTLE_EGG); }
+// public static void TURTLE_EGG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TURTLE_EGG = value.wrapperContained; }
+
+// public yarnwrap.item.Item REPEATER() { return new yarnwrap.item.Item(wrapperContained.REPEATER); }
+// public void REPEATER(yarnwrap.item.Item value) { wrapperContained.REPEATER = value.wrapperContained; }
+public static yarnwrap.item.Item REPEATER() { return new yarnwrap.item.Item(net.minecraft.item.Items.REPEATER); }
+// public static void REPEATER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REPEATER = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_SPRUCE_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_SPRUCE_LOG); }
+// public void STRIPPED_SPRUCE_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_SPRUCE_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_SPRUCE_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_SPRUCE_LOG); }
+// public static void STRIPPED_SPRUCE_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_SPRUCE_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item TNT() { return new yarnwrap.item.Item(wrapperContained.TNT); }
+// public void TNT(yarnwrap.item.Item value) { wrapperContained.TNT = value.wrapperContained; }
+public static yarnwrap.item.Item TNT() { return new yarnwrap.item.Item(net.minecraft.item.Items.TNT); }
+// public static void TNT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TNT = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAY_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.GRAY_SHULKER_BOX); }
+// public void GRAY_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.GRAY_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item GRAY_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_SHULKER_BOX); }
+// public static void GRAY_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item BRAIN_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.BRAIN_CORAL_FAN); }
+// public void BRAIN_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.BRAIN_CORAL_FAN = value.wrapperContained; }
+public static yarnwrap.item.Item BRAIN_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRAIN_CORAL_FAN); }
+// public static void BRAIN_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRAIN_CORAL_FAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item CYAN_BANNER() { return new yarnwrap.item.Item(wrapperContained.CYAN_BANNER); }
+// public void CYAN_BANNER(yarnwrap.item.Item value) { wrapperContained.CYAN_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item CYAN_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_BANNER); }
+// public static void CYAN_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.RED_STAINED_GLASS); }
+// public void RED_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.RED_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item RED_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_STAINED_GLASS); }
+// public static void RED_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item CYAN_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.CYAN_CONCRETE); }
+// public void CYAN_CONCRETE(yarnwrap.item.Item value) { wrapperContained.CYAN_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item CYAN_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_CONCRETE); }
+// public static void CYAN_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item CAULDRON() { return new yarnwrap.item.Item(wrapperContained.CAULDRON); }
+// public void CAULDRON(yarnwrap.item.Item value) { wrapperContained.CAULDRON = value.wrapperContained; }
+public static yarnwrap.item.Item CAULDRON() { return new yarnwrap.item.Item(net.minecraft.item.Items.CAULDRON); }
+// public static void CAULDRON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CAULDRON = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_BLUE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_GLAZED_TERRACOTTA); }
+// public void LIGHT_BLUE_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_BLUE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_GLAZED_TERRACOTTA); }
+// public static void LIGHT_BLUE_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item SMOOTH_RED_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_RED_SANDSTONE_STAIRS); }
+// public void SMOOTH_RED_SANDSTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.SMOOTH_RED_SANDSTONE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item SMOOTH_RED_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_RED_SANDSTONE_STAIRS); }
+// public static void SMOOTH_RED_SANDSTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_RED_SANDSTONE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item NOTE_BLOCK() { return new yarnwrap.item.Item(wrapperContained.NOTE_BLOCK); }
+// public void NOTE_BLOCK(yarnwrap.item.Item value) { wrapperContained.NOTE_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item NOTE_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.NOTE_BLOCK); }
+// public static void NOTE_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NOTE_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPUR_STAIRS() { return new yarnwrap.item.Item(wrapperContained.PURPUR_STAIRS); }
+// public void PURPUR_STAIRS(yarnwrap.item.Item value) { wrapperContained.PURPUR_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item PURPUR_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPUR_STAIRS); }
+// public static void PURPUR_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPUR_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_FENCE() { return new yarnwrap.item.Item(wrapperContained.ACACIA_FENCE); }
+// public void ACACIA_FENCE(yarnwrap.item.Item value) { wrapperContained.ACACIA_FENCE = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_FENCE); }
+// public static void ACACIA_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_FENCE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BAMBOO() { return new yarnwrap.item.Item(wrapperContained.BAMBOO); }
+// public void BAMBOO(yarnwrap.item.Item value) { wrapperContained.BAMBOO = value.wrapperContained; }
+public static yarnwrap.item.Item BAMBOO() { return new yarnwrap.item.Item(net.minecraft.item.Items.BAMBOO); }
+// public static void BAMBOO(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BAMBOO = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIME_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIME_GLAZED_TERRACOTTA); }
+// public void LIME_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIME_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item LIME_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_GLAZED_TERRACOTTA); }
+// public static void LIME_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item POLISHED_DIORITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.POLISHED_DIORITE_STAIRS); }
+// public void POLISHED_DIORITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.POLISHED_DIORITE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item POLISHED_DIORITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_DIORITE_STAIRS); }
+// public static void POLISHED_DIORITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_DIORITE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_PLANKS() { return new yarnwrap.item.Item(wrapperContained.ACACIA_PLANKS); }
+// public void ACACIA_PLANKS(yarnwrap.item.Item value) { wrapperContained.ACACIA_PLANKS = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_PLANKS); }
+// public static void ACACIA_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_PLANKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_LOG() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_LOG); }
+// public void DARK_OAK_LOG(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_LOG); }
+// public static void DARK_OAK_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_FENCE_GATE); }
+// public void SPRUCE_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.SPRUCE_FENCE_GATE = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_FENCE_GATE); }
+// public static void SPRUCE_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_FENCE_GATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_GRAY_CARPET() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_CARPET); }
+// public void LIGHT_GRAY_CARPET(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_GRAY_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_CARPET); }
+// public static void LIGHT_GRAY_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACTIVATOR_RAIL() { return new yarnwrap.item.Item(wrapperContained.ACTIVATOR_RAIL); }
+// public void ACTIVATOR_RAIL(yarnwrap.item.Item value) { wrapperContained.ACTIVATOR_RAIL = value.wrapperContained; }
+public static yarnwrap.item.Item ACTIVATOR_RAIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACTIVATOR_RAIL); }
+// public static void ACTIVATOR_RAIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACTIVATOR_RAIL = value.wrapperContained; }
+
+// public yarnwrap.item.Item GREEN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.GREEN_STAINED_GLASS_PANE); }
+// public void GREEN_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.GREEN_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item GREEN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_STAINED_GLASS_PANE); }
+// public static void GREEN_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item ENCHANTING_TABLE() { return new yarnwrap.item.Item(wrapperContained.ENCHANTING_TABLE); }
+// public void ENCHANTING_TABLE(yarnwrap.item.Item value) { wrapperContained.ENCHANTING_TABLE = value.wrapperContained; }
+public static yarnwrap.item.Item ENCHANTING_TABLE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ENCHANTING_TABLE); }
+// public static void ENCHANTING_TABLE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ENCHANTING_TABLE = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_STAIRS); }
+// public void DARK_OAK_STAIRS(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_STAIRS); }
+// public static void DARK_OAK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item DIORITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.DIORITE_SLAB); }
+// public void DIORITE_SLAB(yarnwrap.item.Item value) { wrapperContained.DIORITE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item DIORITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIORITE_SLAB); }
+// public static void DIORITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIORITE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.BRICK_STAIRS); }
+// public void BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.BRICK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRICK_STAIRS); }
+// public static void BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRICK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item GREEN_CARPET() { return new yarnwrap.item.Item(wrapperContained.GREEN_CARPET); }
+// public void GREEN_CARPET(yarnwrap.item.Item value) { wrapperContained.GREEN_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item GREEN_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_CARPET); }
+// public static void GREEN_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item STONE_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.STONE_PRESSURE_PLATE); }
+// public void STONE_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.STONE_PRESSURE_PLATE = value.wrapperContained; }
+public static yarnwrap.item.Item STONE_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_PRESSURE_PLATE); }
+// public static void STONE_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_PRESSURE_PLATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BEACON() { return new yarnwrap.item.Item(wrapperContained.BEACON); }
+// public void BEACON(yarnwrap.item.Item value) { wrapperContained.BEACON = value.wrapperContained; }
+public static yarnwrap.item.Item BEACON() { return new yarnwrap.item.Item(net.minecraft.item.Items.BEACON); }
+// public static void BEACON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BEACON = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGENTA_BANNER() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_BANNER); }
+// public void MAGENTA_BANNER(yarnwrap.item.Item value) { wrapperContained.MAGENTA_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item MAGENTA_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_BANNER); }
+// public static void MAGENTA_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIME_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIME_TERRACOTTA); }
+// public void LIME_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIME_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item LIME_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_TERRACOTTA); }
+// public static void LIME_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item PRISMARINE_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.PRISMARINE_BRICK_STAIRS); }
+// public void PRISMARINE_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.PRISMARINE_BRICK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item PRISMARINE_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PRISMARINE_BRICK_STAIRS); }
+// public static void PRISMARINE_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PRISMARINE_BRICK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.RED_SHULKER_BOX); }
+// public void RED_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.RED_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item RED_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_SHULKER_BOX); }
+// public static void RED_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_FIRE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.DEAD_FIRE_CORAL_FAN); }
+// public void DEAD_FIRE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.DEAD_FIRE_CORAL_FAN = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_FIRE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_FIRE_CORAL_FAN); }
+// public static void DEAD_FIRE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_FIRE_CORAL_FAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIME_BED() { return new yarnwrap.item.Item(wrapperContained.LIME_BED); }
+// public void LIME_BED(yarnwrap.item.Item value) { wrapperContained.LIME_BED = value.wrapperContained; }
+public static yarnwrap.item.Item LIME_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_BED); }
+// public static void LIME_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item CREEPER_HEAD() { return new yarnwrap.item.Item(wrapperContained.CREEPER_HEAD); }
+// public void CREEPER_HEAD(yarnwrap.item.Item value) { wrapperContained.CREEPER_HEAD = value.wrapperContained; }
+public static yarnwrap.item.Item CREEPER_HEAD() { return new yarnwrap.item.Item(net.minecraft.item.Items.CREEPER_HEAD); }
+// public static void CREEPER_HEAD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CREEPER_HEAD = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_MUSHROOM_BLOCK() { return new yarnwrap.item.Item(wrapperContained.RED_MUSHROOM_BLOCK); }
+// public void RED_MUSHROOM_BLOCK(yarnwrap.item.Item value) { wrapperContained.RED_MUSHROOM_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item RED_MUSHROOM_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_MUSHROOM_BLOCK); }
+// public static void RED_MUSHROOM_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_MUSHROOM_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item ORANGE_CARPET() { return new yarnwrap.item.Item(wrapperContained.ORANGE_CARPET); }
+// public void ORANGE_CARPET(yarnwrap.item.Item value) { wrapperContained.ORANGE_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item ORANGE_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_CARPET); }
+// public static void ORANGE_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_LOG() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_LOG); }
+// public void SPRUCE_LOG(yarnwrap.item.Item value) { wrapperContained.SPRUCE_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_LOG); }
+// public static void SPRUCE_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item CYAN_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.CYAN_STAINED_GLASS); }
+// public void CYAN_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.CYAN_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item CYAN_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_STAINED_GLASS); }
+// public static void CYAN_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item YELLOW_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.YELLOW_CONCRETE); }
+// public void YELLOW_CONCRETE(yarnwrap.item.Item value) { wrapperContained.YELLOW_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item YELLOW_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_CONCRETE); }
+// public static void YELLOW_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_BUSH() { return new yarnwrap.item.Item(wrapperContained.DEAD_BUSH); }
+// public void DEAD_BUSH(yarnwrap.item.Item value) { wrapperContained.DEAD_BUSH = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_BUSH() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BUSH); }
+// public static void DEAD_BUSH(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BUSH = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPLE_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.PURPLE_CONCRETE_POWDER); }
+// public void PURPLE_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.PURPLE_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item PURPLE_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_CONCRETE_POWDER); }
+// public static void PURPLE_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_DOOR() { return new yarnwrap.item.Item(wrapperContained.OAK_DOOR); }
+// public void OAK_DOOR(yarnwrap.item.Item value) { wrapperContained.OAK_DOOR = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_DOOR); }
+// public static void OAK_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_DOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item JACK_O_LANTERN() { return new yarnwrap.item.Item(wrapperContained.JACK_O_LANTERN); }
+// public void JACK_O_LANTERN(yarnwrap.item.Item value) { wrapperContained.JACK_O_LANTERN = value.wrapperContained; }
+public static yarnwrap.item.Item JACK_O_LANTERN() { return new yarnwrap.item.Item(net.minecraft.item.Items.JACK_O_LANTERN); }
+// public static void JACK_O_LANTERN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JACK_O_LANTERN = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_HORN_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DEAD_HORN_CORAL_BLOCK); }
+// public void DEAD_HORN_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.DEAD_HORN_CORAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_HORN_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_HORN_CORAL_BLOCK); }
+// public static void DEAD_HORN_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_HORN_CORAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_FENCE() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_FENCE); }
+// public void SPRUCE_FENCE(yarnwrap.item.Item value) { wrapperContained.SPRUCE_FENCE = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_FENCE); }
+// public static void SPRUCE_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_FENCE = value.wrapperContained; }
+
+// public yarnwrap.item.Item NETHER_QUARTZ_ORE() { return new yarnwrap.item.Item(wrapperContained.NETHER_QUARTZ_ORE); }
+// public void NETHER_QUARTZ_ORE(yarnwrap.item.Item value) { wrapperContained.NETHER_QUARTZ_ORE = value.wrapperContained; }
+public static yarnwrap.item.Item NETHER_QUARTZ_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_QUARTZ_ORE); }
+// public static void NETHER_QUARTZ_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_QUARTZ_ORE = value.wrapperContained; }
+
+// public yarnwrap.item.Item YELLOW_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.YELLOW_STAINED_GLASS_PANE); }
+// public void YELLOW_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.YELLOW_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item YELLOW_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_STAINED_GLASS_PANE); }
+// public static void YELLOW_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLACK_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.BLACK_CONCRETE); }
+// public void BLACK_CONCRETE(yarnwrap.item.Item value) { wrapperContained.BLACK_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item BLACK_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_CONCRETE); }
+// public static void BLACK_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_PRESSURE_PLATE); }
+// public void SPRUCE_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.SPRUCE_PRESSURE_PLATE = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_PRESSURE_PLATE); }
+// public static void SPRUCE_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_PRESSURE_PLATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item MOSSY_COBBLESTONE_WALL() { return new yarnwrap.item.Item(wrapperContained.MOSSY_COBBLESTONE_WALL); }
+// public void MOSSY_COBBLESTONE_WALL(yarnwrap.item.Item value) { wrapperContained.MOSSY_COBBLESTONE_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item MOSSY_COBBLESTONE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_COBBLESTONE_WALL); }
+// public static void MOSSY_COBBLESTONE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_COBBLESTONE_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHORUS_FLOWER() { return new yarnwrap.item.Item(wrapperContained.CHORUS_FLOWER); }
+// public void CHORUS_FLOWER(yarnwrap.item.Item value) { wrapperContained.CHORUS_FLOWER = value.wrapperContained; }
+public static yarnwrap.item.Item CHORUS_FLOWER() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHORUS_FLOWER); }
+// public static void CHORUS_FLOWER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHORUS_FLOWER = value.wrapperContained; }
+
+// public yarnwrap.item.Item DRAGON_HEAD() { return new yarnwrap.item.Item(wrapperContained.DRAGON_HEAD); }
+// public void DRAGON_HEAD(yarnwrap.item.Item value) { wrapperContained.DRAGON_HEAD = value.wrapperContained; }
+public static yarnwrap.item.Item DRAGON_HEAD() { return new yarnwrap.item.Item(net.minecraft.item.Items.DRAGON_HEAD); }
+// public static void DRAGON_HEAD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DRAGON_HEAD = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPLE_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.PURPLE_TERRACOTTA); }
+// public void PURPLE_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.PURPLE_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item PURPLE_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_TERRACOTTA); }
+// public static void PURPLE_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_BLUE_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_TERRACOTTA); }
+// public void LIGHT_BLUE_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_BLUE_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_TERRACOTTA); }
+// public static void LIGHT_BLUE_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_WEIGHTED_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.LIGHT_WEIGHTED_PRESSURE_PLATE); }
+// public void LIGHT_WEIGHTED_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.LIGHT_WEIGHTED_PRESSURE_PLATE = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_WEIGHTED_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_WEIGHTED_PRESSURE_PLATE); }
+// public static void LIGHT_WEIGHTED_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_WEIGHTED_PRESSURE_PLATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item WHITE_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.WHITE_SHULKER_BOX); }
+// public void WHITE_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.WHITE_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item WHITE_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_SHULKER_BOX); }
+// public static void WHITE_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item HORN_CORAL() { return new yarnwrap.item.Item(wrapperContained.HORN_CORAL); }
+// public void HORN_CORAL(yarnwrap.item.Item value) { wrapperContained.HORN_CORAL = value.wrapperContained; }
+public static yarnwrap.item.Item HORN_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.HORN_CORAL); }
+// public static void HORN_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HORN_CORAL = value.wrapperContained; }
+
+// public yarnwrap.item.Item FURNACE() { return new yarnwrap.item.Item(wrapperContained.FURNACE); }
+// public void FURNACE(yarnwrap.item.Item value) { wrapperContained.FURNACE = value.wrapperContained; }
+public static yarnwrap.item.Item FURNACE() { return new yarnwrap.item.Item(net.minecraft.item.Items.FURNACE); }
+// public static void FURNACE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FURNACE = value.wrapperContained; }
+
+// public yarnwrap.item.Item EMERALD_BLOCK() { return new yarnwrap.item.Item(wrapperContained.EMERALD_BLOCK); }
+// public void EMERALD_BLOCK(yarnwrap.item.Item value) { wrapperContained.EMERALD_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item EMERALD_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.EMERALD_BLOCK); }
+// public static void EMERALD_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.EMERALD_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item GREEN_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.GREEN_STAINED_GLASS); }
+// public void GREEN_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.GREEN_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item GREEN_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_STAINED_GLASS); }
+// public static void GREEN_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_GRAY_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_CONCRETE); }
+// public void LIGHT_GRAY_CONCRETE(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_GRAY_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_CONCRETE); }
+// public static void LIGHT_GRAY_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item WHITE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.WHITE_STAINED_GLASS_PANE); }
+// public void WHITE_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.WHITE_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item WHITE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_STAINED_GLASS_PANE); }
+// public static void WHITE_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.BLUE_CONCRETE); }
+// public void BLUE_CONCRETE(yarnwrap.item.Item value) { wrapperContained.BLUE_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_CONCRETE); }
+// public static void BLUE_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPLE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.PURPLE_STAINED_GLASS_PANE); }
+// public void PURPLE_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.PURPLE_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item PURPLE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_STAINED_GLASS_PANE); }
+// public static void PURPLE_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BREWING_STAND() { return new yarnwrap.item.Item(wrapperContained.BREWING_STAND); }
+// public void BREWING_STAND(yarnwrap.item.Item value) { wrapperContained.BREWING_STAND = value.wrapperContained; }
+public static yarnwrap.item.Item BREWING_STAND() { return new yarnwrap.item.Item(net.minecraft.item.Items.BREWING_STAND); }
+// public static void BREWING_STAND(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BREWING_STAND = value.wrapperContained; }
+
+// public yarnwrap.item.Item ANDESITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.ANDESITE_SLAB); }
+// public void ANDESITE_SLAB(yarnwrap.item.Item value) { wrapperContained.ANDESITE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item ANDESITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.ANDESITE_SLAB); }
+// public static void ANDESITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ANDESITE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item QUARTZ_PILLAR() { return new yarnwrap.item.Item(wrapperContained.QUARTZ_PILLAR); }
+// public void QUARTZ_PILLAR(yarnwrap.item.Item value) { wrapperContained.QUARTZ_PILLAR = value.wrapperContained; }
+public static yarnwrap.item.Item QUARTZ_PILLAR() { return new yarnwrap.item.Item(net.minecraft.item.Items.QUARTZ_PILLAR); }
+// public static void QUARTZ_PILLAR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.QUARTZ_PILLAR = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.BLUE_STAINED_GLASS_PANE); }
+// public void BLUE_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.BLUE_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_STAINED_GLASS_PANE); }
+// public static void BLUE_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item SNOW() { return new yarnwrap.item.Item(wrapperContained.SNOW); }
+// public void SNOW(yarnwrap.item.Item value) { wrapperContained.SNOW = value.wrapperContained; }
+public static yarnwrap.item.Item SNOW() { return new yarnwrap.item.Item(net.minecraft.item.Items.SNOW); }
+// public static void SNOW(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SNOW = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHIPPED_ANVIL() { return new yarnwrap.item.Item(wrapperContained.CHIPPED_ANVIL); }
+// public void CHIPPED_ANVIL(yarnwrap.item.Item value) { wrapperContained.CHIPPED_ANVIL = value.wrapperContained; }
+public static yarnwrap.item.Item CHIPPED_ANVIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHIPPED_ANVIL); }
+// public static void CHIPPED_ANVIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHIPPED_ANVIL = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAY_BED() { return new yarnwrap.item.Item(wrapperContained.GRAY_BED); }
+// public void GRAY_BED(yarnwrap.item.Item value) { wrapperContained.GRAY_BED = value.wrapperContained; }
+public static yarnwrap.item.Item GRAY_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_BED); }
+// public static void GRAY_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.RED_CONCRETE_POWDER); }
+// public void RED_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.RED_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item RED_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_CONCRETE_POWDER); }
+// public static void RED_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_DOOR() { return new yarnwrap.item.Item(wrapperContained.ACACIA_DOOR); }
+// public void ACACIA_DOOR(yarnwrap.item.Item value) { wrapperContained.ACACIA_DOOR = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_DOOR); }
+// public static void ACACIA_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_DOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item ORANGE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.ORANGE_STAINED_GLASS_PANE); }
+// public void ORANGE_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.ORANGE_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item ORANGE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_STAINED_GLASS_PANE); }
+// public static void ORANGE_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BROWN_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.BROWN_CONCRETE); }
+// public void BROWN_CONCRETE(yarnwrap.item.Item value) { wrapperContained.BROWN_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item BROWN_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_CONCRETE); }
+// public static void BROWN_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_BLUE_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_CONCRETE_POWDER); }
+// public void LIGHT_BLUE_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_BLUE_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_CONCRETE_POWDER); }
+// public static void LIGHT_BLUE_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item NETHER_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.NETHER_BRICK_WALL); }
+// public void NETHER_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.NETHER_BRICK_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item NETHER_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_BRICK_WALL); }
+// public static void NETHER_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_BRICK_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_BIRCH_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_BIRCH_LOG); }
+// public void STRIPPED_BIRCH_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_BIRCH_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_BIRCH_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_BIRCH_LOG); }
+// public static void STRIPPED_BIRCH_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_BIRCH_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item PINK_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.PINK_STAINED_GLASS); }
+// public void PINK_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.PINK_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item PINK_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_STAINED_GLASS); }
+// public static void PINK_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item ORANGE_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.ORANGE_CONCRETE); }
+// public void ORANGE_CONCRETE(yarnwrap.item.Item value) { wrapperContained.ORANGE_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item ORANGE_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_CONCRETE); }
+// public static void ORANGE_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item LOOM() { return new yarnwrap.item.Item(wrapperContained.LOOM); }
+// public void LOOM(yarnwrap.item.Item value) { wrapperContained.LOOM = value.wrapperContained; }
+public static yarnwrap.item.Item LOOM() { return new yarnwrap.item.Item(net.minecraft.item.Items.LOOM); }
+// public static void LOOM(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LOOM = value.wrapperContained; }
+
+// public yarnwrap.item.Item IRON_BLOCK() { return new yarnwrap.item.Item(wrapperContained.IRON_BLOCK); }
+// public void IRON_BLOCK(yarnwrap.item.Item value) { wrapperContained.IRON_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item IRON_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.IRON_BLOCK); }
+// public static void IRON_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.IRON_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.BIRCH_TRAPDOOR); }
+// public void BIRCH_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.BIRCH_TRAPDOOR = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_TRAPDOOR); }
+// public static void BIRCH_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_TRAPDOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item GOLD_ORE() { return new yarnwrap.item.Item(wrapperContained.GOLD_ORE); }
+// public void GOLD_ORE(yarnwrap.item.Item value) { wrapperContained.GOLD_ORE = value.wrapperContained; }
+public static yarnwrap.item.Item GOLD_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GOLD_ORE); }
+// public static void GOLD_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GOLD_ORE = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIME_BANNER() { return new yarnwrap.item.Item(wrapperContained.LIME_BANNER); }
+// public void LIME_BANNER(yarnwrap.item.Item value) { wrapperContained.LIME_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item LIME_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_BANNER); }
+// public static void LIME_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.BIRCH_PRESSURE_PLATE); }
+// public void BIRCH_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.BIRCH_PRESSURE_PLATE = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_PRESSURE_PLATE); }
+// public static void BIRCH_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_PRESSURE_PLATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_BUTTON() { return new yarnwrap.item.Item(wrapperContained.OAK_BUTTON); }
+// public void OAK_BUTTON(yarnwrap.item.Item value) { wrapperContained.OAK_BUTTON = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_BUTTON); }
+// public static void OAK_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_BUTTON = value.wrapperContained; }
+
+// public yarnwrap.item.Item STONE_BUTTON() { return new yarnwrap.item.Item(wrapperContained.STONE_BUTTON); }
+// public void STONE_BUTTON(yarnwrap.item.Item value) { wrapperContained.STONE_BUTTON = value.wrapperContained; }
+public static yarnwrap.item.Item STONE_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_BUTTON); }
+// public static void STONE_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_BUTTON = value.wrapperContained; }
+
+// public yarnwrap.item.Item ANVIL() { return new yarnwrap.item.Item(wrapperContained.ANVIL); }
+// public void ANVIL(yarnwrap.item.Item value) { wrapperContained.ANVIL = value.wrapperContained; }
+public static yarnwrap.item.Item ANVIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.ANVIL); }
+// public static void ANVIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ANVIL = value.wrapperContained; }
+
+// public yarnwrap.item.Item MAGENTA_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_TERRACOTTA); }
+// public void MAGENTA_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.MAGENTA_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item MAGENTA_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_TERRACOTTA); }
+// public static void MAGENTA_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_JUNGLE_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_JUNGLE_WOOD); }
+// public void STRIPPED_JUNGLE_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_JUNGLE_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_JUNGLE_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_JUNGLE_WOOD); }
+// public static void STRIPPED_JUNGLE_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_JUNGLE_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item COBWEB() { return new yarnwrap.item.Item(wrapperContained.COBWEB); }
+// public void COBWEB(yarnwrap.item.Item value) { wrapperContained.COBWEB = value.wrapperContained; }
+public static yarnwrap.item.Item COBWEB() { return new yarnwrap.item.Item(net.minecraft.item.Items.COBWEB); }
+// public static void COBWEB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COBWEB = value.wrapperContained; }
+
+// public yarnwrap.item.Item DIAMOND_ORE() { return new yarnwrap.item.Item(wrapperContained.DIAMOND_ORE); }
+// public void DIAMOND_ORE(yarnwrap.item.Item value) { wrapperContained.DIAMOND_ORE = value.wrapperContained; }
+public static yarnwrap.item.Item DIAMOND_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIAMOND_ORE); }
+// public static void DIAMOND_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIAMOND_ORE = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_SIGN() { return new yarnwrap.item.Item(wrapperContained.OAK_SIGN); }
+// public void OAK_SIGN(yarnwrap.item.Item value) { wrapperContained.OAK_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_SIGN); }
+// public static void OAK_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_BED() { return new yarnwrap.item.Item(wrapperContained.RED_BED); }
+// public void RED_BED(yarnwrap.item.Item value) { wrapperContained.RED_BED = value.wrapperContained; }
+public static yarnwrap.item.Item RED_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_BED); }
+// public static void RED_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item WITHER_SKELETON_SKULL() { return new yarnwrap.item.Item(wrapperContained.WITHER_SKELETON_SKULL); }
+// public void WITHER_SKELETON_SKULL(yarnwrap.item.Item value) { wrapperContained.WITHER_SKELETON_SKULL = value.wrapperContained; }
+public static yarnwrap.item.Item WITHER_SKELETON_SKULL() { return new yarnwrap.item.Item(net.minecraft.item.Items.WITHER_SKELETON_SKULL); }
+// public static void WITHER_SKELETON_SKULL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WITHER_SKELETON_SKULL = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_FENCE() { return new yarnwrap.item.Item(wrapperContained.OAK_FENCE); }
+// public void OAK_FENCE(yarnwrap.item.Item value) { wrapperContained.OAK_FENCE = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_FENCE); }
+// public static void OAK_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_FENCE = value.wrapperContained; }
+
+// public yarnwrap.item.Item REDSTONE_BLOCK() { return new yarnwrap.item.Item(wrapperContained.REDSTONE_BLOCK); }
+// public void REDSTONE_BLOCK(yarnwrap.item.Item value) { wrapperContained.REDSTONE_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item REDSTONE_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.REDSTONE_BLOCK); }
+// public static void REDSTONE_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REDSTONE_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item COAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.COAL_BLOCK); }
+// public void COAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.COAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item COAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.COAL_BLOCK); }
+// public static void COAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item GREEN_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.GREEN_TERRACOTTA); }
+// public void GREEN_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.GREEN_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item GREEN_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_TERRACOTTA); }
+// public static void GREEN_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHAIN_COMMAND_BLOCK() { return new yarnwrap.item.Item(wrapperContained.CHAIN_COMMAND_BLOCK); }
+// public void CHAIN_COMMAND_BLOCK(yarnwrap.item.Item value) { wrapperContained.CHAIN_COMMAND_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item CHAIN_COMMAND_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHAIN_COMMAND_BLOCK); }
+// public static void CHAIN_COMMAND_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHAIN_COMMAND_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item GLOWSTONE() { return new yarnwrap.item.Item(wrapperContained.GLOWSTONE); }
+// public void GLOWSTONE(yarnwrap.item.Item value) { wrapperContained.GLOWSTONE = value.wrapperContained; }
+public static yarnwrap.item.Item GLOWSTONE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GLOWSTONE); }
+// public static void GLOWSTONE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GLOWSTONE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.BRICK_WALL); }
+// public void BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.BRICK_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRICK_WALL); }
+// public static void BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRICK_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_DARK_OAK_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_DARK_OAK_LOG); }
+// public void STRIPPED_DARK_OAK_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_DARK_OAK_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_DARK_OAK_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_DARK_OAK_LOG); }
+// public static void STRIPPED_DARK_OAK_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_DARK_OAK_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item LAPIS_ORE() { return new yarnwrap.item.Item(wrapperContained.LAPIS_ORE); }
+// public void LAPIS_ORE(yarnwrap.item.Item value) { wrapperContained.LAPIS_ORE = value.wrapperContained; }
+public static yarnwrap.item.Item LAPIS_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LAPIS_ORE); }
+// public static void LAPIS_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LAPIS_ORE = value.wrapperContained; }
+
+// public yarnwrap.item.Item TORCH() { return new yarnwrap.item.Item(wrapperContained.TORCH); }
+// public void TORCH(yarnwrap.item.Item value) { wrapperContained.TORCH = value.wrapperContained; }
+public static yarnwrap.item.Item TORCH() { return new yarnwrap.item.Item(net.minecraft.item.Items.TORCH); }
+// public static void TORCH(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TORCH = value.wrapperContained; }
+
+// public yarnwrap.item.Item MOSSY_STONE_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.MOSSY_STONE_BRICK_WALL); }
+// public void MOSSY_STONE_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.MOSSY_STONE_BRICK_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item MOSSY_STONE_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_STONE_BRICK_WALL); }
+// public static void MOSSY_STONE_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_STONE_BRICK_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPLE_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.PURPLE_SHULKER_BOX); }
+// public void PURPLE_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.PURPLE_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item PURPLE_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_SHULKER_BOX); }
+// public static void PURPLE_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item HORN_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.HORN_CORAL_FAN); }
+// public void HORN_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.HORN_CORAL_FAN = value.wrapperContained; }
+public static yarnwrap.item.Item HORN_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.HORN_CORAL_FAN); }
+// public static void HORN_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HORN_CORAL_FAN = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAY_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.GRAY_CONCRETE_POWDER); }
+// public void GRAY_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.GRAY_CONCRETE_POWDER = value.wrapperContained; }
+public static yarnwrap.item.Item GRAY_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_CONCRETE_POWDER); }
+// public static void GRAY_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_CONCRETE_POWDER = value.wrapperContained; }
+
+// public yarnwrap.item.Item END_STONE_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.END_STONE_BRICK_WALL); }
+// public void END_STONE_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.END_STONE_BRICK_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item END_STONE_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.END_STONE_BRICK_WALL); }
+// public static void END_STONE_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.END_STONE_BRICK_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_LOG() { return new yarnwrap.item.Item(wrapperContained.ACACIA_LOG); }
+// public void ACACIA_LOG(yarnwrap.item.Item value) { wrapperContained.ACACIA_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_LOG); }
+// public static void ACACIA_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item CYAN_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.CYAN_TERRACOTTA); }
+// public void CYAN_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.CYAN_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item CYAN_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_TERRACOTTA); }
+// public static void CYAN_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHISELED_RED_SANDSTONE() { return new yarnwrap.item.Item(wrapperContained.CHISELED_RED_SANDSTONE); }
+// public void CHISELED_RED_SANDSTONE(yarnwrap.item.Item value) { wrapperContained.CHISELED_RED_SANDSTONE = value.wrapperContained; }
+public static yarnwrap.item.Item CHISELED_RED_SANDSTONE() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHISELED_RED_SANDSTONE); }
+// public static void CHISELED_RED_SANDSTONE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHISELED_RED_SANDSTONE = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_FENCE() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_FENCE); }
+// public void JUNGLE_FENCE(yarnwrap.item.Item value) { wrapperContained.JUNGLE_FENCE = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_FENCE); }
+// public static void JUNGLE_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_FENCE = value.wrapperContained; }
+
+// public yarnwrap.item.Item ORANGE_BANNER() { return new yarnwrap.item.Item(wrapperContained.ORANGE_BANNER); }
+// public void ORANGE_BANNER(yarnwrap.item.Item value) { wrapperContained.ORANGE_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item ORANGE_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_BANNER); }
+// public static void ORANGE_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item END_PORTAL_FRAME() { return new yarnwrap.item.Item(wrapperContained.END_PORTAL_FRAME); }
+// public void END_PORTAL_FRAME(yarnwrap.item.Item value) { wrapperContained.END_PORTAL_FRAME = value.wrapperContained; }
+public static yarnwrap.item.Item END_PORTAL_FRAME() { return new yarnwrap.item.Item(net.minecraft.item.Items.END_PORTAL_FRAME); }
+// public static void END_PORTAL_FRAME(yarnwrap.item.Item value, ) { net.minecraft.item.Items.END_PORTAL_FRAME = value.wrapperContained; }
+
+// public yarnwrap.item.Item SLIME_BLOCK() { return new yarnwrap.item.Item(wrapperContained.SLIME_BLOCK); }
+// public void SLIME_BLOCK(yarnwrap.item.Item value) { wrapperContained.SLIME_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item SLIME_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.SLIME_BLOCK); }
+// public static void SLIME_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SLIME_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_BLUE_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_SHULKER_BOX); }
+// public void LIGHT_BLUE_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_SHULKER_BOX = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_BLUE_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_SHULKER_BOX); }
+// public static void LIGHT_BLUE_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_SHULKER_BOX = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_FIRE_CORAL() { return new yarnwrap.item.Item(wrapperContained.DEAD_FIRE_CORAL); }
+// public void DEAD_FIRE_CORAL(yarnwrap.item.Item value) { wrapperContained.DEAD_FIRE_CORAL = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_FIRE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_FIRE_CORAL); }
+// public static void DEAD_FIRE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_FIRE_CORAL = value.wrapperContained; }
+
+// public yarnwrap.item.Item DIRT() { return new yarnwrap.item.Item(wrapperContained.DIRT); }
+// public void DIRT(yarnwrap.item.Item value) { wrapperContained.DIRT = value.wrapperContained; }
+public static yarnwrap.item.Item DIRT() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIRT); }
+// public static void DIRT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIRT = value.wrapperContained; }
+
+// public yarnwrap.item.Item EMERALD_ORE() { return new yarnwrap.item.Item(wrapperContained.EMERALD_ORE); }
+// public void EMERALD_ORE(yarnwrap.item.Item value) { wrapperContained.EMERALD_ORE = value.wrapperContained; }
+public static yarnwrap.item.Item EMERALD_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.EMERALD_ORE); }
+// public static void EMERALD_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.EMERALD_ORE = value.wrapperContained; }
+
+// public yarnwrap.item.Item PURPLE_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.PURPLE_STAINED_GLASS); }
+// public void PURPLE_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.PURPLE_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item PURPLE_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_STAINED_GLASS); }
+// public static void PURPLE_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIME_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.LIME_CONCRETE); }
+// public void LIME_CONCRETE(yarnwrap.item.Item value) { wrapperContained.LIME_CONCRETE = value.wrapperContained; }
+public static yarnwrap.item.Item LIME_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_CONCRETE); }
+// public static void LIME_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_CONCRETE = value.wrapperContained; }
+
+// public yarnwrap.item.Item DRAGON_EGG() { return new yarnwrap.item.Item(wrapperContained.DRAGON_EGG); }
+// public void DRAGON_EGG(yarnwrap.item.Item value) { wrapperContained.DRAGON_EGG = value.wrapperContained; }
+public static yarnwrap.item.Item DRAGON_EGG() { return new yarnwrap.item.Item(net.minecraft.item.Items.DRAGON_EGG); }
+// public static void DRAGON_EGG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DRAGON_EGG = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_PLANKS() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_PLANKS); }
+// public void JUNGLE_PLANKS(yarnwrap.item.Item value) { wrapperContained.JUNGLE_PLANKS = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_PLANKS); }
+// public static void JUNGLE_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_PLANKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_SLAB() { return new yarnwrap.item.Item(wrapperContained.BIRCH_SLAB); }
+// public void BIRCH_SLAB(yarnwrap.item.Item value) { wrapperContained.BIRCH_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_SLAB); }
+// public static void BIRCH_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_TRAPDOOR); }
+// public void DARK_OAK_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_TRAPDOOR = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_TRAPDOOR); }
+// public static void DARK_OAK_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_TRAPDOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item TUBE_CORAL() { return new yarnwrap.item.Item(wrapperContained.TUBE_CORAL); }
+// public void TUBE_CORAL(yarnwrap.item.Item value) { wrapperContained.TUBE_CORAL = value.wrapperContained; }
+public static yarnwrap.item.Item TUBE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.TUBE_CORAL); }
+// public static void TUBE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TUBE_CORAL = value.wrapperContained; }
+
+// public yarnwrap.item.Item POWERED_RAIL() { return new yarnwrap.item.Item(wrapperContained.POWERED_RAIL); }
+// public void POWERED_RAIL(yarnwrap.item.Item value) { wrapperContained.POWERED_RAIL = value.wrapperContained; }
+public static yarnwrap.item.Item POWERED_RAIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.POWERED_RAIL); }
+// public static void POWERED_RAIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POWERED_RAIL = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPAWNER() { return new yarnwrap.item.Item(wrapperContained.SPAWNER); }
+// public void SPAWNER(yarnwrap.item.Item value) { wrapperContained.SPAWNER = value.wrapperContained; }
+public static yarnwrap.item.Item SPAWNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPAWNER); }
+// public static void SPAWNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPAWNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item WHITE_CARPET() { return new yarnwrap.item.Item(wrapperContained.WHITE_CARPET); }
+// public void WHITE_CARPET(yarnwrap.item.Item value) { wrapperContained.WHITE_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item WHITE_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_CARPET); }
+// public static void WHITE_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item PINK_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.PINK_TERRACOTTA); }
+// public void PINK_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.PINK_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item PINK_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_TERRACOTTA); }
+// public static void PINK_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_PRISMARINE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.DARK_PRISMARINE_STAIRS); }
+// public void DARK_PRISMARINE_STAIRS(yarnwrap.item.Item value) { wrapperContained.DARK_PRISMARINE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_PRISMARINE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_PRISMARINE_STAIRS); }
+// public static void DARK_PRISMARINE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_PRISMARINE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_GRAY_BANNER() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_BANNER); }
+// public void LIGHT_GRAY_BANNER(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_BANNER = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_GRAY_BANNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_BANNER); }
+// public static void LIGHT_GRAY_BANNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_BANNER = value.wrapperContained; }
+
+// public yarnwrap.item.Item DEAD_TUBE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DEAD_TUBE_CORAL_BLOCK); }
+// public void DEAD_TUBE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.DEAD_TUBE_CORAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item DEAD_TUBE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_TUBE_CORAL_BLOCK); }
+// public static void DEAD_TUBE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_TUBE_CORAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item COMPARATOR() { return new yarnwrap.item.Item(wrapperContained.COMPARATOR); }
+// public void COMPARATOR(yarnwrap.item.Item value) { wrapperContained.COMPARATOR = value.wrapperContained; }
+public static yarnwrap.item.Item COMPARATOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.COMPARATOR); }
+// public static void COMPARATOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COMPARATOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item SAND() { return new yarnwrap.item.Item(wrapperContained.SAND); }
+// public void SAND(yarnwrap.item.Item value) { wrapperContained.SAND = value.wrapperContained; }
+public static yarnwrap.item.Item SAND() { return new yarnwrap.item.Item(net.minecraft.item.Items.SAND); }
+// public static void SAND(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SAND = value.wrapperContained; }
+
+// public yarnwrap.item.Item DIORITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.DIORITE_STAIRS); }
+// public void DIORITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.DIORITE_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item DIORITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIORITE_STAIRS); }
+// public static void DIORITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIORITE_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item YELLOW_BED() { return new yarnwrap.item.Item(wrapperContained.YELLOW_BED); }
+// public void YELLOW_BED(yarnwrap.item.Item value) { wrapperContained.YELLOW_BED = value.wrapperContained; }
+public static yarnwrap.item.Item YELLOW_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_BED); }
+// public static void YELLOW_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_BED = value.wrapperContained; }
+
+// public yarnwrap.item.Item LEVER() { return new yarnwrap.item.Item(wrapperContained.LEVER); }
+// public void LEVER(yarnwrap.item.Item value) { wrapperContained.LEVER = value.wrapperContained; }
+public static yarnwrap.item.Item LEVER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LEVER); }
+// public static void LEVER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LEVER = value.wrapperContained; }
+
+// public yarnwrap.item.Item COMMAND_BLOCK() { return new yarnwrap.item.Item(wrapperContained.COMMAND_BLOCK); }
+// public void COMMAND_BLOCK(yarnwrap.item.Item value) { wrapperContained.COMMAND_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item COMMAND_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.COMMAND_BLOCK); }
+// public static void COMMAND_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COMMAND_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_SIGN() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_SIGN); }
+// public void JUNGLE_SIGN(yarnwrap.item.Item value) { wrapperContained.JUNGLE_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_SIGN); }
+// public static void JUNGLE_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item LIGHT_BLUE_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_STAINED_GLASS); }
+// public void LIGHT_BLUE_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_STAINED_GLASS = value.wrapperContained; }
+public static yarnwrap.item.Item LIGHT_BLUE_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_STAINED_GLASS); }
+// public static void LIGHT_BLUE_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_STAINED_GLASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.RED_GLAZED_TERRACOTTA); }
+// public void RED_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.RED_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item RED_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_GLAZED_TERRACOTTA); }
+// public static void RED_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAY_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.GRAY_STAINED_GLASS_PANE); }
+// public void GRAY_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.GRAY_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item GRAY_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_STAINED_GLASS_PANE); }
+// public static void GRAY_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item SMOOTH_SANDSTONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_SANDSTONE_SLAB); }
+// public void SMOOTH_SANDSTONE_SLAB(yarnwrap.item.Item value) { wrapperContained.SMOOTH_SANDSTONE_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item SMOOTH_SANDSTONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_SANDSTONE_SLAB); }
+// public static void SMOOTH_SANDSTONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_SANDSTONE_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.OAK_FENCE_GATE); }
+// public void OAK_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.OAK_FENCE_GATE = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_FENCE_GATE); }
+// public static void OAK_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_FENCE_GATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAY_CARPET() { return new yarnwrap.item.Item(wrapperContained.GRAY_CARPET); }
+// public void GRAY_CARPET(yarnwrap.item.Item value) { wrapperContained.GRAY_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item GRAY_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_CARPET); }
+// public static void GRAY_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item DROPPER() { return new yarnwrap.item.Item(wrapperContained.DROPPER); }
+// public void DROPPER(yarnwrap.item.Item value) { wrapperContained.DROPPER = value.wrapperContained; }
+public static yarnwrap.item.Item DROPPER() { return new yarnwrap.item.Item(net.minecraft.item.Items.DROPPER); }
+// public static void DROPPER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DROPPER = value.wrapperContained; }
+
+// public yarnwrap.item.Item RED_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.RED_STAINED_GLASS_PANE); }
+// public void RED_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.RED_STAINED_GLASS_PANE = value.wrapperContained; }
+public static yarnwrap.item.Item RED_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_STAINED_GLASS_PANE); }
+// public static void RED_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_STAINED_GLASS_PANE = value.wrapperContained; }
+
+// public yarnwrap.item.Item POPPY() { return new yarnwrap.item.Item(wrapperContained.POPPY); }
+// public void POPPY(yarnwrap.item.Item value) { wrapperContained.POPPY = value.wrapperContained; }
+public static yarnwrap.item.Item POPPY() { return new yarnwrap.item.Item(net.minecraft.item.Items.POPPY); }
+// public static void POPPY(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POPPY = value.wrapperContained; }
+
+// public yarnwrap.item.Item BUBBLE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.BUBBLE_CORAL_BLOCK); }
+// public void BUBBLE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.BUBBLE_CORAL_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item BUBBLE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.BUBBLE_CORAL_BLOCK); }
+// public static void BUBBLE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BUBBLE_CORAL_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item GRAY_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.GRAY_GLAZED_TERRACOTTA); }
+// public void GRAY_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.GRAY_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item GRAY_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_GLAZED_TERRACOTTA); }
+// public static void GRAY_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_PRESSURE_PLATE); }
+// public void DARK_OAK_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_PRESSURE_PLATE = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_PRESSURE_PLATE); }
+// public static void DARK_OAK_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_PRESSURE_PLATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_BUTTON() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_BUTTON); }
+// public void JUNGLE_BUTTON(yarnwrap.item.Item value) { wrapperContained.JUNGLE_BUTTON = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_BUTTON); }
+// public static void JUNGLE_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_BUTTON = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_WOOD() { return new yarnwrap.item.Item(wrapperContained.OAK_WOOD); }
+// public void OAK_WOOD(yarnwrap.item.Item value) { wrapperContained.OAK_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_WOOD); }
+// public static void OAK_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item YELLOW_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.YELLOW_GLAZED_TERRACOTTA); }
+// public void YELLOW_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.YELLOW_GLAZED_TERRACOTTA = value.wrapperContained; }
+public static yarnwrap.item.Item YELLOW_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_GLAZED_TERRACOTTA); }
+// public static void YELLOW_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_GLAZED_TERRACOTTA = value.wrapperContained; }
+
+// public yarnwrap.item.Item MOSSY_STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.MOSSY_STONE_BRICK_STAIRS); }
+// public void MOSSY_STONE_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.MOSSY_STONE_BRICK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item MOSSY_STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_STONE_BRICK_STAIRS); }
+// public static void MOSSY_STONE_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_STONE_BRICK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item BLUE_BED() { return new yarnwrap.item.Item(wrapperContained.BLUE_BED); }
+// public void BLUE_BED(yarnwrap.item.Item value) { wrapperContained.BLUE_BED = value.wrapperContained; }
+public static yarnwrap.item.Item BLUE_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_BED); }
+// public static void BLUE_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_BED = value.wrapperContained; }
+
 // public yarnwrap.item.Item STONECUTTER() { return new yarnwrap.item.Item(wrapperContained.STONECUTTER); }
 // public void STONECUTTER(yarnwrap.item.Item value) { wrapperContained.STONECUTTER = value.wrapperContained; }
 public static yarnwrap.item.Item STONECUTTER() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONECUTTER); }
@@ -705,6 +3085,16 @@ public static yarnwrap.item.Item WARPED_DOOR() { return new yarnwrap.item.Item(n
 // public void CRIMSON_DOOR(yarnwrap.item.Item value) { wrapperContained.CRIMSON_DOOR = value.wrapperContained; }
 public static yarnwrap.item.Item CRIMSON_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.CRIMSON_DOOR); }
 // public static void CRIMSON_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CRIMSON_DOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item CRIMSON_SIGN() { return new yarnwrap.item.Item(wrapperContained.CRIMSON_SIGN); }
+// public void CRIMSON_SIGN(yarnwrap.item.Item value) { wrapperContained.CRIMSON_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item CRIMSON_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.CRIMSON_SIGN); }
+// public static void CRIMSON_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CRIMSON_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item WARPED_SIGN() { return new yarnwrap.item.Item(wrapperContained.WARPED_SIGN); }
+// public void WARPED_SIGN(yarnwrap.item.Item value) { wrapperContained.WARPED_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item WARPED_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.WARPED_SIGN); }
+// public static void WARPED_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WARPED_SIGN = value.wrapperContained; }
 
 // public yarnwrap.item.Item CRIMSON_NYLIUM() { return new yarnwrap.item.Item(wrapperContained.CRIMSON_NYLIUM); }
 // public void CRIMSON_NYLIUM(yarnwrap.item.Item value) { wrapperContained.CRIMSON_NYLIUM = value.wrapperContained; }
@@ -1581,6 +3971,11 @@ public static yarnwrap.item.Item MANGROVE_BUTTON() { return new yarnwrap.item.It
 public static yarnwrap.item.Item MANGROVE_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.MANGROVE_FENCE_GATE); }
 // public static void MANGROVE_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MANGROVE_FENCE_GATE = value.wrapperContained; }
 
+// public yarnwrap.item.Item MANGROVE_SIGN() { return new yarnwrap.item.Item(wrapperContained.MANGROVE_SIGN); }
+// public void MANGROVE_SIGN(yarnwrap.item.Item value) { wrapperContained.MANGROVE_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item MANGROVE_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.MANGROVE_SIGN); }
+// public static void MANGROVE_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MANGROVE_SIGN = value.wrapperContained; }
+
 // public yarnwrap.item.Item MUD() { return new yarnwrap.item.Item(wrapperContained.MUD); }
 // public void MUD(yarnwrap.item.Item value) { wrapperContained.MUD = value.wrapperContained; }
 public static yarnwrap.item.Item MUD() { return new yarnwrap.item.Item(net.minecraft.item.Items.MUD); }
@@ -1680,6 +4075,61 @@ public static yarnwrap.item.Item BAMBOO_TRAPDOOR() { return new yarnwrap.item.It
 // public void BAMBOO_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.BAMBOO_FENCE_GATE = value.wrapperContained; }
 public static yarnwrap.item.Item BAMBOO_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BAMBOO_FENCE_GATE); }
 // public static void BAMBOO_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BAMBOO_FENCE_GATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item BAMBOO_SIGN() { return new yarnwrap.item.Item(wrapperContained.BAMBOO_SIGN); }
+// public void BAMBOO_SIGN(yarnwrap.item.Item value) { wrapperContained.BAMBOO_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item BAMBOO_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.BAMBOO_SIGN); }
+// public static void BAMBOO_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BAMBOO_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item OAK_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.OAK_HANGING_SIGN); }
+// public void OAK_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.OAK_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item OAK_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_HANGING_SIGN); }
+// public static void OAK_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item SPRUCE_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_HANGING_SIGN); }
+// public void SPRUCE_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.SPRUCE_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item SPRUCE_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_HANGING_SIGN); }
+// public static void SPRUCE_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item BIRCH_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.BIRCH_HANGING_SIGN); }
+// public void BIRCH_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.BIRCH_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item BIRCH_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_HANGING_SIGN); }
+// public static void BIRCH_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item JUNGLE_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_HANGING_SIGN); }
+// public void JUNGLE_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.JUNGLE_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item JUNGLE_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_HANGING_SIGN); }
+// public static void JUNGLE_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item ACACIA_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.ACACIA_HANGING_SIGN); }
+// public void ACACIA_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.ACACIA_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item ACACIA_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_HANGING_SIGN); }
+// public static void ACACIA_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item DARK_OAK_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_HANGING_SIGN); }
+// public void DARK_OAK_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item DARK_OAK_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_HANGING_SIGN); }
+// public static void DARK_OAK_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item MANGROVE_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.MANGROVE_HANGING_SIGN); }
+// public void MANGROVE_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.MANGROVE_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item MANGROVE_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.MANGROVE_HANGING_SIGN); }
+// public static void MANGROVE_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MANGROVE_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item BAMBOO_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.BAMBOO_HANGING_SIGN); }
+// public void BAMBOO_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.BAMBOO_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item BAMBOO_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.BAMBOO_HANGING_SIGN); }
+// public static void BAMBOO_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BAMBOO_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item CRIMSON_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.CRIMSON_HANGING_SIGN); }
+// public void CRIMSON_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.CRIMSON_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item CRIMSON_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.CRIMSON_HANGING_SIGN); }
+// public static void CRIMSON_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CRIMSON_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item WARPED_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.WARPED_HANGING_SIGN); }
+// public void WARPED_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.WARPED_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item WARPED_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.WARPED_HANGING_SIGN); }
+// public static void WARPED_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WARPED_HANGING_SIGN = value.wrapperContained; }
 
 // public yarnwrap.item.Item STRIPPED_BAMBOO_BLOCK() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_BAMBOO_BLOCK); }
 // public void STRIPPED_BAMBOO_BLOCK(yarnwrap.item.Item value) { wrapperContained.STRIPPED_BAMBOO_BLOCK = value.wrapperContained; }
@@ -1790,6 +4240,16 @@ public static yarnwrap.item.Item CHERRY_PRESSURE_PLATE() { return new yarnwrap.i
 // public void CHERRY_DOOR(yarnwrap.item.Item value) { wrapperContained.CHERRY_DOOR = value.wrapperContained; }
 public static yarnwrap.item.Item CHERRY_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHERRY_DOOR); }
 // public static void CHERRY_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHERRY_DOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHERRY_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.CHERRY_HANGING_SIGN); }
+// public void CHERRY_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.CHERRY_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item CHERRY_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHERRY_HANGING_SIGN); }
+// public static void CHERRY_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHERRY_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHERRY_SIGN() { return new yarnwrap.item.Item(wrapperContained.CHERRY_SIGN); }
+// public void CHERRY_SIGN(yarnwrap.item.Item value) { wrapperContained.CHERRY_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item CHERRY_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHERRY_SIGN); }
+// public static void CHERRY_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHERRY_SIGN = value.wrapperContained; }
 
 // public yarnwrap.item.Item SUSPICIOUS_GRAVEL() { return new yarnwrap.item.Item(wrapperContained.SUSPICIOUS_GRAVEL); }
 // public void SUSPICIOUS_GRAVEL(yarnwrap.item.Item value) { wrapperContained.SUSPICIOUS_GRAVEL = value.wrapperContained; }
@@ -2106,2280 +4566,215 @@ public static yarnwrap.item.Item VAULT() { return new yarnwrap.item.Item(net.min
 public static yarnwrap.item.Item HEAVY_CORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.HEAVY_CORE); }
 // public static void HEAVY_CORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HEAVY_CORE = value.wrapperContained; }
 
-// public yarnwrap.item.Item ORANGE_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.ORANGE_TERRACOTTA); }
-// public void ORANGE_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.ORANGE_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item ORANGE_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_TERRACOTTA); }
-// public static void ORANGE_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_PRESSURE_PLATE); }
-// public void JUNGLE_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.JUNGLE_PRESSURE_PLATE = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_PRESSURE_PLATE); }
-// public static void JUNGLE_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_PRESSURE_PLATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_BUTTON() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_BUTTON); }
-// public void SPRUCE_BUTTON(yarnwrap.item.Item value) { wrapperContained.SPRUCE_BUTTON = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_BUTTON); }
-// public static void SPRUCE_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_BUTTON = value.wrapperContained; }
-
-// public yarnwrap.item.Item MAGENTA_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_SHULKER_BOX); }
-// public void MAGENTA_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.MAGENTA_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item MAGENTA_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_SHULKER_BOX); }
-// public static void MAGENTA_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_BUBBLE_CORAL() { return new yarnwrap.item.Item(wrapperContained.DEAD_BUBBLE_CORAL); }
-// public void DEAD_BUBBLE_CORAL(yarnwrap.item.Item value) { wrapperContained.DEAD_BUBBLE_CORAL = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_BUBBLE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BUBBLE_CORAL); }
-// public static void DEAD_BUBBLE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BUBBLE_CORAL = value.wrapperContained; }
-
-// public yarnwrap.item.Item STONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.STONE_STAIRS); }
-// public void STONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.STONE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item STONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_STAIRS); }
-// public static void STONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item LAPIS_BLOCK() { return new yarnwrap.item.Item(wrapperContained.LAPIS_BLOCK); }
-// public void LAPIS_BLOCK(yarnwrap.item.Item value) { wrapperContained.LAPIS_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item LAPIS_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.LAPIS_BLOCK); }
-// public static void LAPIS_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LAPIS_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item END_ROD() { return new yarnwrap.item.Item(wrapperContained.END_ROD); }
-// public void END_ROD(yarnwrap.item.Item value) { wrapperContained.END_ROD = value.wrapperContained; }
-public static yarnwrap.item.Item END_ROD() { return new yarnwrap.item.Item(net.minecraft.item.Items.END_ROD); }
-// public static void END_ROD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.END_ROD = value.wrapperContained; }
-
-// public yarnwrap.item.Item PRISMARINE_WALL() { return new yarnwrap.item.Item(wrapperContained.PRISMARINE_WALL); }
-// public void PRISMARINE_WALL(yarnwrap.item.Item value) { wrapperContained.PRISMARINE_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item PRISMARINE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.PRISMARINE_WALL); }
-// public static void PRISMARINE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PRISMARINE_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item ORANGE_BED() { return new yarnwrap.item.Item(wrapperContained.ORANGE_BED); }
-// public void ORANGE_BED(yarnwrap.item.Item value) { wrapperContained.ORANGE_BED = value.wrapperContained; }
-public static yarnwrap.item.Item ORANGE_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_BED); }
-// public static void ORANGE_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item PETRIFIED_OAK_SLAB() { return new yarnwrap.item.Item(wrapperContained.PETRIFIED_OAK_SLAB); }
-// public void PETRIFIED_OAK_SLAB(yarnwrap.item.Item value) { wrapperContained.PETRIFIED_OAK_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item PETRIFIED_OAK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.PETRIFIED_OAK_SLAB); }
-// public static void PETRIFIED_OAK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PETRIFIED_OAK_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item SOUL_SAND() { return new yarnwrap.item.Item(wrapperContained.SOUL_SAND); }
-// public void SOUL_SAND(yarnwrap.item.Item value) { wrapperContained.SOUL_SAND = value.wrapperContained; }
-public static yarnwrap.item.Item SOUL_SAND() { return new yarnwrap.item.Item(net.minecraft.item.Items.SOUL_SAND); }
-// public static void SOUL_SAND(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SOUL_SAND = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_ACACIA_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_ACACIA_LOG); }
-// public void STRIPPED_ACACIA_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_ACACIA_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_ACACIA_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_ACACIA_LOG); }
-// public static void STRIPPED_ACACIA_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_ACACIA_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item FLOWER_POT() { return new yarnwrap.item.Item(wrapperContained.FLOWER_POT); }
-// public void FLOWER_POT(yarnwrap.item.Item value) { wrapperContained.FLOWER_POT = value.wrapperContained; }
-public static yarnwrap.item.Item FLOWER_POT() { return new yarnwrap.item.Item(net.minecraft.item.Items.FLOWER_POT); }
-// public static void FLOWER_POT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FLOWER_POT = value.wrapperContained; }
-
-// public yarnwrap.item.Item IRON_BARS() { return new yarnwrap.item.Item(wrapperContained.IRON_BARS); }
-// public void IRON_BARS(yarnwrap.item.Item value) { wrapperContained.IRON_BARS = value.wrapperContained; }
-public static yarnwrap.item.Item IRON_BARS() { return new yarnwrap.item.Item(net.minecraft.item.Items.IRON_BARS); }
-// public static void IRON_BARS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.IRON_BARS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BARRIER() { return new yarnwrap.item.Item(wrapperContained.BARRIER); }
-// public void BARRIER(yarnwrap.item.Item value) { wrapperContained.BARRIER = value.wrapperContained; }
-public static yarnwrap.item.Item BARRIER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BARRIER); }
-// public static void BARRIER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BARRIER = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_BLUE_CARPET() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_CARPET); }
-// public void LIGHT_BLUE_CARPET(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_BLUE_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_CARPET); }
-// public static void LIGHT_BLUE_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item NETHER_BRICK_FENCE() { return new yarnwrap.item.Item(wrapperContained.NETHER_BRICK_FENCE); }
-// public void NETHER_BRICK_FENCE(yarnwrap.item.Item value) { wrapperContained.NETHER_BRICK_FENCE = value.wrapperContained; }
-public static yarnwrap.item.Item NETHER_BRICK_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_BRICK_FENCE); }
-// public static void NETHER_BRICK_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_BRICK_FENCE = value.wrapperContained; }
-
-// public yarnwrap.item.Item PACKED_ICE() { return new yarnwrap.item.Item(wrapperContained.PACKED_ICE); }
-// public void PACKED_ICE(yarnwrap.item.Item value) { wrapperContained.PACKED_ICE = value.wrapperContained; }
-public static yarnwrap.item.Item PACKED_ICE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PACKED_ICE); }
-// public static void PACKED_ICE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PACKED_ICE = value.wrapperContained; }
-
-// public yarnwrap.item.Item CHISELED_QUARTZ_BLOCK() { return new yarnwrap.item.Item(wrapperContained.CHISELED_QUARTZ_BLOCK); }
-// public void CHISELED_QUARTZ_BLOCK(yarnwrap.item.Item value) { wrapperContained.CHISELED_QUARTZ_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item CHISELED_QUARTZ_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHISELED_QUARTZ_BLOCK); }
-// public static void CHISELED_QUARTZ_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHISELED_QUARTZ_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item CYAN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.CYAN_STAINED_GLASS_PANE); }
-// public void CYAN_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.CYAN_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item CYAN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_STAINED_GLASS_PANE); }
-// public static void CYAN_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_BUBBLE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DEAD_BUBBLE_CORAL_BLOCK); }
-// public void DEAD_BUBBLE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.DEAD_BUBBLE_CORAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_BUBBLE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BUBBLE_CORAL_BLOCK); }
-// public static void DEAD_BUBBLE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BUBBLE_CORAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item YELLOW_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.YELLOW_STAINED_GLASS); }
-// public void YELLOW_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.YELLOW_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item YELLOW_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_STAINED_GLASS); }
-// public static void YELLOW_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLACK_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BLACK_GLAZED_TERRACOTTA); }
-// public void BLACK_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BLACK_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item BLACK_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_GLAZED_TERRACOTTA); }
-// public static void BLACK_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_FENCE_GATE); }
-// public void JUNGLE_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.JUNGLE_FENCE_GATE = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_FENCE_GATE); }
-// public static void JUNGLE_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_FENCE_GATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPLE_CARPET() { return new yarnwrap.item.Item(wrapperContained.PURPLE_CARPET); }
-// public void PURPLE_CARPET(yarnwrap.item.Item value) { wrapperContained.PURPLE_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item PURPLE_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_CARPET); }
-// public static void PURPLE_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item HORN_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.HORN_CORAL_BLOCK); }
-// public void HORN_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.HORN_CORAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item HORN_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.HORN_CORAL_BLOCK); }
-// public static void HORN_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HORN_CORAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item STICKY_PISTON() { return new yarnwrap.item.Item(wrapperContained.STICKY_PISTON); }
-// public void STICKY_PISTON(yarnwrap.item.Item value) { wrapperContained.STICKY_PISTON = value.wrapperContained; }
-public static yarnwrap.item.Item STICKY_PISTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.STICKY_PISTON); }
-// public static void STICKY_PISTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STICKY_PISTON = value.wrapperContained; }
-
-// public yarnwrap.item.Item CHEST() { return new yarnwrap.item.Item(wrapperContained.CHEST); }
-// public void CHEST(yarnwrap.item.Item value) { wrapperContained.CHEST = value.wrapperContained; }
-public static yarnwrap.item.Item CHEST() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHEST); }
-// public static void CHEST(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHEST = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRAVEL() { return new yarnwrap.item.Item(wrapperContained.GRAVEL); }
-// public void GRAVEL(yarnwrap.item.Item value) { wrapperContained.GRAVEL = value.wrapperContained; }
-public static yarnwrap.item.Item GRAVEL() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAVEL); }
-// public static void GRAVEL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAVEL = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLACK_BED() { return new yarnwrap.item.Item(wrapperContained.BLACK_BED); }
-// public void BLACK_BED(yarnwrap.item.Item value) { wrapperContained.BLACK_BED = value.wrapperContained; }
-public static yarnwrap.item.Item BLACK_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_BED); }
-// public static void BLACK_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_PLANKS() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_PLANKS); }
-// public void SPRUCE_PLANKS(yarnwrap.item.Item value) { wrapperContained.SPRUCE_PLANKS = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_PLANKS); }
-// public static void SPRUCE_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_PLANKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.ACACIA_FENCE_GATE); }
-// public void ACACIA_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.ACACIA_FENCE_GATE = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_FENCE_GATE); }
-// public static void ACACIA_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_FENCE_GATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLUE_CARPET() { return new yarnwrap.item.Item(wrapperContained.BLUE_CARPET); }
-// public void BLUE_CARPET(yarnwrap.item.Item value) { wrapperContained.BLUE_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item BLUE_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_CARPET); }
-// public static void BLUE_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_PLANKS() { return new yarnwrap.item.Item(wrapperContained.OAK_PLANKS); }
-// public void OAK_PLANKS(yarnwrap.item.Item value) { wrapperContained.OAK_PLANKS = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_PLANKS); }
-// public static void OAK_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_PLANKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item MAGENTA_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_STAINED_GLASS_PANE); }
-// public void MAGENTA_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.MAGENTA_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item MAGENTA_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_STAINED_GLASS_PANE); }
-// public static void MAGENTA_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item GREEN_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.GREEN_CONCRETE); }
-// public void GREEN_CONCRETE(yarnwrap.item.Item value) { wrapperContained.GREEN_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item GREEN_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_CONCRETE); }
-// public static void GREEN_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item LADDER() { return new yarnwrap.item.Item(wrapperContained.LADDER); }
-// public void LADDER(yarnwrap.item.Item value) { wrapperContained.LADDER = value.wrapperContained; }
-public static yarnwrap.item.Item LADDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LADDER); }
-// public static void LADDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LADDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_STAIRS); }
-// public void SPRUCE_STAIRS(yarnwrap.item.Item value) { wrapperContained.SPRUCE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_STAIRS); }
-// public static void SPRUCE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_LOG() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_LOG); }
-// public void JUNGLE_LOG(yarnwrap.item.Item value) { wrapperContained.JUNGLE_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_LOG); }
-// public static void JUNGLE_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLUE_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.BLUE_STAINED_GLASS); }
-// public void BLUE_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.BLUE_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item BLUE_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_STAINED_GLASS); }
-// public static void BLUE_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item PINK_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.PINK_CONCRETE); }
-// public void PINK_CONCRETE(yarnwrap.item.Item value) { wrapperContained.PINK_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item PINK_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_CONCRETE); }
-// public static void PINK_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item RAIL() { return new yarnwrap.item.Item(wrapperContained.RAIL); }
-// public void RAIL(yarnwrap.item.Item value) { wrapperContained.RAIL = value.wrapperContained; }
-public static yarnwrap.item.Item RAIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.RAIL); }
-// public static void RAIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RAIL = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_STAIRS() { return new yarnwrap.item.Item(wrapperContained.BIRCH_STAIRS); }
-// public void BIRCH_STAIRS(yarnwrap.item.Item value) { wrapperContained.BIRCH_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_STAIRS); }
-// public static void BIRCH_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_GRAY_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_TERRACOTTA); }
-// public void LIGHT_GRAY_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_GRAY_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_TERRACOTTA); }
-// public static void LIGHT_GRAY_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item ORANGE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.ORANGE_GLAZED_TERRACOTTA); }
-// public void ORANGE_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.ORANGE_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item ORANGE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_GLAZED_TERRACOTTA); }
-// public static void ORANGE_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item CONDUIT() { return new yarnwrap.item.Item(wrapperContained.CONDUIT); }
-// public void CONDUIT(yarnwrap.item.Item value) { wrapperContained.CONDUIT = value.wrapperContained; }
-public static yarnwrap.item.Item CONDUIT() { return new yarnwrap.item.Item(net.minecraft.item.Items.CONDUIT); }
-// public static void CONDUIT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CONDUIT = value.wrapperContained; }
-
-// public yarnwrap.item.Item GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.GLASS_PANE); }
-// public void GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GLASS_PANE); }
-// public static void GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item YELLOW_CARPET() { return new yarnwrap.item.Item(wrapperContained.YELLOW_CARPET); }
-// public void YELLOW_CARPET(yarnwrap.item.Item value) { wrapperContained.YELLOW_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item YELLOW_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_CARPET); }
-// public static void YELLOW_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_GRAY_BED() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_BED); }
-// public void LIGHT_GRAY_BED(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_BED = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_GRAY_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_BED); }
-// public static void LIGHT_GRAY_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item INFESTED_CHISELED_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.INFESTED_CHISELED_STONE_BRICKS); }
-// public void INFESTED_CHISELED_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.INFESTED_CHISELED_STONE_BRICKS = value.wrapperContained; }
-public static yarnwrap.item.Item INFESTED_CHISELED_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_CHISELED_STONE_BRICKS); }
-// public static void INFESTED_CHISELED_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_CHISELED_STONE_BRICKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item END_STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.END_STONE_BRICK_STAIRS); }
-// public void END_STONE_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.END_STONE_BRICK_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item END_STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.END_STONE_BRICK_STAIRS); }
-// public static void END_STONE_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.END_STONE_BRICK_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item WHITE_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.WHITE_TERRACOTTA); }
-// public void WHITE_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.WHITE_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item WHITE_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_TERRACOTTA); }
-// public static void WHITE_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLACK_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.BLACK_STAINED_GLASS_PANE); }
-// public void BLACK_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.BLACK_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item BLACK_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_STAINED_GLASS_PANE); }
-// public static void BLACK_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item SEAGRASS() { return new yarnwrap.item.Item(wrapperContained.SEAGRASS); }
-// public void SEAGRASS(yarnwrap.item.Item value) { wrapperContained.SEAGRASS = value.wrapperContained; }
-public static yarnwrap.item.Item SEAGRASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SEAGRASS); }
-// public static void SEAGRASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SEAGRASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_FIRE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DEAD_FIRE_CORAL_BLOCK); }
-// public void DEAD_FIRE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.DEAD_FIRE_CORAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_FIRE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_FIRE_CORAL_BLOCK); }
-// public static void DEAD_FIRE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_FIRE_CORAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item AIR() { return new yarnwrap.item.Item(wrapperContained.AIR); }
-// public void AIR(yarnwrap.item.Item value) { wrapperContained.AIR = value.wrapperContained; }
-public static yarnwrap.item.Item AIR() { return new yarnwrap.item.Item(net.minecraft.item.Items.AIR); }
-// public static void AIR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.AIR = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLUE_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.BLUE_CONCRETE_POWDER); }
-// public void BLUE_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.BLUE_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item BLUE_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_CONCRETE_POWDER); }
-// public static void BLUE_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_DOOR() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_DOOR); }
-// public void SPRUCE_DOOR(yarnwrap.item.Item value) { wrapperContained.SPRUCE_DOOR = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_DOOR); }
-// public static void SPRUCE_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_DOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item SMOOTH_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_SANDSTONE_STAIRS); }
-// public void SMOOTH_SANDSTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.SMOOTH_SANDSTONE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item SMOOTH_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_SANDSTONE_STAIRS); }
-// public static void SMOOTH_SANDSTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_SANDSTONE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_LOG() { return new yarnwrap.item.Item(wrapperContained.BIRCH_LOG); }
-// public void BIRCH_LOG(yarnwrap.item.Item value) { wrapperContained.BIRCH_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_LOG); }
-// public static void BIRCH_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_GRAY_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_GLAZED_TERRACOTTA); }
-// public void LIGHT_GRAY_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_GRAY_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_GLAZED_TERRACOTTA); }
-// public static void LIGHT_GRAY_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.ACACIA_PRESSURE_PLATE); }
-// public void ACACIA_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.ACACIA_PRESSURE_PLATE = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_PRESSURE_PLATE); }
-// public static void ACACIA_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_PRESSURE_PLATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_BUTTON() { return new yarnwrap.item.Item(wrapperContained.BIRCH_BUTTON); }
-// public void BIRCH_BUTTON(yarnwrap.item.Item value) { wrapperContained.BIRCH_BUTTON = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_BUTTON); }
-// public static void BIRCH_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_BUTTON = value.wrapperContained; }
-
-// public yarnwrap.item.Item WHITE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.WHITE_GLAZED_TERRACOTTA); }
-// public void WHITE_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.WHITE_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item WHITE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_GLAZED_TERRACOTTA); }
-// public static void WHITE_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLUE_ICE() { return new yarnwrap.item.Item(wrapperContained.BLUE_ICE); }
-// public void BLUE_ICE(yarnwrap.item.Item value) { wrapperContained.BLUE_ICE = value.wrapperContained; }
-public static yarnwrap.item.Item BLUE_ICE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_ICE); }
-// public static void BLUE_ICE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_ICE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLACK_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BLACK_TERRACOTTA); }
-// public void BLACK_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BLACK_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item BLACK_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_TERRACOTTA); }
-// public static void BLACK_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item NETHER_WART_BLOCK() { return new yarnwrap.item.Item(wrapperContained.NETHER_WART_BLOCK); }
-// public void NETHER_WART_BLOCK(yarnwrap.item.Item value) { wrapperContained.NETHER_WART_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item NETHER_WART_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_WART_BLOCK); }
-// public static void NETHER_WART_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_WART_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_SLAB() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_SLAB); }
-// public void SPRUCE_SLAB(yarnwrap.item.Item value) { wrapperContained.SPRUCE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_SLAB); }
-// public static void SPRUCE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.ACACIA_TRAPDOOR); }
-// public void ACACIA_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.ACACIA_TRAPDOOR = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_TRAPDOOR); }
-// public static void ACACIA_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_TRAPDOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_PLANKS() { return new yarnwrap.item.Item(wrapperContained.BIRCH_PLANKS); }
-// public void BIRCH_PLANKS(yarnwrap.item.Item value) { wrapperContained.BIRCH_PLANKS = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_PLANKS); }
-// public static void BIRCH_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_PLANKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item COBBLESTONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.COBBLESTONE_SLAB); }
-// public void COBBLESTONE_SLAB(yarnwrap.item.Item value) { wrapperContained.COBBLESTONE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item COBBLESTONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.COBBLESTONE_SLAB); }
-// public static void COBBLESTONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COBBLESTONE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_BLUE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_STAINED_GLASS_PANE); }
-// public void LIGHT_BLUE_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_BLUE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_STAINED_GLASS_PANE); }
-// public static void LIGHT_BLUE_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.RED_CONCRETE); }
-// public void RED_CONCRETE(yarnwrap.item.Item value) { wrapperContained.RED_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item RED_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_CONCRETE); }
-// public static void RED_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item GREEN_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.GREEN_CONCRETE_POWDER); }
-// public void GREEN_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.GREEN_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item GREEN_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_CONCRETE_POWDER); }
-// public static void GREEN_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_DOOR() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_DOOR); }
-// public void JUNGLE_DOOR(yarnwrap.item.Item value) { wrapperContained.JUNGLE_DOOR = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_DOOR); }
-// public static void JUNGLE_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_DOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_SAND() { return new yarnwrap.item.Item(wrapperContained.RED_SAND); }
-// public void RED_SAND(yarnwrap.item.Item value) { wrapperContained.RED_SAND = value.wrapperContained; }
-public static yarnwrap.item.Item RED_SAND() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_SAND); }
-// public static void RED_SAND(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_SAND = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_WOOD() { return new yarnwrap.item.Item(wrapperContained.BIRCH_WOOD); }
-// public void BIRCH_WOOD(yarnwrap.item.Item value) { wrapperContained.BIRCH_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_WOOD); }
-// public static void BIRCH_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPUR_SLAB() { return new yarnwrap.item.Item(wrapperContained.PURPUR_SLAB); }
-// public void PURPUR_SLAB(yarnwrap.item.Item value) { wrapperContained.PURPUR_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item PURPUR_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPUR_SLAB); }
-// public static void PURPUR_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPUR_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item YELLOW_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.YELLOW_CONCRETE_POWDER); }
-// public void YELLOW_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.YELLOW_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item YELLOW_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_CONCRETE_POWDER); }
-// public static void YELLOW_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item ANDESITE_WALL() { return new yarnwrap.item.Item(wrapperContained.ANDESITE_WALL); }
-// public void ANDESITE_WALL(yarnwrap.item.Item value) { wrapperContained.ANDESITE_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item ANDESITE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.ANDESITE_WALL); }
-// public static void ANDESITE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ANDESITE_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_WOOD() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_WOOD); }
-// public void SPRUCE_WOOD(yarnwrap.item.Item value) { wrapperContained.SPRUCE_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_WOOD); }
-// public static void SPRUCE_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item DETECTOR_RAIL() { return new yarnwrap.item.Item(wrapperContained.DETECTOR_RAIL); }
-// public void DETECTOR_RAIL(yarnwrap.item.Item value) { wrapperContained.DETECTOR_RAIL = value.wrapperContained; }
-public static yarnwrap.item.Item DETECTOR_RAIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DETECTOR_RAIL); }
-// public static void DETECTOR_RAIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DETECTOR_RAIL = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.OAK_STAIRS); }
-// public void OAK_STAIRS(yarnwrap.item.Item value) { wrapperContained.OAK_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_STAIRS); }
-// public static void OAK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item CYAN_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.CYAN_SHULKER_BOX); }
-// public void CYAN_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.CYAN_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item CYAN_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_SHULKER_BOX); }
-// public static void CYAN_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item FIRE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.FIRE_CORAL_FAN); }
-// public void FIRE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.FIRE_CORAL_FAN = value.wrapperContained; }
-public static yarnwrap.item.Item FIRE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.FIRE_CORAL_FAN); }
-// public static void FIRE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FIRE_CORAL_FAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item SMOOTH_QUARTZ_SLAB() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_QUARTZ_SLAB); }
-// public void SMOOTH_QUARTZ_SLAB(yarnwrap.item.Item value) { wrapperContained.SMOOTH_QUARTZ_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item SMOOTH_QUARTZ_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_QUARTZ_SLAB); }
-// public static void SMOOTH_QUARTZ_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_QUARTZ_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_DARK_OAK_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_DARK_OAK_WOOD); }
-// public void STRIPPED_DARK_OAK_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_DARK_OAK_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_DARK_OAK_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_DARK_OAK_WOOD); }
-// public static void STRIPPED_DARK_OAK_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_DARK_OAK_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item PINK_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.PINK_CONCRETE_POWDER); }
-// public void PINK_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.PINK_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item PINK_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_CONCRETE_POWDER); }
-// public static void PINK_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item SANDSTONE_WALL() { return new yarnwrap.item.Item(wrapperContained.SANDSTONE_WALL); }
-// public void SANDSTONE_WALL(yarnwrap.item.Item value) { wrapperContained.SANDSTONE_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item SANDSTONE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.SANDSTONE_WALL); }
-// public static void SANDSTONE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SANDSTONE_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_SLAB() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_SLAB); }
-// public void JUNGLE_SLAB(yarnwrap.item.Item value) { wrapperContained.JUNGLE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_SLAB); }
-// public static void JUNGLE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item INFESTED_STONE() { return new yarnwrap.item.Item(wrapperContained.INFESTED_STONE); }
-// public void INFESTED_STONE(yarnwrap.item.Item value) { wrapperContained.INFESTED_STONE = value.wrapperContained; }
-public static yarnwrap.item.Item INFESTED_STONE() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_STONE); }
-// public static void INFESTED_STONE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_STONE = value.wrapperContained; }
-
-// public yarnwrap.item.Item POLISHED_GRANITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.POLISHED_GRANITE_SLAB); }
-// public void POLISHED_GRANITE_SLAB(yarnwrap.item.Item value) { wrapperContained.POLISHED_GRANITE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item POLISHED_GRANITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_GRANITE_SLAB); }
-// public static void POLISHED_GRANITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_GRANITE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item REDSTONE_LAMP() { return new yarnwrap.item.Item(wrapperContained.REDSTONE_LAMP); }
-// public void REDSTONE_LAMP(yarnwrap.item.Item value) { wrapperContained.REDSTONE_LAMP = value.wrapperContained; }
-public static yarnwrap.item.Item REDSTONE_LAMP() { return new yarnwrap.item.Item(net.minecraft.item.Items.REDSTONE_LAMP); }
-// public static void REDSTONE_LAMP(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REDSTONE_LAMP = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_BRAIN_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DEAD_BRAIN_CORAL_BLOCK); }
-// public void DEAD_BRAIN_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.DEAD_BRAIN_CORAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_BRAIN_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BRAIN_CORAL_BLOCK); }
-// public static void DEAD_BRAIN_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BRAIN_CORAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRUCTURE_BLOCK() { return new yarnwrap.item.Item(wrapperContained.STRUCTURE_BLOCK); }
-// public void STRUCTURE_BLOCK(yarnwrap.item.Item value) { wrapperContained.STRUCTURE_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item STRUCTURE_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRUCTURE_BLOCK); }
-// public static void STRUCTURE_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRUCTURE_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item HOPPER() { return new yarnwrap.item.Item(wrapperContained.HOPPER); }
-// public void HOPPER(yarnwrap.item.Item value) { wrapperContained.HOPPER = value.wrapperContained; }
-public static yarnwrap.item.Item HOPPER() { return new yarnwrap.item.Item(net.minecraft.item.Items.HOPPER); }
-// public static void HOPPER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HOPPER = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_GRAY_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_STAINED_GLASS_PANE); }
-// public void LIGHT_GRAY_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_GRAY_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_STAINED_GLASS_PANE); }
-// public static void LIGHT_GRAY_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item IRON_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.IRON_TRAPDOOR); }
-// public void IRON_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.IRON_TRAPDOOR = value.wrapperContained; }
-public static yarnwrap.item.Item IRON_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.IRON_TRAPDOOR); }
-// public static void IRON_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.IRON_TRAPDOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item BONE_BLOCK() { return new yarnwrap.item.Item(wrapperContained.BONE_BLOCK); }
-// public void BONE_BLOCK(yarnwrap.item.Item value) { wrapperContained.BONE_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item BONE_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.BONE_BLOCK); }
-// public static void BONE_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BONE_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item MAGENTA_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_STAINED_GLASS); }
-// public void MAGENTA_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.MAGENTA_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item MAGENTA_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_STAINED_GLASS); }
-// public static void MAGENTA_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item GREEN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.GREEN_GLAZED_TERRACOTTA); }
-// public void GREEN_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.GREEN_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item GREEN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_GLAZED_TERRACOTTA); }
-// public static void GREEN_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item SNOW_BLOCK() { return new yarnwrap.item.Item(wrapperContained.SNOW_BLOCK); }
-// public void SNOW_BLOCK(yarnwrap.item.Item value) { wrapperContained.SNOW_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item SNOW_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.SNOW_BLOCK); }
-// public static void SNOW_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SNOW_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item TRAPPED_CHEST() { return new yarnwrap.item.Item(wrapperContained.TRAPPED_CHEST); }
-// public void TRAPPED_CHEST(yarnwrap.item.Item value) { wrapperContained.TRAPPED_CHEST = value.wrapperContained; }
-public static yarnwrap.item.Item TRAPPED_CHEST() { return new yarnwrap.item.Item(net.minecraft.item.Items.TRAPPED_CHEST); }
-// public static void TRAPPED_CHEST(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TRAPPED_CHEST = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_OAK_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_OAK_WOOD); }
-// public void STRIPPED_OAK_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_OAK_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_OAK_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_OAK_WOOD); }
-// public static void STRIPPED_OAK_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_OAK_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item PISTON() { return new yarnwrap.item.Item(wrapperContained.PISTON); }
-// public void PISTON(yarnwrap.item.Item value) { wrapperContained.PISTON = value.wrapperContained; }
-public static yarnwrap.item.Item PISTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.PISTON); }
-// public static void PISTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PISTON = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIME_CARPET() { return new yarnwrap.item.Item(wrapperContained.LIME_CARPET); }
-// public void LIME_CARPET(yarnwrap.item.Item value) { wrapperContained.LIME_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item LIME_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_CARPET); }
-// public static void LIME_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item TALL_GRASS() { return new yarnwrap.item.Item(wrapperContained.TALL_GRASS); }
-// public void TALL_GRASS(yarnwrap.item.Item value) { wrapperContained.TALL_GRASS = value.wrapperContained; }
-public static yarnwrap.item.Item TALL_GRASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.TALL_GRASS); }
-// public static void TALL_GRASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TALL_GRASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item CYAN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.CYAN_GLAZED_TERRACOTTA); }
-// public void CYAN_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.CYAN_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item CYAN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_GLAZED_TERRACOTTA); }
-// public static void CYAN_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item WHITE_BED() { return new yarnwrap.item.Item(wrapperContained.WHITE_BED); }
-// public void WHITE_BED(yarnwrap.item.Item value) { wrapperContained.WHITE_BED = value.wrapperContained; }
-public static yarnwrap.item.Item WHITE_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_BED); }
-// public static void WHITE_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.TERRACOTTA); }
-// public void TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.TERRACOTTA); }
-// public static void TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPLE_BED() { return new yarnwrap.item.Item(wrapperContained.PURPLE_BED); }
-// public void PURPLE_BED(yarnwrap.item.Item value) { wrapperContained.PURPLE_BED = value.wrapperContained; }
-public static yarnwrap.item.Item PURPLE_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_BED); }
-// public static void PURPLE_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item SMOOTH_RED_SANDSTONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_RED_SANDSTONE_SLAB); }
-// public void SMOOTH_RED_SANDSTONE_SLAB(yarnwrap.item.Item value) { wrapperContained.SMOOTH_RED_SANDSTONE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item SMOOTH_RED_SANDSTONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_RED_SANDSTONE_SLAB); }
-// public static void SMOOTH_RED_SANDSTONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_RED_SANDSTONE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLACK_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.BLACK_SHULKER_BOX); }
-// public void BLACK_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.BLACK_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item BLACK_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_SHULKER_BOX); }
-// public static void BLACK_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_HORN_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.DEAD_HORN_CORAL_FAN); }
-// public void DEAD_HORN_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.DEAD_HORN_CORAL_FAN = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_HORN_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_HORN_CORAL_FAN); }
-// public static void DEAD_HORN_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_HORN_CORAL_FAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRASS_BLOCK() { return new yarnwrap.item.Item(wrapperContained.GRASS_BLOCK); }
-// public void GRASS_BLOCK(yarnwrap.item.Item value) { wrapperContained.GRASS_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item GRASS_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRASS_BLOCK); }
-// public static void GRASS_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRASS_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item YELLOW_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.YELLOW_SHULKER_BOX); }
-// public void YELLOW_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.YELLOW_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item YELLOW_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_SHULKER_BOX); }
-// public static void YELLOW_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_HORN_CORAL() { return new yarnwrap.item.Item(wrapperContained.DEAD_HORN_CORAL); }
-// public void DEAD_HORN_CORAL(yarnwrap.item.Item value) { wrapperContained.DEAD_HORN_CORAL = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_HORN_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_HORN_CORAL); }
-// public static void DEAD_HORN_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_HORN_CORAL = value.wrapperContained; }
-
-// public yarnwrap.item.Item MOSSY_COBBLESTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.MOSSY_COBBLESTONE_STAIRS); }
-// public void MOSSY_COBBLESTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.MOSSY_COBBLESTONE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item MOSSY_COBBLESTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_COBBLESTONE_STAIRS); }
-// public static void MOSSY_COBBLESTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_COBBLESTONE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item PINK_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.PINK_GLAZED_TERRACOTTA); }
-// public void PINK_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.PINK_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item PINK_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_GLAZED_TERRACOTTA); }
-// public static void PINK_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item FIRE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.FIRE_CORAL_BLOCK); }
-// public void FIRE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.FIRE_CORAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item FIRE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.FIRE_CORAL_BLOCK); }
-// public static void FIRE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FIRE_CORAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item GLASS() { return new yarnwrap.item.Item(wrapperContained.GLASS); }
-// public void GLASS(yarnwrap.item.Item value) { wrapperContained.GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.GLASS); }
-// public static void GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item OBSIDIAN() { return new yarnwrap.item.Item(wrapperContained.OBSIDIAN); }
-// public void OBSIDIAN(yarnwrap.item.Item value) { wrapperContained.OBSIDIAN = value.wrapperContained; }
-public static yarnwrap.item.Item OBSIDIAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.OBSIDIAN); }
-// public static void OBSIDIAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OBSIDIAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item END_STONE_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.END_STONE_BRICK_SLAB); }
-// public void END_STONE_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.END_STONE_BRICK_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item END_STONE_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.END_STONE_BRICK_SLAB); }
-// public static void END_STONE_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.END_STONE_BRICK_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_ACACIA_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_ACACIA_WOOD); }
-// public void STRIPPED_ACACIA_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_ACACIA_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_ACACIA_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_ACACIA_WOOD); }
-// public static void STRIPPED_ACACIA_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_ACACIA_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_BLUE_BED() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_BED); }
-// public void LIGHT_BLUE_BED(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_BED = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_BLUE_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_BED); }
-// public static void LIGHT_BLUE_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.BIRCH_FENCE_GATE); }
-// public void BIRCH_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.BIRCH_FENCE_GATE = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_FENCE_GATE); }
-// public static void BIRCH_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_FENCE_GATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item CYAN_CARPET() { return new yarnwrap.item.Item(wrapperContained.CYAN_CARPET); }
-// public void CYAN_CARPET(yarnwrap.item.Item value) { wrapperContained.CYAN_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item CYAN_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_CARPET); }
-// public static void CYAN_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item SMOOTH_STONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_STONE_SLAB); }
-// public void SMOOTH_STONE_SLAB(yarnwrap.item.Item value) { wrapperContained.SMOOTH_STONE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item SMOOTH_STONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_STONE_SLAB); }
-// public static void SMOOTH_STONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_STONE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item INFESTED_CRACKED_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.INFESTED_CRACKED_STONE_BRICKS); }
-// public void INFESTED_CRACKED_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.INFESTED_CRACKED_STONE_BRICKS = value.wrapperContained; }
-public static yarnwrap.item.Item INFESTED_CRACKED_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_CRACKED_STONE_BRICKS); }
-// public static void INFESTED_CRACKED_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_CRACKED_STONE_BRICKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_FENCE_GATE); }
-// public void DARK_OAK_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_FENCE_GATE = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_FENCE_GATE); }
-// public static void DARK_OAK_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_FENCE_GATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BROWN_CARPET() { return new yarnwrap.item.Item(wrapperContained.BROWN_CARPET); }
-// public void BROWN_CARPET(yarnwrap.item.Item value) { wrapperContained.BROWN_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item BROWN_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_CARPET); }
-// public static void BROWN_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_NETHER_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.RED_NETHER_BRICK_STAIRS); }
-// public void RED_NETHER_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.RED_NETHER_BRICK_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item RED_NETHER_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_NETHER_BRICK_STAIRS); }
-// public static void RED_NETHER_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_NETHER_BRICK_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRAY_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.GRAY_TERRACOTTA); }
-// public void GRAY_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.GRAY_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item GRAY_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_TERRACOTTA); }
-// public static void GRAY_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item SEA_LANTERN() { return new yarnwrap.item.Item(wrapperContained.SEA_LANTERN); }
-// public void SEA_LANTERN(yarnwrap.item.Item value) { wrapperContained.SEA_LANTERN = value.wrapperContained; }
-public static yarnwrap.item.Item SEA_LANTERN() { return new yarnwrap.item.Item(net.minecraft.item.Items.SEA_LANTERN); }
-// public static void SEA_LANTERN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SEA_LANTERN = value.wrapperContained; }
-
-// public yarnwrap.item.Item COBBLESTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.COBBLESTONE_STAIRS); }
-// public void COBBLESTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.COBBLESTONE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item COBBLESTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.COBBLESTONE_STAIRS); }
-// public static void COBBLESTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COBBLESTONE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_STAIRS); }
-// public void JUNGLE_STAIRS(yarnwrap.item.Item value) { wrapperContained.JUNGLE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_STAIRS); }
-// public static void JUNGLE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRANITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.GRANITE_SLAB); }
-// public void GRANITE_SLAB(yarnwrap.item.Item value) { wrapperContained.GRANITE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item GRANITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRANITE_SLAB); }
-// public static void GRANITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRANITE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item POLISHED_ANDESITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.POLISHED_ANDESITE_STAIRS); }
-// public void POLISHED_ANDESITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.POLISHED_ANDESITE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item POLISHED_ANDESITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_ANDESITE_STAIRS); }
-// public static void POLISHED_ANDESITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_ANDESITE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item MAGENTA_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_GLAZED_TERRACOTTA); }
-// public void MAGENTA_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.MAGENTA_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item MAGENTA_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_GLAZED_TERRACOTTA); }
-// public static void MAGENTA_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item POLISHED_GRANITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.POLISHED_GRANITE_STAIRS); }
-// public void POLISHED_GRANITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.POLISHED_GRANITE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item POLISHED_GRANITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_GRANITE_STAIRS); }
-// public static void POLISHED_GRANITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_GRANITE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_SLAB() { return new yarnwrap.item.Item(wrapperContained.OAK_SLAB); }
-// public void OAK_SLAB(yarnwrap.item.Item value) { wrapperContained.OAK_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_SLAB); }
-// public static void OAK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_TRAPDOOR); }
-// public void JUNGLE_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.JUNGLE_TRAPDOOR = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_TRAPDOOR); }
-// public static void JUNGLE_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_TRAPDOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item NETHERRACK() { return new yarnwrap.item.Item(wrapperContained.NETHERRACK); }
-// public void NETHERRACK(yarnwrap.item.Item value) { wrapperContained.NETHERRACK = value.wrapperContained; }
-public static yarnwrap.item.Item NETHERRACK() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHERRACK); }
-// public static void NETHERRACK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHERRACK = value.wrapperContained; }
-
-// public yarnwrap.item.Item BROWN_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.BROWN_STAINED_GLASS); }
-// public void BROWN_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.BROWN_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item BROWN_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_STAINED_GLASS); }
-// public static void BROWN_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRAY_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.GRAY_CONCRETE); }
-// public void GRAY_CONCRETE(yarnwrap.item.Item value) { wrapperContained.GRAY_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item GRAY_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_CONCRETE); }
-// public static void GRAY_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_JUNGLE_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_JUNGLE_LOG); }
-// public void STRIPPED_JUNGLE_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_JUNGLE_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_JUNGLE_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_JUNGLE_LOG); }
-// public static void STRIPPED_JUNGLE_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_JUNGLE_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item MAGENTA_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_CONCRETE_POWDER); }
-// public void MAGENTA_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.MAGENTA_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item MAGENTA_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_CONCRETE_POWDER); }
-// public static void MAGENTA_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item STONE_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.STONE_BRICK_WALL); }
-// public void STONE_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.STONE_BRICK_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item STONE_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_BRICK_WALL); }
-// public static void STONE_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_BRICK_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIME_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.LIME_STAINED_GLASS); }
-// public void LIME_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.LIME_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item LIME_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_STAINED_GLASS); }
-// public static void LIME_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item WHITE_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.WHITE_CONCRETE); }
-// public void WHITE_CONCRETE(yarnwrap.item.Item value) { wrapperContained.WHITE_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item WHITE_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_CONCRETE); }
-// public static void WHITE_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.BRICK_SLAB); }
-// public void BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.BRICK_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRICK_SLAB); }
-// public static void BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRICK_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item CRACKED_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.CRACKED_STONE_BRICKS); }
-// public void CRACKED_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.CRACKED_STONE_BRICKS = value.wrapperContained; }
-public static yarnwrap.item.Item CRACKED_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.CRACKED_STONE_BRICKS); }
-// public static void CRACKED_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CRACKED_STONE_BRICKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item MAGENTA_BED() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_BED); }
-// public void MAGENTA_BED(yarnwrap.item.Item value) { wrapperContained.MAGENTA_BED = value.wrapperContained; }
-public static yarnwrap.item.Item MAGENTA_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_BED); }
-// public static void MAGENTA_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLUE_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.BLUE_SHULKER_BOX); }
-// public void BLUE_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.BLUE_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item BLUE_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_SHULKER_BOX); }
-// public static void BLUE_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_TUBE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.DEAD_TUBE_CORAL_FAN); }
-// public void DEAD_TUBE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.DEAD_TUBE_CORAL_FAN = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_TUBE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_TUBE_CORAL_FAN); }
-// public static void DEAD_TUBE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_TUBE_CORAL_FAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.RED_TERRACOTTA); }
-// public void RED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.RED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item RED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_TERRACOTTA); }
-// public static void RED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item MAGMA_BLOCK() { return new yarnwrap.item.Item(wrapperContained.MAGMA_BLOCK); }
-// public void MAGMA_BLOCK(yarnwrap.item.Item value) { wrapperContained.MAGMA_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item MAGMA_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGMA_BLOCK); }
-// public static void MAGMA_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGMA_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item DISPENSER() { return new yarnwrap.item.Item(wrapperContained.DISPENSER); }
-// public void DISPENSER(yarnwrap.item.Item value) { wrapperContained.DISPENSER = value.wrapperContained; }
-public static yarnwrap.item.Item DISPENSER() { return new yarnwrap.item.Item(net.minecraft.item.Items.DISPENSER); }
-// public static void DISPENSER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DISPENSER = value.wrapperContained; }
-
-// public yarnwrap.item.Item CHORUS_PLANT() { return new yarnwrap.item.Item(wrapperContained.CHORUS_PLANT); }
-// public void CHORUS_PLANT(yarnwrap.item.Item value) { wrapperContained.CHORUS_PLANT = value.wrapperContained; }
-public static yarnwrap.item.Item CHORUS_PLANT() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHORUS_PLANT); }
-// public static void CHORUS_PLANT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHORUS_PLANT = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_SANDSTONE_WALL() { return new yarnwrap.item.Item(wrapperContained.RED_SANDSTONE_WALL); }
-// public void RED_SANDSTONE_WALL(yarnwrap.item.Item value) { wrapperContained.RED_SANDSTONE_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item RED_SANDSTONE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_SANDSTONE_WALL); }
-// public static void RED_SANDSTONE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_SANDSTONE_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_SPRUCE_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_SPRUCE_WOOD); }
-// public void STRIPPED_SPRUCE_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_SPRUCE_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_SPRUCE_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_SPRUCE_WOOD); }
-// public static void STRIPPED_SPRUCE_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_SPRUCE_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_GRAY_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_STAINED_GLASS); }
-// public void LIGHT_GRAY_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_GRAY_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_STAINED_GLASS); }
-// public static void LIGHT_GRAY_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_BLUE_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_CONCRETE); }
-// public void LIGHT_BLUE_CONCRETE(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_BLUE_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_CONCRETE); }
-// public static void LIGHT_BLUE_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item FARMLAND() { return new yarnwrap.item.Item(wrapperContained.FARMLAND); }
-// public void FARMLAND(yarnwrap.item.Item value) { wrapperContained.FARMLAND = value.wrapperContained; }
-public static yarnwrap.item.Item FARMLAND() { return new yarnwrap.item.Item(net.minecraft.item.Items.FARMLAND); }
-// public static void FARMLAND(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FARMLAND = value.wrapperContained; }
-
-// public yarnwrap.item.Item TRIPWIRE_HOOK() { return new yarnwrap.item.Item(wrapperContained.TRIPWIRE_HOOK); }
-// public void TRIPWIRE_HOOK(yarnwrap.item.Item value) { wrapperContained.TRIPWIRE_HOOK = value.wrapperContained; }
-public static yarnwrap.item.Item TRIPWIRE_HOOK() { return new yarnwrap.item.Item(net.minecraft.item.Items.TRIPWIRE_HOOK); }
-// public static void TRIPWIRE_HOOK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TRIPWIRE_HOOK = value.wrapperContained; }
-
-// public yarnwrap.item.Item GREEN_BED() { return new yarnwrap.item.Item(wrapperContained.GREEN_BED); }
-// public void GREEN_BED(yarnwrap.item.Item value) { wrapperContained.GREEN_BED = value.wrapperContained; }
-public static yarnwrap.item.Item GREEN_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_BED); }
-// public static void GREEN_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item MOSSY_COBBLESTONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.MOSSY_COBBLESTONE_SLAB); }
-// public void MOSSY_COBBLESTONE_SLAB(yarnwrap.item.Item value) { wrapperContained.MOSSY_COBBLESTONE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item MOSSY_COBBLESTONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_COBBLESTONE_SLAB); }
-// public static void MOSSY_COBBLESTONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_COBBLESTONE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.OAK_TRAPDOOR); }
-// public void OAK_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.OAK_TRAPDOOR = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_TRAPDOOR); }
-// public static void OAK_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_TRAPDOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item ORANGE_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.ORANGE_SHULKER_BOX); }
-// public void ORANGE_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.ORANGE_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item ORANGE_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_SHULKER_BOX); }
-// public static void ORANGE_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_BRAIN_CORAL() { return new yarnwrap.item.Item(wrapperContained.DEAD_BRAIN_CORAL); }
-// public void DEAD_BRAIN_CORAL(yarnwrap.item.Item value) { wrapperContained.DEAD_BRAIN_CORAL = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_BRAIN_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BRAIN_CORAL); }
-// public static void DEAD_BRAIN_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BRAIN_CORAL = value.wrapperContained; }
-
-// public yarnwrap.item.Item PODZOL() { return new yarnwrap.item.Item(wrapperContained.PODZOL); }
-// public void PODZOL(yarnwrap.item.Item value) { wrapperContained.PODZOL = value.wrapperContained; }
-public static yarnwrap.item.Item PODZOL() { return new yarnwrap.item.Item(net.minecraft.item.Items.PODZOL); }
-// public static void PODZOL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PODZOL = value.wrapperContained; }
-
-// public yarnwrap.item.Item MAGENTA_CARPET() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_CARPET); }
-// public void MAGENTA_CARPET(yarnwrap.item.Item value) { wrapperContained.MAGENTA_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item MAGENTA_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_CARPET); }
-// public static void MAGENTA_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item YELLOW_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.YELLOW_TERRACOTTA); }
-// public void YELLOW_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.YELLOW_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item YELLOW_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_TERRACOTTA); }
-// public static void YELLOW_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item PRISMARINE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.PRISMARINE_STAIRS); }
-// public void PRISMARINE_STAIRS(yarnwrap.item.Item value) { wrapperContained.PRISMARINE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item PRISMARINE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PRISMARINE_STAIRS); }
-// public static void PRISMARINE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PRISMARINE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item CYAN_BED() { return new yarnwrap.item.Item(wrapperContained.CYAN_BED); }
-// public void CYAN_BED(yarnwrap.item.Item value) { wrapperContained.CYAN_BED = value.wrapperContained; }
-public static yarnwrap.item.Item CYAN_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_BED); }
-// public static void CYAN_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.OAK_PRESSURE_PLATE); }
-// public void OAK_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.OAK_PRESSURE_PLATE = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_PRESSURE_PLATE); }
-// public static void OAK_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_PRESSURE_PLATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item COBBLESTONE_WALL() { return new yarnwrap.item.Item(wrapperContained.COBBLESTONE_WALL); }
-// public void COBBLESTONE_WALL(yarnwrap.item.Item value) { wrapperContained.COBBLESTONE_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item COBBLESTONE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.COBBLESTONE_WALL); }
-// public static void COBBLESTONE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COBBLESTONE_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item ORANGE_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.ORANGE_STAINED_GLASS); }
-// public void ORANGE_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.ORANGE_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item ORANGE_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_STAINED_GLASS); }
-// public static void ORANGE_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BROWN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BROWN_GLAZED_TERRACOTTA); }
-// public void BROWN_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BROWN_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item BROWN_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_GLAZED_TERRACOTTA); }
-// public static void BROWN_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item POLISHED_ANDESITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.POLISHED_ANDESITE_SLAB); }
-// public void POLISHED_ANDESITE_SLAB(yarnwrap.item.Item value) { wrapperContained.POLISHED_ANDESITE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item POLISHED_ANDESITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_ANDESITE_SLAB); }
-// public static void POLISHED_ANDESITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_ANDESITE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item SKELETON_SKULL() { return new yarnwrap.item.Item(wrapperContained.SKELETON_SKULL); }
-// public void SKELETON_SKULL(yarnwrap.item.Item value) { wrapperContained.SKELETON_SKULL = value.wrapperContained; }
-public static yarnwrap.item.Item SKELETON_SKULL() { return new yarnwrap.item.Item(net.minecraft.item.Items.SKELETON_SKULL); }
-// public static void SKELETON_SKULL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SKELETON_SKULL = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_SLAB() { return new yarnwrap.item.Item(wrapperContained.ACACIA_SLAB); }
-// public void ACACIA_SLAB(yarnwrap.item.Item value) { wrapperContained.ACACIA_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_SLAB); }
-// public static void ACACIA_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item INFESTED_COBBLESTONE() { return new yarnwrap.item.Item(wrapperContained.INFESTED_COBBLESTONE); }
-// public void INFESTED_COBBLESTONE(yarnwrap.item.Item value) { wrapperContained.INFESTED_COBBLESTONE = value.wrapperContained; }
-public static yarnwrap.item.Item INFESTED_COBBLESTONE() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_COBBLESTONE); }
-// public static void INFESTED_COBBLESTONE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_COBBLESTONE = value.wrapperContained; }
-
-// public yarnwrap.item.Item TUBE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.TUBE_CORAL_BLOCK); }
-// public void TUBE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.TUBE_CORAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item TUBE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.TUBE_CORAL_BLOCK); }
-// public static void TUBE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TUBE_CORAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_PLANKS() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_PLANKS); }
-// public void DARK_OAK_PLANKS(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_PLANKS = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_PLANKS); }
-// public static void DARK_OAK_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_PLANKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLACK_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.BLACK_STAINED_GLASS); }
-// public void BLACK_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.BLACK_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item BLACK_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_STAINED_GLASS); }
-// public static void BLACK_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPLE_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.PURPLE_CONCRETE); }
-// public void PURPLE_CONCRETE(yarnwrap.item.Item value) { wrapperContained.PURPLE_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item PURPLE_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_CONCRETE); }
-// public static void PURPLE_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item QUARTZ_SLAB() { return new yarnwrap.item.Item(wrapperContained.QUARTZ_SLAB); }
-// public void QUARTZ_SLAB(yarnwrap.item.Item value) { wrapperContained.QUARTZ_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item QUARTZ_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.QUARTZ_SLAB); }
-// public static void QUARTZ_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.QUARTZ_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_OAK_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_OAK_LOG); }
-// public void STRIPPED_OAK_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_OAK_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_OAK_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_OAK_LOG); }
-// public static void STRIPPED_OAK_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_OAK_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item PINK_BED() { return new yarnwrap.item.Item(wrapperContained.PINK_BED); }
-// public void PINK_BED(yarnwrap.item.Item value) { wrapperContained.PINK_BED = value.wrapperContained; }
-public static yarnwrap.item.Item PINK_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_BED); }
-// public static void PINK_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIME_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.LIME_CONCRETE_POWDER); }
-// public void LIME_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.LIME_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item LIME_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_CONCRETE_POWDER); }
-// public static void LIME_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_NETHER_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.RED_NETHER_BRICK_WALL); }
-// public void RED_NETHER_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.RED_NETHER_BRICK_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item RED_NETHER_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_NETHER_BRICK_WALL); }
-// public static void RED_NETHER_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_NETHER_BRICK_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item ICE() { return new yarnwrap.item.Item(wrapperContained.ICE); }
-// public void ICE(yarnwrap.item.Item value) { wrapperContained.ICE = value.wrapperContained; }
-public static yarnwrap.item.Item ICE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ICE); }
-// public static void ICE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ICE = value.wrapperContained; }
-
-// public yarnwrap.item.Item DAMAGED_ANVIL() { return new yarnwrap.item.Item(wrapperContained.DAMAGED_ANVIL); }
-// public void DAMAGED_ANVIL(yarnwrap.item.Item value) { wrapperContained.DAMAGED_ANVIL = value.wrapperContained; }
-public static yarnwrap.item.Item DAMAGED_ANVIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DAMAGED_ANVIL); }
-// public static void DAMAGED_ANVIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DAMAGED_ANVIL = value.wrapperContained; }
-
-// public yarnwrap.item.Item SMOOTH_QUARTZ_STAIRS() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_QUARTZ_STAIRS); }
-// public void SMOOTH_QUARTZ_STAIRS(yarnwrap.item.Item value) { wrapperContained.SMOOTH_QUARTZ_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item SMOOTH_QUARTZ_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_QUARTZ_STAIRS); }
-// public static void SMOOTH_QUARTZ_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_QUARTZ_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BROWN_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.BROWN_CONCRETE_POWDER); }
-// public void BROWN_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.BROWN_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item BROWN_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_CONCRETE_POWDER); }
-// public static void BROWN_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_DOOR() { return new yarnwrap.item.Item(wrapperContained.BIRCH_DOOR); }
-// public void BIRCH_DOOR(yarnwrap.item.Item value) { wrapperContained.BIRCH_DOOR = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_DOOR); }
-// public static void BIRCH_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_DOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_WOOD() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_WOOD); }
-// public void JUNGLE_WOOD(yarnwrap.item.Item value) { wrapperContained.JUNGLE_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_WOOD); }
-// public static void JUNGLE_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item PRISMARINE_SLAB() { return new yarnwrap.item.Item(wrapperContained.PRISMARINE_SLAB); }
-// public void PRISMARINE_SLAB(yarnwrap.item.Item value) { wrapperContained.PRISMARINE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item PRISMARINE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.PRISMARINE_SLAB); }
-// public static void PRISMARINE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PRISMARINE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item SANDSTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.SANDSTONE_STAIRS); }
-// public void SANDSTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.SANDSTONE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item SANDSTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SANDSTONE_STAIRS); }
-// public static void SANDSTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SANDSTONE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item NETHER_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.NETHER_BRICK_STAIRS); }
-// public void NETHER_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.NETHER_BRICK_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item NETHER_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_BRICK_STAIRS); }
-// public static void NETHER_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_BRICK_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_STAIRS() { return new yarnwrap.item.Item(wrapperContained.ACACIA_STAIRS); }
-// public void ACACIA_STAIRS(yarnwrap.item.Item value) { wrapperContained.ACACIA_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_STAIRS); }
-// public static void ACACIA_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_GRAY_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_SHULKER_BOX); }
-// public void LIGHT_GRAY_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_GRAY_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_SHULKER_BOX); }
-// public static void LIGHT_GRAY_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item BUBBLE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.BUBBLE_CORAL_FAN); }
-// public void BUBBLE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.BUBBLE_CORAL_FAN = value.wrapperContained; }
-public static yarnwrap.item.Item BUBBLE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.BUBBLE_CORAL_FAN); }
-// public static void BUBBLE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BUBBLE_CORAL_FAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_FENCE() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_FENCE); }
-// public void DARK_OAK_FENCE(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_FENCE = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_FENCE); }
-// public static void DARK_OAK_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_FENCE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLUE_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BLUE_TERRACOTTA); }
-// public void BLUE_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BLUE_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item BLUE_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_TERRACOTTA); }
-// public static void BLUE_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.RED_SANDSTONE_STAIRS); }
-// public void RED_SANDSTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.RED_SANDSTONE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item RED_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_SANDSTONE_STAIRS); }
-// public static void RED_SANDSTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_SANDSTONE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_FENCE() { return new yarnwrap.item.Item(wrapperContained.BIRCH_FENCE); }
-// public void BIRCH_FENCE(yarnwrap.item.Item value) { wrapperContained.BIRCH_FENCE = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_FENCE); }
-// public static void BIRCH_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_FENCE = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_WOOD() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_WOOD); }
-// public void DARK_OAK_WOOD(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_WOOD); }
-// public static void DARK_OAK_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_PRISMARINE_SLAB() { return new yarnwrap.item.Item(wrapperContained.DARK_PRISMARINE_SLAB); }
-// public void DARK_PRISMARINE_SLAB(yarnwrap.item.Item value) { wrapperContained.DARK_PRISMARINE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_PRISMARINE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_PRISMARINE_SLAB); }
-// public static void DARK_PRISMARINE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_PRISMARINE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item COARSE_DIRT() { return new yarnwrap.item.Item(wrapperContained.COARSE_DIRT); }
-// public void COARSE_DIRT(yarnwrap.item.Item value) { wrapperContained.COARSE_DIRT = value.wrapperContained; }
-public static yarnwrap.item.Item COARSE_DIRT() { return new yarnwrap.item.Item(net.minecraft.item.Items.COARSE_DIRT); }
-// public static void COARSE_DIRT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COARSE_DIRT = value.wrapperContained; }
-
-// public yarnwrap.item.Item GREEN_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.GREEN_SHULKER_BOX); }
-// public void GREEN_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.GREEN_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item GREEN_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_SHULKER_BOX); }
-// public static void GREEN_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_BUBBLE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.DEAD_BUBBLE_CORAL_FAN); }
-// public void DEAD_BUBBLE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.DEAD_BUBBLE_CORAL_FAN = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_BUBBLE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BUBBLE_CORAL_FAN); }
-// public static void DEAD_BUBBLE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BUBBLE_CORAL_FAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item BROWN_BED() { return new yarnwrap.item.Item(wrapperContained.BROWN_BED); }
-// public void BROWN_BED(yarnwrap.item.Item value) { wrapperContained.BROWN_BED = value.wrapperContained; }
-public static yarnwrap.item.Item BROWN_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_BED); }
-// public static void BROWN_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item CRAFTING_TABLE() { return new yarnwrap.item.Item(wrapperContained.CRAFTING_TABLE); }
-// public void CRAFTING_TABLE(yarnwrap.item.Item value) { wrapperContained.CRAFTING_TABLE = value.wrapperContained; }
-public static yarnwrap.item.Item CRAFTING_TABLE() { return new yarnwrap.item.Item(net.minecraft.item.Items.CRAFTING_TABLE); }
-// public static void CRAFTING_TABLE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CRAFTING_TABLE = value.wrapperContained; }
-
-// public yarnwrap.item.Item ENDER_CHEST() { return new yarnwrap.item.Item(wrapperContained.ENDER_CHEST); }
-// public void ENDER_CHEST(yarnwrap.item.Item value) { wrapperContained.ENDER_CHEST = value.wrapperContained; }
-public static yarnwrap.item.Item ENDER_CHEST() { return new yarnwrap.item.Item(net.minecraft.item.Items.ENDER_CHEST); }
-// public static void ENDER_CHEST(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ENDER_CHEST = value.wrapperContained; }
-
-// public yarnwrap.item.Item BROWN_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BROWN_TERRACOTTA); }
-// public void BROWN_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BROWN_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item BROWN_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_TERRACOTTA); }
-// public static void BROWN_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item REPEATING_COMMAND_BLOCK() { return new yarnwrap.item.Item(wrapperContained.REPEATING_COMMAND_BLOCK); }
-// public void REPEATING_COMMAND_BLOCK(yarnwrap.item.Item value) { wrapperContained.REPEATING_COMMAND_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item REPEATING_COMMAND_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.REPEATING_COMMAND_BLOCK); }
-// public static void REPEATING_COMMAND_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REPEATING_COMMAND_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item ZOMBIE_HEAD() { return new yarnwrap.item.Item(wrapperContained.ZOMBIE_HEAD); }
-// public void ZOMBIE_HEAD(yarnwrap.item.Item value) { wrapperContained.ZOMBIE_HEAD = value.wrapperContained; }
-public static yarnwrap.item.Item ZOMBIE_HEAD() { return new yarnwrap.item.Item(net.minecraft.item.Items.ZOMBIE_HEAD); }
-// public static void ZOMBIE_HEAD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ZOMBIE_HEAD = value.wrapperContained; }
-
-// public yarnwrap.item.Item FERN() { return new yarnwrap.item.Item(wrapperContained.FERN); }
-// public void FERN(yarnwrap.item.Item value) { wrapperContained.FERN = value.wrapperContained; }
-public static yarnwrap.item.Item FERN() { return new yarnwrap.item.Item(net.minecraft.item.Items.FERN); }
-// public static void FERN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FERN = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_BIRCH_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_BIRCH_WOOD); }
-// public void STRIPPED_BIRCH_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_BIRCH_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_BIRCH_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_BIRCH_WOOD); }
-// public static void STRIPPED_BIRCH_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_BIRCH_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item BRAIN_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.BRAIN_CORAL_BLOCK); }
-// public void BRAIN_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.BRAIN_CORAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item BRAIN_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRAIN_CORAL_BLOCK); }
-// public static void BRAIN_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRAIN_CORAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item COAL_ORE() { return new yarnwrap.item.Item(wrapperContained.COAL_ORE); }
-// public void COAL_ORE(yarnwrap.item.Item value) { wrapperContained.COAL_ORE = value.wrapperContained; }
-public static yarnwrap.item.Item COAL_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.COAL_ORE); }
-// public static void COAL_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COAL_ORE = value.wrapperContained; }
-
-// public yarnwrap.item.Item STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.STONE_BRICK_STAIRS); }
-// public void STONE_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.STONE_BRICK_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_BRICK_STAIRS); }
-// public static void STONE_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_BRICK_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_CARPET() { return new yarnwrap.item.Item(wrapperContained.RED_CARPET); }
-// public void RED_CARPET(yarnwrap.item.Item value) { wrapperContained.RED_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item RED_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_CARPET); }
-// public static void RED_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item WHITE_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.WHITE_STAINED_GLASS); }
-// public void WHITE_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.WHITE_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item WHITE_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_STAINED_GLASS); }
-// public static void WHITE_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLUE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.BLUE_GLAZED_TERRACOTTA); }
-// public void BLUE_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.BLUE_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item BLUE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_GLAZED_TERRACOTTA); }
-// public static void BLUE_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item ORANGE_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.ORANGE_CONCRETE_POWDER); }
-// public void ORANGE_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.ORANGE_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item ORANGE_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_CONCRETE_POWDER); }
-// public static void ORANGE_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRANITE_WALL() { return new yarnwrap.item.Item(wrapperContained.GRANITE_WALL); }
-// public void GRANITE_WALL(yarnwrap.item.Item value) { wrapperContained.GRANITE_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item GRANITE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRANITE_WALL); }
-// public static void GRANITE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRANITE_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPUR_PILLAR() { return new yarnwrap.item.Item(wrapperContained.PURPUR_PILLAR); }
-// public void PURPUR_PILLAR(yarnwrap.item.Item value) { wrapperContained.PURPUR_PILLAR = value.wrapperContained; }
-public static yarnwrap.item.Item PURPUR_PILLAR() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPUR_PILLAR); }
-// public static void PURPUR_PILLAR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPUR_PILLAR = value.wrapperContained; }
-
-// public yarnwrap.item.Item DANDELION() { return new yarnwrap.item.Item(wrapperContained.DANDELION); }
-// public void DANDELION(yarnwrap.item.Item value) { wrapperContained.DANDELION = value.wrapperContained; }
-public static yarnwrap.item.Item DANDELION() { return new yarnwrap.item.Item(net.minecraft.item.Items.DANDELION); }
-// public static void DANDELION(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DANDELION = value.wrapperContained; }
-
-// public yarnwrap.item.Item GOLD_BLOCK() { return new yarnwrap.item.Item(wrapperContained.GOLD_BLOCK); }
-// public void GOLD_BLOCK(yarnwrap.item.Item value) { wrapperContained.GOLD_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item GOLD_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.GOLD_BLOCK); }
-// public static void GOLD_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GOLD_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_TRAPDOOR); }
-// public void SPRUCE_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.SPRUCE_TRAPDOOR = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_TRAPDOOR); }
-// public static void SPRUCE_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_TRAPDOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item QUARTZ_STAIRS() { return new yarnwrap.item.Item(wrapperContained.QUARTZ_STAIRS); }
-// public void QUARTZ_STAIRS(yarnwrap.item.Item value) { wrapperContained.QUARTZ_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item QUARTZ_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.QUARTZ_STAIRS); }
-// public static void QUARTZ_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.QUARTZ_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item PINK_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.PINK_STAINED_GLASS_PANE); }
-// public void PINK_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.PINK_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item PINK_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_STAINED_GLASS_PANE); }
-// public static void PINK_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BROWN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.BROWN_STAINED_GLASS_PANE); }
-// public void BROWN_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.BROWN_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item BROWN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_STAINED_GLASS_PANE); }
-// public static void BROWN_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item NETHER_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.NETHER_BRICK_SLAB); }
-// public void NETHER_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.NETHER_BRICK_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item NETHER_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_BRICK_SLAB); }
-// public static void NETHER_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_BRICK_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item BROWN_MUSHROOM_BLOCK() { return new yarnwrap.item.Item(wrapperContained.BROWN_MUSHROOM_BLOCK); }
-// public void BROWN_MUSHROOM_BLOCK(yarnwrap.item.Item value) { wrapperContained.BROWN_MUSHROOM_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item BROWN_MUSHROOM_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_MUSHROOM_BLOCK); }
-// public static void BROWN_MUSHROOM_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_MUSHROOM_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRAY_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.GRAY_STAINED_GLASS); }
-// public void GRAY_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.GRAY_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item GRAY_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_STAINED_GLASS); }
-// public static void GRAY_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item MAGENTA_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_CONCRETE); }
-// public void MAGENTA_CONCRETE(yarnwrap.item.Item value) { wrapperContained.MAGENTA_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item MAGENTA_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_CONCRETE); }
-// public static void MAGENTA_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLACK_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.BLACK_CONCRETE_POWDER); }
-// public void BLACK_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.BLACK_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item BLACK_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_CONCRETE_POWDER); }
-// public static void BLACK_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_DOOR() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_DOOR); }
-// public void DARK_OAK_DOOR(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_DOOR = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_DOOR); }
-// public static void DARK_OAK_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_DOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item DIRT_PATH() { return new yarnwrap.item.Item(wrapperContained.DIRT_PATH); }
-// public void DIRT_PATH(yarnwrap.item.Item value) { wrapperContained.DIRT_PATH = value.wrapperContained; }
-public static yarnwrap.item.Item DIRT_PATH() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIRT_PATH); }
-// public static void DIRT_PATH(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIRT_PATH = value.wrapperContained; }
-
-// public yarnwrap.item.Item PINK_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.PINK_SHULKER_BOX); }
-// public void PINK_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.PINK_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item PINK_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_SHULKER_BOX); }
-// public static void PINK_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item TUBE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.TUBE_CORAL_FAN); }
-// public void TUBE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.TUBE_CORAL_FAN = value.wrapperContained; }
-public static yarnwrap.item.Item TUBE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.TUBE_CORAL_FAN); }
-// public static void TUBE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TUBE_CORAL_FAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_NETHER_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.RED_NETHER_BRICK_SLAB); }
-// public void RED_NETHER_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.RED_NETHER_BRICK_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item RED_NETHER_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_NETHER_BRICK_SLAB); }
-// public static void RED_NETHER_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_NETHER_BRICK_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item STONE_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.STONE_BRICK_SLAB); }
-// public void STONE_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.STONE_BRICK_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item STONE_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_BRICK_SLAB); }
-// public static void STONE_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_BRICK_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item CHISELED_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.CHISELED_STONE_BRICKS); }
-// public void CHISELED_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.CHISELED_STONE_BRICKS = value.wrapperContained; }
-public static yarnwrap.item.Item CHISELED_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHISELED_STONE_BRICKS); }
-// public static void CHISELED_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHISELED_STONE_BRICKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item ANDESITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.ANDESITE_STAIRS); }
-// public void ANDESITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.ANDESITE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item ANDESITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.ANDESITE_STAIRS); }
-// public static void ANDESITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ANDESITE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item REDSTONE_TORCH() { return new yarnwrap.item.Item(wrapperContained.REDSTONE_TORCH); }
-// public void REDSTONE_TORCH(yarnwrap.item.Item value) { wrapperContained.REDSTONE_TORCH = value.wrapperContained; }
-public static yarnwrap.item.Item REDSTONE_TORCH() { return new yarnwrap.item.Item(net.minecraft.item.Items.REDSTONE_TORCH); }
-// public static void REDSTONE_TORCH(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REDSTONE_TORCH = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_BUTTON() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_BUTTON); }
-// public void DARK_OAK_BUTTON(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_BUTTON = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_BUTTON); }
-// public static void DARK_OAK_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_BUTTON = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPONGE() { return new yarnwrap.item.Item(wrapperContained.SPONGE); }
-// public void SPONGE(yarnwrap.item.Item value) { wrapperContained.SPONGE = value.wrapperContained; }
-public static yarnwrap.item.Item SPONGE() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPONGE); }
-// public static void SPONGE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPONGE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BOOKSHELF() { return new yarnwrap.item.Item(wrapperContained.BOOKSHELF); }
-// public void BOOKSHELF(yarnwrap.item.Item value) { wrapperContained.BOOKSHELF = value.wrapperContained; }
-public static yarnwrap.item.Item BOOKSHELF() { return new yarnwrap.item.Item(net.minecraft.item.Items.BOOKSHELF); }
-// public static void BOOKSHELF(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BOOKSHELF = value.wrapperContained; }
-
-// public yarnwrap.item.Item OBSERVER() { return new yarnwrap.item.Item(wrapperContained.OBSERVER); }
-// public void OBSERVER(yarnwrap.item.Item value) { wrapperContained.OBSERVER = value.wrapperContained; }
-public static yarnwrap.item.Item OBSERVER() { return new yarnwrap.item.Item(net.minecraft.item.Items.OBSERVER); }
-// public static void OBSERVER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OBSERVER = value.wrapperContained; }
-
-// public yarnwrap.item.Item BUBBLE_CORAL() { return new yarnwrap.item.Item(wrapperContained.BUBBLE_CORAL); }
-// public void BUBBLE_CORAL(yarnwrap.item.Item value) { wrapperContained.BUBBLE_CORAL = value.wrapperContained; }
-public static yarnwrap.item.Item BUBBLE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.BUBBLE_CORAL); }
-// public static void BUBBLE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BUBBLE_CORAL = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_SLAB() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_SLAB); }
-// public void DARK_OAK_SLAB(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_SLAB); }
-// public static void DARK_OAK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item INFESTED_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.INFESTED_STONE_BRICKS); }
-// public void INFESTED_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.INFESTED_STONE_BRICKS = value.wrapperContained; }
-public static yarnwrap.item.Item INFESTED_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_STONE_BRICKS); }
-// public static void INFESTED_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_STONE_BRICKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BEDROCK() { return new yarnwrap.item.Item(wrapperContained.BEDROCK); }
-// public void BEDROCK(yarnwrap.item.Item value) { wrapperContained.BEDROCK = value.wrapperContained; }
-public static yarnwrap.item.Item BEDROCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.BEDROCK); }
-// public static void BEDROCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BEDROCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.SHULKER_BOX); }
-// public void SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.SHULKER_BOX); }
-// public static void SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item FIRE_CORAL() { return new yarnwrap.item.Item(wrapperContained.FIRE_CORAL); }
-// public void FIRE_CORAL(yarnwrap.item.Item value) { wrapperContained.FIRE_CORAL = value.wrapperContained; }
-public static yarnwrap.item.Item FIRE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.FIRE_CORAL); }
-// public static void FIRE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FIRE_CORAL = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIME_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.LIME_SHULKER_BOX); }
-// public void LIME_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.LIME_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item LIME_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_SHULKER_BOX); }
-// public static void LIME_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_TUBE_CORAL() { return new yarnwrap.item.Item(wrapperContained.DEAD_TUBE_CORAL); }
-// public void DEAD_TUBE_CORAL(yarnwrap.item.Item value) { wrapperContained.DEAD_TUBE_CORAL = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_TUBE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_TUBE_CORAL); }
-// public static void DEAD_TUBE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_TUBE_CORAL = value.wrapperContained; }
-
-// public yarnwrap.item.Item CHISELED_SANDSTONE() { return new yarnwrap.item.Item(wrapperContained.CHISELED_SANDSTONE); }
-// public void CHISELED_SANDSTONE(yarnwrap.item.Item value) { wrapperContained.CHISELED_SANDSTONE = value.wrapperContained; }
-public static yarnwrap.item.Item CHISELED_SANDSTONE() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHISELED_SANDSTONE); }
-// public static void CHISELED_SANDSTONE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHISELED_SANDSTONE = value.wrapperContained; }
-
-// public yarnwrap.item.Item WET_SPONGE() { return new yarnwrap.item.Item(wrapperContained.WET_SPONGE); }
-// public void WET_SPONGE(yarnwrap.item.Item value) { wrapperContained.WET_SPONGE = value.wrapperContained; }
-public static yarnwrap.item.Item WET_SPONGE() { return new yarnwrap.item.Item(net.minecraft.item.Items.WET_SPONGE); }
-// public static void WET_SPONGE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WET_SPONGE = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_GRAY_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_CONCRETE_POWDER); }
-// public void LIGHT_GRAY_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_GRAY_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_CONCRETE_POWDER); }
-// public static void LIGHT_GRAY_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item DIORITE_WALL() { return new yarnwrap.item.Item(wrapperContained.DIORITE_WALL); }
-// public void DIORITE_WALL(yarnwrap.item.Item value) { wrapperContained.DIORITE_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item DIORITE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIORITE_WALL); }
-// public static void DIORITE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIORITE_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item LARGE_FERN() { return new yarnwrap.item.Item(wrapperContained.LARGE_FERN); }
-// public void LARGE_FERN(yarnwrap.item.Item value) { wrapperContained.LARGE_FERN = value.wrapperContained; }
-public static yarnwrap.item.Item LARGE_FERN() { return new yarnwrap.item.Item(net.minecraft.item.Items.LARGE_FERN); }
-// public static void LARGE_FERN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LARGE_FERN = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPLE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.PURPLE_GLAZED_TERRACOTTA); }
-// public void PURPLE_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.PURPLE_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item PURPLE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_GLAZED_TERRACOTTA); }
-// public static void PURPLE_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUKEBOX() { return new yarnwrap.item.Item(wrapperContained.JUKEBOX); }
-// public void JUKEBOX(yarnwrap.item.Item value) { wrapperContained.JUKEBOX = value.wrapperContained; }
-public static yarnwrap.item.Item JUKEBOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUKEBOX); }
-// public static void JUKEBOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUKEBOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DAYLIGHT_DETECTOR() { return new yarnwrap.item.Item(wrapperContained.DAYLIGHT_DETECTOR); }
-// public void DAYLIGHT_DETECTOR(yarnwrap.item.Item value) { wrapperContained.DAYLIGHT_DETECTOR = value.wrapperContained; }
-public static yarnwrap.item.Item DAYLIGHT_DETECTOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.DAYLIGHT_DETECTOR); }
-// public static void DAYLIGHT_DETECTOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DAYLIGHT_DETECTOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item POLISHED_DIORITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.POLISHED_DIORITE_SLAB); }
-// public void POLISHED_DIORITE_SLAB(yarnwrap.item.Item value) { wrapperContained.POLISHED_DIORITE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item POLISHED_DIORITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_DIORITE_SLAB); }
-// public static void POLISHED_DIORITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_DIORITE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item PLAYER_HEAD() { return new yarnwrap.item.Item(wrapperContained.PLAYER_HEAD); }
-// public void PLAYER_HEAD(yarnwrap.item.Item value) { wrapperContained.PLAYER_HEAD = value.wrapperContained; }
-public static yarnwrap.item.Item PLAYER_HEAD() { return new yarnwrap.item.Item(net.minecraft.item.Items.PLAYER_HEAD); }
-// public static void PLAYER_HEAD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PLAYER_HEAD = value.wrapperContained; }
-
-// public yarnwrap.item.Item MOSSY_STONE_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.MOSSY_STONE_BRICK_SLAB); }
-// public void MOSSY_STONE_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.MOSSY_STONE_BRICK_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item MOSSY_STONE_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_STONE_BRICK_SLAB); }
-// public static void MOSSY_STONE_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_STONE_BRICK_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item PINK_CARPET() { return new yarnwrap.item.Item(wrapperContained.PINK_CARPET); }
-// public void PINK_CARPET(yarnwrap.item.Item value) { wrapperContained.PINK_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item PINK_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_CARPET); }
-// public static void PINK_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIME_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.LIME_STAINED_GLASS_PANE); }
-// public void LIME_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.LIME_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item LIME_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_STAINED_GLASS_PANE); }
-// public static void LIME_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item WHITE_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.WHITE_CONCRETE_POWDER); }
-// public void WHITE_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.WHITE_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item WHITE_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_CONCRETE_POWDER); }
-// public static void WHITE_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_LOG() { return new yarnwrap.item.Item(wrapperContained.OAK_LOG); }
-// public void OAK_LOG(yarnwrap.item.Item value) { wrapperContained.OAK_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_LOG); }
-// public static void OAK_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item BROWN_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.BROWN_SHULKER_BOX); }
-// public void BROWN_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.BROWN_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item BROWN_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_SHULKER_BOX); }
-// public static void BROWN_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_BRAIN_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.DEAD_BRAIN_CORAL_FAN); }
-// public void DEAD_BRAIN_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.DEAD_BRAIN_CORAL_FAN = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_BRAIN_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BRAIN_CORAL_FAN); }
-// public static void DEAD_BRAIN_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BRAIN_CORAL_FAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_WOOD() { return new yarnwrap.item.Item(wrapperContained.ACACIA_WOOD); }
-// public void ACACIA_WOOD(yarnwrap.item.Item value) { wrapperContained.ACACIA_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_WOOD); }
-// public static void ACACIA_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item PRISMARINE_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.PRISMARINE_BRICK_SLAB); }
-// public void PRISMARINE_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.PRISMARINE_BRICK_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item PRISMARINE_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.PRISMARINE_BRICK_SLAB); }
-// public static void PRISMARINE_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PRISMARINE_BRICK_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item HEAVY_WEIGHTED_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.HEAVY_WEIGHTED_PRESSURE_PLATE); }
-// public void HEAVY_WEIGHTED_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.HEAVY_WEIGHTED_PRESSURE_PLATE = value.wrapperContained; }
-public static yarnwrap.item.Item HEAVY_WEIGHTED_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.HEAVY_WEIGHTED_PRESSURE_PLATE); }
-// public static void HEAVY_WEIGHTED_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HEAVY_WEIGHTED_PRESSURE_PLATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item CYAN_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.CYAN_CONCRETE_POWDER); }
-// public void CYAN_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.CYAN_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item CYAN_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_CONCRETE_POWDER); }
-// public static void CYAN_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item IRON_DOOR() { return new yarnwrap.item.Item(wrapperContained.IRON_DOOR); }
-// public void IRON_DOOR(yarnwrap.item.Item value) { wrapperContained.IRON_DOOR = value.wrapperContained; }
-public static yarnwrap.item.Item IRON_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.IRON_DOOR); }
-// public static void IRON_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.IRON_DOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item STONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.STONE_SLAB); }
-// public void STONE_SLAB(yarnwrap.item.Item value) { wrapperContained.STONE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item STONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_SLAB); }
-// public static void STONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item INFESTED_MOSSY_STONE_BRICKS() { return new yarnwrap.item.Item(wrapperContained.INFESTED_MOSSY_STONE_BRICKS); }
-// public void INFESTED_MOSSY_STONE_BRICKS(yarnwrap.item.Item value) { wrapperContained.INFESTED_MOSSY_STONE_BRICKS = value.wrapperContained; }
-public static yarnwrap.item.Item INFESTED_MOSSY_STONE_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.INFESTED_MOSSY_STONE_BRICKS); }
-// public static void INFESTED_MOSSY_STONE_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.INFESTED_MOSSY_STONE_BRICKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item IRON_ORE() { return new yarnwrap.item.Item(wrapperContained.IRON_ORE); }
-// public void IRON_ORE(yarnwrap.item.Item value) { wrapperContained.IRON_ORE = value.wrapperContained; }
-public static yarnwrap.item.Item IRON_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.IRON_ORE); }
-// public static void IRON_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.IRON_ORE = value.wrapperContained; }
-
-// public yarnwrap.item.Item SHORT_GRASS() { return new yarnwrap.item.Item(wrapperContained.SHORT_GRASS); }
-// public void SHORT_GRASS(yarnwrap.item.Item value) { wrapperContained.SHORT_GRASS = value.wrapperContained; }
-public static yarnwrap.item.Item SHORT_GRASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SHORT_GRASS); }
-// public static void SHORT_GRASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SHORT_GRASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item DIAMOND_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DIAMOND_BLOCK); }
-// public void DIAMOND_BLOCK(yarnwrap.item.Item value) { wrapperContained.DIAMOND_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item DIAMOND_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIAMOND_BLOCK); }
-// public static void DIAMOND_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIAMOND_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item REDSTONE_ORE() { return new yarnwrap.item.Item(wrapperContained.REDSTONE_ORE); }
-// public void REDSTONE_ORE(yarnwrap.item.Item value) { wrapperContained.REDSTONE_ORE = value.wrapperContained; }
-public static yarnwrap.item.Item REDSTONE_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.REDSTONE_ORE); }
-// public static void REDSTONE_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REDSTONE_ORE = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_BUTTON() { return new yarnwrap.item.Item(wrapperContained.ACACIA_BUTTON); }
-// public void ACACIA_BUTTON(yarnwrap.item.Item value) { wrapperContained.ACACIA_BUTTON = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_BUTTON); }
-// public static void ACACIA_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_BUTTON = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRANITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.GRANITE_STAIRS); }
-// public void GRANITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.GRANITE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item GRANITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRANITE_STAIRS); }
-// public static void GRANITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRANITE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item MYCELIUM() { return new yarnwrap.item.Item(wrapperContained.MYCELIUM); }
-// public void MYCELIUM(yarnwrap.item.Item value) { wrapperContained.MYCELIUM = value.wrapperContained; }
-public static yarnwrap.item.Item MYCELIUM() { return new yarnwrap.item.Item(net.minecraft.item.Items.MYCELIUM); }
-// public static void MYCELIUM(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MYCELIUM = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLACK_CARPET() { return new yarnwrap.item.Item(wrapperContained.BLACK_CARPET); }
-// public void BLACK_CARPET(yarnwrap.item.Item value) { wrapperContained.BLACK_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item BLACK_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_CARPET); }
-// public static void BLACK_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRUCTURE_VOID() { return new yarnwrap.item.Item(wrapperContained.STRUCTURE_VOID); }
-// public void STRUCTURE_VOID(yarnwrap.item.Item value) { wrapperContained.STRUCTURE_VOID = value.wrapperContained; }
-public static yarnwrap.item.Item STRUCTURE_VOID() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRUCTURE_VOID); }
-// public static void STRUCTURE_VOID(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRUCTURE_VOID = value.wrapperContained; }
-
-// public yarnwrap.item.Item BRAIN_CORAL() { return new yarnwrap.item.Item(wrapperContained.BRAIN_CORAL); }
-// public void BRAIN_CORAL(yarnwrap.item.Item value) { wrapperContained.BRAIN_CORAL = value.wrapperContained; }
-public static yarnwrap.item.Item BRAIN_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRAIN_CORAL); }
-// public static void BRAIN_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRAIN_CORAL = value.wrapperContained; }
-
-// public yarnwrap.item.Item TURTLE_EGG() { return new yarnwrap.item.Item(wrapperContained.TURTLE_EGG); }
-// public void TURTLE_EGG(yarnwrap.item.Item value) { wrapperContained.TURTLE_EGG = value.wrapperContained; }
-public static yarnwrap.item.Item TURTLE_EGG() { return new yarnwrap.item.Item(net.minecraft.item.Items.TURTLE_EGG); }
-// public static void TURTLE_EGG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TURTLE_EGG = value.wrapperContained; }
-
-// public yarnwrap.item.Item REPEATER() { return new yarnwrap.item.Item(wrapperContained.REPEATER); }
-// public void REPEATER(yarnwrap.item.Item value) { wrapperContained.REPEATER = value.wrapperContained; }
-public static yarnwrap.item.Item REPEATER() { return new yarnwrap.item.Item(net.minecraft.item.Items.REPEATER); }
-// public static void REPEATER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REPEATER = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_SPRUCE_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_SPRUCE_LOG); }
-// public void STRIPPED_SPRUCE_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_SPRUCE_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_SPRUCE_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_SPRUCE_LOG); }
-// public static void STRIPPED_SPRUCE_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_SPRUCE_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item TNT() { return new yarnwrap.item.Item(wrapperContained.TNT); }
-// public void TNT(yarnwrap.item.Item value) { wrapperContained.TNT = value.wrapperContained; }
-public static yarnwrap.item.Item TNT() { return new yarnwrap.item.Item(net.minecraft.item.Items.TNT); }
-// public static void TNT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TNT = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRAY_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.GRAY_SHULKER_BOX); }
-// public void GRAY_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.GRAY_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item GRAY_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_SHULKER_BOX); }
-// public static void GRAY_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item BRAIN_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.BRAIN_CORAL_FAN); }
-// public void BRAIN_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.BRAIN_CORAL_FAN = value.wrapperContained; }
-public static yarnwrap.item.Item BRAIN_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRAIN_CORAL_FAN); }
-// public static void BRAIN_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRAIN_CORAL_FAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.RED_STAINED_GLASS); }
-// public void RED_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.RED_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item RED_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_STAINED_GLASS); }
-// public static void RED_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item CYAN_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.CYAN_CONCRETE); }
-// public void CYAN_CONCRETE(yarnwrap.item.Item value) { wrapperContained.CYAN_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item CYAN_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_CONCRETE); }
-// public static void CYAN_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item CAULDRON() { return new yarnwrap.item.Item(wrapperContained.CAULDRON); }
-// public void CAULDRON(yarnwrap.item.Item value) { wrapperContained.CAULDRON = value.wrapperContained; }
-public static yarnwrap.item.Item CAULDRON() { return new yarnwrap.item.Item(net.minecraft.item.Items.CAULDRON); }
-// public static void CAULDRON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CAULDRON = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_BLUE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_GLAZED_TERRACOTTA); }
-// public void LIGHT_BLUE_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_BLUE_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_GLAZED_TERRACOTTA); }
-// public static void LIGHT_BLUE_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item SMOOTH_RED_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_RED_SANDSTONE_STAIRS); }
-// public void SMOOTH_RED_SANDSTONE_STAIRS(yarnwrap.item.Item value) { wrapperContained.SMOOTH_RED_SANDSTONE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item SMOOTH_RED_SANDSTONE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_RED_SANDSTONE_STAIRS); }
-// public static void SMOOTH_RED_SANDSTONE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_RED_SANDSTONE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item NOTE_BLOCK() { return new yarnwrap.item.Item(wrapperContained.NOTE_BLOCK); }
-// public void NOTE_BLOCK(yarnwrap.item.Item value) { wrapperContained.NOTE_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item NOTE_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.NOTE_BLOCK); }
-// public static void NOTE_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NOTE_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPUR_STAIRS() { return new yarnwrap.item.Item(wrapperContained.PURPUR_STAIRS); }
-// public void PURPUR_STAIRS(yarnwrap.item.Item value) { wrapperContained.PURPUR_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item PURPUR_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPUR_STAIRS); }
-// public static void PURPUR_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPUR_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_FENCE() { return new yarnwrap.item.Item(wrapperContained.ACACIA_FENCE); }
-// public void ACACIA_FENCE(yarnwrap.item.Item value) { wrapperContained.ACACIA_FENCE = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_FENCE); }
-// public static void ACACIA_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_FENCE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BAMBOO() { return new yarnwrap.item.Item(wrapperContained.BAMBOO); }
-// public void BAMBOO(yarnwrap.item.Item value) { wrapperContained.BAMBOO = value.wrapperContained; }
-public static yarnwrap.item.Item BAMBOO() { return new yarnwrap.item.Item(net.minecraft.item.Items.BAMBOO); }
-// public static void BAMBOO(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BAMBOO = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIME_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIME_GLAZED_TERRACOTTA); }
-// public void LIME_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIME_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item LIME_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_GLAZED_TERRACOTTA); }
-// public static void LIME_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item POLISHED_DIORITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.POLISHED_DIORITE_STAIRS); }
-// public void POLISHED_DIORITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.POLISHED_DIORITE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item POLISHED_DIORITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.POLISHED_DIORITE_STAIRS); }
-// public static void POLISHED_DIORITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POLISHED_DIORITE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_PLANKS() { return new yarnwrap.item.Item(wrapperContained.ACACIA_PLANKS); }
-// public void ACACIA_PLANKS(yarnwrap.item.Item value) { wrapperContained.ACACIA_PLANKS = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_PLANKS); }
-// public static void ACACIA_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_PLANKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_LOG() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_LOG); }
-// public void DARK_OAK_LOG(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_LOG); }
-// public static void DARK_OAK_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_FENCE_GATE); }
-// public void SPRUCE_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.SPRUCE_FENCE_GATE = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_FENCE_GATE); }
-// public static void SPRUCE_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_FENCE_GATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_GRAY_CARPET() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_CARPET); }
-// public void LIGHT_GRAY_CARPET(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_GRAY_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_CARPET); }
-// public static void LIGHT_GRAY_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACTIVATOR_RAIL() { return new yarnwrap.item.Item(wrapperContained.ACTIVATOR_RAIL); }
-// public void ACTIVATOR_RAIL(yarnwrap.item.Item value) { wrapperContained.ACTIVATOR_RAIL = value.wrapperContained; }
-public static yarnwrap.item.Item ACTIVATOR_RAIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACTIVATOR_RAIL); }
-// public static void ACTIVATOR_RAIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACTIVATOR_RAIL = value.wrapperContained; }
-
-// public yarnwrap.item.Item GREEN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.GREEN_STAINED_GLASS_PANE); }
-// public void GREEN_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.GREEN_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item GREEN_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_STAINED_GLASS_PANE); }
-// public static void GREEN_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item ENCHANTING_TABLE() { return new yarnwrap.item.Item(wrapperContained.ENCHANTING_TABLE); }
-// public void ENCHANTING_TABLE(yarnwrap.item.Item value) { wrapperContained.ENCHANTING_TABLE = value.wrapperContained; }
-public static yarnwrap.item.Item ENCHANTING_TABLE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ENCHANTING_TABLE); }
-// public static void ENCHANTING_TABLE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ENCHANTING_TABLE = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_STAIRS); }
-// public void DARK_OAK_STAIRS(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_STAIRS); }
-// public static void DARK_OAK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item DIORITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.DIORITE_SLAB); }
-// public void DIORITE_SLAB(yarnwrap.item.Item value) { wrapperContained.DIORITE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item DIORITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIORITE_SLAB); }
-// public static void DIORITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIORITE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.BRICK_STAIRS); }
-// public void BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.BRICK_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRICK_STAIRS); }
-// public static void BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRICK_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item GREEN_CARPET() { return new yarnwrap.item.Item(wrapperContained.GREEN_CARPET); }
-// public void GREEN_CARPET(yarnwrap.item.Item value) { wrapperContained.GREEN_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item GREEN_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_CARPET); }
-// public static void GREEN_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item STONE_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.STONE_PRESSURE_PLATE); }
-// public void STONE_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.STONE_PRESSURE_PLATE = value.wrapperContained; }
-public static yarnwrap.item.Item STONE_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_PRESSURE_PLATE); }
-// public static void STONE_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_PRESSURE_PLATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BEACON() { return new yarnwrap.item.Item(wrapperContained.BEACON); }
-// public void BEACON(yarnwrap.item.Item value) { wrapperContained.BEACON = value.wrapperContained; }
-public static yarnwrap.item.Item BEACON() { return new yarnwrap.item.Item(net.minecraft.item.Items.BEACON); }
-// public static void BEACON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BEACON = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIME_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIME_TERRACOTTA); }
-// public void LIME_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIME_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item LIME_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_TERRACOTTA); }
-// public static void LIME_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item PRISMARINE_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.PRISMARINE_BRICK_STAIRS); }
-// public void PRISMARINE_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.PRISMARINE_BRICK_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item PRISMARINE_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PRISMARINE_BRICK_STAIRS); }
-// public static void PRISMARINE_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PRISMARINE_BRICK_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.RED_SHULKER_BOX); }
-// public void RED_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.RED_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item RED_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_SHULKER_BOX); }
-// public static void RED_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_FIRE_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.DEAD_FIRE_CORAL_FAN); }
-// public void DEAD_FIRE_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.DEAD_FIRE_CORAL_FAN = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_FIRE_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_FIRE_CORAL_FAN); }
-// public static void DEAD_FIRE_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_FIRE_CORAL_FAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIME_BED() { return new yarnwrap.item.Item(wrapperContained.LIME_BED); }
-// public void LIME_BED(yarnwrap.item.Item value) { wrapperContained.LIME_BED = value.wrapperContained; }
-public static yarnwrap.item.Item LIME_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_BED); }
-// public static void LIME_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item CREEPER_HEAD() { return new yarnwrap.item.Item(wrapperContained.CREEPER_HEAD); }
-// public void CREEPER_HEAD(yarnwrap.item.Item value) { wrapperContained.CREEPER_HEAD = value.wrapperContained; }
-public static yarnwrap.item.Item CREEPER_HEAD() { return new yarnwrap.item.Item(net.minecraft.item.Items.CREEPER_HEAD); }
-// public static void CREEPER_HEAD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CREEPER_HEAD = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_MUSHROOM_BLOCK() { return new yarnwrap.item.Item(wrapperContained.RED_MUSHROOM_BLOCK); }
-// public void RED_MUSHROOM_BLOCK(yarnwrap.item.Item value) { wrapperContained.RED_MUSHROOM_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item RED_MUSHROOM_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_MUSHROOM_BLOCK); }
-// public static void RED_MUSHROOM_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_MUSHROOM_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item ORANGE_CARPET() { return new yarnwrap.item.Item(wrapperContained.ORANGE_CARPET); }
-// public void ORANGE_CARPET(yarnwrap.item.Item value) { wrapperContained.ORANGE_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item ORANGE_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_CARPET); }
-// public static void ORANGE_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_LOG() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_LOG); }
-// public void SPRUCE_LOG(yarnwrap.item.Item value) { wrapperContained.SPRUCE_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_LOG); }
-// public static void SPRUCE_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item CYAN_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.CYAN_STAINED_GLASS); }
-// public void CYAN_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.CYAN_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item CYAN_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_STAINED_GLASS); }
-// public static void CYAN_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item YELLOW_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.YELLOW_CONCRETE); }
-// public void YELLOW_CONCRETE(yarnwrap.item.Item value) { wrapperContained.YELLOW_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item YELLOW_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_CONCRETE); }
-// public static void YELLOW_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_BUSH() { return new yarnwrap.item.Item(wrapperContained.DEAD_BUSH); }
-// public void DEAD_BUSH(yarnwrap.item.Item value) { wrapperContained.DEAD_BUSH = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_BUSH() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_BUSH); }
-// public static void DEAD_BUSH(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_BUSH = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPLE_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.PURPLE_CONCRETE_POWDER); }
-// public void PURPLE_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.PURPLE_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item PURPLE_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_CONCRETE_POWDER); }
-// public static void PURPLE_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_DOOR() { return new yarnwrap.item.Item(wrapperContained.OAK_DOOR); }
-// public void OAK_DOOR(yarnwrap.item.Item value) { wrapperContained.OAK_DOOR = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_DOOR); }
-// public static void OAK_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_DOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item JACK_O_LANTERN() { return new yarnwrap.item.Item(wrapperContained.JACK_O_LANTERN); }
-// public void JACK_O_LANTERN(yarnwrap.item.Item value) { wrapperContained.JACK_O_LANTERN = value.wrapperContained; }
-public static yarnwrap.item.Item JACK_O_LANTERN() { return new yarnwrap.item.Item(net.minecraft.item.Items.JACK_O_LANTERN); }
-// public static void JACK_O_LANTERN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JACK_O_LANTERN = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_HORN_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DEAD_HORN_CORAL_BLOCK); }
-// public void DEAD_HORN_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.DEAD_HORN_CORAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_HORN_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_HORN_CORAL_BLOCK); }
-// public static void DEAD_HORN_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_HORN_CORAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_FENCE() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_FENCE); }
-// public void SPRUCE_FENCE(yarnwrap.item.Item value) { wrapperContained.SPRUCE_FENCE = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_FENCE); }
-// public static void SPRUCE_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_FENCE = value.wrapperContained; }
-
-// public yarnwrap.item.Item NETHER_QUARTZ_ORE() { return new yarnwrap.item.Item(wrapperContained.NETHER_QUARTZ_ORE); }
-// public void NETHER_QUARTZ_ORE(yarnwrap.item.Item value) { wrapperContained.NETHER_QUARTZ_ORE = value.wrapperContained; }
-public static yarnwrap.item.Item NETHER_QUARTZ_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_QUARTZ_ORE); }
-// public static void NETHER_QUARTZ_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_QUARTZ_ORE = value.wrapperContained; }
-
-// public yarnwrap.item.Item YELLOW_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.YELLOW_STAINED_GLASS_PANE); }
-// public void YELLOW_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.YELLOW_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item YELLOW_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_STAINED_GLASS_PANE); }
-// public static void YELLOW_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLACK_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.BLACK_CONCRETE); }
-// public void BLACK_CONCRETE(yarnwrap.item.Item value) { wrapperContained.BLACK_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item BLACK_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLACK_CONCRETE); }
-// public static void BLACK_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLACK_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPRUCE_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.SPRUCE_PRESSURE_PLATE); }
-// public void SPRUCE_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.SPRUCE_PRESSURE_PLATE = value.wrapperContained; }
-public static yarnwrap.item.Item SPRUCE_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPRUCE_PRESSURE_PLATE); }
-// public static void SPRUCE_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPRUCE_PRESSURE_PLATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item MOSSY_COBBLESTONE_WALL() { return new yarnwrap.item.Item(wrapperContained.MOSSY_COBBLESTONE_WALL); }
-// public void MOSSY_COBBLESTONE_WALL(yarnwrap.item.Item value) { wrapperContained.MOSSY_COBBLESTONE_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item MOSSY_COBBLESTONE_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_COBBLESTONE_WALL); }
-// public static void MOSSY_COBBLESTONE_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_COBBLESTONE_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item CHORUS_FLOWER() { return new yarnwrap.item.Item(wrapperContained.CHORUS_FLOWER); }
-// public void CHORUS_FLOWER(yarnwrap.item.Item value) { wrapperContained.CHORUS_FLOWER = value.wrapperContained; }
-public static yarnwrap.item.Item CHORUS_FLOWER() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHORUS_FLOWER); }
-// public static void CHORUS_FLOWER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHORUS_FLOWER = value.wrapperContained; }
-
-// public yarnwrap.item.Item DRAGON_HEAD() { return new yarnwrap.item.Item(wrapperContained.DRAGON_HEAD); }
-// public void DRAGON_HEAD(yarnwrap.item.Item value) { wrapperContained.DRAGON_HEAD = value.wrapperContained; }
-public static yarnwrap.item.Item DRAGON_HEAD() { return new yarnwrap.item.Item(net.minecraft.item.Items.DRAGON_HEAD); }
-// public static void DRAGON_HEAD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DRAGON_HEAD = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPLE_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.PURPLE_TERRACOTTA); }
-// public void PURPLE_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.PURPLE_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item PURPLE_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_TERRACOTTA); }
-// public static void PURPLE_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_BLUE_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_TERRACOTTA); }
-// public void LIGHT_BLUE_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_BLUE_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_TERRACOTTA); }
-// public static void LIGHT_BLUE_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_WEIGHTED_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.LIGHT_WEIGHTED_PRESSURE_PLATE); }
-// public void LIGHT_WEIGHTED_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.LIGHT_WEIGHTED_PRESSURE_PLATE = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_WEIGHTED_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_WEIGHTED_PRESSURE_PLATE); }
-// public static void LIGHT_WEIGHTED_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_WEIGHTED_PRESSURE_PLATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item WHITE_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.WHITE_SHULKER_BOX); }
-// public void WHITE_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.WHITE_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item WHITE_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_SHULKER_BOX); }
-// public static void WHITE_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item HORN_CORAL() { return new yarnwrap.item.Item(wrapperContained.HORN_CORAL); }
-// public void HORN_CORAL(yarnwrap.item.Item value) { wrapperContained.HORN_CORAL = value.wrapperContained; }
-public static yarnwrap.item.Item HORN_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.HORN_CORAL); }
-// public static void HORN_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HORN_CORAL = value.wrapperContained; }
-
-// public yarnwrap.item.Item FURNACE() { return new yarnwrap.item.Item(wrapperContained.FURNACE); }
-// public void FURNACE(yarnwrap.item.Item value) { wrapperContained.FURNACE = value.wrapperContained; }
-public static yarnwrap.item.Item FURNACE() { return new yarnwrap.item.Item(net.minecraft.item.Items.FURNACE); }
-// public static void FURNACE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FURNACE = value.wrapperContained; }
-
-// public yarnwrap.item.Item EMERALD_BLOCK() { return new yarnwrap.item.Item(wrapperContained.EMERALD_BLOCK); }
-// public void EMERALD_BLOCK(yarnwrap.item.Item value) { wrapperContained.EMERALD_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item EMERALD_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.EMERALD_BLOCK); }
-// public static void EMERALD_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.EMERALD_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item GREEN_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.GREEN_STAINED_GLASS); }
-// public void GREEN_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.GREEN_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item GREEN_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_STAINED_GLASS); }
-// public static void GREEN_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_GRAY_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.LIGHT_GRAY_CONCRETE); }
-// public void LIGHT_GRAY_CONCRETE(yarnwrap.item.Item value) { wrapperContained.LIGHT_GRAY_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_GRAY_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_GRAY_CONCRETE); }
-// public static void LIGHT_GRAY_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_GRAY_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item WHITE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.WHITE_STAINED_GLASS_PANE); }
-// public void WHITE_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.WHITE_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item WHITE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_STAINED_GLASS_PANE); }
-// public static void WHITE_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLUE_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.BLUE_CONCRETE); }
-// public void BLUE_CONCRETE(yarnwrap.item.Item value) { wrapperContained.BLUE_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item BLUE_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_CONCRETE); }
-// public static void BLUE_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPLE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.PURPLE_STAINED_GLASS_PANE); }
-// public void PURPLE_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.PURPLE_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item PURPLE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_STAINED_GLASS_PANE); }
-// public static void PURPLE_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BREWING_STAND() { return new yarnwrap.item.Item(wrapperContained.BREWING_STAND); }
-// public void BREWING_STAND(yarnwrap.item.Item value) { wrapperContained.BREWING_STAND = value.wrapperContained; }
-public static yarnwrap.item.Item BREWING_STAND() { return new yarnwrap.item.Item(net.minecraft.item.Items.BREWING_STAND); }
-// public static void BREWING_STAND(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BREWING_STAND = value.wrapperContained; }
-
-// public yarnwrap.item.Item ANDESITE_SLAB() { return new yarnwrap.item.Item(wrapperContained.ANDESITE_SLAB); }
-// public void ANDESITE_SLAB(yarnwrap.item.Item value) { wrapperContained.ANDESITE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item ANDESITE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.ANDESITE_SLAB); }
-// public static void ANDESITE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ANDESITE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item QUARTZ_PILLAR() { return new yarnwrap.item.Item(wrapperContained.QUARTZ_PILLAR); }
-// public void QUARTZ_PILLAR(yarnwrap.item.Item value) { wrapperContained.QUARTZ_PILLAR = value.wrapperContained; }
-public static yarnwrap.item.Item QUARTZ_PILLAR() { return new yarnwrap.item.Item(net.minecraft.item.Items.QUARTZ_PILLAR); }
-// public static void QUARTZ_PILLAR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.QUARTZ_PILLAR = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLUE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.BLUE_STAINED_GLASS_PANE); }
-// public void BLUE_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.BLUE_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item BLUE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_STAINED_GLASS_PANE); }
-// public static void BLUE_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item SNOW() { return new yarnwrap.item.Item(wrapperContained.SNOW); }
-// public void SNOW(yarnwrap.item.Item value) { wrapperContained.SNOW = value.wrapperContained; }
-public static yarnwrap.item.Item SNOW() { return new yarnwrap.item.Item(net.minecraft.item.Items.SNOW); }
-// public static void SNOW(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SNOW = value.wrapperContained; }
-
-// public yarnwrap.item.Item CHIPPED_ANVIL() { return new yarnwrap.item.Item(wrapperContained.CHIPPED_ANVIL); }
-// public void CHIPPED_ANVIL(yarnwrap.item.Item value) { wrapperContained.CHIPPED_ANVIL = value.wrapperContained; }
-public static yarnwrap.item.Item CHIPPED_ANVIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHIPPED_ANVIL); }
-// public static void CHIPPED_ANVIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHIPPED_ANVIL = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRAY_BED() { return new yarnwrap.item.Item(wrapperContained.GRAY_BED); }
-// public void GRAY_BED(yarnwrap.item.Item value) { wrapperContained.GRAY_BED = value.wrapperContained; }
-public static yarnwrap.item.Item GRAY_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_BED); }
-// public static void GRAY_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.RED_CONCRETE_POWDER); }
-// public void RED_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.RED_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item RED_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_CONCRETE_POWDER); }
-// public static void RED_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_DOOR() { return new yarnwrap.item.Item(wrapperContained.ACACIA_DOOR); }
-// public void ACACIA_DOOR(yarnwrap.item.Item value) { wrapperContained.ACACIA_DOOR = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_DOOR); }
-// public static void ACACIA_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_DOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item ORANGE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.ORANGE_STAINED_GLASS_PANE); }
-// public void ORANGE_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.ORANGE_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item ORANGE_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_STAINED_GLASS_PANE); }
-// public static void ORANGE_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BROWN_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.BROWN_CONCRETE); }
-// public void BROWN_CONCRETE(yarnwrap.item.Item value) { wrapperContained.BROWN_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item BROWN_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BROWN_CONCRETE); }
-// public static void BROWN_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BROWN_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_BLUE_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_CONCRETE_POWDER); }
-// public void LIGHT_BLUE_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_BLUE_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_CONCRETE_POWDER); }
-// public static void LIGHT_BLUE_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item NETHER_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.NETHER_BRICK_WALL); }
-// public void NETHER_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.NETHER_BRICK_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item NETHER_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.NETHER_BRICK_WALL); }
-// public static void NETHER_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.NETHER_BRICK_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_BIRCH_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_BIRCH_LOG); }
-// public void STRIPPED_BIRCH_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_BIRCH_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_BIRCH_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_BIRCH_LOG); }
-// public static void STRIPPED_BIRCH_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_BIRCH_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item PINK_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.PINK_STAINED_GLASS); }
-// public void PINK_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.PINK_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item PINK_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_STAINED_GLASS); }
-// public static void PINK_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item ORANGE_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.ORANGE_CONCRETE); }
-// public void ORANGE_CONCRETE(yarnwrap.item.Item value) { wrapperContained.ORANGE_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item ORANGE_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.ORANGE_CONCRETE); }
-// public static void ORANGE_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ORANGE_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item LOOM() { return new yarnwrap.item.Item(wrapperContained.LOOM); }
-// public void LOOM(yarnwrap.item.Item value) { wrapperContained.LOOM = value.wrapperContained; }
-public static yarnwrap.item.Item LOOM() { return new yarnwrap.item.Item(net.minecraft.item.Items.LOOM); }
-// public static void LOOM(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LOOM = value.wrapperContained; }
-
-// public yarnwrap.item.Item IRON_BLOCK() { return new yarnwrap.item.Item(wrapperContained.IRON_BLOCK); }
-// public void IRON_BLOCK(yarnwrap.item.Item value) { wrapperContained.IRON_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item IRON_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.IRON_BLOCK); }
-// public static void IRON_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.IRON_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.BIRCH_TRAPDOOR); }
-// public void BIRCH_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.BIRCH_TRAPDOOR = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_TRAPDOOR); }
-// public static void BIRCH_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_TRAPDOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item GOLD_ORE() { return new yarnwrap.item.Item(wrapperContained.GOLD_ORE); }
-// public void GOLD_ORE(yarnwrap.item.Item value) { wrapperContained.GOLD_ORE = value.wrapperContained; }
-public static yarnwrap.item.Item GOLD_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GOLD_ORE); }
-// public static void GOLD_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GOLD_ORE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.BIRCH_PRESSURE_PLATE); }
-// public void BIRCH_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.BIRCH_PRESSURE_PLATE = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_PRESSURE_PLATE); }
-// public static void BIRCH_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_PRESSURE_PLATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_BUTTON() { return new yarnwrap.item.Item(wrapperContained.OAK_BUTTON); }
-// public void OAK_BUTTON(yarnwrap.item.Item value) { wrapperContained.OAK_BUTTON = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_BUTTON); }
-// public static void OAK_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_BUTTON = value.wrapperContained; }
-
-// public yarnwrap.item.Item STONE_BUTTON() { return new yarnwrap.item.Item(wrapperContained.STONE_BUTTON); }
-// public void STONE_BUTTON(yarnwrap.item.Item value) { wrapperContained.STONE_BUTTON = value.wrapperContained; }
-public static yarnwrap.item.Item STONE_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.STONE_BUTTON); }
-// public static void STONE_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STONE_BUTTON = value.wrapperContained; }
-
-// public yarnwrap.item.Item ANVIL() { return new yarnwrap.item.Item(wrapperContained.ANVIL); }
-// public void ANVIL(yarnwrap.item.Item value) { wrapperContained.ANVIL = value.wrapperContained; }
-public static yarnwrap.item.Item ANVIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.ANVIL); }
-// public static void ANVIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ANVIL = value.wrapperContained; }
-
-// public yarnwrap.item.Item MAGENTA_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.MAGENTA_TERRACOTTA); }
-// public void MAGENTA_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.MAGENTA_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item MAGENTA_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.MAGENTA_TERRACOTTA); }
-// public static void MAGENTA_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MAGENTA_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_JUNGLE_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_JUNGLE_WOOD); }
-// public void STRIPPED_JUNGLE_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_JUNGLE_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_JUNGLE_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_JUNGLE_WOOD); }
-// public static void STRIPPED_JUNGLE_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_JUNGLE_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item COBWEB() { return new yarnwrap.item.Item(wrapperContained.COBWEB); }
-// public void COBWEB(yarnwrap.item.Item value) { wrapperContained.COBWEB = value.wrapperContained; }
-public static yarnwrap.item.Item COBWEB() { return new yarnwrap.item.Item(net.minecraft.item.Items.COBWEB); }
-// public static void COBWEB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COBWEB = value.wrapperContained; }
-
-// public yarnwrap.item.Item DIAMOND_ORE() { return new yarnwrap.item.Item(wrapperContained.DIAMOND_ORE); }
-// public void DIAMOND_ORE(yarnwrap.item.Item value) { wrapperContained.DIAMOND_ORE = value.wrapperContained; }
-public static yarnwrap.item.Item DIAMOND_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIAMOND_ORE); }
-// public static void DIAMOND_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIAMOND_ORE = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_BED() { return new yarnwrap.item.Item(wrapperContained.RED_BED); }
-// public void RED_BED(yarnwrap.item.Item value) { wrapperContained.RED_BED = value.wrapperContained; }
-public static yarnwrap.item.Item RED_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_BED); }
-// public static void RED_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item WITHER_SKELETON_SKULL() { return new yarnwrap.item.Item(wrapperContained.WITHER_SKELETON_SKULL); }
-// public void WITHER_SKELETON_SKULL(yarnwrap.item.Item value) { wrapperContained.WITHER_SKELETON_SKULL = value.wrapperContained; }
-public static yarnwrap.item.Item WITHER_SKELETON_SKULL() { return new yarnwrap.item.Item(net.minecraft.item.Items.WITHER_SKELETON_SKULL); }
-// public static void WITHER_SKELETON_SKULL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WITHER_SKELETON_SKULL = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_FENCE() { return new yarnwrap.item.Item(wrapperContained.OAK_FENCE); }
-// public void OAK_FENCE(yarnwrap.item.Item value) { wrapperContained.OAK_FENCE = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_FENCE); }
-// public static void OAK_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_FENCE = value.wrapperContained; }
-
-// public yarnwrap.item.Item REDSTONE_BLOCK() { return new yarnwrap.item.Item(wrapperContained.REDSTONE_BLOCK); }
-// public void REDSTONE_BLOCK(yarnwrap.item.Item value) { wrapperContained.REDSTONE_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item REDSTONE_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.REDSTONE_BLOCK); }
-// public static void REDSTONE_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.REDSTONE_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item COAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.COAL_BLOCK); }
-// public void COAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.COAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item COAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.COAL_BLOCK); }
-// public static void COAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item GREEN_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.GREEN_TERRACOTTA); }
-// public void GREEN_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.GREEN_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item GREEN_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.GREEN_TERRACOTTA); }
-// public static void GREEN_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GREEN_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item CHAIN_COMMAND_BLOCK() { return new yarnwrap.item.Item(wrapperContained.CHAIN_COMMAND_BLOCK); }
-// public void CHAIN_COMMAND_BLOCK(yarnwrap.item.Item value) { wrapperContained.CHAIN_COMMAND_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item CHAIN_COMMAND_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHAIN_COMMAND_BLOCK); }
-// public static void CHAIN_COMMAND_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHAIN_COMMAND_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item GLOWSTONE() { return new yarnwrap.item.Item(wrapperContained.GLOWSTONE); }
-// public void GLOWSTONE(yarnwrap.item.Item value) { wrapperContained.GLOWSTONE = value.wrapperContained; }
-public static yarnwrap.item.Item GLOWSTONE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GLOWSTONE); }
-// public static void GLOWSTONE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GLOWSTONE = value.wrapperContained; }
-
-// public yarnwrap.item.Item BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.BRICK_WALL); }
-// public void BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.BRICK_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.BRICK_WALL); }
-// public static void BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BRICK_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item STRIPPED_DARK_OAK_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_DARK_OAK_LOG); }
-// public void STRIPPED_DARK_OAK_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_DARK_OAK_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item STRIPPED_DARK_OAK_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_DARK_OAK_LOG); }
-// public static void STRIPPED_DARK_OAK_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_DARK_OAK_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item LAPIS_ORE() { return new yarnwrap.item.Item(wrapperContained.LAPIS_ORE); }
-// public void LAPIS_ORE(yarnwrap.item.Item value) { wrapperContained.LAPIS_ORE = value.wrapperContained; }
-public static yarnwrap.item.Item LAPIS_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LAPIS_ORE); }
-// public static void LAPIS_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LAPIS_ORE = value.wrapperContained; }
-
-// public yarnwrap.item.Item TORCH() { return new yarnwrap.item.Item(wrapperContained.TORCH); }
-// public void TORCH(yarnwrap.item.Item value) { wrapperContained.TORCH = value.wrapperContained; }
-public static yarnwrap.item.Item TORCH() { return new yarnwrap.item.Item(net.minecraft.item.Items.TORCH); }
-// public static void TORCH(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TORCH = value.wrapperContained; }
-
-// public yarnwrap.item.Item MOSSY_STONE_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.MOSSY_STONE_BRICK_WALL); }
-// public void MOSSY_STONE_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.MOSSY_STONE_BRICK_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item MOSSY_STONE_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_STONE_BRICK_WALL); }
-// public static void MOSSY_STONE_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_STONE_BRICK_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPLE_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.PURPLE_SHULKER_BOX); }
-// public void PURPLE_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.PURPLE_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item PURPLE_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_SHULKER_BOX); }
-// public static void PURPLE_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item HORN_CORAL_FAN() { return new yarnwrap.item.Item(wrapperContained.HORN_CORAL_FAN); }
-// public void HORN_CORAL_FAN(yarnwrap.item.Item value) { wrapperContained.HORN_CORAL_FAN = value.wrapperContained; }
-public static yarnwrap.item.Item HORN_CORAL_FAN() { return new yarnwrap.item.Item(net.minecraft.item.Items.HORN_CORAL_FAN); }
-// public static void HORN_CORAL_FAN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.HORN_CORAL_FAN = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRAY_CONCRETE_POWDER() { return new yarnwrap.item.Item(wrapperContained.GRAY_CONCRETE_POWDER); }
-// public void GRAY_CONCRETE_POWDER(yarnwrap.item.Item value) { wrapperContained.GRAY_CONCRETE_POWDER = value.wrapperContained; }
-public static yarnwrap.item.Item GRAY_CONCRETE_POWDER() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_CONCRETE_POWDER); }
-// public static void GRAY_CONCRETE_POWDER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_CONCRETE_POWDER = value.wrapperContained; }
-
-// public yarnwrap.item.Item END_STONE_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.END_STONE_BRICK_WALL); }
-// public void END_STONE_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.END_STONE_BRICK_WALL = value.wrapperContained; }
-public static yarnwrap.item.Item END_STONE_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.END_STONE_BRICK_WALL); }
-// public static void END_STONE_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.END_STONE_BRICK_WALL = value.wrapperContained; }
-
-// public yarnwrap.item.Item ACACIA_LOG() { return new yarnwrap.item.Item(wrapperContained.ACACIA_LOG); }
-// public void ACACIA_LOG(yarnwrap.item.Item value) { wrapperContained.ACACIA_LOG = value.wrapperContained; }
-public static yarnwrap.item.Item ACACIA_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.ACACIA_LOG); }
-// public static void ACACIA_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.ACACIA_LOG = value.wrapperContained; }
-
-// public yarnwrap.item.Item CYAN_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.CYAN_TERRACOTTA); }
-// public void CYAN_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.CYAN_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item CYAN_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.CYAN_TERRACOTTA); }
-// public static void CYAN_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CYAN_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item CHISELED_RED_SANDSTONE() { return new yarnwrap.item.Item(wrapperContained.CHISELED_RED_SANDSTONE); }
-// public void CHISELED_RED_SANDSTONE(yarnwrap.item.Item value) { wrapperContained.CHISELED_RED_SANDSTONE = value.wrapperContained; }
-public static yarnwrap.item.Item CHISELED_RED_SANDSTONE() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHISELED_RED_SANDSTONE); }
-// public static void CHISELED_RED_SANDSTONE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHISELED_RED_SANDSTONE = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_FENCE() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_FENCE); }
-// public void JUNGLE_FENCE(yarnwrap.item.Item value) { wrapperContained.JUNGLE_FENCE = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_FENCE); }
-// public static void JUNGLE_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_FENCE = value.wrapperContained; }
-
-// public yarnwrap.item.Item END_PORTAL_FRAME() { return new yarnwrap.item.Item(wrapperContained.END_PORTAL_FRAME); }
-// public void END_PORTAL_FRAME(yarnwrap.item.Item value) { wrapperContained.END_PORTAL_FRAME = value.wrapperContained; }
-public static yarnwrap.item.Item END_PORTAL_FRAME() { return new yarnwrap.item.Item(net.minecraft.item.Items.END_PORTAL_FRAME); }
-// public static void END_PORTAL_FRAME(yarnwrap.item.Item value, ) { net.minecraft.item.Items.END_PORTAL_FRAME = value.wrapperContained; }
-
-// public yarnwrap.item.Item SLIME_BLOCK() { return new yarnwrap.item.Item(wrapperContained.SLIME_BLOCK); }
-// public void SLIME_BLOCK(yarnwrap.item.Item value) { wrapperContained.SLIME_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item SLIME_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.SLIME_BLOCK); }
-// public static void SLIME_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SLIME_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_BLUE_SHULKER_BOX() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_SHULKER_BOX); }
-// public void LIGHT_BLUE_SHULKER_BOX(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_SHULKER_BOX = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_BLUE_SHULKER_BOX() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_SHULKER_BOX); }
-// public static void LIGHT_BLUE_SHULKER_BOX(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_SHULKER_BOX = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_FIRE_CORAL() { return new yarnwrap.item.Item(wrapperContained.DEAD_FIRE_CORAL); }
-// public void DEAD_FIRE_CORAL(yarnwrap.item.Item value) { wrapperContained.DEAD_FIRE_CORAL = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_FIRE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_FIRE_CORAL); }
-// public static void DEAD_FIRE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_FIRE_CORAL = value.wrapperContained; }
-
-// public yarnwrap.item.Item DIRT() { return new yarnwrap.item.Item(wrapperContained.DIRT); }
-// public void DIRT(yarnwrap.item.Item value) { wrapperContained.DIRT = value.wrapperContained; }
-public static yarnwrap.item.Item DIRT() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIRT); }
-// public static void DIRT(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIRT = value.wrapperContained; }
-
-// public yarnwrap.item.Item EMERALD_ORE() { return new yarnwrap.item.Item(wrapperContained.EMERALD_ORE); }
-// public void EMERALD_ORE(yarnwrap.item.Item value) { wrapperContained.EMERALD_ORE = value.wrapperContained; }
-public static yarnwrap.item.Item EMERALD_ORE() { return new yarnwrap.item.Item(net.minecraft.item.Items.EMERALD_ORE); }
-// public static void EMERALD_ORE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.EMERALD_ORE = value.wrapperContained; }
-
-// public yarnwrap.item.Item PURPLE_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.PURPLE_STAINED_GLASS); }
-// public void PURPLE_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.PURPLE_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item PURPLE_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PURPLE_STAINED_GLASS); }
-// public static void PURPLE_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PURPLE_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIME_CONCRETE() { return new yarnwrap.item.Item(wrapperContained.LIME_CONCRETE); }
-// public void LIME_CONCRETE(yarnwrap.item.Item value) { wrapperContained.LIME_CONCRETE = value.wrapperContained; }
-public static yarnwrap.item.Item LIME_CONCRETE() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIME_CONCRETE); }
-// public static void LIME_CONCRETE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIME_CONCRETE = value.wrapperContained; }
-
-// public yarnwrap.item.Item DRAGON_EGG() { return new yarnwrap.item.Item(wrapperContained.DRAGON_EGG); }
-// public void DRAGON_EGG(yarnwrap.item.Item value) { wrapperContained.DRAGON_EGG = value.wrapperContained; }
-public static yarnwrap.item.Item DRAGON_EGG() { return new yarnwrap.item.Item(net.minecraft.item.Items.DRAGON_EGG); }
-// public static void DRAGON_EGG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DRAGON_EGG = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_PLANKS() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_PLANKS); }
-// public void JUNGLE_PLANKS(yarnwrap.item.Item value) { wrapperContained.JUNGLE_PLANKS = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_PLANKS); }
-// public static void JUNGLE_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_PLANKS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BIRCH_SLAB() { return new yarnwrap.item.Item(wrapperContained.BIRCH_SLAB); }
-// public void BIRCH_SLAB(yarnwrap.item.Item value) { wrapperContained.BIRCH_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item BIRCH_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.BIRCH_SLAB); }
-// public static void BIRCH_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BIRCH_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_TRAPDOOR); }
-// public void DARK_OAK_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_TRAPDOOR = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_TRAPDOOR); }
-// public static void DARK_OAK_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_TRAPDOOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item TUBE_CORAL() { return new yarnwrap.item.Item(wrapperContained.TUBE_CORAL); }
-// public void TUBE_CORAL(yarnwrap.item.Item value) { wrapperContained.TUBE_CORAL = value.wrapperContained; }
-public static yarnwrap.item.Item TUBE_CORAL() { return new yarnwrap.item.Item(net.minecraft.item.Items.TUBE_CORAL); }
-// public static void TUBE_CORAL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TUBE_CORAL = value.wrapperContained; }
-
-// public yarnwrap.item.Item POWERED_RAIL() { return new yarnwrap.item.Item(wrapperContained.POWERED_RAIL); }
-// public void POWERED_RAIL(yarnwrap.item.Item value) { wrapperContained.POWERED_RAIL = value.wrapperContained; }
-public static yarnwrap.item.Item POWERED_RAIL() { return new yarnwrap.item.Item(net.minecraft.item.Items.POWERED_RAIL); }
-// public static void POWERED_RAIL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POWERED_RAIL = value.wrapperContained; }
-
-// public yarnwrap.item.Item SPAWNER() { return new yarnwrap.item.Item(wrapperContained.SPAWNER); }
-// public void SPAWNER(yarnwrap.item.Item value) { wrapperContained.SPAWNER = value.wrapperContained; }
-public static yarnwrap.item.Item SPAWNER() { return new yarnwrap.item.Item(net.minecraft.item.Items.SPAWNER); }
-// public static void SPAWNER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SPAWNER = value.wrapperContained; }
-
-// public yarnwrap.item.Item WHITE_CARPET() { return new yarnwrap.item.Item(wrapperContained.WHITE_CARPET); }
-// public void WHITE_CARPET(yarnwrap.item.Item value) { wrapperContained.WHITE_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item WHITE_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.WHITE_CARPET); }
-// public static void WHITE_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WHITE_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item PINK_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.PINK_TERRACOTTA); }
-// public void PINK_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.PINK_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item PINK_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.PINK_TERRACOTTA); }
-// public static void PINK_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PINK_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_PRISMARINE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.DARK_PRISMARINE_STAIRS); }
-// public void DARK_PRISMARINE_STAIRS(yarnwrap.item.Item value) { wrapperContained.DARK_PRISMARINE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_PRISMARINE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_PRISMARINE_STAIRS); }
-// public static void DARK_PRISMARINE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_PRISMARINE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item DEAD_TUBE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.DEAD_TUBE_CORAL_BLOCK); }
-// public void DEAD_TUBE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.DEAD_TUBE_CORAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item DEAD_TUBE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.DEAD_TUBE_CORAL_BLOCK); }
-// public static void DEAD_TUBE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DEAD_TUBE_CORAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item COMPARATOR() { return new yarnwrap.item.Item(wrapperContained.COMPARATOR); }
-// public void COMPARATOR(yarnwrap.item.Item value) { wrapperContained.COMPARATOR = value.wrapperContained; }
-public static yarnwrap.item.Item COMPARATOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.COMPARATOR); }
-// public static void COMPARATOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COMPARATOR = value.wrapperContained; }
-
-// public yarnwrap.item.Item SAND() { return new yarnwrap.item.Item(wrapperContained.SAND); }
-// public void SAND(yarnwrap.item.Item value) { wrapperContained.SAND = value.wrapperContained; }
-public static yarnwrap.item.Item SAND() { return new yarnwrap.item.Item(net.minecraft.item.Items.SAND); }
-// public static void SAND(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SAND = value.wrapperContained; }
-
-// public yarnwrap.item.Item DIORITE_STAIRS() { return new yarnwrap.item.Item(wrapperContained.DIORITE_STAIRS); }
-// public void DIORITE_STAIRS(yarnwrap.item.Item value) { wrapperContained.DIORITE_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item DIORITE_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.DIORITE_STAIRS); }
-// public static void DIORITE_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DIORITE_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item YELLOW_BED() { return new yarnwrap.item.Item(wrapperContained.YELLOW_BED); }
-// public void YELLOW_BED(yarnwrap.item.Item value) { wrapperContained.YELLOW_BED = value.wrapperContained; }
-public static yarnwrap.item.Item YELLOW_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_BED); }
-// public static void YELLOW_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_BED = value.wrapperContained; }
-
-// public yarnwrap.item.Item LEVER() { return new yarnwrap.item.Item(wrapperContained.LEVER); }
-// public void LEVER(yarnwrap.item.Item value) { wrapperContained.LEVER = value.wrapperContained; }
-public static yarnwrap.item.Item LEVER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LEVER); }
-// public static void LEVER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LEVER = value.wrapperContained; }
-
-// public yarnwrap.item.Item COMMAND_BLOCK() { return new yarnwrap.item.Item(wrapperContained.COMMAND_BLOCK); }
-// public void COMMAND_BLOCK(yarnwrap.item.Item value) { wrapperContained.COMMAND_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item COMMAND_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.COMMAND_BLOCK); }
-// public static void COMMAND_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.COMMAND_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item LIGHT_BLUE_STAINED_GLASS() { return new yarnwrap.item.Item(wrapperContained.LIGHT_BLUE_STAINED_GLASS); }
-// public void LIGHT_BLUE_STAINED_GLASS(yarnwrap.item.Item value) { wrapperContained.LIGHT_BLUE_STAINED_GLASS = value.wrapperContained; }
-public static yarnwrap.item.Item LIGHT_BLUE_STAINED_GLASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.LIGHT_BLUE_STAINED_GLASS); }
-// public static void LIGHT_BLUE_STAINED_GLASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LIGHT_BLUE_STAINED_GLASS = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.RED_GLAZED_TERRACOTTA); }
-// public void RED_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.RED_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item RED_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_GLAZED_TERRACOTTA); }
-// public static void RED_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRAY_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.GRAY_STAINED_GLASS_PANE); }
-// public void GRAY_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.GRAY_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item GRAY_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_STAINED_GLASS_PANE); }
-// public static void GRAY_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item SMOOTH_SANDSTONE_SLAB() { return new yarnwrap.item.Item(wrapperContained.SMOOTH_SANDSTONE_SLAB); }
-// public void SMOOTH_SANDSTONE_SLAB(yarnwrap.item.Item value) { wrapperContained.SMOOTH_SANDSTONE_SLAB = value.wrapperContained; }
-public static yarnwrap.item.Item SMOOTH_SANDSTONE_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.SMOOTH_SANDSTONE_SLAB); }
-// public static void SMOOTH_SANDSTONE_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SMOOTH_SANDSTONE_SLAB = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.OAK_FENCE_GATE); }
-// public void OAK_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.OAK_FENCE_GATE = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_FENCE_GATE); }
-// public static void OAK_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_FENCE_GATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRAY_CARPET() { return new yarnwrap.item.Item(wrapperContained.GRAY_CARPET); }
-// public void GRAY_CARPET(yarnwrap.item.Item value) { wrapperContained.GRAY_CARPET = value.wrapperContained; }
-public static yarnwrap.item.Item GRAY_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_CARPET); }
-// public static void GRAY_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_CARPET = value.wrapperContained; }
-
-// public yarnwrap.item.Item DROPPER() { return new yarnwrap.item.Item(wrapperContained.DROPPER); }
-// public void DROPPER(yarnwrap.item.Item value) { wrapperContained.DROPPER = value.wrapperContained; }
-public static yarnwrap.item.Item DROPPER() { return new yarnwrap.item.Item(net.minecraft.item.Items.DROPPER); }
-// public static void DROPPER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DROPPER = value.wrapperContained; }
-
-// public yarnwrap.item.Item RED_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(wrapperContained.RED_STAINED_GLASS_PANE); }
-// public void RED_STAINED_GLASS_PANE(yarnwrap.item.Item value) { wrapperContained.RED_STAINED_GLASS_PANE = value.wrapperContained; }
-public static yarnwrap.item.Item RED_STAINED_GLASS_PANE() { return new yarnwrap.item.Item(net.minecraft.item.Items.RED_STAINED_GLASS_PANE); }
-// public static void RED_STAINED_GLASS_PANE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RED_STAINED_GLASS_PANE = value.wrapperContained; }
-
-// public yarnwrap.item.Item POPPY() { return new yarnwrap.item.Item(wrapperContained.POPPY); }
-// public void POPPY(yarnwrap.item.Item value) { wrapperContained.POPPY = value.wrapperContained; }
-public static yarnwrap.item.Item POPPY() { return new yarnwrap.item.Item(net.minecraft.item.Items.POPPY); }
-// public static void POPPY(yarnwrap.item.Item value, ) { net.minecraft.item.Items.POPPY = value.wrapperContained; }
-
-// public yarnwrap.item.Item BUBBLE_CORAL_BLOCK() { return new yarnwrap.item.Item(wrapperContained.BUBBLE_CORAL_BLOCK); }
-// public void BUBBLE_CORAL_BLOCK(yarnwrap.item.Item value) { wrapperContained.BUBBLE_CORAL_BLOCK = value.wrapperContained; }
-public static yarnwrap.item.Item BUBBLE_CORAL_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.BUBBLE_CORAL_BLOCK); }
-// public static void BUBBLE_CORAL_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BUBBLE_CORAL_BLOCK = value.wrapperContained; }
-
-// public yarnwrap.item.Item GRAY_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.GRAY_GLAZED_TERRACOTTA); }
-// public void GRAY_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.GRAY_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item GRAY_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.GRAY_GLAZED_TERRACOTTA); }
-// public static void GRAY_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.GRAY_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item DARK_OAK_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.DARK_OAK_PRESSURE_PLATE); }
-// public void DARK_OAK_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.DARK_OAK_PRESSURE_PLATE = value.wrapperContained; }
-public static yarnwrap.item.Item DARK_OAK_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.DARK_OAK_PRESSURE_PLATE); }
-// public static void DARK_OAK_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DARK_OAK_PRESSURE_PLATE = value.wrapperContained; }
-
-// public yarnwrap.item.Item JUNGLE_BUTTON() { return new yarnwrap.item.Item(wrapperContained.JUNGLE_BUTTON); }
-// public void JUNGLE_BUTTON(yarnwrap.item.Item value) { wrapperContained.JUNGLE_BUTTON = value.wrapperContained; }
-public static yarnwrap.item.Item JUNGLE_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.JUNGLE_BUTTON); }
-// public static void JUNGLE_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.JUNGLE_BUTTON = value.wrapperContained; }
-
-// public yarnwrap.item.Item OAK_WOOD() { return new yarnwrap.item.Item(wrapperContained.OAK_WOOD); }
-// public void OAK_WOOD(yarnwrap.item.Item value) { wrapperContained.OAK_WOOD = value.wrapperContained; }
-public static yarnwrap.item.Item OAK_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.OAK_WOOD); }
-// public static void OAK_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OAK_WOOD = value.wrapperContained; }
-
-// public yarnwrap.item.Item YELLOW_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(wrapperContained.YELLOW_GLAZED_TERRACOTTA); }
-// public void YELLOW_GLAZED_TERRACOTTA(yarnwrap.item.Item value) { wrapperContained.YELLOW_GLAZED_TERRACOTTA = value.wrapperContained; }
-public static yarnwrap.item.Item YELLOW_GLAZED_TERRACOTTA() { return new yarnwrap.item.Item(net.minecraft.item.Items.YELLOW_GLAZED_TERRACOTTA); }
-// public static void YELLOW_GLAZED_TERRACOTTA(yarnwrap.item.Item value, ) { net.minecraft.item.Items.YELLOW_GLAZED_TERRACOTTA = value.wrapperContained; }
-
-// public yarnwrap.item.Item MOSSY_STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.MOSSY_STONE_BRICK_STAIRS); }
-// public void MOSSY_STONE_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.MOSSY_STONE_BRICK_STAIRS = value.wrapperContained; }
-public static yarnwrap.item.Item MOSSY_STONE_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.MOSSY_STONE_BRICK_STAIRS); }
-// public static void MOSSY_STONE_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.MOSSY_STONE_BRICK_STAIRS = value.wrapperContained; }
-
-// public yarnwrap.item.Item BLUE_BED() { return new yarnwrap.item.Item(wrapperContained.BLUE_BED); }
-// public void BLUE_BED(yarnwrap.item.Item value) { wrapperContained.BLUE_BED = value.wrapperContained; }
-public static yarnwrap.item.Item BLUE_BED() { return new yarnwrap.item.Item(net.minecraft.item.Items.BLUE_BED); }
-// public static void BLUE_BED(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BLUE_BED = value.wrapperContained; }
-
+// public yarnwrap.item.Item PALE_OAK_PLANKS() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_PLANKS); }
+// public void PALE_OAK_PLANKS(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_PLANKS = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_PLANKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_PLANKS); }
+// public static void PALE_OAK_PLANKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_PLANKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_SAPLING() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_SAPLING); }
+// public void PALE_OAK_SAPLING(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_SAPLING = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_SAPLING() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_SAPLING); }
+// public static void PALE_OAK_SAPLING(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_SAPLING = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_LOG() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_LOG); }
+// public void PALE_OAK_LOG(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_LOG); }
+// public static void PALE_OAK_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_PALE_OAK_LOG() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_PALE_OAK_LOG); }
+// public void STRIPPED_PALE_OAK_LOG(yarnwrap.item.Item value) { wrapperContained.STRIPPED_PALE_OAK_LOG = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_PALE_OAK_LOG() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_PALE_OAK_LOG); }
+// public static void STRIPPED_PALE_OAK_LOG(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_PALE_OAK_LOG = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_LEAVES() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_LEAVES); }
+// public void PALE_OAK_LEAVES(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_LEAVES = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_LEAVES() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_LEAVES); }
+// public static void PALE_OAK_LEAVES(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_LEAVES = value.wrapperContained; }
+
+// public yarnwrap.item.Item STRIPPED_PALE_OAK_WOOD() { return new yarnwrap.item.Item(wrapperContained.STRIPPED_PALE_OAK_WOOD); }
+// public void STRIPPED_PALE_OAK_WOOD(yarnwrap.item.Item value) { wrapperContained.STRIPPED_PALE_OAK_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item STRIPPED_PALE_OAK_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.STRIPPED_PALE_OAK_WOOD); }
+// public static void STRIPPED_PALE_OAK_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.STRIPPED_PALE_OAK_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_WOOD() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_WOOD); }
+// public void PALE_OAK_WOOD(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_WOOD = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_WOOD() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_WOOD); }
+// public static void PALE_OAK_WOOD(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_WOOD = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_MOSS_CARPET() { return new yarnwrap.item.Item(wrapperContained.PALE_MOSS_CARPET); }
+// public void PALE_MOSS_CARPET(yarnwrap.item.Item value) { wrapperContained.PALE_MOSS_CARPET = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_MOSS_CARPET() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_MOSS_CARPET); }
+// public static void PALE_MOSS_CARPET(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_MOSS_CARPET = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_HANGING_MOSS() { return new yarnwrap.item.Item(wrapperContained.PALE_HANGING_MOSS); }
+// public void PALE_HANGING_MOSS(yarnwrap.item.Item value) { wrapperContained.PALE_HANGING_MOSS = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_HANGING_MOSS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_HANGING_MOSS); }
+// public static void PALE_HANGING_MOSS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_HANGING_MOSS = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_MOSS_BLOCK() { return new yarnwrap.item.Item(wrapperContained.PALE_MOSS_BLOCK); }
+// public void PALE_MOSS_BLOCK(yarnwrap.item.Item value) { wrapperContained.PALE_MOSS_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_MOSS_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_MOSS_BLOCK); }
+// public static void PALE_MOSS_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_MOSS_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item CREAKING_HEART() { return new yarnwrap.item.Item(wrapperContained.CREAKING_HEART); }
+// public void CREAKING_HEART(yarnwrap.item.Item value) { wrapperContained.CREAKING_HEART = value.wrapperContained; }
+public static yarnwrap.item.Item CREAKING_HEART() { return new yarnwrap.item.Item(net.minecraft.item.Items.CREAKING_HEART); }
+// public static void CREAKING_HEART(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CREAKING_HEART = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_SLAB() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_SLAB); }
+// public void PALE_OAK_SLAB(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_SLAB); }
+// public static void PALE_OAK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_FENCE() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_FENCE); }
+// public void PALE_OAK_FENCE(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_FENCE = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_FENCE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_FENCE); }
+// public static void PALE_OAK_FENCE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_FENCE = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_STAIRS); }
+// public void PALE_OAK_STAIRS(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_STAIRS); }
+// public static void PALE_OAK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_BUTTON() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_BUTTON); }
+// public void PALE_OAK_BUTTON(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_BUTTON = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_BUTTON() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_BUTTON); }
+// public static void PALE_OAK_BUTTON(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_BUTTON = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_PRESSURE_PLATE() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_PRESSURE_PLATE); }
+// public void PALE_OAK_PRESSURE_PLATE(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_PRESSURE_PLATE = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_PRESSURE_PLATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_PRESSURE_PLATE); }
+// public static void PALE_OAK_PRESSURE_PLATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_PRESSURE_PLATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_TRAPDOOR() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_TRAPDOOR); }
+// public void PALE_OAK_TRAPDOOR(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_TRAPDOOR = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_TRAPDOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_TRAPDOOR); }
+// public static void PALE_OAK_TRAPDOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_TRAPDOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_FENCE_GATE() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_FENCE_GATE); }
+// public void PALE_OAK_FENCE_GATE(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_FENCE_GATE = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_FENCE_GATE() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_FENCE_GATE); }
+// public static void PALE_OAK_FENCE_GATE(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_FENCE_GATE = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_DOOR() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_DOOR); }
+// public void PALE_OAK_DOOR(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_DOOR = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_DOOR() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_DOOR); }
+// public static void PALE_OAK_DOOR(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_DOOR = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_SIGN() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_SIGN); }
+// public void PALE_OAK_SIGN(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_SIGN); }
+// public static void PALE_OAK_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item PALE_OAK_HANGING_SIGN() { return new yarnwrap.item.Item(wrapperContained.PALE_OAK_HANGING_SIGN); }
+// public void PALE_OAK_HANGING_SIGN(yarnwrap.item.Item value) { wrapperContained.PALE_OAK_HANGING_SIGN = value.wrapperContained; }
+public static yarnwrap.item.Item PALE_OAK_HANGING_SIGN() { return new yarnwrap.item.Item(net.minecraft.item.Items.PALE_OAK_HANGING_SIGN); }
+// public static void PALE_OAK_HANGING_SIGN(yarnwrap.item.Item value, ) { net.minecraft.item.Items.PALE_OAK_HANGING_SIGN = value.wrapperContained; }
+
+// public yarnwrap.item.Item OPEN_EYEBLOSSOM() { return new yarnwrap.item.Item(wrapperContained.OPEN_EYEBLOSSOM); }
+// public void OPEN_EYEBLOSSOM(yarnwrap.item.Item value) { wrapperContained.OPEN_EYEBLOSSOM = value.wrapperContained; }
+public static yarnwrap.item.Item OPEN_EYEBLOSSOM() { return new yarnwrap.item.Item(net.minecraft.item.Items.OPEN_EYEBLOSSOM); }
+// public static void OPEN_EYEBLOSSOM(yarnwrap.item.Item value, ) { net.minecraft.item.Items.OPEN_EYEBLOSSOM = value.wrapperContained; }
+
+// public yarnwrap.item.Item CLOSED_EYEBLOSSOM() { return new yarnwrap.item.Item(wrapperContained.CLOSED_EYEBLOSSOM); }
+// public void CLOSED_EYEBLOSSOM(yarnwrap.item.Item value) { wrapperContained.CLOSED_EYEBLOSSOM = value.wrapperContained; }
+public static yarnwrap.item.Item CLOSED_EYEBLOSSOM() { return new yarnwrap.item.Item(net.minecraft.item.Items.CLOSED_EYEBLOSSOM); }
+// public static void CLOSED_EYEBLOSSOM(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CLOSED_EYEBLOSSOM = value.wrapperContained; }
+
+// public yarnwrap.item.Item RESIN_BLOCK() { return new yarnwrap.item.Item(wrapperContained.RESIN_BLOCK); }
+// public void RESIN_BLOCK(yarnwrap.item.Item value) { wrapperContained.RESIN_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item RESIN_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.RESIN_BLOCK); }
+// public static void RESIN_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RESIN_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item RESIN_BRICKS() { return new yarnwrap.item.Item(wrapperContained.RESIN_BRICKS); }
+// public void RESIN_BRICKS(yarnwrap.item.Item value) { wrapperContained.RESIN_BRICKS = value.wrapperContained; }
+public static yarnwrap.item.Item RESIN_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.RESIN_BRICKS); }
+// public static void RESIN_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RESIN_BRICKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item RESIN_BRICK_STAIRS() { return new yarnwrap.item.Item(wrapperContained.RESIN_BRICK_STAIRS); }
+// public void RESIN_BRICK_STAIRS(yarnwrap.item.Item value) { wrapperContained.RESIN_BRICK_STAIRS = value.wrapperContained; }
+public static yarnwrap.item.Item RESIN_BRICK_STAIRS() { return new yarnwrap.item.Item(net.minecraft.item.Items.RESIN_BRICK_STAIRS); }
+// public static void RESIN_BRICK_STAIRS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RESIN_BRICK_STAIRS = value.wrapperContained; }
+
+// public yarnwrap.item.Item RESIN_BRICK_SLAB() { return new yarnwrap.item.Item(wrapperContained.RESIN_BRICK_SLAB); }
+// public void RESIN_BRICK_SLAB(yarnwrap.item.Item value) { wrapperContained.RESIN_BRICK_SLAB = value.wrapperContained; }
+public static yarnwrap.item.Item RESIN_BRICK_SLAB() { return new yarnwrap.item.Item(net.minecraft.item.Items.RESIN_BRICK_SLAB); }
+// public static void RESIN_BRICK_SLAB(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RESIN_BRICK_SLAB = value.wrapperContained; }
+
+// public yarnwrap.item.Item RESIN_BRICK_WALL() { return new yarnwrap.item.Item(wrapperContained.RESIN_BRICK_WALL); }
+// public void RESIN_BRICK_WALL(yarnwrap.item.Item value) { wrapperContained.RESIN_BRICK_WALL = value.wrapperContained; }
+public static yarnwrap.item.Item RESIN_BRICK_WALL() { return new yarnwrap.item.Item(net.minecraft.item.Items.RESIN_BRICK_WALL); }
+// public static void RESIN_BRICK_WALL(yarnwrap.item.Item value, ) { net.minecraft.item.Items.RESIN_BRICK_WALL = value.wrapperContained; }
+
+// public yarnwrap.item.Item CHISELED_RESIN_BRICKS() { return new yarnwrap.item.Item(wrapperContained.CHISELED_RESIN_BRICKS); }
+// public void CHISELED_RESIN_BRICKS(yarnwrap.item.Item value) { wrapperContained.CHISELED_RESIN_BRICKS = value.wrapperContained; }
+public static yarnwrap.item.Item CHISELED_RESIN_BRICKS() { return new yarnwrap.item.Item(net.minecraft.item.Items.CHISELED_RESIN_BRICKS); }
+// public static void CHISELED_RESIN_BRICKS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CHISELED_RESIN_BRICKS = value.wrapperContained; }
+
+// public yarnwrap.item.Item WILDFLOWERS() { return new yarnwrap.item.Item(wrapperContained.WILDFLOWERS); }
+// public void WILDFLOWERS(yarnwrap.item.Item value) { wrapperContained.WILDFLOWERS = value.wrapperContained; }
+public static yarnwrap.item.Item WILDFLOWERS() { return new yarnwrap.item.Item(net.minecraft.item.Items.WILDFLOWERS); }
+// public static void WILDFLOWERS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.WILDFLOWERS = value.wrapperContained; }
+
+// public yarnwrap.item.Item LEAF_LITTER() { return new yarnwrap.item.Item(wrapperContained.LEAF_LITTER); }
+// public void LEAF_LITTER(yarnwrap.item.Item value) { wrapperContained.LEAF_LITTER = value.wrapperContained; }
+public static yarnwrap.item.Item LEAF_LITTER() { return new yarnwrap.item.Item(net.minecraft.item.Items.LEAF_LITTER); }
+// public static void LEAF_LITTER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.LEAF_LITTER = value.wrapperContained; }
+
+// public yarnwrap.item.Item TEST_BLOCK() { return new yarnwrap.item.Item(wrapperContained.TEST_BLOCK); }
+// public void TEST_BLOCK(yarnwrap.item.Item value) { wrapperContained.TEST_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item TEST_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.TEST_BLOCK); }
+// public static void TEST_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TEST_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item TEST_INSTANCE_BLOCK() { return new yarnwrap.item.Item(wrapperContained.TEST_INSTANCE_BLOCK); }
+// public void TEST_INSTANCE_BLOCK(yarnwrap.item.Item value) { wrapperContained.TEST_INSTANCE_BLOCK = value.wrapperContained; }
+public static yarnwrap.item.Item TEST_INSTANCE_BLOCK() { return new yarnwrap.item.Item(net.minecraft.item.Items.TEST_INSTANCE_BLOCK); }
+// public static void TEST_INSTANCE_BLOCK(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TEST_INSTANCE_BLOCK = value.wrapperContained; }
+
+// public yarnwrap.item.Item BUSH() { return new yarnwrap.item.Item(wrapperContained.BUSH); }
+// public void BUSH(yarnwrap.item.Item value) { wrapperContained.BUSH = value.wrapperContained; }
+public static yarnwrap.item.Item BUSH() { return new yarnwrap.item.Item(net.minecraft.item.Items.BUSH); }
+// public static void BUSH(yarnwrap.item.Item value, ) { net.minecraft.item.Items.BUSH = value.wrapperContained; }
+
+// public yarnwrap.item.Item FIREFLY_BUSH() { return new yarnwrap.item.Item(wrapperContained.FIREFLY_BUSH); }
+// public void FIREFLY_BUSH(yarnwrap.item.Item value) { wrapperContained.FIREFLY_BUSH = value.wrapperContained; }
+public static yarnwrap.item.Item FIREFLY_BUSH() { return new yarnwrap.item.Item(net.minecraft.item.Items.FIREFLY_BUSH); }
+// public static void FIREFLY_BUSH(yarnwrap.item.Item value, ) { net.minecraft.item.Items.FIREFLY_BUSH = value.wrapperContained; }
+
+// public yarnwrap.item.Item SHORT_DRY_GRASS() { return new yarnwrap.item.Item(wrapperContained.SHORT_DRY_GRASS); }
+// public void SHORT_DRY_GRASS(yarnwrap.item.Item value) { wrapperContained.SHORT_DRY_GRASS = value.wrapperContained; }
+public static yarnwrap.item.Item SHORT_DRY_GRASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.SHORT_DRY_GRASS); }
+// public static void SHORT_DRY_GRASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.SHORT_DRY_GRASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item TALL_DRY_GRASS() { return new yarnwrap.item.Item(wrapperContained.TALL_DRY_GRASS); }
+// public void TALL_DRY_GRASS(yarnwrap.item.Item value) { wrapperContained.TALL_DRY_GRASS = value.wrapperContained; }
+public static yarnwrap.item.Item TALL_DRY_GRASS() { return new yarnwrap.item.Item(net.minecraft.item.Items.TALL_DRY_GRASS); }
+// public static void TALL_DRY_GRASS(yarnwrap.item.Item value, ) { net.minecraft.item.Items.TALL_DRY_GRASS = value.wrapperContained; }
+
+// public yarnwrap.item.Item CACTUS_FLOWER() { return new yarnwrap.item.Item(wrapperContained.CACTUS_FLOWER); }
+// public void CACTUS_FLOWER(yarnwrap.item.Item value) { wrapperContained.CACTUS_FLOWER = value.wrapperContained; }
+public static yarnwrap.item.Item CACTUS_FLOWER() { return new yarnwrap.item.Item(net.minecraft.item.Items.CACTUS_FLOWER); }
+// public static void CACTUS_FLOWER(yarnwrap.item.Item value, ) { net.minecraft.item.Items.CACTUS_FLOWER = value.wrapperContained; }
+
+// public yarnwrap.item.Item DRIED_GHAST() { return new yarnwrap.item.Item(wrapperContained.DRIED_GHAST); }
+// public void DRIED_GHAST(yarnwrap.item.Item value) { wrapperContained.DRIED_GHAST = value.wrapperContained; }
+// public static yarnwrap.item.Item DRIED_GHAST() { return new yarnwrap.item.Item(net.minecraft.item.Items.DRIED_GHAST); }
+// public static void DRIED_GHAST(yarnwrap.item.Item value, ) { net.minecraft.item.Items.DRIED_GHAST = value.wrapperContained; }
+
+// public yarnwrap.item.Item register(yarnwrap.block.Block block) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained)); }
+// public static yarnwrap.item.Item register(yarnwrap.block.Block block, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(block.wrapperContained)); }
+// public yarnwrap.item.Item register(java.lang.String id) { return new yarnwrap.item.Item(wrapperContained.register(id)); }
+// public static yarnwrap.item.Item register(java.lang.String id, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(id)); }
+// // public yarnwrap.item.Item register(java.lang.String id,Object settings) { return new yarnwrap.item.Item(wrapperContained.register(id,settings)); }
+// public static yarnwrap.item.Item register(java.lang.String id,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(id,settings)); }
+// // public yarnwrap.item.Item register(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item register(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item register(yarnwrap.block.Block block,java.util.function.BiFunction factory) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained,factory)); }
+// public static yarnwrap.item.Item register(yarnwrap.block.Block block,java.util.function.BiFunction factory, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(block.wrapperContained,factory)); }
 // public yarnwrap.item.Item register(yarnwrap.block.Block block,net.minecraft.block.Block[] blocks) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained,blocks)); }
 // public static yarnwrap.item.Item register(yarnwrap.block.Block block,net.minecraft.block.Block[] blocks, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(block.wrapperContained,blocks)); }
-// public yarnwrap.item.Item register(yarnwrap.registry.RegistryKey key,yarnwrap.item.Item item) { return new yarnwrap.item.Item(wrapperContained.register(key.wrapperContained,item.wrapperContained)); }
-// public static yarnwrap.item.Item register(yarnwrap.registry.RegistryKey key,yarnwrap.item.Item item, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(key.wrapperContained,item.wrapperContained)); }
+// public yarnwrap.item.Item register(yarnwrap.registry.RegistryKey key,java.util.function.Function factory,Object settings) { return new yarnwrap.item.Item(wrapperContained.register(key.wrapperContained,factory,settings)); }
+// public static yarnwrap.item.Item register(yarnwrap.registry.RegistryKey key,java.util.function.Function factory,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(key.wrapperContained,factory,settings)); }
 // public Object method_58095(Object settings) { return wrapperContained.method_58095(settings); }
 // public static Object method_58095(Object settings, ) { return net.minecraft.item.Items.method_58095(settings); }
 // public yarnwrap.item.Item register(yarnwrap.block.Block block,java.util.function.UnaryOperator settingsOperator) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained,settingsOperator)); }
@@ -4404,23 +4799,499 @@ public static yarnwrap.item.Item BLUE_BED() { return new yarnwrap.item.Item(net.
 // public static Object method_58105(Object settings, ) { return net.minecraft.item.Items.method_58105(settings); }
 // public Object method_58106(Object settings) { return wrapperContained.method_58106(settings); }
 // public static Object method_58106(Object settings, ) { return net.minecraft.item.Items.method_58106(settings); }
-// public Object method_58107(Object settings) { return wrapperContained.method_58107(settings); }
-// public static Object method_58107(Object settings, ) { return net.minecraft.item.Items.method_58107(settings); }
 // public Object method_58108(Object settings) { return wrapperContained.method_58108(settings); }
 // public static Object method_58108(Object settings, ) { return net.minecraft.item.Items.method_58108(settings); }
 // public Object method_58109(Object settings) { return wrapperContained.method_58109(settings); }
 // public static Object method_58109(Object settings, ) { return net.minecraft.item.Items.method_58109(settings); }
 // public Object method_58110(Object settings) { return wrapperContained.method_58110(settings); }
 // public static Object method_58110(Object settings, ) { return net.minecraft.item.Items.method_58110(settings); }
-// public yarnwrap.item.Item register(yarnwrap.block.Block block) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained)); }
-// public static yarnwrap.item.Item register(yarnwrap.block.Block block, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(block.wrapperContained)); }
-// public yarnwrap.item.Item register(yarnwrap.util.Identifier id,yarnwrap.item.Item item) { return new yarnwrap.item.Item(wrapperContained.register(id.wrapperContained,item.wrapperContained)); }
-// public static yarnwrap.item.Item register(yarnwrap.util.Identifier id,yarnwrap.item.Item item, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(id.wrapperContained,item.wrapperContained)); }
-// public yarnwrap.item.Item register(java.lang.String id,yarnwrap.item.Item item) { return new yarnwrap.item.Item(wrapperContained.register(id,item.wrapperContained)); }
-// public static yarnwrap.item.Item register(java.lang.String id,yarnwrap.item.Item item, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(id,item.wrapperContained)); }
-// public yarnwrap.item.Item register(yarnwrap.block.Block block,yarnwrap.item.Item item) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained,item.wrapperContained)); }
-// public static yarnwrap.item.Item register(yarnwrap.block.Block block,yarnwrap.item.Item item, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(block.wrapperContained,item.wrapperContained)); }
-// public yarnwrap.item.Item register(yarnwrap.item.BlockItem item) { return new yarnwrap.item.Item(wrapperContained.register(item.wrapperContained)); }
-// public static yarnwrap.item.Item register(yarnwrap.item.BlockItem item, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(item.wrapperContained)); }
+// public yarnwrap.item.Item method_63694(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63694(settings)); }
+// public static yarnwrap.item.Item method_63694(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63694(settings)); }
+// public yarnwrap.item.Item method_63695(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63695(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63695(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63695(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63696(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63696(settings)); }
+// public static yarnwrap.item.Item method_63696(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63696(settings)); }
+// public yarnwrap.item.Item method_63697(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63697(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63697(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63697(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63698(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63698(settings)); }
+// public static yarnwrap.item.Item method_63698(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63698(settings)); }
+// public yarnwrap.item.Item method_63699(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63699(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63699(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63699(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63700(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63700(settings)); }
+// public static yarnwrap.item.Item method_63700(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63700(settings)); }
+// public yarnwrap.item.Item method_63701(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63701(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63701(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63701(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63702(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63702(settings)); }
+// public static yarnwrap.item.Item method_63702(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63702(settings)); }
+// public yarnwrap.item.Item method_63703(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63703(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63703(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63703(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63704(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63704(settings)); }
+// public static yarnwrap.item.Item method_63704(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63704(settings)); }
+// public yarnwrap.item.Item method_63705(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63705(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63705(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63705(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63706(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63706(settings)); }
+// public static yarnwrap.item.Item method_63706(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63706(settings)); }
+// public yarnwrap.item.Item method_63707(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63707(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63707(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63707(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63708(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63708(settings)); }
+// public static yarnwrap.item.Item method_63708(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63708(settings)); }
+// public yarnwrap.item.Item method_63709(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63709(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63709(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63709(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63710(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63710(settings)); }
+// public static yarnwrap.item.Item method_63710(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63710(settings)); }
+// public yarnwrap.item.Item method_63711(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63711(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63711(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63711(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63712(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63712(settings)); }
+// public static yarnwrap.item.Item method_63712(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63712(settings)); }
+// public yarnwrap.item.Item method_63713(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63713(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63713(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63713(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63714(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63714(settings)); }
+// public static yarnwrap.item.Item method_63714(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63714(settings)); }
+// public yarnwrap.item.Item method_63715(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63715(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63715(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63715(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63716(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63716(settings)); }
+// public static yarnwrap.item.Item method_63716(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63716(settings)); }
+// public yarnwrap.item.Item method_63717(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63717(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63717(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63717(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63718(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63718(settings)); }
+// public static yarnwrap.item.Item method_63718(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63718(settings)); }
+// public yarnwrap.item.Item method_63719(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63719(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63719(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63719(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63720(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63720(settings)); }
+// public static yarnwrap.item.Item method_63720(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63720(settings)); }
+// public yarnwrap.item.Item method_63721(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63721(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63721(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63721(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63722(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63722(settings)); }
+// public static yarnwrap.item.Item method_63722(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63722(settings)); }
+// public yarnwrap.item.Item method_63723(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63723(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63723(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63723(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63724(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63724(settings)); }
+// public static yarnwrap.item.Item method_63724(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63724(settings)); }
+// public yarnwrap.item.Item method_63725(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63725(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63725(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63725(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63726(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63726(settings)); }
+// public static yarnwrap.item.Item method_63726(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63726(settings)); }
+// public yarnwrap.item.Item method_63727(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63727(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63727(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63727(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63728(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63728(settings)); }
+// public static yarnwrap.item.Item method_63728(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63728(settings)); }
+// public yarnwrap.item.Item method_63729(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63729(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63729(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63729(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63730(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63730(settings)); }
+// public static yarnwrap.item.Item method_63730(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63730(settings)); }
+// public yarnwrap.item.Item method_63731(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63731(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63731(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63731(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63732(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63732(settings)); }
+// public static yarnwrap.item.Item method_63732(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63732(settings)); }
+// public yarnwrap.item.Item method_63733(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63733(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63733(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63733(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63734(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63734(settings)); }
+// public static yarnwrap.item.Item method_63734(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63734(settings)); }
+// public yarnwrap.item.Item method_63735(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63735(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63735(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63735(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63736(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63736(settings)); }
+// public static yarnwrap.item.Item method_63736(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63736(settings)); }
+// public yarnwrap.item.Item method_63737(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63737(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63737(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63737(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63738(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63738(settings)); }
+// public static yarnwrap.item.Item method_63738(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63738(settings)); }
+// public yarnwrap.item.Item method_63739(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63739(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63739(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63739(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63740(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63740(settings)); }
+// public static yarnwrap.item.Item method_63740(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63740(settings)); }
+// public yarnwrap.item.Item method_63741(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63741(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63741(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63741(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63742(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63742(settings)); }
+// public static yarnwrap.item.Item method_63742(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63742(settings)); }
+// public yarnwrap.item.Item method_63743(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63743(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63743(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63743(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63744(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63744(settings)); }
+// public static yarnwrap.item.Item method_63744(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63744(settings)); }
+// public yarnwrap.item.Item method_63745(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63745(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63745(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63745(block.wrapperContained,settings)); }
+// public yarnwrap.registry.RegistryKey keyOf(yarnwrap.registry.RegistryKey blockKey) { return new yarnwrap.registry.RegistryKey(wrapperContained.keyOf(blockKey.wrapperContained)); }
+// public static yarnwrap.registry.RegistryKey keyOf(yarnwrap.registry.RegistryKey blockKey, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.item.Items.keyOf(blockKey.wrapperContained)); }
+// public yarnwrap.item.Item register(yarnwrap.registry.RegistryKey key,java.util.function.Function factory) { return new yarnwrap.item.Item(wrapperContained.register(key.wrapperContained,factory)); }
+// public static yarnwrap.item.Item register(yarnwrap.registry.RegistryKey key,java.util.function.Function factory, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(key.wrapperContained,factory)); }
+// // public yarnwrap.item.Item register(yarnwrap.block.Block block,java.util.function.BiFunction factory,Object settings) { return new yarnwrap.item.Item(wrapperContained.register(block.wrapperContained,factory,settings)); }
+// public static yarnwrap.item.Item register(yarnwrap.block.Block block,java.util.function.BiFunction factory,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(block.wrapperContained,factory,settings)); }
+// public yarnwrap.item.Item register(java.lang.String id,java.util.function.Function factory) { return new yarnwrap.item.Item(wrapperContained.register(id,factory)); }
+// public static yarnwrap.item.Item register(java.lang.String id,java.util.function.Function factory, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(id,factory)); }
+// // public yarnwrap.item.Item register(java.lang.String id,java.util.function.Function factory,Object settings) { return new yarnwrap.item.Item(wrapperContained.register(id,factory,settings)); }
+// public static yarnwrap.item.Item register(java.lang.String id,java.util.function.Function factory,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.register(id,factory,settings)); }
+// public yarnwrap.item.Item method_63751(java.util.function.BiFunction itemSettings) { return new yarnwrap.item.Item(wrapperContained.method_63751(itemSettings)); }
+// public static yarnwrap.item.Item method_63751(java.util.function.BiFunction itemSettings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63751(itemSettings)); }
+// public yarnwrap.item.Item method_63752(java.util.function.UnaryOperator blockx,yarnwrap.block.Block settings) { return new yarnwrap.item.Item(wrapperContained.method_63752(blockx,settings.wrapperContained)); }
+// public static yarnwrap.item.Item method_63752(java.util.function.UnaryOperator blockx,yarnwrap.block.Block settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63752(blockx,settings.wrapperContained)); }
+// public yarnwrap.item.Item method_63753(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63753(settings)); }
+// public static yarnwrap.item.Item method_63753(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63753(settings)); }
+// public yarnwrap.item.Item method_63754(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63754(settings)); }
+// public static yarnwrap.item.Item method_63754(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63754(settings)); }
+// public yarnwrap.item.Item method_63755(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63755(settings)); }
+// public static yarnwrap.item.Item method_63755(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63755(settings)); }
+// public yarnwrap.item.Item method_63756(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63756(settings)); }
+// public static yarnwrap.item.Item method_63756(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63756(settings)); }
+// public yarnwrap.item.Item method_63757(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63757(settings)); }
+// public static yarnwrap.item.Item method_63757(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63757(settings)); }
+// public yarnwrap.item.Item method_63758(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63758(settings)); }
+// public static yarnwrap.item.Item method_63758(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63758(settings)); }
+// public yarnwrap.item.Item method_63759(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63759(settings)); }
+// public static yarnwrap.item.Item method_63759(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63759(settings)); }
+// public yarnwrap.item.Item method_63760(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63760(settings)); }
+// public static yarnwrap.item.Item method_63760(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63760(settings)); }
+// public yarnwrap.item.Item method_63761(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63761(settings)); }
+// public static yarnwrap.item.Item method_63761(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63761(settings)); }
+// public yarnwrap.item.Item method_63762(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63762(settings)); }
+// public static yarnwrap.item.Item method_63762(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63762(settings)); }
+// public yarnwrap.item.Item method_63763(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63763(settings)); }
+// public static yarnwrap.item.Item method_63763(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63763(settings)); }
+// public yarnwrap.item.Item method_63764(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63764(settings)); }
+// public static yarnwrap.item.Item method_63764(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63764(settings)); }
+// public yarnwrap.item.Item method_63765(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63765(settings)); }
+// public static yarnwrap.item.Item method_63765(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63765(settings)); }
+// public yarnwrap.item.Item method_63766(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63766(settings)); }
+// public static yarnwrap.item.Item method_63766(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63766(settings)); }
+// public yarnwrap.item.Item method_63767(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63767(settings)); }
+// public static yarnwrap.item.Item method_63767(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63767(settings)); }
+// public yarnwrap.item.Item method_63768(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63768(settings)); }
+// public static yarnwrap.item.Item method_63768(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63768(settings)); }
+// public yarnwrap.item.Item method_63769(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63769(settings)); }
+// public static yarnwrap.item.Item method_63769(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63769(settings)); }
+// public yarnwrap.item.Item method_63770(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63770(settings)); }
+// public static yarnwrap.item.Item method_63770(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63770(settings)); }
+// public yarnwrap.item.Item method_63771(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63771(settings)); }
+// public static yarnwrap.item.Item method_63771(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63771(settings)); }
+// public yarnwrap.item.Item method_63772(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63772(settings)); }
+// public static yarnwrap.item.Item method_63772(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63772(settings)); }
+// public yarnwrap.item.Item method_63773(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63773(settings)); }
+// public static yarnwrap.item.Item method_63773(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63773(settings)); }
+// public yarnwrap.item.Item method_63774(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63774(settings)); }
+// public static yarnwrap.item.Item method_63774(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63774(settings)); }
+// public yarnwrap.item.Item method_63775(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63775(settings)); }
+// public static yarnwrap.item.Item method_63775(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63775(settings)); }
+// public yarnwrap.item.Item method_63776(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63776(settings)); }
+// public static yarnwrap.item.Item method_63776(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63776(settings)); }
+// public yarnwrap.item.Item method_63777(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63777(settings)); }
+// public static yarnwrap.item.Item method_63777(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63777(settings)); }
+// public yarnwrap.item.Item method_63778(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63778(settings)); }
+// public static yarnwrap.item.Item method_63778(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63778(settings)); }
+// public yarnwrap.item.Item method_63779(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63779(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63779(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63779(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63780(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63780(settings)); }
+// public static yarnwrap.item.Item method_63780(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63780(settings)); }
+// public yarnwrap.item.Item method_63781(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63781(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63781(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63781(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63782(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63782(settings)); }
+// public static yarnwrap.item.Item method_63782(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63782(settings)); }
+// public yarnwrap.item.Item method_63783(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63783(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63783(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63783(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63784(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63784(settings)); }
+// public static yarnwrap.item.Item method_63784(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63784(settings)); }
+// public yarnwrap.item.Item method_63785(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63785(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63785(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63785(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63786(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63786(settings)); }
+// public static yarnwrap.item.Item method_63786(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63786(settings)); }
+// public yarnwrap.item.Item method_63787(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63787(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63787(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63787(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63788(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63788(settings)); }
+// public static yarnwrap.item.Item method_63788(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63788(settings)); }
+// public yarnwrap.item.Item method_63789(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63789(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63789(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63789(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63790(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63790(settings)); }
+// public static yarnwrap.item.Item method_63790(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63790(settings)); }
+// public yarnwrap.item.Item method_63791(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63791(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63791(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63791(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63792(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63792(settings)); }
+// public static yarnwrap.item.Item method_63792(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63792(settings)); }
+// public yarnwrap.item.Item method_63793(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63793(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63793(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63793(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63794(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63794(settings)); }
+// public static yarnwrap.item.Item method_63794(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63794(settings)); }
+// public yarnwrap.item.Item method_63795(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63795(settings)); }
+// public static yarnwrap.item.Item method_63795(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63795(settings)); }
+// public yarnwrap.item.Item method_63796(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63796(settings)); }
+// public static yarnwrap.item.Item method_63796(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63796(settings)); }
+// public yarnwrap.item.Item method_63797(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63797(settings)); }
+// public static yarnwrap.item.Item method_63797(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63797(settings)); }
+// public yarnwrap.item.Item method_63798(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63798(settings)); }
+// public static yarnwrap.item.Item method_63798(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63798(settings)); }
+// public yarnwrap.item.Item method_63799(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63799(settings)); }
+// public static yarnwrap.item.Item method_63799(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63799(settings)); }
+// public yarnwrap.item.Item method_63800(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63800(settings)); }
+// public static yarnwrap.item.Item method_63800(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63800(settings)); }
+// public yarnwrap.item.Item method_63801(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63801(settings)); }
+// public static yarnwrap.item.Item method_63801(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63801(settings)); }
+// public yarnwrap.item.Item method_63802(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63802(settings)); }
+// public static yarnwrap.item.Item method_63802(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63802(settings)); }
+// public yarnwrap.item.Item method_63803(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63803(settings)); }
+// public static yarnwrap.item.Item method_63803(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63803(settings)); }
+// public yarnwrap.item.Item method_63804(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63804(settings)); }
+// public static yarnwrap.item.Item method_63804(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63804(settings)); }
+// public yarnwrap.item.Item method_63805(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63805(settings)); }
+// public static yarnwrap.item.Item method_63805(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63805(settings)); }
+// public yarnwrap.item.Item method_63806(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63806(settings)); }
+// public static yarnwrap.item.Item method_63806(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63806(settings)); }
+// public yarnwrap.item.Item method_63807(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63807(settings)); }
+// public static yarnwrap.item.Item method_63807(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63807(settings)); }
+// public yarnwrap.item.Item method_63808(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63808(settings)); }
+// public static yarnwrap.item.Item method_63808(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63808(settings)); }
+// public yarnwrap.item.Item method_63809(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63809(settings)); }
+// public static yarnwrap.item.Item method_63809(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63809(settings)); }
+// public yarnwrap.item.Item method_63810(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63810(settings)); }
+// public static yarnwrap.item.Item method_63810(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63810(settings)); }
+// public yarnwrap.item.Item method_63811(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63811(settings)); }
+// public static yarnwrap.item.Item method_63811(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63811(settings)); }
+// public java.util.function.Function createBlockItemWithUniqueName(yarnwrap.block.Block block) { return wrapperContained.createBlockItemWithUniqueName(block.wrapperContained); }
+// public static java.util.function.Function createBlockItemWithUniqueName(yarnwrap.block.Block block, ) { return net.minecraft.item.Items.createBlockItemWithUniqueName(block.wrapperContained); }
+// public yarnwrap.item.Item method_63813(yarnwrap.block.Block settings) { return new yarnwrap.item.Item(wrapperContained.method_63813(settings.wrapperContained)); }
+// public static yarnwrap.item.Item method_63813(yarnwrap.block.Block settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63813(settings.wrapperContained)); }
+// public yarnwrap.registry.RegistryKey keyOf(java.lang.String id) { return new yarnwrap.registry.RegistryKey(wrapperContained.keyOf(id)); }
+// public static yarnwrap.registry.RegistryKey keyOf(java.lang.String id, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.item.Items.keyOf(id)); }
+// public yarnwrap.item.Item method_63815(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63815(settings)); }
+// public static yarnwrap.item.Item method_63815(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63815(settings)); }
+// public yarnwrap.item.Item method_63816(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63816(settings)); }
+// public static yarnwrap.item.Item method_63816(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63816(settings)); }
+// public yarnwrap.item.Item method_63817(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63817(settings)); }
+// public static yarnwrap.item.Item method_63817(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63817(settings)); }
+// public yarnwrap.item.Item method_63841(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63841(settings)); }
+// public static yarnwrap.item.Item method_63841(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63841(settings)); }
+// public yarnwrap.item.Item method_63842(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63842(settings)); }
+// public static yarnwrap.item.Item method_63842(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63842(settings)); }
+// public yarnwrap.item.Item method_63843(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63843(settings)); }
+// public static yarnwrap.item.Item method_63843(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63843(settings)); }
+// public yarnwrap.item.Item method_63844(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63844(settings)); }
+// public static yarnwrap.item.Item method_63844(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63844(settings)); }
+// public yarnwrap.item.Item method_63845(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63845(settings)); }
+// public static yarnwrap.item.Item method_63845(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63845(settings)); }
+// public yarnwrap.item.Item method_63846(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63846(settings)); }
+// public static yarnwrap.item.Item method_63846(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63846(settings)); }
+// public yarnwrap.item.Item method_63847(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63847(settings)); }
+// public static yarnwrap.item.Item method_63847(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63847(settings)); }
+// public yarnwrap.item.Item method_63848(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63848(settings)); }
+// public static yarnwrap.item.Item method_63848(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63848(settings)); }
+// public yarnwrap.item.Item method_63849(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63849(settings)); }
+// public static yarnwrap.item.Item method_63849(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63849(settings)); }
+// public yarnwrap.item.Item method_63850(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63850(settings)); }
+// public static yarnwrap.item.Item method_63850(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63850(settings)); }
+// public yarnwrap.item.Item method_63851(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63851(settings)); }
+// public static yarnwrap.item.Item method_63851(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63851(settings)); }
+// public yarnwrap.item.Item method_63852(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63852(settings)); }
+// public static yarnwrap.item.Item method_63852(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63852(settings)); }
+// public yarnwrap.item.Item method_63853(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63853(settings)); }
+// public static yarnwrap.item.Item method_63853(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63853(settings)); }
+// public yarnwrap.item.Item method_63854(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63854(settings)); }
+// public static yarnwrap.item.Item method_63854(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63854(settings)); }
+// public yarnwrap.item.Item method_63855(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63855(settings)); }
+// public static yarnwrap.item.Item method_63855(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63855(settings)); }
+// public yarnwrap.item.Item method_63856(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63856(settings)); }
+// public static yarnwrap.item.Item method_63856(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63856(settings)); }
+// public yarnwrap.item.Item method_63858(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63858(settings)); }
+// public static yarnwrap.item.Item method_63858(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63858(settings)); }
+// public yarnwrap.item.Item method_63859(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63859(settings)); }
+// public static yarnwrap.item.Item method_63859(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63859(settings)); }
+// public yarnwrap.item.Item method_63860(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63860(settings)); }
+// public static yarnwrap.item.Item method_63860(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63860(settings)); }
+// public yarnwrap.item.Item method_63861(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63861(settings)); }
+// public static yarnwrap.item.Item method_63861(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63861(settings)); }
+// public yarnwrap.item.Item method_63862(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63862(settings)); }
+// public static yarnwrap.item.Item method_63862(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63862(settings)); }
+// public yarnwrap.item.Item method_63863(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63863(settings)); }
+// public static yarnwrap.item.Item method_63863(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63863(settings)); }
+// public yarnwrap.item.Item method_63864(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63864(settings)); }
+// public static yarnwrap.item.Item method_63864(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63864(settings)); }
+// public yarnwrap.item.Item method_63865(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63865(settings)); }
+// public static yarnwrap.item.Item method_63865(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63865(settings)); }
+// public yarnwrap.item.Item method_63866(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63866(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63866(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63866(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63867(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63867(settings)); }
+// public static yarnwrap.item.Item method_63867(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63867(settings)); }
+// public yarnwrap.item.Item method_63868(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63868(settings)); }
+// public static yarnwrap.item.Item method_63868(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63868(settings)); }
+// public yarnwrap.item.Item method_63870(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63870(settings)); }
+// public static yarnwrap.item.Item method_63870(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63870(settings)); }
+// public yarnwrap.item.Item method_63874(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63874(settings)); }
+// public static yarnwrap.item.Item method_63874(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63874(settings)); }
+// public yarnwrap.item.Item method_63875(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63875(settings)); }
+// public static yarnwrap.item.Item method_63875(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63875(settings)); }
+// public yarnwrap.item.Item method_63876(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63876(settings)); }
+// public static yarnwrap.item.Item method_63876(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63876(settings)); }
+// public yarnwrap.item.Item method_63877(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63877(settings)); }
+// public static yarnwrap.item.Item method_63877(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63877(settings)); }
+// public yarnwrap.item.Item method_63878(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63878(settings)); }
+// public static yarnwrap.item.Item method_63878(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63878(settings)); }
+// public yarnwrap.item.Item method_63879(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63879(settings)); }
+// public static yarnwrap.item.Item method_63879(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63879(settings)); }
+// public yarnwrap.item.Item method_63880(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63880(settings)); }
+// public static yarnwrap.item.Item method_63880(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63880(settings)); }
+// public yarnwrap.item.Item method_63881(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63881(settings)); }
+// public static yarnwrap.item.Item method_63881(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63881(settings)); }
+// public yarnwrap.item.Item method_63882(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63882(settings)); }
+// public static yarnwrap.item.Item method_63882(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63882(settings)); }
+// public yarnwrap.item.Item method_63883(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63883(settings)); }
+// public static yarnwrap.item.Item method_63883(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63883(settings)); }
+// public yarnwrap.item.Item method_63884(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63884(settings)); }
+// public static yarnwrap.item.Item method_63884(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63884(settings)); }
+// public yarnwrap.item.Item method_63885(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63885(settings)); }
+// public static yarnwrap.item.Item method_63885(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63885(settings)); }
+// public yarnwrap.item.Item method_63886(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63886(settings)); }
+// public static yarnwrap.item.Item method_63886(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63886(settings)); }
+// public yarnwrap.item.Item method_63887(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63887(settings)); }
+// public static yarnwrap.item.Item method_63887(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63887(settings)); }
+// public yarnwrap.item.Item method_63888(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63888(settings)); }
+// public static yarnwrap.item.Item method_63888(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63888(settings)); }
+// public yarnwrap.item.Item method_63889(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63889(settings)); }
+// public static yarnwrap.item.Item method_63889(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63889(settings)); }
+// public yarnwrap.item.Item method_63890(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63890(settings)); }
+// public static yarnwrap.item.Item method_63890(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63890(settings)); }
+// public yarnwrap.item.Item method_63891(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63891(settings)); }
+// public static yarnwrap.item.Item method_63891(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63891(settings)); }
+// public yarnwrap.item.Item method_63892(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63892(settings)); }
+// public static yarnwrap.item.Item method_63892(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63892(settings)); }
+// public yarnwrap.item.Item method_63894(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63894(settings)); }
+// public static yarnwrap.item.Item method_63894(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63894(settings)); }
+// public yarnwrap.item.Item method_63895(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63895(settings)); }
+// public static yarnwrap.item.Item method_63895(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63895(settings)); }
+// public yarnwrap.item.Item method_63897(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63897(settings)); }
+// public static yarnwrap.item.Item method_63897(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63897(settings)); }
+// public yarnwrap.item.Item method_63899(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63899(settings)); }
+// public static yarnwrap.item.Item method_63899(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63899(settings)); }
+// public yarnwrap.item.Item method_63900(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63900(settings)); }
+// public static yarnwrap.item.Item method_63900(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63900(settings)); }
+// public yarnwrap.item.Item method_63902(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63902(settings)); }
+// public static yarnwrap.item.Item method_63902(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63902(settings)); }
+// public yarnwrap.item.Item method_63904(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63904(settings)); }
+// public static yarnwrap.item.Item method_63904(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63904(settings)); }
+// public yarnwrap.item.Item method_63905(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63905(settings)); }
+// public static yarnwrap.item.Item method_63905(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63905(settings)); }
+// public yarnwrap.item.Item method_63907(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63907(settings)); }
+// public static yarnwrap.item.Item method_63907(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63907(settings)); }
+// public yarnwrap.item.Item method_63909(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63909(settings)); }
+// public static yarnwrap.item.Item method_63909(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63909(settings)); }
+// public yarnwrap.item.Item method_63910(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63910(settings)); }
+// public static yarnwrap.item.Item method_63910(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63910(settings)); }
+// public yarnwrap.item.Item method_63912(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63912(settings)); }
+// public static yarnwrap.item.Item method_63912(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63912(settings)); }
+// public yarnwrap.item.Item method_63914(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63914(settings)); }
+// public static yarnwrap.item.Item method_63914(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63914(settings)); }
+// public yarnwrap.item.Item method_63915(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63915(settings)); }
+// public static yarnwrap.item.Item method_63915(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63915(settings)); }
+// public yarnwrap.item.Item method_63917(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63917(settings)); }
+// public static yarnwrap.item.Item method_63917(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63917(settings)); }
+// public yarnwrap.item.Item method_63919(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63919(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63919(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63919(block.wrapperContained,settings)); }
+// public Object method_63920(Object settings) { return wrapperContained.method_63920(settings); }
+// public static Object method_63920(Object settings, ) { return net.minecraft.item.Items.method_63920(settings); }
+// public Object method_63921(Object settings) { return wrapperContained.method_63921(settings); }
+// public static Object method_63921(Object settings, ) { return net.minecraft.item.Items.method_63921(settings); }
+// public yarnwrap.item.Item method_63922(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63922(settings)); }
+// public static yarnwrap.item.Item method_63922(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63922(settings)); }
+// public yarnwrap.item.Item method_63923(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63923(settings)); }
+// public static yarnwrap.item.Item method_63923(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63923(settings)); }
+// public yarnwrap.item.Item method_63924(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63924(settings)); }
+// public static yarnwrap.item.Item method_63924(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63924(settings)); }
+// public yarnwrap.item.Item method_63925(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63925(settings)); }
+// public static yarnwrap.item.Item method_63925(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63925(settings)); }
+// public yarnwrap.item.Item method_63926(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63926(settings)); }
+// public static yarnwrap.item.Item method_63926(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63926(settings)); }
+// public yarnwrap.item.Item method_63927(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63927(settings)); }
+// public static yarnwrap.item.Item method_63927(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63927(settings)); }
+// public Object method_63928(Object settings) { return wrapperContained.method_63928(settings); }
+// public static Object method_63928(Object settings, ) { return net.minecraft.item.Items.method_63928(settings); }
+// public Object method_63929(Object settings) { return wrapperContained.method_63929(settings); }
+// public static Object method_63929(Object settings, ) { return net.minecraft.item.Items.method_63929(settings); }
+// public Object method_63930(Object settings) { return wrapperContained.method_63930(settings); }
+// public static Object method_63930(Object settings, ) { return net.minecraft.item.Items.method_63930(settings); }
+// public Object method_63931(Object settings) { return wrapperContained.method_63931(settings); }
+// public static Object method_63931(Object settings, ) { return net.minecraft.item.Items.method_63931(settings); }
+// public Object method_63932(Object settings) { return wrapperContained.method_63932(settings); }
+// public static Object method_63932(Object settings, ) { return net.minecraft.item.Items.method_63932(settings); }
+// public Object method_63933(Object settings) { return wrapperContained.method_63933(settings); }
+// public static Object method_63933(Object settings, ) { return net.minecraft.item.Items.method_63933(settings); }
+// public Object method_63934(Object settings) { return wrapperContained.method_63934(settings); }
+// public static Object method_63934(Object settings, ) { return net.minecraft.item.Items.method_63934(settings); }
+// public Object method_63935(Object settings) { return wrapperContained.method_63935(settings); }
+// public static Object method_63935(Object settings, ) { return net.minecraft.item.Items.method_63935(settings); }
+// public Object method_63936(Object settings) { return wrapperContained.method_63936(settings); }
+// public static Object method_63936(Object settings, ) { return net.minecraft.item.Items.method_63936(settings); }
+// public Object method_63937(Object settings) { return wrapperContained.method_63937(settings); }
+// public static Object method_63937(Object settings, ) { return net.minecraft.item.Items.method_63937(settings); }
+// public Object method_63938(Object settings) { return wrapperContained.method_63938(settings); }
+// public static Object method_63938(Object settings, ) { return net.minecraft.item.Items.method_63938(settings); }
+// public Object method_63939(Object settings) { return wrapperContained.method_63939(settings); }
+// public static Object method_63939(Object settings, ) { return net.minecraft.item.Items.method_63939(settings); }
+// public Object method_63940(Object settings) { return wrapperContained.method_63940(settings); }
+// public static Object method_63940(Object settings, ) { return net.minecraft.item.Items.method_63940(settings); }
+// public Object method_63941(Object settings) { return wrapperContained.method_63941(settings); }
+// public static Object method_63941(Object settings, ) { return net.minecraft.item.Items.method_63941(settings); }
+// public Object method_63942(Object settings) { return wrapperContained.method_63942(settings); }
+// public static Object method_63942(Object settings, ) { return net.minecraft.item.Items.method_63942(settings); }
+// public yarnwrap.item.Item method_63943(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63943(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63943(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63943(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63945(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63945(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63945(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63945(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63947(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63947(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63947(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63947(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63949(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63949(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63949(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63949(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63951(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63951(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63951(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63951(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63953(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63953(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63953(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63953(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63955(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63955(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63955(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63955(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63957(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63957(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63957(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63957(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63959(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63959(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63959(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63959(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63961(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63961(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63961(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63961(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63963(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63963(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63963(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63963(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63965(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63965(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63965(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63965(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63967(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63967(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63967(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63967(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63969(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63969(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63969(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63969(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63971(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63971(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63971(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63971(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63973(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63973(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63973(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63973(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63975(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63975(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63975(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63975(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63976(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63976(settings)); }
+// public static yarnwrap.item.Item method_63976(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63976(settings)); }
+// public yarnwrap.item.Item method_63977(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63977(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63977(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63977(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63978(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63978(settings)); }
+// public static yarnwrap.item.Item method_63978(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63978(settings)); }
+// public yarnwrap.item.Item method_63979(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63979(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63979(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63979(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63980(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63980(settings)); }
+// public static yarnwrap.item.Item method_63980(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63980(settings)); }
+// public yarnwrap.item.Item method_63981(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63981(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63981(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63981(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63982(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63982(settings)); }
+// public static yarnwrap.item.Item method_63982(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63982(settings)); }
+// public yarnwrap.item.Item method_63983(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63983(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63983(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63983(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_63984(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63984(settings)); }
+// public static yarnwrap.item.Item method_63984(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63984(settings)); }
+// public yarnwrap.item.Item method_63985(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_63985(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_63985(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_63985(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_64296(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_64296(settings)); }
+// public static yarnwrap.item.Item method_64296(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_64296(settings)); }
+// public yarnwrap.item.Item method_64657(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_64657(settings)); }
+// public static yarnwrap.item.Item method_64657(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_64657(settings)); }
+// public yarnwrap.item.Item method_64658(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_64658(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_64658(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_64658(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_64659(yarnwrap.block.Block block,Object settings) { return new yarnwrap.item.Item(wrapperContained.method_64659(block.wrapperContained,settings)); }
+// public static yarnwrap.item.Item method_64659(yarnwrap.block.Block block,Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_64659(block.wrapperContained,settings)); }
+// public yarnwrap.item.Item method_64660(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_64660(settings)); }
+// public static yarnwrap.item.Item method_64660(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_64660(settings)); }
+// public yarnwrap.item.Item method_64661(Object settings) { return new yarnwrap.item.Item(wrapperContained.method_64661(settings)); }
+// public static yarnwrap.item.Item method_64661(Object settings, ) { return new yarnwrap.item.Item(net.minecraft.item.Items.method_64661(settings)); }
+// public Object method_65360(Object settings) { return wrapperContained.method_65360(settings); }
+// public static Object method_65360(Object settings, ) { return net.minecraft.item.Items.method_65360(settings); }
 
 }

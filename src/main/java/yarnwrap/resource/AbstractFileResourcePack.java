@@ -12,7 +12,9 @@ public class AbstractFileResourcePack { public net.minecraft.resource.AbstractFi
 // public static void info(yarnwrap.resource.ResourcePackInfo value, ) { net.minecraft.resource.AbstractFileResourcePack.info = value.wrapperContained; }
 
 // public AbstractFileResourcePack(yarnwrap.resource.ResourcePackInfo info) { this.wrapperContained = new net.minecraft.resource.AbstractFileResourcePack(info.wrapperContained); }
-// public java.lang.Object parseMetadata(yarnwrap.resource.metadata.ResourceMetadataReader metaReader,java.io.InputStream inputStream) { return wrapperContained.parseMetadata(metaReader.wrapperContained,inputStream); }
-// public static java.lang.Object parseMetadata(yarnwrap.resource.metadata.ResourceMetadataReader metaReader,java.io.InputStream inputStream, ) { return net.minecraft.resource.AbstractFileResourcePack.parseMetadata(metaReader.wrapperContained,inputStream); }
+// public java.lang.Object parseMetadata(yarnwrap.resource.metadata.ResourceMetadataSerializer metadataSerializer,java.io.InputStream inputStream) { return wrapperContained.parseMetadata(metadataSerializer.wrapperContained,inputStream); }
+// public static java.lang.Object parseMetadata(yarnwrap.resource.metadata.ResourceMetadataSerializer metadataSerializer,java.io.InputStream inputStream, ) { return net.minecraft.resource.AbstractFileResourcePack.parseMetadata(metadataSerializer.wrapperContained,inputStream); }
+// public void method_65783(yarnwrap.resource.metadata.ResourceMetadataSerializer error) { wrapperContained.method_65783(error.wrapperContained); }
+// public static void method_65783(yarnwrap.resource.metadata.ResourceMetadataSerializer error, ) { net.minecraft.resource.AbstractFileResourcePack.method_65783(error.wrapperContained); }
 
 }

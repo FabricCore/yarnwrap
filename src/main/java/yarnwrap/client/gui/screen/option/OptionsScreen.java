@@ -112,5 +112,7 @@ public OptionsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.op
 // public static yarnwrap.client.gui.widget.Widget createTopRightButton() { return new yarnwrap.client.gui.widget.Widget(net.minecraft.client.gui.screen.option.OptionsScreen.createTopRightButton()); }
 // public void refreshResourcePacks(yarnwrap.resource.ResourcePackManager resourcePackManager) { wrapperContained.refreshResourcePacks(resourcePackManager.wrapperContained); }
 // public static void refreshResourcePacks(yarnwrap.resource.ResourcePackManager resourcePackManager, ) { net.minecraft.client.gui.screen.option.OptionsScreen.refreshResourcePacks(resourcePackManager.wrapperContained); }
+// public void method_60335(yarnwrap.client.gui.screen.option.OptionsScreen child) { wrapperContained.method_60335(child.wrapperContained); }
+// public static void method_60335(yarnwrap.client.gui.screen.option.OptionsScreen child, ) { net.minecraft.client.gui.screen.option.OptionsScreen.method_60335(child.wrapperContained); }
 
 }

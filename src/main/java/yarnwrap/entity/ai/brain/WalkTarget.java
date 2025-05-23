@@ -16,9 +16,9 @@ public class WalkTarget { public net.minecraft.entity.ai.brain.WalkTarget wrappe
 // public static int completionRange() { return net.minecraft.entity.ai.brain.WalkTarget.completionRange; }
 // public static void completionRange(int value, ) { net.minecraft.entity.ai.brain.WalkTarget.completionRange = value; }
 
+public WalkTarget(yarnwrap.util.math.Vec3d pos,float speed,int completionRange) { this.wrapperContained = new net.minecraft.entity.ai.brain.WalkTarget(pos.wrapperContained,speed,completionRange); }
 public WalkTarget(yarnwrap.entity.Entity entity,float speed,int completionRange) { this.wrapperContained = new net.minecraft.entity.ai.brain.WalkTarget(entity.wrapperContained,speed,completionRange); }
 public WalkTarget(yarnwrap.util.math.BlockPos pos,float speed,int completionRange) { this.wrapperContained = new net.minecraft.entity.ai.brain.WalkTarget(pos.wrapperContained,speed,completionRange); }
-public WalkTarget(yarnwrap.util.math.Vec3d pos,float speed,int completionRange) { this.wrapperContained = new net.minecraft.entity.ai.brain.WalkTarget(pos.wrapperContained,speed,completionRange); }
 public WalkTarget(yarnwrap.entity.ai.brain.LookTarget lookTarget,float speed,int completionRange) { this.wrapperContained = new net.minecraft.entity.ai.brain.WalkTarget(lookTarget.wrapperContained,speed,completionRange); }
 public yarnwrap.entity.ai.brain.LookTarget getLookTarget() { return new yarnwrap.entity.ai.brain.LookTarget(wrapperContained.getLookTarget()); }
 // public static yarnwrap.entity.ai.brain.LookTarget getLookTarget() { return new yarnwrap.entity.ai.brain.LookTarget(net.minecraft.entity.ai.brain.WalkTarget.getLookTarget()); }

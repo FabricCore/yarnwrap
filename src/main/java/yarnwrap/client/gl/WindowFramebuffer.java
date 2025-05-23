@@ -17,12 +17,12 @@ public static int DEFAULT_HEIGHT() { return net.minecraft.client.gl.WindowFrameb
 // // public static void DEFAULT(Object value, ) { net.minecraft.client.gl.WindowFramebuffer.DEFAULT = value; }
 
 public WindowFramebuffer(int width,int height) { this.wrapperContained = new net.minecraft.client.gl.WindowFramebuffer(width,height); }
-// public boolean supportsColor(Object size) { return wrapperContained.supportsColor(size); }
-// public static boolean supportsColor(Object size, ) { return net.minecraft.client.gl.WindowFramebuffer.supportsColor(size); }
+// public com.mojang.blaze3d.textures.GpuTexture createColorAttachment(Object size) { return wrapperContained.createColorAttachment(size); }
+// public static com.mojang.blaze3d.textures.GpuTexture createColorAttachment(Object size, ) { return net.minecraft.client.gl.WindowFramebuffer.createColorAttachment(size); }
 // public void init(int width,int height) { wrapperContained.init(width,height); }
 // public static void init(int width,int height, ) { net.minecraft.client.gl.WindowFramebuffer.init(width,height); }
-// public boolean supportsDepth(Object size) { return wrapperContained.supportsDepth(size); }
-// public static boolean supportsDepth(Object size, ) { return net.minecraft.client.gl.WindowFramebuffer.supportsDepth(size); }
+// public com.mojang.blaze3d.textures.GpuTexture createDepthAttachment(Object size) { return wrapperContained.createDepthAttachment(size); }
+// public static com.mojang.blaze3d.textures.GpuTexture createDepthAttachment(Object size, ) { return net.minecraft.client.gl.WindowFramebuffer.createDepthAttachment(size); }
 // public Object findSuitableSize(int width,int height) { return wrapperContained.findSuitableSize(width,height); }
 // public static Object findSuitableSize(int width,int height, ) { return net.minecraft.client.gl.WindowFramebuffer.findSuitableSize(width,height); }
 

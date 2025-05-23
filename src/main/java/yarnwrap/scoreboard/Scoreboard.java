@@ -66,8 +66,6 @@ public it.unimi.dsi.fastutil.objects.Object2IntMap getScoreHolderObjectives(yarn
 // public static it.unimi.dsi.fastutil.objects.Object2IntMap getScoreHolderObjectives(yarnwrap.scoreboard.ScoreHolder scoreHolder, ) { return net.minecraft.scoreboard.Scoreboard.getScoreHolderObjectives(scoreHolder.wrapperContained); }
 // public yarnwrap.scoreboard.ScoreboardObjective addObjective(java.lang.String name,yarnwrap.scoreboard.ScoreboardCriterion criterion,yarnwrap.text.Text displayName,Object renderType,boolean displayAutoUpdate,yarnwrap.scoreboard.number.NumberFormat numberFormat) { return new yarnwrap.scoreboard.ScoreboardObjective(wrapperContained.addObjective(name,criterion.wrapperContained,displayName.wrapperContained,renderType,displayAutoUpdate,numberFormat.wrapperContained)); }
 // public static yarnwrap.scoreboard.ScoreboardObjective addObjective(java.lang.String name,yarnwrap.scoreboard.ScoreboardCriterion criterion,yarnwrap.text.Text displayName,Object renderType,boolean displayAutoUpdate,yarnwrap.scoreboard.number.NumberFormat numberFormat, ) { return new yarnwrap.scoreboard.ScoreboardObjective(net.minecraft.scoreboard.Scoreboard.addObjective(name,criterion.wrapperContained,displayName.wrapperContained,renderType,displayAutoUpdate,numberFormat.wrapperContained)); }
-// public yarnwrap.nbt.NbtList toNbt(Object registries) { return new yarnwrap.nbt.NbtList(wrapperContained.toNbt(registries)); }
-// public static yarnwrap.nbt.NbtList toNbt(Object registries, ) { return new yarnwrap.nbt.NbtList(net.minecraft.scoreboard.Scoreboard.toNbt(registries)); }
 public yarnwrap.scoreboard.ScoreboardObjective getNullableObjective(java.lang.String name) { return new yarnwrap.scoreboard.ScoreboardObjective(wrapperContained.getNullableObjective(name)); }
 // public static yarnwrap.scoreboard.ScoreboardObjective getNullableObjective(java.lang.String name, ) { return new yarnwrap.scoreboard.ScoreboardObjective(net.minecraft.scoreboard.Scoreboard.getNullableObjective(name)); }
 public yarnwrap.scoreboard.Team addTeam(java.lang.String name) { return new yarnwrap.scoreboard.Team(wrapperContained.addTeam(name)); }
@@ -92,8 +90,6 @@ public java.util.Collection getScoreboardEntries(yarnwrap.scoreboard.ScoreboardO
 // public static java.util.Collection getScoreboardEntries(yarnwrap.scoreboard.ScoreboardObjective objective, ) { return net.minecraft.scoreboard.Scoreboard.getScoreboardEntries(objective.wrapperContained); }
 public void updateObjective(yarnwrap.scoreboard.ScoreboardObjective objective) { wrapperContained.updateObjective(objective.wrapperContained); }
 // public static void updateObjective(yarnwrap.scoreboard.ScoreboardObjective objective, ) { net.minecraft.scoreboard.Scoreboard.updateObjective(objective.wrapperContained); }
-// public void readNbt(yarnwrap.nbt.NbtList list,Object registries) { wrapperContained.readNbt(list.wrapperContained,registries); }
-// public static void readNbt(yarnwrap.nbt.NbtList list,Object registries, ) { net.minecraft.scoreboard.Scoreboard.readNbt(list.wrapperContained,registries); }
 public yarnwrap.scoreboard.ScoreboardObjective getObjectiveForSlot(yarnwrap.scoreboard.ScoreboardDisplaySlot slot) { return new yarnwrap.scoreboard.ScoreboardObjective(wrapperContained.getObjectiveForSlot(slot.wrapperContained)); }
 // public static yarnwrap.scoreboard.ScoreboardObjective getObjectiveForSlot(yarnwrap.scoreboard.ScoreboardDisplaySlot slot, ) { return new yarnwrap.scoreboard.ScoreboardObjective(net.minecraft.scoreboard.Scoreboard.getObjectiveForSlot(slot.wrapperContained)); }
 public void onScoreRemoved(yarnwrap.scoreboard.ScoreHolder scoreHolder,yarnwrap.scoreboard.ScoreboardObjective objective) { wrapperContained.onScoreRemoved(scoreHolder.wrapperContained,objective.wrapperContained); }
@@ -114,12 +110,8 @@ public java.util.Collection getTeamNames() { return wrapperContained.getTeamName
 // public static void method_55424(yarnwrap.scoreboard.ScoreboardObjective scoreHolderName,java.util.List scores, ) { net.minecraft.scoreboard.Scoreboard.method_55424(scoreHolderName.wrapperContained,scores); }
 public yarnwrap.scoreboard.ScoreAccess getOrCreateScore(yarnwrap.scoreboard.ScoreHolder scoreHolder,yarnwrap.scoreboard.ScoreboardObjective objective,boolean forceWritable) { return new yarnwrap.scoreboard.ScoreAccess(wrapperContained.getOrCreateScore(scoreHolder.wrapperContained,objective.wrapperContained,forceWritable)); }
 // public static yarnwrap.scoreboard.ScoreAccess getOrCreateScore(yarnwrap.scoreboard.ScoreHolder scoreHolder,yarnwrap.scoreboard.ScoreboardObjective objective,boolean forceWritable, ) { return new yarnwrap.scoreboard.ScoreAccess(net.minecraft.scoreboard.Scoreboard.getOrCreateScore(scoreHolder.wrapperContained,objective.wrapperContained,forceWritable)); }
-// public void method_55426(Object objective,java.lang.String score) { wrapperContained.method_55426(objective,score); }
-// public static void method_55426(Object objective,java.lang.String score, ) { net.minecraft.scoreboard.Scoreboard.method_55426(objective,score); }
 // public void method_55427(org.apache.commons.lang3.mutable.MutableBoolean score) { wrapperContained.method_55427(score); }
 // public static void method_55427(org.apache.commons.lang3.mutable.MutableBoolean score, ) { net.minecraft.scoreboard.Scoreboard.method_55427(score); }
-// public void method_55428(Object name,yarnwrap.nbt.NbtList scores) { wrapperContained.method_55428(name,scores.wrapperContained); }
-// public static void method_55428(Object name,yarnwrap.nbt.NbtList scores, ) { net.minecraft.scoreboard.Scoreboard.method_55428(name,scores.wrapperContained); }
 public void removeScores(yarnwrap.scoreboard.ScoreHolder scoreHolder) { wrapperContained.removeScores(scoreHolder.wrapperContained); }
 // public static void removeScores(yarnwrap.scoreboard.ScoreHolder scoreHolder, ) { net.minecraft.scoreboard.Scoreboard.removeScores(scoreHolder.wrapperContained); }
 public yarnwrap.scoreboard.ReadableScoreboardScore getScore(yarnwrap.scoreboard.ScoreHolder scoreHolder,yarnwrap.scoreboard.ScoreboardObjective objective) { return new yarnwrap.scoreboard.ReadableScoreboardScore(wrapperContained.getScore(scoreHolder.wrapperContained,objective.wrapperContained)); }
@@ -128,5 +120,17 @@ public yarnwrap.scoreboard.ReadableScoreboardScore getScore(yarnwrap.scoreboard.
 // public static yarnwrap.scoreboard.Scores getScores(java.lang.String scoreHolderName, ) { return new yarnwrap.scoreboard.Scores(net.minecraft.scoreboard.Scoreboard.getScores(scoreHolderName)); }
 // public yarnwrap.scoreboard.Scores method_55432(java.lang.String name) { return new yarnwrap.scoreboard.Scores(wrapperContained.method_55432(name)); }
 // public static yarnwrap.scoreboard.Scores method_55432(java.lang.String name, ) { return new yarnwrap.scoreboard.Scores(net.minecraft.scoreboard.Scoreboard.method_55432(name)); }
+// public void addObjective(Object packedObjective) { wrapperContained.addObjective(packedObjective); }
+// public static void addObjective(Object packedObjective, ) { net.minecraft.scoreboard.Scoreboard.addObjective(packedObjective); }
+// public void addTeam(Object packedTeam) { wrapperContained.addTeam(packedTeam); }
+// public static void addTeam(Object packedTeam, ) { net.minecraft.scoreboard.Scoreboard.addTeam(packedTeam); }
+// public void addEntry(Object packedEntry) { wrapperContained.addEntry(packedEntry); }
+// public static void addEntry(Object packedEntry, ) { net.minecraft.scoreboard.Scoreboard.addEntry(packedEntry); }
+// public Object method_67456(java.lang.String entryx) { return wrapperContained.method_67456(entryx); }
+// public static Object method_67456(java.lang.String entryx, ) { return net.minecraft.scoreboard.Scoreboard.method_67456(entryx); }
+// public java.util.stream.Stream method_67457(Object entry) { return wrapperContained.method_67457(entry); }
+// public static java.util.stream.Stream method_67457(Object entry, ) { return net.minecraft.scoreboard.Scoreboard.method_67457(entry); }
+// public java.util.List pack() { return wrapperContained.pack(); }
+// public static java.util.List pack() { return net.minecraft.scoreboard.Scoreboard.pack(); }
 
 }

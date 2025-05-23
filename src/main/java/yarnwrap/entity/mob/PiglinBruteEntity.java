@@ -26,6 +26,11 @@ public class PiglinBruteEntity { public net.minecraft.entity.mob.PiglinBruteEnti
 // public static int ATTACK_DAMAGE() { return net.minecraft.entity.mob.PiglinBruteEntity.ATTACK_DAMAGE; }
 // public static void ATTACK_DAMAGE(int value, ) { net.minecraft.entity.mob.PiglinBruteEntity.ATTACK_DAMAGE = value; }
 
+// public double FOLLOW_RANGE() { return wrapperContained.FOLLOW_RANGE; }
+// public void FOLLOW_RANGE(double value) { wrapperContained.FOLLOW_RANGE = value; }
+// public static double FOLLOW_RANGE() { return net.minecraft.entity.mob.PiglinBruteEntity.FOLLOW_RANGE; }
+// public static void FOLLOW_RANGE(double value, ) { net.minecraft.entity.mob.PiglinBruteEntity.FOLLOW_RANGE = value; }
+
 // public Object createPiglinBruteAttributes() { return wrapperContained.createPiglinBruteAttributes(); }
 public static Object createPiglinBruteAttributes() { return net.minecraft.entity.mob.PiglinBruteEntity.createPiglinBruteAttributes(); }
 // public void playAngrySound() { wrapperContained.playAngrySound(); }

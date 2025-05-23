@@ -1,15 +1,25 @@
 package yarnwrap.entity.effect;
 public class StatusEffect { public net.minecraft.entity.effect.StatusEffect wrapperContained; public StatusEffect(net.minecraft.entity.effect.StatusEffect wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public java.lang.String translationKey() { return wrapperContained.translationKey; }
+// public void translationKey(java.lang.String value) { wrapperContained.translationKey = value; }
+// public static java.lang.String translationKey() { return net.minecraft.entity.effect.StatusEffect.translationKey; }
+// public static void translationKey(java.lang.String value, ) { net.minecraft.entity.effect.StatusEffect.translationKey = value; }
+
+// public java.util.Map attributeModifiers() { return wrapperContained.attributeModifiers; }
+// public void attributeModifiers(java.util.Map value) { wrapperContained.attributeModifiers = value; }
+// public static java.util.Map attributeModifiers() { return net.minecraft.entity.effect.StatusEffect.attributeModifiers; }
+// public static void attributeModifiers(java.util.Map value, ) { net.minecraft.entity.effect.StatusEffect.attributeModifiers = value; }
+
+// public int color() { return wrapperContained.color; }
+// public void color(int value) { wrapperContained.color = value; }
+// public static int color() { return net.minecraft.entity.effect.StatusEffect.color; }
+// public static void color(int value, ) { net.minecraft.entity.effect.StatusEffect.color = value; }
+
 // public yarnwrap.entity.effect.StatusEffectCategory category() { return new yarnwrap.entity.effect.StatusEffectCategory(wrapperContained.category); }
 // public void category(yarnwrap.entity.effect.StatusEffectCategory value) { wrapperContained.category = value.wrapperContained; }
 // public static yarnwrap.entity.effect.StatusEffectCategory category() { return new yarnwrap.entity.effect.StatusEffectCategory(net.minecraft.entity.effect.StatusEffect.category); }
 // public static void category(yarnwrap.entity.effect.StatusEffectCategory value, ) { net.minecraft.entity.effect.StatusEffect.category = value.wrapperContained; }
-
-// public int fadeTicks() { return wrapperContained.fadeTicks; }
-// public void fadeTicks(int value) { wrapperContained.fadeTicks = value; }
-// public static int fadeTicks() { return net.minecraft.entity.effect.StatusEffect.fadeTicks; }
-// public static void fadeTicks(int value, ) { net.minecraft.entity.effect.StatusEffect.fadeTicks = value; }
 
 // public int AMBIENT_PARTICLE_ALPHA() { return wrapperContained.AMBIENT_PARTICLE_ALPHA; }
 // public void AMBIENT_PARTICLE_ALPHA(int value) { wrapperContained.AMBIENT_PARTICLE_ALPHA = value; }
@@ -41,27 +51,23 @@ public static com.mojang.serialization.Codec ENTRY_CODEC() { return net.minecraf
 public static yarnwrap.network.codec.PacketCodec ENTRY_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.entity.effect.StatusEffect.ENTRY_PACKET_CODEC); }
 // public static void ENTRY_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.entity.effect.StatusEffect.ENTRY_PACKET_CODEC = value.wrapperContained; }
 
-// public java.lang.String translationKey() { return wrapperContained.translationKey; }
-// public void translationKey(java.lang.String value) { wrapperContained.translationKey = value; }
-// public static java.lang.String translationKey() { return net.minecraft.entity.effect.StatusEffect.translationKey; }
-// public static void translationKey(java.lang.String value, ) { net.minecraft.entity.effect.StatusEffect.translationKey = value; }
+// public int fadeInTicks() { return wrapperContained.fadeInTicks; }
+// public void fadeInTicks(int value) { wrapperContained.fadeInTicks = value; }
+// public static int fadeInTicks() { return net.minecraft.entity.effect.StatusEffect.fadeInTicks; }
+// public static void fadeInTicks(int value, ) { net.minecraft.entity.effect.StatusEffect.fadeInTicks = value; }
 
-// public java.util.Map attributeModifiers() { return wrapperContained.attributeModifiers; }
-// public void attributeModifiers(java.util.Map value) { wrapperContained.attributeModifiers = value; }
-// public static java.util.Map attributeModifiers() { return net.minecraft.entity.effect.StatusEffect.attributeModifiers; }
-// public static void attributeModifiers(java.util.Map value, ) { net.minecraft.entity.effect.StatusEffect.attributeModifiers = value; }
+// public int fadeOutTicks() { return wrapperContained.fadeOutTicks; }
+// public void fadeOutTicks(int value) { wrapperContained.fadeOutTicks = value; }
+// public static int fadeOutTicks() { return net.minecraft.entity.effect.StatusEffect.fadeOutTicks; }
+// public static void fadeOutTicks(int value, ) { net.minecraft.entity.effect.StatusEffect.fadeOutTicks = value; }
 
-// public int color() { return wrapperContained.color; }
-// public void color(int value) { wrapperContained.color = value; }
-// public static int color() { return net.minecraft.entity.effect.StatusEffect.color; }
-// public static void color(int value, ) { net.minecraft.entity.effect.StatusEffect.color = value; }
+// public int fadeOutThresholdTicks() { return wrapperContained.fadeOutThresholdTicks; }
+// public void fadeOutThresholdTicks(int value) { wrapperContained.fadeOutThresholdTicks = value; }
+// public static int fadeOutThresholdTicks() { return net.minecraft.entity.effect.StatusEffect.fadeOutThresholdTicks; }
+// public static void fadeOutThresholdTicks(int value, ) { net.minecraft.entity.effect.StatusEffect.fadeOutThresholdTicks = value; }
 
 // public StatusEffect(yarnwrap.entity.effect.StatusEffectCategory category,int color) { this.wrapperContained = new net.minecraft.entity.effect.StatusEffect(category.wrapperContained,color); }
 // public StatusEffect(yarnwrap.entity.effect.StatusEffectCategory category,int color,yarnwrap.particle.ParticleEffect particleEffect) { this.wrapperContained = new net.minecraft.entity.effect.StatusEffect(category.wrapperContained,color,particleEffect.wrapperContained); }
-public yarnwrap.entity.effect.StatusEffectCategory getCategory() { return new yarnwrap.entity.effect.StatusEffectCategory(wrapperContained.getCategory()); }
-// public static yarnwrap.entity.effect.StatusEffectCategory getCategory() { return new yarnwrap.entity.effect.StatusEffectCategory(net.minecraft.entity.effect.StatusEffect.getCategory()); }
-public void onApplied(yarnwrap.entity.LivingEntity entity,int amplifier) { wrapperContained.onApplied(entity.wrapperContained,amplifier); }
-// public static void onApplied(yarnwrap.entity.LivingEntity entity,int amplifier, ) { net.minecraft.entity.effect.StatusEffect.onApplied(entity.wrapperContained,amplifier); }
 public boolean canApplyUpdateEffect(int duration,int amplifier) { return wrapperContained.canApplyUpdateEffect(duration,amplifier); }
 // public static boolean canApplyUpdateEffect(int duration,int amplifier, ) { return net.minecraft.entity.effect.StatusEffect.canApplyUpdateEffect(duration,amplifier); }
 public void onApplied(yarnwrap.entity.attribute.AttributeContainer attributeContainer,int amplifier) { wrapperContained.onApplied(attributeContainer.wrapperContained,amplifier); }
@@ -76,41 +82,51 @@ public boolean isInstant() { return wrapperContained.isInstant(); }
 // public static boolean isInstant() { return net.minecraft.entity.effect.StatusEffect.isInstant(); }
 public void onRemoved(yarnwrap.entity.attribute.AttributeContainer attributeContainer) { wrapperContained.onRemoved(attributeContainer.wrapperContained); }
 // public static void onRemoved(yarnwrap.entity.attribute.AttributeContainer attributeContainer, ) { net.minecraft.entity.effect.StatusEffect.onRemoved(attributeContainer.wrapperContained); }
-public void applyInstantEffect(yarnwrap.entity.Entity source,yarnwrap.entity.Entity attacker,yarnwrap.entity.LivingEntity target,int amplifier,double proximity) { wrapperContained.applyInstantEffect(source.wrapperContained,attacker.wrapperContained,target.wrapperContained,amplifier,proximity); }
-// public static void applyInstantEffect(yarnwrap.entity.Entity source,yarnwrap.entity.Entity attacker,yarnwrap.entity.LivingEntity target,int amplifier,double proximity, ) { net.minecraft.entity.effect.StatusEffect.applyInstantEffect(source.wrapperContained,attacker.wrapperContained,target.wrapperContained,amplifier,proximity); }
-// public yarnwrap.entity.effect.StatusEffect fadeTicks(int fadeTicks) { return new yarnwrap.entity.effect.StatusEffect(wrapperContained.fadeTicks(fadeTicks)); }
-// // public static yarnwrap.entity.effect.StatusEffect fadeTicks(int fadeTicks, ) { return new yarnwrap.entity.effect.StatusEffect(net.minecraft.entity.effect.StatusEffect.fadeTicks(fadeTicks)); }
-public void forEachAttributeModifier(int amplifier,java.util.function.BiConsumer consumer) { wrapperContained.forEachAttributeModifier(amplifier,consumer); }
-// public static void forEachAttributeModifier(int amplifier,java.util.function.BiConsumer consumer, ) { net.minecraft.entity.effect.StatusEffect.forEachAttributeModifier(amplifier,consumer); }
-// public void method_55651(java.util.function.BiConsumer attribute,int attributeModifierCreator) { wrapperContained.method_55651(attribute,attributeModifierCreator); }
-// public static void method_55651(java.util.function.BiConsumer attribute,int attributeModifierCreator, ) { net.minecraft.entity.effect.StatusEffect.method_55651(attribute,attributeModifierCreator); }
-public int getFadeTicks() { return wrapperContained.getFadeTicks(); }
-// public static int getFadeTicks() { return net.minecraft.entity.effect.StatusEffect.getFadeTicks(); }
+public void applyInstantEffect(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity effectEntity,yarnwrap.entity.Entity attacker,yarnwrap.entity.LivingEntity target,int amplifier,double proximity) { wrapperContained.applyInstantEffect(world.wrapperContained,effectEntity.wrapperContained,attacker.wrapperContained,target.wrapperContained,amplifier,proximity); }
+// public static void applyInstantEffect(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity effectEntity,yarnwrap.entity.Entity attacker,yarnwrap.entity.LivingEntity target,int amplifier,double proximity, ) { net.minecraft.entity.effect.StatusEffect.applyInstantEffect(world.wrapperContained,effectEntity.wrapperContained,attacker.wrapperContained,target.wrapperContained,amplifier,proximity); }
 // public yarnwrap.entity.effect.StatusEffect addAttributeModifier(yarnwrap.registry.entry.RegistryEntry attribute,yarnwrap.util.Identifier id,double amount,Object operation) { return new yarnwrap.entity.effect.StatusEffect(wrapperContained.addAttributeModifier(attribute.wrapperContained,id.wrapperContained,amount,operation)); }
 // public static yarnwrap.entity.effect.StatusEffect addAttributeModifier(yarnwrap.registry.entry.RegistryEntry attribute,yarnwrap.util.Identifier id,double amount,Object operation, ) { return new yarnwrap.entity.effect.StatusEffect(net.minecraft.entity.effect.StatusEffect.addAttributeModifier(attribute.wrapperContained,id.wrapperContained,amount,operation)); }
 public java.lang.String getTranslationKey() { return wrapperContained.getTranslationKey(); }
 // public static java.lang.String getTranslationKey() { return net.minecraft.entity.effect.StatusEffect.getTranslationKey(); }
-public boolean applyUpdateEffect(yarnwrap.entity.LivingEntity entity,int amplifier) { return wrapperContained.applyUpdateEffect(entity.wrapperContained,amplifier); }
-// public static boolean applyUpdateEffect(yarnwrap.entity.LivingEntity entity,int amplifier, ) { return net.minecraft.entity.effect.StatusEffect.applyUpdateEffect(entity.wrapperContained,amplifier); }
+public boolean applyUpdateEffect(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity,int amplifier) { return wrapperContained.applyUpdateEffect(world.wrapperContained,entity.wrapperContained,amplifier); }
+// public static boolean applyUpdateEffect(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity,int amplifier, ) { return net.minecraft.entity.effect.StatusEffect.applyUpdateEffect(world.wrapperContained,entity.wrapperContained,amplifier); }
 public boolean isBeneficial() { return wrapperContained.isBeneficial(); }
 // public static boolean isBeneficial() { return net.minecraft.entity.effect.StatusEffect.isBeneficial(); }
+public yarnwrap.entity.effect.StatusEffectCategory getCategory() { return new yarnwrap.entity.effect.StatusEffectCategory(wrapperContained.getCategory()); }
+// public static yarnwrap.entity.effect.StatusEffectCategory getCategory() { return new yarnwrap.entity.effect.StatusEffectCategory(net.minecraft.entity.effect.StatusEffect.getCategory()); }
+public void onApplied(yarnwrap.entity.LivingEntity entity,int amplifier) { wrapperContained.onApplied(entity.wrapperContained,amplifier); }
+// public static void onApplied(yarnwrap.entity.LivingEntity entity,int amplifier, ) { net.minecraft.entity.effect.StatusEffect.onApplied(entity.wrapperContained,amplifier); }
+public void forEachAttributeModifier(int amplifier,java.util.function.BiConsumer consumer) { wrapperContained.forEachAttributeModifier(amplifier,consumer); }
+// public static void forEachAttributeModifier(int amplifier,java.util.function.BiConsumer consumer, ) { net.minecraft.entity.effect.StatusEffect.forEachAttributeModifier(amplifier,consumer); }
+// public void method_55651(java.util.function.BiConsumer attribute,int attributeModifierCreator) { wrapperContained.method_55651(attribute,attributeModifierCreator); }
+// public static void method_55651(java.util.function.BiConsumer attribute,int attributeModifierCreator, ) { net.minecraft.entity.effect.StatusEffect.method_55651(attribute,attributeModifierCreator); }
 // public yarnwrap.particle.ParticleEffect method_58145(int effect) { return new yarnwrap.particle.ParticleEffect(wrapperContained.method_58145(effect)); }
 // public static yarnwrap.particle.ParticleEffect method_58145(int effect, ) { return new yarnwrap.particle.ParticleEffect(net.minecraft.entity.effect.StatusEffect.method_58145(effect)); }
 public yarnwrap.particle.ParticleEffect createParticle(yarnwrap.entity.effect.StatusEffectInstance effect) { return new yarnwrap.particle.ParticleEffect(wrapperContained.createParticle(effect.wrapperContained)); }
 // public static yarnwrap.particle.ParticleEffect createParticle(yarnwrap.entity.effect.StatusEffectInstance effect, ) { return new yarnwrap.particle.ParticleEffect(net.minecraft.entity.effect.StatusEffect.createParticle(effect.wrapperContained)); }
 // public yarnwrap.particle.ParticleEffect method_58147(yarnwrap.particle.ParticleEffect effect) { return new yarnwrap.particle.ParticleEffect(wrapperContained.method_58147(effect.wrapperContained)); }
 // public static yarnwrap.particle.ParticleEffect method_58147(yarnwrap.particle.ParticleEffect effect, ) { return new yarnwrap.particle.ParticleEffect(net.minecraft.entity.effect.StatusEffect.method_58147(effect.wrapperContained)); }
-public void onEntityDamage(yarnwrap.entity.LivingEntity entity,int amplifier,yarnwrap.entity.damage.DamageSource source,float amount) { wrapperContained.onEntityDamage(entity.wrapperContained,amplifier,source.wrapperContained,amount); }
-// public static void onEntityDamage(yarnwrap.entity.LivingEntity entity,int amplifier,yarnwrap.entity.damage.DamageSource source,float amount, ) { net.minecraft.entity.effect.StatusEffect.onEntityDamage(entity.wrapperContained,amplifier,source.wrapperContained,amount); }
+public void onEntityDamage(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity,int amplifier,yarnwrap.entity.damage.DamageSource source,float amount) { wrapperContained.onEntityDamage(world.wrapperContained,entity.wrapperContained,amplifier,source.wrapperContained,amount); }
+// public static void onEntityDamage(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity,int amplifier,yarnwrap.entity.damage.DamageSource source,float amount, ) { net.minecraft.entity.effect.StatusEffect.onEntityDamage(world.wrapperContained,entity.wrapperContained,amplifier,source.wrapperContained,amount); }
 public yarnwrap.entity.effect.StatusEffect applySound(yarnwrap.sound.SoundEvent sound) { return new yarnwrap.entity.effect.StatusEffect(wrapperContained.applySound(sound.wrapperContained)); }
 // public static yarnwrap.entity.effect.StatusEffect applySound(yarnwrap.sound.SoundEvent sound, ) { return new yarnwrap.entity.effect.StatusEffect(net.minecraft.entity.effect.StatusEffect.applySound(sound.wrapperContained)); }
-// public void onEntityRemoval(yarnwrap.entity.LivingEntity entity,int amplifier,Object reason) { wrapperContained.onEntityRemoval(entity.wrapperContained,amplifier,reason); }
-// public static void onEntityRemoval(yarnwrap.entity.LivingEntity entity,int amplifier,Object reason, ) { net.minecraft.entity.effect.StatusEffect.onEntityRemoval(entity.wrapperContained,amplifier,reason); }
+// public void onEntityRemoval(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity,int amplifier,Object reason) { wrapperContained.onEntityRemoval(world.wrapperContained,entity.wrapperContained,amplifier,reason); }
+// public static void onEntityRemoval(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity entity,int amplifier,Object reason, ) { net.minecraft.entity.effect.StatusEffect.onEntityRemoval(world.wrapperContained,entity.wrapperContained,amplifier,reason); }
 // public void method_58618(yarnwrap.entity.LivingEntity sound) { wrapperContained.method_58618(sound.wrapperContained); }
 // public static void method_58618(yarnwrap.entity.LivingEntity sound, ) { net.minecraft.entity.effect.StatusEffect.method_58618(sound.wrapperContained); }
 public yarnwrap.entity.effect.StatusEffect requires(net.minecraft.resource.featuretoggle.FeatureFlag[] requiredFeatures) { return new yarnwrap.entity.effect.StatusEffect(wrapperContained.requires(requiredFeatures)); }
 // public static yarnwrap.entity.effect.StatusEffect requires(net.minecraft.resource.featuretoggle.FeatureFlag[] requiredFeatures, ) { return new yarnwrap.entity.effect.StatusEffect(net.minecraft.entity.effect.StatusEffect.requires(requiredFeatures)); }
 public void playApplySound(yarnwrap.entity.LivingEntity entity,int amplifier) { wrapperContained.playApplySound(entity.wrapperContained,amplifier); }
 // public static void playApplySound(yarnwrap.entity.LivingEntity entity,int amplifier, ) { net.minecraft.entity.effect.StatusEffect.playApplySound(entity.wrapperContained,amplifier); }
+public yarnwrap.entity.effect.StatusEffect fadeTicks(int fadeTicks) { return new yarnwrap.entity.effect.StatusEffect(wrapperContained.fadeTicks(fadeTicks)); }
+// public static yarnwrap.entity.effect.StatusEffect fadeTicks(int fadeTicks, ) { return new yarnwrap.entity.effect.StatusEffect(net.minecraft.entity.effect.StatusEffect.fadeTicks(fadeTicks)); }
+public yarnwrap.entity.effect.StatusEffect fadeTicks(int fadeInTicks,int fadeOutTicks,int fadeOutThresholdTicks) { return new yarnwrap.entity.effect.StatusEffect(wrapperContained.fadeTicks(fadeInTicks,fadeOutTicks,fadeOutThresholdTicks)); }
+// public static yarnwrap.entity.effect.StatusEffect fadeTicks(int fadeInTicks,int fadeOutTicks,int fadeOutThresholdTicks, ) { return new yarnwrap.entity.effect.StatusEffect(net.minecraft.entity.effect.StatusEffect.fadeTicks(fadeInTicks,fadeOutTicks,fadeOutThresholdTicks)); }
+public int getFadeInTicks() { return wrapperContained.getFadeInTicks(); }
+// public static int getFadeInTicks() { return net.minecraft.entity.effect.StatusEffect.getFadeInTicks(); }
+public int getFadeOutTicks() { return wrapperContained.getFadeOutTicks(); }
+// public static int getFadeOutTicks() { return net.minecraft.entity.effect.StatusEffect.getFadeOutTicks(); }
+public int getFadeOutThresholdTicks() { return wrapperContained.getFadeOutThresholdTicks(); }
+// public static int getFadeOutThresholdTicks() { return net.minecraft.entity.effect.StatusEffect.getFadeOutThresholdTicks(); }
 
 }

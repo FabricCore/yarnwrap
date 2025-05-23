@@ -11,10 +11,10 @@ public class BufferBuilder { public net.minecraft.client.render.BufferBuilder wr
 // public static boolean building() { return net.minecraft.client.render.BufferBuilder.building; }
 // public static void building(boolean value, ) { net.minecraft.client.render.BufferBuilder.building = value; }
 
-// public yarnwrap.client.render.VertexFormat format() { return new yarnwrap.client.render.VertexFormat(wrapperContained.format); }
-// public void format(yarnwrap.client.render.VertexFormat value) { wrapperContained.format = value.wrapperContained; }
-// public static yarnwrap.client.render.VertexFormat format() { return new yarnwrap.client.render.VertexFormat(net.minecraft.client.render.BufferBuilder.format); }
-// public static void format(yarnwrap.client.render.VertexFormat value, ) { net.minecraft.client.render.BufferBuilder.format = value.wrapperContained; }
+// public com.mojang.blaze3d.vertex.VertexFormat vertexFormat() { return wrapperContained.vertexFormat; }
+// public void vertexFormat(com.mojang.blaze3d.vertex.VertexFormat value) { wrapperContained.vertexFormat = value; }
+// public static com.mojang.blaze3d.vertex.VertexFormat vertexFormat() { return net.minecraft.client.render.BufferBuilder.vertexFormat; }
+// public static void vertexFormat(com.mojang.blaze3d.vertex.VertexFormat value, ) { net.minecraft.client.render.BufferBuilder.vertexFormat = value; }
 
 // public boolean canSkipElementChecks() { return wrapperContained.canSkipElementChecks; }
 // public void canSkipElementChecks(boolean value) { wrapperContained.canSkipElementChecks = value; }
@@ -66,17 +66,17 @@ public class BufferBuilder { public net.minecraft.client.render.BufferBuilder wr
 // public static int currentMask() { return net.minecraft.client.render.BufferBuilder.currentMask; }
 // public static void currentMask(int value, ) { net.minecraft.client.render.BufferBuilder.currentMask = value; }
 
-// public BufferBuilder(yarnwrap.client.util.BufferAllocator allocator,Object drawMode,yarnwrap.client.render.VertexFormat format) { this.wrapperContained = new net.minecraft.client.render.BufferBuilder(allocator.wrapperContained,drawMode,format.wrapperContained); }
+// public BufferBuilder(yarnwrap.client.util.BufferAllocator allocator,Object drawMode,com.mojang.blaze3d.vertex.VertexFormat vertexFormat) { this.wrapperContained = new net.minecraft.client.render.BufferBuilder(allocator.wrapperContained,drawMode,vertexFormat); }
 public yarnwrap.client.render.BuiltBuffer endNullable() { return new yarnwrap.client.render.BuiltBuffer(wrapperContained.endNullable()); }
 // public static yarnwrap.client.render.BuiltBuffer endNullable() { return new yarnwrap.client.render.BuiltBuffer(net.minecraft.client.render.BufferBuilder.endNullable()); }
 // public byte floatToByte(float f) { return wrapperContained.floatToByte(f); }
 // public static byte floatToByte(float f, ) { return net.minecraft.client.render.BufferBuilder.floatToByte(f); }
 // public void putColor(long pointer,int argb) { wrapperContained.putColor(pointer,argb); }
 // public static void putColor(long pointer,int argb, ) { net.minecraft.client.render.BufferBuilder.putColor(pointer,argb); }
-// public long beginElement(yarnwrap.client.render.VertexFormatElement element) { return wrapperContained.beginElement(element.wrapperContained); }
-// public static long beginElement(yarnwrap.client.render.VertexFormatElement element, ) { return net.minecraft.client.render.BufferBuilder.beginElement(element.wrapperContained); }
-// public yarnwrap.client.render.VertexConsumer putUv(short u,short v,yarnwrap.client.render.VertexFormatElement element) { return new yarnwrap.client.render.VertexConsumer(wrapperContained.putUv(u,v,element.wrapperContained)); }
-// public static yarnwrap.client.render.VertexConsumer putUv(short u,short v,yarnwrap.client.render.VertexFormatElement element, ) { return new yarnwrap.client.render.VertexConsumer(net.minecraft.client.render.BufferBuilder.putUv(u,v,element.wrapperContained)); }
+// public long beginElement(com.mojang.blaze3d.vertex.VertexFormatElement element) { return wrapperContained.beginElement(element); }
+// public static long beginElement(com.mojang.blaze3d.vertex.VertexFormatElement element, ) { return net.minecraft.client.render.BufferBuilder.beginElement(element); }
+// public yarnwrap.client.render.VertexConsumer uv(short u,short v,com.mojang.blaze3d.vertex.VertexFormatElement element) { return new yarnwrap.client.render.VertexConsumer(wrapperContained.uv(u,v,element)); }
+// public static yarnwrap.client.render.VertexConsumer uv(short u,short v,com.mojang.blaze3d.vertex.VertexFormatElement element, ) { return new yarnwrap.client.render.VertexConsumer(net.minecraft.client.render.BufferBuilder.uv(u,v,element)); }
 public yarnwrap.client.render.BuiltBuffer end() { return new yarnwrap.client.render.BuiltBuffer(wrapperContained.end()); }
 // public static yarnwrap.client.render.BuiltBuffer end() { return new yarnwrap.client.render.BuiltBuffer(net.minecraft.client.render.BufferBuilder.end()); }
 // public void putInt(long pointer,int i) { wrapperContained.putInt(pointer,i); }

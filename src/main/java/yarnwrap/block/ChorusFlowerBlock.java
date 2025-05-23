@@ -27,10 +27,6 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.ChorusFlowerBlock.CODEC = value; }
 
 // public ChorusFlowerBlock(yarnwrap.block.Block plantBlock,Object settings) { this.wrapperContained = new net.minecraft.block.ChorusFlowerBlock(plantBlock.wrapperContained,settings); }
-// public com.mojang.datafixers.kinds.App method_53994(Object instance) { return wrapperContained.method_53994(instance); }
-// public static com.mojang.datafixers.kinds.App method_53994(Object instance, ) { return net.minecraft.block.ChorusFlowerBlock.method_53994(instance); }
-// public yarnwrap.block.Block method_53995(yarnwrap.block.ChorusFlowerBlock block) { return new yarnwrap.block.Block(wrapperContained.method_53995(block.wrapperContained)); }
-// public static yarnwrap.block.Block method_53995(yarnwrap.block.ChorusFlowerBlock block, ) { return new yarnwrap.block.Block(net.minecraft.block.ChorusFlowerBlock.method_53995(block.wrapperContained)); }
 // public void generate(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random,int size) { wrapperContained.generate(world.wrapperContained,pos.wrapperContained,random.wrapperContained,size); }
 // public static void generate(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random,int size, ) { net.minecraft.block.ChorusFlowerBlock.generate(world.wrapperContained,pos.wrapperContained,random.wrapperContained,size); }
 // public void grow(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,int age) { wrapperContained.grow(world.wrapperContained,pos.wrapperContained,age); }
@@ -41,5 +37,9 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static void die(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.ChorusFlowerBlock.die(world.wrapperContained,pos.wrapperContained); }
 // public void generate(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos rootPos,int size,int layer) { wrapperContained.generate(world.wrapperContained,pos.wrapperContained,random.wrapperContained,rootPos.wrapperContained,size,layer); }
 // public static void generate(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos rootPos,int size,int layer, ) { net.minecraft.block.ChorusFlowerBlock.generate(world.wrapperContained,pos.wrapperContained,random.wrapperContained,rootPos.wrapperContained,size,layer); }
+// public com.mojang.datafixers.kinds.App method_53994(Object instance) { return wrapperContained.method_53994(instance); }
+// public static com.mojang.datafixers.kinds.App method_53994(Object instance, ) { return net.minecraft.block.ChorusFlowerBlock.method_53994(instance); }
+// public yarnwrap.block.Block method_53995(yarnwrap.block.ChorusFlowerBlock block) { return new yarnwrap.block.Block(wrapperContained.method_53995(block.wrapperContained)); }
+// public static yarnwrap.block.Block method_53995(yarnwrap.block.ChorusFlowerBlock block, ) { return new yarnwrap.block.Block(net.minecraft.block.ChorusFlowerBlock.method_53995(block.wrapperContained)); }
 
 }

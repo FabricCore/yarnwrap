@@ -1,81 +1,6 @@
 package yarnwrap.world.updater;
 public class WorldUpdater { public net.minecraft.world.updater.WorldUpdater wrapperContained; public WorldUpdater(net.minecraft.world.updater.WorldUpdater wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.regex.Pattern REGION_FILE_PATTERN() { return wrapperContained.REGION_FILE_PATTERN; }
-// public void REGION_FILE_PATTERN(java.util.regex.Pattern value) { wrapperContained.REGION_FILE_PATTERN = value; }
-// public static java.util.regex.Pattern REGION_FILE_PATTERN() { return net.minecraft.world.updater.WorldUpdater.REGION_FILE_PATTERN; }
-// public static void REGION_FILE_PATTERN(java.util.regex.Pattern value, ) { net.minecraft.world.updater.WorldUpdater.REGION_FILE_PATTERN = value; }
-
-// public boolean eraseCache() { return wrapperContained.eraseCache; }
-// public void eraseCache(boolean value) { wrapperContained.eraseCache = value; }
-// public static boolean eraseCache() { return net.minecraft.world.updater.WorldUpdater.eraseCache; }
-// public static void eraseCache(boolean value, ) { net.minecraft.world.updater.WorldUpdater.eraseCache = value; }
-
-// public Object session() { return wrapperContained.session; }
-// // public void session(Object value) { wrapperContained.session = value; }
-// // public static Object session() { return net.minecraft.world.updater.WorldUpdater.session; }
-// // public static void session(Object value, ) { net.minecraft.world.updater.WorldUpdater.session = value; }
-
-// public com.mojang.datafixers.DataFixer dataFixer() { return wrapperContained.dataFixer; }
-// public void dataFixer(com.mojang.datafixers.DataFixer value) { wrapperContained.dataFixer = value; }
-// public static com.mojang.datafixers.DataFixer dataFixer() { return net.minecraft.world.updater.WorldUpdater.dataFixer; }
-// public static void dataFixer(com.mojang.datafixers.DataFixer value, ) { net.minecraft.world.updater.WorldUpdater.dataFixer = value; }
-
-// public yarnwrap.registry.Registry dimensionOptionsRegistry() { return new yarnwrap.registry.Registry(wrapperContained.dimensionOptionsRegistry); }
-// public void dimensionOptionsRegistry(yarnwrap.registry.Registry value) { wrapperContained.dimensionOptionsRegistry = value.wrapperContained; }
-// public static yarnwrap.registry.Registry dimensionOptionsRegistry() { return new yarnwrap.registry.Registry(net.minecraft.world.updater.WorldUpdater.dimensionOptionsRegistry); }
-// public static void dimensionOptionsRegistry(yarnwrap.registry.Registry value, ) { net.minecraft.world.updater.WorldUpdater.dimensionOptionsRegistry = value.wrapperContained; }
-
-// public java.util.Set worldKeys() { return wrapperContained.worldKeys; }
-// public void worldKeys(java.util.Set value) { wrapperContained.worldKeys = value; }
-// public static java.util.Set worldKeys() { return net.minecraft.world.updater.WorldUpdater.worldKeys; }
-// public static void worldKeys(java.util.Set value, ) { net.minecraft.world.updater.WorldUpdater.worldKeys = value; }
-
-// public java.lang.String NEW_PREFIX() { return wrapperContained.NEW_PREFIX; }
-// public void NEW_PREFIX(java.lang.String value) { wrapperContained.NEW_PREFIX = value; }
-// public static java.lang.String NEW_PREFIX() { return net.minecraft.world.updater.WorldUpdater.NEW_PREFIX; }
-// public static void NEW_PREFIX(java.lang.String value, ) { net.minecraft.world.updater.WorldUpdater.NEW_PREFIX = value; }
-
-// public yarnwrap.text.MutableText UPGRADING_POI_TEXT() { return new yarnwrap.text.MutableText(wrapperContained.UPGRADING_POI_TEXT); }
-// public void UPGRADING_POI_TEXT(yarnwrap.text.MutableText value) { wrapperContained.UPGRADING_POI_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.MutableText UPGRADING_POI_TEXT() { return new yarnwrap.text.MutableText(net.minecraft.world.updater.WorldUpdater.UPGRADING_POI_TEXT); }
-// public static void UPGRADING_POI_TEXT(yarnwrap.text.MutableText value, ) { net.minecraft.world.updater.WorldUpdater.UPGRADING_POI_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.MutableText FINISHED_POI_TEXT() { return new yarnwrap.text.MutableText(wrapperContained.FINISHED_POI_TEXT); }
-// public void FINISHED_POI_TEXT(yarnwrap.text.MutableText value) { wrapperContained.FINISHED_POI_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.MutableText FINISHED_POI_TEXT() { return new yarnwrap.text.MutableText(net.minecraft.world.updater.WorldUpdater.FINISHED_POI_TEXT); }
-// public static void FINISHED_POI_TEXT(yarnwrap.text.MutableText value, ) { net.minecraft.world.updater.WorldUpdater.FINISHED_POI_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.MutableText UPGRADING_ENTITIES_TEXT() { return new yarnwrap.text.MutableText(wrapperContained.UPGRADING_ENTITIES_TEXT); }
-// public void UPGRADING_ENTITIES_TEXT(yarnwrap.text.MutableText value) { wrapperContained.UPGRADING_ENTITIES_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.MutableText UPGRADING_ENTITIES_TEXT() { return new yarnwrap.text.MutableText(net.minecraft.world.updater.WorldUpdater.UPGRADING_ENTITIES_TEXT); }
-// public static void UPGRADING_ENTITIES_TEXT(yarnwrap.text.MutableText value, ) { net.minecraft.world.updater.WorldUpdater.UPGRADING_ENTITIES_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.MutableText FINISHED_ENTITIES_TEXT() { return new yarnwrap.text.MutableText(wrapperContained.FINISHED_ENTITIES_TEXT); }
-// public void FINISHED_ENTITIES_TEXT(yarnwrap.text.MutableText value) { wrapperContained.FINISHED_ENTITIES_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.MutableText FINISHED_ENTITIES_TEXT() { return new yarnwrap.text.MutableText(net.minecraft.world.updater.WorldUpdater.FINISHED_ENTITIES_TEXT); }
-// public static void FINISHED_ENTITIES_TEXT(yarnwrap.text.MutableText value, ) { net.minecraft.world.updater.WorldUpdater.FINISHED_ENTITIES_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.MutableText UPGRADING_CHUNKS_TEXT() { return new yarnwrap.text.MutableText(wrapperContained.UPGRADING_CHUNKS_TEXT); }
-// public void UPGRADING_CHUNKS_TEXT(yarnwrap.text.MutableText value) { wrapperContained.UPGRADING_CHUNKS_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.MutableText UPGRADING_CHUNKS_TEXT() { return new yarnwrap.text.MutableText(net.minecraft.world.updater.WorldUpdater.UPGRADING_CHUNKS_TEXT); }
-// public static void UPGRADING_CHUNKS_TEXT(yarnwrap.text.MutableText value, ) { net.minecraft.world.updater.WorldUpdater.UPGRADING_CHUNKS_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.MutableText FINISHED_CHUNKS_TEXT() { return new yarnwrap.text.MutableText(wrapperContained.FINISHED_CHUNKS_TEXT); }
-// public void FINISHED_CHUNKS_TEXT(yarnwrap.text.MutableText value) { wrapperContained.FINISHED_CHUNKS_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.MutableText FINISHED_CHUNKS_TEXT() { return new yarnwrap.text.MutableText(net.minecraft.world.updater.WorldUpdater.FINISHED_CHUNKS_TEXT); }
-// public static void FINISHED_CHUNKS_TEXT(yarnwrap.text.MutableText value, ) { net.minecraft.world.updater.WorldUpdater.FINISHED_CHUNKS_TEXT = value.wrapperContained; }
-
-// public boolean recreateRegionFiles() { return wrapperContained.recreateRegionFiles; }
-// public void recreateRegionFiles(boolean value) { wrapperContained.recreateRegionFiles = value; }
-// public static boolean recreateRegionFiles() { return net.minecraft.world.updater.WorldUpdater.recreateRegionFiles; }
-// public static void recreateRegionFiles(boolean value, ) { net.minecraft.world.updater.WorldUpdater.recreateRegionFiles = value; }
-
-// public int totalRegionCount() { return wrapperContained.totalRegionCount; }
-// public void totalRegionCount(int value) { wrapperContained.totalRegionCount = value; }
-// public static int totalRegionCount() { return net.minecraft.world.updater.WorldUpdater.totalRegionCount; }
-// public static void totalRegionCount(int value, ) { net.minecraft.world.updater.WorldUpdater.totalRegionCount = value; }
-
 // public yarnwrap.world.PersistentStateManager persistentStateManager() { return new yarnwrap.world.PersistentStateManager(wrapperContained.persistentStateManager); }
 // public void persistentStateManager(yarnwrap.world.PersistentStateManager value) { wrapperContained.persistentStateManager = value.wrapperContained; }
 // public static yarnwrap.world.PersistentStateManager persistentStateManager() { return new yarnwrap.world.PersistentStateManager(net.minecraft.world.updater.WorldUpdater.persistentStateManager); }
@@ -136,9 +61,82 @@ public class WorldUpdater { public net.minecraft.world.updater.WorldUpdater wrap
 // public static int totalChunkCount() { return net.minecraft.world.updater.WorldUpdater.totalChunkCount; }
 // public static void totalChunkCount(int value, ) { net.minecraft.world.updater.WorldUpdater.totalChunkCount = value; }
 
-// public WorldUpdater(Object session,com.mojang.datafixers.DataFixer dataFixer,yarnwrap.registry.DynamicRegistryManager dynamicRegistryManager,boolean eraseCache,boolean recreateRegionFiles) { this.wrapperContained = new net.minecraft.world.updater.WorldUpdater(session,dataFixer,dynamicRegistryManager.wrapperContained,eraseCache,recreateRegionFiles); }
-public java.util.Set getWorlds() { return wrapperContained.getWorlds(); }
-// public static java.util.Set getWorlds() { return net.minecraft.world.updater.WorldUpdater.getWorlds(); }
+// public java.util.regex.Pattern REGION_FILE_PATTERN() { return wrapperContained.REGION_FILE_PATTERN; }
+// public void REGION_FILE_PATTERN(java.util.regex.Pattern value) { wrapperContained.REGION_FILE_PATTERN = value; }
+// public static java.util.regex.Pattern REGION_FILE_PATTERN() { return net.minecraft.world.updater.WorldUpdater.REGION_FILE_PATTERN; }
+// public static void REGION_FILE_PATTERN(java.util.regex.Pattern value, ) { net.minecraft.world.updater.WorldUpdater.REGION_FILE_PATTERN = value; }
+
+// public boolean eraseCache() { return wrapperContained.eraseCache; }
+// public void eraseCache(boolean value) { wrapperContained.eraseCache = value; }
+// public static boolean eraseCache() { return net.minecraft.world.updater.WorldUpdater.eraseCache; }
+// public static void eraseCache(boolean value, ) { net.minecraft.world.updater.WorldUpdater.eraseCache = value; }
+
+// public Object session() { return wrapperContained.session; }
+// // public void session(Object value) { wrapperContained.session = value; }
+// // public static Object session() { return net.minecraft.world.updater.WorldUpdater.session; }
+// // public static void session(Object value, ) { net.minecraft.world.updater.WorldUpdater.session = value; }
+
+// public com.mojang.datafixers.DataFixer dataFixer() { return wrapperContained.dataFixer; }
+// public void dataFixer(com.mojang.datafixers.DataFixer value) { wrapperContained.dataFixer = value; }
+// public static com.mojang.datafixers.DataFixer dataFixer() { return net.minecraft.world.updater.WorldUpdater.dataFixer; }
+// public static void dataFixer(com.mojang.datafixers.DataFixer value, ) { net.minecraft.world.updater.WorldUpdater.dataFixer = value; }
+
+// public yarnwrap.registry.Registry dimensionOptionsRegistry() { return new yarnwrap.registry.Registry(wrapperContained.dimensionOptionsRegistry); }
+// public void dimensionOptionsRegistry(yarnwrap.registry.Registry value) { wrapperContained.dimensionOptionsRegistry = value.wrapperContained; }
+// public static yarnwrap.registry.Registry dimensionOptionsRegistry() { return new yarnwrap.registry.Registry(net.minecraft.world.updater.WorldUpdater.dimensionOptionsRegistry); }
+// public static void dimensionOptionsRegistry(yarnwrap.registry.Registry value, ) { net.minecraft.world.updater.WorldUpdater.dimensionOptionsRegistry = value.wrapperContained; }
+
+// public java.util.Set worldKeys() { return wrapperContained.worldKeys; }
+// public void worldKeys(java.util.Set value) { wrapperContained.worldKeys = value; }
+// public static java.util.Set worldKeys() { return net.minecraft.world.updater.WorldUpdater.worldKeys; }
+// public static void worldKeys(java.util.Set value, ) { net.minecraft.world.updater.WorldUpdater.worldKeys = value; }
+
+// public java.lang.String NEW_PREFIX() { return wrapperContained.NEW_PREFIX; }
+// public void NEW_PREFIX(java.lang.String value) { wrapperContained.NEW_PREFIX = value; }
+// public static java.lang.String NEW_PREFIX() { return net.minecraft.world.updater.WorldUpdater.NEW_PREFIX; }
+// public static void NEW_PREFIX(java.lang.String value, ) { net.minecraft.world.updater.WorldUpdater.NEW_PREFIX = value; }
+
+// public yarnwrap.text.Text UPGRADING_POI_TEXT() { return new yarnwrap.text.Text(wrapperContained.UPGRADING_POI_TEXT); }
+// public void UPGRADING_POI_TEXT(yarnwrap.text.Text value) { wrapperContained.UPGRADING_POI_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text UPGRADING_POI_TEXT() { return new yarnwrap.text.Text(net.minecraft.world.updater.WorldUpdater.UPGRADING_POI_TEXT); }
+// public static void UPGRADING_POI_TEXT(yarnwrap.text.Text value, ) { net.minecraft.world.updater.WorldUpdater.UPGRADING_POI_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text FINISHED_POI_TEXT() { return new yarnwrap.text.Text(wrapperContained.FINISHED_POI_TEXT); }
+// public void FINISHED_POI_TEXT(yarnwrap.text.Text value) { wrapperContained.FINISHED_POI_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text FINISHED_POI_TEXT() { return new yarnwrap.text.Text(net.minecraft.world.updater.WorldUpdater.FINISHED_POI_TEXT); }
+// public static void FINISHED_POI_TEXT(yarnwrap.text.Text value, ) { net.minecraft.world.updater.WorldUpdater.FINISHED_POI_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text UPGRADING_ENTITIES_TEXT() { return new yarnwrap.text.Text(wrapperContained.UPGRADING_ENTITIES_TEXT); }
+// public void UPGRADING_ENTITIES_TEXT(yarnwrap.text.Text value) { wrapperContained.UPGRADING_ENTITIES_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text UPGRADING_ENTITIES_TEXT() { return new yarnwrap.text.Text(net.minecraft.world.updater.WorldUpdater.UPGRADING_ENTITIES_TEXT); }
+// public static void UPGRADING_ENTITIES_TEXT(yarnwrap.text.Text value, ) { net.minecraft.world.updater.WorldUpdater.UPGRADING_ENTITIES_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text FINISHED_ENTITIES_TEXT() { return new yarnwrap.text.Text(wrapperContained.FINISHED_ENTITIES_TEXT); }
+// public void FINISHED_ENTITIES_TEXT(yarnwrap.text.Text value) { wrapperContained.FINISHED_ENTITIES_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text FINISHED_ENTITIES_TEXT() { return new yarnwrap.text.Text(net.minecraft.world.updater.WorldUpdater.FINISHED_ENTITIES_TEXT); }
+// public static void FINISHED_ENTITIES_TEXT(yarnwrap.text.Text value, ) { net.minecraft.world.updater.WorldUpdater.FINISHED_ENTITIES_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text UPGRADING_CHUNKS_TEXT() { return new yarnwrap.text.Text(wrapperContained.UPGRADING_CHUNKS_TEXT); }
+// public void UPGRADING_CHUNKS_TEXT(yarnwrap.text.Text value) { wrapperContained.UPGRADING_CHUNKS_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text UPGRADING_CHUNKS_TEXT() { return new yarnwrap.text.Text(net.minecraft.world.updater.WorldUpdater.UPGRADING_CHUNKS_TEXT); }
+// public static void UPGRADING_CHUNKS_TEXT(yarnwrap.text.Text value, ) { net.minecraft.world.updater.WorldUpdater.UPGRADING_CHUNKS_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text FINISHED_CHUNKS_TEXT() { return new yarnwrap.text.Text(wrapperContained.FINISHED_CHUNKS_TEXT); }
+// public void FINISHED_CHUNKS_TEXT(yarnwrap.text.Text value) { wrapperContained.FINISHED_CHUNKS_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text FINISHED_CHUNKS_TEXT() { return new yarnwrap.text.Text(net.minecraft.world.updater.WorldUpdater.FINISHED_CHUNKS_TEXT); }
+// public static void FINISHED_CHUNKS_TEXT(yarnwrap.text.Text value, ) { net.minecraft.world.updater.WorldUpdater.FINISHED_CHUNKS_TEXT = value.wrapperContained; }
+
+// public boolean recreateRegionFiles() { return wrapperContained.recreateRegionFiles; }
+// public void recreateRegionFiles(boolean value) { wrapperContained.recreateRegionFiles = value; }
+// public static boolean recreateRegionFiles() { return net.minecraft.world.updater.WorldUpdater.recreateRegionFiles; }
+// public static void recreateRegionFiles(boolean value, ) { net.minecraft.world.updater.WorldUpdater.recreateRegionFiles = value; }
+
+// public int totalRegionCount() { return wrapperContained.totalRegionCount; }
+// public void totalRegionCount(int value) { wrapperContained.totalRegionCount = value; }
+// public static int totalRegionCount() { return net.minecraft.world.updater.WorldUpdater.totalRegionCount; }
+// public static void totalRegionCount(int value, ) { net.minecraft.world.updater.WorldUpdater.totalRegionCount = value; }
+
+// public WorldUpdater(Object session,com.mojang.datafixers.DataFixer dataFixer,yarnwrap.world.SaveProperties saveProperties,yarnwrap.registry.DynamicRegistryManager registries,boolean eraseCache,boolean recreateRegionFiles) { this.wrapperContained = new net.minecraft.world.updater.WorldUpdater(session,dataFixer,saveProperties.wrapperContained,registries.wrapperContained,eraseCache,recreateRegionFiles); }
 public float getProgress(yarnwrap.registry.RegistryKey world) { return wrapperContained.getProgress(world.wrapperContained); }
 // public static float getProgress(yarnwrap.registry.RegistryKey world, ) { return net.minecraft.world.updater.WorldUpdater.getProgress(world.wrapperContained); }
 public yarnwrap.text.Text getStatus() { return new yarnwrap.text.Text(wrapperContained.getStatus()); }
@@ -159,6 +157,8 @@ public boolean isDone() { return wrapperContained.isDone(); }
 // public static boolean isDone() { return net.minecraft.world.updater.WorldUpdater.isDone(); }
 // public void updateWorld() { wrapperContained.updateWorld(); }
 // public static void updateWorld() { net.minecraft.world.updater.WorldUpdater.updateWorld(); }
+public java.util.Set getWorlds() { return wrapperContained.getWorlds(); }
+// public static java.util.Set getWorlds() { return net.minecraft.world.updater.WorldUpdater.getWorlds(); }
 // public java.nio.file.Path getNewDirectoryPath(java.nio.file.Path current) { return wrapperContained.getNewDirectoryPath(current); }
 // public static java.nio.file.Path getNewDirectoryPath(java.nio.file.Path current, ) { return net.minecraft.world.updater.WorldUpdater.getNewDirectoryPath(current); }
 

@@ -18,15 +18,13 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 
 // public Sherds(java.util.List sherds) { this.wrapperContained = new net.minecraft.block.entity.Sherds(sherds); }
 public Sherds(yarnwrap.item.Item back,yarnwrap.item.Item left,yarnwrap.item.Item right,yarnwrap.item.Item front) { this.wrapperContained = new net.minecraft.block.entity.Sherds(back.wrapperContained,left.wrapperContained,right.wrapperContained,front.wrapperContained); }
-public java.util.List stream() { return wrapperContained.stream(); }
-// public static java.util.List stream() { return net.minecraft.block.entity.Sherds.stream(); }
-public yarnwrap.nbt.NbtCompound toNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt(nbt.wrapperContained)); }
-// public static yarnwrap.nbt.NbtCompound toNbt(yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.block.entity.Sherds.toNbt(nbt.wrapperContained)); }
+public java.util.List toList() { return wrapperContained.toList(); }
+// public static java.util.List toList() { return net.minecraft.block.entity.Sherds.toList(); }
 // public java.util.Optional getSherd(java.util.List sherds,int index) { return wrapperContained.getSherd(sherds,index); }
 // public static java.util.Optional getSherd(java.util.List sherds,int index, ) { return net.minecraft.block.entity.Sherds.getSherd(sherds,index); }
-// public yarnwrap.block.entity.Sherds fromNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.block.entity.Sherds(wrapperContained.fromNbt(nbt.wrapperContained)); }
-// public static yarnwrap.block.entity.Sherds fromNbt(yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.block.entity.Sherds(net.minecraft.block.entity.Sherds.fromNbt(nbt.wrapperContained)); }
 // public yarnwrap.item.Item method_57592(java.util.Optional item) { return new yarnwrap.item.Item(wrapperContained.method_57592(item)); }
 // public static yarnwrap.item.Item method_57592(java.util.Optional item, ) { return new yarnwrap.item.Item(net.minecraft.block.entity.Sherds.method_57592(item)); }
+// public void appendSherdTooltip(java.util.function.Consumer textConsumer,java.util.Optional sherdItem) { wrapperContained.appendSherdTooltip(textConsumer,sherdItem); }
+// public static void appendSherdTooltip(java.util.function.Consumer textConsumer,java.util.Optional sherdItem, ) { net.minecraft.block.entity.Sherds.appendSherdTooltip(textConsumer,sherdItem); }
 
 }

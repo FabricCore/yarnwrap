@@ -21,5 +21,7 @@ public DedicatedServerWatchdog(yarnwrap.server.dedicated.MinecraftDedicatedServe
 // public static void shutdown() { net.minecraft.server.dedicated.DedicatedServerWatchdog.shutdown(); }
 // public java.lang.String method_31376(yarnwrap.server.world.ServerWorld world) { return wrapperContained.method_31376(world.wrapperContained); }
 // public static java.lang.String method_31376(yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.server.dedicated.DedicatedServerWatchdog.method_31376(world.wrapperContained); }
+// public yarnwrap.util.crash.CrashReport createCrashReport(java.lang.String message,long threadId) { return new yarnwrap.util.crash.CrashReport(wrapperContained.createCrashReport(message,threadId)); }
+// public static yarnwrap.util.crash.CrashReport createCrashReport(java.lang.String message,long threadId, ) { return new yarnwrap.util.crash.CrashReport(net.minecraft.server.dedicated.DedicatedServerWatchdog.createCrashReport(message,threadId)); }
 
 }

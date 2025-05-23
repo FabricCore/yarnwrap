@@ -6,10 +6,10 @@ public class GenerationSettings { public net.minecraft.world.biome.GenerationSet
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.world.biome.GenerationSettings.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.world.biome.GenerationSettings.CODEC = value; }
 
-// public java.util.Map carvers() { return wrapperContained.carvers; }
-// public void carvers(java.util.Map value) { wrapperContained.carvers = value; }
-// public static java.util.Map carvers() { return net.minecraft.world.biome.GenerationSettings.carvers; }
-// public static void carvers(java.util.Map value, ) { net.minecraft.world.biome.GenerationSettings.carvers = value; }
+// public yarnwrap.registry.entry.RegistryEntryList carvers() { return new yarnwrap.registry.entry.RegistryEntryList(wrapperContained.carvers); }
+// public void carvers(yarnwrap.registry.entry.RegistryEntryList value) { wrapperContained.carvers = value.wrapperContained; }
+// public static yarnwrap.registry.entry.RegistryEntryList carvers() { return new yarnwrap.registry.entry.RegistryEntryList(net.minecraft.world.biome.GenerationSettings.carvers); }
+// public static void carvers(yarnwrap.registry.entry.RegistryEntryList value, ) { net.minecraft.world.biome.GenerationSettings.carvers = value.wrapperContained; }
 
 // public java.util.List features() { return wrapperContained.features; }
 // public void features(java.util.List value) { wrapperContained.features = value; }
@@ -36,15 +36,15 @@ public static yarnwrap.world.biome.GenerationSettings INSTANCE() { return new ya
 // public static java.util.function.Supplier allowedFeatures() { return net.minecraft.world.biome.GenerationSettings.allowedFeatures; }
 // public static void allowedFeatures(java.util.function.Supplier value, ) { net.minecraft.world.biome.GenerationSettings.allowedFeatures = value; }
 
-// public GenerationSettings(java.util.Map carvers,java.util.List features) { this.wrapperContained = new net.minecraft.world.biome.GenerationSettings(carvers,features); }
+// public GenerationSettings(yarnwrap.registry.entry.RegistryEntryList carvers,java.util.List features) { this.wrapperContained = new net.minecraft.world.biome.GenerationSettings(carvers.wrapperContained,features); }
 // public com.mojang.datafixers.kinds.App method_30802(Object instance) { return wrapperContained.method_30802(instance); }
 // public static com.mojang.datafixers.kinds.App method_30802(Object instance, ) { return net.minecraft.world.biome.GenerationSettings.method_30802(instance); }
-// public java.util.Map method_30808(yarnwrap.world.biome.GenerationSettings generationSettings) { return wrapperContained.method_30808(generationSettings.wrapperContained); }
-// public static java.util.Map method_30808(yarnwrap.world.biome.GenerationSettings generationSettings, ) { return net.minecraft.world.biome.GenerationSettings.method_30808(generationSettings.wrapperContained); }
+// public yarnwrap.registry.entry.RegistryEntryList method_30808(yarnwrap.world.biome.GenerationSettings generationSettings) { return new yarnwrap.registry.entry.RegistryEntryList(wrapperContained.method_30808(generationSettings.wrapperContained)); }
+// public static yarnwrap.registry.entry.RegistryEntryList method_30808(yarnwrap.world.biome.GenerationSettings generationSettings, ) { return new yarnwrap.registry.entry.RegistryEntryList(net.minecraft.world.biome.GenerationSettings.method_30808(generationSettings.wrapperContained)); }
 // public java.util.List method_30809(yarnwrap.world.biome.GenerationSettings generationSettings) { return wrapperContained.method_30809(generationSettings.wrapperContained); }
 // public static java.util.List method_30809(yarnwrap.world.biome.GenerationSettings generationSettings, ) { return net.minecraft.world.biome.GenerationSettings.method_30809(generationSettings.wrapperContained); }
-// public java.lang.Iterable getCarversForStep(Object carverStep) { return wrapperContained.getCarversForStep(carverStep); }
-// public static java.lang.Iterable getCarversForStep(Object carverStep, ) { return net.minecraft.world.biome.GenerationSettings.getCarversForStep(carverStep); }
+public java.lang.Iterable getCarversForStep() { return wrapperContained.getCarversForStep(); }
+// public static java.lang.Iterable getCarversForStep() { return net.minecraft.world.biome.GenerationSettings.getCarversForStep(); }
 public java.util.List getFlowerFeatures() { return wrapperContained.getFlowerFeatures(); }
 // public static java.util.List getFlowerFeatures() { return net.minecraft.world.biome.GenerationSettings.getFlowerFeatures(); }
 public java.util.List getFeatures() { return wrapperContained.getFeatures(); }

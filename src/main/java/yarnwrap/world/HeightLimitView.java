@@ -3,8 +3,8 @@ public class HeightLimitView { public net.minecraft.world.HeightLimitView wrappe
 
 public int getTopSectionCoord() { return wrapperContained.getTopSectionCoord(); }
 // public static int getTopSectionCoord() { return net.minecraft.world.HeightLimitView.getTopSectionCoord(); }
-public int getTopY() { return wrapperContained.getTopY(); }
-// public static int getTopY() { return net.minecraft.world.HeightLimitView.getTopY(); }
+public int getTopYInclusive() { return wrapperContained.getTopYInclusive(); }
+// public static int getTopYInclusive() { return net.minecraft.world.HeightLimitView.getTopYInclusive(); }
 public boolean isOutOfHeightLimit(int y) { return wrapperContained.isOutOfHeightLimit(y); }
 // public static boolean isOutOfHeightLimit(int y, ) { return net.minecraft.world.HeightLimitView.isOutOfHeightLimit(y); }
 public int getSectionIndex(int y) { return wrapperContained.getSectionIndex(y); }
@@ -25,5 +25,7 @@ public int getBottomSectionCoord() { return wrapperContained.getBottomSectionCoo
 // public static int getBottomSectionCoord() { return net.minecraft.world.HeightLimitView.getBottomSectionCoord(); }
 // public yarnwrap.world.HeightLimitView create(int bottomY,int height) { return new yarnwrap.world.HeightLimitView(wrapperContained.create(bottomY,height)); }
 // public static yarnwrap.world.HeightLimitView create(int bottomY,int height, ) { return new yarnwrap.world.HeightLimitView(net.minecraft.world.HeightLimitView.create(bottomY,height)); }
+public boolean isInHeightLimit(int y) { return wrapperContained.isInHeightLimit(y); }
+// public static boolean isInHeightLimit(int y, ) { return net.minecraft.world.HeightLimitView.isInHeightLimit(y); }
 
 }

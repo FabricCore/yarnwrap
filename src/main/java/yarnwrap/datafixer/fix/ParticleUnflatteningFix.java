@@ -13,8 +13,8 @@ public ParticleUnflatteningFix(com.mojang.datafixers.schemas.Schema outputSchema
 // public static com.mojang.serialization.Dynamic parseColor(com.mojang.serialization.Dynamic paramsReader, ) { return net.minecraft.datafixer.fix.ParticleUnflatteningFix.parseColor(paramsReader); }
 // public com.mojang.serialization.Dynamic fixItemParticle(com.mojang.serialization.Dynamic dynamic,java.lang.String params) { return wrapperContained.fixItemParticle(dynamic,params); }
 // public static com.mojang.serialization.Dynamic fixItemParticle(com.mojang.serialization.Dynamic dynamic,java.lang.String params, ) { return net.minecraft.datafixer.fix.ParticleUnflatteningFix.fixItemParticle(dynamic,params); }
-// public yarnwrap.nbt.NbtCompound tryParse(java.lang.String snbt) { return new yarnwrap.nbt.NbtCompound(wrapperContained.tryParse(snbt)); }
-// public static yarnwrap.nbt.NbtCompound tryParse(java.lang.String snbt, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.datafixer.fix.ParticleUnflatteningFix.tryParse(snbt)); }
+// public com.mojang.serialization.Dynamic tryParse() { return wrapperContained.tryParse(); }
+// public static com.mojang.serialization.Dynamic tryParse() { return net.minecraft.datafixer.fix.ParticleUnflatteningFix.tryParse(); }
 // public com.mojang.serialization.Dynamic fixBlockParticle(com.mojang.serialization.Dynamic dynamic,java.lang.String params) { return wrapperContained.fixBlockParticle(dynamic,params); }
 // public static com.mojang.serialization.Dynamic fixBlockParticle(com.mojang.serialization.Dynamic dynamic,java.lang.String params, ) { return net.minecraft.datafixer.fix.ParticleUnflatteningFix.fixBlockParticle(dynamic,params); }
 // public java.util.Map parseBlockProperties(com.mojang.serialization.Dynamic propertiesStr) { return wrapperContained.parseBlockProperties(propertiesStr); }

@@ -7,8 +7,6 @@ public class KillCommand { public net.minecraft.server.command.KillCommand wrapp
 // public static int execute(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets, ) { return net.minecraft.server.command.KillCommand.execute(source.wrapperContained,targets); }
 // public int method_13431(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13431(context); }
 // public static int method_13431(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.KillCommand.method_13431(context); }
-// public boolean method_13432(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13432(source.wrapperContained); }
-// public static boolean method_13432(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.KillCommand.method_13432(source.wrapperContained); }
 // public int method_22832(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_22832(context); }
 // public static int method_22832(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.KillCommand.method_22832(context); }
 

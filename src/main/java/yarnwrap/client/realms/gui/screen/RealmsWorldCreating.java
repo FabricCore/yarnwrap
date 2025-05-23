@@ -1,0 +1,18 @@
+package yarnwrap.client.realms.gui.screen;
+public class RealmsWorldCreating { public net.minecraft.client.realms.gui.screen.RealmsWorldCreating wrapperContained; public RealmsWorldCreating(net.minecraft.client.realms.gui.screen.RealmsWorldCreating wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.realms.gui.screen.RealmsWorldCreating.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.realms.gui.screen.RealmsWorldCreating.LOGGER = value; }
+
+// public boolean method_64334(yarnwrap.client.MinecraftClient screen,yarnwrap.client.gui.screen.Screen dynamicRegistries,int levelProperties,yarnwrap.client.realms.dto.RealmsServer dataPackTempDir) { return wrapperContained.method_64334(screen.wrapperContained,dynamicRegistries.wrapperContained,levelProperties,dataPackTempDir.wrapperContained); }
+// public static boolean method_64334(yarnwrap.client.MinecraftClient screen,yarnwrap.client.gui.screen.Screen dynamicRegistries,int levelProperties,yarnwrap.client.realms.dto.RealmsServer dataPackTempDir, ) { return net.minecraft.client.realms.gui.screen.RealmsWorldCreating.method_64334(screen.wrapperContained,dynamicRegistries.wrapperContained,levelProperties,dataPackTempDir.wrapperContained); }
+// public void showCreateWorldScreen(yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.gui.screen.Screen realmsScreen,int slotId,yarnwrap.client.realms.dto.RealmsServer server,yarnwrap.client.realms.task.WorldCreationTask creationTask) { wrapperContained.showCreateWorldScreen(client.wrapperContained,parent.wrapperContained,realmsScreen.wrapperContained,slotId,server.wrapperContained,creationTask.wrapperContained); }
+// public static void showCreateWorldScreen(yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.gui.screen.Screen realmsScreen,int slotId,yarnwrap.client.realms.dto.RealmsServer server,yarnwrap.client.realms.task.WorldCreationTask creationTask, ) { net.minecraft.client.realms.gui.screen.RealmsWorldCreating.showCreateWorldScreen(client.wrapperContained,parent.wrapperContained,realmsScreen.wrapperContained,slotId,server.wrapperContained,creationTask.wrapperContained); }
+// public java.lang.Object method_64336(yarnwrap.client.MinecraftClient v,yarnwrap.client.gui.screen.Screen throwable) { return wrapperContained.method_64336(v.wrapperContained,throwable.wrapperContained); }
+// public static java.lang.Object method_64336(yarnwrap.client.MinecraftClient v,yarnwrap.client.gui.screen.Screen throwable, ) { return net.minecraft.client.realms.gui.screen.RealmsWorldCreating.method_64336(v.wrapperContained,throwable.wrapperContained); }
+// public java.nio.file.Path saveTempWorld(yarnwrap.registry.CombinedDynamicRegistries dynamicRegistries,yarnwrap.world.level.LevelProperties levelProperties,java.nio.file.Path dataPackTempDir) { return wrapperContained.saveTempWorld(dynamicRegistries.wrapperContained,levelProperties.wrapperContained,dataPackTempDir); }
+// public static java.nio.file.Path saveTempWorld(yarnwrap.registry.CombinedDynamicRegistries dynamicRegistries,yarnwrap.world.level.LevelProperties levelProperties,java.nio.file.Path dataPackTempDir, ) { return net.minecraft.client.realms.gui.screen.RealmsWorldCreating.saveTempWorld(dynamicRegistries.wrapperContained,levelProperties.wrapperContained,dataPackTempDir); }
+
+}

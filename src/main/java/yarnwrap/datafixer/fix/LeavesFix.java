@@ -16,7 +16,6 @@ public class LeavesFix { public net.minecraft.datafixer.fix.LeavesFix wrapperCon
 // public static it.unimi.dsi.fastutil.objects.Object2IntMap LEAVES_MAP() { return net.minecraft.datafixer.fix.LeavesFix.LEAVES_MAP; }
 // public static void LEAVES_MAP(it.unimi.dsi.fastutil.objects.Object2IntMap value, ) { net.minecraft.datafixer.fix.LeavesFix.LEAVES_MAP = value; }
 
-public LeavesFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.LeavesFix(outputSchema,changesType); }
 // public Object method_5049(Object fixer) { return wrapperContained.method_5049(fixer); }
 // public static Object method_5049(Object fixer, ) { return net.minecraft.datafixer.fix.LeavesFix.method_5049(fixer); }
 // public int getZ(int packedLocalPos) { return wrapperContained.getZ(packedLocalPos); }

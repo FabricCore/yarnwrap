@@ -1,21 +1,6 @@
 package yarnwrap.server.command;
 public class ServerCommandSource { public net.minecraft.server.command.ServerCommandSource wrapperContained; public ServerCommandSource(net.minecraft.server.command.ServerCommandSource wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.network.message.SignedCommandArguments signedArguments() { return new yarnwrap.network.message.SignedCommandArguments(wrapperContained.signedArguments); }
-// public void signedArguments(yarnwrap.network.message.SignedCommandArguments value) { wrapperContained.signedArguments = value.wrapperContained; }
-// public static yarnwrap.network.message.SignedCommandArguments signedArguments() { return new yarnwrap.network.message.SignedCommandArguments(net.minecraft.server.command.ServerCommandSource.signedArguments); }
-// public static void signedArguments(yarnwrap.network.message.SignedCommandArguments value, ) { net.minecraft.server.command.ServerCommandSource.signedArguments = value.wrapperContained; }
-
-// public yarnwrap.util.thread.FutureQueue messageChainTaskQueue() { return new yarnwrap.util.thread.FutureQueue(wrapperContained.messageChainTaskQueue); }
-// public void messageChainTaskQueue(yarnwrap.util.thread.FutureQueue value) { wrapperContained.messageChainTaskQueue = value.wrapperContained; }
-// public static yarnwrap.util.thread.FutureQueue messageChainTaskQueue() { return new yarnwrap.util.thread.FutureQueue(net.minecraft.server.command.ServerCommandSource.messageChainTaskQueue); }
-// public static void messageChainTaskQueue(yarnwrap.util.thread.FutureQueue value, ) { net.minecraft.server.command.ServerCommandSource.messageChainTaskQueue = value.wrapperContained; }
-
-// public yarnwrap.command.ReturnValueConsumer returnValueConsumer() { return new yarnwrap.command.ReturnValueConsumer(wrapperContained.returnValueConsumer); }
-// public void returnValueConsumer(yarnwrap.command.ReturnValueConsumer value) { wrapperContained.returnValueConsumer = value.wrapperContained; }
-// public static yarnwrap.command.ReturnValueConsumer returnValueConsumer() { return new yarnwrap.command.ReturnValueConsumer(net.minecraft.server.command.ServerCommandSource.returnValueConsumer); }
-// public static void returnValueConsumer(yarnwrap.command.ReturnValueConsumer value, ) { net.minecraft.server.command.ServerCommandSource.returnValueConsumer = value.wrapperContained; }
-
 // public int level() { return wrapperContained.level; }
 // public void level(int value) { wrapperContained.level = value; }
 // public static int level() { return net.minecraft.server.command.ServerCommandSource.level; }
@@ -81,28 +66,23 @@ public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType REQUIRE
 // public static yarnwrap.server.world.ServerWorld world() { return new yarnwrap.server.world.ServerWorld(net.minecraft.server.command.ServerCommandSource.world); }
 // public static void world(yarnwrap.server.world.ServerWorld value, ) { net.minecraft.server.command.ServerCommandSource.world = value.wrapperContained; }
 
+// public yarnwrap.network.message.SignedCommandArguments signedArguments() { return new yarnwrap.network.message.SignedCommandArguments(wrapperContained.signedArguments); }
+// public void signedArguments(yarnwrap.network.message.SignedCommandArguments value) { wrapperContained.signedArguments = value.wrapperContained; }
+// public static yarnwrap.network.message.SignedCommandArguments signedArguments() { return new yarnwrap.network.message.SignedCommandArguments(net.minecraft.server.command.ServerCommandSource.signedArguments); }
+// public static void signedArguments(yarnwrap.network.message.SignedCommandArguments value, ) { net.minecraft.server.command.ServerCommandSource.signedArguments = value.wrapperContained; }
+
+// public yarnwrap.util.thread.FutureQueue messageChainTaskQueue() { return new yarnwrap.util.thread.FutureQueue(wrapperContained.messageChainTaskQueue); }
+// public void messageChainTaskQueue(yarnwrap.util.thread.FutureQueue value) { wrapperContained.messageChainTaskQueue = value.wrapperContained; }
+// public static yarnwrap.util.thread.FutureQueue messageChainTaskQueue() { return new yarnwrap.util.thread.FutureQueue(net.minecraft.server.command.ServerCommandSource.messageChainTaskQueue); }
+// public static void messageChainTaskQueue(yarnwrap.util.thread.FutureQueue value, ) { net.minecraft.server.command.ServerCommandSource.messageChainTaskQueue = value.wrapperContained; }
+
+// public yarnwrap.command.ReturnValueConsumer returnValueConsumer() { return new yarnwrap.command.ReturnValueConsumer(wrapperContained.returnValueConsumer); }
+// public void returnValueConsumer(yarnwrap.command.ReturnValueConsumer value) { wrapperContained.returnValueConsumer = value.wrapperContained; }
+// public static yarnwrap.command.ReturnValueConsumer returnValueConsumer() { return new yarnwrap.command.ReturnValueConsumer(net.minecraft.server.command.ServerCommandSource.returnValueConsumer); }
+// public static void returnValueConsumer(yarnwrap.command.ReturnValueConsumer value, ) { net.minecraft.server.command.ServerCommandSource.returnValueConsumer = value.wrapperContained; }
+
 public ServerCommandSource(yarnwrap.server.command.CommandOutput output,yarnwrap.util.math.Vec3d pos,yarnwrap.util.math.Vec2f rot,yarnwrap.server.world.ServerWorld world,int level,java.lang.String name,yarnwrap.text.Text displayName,yarnwrap.server.MinecraftServer server,yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.server.command.ServerCommandSource(output.wrapperContained,pos.wrapperContained,rot.wrapperContained,world.wrapperContained,level,name,displayName.wrapperContained,server.wrapperContained,entity.wrapperContained); }
 // public ServerCommandSource(yarnwrap.server.command.CommandOutput output,yarnwrap.util.math.Vec3d pos,yarnwrap.util.math.Vec2f rot,yarnwrap.server.world.ServerWorld world,int level,java.lang.String name,yarnwrap.text.Text displayName,yarnwrap.server.MinecraftServer server,yarnwrap.entity.Entity entity,boolean silent,yarnwrap.command.ReturnValueConsumer resultStorer,Object entityAnchor,yarnwrap.network.message.SignedCommandArguments signedArguments,yarnwrap.util.thread.FutureQueue messageChainTaskQueue) { this.wrapperContained = new net.minecraft.server.command.ServerCommandSource(output.wrapperContained,pos.wrapperContained,rot.wrapperContained,world.wrapperContained,level,name,displayName.wrapperContained,server.wrapperContained,entity.wrapperContained,silent,resultStorer.wrapperContained,entityAnchor,signedArguments.wrapperContained,messageChainTaskQueue.wrapperContained); }
-public yarnwrap.server.command.ServerCommandSource withOutput(yarnwrap.server.command.CommandOutput output) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.withOutput(output.wrapperContained)); }
-// public static yarnwrap.server.command.ServerCommandSource withOutput(yarnwrap.server.command.CommandOutput output, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.command.ServerCommandSource.withOutput(output.wrapperContained)); }
-// public java.util.concurrent.CompletableFuture method_41212(Object registry) { return wrapperContained.method_41212(registry); }
-// public static java.util.concurrent.CompletableFuture method_41212(Object registry, ) { return net.minecraft.server.command.ServerCommandSource.method_41212(registry); }
-public yarnwrap.server.command.ServerCommandSource withSignedArguments(yarnwrap.network.message.SignedCommandArguments signedArguments,yarnwrap.util.thread.FutureQueue messageChainTaskQueue) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.withSignedArguments(signedArguments.wrapperContained,messageChainTaskQueue.wrapperContained)); }
-// public static yarnwrap.server.command.ServerCommandSource withSignedArguments(yarnwrap.network.message.SignedCommandArguments signedArguments,yarnwrap.util.thread.FutureQueue messageChainTaskQueue, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.command.ServerCommandSource.withSignedArguments(signedArguments.wrapperContained,messageChainTaskQueue.wrapperContained)); }
-public boolean isExecutedByPlayer() { return wrapperContained.isExecutedByPlayer(); }
-// public static boolean isExecutedByPlayer() { return net.minecraft.server.command.ServerCommandSource.isExecutedByPlayer(); }
-public yarnwrap.network.message.SignedCommandArguments getSignedArguments() { return new yarnwrap.network.message.SignedCommandArguments(wrapperContained.getSignedArguments()); }
-// public static yarnwrap.network.message.SignedCommandArguments getSignedArguments() { return new yarnwrap.network.message.SignedCommandArguments(net.minecraft.server.command.ServerCommandSource.getSignedArguments()); }
-public yarnwrap.server.network.ServerPlayerEntity getPlayer() { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.getPlayer()); }
-// public static yarnwrap.server.network.ServerPlayerEntity getPlayer() { return new yarnwrap.server.network.ServerPlayerEntity(net.minecraft.server.command.ServerCommandSource.getPlayer()); }
-// public void sendChatMessage(yarnwrap.network.message.SentMessage message,boolean filterMaskEnabled,Object params) { wrapperContained.sendChatMessage(message.wrapperContained,filterMaskEnabled,params); }
-// public static void sendChatMessage(yarnwrap.network.message.SentMessage message,boolean filterMaskEnabled,Object params, ) { net.minecraft.server.command.ServerCommandSource.sendChatMessage(message.wrapperContained,filterMaskEnabled,params); }
-public yarnwrap.util.thread.FutureQueue getMessageChainTaskQueue() { return new yarnwrap.util.thread.FutureQueue(wrapperContained.getMessageChainTaskQueue()); }
-// public static yarnwrap.util.thread.FutureQueue getMessageChainTaskQueue() { return new yarnwrap.util.thread.FutureQueue(net.minecraft.server.command.ServerCommandSource.getMessageChainTaskQueue()); }
-public boolean shouldFilterText(yarnwrap.server.network.ServerPlayerEntity recipient) { return wrapperContained.shouldFilterText(recipient.wrapperContained); }
-// public static boolean shouldFilterText(yarnwrap.server.network.ServerPlayerEntity recipient, ) { return net.minecraft.server.command.ServerCommandSource.shouldFilterText(recipient.wrapperContained); }
-public void sendMessage(yarnwrap.text.Text message) { wrapperContained.sendMessage(message.wrapperContained); }
-// public static void sendMessage(yarnwrap.text.Text message, ) { net.minecraft.server.command.ServerCommandSource.sendMessage(message.wrapperContained); }
 public yarnwrap.server.command.ServerCommandSource withLevel(int level) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.withLevel(level)); }
 // public static yarnwrap.server.command.ServerCommandSource withLevel(int level, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.command.ServerCommandSource.withLevel(level)); }
 // public yarnwrap.server.network.ServerPlayerEntity getPlayerOrThrow() { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.getPlayerOrThrow()); }
@@ -151,5 +131,29 @@ public yarnwrap.server.command.ServerCommandSource withMaxLevel(int level) { ret
 // public static yarnwrap.server.command.ServerCommandSource withMaxLevel(int level, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.command.ServerCommandSource.withMaxLevel(level)); }
 public yarnwrap.server.command.ServerCommandSource withEntity(yarnwrap.entity.Entity entity) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.withEntity(entity.wrapperContained)); }
 // public static yarnwrap.server.command.ServerCommandSource withEntity(yarnwrap.entity.Entity entity, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.command.ServerCommandSource.withEntity(entity.wrapperContained)); }
+public yarnwrap.server.command.ServerCommandSource withOutput(yarnwrap.server.command.CommandOutput output) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.withOutput(output.wrapperContained)); }
+// public static yarnwrap.server.command.ServerCommandSource withOutput(yarnwrap.server.command.CommandOutput output, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.command.ServerCommandSource.withOutput(output.wrapperContained)); }
+// public java.util.concurrent.CompletableFuture method_41212(Object registry) { return wrapperContained.method_41212(registry); }
+// public static java.util.concurrent.CompletableFuture method_41212(Object registry, ) { return net.minecraft.server.command.ServerCommandSource.method_41212(registry); }
+public yarnwrap.server.command.ServerCommandSource withSignedArguments(yarnwrap.network.message.SignedCommandArguments signedArguments,yarnwrap.util.thread.FutureQueue messageChainTaskQueue) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.withSignedArguments(signedArguments.wrapperContained,messageChainTaskQueue.wrapperContained)); }
+// public static yarnwrap.server.command.ServerCommandSource withSignedArguments(yarnwrap.network.message.SignedCommandArguments signedArguments,yarnwrap.util.thread.FutureQueue messageChainTaskQueue, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.server.command.ServerCommandSource.withSignedArguments(signedArguments.wrapperContained,messageChainTaskQueue.wrapperContained)); }
+public boolean isExecutedByPlayer() { return wrapperContained.isExecutedByPlayer(); }
+// public static boolean isExecutedByPlayer() { return net.minecraft.server.command.ServerCommandSource.isExecutedByPlayer(); }
+public yarnwrap.network.message.SignedCommandArguments getSignedArguments() { return new yarnwrap.network.message.SignedCommandArguments(wrapperContained.getSignedArguments()); }
+// public static yarnwrap.network.message.SignedCommandArguments getSignedArguments() { return new yarnwrap.network.message.SignedCommandArguments(net.minecraft.server.command.ServerCommandSource.getSignedArguments()); }
+public yarnwrap.server.network.ServerPlayerEntity getPlayer() { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.getPlayer()); }
+// public static yarnwrap.server.network.ServerPlayerEntity getPlayer() { return new yarnwrap.server.network.ServerPlayerEntity(net.minecraft.server.command.ServerCommandSource.getPlayer()); }
+// public void sendChatMessage(yarnwrap.network.message.SentMessage message,boolean filterMaskEnabled,Object params) { wrapperContained.sendChatMessage(message.wrapperContained,filterMaskEnabled,params); }
+// public static void sendChatMessage(yarnwrap.network.message.SentMessage message,boolean filterMaskEnabled,Object params, ) { net.minecraft.server.command.ServerCommandSource.sendChatMessage(message.wrapperContained,filterMaskEnabled,params); }
+public yarnwrap.util.thread.FutureQueue getMessageChainTaskQueue() { return new yarnwrap.util.thread.FutureQueue(wrapperContained.getMessageChainTaskQueue()); }
+// public static yarnwrap.util.thread.FutureQueue getMessageChainTaskQueue() { return new yarnwrap.util.thread.FutureQueue(net.minecraft.server.command.ServerCommandSource.getMessageChainTaskQueue()); }
+public boolean shouldFilterText(yarnwrap.server.network.ServerPlayerEntity recipient) { return wrapperContained.shouldFilterText(recipient.wrapperContained); }
+// public static boolean shouldFilterText(yarnwrap.server.network.ServerPlayerEntity recipient, ) { return net.minecraft.server.command.ServerCommandSource.shouldFilterText(recipient.wrapperContained); }
+public void sendMessage(yarnwrap.text.Text message) { wrapperContained.sendMessage(message.wrapperContained); }
+// public static void sendMessage(yarnwrap.text.Text message, ) { net.minecraft.server.command.ServerCommandSource.sendMessage(message.wrapperContained); }
+// public yarnwrap.util.Identifier method_64830(yarnwrap.recipe.RecipeEntry recipe) { return new yarnwrap.util.Identifier(wrapperContained.method_64830(recipe.wrapperContained)); }
+// public static yarnwrap.util.Identifier method_64830(yarnwrap.recipe.RecipeEntry recipe, ) { return new yarnwrap.util.Identifier(net.minecraft.server.command.ServerCommandSource.method_64830(recipe.wrapperContained)); }
+// public java.util.Optional getRegistry(yarnwrap.registry.RegistryKey registryRef) { return wrapperContained.getRegistry(registryRef.wrapperContained); }
+// public static java.util.Optional getRegistry(yarnwrap.registry.RegistryKey registryRef, ) { return net.minecraft.server.command.ServerCommandSource.getRegistry(registryRef.wrapperContained); }
 
 }

@@ -11,7 +11,7 @@ public class RaidGoal { public net.minecraft.entity.ai.goal.RaidGoal wrapperCont
 // public static int MAX_COOLDOWN() { return net.minecraft.entity.ai.goal.RaidGoal.MAX_COOLDOWN; }
 // public static void MAX_COOLDOWN(int value, ) { net.minecraft.entity.ai.goal.RaidGoal.MAX_COOLDOWN = value; }
 
-public RaidGoal(yarnwrap.entity.raid.RaiderEntity raider,java.lang.Class targetEntityClass,boolean checkVisibility,java.util.function.Predicate targetPredicate) { this.wrapperContained = new net.minecraft.entity.ai.goal.RaidGoal(raider.wrapperContained,targetEntityClass,checkVisibility,targetPredicate); }
+// public RaidGoal(yarnwrap.entity.raid.RaiderEntity raider,java.lang.Class targetEntityClass,boolean checkVisibility,Object targetPredicate) { this.wrapperContained = new net.minecraft.entity.ai.goal.RaidGoal(raider.wrapperContained,targetEntityClass,checkVisibility,targetPredicate); }
 public int getCooldown() { return wrapperContained.getCooldown(); }
 // public static int getCooldown() { return net.minecraft.entity.ai.goal.RaidGoal.getCooldown(); }
 public void decreaseCooldown() { wrapperContained.decreaseCooldown(); }

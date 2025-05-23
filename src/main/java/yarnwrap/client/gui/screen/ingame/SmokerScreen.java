@@ -16,6 +16,16 @@ public class SmokerScreen { public net.minecraft.client.gui.screen.ingame.Smoker
 // public static yarnwrap.util.Identifier BURN_PROGRESS_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.ingame.SmokerScreen.BURN_PROGRESS_TEXTURE); }
 // public static void BURN_PROGRESS_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.ingame.SmokerScreen.BURN_PROGRESS_TEXTURE = value.wrapperContained; }
 
+// public yarnwrap.text.Text TOGGLE_SMOKABLE_TEXT() { return new yarnwrap.text.Text(wrapperContained.TOGGLE_SMOKABLE_TEXT); }
+// public void TOGGLE_SMOKABLE_TEXT(yarnwrap.text.Text value) { wrapperContained.TOGGLE_SMOKABLE_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text TOGGLE_SMOKABLE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.ingame.SmokerScreen.TOGGLE_SMOKABLE_TEXT); }
+// public static void TOGGLE_SMOKABLE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.ingame.SmokerScreen.TOGGLE_SMOKABLE_TEXT = value.wrapperContained; }
+
+// public java.util.List TABS() { return wrapperContained.TABS; }
+// public void TABS(java.util.List value) { wrapperContained.TABS = value; }
+// public static java.util.List TABS() { return net.minecraft.client.gui.screen.ingame.SmokerScreen.TABS; }
+// public static void TABS(java.util.List value, ) { net.minecraft.client.gui.screen.ingame.SmokerScreen.TABS = value; }
+
 public SmokerScreen(yarnwrap.screen.SmokerScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.SmokerScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 
 }

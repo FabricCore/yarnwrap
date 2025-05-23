@@ -1,11 +1,6 @@
 package yarnwrap.village;
 public class MerchantInventory { public net.minecraft.village.MerchantInventory wrapperContained; public MerchantInventory(net.minecraft.village.MerchantInventory wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int merchantRewardedExperience() { return wrapperContained.merchantRewardedExperience; }
-// public void merchantRewardedExperience(int value) { wrapperContained.merchantRewardedExperience = value; }
-// public static int merchantRewardedExperience() { return net.minecraft.village.MerchantInventory.merchantRewardedExperience; }
-// public static void merchantRewardedExperience(int value, ) { net.minecraft.village.MerchantInventory.merchantRewardedExperience = value; }
-
 // public int offerIndex() { return wrapperContained.offerIndex; }
 // public void offerIndex(int value) { wrapperContained.offerIndex = value; }
 // public static int offerIndex() { return net.minecraft.village.MerchantInventory.offerIndex; }
@@ -26,9 +21,12 @@ public class MerchantInventory { public net.minecraft.village.MerchantInventory 
 // public static yarnwrap.util.collection.DefaultedList inventory() { return new yarnwrap.util.collection.DefaultedList(net.minecraft.village.MerchantInventory.inventory); }
 // public static void inventory(yarnwrap.util.collection.DefaultedList value, ) { net.minecraft.village.MerchantInventory.inventory = value.wrapperContained; }
 
+// public int merchantRewardedExperience() { return wrapperContained.merchantRewardedExperience; }
+// public void merchantRewardedExperience(int value) { wrapperContained.merchantRewardedExperience = value; }
+// public static int merchantRewardedExperience() { return net.minecraft.village.MerchantInventory.merchantRewardedExperience; }
+// public static void merchantRewardedExperience(int value, ) { net.minecraft.village.MerchantInventory.merchantRewardedExperience = value; }
+
 public MerchantInventory(yarnwrap.village.Merchant merchant) { this.wrapperContained = new net.minecraft.village.MerchantInventory(merchant.wrapperContained); }
-public int getMerchantRewardedExperience() { return wrapperContained.getMerchantRewardedExperience(); }
-// public static int getMerchantRewardedExperience() { return net.minecraft.village.MerchantInventory.getMerchantRewardedExperience(); }
 public yarnwrap.village.TradeOffer getTradeOffer() { return new yarnwrap.village.TradeOffer(wrapperContained.getTradeOffer()); }
 // public static yarnwrap.village.TradeOffer getTradeOffer() { return new yarnwrap.village.TradeOffer(net.minecraft.village.MerchantInventory.getTradeOffer()); }
 public void setOfferIndex(int index) { wrapperContained.setOfferIndex(index); }
@@ -37,5 +35,7 @@ public void setOfferIndex(int index) { wrapperContained.setOfferIndex(index); }
 // public static boolean needsOfferUpdate(int slot, ) { return net.minecraft.village.MerchantInventory.needsOfferUpdate(slot); }
 public void updateOffers() { wrapperContained.updateOffers(); }
 // public static void updateOffers() { net.minecraft.village.MerchantInventory.updateOffers(); }
+public int getMerchantRewardedExperience() { return wrapperContained.getMerchantRewardedExperience(); }
+// public static int getMerchantRewardedExperience() { return net.minecraft.village.MerchantInventory.getMerchantRewardedExperience(); }
 
 }

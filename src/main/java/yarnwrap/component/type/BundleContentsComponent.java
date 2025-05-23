@@ -36,8 +36,13 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static org.apache.commons.lang3.math.Fraction occupancy() { return net.minecraft.component.type.BundleContentsComponent.occupancy; }
 // public static void occupancy(org.apache.commons.lang3.math.Fraction value, ) { net.minecraft.component.type.BundleContentsComponent.occupancy = value; }
 
+// public int selectedStackIndex() { return wrapperContained.selectedStackIndex; }
+// public void selectedStackIndex(int value) { wrapperContained.selectedStackIndex = value; }
+// public static int selectedStackIndex() { return net.minecraft.component.type.BundleContentsComponent.selectedStackIndex; }
+// public static void selectedStackIndex(int value, ) { net.minecraft.component.type.BundleContentsComponent.selectedStackIndex = value; }
+
 public BundleContentsComponent(java.util.List stacks) { this.wrapperContained = new net.minecraft.component.type.BundleContentsComponent(stacks); }
-// public BundleContentsComponent(java.util.List stacks,org.apache.commons.lang3.math.Fraction occupancy) { this.wrapperContained = new net.minecraft.component.type.BundleContentsComponent(stacks,occupancy); }
+// public BundleContentsComponent(java.util.List stacks,org.apache.commons.lang3.math.Fraction occupancy,int selectedStackIndex) { this.wrapperContained = new net.minecraft.component.type.BundleContentsComponent(stacks,occupancy,selectedStackIndex); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.component.type.BundleContentsComponent.equals(o); }
 public java.lang.Iterable iterate() { return wrapperContained.iterate(); }
@@ -52,8 +57,8 @@ public yarnwrap.item.ItemStack get(int index) { return new yarnwrap.item.ItemSta
 // public static org.apache.commons.lang3.math.Fraction calculateOccupancy(java.util.List stacks, ) { return net.minecraft.component.type.BundleContentsComponent.calculateOccupancy(stacks); }
 public int size() { return wrapperContained.size(); }
 // public static int size() { return net.minecraft.component.type.BundleContentsComponent.size(); }
-// public java.util.List method_57427(yarnwrap.component.type.BundleContentsComponent component) { return wrapperContained.method_57427(component.wrapperContained); }
-// public static java.util.List method_57427(yarnwrap.component.type.BundleContentsComponent component, ) { return net.minecraft.component.type.BundleContentsComponent.method_57427(component.wrapperContained); }
+// public com.mojang.serialization.DataResult method_57427(yarnwrap.component.type.BundleContentsComponent component) { return wrapperContained.method_57427(component.wrapperContained); }
+// public static com.mojang.serialization.DataResult method_57427(yarnwrap.component.type.BundleContentsComponent component, ) { return net.minecraft.component.type.BundleContentsComponent.method_57427(component.wrapperContained); }
 public org.apache.commons.lang3.math.Fraction getOccupancy() { return wrapperContained.getOccupancy(); }
 // public static org.apache.commons.lang3.math.Fraction getOccupancy() { return net.minecraft.component.type.BundleContentsComponent.getOccupancy(); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
@@ -62,5 +67,15 @@ public java.util.stream.Stream stream() { return wrapperContained.stream(); }
 // public static java.util.stream.Stream stream() { return net.minecraft.component.type.BundleContentsComponent.stream(); }
 public java.lang.Iterable iterateCopy() { return wrapperContained.iterateCopy(); }
 // public static java.lang.Iterable iterateCopy() { return net.minecraft.component.type.BundleContentsComponent.iterateCopy(); }
+public int getNumberOfStacksShown() { return wrapperContained.getNumberOfStacksShown(); }
+// public static int getNumberOfStacksShown() { return net.minecraft.component.type.BundleContentsComponent.getNumberOfStacksShown(); }
+// public boolean canBeBundled(yarnwrap.item.ItemStack stack) { return wrapperContained.canBeBundled(stack.wrapperContained); }
+// public static boolean canBeBundled(yarnwrap.item.ItemStack stack, ) { return net.minecraft.component.type.BundleContentsComponent.canBeBundled(stack.wrapperContained); }
+public int getSelectedStackIndex() { return wrapperContained.getSelectedStackIndex(); }
+// public static int getSelectedStackIndex() { return net.minecraft.component.type.BundleContentsComponent.getSelectedStackIndex(); }
+public boolean hasSelectedStack() { return wrapperContained.hasSelectedStack(); }
+// public static boolean hasSelectedStack() { return net.minecraft.component.type.BundleContentsComponent.hasSelectedStack(); }
+// public com.mojang.serialization.DataResult validateOccupancy(java.util.List stacks) { return wrapperContained.validateOccupancy(stacks); }
+// public static com.mojang.serialization.DataResult validateOccupancy(java.util.List stacks, ) { return net.minecraft.component.type.BundleContentsComponent.validateOccupancy(stacks); }
 
 }

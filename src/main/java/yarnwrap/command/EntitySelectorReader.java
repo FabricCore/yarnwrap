@@ -292,14 +292,6 @@ public static char TAG_MODIFIER() { return net.minecraft.command.EntitySelectorR
 // public static void NEAREST_ENTITY(char value, ) { net.minecraft.command.EntitySelectorReader.NEAREST_ENTITY = value; }
 
 public EntitySelectorReader(com.mojang.brigadier.StringReader reader,boolean atAllowed) { this.wrapperContained = new net.minecraft.command.EntitySelectorReader(reader,atAllowed); }
-// public boolean excludesTeam() { return wrapperContained.excludesTeam(); }
-// // public static boolean excludesTeam() { return net.minecraft.command.EntitySelectorReader.excludesTeam(); }
-// public java.util.concurrent.CompletableFuture suggestDefinerNext(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,java.util.function.Consumer consumer) { return wrapperContained.suggestDefinerNext(builder,consumer); }
-// public static java.util.concurrent.CompletableFuture suggestDefinerNext(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,java.util.function.Consumer consumer, ) { return net.minecraft.command.EntitySelectorReader.suggestDefinerNext(builder,consumer); }
-public java.util.function.BiConsumer getSorter() { return wrapperContained.getSorter(); }
-// public static java.util.function.BiConsumer getSorter() { return net.minecraft.command.EntitySelectorReader.getSorter(); }
-// public boolean shouldAllowAtSelectors(java.lang.Object source) { return wrapperContained.shouldAllowAtSelectors(source); }
-// public static boolean shouldAllowAtSelectors(java.lang.Object source, ) { return net.minecraft.command.EntitySelectorReader.shouldAllowAtSelectors(source); }
 public void setExcludesTeam(boolean excludesTeam) { wrapperContained.setExcludesTeam(excludesTeam); }
 // public static void setExcludesTeam(boolean excludesTeam, ) { net.minecraft.command.EntitySelectorReader.setExcludesTeam(excludesTeam); }
 // public java.util.concurrent.CompletableFuture suggestSelectorRest(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,java.util.function.Consumer consumer) { return wrapperContained.suggestSelectorRest(builder,consumer); }
@@ -464,5 +456,13 @@ public void addPredicate(java.util.function.Predicate predicate) { wrapperContai
 // public static void readAtVariable() { net.minecraft.command.EntitySelectorReader.readAtVariable(); }
 public void setDz(double dz) { wrapperContained.setDz(dz); }
 // public static void setDz(double dz, ) { net.minecraft.command.EntitySelectorReader.setDz(dz); }
+// public boolean excludesTeam() { return wrapperContained.excludesTeam(); }
+// // public static boolean excludesTeam() { return net.minecraft.command.EntitySelectorReader.excludesTeam(); }
+// public java.util.concurrent.CompletableFuture suggestDefinerNext(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,java.util.function.Consumer consumer) { return wrapperContained.suggestDefinerNext(builder,consumer); }
+// public static java.util.concurrent.CompletableFuture suggestDefinerNext(com.mojang.brigadier.suggestion.SuggestionsBuilder builder,java.util.function.Consumer consumer, ) { return net.minecraft.command.EntitySelectorReader.suggestDefinerNext(builder,consumer); }
+public java.util.function.BiConsumer getSorter() { return wrapperContained.getSorter(); }
+// public static java.util.function.BiConsumer getSorter() { return net.minecraft.command.EntitySelectorReader.getSorter(); }
+// public boolean shouldAllowAtSelectors(java.lang.Object source) { return wrapperContained.shouldAllowAtSelectors(source); }
+// public static boolean shouldAllowAtSelectors(java.lang.Object source, ) { return net.minecraft.command.EntitySelectorReader.shouldAllowAtSelectors(source); }
 
 }

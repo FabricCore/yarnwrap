@@ -41,16 +41,34 @@ public class CreeperEntity { public net.minecraft.entity.mob.CreeperEntity wrapp
 // public static yarnwrap.entity.data.TrackedData IGNITED() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.mob.CreeperEntity.IGNITED); }
 // public static void IGNITED(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.mob.CreeperEntity.IGNITED = value.wrapperContained; }
 
-// public Object createCreeperAttributes() { return wrapperContained.createCreeperAttributes(); }
-public static Object createCreeperAttributes() { return net.minecraft.entity.mob.CreeperEntity.createCreeperAttributes(); }
+// public byte DEFAULT_EXPLOSION_RADIUS() { return wrapperContained.DEFAULT_EXPLOSION_RADIUS; }
+// public void DEFAULT_EXPLOSION_RADIUS(byte value) { wrapperContained.DEFAULT_EXPLOSION_RADIUS = value; }
+// public static byte DEFAULT_EXPLOSION_RADIUS() { return net.minecraft.entity.mob.CreeperEntity.DEFAULT_EXPLOSION_RADIUS; }
+// public static void DEFAULT_EXPLOSION_RADIUS(byte value, ) { net.minecraft.entity.mob.CreeperEntity.DEFAULT_EXPLOSION_RADIUS = value; }
+
+// public boolean DEFAULT_CHARGED() { return wrapperContained.DEFAULT_CHARGED; }
+// public void DEFAULT_CHARGED(boolean value) { wrapperContained.DEFAULT_CHARGED = value; }
+// public static boolean DEFAULT_CHARGED() { return net.minecraft.entity.mob.CreeperEntity.DEFAULT_CHARGED; }
+// public static void DEFAULT_CHARGED(boolean value, ) { net.minecraft.entity.mob.CreeperEntity.DEFAULT_CHARGED = value; }
+
+// public boolean DEFAULT_IGNITED() { return wrapperContained.DEFAULT_IGNITED; }
+// public void DEFAULT_IGNITED(boolean value) { wrapperContained.DEFAULT_IGNITED = value; }
+// public static boolean DEFAULT_IGNITED() { return net.minecraft.entity.mob.CreeperEntity.DEFAULT_IGNITED; }
+// public static void DEFAULT_IGNITED(boolean value, ) { net.minecraft.entity.mob.CreeperEntity.DEFAULT_IGNITED = value; }
+
+// public short DEFAULT_FUSE() { return wrapperContained.DEFAULT_FUSE; }
+// public void DEFAULT_FUSE(short value) { wrapperContained.DEFAULT_FUSE = value; }
+// public static short DEFAULT_FUSE() { return net.minecraft.entity.mob.CreeperEntity.DEFAULT_FUSE; }
+// public static void DEFAULT_FUSE(short value, ) { net.minecraft.entity.mob.CreeperEntity.DEFAULT_FUSE = value; }
+
 public boolean isIgnited() { return wrapperContained.isIgnited(); }
 // public static boolean isIgnited() { return net.minecraft.entity.mob.CreeperEntity.isIgnited(); }
 // public void spawnEffectsCloud() { wrapperContained.spawnEffectsCloud(); }
 // public static void spawnEffectsCloud() { net.minecraft.entity.mob.CreeperEntity.spawnEffectsCloud(); }
 public void onHeadDropped() { wrapperContained.onHeadDropped(); }
 // public static void onHeadDropped() { net.minecraft.entity.mob.CreeperEntity.onHeadDropped(); }
-public float getClientFuseTime(float timeDelta) { return wrapperContained.getClientFuseTime(timeDelta); }
-// public static float getClientFuseTime(float timeDelta, ) { return net.minecraft.entity.mob.CreeperEntity.getClientFuseTime(timeDelta); }
+public float getLerpedFuseTime(float tickProgress) { return wrapperContained.getLerpedFuseTime(tickProgress); }
+// public static float getLerpedFuseTime(float tickProgress, ) { return net.minecraft.entity.mob.CreeperEntity.getLerpedFuseTime(tickProgress); }
 public void ignite() { wrapperContained.ignite(); }
 // public static void ignite() { net.minecraft.entity.mob.CreeperEntity.ignite(); }
 public void setFuseSpeed(int fuseSpeed) { wrapperContained.setFuseSpeed(fuseSpeed); }
@@ -61,5 +79,9 @@ public int getFuseSpeed() { return wrapperContained.getFuseSpeed(); }
 // public static int getFuseSpeed() { return net.minecraft.entity.mob.CreeperEntity.getFuseSpeed(); }
 public boolean shouldDropHead() { return wrapperContained.shouldDropHead(); }
 // public static boolean shouldDropHead() { return net.minecraft.entity.mob.CreeperEntity.shouldDropHead(); }
+// public Object createCreeperAttributes() { return wrapperContained.createCreeperAttributes(); }
+public static Object createCreeperAttributes() { return net.minecraft.entity.mob.CreeperEntity.createCreeperAttributes(); }
+public boolean isCharged() { return wrapperContained.isCharged(); }
+// public static boolean isCharged() { return net.minecraft.entity.mob.CreeperEntity.isCharged(); }
 
 }

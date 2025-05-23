@@ -6,6 +6,11 @@ public class GlowSquidEntity { public net.minecraft.entity.passive.GlowSquidEnti
 // public static yarnwrap.entity.data.TrackedData DARK_TICKS_REMAINING() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.GlowSquidEntity.DARK_TICKS_REMAINING); }
 // public static void DARK_TICKS_REMAINING(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.GlowSquidEntity.DARK_TICKS_REMAINING = value.wrapperContained; }
 
+// public int DEFAULT_DARK_TICKS_REMAINING() { return wrapperContained.DEFAULT_DARK_TICKS_REMAINING; }
+// public void DEFAULT_DARK_TICKS_REMAINING(int value) { wrapperContained.DEFAULT_DARK_TICKS_REMAINING = value; }
+// public static int DEFAULT_DARK_TICKS_REMAINING() { return net.minecraft.entity.passive.GlowSquidEntity.DEFAULT_DARK_TICKS_REMAINING; }
+// public static void DEFAULT_DARK_TICKS_REMAINING(int value, ) { net.minecraft.entity.passive.GlowSquidEntity.DEFAULT_DARK_TICKS_REMAINING = value; }
+
 // public void setDarkTicksRemaining(int ticks) { wrapperContained.setDarkTicksRemaining(ticks); }
 // public static void setDarkTicksRemaining(int ticks, ) { net.minecraft.entity.passive.GlowSquidEntity.setDarkTicksRemaining(ticks); }
 public int getDarkTicksRemaining() { return wrapperContained.getDarkTicksRemaining(); }

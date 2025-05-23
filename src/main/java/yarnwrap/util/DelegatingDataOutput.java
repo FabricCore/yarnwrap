@@ -7,12 +7,12 @@ public class DelegatingDataOutput { public net.minecraft.util.DelegatingDataOutp
 // public static void delegate(java.io.DataOutput value, ) { net.minecraft.util.DelegatingDataOutput.delegate = value; }
 
 public DelegatingDataOutput(java.io.DataOutput delegate) { this.wrapperContained = new net.minecraft.util.DelegatingDataOutput(delegate); }
-// public void write(int v) { wrapperContained.write(v); }
-// public static void write(int v, ) { net.minecraft.util.DelegatingDataOutput.write(v); }
 // public void write(byte b) { wrapperContained.write(b); }
 // public static void write(byte b, ) { net.minecraft.util.DelegatingDataOutput.write(b); }
 // public void write(byte bs,int off,int len) { wrapperContained.write(bs,off,len); }
 // public static void write(byte bs,int off,int len, ) { net.minecraft.util.DelegatingDataOutput.write(bs,off,len); }
+// public void write(int v) { wrapperContained.write(v); }
+// public static void write(int v, ) { net.minecraft.util.DelegatingDataOutput.write(v); }
 // public void writeBoolean(boolean v) { wrapperContained.writeBoolean(v); }
 // public static void writeBoolean(boolean v, ) { net.minecraft.util.DelegatingDataOutput.writeBoolean(v); }
 // public void writeByte(int v) { wrapperContained.writeByte(v); }

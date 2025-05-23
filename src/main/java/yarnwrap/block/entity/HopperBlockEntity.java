@@ -36,6 +36,11 @@ public static int INVENTORY_SIZE() { return net.minecraft.block.entity.HopperBlo
 // public static yarnwrap.util.math.Direction facing() { return new yarnwrap.util.math.Direction(net.minecraft.block.entity.HopperBlockEntity.facing); }
 // public static void facing(yarnwrap.util.math.Direction value, ) { net.minecraft.block.entity.HopperBlockEntity.facing = value.wrapperContained; }
 
+// public int DEFAULT_TRANSFER_COOLDOWN() { return wrapperContained.DEFAULT_TRANSFER_COOLDOWN; }
+// public void DEFAULT_TRANSFER_COOLDOWN(int value) { wrapperContained.DEFAULT_TRANSFER_COOLDOWN = value; }
+// public static int DEFAULT_TRANSFER_COOLDOWN() { return net.minecraft.block.entity.HopperBlockEntity.DEFAULT_TRANSFER_COOLDOWN; }
+// public static void DEFAULT_TRANSFER_COOLDOWN(int value, ) { net.minecraft.block.entity.HopperBlockEntity.DEFAULT_TRANSFER_COOLDOWN = value; }
+
 public HopperBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.HopperBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public void onEntityCollided(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.entity.Entity entity,yarnwrap.block.entity.HopperBlockEntity blockEntity) { wrapperContained.onEntityCollided(world.wrapperContained,pos.wrapperContained,state.wrapperContained,entity.wrapperContained,blockEntity.wrapperContained); }
 // public static void onEntityCollided(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.entity.Entity entity,yarnwrap.block.entity.HopperBlockEntity blockEntity, ) { net.minecraft.block.entity.HopperBlockEntity.onEntityCollided(world.wrapperContained,pos.wrapperContained,state.wrapperContained,entity.wrapperContained,blockEntity.wrapperContained); }

@@ -1,15 +1,10 @@
 package yarnwrap.block;
 public class GlowLichenBlock { public net.minecraft.block.GlowLichenBlock wrapperContained; public GlowLichenBlock(net.minecraft.block.GlowLichenBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.state.property.BooleanProperty WATERLOGGED() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.WATERLOGGED); }
-// public void WATERLOGGED(yarnwrap.state.property.BooleanProperty value) { wrapperContained.WATERLOGGED = value.wrapperContained; }
-// public static yarnwrap.state.property.BooleanProperty WATERLOGGED() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.GlowLichenBlock.WATERLOGGED); }
-// public static void WATERLOGGED(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.GlowLichenBlock.WATERLOGGED = value.wrapperContained; }
-
-// public yarnwrap.block.LichenGrower grower() { return new yarnwrap.block.LichenGrower(wrapperContained.grower); }
-// public void grower(yarnwrap.block.LichenGrower value) { wrapperContained.grower = value.wrapperContained; }
-// public static yarnwrap.block.LichenGrower grower() { return new yarnwrap.block.LichenGrower(net.minecraft.block.GlowLichenBlock.grower); }
-// public static void grower(yarnwrap.block.LichenGrower value, ) { net.minecraft.block.GlowLichenBlock.grower = value.wrapperContained; }
+// public yarnwrap.block.MultifaceGrower grower() { return new yarnwrap.block.MultifaceGrower(wrapperContained.grower); }
+// public void grower(yarnwrap.block.MultifaceGrower value) { wrapperContained.grower = value.wrapperContained; }
+// public static yarnwrap.block.MultifaceGrower grower() { return new yarnwrap.block.MultifaceGrower(net.minecraft.block.GlowLichenBlock.grower); }
+// public static void grower(yarnwrap.block.MultifaceGrower value, ) { net.minecraft.block.GlowLichenBlock.grower = value.wrapperContained; }
 
 // public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }

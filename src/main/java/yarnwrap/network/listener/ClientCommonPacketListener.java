@@ -23,5 +23,9 @@ public void onCustomReportDetails(yarnwrap.network.packet.s2c.common.CustomRepor
 // public static void onCustomReportDetails(yarnwrap.network.packet.s2c.common.CustomReportDetailsS2CPacket packet, ) { net.minecraft.network.listener.ClientCommonPacketListener.onCustomReportDetails(packet.wrapperContained); }
 public void onServerLinks(yarnwrap.network.packet.s2c.common.ServerLinksS2CPacket packet) { wrapperContained.onServerLinks(packet.wrapperContained); }
 // public static void onServerLinks(yarnwrap.network.packet.s2c.common.ServerLinksS2CPacket packet, ) { net.minecraft.network.listener.ClientCommonPacketListener.onServerLinks(packet.wrapperContained); }
+// public void onClearDialog(yarnwrap.network.packet.s2c.common.ClearDialogS2CPacket packet) { wrapperContained.onClearDialog(packet.wrapperContained); }
+// public static void onClearDialog(yarnwrap.network.packet.s2c.common.ClearDialogS2CPacket packet, ) { net.minecraft.network.listener.ClientCommonPacketListener.onClearDialog(packet.wrapperContained); }
+// public void onShowDialog(yarnwrap.network.packet.s2c.common.ShowDialogS2CPacket packet) { wrapperContained.onShowDialog(packet.wrapperContained); }
+// public static void onShowDialog(yarnwrap.network.packet.s2c.common.ShowDialogS2CPacket packet, ) { net.minecraft.network.listener.ClientCommonPacketListener.onShowDialog(packet.wrapperContained); }
 
 }

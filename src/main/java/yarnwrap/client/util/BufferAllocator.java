@@ -6,10 +6,10 @@ public class BufferAllocator { public net.minecraft.client.util.BufferAllocator 
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.client.util.BufferAllocator.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.util.BufferAllocator.LOGGER = value; }
 
-// public Object allocator() { return wrapperContained.allocator; }
-// // public void allocator(Object value) { wrapperContained.allocator = value; }
-// // public static Object allocator() { return net.minecraft.client.util.BufferAllocator.allocator; }
-// // public static void allocator(Object value, ) { net.minecraft.client.util.BufferAllocator.allocator = value; }
+// public Object ALLOCATOR() { return wrapperContained.ALLOCATOR; }
+// // public void ALLOCATOR(Object value) { wrapperContained.ALLOCATOR = value; }
+// // public static Object ALLOCATOR() { return net.minecraft.client.util.BufferAllocator.ALLOCATOR; }
+// // public static void ALLOCATOR(Object value, ) { net.minecraft.client.util.BufferAllocator.ALLOCATOR = value; }
 
 // public int MIN_GROWTH() { return wrapperContained.MIN_GROWTH; }
 // public void MIN_GROWTH(int value) { wrapperContained.MIN_GROWTH = value; }
@@ -36,10 +36,10 @@ public class BufferAllocator { public net.minecraft.client.util.BufferAllocator 
 // public static int offset() { return net.minecraft.client.util.BufferAllocator.offset; }
 // public static void offset(int value, ) { net.minecraft.client.util.BufferAllocator.offset = value; }
 
-// public int prevOffset() { return wrapperContained.prevOffset; }
-// public void prevOffset(int value) { wrapperContained.prevOffset = value; }
-// public static int prevOffset() { return net.minecraft.client.util.BufferAllocator.prevOffset; }
-// public static void prevOffset(int value, ) { net.minecraft.client.util.BufferAllocator.prevOffset = value; }
+// public int lastOffset() { return wrapperContained.lastOffset; }
+// public void lastOffset(int value) { wrapperContained.lastOffset = value; }
+// public static int lastOffset() { return net.minecraft.client.util.BufferAllocator.lastOffset; }
+// public static void lastOffset(int value, ) { net.minecraft.client.util.BufferAllocator.lastOffset = value; }
 
 // public int refCount() { return wrapperContained.refCount; }
 // public void refCount(int value) { wrapperContained.refCount = value; }
@@ -50,6 +50,11 @@ public class BufferAllocator { public net.minecraft.client.util.BufferAllocator 
 // public void clearCount(int value) { wrapperContained.clearCount = value; }
 // public static int clearCount() { return net.minecraft.client.util.BufferAllocator.clearCount; }
 // public static void clearCount(int value, ) { net.minecraft.client.util.BufferAllocator.clearCount = value; }
+
+// public com.mojang.jtracy.MemoryPool MEMORY_POOL() { return wrapperContained.MEMORY_POOL; }
+// public void MEMORY_POOL(com.mojang.jtracy.MemoryPool value) { wrapperContained.MEMORY_POOL = value; }
+// public static com.mojang.jtracy.MemoryPool MEMORY_POOL() { return net.minecraft.client.util.BufferAllocator.MEMORY_POOL; }
+// public static void MEMORY_POOL(com.mojang.jtracy.MemoryPool value, ) { net.minecraft.client.util.BufferAllocator.MEMORY_POOL = value; }
 
 public BufferAllocator(int size) { this.wrapperContained = new net.minecraft.client.util.BufferAllocator(size); }
 public Object getAllocated() { return wrapperContained.getAllocated(); }

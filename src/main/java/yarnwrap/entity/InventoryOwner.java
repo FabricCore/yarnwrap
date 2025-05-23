@@ -8,11 +8,13 @@ public static java.lang.String INVENTORY_KEY() { return net.minecraft.entity.Inv
 
 public yarnwrap.inventory.SimpleInventory getInventory() { return new yarnwrap.inventory.SimpleInventory(wrapperContained.getInventory()); }
 // public static yarnwrap.inventory.SimpleInventory getInventory() { return new yarnwrap.inventory.SimpleInventory(net.minecraft.entity.InventoryOwner.getInventory()); }
-// public void pickUpItem(yarnwrap.entity.mob.MobEntity entity,yarnwrap.entity.InventoryOwner inventoryOwner,yarnwrap.entity.ItemEntity item) { wrapperContained.pickUpItem(entity.wrapperContained,inventoryOwner.wrapperContained,item.wrapperContained); }
-// public static void pickUpItem(yarnwrap.entity.mob.MobEntity entity,yarnwrap.entity.InventoryOwner inventoryOwner,yarnwrap.entity.ItemEntity item, ) { net.minecraft.entity.InventoryOwner.pickUpItem(entity.wrapperContained,inventoryOwner.wrapperContained,item.wrapperContained); }
-// public void writeInventory(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.writeInventory(nbt.wrapperContained); }
-// public static void writeInventory(yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.entity.InventoryOwner.writeInventory(nbt.wrapperContained); }
-// public void readInventory(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.readInventory(nbt.wrapperContained); }
-// public static void readInventory(yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.entity.InventoryOwner.readInventory(nbt.wrapperContained); }
+// public void pickUpItem(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.MobEntity entity,yarnwrap.entity.InventoryOwner inventoryOwner,yarnwrap.entity.ItemEntity item) { wrapperContained.pickUpItem(world.wrapperContained,entity.wrapperContained,inventoryOwner.wrapperContained,item.wrapperContained); }
+// public static void pickUpItem(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.MobEntity entity,yarnwrap.entity.InventoryOwner inventoryOwner,yarnwrap.entity.ItemEntity item, ) { net.minecraft.entity.InventoryOwner.pickUpItem(world.wrapperContained,entity.wrapperContained,inventoryOwner.wrapperContained,item.wrapperContained); }
+// public void writeInventory(yarnwrap.storage.WriteView view) { wrapperContained.writeInventory(view.wrapperContained); }
+// public static void writeInventory(yarnwrap.storage.WriteView view, ) { net.minecraft.entity.InventoryOwner.writeInventory(view.wrapperContained); }
+// public void readInventory(yarnwrap.storage.ReadView view) { wrapperContained.readInventory(view.wrapperContained); }
+// public static void readInventory(yarnwrap.storage.ReadView view, ) { net.minecraft.entity.InventoryOwner.readInventory(view.wrapperContained); }
+// public void method_68276(Object list) { wrapperContained.method_68276(list); }
+// public static void method_68276(Object list, ) { net.minecraft.entity.InventoryOwner.method_68276(list); }
 
 }

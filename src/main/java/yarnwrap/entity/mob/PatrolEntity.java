@@ -16,6 +16,16 @@ public class PatrolEntity { public net.minecraft.entity.mob.PatrolEntity wrapper
 // public static boolean patrolLeader() { return net.minecraft.entity.mob.PatrolEntity.patrolLeader; }
 // public static void patrolLeader(boolean value, ) { net.minecraft.entity.mob.PatrolEntity.patrolLeader = value; }
 
+// public boolean DEFAULT_PATROL_LEADER() { return wrapperContained.DEFAULT_PATROL_LEADER; }
+// public void DEFAULT_PATROL_LEADER(boolean value) { wrapperContained.DEFAULT_PATROL_LEADER = value; }
+// public static boolean DEFAULT_PATROL_LEADER() { return net.minecraft.entity.mob.PatrolEntity.DEFAULT_PATROL_LEADER; }
+// public static void DEFAULT_PATROL_LEADER(boolean value, ) { net.minecraft.entity.mob.PatrolEntity.DEFAULT_PATROL_LEADER = value; }
+
+// public boolean DEFAULT_PATROLLING() { return wrapperContained.DEFAULT_PATROLLING; }
+// public void DEFAULT_PATROLLING(boolean value) { wrapperContained.DEFAULT_PATROLLING = value; }
+// public static boolean DEFAULT_PATROLLING() { return net.minecraft.entity.mob.PatrolEntity.DEFAULT_PATROLLING; }
+// public static void DEFAULT_PATROLLING(boolean value, ) { net.minecraft.entity.mob.PatrolEntity.DEFAULT_PATROLLING = value; }
+
 public yarnwrap.util.math.BlockPos getPatrolTarget() { return new yarnwrap.util.math.BlockPos(wrapperContained.getPatrolTarget()); }
 // public static yarnwrap.util.math.BlockPos getPatrolTarget() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.mob.PatrolEntity.getPatrolTarget()); }
 public void setPatrolTarget(yarnwrap.util.math.BlockPos targetPos) { wrapperContained.setPatrolTarget(targetPos.wrapperContained); }
@@ -38,7 +48,5 @@ public boolean canLead() { return wrapperContained.canLead(); }
 // public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.mob.PatrolEntity.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public void setPatrolling(boolean patrolling) { wrapperContained.setPatrolling(patrolling); }
 // public static void setPatrolling(boolean patrolling, ) { net.minecraft.entity.mob.PatrolEntity.setPatrolling(patrolling); }
-// public void method_57005(yarnwrap.util.math.BlockPos patrolTarget) { wrapperContained.method_57005(patrolTarget.wrapperContained); }
-// public static void method_57005(yarnwrap.util.math.BlockPos patrolTarget, ) { net.minecraft.entity.mob.PatrolEntity.method_57005(patrolTarget.wrapperContained); }
 
 }

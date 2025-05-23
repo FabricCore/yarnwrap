@@ -36,8 +36,9 @@ public class TeleportTarget { public net.minecraft.world.TeleportTarget wrapperC
 // public static Object ADD_PORTAL_CHUNK_TICKET() { return net.minecraft.world.TeleportTarget.ADD_PORTAL_CHUNK_TICKET; }
 // // public static void ADD_PORTAL_CHUNK_TICKET(Object value, ) { net.minecraft.world.TeleportTarget.ADD_PORTAL_CHUNK_TICKET = value; }
 
-// public TeleportTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,Object postDimensionTransition) { this.wrapperContained = new net.minecraft.world.TeleportTarget(world.wrapperContained,entity.wrapperContained,postDimensionTransition); }
+// public TeleportTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.util.math.Vec3d velocity,float yaw,float pitch,java.util.Set flags,Object postDimensionTransition) { this.wrapperContained = new net.minecraft.world.TeleportTarget(world.wrapperContained,pos.wrapperContained,velocity.wrapperContained,yaw,pitch,flags,postDimensionTransition); }
 // public TeleportTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.util.math.Vec3d velocity,float yaw,float pitch,Object postDimensionTransition) { this.wrapperContained = new net.minecraft.world.TeleportTarget(world.wrapperContained,pos.wrapperContained,velocity.wrapperContained,yaw,pitch,postDimensionTransition); }
+// public TeleportTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,Object postDimensionTransition) { this.wrapperContained = new net.minecraft.world.TeleportTarget(world.wrapperContained,entity.wrapperContained,postDimensionTransition); }
 // public yarnwrap.server.world.ServerWorld world() { return new yarnwrap.server.world.ServerWorld(wrapperContained.world()); }
 // // public static yarnwrap.server.world.ServerWorld world() { return new yarnwrap.server.world.ServerWorld(net.minecraft.world.TeleportTarget.world()); }
 // public yarnwrap.util.math.Vec3d velocity() { return new yarnwrap.util.math.Vec3d(wrapperContained.velocity()); }
@@ -56,5 +57,11 @@ public class TeleportTarget { public net.minecraft.world.TeleportTarget wrapperC
 // public static void addPortalChunkTicket(yarnwrap.entity.Entity entity, ) { net.minecraft.world.TeleportTarget.addPortalChunkTicket(entity.wrapperContained); }
 // public void method_61026(yarnwrap.entity.Entity entity) { wrapperContained.method_61026(entity.wrapperContained); }
 // public static void method_61026(yarnwrap.entity.Entity entity, ) { net.minecraft.world.TeleportTarget.method_61026(entity.wrapperContained); }
+public yarnwrap.world.TeleportTarget withRotation(float yaw,float pitch) { return new yarnwrap.world.TeleportTarget(wrapperContained.withRotation(yaw,pitch)); }
+// public static yarnwrap.world.TeleportTarget withRotation(float yaw,float pitch, ) { return new yarnwrap.world.TeleportTarget(net.minecraft.world.TeleportTarget.withRotation(yaw,pitch)); }
+// public yarnwrap.world.TeleportTarget asPassenger() { return new yarnwrap.world.TeleportTarget(wrapperContained.asPassenger()); }
+// public static yarnwrap.world.TeleportTarget asPassenger() { return new yarnwrap.world.TeleportTarget(net.minecraft.world.TeleportTarget.asPassenger()); }
+public yarnwrap.world.TeleportTarget withPosition(yarnwrap.util.math.Vec3d position) { return new yarnwrap.world.TeleportTarget(wrapperContained.withPosition(position.wrapperContained)); }
+// public static yarnwrap.world.TeleportTarget withPosition(yarnwrap.util.math.Vec3d position, ) { return new yarnwrap.world.TeleportTarget(net.minecraft.world.TeleportTarget.withPosition(position.wrapperContained)); }
 
 }

@@ -26,8 +26,8 @@ public yarnwrap.util.shape.VoxelShape offset(double x,double y,double z) { retur
 // public static yarnwrap.util.shape.VoxelShape offset(double x,double y,double z, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.util.shape.VoxelShape.offset(x,y,z)); }
 public yarnwrap.util.shape.VoxelShape simplify() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.simplify()); }
 // public static yarnwrap.util.shape.VoxelShape simplify() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.util.shape.VoxelShape.simplify()); }
-// public yarnwrap.util.shape.VoxelShape getUncachedFace(yarnwrap.util.math.Direction direction) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getUncachedFace(direction.wrapperContained)); }
-// public static yarnwrap.util.shape.VoxelShape getUncachedFace(yarnwrap.util.math.Direction direction, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.util.shape.VoxelShape.getUncachedFace(direction.wrapperContained)); }
+// public yarnwrap.util.shape.VoxelShape getUncachedFace(yarnwrap.util.math.Direction facing) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getUncachedFace(facing.wrapperContained)); }
+// public static yarnwrap.util.shape.VoxelShape getUncachedFace(yarnwrap.util.math.Direction facing, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.util.shape.VoxelShape.getUncachedFace(facing.wrapperContained)); }
 // public double getPointPosition(Object axis,int index) { return wrapperContained.getPointPosition(axis,index); }
 // public static double getPointPosition(Object axis,int index, ) { return net.minecraft.util.shape.VoxelShape.getPointPosition(axis,index); }
 // public int getCoordIndex(Object axis,double coord) { return wrapperContained.getCoordIndex(axis,coord); }
@@ -64,5 +64,13 @@ public java.util.Optional getClosestPointTo(yarnwrap.util.math.Vec3d target) { r
 // public static double getStartingCoord(Object axis,double from,double to, ) { return net.minecraft.util.shape.VoxelShape.getStartingCoord(axis,from,to); }
 public yarnwrap.util.shape.VoxelShape asCuboid() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.asCuboid()); }
 // public static yarnwrap.util.shape.VoxelShape asCuboid() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.util.shape.VoxelShape.asCuboid()); }
+// public boolean isSquare(Object axis) { return wrapperContained.isSquare(axis); }
+// public static boolean isSquare(Object axis, ) { return net.minecraft.util.shape.VoxelShape.isSquare(axis); }
+// public boolean isCube() { return wrapperContained.isCube(); }
+// public static boolean isCube() { return net.minecraft.util.shape.VoxelShape.isCube(); }
+public yarnwrap.util.shape.VoxelShape offset(yarnwrap.util.math.Vec3d vec3d) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.offset(vec3d.wrapperContained)); }
+// public static yarnwrap.util.shape.VoxelShape offset(yarnwrap.util.math.Vec3d vec3d, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.util.shape.VoxelShape.offset(vec3d.wrapperContained)); }
+public yarnwrap.util.shape.VoxelShape offset(yarnwrap.util.math.Vec3i vec) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.offset(vec.wrapperContained)); }
+// public static yarnwrap.util.shape.VoxelShape offset(yarnwrap.util.math.Vec3i vec, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.util.shape.VoxelShape.offset(vec.wrapperContained)); }
 
 }

@@ -21,17 +21,15 @@ public java.util.stream.Stream getIds() { return wrapperContained.getIds(); }
 // public static java.util.stream.Stream getIds() { return net.minecraft.command.DataCommandStorage.getIds(); }
 // public java.lang.String getSaveKey(java.lang.String namespace) { return wrapperContained.getSaveKey(namespace); }
 // public static java.lang.String getSaveKey(java.lang.String namespace, ) { return net.minecraft.command.DataCommandStorage.getSaveKey(namespace); }
-// public Object createStorage(java.lang.String namespace) { return wrapperContained.createStorage(namespace); }
-// public static Object createStorage(java.lang.String namespace, ) { return net.minecraft.command.DataCommandStorage.createStorage(namespace); }
 // public java.util.stream.Stream method_22545(Object entry) { return wrapperContained.method_22545(entry); }
 // public static java.util.stream.Stream method_22545(Object entry, ) { return net.minecraft.command.DataCommandStorage.method_22545(entry); }
 public yarnwrap.nbt.NbtCompound get(yarnwrap.util.Identifier id) { return new yarnwrap.nbt.NbtCompound(wrapperContained.get(id.wrapperContained)); }
 // public static yarnwrap.nbt.NbtCompound get(yarnwrap.util.Identifier id, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.command.DataCommandStorage.get(id.wrapperContained)); }
 public void set(yarnwrap.util.Identifier id,yarnwrap.nbt.NbtCompound nbt) { wrapperContained.set(id.wrapperContained,nbt.wrapperContained); }
 // public static void set(yarnwrap.util.Identifier id,yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.command.DataCommandStorage.set(id.wrapperContained,nbt.wrapperContained); }
-// public Object method_52613(java.lang.String nbt,yarnwrap.nbt.NbtCompound registryLookup) { return wrapperContained.method_52613(nbt,registryLookup.wrapperContained); }
-// public static Object method_52613(java.lang.String nbt,yarnwrap.nbt.NbtCompound registryLookup, ) { return net.minecraft.command.DataCommandStorage.method_52613(nbt,registryLookup.wrapperContained); }
-// public Object getPersistentStateType(java.lang.String namespace) { return wrapperContained.getPersistentStateType(namespace); }
-// public static Object getPersistentStateType(java.lang.String namespace, ) { return net.minecraft.command.DataCommandStorage.getPersistentStateType(namespace); }
+// public Object getStorage(java.lang.String namespace) { return wrapperContained.getStorage(namespace); }
+// public static Object getStorage(java.lang.String namespace, ) { return net.minecraft.command.DataCommandStorage.getStorage(namespace); }
+// public Object getOrCreateStorage(java.lang.String namespace) { return wrapperContained.getOrCreateStorage(namespace); }
+// public static Object getOrCreateStorage(java.lang.String namespace, ) { return net.minecraft.command.DataCommandStorage.getOrCreateStorage(namespace); }
 
 }

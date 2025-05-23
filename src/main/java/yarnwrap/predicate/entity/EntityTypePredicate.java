@@ -8,9 +8,9 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.pred
 
 public boolean matches(yarnwrap.entity.EntityType type) { return wrapperContained.matches(type.wrapperContained); }
 // public static boolean matches(yarnwrap.entity.EntityType type, ) { return net.minecraft.predicate.entity.EntityTypePredicate.matches(type.wrapperContained); }
-// public yarnwrap.predicate.entity.EntityTypePredicate create(yarnwrap.registry.tag.TagKey tag) { return new yarnwrap.predicate.entity.EntityTypePredicate(wrapperContained.create(tag.wrapperContained)); }
-// public static yarnwrap.predicate.entity.EntityTypePredicate create(yarnwrap.registry.tag.TagKey tag, ) { return new yarnwrap.predicate.entity.EntityTypePredicate(net.minecraft.predicate.entity.EntityTypePredicate.create(tag.wrapperContained)); }
-// public yarnwrap.predicate.entity.EntityTypePredicate create(yarnwrap.entity.EntityType type) { return new yarnwrap.predicate.entity.EntityTypePredicate(wrapperContained.create(type.wrapperContained)); }
-// public static yarnwrap.predicate.entity.EntityTypePredicate create(yarnwrap.entity.EntityType type, ) { return new yarnwrap.predicate.entity.EntityTypePredicate(net.minecraft.predicate.entity.EntityTypePredicate.create(type.wrapperContained)); }
+// public yarnwrap.predicate.entity.EntityTypePredicate create(yarnwrap.registry.RegistryEntryLookup entityTypeRegistry,yarnwrap.registry.tag.TagKey tag) { return new yarnwrap.predicate.entity.EntityTypePredicate(wrapperContained.create(entityTypeRegistry.wrapperContained,tag.wrapperContained)); }
+// public static yarnwrap.predicate.entity.EntityTypePredicate create(yarnwrap.registry.RegistryEntryLookup entityTypeRegistry,yarnwrap.registry.tag.TagKey tag, ) { return new yarnwrap.predicate.entity.EntityTypePredicate(net.minecraft.predicate.entity.EntityTypePredicate.create(entityTypeRegistry.wrapperContained,tag.wrapperContained)); }
+// public yarnwrap.predicate.entity.EntityTypePredicate create(yarnwrap.registry.RegistryEntryLookup entityTypeRegistry,yarnwrap.entity.EntityType type) { return new yarnwrap.predicate.entity.EntityTypePredicate(wrapperContained.create(entityTypeRegistry.wrapperContained,type.wrapperContained)); }
+// public static yarnwrap.predicate.entity.EntityTypePredicate create(yarnwrap.registry.RegistryEntryLookup entityTypeRegistry,yarnwrap.entity.EntityType type, ) { return new yarnwrap.predicate.entity.EntityTypePredicate(net.minecraft.predicate.entity.EntityTypePredicate.create(entityTypeRegistry.wrapperContained,type.wrapperContained)); }
 
 }

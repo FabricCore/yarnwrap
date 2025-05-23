@@ -52,5 +52,7 @@ public VideoOptionsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.clie
 // public static void method_60338(yarnwrap.client.util.Monitor value, ) { net.minecraft.client.gui.screen.option.VideoOptionsScreen.method_60338(value.wrapperContained); }
 // public yarnwrap.text.Text method_60339(yarnwrap.client.util.Monitor optionText,yarnwrap.text.Text value) { return new yarnwrap.text.Text(wrapperContained.method_60339(optionText.wrapperContained,value.wrapperContained)); }
 // public static yarnwrap.text.Text method_60339(yarnwrap.client.util.Monitor optionText,yarnwrap.text.Text value, ) { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.option.VideoOptionsScreen.method_60339(optionText.wrapperContained,value.wrapperContained)); }
+public void updateFullscreenButtonValue(boolean fullscreen) { wrapperContained.updateFullscreenButtonValue(fullscreen); }
+// public static void updateFullscreenButtonValue(boolean fullscreen, ) { net.minecraft.client.gui.screen.option.VideoOptionsScreen.updateFullscreenButtonValue(fullscreen); }
 
 }

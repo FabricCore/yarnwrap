@@ -16,13 +16,13 @@ public class LivingTargetCache { public net.minecraft.entity.ai.brain.LivingTarg
 // public static java.util.function.Predicate targetPredicate() { return net.minecraft.entity.ai.brain.LivingTargetCache.targetPredicate; }
 // public static void targetPredicate(java.util.function.Predicate value, ) { net.minecraft.entity.ai.brain.LivingTargetCache.targetPredicate = value; }
 
-public LivingTargetCache(yarnwrap.entity.LivingEntity owner,java.util.List entities) { this.wrapperContained = new net.minecraft.entity.ai.brain.LivingTargetCache(owner.wrapperContained,entities); }
+public LivingTargetCache(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity owner,java.util.List entities) { this.wrapperContained = new net.minecraft.entity.ai.brain.LivingTargetCache(world.wrapperContained,owner.wrapperContained,entities); }
 // public yarnwrap.entity.ai.brain.LivingTargetCache empty() { return new yarnwrap.entity.ai.brain.LivingTargetCache(wrapperContained.empty()); }
 public static yarnwrap.entity.ai.brain.LivingTargetCache empty() { return new yarnwrap.entity.ai.brain.LivingTargetCache(net.minecraft.entity.ai.brain.LivingTargetCache.empty()); }
 public boolean contains(yarnwrap.entity.LivingEntity entity) { return wrapperContained.contains(entity.wrapperContained); }
 // public static boolean contains(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.ai.brain.LivingTargetCache.contains(entity.wrapperContained); }
-// public boolean method_38973(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_38973(entity.wrapperContained); }
-// public static boolean method_38973(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.ai.brain.LivingTargetCache.method_38973(entity.wrapperContained); }
+// public boolean method_38973(yarnwrap.server.world.ServerWorld entity,yarnwrap.entity.LivingEntity target) { return wrapperContained.method_38973(entity.wrapperContained,target.wrapperContained); }
+// public static boolean method_38973(yarnwrap.server.world.ServerWorld entity,yarnwrap.entity.LivingEntity target, ) { return net.minecraft.entity.ai.brain.LivingTargetCache.method_38973(entity.wrapperContained,target.wrapperContained); }
 // public boolean method_38974(it.unimi.dsi.fastutil.objects.Object2BooleanOpenHashMap entity) { return wrapperContained.method_38974(entity); }
 // public static boolean method_38974(it.unimi.dsi.fastutil.objects.Object2BooleanOpenHashMap entity, ) { return net.minecraft.entity.ai.brain.LivingTargetCache.method_38974(entity); }
 public java.util.Optional findFirst(java.util.function.Predicate predicate) { return wrapperContained.findFirst(predicate); }

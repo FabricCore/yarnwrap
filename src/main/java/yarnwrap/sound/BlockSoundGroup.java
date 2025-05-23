@@ -531,10 +531,10 @@ public static yarnwrap.sound.BlockSoundGroup SUSPICIOUS_SAND() { return new yarn
 public static yarnwrap.sound.BlockSoundGroup DECORATED_POT() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.DECORATED_POT); }
 // public static void DECORATED_POT(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.DECORATED_POT = value.wrapperContained; }
 
-// public yarnwrap.sound.BlockSoundGroup PINK_PETALS() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.PINK_PETALS); }
-// public void PINK_PETALS(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.PINK_PETALS = value.wrapperContained; }
-public static yarnwrap.sound.BlockSoundGroup PINK_PETALS() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.PINK_PETALS); }
-// public static void PINK_PETALS(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.PINK_PETALS = value.wrapperContained; }
+// public yarnwrap.sound.BlockSoundGroup FLOWERBED() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.FLOWERBED); }
+// public void FLOWERBED(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.FLOWERBED = value.wrapperContained; }
+public static yarnwrap.sound.BlockSoundGroup FLOWERBED() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.FLOWERBED); }
+// public static void FLOWERBED(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.FLOWERBED = value.wrapperContained; }
 
 // public yarnwrap.sound.BlockSoundGroup SUSPICIOUS_GRAVEL() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.SUSPICIOUS_GRAVEL); }
 // public void SUSPICIOUS_GRAVEL(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.SUSPICIOUS_GRAVEL = value.wrapperContained; }
@@ -600,6 +600,46 @@ public static yarnwrap.sound.BlockSoundGroup HEAVY_CORE() { return new yarnwrap.
 // public void COBWEB(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.COBWEB = value.wrapperContained; }
 public static yarnwrap.sound.BlockSoundGroup COBWEB() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.COBWEB); }
 // public static void COBWEB(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.COBWEB = value.wrapperContained; }
+
+// public yarnwrap.sound.BlockSoundGroup SPAWNER() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.SPAWNER); }
+// public void SPAWNER(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.SPAWNER = value.wrapperContained; }
+public static yarnwrap.sound.BlockSoundGroup SPAWNER() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.SPAWNER); }
+// public static void SPAWNER(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.SPAWNER = value.wrapperContained; }
+
+// public yarnwrap.sound.BlockSoundGroup CREAKING_HEART() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.CREAKING_HEART); }
+// public void CREAKING_HEART(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.CREAKING_HEART = value.wrapperContained; }
+public static yarnwrap.sound.BlockSoundGroup CREAKING_HEART() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.CREAKING_HEART); }
+// public static void CREAKING_HEART(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.CREAKING_HEART = value.wrapperContained; }
+
+// public yarnwrap.sound.BlockSoundGroup RESIN() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.RESIN); }
+// public void RESIN(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.RESIN = value.wrapperContained; }
+public static yarnwrap.sound.BlockSoundGroup RESIN() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.RESIN); }
+// public static void RESIN(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.RESIN = value.wrapperContained; }
+
+// public yarnwrap.sound.BlockSoundGroup RESIN_BRICKS() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.RESIN_BRICKS); }
+// public void RESIN_BRICKS(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.RESIN_BRICKS = value.wrapperContained; }
+public static yarnwrap.sound.BlockSoundGroup RESIN_BRICKS() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.RESIN_BRICKS); }
+// public static void RESIN_BRICKS(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.RESIN_BRICKS = value.wrapperContained; }
+
+// public yarnwrap.sound.BlockSoundGroup LEAF_LITTER() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.LEAF_LITTER); }
+// public void LEAF_LITTER(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.LEAF_LITTER = value.wrapperContained; }
+public static yarnwrap.sound.BlockSoundGroup LEAF_LITTER() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.LEAF_LITTER); }
+// public static void LEAF_LITTER(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.LEAF_LITTER = value.wrapperContained; }
+
+// public yarnwrap.sound.BlockSoundGroup IRON() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.IRON); }
+// public void IRON(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.IRON = value.wrapperContained; }
+public static yarnwrap.sound.BlockSoundGroup IRON() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.IRON); }
+// public static void IRON(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.IRON = value.wrapperContained; }
+
+// public yarnwrap.sound.BlockSoundGroup CACTUS_FLOWER() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.CACTUS_FLOWER); }
+// public void CACTUS_FLOWER(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.CACTUS_FLOWER = value.wrapperContained; }
+public static yarnwrap.sound.BlockSoundGroup CACTUS_FLOWER() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.CACTUS_FLOWER); }
+// public static void CACTUS_FLOWER(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.CACTUS_FLOWER = value.wrapperContained; }
+
+// public yarnwrap.sound.BlockSoundGroup DRIED_GHAST() { return new yarnwrap.sound.BlockSoundGroup(wrapperContained.DRIED_GHAST); }
+// public void DRIED_GHAST(yarnwrap.sound.BlockSoundGroup value) { wrapperContained.DRIED_GHAST = value.wrapperContained; }
+// public static yarnwrap.sound.BlockSoundGroup DRIED_GHAST() { return new yarnwrap.sound.BlockSoundGroup(net.minecraft.sound.BlockSoundGroup.DRIED_GHAST); }
+// public static void DRIED_GHAST(yarnwrap.sound.BlockSoundGroup value, ) { net.minecraft.sound.BlockSoundGroup.DRIED_GHAST = value.wrapperContained; }
 
 public BlockSoundGroup(float volume,float pitch,yarnwrap.sound.SoundEvent breakSound,yarnwrap.sound.SoundEvent stepSound,yarnwrap.sound.SoundEvent placeSound,yarnwrap.sound.SoundEvent hitSound,yarnwrap.sound.SoundEvent fallSound) { this.wrapperContained = new net.minecraft.sound.BlockSoundGroup(volume,pitch,breakSound.wrapperContained,stepSound.wrapperContained,placeSound.wrapperContained,hitSound.wrapperContained,fallSound.wrapperContained); }
 public yarnwrap.sound.SoundEvent getFallSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getFallSound()); }

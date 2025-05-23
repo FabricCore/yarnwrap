@@ -6,11 +6,6 @@ public class ServerLightingProvider { public net.minecraft.server.world.ServerLi
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.server.world.ServerLightingProvider.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.server.world.ServerLightingProvider.LOGGER = value; }
 
-// public yarnwrap.util.thread.TaskExecutor processor() { return new yarnwrap.util.thread.TaskExecutor(wrapperContained.processor); }
-// public void processor(yarnwrap.util.thread.TaskExecutor value) { wrapperContained.processor = value.wrapperContained; }
-// public static yarnwrap.util.thread.TaskExecutor processor() { return new yarnwrap.util.thread.TaskExecutor(net.minecraft.server.world.ServerLightingProvider.processor); }
-// public static void processor(yarnwrap.util.thread.TaskExecutor value, ) { net.minecraft.server.world.ServerLightingProvider.processor = value.wrapperContained; }
-
 // public it.unimi.dsi.fastutil.objects.ObjectList pendingTasks() { return wrapperContained.pendingTasks; }
 // public void pendingTasks(it.unimi.dsi.fastutil.objects.ObjectList value) { wrapperContained.pendingTasks = value; }
 // public static it.unimi.dsi.fastutil.objects.ObjectList pendingTasks() { return net.minecraft.server.world.ServerLightingProvider.pendingTasks; }
@@ -20,11 +15,6 @@ public class ServerLightingProvider { public net.minecraft.server.world.ServerLi
 // public void chunkLoadingManager(yarnwrap.server.world.ServerChunkLoadingManager value) { wrapperContained.chunkLoadingManager = value.wrapperContained; }
 // public static yarnwrap.server.world.ServerChunkLoadingManager chunkLoadingManager() { return new yarnwrap.server.world.ServerChunkLoadingManager(net.minecraft.server.world.ServerLightingProvider.chunkLoadingManager); }
 // public static void chunkLoadingManager(yarnwrap.server.world.ServerChunkLoadingManager value, ) { net.minecraft.server.world.ServerLightingProvider.chunkLoadingManager = value.wrapperContained; }
-
-// public yarnwrap.util.thread.MessageListener executor() { return new yarnwrap.util.thread.MessageListener(wrapperContained.executor); }
-// public void executor(yarnwrap.util.thread.MessageListener value) { wrapperContained.executor = value.wrapperContained; }
-// public static yarnwrap.util.thread.MessageListener executor() { return new yarnwrap.util.thread.MessageListener(net.minecraft.server.world.ServerLightingProvider.executor); }
-// public static void executor(yarnwrap.util.thread.MessageListener value, ) { net.minecraft.server.world.ServerLightingProvider.executor = value.wrapperContained; }
 
 // public int taskBatchSize() { return wrapperContained.taskBatchSize; }
 // public void taskBatchSize(int value) { wrapperContained.taskBatchSize = value; }
@@ -36,7 +26,17 @@ public class ServerLightingProvider { public net.minecraft.server.world.ServerLi
 // public static java.util.concurrent.atomic.AtomicBoolean ticking() { return net.minecraft.server.world.ServerLightingProvider.ticking; }
 // public static void ticking(java.util.concurrent.atomic.AtomicBoolean value, ) { net.minecraft.server.world.ServerLightingProvider.ticking = value; }
 
-public ServerLightingProvider(yarnwrap.world.chunk.ChunkProvider chunkProvider,yarnwrap.server.world.ServerChunkLoadingManager chunkLoadingManager,boolean hasBlockLight,yarnwrap.util.thread.TaskExecutor processor,yarnwrap.util.thread.MessageListener executor) { this.wrapperContained = new net.minecraft.server.world.ServerLightingProvider(chunkProvider.wrapperContained,chunkLoadingManager.wrapperContained,hasBlockLight,processor.wrapperContained,executor.wrapperContained); }
+// public yarnwrap.util.thread.SimpleConsecutiveExecutor processor() { return new yarnwrap.util.thread.SimpleConsecutiveExecutor(wrapperContained.processor); }
+// public void processor(yarnwrap.util.thread.SimpleConsecutiveExecutor value) { wrapperContained.processor = value.wrapperContained; }
+// public static yarnwrap.util.thread.SimpleConsecutiveExecutor processor() { return new yarnwrap.util.thread.SimpleConsecutiveExecutor(net.minecraft.server.world.ServerLightingProvider.processor); }
+// public static void processor(yarnwrap.util.thread.SimpleConsecutiveExecutor value, ) { net.minecraft.server.world.ServerLightingProvider.processor = value.wrapperContained; }
+
+// public yarnwrap.server.world.ChunkTaskScheduler executor() { return new yarnwrap.server.world.ChunkTaskScheduler(wrapperContained.executor); }
+// public void executor(yarnwrap.server.world.ChunkTaskScheduler value) { wrapperContained.executor = value.wrapperContained; }
+// public static yarnwrap.server.world.ChunkTaskScheduler executor() { return new yarnwrap.server.world.ChunkTaskScheduler(net.minecraft.server.world.ServerLightingProvider.executor); }
+// public static void executor(yarnwrap.server.world.ChunkTaskScheduler value, ) { net.minecraft.server.world.ServerLightingProvider.executor = value.wrapperContained; }
+
+public ServerLightingProvider(yarnwrap.world.chunk.ChunkProvider chunkProvider,yarnwrap.server.world.ServerChunkLoadingManager chunkLoadingManager,boolean hasBlockLight,yarnwrap.util.thread.SimpleConsecutiveExecutor processor,yarnwrap.server.world.ChunkTaskScheduler executor) { this.wrapperContained = new net.minecraft.server.world.ServerLightingProvider(chunkProvider.wrapperContained,chunkLoadingManager.wrapperContained,hasBlockLight,processor.wrapperContained,executor.wrapperContained); }
 // public void runTasks() { wrapperContained.runTasks(); }
 // public static void runTasks() { net.minecraft.server.world.ServerLightingProvider.runTasks(); }
 public void tick() { wrapperContained.tick(); }

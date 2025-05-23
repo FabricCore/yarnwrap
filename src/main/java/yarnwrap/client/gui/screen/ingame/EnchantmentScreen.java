@@ -56,11 +56,6 @@ public void pageAngle(float value) { wrapperContained.pageAngle = value; }
 // public static float pageAngle() { return net.minecraft.client.gui.screen.ingame.EnchantmentScreen.pageAngle; }
 // public static void pageAngle(float value, ) { net.minecraft.client.gui.screen.ingame.EnchantmentScreen.pageAngle = value; }
 
-public int ticks() { return wrapperContained.ticks; }
-public void ticks(int value) { wrapperContained.ticks = value; }
-// public static int ticks() { return net.minecraft.client.gui.screen.ingame.EnchantmentScreen.ticks; }
-// public static void ticks(int value, ) { net.minecraft.client.gui.screen.ingame.EnchantmentScreen.ticks = value; }
-
 // public net.minecraft.util.Identifier[] LEVEL_TEXTURES() { return wrapperContained.LEVEL_TEXTURES; }
 // public void LEVEL_TEXTURES(net.minecraft.util.Identifier[] value) { wrapperContained.LEVEL_TEXTURES = value; }
 // public static net.minecraft.util.Identifier[] LEVEL_TEXTURES() { return net.minecraft.client.gui.screen.ingame.EnchantmentScreen.LEVEL_TEXTURES; }
@@ -89,7 +84,7 @@ public void ticks(int value) { wrapperContained.ticks = value; }
 public EnchantmentScreen(yarnwrap.screen.EnchantmentScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.EnchantmentScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 public void doTick() { wrapperContained.doTick(); }
 // public static void doTick() { net.minecraft.client.gui.screen.ingame.EnchantmentScreen.doTick(); }
-// public void drawBook(yarnwrap.client.gui.DrawContext context,int x,int y,float delta) { wrapperContained.drawBook(context.wrapperContained,x,y,delta); }
-// public static void drawBook(yarnwrap.client.gui.DrawContext context,int x,int y,float delta, ) { net.minecraft.client.gui.screen.ingame.EnchantmentScreen.drawBook(context.wrapperContained,x,y,delta); }
+// public void drawBook(yarnwrap.client.gui.DrawContext context,int x,int y) { wrapperContained.drawBook(context.wrapperContained,x,y); }
+// public static void drawBook(yarnwrap.client.gui.DrawContext context,int x,int y, ) { net.minecraft.client.gui.screen.ingame.EnchantmentScreen.drawBook(context.wrapperContained,x,y); }
 
 }

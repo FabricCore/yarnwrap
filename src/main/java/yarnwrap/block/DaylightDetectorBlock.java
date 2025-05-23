@@ -21,9 +21,9 @@ public static yarnwrap.state.property.BooleanProperty INVERTED() { return new ya
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.DaylightDetectorBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.DaylightDetectorBlock.CODEC = value; }
 
-// public void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.DaylightDetectorBlockEntity blockEntity) { wrapperContained.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
-// public static void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.DaylightDetectorBlockEntity blockEntity, ) { net.minecraft.block.DaylightDetectorBlock.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 // public void updateState(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.updateState(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
 // public static void updateState(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.DaylightDetectorBlock.updateState(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
+// public void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.DaylightDetectorBlockEntity blockEntity) { wrapperContained.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
+// public static void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.DaylightDetectorBlockEntity blockEntity, ) { net.minecraft.block.DaylightDetectorBlock.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 
 }

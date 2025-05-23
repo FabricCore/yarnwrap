@@ -31,8 +31,15 @@ public class FleeTask { public net.minecraft.entity.ai.brain.task.FleeTask wrapp
 // public static java.util.function.Function entityToDangerousDamageTypes() { return net.minecraft.entity.ai.brain.task.FleeTask.entityToDangerousDamageTypes; }
 // public static void entityToDangerousDamageTypes(java.util.function.Function value, ) { net.minecraft.entity.ai.brain.task.FleeTask.entityToDangerousDamageTypes = value; }
 
+// public java.util.function.Function pathFinder() { return wrapperContained.pathFinder; }
+// public void pathFinder(java.util.function.Function value) { wrapperContained.pathFinder = value; }
+// public static java.util.function.Function pathFinder() { return net.minecraft.entity.ai.brain.task.FleeTask.pathFinder; }
+// public static void pathFinder(java.util.function.Function value, ) { net.minecraft.entity.ai.brain.task.FleeTask.pathFinder = value; }
+
 public FleeTask(float speed) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.FleeTask(speed); }
+// public FleeTask(float speed,int startHeight) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.FleeTask(speed,startHeight); }
 public FleeTask(float speed,java.util.function.Function entityToDangerousDamageTypes) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.FleeTask(speed,entityToDangerousDamageTypes); }
+// public FleeTask(float speed,java.util.function.Function entityToDangerousDamageTypes,java.util.function.Function pathFinder) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.FleeTask(speed,entityToDangerousDamageTypes,pathFinder); }
 // public yarnwrap.util.math.Vec3d findTarget(yarnwrap.entity.mob.PathAwareEntity entity,yarnwrap.server.world.ServerWorld world) { return new yarnwrap.util.math.Vec3d(wrapperContained.findTarget(entity.wrapperContained,world.wrapperContained)); }
 // public static yarnwrap.util.math.Vec3d findTarget(yarnwrap.entity.mob.PathAwareEntity entity,yarnwrap.server.world.ServerWorld world, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.ai.brain.task.FleeTask.findTarget(entity.wrapperContained,world.wrapperContained)); }
 // public java.util.Optional findClosestWater(yarnwrap.world.BlockView world,yarnwrap.entity.Entity entity) { return wrapperContained.findClosestWater(world.wrapperContained,entity.wrapperContained); }
@@ -47,5 +54,13 @@ public FleeTask(float speed,java.util.function.Function entityToDangerousDamageT
 // public static yarnwrap.registry.tag.TagKey method_60720(yarnwrap.entity.mob.PathAwareEntity entity, ) { return new yarnwrap.registry.tag.TagKey(net.minecraft.entity.ai.brain.task.FleeTask.method_60720(entity.wrapperContained)); }
 // public java.lang.Boolean method_60721(yarnwrap.entity.mob.PathAwareEntity hurtBy) { return wrapperContained.method_60721(hurtBy.wrapperContained); }
 // public static java.lang.Boolean method_60721(yarnwrap.entity.mob.PathAwareEntity hurtBy, ) { return net.minecraft.entity.ai.brain.task.FleeTask.method_60721(hurtBy.wrapperContained); }
+// public yarnwrap.util.math.Vec3d method_70678(int entity) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_70678(entity)); }
+// public static yarnwrap.util.math.Vec3d method_70678(int entity, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.ai.brain.task.FleeTask.method_70678(entity)); }
+// public yarnwrap.util.math.Vec3d method_70679(yarnwrap.entity.mob.PathAwareEntity entity) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_70679(entity.wrapperContained)); }
+// public static yarnwrap.util.math.Vec3d method_70679(yarnwrap.entity.mob.PathAwareEntity entity, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.ai.brain.task.FleeTask.method_70679(entity.wrapperContained)); }
+// public yarnwrap.registry.tag.TagKey method_70680(yarnwrap.entity.mob.PathAwareEntity entity) { return new yarnwrap.registry.tag.TagKey(wrapperContained.method_70680(entity.wrapperContained)); }
+// public static yarnwrap.registry.tag.TagKey method_70680(yarnwrap.entity.mob.PathAwareEntity entity, ) { return new yarnwrap.registry.tag.TagKey(net.minecraft.entity.ai.brain.task.FleeTask.method_70680(entity.wrapperContained)); }
+// public yarnwrap.util.math.Vec3d method_70681(yarnwrap.entity.mob.PathAwareEntity entity) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_70681(entity.wrapperContained)); }
+// public static yarnwrap.util.math.Vec3d method_70681(yarnwrap.entity.mob.PathAwareEntity entity, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.ai.brain.task.FleeTask.method_70681(entity.wrapperContained)); }
 
 }

@@ -17,11 +17,11 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.CoralBlockBlock.CODEC = value; }
 
 // public CoralBlockBlock(yarnwrap.block.Block deadCoralBlock,Object settings) { this.wrapperContained = new net.minecraft.block.CoralBlockBlock(deadCoralBlock.wrapperContained,settings); }
+// public boolean isInWater(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isInWater(world.wrapperContained,pos.wrapperContained); }
+// public static boolean isInWater(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.CoralBlockBlock.isInWater(world.wrapperContained,pos.wrapperContained); }
 // public com.mojang.datafixers.kinds.App method_54002(Object instance) { return wrapperContained.method_54002(instance); }
 // public static com.mojang.datafixers.kinds.App method_54002(Object instance, ) { return net.minecraft.block.CoralBlockBlock.method_54002(instance); }
 // public yarnwrap.block.Block method_54003(yarnwrap.block.CoralBlockBlock block) { return new yarnwrap.block.Block(wrapperContained.method_54003(block.wrapperContained)); }
 // public static yarnwrap.block.Block method_54003(yarnwrap.block.CoralBlockBlock block, ) { return new yarnwrap.block.Block(net.minecraft.block.CoralBlockBlock.method_54003(block.wrapperContained)); }
-// public boolean isInWater(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isInWater(world.wrapperContained,pos.wrapperContained); }
-// public static boolean isInWater(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.CoralBlockBlock.isInWater(world.wrapperContained,pos.wrapperContained); }
 
 }

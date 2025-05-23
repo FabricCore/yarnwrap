@@ -1,11 +1,6 @@
 package yarnwrap.client.texture;
 public class TextureManager { public net.minecraft.client.texture.TextureManager wrapperContained; public TextureManager(net.minecraft.client.texture.TextureManager wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.Map dynamicIdCounters() { return wrapperContained.dynamicIdCounters; }
-// public void dynamicIdCounters(java.util.Map value) { wrapperContained.dynamicIdCounters = value; }
-// public static java.util.Map dynamicIdCounters() { return net.minecraft.client.texture.TextureManager.dynamicIdCounters; }
-// public static void dynamicIdCounters(java.util.Map value, ) { net.minecraft.client.texture.TextureManager.dynamicIdCounters = value; }
-
 // public java.util.Set tickListeners() { return wrapperContained.tickListeners; }
 // public void tickListeners(java.util.Set value) { wrapperContained.tickListeners = value; }
 // public static java.util.Set tickListeners() { return net.minecraft.client.texture.TextureManager.tickListeners; }
@@ -32,35 +27,31 @@ public static yarnwrap.util.Identifier MISSING_IDENTIFIER() { return new yarnwra
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.texture.TextureManager.LOGGER = value; }
 
 public TextureManager(yarnwrap.resource.ResourceManager resourceManager) { this.wrapperContained = new net.minecraft.client.texture.TextureManager(resourceManager.wrapperContained); }
-public java.util.concurrent.CompletableFuture loadTextureAsync(yarnwrap.util.Identifier id,java.util.concurrent.Executor executor) { return wrapperContained.loadTextureAsync(id.wrapperContained,executor); }
-// public static java.util.concurrent.CompletableFuture loadTextureAsync(yarnwrap.util.Identifier id,java.util.concurrent.Executor executor, ) { return net.minecraft.client.texture.TextureManager.loadTextureAsync(id.wrapperContained,executor); }
-// public void runOnRenderThread(java.lang.Runnable runnable) { wrapperContained.runOnRenderThread(runnable); }
-// public static void runOnRenderThread(java.lang.Runnable runnable, ) { net.minecraft.client.texture.TextureManager.runOnRenderThread(runnable); }
-public void bindTexture(yarnwrap.util.Identifier id) { wrapperContained.bindTexture(id.wrapperContained); }
-// public static void bindTexture(yarnwrap.util.Identifier id, ) { net.minecraft.client.texture.TextureManager.bindTexture(id.wrapperContained); }
-// public void method_22814(java.lang.Runnable runnable) { wrapperContained.method_22814(runnable); }
-// public static void method_22814(java.lang.Runnable runnable, ) { net.minecraft.client.texture.TextureManager.method_22814(runnable); }
-// public yarnwrap.client.texture.AbstractTexture loadTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.AbstractTexture texture) { return new yarnwrap.client.texture.AbstractTexture(wrapperContained.loadTexture(id.wrapperContained,texture.wrapperContained)); }
-// public static yarnwrap.client.texture.AbstractTexture loadTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.AbstractTexture texture, ) { return new yarnwrap.client.texture.AbstractTexture(net.minecraft.client.texture.TextureManager.loadTexture(id.wrapperContained,texture.wrapperContained)); }
-// public void closeTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.AbstractTexture texture) { wrapperContained.closeTexture(id.wrapperContained,texture.wrapperContained); }
-// public static void closeTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.AbstractTexture texture, ) { net.minecraft.client.texture.TextureManager.closeTexture(id.wrapperContained,texture.wrapperContained); }
-public yarnwrap.client.texture.AbstractTexture getOrDefault(yarnwrap.util.Identifier id,yarnwrap.client.texture.AbstractTexture fallback) { return new yarnwrap.client.texture.AbstractTexture(wrapperContained.getOrDefault(id.wrapperContained,fallback.wrapperContained)); }
-// public static yarnwrap.client.texture.AbstractTexture getOrDefault(yarnwrap.util.Identifier id,yarnwrap.client.texture.AbstractTexture fallback, ) { return new yarnwrap.client.texture.AbstractTexture(net.minecraft.client.texture.TextureManager.getOrDefault(id.wrapperContained,fallback.wrapperContained)); }
 public void destroyTexture(yarnwrap.util.Identifier id) { wrapperContained.destroyTexture(id.wrapperContained); }
 // public static void destroyTexture(yarnwrap.util.Identifier id, ) { net.minecraft.client.texture.TextureManager.destroyTexture(id.wrapperContained); }
 public void registerTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.AbstractTexture texture) { wrapperContained.registerTexture(id.wrapperContained,texture.wrapperContained); }
 // public static void registerTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.AbstractTexture texture, ) { net.minecraft.client.texture.TextureManager.registerTexture(id.wrapperContained,texture.wrapperContained); }
-public yarnwrap.util.Identifier registerDynamicTexture(java.lang.String prefix,yarnwrap.client.texture.NativeImageBackedTexture texture) { return new yarnwrap.util.Identifier(wrapperContained.registerDynamicTexture(prefix,texture.wrapperContained)); }
-// public static yarnwrap.util.Identifier registerDynamicTexture(java.lang.String prefix,yarnwrap.client.texture.NativeImageBackedTexture texture, ) { return new yarnwrap.util.Identifier(net.minecraft.client.texture.TextureManager.registerDynamicTexture(prefix,texture.wrapperContained)); }
-// public void bindTextureInner(yarnwrap.util.Identifier id) { wrapperContained.bindTextureInner(id.wrapperContained); }
-// public static void bindTextureInner(yarnwrap.util.Identifier id, ) { net.minecraft.client.texture.TextureManager.bindTextureInner(id.wrapperContained); }
 public yarnwrap.client.texture.AbstractTexture getTexture(yarnwrap.util.Identifier id) { return new yarnwrap.client.texture.AbstractTexture(wrapperContained.getTexture(id.wrapperContained)); }
 // public static yarnwrap.client.texture.AbstractTexture getTexture(yarnwrap.util.Identifier id, ) { return new yarnwrap.client.texture.AbstractTexture(net.minecraft.client.texture.TextureManager.getTexture(id.wrapperContained)); }
+// public void closeTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.AbstractTexture texture) { wrapperContained.closeTexture(id.wrapperContained,texture.wrapperContained); }
+// public static void closeTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.AbstractTexture texture, ) { net.minecraft.client.texture.TextureManager.closeTexture(id.wrapperContained,texture.wrapperContained); }
 public void dumpDynamicTextures(java.nio.file.Path path) { wrapperContained.dumpDynamicTextures(path); }
 // public static void dumpDynamicTextures(java.nio.file.Path path, ) { net.minecraft.client.texture.TextureManager.dumpDynamicTextures(path); }
-// public void method_49716(java.nio.file.Path id,yarnwrap.util.Identifier texture) { wrapperContained.method_49716(id,texture.wrapperContained); }
-// public static void method_49716(java.nio.file.Path id,yarnwrap.util.Identifier texture, ) { net.minecraft.client.texture.TextureManager.method_49716(id,texture.wrapperContained); }
-// public void dumpDynamicTexturesInternal(java.nio.file.Path path) { wrapperContained.dumpDynamicTexturesInternal(path); }
-// public static void dumpDynamicTexturesInternal(java.nio.file.Path path, ) { net.minecraft.client.texture.TextureManager.dumpDynamicTexturesInternal(path); }
+// public void method_49718(java.nio.file.Path id,yarnwrap.util.Identifier texture) { wrapperContained.method_49718(id,texture.wrapperContained); }
+// public static void method_49718(java.nio.file.Path id,yarnwrap.util.Identifier texture, ) { net.minecraft.client.texture.TextureManager.method_49718(id,texture.wrapperContained); }
+public void registerTexture(yarnwrap.util.Identifier id) { wrapperContained.registerTexture(id.wrapperContained); }
+// public static void registerTexture(yarnwrap.util.Identifier id, ) { net.minecraft.client.texture.TextureManager.registerTexture(id.wrapperContained); }
+public void registerTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.ReloadableTexture texture) { wrapperContained.registerTexture(id.wrapperContained,texture.wrapperContained); }
+// public static void registerTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.ReloadableTexture texture, ) { net.minecraft.client.texture.TextureManager.registerTexture(id.wrapperContained,texture.wrapperContained); }
+// public yarnwrap.client.texture.TextureContents loadTexture(yarnwrap.resource.ResourceManager resourceManager,yarnwrap.util.Identifier textureId,yarnwrap.client.texture.ReloadableTexture texture) { return new yarnwrap.client.texture.TextureContents(wrapperContained.loadTexture(resourceManager.wrapperContained,textureId.wrapperContained,texture.wrapperContained)); }
+// public static yarnwrap.client.texture.TextureContents loadTexture(yarnwrap.resource.ResourceManager resourceManager,yarnwrap.util.Identifier textureId,yarnwrap.client.texture.ReloadableTexture texture, ) { return new yarnwrap.client.texture.TextureContents(net.minecraft.client.texture.TextureManager.loadTexture(resourceManager.wrapperContained,textureId.wrapperContained,texture.wrapperContained)); }
+// public Object reloadTexture(yarnwrap.resource.ResourceManager resourceManager,yarnwrap.util.Identifier textureId,yarnwrap.client.texture.ReloadableTexture texture,java.util.concurrent.Executor prepareExecutor) { return wrapperContained.reloadTexture(resourceManager.wrapperContained,textureId.wrapperContained,texture.wrapperContained,prepareExecutor); }
+// public static Object reloadTexture(yarnwrap.resource.ResourceManager resourceManager,yarnwrap.util.Identifier textureId,yarnwrap.client.texture.ReloadableTexture texture,java.util.concurrent.Executor prepareExecutor, ) { return net.minecraft.client.texture.TextureManager.reloadTexture(resourceManager.wrapperContained,textureId.wrapperContained,texture.wrapperContained,prepareExecutor); }
+// public void method_65879(java.util.List id,yarnwrap.resource.ResourceManager texture) { wrapperContained.method_65879(id,texture.wrapperContained); }
+// public static void method_65879(java.util.List id,yarnwrap.resource.ResourceManager texture, ) { net.minecraft.client.texture.TextureManager.method_65879(id,texture.wrapperContained); }
+// public void method_65880(java.util.List v) { wrapperContained.method_65880(v); }
+// public static void method_65880(java.util.List v, ) { net.minecraft.client.texture.TextureManager.method_65880(v); }
+// public yarnwrap.client.texture.TextureContents loadTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.ReloadableTexture texture) { return new yarnwrap.client.texture.TextureContents(wrapperContained.loadTexture(id.wrapperContained,texture.wrapperContained)); }
+// public static yarnwrap.client.texture.TextureContents loadTexture(yarnwrap.util.Identifier id,yarnwrap.client.texture.ReloadableTexture texture, ) { return new yarnwrap.client.texture.TextureContents(net.minecraft.client.texture.TextureManager.loadTexture(id.wrapperContained,texture.wrapperContained)); }
 
 }

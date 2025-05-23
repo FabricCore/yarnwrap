@@ -12,10 +12,8 @@ public class ForgingSlotsManager { public net.minecraft.screen.slot.ForgingSlots
 // // public static void resultSlot(Object value, ) { net.minecraft.screen.slot.ForgingSlotsManager.resultSlot = value; }
 
 // public ForgingSlotsManager(java.util.List inputSlots,Object resultSlot) { this.wrapperContained = new net.minecraft.screen.slot.ForgingSlotsManager(inputSlots,resultSlot); }
-// public Object create() { return wrapperContained.create(); }
-public static Object create() { return net.minecraft.screen.slot.ForgingSlotsManager.create(); }
-public boolean hasSlotIndex(int index) { return wrapperContained.hasSlotIndex(index); }
-// public static boolean hasSlotIndex(int index, ) { return net.minecraft.screen.slot.ForgingSlotsManager.hasSlotIndex(index); }
+// public Object builder() { return wrapperContained.builder(); }
+public static Object builder() { return net.minecraft.screen.slot.ForgingSlotsManager.builder(); }
 public Object getResultSlot() { return wrapperContained.getResultSlot(); }
 // public static Object getResultSlot() { return net.minecraft.screen.slot.ForgingSlotsManager.getResultSlot(); }
 public Object getInputSlot(int index) { return wrapperContained.getInputSlot(index); }
@@ -26,7 +24,5 @@ public int getInputSlotCount() { return wrapperContained.getInputSlotCount(); }
 // public static int getInputSlotCount() { return net.minecraft.screen.slot.ForgingSlotsManager.getInputSlotCount(); }
 public int getResultSlotIndex() { return wrapperContained.getResultSlotIndex(); }
 // public static int getResultSlotIndex() { return net.minecraft.screen.slot.ForgingSlotsManager.getResultSlotIndex(); }
-public java.util.List getInputSlotIndices() { return wrapperContained.getInputSlotIndices(); }
-// public static java.util.List getInputSlotIndices() { return net.minecraft.screen.slot.ForgingSlotsManager.getInputSlotIndices(); }
 
 }

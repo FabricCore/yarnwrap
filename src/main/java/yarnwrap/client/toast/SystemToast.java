@@ -56,6 +56,11 @@ public class SystemToast { public net.minecraft.client.toast.SystemToast wrapper
 // public static boolean hidden() { return net.minecraft.client.toast.SystemToast.hidden; }
 // public static void hidden(boolean value, ) { net.minecraft.client.toast.SystemToast.hidden = value; }
 
+// public Object visibility() { return wrapperContained.visibility; }
+// // public void visibility(Object value) { wrapperContained.visibility = value; }
+// // public static Object visibility() { return net.minecraft.client.toast.SystemToast.visibility; }
+// // public static void visibility(Object value, ) { net.minecraft.client.toast.SystemToast.visibility = value; }
+
 // public SystemToast(Object type,yarnwrap.text.Text title,java.util.List lines,int width) { this.wrapperContained = new net.minecraft.client.toast.SystemToast(type,title.wrapperContained,lines,width); }
 // public SystemToast(Object type,yarnwrap.text.Text title,yarnwrap.text.Text description) { this.wrapperContained = new net.minecraft.client.toast.SystemToast(type,title.wrapperContained,description.wrapperContained); }
 // public void show(yarnwrap.client.toast.ToastManager manager,Object type,yarnwrap.text.Text title,yarnwrap.text.Text description) { wrapperContained.show(manager.wrapperContained,type,title.wrapperContained,description.wrapperContained); }
@@ -68,8 +73,6 @@ public void setContent(yarnwrap.text.Text title,yarnwrap.text.Text description) 
 // public static void add(yarnwrap.client.toast.ToastManager manager,Object type,yarnwrap.text.Text title,yarnwrap.text.Text description, ) { net.minecraft.client.toast.SystemToast.add(manager.wrapperContained,type,title.wrapperContained,description.wrapperContained); }
 // public void addWorldDeleteFailureToast(yarnwrap.client.MinecraftClient client,java.lang.String worldName) { wrapperContained.addWorldDeleteFailureToast(client.wrapperContained,worldName); }
 // public static void addWorldDeleteFailureToast(yarnwrap.client.MinecraftClient client,java.lang.String worldName, ) { net.minecraft.client.toast.SystemToast.addWorldDeleteFailureToast(client.wrapperContained,worldName); }
-// public void drawPart(yarnwrap.client.gui.DrawContext context) { wrapperContained.drawPart(context.wrapperContained); }
-// public static void drawPart(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.toast.SystemToast.drawPart(context.wrapperContained); }
 // public yarnwrap.client.toast.SystemToast create(yarnwrap.client.MinecraftClient client,Object type,yarnwrap.text.Text title,yarnwrap.text.Text description) { return new yarnwrap.client.toast.SystemToast(wrapperContained.create(client.wrapperContained,type,title.wrapperContained,description.wrapperContained)); }
 // public static yarnwrap.client.toast.SystemToast create(yarnwrap.client.MinecraftClient client,Object type,yarnwrap.text.Text title,yarnwrap.text.Text description, ) { return new yarnwrap.client.toast.SystemToast(net.minecraft.client.toast.SystemToast.create(client.wrapperContained,type,title.wrapperContained,description.wrapperContained)); }
 // public com.google.common.collect.ImmutableList getTextAsList(yarnwrap.text.Text text) { return wrapperContained.getTextAsList(text.wrapperContained); }

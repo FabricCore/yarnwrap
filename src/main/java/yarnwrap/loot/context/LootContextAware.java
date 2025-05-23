@@ -3,7 +3,7 @@ public class LootContextAware { public net.minecraft.loot.context.LootContextAwa
 
 public void validate(yarnwrap.loot.LootTableReporter reporter) { wrapperContained.validate(reporter.wrapperContained); }
 // public static void validate(yarnwrap.loot.LootTableReporter reporter, ) { net.minecraft.loot.context.LootContextAware.validate(reporter.wrapperContained); }
-public java.util.Set getRequiredParameters() { return wrapperContained.getRequiredParameters(); }
-// public static java.util.Set getRequiredParameters() { return net.minecraft.loot.context.LootContextAware.getRequiredParameters(); }
+public java.util.Set getAllowedParameters() { return wrapperContained.getAllowedParameters(); }
+// public static java.util.Set getAllowedParameters() { return net.minecraft.loot.context.LootContextAware.getAllowedParameters(); }
 
 }

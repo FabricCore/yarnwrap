@@ -40,5 +40,7 @@ public java.lang.String loadImport(boolean inline,java.lang.String name) { retur
 // public static boolean isLineValid(java.lang.String line,java.util.regex.Matcher matcher, ) { return net.minecraft.client.gl.GlImportProcessor.isLineValid(line,matcher); }
 // public boolean hasBogusString(java.lang.String string,java.util.regex.Matcher matcher,int matchEnd) { return wrapperContained.hasBogusString(string,matcher,matchEnd); }
 // public static boolean hasBogusString(java.lang.String string,java.util.regex.Matcher matcher,int matchEnd, ) { return net.minecraft.client.gl.GlImportProcessor.hasBogusString(string,matcher,matchEnd); }
+// public java.lang.String addDefines(java.lang.String source,yarnwrap.client.gl.Defines defines) { return wrapperContained.addDefines(source,defines.wrapperContained); }
+// public static java.lang.String addDefines(java.lang.String source,yarnwrap.client.gl.Defines defines, ) { return net.minecraft.client.gl.GlImportProcessor.addDefines(source,defines.wrapperContained); }
 
 }

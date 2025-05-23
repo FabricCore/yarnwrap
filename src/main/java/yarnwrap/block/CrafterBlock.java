@@ -21,10 +21,10 @@ public static yarnwrap.state.property.BooleanProperty TRIGGERED() { return new y
 // public static yarnwrap.state.property.EnumProperty ORIENTATION() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.CrafterBlock.ORIENTATION); }
 // public static void ORIENTATION(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.CrafterBlock.ORIENTATION = value.wrapperContained; }
 
-// public yarnwrap.recipe.RecipeCache recipeCache() { return new yarnwrap.recipe.RecipeCache(wrapperContained.recipeCache); }
-// public void recipeCache(yarnwrap.recipe.RecipeCache value) { wrapperContained.recipeCache = value.wrapperContained; }
-// public static yarnwrap.recipe.RecipeCache recipeCache() { return new yarnwrap.recipe.RecipeCache(net.minecraft.block.CrafterBlock.recipeCache); }
-// public static void recipeCache(yarnwrap.recipe.RecipeCache value, ) { net.minecraft.block.CrafterBlock.recipeCache = value.wrapperContained; }
+// public yarnwrap.recipe.RecipeCache RECIPE_CACHE() { return new yarnwrap.recipe.RecipeCache(wrapperContained.RECIPE_CACHE); }
+// public void RECIPE_CACHE(yarnwrap.recipe.RecipeCache value) { wrapperContained.RECIPE_CACHE = value.wrapperContained; }
+// public static yarnwrap.recipe.RecipeCache RECIPE_CACHE() { return new yarnwrap.recipe.RecipeCache(net.minecraft.block.CrafterBlock.RECIPE_CACHE); }
+// public static void RECIPE_CACHE(yarnwrap.recipe.RecipeCache value, ) { net.minecraft.block.CrafterBlock.RECIPE_CACHE = value.wrapperContained; }
 
 // public int TRIGGER_DELAY() { return wrapperContained.TRIGGER_DELAY; }
 // public void TRIGGER_DELAY(int value) { wrapperContained.TRIGGER_DELAY = value; }
@@ -33,8 +33,8 @@ public static yarnwrap.state.property.BooleanProperty TRIGGERED() { return new y
 
 // public void method_54474(yarnwrap.item.ItemStack stack) { wrapperContained.method_54474(stack.wrapperContained); }
 // public static void method_54474(yarnwrap.item.ItemStack stack, ) { net.minecraft.block.CrafterBlock.method_54474(stack.wrapperContained); }
-// public java.util.Optional getCraftingRecipe(yarnwrap.world.World world,yarnwrap.recipe.input.CraftingRecipeInput input) { return wrapperContained.getCraftingRecipe(world.wrapperContained,input.wrapperContained); }
-// public static java.util.Optional getCraftingRecipe(yarnwrap.world.World world,yarnwrap.recipe.input.CraftingRecipeInput input, ) { return net.minecraft.block.CrafterBlock.getCraftingRecipe(world.wrapperContained,input.wrapperContained); }
+// public java.util.Optional getCraftingRecipe(yarnwrap.server.world.ServerWorld world,yarnwrap.recipe.input.CraftingRecipeInput input) { return wrapperContained.getCraftingRecipe(world.wrapperContained,input.wrapperContained); }
+// public static java.util.Optional getCraftingRecipe(yarnwrap.server.world.ServerWorld world,yarnwrap.recipe.input.CraftingRecipeInput input, ) { return net.minecraft.block.CrafterBlock.getCraftingRecipe(world.wrapperContained,input.wrapperContained); }
 // public void transferOrSpawnStack(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.CrafterBlockEntity blockEntity,yarnwrap.item.ItemStack stack,yarnwrap.block.BlockState state,yarnwrap.recipe.RecipeEntry recipe) { wrapperContained.transferOrSpawnStack(world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained,stack.wrapperContained,state.wrapperContained,recipe.wrapperContained); }
 // public static void transferOrSpawnStack(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.CrafterBlockEntity blockEntity,yarnwrap.item.ItemStack stack,yarnwrap.block.BlockState state,yarnwrap.recipe.RecipeEntry recipe, ) { net.minecraft.block.CrafterBlock.transferOrSpawnStack(world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained,stack.wrapperContained,state.wrapperContained,recipe.wrapperContained); }
 // public void setTriggered(yarnwrap.block.entity.BlockEntity blockEntity,boolean triggered) { wrapperContained.setTriggered(blockEntity.wrapperContained,triggered); }

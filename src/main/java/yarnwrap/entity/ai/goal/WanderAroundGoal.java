@@ -1,16 +1,6 @@
 package yarnwrap.entity.ai.goal;
 public class WanderAroundGoal { public net.minecraft.entity.ai.goal.WanderAroundGoal wrapperContained; public WanderAroundGoal(net.minecraft.entity.ai.goal.WanderAroundGoal wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public boolean canDespawn() { return wrapperContained.canDespawn; }
-// public void canDespawn(boolean value) { wrapperContained.canDespawn = value; }
-// public static boolean canDespawn() { return net.minecraft.entity.ai.goal.WanderAroundGoal.canDespawn; }
-// public static void canDespawn(boolean value, ) { net.minecraft.entity.ai.goal.WanderAroundGoal.canDespawn = value; }
-
-// public int DEFAULT_CHANCE() { return wrapperContained.DEFAULT_CHANCE; }
-// public void DEFAULT_CHANCE(int value) { wrapperContained.DEFAULT_CHANCE = value; }
-public static int DEFAULT_CHANCE() { return net.minecraft.entity.ai.goal.WanderAroundGoal.DEFAULT_CHANCE; }
-// public static void DEFAULT_CHANCE(int value, ) { net.minecraft.entity.ai.goal.WanderAroundGoal.DEFAULT_CHANCE = value; }
-
 // public double targetZ() { return wrapperContained.targetZ; }
 // public void targetZ(double value) { wrapperContained.targetZ = value; }
 // public static double targetZ() { return net.minecraft.entity.ai.goal.WanderAroundGoal.targetZ; }
@@ -45,6 +35,16 @@ public static int DEFAULT_CHANCE() { return net.minecraft.entity.ai.goal.WanderA
 // public void speed(double value) { wrapperContained.speed = value; }
 // public static double speed() { return net.minecraft.entity.ai.goal.WanderAroundGoal.speed; }
 // public static void speed(double value, ) { net.minecraft.entity.ai.goal.WanderAroundGoal.speed = value; }
+
+// public boolean canDespawn() { return wrapperContained.canDespawn; }
+// public void canDespawn(boolean value) { wrapperContained.canDespawn = value; }
+// public static boolean canDespawn() { return net.minecraft.entity.ai.goal.WanderAroundGoal.canDespawn; }
+// public static void canDespawn(boolean value, ) { net.minecraft.entity.ai.goal.WanderAroundGoal.canDespawn = value; }
+
+// public int DEFAULT_CHANCE() { return wrapperContained.DEFAULT_CHANCE; }
+// public void DEFAULT_CHANCE(int value) { wrapperContained.DEFAULT_CHANCE = value; }
+public static int DEFAULT_CHANCE() { return net.minecraft.entity.ai.goal.WanderAroundGoal.DEFAULT_CHANCE; }
+// public static void DEFAULT_CHANCE(int value, ) { net.minecraft.entity.ai.goal.WanderAroundGoal.DEFAULT_CHANCE = value; }
 
 public WanderAroundGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed) { this.wrapperContained = new net.minecraft.entity.ai.goal.WanderAroundGoal(mob.wrapperContained,speed); }
 public WanderAroundGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed,int chance) { this.wrapperContained = new net.minecraft.entity.ai.goal.WanderAroundGoal(mob.wrapperContained,speed,chance); }

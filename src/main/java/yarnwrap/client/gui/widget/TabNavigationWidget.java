@@ -52,5 +52,13 @@ public void init() { wrapperContained.init(); }
 // public static void method_49614(yarnwrap.client.gui.screen.narration.NarrationMessageBuilder button, ) { net.minecraft.client.gui.widget.TabNavigationWidget.method_49614(button.wrapperContained); }
 // public yarnwrap.client.gui.widget.TabButtonWidget getCurrentTabButton() { return new yarnwrap.client.gui.widget.TabButtonWidget(wrapperContained.getCurrentTabButton()); }
 // public static yarnwrap.client.gui.widget.TabButtonWidget getCurrentTabButton() { return new yarnwrap.client.gui.widget.TabButtonWidget(net.minecraft.client.gui.widget.TabNavigationWidget.getCurrentTabButton()); }
+// public java.util.List getTabs() { return wrapperContained.getTabs(); }
+// public static java.util.List getTabs() { return net.minecraft.client.gui.widget.TabNavigationWidget.getTabs(); }
+// public int getTabForKey(int index,int keyCode) { return wrapperContained.getTabForKey(index,keyCode); }
+// public static int getTabForKey(int index,int keyCode, ) { return net.minecraft.client.gui.widget.TabNavigationWidget.getTabForKey(index,keyCode); }
+// public void setTabTooltip(int index,yarnwrap.client.gui.tooltip.Tooltip tooltip) { wrapperContained.setTabTooltip(index,tooltip.wrapperContained); }
+// public static void setTabTooltip(int index,yarnwrap.client.gui.tooltip.Tooltip tooltip, ) { net.minecraft.client.gui.widget.TabNavigationWidget.setTabTooltip(index,tooltip.wrapperContained); }
+// public void setTabActive(int index,boolean active) { wrapperContained.setTabActive(index,active); }
+// public static void setTabActive(int index,boolean active, ) { net.minecraft.client.gui.widget.TabNavigationWidget.setTabActive(index,active); }
 
 }

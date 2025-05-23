@@ -1,10 +1,10 @@
 package yarnwrap.block;
 public class CommandBlock { public net.minecraft.block.CommandBlock wrapperContained; public CommandBlock(net.minecraft.block.CommandBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.CommandBlock.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.CommandBlock.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.CommandBlock.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.CommandBlock.FACING = value.wrapperContained; }
 
 // public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
@@ -27,13 +27,15 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.CommandBlock.CODEC = value; }
 
 // public CommandBlock(boolean auto,Object settings) { this.wrapperContained = new net.minecraft.block.CommandBlock(auto,settings); }
+// public void executeCommandChain(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction facing) { wrapperContained.executeCommandChain(world.wrapperContained,pos.wrapperContained,facing.wrapperContained); }
+// public static void executeCommandChain(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction facing, ) { net.minecraft.block.CommandBlock.executeCommandChain(world.wrapperContained,pos.wrapperContained,facing.wrapperContained); }
+// public void execute(yarnwrap.block.BlockState state,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.CommandBlockExecutor executor,boolean hasCommand) { wrapperContained.execute(state.wrapperContained,world.wrapperContained,pos.wrapperContained,executor.wrapperContained,hasCommand); }
+// public static void execute(yarnwrap.block.BlockState state,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.CommandBlockExecutor executor,boolean hasCommand, ) { net.minecraft.block.CommandBlock.execute(state.wrapperContained,world.wrapperContained,pos.wrapperContained,executor.wrapperContained,hasCommand); }
 // public com.mojang.datafixers.kinds.App method_53998(Object instance) { return wrapperContained.method_53998(instance); }
 // public static com.mojang.datafixers.kinds.App method_53998(Object instance, ) { return net.minecraft.block.CommandBlock.method_53998(instance); }
 // public java.lang.Boolean method_53999(yarnwrap.block.CommandBlock block) { return wrapperContained.method_53999(block.wrapperContained); }
 // public static java.lang.Boolean method_53999(yarnwrap.block.CommandBlock block, ) { return net.minecraft.block.CommandBlock.method_53999(block.wrapperContained); }
-// public void executeCommandChain(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction facing) { wrapperContained.executeCommandChain(world.wrapperContained,pos.wrapperContained,facing.wrapperContained); }
-// public static void executeCommandChain(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction facing, ) { net.minecraft.block.CommandBlock.executeCommandChain(world.wrapperContained,pos.wrapperContained,facing.wrapperContained); }
-// public void execute(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.CommandBlockExecutor executor,boolean hasCommand) { wrapperContained.execute(state.wrapperContained,world.wrapperContained,pos.wrapperContained,executor.wrapperContained,hasCommand); }
-// public static void execute(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.CommandBlockExecutor executor,boolean hasCommand, ) { net.minecraft.block.CommandBlock.execute(state.wrapperContained,world.wrapperContained,pos.wrapperContained,executor.wrapperContained,hasCommand); }
+// public void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.CommandBlockBlockEntity blockEntity,boolean powered) { wrapperContained.update(world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained,powered); }
+// public static void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.CommandBlockBlockEntity blockEntity,boolean powered, ) { net.minecraft.block.CommandBlock.update(world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained,powered); }
 
 }

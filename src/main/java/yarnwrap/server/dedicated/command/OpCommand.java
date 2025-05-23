@@ -18,7 +18,5 @@ public class OpCommand { public net.minecraft.server.dedicated.command.OpCommand
 // public static int method_13468(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.OpCommand.method_13468(context); }
 // public java.lang.String method_13469(yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.method_13469(player.wrapperContained); }
 // public static java.lang.String method_13469(yarnwrap.server.network.ServerPlayerEntity player, ) { return net.minecraft.server.dedicated.command.OpCommand.method_13469(player.wrapperContained); }
-// public boolean method_13470(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13470(source.wrapperContained); }
-// public static boolean method_13470(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.OpCommand.method_13470(source.wrapperContained); }
 
 }

@@ -1,16 +1,6 @@
 package yarnwrap.client.render.entity.model;
 public class VillagerResemblingModel { public net.minecraft.client.render.entity.model.VillagerResemblingModel wrapperContained; public VillagerResemblingModel(net.minecraft.client.render.entity.model.VillagerResemblingModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart nose() { return new yarnwrap.client.model.ModelPart(wrapperContained.nose); }
-// public void nose(yarnwrap.client.model.ModelPart value) { wrapperContained.nose = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart nose() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.VillagerResemblingModel.nose); }
-// public static void nose(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.VillagerResemblingModel.nose = value.wrapperContained; }
-
-// public yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(wrapperContained.root); }
-// public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.VillagerResemblingModel.root); }
-// public static void root(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.VillagerResemblingModel.root = value.wrapperContained; }
-
 // public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
 // public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.VillagerResemblingModel.head); }
@@ -36,7 +26,16 @@ public class VillagerResemblingModel { public net.minecraft.client.render.entity
 // public static yarnwrap.client.model.ModelPart leftLeg() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.VillagerResemblingModel.leftLeg); }
 // public static void leftLeg(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.VillagerResemblingModel.leftLeg = value.wrapperContained; }
 
-public VillagerResemblingModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.VillagerResemblingModel(root.wrapperContained); }
+// public yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.BABY_TRANSFORMER); }
+// public void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.BABY_TRANSFORMER = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.VillagerResemblingModel.BABY_TRANSFORMER); }
+// public static void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.VillagerResemblingModel.BABY_TRANSFORMER = value.wrapperContained; }
+
+// public yarnwrap.client.model.ModelPart arms() { return new yarnwrap.client.model.ModelPart(wrapperContained.arms); }
+// public void arms(yarnwrap.client.model.ModelPart value) { wrapperContained.arms = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart arms() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.VillagerResemblingModel.arms); }
+// public static void arms(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.VillagerResemblingModel.arms = value.wrapperContained; }
+
 // public yarnwrap.client.model.ModelData getModelData() { return new yarnwrap.client.model.ModelData(wrapperContained.getModelData()); }
 public static yarnwrap.client.model.ModelData getModelData() { return new yarnwrap.client.model.ModelData(net.minecraft.client.render.entity.model.VillagerResemblingModel.getModelData()); }
 

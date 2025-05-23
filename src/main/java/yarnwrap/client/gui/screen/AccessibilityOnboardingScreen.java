@@ -51,6 +51,21 @@ public class AccessibilityOnboardingScreen { public net.minecraft.client.gui.scr
 // public static yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(net.minecraft.client.gui.screen.AccessibilityOnboardingScreen.layout); }
 // public static void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value, ) { net.minecraft.client.gui.screen.AccessibilityOnboardingScreen.layout = value.wrapperContained; }
 
+// public float fadeTime() { return wrapperContained.fadeTime; }
+// public void fadeTime(float value) { wrapperContained.fadeTime = value; }
+// public static float fadeTime() { return net.minecraft.client.gui.screen.AccessibilityOnboardingScreen.fadeTime; }
+// public static void fadeTime(float value, ) { net.minecraft.client.gui.screen.AccessibilityOnboardingScreen.fadeTime = value; }
+
+// public boolean fading() { return wrapperContained.fading; }
+// public void fading(boolean value) { wrapperContained.fading = value; }
+// public static boolean fading() { return net.minecraft.client.gui.screen.AccessibilityOnboardingScreen.fading; }
+// public static void fading(boolean value, ) { net.minecraft.client.gui.screen.AccessibilityOnboardingScreen.fading = value; }
+
+// public float closeTime() { return wrapperContained.closeTime; }
+// public void closeTime(float value) { wrapperContained.closeTime = value; }
+// public static float closeTime() { return net.minecraft.client.gui.screen.AccessibilityOnboardingScreen.closeTime; }
+// public static void closeTime(float value, ) { net.minecraft.client.gui.screen.AccessibilityOnboardingScreen.closeTime = value; }
+
 public AccessibilityOnboardingScreen(yarnwrap.client.option.GameOptions gameOptions,java.lang.Runnable onClose) { this.wrapperContained = new net.minecraft.client.gui.screen.AccessibilityOnboardingScreen(gameOptions.wrapperContained,onClose); }
 // public int yMargin() { return wrapperContained.yMargin(); }
 // public static int yMargin() { return net.minecraft.client.gui.screen.AccessibilityOnboardingScreen.yMargin(); }

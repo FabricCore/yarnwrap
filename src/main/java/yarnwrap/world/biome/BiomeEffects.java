@@ -66,7 +66,17 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.worl
 // // public static Object grassColorModifier() { return net.minecraft.world.biome.BiomeEffects.grassColorModifier; }
 // // public static void grassColorModifier(Object value, ) { net.minecraft.world.biome.BiomeEffects.grassColorModifier = value; }
 
-// public BiomeEffects(int fogColor,int waterColor,int waterFogColor,int skyColor,java.util.Optional foliageColor,java.util.Optional grassColor,Object grassColorModifier,java.util.Optional particleConfig,java.util.Optional loopSound,java.util.Optional moodSound,java.util.Optional additionsSound,java.util.Optional music) { this.wrapperContained = new net.minecraft.world.biome.BiomeEffects(fogColor,waterColor,waterFogColor,skyColor,foliageColor,grassColor,grassColorModifier,particleConfig,loopSound,moodSound,additionsSound,music); }
+// public float musicVolume() { return wrapperContained.musicVolume; }
+// public void musicVolume(float value) { wrapperContained.musicVolume = value; }
+// public static float musicVolume() { return net.minecraft.world.biome.BiomeEffects.musicVolume; }
+// public static void musicVolume(float value, ) { net.minecraft.world.biome.BiomeEffects.musicVolume = value; }
+
+// public java.util.Optional dryFoliageColor() { return wrapperContained.dryFoliageColor; }
+// public void dryFoliageColor(java.util.Optional value) { wrapperContained.dryFoliageColor = value; }
+// public static java.util.Optional dryFoliageColor() { return net.minecraft.world.biome.BiomeEffects.dryFoliageColor; }
+// public static void dryFoliageColor(java.util.Optional value, ) { net.minecraft.world.biome.BiomeEffects.dryFoliageColor = value; }
+
+// public BiomeEffects(int fogColor,int waterColor,int waterFogColor,int skyColor,java.util.Optional foliageColor,java.util.Optional dryFoliageColor,java.util.Optional grassColor,Object grassColorModifier,java.util.Optional particleConfig,java.util.Optional loopSound,java.util.Optional moodSound,java.util.Optional additionsSound,java.util.Optional music,float musicVolume) { this.wrapperContained = new net.minecraft.world.biome.BiomeEffects(fogColor,waterColor,waterFogColor,skyColor,foliageColor,dryFoliageColor,grassColor,grassColorModifier,particleConfig,loopSound,moodSound,additionsSound,music,musicVolume); }
 public int getFogColor() { return wrapperContained.getFogColor(); }
 // public static int getFogColor() { return net.minecraft.world.biome.BiomeEffects.getFogColor(); }
 public int getWaterColor() { return wrapperContained.getWaterColor(); }
@@ -117,5 +127,13 @@ public Object getGrassColorModifier() { return wrapperContained.getGrassColorMod
 // public static java.util.Optional method_30816(yarnwrap.world.biome.BiomeEffects effects, ) { return net.minecraft.world.biome.BiomeEffects.method_30816(effects.wrapperContained); }
 // public java.lang.Integer method_30817(yarnwrap.world.biome.BiomeEffects effects) { return wrapperContained.method_30817(effects.wrapperContained); }
 // public static java.lang.Integer method_30817(yarnwrap.world.biome.BiomeEffects effects, ) { return net.minecraft.world.biome.BiomeEffects.method_30817(effects.wrapperContained); }
+// public java.lang.Float method_65134(yarnwrap.world.biome.BiomeEffects effects) { return wrapperContained.method_65134(effects.wrapperContained); }
+// public static java.lang.Float method_65134(yarnwrap.world.biome.BiomeEffects effects, ) { return net.minecraft.world.biome.BiomeEffects.method_65134(effects.wrapperContained); }
+public float getMusicVolume() { return wrapperContained.getMusicVolume(); }
+// public static float getMusicVolume() { return net.minecraft.world.biome.BiomeEffects.getMusicVolume(); }
+public java.util.Optional getDryFoliageColor() { return wrapperContained.getDryFoliageColor(); }
+// public static java.util.Optional getDryFoliageColor() { return net.minecraft.world.biome.BiomeEffects.getDryFoliageColor(); }
+// public java.util.Optional method_68148(yarnwrap.world.biome.BiomeEffects effects) { return wrapperContained.method_68148(effects.wrapperContained); }
+// public static java.util.Optional method_68148(yarnwrap.world.biome.BiomeEffects effects, ) { return net.minecraft.world.biome.BiomeEffects.method_68148(effects.wrapperContained); }
 
 }

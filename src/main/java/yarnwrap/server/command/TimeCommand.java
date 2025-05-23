@@ -17,8 +17,6 @@ public class TimeCommand { public net.minecraft.server.command.TimeCommand wrapp
 // public static int method_13789(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TimeCommand.method_13789(context); }
 // public int method_13790(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13790(context); }
 // public static int method_13790(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TimeCommand.method_13790(context); }
-// public boolean method_13791(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13791(source.wrapperContained); }
-// public static boolean method_13791(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.TimeCommand.method_13791(source.wrapperContained); }
 // public int method_13792(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13792(context); }
 // public static int method_13792(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TimeCommand.method_13792(context); }
 // public int method_13793(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13793(context); }

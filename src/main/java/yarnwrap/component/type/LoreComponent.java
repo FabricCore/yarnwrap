@@ -27,6 +27,7 @@ public static int MAX_LORES() { return net.minecraft.component.type.LoreComponen
 // public static void STYLE(yarnwrap.text.Style value, ) { net.minecraft.component.type.LoreComponent.STYLE = value.wrapperContained; }
 
 public LoreComponent(java.util.List lines) { this.wrapperContained = new net.minecraft.component.type.LoreComponent(lines); }
+public LoreComponent(java.util.List lines,java.util.List styledLines) { this.wrapperContained = new net.minecraft.component.type.LoreComponent(lines,styledLines); }
 public yarnwrap.component.type.LoreComponent with(yarnwrap.text.Text line) { return new yarnwrap.component.type.LoreComponent(wrapperContained.with(line.wrapperContained)); }
 // public static yarnwrap.component.type.LoreComponent with(yarnwrap.text.Text line, ) { return new yarnwrap.component.type.LoreComponent(net.minecraft.component.type.LoreComponent.with(line.wrapperContained)); }
 // public yarnwrap.text.Text method_57500(yarnwrap.text.Text style) { return new yarnwrap.text.Text(wrapperContained.method_57500(style.wrapperContained)); }

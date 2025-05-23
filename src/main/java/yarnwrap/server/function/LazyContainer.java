@@ -1,11 +1,6 @@
 package yarnwrap.server.function;
 public class LazyContainer { public net.minecraft.server.function.LazyContainer wrapperContained; public LazyContainer(net.minecraft.server.function.LazyContainer wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
-// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
-public static com.mojang.serialization.Codec CODEC() { return net.minecraft.server.function.LazyContainer.CODEC; }
-// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.server.function.LazyContainer.CODEC = value; }
-
 // public yarnwrap.util.Identifier id() { return new yarnwrap.util.Identifier(wrapperContained.id); }
 // public void id(yarnwrap.util.Identifier value) { wrapperContained.id = value.wrapperContained; }
 // public static yarnwrap.util.Identifier id() { return new yarnwrap.util.Identifier(net.minecraft.server.function.LazyContainer.id); }
@@ -20,6 +15,11 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.serv
 // public void initialized(boolean value) { wrapperContained.initialized = value; }
 // public static boolean initialized() { return net.minecraft.server.function.LazyContainer.initialized; }
 // public static void initialized(boolean value, ) { net.minecraft.server.function.LazyContainer.initialized = value; }
+
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.server.function.LazyContainer.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.server.function.LazyContainer.CODEC = value; }
 
 public LazyContainer(yarnwrap.util.Identifier id) { this.wrapperContained = new net.minecraft.server.function.LazyContainer(id.wrapperContained); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }

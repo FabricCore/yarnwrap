@@ -16,6 +16,11 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.comp
 public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.component.type.SuspiciousStewEffectsComponent.PACKET_CODEC); }
 // public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.component.type.SuspiciousStewEffectsComponent.PACKET_CODEC = value.wrapperContained; }
 
+// public int DEFAULT_DURATION() { return wrapperContained.DEFAULT_DURATION; }
+// public void DEFAULT_DURATION(int value) { wrapperContained.DEFAULT_DURATION = value; }
+public static int DEFAULT_DURATION() { return net.minecraft.component.type.SuspiciousStewEffectsComponent.DEFAULT_DURATION; }
+// public static void DEFAULT_DURATION(int value, ) { net.minecraft.component.type.SuspiciousStewEffectsComponent.DEFAULT_DURATION = value; }
+
 // public yarnwrap.component.type.SuspiciousStewEffectsComponent with(Object stewEffect) { return new yarnwrap.component.type.SuspiciousStewEffectsComponent(wrapperContained.with(stewEffect)); }
 // public static yarnwrap.component.type.SuspiciousStewEffectsComponent with(Object stewEffect, ) { return new yarnwrap.component.type.SuspiciousStewEffectsComponent(net.minecraft.component.type.SuspiciousStewEffectsComponent.with(stewEffect)); }
 

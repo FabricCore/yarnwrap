@@ -1,11 +1,6 @@
 package yarnwrap.predicate.entity;
 public class EntityPredicates { public net.minecraft.predicate.entity.EntityPredicates wrapperContained; public EntityPredicates(net.minecraft.predicate.entity.EntityPredicates wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.function.Predicate CAN_COLLIDE() { return wrapperContained.CAN_COLLIDE; }
-// public void CAN_COLLIDE(java.util.function.Predicate value) { wrapperContained.CAN_COLLIDE = value; }
-public static java.util.function.Predicate CAN_COLLIDE() { return net.minecraft.predicate.entity.EntityPredicates.CAN_COLLIDE; }
-// public static void CAN_COLLIDE(java.util.function.Predicate value, ) { net.minecraft.predicate.entity.EntityPredicates.CAN_COLLIDE = value; }
-
 // public java.util.function.Predicate VALID_INVENTORIES() { return wrapperContained.VALID_INVENTORIES; }
 // public void VALID_INVENTORIES(java.util.function.Predicate value) { wrapperContained.VALID_INVENTORIES = value; }
 public static java.util.function.Predicate VALID_INVENTORIES() { return net.minecraft.predicate.entity.EntityPredicates.VALID_INVENTORIES; }
@@ -36,10 +31,16 @@ public static java.util.function.Predicate EXCEPT_CREATIVE_OR_SPECTATOR() { retu
 public static java.util.function.Predicate VALID_LIVING_ENTITY() { return net.minecraft.predicate.entity.EntityPredicates.VALID_LIVING_ENTITY; }
 // public static void VALID_LIVING_ENTITY(java.util.function.Predicate value, ) { net.minecraft.predicate.entity.EntityPredicates.VALID_LIVING_ENTITY = value; }
 
-// public boolean method_24517(yarnwrap.entity.Entity entity) { return wrapperContained.method_24517(entity.wrapperContained); }
-// public static boolean method_24517(yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityPredicates.method_24517(entity.wrapperContained); }
-// public boolean method_32878(yarnwrap.entity.Entity entity) { return wrapperContained.method_32878(entity.wrapperContained); }
-// public static boolean method_32878(yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityPredicates.method_32878(entity.wrapperContained); }
+// public java.util.function.Predicate CAN_COLLIDE() { return wrapperContained.CAN_COLLIDE; }
+// public void CAN_COLLIDE(java.util.function.Predicate value) { wrapperContained.CAN_COLLIDE = value; }
+public static java.util.function.Predicate CAN_COLLIDE() { return net.minecraft.predicate.entity.EntityPredicates.CAN_COLLIDE; }
+// public static void CAN_COLLIDE(java.util.function.Predicate value, ) { net.minecraft.predicate.entity.EntityPredicates.CAN_COLLIDE = value; }
+
+// public java.util.function.Predicate CAN_HIT() { return wrapperContained.CAN_HIT; }
+// public void CAN_HIT(java.util.function.Predicate value) { wrapperContained.CAN_HIT = value; }
+public static java.util.function.Predicate CAN_HIT() { return net.minecraft.predicate.entity.EntityPredicates.CAN_HIT; }
+// public static void CAN_HIT(java.util.function.Predicate value, ) { net.minecraft.predicate.entity.EntityPredicates.CAN_HIT = value; }
+
 // public boolean method_5906(yarnwrap.entity.Entity testedEntity) { return wrapperContained.method_5906(testedEntity.wrapperContained); }
 // public static boolean method_5906(yarnwrap.entity.Entity testedEntity, ) { return net.minecraft.predicate.entity.EntityPredicates.method_5906(testedEntity.wrapperContained); }
 // public boolean method_5908(yarnwrap.entity.Entity entity) { return wrapperContained.method_5908(entity.wrapperContained); }
@@ -58,5 +59,11 @@ public static java.util.function.Predicate VALID_LIVING_ENTITY() { return net.mi
 // public static boolean method_5914(yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityPredicates.method_5914(entity.wrapperContained); }
 // public boolean method_5915(yarnwrap.entity.Entity entityx) { return wrapperContained.method_5915(entityx.wrapperContained); }
 // public static boolean method_5915(yarnwrap.entity.Entity entityx, ) { return net.minecraft.predicate.entity.EntityPredicates.method_5915(entityx.wrapperContained); }
+// public boolean method_24517(yarnwrap.entity.Entity entity) { return wrapperContained.method_24517(entity.wrapperContained); }
+// public static boolean method_24517(yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityPredicates.method_24517(entity.wrapperContained); }
+// public boolean method_32878(yarnwrap.entity.Entity entity) { return wrapperContained.method_32878(entity.wrapperContained); }
+// public static boolean method_32878(yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityPredicates.method_32878(entity.wrapperContained); }
+// public boolean method_71613(yarnwrap.entity.Entity entity) { return wrapperContained.method_71613(entity.wrapperContained); }
+// public static boolean method_71613(yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityPredicates.method_71613(entity.wrapperContained); }
 
 }

@@ -164,5 +164,15 @@ public java.lang.String getWorldDirectoryName() { return wrapperContained.getWor
 // public static java.lang.String getWorldDirectoryName() { return net.minecraft.client.gui.screen.world.WorldCreator.getWorldDirectoryName(); }
 // public java.lang.String toDirectoryName(java.lang.String worldName) { return wrapperContained.toDirectoryName(worldName); }
 // public static java.lang.String toDirectoryName(java.lang.String worldName, ) { return net.minecraft.client.gui.screen.world.WorldCreator.toDirectoryName(worldName); }
+// public java.util.Optional method_64249(yarnwrap.registry.RegistryKey registry) { return wrapperContained.method_64249(registry.wrapperContained); }
+// public static java.util.Optional method_64249(yarnwrap.registry.RegistryKey registry, ) { return net.minecraft.client.gui.screen.world.WorldCreator.method_64249(registry.wrapperContained); }
+// public void method_64250(Object rule) { wrapperContained.method_64250(rule); }
+// public static void method_64250(Object rule, ) { net.minecraft.client.gui.screen.world.WorldCreator.method_64250(rule); }
+// public void method_64251(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config) { wrapperContained.method_64251(config.wrapperContained); }
+// public static void method_64251(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config, ) { net.minecraft.client.gui.screen.world.WorldCreator.method_64251(config.wrapperContained); }
+// public yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig method_64252(Object preset) { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(wrapperContained.method_64252(preset)); }
+// public static yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig method_64252(Object preset, ) { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(net.minecraft.client.gui.screen.world.WorldCreator.method_64252(preset)); }
+// public java.util.Optional method_64253(yarnwrap.client.world.GeneratorOptionsHolder presetKey) { return wrapperContained.method_64253(presetKey.wrapperContained); }
+// public static java.util.Optional method_64253(yarnwrap.client.world.GeneratorOptionsHolder presetKey, ) { return net.minecraft.client.gui.screen.world.WorldCreator.method_64253(presetKey.wrapperContained); }
 
 }

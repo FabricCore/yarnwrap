@@ -41,7 +41,22 @@ public class PlayerMoveC2SPacket { public net.minecraft.network.packet.c2s.play.
 // public static boolean onGround() { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.onGround; }
 // public static void onGround(boolean value, ) { net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.onGround = value; }
 
-// public PlayerMoveC2SPacket(double x,double y,double z,float yaw,float pitch,boolean onGround,boolean changePosition,boolean changeLook) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket(x,y,z,yaw,pitch,onGround,changePosition,changeLook); }
+// public boolean horizontalCollision() { return wrapperContained.horizontalCollision; }
+// public void horizontalCollision(boolean value) { wrapperContained.horizontalCollision = value; }
+// public static boolean horizontalCollision() { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.horizontalCollision; }
+// public static void horizontalCollision(boolean value, ) { net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.horizontalCollision = value; }
+
+// public int CHANGE_POSITION_FLAG() { return wrapperContained.CHANGE_POSITION_FLAG; }
+// public void CHANGE_POSITION_FLAG(int value) { wrapperContained.CHANGE_POSITION_FLAG = value; }
+// public static int CHANGE_POSITION_FLAG() { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.CHANGE_POSITION_FLAG; }
+// public static void CHANGE_POSITION_FLAG(int value, ) { net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.CHANGE_POSITION_FLAG = value; }
+
+// public int CHANGE_LOOK_FLAG() { return wrapperContained.CHANGE_LOOK_FLAG; }
+// public void CHANGE_LOOK_FLAG(int value) { wrapperContained.CHANGE_LOOK_FLAG = value; }
+// public static int CHANGE_LOOK_FLAG() { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.CHANGE_LOOK_FLAG; }
+// public static void CHANGE_LOOK_FLAG(int value, ) { net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.CHANGE_LOOK_FLAG = value; }
+
+// public PlayerMoveC2SPacket(double x,double y,double z,float yaw,float pitch,boolean onGround,boolean horizontalCollision,boolean changePosition,boolean changeLook) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket(x,y,z,yaw,pitch,onGround,horizontalCollision,changePosition,changeLook); }
 public double getY(double currentY) { return wrapperContained.getY(currentY); }
 // public static double getY(double currentY, ) { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.getY(currentY); }
 public double getX(double currentX) { return wrapperContained.getX(currentX); }
@@ -60,5 +75,13 @@ public boolean changesPosition() { return wrapperContained.changesPosition(); }
 // public static boolean changesPosition() { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.changesPosition(); }
 public boolean changesLook() { return wrapperContained.changesLook(); }
 // public static boolean changesLook() { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.changesLook(); }
+// public boolean changePosition(int flag) { return wrapperContained.changePosition(flag); }
+// public static boolean changePosition(int flag, ) { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.changePosition(flag); }
+// public int toFlag(boolean changePosition,boolean changeLook) { return wrapperContained.toFlag(changePosition,changeLook); }
+// public static int toFlag(boolean changePosition,boolean changeLook, ) { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.toFlag(changePosition,changeLook); }
+// public boolean changeLook(int flag) { return wrapperContained.changeLook(flag); }
+// public static boolean changeLook(int flag, ) { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.changeLook(flag); }
+// public boolean horizontalCollision() { return wrapperContained.horizontalCollision(); }
+// // public static boolean horizontalCollision() { return net.minecraft.network.packet.c2s.play.PlayerMoveC2SPacket.horizontalCollision(); }
 
 }

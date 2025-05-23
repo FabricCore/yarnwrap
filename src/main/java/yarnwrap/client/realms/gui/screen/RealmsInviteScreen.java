@@ -1,11 +1,6 @@
 package yarnwrap.client.realms.gui.screen;
 public class RealmsInviteScreen { public net.minecraft.client.realms.gui.screen.RealmsInviteScreen wrapperContained; public RealmsInviteScreen(net.minecraft.client.realms.gui.screen.RealmsInviteScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.realms.gui.screen.RealmsInviteScreen.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.realms.gui.screen.RealmsInviteScreen.LOGGER = value; }
-
 // public yarnwrap.client.realms.dto.RealmsServer serverData() { return new yarnwrap.client.realms.dto.RealmsServer(wrapperContained.serverData); }
 // public void serverData(yarnwrap.client.realms.dto.RealmsServer value) { wrapperContained.serverData = value.wrapperContained; }
 // public static yarnwrap.client.realms.dto.RealmsServer serverData() { return new yarnwrap.client.realms.dto.RealmsServer(net.minecraft.client.realms.gui.screen.RealmsInviteScreen.serverData); }
@@ -15,11 +10,6 @@ public class RealmsInviteScreen { public net.minecraft.client.realms.gui.screen.
 // public void configureScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen value) { wrapperContained.configureScreen = value.wrapperContained; }
 // public static yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen configureScreen() { return new yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen(net.minecraft.client.realms.gui.screen.RealmsInviteScreen.configureScreen); }
 // public static void configureScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen value, ) { net.minecraft.client.realms.gui.screen.RealmsInviteScreen.configureScreen = value.wrapperContained; }
-
-// public yarnwrap.client.gui.screen.Screen parent() { return new yarnwrap.client.gui.screen.Screen(wrapperContained.parent); }
-// public void parent(yarnwrap.client.gui.screen.Screen value) { wrapperContained.parent = value.wrapperContained; }
-// public static yarnwrap.client.gui.screen.Screen parent() { return new yarnwrap.client.gui.screen.Screen(net.minecraft.client.realms.gui.screen.RealmsInviteScreen.parent); }
-// public static void parent(yarnwrap.client.gui.screen.Screen value, ) { net.minecraft.client.realms.gui.screen.RealmsInviteScreen.parent = value.wrapperContained; }
 
 // public yarnwrap.text.Text errorMessage() { return new yarnwrap.text.Text(wrapperContained.errorMessage); }
 // public void errorMessage(yarnwrap.text.Text value) { wrapperContained.errorMessage = value.wrapperContained; }
@@ -61,12 +51,16 @@ public class RealmsInviteScreen { public net.minecraft.client.realms.gui.screen.
 // public static yarnwrap.text.Text INVITE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.screen.RealmsInviteScreen.INVITE_TEXT); }
 // public static void INVITE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.realms.gui.screen.RealmsInviteScreen.INVITE_TEXT = value.wrapperContained; }
 
-public RealmsInviteScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen configureScreen,yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.realms.dto.RealmsServer serverData) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsInviteScreen(configureScreen.wrapperContained,parent.wrapperContained,serverData.wrapperContained); }
+// public RealmsInviteScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen configureScreen,yarnwrap.client.realms.dto.RealmsServer serverData) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsInviteScreen(configureScreen.wrapperContained,serverData.wrapperContained); }
 // public void onInvite() { wrapperContained.onInvite(); }
 // public static void onInvite() { net.minecraft.client.realms.gui.screen.RealmsInviteScreen.onInvite(); }
 // public void showError(yarnwrap.text.Text errorMessage) { wrapperContained.showError(errorMessage.wrapperContained); }
 // public static void showError(yarnwrap.text.Text errorMessage, ) { net.minecraft.client.realms.gui.screen.RealmsInviteScreen.showError(errorMessage.wrapperContained); }
 // public void method_25162(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25162(button.wrapperContained); }
 // public static void method_25162(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsInviteScreen.method_25162(button.wrapperContained); }
+// public void method_57679(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_57679(button.wrapperContained); }
+// public static void method_57679(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsInviteScreen.method_57679(button.wrapperContained); }
+// public void method_71218(java.lang.Boolean success) { wrapperContained.method_71218(success); }
+// public static void method_71218(java.lang.Boolean success, ) { net.minecraft.client.realms.gui.screen.RealmsInviteScreen.method_71218(success); }
 
 }

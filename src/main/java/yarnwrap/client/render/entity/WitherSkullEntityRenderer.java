@@ -16,6 +16,8 @@ public class WitherSkullEntityRenderer { public net.minecraft.client.render.enti
 // public static yarnwrap.util.Identifier INVULNERABLE_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.WitherSkullEntityRenderer.INVULNERABLE_TEXTURE); }
 // public static void INVULNERABLE_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.render.entity.WitherSkullEntityRenderer.INVULNERABLE_TEXTURE = value.wrapperContained; }
 
+// public yarnwrap.util.Identifier getTexture(yarnwrap.client.render.entity.state.WitherSkullEntityRenderState state) { return new yarnwrap.util.Identifier(wrapperContained.getTexture(state.wrapperContained)); }
+// public static yarnwrap.util.Identifier getTexture(yarnwrap.client.render.entity.state.WitherSkullEntityRenderState state, ) { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.WitherSkullEntityRenderer.getTexture(state.wrapperContained)); }
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.WitherSkullEntityRenderer.getTexturedModelData()); }
 

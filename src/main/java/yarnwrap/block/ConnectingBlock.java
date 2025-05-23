@@ -31,27 +31,20 @@ public static yarnwrap.state.property.BooleanProperty SOUTH() { return new yarnw
 public static yarnwrap.state.property.BooleanProperty NORTH() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.ConnectingBlock.NORTH); }
 // public static void NORTH(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.ConnectingBlock.NORTH = value.wrapperContained; }
 
-// public net.minecraft.util.shape.VoxelShape[] facingsToShape() { return wrapperContained.facingsToShape; }
-// public void facingsToShape(net.minecraft.util.shape.VoxelShape[] value) { wrapperContained.facingsToShape = value; }
-// public static net.minecraft.util.shape.VoxelShape[] facingsToShape() { return net.minecraft.block.ConnectingBlock.facingsToShape; }
-// public static void facingsToShape(net.minecraft.util.shape.VoxelShape[] value, ) { net.minecraft.block.ConnectingBlock.facingsToShape = value; }
-
-// public net.minecraft.util.math.Direction[] FACINGS() { return wrapperContained.FACINGS; }
-// public void FACINGS(net.minecraft.util.math.Direction[] value) { wrapperContained.FACINGS = value; }
-// public static net.minecraft.util.math.Direction[] FACINGS() { return net.minecraft.block.ConnectingBlock.FACINGS; }
-// public static void FACINGS(net.minecraft.util.math.Direction[] value, ) { net.minecraft.block.ConnectingBlock.FACINGS = value; }
-
 // public yarnwrap.state.property.BooleanProperty EAST() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.EAST); }
 // public void EAST(yarnwrap.state.property.BooleanProperty value) { wrapperContained.EAST = value.wrapperContained; }
 public static yarnwrap.state.property.BooleanProperty EAST() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.ConnectingBlock.EAST); }
 // public static void EAST(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.ConnectingBlock.EAST = value.wrapperContained; }
 
+// public java.util.function.Function shapeFunction() { return wrapperContained.shapeFunction; }
+// public void shapeFunction(java.util.function.Function value) { wrapperContained.shapeFunction = value; }
+// public static java.util.function.Function shapeFunction() { return net.minecraft.block.ConnectingBlock.shapeFunction; }
+// public static void shapeFunction(java.util.function.Function value, ) { net.minecraft.block.ConnectingBlock.shapeFunction = value; }
+
 // public ConnectingBlock(float radius,Object settings) { this.wrapperContained = new net.minecraft.block.ConnectingBlock(radius,settings); }
-// public int getConnectionMask(yarnwrap.block.BlockState state) { return wrapperContained.getConnectionMask(state.wrapperContained); }
-// public static int getConnectionMask(yarnwrap.block.BlockState state, ) { return net.minecraft.block.ConnectingBlock.getConnectionMask(state.wrapperContained); }
-// public void method_10369(java.util.EnumMap directions) { wrapperContained.method_10369(directions); }
-// public static void method_10369(java.util.EnumMap directions, ) { net.minecraft.block.ConnectingBlock.method_10369(directions); }
-// public net.minecraft.util.shape.VoxelShape[] generateFacingsToShapeMap(float radius) { return wrapperContained.generateFacingsToShapeMap(radius); }
-// public static net.minecraft.util.shape.VoxelShape[] generateFacingsToShapeMap(float radius, ) { return net.minecraft.block.ConnectingBlock.generateFacingsToShapeMap(radius); }
+// public java.util.function.Function createShapeFunction(float radius) { return wrapperContained.createShapeFunction(radius); }
+// public static java.util.function.Function createShapeFunction(float radius, ) { return net.minecraft.block.ConnectingBlock.createShapeFunction(radius); }
+// public yarnwrap.util.shape.VoxelShape method_66457(yarnwrap.util.shape.VoxelShape state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_66457(state.wrapperContained)); }
+// public static yarnwrap.util.shape.VoxelShape method_66457(yarnwrap.util.shape.VoxelShape state, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.ConnectingBlock.method_66457(state.wrapperContained)); }
 
 }

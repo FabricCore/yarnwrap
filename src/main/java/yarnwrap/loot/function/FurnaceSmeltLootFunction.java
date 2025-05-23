@@ -12,9 +12,9 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.loot.function.FurnaceSmeltLootFunction.CODEC = value; }
 
 // public FurnaceSmeltLootFunction(java.util.List conditions) { this.wrapperContained = new net.minecraft.loot.function.FurnaceSmeltLootFunction(conditions); }
-// public com.mojang.datafixers.kinds.App method_53400(Object instance) { return wrapperContained.method_53400(instance); }
-// public static com.mojang.datafixers.kinds.App method_53400(Object instance, ) { return net.minecraft.loot.function.FurnaceSmeltLootFunction.method_53400(instance); }
 // public Object builder() { return wrapperContained.builder(); }
 public static Object builder() { return net.minecraft.loot.function.FurnaceSmeltLootFunction.builder(); }
+// public com.mojang.datafixers.kinds.App method_53400(Object instance) { return wrapperContained.method_53400(instance); }
+// public static com.mojang.datafixers.kinds.App method_53400(Object instance, ) { return net.minecraft.loot.function.FurnaceSmeltLootFunction.method_53400(instance); }
 
 }

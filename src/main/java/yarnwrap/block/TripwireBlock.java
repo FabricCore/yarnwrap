@@ -41,16 +41,6 @@ public static yarnwrap.state.property.BooleanProperty DISARMED() { return new ya
 public static yarnwrap.state.property.BooleanProperty POWERED() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.TripwireBlock.POWERED); }
 // public static void POWERED(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.TripwireBlock.POWERED = value.wrapperContained; }
 
-// public yarnwrap.util.shape.VoxelShape DETACHED_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.DETACHED_SHAPE); }
-// public void DETACHED_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.DETACHED_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape DETACHED_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TripwireBlock.DETACHED_SHAPE); }
-// public static void DETACHED_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TripwireBlock.DETACHED_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape ATTACHED_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.ATTACHED_SHAPE); }
-// public void ATTACHED_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.ATTACHED_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape ATTACHED_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TripwireBlock.ATTACHED_SHAPE); }
-// public static void ATTACHED_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TripwireBlock.ATTACHED_SHAPE = value.wrapperContained; }
-
 // public yarnwrap.state.property.BooleanProperty ATTACHED() { return new yarnwrap.state.property.BooleanProperty(wrapperContained.ATTACHED); }
 // public void ATTACHED(yarnwrap.state.property.BooleanProperty value) { wrapperContained.ATTACHED = value.wrapperContained; }
 public static yarnwrap.state.property.BooleanProperty ATTACHED() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.TripwireBlock.ATTACHED); }
@@ -66,16 +56,28 @@ public static yarnwrap.state.property.BooleanProperty ATTACHED() { return new ya
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.TripwireBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.TripwireBlock.CODEC = value; }
 
+// public yarnwrap.util.shape.VoxelShape ATTACHED_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.ATTACHED_SHAPE); }
+// public void ATTACHED_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.ATTACHED_SHAPE = value.wrapperContained; }
+// public static yarnwrap.util.shape.VoxelShape ATTACHED_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TripwireBlock.ATTACHED_SHAPE); }
+// public static void ATTACHED_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TripwireBlock.ATTACHED_SHAPE = value.wrapperContained; }
+
+// public yarnwrap.util.shape.VoxelShape UNATTACHED_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.UNATTACHED_SHAPE); }
+// public void UNATTACHED_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.UNATTACHED_SHAPE = value.wrapperContained; }
+// public static yarnwrap.util.shape.VoxelShape UNATTACHED_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TripwireBlock.UNATTACHED_SHAPE); }
+// public static void UNATTACHED_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TripwireBlock.UNATTACHED_SHAPE = value.wrapperContained; }
+
 // public TripwireBlock(yarnwrap.block.Block hookBlock,Object settings) { this.wrapperContained = new net.minecraft.block.TripwireBlock(hookBlock.wrapperContained,settings); }
 public boolean shouldConnectTo(yarnwrap.block.BlockState state,yarnwrap.util.math.Direction facing) { return wrapperContained.shouldConnectTo(state.wrapperContained,facing.wrapperContained); }
 // public static boolean shouldConnectTo(yarnwrap.block.BlockState state,yarnwrap.util.math.Direction facing, ) { return net.minecraft.block.TripwireBlock.shouldConnectTo(state.wrapperContained,facing.wrapperContained); }
 // public void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public static void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.TripwireBlock.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
-// public void updatePowered(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.updatePowered(world.wrapperContained,pos.wrapperContained); }
-// public static void updatePowered(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.TripwireBlock.updatePowered(world.wrapperContained,pos.wrapperContained); }
+// public void updatePowered(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List entities) { wrapperContained.updatePowered(world.wrapperContained,pos.wrapperContained,entities); }
+// public static void updatePowered(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List entities, ) { net.minecraft.block.TripwireBlock.updatePowered(world.wrapperContained,pos.wrapperContained,entities); }
 // public com.mojang.datafixers.kinds.App method_54060(Object instance) { return wrapperContained.method_54060(instance); }
 // public static com.mojang.datafixers.kinds.App method_54060(Object instance, ) { return net.minecraft.block.TripwireBlock.method_54060(instance); }
 // public yarnwrap.block.Block method_54061(yarnwrap.block.TripwireBlock block) { return new yarnwrap.block.Block(wrapperContained.method_54061(block.wrapperContained)); }
 // public static yarnwrap.block.Block method_54061(yarnwrap.block.TripwireBlock block, ) { return new yarnwrap.block.Block(net.minecraft.block.TripwireBlock.method_54061(block.wrapperContained)); }
+// public void updatePowered(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.updatePowered(world.wrapperContained,pos.wrapperContained); }
+// public static void updatePowered(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.TripwireBlock.updatePowered(world.wrapperContained,pos.wrapperContained); }
 
 }

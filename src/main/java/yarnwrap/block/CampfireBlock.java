@@ -21,10 +21,10 @@ public static yarnwrap.state.property.BooleanProperty SIGNAL_FIRE() { return new
 public static yarnwrap.state.property.BooleanProperty WATERLOGGED() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.CampfireBlock.WATERLOGGED); }
 // public static void WATERLOGGED(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.CampfireBlock.WATERLOGGED = value.wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.CampfireBlock.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.CampfireBlock.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.CampfireBlock.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.CampfireBlock.FACING = value.wrapperContained; }
 
 // public yarnwrap.util.shape.VoxelShape SMOKEY_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.SMOKEY_SHAPE); }
 // public void SMOKEY_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.SMOKEY_SHAPE = value.wrapperContained; }
@@ -67,5 +67,7 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static java.lang.Integer method_53987(yarnwrap.block.CampfireBlock block, ) { return net.minecraft.block.CampfireBlock.method_53987(block.wrapperContained); }
 // public java.lang.Boolean method_53988(yarnwrap.block.CampfireBlock block) { return wrapperContained.method_53988(block.wrapperContained); }
 // public static java.lang.Boolean method_53988(yarnwrap.block.CampfireBlock block, ) { return net.minecraft.block.CampfireBlock.method_53988(block.wrapperContained); }
+// public void method_64781(yarnwrap.server.world.ServerWorld world,Object pos,yarnwrap.world.World state,yarnwrap.util.math.BlockPos blockEntity) { wrapperContained.method_64781(world.wrapperContained,pos,state.wrapperContained,blockEntity.wrapperContained); }
+// public static void method_64781(yarnwrap.server.world.ServerWorld world,Object pos,yarnwrap.world.World state,yarnwrap.util.math.BlockPos blockEntity, ) { net.minecraft.block.CampfireBlock.method_64781(world.wrapperContained,pos,state.wrapperContained,blockEntity.wrapperContained); }
 
 }

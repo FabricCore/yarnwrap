@@ -42,8 +42,8 @@ public class HoglinBrain { public net.minecraft.entity.mob.HoglinBrain wrapperCo
 // public static boolean isWarpedFungusAround(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.mob.HoglinBrain.isWarpedFungusAround(hoglin.wrapperContained,pos.wrapperContained); }
 // public void method_24670(yarnwrap.entity.LivingEntity hoglinx) { wrapperContained.method_24670(hoglinx.wrapperContained); }
 // public static void method_24670(yarnwrap.entity.LivingEntity hoglinx, ) { net.minecraft.entity.mob.HoglinBrain.method_24670(hoglinx.wrapperContained); }
-// public void onAttacked(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity attacker) { wrapperContained.onAttacked(hoglin.wrapperContained,attacker.wrapperContained); }
-// public static void onAttacked(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity attacker, ) { net.minecraft.entity.mob.HoglinBrain.onAttacked(hoglin.wrapperContained,attacker.wrapperContained); }
+// public void onAttacked(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity attacker) { wrapperContained.onAttacked(world.wrapperContained,hoglin.wrapperContained,attacker.wrapperContained); }
+// public static void onAttacked(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity attacker, ) { net.minecraft.entity.mob.HoglinBrain.onAttacked(world.wrapperContained,hoglin.wrapperContained,attacker.wrapperContained); }
 // public void addIdleTasks(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleTasks(brain.wrapperContained); }
 // public static void addIdleTasks(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.HoglinBrain.addIdleTasks(brain.wrapperContained); }
 // public void askAdultsToAvoid(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target) { wrapperContained.askAdultsToAvoid(hoglin.wrapperContained,target.wrapperContained); }
@@ -58,10 +58,10 @@ public class HoglinBrain { public net.minecraft.entity.mob.HoglinBrain wrapperCo
 // public static void addAvoidTasks(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.HoglinBrain.addAvoidTasks(brain.wrapperContained); }
 // public void avoid(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target) { wrapperContained.avoid(hoglin.wrapperContained,target.wrapperContained); }
 // public static void avoid(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.HoglinBrain.avoid(hoglin.wrapperContained,target.wrapperContained); }
-// public void targetEnemy(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target) { wrapperContained.targetEnemy(hoglin.wrapperContained,target.wrapperContained); }
-// public static void targetEnemy(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.HoglinBrain.targetEnemy(hoglin.wrapperContained,target.wrapperContained); }
-// public java.util.Optional getNearestVisibleTargetablePlayer(yarnwrap.entity.mob.HoglinEntity hoglin) { return wrapperContained.getNearestVisibleTargetablePlayer(hoglin.wrapperContained); }
-// public static java.util.Optional getNearestVisibleTargetablePlayer(yarnwrap.entity.mob.HoglinEntity hoglin, ) { return net.minecraft.entity.mob.HoglinBrain.getNearestVisibleTargetablePlayer(hoglin.wrapperContained); }
+// public void targetEnemy(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target) { wrapperContained.targetEnemy(world.wrapperContained,hoglin.wrapperContained,target.wrapperContained); }
+// public static void targetEnemy(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.HoglinBrain.targetEnemy(world.wrapperContained,hoglin.wrapperContained,target.wrapperContained); }
+// public java.util.Optional getNearestVisibleTargetablePlayer(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.HoglinEntity hoglin) { return wrapperContained.getNearestVisibleTargetablePlayer(world.wrapperContained,hoglin.wrapperContained); }
+// public static java.util.Optional getNearestVisibleTargetablePlayer(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.HoglinEntity hoglin, ) { return net.minecraft.entity.mob.HoglinBrain.getNearestVisibleTargetablePlayer(world.wrapperContained,hoglin.wrapperContained); }
 // public void setAttackTarget(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target) { wrapperContained.setAttackTarget(hoglin.wrapperContained,target.wrapperContained); }
 // public static void setAttackTarget(yarnwrap.entity.mob.HoglinEntity hoglin,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.HoglinBrain.setAttackTarget(hoglin.wrapperContained,target.wrapperContained); }
 // public boolean hasMoreHoglinsAround(yarnwrap.entity.mob.HoglinEntity hoglin) { return wrapperContained.hasMoreHoglinsAround(hoglin.wrapperContained); }

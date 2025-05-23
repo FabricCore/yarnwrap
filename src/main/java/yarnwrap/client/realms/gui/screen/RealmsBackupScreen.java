@@ -81,6 +81,8 @@ public RealmsBackupScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorld
 // public static void downloadClicked() { net.minecraft.client.realms.gui.screen.RealmsBackupScreen.downloadClicked(); }
 // public void method_25110(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25110(button.wrapperContained); }
 // public static void method_25110(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsBackupScreen.method_25110(button.wrapperContained); }
+// public void method_25111(yarnwrap.client.gui.screen.PopupScreen button) { wrapperContained.method_25111(button.wrapperContained); }
+// public static void method_25111(yarnwrap.client.gui.screen.PopupScreen button, ) { net.minecraft.client.realms.gui.screen.RealmsBackupScreen.method_25111(button.wrapperContained); }
 // public void method_25113(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25113(button.wrapperContained); }
 // public static void method_25113(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsBackupScreen.method_25113(button.wrapperContained); }
 // public void startBackupFetcher() { wrapperContained.startBackupFetcher(); }

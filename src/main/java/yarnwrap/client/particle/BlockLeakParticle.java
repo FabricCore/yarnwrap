@@ -1,15 +1,15 @@
 package yarnwrap.client.particle;
 public class BlockLeakParticle { public net.minecraft.client.particle.BlockLeakParticle wrapperContained; public BlockLeakParticle(net.minecraft.client.particle.BlockLeakParticle wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public boolean obsidianTear() { return wrapperContained.obsidianTear; }
-// public void obsidianTear(boolean value) { wrapperContained.obsidianTear = value; }
-// public static boolean obsidianTear() { return net.minecraft.client.particle.BlockLeakParticle.obsidianTear; }
-// public static void obsidianTear(boolean value, ) { net.minecraft.client.particle.BlockLeakParticle.obsidianTear = value; }
-
 // public yarnwrap.fluid.Fluid fluid() { return new yarnwrap.fluid.Fluid(wrapperContained.fluid); }
 // public void fluid(yarnwrap.fluid.Fluid value) { wrapperContained.fluid = value.wrapperContained; }
 // public static yarnwrap.fluid.Fluid fluid() { return new yarnwrap.fluid.Fluid(net.minecraft.client.particle.BlockLeakParticle.fluid); }
 // public static void fluid(yarnwrap.fluid.Fluid value, ) { net.minecraft.client.particle.BlockLeakParticle.fluid = value.wrapperContained; }
+
+// public boolean obsidianTear() { return wrapperContained.obsidianTear; }
+// public void obsidianTear(boolean value) { wrapperContained.obsidianTear = value; }
+// public static boolean obsidianTear() { return net.minecraft.client.particle.BlockLeakParticle.obsidianTear; }
+// public static void obsidianTear(boolean value, ) { net.minecraft.client.particle.BlockLeakParticle.obsidianTear = value; }
 
 // public BlockLeakParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,yarnwrap.fluid.Fluid fluid) { this.wrapperContained = new net.minecraft.client.particle.BlockLeakParticle(world.wrapperContained,x,y,z,fluid.wrapperContained); }
 // public void updateAge() { wrapperContained.updateAge(); }

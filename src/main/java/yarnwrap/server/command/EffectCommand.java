@@ -36,8 +36,6 @@ public class EffectCommand { public net.minecraft.server.command.EffectCommand w
 // public static int method_13233(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.EffectCommand.method_13233(context); }
 // public int method_13234(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13234(context); }
 // public static int method_13234(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.EffectCommand.method_13234(context); }
-// public boolean method_13235(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13235(source.wrapperContained); }
-// public static boolean method_13235(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.EffectCommand.method_13235(source.wrapperContained); }
 // public int method_23650(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_23650(context); }
 // public static int method_23650(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.EffectCommand.method_23650(context); }
 // public int method_48545(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_48545(context); }

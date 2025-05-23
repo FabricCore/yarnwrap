@@ -27,10 +27,10 @@ public yarnwrap.registry.RegistryKey getLootTable() { return new yarnwrap.regist
 // public static yarnwrap.registry.RegistryKey getLootTable() { return new yarnwrap.registry.RegistryKey(net.minecraft.inventory.LootableInventory.getLootTable()); }
 public long getLootTableSeed() { return wrapperContained.getLootTableSeed(); }
 // public static long getLootTableSeed() { return net.minecraft.inventory.LootableInventory.getLootTableSeed(); }
-public boolean readLootTable(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.readLootTable(nbt.wrapperContained); }
-// public static boolean readLootTable(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.inventory.LootableInventory.readLootTable(nbt.wrapperContained); }
-public boolean writeLootTable(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.writeLootTable(nbt.wrapperContained); }
-// public static boolean writeLootTable(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.inventory.LootableInventory.writeLootTable(nbt.wrapperContained); }
+// public boolean readLootTable(yarnwrap.storage.ReadView view) { return wrapperContained.readLootTable(view.wrapperContained); }
+// public static boolean readLootTable(yarnwrap.storage.ReadView view, ) { return net.minecraft.inventory.LootableInventory.readLootTable(view.wrapperContained); }
+// public boolean writeLootTable(yarnwrap.storage.WriteView view) { return wrapperContained.writeLootTable(view.wrapperContained); }
+// public static boolean writeLootTable(yarnwrap.storage.WriteView view, ) { return net.minecraft.inventory.LootableInventory.writeLootTable(view.wrapperContained); }
 public void generateLoot(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.generateLoot(player.wrapperContained); }
 // public static void generateLoot(yarnwrap.entity.player.PlayerEntity player, ) { net.minecraft.inventory.LootableInventory.generateLoot(player.wrapperContained); }
 

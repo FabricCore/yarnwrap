@@ -27,5 +27,7 @@ public boolean shouldNarrateChat() { return wrapperContained.shouldNarrateChat()
 // public static boolean shouldNarrateChat() { return net.minecraft.client.option.NarratorMode.shouldNarrateChat(); }
 public boolean shouldNarrateSystem() { return wrapperContained.shouldNarrateSystem(); }
 // public static boolean shouldNarrateSystem() { return net.minecraft.client.option.NarratorMode.shouldNarrateSystem(); }
+// public boolean shouldNarrate() { return wrapperContained.shouldNarrate(); }
+// public static boolean shouldNarrate() { return net.minecraft.client.option.NarratorMode.shouldNarrate(); }
 
 }

@@ -1,6 +1,21 @@
 package yarnwrap.entity.mob;
 public class ZombifiedPiglinEntity { public net.minecraft.entity.mob.ZombifiedPiglinEntity wrapperContained; public ZombifiedPiglinEntity(net.minecraft.entity.mob.ZombifiedPiglinEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.entity.attribute.EntityAttributeModifier ATTACKING_SPEED_BOOST() { return new yarnwrap.entity.attribute.EntityAttributeModifier(wrapperContained.ATTACKING_SPEED_BOOST); }
+// public void ATTACKING_SPEED_BOOST(yarnwrap.entity.attribute.EntityAttributeModifier value) { wrapperContained.ATTACKING_SPEED_BOOST = value.wrapperContained; }
+// public static yarnwrap.entity.attribute.EntityAttributeModifier ATTACKING_SPEED_BOOST() { return new yarnwrap.entity.attribute.EntityAttributeModifier(net.minecraft.entity.mob.ZombifiedPiglinEntity.ATTACKING_SPEED_BOOST); }
+// public static void ATTACKING_SPEED_BOOST(yarnwrap.entity.attribute.EntityAttributeModifier value, ) { net.minecraft.entity.mob.ZombifiedPiglinEntity.ATTACKING_SPEED_BOOST = value.wrapperContained; }
+
+// public int angrySoundDelay() { return wrapperContained.angrySoundDelay; }
+// public void angrySoundDelay(int value) { wrapperContained.angrySoundDelay = value; }
+// public static int angrySoundDelay() { return net.minecraft.entity.mob.ZombifiedPiglinEntity.angrySoundDelay; }
+// public static void angrySoundDelay(int value, ) { net.minecraft.entity.mob.ZombifiedPiglinEntity.angrySoundDelay = value; }
+
+// public yarnwrap.util.Identifier ATTACKING_SPEED_MODIFIER_ID() { return new yarnwrap.util.Identifier(wrapperContained.ATTACKING_SPEED_MODIFIER_ID); }
+// public void ATTACKING_SPEED_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.ATTACKING_SPEED_MODIFIER_ID = value.wrapperContained; }
+// public static yarnwrap.util.Identifier ATTACKING_SPEED_MODIFIER_ID() { return new yarnwrap.util.Identifier(net.minecraft.entity.mob.ZombifiedPiglinEntity.ATTACKING_SPEED_MODIFIER_ID); }
+// public static void ATTACKING_SPEED_MODIFIER_ID(yarnwrap.util.Identifier value, ) { net.minecraft.entity.mob.ZombifiedPiglinEntity.ATTACKING_SPEED_MODIFIER_ID = value.wrapperContained; }
+
 // public yarnwrap.util.math.intprovider.UniformIntProvider ANGER_TIME_RANGE() { return new yarnwrap.util.math.intprovider.UniformIntProvider(wrapperContained.ANGER_TIME_RANGE); }
 // public void ANGER_TIME_RANGE(yarnwrap.util.math.intprovider.UniformIntProvider value) { wrapperContained.ANGER_TIME_RANGE = value.wrapperContained; }
 // public static yarnwrap.util.math.intprovider.UniformIntProvider ANGER_TIME_RANGE() { return new yarnwrap.util.math.intprovider.UniformIntProvider(net.minecraft.entity.mob.ZombifiedPiglinEntity.ANGER_TIME_RANGE); }
@@ -35,21 +50,6 @@ public class ZombifiedPiglinEntity { public net.minecraft.entity.mob.ZombifiedPi
 // public void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value) { wrapperContained.BABY_BASE_DIMENSIONS = value.wrapperContained; }
 // public static yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(net.minecraft.entity.mob.ZombifiedPiglinEntity.BABY_BASE_DIMENSIONS); }
 // public static void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value, ) { net.minecraft.entity.mob.ZombifiedPiglinEntity.BABY_BASE_DIMENSIONS = value.wrapperContained; }
-
-// public yarnwrap.entity.attribute.EntityAttributeModifier ATTACKING_SPEED_BOOST() { return new yarnwrap.entity.attribute.EntityAttributeModifier(wrapperContained.ATTACKING_SPEED_BOOST); }
-// public void ATTACKING_SPEED_BOOST(yarnwrap.entity.attribute.EntityAttributeModifier value) { wrapperContained.ATTACKING_SPEED_BOOST = value.wrapperContained; }
-// public static yarnwrap.entity.attribute.EntityAttributeModifier ATTACKING_SPEED_BOOST() { return new yarnwrap.entity.attribute.EntityAttributeModifier(net.minecraft.entity.mob.ZombifiedPiglinEntity.ATTACKING_SPEED_BOOST); }
-// public static void ATTACKING_SPEED_BOOST(yarnwrap.entity.attribute.EntityAttributeModifier value, ) { net.minecraft.entity.mob.ZombifiedPiglinEntity.ATTACKING_SPEED_BOOST = value.wrapperContained; }
-
-// public int angrySoundDelay() { return wrapperContained.angrySoundDelay; }
-// public void angrySoundDelay(int value) { wrapperContained.angrySoundDelay = value; }
-// public static int angrySoundDelay() { return net.minecraft.entity.mob.ZombifiedPiglinEntity.angrySoundDelay; }
-// public static void angrySoundDelay(int value, ) { net.minecraft.entity.mob.ZombifiedPiglinEntity.angrySoundDelay = value; }
-
-// public yarnwrap.util.Identifier ATTACKING_SPEED_MODIFIER_ID() { return new yarnwrap.util.Identifier(wrapperContained.ATTACKING_SPEED_MODIFIER_ID); }
-// public void ATTACKING_SPEED_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.ATTACKING_SPEED_MODIFIER_ID = value.wrapperContained; }
-// public static yarnwrap.util.Identifier ATTACKING_SPEED_MODIFIER_ID() { return new yarnwrap.util.Identifier(net.minecraft.entity.mob.ZombifiedPiglinEntity.ATTACKING_SPEED_MODIFIER_ID); }
-// public static void ATTACKING_SPEED_MODIFIER_ID(yarnwrap.util.Identifier value, ) { net.minecraft.entity.mob.ZombifiedPiglinEntity.ATTACKING_SPEED_MODIFIER_ID = value.wrapperContained; }
 
 // public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.mob.ZombifiedPiglinEntity.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }

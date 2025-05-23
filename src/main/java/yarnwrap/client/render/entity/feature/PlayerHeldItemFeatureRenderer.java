@@ -11,12 +11,7 @@ public class PlayerHeldItemFeatureRenderer { public net.minecraft.client.render.
 // public static float HEAD_ROLL() { return net.minecraft.client.render.entity.feature.PlayerHeldItemFeatureRenderer.HEAD_ROLL; }
 // public static void HEAD_ROLL(float value, ) { net.minecraft.client.render.entity.feature.PlayerHeldItemFeatureRenderer.HEAD_ROLL = value; }
 
-// public yarnwrap.client.render.item.HeldItemRenderer playerHeldItemRenderer() { return new yarnwrap.client.render.item.HeldItemRenderer(wrapperContained.playerHeldItemRenderer); }
-// public void playerHeldItemRenderer(yarnwrap.client.render.item.HeldItemRenderer value) { wrapperContained.playerHeldItemRenderer = value.wrapperContained; }
-// public static yarnwrap.client.render.item.HeldItemRenderer playerHeldItemRenderer() { return new yarnwrap.client.render.item.HeldItemRenderer(net.minecraft.client.render.entity.feature.PlayerHeldItemFeatureRenderer.playerHeldItemRenderer); }
-// public static void playerHeldItemRenderer(yarnwrap.client.render.item.HeldItemRenderer value, ) { net.minecraft.client.render.entity.feature.PlayerHeldItemFeatureRenderer.playerHeldItemRenderer = value.wrapperContained; }
-
-// public void renderSpyglass(yarnwrap.entity.LivingEntity entity,yarnwrap.item.ItemStack stack,yarnwrap.util.Arm arm,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light) { wrapperContained.renderSpyglass(entity.wrapperContained,stack.wrapperContained,arm.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light); }
-// public static void renderSpyglass(yarnwrap.entity.LivingEntity entity,yarnwrap.item.ItemStack stack,yarnwrap.util.Arm arm,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light, ) { net.minecraft.client.render.entity.feature.PlayerHeldItemFeatureRenderer.renderSpyglass(entity.wrapperContained,stack.wrapperContained,arm.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light); }
+// public void renderSpyglass(yarnwrap.client.render.item.ItemRenderState spyglassState,yarnwrap.util.Arm arm,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light) { wrapperContained.renderSpyglass(spyglassState.wrapperContained,arm.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light); }
+// public static void renderSpyglass(yarnwrap.client.render.item.ItemRenderState spyglassState,yarnwrap.util.Arm arm,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light, ) { net.minecraft.client.render.entity.feature.PlayerHeldItemFeatureRenderer.renderSpyglass(spyglassState.wrapperContained,arm.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light); }
 
 }

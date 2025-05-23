@@ -51,16 +51,6 @@ public class RealmsSelectFileToUploadScreen { public net.minecraft.client.realms
 // public static yarnwrap.text.Text WORLD_LANG() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.screen.RealmsSelectFileToUploadScreen.WORLD_LANG); }
 // public static void WORLD_LANG(yarnwrap.text.Text value, ) { net.minecraft.client.realms.gui.screen.RealmsSelectFileToUploadScreen.WORLD_LANG = value.wrapperContained; }
 
-// public yarnwrap.text.Text HARDCORE_TEXT() { return new yarnwrap.text.Text(wrapperContained.HARDCORE_TEXT); }
-// public void HARDCORE_TEXT(yarnwrap.text.Text value) { wrapperContained.HARDCORE_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text HARDCORE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.screen.RealmsSelectFileToUploadScreen.HARDCORE_TEXT); }
-// public static void HARDCORE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.realms.gui.screen.RealmsSelectFileToUploadScreen.HARDCORE_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.Text COMMANDS_TEXT() { return new yarnwrap.text.Text(wrapperContained.COMMANDS_TEXT); }
-// public void COMMANDS_TEXT(yarnwrap.text.Text value) { wrapperContained.COMMANDS_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text COMMANDS_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.screen.RealmsSelectFileToUploadScreen.COMMANDS_TEXT); }
-// public static void COMMANDS_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.realms.gui.screen.RealmsSelectFileToUploadScreen.COMMANDS_TEXT = value.wrapperContained; }
-
 // public yarnwrap.text.Text LOADING_ERROR_TEXT() { return new yarnwrap.text.Text(wrapperContained.LOADING_ERROR_TEXT); }
 // public void LOADING_ERROR_TEXT(yarnwrap.text.Text value) { wrapperContained.LOADING_ERROR_TEXT = value.wrapperContained; }
 // public static yarnwrap.text.Text LOADING_ERROR_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.screen.RealmsSelectFileToUploadScreen.LOADING_ERROR_TEXT); }

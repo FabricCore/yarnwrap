@@ -41,11 +41,6 @@ public class StructurePiece { public net.minecraft.structure.StructurePiece wrap
 // public static yarnwrap.structure.StructurePieceType type() { return new yarnwrap.structure.StructurePieceType(net.minecraft.structure.StructurePiece.type); }
 // public static void type(yarnwrap.structure.StructurePieceType value, ) { net.minecraft.structure.StructurePiece.type = value.wrapperContained; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.structure.StructurePiece.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.structure.StructurePiece.LOGGER = value; }
-
 // public StructurePiece(yarnwrap.structure.StructurePieceType type,int length,yarnwrap.util.math.BlockBox boundingBox) { this.wrapperContained = new net.minecraft.structure.StructurePiece(type.wrapperContained,length,boundingBox.wrapperContained); }
 // public StructurePiece(yarnwrap.structure.StructurePieceType type,yarnwrap.nbt.NbtCompound nbt) { this.wrapperContained = new net.minecraft.structure.StructurePiece(type.wrapperContained,nbt.wrapperContained); }
 // public boolean addChest(yarnwrap.world.StructureWorldAccess world,yarnwrap.util.math.BlockBox boundingBox,yarnwrap.util.math.random.Random random,int x,int y,int z,yarnwrap.registry.RegistryKey lootTable) { return wrapperContained.addChest(world.wrapperContained,boundingBox.wrapperContained,random.wrapperContained,x,y,z,lootTable.wrapperContained); }
@@ -122,8 +117,6 @@ public yarnwrap.util.BlockRotation getRotation() { return new yarnwrap.util.Bloc
 // public static yarnwrap.util.math.Direction getRandomHorizontalDirection(yarnwrap.util.math.random.Random random, ) { return new yarnwrap.util.math.Direction(net.minecraft.structure.StructurePiece.getRandomHorizontalDirection(random.wrapperContained)); }
 public yarnwrap.util.math.BlockPos getCenter() { return new yarnwrap.util.math.BlockPos(wrapperContained.getCenter()); }
 // public static yarnwrap.util.math.BlockPos getCenter() { return new yarnwrap.util.math.BlockPos(net.minecraft.structure.StructurePiece.getCenter()); }
-// public java.lang.IllegalArgumentException method_35459(java.lang.String error) { return wrapperContained.method_35459(error); }
-// public static java.lang.IllegalArgumentException method_35459(java.lang.String error, ) { return net.minecraft.structure.StructurePiece.method_35459(error); }
 public yarnwrap.util.BlockMirror getMirror() { return new yarnwrap.util.BlockMirror(wrapperContained.getMirror()); }
 // public static yarnwrap.util.BlockMirror getMirror() { return new yarnwrap.util.BlockMirror(net.minecraft.structure.StructurePiece.getMirror()); }
 // public yarnwrap.structure.StructurePiece firstIntersecting(java.util.List pieces,yarnwrap.util.math.BlockBox box) { return new yarnwrap.structure.StructurePiece(wrapperContained.firstIntersecting(pieces,box.wrapperContained)); }

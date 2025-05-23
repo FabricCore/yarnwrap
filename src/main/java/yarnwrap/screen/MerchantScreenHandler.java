@@ -1,6 +1,16 @@
 package yarnwrap.screen;
 public class MerchantScreenHandler { public net.minecraft.screen.MerchantScreenHandler wrapperContained; public MerchantScreenHandler(net.minecraft.screen.MerchantScreenHandler wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.village.MerchantInventory merchantInventory() { return new yarnwrap.village.MerchantInventory(wrapperContained.merchantInventory); }
+// public void merchantInventory(yarnwrap.village.MerchantInventory value) { wrapperContained.merchantInventory = value.wrapperContained; }
+// public static yarnwrap.village.MerchantInventory merchantInventory() { return new yarnwrap.village.MerchantInventory(net.minecraft.screen.MerchantScreenHandler.merchantInventory); }
+// public static void merchantInventory(yarnwrap.village.MerchantInventory value, ) { net.minecraft.screen.MerchantScreenHandler.merchantInventory = value.wrapperContained; }
+
+// public yarnwrap.village.Merchant merchant() { return new yarnwrap.village.Merchant(wrapperContained.merchant); }
+// public void merchant(yarnwrap.village.Merchant value) { wrapperContained.merchant = value.wrapperContained; }
+// public static yarnwrap.village.Merchant merchant() { return new yarnwrap.village.Merchant(net.minecraft.screen.MerchantScreenHandler.merchant); }
+// public static void merchant(yarnwrap.village.Merchant value, ) { net.minecraft.screen.MerchantScreenHandler.merchant = value.wrapperContained; }
+
 // public int levelProgress() { return wrapperContained.levelProgress; }
 // public void levelProgress(int value) { wrapperContained.levelProgress = value; }
 // public static int levelProgress() { return net.minecraft.screen.MerchantScreenHandler.levelProgress; }
@@ -71,18 +81,10 @@ public class MerchantScreenHandler { public net.minecraft.screen.MerchantScreenH
 // public static int SLOT_Y() { return net.minecraft.screen.MerchantScreenHandler.SLOT_Y; }
 // public static void SLOT_Y(int value, ) { net.minecraft.screen.MerchantScreenHandler.SLOT_Y = value; }
 
-// public yarnwrap.village.MerchantInventory merchantInventory() { return new yarnwrap.village.MerchantInventory(wrapperContained.merchantInventory); }
-// public void merchantInventory(yarnwrap.village.MerchantInventory value) { wrapperContained.merchantInventory = value.wrapperContained; }
-// public static yarnwrap.village.MerchantInventory merchantInventory() { return new yarnwrap.village.MerchantInventory(net.minecraft.screen.MerchantScreenHandler.merchantInventory); }
-// public static void merchantInventory(yarnwrap.village.MerchantInventory value, ) { net.minecraft.screen.MerchantScreenHandler.merchantInventory = value.wrapperContained; }
-
-// public yarnwrap.village.Merchant merchant() { return new yarnwrap.village.Merchant(wrapperContained.merchant); }
-// public void merchant(yarnwrap.village.Merchant value) { wrapperContained.merchant = value.wrapperContained; }
-// public static yarnwrap.village.Merchant merchant() { return new yarnwrap.village.Merchant(net.minecraft.screen.MerchantScreenHandler.merchant); }
-// public static void merchant(yarnwrap.village.Merchant value, ) { net.minecraft.screen.MerchantScreenHandler.merchant = value.wrapperContained; }
-
 public MerchantScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.MerchantScreenHandler(syncId,playerInventory.wrapperContained); }
 public MerchantScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.village.Merchant merchant) { this.wrapperContained = new net.minecraft.screen.MerchantScreenHandler(syncId,playerInventory.wrapperContained,merchant.wrapperContained); }
+public void setRecipeIndex(int index) { wrapperContained.setRecipeIndex(index); }
+// public static void setRecipeIndex(int index, ) { net.minecraft.screen.MerchantScreenHandler.setRecipeIndex(index); }
 public void setOffers(yarnwrap.village.TradeOfferList offers) { wrapperContained.setOffers(offers.wrapperContained); }
 // public static void setOffers(yarnwrap.village.TradeOfferList offers, ) { net.minecraft.screen.MerchantScreenHandler.setOffers(offers.wrapperContained); }
 public yarnwrap.village.TradeOfferList getRecipes() { return new yarnwrap.village.TradeOfferList(wrapperContained.getRecipes()); }
@@ -113,7 +115,5 @@ public void setCanRefreshTrades(boolean canRefreshTrades) { wrapperContained.set
 // // public static boolean canRefreshTrades() { return net.minecraft.screen.MerchantScreenHandler.canRefreshTrades(); }
 // public void method_57323(yarnwrap.village.TradedItem item) { wrapperContained.method_57323(item.wrapperContained); }
 // public static void method_57323(yarnwrap.village.TradedItem item, ) { net.minecraft.screen.MerchantScreenHandler.method_57323(item.wrapperContained); }
-public void setRecipeIndex(int index) { wrapperContained.setRecipeIndex(index); }
-// public static void setRecipeIndex(int index, ) { net.minecraft.screen.MerchantScreenHandler.setRecipeIndex(index); }
 
 }

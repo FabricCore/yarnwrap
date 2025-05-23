@@ -16,13 +16,6 @@ public static yarnwrap.loot.LootDataType ITEM_MODIFIERS() { return new yarnwrap.
 public static yarnwrap.loot.LootDataType LOOT_TABLES() { return new yarnwrap.loot.LootDataType(net.minecraft.loot.LootDataType.LOOT_TABLES); }
 // public static void LOOT_TABLES(yarnwrap.loot.LootDataType value, ) { net.minecraft.loot.LootDataType.LOOT_TABLES = value.wrapperContained; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.loot.LootDataType.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.loot.LootDataType.LOGGER = value; }
-
-public java.util.Optional parse(yarnwrap.util.Identifier id,com.mojang.serialization.DynamicOps ops,java.lang.Object json) { return wrapperContained.parse(id.wrapperContained,ops,json); }
-// public static java.util.Optional parse(yarnwrap.util.Identifier id,com.mojang.serialization.DynamicOps ops,java.lang.Object json, ) { return net.minecraft.loot.LootDataType.parse(id.wrapperContained,ops,json); }
 // public void method_51207(yarnwrap.loot.LootTableReporter reporter,yarnwrap.registry.RegistryKey key,yarnwrap.loot.context.LootContextAware value) { wrapperContained.method_51207(reporter.wrapperContained,key.wrapperContained,value.wrapperContained); }
 // public static void method_51207(yarnwrap.loot.LootTableReporter reporter,yarnwrap.registry.RegistryKey key,yarnwrap.loot.context.LootContextAware value, ) { net.minecraft.loot.LootDataType.method_51207(reporter.wrapperContained,key.wrapperContained,value.wrapperContained); }
 // public void method_51208(yarnwrap.loot.LootTableReporter reporter,yarnwrap.registry.RegistryKey key,yarnwrap.loot.LootTable value) { wrapperContained.method_51208(reporter.wrapperContained,key.wrapperContained,value.wrapperContained); }
@@ -35,7 +28,5 @@ public static java.util.stream.Stream stream() { return net.minecraft.loot.LootD
 // public static Object simpleValidator() { return net.minecraft.loot.LootDataType.simpleValidator(); }
 // public Object tableValidator() { return wrapperContained.tableValidator(); }
 // public static Object tableValidator() { return net.minecraft.loot.LootDataType.tableValidator(); }
-// public void method_53267(yarnwrap.util.Identifier error) { wrapperContained.method_53267(error.wrapperContained); }
-// public static void method_53267(yarnwrap.util.Identifier error, ) { net.minecraft.loot.LootDataType.method_53267(error.wrapperContained); }
 
 }

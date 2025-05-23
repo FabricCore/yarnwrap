@@ -22,6 +22,6 @@ public class CraftingInventory { public net.minecraft.inventory.CraftingInventor
 // public static void stacks(yarnwrap.util.collection.DefaultedList value, ) { net.minecraft.inventory.CraftingInventory.stacks = value.wrapperContained; }
 
 public CraftingInventory(yarnwrap.screen.ScreenHandler handler,int width,int height) { this.wrapperContained = new net.minecraft.inventory.CraftingInventory(handler.wrapperContained,width,height); }
-public CraftingInventory(yarnwrap.screen.ScreenHandler handler,int width,int height,yarnwrap.util.collection.DefaultedList stacks) { this.wrapperContained = new net.minecraft.inventory.CraftingInventory(handler.wrapperContained,width,height,stacks.wrapperContained); }
+// public CraftingInventory(yarnwrap.screen.ScreenHandler handler,int width,int height,yarnwrap.util.collection.DefaultedList stacks) { this.wrapperContained = new net.minecraft.inventory.CraftingInventory(handler.wrapperContained,width,height,stacks.wrapperContained); }
 
 }

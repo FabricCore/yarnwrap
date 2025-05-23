@@ -1,10 +1,10 @@
 package yarnwrap.recipe;
 public class RecipeEntry { public net.minecraft.recipe.RecipeEntry wrapperContained; public RecipeEntry(net.minecraft.recipe.RecipeEntry wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.util.Identifier id() { return new yarnwrap.util.Identifier(wrapperContained.id); }
-// public void id(yarnwrap.util.Identifier value) { wrapperContained.id = value.wrapperContained; }
-// public static yarnwrap.util.Identifier id() { return new yarnwrap.util.Identifier(net.minecraft.recipe.RecipeEntry.id); }
-// public static void id(yarnwrap.util.Identifier value, ) { net.minecraft.recipe.RecipeEntry.id = value.wrapperContained; }
+// public yarnwrap.registry.RegistryKey id() { return new yarnwrap.registry.RegistryKey(wrapperContained.id); }
+// public void id(yarnwrap.registry.RegistryKey value) { wrapperContained.id = value.wrapperContained; }
+// public static yarnwrap.registry.RegistryKey id() { return new yarnwrap.registry.RegistryKey(net.minecraft.recipe.RecipeEntry.id); }
+// public static void id(yarnwrap.registry.RegistryKey value, ) { net.minecraft.recipe.RecipeEntry.id = value.wrapperContained; }
 
 // public yarnwrap.recipe.Recipe value() { return new yarnwrap.recipe.Recipe(wrapperContained.value); }
 // public void value(yarnwrap.recipe.Recipe value) { wrapperContained.value = value.wrapperContained; }
@@ -16,8 +16,8 @@ public class RecipeEntry { public net.minecraft.recipe.RecipeEntry wrapperContai
 public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.recipe.RecipeEntry.PACKET_CODEC); }
 // public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.recipe.RecipeEntry.PACKET_CODEC = value.wrapperContained; }
 
-// public yarnwrap.util.Identifier id() { return new yarnwrap.util.Identifier(wrapperContained.id()); }
-// // public static yarnwrap.util.Identifier id() { return new yarnwrap.util.Identifier(net.minecraft.recipe.RecipeEntry.id()); }
+// public yarnwrap.registry.RegistryKey id() { return new yarnwrap.registry.RegistryKey(wrapperContained.id()); }
+// // public static yarnwrap.registry.RegistryKey id() { return new yarnwrap.registry.RegistryKey(net.minecraft.recipe.RecipeEntry.id()); }
 // public yarnwrap.recipe.Recipe value() { return new yarnwrap.recipe.Recipe(wrapperContained.value()); }
 // // public static yarnwrap.recipe.Recipe value() { return new yarnwrap.recipe.Recipe(net.minecraft.recipe.RecipeEntry.value()); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }

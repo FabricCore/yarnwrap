@@ -36,6 +36,11 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // // public static Object precipitation() { return net.minecraft.block.LeveledCauldronBlock.precipitation; }
 // // public static void precipitation(Object value, ) { net.minecraft.block.LeveledCauldronBlock.precipitation = value; }
 
+// public net.minecraft.util.shape.VoxelShape[] INSIDE_COLLISION_SHAPE_BY_LEVEL() { return wrapperContained.INSIDE_COLLISION_SHAPE_BY_LEVEL; }
+// public void INSIDE_COLLISION_SHAPE_BY_LEVEL(net.minecraft.util.shape.VoxelShape[] value) { wrapperContained.INSIDE_COLLISION_SHAPE_BY_LEVEL = value; }
+// public static net.minecraft.util.shape.VoxelShape[] INSIDE_COLLISION_SHAPE_BY_LEVEL() { return net.minecraft.block.LeveledCauldronBlock.INSIDE_COLLISION_SHAPE_BY_LEVEL; }
+// public static void INSIDE_COLLISION_SHAPE_BY_LEVEL(net.minecraft.util.shape.VoxelShape[] value, ) { net.minecraft.block.LeveledCauldronBlock.INSIDE_COLLISION_SHAPE_BY_LEVEL = value; }
+
 // public LeveledCauldronBlock(Object precipitation,Object behaviorMap,Object settings) { this.wrapperContained = new net.minecraft.block.LeveledCauldronBlock(precipitation,behaviorMap,settings); }
 // public void decrementFluidLevel(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.decrementFluidLevel(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
 // public static void decrementFluidLevel(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.LeveledCauldronBlock.decrementFluidLevel(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
@@ -47,5 +52,11 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static Object method_54025(yarnwrap.block.LeveledCauldronBlock block, ) { return net.minecraft.block.LeveledCauldronBlock.method_54025(block.wrapperContained); }
 // public Object method_54026(yarnwrap.block.LeveledCauldronBlock block) { return wrapperContained.method_54026(block.wrapperContained); }
 // public static Object method_54026(yarnwrap.block.LeveledCauldronBlock block, ) { return net.minecraft.block.LeveledCauldronBlock.method_54026(block.wrapperContained); }
+// public void method_71627(yarnwrap.server.world.ServerWorld collidedEntity) { wrapperContained.method_71627(collidedEntity.wrapperContained); }
+// public static void method_71627(yarnwrap.server.world.ServerWorld collidedEntity, ) { net.minecraft.block.LeveledCauldronBlock.method_71627(collidedEntity.wrapperContained); }
+// public double getFluidHeight(int level) { return wrapperContained.getFluidHeight(level); }
+// public static double getFluidHeight(int level, ) { return net.minecraft.block.LeveledCauldronBlock.getFluidHeight(level); }
+// public yarnwrap.util.shape.VoxelShape method_71630(int level) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_71630(level)); }
+// public static yarnwrap.util.shape.VoxelShape method_71630(int level, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.LeveledCauldronBlock.method_71630(level)); }
 
 }

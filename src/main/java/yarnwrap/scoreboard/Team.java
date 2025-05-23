@@ -101,5 +101,7 @@ public yarnwrap.text.MutableText getFormattedName() { return new yarnwrap.text.M
 // public static void setNameTagVisibilityRule(Object nameTagVisibilityRule, ) { net.minecraft.scoreboard.Team.setNameTagVisibilityRule(nameTagVisibilityRule); }
 public yarnwrap.scoreboard.Scoreboard getScoreboard() { return new yarnwrap.scoreboard.Scoreboard(wrapperContained.getScoreboard()); }
 // public static yarnwrap.scoreboard.Scoreboard getScoreboard() { return new yarnwrap.scoreboard.Scoreboard(net.minecraft.scoreboard.Team.getScoreboard()); }
+public Object pack() { return wrapperContained.pack(); }
+// public static Object pack() { return net.minecraft.scoreboard.Team.pack(); }
 
 }

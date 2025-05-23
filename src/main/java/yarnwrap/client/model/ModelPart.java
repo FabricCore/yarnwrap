@@ -6,20 +6,20 @@ public void pitch(float value) { wrapperContained.pitch = value; }
 // public static float pitch() { return net.minecraft.client.model.ModelPart.pitch; }
 // public static void pitch(float value, ) { net.minecraft.client.model.ModelPart.pitch = value; }
 
-public float pivotZ() { return wrapperContained.pivotZ; }
-public void pivotZ(float value) { wrapperContained.pivotZ = value; }
-// public static float pivotZ() { return net.minecraft.client.model.ModelPart.pivotZ; }
-// public static void pivotZ(float value, ) { net.minecraft.client.model.ModelPart.pivotZ = value; }
+public float originZ() { return wrapperContained.originZ; }
+public void originZ(float value) { wrapperContained.originZ = value; }
+// public static float originZ() { return net.minecraft.client.model.ModelPart.originZ; }
+// public static void originZ(float value, ) { net.minecraft.client.model.ModelPart.originZ = value; }
 
-public float pivotY() { return wrapperContained.pivotY; }
-public void pivotY(float value) { wrapperContained.pivotY = value; }
-// public static float pivotY() { return net.minecraft.client.model.ModelPart.pivotY; }
-// public static void pivotY(float value, ) { net.minecraft.client.model.ModelPart.pivotY = value; }
+public float originY() { return wrapperContained.originY; }
+public void originY(float value) { wrapperContained.originY = value; }
+// public static float originY() { return net.minecraft.client.model.ModelPart.originY; }
+// public static void originY(float value, ) { net.minecraft.client.model.ModelPart.originY = value; }
 
-public float pivotX() { return wrapperContained.pivotX; }
-public void pivotX(float value) { wrapperContained.pivotX = value; }
-// public static float pivotX() { return net.minecraft.client.model.ModelPart.pivotX; }
-// public static void pivotX(float value, ) { net.minecraft.client.model.ModelPart.pivotX = value; }
+public float originX() { return wrapperContained.originX; }
+public void originX(float value) { wrapperContained.originX = value; }
+// public static float originX() { return net.minecraft.client.model.ModelPart.originX; }
+// public static void originX(float value, ) { net.minecraft.client.model.ModelPart.originX = value; }
 
 // public java.util.Map children() { return wrapperContained.children; }
 // public void children(java.util.Map value) { wrapperContained.children = value; }
@@ -72,6 +72,8 @@ public void hidden(boolean value) { wrapperContained.hidden = value; }
 // public static void hidden(boolean value, ) { net.minecraft.client.model.ModelPart.hidden = value; }
 
 public ModelPart(java.util.List cuboids,java.util.Map children) { this.wrapperContained = new net.minecraft.client.model.ModelPart(cuboids,children); }
+public void setOrigin(float x,float y,float z) { wrapperContained.setOrigin(x,y,z); }
+// public static void setOrigin(float x,float y,float z, ) { net.minecraft.client.model.ModelPart.setOrigin(x,y,z); }
 public void copyTransform(yarnwrap.client.model.ModelPart part) { wrapperContained.copyTransform(part.wrapperContained); }
 // public static void copyTransform(yarnwrap.client.model.ModelPart part, ) { net.minecraft.client.model.ModelPart.copyTransform(part.wrapperContained); }
 public void render(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,int light,int overlay) { wrapperContained.render(matrices.wrapperContained,vertices.wrapperContained,light,overlay); }
@@ -82,20 +84,18 @@ public Object getRandomCuboid(yarnwrap.util.math.random.Random random) { return 
 // public static Object getRandomCuboid(yarnwrap.util.math.random.Random random, ) { return net.minecraft.client.model.ModelPart.getRandomCuboid(random.wrapperContained); }
 // public void renderCuboids(Object entry,yarnwrap.client.render.VertexConsumer vertexConsumer,int light,int overlay,int color) { wrapperContained.renderCuboids(entry,vertexConsumer.wrapperContained,light,overlay,color); }
 // public static void renderCuboids(Object entry,yarnwrap.client.render.VertexConsumer vertexConsumer,int light,int overlay,int color, ) { net.minecraft.client.model.ModelPart.renderCuboids(entry,vertexConsumer.wrapperContained,light,overlay,color); }
-public void rotate(yarnwrap.client.util.math.MatrixStack matrices) { wrapperContained.rotate(matrices.wrapperContained); }
-// public static void rotate(yarnwrap.client.util.math.MatrixStack matrices, ) { net.minecraft.client.model.ModelPart.rotate(matrices.wrapperContained); }
-public void setPivot(float x,float y,float z) { wrapperContained.setPivot(x,y,z); }
-// public static void setPivot(float x,float y,float z, ) { net.minecraft.client.model.ModelPart.setPivot(x,y,z); }
+public void applyTransform(yarnwrap.client.util.math.MatrixStack matrices) { wrapperContained.applyTransform(matrices.wrapperContained); }
+// public static void applyTransform(yarnwrap.client.util.math.MatrixStack matrices, ) { net.minecraft.client.model.ModelPart.applyTransform(matrices.wrapperContained); }
 public yarnwrap.client.model.ModelTransform getTransform() { return new yarnwrap.client.model.ModelTransform(wrapperContained.getTransform()); }
 // public static yarnwrap.client.model.ModelTransform getTransform() { return new yarnwrap.client.model.ModelTransform(net.minecraft.client.model.ModelPart.getTransform()); }
-public void setTransform(yarnwrap.client.model.ModelTransform rotationData) { wrapperContained.setTransform(rotationData.wrapperContained); }
-// public static void setTransform(yarnwrap.client.model.ModelTransform rotationData, ) { net.minecraft.client.model.ModelPart.setTransform(rotationData.wrapperContained); }
+public void setTransform(yarnwrap.client.model.ModelTransform transform) { wrapperContained.setTransform(transform.wrapperContained); }
+// public static void setTransform(yarnwrap.client.model.ModelTransform transform, ) { net.minecraft.client.model.ModelPart.setTransform(transform.wrapperContained); }
 public yarnwrap.client.model.ModelPart getChild(java.lang.String name) { return new yarnwrap.client.model.ModelPart(wrapperContained.getChild(name)); }
 // public static yarnwrap.client.model.ModelPart getChild(java.lang.String name, ) { return new yarnwrap.client.model.ModelPart(net.minecraft.client.model.ModelPart.getChild(name)); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 // public static boolean isEmpty() { return net.minecraft.client.model.ModelPart.isEmpty(); }
-public java.util.stream.Stream traverse() { return wrapperContained.traverse(); }
-// public static java.util.stream.Stream traverse() { return net.minecraft.client.model.ModelPart.traverse(); }
+// public java.util.List traverse() { return wrapperContained.traverse(); }
+// // public static java.util.List traverse() { return net.minecraft.client.model.ModelPart.traverse(); }
 public void setAngles(float pitch,float yaw,float roll) { wrapperContained.setAngles(pitch,yaw,roll); }
 // public static void setAngles(float pitch,float yaw,float roll, ) { net.minecraft.client.model.ModelPart.setAngles(pitch,yaw,roll); }
 // public void forEachCuboid(yarnwrap.client.util.math.MatrixStack matrices,Object consumer) { wrapperContained.forEachCuboid(matrices.wrapperContained,consumer); }
@@ -108,8 +108,8 @@ public void setDefaultTransform(yarnwrap.client.model.ModelTransform transform) 
 // public static void setDefaultTransform(yarnwrap.client.model.ModelTransform transform, ) { net.minecraft.client.model.ModelPart.setDefaultTransform(transform.wrapperContained); }
 public boolean hasChild(java.lang.String child) { return wrapperContained.hasChild(child); }
 // public static boolean hasChild(java.lang.String child, ) { return net.minecraft.client.model.ModelPart.hasChild(child); }
-public void translate(org.joml.Vector3f vec3f) { wrapperContained.translate(vec3f); }
-// public static void translate(org.joml.Vector3f vec3f, ) { net.minecraft.client.model.ModelPart.translate(vec3f); }
+public void moveOrigin(org.joml.Vector3f vec3f) { wrapperContained.moveOrigin(vec3f); }
+// public static void moveOrigin(org.joml.Vector3f vec3f, ) { net.minecraft.client.model.ModelPart.moveOrigin(vec3f); }
 public yarnwrap.client.model.ModelTransform getDefaultTransform() { return new yarnwrap.client.model.ModelTransform(wrapperContained.getDefaultTransform()); }
 // public static yarnwrap.client.model.ModelTransform getDefaultTransform() { return new yarnwrap.client.model.ModelTransform(net.minecraft.client.model.ModelPart.getDefaultTransform()); }
 public void rotate(org.joml.Vector3f vec3f) { wrapperContained.rotate(vec3f); }
@@ -118,5 +118,7 @@ public void resetTransform() { wrapperContained.resetTransform(); }
 // public static void resetTransform() { net.minecraft.client.model.ModelPart.resetTransform(); }
 public void scale(org.joml.Vector3f vec3f) { wrapperContained.scale(vec3f); }
 // public static void scale(org.joml.Vector3f vec3f, ) { net.minecraft.client.model.ModelPart.scale(vec3f); }
+public void rotate(org.joml.Quaternionf quaternion) { wrapperContained.rotate(quaternion); }
+// public static void rotate(org.joml.Quaternionf quaternion, ) { net.minecraft.client.model.ModelPart.rotate(quaternion); }
 
 }

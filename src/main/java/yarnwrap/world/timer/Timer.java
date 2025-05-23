@@ -43,16 +43,6 @@ public class Timer { public net.minecraft.world.timer.Timer wrapperContained; pu
 
 public Timer(yarnwrap.world.timer.TimerCallbackSerializer timerCallbackSerializer) { this.wrapperContained = new net.minecraft.world.timer.Timer(timerCallbackSerializer.wrapperContained); }
 public Timer(yarnwrap.world.timer.TimerCallbackSerializer timerCallbackSerializer,java.util.stream.Stream nbts) { this.wrapperContained = new net.minecraft.world.timer.Timer(timerCallbackSerializer.wrapperContained,nbts); }
-// public com.google.common.primitives.UnsignedLong method_21904(Object event) { return wrapperContained.method_21904(event); }
-// public static com.google.common.primitives.UnsignedLong method_21904(Object event, ) { return net.minecraft.world.timer.Timer.method_21904(event); }
-// public long method_21905(Object event) { return wrapperContained.method_21905(event); }
-// public static long method_21905(Object event, ) { return net.minecraft.world.timer.Timer.method_21905(event); }
-public java.util.Set getEventNames() { return wrapperContained.getEventNames(); }
-// public static java.util.Set getEventNames() { return net.minecraft.world.timer.Timer.getEventNames(); }
-public int remove(java.lang.String name) { return wrapperContained.remove(name); }
-// public static int remove(java.lang.String name, ) { return net.minecraft.world.timer.Timer.remove(name); }
-// public void method_29040(com.mojang.serialization.Dynamic nbt) { wrapperContained.method_29040(nbt); }
-// public static void method_29040(com.mojang.serialization.Dynamic nbt, ) { net.minecraft.world.timer.Timer.method_29040(nbt); }
 // public yarnwrap.nbt.NbtCompound serialize(Object event) { return new yarnwrap.nbt.NbtCompound(wrapperContained.serialize(event)); }
 // public static yarnwrap.nbt.NbtCompound serialize(Object event, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.world.timer.Timer.serialize(event)); }
 public yarnwrap.nbt.NbtList toNbt() { return new yarnwrap.nbt.NbtList(wrapperContained.toNbt()); }
@@ -65,5 +55,15 @@ public void setEvent(java.lang.String name,long triggerTime,yarnwrap.world.timer
 // public static java.util.Comparator createEventComparator() { return net.minecraft.world.timer.Timer.createEventComparator(); }
 public void processEvents(java.lang.Object server,long time) { wrapperContained.processEvents(server,time); }
 // public static void processEvents(java.lang.Object server,long time, ) { net.minecraft.world.timer.Timer.processEvents(server,time); }
+// public com.google.common.primitives.UnsignedLong method_21904(Object event) { return wrapperContained.method_21904(event); }
+// public static com.google.common.primitives.UnsignedLong method_21904(Object event, ) { return net.minecraft.world.timer.Timer.method_21904(event); }
+// public long method_21905(Object event) { return wrapperContained.method_21905(event); }
+// public static long method_21905(Object event, ) { return net.minecraft.world.timer.Timer.method_21905(event); }
+public java.util.Set getEventNames() { return wrapperContained.getEventNames(); }
+// public static java.util.Set getEventNames() { return net.minecraft.world.timer.Timer.getEventNames(); }
+public int remove(java.lang.String name) { return wrapperContained.remove(name); }
+// public static int remove(java.lang.String name, ) { return net.minecraft.world.timer.Timer.remove(name); }
+// public void method_29040(com.mojang.serialization.Dynamic nbt) { wrapperContained.method_29040(nbt); }
+// public static void method_29040(com.mojang.serialization.Dynamic nbt, ) { net.minecraft.world.timer.Timer.method_29040(nbt); }
 
 }

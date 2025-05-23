@@ -22,6 +22,10 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.loot.function.SetDamageLootFunction.CODEC = value; }
 
 // public SetDamageLootFunction(java.util.List conditions,yarnwrap.loot.provider.number.LootNumberProvider durabilityRange,boolean add) { this.wrapperContained = new net.minecraft.loot.function.SetDamageLootFunction(conditions,durabilityRange.wrapperContained,add); }
+// public Object builder(yarnwrap.loot.provider.number.LootNumberProvider durabilityRange) { return wrapperContained.builder(durabilityRange.wrapperContained); }
+// public static Object builder(yarnwrap.loot.provider.number.LootNumberProvider durabilityRange, ) { return net.minecraft.loot.function.SetDamageLootFunction.builder(durabilityRange.wrapperContained); }
+// public yarnwrap.loot.function.LootFunction method_634(yarnwrap.loot.provider.number.LootNumberProvider conditions) { return new yarnwrap.loot.function.LootFunction(wrapperContained.method_634(conditions.wrapperContained)); }
+// public static yarnwrap.loot.function.LootFunction method_634(yarnwrap.loot.provider.number.LootNumberProvider conditions, ) { return new yarnwrap.loot.function.LootFunction(net.minecraft.loot.function.SetDamageLootFunction.method_634(conditions.wrapperContained)); }
 // public Object builder(yarnwrap.loot.provider.number.LootNumberProvider durabilityRange,boolean add) { return wrapperContained.builder(durabilityRange.wrapperContained,add); }
 // public static Object builder(yarnwrap.loot.provider.number.LootNumberProvider durabilityRange,boolean add, ) { return net.minecraft.loot.function.SetDamageLootFunction.builder(durabilityRange.wrapperContained,add); }
 // public yarnwrap.loot.function.LootFunction method_35543(yarnwrap.loot.provider.number.LootNumberProvider conditions) { return new yarnwrap.loot.function.LootFunction(wrapperContained.method_35543(conditions.wrapperContained)); }
@@ -32,9 +36,5 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 // public static com.mojang.datafixers.kinds.App method_53379(Object instance, ) { return net.minecraft.loot.function.SetDamageLootFunction.method_53379(instance); }
 // public yarnwrap.loot.provider.number.LootNumberProvider method_53380(yarnwrap.loot.function.SetDamageLootFunction function) { return new yarnwrap.loot.provider.number.LootNumberProvider(wrapperContained.method_53380(function.wrapperContained)); }
 // public static yarnwrap.loot.provider.number.LootNumberProvider method_53380(yarnwrap.loot.function.SetDamageLootFunction function, ) { return new yarnwrap.loot.provider.number.LootNumberProvider(net.minecraft.loot.function.SetDamageLootFunction.method_53380(function.wrapperContained)); }
-// public Object builder(yarnwrap.loot.provider.number.LootNumberProvider durabilityRange) { return wrapperContained.builder(durabilityRange.wrapperContained); }
-// public static Object builder(yarnwrap.loot.provider.number.LootNumberProvider durabilityRange, ) { return net.minecraft.loot.function.SetDamageLootFunction.builder(durabilityRange.wrapperContained); }
-// public yarnwrap.loot.function.LootFunction method_634(yarnwrap.loot.provider.number.LootNumberProvider conditions) { return new yarnwrap.loot.function.LootFunction(wrapperContained.method_634(conditions.wrapperContained)); }
-// public static yarnwrap.loot.function.LootFunction method_634(yarnwrap.loot.provider.number.LootNumberProvider conditions, ) { return new yarnwrap.loot.function.LootFunction(net.minecraft.loot.function.SetDamageLootFunction.method_634(conditions.wrapperContained)); }
 
 }

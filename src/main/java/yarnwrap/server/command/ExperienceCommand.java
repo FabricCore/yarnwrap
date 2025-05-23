@@ -22,10 +22,6 @@ public class ExperienceCommand { public net.minecraft.server.command.ExperienceC
 // public static int method_13332(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ExperienceCommand.method_13332(context); }
 // public int executeSet(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,int amount,Object component) { return wrapperContained.executeSet(source.wrapperContained,targets,amount,component); }
 // public static int executeSet(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,int amount,Object component, ) { return net.minecraft.server.command.ExperienceCommand.executeSet(source.wrapperContained,targets,amount,component); }
-// public boolean method_13334(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13334(source.wrapperContained); }
-// public static boolean method_13334(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.ExperienceCommand.method_13334(source.wrapperContained); }
-// public boolean method_13335(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13335(source.wrapperContained); }
-// public static boolean method_13335(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.ExperienceCommand.method_13335(source.wrapperContained); }
 // public int method_13336(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13336(context); }
 // public static int method_13336(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ExperienceCommand.method_13336(context); }
 // public int method_13337(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13337(context); }

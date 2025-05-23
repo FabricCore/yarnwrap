@@ -11,6 +11,11 @@ public class WanderingTraderEntity { public net.minecraft.entity.passive.Wanderi
 // public static yarnwrap.util.math.BlockPos wanderTarget() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.passive.WanderingTraderEntity.wanderTarget); }
 // public static void wanderTarget(yarnwrap.util.math.BlockPos value, ) { net.minecraft.entity.passive.WanderingTraderEntity.wanderTarget = value.wrapperContained; }
 
+// public int DEFAULT_DESPAWN_DELAY() { return wrapperContained.DEFAULT_DESPAWN_DELAY; }
+// public void DEFAULT_DESPAWN_DELAY(int value) { wrapperContained.DEFAULT_DESPAWN_DELAY = value; }
+// public static int DEFAULT_DESPAWN_DELAY() { return net.minecraft.entity.passive.WanderingTraderEntity.DEFAULT_DESPAWN_DELAY; }
+// public static void DEFAULT_DESPAWN_DELAY(int value, ) { net.minecraft.entity.passive.WanderingTraderEntity.DEFAULT_DESPAWN_DELAY = value; }
+
 public void setDespawnDelay(int despawnDelay) { wrapperContained.setDespawnDelay(despawnDelay); }
 // public static void setDespawnDelay(int despawnDelay, ) { net.minecraft.entity.passive.WanderingTraderEntity.setDespawnDelay(despawnDelay); }
 public int getDespawnDelay() { return wrapperContained.getDespawnDelay(); }
@@ -25,9 +30,5 @@ public void setWanderTarget(yarnwrap.util.math.BlockPos wanderTarget) { wrapperC
 // public static void setWanderTarget(yarnwrap.util.math.BlockPos wanderTarget, ) { net.minecraft.entity.passive.WanderingTraderEntity.setWanderTarget(wanderTarget.wrapperContained); }
 // public void tickDespawnDelay() { wrapperContained.tickDespawnDelay(); }
 // public static void tickDespawnDelay() { net.minecraft.entity.passive.WanderingTraderEntity.tickDespawnDelay(); }
-// public void fillRebalancedRecipes() { wrapperContained.fillRebalancedRecipes(); }
-// public static void fillRebalancedRecipes() { net.minecraft.entity.passive.WanderingTraderEntity.fillRebalancedRecipes(); }
-// public void method_57006(yarnwrap.util.math.BlockPos wanderTarget) { wrapperContained.method_57006(wanderTarget.wrapperContained); }
-// public static void method_57006(yarnwrap.util.math.BlockPos wanderTarget, ) { net.minecraft.entity.passive.WanderingTraderEntity.method_57006(wanderTarget.wrapperContained); }
 
 }

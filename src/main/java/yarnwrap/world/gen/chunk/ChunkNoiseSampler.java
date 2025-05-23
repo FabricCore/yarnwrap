@@ -186,24 +186,16 @@ public void sampleStartDensity() { wrapperContained.sampleStartDensity(); }
 // public static void sampleStartDensity() { net.minecraft.world.gen.chunk.ChunkNoiseSampler.sampleStartDensity(); }
 public void interpolateY(int blockY,double deltaY) { wrapperContained.interpolateY(blockY,deltaY); }
 // public static void interpolateY(int blockY,double deltaY, ) { net.minecraft.world.gen.chunk.ChunkNoiseSampler.interpolateY(blockY,deltaY); }
-// public void method_38338(double interpolator) { wrapperContained.method_38338(interpolator); }
-// public static void method_38338(double interpolator, ) { net.minecraft.world.gen.chunk.ChunkNoiseSampler.method_38338(interpolator); }
 public void sampleEndDensity(int cellX) { wrapperContained.sampleEndDensity(cellX); }
 // public static void sampleEndDensity(int cellX, ) { net.minecraft.world.gen.chunk.ChunkNoiseSampler.sampleEndDensity(cellX); }
-// public void method_38342(int interpolator) { wrapperContained.method_38342(interpolator); }
-// public static void method_38342(int interpolator, ) { net.minecraft.world.gen.chunk.ChunkNoiseSampler.method_38342(interpolator); }
 public void swapBuffers() { wrapperContained.swapBuffers(); }
 // public static void swapBuffers() { net.minecraft.world.gen.chunk.ChunkNoiseSampler.swapBuffers(); }
 public void interpolateX(int blockX,double deltaX) { wrapperContained.interpolateX(blockX,deltaX); }
 // public static void interpolateX(int blockX,double deltaX, ) { net.minecraft.world.gen.chunk.ChunkNoiseSampler.interpolateX(blockX,deltaX); }
-// public void method_38350(double interpolator) { wrapperContained.method_38350(interpolator); }
-// public static void method_38350(double interpolator, ) { net.minecraft.world.gen.chunk.ChunkNoiseSampler.method_38350(interpolator); }
 public yarnwrap.world.gen.chunk.AquiferSampler getAquiferSampler() { return new yarnwrap.world.gen.chunk.AquiferSampler(wrapperContained.getAquiferSampler()); }
 // public static yarnwrap.world.gen.chunk.AquiferSampler getAquiferSampler() { return new yarnwrap.world.gen.chunk.AquiferSampler(net.minecraft.world.gen.chunk.ChunkNoiseSampler.getAquiferSampler()); }
 public void interpolateZ(int blockZ,double deltaZ) { wrapperContained.interpolateZ(blockZ,deltaZ); }
 // public static void interpolateZ(int blockZ,double deltaZ, ) { net.minecraft.world.gen.chunk.ChunkNoiseSampler.interpolateZ(blockZ,deltaZ); }
-// public void method_38356(double interpolator) { wrapperContained.method_38356(interpolator); }
-// public static void method_38356(double interpolator, ) { net.minecraft.world.gen.chunk.ChunkNoiseSampler.method_38356(interpolator); }
 public void onSampledCellCorners(int cellY,int cellZ) { wrapperContained.onSampledCellCorners(cellY,cellZ); }
 // public static void onSampledCellCorners(int cellY,int cellZ, ) { net.minecraft.world.gen.chunk.ChunkNoiseSampler.onSampledCellCorners(cellY,cellZ); }
 // public yarnwrap.world.gen.chunk.ChunkNoiseSampler create(yarnwrap.world.chunk.Chunk chunk,yarnwrap.world.gen.noise.NoiseConfig noiseConfig,Object beardifying,yarnwrap.world.gen.chunk.ChunkGeneratorSettings chunkGeneratorSettings,Object fluidLevelSampler,yarnwrap.world.gen.chunk.Blender blender) { return new yarnwrap.world.gen.chunk.ChunkNoiseSampler(wrapperContained.create(chunk.wrapperContained,noiseConfig.wrapperContained,beardifying,chunkGeneratorSettings.wrapperContained,fluidLevelSampler,blender.wrapperContained)); }

@@ -65,7 +65,7 @@ public void processAll() { wrapperContained.processAll(); }
 // public static boolean method_45747(yarnwrap.network.message.MessageSignatureData message, ) { return net.minecraft.client.network.message.MessageHandler.method_45747(message.wrapperContained); }
 // public void onChatMessage(yarnwrap.network.message.SignedMessage message,com.mojang.authlib.GameProfile sender,Object params) { wrapperContained.onChatMessage(message.wrapperContained,sender,params); }
 // public static void onChatMessage(yarnwrap.network.message.SignedMessage message,com.mojang.authlib.GameProfile sender,Object params, ) { net.minecraft.client.network.message.MessageHandler.onChatMessage(message.wrapperContained,sender,params); }
-// public void onUnverifiedMessage(java.util.UUID sender,Object parameters) { wrapperContained.onUnverifiedMessage(sender,parameters); }
-// public static void onUnverifiedMessage(java.util.UUID sender,Object parameters, ) { net.minecraft.client.network.message.MessageHandler.onUnverifiedMessage(sender,parameters); }
+// public void onUnverifiedMessage(java.util.UUID sender,yarnwrap.network.message.MessageSignatureData signature,Object parameters) { wrapperContained.onUnverifiedMessage(sender,signature.wrapperContained,parameters); }
+// public static void onUnverifiedMessage(java.util.UUID sender,yarnwrap.network.message.MessageSignatureData signature,Object parameters, ) { net.minecraft.client.network.message.MessageHandler.onUnverifiedMessage(sender,signature.wrapperContained,parameters); }
 
 }

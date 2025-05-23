@@ -13,9 +13,9 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.vill
 
 // public TradeOfferList(int size) { this.wrapperContained = new net.minecraft.village.TradeOfferList(size); }
 // public TradeOfferList(java.util.Collection tradeOffers) { this.wrapperContained = new net.minecraft.village.TradeOfferList(tradeOffers); }
-public yarnwrap.village.TradeOfferList copy() { return new yarnwrap.village.TradeOfferList(wrapperContained.copy()); }
-// public static yarnwrap.village.TradeOfferList copy() { return new yarnwrap.village.TradeOfferList(net.minecraft.village.TradeOfferList.copy()); }
 public yarnwrap.village.TradeOffer getValidOffer(yarnwrap.item.ItemStack firstBuyItem,yarnwrap.item.ItemStack secondBuyItem,int index) { return new yarnwrap.village.TradeOffer(wrapperContained.getValidOffer(firstBuyItem.wrapperContained,secondBuyItem.wrapperContained,index)); }
 // public static yarnwrap.village.TradeOffer getValidOffer(yarnwrap.item.ItemStack firstBuyItem,yarnwrap.item.ItemStack secondBuyItem,int index, ) { return new yarnwrap.village.TradeOffer(net.minecraft.village.TradeOfferList.getValidOffer(firstBuyItem.wrapperContained,secondBuyItem.wrapperContained,index)); }
+public yarnwrap.village.TradeOfferList copy() { return new yarnwrap.village.TradeOfferList(wrapperContained.copy()); }
+// public static yarnwrap.village.TradeOfferList copy() { return new yarnwrap.village.TradeOfferList(net.minecraft.village.TradeOfferList.copy()); }
 
 }

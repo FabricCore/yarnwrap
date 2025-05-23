@@ -13,7 +13,7 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 
 // public void updateNeighbors(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.updateNeighbors(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public static void updateNeighbors(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.ObserverBlock.updateNeighbors(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
-// public void scheduleTick(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos) { wrapperContained.scheduleTick(world.wrapperContained,pos.wrapperContained); }
-// public static void scheduleTick(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.ObserverBlock.scheduleTick(world.wrapperContained,pos.wrapperContained); }
+// public void scheduleTick(yarnwrap.world.WorldView world,yarnwrap.world.tick.ScheduledTickView tickView,yarnwrap.util.math.BlockPos pos) { wrapperContained.scheduleTick(world.wrapperContained,tickView.wrapperContained,pos.wrapperContained); }
+// public static void scheduleTick(yarnwrap.world.WorldView world,yarnwrap.world.tick.ScheduledTickView tickView,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.ObserverBlock.scheduleTick(world.wrapperContained,tickView.wrapperContained,pos.wrapperContained); }
 
 }

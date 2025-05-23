@@ -21,11 +21,6 @@ public class RealmsPendingInvitesScreen { public net.minecraft.client.realms.gui
 // // public static Object pendingInvitationSelectionList() { return net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.pendingInvitationSelectionList; }
 // // public static void pendingInvitationSelectionList(Object value, ) { net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.pendingInvitationSelectionList = value; }
 
-// public int selectedInvite() { return wrapperContained.selectedInvite; }
-// public void selectedInvite(int value) { wrapperContained.selectedInvite = value; }
-// public static int selectedInvite() { return net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.selectedInvite; }
-// public static void selectedInvite(int value, ) { net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.selectedInvite = value; }
-
 // public yarnwrap.client.gui.widget.ButtonWidget acceptButton() { return new yarnwrap.client.gui.widget.ButtonWidget(wrapperContained.acceptButton); }
 // public void acceptButton(yarnwrap.client.gui.widget.ButtonWidget value) { wrapperContained.acceptButton = value.wrapperContained; }
 // public static yarnwrap.client.gui.widget.ButtonWidget acceptButton() { return new yarnwrap.client.gui.widget.ButtonWidget(net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.acceptButton); }
@@ -79,18 +74,16 @@ public class RealmsPendingInvitesScreen { public net.minecraft.client.realms.gui
 public RealmsPendingInvitesScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen(parent.wrapperContained,title.wrapperContained); }
 // public void updateButtonStates() { wrapperContained.updateButtonStates(); }
 // public static void updateButtonStates() { net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.updateButtonStates(); }
-// public boolean shouldAcceptAndRejectButtonBeVisible(int invite) { return wrapperContained.shouldAcceptAndRejectButtonBeVisible(invite); }
-// public static boolean shouldAcceptAndRejectButtonBeVisible(int invite, ) { return net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.shouldAcceptAndRejectButtonBeVisible(invite); }
 // public void method_25175(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25175(button.wrapperContained); }
 // public static void method_25175(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.method_25175(button.wrapperContained); }
 // public void method_25177(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25177(button.wrapperContained); }
 // public static void method_25177(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.method_25177(button.wrapperContained); }
 // public void method_25179(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25179(button.wrapperContained); }
 // public static void method_25179(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.method_25179(button.wrapperContained); }
-// public void handle(int index,boolean accepted) { wrapperContained.handle(index,accepted); }
-// public static void handle(int index,boolean accepted, ) { net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.handle(index,accepted); }
-// public void method_52673(int result) { wrapperContained.method_52673(result); }
-// public static void method_52673(int result, ) { net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.method_52673(result); }
+// public void handle(boolean accepted) { wrapperContained.handle(accepted); }
+// public static void handle(boolean accepted, ) { net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.handle(accepted); }
+// public void method_52673(Object result) { wrapperContained.method_52673(result); }
+// public static void method_52673(Object result, ) { net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.method_52673(result); }
 // public Object method_52674(yarnwrap.client.realms.dto.PendingInvite invite) { return wrapperContained.method_52674(invite.wrapperContained); }
 // public static Object method_52674(yarnwrap.client.realms.dto.PendingInvite invite, ) { return net.minecraft.client.realms.gui.screen.RealmsPendingInvitesScreen.method_52674(invite.wrapperContained); }
 // public void method_52679(java.util.List pendingInvites) { wrapperContained.method_52679(pendingInvites); }

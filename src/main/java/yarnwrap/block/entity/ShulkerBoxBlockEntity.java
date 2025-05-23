@@ -11,10 +11,10 @@ public class ShulkerBoxBlockEntity { public net.minecraft.block.entity.ShulkerBo
 // public static yarnwrap.util.collection.DefaultedList inventory() { return new yarnwrap.util.collection.DefaultedList(net.minecraft.block.entity.ShulkerBoxBlockEntity.inventory); }
 // public static void inventory(yarnwrap.util.collection.DefaultedList value, ) { net.minecraft.block.entity.ShulkerBoxBlockEntity.inventory = value.wrapperContained; }
 
-// public float prevAnimationProgress() { return wrapperContained.prevAnimationProgress; }
-// public void prevAnimationProgress(float value) { wrapperContained.prevAnimationProgress = value; }
-// public static float prevAnimationProgress() { return net.minecraft.block.entity.ShulkerBoxBlockEntity.prevAnimationProgress; }
-// public static void prevAnimationProgress(float value, ) { net.minecraft.block.entity.ShulkerBoxBlockEntity.prevAnimationProgress = value; }
+// public float lastAnimationProgress() { return wrapperContained.lastAnimationProgress; }
+// public void lastAnimationProgress(float value) { wrapperContained.lastAnimationProgress = value; }
+// public static float lastAnimationProgress() { return net.minecraft.block.entity.ShulkerBoxBlockEntity.lastAnimationProgress; }
+// public static void lastAnimationProgress(float value, ) { net.minecraft.block.entity.ShulkerBoxBlockEntity.lastAnimationProgress = value; }
 
 // public float animationProgress() { return wrapperContained.animationProgress; }
 // public void animationProgress(float value) { wrapperContained.animationProgress = value; }
@@ -43,8 +43,8 @@ public static int INVENTORY_SIZE() { return net.minecraft.block.entity.ShulkerBo
 
 public ShulkerBoxBlockEntity(yarnwrap.util.DyeColor color,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.ShulkerBoxBlockEntity(color.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 public ShulkerBoxBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.ShulkerBoxBlockEntity(pos.wrapperContained,state.wrapperContained); }
-public float getAnimationProgress(float delta) { return wrapperContained.getAnimationProgress(delta); }
-// public static float getAnimationProgress(float delta, ) { return net.minecraft.block.entity.ShulkerBoxBlockEntity.getAnimationProgress(delta); }
+public float getAnimationProgress(float tickProgress) { return wrapperContained.getAnimationProgress(tickProgress); }
+// public static float getAnimationProgress(float tickProgress, ) { return net.minecraft.block.entity.ShulkerBoxBlockEntity.getAnimationProgress(tickProgress); }
 public Object getAnimationStage() { return wrapperContained.getAnimationStage(); }
 // public static Object getAnimationStage() { return net.minecraft.block.entity.ShulkerBoxBlockEntity.getAnimationStage(); }
 public yarnwrap.util.math.Box getBoundingBox(yarnwrap.block.BlockState state) { return new yarnwrap.util.math.Box(wrapperContained.getBoundingBox(state.wrapperContained)); }
@@ -53,8 +53,8 @@ public yarnwrap.util.math.Box getBoundingBox(yarnwrap.block.BlockState state) { 
 // public static void pushEntities(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.entity.ShulkerBoxBlockEntity.pushEntities(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public void updateAnimation(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.updateAnimation(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public static void updateAnimation(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.entity.ShulkerBoxBlockEntity.updateAnimation(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
-// public void readInventoryNbt(yarnwrap.nbt.NbtCompound nbt,Object registries) { wrapperContained.readInventoryNbt(nbt.wrapperContained,registries); }
-// public static void readInventoryNbt(yarnwrap.nbt.NbtCompound nbt,Object registries, ) { net.minecraft.block.entity.ShulkerBoxBlockEntity.readInventoryNbt(nbt.wrapperContained,registries); }
+// public void readInventoryNbt() { wrapperContained.readInventoryNbt(); }
+// public static void readInventoryNbt() { net.minecraft.block.entity.ShulkerBoxBlockEntity.readInventoryNbt(); }
 public yarnwrap.util.DyeColor getColor() { return new yarnwrap.util.DyeColor(wrapperContained.getColor()); }
 // public static yarnwrap.util.DyeColor getColor() { return new yarnwrap.util.DyeColor(net.minecraft.block.entity.ShulkerBoxBlockEntity.getColor()); }
 // public void updateNeighborStates(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.updateNeighborStates(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }

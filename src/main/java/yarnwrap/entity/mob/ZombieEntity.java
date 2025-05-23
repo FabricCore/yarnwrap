@@ -1,36 +1,6 @@
 package yarnwrap.entity.mob;
 public class ZombieEntity { public net.minecraft.entity.mob.ZombieEntity wrapperContained; public ZombieEntity(net.minecraft.entity.mob.ZombieEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.function.Predicate DOOR_BREAK_DIFFICULTY_CHECKER() { return wrapperContained.DOOR_BREAK_DIFFICULTY_CHECKER; }
-// public void DOOR_BREAK_DIFFICULTY_CHECKER(java.util.function.Predicate value) { wrapperContained.DOOR_BREAK_DIFFICULTY_CHECKER = value; }
-// public static java.util.function.Predicate DOOR_BREAK_DIFFICULTY_CHECKER() { return net.minecraft.entity.mob.ZombieEntity.DOOR_BREAK_DIFFICULTY_CHECKER; }
-// public static void DOOR_BREAK_DIFFICULTY_CHECKER(java.util.function.Predicate value, ) { net.minecraft.entity.mob.ZombieEntity.DOOR_BREAK_DIFFICULTY_CHECKER = value; }
-
-// public yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(wrapperContained.BABY_BASE_DIMENSIONS); }
-// public void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value) { wrapperContained.BABY_BASE_DIMENSIONS = value.wrapperContained; }
-// public static yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(net.minecraft.entity.mob.ZombieEntity.BABY_BASE_DIMENSIONS); }
-// public static void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value, ) { net.minecraft.entity.mob.ZombieEntity.BABY_BASE_DIMENSIONS = value.wrapperContained; }
-
-// public yarnwrap.entity.attribute.EntityAttributeModifier REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS() { return new yarnwrap.entity.attribute.EntityAttributeModifier(wrapperContained.REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS); }
-// public void REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS(yarnwrap.entity.attribute.EntityAttributeModifier value) { wrapperContained.REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS = value.wrapperContained; }
-// public static yarnwrap.entity.attribute.EntityAttributeModifier REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS() { return new yarnwrap.entity.attribute.EntityAttributeModifier(net.minecraft.entity.mob.ZombieEntity.REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS); }
-// public static void REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS(yarnwrap.entity.attribute.EntityAttributeModifier value, ) { net.minecraft.entity.mob.ZombieEntity.REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS = value.wrapperContained; }
-
-// public yarnwrap.util.Identifier LEADER_ZOMBIE_BONUS_MODIFIER_ID() { return new yarnwrap.util.Identifier(wrapperContained.LEADER_ZOMBIE_BONUS_MODIFIER_ID); }
-// public void LEADER_ZOMBIE_BONUS_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.LEADER_ZOMBIE_BONUS_MODIFIER_ID = value.wrapperContained; }
-// public static yarnwrap.util.Identifier LEADER_ZOMBIE_BONUS_MODIFIER_ID() { return new yarnwrap.util.Identifier(net.minecraft.entity.mob.ZombieEntity.LEADER_ZOMBIE_BONUS_MODIFIER_ID); }
-// public static void LEADER_ZOMBIE_BONUS_MODIFIER_ID(yarnwrap.util.Identifier value, ) { net.minecraft.entity.mob.ZombieEntity.LEADER_ZOMBIE_BONUS_MODIFIER_ID = value.wrapperContained; }
-
-// public yarnwrap.util.Identifier REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID() { return new yarnwrap.util.Identifier(wrapperContained.REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID); }
-// public void REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID = value.wrapperContained; }
-// public static yarnwrap.util.Identifier REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID() { return new yarnwrap.util.Identifier(net.minecraft.entity.mob.ZombieEntity.REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID); }
-// public static void REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID(yarnwrap.util.Identifier value, ) { net.minecraft.entity.mob.ZombieEntity.REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID = value.wrapperContained; }
-
-// public yarnwrap.util.Identifier ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID() { return new yarnwrap.util.Identifier(wrapperContained.ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID); }
-// public void ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID = value.wrapperContained; }
-// public static yarnwrap.util.Identifier ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID() { return new yarnwrap.util.Identifier(net.minecraft.entity.mob.ZombieEntity.ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID); }
-// public static void ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID(yarnwrap.util.Identifier value, ) { net.minecraft.entity.mob.ZombieEntity.ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID = value.wrapperContained; }
-
 // public int ticksUntilWaterConversion() { return wrapperContained.ticksUntilWaterConversion; }
 // public void ticksUntilWaterConversion(int value) { wrapperContained.ticksUntilWaterConversion = value; }
 // public static int ticksUntilWaterConversion() { return net.minecraft.entity.mob.ZombieEntity.ticksUntilWaterConversion; }
@@ -76,13 +46,52 @@ public class ZombieEntity { public net.minecraft.entity.mob.ZombieEntity wrapper
 // public static yarnwrap.entity.data.TrackedData BABY() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.mob.ZombieEntity.BABY); }
 // public static void BABY(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.mob.ZombieEntity.BABY = value.wrapperContained; }
 
+// public java.util.function.Predicate DOOR_BREAK_DIFFICULTY_CHECKER() { return wrapperContained.DOOR_BREAK_DIFFICULTY_CHECKER; }
+// public void DOOR_BREAK_DIFFICULTY_CHECKER(java.util.function.Predicate value) { wrapperContained.DOOR_BREAK_DIFFICULTY_CHECKER = value; }
+// public static java.util.function.Predicate DOOR_BREAK_DIFFICULTY_CHECKER() { return net.minecraft.entity.mob.ZombieEntity.DOOR_BREAK_DIFFICULTY_CHECKER; }
+// public static void DOOR_BREAK_DIFFICULTY_CHECKER(java.util.function.Predicate value, ) { net.minecraft.entity.mob.ZombieEntity.DOOR_BREAK_DIFFICULTY_CHECKER = value; }
+
+// public yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(wrapperContained.BABY_BASE_DIMENSIONS); }
+// public void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value) { wrapperContained.BABY_BASE_DIMENSIONS = value.wrapperContained; }
+// public static yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(net.minecraft.entity.mob.ZombieEntity.BABY_BASE_DIMENSIONS); }
+// public static void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value, ) { net.minecraft.entity.mob.ZombieEntity.BABY_BASE_DIMENSIONS = value.wrapperContained; }
+
+// public yarnwrap.entity.attribute.EntityAttributeModifier REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS() { return new yarnwrap.entity.attribute.EntityAttributeModifier(wrapperContained.REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS); }
+// public void REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS(yarnwrap.entity.attribute.EntityAttributeModifier value) { wrapperContained.REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS = value.wrapperContained; }
+// public static yarnwrap.entity.attribute.EntityAttributeModifier REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS() { return new yarnwrap.entity.attribute.EntityAttributeModifier(net.minecraft.entity.mob.ZombieEntity.REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS); }
+// public static void REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS(yarnwrap.entity.attribute.EntityAttributeModifier value, ) { net.minecraft.entity.mob.ZombieEntity.REINFORCEMENT_CALLEE_CHARGE_REINFORCEMENT_BONUS = value.wrapperContained; }
+
+// public yarnwrap.util.Identifier LEADER_ZOMBIE_BONUS_MODIFIER_ID() { return new yarnwrap.util.Identifier(wrapperContained.LEADER_ZOMBIE_BONUS_MODIFIER_ID); }
+// public void LEADER_ZOMBIE_BONUS_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.LEADER_ZOMBIE_BONUS_MODIFIER_ID = value.wrapperContained; }
+// public static yarnwrap.util.Identifier LEADER_ZOMBIE_BONUS_MODIFIER_ID() { return new yarnwrap.util.Identifier(net.minecraft.entity.mob.ZombieEntity.LEADER_ZOMBIE_BONUS_MODIFIER_ID); }
+// public static void LEADER_ZOMBIE_BONUS_MODIFIER_ID(yarnwrap.util.Identifier value, ) { net.minecraft.entity.mob.ZombieEntity.LEADER_ZOMBIE_BONUS_MODIFIER_ID = value.wrapperContained; }
+
+// public yarnwrap.util.Identifier REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID() { return new yarnwrap.util.Identifier(wrapperContained.REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID); }
+// public void REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID = value.wrapperContained; }
+// public static yarnwrap.util.Identifier REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID() { return new yarnwrap.util.Identifier(net.minecraft.entity.mob.ZombieEntity.REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID); }
+// public static void REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID(yarnwrap.util.Identifier value, ) { net.minecraft.entity.mob.ZombieEntity.REINFORCEMENT_CALLER_CHARGE_MODIFIER_ID = value.wrapperContained; }
+
+// public yarnwrap.util.Identifier ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID() { return new yarnwrap.util.Identifier(wrapperContained.ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID); }
+// public void ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID(yarnwrap.util.Identifier value) { wrapperContained.ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID = value.wrapperContained; }
+// public static yarnwrap.util.Identifier ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID() { return new yarnwrap.util.Identifier(net.minecraft.entity.mob.ZombieEntity.ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID); }
+// public static void ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID(yarnwrap.util.Identifier value, ) { net.minecraft.entity.mob.ZombieEntity.ZOMBIE_RANDOM_SPAWN_BONUS_MODIFIER_ID = value.wrapperContained; }
+
+// public boolean DEFAULT_IS_BABY() { return wrapperContained.DEFAULT_IS_BABY; }
+// public void DEFAULT_IS_BABY(boolean value) { wrapperContained.DEFAULT_IS_BABY = value; }
+// public static boolean DEFAULT_IS_BABY() { return net.minecraft.entity.mob.ZombieEntity.DEFAULT_IS_BABY; }
+// public static void DEFAULT_IS_BABY(boolean value, ) { net.minecraft.entity.mob.ZombieEntity.DEFAULT_IS_BABY = value; }
+
+// public boolean DEFAULT_CAN_BREAK_DOORS() { return wrapperContained.DEFAULT_CAN_BREAK_DOORS; }
+// public void DEFAULT_CAN_BREAK_DOORS(boolean value) { wrapperContained.DEFAULT_CAN_BREAK_DOORS = value; }
+// public static boolean DEFAULT_CAN_BREAK_DOORS() { return net.minecraft.entity.mob.ZombieEntity.DEFAULT_CAN_BREAK_DOORS; }
+// public static void DEFAULT_CAN_BREAK_DOORS(boolean value, ) { net.minecraft.entity.mob.ZombieEntity.DEFAULT_CAN_BREAK_DOORS = value; }
+
+// public int DEFAULT_IN_WATER_TIME() { return wrapperContained.DEFAULT_IN_WATER_TIME; }
+// public void DEFAULT_IN_WATER_TIME(int value) { wrapperContained.DEFAULT_IN_WATER_TIME = value; }
+// public static int DEFAULT_IN_WATER_TIME() { return net.minecraft.entity.mob.ZombieEntity.DEFAULT_IN_WATER_TIME; }
+// public static void DEFAULT_IN_WATER_TIME(int value, ) { net.minecraft.entity.mob.ZombieEntity.DEFAULT_IN_WATER_TIME = value; }
+
 public ZombieEntity(yarnwrap.world.World world) { this.wrapperContained = new net.minecraft.entity.mob.ZombieEntity(world.wrapperContained); }
-// public boolean method_20009(yarnwrap.world.Difficulty difficulty) { return wrapperContained.method_20009(difficulty.wrapperContained); }
-// public static boolean method_20009(yarnwrap.world.Difficulty difficulty, ) { return net.minecraft.entity.mob.ZombieEntity.method_20009(difficulty.wrapperContained); }
-// public Object createZombieAttributes() { return wrapperContained.createZombieAttributes(); }
-public static Object createZombieAttributes() { return net.minecraft.entity.mob.ZombieEntity.createZombieAttributes(); }
-// public boolean shouldBeBaby(yarnwrap.util.math.random.Random random) { return wrapperContained.shouldBeBaby(random.wrapperContained); }
-// public static boolean shouldBeBaby(yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.mob.ZombieEntity.shouldBeBaby(random.wrapperContained); }
 // public void initAttributes() { wrapperContained.initAttributes(); }
 // public static void initAttributes() { net.minecraft.entity.mob.ZombieEntity.initAttributes(); }
 // public void convertTo(yarnwrap.entity.EntityType entityType) { wrapperContained.convertTo(entityType.wrapperContained); }
@@ -101,8 +110,6 @@ public boolean isConvertingInWater() { return wrapperContained.isConvertingInWat
 // public static boolean canConvertInWater() { return net.minecraft.entity.mob.ZombieEntity.canConvertInWater(); }
 // public boolean canBreakDoors() { return wrapperContained.canBreakDoors(); }
 // // public static boolean canBreakDoors() { return net.minecraft.entity.mob.ZombieEntity.canBreakDoors(); }
-// public boolean shouldBreakDoors() { return wrapperContained.shouldBreakDoors(); }
-// public static boolean shouldBreakDoors() { return net.minecraft.entity.mob.ZombieEntity.shouldBreakDoors(); }
 // public void setTicksUntilWaterConversion(int ticksUntilWaterConversion) { wrapperContained.setTicksUntilWaterConversion(ticksUntilWaterConversion); }
 // public static void setTicksUntilWaterConversion(int ticksUntilWaterConversion, ) { net.minecraft.entity.mob.ZombieEntity.setTicksUntilWaterConversion(ticksUntilWaterConversion); }
 // public yarnwrap.item.ItemStack getSkull() { return new yarnwrap.item.ItemStack(wrapperContained.getSkull()); }
@@ -111,5 +118,23 @@ public boolean isConvertingInWater() { return wrapperContained.isConvertingInWat
 // public static boolean burnsInDaylight() { return net.minecraft.entity.mob.ZombieEntity.burnsInDaylight(); }
 // public void convertInWater() { wrapperContained.convertInWater(); }
 // public static void convertInWater() { net.minecraft.entity.mob.ZombieEntity.convertInWater(); }
+// public boolean method_20009(yarnwrap.world.Difficulty difficulty) { return wrapperContained.method_20009(difficulty.wrapperContained); }
+// public static boolean method_20009(yarnwrap.world.Difficulty difficulty, ) { return net.minecraft.entity.mob.ZombieEntity.method_20009(difficulty.wrapperContained); }
+// public Object createZombieAttributes() { return wrapperContained.createZombieAttributes(); }
+public static Object createZombieAttributes() { return net.minecraft.entity.mob.ZombieEntity.createZombieAttributes(); }
+// public boolean shouldBeBaby(yarnwrap.util.math.random.Random random) { return wrapperContained.shouldBeBaby(random.wrapperContained); }
+// public static boolean shouldBeBaby(yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.mob.ZombieEntity.shouldBeBaby(random.wrapperContained); }
+public boolean infectVillager(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.VillagerEntity villager) { return wrapperContained.infectVillager(world.wrapperContained,villager.wrapperContained); }
+// public static boolean infectVillager(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.VillagerEntity villager, ) { return net.minecraft.entity.mob.ZombieEntity.infectVillager(world.wrapperContained,villager.wrapperContained); }
+// public void method_63655(yarnwrap.server.world.ServerWorld zombieVillager) { wrapperContained.method_63655(zombieVillager.wrapperContained); }
+// public static void method_63655(yarnwrap.server.world.ServerWorld zombieVillager, ) { net.minecraft.entity.mob.ZombieEntity.method_63655(zombieVillager.wrapperContained); }
+public void setInWaterTime(int inWaterTime) { wrapperContained.setInWaterTime(inWaterTime); }
+// public static void setInWaterTime(int inWaterTime, ) { net.minecraft.entity.mob.ZombieEntity.setInWaterTime(inWaterTime); }
+// public void method_63657(yarnwrap.entity.mob.ZombieEntity newZombie) { wrapperContained.method_63657(newZombie.wrapperContained); }
+// public static void method_63657(yarnwrap.entity.mob.ZombieEntity newZombie, ) { net.minecraft.entity.mob.ZombieEntity.method_63657(newZombie.wrapperContained); }
+public void setTicksUntilWaterConversionDirect(int ticksUntilWaterConversion) { wrapperContained.setTicksUntilWaterConversionDirect(ticksUntilWaterConversion); }
+// public static void setTicksUntilWaterConversionDirect(int ticksUntilWaterConversion, ) { net.minecraft.entity.mob.ZombieEntity.setTicksUntilWaterConversionDirect(ticksUntilWaterConversion); }
+// public boolean canSpawnAsReinforcementInFluid() { return wrapperContained.canSpawnAsReinforcementInFluid(); }
+// public static boolean canSpawnAsReinforcementInFluid() { return net.minecraft.entity.mob.ZombieEntity.canSpawnAsReinforcementInFluid(); }
 
 }

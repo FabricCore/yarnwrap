@@ -21,17 +21,12 @@ public class ForgingScreenHandler { public net.minecraft.screen.ForgingScreenHan
 // public static yarnwrap.entity.player.PlayerEntity player() { return new yarnwrap.entity.player.PlayerEntity(net.minecraft.screen.ForgingScreenHandler.player); }
 // public static void player(yarnwrap.entity.player.PlayerEntity value, ) { net.minecraft.screen.ForgingScreenHandler.player = value.wrapperContained; }
 
-// public java.util.List inputSlotIndices() { return wrapperContained.inputSlotIndices; }
-// public void inputSlotIndices(java.util.List value) { wrapperContained.inputSlotIndices = value; }
-// public static java.util.List inputSlotIndices() { return net.minecraft.screen.ForgingScreenHandler.inputSlotIndices; }
-// public static void inputSlotIndices(java.util.List value, ) { net.minecraft.screen.ForgingScreenHandler.inputSlotIndices = value; }
-
 // public int resultSlotIndex() { return wrapperContained.resultSlotIndex; }
 // public void resultSlotIndex(int value) { wrapperContained.resultSlotIndex = value; }
 // public static int resultSlotIndex() { return net.minecraft.screen.ForgingScreenHandler.resultSlotIndex; }
 // public static void resultSlotIndex(int value, ) { net.minecraft.screen.ForgingScreenHandler.resultSlotIndex = value; }
 
-// public ForgingScreenHandler(yarnwrap.screen.ScreenHandlerType type,int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.ForgingScreenHandler(type.wrapperContained,syncId,playerInventory.wrapperContained,context.wrapperContained); }
+// public ForgingScreenHandler(yarnwrap.screen.ScreenHandlerType type,int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context,yarnwrap.screen.slot.ForgingSlotsManager forgingSlotsManager) { this.wrapperContained = new net.minecraft.screen.ForgingScreenHandler(type.wrapperContained,syncId,playerInventory.wrapperContained,context.wrapperContained,forgingSlotsManager.wrapperContained); }
 // public void onTakeOutput(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack stack) { wrapperContained.onTakeOutput(player.wrapperContained,stack.wrapperContained); }
 // public static void onTakeOutput(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack stack, ) { net.minecraft.screen.ForgingScreenHandler.onTakeOutput(player.wrapperContained,stack.wrapperContained); }
 // public java.lang.Boolean method_24924(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { return wrapperContained.method_24924(world.wrapperContained,pos.wrapperContained); }
@@ -44,18 +39,12 @@ public class ForgingScreenHandler { public net.minecraft.screen.ForgingScreenHan
 // public static boolean canTakeOutput(yarnwrap.entity.player.PlayerEntity player,boolean present, ) { return net.minecraft.screen.ForgingScreenHandler.canTakeOutput(player.wrapperContained,present); }
 public void updateResult() { wrapperContained.updateResult(); }
 // public static void updateResult() { net.minecraft.screen.ForgingScreenHandler.updateResult(); }
-// public yarnwrap.screen.slot.ForgingSlotsManager getForgingSlotsManager() { return new yarnwrap.screen.slot.ForgingSlotsManager(wrapperContained.getForgingSlotsManager()); }
-// public static yarnwrap.screen.slot.ForgingSlotsManager getForgingSlotsManager() { return new yarnwrap.screen.slot.ForgingSlotsManager(net.minecraft.screen.ForgingScreenHandler.getForgingSlotsManager()); }
-// public void addPlayerInventorySlots(yarnwrap.entity.player.PlayerInventory playerInventory) { wrapperContained.addPlayerInventorySlots(playerInventory.wrapperContained); }
-// public static void addPlayerInventorySlots(yarnwrap.entity.player.PlayerInventory playerInventory, ) { net.minecraft.screen.ForgingScreenHandler.addPlayerInventorySlots(playerInventory.wrapperContained); }
 // public void addInputSlots(yarnwrap.screen.slot.ForgingSlotsManager forgingSlotsManager) { wrapperContained.addInputSlots(forgingSlotsManager.wrapperContained); }
 // public static void addInputSlots(yarnwrap.screen.slot.ForgingSlotsManager forgingSlotsManager, ) { net.minecraft.screen.ForgingScreenHandler.addInputSlots(forgingSlotsManager.wrapperContained); }
 // public void addResultSlot(yarnwrap.screen.slot.ForgingSlotsManager forgingSlotsManager) { wrapperContained.addResultSlot(forgingSlotsManager.wrapperContained); }
 // public static void addResultSlot(yarnwrap.screen.slot.ForgingSlotsManager forgingSlotsManager, ) { net.minecraft.screen.ForgingScreenHandler.addResultSlot(forgingSlotsManager.wrapperContained); }
 // public boolean isValidIngredient(yarnwrap.item.ItemStack stack) { return wrapperContained.isValidIngredient(stack.wrapperContained); }
 // public static boolean isValidIngredient(yarnwrap.item.ItemStack stack, ) { return net.minecraft.screen.ForgingScreenHandler.isValidIngredient(stack.wrapperContained); }
-public int getSlotFor(yarnwrap.item.ItemStack stack) { return wrapperContained.getSlotFor(stack.wrapperContained); }
-// public static int getSlotFor(yarnwrap.item.ItemStack stack, ) { return net.minecraft.screen.ForgingScreenHandler.getSlotFor(stack.wrapperContained); }
 // public yarnwrap.inventory.SimpleInventory createInputInventory(int size) { return new yarnwrap.inventory.SimpleInventory(wrapperContained.createInputInventory(size)); }
 // public static yarnwrap.inventory.SimpleInventory createInputInventory(int size, ) { return new yarnwrap.inventory.SimpleInventory(net.minecraft.screen.ForgingScreenHandler.createInputInventory(size)); }
 // public int getPlayerInventoryStartIndex() { return wrapperContained.getPlayerInventoryStartIndex(); }

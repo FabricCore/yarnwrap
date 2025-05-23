@@ -31,8 +31,8 @@ public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.state.property.Property.equals(o); }
 public int computeHashCode() { return wrapperContained.computeHashCode(); }
 // public static int computeHashCode() { return net.minecraft.state.property.Property.computeHashCode(); }
-public java.util.Collection getValues() { return wrapperContained.getValues(); }
-// public static java.util.Collection getValues() { return net.minecraft.state.property.Property.getValues(); }
+public java.util.List getValues() { return wrapperContained.getValues(); }
+// public static java.util.List getValues() { return net.minecraft.state.property.Property.getValues(); }
 public java.lang.String getName() { return wrapperContained.getName(); }
 // public static java.lang.String getName() { return net.minecraft.state.property.Property.getName(); }
 public java.util.Optional parse(java.lang.String name) { return wrapperContained.parse(name); }
@@ -57,5 +57,7 @@ public com.mojang.serialization.DataResult parse(com.mojang.serialization.Dynami
 // public static com.mojang.serialization.DataResult parse(com.mojang.serialization.DynamicOps ops,yarnwrap.state.State state,java.lang.Object input, ) { return net.minecraft.state.property.Property.parse(ops,state.wrapperContained,input); }
 public com.mojang.serialization.Codec getCodec() { return wrapperContained.getCodec(); }
 // public static com.mojang.serialization.Codec getCodec() { return net.minecraft.state.property.Property.getCodec(); }
+public int ordinal(java.lang.Comparable value) { return wrapperContained.ordinal(value); }
+// public static int ordinal(java.lang.Comparable value, ) { return net.minecraft.state.property.Property.ordinal(value); }
 
 }

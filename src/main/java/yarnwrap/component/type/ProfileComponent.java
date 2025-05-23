@@ -30,5 +30,7 @@ public boolean isCompleted() { return wrapperContained.isCompleted(); }
 // public static boolean isCompleted() { return net.minecraft.component.type.ProfileComponent.isCompleted(); }
 // public yarnwrap.component.type.ProfileComponent method_58116(java.lang.String name) { return new yarnwrap.component.type.ProfileComponent(wrapperContained.method_58116(name)); }
 // public static yarnwrap.component.type.ProfileComponent method_58116(java.lang.String name, ) { return new yarnwrap.component.type.ProfileComponent(net.minecraft.component.type.ProfileComponent.method_58116(name)); }
+// public yarnwrap.component.type.ProfileComponent method_59533(java.util.Optional profile) { return new yarnwrap.component.type.ProfileComponent(wrapperContained.method_59533(profile)); }
+// public static yarnwrap.component.type.ProfileComponent method_59533(java.util.Optional profile, ) { return new yarnwrap.component.type.ProfileComponent(net.minecraft.component.type.ProfileComponent.method_59533(profile)); }
 
 }

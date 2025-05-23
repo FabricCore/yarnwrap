@@ -33,8 +33,8 @@ public class DefaultBiomeFeatures { public net.minecraft.world.gen.feature.Defau
 // public static void addMushroomFieldsFeatures(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addMushroomFieldsFeatures(builder); }
 // public void addPlainsFeatures(Object builder) { wrapperContained.addPlainsFeatures(builder); }
 // public static void addPlainsFeatures(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addPlainsFeatures(builder); }
-// public void addDesertDeadBushes(Object builder) { wrapperContained.addDesertDeadBushes(builder); }
-// public static void addDesertDeadBushes(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addDesertDeadBushes(builder); }
+// public void addDesertDryVegetation(Object builder) { wrapperContained.addDesertDryVegetation(builder); }
+// public static void addDesertDryVegetation(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addDesertDryVegetation(builder); }
 // public void addGiantTaigaGrass(Object builder) { wrapperContained.addGiantTaigaGrass(builder); }
 // public static void addGiantTaigaGrass(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addGiantTaigaGrass(builder); }
 // public void addDefaultFlowers(Object builder) { wrapperContained.addDefaultFlowers(builder); }
@@ -51,8 +51,8 @@ public class DefaultBiomeFeatures { public net.minecraft.world.gen.feature.Defau
 // public static void addDefaultMushrooms(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addDefaultMushrooms(builder); }
 // public void addLandCarvers(Object builder) { wrapperContained.addLandCarvers(builder); }
 // public static void addLandCarvers(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addLandCarvers(builder); }
-// public void addDefaultVegetation(Object builder) { wrapperContained.addDefaultVegetation(builder); }
-// public static void addDefaultVegetation(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addDefaultVegetation(builder); }
+// public void addDefaultVegetation(Object builder,boolean includeNearWater) { wrapperContained.addDefaultVegetation(builder,includeNearWater); }
+// public static void addDefaultVegetation(Object builder,boolean includeNearWater, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addDefaultVegetation(builder,includeNearWater); }
 // public void addBadlandsVegetation(Object builder) { wrapperContained.addBadlandsVegetation(builder); }
 // public static void addBadlandsVegetation(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addBadlandsVegetation(builder); }
 // public void addDesertVegetation(Object builder) { wrapperContained.addDesertVegetation(builder); }
@@ -65,8 +65,6 @@ public class DefaultBiomeFeatures { public net.minecraft.world.gen.feature.Defau
 // public static void addFossils(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addFossils(builder); }
 // public void addKelp(Object builder) { wrapperContained.addKelp(builder); }
 // public static void addKelp(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addKelp(builder); }
-// public void addSeagrassOnStone(Object builder) { wrapperContained.addSeagrassOnStone(builder); }
-// public static void addSeagrassOnStone(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addSeagrassOnStone(builder); }
 // public void addLessKelp(Object builder) { wrapperContained.addLessKelp(builder); }
 // public static void addLessKelp(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addLessKelp(builder); }
 // public void addSprings(Object builder) { wrapperContained.addSprings(builder); }
@@ -181,5 +179,13 @@ public class DefaultBiomeFeatures { public net.minecraft.world.gen.feature.Defau
 // public static void addCherryGroveFeatures(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addCherryGroveFeatures(builder); }
 // public void addBatsAndMonsters(Object builder,int skeletonWeight) { wrapperContained.addBatsAndMonsters(builder,skeletonWeight); }
 // public static void addBatsAndMonsters(Object builder,int skeletonWeight, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addBatsAndMonsters(builder,skeletonWeight); }
+// public void addLeafLitter(Object builder) { wrapperContained.addLeafLitter(builder); }
+// public static void addLeafLitter(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addLeafLitter(builder); }
+// public void addBirchForestWildflowers(Object builder) { wrapperContained.addBirchForestWildflowers(builder); }
+// public static void addBirchForestWildflowers(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addBirchForestWildflowers(builder); }
+// public void addBushes(Object builder) { wrapperContained.addBushes(builder); }
+// public static void addBushes(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addBushes(builder); }
+// public void addMangroveSwampAquaticFeatures(Object builder) { wrapperContained.addMangroveSwampAquaticFeatures(builder); }
+// public static void addMangroveSwampAquaticFeatures(Object builder, ) { net.minecraft.world.gen.feature.DefaultBiomeFeatures.addMangroveSwampAquaticFeatures(builder); }
 
 }

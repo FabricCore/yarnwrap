@@ -38,8 +38,6 @@ public class EnchantCommand { public net.minecraft.server.command.EnchantCommand
 // public static com.mojang.brigadier.Message method_13244(java.lang.Object itemName, ) { return net.minecraft.server.command.EnchantCommand.method_13244(itemName); }
 // public int method_13245(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13245(context); }
 // public static int method_13245(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.EnchantCommand.method_13245(context); }
-// public boolean method_13246(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13246(source.wrapperContained); }
-// public static boolean method_13246(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.EnchantCommand.method_13246(source.wrapperContained); }
 // public com.mojang.brigadier.Message method_13247(java.lang.Object entityName) { return wrapperContained.method_13247(entityName); }
 // public static com.mojang.brigadier.Message method_13247(java.lang.Object entityName, ) { return net.minecraft.server.command.EnchantCommand.method_13247(entityName); }
 // public com.mojang.brigadier.Message method_13248(java.lang.Object level,java.lang.Object maxLevel) { return wrapperContained.method_13248(level,maxLevel); }

@@ -24,11 +24,13 @@ public boolean hasNbt() { return wrapperContained.hasNbt(); }
 // public static boolean hasNbt() { return net.minecraft.predicate.BlockPredicate.hasNbt(); }
 // public com.mojang.datafixers.kinds.App method_57144(Object instance) { return wrapperContained.method_57144(instance); }
 // public static com.mojang.datafixers.kinds.App method_57144(Object instance, ) { return net.minecraft.predicate.BlockPredicate.method_57144(instance); }
-// public boolean testBlockEntity(yarnwrap.world.WorldView world,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.predicate.NbtPredicate nbtPredicate) { return wrapperContained.testBlockEntity(world.wrapperContained,blockEntity.wrapperContained,nbtPredicate.wrapperContained); }
-// public static boolean testBlockEntity(yarnwrap.world.WorldView world,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.predicate.NbtPredicate nbtPredicate, ) { return net.minecraft.predicate.BlockPredicate.testBlockEntity(world.wrapperContained,blockEntity.wrapperContained,nbtPredicate.wrapperContained); }
+// public boolean testNbt(yarnwrap.world.WorldView world,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.predicate.NbtPredicate nbtPredicate) { return wrapperContained.testNbt(world.wrapperContained,blockEntity.wrapperContained,nbtPredicate.wrapperContained); }
+// public static boolean testNbt(yarnwrap.world.WorldView world,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.predicate.NbtPredicate nbtPredicate, ) { return net.minecraft.predicate.BlockPredicate.testNbt(world.wrapperContained,blockEntity.wrapperContained,nbtPredicate.wrapperContained); }
 // public boolean testState(yarnwrap.block.BlockState state) { return wrapperContained.testState(state.wrapperContained); }
 // public static boolean testState(yarnwrap.block.BlockState state, ) { return net.minecraft.predicate.BlockPredicate.testState(state.wrapperContained); }
 public boolean test(yarnwrap.block.pattern.CachedBlockPosition pos) { return wrapperContained.test(pos.wrapperContained); }
 // public static boolean test(yarnwrap.block.pattern.CachedBlockPosition pos, ) { return net.minecraft.predicate.BlockPredicate.test(pos.wrapperContained); }
+// public boolean testComponents(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.predicate.component.ComponentsPredicate components) { return wrapperContained.testComponents(blockEntity.wrapperContained,components.wrapperContained); }
+// public static boolean testComponents(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.predicate.component.ComponentsPredicate components, ) { return net.minecraft.predicate.BlockPredicate.testComponents(blockEntity.wrapperContained,components.wrapperContained); }
 
 }

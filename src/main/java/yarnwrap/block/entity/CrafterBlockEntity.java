@@ -51,6 +51,16 @@ public static int PROPERTIES_COUNT() { return net.minecraft.block.entity.Crafter
 // public static int craftingTicksRemaining() { return net.minecraft.block.entity.CrafterBlockEntity.craftingTicksRemaining; }
 // public static void craftingTicksRemaining(int value, ) { net.minecraft.block.entity.CrafterBlockEntity.craftingTicksRemaining = value; }
 
+// public int DEFAULT_CRAFTING_TICKS_REMAINING() { return wrapperContained.DEFAULT_CRAFTING_TICKS_REMAINING; }
+// public void DEFAULT_CRAFTING_TICKS_REMAINING(int value) { wrapperContained.DEFAULT_CRAFTING_TICKS_REMAINING = value; }
+// public static int DEFAULT_CRAFTING_TICKS_REMAINING() { return net.minecraft.block.entity.CrafterBlockEntity.DEFAULT_CRAFTING_TICKS_REMAINING; }
+// public static void DEFAULT_CRAFTING_TICKS_REMAINING(int value, ) { net.minecraft.block.entity.CrafterBlockEntity.DEFAULT_CRAFTING_TICKS_REMAINING = value; }
+
+// public int DEFAULT_TRIGGERED() { return wrapperContained.DEFAULT_TRIGGERED; }
+// public void DEFAULT_TRIGGERED(int value) { wrapperContained.DEFAULT_TRIGGERED = value; }
+// public static int DEFAULT_TRIGGERED() { return net.minecraft.block.entity.CrafterBlockEntity.DEFAULT_TRIGGERED; }
+// public static void DEFAULT_TRIGGERED(int value, ) { net.minecraft.block.entity.CrafterBlockEntity.DEFAULT_TRIGGERED = value; }
+
 public CrafterBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.CrafterBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public boolean betterSlotExists(int count,yarnwrap.item.ItemStack stack,int slot) { return wrapperContained.betterSlotExists(count,stack.wrapperContained,slot); }
 // public static boolean betterSlotExists(int count,yarnwrap.item.ItemStack stack,int slot, ) { return net.minecraft.block.entity.CrafterBlockEntity.betterSlotExists(count,stack.wrapperContained,slot); }
@@ -66,13 +76,15 @@ public void setCraftingTicksRemaining(int craftingTicksRemaining) { wrapperConta
 // public static void setCraftingTicksRemaining(int craftingTicksRemaining, ) { net.minecraft.block.entity.CrafterBlockEntity.setCraftingTicksRemaining(craftingTicksRemaining); }
 // public boolean canToggleSlot(int slot) { return wrapperContained.canToggleSlot(slot); }
 // public static boolean canToggleSlot(int slot, ) { return net.minecraft.block.entity.CrafterBlockEntity.canToggleSlot(slot); }
-// public void putDisabledSlots(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.putDisabledSlots(nbt.wrapperContained); }
-// public static void putDisabledSlots(yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.block.entity.CrafterBlockEntity.putDisabledSlots(nbt.wrapperContained); }
-// public void putTriggered(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.putTriggered(nbt.wrapperContained); }
-// public static void putTriggered(yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.block.entity.CrafterBlockEntity.putTriggered(nbt.wrapperContained); }
+// public void putDisabledSlots(yarnwrap.storage.WriteView view) { wrapperContained.putDisabledSlots(view.wrapperContained); }
+// public static void putDisabledSlots(yarnwrap.storage.WriteView view, ) { net.minecraft.block.entity.CrafterBlockEntity.putDisabledSlots(view.wrapperContained); }
+// public void putTriggered(yarnwrap.storage.WriteView view) { wrapperContained.putTriggered(view.wrapperContained); }
+// public static void putTriggered(yarnwrap.storage.WriteView view, ) { net.minecraft.block.entity.CrafterBlockEntity.putTriggered(view.wrapperContained); }
 public boolean isTriggered() { return wrapperContained.isTriggered(); }
 // public static boolean isTriggered() { return net.minecraft.block.entity.CrafterBlockEntity.isTriggered(); }
 public int getComparatorOutput() { return wrapperContained.getComparatorOutput(); }
 // public static int getComparatorOutput() { return net.minecraft.block.entity.CrafterBlockEntity.getComparatorOutput(); }
+// public void method_68285(int slots) { wrapperContained.method_68285(slots); }
+// public static void method_68285(int slots, ) { net.minecraft.block.entity.CrafterBlockEntity.method_68285(slots); }
 
 }

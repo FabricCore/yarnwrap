@@ -13,6 +13,8 @@ public boolean hasAny(java.util.function.Predicate predicate) { return wrapperCo
 // public static void count(Object counter, ) { net.minecraft.world.chunk.ReadableContainer.count(counter); }
 public void forEachValue(java.util.function.Consumer action) { wrapperContained.forEachValue(action); }
 // public static void forEachValue(java.util.function.Consumer action, ) { net.minecraft.world.chunk.ReadableContainer.forEachValue(action); }
+public yarnwrap.world.chunk.PalettedContainer copy() { return new yarnwrap.world.chunk.PalettedContainer(wrapperContained.copy()); }
+// public static yarnwrap.world.chunk.PalettedContainer copy() { return new yarnwrap.world.chunk.PalettedContainer(net.minecraft.world.chunk.ReadableContainer.copy()); }
 // public Object serialize(yarnwrap.util.collection.IndexedIterable idList,Object paletteProvider) { return wrapperContained.serialize(idList.wrapperContained,paletteProvider); }
 // public static Object serialize(yarnwrap.util.collection.IndexedIterable idList,Object paletteProvider, ) { return net.minecraft.world.chunk.ReadableContainer.serialize(idList.wrapperContained,paletteProvider); }
 public yarnwrap.world.chunk.PalettedContainer slice() { return new yarnwrap.world.chunk.PalettedContainer(wrapperContained.slice()); }

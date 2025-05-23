@@ -26,49 +26,22 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap enchantments() { return net.minecraft.component.type.ItemEnchantmentsComponent.enchantments; }
 // public static void enchantments(it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap value, ) { net.minecraft.component.type.ItemEnchantmentsComponent.enchantments = value; }
 
-// public boolean showInTooltip() { return wrapperContained.showInTooltip; }
-// public void showInTooltip(boolean value) { wrapperContained.showInTooltip = value; }
-// public static boolean showInTooltip() { return net.minecraft.component.type.ItemEnchantmentsComponent.showInTooltip; }
-// public static void showInTooltip(boolean value, ) { net.minecraft.component.type.ItemEnchantmentsComponent.showInTooltip = value; }
-
-// public com.mojang.serialization.Codec INLINE_CODEC() { return wrapperContained.INLINE_CODEC; }
-// public void INLINE_CODEC(com.mojang.serialization.Codec value) { wrapperContained.INLINE_CODEC = value; }
-// public static com.mojang.serialization.Codec INLINE_CODEC() { return net.minecraft.component.type.ItemEnchantmentsComponent.INLINE_CODEC; }
-// public static void INLINE_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.component.type.ItemEnchantmentsComponent.INLINE_CODEC = value; }
-
-// public com.mojang.serialization.Codec BASE_CODEC() { return wrapperContained.BASE_CODEC; }
-// public void BASE_CODEC(com.mojang.serialization.Codec value) { wrapperContained.BASE_CODEC = value; }
-// public static com.mojang.serialization.Codec BASE_CODEC() { return net.minecraft.component.type.ItemEnchantmentsComponent.BASE_CODEC; }
-// public static void BASE_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.component.type.ItemEnchantmentsComponent.BASE_CODEC = value; }
-
-// public ItemEnchantmentsComponent(it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap enchantments,boolean showInTooltip) { this.wrapperContained = new net.minecraft.component.type.ItemEnchantmentsComponent(enchantments,showInTooltip); }
+// public ItemEnchantmentsComponent(it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap enchantments) { this.wrapperContained = new net.minecraft.component.type.ItemEnchantmentsComponent(enchantments); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.component.type.ItemEnchantmentsComponent.equals(o); }
 public java.util.Set getEnchantments() { return wrapperContained.getEnchantments(); }
 // public static java.util.Set getEnchantments() { return net.minecraft.component.type.ItemEnchantmentsComponent.getEnchantments(); }
-// public com.mojang.datafixers.kinds.App method_57535(Object instance) { return wrapperContained.method_57535(instance); }
-// public static com.mojang.datafixers.kinds.App method_57535(Object instance, ) { return net.minecraft.component.type.ItemEnchantmentsComponent.method_57535(instance); }
 public int getLevel(yarnwrap.registry.entry.RegistryEntry enchantment) { return wrapperContained.getLevel(enchantment.wrapperContained); }
 // public static int getLevel(yarnwrap.registry.entry.RegistryEntry enchantment, ) { return net.minecraft.component.type.ItemEnchantmentsComponent.getLevel(enchantment.wrapperContained); }
-// public java.lang.Boolean method_57537(yarnwrap.component.type.ItemEnchantmentsComponent component) { return wrapperContained.method_57537(component.wrapperContained); }
-// public static java.lang.Boolean method_57537(yarnwrap.component.type.ItemEnchantmentsComponent component, ) { return net.minecraft.component.type.ItemEnchantmentsComponent.method_57537(component.wrapperContained); }
 public java.util.Set getEnchantmentEntries() { return wrapperContained.getEnchantmentEntries(); }
 // public static java.util.Set getEnchantmentEntries() { return net.minecraft.component.type.ItemEnchantmentsComponent.getEnchantmentEntries(); }
 // public it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap method_57540(yarnwrap.component.type.ItemEnchantmentsComponent component) { return wrapperContained.method_57540(component.wrapperContained); }
 // public static it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap method_57540(yarnwrap.component.type.ItemEnchantmentsComponent component, ) { return net.minecraft.component.type.ItemEnchantmentsComponent.method_57540(component.wrapperContained); }
 public int getSize() { return wrapperContained.getSize(); }
 // public static int getSize() { return net.minecraft.component.type.ItemEnchantmentsComponent.getSize(); }
-// public java.lang.Boolean method_57542(yarnwrap.component.type.ItemEnchantmentsComponent component) { return wrapperContained.method_57542(component.wrapperContained); }
-// public static java.lang.Boolean method_57542(yarnwrap.component.type.ItemEnchantmentsComponent component, ) { return net.minecraft.component.type.ItemEnchantmentsComponent.method_57542(component.wrapperContained); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 // public static boolean isEmpty() { return net.minecraft.component.type.ItemEnchantmentsComponent.isEmpty(); }
-// public it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap method_57544(yarnwrap.component.type.ItemEnchantmentsComponent component) { return wrapperContained.method_57544(component.wrapperContained); }
-// public static it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap method_57544(yarnwrap.component.type.ItemEnchantmentsComponent component, ) { return net.minecraft.component.type.ItemEnchantmentsComponent.method_57544(component.wrapperContained); }
-// public yarnwrap.component.type.ItemEnchantmentsComponent method_58118(it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap map) { return new yarnwrap.component.type.ItemEnchantmentsComponent(wrapperContained.method_58118(map)); }
-// public static yarnwrap.component.type.ItemEnchantmentsComponent method_58118(it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap map, ) { return new yarnwrap.component.type.ItemEnchantmentsComponent(net.minecraft.component.type.ItemEnchantmentsComponent.method_58118(map)); }
-public yarnwrap.component.type.ItemEnchantmentsComponent withShowInTooltip(boolean showInTooltip) { return new yarnwrap.component.type.ItemEnchantmentsComponent(wrapperContained.withShowInTooltip(showInTooltip)); }
-// public static yarnwrap.component.type.ItemEnchantmentsComponent withShowInTooltip(boolean showInTooltip, ) { return new yarnwrap.component.type.ItemEnchantmentsComponent(net.minecraft.component.type.ItemEnchantmentsComponent.withShowInTooltip(showInTooltip)); }
-// public yarnwrap.registry.entry.RegistryEntryList getTooltipOrderList(Object registryLookup,yarnwrap.registry.RegistryKey registryRef,yarnwrap.registry.tag.TagKey tooltipOrderTag) { return new yarnwrap.registry.entry.RegistryEntryList(wrapperContained.getTooltipOrderList(registryLookup,registryRef.wrapperContained,tooltipOrderTag.wrapperContained)); }
-// public static yarnwrap.registry.entry.RegistryEntryList getTooltipOrderList(Object registryLookup,yarnwrap.registry.RegistryKey registryRef,yarnwrap.registry.tag.TagKey tooltipOrderTag, ) { return new yarnwrap.registry.entry.RegistryEntryList(net.minecraft.component.type.ItemEnchantmentsComponent.getTooltipOrderList(registryLookup,registryRef.wrapperContained,tooltipOrderTag.wrapperContained)); }
+// public yarnwrap.registry.entry.RegistryEntryList getTooltipOrderList(Object registries,yarnwrap.registry.RegistryKey registryRef,yarnwrap.registry.tag.TagKey tooltipOrderTag) { return new yarnwrap.registry.entry.RegistryEntryList(wrapperContained.getTooltipOrderList(registries,registryRef.wrapperContained,tooltipOrderTag.wrapperContained)); }
+// public static yarnwrap.registry.entry.RegistryEntryList getTooltipOrderList(Object registries,yarnwrap.registry.RegistryKey registryRef,yarnwrap.registry.tag.TagKey tooltipOrderTag, ) { return new yarnwrap.registry.entry.RegistryEntryList(net.minecraft.component.type.ItemEnchantmentsComponent.getTooltipOrderList(registries,registryRef.wrapperContained,tooltipOrderTag.wrapperContained)); }
 
 }

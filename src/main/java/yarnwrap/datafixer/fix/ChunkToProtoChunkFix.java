@@ -1,7 +1,6 @@
 package yarnwrap.datafixer.fix;
 public class ChunkToProtoChunkFix { public net.minecraft.datafixer.fix.ChunkToProtoChunkFix wrapperContained; public ChunkToProtoChunkFix(net.minecraft.datafixer.fix.ChunkToProtoChunkFix wrapperContained) { this.wrapperContained = wrapperContained; }
 
-public ChunkToProtoChunkFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changestype) { this.wrapperContained = new net.minecraft.datafixer.fix.ChunkToProtoChunkFix(outputSchema,changestype); }
 // public short packChunkSectionPos(int x,int y,int z) { return wrapperContained.packChunkSectionPos(x,y,z); }
 // public static short packChunkSectionPos(int x,int y,int z, ) { return net.minecraft.datafixer.fix.ChunkToProtoChunkFix.packChunkSectionPos(x,y,z); }
 // public it.unimi.dsi.fastutil.shorts.ShortArrayList method_39941(int sectionY) { return wrapperContained.method_39941(sectionY); }

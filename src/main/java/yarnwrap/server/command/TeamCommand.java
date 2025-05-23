@@ -72,8 +72,6 @@ public class TeamCommand { public net.minecraft.server.command.TeamCommand wrapp
 // public static int method_13717(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TeamCommand.method_13717(context); }
 // public int method_13718(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13718(context); }
 // public static int method_13718(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TeamCommand.method_13718(context); }
-// public boolean method_13719(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13719(source.wrapperContained); }
-// public static boolean method_13719(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.TeamCommand.method_13719(source.wrapperContained); }
 // public int executeJoin(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,java.util.Collection members) { return wrapperContained.executeJoin(source.wrapperContained,team.wrapperContained,members); }
 // public static int executeJoin(yarnwrap.server.command.ServerCommandSource source,yarnwrap.scoreboard.Team team,java.util.Collection members, ) { return net.minecraft.server.command.TeamCommand.executeJoin(source.wrapperContained,team.wrapperContained,members); }
 // public int method_13721(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13721(context); }

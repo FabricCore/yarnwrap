@@ -1,21 +1,6 @@
 package yarnwrap.entity.ai.goal;
 public class TrackTargetGoal { public net.minecraft.entity.ai.goal.TrackTargetGoal wrapperContained; public TrackTargetGoal(net.minecraft.entity.ai.goal.TrackTargetGoal wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int UNSET() { return wrapperContained.UNSET; }
-// public void UNSET(int value) { wrapperContained.UNSET = value; }
-// public static int UNSET() { return net.minecraft.entity.ai.goal.TrackTargetGoal.UNSET; }
-// public static void UNSET(int value, ) { net.minecraft.entity.ai.goal.TrackTargetGoal.UNSET = value; }
-
-// public int CAN_TRACK() { return wrapperContained.CAN_TRACK; }
-// public void CAN_TRACK(int value) { wrapperContained.CAN_TRACK = value; }
-// public static int CAN_TRACK() { return net.minecraft.entity.ai.goal.TrackTargetGoal.CAN_TRACK; }
-// public static void CAN_TRACK(int value, ) { net.minecraft.entity.ai.goal.TrackTargetGoal.CAN_TRACK = value; }
-
-// public int CANNOT_TRACK() { return wrapperContained.CANNOT_TRACK; }
-// public void CANNOT_TRACK(int value) { wrapperContained.CANNOT_TRACK = value; }
-// public static int CANNOT_TRACK() { return net.minecraft.entity.ai.goal.TrackTargetGoal.CANNOT_TRACK; }
-// public static void CANNOT_TRACK(int value, ) { net.minecraft.entity.ai.goal.TrackTargetGoal.CANNOT_TRACK = value; }
-
 // public int maxTimeWithoutVisibility() { return wrapperContained.maxTimeWithoutVisibility; }
 // public void maxTimeWithoutVisibility(int value) { wrapperContained.maxTimeWithoutVisibility = value; }
 // public static int maxTimeWithoutVisibility() { return net.minecraft.entity.ai.goal.TrackTargetGoal.maxTimeWithoutVisibility; }
@@ -55,6 +40,21 @@ public class TrackTargetGoal { public net.minecraft.entity.ai.goal.TrackTargetGo
 // public void target(yarnwrap.entity.LivingEntity value) { wrapperContained.target = value.wrapperContained; }
 // public static yarnwrap.entity.LivingEntity target() { return new yarnwrap.entity.LivingEntity(net.minecraft.entity.ai.goal.TrackTargetGoal.target); }
 // public static void target(yarnwrap.entity.LivingEntity value, ) { net.minecraft.entity.ai.goal.TrackTargetGoal.target = value.wrapperContained; }
+
+// public int UNSET() { return wrapperContained.UNSET; }
+// public void UNSET(int value) { wrapperContained.UNSET = value; }
+// public static int UNSET() { return net.minecraft.entity.ai.goal.TrackTargetGoal.UNSET; }
+// public static void UNSET(int value, ) { net.minecraft.entity.ai.goal.TrackTargetGoal.UNSET = value; }
+
+// public int CAN_TRACK() { return wrapperContained.CAN_TRACK; }
+// public void CAN_TRACK(int value) { wrapperContained.CAN_TRACK = value; }
+// public static int CAN_TRACK() { return net.minecraft.entity.ai.goal.TrackTargetGoal.CAN_TRACK; }
+// public static void CAN_TRACK(int value, ) { net.minecraft.entity.ai.goal.TrackTargetGoal.CAN_TRACK = value; }
+
+// public int CANNOT_TRACK() { return wrapperContained.CANNOT_TRACK; }
+// public void CANNOT_TRACK(int value) { wrapperContained.CANNOT_TRACK = value; }
+// public static int CANNOT_TRACK() { return net.minecraft.entity.ai.goal.TrackTargetGoal.CANNOT_TRACK; }
+// public static void CANNOT_TRACK(int value, ) { net.minecraft.entity.ai.goal.TrackTargetGoal.CANNOT_TRACK = value; }
 
 // public TrackTargetGoal(yarnwrap.entity.mob.MobEntity mob,boolean checkVisibility) { this.wrapperContained = new net.minecraft.entity.ai.goal.TrackTargetGoal(mob.wrapperContained,checkVisibility); }
 // public TrackTargetGoal(yarnwrap.entity.mob.MobEntity mob,boolean checkVisibility,boolean checkNavigable) { this.wrapperContained = new net.minecraft.entity.ai.goal.TrackTargetGoal(mob.wrapperContained,checkVisibility,checkNavigable); }

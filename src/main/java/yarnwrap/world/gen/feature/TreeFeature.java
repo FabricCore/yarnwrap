@@ -40,5 +40,7 @@ public class TreeFeature { public net.minecraft.world.gen.feature.TreeFeature wr
 // public static void method_49238(java.util.Set pos,yarnwrap.world.StructureWorldAccess state, ) { net.minecraft.world.gen.feature.TreeFeature.method_49238(pos,state.wrapperContained); }
 // public boolean method_51179(yarnwrap.block.BlockState state) { return wrapperContained.method_51179(state.wrapperContained); }
 // public static boolean method_51179(yarnwrap.block.BlockState state, ) { return net.minecraft.world.gen.feature.TreeFeature.method_51179(state.wrapperContained); }
+// public java.util.List getLeafLitterPositions(Object decoratorGenerator) { return wrapperContained.getLeafLitterPositions(decoratorGenerator); }
+// public static java.util.List getLeafLitterPositions(Object decoratorGenerator, ) { return net.minecraft.world.gen.feature.TreeFeature.getLeafLitterPositions(decoratorGenerator); }
 
 }

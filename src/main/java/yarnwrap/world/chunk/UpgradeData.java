@@ -51,7 +51,18 @@ public static yarnwrap.world.chunk.UpgradeData NO_UPGRADE_DATA() { return new ya
 // public static java.util.List fluidTicks() { return net.minecraft.world.chunk.UpgradeData.fluidTicks; }
 // public static void fluidTicks(java.util.List value, ) { net.minecraft.world.chunk.UpgradeData.fluidTicks = value; }
 
+// public com.mojang.serialization.Codec BLOCK_TICKS_CODEC() { return wrapperContained.BLOCK_TICKS_CODEC; }
+// public void BLOCK_TICKS_CODEC(com.mojang.serialization.Codec value) { wrapperContained.BLOCK_TICKS_CODEC = value; }
+// public static com.mojang.serialization.Codec BLOCK_TICKS_CODEC() { return net.minecraft.world.chunk.UpgradeData.BLOCK_TICKS_CODEC; }
+// public static void BLOCK_TICKS_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.world.chunk.UpgradeData.BLOCK_TICKS_CODEC = value; }
+
+// public com.mojang.serialization.Codec FLUID_TICKS_CODEC() { return wrapperContained.FLUID_TICKS_CODEC; }
+// public void FLUID_TICKS_CODEC(com.mojang.serialization.Codec value) { wrapperContained.FLUID_TICKS_CODEC = value; }
+// public static com.mojang.serialization.Codec FLUID_TICKS_CODEC() { return net.minecraft.world.chunk.UpgradeData.FLUID_TICKS_CODEC; }
+// public static void FLUID_TICKS_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.world.chunk.UpgradeData.FLUID_TICKS_CODEC = value; }
+
 public UpgradeData(yarnwrap.nbt.NbtCompound nbt,yarnwrap.world.HeightLimitView world) { this.wrapperContained = new net.minecraft.world.chunk.UpgradeData(nbt.wrapperContained,world.wrapperContained); }
+// public UpgradeData(yarnwrap.world.chunk.UpgradeData data) { this.wrapperContained = new net.minecraft.world.chunk.UpgradeData(data.wrapperContained); }
 // public UpgradeData(yarnwrap.world.HeightLimitView world) { this.wrapperContained = new net.minecraft.world.chunk.UpgradeData(world.wrapperContained); }
 // public void upgradeCenter(yarnwrap.world.chunk.WorldChunk chunk) { wrapperContained.upgradeCenter(chunk.wrapperContained); }
 // public static void upgradeCenter(yarnwrap.world.chunk.WorldChunk chunk, ) { net.minecraft.world.chunk.UpgradeData.upgradeCenter(chunk.wrapperContained); }
@@ -69,21 +80,11 @@ public void upgrade(yarnwrap.world.chunk.WorldChunk chunk) { wrapperContained.up
 // public static void upgrade(yarnwrap.world.chunk.WorldChunk chunk, ) { net.minecraft.world.chunk.UpgradeData.upgrade(chunk.wrapperContained); }
 // public void method_40452(yarnwrap.world.World tick) { wrapperContained.method_40452(tick.wrapperContained); }
 // public static void method_40452(yarnwrap.world.World tick, ) { net.minecraft.world.chunk.UpgradeData.method_40452(tick.wrapperContained); }
-// public java.lang.String method_40453(yarnwrap.block.Block block) { return wrapperContained.method_40453(block.wrapperContained); }
-// public static java.lang.String method_40453(yarnwrap.block.Block block, ) { return net.minecraft.world.chunk.UpgradeData.method_40453(block.wrapperContained); }
-// public java.lang.String method_40454(yarnwrap.fluid.Fluid fluid) { return wrapperContained.method_40454(fluid.wrapperContained); }
-// public static java.lang.String method_40454(yarnwrap.fluid.Fluid fluid, ) { return net.minecraft.world.chunk.UpgradeData.method_40454(fluid.wrapperContained); }
-// public java.util.Optional method_40455(java.lang.String id) { return wrapperContained.method_40455(id); }
-// public static java.util.Optional method_40455(java.lang.String id, ) { return net.minecraft.world.chunk.UpgradeData.method_40455(id); }
-// public void addNeighborTicks(yarnwrap.nbt.NbtCompound nbt,java.lang.String key,java.util.function.Function nameToType,java.util.List ticks) { wrapperContained.addNeighborTicks(nbt.wrapperContained,key,nameToType,ticks); }
-// public static void addNeighborTicks(yarnwrap.nbt.NbtCompound nbt,java.lang.String key,java.util.function.Function nameToType,java.util.List ticks, ) { net.minecraft.world.chunk.UpgradeData.addNeighborTicks(nbt.wrapperContained,key,nameToType,ticks); }
-// public void method_40457(yarnwrap.nbt.NbtList tick,yarnwrap.world.tick.Tick fluidTick) { wrapperContained.method_40457(tick.wrapperContained,fluidTick.wrapperContained); }
-// public static void method_40457(yarnwrap.nbt.NbtList tick,yarnwrap.world.tick.Tick fluidTick, ) { net.minecraft.world.chunk.UpgradeData.method_40457(tick.wrapperContained,fluidTick.wrapperContained); }
 // public void method_40458(yarnwrap.world.World tick) { wrapperContained.method_40458(tick.wrapperContained); }
 // public static void method_40458(yarnwrap.world.World tick, ) { net.minecraft.world.chunk.UpgradeData.method_40458(tick.wrapperContained); }
-// public java.util.Optional method_40459(java.lang.String id) { return wrapperContained.method_40459(id); }
-// public static java.util.Optional method_40459(java.lang.String id, ) { return net.minecraft.world.chunk.UpgradeData.method_40459(id); }
-// public void method_40460(yarnwrap.nbt.NbtList tick,yarnwrap.world.tick.Tick blockTick) { wrapperContained.method_40460(tick.wrapperContained,blockTick.wrapperContained); }
-// public static void method_40460(yarnwrap.nbt.NbtList tick,yarnwrap.world.tick.Tick blockTick, ) { net.minecraft.world.chunk.UpgradeData.method_40460(tick.wrapperContained,blockTick.wrapperContained); }
+public yarnwrap.world.chunk.UpgradeData copy() { return new yarnwrap.world.chunk.UpgradeData(wrapperContained.copy()); }
+// public static yarnwrap.world.chunk.UpgradeData copy() { return new yarnwrap.world.chunk.UpgradeData(net.minecraft.world.chunk.UpgradeData.copy()); }
+// public void method_68288(yarnwrap.nbt.NbtCompound indices) { wrapperContained.method_68288(indices.wrapperContained); }
+// public static void method_68288(yarnwrap.nbt.NbtCompound indices, ) { net.minecraft.world.chunk.UpgradeData.method_68288(indices.wrapperContained); }
 
 }

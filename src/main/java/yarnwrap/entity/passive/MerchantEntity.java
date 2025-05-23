@@ -26,11 +26,8 @@ public class MerchantEntity { public net.minecraft.entity.passive.MerchantEntity
 // public static int INVENTORY_SIZE() { return net.minecraft.entity.passive.MerchantEntity.INVENTORY_SIZE; }
 // public static void INVENTORY_SIZE(int value, ) { net.minecraft.entity.passive.MerchantEntity.INVENTORY_SIZE = value; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.entity.passive.MerchantEntity.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.entity.passive.MerchantEntity.LOGGER = value; }
-
+// public void fillRecipes() { wrapperContained.fillRecipes(); }
+// public static void fillRecipes() { net.minecraft.entity.passive.MerchantEntity.fillRecipes(); }
 // public void produceParticles(yarnwrap.particle.ParticleEffect parameters) { wrapperContained.produceParticles(parameters.wrapperContained); }
 // public static void produceParticles(yarnwrap.particle.ParticleEffect parameters, ) { net.minecraft.entity.passive.MerchantEntity.produceParticles(parameters.wrapperContained); }
 // public void afterUsing(yarnwrap.village.TradeOffer offer) { wrapperContained.afterUsing(offer.wrapperContained); }
@@ -49,9 +46,5 @@ public int getHeadRollingTimeLeft() { return wrapperContained.getHeadRollingTime
 // public static int getHeadRollingTimeLeft() { return net.minecraft.entity.passive.MerchantEntity.getHeadRollingTimeLeft(); }
 public void setHeadRollingTimeLeft(int ticks) { wrapperContained.setHeadRollingTimeLeft(ticks); }
 // public static void setHeadRollingTimeLeft(int ticks, ) { net.minecraft.entity.passive.MerchantEntity.setHeadRollingTimeLeft(ticks); }
-// public void method_56682(yarnwrap.village.TradeOfferList offers) { wrapperContained.method_56682(offers.wrapperContained); }
-// public static void method_56682(yarnwrap.village.TradeOfferList offers, ) { net.minecraft.entity.passive.MerchantEntity.method_56682(offers.wrapperContained); }
-// public void fillRecipes() { wrapperContained.fillRecipes(); }
-// public static void fillRecipes() { net.minecraft.entity.passive.MerchantEntity.fillRecipes(); }
 
 }

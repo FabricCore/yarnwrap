@@ -129,8 +129,6 @@ public static org.joml.Vector3f Z_AXIS() { return net.minecraft.util.math.MathHe
 // public static int floorLog2(int value, ) { return net.minecraft.util.math.MathHelper.floorLog2(value); }
 // public boolean isPowerOfTwo(int value) { return wrapperContained.isPowerOfTwo(value); }
 // public static boolean isPowerOfTwo(int value, ) { return net.minecraft.util.math.MathHelper.isPowerOfTwo(value); }
-// public int packRgb(float r,float g,float b) { return wrapperContained.packRgb(r,g,b); }
-// public static int packRgb(float r,float g,float b, ) { return net.minecraft.util.math.MathHelper.packRgb(r,g,b); }
 // public int idealHash(int value) { return wrapperContained.idealHash(value); }
 // public static int idealHash(int value, ) { return net.minecraft.util.math.MathHelper.idealHash(value); }
 // public float sqrt(float value) { return wrapperContained.sqrt(value); }
@@ -297,5 +295,21 @@ public static java.util.UUID randomUuid() { return net.minecraft.util.math.MathH
 // public static int hsvToArgb(float hue,float saturation,float value,int alpha, ) { return net.minecraft.util.math.MathHelper.hsvToArgb(hue,saturation,value,alpha); }
 // public float magnitude(float a,float b,float c) { return wrapperContained.magnitude(a,b,c); }
 // public static float magnitude(float a,float b,float c, ) { return net.minecraft.util.math.MathHelper.magnitude(a,b,c); }
+// public yarnwrap.util.math.Vec3d lerp(double delta,yarnwrap.util.math.Vec3d start,yarnwrap.util.math.Vec3d end) { return new yarnwrap.util.math.Vec3d(wrapperContained.lerp(delta,start.wrapperContained,end.wrapperContained)); }
+// public static yarnwrap.util.math.Vec3d lerp(double delta,yarnwrap.util.math.Vec3d start,yarnwrap.util.math.Vec3d end, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.util.math.MathHelper.lerp(delta,start.wrapperContained,end.wrapperContained)); }
+// public float wrapDegrees(long degrees) { return wrapperContained.wrapDegrees(degrees); }
+// public static float wrapDegrees(long degrees, ) { return net.minecraft.util.math.MathHelper.wrapDegrees(degrees); }
+// public float hypot(float a,float b) { return wrapperContained.hypot(a,b); }
+// public static float hypot(float a,float b, ) { return net.minecraft.util.math.MathHelper.hypot(a,b); }
+// public float lerpAngleRadians(float delta,float start,float end) { return wrapperContained.lerpAngleRadians(delta,start,end); }
+// public static float lerpAngleRadians(float delta,float start,float end, ) { return net.minecraft.util.math.MathHelper.lerpAngleRadians(delta,start,end); }
+// public float easeInOutSine(float value) { return wrapperContained.easeInOutSine(value); }
+// public static float easeInOutSine(float value, ) { return net.minecraft.util.math.MathHelper.easeInOutSine(value); }
+// public float unpackDegrees(byte packedDegrees) { return wrapperContained.unpackDegrees(packedDegrees); }
+// public static float unpackDegrees(byte packedDegrees, ) { return net.minecraft.util.math.MathHelper.unpackDegrees(packedDegrees); }
+// public byte packDegrees(float degrees) { return wrapperContained.packDegrees(degrees); }
+// public static byte packDegrees(float degrees, ) { return net.minecraft.util.math.MathHelper.packDegrees(degrees); }
+// public int smallestEncompassingSquareSideLength(int value) { return wrapperContained.smallestEncompassingSquareSideLength(value); }
+// public static int smallestEncompassingSquareSideLength(int value, ) { return net.minecraft.util.math.MathHelper.smallestEncompassingSquareSideLength(value); }
 
 }

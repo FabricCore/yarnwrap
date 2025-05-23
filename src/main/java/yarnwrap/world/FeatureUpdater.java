@@ -46,6 +46,8 @@ public FeatureUpdater(yarnwrap.world.PersistentStateManager persistentStateManag
 // public static void init(yarnwrap.world.PersistentStateManager persistentStateManager, ) { net.minecraft.world.FeatureUpdater.init(persistentStateManager.wrapperContained); }
 public yarnwrap.nbt.NbtCompound getUpdatedReferences(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.nbt.NbtCompound(wrapperContained.getUpdatedReferences(nbt.wrapperContained)); }
 // public static yarnwrap.nbt.NbtCompound getUpdatedReferences(yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.world.FeatureUpdater.getUpdatedReferences(nbt.wrapperContained)); }
+// public it.unimi.dsi.fastutil.longs.Long2ObjectMap method_14736(java.lang.String featureId) { return wrapperContained.method_14736(featureId); }
+// public static it.unimi.dsi.fastutil.longs.Long2ObjectMap method_14736(java.lang.String featureId, ) { return net.minecraft.world.FeatureUpdater.method_14736(featureId); }
 // public boolean needsUpdate(int chunkX,int chunkZ) { return wrapperContained.needsUpdate(chunkX,chunkZ); }
 // public static boolean needsUpdate(int chunkX,int chunkZ, ) { return net.minecraft.world.FeatureUpdater.needsUpdate(chunkX,chunkZ); }
 // public boolean needsUpdate(int chunkX,int chunkZ,java.lang.String id) { return wrapperContained.needsUpdate(chunkX,chunkZ,id); }
@@ -60,5 +62,15 @@ public void markResolved(long chunkPos) { wrapperContained.markResolved(chunkPos
 // public static void markResolved(long chunkPos, ) { net.minecraft.world.FeatureUpdater.markResolved(chunkPos); }
 // public yarnwrap.world.FeatureUpdater create(yarnwrap.registry.RegistryKey world,yarnwrap.world.PersistentStateManager persistentStateManager) { return new yarnwrap.world.FeatureUpdater(wrapperContained.create(world.wrapperContained,persistentStateManager.wrapperContained)); }
 // public static yarnwrap.world.FeatureUpdater create(yarnwrap.registry.RegistryKey world,yarnwrap.world.PersistentStateManager persistentStateManager, ) { return new yarnwrap.world.FeatureUpdater(net.minecraft.world.FeatureUpdater.create(world.wrapperContained,persistentStateManager.wrapperContained)); }
+// public void method_68326(long id) { wrapperContained.method_68326(id); }
+// public static void method_68326(long id, ) { net.minecraft.world.FeatureUpdater.method_68326(id); }
+// public void method_68327(yarnwrap.world.ChunkUpdateState key,java.lang.String nbt) { wrapperContained.method_68327(key.wrapperContained,nbt); }
+// public static void method_68327(yarnwrap.world.ChunkUpdateState key,java.lang.String nbt, ) { net.minecraft.world.FeatureUpdater.method_68327(key.wrapperContained,nbt); }
+// public void method_68328(java.lang.String key,yarnwrap.nbt.NbtElement nbt) { wrapperContained.method_68328(key,nbt.wrapperContained); }
+// public static void method_68328(java.lang.String key,yarnwrap.nbt.NbtElement nbt, ) { net.minecraft.world.FeatureUpdater.method_68328(key,nbt.wrapperContained); }
+// public void method_68329(yarnwrap.nbt.NbtCompound id) { wrapperContained.method_68329(id.wrapperContained); }
+// public static void method_68329(yarnwrap.nbt.NbtCompound id, ) { net.minecraft.world.FeatureUpdater.method_68329(id.wrapperContained); }
+// public java.util.Optional method_68330(yarnwrap.nbt.NbtCompound child) { return wrapperContained.method_68330(child.wrapperContained); }
+// public static java.util.Optional method_68330(yarnwrap.nbt.NbtCompound child, ) { return net.minecraft.world.FeatureUpdater.method_68330(child.wrapperContained); }
 
 }

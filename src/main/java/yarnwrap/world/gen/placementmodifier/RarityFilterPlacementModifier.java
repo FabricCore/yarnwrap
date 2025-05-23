@@ -14,5 +14,7 @@ public static com.mojang.serialization.MapCodec MODIFIER_CODEC() { return net.mi
 // public RarityFilterPlacementModifier(int chance) { this.wrapperContained = new net.minecraft.world.gen.placementmodifier.RarityFilterPlacementModifier(chance); }
 // public yarnwrap.world.gen.placementmodifier.RarityFilterPlacementModifier of(int chance) { return new yarnwrap.world.gen.placementmodifier.RarityFilterPlacementModifier(wrapperContained.of(chance)); }
 // public static yarnwrap.world.gen.placementmodifier.RarityFilterPlacementModifier of(int chance, ) { return new yarnwrap.world.gen.placementmodifier.RarityFilterPlacementModifier(net.minecraft.world.gen.placementmodifier.RarityFilterPlacementModifier.of(chance)); }
+// public java.lang.Integer method_39660(yarnwrap.world.gen.placementmodifier.RarityFilterPlacementModifier placementModifier) { return wrapperContained.method_39660(placementModifier.wrapperContained); }
+// public static java.lang.Integer method_39660(yarnwrap.world.gen.placementmodifier.RarityFilterPlacementModifier placementModifier, ) { return net.minecraft.world.gen.placementmodifier.RarityFilterPlacementModifier.method_39660(placementModifier.wrapperContained); }
 
 }
