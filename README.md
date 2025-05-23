@@ -14,7 +14,8 @@ Yarnwrap contains
 
 | Version | Download                                                                                            |
 | ------- | --------------------------------------------------------------------------------------------------- |
-| 1.21.1  | [1.21.1b3](https://github.com/FabricCore/yarnwrap/releases/download/1.21.1b3/yarnwrap-1_21_1b3.jar) |
+| 1.21.5  | [1.21.5b3](https://github.com/FabricCore/yarnwrap/releases/download/b3/yarnwrap-1_21_5b3.jar) |
+| 1.21.1  | [1.21.1b3](https://github.com/FabricCore/yarnwrap/releases/download/b3/yarnwrap-1_21_5b3.jar) |
 
 > I would appreciate if you give this project a star :)
 
