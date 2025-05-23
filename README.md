@@ -4,6 +4,9 @@
 
 Yarnwrap allows Java classes from Minecraft to be referenced by their actual name, which is previously not possible due to Minecraft obfuscation.
 
+> [!IMPORTANT]
+> **Fabric API** is required.
+
 Yarnwrap contains
 
 - Wrapper classes for each Java class from Minecraft ([see docs](https://fabriccore.github.io/yarnwrap/)).
