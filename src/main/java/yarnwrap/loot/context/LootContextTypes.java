@@ -11,6 +11,20 @@ public class LootContextTypes { public net.minecraft.loot.context.LootContextTyp
 public static com.mojang.serialization.Codec CODEC() { return net.minecraft.loot.context.LootContextTypes.CODEC; }
 // public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.loot.context.LootContextTypes.CODEC = value; }
 
+// public void method_755(Object builder) { wrapperContained.method_755(builder); }
+// public static void method_755(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_755(builder); }
+// public void method_756(Object builder) { wrapperContained.method_756(builder); }
+// public static void method_756(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_756(builder); }
+// public void method_758(Object builder) { wrapperContained.method_758(builder); }
+// public static void method_758(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_758(builder); }
+// public yarnwrap.util.context.ContextType register(java.lang.String name,java.util.function.Consumer type) { return new yarnwrap.util.context.ContextType(wrapperContained.register(name,type)); }
+// public static yarnwrap.util.context.ContextType register(java.lang.String name,java.util.function.Consumer type, ) { return new yarnwrap.util.context.ContextType(net.minecraft.loot.context.LootContextTypes.register(name,type)); }
+// public void method_760(Object builder) { wrapperContained.method_760(builder); }
+// public static void method_760(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_760(builder); }
+// public void method_763(Object builder) { wrapperContained.method_763(builder); }
+// public static void method_763(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_763(builder); }
+// public void method_764(Object builder) { wrapperContained.method_764(builder); }
+// public static void method_764(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_764(builder); }
 // public void method_15970(Object builder) { wrapperContained.method_15970(builder); }
 // public static void method_15970(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_15970(builder); }
 // public void method_22577(Object builder) { wrapperContained.method_22577(builder); }
@@ -47,19 +61,5 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.loot
 // public static void method_60302(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_60302(builder); }
 // public void method_60792(Object builder) { wrapperContained.method_60792(builder); }
 // public static void method_60792(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_60792(builder); }
-// public void method_755(Object builder) { wrapperContained.method_755(builder); }
-// public static void method_755(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_755(builder); }
-// public void method_756(Object builder) { wrapperContained.method_756(builder); }
-// public static void method_756(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_756(builder); }
-// public void method_758(Object builder) { wrapperContained.method_758(builder); }
-// public static void method_758(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_758(builder); }
-// public yarnwrap.loot.context.LootContextType register(java.lang.String name,java.util.function.Consumer type) { return new yarnwrap.loot.context.LootContextType(wrapperContained.register(name,type)); }
-// public static yarnwrap.loot.context.LootContextType register(java.lang.String name,java.util.function.Consumer type, ) { return new yarnwrap.loot.context.LootContextType(net.minecraft.loot.context.LootContextTypes.register(name,type)); }
-// public void method_760(Object builder) { wrapperContained.method_760(builder); }
-// public static void method_760(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_760(builder); }
-// public void method_763(Object builder) { wrapperContained.method_763(builder); }
-// public static void method_763(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_763(builder); }
-// public void method_764(Object builder) { wrapperContained.method_764(builder); }
-// public static void method_764(Object builder, ) { net.minecraft.loot.context.LootContextTypes.method_764(builder); }
 
 }

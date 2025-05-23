@@ -101,6 +101,21 @@ public static java.net.URI PRIVACY_STATEMENT() { return net.minecraft.util.Urls.
 public static java.net.URI MINECRAFT_SUPPORT() { return net.minecraft.util.Urls.MINECRAFT_SUPPORT; }
 // public static void MINECRAFT_SUPPORT(java.net.URI value, ) { net.minecraft.util.Urls.MINECRAFT_SUPPORT = value; }
 
+// public java.lang.String EXTEND_JAVA_REALMS() { return wrapperContained.EXTEND_JAVA_REALMS; }
+// public void EXTEND_JAVA_REALMS(java.lang.String value) { wrapperContained.EXTEND_JAVA_REALMS = value; }
+public static java.lang.String EXTEND_JAVA_REALMS() { return net.minecraft.util.Urls.EXTEND_JAVA_REALMS; }
+// public static void EXTEND_JAVA_REALMS(java.lang.String value, ) { net.minecraft.util.Urls.EXTEND_JAVA_REALMS = value; }
+
+// public java.lang.String INTENTIONAL_GAME_DESIGN_ISSUE_ID() { return wrapperContained.INTENTIONAL_GAME_DESIGN_ISSUE_ID; }
+// public void INTENTIONAL_GAME_DESIGN_ISSUE_ID(java.lang.String value) { wrapperContained.INTENTIONAL_GAME_DESIGN_ISSUE_ID = value; }
+public static java.lang.String INTENTIONAL_GAME_DESIGN_ISSUE_ID() { return net.minecraft.util.Urls.INTENTIONAL_GAME_DESIGN_ISSUE_ID; }
+// public static void INTENTIONAL_GAME_DESIGN_ISSUE_ID(java.lang.String value, ) { net.minecraft.util.Urls.INTENTIONAL_GAME_DESIGN_ISSUE_ID = value; }
+
+// public java.net.URI INTENTIONAL_GAME_DESIGN_ISSUE() { return wrapperContained.INTENTIONAL_GAME_DESIGN_ISSUE; }
+// public void INTENTIONAL_GAME_DESIGN_ISSUE(java.net.URI value) { wrapperContained.INTENTIONAL_GAME_DESIGN_ISSUE = value; }
+public static java.net.URI INTENTIONAL_GAME_DESIGN_ISSUE() { return net.minecraft.util.Urls.INTENTIONAL_GAME_DESIGN_ISSUE; }
+// public static void INTENTIONAL_GAME_DESIGN_ISSUE(java.net.URI value, ) { net.minecraft.util.Urls.INTENTIONAL_GAME_DESIGN_ISSUE = value; }
+
 // public java.lang.String getExtendJavaRealmsUrl(java.lang.String subscriptionId,java.util.UUID uuid) { return wrapperContained.getExtendJavaRealmsUrl(subscriptionId,uuid); }
 // public static java.lang.String getExtendJavaRealmsUrl(java.lang.String subscriptionId,java.util.UUID uuid, ) { return net.minecraft.util.Urls.getExtendJavaRealmsUrl(subscriptionId,uuid); }
 // public java.lang.String getExtendJavaRealmsUrl(java.lang.String subscriptionId,java.util.UUID uuid,boolean trial) { return wrapperContained.getExtendJavaRealmsUrl(subscriptionId,uuid,trial); }

@@ -11,7 +11,7 @@ public class CrackParticle { public net.minecraft.client.particle.CrackParticle 
 // public static float sampleV() { return net.minecraft.client.particle.CrackParticle.sampleV; }
 // public static void sampleV(float value, ) { net.minecraft.client.particle.CrackParticle.sampleV = value; }
 
-// public CrackParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ,yarnwrap.item.ItemStack stack) { this.wrapperContained = new net.minecraft.client.particle.CrackParticle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ,stack.wrapperContained); }
-// public CrackParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,yarnwrap.item.ItemStack stack) { this.wrapperContained = new net.minecraft.client.particle.CrackParticle(world.wrapperContained,x,y,z,stack.wrapperContained); }
+// public CrackParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ,yarnwrap.client.render.item.ItemRenderState itemRenderState) { this.wrapperContained = new net.minecraft.client.particle.CrackParticle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ,itemRenderState.wrapperContained); }
+// public CrackParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,yarnwrap.client.render.item.ItemRenderState itemRenderState) { this.wrapperContained = new net.minecraft.client.particle.CrackParticle(world.wrapperContained,x,y,z,itemRenderState.wrapperContained); }
 
 }

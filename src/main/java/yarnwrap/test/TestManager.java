@@ -16,6 +16,16 @@ public static yarnwrap.test.TestManager INSTANCE() { return new yarnwrap.test.Te
 // public static yarnwrap.test.TestRunContext runContext() { return new yarnwrap.test.TestRunContext(net.minecraft.test.TestManager.runContext); }
 // public static void runContext(yarnwrap.test.TestRunContext value, ) { net.minecraft.test.TestManager.runContext = value.wrapperContained; }
 
+// public Object state() { return wrapperContained.state; }
+// // public void state(Object value) { wrapperContained.state = value; }
+// // public static Object state() { return net.minecraft.test.TestManager.state; }
+// // public static void state(Object value, ) { net.minecraft.test.TestManager.state = value; }
+
+// public boolean shouldTick() { return wrapperContained.shouldTick; }
+// public void shouldTick(boolean value) { wrapperContained.shouldTick = value; }
+// public static boolean shouldTick() { return net.minecraft.test.TestManager.shouldTick; }
+// public static void shouldTick(boolean value, ) { net.minecraft.test.TestManager.shouldTick = value; }
+
 public void clear() { wrapperContained.clear(); }
 // public static void clear() { net.minecraft.test.TestManager.clear(); }
 public void start(yarnwrap.test.GameTestState test) { wrapperContained.start(test.wrapperContained); }
@@ -26,5 +36,7 @@ public void setRunContext(yarnwrap.test.TestRunContext runContext) { wrapperCont
 // public static void setRunContext(yarnwrap.test.TestRunContext runContext, ) { net.minecraft.test.TestManager.setRunContext(runContext.wrapperContained); }
 // public void method_56242(yarnwrap.test.GameTestState test) { wrapperContained.method_56242(test.wrapperContained); }
 // public static void method_56242(yarnwrap.test.GameTestState test, ) { net.minecraft.test.TestManager.method_56242(test.wrapperContained); }
+// public void startTicking() { wrapperContained.startTicking(); }
+// public static void startTicking() { net.minecraft.test.TestManager.startTicking(); }
 
 }

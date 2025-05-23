@@ -46,10 +46,10 @@ public static int MAX_CHARGE() { return net.minecraft.block.entity.SculkSpreadMa
 // public static java.util.List cursors() { return net.minecraft.block.entity.SculkSpreadManager.cursors; }
 // public static void cursors(java.util.List value, ) { net.minecraft.block.entity.SculkSpreadManager.cursors = value; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.block.entity.SculkSpreadManager.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.block.entity.SculkSpreadManager.LOGGER = value; }
+// public int MAX_CURSOR_DISTANCE() { return wrapperContained.MAX_CURSOR_DISTANCE; }
+// public void MAX_CURSOR_DISTANCE(int value) { wrapperContained.MAX_CURSOR_DISTANCE = value; }
+public static int MAX_CURSOR_DISTANCE() { return net.minecraft.block.entity.SculkSpreadManager.MAX_CURSOR_DISTANCE; }
+// public static void MAX_CURSOR_DISTANCE(int value, ) { net.minecraft.block.entity.SculkSpreadManager.MAX_CURSOR_DISTANCE = value; }
 
 public SculkSpreadManager(boolean worldGen,yarnwrap.registry.tag.TagKey replaceableTag,int extraBlockChance,int maxDistance,int spreadChance,int decayChance) { this.wrapperContained = new net.minecraft.block.entity.SculkSpreadManager(worldGen,replaceableTag.wrapperContained,extraBlockChance,maxDistance,spreadChance,decayChance); }
 // public yarnwrap.block.entity.SculkSpreadManager create() { return new yarnwrap.block.entity.SculkSpreadManager(wrapperContained.create()); }
@@ -62,14 +62,12 @@ public void tick(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos po
 // public static java.lang.Integer method_41481(Object posx,yarnwrap.util.math.BlockPos charge, ) { return net.minecraft.block.entity.SculkSpreadManager.method_41481(posx,charge.wrapperContained); }
 public void spread(yarnwrap.util.math.BlockPos pos,int charge) { wrapperContained.spread(pos.wrapperContained,charge); }
 // public static void spread(yarnwrap.util.math.BlockPos pos,int charge, ) { net.minecraft.block.entity.SculkSpreadManager.spread(pos.wrapperContained,charge); }
-public void readNbt(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.readNbt(nbt.wrapperContained); }
-// public static void readNbt(yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.block.entity.SculkSpreadManager.readNbt(nbt.wrapperContained); }
-// public void method_41484(yarnwrap.nbt.NbtCompound cursorsNbt) { wrapperContained.method_41484(cursorsNbt.wrapperContained); }
-// public static void method_41484(yarnwrap.nbt.NbtCompound cursorsNbt, ) { net.minecraft.block.entity.SculkSpreadManager.method_41484(cursorsNbt.wrapperContained); }
+// public void readData(yarnwrap.storage.ReadView view) { wrapperContained.readData(view.wrapperContained); }
+// public static void readData(yarnwrap.storage.ReadView view, ) { net.minecraft.block.entity.SculkSpreadManager.readData(view.wrapperContained); }
 // public yarnwrap.block.entity.SculkSpreadManager createWorldGen() { return new yarnwrap.block.entity.SculkSpreadManager(wrapperContained.createWorldGen()); }
 public static yarnwrap.block.entity.SculkSpreadManager createWorldGen() { return new yarnwrap.block.entity.SculkSpreadManager(net.minecraft.block.entity.SculkSpreadManager.createWorldGen()); }
-public void writeNbt(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.writeNbt(nbt.wrapperContained); }
-// public static void writeNbt(yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.block.entity.SculkSpreadManager.writeNbt(nbt.wrapperContained); }
+// public void writeData(yarnwrap.storage.WriteView view) { wrapperContained.writeData(view.wrapperContained); }
+// public static void writeData(yarnwrap.storage.WriteView view, ) { net.minecraft.block.entity.SculkSpreadManager.writeData(view.wrapperContained); }
 public yarnwrap.registry.tag.TagKey getReplaceableTag() { return new yarnwrap.registry.tag.TagKey(wrapperContained.getReplaceableTag()); }
 // public static yarnwrap.registry.tag.TagKey getReplaceableTag() { return new yarnwrap.registry.tag.TagKey(net.minecraft.block.entity.SculkSpreadManager.getReplaceableTag()); }
 public int getExtraBlockChance() { return wrapperContained.getExtraBlockChance(); }

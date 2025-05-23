@@ -1,26 +1,6 @@
 package yarnwrap.entity.mob;
 public class EndermanEntity { public net.minecraft.entity.mob.EndermanEntity wrapperContained; public EndermanEntity(net.minecraft.entity.mob.EndermanEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.entity.data.TrackedData PROVOKED() { return new yarnwrap.entity.data.TrackedData(wrapperContained.PROVOKED); }
-// public void PROVOKED(yarnwrap.entity.data.TrackedData value) { wrapperContained.PROVOKED = value.wrapperContained; }
-// public static yarnwrap.entity.data.TrackedData PROVOKED() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.mob.EndermanEntity.PROVOKED); }
-// public static void PROVOKED(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.mob.EndermanEntity.PROVOKED = value.wrapperContained; }
-
-// public int angerTime() { return wrapperContained.angerTime; }
-// public void angerTime(int value) { wrapperContained.angerTime = value; }
-// public static int angerTime() { return net.minecraft.entity.mob.EndermanEntity.angerTime; }
-// public static void angerTime(int value, ) { net.minecraft.entity.mob.EndermanEntity.angerTime = value; }
-
-// public java.util.UUID angryAt() { return wrapperContained.angryAt; }
-// public void angryAt(java.util.UUID value) { wrapperContained.angryAt = value; }
-// public static java.util.UUID angryAt() { return net.minecraft.entity.mob.EndermanEntity.angryAt; }
-// public static void angryAt(java.util.UUID value, ) { net.minecraft.entity.mob.EndermanEntity.angryAt = value; }
-
-// public yarnwrap.util.math.intprovider.UniformIntProvider ANGER_TIME_RANGE() { return new yarnwrap.util.math.intprovider.UniformIntProvider(wrapperContained.ANGER_TIME_RANGE); }
-// public void ANGER_TIME_RANGE(yarnwrap.util.math.intprovider.UniformIntProvider value) { wrapperContained.ANGER_TIME_RANGE = value.wrapperContained; }
-// public static yarnwrap.util.math.intprovider.UniformIntProvider ANGER_TIME_RANGE() { return new yarnwrap.util.math.intprovider.UniformIntProvider(net.minecraft.entity.mob.EndermanEntity.ANGER_TIME_RANGE); }
-// public static void ANGER_TIME_RANGE(yarnwrap.util.math.intprovider.UniformIntProvider value, ) { net.minecraft.entity.mob.EndermanEntity.ANGER_TIME_RANGE = value.wrapperContained; }
-
 // public yarnwrap.entity.attribute.EntityAttributeModifier ATTACKING_SPEED_BOOST() { return new yarnwrap.entity.attribute.EntityAttributeModifier(wrapperContained.ATTACKING_SPEED_BOOST); }
 // public void ATTACKING_SPEED_BOOST(yarnwrap.entity.attribute.EntityAttributeModifier value) { wrapperContained.ATTACKING_SPEED_BOOST = value.wrapperContained; }
 // public static yarnwrap.entity.attribute.EntityAttributeModifier ATTACKING_SPEED_BOOST() { return new yarnwrap.entity.attribute.EntityAttributeModifier(net.minecraft.entity.mob.EndermanEntity.ATTACKING_SPEED_BOOST); }
@@ -51,14 +31,26 @@ public class EndermanEntity { public net.minecraft.entity.mob.EndermanEntity wra
 // public static yarnwrap.entity.data.TrackedData CARRIED_BLOCK() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.mob.EndermanEntity.CARRIED_BLOCK); }
 // public static void CARRIED_BLOCK(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.mob.EndermanEntity.CARRIED_BLOCK = value.wrapperContained; }
 
-public boolean isProvoked() { return wrapperContained.isProvoked(); }
-// public static boolean isProvoked() { return net.minecraft.entity.mob.EndermanEntity.isProvoked(); }
-public void setProvoked() { wrapperContained.setProvoked(); }
-// public static void setProvoked() { net.minecraft.entity.mob.EndermanEntity.setProvoked(); }
-// public Object createEndermanAttributes() { return wrapperContained.createEndermanAttributes(); }
-public static Object createEndermanAttributes() { return net.minecraft.entity.mob.EndermanEntity.createEndermanAttributes(); }
-// public boolean damageFromPotion(yarnwrap.entity.damage.DamageSource source,yarnwrap.entity.projectile.thrown.PotionEntity potion,float amount) { return wrapperContained.damageFromPotion(source.wrapperContained,potion.wrapperContained,amount); }
-// public static boolean damageFromPotion(yarnwrap.entity.damage.DamageSource source,yarnwrap.entity.projectile.thrown.PotionEntity potion,float amount, ) { return net.minecraft.entity.mob.EndermanEntity.damageFromPotion(source.wrapperContained,potion.wrapperContained,amount); }
+// public yarnwrap.entity.data.TrackedData PROVOKED() { return new yarnwrap.entity.data.TrackedData(wrapperContained.PROVOKED); }
+// public void PROVOKED(yarnwrap.entity.data.TrackedData value) { wrapperContained.PROVOKED = value.wrapperContained; }
+// public static yarnwrap.entity.data.TrackedData PROVOKED() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.mob.EndermanEntity.PROVOKED); }
+// public static void PROVOKED(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.mob.EndermanEntity.PROVOKED = value.wrapperContained; }
+
+// public int angerTime() { return wrapperContained.angerTime; }
+// public void angerTime(int value) { wrapperContained.angerTime = value; }
+// public static int angerTime() { return net.minecraft.entity.mob.EndermanEntity.angerTime; }
+// public static void angerTime(int value, ) { net.minecraft.entity.mob.EndermanEntity.angerTime = value; }
+
+// public java.util.UUID angryAt() { return wrapperContained.angryAt; }
+// public void angryAt(java.util.UUID value) { wrapperContained.angryAt = value; }
+// public static java.util.UUID angryAt() { return net.minecraft.entity.mob.EndermanEntity.angryAt; }
+// public static void angryAt(java.util.UUID value, ) { net.minecraft.entity.mob.EndermanEntity.angryAt = value; }
+
+// public yarnwrap.util.math.intprovider.UniformIntProvider ANGER_TIME_RANGE() { return new yarnwrap.util.math.intprovider.UniformIntProvider(wrapperContained.ANGER_TIME_RANGE); }
+// public void ANGER_TIME_RANGE(yarnwrap.util.math.intprovider.UniformIntProvider value) { wrapperContained.ANGER_TIME_RANGE = value.wrapperContained; }
+// public static yarnwrap.util.math.intprovider.UniformIntProvider ANGER_TIME_RANGE() { return new yarnwrap.util.math.intprovider.UniformIntProvider(net.minecraft.entity.mob.EndermanEntity.ANGER_TIME_RANGE); }
+// public static void ANGER_TIME_RANGE(yarnwrap.util.math.intprovider.UniformIntProvider value, ) { net.minecraft.entity.mob.EndermanEntity.ANGER_TIME_RANGE = value.wrapperContained; }
+
 // public boolean teleportTo(double x,double y,double z) { return wrapperContained.teleportTo(x,y,z); }
 // public static boolean teleportTo(double x,double y,double z, ) { return net.minecraft.entity.mob.EndermanEntity.teleportTo(x,y,z); }
 // public boolean teleportTo(yarnwrap.entity.Entity entity) { return wrapperContained.teleportTo(entity.wrapperContained); }
@@ -75,5 +67,13 @@ public void playAngrySound() { wrapperContained.playAngrySound(); }
 // public static void playAngrySound() { net.minecraft.entity.mob.EndermanEntity.playAngrySound(); }
 public void setCarriedBlock(yarnwrap.block.BlockState state) { wrapperContained.setCarriedBlock(state.wrapperContained); }
 // public static void setCarriedBlock(yarnwrap.block.BlockState state, ) { net.minecraft.entity.mob.EndermanEntity.setCarriedBlock(state.wrapperContained); }
+public boolean isProvoked() { return wrapperContained.isProvoked(); }
+// public static boolean isProvoked() { return net.minecraft.entity.mob.EndermanEntity.isProvoked(); }
+public void setProvoked() { wrapperContained.setProvoked(); }
+// public static void setProvoked() { net.minecraft.entity.mob.EndermanEntity.setProvoked(); }
+// public Object createEndermanAttributes() { return wrapperContained.createEndermanAttributes(); }
+public static Object createEndermanAttributes() { return net.minecraft.entity.mob.EndermanEntity.createEndermanAttributes(); }
+// public boolean damageFromPotion(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.damage.DamageSource source,yarnwrap.entity.projectile.thrown.PotionEntity potion,float amount) { return wrapperContained.damageFromPotion(world.wrapperContained,source.wrapperContained,potion.wrapperContained,amount); }
+// public static boolean damageFromPotion(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.damage.DamageSource source,yarnwrap.entity.projectile.thrown.PotionEntity potion,float amount, ) { return net.minecraft.entity.mob.EndermanEntity.damageFromPotion(world.wrapperContained,source.wrapperContained,potion.wrapperContained,amount); }
 
 }

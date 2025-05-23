@@ -31,6 +31,11 @@ public class CartographyTableScreen { public net.minecraft.client.gui.screen.ing
 // public static yarnwrap.util.Identifier DUPLICATED_MAP_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.ingame.CartographyTableScreen.DUPLICATED_MAP_TEXTURE); }
 // public static void DUPLICATED_MAP_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.ingame.CartographyTableScreen.DUPLICATED_MAP_TEXTURE = value.wrapperContained; }
 
+// public yarnwrap.client.render.MapRenderState mapRenderState() { return new yarnwrap.client.render.MapRenderState(wrapperContained.mapRenderState); }
+// public void mapRenderState(yarnwrap.client.render.MapRenderState value) { wrapperContained.mapRenderState = value.wrapperContained; }
+// public static yarnwrap.client.render.MapRenderState mapRenderState() { return new yarnwrap.client.render.MapRenderState(net.minecraft.client.gui.screen.ingame.CartographyTableScreen.mapRenderState); }
+// public static void mapRenderState(yarnwrap.client.render.MapRenderState value, ) { net.minecraft.client.gui.screen.ingame.CartographyTableScreen.mapRenderState = value.wrapperContained; }
+
 public CartographyTableScreen(yarnwrap.screen.CartographyTableScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.CartographyTableScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 // public void drawMap(yarnwrap.client.gui.DrawContext context,yarnwrap.component.type.MapIdComponent mapId,yarnwrap.item.map.MapState mapState,int x,int y,float scale) { wrapperContained.drawMap(context.wrapperContained,mapId.wrapperContained,mapState.wrapperContained,x,y,scale); }
 // public static void drawMap(yarnwrap.client.gui.DrawContext context,yarnwrap.component.type.MapIdComponent mapId,yarnwrap.item.map.MapState mapState,int x,int y,float scale, ) { net.minecraft.client.gui.screen.ingame.CartographyTableScreen.drawMap(context.wrapperContained,mapId.wrapperContained,mapState.wrapperContained,x,y,scale); }

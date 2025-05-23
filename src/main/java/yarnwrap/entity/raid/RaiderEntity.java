@@ -31,6 +31,16 @@ public class RaiderEntity { public net.minecraft.entity.raid.RaiderEntity wrappe
 // public static yarnwrap.entity.data.TrackedData CELEBRATING() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.raid.RaiderEntity.CELEBRATING); }
 // public static void CELEBRATING(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.raid.RaiderEntity.CELEBRATING = value.wrapperContained; }
 
+// public int DEFAULT_WAVE() { return wrapperContained.DEFAULT_WAVE; }
+// public void DEFAULT_WAVE(int value) { wrapperContained.DEFAULT_WAVE = value; }
+// public static int DEFAULT_WAVE() { return net.minecraft.entity.raid.RaiderEntity.DEFAULT_WAVE; }
+// public static void DEFAULT_WAVE(int value, ) { net.minecraft.entity.raid.RaiderEntity.DEFAULT_WAVE = value; }
+
+// public boolean DEFAULT_ABLE_TO_JOIN_RAID() { return wrapperContained.DEFAULT_ABLE_TO_JOIN_RAID; }
+// public void DEFAULT_ABLE_TO_JOIN_RAID(boolean value) { wrapperContained.DEFAULT_ABLE_TO_JOIN_RAID = value; }
+// public static boolean DEFAULT_ABLE_TO_JOIN_RAID() { return net.minecraft.entity.raid.RaiderEntity.DEFAULT_ABLE_TO_JOIN_RAID; }
+// public static void DEFAULT_ABLE_TO_JOIN_RAID(boolean value, ) { net.minecraft.entity.raid.RaiderEntity.DEFAULT_ABLE_TO_JOIN_RAID = value; }
+
 public void setRaid(yarnwrap.village.raid.Raid raid) { wrapperContained.setRaid(raid.wrapperContained); }
 // public static void setRaid(yarnwrap.village.raid.Raid raid, ) { net.minecraft.entity.raid.RaiderEntity.setRaid(raid.wrapperContained); }
 public void setWave(int wave) { wrapperContained.setWave(wave); }
@@ -63,5 +73,9 @@ public boolean isCaptain() { return wrapperContained.isCaptain(); }
 // public static boolean isCaptain() { return net.minecraft.entity.raid.RaiderEntity.isCaptain(); }
 public boolean hasRaid() { return wrapperContained.hasRaid(); }
 // public static boolean hasRaid() { return net.minecraft.entity.raid.RaiderEntity.hasRaid(); }
+// public void method_67376(yarnwrap.storage.WriteView raidId) { wrapperContained.method_67376(raidId.wrapperContained); }
+// public static void method_67376(yarnwrap.storage.WriteView raidId, ) { net.minecraft.entity.raid.RaiderEntity.method_67376(raidId.wrapperContained); }
+// public void method_68278(yarnwrap.server.world.ServerWorld raidId) { wrapperContained.method_68278(raidId.wrapperContained); }
+// public static void method_68278(yarnwrap.server.world.ServerWorld raidId, ) { net.minecraft.entity.raid.RaiderEntity.method_68278(raidId.wrapperContained); }
 
 }

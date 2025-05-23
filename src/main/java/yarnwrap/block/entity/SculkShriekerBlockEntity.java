@@ -1,11 +1,6 @@
 package yarnwrap.block.entity;
 public class SculkShriekerBlockEntity { public net.minecraft.block.entity.SculkShriekerBlockEntity wrapperContained; public SculkShriekerBlockEntity(net.minecraft.block.entity.SculkShriekerBlockEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.block.entity.SculkShriekerBlockEntity.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.block.entity.SculkShriekerBlockEntity.LOGGER = value; }
-
 // public Object vibrationListener() { return wrapperContained.vibrationListener; }
 // // public void vibrationListener(Object value) { wrapperContained.vibrationListener = value; }
 // // public static Object vibrationListener() { return net.minecraft.block.entity.SculkShriekerBlockEntity.vibrationListener; }
@@ -56,9 +51,12 @@ public class SculkShriekerBlockEntity { public net.minecraft.block.entity.SculkS
 // // public static Object vibrationListenerData() { return net.minecraft.block.entity.SculkShriekerBlockEntity.vibrationListenerData; }
 // // public static void vibrationListenerData(Object value, ) { net.minecraft.block.entity.SculkShriekerBlockEntity.vibrationListenerData = value; }
 
+// public int DEFAULT_WARNING_LEVEL() { return wrapperContained.DEFAULT_WARNING_LEVEL; }
+// public void DEFAULT_WARNING_LEVEL(int value) { wrapperContained.DEFAULT_WARNING_LEVEL = value; }
+// public static int DEFAULT_WARNING_LEVEL() { return net.minecraft.block.entity.SculkShriekerBlockEntity.DEFAULT_WARNING_LEVEL; }
+// public static void DEFAULT_WARNING_LEVEL(int value, ) { net.minecraft.block.entity.SculkShriekerBlockEntity.DEFAULT_WARNING_LEVEL = value; }
+
 public SculkShriekerBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.SculkShriekerBlockEntity(pos.wrapperContained,state.wrapperContained); }
-// public void method_42322(Object vibrationListener) { wrapperContained.method_42322(vibrationListener); }
-// public static void method_42322(Object vibrationListener, ) { net.minecraft.block.entity.SculkShriekerBlockEntity.method_42322(vibrationListener); }
 public void shriek(yarnwrap.server.world.ServerWorld world,yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.shriek(world.wrapperContained,player.wrapperContained); }
 // public static void shriek(yarnwrap.server.world.ServerWorld world,yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.block.entity.SculkShriekerBlockEntity.shriek(world.wrapperContained,player.wrapperContained); }
 // public boolean trySyncWarningLevel(yarnwrap.server.world.ServerWorld world,yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.trySyncWarningLevel(world.wrapperContained,player.wrapperContained); }

@@ -46,12 +46,11 @@ public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType INVALI
 public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType NEGATIVE_LEVEL_EXCEPTION() { return net.minecraft.command.EntitySelectorOptions.NEGATIVE_LEVEL_EXCEPTION; }
 // public static void NEGATIVE_LEVEL_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value, ) { net.minecraft.command.EntitySelectorOptions.NEGATIVE_LEVEL_EXCEPTION = value; }
 
-// public boolean method_22822(yarnwrap.command.EntitySelectorReader reader) { return wrapperContained.method_22822(reader.wrapperContained); }
-// public static boolean method_22822(yarnwrap.command.EntitySelectorReader reader, ) { return net.minecraft.command.EntitySelectorOptions.method_22822(reader.wrapperContained); }
-// public boolean method_22823(yarnwrap.registry.RegistryKey entity) { return wrapperContained.method_22823(entity.wrapperContained); }
-// public static boolean method_22823(yarnwrap.registry.RegistryKey entity, ) { return net.minecraft.command.EntitySelectorOptions.method_22823(entity.wrapperContained); }
-// public void method_22824(yarnwrap.command.EntitySelectorReader reader) { wrapperContained.method_22824(reader.wrapperContained); }
-// public static void method_22824(yarnwrap.command.EntitySelectorReader reader, ) { net.minecraft.command.EntitySelectorOptions.method_22824(reader.wrapperContained); }
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.command.EntitySelectorOptions.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.command.EntitySelectorOptions.LOGGER = value; }
+
 // public boolean method_9919(yarnwrap.entity.EntityType entity) { return wrapperContained.method_9919(entity.wrapperContained); }
 // public static boolean method_9919(yarnwrap.entity.EntityType entity, ) { return net.minecraft.command.EntitySelectorOptions.method_9919(entity.wrapperContained); }
 // public boolean method_9920(java.lang.String entity) { return wrapperContained.method_9920(entity); }
@@ -62,8 +61,8 @@ public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType NEGATIV
 // public static boolean method_9922(java.lang.String entity, ) { return net.minecraft.command.EntitySelectorOptions.method_9922(entity); }
 // public com.mojang.brigadier.Message method_9923(java.lang.Object option) { return wrapperContained.method_9923(option); }
 // public static com.mojang.brigadier.Message method_9923(java.lang.Object option, ) { return net.minecraft.command.EntitySelectorOptions.method_9923(option); }
-// public boolean method_9924(boolean entity) { return wrapperContained.method_9924(entity); }
-// public static boolean method_9924(boolean entity, ) { return net.minecraft.command.EntitySelectorOptions.method_9924(entity); }
+// public boolean method_9924(yarnwrap.world.GameMode entity) { return wrapperContained.method_9924(entity.wrapperContained); }
+// public static boolean method_9924(yarnwrap.world.GameMode entity, ) { return net.minecraft.command.EntitySelectorOptions.method_9924(entity.wrapperContained); }
 // public boolean method_9925(yarnwrap.command.EntitySelectorReader reader) { return wrapperContained.method_9925(reader.wrapperContained); }
 // public static boolean method_9925(yarnwrap.command.EntitySelectorReader reader, ) { return net.minecraft.command.EntitySelectorOptions.method_9925(reader.wrapperContained); }
 // public boolean method_9926(yarnwrap.command.EntitySelectorReader reader) { return wrapperContained.method_9926(reader.wrapperContained); }
@@ -180,5 +179,15 @@ public static void register() { net.minecraft.command.EntitySelectorOptions.regi
 // public static void method_9981(yarnwrap.command.EntitySelectorReader reader, ) { net.minecraft.command.EntitySelectorOptions.method_9981(reader.wrapperContained); }
 // public void method_9982(yarnwrap.command.EntitySelectorReader reader) { wrapperContained.method_9982(reader.wrapperContained); }
 // public static void method_9982(yarnwrap.command.EntitySelectorReader reader, ) { net.minecraft.command.EntitySelectorOptions.method_9982(reader.wrapperContained); }
+// public boolean method_22822(yarnwrap.command.EntitySelectorReader reader) { return wrapperContained.method_22822(reader.wrapperContained); }
+// public static boolean method_22822(yarnwrap.command.EntitySelectorReader reader, ) { return net.minecraft.command.EntitySelectorOptions.method_22822(reader.wrapperContained); }
+// public boolean method_22823(yarnwrap.registry.RegistryKey entity) { return wrapperContained.method_22823(entity.wrapperContained); }
+// public static boolean method_22823(yarnwrap.registry.RegistryKey entity, ) { return net.minecraft.command.EntitySelectorOptions.method_22823(entity.wrapperContained); }
+// public void method_22824(yarnwrap.command.EntitySelectorReader reader) { wrapperContained.method_22824(reader.wrapperContained); }
+// public static void method_22824(yarnwrap.command.EntitySelectorReader reader, ) { net.minecraft.command.EntitySelectorOptions.method_22824(reader.wrapperContained); }
+// public yarnwrap.util.Identifier method_62669(Object tag) { return new yarnwrap.util.Identifier(wrapperContained.method_62669(tag)); }
+// public static yarnwrap.util.Identifier method_62669(Object tag, ) { return new yarnwrap.util.Identifier(net.minecraft.command.EntitySelectorOptions.method_62669(tag)); }
+// public yarnwrap.util.Identifier method_62670(Object tag) { return new yarnwrap.util.Identifier(wrapperContained.method_62670(tag)); }
+// public static yarnwrap.util.Identifier method_62670(Object tag, ) { return new yarnwrap.util.Identifier(net.minecraft.command.EntitySelectorOptions.method_62670(tag)); }
 
 }

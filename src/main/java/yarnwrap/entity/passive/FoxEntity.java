@@ -1,10 +1,10 @@
 package yarnwrap.entity.passive;
 public class FoxEntity { public net.minecraft.entity.passive.FoxEntity wrapperContained; public FoxEntity(net.minecraft.entity.passive.FoxEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.entity.data.TrackedData TYPE() { return new yarnwrap.entity.data.TrackedData(wrapperContained.TYPE); }
-// public void TYPE(yarnwrap.entity.data.TrackedData value) { wrapperContained.TYPE = value.wrapperContained; }
-// public static yarnwrap.entity.data.TrackedData TYPE() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.FoxEntity.TYPE); }
-// public static void TYPE(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.FoxEntity.TYPE = value.wrapperContained; }
+// public yarnwrap.entity.data.TrackedData VARIANT() { return new yarnwrap.entity.data.TrackedData(wrapperContained.VARIANT); }
+// public void VARIANT(yarnwrap.entity.data.TrackedData value) { wrapperContained.VARIANT = value.wrapperContained; }
+// public static yarnwrap.entity.data.TrackedData VARIANT() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.FoxEntity.VARIANT); }
+// public static void VARIANT(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.FoxEntity.VARIANT = value.wrapperContained; }
 
 // public yarnwrap.entity.data.TrackedData FOX_FLAGS() { return new yarnwrap.entity.data.TrackedData(wrapperContained.FOX_FLAGS); }
 // public void FOX_FLAGS(yarnwrap.entity.data.TrackedData value) { wrapperContained.FOX_FLAGS = value.wrapperContained; }
@@ -126,20 +126,38 @@ public static int CHASING_FLAG() { return net.minecraft.entity.passive.FoxEntity
 // public static yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(net.minecraft.entity.passive.FoxEntity.BABY_BASE_DIMENSIONS); }
 // public static void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value, ) { net.minecraft.entity.passive.FoxEntity.BABY_BASE_DIMENSIONS = value.wrapperContained; }
 
+// public com.mojang.serialization.Codec TRUSTED_ENTITIES_CODEC() { return wrapperContained.TRUSTED_ENTITIES_CODEC; }
+// public void TRUSTED_ENTITIES_CODEC(com.mojang.serialization.Codec value) { wrapperContained.TRUSTED_ENTITIES_CODEC = value; }
+// public static com.mojang.serialization.Codec TRUSTED_ENTITIES_CODEC() { return net.minecraft.entity.passive.FoxEntity.TRUSTED_ENTITIES_CODEC; }
+// public static void TRUSTED_ENTITIES_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.entity.passive.FoxEntity.TRUSTED_ENTITIES_CODEC = value; }
+
+// public boolean DEFAULT_SLEEPING() { return wrapperContained.DEFAULT_SLEEPING; }
+// public void DEFAULT_SLEEPING(boolean value) { wrapperContained.DEFAULT_SLEEPING = value; }
+// public static boolean DEFAULT_SLEEPING() { return net.minecraft.entity.passive.FoxEntity.DEFAULT_SLEEPING; }
+// public static void DEFAULT_SLEEPING(boolean value, ) { net.minecraft.entity.passive.FoxEntity.DEFAULT_SLEEPING = value; }
+
+// public boolean DEFAULT_SITTING() { return wrapperContained.DEFAULT_SITTING; }
+// public void DEFAULT_SITTING(boolean value) { wrapperContained.DEFAULT_SITTING = value; }
+// public static boolean DEFAULT_SITTING() { return net.minecraft.entity.passive.FoxEntity.DEFAULT_SITTING; }
+// public static void DEFAULT_SITTING(boolean value, ) { net.minecraft.entity.passive.FoxEntity.DEFAULT_SITTING = value; }
+
+// public boolean DEFAULT_CROUCHING() { return wrapperContained.DEFAULT_CROUCHING; }
+// public void DEFAULT_CROUCHING(boolean value) { wrapperContained.DEFAULT_CROUCHING = value; }
+// public static boolean DEFAULT_CROUCHING() { return net.minecraft.entity.passive.FoxEntity.DEFAULT_CROUCHING; }
+// public static void DEFAULT_CROUCHING(boolean value, ) { net.minecraft.entity.passive.FoxEntity.DEFAULT_CROUCHING = value; }
+
 // public boolean method_18253(yarnwrap.entity.Entity entity) { return wrapperContained.method_18253(entity.wrapperContained); }
 // public static boolean method_18253(yarnwrap.entity.Entity entity, ) { return net.minecraft.entity.passive.FoxEntity.method_18253(entity.wrapperContained); }
-// public boolean method_18254(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18254(entity.wrapperContained); }
-// public static boolean method_18254(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.passive.FoxEntity.method_18254(entity.wrapperContained); }
+// public boolean method_18254(yarnwrap.entity.LivingEntity entity,yarnwrap.server.world.ServerWorld world) { return wrapperContained.method_18254(entity.wrapperContained,world.wrapperContained); }
+// public static boolean method_18254(yarnwrap.entity.LivingEntity entity,yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.entity.passive.FoxEntity.method_18254(entity.wrapperContained,world.wrapperContained); }
 // public boolean canJumpChase(yarnwrap.entity.passive.FoxEntity fox,yarnwrap.entity.LivingEntity chasedEntity) { return wrapperContained.canJumpChase(fox.wrapperContained,chasedEntity.wrapperContained); }
 // public static boolean canJumpChase(yarnwrap.entity.passive.FoxEntity fox,yarnwrap.entity.LivingEntity chasedEntity, ) { return net.minecraft.entity.passive.FoxEntity.canJumpChase(fox.wrapperContained,chasedEntity.wrapperContained); }
 // public boolean method_18261(yarnwrap.entity.Entity entity) { return wrapperContained.method_18261(entity.wrapperContained); }
 // public static boolean method_18261(yarnwrap.entity.Entity entity, ) { return net.minecraft.entity.passive.FoxEntity.method_18261(entity.wrapperContained); }
-// public boolean method_18262(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18262(entity.wrapperContained); }
-// public static boolean method_18262(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.passive.FoxEntity.method_18262(entity.wrapperContained); }
+// public boolean method_18262(yarnwrap.entity.LivingEntity entity,yarnwrap.server.world.ServerWorld world) { return wrapperContained.method_18262(entity.wrapperContained,world.wrapperContained); }
+// public static boolean method_18262(yarnwrap.entity.LivingEntity entity,yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.entity.passive.FoxEntity.method_18262(entity.wrapperContained,world.wrapperContained); }
 // public boolean method_18265(yarnwrap.entity.ItemEntity item) { return wrapperContained.method_18265(item.wrapperContained); }
 // public static boolean method_18265(yarnwrap.entity.ItemEntity item, ) { return net.minecraft.entity.passive.FoxEntity.method_18265(item.wrapperContained); }
-// public void addTrustedUuid(java.util.UUID uuid) { wrapperContained.addTrustedUuid(uuid); }
-// public static void addTrustedUuid(java.util.UUID uuid, ) { net.minecraft.entity.passive.FoxEntity.addTrustedUuid(uuid); }
 // public boolean method_18267(yarnwrap.entity.Entity entity) { return wrapperContained.method_18267(entity.wrapperContained); }
 // public static boolean method_18267(yarnwrap.entity.Entity entity, ) { return net.minecraft.entity.passive.FoxEntity.method_18267(entity.wrapperContained); }
 // public void setFoxFlag(int mask,boolean value) { wrapperContained.setFoxFlag(mask,value); }
@@ -156,8 +174,6 @@ public boolean isRollingHead() { return wrapperContained.isRollingHead(); }
 // public static boolean isRollingHead() { return net.minecraft.entity.passive.FoxEntity.isRollingHead(); }
 // public void addTypeSpecificGoals() { wrapperContained.addTypeSpecificGoals(); }
 // public static void addTypeSpecificGoals() { net.minecraft.entity.passive.FoxEntity.addTypeSpecificGoals(); }
-// public java.util.List getTrustedUuids() { return wrapperContained.getTrustedUuids(); }
-// public static java.util.List getTrustedUuids() { return net.minecraft.entity.passive.FoxEntity.getTrustedUuids(); }
 // public boolean isAggressive() { return wrapperContained.isAggressive(); }
 // public static boolean isAggressive() { return net.minecraft.entity.passive.FoxEntity.isAggressive(); }
 // public void stopSleeping() { wrapperContained.stopSleeping(); }
@@ -180,20 +196,20 @@ public void setChasing(boolean chasing) { wrapperContained.setChasing(chasing); 
 // public static void setChasing(boolean chasing, ) { net.minecraft.entity.passive.FoxEntity.setChasing(chasing); }
 public void setCrouching(boolean crouching) { wrapperContained.setCrouching(crouching); }
 // public static void setCrouching(boolean crouching, ) { net.minecraft.entity.passive.FoxEntity.setCrouching(crouching); }
-public float getHeadRoll(float tickDelta) { return wrapperContained.getHeadRoll(tickDelta); }
-// public static float getHeadRoll(float tickDelta, ) { return net.minecraft.entity.passive.FoxEntity.getHeadRoll(tickDelta); }
+public float getHeadRoll(float tickProgress) { return wrapperContained.getHeadRoll(tickProgress); }
+// public static float getHeadRoll(float tickProgress, ) { return net.minecraft.entity.passive.FoxEntity.getHeadRoll(tickProgress); }
 public void setRollingHead(boolean rollingHead) { wrapperContained.setRollingHead(rollingHead); }
 // public static void setRollingHead(boolean rollingHead, ) { net.minecraft.entity.passive.FoxEntity.setRollingHead(rollingHead); }
-public float getBodyRotationHeightOffset(float tickDelta) { return wrapperContained.getBodyRotationHeightOffset(tickDelta); }
-// public static float getBodyRotationHeightOffset(float tickDelta, ) { return net.minecraft.entity.passive.FoxEntity.getBodyRotationHeightOffset(tickDelta); }
+public float getBodyRotationHeightOffset(float tickProgress) { return wrapperContained.getBodyRotationHeightOffset(tickProgress); }
+// public static float getBodyRotationHeightOffset(float tickProgress, ) { return net.minecraft.entity.passive.FoxEntity.getBodyRotationHeightOffset(tickProgress); }
 // public void setAggressive(boolean aggressive) { wrapperContained.setAggressive(aggressive); }
 // public static void setAggressive(boolean aggressive, ) { net.minecraft.entity.passive.FoxEntity.setAggressive(aggressive); }
 // public void setSleeping(boolean sleeping) { wrapperContained.setSleeping(sleeping); }
 // public static void setSleeping(boolean sleeping, ) { net.minecraft.entity.passive.FoxEntity.setSleeping(sleeping); }
-// public boolean canTrust(java.util.UUID uuid) { return wrapperContained.canTrust(uuid); }
-// public static boolean canTrust(java.util.UUID uuid, ) { return net.minecraft.entity.passive.FoxEntity.canTrust(uuid); }
-// public boolean method_18429(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18429(entity.wrapperContained); }
-// public static boolean method_18429(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.passive.FoxEntity.method_18429(entity.wrapperContained); }
+// public boolean canTrust(yarnwrap.entity.LivingEntity entity) { return wrapperContained.canTrust(entity.wrapperContained); }
+// public static boolean canTrust(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.passive.FoxEntity.canTrust(entity.wrapperContained); }
+// public boolean method_18429(yarnwrap.entity.LivingEntity entity,yarnwrap.server.world.ServerWorld world) { return wrapperContained.method_18429(entity.wrapperContained,world.wrapperContained); }
+// public static boolean method_18429(yarnwrap.entity.LivingEntity entity,yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.entity.passive.FoxEntity.method_18429(entity.wrapperContained,world.wrapperContained); }
 // public boolean canEat(yarnwrap.item.ItemStack stack) { return wrapperContained.canEat(stack.wrapperContained); }
 // public static boolean canEat(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.passive.FoxEntity.canEat(stack.wrapperContained); }
 // public boolean method_18431(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_18431(entity.wrapperContained); }
@@ -204,9 +220,21 @@ public float getBodyRotationHeightOffset(float tickDelta) { return wrapperContai
 // public static boolean method_24347(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.passive.FoxEntity.method_24347(entity.wrapperContained); }
 // public Object createFoxAttributes() { return wrapperContained.createFoxAttributes(); }
 public static Object createFoxAttributes() { return net.minecraft.entity.passive.FoxEntity.createFoxAttributes(); }
-public boolean isJumping() { return wrapperContained.isJumping(); }
-// public static boolean isJumping() { return net.minecraft.entity.passive.FoxEntity.isJumping(); }
 // public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.passive.FoxEntity.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public void setVariant(Object variant) { wrapperContained.setVariant(variant); }
+// public static void setVariant(Object variant, ) { net.minecraft.entity.passive.FoxEntity.setVariant(variant); }
+public Object getVariant() { return wrapperContained.getVariant(); }
+// public static Object getVariant() { return net.minecraft.entity.passive.FoxEntity.getVariant(); }
+// public void trust(yarnwrap.entity.LazyEntityReference entity) { wrapperContained.trust(entity.wrapperContained); }
+// public static void trust(yarnwrap.entity.LazyEntityReference entity, ) { net.minecraft.entity.passive.FoxEntity.trust(entity.wrapperContained); }
+// public boolean method_66291(yarnwrap.entity.LivingEntity trusted) { return wrapperContained.method_66291(trusted.wrapperContained); }
+// public static boolean method_66291(yarnwrap.entity.LivingEntity trusted, ) { return net.minecraft.entity.passive.FoxEntity.method_66291(trusted.wrapperContained); }
+// public java.util.stream.Stream getTrustedEntities() { return wrapperContained.getTrustedEntities(); }
+// public static java.util.stream.Stream getTrustedEntities() { return net.minecraft.entity.passive.FoxEntity.getTrustedEntities(); }
+// public void trust(yarnwrap.entity.LivingEntity entity) { wrapperContained.trust(entity.wrapperContained); }
+// public static void trust(yarnwrap.entity.LivingEntity entity, ) { net.minecraft.entity.passive.FoxEntity.trust(entity.wrapperContained); }
+// public void clearTrusted() { wrapperContained.clearTrusted(); }
+// public static void clearTrusted() { net.minecraft.entity.passive.FoxEntity.clearTrusted(); }
 
 }

@@ -21,6 +21,21 @@ public class CommandBlockBlockEntity { public net.minecraft.block.entity.Command
 // public static yarnwrap.world.CommandBlockExecutor commandExecutor() { return new yarnwrap.world.CommandBlockExecutor(net.minecraft.block.entity.CommandBlockBlockEntity.commandExecutor); }
 // public static void commandExecutor(yarnwrap.world.CommandBlockExecutor value, ) { net.minecraft.block.entity.CommandBlockBlockEntity.commandExecutor = value.wrapperContained; }
 
+// public boolean DEFAULT_POWERED() { return wrapperContained.DEFAULT_POWERED; }
+// public void DEFAULT_POWERED(boolean value) { wrapperContained.DEFAULT_POWERED = value; }
+// public static boolean DEFAULT_POWERED() { return net.minecraft.block.entity.CommandBlockBlockEntity.DEFAULT_POWERED; }
+// public static void DEFAULT_POWERED(boolean value, ) { net.minecraft.block.entity.CommandBlockBlockEntity.DEFAULT_POWERED = value; }
+
+// public boolean DEFAULT_AUTO() { return wrapperContained.DEFAULT_AUTO; }
+// public void DEFAULT_AUTO(boolean value) { wrapperContained.DEFAULT_AUTO = value; }
+// public static boolean DEFAULT_AUTO() { return net.minecraft.block.entity.CommandBlockBlockEntity.DEFAULT_AUTO; }
+// public static void DEFAULT_AUTO(boolean value, ) { net.minecraft.block.entity.CommandBlockBlockEntity.DEFAULT_AUTO = value; }
+
+// public boolean DEFAULT_CONDITION_MET() { return wrapperContained.DEFAULT_CONDITION_MET; }
+// public void DEFAULT_CONDITION_MET(boolean value) { wrapperContained.DEFAULT_CONDITION_MET = value; }
+// public static boolean DEFAULT_CONDITION_MET() { return net.minecraft.block.entity.CommandBlockBlockEntity.DEFAULT_CONDITION_MET; }
+// public static void DEFAULT_CONDITION_MET(boolean value, ) { net.minecraft.block.entity.CommandBlockBlockEntity.DEFAULT_CONDITION_MET = value; }
+
 public CommandBlockBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.CommandBlockBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void setPowered(boolean powered) { wrapperContained.setPowered(powered); }
 // public static void setPowered(boolean powered, ) { net.minecraft.block.entity.CommandBlockBlockEntity.setPowered(powered); }

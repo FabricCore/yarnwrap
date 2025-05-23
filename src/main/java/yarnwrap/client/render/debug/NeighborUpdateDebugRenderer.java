@@ -12,9 +12,9 @@ public class NeighborUpdateDebugRenderer { public net.minecraft.client.render.de
 // public static void neighborUpdates(java.util.Map value, ) { net.minecraft.client.render.debug.NeighborUpdateDebugRenderer.neighborUpdates = value; }
 
 // public NeighborUpdateDebugRenderer(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.render.debug.NeighborUpdateDebugRenderer(client.wrapperContained); }
-// public java.util.Map method_30113(java.lang.Long time2) { return wrapperContained.method_30113(time2); }
-// public static java.util.Map method_30113(java.lang.Long time2, ) { return net.minecraft.client.render.debug.NeighborUpdateDebugRenderer.method_30113(time2); }
 public void addNeighborUpdate(long time,yarnwrap.util.math.BlockPos pos) { wrapperContained.addNeighborUpdate(time,pos.wrapperContained); }
 // public static void addNeighborUpdate(long time,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.client.render.debug.NeighborUpdateDebugRenderer.addNeighborUpdate(time,pos.wrapperContained); }
+// public java.util.Map method_30113(java.lang.Long time2) { return wrapperContained.method_30113(time2); }
+// public static java.util.Map method_30113(java.lang.Long time2, ) { return net.minecraft.client.render.debug.NeighborUpdateDebugRenderer.method_30113(time2); }
 
 }

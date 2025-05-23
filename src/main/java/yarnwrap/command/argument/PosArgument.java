@@ -9,9 +9,9 @@ public boolean isYRelative() { return wrapperContained.isYRelative(); }
 // public static boolean isYRelative() { return net.minecraft.command.argument.PosArgument.isYRelative(); }
 public boolean isZRelative() { return wrapperContained.isZRelative(); }
 // public static boolean isZRelative() { return net.minecraft.command.argument.PosArgument.isZRelative(); }
-public yarnwrap.util.math.Vec3d toAbsolutePos(yarnwrap.server.command.ServerCommandSource source) { return new yarnwrap.util.math.Vec3d(wrapperContained.toAbsolutePos(source.wrapperContained)); }
-// public static yarnwrap.util.math.Vec3d toAbsolutePos(yarnwrap.server.command.ServerCommandSource source, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.command.argument.PosArgument.toAbsolutePos(source.wrapperContained)); }
-public yarnwrap.util.math.Vec2f toAbsoluteRotation(yarnwrap.server.command.ServerCommandSource source) { return new yarnwrap.util.math.Vec2f(wrapperContained.toAbsoluteRotation(source.wrapperContained)); }
-// public static yarnwrap.util.math.Vec2f toAbsoluteRotation(yarnwrap.server.command.ServerCommandSource source, ) { return new yarnwrap.util.math.Vec2f(net.minecraft.command.argument.PosArgument.toAbsoluteRotation(source.wrapperContained)); }
+public yarnwrap.util.math.Vec3d getPos(yarnwrap.server.command.ServerCommandSource source) { return new yarnwrap.util.math.Vec3d(wrapperContained.getPos(source.wrapperContained)); }
+// public static yarnwrap.util.math.Vec3d getPos(yarnwrap.server.command.ServerCommandSource source, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.command.argument.PosArgument.getPos(source.wrapperContained)); }
+public yarnwrap.util.math.Vec2f getRotation(yarnwrap.server.command.ServerCommandSource source) { return new yarnwrap.util.math.Vec2f(wrapperContained.getRotation(source.wrapperContained)); }
+// public static yarnwrap.util.math.Vec2f getRotation(yarnwrap.server.command.ServerCommandSource source, ) { return new yarnwrap.util.math.Vec2f(net.minecraft.command.argument.PosArgument.getRotation(source.wrapperContained)); }
 
 }

@@ -17,13 +17,13 @@ public class BlockAttachedEntity { public net.minecraft.entity.decoration.BlockA
 // public static void attachCheckTimer(int value, ) { net.minecraft.entity.decoration.BlockAttachedEntity.attachCheckTimer = value; }
 
 // public BlockAttachedEntity(yarnwrap.entity.EntityType type,yarnwrap.world.World world,yarnwrap.util.math.BlockPos attachedBlockPos) { this.wrapperContained = new net.minecraft.entity.decoration.BlockAttachedEntity(type.wrapperContained,world.wrapperContained,attachedBlockPos.wrapperContained); }
-public yarnwrap.util.math.BlockPos getAttachedBlockPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getAttachedBlockPos()); }
-// public static yarnwrap.util.math.BlockPos getAttachedBlockPos() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.decoration.BlockAttachedEntity.getAttachedBlockPos()); }
 public boolean canStayAttached() { return wrapperContained.canStayAttached(); }
 // public static boolean canStayAttached() { return net.minecraft.entity.decoration.BlockAttachedEntity.canStayAttached(); }
-public void onBreak(yarnwrap.entity.Entity breaker) { wrapperContained.onBreak(breaker.wrapperContained); }
-// public static void onBreak(yarnwrap.entity.Entity breaker, ) { net.minecraft.entity.decoration.BlockAttachedEntity.onBreak(breaker.wrapperContained); }
+public void onBreak(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity breaker) { wrapperContained.onBreak(world.wrapperContained,breaker.wrapperContained); }
+// public static void onBreak(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity breaker, ) { net.minecraft.entity.decoration.BlockAttachedEntity.onBreak(world.wrapperContained,breaker.wrapperContained); }
 // public void updateAttachmentPosition() { wrapperContained.updateAttachmentPosition(); }
 // public static void updateAttachmentPosition() { net.minecraft.entity.decoration.BlockAttachedEntity.updateAttachmentPosition(); }
+public yarnwrap.util.math.BlockPos getAttachedBlockPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getAttachedBlockPos()); }
+// public static yarnwrap.util.math.BlockPos getAttachedBlockPos() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.decoration.BlockAttachedEntity.getAttachedBlockPos()); }
 
 }

@@ -16,8 +16,6 @@ public class CommandFunctionArgumentType { public net.minecraft.command.argument
 // public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType UNKNOWN_FUNCTION_EXCEPTION() { return net.minecraft.command.argument.CommandFunctionArgumentType.UNKNOWN_FUNCTION_EXCEPTION; }
 // public static void UNKNOWN_FUNCTION_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.command.argument.CommandFunctionArgumentType.UNKNOWN_FUNCTION_EXCEPTION = value; }
 
-// public com.mojang.datafixers.util.Pair getIdentifiedFunctions(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return wrapperContained.getIdentifiedFunctions(context,name); }
-// public static com.mojang.datafixers.util.Pair getIdentifiedFunctions(com.mojang.brigadier.context.CommandContext context,java.lang.String name, ) { return net.minecraft.command.argument.CommandFunctionArgumentType.getIdentifiedFunctions(context,name); }
 // public yarnwrap.command.argument.CommandFunctionArgumentType commandFunction() { return new yarnwrap.command.argument.CommandFunctionArgumentType(wrapperContained.commandFunction()); }
 public static yarnwrap.command.argument.CommandFunctionArgumentType commandFunction() { return new yarnwrap.command.argument.CommandFunctionArgumentType(net.minecraft.command.argument.CommandFunctionArgumentType.commandFunction()); }
 // public yarnwrap.server.function.CommandFunction getFunction(com.mojang.brigadier.context.CommandContext context,yarnwrap.util.Identifier id) { return new yarnwrap.server.function.CommandFunction(wrapperContained.getFunction(context,id.wrapperContained)); }
@@ -32,6 +30,8 @@ public static yarnwrap.command.argument.CommandFunctionArgumentType commandFunct
 // public static com.mojang.datafixers.util.Pair getFunctionOrTag(com.mojang.brigadier.context.CommandContext context,java.lang.String name, ) { return net.minecraft.command.argument.CommandFunctionArgumentType.getFunctionOrTag(context,name); }
 // public java.util.Collection getFunctions(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return wrapperContained.getFunctions(context,name); }
 // public static java.util.Collection getFunctions(com.mojang.brigadier.context.CommandContext context,java.lang.String name, ) { return net.minecraft.command.argument.CommandFunctionArgumentType.getFunctions(context,name); }
+// public com.mojang.datafixers.util.Pair getIdentifiedFunctions(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return wrapperContained.getIdentifiedFunctions(context,name); }
+// public static com.mojang.datafixers.util.Pair getIdentifiedFunctions(com.mojang.brigadier.context.CommandContext context,java.lang.String name, ) { return net.minecraft.command.argument.CommandFunctionArgumentType.getIdentifiedFunctions(context,name); }
 // public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 // public static java.lang.Object parse(com.mojang.brigadier.StringReader reader, ) { return net.minecraft.command.argument.CommandFunctionArgumentType.parse(reader); }
 

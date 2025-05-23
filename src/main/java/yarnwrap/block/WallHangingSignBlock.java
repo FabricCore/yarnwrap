@@ -1,40 +1,25 @@
 package yarnwrap.block;
 public class WallHangingSignBlock { public net.minecraft.block.WallHangingSignBlock wrapperContained; public WallHangingSignBlock(net.minecraft.block.WallHangingSignBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.WallHangingSignBlock.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.WallHangingSignBlock.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.WallHangingSignBlock.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.WallHangingSignBlock.FACING = value.wrapperContained; }
 
-// public yarnwrap.util.shape.VoxelShape NORTH_SOUTH_COLLISION_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.NORTH_SOUTH_COLLISION_SHAPE); }
-// public void NORTH_SOUTH_COLLISION_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.NORTH_SOUTH_COLLISION_SHAPE = value.wrapperContained; }
-public static yarnwrap.util.shape.VoxelShape NORTH_SOUTH_COLLISION_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.WallHangingSignBlock.NORTH_SOUTH_COLLISION_SHAPE); }
-// public static void NORTH_SOUTH_COLLISION_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.WallHangingSignBlock.NORTH_SOUTH_COLLISION_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape EAST_WEST_COLLISION_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.EAST_WEST_COLLISION_SHAPE); }
-// public void EAST_WEST_COLLISION_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.EAST_WEST_COLLISION_SHAPE = value.wrapperContained; }
-public static yarnwrap.util.shape.VoxelShape EAST_WEST_COLLISION_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.WallHangingSignBlock.EAST_WEST_COLLISION_SHAPE); }
-// public static void EAST_WEST_COLLISION_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.WallHangingSignBlock.EAST_WEST_COLLISION_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape NORTH_SOUTH_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.NORTH_SOUTH_SHAPE); }
-// public void NORTH_SOUTH_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.NORTH_SOUTH_SHAPE = value.wrapperContained; }
-public static yarnwrap.util.shape.VoxelShape NORTH_SOUTH_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.WallHangingSignBlock.NORTH_SOUTH_SHAPE); }
-// public static void NORTH_SOUTH_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.WallHangingSignBlock.NORTH_SOUTH_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape EAST_WEST_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.EAST_WEST_SHAPE); }
-// public void EAST_WEST_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.EAST_WEST_SHAPE = value.wrapperContained; }
-public static yarnwrap.util.shape.VoxelShape EAST_WEST_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.WallHangingSignBlock.EAST_WEST_SHAPE); }
-// public static void EAST_WEST_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.WallHangingSignBlock.EAST_WEST_SHAPE = value.wrapperContained; }
-
-// public java.util.Map OUTLINE_SHAPES() { return wrapperContained.OUTLINE_SHAPES; }
-// public void OUTLINE_SHAPES(java.util.Map value) { wrapperContained.OUTLINE_SHAPES = value; }
-// public static java.util.Map OUTLINE_SHAPES() { return net.minecraft.block.WallHangingSignBlock.OUTLINE_SHAPES; }
-// public static void OUTLINE_SHAPES(java.util.Map value, ) { net.minecraft.block.WallHangingSignBlock.OUTLINE_SHAPES = value; }
+// public java.util.Map OUTLINE_SHAPES_BY_AXIS() { return wrapperContained.OUTLINE_SHAPES_BY_AXIS; }
+// public void OUTLINE_SHAPES_BY_AXIS(java.util.Map value) { wrapperContained.OUTLINE_SHAPES_BY_AXIS = value; }
+// public static java.util.Map OUTLINE_SHAPES_BY_AXIS() { return net.minecraft.block.WallHangingSignBlock.OUTLINE_SHAPES_BY_AXIS; }
+// public static void OUTLINE_SHAPES_BY_AXIS(java.util.Map value, ) { net.minecraft.block.WallHangingSignBlock.OUTLINE_SHAPES_BY_AXIS = value; }
 
 // public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.WallHangingSignBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.WallHangingSignBlock.CODEC = value; }
+
+// public java.util.Map COLLISION_SHAPES_BY_AXIS() { return wrapperContained.COLLISION_SHAPES_BY_AXIS; }
+// public void COLLISION_SHAPES_BY_AXIS(java.util.Map value) { wrapperContained.COLLISION_SHAPES_BY_AXIS = value; }
+// public static java.util.Map COLLISION_SHAPES_BY_AXIS() { return net.minecraft.block.WallHangingSignBlock.COLLISION_SHAPES_BY_AXIS; }
+// public static void COLLISION_SHAPES_BY_AXIS(java.util.Map value, ) { net.minecraft.block.WallHangingSignBlock.COLLISION_SHAPES_BY_AXIS = value; }
 
 public boolean canAttachTo(yarnwrap.world.WorldView world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos toPos,yarnwrap.util.math.Direction direction) { return wrapperContained.canAttachTo(world.wrapperContained,state.wrapperContained,toPos.wrapperContained,direction.wrapperContained); }
 // public static boolean canAttachTo(yarnwrap.world.WorldView world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos toPos,yarnwrap.util.math.Direction direction, ) { return net.minecraft.block.WallHangingSignBlock.canAttachTo(world.wrapperContained,state.wrapperContained,toPos.wrapperContained,direction.wrapperContained); }

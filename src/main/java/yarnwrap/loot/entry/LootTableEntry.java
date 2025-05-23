@@ -11,6 +11,11 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 // public static com.mojang.datafixers.util.Either value() { return net.minecraft.loot.entry.LootTableEntry.value; }
 // public static void value(com.mojang.datafixers.util.Either value, ) { net.minecraft.loot.entry.LootTableEntry.value = value; }
 
+// public Object INLINE_CONTEXT() { return wrapperContained.INLINE_CONTEXT; }
+// public void INLINE_CONTEXT(Object value) { wrapperContained.INLINE_CONTEXT = value; }
+// // public static Object INLINE_CONTEXT() { return net.minecraft.loot.entry.LootTableEntry.INLINE_CONTEXT; }
+// public static void INLINE_CONTEXT(Object value, ) { net.minecraft.loot.entry.LootTableEntry.INLINE_CONTEXT = value; }
+
 // public LootTableEntry(com.mojang.datafixers.util.Either value,int weight,int quality,java.util.List conditions,java.util.List functions) { this.wrapperContained = new net.minecraft.loot.entry.LootTableEntry(value,weight,quality,conditions,functions); }
 // public Object builder(yarnwrap.registry.RegistryKey key) { return wrapperContained.builder(key.wrapperContained); }
 // public static Object builder(yarnwrap.registry.RegistryKey key, ) { return net.minecraft.loot.entry.LootTableEntry.builder(key.wrapperContained); }

@@ -22,5 +22,11 @@ public int pack() { return wrapperContained.pack(); }
 // public static yarnwrap.entity.decoration.Brightness unpack(int packed, ) { return new yarnwrap.entity.decoration.Brightness(net.minecraft.entity.decoration.Brightness.unpack(packed)); }
 // public com.mojang.datafixers.kinds.App method_48765(Object instance) { return wrapperContained.method_48765(instance); }
 // public static com.mojang.datafixers.kinds.App method_48765(Object instance, ) { return net.minecraft.entity.decoration.Brightness.method_48765(instance); }
+// public int unpackBlock(int packed) { return wrapperContained.unpackBlock(packed); }
+// public static int unpackBlock(int packed, ) { return net.minecraft.entity.decoration.Brightness.unpackBlock(packed); }
+// public int pack(int block,int sky) { return wrapperContained.pack(block,sky); }
+// public static int pack(int block,int sky, ) { return net.minecraft.entity.decoration.Brightness.pack(block,sky); }
+// public int unpackSky(int packed) { return wrapperContained.unpackSky(packed); }
+// public static int unpackSky(int packed, ) { return net.minecraft.entity.decoration.Brightness.unpackSky(packed); }
 
 }

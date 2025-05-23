@@ -9,5 +9,9 @@ public class ControlsOptionsScreen { public net.minecraft.client.gui.screen.opti
 public ControlsOptionsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.option.GameOptions options) { this.wrapperContained = new net.minecraft.client.gui.screen.option.ControlsOptionsScreen(parent.wrapperContained,options.wrapperContained); }
 // public net.minecraft.client.option.SimpleOption[] getOptions(yarnwrap.client.option.GameOptions gameOptions) { return wrapperContained.getOptions(gameOptions.wrapperContained); }
 // public static net.minecraft.client.option.SimpleOption[] getOptions(yarnwrap.client.option.GameOptions gameOptions, ) { return net.minecraft.client.gui.screen.option.ControlsOptionsScreen.getOptions(gameOptions.wrapperContained); }
+// public void method_60340(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_60340(button.wrapperContained); }
+// public static void method_60340(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.option.ControlsOptionsScreen.method_60340(button.wrapperContained); }
+// public void method_60341(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_60341(button.wrapperContained); }
+// public static void method_60341(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.option.ControlsOptionsScreen.method_60341(button.wrapperContained); }
 
 }

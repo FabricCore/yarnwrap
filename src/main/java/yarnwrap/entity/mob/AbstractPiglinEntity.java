@@ -13,8 +13,18 @@ public class AbstractPiglinEntity { public net.minecraft.entity.mob.AbstractPigl
 
 // public int TIME_TO_ZOMBIFY() { return wrapperContained.TIME_TO_ZOMBIFY; }
 // public void TIME_TO_ZOMBIFY(int value) { wrapperContained.TIME_TO_ZOMBIFY = value; }
-// public static int TIME_TO_ZOMBIFY() { return net.minecraft.entity.mob.AbstractPiglinEntity.TIME_TO_ZOMBIFY; }
+public static int TIME_TO_ZOMBIFY() { return net.minecraft.entity.mob.AbstractPiglinEntity.TIME_TO_ZOMBIFY; }
 // public static void TIME_TO_ZOMBIFY(int value, ) { net.minecraft.entity.mob.AbstractPiglinEntity.TIME_TO_ZOMBIFY = value; }
+
+// public boolean DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION() { return wrapperContained.DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION; }
+// public void DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION(boolean value) { wrapperContained.DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION = value; }
+// public static boolean DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION() { return net.minecraft.entity.mob.AbstractPiglinEntity.DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION; }
+// public static void DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION(boolean value, ) { net.minecraft.entity.mob.AbstractPiglinEntity.DEFAULT_IS_IMMUNE_TO_ZOMBIFICATION = value; }
+
+// public int DEFAULT_TIME_IN_OVERWORLD() { return wrapperContained.DEFAULT_TIME_IN_OVERWORLD; }
+// public void DEFAULT_TIME_IN_OVERWORLD(int value) { wrapperContained.DEFAULT_TIME_IN_OVERWORLD = value; }
+// public static int DEFAULT_TIME_IN_OVERWORLD() { return net.minecraft.entity.mob.AbstractPiglinEntity.DEFAULT_TIME_IN_OVERWORLD; }
+// public static void DEFAULT_TIME_IN_OVERWORLD(int value, ) { net.minecraft.entity.mob.AbstractPiglinEntity.DEFAULT_TIME_IN_OVERWORLD = value; }
 
 // public void zombify(yarnwrap.server.world.ServerWorld world) { wrapperContained.zombify(world.wrapperContained); }
 // public static void zombify(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.entity.mob.AbstractPiglinEntity.zombify(world.wrapperContained); }
@@ -36,5 +46,9 @@ public boolean isAdult() { return wrapperContained.isAdult(); }
 // public static void setCanPathThroughDoors() { net.minecraft.entity.mob.AbstractPiglinEntity.setCanPathThroughDoors(); }
 public void setImmuneToZombification(boolean immuneToZombification) { wrapperContained.setImmuneToZombification(immuneToZombification); }
 // public static void setImmuneToZombification(boolean immuneToZombification, ) { net.minecraft.entity.mob.AbstractPiglinEntity.setImmuneToZombification(immuneToZombification); }
+// public void method_63663(yarnwrap.entity.mob.ZombifiedPiglinEntity zombifiedPiglin) { wrapperContained.method_63663(zombifiedPiglin.wrapperContained); }
+// public static void method_63663(yarnwrap.entity.mob.ZombifiedPiglinEntity zombifiedPiglin, ) { net.minecraft.entity.mob.AbstractPiglinEntity.method_63663(zombifiedPiglin.wrapperContained); }
+public void setTimeInOverworld(int timeInOverworld) { wrapperContained.setTimeInOverworld(timeInOverworld); }
+// public static void setTimeInOverworld(int timeInOverworld, ) { net.minecraft.entity.mob.AbstractPiglinEntity.setTimeInOverworld(timeInOverworld); }
 
 }

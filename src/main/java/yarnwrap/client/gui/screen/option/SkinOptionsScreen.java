@@ -7,5 +7,7 @@ public class SkinOptionsScreen { public net.minecraft.client.gui.screen.option.S
 // public static void TITLE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.option.SkinOptionsScreen.TITLE_TEXT = value.wrapperContained; }
 
 public SkinOptionsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.option.GameOptions gameOptions) { this.wrapperContained = new net.minecraft.client.gui.screen.option.SkinOptionsScreen(parent.wrapperContained,gameOptions.wrapperContained); }
+// public void method_60337(yarnwrap.entity.player.PlayerModelPart button,yarnwrap.client.gui.widget.CyclingButtonWidget enabled) { wrapperContained.method_60337(button.wrapperContained,enabled.wrapperContained); }
+// public static void method_60337(yarnwrap.entity.player.PlayerModelPart button,yarnwrap.client.gui.widget.CyclingButtonWidget enabled, ) { net.minecraft.client.gui.screen.option.SkinOptionsScreen.method_60337(button.wrapperContained,enabled.wrapperContained); }
 
 }

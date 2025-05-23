@@ -16,8 +16,18 @@ public yarnwrap.util.collection.DefaultedList heldStacks() { return new yarnwrap
 // public static int size() { return net.minecraft.inventory.SimpleInventory.size; }
 // public static void size(int value, ) { net.minecraft.inventory.SimpleInventory.size = value; }
 
-public SimpleInventory(int size) { this.wrapperContained = new net.minecraft.inventory.SimpleInventory(size); }
 public SimpleInventory(net.minecraft.item.ItemStack[] items) { this.wrapperContained = new net.minecraft.inventory.SimpleInventory(items); }
+public SimpleInventory(int size) { this.wrapperContained = new net.minecraft.inventory.SimpleInventory(size); }
+public void removeListener(yarnwrap.inventory.InventoryChangedListener listener) { wrapperContained.removeListener(listener.wrapperContained); }
+// public static void removeListener(yarnwrap.inventory.InventoryChangedListener listener, ) { net.minecraft.inventory.SimpleInventory.removeListener(listener.wrapperContained); }
+public void addListener(yarnwrap.inventory.InventoryChangedListener listener) { wrapperContained.addListener(listener.wrapperContained); }
+// public static void addListener(yarnwrap.inventory.InventoryChangedListener listener, ) { net.minecraft.inventory.SimpleInventory.addListener(listener.wrapperContained); }
+public yarnwrap.item.ItemStack addStack(yarnwrap.item.ItemStack stack) { return new yarnwrap.item.ItemStack(wrapperContained.addStack(stack.wrapperContained)); }
+// public static yarnwrap.item.ItemStack addStack(yarnwrap.item.ItemStack stack, ) { return new yarnwrap.item.ItemStack(net.minecraft.inventory.SimpleInventory.addStack(stack.wrapperContained)); }
+// public void readDataList(Object list) { wrapperContained.readDataList(list); }
+// public static void readDataList(Object list, ) { net.minecraft.inventory.SimpleInventory.readDataList(list); }
+// public void toDataList(Object list) { wrapperContained.toDataList(list); }
+// public static void toDataList(Object list, ) { net.minecraft.inventory.SimpleInventory.toDataList(list); }
 public yarnwrap.item.ItemStack removeItem(yarnwrap.item.Item item,int count) { return new yarnwrap.item.ItemStack(wrapperContained.removeItem(item.wrapperContained,count)); }
 // public static yarnwrap.item.ItemStack removeItem(yarnwrap.item.Item item,int count, ) { return new yarnwrap.item.ItemStack(net.minecraft.inventory.SimpleInventory.removeItem(item.wrapperContained,count)); }
 // public void transfer(yarnwrap.item.ItemStack source,yarnwrap.item.ItemStack target) { wrapperContained.transfer(source.wrapperContained,target.wrapperContained); }
@@ -36,15 +46,5 @@ public boolean canInsert(yarnwrap.item.ItemStack stack) { return wrapperContaine
 // public static boolean canInsert(yarnwrap.item.ItemStack stack, ) { return net.minecraft.inventory.SimpleInventory.canInsert(stack.wrapperContained); }
 public yarnwrap.util.collection.DefaultedList getHeldStacks() { return new yarnwrap.util.collection.DefaultedList(wrapperContained.getHeldStacks()); }
 // public static yarnwrap.util.collection.DefaultedList getHeldStacks() { return new yarnwrap.util.collection.DefaultedList(net.minecraft.inventory.SimpleInventory.getHeldStacks()); }
-public void removeListener(yarnwrap.inventory.InventoryChangedListener listener) { wrapperContained.removeListener(listener.wrapperContained); }
-// public static void removeListener(yarnwrap.inventory.InventoryChangedListener listener, ) { net.minecraft.inventory.SimpleInventory.removeListener(listener.wrapperContained); }
-public void addListener(yarnwrap.inventory.InventoryChangedListener listener) { wrapperContained.addListener(listener.wrapperContained); }
-// public static void addListener(yarnwrap.inventory.InventoryChangedListener listener, ) { net.minecraft.inventory.SimpleInventory.addListener(listener.wrapperContained); }
-public yarnwrap.item.ItemStack addStack(yarnwrap.item.ItemStack stack) { return new yarnwrap.item.ItemStack(wrapperContained.addStack(stack.wrapperContained)); }
-// public static yarnwrap.item.ItemStack addStack(yarnwrap.item.ItemStack stack, ) { return new yarnwrap.item.ItemStack(net.minecraft.inventory.SimpleInventory.addStack(stack.wrapperContained)); }
-// public void readNbtList(yarnwrap.nbt.NbtList list,Object registries) { wrapperContained.readNbtList(list.wrapperContained,registries); }
-// public static void readNbtList(yarnwrap.nbt.NbtList list,Object registries, ) { net.minecraft.inventory.SimpleInventory.readNbtList(list.wrapperContained,registries); }
-// public yarnwrap.nbt.NbtList toNbtList(Object registries) { return new yarnwrap.nbt.NbtList(wrapperContained.toNbtList(registries)); }
-// public static yarnwrap.nbt.NbtList toNbtList(Object registries, ) { return new yarnwrap.nbt.NbtList(net.minecraft.inventory.SimpleInventory.toNbtList(registries)); }
 
 }

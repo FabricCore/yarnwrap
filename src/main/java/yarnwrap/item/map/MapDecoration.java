@@ -23,9 +23,9 @@ public static yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.n
 // // public static byte rotation() { return net.minecraft.item.map.MapDecoration.rotation(); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.item.map.MapDecoration.equals(o); }
-public yarnwrap.util.Identifier getAssetId() { return new yarnwrap.util.Identifier(wrapperContained.getAssetId()); }
-// public static yarnwrap.util.Identifier getAssetId() { return new yarnwrap.util.Identifier(net.minecraft.item.map.MapDecoration.getAssetId()); }
 public boolean isAlwaysRendered() { return wrapperContained.isAlwaysRendered(); }
 // public static boolean isAlwaysRendered() { return net.minecraft.item.map.MapDecoration.isAlwaysRendered(); }
+public yarnwrap.util.Identifier getAssetId() { return new yarnwrap.util.Identifier(wrapperContained.getAssetId()); }
+// public static yarnwrap.util.Identifier getAssetId() { return new yarnwrap.util.Identifier(net.minecraft.item.map.MapDecoration.getAssetId()); }
 
 }

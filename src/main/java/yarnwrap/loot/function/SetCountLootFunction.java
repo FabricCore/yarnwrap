@@ -17,6 +17,8 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.loot.function.SetCountLootFunction.CODEC = value; }
 
 // public SetCountLootFunction(java.util.List conditions,yarnwrap.loot.provider.number.LootNumberProvider countRange,boolean add) { this.wrapperContained = new net.minecraft.loot.function.SetCountLootFunction(conditions,countRange.wrapperContained,add); }
+// public Object builder(yarnwrap.loot.provider.number.LootNumberProvider countRange) { return wrapperContained.builder(countRange.wrapperContained); }
+// public static Object builder(yarnwrap.loot.provider.number.LootNumberProvider countRange, ) { return net.minecraft.loot.function.SetCountLootFunction.builder(countRange.wrapperContained); }
 // public Object builder(yarnwrap.loot.provider.number.LootNumberProvider countRange,boolean add) { return wrapperContained.builder(countRange.wrapperContained,add); }
 // public static Object builder(yarnwrap.loot.provider.number.LootNumberProvider countRange,boolean add, ) { return net.minecraft.loot.function.SetCountLootFunction.builder(countRange.wrapperContained,add); }
 // public java.lang.Boolean method_53375(yarnwrap.loot.function.SetCountLootFunction function) { return wrapperContained.method_53375(function.wrapperContained); }
@@ -25,7 +27,5 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 // public static com.mojang.datafixers.kinds.App method_53376(Object instance, ) { return net.minecraft.loot.function.SetCountLootFunction.method_53376(instance); }
 // public yarnwrap.loot.provider.number.LootNumberProvider method_53377(yarnwrap.loot.function.SetCountLootFunction function) { return new yarnwrap.loot.provider.number.LootNumberProvider(wrapperContained.method_53377(function.wrapperContained)); }
 // public static yarnwrap.loot.provider.number.LootNumberProvider method_53377(yarnwrap.loot.function.SetCountLootFunction function, ) { return new yarnwrap.loot.provider.number.LootNumberProvider(net.minecraft.loot.function.SetCountLootFunction.method_53377(function.wrapperContained)); }
-// public Object builder(yarnwrap.loot.provider.number.LootNumberProvider countRange) { return wrapperContained.builder(countRange.wrapperContained); }
-// public static Object builder(yarnwrap.loot.provider.number.LootNumberProvider countRange, ) { return net.minecraft.loot.function.SetCountLootFunction.builder(countRange.wrapperContained); }
 
 }

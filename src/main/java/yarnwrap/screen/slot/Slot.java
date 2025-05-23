@@ -27,28 +27,6 @@ public void id(int value) { wrapperContained.id = value; }
 // public static void index(int value, ) { net.minecraft.screen.slot.Slot.index = value; }
 
 public Slot(yarnwrap.inventory.Inventory inventory,int index,int x,int y) { this.wrapperContained = new net.minecraft.screen.slot.Slot(inventory.wrapperContained,index,x,y); }
-public yarnwrap.item.ItemStack takeStackRange(int min,int max,yarnwrap.entity.player.PlayerEntity player) { return new yarnwrap.item.ItemStack(wrapperContained.takeStackRange(min,max,player.wrapperContained)); }
-// public static yarnwrap.item.ItemStack takeStackRange(int min,int max,yarnwrap.entity.player.PlayerEntity player, ) { return new yarnwrap.item.ItemStack(net.minecraft.screen.slot.Slot.takeStackRange(min,max,player.wrapperContained)); }
-public boolean canTakePartial(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.canTakePartial(player.wrapperContained); }
-// public static boolean canTakePartial(yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.screen.slot.Slot.canTakePartial(player.wrapperContained); }
-public yarnwrap.item.ItemStack insertStack(yarnwrap.item.ItemStack stack,int count) { return new yarnwrap.item.ItemStack(wrapperContained.insertStack(stack.wrapperContained,count)); }
-// public static yarnwrap.item.ItemStack insertStack(yarnwrap.item.ItemStack stack,int count, ) { return new yarnwrap.item.ItemStack(net.minecraft.screen.slot.Slot.insertStack(stack.wrapperContained,count)); }
-public yarnwrap.item.ItemStack insertStack(yarnwrap.item.ItemStack stack) { return new yarnwrap.item.ItemStack(wrapperContained.insertStack(stack.wrapperContained)); }
-// public static yarnwrap.item.ItemStack insertStack(yarnwrap.item.ItemStack stack, ) { return new yarnwrap.item.ItemStack(net.minecraft.screen.slot.Slot.insertStack(stack.wrapperContained)); }
-public java.util.Optional tryTakeStackRange(int min,int max,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.tryTakeStackRange(min,max,player.wrapperContained); }
-// public static java.util.Optional tryTakeStackRange(int min,int max,yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.screen.slot.Slot.tryTakeStackRange(min,max,player.wrapperContained); }
-// public void method_34265(yarnwrap.entity.player.PlayerEntity stack) { wrapperContained.method_34265(stack.wrapperContained); }
-// public static void method_34265(yarnwrap.entity.player.PlayerEntity stack, ) { net.minecraft.screen.slot.Slot.method_34265(stack.wrapperContained); }
-public int getIndex() { return wrapperContained.getIndex(); }
-// public static int getIndex() { return net.minecraft.screen.slot.Slot.getIndex(); }
-public void setStack(yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack previousStack) { wrapperContained.setStack(stack.wrapperContained,previousStack.wrapperContained); }
-// public static void setStack(yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack previousStack, ) { net.minecraft.screen.slot.Slot.setStack(stack.wrapperContained,previousStack.wrapperContained); }
-public boolean canBeHighlighted() { return wrapperContained.canBeHighlighted(); }
-// public static boolean canBeHighlighted() { return net.minecraft.screen.slot.Slot.canBeHighlighted(); }
-public void setStack(yarnwrap.item.ItemStack stack) { wrapperContained.setStack(stack.wrapperContained); }
-// public static void setStack(yarnwrap.item.ItemStack stack, ) { net.minecraft.screen.slot.Slot.setStack(stack.wrapperContained); }
-public boolean disablesDynamicDisplay() { return wrapperContained.disablesDynamicDisplay(); }
-// public static boolean disablesDynamicDisplay() { return net.minecraft.screen.slot.Slot.disablesDynamicDisplay(); }
 public void onTakeItem(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack stack) { wrapperContained.onTakeItem(player.wrapperContained,stack.wrapperContained); }
 // public static void onTakeItem(yarnwrap.entity.player.PlayerEntity player,yarnwrap.item.ItemStack stack, ) { net.minecraft.screen.slot.Slot.onTakeItem(player.wrapperContained,stack.wrapperContained); }
 public void markDirty() { wrapperContained.markDirty(); }
@@ -73,13 +51,35 @@ public yarnwrap.item.ItemStack getStack() { return new yarnwrap.item.ItemStack(w
 // public static yarnwrap.item.ItemStack getStack() { return new yarnwrap.item.ItemStack(net.minecraft.screen.slot.Slot.getStack()); }
 // public void onCrafted(yarnwrap.item.ItemStack stack,int amount) { wrapperContained.onCrafted(stack.wrapperContained,amount); }
 // public static void onCrafted(yarnwrap.item.ItemStack stack,int amount, ) { net.minecraft.screen.slot.Slot.onCrafted(stack.wrapperContained,amount); }
-public com.mojang.datafixers.util.Pair getBackgroundSprite() { return wrapperContained.getBackgroundSprite(); }
-// public static com.mojang.datafixers.util.Pair getBackgroundSprite() { return net.minecraft.screen.slot.Slot.getBackgroundSprite(); }
+public yarnwrap.util.Identifier getBackgroundSprite() { return new yarnwrap.util.Identifier(wrapperContained.getBackgroundSprite()); }
+// public static yarnwrap.util.Identifier getBackgroundSprite() { return new yarnwrap.util.Identifier(net.minecraft.screen.slot.Slot.getBackgroundSprite()); }
 public boolean canInsert(yarnwrap.item.ItemStack stack) { return wrapperContained.canInsert(stack.wrapperContained); }
 // public static boolean canInsert(yarnwrap.item.ItemStack stack, ) { return net.minecraft.screen.slot.Slot.canInsert(stack.wrapperContained); }
 public boolean hasStack() { return wrapperContained.hasStack(); }
 // public static boolean hasStack() { return net.minecraft.screen.slot.Slot.hasStack(); }
 public boolean isEnabled() { return wrapperContained.isEnabled(); }
 // public static boolean isEnabled() { return net.minecraft.screen.slot.Slot.isEnabled(); }
+public yarnwrap.item.ItemStack takeStackRange(int min,int max,yarnwrap.entity.player.PlayerEntity player) { return new yarnwrap.item.ItemStack(wrapperContained.takeStackRange(min,max,player.wrapperContained)); }
+// public static yarnwrap.item.ItemStack takeStackRange(int min,int max,yarnwrap.entity.player.PlayerEntity player, ) { return new yarnwrap.item.ItemStack(net.minecraft.screen.slot.Slot.takeStackRange(min,max,player.wrapperContained)); }
+public boolean canTakePartial(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.canTakePartial(player.wrapperContained); }
+// public static boolean canTakePartial(yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.screen.slot.Slot.canTakePartial(player.wrapperContained); }
+public yarnwrap.item.ItemStack insertStack(yarnwrap.item.ItemStack stack,int count) { return new yarnwrap.item.ItemStack(wrapperContained.insertStack(stack.wrapperContained,count)); }
+// public static yarnwrap.item.ItemStack insertStack(yarnwrap.item.ItemStack stack,int count, ) { return new yarnwrap.item.ItemStack(net.minecraft.screen.slot.Slot.insertStack(stack.wrapperContained,count)); }
+public yarnwrap.item.ItemStack insertStack(yarnwrap.item.ItemStack stack) { return new yarnwrap.item.ItemStack(wrapperContained.insertStack(stack.wrapperContained)); }
+// public static yarnwrap.item.ItemStack insertStack(yarnwrap.item.ItemStack stack, ) { return new yarnwrap.item.ItemStack(net.minecraft.screen.slot.Slot.insertStack(stack.wrapperContained)); }
+public java.util.Optional tryTakeStackRange(int min,int max,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.tryTakeStackRange(min,max,player.wrapperContained); }
+// public static java.util.Optional tryTakeStackRange(int min,int max,yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.screen.slot.Slot.tryTakeStackRange(min,max,player.wrapperContained); }
+// public void method_34265(yarnwrap.entity.player.PlayerEntity stack) { wrapperContained.method_34265(stack.wrapperContained); }
+// public static void method_34265(yarnwrap.entity.player.PlayerEntity stack, ) { net.minecraft.screen.slot.Slot.method_34265(stack.wrapperContained); }
+public int getIndex() { return wrapperContained.getIndex(); }
+// public static int getIndex() { return net.minecraft.screen.slot.Slot.getIndex(); }
+public void setStack(yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack previousStack) { wrapperContained.setStack(stack.wrapperContained,previousStack.wrapperContained); }
+// public static void setStack(yarnwrap.item.ItemStack stack,yarnwrap.item.ItemStack previousStack, ) { net.minecraft.screen.slot.Slot.setStack(stack.wrapperContained,previousStack.wrapperContained); }
+public boolean canBeHighlighted() { return wrapperContained.canBeHighlighted(); }
+// public static boolean canBeHighlighted() { return net.minecraft.screen.slot.Slot.canBeHighlighted(); }
+public void setStack(yarnwrap.item.ItemStack stack) { wrapperContained.setStack(stack.wrapperContained); }
+// public static void setStack(yarnwrap.item.ItemStack stack, ) { net.minecraft.screen.slot.Slot.setStack(stack.wrapperContained); }
+public boolean disablesDynamicDisplay() { return wrapperContained.disablesDynamicDisplay(); }
+// public static boolean disablesDynamicDisplay() { return net.minecraft.screen.slot.Slot.disablesDynamicDisplay(); }
 
 }

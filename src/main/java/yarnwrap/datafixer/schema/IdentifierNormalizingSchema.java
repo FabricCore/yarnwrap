@@ -14,9 +14,9 @@ public static com.mojang.serialization.codecs.PrimitiveCodec CODEC() { return ne
 public IdentifierNormalizingSchema(int versionKey,com.mojang.datafixers.schemas.Schema parent) { this.wrapperContained = new net.minecraft.datafixer.schema.IdentifierNormalizingSchema(versionKey,parent); }
 // public com.mojang.datafixers.types.Type getChoiceType(Object type,java.lang.String choiceName) { return wrapperContained.getChoiceType(type,choiceName); }
 // public static com.mojang.datafixers.types.Type getChoiceType(Object type,java.lang.String choiceName, ) { return net.minecraft.datafixer.schema.IdentifierNormalizingSchema.getChoiceType(type,choiceName); }
-// public com.mojang.datafixers.types.Type getIdentifierType() { return wrapperContained.getIdentifierType(); }
-public static com.mojang.datafixers.types.Type getIdentifierType() { return net.minecraft.datafixer.schema.IdentifierNormalizingSchema.getIdentifierType(); }
 // public java.lang.String normalize(java.lang.String id) { return wrapperContained.normalize(id); }
 // public static java.lang.String normalize(java.lang.String id, ) { return net.minecraft.datafixer.schema.IdentifierNormalizingSchema.normalize(id); }
+// public com.mojang.datafixers.types.Type getIdentifierType() { return wrapperContained.getIdentifierType(); }
+public static com.mojang.datafixers.types.Type getIdentifierType() { return net.minecraft.datafixer.schema.IdentifierNormalizingSchema.getIdentifierType(); }
 
 }

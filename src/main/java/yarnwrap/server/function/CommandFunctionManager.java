@@ -51,8 +51,8 @@ public void tick() { wrapperContained.tick(); }
 // public static void executeAll(java.util.Collection functions,yarnwrap.util.Identifier label, ) { net.minecraft.server.function.CommandFunctionManager.executeAll(functions,label.wrapperContained); }
 public void setFunctions(yarnwrap.server.function.FunctionLoader loader) { wrapperContained.setFunctions(loader.wrapperContained); }
 // public static void setFunctions(yarnwrap.server.function.FunctionLoader loader, ) { net.minecraft.server.function.CommandFunctionManager.setFunctions(loader.wrapperContained); }
-public java.util.Collection getTag(yarnwrap.util.Identifier id) { return wrapperContained.getTag(id.wrapperContained); }
-// public static java.util.Collection getTag(yarnwrap.util.Identifier id, ) { return net.minecraft.server.function.CommandFunctionManager.getTag(id.wrapperContained); }
+public java.util.List getTag(yarnwrap.util.Identifier id) { return wrapperContained.getTag(id.wrapperContained); }
+// public static java.util.List getTag(yarnwrap.util.Identifier id, ) { return net.minecraft.server.function.CommandFunctionManager.getTag(id.wrapperContained); }
 public java.lang.Iterable getAllFunctions() { return wrapperContained.getAllFunctions(); }
 // public static java.lang.Iterable getAllFunctions() { return net.minecraft.server.function.CommandFunctionManager.getAllFunctions(); }
 public java.lang.Iterable getFunctionTags() { return wrapperContained.getFunctionTags(); }

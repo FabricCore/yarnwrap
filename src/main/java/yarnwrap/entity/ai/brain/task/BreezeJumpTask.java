@@ -31,6 +31,11 @@ public class BreezeJumpTask { public net.minecraft.entity.ai.brain.task.BreezeJu
 // public static it.unimi.dsi.fastutil.objects.ObjectArrayList POSSIBLE_JUMP_ANGLES() { return net.minecraft.entity.ai.brain.task.BreezeJumpTask.POSSIBLE_JUMP_ANGLES; }
 // public static void POSSIBLE_JUMP_ANGLES(it.unimi.dsi.fastutil.objects.ObjectArrayList value, ) { net.minecraft.entity.ai.brain.task.BreezeJumpTask.POSSIBLE_JUMP_ANGLES = value; }
 
+// public float FOLLOW_RANGE_MULTIPLIER_FOR_VELOCITY() { return wrapperContained.FOLLOW_RANGE_MULTIPLIER_FOR_VELOCITY; }
+// public void FOLLOW_RANGE_MULTIPLIER_FOR_VELOCITY(float value) { wrapperContained.FOLLOW_RANGE_MULTIPLIER_FOR_VELOCITY = value; }
+// public static float FOLLOW_RANGE_MULTIPLIER_FOR_VELOCITY() { return net.minecraft.entity.ai.brain.task.BreezeJumpTask.FOLLOW_RANGE_MULTIPLIER_FOR_VELOCITY; }
+// public static void FOLLOW_RANGE_MULTIPLIER_FOR_VELOCITY(float value, ) { net.minecraft.entity.ai.brain.task.BreezeJumpTask.FOLLOW_RANGE_MULTIPLIER_FOR_VELOCITY = value; }
+
 // public yarnwrap.util.math.BlockPos getPosToJumpTo(yarnwrap.entity.LivingEntity breeze,yarnwrap.util.math.Vec3d pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.getPosToJumpTo(breeze.wrapperContained,pos.wrapperContained)); }
 // public static yarnwrap.util.math.BlockPos getPosToJumpTo(yarnwrap.entity.LivingEntity breeze,yarnwrap.util.math.Vec3d pos, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.ai.brain.task.BreezeJumpTask.getPosToJumpTo(breeze.wrapperContained,pos.wrapperContained)); }
 // public boolean shouldStopInhalingPose(yarnwrap.entity.mob.BreezeEntity breeze) { return wrapperContained.shouldStopInhalingPose(breeze.wrapperContained); }

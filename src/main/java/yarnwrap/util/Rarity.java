@@ -1,6 +1,11 @@
 package yarnwrap.util;
 public class Rarity { public net.minecraft.util.Rarity wrapperContained; public Rarity(net.minecraft.util.Rarity wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.util.Formatting formatting() { return new yarnwrap.util.Formatting(wrapperContained.formatting); }
+// public void formatting(yarnwrap.util.Formatting value) { wrapperContained.formatting = value.wrapperContained; }
+// public static yarnwrap.util.Formatting formatting() { return new yarnwrap.util.Formatting(net.minecraft.util.Rarity.formatting); }
+// public static void formatting(yarnwrap.util.Formatting value, ) { net.minecraft.util.Rarity.formatting = value.wrapperContained; }
+
 // public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
 public static com.mojang.serialization.Codec CODEC() { return net.minecraft.util.Rarity.CODEC; }
@@ -25,11 +30,6 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public void name(java.lang.String value) { wrapperContained.name = value; }
 // public static java.lang.String name() { return net.minecraft.util.Rarity.name; }
 // public static void name(java.lang.String value, ) { net.minecraft.util.Rarity.name = value; }
-
-// public yarnwrap.util.Formatting formatting() { return new yarnwrap.util.Formatting(wrapperContained.formatting); }
-// public void formatting(yarnwrap.util.Formatting value) { wrapperContained.formatting = value.wrapperContained; }
-// public static yarnwrap.util.Formatting formatting() { return new yarnwrap.util.Formatting(net.minecraft.util.Rarity.formatting); }
-// public static void formatting(yarnwrap.util.Formatting value, ) { net.minecraft.util.Rarity.formatting = value.wrapperContained; }
 
 // // public Rarity(java.lang.String index,int name,int formatting) { this.wrapperContained = new net.minecraft.util.Rarity(index,name,formatting); }
 public yarnwrap.util.Formatting getFormatting() { return new yarnwrap.util.Formatting(wrapperContained.getFormatting()); }

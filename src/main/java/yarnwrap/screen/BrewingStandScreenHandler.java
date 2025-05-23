@@ -1,6 +1,16 @@
 package yarnwrap.screen;
 public class BrewingStandScreenHandler { public net.minecraft.screen.BrewingStandScreenHandler wrapperContained; public BrewingStandScreenHandler(net.minecraft.screen.BrewingStandScreenHandler wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.screen.slot.Slot ingredientSlot() { return new yarnwrap.screen.slot.Slot(wrapperContained.ingredientSlot); }
+// public void ingredientSlot(yarnwrap.screen.slot.Slot value) { wrapperContained.ingredientSlot = value.wrapperContained; }
+// public static yarnwrap.screen.slot.Slot ingredientSlot() { return new yarnwrap.screen.slot.Slot(net.minecraft.screen.BrewingStandScreenHandler.ingredientSlot); }
+// public static void ingredientSlot(yarnwrap.screen.slot.Slot value, ) { net.minecraft.screen.BrewingStandScreenHandler.ingredientSlot = value.wrapperContained; }
+
+// public yarnwrap.inventory.Inventory inventory() { return new yarnwrap.inventory.Inventory(wrapperContained.inventory); }
+// public void inventory(yarnwrap.inventory.Inventory value) { wrapperContained.inventory = value.wrapperContained; }
+// public static yarnwrap.inventory.Inventory inventory() { return new yarnwrap.inventory.Inventory(net.minecraft.screen.BrewingStandScreenHandler.inventory); }
+// public static void inventory(yarnwrap.inventory.Inventory value, ) { net.minecraft.screen.BrewingStandScreenHandler.inventory = value.wrapperContained; }
+
 // public yarnwrap.screen.PropertyDelegate propertyDelegate() { return new yarnwrap.screen.PropertyDelegate(wrapperContained.propertyDelegate); }
 // public void propertyDelegate(yarnwrap.screen.PropertyDelegate value) { wrapperContained.propertyDelegate = value.wrapperContained; }
 // public static yarnwrap.screen.PropertyDelegate propertyDelegate() { return new yarnwrap.screen.PropertyDelegate(net.minecraft.screen.BrewingStandScreenHandler.propertyDelegate); }
@@ -46,15 +56,15 @@ public class BrewingStandScreenHandler { public net.minecraft.screen.BrewingStan
 // public static int HOTBAR_END() { return net.minecraft.screen.BrewingStandScreenHandler.HOTBAR_END; }
 // public static void HOTBAR_END(int value, ) { net.minecraft.screen.BrewingStandScreenHandler.HOTBAR_END = value; }
 
-// public yarnwrap.screen.slot.Slot ingredientSlot() { return new yarnwrap.screen.slot.Slot(wrapperContained.ingredientSlot); }
-// public void ingredientSlot(yarnwrap.screen.slot.Slot value) { wrapperContained.ingredientSlot = value.wrapperContained; }
-// public static yarnwrap.screen.slot.Slot ingredientSlot() { return new yarnwrap.screen.slot.Slot(net.minecraft.screen.BrewingStandScreenHandler.ingredientSlot); }
-// public static void ingredientSlot(yarnwrap.screen.slot.Slot value, ) { net.minecraft.screen.BrewingStandScreenHandler.ingredientSlot = value.wrapperContained; }
+// public yarnwrap.util.Identifier EMPTY_BREWING_FUEL_SLOT_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.EMPTY_BREWING_FUEL_SLOT_TEXTURE); }
+// public void EMPTY_BREWING_FUEL_SLOT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.EMPTY_BREWING_FUEL_SLOT_TEXTURE = value.wrapperContained; }
+// public static yarnwrap.util.Identifier EMPTY_BREWING_FUEL_SLOT_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.screen.BrewingStandScreenHandler.EMPTY_BREWING_FUEL_SLOT_TEXTURE); }
+// public static void EMPTY_BREWING_FUEL_SLOT_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.screen.BrewingStandScreenHandler.EMPTY_BREWING_FUEL_SLOT_TEXTURE = value.wrapperContained; }
 
-// public yarnwrap.inventory.Inventory inventory() { return new yarnwrap.inventory.Inventory(wrapperContained.inventory); }
-// public void inventory(yarnwrap.inventory.Inventory value) { wrapperContained.inventory = value.wrapperContained; }
-// public static yarnwrap.inventory.Inventory inventory() { return new yarnwrap.inventory.Inventory(net.minecraft.screen.BrewingStandScreenHandler.inventory); }
-// public static void inventory(yarnwrap.inventory.Inventory value, ) { net.minecraft.screen.BrewingStandScreenHandler.inventory = value.wrapperContained; }
+// public yarnwrap.util.Identifier EMPTY_POTION_SLOT_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.EMPTY_POTION_SLOT_TEXTURE); }
+// public void EMPTY_POTION_SLOT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.EMPTY_POTION_SLOT_TEXTURE = value.wrapperContained; }
+// public static yarnwrap.util.Identifier EMPTY_POTION_SLOT_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.screen.BrewingStandScreenHandler.EMPTY_POTION_SLOT_TEXTURE); }
+// public static void EMPTY_POTION_SLOT_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.screen.BrewingStandScreenHandler.EMPTY_POTION_SLOT_TEXTURE = value.wrapperContained; }
 
 public BrewingStandScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.BrewingStandScreenHandler(syncId,playerInventory.wrapperContained); }
 public BrewingStandScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.inventory.Inventory inventory,yarnwrap.screen.PropertyDelegate propertyDelegate) { this.wrapperContained = new net.minecraft.screen.BrewingStandScreenHandler(syncId,playerInventory.wrapperContained,inventory.wrapperContained,propertyDelegate.wrapperContained); }

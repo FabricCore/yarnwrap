@@ -44,18 +44,16 @@ public class SpriteContents { public net.minecraft.client.texture.SpriteContents
 public SpriteContents(yarnwrap.util.Identifier id,yarnwrap.client.texture.SpriteDimensions dimensions,yarnwrap.client.texture.NativeImage image,yarnwrap.resource.metadata.ResourceMetadata metadata) { this.wrapperContained = new net.minecraft.client.texture.SpriteContents(id.wrapperContained,dimensions.wrapperContained,image.wrapperContained,metadata.wrapperContained); }
 public void generateMipmaps(int mipmapLevels) { wrapperContained.generateMipmaps(mipmapLevels); }
 // public static void generateMipmaps(int mipmapLevels, ) { net.minecraft.client.texture.SpriteContents.generateMipmaps(mipmapLevels); }
-public void upload(int x,int y) { wrapperContained.upload(x,y); }
-// public static void upload(int x,int y, ) { net.minecraft.client.texture.SpriteContents.upload(x,y); }
+public void upload(int x,int y,com.mojang.blaze3d.textures.GpuTexture texture) { wrapperContained.upload(x,y,texture); }
+// public static void upload(int x,int y,com.mojang.blaze3d.textures.GpuTexture texture, ) { net.minecraft.client.texture.SpriteContents.upload(x,y,texture); }
 public boolean isPixelTransparent(int frame,int x,int y) { return wrapperContained.isPixelTransparent(frame,x,y); }
 // public static boolean isPixelTransparent(int frame,int x,int y, ) { return net.minecraft.client.texture.SpriteContents.isPixelTransparent(frame,x,y); }
-// public void upload(int x,int y,int unpackSkipPixels,int unpackSkipRows,net.minecraft.client.texture.NativeImage[] images) { wrapperContained.upload(x,y,unpackSkipPixels,unpackSkipRows,images); }
-// public static void upload(int x,int y,int unpackSkipPixels,int unpackSkipRows,net.minecraft.client.texture.NativeImage[] images, ) { net.minecraft.client.texture.SpriteContents.upload(x,y,unpackSkipPixels,unpackSkipRows,images); }
+// public void upload(int x,int y,int unpackSkipPixels,int unpackSkipRows,net.minecraft.client.texture.NativeImage[] images,com.mojang.blaze3d.textures.GpuTexture texture) { wrapperContained.upload(x,y,unpackSkipPixels,unpackSkipRows,images,texture); }
+// public static void upload(int x,int y,int unpackSkipPixels,int unpackSkipRows,net.minecraft.client.texture.NativeImage[] images,com.mojang.blaze3d.textures.GpuTexture texture, ) { net.minecraft.client.texture.SpriteContents.upload(x,y,unpackSkipPixels,unpackSkipRows,images,texture); }
 // public Object createAnimation(yarnwrap.client.texture.SpriteDimensions dimensions,int imageWidth,int imageHeight,yarnwrap.client.resource.metadata.AnimationResourceMetadata metadata) { return wrapperContained.createAnimation(dimensions.wrapperContained,imageWidth,imageHeight,metadata.wrapperContained); }
 // public static Object createAnimation(yarnwrap.client.texture.SpriteDimensions dimensions,int imageWidth,int imageHeight,yarnwrap.client.resource.metadata.AnimationResourceMetadata metadata, ) { return net.minecraft.client.texture.SpriteContents.createAnimation(dimensions.wrapperContained,imageWidth,imageHeight,metadata.wrapperContained); }
 // public boolean method_45813(it.unimi.dsi.fastutil.ints.IntSet frameIndex) { return wrapperContained.method_45813(frameIndex); }
 // public static boolean method_45813(it.unimi.dsi.fastutil.ints.IntSet frameIndex, ) { return net.minecraft.client.texture.SpriteContents.method_45813(frameIndex); }
-// public void method_45814(java.util.List index,int frameTime) { wrapperContained.method_45814(index,frameTime); }
-// public static void method_45814(java.util.List index,int frameTime, ) { net.minecraft.client.texture.SpriteContents.method_45814(index,frameTime); }
 public java.util.stream.IntStream getDistinctFrameCount() { return wrapperContained.getDistinctFrameCount(); }
 // public static java.util.stream.IntStream getDistinctFrameCount() { return net.minecraft.client.texture.SpriteContents.getDistinctFrameCount(); }
 public yarnwrap.client.texture.Animator createAnimator() { return new yarnwrap.client.texture.Animator(wrapperContained.createAnimator()); }
@@ -64,5 +62,7 @@ public yarnwrap.client.texture.Animator createAnimator() { return new yarnwrap.c
 // public static int getFrameCount() { return net.minecraft.client.texture.SpriteContents.getFrameCount(); }
 public yarnwrap.resource.metadata.ResourceMetadata getMetadata() { return new yarnwrap.resource.metadata.ResourceMetadata(wrapperContained.getMetadata()); }
 // public static yarnwrap.resource.metadata.ResourceMetadata getMetadata() { return new yarnwrap.resource.metadata.ResourceMetadata(net.minecraft.client.texture.SpriteContents.getMetadata()); }
+// public Object method_65869(yarnwrap.client.texture.SpriteDimensions animationMetadata) { return wrapperContained.method_65869(animationMetadata.wrapperContained); }
+// public static Object method_65869(yarnwrap.client.texture.SpriteDimensions animationMetadata, ) { return net.minecraft.client.texture.SpriteContents.method_65869(animationMetadata.wrapperContained); }
 
 }

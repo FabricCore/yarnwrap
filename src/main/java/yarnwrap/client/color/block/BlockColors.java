@@ -16,6 +16,16 @@ public class BlockColors { public net.minecraft.client.color.block.BlockColors w
 // public static int NO_COLOR() { return net.minecraft.client.color.block.BlockColors.NO_COLOR; }
 // public static void NO_COLOR(int value, ) { net.minecraft.client.color.block.BlockColors.NO_COLOR = value; }
 
+// public int PLACED_LILY_PAD() { return wrapperContained.PLACED_LILY_PAD; }
+// public void PLACED_LILY_PAD(int value) { wrapperContained.PLACED_LILY_PAD = value; }
+public static int PLACED_LILY_PAD() { return net.minecraft.client.color.block.BlockColors.PLACED_LILY_PAD; }
+// public static void PLACED_LILY_PAD(int value, ) { net.minecraft.client.color.block.BlockColors.PLACED_LILY_PAD = value; }
+
+// public int LILY_PAD() { return wrapperContained.LILY_PAD; }
+// public void LILY_PAD(int value) { wrapperContained.LILY_PAD = value; }
+public static int LILY_PAD() { return net.minecraft.client.color.block.BlockColors.LILY_PAD; }
+// public static void LILY_PAD(int value, ) { net.minecraft.client.color.block.BlockColors.LILY_PAD = value; }
+
 // public int method_1684(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_1684(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 // public static int method_1684(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_1684(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 // public int method_1685(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_1685(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
@@ -36,16 +46,12 @@ public int getParticleColor(yarnwrap.block.BlockState state,yarnwrap.world.World
 // public static int method_1692(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_1692(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 // public int method_1693(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_1693(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 // public static int method_1693(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_1693(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
-// public int method_1694(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_1694(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
-// public static int method_1694(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_1694(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 // public int method_1695(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_1695(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 // public static int method_1695(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_1695(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 // public int method_1696(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_1696(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 // public static int method_1696(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_1696(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 public int getColor(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.getColor(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 // public static int getColor(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.getColor(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
-// public int method_1698(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_1698(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
-// public static int method_1698(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_1698(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 public java.util.Set getProperties(yarnwrap.block.Block block) { return wrapperContained.getProperties(block.wrapperContained); }
 // public static java.util.Set getProperties(yarnwrap.block.Block block, ) { return net.minecraft.client.color.block.BlockColors.getProperties(block.wrapperContained); }
 // public void registerColorProperty(yarnwrap.state.property.Property property,net.minecraft.block.Block[] blocks) { wrapperContained.registerColorProperty(property.wrapperContained,blocks); }
@@ -54,5 +60,11 @@ public java.util.Set getProperties(yarnwrap.block.Block block) { return wrapperC
 // public static void registerColorProperties(java.util.Set properties,net.minecraft.block.Block[] blocks, ) { net.minecraft.client.color.block.BlockColors.registerColorProperties(properties,blocks); }
 // public int method_49295(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_49295(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 // public static int method_49295(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_49295(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
+// public int method_67245(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_67245(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
+// public static int method_67245(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_67245(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
+// public int method_68158(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_68158(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
+// public static int method_68158(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_68158(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
+// public int method_68159(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex) { return wrapperContained.method_68159(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
+// public static int method_68159(yarnwrap.block.BlockState state,yarnwrap.world.BlockRenderView world,yarnwrap.util.math.BlockPos pos,int tintIndex, ) { return net.minecraft.client.color.block.BlockColors.method_68159(state.wrapperContained,world.wrapperContained,pos.wrapperContained,tintIndex); }
 
 }

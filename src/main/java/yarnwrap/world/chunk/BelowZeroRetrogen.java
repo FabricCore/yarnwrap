@@ -54,8 +54,6 @@ public yarnwrap.world.chunk.ChunkStatus getTargetStatus() { return new yarnwrap.
 // public static java.util.stream.LongStream method_39324(java.util.BitSet bedrockBitSet, ) { return net.minecraft.world.chunk.BelowZeroRetrogen.method_39324(bedrockBitSet); }
 // public java.util.BitSet method_39325(java.util.stream.LongStream serializedBedrockBitSet) { return wrapperContained.method_39325(serializedBedrockBitSet); }
 // public static java.util.BitSet method_39325(java.util.stream.LongStream serializedBedrockBitSet, ) { return net.minecraft.world.chunk.BelowZeroRetrogen.method_39325(serializedBedrockBitSet); }
-// public yarnwrap.world.chunk.BelowZeroRetrogen fromNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.world.chunk.BelowZeroRetrogen(wrapperContained.fromNbt(nbt.wrapperContained)); }
-// public static yarnwrap.world.chunk.BelowZeroRetrogen fromNbt(yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.world.chunk.BelowZeroRetrogen(net.minecraft.world.chunk.BelowZeroRetrogen.fromNbt(nbt.wrapperContained)); }
 // public void replaceOldBedrock(yarnwrap.world.chunk.ProtoChunk chunk) { wrapperContained.replaceOldBedrock(chunk.wrapperContained); }
 // public static void replaceOldBedrock(yarnwrap.world.chunk.ProtoChunk chunk, ) { net.minecraft.world.chunk.BelowZeroRetrogen.replaceOldBedrock(chunk.wrapperContained); }
 // public void method_39471(yarnwrap.world.chunk.ProtoChunk pos) { wrapperContained.method_39471(pos.wrapperContained); }

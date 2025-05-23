@@ -21,6 +21,6 @@ public class LlamaEntityRenderer { public net.minecraft.client.render.entity.Lla
 // public static yarnwrap.util.Identifier GRAY_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.LlamaEntityRenderer.GRAY_TEXTURE); }
 // public static void GRAY_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.render.entity.LlamaEntityRenderer.GRAY_TEXTURE = value.wrapperContained; }
 
-// public LlamaEntityRenderer(Object ctx,yarnwrap.client.render.entity.model.EntityModelLayer layer) { this.wrapperContained = new net.minecraft.client.render.entity.LlamaEntityRenderer(ctx,layer.wrapperContained); }
+// public LlamaEntityRenderer(Object context,yarnwrap.client.render.entity.model.EntityModelLayer layer,yarnwrap.client.render.entity.model.EntityModelLayer babyLayer) { this.wrapperContained = new net.minecraft.client.render.entity.LlamaEntityRenderer(context,layer.wrapperContained,babyLayer.wrapperContained); }
 
 }

@@ -1,59 +1,42 @@
 package yarnwrap.client.render.block.entity;
 public class BannerBlockEntityRenderer { public net.minecraft.client.render.block.entity.BannerBlockEntityRenderer wrapperContained; public BannerBlockEntityRenderer(net.minecraft.client.render.block.entity.BannerBlockEntityRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart banner() { return new yarnwrap.client.model.ModelPart(wrapperContained.banner); }
-// public void banner(yarnwrap.client.model.ModelPart value) { wrapperContained.banner = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart banner() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.banner); }
-// public static void banner(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.banner = value.wrapperContained; }
-
-// public yarnwrap.client.model.ModelPart pillar() { return new yarnwrap.client.model.ModelPart(wrapperContained.pillar); }
-// public void pillar(yarnwrap.client.model.ModelPart value) { wrapperContained.pillar = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart pillar() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.pillar); }
-// public static void pillar(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.pillar = value.wrapperContained; }
-
-// public yarnwrap.client.model.ModelPart crossbar() { return new yarnwrap.client.model.ModelPart(wrapperContained.crossbar); }
-// public void crossbar(yarnwrap.client.model.ModelPart value) { wrapperContained.crossbar = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart crossbar() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.crossbar); }
-// public static void crossbar(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.crossbar = value.wrapperContained; }
-
-// public java.lang.String BANNER() { return wrapperContained.BANNER; }
-// public void BANNER(java.lang.String value) { wrapperContained.BANNER = value; }
-public static java.lang.String BANNER() { return net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.BANNER; }
-// public static void BANNER(java.lang.String value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.BANNER = value; }
-
-// public int WIDTH() { return wrapperContained.WIDTH; }
-// public void WIDTH(int value) { wrapperContained.WIDTH = value; }
-// public static int WIDTH() { return net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.WIDTH; }
-// public static void WIDTH(int value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.WIDTH = value; }
-
-// public int HEIGHT() { return wrapperContained.HEIGHT; }
-// public void HEIGHT(int value) { wrapperContained.HEIGHT = value; }
-// public static int HEIGHT() { return net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.HEIGHT; }
-// public static void HEIGHT(int value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.HEIGHT = value; }
-
 // public int ROTATIONS() { return wrapperContained.ROTATIONS; }
 // public void ROTATIONS(int value) { wrapperContained.ROTATIONS = value; }
 // public static int ROTATIONS() { return net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.ROTATIONS; }
 // public static void ROTATIONS(int value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.ROTATIONS = value; }
 
-// public java.lang.String PILLAR() { return wrapperContained.PILLAR; }
-// public void PILLAR(java.lang.String value) { wrapperContained.PILLAR = value; }
-// public static java.lang.String PILLAR() { return net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.PILLAR; }
-// public static void PILLAR(java.lang.String value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.PILLAR = value; }
+// public yarnwrap.client.render.block.entity.model.BannerBlockModel standingModel() { return new yarnwrap.client.render.block.entity.model.BannerBlockModel(wrapperContained.standingModel); }
+// public void standingModel(yarnwrap.client.render.block.entity.model.BannerBlockModel value) { wrapperContained.standingModel = value.wrapperContained; }
+// public static yarnwrap.client.render.block.entity.model.BannerBlockModel standingModel() { return new yarnwrap.client.render.block.entity.model.BannerBlockModel(net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.standingModel); }
+// public static void standingModel(yarnwrap.client.render.block.entity.model.BannerBlockModel value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.standingModel = value.wrapperContained; }
 
-// public java.lang.String CROSSBAR() { return wrapperContained.CROSSBAR; }
-// public void CROSSBAR(java.lang.String value) { wrapperContained.CROSSBAR = value; }
-// public static java.lang.String CROSSBAR() { return net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.CROSSBAR; }
-// public static void CROSSBAR(java.lang.String value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.CROSSBAR = value; }
+// public yarnwrap.client.render.block.entity.model.BannerBlockModel wallModel() { return new yarnwrap.client.render.block.entity.model.BannerBlockModel(wrapperContained.wallModel); }
+// public void wallModel(yarnwrap.client.render.block.entity.model.BannerBlockModel value) { wrapperContained.wallModel = value.wrapperContained; }
+// public static yarnwrap.client.render.block.entity.model.BannerBlockModel wallModel() { return new yarnwrap.client.render.block.entity.model.BannerBlockModel(net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.wallModel); }
+// public static void wallModel(yarnwrap.client.render.block.entity.model.BannerBlockModel value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.wallModel = value.wrapperContained; }
 
-// public BannerBlockEntityRenderer(Object ctx) { this.wrapperContained = new net.minecraft.client.render.block.entity.BannerBlockEntityRenderer(ctx); }
-// public void renderCanvas(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.model.ModelPart canvas,yarnwrap.client.util.SpriteIdentifier baseSprite,boolean isBanner,yarnwrap.util.DyeColor color,yarnwrap.component.type.BannerPatternsComponent patterns,boolean glint) { wrapperContained.renderCanvas(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,canvas.wrapperContained,baseSprite.wrapperContained,isBanner,color.wrapperContained,patterns.wrapperContained,glint); }
-// public static void renderCanvas(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.model.ModelPart canvas,yarnwrap.client.util.SpriteIdentifier baseSprite,boolean isBanner,yarnwrap.util.DyeColor color,yarnwrap.component.type.BannerPatternsComponent patterns,boolean glint, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.renderCanvas(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,canvas.wrapperContained,baseSprite.wrapperContained,isBanner,color.wrapperContained,patterns.wrapperContained,glint); }
+// public yarnwrap.client.render.block.entity.model.BannerFlagBlockModel standingFlagModel() { return new yarnwrap.client.render.block.entity.model.BannerFlagBlockModel(wrapperContained.standingFlagModel); }
+// public void standingFlagModel(yarnwrap.client.render.block.entity.model.BannerFlagBlockModel value) { wrapperContained.standingFlagModel = value.wrapperContained; }
+// public static yarnwrap.client.render.block.entity.model.BannerFlagBlockModel standingFlagModel() { return new yarnwrap.client.render.block.entity.model.BannerFlagBlockModel(net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.standingFlagModel); }
+// public static void standingFlagModel(yarnwrap.client.render.block.entity.model.BannerFlagBlockModel value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.standingFlagModel = value.wrapperContained; }
+
+// public yarnwrap.client.render.block.entity.model.BannerFlagBlockModel wallFlagModel() { return new yarnwrap.client.render.block.entity.model.BannerFlagBlockModel(wrapperContained.wallFlagModel); }
+// public void wallFlagModel(yarnwrap.client.render.block.entity.model.BannerFlagBlockModel value) { wrapperContained.wallFlagModel = value.wrapperContained; }
+// public static yarnwrap.client.render.block.entity.model.BannerFlagBlockModel wallFlagModel() { return new yarnwrap.client.render.block.entity.model.BannerFlagBlockModel(net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.wallFlagModel); }
+// public static void wallFlagModel(yarnwrap.client.render.block.entity.model.BannerFlagBlockModel value, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.wallFlagModel = value.wrapperContained; }
+
+public BannerBlockEntityRenderer(yarnwrap.client.render.entity.model.LoadedEntityModels models) { this.wrapperContained = new net.minecraft.client.render.block.entity.BannerBlockEntityRenderer(models.wrapperContained); }
+// public BannerBlockEntityRenderer(Object context) { this.wrapperContained = new net.minecraft.client.render.block.entity.BannerBlockEntityRenderer(context); }
+// public void renderCanvas(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.model.ModelPart canvas,yarnwrap.client.util.SpriteIdentifier baseSprite,boolean isBanner,yarnwrap.util.DyeColor color,yarnwrap.component.type.BannerPatternsComponent patterns,boolean glint,boolean solid) { wrapperContained.renderCanvas(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,canvas.wrapperContained,baseSprite.wrapperContained,isBanner,color.wrapperContained,patterns.wrapperContained,glint,solid); }
+// public static void renderCanvas(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.model.ModelPart canvas,yarnwrap.client.util.SpriteIdentifier baseSprite,boolean isBanner,yarnwrap.util.DyeColor color,yarnwrap.component.type.BannerPatternsComponent patterns,boolean glint,boolean solid, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.renderCanvas(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,canvas.wrapperContained,baseSprite.wrapperContained,isBanner,color.wrapperContained,patterns.wrapperContained,glint,solid); }
 // public void renderCanvas(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.model.ModelPart canvas,yarnwrap.client.util.SpriteIdentifier baseSprite,boolean isBanner,yarnwrap.util.DyeColor color,yarnwrap.component.type.BannerPatternsComponent patterns) { wrapperContained.renderCanvas(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,canvas.wrapperContained,baseSprite.wrapperContained,isBanner,color.wrapperContained,patterns.wrapperContained); }
 // public static void renderCanvas(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.model.ModelPart canvas,yarnwrap.client.util.SpriteIdentifier baseSprite,boolean isBanner,yarnwrap.util.DyeColor color,yarnwrap.component.type.BannerPatternsComponent patterns, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.renderCanvas(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,canvas.wrapperContained,baseSprite.wrapperContained,isBanner,color.wrapperContained,patterns.wrapperContained); }
-// public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
-public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.getTexturedModelData()); }
 // public void renderLayer(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.model.ModelPart canvas,yarnwrap.client.util.SpriteIdentifier textureId,yarnwrap.util.DyeColor color) { wrapperContained.renderLayer(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,canvas.wrapperContained,textureId.wrapperContained,color.wrapperContained); }
 // public static void renderLayer(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.model.ModelPart canvas,yarnwrap.client.util.SpriteIdentifier textureId,yarnwrap.util.DyeColor color, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.renderLayer(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,canvas.wrapperContained,textureId.wrapperContained,color.wrapperContained); }
+// public void render(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,float rotation,yarnwrap.client.render.block.entity.model.BannerBlockModel model,yarnwrap.client.render.block.entity.model.BannerFlagBlockModel flagModel,float sway,yarnwrap.util.DyeColor baseColor,yarnwrap.component.type.BannerPatternsComponent patterns) { wrapperContained.render(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,rotation,model.wrapperContained,flagModel.wrapperContained,sway,baseColor.wrapperContained,patterns.wrapperContained); }
+// public static void render(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,float rotation,yarnwrap.client.render.block.entity.model.BannerBlockModel model,yarnwrap.client.render.block.entity.model.BannerFlagBlockModel flagModel,float sway,yarnwrap.util.DyeColor baseColor,yarnwrap.component.type.BannerPatternsComponent patterns, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.render(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,rotation,model.wrapperContained,flagModel.wrapperContained,sway,baseColor.wrapperContained,patterns.wrapperContained); }
+public void renderAsItem(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.util.DyeColor baseColor,yarnwrap.component.type.BannerPatternsComponent patterns) { wrapperContained.renderAsItem(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,baseColor.wrapperContained,patterns.wrapperContained); }
+// public static void renderAsItem(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.util.DyeColor baseColor,yarnwrap.component.type.BannerPatternsComponent patterns, ) { net.minecraft.client.render.block.entity.BannerBlockEntityRenderer.renderAsItem(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,baseColor.wrapperContained,patterns.wrapperContained); }
 
 }

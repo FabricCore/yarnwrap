@@ -51,11 +51,6 @@ public class BeeEntityModel { public net.minecraft.client.render.entity.model.Be
 // public static float bodyPitch() { return net.minecraft.client.render.entity.model.BeeEntityModel.bodyPitch; }
 // public static void bodyPitch(float value, ) { net.minecraft.client.render.entity.model.BeeEntityModel.bodyPitch = value; }
 
-// public float BONE_BASE_Y_PIVOT() { return wrapperContained.BONE_BASE_Y_PIVOT; }
-// public void BONE_BASE_Y_PIVOT(float value) { wrapperContained.BONE_BASE_Y_PIVOT = value; }
-// public static float BONE_BASE_Y_PIVOT() { return net.minecraft.client.render.entity.model.BeeEntityModel.BONE_BASE_Y_PIVOT; }
-// public static void BONE_BASE_Y_PIVOT(float value, ) { net.minecraft.client.render.entity.model.BeeEntityModel.BONE_BASE_Y_PIVOT = value; }
-
 // public java.lang.String BONE() { return wrapperContained.BONE; }
 // public void BONE(java.lang.String value) { wrapperContained.BONE = value; }
 // public static java.lang.String BONE() { return net.minecraft.client.render.entity.model.BeeEntityModel.BONE; }
@@ -91,7 +86,11 @@ public class BeeEntityModel { public net.minecraft.client.render.entity.model.Be
 // public static java.lang.String BACK_LEGS() { return net.minecraft.client.render.entity.model.BeeEntityModel.BACK_LEGS; }
 // public static void BACK_LEGS(java.lang.String value, ) { net.minecraft.client.render.entity.model.BeeEntityModel.BACK_LEGS = value; }
 
-public BeeEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.BeeEntityModel(root.wrapperContained); }
+// public yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.BABY_TRANSFORMER); }
+// public void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.BABY_TRANSFORMER = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.BeeEntityModel.BABY_TRANSFORMER); }
+// public static void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.BeeEntityModel.BABY_TRANSFORMER = value.wrapperContained; }
+
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.BeeEntityModel.getTexturedModelData()); }
 

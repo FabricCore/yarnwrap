@@ -5,5 +5,7 @@ public Object getType() { return wrapperContained.getType(); }
 // public static Object getType() { return net.minecraft.client.gui.Selectable.getType(); }
 public boolean isNarratable() { return wrapperContained.isNarratable(); }
 // public static boolean isNarratable() { return net.minecraft.client.gui.Selectable.isNarratable(); }
+public java.util.Collection getNarratedParts() { return wrapperContained.getNarratedParts(); }
+// public static java.util.Collection getNarratedParts() { return net.minecraft.client.gui.Selectable.getNarratedParts(); }
 
 }

@@ -1,6 +1,11 @@
 package yarnwrap.entity.boss.dragon.phase;
 public class SittingScanningPhase { public net.minecraft.entity.boss.dragon.phase.SittingScanningPhase wrapperContained; public SittingScanningPhase(net.minecraft.entity.boss.dragon.phase.SittingScanningPhase wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public int ticks() { return wrapperContained.ticks; }
+// public void ticks(int value) { wrapperContained.ticks = value; }
+// public static int ticks() { return net.minecraft.entity.boss.dragon.phase.SittingScanningPhase.ticks; }
+// public static void ticks(int value, ) { net.minecraft.entity.boss.dragon.phase.SittingScanningPhase.ticks = value; }
+
 // public yarnwrap.entity.ai.TargetPredicate PLAYER_WITHIN_RANGE_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.PLAYER_WITHIN_RANGE_PREDICATE); }
 // public void PLAYER_WITHIN_RANGE_PREDICATE(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.PLAYER_WITHIN_RANGE_PREDICATE = value.wrapperContained; }
 // public static yarnwrap.entity.ai.TargetPredicate PLAYER_WITHIN_RANGE_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.boss.dragon.phase.SittingScanningPhase.PLAYER_WITHIN_RANGE_PREDICATE); }
@@ -31,12 +36,7 @@ public class SittingScanningPhase { public net.minecraft.entity.boss.dragon.phas
 // public static int MAX_PLAYER_RANGE() { return net.minecraft.entity.boss.dragon.phase.SittingScanningPhase.MAX_PLAYER_RANGE; }
 // public static void MAX_PLAYER_RANGE(int value, ) { net.minecraft.entity.boss.dragon.phase.SittingScanningPhase.MAX_PLAYER_RANGE = value; }
 
-// public int ticks() { return wrapperContained.ticks; }
-// public void ticks(int value) { wrapperContained.ticks = value; }
-// public static int ticks() { return net.minecraft.entity.boss.dragon.phase.SittingScanningPhase.ticks; }
-// public static void ticks(int value, ) { net.minecraft.entity.boss.dragon.phase.SittingScanningPhase.ticks = value; }
-
-// public boolean method_18447(yarnwrap.entity.boss.dragon.EnderDragonEntity player) { return wrapperContained.method_18447(player.wrapperContained); }
-// public static boolean method_18447(yarnwrap.entity.boss.dragon.EnderDragonEntity player, ) { return net.minecraft.entity.boss.dragon.phase.SittingScanningPhase.method_18447(player.wrapperContained); }
+// public boolean method_18447(yarnwrap.entity.boss.dragon.EnderDragonEntity player,yarnwrap.entity.LivingEntity world) { return wrapperContained.method_18447(player.wrapperContained,world.wrapperContained); }
+// public static boolean method_18447(yarnwrap.entity.boss.dragon.EnderDragonEntity player,yarnwrap.entity.LivingEntity world, ) { return net.minecraft.entity.boss.dragon.phase.SittingScanningPhase.method_18447(player.wrapperContained,world.wrapperContained); }
 
 }

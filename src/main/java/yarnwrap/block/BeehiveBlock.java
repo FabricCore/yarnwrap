@@ -1,10 +1,10 @@
 package yarnwrap.block;
 public class BeehiveBlock { public net.minecraft.block.BeehiveBlock wrapperContained; public BeehiveBlock(net.minecraft.block.BeehiveBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.BeehiveBlock.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.BeehiveBlock.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.BeehiveBlock.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.BeehiveBlock.FACING = value.wrapperContained; }
 
 // public yarnwrap.state.property.IntProperty HONEY_LEVEL() { return new yarnwrap.state.property.IntProperty(wrapperContained.HONEY_LEVEL); }
 // public void HONEY_LEVEL(yarnwrap.state.property.IntProperty value) { wrapperContained.HONEY_LEVEL = value.wrapperContained; }

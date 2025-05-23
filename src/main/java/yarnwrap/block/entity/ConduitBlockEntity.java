@@ -21,11 +21,6 @@ public class ConduitBlockEntity { public net.minecraft.block.entity.ConduitBlock
 // public static boolean active() { return net.minecraft.block.entity.ConduitBlockEntity.active; }
 // public static void active(boolean value, ) { net.minecraft.block.entity.ConduitBlockEntity.active = value; }
 
-// public java.util.UUID targetUuid() { return wrapperContained.targetUuid; }
-// public void targetUuid(java.util.UUID value) { wrapperContained.targetUuid = value; }
-// public static java.util.UUID targetUuid() { return net.minecraft.block.entity.ConduitBlockEntity.targetUuid; }
-// public static void targetUuid(java.util.UUID value, ) { net.minecraft.block.entity.ConduitBlockEntity.targetUuid = value; }
-
 public int ticks() { return wrapperContained.ticks; }
 public void ticks(int value) { wrapperContained.ticks = value; }
 // public static int ticks() { return net.minecraft.block.entity.ConduitBlockEntity.ticks; }
@@ -41,10 +36,10 @@ public void ticks(int value) { wrapperContained.ticks = value; }
 // public static long nextAmbientSoundTime() { return net.minecraft.block.entity.ConduitBlockEntity.nextAmbientSoundTime; }
 // public static void nextAmbientSoundTime(long value, ) { net.minecraft.block.entity.ConduitBlockEntity.nextAmbientSoundTime = value; }
 
-// public yarnwrap.entity.LivingEntity targetEntity() { return new yarnwrap.entity.LivingEntity(wrapperContained.targetEntity); }
-// public void targetEntity(yarnwrap.entity.LivingEntity value) { wrapperContained.targetEntity = value.wrapperContained; }
-// public static yarnwrap.entity.LivingEntity targetEntity() { return new yarnwrap.entity.LivingEntity(net.minecraft.block.entity.ConduitBlockEntity.targetEntity); }
-// public static void targetEntity(yarnwrap.entity.LivingEntity value, ) { net.minecraft.block.entity.ConduitBlockEntity.targetEntity = value.wrapperContained; }
+// // public yarnwrap.entity.LazyEntityReference targetEntity() { return new yarnwrap.entity.LazyEntityReference(wrapperContained.targetEntity); }
+// // public void targetEntity(yarnwrap.entity.LazyEntityReference value) { wrapperContained.targetEntity = value.wrapperContained; }
+// // public static yarnwrap.entity.LazyEntityReference targetEntity() { return new yarnwrap.entity.LazyEntityReference(net.minecraft.block.entity.ConduitBlockEntity.targetEntity); }
+// // public static void targetEntity(yarnwrap.entity.LazyEntityReference value, ) { net.minecraft.block.entity.ConduitBlockEntity.targetEntity = value.wrapperContained; }
 
 // public int MIN_BLOCKS_TO_ACTIVATE() { return wrapperContained.MIN_BLOCKS_TO_ACTIVATE; }
 // public void MIN_BLOCKS_TO_ACTIVATE(int value) { wrapperContained.MIN_BLOCKS_TO_ACTIVATE = value; }
@@ -54,28 +49,18 @@ public void ticks(int value) { wrapperContained.ticks = value; }
 public ConduitBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.ConduitBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public void givePlayersEffects(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List activatingBlocks) { wrapperContained.givePlayersEffects(world.wrapperContained,pos.wrapperContained,activatingBlocks); }
 // public static void givePlayersEffects(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List activatingBlocks, ) { net.minecraft.block.entity.ConduitBlockEntity.givePlayersEffects(world.wrapperContained,pos.wrapperContained,activatingBlocks); }
-// public yarnwrap.entity.LivingEntity findTargetEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.UUID uuid) { return new yarnwrap.entity.LivingEntity(wrapperContained.findTargetEntity(world.wrapperContained,pos.wrapperContained,uuid)); }
-// public static yarnwrap.entity.LivingEntity findTargetEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.UUID uuid, ) { return new yarnwrap.entity.LivingEntity(net.minecraft.block.entity.ConduitBlockEntity.findTargetEntity(world.wrapperContained,pos.wrapperContained,uuid)); }
-// public boolean method_11058(java.util.UUID entity) { return wrapperContained.method_11058(entity); }
-// public static boolean method_11058(java.util.UUID entity, ) { return net.minecraft.block.entity.ConduitBlockEntity.method_11058(entity); }
 // public yarnwrap.util.math.Box getAttackZone(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.Box(wrapperContained.getAttackZone(pos.wrapperContained)); }
 // public static yarnwrap.util.math.Box getAttackZone(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.Box(net.minecraft.block.entity.ConduitBlockEntity.getAttackZone(pos.wrapperContained)); }
-// public boolean method_11060(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_11060(entity.wrapperContained); }
-// public static boolean method_11060(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.block.entity.ConduitBlockEntity.method_11060(entity.wrapperContained); }
-public float getRotation(float tickDelta) { return wrapperContained.getRotation(tickDelta); }
-// public static float getRotation(float tickDelta, ) { return net.minecraft.block.entity.ConduitBlockEntity.getRotation(tickDelta); }
+public float getRotation(float tickProgress) { return wrapperContained.getRotation(tickProgress); }
+// public static float getRotation(float tickProgress, ) { return net.minecraft.block.entity.ConduitBlockEntity.getRotation(tickProgress); }
 // public void setEyeOpen(boolean eyeOpen) { wrapperContained.setEyeOpen(eyeOpen); }
 // public static void setEyeOpen(boolean eyeOpen, ) { net.minecraft.block.entity.ConduitBlockEntity.setEyeOpen(eyeOpen); }
 // public void spawnNautilusParticles(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List activatingBlocks,yarnwrap.entity.Entity entity,int ticks) { wrapperContained.spawnNautilusParticles(world.wrapperContained,pos.wrapperContained,activatingBlocks,entity.wrapperContained,ticks); }
 // public static void spawnNautilusParticles(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List activatingBlocks,yarnwrap.entity.Entity entity,int ticks, ) { net.minecraft.block.entity.ConduitBlockEntity.spawnNautilusParticles(world.wrapperContained,pos.wrapperContained,activatingBlocks,entity.wrapperContained,ticks); }
-// public void updateTargetEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.ConduitBlockEntity blockEntity) { wrapperContained.updateTargetEntity(world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained); }
-// public static void updateTargetEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.ConduitBlockEntity blockEntity, ) { net.minecraft.block.entity.ConduitBlockEntity.updateTargetEntity(world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained); }
 public boolean isActive() { return wrapperContained.isActive(); }
 // public static boolean isActive() { return net.minecraft.block.entity.ConduitBlockEntity.isActive(); }
 public boolean isEyeOpen() { return wrapperContained.isEyeOpen(); }
 // public static boolean isEyeOpen() { return net.minecraft.block.entity.ConduitBlockEntity.isEyeOpen(); }
-// public void attackHostileEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,java.util.List activatingBlocks,yarnwrap.block.entity.ConduitBlockEntity blockEntity) { wrapperContained.attackHostileEntity(world.wrapperContained,pos.wrapperContained,state.wrapperContained,activatingBlocks,blockEntity.wrapperContained); }
-// public static void attackHostileEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,java.util.List activatingBlocks,yarnwrap.block.entity.ConduitBlockEntity blockEntity, ) { net.minecraft.block.entity.ConduitBlockEntity.attackHostileEntity(world.wrapperContained,pos.wrapperContained,state.wrapperContained,activatingBlocks,blockEntity.wrapperContained); }
 // public boolean updateActivatingBlocks(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List activatingBlocks) { return wrapperContained.updateActivatingBlocks(world.wrapperContained,pos.wrapperContained,activatingBlocks); }
 // public static boolean updateActivatingBlocks(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,java.util.List activatingBlocks, ) { return net.minecraft.block.entity.ConduitBlockEntity.updateActivatingBlocks(world.wrapperContained,pos.wrapperContained,activatingBlocks); }
 // public void clientTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.ConduitBlockEntity blockEntity) { wrapperContained.clientTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
@@ -84,5 +69,13 @@ public boolean isEyeOpen() { return wrapperContained.isEyeOpen(); }
 // public static void openEye(yarnwrap.block.entity.ConduitBlockEntity blockEntity,java.util.List activatingBlocks, ) { net.minecraft.block.entity.ConduitBlockEntity.openEye(blockEntity.wrapperContained,activatingBlocks); }
 // public void serverTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.ConduitBlockEntity blockEntity) { wrapperContained.serverTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 // public static void serverTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.ConduitBlockEntity blockEntity, ) { net.minecraft.block.entity.ConduitBlockEntity.serverTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
+// public yarnwrap.entity.LazyEntityReference findAttackTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.entity.LazyEntityReference(wrapperContained.findAttackTarget(world.wrapperContained,pos.wrapperContained)); }
+// public static yarnwrap.entity.LazyEntityReference findAttackTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.entity.LazyEntityReference(net.minecraft.block.entity.ConduitBlockEntity.findAttackTarget(world.wrapperContained,pos.wrapperContained)); }
+// public void tryAttack(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.ConduitBlockEntity blockEntity,boolean canAttack) { wrapperContained.tryAttack(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained,canAttack); }
+// public static void tryAttack(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.ConduitBlockEntity blockEntity,boolean canAttack, ) { net.minecraft.block.entity.ConduitBlockEntity.tryAttack(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained,canAttack); }
+// public yarnwrap.entity.LazyEntityReference getValidTarget(yarnwrap.entity.LazyEntityReference currentTarget,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,boolean canAttack) { return new yarnwrap.entity.LazyEntityReference(wrapperContained.getValidTarget(currentTarget.wrapperContained,world.wrapperContained,pos.wrapperContained,canAttack)); }
+// public static yarnwrap.entity.LazyEntityReference getValidTarget(yarnwrap.entity.LazyEntityReference currentTarget,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,boolean canAttack, ) { return new yarnwrap.entity.LazyEntityReference(net.minecraft.block.entity.ConduitBlockEntity.getValidTarget(currentTarget.wrapperContained,world.wrapperContained,pos.wrapperContained,canAttack)); }
+// public boolean method_71634(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_71634(entity.wrapperContained); }
+// public static boolean method_71634(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.block.entity.ConduitBlockEntity.method_71634(entity.wrapperContained); }
 
 }

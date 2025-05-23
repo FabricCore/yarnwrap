@@ -41,10 +41,10 @@ public class FileUpload { public net.minecraft.client.realms.FileUpload wrapperC
 // public static java.lang.String clientVersion() { return net.minecraft.client.realms.FileUpload.clientVersion; }
 // public static void clientVersion(java.lang.String value, ) { net.minecraft.client.realms.FileUpload.clientVersion = value; }
 
-// public yarnwrap.client.realms.UploadStatus uploadStatus() { return new yarnwrap.client.realms.UploadStatus(wrapperContained.uploadStatus); }
-// public void uploadStatus(yarnwrap.client.realms.UploadStatus value) { wrapperContained.uploadStatus = value.wrapperContained; }
-// public static yarnwrap.client.realms.UploadStatus uploadStatus() { return new yarnwrap.client.realms.UploadStatus(net.minecraft.client.realms.FileUpload.uploadStatus); }
-// public static void uploadStatus(yarnwrap.client.realms.UploadStatus value, ) { net.minecraft.client.realms.FileUpload.uploadStatus = value.wrapperContained; }
+// public yarnwrap.client.realms.util.UploadProgress uploadStatus() { return new yarnwrap.client.realms.util.UploadProgress(wrapperContained.uploadStatus); }
+// public void uploadStatus(yarnwrap.client.realms.util.UploadProgress value) { wrapperContained.uploadStatus = value.wrapperContained; }
+// public static yarnwrap.client.realms.util.UploadProgress uploadStatus() { return new yarnwrap.client.realms.util.UploadProgress(net.minecraft.client.realms.FileUpload.uploadStatus); }
+// public static void uploadStatus(yarnwrap.client.realms.util.UploadProgress value, ) { net.minecraft.client.realms.FileUpload.uploadStatus = value.wrapperContained; }
 
 // public java.util.concurrent.atomic.AtomicBoolean cancelled() { return wrapperContained.cancelled; }
 // public void cancelled(java.util.concurrent.atomic.AtomicBoolean value) { wrapperContained.cancelled = value; }
@@ -76,15 +76,15 @@ public class FileUpload { public net.minecraft.client.realms.FileUpload wrapperC
 // public static java.lang.String worldVersion() { return net.minecraft.client.realms.FileUpload.worldVersion; }
 // public static void worldVersion(java.lang.String value, ) { net.minecraft.client.realms.FileUpload.worldVersion = value; }
 
-public FileUpload(java.io.File file,long worldId,int slotId,yarnwrap.client.realms.dto.UploadInfo uploadInfo,yarnwrap.client.session.Session session,java.lang.String clientVersion,java.lang.String worldVersion,yarnwrap.client.realms.UploadStatus uploadStatus) { this.wrapperContained = new net.minecraft.client.realms.FileUpload(file,worldId,slotId,uploadInfo.wrapperContained,session.wrapperContained,clientVersion,worldVersion,uploadStatus.wrapperContained); }
+public FileUpload(java.io.File file,long worldId,int slotId,yarnwrap.client.realms.dto.UploadInfo uploadInfo,yarnwrap.client.session.Session session,java.lang.String clientVersion,java.lang.String worldVersion,yarnwrap.client.realms.util.UploadProgress uploadStatus) { this.wrapperContained = new net.minecraft.client.realms.FileUpload(file,worldId,slotId,uploadInfo.wrapperContained,session.wrapperContained,clientVersion,worldVersion,uploadStatus.wrapperContained); }
 public void cancel() { wrapperContained.cancel(); }
 // public static void cancel() { net.minecraft.client.realms.FileUpload.cancel(); }
-// public yarnwrap.client.realms.gui.screen.UploadResult requestUpload(int currentAttempt) { return new yarnwrap.client.realms.gui.screen.UploadResult(wrapperContained.requestUpload(currentAttempt)); }
-// public static yarnwrap.client.realms.gui.screen.UploadResult requestUpload(int currentAttempt, ) { return new yarnwrap.client.realms.gui.screen.UploadResult(net.minecraft.client.realms.FileUpload.requestUpload(currentAttempt)); }
+// public yarnwrap.client.realms.util.UploadResult requestUpload(int currentAttempt) { return new yarnwrap.client.realms.util.UploadResult(wrapperContained.requestUpload(currentAttempt)); }
+// public static yarnwrap.client.realms.util.UploadResult requestUpload(int currentAttempt, ) { return new yarnwrap.client.realms.util.UploadResult(net.minecraft.client.realms.FileUpload.requestUpload(currentAttempt)); }
 // public boolean shouldRetry(long retryDelaySeconds,int currentAttempt) { return wrapperContained.shouldRetry(retryDelaySeconds,currentAttempt); }
 // public static boolean shouldRetry(long retryDelaySeconds,int currentAttempt, ) { return net.minecraft.client.realms.FileUpload.shouldRetry(retryDelaySeconds,currentAttempt); }
-public void upload(java.util.function.Consumer callback) { wrapperContained.upload(callback); }
-// public static void upload(java.util.function.Consumer callback, ) { net.minecraft.client.realms.FileUpload.upload(callback); }
+public yarnwrap.client.realms.util.UploadResult upload() { return new yarnwrap.client.realms.util.UploadResult(wrapperContained.upload()); }
+// public static yarnwrap.client.realms.util.UploadResult upload() { return new yarnwrap.client.realms.util.UploadResult(net.minecraft.client.realms.FileUpload.upload()); }
 // public long getRetryDelaySeconds(org.apache.http.HttpResponse response) { return wrapperContained.getRetryDelaySeconds(response); }
 // public static long getRetryDelaySeconds(org.apache.http.HttpResponse response, ) { return net.minecraft.client.realms.FileUpload.getRetryDelaySeconds(response); }
 // public void handleResponse(org.apache.http.HttpResponse response,Object uploadResultBuilder) { wrapperContained.handleResponse(response,uploadResultBuilder); }
@@ -95,7 +95,7 @@ public void upload(java.util.function.Consumer callback) { wrapperContained.uplo
 // public static void cleanup(org.apache.http.client.methods.HttpPost request,org.apache.http.impl.client.CloseableHttpClient client, ) { net.minecraft.client.realms.FileUpload.cleanup(request,client); }
 public boolean isFinished() { return wrapperContained.isFinished(); }
 // public static boolean isFinished() { return net.minecraft.client.realms.FileUpload.isFinished(); }
-// public yarnwrap.client.realms.gui.screen.UploadResult retryUploadAfter(long retryDelaySeconds,int currentAttempt) { return new yarnwrap.client.realms.gui.screen.UploadResult(wrapperContained.retryUploadAfter(retryDelaySeconds,currentAttempt)); }
-// public static yarnwrap.client.realms.gui.screen.UploadResult retryUploadAfter(long retryDelaySeconds,int currentAttempt, ) { return new yarnwrap.client.realms.gui.screen.UploadResult(net.minecraft.client.realms.FileUpload.retryUploadAfter(retryDelaySeconds,currentAttempt)); }
+// public yarnwrap.client.realms.util.UploadResult retryUploadAfter(long retryDelaySeconds,int currentAttempt) { return new yarnwrap.client.realms.util.UploadResult(wrapperContained.retryUploadAfter(retryDelaySeconds,currentAttempt)); }
+// public static yarnwrap.client.realms.util.UploadResult retryUploadAfter(long retryDelaySeconds,int currentAttempt, ) { return new yarnwrap.client.realms.util.UploadResult(net.minecraft.client.realms.FileUpload.retryUploadAfter(retryDelaySeconds,currentAttempt)); }
 
 }

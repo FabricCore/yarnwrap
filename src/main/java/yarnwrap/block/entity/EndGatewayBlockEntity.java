@@ -26,12 +26,22 @@ public class EndGatewayBlockEntity { public net.minecraft.block.entity.EndGatewa
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.block.entity.EndGatewayBlockEntity.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.block.entity.EndGatewayBlockEntity.LOGGER = value; }
 
+// public long DEFAULT_AGE() { return wrapperContained.DEFAULT_AGE; }
+// public void DEFAULT_AGE(long value) { wrapperContained.DEFAULT_AGE = value; }
+// public static long DEFAULT_AGE() { return net.minecraft.block.entity.EndGatewayBlockEntity.DEFAULT_AGE; }
+// public static void DEFAULT_AGE(long value, ) { net.minecraft.block.entity.EndGatewayBlockEntity.DEFAULT_AGE = value; }
+
+// public boolean DEFAULT_EXACT_TELEPORT() { return wrapperContained.DEFAULT_EXACT_TELEPORT; }
+// public void DEFAULT_EXACT_TELEPORT(boolean value) { wrapperContained.DEFAULT_EXACT_TELEPORT = value; }
+// public static boolean DEFAULT_EXACT_TELEPORT() { return net.minecraft.block.entity.EndGatewayBlockEntity.DEFAULT_EXACT_TELEPORT; }
+// public static void DEFAULT_EXACT_TELEPORT(boolean value, ) { net.minecraft.block.entity.EndGatewayBlockEntity.DEFAULT_EXACT_TELEPORT = value; }
+
 // public yarnwrap.util.math.BlockPos findExitPortalPos(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,int searchRadius,boolean force) { return new yarnwrap.util.math.BlockPos(wrapperContained.findExitPortalPos(world.wrapperContained,pos.wrapperContained,searchRadius,force)); }
 // public static yarnwrap.util.math.BlockPos findExitPortalPos(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,int searchRadius,boolean force, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.block.entity.EndGatewayBlockEntity.findExitPortalPos(world.wrapperContained,pos.wrapperContained,searchRadius,force)); }
 // public void startTeleportCooldown(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.EndGatewayBlockEntity blockEntity) { wrapperContained.startTeleportCooldown(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 // public static void startTeleportCooldown(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.EndGatewayBlockEntity blockEntity, ) { net.minecraft.block.entity.EndGatewayBlockEntity.startTeleportCooldown(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
-public float getCooldownBeamHeight(float tickDelta) { return wrapperContained.getCooldownBeamHeight(tickDelta); }
-// public static float getCooldownBeamHeight(float tickDelta, ) { return net.minecraft.block.entity.EndGatewayBlockEntity.getCooldownBeamHeight(tickDelta); }
+public float getCooldownBeamHeight(float tickProgress) { return wrapperContained.getCooldownBeamHeight(tickProgress); }
+// public static float getCooldownBeamHeight(float tickProgress, ) { return net.minecraft.block.entity.EndGatewayBlockEntity.getCooldownBeamHeight(tickProgress); }
 // public yarnwrap.util.math.BlockPos findPortalPosition(yarnwrap.world.chunk.WorldChunk chunk) { return new yarnwrap.util.math.BlockPos(wrapperContained.findPortalPosition(chunk.wrapperContained)); }
 // public static yarnwrap.util.math.BlockPos findPortalPosition(yarnwrap.world.chunk.WorldChunk chunk, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.block.entity.EndGatewayBlockEntity.findPortalPosition(chunk.wrapperContained)); }
 // public yarnwrap.world.chunk.WorldChunk getChunk(yarnwrap.world.World world,yarnwrap.util.math.Vec3d pos) { return new yarnwrap.world.chunk.WorldChunk(wrapperContained.getChunk(world.wrapperContained,pos.wrapperContained)); }
@@ -40,8 +50,8 @@ public int getDrawnSidesCount() { return wrapperContained.getDrawnSidesCount(); 
 // public static int getDrawnSidesCount() { return net.minecraft.block.entity.EndGatewayBlockEntity.getDrawnSidesCount(); }
 // public void createPortal(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.gen.feature.EndGatewayFeatureConfig config) { wrapperContained.createPortal(world.wrapperContained,pos.wrapperContained,config.wrapperContained); }
 // public static void createPortal(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.gen.feature.EndGatewayFeatureConfig config, ) { net.minecraft.block.entity.EndGatewayBlockEntity.createPortal(world.wrapperContained,pos.wrapperContained,config.wrapperContained); }
-public float getRecentlyGeneratedBeamHeight(float tickDelta) { return wrapperContained.getRecentlyGeneratedBeamHeight(tickDelta); }
-// public static float getRecentlyGeneratedBeamHeight(float tickDelta, ) { return net.minecraft.block.entity.EndGatewayBlockEntity.getRecentlyGeneratedBeamHeight(tickDelta); }
+public float getRecentlyGeneratedBeamHeight(float tickProgress) { return wrapperContained.getRecentlyGeneratedBeamHeight(tickProgress); }
+// public static float getRecentlyGeneratedBeamHeight(float tickProgress, ) { return net.minecraft.block.entity.EndGatewayBlockEntity.getRecentlyGeneratedBeamHeight(tickProgress); }
 public void setExitPortalPos(yarnwrap.util.math.BlockPos pos,boolean exactTeleport) { wrapperContained.setExitPortalPos(pos.wrapperContained,exactTeleport); }
 // public static void setExitPortalPos(yarnwrap.util.math.BlockPos pos,boolean exactTeleport, ) { net.minecraft.block.entity.EndGatewayBlockEntity.setExitPortalPos(pos.wrapperContained,exactTeleport); }
 // public yarnwrap.util.math.BlockPos findBestPortalExitPos(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.findBestPortalExitPos(world.wrapperContained,pos.wrapperContained)); }
@@ -60,8 +70,6 @@ public boolean needsCooldownBeforeTeleporting() { return wrapperContained.needsC
 // public static yarnwrap.util.math.Vec3d findTeleportLocation(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.block.entity.EndGatewayBlockEntity.findTeleportLocation(world.wrapperContained,pos.wrapperContained)); }
 // public void serverTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.EndGatewayBlockEntity blockEntity) { wrapperContained.serverTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 // public static void serverTick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.EndGatewayBlockEntity blockEntity, ) { net.minecraft.block.entity.EndGatewayBlockEntity.serverTick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
-// public void method_57012(yarnwrap.util.math.BlockPos exitPortalPos) { wrapperContained.method_57012(exitPortalPos.wrapperContained); }
-// public static void method_57012(yarnwrap.util.math.BlockPos exitPortalPos, ) { net.minecraft.block.entity.EndGatewayBlockEntity.method_57012(exitPortalPos.wrapperContained); }
 public yarnwrap.util.math.Vec3d getOrCreateExitPortalPos(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.getOrCreateExitPortalPos(world.wrapperContained,pos.wrapperContained)); }
 // public static yarnwrap.util.math.Vec3d getOrCreateExitPortalPos(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.block.entity.EndGatewayBlockEntity.getOrCreateExitPortalPos(world.wrapperContained,pos.wrapperContained)); }
 

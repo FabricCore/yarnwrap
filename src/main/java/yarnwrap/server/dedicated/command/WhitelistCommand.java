@@ -47,8 +47,6 @@ public class WhitelistCommand { public net.minecraft.server.dedicated.command.Wh
 // public static int executeRemove(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets, ) { return net.minecraft.server.dedicated.command.WhitelistCommand.executeRemove(source.wrapperContained,targets); }
 // public int method_13846(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13846(context); }
 // public static int method_13846(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.WhitelistCommand.method_13846(context); }
-// public boolean method_13847(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13847(source.wrapperContained); }
-// public static boolean method_13847(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.WhitelistCommand.method_13847(source.wrapperContained); }
 // public java.util.concurrent.CompletableFuture method_13848(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_13848(context,builder); }
 // public static java.util.concurrent.CompletableFuture method_13848(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.dedicated.command.WhitelistCommand.method_13848(context,builder); }
 // public java.util.concurrent.CompletableFuture method_13849(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_13849(context,builder); }

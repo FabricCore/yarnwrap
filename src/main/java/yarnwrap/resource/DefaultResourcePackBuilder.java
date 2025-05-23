@@ -48,8 +48,6 @@ public yarnwrap.resource.DefaultResourcePackBuilder withPath(yarnwrap.resource.R
 // public static yarnwrap.resource.DefaultResourcePackBuilder withPath(yarnwrap.resource.ResourceType type,java.nio.file.Path path, ) { return new yarnwrap.resource.DefaultResourcePackBuilder(net.minecraft.resource.DefaultResourcePackBuilder.withPath(type.wrapperContained,path)); }
 // public void method_45202(yarnwrap.resource.DefaultResourcePackBuilder builder) { wrapperContained.method_45202(builder.wrapperContained); }
 // public static void method_45202(yarnwrap.resource.DefaultResourcePackBuilder builder, ) { net.minecraft.resource.DefaultResourcePackBuilder.method_45202(builder.wrapperContained); }
-// public java.nio.file.Path toPath(java.net.URI uri) { return wrapperContained.toPath(uri); }
-// public static java.nio.file.Path toPath(java.net.URI uri, ) { return net.minecraft.resource.DefaultResourcePackBuilder.toPath(uri); }
 public yarnwrap.resource.DefaultResourcePackBuilder withRoot(java.nio.file.Path root) { return new yarnwrap.resource.DefaultResourcePackBuilder(wrapperContained.withRoot(root)); }
 // public static yarnwrap.resource.DefaultResourcePackBuilder withRoot(java.nio.file.Path root, ) { return new yarnwrap.resource.DefaultResourcePackBuilder(net.minecraft.resource.DefaultResourcePackBuilder.withRoot(root)); }
 // public java.util.List reverse(java.util.Collection paths) { return wrapperContained.reverse(paths); }
@@ -68,5 +66,7 @@ public yarnwrap.resource.DefaultResourcePack build(yarnwrap.resource.ResourcePac
 // public static void method_45211(yarnwrap.resource.ResourceType type,java.nio.file.Path path, ) { net.minecraft.resource.DefaultResourcePackBuilder.method_45211(type.wrapperContained,path); }
 // public void addRootPath(java.nio.file.Path path) { wrapperContained.addRootPath(path); }
 // public static void addRootPath(java.nio.file.Path path, ) { net.minecraft.resource.DefaultResourcePackBuilder.addRootPath(path); }
+// public java.util.List method_66030(yarnwrap.resource.ResourceType type) { return wrapperContained.method_66030(type.wrapperContained); }
+// public static java.util.List method_66030(yarnwrap.resource.ResourceType type, ) { return net.minecraft.resource.DefaultResourcePackBuilder.method_66030(type.wrapperContained); }
 
 }

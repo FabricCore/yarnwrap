@@ -22,6 +22,14 @@ public static com.mojang.serialization.MapCodec MODIFIER_CODEC() { return net.mi
 // public static void max(int value, ) { net.minecraft.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier.max = value; }
 
 // public SurfaceThresholdFilterPlacementModifier(Object heightmap,int min,int max) { this.wrapperContained = new net.minecraft.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier(heightmap,min,max); }
+// public com.mojang.datafixers.kinds.App method_38456(Object instance) { return wrapperContained.method_38456(instance); }
+// public static com.mojang.datafixers.kinds.App method_38456(Object instance, ) { return net.minecraft.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier.method_38456(instance); }
+// public java.lang.Integer method_38457(yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier placementModifier) { return wrapperContained.method_38457(placementModifier.wrapperContained); }
+// public static java.lang.Integer method_38457(yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier placementModifier, ) { return net.minecraft.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier.method_38457(placementModifier.wrapperContained); }
+// public java.lang.Integer method_38458(yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier placementModifier) { return wrapperContained.method_38458(placementModifier.wrapperContained); }
+// public static java.lang.Integer method_38458(yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier placementModifier, ) { return net.minecraft.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier.method_38458(placementModifier.wrapperContained); }
+// public Object method_38459(yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier placementModifier) { return wrapperContained.method_38459(placementModifier.wrapperContained); }
+// public static Object method_38459(yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier placementModifier, ) { return net.minecraft.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier.method_38459(placementModifier.wrapperContained); }
 // public yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier of(Object heightmap,int min,int max) { return new yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier(wrapperContained.of(heightmap,min,max)); }
 // public static yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier of(Object heightmap,int min,int max, ) { return new yarnwrap.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier(net.minecraft.world.gen.placementmodifier.SurfaceThresholdFilterPlacementModifier.of(heightmap,min,max)); }
 

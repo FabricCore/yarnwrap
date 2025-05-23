@@ -1,11 +1,6 @@
 package yarnwrap.client;
 public class MinecraftClient { public net.minecraft.client.MinecraftClient wrapperContained; public MinecraftClient(net.minecraft.client.MinecraftClient wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.util.profiler.Profiler profiler() { return new yarnwrap.util.profiler.Profiler(wrapperContained.profiler); }
-// public void profiler(yarnwrap.util.profiler.Profiler value) { wrapperContained.profiler = value.wrapperContained; }
-// public static yarnwrap.util.profiler.Profiler profiler() { return new yarnwrap.util.profiler.Profiler(net.minecraft.client.MinecraftClient.profiler); }
-// public static void profiler(yarnwrap.util.profiler.Profiler value, ) { net.minecraft.client.MinecraftClient.profiler = value.wrapperContained; }
-
 // public yarnwrap.client.util.WindowProvider windowProvider() { return new yarnwrap.client.util.WindowProvider(wrapperContained.windowProvider); }
 // public void windowProvider(yarnwrap.client.util.WindowProvider value) { wrapperContained.windowProvider = value.wrapperContained; }
 // public static yarnwrap.client.util.WindowProvider windowProvider() { return new yarnwrap.client.util.WindowProvider(net.minecraft.client.MinecraftClient.windowProvider); }
@@ -55,11 +50,6 @@ public java.io.File runDirectory() { return wrapperContained.runDirectory; }
 // public void instance(yarnwrap.client.MinecraftClient value) { wrapperContained.instance = value.wrapperContained; }
 // public static yarnwrap.client.MinecraftClient instance() { return new yarnwrap.client.MinecraftClient(net.minecraft.client.MinecraftClient.instance); }
 // public static void instance(yarnwrap.client.MinecraftClient value, ) { net.minecraft.client.MinecraftClient.instance = value.wrapperContained; }
-
-// public java.lang.String openProfilerSection() { return wrapperContained.openProfilerSection; }
-// public void openProfilerSection(java.lang.String value) { wrapperContained.openProfilerSection = value; }
-// public static java.lang.String openProfilerSection() { return net.minecraft.client.MinecraftClient.openProfilerSection; }
-// public static void openProfilerSection(java.lang.String value, ) { net.minecraft.client.MinecraftClient.openProfilerSection = value; }
 
 // public yarnwrap.client.toast.ToastManager toastManager() { return new yarnwrap.client.toast.ToastManager(wrapperContained.toastManager); }
 // public void toastManager(yarnwrap.client.toast.ToastManager value) { wrapperContained.toastManager = value.wrapperContained; }
@@ -161,11 +151,6 @@ public void player(yarnwrap.client.network.ClientPlayerEntity value) { wrapperCo
 // public static yarnwrap.client.sound.SoundManager soundManager() { return new yarnwrap.client.sound.SoundManager(net.minecraft.client.MinecraftClient.soundManager); }
 // public static void soundManager(yarnwrap.client.sound.SoundManager value, ) { net.minecraft.client.MinecraftClient.soundManager = value.wrapperContained; }
 
-// public Object renderTickCounter() { return wrapperContained.renderTickCounter; }
-// // public void renderTickCounter(Object value) { wrapperContained.renderTickCounter = value; }
-// // public static Object renderTickCounter() { return net.minecraft.client.MinecraftClient.renderTickCounter; }
-// // public static void renderTickCounter(Object value, ) { net.minecraft.client.MinecraftClient.renderTickCounter = value; }
-
 public yarnwrap.client.Mouse mouse() { return new yarnwrap.client.Mouse(wrapperContained.mouse); }
 // public void mouse(yarnwrap.client.Mouse value) { wrapperContained.mouse = value.wrapperContained; }
 // public static yarnwrap.client.Mouse mouse() { return new yarnwrap.client.Mouse(net.minecraft.client.MinecraftClient.mouse); }
@@ -210,16 +195,6 @@ public void chunkCullingEnabled(boolean value) { wrapperContained.chunkCullingEn
 // public void DEFAULT_FONT_ID(yarnwrap.util.Identifier value) { wrapperContained.DEFAULT_FONT_ID = value.wrapperContained; }
 public static yarnwrap.util.Identifier DEFAULT_FONT_ID() { return new yarnwrap.util.Identifier(net.minecraft.client.MinecraftClient.DEFAULT_FONT_ID); }
 // public static void DEFAULT_FONT_ID(yarnwrap.util.Identifier value, ) { net.minecraft.client.MinecraftClient.DEFAULT_FONT_ID = value.wrapperContained; }
-
-// public java.util.Queue renderTaskQueue() { return wrapperContained.renderTaskQueue; }
-// public void renderTaskQueue(java.util.Queue value) { wrapperContained.renderTaskQueue = value; }
-// public static java.util.Queue renderTaskQueue() { return net.minecraft.client.MinecraftClient.renderTaskQueue; }
-// public static void renderTaskQueue(java.util.Queue value, ) { net.minecraft.client.MinecraftClient.renderTaskQueue = value; }
-
-// public java.util.concurrent.atomic.AtomicReference worldGenProgressTracker() { return wrapperContained.worldGenProgressTracker; }
-// public void worldGenProgressTracker(java.util.concurrent.atomic.AtomicReference value) { wrapperContained.worldGenProgressTracker = value; }
-// public static java.util.concurrent.atomic.AtomicReference worldGenProgressTracker() { return net.minecraft.client.MinecraftClient.worldGenProgressTracker; }
-// public static void worldGenProgressTracker(java.util.concurrent.atomic.AtomicReference value, ) { net.minecraft.client.MinecraftClient.worldGenProgressTracker = value; }
 
 // public yarnwrap.client.render.item.ItemRenderer itemRenderer() { return new yarnwrap.client.render.item.ItemRenderer(wrapperContained.itemRenderer); }
 // public void itemRenderer(yarnwrap.client.render.item.ItemRenderer value) { wrapperContained.itemRenderer = value.wrapperContained; }
@@ -296,11 +271,6 @@ public void currentScreen(yarnwrap.client.gui.screen.Screen value) { wrapperCont
 // public static boolean integratedServerRunning() { return net.minecraft.client.MinecraftClient.integratedServerRunning; }
 // public static void integratedServerRunning(boolean value, ) { net.minecraft.client.MinecraftClient.integratedServerRunning = value; }
 
-// public yarnwrap.client.color.item.ItemColors itemColors() { return new yarnwrap.client.color.item.ItemColors(wrapperContained.itemColors); }
-// public void itemColors(yarnwrap.client.color.item.ItemColors value) { wrapperContained.itemColors = value.wrapperContained; }
-// public static yarnwrap.client.color.item.ItemColors itemColors() { return new yarnwrap.client.color.item.ItemColors(net.minecraft.client.MinecraftClient.itemColors); }
-// public static void itemColors(yarnwrap.client.color.item.ItemColors value, ) { net.minecraft.client.MinecraftClient.itemColors = value.wrapperContained; }
-
 public yarnwrap.client.network.ClientPlayerInteractionManager interactionManager() { return new yarnwrap.client.network.ClientPlayerInteractionManager(wrapperContained.interactionManager); }
 public void interactionManager(yarnwrap.client.network.ClientPlayerInteractionManager value) { wrapperContained.interactionManager = value.wrapperContained; }
 // public static yarnwrap.client.network.ClientPlayerInteractionManager interactionManager() { return new yarnwrap.client.network.ClientPlayerInteractionManager(net.minecraft.client.MinecraftClient.interactionManager); }
@@ -366,6 +336,16 @@ public yarnwrap.client.Keyboard keyboard() { return new yarnwrap.client.Keyboard
 // public static yarnwrap.client.Keyboard keyboard() { return new yarnwrap.client.Keyboard(net.minecraft.client.MinecraftClient.keyboard); }
 // public static void keyboard(yarnwrap.client.Keyboard value, ) { net.minecraft.client.MinecraftClient.keyboard = value.wrapperContained; }
 
+// public java.util.Queue renderTaskQueue() { return wrapperContained.renderTaskQueue; }
+// public void renderTaskQueue(java.util.Queue value) { wrapperContained.renderTaskQueue = value; }
+// public static java.util.Queue renderTaskQueue() { return net.minecraft.client.MinecraftClient.renderTaskQueue; }
+// public static void renderTaskQueue(java.util.Queue value, ) { net.minecraft.client.MinecraftClient.renderTaskQueue = value; }
+
+// public java.util.concurrent.atomic.AtomicReference worldGenProgressTracker() { return wrapperContained.worldGenProgressTracker; }
+// public void worldGenProgressTracker(java.util.concurrent.atomic.AtomicReference value) { wrapperContained.worldGenProgressTracker = value; }
+// public static java.util.concurrent.atomic.AtomicReference worldGenProgressTracker() { return net.minecraft.client.MinecraftClient.worldGenProgressTracker; }
+// public static void worldGenProgressTracker(java.util.concurrent.atomic.AtomicReference value, ) { net.minecraft.client.MinecraftClient.worldGenProgressTracker = value; }
+
 // public yarnwrap.client.resource.SplashTextResourceSupplier splashTextLoader() { return new yarnwrap.client.resource.SplashTextResourceSupplier(wrapperContained.splashTextLoader); }
 // public void splashTextLoader(yarnwrap.client.resource.SplashTextResourceSupplier value) { wrapperContained.splashTextLoader = value.wrapperContained; }
 // public static yarnwrap.client.resource.SplashTextResourceSupplier splashTextLoader() { return new yarnwrap.client.resource.SplashTextResourceSupplier(net.minecraft.client.MinecraftClient.splashTextLoader); }
@@ -380,11 +360,6 @@ public yarnwrap.client.Keyboard keyboard() { return new yarnwrap.client.Keyboard
 // public void COMPLETED_UNIT_FUTURE(java.util.concurrent.CompletableFuture value) { wrapperContained.COMPLETED_UNIT_FUTURE = value; }
 // public static java.util.concurrent.CompletableFuture COMPLETED_UNIT_FUTURE() { return net.minecraft.client.MinecraftClient.COMPLETED_UNIT_FUTURE; }
 // public static void COMPLETED_UNIT_FUTURE(java.util.concurrent.CompletableFuture value, ) { net.minecraft.client.MinecraftClient.COMPLETED_UNIT_FUTURE = value; }
-
-// public yarnwrap.client.texture.StatusEffectSpriteManager statusEffectSpriteManager() { return new yarnwrap.client.texture.StatusEffectSpriteManager(wrapperContained.statusEffectSpriteManager); }
-// public void statusEffectSpriteManager(yarnwrap.client.texture.StatusEffectSpriteManager value) { wrapperContained.statusEffectSpriteManager = value.wrapperContained; }
-// public static yarnwrap.client.texture.StatusEffectSpriteManager statusEffectSpriteManager() { return new yarnwrap.client.texture.StatusEffectSpriteManager(net.minecraft.client.MinecraftClient.statusEffectSpriteManager); }
-// public static void statusEffectSpriteManager(yarnwrap.client.texture.StatusEffectSpriteManager value, ) { net.minecraft.client.MinecraftClient.statusEffectSpriteManager = value.wrapperContained; }
 
 // public java.util.concurrent.CompletableFuture resourceReloadFuture() { return wrapperContained.resourceReloadFuture; }
 // public void resourceReloadFuture(java.util.concurrent.CompletableFuture value) { wrapperContained.resourceReloadFuture = value; }
@@ -420,11 +395,6 @@ public void debugChunkOcclusion(boolean value) { wrapperContained.debugChunkOccl
 // public void tickTimeTracker(yarnwrap.util.profiler.TickTimeTracker value) { wrapperContained.tickTimeTracker = value.wrapperContained; }
 // public static yarnwrap.util.profiler.TickTimeTracker tickTimeTracker() { return new yarnwrap.util.profiler.TickTimeTracker(net.minecraft.client.MinecraftClient.tickTimeTracker); }
 // public static void tickTimeTracker(yarnwrap.util.profiler.TickTimeTracker value, ) { net.minecraft.client.MinecraftClient.tickTimeTracker = value.wrapperContained; }
-
-// public yarnwrap.util.profiler.ProfileResult tickProfilerResult() { return new yarnwrap.util.profiler.ProfileResult(wrapperContained.tickProfilerResult); }
-// public void tickProfilerResult(yarnwrap.util.profiler.ProfileResult value) { wrapperContained.tickProfilerResult = value.wrapperContained; }
-// public static yarnwrap.util.profiler.ProfileResult tickProfilerResult() { return new yarnwrap.util.profiler.ProfileResult(net.minecraft.client.MinecraftClient.tickProfilerResult); }
-// public static void tickProfilerResult(yarnwrap.util.profiler.ProfileResult value, ) { net.minecraft.client.MinecraftClient.tickProfilerResult = value.wrapperContained; }
 
 // public yarnwrap.util.Identifier UNICODE_FONT_ID() { return new yarnwrap.util.Identifier(wrapperContained.UNICODE_FONT_ID); }
 // public void UNICODE_FONT_ID(yarnwrap.util.Identifier value) { wrapperContained.UNICODE_FONT_ID = value.wrapperContained; }
@@ -465,11 +435,6 @@ public static yarnwrap.util.Identifier UNICODE_FONT_ID() { return new yarnwrap.u
 // public void userApiService(com.mojang.authlib.minecraft.UserApiService value) { wrapperContained.userApiService = value; }
 // public static com.mojang.authlib.minecraft.UserApiService userApiService() { return net.minecraft.client.MinecraftClient.userApiService; }
 // public static void userApiService(com.mojang.authlib.minecraft.UserApiService value, ) { net.minecraft.client.MinecraftClient.userApiService = value; }
-
-// public yarnwrap.client.render.entity.model.EntityModelLoader entityModelLoader() { return new yarnwrap.client.render.entity.model.EntityModelLoader(wrapperContained.entityModelLoader); }
-// public void entityModelLoader(yarnwrap.client.render.entity.model.EntityModelLoader value) { wrapperContained.entityModelLoader = value.wrapperContained; }
-// public static yarnwrap.client.render.entity.model.EntityModelLoader entityModelLoader() { return new yarnwrap.client.render.entity.model.EntityModelLoader(net.minecraft.client.MinecraftClient.entityModelLoader); }
-// public static void entityModelLoader(yarnwrap.client.render.entity.model.EntityModelLoader value, ) { net.minecraft.client.MinecraftClient.entityModelLoader = value.wrapperContained; }
 
 // public yarnwrap.client.render.block.entity.BlockEntityRenderDispatcher blockEntityRenderDispatcher() { return new yarnwrap.client.render.block.entity.BlockEntityRenderDispatcher(wrapperContained.blockEntityRenderDispatcher); }
 // public void blockEntityRenderDispatcher(yarnwrap.client.render.block.entity.BlockEntityRenderDispatcher value) { wrapperContained.blockEntityRenderDispatcher = value.wrapperContained; }
@@ -611,6 +576,11 @@ public yarnwrap.client.font.TextRenderer advanceValidatingTextRenderer() { retur
 // public static boolean finishedLoading() { return net.minecraft.client.MinecraftClient.finishedLoading; }
 // public static void finishedLoading(boolean value, ) { net.minecraft.client.MinecraftClient.finishedLoading = value; }
 
+// public long UNIVERSE() { return wrapperContained.UNIVERSE; }
+// public void UNIVERSE(long value) { wrapperContained.UNIVERSE = value; }
+// public static long UNIVERSE() { return net.minecraft.client.MinecraftClient.UNIVERSE; }
+// public static void UNIVERSE(long value, ) { net.minecraft.client.MinecraftClient.UNIVERSE = value; }
+
 // public boolean disconnecting() { return wrapperContained.disconnecting; }
 // public void disconnecting(boolean value) { wrapperContained.disconnecting = value; }
 // public static boolean disconnecting() { return net.minecraft.client.MinecraftClient.disconnecting; }
@@ -636,6 +606,46 @@ public yarnwrap.client.font.TextRenderer advanceValidatingTextRenderer() { retur
 // public static yarnwrap.client.texture.MapDecorationsAtlasManager mapDecorationsAtlasManager() { return new yarnwrap.client.texture.MapDecorationsAtlasManager(net.minecraft.client.MinecraftClient.mapDecorationsAtlasManager); }
 // public static void mapDecorationsAtlasManager(yarnwrap.client.texture.MapDecorationsAtlasManager value, ) { net.minecraft.client.MinecraftClient.mapDecorationsAtlasManager = value.wrapperContained; }
 
+// public Object renderTickCounter() { return wrapperContained.renderTickCounter; }
+// // public void renderTickCounter(Object value) { wrapperContained.renderTickCounter = value; }
+// // public static Object renderTickCounter() { return net.minecraft.client.MinecraftClient.renderTickCounter; }
+// // public static void renderTickCounter(Object value, ) { net.minecraft.client.MinecraftClient.renderTickCounter = value; }
+
+// public yarnwrap.client.render.MapRenderer mapRenderer() { return new yarnwrap.client.render.MapRenderer(wrapperContained.mapRenderer); }
+// public void mapRenderer(yarnwrap.client.render.MapRenderer value) { wrapperContained.mapRenderer = value.wrapperContained; }
+// public static yarnwrap.client.render.MapRenderer mapRenderer() { return new yarnwrap.client.render.MapRenderer(net.minecraft.client.MinecraftClient.mapRenderer); }
+// public static void mapRenderer(yarnwrap.client.render.MapRenderer value, ) { net.minecraft.client.MinecraftClient.mapRenderer = value.wrapperContained; }
+
+// public yarnwrap.client.texture.MapTextureManager mapTextureManager() { return new yarnwrap.client.texture.MapTextureManager(wrapperContained.mapTextureManager); }
+// public void mapTextureManager(yarnwrap.client.texture.MapTextureManager value) { wrapperContained.mapTextureManager = value.wrapperContained; }
+// public static yarnwrap.client.texture.MapTextureManager mapTextureManager() { return new yarnwrap.client.texture.MapTextureManager(net.minecraft.client.MinecraftClient.mapTextureManager); }
+// public static void mapTextureManager(yarnwrap.client.texture.MapTextureManager value, ) { net.minecraft.client.MinecraftClient.mapTextureManager = value.wrapperContained; }
+
+// public yarnwrap.client.option.InactivityFpsLimiter inactivityFpsLimiter() { return new yarnwrap.client.option.InactivityFpsLimiter(wrapperContained.inactivityFpsLimiter); }
+// public void inactivityFpsLimiter(yarnwrap.client.option.InactivityFpsLimiter value) { wrapperContained.inactivityFpsLimiter = value.wrapperContained; }
+// public static yarnwrap.client.option.InactivityFpsLimiter inactivityFpsLimiter() { return new yarnwrap.client.option.InactivityFpsLimiter(net.minecraft.client.MinecraftClient.inactivityFpsLimiter); }
+// public static void inactivityFpsLimiter(yarnwrap.client.option.InactivityFpsLimiter value, ) { net.minecraft.client.MinecraftClient.inactivityFpsLimiter = value.wrapperContained; }
+
+// public yarnwrap.client.gl.ShaderLoader shaderLoader() { return new yarnwrap.client.gl.ShaderLoader(wrapperContained.shaderLoader); }
+// public void shaderLoader(yarnwrap.client.gl.ShaderLoader value) { wrapperContained.shaderLoader = value.wrapperContained; }
+// public static yarnwrap.client.gl.ShaderLoader shaderLoader() { return new yarnwrap.client.gl.ShaderLoader(net.minecraft.client.MinecraftClient.shaderLoader); }
+// public static void shaderLoader(yarnwrap.client.gl.ShaderLoader value, ) { net.minecraft.client.MinecraftClient.shaderLoader = value.wrapperContained; }
+
+// public yarnwrap.client.util.tracy.TracyFrameCapturer tracyFrameCapturer() { return new yarnwrap.client.util.tracy.TracyFrameCapturer(wrapperContained.tracyFrameCapturer); }
+// public void tracyFrameCapturer(yarnwrap.client.util.tracy.TracyFrameCapturer value) { wrapperContained.tracyFrameCapturer = value.wrapperContained; }
+// public static yarnwrap.client.util.tracy.TracyFrameCapturer tracyFrameCapturer() { return new yarnwrap.client.util.tracy.TracyFrameCapturer(net.minecraft.client.MinecraftClient.tracyFrameCapturer); }
+// public static void tracyFrameCapturer(yarnwrap.client.util.tracy.TracyFrameCapturer value, ) { net.minecraft.client.MinecraftClient.tracyFrameCapturer = value.wrapperContained; }
+
+// public yarnwrap.client.item.ItemModelManager itemModelManager() { return new yarnwrap.client.item.ItemModelManager(wrapperContained.itemModelManager); }
+// public void itemModelManager(yarnwrap.client.item.ItemModelManager value) { wrapperContained.itemModelManager = value.wrapperContained; }
+// public static yarnwrap.client.item.ItemModelManager itemModelManager() { return new yarnwrap.client.item.ItemModelManager(net.minecraft.client.MinecraftClient.itemModelManager); }
+// public static void itemModelManager(yarnwrap.client.item.ItemModelManager value, ) { net.minecraft.client.MinecraftClient.itemModelManager = value.wrapperContained; }
+
+// public yarnwrap.client.resource.waypoint.WaypointStyleAssetManager waypointStyleAssetManager() { return new yarnwrap.client.resource.waypoint.WaypointStyleAssetManager(wrapperContained.waypointStyleAssetManager); }
+// public void waypointStyleAssetManager(yarnwrap.client.resource.waypoint.WaypointStyleAssetManager value) { wrapperContained.waypointStyleAssetManager = value.wrapperContained; }
+// public static yarnwrap.client.resource.waypoint.WaypointStyleAssetManager waypointStyleAssetManager() { return new yarnwrap.client.resource.waypoint.WaypointStyleAssetManager(net.minecraft.client.MinecraftClient.waypointStyleAssetManager); }
+// public static void waypointStyleAssetManager(yarnwrap.client.resource.waypoint.WaypointStyleAssetManager value, ) { net.minecraft.client.MinecraftClient.waypointStyleAssetManager = value.wrapperContained; }
+
 public MinecraftClient(yarnwrap.client.RunArgs args) { this.wrapperContained = new net.minecraft.client.MinecraftClient(args.wrapperContained); }
 public yarnwrap.resource.ResourceManager getResourceManager() { return new yarnwrap.resource.ResourceManager(wrapperContained.getResourceManager()); }
 // public static yarnwrap.resource.ResourceManager getResourceManager() { return new yarnwrap.resource.ResourceManager(net.minecraft.client.MinecraftClient.getResourceManager()); }
@@ -651,8 +661,6 @@ public java.net.Proxy getNetworkProxy() { return wrapperContained.getNetworkProx
 // public static java.net.Proxy getNetworkProxy() { return net.minecraft.client.MinecraftClient.getNetworkProxy(); }
 public void stop() { wrapperContained.stop(); }
 // public static void stop() { net.minecraft.client.MinecraftClient.stop(); }
-// public void drawProfilerResults(yarnwrap.client.gui.DrawContext context,yarnwrap.util.profiler.ProfileResult profileResult) { wrapperContained.drawProfilerResults(context.wrapperContained,profileResult.wrapperContained); }
-// public static void drawProfilerResults(yarnwrap.client.gui.DrawContext context,yarnwrap.util.profiler.ProfileResult profileResult, ) { net.minecraft.client.MinecraftClient.drawProfilerResults(context.wrapperContained,profileResult.wrapperContained); }
 public boolean isPaused() { return wrapperContained.isPaused(); }
 // public static boolean isPaused() { return net.minecraft.client.MinecraftClient.isPaused(); }
 public void setCrashReportSupplierAndAddDetails(yarnwrap.util.crash.CrashReport crashReport) { wrapperContained.setCrashReportSupplierAndAddDetails(crashReport.wrapperContained); }
@@ -663,8 +671,6 @@ public boolean isIntegratedServerRunning() { return wrapperContained.isIntegrate
 // public static boolean isIntegratedServerRunning() { return net.minecraft.client.MinecraftClient.isIntegratedServerRunning(); }
 // public boolean isHudEnabled() { return wrapperContained.isHudEnabled(); }
 public static boolean isHudEnabled() { return net.minecraft.client.MinecraftClient.isHudEnabled(); }
-// public void addBlockEntityNbt(yarnwrap.item.ItemStack stack,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.registry.DynamicRegistryManager registryManager) { wrapperContained.addBlockEntityNbt(stack.wrapperContained,blockEntity.wrapperContained,registryManager.wrapperContained); }
-// public static void addBlockEntityNbt(yarnwrap.item.ItemStack stack,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.registry.DynamicRegistryManager registryManager, ) { net.minecraft.client.MinecraftClient.addBlockEntityNbt(stack.wrapperContained,blockEntity.wrapperContained,registryManager.wrapperContained); }
 public void setCameraEntity(yarnwrap.entity.Entity entity) { wrapperContained.setCameraEntity(entity.wrapperContained); }
 // public static void setCameraEntity(yarnwrap.entity.Entity entity, ) { net.minecraft.client.MinecraftClient.setCameraEntity(entity.wrapperContained); }
 public yarnwrap.client.color.block.BlockColors getBlockColors() { return new yarnwrap.client.color.block.BlockColors(wrapperContained.getBlockColors()); }
@@ -699,8 +705,6 @@ public yarnwrap.client.gl.Framebuffer getFramebuffer() { return new yarnwrap.cli
 // public static yarnwrap.client.gl.Framebuffer getFramebuffer() { return new yarnwrap.client.gl.Framebuffer(net.minecraft.client.MinecraftClient.getFramebuffer()); }
 // public void render(boolean tick) { wrapperContained.render(tick); }
 // public static void render(boolean tick, ) { net.minecraft.client.MinecraftClient.render(tick); }
-public void handleProfilerKeyPress(int digit) { wrapperContained.handleProfilerKeyPress(digit); }
-// public static void handleProfilerKeyPress(int digit, ) { net.minecraft.client.MinecraftClient.handleProfilerKeyPress(digit); }
 public yarnwrap.client.resource.language.LanguageManager getLanguageManager() { return new yarnwrap.client.resource.language.LanguageManager(wrapperContained.getLanguageManager()); }
 // public static yarnwrap.client.resource.language.LanguageManager getLanguageManager() { return new yarnwrap.client.resource.language.LanguageManager(net.minecraft.client.MinecraftClient.getLanguageManager()); }
 // public boolean isDemo() { return wrapperContained.isDemo(); }
@@ -717,8 +721,8 @@ public boolean isInSingleplayer() { return wrapperContained.isInSingleplayer(); 
 // public static boolean isInSingleplayer() { return net.minecraft.client.MinecraftClient.isInSingleplayer(); }
 public com.mojang.datafixers.DataFixer getDataFixer() { return wrapperContained.getDataFixer(); }
 // public static com.mojang.datafixers.DataFixer getDataFixer() { return net.minecraft.client.MinecraftClient.getDataFixer(); }
-public yarnwrap.sound.MusicSound getMusicType() { return new yarnwrap.sound.MusicSound(wrapperContained.getMusicType()); }
-// public static yarnwrap.sound.MusicSound getMusicType() { return new yarnwrap.sound.MusicSound(net.minecraft.client.MinecraftClient.getMusicType()); }
+public yarnwrap.client.sound.MusicInstance getMusicInstance() { return new yarnwrap.client.sound.MusicInstance(wrapperContained.getMusicInstance()); }
+// public static yarnwrap.client.sound.MusicInstance getMusicInstance() { return new yarnwrap.client.sound.MusicInstance(net.minecraft.client.MinecraftClient.getMusicInstance()); }
 public java.lang.String getVersionType() { return wrapperContained.getVersionType(); }
 // public static java.lang.String getVersionType() { return net.minecraft.client.MinecraftClient.getVersionType(); }
 public yarnwrap.client.session.Session getSession() { return new yarnwrap.client.session.Session(wrapperContained.getSession()); }
@@ -769,10 +773,6 @@ public static boolean isAmbientOcclusionEnabled() { return net.minecraft.client.
 // public static void handleBlockBreaking(boolean breaking, ) { net.minecraft.client.MinecraftClient.handleBlockBreaking(breaking); }
 public void scheduleStop() { wrapperContained.scheduleStop(); }
 // public static void scheduleStop() { net.minecraft.client.MinecraftClient.scheduleStop(); }
-// public int getFramerateLimit() { return wrapperContained.getFramerateLimit(); }
-// public static int getFramerateLimit() { return net.minecraft.client.MinecraftClient.getFramerateLimit(); }
-public yarnwrap.util.profiler.Profiler getProfiler() { return new yarnwrap.util.profiler.Profiler(wrapperContained.getProfiler()); }
-// public static yarnwrap.util.profiler.Profiler getProfiler() { return new yarnwrap.util.profiler.Profiler(net.minecraft.client.MinecraftClient.getProfiler()); }
 // public void checkGameData() { wrapperContained.checkGameData(); }
 // public static void checkGameData() { net.minecraft.client.MinecraftClient.checkGameData(); }
 // public yarnwrap.server.WorldGenerationProgressListener method_17533(int spawnChunkRadius) { return new yarnwrap.server.WorldGenerationProgressListener(wrapperContained.method_17533(spawnChunkRadius)); }
@@ -791,8 +791,6 @@ public yarnwrap.client.texture.PaintingManager getPaintingManager() { return new
 // public static yarnwrap.client.texture.PaintingManager getPaintingManager() { return new yarnwrap.client.texture.PaintingManager(net.minecraft.client.MinecraftClient.getPaintingManager()); }
 public void setOverlay(yarnwrap.client.gui.screen.Overlay overlay) { wrapperContained.setOverlay(overlay.wrapperContained); }
 // public static void setOverlay(yarnwrap.client.gui.screen.Overlay overlay, ) { net.minecraft.client.MinecraftClient.setOverlay(overlay.wrapperContained); }
-public yarnwrap.client.texture.StatusEffectSpriteManager getStatusEffectSpriteManager() { return new yarnwrap.client.texture.StatusEffectSpriteManager(wrapperContained.getStatusEffectSpriteManager()); }
-// public static yarnwrap.client.texture.StatusEffectSpriteManager getStatusEffectSpriteManager() { return new yarnwrap.client.texture.StatusEffectSpriteManager(net.minecraft.client.MinecraftClient.getStatusEffectSpriteManager()); }
 public yarnwrap.client.gui.screen.Overlay getOverlay() { return new yarnwrap.client.gui.screen.Overlay(wrapperContained.getOverlay()); }
 // public static yarnwrap.client.gui.screen.Overlay getOverlay() { return new yarnwrap.client.gui.screen.Overlay(net.minecraft.client.MinecraftClient.getOverlay()); }
 // public java.util.concurrent.CompletionStage method_18507(java.util.concurrent.CompletableFuture future) { return wrapperContained.method_18507(future); }
@@ -849,8 +847,8 @@ public yarnwrap.client.network.SocialInteractionsManager getSocialInteractionsMa
 // public static boolean isConnectedToServer() { return net.minecraft.client.MinecraftClient.isConnectedToServer(); }
 // public com.mojang.authlib.minecraft.UserApiService createUserApiService(com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService authService,yarnwrap.client.RunArgs runArgs) { return wrapperContained.createUserApiService(authService,runArgs.wrapperContained); }
 // public static com.mojang.authlib.minecraft.UserApiService createUserApiService(com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService authService,yarnwrap.client.RunArgs runArgs, ) { return net.minecraft.client.MinecraftClient.createUserApiService(authService,runArgs.wrapperContained); }
-public yarnwrap.client.render.entity.model.EntityModelLoader getEntityModelLoader() { return new yarnwrap.client.render.entity.model.EntityModelLoader(wrapperContained.getEntityModelLoader()); }
-// public static yarnwrap.client.render.entity.model.EntityModelLoader getEntityModelLoader() { return new yarnwrap.client.render.entity.model.EntityModelLoader(net.minecraft.client.MinecraftClient.getEntityModelLoader()); }
+public yarnwrap.client.render.entity.model.LoadedEntityModels getLoadedEntityModels() { return new yarnwrap.client.render.entity.model.LoadedEntityModels(wrapperContained.getLoadedEntityModels()); }
+// public static yarnwrap.client.render.entity.model.LoadedEntityModels getLoadedEntityModels() { return new yarnwrap.client.render.entity.model.LoadedEntityModels(net.minecraft.client.MinecraftClient.getLoadedEntityModels()); }
 public yarnwrap.client.render.block.entity.BlockEntityRenderDispatcher getBlockEntityRenderDispatcher() { return new yarnwrap.client.render.block.entity.BlockEntityRenderDispatcher(wrapperContained.getBlockEntityRenderDispatcher()); }
 // public static yarnwrap.client.render.block.entity.BlockEntityRenderDispatcher getBlockEntityRenderDispatcher() { return new yarnwrap.client.render.block.entity.BlockEntityRenderDispatcher(net.minecraft.client.MinecraftClient.getBlockEntityRenderDispatcher()); }
 public boolean shouldFilterText() { return wrapperContained.shouldFilterText(); }
@@ -861,12 +859,8 @@ public boolean toggleDebugProfiler(java.util.function.Consumer chatMessageSender
 // public static boolean toggleDebugProfiler(java.util.function.Consumer chatMessageSender, ) { return net.minecraft.client.MinecraftClient.toggleDebugProfiler(chatMessageSender); }
 // public void method_34746(java.util.function.Consumer result) { wrapperContained.method_34746(result); }
 // public static void method_34746(java.util.function.Consumer result, ) { net.minecraft.client.MinecraftClient.method_34746(result); }
-public yarnwrap.text.Text takePanorama(java.io.File directory,int width,int height) { return new yarnwrap.text.Text(wrapperContained.takePanorama(directory,width,height)); }
-// public static yarnwrap.text.Text takePanorama(java.io.File directory,int width,int height, ) { return new yarnwrap.text.Text(net.minecraft.client.MinecraftClient.takePanorama(directory,width,height)); }
-// public yarnwrap.text.Text takeHugeScreenshot(java.io.File gameDirectory,int unitWidth,int unitHeight,int width,int height) { return new yarnwrap.text.Text(wrapperContained.takeHugeScreenshot(gameDirectory,unitWidth,unitHeight,width,height)); }
-// public static yarnwrap.text.Text takeHugeScreenshot(java.io.File gameDirectory,int unitWidth,int unitHeight,int width,int height, ) { return new yarnwrap.text.Text(net.minecraft.client.MinecraftClient.takeHugeScreenshot(gameDirectory,unitWidth,unitHeight,width,height)); }
-// public yarnwrap.text.Style method_35700(java.io.File style) { return new yarnwrap.text.Style(wrapperContained.method_35700(style)); }
-// public static yarnwrap.text.Style method_35700(java.io.File style, ) { return new yarnwrap.text.Style(net.minecraft.client.MinecraftClient.method_35700(style)); }
+// public yarnwrap.text.Text takePanorama(java.io.File directory) { return new yarnwrap.text.Text(wrapperContained.takePanorama(directory)); }
+// public static yarnwrap.text.Text takePanorama(java.io.File directory, ) { return new yarnwrap.text.Text(net.minecraft.client.MinecraftClient.takePanorama(directory)); }
 // public void method_35701(yarnwrap.text.Text message) { wrapperContained.method_35701(message.wrapperContained); }
 // public static void method_35701(yarnwrap.text.Text message, ) { net.minecraft.client.MinecraftClient.method_35701(message.wrapperContained); }
 public yarnwrap.server.WorldGenerationProgressTracker getWorldGenerationProgressTracker() { return new yarnwrap.server.WorldGenerationProgressTracker(wrapperContained.getWorldGenerationProgressTracker()); }
@@ -987,8 +981,8 @@ public boolean isUsernameBanned() { return wrapperContained.isUsernameBanned(); 
 // public static yarnwrap.client.gui.screen.Screen method_53523(java.lang.Runnable onClose, ) { return new yarnwrap.client.gui.screen.Screen(net.minecraft.client.MinecraftClient.method_53523(onClose)); }
 // public void method_53524(java.lang.Runnable confirmed) { wrapperContained.method_53524(confirmed); }
 // public static void method_53524(java.lang.Runnable confirmed, ) { net.minecraft.client.MinecraftClient.method_53524(confirmed); }
-// public void createInitScreens(java.util.List list) { wrapperContained.createInitScreens(list); }
-// public static void createInitScreens(java.util.List list, ) { net.minecraft.client.MinecraftClient.createInitScreens(list); }
+// // public boolean createInitScreens(java.util.List list) { return wrapperContained.createInitScreens(list); }
+// // public static boolean createInitScreens(java.util.List list, ) { return net.minecraft.client.MinecraftClient.createInitScreens(list); }
 public yarnwrap.client.gui.hud.DebugHud getDebugHud() { return new yarnwrap.client.gui.hud.DebugHud(wrapperContained.getDebugHud()); }
 // public static yarnwrap.client.gui.hud.DebugHud getDebugHud() { return new yarnwrap.client.gui.hud.DebugHud(net.minecraft.client.MinecraftClient.getDebugHud()); }
 // public java.lang.Runnable onInitFinished(Object loadingContext) { return wrapperContained.onInitFinished(loadingContext); }
@@ -1019,9 +1013,29 @@ public yarnwrap.client.texture.MapDecorationsAtlasManager getMapDecorationsAtlas
 // public static yarnwrap.client.texture.MapDecorationsAtlasManager getMapDecorationsAtlasManager() { return new yarnwrap.client.texture.MapDecorationsAtlasManager(net.minecraft.client.MinecraftClient.getMapDecorationsAtlasManager()); }
 // public void method_60320(yarnwrap.client.resource.language.TranslationStorage translationStorage) { wrapperContained.method_60320(translationStorage.wrapperContained); }
 // public static void method_60320(yarnwrap.client.resource.language.TranslationStorage translationStorage, ) { net.minecraft.client.MinecraftClient.method_60320(translationStorage.wrapperContained); }
-public yarnwrap.client.render.RenderTickCounter getRenderTickCounter() { return new yarnwrap.client.render.RenderTickCounter(wrapperContained.getRenderTickCounter()); }
-// public static yarnwrap.client.render.RenderTickCounter getRenderTickCounter() { return new yarnwrap.client.render.RenderTickCounter(net.minecraft.client.MinecraftClient.getRenderTickCounter()); }
 // public boolean shouldTick() { return wrapperContained.shouldTick(); }
 // public static boolean shouldTick() { return net.minecraft.client.MinecraftClient.shouldTick(); }
+// public int saveCrashReport(java.io.File runDir,yarnwrap.util.crash.CrashReport crashReport) { return wrapperContained.saveCrashReport(runDir,crashReport.wrapperContained); }
+// public static int saveCrashReport(java.io.File runDir,yarnwrap.util.crash.CrashReport crashReport, ) { return net.minecraft.client.MinecraftClient.saveCrashReport(runDir,crashReport.wrapperContained); }
+public yarnwrap.client.texture.MapTextureManager getMapTextureManager() { return new yarnwrap.client.texture.MapTextureManager(wrapperContained.getMapTextureManager()); }
+// public static yarnwrap.client.texture.MapTextureManager getMapTextureManager() { return new yarnwrap.client.texture.MapTextureManager(net.minecraft.client.MinecraftClient.getMapTextureManager()); }
+public yarnwrap.client.option.InactivityFpsLimiter getInactivityFpsLimiter() { return new yarnwrap.client.option.InactivityFpsLimiter(wrapperContained.getInactivityFpsLimiter()); }
+// public static yarnwrap.client.option.InactivityFpsLimiter getInactivityFpsLimiter() { return new yarnwrap.client.option.InactivityFpsLimiter(net.minecraft.client.MinecraftClient.getInactivityFpsLimiter()); }
+public yarnwrap.client.render.MapRenderer getMapRenderer() { return new yarnwrap.client.render.MapRenderer(wrapperContained.getMapRenderer()); }
+// public static yarnwrap.client.render.MapRenderer getMapRenderer() { return new yarnwrap.client.render.MapRenderer(net.minecraft.client.MinecraftClient.getMapRenderer()); }
+public yarnwrap.client.render.RenderTickCounter getRenderTickCounter() { return new yarnwrap.client.render.RenderTickCounter(wrapperContained.getRenderTickCounter()); }
+// public static yarnwrap.client.render.RenderTickCounter getRenderTickCounter() { return new yarnwrap.client.render.RenderTickCounter(net.minecraft.client.MinecraftClient.getRenderTickCounter()); }
+public yarnwrap.client.gl.ShaderLoader getShaderLoader() { return new yarnwrap.client.gl.ShaderLoader(wrapperContained.getShaderLoader()); }
+// public static yarnwrap.client.gl.ShaderLoader getShaderLoader() { return new yarnwrap.client.gl.ShaderLoader(net.minecraft.client.MinecraftClient.getShaderLoader()); }
+public void onShaderResourceReloadFailure(java.lang.Exception exception) { wrapperContained.onShaderResourceReloadFailure(exception); }
+// public static void onShaderResourceReloadFailure(java.lang.Exception exception, ) { net.minecraft.client.MinecraftClient.onShaderResourceReloadFailure(exception); }
+// public void method_64035(Object item) { wrapperContained.method_64035(item); }
+// public static void method_64035(Object item, ) { net.minecraft.client.MinecraftClient.method_64035(item); }
+public yarnwrap.client.item.ItemModelManager getItemModelManager() { return new yarnwrap.client.item.ItemModelManager(wrapperContained.getItemModelManager()); }
+// public static yarnwrap.client.item.ItemModelManager getItemModelManager() { return new yarnwrap.client.item.ItemModelManager(net.minecraft.client.MinecraftClient.getItemModelManager()); }
+// public java.lang.String method_68467(yarnwrap.util.Identifier id,com.mojang.blaze3d.shaders.ShaderType type) { return wrapperContained.method_68467(id.wrapperContained,type); }
+// public static java.lang.String method_68467(yarnwrap.util.Identifier id,com.mojang.blaze3d.shaders.ShaderType type, ) { return net.minecraft.client.MinecraftClient.method_68467(id.wrapperContained,type); }
+// public yarnwrap.client.resource.waypoint.WaypointStyleAssetManager getWaypointStyleAssetManager() { return new yarnwrap.client.resource.waypoint.WaypointStyleAssetManager(wrapperContained.getWaypointStyleAssetManager()); }
+// public static yarnwrap.client.resource.waypoint.WaypointStyleAssetManager getWaypointStyleAssetManager() { return new yarnwrap.client.resource.waypoint.WaypointStyleAssetManager(net.minecraft.client.MinecraftClient.getWaypointStyleAssetManager()); }
 
 }

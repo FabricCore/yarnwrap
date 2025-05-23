@@ -71,6 +71,11 @@ public static yarnwrap.util.Identifier BOOK_TEXTURE() { return new yarnwrap.util
 // public static int HEIGHT() { return net.minecraft.client.gui.screen.ingame.BookScreen.HEIGHT; }
 // public static void HEIGHT(int value, ) { net.minecraft.client.gui.screen.ingame.BookScreen.HEIGHT = value; }
 
+// public yarnwrap.text.Text TITLE_TEXT() { return new yarnwrap.text.Text(wrapperContained.TITLE_TEXT); }
+// public void TITLE_TEXT(yarnwrap.text.Text value) { wrapperContained.TITLE_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text TITLE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.ingame.BookScreen.TITLE_TEXT); }
+// public static void TITLE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.ingame.BookScreen.TITLE_TEXT = value.wrapperContained; }
+
 // public BookScreen(Object pageProvider) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.BookScreen(pageProvider); }
 // public BookScreen(Object contents,boolean playPageTurnSound) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.BookScreen(contents,playPageTurnSound); }
 public yarnwrap.text.Style getTextStyleAt(double x,double y) { return new yarnwrap.text.Style(wrapperContained.getTextStyleAt(x,y)); }
@@ -101,5 +106,7 @@ public boolean setPage(int index) { return wrapperContained.setPage(index); }
 // public static void method_19886(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.ingame.BookScreen.method_19886(button.wrapperContained); }
 // public void closeScreen() { wrapperContained.closeScreen(); }
 // public static void closeScreen() { net.minecraft.client.gui.screen.ingame.BookScreen.closeScreen(); }
+// public yarnwrap.text.Text getPageIndicatorText() { return new yarnwrap.text.Text(wrapperContained.getPageIndicatorText()); }
+// public static yarnwrap.text.Text getPageIndicatorText() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.ingame.BookScreen.getPageIndicatorText()); }
 
 }

@@ -41,11 +41,6 @@ public yarnwrap.entity.AnimationState idlingInWaterAnimationState() { return new
 // public static yarnwrap.entity.data.TrackedData TARGET() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.FrogEntity.TARGET); }
 // public static void TARGET(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.FrogEntity.TARGET = value.wrapperContained; }
 
-// public java.lang.String VARIANT_KEY() { return wrapperContained.VARIANT_KEY; }
-// public void VARIANT_KEY(java.lang.String value) { wrapperContained.VARIANT_KEY = value; }
-public static java.lang.String VARIANT_KEY() { return net.minecraft.entity.passive.FrogEntity.VARIANT_KEY; }
-// public static void VARIANT_KEY(java.lang.String value, ) { net.minecraft.entity.passive.FrogEntity.VARIANT_KEY = value; }
-
 // public yarnwrap.registry.RegistryKey DEFAULT_VARIANT_KEY() { return new yarnwrap.registry.RegistryKey(wrapperContained.DEFAULT_VARIANT_KEY); }
 // public void DEFAULT_VARIANT_KEY(yarnwrap.registry.RegistryKey value) { wrapperContained.DEFAULT_VARIANT_KEY = value.wrapperContained; }
 // public static yarnwrap.registry.RegistryKey DEFAULT_VARIANT_KEY() { return new yarnwrap.registry.RegistryKey(net.minecraft.entity.passive.FrogEntity.DEFAULT_VARIANT_KEY); }
@@ -53,6 +48,10 @@ public static java.lang.String VARIANT_KEY() { return net.minecraft.entity.passi
 
 public void setFrogTarget(yarnwrap.entity.Entity entity) { wrapperContained.setFrogTarget(entity.wrapperContained); }
 // public static void setFrogTarget(yarnwrap.entity.Entity entity, ) { net.minecraft.entity.passive.FrogEntity.setFrogTarget(entity.wrapperContained); }
+// public void setVariant(yarnwrap.registry.entry.RegistryEntry variant) { wrapperContained.setVariant(variant.wrapperContained); }
+// public static void setVariant(yarnwrap.registry.entry.RegistryEntry variant, ) { net.minecraft.entity.passive.FrogEntity.setVariant(variant.wrapperContained); }
+public yarnwrap.registry.entry.RegistryEntry getVariant() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.getVariant()); }
+// public static yarnwrap.registry.entry.RegistryEntry getVariant() { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.entity.passive.FrogEntity.getVariant()); }
 // public Object createFrogAttributes() { return wrapperContained.createFrogAttributes(); }
 public static Object createFrogAttributes() { return net.minecraft.entity.passive.FrogEntity.createFrogAttributes(); }
 // public boolean isValidFrogFood(yarnwrap.entity.LivingEntity entity) { return wrapperContained.isValidFrogFood(entity.wrapperContained); }
@@ -63,7 +62,5 @@ public java.util.Optional getFrogTarget() { return wrapperContained.getFrogTarge
 // public static java.util.Optional getFrogTarget() { return net.minecraft.entity.passive.FrogEntity.getFrogTarget(); }
 // public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason reason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,reason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason reason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.passive.FrogEntity.canSpawn(type.wrapperContained,world.wrapperContained,reason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
-// public yarnwrap.registry.RegistryKey method_58389(yarnwrap.util.Identifier variant) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_58389(variant.wrapperContained)); }
-// public static yarnwrap.registry.RegistryKey method_58389(yarnwrap.util.Identifier variant, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.entity.passive.FrogEntity.method_58389(variant.wrapperContained)); }
 
 }

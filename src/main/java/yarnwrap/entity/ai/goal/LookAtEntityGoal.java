@@ -1,21 +1,6 @@
 package yarnwrap.entity.ai.goal;
 public class LookAtEntityGoal { public net.minecraft.entity.ai.goal.LookAtEntityGoal wrapperContained; public LookAtEntityGoal(net.minecraft.entity.ai.goal.LookAtEntityGoal wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.entity.ai.TargetPredicate targetPredicate() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.targetPredicate); }
-// public void targetPredicate(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.targetPredicate = value.wrapperContained; }
-// public static yarnwrap.entity.ai.TargetPredicate targetPredicate() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.LookAtEntityGoal.targetPredicate); }
-// public static void targetPredicate(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.LookAtEntityGoal.targetPredicate = value.wrapperContained; }
-
-// public float DEFAULT_CHANCE() { return wrapperContained.DEFAULT_CHANCE; }
-// public void DEFAULT_CHANCE(float value) { wrapperContained.DEFAULT_CHANCE = value; }
-public static float DEFAULT_CHANCE() { return net.minecraft.entity.ai.goal.LookAtEntityGoal.DEFAULT_CHANCE; }
-// public static void DEFAULT_CHANCE(float value, ) { net.minecraft.entity.ai.goal.LookAtEntityGoal.DEFAULT_CHANCE = value; }
-
-// public boolean lookForward() { return wrapperContained.lookForward; }
-// public void lookForward(boolean value) { wrapperContained.lookForward = value; }
-// public static boolean lookForward() { return net.minecraft.entity.ai.goal.LookAtEntityGoal.lookForward; }
-// public static void lookForward(boolean value, ) { net.minecraft.entity.ai.goal.LookAtEntityGoal.lookForward = value; }
-
 // public float chance() { return wrapperContained.chance; }
 // public void chance(float value) { wrapperContained.chance = value; }
 // public static float chance() { return net.minecraft.entity.ai.goal.LookAtEntityGoal.chance; }
@@ -46,10 +31,25 @@ public static float DEFAULT_CHANCE() { return net.minecraft.entity.ai.goal.LookA
 // public static yarnwrap.entity.mob.MobEntity mob() { return new yarnwrap.entity.mob.MobEntity(net.minecraft.entity.ai.goal.LookAtEntityGoal.mob); }
 // public static void mob(yarnwrap.entity.mob.MobEntity value, ) { net.minecraft.entity.ai.goal.LookAtEntityGoal.mob = value.wrapperContained; }
 
+// public yarnwrap.entity.ai.TargetPredicate targetPredicate() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.targetPredicate); }
+// public void targetPredicate(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.targetPredicate = value.wrapperContained; }
+// public static yarnwrap.entity.ai.TargetPredicate targetPredicate() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.LookAtEntityGoal.targetPredicate); }
+// public static void targetPredicate(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.LookAtEntityGoal.targetPredicate = value.wrapperContained; }
+
+// public float DEFAULT_CHANCE() { return wrapperContained.DEFAULT_CHANCE; }
+// public void DEFAULT_CHANCE(float value) { wrapperContained.DEFAULT_CHANCE = value; }
+public static float DEFAULT_CHANCE() { return net.minecraft.entity.ai.goal.LookAtEntityGoal.DEFAULT_CHANCE; }
+// public static void DEFAULT_CHANCE(float value, ) { net.minecraft.entity.ai.goal.LookAtEntityGoal.DEFAULT_CHANCE = value; }
+
+// public boolean lookForward() { return wrapperContained.lookForward; }
+// public void lookForward(boolean value) { wrapperContained.lookForward = value; }
+// public static boolean lookForward() { return net.minecraft.entity.ai.goal.LookAtEntityGoal.lookForward; }
+// public static void lookForward(boolean value, ) { net.minecraft.entity.ai.goal.LookAtEntityGoal.lookForward = value; }
+
 public LookAtEntityGoal(yarnwrap.entity.mob.MobEntity mob,java.lang.Class targetType,float range) { this.wrapperContained = new net.minecraft.entity.ai.goal.LookAtEntityGoal(mob.wrapperContained,targetType,range); }
 public LookAtEntityGoal(yarnwrap.entity.mob.MobEntity mob,java.lang.Class targetType,float range,float chance) { this.wrapperContained = new net.minecraft.entity.ai.goal.LookAtEntityGoal(mob.wrapperContained,targetType,range,chance); }
 public LookAtEntityGoal(yarnwrap.entity.mob.MobEntity mob,java.lang.Class targetType,float range,float chance,boolean lookForward) { this.wrapperContained = new net.minecraft.entity.ai.goal.LookAtEntityGoal(mob.wrapperContained,targetType,range,chance,lookForward); }
-// public boolean method_18414(yarnwrap.entity.mob.MobEntity entity) { return wrapperContained.method_18414(entity.wrapperContained); }
-// public static boolean method_18414(yarnwrap.entity.mob.MobEntity entity, ) { return net.minecraft.entity.ai.goal.LookAtEntityGoal.method_18414(entity.wrapperContained); }
+// public boolean method_18414(java.util.function.Predicate entity,yarnwrap.entity.LivingEntity world) { return wrapperContained.method_18414(entity,world.wrapperContained); }
+// public static boolean method_18414(java.util.function.Predicate entity,yarnwrap.entity.LivingEntity world, ) { return net.minecraft.entity.ai.goal.LookAtEntityGoal.method_18414(entity,world.wrapperContained); }
 
 }

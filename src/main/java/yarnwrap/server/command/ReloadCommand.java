@@ -10,8 +10,6 @@ public class ReloadCommand { public net.minecraft.server.command.ReloadCommand w
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.ReloadCommand.register(dispatcher); }
 // public int method_13530(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13530(context); }
 // public static int method_13530(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ReloadCommand.method_13530(context); }
-// public boolean method_13531(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13531(source.wrapperContained); }
-// public static boolean method_13531(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.ReloadCommand.method_13531(source.wrapperContained); }
 // public java.util.Collection findNewDataPacks(yarnwrap.resource.ResourcePackManager dataPackManager,yarnwrap.world.SaveProperties saveProperties,java.util.Collection enabledDataPacks) { return wrapperContained.findNewDataPacks(dataPackManager.wrapperContained,saveProperties.wrapperContained,enabledDataPacks); }
 // public static java.util.Collection findNewDataPacks(yarnwrap.resource.ResourcePackManager dataPackManager,yarnwrap.world.SaveProperties saveProperties,java.util.Collection enabledDataPacks, ) { return net.minecraft.server.command.ReloadCommand.findNewDataPacks(dataPackManager.wrapperContained,saveProperties.wrapperContained,enabledDataPacks); }
 // public java.lang.Void method_29479(yarnwrap.server.command.ServerCommandSource throwable) { return wrapperContained.method_29479(throwable.wrapperContained); }

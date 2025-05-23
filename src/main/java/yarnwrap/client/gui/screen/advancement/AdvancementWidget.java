@@ -1,11 +1,6 @@
 package yarnwrap.client.gui.screen.advancement;
 public class AdvancementWidget { public net.minecraft.client.gui.screen.advancement.AdvancementWidget wrapperContained; public AdvancementWidget(net.minecraft.client.gui.screen.advancement.AdvancementWidget wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int[] SPLIT_OFFSET_CANDIDATES() { return wrapperContained.SPLIT_OFFSET_CANDIDATES; }
-// public void SPLIT_OFFSET_CANDIDATES(int[] value) { wrapperContained.SPLIT_OFFSET_CANDIDATES = value; }
-// public static int[] SPLIT_OFFSET_CANDIDATES() { return net.minecraft.client.gui.screen.advancement.AdvancementWidget.SPLIT_OFFSET_CANDIDATES; }
-// public static void SPLIT_OFFSET_CANDIDATES(int[] value, ) { net.minecraft.client.gui.screen.advancement.AdvancementWidget.SPLIT_OFFSET_CANDIDATES = value; }
-
 // public yarnwrap.client.gui.screen.advancement.AdvancementTab tab() { return new yarnwrap.client.gui.screen.advancement.AdvancementTab(wrapperContained.tab); }
 // public void tab(yarnwrap.client.gui.screen.advancement.AdvancementTab value) { wrapperContained.tab = value.wrapperContained; }
 // public static yarnwrap.client.gui.screen.advancement.AdvancementTab tab() { return new yarnwrap.client.gui.screen.advancement.AdvancementTab(net.minecraft.client.gui.screen.advancement.AdvancementWidget.tab); }
@@ -46,11 +41,6 @@ public class AdvancementWidget { public net.minecraft.client.gui.screen.advancem
 // public static yarnwrap.advancement.AdvancementDisplay display() { return new yarnwrap.advancement.AdvancementDisplay(net.minecraft.client.gui.screen.advancement.AdvancementWidget.display); }
 // public static void display(yarnwrap.advancement.AdvancementDisplay value, ) { net.minecraft.client.gui.screen.advancement.AdvancementWidget.display = value.wrapperContained; }
 
-// public yarnwrap.text.OrderedText title() { return new yarnwrap.text.OrderedText(wrapperContained.title); }
-// public void title(yarnwrap.text.OrderedText value) { wrapperContained.title = value.wrapperContained; }
-// public static yarnwrap.text.OrderedText title() { return new yarnwrap.text.OrderedText(net.minecraft.client.gui.screen.advancement.AdvancementWidget.title); }
-// public static void title(yarnwrap.text.OrderedText value, ) { net.minecraft.client.gui.screen.advancement.AdvancementWidget.title = value.wrapperContained; }
-
 // public yarnwrap.advancement.AdvancementProgress progress() { return new yarnwrap.advancement.AdvancementProgress(wrapperContained.progress); }
 // public void progress(yarnwrap.advancement.AdvancementProgress value) { wrapperContained.progress = value.wrapperContained; }
 // public static yarnwrap.advancement.AdvancementProgress progress() { return new yarnwrap.advancement.AdvancementProgress(net.minecraft.client.gui.screen.advancement.AdvancementWidget.progress); }
@@ -60,6 +50,11 @@ public class AdvancementWidget { public net.minecraft.client.gui.screen.advancem
 // public void width(int value) { wrapperContained.width = value; }
 // public static int width() { return net.minecraft.client.gui.screen.advancement.AdvancementWidget.width; }
 // public static void width(int value, ) { net.minecraft.client.gui.screen.advancement.AdvancementWidget.width = value; }
+
+// public int[] SPLIT_OFFSET_CANDIDATES() { return wrapperContained.SPLIT_OFFSET_CANDIDATES; }
+// public void SPLIT_OFFSET_CANDIDATES(int[] value) { wrapperContained.SPLIT_OFFSET_CANDIDATES = value; }
+// public static int[] SPLIT_OFFSET_CANDIDATES() { return net.minecraft.client.gui.screen.advancement.AdvancementWidget.SPLIT_OFFSET_CANDIDATES; }
+// public static void SPLIT_OFFSET_CANDIDATES(int[] value, ) { net.minecraft.client.gui.screen.advancement.AdvancementWidget.SPLIT_OFFSET_CANDIDATES = value; }
 
 // public int ICON_OFFSET_X() { return wrapperContained.ICON_OFFSET_X; }
 // public void ICON_OFFSET_X(int value) { wrapperContained.ICON_OFFSET_X = value; }
@@ -101,6 +96,11 @@ public class AdvancementWidget { public net.minecraft.client.gui.screen.advancem
 // public static yarnwrap.advancement.PlacedAdvancement advancement() { return new yarnwrap.advancement.PlacedAdvancement(net.minecraft.client.gui.screen.advancement.AdvancementWidget.advancement); }
 // public static void advancement(yarnwrap.advancement.PlacedAdvancement value, ) { net.minecraft.client.gui.screen.advancement.AdvancementWidget.advancement = value.wrapperContained; }
 
+// public java.util.List title() { return wrapperContained.title; }
+// public void title(java.util.List value) { wrapperContained.title = value; }
+// public static java.util.List title() { return net.minecraft.client.gui.screen.advancement.AdvancementWidget.title; }
+// public static void title(java.util.List value, ) { net.minecraft.client.gui.screen.advancement.AdvancementWidget.title = value; }
+
 public AdvancementWidget(yarnwrap.client.gui.screen.advancement.AdvancementTab tab,yarnwrap.client.MinecraftClient client,yarnwrap.advancement.PlacedAdvancement advancement,yarnwrap.advancement.AdvancementDisplay display) { this.wrapperContained = new net.minecraft.client.gui.screen.advancement.AdvancementWidget(tab.wrapperContained,client.wrapperContained,advancement.wrapperContained,display.wrapperContained); }
 public void addChild(yarnwrap.client.gui.screen.advancement.AdvancementWidget widget) { wrapperContained.addChild(widget.wrapperContained); }
 // public static void addChild(yarnwrap.client.gui.screen.advancement.AdvancementWidget widget, ) { net.minecraft.client.gui.screen.advancement.AdvancementWidget.addChild(widget.wrapperContained); }
@@ -130,5 +130,7 @@ public int getWidth() { return wrapperContained.getWidth(); }
 // public static int getWidth() { return net.minecraft.client.gui.screen.advancement.AdvancementWidget.getWidth(); }
 // public int getProgressWidth() { return wrapperContained.getProgressWidth(); }
 // public static int getProgressWidth() { return net.minecraft.client.gui.screen.advancement.AdvancementWidget.getProgressWidth(); }
+// public void drawText(yarnwrap.client.gui.DrawContext context,java.util.List text,int x,int y,int color) { wrapperContained.drawText(context.wrapperContained,text,x,y,color); }
+// public static void drawText(yarnwrap.client.gui.DrawContext context,java.util.List text,int x,int y,int color, ) { net.minecraft.client.gui.screen.advancement.AdvancementWidget.drawText(context.wrapperContained,text,x,y,color); }
 
 }

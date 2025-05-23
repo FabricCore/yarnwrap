@@ -43,8 +43,8 @@ public static java.util.function.Predicate getTemptItemPredicate() { return net.
 // public static float getAdultFollowingSpeed(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.passive.AxolotlBrain.getAdultFollowingSpeed(entity.wrapperContained); }
 // public void addPlayDeadActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addPlayDeadActivities(brain.wrapperContained); }
 // public static void addPlayDeadActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.passive.AxolotlBrain.addPlayDeadActivities(brain.wrapperContained); }
-// public java.util.Optional getAttackTarget(yarnwrap.entity.passive.AxolotlEntity axolotl) { return wrapperContained.getAttackTarget(axolotl.wrapperContained); }
-// public static java.util.Optional getAttackTarget(yarnwrap.entity.passive.AxolotlEntity axolotl, ) { return net.minecraft.entity.passive.AxolotlBrain.getAttackTarget(axolotl.wrapperContained); }
+// public java.util.Optional getAttackTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.AxolotlEntity axolotl) { return wrapperContained.getAttackTarget(world.wrapperContained,axolotl.wrapperContained); }
+// public static java.util.Optional getAttackTarget(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.AxolotlEntity axolotl, ) { return net.minecraft.entity.passive.AxolotlBrain.getAttackTarget(world.wrapperContained,axolotl.wrapperContained); }
 // public float getTemptedSpeed(yarnwrap.entity.LivingEntity entity) { return wrapperContained.getTemptedSpeed(entity.wrapperContained); }
 // public static float getTemptedSpeed(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.passive.AxolotlBrain.getTemptedSpeed(entity.wrapperContained); }
 // public void addFightActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addFightActivities(brain.wrapperContained); }

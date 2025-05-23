@@ -91,7 +91,17 @@ public class UpdateStructureBlockC2SPacket { public net.minecraft.network.packet
 public static yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket.CODEC); }
 // public static void CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket.CODEC = value.wrapperContained; }
 
-// public UpdateStructureBlockC2SPacket(yarnwrap.util.math.BlockPos pos,Object action,yarnwrap.block.enums.StructureBlockMode mode,java.lang.String templateName,yarnwrap.util.math.BlockPos offset,yarnwrap.util.math.Vec3i size,yarnwrap.util.BlockMirror mirror,yarnwrap.util.BlockRotation rotation,java.lang.String metadata,boolean ignoreEntities,boolean showAir,boolean showBoundingBox,float integrity,long seed) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket(pos.wrapperContained,action,mode.wrapperContained,templateName,offset.wrapperContained,size.wrapperContained,mirror.wrapperContained,rotation.wrapperContained,metadata,ignoreEntities,showAir,showBoundingBox,integrity,seed); }
+// public int STRICT_MASK() { return wrapperContained.STRICT_MASK; }
+// public void STRICT_MASK(int value) { wrapperContained.STRICT_MASK = value; }
+// public static int STRICT_MASK() { return net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket.STRICT_MASK; }
+// public static void STRICT_MASK(int value, ) { net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket.STRICT_MASK = value; }
+
+// public boolean strict() { return wrapperContained.strict; }
+// public void strict(boolean value) { wrapperContained.strict = value; }
+// public static boolean strict() { return net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket.strict; }
+// public static void strict(boolean value, ) { net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket.strict = value; }
+
+// public UpdateStructureBlockC2SPacket(yarnwrap.util.math.BlockPos pos,Object action,yarnwrap.block.enums.StructureBlockMode mode,java.lang.String templateName,yarnwrap.util.math.BlockPos offset,yarnwrap.util.math.Vec3i size,yarnwrap.util.BlockMirror mirror,yarnwrap.util.BlockRotation rotation,java.lang.String metadata,boolean ignoreEntities,boolean strict,boolean showAir,boolean showBoundingBox,float integrity,long seed) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket(pos.wrapperContained,action,mode.wrapperContained,templateName,offset.wrapperContained,size.wrapperContained,mirror.wrapperContained,rotation.wrapperContained,metadata,ignoreEntities,strict,showAir,showBoundingBox,integrity,seed); }
 // public UpdateStructureBlockC2SPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket(buf.wrapperContained); }
 public yarnwrap.util.math.Vec3i getSize() { return new yarnwrap.util.math.Vec3i(wrapperContained.getSize()); }
 // public static yarnwrap.util.math.Vec3i getSize() { return new yarnwrap.util.math.Vec3i(net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket.getSize()); }
@@ -123,5 +133,7 @@ public boolean shouldIgnoreEntities() { return wrapperContained.shouldIgnoreEnti
 // public static boolean shouldIgnoreEntities() { return net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket.shouldIgnoreEntities(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 // public static void write(yarnwrap.network.PacketByteBuf buf, ) { net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket.write(buf.wrapperContained); }
+public boolean isStrict() { return wrapperContained.isStrict(); }
+// public static boolean isStrict() { return net.minecraft.network.packet.c2s.play.UpdateStructureBlockC2SPacket.isStrict(); }
 
 }

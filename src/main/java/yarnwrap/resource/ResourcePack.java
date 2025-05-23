@@ -15,8 +15,8 @@ public yarnwrap.resource.InputSupplier open(yarnwrap.resource.ResourceType type,
 // public static yarnwrap.resource.InputSupplier open(yarnwrap.resource.ResourceType type,yarnwrap.util.Identifier id, ) { return new yarnwrap.resource.InputSupplier(net.minecraft.resource.ResourcePack.open(type.wrapperContained,id.wrapperContained)); }
 public java.util.Set getNamespaces(yarnwrap.resource.ResourceType type) { return wrapperContained.getNamespaces(type.wrapperContained); }
 // public static java.util.Set getNamespaces(yarnwrap.resource.ResourceType type, ) { return net.minecraft.resource.ResourcePack.getNamespaces(type.wrapperContained); }
-// public java.lang.Object parseMetadata(yarnwrap.resource.metadata.ResourceMetadataReader metaReader) { return wrapperContained.parseMetadata(metaReader.wrapperContained); }
-// public static java.lang.Object parseMetadata(yarnwrap.resource.metadata.ResourceMetadataReader metaReader, ) { return net.minecraft.resource.ResourcePack.parseMetadata(metaReader.wrapperContained); }
+// public java.lang.Object parseMetadata(yarnwrap.resource.metadata.ResourceMetadataSerializer metadataSerializer) { return wrapperContained.parseMetadata(metadataSerializer.wrapperContained); }
+// public static java.lang.Object parseMetadata(yarnwrap.resource.metadata.ResourceMetadataSerializer metadataSerializer, ) { return net.minecraft.resource.ResourcePack.parseMetadata(metadataSerializer.wrapperContained); }
 // public void findResources(yarnwrap.resource.ResourceType type,java.lang.String namespace,java.lang.String prefix,Object consumer) { wrapperContained.findResources(type.wrapperContained,namespace,prefix,consumer); }
 // public static void findResources(yarnwrap.resource.ResourceType type,java.lang.String namespace,java.lang.String prefix,Object consumer, ) { net.minecraft.resource.ResourcePack.findResources(type.wrapperContained,namespace,prefix,consumer); }
 public java.lang.String getId() { return wrapperContained.getId(); }

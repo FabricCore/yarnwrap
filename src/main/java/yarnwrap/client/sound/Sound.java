@@ -1,11 +1,6 @@
 package yarnwrap.client.sound;
 public class Sound { public net.minecraft.client.sound.Sound wrapperContained; public Sound(net.minecraft.client.sound.Sound wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.resource.ResourceFinder FINDER() { return new yarnwrap.resource.ResourceFinder(wrapperContained.FINDER); }
-// public void FINDER(yarnwrap.resource.ResourceFinder value) { wrapperContained.FINDER = value.wrapperContained; }
-public static yarnwrap.resource.ResourceFinder FINDER() { return new yarnwrap.resource.ResourceFinder(net.minecraft.client.sound.Sound.FINDER); }
-// public static void FINDER(yarnwrap.resource.ResourceFinder value, ) { net.minecraft.client.sound.Sound.FINDER = value.wrapperContained; }
-
 // public int attenuation() { return wrapperContained.attenuation; }
 // public void attenuation(int value) { wrapperContained.attenuation = value; }
 // public static int attenuation() { return net.minecraft.client.sound.Sound.attenuation; }
@@ -45,6 +40,11 @@ public static yarnwrap.resource.ResourceFinder FINDER() { return new yarnwrap.re
 // // public void registrationType(Object value) { wrapperContained.registrationType = value; }
 // // public static Object registrationType() { return net.minecraft.client.sound.Sound.registrationType; }
 // // public static void registrationType(Object value, ) { net.minecraft.client.sound.Sound.registrationType = value; }
+
+// public yarnwrap.resource.ResourceFinder FINDER() { return new yarnwrap.resource.ResourceFinder(wrapperContained.FINDER); }
+// public void FINDER(yarnwrap.resource.ResourceFinder value) { wrapperContained.FINDER = value.wrapperContained; }
+public static yarnwrap.resource.ResourceFinder FINDER() { return new yarnwrap.resource.ResourceFinder(net.minecraft.client.sound.Sound.FINDER); }
+// public static void FINDER(yarnwrap.resource.ResourceFinder value, ) { net.minecraft.client.sound.Sound.FINDER = value.wrapperContained; }
 
 // public Sound(yarnwrap.util.Identifier id,yarnwrap.util.math.floatprovider.FloatSupplier volume,yarnwrap.util.math.floatprovider.FloatSupplier pitch,int weight,Object registrationType,boolean stream,boolean preload,int attenuation) { this.wrapperContained = new net.minecraft.client.sound.Sound(id.wrapperContained,volume.wrapperContained,pitch.wrapperContained,weight,registrationType,stream,preload,attenuation); }
 public boolean isPreloaded() { return wrapperContained.isPreloaded(); }

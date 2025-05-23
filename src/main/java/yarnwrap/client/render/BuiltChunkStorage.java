@@ -36,11 +36,14 @@ public Object chunks() { return wrapperContained.chunks; }
 // public static int viewDistance() { return net.minecraft.client.render.BuiltChunkStorage.viewDistance; }
 // public static void viewDistance(int value, ) { net.minecraft.client.render.BuiltChunkStorage.viewDistance = value; }
 
+// public yarnwrap.util.math.ChunkSectionPos sectionPos() { return new yarnwrap.util.math.ChunkSectionPos(wrapperContained.sectionPos); }
+// public void sectionPos(yarnwrap.util.math.ChunkSectionPos value) { wrapperContained.sectionPos = value.wrapperContained; }
+// public static yarnwrap.util.math.ChunkSectionPos sectionPos() { return new yarnwrap.util.math.ChunkSectionPos(net.minecraft.client.render.BuiltChunkStorage.sectionPos); }
+// public static void sectionPos(yarnwrap.util.math.ChunkSectionPos value, ) { net.minecraft.client.render.BuiltChunkStorage.sectionPos = value.wrapperContained; }
+
 public BuiltChunkStorage(yarnwrap.client.render.chunk.ChunkBuilder chunkBuilder,yarnwrap.world.World world,int viewDistance,yarnwrap.client.render.WorldRenderer worldRenderer) { this.wrapperContained = new net.minecraft.client.render.BuiltChunkStorage(chunkBuilder.wrapperContained,world.wrapperContained,viewDistance,worldRenderer.wrapperContained); }
-public void scheduleRebuild(int x,int y,int z,boolean important) { wrapperContained.scheduleRebuild(x,y,z,important); }
-// public static void scheduleRebuild(int x,int y,int z,boolean important, ) { net.minecraft.client.render.BuiltChunkStorage.scheduleRebuild(x,y,z,important); }
-// public Object getRenderedChunk(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getRenderedChunk(pos.wrapperContained); }
-// public static Object getRenderedChunk(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.client.render.BuiltChunkStorage.getRenderedChunk(pos.wrapperContained); }
+// public Object getRenderedChunk(yarnwrap.util.math.BlockPos blockPos) { return wrapperContained.getRenderedChunk(blockPos.wrapperContained); }
+// public static Object getRenderedChunk(yarnwrap.util.math.BlockPos blockPos, ) { return net.minecraft.client.render.BuiltChunkStorage.getRenderedChunk(blockPos.wrapperContained); }
 // public void createChunks(yarnwrap.client.render.chunk.ChunkBuilder chunkBuilder) { wrapperContained.createChunks(chunkBuilder.wrapperContained); }
 // public static void createChunks(yarnwrap.client.render.chunk.ChunkBuilder chunkBuilder, ) { net.minecraft.client.render.BuiltChunkStorage.createChunks(chunkBuilder.wrapperContained); }
 // public void setViewDistance(int viewDistance) { wrapperContained.setViewDistance(viewDistance); }
@@ -49,11 +52,21 @@ public void scheduleRebuild(int x,int y,int z,boolean important) { wrapperContai
 // public static int getChunkIndex(int x,int y,int z, ) { return net.minecraft.client.render.BuiltChunkStorage.getChunkIndex(x,y,z); }
 public void clear() { wrapperContained.clear(); }
 // public static void clear() { net.minecraft.client.render.BuiltChunkStorage.clear(); }
-public void updateCameraPosition(double x,double z) { wrapperContained.updateCameraPosition(x,z); }
-// public static void updateCameraPosition(double x,double z, ) { net.minecraft.client.render.BuiltChunkStorage.updateCameraPosition(x,z); }
+public void updateCameraPosition(yarnwrap.util.math.ChunkSectionPos sectionPos) { wrapperContained.updateCameraPosition(sectionPos.wrapperContained); }
+// public static void updateCameraPosition(yarnwrap.util.math.ChunkSectionPos sectionPos, ) { net.minecraft.client.render.BuiltChunkStorage.updateCameraPosition(sectionPos.wrapperContained); }
+public void scheduleRebuild(int x,int y,int z,boolean important) { wrapperContained.scheduleRebuild(x,y,z,important); }
+// public static void scheduleRebuild(int x,int y,int z,boolean important, ) { net.minecraft.client.render.BuiltChunkStorage.scheduleRebuild(x,y,z,important); }
 public int getViewDistance() { return wrapperContained.getViewDistance(); }
 // public static int getViewDistance() { return net.minecraft.client.render.BuiltChunkStorage.getViewDistance(); }
 public yarnwrap.world.HeightLimitView getWorld() { return new yarnwrap.world.HeightLimitView(wrapperContained.getWorld()); }
 // public static yarnwrap.world.HeightLimitView getWorld() { return new yarnwrap.world.HeightLimitView(net.minecraft.client.render.BuiltChunkStorage.getWorld()); }
+// public Object getRenderedChunk(long sectionPos) { return wrapperContained.getRenderedChunk(sectionPos); }
+// public static Object getRenderedChunk(long sectionPos, ) { return net.minecraft.client.render.BuiltChunkStorage.getRenderedChunk(sectionPos); }
+// public Object getRenderedChunk(int sectionX,int sectionY,int sectionZ) { return wrapperContained.getRenderedChunk(sectionX,sectionY,sectionZ); }
+// public static Object getRenderedChunk(int sectionX,int sectionY,int sectionZ, ) { return net.minecraft.client.render.BuiltChunkStorage.getRenderedChunk(sectionX,sectionY,sectionZ); }
+// public boolean isSectionWithinViewDistance(int sectionX,int sectionY,int sectionZ) { return wrapperContained.isSectionWithinViewDistance(sectionX,sectionY,sectionZ); }
+// public static boolean isSectionWithinViewDistance(int sectionX,int sectionY,int sectionZ, ) { return net.minecraft.client.render.BuiltChunkStorage.isSectionWithinViewDistance(sectionX,sectionY,sectionZ); }
+public yarnwrap.util.math.ChunkSectionPos getSectionPos() { return new yarnwrap.util.math.ChunkSectionPos(wrapperContained.getSectionPos()); }
+// public static yarnwrap.util.math.ChunkSectionPos getSectionPos() { return new yarnwrap.util.math.ChunkSectionPos(net.minecraft.client.render.BuiltChunkStorage.getSectionPos()); }
 
 }

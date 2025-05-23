@@ -26,6 +26,11 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.s
 // public static java.util.Optional overrideLiquidSettings() { return net.minecraft.structure.pool.SinglePoolElement.overrideLiquidSettings; }
 // public static void overrideLiquidSettings(java.util.Optional value, ) { net.minecraft.structure.pool.SinglePoolElement.overrideLiquidSettings = value; }
 
+// public java.util.Comparator JIGSAW_BLOCK_INFO_COMPARATOR() { return wrapperContained.JIGSAW_BLOCK_INFO_COMPARATOR; }
+// public void JIGSAW_BLOCK_INFO_COMPARATOR(java.util.Comparator value) { wrapperContained.JIGSAW_BLOCK_INFO_COMPARATOR = value; }
+// public static java.util.Comparator JIGSAW_BLOCK_INFO_COMPARATOR() { return net.minecraft.structure.pool.SinglePoolElement.JIGSAW_BLOCK_INFO_COMPARATOR; }
+// public static void JIGSAW_BLOCK_INFO_COMPARATOR(java.util.Comparator value, ) { net.minecraft.structure.pool.SinglePoolElement.JIGSAW_BLOCK_INFO_COMPARATOR = value; }
+
 // public SinglePoolElement(com.mojang.datafixers.util.Either location,yarnwrap.registry.entry.RegistryEntry processors,Object projection,java.util.Optional overrideLiquidSettings) { this.wrapperContained = new net.minecraft.structure.pool.SinglePoolElement(location,processors.wrapperContained,projection,overrideLiquidSettings); }
 public java.util.List getDataStructureBlocks(yarnwrap.structure.StructureTemplateManager structureTemplateManager,yarnwrap.util.math.BlockPos pos,yarnwrap.util.BlockRotation rotation,boolean mirroredAndRotated) { return wrapperContained.getDataStructureBlocks(structureTemplateManager.wrapperContained,pos.wrapperContained,rotation.wrapperContained,mirroredAndRotated); }
 // public static java.util.List getDataStructureBlocks(yarnwrap.structure.StructureTemplateManager structureTemplateManager,yarnwrap.util.math.BlockPos pos,yarnwrap.util.BlockRotation rotation,boolean mirroredAndRotated, ) { return net.minecraft.structure.pool.SinglePoolElement.getDataStructureBlocks(structureTemplateManager.wrapperContained,pos.wrapperContained,rotation.wrapperContained,mirroredAndRotated); }
@@ -45,15 +50,13 @@ public java.util.List getDataStructureBlocks(yarnwrap.structure.StructureTemplat
 // public static yarnwrap.registry.entry.RegistryEntry method_28881(yarnwrap.structure.pool.SinglePoolElement pool, ) { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.structure.pool.SinglePoolElement.method_28881(pool.wrapperContained)); }
 // public com.mojang.serialization.codecs.RecordCodecBuilder locationGetter() { return wrapperContained.locationGetter(); }
 // public static com.mojang.serialization.codecs.RecordCodecBuilder locationGetter() { return net.minecraft.structure.pool.SinglePoolElement.locationGetter(); }
-// public int method_54781(Object block) { return wrapperContained.method_54781(block); }
-// public static int method_54781(Object block, ) { return net.minecraft.structure.pool.SinglePoolElement.method_54781(block); }
 // public void sort(java.util.List blocks) { wrapperContained.sort(blocks); }
 // public static void sort(java.util.List blocks, ) { net.minecraft.structure.pool.SinglePoolElement.sort(blocks); }
-// public java.lang.Integer method_54783(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.method_54783(nbt.wrapperContained); }
-// public static java.lang.Integer method_54783(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.structure.pool.SinglePoolElement.method_54783(nbt.wrapperContained); }
 // public java.util.Optional method_61012(yarnwrap.structure.pool.SinglePoolElement pool) { return wrapperContained.method_61012(pool.wrapperContained); }
 // public static java.util.Optional method_61012(yarnwrap.structure.pool.SinglePoolElement pool, ) { return net.minecraft.structure.pool.SinglePoolElement.method_61012(pool.wrapperContained); }
 // public com.mojang.serialization.codecs.RecordCodecBuilder overrideLiquidSettingsGetter() { return wrapperContained.overrideLiquidSettingsGetter(); }
 // public static com.mojang.serialization.codecs.RecordCodecBuilder overrideLiquidSettingsGetter() { return net.minecraft.structure.pool.SinglePoolElement.overrideLiquidSettingsGetter(); }
+public yarnwrap.util.Identifier getIdOrThrow() { return new yarnwrap.util.Identifier(wrapperContained.getIdOrThrow()); }
+// public static yarnwrap.util.Identifier getIdOrThrow() { return new yarnwrap.util.Identifier(net.minecraft.structure.pool.SinglePoolElement.getIdOrThrow()); }
 
 }

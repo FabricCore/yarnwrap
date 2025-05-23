@@ -1,70 +1,10 @@
 package yarnwrap.entity.passive;
 public class PandaEntity { public net.minecraft.entity.passive.PandaEntity wrapperContained; public PandaEntity(net.minecraft.entity.passive.PandaEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.util.math.Vec3d playingJump() { return new yarnwrap.util.math.Vec3d(wrapperContained.playingJump); }
-// public void playingJump(yarnwrap.util.math.Vec3d value) { wrapperContained.playingJump = value.wrapperContained; }
-// public static yarnwrap.util.math.Vec3d playingJump() { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.passive.PandaEntity.playingJump); }
-// public static void playingJump(yarnwrap.util.math.Vec3d value, ) { net.minecraft.entity.passive.PandaEntity.playingJump = value.wrapperContained; }
-
-// public yarnwrap.entity.ai.TargetPredicate ASK_FOR_BAMBOO_TARGET() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.ASK_FOR_BAMBOO_TARGET); }
-// public void ASK_FOR_BAMBOO_TARGET(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.ASK_FOR_BAMBOO_TARGET = value.wrapperContained; }
-// public static yarnwrap.entity.ai.TargetPredicate ASK_FOR_BAMBOO_TARGET() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.passive.PandaEntity.ASK_FOR_BAMBOO_TARGET); }
-// public static void ASK_FOR_BAMBOO_TARGET(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.passive.PandaEntity.ASK_FOR_BAMBOO_TARGET = value.wrapperContained; }
-
-// public Object lookAtPlayerGoal() { return wrapperContained.lookAtPlayerGoal; }
-// // public void lookAtPlayerGoal(Object value) { wrapperContained.lookAtPlayerGoal = value; }
-// // public static Object lookAtPlayerGoal() { return net.minecraft.entity.passive.PandaEntity.lookAtPlayerGoal; }
-// // public static void lookAtPlayerGoal(Object value, ) { net.minecraft.entity.passive.PandaEntity.lookAtPlayerGoal = value; }
-
-// public int MAIN_GENE_MUTATION_CHANCE() { return wrapperContained.MAIN_GENE_MUTATION_CHANCE; }
-// public void MAIN_GENE_MUTATION_CHANCE(int value) { wrapperContained.MAIN_GENE_MUTATION_CHANCE = value; }
-public static int MAIN_GENE_MUTATION_CHANCE() { return net.minecraft.entity.passive.PandaEntity.MAIN_GENE_MUTATION_CHANCE; }
-// public static void MAIN_GENE_MUTATION_CHANCE(int value, ) { net.minecraft.entity.passive.PandaEntity.MAIN_GENE_MUTATION_CHANCE = value; }
-
-// public int SNEEZING_FLAG() { return wrapperContained.SNEEZING_FLAG; }
-// public void SNEEZING_FLAG(int value) { wrapperContained.SNEEZING_FLAG = value; }
-// public static int SNEEZING_FLAG() { return net.minecraft.entity.passive.PandaEntity.SNEEZING_FLAG; }
-// public static void SNEEZING_FLAG(int value, ) { net.minecraft.entity.passive.PandaEntity.SNEEZING_FLAG = value; }
-
-// public int PLAYING_FLAG() { return wrapperContained.PLAYING_FLAG; }
-// public void PLAYING_FLAG(int value) { wrapperContained.PLAYING_FLAG = value; }
-// public static int PLAYING_FLAG() { return net.minecraft.entity.passive.PandaEntity.PLAYING_FLAG; }
-// public static void PLAYING_FLAG(int value, ) { net.minecraft.entity.passive.PandaEntity.PLAYING_FLAG = value; }
-
-// public int SITTING_FLAG() { return wrapperContained.SITTING_FLAG; }
-// public void SITTING_FLAG(int value) { wrapperContained.SITTING_FLAG = value; }
-// public static int SITTING_FLAG() { return net.minecraft.entity.passive.PandaEntity.SITTING_FLAG; }
-// public static void SITTING_FLAG(int value, ) { net.minecraft.entity.passive.PandaEntity.SITTING_FLAG = value; }
-
-// public int LYING_ON_BACK_FLAG() { return wrapperContained.LYING_ON_BACK_FLAG; }
-// public void LYING_ON_BACK_FLAG(int value) { wrapperContained.LYING_ON_BACK_FLAG = value; }
-// public static int LYING_ON_BACK_FLAG() { return net.minecraft.entity.passive.PandaEntity.LYING_ON_BACK_FLAG; }
-// public static void LYING_ON_BACK_FLAG(int value, ) { net.minecraft.entity.passive.PandaEntity.LYING_ON_BACK_FLAG = value; }
-
-// public int EATING_ANIMATION_INTERVAL() { return wrapperContained.EATING_ANIMATION_INTERVAL; }
-// public void EATING_ANIMATION_INTERVAL(int value) { wrapperContained.EATING_ANIMATION_INTERVAL = value; }
-// public static int EATING_ANIMATION_INTERVAL() { return net.minecraft.entity.passive.PandaEntity.EATING_ANIMATION_INTERVAL; }
-// public static void EATING_ANIMATION_INTERVAL(int value, ) { net.minecraft.entity.passive.PandaEntity.EATING_ANIMATION_INTERVAL = value; }
-
-// public int HIDDEN_GENE_MUTATION_CHANCE() { return wrapperContained.HIDDEN_GENE_MUTATION_CHANCE; }
-// public void HIDDEN_GENE_MUTATION_CHANCE(int value) { wrapperContained.HIDDEN_GENE_MUTATION_CHANCE = value; }
-// public static int HIDDEN_GENE_MUTATION_CHANCE() { return net.minecraft.entity.passive.PandaEntity.HIDDEN_GENE_MUTATION_CHANCE; }
-// public static void HIDDEN_GENE_MUTATION_CHANCE(int value, ) { net.minecraft.entity.passive.PandaEntity.HIDDEN_GENE_MUTATION_CHANCE = value; }
-
-// public yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(wrapperContained.BABY_BASE_DIMENSIONS); }
-// public void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value) { wrapperContained.BABY_BASE_DIMENSIONS = value.wrapperContained; }
-// public static yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(net.minecraft.entity.passive.PandaEntity.BABY_BASE_DIMENSIONS); }
-// public static void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value, ) { net.minecraft.entity.passive.PandaEntity.BABY_BASE_DIMENSIONS = value.wrapperContained; }
-
 // public yarnwrap.entity.data.TrackedData ASK_FOR_BAMBOO_TICKS() { return new yarnwrap.entity.data.TrackedData(wrapperContained.ASK_FOR_BAMBOO_TICKS); }
 // public void ASK_FOR_BAMBOO_TICKS(yarnwrap.entity.data.TrackedData value) { wrapperContained.ASK_FOR_BAMBOO_TICKS = value.wrapperContained; }
 // public static yarnwrap.entity.data.TrackedData ASK_FOR_BAMBOO_TICKS() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.PandaEntity.ASK_FOR_BAMBOO_TICKS); }
 // public static void ASK_FOR_BAMBOO_TICKS(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.PandaEntity.ASK_FOR_BAMBOO_TICKS = value.wrapperContained; }
-
-// public java.util.function.Predicate IS_FOOD() { return wrapperContained.IS_FOOD; }
-// public void IS_FOOD(java.util.function.Predicate value) { wrapperContained.IS_FOOD = value; }
-// public static java.util.function.Predicate IS_FOOD() { return net.minecraft.entity.passive.PandaEntity.IS_FOOD; }
-// public static void IS_FOOD(java.util.function.Predicate value, ) { net.minecraft.entity.passive.PandaEntity.IS_FOOD = value; }
 
 // public yarnwrap.entity.data.TrackedData MAIN_GENE() { return new yarnwrap.entity.data.TrackedData(wrapperContained.MAIN_GENE); }
 // public void MAIN_GENE(yarnwrap.entity.data.TrackedData value) { wrapperContained.MAIN_GENE = value.wrapperContained; }
@@ -136,22 +76,63 @@ public void playingTicks(int value) { wrapperContained.playingTicks = value; }
 // public static yarnwrap.entity.data.TrackedData HIDDEN_GENE() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.PandaEntity.HIDDEN_GENE); }
 // public static void HIDDEN_GENE(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.PandaEntity.HIDDEN_GENE = value.wrapperContained; }
 
-// public boolean canEat(yarnwrap.item.ItemStack stack) { return wrapperContained.canEat(stack.wrapperContained); }
-// public static boolean canEat(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.passive.PandaEntity.canEat(stack.wrapperContained); }
-// public void stop() { wrapperContained.stop(); }
-// public static void stop() { net.minecraft.entity.passive.PandaEntity.stop(); }
-public boolean isIdle() { return wrapperContained.isIdle(); }
-// public static boolean isIdle() { return net.minecraft.entity.passive.PandaEntity.isIdle(); }
-// public Object createPandaAttributes() { return wrapperContained.createPandaAttributes(); }
-public static Object createPandaAttributes() { return net.minecraft.entity.passive.PandaEntity.createPandaAttributes(); }
-public boolean isBrown() { return wrapperContained.isBrown(); }
-// public static boolean isBrown() { return net.minecraft.entity.passive.PandaEntity.isBrown(); }
-// public boolean method_58371(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58371(stack.wrapperContained); }
-// public static boolean method_58371(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.passive.PandaEntity.method_58371(stack.wrapperContained); }
+// public yarnwrap.util.math.Vec3d playingJump() { return new yarnwrap.util.math.Vec3d(wrapperContained.playingJump); }
+// public void playingJump(yarnwrap.util.math.Vec3d value) { wrapperContained.playingJump = value.wrapperContained; }
+// public static yarnwrap.util.math.Vec3d playingJump() { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.passive.PandaEntity.playingJump); }
+// public static void playingJump(yarnwrap.util.math.Vec3d value, ) { net.minecraft.entity.passive.PandaEntity.playingJump = value.wrapperContained; }
+
+// public yarnwrap.entity.ai.TargetPredicate ASK_FOR_BAMBOO_TARGET() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.ASK_FOR_BAMBOO_TARGET); }
+// public void ASK_FOR_BAMBOO_TARGET(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.ASK_FOR_BAMBOO_TARGET = value.wrapperContained; }
+// public static yarnwrap.entity.ai.TargetPredicate ASK_FOR_BAMBOO_TARGET() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.passive.PandaEntity.ASK_FOR_BAMBOO_TARGET); }
+// public static void ASK_FOR_BAMBOO_TARGET(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.passive.PandaEntity.ASK_FOR_BAMBOO_TARGET = value.wrapperContained; }
+
+// public Object lookAtPlayerGoal() { return wrapperContained.lookAtPlayerGoal; }
+// // public void lookAtPlayerGoal(Object value) { wrapperContained.lookAtPlayerGoal = value; }
+// // public static Object lookAtPlayerGoal() { return net.minecraft.entity.passive.PandaEntity.lookAtPlayerGoal; }
+// // public static void lookAtPlayerGoal(Object value, ) { net.minecraft.entity.passive.PandaEntity.lookAtPlayerGoal = value; }
+
+// public int MAIN_GENE_MUTATION_CHANCE() { return wrapperContained.MAIN_GENE_MUTATION_CHANCE; }
+// public void MAIN_GENE_MUTATION_CHANCE(int value) { wrapperContained.MAIN_GENE_MUTATION_CHANCE = value; }
+public static int MAIN_GENE_MUTATION_CHANCE() { return net.minecraft.entity.passive.PandaEntity.MAIN_GENE_MUTATION_CHANCE; }
+// public static void MAIN_GENE_MUTATION_CHANCE(int value, ) { net.minecraft.entity.passive.PandaEntity.MAIN_GENE_MUTATION_CHANCE = value; }
+
+// public int SNEEZING_FLAG() { return wrapperContained.SNEEZING_FLAG; }
+// public void SNEEZING_FLAG(int value) { wrapperContained.SNEEZING_FLAG = value; }
+// public static int SNEEZING_FLAG() { return net.minecraft.entity.passive.PandaEntity.SNEEZING_FLAG; }
+// public static void SNEEZING_FLAG(int value, ) { net.minecraft.entity.passive.PandaEntity.SNEEZING_FLAG = value; }
+
+// public int PLAYING_FLAG() { return wrapperContained.PLAYING_FLAG; }
+// public void PLAYING_FLAG(int value) { wrapperContained.PLAYING_FLAG = value; }
+// public static int PLAYING_FLAG() { return net.minecraft.entity.passive.PandaEntity.PLAYING_FLAG; }
+// public static void PLAYING_FLAG(int value, ) { net.minecraft.entity.passive.PandaEntity.PLAYING_FLAG = value; }
+
+// public int SITTING_FLAG() { return wrapperContained.SITTING_FLAG; }
+// public void SITTING_FLAG(int value) { wrapperContained.SITTING_FLAG = value; }
+// public static int SITTING_FLAG() { return net.minecraft.entity.passive.PandaEntity.SITTING_FLAG; }
+// public static void SITTING_FLAG(int value, ) { net.minecraft.entity.passive.PandaEntity.SITTING_FLAG = value; }
+
+// public int LYING_ON_BACK_FLAG() { return wrapperContained.LYING_ON_BACK_FLAG; }
+// public void LYING_ON_BACK_FLAG(int value) { wrapperContained.LYING_ON_BACK_FLAG = value; }
+// public static int LYING_ON_BACK_FLAG() { return net.minecraft.entity.passive.PandaEntity.LYING_ON_BACK_FLAG; }
+// public static void LYING_ON_BACK_FLAG(int value, ) { net.minecraft.entity.passive.PandaEntity.LYING_ON_BACK_FLAG = value; }
+
+// public int EATING_ANIMATION_INTERVAL() { return wrapperContained.EATING_ANIMATION_INTERVAL; }
+// public void EATING_ANIMATION_INTERVAL(int value) { wrapperContained.EATING_ANIMATION_INTERVAL = value; }
+// public static int EATING_ANIMATION_INTERVAL() { return net.minecraft.entity.passive.PandaEntity.EATING_ANIMATION_INTERVAL; }
+// public static void EATING_ANIMATION_INTERVAL(int value, ) { net.minecraft.entity.passive.PandaEntity.EATING_ANIMATION_INTERVAL = value; }
+
+// public int HIDDEN_GENE_MUTATION_CHANCE() { return wrapperContained.HIDDEN_GENE_MUTATION_CHANCE; }
+// public void HIDDEN_GENE_MUTATION_CHANCE(int value) { wrapperContained.HIDDEN_GENE_MUTATION_CHANCE = value; }
+// public static int HIDDEN_GENE_MUTATION_CHANCE() { return net.minecraft.entity.passive.PandaEntity.HIDDEN_GENE_MUTATION_CHANCE; }
+// public static void HIDDEN_GENE_MUTATION_CHANCE(int value, ) { net.minecraft.entity.passive.PandaEntity.HIDDEN_GENE_MUTATION_CHANCE = value; }
+
+// public yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(wrapperContained.BABY_BASE_DIMENSIONS); }
+// public void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value) { wrapperContained.BABY_BASE_DIMENSIONS = value.wrapperContained; }
+// public static yarnwrap.entity.EntityDimensions BABY_BASE_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(net.minecraft.entity.passive.PandaEntity.BABY_BASE_DIMENSIONS); }
+// public static void BABY_BASE_DIMENSIONS(yarnwrap.entity.EntityDimensions value, ) { net.minecraft.entity.passive.PandaEntity.BABY_BASE_DIMENSIONS = value.wrapperContained; }
+
 // public void updateLieOnBackAnimation() { wrapperContained.updateLieOnBackAnimation(); }
 // public static void updateLieOnBackAnimation() { net.minecraft.entity.passive.PandaEntity.updateLieOnBackAnimation(); }
-// public boolean method_6504(yarnwrap.entity.ItemEntity item) { return wrapperContained.method_6504(item.wrapperContained); }
-// public static boolean method_6504(yarnwrap.entity.ItemEntity item, ) { return net.minecraft.entity.passive.PandaEntity.method_6504(item.wrapperContained); }
 public void setLyingOnBack(boolean lyingOnBack) { wrapperContained.setLyingOnBack(lyingOnBack); }
 // public static void setLyingOnBack(boolean lyingOnBack, ) { net.minecraft.entity.passive.PandaEntity.setLyingOnBack(lyingOnBack); }
 public Object getHiddenGene() { return wrapperContained.getHiddenGene(); }
@@ -192,8 +173,8 @@ public int getSneezeProgress() { return wrapperContained.getSneezeProgress(); }
 // public static int getSneezeProgress() { return net.minecraft.entity.passive.PandaEntity.getSneezeProgress(); }
 // public boolean hasPandaFlag(int bitmask) { return wrapperContained.hasPandaFlag(bitmask); }
 // public static boolean hasPandaFlag(int bitmask, ) { return net.minecraft.entity.passive.PandaEntity.hasPandaFlag(bitmask); }
-public float getSittingAnimationProgress(float tickDelta) { return wrapperContained.getSittingAnimationProgress(tickDelta); }
-// public static float getSittingAnimationProgress(float tickDelta, ) { return net.minecraft.entity.passive.PandaEntity.getSittingAnimationProgress(tickDelta); }
+public float getSittingAnimationProgress(float tickProgress) { return wrapperContained.getSittingAnimationProgress(tickProgress); }
+// public static float getSittingAnimationProgress(float tickProgress, ) { return net.minecraft.entity.passive.PandaEntity.getSittingAnimationProgress(tickProgress); }
 public boolean isSitting() { return wrapperContained.isSitting(); }
 // public static boolean isSitting() { return net.minecraft.entity.passive.PandaEntity.isSitting(); }
 // public void updateEatingAnimation() { wrapperContained.updateEatingAnimation(); }
@@ -224,13 +205,25 @@ public void setEating(boolean eating) { wrapperContained.setEating(eating); }
 // public static void setEating(boolean eating, ) { net.minecraft.entity.passive.PandaEntity.setEating(eating); }
 public Object getProductGene() { return wrapperContained.getProductGene(); }
 // public static Object getProductGene() { return net.minecraft.entity.passive.PandaEntity.getProductGene(); }
-public float getLieOnBackAnimationProgress(float tickDelta) { return wrapperContained.getLieOnBackAnimationProgress(tickDelta); }
-// public static float getLieOnBackAnimationProgress(float tickDelta, ) { return net.minecraft.entity.passive.PandaEntity.getLieOnBackAnimationProgress(tickDelta); }
+public float getLieOnBackAnimationProgress(float tickProgress) { return wrapperContained.getLieOnBackAnimationProgress(tickProgress); }
+// public static float getLieOnBackAnimationProgress(float tickProgress, ) { return net.minecraft.entity.passive.PandaEntity.getLieOnBackAnimationProgress(tickProgress); }
 // public void setPandaFlag(int mask,boolean value) { wrapperContained.setPandaFlag(mask,value); }
 // public static void setPandaFlag(int mask,boolean value, ) { net.minecraft.entity.passive.PandaEntity.setPandaFlag(mask,value); }
 // public void setEatingTicks(int eatingTicks) { wrapperContained.setEatingTicks(eatingTicks); }
 // public static void setEatingTicks(int eatingTicks, ) { net.minecraft.entity.passive.PandaEntity.setEatingTicks(eatingTicks); }
-public float getRollOverAnimationProgress(float tickDelta) { return wrapperContained.getRollOverAnimationProgress(tickDelta); }
-// public static float getRollOverAnimationProgress(float tickDelta, ) { return net.minecraft.entity.passive.PandaEntity.getRollOverAnimationProgress(tickDelta); }
+public float getRollOverAnimationProgress(float tickProgress) { return wrapperContained.getRollOverAnimationProgress(tickProgress); }
+// public static float getRollOverAnimationProgress(float tickProgress, ) { return net.minecraft.entity.passive.PandaEntity.getRollOverAnimationProgress(tickProgress); }
+// public void stop() { wrapperContained.stop(); }
+// public static void stop() { net.minecraft.entity.passive.PandaEntity.stop(); }
+public boolean isIdle() { return wrapperContained.isIdle(); }
+// public static boolean isIdle() { return net.minecraft.entity.passive.PandaEntity.isIdle(); }
+// public Object createPandaAttributes() { return wrapperContained.createPandaAttributes(); }
+public static Object createPandaAttributes() { return net.minecraft.entity.passive.PandaEntity.createPandaAttributes(); }
+public boolean isBrown() { return wrapperContained.isBrown(); }
+// public static boolean isBrown() { return net.minecraft.entity.passive.PandaEntity.isBrown(); }
+// public boolean method_58371(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58371(stack.wrapperContained); }
+// public static boolean method_58371(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.passive.PandaEntity.method_58371(stack.wrapperContained); }
+// public boolean canEatFromGround(yarnwrap.entity.ItemEntity itemEntity) { return wrapperContained.canEatFromGround(itemEntity.wrapperContained); }
+// public static boolean canEatFromGround(yarnwrap.entity.ItemEntity itemEntity, ) { return net.minecraft.entity.passive.PandaEntity.canEatFromGround(itemEntity.wrapperContained); }
 
 }

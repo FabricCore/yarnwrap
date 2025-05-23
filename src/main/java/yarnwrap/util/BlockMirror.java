@@ -21,6 +21,11 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.util
 // public static java.lang.String id() { return net.minecraft.util.BlockMirror.id; }
 // public static void id(java.lang.String value, ) { net.minecraft.util.BlockMirror.id = value; }
 
+// public com.mojang.serialization.Codec ENUM_NAME_CODEC() { return wrapperContained.ENUM_NAME_CODEC; }
+// public void ENUM_NAME_CODEC(com.mojang.serialization.Codec value) { wrapperContained.ENUM_NAME_CODEC = value; }
+public static com.mojang.serialization.Codec ENUM_NAME_CODEC() { return net.minecraft.util.BlockMirror.ENUM_NAME_CODEC; }
+// public static void ENUM_NAME_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.util.BlockMirror.ENUM_NAME_CODEC = value; }
+
 // // public BlockMirror(java.lang.String id,int directionTransformation) { this.wrapperContained = new net.minecraft.util.BlockMirror(id,directionTransformation); }
 public yarnwrap.util.math.Direction apply(yarnwrap.util.math.Direction direction) { return new yarnwrap.util.math.Direction(wrapperContained.apply(direction.wrapperContained)); }
 // public static yarnwrap.util.math.Direction apply(yarnwrap.util.math.Direction direction, ) { return new yarnwrap.util.math.Direction(net.minecraft.util.BlockMirror.apply(direction.wrapperContained)); }

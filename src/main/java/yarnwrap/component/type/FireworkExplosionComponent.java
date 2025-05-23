@@ -37,8 +37,6 @@ public static com.mojang.serialization.Codec COLORS_CODEC() { return net.minecra
 // public static com.mojang.datafixers.kinds.App method_57473(Object instance, ) { return net.minecraft.component.type.FireworkExplosionComponent.method_57473(instance); }
 public yarnwrap.component.type.FireworkExplosionComponent withFadeColors(it.unimi.dsi.fastutil.ints.IntList fadeColors) { return new yarnwrap.component.type.FireworkExplosionComponent(wrapperContained.withFadeColors(fadeColors)); }
 // public static yarnwrap.component.type.FireworkExplosionComponent withFadeColors(it.unimi.dsi.fastutil.ints.IntList fadeColors, ) { return new yarnwrap.component.type.FireworkExplosionComponent(net.minecraft.component.type.FireworkExplosionComponent.withFadeColors(fadeColors)); }
-public void appendShapeTooltip(java.util.function.Consumer textConsumer) { wrapperContained.appendShapeTooltip(textConsumer); }
-// public static void appendShapeTooltip(java.util.function.Consumer textConsumer, ) { net.minecraft.component.type.FireworkExplosionComponent.appendShapeTooltip(textConsumer); }
 // public yarnwrap.text.Text appendColorsTooltipText(yarnwrap.text.MutableText text,it.unimi.dsi.fastutil.ints.IntList colors) { return new yarnwrap.text.Text(wrapperContained.appendColorsTooltipText(text.wrapperContained,colors)); }
 // public static yarnwrap.text.Text appendColorsTooltipText(yarnwrap.text.MutableText text,it.unimi.dsi.fastutil.ints.IntList colors, ) { return new yarnwrap.text.Text(net.minecraft.component.type.FireworkExplosionComponent.appendColorsTooltipText(text.wrapperContained,colors)); }
 public void appendOptionalTooltip(java.util.function.Consumer textConsumer) { wrapperContained.appendOptionalTooltip(textConsumer); }

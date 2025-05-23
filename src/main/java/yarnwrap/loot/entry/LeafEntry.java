@@ -1,16 +1,6 @@
 package yarnwrap.loot.entry;
 public class LeafEntry { public net.minecraft.loot.entry.LeafEntry wrapperContained; public LeafEntry(net.minecraft.loot.entry.LeafEntry wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int DEFAULT_WEIGHT() { return wrapperContained.DEFAULT_WEIGHT; }
-// public void DEFAULT_WEIGHT(int value) { wrapperContained.DEFAULT_WEIGHT = value; }
-public static int DEFAULT_WEIGHT() { return net.minecraft.loot.entry.LeafEntry.DEFAULT_WEIGHT; }
-// public static void DEFAULT_WEIGHT(int value, ) { net.minecraft.loot.entry.LeafEntry.DEFAULT_WEIGHT = value; }
-
-// public int DEFAULT_QUALITY() { return wrapperContained.DEFAULT_QUALITY; }
-// public void DEFAULT_QUALITY(int value) { wrapperContained.DEFAULT_QUALITY = value; }
-public static int DEFAULT_QUALITY() { return net.minecraft.loot.entry.LeafEntry.DEFAULT_QUALITY; }
-// public static void DEFAULT_QUALITY(int value, ) { net.minecraft.loot.entry.LeafEntry.DEFAULT_QUALITY = value; }
-
 // public int quality() { return wrapperContained.quality; }
 // public void quality(int value) { wrapperContained.quality = value; }
 // public static int quality() { return net.minecraft.loot.entry.LeafEntry.quality; }
@@ -35,6 +25,16 @@ public static int DEFAULT_QUALITY() { return net.minecraft.loot.entry.LeafEntry.
 // public void choice(yarnwrap.loot.LootChoice value) { wrapperContained.choice = value.wrapperContained; }
 // public static yarnwrap.loot.LootChoice choice() { return new yarnwrap.loot.LootChoice(net.minecraft.loot.entry.LeafEntry.choice); }
 // public static void choice(yarnwrap.loot.LootChoice value, ) { net.minecraft.loot.entry.LeafEntry.choice = value.wrapperContained; }
+
+// public int DEFAULT_WEIGHT() { return wrapperContained.DEFAULT_WEIGHT; }
+// public void DEFAULT_WEIGHT(int value) { wrapperContained.DEFAULT_WEIGHT = value; }
+public static int DEFAULT_WEIGHT() { return net.minecraft.loot.entry.LeafEntry.DEFAULT_WEIGHT; }
+// public static void DEFAULT_WEIGHT(int value, ) { net.minecraft.loot.entry.LeafEntry.DEFAULT_WEIGHT = value; }
+
+// public int DEFAULT_QUALITY() { return wrapperContained.DEFAULT_QUALITY; }
+// public void DEFAULT_QUALITY(int value) { wrapperContained.DEFAULT_QUALITY = value; }
+public static int DEFAULT_QUALITY() { return net.minecraft.loot.entry.LeafEntry.DEFAULT_QUALITY; }
+// public static void DEFAULT_QUALITY(int value, ) { net.minecraft.loot.entry.LeafEntry.DEFAULT_QUALITY = value; }
 
 // public LeafEntry(int weight,int quality,java.util.List conditions,java.util.List functions) { this.wrapperContained = new net.minecraft.loot.entry.LeafEntry(weight,quality,conditions,functions); }
 // public void generateLoot(java.util.function.Consumer lootConsumer,yarnwrap.loot.context.LootContext context) { wrapperContained.generateLoot(lootConsumer,context.wrapperContained); }

@@ -48,25 +48,19 @@ public java.util.Optional getType(yarnwrap.util.math.BlockPos pos) { return wrap
 // public static java.util.Optional getType(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.poi.PointOfInterestSet.getType(pos.wrapperContained); }
 // public boolean add(yarnwrap.world.poi.PointOfInterest poi) { return wrapperContained.add(poi.wrapperContained); }
 // public static boolean add(yarnwrap.world.poi.PointOfInterest poi, ) { return net.minecraft.world.poi.PointOfInterestSet.add(poi.wrapperContained); }
-// public void method_20352(it.unimi.dsi.fastutil.shorts.Short2ObjectMap pos) { wrapperContained.method_20352(pos); }
-// public static void method_20352(it.unimi.dsi.fastutil.shorts.Short2ObjectMap pos, ) { net.minecraft.world.poi.PointOfInterestSet.method_20352(pos); }
+// public void method_20352(it.unimi.dsi.fastutil.shorts.Short2ObjectMap pos,yarnwrap.util.math.BlockPos poiEntry) { wrapperContained.method_20352(pos,poiEntry.wrapperContained); }
+// public static void method_20352(it.unimi.dsi.fastutil.shorts.Short2ObjectMap pos,yarnwrap.util.math.BlockPos poiEntry, ) { net.minecraft.world.poi.PointOfInterestSet.method_20352(pos,poiEntry.wrapperContained); }
 public void updatePointsOfInterest(java.util.function.Consumer updater) { wrapperContained.updatePointsOfInterest(updater); }
 // public static void updatePointsOfInterest(java.util.function.Consumer updater, ) { net.minecraft.world.poi.PointOfInterestSet.updatePointsOfInterest(updater); }
 // public void clear() { wrapperContained.clear(); }
 // public static void clear() { net.minecraft.world.poi.PointOfInterestSet.clear(); }
 // public boolean isValid() { return wrapperContained.isValid(); }
 // public static boolean isValid() { return net.minecraft.world.poi.PointOfInterestSet.isValid(); }
-// public java.util.List method_28363(yarnwrap.world.poi.PointOfInterestSet poiSet) { return wrapperContained.method_28363(poiSet.wrapperContained); }
-// public static java.util.List method_28363(yarnwrap.world.poi.PointOfInterestSet poiSet, ) { return net.minecraft.world.poi.PointOfInterestSet.method_28363(poiSet.wrapperContained); }
-// public com.mojang.serialization.Codec createCodec(java.lang.Runnable updateListener) { return wrapperContained.createCodec(updateListener); }
-// public static com.mojang.serialization.Codec createCodec(java.lang.Runnable updateListener, ) { return net.minecraft.world.poi.PointOfInterestSet.createCodec(updateListener); }
-// public com.mojang.datafixers.kinds.App method_28365(java.lang.Runnable instance) { return wrapperContained.method_28365(instance); }
-// public static com.mojang.datafixers.kinds.App method_28365(java.lang.Runnable instance, ) { return net.minecraft.world.poi.PointOfInterestSet.method_28365(instance); }
-// public java.lang.Boolean method_28366(yarnwrap.world.poi.PointOfInterestSet poiSet) { return wrapperContained.method_28366(poiSet.wrapperContained); }
-// public static java.lang.Boolean method_28366(yarnwrap.world.poi.PointOfInterestSet poiSet, ) { return net.minecraft.world.poi.PointOfInterestSet.method_28366(poiSet.wrapperContained); }
 // public java.util.Optional get(yarnwrap.util.math.BlockPos pos) { return wrapperContained.get(pos.wrapperContained); }
 // public static java.util.Optional get(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.poi.PointOfInterestSet.get(pos.wrapperContained); }
 public int getFreeTickets(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getFreeTickets(pos.wrapperContained); }
 // public static int getFreeTickets(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.poi.PointOfInterestSet.getFreeTickets(pos.wrapperContained); }
+public Object toSerialized() { return wrapperContained.toSerialized(); }
+// public static Object toSerialized() { return net.minecraft.world.poi.PointOfInterestSet.toSerialized(); }
 
 }

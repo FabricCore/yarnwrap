@@ -1,10 +1,10 @@
 package yarnwrap.client.gui.screen.world;
 public class ExperimentsScreen { public net.minecraft.client.gui.screen.world.ExperimentsScreen wrapperContained; public ExperimentsScreen(net.minecraft.client.gui.screen.world.ExperimentsScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int INFO_WIDTH() { return wrapperContained.INFO_WIDTH; }
-// public void INFO_WIDTH(int value) { wrapperContained.INFO_WIDTH = value; }
-// public static int INFO_WIDTH() { return net.minecraft.client.gui.screen.world.ExperimentsScreen.INFO_WIDTH; }
-// public static void INFO_WIDTH(int value, ) { net.minecraft.client.gui.screen.world.ExperimentsScreen.INFO_WIDTH = value; }
+// public int EXPERIMENTS_LIST_WIDTH() { return wrapperContained.EXPERIMENTS_LIST_WIDTH; }
+// public void EXPERIMENTS_LIST_WIDTH(int value) { wrapperContained.EXPERIMENTS_LIST_WIDTH = value; }
+// public static int EXPERIMENTS_LIST_WIDTH() { return net.minecraft.client.gui.screen.world.ExperimentsScreen.EXPERIMENTS_LIST_WIDTH; }
+// public static void EXPERIMENTS_LIST_WIDTH(int value, ) { net.minecraft.client.gui.screen.world.ExperimentsScreen.EXPERIMENTS_LIST_WIDTH = value; }
 
 // public yarnwrap.client.gui.widget.ThreePartsLayoutWidget experimentToggleList() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(wrapperContained.experimentToggleList); }
 // public void experimentToggleList(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.experimentToggleList = value.wrapperContained; }
@@ -40,6 +40,16 @@ public class ExperimentsScreen { public net.minecraft.client.gui.screen.world.Ex
 // public void INFO_TEXT(yarnwrap.text.Text value) { wrapperContained.INFO_TEXT = value.wrapperContained; }
 // public static yarnwrap.text.Text INFO_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.world.ExperimentsScreen.INFO_TEXT); }
 // public static void INFO_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.world.ExperimentsScreen.INFO_TEXT = value.wrapperContained; }
+
+// public int EXPERIMENTS_LIST_HEIGHT() { return wrapperContained.EXPERIMENTS_LIST_HEIGHT; }
+// public void EXPERIMENTS_LIST_HEIGHT(int value) { wrapperContained.EXPERIMENTS_LIST_HEIGHT = value; }
+// public static int EXPERIMENTS_LIST_HEIGHT() { return net.minecraft.client.gui.screen.world.ExperimentsScreen.EXPERIMENTS_LIST_HEIGHT; }
+// public static void EXPERIMENTS_LIST_HEIGHT(int value, ) { net.minecraft.client.gui.screen.world.ExperimentsScreen.EXPERIMENTS_LIST_HEIGHT = value; }
+
+// public yarnwrap.client.gui.widget.ScrollableLayoutWidget experimentsList() { return new yarnwrap.client.gui.widget.ScrollableLayoutWidget(wrapperContained.experimentsList); }
+// public void experimentsList(yarnwrap.client.gui.widget.ScrollableLayoutWidget value) { wrapperContained.experimentsList = value.wrapperContained; }
+// public static yarnwrap.client.gui.widget.ScrollableLayoutWidget experimentsList() { return new yarnwrap.client.gui.widget.ScrollableLayoutWidget(net.minecraft.client.gui.screen.world.ExperimentsScreen.experimentsList); }
+// public static void experimentsList(yarnwrap.client.gui.widget.ScrollableLayoutWidget value, ) { net.minecraft.client.gui.screen.world.ExperimentsScreen.experimentsList = value.wrapperContained; }
 
 public ExperimentsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.resource.ResourcePackManager resourcePackManager,java.util.function.Consumer applier) { this.wrapperContained = new net.minecraft.client.gui.screen.world.ExperimentsScreen(parent.wrapperContained,resourcePackManager.wrapperContained,applier); }
 // public yarnwrap.text.Text getDataPackName(yarnwrap.resource.ResourcePackProfile packProfile) { return new yarnwrap.text.Text(wrapperContained.getDataPackName(packProfile.wrapperContained)); }

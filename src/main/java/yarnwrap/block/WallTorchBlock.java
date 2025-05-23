@@ -1,15 +1,15 @@
 package yarnwrap.block;
 public class WallTorchBlock { public net.minecraft.block.WallTorchBlock wrapperContained; public WallTorchBlock(net.minecraft.block.WallTorchBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.WallTorchBlock.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.WallTorchBlock.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.WallTorchBlock.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.WallTorchBlock.FACING = value.wrapperContained; }
 
-// public java.util.Map BOUNDING_SHAPES() { return wrapperContained.BOUNDING_SHAPES; }
-// public void BOUNDING_SHAPES(java.util.Map value) { wrapperContained.BOUNDING_SHAPES = value; }
-// public static java.util.Map BOUNDING_SHAPES() { return net.minecraft.block.WallTorchBlock.BOUNDING_SHAPES; }
-// public static void BOUNDING_SHAPES(java.util.Map value, ) { net.minecraft.block.WallTorchBlock.BOUNDING_SHAPES = value; }
+// public java.util.Map SHAPES_BY_DIRECTION() { return wrapperContained.SHAPES_BY_DIRECTION; }
+// public void SHAPES_BY_DIRECTION(java.util.Map value) { wrapperContained.SHAPES_BY_DIRECTION = value; }
+// public static java.util.Map SHAPES_BY_DIRECTION() { return net.minecraft.block.WallTorchBlock.SHAPES_BY_DIRECTION; }
+// public static void SHAPES_BY_DIRECTION(java.util.Map value, ) { net.minecraft.block.WallTorchBlock.SHAPES_BY_DIRECTION = value; }
 
 // public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }

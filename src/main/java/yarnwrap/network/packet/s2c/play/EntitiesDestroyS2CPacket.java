@@ -11,9 +11,9 @@ public class EntitiesDestroyS2CPacket { public net.minecraft.network.packet.s2c.
 public static yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket.CODEC); }
 // public static void CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket.CODEC = value.wrapperContained; }
 
+public EntitiesDestroyS2CPacket(int entityIds) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket(entityIds); }
 public EntitiesDestroyS2CPacket(it.unimi.dsi.fastutil.ints.IntList entityIds) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket(entityIds); }
 // public EntitiesDestroyS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket(buf.wrapperContained); }
-public EntitiesDestroyS2CPacket(int entityIds) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket(entityIds); }
 public it.unimi.dsi.fastutil.ints.IntList getEntityIds() { return wrapperContained.getEntityIds(); }
 // public static it.unimi.dsi.fastutil.ints.IntList getEntityIds() { return net.minecraft.network.packet.s2c.play.EntitiesDestroyS2CPacket.getEntityIds(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

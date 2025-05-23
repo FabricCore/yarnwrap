@@ -1,11 +1,6 @@
 package yarnwrap.client.toast;
 public class RecipeToast { public net.minecraft.client.toast.RecipeToast wrapperContained; public RecipeToast(net.minecraft.client.toast.RecipeToast wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.List recipes() { return wrapperContained.recipes; }
-// public void recipes(java.util.List value) { wrapperContained.recipes = value; }
-// public static java.util.List recipes() { return net.minecraft.client.toast.RecipeToast.recipes; }
-// public static void recipes(java.util.List value, ) { net.minecraft.client.toast.RecipeToast.recipes = value; }
-
 // public boolean justUpdated() { return wrapperContained.justUpdated; }
 // public void justUpdated(boolean value) { wrapperContained.justUpdated = value; }
 // public static boolean justUpdated() { return net.minecraft.client.toast.RecipeToast.justUpdated; }
@@ -36,10 +31,24 @@ public class RecipeToast { public net.minecraft.client.toast.RecipeToast wrapper
 // public static yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.toast.RecipeToast.TEXTURE); }
 // public static void TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.toast.RecipeToast.TEXTURE = value.wrapperContained; }
 
-public RecipeToast(yarnwrap.recipe.RecipeEntry recipe) { this.wrapperContained = new net.minecraft.client.toast.RecipeToast(recipe.wrapperContained); }
-// public void addRecipes(yarnwrap.recipe.RecipeEntry recipe) { wrapperContained.addRecipes(recipe.wrapperContained); }
-// public static void addRecipes(yarnwrap.recipe.RecipeEntry recipe, ) { net.minecraft.client.toast.RecipeToast.addRecipes(recipe.wrapperContained); }
-// public void show(yarnwrap.client.toast.ToastManager manager,yarnwrap.recipe.RecipeEntry recipe) { wrapperContained.show(manager.wrapperContained,recipe.wrapperContained); }
-// public static void show(yarnwrap.client.toast.ToastManager manager,yarnwrap.recipe.RecipeEntry recipe, ) { net.minecraft.client.toast.RecipeToast.show(manager.wrapperContained,recipe.wrapperContained); }
+// public java.util.List displayItems() { return wrapperContained.displayItems; }
+// public void displayItems(java.util.List value) { wrapperContained.displayItems = value; }
+// public static java.util.List displayItems() { return net.minecraft.client.toast.RecipeToast.displayItems; }
+// public static void displayItems(java.util.List value, ) { net.minecraft.client.toast.RecipeToast.displayItems = value; }
+
+// public Object visibility() { return wrapperContained.visibility; }
+// // public void visibility(Object value) { wrapperContained.visibility = value; }
+// // public static Object visibility() { return net.minecraft.client.toast.RecipeToast.visibility; }
+// // public static void visibility(Object value, ) { net.minecraft.client.toast.RecipeToast.visibility = value; }
+
+// public int currentItemsDisplayed() { return wrapperContained.currentItemsDisplayed; }
+// public void currentItemsDisplayed(int value) { wrapperContained.currentItemsDisplayed = value; }
+// public static int currentItemsDisplayed() { return net.minecraft.client.toast.RecipeToast.currentItemsDisplayed; }
+// public static void currentItemsDisplayed(int value, ) { net.minecraft.client.toast.RecipeToast.currentItemsDisplayed = value; }
+
+// public void addRecipes(yarnwrap.item.ItemStack categoryItem,yarnwrap.item.ItemStack unlockedItem) { wrapperContained.addRecipes(categoryItem.wrapperContained,unlockedItem.wrapperContained); }
+// public static void addRecipes(yarnwrap.item.ItemStack categoryItem,yarnwrap.item.ItemStack unlockedItem, ) { net.minecraft.client.toast.RecipeToast.addRecipes(categoryItem.wrapperContained,unlockedItem.wrapperContained); }
+// public void show(yarnwrap.client.toast.ToastManager toastManager,yarnwrap.recipe.display.RecipeDisplay display) { wrapperContained.show(toastManager.wrapperContained,display.wrapperContained); }
+// public static void show(yarnwrap.client.toast.ToastManager toastManager,yarnwrap.recipe.display.RecipeDisplay display, ) { net.minecraft.client.toast.RecipeToast.show(toastManager.wrapperContained,display.wrapperContained); }
 
 }

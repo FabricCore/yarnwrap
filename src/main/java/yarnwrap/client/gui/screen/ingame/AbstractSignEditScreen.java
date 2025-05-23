@@ -43,14 +43,14 @@ public class AbstractSignEditScreen { public net.minecraft.client.gui.screen.ing
 
 // public AbstractSignEditScreen(yarnwrap.block.entity.SignBlockEntity blockEntity,boolean front,boolean filtered) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen(blockEntity.wrapperContained,front,filtered); }
 // public AbstractSignEditScreen(yarnwrap.block.entity.SignBlockEntity blockEntity,boolean front,boolean filtered,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen(blockEntity.wrapperContained,front,filtered,title.wrapperContained); }
-// public void translateForRender(yarnwrap.client.gui.DrawContext context,yarnwrap.block.BlockState state) { wrapperContained.translateForRender(context.wrapperContained,state.wrapperContained); }
-// public static void translateForRender(yarnwrap.client.gui.DrawContext context,yarnwrap.block.BlockState state, ) { net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen.translateForRender(context.wrapperContained,state.wrapperContained); }
 // public void renderSignText(yarnwrap.client.gui.DrawContext context) { wrapperContained.renderSignText(context.wrapperContained); }
 // public static void renderSignText(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen.renderSignText(context.wrapperContained); }
-// public void renderSignBackground(yarnwrap.client.gui.DrawContext context,yarnwrap.block.BlockState state) { wrapperContained.renderSignBackground(context.wrapperContained,state.wrapperContained); }
-// public static void renderSignBackground(yarnwrap.client.gui.DrawContext context,yarnwrap.block.BlockState state, ) { net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen.renderSignBackground(context.wrapperContained,state.wrapperContained); }
+// public void renderSignBackground(yarnwrap.client.gui.DrawContext context) { wrapperContained.renderSignBackground(context.wrapperContained); }
+// public static void renderSignBackground(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen.renderSignBackground(context.wrapperContained); }
 // public void method_45657(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_45657(button.wrapperContained); }
 // public static void method_45657(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen.method_45657(button.wrapperContained); }
+// public boolean method_45658(java.lang.String textLine) { return wrapperContained.method_45658(textLine); }
+// public static boolean method_45658(java.lang.String textLine, ) { return net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen.method_45658(textLine); }
 // public void renderSign(yarnwrap.client.gui.DrawContext context) { wrapperContained.renderSign(context.wrapperContained); }
 // public static void renderSign(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen.renderSign(context.wrapperContained); }
 // public org.joml.Vector3f getTextScale() { return wrapperContained.getTextScale(); }
@@ -63,5 +63,7 @@ public class AbstractSignEditScreen { public net.minecraft.client.gui.screen.ing
 // public static void setCurrentRowMessage(java.lang.String message, ) { net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen.setCurrentRowMessage(message); }
 // public yarnwrap.text.Text method_49914(boolean line) { return new yarnwrap.text.Text(wrapperContained.method_49914(line)); }
 // public static yarnwrap.text.Text method_49914(boolean line, ) { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen.method_49914(line)); }
+// public float getYOffset() { return wrapperContained.getYOffset(); }
+// public static float getYOffset() { return net.minecraft.client.gui.screen.ingame.AbstractSignEditScreen.getYOffset(); }
 
 }

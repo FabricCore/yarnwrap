@@ -21,11 +21,6 @@ public class StriderEntity { public net.minecraft.entity.passive.StriderEntity w
 // public static yarnwrap.entity.data.TrackedData COLD() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.StriderEntity.COLD); }
 // public static void COLD(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.StriderEntity.COLD = value.wrapperContained; }
 
-// public yarnwrap.entity.data.TrackedData SADDLED() { return new yarnwrap.entity.data.TrackedData(wrapperContained.SADDLED); }
-// public void SADDLED(yarnwrap.entity.data.TrackedData value) { wrapperContained.SADDLED = value.wrapperContained; }
-// public static yarnwrap.entity.data.TrackedData SADDLED() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.StriderEntity.SADDLED); }
-// public static void SADDLED(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.StriderEntity.SADDLED = value.wrapperContained; }
-
 // public float COLD_SADDLED_SPEED() { return wrapperContained.COLD_SADDLED_SPEED; }
 // public void COLD_SADDLED_SPEED(float value) { wrapperContained.COLD_SADDLED_SPEED = value; }
 // public static float COLD_SADDLED_SPEED() { return net.minecraft.entity.passive.StriderEntity.COLD_SADDLED_SPEED; }

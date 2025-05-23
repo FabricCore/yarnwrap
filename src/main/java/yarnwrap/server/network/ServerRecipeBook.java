@@ -11,19 +11,53 @@ public class ServerRecipeBook { public net.minecraft.server.network.ServerRecipe
 public static java.lang.String RECIPE_BOOK_KEY() { return net.minecraft.server.network.ServerRecipeBook.RECIPE_BOOK_KEY; }
 // public static void RECIPE_BOOK_KEY(java.lang.String value, ) { net.minecraft.server.network.ServerRecipeBook.RECIPE_BOOK_KEY = value; }
 
-// public void sendUnlockRecipesPacket(Object action,yarnwrap.server.network.ServerPlayerEntity player,java.util.List recipeIds) { wrapperContained.sendUnlockRecipesPacket(action,player.wrapperContained,recipeIds); }
-// public static void sendUnlockRecipesPacket(Object action,yarnwrap.server.network.ServerPlayerEntity player,java.util.List recipeIds, ) { net.minecraft.server.network.ServerRecipeBook.sendUnlockRecipesPacket(action,player.wrapperContained,recipeIds); }
+// public java.util.Set unlocked() { return wrapperContained.unlocked; }
+// public void unlocked(java.util.Set value) { wrapperContained.unlocked = value; }
+// public static java.util.Set unlocked() { return net.minecraft.server.network.ServerRecipeBook.unlocked; }
+// public static void unlocked(java.util.Set value, ) { net.minecraft.server.network.ServerRecipeBook.unlocked = value; }
+
+// public java.util.Set highlighted() { return wrapperContained.highlighted; }
+// public void highlighted(java.util.Set value) { wrapperContained.highlighted = value; }
+// public static java.util.Set highlighted() { return net.minecraft.server.network.ServerRecipeBook.highlighted; }
+// public static void highlighted(java.util.Set value, ) { net.minecraft.server.network.ServerRecipeBook.highlighted = value; }
+
+// public Object collector() { return wrapperContained.collector; }
+// // public void collector(Object value) { wrapperContained.collector = value; }
+// // public static Object collector() { return net.minecraft.server.network.ServerRecipeBook.collector; }
+// // public static void collector(Object value, ) { net.minecraft.server.network.ServerRecipeBook.collector = value; }
+
+// public ServerRecipeBook(Object collector) { this.wrapperContained = new net.minecraft.server.network.ServerRecipeBook(collector); }
 public int lockRecipes(java.util.Collection recipes,yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.lockRecipes(recipes,player.wrapperContained); }
 // public static int lockRecipes(java.util.Collection recipes,yarnwrap.server.network.ServerPlayerEntity player, ) { return net.minecraft.server.network.ServerRecipeBook.lockRecipes(recipes,player.wrapperContained); }
-public void readNbt(yarnwrap.nbt.NbtCompound nbt,yarnwrap.recipe.RecipeManager recipeManager) { wrapperContained.readNbt(nbt.wrapperContained,recipeManager.wrapperContained); }
-// public static void readNbt(yarnwrap.nbt.NbtCompound nbt,yarnwrap.recipe.RecipeManager recipeManager, ) { net.minecraft.server.network.ServerRecipeBook.readNbt(nbt.wrapperContained,recipeManager.wrapperContained); }
-public yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt()); }
-// public static yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(net.minecraft.server.network.ServerRecipeBook.toNbt()); }
 public int unlockRecipes(java.util.Collection recipes,yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.unlockRecipes(recipes,player.wrapperContained); }
 // public static int unlockRecipes(java.util.Collection recipes,yarnwrap.server.network.ServerPlayerEntity player, ) { return net.minecraft.server.network.ServerRecipeBook.unlockRecipes(recipes,player.wrapperContained); }
 public void sendInitRecipesPacket(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.sendInitRecipesPacket(player.wrapperContained); }
 // public static void sendInitRecipesPacket(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.server.network.ServerRecipeBook.sendInitRecipesPacket(player.wrapperContained); }
-// public void handleList(yarnwrap.nbt.NbtList list,java.util.function.Consumer handler,yarnwrap.recipe.RecipeManager recipeManager) { wrapperContained.handleList(list.wrapperContained,handler,recipeManager.wrapperContained); }
-// public static void handleList(yarnwrap.nbt.NbtList list,java.util.function.Consumer handler,yarnwrap.recipe.RecipeManager recipeManager, ) { net.minecraft.server.network.ServerRecipeBook.handleList(list.wrapperContained,handler,recipeManager.wrapperContained); }
+// public void handleList(java.util.List recipes,java.util.function.Consumer handler,java.util.function.Predicate validPredicate) { wrapperContained.handleList(recipes,handler,validPredicate); }
+// public static void handleList(java.util.List recipes,java.util.function.Consumer handler,java.util.function.Predicate validPredicate, ) { net.minecraft.server.network.ServerRecipeBook.handleList(recipes,handler,validPredicate); }
+public void unlock(yarnwrap.registry.RegistryKey recipeKey) { wrapperContained.unlock(recipeKey.wrapperContained); }
+// public static void unlock(yarnwrap.registry.RegistryKey recipeKey, ) { net.minecraft.server.network.ServerRecipeBook.unlock(recipeKey.wrapperContained); }
+public void copyFrom(yarnwrap.server.network.ServerRecipeBook recipeBook) { wrapperContained.copyFrom(recipeBook.wrapperContained); }
+// public static void copyFrom(yarnwrap.server.network.ServerRecipeBook recipeBook, ) { net.minecraft.server.network.ServerRecipeBook.copyFrom(recipeBook.wrapperContained); }
+// public void method_64590(java.util.List display) { wrapperContained.method_64590(display); }
+// public static void method_64590(java.util.List display, ) { net.minecraft.server.network.ServerRecipeBook.method_64590(display); }
+// public void method_64591(java.util.List display) { wrapperContained.method_64591(display); }
+// public static void method_64591(java.util.List display, ) { net.minecraft.server.network.ServerRecipeBook.method_64591(display); }
+// public void method_64592(java.util.List display) { wrapperContained.method_64592(display); }
+// public static void method_64592(java.util.List display, ) { net.minecraft.server.network.ServerRecipeBook.method_64592(display); }
+public boolean isUnlocked(yarnwrap.registry.RegistryKey recipeKey) { return wrapperContained.isUnlocked(recipeKey.wrapperContained); }
+// public static boolean isUnlocked(yarnwrap.registry.RegistryKey recipeKey, ) { return net.minecraft.server.network.ServerRecipeBook.isUnlocked(recipeKey.wrapperContained); }
+public void lock(yarnwrap.registry.RegistryKey recipeKey) { wrapperContained.lock(recipeKey.wrapperContained); }
+// public static void lock(yarnwrap.registry.RegistryKey recipeKey, ) { net.minecraft.server.network.ServerRecipeBook.lock(recipeKey.wrapperContained); }
+public void unmarkHighlighted(yarnwrap.registry.RegistryKey recipeKey) { wrapperContained.unmarkHighlighted(recipeKey.wrapperContained); }
+// public static void unmarkHighlighted(yarnwrap.registry.RegistryKey recipeKey, ) { net.minecraft.server.network.ServerRecipeBook.unmarkHighlighted(recipeKey.wrapperContained); }
+// public void markHighlighted(yarnwrap.registry.RegistryKey recipeKey) { wrapperContained.markHighlighted(recipeKey.wrapperContained); }
+// public static void markHighlighted(yarnwrap.registry.RegistryKey recipeKey, ) { net.minecraft.server.network.ServerRecipeBook.markHighlighted(recipeKey.wrapperContained); }
+// public void unpack(Object packed) { wrapperContained.unpack(packed); }
+// public static void unpack(Object packed, ) { net.minecraft.server.network.ServerRecipeBook.unpack(packed); }
+// public void unpack(Object packed,java.util.function.Predicate validPredicate) { wrapperContained.unpack(packed,validPredicate); }
+// public static void unpack(Object packed,java.util.function.Predicate validPredicate, ) { net.minecraft.server.network.ServerRecipeBook.unpack(packed,validPredicate); }
+// public Object pack() { return wrapperContained.pack(); }
+// public static Object pack() { return net.minecraft.server.network.ServerRecipeBook.pack(); }
 
 }

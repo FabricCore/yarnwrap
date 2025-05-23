@@ -5,8 +5,6 @@ public java.util.Optional hoveredElement(double mouseX,double mouseY) { return w
 // public static java.util.Optional hoveredElement(double mouseX,double mouseY, ) { return net.minecraft.client.gui.ParentElement.hoveredElement(mouseX,mouseY); }
 // public boolean method_20082(double element) { return wrapperContained.method_20082(element); }
 // public static boolean method_20082(double element, ) { return net.minecraft.client.gui.ParentElement.method_20082(element); }
-// public boolean method_20083(double element) { return wrapperContained.method_20083(element); }
-// public static boolean method_20083(double element, ) { return net.minecraft.client.gui.ParentElement.method_20083(element); }
 public void setFocused(yarnwrap.client.gui.Element focused) { wrapperContained.setFocused(focused.wrapperContained); }
 // public static void setFocused(yarnwrap.client.gui.Element focused, ) { net.minecraft.client.gui.ParentElement.setFocused(focused.wrapperContained); }
 public java.util.List children() { return wrapperContained.children(); }
@@ -29,5 +27,7 @@ public yarnwrap.client.gui.Element getFocused() { return new yarnwrap.client.gui
 // public static java.lang.Integer method_48219(yarnwrap.client.gui.navigation.NavigationDirection element, ) { return net.minecraft.client.gui.ParentElement.method_48219(element.wrapperContained); }
 // public yarnwrap.client.gui.navigation.GuiNavigationPath computeInitialChildPath(yarnwrap.client.gui.ScreenRect focus,yarnwrap.client.gui.navigation.NavigationDirection direction,yarnwrap.client.gui.Element focused,yarnwrap.client.gui.navigation.GuiNavigation navigation) { return new yarnwrap.client.gui.navigation.GuiNavigationPath(wrapperContained.computeInitialChildPath(focus.wrapperContained,direction.wrapperContained,focused.wrapperContained,navigation.wrapperContained)); }
 // public static yarnwrap.client.gui.navigation.GuiNavigationPath computeInitialChildPath(yarnwrap.client.gui.ScreenRect focus,yarnwrap.client.gui.navigation.NavigationDirection direction,yarnwrap.client.gui.Element focused,yarnwrap.client.gui.navigation.GuiNavigation navigation, ) { return new yarnwrap.client.gui.navigation.GuiNavigationPath(net.minecraft.client.gui.ParentElement.computeInitialChildPath(focus.wrapperContained,direction.wrapperContained,focused.wrapperContained,navigation.wrapperContained)); }
+// public int method_48609(yarnwrap.client.gui.Element child) { return wrapperContained.method_48609(child.wrapperContained); }
+// public static int method_48609(yarnwrap.client.gui.Element child, ) { return net.minecraft.client.gui.ParentElement.method_48609(child.wrapperContained); }
 
 }

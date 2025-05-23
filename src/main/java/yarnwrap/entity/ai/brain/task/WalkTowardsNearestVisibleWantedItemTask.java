@@ -1,0 +1,17 @@
+package yarnwrap.entity.ai.brain.task;
+public class WalkTowardsNearestVisibleWantedItemTask { public net.minecraft.entity.ai.brain.task.WalkTowardsNearestVisibleWantedItemTask wrapperContained; public WalkTowardsNearestVisibleWantedItemTask(net.minecraft.entity.ai.brain.task.WalkTowardsNearestVisibleWantedItemTask wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public yarnwrap.entity.ai.brain.task.Task create(float speed,boolean requiresWalkTarget,int radius) { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.create(speed,requiresWalkTarget,radius)); }
+// public static yarnwrap.entity.ai.brain.task.Task create(float speed,boolean requiresWalkTarget,int radius, ) { return new yarnwrap.entity.ai.brain.task.Task(net.minecraft.entity.ai.brain.task.WalkTowardsNearestVisibleWantedItemTask.create(speed,requiresWalkTarget,radius)); }
+// public boolean method_46944(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_46944(entity.wrapperContained); }
+// public static boolean method_46944(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.ai.brain.task.WalkTowardsNearestVisibleWantedItemTask.method_46944(entity.wrapperContained); }
+// public boolean method_46945(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,yarnwrap.entity.ai.brain.MemoryQueryResult time) { return wrapperContained.method_46945(world,entity.wrapperContained,time.wrapperContained); }
+// public static boolean method_46945(Object world,yarnwrap.entity.ai.brain.MemoryQueryResult entity,yarnwrap.entity.ai.brain.MemoryQueryResult time, ) { return net.minecraft.entity.ai.brain.task.WalkTowardsNearestVisibleWantedItemTask.method_46945(world,entity.wrapperContained,time.wrapperContained); }
+// public yarnwrap.entity.ai.brain.task.TaskRunnable method_46946(Object lookTarget,java.util.function.Predicate walkTarget,int nearestVisibleWantedItem,float itemPickupCooldownTicks) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(wrapperContained.method_46946(lookTarget,walkTarget,nearestVisibleWantedItem,itemPickupCooldownTicks)); }
+// public static yarnwrap.entity.ai.brain.task.TaskRunnable method_46946(Object lookTarget,java.util.function.Predicate walkTarget,int nearestVisibleWantedItem,float itemPickupCooldownTicks, ) { return new yarnwrap.entity.ai.brain.task.TaskRunnable(net.minecraft.entity.ai.brain.task.WalkTowardsNearestVisibleWantedItemTask.method_46946(lookTarget,walkTarget,nearestVisibleWantedItem,itemPickupCooldownTicks)); }
+// public yarnwrap.entity.ai.brain.task.Task create(java.util.function.Predicate startCondition,float speed,boolean requiresWalkTarget,int radius) { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.create(startCondition,speed,requiresWalkTarget,radius)); }
+// public static yarnwrap.entity.ai.brain.task.Task create(java.util.function.Predicate startCondition,float speed,boolean requiresWalkTarget,int radius, ) { return new yarnwrap.entity.ai.brain.task.Task(net.minecraft.entity.ai.brain.task.WalkTowardsNearestVisibleWantedItemTask.create(startCondition,speed,requiresWalkTarget,radius)); }
+// public com.mojang.datafixers.kinds.App method_46948(boolean context) { return wrapperContained.method_46948(context); }
+// public static com.mojang.datafixers.kinds.App method_46948(boolean context, ) { return net.minecraft.entity.ai.brain.task.WalkTowardsNearestVisibleWantedItemTask.method_46948(context); }
+
+}

@@ -27,6 +27,7 @@ public class ChunkSection { public net.minecraft.world.chunk.ChunkSection wrappe
 // public static void biomeContainer(yarnwrap.world.chunk.ReadableContainer value, ) { net.minecraft.world.chunk.ChunkSection.biomeContainer = value.wrapperContained; }
 
 public ChunkSection(yarnwrap.registry.Registry biomeRegistry) { this.wrapperContained = new net.minecraft.world.chunk.ChunkSection(biomeRegistry.wrapperContained); }
+// public ChunkSection(yarnwrap.world.chunk.ChunkSection section) { this.wrapperContained = new net.minecraft.world.chunk.ChunkSection(section.wrapperContained); }
 public ChunkSection(yarnwrap.world.chunk.PalettedContainer blockStateContainer,yarnwrap.world.chunk.ReadableContainer biomeContainer) { this.wrapperContained = new net.minecraft.world.chunk.ChunkSection(blockStateContainer.wrapperContained,biomeContainer.wrapperContained); }
 public void calculateCounts() { wrapperContained.calculateCounts(); }
 // public static void calculateCounts() { net.minecraft.world.chunk.ChunkSection.calculateCounts(); }
@@ -68,5 +69,7 @@ public yarnwrap.world.chunk.ReadableContainer getBiomeContainer() { return new y
 // public static yarnwrap.world.chunk.ReadableContainer getBiomeContainer() { return new yarnwrap.world.chunk.ReadableContainer(net.minecraft.world.chunk.ChunkSection.getBiomeContainer()); }
 public void readBiomePacket(yarnwrap.network.PacketByteBuf buf) { wrapperContained.readBiomePacket(buf.wrapperContained); }
 // public static void readBiomePacket(yarnwrap.network.PacketByteBuf buf, ) { net.minecraft.world.chunk.ChunkSection.readBiomePacket(buf.wrapperContained); }
+public yarnwrap.world.chunk.ChunkSection copy() { return new yarnwrap.world.chunk.ChunkSection(wrapperContained.copy()); }
+// public static yarnwrap.world.chunk.ChunkSection copy() { return new yarnwrap.world.chunk.ChunkSection(net.minecraft.world.chunk.ChunkSection.copy()); }
 
 }

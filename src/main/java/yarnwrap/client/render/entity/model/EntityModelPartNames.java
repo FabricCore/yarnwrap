@@ -401,5 +401,62 @@ public static java.lang.String RODS() { return net.minecraft.client.render.entit
 public static java.lang.String MUSHROOMS() { return net.minecraft.client.render.entity.model.EntityModelPartNames.MUSHROOMS; }
 // public static void MUSHROOMS(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.MUSHROOMS = value; }
 
+// public java.lang.String LEFT_PADDLE() { return wrapperContained.LEFT_PADDLE; }
+// public void LEFT_PADDLE(java.lang.String value) { wrapperContained.LEFT_PADDLE = value; }
+public static java.lang.String LEFT_PADDLE() { return net.minecraft.client.render.entity.model.EntityModelPartNames.LEFT_PADDLE; }
+// public static void LEFT_PADDLE(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.LEFT_PADDLE = value; }
+
+// public java.lang.String RIGHT_PADDLE() { return wrapperContained.RIGHT_PADDLE; }
+// public void RIGHT_PADDLE(java.lang.String value) { wrapperContained.RIGHT_PADDLE = value; }
+public static java.lang.String RIGHT_PADDLE() { return net.minecraft.client.render.entity.model.EntityModelPartNames.RIGHT_PADDLE; }
+// public static void RIGHT_PADDLE(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.RIGHT_PADDLE = value; }
+
+// public java.lang.String BOTTOM() { return wrapperContained.BOTTOM; }
+// public void BOTTOM(java.lang.String value) { wrapperContained.BOTTOM = value; }
+public static java.lang.String BOTTOM() { return net.minecraft.client.render.entity.model.EntityModelPartNames.BOTTOM; }
+// public static void BOTTOM(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.BOTTOM = value; }
+
+// public java.lang.String CHEST_BOTTOM() { return wrapperContained.CHEST_BOTTOM; }
+// public void CHEST_BOTTOM(java.lang.String value) { wrapperContained.CHEST_BOTTOM = value; }
+public static java.lang.String CHEST_BOTTOM() { return net.minecraft.client.render.entity.model.EntityModelPartNames.CHEST_BOTTOM; }
+// public static void CHEST_BOTTOM(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.CHEST_BOTTOM = value; }
+
+// public java.lang.String CHEST_LID() { return wrapperContained.CHEST_LID; }
+// public void CHEST_LID(java.lang.String value) { wrapperContained.CHEST_LID = value; }
+public static java.lang.String CHEST_LID() { return net.minecraft.client.render.entity.model.EntityModelPartNames.CHEST_LID; }
+// public static void CHEST_LID(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.CHEST_LID = value; }
+
+// public java.lang.String CHEST_LOCK() { return wrapperContained.CHEST_LOCK; }
+// public void CHEST_LOCK(java.lang.String value) { wrapperContained.CHEST_LOCK = value; }
+public static java.lang.String CHEST_LOCK() { return net.minecraft.client.render.entity.model.EntityModelPartNames.CHEST_LOCK; }
+// public static void CHEST_LOCK(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.CHEST_LOCK = value; }
+
+// public java.lang.String UPPER_BODY() { return wrapperContained.UPPER_BODY; }
+// public void UPPER_BODY(java.lang.String value) { wrapperContained.UPPER_BODY = value; }
+public static java.lang.String UPPER_BODY() { return net.minecraft.client.render.entity.model.EntityModelPartNames.UPPER_BODY; }
+// public static void UPPER_BODY(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.UPPER_BODY = value; }
+
+// public java.lang.String UPPER_MOUTH() { return wrapperContained.UPPER_MOUTH; }
+// public void UPPER_MOUTH(java.lang.String value) { wrapperContained.UPPER_MOUTH = value; }
+// public static java.lang.String UPPER_MOUTH() { return net.minecraft.client.render.entity.model.EntityModelPartNames.UPPER_MOUTH; }
+// public static void UPPER_MOUTH(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.UPPER_MOUTH = value; }
+
+// public java.lang.String INNER_BODY() { return wrapperContained.INNER_BODY; }
+// public void INNER_BODY(java.lang.String value) { wrapperContained.INNER_BODY = value; }
+// public static java.lang.String INNER_BODY() { return net.minecraft.client.render.entity.model.EntityModelPartNames.INNER_BODY; }
+// public static void INNER_BODY(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.INNER_BODY = value; }
+
+// public java.lang.String GOGGLES() { return wrapperContained.GOGGLES; }
+// public void GOGGLES(java.lang.String value) { wrapperContained.GOGGLES = value; }
+// public static java.lang.String GOGGLES() { return net.minecraft.client.render.entity.model.EntityModelPartNames.GOGGLES; }
+// public static void GOGGLES(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.GOGGLES = value; }
+
+// public java.lang.String HARNESS() { return wrapperContained.HARNESS; }
+// public void HARNESS(java.lang.String value) { wrapperContained.HARNESS = value; }
+// public static java.lang.String HARNESS() { return net.minecraft.client.render.entity.model.EntityModelPartNames.HARNESS; }
+// public static void HARNESS(java.lang.String value, ) { net.minecraft.client.render.entity.model.EntityModelPartNames.HARNESS = value; }
+
+// public java.lang.String getTentacleName(int index) { return wrapperContained.getTentacleName(index); }
+// public static java.lang.String getTentacleName(int index, ) { return net.minecraft.client.render.entity.model.EntityModelPartNames.getTentacleName(index); }
 
 }

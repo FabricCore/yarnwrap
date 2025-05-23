@@ -30,14 +30,10 @@ public class DebugCommand { public net.minecraft.server.command.DebugCommand wra
 // public static int method_13154(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.DebugCommand.method_13154(context); }
 // public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.DebugCommand.register(dispatcher); }
-// public boolean method_13157(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13157(source.wrapperContained); }
-// public static boolean method_13157(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.DebugCommand.method_13157(source.wrapperContained); }
 // public int executeStop(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeStop(source.wrapperContained); }
 // public static int executeStop(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.DebugCommand.executeStop(source.wrapperContained); }
 // public int executeStart(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.executeStart(source.wrapperContained); }
 // public static int executeStart(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.DebugCommand.executeStart(source.wrapperContained); }
-// public boolean method_13161(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13161(source.wrapperContained); }
-// public static boolean method_13161(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.DebugCommand.method_13161(source.wrapperContained); }
 // public int method_36353(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_36353(context); }
 // public static int method_36353(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.DebugCommand.method_36353(context); }
 

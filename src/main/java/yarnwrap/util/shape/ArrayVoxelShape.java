@@ -16,7 +16,7 @@ public class ArrayVoxelShape { public net.minecraft.util.shape.ArrayVoxelShape w
 // public static it.unimi.dsi.fastutil.doubles.DoubleList zPoints() { return net.minecraft.util.shape.ArrayVoxelShape.zPoints; }
 // public static void zPoints(it.unimi.dsi.fastutil.doubles.DoubleList value, ) { net.minecraft.util.shape.ArrayVoxelShape.zPoints = value; }
 
-// public ArrayVoxelShape(yarnwrap.util.shape.VoxelSet shape,it.unimi.dsi.fastutil.doubles.DoubleList xPoints,it.unimi.dsi.fastutil.doubles.DoubleList yPoints,it.unimi.dsi.fastutil.doubles.DoubleList zPoints) { this.wrapperContained = new net.minecraft.util.shape.ArrayVoxelShape(shape.wrapperContained,xPoints,yPoints,zPoints); }
 // public ArrayVoxelShape(yarnwrap.util.shape.VoxelSet shape,double xPoints,double yPoints,double zPoints) { this.wrapperContained = new net.minecraft.util.shape.ArrayVoxelShape(shape.wrapperContained,xPoints,yPoints,zPoints); }
+// public ArrayVoxelShape(yarnwrap.util.shape.VoxelSet shape,it.unimi.dsi.fastutil.doubles.DoubleList xPoints,it.unimi.dsi.fastutil.doubles.DoubleList yPoints,it.unimi.dsi.fastutil.doubles.DoubleList zPoints) { this.wrapperContained = new net.minecraft.util.shape.ArrayVoxelShape(shape.wrapperContained,xPoints,yPoints,zPoints); }
 
 }

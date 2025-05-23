@@ -17,5 +17,11 @@ public class CraftingResultSlot { public net.minecraft.screen.slot.CraftingResul
 // public static void input(yarnwrap.inventory.RecipeInputInventory value, ) { net.minecraft.screen.slot.CraftingResultSlot.input = value.wrapperContained; }
 
 public CraftingResultSlot(yarnwrap.entity.player.PlayerEntity player,yarnwrap.inventory.RecipeInputInventory input,yarnwrap.inventory.Inventory inventory,int index,int x,int y) { this.wrapperContained = new net.minecraft.screen.slot.CraftingResultSlot(player.wrapperContained,input.wrapperContained,inventory.wrapperContained,index,x,y); }
+// public yarnwrap.util.collection.DefaultedList copyInput(yarnwrap.recipe.input.CraftingRecipeInput input) { return new yarnwrap.util.collection.DefaultedList(wrapperContained.copyInput(input.wrapperContained)); }
+// public static yarnwrap.util.collection.DefaultedList copyInput(yarnwrap.recipe.input.CraftingRecipeInput input, ) { return new yarnwrap.util.collection.DefaultedList(net.minecraft.screen.slot.CraftingResultSlot.copyInput(input.wrapperContained)); }
+// public yarnwrap.util.collection.DefaultedList method_64649(yarnwrap.recipe.input.CraftingRecipeInput recipe) { return new yarnwrap.util.collection.DefaultedList(wrapperContained.method_64649(recipe.wrapperContained)); }
+// public static yarnwrap.util.collection.DefaultedList method_64649(yarnwrap.recipe.input.CraftingRecipeInput recipe, ) { return new yarnwrap.util.collection.DefaultedList(net.minecraft.screen.slot.CraftingResultSlot.method_64649(recipe.wrapperContained)); }
+// public yarnwrap.util.collection.DefaultedList getRecipeRemainders(yarnwrap.recipe.input.CraftingRecipeInput input,yarnwrap.world.World world) { return new yarnwrap.util.collection.DefaultedList(wrapperContained.getRecipeRemainders(input.wrapperContained,world.wrapperContained)); }
+// public static yarnwrap.util.collection.DefaultedList getRecipeRemainders(yarnwrap.recipe.input.CraftingRecipeInput input,yarnwrap.world.World world, ) { return new yarnwrap.util.collection.DefaultedList(net.minecraft.screen.slot.CraftingResultSlot.getRecipeRemainders(input.wrapperContained,world.wrapperContained)); }
 
 }

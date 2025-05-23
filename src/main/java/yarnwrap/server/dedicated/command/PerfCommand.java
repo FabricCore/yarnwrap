@@ -34,7 +34,5 @@ public class PerfCommand { public net.minecraft.server.dedicated.command.PerfCom
 // public static int executeStop(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.PerfCommand.executeStop(source.wrapperContained); }
 // public void method_37339(yarnwrap.server.command.ServerCommandSource result) { wrapperContained.method_37339(result.wrapperContained); }
 // public static void method_37339(yarnwrap.server.command.ServerCommandSource result, ) { net.minecraft.server.dedicated.command.PerfCommand.method_37339(result.wrapperContained); }
-// public boolean method_37340(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_37340(source.wrapperContained); }
-// public static boolean method_37340(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.PerfCommand.method_37340(source.wrapperContained); }
 
 }

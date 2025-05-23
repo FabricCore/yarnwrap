@@ -47,21 +47,21 @@ public class GiveGiftsToHeroTask { public net.minecraft.entity.ai.brain.task.Giv
 // public static void WALK_SPEED(float value, ) { net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.WALK_SPEED = value; }
 
 public GiveGiftsToHeroTask(int delay) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask(delay); }
-// public java.util.List getGifts(yarnwrap.entity.passive.VillagerEntity villager) { return wrapperContained.getGifts(villager.wrapperContained); }
-// public static java.util.List getGifts(yarnwrap.entity.passive.VillagerEntity villager, ) { return net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.getGifts(villager.wrapperContained); }
-// public void giveGifts(yarnwrap.entity.passive.VillagerEntity villager,yarnwrap.entity.LivingEntity recipient) { wrapperContained.giveGifts(villager.wrapperContained,recipient.wrapperContained); }
-// public static void giveGifts(yarnwrap.entity.passive.VillagerEntity villager,yarnwrap.entity.LivingEntity recipient, ) { net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.giveGifts(villager.wrapperContained,recipient.wrapperContained); }
+// public void giveGifts(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.VillagerEntity villager,yarnwrap.entity.LivingEntity recipient) { wrapperContained.giveGifts(world.wrapperContained,villager.wrapperContained,recipient.wrapperContained); }
+// public static void giveGifts(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.passive.VillagerEntity villager,yarnwrap.entity.LivingEntity recipient, ) { net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.giveGifts(world.wrapperContained,villager.wrapperContained,recipient.wrapperContained); }
 // public boolean isCloseEnough(yarnwrap.entity.passive.VillagerEntity villager,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.isCloseEnough(villager.wrapperContained,player.wrapperContained); }
 // public static boolean isCloseEnough(yarnwrap.entity.passive.VillagerEntity villager,yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.isCloseEnough(villager.wrapperContained,player.wrapperContained); }
 // public boolean isHero(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.isHero(player.wrapperContained); }
 // public static boolean isHero(yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.isHero(player.wrapperContained); }
-// public void method_19960(java.util.HashMap gifts) { wrapperContained.method_19960(gifts); }
-// public static void method_19960(java.util.HashMap gifts, ) { net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.method_19960(gifts); }
 // public int getNextGiftDelay(yarnwrap.server.world.ServerWorld world) { return wrapperContained.getNextGiftDelay(world.wrapperContained); }
 // public static int getNextGiftDelay(yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.getNextGiftDelay(world.wrapperContained); }
 // public boolean isNearestPlayerHero(yarnwrap.entity.passive.VillagerEntity villager) { return wrapperContained.isNearestPlayerHero(villager.wrapperContained); }
 // public static boolean isNearestPlayerHero(yarnwrap.entity.passive.VillagerEntity villager, ) { return net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.isNearestPlayerHero(villager.wrapperContained); }
 // public java.util.Optional getNearestPlayerIfHero(yarnwrap.entity.passive.VillagerEntity villager) { return wrapperContained.getNearestPlayerIfHero(villager.wrapperContained); }
 // public static java.util.Optional getNearestPlayerIfHero(yarnwrap.entity.passive.VillagerEntity villager, ) { return net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.getNearestPlayerIfHero(villager.wrapperContained); }
+// public yarnwrap.registry.RegistryKey getGiftLootTable(yarnwrap.entity.passive.VillagerEntity villager) { return new yarnwrap.registry.RegistryKey(wrapperContained.getGiftLootTable(villager.wrapperContained)); }
+// public static yarnwrap.registry.RegistryKey getGiftLootTable(yarnwrap.entity.passive.VillagerEntity villager, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.getGiftLootTable(villager.wrapperContained)); }
+// public void method_64174(yarnwrap.entity.passive.VillagerEntity world,yarnwrap.entity.LivingEntity stack) { wrapperContained.method_64174(world.wrapperContained,stack.wrapperContained); }
+// public static void method_64174(yarnwrap.entity.passive.VillagerEntity world,yarnwrap.entity.LivingEntity stack, ) { net.minecraft.entity.ai.brain.task.GiveGiftsToHeroTask.method_64174(world.wrapperContained,stack.wrapperContained); }
 
 }

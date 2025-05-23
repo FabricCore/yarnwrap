@@ -1,10 +1,10 @@
 package yarnwrap.block;
 public class FenceBlock { public net.minecraft.block.FenceBlock wrapperContained; public FenceBlock(net.minecraft.block.FenceBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public net.minecraft.util.shape.VoxelShape[] cullingShapes() { return wrapperContained.cullingShapes; }
-// public void cullingShapes(net.minecraft.util.shape.VoxelShape[] value) { wrapperContained.cullingShapes = value; }
-// public static net.minecraft.util.shape.VoxelShape[] cullingShapes() { return net.minecraft.block.FenceBlock.cullingShapes; }
-// public static void cullingShapes(net.minecraft.util.shape.VoxelShape[] value, ) { net.minecraft.block.FenceBlock.cullingShapes = value; }
+// public java.util.function.Function cullingShapeFunction() { return wrapperContained.cullingShapeFunction; }
+// public void cullingShapeFunction(java.util.function.Function value) { wrapperContained.cullingShapeFunction = value; }
+// public static java.util.function.Function cullingShapeFunction() { return net.minecraft.block.FenceBlock.cullingShapeFunction; }
+// public static void cullingShapeFunction(java.util.function.Function value, ) { net.minecraft.block.FenceBlock.cullingShapeFunction = value; }
 
 // public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }

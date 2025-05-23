@@ -6,16 +6,6 @@ public class SmithingScreenHandler { public net.minecraft.screen.SmithingScreenH
 // public static yarnwrap.world.World world() { return new yarnwrap.world.World(net.minecraft.screen.SmithingScreenHandler.world); }
 // public static void world(yarnwrap.world.World value, ) { net.minecraft.screen.SmithingScreenHandler.world = value.wrapperContained; }
 
-// public yarnwrap.recipe.RecipeEntry currentRecipe() { return new yarnwrap.recipe.RecipeEntry(wrapperContained.currentRecipe); }
-// public void currentRecipe(yarnwrap.recipe.RecipeEntry value) { wrapperContained.currentRecipe = value.wrapperContained; }
-// public static yarnwrap.recipe.RecipeEntry currentRecipe() { return new yarnwrap.recipe.RecipeEntry(net.minecraft.screen.SmithingScreenHandler.currentRecipe); }
-// public static void currentRecipe(yarnwrap.recipe.RecipeEntry value, ) { net.minecraft.screen.SmithingScreenHandler.currentRecipe = value.wrapperContained; }
-
-// public java.util.List recipes() { return wrapperContained.recipes; }
-// public void recipes(java.util.List value) { wrapperContained.recipes = value; }
-// public static java.util.List recipes() { return net.minecraft.screen.SmithingScreenHandler.recipes; }
-// public static void recipes(java.util.List value, ) { net.minecraft.screen.SmithingScreenHandler.recipes = value; }
-
 // public int TEMPLATE_ID() { return wrapperContained.TEMPLATE_ID; }
 // public void TEMPLATE_ID(int value) { wrapperContained.TEMPLATE_ID = value; }
 public static int TEMPLATE_ID() { return net.minecraft.screen.SmithingScreenHandler.TEMPLATE_ID; }
@@ -61,35 +51,42 @@ public static int SLOT_Y() { return net.minecraft.screen.SmithingScreenHandler.S
 // public static int OUTPUT_X() { return net.minecraft.screen.SmithingScreenHandler.OUTPUT_X; }
 // public static void OUTPUT_X(int value, ) { net.minecraft.screen.SmithingScreenHandler.OUTPUT_X = value; }
 
+// public yarnwrap.recipe.RecipePropertySet basePropertySet() { return new yarnwrap.recipe.RecipePropertySet(wrapperContained.basePropertySet); }
+// public void basePropertySet(yarnwrap.recipe.RecipePropertySet value) { wrapperContained.basePropertySet = value.wrapperContained; }
+// public static yarnwrap.recipe.RecipePropertySet basePropertySet() { return new yarnwrap.recipe.RecipePropertySet(net.minecraft.screen.SmithingScreenHandler.basePropertySet); }
+// public static void basePropertySet(yarnwrap.recipe.RecipePropertySet value, ) { net.minecraft.screen.SmithingScreenHandler.basePropertySet = value.wrapperContained; }
+
+// public yarnwrap.recipe.RecipePropertySet templatePropertySet() { return new yarnwrap.recipe.RecipePropertySet(wrapperContained.templatePropertySet); }
+// public void templatePropertySet(yarnwrap.recipe.RecipePropertySet value) { wrapperContained.templatePropertySet = value.wrapperContained; }
+// public static yarnwrap.recipe.RecipePropertySet templatePropertySet() { return new yarnwrap.recipe.RecipePropertySet(net.minecraft.screen.SmithingScreenHandler.templatePropertySet); }
+// public static void templatePropertySet(yarnwrap.recipe.RecipePropertySet value, ) { net.minecraft.screen.SmithingScreenHandler.templatePropertySet = value.wrapperContained; }
+
+// public yarnwrap.recipe.RecipePropertySet additionPropertySet() { return new yarnwrap.recipe.RecipePropertySet(wrapperContained.additionPropertySet); }
+// public void additionPropertySet(yarnwrap.recipe.RecipePropertySet value) { wrapperContained.additionPropertySet = value.wrapperContained; }
+// public static yarnwrap.recipe.RecipePropertySet additionPropertySet() { return new yarnwrap.recipe.RecipePropertySet(net.minecraft.screen.SmithingScreenHandler.additionPropertySet); }
+// public static void additionPropertySet(yarnwrap.recipe.RecipePropertySet value, ) { net.minecraft.screen.SmithingScreenHandler.additionPropertySet = value.wrapperContained; }
+
+// public yarnwrap.screen.Property invalidRecipe() { return new yarnwrap.screen.Property(wrapperContained.invalidRecipe); }
+// public void invalidRecipe(yarnwrap.screen.Property value) { wrapperContained.invalidRecipe = value.wrapperContained; }
+// public static yarnwrap.screen.Property invalidRecipe() { return new yarnwrap.screen.Property(net.minecraft.screen.SmithingScreenHandler.invalidRecipe); }
+// public static void invalidRecipe(yarnwrap.screen.Property value, ) { net.minecraft.screen.SmithingScreenHandler.invalidRecipe = value.wrapperContained; }
+
 public SmithingScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.SmithingScreenHandler(syncId,playerInventory.wrapperContained); }
 public SmithingScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.SmithingScreenHandler(syncId,playerInventory.wrapperContained,context.wrapperContained); }
+// public SmithingScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context,yarnwrap.world.World world) { this.wrapperContained = new net.minecraft.screen.SmithingScreenHandler(syncId,playerInventory.wrapperContained,context.wrapperContained,world.wrapperContained); }
 // public void method_24929(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.method_24929(world.wrapperContained,pos.wrapperContained); }
 // public static void method_24929(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.screen.SmithingScreenHandler.method_24929(world.wrapperContained,pos.wrapperContained); }
 // public void decrementStack(int slot) { wrapperContained.decrementStack(slot); }
 // public static void decrementStack(int slot, ) { net.minecraft.screen.SmithingScreenHandler.decrementStack(slot); }
-// public java.util.OptionalInt getQuickMoveSlot(yarnwrap.recipe.SmithingRecipe recipe,yarnwrap.item.ItemStack stack) { return wrapperContained.getQuickMoveSlot(recipe.wrapperContained,stack.wrapperContained); }
-// public static java.util.OptionalInt getQuickMoveSlot(yarnwrap.recipe.SmithingRecipe recipe,yarnwrap.item.ItemStack stack, ) { return net.minecraft.screen.SmithingScreenHandler.getQuickMoveSlot(recipe.wrapperContained,stack.wrapperContained); }
-// public boolean method_48393(yarnwrap.item.ItemStack stack) { return wrapperContained.method_48393(stack.wrapperContained); }
-// public static boolean method_48393(yarnwrap.item.ItemStack stack, ) { return net.minecraft.screen.SmithingScreenHandler.method_48393(stack.wrapperContained); }
-// public boolean method_48394(yarnwrap.item.ItemStack recipe) { return wrapperContained.method_48394(recipe.wrapperContained); }
-// public static boolean method_48394(yarnwrap.item.ItemStack recipe, ) { return net.minecraft.screen.SmithingScreenHandler.method_48394(recipe.wrapperContained); }
-// public boolean method_48395(yarnwrap.item.ItemStack stack) { return wrapperContained.method_48395(stack.wrapperContained); }
-// public static boolean method_48395(yarnwrap.item.ItemStack stack, ) { return net.minecraft.screen.SmithingScreenHandler.method_48395(stack.wrapperContained); }
-// public boolean method_48396(yarnwrap.item.ItemStack stack) { return wrapperContained.method_48396(stack.wrapperContained); }
-// public static boolean method_48396(yarnwrap.item.ItemStack stack, ) { return net.minecraft.screen.SmithingScreenHandler.method_48396(stack.wrapperContained); }
 // public java.util.List getInputStacks() { return wrapperContained.getInputStacks(); }
 // public static java.util.List getInputStacks() { return net.minecraft.screen.SmithingScreenHandler.getInputStacks(); }
-// public boolean method_51713(yarnwrap.item.ItemStack recipe) { return wrapperContained.method_51713(recipe.wrapperContained); }
-// public static boolean method_51713(yarnwrap.item.ItemStack recipe, ) { return net.minecraft.screen.SmithingScreenHandler.method_51713(recipe.wrapperContained); }
-// public boolean method_51714(yarnwrap.item.ItemStack recipe) { return wrapperContained.method_51714(recipe.wrapperContained); }
-// public static boolean method_51714(yarnwrap.item.ItemStack recipe, ) { return net.minecraft.screen.SmithingScreenHandler.method_51714(recipe.wrapperContained); }
-// public java.util.stream.IntStream method_52562(yarnwrap.item.ItemStack recipe) { return wrapperContained.method_52562(recipe.wrapperContained); }
-// public static java.util.stream.IntStream method_52562(yarnwrap.item.ItemStack recipe, ) { return net.minecraft.screen.SmithingScreenHandler.method_52562(recipe.wrapperContained); }
-// public java.util.OptionalInt getQuickMoveSlot(yarnwrap.item.ItemStack stack) { return wrapperContained.getQuickMoveSlot(stack.wrapperContained); }
-// public static java.util.OptionalInt getQuickMoveSlot(yarnwrap.item.ItemStack stack, ) { return net.minecraft.screen.SmithingScreenHandler.getQuickMoveSlot(stack.wrapperContained); }
-// public boolean method_52564(int slot) { return wrapperContained.method_52564(slot); }
-// public static boolean method_52564(int slot, ) { return net.minecraft.screen.SmithingScreenHandler.method_52564(slot); }
 // public yarnwrap.recipe.input.SmithingRecipeInput createRecipeInput() { return new yarnwrap.recipe.input.SmithingRecipeInput(wrapperContained.createRecipeInput()); }
 // public static yarnwrap.recipe.input.SmithingRecipeInput createRecipeInput() { return new yarnwrap.recipe.input.SmithingRecipeInput(net.minecraft.screen.SmithingScreenHandler.createRecipeInput()); }
+// public yarnwrap.screen.slot.ForgingSlotsManager createForgingSlotsManager(yarnwrap.recipe.RecipeManager recipeManager) { return new yarnwrap.screen.slot.ForgingSlotsManager(wrapperContained.createForgingSlotsManager(recipeManager.wrapperContained)); }
+// public static yarnwrap.screen.slot.ForgingSlotsManager createForgingSlotsManager(yarnwrap.recipe.RecipeManager recipeManager, ) { return new yarnwrap.screen.slot.ForgingSlotsManager(net.minecraft.screen.SmithingScreenHandler.createForgingSlotsManager(recipeManager.wrapperContained)); }
+// public void method_64653(yarnwrap.recipe.input.SmithingRecipeInput recipe) { wrapperContained.method_64653(recipe.wrapperContained); }
+// public static void method_64653(yarnwrap.recipe.input.SmithingRecipeInput recipe, ) { net.minecraft.screen.SmithingScreenHandler.method_64653(recipe.wrapperContained); }
+public boolean hasInvalidRecipe() { return wrapperContained.hasInvalidRecipe(); }
+// public static boolean hasInvalidRecipe() { return net.minecraft.screen.SmithingScreenHandler.hasInvalidRecipe(); }
 
 }

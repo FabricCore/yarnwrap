@@ -29,5 +29,7 @@ public boolean ownerEquals(yarnwrap.registry.entry.RegistryEntryOwner owner) { r
 // public static boolean ownerEquals(yarnwrap.registry.entry.RegistryEntryOwner owner, ) { return net.minecraft.registry.entry.RegistryEntryList.ownerEquals(owner.wrapperContained); }
 // public yarnwrap.registry.entry.RegistryEntryList empty() { return new yarnwrap.registry.entry.RegistryEntryList(wrapperContained.empty()); }
 public static yarnwrap.registry.entry.RegistryEntryList empty() { return new yarnwrap.registry.entry.RegistryEntryList(net.minecraft.registry.entry.RegistryEntryList.empty()); }
+public boolean isBound() { return wrapperContained.isBound(); }
+// public static boolean isBound() { return net.minecraft.registry.entry.RegistryEntryList.isBound(); }
 
 }

@@ -6,6 +6,5 @@ public class AdvancementsFix { public net.minecraft.datafixer.fix.AdvancementsFi
 // public static java.util.Map RENAMED_ADVANCEMENTS() { return net.minecraft.datafixer.fix.AdvancementsFix.RENAMED_ADVANCEMENTS; }
 // public static void RENAMED_ADVANCEMENTS(java.util.Map value, ) { net.minecraft.datafixer.fix.AdvancementsFix.RENAMED_ADVANCEMENTS = value; }
 
-public AdvancementsFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.AdvancementsFix(outputSchema,changesType); }
 
 }

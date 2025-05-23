@@ -47,5 +47,9 @@ public void update(java.util.Collection uuids,double scrollAmount,boolean includ
 // public static void sortPlayers() { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListWidget.sortPlayers(); }
 // public java.util.Collection collectReportableProfiles(yarnwrap.client.session.report.log.ChatLog log) { return wrapperContained.collectReportableProfiles(log.wrapperContained); }
 // public static java.util.Collection collectReportableProfiles(yarnwrap.client.session.report.log.ChatLog log, ) { return net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListWidget.collectReportableProfiles(log.wrapperContained); }
+// public void method_71088(yarnwrap.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry player) { wrapperContained.method_71088(player.wrapperContained); }
+// public static void method_71088(yarnwrap.client.gui.screen.multiplayer.SocialInteractionsPlayerListEntry player, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListWidget.method_71088(player.wrapperContained); }
+// public void updateHasDraftReport() { wrapperContained.updateHasDraftReport(); }
+// public static void updateHasDraftReport() { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsPlayerListWidget.updateHasDraftReport(); }
 
 }

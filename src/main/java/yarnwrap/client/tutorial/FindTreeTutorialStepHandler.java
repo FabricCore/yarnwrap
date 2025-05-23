@@ -1,11 +1,6 @@
 package yarnwrap.client.tutorial;
 public class FindTreeTutorialStepHandler { public net.minecraft.client.tutorial.FindTreeTutorialStepHandler wrapperContained; public FindTreeTutorialStepHandler(net.minecraft.client.tutorial.FindTreeTutorialStepHandler wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int DELAY() { return wrapperContained.DELAY; }
-// public void DELAY(int value) { wrapperContained.DELAY = value; }
-// public static int DELAY() { return net.minecraft.client.tutorial.FindTreeTutorialStepHandler.DELAY; }
-// public static void DELAY(int value, ) { net.minecraft.client.tutorial.FindTreeTutorialStepHandler.DELAY = value; }
-
 // public yarnwrap.text.Text DESCRIPTION() { return new yarnwrap.text.Text(wrapperContained.DESCRIPTION); }
 // public void DESCRIPTION(yarnwrap.text.Text value) { wrapperContained.DESCRIPTION = value.wrapperContained; }
 // public static yarnwrap.text.Text DESCRIPTION() { return new yarnwrap.text.Text(net.minecraft.client.tutorial.FindTreeTutorialStepHandler.DESCRIPTION); }
@@ -31,12 +26,17 @@ public class FindTreeTutorialStepHandler { public net.minecraft.client.tutorial.
 // public static yarnwrap.client.toast.TutorialToast toast() { return new yarnwrap.client.toast.TutorialToast(net.minecraft.client.tutorial.FindTreeTutorialStepHandler.toast); }
 // public static void toast(yarnwrap.client.toast.TutorialToast value, ) { net.minecraft.client.tutorial.FindTreeTutorialStepHandler.toast = value.wrapperContained; }
 
+// public int DELAY() { return wrapperContained.DELAY; }
+// public void DELAY(int value) { wrapperContained.DELAY = value; }
+// public static int DELAY() { return net.minecraft.client.tutorial.FindTreeTutorialStepHandler.DELAY; }
+// public static void DELAY(int value, ) { net.minecraft.client.tutorial.FindTreeTutorialStepHandler.DELAY = value; }
+
 public FindTreeTutorialStepHandler(yarnwrap.client.tutorial.TutorialManager manager) { this.wrapperContained = new net.minecraft.client.tutorial.FindTreeTutorialStepHandler(manager.wrapperContained); }
+// public boolean hasBrokenTreeBlocks(yarnwrap.client.network.ClientPlayerEntity player) { return wrapperContained.hasBrokenTreeBlocks(player.wrapperContained); }
+// public static boolean hasBrokenTreeBlocks(yarnwrap.client.network.ClientPlayerEntity player, ) { return net.minecraft.client.tutorial.FindTreeTutorialStepHandler.hasBrokenTreeBlocks(player.wrapperContained); }
 // public boolean method_43340(yarnwrap.item.ItemStack stack) { return wrapperContained.method_43340(stack.wrapperContained); }
 // public static boolean method_43340(yarnwrap.item.ItemStack stack, ) { return net.minecraft.client.tutorial.FindTreeTutorialStepHandler.method_43340(stack.wrapperContained); }
 // public boolean hasItem(yarnwrap.client.network.ClientPlayerEntity player) { return wrapperContained.hasItem(player.wrapperContained); }
 // public static boolean hasItem(yarnwrap.client.network.ClientPlayerEntity player, ) { return net.minecraft.client.tutorial.FindTreeTutorialStepHandler.hasItem(player.wrapperContained); }
-// public boolean hasBrokenTreeBlocks(yarnwrap.client.network.ClientPlayerEntity player) { return wrapperContained.hasBrokenTreeBlocks(player.wrapperContained); }
-// public static boolean hasBrokenTreeBlocks(yarnwrap.client.network.ClientPlayerEntity player, ) { return net.minecraft.client.tutorial.FindTreeTutorialStepHandler.hasBrokenTreeBlocks(player.wrapperContained); }
 
 }

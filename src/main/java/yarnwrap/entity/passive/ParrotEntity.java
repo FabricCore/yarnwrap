@@ -41,20 +41,16 @@ public void maxWingDeviation(float value) { wrapperContained.maxWingDeviation = 
 // public static yarnwrap.entity.data.TrackedData VARIANT() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.ParrotEntity.VARIANT); }
 // public static void VARIANT(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.ParrotEntity.VARIANT = value.wrapperContained; }
 
-public float prevMaxWingDeviation() { return wrapperContained.prevMaxWingDeviation; }
-public void prevMaxWingDeviation(float value) { wrapperContained.prevMaxWingDeviation = value; }
-// public static float prevMaxWingDeviation() { return net.minecraft.entity.passive.ParrotEntity.prevMaxWingDeviation; }
-// public static void prevMaxWingDeviation(float value, ) { net.minecraft.entity.passive.ParrotEntity.prevMaxWingDeviation = value; }
+public float lastMaxWingDeviation() { return wrapperContained.lastMaxWingDeviation; }
+public void lastMaxWingDeviation(float value) { wrapperContained.lastMaxWingDeviation = value; }
+// public static float lastMaxWingDeviation() { return net.minecraft.entity.passive.ParrotEntity.lastMaxWingDeviation; }
+// public static void lastMaxWingDeviation(float value, ) { net.minecraft.entity.passive.ParrotEntity.lastMaxWingDeviation = value; }
 
-public float prevFlapProgress() { return wrapperContained.prevFlapProgress; }
-public void prevFlapProgress(float value) { wrapperContained.prevFlapProgress = value; }
-// public static float prevFlapProgress() { return net.minecraft.entity.passive.ParrotEntity.prevFlapProgress; }
-// public static void prevFlapProgress(float value, ) { net.minecraft.entity.passive.ParrotEntity.prevFlapProgress = value; }
+public float lastFlapProgress() { return wrapperContained.lastFlapProgress; }
+public void lastFlapProgress(float value) { wrapperContained.lastFlapProgress = value; }
+// public static float lastFlapProgress() { return net.minecraft.entity.passive.ParrotEntity.lastFlapProgress; }
+// public static void lastFlapProgress(float value, ) { net.minecraft.entity.passive.ParrotEntity.lastFlapProgress = value; }
 
-// public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
-// public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.passive.ParrotEntity.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
-// public Object createParrotAttributes() { return wrapperContained.createParrotAttributes(); }
-public static Object createParrotAttributes() { return net.minecraft.entity.passive.ParrotEntity.createParrotAttributes(); }
 // public void flapWings() { wrapperContained.flapWings(); }
 // public static void flapWings() { net.minecraft.entity.passive.ParrotEntity.flapWings(); }
 // public void method_6579(java.util.HashMap map) { wrapperContained.method_6579(map); }
@@ -65,9 +61,17 @@ public boolean isSongPlaying() { return wrapperContained.isSongPlaying(); }
 // public static boolean isSongPlaying() { return net.minecraft.entity.passive.ParrotEntity.isSongPlaying(); }
 // public yarnwrap.sound.SoundEvent getRandomSound(yarnwrap.world.World world,yarnwrap.util.math.random.Random random) { return new yarnwrap.sound.SoundEvent(wrapperContained.getRandomSound(world.wrapperContained,random.wrapperContained)); }
 // public static yarnwrap.sound.SoundEvent getRandomSound(yarnwrap.world.World world,yarnwrap.util.math.random.Random random, ) { return new yarnwrap.sound.SoundEvent(net.minecraft.entity.passive.ParrotEntity.getRandomSound(world.wrapperContained,random.wrapperContained)); }
+public Object getVariant() { return wrapperContained.getVariant(); }
+// public static Object getVariant() { return net.minecraft.entity.passive.ParrotEntity.getVariant(); }
 // public yarnwrap.sound.SoundEvent getSound(yarnwrap.entity.EntityType imitate) { return new yarnwrap.sound.SoundEvent(wrapperContained.getSound(imitate.wrapperContained)); }
 // public static yarnwrap.sound.SoundEvent getSound(yarnwrap.entity.EntityType imitate, ) { return new yarnwrap.sound.SoundEvent(net.minecraft.entity.passive.ParrotEntity.getSound(imitate.wrapperContained)); }
 // public boolean imitateNearbyMob(yarnwrap.world.World world,yarnwrap.entity.Entity parrot) { return wrapperContained.imitateNearbyMob(world.wrapperContained,parrot.wrapperContained); }
 // public static boolean imitateNearbyMob(yarnwrap.world.World world,yarnwrap.entity.Entity parrot, ) { return net.minecraft.entity.passive.ParrotEntity.imitateNearbyMob(world.wrapperContained,parrot.wrapperContained); }
+// public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.passive.ParrotEntity.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public Object createParrotAttributes() { return wrapperContained.createParrotAttributes(); }
+public static Object createParrotAttributes() { return net.minecraft.entity.passive.ParrotEntity.createParrotAttributes(); }
+// public void setVariant(Object variant) { wrapperContained.setVariant(variant); }
+// public static void setVariant(Object variant, ) { net.minecraft.entity.passive.ParrotEntity.setVariant(variant); }
 
 }

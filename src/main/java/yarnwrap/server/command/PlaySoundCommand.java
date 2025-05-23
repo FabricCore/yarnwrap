@@ -16,8 +16,6 @@ public class PlaySoundCommand { public net.minecraft.server.command.PlaySoundCom
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.PlaySoundCommand.register(dispatcher); }
 // public int method_13501(yarnwrap.sound.SoundCategory context) { return wrapperContained.method_13501(context.wrapperContained); }
 // public static int method_13501(yarnwrap.sound.SoundCategory context, ) { return net.minecraft.server.command.PlaySoundCommand.method_13501(context.wrapperContained); }
-// public boolean method_13502(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13502(source.wrapperContained); }
-// public static boolean method_13502(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.PlaySoundCommand.method_13502(source.wrapperContained); }
 // public int method_13503(yarnwrap.sound.SoundCategory context) { return wrapperContained.method_13503(context.wrapperContained); }
 // public static int method_13503(yarnwrap.sound.SoundCategory context, ) { return net.minecraft.server.command.PlaySoundCommand.method_13503(context.wrapperContained); }
 // public int execute(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.util.Identifier sound,yarnwrap.sound.SoundCategory category,yarnwrap.util.math.Vec3d pos,float volume,float pitch,float minVolume) { return wrapperContained.execute(source.wrapperContained,targets,sound.wrapperContained,category.wrapperContained,pos.wrapperContained,volume,pitch,minVolume); }

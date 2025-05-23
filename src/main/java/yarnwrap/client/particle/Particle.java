@@ -1,30 +1,10 @@
 package yarnwrap.client.particle;
 public class Particle { public net.minecraft.client.particle.Particle wrapperContained; public Particle(net.minecraft.client.particle.Particle wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public boolean stopped() { return wrapperContained.stopped; }
-// public void stopped(boolean value) { wrapperContained.stopped = value; }
-// public static boolean stopped() { return net.minecraft.client.particle.Particle.stopped; }
-// public static void stopped(boolean value, ) { net.minecraft.client.particle.Particle.stopped = value; }
-
-// public float velocityMultiplier() { return wrapperContained.velocityMultiplier; }
-// public void velocityMultiplier(float value) { wrapperContained.velocityMultiplier = value; }
-// public static float velocityMultiplier() { return net.minecraft.client.particle.Particle.velocityMultiplier; }
-// public static void velocityMultiplier(float value, ) { net.minecraft.client.particle.Particle.velocityMultiplier = value; }
-
-// public boolean ascending() { return wrapperContained.ascending; }
-// public void ascending(boolean value) { wrapperContained.ascending = value; }
-// public static boolean ascending() { return net.minecraft.client.particle.Particle.ascending; }
-// public static void ascending(boolean value, ) { net.minecraft.client.particle.Particle.ascending = value; }
-
-// public double MAX_SQUARED_COLLISION_CHECK_DISTANCE() { return wrapperContained.MAX_SQUARED_COLLISION_CHECK_DISTANCE; }
-// public void MAX_SQUARED_COLLISION_CHECK_DISTANCE(double value) { wrapperContained.MAX_SQUARED_COLLISION_CHECK_DISTANCE = value; }
-// public static double MAX_SQUARED_COLLISION_CHECK_DISTANCE() { return net.minecraft.client.particle.Particle.MAX_SQUARED_COLLISION_CHECK_DISTANCE; }
-// public static void MAX_SQUARED_COLLISION_CHECK_DISTANCE(double value, ) { net.minecraft.client.particle.Particle.MAX_SQUARED_COLLISION_CHECK_DISTANCE = value; }
-
-// public double prevPosY() { return wrapperContained.prevPosY; }
-// public void prevPosY(double value) { wrapperContained.prevPosY = value; }
-// public static double prevPosY() { return net.minecraft.client.particle.Particle.prevPosY; }
-// public static void prevPosY(double value, ) { net.minecraft.client.particle.Particle.prevPosY = value; }
+// public double lastY() { return wrapperContained.lastY; }
+// public void lastY(double value) { wrapperContained.lastY = value; }
+// public static double lastY() { return net.minecraft.client.particle.Particle.lastY; }
+// public static void lastY(double value, ) { net.minecraft.client.particle.Particle.lastY = value; }
 
 // public float angle() { return wrapperContained.angle; }
 // public void angle(float value) { wrapperContained.angle = value; }
@@ -91,20 +71,20 @@ public class Particle { public net.minecraft.client.particle.Particle wrapperCon
 // public static double y() { return net.minecraft.client.particle.Particle.y; }
 // public static void y(double value, ) { net.minecraft.client.particle.Particle.y = value; }
 
-// public double prevPosZ() { return wrapperContained.prevPosZ; }
-// public void prevPosZ(double value) { wrapperContained.prevPosZ = value; }
-// public static double prevPosZ() { return net.minecraft.client.particle.Particle.prevPosZ; }
-// public static void prevPosZ(double value, ) { net.minecraft.client.particle.Particle.prevPosZ = value; }
+// public double lastZ() { return wrapperContained.lastZ; }
+// public void lastZ(double value) { wrapperContained.lastZ = value; }
+// public static double lastZ() { return net.minecraft.client.particle.Particle.lastZ; }
+// public static void lastZ(double value, ) { net.minecraft.client.particle.Particle.lastZ = value; }
 
-// public float prevAngle() { return wrapperContained.prevAngle; }
-// public void prevAngle(float value) { wrapperContained.prevAngle = value; }
-// public static float prevAngle() { return net.minecraft.client.particle.Particle.prevAngle; }
-// public static void prevAngle(float value, ) { net.minecraft.client.particle.Particle.prevAngle = value; }
+// public float lastAngle() { return wrapperContained.lastAngle; }
+// public void lastAngle(float value) { wrapperContained.lastAngle = value; }
+// public static float lastAngle() { return net.minecraft.client.particle.Particle.lastAngle; }
+// public static void lastAngle(float value, ) { net.minecraft.client.particle.Particle.lastAngle = value; }
 
-// public double prevPosX() { return wrapperContained.prevPosX; }
-// public void prevPosX(double value) { wrapperContained.prevPosX = value; }
-// public static double prevPosX() { return net.minecraft.client.particle.Particle.prevPosX; }
-// public static void prevPosX(double value, ) { net.minecraft.client.particle.Particle.prevPosX = value; }
+// public double lastX() { return wrapperContained.lastX; }
+// public void lastX(double value) { wrapperContained.lastX = value; }
+// public static double lastX() { return net.minecraft.client.particle.Particle.lastX; }
+// public static void lastX(double value, ) { net.minecraft.client.particle.Particle.lastX = value; }
 
 // public float blue() { return wrapperContained.blue; }
 // public void blue(float value) { wrapperContained.blue = value; }
@@ -156,10 +136,28 @@ public class Particle { public net.minecraft.client.particle.Particle wrapperCon
 // public static double x() { return net.minecraft.client.particle.Particle.x; }
 // public static void x(double value, ) { net.minecraft.client.particle.Particle.x = value; }
 
+// public boolean stopped() { return wrapperContained.stopped; }
+// public void stopped(boolean value) { wrapperContained.stopped = value; }
+// public static boolean stopped() { return net.minecraft.client.particle.Particle.stopped; }
+// public static void stopped(boolean value, ) { net.minecraft.client.particle.Particle.stopped = value; }
+
+// public float velocityMultiplier() { return wrapperContained.velocityMultiplier; }
+// public void velocityMultiplier(float value) { wrapperContained.velocityMultiplier = value; }
+// public static float velocityMultiplier() { return net.minecraft.client.particle.Particle.velocityMultiplier; }
+// public static void velocityMultiplier(float value, ) { net.minecraft.client.particle.Particle.velocityMultiplier = value; }
+
+// public boolean ascending() { return wrapperContained.ascending; }
+// public void ascending(boolean value) { wrapperContained.ascending = value; }
+// public static boolean ascending() { return net.minecraft.client.particle.Particle.ascending; }
+// public static void ascending(boolean value, ) { net.minecraft.client.particle.Particle.ascending = value; }
+
+// public double MAX_SQUARED_COLLISION_CHECK_DISTANCE() { return wrapperContained.MAX_SQUARED_COLLISION_CHECK_DISTANCE; }
+// public void MAX_SQUARED_COLLISION_CHECK_DISTANCE(double value) { wrapperContained.MAX_SQUARED_COLLISION_CHECK_DISTANCE = value; }
+// public static double MAX_SQUARED_COLLISION_CHECK_DISTANCE() { return net.minecraft.client.particle.Particle.MAX_SQUARED_COLLISION_CHECK_DISTANCE; }
+// public static void MAX_SQUARED_COLLISION_CHECK_DISTANCE(double value, ) { net.minecraft.client.particle.Particle.MAX_SQUARED_COLLISION_CHECK_DISTANCE = value; }
+
 // public Particle(yarnwrap.client.world.ClientWorld world,double x,double y,double z) { this.wrapperContained = new net.minecraft.client.particle.Particle(world.wrapperContained,x,y,z); }
 // public Particle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ) { this.wrapperContained = new net.minecraft.client.particle.Particle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ); }
-public yarnwrap.client.particle.ParticleTextureSheet getType() { return new yarnwrap.client.particle.ParticleTextureSheet(wrapperContained.getType()); }
-// public static yarnwrap.client.particle.ParticleTextureSheet getType() { return new yarnwrap.client.particle.ParticleTextureSheet(net.minecraft.client.particle.Particle.getType()); }
 public void setPos(double x,double y,double z) { wrapperContained.setPos(x,y,z); }
 // public static void setPos(double x,double y,double z, ) { net.minecraft.client.particle.Particle.setPos(x,y,z); }
 public yarnwrap.util.math.Box getBoundingBox() { return new yarnwrap.util.math.Box(wrapperContained.getBoundingBox()); }
@@ -174,8 +172,8 @@ public void tick() { wrapperContained.tick(); }
 // public static void tick() { net.minecraft.client.particle.Particle.tick(); }
 // public void repositionFromBoundingBox() { wrapperContained.repositionFromBoundingBox(); }
 // public static void repositionFromBoundingBox() { net.minecraft.client.particle.Particle.repositionFromBoundingBox(); }
-public void buildGeometry(yarnwrap.client.render.VertexConsumer vertexConsumer,yarnwrap.client.render.Camera camera,float tickDelta) { wrapperContained.buildGeometry(vertexConsumer.wrapperContained,camera.wrapperContained,tickDelta); }
-// public static void buildGeometry(yarnwrap.client.render.VertexConsumer vertexConsumer,yarnwrap.client.render.Camera camera,float tickDelta, ) { net.minecraft.client.particle.Particle.buildGeometry(vertexConsumer.wrapperContained,camera.wrapperContained,tickDelta); }
+public void render(yarnwrap.client.render.VertexConsumer vertexConsumer,yarnwrap.client.render.Camera camera,float tickProgress) { wrapperContained.render(vertexConsumer.wrapperContained,camera.wrapperContained,tickProgress); }
+// public static void render(yarnwrap.client.render.VertexConsumer vertexConsumer,yarnwrap.client.render.Camera camera,float tickProgress, ) { net.minecraft.client.particle.Particle.render(vertexConsumer.wrapperContained,camera.wrapperContained,tickProgress); }
 public yarnwrap.client.particle.Particle move(float speed) { return new yarnwrap.client.particle.Particle(wrapperContained.move(speed)); }
 // public static yarnwrap.client.particle.Particle move(float speed, ) { return new yarnwrap.client.particle.Particle(net.minecraft.client.particle.Particle.move(speed)); }
 public void setMaxAge(int maxAge) { wrapperContained.setMaxAge(maxAge); }
@@ -194,9 +192,13 @@ public boolean isAlive() { return wrapperContained.isAlive(); }
 // public static boolean isAlive() { return net.minecraft.client.particle.Particle.isAlive(); }
 public yarnwrap.client.particle.Particle scale(float scale) { return new yarnwrap.client.particle.Particle(wrapperContained.scale(scale)); }
 // public static yarnwrap.client.particle.Particle scale(float scale, ) { return new yarnwrap.client.particle.Particle(net.minecraft.client.particle.Particle.scale(scale)); }
+public yarnwrap.client.particle.ParticleTextureSheet getType() { return new yarnwrap.client.particle.ParticleTextureSheet(wrapperContained.getType()); }
+// public static yarnwrap.client.particle.ParticleTextureSheet getType() { return new yarnwrap.client.particle.ParticleTextureSheet(net.minecraft.client.particle.Particle.getType()); }
 public java.util.Optional getGroup() { return wrapperContained.getGroup(); }
 // public static java.util.Optional getGroup() { return net.minecraft.client.particle.Particle.getGroup(); }
 public void setVelocity(double velocityX,double velocityY,double velocityZ) { wrapperContained.setVelocity(velocityX,velocityY,velocityZ); }
 // public static void setVelocity(double velocityX,double velocityY,double velocityZ, ) { net.minecraft.client.particle.Particle.setVelocity(velocityX,velocityY,velocityZ); }
+public void renderCustom(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,yarnwrap.client.render.Camera camera,float tickProgress) { wrapperContained.renderCustom(matrices.wrapperContained,vertexConsumers.wrapperContained,camera.wrapperContained,tickProgress); }
+// public static void renderCustom(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,yarnwrap.client.render.Camera camera,float tickProgress, ) { net.minecraft.client.particle.Particle.renderCustom(matrices.wrapperContained,vertexConsumers.wrapperContained,camera.wrapperContained,tickProgress); }
 
 }

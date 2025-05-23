@@ -25,8 +25,8 @@ public java.util.List getWithStyle(yarnwrap.text.Style style) { return wrapperCo
 // public static java.util.List getWithStyle(yarnwrap.text.Style style, ) { return net.minecraft.text.Text.getWithStyle(style.wrapperContained); }
 // public yarnwrap.text.MutableText score(java.lang.String name,java.lang.String objective) { return new yarnwrap.text.MutableText(wrapperContained.score(name,objective)); }
 // public static yarnwrap.text.MutableText score(java.lang.String name,java.lang.String objective, ) { return new yarnwrap.text.MutableText(net.minecraft.text.Text.score(name,objective)); }
-// public yarnwrap.text.MutableText selector(java.lang.String pattern,java.util.Optional separator) { return new yarnwrap.text.MutableText(wrapperContained.selector(pattern,separator)); }
-// public static yarnwrap.text.MutableText selector(java.lang.String pattern,java.util.Optional separator, ) { return new yarnwrap.text.MutableText(net.minecraft.text.Text.selector(pattern,separator)); }
+// public yarnwrap.text.MutableText selector(yarnwrap.text.ParsedSelector selector,java.util.Optional separator) { return new yarnwrap.text.MutableText(wrapperContained.selector(selector.wrapperContained,separator)); }
+// public static yarnwrap.text.MutableText selector(yarnwrap.text.ParsedSelector selector,java.util.Optional separator, ) { return new yarnwrap.text.MutableText(net.minecraft.text.Text.selector(selector.wrapperContained,separator)); }
 // public yarnwrap.text.MutableText nbt(java.lang.String rawPath,boolean interpret,java.util.Optional separator,yarnwrap.text.NbtDataSource dataSource) { return new yarnwrap.text.MutableText(wrapperContained.nbt(rawPath,interpret,separator,dataSource.wrapperContained)); }
 // public static yarnwrap.text.MutableText nbt(java.lang.String rawPath,boolean interpret,java.util.Optional separator,yarnwrap.text.NbtDataSource dataSource, ) { return new yarnwrap.text.MutableText(net.minecraft.text.Text.nbt(rawPath,interpret,separator,dataSource.wrapperContained)); }
 // public yarnwrap.text.MutableText translatable(java.lang.String key,java.lang.Object[] args) { return new yarnwrap.text.MutableText(wrapperContained.translatable(key,args)); }
@@ -63,5 +63,7 @@ public java.lang.String getLiteralString() { return wrapperContained.getLiteralS
 // public static java.lang.String getLiteralString() { return net.minecraft.text.Text.getLiteralString(); }
 // public yarnwrap.text.Text of(java.net.URI uri) { return new yarnwrap.text.Text(wrapperContained.of(uri)); }
 // public static yarnwrap.text.Text of(java.net.URI uri, ) { return new yarnwrap.text.Text(net.minecraft.text.Text.of(uri)); }
+// public yarnwrap.text.MutableText score(yarnwrap.text.ParsedSelector selector,java.lang.String objective) { return new yarnwrap.text.MutableText(wrapperContained.score(selector.wrapperContained,objective)); }
+// public static yarnwrap.text.MutableText score(yarnwrap.text.ParsedSelector selector,java.lang.String objective, ) { return new yarnwrap.text.MutableText(net.minecraft.text.Text.score(selector.wrapperContained,objective)); }
 
 }

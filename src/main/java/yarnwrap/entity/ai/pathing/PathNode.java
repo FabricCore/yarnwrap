@@ -69,12 +69,6 @@ public void heapWeight(float value) { wrapperContained.heapWeight = value; }
 public PathNode(int x,int y,int z) { this.wrapperContained = new net.minecraft.entity.ai.pathing.PathNode(x,y,z); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.entity.ai.pathing.PathNode.equals(o); }
-public float getManhattanDistance(yarnwrap.entity.ai.pathing.PathNode node) { return wrapperContained.getManhattanDistance(node.wrapperContained); }
-// public static float getManhattanDistance(yarnwrap.entity.ai.pathing.PathNode node, ) { return net.minecraft.entity.ai.pathing.PathNode.getManhattanDistance(node.wrapperContained); }
-public float getManhattanDistance(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getManhattanDistance(pos.wrapperContained); }
-// public static float getManhattanDistance(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.ai.pathing.PathNode.getManhattanDistance(pos.wrapperContained); }
-public yarnwrap.util.math.BlockPos getBlockPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getBlockPos()); }
-// public static yarnwrap.util.math.BlockPos getBlockPos() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.ai.pathing.PathNode.getBlockPos()); }
 public yarnwrap.entity.ai.pathing.PathNode copyWithNewPosition(int x,int y,int z) { return new yarnwrap.entity.ai.pathing.PathNode(wrapperContained.copyWithNewPosition(x,y,z)); }
 // public static yarnwrap.entity.ai.pathing.PathNode copyWithNewPosition(int x,int y,int z, ) { return new yarnwrap.entity.ai.pathing.PathNode(net.minecraft.entity.ai.pathing.PathNode.copyWithNewPosition(x,y,z)); }
 public boolean isInHeap() { return wrapperContained.isInHeap(); }
@@ -87,6 +81,12 @@ public float getDistance(yarnwrap.entity.ai.pathing.PathNode node) { return wrap
 // public static float getDistance(yarnwrap.entity.ai.pathing.PathNode node, ) { return net.minecraft.entity.ai.pathing.PathNode.getDistance(node.wrapperContained); }
 public float getSquaredDistance(yarnwrap.entity.ai.pathing.PathNode node) { return wrapperContained.getSquaredDistance(node.wrapperContained); }
 // public static float getSquaredDistance(yarnwrap.entity.ai.pathing.PathNode node, ) { return net.minecraft.entity.ai.pathing.PathNode.getSquaredDistance(node.wrapperContained); }
+public float getManhattanDistance(yarnwrap.entity.ai.pathing.PathNode node) { return wrapperContained.getManhattanDistance(node.wrapperContained); }
+// public static float getManhattanDistance(yarnwrap.entity.ai.pathing.PathNode node, ) { return net.minecraft.entity.ai.pathing.PathNode.getManhattanDistance(node.wrapperContained); }
+public float getManhattanDistance(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getManhattanDistance(pos.wrapperContained); }
+// public static float getManhattanDistance(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.ai.pathing.PathNode.getManhattanDistance(pos.wrapperContained); }
+public yarnwrap.util.math.BlockPos getBlockPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getBlockPos()); }
+// public static yarnwrap.util.math.BlockPos getBlockPos() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.ai.pathing.PathNode.getBlockPos()); }
 public float getDistance(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getDistance(pos.wrapperContained); }
 // public static float getDistance(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.ai.pathing.PathNode.getDistance(pos.wrapperContained); }
 public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }

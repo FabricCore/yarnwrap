@@ -70,8 +70,6 @@ public static com.mojang.brigadier.suggestion.SuggestionProvider SUGGESTION_PROV
 // public static int method_13033(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.BossBarCommand.method_13033(context); }
 // public int method_13034(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13034(context); }
 // public static int method_13034(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.BossBarCommand.method_13034(context); }
-// public boolean method_13035(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13035(source.wrapperContained); }
-// public static boolean method_13035(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.BossBarCommand.method_13035(source.wrapperContained); }
 // public int setValue(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.boss.CommandBossBar bossBar,int value) { return wrapperContained.setValue(source.wrapperContained,bossBar.wrapperContained,value); }
 // public static int setValue(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.boss.CommandBossBar bossBar,int value, ) { return net.minecraft.server.command.BossBarCommand.setValue(source.wrapperContained,bossBar.wrapperContained,value); }
 // public int method_13037(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13037(context); }

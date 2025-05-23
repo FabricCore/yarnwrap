@@ -13,5 +13,11 @@ public class Main { public net.minecraft.client.main.Main wrapperContained; publ
 // public static java.util.Optional toOptional(java.lang.String string, ) { return net.minecraft.client.main.Main.toOptional(string); }
 // public java.lang.String unescape(java.lang.String string) { return wrapperContained.unescape(string); }
 // public static java.lang.String unescape(java.lang.String string, ) { return net.minecraft.client.main.Main.unescape(string); }
+// public boolean isUuidSetAndValid(joptsimple.OptionSpec uuidOption,joptsimple.OptionSet optionSet,org.slf4j.Logger logger) { return wrapperContained.isUuidSetAndValid(uuidOption,optionSet,logger); }
+// public static boolean isUuidSetAndValid(joptsimple.OptionSpec uuidOption,joptsimple.OptionSet optionSet,org.slf4j.Logger logger, ) { return net.minecraft.client.main.Main.isUuidSetAndValid(uuidOption,optionSet,logger); }
+// public boolean isUuidValid(joptsimple.OptionSpec uuidOption,joptsimple.OptionSet optionSet,org.slf4j.Logger logger) { return wrapperContained.isUuidValid(uuidOption,optionSet,logger); }
+// public static boolean isUuidValid(joptsimple.OptionSpec uuidOption,joptsimple.OptionSet optionSet,org.slf4j.Logger logger, ) { return net.minecraft.client.main.Main.isUuidValid(uuidOption,optionSet,logger); }
+// public Object getQuickPlayVariant(joptsimple.OptionSet optionSet,joptsimple.OptionSpec worldIdOption,joptsimple.OptionSpec serverAddressOption,joptsimple.OptionSpec realmIdOption) { return wrapperContained.getQuickPlayVariant(optionSet,worldIdOption,serverAddressOption,realmIdOption); }
+// public static Object getQuickPlayVariant(joptsimple.OptionSet optionSet,joptsimple.OptionSpec worldIdOption,joptsimple.OptionSpec serverAddressOption,joptsimple.OptionSpec realmIdOption, ) { return net.minecraft.client.main.Main.getQuickPlayVariant(optionSet,worldIdOption,serverAddressOption,realmIdOption); }
 
 }

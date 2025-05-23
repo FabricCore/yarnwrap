@@ -1,16 +1,6 @@
 package yarnwrap.client.gui.screen.ingame;
 public class CreativeInventoryScreen { public net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen wrapperContained; public CreativeInventoryScreen(net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.Set searchResultTags() { return wrapperContained.searchResultTags; }
-// public void searchResultTags(java.util.Set value) { wrapperContained.searchResultTags = value; }
-// public static java.util.Set searchResultTags() { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.searchResultTags; }
-// public static void searchResultTags(java.util.Set value, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.searchResultTags = value; }
-
-// public yarnwrap.text.Text DELETE_ITEM_SLOT_TEXT() { return new yarnwrap.text.Text(wrapperContained.DELETE_ITEM_SLOT_TEXT); }
-// public void DELETE_ITEM_SLOT_TEXT(yarnwrap.text.Text value) { wrapperContained.DELETE_ITEM_SLOT_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text DELETE_ITEM_SLOT_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.DELETE_ITEM_SLOT_TEXT); }
-// public static void DELETE_ITEM_SLOT_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.DELETE_ITEM_SLOT_TEXT = value.wrapperContained; }
-
 // public java.util.List slots() { return wrapperContained.slots; }
 // public void slots(java.util.List value) { wrapperContained.slots = value; }
 // public static java.util.List slots() { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.slots; }
@@ -61,6 +51,16 @@ public class CreativeInventoryScreen { public net.minecraft.client.gui.screen.in
 // public static yarnwrap.item.ItemGroup selectedTab() { return new yarnwrap.item.ItemGroup(net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.selectedTab); }
 // public static void selectedTab(yarnwrap.item.ItemGroup value, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.selectedTab = value.wrapperContained; }
 
+// public java.util.Set searchResultTags() { return wrapperContained.searchResultTags; }
+// public void searchResultTags(java.util.Set value) { wrapperContained.searchResultTags = value; }
+// public static java.util.Set searchResultTags() { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.searchResultTags; }
+// public static void searchResultTags(java.util.Set value, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.searchResultTags = value; }
+
+// public yarnwrap.text.Text DELETE_ITEM_SLOT_TEXT() { return new yarnwrap.text.Text(wrapperContained.DELETE_ITEM_SLOT_TEXT); }
+// public void DELETE_ITEM_SLOT_TEXT(yarnwrap.text.Text value) { wrapperContained.DELETE_ITEM_SLOT_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text DELETE_ITEM_SLOT_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.DELETE_ITEM_SLOT_TEXT); }
+// public static void DELETE_ITEM_SLOT_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.DELETE_ITEM_SLOT_TEXT = value.wrapperContained; }
+
 // public int ROWS_COUNT() { return wrapperContained.ROWS_COUNT; }
 // public void ROWS_COUNT(int value) { wrapperContained.ROWS_COUNT = value; }
 // public static int ROWS_COUNT() { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.ROWS_COUNT; }
@@ -90,11 +90,6 @@ public class CreativeInventoryScreen { public net.minecraft.client.gui.screen.in
 // public void SCROLLBAR_HEIGHT(int value) { wrapperContained.SCROLLBAR_HEIGHT = value; }
 // public static int SCROLLBAR_HEIGHT() { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.SCROLLBAR_HEIGHT; }
 // public static void SCROLLBAR_HEIGHT(int value, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.SCROLLBAR_HEIGHT = value; }
-
-// public int WHITE() { return wrapperContained.WHITE; }
-// public void WHITE(int value) { wrapperContained.WHITE = value; }
-// public static int WHITE() { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.WHITE; }
-// public static void WHITE(int value, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.WHITE = value; }
 
 // public boolean operatorTabEnabled() { return wrapperContained.operatorTabEnabled; }
 // public void operatorTabEnabled(boolean value) { wrapperContained.operatorTabEnabled = value; }
@@ -131,15 +126,12 @@ public class CreativeInventoryScreen { public net.minecraft.client.gui.screen.in
 // public static net.minecraft.util.Identifier[] TAB_TOP_UNSELECTED_TEXTURES() { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.TAB_TOP_UNSELECTED_TEXTURES; }
 // public static void TAB_TOP_UNSELECTED_TEXTURES(net.minecraft.util.Identifier[] value, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.TAB_TOP_UNSELECTED_TEXTURES = value; }
 
+// public yarnwrap.client.gui.screen.ingame.StatusEffectsDisplay statusEffectsDisplay() { return new yarnwrap.client.gui.screen.ingame.StatusEffectsDisplay(wrapperContained.statusEffectsDisplay); }
+// public void statusEffectsDisplay(yarnwrap.client.gui.screen.ingame.StatusEffectsDisplay value) { wrapperContained.statusEffectsDisplay = value.wrapperContained; }
+// public static yarnwrap.client.gui.screen.ingame.StatusEffectsDisplay statusEffectsDisplay() { return new yarnwrap.client.gui.screen.ingame.StatusEffectsDisplay(net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.statusEffectsDisplay); }
+// public static void statusEffectsDisplay(yarnwrap.client.gui.screen.ingame.StatusEffectsDisplay value, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.statusEffectsDisplay = value.wrapperContained; }
+
 public CreativeInventoryScreen(yarnwrap.client.network.ClientPlayerEntity player,yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean operatorTabEnabled) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen(player.wrapperContained,enabledFeatures.wrapperContained,operatorTabEnabled); }
-// public void searchForTags(java.lang.String id) { wrapperContained.searchForTags(id); }
-// public static void searchForTags(java.lang.String id, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.searchForTags(id); }
-// public boolean method_15873(java.util.function.Predicate tag) { return wrapperContained.method_15873(tag); }
-// public static boolean method_15873(java.util.function.Predicate tag, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.method_15873(tag); }
-// public boolean method_15874(java.lang.String id) { return wrapperContained.method_15874(id); }
-// public static boolean method_15874(java.lang.String id, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.method_15874(id); }
-// public boolean method_15875(java.lang.String id) { return wrapperContained.method_15875(id); }
-// public static boolean method_15875(java.lang.String id, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.method_15875(id); }
 // public void onHotbarKeyPress(yarnwrap.client.MinecraftClient client,int index,boolean restore,boolean save) { wrapperContained.onHotbarKeyPress(client.wrapperContained,index,restore,save); }
 // public static void onHotbarKeyPress(yarnwrap.client.MinecraftClient client,int index,boolean restore,boolean save, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.onHotbarKeyPress(client.wrapperContained,index,restore,save); }
 // public boolean isClickInTab(yarnwrap.item.ItemGroup group,double mouseX,double mouseY) { return wrapperContained.isClickInTab(group.wrapperContained,mouseX,mouseY); }
@@ -158,10 +150,18 @@ public CreativeInventoryScreen(yarnwrap.client.network.ClientPlayerEntity player
 // public static boolean isCreativeInventorySlot(yarnwrap.screen.slot.Slot slot, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.isCreativeInventorySlot(slot.wrapperContained); }
 // public boolean renderTabTooltipIfHovered(yarnwrap.client.gui.DrawContext context,yarnwrap.item.ItemGroup group,int mouseX,int mouseY) { return wrapperContained.renderTabTooltipIfHovered(context.wrapperContained,group.wrapperContained,mouseX,mouseY); }
 // public static boolean renderTabTooltipIfHovered(yarnwrap.client.gui.DrawContext context,yarnwrap.item.ItemGroup group,int mouseX,int mouseY, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.renderTabTooltipIfHovered(context.wrapperContained,group.wrapperContained,mouseX,mouseY); }
+// public void searchForTags(java.lang.String id) { wrapperContained.searchForTags(id); }
+// public static void searchForTags(java.lang.String id, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.searchForTags(id); }
+// public boolean method_15873(java.util.function.Predicate tag) { return wrapperContained.method_15873(tag); }
+// public static boolean method_15873(java.util.function.Predicate tag, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.method_15873(tag); }
+// public boolean method_15874(java.lang.String id) { return wrapperContained.method_15874(id); }
+// public static boolean method_15874(java.lang.String id, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.method_15874(id); }
+// public boolean method_15875(java.lang.String id) { return wrapperContained.method_15875(id); }
+// public static boolean method_15875(java.lang.String id, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.method_15875(id); }
 // public boolean shouldShowOperatorTab(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.shouldShowOperatorTab(player.wrapperContained); }
 // public static boolean shouldShowOperatorTab(yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.shouldShowOperatorTab(player.wrapperContained); }
-// public void updateDisplayParameters(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean showOperatorTab,Object registryLookup) { wrapperContained.updateDisplayParameters(enabledFeatures.wrapperContained,showOperatorTab,registryLookup); }
-// public static void updateDisplayParameters(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean showOperatorTab,Object registryLookup, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.updateDisplayParameters(enabledFeatures.wrapperContained,showOperatorTab,registryLookup); }
+// public void updateDisplayParameters(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean showOperatorTab,Object registries) { wrapperContained.updateDisplayParameters(enabledFeatures.wrapperContained,showOperatorTab,registries); }
+// public static void updateDisplayParameters(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean showOperatorTab,Object registries, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.updateDisplayParameters(enabledFeatures.wrapperContained,showOperatorTab,registries); }
 // public void refreshSelectedTab(java.util.Collection displayStacks) { wrapperContained.refreshSelectedTab(displayStacks); }
 // public static void refreshSelectedTab(java.util.Collection displayStacks, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.refreshSelectedTab(displayStacks); }
 // public int getTabX(yarnwrap.item.ItemGroup group) { return wrapperContained.getTabX(group.wrapperContained); }
@@ -172,7 +172,7 @@ public boolean isInventoryTabSelected() { return wrapperContained.isInventoryTab
 // public static boolean isInventoryTabSelected() { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.isInventoryTabSelected(); }
 // public void method_51455(yarnwrap.item.ItemStack tagKey) { wrapperContained.method_51455(tagKey.wrapperContained); }
 // public static void method_51455(yarnwrap.item.ItemStack tagKey, ) { net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.method_51455(tagKey.wrapperContained); }
-// public boolean populateDisplay(yarnwrap.client.search.SearchManager searchManager,yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean showOperatorTab,Object registryLookup) { return wrapperContained.populateDisplay(searchManager.wrapperContained,enabledFeatures.wrapperContained,showOperatorTab,registryLookup); }
-// public static boolean populateDisplay(yarnwrap.client.search.SearchManager searchManager,yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean showOperatorTab,Object registryLookup, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.populateDisplay(searchManager.wrapperContained,enabledFeatures.wrapperContained,showOperatorTab,registryLookup); }
+// public boolean populateDisplay(yarnwrap.client.search.SearchManager searchManager,yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean showOperatorTab,Object registries) { return wrapperContained.populateDisplay(searchManager.wrapperContained,enabledFeatures.wrapperContained,showOperatorTab,registries); }
+// public static boolean populateDisplay(yarnwrap.client.search.SearchManager searchManager,yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean showOperatorTab,Object registries, ) { return net.minecraft.client.gui.screen.ingame.CreativeInventoryScreen.populateDisplay(searchManager.wrapperContained,enabledFeatures.wrapperContained,showOperatorTab,registries); }
 
 }

@@ -11,6 +11,11 @@ public class BreezeBrain { public net.minecraft.entity.mob.BreezeBrain wrapperCo
 // public static java.util.List MEMORY_MODULES() { return net.minecraft.entity.mob.BreezeBrain.MEMORY_MODULES; }
 // public static void MEMORY_MODULES(java.util.List value, ) { net.minecraft.entity.mob.BreezeBrain.MEMORY_MODULES = value; }
 
+// public int TIME_BEFORE_FORGETTING_TARGET() { return wrapperContained.TIME_BEFORE_FORGETTING_TARGET; }
+// public void TIME_BEFORE_FORGETTING_TARGET(int value) { wrapperContained.TIME_BEFORE_FORGETTING_TARGET = value; }
+// public static int TIME_BEFORE_FORGETTING_TARGET() { return net.minecraft.entity.mob.BreezeBrain.TIME_BEFORE_FORGETTING_TARGET; }
+// public static void TIME_BEFORE_FORGETTING_TARGET(int value, ) { net.minecraft.entity.mob.BreezeBrain.TIME_BEFORE_FORGETTING_TARGET = value; }
+
 // public yarnwrap.entity.ai.brain.Brain create(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.entity.ai.brain.Brain brain) { return new yarnwrap.entity.ai.brain.Brain(wrapperContained.create(breeze.wrapperContained,brain.wrapperContained)); }
 // public static yarnwrap.entity.ai.brain.Brain create(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.entity.ai.brain.Brain brain, ) { return new yarnwrap.entity.ai.brain.Brain(net.minecraft.entity.mob.BreezeBrain.create(breeze.wrapperContained,brain.wrapperContained)); }
 // public void addCoreTasks(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addCoreTasks(brain.wrapperContained); }
@@ -19,9 +24,11 @@ public class BreezeBrain { public net.minecraft.entity.mob.BreezeBrain wrapperCo
 // public static void addFightTasks(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.BreezeBrain.addFightTasks(breeze.wrapperContained,brain.wrapperContained); }
 // public void updateActivities(yarnwrap.entity.mob.BreezeEntity breeze) { wrapperContained.updateActivities(breeze.wrapperContained); }
 // public static void updateActivities(yarnwrap.entity.mob.BreezeEntity breeze, ) { net.minecraft.entity.mob.BreezeBrain.updateActivities(breeze.wrapperContained); }
-// public java.util.Optional method_55749(yarnwrap.entity.mob.BreezeEntity breeze) { return wrapperContained.method_55749(breeze.wrapperContained); }
-// public static java.util.Optional method_55749(yarnwrap.entity.mob.BreezeEntity breeze, ) { return net.minecraft.entity.mob.BreezeBrain.method_55749(breeze.wrapperContained); }
+// public java.util.Optional method_55749(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.BreezeEntity breeze) { return wrapperContained.method_55749(world.wrapperContained,breeze.wrapperContained); }
+// public static java.util.Optional method_55749(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.BreezeEntity breeze, ) { return net.minecraft.entity.mob.BreezeBrain.method_55749(world.wrapperContained,breeze.wrapperContained); }
 // public void addIdleTasks(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addIdleTasks(brain.wrapperContained); }
 // public static void addIdleTasks(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.BreezeBrain.addIdleTasks(brain.wrapperContained); }
+// public java.util.Optional method_64470(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.BreezeEntity breeze) { return wrapperContained.method_64470(world.wrapperContained,breeze.wrapperContained); }
+// public static java.util.Optional method_64470(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.BreezeEntity breeze, ) { return net.minecraft.entity.mob.BreezeBrain.method_64470(world.wrapperContained,breeze.wrapperContained); }
 
 }

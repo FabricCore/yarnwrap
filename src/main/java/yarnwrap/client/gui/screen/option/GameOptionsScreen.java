@@ -32,5 +32,7 @@ public yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new y
 // public static void addOptions() { net.minecraft.client.gui.screen.option.GameOptionsScreen.addOptions(); }
 // public void initBody() { wrapperContained.initBody(); }
 // public static void initBody() { net.minecraft.client.gui.screen.option.GameOptionsScreen.initBody(); }
+// public void method_60336(yarnwrap.client.gui.screen.option.GameOptionsScreen child) { wrapperContained.method_60336(child.wrapperContained); }
+// public static void method_60336(yarnwrap.client.gui.screen.option.GameOptionsScreen child, ) { net.minecraft.client.gui.screen.option.GameOptionsScreen.method_60336(child.wrapperContained); }
 
 }

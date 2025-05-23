@@ -24,8 +24,6 @@ public class WeatherCommand { public net.minecraft.server.command.WeatherCommand
 // public static int method_13830(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.WeatherCommand.method_13830(context); }
 // public int method_13831(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13831(context); }
 // public static int method_13831(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.WeatherCommand.method_13831(context); }
-// public boolean method_13832(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13832(source.wrapperContained); }
-// public static boolean method_13832(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.WeatherCommand.method_13832(source.wrapperContained); }
 // public int executeThunder(yarnwrap.server.command.ServerCommandSource source,int duration) { return wrapperContained.executeThunder(source.wrapperContained,duration); }
 // public static int executeThunder(yarnwrap.server.command.ServerCommandSource source,int duration, ) { return net.minecraft.server.command.WeatherCommand.executeThunder(source.wrapperContained,duration); }
 // public int processDuration(yarnwrap.server.command.ServerCommandSource source,int duration,yarnwrap.util.math.intprovider.IntProvider provider) { return wrapperContained.processDuration(source.wrapperContained,duration,provider.wrapperContained); }

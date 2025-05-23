@@ -11,5 +11,7 @@ public class HugeMushroomFeature { public net.minecraft.world.gen.feature.HugeMu
 // public static void generateStem(yarnwrap.world.WorldAccess world,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos pos,yarnwrap.world.gen.feature.HugeMushroomFeatureConfig config,int height,Object mutablePos, ) { net.minecraft.world.gen.feature.HugeMushroomFeature.generateStem(world.wrapperContained,random.wrapperContained,pos.wrapperContained,config.wrapperContained,height,mutablePos); }
 // public int getHeight(yarnwrap.util.math.random.Random random) { return wrapperContained.getHeight(random.wrapperContained); }
 // public static int getHeight(yarnwrap.util.math.random.Random random, ) { return net.minecraft.world.gen.feature.HugeMushroomFeature.getHeight(random.wrapperContained); }
+// public void generateStem(yarnwrap.world.WorldAccess world,Object pos,yarnwrap.block.BlockState state) { wrapperContained.generateStem(world.wrapperContained,pos,state.wrapperContained); }
+// public static void generateStem(yarnwrap.world.WorldAccess world,Object pos,yarnwrap.block.BlockState state, ) { net.minecraft.world.gen.feature.HugeMushroomFeature.generateStem(world.wrapperContained,pos,state.wrapperContained); }
 
 }

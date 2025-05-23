@@ -1,0 +1,42 @@
+package yarnwrap.client.data;
+public class BlockStateVariantMap { public net.minecraft.client.data.BlockStateVariantMap wrapperContained; public BlockStateVariantMap(net.minecraft.client.data.BlockStateVariantMap wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public java.util.Map variants() { return wrapperContained.variants; }
+// public void variants(java.util.Map value) { wrapperContained.variants = value; }
+// public static java.util.Map variants() { return net.minecraft.client.data.BlockStateVariantMap.variants; }
+// public static void variants(java.util.Map value, ) { net.minecraft.client.data.BlockStateVariantMap.variants = value; }
+
+// public java.util.Map getVariants() { return wrapperContained.getVariants(); }
+// public static java.util.Map getVariants() { return net.minecraft.client.data.BlockStateVariantMap.getVariants(); }
+// public java.util.stream.Stream method_25788(yarnwrap.state.property.Property propertiesMap) { return wrapperContained.method_25788(propertiesMap.wrapperContained); }
+// public static java.util.stream.Stream method_25788(yarnwrap.state.property.Property propertiesMap, ) { return net.minecraft.client.data.BlockStateVariantMap.method_25788(propertiesMap.wrapperContained); }
+// public boolean method_25789(yarnwrap.client.data.PropertiesMap propertiesMap) { return wrapperContained.method_25789(propertiesMap.wrapperContained); }
+// public static boolean method_25789(yarnwrap.client.data.PropertiesMap propertiesMap, ) { return net.minecraft.client.data.BlockStateVariantMap.method_25789(propertiesMap.wrapperContained); }
+// public void register(yarnwrap.client.data.PropertiesMap properties,java.lang.Object variant) { wrapperContained.register(properties.wrapperContained,variant); }
+// public static void register(yarnwrap.client.data.PropertiesMap properties,java.lang.Object variant, ) { net.minecraft.client.data.BlockStateVariantMap.register(properties.wrapperContained,variant); }
+// public java.util.List getProperties() { return wrapperContained.getProperties(); }
+// public static java.util.List getProperties() { return net.minecraft.client.data.BlockStateVariantMap.getProperties(); }
+// public void validate() { wrapperContained.validate(); }
+// public static void validate() { net.minecraft.client.data.BlockStateVariantMap.validate(); }
+// public Object models(yarnwrap.state.property.Property property) { return wrapperContained.models(property.wrapperContained); }
+// public static Object models(yarnwrap.state.property.Property property, ) { return net.minecraft.client.data.BlockStateVariantMap.models(property.wrapperContained); }
+// public Object models(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2) { return wrapperContained.models(property1.wrapperContained,property2.wrapperContained); }
+// public static Object models(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2, ) { return net.minecraft.client.data.BlockStateVariantMap.models(property1.wrapperContained,property2.wrapperContained); }
+// public Object models(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3) { return wrapperContained.models(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained); }
+// public static Object models(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3, ) { return net.minecraft.client.data.BlockStateVariantMap.models(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained); }
+// public Object models(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3,yarnwrap.state.property.Property property4) { return wrapperContained.models(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained,property4.wrapperContained); }
+// public static Object models(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3,yarnwrap.state.property.Property property4, ) { return net.minecraft.client.data.BlockStateVariantMap.models(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained,property4.wrapperContained); }
+// public Object models(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3,yarnwrap.state.property.Property property4,yarnwrap.state.property.Property property5) { return wrapperContained.models(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained,property4.wrapperContained,property5.wrapperContained); }
+// public static Object models(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3,yarnwrap.state.property.Property property4,yarnwrap.state.property.Property property5, ) { return net.minecraft.client.data.BlockStateVariantMap.models(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained,property4.wrapperContained,property5.wrapperContained); }
+// public Object operations(yarnwrap.state.property.Property property) { return wrapperContained.operations(property.wrapperContained); }
+// public static Object operations(yarnwrap.state.property.Property property, ) { return net.minecraft.client.data.BlockStateVariantMap.operations(property.wrapperContained); }
+// public Object operations(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2) { return wrapperContained.operations(property1.wrapperContained,property2.wrapperContained); }
+// public static Object operations(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2, ) { return net.minecraft.client.data.BlockStateVariantMap.operations(property1.wrapperContained,property2.wrapperContained); }
+// public Object operations(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3) { return wrapperContained.operations(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained); }
+// public static Object operations(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3, ) { return net.minecraft.client.data.BlockStateVariantMap.operations(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained); }
+// public Object operations(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3,yarnwrap.state.property.Property property4) { return wrapperContained.operations(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained,property4.wrapperContained); }
+// public static Object operations(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3,yarnwrap.state.property.Property property4, ) { return net.minecraft.client.data.BlockStateVariantMap.operations(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained,property4.wrapperContained); }
+// public Object operations(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3,yarnwrap.state.property.Property property4,yarnwrap.state.property.Property property5) { return wrapperContained.operations(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained,property4.wrapperContained,property5.wrapperContained); }
+// public static Object operations(yarnwrap.state.property.Property property1,yarnwrap.state.property.Property property2,yarnwrap.state.property.Property property3,yarnwrap.state.property.Property property4,yarnwrap.state.property.Property property5, ) { return net.minecraft.client.data.BlockStateVariantMap.operations(property1.wrapperContained,property2.wrapperContained,property3.wrapperContained,property4.wrapperContained,property5.wrapperContained); }
+
+}

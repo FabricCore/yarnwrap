@@ -154,5 +154,9 @@ public void setPlayerOffline(java.util.UUID uuid) { wrapperContained.setPlayerOf
 // public static int getSearchBoxX() { return net.minecraft.client.gui.screen.multiplayer.SocialInteractionsScreen.getSearchBoxX(); }
 // public void method_31396(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_31396(button.wrapperContained); }
 // public static void method_31396(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsScreen.method_31396(button.wrapperContained); }
+// public void method_57765(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_57765(button.wrapperContained); }
+// public static void method_57765(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsScreen.method_57765(button.wrapperContained); }
+// public void method_57766(yarnwrap.client.gui.screen.multiplayer.SocialInteractionsScreen child) { wrapperContained.method_57766(child.wrapperContained); }
+// public static void method_57766(yarnwrap.client.gui.screen.multiplayer.SocialInteractionsScreen child, ) { net.minecraft.client.gui.screen.multiplayer.SocialInteractionsScreen.method_57766(child.wrapperContained); }
 
 }

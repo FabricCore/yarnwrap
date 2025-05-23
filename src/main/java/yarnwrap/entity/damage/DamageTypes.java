@@ -236,6 +236,16 @@ public static yarnwrap.registry.RegistryKey WIND_CHARGE() { return new yarnwrap.
 public static yarnwrap.registry.RegistryKey CAMPFIRE() { return new yarnwrap.registry.RegistryKey(net.minecraft.entity.damage.DamageTypes.CAMPFIRE); }
 // public static void CAMPFIRE(yarnwrap.registry.RegistryKey value, ) { net.minecraft.entity.damage.DamageTypes.CAMPFIRE = value.wrapperContained; }
 
+// public yarnwrap.registry.RegistryKey MACE_SMASH() { return new yarnwrap.registry.RegistryKey(wrapperContained.MACE_SMASH); }
+// public void MACE_SMASH(yarnwrap.registry.RegistryKey value) { wrapperContained.MACE_SMASH = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey MACE_SMASH() { return new yarnwrap.registry.RegistryKey(net.minecraft.entity.damage.DamageTypes.MACE_SMASH); }
+// public static void MACE_SMASH(yarnwrap.registry.RegistryKey value, ) { net.minecraft.entity.damage.DamageTypes.MACE_SMASH = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey ENDER_PEARL() { return new yarnwrap.registry.RegistryKey(wrapperContained.ENDER_PEARL); }
+// public void ENDER_PEARL(yarnwrap.registry.RegistryKey value) { wrapperContained.ENDER_PEARL = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey ENDER_PEARL() { return new yarnwrap.registry.RegistryKey(net.minecraft.entity.damage.DamageTypes.ENDER_PEARL); }
+// public static void ENDER_PEARL(yarnwrap.registry.RegistryKey value, ) { net.minecraft.entity.damage.DamageTypes.ENDER_PEARL = value.wrapperContained; }
+
 // public void bootstrap(yarnwrap.registry.Registerable damageTypeRegisterable) { wrapperContained.bootstrap(damageTypeRegisterable.wrapperContained); }
 // public static void bootstrap(yarnwrap.registry.Registerable damageTypeRegisterable, ) { net.minecraft.entity.damage.DamageTypes.bootstrap(damageTypeRegisterable.wrapperContained); }
 

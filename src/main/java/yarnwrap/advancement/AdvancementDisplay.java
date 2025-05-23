@@ -62,8 +62,6 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.advancement.AdvancementDisplay.PACKET_CODEC = value.wrapperContained; }
 
 public AdvancementDisplay(yarnwrap.item.ItemStack icon,yarnwrap.text.Text title,yarnwrap.text.Text description,java.util.Optional background,yarnwrap.advancement.AdvancementFrame frame,boolean showToast,boolean announceToChat,boolean hidden) { this.wrapperContained = new net.minecraft.advancement.AdvancementDisplay(icon.wrapperContained,title.wrapperContained,description.wrapperContained,background,frame.wrapperContained,showToast,announceToChat,hidden); }
-// public com.mojang.datafixers.kinds.App method_54939(Object instance) { return wrapperContained.method_54939(instance); }
-// public static com.mojang.datafixers.kinds.App method_54939(Object instance, ) { return net.minecraft.advancement.AdvancementDisplay.method_54939(instance); }
 public boolean shouldAnnounceToChat() { return wrapperContained.shouldAnnounceToChat(); }
 // public static boolean shouldAnnounceToChat() { return net.minecraft.advancement.AdvancementDisplay.shouldAnnounceToChat(); }
 public yarnwrap.text.Text getTitle() { return new yarnwrap.text.Text(wrapperContained.getTitle()); }
@@ -90,5 +88,7 @@ public boolean shouldShowToast() { return wrapperContained.shouldShowToast(); }
 // public static boolean shouldShowToast() { return net.minecraft.advancement.AdvancementDisplay.shouldShowToast(); }
 public boolean isHidden() { return wrapperContained.isHidden(); }
 // public static boolean isHidden() { return net.minecraft.advancement.AdvancementDisplay.isHidden(); }
+// public com.mojang.datafixers.kinds.App method_54939(Object instance) { return wrapperContained.method_54939(instance); }
+// public static com.mojang.datafixers.kinds.App method_54939(Object instance, ) { return net.minecraft.advancement.AdvancementDisplay.method_54939(instance); }
 
 }

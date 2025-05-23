@@ -6,7 +6,6 @@ public class EntityZombieVillagerTypeFix { public net.minecraft.datafixer.fix.En
 // public static int TYPE_COUNT() { return net.minecraft.datafixer.fix.EntityZombieVillagerTypeFix.TYPE_COUNT; }
 // public static void TYPE_COUNT(int value, ) { net.minecraft.datafixer.fix.EntityZombieVillagerTypeFix.TYPE_COUNT = value; }
 
-public EntityZombieVillagerTypeFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityZombieVillagerTypeFix(outputSchema,changesType); }
 public com.mojang.serialization.Dynamic fixZombieType(com.mojang.serialization.Dynamic zombieDynamic) { return wrapperContained.fixZombieType(zombieDynamic); }
 // public static com.mojang.serialization.Dynamic fixZombieType(com.mojang.serialization.Dynamic zombieDynamic, ) { return net.minecraft.datafixer.fix.EntityZombieVillagerTypeFix.fixZombieType(zombieDynamic); }
 // public int clampType(int type) { return wrapperContained.clampType(type); }

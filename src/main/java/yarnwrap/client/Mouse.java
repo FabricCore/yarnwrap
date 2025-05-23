@@ -76,16 +76,6 @@ public class Mouse { public net.minecraft.client.Mouse wrapperContained; public 
 // public static double x() { return net.minecraft.client.Mouse.x; }
 // public static void x(double value, ) { net.minecraft.client.Mouse.x = value; }
 
-// public double eventDeltaHorizontalWheel() { return wrapperContained.eventDeltaHorizontalWheel; }
-// public void eventDeltaHorizontalWheel(double value) { wrapperContained.eventDeltaHorizontalWheel = value; }
-// public static double eventDeltaHorizontalWheel() { return net.minecraft.client.Mouse.eventDeltaHorizontalWheel; }
-// public static void eventDeltaHorizontalWheel(double value, ) { net.minecraft.client.Mouse.eventDeltaHorizontalWheel = value; }
-
-// public double eventDeltaVerticalWheel() { return wrapperContained.eventDeltaVerticalWheel; }
-// public void eventDeltaVerticalWheel(double value) { wrapperContained.eventDeltaVerticalWheel = value; }
-// public static double eventDeltaVerticalWheel() { return net.minecraft.client.Mouse.eventDeltaVerticalWheel; }
-// public static void eventDeltaVerticalWheel(double value, ) { net.minecraft.client.Mouse.eventDeltaVerticalWheel = value; }
-
 // public double lastTickTime() { return wrapperContained.lastTickTime; }
 // public void lastTickTime(double value) { wrapperContained.lastTickTime = value; }
 // public static double lastTickTime() { return net.minecraft.client.Mouse.lastTickTime; }
@@ -95,6 +85,11 @@ public class Mouse { public net.minecraft.client.Mouse wrapperContained; public 
 // public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.client.Mouse.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.Mouse.LOGGER = value; }
+
+// public yarnwrap.client.input.Scroller scroller() { return new yarnwrap.client.input.Scroller(wrapperContained.scroller); }
+// public void scroller(yarnwrap.client.input.Scroller value) { wrapperContained.scroller = value.wrapperContained; }
+// public static yarnwrap.client.input.Scroller scroller() { return new yarnwrap.client.input.Scroller(net.minecraft.client.Mouse.scroller); }
+// public static void scroller(yarnwrap.client.input.Scroller value, ) { net.minecraft.client.Mouse.scroller = value.wrapperContained; }
 
 public Mouse(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.Mouse(client.wrapperContained); }
 // public void onMouseScroll(long window,double horizontal,double vertical) { wrapperContained.onMouseScroll(window,horizontal,vertical); }
@@ -139,5 +134,17 @@ public boolean wasMiddleButtonClicked() { return wrapperContained.wasMiddleButto
 // public static boolean wasMiddleButtonClicked() { return net.minecraft.client.Mouse.wasMiddleButtonClicked(); }
 public void tick() { wrapperContained.tick(); }
 // public static void tick() { net.minecraft.client.Mouse.tick(); }
+public double getScaledX(yarnwrap.client.util.Window window) { return wrapperContained.getScaledX(window.wrapperContained); }
+// public static double getScaledX(yarnwrap.client.util.Window window, ) { return net.minecraft.client.Mouse.getScaledX(window.wrapperContained); }
+// public double scaleX(yarnwrap.client.util.Window window,double x) { return wrapperContained.scaleX(window.wrapperContained,x); }
+// public static double scaleX(yarnwrap.client.util.Window window,double x, ) { return net.minecraft.client.Mouse.scaleX(window.wrapperContained,x); }
+public void drawScaledPos(yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.client.gui.DrawContext context) { wrapperContained.drawScaledPos(textRenderer.wrapperContained,context.wrapperContained); }
+// public static void drawScaledPos(yarnwrap.client.font.TextRenderer textRenderer,yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.Mouse.drawScaledPos(textRenderer.wrapperContained,context.wrapperContained); }
+public void addCrashReportSection(yarnwrap.util.crash.CrashReportSection section,yarnwrap.client.util.Window window) { wrapperContained.addCrashReportSection(section.wrapperContained,window.wrapperContained); }
+// public static void addCrashReportSection(yarnwrap.util.crash.CrashReportSection section,yarnwrap.client.util.Window window, ) { net.minecraft.client.Mouse.addCrashReportSection(section.wrapperContained,window.wrapperContained); }
+public double getScaledY(yarnwrap.client.util.Window window) { return wrapperContained.getScaledY(window.wrapperContained); }
+// public static double getScaledY(yarnwrap.client.util.Window window, ) { return net.minecraft.client.Mouse.getScaledY(window.wrapperContained); }
+// public double scaleY(yarnwrap.client.util.Window window,double y) { return wrapperContained.scaleY(window.wrapperContained,y); }
+// public static double scaleY(yarnwrap.client.util.Window window,double y, ) { return net.minecraft.client.Mouse.scaleY(window.wrapperContained,y); }
 
 }

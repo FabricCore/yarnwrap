@@ -137,20 +137,6 @@ public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType UNKNOW
 // public static void allowSnbt(boolean value, ) { net.minecraft.command.argument.BlockArgumentParser.allowSnbt = value; }
 
 // public BlockArgumentParser(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowTag,boolean allowSnbt) { this.wrapperContained = new net.minecraft.command.argument.BlockArgumentParser(registryWrapper.wrapperContained,reader,allowTag,allowSnbt); }
-// public Object block(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowSnbt) { return wrapperContained.block(registryWrapper.wrapperContained,reader,allowSnbt); }
-// public static Object block(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowSnbt, ) { return net.minecraft.command.argument.BlockArgumentParser.block(registryWrapper.wrapperContained,reader,allowSnbt); }
-// public Object block(yarnwrap.registry.RegistryWrapper registryWrapper,java.lang.String string,boolean allowSnbt) { return wrapperContained.block(registryWrapper.wrapperContained,string,allowSnbt); }
-// public static Object block(yarnwrap.registry.RegistryWrapper registryWrapper,java.lang.String string,boolean allowSnbt, ) { return net.minecraft.command.argument.BlockArgumentParser.block(registryWrapper.wrapperContained,string,allowSnbt); }
-// public com.mojang.brigadier.Message method_41958(java.lang.Object tag) { return wrapperContained.method_41958(tag); }
-// public static com.mojang.brigadier.Message method_41958(java.lang.Object tag, ) { return net.minecraft.command.argument.BlockArgumentParser.method_41958(tag); }
-// public java.lang.String method_41959(yarnwrap.registry.RegistryKey key) { return wrapperContained.method_41959(key.wrapperContained); }
-// public static java.lang.String method_41959(yarnwrap.registry.RegistryKey key, ) { return net.minecraft.command.argument.BlockArgumentParser.method_41959(key.wrapperContained); }
-// public com.mojang.datafixers.util.Either blockOrTag(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowSnbt) { return wrapperContained.blockOrTag(registryWrapper.wrapperContained,reader,allowSnbt); }
-// public static com.mojang.datafixers.util.Either blockOrTag(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowSnbt, ) { return net.minecraft.command.argument.BlockArgumentParser.blockOrTag(registryWrapper.wrapperContained,reader,allowSnbt); }
-// public com.mojang.datafixers.util.Either blockOrTag(yarnwrap.registry.RegistryWrapper registryWrapper,java.lang.String string,boolean allowSnbt) { return wrapperContained.blockOrTag(registryWrapper.wrapperContained,string,allowSnbt); }
-// public static com.mojang.datafixers.util.Either blockOrTag(yarnwrap.registry.RegistryWrapper registryWrapper,java.lang.String string,boolean allowSnbt, ) { return net.minecraft.command.argument.BlockArgumentParser.blockOrTag(registryWrapper.wrapperContained,string,allowSnbt); }
-// public java.util.concurrent.CompletableFuture suggestBlockId(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestBlockId(builder); }
-// public static java.util.concurrent.CompletableFuture suggestBlockId(com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.command.argument.BlockArgumentParser.suggestBlockId(builder); }
 // public void parseBlockProperties() { wrapperContained.parseBlockProperties(); }
 // public static void parseBlockProperties() { net.minecraft.command.argument.BlockArgumentParser.parseBlockProperties(); }
 // public com.mojang.brigadier.Message method_9660(java.lang.Object block,java.lang.Object property,java.lang.Object value) { return wrapperContained.method_9660(block,property,value); }
@@ -213,5 +199,19 @@ public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType UNKNOW
 // public static com.mojang.brigadier.Message method_9691(java.lang.Object block,java.lang.Object property, ) { return net.minecraft.command.argument.BlockArgumentParser.method_9691(block,property); }
 // public java.util.concurrent.CompletableFuture suggestEqualsCharacter(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestEqualsCharacter(builder); }
 // public static java.util.concurrent.CompletableFuture suggestEqualsCharacter(com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.command.argument.BlockArgumentParser.suggestEqualsCharacter(builder); }
+// public Object block(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowSnbt) { return wrapperContained.block(registryWrapper.wrapperContained,reader,allowSnbt); }
+// public static Object block(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowSnbt, ) { return net.minecraft.command.argument.BlockArgumentParser.block(registryWrapper.wrapperContained,reader,allowSnbt); }
+// public Object block(yarnwrap.registry.RegistryWrapper registryWrapper,java.lang.String string,boolean allowSnbt) { return wrapperContained.block(registryWrapper.wrapperContained,string,allowSnbt); }
+// public static Object block(yarnwrap.registry.RegistryWrapper registryWrapper,java.lang.String string,boolean allowSnbt, ) { return net.minecraft.command.argument.BlockArgumentParser.block(registryWrapper.wrapperContained,string,allowSnbt); }
+// public com.mojang.brigadier.Message method_41958(java.lang.Object tag) { return wrapperContained.method_41958(tag); }
+// public static com.mojang.brigadier.Message method_41958(java.lang.Object tag, ) { return net.minecraft.command.argument.BlockArgumentParser.method_41958(tag); }
+// public java.lang.String method_41959(yarnwrap.registry.RegistryKey key) { return wrapperContained.method_41959(key.wrapperContained); }
+// public static java.lang.String method_41959(yarnwrap.registry.RegistryKey key, ) { return net.minecraft.command.argument.BlockArgumentParser.method_41959(key.wrapperContained); }
+// public com.mojang.datafixers.util.Either blockOrTag(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowSnbt) { return wrapperContained.blockOrTag(registryWrapper.wrapperContained,reader,allowSnbt); }
+// public static com.mojang.datafixers.util.Either blockOrTag(yarnwrap.registry.RegistryWrapper registryWrapper,com.mojang.brigadier.StringReader reader,boolean allowSnbt, ) { return net.minecraft.command.argument.BlockArgumentParser.blockOrTag(registryWrapper.wrapperContained,reader,allowSnbt); }
+// public com.mojang.datafixers.util.Either blockOrTag(yarnwrap.registry.RegistryWrapper registryWrapper,java.lang.String string,boolean allowSnbt) { return wrapperContained.blockOrTag(registryWrapper.wrapperContained,string,allowSnbt); }
+// public static com.mojang.datafixers.util.Either blockOrTag(yarnwrap.registry.RegistryWrapper registryWrapper,java.lang.String string,boolean allowSnbt, ) { return net.minecraft.command.argument.BlockArgumentParser.blockOrTag(registryWrapper.wrapperContained,string,allowSnbt); }
+// public java.util.concurrent.CompletableFuture suggestBlockId(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.suggestBlockId(builder); }
+// public static java.util.concurrent.CompletableFuture suggestBlockId(com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.command.argument.BlockArgumentParser.suggestBlockId(builder); }
 
 }

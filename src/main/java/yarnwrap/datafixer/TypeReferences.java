@@ -1,81 +1,6 @@
 package yarnwrap.datafixer;
 public class TypeReferences { public net.minecraft.datafixer.TypeReferences wrapperContained; public TypeReferences(net.minecraft.datafixer.TypeReferences wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public Object POI_CHUNK() { return wrapperContained.POI_CHUNK; }
-// // public void POI_CHUNK(Object value) { wrapperContained.POI_CHUNK = value; }
-// public static Object POI_CHUNK() { return net.minecraft.datafixer.TypeReferences.POI_CHUNK; }
-// // public static void POI_CHUNK(Object value, ) { net.minecraft.datafixer.TypeReferences.POI_CHUNK = value; }
-
-// public Object WORLD_GEN_SETTINGS() { return wrapperContained.WORLD_GEN_SETTINGS; }
-// // public void WORLD_GEN_SETTINGS(Object value) { wrapperContained.WORLD_GEN_SETTINGS = value; }
-// public static Object WORLD_GEN_SETTINGS() { return net.minecraft.datafixer.TypeReferences.WORLD_GEN_SETTINGS; }
-// // public static void WORLD_GEN_SETTINGS(Object value, ) { net.minecraft.datafixer.TypeReferences.WORLD_GEN_SETTINGS = value; }
-
-// public Object ENTITY_CHUNK() { return wrapperContained.ENTITY_CHUNK; }
-// // public void ENTITY_CHUNK(Object value) { wrapperContained.ENTITY_CHUNK = value; }
-// public static Object ENTITY_CHUNK() { return net.minecraft.datafixer.TypeReferences.ENTITY_CHUNK; }
-// // public static void ENTITY_CHUNK(Object value, ) { net.minecraft.datafixer.TypeReferences.ENTITY_CHUNK = value; }
-
-// public Object GAME_EVENT_NAME() { return wrapperContained.GAME_EVENT_NAME; }
-// // public void GAME_EVENT_NAME(Object value) { wrapperContained.GAME_EVENT_NAME = value; }
-// public static Object GAME_EVENT_NAME() { return net.minecraft.datafixer.TypeReferences.GAME_EVENT_NAME; }
-// // public static void GAME_EVENT_NAME(Object value, ) { net.minecraft.datafixer.TypeReferences.GAME_EVENT_NAME = value; }
-
-// public Object MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST() { return wrapperContained.MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST; }
-// // public void MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST(Object value) { wrapperContained.MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST = value; }
-// public static Object MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST() { return net.minecraft.datafixer.TypeReferences.MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST; }
-// // public static void MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST(Object value, ) { net.minecraft.datafixer.TypeReferences.MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST = value; }
-
-// public Object SAVED_DATA_COMMAND_STORAGE() { return wrapperContained.SAVED_DATA_COMMAND_STORAGE; }
-// // public void SAVED_DATA_COMMAND_STORAGE(Object value) { wrapperContained.SAVED_DATA_COMMAND_STORAGE = value; }
-// public static Object SAVED_DATA_COMMAND_STORAGE() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_COMMAND_STORAGE; }
-// // public static void SAVED_DATA_COMMAND_STORAGE(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_COMMAND_STORAGE = value; }
-
-// public Object SAVED_DATA_CHUNKS() { return wrapperContained.SAVED_DATA_CHUNKS; }
-// // public void SAVED_DATA_CHUNKS(Object value) { wrapperContained.SAVED_DATA_CHUNKS = value; }
-// public static Object SAVED_DATA_CHUNKS() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_CHUNKS; }
-// // public static void SAVED_DATA_CHUNKS(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_CHUNKS = value; }
-
-// public Object SAVED_DATA_MAP_DATA() { return wrapperContained.SAVED_DATA_MAP_DATA; }
-// // public void SAVED_DATA_MAP_DATA(Object value) { wrapperContained.SAVED_DATA_MAP_DATA = value; }
-// public static Object SAVED_DATA_MAP_DATA() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_MAP_DATA; }
-// // public static void SAVED_DATA_MAP_DATA(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_MAP_DATA = value; }
-
-// public Object SAVED_DATA_IDCOUNTS() { return wrapperContained.SAVED_DATA_IDCOUNTS; }
-// // public void SAVED_DATA_IDCOUNTS(Object value) { wrapperContained.SAVED_DATA_IDCOUNTS = value; }
-// public static Object SAVED_DATA_IDCOUNTS() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_IDCOUNTS; }
-// // public static void SAVED_DATA_IDCOUNTS(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_IDCOUNTS = value; }
-
-// public Object SAVED_DATA_RAIDS() { return wrapperContained.SAVED_DATA_RAIDS; }
-// // public void SAVED_DATA_RAIDS(Object value) { wrapperContained.SAVED_DATA_RAIDS = value; }
-// public static Object SAVED_DATA_RAIDS() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_RAIDS; }
-// // public static void SAVED_DATA_RAIDS(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_RAIDS = value; }
-
-// public Object SAVED_DATA_RANDOM_SEQUENCES() { return wrapperContained.SAVED_DATA_RANDOM_SEQUENCES; }
-// // public void SAVED_DATA_RANDOM_SEQUENCES(Object value) { wrapperContained.SAVED_DATA_RANDOM_SEQUENCES = value; }
-// public static Object SAVED_DATA_RANDOM_SEQUENCES() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_RANDOM_SEQUENCES; }
-// // public static void SAVED_DATA_RANDOM_SEQUENCES(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_RANDOM_SEQUENCES = value; }
-
-// public Object SAVED_DATA_STRUCTURE_FEATURE_INDICES() { return wrapperContained.SAVED_DATA_STRUCTURE_FEATURE_INDICES; }
-// // public void SAVED_DATA_STRUCTURE_FEATURE_INDICES(Object value) { wrapperContained.SAVED_DATA_STRUCTURE_FEATURE_INDICES = value; }
-// public static Object SAVED_DATA_STRUCTURE_FEATURE_INDICES() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_STRUCTURE_FEATURE_INDICES; }
-// // public static void SAVED_DATA_STRUCTURE_FEATURE_INDICES(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_STRUCTURE_FEATURE_INDICES = value; }
-
-// public Object SAVED_DATA_SCOREBOARD() { return wrapperContained.SAVED_DATA_SCOREBOARD; }
-// // public void SAVED_DATA_SCOREBOARD(Object value) { wrapperContained.SAVED_DATA_SCOREBOARD = value; }
-// public static Object SAVED_DATA_SCOREBOARD() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_SCOREBOARD; }
-// // public static void SAVED_DATA_SCOREBOARD(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_SCOREBOARD = value; }
-
-// public Object FLAT_BLOCK_STATE() { return wrapperContained.FLAT_BLOCK_STATE; }
-// // public void FLAT_BLOCK_STATE(Object value) { wrapperContained.FLAT_BLOCK_STATE = value; }
-// public static Object FLAT_BLOCK_STATE() { return net.minecraft.datafixer.TypeReferences.FLAT_BLOCK_STATE; }
-// // public static void FLAT_BLOCK_STATE(Object value, ) { net.minecraft.datafixer.TypeReferences.FLAT_BLOCK_STATE = value; }
-
-// public Object DATA_COMPONENTS() { return wrapperContained.DATA_COMPONENTS; }
-// // public void DATA_COMPONENTS(Object value) { wrapperContained.DATA_COMPONENTS = value; }
-// public static Object DATA_COMPONENTS() { return net.minecraft.datafixer.TypeReferences.DATA_COMPONENTS; }
-// // public static void DATA_COMPONENTS(Object value, ) { net.minecraft.datafixer.TypeReferences.DATA_COMPONENTS = value; }
-
 // public Object LEVEL() { return wrapperContained.LEVEL; }
 // // public void LEVEL(Object value) { wrapperContained.LEVEL = value; }
 // public static Object LEVEL() { return net.minecraft.datafixer.TypeReferences.LEVEL; }
@@ -185,6 +110,76 @@ public class TypeReferences { public net.minecraft.datafixer.TypeReferences wrap
 // // public void BLOCK_NAME(Object value) { wrapperContained.BLOCK_NAME = value; }
 // public static Object BLOCK_NAME() { return net.minecraft.datafixer.TypeReferences.BLOCK_NAME; }
 // // public static void BLOCK_NAME(Object value, ) { net.minecraft.datafixer.TypeReferences.BLOCK_NAME = value; }
+
+// public Object POI_CHUNK() { return wrapperContained.POI_CHUNK; }
+// // public void POI_CHUNK(Object value) { wrapperContained.POI_CHUNK = value; }
+// public static Object POI_CHUNK() { return net.minecraft.datafixer.TypeReferences.POI_CHUNK; }
+// // public static void POI_CHUNK(Object value, ) { net.minecraft.datafixer.TypeReferences.POI_CHUNK = value; }
+
+// public Object WORLD_GEN_SETTINGS() { return wrapperContained.WORLD_GEN_SETTINGS; }
+// // public void WORLD_GEN_SETTINGS(Object value) { wrapperContained.WORLD_GEN_SETTINGS = value; }
+// public static Object WORLD_GEN_SETTINGS() { return net.minecraft.datafixer.TypeReferences.WORLD_GEN_SETTINGS; }
+// // public static void WORLD_GEN_SETTINGS(Object value, ) { net.minecraft.datafixer.TypeReferences.WORLD_GEN_SETTINGS = value; }
+
+// public Object ENTITY_CHUNK() { return wrapperContained.ENTITY_CHUNK; }
+// // public void ENTITY_CHUNK(Object value) { wrapperContained.ENTITY_CHUNK = value; }
+// public static Object ENTITY_CHUNK() { return net.minecraft.datafixer.TypeReferences.ENTITY_CHUNK; }
+// // public static void ENTITY_CHUNK(Object value, ) { net.minecraft.datafixer.TypeReferences.ENTITY_CHUNK = value; }
+
+// public Object GAME_EVENT_NAME() { return wrapperContained.GAME_EVENT_NAME; }
+// // public void GAME_EVENT_NAME(Object value) { wrapperContained.GAME_EVENT_NAME = value; }
+// public static Object GAME_EVENT_NAME() { return net.minecraft.datafixer.TypeReferences.GAME_EVENT_NAME; }
+// // public static void GAME_EVENT_NAME(Object value, ) { net.minecraft.datafixer.TypeReferences.GAME_EVENT_NAME = value; }
+
+// public Object MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST() { return wrapperContained.MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST; }
+// // public void MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST(Object value) { wrapperContained.MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST = value; }
+// public static Object MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST() { return net.minecraft.datafixer.TypeReferences.MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST; }
+// // public static void MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST(Object value, ) { net.minecraft.datafixer.TypeReferences.MULTI_NOISE_BIOME_SOURCE_PARAMETER_LIST = value; }
+
+// public Object SAVED_DATA_COMMAND_STORAGE() { return wrapperContained.SAVED_DATA_COMMAND_STORAGE; }
+// // public void SAVED_DATA_COMMAND_STORAGE(Object value) { wrapperContained.SAVED_DATA_COMMAND_STORAGE = value; }
+// public static Object SAVED_DATA_COMMAND_STORAGE() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_COMMAND_STORAGE; }
+// // public static void SAVED_DATA_COMMAND_STORAGE(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_COMMAND_STORAGE = value; }
+
+// public Object SAVED_DATA_MAP_DATA() { return wrapperContained.SAVED_DATA_MAP_DATA; }
+// // public void SAVED_DATA_MAP_DATA(Object value) { wrapperContained.SAVED_DATA_MAP_DATA = value; }
+// public static Object SAVED_DATA_MAP_DATA() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_MAP_DATA; }
+// // public static void SAVED_DATA_MAP_DATA(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_MAP_DATA = value; }
+
+// public Object SAVED_DATA_IDCOUNTS() { return wrapperContained.SAVED_DATA_IDCOUNTS; }
+// // public void SAVED_DATA_IDCOUNTS(Object value) { wrapperContained.SAVED_DATA_IDCOUNTS = value; }
+// public static Object SAVED_DATA_IDCOUNTS() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_IDCOUNTS; }
+// // public static void SAVED_DATA_IDCOUNTS(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_IDCOUNTS = value; }
+
+// public Object SAVED_DATA_RAIDS() { return wrapperContained.SAVED_DATA_RAIDS; }
+// // public void SAVED_DATA_RAIDS(Object value) { wrapperContained.SAVED_DATA_RAIDS = value; }
+// public static Object SAVED_DATA_RAIDS() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_RAIDS; }
+// // public static void SAVED_DATA_RAIDS(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_RAIDS = value; }
+
+// public Object SAVED_DATA_RANDOM_SEQUENCES() { return wrapperContained.SAVED_DATA_RANDOM_SEQUENCES; }
+// // public void SAVED_DATA_RANDOM_SEQUENCES(Object value) { wrapperContained.SAVED_DATA_RANDOM_SEQUENCES = value; }
+// public static Object SAVED_DATA_RANDOM_SEQUENCES() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_RANDOM_SEQUENCES; }
+// // public static void SAVED_DATA_RANDOM_SEQUENCES(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_RANDOM_SEQUENCES = value; }
+
+// public Object SAVED_DATA_STRUCTURE_FEATURE_INDICES() { return wrapperContained.SAVED_DATA_STRUCTURE_FEATURE_INDICES; }
+// // public void SAVED_DATA_STRUCTURE_FEATURE_INDICES(Object value) { wrapperContained.SAVED_DATA_STRUCTURE_FEATURE_INDICES = value; }
+// public static Object SAVED_DATA_STRUCTURE_FEATURE_INDICES() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_STRUCTURE_FEATURE_INDICES; }
+// // public static void SAVED_DATA_STRUCTURE_FEATURE_INDICES(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_STRUCTURE_FEATURE_INDICES = value; }
+
+// public Object SAVED_DATA_SCOREBOARD() { return wrapperContained.SAVED_DATA_SCOREBOARD; }
+// // public void SAVED_DATA_SCOREBOARD(Object value) { wrapperContained.SAVED_DATA_SCOREBOARD = value; }
+// public static Object SAVED_DATA_SCOREBOARD() { return net.minecraft.datafixer.TypeReferences.SAVED_DATA_SCOREBOARD; }
+// // public static void SAVED_DATA_SCOREBOARD(Object value, ) { net.minecraft.datafixer.TypeReferences.SAVED_DATA_SCOREBOARD = value; }
+
+// public Object FLAT_BLOCK_STATE() { return wrapperContained.FLAT_BLOCK_STATE; }
+// // public void FLAT_BLOCK_STATE(Object value) { wrapperContained.FLAT_BLOCK_STATE = value; }
+// public static Object FLAT_BLOCK_STATE() { return net.minecraft.datafixer.TypeReferences.FLAT_BLOCK_STATE; }
+// // public static void FLAT_BLOCK_STATE(Object value, ) { net.minecraft.datafixer.TypeReferences.FLAT_BLOCK_STATE = value; }
+
+// public Object DATA_COMPONENTS() { return wrapperContained.DATA_COMPONENTS; }
+// // public void DATA_COMPONENTS(Object value) { wrapperContained.DATA_COMPONENTS = value; }
+// public static Object DATA_COMPONENTS() { return net.minecraft.datafixer.TypeReferences.DATA_COMPONENTS; }
+// // public static void DATA_COMPONENTS(Object value, ) { net.minecraft.datafixer.TypeReferences.DATA_COMPONENTS = value; }
 
 // public Object create(java.lang.String typeName) { return wrapperContained.create(typeName); }
 // public static Object create(java.lang.String typeName, ) { return net.minecraft.datafixer.TypeReferences.create(typeName); }

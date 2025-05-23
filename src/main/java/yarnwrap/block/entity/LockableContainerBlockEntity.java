@@ -11,6 +11,8 @@ public class LockableContainerBlockEntity { public net.minecraft.block.entity.Lo
 // public static yarnwrap.text.Text customName() { return new yarnwrap.text.Text(net.minecraft.block.entity.LockableContainerBlockEntity.customName); }
 // public static void customName(yarnwrap.text.Text value, ) { net.minecraft.block.entity.LockableContainerBlockEntity.customName = value.wrapperContained; }
 
+// public yarnwrap.screen.ScreenHandler createScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { return new yarnwrap.screen.ScreenHandler(wrapperContained.createScreenHandler(syncId,playerInventory.wrapperContained)); }
+// public static yarnwrap.screen.ScreenHandler createScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory, ) { return new yarnwrap.screen.ScreenHandler(net.minecraft.block.entity.LockableContainerBlockEntity.createScreenHandler(syncId,playerInventory.wrapperContained)); }
 // public void setHeldStacks(yarnwrap.util.collection.DefaultedList inventory) { wrapperContained.setHeldStacks(inventory.wrapperContained); }
 // public static void setHeldStacks(yarnwrap.util.collection.DefaultedList inventory, ) { net.minecraft.block.entity.LockableContainerBlockEntity.setHeldStacks(inventory.wrapperContained); }
 // public yarnwrap.util.collection.DefaultedList getHeldStacks() { return new yarnwrap.util.collection.DefaultedList(wrapperContained.getHeldStacks()); }
@@ -21,7 +23,5 @@ public boolean checkUnlocked(yarnwrap.entity.player.PlayerEntity player) { retur
 // public static boolean checkUnlocked(yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.block.entity.LockableContainerBlockEntity.checkUnlocked(player.wrapperContained); }
 // public yarnwrap.text.Text getContainerName() { return new yarnwrap.text.Text(wrapperContained.getContainerName()); }
 // public static yarnwrap.text.Text getContainerName() { return new yarnwrap.text.Text(net.minecraft.block.entity.LockableContainerBlockEntity.getContainerName()); }
-// public yarnwrap.screen.ScreenHandler createScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { return new yarnwrap.screen.ScreenHandler(wrapperContained.createScreenHandler(syncId,playerInventory.wrapperContained)); }
-// public static yarnwrap.screen.ScreenHandler createScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory, ) { return new yarnwrap.screen.ScreenHandler(net.minecraft.block.entity.LockableContainerBlockEntity.createScreenHandler(syncId,playerInventory.wrapperContained)); }
 
 }

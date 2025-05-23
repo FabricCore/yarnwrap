@@ -1,11 +1,6 @@
 package yarnwrap.entity.decoration;
 public class InteractionEntity { public net.minecraft.entity.decoration.InteractionEntity wrapperContained; public InteractionEntity(net.minecraft.entity.decoration.InteractionEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.entity.decoration.InteractionEntity.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.entity.decoration.InteractionEntity.LOGGER = value; }
-
 // public yarnwrap.entity.data.TrackedData WIDTH() { return new yarnwrap.entity.data.TrackedData(wrapperContained.WIDTH); }
 // public void WIDTH(yarnwrap.entity.data.TrackedData value) { wrapperContained.WIDTH = value.wrapperContained; }
 // public static yarnwrap.entity.data.TrackedData WIDTH() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.decoration.InteractionEntity.WIDTH); }
@@ -56,16 +51,27 @@ public class InteractionEntity { public net.minecraft.entity.decoration.Interact
 // // public static Object interaction() { return net.minecraft.entity.decoration.InteractionEntity.interaction; }
 // // public static void interaction(Object value, ) { net.minecraft.entity.decoration.InteractionEntity.interaction = value; }
 
+// public float DEFAULT_WIDTH() { return wrapperContained.DEFAULT_WIDTH; }
+// public void DEFAULT_WIDTH(float value) { wrapperContained.DEFAULT_WIDTH = value; }
+// public static float DEFAULT_WIDTH() { return net.minecraft.entity.decoration.InteractionEntity.DEFAULT_WIDTH; }
+// public static void DEFAULT_WIDTH(float value, ) { net.minecraft.entity.decoration.InteractionEntity.DEFAULT_WIDTH = value; }
+
+// public float DEFAULT_HEIGHT() { return wrapperContained.DEFAULT_HEIGHT; }
+// public void DEFAULT_HEIGHT(float value) { wrapperContained.DEFAULT_HEIGHT = value; }
+// public static float DEFAULT_HEIGHT() { return net.minecraft.entity.decoration.InteractionEntity.DEFAULT_HEIGHT; }
+// public static void DEFAULT_HEIGHT(float value, ) { net.minecraft.entity.decoration.InteractionEntity.DEFAULT_HEIGHT = value; }
+
+// public boolean DEFAULT_RESPONSE() { return wrapperContained.DEFAULT_RESPONSE; }
+// public void DEFAULT_RESPONSE(boolean value) { wrapperContained.DEFAULT_RESPONSE = value; }
+// public static boolean DEFAULT_RESPONSE() { return net.minecraft.entity.decoration.InteractionEntity.DEFAULT_RESPONSE; }
+// public static void DEFAULT_RESPONSE(boolean value, ) { net.minecraft.entity.decoration.InteractionEntity.DEFAULT_RESPONSE = value; }
+
 public void setInteractionWidth(float width) { wrapperContained.setInteractionWidth(width); }
 // public static void setInteractionWidth(float width, ) { net.minecraft.entity.decoration.InteractionEntity.setInteractionWidth(width); }
-// public void method_49110(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_49110(pair); }
-// public static void method_49110(com.mojang.datafixers.util.Pair pair, ) { net.minecraft.entity.decoration.InteractionEntity.method_49110(pair); }
 public void setResponse(boolean response) { wrapperContained.setResponse(response); }
 // public static void setResponse(boolean response, ) { net.minecraft.entity.decoration.InteractionEntity.setResponse(response); }
 public void setInteractionHeight(float height) { wrapperContained.setInteractionHeight(height); }
 // public static void setInteractionHeight(float height, ) { net.minecraft.entity.decoration.InteractionEntity.setInteractionHeight(height); }
-// public void method_49114(com.mojang.datafixers.util.Pair pair) { wrapperContained.method_49114(pair); }
-// public static void method_49114(com.mojang.datafixers.util.Pair pair, ) { net.minecraft.entity.decoration.InteractionEntity.method_49114(pair); }
 public float getInteractionWidth() { return wrapperContained.getInteractionWidth(); }
 // public static float getInteractionWidth() { return net.minecraft.entity.decoration.InteractionEntity.getInteractionWidth(); }
 public float getInteractionHeight() { return wrapperContained.getInteractionHeight(); }

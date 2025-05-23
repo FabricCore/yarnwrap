@@ -16,10 +16,10 @@ public static yarnwrap.entity.ai.TargetPredicate DEFAULT() { return new yarnwrap
 // public static boolean useDistanceScalingFactor() { return net.minecraft.entity.ai.TargetPredicate.useDistanceScalingFactor; }
 // public static void useDistanceScalingFactor(boolean value, ) { net.minecraft.entity.ai.TargetPredicate.useDistanceScalingFactor = value; }
 
-// public java.util.function.Predicate predicate() { return wrapperContained.predicate; }
-// public void predicate(java.util.function.Predicate value) { wrapperContained.predicate = value; }
-// public static java.util.function.Predicate predicate() { return net.minecraft.entity.ai.TargetPredicate.predicate; }
-// public static void predicate(java.util.function.Predicate value, ) { net.minecraft.entity.ai.TargetPredicate.predicate = value; }
+// public Object predicate() { return wrapperContained.predicate; }
+// // public void predicate(Object value) { wrapperContained.predicate = value; }
+// // public static Object predicate() { return net.minecraft.entity.ai.TargetPredicate.predicate; }
+// // public static void predicate(Object value, ) { net.minecraft.entity.ai.TargetPredicate.predicate = value; }
 
 // public double MIN_DISTANCE() { return wrapperContained.MIN_DISTANCE; }
 // public void MIN_DISTANCE(double value) { wrapperContained.MIN_DISTANCE = value; }
@@ -39,10 +39,10 @@ public static yarnwrap.entity.ai.TargetPredicate DEFAULT() { return new yarnwrap
 // public TargetPredicate(boolean attackable) { this.wrapperContained = new net.minecraft.entity.ai.TargetPredicate(attackable); }
 public yarnwrap.entity.ai.TargetPredicate setBaseMaxDistance(double baseMaxDistance) { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.setBaseMaxDistance(baseMaxDistance)); }
 // public static yarnwrap.entity.ai.TargetPredicate setBaseMaxDistance(double baseMaxDistance, ) { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.TargetPredicate.setBaseMaxDistance(baseMaxDistance)); }
-public boolean test(yarnwrap.entity.LivingEntity baseEntity,yarnwrap.entity.LivingEntity targetEntity) { return wrapperContained.test(baseEntity.wrapperContained,targetEntity.wrapperContained); }
-// public static boolean test(yarnwrap.entity.LivingEntity baseEntity,yarnwrap.entity.LivingEntity targetEntity, ) { return net.minecraft.entity.ai.TargetPredicate.test(baseEntity.wrapperContained,targetEntity.wrapperContained); }
-public yarnwrap.entity.ai.TargetPredicate setPredicate(java.util.function.Predicate predicate) { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.setPredicate(predicate)); }
-// public static yarnwrap.entity.ai.TargetPredicate setPredicate(java.util.function.Predicate predicate, ) { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.TargetPredicate.setPredicate(predicate)); }
+public boolean test(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity tester,yarnwrap.entity.LivingEntity target) { return wrapperContained.test(world.wrapperContained,tester.wrapperContained,target.wrapperContained); }
+// public static boolean test(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity tester,yarnwrap.entity.LivingEntity target, ) { return net.minecraft.entity.ai.TargetPredicate.test(world.wrapperContained,tester.wrapperContained,target.wrapperContained); }
+// public yarnwrap.entity.ai.TargetPredicate setPredicate(Object predicate) { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.setPredicate(predicate)); }
+// public static yarnwrap.entity.ai.TargetPredicate setPredicate(Object predicate, ) { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.TargetPredicate.setPredicate(predicate)); }
 public yarnwrap.entity.ai.TargetPredicate ignoreDistanceScalingFactor() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.ignoreDistanceScalingFactor()); }
 // public static yarnwrap.entity.ai.TargetPredicate ignoreDistanceScalingFactor() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.TargetPredicate.ignoreDistanceScalingFactor()); }
 public yarnwrap.entity.ai.TargetPredicate copy() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.copy()); }

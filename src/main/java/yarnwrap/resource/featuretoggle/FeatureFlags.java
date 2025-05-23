@@ -6,11 +6,6 @@ public class FeatureFlags { public net.minecraft.resource.featuretoggle.FeatureF
 public static yarnwrap.resource.featuretoggle.FeatureFlag VANILLA() { return new yarnwrap.resource.featuretoggle.FeatureFlag(net.minecraft.resource.featuretoggle.FeatureFlags.VANILLA); }
 // public static void VANILLA(yarnwrap.resource.featuretoggle.FeatureFlag value, ) { net.minecraft.resource.featuretoggle.FeatureFlags.VANILLA = value.wrapperContained; }
 
-// public yarnwrap.resource.featuretoggle.FeatureFlag BUNDLE() { return new yarnwrap.resource.featuretoggle.FeatureFlag(wrapperContained.BUNDLE); }
-// public void BUNDLE(yarnwrap.resource.featuretoggle.FeatureFlag value) { wrapperContained.BUNDLE = value.wrapperContained; }
-public static yarnwrap.resource.featuretoggle.FeatureFlag BUNDLE() { return new yarnwrap.resource.featuretoggle.FeatureFlag(net.minecraft.resource.featuretoggle.FeatureFlags.BUNDLE); }
-// public static void BUNDLE(yarnwrap.resource.featuretoggle.FeatureFlag value, ) { net.minecraft.resource.featuretoggle.FeatureFlags.BUNDLE = value.wrapperContained; }
-
 // public yarnwrap.resource.featuretoggle.FeatureManager FEATURE_MANAGER() { return new yarnwrap.resource.featuretoggle.FeatureManager(wrapperContained.FEATURE_MANAGER); }
 // public void FEATURE_MANAGER(yarnwrap.resource.featuretoggle.FeatureManager value) { wrapperContained.FEATURE_MANAGER = value.wrapperContained; }
 public static yarnwrap.resource.featuretoggle.FeatureManager FEATURE_MANAGER() { return new yarnwrap.resource.featuretoggle.FeatureManager(net.minecraft.resource.featuretoggle.FeatureFlags.FEATURE_MANAGER); }
@@ -35,6 +30,16 @@ public static yarnwrap.resource.featuretoggle.FeatureSet DEFAULT_ENABLED_FEATURE
 // public void TRADE_REBALANCE(yarnwrap.resource.featuretoggle.FeatureFlag value) { wrapperContained.TRADE_REBALANCE = value.wrapperContained; }
 public static yarnwrap.resource.featuretoggle.FeatureFlag TRADE_REBALANCE() { return new yarnwrap.resource.featuretoggle.FeatureFlag(net.minecraft.resource.featuretoggle.FeatureFlags.TRADE_REBALANCE); }
 // public static void TRADE_REBALANCE(yarnwrap.resource.featuretoggle.FeatureFlag value, ) { net.minecraft.resource.featuretoggle.FeatureFlags.TRADE_REBALANCE = value.wrapperContained; }
+
+// public yarnwrap.resource.featuretoggle.FeatureFlag REDSTONE_EXPERIMENTS() { return new yarnwrap.resource.featuretoggle.FeatureFlag(wrapperContained.REDSTONE_EXPERIMENTS); }
+// public void REDSTONE_EXPERIMENTS(yarnwrap.resource.featuretoggle.FeatureFlag value) { wrapperContained.REDSTONE_EXPERIMENTS = value.wrapperContained; }
+public static yarnwrap.resource.featuretoggle.FeatureFlag REDSTONE_EXPERIMENTS() { return new yarnwrap.resource.featuretoggle.FeatureFlag(net.minecraft.resource.featuretoggle.FeatureFlags.REDSTONE_EXPERIMENTS); }
+// public static void REDSTONE_EXPERIMENTS(yarnwrap.resource.featuretoggle.FeatureFlag value, ) { net.minecraft.resource.featuretoggle.FeatureFlags.REDSTONE_EXPERIMENTS = value.wrapperContained; }
+
+// public yarnwrap.resource.featuretoggle.FeatureFlag MINECART_IMPROVEMENTS() { return new yarnwrap.resource.featuretoggle.FeatureFlag(wrapperContained.MINECART_IMPROVEMENTS); }
+// public void MINECART_IMPROVEMENTS(yarnwrap.resource.featuretoggle.FeatureFlag value) { wrapperContained.MINECART_IMPROVEMENTS = value.wrapperContained; }
+public static yarnwrap.resource.featuretoggle.FeatureFlag MINECART_IMPROVEMENTS() { return new yarnwrap.resource.featuretoggle.FeatureFlag(net.minecraft.resource.featuretoggle.FeatureFlags.MINECART_IMPROVEMENTS); }
+// public static void MINECART_IMPROVEMENTS(yarnwrap.resource.featuretoggle.FeatureFlag value, ) { net.minecraft.resource.featuretoggle.FeatureFlags.MINECART_IMPROVEMENTS = value.wrapperContained; }
 
 // public java.lang.String printMissingFlags(yarnwrap.resource.featuretoggle.FeatureManager featureManager,yarnwrap.resource.featuretoggle.FeatureSet featuresToCheck,yarnwrap.resource.featuretoggle.FeatureSet features) { return wrapperContained.printMissingFlags(featureManager.wrapperContained,featuresToCheck.wrapperContained,features.wrapperContained); }
 // public static java.lang.String printMissingFlags(yarnwrap.resource.featuretoggle.FeatureManager featureManager,yarnwrap.resource.featuretoggle.FeatureSet featuresToCheck,yarnwrap.resource.featuretoggle.FeatureSet features, ) { return net.minecraft.resource.featuretoggle.FeatureFlags.printMissingFlags(featureManager.wrapperContained,featuresToCheck.wrapperContained,features.wrapperContained); }

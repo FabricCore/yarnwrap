@@ -1,21 +1,6 @@
 package yarnwrap.entity.ai.goal;
 public class MeleeAttackGoal { public net.minecraft.entity.ai.goal.MeleeAttackGoal wrapperContained; public MeleeAttackGoal(net.minecraft.entity.ai.goal.MeleeAttackGoal wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public long lastUpdateTime() { return wrapperContained.lastUpdateTime; }
-// public void lastUpdateTime(long value) { wrapperContained.lastUpdateTime = value; }
-// public static long lastUpdateTime() { return net.minecraft.entity.ai.goal.MeleeAttackGoal.lastUpdateTime; }
-// public static void lastUpdateTime(long value, ) { net.minecraft.entity.ai.goal.MeleeAttackGoal.lastUpdateTime = value; }
-
-// public int cooldown() { return wrapperContained.cooldown; }
-// public void cooldown(int value) { wrapperContained.cooldown = value; }
-// public static int cooldown() { return net.minecraft.entity.ai.goal.MeleeAttackGoal.cooldown; }
-// public static void cooldown(int value, ) { net.minecraft.entity.ai.goal.MeleeAttackGoal.cooldown = value; }
-
-// public long MAX_ATTACK_TIME() { return wrapperContained.MAX_ATTACK_TIME; }
-// public void MAX_ATTACK_TIME(long value) { wrapperContained.MAX_ATTACK_TIME = value; }
-// public static long MAX_ATTACK_TIME() { return net.minecraft.entity.ai.goal.MeleeAttackGoal.MAX_ATTACK_TIME; }
-// public static void MAX_ATTACK_TIME(long value, ) { net.minecraft.entity.ai.goal.MeleeAttackGoal.MAX_ATTACK_TIME = value; }
-
 // public double speed() { return wrapperContained.speed; }
 // public void speed(double value) { wrapperContained.speed = value; }
 // public static double speed() { return net.minecraft.entity.ai.goal.MeleeAttackGoal.speed; }
@@ -61,7 +46,24 @@ public class MeleeAttackGoal { public net.minecraft.entity.ai.goal.MeleeAttackGo
 // public static yarnwrap.entity.ai.pathing.Path path() { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.goal.MeleeAttackGoal.path); }
 // public static void path(yarnwrap.entity.ai.pathing.Path value, ) { net.minecraft.entity.ai.goal.MeleeAttackGoal.path = value.wrapperContained; }
 
+// public long lastUpdateTime() { return wrapperContained.lastUpdateTime; }
+// public void lastUpdateTime(long value) { wrapperContained.lastUpdateTime = value; }
+// public static long lastUpdateTime() { return net.minecraft.entity.ai.goal.MeleeAttackGoal.lastUpdateTime; }
+// public static void lastUpdateTime(long value, ) { net.minecraft.entity.ai.goal.MeleeAttackGoal.lastUpdateTime = value; }
+
+// public int cooldown() { return wrapperContained.cooldown; }
+// public void cooldown(int value) { wrapperContained.cooldown = value; }
+// public static int cooldown() { return net.minecraft.entity.ai.goal.MeleeAttackGoal.cooldown; }
+// public static void cooldown(int value, ) { net.minecraft.entity.ai.goal.MeleeAttackGoal.cooldown = value; }
+
+// public long MAX_ATTACK_TIME() { return wrapperContained.MAX_ATTACK_TIME; }
+// public void MAX_ATTACK_TIME(long value) { wrapperContained.MAX_ATTACK_TIME = value; }
+// public static long MAX_ATTACK_TIME() { return net.minecraft.entity.ai.goal.MeleeAttackGoal.MAX_ATTACK_TIME; }
+// public static void MAX_ATTACK_TIME(long value, ) { net.minecraft.entity.ai.goal.MeleeAttackGoal.MAX_ATTACK_TIME = value; }
+
 public MeleeAttackGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed,boolean pauseWhenMobIdle) { this.wrapperContained = new net.minecraft.entity.ai.goal.MeleeAttackGoal(mob.wrapperContained,speed,pauseWhenMobIdle); }
+// public void attack(yarnwrap.entity.LivingEntity target) { wrapperContained.attack(target.wrapperContained); }
+// public static void attack(yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.ai.goal.MeleeAttackGoal.attack(target.wrapperContained); }
 // public void resetCooldown() { wrapperContained.resetCooldown(); }
 // public static void resetCooldown() { net.minecraft.entity.ai.goal.MeleeAttackGoal.resetCooldown(); }
 // public boolean isCooledDown() { return wrapperContained.isCooledDown(); }
@@ -72,7 +74,5 @@ public MeleeAttackGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed,bool
 // public static int getMaxCooldown() { return net.minecraft.entity.ai.goal.MeleeAttackGoal.getMaxCooldown(); }
 // public boolean canAttack(yarnwrap.entity.LivingEntity target) { return wrapperContained.canAttack(target.wrapperContained); }
 // public static boolean canAttack(yarnwrap.entity.LivingEntity target, ) { return net.minecraft.entity.ai.goal.MeleeAttackGoal.canAttack(target.wrapperContained); }
-// public void attack(yarnwrap.entity.LivingEntity target) { wrapperContained.attack(target.wrapperContained); }
-// public static void attack(yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.ai.goal.MeleeAttackGoal.attack(target.wrapperContained); }
 
 }

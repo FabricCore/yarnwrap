@@ -1,16 +1,6 @@
 package yarnwrap.client.gui.screen;
 public class CreditsScreen { public net.minecraft.client.gui.screen.CreditsScreen wrapperContained; public CreditsScreen(net.minecraft.client.gui.screen.CreditsScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.lang.String OBFUSCATION_PLACEHOLDER() { return wrapperContained.OBFUSCATION_PLACEHOLDER; }
-// public void OBFUSCATION_PLACEHOLDER(java.lang.String value) { wrapperContained.OBFUSCATION_PLACEHOLDER = value; }
-// public static java.lang.String OBFUSCATION_PLACEHOLDER() { return net.minecraft.client.gui.screen.CreditsScreen.OBFUSCATION_PLACEHOLDER; }
-// public static void OBFUSCATION_PLACEHOLDER(java.lang.String value, ) { net.minecraft.client.gui.screen.CreditsScreen.OBFUSCATION_PLACEHOLDER = value; }
-
-// public it.unimi.dsi.fastutil.ints.IntSet centeredLines() { return wrapperContained.centeredLines; }
-// public void centeredLines(it.unimi.dsi.fastutil.ints.IntSet value) { wrapperContained.centeredLines = value; }
-// public static it.unimi.dsi.fastutil.ints.IntSet centeredLines() { return net.minecraft.client.gui.screen.CreditsScreen.centeredLines; }
-// public static void centeredLines(it.unimi.dsi.fastutil.ints.IntSet value, ) { net.minecraft.client.gui.screen.CreditsScreen.centeredLines = value; }
-
 // public boolean endCredits() { return wrapperContained.endCredits; }
 // public void endCredits(boolean value) { wrapperContained.endCredits = value; }
 // public static boolean endCredits() { return net.minecraft.client.gui.screen.CreditsScreen.endCredits; }
@@ -50,6 +40,16 @@ public class CreditsScreen { public net.minecraft.client.gui.screen.CreditsScree
 // public void speed(float value) { wrapperContained.speed = value; }
 // public static float speed() { return net.minecraft.client.gui.screen.CreditsScreen.speed; }
 // public static void speed(float value, ) { net.minecraft.client.gui.screen.CreditsScreen.speed = value; }
+
+// public java.lang.String OBFUSCATION_PLACEHOLDER() { return wrapperContained.OBFUSCATION_PLACEHOLDER; }
+// public void OBFUSCATION_PLACEHOLDER(java.lang.String value) { wrapperContained.OBFUSCATION_PLACEHOLDER = value; }
+// public static java.lang.String OBFUSCATION_PLACEHOLDER() { return net.minecraft.client.gui.screen.CreditsScreen.OBFUSCATION_PLACEHOLDER; }
+// public static void OBFUSCATION_PLACEHOLDER(java.lang.String value, ) { net.minecraft.client.gui.screen.CreditsScreen.OBFUSCATION_PLACEHOLDER = value; }
+
+// public it.unimi.dsi.fastutil.ints.IntSet centeredLines() { return wrapperContained.centeredLines; }
+// public void centeredLines(it.unimi.dsi.fastutil.ints.IntSet value) { wrapperContained.centeredLines = value; }
+// public static it.unimi.dsi.fastutil.ints.IntSet centeredLines() { return net.minecraft.client.gui.screen.CreditsScreen.centeredLines; }
+// public static void centeredLines(it.unimi.dsi.fastutil.ints.IntSet value, ) { net.minecraft.client.gui.screen.CreditsScreen.centeredLines = value; }
 
 // public java.lang.String CENTERED_LINE_PREFIX() { return wrapperContained.CENTERED_LINE_PREFIX; }
 // public void CENTERED_LINE_PREFIX(java.lang.String value) { wrapperContained.CENTERED_LINE_PREFIX = value; }
@@ -111,11 +111,16 @@ public class CreditsScreen { public net.minecraft.client.gui.screen.CreditsScree
 // public static yarnwrap.util.Identifier POST_CREDITS_TEXT_LOCATION() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.CreditsScreen.POST_CREDITS_TEXT_LOCATION); }
 // public static void POST_CREDITS_TEXT_LOCATION(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.CreditsScreen.POST_CREDITS_TEXT_LOCATION = value.wrapperContained; }
 
+// public java.util.List narratedCredits() { return wrapperContained.narratedCredits; }
+// public void narratedCredits(java.util.List value) { wrapperContained.narratedCredits = value; }
+// public static java.util.List narratedCredits() { return net.minecraft.client.gui.screen.CreditsScreen.narratedCredits; }
+// public static void narratedCredits(java.util.List value, ) { net.minecraft.client.gui.screen.CreditsScreen.narratedCredits = value; }
+
 public CreditsScreen(boolean endCredits,java.lang.Runnable finishAction) { this.wrapperContained = new net.minecraft.client.gui.screen.CreditsScreen(endCredits,finishAction); }
 // public void closeScreen() { wrapperContained.closeScreen(); }
 // public static void closeScreen() { net.minecraft.client.gui.screen.CreditsScreen.closeScreen(); }
-// public void addText(yarnwrap.text.Text text,boolean centered) { wrapperContained.addText(text.wrapperContained,centered); }
-// public static void addText(yarnwrap.text.Text text,boolean centered, ) { net.minecraft.client.gui.screen.CreditsScreen.addText(text.wrapperContained,centered); }
+// public void addText(yarnwrap.text.Text text,boolean centered,boolean narrate) { wrapperContained.addText(text.wrapperContained,centered,narrate); }
+// public static void addText(yarnwrap.text.Text text,boolean centered,boolean narrate, ) { net.minecraft.client.gui.screen.CreditsScreen.addText(text.wrapperContained,centered,narrate); }
 // public void addText(java.lang.String text) { wrapperContained.addText(text); }
 // public static void addText(java.lang.String text, ) { net.minecraft.client.gui.screen.CreditsScreen.addText(text); }
 // public void addEmptyLine() { wrapperContained.addEmptyLine(); }

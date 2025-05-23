@@ -1,16 +1,6 @@
 package yarnwrap.client.gui.hud.spectator;
 public class TeleportSpectatorMenu { public net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu wrapperContained; public TeleportSpectatorMenu(net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.text.Text TELEPORT_TEXT() { return new yarnwrap.text.Text(wrapperContained.TELEPORT_TEXT); }
-// public void TELEPORT_TEXT(yarnwrap.text.Text value) { wrapperContained.TELEPORT_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text TELEPORT_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.TELEPORT_TEXT); }
-// public static void TELEPORT_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.TELEPORT_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.Text PROMPT_TEXT() { return new yarnwrap.text.Text(wrapperContained.PROMPT_TEXT); }
-// public void PROMPT_TEXT(yarnwrap.text.Text value) { wrapperContained.PROMPT_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text PROMPT_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.PROMPT_TEXT); }
-// public static void PROMPT_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.PROMPT_TEXT = value.wrapperContained; }
-
 // public java.util.Comparator ORDERING() { return wrapperContained.ORDERING; }
 // public void ORDERING(java.util.Comparator value) { wrapperContained.ORDERING = value; }
 // public static java.util.Comparator ORDERING() { return net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.ORDERING; }
@@ -20,6 +10,16 @@ public class TeleportSpectatorMenu { public net.minecraft.client.gui.hud.spectat
 // public void elements(java.util.List value) { wrapperContained.elements = value; }
 // public static java.util.List elements() { return net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.elements; }
 // public static void elements(java.util.List value, ) { net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.elements = value; }
+
+// public yarnwrap.text.Text TELEPORT_TEXT() { return new yarnwrap.text.Text(wrapperContained.TELEPORT_TEXT); }
+// public void TELEPORT_TEXT(yarnwrap.text.Text value) { wrapperContained.TELEPORT_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text TELEPORT_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.TELEPORT_TEXT); }
+// public static void TELEPORT_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.TELEPORT_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text PROMPT_TEXT() { return new yarnwrap.text.Text(wrapperContained.PROMPT_TEXT); }
+// public void PROMPT_TEXT(yarnwrap.text.Text value) { wrapperContained.PROMPT_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text PROMPT_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.PROMPT_TEXT); }
+// public static void PROMPT_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.hud.spectator.TeleportSpectatorMenu.PROMPT_TEXT = value.wrapperContained; }
 
 // public yarnwrap.util.Identifier TELEPORT_TO_PLAYER_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.TELEPORT_TO_PLAYER_TEXTURE); }
 // public void TELEPORT_TO_PLAYER_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TELEPORT_TO_PLAYER_TEXTURE = value.wrapperContained; }

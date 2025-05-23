@@ -36,30 +36,10 @@ public static yarnwrap.state.property.EnumProperty WIRE_CONNECTION_WEST() { retu
 public static yarnwrap.state.property.EnumProperty WIRE_CONNECTION_NORTH() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.RedstoneWireBlock.WIRE_CONNECTION_NORTH); }
 // public static void WIRE_CONNECTION_NORTH(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.RedstoneWireBlock.WIRE_CONNECTION_NORTH = value.wrapperContained; }
 
-// public yarnwrap.util.shape.VoxelShape DOT_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.DOT_SHAPE); }
-// public void DOT_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.DOT_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape DOT_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.RedstoneWireBlock.DOT_SHAPE); }
-// public static void DOT_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.RedstoneWireBlock.DOT_SHAPE = value.wrapperContained; }
-
-// public java.util.Map DIRECTION_TO_SIDE_SHAPE() { return wrapperContained.DIRECTION_TO_SIDE_SHAPE; }
-// public void DIRECTION_TO_SIDE_SHAPE(java.util.Map value) { wrapperContained.DIRECTION_TO_SIDE_SHAPE = value; }
-// public static java.util.Map DIRECTION_TO_SIDE_SHAPE() { return net.minecraft.block.RedstoneWireBlock.DIRECTION_TO_SIDE_SHAPE; }
-// public static void DIRECTION_TO_SIDE_SHAPE(java.util.Map value, ) { net.minecraft.block.RedstoneWireBlock.DIRECTION_TO_SIDE_SHAPE = value; }
-
-// public java.util.Map DIRECTION_TO_UP_SHAPE() { return wrapperContained.DIRECTION_TO_UP_SHAPE; }
-// public void DIRECTION_TO_UP_SHAPE(java.util.Map value) { wrapperContained.DIRECTION_TO_UP_SHAPE = value; }
-// public static java.util.Map DIRECTION_TO_UP_SHAPE() { return net.minecraft.block.RedstoneWireBlock.DIRECTION_TO_UP_SHAPE; }
-// public static void DIRECTION_TO_UP_SHAPE(java.util.Map value, ) { net.minecraft.block.RedstoneWireBlock.DIRECTION_TO_UP_SHAPE = value; }
-
-// public java.util.Map SHAPES() { return wrapperContained.SHAPES; }
-// public void SHAPES(java.util.Map value) { wrapperContained.SHAPES = value; }
-// public static java.util.Map SHAPES() { return net.minecraft.block.RedstoneWireBlock.SHAPES; }
-// public static void SHAPES(java.util.Map value, ) { net.minecraft.block.RedstoneWireBlock.SHAPES = value; }
-
-// public net.minecraft.util.math.Vec3d[] COLORS() { return wrapperContained.COLORS; }
-// public void COLORS(net.minecraft.util.math.Vec3d[] value) { wrapperContained.COLORS = value; }
-// public static net.minecraft.util.math.Vec3d[] COLORS() { return net.minecraft.block.RedstoneWireBlock.COLORS; }
-// public static void COLORS(net.minecraft.util.math.Vec3d[] value, ) { net.minecraft.block.RedstoneWireBlock.COLORS = value; }
+// public int[] COLORS() { return wrapperContained.COLORS; }
+// public void COLORS(int[] value) { wrapperContained.COLORS = value; }
+// public static int[] COLORS() { return net.minecraft.block.RedstoneWireBlock.COLORS; }
+// public static void COLORS(int[] value, ) { net.minecraft.block.RedstoneWireBlock.COLORS = value; }
 
 // public yarnwrap.block.BlockState dotState() { return new yarnwrap.block.BlockState(wrapperContained.dotState); }
 // public void dotState(yarnwrap.block.BlockState value) { wrapperContained.dotState = value.wrapperContained; }
@@ -71,6 +51,16 @@ public static yarnwrap.state.property.EnumProperty WIRE_CONNECTION_NORTH() { ret
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.RedstoneWireBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.RedstoneWireBlock.CODEC = value; }
 
+// public yarnwrap.world.RedstoneController redstoneController() { return new yarnwrap.world.RedstoneController(wrapperContained.redstoneController); }
+// public void redstoneController(yarnwrap.world.RedstoneController value) { wrapperContained.redstoneController = value.wrapperContained; }
+// public static yarnwrap.world.RedstoneController redstoneController() { return new yarnwrap.world.RedstoneController(net.minecraft.block.RedstoneWireBlock.redstoneController); }
+// public static void redstoneController(yarnwrap.world.RedstoneController value, ) { net.minecraft.block.RedstoneWireBlock.redstoneController = value.wrapperContained; }
+
+// public java.util.function.Function shapeFunction() { return wrapperContained.shapeFunction; }
+// public void shapeFunction(java.util.function.Function value) { wrapperContained.shapeFunction = value; }
+// public static java.util.function.Function shapeFunction() { return net.minecraft.block.RedstoneWireBlock.shapeFunction; }
+// public static void shapeFunction(java.util.function.Function value, ) { net.minecraft.block.RedstoneWireBlock.shapeFunction = value; }
+
 // public yarnwrap.block.enums.WireConnection getRenderConnectionType(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction) { return new yarnwrap.block.enums.WireConnection(wrapperContained.getRenderConnectionType(world.wrapperContained,pos.wrapperContained,direction.wrapperContained)); }
 // public static yarnwrap.block.enums.WireConnection getRenderConnectionType(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction, ) { return new yarnwrap.block.enums.WireConnection(net.minecraft.block.RedstoneWireBlock.getRenderConnectionType(world.wrapperContained,pos.wrapperContained,direction.wrapperContained)); }
 // public void updateNeighbors(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.updateNeighbors(world.wrapperContained,pos.wrapperContained); }
@@ -79,35 +69,37 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static boolean connectsTo(yarnwrap.block.BlockState state,yarnwrap.util.math.Direction dir, ) { return net.minecraft.block.RedstoneWireBlock.connectsTo(state.wrapperContained,dir.wrapperContained); }
 // public boolean connectsTo(yarnwrap.block.BlockState state) { return wrapperContained.connectsTo(state.wrapperContained); }
 // public static boolean connectsTo(yarnwrap.block.BlockState state, ) { return net.minecraft.block.RedstoneWireBlock.connectsTo(state.wrapperContained); }
-// public void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
-// public static void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.RedstoneWireBlock.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
-// public int increasePower(yarnwrap.block.BlockState state) { return wrapperContained.increasePower(state.wrapperContained); }
-// public static int increasePower(yarnwrap.block.BlockState state, ) { return net.minecraft.block.RedstoneWireBlock.increasePower(state.wrapperContained); }
+// public void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.world.block.WireOrientation orientation,boolean blockAdded) { wrapperContained.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained,orientation.wrapperContained,blockAdded); }
+// public static void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.world.block.WireOrientation orientation,boolean blockAdded, ) { net.minecraft.block.RedstoneWireBlock.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained,orientation.wrapperContained,blockAdded); }
 // public int getWireColor(int powerLevel) { return wrapperContained.getWireColor(powerLevel); }
 // public static int getWireColor(int powerLevel, ) { return net.minecraft.block.RedstoneWireBlock.getWireColor(powerLevel); }
 // public yarnwrap.block.BlockState getPlacementState(yarnwrap.world.BlockView world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getPlacementState(world.wrapperContained,state.wrapperContained,pos.wrapperContained)); }
 // public static yarnwrap.block.BlockState getPlacementState(yarnwrap.world.BlockView world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.block.BlockState(net.minecraft.block.RedstoneWireBlock.getPlacementState(world.wrapperContained,state.wrapperContained,pos.wrapperContained)); }
 // // public yarnwrap.block.enums.WireConnection getRenderConnectionType(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction) { return new yarnwrap.block.enums.WireConnection(wrapperContained.getRenderConnectionType(world.wrapperContained,pos.wrapperContained,direction.wrapperContained)); }
 // // public static yarnwrap.block.enums.WireConnection getRenderConnectionType(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction, ) { return new yarnwrap.block.enums.WireConnection(net.minecraft.block.RedstoneWireBlock.getRenderConnectionType(world.wrapperContained,pos.wrapperContained,direction.wrapperContained)); }
-// public int getReceivedRedstonePower(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getReceivedRedstonePower(world.wrapperContained,pos.wrapperContained); }
-// public static int getReceivedRedstonePower(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.RedstoneWireBlock.getReceivedRedstonePower(world.wrapperContained,pos.wrapperContained); }
 // public yarnwrap.block.BlockState getDefaultWireState(yarnwrap.world.BlockView world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getDefaultWireState(world.wrapperContained,state.wrapperContained,pos.wrapperContained)); }
 // public static yarnwrap.block.BlockState getDefaultWireState(yarnwrap.world.BlockView world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.block.BlockState(net.minecraft.block.RedstoneWireBlock.getDefaultWireState(world.wrapperContained,state.wrapperContained,pos.wrapperContained)); }
 // public void updateOffsetNeighbors(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.updateOffsetNeighbors(world.wrapperContained,pos.wrapperContained); }
 // public static void updateOffsetNeighbors(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.RedstoneWireBlock.updateOffsetNeighbors(world.wrapperContained,pos.wrapperContained); }
-// public yarnwrap.util.shape.VoxelShape getShapeForState(yarnwrap.block.BlockState state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getShapeForState(state.wrapperContained)); }
-// public static yarnwrap.util.shape.VoxelShape getShapeForState(yarnwrap.block.BlockState state, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.RedstoneWireBlock.getShapeForState(state.wrapperContained)); }
 // public boolean isFullyConnected(yarnwrap.block.BlockState state) { return wrapperContained.isFullyConnected(state.wrapperContained); }
 // public static boolean isFullyConnected(yarnwrap.block.BlockState state, ) { return net.minecraft.block.RedstoneWireBlock.isFullyConnected(state.wrapperContained); }
-// public void addPoweredParticles(yarnwrap.world.World world,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Vec3d color) { wrapperContained.addPoweredParticles(world.wrapperContained,random.wrapperContained,pos.wrapperContained,color.wrapperContained); }
-// public static void addPoweredParticles(yarnwrap.world.World world,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Vec3d color, ) { net.minecraft.block.RedstoneWireBlock.addPoweredParticles(world.wrapperContained,random.wrapperContained,pos.wrapperContained,color.wrapperContained); }
+// public void addPoweredParticles(yarnwrap.world.World world,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos pos,int color,yarnwrap.util.math.Direction perpendicular,yarnwrap.util.math.Direction direction,float minOffset,float maxOffset) { wrapperContained.addPoweredParticles(world.wrapperContained,random.wrapperContained,pos.wrapperContained,color,perpendicular.wrapperContained,direction.wrapperContained,minOffset,maxOffset); }
+// public static void addPoweredParticles(yarnwrap.world.World world,yarnwrap.util.math.random.Random random,yarnwrap.util.math.BlockPos pos,int color,yarnwrap.util.math.Direction perpendicular,yarnwrap.util.math.Direction direction,float minOffset,float maxOffset, ) { net.minecraft.block.RedstoneWireBlock.addPoweredParticles(world.wrapperContained,random.wrapperContained,pos.wrapperContained,color,perpendicular.wrapperContained,direction.wrapperContained,minOffset,maxOffset); }
 // public boolean canRunOnTop(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState floor) { return wrapperContained.canRunOnTop(world.wrapperContained,pos.wrapperContained,floor.wrapperContained); }
 // public static boolean canRunOnTop(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState floor, ) { return net.minecraft.block.RedstoneWireBlock.canRunOnTop(world.wrapperContained,pos.wrapperContained,floor.wrapperContained); }
 // public void updateForNewState(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState oldState,yarnwrap.block.BlockState newState) { wrapperContained.updateForNewState(world.wrapperContained,pos.wrapperContained,oldState.wrapperContained,newState.wrapperContained); }
 // public static void updateForNewState(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState oldState,yarnwrap.block.BlockState newState, ) { net.minecraft.block.RedstoneWireBlock.updateForNewState(world.wrapperContained,pos.wrapperContained,oldState.wrapperContained,newState.wrapperContained); }
 // public boolean isNotConnected(yarnwrap.block.BlockState state) { return wrapperContained.isNotConnected(state.wrapperContained); }
 // public static boolean isNotConnected(yarnwrap.block.BlockState state, ) { return net.minecraft.block.RedstoneWireBlock.isNotConnected(state.wrapperContained); }
-// public void method_31649(net.minecraft.util.math.Vec3d[] colors) { wrapperContained.method_31649(colors); }
-// public static void method_31649(net.minecraft.util.math.Vec3d[] colors, ) { net.minecraft.block.RedstoneWireBlock.method_31649(colors); }
+// public boolean areRedstoneExperimentsEnabled(yarnwrap.world.World world) { return wrapperContained.areRedstoneExperimentsEnabled(world.wrapperContained); }
+// public static boolean areRedstoneExperimentsEnabled(yarnwrap.world.World world, ) { return net.minecraft.block.RedstoneWireBlock.areRedstoneExperimentsEnabled(world.wrapperContained); }
+public int getStrongPower(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getStrongPower(world.wrapperContained,pos.wrapperContained); }
+// public static int getStrongPower(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.RedstoneWireBlock.getStrongPower(world.wrapperContained,pos.wrapperContained); }
+// public void method_61747(int colors) { wrapperContained.method_61747(colors); }
+// public static void method_61747(int colors, ) { net.minecraft.block.RedstoneWireBlock.method_61747(colors); }
+// public yarnwrap.util.shape.VoxelShape method_66461(yarnwrap.util.shape.VoxelShape state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_66461(state.wrapperContained)); }
+// public static yarnwrap.util.shape.VoxelShape method_66461(yarnwrap.util.shape.VoxelShape state, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.RedstoneWireBlock.method_66461(state.wrapperContained)); }
+// public java.util.function.Function createShapeFunction() { return wrapperContained.createShapeFunction(); }
+// public static java.util.function.Function createShapeFunction() { return net.minecraft.block.RedstoneWireBlock.createShapeFunction(); }
 
 }

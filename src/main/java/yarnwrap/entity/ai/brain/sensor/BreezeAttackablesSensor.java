@@ -1,10 +1,9 @@
 package yarnwrap.entity.ai.brain.sensor;
 public class BreezeAttackablesSensor { public net.minecraft.entity.ai.brain.sensor.BreezeAttackablesSensor wrapperContained; public BreezeAttackablesSensor(net.minecraft.entity.ai.brain.sensor.BreezeAttackablesSensor wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int RANGE() { return wrapperContained.RANGE; }
-// public void RANGE(int value) { wrapperContained.RANGE = value; }
-public static int RANGE() { return net.minecraft.entity.ai.brain.sensor.BreezeAttackablesSensor.RANGE; }
-// public static void RANGE(int value, ) { net.minecraft.entity.ai.brain.sensor.BreezeAttackablesSensor.RANGE = value; }
-
+// public void method_54995(yarnwrap.entity.mob.BreezeEntity target) { wrapperContained.method_54995(target.wrapperContained); }
+// public static void method_54995(yarnwrap.entity.mob.BreezeEntity target, ) { net.minecraft.entity.ai.brain.sensor.BreezeAttackablesSensor.method_54995(target.wrapperContained); }
+// public boolean method_54996(yarnwrap.server.world.ServerWorld target) { return wrapperContained.method_54996(target.wrapperContained); }
+// public static boolean method_54996(yarnwrap.server.world.ServerWorld target, ) { return net.minecraft.entity.ai.brain.sensor.BreezeAttackablesSensor.method_54996(target.wrapperContained); }
 
 }

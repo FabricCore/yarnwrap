@@ -351,6 +351,16 @@ public static yarnwrap.data.family.BlockFamily POLISHED_TUFF() { return new yarn
 public static yarnwrap.data.family.BlockFamily TUFF_BRICK() { return new yarnwrap.data.family.BlockFamily(net.minecraft.data.family.BlockFamilies.TUFF_BRICK); }
 // public static void TUFF_BRICK(yarnwrap.data.family.BlockFamily value, ) { net.minecraft.data.family.BlockFamilies.TUFF_BRICK = value.wrapperContained; }
 
+// public yarnwrap.data.family.BlockFamily PALE_OAK() { return new yarnwrap.data.family.BlockFamily(wrapperContained.PALE_OAK); }
+// public void PALE_OAK(yarnwrap.data.family.BlockFamily value) { wrapperContained.PALE_OAK = value.wrapperContained; }
+public static yarnwrap.data.family.BlockFamily PALE_OAK() { return new yarnwrap.data.family.BlockFamily(net.minecraft.data.family.BlockFamilies.PALE_OAK); }
+// public static void PALE_OAK(yarnwrap.data.family.BlockFamily value, ) { net.minecraft.data.family.BlockFamilies.PALE_OAK = value.wrapperContained; }
+
+// public yarnwrap.data.family.BlockFamily RESIN_BRICK() { return new yarnwrap.data.family.BlockFamily(wrapperContained.RESIN_BRICK); }
+// public void RESIN_BRICK(yarnwrap.data.family.BlockFamily value) { wrapperContained.RESIN_BRICK = value.wrapperContained; }
+public static yarnwrap.data.family.BlockFamily RESIN_BRICK() { return new yarnwrap.data.family.BlockFamily(net.minecraft.data.family.BlockFamilies.RESIN_BRICK); }
+// public static void RESIN_BRICK(yarnwrap.data.family.BlockFamily value, ) { net.minecraft.data.family.BlockFamilies.RESIN_BRICK = value.wrapperContained; }
+
 // public java.util.stream.Stream getFamilies() { return wrapperContained.getFamilies(); }
 public static java.util.stream.Stream getFamilies() { return net.minecraft.data.family.BlockFamilies.getFamilies(); }
 // public Object register(yarnwrap.block.Block baseBlock) { return wrapperContained.register(baseBlock.wrapperContained); }

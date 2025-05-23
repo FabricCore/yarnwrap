@@ -5,8 +5,6 @@ public class ServerPackCommand { public net.minecraft.server.command.ServerPackC
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.ServerPackCommand.register(dispatcher); }
 // public int method_55475(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_55475(context); }
 // public static int method_55475(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ServerPackCommand.method_55475(context); }
-// public boolean method_55476(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_55476(source.wrapperContained); }
-// public static boolean method_55476(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.ServerPackCommand.method_55476(source.wrapperContained); }
 // public int executePush(yarnwrap.server.command.ServerCommandSource source,java.lang.String url,java.util.Optional uuid,java.util.Optional hash) { return wrapperContained.executePush(source.wrapperContained,url,uuid,hash); }
 // public static int executePush(yarnwrap.server.command.ServerCommandSource source,java.lang.String url,java.util.Optional uuid,java.util.Optional hash, ) { return net.minecraft.server.command.ServerPackCommand.executePush(source.wrapperContained,url,uuid,hash); }
 // public int executePop(yarnwrap.server.command.ServerCommandSource source,java.util.UUID uuid) { return wrapperContained.executePop(source.wrapperContained,uuid); }

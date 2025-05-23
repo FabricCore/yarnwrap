@@ -1,0 +1,7 @@
+package yarnwrap.client.render.item.model;
+public class ItemModel { public net.minecraft.client.render.item.model.ItemModel wrapperContained; public ItemModel(net.minecraft.client.render.item.model.ItemModel wrapperContained) { this.wrapperContained = wrapperContained; }
+
+public void update(yarnwrap.client.render.item.ItemRenderState state,yarnwrap.item.ItemStack stack,yarnwrap.client.item.ItemModelManager resolver,yarnwrap.item.ItemDisplayContext displayContext,yarnwrap.client.world.ClientWorld world,yarnwrap.entity.LivingEntity user,int seed) { wrapperContained.update(state.wrapperContained,stack.wrapperContained,resolver.wrapperContained,displayContext.wrapperContained,world.wrapperContained,user.wrapperContained,seed); }
+// public static void update(yarnwrap.client.render.item.ItemRenderState state,yarnwrap.item.ItemStack stack,yarnwrap.client.item.ItemModelManager resolver,yarnwrap.item.ItemDisplayContext displayContext,yarnwrap.client.world.ClientWorld world,yarnwrap.entity.LivingEntity user,int seed, ) { net.minecraft.client.render.item.model.ItemModel.update(state.wrapperContained,stack.wrapperContained,resolver.wrapperContained,displayContext.wrapperContained,world.wrapperContained,user.wrapperContained,seed); }
+
+}

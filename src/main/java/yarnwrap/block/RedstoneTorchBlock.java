@@ -27,5 +27,9 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static boolean isBurnedOut(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,boolean addNew, ) { return net.minecraft.block.RedstoneTorchBlock.isBurnedOut(world.wrapperContained,pos.wrapperContained,addNew); }
 // public java.util.List method_20453(yarnwrap.world.BlockView worldx) { return wrapperContained.method_20453(worldx.wrapperContained); }
 // public static java.util.List method_20453(yarnwrap.world.BlockView worldx, ) { return net.minecraft.block.RedstoneTorchBlock.method_20453(worldx.wrapperContained); }
+// public yarnwrap.world.block.WireOrientation getEmissionOrientation(yarnwrap.world.World world,yarnwrap.block.BlockState state) { return new yarnwrap.world.block.WireOrientation(wrapperContained.getEmissionOrientation(world.wrapperContained,state.wrapperContained)); }
+// public static yarnwrap.world.block.WireOrientation getEmissionOrientation(yarnwrap.world.World world,yarnwrap.block.BlockState state, ) { return new yarnwrap.world.block.WireOrientation(net.minecraft.block.RedstoneTorchBlock.getEmissionOrientation(world.wrapperContained,state.wrapperContained)); }
+// public void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
+// public static void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.RedstoneTorchBlock.update(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 
 }

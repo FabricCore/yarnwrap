@@ -136,5 +136,7 @@ public void setPressed(boolean pressed) { wrapperContained.setPressed(pressed); 
 // public static void setPressed(boolean pressed, ) { net.minecraft.client.option.KeyBinding.setPressed(pressed); }
 // public void untoggleStickyKeys() { wrapperContained.untoggleStickyKeys(); }
 public static void untoggleStickyKeys() { net.minecraft.client.option.KeyBinding.untoggleStickyKeys(); }
+// public yarnwrap.client.option.KeyBinding byId(java.lang.String id) { return new yarnwrap.client.option.KeyBinding(wrapperContained.byId(id)); }
+// public static yarnwrap.client.option.KeyBinding byId(java.lang.String id, ) { return new yarnwrap.client.option.KeyBinding(net.minecraft.client.option.KeyBinding.byId(id)); }
 
 }

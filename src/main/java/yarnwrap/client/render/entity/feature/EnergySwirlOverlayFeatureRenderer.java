@@ -7,5 +7,7 @@ public class EnergySwirlOverlayFeatureRenderer { public net.minecraft.client.ren
 // public static float getEnergySwirlX(float partialAge, ) { return net.minecraft.client.render.entity.feature.EnergySwirlOverlayFeatureRenderer.getEnergySwirlX(partialAge); }
 // public yarnwrap.client.render.entity.model.EntityModel getEnergySwirlModel() { return new yarnwrap.client.render.entity.model.EntityModel(wrapperContained.getEnergySwirlModel()); }
 // public static yarnwrap.client.render.entity.model.EntityModel getEnergySwirlModel() { return new yarnwrap.client.render.entity.model.EntityModel(net.minecraft.client.render.entity.feature.EnergySwirlOverlayFeatureRenderer.getEnergySwirlModel()); }
+// public boolean shouldRender(yarnwrap.client.render.entity.state.EntityRenderState state) { return wrapperContained.shouldRender(state.wrapperContained); }
+// public static boolean shouldRender(yarnwrap.client.render.entity.state.EntityRenderState state, ) { return net.minecraft.client.render.entity.feature.EnergySwirlOverlayFeatureRenderer.shouldRender(state.wrapperContained); }
 
 }

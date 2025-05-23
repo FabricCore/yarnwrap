@@ -21,10 +21,5 @@ public class PufferfishEntityRenderer { public net.minecraft.client.render.entit
 // public static yarnwrap.client.render.entity.model.EntityModel mediumModel() { return new yarnwrap.client.render.entity.model.EntityModel(net.minecraft.client.render.entity.PufferfishEntityRenderer.mediumModel); }
 // public static void mediumModel(yarnwrap.client.render.entity.model.EntityModel value, ) { net.minecraft.client.render.entity.PufferfishEntityRenderer.mediumModel = value.wrapperContained; }
 
-// public int modelSize() { return wrapperContained.modelSize; }
-// public void modelSize(int value) { wrapperContained.modelSize = value; }
-// public static int modelSize() { return net.minecraft.client.render.entity.PufferfishEntityRenderer.modelSize; }
-// public static void modelSize(int value, ) { net.minecraft.client.render.entity.PufferfishEntityRenderer.modelSize = value; }
-
 
 }

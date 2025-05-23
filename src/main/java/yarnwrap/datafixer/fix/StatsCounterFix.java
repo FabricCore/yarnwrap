@@ -1,26 +1,6 @@
 package yarnwrap.datafixer.fix;
 public class StatsCounterFix { public net.minecraft.datafixer.fix.StatsCounterFix wrapperContained; public StatsCounterFix(net.minecraft.datafixer.fix.StatsCounterFix wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.lang.String OLD_MINE_BLOCK_ID() { return wrapperContained.OLD_MINE_BLOCK_ID; }
-// public void OLD_MINE_BLOCK_ID(java.lang.String value) { wrapperContained.OLD_MINE_BLOCK_ID = value; }
-// public static java.lang.String OLD_MINE_BLOCK_ID() { return net.minecraft.datafixer.fix.StatsCounterFix.OLD_MINE_BLOCK_ID; }
-// public static void OLD_MINE_BLOCK_ID(java.lang.String value, ) { net.minecraft.datafixer.fix.StatsCounterFix.OLD_MINE_BLOCK_ID = value; }
-
-// public java.lang.String NEW_MINE_BLOCK_ID() { return wrapperContained.NEW_MINE_BLOCK_ID; }
-// public void NEW_MINE_BLOCK_ID(java.lang.String value) { wrapperContained.NEW_MINE_BLOCK_ID = value; }
-// public static java.lang.String NEW_MINE_BLOCK_ID() { return net.minecraft.datafixer.fix.StatsCounterFix.NEW_MINE_BLOCK_ID; }
-// public static void NEW_MINE_BLOCK_ID(java.lang.String value, ) { net.minecraft.datafixer.fix.StatsCounterFix.NEW_MINE_BLOCK_ID = value; }
-
-// public java.lang.String CUSTOM() { return wrapperContained.CUSTOM; }
-// public void CUSTOM(java.lang.String value) { wrapperContained.CUSTOM = value; }
-// public static java.lang.String CUSTOM() { return net.minecraft.datafixer.fix.StatsCounterFix.CUSTOM; }
-// public static void CUSTOM(java.lang.String value, ) { net.minecraft.datafixer.fix.StatsCounterFix.CUSTOM = value; }
-
-// public java.util.Set SKIPPED_STATS() { return wrapperContained.SKIPPED_STATS; }
-// public void SKIPPED_STATS(java.util.Set value) { wrapperContained.SKIPPED_STATS = value; }
-// public static java.util.Set SKIPPED_STATS() { return net.minecraft.datafixer.fix.StatsCounterFix.SKIPPED_STATS; }
-// public static void SKIPPED_STATS(java.util.Set value, ) { net.minecraft.datafixer.fix.StatsCounterFix.SKIPPED_STATS = value; }
-
 // public java.util.Map RENAMED_ENTITIES() { return wrapperContained.RENAMED_ENTITIES; }
 // public void RENAMED_ENTITIES(java.util.Map value) { wrapperContained.RENAMED_ENTITIES = value; }
 // public static java.util.Map RENAMED_ENTITIES() { return net.minecraft.datafixer.fix.StatsCounterFix.RENAMED_ENTITIES; }
@@ -46,7 +26,26 @@ public class StatsCounterFix { public net.minecraft.datafixer.fix.StatsCounterFi
 // public static java.util.Set REMOVED_STATS() { return net.minecraft.datafixer.fix.StatsCounterFix.REMOVED_STATS; }
 // public static void REMOVED_STATS(java.util.Set value, ) { net.minecraft.datafixer.fix.StatsCounterFix.REMOVED_STATS = value; }
 
-public StatsCounterFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.StatsCounterFix(outputSchema,changesType); }
+// public java.lang.String OLD_MINE_BLOCK_ID() { return wrapperContained.OLD_MINE_BLOCK_ID; }
+// public void OLD_MINE_BLOCK_ID(java.lang.String value) { wrapperContained.OLD_MINE_BLOCK_ID = value; }
+// public static java.lang.String OLD_MINE_BLOCK_ID() { return net.minecraft.datafixer.fix.StatsCounterFix.OLD_MINE_BLOCK_ID; }
+// public static void OLD_MINE_BLOCK_ID(java.lang.String value, ) { net.minecraft.datafixer.fix.StatsCounterFix.OLD_MINE_BLOCK_ID = value; }
+
+// public java.lang.String NEW_MINE_BLOCK_ID() { return wrapperContained.NEW_MINE_BLOCK_ID; }
+// public void NEW_MINE_BLOCK_ID(java.lang.String value) { wrapperContained.NEW_MINE_BLOCK_ID = value; }
+// public static java.lang.String NEW_MINE_BLOCK_ID() { return net.minecraft.datafixer.fix.StatsCounterFix.NEW_MINE_BLOCK_ID; }
+// public static void NEW_MINE_BLOCK_ID(java.lang.String value, ) { net.minecraft.datafixer.fix.StatsCounterFix.NEW_MINE_BLOCK_ID = value; }
+
+// public java.lang.String CUSTOM() { return wrapperContained.CUSTOM; }
+// public void CUSTOM(java.lang.String value) { wrapperContained.CUSTOM = value; }
+// public static java.lang.String CUSTOM() { return net.minecraft.datafixer.fix.StatsCounterFix.CUSTOM; }
+// public static void CUSTOM(java.lang.String value, ) { net.minecraft.datafixer.fix.StatsCounterFix.CUSTOM = value; }
+
+// public java.util.Set SKIPPED_STATS() { return wrapperContained.SKIPPED_STATS; }
+// public void SKIPPED_STATS(java.util.Set value) { wrapperContained.SKIPPED_STATS = value; }
+// public static java.util.Set SKIPPED_STATS() { return net.minecraft.datafixer.fix.StatsCounterFix.SKIPPED_STATS; }
+// public static void SKIPPED_STATS(java.util.Set value, ) { net.minecraft.datafixer.fix.StatsCounterFix.SKIPPED_STATS = value; }
+
 // public java.lang.String getItem(java.lang.String id) { return wrapperContained.getItem(id); }
 // public static java.lang.String getItem(java.lang.String id, ) { return net.minecraft.datafixer.fix.StatsCounterFix.getItem(id); }
 // public java.lang.String getBlock(java.lang.String id) { return wrapperContained.getBlock(id); }

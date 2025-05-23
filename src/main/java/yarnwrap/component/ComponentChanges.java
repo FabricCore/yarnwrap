@@ -26,6 +26,11 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static java.lang.String REMOVE_PREFIX() { return net.minecraft.component.ComponentChanges.REMOVE_PREFIX; }
 // public static void REMOVE_PREFIX(java.lang.String value, ) { net.minecraft.component.ComponentChanges.REMOVE_PREFIX = value; }
 
+// public yarnwrap.network.codec.PacketCodec LENGTH_PREPENDED_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.LENGTH_PREPENDED_PACKET_CODEC); }
+// public void LENGTH_PREPENDED_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.LENGTH_PREPENDED_PACKET_CODEC = value.wrapperContained; }
+public static yarnwrap.network.codec.PacketCodec LENGTH_PREPENDED_PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.component.ComponentChanges.LENGTH_PREPENDED_PACKET_CODEC); }
+// public static void LENGTH_PREPENDED_PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.component.ComponentChanges.LENGTH_PREPENDED_PACKET_CODEC = value.wrapperContained; }
+
 // public ComponentChanges(it.unimi.dsi.fastutil.objects.Reference2ObjectMap changedComponents) { this.wrapperContained = new net.minecraft.component.ComponentChanges(changedComponents); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.component.ComponentChanges.equals(o); }
@@ -51,5 +56,7 @@ public yarnwrap.component.ComponentChanges withRemovedIf(java.util.function.Pred
 // public static void method_58758(Object type,java.util.Set value, ) { net.minecraft.component.ComponentChanges.method_58758(type,value); }
 public Object toAddedRemovedPair() { return wrapperContained.toAddedRemovedPair(); }
 // public static Object toAddedRemovedPair() { return net.minecraft.component.ComponentChanges.toAddedRemovedPair(); }
+// public yarnwrap.network.codec.PacketCodec createPacketCodec(Object packetCodecFunction) { return new yarnwrap.network.codec.PacketCodec(wrapperContained.createPacketCodec(packetCodecFunction)); }
+// public static yarnwrap.network.codec.PacketCodec createPacketCodec(Object packetCodecFunction, ) { return new yarnwrap.network.codec.PacketCodec(net.minecraft.component.ComponentChanges.createPacketCodec(packetCodecFunction)); }
 
 }

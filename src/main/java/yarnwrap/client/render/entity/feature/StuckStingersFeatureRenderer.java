@@ -6,7 +6,6 @@ public class StuckStingersFeatureRenderer { public net.minecraft.client.render.e
 // public static yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.feature.StuckStingersFeatureRenderer.TEXTURE); }
 // public static void TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.render.entity.feature.StuckStingersFeatureRenderer.TEXTURE = value.wrapperContained; }
 
-// public void produceVertex(yarnwrap.client.render.VertexConsumer vertexConsumer,Object matrix,float x,int y,float u,float v,int light) { wrapperContained.produceVertex(vertexConsumer.wrapperContained,matrix,x,y,u,v,light); }
-// public static void produceVertex(yarnwrap.client.render.VertexConsumer vertexConsumer,Object matrix,float x,int y,float u,float v,int light, ) { net.minecraft.client.render.entity.feature.StuckStingersFeatureRenderer.produceVertex(vertexConsumer.wrapperContained,matrix,x,y,u,v,light); }
+// public StuckStingersFeatureRenderer(yarnwrap.client.render.entity.LivingEntityRenderer entityRenderer,Object context) { this.wrapperContained = new net.minecraft.client.render.entity.feature.StuckStingersFeatureRenderer(entityRenderer.wrapperContained,context); }
 
 }

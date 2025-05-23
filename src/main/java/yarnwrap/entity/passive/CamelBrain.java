@@ -26,8 +26,8 @@ public class CamelBrain { public net.minecraft.entity.passive.CamelBrain wrapper
 // public static com.google.common.collect.ImmutableList MEMORY_MODULES() { return net.minecraft.entity.passive.CamelBrain.MEMORY_MODULES; }
 // public static void MEMORY_MODULES(com.google.common.collect.ImmutableList value, ) { net.minecraft.entity.passive.CamelBrain.MEMORY_MODULES = value; }
 
-// public Object createProfile() { return wrapperContained.createProfile(); }
-public static Object createProfile() { return net.minecraft.entity.passive.CamelBrain.createProfile(); }
+// public Object createBrainProfile() { return wrapperContained.createBrainProfile(); }
+public static Object createBrainProfile() { return net.minecraft.entity.passive.CamelBrain.createBrainProfile(); }
 // public java.lang.Float method_45364(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_45364(entity.wrapperContained); }
 // public static java.lang.Float method_45364(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.passive.CamelBrain.method_45364(entity.wrapperContained); }
 // public yarnwrap.entity.ai.brain.Brain create(yarnwrap.entity.ai.brain.Brain brain) { return new yarnwrap.entity.ai.brain.Brain(wrapperContained.create(brain.wrapperContained)); }

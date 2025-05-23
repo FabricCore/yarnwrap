@@ -21,9 +21,11 @@ public class PublishCommand { public net.minecraft.server.command.PublishCommand
 // public static com.mojang.brigadier.Message method_13511(java.lang.Object port, ) { return net.minecraft.server.command.PublishCommand.method_13511(port); }
 // public int method_13512(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13512(context); }
 // public static int method_13512(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.PublishCommand.method_13512(context); }
-// public boolean method_13513(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13513(source.wrapperContained); }
-// public static boolean method_13513(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.PublishCommand.method_13513(source.wrapperContained); }
 // public yarnwrap.text.MutableText getStartedText(int port) { return new yarnwrap.text.MutableText(wrapperContained.getStartedText(port)); }
 // public static yarnwrap.text.MutableText getStartedText(int port, ) { return new yarnwrap.text.MutableText(net.minecraft.server.command.PublishCommand.getStartedText(port)); }
+// public int method_46870(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_46870(context); }
+// public static int method_46870(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.PublishCommand.method_46870(context); }
+// public int method_46871(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_46871(context); }
+// public static int method_46871(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.PublishCommand.method_46871(context); }
 
 }

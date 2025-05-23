@@ -21,10 +21,10 @@ public static yarnwrap.recipe.input.CraftingRecipeInput EMPTY() { return new yar
 // public static java.util.List stacks() { return net.minecraft.recipe.input.CraftingRecipeInput.stacks; }
 // public static void stacks(java.util.List value, ) { net.minecraft.recipe.input.CraftingRecipeInput.stacks = value; }
 
-// public yarnwrap.recipe.RecipeMatcher matcher() { return new yarnwrap.recipe.RecipeMatcher(wrapperContained.matcher); }
-// public void matcher(yarnwrap.recipe.RecipeMatcher value) { wrapperContained.matcher = value.wrapperContained; }
-// public static yarnwrap.recipe.RecipeMatcher matcher() { return new yarnwrap.recipe.RecipeMatcher(net.minecraft.recipe.input.CraftingRecipeInput.matcher); }
-// public static void matcher(yarnwrap.recipe.RecipeMatcher value, ) { net.minecraft.recipe.input.CraftingRecipeInput.matcher = value.wrapperContained; }
+// public yarnwrap.recipe.RecipeFinder matcher() { return new yarnwrap.recipe.RecipeFinder(wrapperContained.matcher); }
+// public void matcher(yarnwrap.recipe.RecipeFinder value) { wrapperContained.matcher = value.wrapperContained; }
+// public static yarnwrap.recipe.RecipeFinder matcher() { return new yarnwrap.recipe.RecipeFinder(net.minecraft.recipe.input.CraftingRecipeInput.matcher); }
+// public static void matcher(yarnwrap.recipe.RecipeFinder value, ) { net.minecraft.recipe.input.CraftingRecipeInput.matcher = value.wrapperContained; }
 
 // public int stackCount() { return wrapperContained.stackCount; }
 // public void stackCount(int value) { wrapperContained.stackCount = value; }
@@ -38,8 +38,8 @@ public yarnwrap.item.ItemStack getStackInSlot(int x,int y) { return new yarnwrap
 // public static yarnwrap.item.ItemStack getStackInSlot(int x,int y, ) { return new yarnwrap.item.ItemStack(net.minecraft.recipe.input.CraftingRecipeInput.getStackInSlot(x,y)); }
 // public yarnwrap.recipe.input.CraftingRecipeInput create(int width,int height,java.util.List stacks) { return new yarnwrap.recipe.input.CraftingRecipeInput(wrapperContained.create(width,height,stacks)); }
 // public static yarnwrap.recipe.input.CraftingRecipeInput create(int width,int height,java.util.List stacks, ) { return new yarnwrap.recipe.input.CraftingRecipeInput(net.minecraft.recipe.input.CraftingRecipeInput.create(width,height,stacks)); }
-public yarnwrap.recipe.RecipeMatcher getRecipeMatcher() { return new yarnwrap.recipe.RecipeMatcher(wrapperContained.getRecipeMatcher()); }
-// public static yarnwrap.recipe.RecipeMatcher getRecipeMatcher() { return new yarnwrap.recipe.RecipeMatcher(net.minecraft.recipe.input.CraftingRecipeInput.getRecipeMatcher()); }
+public yarnwrap.recipe.RecipeFinder getRecipeMatcher() { return new yarnwrap.recipe.RecipeFinder(wrapperContained.getRecipeMatcher()); }
+// public static yarnwrap.recipe.RecipeFinder getRecipeMatcher() { return new yarnwrap.recipe.RecipeFinder(net.minecraft.recipe.input.CraftingRecipeInput.getRecipeMatcher()); }
 public java.util.List getStacks() { return wrapperContained.getStacks(); }
 // public static java.util.List getStacks() { return net.minecraft.recipe.input.CraftingRecipeInput.getStacks(); }
 public int getStackCount() { return wrapperContained.getStackCount(); }

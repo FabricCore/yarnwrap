@@ -81,6 +81,11 @@ public class JfrProfileRecorder { public net.minecraft.util.profiling.jfr.JfrPro
 // public static java.util.Map chunkRegionWriteCounter() { return net.minecraft.util.profiling.jfr.JfrProfileRecorder.chunkRegionWriteCounter; }
 // public static void chunkRegionWriteCounter(java.util.Map value, ) { net.minecraft.util.profiling.jfr.JfrProfileRecorder.chunkRegionWriteCounter = value; }
 
+// public java.util.List structureGenerationSamples() { return wrapperContained.structureGenerationSamples; }
+// public void structureGenerationSamples(java.util.List value) { wrapperContained.structureGenerationSamples = value; }
+// public static java.util.List structureGenerationSamples() { return net.minecraft.util.profiling.jfr.JfrProfileRecorder.structureGenerationSamples; }
+// public static void structureGenerationSamples(java.util.List value, ) { net.minecraft.util.profiling.jfr.JfrProfileRecorder.structureGenerationSamples = value; }
+
 // public JfrProfileRecorder(java.util.stream.Stream events) { this.wrapperContained = new net.minecraft.util.profiling.jfr.JfrProfileRecorder(events); }
 // public yarnwrap.util.profiling.jfr.JfrProfile createProfile() { return new yarnwrap.util.profiling.jfr.JfrProfile(wrapperContained.createProfile()); }
 // public static yarnwrap.util.profiling.jfr.JfrProfile createProfile() { return new yarnwrap.util.profiling.jfr.JfrProfile(net.minecraft.util.profiling.jfr.JfrProfileRecorder.createProfile()); }

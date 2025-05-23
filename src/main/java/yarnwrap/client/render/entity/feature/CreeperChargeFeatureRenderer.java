@@ -11,6 +11,6 @@ public class CreeperChargeFeatureRenderer { public net.minecraft.client.render.e
 // public static yarnwrap.client.render.entity.model.CreeperEntityModel model() { return new yarnwrap.client.render.entity.model.CreeperEntityModel(net.minecraft.client.render.entity.feature.CreeperChargeFeatureRenderer.model); }
 // public static void model(yarnwrap.client.render.entity.model.CreeperEntityModel value, ) { net.minecraft.client.render.entity.feature.CreeperChargeFeatureRenderer.model = value.wrapperContained; }
 
-public CreeperChargeFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.EntityModelLoader loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.CreeperChargeFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
+public CreeperChargeFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.LoadedEntityModels loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.CreeperChargeFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
 
 }

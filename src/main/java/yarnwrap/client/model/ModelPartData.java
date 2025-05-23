@@ -23,5 +23,13 @@ public yarnwrap.client.model.ModelPartData getChild(java.lang.String name) { ret
 // public static yarnwrap.client.model.ModelPartData getChild(java.lang.String name, ) { return new yarnwrap.client.model.ModelPartData(net.minecraft.client.model.ModelPartData.getChild(name)); }
 public yarnwrap.client.model.ModelPartData addChild(java.lang.String name,yarnwrap.client.model.ModelPartBuilder builder,yarnwrap.client.model.ModelTransform rotationData) { return new yarnwrap.client.model.ModelPartData(wrapperContained.addChild(name,builder.wrapperContained,rotationData.wrapperContained)); }
 // public static yarnwrap.client.model.ModelPartData addChild(java.lang.String name,yarnwrap.client.model.ModelPartBuilder builder,yarnwrap.client.model.ModelTransform rotationData, ) { return new yarnwrap.client.model.ModelPartData(net.minecraft.client.model.ModelPartData.addChild(name,builder.wrapperContained,rotationData.wrapperContained)); }
+public java.util.Set getChildren() { return wrapperContained.getChildren(); }
+// public static java.util.Set getChildren() { return net.minecraft.client.model.ModelPartData.getChildren(); }
+public yarnwrap.client.model.ModelPartData addChild(java.lang.String name) { return new yarnwrap.client.model.ModelPartData(wrapperContained.addChild(name)); }
+// public static yarnwrap.client.model.ModelPartData addChild(java.lang.String name, ) { return new yarnwrap.client.model.ModelPartData(net.minecraft.client.model.ModelPartData.addChild(name)); }
+public yarnwrap.client.model.ModelPartData addChild(java.lang.String name,yarnwrap.client.model.ModelPartData data) { return new yarnwrap.client.model.ModelPartData(wrapperContained.addChild(name,data.wrapperContained)); }
+// public static yarnwrap.client.model.ModelPartData addChild(java.lang.String name,yarnwrap.client.model.ModelPartData data, ) { return new yarnwrap.client.model.ModelPartData(net.minecraft.client.model.ModelPartData.addChild(name,data.wrapperContained)); }
+public yarnwrap.client.model.ModelPartData applyTransformer(java.util.function.UnaryOperator transformer) { return new yarnwrap.client.model.ModelPartData(wrapperContained.applyTransformer(transformer)); }
+// public static yarnwrap.client.model.ModelPartData applyTransformer(java.util.function.UnaryOperator transformer, ) { return new yarnwrap.client.model.ModelPartData(net.minecraft.client.model.ModelPartData.applyTransformer(transformer)); }
 
 }

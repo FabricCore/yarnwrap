@@ -31,21 +31,12 @@ public class ItemCommand { public net.minecraft.server.command.ItemCommand wrapp
 // public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType KNOWN_ITEM_EXCEPTION() { return net.minecraft.server.command.ItemCommand.KNOWN_ITEM_EXCEPTION; }
 // public static void KNOWN_ITEM_EXCEPTION(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value, ) { net.minecraft.server.command.ItemCommand.KNOWN_ITEM_EXCEPTION = value; }
 
-// public com.mojang.brigadier.suggestion.SuggestionProvider MODIFIER_SUGGESTION_PROVIDER() { return wrapperContained.MODIFIER_SUGGESTION_PROVIDER; }
-// public void MODIFIER_SUGGESTION_PROVIDER(com.mojang.brigadier.suggestion.SuggestionProvider value) { wrapperContained.MODIFIER_SUGGESTION_PROVIDER = value; }
-// public static com.mojang.brigadier.suggestion.SuggestionProvider MODIFIER_SUGGESTION_PROVIDER() { return net.minecraft.server.command.ItemCommand.MODIFIER_SUGGESTION_PROVIDER; }
-// public static void MODIFIER_SUGGESTION_PROVIDER(com.mojang.brigadier.suggestion.SuggestionProvider value, ) { net.minecraft.server.command.ItemCommand.MODIFIER_SUGGESTION_PROVIDER = value; }
-
 // public yarnwrap.item.ItemStack getStackInSlot(yarnwrap.entity.Entity entity,int slotId) { return new yarnwrap.item.ItemStack(wrapperContained.getStackInSlot(entity.wrapperContained,slotId)); }
 // public static yarnwrap.item.ItemStack getStackInSlot(yarnwrap.entity.Entity entity,int slotId, ) { return new yarnwrap.item.ItemStack(net.minecraft.server.command.ItemCommand.getStackInSlot(entity.wrapperContained,slotId)); }
 // public void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.command.CommandRegistryAccess commandRegistryAccess) { wrapperContained.register(dispatcher,commandRegistryAccess.wrapperContained); }
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.command.CommandRegistryAccess commandRegistryAccess, ) { net.minecraft.server.command.ItemCommand.register(dispatcher,commandRegistryAccess.wrapperContained); }
 // public int method_32708(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_32708(context); }
 // public static int method_32708(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.ItemCommand.method_32708(context); }
-// public java.util.concurrent.CompletableFuture method_32709(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_32709(context,builder); }
-// public static java.util.concurrent.CompletableFuture method_32709(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.command.ItemCommand.method_32709(context,builder); }
-// public boolean method_32710(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_32710(source.wrapperContained); }
-// public static boolean method_32710(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.ItemCommand.method_32710(source.wrapperContained); }
 // public int executeBlockCopyEntity(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity sourceEntity,int sourceSlot,yarnwrap.util.math.BlockPos pos,int slot) { return wrapperContained.executeBlockCopyEntity(source.wrapperContained,sourceEntity.wrapperContained,sourceSlot,pos.wrapperContained,slot); }
 // public static int executeBlockCopyEntity(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity sourceEntity,int sourceSlot,yarnwrap.util.math.BlockPos pos,int slot, ) { return net.minecraft.server.command.ItemCommand.executeBlockCopyEntity(source.wrapperContained,sourceEntity.wrapperContained,sourceSlot,pos.wrapperContained,slot); }
 // public int executeBlockCopyEntity(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.Entity sourceEntity,int sourceSlot,yarnwrap.util.math.BlockPos pos,int slot,yarnwrap.registry.entry.RegistryEntry lootFunction) { return wrapperContained.executeBlockCopyEntity(source.wrapperContained,sourceEntity.wrapperContained,sourceSlot,pos.wrapperContained,slot,lootFunction.wrapperContained); }

@@ -11,11 +11,6 @@ public class WorldTickScheduler { public net.minecraft.world.tick.WorldTickSched
 // public static java.util.function.LongPredicate tickingFutureReadyPredicate() { return net.minecraft.world.tick.WorldTickScheduler.tickingFutureReadyPredicate; }
 // public static void tickingFutureReadyPredicate(java.util.function.LongPredicate value, ) { net.minecraft.world.tick.WorldTickScheduler.tickingFutureReadyPredicate = value; }
 
-// public java.util.function.Supplier profilerGetter() { return wrapperContained.profilerGetter; }
-// public void profilerGetter(java.util.function.Supplier value) { wrapperContained.profilerGetter = value; }
-// public static java.util.function.Supplier profilerGetter() { return net.minecraft.world.tick.WorldTickScheduler.profilerGetter; }
-// public static void profilerGetter(java.util.function.Supplier value, ) { net.minecraft.world.tick.WorldTickScheduler.profilerGetter = value; }
-
 // public it.unimi.dsi.fastutil.longs.Long2ObjectMap chunkTickSchedulers() { return wrapperContained.chunkTickSchedulers; }
 // public void chunkTickSchedulers(it.unimi.dsi.fastutil.longs.Long2ObjectMap value) { wrapperContained.chunkTickSchedulers = value; }
 // public static it.unimi.dsi.fastutil.longs.Long2ObjectMap chunkTickSchedulers() { return net.minecraft.world.tick.WorldTickScheduler.chunkTickSchedulers; }
@@ -51,7 +46,7 @@ public class WorldTickScheduler { public net.minecraft.world.tick.WorldTickSched
 // public static java.util.function.BiConsumer queuedTickConsumer() { return net.minecraft.world.tick.WorldTickScheduler.queuedTickConsumer; }
 // public static void queuedTickConsumer(java.util.function.BiConsumer value, ) { net.minecraft.world.tick.WorldTickScheduler.queuedTickConsumer = value; }
 
-public WorldTickScheduler(java.util.function.LongPredicate tickingFutureReadyPredicate,java.util.function.Supplier profilerGetter) { this.wrapperContained = new net.minecraft.world.tick.WorldTickScheduler(tickingFutureReadyPredicate,profilerGetter); }
+public WorldTickScheduler(java.util.function.LongPredicate tickingFutureReadyPredicate) { this.wrapperContained = new net.minecraft.world.tick.WorldTickScheduler(tickingFutureReadyPredicate); }
 // public boolean isTickableTicksCountUnder(int maxTicks) { return wrapperContained.isTickableTicksCountUnder(maxTicks); }
 // public static boolean isTickableTicksCountUnder(int maxTicks, ) { return net.minecraft.world.tick.WorldTickScheduler.isTickableTicksCountUnder(maxTicks); }
 // public void collectTickableChunkTickSchedulers(long time) { wrapperContained.collectTickableChunkTickSchedulers(time); }

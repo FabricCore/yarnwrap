@@ -17,5 +17,9 @@ public java.util.Optional getPortalPos(yarnwrap.util.math.BlockPos pos,boolean d
 // public static java.util.Optional getPortalPos(yarnwrap.util.math.BlockPos pos,boolean destIsNether,yarnwrap.world.border.WorldBorder worldBorder, ) { return net.minecraft.world.dimension.PortalForcer.getPortalPos(pos.wrapperContained,destIsNether,worldBorder.wrapperContained); }
 // public boolean isBlockStateValid(Object pos) { return wrapperContained.isBlockStateValid(pos); }
 // public static boolean isBlockStateValid(Object pos, ) { return net.minecraft.world.dimension.PortalForcer.isBlockStateValid(pos); }
+// public boolean method_61028(yarnwrap.util.math.BlockPos portalPos) { return wrapperContained.method_61028(portalPos.wrapperContained); }
+// public static boolean method_61028(yarnwrap.util.math.BlockPos portalPos, ) { return net.minecraft.world.dimension.PortalForcer.method_61028(portalPos.wrapperContained); }
+// public double method_61029(yarnwrap.util.math.BlockPos portalPos) { return wrapperContained.method_61029(portalPos.wrapperContained); }
+// public static double method_61029(yarnwrap.util.math.BlockPos portalPos, ) { return net.minecraft.world.dimension.PortalForcer.method_61029(portalPos.wrapperContained); }
 
 }

@@ -3,7 +3,7 @@ public class RecipeBookProvider { public net.minecraft.client.gui.screen.recipeb
 
 public void refreshRecipeBook() { wrapperContained.refreshRecipeBook(); }
 // public static void refreshRecipeBook() { net.minecraft.client.gui.screen.recipebook.RecipeBookProvider.refreshRecipeBook(); }
-public yarnwrap.client.gui.screen.recipebook.RecipeBookWidget getRecipeBookWidget() { return new yarnwrap.client.gui.screen.recipebook.RecipeBookWidget(wrapperContained.getRecipeBookWidget()); }
-// public static yarnwrap.client.gui.screen.recipebook.RecipeBookWidget getRecipeBookWidget() { return new yarnwrap.client.gui.screen.recipebook.RecipeBookWidget(net.minecraft.client.gui.screen.recipebook.RecipeBookProvider.getRecipeBookWidget()); }
+public void onCraftFailed(yarnwrap.recipe.display.RecipeDisplay display) { wrapperContained.onCraftFailed(display.wrapperContained); }
+// public static void onCraftFailed(yarnwrap.recipe.display.RecipeDisplay display, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookProvider.onCraftFailed(display.wrapperContained); }
 
 }

@@ -1,16 +1,6 @@
 package yarnwrap.util.math;
 public class ChunkPos { public net.minecraft.util.math.ChunkPos wrapperContained; public ChunkPos(net.minecraft.util.math.ChunkPos wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public long MARKER() { return wrapperContained.MARKER; }
-// public void MARKER(long value) { wrapperContained.MARKER = value; }
-public static long MARKER() { return net.minecraft.util.math.ChunkPos.MARKER; }
-// public static void MARKER(long value, ) { net.minecraft.util.math.ChunkPos.MARKER = value; }
-
-// public yarnwrap.util.math.ChunkPos ORIGIN() { return new yarnwrap.util.math.ChunkPos(wrapperContained.ORIGIN); }
-// public void ORIGIN(yarnwrap.util.math.ChunkPos value) { wrapperContained.ORIGIN = value.wrapperContained; }
-public static yarnwrap.util.math.ChunkPos ORIGIN() { return new yarnwrap.util.math.ChunkPos(net.minecraft.util.math.ChunkPos.ORIGIN); }
-// public static void ORIGIN(yarnwrap.util.math.ChunkPos value, ) { net.minecraft.util.math.ChunkPos.ORIGIN = value.wrapperContained; }
-
 public int z() { return wrapperContained.z; }
 // public void z(int value) { wrapperContained.z = value; }
 // public static int z() { return net.minecraft.util.math.ChunkPos.z; }
@@ -21,11 +11,54 @@ public int x() { return wrapperContained.x; }
 // public static int x() { return net.minecraft.util.math.ChunkPos.x; }
 // public static void x(int value, ) { net.minecraft.util.math.ChunkPos.x = value; }
 
+// public long MARKER() { return wrapperContained.MARKER; }
+// public void MARKER(long value) { wrapperContained.MARKER = value; }
+public static long MARKER() { return net.minecraft.util.math.ChunkPos.MARKER; }
+// public static void MARKER(long value, ) { net.minecraft.util.math.ChunkPos.MARKER = value; }
+
+// public yarnwrap.util.math.ChunkPos ORIGIN() { return new yarnwrap.util.math.ChunkPos(wrapperContained.ORIGIN); }
+// public void ORIGIN(yarnwrap.util.math.ChunkPos value) { wrapperContained.ORIGIN = value.wrapperContained; }
+public static yarnwrap.util.math.ChunkPos ORIGIN() { return new yarnwrap.util.math.ChunkPos(net.minecraft.util.math.ChunkPos.ORIGIN); }
+// public static void ORIGIN(yarnwrap.util.math.ChunkPos value, ) { net.minecraft.util.math.ChunkPos.ORIGIN = value.wrapperContained; }
+
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.util.math.ChunkPos.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.util.math.ChunkPos.CODEC = value; }
+
+// public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
+// public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.util.math.ChunkPos.PACKET_CODEC); }
+// public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.util.math.ChunkPos.PACKET_CODEC = value.wrapperContained; }
+
+// public int MAX_COORDINATE() { return wrapperContained.MAX_COORDINATE; }
+// public void MAX_COORDINATE(int value) { wrapperContained.MAX_COORDINATE = value; }
+public static int MAX_COORDINATE() { return net.minecraft.util.math.ChunkPos.MAX_COORDINATE; }
+// public static void MAX_COORDINATE(int value, ) { net.minecraft.util.math.ChunkPos.MAX_COORDINATE = value; }
+
 public ChunkPos(int x,int z) { this.wrapperContained = new net.minecraft.util.math.ChunkPos(x,z); }
 public ChunkPos(long pos) { this.wrapperContained = new net.minecraft.util.math.ChunkPos(pos); }
 public ChunkPos(yarnwrap.util.math.BlockPos pos) { this.wrapperContained = new net.minecraft.util.math.ChunkPos(pos.wrapperContained); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.util.math.ChunkPos.equals(o); }
+public yarnwrap.util.math.BlockPos getStartPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getStartPos()); }
+// public static yarnwrap.util.math.BlockPos getStartPos() { return new yarnwrap.util.math.BlockPos(net.minecraft.util.math.ChunkPos.getStartPos()); }
+public long toLong() { return wrapperContained.toLong(); }
+// public static long toLong() { return net.minecraft.util.math.ChunkPos.toLong(); }
+// public int getPackedX(long pos) { return wrapperContained.getPackedX(pos); }
+// public static int getPackedX(long pos, ) { return net.minecraft.util.math.ChunkPos.getPackedX(pos); }
+public int getStartX() { return wrapperContained.getStartX(); }
+// public static int getStartX() { return net.minecraft.util.math.ChunkPos.getStartX(); }
+public int getEndX() { return wrapperContained.getEndX(); }
+// public static int getEndX() { return net.minecraft.util.math.ChunkPos.getEndX(); }
+public int getStartZ() { return wrapperContained.getStartZ(); }
+// public static int getStartZ() { return net.minecraft.util.math.ChunkPos.getStartZ(); }
+public int getEndZ() { return wrapperContained.getEndZ(); }
+// public static int getEndZ() { return net.minecraft.util.math.ChunkPos.getEndZ(); }
+// public long toLong(int chunkX,int chunkZ) { return wrapperContained.toLong(chunkX,chunkZ); }
+// public static long toLong(int chunkX,int chunkZ, ) { return net.minecraft.util.math.ChunkPos.toLong(chunkX,chunkZ); }
+// public int getPackedZ(long pos) { return wrapperContained.getPackedZ(pos); }
+// public static int getPackedZ(long pos, ) { return net.minecraft.util.math.ChunkPos.getPackedZ(pos); }
 public int getRegionX() { return wrapperContained.getRegionX(); }
 // public static int getRegionX() { return net.minecraft.util.math.ChunkPos.getRegionX(); }
 public int getRegionZ() { return wrapperContained.getRegionZ(); }
@@ -68,23 +101,11 @@ public int getSquaredDistance(long pos) { return wrapperContained.getSquaredDist
 // public static int getSquaredDistance(int x,int z, ) { return net.minecraft.util.math.ChunkPos.getSquaredDistance(x,z); }
 public int getChebyshevDistance(int x,int z) { return wrapperContained.getChebyshevDistance(x,z); }
 // public static int getChebyshevDistance(int x,int z, ) { return net.minecraft.util.math.ChunkPos.getChebyshevDistance(x,z); }
-public yarnwrap.util.math.BlockPos getStartPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getStartPos()); }
-// public static yarnwrap.util.math.BlockPos getStartPos() { return new yarnwrap.util.math.BlockPos(net.minecraft.util.math.ChunkPos.getStartPos()); }
-public long toLong() { return wrapperContained.toLong(); }
-// public static long toLong() { return net.minecraft.util.math.ChunkPos.toLong(); }
-// public int getPackedX(long pos) { return wrapperContained.getPackedX(pos); }
-// public static int getPackedX(long pos, ) { return net.minecraft.util.math.ChunkPos.getPackedX(pos); }
-public int getStartX() { return wrapperContained.getStartX(); }
-// public static int getStartX() { return net.minecraft.util.math.ChunkPos.getStartX(); }
-public int getEndX() { return wrapperContained.getEndX(); }
-// public static int getEndX() { return net.minecraft.util.math.ChunkPos.getEndX(); }
-public int getStartZ() { return wrapperContained.getStartZ(); }
-// public static int getStartZ() { return net.minecraft.util.math.ChunkPos.getStartZ(); }
-public int getEndZ() { return wrapperContained.getEndZ(); }
-// public static int getEndZ() { return net.minecraft.util.math.ChunkPos.getEndZ(); }
-// public long toLong(int chunkX,int chunkZ) { return wrapperContained.toLong(chunkX,chunkZ); }
-// public static long toLong(int chunkX,int chunkZ, ) { return net.minecraft.util.math.ChunkPos.toLong(chunkX,chunkZ); }
-// public int getPackedZ(long pos) { return wrapperContained.getPackedZ(pos); }
-// public static int getPackedZ(long pos, ) { return net.minecraft.util.math.ChunkPos.getPackedZ(pos); }
+// public com.mojang.serialization.DataResult method_64211(java.util.stream.IntStream stream) { return wrapperContained.method_64211(stream); }
+// public static com.mojang.serialization.DataResult method_64211(java.util.stream.IntStream stream, ) { return net.minecraft.util.math.ChunkPos.method_64211(stream); }
+// public yarnwrap.util.math.ChunkPos method_64212(int coords) { return new yarnwrap.util.math.ChunkPos(wrapperContained.method_64212(coords)); }
+// public static yarnwrap.util.math.ChunkPos method_64212(int coords, ) { return new yarnwrap.util.math.ChunkPos(net.minecraft.util.math.ChunkPos.method_64212(coords)); }
+// public java.util.stream.IntStream method_64213(yarnwrap.util.math.ChunkPos chunkPos) { return wrapperContained.method_64213(chunkPos.wrapperContained); }
+// public static java.util.stream.IntStream method_64213(yarnwrap.util.math.ChunkPos chunkPos, ) { return net.minecraft.util.math.ChunkPos.method_64213(chunkPos.wrapperContained); }
 
 }

@@ -35,8 +35,8 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.w
 // public RuinedPortalStructure(Object config,Object setup) { this.wrapperContained = new net.minecraft.world.gen.structure.RuinedPortalStructure(config,setup); }
 // public yarnwrap.world.gen.chunk.VerticalBlockSample method_27205(yarnwrap.world.gen.chunk.ChunkGenerator pos) { return new yarnwrap.world.gen.chunk.VerticalBlockSample(wrapperContained.method_27205(pos.wrapperContained)); }
 // public static yarnwrap.world.gen.chunk.VerticalBlockSample method_27205(yarnwrap.world.gen.chunk.ChunkGenerator pos, ) { return new yarnwrap.world.gen.chunk.VerticalBlockSample(net.minecraft.world.gen.structure.RuinedPortalStructure.method_27205(pos.wrapperContained)); }
-// public boolean isColdAt(yarnwrap.util.math.BlockPos pos,yarnwrap.registry.entry.RegistryEntry biome) { return wrapperContained.isColdAt(pos.wrapperContained,biome.wrapperContained); }
-// public static boolean isColdAt(yarnwrap.util.math.BlockPos pos,yarnwrap.registry.entry.RegistryEntry biome, ) { return net.minecraft.world.gen.structure.RuinedPortalStructure.isColdAt(pos.wrapperContained,biome.wrapperContained); }
+// public boolean isColdAt(yarnwrap.util.math.BlockPos pos,yarnwrap.registry.entry.RegistryEntry biome,int seaLevel) { return wrapperContained.isColdAt(pos.wrapperContained,biome.wrapperContained,seaLevel); }
+// public static boolean isColdAt(yarnwrap.util.math.BlockPos pos,yarnwrap.registry.entry.RegistryEntry biome,int seaLevel, ) { return net.minecraft.world.gen.structure.RuinedPortalStructure.isColdAt(pos.wrapperContained,biome.wrapperContained,seaLevel); }
 // public int choosePlacementHeight(yarnwrap.util.math.random.Random random,int min,int max) { return wrapperContained.choosePlacementHeight(random.wrapperContained,min,max); }
 // public static int choosePlacementHeight(yarnwrap.util.math.random.Random random,int min,int max, ) { return net.minecraft.world.gen.structure.RuinedPortalStructure.choosePlacementHeight(random.wrapperContained,min,max); }
 // public int getFloorHeight(yarnwrap.util.math.random.Random random,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,Object verticalPlacement,boolean airPocket,int height,int blockCountY,yarnwrap.util.math.BlockBox box,yarnwrap.world.HeightLimitView world,yarnwrap.world.gen.noise.NoiseConfig noiseConfig) { return wrapperContained.getFloorHeight(random.wrapperContained,chunkGenerator.wrapperContained,verticalPlacement,airPocket,height,blockCountY,box.wrapperContained,world.wrapperContained,noiseConfig.wrapperContained); }
@@ -47,5 +47,7 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.w
 // public static void method_41683(Object collector, ) { net.minecraft.world.gen.structure.RuinedPortalStructure.method_41683(collector); }
 // public java.util.List method_41684(yarnwrap.world.gen.structure.RuinedPortalStructure structure) { return wrapperContained.method_41684(structure.wrapperContained); }
 // public static java.util.List method_41684(yarnwrap.world.gen.structure.RuinedPortalStructure structure, ) { return net.minecraft.world.gen.structure.RuinedPortalStructure.method_41684(structure.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_41685(Object instance) { return wrapperContained.method_41685(instance); }
+// public static com.mojang.datafixers.kinds.App method_41685(Object instance, ) { return net.minecraft.world.gen.structure.RuinedPortalStructure.method_41685(instance); }
 
 }

@@ -16,30 +16,20 @@ public class BigDripleafBlock { public net.minecraft.block.BigDripleafBlock wrap
 // public static it.unimi.dsi.fastutil.objects.Object2IntMap NEXT_TILT_DELAYS() { return net.minecraft.block.BigDripleafBlock.NEXT_TILT_DELAYS; }
 // public static void NEXT_TILT_DELAYS(it.unimi.dsi.fastutil.objects.Object2IntMap value, ) { net.minecraft.block.BigDripleafBlock.NEXT_TILT_DELAYS = value; }
 
-// public java.util.Map SHAPES_FOR_TILT() { return wrapperContained.SHAPES_FOR_TILT; }
-// public void SHAPES_FOR_TILT(java.util.Map value) { wrapperContained.SHAPES_FOR_TILT = value; }
-// public static java.util.Map SHAPES_FOR_TILT() { return net.minecraft.block.BigDripleafBlock.SHAPES_FOR_TILT; }
-// public static void SHAPES_FOR_TILT(java.util.Map value, ) { net.minecraft.block.BigDripleafBlock.SHAPES_FOR_TILT = value; }
-
-// public java.util.Map SHAPES_FOR_DIRECTION() { return wrapperContained.SHAPES_FOR_DIRECTION; }
-// public void SHAPES_FOR_DIRECTION(java.util.Map value) { wrapperContained.SHAPES_FOR_DIRECTION = value; }
-// public static java.util.Map SHAPES_FOR_DIRECTION() { return net.minecraft.block.BigDripleafBlock.SHAPES_FOR_DIRECTION; }
-// public static void SHAPES_FOR_DIRECTION(java.util.Map value, ) { net.minecraft.block.BigDripleafBlock.SHAPES_FOR_DIRECTION = value; }
-
-// public java.util.Map shapes() { return wrapperContained.shapes; }
-// public void shapes(java.util.Map value) { wrapperContained.shapes = value; }
-// public static java.util.Map shapes() { return net.minecraft.block.BigDripleafBlock.shapes; }
-// public static void shapes(java.util.Map value, ) { net.minecraft.block.BigDripleafBlock.shapes = value; }
-
-// public yarnwrap.util.shape.VoxelShape BASE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.BASE_SHAPE); }
-// public void BASE_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.BASE_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape BASE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.BigDripleafBlock.BASE_SHAPE); }
-// public static void BASE_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.BigDripleafBlock.BASE_SHAPE = value.wrapperContained; }
-
 // public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.BigDripleafBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.BigDripleafBlock.CODEC = value; }
+
+// public java.util.Map SHAPES_BY_TILT() { return wrapperContained.SHAPES_BY_TILT; }
+// public void SHAPES_BY_TILT(java.util.Map value) { wrapperContained.SHAPES_BY_TILT = value; }
+// public static java.util.Map SHAPES_BY_TILT() { return net.minecraft.block.BigDripleafBlock.SHAPES_BY_TILT; }
+// public static void SHAPES_BY_TILT(java.util.Map value, ) { net.minecraft.block.BigDripleafBlock.SHAPES_BY_TILT = value; }
+
+// public java.util.function.Function shapeFunction() { return wrapperContained.shapeFunction; }
+// public void shapeFunction(java.util.function.Function value) { wrapperContained.shapeFunction = value; }
+// public static java.util.function.Function shapeFunction() { return net.minecraft.block.BigDripleafBlock.shapeFunction; }
+// public static void shapeFunction(java.util.function.Function value, ) { net.minecraft.block.BigDripleafBlock.shapeFunction = value; }
 
 // public void playTiltSound(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.sound.SoundEvent soundEvent) { wrapperContained.playTiltSound(world.wrapperContained,pos.wrapperContained,soundEvent.wrapperContained); }
 // public static void playTiltSound(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.sound.SoundEvent soundEvent, ) { net.minecraft.block.BigDripleafBlock.playTiltSound(world.wrapperContained,pos.wrapperContained,soundEvent.wrapperContained); }
@@ -55,13 +45,15 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static void method_33609(it.unimi.dsi.fastutil.objects.Object2IntArrayMap delays, ) { net.minecraft.block.BigDripleafBlock.method_33609(delays); }
 // public void resetTilt(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.resetTilt(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
 // public static void resetTilt(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.BigDripleafBlock.resetTilt(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
-// public yarnwrap.util.shape.VoxelShape getShapeForState(yarnwrap.block.BlockState state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getShapeForState(state.wrapperContained)); }
-// public static yarnwrap.util.shape.VoxelShape getShapeForState(yarnwrap.block.BlockState state, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.BigDripleafBlock.getShapeForState(state.wrapperContained)); }
 // public boolean canGrowInto(yarnwrap.world.HeightLimitView world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { return wrapperContained.canGrowInto(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public static boolean canGrowInto(yarnwrap.world.HeightLimitView world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { return net.minecraft.block.BigDripleafBlock.canGrowInto(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public boolean placeDripleafAt(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.FluidState fluidState,yarnwrap.util.math.Direction direction) { return wrapperContained.placeDripleafAt(world.wrapperContained,pos.wrapperContained,fluidState.wrapperContained,direction.wrapperContained); }
 // public static boolean placeDripleafAt(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.fluid.FluidState fluidState,yarnwrap.util.math.Direction direction, ) { return net.minecraft.block.BigDripleafBlock.placeDripleafAt(world.wrapperContained,pos.wrapperContained,fluidState.wrapperContained,direction.wrapperContained); }
 // public boolean canGrowInto(yarnwrap.block.BlockState state) { return wrapperContained.canGrowInto(state.wrapperContained); }
 // public static boolean canGrowInto(yarnwrap.block.BlockState state, ) { return net.minecraft.block.BigDripleafBlock.canGrowInto(state.wrapperContained); }
+// public yarnwrap.util.shape.VoxelShape method_66391(java.util.Map state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_66391(state)); }
+// public static yarnwrap.util.shape.VoxelShape method_66391(java.util.Map state, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.BigDripleafBlock.method_66391(state)); }
+// public java.util.function.Function createShapeFunction() { return wrapperContained.createShapeFunction(); }
+// public static java.util.function.Function createShapeFunction() { return net.minecraft.block.BigDripleafBlock.createShapeFunction(); }
 
 }

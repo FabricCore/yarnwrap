@@ -11,19 +11,15 @@ public static org.slf4j.Logger LOGGER() { return net.minecraft.registry.DynamicR
 // public static Object EMPTY() { return net.minecraft.registry.DynamicRegistryManager.EMPTY; }
 // // public static void EMPTY(Object value, ) { net.minecraft.registry.DynamicRegistryManager.EMPTY = value; }
 
-public yarnwrap.registry.Registry get(yarnwrap.registry.RegistryKey key) { return new yarnwrap.registry.Registry(wrapperContained.get(key.wrapperContained)); }
+// public yarnwrap.registry.Registry get(yarnwrap.registry.RegistryKey key) { return new yarnwrap.registry.Registry(wrapperContained.get(key.wrapperContained)); }
 // public static yarnwrap.registry.Registry get(yarnwrap.registry.RegistryKey key, ) { return new yarnwrap.registry.Registry(net.minecraft.registry.DynamicRegistryManager.get(key.wrapperContained)); }
-public java.util.Optional getOptional(yarnwrap.registry.RegistryKey key) { return wrapperContained.getOptional(key.wrapperContained); }
-// public static java.util.Optional getOptional(yarnwrap.registry.RegistryKey key, ) { return net.minecraft.registry.DynamicRegistryManager.getOptional(key.wrapperContained); }
 // public Object of(yarnwrap.registry.Registry registries) { return wrapperContained.of(registries.wrapperContained); }
 // public static Object of(yarnwrap.registry.Registry registries, ) { return net.minecraft.registry.DynamicRegistryManager.of(registries.wrapperContained); }
 public java.util.stream.Stream streamAllRegistries() { return wrapperContained.streamAllRegistries(); }
 // public static java.util.stream.Stream streamAllRegistries() { return net.minecraft.registry.DynamicRegistryManager.streamAllRegistries(); }
 public Object toImmutable() { return wrapperContained.toImmutable(); }
 // public static Object toImmutable() { return net.minecraft.registry.DynamicRegistryManager.toImmutable(); }
-// public com.mojang.serialization.Lifecycle method_41200(Object entry) { return wrapperContained.method_41200(entry); }
-// public static com.mojang.serialization.Lifecycle method_41200(Object entry, ) { return net.minecraft.registry.DynamicRegistryManager.method_41200(entry); }
-public com.mojang.serialization.Lifecycle getRegistryLifecycle() { return wrapperContained.getRegistryLifecycle(); }
-// public static com.mojang.serialization.Lifecycle getRegistryLifecycle() { return net.minecraft.registry.DynamicRegistryManager.getRegistryLifecycle(); }
+// public yarnwrap.registry.RegistryKey method_62703(Object registry) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_62703(registry)); }
+// public static yarnwrap.registry.RegistryKey method_62703(Object registry, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.registry.DynamicRegistryManager.method_62703(registry)); }
 
 }

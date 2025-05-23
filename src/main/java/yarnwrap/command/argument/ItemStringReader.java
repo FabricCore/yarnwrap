@@ -56,10 +56,10 @@ public static char EQUAL_SIGN() { return net.minecraft.command.argument.ItemStri
 // // public static Object itemRegistry() { return net.minecraft.command.argument.ItemStringReader.itemRegistry; }
 // // public static void itemRegistry(Object value, ) { net.minecraft.command.argument.ItemStringReader.itemRegistry = value; }
 
-// public com.mojang.serialization.DynamicOps nbtOps() { return wrapperContained.nbtOps; }
-// public void nbtOps(com.mojang.serialization.DynamicOps value) { wrapperContained.nbtOps = value; }
-// public static com.mojang.serialization.DynamicOps nbtOps() { return net.minecraft.command.argument.ItemStringReader.nbtOps; }
-// public static void nbtOps(com.mojang.serialization.DynamicOps value, ) { net.minecraft.command.argument.ItemStringReader.nbtOps = value; }
+// public yarnwrap.registry.RegistryOps ops() { return new yarnwrap.registry.RegistryOps(wrapperContained.ops); }
+// public void ops(yarnwrap.registry.RegistryOps value) { wrapperContained.ops = value.wrapperContained; }
+// public static yarnwrap.registry.RegistryOps ops() { return new yarnwrap.registry.RegistryOps(net.minecraft.command.argument.ItemStringReader.ops); }
+// public static void ops(yarnwrap.registry.RegistryOps value, ) { net.minecraft.command.argument.ItemStringReader.ops = value.wrapperContained; }
 
 // public com.mojang.brigadier.exceptions.DynamicCommandExceptionType MALFORMED_ITEM_EXCEPTION() { return wrapperContained.MALFORMED_ITEM_EXCEPTION; }
 // public void MALFORMED_ITEM_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.MALFORMED_ITEM_EXCEPTION = value; }
@@ -71,8 +71,17 @@ public static char EQUAL_SIGN() { return net.minecraft.command.argument.ItemStri
 public static char EXCLAMATION_MARK() { return net.minecraft.command.argument.ItemStringReader.EXCLAMATION_MARK; }
 // public static void EXCLAMATION_MARK(char value, ) { net.minecraft.command.argument.ItemStringReader.EXCLAMATION_MARK = value; }
 
-// public ItemStringReader(Object registryLookup) { this.wrapperContained = new net.minecraft.command.argument.ItemStringReader(registryLookup); }
-// public void consume(com.mojang.brigadier.StringReader reader,Object callbacks) { wrapperContained.consume(reader,callbacks); }
+// public yarnwrap.nbt.StringNbtReader snbtReader() { return new yarnwrap.nbt.StringNbtReader(wrapperContained.snbtReader); }
+// public void snbtReader(yarnwrap.nbt.StringNbtReader value) { wrapperContained.snbtReader = value.wrapperContained; }
+// public static yarnwrap.nbt.StringNbtReader snbtReader() { return new yarnwrap.nbt.StringNbtReader(net.minecraft.command.argument.ItemStringReader.snbtReader); }
+// public static void snbtReader(yarnwrap.nbt.StringNbtReader value, ) { net.minecraft.command.argument.ItemStringReader.snbtReader = value.wrapperContained; }
+
+// public ItemStringReader(Object registries) { this.wrapperContained = new net.minecraft.command.argument.ItemStringReader(registries); }
+// public Object consume(com.mojang.brigadier.StringReader reader) { return wrapperContained.consume(reader); }
+// public static Object consume(com.mojang.brigadier.StringReader reader, ) { return net.minecraft.command.argument.ItemStringReader.consume(reader); }
+public java.util.concurrent.CompletableFuture getSuggestions(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.getSuggestions(builder); }
+// public static java.util.concurrent.CompletableFuture getSuggestions(com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.command.argument.ItemStringReader.getSuggestions(builder); }
+// // public void consume(com.mojang.brigadier.StringReader reader,Object callbacks) { wrapperContained.consume(reader,callbacks); }
 // public static void consume(com.mojang.brigadier.StringReader reader,Object callbacks, ) { net.minecraft.command.argument.ItemStringReader.consume(reader,callbacks); }
 // public com.mojang.brigadier.Message method_58518(java.lang.Object type) { return wrapperContained.method_58518(type); }
 // public static com.mojang.brigadier.Message method_58518(java.lang.Object type, ) { return net.minecraft.command.argument.ItemStringReader.method_58518(type); }
@@ -88,9 +97,5 @@ public static char EXCLAMATION_MARK() { return net.minecraft.command.argument.It
 // public static void validate(com.mojang.brigadier.StringReader reader,yarnwrap.registry.entry.RegistryEntry item,yarnwrap.component.ComponentChanges components, ) { net.minecraft.command.argument.ItemStringReader.validate(reader,item.wrapperContained,components.wrapperContained); }
 // public com.mojang.brigadier.Message method_59770(java.lang.Object error) { return wrapperContained.method_59770(error); }
 // public static com.mojang.brigadier.Message method_59770(java.lang.Object error, ) { return net.minecraft.command.argument.ItemStringReader.method_59770(error); }
-// public Object consume(com.mojang.brigadier.StringReader reader) { return wrapperContained.consume(reader); }
-// // public static Object consume(com.mojang.brigadier.StringReader reader, ) { return net.minecraft.command.argument.ItemStringReader.consume(reader); }
-public java.util.concurrent.CompletableFuture getSuggestions(com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.getSuggestions(builder); }
-// public static java.util.concurrent.CompletableFuture getSuggestions(com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.command.argument.ItemStringReader.getSuggestions(builder); }
 
 }

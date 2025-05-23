@@ -6,6 +6,11 @@ public class MacWindowUtil { public net.minecraft.client.util.MacWindowUtil wrap
 // public static int FULLSCREEN_MASK() { return net.minecraft.client.util.MacWindowUtil.FULLSCREEN_MASK; }
 // public static void FULLSCREEN_MASK(int value, ) { net.minecraft.client.util.MacWindowUtil.FULLSCREEN_MASK = value; }
 
+// public boolean IS_MAC() { return wrapperContained.IS_MAC; }
+// public void IS_MAC(boolean value) { wrapperContained.IS_MAC = value; }
+public static boolean IS_MAC() { return net.minecraft.client.util.MacWindowUtil.IS_MAC; }
+// public static void IS_MAC(boolean value, ) { net.minecraft.client.util.MacWindowUtil.IS_MAC = value; }
+
 // public void toggleFullscreen(long handle) { wrapperContained.toggleFullscreen(handle); }
 // public static void toggleFullscreen(long handle, ) { net.minecraft.client.util.MacWindowUtil.toggleFullscreen(handle); }
 // public boolean isFullscreen(ca.weblite.objc.NSObject handle) { return wrapperContained.isFullscreen(handle); }

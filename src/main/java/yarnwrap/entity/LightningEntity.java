@@ -1,16 +1,6 @@
 package yarnwrap.entity;
 public class LightningEntity { public net.minecraft.entity.LightningEntity wrapperContained; public LightningEntity(net.minecraft.entity.LightningEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.Set struckEntities() { return wrapperContained.struckEntities; }
-// public void struckEntities(java.util.Set value) { wrapperContained.struckEntities = value; }
-// public static java.util.Set struckEntities() { return net.minecraft.entity.LightningEntity.struckEntities; }
-// public static void struckEntities(java.util.Set value, ) { net.minecraft.entity.LightningEntity.struckEntities = value; }
-
-// public int blocksSetOnFire() { return wrapperContained.blocksSetOnFire; }
-// public void blocksSetOnFire(int value) { wrapperContained.blocksSetOnFire = value; }
-// public static int blocksSetOnFire() { return net.minecraft.entity.LightningEntity.blocksSetOnFire; }
-// public static void blocksSetOnFire(int value, ) { net.minecraft.entity.LightningEntity.blocksSetOnFire = value; }
-
 // public yarnwrap.server.network.ServerPlayerEntity channeler() { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.channeler); }
 // public void channeler(yarnwrap.server.network.ServerPlayerEntity value) { wrapperContained.channeler = value.wrapperContained; }
 // public static yarnwrap.server.network.ServerPlayerEntity channeler() { return new yarnwrap.server.network.ServerPlayerEntity(net.minecraft.entity.LightningEntity.channeler); }
@@ -36,6 +26,20 @@ public void seed(long value) { wrapperContained.seed = value; }
 // public static long seed() { return net.minecraft.entity.LightningEntity.seed; }
 // public static void seed(long value, ) { net.minecraft.entity.LightningEntity.seed = value; }
 
+// public java.util.Set struckEntities() { return wrapperContained.struckEntities; }
+// public void struckEntities(java.util.Set value) { wrapperContained.struckEntities = value; }
+// public static java.util.Set struckEntities() { return net.minecraft.entity.LightningEntity.struckEntities; }
+// public static void struckEntities(java.util.Set value, ) { net.minecraft.entity.LightningEntity.struckEntities = value; }
+
+// public int blocksSetOnFire() { return wrapperContained.blocksSetOnFire; }
+// public void blocksSetOnFire(int value) { wrapperContained.blocksSetOnFire = value; }
+// public static int blocksSetOnFire() { return net.minecraft.entity.LightningEntity.blocksSetOnFire; }
+// public static void blocksSetOnFire(int value, ) { net.minecraft.entity.LightningEntity.blocksSetOnFire = value; }
+
+// public void spawnFire(int spreadAttempts) { wrapperContained.spawnFire(spreadAttempts); }
+// public static void spawnFire(int spreadAttempts, ) { net.minecraft.entity.LightningEntity.spawnFire(spreadAttempts); }
+public void setChanneler(yarnwrap.server.network.ServerPlayerEntity channeler) { wrapperContained.setChanneler(channeler.wrapperContained); }
+// public static void setChanneler(yarnwrap.server.network.ServerPlayerEntity channeler, ) { net.minecraft.entity.LightningEntity.setChanneler(channeler.wrapperContained); }
 public void setCosmetic(boolean cosmetic) { wrapperContained.setCosmetic(cosmetic); }
 // public static void setCosmetic(boolean cosmetic, ) { net.minecraft.entity.LightningEntity.setCosmetic(cosmetic); }
 // public void powerLightningRod() { wrapperContained.powerLightningRod(); }
@@ -56,9 +60,5 @@ public int getBlocksSetOnFire() { return wrapperContained.getBlocksSetOnFire(); 
 // public static int getBlocksSetOnFire() { return net.minecraft.entity.LightningEntity.getBlocksSetOnFire(); }
 public java.util.stream.Stream getStruckEntities() { return wrapperContained.getStruckEntities(); }
 // public static java.util.stream.Stream getStruckEntities() { return net.minecraft.entity.LightningEntity.getStruckEntities(); }
-// public void spawnFire(int spreadAttempts) { wrapperContained.spawnFire(spreadAttempts); }
-// public static void spawnFire(int spreadAttempts, ) { net.minecraft.entity.LightningEntity.spawnFire(spreadAttempts); }
-public void setChanneler(yarnwrap.server.network.ServerPlayerEntity channeler) { wrapperContained.setChanneler(channeler.wrapperContained); }
-// public static void setChanneler(yarnwrap.server.network.ServerPlayerEntity channeler, ) { net.minecraft.entity.LightningEntity.setChanneler(channeler.wrapperContained); }
 
 }

@@ -11,5 +11,7 @@ public class ShortPlantBlock { public net.minecraft.block.ShortPlantBlock wrappe
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.ShortPlantBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.ShortPlantBlock.CODEC = value; }
 
+// public yarnwrap.block.TallPlantBlock getLargeVariant(yarnwrap.block.BlockState state) { return new yarnwrap.block.TallPlantBlock(wrapperContained.getLargeVariant(state.wrapperContained)); }
+// public static yarnwrap.block.TallPlantBlock getLargeVariant(yarnwrap.block.BlockState state, ) { return new yarnwrap.block.TallPlantBlock(net.minecraft.block.ShortPlantBlock.getLargeVariant(state.wrapperContained)); }
 
 }

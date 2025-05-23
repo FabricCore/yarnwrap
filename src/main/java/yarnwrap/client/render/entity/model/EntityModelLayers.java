@@ -56,10 +56,10 @@ public static yarnwrap.client.render.entity.model.EntityModelLayer PLAYER_SLIM_I
 public static yarnwrap.client.render.entity.model.EntityModelLayer PLAYER_SLIM_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.PLAYER_SLIM_OUTER_ARMOR); }
 // public static void PLAYER_SLIM_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.PLAYER_SLIM_OUTER_ARMOR = value.wrapperContained; }
 
-// public yarnwrap.client.render.entity.model.EntityModelLayer SHEEP_FUR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.SHEEP_FUR); }
-// public void SHEEP_FUR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.SHEEP_FUR = value.wrapperContained; }
-public static yarnwrap.client.render.entity.model.EntityModelLayer SHEEP_FUR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.SHEEP_FUR); }
-// public static void SHEEP_FUR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.SHEEP_FUR = value.wrapperContained; }
+// public yarnwrap.client.render.entity.model.EntityModelLayer SHEEP_WOOL() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.SHEEP_WOOL); }
+// public void SHEEP_WOOL(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.SHEEP_WOOL = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer SHEEP_WOOL() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.SHEEP_WOOL); }
+// public static void SHEEP_WOOL(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.SHEEP_WOOL = value.wrapperContained; }
 
 // public yarnwrap.client.render.entity.model.EntityModelLayer HUSK_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.HUSK_INNER_ARMOR); }
 // public void HUSK_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.HUSK_INNER_ARMOR = value.wrapperContained; }
@@ -241,12 +241,198 @@ public static yarnwrap.client.render.entity.model.EntityModelLayer BOGGED_OUTER_
 public static yarnwrap.client.render.entity.model.EntityModelLayer BOGGED_OUTER() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.BOGGED_OUTER); }
 // public static void BOGGED_OUTER(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.BOGGED_OUTER = value.wrapperContained; }
 
+// public yarnwrap.client.render.entity.model.EntityModelLayer CAT_BABY_COLLAR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.CAT_BABY_COLLAR); }
+// public void CAT_BABY_COLLAR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.CAT_BABY_COLLAR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer CAT_BABY_COLLAR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.CAT_BABY_COLLAR); }
+// public static void CAT_BABY_COLLAR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.CAT_BABY_COLLAR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer HUSK_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.HUSK_BABY_INNER_ARMOR); }
+// public void HUSK_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.HUSK_BABY_INNER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer HUSK_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.HUSK_BABY_INNER_ARMOR); }
+// public static void HUSK_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.HUSK_BABY_INNER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer HUSK_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.HUSK_BABY_OUTER_ARMOR); }
+// public void HUSK_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.HUSK_BABY_OUTER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer HUSK_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.HUSK_BABY_OUTER_ARMOR); }
+// public static void HUSK_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.HUSK_BABY_OUTER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer DROWNED_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.DROWNED_BABY_INNER_ARMOR); }
+// public void DROWNED_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.DROWNED_BABY_INNER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer DROWNED_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.DROWNED_BABY_INNER_ARMOR); }
+// public static void DROWNED_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.DROWNED_BABY_INNER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer DROWNED_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.DROWNED_BABY_OUTER_ARMOR); }
+// public void DROWNED_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.DROWNED_BABY_OUTER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer DROWNED_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.DROWNED_BABY_OUTER_ARMOR); }
+// public static void DROWNED_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.DROWNED_BABY_OUTER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer DROWNED_BABY_OUTER() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.DROWNED_BABY_OUTER); }
+// public void DROWNED_BABY_OUTER(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.DROWNED_BABY_OUTER = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer DROWNED_BABY_OUTER() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.DROWNED_BABY_OUTER); }
+// public static void DROWNED_BABY_OUTER(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.DROWNED_BABY_OUTER = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer PIGLIN_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.PIGLIN_BABY_INNER_ARMOR); }
+// public void PIGLIN_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.PIGLIN_BABY_INNER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer PIGLIN_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.PIGLIN_BABY_INNER_ARMOR); }
+// public static void PIGLIN_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.PIGLIN_BABY_INNER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer PIGLIN_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.PIGLIN_BABY_OUTER_ARMOR); }
+// public void PIGLIN_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.PIGLIN_BABY_OUTER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer PIGLIN_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.PIGLIN_BABY_OUTER_ARMOR); }
+// public static void PIGLIN_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.PIGLIN_BABY_OUTER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer PLAYER_EARS() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.PLAYER_EARS); }
+// public void PLAYER_EARS(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.PLAYER_EARS = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer PLAYER_EARS() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.PLAYER_EARS); }
+// public static void PLAYER_EARS(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.PLAYER_EARS = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer PLAYER_CAPE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.PLAYER_CAPE); }
+// public void PLAYER_CAPE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.PLAYER_CAPE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer PLAYER_CAPE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.PLAYER_CAPE); }
+// public static void PLAYER_CAPE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.PLAYER_CAPE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer LLAMA_BABY_DECOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.LLAMA_BABY_DECOR); }
+// public void LLAMA_BABY_DECOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.LLAMA_BABY_DECOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer LLAMA_BABY_DECOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.LLAMA_BABY_DECOR); }
+// public static void LLAMA_BABY_DECOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.LLAMA_BABY_DECOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer PIG_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.PIG_BABY_SADDLE); }
+// public void PIG_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.PIG_BABY_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer PIG_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.PIG_BABY_SADDLE); }
+// public static void PIG_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.PIG_BABY_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer SHEEP_BABY_WOOL() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.SHEEP_BABY_WOOL); }
+// public void SHEEP_BABY_WOOL(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.SHEEP_BABY_WOOL = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer SHEEP_BABY_WOOL() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.SHEEP_BABY_WOOL); }
+// public static void SHEEP_BABY_WOOL(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.SHEEP_BABY_WOOL = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIFIED_PIGLIN_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.ZOMBIFIED_PIGLIN_BABY_INNER_ARMOR); }
+// public void ZOMBIFIED_PIGLIN_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.ZOMBIFIED_PIGLIN_BABY_INNER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIFIED_PIGLIN_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIFIED_PIGLIN_BABY_INNER_ARMOR); }
+// public static void ZOMBIFIED_PIGLIN_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIFIED_PIGLIN_BABY_INNER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIFIED_PIGLIN_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.ZOMBIFIED_PIGLIN_BABY_OUTER_ARMOR); }
+// public void ZOMBIFIED_PIGLIN_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.ZOMBIFIED_PIGLIN_BABY_OUTER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIFIED_PIGLIN_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIFIED_PIGLIN_BABY_OUTER_ARMOR); }
+// public static void ZOMBIFIED_PIGLIN_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIFIED_PIGLIN_BABY_OUTER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.ZOMBIE_BABY_INNER_ARMOR); }
+// public void ZOMBIE_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.ZOMBIE_BABY_INNER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_BABY_INNER_ARMOR); }
+// public static void ZOMBIE_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_BABY_INNER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.ZOMBIE_BABY_OUTER_ARMOR); }
+// public void ZOMBIE_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.ZOMBIE_BABY_OUTER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_BABY_OUTER_ARMOR); }
+// public static void ZOMBIE_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_BABY_OUTER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_VILLAGER_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.ZOMBIE_VILLAGER_BABY_INNER_ARMOR); }
+// public void ZOMBIE_VILLAGER_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.ZOMBIE_VILLAGER_BABY_INNER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_VILLAGER_BABY_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_VILLAGER_BABY_INNER_ARMOR); }
+// public static void ZOMBIE_VILLAGER_BABY_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_VILLAGER_BABY_INNER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_VILLAGER_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.ZOMBIE_VILLAGER_BABY_OUTER_ARMOR); }
+// public void ZOMBIE_VILLAGER_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.ZOMBIE_VILLAGER_BABY_OUTER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_VILLAGER_BABY_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_VILLAGER_BABY_OUTER_ARMOR); }
+// public static void ZOMBIE_VILLAGER_BABY_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_VILLAGER_BABY_OUTER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer ARMOR_STAND_SMALL_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.ARMOR_STAND_SMALL_INNER_ARMOR); }
+// public void ARMOR_STAND_SMALL_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.ARMOR_STAND_SMALL_INNER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer ARMOR_STAND_SMALL_INNER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.ARMOR_STAND_SMALL_INNER_ARMOR); }
+// public static void ARMOR_STAND_SMALL_INNER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.ARMOR_STAND_SMALL_INNER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer ARMOR_STAND_SMALL_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.ARMOR_STAND_SMALL_OUTER_ARMOR); }
+// public void ARMOR_STAND_SMALL_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.ARMOR_STAND_SMALL_OUTER_ARMOR = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer ARMOR_STAND_SMALL_OUTER_ARMOR() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.ARMOR_STAND_SMALL_OUTER_ARMOR); }
+// public static void ARMOR_STAND_SMALL_OUTER_ARMOR(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.ARMOR_STAND_SMALL_OUTER_ARMOR = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer STRIDER_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.STRIDER_BABY_SADDLE); }
+// public void STRIDER_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.STRIDER_BABY_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer STRIDER_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.STRIDER_BABY_SADDLE); }
+// public static void STRIDER_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.STRIDER_BABY_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer STANDING_BANNER_FLAG() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.STANDING_BANNER_FLAG); }
+// public void STANDING_BANNER_FLAG(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.STANDING_BANNER_FLAG = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer STANDING_BANNER_FLAG() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.STANDING_BANNER_FLAG); }
+// public static void STANDING_BANNER_FLAG(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.STANDING_BANNER_FLAG = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer WALL_BANNER_FLAG() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.WALL_BANNER_FLAG); }
+// public void WALL_BANNER_FLAG(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.WALL_BANNER_FLAG = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer WALL_BANNER_FLAG() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.WALL_BANNER_FLAG); }
+// public static void WALL_BANNER_FLAG(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.WALL_BANNER_FLAG = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer CAMEL_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.CAMEL_SADDLE); }
+// public void CAMEL_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.CAMEL_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer CAMEL_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.CAMEL_SADDLE); }
+// public static void CAMEL_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.CAMEL_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer CAMEL_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.CAMEL_BABY_SADDLE); }
+// public void CAMEL_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.CAMEL_BABY_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer CAMEL_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.CAMEL_BABY_SADDLE); }
+// public static void CAMEL_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.CAMEL_BABY_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer DONKEY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.DONKEY_SADDLE); }
+// public void DONKEY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.DONKEY_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer DONKEY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.DONKEY_SADDLE); }
+// public static void DONKEY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.DONKEY_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer DONKEY_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.DONKEY_BABY_SADDLE); }
+// public void DONKEY_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.DONKEY_BABY_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer DONKEY_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.DONKEY_BABY_SADDLE); }
+// public static void DONKEY_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.DONKEY_BABY_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer MULE_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.MULE_SADDLE); }
+// public void MULE_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.MULE_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer MULE_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.MULE_SADDLE); }
+// public static void MULE_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.MULE_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer MULE_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.MULE_BABY_SADDLE); }
+// public void MULE_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.MULE_BABY_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer MULE_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.MULE_BABY_SADDLE); }
+// public static void MULE_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.MULE_BABY_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer HORSE_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.HORSE_SADDLE); }
+// public void HORSE_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.HORSE_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer HORSE_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.HORSE_SADDLE); }
+// public static void HORSE_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.HORSE_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer HORSE_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.HORSE_BABY_SADDLE); }
+// public void HORSE_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.HORSE_BABY_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer HORSE_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.HORSE_BABY_SADDLE); }
+// public static void HORSE_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.HORSE_BABY_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer SKELETON_HORSE_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.SKELETON_HORSE_SADDLE); }
+// public void SKELETON_HORSE_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.SKELETON_HORSE_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer SKELETON_HORSE_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.SKELETON_HORSE_SADDLE); }
+// public static void SKELETON_HORSE_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.SKELETON_HORSE_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer SKELETON_HORSE_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.SKELETON_HORSE_BABY_SADDLE); }
+// public void SKELETON_HORSE_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.SKELETON_HORSE_BABY_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer SKELETON_HORSE_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.SKELETON_HORSE_BABY_SADDLE); }
+// public static void SKELETON_HORSE_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.SKELETON_HORSE_BABY_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_HORSE_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.ZOMBIE_HORSE_SADDLE); }
+// public void ZOMBIE_HORSE_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.ZOMBIE_HORSE_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_HORSE_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_HORSE_SADDLE); }
+// public static void ZOMBIE_HORSE_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_HORSE_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_HORSE_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.ZOMBIE_HORSE_BABY_SADDLE); }
+// public void ZOMBIE_HORSE_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.ZOMBIE_HORSE_BABY_SADDLE = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer ZOMBIE_HORSE_BABY_SADDLE() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_HORSE_BABY_SADDLE); }
+// public static void ZOMBIE_HORSE_BABY_SADDLE(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.ZOMBIE_HORSE_BABY_SADDLE = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer SHEEP_WOOL_UNDERCOAT() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.SHEEP_WOOL_UNDERCOAT); }
+// public void SHEEP_WOOL_UNDERCOAT(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.SHEEP_WOOL_UNDERCOAT = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer SHEEP_WOOL_UNDERCOAT() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.SHEEP_WOOL_UNDERCOAT); }
+// public static void SHEEP_WOOL_UNDERCOAT(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.SHEEP_WOOL_UNDERCOAT = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.model.EntityModelLayer SHEEP_BABY_WOOL_UNDERCOAT() { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.SHEEP_BABY_WOOL_UNDERCOAT); }
+// public void SHEEP_BABY_WOOL_UNDERCOAT(yarnwrap.client.render.entity.model.EntityModelLayer value) { wrapperContained.SHEEP_BABY_WOOL_UNDERCOAT = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.EntityModelLayer SHEEP_BABY_WOOL_UNDERCOAT() { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.SHEEP_BABY_WOOL_UNDERCOAT); }
+// public static void SHEEP_BABY_WOOL_UNDERCOAT(yarnwrap.client.render.entity.model.EntityModelLayer value, ) { net.minecraft.client.render.entity.model.EntityModelLayers.SHEEP_BABY_WOOL_UNDERCOAT = value.wrapperContained; }
+
 // public java.util.stream.Stream getLayers() { return wrapperContained.getLayers(); }
 public static java.util.stream.Stream getLayers() { return net.minecraft.client.render.entity.model.EntityModelLayers.getLayers(); }
-// public yarnwrap.client.render.entity.model.EntityModelLayer createBoat(Object type) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.createBoat(type)); }
-// public static yarnwrap.client.render.entity.model.EntityModelLayer createBoat(Object type, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.createBoat(type)); }
-// public yarnwrap.client.render.entity.model.EntityModelLayer createSign(yarnwrap.block.WoodType type) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.createSign(type.wrapperContained)); }
-// public static yarnwrap.client.render.entity.model.EntityModelLayer createSign(yarnwrap.block.WoodType type, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.createSign(type.wrapperContained)); }
 // public yarnwrap.client.render.entity.model.EntityModelLayer registerMain(java.lang.String id) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.registerMain(id)); }
 // public static yarnwrap.client.render.entity.model.EntityModelLayer registerMain(java.lang.String id, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.registerMain(id)); }
 // public yarnwrap.client.render.entity.model.EntityModelLayer register(java.lang.String id,java.lang.String layer) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.register(id,layer)); }
@@ -257,13 +443,11 @@ public static java.util.stream.Stream getLayers() { return net.minecraft.client.
 // public static yarnwrap.client.render.entity.model.EntityModelLayer create(java.lang.String id,java.lang.String layer, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.create(id,layer)); }
 // public yarnwrap.client.render.entity.model.EntityModelLayer createOuterArmor(java.lang.String id) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.createOuterArmor(id)); }
 // public static yarnwrap.client.render.entity.model.EntityModelLayer createOuterArmor(java.lang.String id, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.createOuterArmor(id)); }
-// public yarnwrap.client.render.entity.model.EntityModelLayer createChestBoat(Object type) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.createChestBoat(type)); }
-// public static yarnwrap.client.render.entity.model.EntityModelLayer createChestBoat(Object type, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.createChestBoat(type)); }
-// public yarnwrap.client.render.entity.model.EntityModelLayer createRaft(Object type) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.createRaft(type)); }
-// public static yarnwrap.client.render.entity.model.EntityModelLayer createRaft(Object type, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.createRaft(type)); }
-// public yarnwrap.client.render.entity.model.EntityModelLayer createChestRaft(Object type) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.createChestRaft(type)); }
-// public static yarnwrap.client.render.entity.model.EntityModelLayer createChestRaft(Object type, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.createChestRaft(type)); }
-// public yarnwrap.client.render.entity.model.EntityModelLayer createHangingSign(yarnwrap.block.WoodType type) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.createHangingSign(type.wrapperContained)); }
-// public static yarnwrap.client.render.entity.model.EntityModelLayer createHangingSign(yarnwrap.block.WoodType type, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.createHangingSign(type.wrapperContained)); }
+// public yarnwrap.client.render.entity.model.EntityModelLayer createHangingSign(yarnwrap.block.WoodType type,Object attachmentType) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.createHangingSign(type.wrapperContained,attachmentType)); }
+// public static yarnwrap.client.render.entity.model.EntityModelLayer createHangingSign(yarnwrap.block.WoodType type,Object attachmentType, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.createHangingSign(type.wrapperContained,attachmentType)); }
+// public yarnwrap.client.render.entity.model.EntityModelLayer createStandingSign(yarnwrap.block.WoodType type) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.createStandingSign(type.wrapperContained)); }
+// public static yarnwrap.client.render.entity.model.EntityModelLayer createStandingSign(yarnwrap.block.WoodType type, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.createStandingSign(type.wrapperContained)); }
+// public yarnwrap.client.render.entity.model.EntityModelLayer createWallSign(yarnwrap.block.WoodType type) { return new yarnwrap.client.render.entity.model.EntityModelLayer(wrapperContained.createWallSign(type.wrapperContained)); }
+// public static yarnwrap.client.render.entity.model.EntityModelLayer createWallSign(yarnwrap.block.WoodType type, ) { return new yarnwrap.client.render.entity.model.EntityModelLayer(net.minecraft.client.render.entity.model.EntityModelLayers.createWallSign(type.wrapperContained)); }
 
 }

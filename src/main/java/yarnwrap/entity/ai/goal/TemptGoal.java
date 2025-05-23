@@ -1,16 +1,6 @@
 package yarnwrap.entity.ai.goal;
 public class TemptGoal { public net.minecraft.entity.ai.goal.TemptGoal wrapperContained; public TemptGoal(net.minecraft.entity.ai.goal.TemptGoal wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.entity.ai.TargetPredicate TEMPTING_ENTITY_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.TEMPTING_ENTITY_PREDICATE); }
-// public void TEMPTING_ENTITY_PREDICATE(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.TEMPTING_ENTITY_PREDICATE = value.wrapperContained; }
-// public static yarnwrap.entity.ai.TargetPredicate TEMPTING_ENTITY_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.TemptGoal.TEMPTING_ENTITY_PREDICATE); }
-// public static void TEMPTING_ENTITY_PREDICATE(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.TemptGoal.TEMPTING_ENTITY_PREDICATE = value.wrapperContained; }
-
-// public yarnwrap.entity.ai.TargetPredicate predicate() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.predicate); }
-// public void predicate(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.predicate = value.wrapperContained; }
-// public static yarnwrap.entity.ai.TargetPredicate predicate() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.TemptGoal.predicate); }
-// public static void predicate(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.TemptGoal.predicate = value.wrapperContained; }
-
 // public double lastPlayerY() { return wrapperContained.lastPlayerY; }
 // public void lastPlayerY(double value) { wrapperContained.lastPlayerY = value; }
 // public static double lastPlayerY() { return net.minecraft.entity.ai.goal.TemptGoal.lastPlayerY; }
@@ -36,10 +26,10 @@ public class TemptGoal { public net.minecraft.entity.ai.goal.TemptGoal wrapperCo
 // public static double speed() { return net.minecraft.entity.ai.goal.TemptGoal.speed; }
 // public static void speed(double value, ) { net.minecraft.entity.ai.goal.TemptGoal.speed = value; }
 
-// public yarnwrap.entity.mob.PathAwareEntity mob() { return new yarnwrap.entity.mob.PathAwareEntity(wrapperContained.mob); }
-// public void mob(yarnwrap.entity.mob.PathAwareEntity value) { wrapperContained.mob = value.wrapperContained; }
-// public static yarnwrap.entity.mob.PathAwareEntity mob() { return new yarnwrap.entity.mob.PathAwareEntity(net.minecraft.entity.ai.goal.TemptGoal.mob); }
-// public static void mob(yarnwrap.entity.mob.PathAwareEntity value, ) { net.minecraft.entity.ai.goal.TemptGoal.mob = value.wrapperContained; }
+// public yarnwrap.entity.mob.MobEntity mob() { return new yarnwrap.entity.mob.MobEntity(wrapperContained.mob); }
+// // public void mob(yarnwrap.entity.mob.MobEntity value) { wrapperContained.mob = value.wrapperContained; }
+// public static yarnwrap.entity.mob.MobEntity mob() { return new yarnwrap.entity.mob.MobEntity(net.minecraft.entity.ai.goal.TemptGoal.mob); }
+// // public static void mob(yarnwrap.entity.mob.MobEntity value, ) { net.minecraft.entity.ai.goal.TemptGoal.mob = value.wrapperContained; }
 
 // public yarnwrap.entity.player.PlayerEntity closestPlayer() { return new yarnwrap.entity.player.PlayerEntity(wrapperContained.closestPlayer); }
 // public void closestPlayer(yarnwrap.entity.player.PlayerEntity value) { wrapperContained.closestPlayer = value.wrapperContained; }
@@ -66,17 +56,45 @@ public class TemptGoal { public net.minecraft.entity.ai.goal.TemptGoal wrapperCo
 // public static double lastPlayerZ() { return net.minecraft.entity.ai.goal.TemptGoal.lastPlayerZ; }
 // public static void lastPlayerZ(double value, ) { net.minecraft.entity.ai.goal.TemptGoal.lastPlayerZ = value; }
 
-// public java.util.function.Predicate foodPredicate() { return wrapperContained.foodPredicate; }
-// public void foodPredicate(java.util.function.Predicate value) { wrapperContained.foodPredicate = value; }
-// public static java.util.function.Predicate foodPredicate() { return net.minecraft.entity.ai.goal.TemptGoal.foodPredicate; }
-// public static void foodPredicate(java.util.function.Predicate value, ) { net.minecraft.entity.ai.goal.TemptGoal.foodPredicate = value; }
+// public java.util.function.Predicate temptItemPredicate() { return wrapperContained.temptItemPredicate; }
+// public void temptItemPredicate(java.util.function.Predicate value) { wrapperContained.temptItemPredicate = value; }
+// public static java.util.function.Predicate temptItemPredicate() { return net.minecraft.entity.ai.goal.TemptGoal.temptItemPredicate; }
+// public static void temptItemPredicate(java.util.function.Predicate value, ) { net.minecraft.entity.ai.goal.TemptGoal.temptItemPredicate = value; }
 
-public TemptGoal(yarnwrap.entity.mob.PathAwareEntity entity,double speed,java.util.function.Predicate foodPredicate,boolean canBeScared) { this.wrapperContained = new net.minecraft.entity.ai.goal.TemptGoal(entity.wrapperContained,speed,foodPredicate,canBeScared); }
-// // public boolean canBeScared() { return wrapperContained.canBeScared(); }
-// // public static boolean canBeScared() { return net.minecraft.entity.ai.goal.TemptGoal.canBeScared(); }
+// public yarnwrap.entity.ai.TargetPredicate TEMPTING_ENTITY_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.TEMPTING_ENTITY_PREDICATE); }
+// public void TEMPTING_ENTITY_PREDICATE(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.TEMPTING_ENTITY_PREDICATE = value.wrapperContained; }
+// public static yarnwrap.entity.ai.TargetPredicate TEMPTING_ENTITY_PREDICATE() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.TemptGoal.TEMPTING_ENTITY_PREDICATE); }
+// public static void TEMPTING_ENTITY_PREDICATE(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.TemptGoal.TEMPTING_ENTITY_PREDICATE = value.wrapperContained; }
+
+// public yarnwrap.entity.ai.TargetPredicate predicate() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.predicate); }
+// public void predicate(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.predicate = value.wrapperContained; }
+// public static yarnwrap.entity.ai.TargetPredicate predicate() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.TemptGoal.predicate); }
+// public static void predicate(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.TemptGoal.predicate = value.wrapperContained; }
+
+// public double DEFAULT_RANGE() { return wrapperContained.DEFAULT_RANGE; }
+// public void DEFAULT_RANGE(double value) { wrapperContained.DEFAULT_RANGE = value; }
+// public static double DEFAULT_RANGE() { return net.minecraft.entity.ai.goal.TemptGoal.DEFAULT_RANGE; }
+// public static void DEFAULT_RANGE(double value, ) { net.minecraft.entity.ai.goal.TemptGoal.DEFAULT_RANGE = value; }
+
+// public double range() { return wrapperContained.range; }
+// public void range(double value) { wrapperContained.range = value; }
+// public static double range() { return net.minecraft.entity.ai.goal.TemptGoal.range; }
+// public static void range(double value, ) { net.minecraft.entity.ai.goal.TemptGoal.range = value; }
+
+// public TemptGoal(yarnwrap.entity.mob.MobEntity entity,double speed,java.util.function.Predicate temptItemPredicate,boolean canBeScared,double range) { this.wrapperContained = new net.minecraft.entity.ai.goal.TemptGoal(entity.wrapperContained,speed,temptItemPredicate,canBeScared,range); }
+public TemptGoal(yarnwrap.entity.mob.PathAwareEntity entity,double speed,java.util.function.Predicate temptItemPredicate,boolean canBeScared) { this.wrapperContained = new net.minecraft.entity.ai.goal.TemptGoal(entity.wrapperContained,speed,temptItemPredicate,canBeScared); }
+// public TemptGoal(yarnwrap.entity.mob.PathAwareEntity entity,double speed,java.util.function.Predicate temptItemPredicate,boolean canBeScared,double range) { this.wrapperContained = new net.minecraft.entity.ai.goal.TemptGoal(entity.wrapperContained,speed,temptItemPredicate,canBeScared,range); }
 // public boolean isTemptedBy(yarnwrap.entity.LivingEntity entity) { return wrapperContained.isTemptedBy(entity.wrapperContained); }
 // public static boolean isTemptedBy(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.ai.goal.TemptGoal.isTemptedBy(entity.wrapperContained); }
 public boolean isActive() { return wrapperContained.isActive(); }
 // public static boolean isActive() { return net.minecraft.entity.ai.goal.TemptGoal.isActive(); }
+// // public boolean canBeScared() { return wrapperContained.canBeScared(); }
+// // public static boolean canBeScared() { return net.minecraft.entity.ai.goal.TemptGoal.canBeScared(); }
+// public boolean method_64453(yarnwrap.entity.LivingEntity entityx,yarnwrap.server.world.ServerWorld world) { return wrapperContained.method_64453(entityx.wrapperContained,world.wrapperContained); }
+// public static boolean method_64453(yarnwrap.entity.LivingEntity entityx,yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.entity.ai.goal.TemptGoal.method_64453(entityx.wrapperContained,world.wrapperContained); }
+// public void startMovingTo(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.startMovingTo(player.wrapperContained); }
+// public static void startMovingTo(yarnwrap.entity.player.PlayerEntity player, ) { net.minecraft.entity.ai.goal.TemptGoal.startMovingTo(player.wrapperContained); }
+// public void stopMoving() { wrapperContained.stopMoving(); }
+// public static void stopMoving() { net.minecraft.entity.ai.goal.TemptGoal.stopMoving(); }
 
 }

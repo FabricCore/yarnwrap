@@ -40,13 +40,23 @@ public Frustum(yarnwrap.client.render.Frustum frustum) { this.wrapperContained =
 public Frustum(org.joml.Matrix4f positionMatrix,org.joml.Matrix4f projectionMatrix) { this.wrapperContained = new net.minecraft.client.render.Frustum(positionMatrix,projectionMatrix); }
 public void setPosition(double cameraX,double cameraY,double cameraZ) { wrapperContained.setPosition(cameraX,cameraY,cameraZ); }
 // public static void setPosition(double cameraX,double cameraY,double cameraZ, ) { net.minecraft.client.render.Frustum.setPosition(cameraX,cameraY,cameraZ); }
-// public boolean isVisible(double minX,double minY,double minZ,double maxX,double maxY,double maxZ) { return wrapperContained.isVisible(minX,minY,minZ,maxX,maxY,maxZ); }
-// public static boolean isVisible(double minX,double minY,double minZ,double maxX,double maxY,double maxZ, ) { return net.minecraft.client.render.Frustum.isVisible(minX,minY,minZ,maxX,maxY,maxZ); }
+// public int intersectAab(double minX,double minY,double minZ,double maxX,double maxY,double maxZ) { return wrapperContained.intersectAab(minX,minY,minZ,maxX,maxY,maxZ); }
+// public static int intersectAab(double minX,double minY,double minZ,double maxX,double maxY,double maxZ, ) { return net.minecraft.client.render.Frustum.intersectAab(minX,minY,minZ,maxX,maxY,maxZ); }
 // public void init(org.joml.Matrix4f positionMatrix,org.joml.Matrix4f projectionMatrix) { wrapperContained.init(positionMatrix,projectionMatrix); }
 // public static void init(org.joml.Matrix4f positionMatrix,org.joml.Matrix4f projectionMatrix, ) { net.minecraft.client.render.Frustum.init(positionMatrix,projectionMatrix); }
 public boolean isVisible(yarnwrap.util.math.Box box) { return wrapperContained.isVisible(box.wrapperContained); }
 // public static boolean isVisible(yarnwrap.util.math.Box box, ) { return net.minecraft.client.render.Frustum.isVisible(box.wrapperContained); }
 public yarnwrap.client.render.Frustum coverBoxAroundSetPosition(int boxSize) { return new yarnwrap.client.render.Frustum(wrapperContained.coverBoxAroundSetPosition(boxSize)); }
 // public static yarnwrap.client.render.Frustum coverBoxAroundSetPosition(int boxSize, ) { return new yarnwrap.client.render.Frustum(net.minecraft.client.render.Frustum.coverBoxAroundSetPosition(boxSize)); }
+public org.joml.Vector4f[] getBoundaryPoints() { return wrapperContained.getBoundaryPoints(); }
+// public static org.joml.Vector4f[] getBoundaryPoints() { return net.minecraft.client.render.Frustum.getBoundaryPoints(); }
+public double getX() { return wrapperContained.getX(); }
+// public static double getX() { return net.minecraft.client.render.Frustum.getX(); }
+public double getY() { return wrapperContained.getY(); }
+// public static double getY() { return net.minecraft.client.render.Frustum.getY(); }
+public double getZ() { return wrapperContained.getZ(); }
+// public static double getZ() { return net.minecraft.client.render.Frustum.getZ(); }
+public int intersectAab(yarnwrap.util.math.BlockBox box) { return wrapperContained.intersectAab(box.wrapperContained); }
+// public static int intersectAab(yarnwrap.util.math.BlockBox box, ) { return net.minecraft.client.render.Frustum.intersectAab(box.wrapperContained); }
 
 }

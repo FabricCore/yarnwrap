@@ -126,10 +126,10 @@ public static org.slf4j.Marker PACKET_SENT_MARKER() { return net.minecraft.netwo
 // public static yarnwrap.network.handler.PacketSizeLogger packetSizeLogger() { return new yarnwrap.network.handler.PacketSizeLogger(net.minecraft.network.ClientConnection.packetSizeLogger); }
 // public static void packetSizeLogger(yarnwrap.network.handler.PacketSizeLogger value, ) { net.minecraft.network.ClientConnection.packetSizeLogger = value.wrapperContained; }
 
-// public yarnwrap.network.NetworkState C2S_HANDSHAKE_STATE() { return new yarnwrap.network.NetworkState(wrapperContained.C2S_HANDSHAKE_STATE); }
-// public void C2S_HANDSHAKE_STATE(yarnwrap.network.NetworkState value) { wrapperContained.C2S_HANDSHAKE_STATE = value.wrapperContained; }
-// public static yarnwrap.network.NetworkState C2S_HANDSHAKE_STATE() { return new yarnwrap.network.NetworkState(net.minecraft.network.ClientConnection.C2S_HANDSHAKE_STATE); }
-// public static void C2S_HANDSHAKE_STATE(yarnwrap.network.NetworkState value, ) { net.minecraft.network.ClientConnection.C2S_HANDSHAKE_STATE = value.wrapperContained; }
+// public yarnwrap.network.state.NetworkState C2S_HANDSHAKE_STATE() { return new yarnwrap.network.state.NetworkState(wrapperContained.C2S_HANDSHAKE_STATE); }
+// public void C2S_HANDSHAKE_STATE(yarnwrap.network.state.NetworkState value) { wrapperContained.C2S_HANDSHAKE_STATE = value.wrapperContained; }
+// public static yarnwrap.network.state.NetworkState C2S_HANDSHAKE_STATE() { return new yarnwrap.network.state.NetworkState(net.minecraft.network.ClientConnection.C2S_HANDSHAKE_STATE); }
+// public static void C2S_HANDSHAKE_STATE(yarnwrap.network.state.NetworkState value, ) { net.minecraft.network.ClientConnection.C2S_HANDSHAKE_STATE = value.wrapperContained; }
 
 // public boolean duringLogin() { return wrapperContained.duringLogin; }
 // public void duringLogin(boolean value) { wrapperContained.duringLogin = value; }
@@ -212,14 +212,14 @@ public yarnwrap.network.NetworkSide getOppositeSide() { return new yarnwrap.netw
 // public static void addHandlers(io.netty.channel.ChannelPipeline pipeline,yarnwrap.network.NetworkSide side,boolean local,yarnwrap.network.handler.PacketSizeLogger packetSizeLogger, ) { net.minecraft.network.ClientConnection.addHandlers(pipeline,side.wrapperContained,local,packetSizeLogger.wrapperContained); }
 // public io.netty.channel.ChannelFuture connect(java.net.InetSocketAddress address,boolean useEpoll,yarnwrap.network.ClientConnection connection) { return wrapperContained.connect(address,useEpoll,connection.wrapperContained); }
 // public static io.netty.channel.ChannelFuture connect(java.net.InetSocketAddress address,boolean useEpoll,yarnwrap.network.ClientConnection connection, ) { return net.minecraft.network.ClientConnection.connect(address,useEpoll,connection.wrapperContained); }
-// public void method_52900(yarnwrap.network.NetworkState connection) { wrapperContained.method_52900(connection.wrapperContained); }
-// public static void method_52900(yarnwrap.network.NetworkState connection, ) { net.minecraft.network.ClientConnection.method_52900(connection.wrapperContained); }
+// public void method_52900(yarnwrap.network.state.NetworkState connection) { wrapperContained.method_52900(connection.wrapperContained); }
+// public static void method_52900(yarnwrap.network.state.NetworkState connection, ) { net.minecraft.network.ClientConnection.method_52900(connection.wrapperContained); }
 public void connect(java.lang.String address,int port,yarnwrap.network.listener.ClientLoginPacketListener listener) { wrapperContained.connect(address,port,listener.wrapperContained); }
 // public static void connect(java.lang.String address,int port,yarnwrap.network.listener.ClientLoginPacketListener listener, ) { net.minecraft.network.ClientConnection.connect(address,port,listener.wrapperContained); }
 public void connect(java.lang.String address,int port,yarnwrap.network.listener.ClientQueryPacketListener listener) { wrapperContained.connect(address,port,listener.wrapperContained); }
 // public static void connect(java.lang.String address,int port,yarnwrap.network.listener.ClientQueryPacketListener listener, ) { net.minecraft.network.ClientConnection.connect(address,port,listener.wrapperContained); }
-// public void connect(java.lang.String address,int port,yarnwrap.network.NetworkState outboundState,yarnwrap.network.NetworkState inboundState,yarnwrap.network.listener.ClientPacketListener prePlayStateListener,yarnwrap.network.packet.c2s.handshake.ConnectionIntent intent) { wrapperContained.connect(address,port,outboundState.wrapperContained,inboundState.wrapperContained,prePlayStateListener.wrapperContained,intent.wrapperContained); }
-// public static void connect(java.lang.String address,int port,yarnwrap.network.NetworkState outboundState,yarnwrap.network.NetworkState inboundState,yarnwrap.network.listener.ClientPacketListener prePlayStateListener,yarnwrap.network.packet.c2s.handshake.ConnectionIntent intent, ) { net.minecraft.network.ClientConnection.connect(address,port,outboundState.wrapperContained,inboundState.wrapperContained,prePlayStateListener.wrapperContained,intent.wrapperContained); }
+// public void connect(java.lang.String address,int port,yarnwrap.network.state.NetworkState outboundState,yarnwrap.network.state.NetworkState inboundState,yarnwrap.network.listener.ClientPacketListener prePlayStateListener,yarnwrap.network.packet.c2s.handshake.ConnectionIntent intent) { wrapperContained.connect(address,port,outboundState.wrapperContained,inboundState.wrapperContained,prePlayStateListener.wrapperContained,intent.wrapperContained); }
+// public static void connect(java.lang.String address,int port,yarnwrap.network.state.NetworkState outboundState,yarnwrap.network.state.NetworkState inboundState,yarnwrap.network.listener.ClientPacketListener prePlayStateListener,yarnwrap.network.packet.c2s.handshake.ConnectionIntent intent, ) { net.minecraft.network.ClientConnection.connect(address,port,outboundState.wrapperContained,inboundState.wrapperContained,prePlayStateListener.wrapperContained,intent.wrapperContained); }
 public void submit(java.util.function.Consumer task) { wrapperContained.submit(task); }
 // public static void submit(java.util.function.Consumer task, ) { net.minecraft.network.ClientConnection.submit(task); }
 public void send(yarnwrap.network.packet.Packet packet,yarnwrap.network.PacketCallbacks callbacks,boolean flush) { wrapperContained.send(packet.wrapperContained,callbacks.wrapperContained,flush); }
@@ -240,20 +240,20 @@ public void resetPacketSizeLog(yarnwrap.util.profiler.MultiValueDebugSampleLogIm
 // public static void resetPacketSizeLog(yarnwrap.util.profiler.MultiValueDebugSampleLogImpl log, ) { net.minecraft.network.ClientConnection.resetPacketSizeLog(log.wrapperContained); }
 public void addFlowControlHandler(io.netty.channel.ChannelPipeline pipeline) { wrapperContained.addFlowControlHandler(pipeline); }
 // public static void addFlowControlHandler(io.netty.channel.ChannelPipeline pipeline, ) { net.minecraft.network.ClientConnection.addFlowControlHandler(pipeline); }
-public void connect(java.lang.String address,int port,yarnwrap.network.NetworkState outboundState,yarnwrap.network.NetworkState inboundState,yarnwrap.network.listener.ClientPacketListener prePlayStateListener,boolean transfer) { wrapperContained.connect(address,port,outboundState.wrapperContained,inboundState.wrapperContained,prePlayStateListener.wrapperContained,transfer); }
-// public static void connect(java.lang.String address,int port,yarnwrap.network.NetworkState outboundState,yarnwrap.network.NetworkState inboundState,yarnwrap.network.listener.ClientPacketListener prePlayStateListener,boolean transfer, ) { net.minecraft.network.ClientConnection.connect(address,port,outboundState.wrapperContained,inboundState.wrapperContained,prePlayStateListener.wrapperContained,transfer); }
+public void connect(java.lang.String address,int port,yarnwrap.network.state.NetworkState outboundState,yarnwrap.network.state.NetworkState inboundState,yarnwrap.network.listener.ClientPacketListener prePlayStateListener,boolean transfer) { wrapperContained.connect(address,port,outboundState.wrapperContained,inboundState.wrapperContained,prePlayStateListener.wrapperContained,transfer); }
+// public static void connect(java.lang.String address,int port,yarnwrap.network.state.NetworkState outboundState,yarnwrap.network.state.NetworkState inboundState,yarnwrap.network.listener.ClientPacketListener prePlayStateListener,boolean transfer, ) { net.minecraft.network.ClientConnection.connect(address,port,outboundState.wrapperContained,inboundState.wrapperContained,prePlayStateListener.wrapperContained,transfer); }
 // public void method_56327(yarnwrap.network.handler.PacketBundler context) { wrapperContained.method_56327(context.wrapperContained); }
 // public static void method_56327(yarnwrap.network.handler.PacketBundler context, ) { net.minecraft.network.ClientConnection.method_56327(context.wrapperContained); }
 // public void method_56328(yarnwrap.network.handler.PacketUnbundler context) { wrapperContained.method_56328(context.wrapperContained); }
 // public static void method_56328(yarnwrap.network.handler.PacketUnbundler context, ) { net.minecraft.network.ClientConnection.method_56328(context.wrapperContained); }
-public void transitionOutbound(yarnwrap.network.NetworkState newState) { wrapperContained.transitionOutbound(newState.wrapperContained); }
-// public static void transitionOutbound(yarnwrap.network.NetworkState newState, ) { net.minecraft.network.ClientConnection.transitionOutbound(newState.wrapperContained); }
-public void transitionInbound(yarnwrap.network.NetworkState state,yarnwrap.network.listener.PacketListener packetListener) { wrapperContained.transitionInbound(state.wrapperContained,packetListener.wrapperContained); }
-// public static void transitionInbound(yarnwrap.network.NetworkState state,yarnwrap.network.listener.PacketListener packetListener, ) { net.minecraft.network.ClientConnection.transitionInbound(state.wrapperContained,packetListener.wrapperContained); }
+public void transitionOutbound(yarnwrap.network.state.NetworkState newState) { wrapperContained.transitionOutbound(newState.wrapperContained); }
+// public static void transitionOutbound(yarnwrap.network.state.NetworkState newState, ) { net.minecraft.network.ClientConnection.transitionOutbound(newState.wrapperContained); }
+public void transitionInbound(yarnwrap.network.state.NetworkState state,yarnwrap.network.listener.PacketListener packetListener) { wrapperContained.transitionInbound(state.wrapperContained,packetListener.wrapperContained); }
+// public static void transitionInbound(yarnwrap.network.state.NetworkState state,yarnwrap.network.listener.PacketListener packetListener, ) { net.minecraft.network.ClientConnection.transitionInbound(state.wrapperContained,packetListener.wrapperContained); }
 // public void method_56331(boolean context) { wrapperContained.method_56331(context); }
 // public static void method_56331(boolean context, ) { net.minecraft.network.ClientConnection.method_56331(context); }
-// public void setPacketListener(yarnwrap.network.NetworkState state,yarnwrap.network.listener.PacketListener listener) { wrapperContained.setPacketListener(state.wrapperContained,listener.wrapperContained); }
-// public static void setPacketListener(yarnwrap.network.NetworkState state,yarnwrap.network.listener.PacketListener listener, ) { net.minecraft.network.ClientConnection.setPacketListener(state.wrapperContained,listener.wrapperContained); }
+// public void setPacketListener(yarnwrap.network.state.NetworkState state,yarnwrap.network.listener.PacketListener listener) { wrapperContained.setPacketListener(state.wrapperContained,listener.wrapperContained); }
+// public static void setPacketListener(yarnwrap.network.state.NetworkState state,yarnwrap.network.listener.PacketListener listener, ) { net.minecraft.network.ClientConnection.setPacketListener(state.wrapperContained,listener.wrapperContained); }
 // public java.lang.String getOutboundHandlerName(boolean sendingSide) { return wrapperContained.getOutboundHandlerName(sendingSide); }
 // public static java.lang.String getOutboundHandlerName(boolean sendingSide, ) { return net.minecraft.network.ClientConnection.getOutboundHandlerName(sendingSide); }
 // public java.lang.String getInboundHandlerName(boolean receivingSide) { return wrapperContained.getInboundHandlerName(receivingSide); }
@@ -266,5 +266,7 @@ public void transitionInbound(yarnwrap.network.NetworkState state,yarnwrap.netwo
 // public static io.netty.channel.ChannelOutboundHandler getPrepender(boolean local, ) { return net.minecraft.network.ClientConnection.getPrepender(local); }
 public void disconnect(yarnwrap.network.DisconnectionInfo disconnectionInfo) { wrapperContained.disconnect(disconnectionInfo.wrapperContained); }
 // public static void disconnect(yarnwrap.network.DisconnectionInfo disconnectionInfo, ) { net.minecraft.network.ClientConnection.disconnect(disconnectionInfo.wrapperContained); }
+public yarnwrap.network.DisconnectionInfo getDisconnectionInfo() { return new yarnwrap.network.DisconnectionInfo(wrapperContained.getDisconnectionInfo()); }
+// public static yarnwrap.network.DisconnectionInfo getDisconnectionInfo() { return new yarnwrap.network.DisconnectionInfo(net.minecraft.network.ClientConnection.getDisconnectionInfo()); }
 
 }

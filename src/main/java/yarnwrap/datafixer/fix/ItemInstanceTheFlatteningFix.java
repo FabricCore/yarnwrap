@@ -16,7 +16,6 @@ public class ItemInstanceTheFlatteningFix { public net.minecraft.datafixer.fix.I
 // public static java.util.Map FLATTENING_MAP() { return net.minecraft.datafixer.fix.ItemInstanceTheFlatteningFix.FLATTENING_MAP; }
 // public static void FLATTENING_MAP(java.util.Map value, ) { net.minecraft.datafixer.fix.ItemInstanceTheFlatteningFix.FLATTENING_MAP = value; }
 
-public ItemInstanceTheFlatteningFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.ItemInstanceTheFlatteningFix(outputSchema,changesType); }
 // public java.lang.String getItem(java.lang.String originalName,int damage) { return wrapperContained.getItem(originalName,damage); }
 // public static java.lang.String getItem(java.lang.String originalName,int damage, ) { return net.minecraft.datafixer.fix.ItemInstanceTheFlatteningFix.getItem(originalName,damage); }
 // public void method_5043(java.util.HashMap map) { wrapperContained.method_5043(map); }

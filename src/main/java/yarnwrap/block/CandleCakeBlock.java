@@ -6,16 +6,6 @@ public class CandleCakeBlock { public net.minecraft.block.CandleCakeBlock wrappe
 public static yarnwrap.state.property.BooleanProperty LIT() { return new yarnwrap.state.property.BooleanProperty(net.minecraft.block.CandleCakeBlock.LIT); }
 // public static void LIT(yarnwrap.state.property.BooleanProperty value, ) { net.minecraft.block.CandleCakeBlock.LIT = value.wrapperContained; }
 
-// public yarnwrap.util.shape.VoxelShape CAKE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.CAKE_SHAPE); }
-// public void CAKE_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.CAKE_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape CAKE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.CandleCakeBlock.CAKE_SHAPE); }
-// public static void CAKE_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.CandleCakeBlock.CAKE_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape CANDLE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.CANDLE_SHAPE); }
-// public void CANDLE_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.CANDLE_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape CANDLE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.CandleCakeBlock.CANDLE_SHAPE); }
-// public static void CANDLE_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.CandleCakeBlock.CANDLE_SHAPE = value.wrapperContained; }
-
 // public yarnwrap.util.shape.VoxelShape SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.SHAPE); }
 // public void SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.SHAPE = value.wrapperContained; }
 // public static yarnwrap.util.shape.VoxelShape SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.CandleCakeBlock.SHAPE); }

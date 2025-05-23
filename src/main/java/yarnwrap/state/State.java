@@ -21,10 +21,10 @@ public class State { public net.minecraft.state.State wrapperContained; public S
 // public static com.mojang.serialization.MapCodec codec() { return net.minecraft.state.State.codec; }
 // public static void codec(com.mojang.serialization.MapCodec value, ) { net.minecraft.state.State.codec = value; }
 
-// public com.google.common.collect.Table withTable() { return wrapperContained.withTable; }
-// public void withTable(com.google.common.collect.Table value) { wrapperContained.withTable = value; }
-// public static com.google.common.collect.Table withTable() { return net.minecraft.state.State.withTable; }
-// public static void withTable(com.google.common.collect.Table value, ) { net.minecraft.state.State.withTable = value; }
+// public java.util.Map withMap() { return wrapperContained.withMap; }
+// public void withMap(java.util.Map value) { wrapperContained.withMap = value; }
+// public static java.util.Map withMap() { return net.minecraft.state.State.withMap; }
+// public static void withMap(java.util.Map value, ) { net.minecraft.state.State.withMap = value; }
 
 // public java.lang.String NAME() { return wrapperContained.NAME; }
 // public void NAME(java.lang.String value) { wrapperContained.NAME = value; }
@@ -49,10 +49,10 @@ public java.lang.Object cycle(yarnwrap.state.property.Property property) { retur
 // public static java.lang.Object cycle(yarnwrap.state.property.Property property, ) { return net.minecraft.state.State.cycle(property.wrapperContained); }
 // public com.mojang.serialization.Codec createCodec(com.mojang.serialization.Codec codec,java.util.function.Function ownerToStateFunction) { return wrapperContained.createCodec(codec,ownerToStateFunction); }
 // public static com.mojang.serialization.Codec createCodec(com.mojang.serialization.Codec codec,java.util.function.Function ownerToStateFunction, ) { return net.minecraft.state.State.createCodec(codec,ownerToStateFunction); }
-// public java.lang.Object getNext(java.util.Collection values,java.lang.Object value) { return wrapperContained.getNext(values,value); }
-// public static java.lang.Object getNext(java.util.Collection values,java.lang.Object value, ) { return net.minecraft.state.State.getNext(values,value); }
-public void createWithTable(java.util.Map states) { wrapperContained.createWithTable(states); }
-// public static void createWithTable(java.util.Map states, ) { net.minecraft.state.State.createWithTable(states); }
+// public java.lang.Object getNext(java.util.List values,java.lang.Object value) { return wrapperContained.getNext(values,value); }
+// public static java.lang.Object getNext(java.util.List values,java.lang.Object value, ) { return net.minecraft.state.State.getNext(values,value); }
+public void createWithMap(java.util.Map states) { wrapperContained.createWithMap(states); }
+// public static void createWithMap(java.util.Map states, ) { net.minecraft.state.State.createWithMap(states); }
 // public com.mojang.serialization.MapCodec method_28497(java.util.function.Function owner) { return wrapperContained.method_28497(owner); }
 // public static com.mojang.serialization.MapCodec method_28497(java.util.function.Function owner, ) { return net.minecraft.state.State.method_28497(owner); }
 public boolean contains(yarnwrap.state.property.Property property) { return wrapperContained.contains(property.wrapperContained); }
@@ -63,7 +63,17 @@ public java.util.Optional getOrEmpty(yarnwrap.state.property.Property property) 
 // public static java.util.Optional getOrEmpty(yarnwrap.state.property.Property property, ) { return net.minecraft.state.State.getOrEmpty(property.wrapperContained); }
 public java.util.Collection getProperties() { return wrapperContained.getProperties(); }
 // public static java.util.Collection getProperties() { return net.minecraft.state.State.getProperties(); }
+// public yarnwrap.state.State method_38860(yarnwrap.state.State state) { return new yarnwrap.state.State(wrapperContained.method_38860(state.wrapperContained)); }
+// public static yarnwrap.state.State method_38860(yarnwrap.state.State state, ) { return new yarnwrap.state.State(net.minecraft.state.State.method_38860(state.wrapperContained)); }
 public java.lang.Object withIfExists(yarnwrap.state.property.Property property,java.lang.Comparable value) { return wrapperContained.withIfExists(property.wrapperContained,value); }
 // public static java.lang.Object withIfExists(yarnwrap.state.property.Property property,java.lang.Comparable value, ) { return net.minecraft.state.State.withIfExists(property.wrapperContained,value); }
+public java.lang.Comparable get(yarnwrap.state.property.Property property,java.lang.Comparable fallback) { return wrapperContained.get(property.wrapperContained,fallback); }
+// public static java.lang.Comparable get(yarnwrap.state.property.Property property,java.lang.Comparable fallback, ) { return net.minecraft.state.State.get(property.wrapperContained,fallback); }
+// public java.lang.Comparable getNullable(yarnwrap.state.property.Property property) { return wrapperContained.getNullable(property.wrapperContained); }
+// public static java.lang.Comparable getNullable(yarnwrap.state.property.Property property, ) { return net.minecraft.state.State.getNullable(property.wrapperContained); }
+// public java.lang.Object with(yarnwrap.state.property.Property property,java.lang.Comparable newValue,java.lang.Comparable oldValue) { return wrapperContained.with(property.wrapperContained,newValue,oldValue); }
+// public static java.lang.Object with(yarnwrap.state.property.Property property,java.lang.Comparable newValue,java.lang.Comparable oldValue, ) { return net.minecraft.state.State.with(property.wrapperContained,newValue,oldValue); }
+// public java.lang.Object method_64217(java.util.Map value) { return wrapperContained.method_64217(value); }
+// public static java.lang.Object method_64217(java.util.Map value, ) { return net.minecraft.state.State.method_64217(value); }
 
 }

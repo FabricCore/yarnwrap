@@ -34,28 +34,6 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.adva
 // public AdvancementProgress(java.util.Map criteriaProgresses) { this.wrapperContained = new net.minecraft.advancement.AdvancementProgress(criteriaProgresses); }
 // public int compareTo(java.lang.Object other) { return wrapperContained.compareTo(other); }
 // public static int compareTo(java.lang.Object other, ) { return net.minecraft.advancement.AdvancementProgress.compareTo(other); }
-// public void method_33895(yarnwrap.network.PacketByteBuf bufx,yarnwrap.advancement.criterion.CriterionProgress progresses) { wrapperContained.method_33895(bufx.wrapperContained,progresses.wrapperContained); }
-// public static void method_33895(yarnwrap.network.PacketByteBuf bufx,yarnwrap.advancement.criterion.CriterionProgress progresses, ) { net.minecraft.advancement.AdvancementProgress.method_33895(bufx.wrapperContained,progresses.wrapperContained); }
-// public com.mojang.datafixers.kinds.App method_53654(Object instance) { return wrapperContained.method_53654(instance); }
-// public static com.mojang.datafixers.kinds.App method_53654(Object instance, ) { return net.minecraft.advancement.AdvancementProgress.method_53654(instance); }
-// public java.time.temporal.TemporalAccessor method_53655(java.time.Instant instant) { return wrapperContained.method_53655(instant); }
-// public static java.time.temporal.TemporalAccessor method_53655(java.time.Instant instant, ) { return net.minecraft.advancement.AdvancementProgress.method_53655(instant); }
-// public java.time.Instant method_53656(Object entry) { return wrapperContained.method_53656(entry); }
-// public static java.time.Instant method_53656(Object entry, ) { return net.minecraft.advancement.AdvancementProgress.method_53656(entry); }
-// public java.util.Map method_53657(java.util.Map map) { return wrapperContained.method_53657(map); }
-// public static java.util.Map method_53657(java.util.Map map, ) { return net.minecraft.advancement.AdvancementProgress.method_53657(map); }
-// public yarnwrap.advancement.AdvancementProgress method_53658(java.util.Map criteriaProgresses,java.lang.Boolean done) { return new yarnwrap.advancement.AdvancementProgress(wrapperContained.method_53658(criteriaProgresses,done)); }
-// public static yarnwrap.advancement.AdvancementProgress method_53658(java.util.Map criteriaProgresses,java.lang.Boolean done, ) { return new yarnwrap.advancement.AdvancementProgress(net.minecraft.advancement.AdvancementProgress.method_53658(criteriaProgresses,done)); }
-// public java.util.Map method_53659(yarnwrap.advancement.AdvancementProgress advancementProgress) { return wrapperContained.method_53659(advancementProgress.wrapperContained); }
-// public static java.util.Map method_53659(yarnwrap.advancement.AdvancementProgress advancementProgress, ) { return net.minecraft.advancement.AdvancementProgress.method_53659(advancementProgress.wrapperContained); }
-// public boolean method_53660(Object entry) { return wrapperContained.method_53660(entry); }
-// public static boolean method_53660(Object entry, ) { return net.minecraft.advancement.AdvancementProgress.method_53660(entry); }
-// public java.util.Map method_53661(java.util.Map map) { return wrapperContained.method_53661(map); }
-// public static java.util.Map method_53661(java.util.Map map, ) { return net.minecraft.advancement.AdvancementProgress.method_53661(map); }
-// public yarnwrap.advancement.criterion.CriterionProgress method_53662(Object entry) { return new yarnwrap.advancement.criterion.CriterionProgress(wrapperContained.method_53662(entry)); }
-// public static yarnwrap.advancement.criterion.CriterionProgress method_53662(Object entry, ) { return new yarnwrap.advancement.criterion.CriterionProgress(net.minecraft.advancement.AdvancementProgress.method_53662(entry)); }
-// public boolean isCriterionObtained(java.lang.String name) { return wrapperContained.isCriterionObtained(name); }
-// public static boolean isCriterionObtained(java.lang.String name, ) { return net.minecraft.advancement.AdvancementProgress.isCriterionObtained(name); }
 public void init(yarnwrap.advancement.AdvancementRequirements requirements) { wrapperContained.init(requirements.wrapperContained); }
 // public static void init(yarnwrap.advancement.AdvancementRequirements requirements, ) { net.minecraft.advancement.AdvancementProgress.init(requirements.wrapperContained); }
 public yarnwrap.text.Text getProgressBarFraction() { return new yarnwrap.text.Text(wrapperContained.getProgressBarFraction()); }
@@ -86,5 +64,25 @@ public boolean isAnyObtained() { return wrapperContained.isAnyObtained(); }
 // public static boolean isAnyObtained() { return net.minecraft.advancement.AdvancementProgress.isAnyObtained(); }
 public boolean obtain(java.lang.String name) { return wrapperContained.obtain(name); }
 // public static boolean obtain(java.lang.String name, ) { return net.minecraft.advancement.AdvancementProgress.obtain(name); }
+// public void method_33895(yarnwrap.network.PacketByteBuf bufx,yarnwrap.advancement.criterion.CriterionProgress progresses) { wrapperContained.method_33895(bufx.wrapperContained,progresses.wrapperContained); }
+// public static void method_33895(yarnwrap.network.PacketByteBuf bufx,yarnwrap.advancement.criterion.CriterionProgress progresses, ) { net.minecraft.advancement.AdvancementProgress.method_33895(bufx.wrapperContained,progresses.wrapperContained); }
+// public com.mojang.datafixers.kinds.App method_53654(Object instance) { return wrapperContained.method_53654(instance); }
+// public static com.mojang.datafixers.kinds.App method_53654(Object instance, ) { return net.minecraft.advancement.AdvancementProgress.method_53654(instance); }
+// public java.time.temporal.TemporalAccessor method_53655(java.time.Instant instant) { return wrapperContained.method_53655(instant); }
+// public static java.time.temporal.TemporalAccessor method_53655(java.time.Instant instant, ) { return net.minecraft.advancement.AdvancementProgress.method_53655(instant); }
+// public java.time.Instant method_53656(Object entry) { return wrapperContained.method_53656(entry); }
+// public static java.time.Instant method_53656(Object entry, ) { return net.minecraft.advancement.AdvancementProgress.method_53656(entry); }
+// public java.util.Map method_53657(java.util.Map map) { return wrapperContained.method_53657(map); }
+// public static java.util.Map method_53657(java.util.Map map, ) { return net.minecraft.advancement.AdvancementProgress.method_53657(map); }
+// public yarnwrap.advancement.AdvancementProgress method_53658(java.util.Map criteriaProgresses,java.lang.Boolean done) { return new yarnwrap.advancement.AdvancementProgress(wrapperContained.method_53658(criteriaProgresses,done)); }
+// public static yarnwrap.advancement.AdvancementProgress method_53658(java.util.Map criteriaProgresses,java.lang.Boolean done, ) { return new yarnwrap.advancement.AdvancementProgress(net.minecraft.advancement.AdvancementProgress.method_53658(criteriaProgresses,done)); }
+// public java.util.Map method_53659(yarnwrap.advancement.AdvancementProgress advancementProgress) { return wrapperContained.method_53659(advancementProgress.wrapperContained); }
+// public static java.util.Map method_53659(yarnwrap.advancement.AdvancementProgress advancementProgress, ) { return net.minecraft.advancement.AdvancementProgress.method_53659(advancementProgress.wrapperContained); }
+// public boolean method_53660(Object entry) { return wrapperContained.method_53660(entry); }
+// public static boolean method_53660(Object entry, ) { return net.minecraft.advancement.AdvancementProgress.method_53660(entry); }
+// public java.util.Map method_53661(java.util.Map map) { return wrapperContained.method_53661(map); }
+// public static java.util.Map method_53661(java.util.Map map, ) { return net.minecraft.advancement.AdvancementProgress.method_53661(map); }
+// public boolean isCriterionObtained(java.lang.String name) { return wrapperContained.isCriterionObtained(name); }
+// public static boolean isCriterionObtained(java.lang.String name, ) { return net.minecraft.advancement.AdvancementProgress.isCriterionObtained(name); }
 
 }

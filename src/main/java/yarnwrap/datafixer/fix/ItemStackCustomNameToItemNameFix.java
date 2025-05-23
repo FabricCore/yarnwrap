@@ -9,14 +9,14 @@ public class ItemStackCustomNameToItemNameFix { public net.minecraft.datafixer.f
 public ItemStackCustomNameToItemNameFix(com.mojang.datafixers.schemas.Schema outputSchema) { this.wrapperContained = new net.minecraft.datafixer.fix.ItemStackCustomNameToItemNameFix(outputSchema); }
 // public com.mojang.datafixers.Typed method_58601(com.mojang.datafixers.OpticFinder itemStackTyped) { return wrapperContained.method_58601(itemStackTyped); }
 // public static com.mojang.datafixers.Typed method_58601(com.mojang.datafixers.OpticFinder itemStackTyped, ) { return net.minecraft.datafixer.fix.ItemStackCustomNameToItemNameFix.method_58601(itemStackTyped); }
-// public com.mojang.serialization.Dynamic fixExplorerMaps(com.mojang.serialization.Dynamic data) { return wrapperContained.fixExplorerMaps(data); }
-// public static com.mojang.serialization.Dynamic fixExplorerMaps(com.mojang.serialization.Dynamic data, ) { return net.minecraft.datafixer.fix.ItemStackCustomNameToItemNameFix.fixExplorerMaps(data); }
-// public com.mojang.serialization.Dynamic fix(com.mojang.serialization.Dynamic data,java.util.function.Predicate namePredicate) { return wrapperContained.fix(data,namePredicate); }
-// public static com.mojang.serialization.Dynamic fix(com.mojang.serialization.Dynamic data,java.util.function.Predicate namePredicate, ) { return net.minecraft.datafixer.fix.ItemStackCustomNameToItemNameFix.fix(data,namePredicate); }
+// public com.mojang.datafixers.Typed fixExplorerMaps() { return wrapperContained.fixExplorerMaps(); }
+// public static com.mojang.datafixers.Typed fixExplorerMaps() { return net.minecraft.datafixer.fix.ItemStackCustomNameToItemNameFix.fixExplorerMaps(); }
+// public com.mojang.datafixers.Typed fix(com.mojang.datafixers.Typed namePredicate) { return wrapperContained.fix(namePredicate); }
+// public static com.mojang.datafixers.Typed fix(com.mojang.datafixers.Typed namePredicate, ) { return net.minecraft.datafixer.fix.ItemStackCustomNameToItemNameFix.fix(namePredicate); }
 // public boolean method_58605(java.lang.String name) { return wrapperContained.method_58605(name); }
 // public static boolean method_58605(java.lang.String name, ) { return net.minecraft.datafixer.fix.ItemStackCustomNameToItemNameFix.method_58605(name); }
-// public com.mojang.serialization.Dynamic fixOminousBanner(com.mojang.serialization.Dynamic data) { return wrapperContained.fixOminousBanner(data); }
-// public static com.mojang.serialization.Dynamic fixOminousBanner(com.mojang.serialization.Dynamic data, ) { return net.minecraft.datafixer.fix.ItemStackCustomNameToItemNameFix.fixOminousBanner(data); }
+// public com.mojang.datafixers.Typed fixOminousBanner() { return wrapperContained.fixOminousBanner(); }
+// public static com.mojang.datafixers.Typed fixOminousBanner() { return net.minecraft.datafixer.fix.ItemStackCustomNameToItemNameFix.fixOminousBanner(); }
 // public boolean method_58608(java.lang.String itemId) { return wrapperContained.method_58608(itemId); }
 // public static boolean method_58608(java.lang.String itemId, ) { return net.minecraft.datafixer.fix.ItemStackCustomNameToItemNameFix.method_58608(itemId); }
 // public boolean method_58609(java.lang.String itemId) { return wrapperContained.method_58609(itemId); }

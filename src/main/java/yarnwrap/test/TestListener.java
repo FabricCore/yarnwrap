@@ -7,7 +7,7 @@ public void onFailed(yarnwrap.test.GameTestState test,yarnwrap.test.TestRunConte
 // public static void onFailed(yarnwrap.test.GameTestState test,yarnwrap.test.TestRunContext context, ) { net.minecraft.test.TestListener.onFailed(test.wrapperContained,context.wrapperContained); }
 public void onPassed(yarnwrap.test.GameTestState test,yarnwrap.test.TestRunContext context) { wrapperContained.onPassed(test.wrapperContained,context.wrapperContained); }
 // public static void onPassed(yarnwrap.test.GameTestState test,yarnwrap.test.TestRunContext context, ) { net.minecraft.test.TestListener.onPassed(test.wrapperContained,context.wrapperContained); }
-public void onRetry(yarnwrap.test.GameTestState prevState,yarnwrap.test.GameTestState nextState,yarnwrap.test.TestRunContext context) { wrapperContained.onRetry(prevState.wrapperContained,nextState.wrapperContained,context.wrapperContained); }
-// public static void onRetry(yarnwrap.test.GameTestState prevState,yarnwrap.test.GameTestState nextState,yarnwrap.test.TestRunContext context, ) { net.minecraft.test.TestListener.onRetry(prevState.wrapperContained,nextState.wrapperContained,context.wrapperContained); }
+public void onRetry(yarnwrap.test.GameTestState lastState,yarnwrap.test.GameTestState nextState,yarnwrap.test.TestRunContext context) { wrapperContained.onRetry(lastState.wrapperContained,nextState.wrapperContained,context.wrapperContained); }
+// public static void onRetry(yarnwrap.test.GameTestState lastState,yarnwrap.test.GameTestState nextState,yarnwrap.test.TestRunContext context, ) { net.minecraft.test.TestListener.onRetry(lastState.wrapperContained,nextState.wrapperContained,context.wrapperContained); }
 
 }

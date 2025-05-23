@@ -1,7 +1,6 @@
 package yarnwrap.datafixer.fix;
 public class MissingDimensionFix { public net.minecraft.datafixer.fix.MissingDimensionFix wrapperContained; public MissingDimensionFix(net.minecraft.datafixer.fix.MissingDimensionFix wrapperContained) { this.wrapperContained = wrapperContained; }
 
-public MissingDimensionFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.MissingDimensionFix(outputSchema,changesType); }
 // public com.mojang.datafixers.Typed method_29909(com.mojang.datafixers.FieldFinder worldGenSettingsTyped) { return wrapperContained.method_29909(worldGenSettingsTyped); }
 // public static com.mojang.datafixers.Typed method_29909(com.mojang.datafixers.FieldFinder worldGenSettingsTyped, ) { return net.minecraft.datafixer.fix.MissingDimensionFix.method_29909(worldGenSettingsTyped); }
 // public com.mojang.datafixers.Typed method_29910(com.mojang.datafixers.OpticFinder dimensionsTyped) { return wrapperContained.method_29910(dimensionsTyped); }

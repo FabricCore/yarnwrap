@@ -46,11 +46,6 @@ public class ProfilerSystem { public net.minecraft.util.profiler.ProfilerSystem 
 // public static long TIMEOUT_NANOSECONDS() { return net.minecraft.util.profiler.ProfilerSystem.TIMEOUT_NANOSECONDS; }
 // public static void TIMEOUT_NANOSECONDS(long value, ) { net.minecraft.util.profiler.ProfilerSystem.TIMEOUT_NANOSECONDS = value; }
 
-// public boolean checkTimeout() { return wrapperContained.checkTimeout; }
-// public void checkTimeout(boolean value) { wrapperContained.checkTimeout = value; }
-// public static boolean checkTimeout() { return net.minecraft.util.profiler.ProfilerSystem.checkTimeout; }
-// public static void checkTimeout(boolean value, ) { net.minecraft.util.profiler.ProfilerSystem.checkTimeout = value; }
-
 // public java.util.Map locationInfos() { return wrapperContained.locationInfos; }
 // public void locationInfos(java.util.Map value) { wrapperContained.locationInfos = value; }
 // public static java.util.Map locationInfos() { return net.minecraft.util.profiler.ProfilerSystem.locationInfos; }
@@ -71,7 +66,12 @@ public class ProfilerSystem { public net.minecraft.util.profiler.ProfilerSystem 
 // public static java.util.Set sampleTypes() { return net.minecraft.util.profiler.ProfilerSystem.sampleTypes; }
 // public static void sampleTypes(java.util.Set value, ) { net.minecraft.util.profiler.ProfilerSystem.sampleTypes = value; }
 
-public ProfilerSystem(java.util.function.LongSupplier timeGetter,java.util.function.IntSupplier tickGetter,boolean checkTimeout) { this.wrapperContained = new net.minecraft.util.profiler.ProfilerSystem(timeGetter,tickGetter,checkTimeout); }
+// public java.util.function.BooleanSupplier timeoutDisabled() { return wrapperContained.timeoutDisabled; }
+// public void timeoutDisabled(java.util.function.BooleanSupplier value) { wrapperContained.timeoutDisabled = value; }
+// public static java.util.function.BooleanSupplier timeoutDisabled() { return net.minecraft.util.profiler.ProfilerSystem.timeoutDisabled; }
+// public static void timeoutDisabled(java.util.function.BooleanSupplier value, ) { net.minecraft.util.profiler.ProfilerSystem.timeoutDisabled = value; }
+
+public ProfilerSystem(java.util.function.LongSupplier timeGetter,java.util.function.IntSupplier tickGetter,java.util.function.BooleanSupplier timeoutDisabled) { this.wrapperContained = new net.minecraft.util.profiler.ProfilerSystem(timeGetter,tickGetter,timeoutDisabled); }
 // public Object method_24245(java.lang.String k) { return wrapperContained.method_24245(k); }
 // public static Object method_24245(java.lang.String k, ) { return net.minecraft.util.profiler.ProfilerSystem.method_24245(k); }
 // public Object getCurrentInfo() { return wrapperContained.getCurrentInfo(); }

@@ -14,18 +14,10 @@ public class BlockModels { public net.minecraft.client.render.block.BlockModels 
 public BlockModels(yarnwrap.client.render.model.BakedModelManager modelManager) { this.wrapperContained = new net.minecraft.client.render.block.BlockModels(modelManager.wrapperContained); }
 public yarnwrap.client.render.model.BakedModelManager getModelManager() { return new yarnwrap.client.render.model.BakedModelManager(wrapperContained.getModelManager()); }
 // public static yarnwrap.client.render.model.BakedModelManager getModelManager() { return new yarnwrap.client.render.model.BakedModelManager(net.minecraft.client.render.block.BlockModels.getModelManager()); }
-// public java.lang.String propertyValueToString(yarnwrap.state.property.Property property,java.lang.Comparable value) { return wrapperContained.propertyValueToString(property.wrapperContained,value); }
-// public static java.lang.String propertyValueToString(yarnwrap.state.property.Property property,java.lang.Comparable value, ) { return net.minecraft.client.render.block.BlockModels.propertyValueToString(property.wrapperContained,value); }
-public yarnwrap.client.render.model.BakedModel getModel(yarnwrap.block.BlockState state) { return new yarnwrap.client.render.model.BakedModel(wrapperContained.getModel(state.wrapperContained)); }
-// public static yarnwrap.client.render.model.BakedModel getModel(yarnwrap.block.BlockState state, ) { return new yarnwrap.client.render.model.BakedModel(net.minecraft.client.render.block.BlockModels.getModel(state.wrapperContained)); }
-// public yarnwrap.client.util.ModelIdentifier getModelId(yarnwrap.util.Identifier id,yarnwrap.block.BlockState state) { return new yarnwrap.client.util.ModelIdentifier(wrapperContained.getModelId(id.wrapperContained,state.wrapperContained)); }
-// public static yarnwrap.client.util.ModelIdentifier getModelId(yarnwrap.util.Identifier id,yarnwrap.block.BlockState state, ) { return new yarnwrap.client.util.ModelIdentifier(net.minecraft.client.render.block.BlockModels.getModelId(id.wrapperContained,state.wrapperContained)); }
-// public java.lang.String propertyMapToString(java.util.Map map) { return wrapperContained.propertyMapToString(map); }
-// public static java.lang.String propertyMapToString(java.util.Map map, ) { return net.minecraft.client.render.block.BlockModels.propertyMapToString(map); }
+public yarnwrap.client.render.model.BlockStateModel getModel(yarnwrap.block.BlockState state) { return new yarnwrap.client.render.model.BlockStateModel(wrapperContained.getModel(state.wrapperContained)); }
+// public static yarnwrap.client.render.model.BlockStateModel getModel(yarnwrap.block.BlockState state, ) { return new yarnwrap.client.render.model.BlockStateModel(net.minecraft.client.render.block.BlockModels.getModel(state.wrapperContained)); }
 public yarnwrap.client.texture.Sprite getModelParticleSprite(yarnwrap.block.BlockState state) { return new yarnwrap.client.texture.Sprite(wrapperContained.getModelParticleSprite(state.wrapperContained)); }
 // public static yarnwrap.client.texture.Sprite getModelParticleSprite(yarnwrap.block.BlockState state, ) { return new yarnwrap.client.texture.Sprite(net.minecraft.client.render.block.BlockModels.getModelParticleSprite(state.wrapperContained)); }
-// public yarnwrap.client.util.ModelIdentifier getModelId(yarnwrap.block.BlockState state) { return new yarnwrap.client.util.ModelIdentifier(wrapperContained.getModelId(state.wrapperContained)); }
-// public static yarnwrap.client.util.ModelIdentifier getModelId(yarnwrap.block.BlockState state, ) { return new yarnwrap.client.util.ModelIdentifier(net.minecraft.client.render.block.BlockModels.getModelId(state.wrapperContained)); }
 public void setModels(java.util.Map models) { wrapperContained.setModels(models); }
 // public static void setModels(java.util.Map models, ) { net.minecraft.client.render.block.BlockModels.setModels(models); }
 

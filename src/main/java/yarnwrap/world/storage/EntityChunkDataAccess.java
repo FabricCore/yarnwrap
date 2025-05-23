@@ -26,10 +26,10 @@ public class EntityChunkDataAccess { public net.minecraft.world.storage.EntityCh
 // public static java.lang.String POSITION_KEY() { return net.minecraft.world.storage.EntityChunkDataAccess.POSITION_KEY; }
 // public static void POSITION_KEY(java.lang.String value, ) { net.minecraft.world.storage.EntityChunkDataAccess.POSITION_KEY = value; }
 
-// public yarnwrap.util.thread.TaskExecutor taskExecutor() { return new yarnwrap.util.thread.TaskExecutor(wrapperContained.taskExecutor); }
-// public void taskExecutor(yarnwrap.util.thread.TaskExecutor value) { wrapperContained.taskExecutor = value.wrapperContained; }
-// public static yarnwrap.util.thread.TaskExecutor taskExecutor() { return new yarnwrap.util.thread.TaskExecutor(net.minecraft.world.storage.EntityChunkDataAccess.taskExecutor); }
-// public static void taskExecutor(yarnwrap.util.thread.TaskExecutor value, ) { net.minecraft.world.storage.EntityChunkDataAccess.taskExecutor = value.wrapperContained; }
+// public yarnwrap.util.thread.SimpleConsecutiveExecutor taskExecutor() { return new yarnwrap.util.thread.SimpleConsecutiveExecutor(wrapperContained.taskExecutor); }
+// public void taskExecutor(yarnwrap.util.thread.SimpleConsecutiveExecutor value) { wrapperContained.taskExecutor = value.wrapperContained; }
+// public static yarnwrap.util.thread.SimpleConsecutiveExecutor taskExecutor() { return new yarnwrap.util.thread.SimpleConsecutiveExecutor(net.minecraft.world.storage.EntityChunkDataAccess.taskExecutor); }
+// public static void taskExecutor(yarnwrap.util.thread.SimpleConsecutiveExecutor value, ) { net.minecraft.world.storage.EntityChunkDataAccess.taskExecutor = value.wrapperContained; }
 
 // public yarnwrap.world.storage.ChunkPosKeyedStorage storage() { return new yarnwrap.world.storage.ChunkPosKeyedStorage(wrapperContained.storage); }
 // public void storage(yarnwrap.world.storage.ChunkPosKeyedStorage value) { wrapperContained.storage = value.wrapperContained; }
@@ -39,14 +39,8 @@ public class EntityChunkDataAccess { public net.minecraft.world.storage.EntityCh
 public EntityChunkDataAccess(yarnwrap.world.storage.ChunkPosKeyedStorage storage,yarnwrap.server.world.ServerWorld world,java.util.concurrent.Executor executor) { this.wrapperContained = new net.minecraft.world.storage.EntityChunkDataAccess(storage.wrapperContained,world.wrapperContained,executor); }
 // public yarnwrap.world.storage.ChunkDataList method_31731(yarnwrap.util.math.ChunkPos nbt) { return new yarnwrap.world.storage.ChunkDataList(wrapperContained.method_31731(nbt.wrapperContained)); }
 // public static yarnwrap.world.storage.ChunkDataList method_31731(yarnwrap.util.math.ChunkPos nbt, ) { return new yarnwrap.world.storage.ChunkDataList(net.minecraft.world.storage.EntityChunkDataAccess.method_31731(nbt.wrapperContained)); }
-// public void putChunkPos(yarnwrap.nbt.NbtCompound chunkNbt,yarnwrap.util.math.ChunkPos pos) { wrapperContained.putChunkPos(chunkNbt.wrapperContained,pos.wrapperContained); }
-// public static void putChunkPos(yarnwrap.nbt.NbtCompound chunkNbt,yarnwrap.util.math.ChunkPos pos, ) { net.minecraft.world.storage.EntityChunkDataAccess.putChunkPos(chunkNbt.wrapperContained,pos.wrapperContained); }
-// public void method_31734(yarnwrap.nbt.NbtList entity) { wrapperContained.method_31734(entity.wrapperContained); }
-// public static void method_31734(yarnwrap.nbt.NbtList entity, ) { net.minecraft.world.storage.EntityChunkDataAccess.method_31734(entity.wrapperContained); }
 // public yarnwrap.world.storage.ChunkDataList emptyDataList(yarnwrap.util.math.ChunkPos pos) { return new yarnwrap.world.storage.ChunkDataList(wrapperContained.emptyDataList(pos.wrapperContained)); }
 // public static yarnwrap.world.storage.ChunkDataList emptyDataList(yarnwrap.util.math.ChunkPos pos, ) { return new yarnwrap.world.storage.ChunkDataList(net.minecraft.world.storage.EntityChunkDataAccess.emptyDataList(pos.wrapperContained)); }
-// public yarnwrap.util.math.ChunkPos getChunkPos(yarnwrap.nbt.NbtCompound chunkNbt) { return new yarnwrap.util.math.ChunkPos(wrapperContained.getChunkPos(chunkNbt.wrapperContained)); }
-// public static yarnwrap.util.math.ChunkPos getChunkPos(yarnwrap.nbt.NbtCompound chunkNbt, ) { return new yarnwrap.util.math.ChunkPos(net.minecraft.world.storage.EntityChunkDataAccess.getChunkPos(chunkNbt.wrapperContained)); }
 // public java.lang.Object method_61000(yarnwrap.util.math.ChunkPos throwable) { return wrapperContained.method_61000(throwable.wrapperContained); }
 // public static java.lang.Object method_61000(yarnwrap.util.math.ChunkPos throwable, ) { return net.minecraft.world.storage.EntityChunkDataAccess.method_61000(throwable.wrapperContained); }
 // public void handleSaveFailure(java.util.concurrent.CompletableFuture future,yarnwrap.util.math.ChunkPos pos) { wrapperContained.handleSaveFailure(future,pos.wrapperContained); }

@@ -16,5 +16,7 @@ public class ForgetCompletedPointOfInterestTask { public net.minecraft.entity.ai
 // public static com.mojang.datafixers.kinds.App method_47189(yarnwrap.entity.ai.brain.MemoryModuleType context, ) { return net.minecraft.entity.ai.brain.task.ForgetCompletedPointOfInterestTask.method_47189(context.wrapperContained); }
 // public yarnwrap.entity.ai.brain.task.Task create(java.util.function.Predicate poiTypePredicate,yarnwrap.entity.ai.brain.MemoryModuleType poiPosModule) { return new yarnwrap.entity.ai.brain.task.Task(wrapperContained.create(poiTypePredicate,poiPosModule.wrapperContained)); }
 // public static yarnwrap.entity.ai.brain.task.Task create(java.util.function.Predicate poiTypePredicate,yarnwrap.entity.ai.brain.MemoryModuleType poiPosModule, ) { return new yarnwrap.entity.ai.brain.task.Task(net.minecraft.entity.ai.brain.task.ForgetCompletedPointOfInterestTask.create(poiTypePredicate,poiPosModule.wrapperContained)); }
+// public boolean isSleepingVillagerAt(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isSleepingVillagerAt(world.wrapperContained,pos.wrapperContained); }
+// public static boolean isSleepingVillagerAt(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.ai.brain.task.ForgetCompletedPointOfInterestTask.isSleepingVillagerAt(world.wrapperContained,pos.wrapperContained); }
 
 }

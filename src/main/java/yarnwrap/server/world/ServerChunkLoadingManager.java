@@ -41,25 +41,10 @@ public class ServerChunkLoadingManager { public net.minecraft.server.world.Serve
 // public static boolean chunkHolderListDirty() { return net.minecraft.server.world.ServerChunkLoadingManager.chunkHolderListDirty; }
 // public static void chunkHolderListDirty(boolean value, ) { net.minecraft.server.world.ServerChunkLoadingManager.chunkHolderListDirty = value; }
 
-// public yarnwrap.server.world.ChunkTaskPrioritySystem chunkTaskPrioritySystem() { return new yarnwrap.server.world.ChunkTaskPrioritySystem(wrapperContained.chunkTaskPrioritySystem); }
-// public void chunkTaskPrioritySystem(yarnwrap.server.world.ChunkTaskPrioritySystem value) { wrapperContained.chunkTaskPrioritySystem = value.wrapperContained; }
-// public static yarnwrap.server.world.ChunkTaskPrioritySystem chunkTaskPrioritySystem() { return new yarnwrap.server.world.ChunkTaskPrioritySystem(net.minecraft.server.world.ServerChunkLoadingManager.chunkTaskPrioritySystem); }
-// public static void chunkTaskPrioritySystem(yarnwrap.server.world.ChunkTaskPrioritySystem value, ) { net.minecraft.server.world.ServerChunkLoadingManager.chunkTaskPrioritySystem = value.wrapperContained; }
-
-// public yarnwrap.util.thread.MessageListener worldGenExecutor() { return new yarnwrap.util.thread.MessageListener(wrapperContained.worldGenExecutor); }
-// public void worldGenExecutor(yarnwrap.util.thread.MessageListener value) { wrapperContained.worldGenExecutor = value.wrapperContained; }
-// public static yarnwrap.util.thread.MessageListener worldGenExecutor() { return new yarnwrap.util.thread.MessageListener(net.minecraft.server.world.ServerChunkLoadingManager.worldGenExecutor); }
-// public static void worldGenExecutor(yarnwrap.util.thread.MessageListener value, ) { net.minecraft.server.world.ServerChunkLoadingManager.worldGenExecutor = value.wrapperContained; }
-
-// public yarnwrap.util.thread.MessageListener mainExecutor() { return new yarnwrap.util.thread.MessageListener(wrapperContained.mainExecutor); }
-// public void mainExecutor(yarnwrap.util.thread.MessageListener value) { wrapperContained.mainExecutor = value.wrapperContained; }
-// public static yarnwrap.util.thread.MessageListener mainExecutor() { return new yarnwrap.util.thread.MessageListener(net.minecraft.server.world.ServerChunkLoadingManager.mainExecutor); }
-// public static void mainExecutor(yarnwrap.util.thread.MessageListener value, ) { net.minecraft.server.world.ServerChunkLoadingManager.mainExecutor = value.wrapperContained; }
-
-// public Object ticketManager() { return wrapperContained.ticketManager; }
-// // public void ticketManager(Object value) { wrapperContained.ticketManager = value; }
-// // public static Object ticketManager() { return net.minecraft.server.world.ServerChunkLoadingManager.ticketManager; }
-// // public static void ticketManager(Object value, ) { net.minecraft.server.world.ServerChunkLoadingManager.ticketManager = value; }
+// public Object levelManager() { return wrapperContained.levelManager; }
+// // public void levelManager(Object value) { wrapperContained.levelManager = value; }
+// // public static Object levelManager() { return net.minecraft.server.world.ServerChunkLoadingManager.levelManager; }
+// // public static void levelManager(Object value, ) { net.minecraft.server.world.ServerChunkLoadingManager.levelManager = value; }
 
 // public java.util.concurrent.atomic.AtomicInteger totalChunksLoadedCount() { return wrapperContained.totalChunksLoadedCount; }
 // public void totalChunksLoadedCount(java.util.concurrent.atomic.AtomicInteger value) { wrapperContained.totalChunksLoadedCount = value; }
@@ -121,6 +106,11 @@ public class ServerChunkLoadingManager { public net.minecraft.server.world.Serve
 // public static yarnwrap.world.chunk.ChunkStatusChangeListener chunkStatusChangeListener() { return new yarnwrap.world.chunk.ChunkStatusChangeListener(net.minecraft.server.world.ServerChunkLoadingManager.chunkStatusChangeListener); }
 // public static void chunkStatusChangeListener(yarnwrap.world.chunk.ChunkStatusChangeListener value, ) { net.minecraft.server.world.ServerChunkLoadingManager.chunkStatusChangeListener = value.wrapperContained; }
 
+// public int FORCED_CHUNK_LEVEL() { return wrapperContained.FORCED_CHUNK_LEVEL; }
+// public void FORCED_CHUNK_LEVEL(int value) { wrapperContained.FORCED_CHUNK_LEVEL = value; }
+public static int FORCED_CHUNK_LEVEL() { return net.minecraft.server.world.ServerChunkLoadingManager.FORCED_CHUNK_LEVEL; }
+// public static void FORCED_CHUNK_LEVEL(int value, ) { net.minecraft.server.world.ServerChunkLoadingManager.FORCED_CHUNK_LEVEL = value; }
+
 // public byte PROTO_CHUNK() { return wrapperContained.PROTO_CHUNK; }
 // public void PROTO_CHUNK(byte value) { wrapperContained.PROTO_CHUNK = value; }
 // public static byte PROTO_CHUNK() { return net.minecraft.server.world.ServerChunkLoadingManager.PROTO_CHUNK; }
@@ -140,11 +130,6 @@ public class ServerChunkLoadingManager { public net.minecraft.server.world.Serve
 // public void DEFAULT_VIEW_DISTANCE(int value) { wrapperContained.DEFAULT_VIEW_DISTANCE = value; }
 public static int DEFAULT_VIEW_DISTANCE() { return net.minecraft.server.world.ServerChunkLoadingManager.DEFAULT_VIEW_DISTANCE; }
 // public static void DEFAULT_VIEW_DISTANCE(int value, ) { net.minecraft.server.world.ServerChunkLoadingManager.DEFAULT_VIEW_DISTANCE = value; }
-
-// public it.unimi.dsi.fastutil.longs.Long2LongMap chunkToNextSaveTimeMs() { return wrapperContained.chunkToNextSaveTimeMs; }
-// public void chunkToNextSaveTimeMs(it.unimi.dsi.fastutil.longs.Long2LongMap value) { wrapperContained.chunkToNextSaveTimeMs = value; }
-// public static it.unimi.dsi.fastutil.longs.Long2LongMap chunkToNextSaveTimeMs() { return net.minecraft.server.world.ServerChunkLoadingManager.chunkToNextSaveTimeMs; }
-// public static void chunkToNextSaveTimeMs(it.unimi.dsi.fastutil.longs.Long2LongMap value, ) { net.minecraft.server.world.ServerChunkLoadingManager.chunkToNextSaveTimeMs = value; }
 
 // public yarnwrap.world.gen.noise.NoiseConfig noiseConfig() { return new yarnwrap.world.gen.noise.NoiseConfig(wrapperContained.noiseConfig); }
 // public void noiseConfig(yarnwrap.world.gen.noise.NoiseConfig value) { wrapperContained.noiseConfig = value.wrapperContained; }
@@ -176,7 +161,37 @@ public static int DEFAULT_VIEW_DISTANCE() { return net.minecraft.server.world.Se
 // public static java.util.List loaders() { return net.minecraft.server.world.ServerChunkLoadingManager.loaders; }
 // public static void loaders(java.util.List value, ) { net.minecraft.server.world.ServerChunkLoadingManager.loaders = value; }
 
-// public ServerChunkLoadingManager(yarnwrap.server.world.ServerWorld world,Object session,com.mojang.datafixers.DataFixer dataFixer,yarnwrap.structure.StructureTemplateManager structureTemplateManager,java.util.concurrent.Executor executor,yarnwrap.util.thread.ThreadExecutor mainThreadExecutor,yarnwrap.world.chunk.ChunkProvider chunkProvider,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener,yarnwrap.world.chunk.ChunkStatusChangeListener chunkStatusChangeListener,java.util.function.Supplier persistentStateManagerFactory,int viewDistance,boolean dsync) { this.wrapperContained = new net.minecraft.server.world.ServerChunkLoadingManager(world.wrapperContained,session,dataFixer,structureTemplateManager.wrapperContained,executor,mainThreadExecutor.wrapperContained,chunkProvider.wrapperContained,chunkGenerator.wrapperContained,worldGenerationProgressListener.wrapperContained,chunkStatusChangeListener.wrapperContained,persistentStateManagerFactory,viewDistance,dsync); }
+// public it.unimi.dsi.fastutil.longs.Long2LongMap chunkToNextSaveTimeMs() { return wrapperContained.chunkToNextSaveTimeMs; }
+// public void chunkToNextSaveTimeMs(it.unimi.dsi.fastutil.longs.Long2LongMap value) { wrapperContained.chunkToNextSaveTimeMs = value; }
+// public static it.unimi.dsi.fastutil.longs.Long2LongMap chunkToNextSaveTimeMs() { return net.minecraft.server.world.ServerChunkLoadingManager.chunkToNextSaveTimeMs; }
+// public static void chunkToNextSaveTimeMs(it.unimi.dsi.fastutil.longs.Long2LongMap value, ) { net.minecraft.server.world.ServerChunkLoadingManager.chunkToNextSaveTimeMs = value; }
+
+// public yarnwrap.server.world.ChunkTaskScheduler worldGenScheduler() { return new yarnwrap.server.world.ChunkTaskScheduler(wrapperContained.worldGenScheduler); }
+// public void worldGenScheduler(yarnwrap.server.world.ChunkTaskScheduler value) { wrapperContained.worldGenScheduler = value.wrapperContained; }
+// public static yarnwrap.server.world.ChunkTaskScheduler worldGenScheduler() { return new yarnwrap.server.world.ChunkTaskScheduler(net.minecraft.server.world.ServerChunkLoadingManager.worldGenScheduler); }
+// public static void worldGenScheduler(yarnwrap.server.world.ChunkTaskScheduler value, ) { net.minecraft.server.world.ServerChunkLoadingManager.worldGenScheduler = value.wrapperContained; }
+
+// public yarnwrap.server.world.ChunkTaskScheduler lightScheduler() { return new yarnwrap.server.world.ChunkTaskScheduler(wrapperContained.lightScheduler); }
+// public void lightScheduler(yarnwrap.server.world.ChunkTaskScheduler value) { wrapperContained.lightScheduler = value.wrapperContained; }
+// public static yarnwrap.server.world.ChunkTaskScheduler lightScheduler() { return new yarnwrap.server.world.ChunkTaskScheduler(net.minecraft.server.world.ServerChunkLoadingManager.lightScheduler); }
+// public static void lightScheduler(yarnwrap.server.world.ChunkTaskScheduler value, ) { net.minecraft.server.world.ServerChunkLoadingManager.lightScheduler = value.wrapperContained; }
+
+// public it.unimi.dsi.fastutil.longs.LongSet chunksToSave() { return wrapperContained.chunksToSave; }
+// public void chunksToSave(it.unimi.dsi.fastutil.longs.LongSet value) { wrapperContained.chunksToSave = value; }
+// public static it.unimi.dsi.fastutil.longs.LongSet chunksToSave() { return net.minecraft.server.world.ServerChunkLoadingManager.chunksToSave; }
+// public static void chunksToSave(it.unimi.dsi.fastutil.longs.LongSet value, ) { net.minecraft.server.world.ServerChunkLoadingManager.chunksToSave = value; }
+
+// public java.util.concurrent.atomic.AtomicInteger chunksBeingSavedCount() { return wrapperContained.chunksBeingSavedCount; }
+// public void chunksBeingSavedCount(java.util.concurrent.atomic.AtomicInteger value) { wrapperContained.chunksBeingSavedCount = value; }
+// public static java.util.concurrent.atomic.AtomicInteger chunksBeingSavedCount() { return net.minecraft.server.world.ServerChunkLoadingManager.chunksBeingSavedCount; }
+// public static void chunksBeingSavedCount(java.util.concurrent.atomic.AtomicInteger value, ) { net.minecraft.server.world.ServerChunkLoadingManager.chunksBeingSavedCount = value; }
+
+// public yarnwrap.server.world.ChunkTicketManager ticketManager() { return new yarnwrap.server.world.ChunkTicketManager(wrapperContained.ticketManager); }
+// public void ticketManager(yarnwrap.server.world.ChunkTicketManager value) { wrapperContained.ticketManager = value.wrapperContained; }
+// public static yarnwrap.server.world.ChunkTicketManager ticketManager() { return new yarnwrap.server.world.ChunkTicketManager(net.minecraft.server.world.ServerChunkLoadingManager.ticketManager); }
+// public static void ticketManager(yarnwrap.server.world.ChunkTicketManager value, ) { net.minecraft.server.world.ServerChunkLoadingManager.ticketManager = value.wrapperContained; }
+
+// public ServerChunkLoadingManager(yarnwrap.server.world.ServerWorld world,Object session,com.mojang.datafixers.DataFixer dataFixer,yarnwrap.structure.StructureTemplateManager structureTemplateManager,java.util.concurrent.Executor executor,yarnwrap.util.thread.ThreadExecutor mainThreadExecutor,yarnwrap.world.chunk.ChunkProvider chunkProvider,yarnwrap.world.gen.chunk.ChunkGenerator chunkGenerator,yarnwrap.server.WorldGenerationProgressListener worldGenerationProgressListener,yarnwrap.world.chunk.ChunkStatusChangeListener chunkStatusChangeListener,java.util.function.Supplier persistentStateManagerFactory,yarnwrap.server.world.ChunkTicketManager ticketManager,int viewDistance,boolean dsync) { this.wrapperContained = new net.minecraft.server.world.ServerChunkLoadingManager(world.wrapperContained,session,dataFixer,structureTemplateManager.wrapperContained,executor,mainThreadExecutor.wrapperContained,chunkProvider.wrapperContained,chunkGenerator.wrapperContained,worldGenerationProgressListener.wrapperContained,chunkStatusChangeListener.wrapperContained,persistentStateManagerFactory,ticketManager.wrapperContained,viewDistance,dsync); }
 // public yarnwrap.server.world.ServerLightingProvider getLightingProvider() { return new yarnwrap.server.world.ServerLightingProvider(wrapperContained.getLightingProvider()); }
 // public static yarnwrap.server.world.ServerLightingProvider getLightingProvider() { return new yarnwrap.server.world.ServerLightingProvider(net.minecraft.server.world.ServerChunkLoadingManager.getLightingProvider()); }
 // public void setViewDistance(int watchDistance) { wrapperContained.setViewDistance(watchDistance); }
@@ -215,8 +230,8 @@ public int getTotalChunksLoadedCount() { return wrapperContained.getTotalChunksL
 // public static yarnwrap.server.world.ChunkHolder getCurrentChunkHolder(long pos, ) { return new yarnwrap.server.world.ChunkHolder(net.minecraft.server.world.ServerChunkLoadingManager.getCurrentChunkHolder(pos)); }
 public int getLoadedChunkCount() { return wrapperContained.getLoadedChunkCount(); }
 // public static int getLoadedChunkCount() { return net.minecraft.server.world.ServerChunkLoadingManager.getLoadedChunkCount(); }
-public yarnwrap.server.world.ChunkTicketManager getTicketManager() { return new yarnwrap.server.world.ChunkTicketManager(wrapperContained.getTicketManager()); }
-// public static yarnwrap.server.world.ChunkTicketManager getTicketManager() { return new yarnwrap.server.world.ChunkTicketManager(net.minecraft.server.world.ServerChunkLoadingManager.getTicketManager()); }
+public yarnwrap.server.world.ChunkLevelManager getLevelManager() { return new yarnwrap.server.world.ChunkLevelManager(wrapperContained.getLevelManager()); }
+// public static yarnwrap.server.world.ChunkLevelManager getLevelManager() { return new yarnwrap.server.world.ChunkLevelManager(net.minecraft.server.world.ServerChunkLoadingManager.getLevelManager()); }
 // public java.lang.Iterable entryIterator() { return wrapperContained.entryIterator(); }
 // public static java.lang.Iterable entryIterator() { return net.minecraft.server.world.ServerChunkLoadingManager.entryIterator(); }
 // public java.util.function.IntSupplier getCompletedLevelSupplier(long pos) { return wrapperContained.getCompletedLevelSupplier(pos); }
@@ -225,8 +240,8 @@ public yarnwrap.server.world.ChunkTicketManager getTicketManager() { return new 
 // public static void loadEntity(yarnwrap.entity.Entity entity, ) { net.minecraft.server.world.ServerChunkLoadingManager.loadEntity(entity.wrapperContained); }
 public void sendToOtherNearbyPlayers(yarnwrap.entity.Entity entity,yarnwrap.network.packet.Packet packet) { wrapperContained.sendToOtherNearbyPlayers(entity.wrapperContained,packet.wrapperContained); }
 // public static void sendToOtherNearbyPlayers(yarnwrap.entity.Entity entity,yarnwrap.network.packet.Packet packet, ) { net.minecraft.server.world.ServerChunkLoadingManager.sendToOtherNearbyPlayers(entity.wrapperContained,packet.wrapperContained); }
-// public double getSquaredDistance(yarnwrap.util.math.ChunkPos pos,yarnwrap.entity.Entity entity) { return wrapperContained.getSquaredDistance(pos.wrapperContained,entity.wrapperContained); }
-// public static double getSquaredDistance(yarnwrap.util.math.ChunkPos pos,yarnwrap.entity.Entity entity, ) { return net.minecraft.server.world.ServerChunkLoadingManager.getSquaredDistance(pos.wrapperContained,entity.wrapperContained); }
+// public double getSquaredDistance(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.getSquaredDistance(pos.wrapperContained); }
+// public static double getSquaredDistance(yarnwrap.util.math.ChunkPos pos, ) { return net.minecraft.server.world.ServerChunkLoadingManager.getSquaredDistance(pos.wrapperContained); }
 public void updatePosition(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.updatePosition(player.wrapperContained); }
 // public static void updatePosition(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.server.world.ServerChunkLoadingManager.updatePosition(player.wrapperContained); }
 // public void handlePlayerAddedOrRemoved(yarnwrap.server.network.ServerPlayerEntity player,boolean added) { wrapperContained.handlePlayerAddedOrRemoved(player.wrapperContained,added); }
@@ -239,18 +254,14 @@ public void updatePosition(yarnwrap.server.network.ServerPlayerEntity player) { 
 // public static boolean doesNotGenerateChunks(yarnwrap.server.network.ServerPlayerEntity player, ) { return net.minecraft.server.world.ServerChunkLoadingManager.doesNotGenerateChunks(player.wrapperContained); }
 // public void tickEntityMovement() { wrapperContained.tickEntityMovement(); }
 // public static void tickEntityMovement() { net.minecraft.server.world.ServerChunkLoadingManager.tickEntityMovement(); }
-// public void method_19487(yarnwrap.server.world.ChunkHolder task) { wrapperContained.method_19487(task.wrapperContained); }
-// public static void method_19487(yarnwrap.server.world.ChunkHolder task, ) { net.minecraft.server.world.ServerChunkLoadingManager.method_19487(task.wrapperContained); }
 // public yarnwrap.world.poi.PointOfInterestStorage getPointOfInterestStorage() { return new yarnwrap.world.poi.PointOfInterestStorage(wrapperContained.getPointOfInterestStorage()); }
 // public static yarnwrap.world.poi.PointOfInterestStorage getPointOfInterestStorage() { return new yarnwrap.world.poi.PointOfInterestStorage(net.minecraft.server.world.ServerChunkLoadingManager.getPointOfInterestStorage()); }
-// public void tryUnloadChunk(long pos,yarnwrap.server.world.ChunkHolder holder) { wrapperContained.tryUnloadChunk(pos,holder.wrapperContained); }
-// public static void tryUnloadChunk(long pos,yarnwrap.server.world.ChunkHolder holder, ) { net.minecraft.server.world.ServerChunkLoadingManager.tryUnloadChunk(pos,holder.wrapperContained); }
+// public void tryUnloadChunk(long pos,yarnwrap.server.world.ChunkHolder chunk) { wrapperContained.tryUnloadChunk(pos,chunk.wrapperContained); }
+// public static void tryUnloadChunk(long pos,yarnwrap.server.world.ChunkHolder chunk, ) { net.minecraft.server.world.ServerChunkLoadingManager.tryUnloadChunk(pos,chunk.wrapperContained); }
 // public yarnwrap.server.world.OptionalChunk method_20577(yarnwrap.server.world.OptionalChunk optionalChunks) { return new yarnwrap.server.world.OptionalChunk(wrapperContained.method_20577(optionalChunks.wrapperContained)); }
 // public static yarnwrap.server.world.OptionalChunk method_20577(yarnwrap.server.world.OptionalChunk optionalChunks, ) { return new yarnwrap.server.world.OptionalChunk(net.minecraft.server.world.ServerChunkLoadingManager.method_20577(optionalChunks.wrapperContained)); }
 // public void method_20578(org.apache.commons.lang3.mutable.MutableBoolean chunk) { wrapperContained.method_20578(chunk); }
 // public static void method_20578(org.apache.commons.lang3.mutable.MutableBoolean chunk, ) { net.minecraft.server.world.ServerChunkLoadingManager.method_20578(chunk); }
-// public void method_20579(yarnwrap.server.world.ChunkHolder task) { wrapperContained.method_20579(task.wrapperContained); }
-// public static void method_20579(yarnwrap.server.world.ChunkHolder task, ) { net.minecraft.server.world.ServerChunkLoadingManager.method_20579(task.wrapperContained); }
 // public boolean method_20582(yarnwrap.world.chunk.Chunk chunk) { return wrapperContained.method_20582(chunk.wrapperContained); }
 // public static boolean method_20582(yarnwrap.world.chunk.Chunk chunk, ) { return net.minecraft.server.world.ServerChunkLoadingManager.method_20582(chunk.wrapperContained); }
 // public yarnwrap.world.chunk.Chunk method_20584(yarnwrap.server.world.ChunkHolder holder) { return new yarnwrap.world.chunk.Chunk(wrapperContained.method_20584(holder.wrapperContained)); }
@@ -299,8 +310,8 @@ public java.util.List getPlayersWatchingChunk(yarnwrap.util.math.ChunkPos pos) {
 // public static java.lang.Integer method_39220(yarnwrap.world.chunk.WorldChunk chunk, ) { return net.minecraft.server.world.ServerChunkLoadingManager.method_39220(chunk.wrapperContained); }
 // public java.lang.Integer method_39221(yarnwrap.world.chunk.WorldChunk chunk) { return wrapperContained.method_39221(chunk.wrapperContained); }
 // public static java.lang.Integer method_39221(yarnwrap.world.chunk.WorldChunk chunk, ) { return net.minecraft.server.world.ServerChunkLoadingManager.method_39221(chunk.wrapperContained); }
-// public boolean save(yarnwrap.server.world.ChunkHolder chunkHolder) { return wrapperContained.save(chunkHolder.wrapperContained); }
-// public static boolean save(yarnwrap.server.world.ChunkHolder chunkHolder, ) { return net.minecraft.server.world.ServerChunkLoadingManager.save(chunkHolder.wrapperContained); }
+// public boolean save(yarnwrap.server.world.ChunkHolder chunkHolder,long currentTime) { return wrapperContained.save(chunkHolder.wrapperContained,currentTime); }
+// public static boolean save(yarnwrap.server.world.ChunkHolder chunkHolder,long currentTime, ) { return net.minecraft.server.world.ServerChunkLoadingManager.save(chunkHolder.wrapperContained,currentTime); }
 public boolean shouldDelayShutdown() { return wrapperContained.shouldDelayShutdown(); }
 // public static boolean shouldDelayShutdown() { return net.minecraft.server.world.ServerChunkLoadingManager.shouldDelayShutdown(); }
 public yarnwrap.util.crash.CrashException crash(java.lang.IllegalStateException exception,java.lang.String details) { return new yarnwrap.util.crash.CrashException(wrapperContained.crash(exception,details)); }
@@ -309,10 +320,6 @@ public yarnwrap.util.crash.CrashException crash(java.lang.IllegalStateException 
 // public static void method_40068(java.lang.StringBuilder chunkHolder, ) { net.minecraft.server.world.ServerChunkLoadingManager.method_40068(chunkHolder); }
 // public void method_40069(java.lang.StringBuilder pair) { wrapperContained.method_40069(pair); }
 // public static void method_40069(java.lang.StringBuilder pair, ) { net.minecraft.server.world.ServerChunkLoadingManager.method_40069(pair); }
-// public yarnwrap.world.chunk.WorldChunk method_41234(java.util.List cs) { return new yarnwrap.world.chunk.WorldChunk(wrapperContained.method_41234(cs)); }
-// public static yarnwrap.world.chunk.WorldChunk method_41234(java.util.List cs, ) { return new yarnwrap.world.chunk.WorldChunk(net.minecraft.server.world.ServerChunkLoadingManager.method_41234(cs)); }
-// public yarnwrap.server.world.OptionalChunk method_41235(yarnwrap.server.world.OptionalChunk optionalChunks) { return new yarnwrap.server.world.OptionalChunk(wrapperContained.method_41235(optionalChunks.wrapperContained)); }
-// public static yarnwrap.server.world.OptionalChunk method_41235(yarnwrap.server.world.OptionalChunk optionalChunks, ) { return new yarnwrap.server.world.OptionalChunk(net.minecraft.server.world.ServerChunkLoadingManager.method_41235(optionalChunks.wrapperContained)); }
 // public yarnwrap.world.gen.noise.NoiseConfig getNoiseConfig() { return new yarnwrap.world.gen.noise.NoiseConfig(wrapperContained.getNoiseConfig()); }
 // public static yarnwrap.world.gen.noise.NoiseConfig getNoiseConfig() { return new yarnwrap.world.gen.noise.NoiseConfig(net.minecraft.server.world.ServerChunkLoadingManager.getNoiseConfig()); }
 // public yarnwrap.world.chunk.Chunk method_43374(yarnwrap.util.math.ChunkPos throwable) { return new yarnwrap.world.chunk.Chunk(wrapperContained.method_43374(throwable.wrapperContained)); }
@@ -323,12 +330,6 @@ public yarnwrap.util.crash.CrashException crash(java.lang.IllegalStateException 
 // public static yarnwrap.world.chunk.Chunk recoverFromException(java.lang.Throwable throwable,yarnwrap.util.math.ChunkPos chunkPos, ) { return new yarnwrap.world.chunk.Chunk(net.minecraft.server.world.ServerChunkLoadingManager.recoverFromException(throwable,chunkPos.wrapperContained)); }
 // public java.util.Optional method_43377(java.util.Optional nbt) { return wrapperContained.method_43377(nbt); }
 // public static java.util.Optional method_43377(java.util.Optional nbt, ) { return net.minecraft.server.world.ServerChunkLoadingManager.method_43377(nbt); }
-// public java.util.Optional method_43378(yarnwrap.util.math.ChunkPos nbt) { return wrapperContained.method_43378(nbt.wrapperContained); }
-// public static java.util.Optional method_43378(yarnwrap.util.math.ChunkPos nbt, ) { return net.minecraft.server.world.ServerChunkLoadingManager.method_43378(nbt.wrapperContained); }
-// public boolean method_43379(yarnwrap.util.math.ChunkPos nbt2) { return wrapperContained.method_43379(nbt2.wrapperContained); }
-// public static boolean method_43379(yarnwrap.util.math.ChunkPos nbt2, ) { return net.minecraft.server.world.ServerChunkLoadingManager.method_43379(nbt2.wrapperContained); }
-// public boolean containsStatus(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.containsStatus(nbt.wrapperContained); }
-// public static boolean containsStatus(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.server.world.ServerChunkLoadingManager.containsStatus(nbt.wrapperContained); }
 // public yarnwrap.nbt.NbtCompound updateChunkNbt(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.nbt.NbtCompound(wrapperContained.updateChunkNbt(nbt.wrapperContained)); }
 // public static yarnwrap.nbt.NbtCompound updateChunkNbt(yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.server.world.ServerChunkLoadingManager.updateChunkNbt(nbt.wrapperContained)); }
 // public yarnwrap.world.chunk.Chunk getProtoChunk(yarnwrap.util.math.ChunkPos chunkPos) { return new yarnwrap.world.chunk.Chunk(wrapperContained.getProtoChunk(chunkPos.wrapperContained)); }
@@ -343,6 +344,8 @@ public void sendChunkBiomePackets(java.util.List chunks) { wrapperContained.send
 // public static void sendChunkBiomePackets(java.util.List chunks, ) { net.minecraft.server.world.ServerChunkLoadingManager.sendChunkBiomePackets(chunks); }
 // public java.util.List method_49422(yarnwrap.server.network.ServerPlayerEntity player) { return wrapperContained.method_49422(player.wrapperContained); }
 // public static java.util.List method_49422(yarnwrap.server.network.ServerPlayerEntity player, ) { return net.minecraft.server.world.ServerChunkLoadingManager.method_49422(player.wrapperContained); }
+// public yarnwrap.server.world.OptionalChunk method_51282(yarnwrap.server.world.OptionalChunk chunk) { return new yarnwrap.server.world.OptionalChunk(wrapperContained.method_51282(chunk.wrapperContained)); }
+// public static yarnwrap.server.world.OptionalChunk method_51282(yarnwrap.server.world.OptionalChunk chunk, ) { return new yarnwrap.server.world.OptionalChunk(net.minecraft.server.world.ServerChunkLoadingManager.method_51282(chunk.wrapperContained)); }
 // public java.lang.Object method_51834(yarnwrap.server.world.OptionalChunk chunk,java.lang.Throwable throwable) { return wrapperContained.method_51834(chunk.wrapperContained,throwable); }
 // public static java.lang.Object method_51834(yarnwrap.server.world.OptionalChunk chunk,java.lang.Throwable throwable, ) { return net.minecraft.server.world.ServerChunkLoadingManager.method_51834(chunk.wrapperContained,throwable); }
 // public boolean isTracked(yarnwrap.server.network.ServerPlayerEntity player,int chunkX,int chunkZ) { return wrapperContained.isTracked(player.wrapperContained,chunkX,chunkZ); }
@@ -365,21 +368,35 @@ public void sendChunkBiomePackets(java.util.List chunks) { wrapperContained.send
 // public static void method_52355(yarnwrap.server.network.ServerPlayerEntity chunkPos, ) { net.minecraft.server.world.ServerChunkLoadingManager.method_52355(chunkPos.wrapperContained); }
 // public yarnwrap.server.world.OptionalChunk method_53683(yarnwrap.server.world.ChunkHolder optionalChunk) { return new yarnwrap.server.world.OptionalChunk(wrapperContained.method_53683(optionalChunk.wrapperContained)); }
 // public static yarnwrap.server.world.OptionalChunk method_53683(yarnwrap.server.world.ChunkHolder optionalChunk, ) { return new yarnwrap.server.world.OptionalChunk(net.minecraft.server.world.ServerChunkLoadingManager.method_53683(optionalChunk.wrapperContained)); }
-// public void method_53684(yarnwrap.server.world.ChunkHolder chunk) { wrapperContained.method_53684(chunk.wrapperContained); }
-// public static void method_53684(yarnwrap.server.world.ChunkHolder chunk, ) { net.minecraft.server.world.ServerChunkLoadingManager.method_53684(chunk.wrapperContained); }
 public void forceLighting(yarnwrap.util.math.ChunkPos centerPos,int radius) { wrapperContained.forceLighting(centerPos.wrapperContained,radius); }
 // public static void forceLighting(yarnwrap.util.math.ChunkPos centerPos,int radius, ) { net.minecraft.server.world.ServerChunkLoadingManager.forceLighting(centerPos.wrapperContained,radius); }
-// public void sendToPlayers(yarnwrap.world.chunk.WorldChunk chunk) { wrapperContained.sendToPlayers(chunk.wrapperContained); }
-// public static void sendToPlayers(yarnwrap.world.chunk.WorldChunk chunk, ) { net.minecraft.server.world.ServerChunkLoadingManager.sendToPlayers(chunk.wrapperContained); }
-// public void method_53687(yarnwrap.world.chunk.WorldChunk v) { wrapperContained.method_53687(v.wrapperContained); }
-// public static void method_53687(yarnwrap.world.chunk.WorldChunk v, ) { net.minecraft.server.world.ServerChunkLoadingManager.method_53687(v.wrapperContained); }
+// public void sendToPlayers(yarnwrap.server.world.ChunkHolder chunkHolder,yarnwrap.world.chunk.WorldChunk chunk) { wrapperContained.sendToPlayers(chunkHolder.wrapperContained,chunk.wrapperContained); }
+// public static void sendToPlayers(yarnwrap.server.world.ChunkHolder chunkHolder,yarnwrap.world.chunk.WorldChunk chunk, ) { net.minecraft.server.world.ServerChunkLoadingManager.sendToPlayers(chunkHolder.wrapperContained,chunk.wrapperContained); }
 public yarnwrap.world.chunk.WorldChunk getPostProcessedChunk(long pos) { return new yarnwrap.world.chunk.WorldChunk(wrapperContained.getPostProcessedChunk(pos)); }
 // public static yarnwrap.world.chunk.WorldChunk getPostProcessedChunk(long pos, ) { return new yarnwrap.world.chunk.WorldChunk(net.minecraft.server.world.ServerChunkLoadingManager.getPostProcessedChunk(pos)); }
 // public void method_53689(yarnwrap.util.math.ChunkPos pos) { wrapperContained.method_53689(pos.wrapperContained); }
 // public static void method_53689(yarnwrap.util.math.ChunkPos pos, ) { net.minecraft.server.world.ServerChunkLoadingManager.method_53689(pos.wrapperContained); }
-// public java.lang.Void method_57120(yarnwrap.util.math.ChunkPos throwable) { return wrapperContained.method_57120(throwable.wrapperContained); }
-// public static java.lang.Void method_57120(yarnwrap.util.math.ChunkPos throwable, ) { return net.minecraft.server.world.ServerChunkLoadingManager.method_57120(throwable.wrapperContained); }
-// public void schedule(yarnwrap.world.chunk.ChunkLoader chunkLoader) { wrapperContained.schedule(chunkLoader.wrapperContained); }
-// public static void schedule(yarnwrap.world.chunk.ChunkLoader chunkLoader, ) { net.minecraft.server.world.ServerChunkLoadingManager.schedule(chunkLoader.wrapperContained); }
+// public java.lang.Object method_57120(yarnwrap.util.math.ChunkPos exception) { return wrapperContained.method_57120(exception.wrapperContained); }
+// public static java.lang.Object method_57120(yarnwrap.util.math.ChunkPos exception, ) { return net.minecraft.server.world.ServerChunkLoadingManager.method_57120(exception.wrapperContained); }
+// public void schedule(yarnwrap.world.chunk.ChunkLoader loader) { wrapperContained.schedule(loader.wrapperContained); }
+// public static void schedule(yarnwrap.world.chunk.ChunkLoader loader, ) { net.minecraft.server.world.ServerChunkLoadingManager.schedule(loader.wrapperContained); }
+// public yarnwrap.server.world.OptionalChunk method_60449(java.util.List chunks) { return new yarnwrap.server.world.OptionalChunk(wrapperContained.method_60449(chunks)); }
+// public static yarnwrap.server.world.OptionalChunk method_60449(java.util.List chunks, ) { return new yarnwrap.server.world.OptionalChunk(net.minecraft.server.world.ServerChunkLoadingManager.method_60449(chunks)); }
+// public yarnwrap.world.chunk.WorldChunk method_61257(yarnwrap.server.world.ChunkHolder chunks) { return new yarnwrap.world.chunk.WorldChunk(wrapperContained.method_61257(chunks.wrapperContained)); }
+// public static yarnwrap.world.chunk.WorldChunk method_61257(yarnwrap.server.world.ChunkHolder chunks, ) { return new yarnwrap.world.chunk.WorldChunk(net.minecraft.server.world.ServerChunkLoadingManager.method_61257(chunks.wrapperContained)); }
+// public boolean isAnyPlayerTicking(yarnwrap.util.math.ChunkPos pos) { return wrapperContained.isAnyPlayerTicking(pos.wrapperContained); }
+// public static boolean isAnyPlayerTicking(yarnwrap.util.math.ChunkPos pos, ) { return net.minecraft.server.world.ServerChunkLoadingManager.isAnyPlayerTicking(pos.wrapperContained); }
+// public void updateLevel(yarnwrap.util.math.ChunkPos pos,java.util.function.IntSupplier levelGetter,int targetLevel,java.util.function.IntConsumer levelSetter) { wrapperContained.updateLevel(pos.wrapperContained,levelGetter,targetLevel,levelSetter); }
+// public static void updateLevel(yarnwrap.util.math.ChunkPos pos,java.util.function.IntSupplier levelGetter,int targetLevel,java.util.function.IntConsumer levelSetter, ) { net.minecraft.server.world.ServerChunkLoadingManager.updateLevel(pos.wrapperContained,levelGetter,targetLevel,levelSetter); }
+// public void saveChunks(java.util.function.BooleanSupplier shouldKeepTicking) { wrapperContained.saveChunks(shouldKeepTicking); }
+// public static void saveChunks(java.util.function.BooleanSupplier shouldKeepTicking, ) { net.minecraft.server.world.ServerChunkLoadingManager.saveChunks(shouldKeepTicking); }
+// public void markChunkNeedsSaving(yarnwrap.util.math.ChunkPos pos) { wrapperContained.markChunkNeedsSaving(pos.wrapperContained); }
+// public static void markChunkNeedsSaving(yarnwrap.util.math.ChunkPos pos, ) { net.minecraft.server.world.ServerChunkLoadingManager.markChunkNeedsSaving(pos.wrapperContained); }
+// public void collectSpawningChunks(java.util.List chunks) { wrapperContained.collectSpawningChunks(chunks); }
+// public static void collectSpawningChunks(java.util.List chunks, ) { net.minecraft.server.world.ServerChunkLoadingManager.collectSpawningChunks(chunks); }
+// public void forEachBlockTickingChunk(java.util.function.Consumer chunkConsumer) { wrapperContained.forEachBlockTickingChunk(chunkConsumer); }
+// public static void forEachBlockTickingChunk(java.util.function.Consumer chunkConsumer, ) { net.minecraft.server.world.ServerChunkLoadingManager.forEachBlockTickingChunk(chunkConsumer); }
+// public void method_67499(java.util.function.Consumer chunkPos) { wrapperContained.method_67499(chunkPos); }
+// public static void method_67499(java.util.function.Consumer chunkPos, ) { net.minecraft.server.world.ServerChunkLoadingManager.method_67499(chunkPos); }
 
 }

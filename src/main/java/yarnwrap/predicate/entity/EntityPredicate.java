@@ -32,6 +32,10 @@ public static com.mojang.serialization.Codec LOOT_CONTEXT_PREDICATE_CODEC() { re
 // // public static java.util.Optional distance() { return net.minecraft.predicate.entity.EntityPredicate.distance(); }
 // public java.util.Optional typeSpecific() { return wrapperContained.typeSpecific(); }
 // // public static java.util.Optional typeSpecific() { return net.minecraft.predicate.entity.EntityPredicate.typeSpecific(); }
+public boolean test(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.entity.Entity entity) { return wrapperContained.test(world.wrapperContained,pos.wrapperContained,entity.wrapperContained); }
+// public static boolean test(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityPredicate.test(world.wrapperContained,pos.wrapperContained,entity.wrapperContained); }
+public boolean test(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.entity.Entity entity) { return wrapperContained.test(player.wrapperContained,entity.wrapperContained); }
+// public static boolean test(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityPredicate.test(player.wrapperContained,entity.wrapperContained); }
 // public yarnwrap.loot.context.LootContext createAdvancementEntityLootContext(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.entity.Entity target) { return new yarnwrap.loot.context.LootContext(wrapperContained.createAdvancementEntityLootContext(player.wrapperContained,target.wrapperContained)); }
 // public static yarnwrap.loot.context.LootContext createAdvancementEntityLootContext(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.entity.Entity target, ) { return new yarnwrap.loot.context.LootContext(net.minecraft.predicate.entity.EntityPredicate.createAdvancementEntityLootContext(player.wrapperContained,target.wrapperContained)); }
 // public boolean method_37227(yarnwrap.server.world.ServerWorld entityx) { return wrapperContained.method_37227(entityx.wrapperContained); }
@@ -48,9 +52,5 @@ public static com.mojang.serialization.Codec LOOT_CONTEXT_PREDICATE_CODEC() { re
 // public static java.util.Optional contextPredicateFromEntityPredicate(java.util.Optional entityPredicate, ) { return net.minecraft.predicate.entity.EntityPredicate.contextPredicateFromEntityPredicate(entityPredicate); }
 // public java.util.List contextPredicateFromEntityPredicates(Object[] builders) { return wrapperContained.contextPredicateFromEntityPredicates(builders); }
 // public static java.util.List contextPredicateFromEntityPredicates(Object[] builders, ) { return net.minecraft.predicate.entity.EntityPredicate.contextPredicateFromEntityPredicates(builders); }
-public boolean test(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.entity.Entity entity) { return wrapperContained.test(world.wrapperContained,pos.wrapperContained,entity.wrapperContained); }
-// public static boolean test(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.Vec3d pos,yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityPredicate.test(world.wrapperContained,pos.wrapperContained,entity.wrapperContained); }
-public boolean test(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.entity.Entity entity) { return wrapperContained.test(player.wrapperContained,entity.wrapperContained); }
-// public static boolean test(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.entity.Entity entity, ) { return net.minecraft.predicate.entity.EntityPredicate.test(player.wrapperContained,entity.wrapperContained); }
 
 }

@@ -42,16 +42,12 @@ public Object lastWobbleType() { return wrapperContained.lastWobbleType; }
 // public static void lootTableSeed(long value, ) { net.minecraft.block.entity.DecoratedPotBlockEntity.lootTableSeed = value; }
 
 public DecoratedPotBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.DecoratedPotBlockEntity(pos.wrapperContained,state.wrapperContained); }
-public void readFrom(yarnwrap.item.ItemStack stack) { wrapperContained.readFrom(stack.wrapperContained); }
-// public static void readFrom(yarnwrap.item.ItemStack stack, ) { net.minecraft.block.entity.DecoratedPotBlockEntity.readFrom(stack.wrapperContained); }
 public yarnwrap.util.math.Direction getHorizontalFacing() { return new yarnwrap.util.math.Direction(wrapperContained.getHorizontalFacing()); }
 // public static yarnwrap.util.math.Direction getHorizontalFacing() { return new yarnwrap.util.math.Direction(net.minecraft.block.entity.DecoratedPotBlockEntity.getHorizontalFacing()); }
 public yarnwrap.block.entity.Sherds getSherds() { return new yarnwrap.block.entity.Sherds(wrapperContained.getSherds()); }
 // public static yarnwrap.block.entity.Sherds getSherds() { return new yarnwrap.block.entity.Sherds(net.minecraft.block.entity.DecoratedPotBlockEntity.getSherds()); }
 // public yarnwrap.item.ItemStack getStackWith(yarnwrap.block.entity.Sherds sherds) { return new yarnwrap.item.ItemStack(wrapperContained.getStackWith(sherds.wrapperContained)); }
 // public static yarnwrap.item.ItemStack getStackWith(yarnwrap.block.entity.Sherds sherds, ) { return new yarnwrap.item.ItemStack(net.minecraft.block.entity.DecoratedPotBlockEntity.getStackWith(sherds.wrapperContained)); }
-public yarnwrap.item.ItemStack asStack() { return new yarnwrap.item.ItemStack(wrapperContained.asStack()); }
-// public static yarnwrap.item.ItemStack asStack() { return new yarnwrap.item.ItemStack(net.minecraft.block.entity.DecoratedPotBlockEntity.asStack()); }
 // public void wobble(Object wobbleType) { wrapperContained.wobble(wobbleType); }
 // public static void wobble(Object wobbleType, ) { net.minecraft.block.entity.DecoratedPotBlockEntity.wobble(wobbleType); }
 

@@ -20,8 +20,8 @@ public EntitySetHeadYawS2CPacket(yarnwrap.entity.Entity entity,byte headYaw) { t
 // public EntitySetHeadYawS2CPacket(yarnwrap.network.PacketByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.EntitySetHeadYawS2CPacket(buf.wrapperContained); }
 public yarnwrap.entity.Entity getEntity(yarnwrap.world.World world) { return new yarnwrap.entity.Entity(wrapperContained.getEntity(world.wrapperContained)); }
 // public static yarnwrap.entity.Entity getEntity(yarnwrap.world.World world, ) { return new yarnwrap.entity.Entity(net.minecraft.network.packet.s2c.play.EntitySetHeadYawS2CPacket.getEntity(world.wrapperContained)); }
-public byte getHeadYaw() { return wrapperContained.getHeadYaw(); }
-// public static byte getHeadYaw() { return net.minecraft.network.packet.s2c.play.EntitySetHeadYawS2CPacket.getHeadYaw(); }
+public float getHeadYaw() { return wrapperContained.getHeadYaw(); }
+// public static float getHeadYaw() { return net.minecraft.network.packet.s2c.play.EntitySetHeadYawS2CPacket.getHeadYaw(); }
 // public void write(yarnwrap.network.PacketByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 // public static void write(yarnwrap.network.PacketByteBuf buf, ) { net.minecraft.network.packet.s2c.play.EntitySetHeadYawS2CPacket.write(buf.wrapperContained); }
 

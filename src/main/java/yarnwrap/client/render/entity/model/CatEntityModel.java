@@ -1,20 +1,10 @@
 package yarnwrap.client.render.entity.model;
 public class CatEntityModel { public net.minecraft.client.render.entity.model.CatEntityModel wrapperContained; public CatEntityModel(net.minecraft.client.render.entity.model.CatEntityModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public float headDownAnimation() { return wrapperContained.headDownAnimation; }
-// public void headDownAnimation(float value) { wrapperContained.headDownAnimation = value; }
-// public static float headDownAnimation() { return net.minecraft.client.render.entity.model.CatEntityModel.headDownAnimation; }
-// public static void headDownAnimation(float value, ) { net.minecraft.client.render.entity.model.CatEntityModel.headDownAnimation = value; }
-
-// public float tailCurlAnimation() { return wrapperContained.tailCurlAnimation; }
-// public void tailCurlAnimation(float value) { wrapperContained.tailCurlAnimation = value; }
-// public static float tailCurlAnimation() { return net.minecraft.client.render.entity.model.CatEntityModel.tailCurlAnimation; }
-// public static void tailCurlAnimation(float value, ) { net.minecraft.client.render.entity.model.CatEntityModel.tailCurlAnimation = value; }
-
-// public float sleepAnimation() { return wrapperContained.sleepAnimation; }
-// public void sleepAnimation(float value) { wrapperContained.sleepAnimation = value; }
-// public static float sleepAnimation() { return net.minecraft.client.render.entity.model.CatEntityModel.sleepAnimation; }
-// public static void sleepAnimation(float value, ) { net.minecraft.client.render.entity.model.CatEntityModel.sleepAnimation = value; }
+// public yarnwrap.client.render.entity.model.ModelTransformer CAT_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.CAT_TRANSFORMER); }
+// public void CAT_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.CAT_TRANSFORMER = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.ModelTransformer CAT_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.CatEntityModel.CAT_TRANSFORMER); }
+// public static void CAT_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.CatEntityModel.CAT_TRANSFORMER = value.wrapperContained; }
 
 
 }

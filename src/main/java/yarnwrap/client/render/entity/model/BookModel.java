@@ -1,31 +1,6 @@
 package yarnwrap.client.render.entity.model;
 public class BookModel { public net.minecraft.client.render.entity.model.BookModel wrapperContained; public BookModel(net.minecraft.client.render.entity.model.BookModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(wrapperContained.root); }
-// public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.BookModel.root); }
-// public static void root(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.BookModel.root = value.wrapperContained; }
-
-// public java.lang.String LEFT_PAGES() { return wrapperContained.LEFT_PAGES; }
-// public void LEFT_PAGES(java.lang.String value) { wrapperContained.LEFT_PAGES = value; }
-// public static java.lang.String LEFT_PAGES() { return net.minecraft.client.render.entity.model.BookModel.LEFT_PAGES; }
-// public static void LEFT_PAGES(java.lang.String value, ) { net.minecraft.client.render.entity.model.BookModel.LEFT_PAGES = value; }
-
-// public java.lang.String RIGHT_PAGES() { return wrapperContained.RIGHT_PAGES; }
-// public void RIGHT_PAGES(java.lang.String value) { wrapperContained.RIGHT_PAGES = value; }
-// public static java.lang.String RIGHT_PAGES() { return net.minecraft.client.render.entity.model.BookModel.RIGHT_PAGES; }
-// public static void RIGHT_PAGES(java.lang.String value, ) { net.minecraft.client.render.entity.model.BookModel.RIGHT_PAGES = value; }
-
-// public java.lang.String FLIP_PAGE1() { return wrapperContained.FLIP_PAGE1; }
-// public void FLIP_PAGE1(java.lang.String value) { wrapperContained.FLIP_PAGE1 = value; }
-// public static java.lang.String FLIP_PAGE1() { return net.minecraft.client.render.entity.model.BookModel.FLIP_PAGE1; }
-// public static void FLIP_PAGE1(java.lang.String value, ) { net.minecraft.client.render.entity.model.BookModel.FLIP_PAGE1 = value; }
-
-// public java.lang.String FLIP_PAGE2() { return wrapperContained.FLIP_PAGE2; }
-// public void FLIP_PAGE2(java.lang.String value) { wrapperContained.FLIP_PAGE2 = value; }
-// public static java.lang.String FLIP_PAGE2() { return net.minecraft.client.render.entity.model.BookModel.FLIP_PAGE2; }
-// public static void FLIP_PAGE2(java.lang.String value, ) { net.minecraft.client.render.entity.model.BookModel.FLIP_PAGE2 = value; }
-
 // public yarnwrap.client.model.ModelPart leftFlippingPage() { return new yarnwrap.client.model.ModelPart(wrapperContained.leftFlippingPage); }
 // public void leftFlippingPage(yarnwrap.client.model.ModelPart value) { wrapperContained.leftFlippingPage = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart leftFlippingPage() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.BookModel.leftFlippingPage); }
@@ -56,11 +31,29 @@ public class BookModel { public net.minecraft.client.render.entity.model.BookMod
 // public static yarnwrap.client.model.ModelPart rightFlippingPage() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.BookModel.rightFlippingPage); }
 // public static void rightFlippingPage(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.BookModel.rightFlippingPage = value.wrapperContained; }
 
+// public java.lang.String LEFT_PAGES() { return wrapperContained.LEFT_PAGES; }
+// public void LEFT_PAGES(java.lang.String value) { wrapperContained.LEFT_PAGES = value; }
+// public static java.lang.String LEFT_PAGES() { return net.minecraft.client.render.entity.model.BookModel.LEFT_PAGES; }
+// public static void LEFT_PAGES(java.lang.String value, ) { net.minecraft.client.render.entity.model.BookModel.LEFT_PAGES = value; }
+
+// public java.lang.String RIGHT_PAGES() { return wrapperContained.RIGHT_PAGES; }
+// public void RIGHT_PAGES(java.lang.String value) { wrapperContained.RIGHT_PAGES = value; }
+// public static java.lang.String RIGHT_PAGES() { return net.minecraft.client.render.entity.model.BookModel.RIGHT_PAGES; }
+// public static void RIGHT_PAGES(java.lang.String value, ) { net.minecraft.client.render.entity.model.BookModel.RIGHT_PAGES = value; }
+
+// public java.lang.String FLIP_PAGE1() { return wrapperContained.FLIP_PAGE1; }
+// public void FLIP_PAGE1(java.lang.String value) { wrapperContained.FLIP_PAGE1 = value; }
+// public static java.lang.String FLIP_PAGE1() { return net.minecraft.client.render.entity.model.BookModel.FLIP_PAGE1; }
+// public static void FLIP_PAGE1(java.lang.String value, ) { net.minecraft.client.render.entity.model.BookModel.FLIP_PAGE1 = value; }
+
+// public java.lang.String FLIP_PAGE2() { return wrapperContained.FLIP_PAGE2; }
+// public void FLIP_PAGE2(java.lang.String value) { wrapperContained.FLIP_PAGE2 = value; }
+// public static java.lang.String FLIP_PAGE2() { return net.minecraft.client.render.entity.model.BookModel.FLIP_PAGE2; }
+// public static void FLIP_PAGE2(java.lang.String value, ) { net.minecraft.client.render.entity.model.BookModel.FLIP_PAGE2 = value; }
+
 public BookModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.BookModel(root.wrapperContained); }
 public void setPageAngles(float pageTurnAmount,float leftFlipAmount,float rightFlipAmount,float pageTurnSpeed) { wrapperContained.setPageAngles(pageTurnAmount,leftFlipAmount,rightFlipAmount,pageTurnSpeed); }
 // public static void setPageAngles(float pageTurnAmount,float leftFlipAmount,float rightFlipAmount,float pageTurnSpeed, ) { net.minecraft.client.render.entity.model.BookModel.setPageAngles(pageTurnAmount,leftFlipAmount,rightFlipAmount,pageTurnSpeed); }
-// public void renderBook(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,int light,int overlay) { wrapperContained.renderBook(matrices.wrapperContained,vertices.wrapperContained,light,overlay); }
-// public static void renderBook(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumer vertices,int light,int overlay, ) { net.minecraft.client.render.entity.model.BookModel.renderBook(matrices.wrapperContained,vertices.wrapperContained,light,overlay); }
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.BookModel.getTexturedModelData()); }
 

@@ -35,5 +35,9 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static yarnwrap.network.codec.PacketCodec method_56183(yarnwrap.particle.ParticleType type, ) { return new yarnwrap.network.codec.PacketCodec(net.minecraft.particle.ParticleTypes.method_56183(type.wrapperContained)); }
 // public yarnwrap.network.codec.PacketCodec method_56184(yarnwrap.particle.ParticleType type) { return new yarnwrap.network.codec.PacketCodec(wrapperContained.method_56184(type.wrapperContained)); }
 // public static yarnwrap.network.codec.PacketCodec method_56184(yarnwrap.particle.ParticleType type, ) { return new yarnwrap.network.codec.PacketCodec(net.minecraft.particle.ParticleTypes.method_56184(type.wrapperContained)); }
+// public yarnwrap.network.codec.PacketCodec method_64926(yarnwrap.particle.ParticleType type) { return new yarnwrap.network.codec.PacketCodec(wrapperContained.method_64926(type.wrapperContained)); }
+// public static yarnwrap.network.codec.PacketCodec method_64926(yarnwrap.particle.ParticleType type, ) { return new yarnwrap.network.codec.PacketCodec(net.minecraft.particle.ParticleTypes.method_64926(type.wrapperContained)); }
+// public com.mojang.serialization.MapCodec method_64927(yarnwrap.particle.ParticleType type) { return wrapperContained.method_64927(type.wrapperContained); }
+// public static com.mojang.serialization.MapCodec method_64927(yarnwrap.particle.ParticleType type, ) { return net.minecraft.particle.ParticleTypes.method_64927(type.wrapperContained); }
 
 }

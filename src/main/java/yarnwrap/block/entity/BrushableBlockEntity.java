@@ -62,22 +62,22 @@ public class BrushableBlockEntity { public net.minecraft.block.entity.BrushableB
 // public static void lootTableSeed(long value, ) { net.minecraft.block.entity.BrushableBlockEntity.lootTableSeed = value; }
 
 public BrushableBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.BrushableBlockEntity(pos.wrapperContained,state.wrapperContained); }
-public boolean brush(long worldTime,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.math.Direction hitDirection) { return wrapperContained.brush(worldTime,player.wrapperContained,hitDirection.wrapperContained); }
-// public static boolean brush(long worldTime,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.math.Direction hitDirection, ) { return net.minecraft.block.entity.BrushableBlockEntity.brush(worldTime,player.wrapperContained,hitDirection.wrapperContained); }
+public boolean brush(long worldTime,yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity brusher,yarnwrap.util.math.Direction hitDirection,yarnwrap.item.ItemStack brush) { return wrapperContained.brush(worldTime,world.wrapperContained,brusher.wrapperContained,hitDirection.wrapperContained,brush.wrapperContained); }
+// public static boolean brush(long worldTime,yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity brusher,yarnwrap.util.math.Direction hitDirection,yarnwrap.item.ItemStack brush, ) { return net.minecraft.block.entity.BrushableBlockEntity.brush(worldTime,world.wrapperContained,brusher.wrapperContained,hitDirection.wrapperContained,brush.wrapperContained); }
 public void setLootTable(yarnwrap.registry.RegistryKey lootTable,long seed) { wrapperContained.setLootTable(lootTable.wrapperContained,seed); }
 // public static void setLootTable(yarnwrap.registry.RegistryKey lootTable,long seed, ) { net.minecraft.block.entity.BrushableBlockEntity.setLootTable(lootTable.wrapperContained,seed); }
-public void generateItem(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.generateItem(player.wrapperContained); }
-// public static void generateItem(yarnwrap.entity.player.PlayerEntity player, ) { net.minecraft.block.entity.BrushableBlockEntity.generateItem(player.wrapperContained); }
-// public void finishBrushing(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.finishBrushing(player.wrapperContained); }
-// public static void finishBrushing(yarnwrap.entity.player.PlayerEntity player, ) { net.minecraft.block.entity.BrushableBlockEntity.finishBrushing(player.wrapperContained); }
-public void scheduledTick() { wrapperContained.scheduledTick(); }
-// public static void scheduledTick() { net.minecraft.block.entity.BrushableBlockEntity.scheduledTick(); }
-// public void spawnItem(yarnwrap.entity.player.PlayerEntity player) { wrapperContained.spawnItem(player.wrapperContained); }
-// public static void spawnItem(yarnwrap.entity.player.PlayerEntity player, ) { net.minecraft.block.entity.BrushableBlockEntity.spawnItem(player.wrapperContained); }
-// public boolean readLootTableFromNbt(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.readLootTableFromNbt(nbt.wrapperContained); }
-// public static boolean readLootTableFromNbt(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.block.entity.BrushableBlockEntity.readLootTableFromNbt(nbt.wrapperContained); }
-// public boolean writeLootTableToNbt(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.writeLootTableToNbt(nbt.wrapperContained); }
-// public static boolean writeLootTableToNbt(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.block.entity.BrushableBlockEntity.writeLootTableToNbt(nbt.wrapperContained); }
+// public void generateItem(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity brusher,yarnwrap.item.ItemStack brush) { wrapperContained.generateItem(world.wrapperContained,brusher.wrapperContained,brush.wrapperContained); }
+// public static void generateItem(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity brusher,yarnwrap.item.ItemStack brush, ) { net.minecraft.block.entity.BrushableBlockEntity.generateItem(world.wrapperContained,brusher.wrapperContained,brush.wrapperContained); }
+// public void finishBrushing(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity brusher,yarnwrap.item.ItemStack brush) { wrapperContained.finishBrushing(world.wrapperContained,brusher.wrapperContained,brush.wrapperContained); }
+// public static void finishBrushing(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity brusher,yarnwrap.item.ItemStack brush, ) { net.minecraft.block.entity.BrushableBlockEntity.finishBrushing(world.wrapperContained,brusher.wrapperContained,brush.wrapperContained); }
+public void scheduledTick(yarnwrap.server.world.ServerWorld world) { wrapperContained.scheduledTick(world.wrapperContained); }
+// public static void scheduledTick(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.block.entity.BrushableBlockEntity.scheduledTick(world.wrapperContained); }
+// public void spawnItem(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity brusher,yarnwrap.item.ItemStack brush) { wrapperContained.spawnItem(world.wrapperContained,brusher.wrapperContained,brush.wrapperContained); }
+// public static void spawnItem(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity brusher,yarnwrap.item.ItemStack brush, ) { net.minecraft.block.entity.BrushableBlockEntity.spawnItem(world.wrapperContained,brusher.wrapperContained,brush.wrapperContained); }
+// public boolean readLootTableFromData(yarnwrap.storage.ReadView view) { return wrapperContained.readLootTableFromData(view.wrapperContained); }
+// public static boolean readLootTableFromData(yarnwrap.storage.ReadView view, ) { return net.minecraft.block.entity.BrushableBlockEntity.readLootTableFromData(view.wrapperContained); }
+// public boolean writeLootTableToData(yarnwrap.storage.WriteView view) { return wrapperContained.writeLootTableToData(view.wrapperContained); }
+// public static boolean writeLootTableToData(yarnwrap.storage.WriteView view, ) { return net.minecraft.block.entity.BrushableBlockEntity.writeLootTableToData(view.wrapperContained); }
 public yarnwrap.util.math.Direction getHitDirection() { return new yarnwrap.util.math.Direction(wrapperContained.getHitDirection()); }
 // public static yarnwrap.util.math.Direction getHitDirection() { return new yarnwrap.util.math.Direction(net.minecraft.block.entity.BrushableBlockEntity.getHitDirection()); }
 public yarnwrap.item.ItemStack getItem() { return new yarnwrap.item.ItemStack(wrapperContained.getItem()); }

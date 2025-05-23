@@ -57,5 +57,7 @@ public yarnwrap.world.gen.GeneratorOptions withStructures(boolean structures) { 
 // public static java.util.OptionalLong parseSeed(java.lang.String seed, ) { return net.minecraft.world.gen.GeneratorOptions.parseSeed(seed); }
 // public long getRandomSeed() { return wrapperContained.getRandomSeed(); }
 public static long getRandomSeed() { return net.minecraft.world.gen.GeneratorOptions.getRandomSeed(); }
+// public yarnwrap.world.gen.GeneratorOptions createTestWorld() { return new yarnwrap.world.gen.GeneratorOptions(wrapperContained.createTestWorld()); }
+public static yarnwrap.world.gen.GeneratorOptions createTestWorld() { return new yarnwrap.world.gen.GeneratorOptions(net.minecraft.world.gen.GeneratorOptions.createTestWorld()); }
 
 }

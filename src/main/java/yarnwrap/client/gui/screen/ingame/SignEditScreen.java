@@ -1,10 +1,10 @@
 package yarnwrap.client.gui.screen.ingame;
 public class SignEditScreen { public net.minecraft.client.gui.screen.ingame.SignEditScreen wrapperContained; public SignEditScreen(net.minecraft.client.gui.screen.ingame.SignEditScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public Object model() { return wrapperContained.model; }
-// // public void model(Object value) { wrapperContained.model = value; }
-// // public static Object model() { return net.minecraft.client.gui.screen.ingame.SignEditScreen.model; }
-// // public static void model(Object value, ) { net.minecraft.client.gui.screen.ingame.SignEditScreen.model = value; }
+// public yarnwrap.client.model.Model model() { return new yarnwrap.client.model.Model(wrapperContained.model); }
+// public void model(yarnwrap.client.model.Model value) { wrapperContained.model = value.wrapperContained; }
+// public static yarnwrap.client.model.Model model() { return new yarnwrap.client.model.Model(net.minecraft.client.gui.screen.ingame.SignEditScreen.model); }
+// public static void model(yarnwrap.client.model.Model value, ) { net.minecraft.client.gui.screen.ingame.SignEditScreen.model = value.wrapperContained; }
 
 // public float BACKGROUND_SCALE() { return wrapperContained.BACKGROUND_SCALE; }
 // public void BACKGROUND_SCALE(float value) { wrapperContained.BACKGROUND_SCALE = value; }

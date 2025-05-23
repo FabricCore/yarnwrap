@@ -42,14 +42,8 @@ public class Schema705 { public net.minecraft.datafixer.schema.Schema705 wrapper
 // public static void targetInTile(com.mojang.datafixers.schemas.Schema schema,java.util.Map map,java.lang.String entityId, ) { net.minecraft.datafixer.schema.Schema705.targetInTile(schema,map,entityId); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5331(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5331(name); }
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5331(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema705.method_5331(name); }
-// public com.mojang.datafixers.types.templates.TypeTemplate method_5332(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5332(name); }
-// public static com.mojang.datafixers.types.templates.TypeTemplate method_5332(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema705.method_5332(name); }
-// public com.mojang.datafixers.types.templates.TypeTemplate method_5333(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5333(name); }
-// public static com.mojang.datafixers.types.templates.TypeTemplate method_5333(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema705.method_5333(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5334(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5334(name); }
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5334(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema705.method_5334(name); }
-// public com.mojang.datafixers.types.templates.TypeTemplate method_5335(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5335(name); }
-// public static com.mojang.datafixers.types.templates.TypeTemplate method_5335(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema705.method_5335(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5337(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5337(name); }
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5337(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema705.method_5337(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5338(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5338(name); }

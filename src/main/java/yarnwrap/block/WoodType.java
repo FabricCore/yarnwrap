@@ -71,6 +71,11 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.bloc
 // public static java.util.Map VALUES() { return net.minecraft.block.WoodType.VALUES; }
 // public static void VALUES(java.util.Map value, ) { net.minecraft.block.WoodType.VALUES = value; }
 
+// public yarnwrap.block.WoodType PALE_OAK() { return new yarnwrap.block.WoodType(wrapperContained.PALE_OAK); }
+// public void PALE_OAK(yarnwrap.block.WoodType value) { wrapperContained.PALE_OAK = value.wrapperContained; }
+public static yarnwrap.block.WoodType PALE_OAK() { return new yarnwrap.block.WoodType(net.minecraft.block.WoodType.PALE_OAK); }
+// public static void PALE_OAK(yarnwrap.block.WoodType value, ) { net.minecraft.block.WoodType.PALE_OAK = value.wrapperContained; }
+
 public WoodType(java.lang.String name,yarnwrap.block.BlockSetType setType) { this.wrapperContained = new net.minecraft.block.WoodType(name,setType.wrapperContained); }
 // public java.lang.String name() { return wrapperContained.name(); }
 // // public static java.lang.String name() { return net.minecraft.block.WoodType.name(); }

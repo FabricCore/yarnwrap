@@ -20,12 +20,8 @@ public class ArgumentHelper { public net.minecraft.command.argument.ArgumentHelp
 // public static boolean hasMinFlag(byte flags, ) { return net.minecraft.command.argument.ArgumentHelper.hasMinFlag(flags); }
 // public void writeArgument(com.google.gson.JsonObject json,com.mojang.brigadier.arguments.ArgumentType argumentType) { wrapperContained.writeArgument(json,argumentType); }
 // public static void writeArgument(com.google.gson.JsonObject json,com.mojang.brigadier.arguments.ArgumentType argumentType, ) { net.minecraft.command.argument.ArgumentHelper.writeArgument(json,argumentType); }
-// public void writeArgumentProperties(com.google.gson.JsonObject json,Object properties) { wrapperContained.writeArgumentProperties(json,properties); }
-// public static void writeArgumentProperties(com.google.gson.JsonObject json,Object properties, ) { net.minecraft.command.argument.ArgumentHelper.writeArgumentProperties(json,properties); }
-// public void writeArgumentProperties(com.google.gson.JsonObject json,yarnwrap.command.argument.serialize.ArgumentSerializer serializer,Object properties) { wrapperContained.writeArgumentProperties(json,serializer.wrapperContained,properties); }
-// public static void writeArgumentProperties(com.google.gson.JsonObject json,yarnwrap.command.argument.serialize.ArgumentSerializer serializer,Object properties, ) { net.minecraft.command.argument.ArgumentHelper.writeArgumentProperties(json,serializer.wrapperContained,properties); }
-// public com.google.gson.JsonObject toJson(com.mojang.brigadier.CommandDispatcher dispatcher,com.mojang.brigadier.tree.CommandNode rootNode) { return wrapperContained.toJson(dispatcher,rootNode); }
-// public static com.google.gson.JsonObject toJson(com.mojang.brigadier.CommandDispatcher dispatcher,com.mojang.brigadier.tree.CommandNode rootNode, ) { return net.minecraft.command.argument.ArgumentHelper.toJson(dispatcher,rootNode); }
+// public com.google.gson.JsonObject toJson(com.mojang.brigadier.CommandDispatcher dispatcher,com.mojang.brigadier.tree.CommandNode node) { return wrapperContained.toJson(dispatcher,node); }
+// public static com.google.gson.JsonObject toJson(com.mojang.brigadier.CommandDispatcher dispatcher,com.mojang.brigadier.tree.CommandNode node, ) { return net.minecraft.command.argument.ArgumentHelper.toJson(dispatcher,node); }
 // public java.util.Set collectUsedArgumentTypes(com.mojang.brigadier.tree.CommandNode rootNode) { return wrapperContained.collectUsedArgumentTypes(rootNode); }
 // public static java.util.Set collectUsedArgumentTypes(com.mojang.brigadier.tree.CommandNode rootNode, ) { return net.minecraft.command.argument.ArgumentHelper.collectUsedArgumentTypes(rootNode); }
 // public void collectUsedArgumentTypes(com.mojang.brigadier.tree.CommandNode node,java.util.Set usedArgumentTypes,java.util.Set visitedNodes) { wrapperContained.collectUsedArgumentTypes(node,usedArgumentTypes,visitedNodes); }
@@ -36,5 +32,7 @@ public class ArgumentHelper { public net.minecraft.command.argument.ArgumentHelp
 // public static int getMinMaxFlag(boolean hasMin,boolean hasMax, ) { return net.minecraft.command.argument.ArgumentHelper.getMinMaxFlag(hasMin,hasMax); }
 // public boolean hasMaxFlag(byte flags) { return wrapperContained.hasMaxFlag(flags); }
 // public static boolean hasMaxFlag(byte flags, ) { return net.minecraft.command.argument.ArgumentHelper.hasMaxFlag(flags); }
+// public void writeArgumentTypeProperties(com.google.gson.JsonObject json,yarnwrap.command.argument.serialize.ArgumentSerializer serializer,Object properties) { wrapperContained.writeArgumentTypeProperties(json,serializer.wrapperContained,properties); }
+// public static void writeArgumentTypeProperties(com.google.gson.JsonObject json,yarnwrap.command.argument.serialize.ArgumentSerializer serializer,Object properties, ) { net.minecraft.command.argument.ArgumentHelper.writeArgumentTypeProperties(json,serializer.wrapperContained,properties); }
 
 }

@@ -11,11 +11,6 @@ public class TexturedRenderLayers { public net.minecraft.client.render.TexturedR
 // public static yarnwrap.client.render.RenderLayer ENTITY_CUTOUT() { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.TexturedRenderLayers.ENTITY_CUTOUT); }
 // public static void ENTITY_CUTOUT(yarnwrap.client.render.RenderLayer value, ) { net.minecraft.client.render.TexturedRenderLayers.ENTITY_CUTOUT = value.wrapperContained; }
 
-// public yarnwrap.client.render.RenderLayer ENTITY_TRANSLUCENT_CULL() { return new yarnwrap.client.render.RenderLayer(wrapperContained.ENTITY_TRANSLUCENT_CULL); }
-// public void ENTITY_TRANSLUCENT_CULL(yarnwrap.client.render.RenderLayer value) { wrapperContained.ENTITY_TRANSLUCENT_CULL = value.wrapperContained; }
-// public static yarnwrap.client.render.RenderLayer ENTITY_TRANSLUCENT_CULL() { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.TexturedRenderLayers.ENTITY_TRANSLUCENT_CULL); }
-// public static void ENTITY_TRANSLUCENT_CULL(yarnwrap.client.render.RenderLayer value, ) { net.minecraft.client.render.TexturedRenderLayers.ENTITY_TRANSLUCENT_CULL = value.wrapperContained; }
-
 // public yarnwrap.util.Identifier SHULKER_BOXES_ATLAS_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.SHULKER_BOXES_ATLAS_TEXTURE); }
 // public void SHULKER_BOXES_ATLAS_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SHULKER_BOXES_ATLAS_TEXTURE = value.wrapperContained; }
 public static yarnwrap.util.Identifier SHULKER_BOXES_ATLAS_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.render.TexturedRenderLayers.SHULKER_BOXES_ATLAS_TEXTURE); }
@@ -63,8 +58,58 @@ public static java.util.Map SIGN_TYPE_TEXTURES() { return net.minecraft.client.r
 
 // public net.minecraft.client.util.SpriteIdentifier[] BED_TEXTURES() { return wrapperContained.BED_TEXTURES; }
 // public void BED_TEXTURES(net.minecraft.client.util.SpriteIdentifier[] value) { wrapperContained.BED_TEXTURES = value; }
-public static net.minecraft.client.util.SpriteIdentifier[] BED_TEXTURES() { return net.minecraft.client.render.TexturedRenderLayers.BED_TEXTURES; }
+// public static net.minecraft.client.util.SpriteIdentifier[] BED_TEXTURES() { return net.minecraft.client.render.TexturedRenderLayers.BED_TEXTURES; }
 // public static void BED_TEXTURES(net.minecraft.client.util.SpriteIdentifier[] value, ) { net.minecraft.client.render.TexturedRenderLayers.BED_TEXTURES = value; }
+
+// public yarnwrap.client.util.SpriteIdentifier TRAPPED_CHEST() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.TRAPPED_CHEST); }
+// public void TRAPPED_CHEST(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.TRAPPED_CHEST = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteIdentifier TRAPPED_CHEST() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.TRAPPED_CHEST); }
+// public static void TRAPPED_CHEST(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.TRAPPED_CHEST = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteIdentifier TRAPPED_CHEST_LEFT() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.TRAPPED_CHEST_LEFT); }
+// public void TRAPPED_CHEST_LEFT(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.TRAPPED_CHEST_LEFT = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteIdentifier TRAPPED_CHEST_LEFT() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.TRAPPED_CHEST_LEFT); }
+// public static void TRAPPED_CHEST_LEFT(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.TRAPPED_CHEST_LEFT = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteIdentifier TRAPPED_CHEST_RIGHT() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.TRAPPED_CHEST_RIGHT); }
+// public void TRAPPED_CHEST_RIGHT(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.TRAPPED_CHEST_RIGHT = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteIdentifier TRAPPED_CHEST_RIGHT() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.TRAPPED_CHEST_RIGHT); }
+// public static void TRAPPED_CHEST_RIGHT(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.TRAPPED_CHEST_RIGHT = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteIdentifier CHRISTMAS_CHEST() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.CHRISTMAS_CHEST); }
+// public void CHRISTMAS_CHEST(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.CHRISTMAS_CHEST = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteIdentifier CHRISTMAS_CHEST() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.CHRISTMAS_CHEST); }
+// public static void CHRISTMAS_CHEST(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.CHRISTMAS_CHEST = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteIdentifier CHRISTMAS_CHEST_LEFT() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.CHRISTMAS_CHEST_LEFT); }
+// public void CHRISTMAS_CHEST_LEFT(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.CHRISTMAS_CHEST_LEFT = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteIdentifier CHRISTMAS_CHEST_LEFT() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.CHRISTMAS_CHEST_LEFT); }
+// public static void CHRISTMAS_CHEST_LEFT(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.CHRISTMAS_CHEST_LEFT = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteIdentifier CHRISTMAS_CHEST_RIGHT() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.CHRISTMAS_CHEST_RIGHT); }
+// public void CHRISTMAS_CHEST_RIGHT(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.CHRISTMAS_CHEST_RIGHT = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteIdentifier CHRISTMAS_CHEST_RIGHT() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.CHRISTMAS_CHEST_RIGHT); }
+// public static void CHRISTMAS_CHEST_RIGHT(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.CHRISTMAS_CHEST_RIGHT = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteIdentifier CHEST() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.CHEST); }
+// public void CHEST(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.CHEST = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteIdentifier CHEST() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.CHEST); }
+// public static void CHEST(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.CHEST = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteIdentifier CHEST_LEFT() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.CHEST_LEFT); }
+// public void CHEST_LEFT(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.CHEST_LEFT = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteIdentifier CHEST_LEFT() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.CHEST_LEFT); }
+// public static void CHEST_LEFT(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.CHEST_LEFT = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteIdentifier CHEST_RIGHT() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.CHEST_RIGHT); }
+// public void CHEST_RIGHT(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.CHEST_RIGHT = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteIdentifier CHEST_RIGHT() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.CHEST_RIGHT); }
+// public static void CHEST_RIGHT(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.CHEST_RIGHT = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteIdentifier ENDER_CHEST() { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.ENDER_CHEST); }
+// public void ENDER_CHEST(yarnwrap.client.util.SpriteIdentifier value) { wrapperContained.ENDER_CHEST = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteIdentifier ENDER_CHEST() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.ENDER_CHEST); }
+// public static void ENDER_CHEST(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.ENDER_CHEST = value.wrapperContained; }
 
 // public yarnwrap.client.render.RenderLayer SHULKER_BOXES_RENDER_LAYER() { return new yarnwrap.client.render.RenderLayer(wrapperContained.SHULKER_BOXES_RENDER_LAYER); }
 // public void SHULKER_BOXES_RENDER_LAYER(yarnwrap.client.render.RenderLayer value) { wrapperContained.SHULKER_BOXES_RENDER_LAYER = value.wrapperContained; }
@@ -161,22 +206,66 @@ public static yarnwrap.client.util.SpriteIdentifier DECORATED_POT_BASE() { retur
 public static yarnwrap.client.util.SpriteIdentifier DECORATED_POT_SIDE() { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.DECORATED_POT_SIDE); }
 // public static void DECORATED_POT_SIDE(yarnwrap.client.util.SpriteIdentifier value, ) { net.minecraft.client.render.TexturedRenderLayers.DECORATED_POT_SIDE = value.wrapperContained; }
 
+// public yarnwrap.client.util.SpriteMapper ITEM_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(wrapperContained.ITEM_SPRITE_MAPPER); }
+// public void ITEM_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value) { wrapperContained.ITEM_SPRITE_MAPPER = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteMapper ITEM_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(net.minecraft.client.render.TexturedRenderLayers.ITEM_SPRITE_MAPPER); }
+// public static void ITEM_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value, ) { net.minecraft.client.render.TexturedRenderLayers.ITEM_SPRITE_MAPPER = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteMapper BLOCK_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(wrapperContained.BLOCK_SPRITE_MAPPER); }
+// public void BLOCK_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value) { wrapperContained.BLOCK_SPRITE_MAPPER = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteMapper BLOCK_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(net.minecraft.client.render.TexturedRenderLayers.BLOCK_SPRITE_MAPPER); }
+// public static void BLOCK_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value, ) { net.minecraft.client.render.TexturedRenderLayers.BLOCK_SPRITE_MAPPER = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteMapper BANNER_PATTERN_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(wrapperContained.BANNER_PATTERN_SPRITE_MAPPER); }
+// public void BANNER_PATTERN_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value) { wrapperContained.BANNER_PATTERN_SPRITE_MAPPER = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteMapper BANNER_PATTERN_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(net.minecraft.client.render.TexturedRenderLayers.BANNER_PATTERN_SPRITE_MAPPER); }
+// public static void BANNER_PATTERN_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value, ) { net.minecraft.client.render.TexturedRenderLayers.BANNER_PATTERN_SPRITE_MAPPER = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteMapper SHIELD_PATTERN_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(wrapperContained.SHIELD_PATTERN_SPRITE_MAPPER); }
+// public void SHIELD_PATTERN_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value) { wrapperContained.SHIELD_PATTERN_SPRITE_MAPPER = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteMapper SHIELD_PATTERN_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(net.minecraft.client.render.TexturedRenderLayers.SHIELD_PATTERN_SPRITE_MAPPER); }
+// public static void SHIELD_PATTERN_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value, ) { net.minecraft.client.render.TexturedRenderLayers.SHIELD_PATTERN_SPRITE_MAPPER = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteMapper CHEST_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(wrapperContained.CHEST_SPRITE_MAPPER); }
+// public void CHEST_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value) { wrapperContained.CHEST_SPRITE_MAPPER = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteMapper CHEST_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(net.minecraft.client.render.TexturedRenderLayers.CHEST_SPRITE_MAPPER); }
+// public static void CHEST_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value, ) { net.minecraft.client.render.TexturedRenderLayers.CHEST_SPRITE_MAPPER = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteMapper DECORATED_POT_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(wrapperContained.DECORATED_POT_SPRITE_MAPPER); }
+// public void DECORATED_POT_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value) { wrapperContained.DECORATED_POT_SPRITE_MAPPER = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteMapper DECORATED_POT_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(net.minecraft.client.render.TexturedRenderLayers.DECORATED_POT_SPRITE_MAPPER); }
+// public static void DECORATED_POT_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value, ) { net.minecraft.client.render.TexturedRenderLayers.DECORATED_POT_SPRITE_MAPPER = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteMapper BED_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(wrapperContained.BED_SPRITE_MAPPER); }
+// public void BED_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value) { wrapperContained.BED_SPRITE_MAPPER = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteMapper BED_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(net.minecraft.client.render.TexturedRenderLayers.BED_SPRITE_MAPPER); }
+// public static void BED_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value, ) { net.minecraft.client.render.TexturedRenderLayers.BED_SPRITE_MAPPER = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteMapper SHULKER_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(wrapperContained.SHULKER_SPRITE_MAPPER); }
+// public void SHULKER_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value) { wrapperContained.SHULKER_SPRITE_MAPPER = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteMapper SHULKER_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(net.minecraft.client.render.TexturedRenderLayers.SHULKER_SPRITE_MAPPER); }
+// public static void SHULKER_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value, ) { net.minecraft.client.render.TexturedRenderLayers.SHULKER_SPRITE_MAPPER = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteMapper SIGN_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(wrapperContained.SIGN_SPRITE_MAPPER); }
+// public void SIGN_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value) { wrapperContained.SIGN_SPRITE_MAPPER = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteMapper SIGN_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(net.minecraft.client.render.TexturedRenderLayers.SIGN_SPRITE_MAPPER); }
+// public static void SIGN_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value, ) { net.minecraft.client.render.TexturedRenderLayers.SIGN_SPRITE_MAPPER = value.wrapperContained; }
+
+// public yarnwrap.client.util.SpriteMapper HANGING_SIGN_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(wrapperContained.HANGING_SIGN_SPRITE_MAPPER); }
+// public void HANGING_SIGN_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value) { wrapperContained.HANGING_SIGN_SPRITE_MAPPER = value.wrapperContained; }
+public static yarnwrap.client.util.SpriteMapper HANGING_SIGN_SPRITE_MAPPER() { return new yarnwrap.client.util.SpriteMapper(net.minecraft.client.render.TexturedRenderLayers.HANGING_SIGN_SPRITE_MAPPER); }
+// public static void HANGING_SIGN_SPRITE_MAPPER(yarnwrap.client.util.SpriteMapper value, ) { net.minecraft.client.render.TexturedRenderLayers.HANGING_SIGN_SPRITE_MAPPER = value.wrapperContained; }
+
 // public yarnwrap.client.render.RenderLayer getBannerPatterns() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getBannerPatterns()); }
 public static yarnwrap.client.render.RenderLayer getBannerPatterns() { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.TexturedRenderLayers.getBannerPatterns()); }
-// public yarnwrap.client.util.SpriteIdentifier method_24061(yarnwrap.util.DyeColor color) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.method_24061(color.wrapperContained)); }
-// public static yarnwrap.client.util.SpriteIdentifier method_24061(yarnwrap.util.DyeColor color, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.method_24061(color.wrapperContained)); }
 // public yarnwrap.client.util.SpriteIdentifier getChestTextureId(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.block.enums.ChestType type,boolean christmas) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getChestTextureId(blockEntity.wrapperContained,type.wrapperContained,christmas)); }
 // public static yarnwrap.client.util.SpriteIdentifier getChestTextureId(yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.block.enums.ChestType type,boolean christmas, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.getChestTextureId(blockEntity.wrapperContained,type.wrapperContained,christmas)); }
 // public yarnwrap.client.util.SpriteIdentifier getChestTextureId(yarnwrap.block.enums.ChestType type,yarnwrap.client.util.SpriteIdentifier single,yarnwrap.client.util.SpriteIdentifier left,yarnwrap.client.util.SpriteIdentifier right) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getChestTextureId(type.wrapperContained,single.wrapperContained,left.wrapperContained,right.wrapperContained)); }
 // public static yarnwrap.client.util.SpriteIdentifier getChestTextureId(yarnwrap.block.enums.ChestType type,yarnwrap.client.util.SpriteIdentifier single,yarnwrap.client.util.SpriteIdentifier left,yarnwrap.client.util.SpriteIdentifier right, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.getChestTextureId(type.wrapperContained,single.wrapperContained,left.wrapperContained,right.wrapperContained)); }
 // public yarnwrap.client.util.SpriteIdentifier createSignTextureId(yarnwrap.block.WoodType type) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.createSignTextureId(type.wrapperContained)); }
 // public static yarnwrap.client.util.SpriteIdentifier createSignTextureId(yarnwrap.block.WoodType type, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.createSignTextureId(type.wrapperContained)); }
-// public yarnwrap.client.util.SpriteIdentifier createChestTextureId(java.lang.String variant) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.createChestTextureId(variant)); }
-// public static yarnwrap.client.util.SpriteIdentifier createChestTextureId(java.lang.String variant, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.createChestTextureId(variant)); }
 // public yarnwrap.client.render.RenderLayer getShieldPatterns() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getShieldPatterns()); }
 public static yarnwrap.client.render.RenderLayer getShieldPatterns() { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.TexturedRenderLayers.getShieldPatterns()); }
-// public yarnwrap.client.util.SpriteIdentifier method_24068(java.lang.String colorName) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.method_24068(colorName)); }
-// public static yarnwrap.client.util.SpriteIdentifier method_24068(java.lang.String colorName, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.method_24068(colorName)); }
 // public yarnwrap.client.render.RenderLayer getBeds() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getBeds()); }
 public static yarnwrap.client.render.RenderLayer getBeds() { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.TexturedRenderLayers.getBeds()); }
 // public yarnwrap.client.render.RenderLayer getShulkerBoxes() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getShulkerBoxes()); }
@@ -189,8 +278,6 @@ public static yarnwrap.client.render.RenderLayer getChest() { return new yarnwra
 public static yarnwrap.client.render.RenderLayer getEntitySolid() { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.TexturedRenderLayers.getEntitySolid()); }
 // public yarnwrap.client.render.RenderLayer getEntityCutout() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getEntityCutout()); }
 public static yarnwrap.client.render.RenderLayer getEntityCutout() { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.TexturedRenderLayers.getEntityCutout()); }
-// public yarnwrap.client.render.RenderLayer getEntityTranslucentCull() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getEntityTranslucentCull()); }
-public static yarnwrap.client.render.RenderLayer getEntityTranslucentCull() { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.TexturedRenderLayers.getEntityTranslucentCull()); }
 // public yarnwrap.client.render.RenderLayer getItemEntityTranslucentCull() { return new yarnwrap.client.render.RenderLayer(wrapperContained.getItemEntityTranslucentCull()); }
 public static yarnwrap.client.render.RenderLayer getItemEntityTranslucentCull() { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.TexturedRenderLayers.getItemEntityTranslucentCull()); }
 // public yarnwrap.client.util.SpriteIdentifier getBannerPatternTextureId(yarnwrap.registry.entry.RegistryEntry pattern) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getBannerPatternTextureId(pattern.wrapperContained)); }
@@ -209,11 +296,19 @@ public static yarnwrap.client.render.RenderLayer getHangingSign() { return new y
 // public static yarnwrap.client.render.RenderLayer getArmorTrims(boolean decal, ) { return new yarnwrap.client.render.RenderLayer(net.minecraft.client.render.TexturedRenderLayers.getArmorTrims(decal)); }
 // public yarnwrap.client.util.SpriteIdentifier getDecoratedPotPatternTextureId(yarnwrap.registry.RegistryKey potPatternKey) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getDecoratedPotPatternTextureId(potPatternKey.wrapperContained)); }
 // public static yarnwrap.client.util.SpriteIdentifier getDecoratedPotPatternTextureId(yarnwrap.registry.RegistryKey potPatternKey, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.getDecoratedPotPatternTextureId(potPatternKey.wrapperContained)); }
-// public yarnwrap.client.util.SpriteIdentifier createDecoratedPotPatternTextureId(yarnwrap.util.Identifier patternId) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.createDecoratedPotPatternTextureId(patternId.wrapperContained)); }
-// public static yarnwrap.client.util.SpriteIdentifier createDecoratedPotPatternTextureId(yarnwrap.util.Identifier patternId, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.createDecoratedPotPatternTextureId(patternId.wrapperContained)); }
-// public yarnwrap.client.util.SpriteIdentifier method_58138(yarnwrap.util.Identifier id) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.method_58138(id.wrapperContained)); }
-// public static yarnwrap.client.util.SpriteIdentifier method_58138(yarnwrap.util.Identifier id, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.method_58138(id.wrapperContained)); }
-// public yarnwrap.client.util.SpriteIdentifier method_58139(yarnwrap.util.Identifier id) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.method_58139(id.wrapperContained)); }
-// public static yarnwrap.client.util.SpriteIdentifier method_58139(yarnwrap.util.Identifier id, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.method_58139(id.wrapperContained)); }
+// public yarnwrap.client.util.SpriteIdentifier method_60576(Object pattern) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.method_60576(pattern)); }
+// public static yarnwrap.client.util.SpriteIdentifier method_60576(Object pattern, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.method_60576(pattern)); }
+// public yarnwrap.client.util.SpriteIdentifier getBedTextureId(yarnwrap.util.DyeColor color) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getBedTextureId(color.wrapperContained)); }
+// public static yarnwrap.client.util.SpriteIdentifier getBedTextureId(yarnwrap.util.DyeColor color, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.getBedTextureId(color.wrapperContained)); }
+// public yarnwrap.util.Identifier createColorId(yarnwrap.util.DyeColor color) { return new yarnwrap.util.Identifier(wrapperContained.createColorId(color.wrapperContained)); }
+// public static yarnwrap.util.Identifier createColorId(yarnwrap.util.DyeColor color, ) { return new yarnwrap.util.Identifier(net.minecraft.client.render.TexturedRenderLayers.createColorId(color.wrapperContained)); }
+// public yarnwrap.client.util.SpriteIdentifier createBedTextureId(yarnwrap.util.DyeColor color) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.createBedTextureId(color.wrapperContained)); }
+// public static yarnwrap.client.util.SpriteIdentifier createBedTextureId(yarnwrap.util.DyeColor color, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.createBedTextureId(color.wrapperContained)); }
+// public yarnwrap.client.util.SpriteIdentifier getShulkerBoxTextureId(yarnwrap.util.DyeColor color) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getShulkerBoxTextureId(color.wrapperContained)); }
+// public static yarnwrap.client.util.SpriteIdentifier getShulkerBoxTextureId(yarnwrap.util.DyeColor color, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.getShulkerBoxTextureId(color.wrapperContained)); }
+// public yarnwrap.util.Identifier createShulkerId(yarnwrap.util.DyeColor color) { return new yarnwrap.util.Identifier(wrapperContained.createShulkerId(color.wrapperContained)); }
+// public static yarnwrap.util.Identifier createShulkerId(yarnwrap.util.DyeColor color, ) { return new yarnwrap.util.Identifier(net.minecraft.client.render.TexturedRenderLayers.createShulkerId(color.wrapperContained)); }
+// public yarnwrap.client.util.SpriteIdentifier createShulkerBoxTextureId(yarnwrap.util.DyeColor color) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.createShulkerBoxTextureId(color.wrapperContained)); }
+// public static yarnwrap.client.util.SpriteIdentifier createShulkerBoxTextureId(yarnwrap.util.DyeColor color, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.TexturedRenderLayers.createShulkerBoxTextureId(color.wrapperContained)); }
 
 }

@@ -1,6 +1,11 @@
 package yarnwrap.client.gui.screen.ingame;
 public class MerchantScreen { public net.minecraft.client.gui.screen.ingame.MerchantScreen wrapperContained; public MerchantScreen(net.minecraft.client.gui.screen.ingame.MerchantScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.TEXTURE); }
+// public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
+// public static yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.ingame.MerchantScreen.TEXTURE); }
+// public static void TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.ingame.MerchantScreen.TEXTURE = value.wrapperContained; }
+
 // public int selectedIndex() { return wrapperContained.selectedIndex; }
 // public void selectedIndex(int value) { wrapperContained.selectedIndex = value; }
 // public static int selectedIndex() { return net.minecraft.client.gui.screen.ingame.MerchantScreen.selectedIndex; }
@@ -31,11 +36,6 @@ public class MerchantScreen { public net.minecraft.client.gui.screen.ingame.Merc
 // public static yarnwrap.text.Text DEPRECATED_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.ingame.MerchantScreen.DEPRECATED_TEXT); }
 // public static void DEPRECATED_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.ingame.MerchantScreen.DEPRECATED_TEXT = value.wrapperContained; }
 
-// public yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.TEXTURE); }
-// public void TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.TEXTURE = value.wrapperContained; }
-// public static yarnwrap.util.Identifier TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.ingame.MerchantScreen.TEXTURE); }
-// public static void TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.ingame.MerchantScreen.TEXTURE = value.wrapperContained; }
-
 // public int TEXTURE_WIDTH() { return wrapperContained.TEXTURE_WIDTH; }
 // public void TEXTURE_WIDTH(int value) { wrapperContained.TEXTURE_WIDTH = value; }
 // public static int TEXTURE_WIDTH() { return net.minecraft.client.gui.screen.ingame.MerchantScreen.TEXTURE_WIDTH; }
@@ -46,10 +46,10 @@ public class MerchantScreen { public net.minecraft.client.gui.screen.ingame.Merc
 // public static int TEXTURE_HEIGHT() { return net.minecraft.client.gui.screen.ingame.MerchantScreen.TEXTURE_HEIGHT; }
 // public static void TEXTURE_HEIGHT(int value, ) { net.minecraft.client.gui.screen.ingame.MerchantScreen.TEXTURE_HEIGHT = value; }
 
-// public int XP_BAR_X_OFFSET() { return wrapperContained.XP_BAR_X_OFFSET; }
-// public void XP_BAR_X_OFFSET(int value) { wrapperContained.XP_BAR_X_OFFSET = value; }
-// public static int XP_BAR_X_OFFSET() { return net.minecraft.client.gui.screen.ingame.MerchantScreen.XP_BAR_X_OFFSET; }
-// public static void XP_BAR_X_OFFSET(int value, ) { net.minecraft.client.gui.screen.ingame.MerchantScreen.XP_BAR_X_OFFSET = value; }
+// public int EXPERIENCE_BAR_X_OFFSET() { return wrapperContained.EXPERIENCE_BAR_X_OFFSET; }
+// public void EXPERIENCE_BAR_X_OFFSET(int value) { wrapperContained.EXPERIENCE_BAR_X_OFFSET = value; }
+// public static int EXPERIENCE_BAR_X_OFFSET() { return net.minecraft.client.gui.screen.ingame.MerchantScreen.EXPERIENCE_BAR_X_OFFSET; }
+// public static void EXPERIENCE_BAR_X_OFFSET(int value, ) { net.minecraft.client.gui.screen.ingame.MerchantScreen.EXPERIENCE_BAR_X_OFFSET = value; }
 
 // public int TRADE_LIST_AREA_Y_OFFSET() { return wrapperContained.TRADE_LIST_AREA_Y_OFFSET; }
 // public void TRADE_LIST_AREA_Y_OFFSET(int value) { wrapperContained.TRADE_LIST_AREA_Y_OFFSET = value; }
@@ -157,6 +157,8 @@ public class MerchantScreen { public net.minecraft.client.gui.screen.ingame.Merc
 // public static void EXPERIENCE_BAR_CURRENT_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.ingame.MerchantScreen.EXPERIENCE_BAR_CURRENT_TEXTURE = value.wrapperContained; }
 
 public MerchantScreen(yarnwrap.screen.MerchantScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.MerchantScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
+// public void syncRecipeIndex() { wrapperContained.syncRecipeIndex(); }
+// public static void syncRecipeIndex() { net.minecraft.client.gui.screen.ingame.MerchantScreen.syncRecipeIndex(); }
 // public void drawLevelInfo(yarnwrap.client.gui.DrawContext context,int x,int y,yarnwrap.village.TradeOffer tradeOffer) { wrapperContained.drawLevelInfo(context.wrapperContained,x,y,tradeOffer.wrapperContained); }
 // public static void drawLevelInfo(yarnwrap.client.gui.DrawContext context,int x,int y,yarnwrap.village.TradeOffer tradeOffer, ) { net.minecraft.client.gui.screen.ingame.MerchantScreen.drawLevelInfo(context.wrapperContained,x,y,tradeOffer.wrapperContained); }
 // public void method_19896(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19896(button.wrapperContained); }
@@ -169,7 +171,5 @@ public MerchantScreen(yarnwrap.screen.MerchantScreenHandler handler,yarnwrap.ent
 // public static void renderFirstBuyItem(yarnwrap.client.gui.DrawContext context,yarnwrap.item.ItemStack adjustedFirstBuyItem,yarnwrap.item.ItemStack originalFirstBuyItem,int x,int y, ) { net.minecraft.client.gui.screen.ingame.MerchantScreen.renderFirstBuyItem(context.wrapperContained,adjustedFirstBuyItem.wrapperContained,originalFirstBuyItem.wrapperContained,x,y); }
 // public void renderArrow(yarnwrap.client.gui.DrawContext context,yarnwrap.village.TradeOffer tradeOffer,int x,int y) { wrapperContained.renderArrow(context.wrapperContained,tradeOffer.wrapperContained,x,y); }
 // public static void renderArrow(yarnwrap.client.gui.DrawContext context,yarnwrap.village.TradeOffer tradeOffer,int x,int y, ) { net.minecraft.client.gui.screen.ingame.MerchantScreen.renderArrow(context.wrapperContained,tradeOffer.wrapperContained,x,y); }
-// public void syncRecipeIndex() { wrapperContained.syncRecipeIndex(); }
-// public static void syncRecipeIndex() { net.minecraft.client.gui.screen.ingame.MerchantScreen.syncRecipeIndex(); }
 
 }

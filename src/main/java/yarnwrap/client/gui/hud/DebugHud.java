@@ -1,11 +1,6 @@
 package yarnwrap.client.gui.hud;
 public class DebugHud { public net.minecraft.client.gui.hud.DebugHud wrapperContained; public DebugHud(net.minecraft.client.gui.hud.DebugHud wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.Map HEIGHT_MAP_TYPES() { return wrapperContained.HEIGHT_MAP_TYPES; }
-// public void HEIGHT_MAP_TYPES(java.util.Map value) { wrapperContained.HEIGHT_MAP_TYPES = value; }
-// public static java.util.Map HEIGHT_MAP_TYPES() { return net.minecraft.client.gui.hud.DebugHud.HEIGHT_MAP_TYPES; }
-// public static void HEIGHT_MAP_TYPES(java.util.Map value, ) { net.minecraft.client.gui.hud.DebugHud.HEIGHT_MAP_TYPES = value; }
-
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
 // public static yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(net.minecraft.client.gui.hud.DebugHud.client); }
@@ -40,6 +35,11 @@ public class DebugHud { public net.minecraft.client.gui.hud.DebugHud wrapperCont
 // public void pos(yarnwrap.util.math.ChunkPos value) { wrapperContained.pos = value.wrapperContained; }
 // public static yarnwrap.util.math.ChunkPos pos() { return new yarnwrap.util.math.ChunkPos(net.minecraft.client.gui.hud.DebugHud.pos); }
 // public static void pos(yarnwrap.util.math.ChunkPos value, ) { net.minecraft.client.gui.hud.DebugHud.pos = value.wrapperContained; }
+
+// public java.util.Map HEIGHT_MAP_TYPES() { return wrapperContained.HEIGHT_MAP_TYPES; }
+// public void HEIGHT_MAP_TYPES(java.util.Map value) { wrapperContained.HEIGHT_MAP_TYPES = value; }
+// public static java.util.Map HEIGHT_MAP_TYPES() { return net.minecraft.client.gui.hud.DebugHud.HEIGHT_MAP_TYPES; }
+// public static void HEIGHT_MAP_TYPES(java.util.Map value, ) { net.minecraft.client.gui.hud.DebugHud.HEIGHT_MAP_TYPES = value; }
 
 // public int TEXT_COLOR() { return wrapperContained.TEXT_COLOR; }
 // public void TEXT_COLOR(int value) { wrapperContained.TEXT_COLOR = value; }
@@ -116,6 +116,26 @@ public class DebugHud { public net.minecraft.client.gui.hud.DebugHud wrapperCont
 // public static java.util.Map receivedDebugSamples() { return net.minecraft.client.gui.hud.DebugHud.receivedDebugSamples; }
 // public static void receivedDebugSamples(java.util.Map value, ) { net.minecraft.client.gui.hud.DebugHud.receivedDebugSamples = value; }
 
+// public yarnwrap.client.gui.hud.debug.PieChart pieChart() { return new yarnwrap.client.gui.hud.debug.PieChart(wrapperContained.pieChart); }
+// public void pieChart(yarnwrap.client.gui.hud.debug.PieChart value) { wrapperContained.pieChart = value.wrapperContained; }
+// public static yarnwrap.client.gui.hud.debug.PieChart pieChart() { return new yarnwrap.client.gui.hud.debug.PieChart(net.minecraft.client.gui.hud.DebugHud.pieChart); }
+// public static void pieChart(yarnwrap.client.gui.hud.debug.PieChart value, ) { net.minecraft.client.gui.hud.DebugHud.pieChart = value.wrapperContained; }
+
+// public com.mojang.blaze3d.buffers.GpuBuffer debugCrosshairBuffer() { return wrapperContained.debugCrosshairBuffer; }
+// public void debugCrosshairBuffer(com.mojang.blaze3d.buffers.GpuBuffer value) { wrapperContained.debugCrosshairBuffer = value; }
+// public static com.mojang.blaze3d.buffers.GpuBuffer debugCrosshairBuffer() { return net.minecraft.client.gui.hud.DebugHud.debugCrosshairBuffer; }
+// public static void debugCrosshairBuffer(com.mojang.blaze3d.buffers.GpuBuffer value, ) { net.minecraft.client.gui.hud.DebugHud.debugCrosshairBuffer = value; }
+
+// public Object debugCrosshairIndexBuffer() { return wrapperContained.debugCrosshairIndexBuffer; }
+// // public void debugCrosshairIndexBuffer(Object value) { wrapperContained.debugCrosshairIndexBuffer = value; }
+// // public static Object debugCrosshairIndexBuffer() { return net.minecraft.client.gui.hud.DebugHud.debugCrosshairIndexBuffer; }
+// // public static void debugCrosshairIndexBuffer(Object value, ) { net.minecraft.client.gui.hud.DebugHud.debugCrosshairIndexBuffer = value; }
+
+// public float DEBUG_CROSSHAIR_SCALE() { return wrapperContained.DEBUG_CROSSHAIR_SCALE; }
+// public void DEBUG_CROSSHAIR_SCALE(float value) { wrapperContained.DEBUG_CROSSHAIR_SCALE = value; }
+// public static float DEBUG_CROSSHAIR_SCALE() { return net.minecraft.client.gui.hud.DebugHud.DEBUG_CROSSHAIR_SCALE; }
+// public static void DEBUG_CROSSHAIR_SCALE(float value, ) { net.minecraft.client.gui.hud.DebugHud.DEBUG_CROSSHAIR_SCALE = value; }
+
 public DebugHud(yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.gui.hud.DebugHud(client.wrapperContained); }
 // public yarnwrap.world.chunk.WorldChunk getChunk() { return new yarnwrap.world.chunk.WorldChunk(wrapperContained.getChunk()); }
 // public static yarnwrap.world.chunk.WorldChunk getChunk() { return new yarnwrap.world.chunk.WorldChunk(net.minecraft.client.gui.hud.DebugHud.getChunk()); }
@@ -141,8 +161,8 @@ public void render(yarnwrap.client.gui.DrawContext context) { wrapperContained.r
 // public static void drawLeftText(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.hud.DebugHud.drawLeftText(context.wrapperContained); }
 // public void drawRightText(yarnwrap.client.gui.DrawContext context) { wrapperContained.drawRightText(context.wrapperContained); }
 // public static void drawRightText(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.hud.DebugHud.drawRightText(context.wrapperContained); }
-// public void method_20455(java.util.EnumMap types) { wrapperContained.method_20455(types); }
-// public static void method_20455(java.util.EnumMap types, ) { net.minecraft.client.gui.hud.DebugHud.method_20455(types); }
+// public yarnwrap.world.chunk.WorldChunk method_20541(yarnwrap.server.world.OptionalChunk chunk) { return new yarnwrap.world.chunk.WorldChunk(wrapperContained.method_20541(chunk.wrapperContained)); }
+// public static yarnwrap.world.chunk.WorldChunk method_20541(yarnwrap.server.world.OptionalChunk chunk, ) { return new yarnwrap.world.chunk.WorldChunk(net.minecraft.client.gui.hud.DebugHud.method_20541(chunk.wrapperContained)); }
 // public yarnwrap.server.world.ServerWorld getServerWorld() { return new yarnwrap.server.world.ServerWorld(wrapperContained.getServerWorld()); }
 // public static yarnwrap.server.world.ServerWorld getServerWorld() { return new yarnwrap.server.world.ServerWorld(net.minecraft.client.gui.hud.DebugHud.getServerWorld()); }
 // public java.lang.String method_27870(it.unimi.dsi.fastutil.objects.Object2IntMap group) { return wrapperContained.method_27870(group); }
@@ -189,5 +209,9 @@ public yarnwrap.util.profiler.MultiValueDebugSampleLogImpl getTickNanosLog() { r
 // public static void set(long values,net.minecraft.util.profiler.log.DebugSampleType[] type, ) { net.minecraft.client.gui.hud.DebugHud.set(values,type); }
 public boolean shouldRenderTickCharts() { return wrapperContained.shouldRenderTickCharts(); }
 // public static boolean shouldRenderTickCharts() { return net.minecraft.client.gui.hud.DebugHud.shouldRenderTickCharts(); }
+public yarnwrap.client.gui.hud.debug.PieChart getPieChart() { return new yarnwrap.client.gui.hud.debug.PieChart(wrapperContained.getPieChart()); }
+// public static yarnwrap.client.gui.hud.debug.PieChart getPieChart() { return new yarnwrap.client.gui.hud.debug.PieChart(net.minecraft.client.gui.hud.DebugHud.getPieChart()); }
+// public void renderDebugCrosshair(yarnwrap.client.render.Camera camera) { wrapperContained.renderDebugCrosshair(camera.wrapperContained); }
+// public static void renderDebugCrosshair(yarnwrap.client.render.Camera camera, ) { net.minecraft.client.gui.hud.DebugHud.renderDebugCrosshair(camera.wrapperContained); }
 
 }

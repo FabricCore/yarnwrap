@@ -74,7 +74,7 @@ public boolean updateDeviceSpecifier() { return wrapperContained.updateDeviceSpe
 // public static boolean updateDeviceSpecifier() { return net.minecraft.client.sound.SoundEngine.updateDeviceSpecifier(); }
 public boolean isDeviceUnavailable() { return wrapperContained.isDeviceUnavailable(); }
 // public static boolean isDeviceUnavailable() { return net.minecraft.client.sound.SoundEngine.isDeviceUnavailable(); }
-// public void setDirectionalAudio(boolean enabled) { wrapperContained.setDirectionalAudio(enabled); }
-// public static void setDirectionalAudio(boolean enabled, ) { net.minecraft.client.sound.SoundEngine.setDirectionalAudio(enabled); }
+// public java.nio.IntBuffer createAttributes(org.lwjgl.system.MemoryStack stack,boolean directionalAudio) { return wrapperContained.createAttributes(stack,directionalAudio); }
+// public static java.nio.IntBuffer createAttributes(org.lwjgl.system.MemoryStack stack,boolean directionalAudio, ) { return net.minecraft.client.sound.SoundEngine.createAttributes(stack,directionalAudio); }
 
 }

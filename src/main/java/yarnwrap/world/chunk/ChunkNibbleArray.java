@@ -31,8 +31,8 @@ public static int COPY_TIMES() { return net.minecraft.world.chunk.ChunkNibbleArr
 // public static int defaultValue() { return net.minecraft.world.chunk.ChunkNibbleArray.defaultValue; }
 // public static void defaultValue(int value, ) { net.minecraft.world.chunk.ChunkNibbleArray.defaultValue = value; }
 
-public ChunkNibbleArray(int defaultValue) { this.wrapperContained = new net.minecraft.world.chunk.ChunkNibbleArray(defaultValue); }
 public ChunkNibbleArray(byte bytes) { this.wrapperContained = new net.minecraft.world.chunk.ChunkNibbleArray(bytes); }
+public ChunkNibbleArray(int defaultValue) { this.wrapperContained = new net.minecraft.world.chunk.ChunkNibbleArray(defaultValue); }
 public byte[] asByteArray() { return wrapperContained.asByteArray(); }
 // public static byte[] asByteArray() { return net.minecraft.world.chunk.ChunkNibbleArray.asByteArray(); }
 // public int getArrayIndex(int i) { return wrapperContained.getArrayIndex(i); }

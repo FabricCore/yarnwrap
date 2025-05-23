@@ -1,6 +1,16 @@
 package yarnwrap.client.render.entity.model;
 public class ArmorStandEntityModel { public net.minecraft.client.render.entity.model.ArmorStandEntityModel wrapperContained; public ArmorStandEntityModel(net.minecraft.client.render.entity.model.ArmorStandEntityModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.client.model.ModelPart basePlate() { return new yarnwrap.client.model.ModelPart(wrapperContained.basePlate); }
+// public void basePlate(yarnwrap.client.model.ModelPart value) { wrapperContained.basePlate = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart basePlate() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.ArmorStandEntityModel.basePlate); }
+// public static void basePlate(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.ArmorStandEntityModel.basePlate = value.wrapperContained; }
+
+// public yarnwrap.client.model.ModelPart shoulderStick() { return new yarnwrap.client.model.ModelPart(wrapperContained.shoulderStick); }
+// public void shoulderStick(yarnwrap.client.model.ModelPart value) { wrapperContained.shoulderStick = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart shoulderStick() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.ArmorStandEntityModel.shoulderStick); }
+// public static void shoulderStick(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.ArmorStandEntityModel.shoulderStick = value.wrapperContained; }
+
 // public yarnwrap.client.model.ModelPart rightBodyStick() { return new yarnwrap.client.model.ModelPart(wrapperContained.rightBodyStick); }
 // public void rightBodyStick(yarnwrap.client.model.ModelPart value) { wrapperContained.rightBodyStick = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart rightBodyStick() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.ArmorStandEntityModel.rightBodyStick); }
@@ -30,16 +40,6 @@ public class ArmorStandEntityModel { public net.minecraft.client.render.entity.m
 // public void BASE_PLATE(java.lang.String value) { wrapperContained.BASE_PLATE = value; }
 // public static java.lang.String BASE_PLATE() { return net.minecraft.client.render.entity.model.ArmorStandEntityModel.BASE_PLATE; }
 // public static void BASE_PLATE(java.lang.String value, ) { net.minecraft.client.render.entity.model.ArmorStandEntityModel.BASE_PLATE = value; }
-
-// public yarnwrap.client.model.ModelPart basePlate() { return new yarnwrap.client.model.ModelPart(wrapperContained.basePlate); }
-// public void basePlate(yarnwrap.client.model.ModelPart value) { wrapperContained.basePlate = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart basePlate() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.ArmorStandEntityModel.basePlate); }
-// public static void basePlate(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.ArmorStandEntityModel.basePlate = value.wrapperContained; }
-
-// public yarnwrap.client.model.ModelPart shoulderStick() { return new yarnwrap.client.model.ModelPart(wrapperContained.shoulderStick); }
-// public void shoulderStick(yarnwrap.client.model.ModelPart value) { wrapperContained.shoulderStick = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart shoulderStick() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.ArmorStandEntityModel.shoulderStick); }
-// public static void shoulderStick(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.ArmorStandEntityModel.shoulderStick = value.wrapperContained; }
 
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.ArmorStandEntityModel.getTexturedModelData()); }

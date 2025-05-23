@@ -1,21 +1,6 @@
 package yarnwrap.entity.ai.goal;
 public class MoveToTargetPosGoal { public net.minecraft.entity.ai.goal.MoveToTargetPosGoal wrapperContained; public MoveToTargetPosGoal(net.minecraft.entity.ai.goal.MoveToTargetPosGoal wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int MIN_WAITING_TIME() { return wrapperContained.MIN_WAITING_TIME; }
-// public void MIN_WAITING_TIME(int value) { wrapperContained.MIN_WAITING_TIME = value; }
-// public static int MIN_WAITING_TIME() { return net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MIN_WAITING_TIME; }
-// public static void MIN_WAITING_TIME(int value, ) { net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MIN_WAITING_TIME = value; }
-
-// public int MAX_TRYING_TIME() { return wrapperContained.MAX_TRYING_TIME; }
-// public void MAX_TRYING_TIME(int value) { wrapperContained.MAX_TRYING_TIME = value; }
-// public static int MAX_TRYING_TIME() { return net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MAX_TRYING_TIME; }
-// public static void MAX_TRYING_TIME(int value, ) { net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MAX_TRYING_TIME = value; }
-
-// public int MIN_INTERVAL() { return wrapperContained.MIN_INTERVAL; }
-// public void MIN_INTERVAL(int value) { wrapperContained.MIN_INTERVAL = value; }
-// public static int MIN_INTERVAL() { return net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MIN_INTERVAL; }
-// public static void MIN_INTERVAL(int value, ) { net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MIN_INTERVAL = value; }
-
 // public int range() { return wrapperContained.range; }
 // public void range(int value) { wrapperContained.range = value; }
 // public static int range() { return net.minecraft.entity.ai.goal.MoveToTargetPosGoal.range; }
@@ -66,10 +51,23 @@ public double speed() { return wrapperContained.speed; }
 // public static int maxYDifference() { return net.minecraft.entity.ai.goal.MoveToTargetPosGoal.maxYDifference; }
 // public static void maxYDifference(int value, ) { net.minecraft.entity.ai.goal.MoveToTargetPosGoal.maxYDifference = value; }
 
+// public int MIN_WAITING_TIME() { return wrapperContained.MIN_WAITING_TIME; }
+// public void MIN_WAITING_TIME(int value) { wrapperContained.MIN_WAITING_TIME = value; }
+// public static int MIN_WAITING_TIME() { return net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MIN_WAITING_TIME; }
+// public static void MIN_WAITING_TIME(int value, ) { net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MIN_WAITING_TIME = value; }
+
+// public int MAX_TRYING_TIME() { return wrapperContained.MAX_TRYING_TIME; }
+// public void MAX_TRYING_TIME(int value) { wrapperContained.MAX_TRYING_TIME = value; }
+// public static int MAX_TRYING_TIME() { return net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MAX_TRYING_TIME; }
+// public static void MAX_TRYING_TIME(int value, ) { net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MAX_TRYING_TIME = value; }
+
+// public int MIN_INTERVAL() { return wrapperContained.MIN_INTERVAL; }
+// public void MIN_INTERVAL(int value) { wrapperContained.MIN_INTERVAL = value; }
+// public static int MIN_INTERVAL() { return net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MIN_INTERVAL; }
+// public static void MIN_INTERVAL(int value, ) { net.minecraft.entity.ai.goal.MoveToTargetPosGoal.MIN_INTERVAL = value; }
+
 // public MoveToTargetPosGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed,int range) { this.wrapperContained = new net.minecraft.entity.ai.goal.MoveToTargetPosGoal(mob.wrapperContained,speed,range); }
 // public MoveToTargetPosGoal(yarnwrap.entity.mob.PathAwareEntity mob,double speed,int range,int maxYDifference) { this.wrapperContained = new net.minecraft.entity.ai.goal.MoveToTargetPosGoal(mob.wrapperContained,speed,range,maxYDifference); }
-// public yarnwrap.util.math.BlockPos getTargetPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getTargetPos()); }
-// public static yarnwrap.util.math.BlockPos getTargetPos() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.ai.goal.MoveToTargetPosGoal.getTargetPos()); }
 // public void startMovingToTarget() { wrapperContained.startMovingToTarget(); }
 // public static void startMovingToTarget() { net.minecraft.entity.ai.goal.MoveToTargetPosGoal.startMovingToTarget(); }
 public double getDesiredDistanceToTarget() { return wrapperContained.getDesiredDistanceToTarget(); }
@@ -84,5 +82,7 @@ public boolean shouldResetPath() { return wrapperContained.shouldResetPath(); }
 // public static boolean hasReached() { return net.minecraft.entity.ai.goal.MoveToTargetPosGoal.hasReached(); }
 // public boolean isTargetPos(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.isTargetPos(world.wrapperContained,pos.wrapperContained); }
 // public static boolean isTargetPos(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.ai.goal.MoveToTargetPosGoal.isTargetPos(world.wrapperContained,pos.wrapperContained); }
+// public yarnwrap.util.math.BlockPos getTargetPos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getTargetPos()); }
+// public static yarnwrap.util.math.BlockPos getTargetPos() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.ai.goal.MoveToTargetPosGoal.getTargetPos()); }
 
 }

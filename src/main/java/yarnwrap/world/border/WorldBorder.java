@@ -139,15 +139,21 @@ public boolean contains(double x,double z,double margin) { return wrapperContain
 // public static boolean contains(double x,double z,double margin, ) { return net.minecraft.world.border.WorldBorder.contains(x,z,margin); }
 public boolean canCollide(yarnwrap.entity.Entity entity,yarnwrap.util.math.Box box) { return wrapperContained.canCollide(entity.wrapperContained,box.wrapperContained); }
 // public static boolean canCollide(yarnwrap.entity.Entity entity,yarnwrap.util.math.Box box, ) { return net.minecraft.world.border.WorldBorder.canCollide(entity.wrapperContained,box.wrapperContained); }
-public yarnwrap.util.math.BlockPos clamp(double x,double y,double z) { return new yarnwrap.util.math.BlockPos(wrapperContained.clamp(x,y,z)); }
-// public static yarnwrap.util.math.BlockPos clamp(double x,double y,double z, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.border.WorldBorder.clamp(x,y,z)); }
+public yarnwrap.util.math.BlockPos clampFloored(double x,double y,double z) { return new yarnwrap.util.math.BlockPos(wrapperContained.clampFloored(x,y,z)); }
+// public static yarnwrap.util.math.BlockPos clampFloored(double x,double y,double z, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.border.WorldBorder.clampFloored(x,y,z)); }
 // public boolean contains(double minX,double minZ,double maxX,double maxZ) { return wrapperContained.contains(minX,minZ,maxX,maxZ); }
 // public static boolean contains(double minX,double minZ,double maxX,double maxZ, ) { return net.minecraft.world.border.WorldBorder.contains(minX,minZ,maxX,maxZ); }
 public boolean contains(yarnwrap.util.math.Vec3d pos) { return wrapperContained.contains(pos.wrapperContained); }
 // public static boolean contains(yarnwrap.util.math.Vec3d pos, ) { return net.minecraft.world.border.WorldBorder.contains(pos.wrapperContained); }
-public yarnwrap.util.math.BlockPos clamp(yarnwrap.util.math.Vec3d pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.clamp(pos.wrapperContained)); }
-// public static yarnwrap.util.math.BlockPos clamp(yarnwrap.util.math.Vec3d pos, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.border.WorldBorder.clamp(pos.wrapperContained)); }
-public yarnwrap.util.math.BlockPos clamp(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.clamp(pos.wrapperContained)); }
-// public static yarnwrap.util.math.BlockPos clamp(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.border.WorldBorder.clamp(pos.wrapperContained)); }
+public yarnwrap.util.math.BlockPos clampFloored(yarnwrap.util.math.Vec3d pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.clampFloored(pos.wrapperContained)); }
+// public static yarnwrap.util.math.BlockPos clampFloored(yarnwrap.util.math.Vec3d pos, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.border.WorldBorder.clampFloored(pos.wrapperContained)); }
+public yarnwrap.util.math.BlockPos clampFloored(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.clampFloored(pos.wrapperContained)); }
+// public static yarnwrap.util.math.BlockPos clampFloored(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.border.WorldBorder.clampFloored(pos.wrapperContained)); }
+public yarnwrap.util.math.Vec3d clamp(double x,double y,double z) { return new yarnwrap.util.math.Vec3d(wrapperContained.clamp(x,y,z)); }
+// public static yarnwrap.util.math.Vec3d clamp(double x,double y,double z, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.world.border.WorldBorder.clamp(x,y,z)); }
+public yarnwrap.util.math.Vec3d clamp(yarnwrap.util.math.Vec3d pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.clamp(pos.wrapperContained)); }
+// public static yarnwrap.util.math.Vec3d clamp(yarnwrap.util.math.Vec3d pos, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.world.border.WorldBorder.clamp(pos.wrapperContained)); }
+public java.util.List calculateDistancesFromCamera(double x,double z) { return wrapperContained.calculateDistancesFromCamera(x,z); }
+// public static java.util.List calculateDistancesFromCamera(double x,double z, ) { return net.minecraft.world.border.WorldBorder.calculateDistancesFromCamera(x,z); }
 
 }

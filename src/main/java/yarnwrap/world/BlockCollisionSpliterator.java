@@ -52,6 +52,7 @@ public class BlockCollisionSpliterator { public net.minecraft.world.BlockCollisi
 // public static void resultFunction(java.util.function.BiFunction value, ) { net.minecraft.world.BlockCollisionSpliterator.resultFunction = value; }
 
 public BlockCollisionSpliterator(yarnwrap.world.CollisionView world,yarnwrap.entity.Entity entity,yarnwrap.util.math.Box box,boolean forEntity,java.util.function.BiFunction resultFunction) { this.wrapperContained = new net.minecraft.world.BlockCollisionSpliterator(world.wrapperContained,entity.wrapperContained,box.wrapperContained,forEntity,resultFunction); }
+public BlockCollisionSpliterator(yarnwrap.world.CollisionView world,yarnwrap.block.ShapeContext context,yarnwrap.util.math.Box box,boolean forEntity,java.util.function.BiFunction resultFunction) { this.wrapperContained = new net.minecraft.world.BlockCollisionSpliterator(world.wrapperContained,context.wrapperContained,box.wrapperContained,forEntity,resultFunction); }
 // public yarnwrap.world.BlockView getChunk(int x,int z) { return new yarnwrap.world.BlockView(wrapperContained.getChunk(x,z)); }
 // public static yarnwrap.world.BlockView getChunk(int x,int z, ) { return new yarnwrap.world.BlockView(net.minecraft.world.BlockCollisionSpliterator.getChunk(x,z)); }
 

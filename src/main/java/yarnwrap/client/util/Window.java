@@ -1,16 +1,6 @@
 package yarnwrap.client.util;
 public class Window { public net.minecraft.client.util.Window wrapperContained; public Window(net.minecraft.client.util.Window wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int framerateLimit() { return wrapperContained.framerateLimit; }
-// public void framerateLimit(int value) { wrapperContained.framerateLimit = value; }
-// public static int framerateLimit() { return net.minecraft.client.util.Window.framerateLimit; }
-// public static void framerateLimit(int value, ) { net.minecraft.client.util.Window.framerateLimit = value; }
-
-// public boolean vsync() { return wrapperContained.vsync; }
-// public void vsync(boolean value) { wrapperContained.vsync = value; }
-// public static boolean vsync() { return net.minecraft.client.util.Window.vsync; }
-// public static void vsync(boolean value, ) { net.minecraft.client.util.Window.vsync = value; }
-
 // public int windowedWidth() { return wrapperContained.windowedWidth; }
 // public void windowedWidth(int value) { wrapperContained.windowedWidth = value; }
 // public static int windowedWidth() { return net.minecraft.client.util.Window.windowedWidth; }
@@ -36,10 +26,10 @@ public class Window { public net.minecraft.client.util.Window wrapperContained; 
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.client.util.Window.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.util.Window.LOGGER = value; }
 
-// public double scaleFactor() { return wrapperContained.scaleFactor; }
-// public void scaleFactor(double value) { wrapperContained.scaleFactor = value; }
-// public static double scaleFactor() { return net.minecraft.client.util.Window.scaleFactor; }
-// public static void scaleFactor(double value, ) { net.minecraft.client.util.Window.scaleFactor = value; }
+// public int scaleFactor() { return wrapperContained.scaleFactor; }
+// public void scaleFactor(int value) { wrapperContained.scaleFactor = value; }
+// public static int scaleFactor() { return net.minecraft.client.util.Window.scaleFactor; }
+// public static void scaleFactor(int value, ) { net.minecraft.client.util.Window.scaleFactor = value; }
 
 // public int scaledWidth() { return wrapperContained.scaledWidth; }
 // public void scaledWidth(int value) { wrapperContained.scaledWidth = value; }
@@ -126,33 +116,22 @@ public class Window { public net.minecraft.client.util.Window wrapperContained; 
 // public static int y() { return net.minecraft.client.util.Window.y; }
 // public static void y(int value, ) { net.minecraft.client.util.Window.y = value; }
 
+// public boolean vsync() { return wrapperContained.vsync; }
+// public void vsync(boolean value) { wrapperContained.vsync = value; }
+// public static boolean vsync() { return net.minecraft.client.util.Window.vsync; }
+// public static void vsync(boolean value, ) { net.minecraft.client.util.Window.vsync = value; }
+
+// public boolean minimized() { return wrapperContained.minimized; }
+// public void minimized(boolean value) { wrapperContained.minimized = value; }
+// public static boolean minimized() { return net.minecraft.client.util.Window.minimized; }
+// public static void minimized(boolean value, ) { net.minecraft.client.util.Window.minimized = value; }
+
+// public boolean zeroWidthOrHeight() { return wrapperContained.zeroWidthOrHeight; }
+// public void zeroWidthOrHeight(boolean value) { wrapperContained.zeroWidthOrHeight = value; }
+// public static boolean zeroWidthOrHeight() { return net.minecraft.client.util.Window.zeroWidthOrHeight; }
+// public static void zeroWidthOrHeight(boolean value, ) { net.minecraft.client.util.Window.zeroWidthOrHeight = value; }
+
 public Window(yarnwrap.client.WindowEventHandler eventHandler,yarnwrap.client.util.MonitorTracker monitorTracker,yarnwrap.client.WindowSettings settings,java.lang.String fullscreenVideoMode,java.lang.String title) { this.wrapperContained = new net.minecraft.client.util.Window(eventHandler.wrapperContained,monitorTracker.wrapperContained,settings.wrapperContained,fullscreenVideoMode,title); }
-public void setScaleFactor(double scaleFactor) { wrapperContained.setScaleFactor(scaleFactor); }
-// public static void setScaleFactor(double scaleFactor, ) { net.minecraft.client.util.Window.setScaleFactor(scaleFactor); }
-public void swapBuffers() { wrapperContained.swapBuffers(); }
-// public static void swapBuffers() { net.minecraft.client.util.Window.swapBuffers(); }
-public void setFramerateLimit(int framerateLimit) { wrapperContained.setFramerateLimit(framerateLimit); }
-// public static void setFramerateLimit(int framerateLimit, ) { net.minecraft.client.util.Window.setFramerateLimit(framerateLimit); }
-public int getFramerateLimit() { return wrapperContained.getFramerateLimit(); }
-// public static int getFramerateLimit() { return net.minecraft.client.util.Window.getFramerateLimit(); }
-public yarnwrap.client.util.Monitor getMonitor() { return new yarnwrap.client.util.Monitor(wrapperContained.getMonitor()); }
-// public static yarnwrap.client.util.Monitor getMonitor() { return new yarnwrap.client.util.Monitor(net.minecraft.client.util.Window.getMonitor()); }
-public void setRawMouseMotion(boolean rawMouseMotion) { wrapperContained.setRawMouseMotion(rawMouseMotion); }
-// public static void setRawMouseMotion(boolean rawMouseMotion, ) { net.minecraft.client.util.Window.setRawMouseMotion(rawMouseMotion); }
-public int getRefreshRate() { return wrapperContained.getRefreshRate(); }
-// public static int getRefreshRate() { return net.minecraft.client.util.Window.getRefreshRate(); }
-public boolean shouldClose() { return wrapperContained.shouldClose(); }
-// public static boolean shouldClose() { return net.minecraft.client.util.Window.shouldClose(); }
-public void setTitle(java.lang.String title) { wrapperContained.setTitle(title); }
-// public static void setTitle(java.lang.String title, ) { net.minecraft.client.util.Window.setTitle(title); }
-// public void onCursorEnterChanged(long window,boolean entered) { wrapperContained.onCursorEnterChanged(window,entered); }
-// public static void onCursorEnterChanged(long window,boolean entered, ) { net.minecraft.client.util.Window.onCursorEnterChanged(window,entered); }
-public void setFramebufferWidth(int framebufferWidth) { wrapperContained.setFramebufferWidth(framebufferWidth); }
-// public static void setFramebufferWidth(int framebufferWidth, ) { net.minecraft.client.util.Window.setFramebufferWidth(framebufferWidth); }
-public void setFramebufferHeight(int framebufferHeight) { wrapperContained.setFramebufferHeight(framebufferHeight); }
-// public static void setFramebufferHeight(int framebufferHeight, ) { net.minecraft.client.util.Window.setFramebufferHeight(framebufferHeight); }
-public void setWindowedSize(int width,int height) { wrapperContained.setWindowedSize(width,height); }
-// public static void setWindowedSize(int width,int height, ) { net.minecraft.client.util.Window.setWindowedSize(width,height); }
 public void setPhase(java.lang.String phase) { wrapperContained.setPhase(phase); }
 // public static void setPhase(java.lang.String phase, ) { net.minecraft.client.util.Window.setPhase(phase); }
 public void applyFullscreenVideoMode() { wrapperContained.applyFullscreenVideoMode(); }
@@ -173,8 +152,8 @@ public void logGlError(int error,long description) { wrapperContained.logGlError
 // public static void logGlError(int error,long description, ) { net.minecraft.client.util.Window.logGlError(error,description); }
 // public void updateFramebufferSize() { wrapperContained.updateFramebufferSize(); }
 // public static void updateFramebufferSize() { net.minecraft.client.util.Window.updateFramebufferSize(); }
-// public void updateFullscreen(boolean vsync) { wrapperContained.updateFullscreen(vsync); }
-// public static void updateFullscreen(boolean vsync, ) { net.minecraft.client.util.Window.updateFullscreen(vsync); }
+// public void updateFullscreen(boolean vsync,yarnwrap.client.util.tracy.TracyFrameCapturer capturer) { wrapperContained.updateFullscreen(vsync,capturer.wrapperContained); }
+// public static void updateFullscreen(boolean vsync,yarnwrap.client.util.tracy.TracyFrameCapturer capturer, ) { net.minecraft.client.util.Window.updateFullscreen(vsync,capturer.wrapperContained); }
 public int getScaledWidth() { return wrapperContained.getScaledWidth(); }
 // public static int getScaledWidth() { return net.minecraft.client.util.Window.getScaledWidth(); }
 // public void onWindowSizeChanged(long window,int width,int height) { wrapperContained.onWindowSizeChanged(window,width,height); }
@@ -189,8 +168,8 @@ public long getHandle() { return wrapperContained.getHandle(); }
 // public static void acceptError(java.util.function.BiConsumer consumer, ) { net.minecraft.client.util.Window.acceptError(consumer); }
 // public void onWindowFocusChanged(long window,boolean focused) { wrapperContained.onWindowFocusChanged(window,focused); }
 // public static void onWindowFocusChanged(long window,boolean focused, ) { net.minecraft.client.util.Window.onWindowFocusChanged(window,focused); }
-public double getScaleFactor() { return wrapperContained.getScaleFactor(); }
-// public static double getScaleFactor() { return net.minecraft.client.util.Window.getScaleFactor(); }
+// public int getScaleFactor() { return wrapperContained.getScaleFactor(); }
+// // public static int getScaleFactor() { return net.minecraft.client.util.Window.getScaleFactor(); }
 public void setVsync(boolean vsync) { wrapperContained.setVsync(vsync); }
 // public static void setVsync(boolean vsync, ) { net.minecraft.client.util.Window.setVsync(vsync); }
 public boolean isFullscreen() { return wrapperContained.isFullscreen(); }
@@ -215,7 +194,37 @@ public java.util.Optional getFullscreenVideoMode() { return wrapperContained.get
 // public static java.util.Optional getFullscreenVideoMode() { return net.minecraft.client.util.Window.getFullscreenVideoMode(); }
 public void logOnGlError() { wrapperContained.logOnGlError(); }
 // public static void logOnGlError() { net.minecraft.client.util.Window.logOnGlError(); }
+public void setScaleFactor(int scaleFactor) { wrapperContained.setScaleFactor(scaleFactor); }
+// public static void setScaleFactor(int scaleFactor, ) { net.minecraft.client.util.Window.setScaleFactor(scaleFactor); }
+public void swapBuffers(yarnwrap.client.util.tracy.TracyFrameCapturer capturer) { wrapperContained.swapBuffers(capturer.wrapperContained); }
+// public static void swapBuffers(yarnwrap.client.util.tracy.TracyFrameCapturer capturer, ) { net.minecraft.client.util.Window.swapBuffers(capturer.wrapperContained); }
+public yarnwrap.client.util.Monitor getMonitor() { return new yarnwrap.client.util.Monitor(wrapperContained.getMonitor()); }
+// public static yarnwrap.client.util.Monitor getMonitor() { return new yarnwrap.client.util.Monitor(net.minecraft.client.util.Window.getMonitor()); }
+public void setRawMouseMotion(boolean rawMouseMotion) { wrapperContained.setRawMouseMotion(rawMouseMotion); }
+// public static void setRawMouseMotion(boolean rawMouseMotion, ) { net.minecraft.client.util.Window.setRawMouseMotion(rawMouseMotion); }
+public int getRefreshRate() { return wrapperContained.getRefreshRate(); }
+// public static int getRefreshRate() { return net.minecraft.client.util.Window.getRefreshRate(); }
+public boolean shouldClose() { return wrapperContained.shouldClose(); }
+// public static boolean shouldClose() { return net.minecraft.client.util.Window.shouldClose(); }
+public void setTitle(java.lang.String title) { wrapperContained.setTitle(title); }
+// public static void setTitle(java.lang.String title, ) { net.minecraft.client.util.Window.setTitle(title); }
+// public void onCursorEnterChanged(long window,boolean entered) { wrapperContained.onCursorEnterChanged(window,entered); }
+// public static void onCursorEnterChanged(long window,boolean entered, ) { net.minecraft.client.util.Window.onCursorEnterChanged(window,entered); }
+public void setFramebufferWidth(int framebufferWidth) { wrapperContained.setFramebufferWidth(framebufferWidth); }
+// public static void setFramebufferWidth(int framebufferWidth, ) { net.minecraft.client.util.Window.setFramebufferWidth(framebufferWidth); }
+public void setFramebufferHeight(int framebufferHeight) { wrapperContained.setFramebufferHeight(framebufferHeight); }
+// public static void setFramebufferHeight(int framebufferHeight, ) { net.minecraft.client.util.Window.setFramebufferHeight(framebufferHeight); }
+public void setWindowedSize(int width,int height) { wrapperContained.setWindowedSize(width,height); }
+// public static void setWindowedSize(int width,int height, ) { net.minecraft.client.util.Window.setWindowedSize(width,height); }
 // public java.lang.String getGlfwPlatform() { return wrapperContained.getGlfwPlatform(); }
 public static java.lang.String getGlfwPlatform() { return net.minecraft.client.util.Window.getGlfwPlatform(); }
+public void setCloseCallback(java.lang.Runnable callback) { wrapperContained.setCloseCallback(callback); }
+// public static void setCloseCallback(java.lang.Runnable callback, ) { net.minecraft.client.util.Window.setCloseCallback(callback); }
+// public void onMinimizeChanged(long window,boolean minimized) { wrapperContained.onMinimizeChanged(window,minimized); }
+// public static void onMinimizeChanged(long window,boolean minimized, ) { net.minecraft.client.util.Window.onMinimizeChanged(window,minimized); }
+public boolean isMinimized() { return wrapperContained.isMinimized(); }
+// public static boolean isMinimized() { return net.minecraft.client.util.Window.isMinimized(); }
+public boolean hasZeroWidthOrHeight() { return wrapperContained.hasZeroWidthOrHeight(); }
+// public static boolean hasZeroWidthOrHeight() { return net.minecraft.client.util.Window.hasZeroWidthOrHeight(); }
 
 }

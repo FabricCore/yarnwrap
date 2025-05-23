@@ -71,6 +71,31 @@ public static java.lang.String SELECTION_PRIORITY_KEY() { return net.minecraft.b
 // public static int selectionPriority() { return net.minecraft.block.entity.JigsawBlockEntity.selectionPriority; }
 // public static void selectionPriority(int value, ) { net.minecraft.block.entity.JigsawBlockEntity.selectionPriority = value; }
 
+// public com.mojang.serialization.Codec STRUCTURE_POOL_KEY_CODEC() { return wrapperContained.STRUCTURE_POOL_KEY_CODEC; }
+// public void STRUCTURE_POOL_KEY_CODEC(com.mojang.serialization.Codec value) { wrapperContained.STRUCTURE_POOL_KEY_CODEC = value; }
+public static com.mojang.serialization.Codec STRUCTURE_POOL_KEY_CODEC() { return net.minecraft.block.entity.JigsawBlockEntity.STRUCTURE_POOL_KEY_CODEC; }
+// public static void STRUCTURE_POOL_KEY_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.block.entity.JigsawBlockEntity.STRUCTURE_POOL_KEY_CODEC = value; }
+
+// public yarnwrap.util.Identifier DEFAULT_NAME() { return new yarnwrap.util.Identifier(wrapperContained.DEFAULT_NAME); }
+// public void DEFAULT_NAME(yarnwrap.util.Identifier value) { wrapperContained.DEFAULT_NAME = value.wrapperContained; }
+public static yarnwrap.util.Identifier DEFAULT_NAME() { return new yarnwrap.util.Identifier(net.minecraft.block.entity.JigsawBlockEntity.DEFAULT_NAME); }
+// public static void DEFAULT_NAME(yarnwrap.util.Identifier value, ) { net.minecraft.block.entity.JigsawBlockEntity.DEFAULT_NAME = value.wrapperContained; }
+
+// public java.lang.String DEFAULT_FINAL_STATE() { return wrapperContained.DEFAULT_FINAL_STATE; }
+// public void DEFAULT_FINAL_STATE(java.lang.String value) { wrapperContained.DEFAULT_FINAL_STATE = value; }
+public static java.lang.String DEFAULT_FINAL_STATE() { return net.minecraft.block.entity.JigsawBlockEntity.DEFAULT_FINAL_STATE; }
+// public static void DEFAULT_FINAL_STATE(java.lang.String value, ) { net.minecraft.block.entity.JigsawBlockEntity.DEFAULT_FINAL_STATE = value; }
+
+// public int DEFAULT_PLACEMENT_PRIORITY() { return wrapperContained.DEFAULT_PLACEMENT_PRIORITY; }
+// public void DEFAULT_PLACEMENT_PRIORITY(int value) { wrapperContained.DEFAULT_PLACEMENT_PRIORITY = value; }
+// public static int DEFAULT_PLACEMENT_PRIORITY() { return net.minecraft.block.entity.JigsawBlockEntity.DEFAULT_PLACEMENT_PRIORITY; }
+// public static void DEFAULT_PLACEMENT_PRIORITY(int value, ) { net.minecraft.block.entity.JigsawBlockEntity.DEFAULT_PLACEMENT_PRIORITY = value; }
+
+// public int DEFAULT_SELECTION_PRIORITY() { return wrapperContained.DEFAULT_SELECTION_PRIORITY; }
+// public void DEFAULT_SELECTION_PRIORITY(int value) { wrapperContained.DEFAULT_SELECTION_PRIORITY = value; }
+// public static int DEFAULT_SELECTION_PRIORITY() { return net.minecraft.block.entity.JigsawBlockEntity.DEFAULT_SELECTION_PRIORITY; }
+// public static void DEFAULT_SELECTION_PRIORITY(int value, ) { net.minecraft.block.entity.JigsawBlockEntity.DEFAULT_SELECTION_PRIORITY = value; }
+
 public JigsawBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.JigsawBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void setFinalState(java.lang.String finalState) { wrapperContained.setFinalState(finalState); }
 // public static void setFinalState(java.lang.String finalState, ) { net.minecraft.block.entity.JigsawBlockEntity.setFinalState(finalState); }

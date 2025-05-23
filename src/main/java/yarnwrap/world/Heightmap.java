@@ -50,7 +50,7 @@ public int get(int x,int z) { return wrapperContained.get(x,z); }
 // public static boolean method_16682(yarnwrap.block.BlockState state, ) { return net.minecraft.world.Heightmap.method_16682(state.wrapperContained); }
 // public void populateHeightmaps(yarnwrap.world.chunk.Chunk chunk,java.util.Set types) { wrapperContained.populateHeightmaps(chunk.wrapperContained,types); }
 // public static void populateHeightmaps(yarnwrap.world.chunk.Chunk chunk,java.util.Set types, ) { net.minecraft.world.Heightmap.populateHeightmaps(chunk.wrapperContained,types); }
-public int method_35334(int x,int z) { return wrapperContained.method_35334(x,z); }
-// public static int method_35334(int x,int z, ) { return net.minecraft.world.Heightmap.method_35334(x,z); }
+public int getOneLower(int x,int z) { return wrapperContained.getOneLower(x,z); }
+// public static int getOneLower(int x,int z, ) { return net.minecraft.world.Heightmap.getOneLower(x,z); }
 
 }

@@ -1,21 +1,6 @@
 package yarnwrap.client.render.entity.model;
 public class PhantomEntityModel { public net.minecraft.client.render.entity.model.PhantomEntityModel wrapperContained; public PhantomEntityModel(net.minecraft.client.render.entity.model.PhantomEntityModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(wrapperContained.root); }
-// public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.PhantomEntityModel.root); }
-// public static void root(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.PhantomEntityModel.root = value.wrapperContained; }
-
-// public java.lang.String TAIL_BASE() { return wrapperContained.TAIL_BASE; }
-// public void TAIL_BASE(java.lang.String value) { wrapperContained.TAIL_BASE = value; }
-// public static java.lang.String TAIL_BASE() { return net.minecraft.client.render.entity.model.PhantomEntityModel.TAIL_BASE; }
-// public static void TAIL_BASE(java.lang.String value, ) { net.minecraft.client.render.entity.model.PhantomEntityModel.TAIL_BASE = value; }
-
-// public java.lang.String TAIL_TIP() { return wrapperContained.TAIL_TIP; }
-// public void TAIL_TIP(java.lang.String value) { wrapperContained.TAIL_TIP = value; }
-// public static java.lang.String TAIL_TIP() { return net.minecraft.client.render.entity.model.PhantomEntityModel.TAIL_TIP; }
-// public static void TAIL_TIP(java.lang.String value, ) { net.minecraft.client.render.entity.model.PhantomEntityModel.TAIL_TIP = value; }
-
 // public yarnwrap.client.model.ModelPart tailBase() { return new yarnwrap.client.model.ModelPart(wrapperContained.tailBase); }
 // public void tailBase(yarnwrap.client.model.ModelPart value) { wrapperContained.tailBase = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart tailBase() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.PhantomEntityModel.tailBase); }
@@ -46,7 +31,16 @@ public class PhantomEntityModel { public net.minecraft.client.render.entity.mode
 // public static yarnwrap.client.model.ModelPart leftWingBase() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.PhantomEntityModel.leftWingBase); }
 // public static void leftWingBase(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.PhantomEntityModel.leftWingBase = value.wrapperContained; }
 
-public PhantomEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.PhantomEntityModel(root.wrapperContained); }
+// public java.lang.String TAIL_BASE() { return wrapperContained.TAIL_BASE; }
+// public void TAIL_BASE(java.lang.String value) { wrapperContained.TAIL_BASE = value; }
+// public static java.lang.String TAIL_BASE() { return net.minecraft.client.render.entity.model.PhantomEntityModel.TAIL_BASE; }
+// public static void TAIL_BASE(java.lang.String value, ) { net.minecraft.client.render.entity.model.PhantomEntityModel.TAIL_BASE = value; }
+
+// public java.lang.String TAIL_TIP() { return wrapperContained.TAIL_TIP; }
+// public void TAIL_TIP(java.lang.String value) { wrapperContained.TAIL_TIP = value; }
+// public static java.lang.String TAIL_TIP() { return net.minecraft.client.render.entity.model.PhantomEntityModel.TAIL_TIP; }
+// public static void TAIL_TIP(java.lang.String value, ) { net.minecraft.client.render.entity.model.PhantomEntityModel.TAIL_TIP = value; }
+
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.PhantomEntityModel.getTexturedModelData()); }
 

@@ -41,5 +41,7 @@ public yarnwrap.util.math.intprovider.IntProviderType getType() { return new yar
 // public static yarnwrap.util.math.intprovider.IntProviderType getType() { return new yarnwrap.util.math.intprovider.IntProviderType(net.minecraft.util.math.intprovider.IntProvider.getType()); }
 // public com.mojang.serialization.Codec createValidatingCodec(int min,int max,com.mojang.serialization.Codec providerCodec) { return wrapperContained.createValidatingCodec(min,max,providerCodec); }
 // public static com.mojang.serialization.Codec createValidatingCodec(int min,int max,com.mojang.serialization.Codec providerCodec, ) { return net.minecraft.util.math.intprovider.IntProvider.createValidatingCodec(min,max,providerCodec); }
+// public com.mojang.serialization.DataResult validateProvider(int min,int max,yarnwrap.util.math.intprovider.IntProvider provider) { return wrapperContained.validateProvider(min,max,provider.wrapperContained); }
+// public static com.mojang.serialization.DataResult validateProvider(int min,int max,yarnwrap.util.math.intprovider.IntProvider provider, ) { return net.minecraft.util.math.intprovider.IntProvider.validateProvider(min,max,provider.wrapperContained); }
 
 }

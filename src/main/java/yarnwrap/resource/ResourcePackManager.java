@@ -53,5 +53,7 @@ public boolean disable(java.lang.String profile) { return wrapperContained.disab
 // public static java.lang.String method_59808(yarnwrap.resource.ResourcePackProfile profile, ) { return net.minecraft.resource.ResourcePackManager.method_59808(profile.wrapperContained); }
 // public java.lang.String listPacks(java.util.Collection profiles) { return wrapperContained.listPacks(profiles); }
 // public static java.lang.String listPacks(java.util.Collection profiles, ) { return net.minecraft.resource.ResourcePackManager.listPacks(profiles); }
+public boolean hasOptionalProfilesEnabled() { return wrapperContained.hasOptionalProfilesEnabled(); }
+// public static boolean hasOptionalProfilesEnabled() { return net.minecraft.resource.ResourcePackManager.hasOptionalProfilesEnabled(); }
 
 }

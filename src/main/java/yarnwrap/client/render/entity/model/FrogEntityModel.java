@@ -1,11 +1,6 @@
 package yarnwrap.client.render.entity.model;
 public class FrogEntityModel { public net.minecraft.client.render.entity.model.FrogEntityModel wrapperContained; public FrogEntityModel(net.minecraft.client.render.entity.model.FrogEntityModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(wrapperContained.root); }
-// public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.FrogEntityModel.root); }
-// public static void root(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.FrogEntityModel.root = value.wrapperContained; }
-
 // public yarnwrap.client.model.ModelPart body() { return new yarnwrap.client.model.ModelPart(wrapperContained.body); }
 // public void body(yarnwrap.client.model.ModelPart value) { wrapperContained.body = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart body() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.FrogEntityModel.body); }
@@ -66,7 +61,6 @@ public class FrogEntityModel { public net.minecraft.client.render.entity.model.F
 // public static float LIMB_DISTANCE_SCALE() { return net.minecraft.client.render.entity.model.FrogEntityModel.LIMB_DISTANCE_SCALE; }
 // public static void LIMB_DISTANCE_SCALE(float value, ) { net.minecraft.client.render.entity.model.FrogEntityModel.LIMB_DISTANCE_SCALE = value; }
 
-public FrogEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.FrogEntityModel(root.wrapperContained); }
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.FrogEntityModel.getTexturedModelData()); }
 

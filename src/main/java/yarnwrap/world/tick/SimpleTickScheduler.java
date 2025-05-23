@@ -13,8 +13,8 @@ public class SimpleTickScheduler { public net.minecraft.world.tick.SimpleTickSch
 
 // public void scheduleTick(yarnwrap.world.tick.Tick tick) { wrapperContained.scheduleTick(tick.wrapperContained); }
 // public static void scheduleTick(yarnwrap.world.tick.Tick tick, ) { net.minecraft.world.tick.SimpleTickScheduler.scheduleTick(tick.wrapperContained); }
-// public yarnwrap.world.tick.SimpleTickScheduler tick(yarnwrap.nbt.NbtList tickList,java.util.function.Function typeToNameFunction,yarnwrap.util.math.ChunkPos pos) { return new yarnwrap.world.tick.SimpleTickScheduler(wrapperContained.tick(tickList.wrapperContained,typeToNameFunction,pos.wrapperContained)); }
-// public static yarnwrap.world.tick.SimpleTickScheduler tick(yarnwrap.nbt.NbtList tickList,java.util.function.Function typeToNameFunction,yarnwrap.util.math.ChunkPos pos, ) { return new yarnwrap.world.tick.SimpleTickScheduler(net.minecraft.world.tick.SimpleTickScheduler.tick(tickList.wrapperContained,typeToNameFunction,pos.wrapperContained)); }
+// public yarnwrap.world.tick.SimpleTickScheduler tick(java.util.List ticks) { return new yarnwrap.world.tick.SimpleTickScheduler(wrapperContained.tick(ticks)); }
+// public static yarnwrap.world.tick.SimpleTickScheduler tick(java.util.List ticks, ) { return new yarnwrap.world.tick.SimpleTickScheduler(net.minecraft.world.tick.SimpleTickScheduler.tick(ticks)); }
 public java.util.List getTicks() { return wrapperContained.getTicks(); }
 // public static java.util.List getTicks() { return net.minecraft.world.tick.SimpleTickScheduler.getTicks(); }
 

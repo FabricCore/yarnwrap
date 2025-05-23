@@ -11,7 +11,5 @@ public class BanListCommand { public net.minecraft.server.dedicated.command.BanL
 // public static int method_13016(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.BanListCommand.method_13016(context); }
 // public int method_13017(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13017(context); }
 // public static int method_13017(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.BanListCommand.method_13017(context); }
-// public boolean method_13018(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13018(source.wrapperContained); }
-// public static boolean method_13018(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.BanListCommand.method_13018(source.wrapperContained); }
 
 }

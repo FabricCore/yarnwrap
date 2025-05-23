@@ -71,10 +71,10 @@ public class Camera { public net.minecraft.client.render.Camera wrapperContained
 // public static org.joml.Quaternionf rotation() { return net.minecraft.client.render.Camera.rotation; }
 // public static void rotation(org.joml.Quaternionf value, ) { net.minecraft.client.render.Camera.rotation = value; }
 
-// public float lastTickDelta() { return wrapperContained.lastTickDelta; }
-// public void lastTickDelta(float value) { wrapperContained.lastTickDelta = value; }
-// public static float lastTickDelta() { return net.minecraft.client.render.Camera.lastTickDelta; }
-// public static void lastTickDelta(float value, ) { net.minecraft.client.render.Camera.lastTickDelta = value; }
+// public float lastTickProgress() { return wrapperContained.lastTickProgress; }
+// public void lastTickProgress(float value) { wrapperContained.lastTickProgress = value; }
+// public static float lastTickProgress() { return net.minecraft.client.render.Camera.lastTickProgress; }
+// public static void lastTickProgress(float value, ) { net.minecraft.client.render.Camera.lastTickProgress = value; }
 
 // public float BASE_CAMERA_DISTANCE() { return wrapperContained.BASE_CAMERA_DISTANCE; }
 // public void BASE_CAMERA_DISTANCE(float value) { wrapperContained.BASE_CAMERA_DISTANCE = value; }
@@ -100,8 +100,8 @@ public void updateEyeHeight() { wrapperContained.updateEyeHeight(); }
 // public static void updateEyeHeight() { net.minecraft.client.render.Camera.updateEyeHeight(); }
 // public float clipToSpace() { return wrapperContained.clipToSpace(); }
 // public static float clipToSpace() { return net.minecraft.client.render.Camera.clipToSpace(); }
-public void update(yarnwrap.world.BlockView area,yarnwrap.entity.Entity focusedEntity,boolean thirdPerson,boolean inverseView,float tickDelta) { wrapperContained.update(area.wrapperContained,focusedEntity.wrapperContained,thirdPerson,inverseView,tickDelta); }
-// public static void update(yarnwrap.world.BlockView area,yarnwrap.entity.Entity focusedEntity,boolean thirdPerson,boolean inverseView,float tickDelta, ) { net.minecraft.client.render.Camera.update(area.wrapperContained,focusedEntity.wrapperContained,thirdPerson,inverseView,tickDelta); }
+public void update(yarnwrap.world.BlockView area,yarnwrap.entity.Entity focusedEntity,boolean thirdPerson,boolean inverseView,float tickProgress) { wrapperContained.update(area.wrapperContained,focusedEntity.wrapperContained,thirdPerson,inverseView,tickProgress); }
+// public static void update(yarnwrap.world.BlockView area,yarnwrap.entity.Entity focusedEntity,boolean thirdPerson,boolean inverseView,float tickProgress, ) { net.minecraft.client.render.Camera.update(area.wrapperContained,focusedEntity.wrapperContained,thirdPerson,inverseView,tickProgress); }
 // public void setPos(yarnwrap.util.math.Vec3d pos) { wrapperContained.setPos(pos.wrapperContained); }
 // public static void setPos(yarnwrap.util.math.Vec3d pos, ) { net.minecraft.client.render.Camera.setPos(pos.wrapperContained); }
 // public void moveBy() { wrapperContained.moveBy(); }
@@ -138,7 +138,7 @@ public org.joml.Vector3f getDiagonalPlane() { return wrapperContained.getDiagona
 // public static org.joml.Vector3f getDiagonalPlane() { return net.minecraft.client.render.Camera.getDiagonalPlane(); }
 public Object getProjection() { return wrapperContained.getProjection(); }
 // public static Object getProjection() { return net.minecraft.client.render.Camera.getProjection(); }
-public float getLastTickDelta() { return wrapperContained.getLastTickDelta(); }
-// public static float getLastTickDelta() { return net.minecraft.client.render.Camera.getLastTickDelta(); }
+public float getLastTickProgress() { return wrapperContained.getLastTickProgress(); }
+// public static float getLastTickProgress() { return net.minecraft.client.render.Camera.getLastTickProgress(); }
 
 }

@@ -6,11 +6,6 @@ public class NbtTextFormatter { public net.minecraft.nbt.visitor.NbtTextFormatte
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.nbt.visitor.NbtTextFormatter.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.nbt.visitor.NbtTextFormatter.LOGGER = value; }
 
-// public it.unimi.dsi.fastutil.bytes.ByteCollection SINGLE_LINE_ELEMENT_TYPES() { return wrapperContained.SINGLE_LINE_ELEMENT_TYPES; }
-// public void SINGLE_LINE_ELEMENT_TYPES(it.unimi.dsi.fastutil.bytes.ByteCollection value) { wrapperContained.SINGLE_LINE_ELEMENT_TYPES = value; }
-// public static it.unimi.dsi.fastutil.bytes.ByteCollection SINGLE_LINE_ELEMENT_TYPES() { return net.minecraft.nbt.visitor.NbtTextFormatter.SINGLE_LINE_ELEMENT_TYPES; }
-// public static void SINGLE_LINE_ELEMENT_TYPES(it.unimi.dsi.fastutil.bytes.ByteCollection value, ) { net.minecraft.nbt.visitor.NbtTextFormatter.SINGLE_LINE_ELEMENT_TYPES = value; }
-
 // public yarnwrap.util.Formatting NAME_COLOR() { return new yarnwrap.util.Formatting(wrapperContained.NAME_COLOR); }
 // public void NAME_COLOR(yarnwrap.util.Formatting value) { wrapperContained.NAME_COLOR = value.wrapperContained; }
 // public static yarnwrap.util.Formatting NAME_COLOR() { return new yarnwrap.util.Formatting(net.minecraft.nbt.visitor.NbtTextFormatter.NAME_COLOR); }
@@ -158,5 +153,7 @@ public yarnwrap.text.Text apply(yarnwrap.nbt.NbtElement element) { return new ya
 // public static yarnwrap.text.Text apply(yarnwrap.nbt.NbtElement element, ) { return new yarnwrap.text.Text(net.minecraft.nbt.visitor.NbtTextFormatter.apply(element.wrapperContained)); }
 // public void formatSubElement(yarnwrap.nbt.NbtElement element,boolean indent) { wrapperContained.formatSubElement(element.wrapperContained,indent); }
 // public static void formatSubElement(yarnwrap.nbt.NbtElement element,boolean indent, ) { net.minecraft.nbt.visitor.NbtTextFormatter.formatSubElement(element.wrapperContained,indent); }
+// public boolean shouldIndent(yarnwrap.nbt.NbtList list) { return wrapperContained.shouldIndent(list.wrapperContained); }
+// public static boolean shouldIndent(yarnwrap.nbt.NbtList list, ) { return net.minecraft.nbt.visitor.NbtTextFormatter.shouldIndent(list.wrapperContained); }
 
 }

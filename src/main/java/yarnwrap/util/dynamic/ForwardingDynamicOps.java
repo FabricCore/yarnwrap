@@ -29,6 +29,8 @@ public java.lang.Object createLong(long l) { return wrapperContained.createLong(
 // public static java.lang.Object createLong(long l, ) { return net.minecraft.util.dynamic.ForwardingDynamicOps.createLong(l); }
 public java.lang.Object createLongList(java.util.stream.LongStream stream) { return wrapperContained.createLongList(stream); }
 // public static java.lang.Object createLongList(java.util.stream.LongStream stream, ) { return net.minecraft.util.dynamic.ForwardingDynamicOps.createLongList(stream); }
+public java.lang.Object createMap(java.util.Map map) { return wrapperContained.createMap(map); }
+// public static java.lang.Object createMap(java.util.Map map, ) { return net.minecraft.util.dynamic.ForwardingDynamicOps.createMap(map); }
 public java.lang.Object createMap(java.util.stream.Stream map) { return wrapperContained.createMap(map); }
 // public static java.lang.Object createMap(java.util.stream.Stream map, ) { return net.minecraft.util.dynamic.ForwardingDynamicOps.createMap(map); }
 public java.lang.Object createNumeric(java.lang.Number number) { return wrapperContained.createNumeric(number); }
@@ -67,6 +69,10 @@ public com.mojang.serialization.DataResult mergeToMap(java.lang.Object map,com.m
 // public static com.mojang.serialization.DataResult mergeToMap(java.lang.Object map,com.mojang.serialization.MapLike values, ) { return net.minecraft.util.dynamic.ForwardingDynamicOps.mergeToMap(map,values); }
 public com.mojang.serialization.DataResult mergeToMap(java.lang.Object map,java.lang.Object key,java.lang.Object value) { return wrapperContained.mergeToMap(map,key,value); }
 // public static com.mojang.serialization.DataResult mergeToMap(java.lang.Object map,java.lang.Object key,java.lang.Object value, ) { return net.minecraft.util.dynamic.ForwardingDynamicOps.mergeToMap(map,key,value); }
+public com.mojang.serialization.DataResult mergeToMap(java.lang.Object map,java.util.Map values) { return wrapperContained.mergeToMap(map,values); }
+// public static com.mojang.serialization.DataResult mergeToMap(java.lang.Object map,java.util.Map values, ) { return net.minecraft.util.dynamic.ForwardingDynamicOps.mergeToMap(map,values); }
+public com.mojang.serialization.DataResult mergeToPrimitive(java.lang.Object prefix,java.lang.Object value) { return wrapperContained.mergeToPrimitive(prefix,value); }
+// public static com.mojang.serialization.DataResult mergeToPrimitive(java.lang.Object prefix,java.lang.Object value, ) { return net.minecraft.util.dynamic.ForwardingDynamicOps.mergeToPrimitive(prefix,value); }
 public java.lang.Object remove(java.lang.Object input,java.lang.String key) { return wrapperContained.remove(input,key); }
 // public static java.lang.Object remove(java.lang.Object input,java.lang.String key, ) { return net.minecraft.util.dynamic.ForwardingDynamicOps.remove(input,key); }
 

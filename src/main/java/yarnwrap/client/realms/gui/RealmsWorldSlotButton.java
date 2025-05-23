@@ -36,11 +36,6 @@ public static yarnwrap.util.Identifier PANORAMA_2() { return new yarnwrap.util.I
 public static yarnwrap.util.Identifier PANORAMA_3() { return new yarnwrap.util.Identifier(net.minecraft.client.realms.gui.RealmsWorldSlotButton.PANORAMA_3); }
 // public static void PANORAMA_3(yarnwrap.util.Identifier value, ) { net.minecraft.client.realms.gui.RealmsWorldSlotButton.PANORAMA_3 = value.wrapperContained; }
 
-// public yarnwrap.text.Text ACTIVE_TOOLTIP() { return new yarnwrap.text.Text(wrapperContained.ACTIVE_TOOLTIP); }
-// public void ACTIVE_TOOLTIP(yarnwrap.text.Text value) { wrapperContained.ACTIVE_TOOLTIP = value.wrapperContained; }
-// public static yarnwrap.text.Text ACTIVE_TOOLTIP() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.RealmsWorldSlotButton.ACTIVE_TOOLTIP); }
-// public static void ACTIVE_TOOLTIP(yarnwrap.text.Text value, ) { net.minecraft.client.realms.gui.RealmsWorldSlotButton.ACTIVE_TOOLTIP = value.wrapperContained; }
-
 // public yarnwrap.text.Text MINIGAME_TOOLTIP() { return new yarnwrap.text.Text(wrapperContained.MINIGAME_TOOLTIP); }
 // public void MINIGAME_TOOLTIP(yarnwrap.text.Text value) { wrapperContained.MINIGAME_TOOLTIP = value.wrapperContained; }
 // public static yarnwrap.text.Text MINIGAME_TOOLTIP() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.RealmsWorldSlotButton.MINIGAME_TOOLTIP); }
@@ -51,23 +46,28 @@ public static yarnwrap.util.Identifier PANORAMA_3() { return new yarnwrap.util.I
 // public static yarnwrap.text.Text TOOLTIP() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.RealmsWorldSlotButton.TOOLTIP); }
 // public static void TOOLTIP(yarnwrap.text.Text value, ) { net.minecraft.client.realms.gui.RealmsWorldSlotButton.TOOLTIP = value.wrapperContained; }
 
-// public yarnwrap.util.Identifier CHECKMARK() { return new yarnwrap.util.Identifier(wrapperContained.CHECKMARK); }
-// public void CHECKMARK(yarnwrap.util.Identifier value) { wrapperContained.CHECKMARK = value.wrapperContained; }
-// public static yarnwrap.util.Identifier CHECKMARK() { return new yarnwrap.util.Identifier(net.minecraft.client.realms.gui.RealmsWorldSlotButton.CHECKMARK); }
-// public static void CHECKMARK(yarnwrap.util.Identifier value, ) { net.minecraft.client.realms.gui.RealmsWorldSlotButton.CHECKMARK = value.wrapperContained; }
-
 // public yarnwrap.text.Text MINIGAME_SLOT_NAME() { return new yarnwrap.text.Text(wrapperContained.MINIGAME_SLOT_NAME); }
 // public void MINIGAME_SLOT_NAME(yarnwrap.text.Text value) { wrapperContained.MINIGAME_SLOT_NAME = value.wrapperContained; }
 // public static yarnwrap.text.Text MINIGAME_SLOT_NAME() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.RealmsWorldSlotButton.MINIGAME_SLOT_NAME); }
 // public static void MINIGAME_SLOT_NAME(yarnwrap.text.Text value, ) { net.minecraft.client.realms.gui.RealmsWorldSlotButton.MINIGAME_SLOT_NAME = value.wrapperContained; }
 
-// public RealmsWorldSlotButton(int x,int y,int width,int height,int slotIndex,Object pressAction) { this.wrapperContained = new net.minecraft.client.realms.gui.RealmsWorldSlotButton(x,y,width,height,slotIndex,pressAction); }
+// public int MAX_DISPLAYED_SLOT_NAME_LENGTH() { return wrapperContained.MAX_DISPLAYED_SLOT_NAME_LENGTH; }
+// public void MAX_DISPLAYED_SLOT_NAME_LENGTH(int value) { wrapperContained.MAX_DISPLAYED_SLOT_NAME_LENGTH = value; }
+// public static int MAX_DISPLAYED_SLOT_NAME_LENGTH() { return net.minecraft.client.realms.gui.RealmsWorldSlotButton.MAX_DISPLAYED_SLOT_NAME_LENGTH; }
+// public static void MAX_DISPLAYED_SLOT_NAME_LENGTH(int value, ) { net.minecraft.client.realms.gui.RealmsWorldSlotButton.MAX_DISPLAYED_SLOT_NAME_LENGTH = value; }
+
+// public java.lang.String ELLIPSIS() { return wrapperContained.ELLIPSIS; }
+// public void ELLIPSIS(java.lang.String value) { wrapperContained.ELLIPSIS = value; }
+// public static java.lang.String ELLIPSIS() { return net.minecraft.client.realms.gui.RealmsWorldSlotButton.ELLIPSIS; }
+// public static void ELLIPSIS(java.lang.String value, ) { net.minecraft.client.realms.gui.RealmsWorldSlotButton.ELLIPSIS = value; }
+
+// public RealmsWorldSlotButton(int x,int y,int width,int height,int slotIndex,yarnwrap.client.realms.dto.RealmsServer server,Object onPress) { this.wrapperContained = new net.minecraft.client.realms.gui.RealmsWorldSlotButton(x,y,width,height,slotIndex,server.wrapperContained,onPress); }
 public Object getState() { return wrapperContained.getState(); }
 // public static Object getState() { return net.minecraft.client.realms.gui.RealmsWorldSlotButton.getState(); }
 // public Object getAction(yarnwrap.client.realms.dto.RealmsServer server,boolean active,boolean minigame) { return wrapperContained.getAction(server.wrapperContained,active,minigame); }
 // public static Object getAction(yarnwrap.client.realms.dto.RealmsServer server,boolean active,boolean minigame, ) { return net.minecraft.client.realms.gui.RealmsWorldSlotButton.getAction(server.wrapperContained,active,minigame); }
-public void setServer(yarnwrap.client.realms.dto.RealmsServer server) { wrapperContained.setServer(server.wrapperContained); }
-// public static void setServer(yarnwrap.client.realms.dto.RealmsServer server, ) { net.minecraft.client.realms.gui.RealmsWorldSlotButton.setServer(server.wrapperContained); }
+// public Object setServer(yarnwrap.client.realms.dto.RealmsServer server) { return wrapperContained.setServer(server.wrapperContained); }
+// // public static Object setServer(yarnwrap.client.realms.dto.RealmsServer server, ) { return net.minecraft.client.realms.gui.RealmsWorldSlotButton.setServer(server.wrapperContained); }
 // public void updateTooltip(Object state,java.lang.String minigameName) { wrapperContained.updateTooltip(state,minigameName); }
 // public static void updateTooltip(Object state,java.lang.String minigameName, ) { net.minecraft.client.realms.gui.RealmsWorldSlotButton.updateTooltip(state,minigameName); }
 

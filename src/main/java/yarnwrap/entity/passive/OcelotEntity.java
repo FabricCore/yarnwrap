@@ -31,6 +31,11 @@ public static double NORMAL_SPEED() { return net.minecraft.entity.passive.Ocelot
 public static double SPRINTING_SPEED() { return net.minecraft.entity.passive.OcelotEntity.SPRINTING_SPEED; }
 // public static void SPRINTING_SPEED(double value, ) { net.minecraft.entity.passive.OcelotEntity.SPRINTING_SPEED = value; }
 
+// public boolean DEFAULT_TRUSTING() { return wrapperContained.DEFAULT_TRUSTING; }
+// public void DEFAULT_TRUSTING(boolean value) { wrapperContained.DEFAULT_TRUSTING = value; }
+// public static boolean DEFAULT_TRUSTING() { return net.minecraft.entity.passive.OcelotEntity.DEFAULT_TRUSTING; }
+// public static void DEFAULT_TRUSTING(boolean value, ) { net.minecraft.entity.passive.OcelotEntity.DEFAULT_TRUSTING = value; }
+
 // public boolean isTrusting() { return wrapperContained.isTrusting(); }
 // public static boolean isTrusting() { return net.minecraft.entity.passive.OcelotEntity.isTrusting(); }
 // public void showEmoteParticle(boolean positive) { wrapperContained.showEmoteParticle(positive); }

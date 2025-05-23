@@ -1,21 +1,6 @@
 package yarnwrap.client.gui.screen.recipebook;
 public class RecipeBookWidget { public net.minecraft.client.gui.screen.recipebook.RecipeBookWidget wrapperContained; public RecipeBookWidget(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.text.Text SEARCH_HINT_TEXT() { return new yarnwrap.text.Text(wrapperContained.SEARCH_HINT_TEXT); }
-// public void SEARCH_HINT_TEXT(yarnwrap.text.Text value) { wrapperContained.SEARCH_HINT_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text SEARCH_HINT_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.SEARCH_HINT_TEXT); }
-// public static void SEARCH_HINT_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.SEARCH_HINT_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.Text TOGGLE_CRAFTABLE_RECIPES_TEXT() { return new yarnwrap.text.Text(wrapperContained.TOGGLE_CRAFTABLE_RECIPES_TEXT); }
-// public void TOGGLE_CRAFTABLE_RECIPES_TEXT(yarnwrap.text.Text value) { wrapperContained.TOGGLE_CRAFTABLE_RECIPES_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text TOGGLE_CRAFTABLE_RECIPES_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.TOGGLE_CRAFTABLE_RECIPES_TEXT); }
-// public static void TOGGLE_CRAFTABLE_RECIPES_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.TOGGLE_CRAFTABLE_RECIPES_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.Text TOGGLE_ALL_RECIPES_TEXT() { return new yarnwrap.text.Text(wrapperContained.TOGGLE_ALL_RECIPES_TEXT); }
-// public void TOGGLE_ALL_RECIPES_TEXT(yarnwrap.text.Text value) { wrapperContained.TOGGLE_ALL_RECIPES_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text TOGGLE_ALL_RECIPES_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.TOGGLE_ALL_RECIPES_TEXT); }
-// public static void TOGGLE_ALL_RECIPES_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.TOGGLE_ALL_RECIPES_TEXT = value.wrapperContained; }
-
 // public yarnwrap.client.gui.screen.recipebook.RecipeBookResults recipesArea() { return new yarnwrap.client.gui.screen.recipebook.RecipeBookResults(wrapperContained.recipesArea); }
 // public void recipesArea(yarnwrap.client.gui.screen.recipebook.RecipeBookResults value) { wrapperContained.recipesArea = value.wrapperContained; }
 // public static yarnwrap.client.gui.screen.recipebook.RecipeBookResults recipesArea() { return new yarnwrap.client.gui.screen.recipebook.RecipeBookResults(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.recipesArea); }
@@ -36,20 +21,15 @@ public class RecipeBookWidget { public net.minecraft.client.gui.screen.recipeboo
 // public static yarnwrap.client.gui.widget.TextFieldWidget searchField() { return new yarnwrap.client.gui.widget.TextFieldWidget(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.searchField); }
 // public static void searchField(yarnwrap.client.gui.widget.TextFieldWidget value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.searchField = value.wrapperContained; }
 
-// public yarnwrap.recipe.RecipeMatcher recipeFinder() { return new yarnwrap.recipe.RecipeMatcher(wrapperContained.recipeFinder); }
-// public void recipeFinder(yarnwrap.recipe.RecipeMatcher value) { wrapperContained.recipeFinder = value.wrapperContained; }
-// public static yarnwrap.recipe.RecipeMatcher recipeFinder() { return new yarnwrap.recipe.RecipeMatcher(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.recipeFinder); }
-// public static void recipeFinder(yarnwrap.recipe.RecipeMatcher value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.recipeFinder = value.wrapperContained; }
+// public yarnwrap.recipe.RecipeFinder recipeFinder() { return new yarnwrap.recipe.RecipeFinder(wrapperContained.recipeFinder); }
+// public void recipeFinder(yarnwrap.recipe.RecipeFinder value) { wrapperContained.recipeFinder = value.wrapperContained; }
+// public static yarnwrap.recipe.RecipeFinder recipeFinder() { return new yarnwrap.recipe.RecipeFinder(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.recipeFinder); }
+// public static void recipeFinder(yarnwrap.recipe.RecipeFinder value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.recipeFinder = value.wrapperContained; }
 
 // public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
 // public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
 // public static yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.client); }
 // public static void client(yarnwrap.client.MinecraftClient value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.client = value.wrapperContained; }
-
-// public yarnwrap.client.gui.screen.recipebook.RecipeBookGhostSlots ghostSlots() { return new yarnwrap.client.gui.screen.recipebook.RecipeBookGhostSlots(wrapperContained.ghostSlots); }
-// public void ghostSlots(yarnwrap.client.gui.screen.recipebook.RecipeBookGhostSlots value) { wrapperContained.ghostSlots = value.wrapperContained; }
-// public static yarnwrap.client.gui.screen.recipebook.RecipeBookGhostSlots ghostSlots() { return new yarnwrap.client.gui.screen.recipebook.RecipeBookGhostSlots(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.ghostSlots); }
-// public static void ghostSlots(yarnwrap.client.gui.screen.recipebook.RecipeBookGhostSlots value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.ghostSlots = value.wrapperContained; }
 
 // public int cachedInvChangeCount() { return wrapperContained.cachedInvChangeCount; }
 // public void cachedInvChangeCount(int value) { wrapperContained.cachedInvChangeCount = value; }
@@ -101,6 +81,16 @@ public class RecipeBookWidget { public net.minecraft.client.gui.screen.recipeboo
 // public static int leftOffset() { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.leftOffset; }
 // public static void leftOffset(int value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.leftOffset = value; }
 
+// public yarnwrap.text.Text SEARCH_HINT_TEXT() { return new yarnwrap.text.Text(wrapperContained.SEARCH_HINT_TEXT); }
+// public void SEARCH_HINT_TEXT(yarnwrap.text.Text value) { wrapperContained.SEARCH_HINT_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text SEARCH_HINT_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.SEARCH_HINT_TEXT); }
+// public static void SEARCH_HINT_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.SEARCH_HINT_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text TOGGLE_ALL_RECIPES_TEXT() { return new yarnwrap.text.Text(wrapperContained.TOGGLE_ALL_RECIPES_TEXT); }
+// public void TOGGLE_ALL_RECIPES_TEXT(yarnwrap.text.Text value) { wrapperContained.TOGGLE_ALL_RECIPES_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text TOGGLE_ALL_RECIPES_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.TOGGLE_ALL_RECIPES_TEXT); }
+// public static void TOGGLE_ALL_RECIPES_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.TOGGLE_ALL_RECIPES_TEXT = value.wrapperContained; }
+
 // public boolean open() { return wrapperContained.open; }
 // public void open(boolean value) { wrapperContained.open = value; }
 // public static boolean open() { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.open; }
@@ -116,27 +106,50 @@ public class RecipeBookWidget { public net.minecraft.client.gui.screen.recipeboo
 public static yarnwrap.client.gui.screen.ButtonTextures BUTTON_TEXTURES() { return new yarnwrap.client.gui.screen.ButtonTextures(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.BUTTON_TEXTURES); }
 // public static void BUTTON_TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.BUTTON_TEXTURES = value.wrapperContained; }
 
-// public yarnwrap.client.gui.screen.ButtonTextures FILTER_BUTTON_TEXTURES() { return new yarnwrap.client.gui.screen.ButtonTextures(wrapperContained.FILTER_BUTTON_TEXTURES); }
-// public void FILTER_BUTTON_TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value) { wrapperContained.FILTER_BUTTON_TEXTURES = value.wrapperContained; }
-// public static yarnwrap.client.gui.screen.ButtonTextures FILTER_BUTTON_TEXTURES() { return new yarnwrap.client.gui.screen.ButtonTextures(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.FILTER_BUTTON_TEXTURES); }
-// public static void FILTER_BUTTON_TEXTURES(yarnwrap.client.gui.screen.ButtonTextures value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.FILTER_BUTTON_TEXTURES = value.wrapperContained; }
+// public float displayTime() { return wrapperContained.displayTime; }
+// public void displayTime(float value) { wrapperContained.displayTime = value; }
+// public static float displayTime() { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.displayTime; }
+// public static void displayTime(float value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.displayTime = value; }
 
-// public yarnwrap.text.Text getToggleCraftableButtonText() { return new yarnwrap.text.Text(wrapperContained.getToggleCraftableButtonText()); }
-// public static yarnwrap.text.Text getToggleCraftableButtonText() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.getToggleCraftableButtonText()); }
+// public yarnwrap.client.gui.screen.recipebook.GhostRecipe ghostRecipe() { return new yarnwrap.client.gui.screen.recipebook.GhostRecipe(wrapperContained.ghostRecipe); }
+// public void ghostRecipe(yarnwrap.client.gui.screen.recipebook.GhostRecipe value) { wrapperContained.ghostRecipe = value.wrapperContained; }
+// public static yarnwrap.client.gui.screen.recipebook.GhostRecipe ghostRecipe() { return new yarnwrap.client.gui.screen.recipebook.GhostRecipe(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.ghostRecipe); }
+// public static void ghostRecipe(yarnwrap.client.gui.screen.recipebook.GhostRecipe value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.ghostRecipe = value.wrapperContained; }
+
+// public yarnwrap.recipe.NetworkRecipeId selectedRecipe() { return new yarnwrap.recipe.NetworkRecipeId(wrapperContained.selectedRecipe); }
+// public void selectedRecipe(yarnwrap.recipe.NetworkRecipeId value) { wrapperContained.selectedRecipe = value.wrapperContained; }
+// public static yarnwrap.recipe.NetworkRecipeId selectedRecipe() { return new yarnwrap.recipe.NetworkRecipeId(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.selectedRecipe); }
+// public static void selectedRecipe(yarnwrap.recipe.NetworkRecipeId value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.selectedRecipe = value.wrapperContained; }
+
+// public yarnwrap.client.gui.screen.recipebook.RecipeResultCollection selectedRecipeResults() { return new yarnwrap.client.gui.screen.recipebook.RecipeResultCollection(wrapperContained.selectedRecipeResults); }
+// public void selectedRecipeResults(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection value) { wrapperContained.selectedRecipeResults = value.wrapperContained; }
+// public static yarnwrap.client.gui.screen.recipebook.RecipeResultCollection selectedRecipeResults() { return new yarnwrap.client.gui.screen.recipebook.RecipeResultCollection(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.selectedRecipeResults); }
+// public static void selectedRecipeResults(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.selectedRecipeResults = value.wrapperContained; }
+
+// public yarnwrap.client.gui.ScreenRect searchFieldRect() { return new yarnwrap.client.gui.ScreenRect(wrapperContained.searchFieldRect); }
+// public void searchFieldRect(yarnwrap.client.gui.ScreenRect value) { wrapperContained.searchFieldRect = value.wrapperContained; }
+// public static yarnwrap.client.gui.ScreenRect searchFieldRect() { return new yarnwrap.client.gui.ScreenRect(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.searchFieldRect); }
+// public static void searchFieldRect(yarnwrap.client.gui.ScreenRect value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.searchFieldRect = value.wrapperContained; }
+
+// public yarnwrap.recipe.NetworkRecipeId selectedRecipeId() { return new yarnwrap.recipe.NetworkRecipeId(wrapperContained.selectedRecipeId); }
+// public void selectedRecipeId(yarnwrap.recipe.NetworkRecipeId value) { wrapperContained.selectedRecipeId = value.wrapperContained; }
+// public static yarnwrap.recipe.NetworkRecipeId selectedRecipeId() { return new yarnwrap.recipe.NetworkRecipeId(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.selectedRecipeId); }
+// public static void selectedRecipeId(yarnwrap.recipe.NetworkRecipeId value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.selectedRecipeId = value.wrapperContained; }
+
+// public java.util.List tabs() { return wrapperContained.tabs; }
+// public void tabs(java.util.List value) { wrapperContained.tabs = value; }
+// public static java.util.List tabs() { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.tabs; }
+// public static void tabs(java.util.List value, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.tabs = value; }
+
+// public RecipeBookWidget(yarnwrap.screen.AbstractRecipeScreenHandler craftingScreenHandler,java.util.List tabs) { this.wrapperContained = new net.minecraft.client.gui.screen.recipebook.RecipeBookWidget(craftingScreenHandler.wrapperContained,tabs); }
 // public void triggerPirateSpeakEasterEgg(java.lang.String search) { wrapperContained.triggerPirateSpeakEasterEgg(search); }
 // public static void triggerPirateSpeakEasterEgg(java.lang.String search, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.triggerPirateSpeakEasterEgg(search); }
-// public void method_2577(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection) { wrapperContained.method_2577(resultCollection.wrapperContained); }
-// public static void method_2577(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.method_2577(resultCollection.wrapperContained); }
-public void reset() { wrapperContained.reset(); }
+// public void reset() { wrapperContained.reset(); }
 // public static void reset() { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.reset(); }
-// public boolean method_2580(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection) { return wrapperContained.method_2580(resultCollection.wrapperContained); }
-// public static boolean method_2580(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection, ) { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.method_2580(resultCollection.wrapperContained); }
-public void drawGhostSlots(yarnwrap.client.gui.DrawContext context,int x,int y,boolean notInventory,float delta) { wrapperContained.drawGhostSlots(context.wrapperContained,x,y,notInventory,delta); }
-// public static void drawGhostSlots(yarnwrap.client.gui.DrawContext context,int x,int y,boolean notInventory,float delta, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.drawGhostSlots(context.wrapperContained,x,y,notInventory,delta); }
+public void drawGhostSlots(yarnwrap.client.gui.DrawContext context,boolean resultHasPadding) { wrapperContained.drawGhostSlots(context.wrapperContained,resultHasPadding); }
+// public static void drawGhostSlots(yarnwrap.client.gui.DrawContext context,boolean resultHasPadding, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.drawGhostSlots(context.wrapperContained,resultHasPadding); }
 // public boolean method_2582(yarnwrap.client.gui.screen.recipebook.RecipeGroupButtonWidget button) { return wrapperContained.method_2582(button.wrapperContained); }
 // public static boolean method_2582(yarnwrap.client.gui.screen.recipebook.RecipeGroupButtonWidget button, ) { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.method_2582(button.wrapperContained); }
-// public boolean method_2583(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection) { return wrapperContained.method_2583(resultCollection.wrapperContained); }
-// public static boolean method_2583(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection, ) { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.method_2583(resultCollection.wrapperContained); }
 // public boolean method_2584(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection) { return wrapperContained.method_2584(resultCollection.wrapperContained); }
 // public static boolean method_2584(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection, ) { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.method_2584(resultCollection.wrapperContained); }
 // public void setBookButtonTexture() { wrapperContained.setBookButtonTexture(); }
@@ -159,26 +172,22 @@ public void refresh() { wrapperContained.refresh(); }
 // public static void setOpen(boolean opened, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.setOpen(opened); }
 public int findLeftEdge(int width,int backgroundWidth) { return wrapperContained.findLeftEdge(width,backgroundWidth); }
 // public static int findLeftEdge(int width,int backgroundWidth, ) { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.findLeftEdge(width,backgroundWidth); }
-public void showGhostRecipe(yarnwrap.recipe.RecipeEntry recipe,java.util.List slots) { wrapperContained.showGhostRecipe(recipe.wrapperContained,slots); }
-// public static void showGhostRecipe(yarnwrap.recipe.RecipeEntry recipe,java.util.List slots, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.showGhostRecipe(recipe.wrapperContained,slots); }
-public void initialize(int parentWidth,int parentHeight,yarnwrap.client.MinecraftClient client,boolean narrow,yarnwrap.screen.AbstractRecipeScreenHandler craftingScreenHandler) { wrapperContained.initialize(parentWidth,parentHeight,client.wrapperContained,narrow,craftingScreenHandler.wrapperContained); }
-// public static void initialize(int parentWidth,int parentHeight,yarnwrap.client.MinecraftClient client,boolean narrow,yarnwrap.screen.AbstractRecipeScreenHandler craftingScreenHandler, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.initialize(parentWidth,parentHeight,client.wrapperContained,narrow,craftingScreenHandler.wrapperContained); }
+public void initialize(int parentWidth,int parentHeight,yarnwrap.client.MinecraftClient client,boolean narrow) { wrapperContained.initialize(parentWidth,parentHeight,client.wrapperContained,narrow); }
+// public static void initialize(int parentWidth,int parentHeight,yarnwrap.client.MinecraftClient client,boolean narrow, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.initialize(parentWidth,parentHeight,client.wrapperContained,narrow); }
 public boolean isClickOutsideBounds(double mouseX,double mouseY,int x,int y,int backgroundWidth,int backgroundHeight,int button) { return wrapperContained.isClickOutsideBounds(mouseX,mouseY,x,y,backgroundWidth,backgroundHeight,button); }
 // public static boolean isClickOutsideBounds(double mouseX,double mouseY,int x,int y,int backgroundWidth,int backgroundHeight,int button, ) { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.isClickOutsideBounds(mouseX,mouseY,x,y,backgroundWidth,backgroundHeight,button); }
-public void slotClicked(yarnwrap.screen.slot.Slot slot) { wrapperContained.slotClicked(slot.wrapperContained); }
-// public static void slotClicked(yarnwrap.screen.slot.Slot slot, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.slotClicked(slot.wrapperContained); }
-public void drawTooltip(yarnwrap.client.gui.DrawContext context,int x,int y,int mouseX,int mouseY) { wrapperContained.drawTooltip(context.wrapperContained,x,y,mouseX,mouseY); }
-// public static void drawTooltip(yarnwrap.client.gui.DrawContext context,int x,int y,int mouseX,int mouseY, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.drawTooltip(context.wrapperContained,x,y,mouseX,mouseY); }
-// public void drawGhostSlotTooltip(yarnwrap.client.gui.DrawContext context,int x,int y,int mouseX,int mouseY) { wrapperContained.drawGhostSlotTooltip(context.wrapperContained,x,y,mouseX,mouseY); }
-// public static void drawGhostSlotTooltip(yarnwrap.client.gui.DrawContext context,int x,int y,int mouseX,int mouseY, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.drawGhostSlotTooltip(context.wrapperContained,x,y,mouseX,mouseY); }
-// public void refreshResults(boolean resetCurrentPage) { wrapperContained.refreshResults(resetCurrentPage); }
-// public static void refreshResults(boolean resetCurrentPage, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.refreshResults(resetCurrentPage); }
+public void drawTooltip(yarnwrap.client.gui.DrawContext context,int x,int y,yarnwrap.screen.slot.Slot slot) { wrapperContained.drawTooltip(context.wrapperContained,x,y,slot.wrapperContained); }
+// public static void drawTooltip(yarnwrap.client.gui.DrawContext context,int x,int y,yarnwrap.screen.slot.Slot slot, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.drawTooltip(context.wrapperContained,x,y,slot.wrapperContained); }
+// public void refreshResults(boolean resetCurrentPage,boolean filteringCraftable) { wrapperContained.refreshResults(resetCurrentPage,filteringCraftable); }
+// public static void refreshResults(boolean resetCurrentPage,boolean filteringCraftable, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.refreshResults(resetCurrentPage,filteringCraftable); }
 // public boolean isWide() { return wrapperContained.isWide(); }
 // public static boolean isWide() { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.isWide(); }
 public boolean isOpen() { return wrapperContained.isOpen(); }
 // public static boolean isOpen() { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.isOpen(); }
-// public void refreshTabButtons() { wrapperContained.refreshTabButtons(); }
-// public static void refreshTabButtons() { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.refreshTabButtons(); }
+// public void refreshTabButtons(boolean filteringCraftable) { wrapperContained.refreshTabButtons(filteringCraftable); }
+// public static void refreshTabButtons(boolean filteringCraftable, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.refreshTabButtons(filteringCraftable); }
+// public yarnwrap.text.Text getToggleCraftableButtonText() { return new yarnwrap.text.Text(wrapperContained.getToggleCraftableButtonText()); }
+// public static yarnwrap.text.Text getToggleCraftableButtonText() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.getToggleCraftableButtonText()); }
 // public boolean isGuiOpen() { return wrapperContained.isGuiOpen(); }
 // public static boolean isGuiOpen() { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.isGuiOpen(); }
 // public void method_37308(java.util.List button) { wrapperContained.method_37308(button); }
@@ -187,5 +196,29 @@ public boolean isOpen() { return wrapperContained.isOpen(); }
 // public static void updateTooltip() { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.updateTooltip(); }
 // public boolean method_53871(it.unimi.dsi.fastutil.objects.ObjectSet resultCollection) { return wrapperContained.method_53871(resultCollection); }
 // public static boolean method_53871(it.unimi.dsi.fastutil.objects.ObjectSet resultCollection, ) { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.method_53871(resultCollection); }
+// public boolean isValid(yarnwrap.screen.slot.Slot slot) { return wrapperContained.isValid(slot.wrapperContained); }
+// public static boolean isValid(yarnwrap.screen.slot.Slot slot, ) { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.isValid(slot.wrapperContained); }
+// public void populateRecipes(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection recipeResultCollection,yarnwrap.recipe.RecipeFinder recipeFinder) { wrapperContained.populateRecipes(recipeResultCollection.wrapperContained,recipeFinder.wrapperContained); }
+// public static void populateRecipes(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection recipeResultCollection,yarnwrap.recipe.RecipeFinder recipeFinder, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.populateRecipes(recipeResultCollection.wrapperContained,recipeFinder.wrapperContained); }
+public void onMouseClick(yarnwrap.screen.slot.Slot slot) { wrapperContained.onMouseClick(slot.wrapperContained); }
+// public static void onMouseClick(yarnwrap.screen.slot.Slot slot, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.onMouseClick(slot.wrapperContained); }
+// public boolean isFilteringCraftable() { return wrapperContained.isFilteringCraftable(); }
+// public static boolean isFilteringCraftable() { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.isFilteringCraftable(); }
+// public boolean select(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection results,yarnwrap.recipe.NetworkRecipeId recipeId) { return wrapperContained.select(results.wrapperContained,recipeId.wrapperContained); }
+// public static boolean select(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection results,yarnwrap.recipe.NetworkRecipeId recipeId, ) { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.select(results.wrapperContained,recipeId.wrapperContained); }
+// public int getTop() { return wrapperContained.getTop(); }
+// public static int getTop() { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.getTop(); }
+// public int getLeft() { return wrapperContained.getLeft(); }
+// public static int getLeft() { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.getLeft(); }
+// public void showGhostRecipe(yarnwrap.client.gui.screen.recipebook.GhostRecipe ghostRecipe,yarnwrap.recipe.display.RecipeDisplay display,yarnwrap.util.context.ContextParameterMap context) { wrapperContained.showGhostRecipe(ghostRecipe.wrapperContained,display.wrapperContained,context.wrapperContained); }
+// public static void showGhostRecipe(yarnwrap.client.gui.screen.recipebook.GhostRecipe ghostRecipe,yarnwrap.recipe.display.RecipeDisplay display,yarnwrap.util.context.ContextParameterMap context, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.showGhostRecipe(ghostRecipe.wrapperContained,display.wrapperContained,context.wrapperContained); }
+public void onCraftFailed(yarnwrap.recipe.display.RecipeDisplay display) { wrapperContained.onCraftFailed(display.wrapperContained); }
+// public static void onCraftFailed(yarnwrap.recipe.display.RecipeDisplay display, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.onCraftFailed(display.wrapperContained); }
+public void onRecipeDisplayed(yarnwrap.recipe.NetworkRecipeId recipeId) { wrapperContained.onRecipeDisplayed(recipeId.wrapperContained); }
+// public static void onRecipeDisplayed(yarnwrap.recipe.NetworkRecipeId recipeId, ) { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.onRecipeDisplayed(recipeId.wrapperContained); }
+// public boolean method_64877(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection) { return wrapperContained.method_64877(resultCollection.wrapperContained); }
+// public static boolean method_64877(yarnwrap.client.gui.screen.recipebook.RecipeResultCollection resultCollection, ) { return net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.method_64877(resultCollection.wrapperContained); }
+// public void populateAllRecipes() { wrapperContained.populateAllRecipes(); }
+// public static void populateAllRecipes() { net.minecraft.client.gui.screen.recipebook.RecipeBookWidget.populateAllRecipes(); }
 
 }

@@ -1,11 +1,6 @@
 package yarnwrap.entity.mob;
 public class PhantomEntity { public net.minecraft.entity.mob.PhantomEntity wrapperContained; public PhantomEntity(net.minecraft.entity.mob.PhantomEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int WING_FLAP_TICKS() { return wrapperContained.WING_FLAP_TICKS; }
-// public void WING_FLAP_TICKS(int value) { wrapperContained.WING_FLAP_TICKS = value; }
-public static int WING_FLAP_TICKS() { return net.minecraft.entity.mob.PhantomEntity.WING_FLAP_TICKS; }
-// public static void WING_FLAP_TICKS(int value, ) { net.minecraft.entity.mob.PhantomEntity.WING_FLAP_TICKS = value; }
-
 // public yarnwrap.util.math.BlockPos circlingCenter() { return new yarnwrap.util.math.BlockPos(wrapperContained.circlingCenter); }
 // public void circlingCenter(yarnwrap.util.math.BlockPos value) { wrapperContained.circlingCenter = value.wrapperContained; }
 // public static yarnwrap.util.math.BlockPos circlingCenter() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.mob.PhantomEntity.circlingCenter); }
@@ -26,13 +21,20 @@ public static int WING_FLAP_TICKS() { return net.minecraft.entity.mob.PhantomEnt
 // // public static Object movementType() { return net.minecraft.entity.mob.PhantomEntity.movementType; }
 // // public static void movementType(Object value, ) { net.minecraft.entity.mob.PhantomEntity.movementType = value; }
 
-public int getWingFlapTickOffset() { return wrapperContained.getWingFlapTickOffset(); }
-// public static int getWingFlapTickOffset() { return net.minecraft.entity.mob.PhantomEntity.getWingFlapTickOffset(); }
+// public int WING_FLAP_TICKS() { return wrapperContained.WING_FLAP_TICKS; }
+// public void WING_FLAP_TICKS(int value) { wrapperContained.WING_FLAP_TICKS = value; }
+public static int WING_FLAP_TICKS() { return net.minecraft.entity.mob.PhantomEntity.WING_FLAP_TICKS; }
+// public static void WING_FLAP_TICKS(int value, ) { net.minecraft.entity.mob.PhantomEntity.WING_FLAP_TICKS = value; }
+
 public int getPhantomSize() { return wrapperContained.getPhantomSize(); }
 // public static int getPhantomSize() { return net.minecraft.entity.mob.PhantomEntity.getPhantomSize(); }
 public void setPhantomSize(int size) { wrapperContained.setPhantomSize(size); }
 // public static void setPhantomSize(int size, ) { net.minecraft.entity.mob.PhantomEntity.setPhantomSize(size); }
 // public void onSizeChanged() { wrapperContained.onSizeChanged(); }
 // public static void onSizeChanged() { net.minecraft.entity.mob.PhantomEntity.onSizeChanged(); }
+public int getWingFlapTickOffset() { return wrapperContained.getWingFlapTickOffset(); }
+// public static int getWingFlapTickOffset() { return net.minecraft.entity.mob.PhantomEntity.getWingFlapTickOffset(); }
+// public boolean testTargetPredicate(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity target,yarnwrap.entity.ai.TargetPredicate predicate) { return wrapperContained.testTargetPredicate(world.wrapperContained,target.wrapperContained,predicate.wrapperContained); }
+// public static boolean testTargetPredicate(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.LivingEntity target,yarnwrap.entity.ai.TargetPredicate predicate, ) { return net.minecraft.entity.mob.PhantomEntity.testTargetPredicate(world.wrapperContained,target.wrapperContained,predicate.wrapperContained); }
 
 }

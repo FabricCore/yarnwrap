@@ -18,8 +18,8 @@ public static Object createWrapperLookup() { return net.minecraft.registry.Built
 // public static void method_46821(yarnwrap.registry.RegistryEntryLookup placedFeature, ) { net.minecraft.registry.BuiltinRegistries.method_46821(placedFeature.wrapperContained); }
 // public void method_46822(yarnwrap.registry.RegistryEntryLookup biome) { wrapperContained.method_46822(biome.wrapperContained); }
 // public static void method_46822(yarnwrap.registry.RegistryEntryLookup biome, ) { net.minecraft.registry.BuiltinRegistries.method_46822(biome.wrapperContained); }
-// public void validate(Object wrapperLookup) { wrapperContained.validate(wrapperLookup); }
-// public static void validate(Object wrapperLookup, ) { net.minecraft.registry.BuiltinRegistries.validate(wrapperLookup); }
+// public void validate(Object registries) { wrapperContained.validate(registries); }
+// public static void validate(Object registries, ) { net.minecraft.registry.BuiltinRegistries.validate(registries); }
 // public void validate(yarnwrap.registry.RegistryEntryLookup placedFeatureLookup,yarnwrap.registry.RegistryWrapper biomeLookup) { wrapperContained.validate(placedFeatureLookup.wrapperContained,biomeLookup.wrapperContained); }
 // public static void validate(yarnwrap.registry.RegistryEntryLookup placedFeatureLookup,yarnwrap.registry.RegistryWrapper biomeLookup, ) { net.minecraft.registry.BuiltinRegistries.validate(placedFeatureLookup.wrapperContained,biomeLookup.wrapperContained); }
 

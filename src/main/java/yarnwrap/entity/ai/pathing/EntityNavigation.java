@@ -1,31 +1,6 @@
 package yarnwrap.entity.ai.pathing;
 public class EntityNavigation { public net.minecraft.entity.ai.pathing.EntityNavigation wrapperContained; public EntityNavigation(net.minecraft.entity.ai.pathing.EntityNavigation wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.util.math.BlockPos currentTarget() { return new yarnwrap.util.math.BlockPos(wrapperContained.currentTarget); }
-// public void currentTarget(yarnwrap.util.math.BlockPos value) { wrapperContained.currentTarget = value.wrapperContained; }
-// public static yarnwrap.util.math.BlockPos currentTarget() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.ai.pathing.EntityNavigation.currentTarget); }
-// public static void currentTarget(yarnwrap.util.math.BlockPos value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.currentTarget = value.wrapperContained; }
-
-// public int currentDistance() { return wrapperContained.currentDistance; }
-// public void currentDistance(int value) { wrapperContained.currentDistance = value; }
-// public static int currentDistance() { return net.minecraft.entity.ai.pathing.EntityNavigation.currentDistance; }
-// public static void currentDistance(int value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.currentDistance = value; }
-
-// public float rangeMultiplier() { return wrapperContained.rangeMultiplier; }
-// public void rangeMultiplier(float value) { wrapperContained.rangeMultiplier = value; }
-// public static float rangeMultiplier() { return net.minecraft.entity.ai.pathing.EntityNavigation.rangeMultiplier; }
-// public static void rangeMultiplier(float value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.rangeMultiplier = value; }
-
-// public boolean nearPathStartPos() { return wrapperContained.nearPathStartPos; }
-// public void nearPathStartPos(boolean value) { wrapperContained.nearPathStartPos = value; }
-// public static boolean nearPathStartPos() { return net.minecraft.entity.ai.pathing.EntityNavigation.nearPathStartPos; }
-// public static void nearPathStartPos(boolean value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.nearPathStartPos = value; }
-
-// public int RECALCULATE_COOLDOWN() { return wrapperContained.RECALCULATE_COOLDOWN; }
-// public void RECALCULATE_COOLDOWN(int value) { wrapperContained.RECALCULATE_COOLDOWN = value; }
-// public static int RECALCULATE_COOLDOWN() { return net.minecraft.entity.ai.pathing.EntityNavigation.RECALCULATE_COOLDOWN; }
-// public static void RECALCULATE_COOLDOWN(int value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.RECALCULATE_COOLDOWN = value; }
-
 // public double speed() { return wrapperContained.speed; }
 // public void speed(double value) { wrapperContained.speed = value; }
 // public static double speed() { return net.minecraft.entity.ai.pathing.EntityNavigation.speed; }
@@ -106,43 +81,37 @@ public class EntityNavigation { public net.minecraft.entity.ai.pathing.EntityNav
 // public static long lastRecalculateTime() { return net.minecraft.entity.ai.pathing.EntityNavigation.lastRecalculateTime; }
 // public static void lastRecalculateTime(long value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.lastRecalculateTime = value; }
 
+// public yarnwrap.util.math.BlockPos currentTarget() { return new yarnwrap.util.math.BlockPos(wrapperContained.currentTarget); }
+// public void currentTarget(yarnwrap.util.math.BlockPos value) { wrapperContained.currentTarget = value.wrapperContained; }
+// public static yarnwrap.util.math.BlockPos currentTarget() { return new yarnwrap.util.math.BlockPos(net.minecraft.entity.ai.pathing.EntityNavigation.currentTarget); }
+// public static void currentTarget(yarnwrap.util.math.BlockPos value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.currentTarget = value.wrapperContained; }
+
+// public int currentDistance() { return wrapperContained.currentDistance; }
+// public void currentDistance(int value) { wrapperContained.currentDistance = value; }
+// public static int currentDistance() { return net.minecraft.entity.ai.pathing.EntityNavigation.currentDistance; }
+// public static void currentDistance(int value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.currentDistance = value; }
+
+// public float rangeMultiplier() { return wrapperContained.rangeMultiplier; }
+// public void rangeMultiplier(float value) { wrapperContained.rangeMultiplier = value; }
+// public static float rangeMultiplier() { return net.minecraft.entity.ai.pathing.EntityNavigation.rangeMultiplier; }
+// public static void rangeMultiplier(float value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.rangeMultiplier = value; }
+
+// public boolean nearPathStartPos() { return wrapperContained.nearPathStartPos; }
+// public void nearPathStartPos(boolean value) { wrapperContained.nearPathStartPos = value; }
+// public static boolean nearPathStartPos() { return net.minecraft.entity.ai.pathing.EntityNavigation.nearPathStartPos; }
+// public static void nearPathStartPos(boolean value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.nearPathStartPos = value; }
+
+// public int RECALCULATE_COOLDOWN() { return wrapperContained.RECALCULATE_COOLDOWN; }
+// public void RECALCULATE_COOLDOWN(int value) { wrapperContained.RECALCULATE_COOLDOWN = value; }
+// public static int RECALCULATE_COOLDOWN() { return net.minecraft.entity.ai.pathing.EntityNavigation.RECALCULATE_COOLDOWN; }
+// public static void RECALCULATE_COOLDOWN(int value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.RECALCULATE_COOLDOWN = value; }
+
+// public float maxFollowRange() { return wrapperContained.maxFollowRange; }
+// public void maxFollowRange(float value) { wrapperContained.maxFollowRange = value; }
+// public static float maxFollowRange() { return net.minecraft.entity.ai.pathing.EntityNavigation.maxFollowRange; }
+// public static void maxFollowRange(float value, ) { net.minecraft.entity.ai.pathing.EntityNavigation.maxFollowRange = value; }
+
 // public EntityNavigation(yarnwrap.entity.mob.MobEntity entity,yarnwrap.world.World world) { this.wrapperContained = new net.minecraft.entity.ai.pathing.EntityNavigation(entity.wrapperContained,world.wrapperContained); }
-public boolean shouldRecalculatePath(yarnwrap.util.math.BlockPos pos) { return wrapperContained.shouldRecalculatePath(pos.wrapperContained); }
-// public static boolean shouldRecalculatePath(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.shouldRecalculatePath(pos.wrapperContained); }
-// public yarnwrap.entity.ai.pathing.Path findPathToAny(java.util.Set positions,int range,boolean useHeadPos,int distance,float followRange) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathToAny(positions,range,useHeadPos,distance,followRange)); }
-// public static yarnwrap.entity.ai.pathing.Path findPathToAny(java.util.Set positions,int range,boolean useHeadPos,int distance,float followRange, ) { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.pathing.EntityNavigation.findPathToAny(positions,range,useHeadPos,distance,followRange)); }
-public yarnwrap.entity.ai.pathing.Path findPathToAny(java.util.stream.Stream positions,int distance) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathToAny(positions,distance)); }
-// public static yarnwrap.entity.ai.pathing.Path findPathToAny(java.util.stream.Stream positions,int distance, ) { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.pathing.EntityNavigation.findPathToAny(positions,distance)); }
-public void setRangeMultiplier(float rangeMultiplier) { wrapperContained.setRangeMultiplier(rangeMultiplier); }
-// public static void setRangeMultiplier(float rangeMultiplier, ) { net.minecraft.entity.ai.pathing.EntityNavigation.setRangeMultiplier(rangeMultiplier); }
-public void resetRangeMultiplier() { wrapperContained.resetRangeMultiplier(); }
-// public static void resetRangeMultiplier() { net.minecraft.entity.ai.pathing.EntityNavigation.resetRangeMultiplier(); }
-public boolean isFollowingPath() { return wrapperContained.isFollowingPath(); }
-// public static boolean isFollowingPath() { return net.minecraft.entity.ai.pathing.EntityNavigation.isFollowingPath(); }
-// public void resetNode() { wrapperContained.resetNode(); }
-// public static void resetNode() { net.minecraft.entity.ai.pathing.EntityNavigation.resetNode(); }
-// public boolean shouldJumpToNextNode(yarnwrap.util.math.Vec3d currentPos) { return wrapperContained.shouldJumpToNextNode(currentPos.wrapperContained); }
-// public static boolean shouldJumpToNextNode(yarnwrap.util.math.Vec3d currentPos, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.shouldJumpToNextNode(currentPos.wrapperContained); }
-public yarnwrap.entity.ai.pathing.Path findPathTo(java.util.Set positions,int distance) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathTo(positions,distance)); }
-// public static yarnwrap.entity.ai.pathing.Path findPathTo(java.util.Set positions,int distance, ) { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.pathing.EntityNavigation.findPathTo(positions,distance)); }
-// public void resetNodeAndStop() { wrapperContained.resetNodeAndStop(); }
-// public static void resetNodeAndStop() { net.minecraft.entity.ai.pathing.EntityNavigation.resetNodeAndStop(); }
-public boolean isNearPathStartPos() { return wrapperContained.isNearPathStartPos(); }
-// public static boolean isNearPathStartPos() { return net.minecraft.entity.ai.pathing.EntityNavigation.isNearPathStartPos(); }
-public yarnwrap.entity.ai.pathing.Path findPathTo(yarnwrap.util.math.BlockPos target,int minDistance,int maxDistance) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathTo(target.wrapperContained,minDistance,maxDistance)); }
-// public static yarnwrap.entity.ai.pathing.Path findPathTo(yarnwrap.util.math.BlockPos target,int minDistance,int maxDistance, ) { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.pathing.EntityNavigation.findPathTo(target.wrapperContained,minDistance,maxDistance)); }
-// public yarnwrap.entity.ai.pathing.Path findPathTo(java.util.Set positions,int range,boolean useHeadPos,int distance) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathTo(positions,range,useHeadPos,distance)); }
-// public static yarnwrap.entity.ai.pathing.Path findPathTo(java.util.Set positions,int range,boolean useHeadPos,int distance, ) { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.pathing.EntityNavigation.findPathTo(positions,range,useHeadPos,distance)); }
-public float getNodeReachProximity() { return wrapperContained.getNodeReachProximity(); }
-// public static float getNodeReachProximity() { return net.minecraft.entity.ai.pathing.EntityNavigation.getNodeReachProximity(); }
-// public double adjustTargetY(yarnwrap.util.math.Vec3d pos) { return wrapperContained.adjustTargetY(pos.wrapperContained); }
-// public static double adjustTargetY(yarnwrap.util.math.Vec3d pos, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.adjustTargetY(pos.wrapperContained); }
-// public boolean doesNotCollide(yarnwrap.entity.mob.MobEntity entity,yarnwrap.util.math.Vec3d startPos,yarnwrap.util.math.Vec3d entityPos,boolean includeFluids) { return wrapperContained.doesNotCollide(entity.wrapperContained,startPos.wrapperContained,entityPos.wrapperContained,includeFluids); }
-// public static boolean doesNotCollide(yarnwrap.entity.mob.MobEntity entity,yarnwrap.util.math.Vec3d startPos,yarnwrap.util.math.Vec3d entityPos,boolean includeFluids, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.doesNotCollide(entity.wrapperContained,startPos.wrapperContained,entityPos.wrapperContained,includeFluids); }
-public boolean canJumpToNext(yarnwrap.entity.ai.pathing.PathNodeType nodeType) { return wrapperContained.canJumpToNext(nodeType.wrapperContained); }
-// public static boolean canJumpToNext(yarnwrap.entity.ai.pathing.PathNodeType nodeType, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.canJumpToNext(nodeType.wrapperContained); }
-public boolean startMovingTo(double x,double y,double z,int distance,double speed) { return wrapperContained.startMovingTo(x,y,z,distance,speed); }
-// public static boolean startMovingTo(double x,double y,double z,int distance,double speed, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.startMovingTo(x,y,z,distance,speed); }
 public boolean isValidPosition(yarnwrap.util.math.BlockPos pos) { return wrapperContained.isValidPosition(pos.wrapperContained); }
 // public static boolean isValidPosition(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.isValidPosition(pos.wrapperContained); }
 public boolean startMovingAlong(yarnwrap.entity.ai.pathing.Path path,double speed) { return wrapperContained.startMovingAlong(path.wrapperContained,speed); }
@@ -191,5 +160,51 @@ public boolean isIdle() { return wrapperContained.isIdle(); }
 // public static void adjustPath() { net.minecraft.entity.ai.pathing.EntityNavigation.adjustPath(); }
 public void tick() { wrapperContained.tick(); }
 // public static void tick() { net.minecraft.entity.ai.pathing.EntityNavigation.tick(); }
+public boolean shouldRecalculatePath(yarnwrap.util.math.BlockPos pos) { return wrapperContained.shouldRecalculatePath(pos.wrapperContained); }
+// public static boolean shouldRecalculatePath(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.shouldRecalculatePath(pos.wrapperContained); }
+// public yarnwrap.entity.ai.pathing.Path findPathToAny(java.util.Set positions,int range,boolean useHeadPos,int distance,float followRange) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathToAny(positions,range,useHeadPos,distance,followRange)); }
+// public static yarnwrap.entity.ai.pathing.Path findPathToAny(java.util.Set positions,int range,boolean useHeadPos,int distance,float followRange, ) { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.pathing.EntityNavigation.findPathToAny(positions,range,useHeadPos,distance,followRange)); }
+public yarnwrap.entity.ai.pathing.Path findPathToAny(java.util.stream.Stream positions,int distance) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathToAny(positions,distance)); }
+// public static yarnwrap.entity.ai.pathing.Path findPathToAny(java.util.stream.Stream positions,int distance, ) { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.pathing.EntityNavigation.findPathToAny(positions,distance)); }
+public void setRangeMultiplier(float rangeMultiplier) { wrapperContained.setRangeMultiplier(rangeMultiplier); }
+// public static void setRangeMultiplier(float rangeMultiplier, ) { net.minecraft.entity.ai.pathing.EntityNavigation.setRangeMultiplier(rangeMultiplier); }
+public void resetRangeMultiplier() { wrapperContained.resetRangeMultiplier(); }
+// public static void resetRangeMultiplier() { net.minecraft.entity.ai.pathing.EntityNavigation.resetRangeMultiplier(); }
+public boolean isFollowingPath() { return wrapperContained.isFollowingPath(); }
+// public static boolean isFollowingPath() { return net.minecraft.entity.ai.pathing.EntityNavigation.isFollowingPath(); }
+// public void resetNode() { wrapperContained.resetNode(); }
+// public static void resetNode() { net.minecraft.entity.ai.pathing.EntityNavigation.resetNode(); }
+// public boolean shouldJumpToNextNode(yarnwrap.util.math.Vec3d currentPos) { return wrapperContained.shouldJumpToNextNode(currentPos.wrapperContained); }
+// public static boolean shouldJumpToNextNode(yarnwrap.util.math.Vec3d currentPos, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.shouldJumpToNextNode(currentPos.wrapperContained); }
+public yarnwrap.entity.ai.pathing.Path findPathTo(java.util.Set positions,int distance) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathTo(positions,distance)); }
+// public static yarnwrap.entity.ai.pathing.Path findPathTo(java.util.Set positions,int distance, ) { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.pathing.EntityNavigation.findPathTo(positions,distance)); }
+// public void resetNodeAndStop() { wrapperContained.resetNodeAndStop(); }
+// public static void resetNodeAndStop() { net.minecraft.entity.ai.pathing.EntityNavigation.resetNodeAndStop(); }
+public boolean isNearPathStartPos() { return wrapperContained.isNearPathStartPos(); }
+// public static boolean isNearPathStartPos() { return net.minecraft.entity.ai.pathing.EntityNavigation.isNearPathStartPos(); }
+public yarnwrap.entity.ai.pathing.Path findPathTo(yarnwrap.util.math.BlockPos target,int minDistance,int maxDistance) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathTo(target.wrapperContained,minDistance,maxDistance)); }
+// public static yarnwrap.entity.ai.pathing.Path findPathTo(yarnwrap.util.math.BlockPos target,int minDistance,int maxDistance, ) { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.pathing.EntityNavigation.findPathTo(target.wrapperContained,minDistance,maxDistance)); }
+// public yarnwrap.entity.ai.pathing.Path findPathTo(java.util.Set positions,int range,boolean useHeadPos,int distance) { return new yarnwrap.entity.ai.pathing.Path(wrapperContained.findPathTo(positions,range,useHeadPos,distance)); }
+// public static yarnwrap.entity.ai.pathing.Path findPathTo(java.util.Set positions,int range,boolean useHeadPos,int distance, ) { return new yarnwrap.entity.ai.pathing.Path(net.minecraft.entity.ai.pathing.EntityNavigation.findPathTo(positions,range,useHeadPos,distance)); }
+public float getNodeReachProximity() { return wrapperContained.getNodeReachProximity(); }
+// public static float getNodeReachProximity() { return net.minecraft.entity.ai.pathing.EntityNavigation.getNodeReachProximity(); }
+// public double adjustTargetY(yarnwrap.util.math.Vec3d pos) { return wrapperContained.adjustTargetY(pos.wrapperContained); }
+// public static double adjustTargetY(yarnwrap.util.math.Vec3d pos, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.adjustTargetY(pos.wrapperContained); }
+// public boolean doesNotCollide(yarnwrap.entity.mob.MobEntity entity,yarnwrap.util.math.Vec3d startPos,yarnwrap.util.math.Vec3d entityPos,boolean includeFluids) { return wrapperContained.doesNotCollide(entity.wrapperContained,startPos.wrapperContained,entityPos.wrapperContained,includeFluids); }
+// public static boolean doesNotCollide(yarnwrap.entity.mob.MobEntity entity,yarnwrap.util.math.Vec3d startPos,yarnwrap.util.math.Vec3d entityPos,boolean includeFluids, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.doesNotCollide(entity.wrapperContained,startPos.wrapperContained,entityPos.wrapperContained,includeFluids); }
+public boolean canJumpToNext(yarnwrap.entity.ai.pathing.PathNodeType nodeType) { return wrapperContained.canJumpToNext(nodeType.wrapperContained); }
+// public static boolean canJumpToNext(yarnwrap.entity.ai.pathing.PathNodeType nodeType, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.canJumpToNext(nodeType.wrapperContained); }
+public boolean startMovingTo(double x,double y,double z,int distance,double speed) { return wrapperContained.startMovingTo(x,y,z,distance,speed); }
+// public static boolean startMovingTo(double x,double y,double z,int distance,double speed, ) { return net.minecraft.entity.ai.pathing.EntityNavigation.startMovingTo(x,y,z,distance,speed); }
+public void setMaxFollowRange(float maxFollowRange) { wrapperContained.setMaxFollowRange(maxFollowRange); }
+// public static void setMaxFollowRange(float maxFollowRange, ) { net.minecraft.entity.ai.pathing.EntityNavigation.setMaxFollowRange(maxFollowRange); }
+// public float getMaxFollowRange() { return wrapperContained.getMaxFollowRange(); }
+// public static float getMaxFollowRange() { return net.minecraft.entity.ai.pathing.EntityNavigation.getMaxFollowRange(); }
+public void updateRange() { wrapperContained.updateRange(); }
+// public static void updateRange() { net.minecraft.entity.ai.pathing.EntityNavigation.updateRange(); }
+// public boolean canControlOpeningDoors() { return wrapperContained.canControlOpeningDoors(); }
+// public static boolean canControlOpeningDoors() { return net.minecraft.entity.ai.pathing.EntityNavigation.canControlOpeningDoors(); }
+// public void setCanOpenDoors(boolean canOpenDoors) { wrapperContained.setCanOpenDoors(canOpenDoors); }
+// public static void setCanOpenDoors(boolean canOpenDoors, ) { net.minecraft.entity.ai.pathing.EntityNavigation.setCanOpenDoors(canOpenDoors); }
 
 }

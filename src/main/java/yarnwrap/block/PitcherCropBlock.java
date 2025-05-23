@@ -6,16 +6,6 @@ public class PitcherCropBlock { public net.minecraft.block.PitcherCropBlock wrap
 public static yarnwrap.state.property.IntProperty AGE() { return new yarnwrap.state.property.IntProperty(net.minecraft.block.PitcherCropBlock.AGE); }
 // public static void AGE(yarnwrap.state.property.IntProperty value, ) { net.minecraft.block.PitcherCropBlock.AGE = value.wrapperContained; }
 
-// public yarnwrap.util.shape.VoxelShape GROWN_UPPER_OUTLINE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.GROWN_UPPER_OUTLINE_SHAPE); }
-// public void GROWN_UPPER_OUTLINE_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.GROWN_UPPER_OUTLINE_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape GROWN_UPPER_OUTLINE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.PitcherCropBlock.GROWN_UPPER_OUTLINE_SHAPE); }
-// public static void GROWN_UPPER_OUTLINE_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.PitcherCropBlock.GROWN_UPPER_OUTLINE_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.util.shape.VoxelShape GROWN_LOWER_OUTLINE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.GROWN_LOWER_OUTLINE_SHAPE); }
-// public void GROWN_LOWER_OUTLINE_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.GROWN_LOWER_OUTLINE_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape GROWN_LOWER_OUTLINE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.PitcherCropBlock.GROWN_LOWER_OUTLINE_SHAPE); }
-// public static void GROWN_LOWER_OUTLINE_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.PitcherCropBlock.GROWN_LOWER_OUTLINE_SHAPE = value.wrapperContained; }
-
 // public yarnwrap.util.shape.VoxelShape AGE_0_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.AGE_0_SHAPE); }
 // public void AGE_0_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.AGE_0_SHAPE = value.wrapperContained; }
 // public static yarnwrap.util.shape.VoxelShape AGE_0_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.PitcherCropBlock.AGE_0_SHAPE); }
@@ -26,20 +16,20 @@ public static yarnwrap.state.property.IntProperty AGE() { return new yarnwrap.st
 // public static yarnwrap.util.shape.VoxelShape LOWER_COLLISION_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.PitcherCropBlock.LOWER_COLLISION_SHAPE); }
 // public static void LOWER_COLLISION_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.PitcherCropBlock.LOWER_COLLISION_SHAPE = value.wrapperContained; }
 
-// public net.minecraft.util.shape.VoxelShape[] UPPER_OUTLINE_SHAPES() { return wrapperContained.UPPER_OUTLINE_SHAPES; }
-// public void UPPER_OUTLINE_SHAPES(net.minecraft.util.shape.VoxelShape[] value) { wrapperContained.UPPER_OUTLINE_SHAPES = value; }
-// public static net.minecraft.util.shape.VoxelShape[] UPPER_OUTLINE_SHAPES() { return net.minecraft.block.PitcherCropBlock.UPPER_OUTLINE_SHAPES; }
-// public static void UPPER_OUTLINE_SHAPES(net.minecraft.util.shape.VoxelShape[] value, ) { net.minecraft.block.PitcherCropBlock.UPPER_OUTLINE_SHAPES = value; }
-
-// public net.minecraft.util.shape.VoxelShape[] LOWER_OUTLINE_SHAPES() { return wrapperContained.LOWER_OUTLINE_SHAPES; }
-// public void LOWER_OUTLINE_SHAPES(net.minecraft.util.shape.VoxelShape[] value) { wrapperContained.LOWER_OUTLINE_SHAPES = value; }
-// public static net.minecraft.util.shape.VoxelShape[] LOWER_OUTLINE_SHAPES() { return net.minecraft.block.PitcherCropBlock.LOWER_OUTLINE_SHAPES; }
-// public static void LOWER_OUTLINE_SHAPES(net.minecraft.util.shape.VoxelShape[] value, ) { net.minecraft.block.PitcherCropBlock.LOWER_OUTLINE_SHAPES = value; }
-
 // public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.PitcherCropBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.PitcherCropBlock.CODEC = value; }
+
+// public java.util.function.Function shapeFunction() { return wrapperContained.shapeFunction; }
+// public void shapeFunction(java.util.function.Function value) { wrapperContained.shapeFunction = value; }
+// public static java.util.function.Function shapeFunction() { return net.minecraft.block.PitcherCropBlock.shapeFunction; }
+// public static void shapeFunction(java.util.function.Function value, ) { net.minecraft.block.PitcherCropBlock.shapeFunction = value; }
+
+// public yarnwrap.state.property.EnumProperty HALF() { return new yarnwrap.state.property.EnumProperty(wrapperContained.HALF); }
+// public void HALF(yarnwrap.state.property.EnumProperty value) { wrapperContained.HALF = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty HALF() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.PitcherCropBlock.HALF); }
+// public static void HALF(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.PitcherCropBlock.HALF = value.wrapperContained; }
 
 // public void tryGrow(yarnwrap.server.world.ServerWorld world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,int amount) { wrapperContained.tryGrow(world.wrapperContained,state.wrapperContained,pos.wrapperContained,amount); }
 // public static void tryGrow(yarnwrap.server.world.ServerWorld world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,int amount, ) { net.minecraft.block.PitcherCropBlock.tryGrow(world.wrapperContained,state.wrapperContained,pos.wrapperContained,amount); }
@@ -57,5 +47,9 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static Object getLowerHalfContext(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { return net.minecraft.block.PitcherCropBlock.getLowerHalfContext(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public boolean isDoubleTallAtAge(int age) { return wrapperContained.isDoubleTallAtAge(age); }
 // public static boolean isDoubleTallAtAge(int age, ) { return net.minecraft.block.PitcherCropBlock.isDoubleTallAtAge(age); }
+// public yarnwrap.util.shape.VoxelShape method_66458(int state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_66458(state)); }
+// public static yarnwrap.util.shape.VoxelShape method_66458(int state, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.PitcherCropBlock.method_66458(state)); }
+// public java.util.function.Function createShapeFunction() { return wrapperContained.createShapeFunction(); }
+// public static java.util.function.Function createShapeFunction() { return net.minecraft.block.PitcherCropBlock.createShapeFunction(); }
 
 }

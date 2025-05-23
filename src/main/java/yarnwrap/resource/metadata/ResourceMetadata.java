@@ -11,15 +11,15 @@ public static yarnwrap.resource.metadata.ResourceMetadata NONE() { return new ya
 public static yarnwrap.resource.InputSupplier NONE_SUPPLIER() { return new yarnwrap.resource.InputSupplier(net.minecraft.resource.metadata.ResourceMetadata.NONE_SUPPLIER); }
 // public static void NONE_SUPPLIER(yarnwrap.resource.InputSupplier value, ) { net.minecraft.resource.metadata.ResourceMetadata.NONE_SUPPLIER = value.wrapperContained; }
 
-public java.util.Optional decode(yarnwrap.resource.metadata.ResourceMetadataReader reader) { return wrapperContained.decode(reader.wrapperContained); }
-// public static java.util.Optional decode(yarnwrap.resource.metadata.ResourceMetadataReader reader, ) { return net.minecraft.resource.metadata.ResourceMetadata.decode(reader.wrapperContained); }
+public java.util.Optional decode(yarnwrap.resource.metadata.ResourceMetadataSerializer serializer) { return wrapperContained.decode(serializer.wrapperContained); }
+// public static java.util.Optional decode(yarnwrap.resource.metadata.ResourceMetadataSerializer serializer, ) { return net.minecraft.resource.metadata.ResourceMetadata.decode(serializer.wrapperContained); }
 // public yarnwrap.resource.metadata.ResourceMetadata create(java.io.InputStream stream) { return new yarnwrap.resource.metadata.ResourceMetadata(wrapperContained.create(stream)); }
 // public static yarnwrap.resource.metadata.ResourceMetadata create(java.io.InputStream stream, ) { return new yarnwrap.resource.metadata.ResourceMetadata(net.minecraft.resource.metadata.ResourceMetadata.create(stream)); }
-// public void decodeAndAdd(Object builder,yarnwrap.resource.metadata.ResourceMetadataReader reader) { wrapperContained.decodeAndAdd(builder,reader.wrapperContained); }
-// public static void decodeAndAdd(Object builder,yarnwrap.resource.metadata.ResourceMetadataReader reader, ) { net.minecraft.resource.metadata.ResourceMetadata.decodeAndAdd(builder,reader.wrapperContained); }
+// public void decodeAndAdd(Object builder,yarnwrap.resource.metadata.ResourceMetadataSerializer serializer) { wrapperContained.decodeAndAdd(builder,serializer.wrapperContained); }
+// public static void decodeAndAdd(Object builder,yarnwrap.resource.metadata.ResourceMetadataSerializer serializer, ) { net.minecraft.resource.metadata.ResourceMetadata.decodeAndAdd(builder,serializer.wrapperContained); }
 // public void method_52445(Object value) { wrapperContained.method_52445(value); }
 // public static void method_52445(Object value, ) { net.minecraft.resource.metadata.ResourceMetadata.method_52445(value); }
-public yarnwrap.resource.metadata.ResourceMetadata copy(java.util.Collection readers) { return new yarnwrap.resource.metadata.ResourceMetadata(wrapperContained.copy(readers)); }
-// public static yarnwrap.resource.metadata.ResourceMetadata copy(java.util.Collection readers, ) { return new yarnwrap.resource.metadata.ResourceMetadata(net.minecraft.resource.metadata.ResourceMetadata.copy(readers)); }
+public yarnwrap.resource.metadata.ResourceMetadata copy(java.util.Collection serializers) { return new yarnwrap.resource.metadata.ResourceMetadata(wrapperContained.copy(serializers)); }
+// public static yarnwrap.resource.metadata.ResourceMetadata copy(java.util.Collection serializers, ) { return new yarnwrap.resource.metadata.ResourceMetadata(net.minecraft.resource.metadata.ResourceMetadata.copy(serializers)); }
 
 }

@@ -51,11 +51,6 @@ public class RealmsClient { public net.minecraft.client.realms.RealmsClient wrap
 // public static java.lang.String WORLD_ENDPOINT_4() { return net.minecraft.client.realms.RealmsClient.WORLD_ENDPOINT_4; }
 // public static void WORLD_ENDPOINT_4(java.lang.String value, ) { net.minecraft.client.realms.RealmsClient.WORLD_ENDPOINT_4 = value; }
 
-// public java.lang.String WORLD_ENDPOINT_5() { return wrapperContained.WORLD_ENDPOINT_5; }
-// public void WORLD_ENDPOINT_5(java.lang.String value) { wrapperContained.WORLD_ENDPOINT_5 = value; }
-// public static java.lang.String WORLD_ENDPOINT_5() { return net.minecraft.client.realms.RealmsClient.WORLD_ENDPOINT_5; }
-// public static void WORLD_ENDPOINT_5(java.lang.String value, ) { net.minecraft.client.realms.RealmsClient.WORLD_ENDPOINT_5 = value; }
-
 // public java.lang.String WORLD_SLOT_ENDPOINT() { return wrapperContained.WORLD_SLOT_ENDPOINT; }
 // public void WORLD_SLOT_ENDPOINT(java.lang.String value) { wrapperContained.WORLD_SLOT_ENDPOINT = value; }
 // public static java.lang.String WORLD_SLOT_ENDPOINT() { return net.minecraft.client.realms.RealmsClient.WORLD_SLOT_ENDPOINT; }
@@ -246,7 +241,32 @@ public class RealmsClient { public net.minecraft.client.realms.RealmsClient wrap
 // public static java.lang.String LIST_PRERELEASE_ELIGIBLE_WORLDS_ENDPOINT() { return net.minecraft.client.realms.RealmsClient.LIST_PRERELEASE_ELIGIBLE_WORLDS_ENDPOINT; }
 // public static void LIST_PRERELEASE_ELIGIBLE_WORLDS_ENDPOINT(java.lang.String value, ) { net.minecraft.client.realms.RealmsClient.LIST_PRERELEASE_ELIGIBLE_WORLDS_ENDPOINT = value; }
 
-public RealmsClient(java.lang.String sessionId,java.lang.String username,yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.realms.RealmsClient(sessionId,username,client.wrapperContained); }
+// public yarnwrap.client.realms.RealmsClient instance() { return new yarnwrap.client.realms.RealmsClient(wrapperContained.instance); }
+// public void instance(yarnwrap.client.realms.RealmsClient value) { wrapperContained.instance = value.wrapperContained; }
+// public static yarnwrap.client.realms.RealmsClient instance() { return new yarnwrap.client.realms.RealmsClient(net.minecraft.client.realms.RealmsClient.instance); }
+// public static void instance(yarnwrap.client.realms.RealmsClient value, ) { net.minecraft.client.realms.RealmsClient.instance = value.wrapperContained; }
+
+// public java.util.concurrent.CompletableFuture featureFlagsFuture() { return wrapperContained.featureFlagsFuture; }
+// public void featureFlagsFuture(java.util.concurrent.CompletableFuture value) { wrapperContained.featureFlagsFuture = value; }
+// public static java.util.concurrent.CompletableFuture featureFlagsFuture() { return net.minecraft.client.realms.RealmsClient.featureFlagsFuture; }
+// public static void featureFlagsFuture(java.util.concurrent.CompletableFuture value, ) { net.minecraft.client.realms.RealmsClient.featureFlagsFuture = value; }
+
+// public java.lang.String FEATURE_ENDPOINT() { return wrapperContained.FEATURE_ENDPOINT; }
+// public void FEATURE_ENDPOINT(java.lang.String value) { wrapperContained.FEATURE_ENDPOINT = value; }
+// public static java.lang.String FEATURE_ENDPOINT() { return net.minecraft.client.realms.RealmsClient.FEATURE_ENDPOINT; }
+// public static void FEATURE_ENDPOINT(java.lang.String value, ) { net.minecraft.client.realms.RealmsClient.FEATURE_ENDPOINT = value; }
+
+// public java.lang.String WORLD_CONFIGURATION_ENDPOINT() { return wrapperContained.WORLD_CONFIGURATION_ENDPOINT; }
+// public void WORLD_CONFIGURATION_ENDPOINT(java.lang.String value) { wrapperContained.WORLD_CONFIGURATION_ENDPOINT = value; }
+// public static java.lang.String WORLD_CONFIGURATION_ENDPOINT() { return net.minecraft.client.realms.RealmsClient.WORLD_CONFIGURATION_ENDPOINT; }
+// public static void WORLD_CONFIGURATION_ENDPOINT(java.lang.String value, ) { net.minecraft.client.realms.RealmsClient.WORLD_CONFIGURATION_ENDPOINT = value; }
+
+// public java.lang.String PREFERRED_REGIONS_ENDPOINT() { return wrapperContained.PREFERRED_REGIONS_ENDPOINT; }
+// public void PREFERRED_REGIONS_ENDPOINT(java.lang.String value) { wrapperContained.PREFERRED_REGIONS_ENDPOINT = value; }
+// public static java.lang.String PREFERRED_REGIONS_ENDPOINT() { return net.minecraft.client.realms.RealmsClient.PREFERRED_REGIONS_ENDPOINT; }
+// public static void PREFERRED_REGIONS_ENDPOINT(java.lang.String value, ) { net.minecraft.client.realms.RealmsClient.PREFERRED_REGIONS_ENDPOINT = value; }
+
+// public RealmsClient(java.lang.String sessionId,java.lang.String username,yarnwrap.client.MinecraftClient client) { this.wrapperContained = new net.minecraft.client.realms.RealmsClient(sessionId,username,client.wrapperContained); }
 // public yarnwrap.client.realms.RealmsClient createRealmsClient(yarnwrap.client.MinecraftClient client) { return new yarnwrap.client.realms.RealmsClient(wrapperContained.createRealmsClient(client.wrapperContained)); }
 // public static yarnwrap.client.realms.RealmsClient createRealmsClient(yarnwrap.client.MinecraftClient client, ) { return new yarnwrap.client.realms.RealmsClient(net.minecraft.client.realms.RealmsClient.createRealmsClient(client.wrapperContained)); }
 // public yarnwrap.client.realms.dto.WorldTemplatePaginatedList fetchWorldTemplates(int page,int pageSize,Object type) { return new yarnwrap.client.realms.dto.WorldTemplatePaginatedList(wrapperContained.fetchWorldTemplates(page,pageSize,type)); }
@@ -255,12 +275,10 @@ public RealmsClient(java.lang.String sessionId,java.lang.String username,yarnwra
 // public static yarnwrap.client.realms.dto.RealmsServer getOwnWorld(long worldId, ) { return new yarnwrap.client.realms.dto.RealmsServer(net.minecraft.client.realms.RealmsClient.getOwnWorld(worldId)); }
 // public boolean switchSlot(long worldId,int slot) { return wrapperContained.switchSlot(worldId,slot); }
 // public static boolean switchSlot(long worldId,int slot, ) { return net.minecraft.client.realms.RealmsClient.switchSlot(worldId,slot); }
-// public void updateSlot(long worldId,int slot,yarnwrap.client.realms.dto.RealmsWorldOptions options) { wrapperContained.updateSlot(worldId,slot,options.wrapperContained); }
-// public static void updateSlot(long worldId,int slot,yarnwrap.client.realms.dto.RealmsWorldOptions options, ) { net.minecraft.client.realms.RealmsClient.updateSlot(worldId,slot,options.wrapperContained); }
+// public void updateSlot(long worldId,int slot,yarnwrap.client.realms.dto.RealmsWorldOptions options,java.util.List settings) { wrapperContained.updateSlot(worldId,slot,options.wrapperContained,settings); }
+// public static void updateSlot(long worldId,int slot,yarnwrap.client.realms.dto.RealmsWorldOptions options,java.util.List settings, ) { net.minecraft.client.realms.RealmsClient.updateSlot(worldId,slot,options.wrapperContained,settings); }
 // public void uninvite(long worldId,java.util.UUID profileUuid) { wrapperContained.uninvite(worldId,profileUuid); }
 // public static void uninvite(long worldId,java.util.UUID profileUuid, ) { net.minecraft.client.realms.RealmsClient.uninvite(worldId,profileUuid); }
-// public java.lang.Boolean resetWorldWithSeed(long worldId,yarnwrap.client.realms.gui.screen.ResetWorldInfo resetWorldInfo) { return wrapperContained.resetWorldWithSeed(worldId,resetWorldInfo.wrapperContained); }
-// public static java.lang.Boolean resetWorldWithSeed(long worldId,yarnwrap.client.realms.gui.screen.ResetWorldInfo resetWorldInfo, ) { return net.minecraft.client.realms.RealmsClient.resetWorldWithSeed(worldId,resetWorldInfo.wrapperContained); }
 // public void initializeWorld(long worldId,java.lang.String name,java.lang.String motd) { wrapperContained.initializeWorld(worldId,name,motd); }
 // public static void initializeWorld(long worldId,java.lang.String name,java.lang.String motd, ) { net.minecraft.client.realms.RealmsClient.initializeWorld(worldId,name,motd); }
 // public void sendPingResults(yarnwrap.client.realms.dto.PingResult pingResult) { wrapperContained.sendPingResults(pingResult.wrapperContained); }
@@ -271,14 +289,12 @@ public RealmsClient(java.lang.String sessionId,java.lang.String username,yarnwra
 // public static void acceptInvitation(java.lang.String invitationId, ) { net.minecraft.client.realms.RealmsClient.acceptInvitation(invitationId); }
 // public yarnwrap.client.realms.dto.WorldDownload download(long worldId,int slotId) { return new yarnwrap.client.realms.dto.WorldDownload(wrapperContained.download(worldId,slotId)); }
 // public static yarnwrap.client.realms.dto.WorldDownload download(long worldId,int slotId, ) { return new yarnwrap.client.realms.dto.WorldDownload(net.minecraft.client.realms.RealmsClient.download(worldId,slotId)); }
-// public yarnwrap.client.realms.dto.RealmsServer invite(long worldId,java.lang.String profileName) { return new yarnwrap.client.realms.dto.RealmsServer(wrapperContained.invite(worldId,profileName)); }
-// public static yarnwrap.client.realms.dto.RealmsServer invite(long worldId,java.lang.String profileName, ) { return new yarnwrap.client.realms.dto.RealmsServer(net.minecraft.client.realms.RealmsClient.invite(worldId,profileName)); }
-// public void update(long worldId,java.lang.String name,java.lang.String motd) { wrapperContained.update(worldId,name,motd); }
-// public static void update(long worldId,java.lang.String name,java.lang.String motd, ) { net.minecraft.client.realms.RealmsClient.update(worldId,name,motd); }
+// public java.util.List invite(long worldId,java.lang.String profileName) { return wrapperContained.invite(worldId,profileName); }
+// // public static java.util.List invite(long worldId,java.lang.String profileName, ) { return net.minecraft.client.realms.RealmsClient.invite(worldId,profileName); }
 // public void rejectInvitation(java.lang.String invitationId) { wrapperContained.rejectInvitation(invitationId); }
 // public static void rejectInvitation(java.lang.String invitationId, ) { net.minecraft.client.realms.RealmsClient.rejectInvitation(invitationId); }
-// public java.lang.String url(java.lang.String path,java.lang.String queryString) { return wrapperContained.url(path,queryString); }
-// public static java.lang.String url(java.lang.String path,java.lang.String queryString, ) { return net.minecraft.client.realms.RealmsClient.url(path,queryString); }
+// public java.lang.String url(java.lang.String path,java.lang.String queryString,boolean aks) { return wrapperContained.url(path,queryString,aks); }
+// public static java.lang.String url(java.lang.String path,java.lang.String queryString,boolean aks, ) { return net.minecraft.client.realms.RealmsClient.url(path,queryString,aks); }
 // public yarnwrap.client.realms.dto.RealmsServerAddress join(long worldId) { return new yarnwrap.client.realms.dto.RealmsServerAddress(wrapperContained.join(worldId)); }
 // public static yarnwrap.client.realms.dto.RealmsServerAddress join(long worldId, ) { return new yarnwrap.client.realms.dto.RealmsServerAddress(net.minecraft.client.realms.RealmsClient.join(worldId)); }
 // public void restoreWorld(long worldId,java.lang.String backupId) { wrapperContained.restoreWorld(worldId,backupId); }
@@ -307,8 +323,8 @@ public RealmsClient(java.lang.String sessionId,java.lang.String username,yarnwra
 // public static java.lang.Boolean resetWorldWithTemplate(long worldId,java.lang.String worldTemplateId, ) { return net.minecraft.client.realms.RealmsClient.resetWorldWithTemplate(worldId,worldTemplateId); }
 // public yarnwrap.client.realms.dto.Subscription subscriptionFor(long worldId) { return new yarnwrap.client.realms.dto.Subscription(wrapperContained.subscriptionFor(worldId)); }
 // public static yarnwrap.client.realms.dto.Subscription subscriptionFor(long worldId, ) { return new yarnwrap.client.realms.dto.Subscription(net.minecraft.client.realms.RealmsClient.subscriptionFor(worldId)); }
-// public yarnwrap.client.realms.dto.UploadInfo upload(long worldId,java.lang.String token) { return new yarnwrap.client.realms.dto.UploadInfo(wrapperContained.upload(worldId,token)); }
-// public static yarnwrap.client.realms.dto.UploadInfo upload(long worldId,java.lang.String token, ) { return new yarnwrap.client.realms.dto.UploadInfo(net.minecraft.client.realms.RealmsClient.upload(worldId,token)); }
+// public yarnwrap.client.realms.dto.UploadInfo upload(long worldId) { return new yarnwrap.client.realms.dto.UploadInfo(wrapperContained.upload(worldId)); }
+// public static yarnwrap.client.realms.dto.UploadInfo upload(long worldId, ) { return new yarnwrap.client.realms.dto.UploadInfo(net.minecraft.client.realms.RealmsClient.upload(worldId)); }
 // public Object clientCompatible() { return wrapperContained.clientCompatible(); }
 // public static Object clientCompatible() { return net.minecraft.client.realms.RealmsClient.clientCompatible(); }
 // public void deleteWorld(long worldId) { wrapperContained.deleteWorld(worldId); }
@@ -343,5 +359,15 @@ public static yarnwrap.client.realms.RealmsClient create() { return new yarnwrap
 // public static yarnwrap.client.realms.dto.RealmsServer createPrereleaseServer(java.lang.Long parentWorldId, ) { return new yarnwrap.client.realms.dto.RealmsServer(net.minecraft.client.realms.RealmsClient.createPrereleaseServer(parentWorldId)); }
 // public java.util.List getPrereleaseEligibleServers() { return wrapperContained.getPrereleaseEligibleServers(); }
 // public static java.util.List getPrereleaseEligibleServers() { return net.minecraft.client.realms.RealmsClient.getPrereleaseEligibleServers(); }
+// public java.lang.String url(java.lang.String path,java.lang.String queryString) { return wrapperContained.url(path,queryString); }
+// public static java.lang.String url(java.lang.String path,java.lang.String queryString, ) { return net.minecraft.client.realms.RealmsClient.url(path,queryString); }
+public java.util.Set getFeatureFlags() { return wrapperContained.getFeatureFlags(); }
+// public static java.util.Set getFeatureFlags() { return net.minecraft.client.realms.RealmsClient.getFeatureFlags(); }
+// public java.util.Set fetchFeatureFlags() { return wrapperContained.fetchFeatureFlags(); }
+// public static java.util.Set fetchFeatureFlags() { return net.minecraft.client.realms.RealmsClient.fetchFeatureFlags(); }
+// public void configure(long worldId,java.lang.String name,java.lang.String description,yarnwrap.client.realms.dto.RealmsRegionSelectionPreference regionSelectionPreference,int slotId,yarnwrap.client.realms.dto.RealmsWorldOptions options,java.util.List settings) { wrapperContained.configure(worldId,name,description,regionSelectionPreference.wrapperContained,slotId,options.wrapperContained,settings); }
+// public static void configure(long worldId,java.lang.String name,java.lang.String description,yarnwrap.client.realms.dto.RealmsRegionSelectionPreference regionSelectionPreference,int slotId,yarnwrap.client.realms.dto.RealmsWorldOptions options,java.util.List settings, ) { net.minecraft.client.realms.RealmsClient.configure(worldId,name,description,regionSelectionPreference.wrapperContained,slotId,options.wrapperContained,settings); }
+// public yarnwrap.client.realms.dto.RealmsRegionDataList getRegionDataList() { return new yarnwrap.client.realms.dto.RealmsRegionDataList(wrapperContained.getRegionDataList()); }
+// public static yarnwrap.client.realms.dto.RealmsRegionDataList getRegionDataList() { return new yarnwrap.client.realms.dto.RealmsRegionDataList(net.minecraft.client.realms.RealmsClient.getRegionDataList()); }
 
 }

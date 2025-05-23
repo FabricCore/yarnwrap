@@ -1,0 +1,47 @@
+package yarnwrap.client.render.block.entity;
+public class AbstractSignBlockEntityRenderer { public net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer wrapperContained; public AbstractSignBlockEntityRenderer(net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public int GLOWING_BLACK_TEXT_COLOR() { return wrapperContained.GLOWING_BLACK_TEXT_COLOR; }
+// public void GLOWING_BLACK_TEXT_COLOR(int value) { wrapperContained.GLOWING_BLACK_TEXT_COLOR = value; }
+// public static int GLOWING_BLACK_TEXT_COLOR() { return net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.GLOWING_BLACK_TEXT_COLOR; }
+// public static void GLOWING_BLACK_TEXT_COLOR(int value, ) { net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.GLOWING_BLACK_TEXT_COLOR = value; }
+
+// public int MAX_COLORED_TEXT_OUTLINE_RENDER_DISTANCE() { return wrapperContained.MAX_COLORED_TEXT_OUTLINE_RENDER_DISTANCE; }
+// public void MAX_COLORED_TEXT_OUTLINE_RENDER_DISTANCE(int value) { wrapperContained.MAX_COLORED_TEXT_OUTLINE_RENDER_DISTANCE = value; }
+// public static int MAX_COLORED_TEXT_OUTLINE_RENDER_DISTANCE() { return net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.MAX_COLORED_TEXT_OUTLINE_RENDER_DISTANCE; }
+// public static void MAX_COLORED_TEXT_OUTLINE_RENDER_DISTANCE(int value, ) { net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.MAX_COLORED_TEXT_OUTLINE_RENDER_DISTANCE = value; }
+
+// public yarnwrap.client.font.TextRenderer textRenderer() { return new yarnwrap.client.font.TextRenderer(wrapperContained.textRenderer); }
+// public void textRenderer(yarnwrap.client.font.TextRenderer value) { wrapperContained.textRenderer = value.wrapperContained; }
+// public static yarnwrap.client.font.TextRenderer textRenderer() { return new yarnwrap.client.font.TextRenderer(net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.textRenderer); }
+// public static void textRenderer(yarnwrap.client.font.TextRenderer value, ) { net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.textRenderer = value.wrapperContained; }
+
+// public AbstractSignBlockEntityRenderer(Object context) { this.wrapperContained = new net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer(context); }
+// public yarnwrap.util.math.Vec3d getTextOffset() { return new yarnwrap.util.math.Vec3d(wrapperContained.getTextOffset()); }
+// public static yarnwrap.util.math.Vec3d getTextOffset() { return new yarnwrap.util.math.Vec3d(net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.getTextOffset()); }
+// public yarnwrap.client.util.SpriteIdentifier getTextureId(yarnwrap.block.WoodType woodType) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getTextureId(woodType.wrapperContained)); }
+// public static yarnwrap.client.util.SpriteIdentifier getTextureId(yarnwrap.block.WoodType woodType, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.getTextureId(woodType.wrapperContained)); }
+// public float getSignScale() { return wrapperContained.getSignScale(); }
+// public static float getSignScale() { return net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.getSignScale(); }
+// public float getTextScale() { return wrapperContained.getTextScale(); }
+// public static float getTextScale() { return net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.getTextScale(); }
+// public yarnwrap.text.OrderedText method_65819(int textx) { return new yarnwrap.text.OrderedText(wrapperContained.method_65819(textx)); }
+// public static yarnwrap.text.OrderedText method_65819(int textx, ) { return new yarnwrap.text.OrderedText(net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.method_65819(textx)); }
+// public void render(yarnwrap.block.entity.SignBlockEntity blockEntity,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.block.BlockState state,yarnwrap.block.AbstractSignBlock block,yarnwrap.block.WoodType woodType,yarnwrap.client.model.Model model) { wrapperContained.render(blockEntity.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,state.wrapperContained,block.wrapperContained,woodType.wrapperContained,model.wrapperContained); }
+// public static void render(yarnwrap.block.entity.SignBlockEntity blockEntity,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.block.BlockState state,yarnwrap.block.AbstractSignBlock block,yarnwrap.block.WoodType woodType,yarnwrap.client.model.Model model, ) { net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.render(blockEntity.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,state.wrapperContained,block.wrapperContained,woodType.wrapperContained,model.wrapperContained); }
+// public int getTextColor(yarnwrap.block.entity.SignText text) { return wrapperContained.getTextColor(text.wrapperContained); }
+// public static int getTextColor(yarnwrap.block.entity.SignText text, ) { return net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.getTextColor(text.wrapperContained); }
+// public yarnwrap.client.model.Model getModel(yarnwrap.block.BlockState state,yarnwrap.block.WoodType woodType) { return new yarnwrap.client.model.Model(wrapperContained.getModel(state.wrapperContained,woodType.wrapperContained)); }
+// public static yarnwrap.client.model.Model getModel(yarnwrap.block.BlockState state,yarnwrap.block.WoodType woodType, ) { return new yarnwrap.client.model.Model(net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.getModel(state.wrapperContained,woodType.wrapperContained)); }
+// public void applyTransforms(yarnwrap.client.util.math.MatrixStack matrices,float blockRotationDegrees,yarnwrap.block.BlockState state) { wrapperContained.applyTransforms(matrices.wrapperContained,blockRotationDegrees,state.wrapperContained); }
+// public static void applyTransforms(yarnwrap.client.util.math.MatrixStack matrices,float blockRotationDegrees,yarnwrap.block.BlockState state, ) { net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.applyTransforms(matrices.wrapperContained,blockRotationDegrees,state.wrapperContained); }
+// public void renderSign(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.block.WoodType woodType,yarnwrap.client.model.Model model) { wrapperContained.renderSign(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,woodType.wrapperContained,model.wrapperContained); }
+// public static void renderSign(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.block.WoodType woodType,yarnwrap.client.model.Model model, ) { net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.renderSign(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,woodType.wrapperContained,model.wrapperContained); }
+// public void applyTextTransforms(yarnwrap.client.util.math.MatrixStack matrices,boolean front,yarnwrap.util.math.Vec3d textOffset) { wrapperContained.applyTextTransforms(matrices.wrapperContained,front,textOffset.wrapperContained); }
+// public static void applyTextTransforms(yarnwrap.client.util.math.MatrixStack matrices,boolean front,yarnwrap.util.math.Vec3d textOffset, ) { net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.applyTextTransforms(matrices.wrapperContained,front,textOffset.wrapperContained); }
+// public boolean shouldRenderTextOutline(yarnwrap.util.math.BlockPos pos,int color) { return wrapperContained.shouldRenderTextOutline(pos.wrapperContained,color); }
+// public static boolean shouldRenderTextOutline(yarnwrap.util.math.BlockPos pos,int color, ) { return net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.shouldRenderTextOutline(pos.wrapperContained,color); }
+// public void renderText(yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.SignText text,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int textLineHeight,int maxTextWidth,boolean front) { wrapperContained.renderText(pos.wrapperContained,text.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light,textLineHeight,maxTextWidth,front); }
+// public static void renderText(yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.SignText text,yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int textLineHeight,int maxTextWidth,boolean front, ) { net.minecraft.client.render.block.entity.AbstractSignBlockEntityRenderer.renderText(pos.wrapperContained,text.wrapperContained,matrices.wrapperContained,vertexConsumers.wrapperContained,light,textLineHeight,maxTextWidth,front); }
+
+}

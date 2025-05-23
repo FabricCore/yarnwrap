@@ -171,21 +171,6 @@ public static yarnwrap.registry.Registry STRUCTURE_PROCESSOR() { return new yarn
 public static yarnwrap.registry.Registry STRUCTURE_POOL_ELEMENT() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.STRUCTURE_POOL_ELEMENT); }
 // public static void STRUCTURE_POOL_ELEMENT(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.STRUCTURE_POOL_ELEMENT = value.wrapperContained; }
 
-// public yarnwrap.registry.Registry CAT_VARIANT() { return new yarnwrap.registry.Registry(wrapperContained.CAT_VARIANT); }
-// public void CAT_VARIANT(yarnwrap.registry.Registry value) { wrapperContained.CAT_VARIANT = value.wrapperContained; }
-public static yarnwrap.registry.Registry CAT_VARIANT() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.CAT_VARIANT); }
-// public static void CAT_VARIANT(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.CAT_VARIANT = value.wrapperContained; }
-
-// public yarnwrap.registry.Registry FROG_VARIANT() { return new yarnwrap.registry.Registry(wrapperContained.FROG_VARIANT); }
-// public void FROG_VARIANT(yarnwrap.registry.Registry value) { wrapperContained.FROG_VARIANT = value.wrapperContained; }
-public static yarnwrap.registry.Registry FROG_VARIANT() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.FROG_VARIANT); }
-// public static void FROG_VARIANT(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.FROG_VARIANT = value.wrapperContained; }
-
-// public yarnwrap.registry.Registry INSTRUMENT() { return new yarnwrap.registry.Registry(wrapperContained.INSTRUMENT); }
-// public void INSTRUMENT(yarnwrap.registry.Registry value) { wrapperContained.INSTRUMENT = value.wrapperContained; }
-public static yarnwrap.registry.Registry INSTRUMENT() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.INSTRUMENT); }
-// public static void INSTRUMENT(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.INSTRUMENT = value.wrapperContained; }
-
 // public yarnwrap.registry.Registry REGISTRIES() { return new yarnwrap.registry.Registry(wrapperContained.REGISTRIES); }
 // public void REGISTRIES(yarnwrap.registry.Registry value) { wrapperContained.REGISTRIES = value.wrapperContained; }
 public static yarnwrap.registry.Registry REGISTRIES() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.REGISTRIES); }
@@ -356,11 +341,6 @@ public static yarnwrap.registry.Registry CRITERION() { return new yarnwrap.regis
 public static yarnwrap.registry.Registry NUMBER_FORMAT_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.NUMBER_FORMAT_TYPE); }
 // public static void NUMBER_FORMAT_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.NUMBER_FORMAT_TYPE = value.wrapperContained; }
 
-// public yarnwrap.registry.Registry ARMOR_MATERIAL() { return new yarnwrap.registry.Registry(wrapperContained.ARMOR_MATERIAL); }
-// public void ARMOR_MATERIAL(yarnwrap.registry.Registry value) { wrapperContained.ARMOR_MATERIAL = value.wrapperContained; }
-public static yarnwrap.registry.Registry ARMOR_MATERIAL() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.ARMOR_MATERIAL); }
-// public static void ARMOR_MATERIAL(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.ARMOR_MATERIAL = value.wrapperContained; }
-
 // public yarnwrap.registry.Registry DATA_COMPONENT_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.DATA_COMPONENT_TYPE); }
 // public void DATA_COMPONENT_TYPE(yarnwrap.registry.Registry value) { wrapperContained.DATA_COMPONENT_TYPE = value.wrapperContained; }
 public static yarnwrap.registry.Registry DATA_COMPONENT_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.DATA_COMPONENT_TYPE); }
@@ -370,11 +350,6 @@ public static yarnwrap.registry.Registry DATA_COMPONENT_TYPE() { return new yarn
 // public void ENTITY_SUB_PREDICATE_TYPE(yarnwrap.registry.Registry value) { wrapperContained.ENTITY_SUB_PREDICATE_TYPE = value.wrapperContained; }
 public static yarnwrap.registry.Registry ENTITY_SUB_PREDICATE_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.ENTITY_SUB_PREDICATE_TYPE); }
 // public static void ENTITY_SUB_PREDICATE_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.ENTITY_SUB_PREDICATE_TYPE = value.wrapperContained; }
-
-// public yarnwrap.registry.Registry ITEM_SUB_PREDICATE_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.ITEM_SUB_PREDICATE_TYPE); }
-// public void ITEM_SUB_PREDICATE_TYPE(yarnwrap.registry.Registry value) { wrapperContained.ITEM_SUB_PREDICATE_TYPE = value.wrapperContained; }
-public static yarnwrap.registry.Registry ITEM_SUB_PREDICATE_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.ITEM_SUB_PREDICATE_TYPE); }
-// public static void ITEM_SUB_PREDICATE_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.ITEM_SUB_PREDICATE_TYPE = value.wrapperContained; }
 
 // public yarnwrap.registry.Registry MAP_DECORATION_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.MAP_DECORATION_TYPE); }
 // public void MAP_DECORATION_TYPE(yarnwrap.registry.Registry value) { wrapperContained.MAP_DECORATION_TYPE = value.wrapperContained; }
@@ -411,10 +386,76 @@ public static yarnwrap.registry.Registry ENCHANTMENT_VALUE_EFFECT_TYPE() { retur
 public static yarnwrap.registry.Registry ENCHANTMENT_PROVIDER_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.ENCHANTMENT_PROVIDER_TYPE); }
 // public static void ENCHANTMENT_PROVIDER_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.ENCHANTMENT_PROVIDER_TYPE = value.wrapperContained; }
 
-// public java.lang.Object method_47450(yarnwrap.registry.Registry registry) { return wrapperContained.method_47450(registry.wrapperContained); }
-// public static java.lang.Object method_47450(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_47450(registry.wrapperContained); }
-// public java.lang.Object method_47451(yarnwrap.registry.Registry registry) { return wrapperContained.method_47451(registry.wrapperContained); }
-// public static java.lang.Object method_47451(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_47451(registry.wrapperContained); }
+// public yarnwrap.registry.Registry CONSUME_EFFECT_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.CONSUME_EFFECT_TYPE); }
+// public void CONSUME_EFFECT_TYPE(yarnwrap.registry.Registry value) { wrapperContained.CONSUME_EFFECT_TYPE = value.wrapperContained; }
+public static yarnwrap.registry.Registry CONSUME_EFFECT_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.CONSUME_EFFECT_TYPE); }
+// public static void CONSUME_EFFECT_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.CONSUME_EFFECT_TYPE = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry SLOT_DISPLAY() { return new yarnwrap.registry.Registry(wrapperContained.SLOT_DISPLAY); }
+// public void SLOT_DISPLAY(yarnwrap.registry.Registry value) { wrapperContained.SLOT_DISPLAY = value.wrapperContained; }
+public static yarnwrap.registry.Registry SLOT_DISPLAY() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.SLOT_DISPLAY); }
+// public static void SLOT_DISPLAY(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.SLOT_DISPLAY = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry RECIPE_DISPLAY() { return new yarnwrap.registry.Registry(wrapperContained.RECIPE_DISPLAY); }
+// public void RECIPE_DISPLAY(yarnwrap.registry.Registry value) { wrapperContained.RECIPE_DISPLAY = value.wrapperContained; }
+public static yarnwrap.registry.Registry RECIPE_DISPLAY() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.RECIPE_DISPLAY); }
+// public static void RECIPE_DISPLAY(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.RECIPE_DISPLAY = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry RECIPE_BOOK_CATEGORY() { return new yarnwrap.registry.Registry(wrapperContained.RECIPE_BOOK_CATEGORY); }
+// public void RECIPE_BOOK_CATEGORY(yarnwrap.registry.Registry value) { wrapperContained.RECIPE_BOOK_CATEGORY = value.wrapperContained; }
+public static yarnwrap.registry.Registry RECIPE_BOOK_CATEGORY() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.RECIPE_BOOK_CATEGORY); }
+// public static void RECIPE_BOOK_CATEGORY(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.RECIPE_BOOK_CATEGORY = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry TICKET_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.TICKET_TYPE); }
+// public void TICKET_TYPE(yarnwrap.registry.Registry value) { wrapperContained.TICKET_TYPE = value.wrapperContained; }
+public static yarnwrap.registry.Registry TICKET_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.TICKET_TYPE); }
+// public static void TICKET_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.TICKET_TYPE = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry TEST_ENVIRONMENT_DEFINITION_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.TEST_ENVIRONMENT_DEFINITION_TYPE); }
+// public void TEST_ENVIRONMENT_DEFINITION_TYPE(yarnwrap.registry.Registry value) { wrapperContained.TEST_ENVIRONMENT_DEFINITION_TYPE = value.wrapperContained; }
+public static yarnwrap.registry.Registry TEST_ENVIRONMENT_DEFINITION_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.TEST_ENVIRONMENT_DEFINITION_TYPE); }
+// public static void TEST_ENVIRONMENT_DEFINITION_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.TEST_ENVIRONMENT_DEFINITION_TYPE = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry TEST_INSTANCE_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.TEST_INSTANCE_TYPE); }
+// public void TEST_INSTANCE_TYPE(yarnwrap.registry.Registry value) { wrapperContained.TEST_INSTANCE_TYPE = value.wrapperContained; }
+public static yarnwrap.registry.Registry TEST_INSTANCE_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.TEST_INSTANCE_TYPE); }
+// public static void TEST_INSTANCE_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.TEST_INSTANCE_TYPE = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry TEST_FUNCTION() { return new yarnwrap.registry.Registry(wrapperContained.TEST_FUNCTION); }
+// public void TEST_FUNCTION(yarnwrap.registry.Registry value) { wrapperContained.TEST_FUNCTION = value.wrapperContained; }
+public static yarnwrap.registry.Registry TEST_FUNCTION() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.TEST_FUNCTION); }
+// public static void TEST_FUNCTION(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.TEST_FUNCTION = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry SPAWN_CONDITION_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.SPAWN_CONDITION_TYPE); }
+// public void SPAWN_CONDITION_TYPE(yarnwrap.registry.Registry value) { wrapperContained.SPAWN_CONDITION_TYPE = value.wrapperContained; }
+public static yarnwrap.registry.Registry SPAWN_CONDITION_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.SPAWN_CONDITION_TYPE); }
+// public static void SPAWN_CONDITION_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.SPAWN_CONDITION_TYPE = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry DATA_COMPONENT_PREDICATE_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.DATA_COMPONENT_PREDICATE_TYPE); }
+// public void DATA_COMPONENT_PREDICATE_TYPE(yarnwrap.registry.Registry value) { wrapperContained.DATA_COMPONENT_PREDICATE_TYPE = value.wrapperContained; }
+public static yarnwrap.registry.Registry DATA_COMPONENT_PREDICATE_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.DATA_COMPONENT_PREDICATE_TYPE); }
+// public static void DATA_COMPONENT_PREDICATE_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.DATA_COMPONENT_PREDICATE_TYPE = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry DIALOG_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.DIALOG_TYPE); }
+// public void DIALOG_TYPE(yarnwrap.registry.Registry value) { wrapperContained.DIALOG_TYPE = value.wrapperContained; }
+// public static yarnwrap.registry.Registry DIALOG_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.DIALOG_TYPE); }
+// public static void DIALOG_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.DIALOG_TYPE = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry SUBMIT_METHOD_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.SUBMIT_METHOD_TYPE); }
+// public void SUBMIT_METHOD_TYPE(yarnwrap.registry.Registry value) { wrapperContained.SUBMIT_METHOD_TYPE = value.wrapperContained; }
+// public static yarnwrap.registry.Registry SUBMIT_METHOD_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.SUBMIT_METHOD_TYPE); }
+// public static void SUBMIT_METHOD_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.SUBMIT_METHOD_TYPE = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry INPUT_CONTROL_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.INPUT_CONTROL_TYPE); }
+// public void INPUT_CONTROL_TYPE(yarnwrap.registry.Registry value) { wrapperContained.INPUT_CONTROL_TYPE = value.wrapperContained; }
+// public static yarnwrap.registry.Registry INPUT_CONTROL_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.INPUT_CONTROL_TYPE); }
+// public static void INPUT_CONTROL_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.INPUT_CONTROL_TYPE = value.wrapperContained; }
+
+// public yarnwrap.registry.Registry DIALOG_BODY_TYPE() { return new yarnwrap.registry.Registry(wrapperContained.DIALOG_BODY_TYPE); }
+// public void DIALOG_BODY_TYPE(yarnwrap.registry.Registry value) { wrapperContained.DIALOG_BODY_TYPE = value.wrapperContained; }
+// public static yarnwrap.registry.Registry DIALOG_BODY_TYPE() { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.DIALOG_BODY_TYPE); }
+// public static void DIALOG_BODY_TYPE(yarnwrap.registry.Registry value, ) { net.minecraft.registry.Registries.DIALOG_BODY_TYPE = value.wrapperContained; }
+
 // public java.lang.Object method_47452(yarnwrap.registry.Registry registry) { return wrapperContained.method_47452(registry.wrapperContained); }
 // public static java.lang.Object method_47452(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_47452(registry.wrapperContained); }
 // public java.lang.Object method_47453(yarnwrap.registry.Registry registry) { return wrapperContained.method_47453(registry.wrapperContained); }
@@ -519,11 +560,21 @@ public static void bootstrap() { net.minecraft.registry.Registries.bootstrap(); 
 // public static java.lang.Object method_47513(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_47513(registry.wrapperContained); }
 // public java.lang.Object method_47514(yarnwrap.registry.Registry registry) { return wrapperContained.method_47514(registry.wrapperContained); }
 // public static java.lang.Object method_47514(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_47514(registry.wrapperContained); }
-// public java.lang.Object method_47515(yarnwrap.registry.Registry registry) { return wrapperContained.method_47515(registry.wrapperContained); }
-// public static java.lang.Object method_47515(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_47515(registry.wrapperContained); }
 // public java.lang.Object method_49927(yarnwrap.registry.Registry registry) { return wrapperContained.method_49927(registry.wrapperContained); }
 // public static java.lang.Object method_49927(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_49927(registry.wrapperContained); }
 // public yarnwrap.registry.Registry createIntrusive(yarnwrap.registry.RegistryKey key,Object initializer) { return new yarnwrap.registry.Registry(wrapperContained.createIntrusive(key.wrapperContained,initializer)); }
 // public static yarnwrap.registry.Registry createIntrusive(yarnwrap.registry.RegistryKey key,Object initializer, ) { return new yarnwrap.registry.Registry(net.minecraft.registry.Registries.createIntrusive(key.wrapperContained,initializer)); }
+// public java.lang.Object method_60389(yarnwrap.registry.Registry registry) { return wrapperContained.method_60389(registry.wrapperContained); }
+// public static java.lang.Object method_60389(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_60389(registry.wrapperContained); }
+// public yarnwrap.registry.RegistryEntryLookup createEntryLookup(yarnwrap.registry.Registry registry) { return new yarnwrap.registry.RegistryEntryLookup(wrapperContained.createEntryLookup(registry.wrapperContained)); }
+// public static yarnwrap.registry.RegistryEntryLookup createEntryLookup(yarnwrap.registry.Registry registry, ) { return new yarnwrap.registry.RegistryEntryLookup(net.minecraft.registry.Registries.createEntryLookup(registry.wrapperContained)); }
+// public void resetTagEntries(yarnwrap.registry.Registry registry) { wrapperContained.resetTagEntries(registry.wrapperContained); }
+// public static void resetTagEntries(yarnwrap.registry.Registry registry, ) { net.minecraft.registry.Registries.resetTagEntries(registry.wrapperContained); }
+// public java.lang.Object method_62991(yarnwrap.registry.Registry registry) { return wrapperContained.method_62991(registry.wrapperContained); }
+// public static java.lang.Object method_62991(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_62991(registry.wrapperContained); }
+// public java.lang.Object method_66552(yarnwrap.registry.Registry registry) { return wrapperContained.method_66552(registry.wrapperContained); }
+// public static java.lang.Object method_66552(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_66552(registry.wrapperContained); }
+// public java.lang.Object method_66903(yarnwrap.registry.Registry registry) { return wrapperContained.method_66903(registry.wrapperContained); }
+// public static java.lang.Object method_66903(yarnwrap.registry.Registry registry, ) { return net.minecraft.registry.Registries.method_66903(registry.wrapperContained); }
 
 }

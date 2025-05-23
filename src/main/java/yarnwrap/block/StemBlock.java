@@ -1,10 +1,10 @@
 package yarnwrap.block;
 public class StemBlock { public net.minecraft.block.StemBlock wrapperContained; public StemBlock(net.minecraft.block.StemBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public net.minecraft.util.shape.VoxelShape[] AGE_TO_SHAPE() { return wrapperContained.AGE_TO_SHAPE; }
-// public void AGE_TO_SHAPE(net.minecraft.util.shape.VoxelShape[] value) { wrapperContained.AGE_TO_SHAPE = value; }
-// public static net.minecraft.util.shape.VoxelShape[] AGE_TO_SHAPE() { return net.minecraft.block.StemBlock.AGE_TO_SHAPE; }
-// public static void AGE_TO_SHAPE(net.minecraft.util.shape.VoxelShape[] value, ) { net.minecraft.block.StemBlock.AGE_TO_SHAPE = value; }
+// public net.minecraft.util.shape.VoxelShape[] SHAPES_BY_AGE() { return wrapperContained.SHAPES_BY_AGE; }
+// public void SHAPES_BY_AGE(net.minecraft.util.shape.VoxelShape[] value) { wrapperContained.SHAPES_BY_AGE = value; }
+// public static net.minecraft.util.shape.VoxelShape[] SHAPES_BY_AGE() { return net.minecraft.block.StemBlock.SHAPES_BY_AGE; }
+// public static void SHAPES_BY_AGE(net.minecraft.util.shape.VoxelShape[] value, ) { net.minecraft.block.StemBlock.SHAPES_BY_AGE = value; }
 
 // public yarnwrap.state.property.IntProperty AGE() { return new yarnwrap.state.property.IntProperty(wrapperContained.AGE); }
 // public void AGE(yarnwrap.state.property.IntProperty value) { wrapperContained.AGE = value.wrapperContained; }
@@ -45,5 +45,7 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static yarnwrap.registry.RegistryKey method_54051(yarnwrap.block.StemBlock block, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.block.StemBlock.method_54051(block.wrapperContained)); }
 // public yarnwrap.registry.RegistryKey method_54052(yarnwrap.block.StemBlock block) { return new yarnwrap.registry.RegistryKey(wrapperContained.method_54052(block.wrapperContained)); }
 // public static yarnwrap.registry.RegistryKey method_54052(yarnwrap.block.StemBlock block, ) { return new yarnwrap.registry.RegistryKey(net.minecraft.block.StemBlock.method_54052(block.wrapperContained)); }
+// public yarnwrap.util.shape.VoxelShape method_66468(int age) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_66468(age)); }
+// public static yarnwrap.util.shape.VoxelShape method_66468(int age, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.StemBlock.method_66468(age)); }
 
 }

@@ -46,6 +46,11 @@ public static yarnwrap.world.gen.placementmodifier.PlacementModifier FOUR_ABOVE_
 public static yarnwrap.world.gen.placementmodifier.PlacementModifier BOTTOM_TO_120_RANGE() { return new yarnwrap.world.gen.placementmodifier.PlacementModifier(net.minecraft.world.gen.feature.PlacedFeatures.BOTTOM_TO_120_RANGE); }
 // public static void BOTTOM_TO_120_RANGE(yarnwrap.world.gen.placementmodifier.PlacementModifier value, ) { net.minecraft.world.gen.feature.PlacedFeatures.BOTTOM_TO_120_RANGE = value.wrapperContained; }
 
+// public yarnwrap.world.gen.placementmodifier.PlacementModifier MOTION_BLOCKING_NO_LEAVES_HEIGHTMAP() { return new yarnwrap.world.gen.placementmodifier.PlacementModifier(wrapperContained.MOTION_BLOCKING_NO_LEAVES_HEIGHTMAP); }
+// public void MOTION_BLOCKING_NO_LEAVES_HEIGHTMAP(yarnwrap.world.gen.placementmodifier.PlacementModifier value) { wrapperContained.MOTION_BLOCKING_NO_LEAVES_HEIGHTMAP = value.wrapperContained; }
+public static yarnwrap.world.gen.placementmodifier.PlacementModifier MOTION_BLOCKING_NO_LEAVES_HEIGHTMAP() { return new yarnwrap.world.gen.placementmodifier.PlacementModifier(net.minecraft.world.gen.feature.PlacedFeatures.MOTION_BLOCKING_NO_LEAVES_HEIGHTMAP); }
+// public static void MOTION_BLOCKING_NO_LEAVES_HEIGHTMAP(yarnwrap.world.gen.placementmodifier.PlacementModifier value, ) { net.minecraft.world.gen.feature.PlacedFeatures.MOTION_BLOCKING_NO_LEAVES_HEIGHTMAP = value.wrapperContained; }
+
 // public void bootstrap(yarnwrap.registry.Registerable featureRegisterable) { wrapperContained.bootstrap(featureRegisterable.wrapperContained); }
 // public static void bootstrap(yarnwrap.registry.Registerable featureRegisterable, ) { net.minecraft.world.gen.feature.PlacedFeatures.bootstrap(featureRegisterable.wrapperContained); }
 // public yarnwrap.world.gen.placementmodifier.PlacementModifier createCountExtraModifier(int count,float extraChance,int extraCount) { return new yarnwrap.world.gen.placementmodifier.PlacementModifier(wrapperContained.createCountExtraModifier(count,extraChance,extraCount)); }

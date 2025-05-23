@@ -92,6 +92,12 @@ public class StatsScreen { public net.minecraft.client.gui.screen.StatsScreen wr
 // public static void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value, ) { net.minecraft.client.gui.screen.StatsScreen.layout = value.wrapperContained; }
 
 public StatsScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.stat.StatHandler statHandler) { this.wrapperContained = new net.minecraft.client.gui.screen.StatsScreen(parent.wrapperContained,statHandler.wrapperContained); }
+public void createButtons() { wrapperContained.createButtons(); }
+// public static void createButtons() { net.minecraft.client.gui.screen.StatsScreen.createButtons(); }
+public void createLists() { wrapperContained.createLists(); }
+// public static void createLists() { net.minecraft.client.gui.screen.StatsScreen.createLists(); }
+public void onStatsReady() { wrapperContained.onStatsReady(); }
+// public static void onStatsReady() { net.minecraft.client.gui.screen.StatsScreen.onStatsReady(); }
 public void selectStatList(yarnwrap.client.gui.widget.AlwaysSelectedEntryListWidget list) { wrapperContained.selectStatList(list.wrapperContained); }
 // public static void selectStatList(yarnwrap.client.gui.widget.AlwaysSelectedEntryListWidget list, ) { net.minecraft.client.gui.screen.StatsScreen.selectStatList(list.wrapperContained); }
 // public void method_19866(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19866(button.wrapperContained); }
@@ -102,12 +108,6 @@ public void selectStatList(yarnwrap.client.gui.widget.AlwaysSelectedEntryListWid
 // public static void method_19868(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.StatsScreen.method_19868(button.wrapperContained); }
 // public void method_19869(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19869(button.wrapperContained); }
 // public static void method_19869(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.StatsScreen.method_19869(button.wrapperContained); }
-public void createButtons() { wrapperContained.createButtons(); }
-// public static void createButtons() { net.minecraft.client.gui.screen.StatsScreen.createButtons(); }
-public void createLists() { wrapperContained.createLists(); }
-// public static void createLists() { net.minecraft.client.gui.screen.StatsScreen.createLists(); }
-public void onStatsReady() { wrapperContained.onStatsReady(); }
-// public static void onStatsReady() { net.minecraft.client.gui.screen.StatsScreen.onStatsReady(); }
 // public java.lang.String getStatTranslationKey(yarnwrap.stat.Stat stat) { return wrapperContained.getStatTranslationKey(stat.wrapperContained); }
 // public static java.lang.String getStatTranslationKey(yarnwrap.stat.Stat stat, ) { return net.minecraft.client.gui.screen.StatsScreen.getStatTranslationKey(stat.wrapperContained); }
 // public void method_57739(yarnwrap.client.gui.screen.StatsScreen child) { wrapperContained.method_57739(child.wrapperContained); }

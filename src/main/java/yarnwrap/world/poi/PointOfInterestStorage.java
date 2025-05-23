@@ -24,14 +24,18 @@ public boolean test(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate
 // public static java.lang.Boolean method_19117(yarnwrap.util.math.BlockPos poiSet, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_19117(poiSet.wrapperContained); }
 public int getDistanceFromNearestOccupied(yarnwrap.util.math.ChunkSectionPos pos) { return wrapperContained.getDistanceFromNearestOccupied(pos.wrapperContained); }
 // public static int getDistanceFromNearestOccupied(yarnwrap.util.math.ChunkSectionPos pos, ) { return net.minecraft.world.poi.PointOfInterestStorage.getDistanceFromNearestOccupied(pos.wrapperContained); }
+// public java.util.stream.Stream method_19120(java.util.function.Predicate poiSet) { return wrapperContained.method_19120(poiSet); }
+// public static java.util.stream.Stream method_19120(java.util.function.Predicate poiSet, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_19120(poiSet); }
 // public java.util.stream.Stream method_19121(java.util.function.Predicate chunkPos) { return wrapperContained.method_19121(chunkPos); }
 // public static java.util.stream.Stream method_19121(java.util.function.Predicate chunkPos, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_19121(chunkPos); }
 // public java.util.stream.Stream getInChunk(java.util.function.Predicate typePredicate,yarnwrap.util.math.ChunkPos chunkPos,Object occupationStatus) { return wrapperContained.getInChunk(typePredicate,chunkPos.wrapperContained,occupationStatus); }
 // public static java.util.stream.Stream getInChunk(java.util.function.Predicate typePredicate,yarnwrap.util.math.ChunkPos chunkPos,Object occupationStatus, ) { return net.minecraft.world.poi.PointOfInterestStorage.getInChunk(typePredicate,chunkPos.wrapperContained,occupationStatus); }
+// public java.util.Optional method_19124(yarnwrap.util.math.ChunkPos coord) { return wrapperContained.method_19124(coord.wrapperContained); }
+// public static java.util.Optional method_19124(yarnwrap.util.math.ChunkPos coord, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_19124(coord.wrapperContained); }
 // public java.util.stream.Stream getInCircle(java.util.function.Predicate typePredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus) { return wrapperContained.getInCircle(typePredicate,pos.wrapperContained,radius,occupationStatus); }
 // public static java.util.stream.Stream getInCircle(java.util.function.Predicate typePredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus, ) { return net.minecraft.world.poi.PointOfInterestStorage.getInCircle(typePredicate,pos.wrapperContained,radius,occupationStatus); }
-// public java.util.Optional getPosition(java.util.function.Predicate typePredicate,java.util.function.BiPredicate pos,yarnwrap.util.math.BlockPos radius) { return wrapperContained.getPosition(typePredicate,pos,radius.wrapperContained); }
-// public static java.util.Optional getPosition(java.util.function.Predicate typePredicate,java.util.function.BiPredicate pos,yarnwrap.util.math.BlockPos radius, ) { return net.minecraft.world.poi.PointOfInterestStorage.getPosition(typePredicate,pos,radius.wrapperContained); }
+public java.util.Optional getPosition(java.util.function.Predicate typePredicate,java.util.function.BiPredicate posPredicate,yarnwrap.util.math.BlockPos pos,int radius) { return wrapperContained.getPosition(typePredicate,posPredicate,pos.wrapperContained,radius); }
+// public static java.util.Optional getPosition(java.util.function.Predicate typePredicate,java.util.function.BiPredicate posPredicate,yarnwrap.util.math.BlockPos pos,int radius, ) { return net.minecraft.world.poi.PointOfInterestStorage.getPosition(typePredicate,posPredicate,pos.wrapperContained,radius); }
 // public java.util.Optional getPosition(java.util.function.Predicate typePredicate,java.util.function.Predicate posPredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus) { return wrapperContained.getPosition(typePredicate,posPredicate,pos.wrapperContained,radius,occupationStatus); }
 // public static java.util.Optional getPosition(java.util.function.Predicate typePredicate,java.util.function.Predicate posPredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus, ) { return net.minecraft.world.poi.PointOfInterestStorage.getPosition(typePredicate,posPredicate,pos.wrapperContained,radius,occupationStatus); }
 // public yarnwrap.util.math.BlockPos method_19128(yarnwrap.world.poi.PointOfInterest poi) { return new yarnwrap.util.math.BlockPos(wrapperContained.method_19128(poi.wrapperContained)); }
@@ -50,6 +54,8 @@ public void initForPalette(yarnwrap.util.math.ChunkSectionPos sectionPos,yarnwra
 // public static void method_19511(yarnwrap.world.chunk.ChunkSection pos, ) { net.minecraft.world.poi.PointOfInterestStorage.method_19511(pos.wrapperContained); }
 // public void method_19512(java.util.function.BiConsumer poiType) { wrapperContained.method_19512(poiType); }
 // public static void method_19512(java.util.function.BiConsumer poiType, ) { net.minecraft.world.poi.PointOfInterestStorage.method_19512(poiType); }
+// public double method_20003(yarnwrap.util.math.BlockPos poiPos) { return wrapperContained.method_20003(poiPos.wrapperContained); }
+// public static double method_20003(yarnwrap.util.math.BlockPos poiPos, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_20003(poiPos.wrapperContained); }
 // public boolean method_20004(java.util.function.Predicate poi) { return wrapperContained.method_20004(poi); }
 // public static boolean method_20004(java.util.function.Predicate poi, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_20004(poi); }
 // public java.util.Optional getPosition(java.util.function.Predicate typePredicate,java.util.function.Predicate positionPredicate,Object occupationStatus,yarnwrap.util.math.BlockPos pos,int radius,yarnwrap.util.math.random.Random random) { return wrapperContained.getPosition(typePredicate,positionPredicate,occupationStatus,pos.wrapperContained,radius,random.wrapperContained); }
@@ -72,16 +78,24 @@ public void initForPalette(yarnwrap.util.math.ChunkSectionPos sectionPos,yarnwra
 // public static java.util.stream.Stream getPositions(java.util.function.Predicate typePredicate,java.util.function.Predicate posPredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus, ) { return net.minecraft.world.poi.PointOfInterestStorage.getPositions(typePredicate,posPredicate,pos.wrapperContained,radius,occupationStatus); }
 // public java.util.stream.Stream getInSquare(java.util.function.Predicate typePredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus) { return wrapperContained.getInSquare(typePredicate,pos.wrapperContained,radius,occupationStatus); }
 // public static java.util.stream.Stream getInSquare(java.util.function.Predicate typePredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus, ) { return net.minecraft.world.poi.PointOfInterestStorage.getInSquare(typePredicate,pos.wrapperContained,radius,occupationStatus); }
+// public void method_22438(yarnwrap.world.WorldView chunkPos) { wrapperContained.method_22438(chunkPos.wrapperContained); }
+// public static void method_22438(yarnwrap.world.WorldView chunkPos, ) { net.minecraft.world.poi.PointOfInterestStorage.method_22438(chunkPos.wrapperContained); }
 public void preloadChunks(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,int radius) { wrapperContained.preloadChunks(world.wrapperContained,pos.wrapperContained,radius); }
 // public static void preloadChunks(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,int radius, ) { net.minecraft.world.poi.PointOfInterestStorage.preloadChunks(world.wrapperContained,pos.wrapperContained,radius); }
+// public yarnwrap.util.math.ChunkPos method_22440(com.mojang.datafixers.util.Pair pair) { return new yarnwrap.util.math.ChunkPos(wrapperContained.method_22440(pair)); }
+// public static yarnwrap.util.math.ChunkPos method_22440(com.mojang.datafixers.util.Pair pair, ) { return new yarnwrap.util.math.ChunkPos(net.minecraft.world.poi.PointOfInterestStorage.method_22440(pair)); }
 // public boolean method_22441(yarnwrap.util.math.ChunkPos chunkPos) { return wrapperContained.method_22441(chunkPos.wrapperContained); }
 // public static boolean method_22441(yarnwrap.util.math.ChunkPos chunkPos, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_22441(chunkPos.wrapperContained); }
+// public boolean method_22442(com.mojang.datafixers.util.Pair pair) { return wrapperContained.method_22442(pair); }
+// public static boolean method_22442(com.mojang.datafixers.util.Pair pair, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_22442(pair); }
 // public com.mojang.datafixers.util.Pair method_22443(yarnwrap.util.math.ChunkSectionPos sectionPos) { return wrapperContained.method_22443(sectionPos.wrapperContained); }
 // public static com.mojang.datafixers.util.Pair method_22443(yarnwrap.util.math.ChunkSectionPos sectionPos, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_22443(sectionPos.wrapperContained); }
 public boolean hasTypeAt(yarnwrap.registry.RegistryKey type,yarnwrap.util.math.BlockPos pos) { return wrapperContained.hasTypeAt(type.wrapperContained,pos.wrapperContained); }
 // public static boolean hasTypeAt(yarnwrap.registry.RegistryKey type,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.poi.PointOfInterestStorage.hasTypeAt(type.wrapperContained,pos.wrapperContained); }
 // public boolean method_30335(yarnwrap.util.math.BlockPos poi) { return wrapperContained.method_30335(poi.wrapperContained); }
 // public static boolean method_30335(yarnwrap.util.math.BlockPos poi, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_30335(poi.wrapperContained); }
+// public double method_30956(yarnwrap.util.math.BlockPos pair) { return wrapperContained.method_30956(pair.wrapperContained); }
+// public static double method_30956(yarnwrap.util.math.BlockPos pair, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_30956(pair.wrapperContained); }
 // public java.util.stream.Stream getSortedTypesAndPositions(java.util.function.Predicate typePredicate,java.util.function.Predicate posPredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus) { return wrapperContained.getSortedTypesAndPositions(typePredicate,posPredicate,pos.wrapperContained,radius,occupationStatus); }
 // public static java.util.stream.Stream getSortedTypesAndPositions(java.util.function.Predicate typePredicate,java.util.function.Predicate posPredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus, ) { return net.minecraft.world.poi.PointOfInterestStorage.getSortedTypesAndPositions(typePredicate,posPredicate,pos.wrapperContained,radius,occupationStatus); }
 // public java.util.Optional method_33580(yarnwrap.util.math.BlockPos poiSet) { return wrapperContained.method_33580(poiSet.wrapperContained); }
@@ -90,6 +104,8 @@ public boolean hasTypeAt(yarnwrap.registry.RegistryKey type,yarnwrap.util.math.B
 // public static java.lang.Boolean method_33581(yarnwrap.util.math.BlockPos poiSet, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_33581(poiSet.wrapperContained); }
 // public void method_33582(yarnwrap.util.math.BlockPos poiSet) { wrapperContained.method_33582(poiSet.wrapperContained); }
 // public static void method_33582(yarnwrap.util.math.BlockPos poiSet, ) { net.minecraft.world.poi.PointOfInterestStorage.method_33582(poiSet.wrapperContained); }
+// public double method_34711(yarnwrap.util.math.BlockPos poiPos) { return wrapperContained.method_34711(poiPos.wrapperContained); }
+// public static double method_34711(yarnwrap.util.math.BlockPos poiPos, ) { return net.minecraft.world.poi.PointOfInterestStorage.method_34711(poiPos.wrapperContained); }
 // public java.util.Optional getNearestPosition(java.util.function.Predicate typePredicate,java.util.function.Predicate posPredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus) { return wrapperContained.getNearestPosition(typePredicate,posPredicate,pos.wrapperContained,radius,occupationStatus); }
 // public static java.util.Optional getNearestPosition(java.util.function.Predicate typePredicate,java.util.function.Predicate posPredicate,yarnwrap.util.math.BlockPos pos,int radius,Object occupationStatus, ) { return net.minecraft.world.poi.PointOfInterestStorage.getNearestPosition(typePredicate,posPredicate,pos.wrapperContained,radius,occupationStatus); }
 // public java.lang.Integer method_35154(yarnwrap.util.math.BlockPos poiSet) { return wrapperContained.method_35154(poiSet.wrapperContained); }

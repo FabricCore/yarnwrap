@@ -14,6 +14,8 @@ public static com.mojang.serialization.MapCodec MODIFIER_CODEC() { return net.mi
 // public HeightmapPlacementModifier(Object heightmap) { this.wrapperContained = new net.minecraft.world.gen.placementmodifier.HeightmapPlacementModifier(heightmap); }
 // public com.mojang.datafixers.kinds.App method_34330(Object instance) { return wrapperContained.method_34330(instance); }
 // public static com.mojang.datafixers.kinds.App method_34330(Object instance, ) { return net.minecraft.world.gen.placementmodifier.HeightmapPlacementModifier.method_34330(instance); }
+// public Object method_34331(yarnwrap.world.gen.placementmodifier.HeightmapPlacementModifier placementModifier) { return wrapperContained.method_34331(placementModifier.wrapperContained); }
+// public static Object method_34331(yarnwrap.world.gen.placementmodifier.HeightmapPlacementModifier placementModifier, ) { return net.minecraft.world.gen.placementmodifier.HeightmapPlacementModifier.method_34331(placementModifier.wrapperContained); }
 // public yarnwrap.world.gen.placementmodifier.HeightmapPlacementModifier of(Object heightmap) { return new yarnwrap.world.gen.placementmodifier.HeightmapPlacementModifier(wrapperContained.of(heightmap)); }
 // public static yarnwrap.world.gen.placementmodifier.HeightmapPlacementModifier of(Object heightmap, ) { return new yarnwrap.world.gen.placementmodifier.HeightmapPlacementModifier(net.minecraft.world.gen.placementmodifier.HeightmapPlacementModifier.of(heightmap)); }
 

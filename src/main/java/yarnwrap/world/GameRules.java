@@ -1,6 +1,16 @@
 package yarnwrap.world;
 public class GameRules { public net.minecraft.world.GameRules wrapperContained; public GameRules(net.minecraft.world.GameRules wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public java.util.Map rules() { return wrapperContained.rules; }
+// public void rules(java.util.Map value) { wrapperContained.rules = value; }
+// public static java.util.Map rules() { return net.minecraft.world.GameRules.rules; }
+// public static void rules(java.util.Map value, ) { net.minecraft.world.GameRules.rules = value; }
+
+// public java.util.Map RULE_TYPES() { return wrapperContained.RULE_TYPES; }
+// public void RULE_TYPES(java.util.Map value) { wrapperContained.RULE_TYPES = value; }
+// public static java.util.Map RULE_TYPES() { return net.minecraft.world.GameRules.RULE_TYPES; }
+// public static void RULE_TYPES(java.util.Map value, ) { net.minecraft.world.GameRules.RULE_TYPES = value; }
+
 // public Object DO_MOB_GRIEFING() { return wrapperContained.DO_MOB_GRIEFING; }
 // // public void DO_MOB_GRIEFING(Object value) { wrapperContained.DO_MOB_GRIEFING = value; }
 // public static Object DO_MOB_GRIEFING() { return net.minecraft.world.GameRules.DO_MOB_GRIEFING; }
@@ -61,28 +71,34 @@ public class GameRules { public net.minecraft.world.GameRules wrapperContained; 
 public static int DEFAULT_RANDOM_TICK_SPEED() { return net.minecraft.world.GameRules.DEFAULT_RANDOM_TICK_SPEED; }
 // public static void DEFAULT_RANDOM_TICK_SPEED(int value, ) { net.minecraft.world.GameRules.DEFAULT_RANDOM_TICK_SPEED = value; }
 
-// public java.util.Map rules() { return wrapperContained.rules; }
-// public void rules(java.util.Map value) { wrapperContained.rules = value; }
-// public static java.util.Map rules() { return net.minecraft.world.GameRules.rules; }
-// public static void rules(java.util.Map value, ) { net.minecraft.world.GameRules.rules = value; }
+// public yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures() { return new yarnwrap.resource.featuretoggle.FeatureSet(wrapperContained.enabledFeatures); }
+// public void enabledFeatures(yarnwrap.resource.featuretoggle.FeatureSet value) { wrapperContained.enabledFeatures = value.wrapperContained; }
+// public static yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures() { return new yarnwrap.resource.featuretoggle.FeatureSet(net.minecraft.world.GameRules.enabledFeatures); }
+// public static void enabledFeatures(yarnwrap.resource.featuretoggle.FeatureSet value, ) { net.minecraft.world.GameRules.enabledFeatures = value.wrapperContained; }
 
-// public java.util.Map RULE_TYPES() { return wrapperContained.RULE_TYPES; }
-// public void RULE_TYPES(java.util.Map value) { wrapperContained.RULE_TYPES = value; }
-// public static java.util.Map RULE_TYPES() { return net.minecraft.world.GameRules.RULE_TYPES; }
-// public static void RULE_TYPES(java.util.Map value, ) { net.minecraft.world.GameRules.RULE_TYPES = value; }
-
-public GameRules(com.mojang.serialization.DynamicLike dynamic) { this.wrapperContained = new net.minecraft.world.GameRules(dynamic); }
-// public GameRules(java.util.Map rules) { this.wrapperContained = new net.minecraft.world.GameRules(rules); }
+// public GameRules(java.util.Map rules,yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures) { this.wrapperContained = new net.minecraft.world.GameRules(rules,enabledFeatures.wrapperContained); }
+public GameRules(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures) { this.wrapperContained = new net.minecraft.world.GameRules(enabledFeatures.wrapperContained); }
+public GameRules(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,com.mojang.serialization.DynamicLike values) { this.wrapperContained = new net.minecraft.world.GameRules(enabledFeatures.wrapperContained,values); }
+// public boolean getBoolean(Object rule) { return wrapperContained.getBoolean(rule); }
+// public static boolean getBoolean(Object rule, ) { return net.minecraft.world.GameRules.getBoolean(rule); }
+// public int getInt(Object rule) { return wrapperContained.getInt(rule); }
+// public static int getInt(Object rule, ) { return net.minecraft.world.GameRules.getInt(rule); }
+// public void load(com.mojang.serialization.DynamicLike values) { wrapperContained.load(values); }
+// public static void load(com.mojang.serialization.DynamicLike values, ) { net.minecraft.world.GameRules.load(values); }
+public yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt()); }
+// public static yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(net.minecraft.world.GameRules.toNbt()); }
+// public Object register(java.lang.String name,Object category,Object type) { return wrapperContained.register(name,category,type); }
+// public static Object register(java.lang.String name,Object category,Object type, ) { return net.minecraft.world.GameRules.register(name,category,type); }
+// public void method_8361(yarnwrap.server.MinecraftServer server,Object rule) { wrapperContained.method_8361(server.wrapperContained,rule); }
+// public static void method_8361(yarnwrap.server.MinecraftServer server,Object rule, ) { net.minecraft.world.GameRules.method_8361(server.wrapperContained,rule); }
 // public void accept(Object visitor) { wrapperContained.accept(visitor); }
 // public static void accept(Object visitor, ) { net.minecraft.world.GameRules.accept(visitor); }
-// public void accept(Object consumer,Object key,Object type) { wrapperContained.accept(consumer,key,type); }
-// public static void accept(Object consumer,Object key,Object type, ) { net.minecraft.world.GameRules.accept(consumer,key,type); }
+// public void accept(Object visitor,Object key,Object type) { wrapperContained.accept(visitor,key,type); }
+// public static void accept(Object visitor,Object key,Object type, ) { net.minecraft.world.GameRules.accept(visitor,key,type); }
 // public Object get(Object key) { return wrapperContained.get(key); }
 // public static Object get(Object key, ) { return net.minecraft.world.GameRules.get(key); }
 // public void method_20747(com.mojang.serialization.DynamicLike key,Object rule) { wrapperContained.method_20747(key,rule); }
 // public static void method_20747(com.mojang.serialization.DynamicLike key,Object rule, ) { net.minecraft.world.GameRules.method_20747(key,rule); }
-// public Object method_20748(Object e) { return wrapperContained.method_20748(e); }
-// public static Object method_20748(Object e, ) { return net.minecraft.world.GameRules.method_20748(e); }
 // public void method_20750(Object key,Object type) { wrapperContained.method_20750(key,type); }
 // public static void method_20750(Object key,Object type, ) { net.minecraft.world.GameRules.method_20750(key,type); }
 // public void method_20751(yarnwrap.nbt.NbtCompound key,Object rule) { wrapperContained.method_20751(key.wrapperContained,rule); }
@@ -97,25 +113,33 @@ public void setAllValues(yarnwrap.world.GameRules rules,yarnwrap.server.Minecraf
 // public static void method_27323(yarnwrap.world.GameRules key, ) { net.minecraft.world.GameRules.method_27323(key.wrapperContained); }
 // public Object method_27324(Object entry) { return wrapperContained.method_27324(entry); }
 // public static Object method_27324(Object entry, ) { return net.minecraft.world.GameRules.method_27324(entry); }
-public yarnwrap.world.GameRules copy() { return new yarnwrap.world.GameRules(wrapperContained.copy()); }
-// public static yarnwrap.world.GameRules copy() { return new yarnwrap.world.GameRules(net.minecraft.world.GameRules.copy()); }
+public yarnwrap.world.GameRules copy(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures) { return new yarnwrap.world.GameRules(wrapperContained.copy(enabledFeatures.wrapperContained)); }
+// public static yarnwrap.world.GameRules copy(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures, ) { return new yarnwrap.world.GameRules(net.minecraft.world.GameRules.copy(enabledFeatures.wrapperContained)); }
 // public void method_53838(yarnwrap.server.MinecraftServer server,Object rule) { wrapperContained.method_53838(server.wrapperContained,rule); }
 // public static void method_53838(yarnwrap.server.MinecraftServer server,Object rule, ) { net.minecraft.world.GameRules.method_53838(server.wrapperContained,rule); }
 // public void method_53839(yarnwrap.server.MinecraftServer server,Object rule) { wrapperContained.method_53839(server.wrapperContained,rule); }
 // public static void method_53839(yarnwrap.server.MinecraftServer server,Object rule, ) { net.minecraft.world.GameRules.method_53839(server.wrapperContained,rule); }
 // public void method_56113(yarnwrap.server.MinecraftServer server,Object value) { wrapperContained.method_56113(server.wrapperContained,value); }
 // public static void method_56113(yarnwrap.server.MinecraftServer server,Object value, ) { net.minecraft.world.GameRules.method_56113(server.wrapperContained,value); }
-// public boolean getBoolean(Object rule) { return wrapperContained.getBoolean(rule); }
-// public static boolean getBoolean(Object rule, ) { return net.minecraft.world.GameRules.getBoolean(rule); }
-// public int getInt(Object rule) { return wrapperContained.getInt(rule); }
-// public static int getInt(Object rule, ) { return net.minecraft.world.GameRules.getInt(rule); }
-// public void load(com.mojang.serialization.DynamicLike dynamic) { wrapperContained.load(dynamic); }
-// public static void load(com.mojang.serialization.DynamicLike dynamic, ) { net.minecraft.world.GameRules.load(dynamic); }
-public yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(wrapperContained.toNbt()); }
-// public static yarnwrap.nbt.NbtCompound toNbt() { return new yarnwrap.nbt.NbtCompound(net.minecraft.world.GameRules.toNbt()); }
-// public Object register(java.lang.String name,Object category,Object type) { return wrapperContained.register(name,category,type); }
-// public static Object register(java.lang.String name,Object category,Object type, ) { return net.minecraft.world.GameRules.register(name,category,type); }
-// public void method_8361(yarnwrap.server.MinecraftServer server,Object rule) { wrapperContained.method_8361(server.wrapperContained,rule); }
-// public static void method_8361(yarnwrap.server.MinecraftServer server,Object rule, ) { net.minecraft.world.GameRules.method_8361(server.wrapperContained,rule); }
+// public boolean method_61724(yarnwrap.resource.featuretoggle.FeatureSet entry) { return wrapperContained.method_61724(entry.wrapperContained); }
+// public static boolean method_61724(yarnwrap.resource.featuretoggle.FeatureSet entry, ) { return net.minecraft.world.GameRules.method_61724(entry.wrapperContained); }
+// public java.util.stream.Stream streamAllRules(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures) { return wrapperContained.streamAllRules(enabledFeatures.wrapperContained); }
+// public static java.util.stream.Stream streamAllRules(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures, ) { return net.minecraft.world.GameRules.streamAllRules(enabledFeatures.wrapperContained); }
+// public Object method_61726(Object entry) { return wrapperContained.method_61726(entry); }
+// public static Object method_61726(Object entry, ) { return net.minecraft.world.GameRules.method_61726(entry); }
+// public void method_61727(yarnwrap.server.MinecraftServer server,Object value) { wrapperContained.method_61727(server.wrapperContained,value); }
+// public static void method_61727(yarnwrap.server.MinecraftServer server,Object value, ) { net.minecraft.world.GameRules.method_61727(server.wrapperContained,value); }
+// public Object getRuleType(Object key) { return wrapperContained.getRuleType(key); }
+// public static Object getRuleType(Object key, ) { return net.minecraft.world.GameRules.getRuleType(key); }
+// public com.mojang.serialization.Codec createKeyCodec(java.lang.Class ruleClass) { return wrapperContained.createKeyCodec(ruleClass); }
+// public static com.mojang.serialization.Codec createKeyCodec(java.lang.Class ruleClass, ) { return net.minecraft.world.GameRules.createKeyCodec(ruleClass); }
+// public boolean method_66705(java.lang.Class ruleType) { return wrapperContained.method_66705(ruleType); }
+// public static boolean method_66705(java.lang.Class ruleType, ) { return net.minecraft.world.GameRules.method_66705(ruleType); }
+// public boolean method_66707(java.lang.String key) { return wrapperContained.method_66707(key); }
+// public static boolean method_66707(java.lang.String key, ) { return net.minecraft.world.GameRules.method_66707(key); }
+// public void method_70741(Object world) { wrapperContained.method_70741(world); }
+// public static void method_70741(Object world, ) { net.minecraft.world.GameRules.method_70741(world); }
+// public void method_70742(yarnwrap.server.MinecraftServer server,Object rule) { wrapperContained.method_70742(server.wrapperContained,rule); }
+// public static void method_70742(yarnwrap.server.MinecraftServer server,Object rule, ) { net.minecraft.world.GameRules.method_70742(server.wrapperContained,rule); }
 
 }

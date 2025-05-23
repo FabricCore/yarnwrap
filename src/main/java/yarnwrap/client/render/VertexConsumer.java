@@ -39,5 +39,9 @@ public yarnwrap.client.render.VertexConsumer colorRgb(int rgb) { return new yarn
 // public static yarnwrap.client.render.VertexConsumer colorRgb(int rgb, ) { return new yarnwrap.client.render.VertexConsumer(net.minecraft.client.render.VertexConsumer.colorRgb(rgb)); }
 // public yarnwrap.client.render.VertexConsumer vertex(Object matrix,org.joml.Vector3f vec) { return new yarnwrap.client.render.VertexConsumer(wrapperContained.vertex(matrix,vec)); }
 // public static yarnwrap.client.render.VertexConsumer vertex(Object matrix,org.joml.Vector3f vec, ) { return new yarnwrap.client.render.VertexConsumer(net.minecraft.client.render.VertexConsumer.vertex(matrix,vec)); }
+// public yarnwrap.client.render.VertexConsumer normal(Object matrix,org.joml.Vector3f vec) { return new yarnwrap.client.render.VertexConsumer(wrapperContained.normal(matrix,vec)); }
+// public static yarnwrap.client.render.VertexConsumer normal(Object matrix,org.joml.Vector3f vec, ) { return new yarnwrap.client.render.VertexConsumer(net.minecraft.client.render.VertexConsumer.normal(matrix,vec)); }
+// public yarnwrap.client.render.VertexConsumer vertex(org.joml.Matrix3x2f matrix,float x,float y,float z) { return new yarnwrap.client.render.VertexConsumer(wrapperContained.vertex(matrix,x,y,z)); }
+// public static yarnwrap.client.render.VertexConsumer vertex(org.joml.Matrix3x2f matrix,float x,float y,float z, ) { return new yarnwrap.client.render.VertexConsumer(net.minecraft.client.render.VertexConsumer.vertex(matrix,x,y,z)); }
 
 }

@@ -110,5 +110,7 @@ public Object getStatus(long sectionPos) { return wrapperContained.getStatus(sec
 // public static void queueForUpdate(long sectionPos, ) { net.minecraft.world.chunk.light.LightStorage.queueForUpdate(sectionPos); }
 // public void queueForRemoval(long sectionPos) { wrapperContained.queueForRemoval(sectionPos); }
 // public static void queueForRemoval(long sectionPos, ) { net.minecraft.world.chunk.light.LightStorage.queueForRemoval(sectionPos); }
+// public boolean isColumnEnabled(long columnPos) { return wrapperContained.isColumnEnabled(columnPos); }
+// public static boolean isColumnEnabled(long columnPos, ) { return net.minecraft.world.chunk.light.LightStorage.isColumnEnabled(columnPos); }
 
 }

@@ -26,8 +26,6 @@ public com.mojang.serialization.DataResult decode(com.mojang.serialization.Dynam
 // public static com.mojang.serialization.DataResult decode(com.mojang.serialization.DynamicOps ops,java.lang.Object input, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.decode(ops,input); }
 public com.mojang.serialization.DataResult encode(java.lang.Object entryList,com.mojang.serialization.DynamicOps ops,java.lang.Object prefix) { return wrapperContained.encode(entryList,ops,prefix); }
 // public static com.mojang.serialization.DataResult encode(java.lang.Object entryList,com.mojang.serialization.DynamicOps ops,java.lang.Object prefix, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.encode(entryList,ops,prefix); }
-// public java.util.List method_40380(com.mojang.datafixers.util.Either either) { return wrapperContained.method_40380(either); }
-// public static java.util.List method_40380(com.mojang.datafixers.util.Either either, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.method_40380(either); }
 // public com.mojang.serialization.DataResult method_40381(com.mojang.datafixers.util.Pair pair) { return wrapperContained.method_40381(pair); }
 // public static com.mojang.serialization.DataResult method_40381(com.mojang.datafixers.util.Pair pair, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.method_40381(pair); }
 // public com.mojang.serialization.Codec createDirectEntryListCodec(com.mojang.serialization.Codec entryCodec,boolean alwaysSerializeAsList) { return wrapperContained.createDirectEntryListCodec(entryCodec,alwaysSerializeAsList); }
@@ -38,14 +36,10 @@ public com.mojang.serialization.DataResult encode(java.lang.Object entryList,com
 // public static com.mojang.serialization.DataResult method_40385(yarnwrap.registry.RegistryEntryLookup tag, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.method_40385(tag.wrapperContained); }
 // public com.mojang.serialization.DataResult method_40386(yarnwrap.registry.RegistryEntryLookup pair) { return wrapperContained.method_40386(pair.wrapperContained); }
 // public static com.mojang.serialization.DataResult method_40386(yarnwrap.registry.RegistryEntryLookup pair, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.method_40386(pair.wrapperContained); }
-// public com.mojang.datafixers.util.Either method_40387(java.util.List entries) { return wrapperContained.method_40387(entries); }
-// public static com.mojang.datafixers.util.Either method_40387(java.util.List entries, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.method_40387(entries); }
 // public com.mojang.serialization.Codec create(yarnwrap.registry.RegistryKey registryRef,com.mojang.serialization.Codec entryCodec,boolean alwaysSerializeAsList) { return wrapperContained.create(registryRef.wrapperContained,entryCodec,alwaysSerializeAsList); }
 // public static com.mojang.serialization.Codec create(yarnwrap.registry.RegistryKey registryRef,com.mojang.serialization.Codec entryCodec,boolean alwaysSerializeAsList, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.create(registryRef.wrapperContained,entryCodec,alwaysSerializeAsList); }
 // public com.mojang.serialization.DataResult encodeDirect(yarnwrap.registry.entry.RegistryEntryList entryList,com.mojang.serialization.DynamicOps ops,java.lang.Object prefix) { return wrapperContained.encodeDirect(entryList.wrapperContained,ops,prefix); }
 // public static com.mojang.serialization.DataResult encodeDirect(yarnwrap.registry.entry.RegistryEntryList entryList,com.mojang.serialization.DynamicOps ops,java.lang.Object prefix, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.encodeDirect(entryList.wrapperContained,ops,prefix); }
-// public java.util.List method_40390(java.util.List entries) { return wrapperContained.method_40390(entries); }
-// public static java.util.List method_40390(java.util.List entries, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.method_40390(entries); }
 // public com.mojang.datafixers.util.Pair method_58028(com.mojang.datafixers.util.Pair entries) { return wrapperContained.method_58028(entries); }
 // public static com.mojang.datafixers.util.Pair method_58028(com.mojang.datafixers.util.Pair entries, ) { return net.minecraft.registry.entry.RegistryEntryListCodec.method_58028(entries); }
 // public com.mojang.serialization.DataResult get(yarnwrap.registry.RegistryEntryLookup registry,yarnwrap.registry.tag.TagKey tag) { return wrapperContained.get(registry.wrapperContained,tag.wrapperContained); }

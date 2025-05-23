@@ -11,11 +11,6 @@ public class RuinedPortalStructurePiece { public net.minecraft.structure.RuinedP
 // // public static Object properties() { return net.minecraft.structure.RuinedPortalStructurePiece.properties; }
 // // public static void properties(Object value, ) { net.minecraft.structure.RuinedPortalStructurePiece.properties = value; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.structure.RuinedPortalStructurePiece.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.structure.RuinedPortalStructurePiece.LOGGER = value; }
-
 // public RuinedPortalStructurePiece(yarnwrap.structure.StructureTemplateManager manager,yarnwrap.util.math.BlockPos pos,Object verticalPlacement,Object properties,yarnwrap.util.Identifier id,yarnwrap.structure.StructureTemplate template,yarnwrap.util.BlockRotation rotation,yarnwrap.util.BlockMirror mirror) { this.wrapperContained = new net.minecraft.structure.RuinedPortalStructurePiece(manager.wrapperContained,pos.wrapperContained,verticalPlacement,properties,id.wrapperContained,template.wrapperContained,rotation.wrapperContained,mirror.wrapperContained); }
 public RuinedPortalStructurePiece(yarnwrap.structure.StructureTemplateManager manager,yarnwrap.nbt.NbtCompound nbt) { this.wrapperContained = new net.minecraft.structure.RuinedPortalStructurePiece(manager.wrapperContained,nbt.wrapperContained); }
 // public int getBaseHeight(yarnwrap.world.WorldAccess world,int x,int y,Object verticalPlacement) { return wrapperContained.getBaseHeight(world.wrapperContained,x,y,verticalPlacement); }

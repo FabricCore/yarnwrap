@@ -31,6 +31,11 @@ public static java.util.EnumSet NORMAL_HEIGHTMAP_TYPES() { return net.minecraft.
 // public static java.util.EnumSet WORLD_GEN_HEIGHTMAP_TYPES() { return net.minecraft.world.chunk.ChunkStatus.WORLD_GEN_HEIGHTMAP_TYPES; }
 // public static void WORLD_GEN_HEIGHTMAP_TYPES(java.util.EnumSet value, ) { net.minecraft.world.chunk.ChunkStatus.WORLD_GEN_HEIGHTMAP_TYPES = value; }
 
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.world.chunk.ChunkStatus.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.world.chunk.ChunkStatus.CODEC = value; }
+
 // public ChunkStatus(yarnwrap.world.chunk.ChunkStatus previous,java.util.EnumSet heightMapTypes,yarnwrap.world.chunk.ChunkType chunkType) { this.wrapperContained = new net.minecraft.world.chunk.ChunkStatus(previous.wrapperContained,heightMapTypes,chunkType.wrapperContained); }
 public java.util.EnumSet getHeightmapTypes() { return wrapperContained.getHeightmapTypes(); }
 // public static java.util.EnumSet getHeightmapTypes() { return net.minecraft.world.chunk.ChunkStatus.getHeightmapTypes(); }

@@ -12,8 +12,6 @@ public class Schema99 { public net.minecraft.datafixer.schema.Schema99 wrapperCo
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.datafixer.schema.Schema99.LOGGER = value; }
 
 public Schema99(int versionKey,com.mojang.datafixers.schemas.Schema parent) { this.wrapperContained = new net.minecraft.datafixer.schema.Schema99(versionKey,parent); }
-// public void targetEquipment(com.mojang.datafixers.schemas.Schema schema,java.util.Map map,java.lang.String entityId) { wrapperContained.targetEquipment(schema,map,entityId); }
-// public static void targetEquipment(com.mojang.datafixers.schemas.Schema schema,java.util.Map map,java.lang.String entityId, ) { net.minecraft.datafixer.schema.Schema99.targetEquipment(schema,map,entityId); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5340(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5340(name); }
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5340(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema99.method_5340(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5342(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5342(name); }
@@ -26,8 +24,6 @@ public Schema99(int versionKey,com.mojang.datafixers.schemas.Schema parent) { th
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5349(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema99.method_5349(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5351(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5351(name); }
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5351(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema99.method_5351(name); }
-// public com.mojang.datafixers.types.templates.TypeTemplate targetEquipment(com.mojang.datafixers.schemas.Schema schema) { return wrapperContained.targetEquipment(schema); }
-// public static com.mojang.datafixers.types.templates.TypeTemplate targetEquipment(com.mojang.datafixers.schemas.Schema schema, ) { return net.minecraft.datafixer.schema.Schema99.targetEquipment(schema); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5354(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5354(name); }
 // public static com.mojang.datafixers.types.templates.TypeTemplate method_5354(com.mojang.datafixers.schemas.Schema name, ) { return net.minecraft.datafixer.schema.Schema99.method_5354(name); }
 // public com.mojang.datafixers.types.templates.TypeTemplate method_5356(com.mojang.datafixers.schemas.Schema name) { return wrapperContained.method_5356(name); }

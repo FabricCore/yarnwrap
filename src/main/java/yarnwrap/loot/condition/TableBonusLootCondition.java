@@ -13,10 +13,10 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 
 // public java.util.List chances() { return wrapperContained.chances(); }
 // // public static java.util.List chances() { return net.minecraft.loot.condition.TableBonusLootCondition.chances(); }
-// public com.mojang.datafixers.kinds.App method_53405(Object instance) { return wrapperContained.method_53405(instance); }
-// public static com.mojang.datafixers.kinds.App method_53405(Object instance, ) { return net.minecraft.loot.condition.TableBonusLootCondition.method_53405(instance); }
 // public Object builder(yarnwrap.registry.entry.RegistryEntry enchantment,float chances) { return wrapperContained.builder(enchantment.wrapperContained,chances); }
 // public static Object builder(yarnwrap.registry.entry.RegistryEntry enchantment,float chances, ) { return net.minecraft.loot.condition.TableBonusLootCondition.builder(enchantment.wrapperContained,chances); }
+// public com.mojang.datafixers.kinds.App method_53405(Object instance) { return wrapperContained.method_53405(instance); }
+// public static com.mojang.datafixers.kinds.App method_53405(Object instance, ) { return net.minecraft.loot.condition.TableBonusLootCondition.method_53405(instance); }
 // public boolean test(java.lang.Object context) { return wrapperContained.test(context); }
 // public static boolean test(java.lang.Object context, ) { return net.minecraft.loot.condition.TableBonusLootCondition.test(context); }
 

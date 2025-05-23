@@ -41,10 +41,10 @@ public class HangingSignBlockEntityRenderer { public net.minecraft.client.render
 // public static java.lang.String V_CHAINS() { return net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.V_CHAINS; }
 // public static void V_CHAINS(java.lang.String value, ) { net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.V_CHAINS = value; }
 
-// public java.util.Map MODELS() { return wrapperContained.MODELS; }
-// public void MODELS(java.util.Map value) { wrapperContained.MODELS = value; }
-// public static java.util.Map MODELS() { return net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.MODELS; }
-// public static void MODELS(java.util.Map value, ) { net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.MODELS = value; }
+// public java.util.Map models() { return wrapperContained.models; }
+// public void models(java.util.Map value) { wrapperContained.models = value; }
+// public static java.util.Map models() { return net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.models; }
+// public static void models(java.util.Map value, ) { net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.models = value; }
 
 // public float MODEL_SCALE() { return wrapperContained.MODEL_SCALE; }
 // public void MODEL_SCALE(float value) { wrapperContained.MODEL_SCALE = value; }
@@ -61,9 +61,21 @@ public class HangingSignBlockEntityRenderer { public net.minecraft.client.render
 // public static yarnwrap.util.math.Vec3d TEXT_OFFSET() { return new yarnwrap.util.math.Vec3d(net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.TEXT_OFFSET); }
 // public static void TEXT_OFFSET(yarnwrap.util.math.Vec3d value, ) { net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.TEXT_OFFSET = value.wrapperContained; }
 
-// public Object method_45794(Object type) { return wrapperContained.method_45794(type); }
-// public static Object method_45794(Object type, ) { return net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.method_45794(type); }
-// public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
-public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.getTexturedModelData()); }
+// public yarnwrap.client.model.TexturedModelData getTexturedModelData(Object attachmentType) { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData(attachmentType)); }
+// public static yarnwrap.client.model.TexturedModelData getTexturedModelData(Object attachmentType, ) { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.getTexturedModelData(attachmentType)); }
+// public void setAngles(yarnwrap.client.util.math.MatrixStack matrices,float blockRotationDegrees) { wrapperContained.setAngles(matrices.wrapperContained,blockRotationDegrees); }
+// public static void setAngles(yarnwrap.client.util.math.MatrixStack matrices,float blockRotationDegrees, ) { net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.setAngles(matrices.wrapperContained,blockRotationDegrees); }
+// public Object method_65239(yarnwrap.block.WoodType attachmentType) { return wrapperContained.method_65239(attachmentType.wrapperContained); }
+// public static Object method_65239(yarnwrap.block.WoodType attachmentType, ) { return net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.method_65239(attachmentType.wrapperContained); }
+// public yarnwrap.client.model.Model method_65240(Object variant) { return new yarnwrap.client.model.Model(wrapperContained.method_65240(variant)); }
+// public static yarnwrap.client.model.Model method_65240(Object variant, ) { return new yarnwrap.client.model.Model(net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.method_65240(variant)); }
+// public Object method_65241(Object variant) { return wrapperContained.method_65241(variant); }
+// public static Object method_65241(Object variant, ) { return net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.method_65241(variant); }
+// public java.util.stream.Stream method_65242(yarnwrap.block.WoodType woodType) { return wrapperContained.method_65242(woodType.wrapperContained); }
+// public static java.util.stream.Stream method_65242(yarnwrap.block.WoodType woodType, ) { return net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.method_65242(woodType.wrapperContained); }
+// public void renderAsItem(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.model.Model model,yarnwrap.client.util.SpriteIdentifier texture) { wrapperContained.renderAsItem(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,model.wrapperContained,texture.wrapperContained); }
+// public static void renderAsItem(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.client.model.Model model,yarnwrap.client.util.SpriteIdentifier texture, ) { net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.renderAsItem(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,model.wrapperContained,texture.wrapperContained); }
+// public yarnwrap.client.model.Model createModel(yarnwrap.client.render.entity.model.LoadedEntityModels models,yarnwrap.block.WoodType woodType,Object attachmentType) { return new yarnwrap.client.model.Model(wrapperContained.createModel(models.wrapperContained,woodType.wrapperContained,attachmentType)); }
+// public static yarnwrap.client.model.Model createModel(yarnwrap.client.render.entity.model.LoadedEntityModels models,yarnwrap.block.WoodType woodType,Object attachmentType, ) { return new yarnwrap.client.model.Model(net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer.createModel(models.wrapperContained,woodType.wrapperContained,attachmentType)); }
 
 }

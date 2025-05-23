@@ -146,6 +146,66 @@ public static yarnwrap.registry.RegistryKey CHERRY_BEES_005() { return new yarnw
 public static yarnwrap.registry.RegistryKey CHERRY_CHECKED() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.CHERRY_CHECKED); }
 // public static void CHERRY_CHECKED(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.CHERRY_CHECKED = value.wrapperContained; }
 
+// public yarnwrap.registry.RegistryKey PALE_OAK_CHECKED() { return new yarnwrap.registry.RegistryKey(wrapperContained.PALE_OAK_CHECKED); }
+// public void PALE_OAK_CHECKED(yarnwrap.registry.RegistryKey value) { wrapperContained.PALE_OAK_CHECKED = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PALE_OAK_CHECKED() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.PALE_OAK_CHECKED); }
+// public static void PALE_OAK_CHECKED(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.PALE_OAK_CHECKED = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey PALE_OAK_CREAKING_CHECKED() { return new yarnwrap.registry.RegistryKey(wrapperContained.PALE_OAK_CREAKING_CHECKED); }
+// public void PALE_OAK_CREAKING_CHECKED(yarnwrap.registry.RegistryKey value) { wrapperContained.PALE_OAK_CREAKING_CHECKED = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey PALE_OAK_CREAKING_CHECKED() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.PALE_OAK_CREAKING_CHECKED); }
+// public static void PALE_OAK_CREAKING_CHECKED(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.PALE_OAK_CREAKING_CHECKED = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey BIRCH_BEES_002_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(wrapperContained.BIRCH_BEES_002_LEAF_LITTER); }
+// public void BIRCH_BEES_002_LEAF_LITTER(yarnwrap.registry.RegistryKey value) { wrapperContained.BIRCH_BEES_002_LEAF_LITTER = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey BIRCH_BEES_002_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.BIRCH_BEES_002_LEAF_LITTER); }
+// public static void BIRCH_BEES_002_LEAF_LITTER(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.BIRCH_BEES_002_LEAF_LITTER = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey OAK_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(wrapperContained.OAK_LEAF_LITTER); }
+// public void OAK_LEAF_LITTER(yarnwrap.registry.RegistryKey value) { wrapperContained.OAK_LEAF_LITTER = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey OAK_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.OAK_LEAF_LITTER); }
+// public static void OAK_LEAF_LITTER(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.OAK_LEAF_LITTER = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey DARK_OAK_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(wrapperContained.DARK_OAK_LEAF_LITTER); }
+// public void DARK_OAK_LEAF_LITTER(yarnwrap.registry.RegistryKey value) { wrapperContained.DARK_OAK_LEAF_LITTER = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey DARK_OAK_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.DARK_OAK_LEAF_LITTER); }
+// public static void DARK_OAK_LEAF_LITTER(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.DARK_OAK_LEAF_LITTER = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey BIRCH_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(wrapperContained.BIRCH_LEAF_LITTER); }
+// public void BIRCH_LEAF_LITTER(yarnwrap.registry.RegistryKey value) { wrapperContained.BIRCH_LEAF_LITTER = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey BIRCH_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.BIRCH_LEAF_LITTER); }
+// public static void BIRCH_LEAF_LITTER(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.BIRCH_LEAF_LITTER = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey FANCY_OAK_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(wrapperContained.FANCY_OAK_LEAF_LITTER); }
+// public void FANCY_OAK_LEAF_LITTER(yarnwrap.registry.RegistryKey value) { wrapperContained.FANCY_OAK_LEAF_LITTER = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey FANCY_OAK_LEAF_LITTER() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.FANCY_OAK_LEAF_LITTER); }
+// public static void FANCY_OAK_LEAF_LITTER(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.FANCY_OAK_LEAF_LITTER = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey FALLEN_OAK_TREE() { return new yarnwrap.registry.RegistryKey(wrapperContained.FALLEN_OAK_TREE); }
+// public void FALLEN_OAK_TREE(yarnwrap.registry.RegistryKey value) { wrapperContained.FALLEN_OAK_TREE = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey FALLEN_OAK_TREE() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.FALLEN_OAK_TREE); }
+// public static void FALLEN_OAK_TREE(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.FALLEN_OAK_TREE = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey FALLEN_BIRCH_TREE() { return new yarnwrap.registry.RegistryKey(wrapperContained.FALLEN_BIRCH_TREE); }
+// public void FALLEN_BIRCH_TREE(yarnwrap.registry.RegistryKey value) { wrapperContained.FALLEN_BIRCH_TREE = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey FALLEN_BIRCH_TREE() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.FALLEN_BIRCH_TREE); }
+// public static void FALLEN_BIRCH_TREE(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.FALLEN_BIRCH_TREE = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey FALLEN_SUPER_BIRCH_TREE() { return new yarnwrap.registry.RegistryKey(wrapperContained.FALLEN_SUPER_BIRCH_TREE); }
+// public void FALLEN_SUPER_BIRCH_TREE(yarnwrap.registry.RegistryKey value) { wrapperContained.FALLEN_SUPER_BIRCH_TREE = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey FALLEN_SUPER_BIRCH_TREE() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.FALLEN_SUPER_BIRCH_TREE); }
+// public static void FALLEN_SUPER_BIRCH_TREE(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.FALLEN_SUPER_BIRCH_TREE = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey FALLEN_SPRUCE_TREE() { return new yarnwrap.registry.RegistryKey(wrapperContained.FALLEN_SPRUCE_TREE); }
+// public void FALLEN_SPRUCE_TREE(yarnwrap.registry.RegistryKey value) { wrapperContained.FALLEN_SPRUCE_TREE = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey FALLEN_SPRUCE_TREE() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.FALLEN_SPRUCE_TREE); }
+// public static void FALLEN_SPRUCE_TREE(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.FALLEN_SPRUCE_TREE = value.wrapperContained; }
+
+// public yarnwrap.registry.RegistryKey FALLEN_JUNGLE_TREE() { return new yarnwrap.registry.RegistryKey(wrapperContained.FALLEN_JUNGLE_TREE); }
+// public void FALLEN_JUNGLE_TREE(yarnwrap.registry.RegistryKey value) { wrapperContained.FALLEN_JUNGLE_TREE = value.wrapperContained; }
+public static yarnwrap.registry.RegistryKey FALLEN_JUNGLE_TREE() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.TreePlacedFeatures.FALLEN_JUNGLE_TREE); }
+// public static void FALLEN_JUNGLE_TREE(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.FALLEN_JUNGLE_TREE = value.wrapperContained; }
+
 // public void bootstrap(yarnwrap.registry.Registerable featureRegisterable) { wrapperContained.bootstrap(featureRegisterable.wrapperContained); }
 // public static void bootstrap(yarnwrap.registry.Registerable featureRegisterable, ) { net.minecraft.world.gen.feature.TreePlacedFeatures.bootstrap(featureRegisterable.wrapperContained); }
 

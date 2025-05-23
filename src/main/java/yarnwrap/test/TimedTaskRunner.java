@@ -11,18 +11,18 @@ public class TimedTaskRunner { public net.minecraft.test.TimedTaskRunner wrapper
 // public static java.util.List tasks() { return net.minecraft.test.TimedTaskRunner.tasks; }
 // public static void tasks(java.util.List value, ) { net.minecraft.test.TimedTaskRunner.tasks = value; }
 
-// public long tick() { return wrapperContained.tick; }
-// public void tick(long value) { wrapperContained.tick = value; }
-// public static long tick() { return net.minecraft.test.TimedTaskRunner.tick; }
-// public static void tick(long value, ) { net.minecraft.test.TimedTaskRunner.tick = value; }
+// public int tick() { return wrapperContained.tick; }
+// public void tick(int value) { wrapperContained.tick = value; }
+// public static int tick() { return net.minecraft.test.TimedTaskRunner.tick; }
+// public static void tick(int value, ) { net.minecraft.test.TimedTaskRunner.tick = value; }
 
 // public TimedTaskRunner(yarnwrap.test.GameTestState gameTest) { this.wrapperContained = new net.minecraft.test.TimedTaskRunner(gameTest.wrapperContained); }
-public void runSilently(long tick) { wrapperContained.runSilently(tick); }
-// public static void runSilently(long tick, ) { net.minecraft.test.TimedTaskRunner.runSilently(tick); }
-public void runReported(long tick) { wrapperContained.runReported(tick); }
-// public static void runReported(long tick, ) { net.minecraft.test.TimedTaskRunner.runReported(tick); }
-// public void runTasks(long tick) { wrapperContained.runTasks(tick); }
-// public static void runTasks(long tick, ) { net.minecraft.test.TimedTaskRunner.runTasks(tick); }
+public void runSilently(int tick) { wrapperContained.runSilently(tick); }
+// public static void runSilently(int tick, ) { net.minecraft.test.TimedTaskRunner.runSilently(tick); }
+public void runReported(int tick) { wrapperContained.runReported(tick); }
+// public static void runReported(int tick, ) { net.minecraft.test.TimedTaskRunner.runReported(tick); }
+// public void runTasks(int tick) { wrapperContained.runTasks(tick); }
+// public static void runTasks(int tick, ) { net.minecraft.test.TimedTaskRunner.runTasks(tick); }
 public void completeIfSuccessful() { wrapperContained.completeIfSuccessful(); }
 // public static void completeIfSuccessful() { net.minecraft.test.TimedTaskRunner.completeIfSuccessful(); }
 public yarnwrap.test.TimedTaskRunner expectMinDuration(int minDuration) { return new yarnwrap.test.TimedTaskRunner(wrapperContained.expectMinDuration(minDuration)); }

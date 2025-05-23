@@ -16,20 +16,9 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 public static int DEFAULT_COLOR() { return net.minecraft.component.type.DyedColorComponent.DEFAULT_COLOR; }
 // public static void DEFAULT_COLOR(int value, ) { net.minecraft.component.type.DyedColorComponent.DEFAULT_COLOR = value; }
 
-// public com.mojang.serialization.Codec BASE_CODEC() { return wrapperContained.BASE_CODEC; }
-// public void BASE_CODEC(com.mojang.serialization.Codec value) { wrapperContained.BASE_CODEC = value; }
-// public static com.mojang.serialization.Codec BASE_CODEC() { return net.minecraft.component.type.DyedColorComponent.BASE_CODEC; }
-// public static void BASE_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.component.type.DyedColorComponent.BASE_CODEC = value; }
-
-// public com.mojang.datafixers.kinds.App method_57469(Object instance) { return wrapperContained.method_57469(instance); }
-// public static com.mojang.datafixers.kinds.App method_57469(Object instance, ) { return net.minecraft.component.type.DyedColorComponent.method_57469(instance); }
 // public int getColor(yarnwrap.item.ItemStack stack,int defaultColor) { return wrapperContained.getColor(stack.wrapperContained,defaultColor); }
 // public static int getColor(yarnwrap.item.ItemStack stack,int defaultColor, ) { return net.minecraft.component.type.DyedColorComponent.getColor(stack.wrapperContained,defaultColor); }
 // public yarnwrap.item.ItemStack setColor(yarnwrap.item.ItemStack stack,java.util.List dyes) { return new yarnwrap.item.ItemStack(wrapperContained.setColor(stack.wrapperContained,dyes)); }
 // public static yarnwrap.item.ItemStack setColor(yarnwrap.item.ItemStack stack,java.util.List dyes, ) { return new yarnwrap.item.ItemStack(net.minecraft.component.type.DyedColorComponent.setColor(stack.wrapperContained,dyes)); }
-// public yarnwrap.component.type.DyedColorComponent method_58112(java.lang.Integer rgb) { return new yarnwrap.component.type.DyedColorComponent(wrapperContained.method_58112(rgb)); }
-// public static yarnwrap.component.type.DyedColorComponent method_58112(java.lang.Integer rgb, ) { return new yarnwrap.component.type.DyedColorComponent(net.minecraft.component.type.DyedColorComponent.method_58112(rgb)); }
-public yarnwrap.component.type.DyedColorComponent withShowInTooltip(boolean showInTooltip) { return new yarnwrap.component.type.DyedColorComponent(wrapperContained.withShowInTooltip(showInTooltip)); }
-// public static yarnwrap.component.type.DyedColorComponent withShowInTooltip(boolean showInTooltip, ) { return new yarnwrap.component.type.DyedColorComponent(net.minecraft.component.type.DyedColorComponent.withShowInTooltip(showInTooltip)); }
 
 }

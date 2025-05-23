@@ -14,5 +14,7 @@ public static yarnwrap.util.Identifier getTexture() { return new yarnwrap.util.I
 // public static yarnwrap.client.util.SkinTextures getSkinTextures(com.mojang.authlib.GameProfile profile, ) { return new yarnwrap.client.util.SkinTextures(net.minecraft.client.util.DefaultSkinHelper.getSkinTextures(profile)); }
 // public yarnwrap.client.util.SkinTextures createSkinTextures(java.lang.String texture,Object model) { return new yarnwrap.client.util.SkinTextures(wrapperContained.createSkinTextures(texture,model)); }
 // public static yarnwrap.client.util.SkinTextures createSkinTextures(java.lang.String texture,Object model, ) { return new yarnwrap.client.util.SkinTextures(net.minecraft.client.util.DefaultSkinHelper.createSkinTextures(texture,model)); }
+// public yarnwrap.client.util.SkinTextures getSteve() { return new yarnwrap.client.util.SkinTextures(wrapperContained.getSteve()); }
+public static yarnwrap.client.util.SkinTextures getSteve() { return new yarnwrap.client.util.SkinTextures(net.minecraft.client.util.DefaultSkinHelper.getSteve()); }
 
 }

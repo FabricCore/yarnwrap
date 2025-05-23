@@ -1,71 +1,6 @@
 package yarnwrap.entity.player;
 public class PlayerEntity { public net.minecraft.entity.player.PlayerEntity wrapperContained; public PlayerEntity(net.minecraft.entity.player.PlayerEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.Map POSE_DIMENSIONS() { return wrapperContained.POSE_DIMENSIONS; }
-// public void POSE_DIMENSIONS(java.util.Map value) { wrapperContained.POSE_DIMENSIONS = value; }
-// public static java.util.Map POSE_DIMENSIONS() { return net.minecraft.entity.player.PlayerEntity.POSE_DIMENSIONS; }
-// public static void POSE_DIMENSIONS(java.util.Map value, ) { net.minecraft.entity.player.PlayerEntity.POSE_DIMENSIONS = value; }
-
-// public yarnwrap.entity.EntityDimensions STANDING_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(wrapperContained.STANDING_DIMENSIONS); }
-// public void STANDING_DIMENSIONS(yarnwrap.entity.EntityDimensions value) { wrapperContained.STANDING_DIMENSIONS = value.wrapperContained; }
-public static yarnwrap.entity.EntityDimensions STANDING_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(net.minecraft.entity.player.PlayerEntity.STANDING_DIMENSIONS); }
-// public static void STANDING_DIMENSIONS(yarnwrap.entity.EntityDimensions value, ) { net.minecraft.entity.player.PlayerEntity.STANDING_DIMENSIONS = value.wrapperContained; }
-
-// public long shoulderEntityAddedTime() { return wrapperContained.shoulderEntityAddedTime; }
-// public void shoulderEntityAddedTime(long value) { wrapperContained.shoulderEntityAddedTime = value; }
-// public static long shoulderEntityAddedTime() { return net.minecraft.entity.player.PlayerEntity.shoulderEntityAddedTime; }
-// public static void shoulderEntityAddedTime(long value, ) { net.minecraft.entity.player.PlayerEntity.shoulderEntityAddedTime = value; }
-
-// public float DEFAULT_EYE_HEIGHT() { return wrapperContained.DEFAULT_EYE_HEIGHT; }
-// public void DEFAULT_EYE_HEIGHT(float value) { wrapperContained.DEFAULT_EYE_HEIGHT = value; }
-public static float DEFAULT_EYE_HEIGHT() { return net.minecraft.entity.player.PlayerEntity.DEFAULT_EYE_HEIGHT; }
-// public static void DEFAULT_EYE_HEIGHT(float value, ) { net.minecraft.entity.player.PlayerEntity.DEFAULT_EYE_HEIGHT = value; }
-
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.entity.player.PlayerEntity.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.entity.player.PlayerEntity.LOGGER = value; }
-
-// public java.util.Optional lastDeathPos() { return wrapperContained.lastDeathPos; }
-// public void lastDeathPos(java.util.Optional value) { wrapperContained.lastDeathPos = value; }
-// public static java.util.Optional lastDeathPos() { return net.minecraft.entity.player.PlayerEntity.lastDeathPos; }
-// public static void lastDeathPos(java.util.Optional value, ) { net.minecraft.entity.player.PlayerEntity.lastDeathPos = value; }
-
-// public float damageTiltYaw() { return wrapperContained.damageTiltYaw; }
-// public void damageTiltYaw(float value) { wrapperContained.damageTiltYaw = value; }
-// public static float damageTiltYaw() { return net.minecraft.entity.player.PlayerEntity.damageTiltYaw; }
-// public static void damageTiltYaw(float value, ) { net.minecraft.entity.player.PlayerEntity.damageTiltYaw = value; }
-
-// public yarnwrap.util.Arm DEFAULT_MAIN_ARM() { return new yarnwrap.util.Arm(wrapperContained.DEFAULT_MAIN_ARM); }
-// public void DEFAULT_MAIN_ARM(yarnwrap.util.Arm value) { wrapperContained.DEFAULT_MAIN_ARM = value.wrapperContained; }
-public static yarnwrap.util.Arm DEFAULT_MAIN_ARM() { return new yarnwrap.util.Arm(net.minecraft.entity.player.PlayerEntity.DEFAULT_MAIN_ARM); }
-// public static void DEFAULT_MAIN_ARM(yarnwrap.util.Arm value, ) { net.minecraft.entity.player.PlayerEntity.DEFAULT_MAIN_ARM = value.wrapperContained; }
-
-// public yarnwrap.util.math.Vec3d VEHICLE_ATTACHMENT_POS() { return new yarnwrap.util.math.Vec3d(wrapperContained.VEHICLE_ATTACHMENT_POS); }
-// public void VEHICLE_ATTACHMENT_POS(yarnwrap.util.math.Vec3d value) { wrapperContained.VEHICLE_ATTACHMENT_POS = value.wrapperContained; }
-public static yarnwrap.util.math.Vec3d VEHICLE_ATTACHMENT_POS() { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.player.PlayerEntity.VEHICLE_ATTACHMENT_POS); }
-// public static void VEHICLE_ATTACHMENT_POS(yarnwrap.util.math.Vec3d value, ) { net.minecraft.entity.player.PlayerEntity.VEHICLE_ATTACHMENT_POS = value.wrapperContained; }
-
-public yarnwrap.util.math.Vec3d currentExplosionImpactPos() { return new yarnwrap.util.math.Vec3d(wrapperContained.currentExplosionImpactPos); }
-public void currentExplosionImpactPos(yarnwrap.util.math.Vec3d value) { wrapperContained.currentExplosionImpactPos = value.wrapperContained; }
-// public static yarnwrap.util.math.Vec3d currentExplosionImpactPos() { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.player.PlayerEntity.currentExplosionImpactPos); }
-// public static void currentExplosionImpactPos(yarnwrap.util.math.Vec3d value, ) { net.minecraft.entity.player.PlayerEntity.currentExplosionImpactPos = value.wrapperContained; }
-
-public yarnwrap.entity.Entity explodedBy() { return new yarnwrap.entity.Entity(wrapperContained.explodedBy); }
-public void explodedBy(yarnwrap.entity.Entity value) { wrapperContained.explodedBy = value.wrapperContained; }
-// public static yarnwrap.entity.Entity explodedBy() { return new yarnwrap.entity.Entity(net.minecraft.entity.player.PlayerEntity.explodedBy); }
-// public static void explodedBy(yarnwrap.entity.Entity value, ) { net.minecraft.entity.player.PlayerEntity.explodedBy = value.wrapperContained; }
-
-// public boolean ignoreFallDamageFromCurrentExplosion() { return wrapperContained.ignoreFallDamageFromCurrentExplosion; }
-// public void ignoreFallDamageFromCurrentExplosion(boolean value) { wrapperContained.ignoreFallDamageFromCurrentExplosion = value; }
-// public static boolean ignoreFallDamageFromCurrentExplosion() { return net.minecraft.entity.player.PlayerEntity.ignoreFallDamageFromCurrentExplosion; }
-// public static void ignoreFallDamageFromCurrentExplosion(boolean value, ) { net.minecraft.entity.player.PlayerEntity.ignoreFallDamageFromCurrentExplosion = value; }
-
-// public int currentExplosionResetGraceTime() { return wrapperContained.currentExplosionResetGraceTime; }
-// public void currentExplosionResetGraceTime(int value) { wrapperContained.currentExplosionResetGraceTime = value; }
-// public static int currentExplosionResetGraceTime() { return net.minecraft.entity.player.PlayerEntity.currentExplosionResetGraceTime; }
-// public static void currentExplosionResetGraceTime(int value, ) { net.minecraft.entity.player.PlayerEntity.currentExplosionResetGraceTime = value; }
-
 public float strideDistance() { return wrapperContained.strideDistance; }
 public void strideDistance(float value) { wrapperContained.strideDistance = value; }
 // public static float strideDistance() { return net.minecraft.entity.player.PlayerEntity.strideDistance; }
@@ -111,10 +46,10 @@ public void strideDistance(float value) { wrapperContained.strideDistance = valu
 // public static yarnwrap.entity.player.HungerManager hungerManager() { return new yarnwrap.entity.player.HungerManager(net.minecraft.entity.player.PlayerEntity.hungerManager); }
 // public static void hungerManager(yarnwrap.entity.player.HungerManager value, ) { net.minecraft.entity.player.PlayerEntity.hungerManager = value.wrapperContained; }
 
-// public int enchantmentTableSeed() { return wrapperContained.enchantmentTableSeed; }
-// public void enchantmentTableSeed(int value) { wrapperContained.enchantmentTableSeed = value; }
-// public static int enchantmentTableSeed() { return net.minecraft.entity.player.PlayerEntity.enchantmentTableSeed; }
-// public static void enchantmentTableSeed(int value, ) { net.minecraft.entity.player.PlayerEntity.enchantmentTableSeed = value; }
+// public int enchantingTableSeed() { return wrapperContained.enchantingTableSeed; }
+// public void enchantingTableSeed(int value) { wrapperContained.enchantingTableSeed = value; }
+// public static int enchantingTableSeed() { return net.minecraft.entity.player.PlayerEntity.enchantingTableSeed; }
+// public static void enchantingTableSeed(int value, ) { net.minecraft.entity.player.PlayerEntity.enchantingTableSeed = value; }
 
 public int totalExperience() { return wrapperContained.totalExperience; }
 public void totalExperience(int value) { wrapperContained.totalExperience = value; }
@@ -141,10 +76,10 @@ public void capeX(double value) { wrapperContained.capeX = value; }
 // public static double capeX() { return net.minecraft.entity.player.PlayerEntity.capeX; }
 // public static void capeX(double value, ) { net.minecraft.entity.player.PlayerEntity.capeX = value; }
 
-public double prevCapeY() { return wrapperContained.prevCapeY; }
-public void prevCapeY(double value) { wrapperContained.prevCapeY = value; }
-// public static double prevCapeY() { return net.minecraft.entity.player.PlayerEntity.prevCapeY; }
-// public static void prevCapeY(double value, ) { net.minecraft.entity.player.PlayerEntity.prevCapeY = value; }
+public double lastCapeY() { return wrapperContained.lastCapeY; }
+public void lastCapeY(double value) { wrapperContained.lastCapeY = value; }
+// public static double lastCapeY() { return net.minecraft.entity.player.PlayerEntity.lastCapeY; }
+// public static void lastCapeY(double value, ) { net.minecraft.entity.player.PlayerEntity.lastCapeY = value; }
 
 // public yarnwrap.entity.player.PlayerAbilities abilities() { return new yarnwrap.entity.player.PlayerAbilities(wrapperContained.abilities); }
 // public void abilities(yarnwrap.entity.player.PlayerAbilities value) { wrapperContained.abilities = value.wrapperContained; }
@@ -156,10 +91,10 @@ public void experiencePickUpDelay(int value) { wrapperContained.experiencePickUp
 // public static int experiencePickUpDelay() { return net.minecraft.entity.player.PlayerEntity.experiencePickUpDelay; }
 // public static void experiencePickUpDelay(int value, ) { net.minecraft.entity.player.PlayerEntity.experiencePickUpDelay = value; }
 
-public float prevStrideDistance() { return wrapperContained.prevStrideDistance; }
-public void prevStrideDistance(float value) { wrapperContained.prevStrideDistance = value; }
-// public static float prevStrideDistance() { return net.minecraft.entity.player.PlayerEntity.prevStrideDistance; }
-// public static void prevStrideDistance(float value, ) { net.minecraft.entity.player.PlayerEntity.prevStrideDistance = value; }
+public float lastStrideDistance() { return wrapperContained.lastStrideDistance; }
+public void lastStrideDistance(float value) { wrapperContained.lastStrideDistance = value; }
+// public static float lastStrideDistance() { return net.minecraft.entity.player.PlayerEntity.lastStrideDistance; }
+// public static void lastStrideDistance(float value, ) { net.minecraft.entity.player.PlayerEntity.lastStrideDistance = value; }
 
 // public yarnwrap.entity.data.TrackedData RIGHT_SHOULDER_ENTITY() { return new yarnwrap.entity.data.TrackedData(wrapperContained.RIGHT_SHOULDER_ENTITY); }
 // public void RIGHT_SHOULDER_ENTITY(yarnwrap.entity.data.TrackedData value) { wrapperContained.RIGHT_SHOULDER_ENTITY = value.wrapperContained; }
@@ -216,111 +151,104 @@ public void capeY(double value) { wrapperContained.capeY = value; }
 // public static double capeY() { return net.minecraft.entity.player.PlayerEntity.capeY; }
 // public static void capeY(double value, ) { net.minecraft.entity.player.PlayerEntity.capeY = value; }
 
-public double prevCapeZ() { return wrapperContained.prevCapeZ; }
-public void prevCapeZ(double value) { wrapperContained.prevCapeZ = value; }
-// public static double prevCapeZ() { return net.minecraft.entity.player.PlayerEntity.prevCapeZ; }
-// public static void prevCapeZ(double value, ) { net.minecraft.entity.player.PlayerEntity.prevCapeZ = value; }
+public double lastCapeZ() { return wrapperContained.lastCapeZ; }
+public void lastCapeZ(double value) { wrapperContained.lastCapeZ = value; }
+// public static double lastCapeZ() { return net.minecraft.entity.player.PlayerEntity.lastCapeZ; }
+// public static void lastCapeZ(double value, ) { net.minecraft.entity.player.PlayerEntity.lastCapeZ = value; }
 
 // public boolean reducedDebugInfo() { return wrapperContained.reducedDebugInfo; }
 // public void reducedDebugInfo(boolean value) { wrapperContained.reducedDebugInfo = value; }
 // public static boolean reducedDebugInfo() { return net.minecraft.entity.player.PlayerEntity.reducedDebugInfo; }
 // public static void reducedDebugInfo(boolean value, ) { net.minecraft.entity.player.PlayerEntity.reducedDebugInfo = value; }
 
-public double prevCapeX() { return wrapperContained.prevCapeX; }
-public void prevCapeX(double value) { wrapperContained.prevCapeX = value; }
-// public static double prevCapeX() { return net.minecraft.entity.player.PlayerEntity.prevCapeX; }
-// public static void prevCapeX(double value, ) { net.minecraft.entity.player.PlayerEntity.prevCapeX = value; }
+public double lastCapeX() { return wrapperContained.lastCapeX; }
+public void lastCapeX(double value) { wrapperContained.lastCapeX = value; }
+// public static double lastCapeX() { return net.minecraft.entity.player.PlayerEntity.lastCapeX; }
+// public static void lastCapeX(double value, ) { net.minecraft.entity.player.PlayerEntity.lastCapeX = value; }
 
 // public yarnwrap.item.ItemStack selectedItem() { return new yarnwrap.item.ItemStack(wrapperContained.selectedItem); }
 // public void selectedItem(yarnwrap.item.ItemStack value) { wrapperContained.selectedItem = value.wrapperContained; }
 // public static yarnwrap.item.ItemStack selectedItem() { return new yarnwrap.item.ItemStack(net.minecraft.entity.player.PlayerEntity.selectedItem); }
 // public static void selectedItem(yarnwrap.item.ItemStack value, ) { net.minecraft.entity.player.PlayerEntity.selectedItem = value.wrapperContained; }
 
-// public PlayerEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,float yaw,com.mojang.authlib.GameProfile gameProfile) { this.wrapperContained = new net.minecraft.entity.player.PlayerEntity(world.wrapperContained,pos.wrapperContained,yaw,gameProfile); }
-// public void onHandledScreenClosed() { wrapperContained.onHandledScreenClosed(); }
-// public static void onHandledScreenClosed() { net.minecraft.entity.player.PlayerEntity.onHandledScreenClosed(); }
-public void openJigsawScreen(yarnwrap.block.entity.JigsawBlockEntity jigsaw) { wrapperContained.openJigsawScreen(jigsaw.wrapperContained); }
-// public static void openJigsawScreen(yarnwrap.block.entity.JigsawBlockEntity jigsaw, ) { net.minecraft.entity.player.PlayerEntity.openJigsawScreen(jigsaw.wrapperContained); }
-public void sendTradeOffers(int syncId,yarnwrap.village.TradeOfferList offers,int levelProgress,int experience,boolean leveled,boolean refreshable) { wrapperContained.sendTradeOffers(syncId,offers.wrapperContained,levelProgress,experience,leveled,refreshable); }
-// public static void sendTradeOffers(int syncId,yarnwrap.village.TradeOfferList offers,int levelProgress,int experience,boolean leveled,boolean refreshable, ) { net.minecraft.entity.player.PlayerEntity.sendTradeOffers(syncId,offers.wrapperContained,levelProgress,experience,leveled,refreshable); }
-public java.util.OptionalInt openHandledScreen(yarnwrap.screen.NamedScreenHandlerFactory factory) { return wrapperContained.openHandledScreen(factory.wrapperContained); }
-// public static java.util.OptionalInt openHandledScreen(yarnwrap.screen.NamedScreenHandlerFactory factory, ) { return net.minecraft.entity.player.PlayerEntity.openHandledScreen(factory.wrapperContained); }
-public void playSoundToPlayer(yarnwrap.sound.SoundEvent sound,yarnwrap.sound.SoundCategory category,float volume,float pitch) { wrapperContained.playSoundToPlayer(sound.wrapperContained,category.wrapperContained,volume,pitch); }
-// public static void playSoundToPlayer(yarnwrap.sound.SoundEvent sound,yarnwrap.sound.SoundCategory category,float volume,float pitch, ) { net.minecraft.entity.player.PlayerEntity.playSoundToPlayer(sound.wrapperContained,category.wrapperContained,volume,pitch); }
-// public void method_17851(yarnwrap.entity.EntityType parrotType) { wrapperContained.method_17851(parrotType.wrapperContained); }
-// public static void method_17851(yarnwrap.entity.EntityType parrotType, ) { net.minecraft.entity.player.PlayerEntity.method_17851(parrotType.wrapperContained); }
-// public boolean method_17852(yarnwrap.entity.EntityType entityType) { return wrapperContained.method_17852(entityType.wrapperContained); }
-// public static boolean method_17852(yarnwrap.entity.EntityType entityType, ) { return net.minecraft.entity.player.PlayerEntity.method_17852(entityType.wrapperContained); }
-// public void method_17853(yarnwrap.entity.Entity entity) { wrapperContained.method_17853(entity.wrapperContained); }
-// public static void method_17853(yarnwrap.entity.Entity entity, ) { net.minecraft.entity.player.PlayerEntity.method_17853(entity.wrapperContained); }
-public boolean isBlockBreakingRestricted(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.GameMode gameMode) { return wrapperContained.isBlockBreakingRestricted(world.wrapperContained,pos.wrapperContained,gameMode.wrapperContained); }
-// public static boolean isBlockBreakingRestricted(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.GameMode gameMode, ) { return net.minecraft.entity.player.PlayerEntity.isBlockBreakingRestricted(world.wrapperContained,pos.wrapperContained,gameMode.wrapperContained); }
-public boolean shouldCancelInteraction() { return wrapperContained.shouldCancelInteraction(); }
-// public static boolean shouldCancelInteraction() { return net.minecraft.entity.player.PlayerEntity.shouldCancelInteraction(); }
-// public boolean shouldDismount() { return wrapperContained.shouldDismount(); }
-// public static boolean shouldDismount() { return net.minecraft.entity.player.PlayerEntity.shouldDismount(); }
-// public boolean clipAtLedge() { return wrapperContained.clipAtLedge(); }
-// public static boolean clipAtLedge() { return net.minecraft.entity.player.PlayerEntity.clipAtLedge(); }
-public boolean checkFallFlying() { return wrapperContained.checkFallFlying(); }
-// public static boolean checkFallFlying() { return net.minecraft.entity.player.PlayerEntity.checkFallFlying(); }
-public void startFallFlying() { wrapperContained.startFallFlying(); }
-// public static void startFallFlying() { net.minecraft.entity.player.PlayerEntity.startFallFlying(); }
-public void stopFallFlying() { wrapperContained.stopFallFlying(); }
-// public static void stopFallFlying() { net.minecraft.entity.player.PlayerEntity.stopFallFlying(); }
-// public Object createPlayerAttributes() { return wrapperContained.createPlayerAttributes(); }
-public static Object createPlayerAttributes() { return net.minecraft.entity.player.PlayerEntity.createPlayerAttributes(); }
-public yarnwrap.entity.player.PlayerInventory getInventory() { return new yarnwrap.entity.player.PlayerInventory(wrapperContained.getInventory()); }
-// public static yarnwrap.entity.player.PlayerInventory getInventory() { return new yarnwrap.entity.player.PlayerInventory(net.minecraft.entity.player.PlayerEntity.getInventory()); }
-public yarnwrap.entity.player.PlayerAbilities getAbilities() { return new yarnwrap.entity.player.PlayerAbilities(wrapperContained.getAbilities()); }
-// public static yarnwrap.entity.player.PlayerAbilities getAbilities() { return new yarnwrap.entity.player.PlayerAbilities(net.minecraft.entity.player.PlayerEntity.getAbilities()); }
-public boolean isUsingSpyglass() { return wrapperContained.isUsingSpyglass(); }
-// public static boolean isUsingSpyglass() { return net.minecraft.entity.player.PlayerEntity.isUsingSpyglass(); }
-public void onPickupSlotClick(yarnwrap.item.ItemStack cursorStack,yarnwrap.item.ItemStack slotStack,yarnwrap.util.ClickType clickType) { wrapperContained.onPickupSlotClick(cursorStack.wrapperContained,slotStack.wrapperContained,clickType.wrapperContained); }
-// public static void onPickupSlotClick(yarnwrap.item.ItemStack cursorStack,yarnwrap.item.ItemStack slotStack,yarnwrap.util.ClickType clickType, ) { net.minecraft.entity.player.PlayerEntity.onPickupSlotClick(cursorStack.wrapperContained,slotStack.wrapperContained,clickType.wrapperContained); }
-public boolean shouldFilterText() { return wrapperContained.shouldFilterText(); }
-// public static boolean shouldFilterText() { return net.minecraft.entity.player.PlayerEntity.shouldFilterText(); }
-public void useRiptide(int riptideTicks,float riptideAttackDamage,yarnwrap.item.ItemStack stack) { wrapperContained.useRiptide(riptideTicks,riptideAttackDamage,stack.wrapperContained); }
-// public static void useRiptide(int riptideTicks,float riptideAttackDamage,yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.player.PlayerEntity.useRiptide(riptideTicks,riptideAttackDamage,stack.wrapperContained); }
-public java.util.Optional getSculkShriekerWarningManager() { return wrapperContained.getSculkShriekerWarningManager(); }
-// public static java.util.Optional getSculkShriekerWarningManager() { return net.minecraft.entity.player.PlayerEntity.getSculkShriekerWarningManager(); }
-// public java.util.Optional method_43119(yarnwrap.util.math.GlobalPos pos) { return wrapperContained.method_43119(pos.wrapperContained); }
-// public static java.util.Optional method_43119(yarnwrap.util.math.GlobalPos pos, ) { return net.minecraft.entity.player.PlayerEntity.method_43119(pos.wrapperContained); }
-public void setLastDeathPos(java.util.Optional lastDeathPos) { wrapperContained.setLastDeathPos(lastDeathPos); }
-// public static void setLastDeathPos(java.util.Optional lastDeathPos, ) { net.minecraft.entity.player.PlayerEntity.setLastDeathPos(lastDeathPos); }
-// public void method_43121(yarnwrap.nbt.NbtCompound pos) { wrapperContained.method_43121(pos.wrapperContained); }
-// public static void method_43121(yarnwrap.nbt.NbtCompound pos, ) { net.minecraft.entity.player.PlayerEntity.method_43121(pos.wrapperContained); }
-public java.util.Optional getLastDeathPos() { return wrapperContained.getLastDeathPos(); }
-// public static java.util.Optional getLastDeathPos() { return net.minecraft.entity.player.PlayerEntity.getLastDeathPos(); }
-public boolean shouldCloseHandledScreenOnRespawn() { return wrapperContained.shouldCloseHandledScreenOnRespawn(); }
-// public static boolean shouldCloseHandledScreenOnRespawn() { return net.minecraft.entity.player.PlayerEntity.shouldCloseHandledScreenOnRespawn(); }
-public void onRecipeCrafted(yarnwrap.recipe.RecipeEntry recipe,java.util.List ingredients) { wrapperContained.onRecipeCrafted(recipe.wrapperContained,ingredients); }
-// public static void onRecipeCrafted(yarnwrap.recipe.RecipeEntry recipe,java.util.List ingredients, ) { net.minecraft.entity.player.PlayerEntity.onRecipeCrafted(recipe.wrapperContained,ingredients); }
-// public boolean canChangeIntoPose(yarnwrap.entity.EntityPose pose) { return wrapperContained.canChangeIntoPose(pose.wrapperContained); }
-// public static boolean canChangeIntoPose(yarnwrap.entity.EntityPose pose, ) { return net.minecraft.entity.player.PlayerEntity.canChangeIntoPose(pose.wrapperContained); }
-public double getBlockInteractionRange() { return wrapperContained.getBlockInteractionRange(); }
-// public static double getBlockInteractionRange() { return net.minecraft.entity.player.PlayerEntity.getBlockInteractionRange(); }
-public double getEntityInteractionRange() { return wrapperContained.getEntityInteractionRange(); }
-// public static double getEntityInteractionRange() { return net.minecraft.entity.player.PlayerEntity.getEntityInteractionRange(); }
-public boolean canInteractWithEntityIn(yarnwrap.util.math.Box box,double additionalRange) { return wrapperContained.canInteractWithEntityIn(box.wrapperContained,additionalRange); }
-// public static boolean canInteractWithEntityIn(yarnwrap.util.math.Box box,double additionalRange, ) { return net.minecraft.entity.player.PlayerEntity.canInteractWithEntityIn(box.wrapperContained,additionalRange); }
-public boolean canInteractWithBlockAt(yarnwrap.util.math.BlockPos pos,double additionalRange) { return wrapperContained.canInteractWithBlockAt(pos.wrapperContained,additionalRange); }
-// public static boolean canInteractWithBlockAt(yarnwrap.util.math.BlockPos pos,double additionalRange, ) { return net.minecraft.entity.player.PlayerEntity.canInteractWithBlockAt(pos.wrapperContained,additionalRange); }
-public boolean canInteractWithEntity(yarnwrap.entity.Entity entity,double additionalRange) { return wrapperContained.canInteractWithEntity(entity.wrapperContained,additionalRange); }
-// public static boolean canInteractWithEntity(yarnwrap.entity.Entity entity,double additionalRange, ) { return net.minecraft.entity.player.PlayerEntity.canInteractWithEntity(entity.wrapperContained,additionalRange); }
-public void clearCurrentExplosion() { wrapperContained.clearCurrentExplosion(); }
-// public static void clearCurrentExplosion() { net.minecraft.entity.player.PlayerEntity.clearCurrentExplosion(); }
-// public void method_58397(yarnwrap.util.math.Vec3d currentExplosionImpactPos) { wrapperContained.method_58397(currentExplosionImpactPos.wrapperContained); }
-// public static void method_58397(yarnwrap.util.math.Vec3d currentExplosionImpactPos, ) { net.minecraft.entity.player.PlayerEntity.method_58397(currentExplosionImpactPos.wrapperContained); }
-// public boolean isSpaceAroundPlayerEmpty(double offsetX,double offsetZ) { return wrapperContained.isSpaceAroundPlayerEmpty(offsetX,offsetZ); }
-// public static boolean isSpaceAroundPlayerEmpty(double offsetX,double offsetZ, ) { return net.minecraft.entity.player.PlayerEntity.isSpaceAroundPlayerEmpty(offsetX,offsetZ); }
-// public float getDamageAgainst(yarnwrap.entity.Entity target,float baseDamage,yarnwrap.entity.damage.DamageSource damageSource) { return wrapperContained.getDamageAgainst(target.wrapperContained,baseDamage,damageSource.wrapperContained); }
-// public static float getDamageAgainst(yarnwrap.entity.Entity target,float baseDamage,yarnwrap.entity.damage.DamageSource damageSource, ) { return net.minecraft.entity.player.PlayerEntity.getDamageAgainst(target.wrapperContained,baseDamage,damageSource.wrapperContained); }
-public void tryClearCurrentExplosion() { wrapperContained.tryClearCurrentExplosion(); }
-// public static void tryClearCurrentExplosion() { net.minecraft.entity.player.PlayerEntity.tryClearCurrentExplosion(); }
-public void setIgnoreFallDamageFromCurrentExplosion(boolean ignoreFallDamageFromCurrentExplosion) { wrapperContained.setIgnoreFallDamageFromCurrentExplosion(ignoreFallDamageFromCurrentExplosion); }
-// public static void setIgnoreFallDamageFromCurrentExplosion(boolean ignoreFallDamageFromCurrentExplosion, ) { net.minecraft.entity.player.PlayerEntity.setIgnoreFallDamageFromCurrentExplosion(ignoreFallDamageFromCurrentExplosion); }
-public boolean shouldIgnoreFallDamageFromCurrentExplosion() { return wrapperContained.shouldIgnoreFallDamageFromCurrentExplosion(); }
-// public static boolean shouldIgnoreFallDamageFromCurrentExplosion() { return net.minecraft.entity.player.PlayerEntity.shouldIgnoreFallDamageFromCurrentExplosion(); }
+// public java.util.Map POSE_DIMENSIONS() { return wrapperContained.POSE_DIMENSIONS; }
+// public void POSE_DIMENSIONS(java.util.Map value) { wrapperContained.POSE_DIMENSIONS = value; }
+// public static java.util.Map POSE_DIMENSIONS() { return net.minecraft.entity.player.PlayerEntity.POSE_DIMENSIONS; }
+// public static void POSE_DIMENSIONS(java.util.Map value, ) { net.minecraft.entity.player.PlayerEntity.POSE_DIMENSIONS = value; }
+
+// public yarnwrap.entity.EntityDimensions STANDING_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(wrapperContained.STANDING_DIMENSIONS); }
+// public void STANDING_DIMENSIONS(yarnwrap.entity.EntityDimensions value) { wrapperContained.STANDING_DIMENSIONS = value.wrapperContained; }
+public static yarnwrap.entity.EntityDimensions STANDING_DIMENSIONS() { return new yarnwrap.entity.EntityDimensions(net.minecraft.entity.player.PlayerEntity.STANDING_DIMENSIONS); }
+// public static void STANDING_DIMENSIONS(yarnwrap.entity.EntityDimensions value, ) { net.minecraft.entity.player.PlayerEntity.STANDING_DIMENSIONS = value.wrapperContained; }
+
+// public long shoulderEntityAddedTime() { return wrapperContained.shoulderEntityAddedTime; }
+// public void shoulderEntityAddedTime(long value) { wrapperContained.shoulderEntityAddedTime = value; }
+// public static long shoulderEntityAddedTime() { return net.minecraft.entity.player.PlayerEntity.shoulderEntityAddedTime; }
+// public static void shoulderEntityAddedTime(long value, ) { net.minecraft.entity.player.PlayerEntity.shoulderEntityAddedTime = value; }
+
+// public float DEFAULT_EYE_HEIGHT() { return wrapperContained.DEFAULT_EYE_HEIGHT; }
+// public void DEFAULT_EYE_HEIGHT(float value) { wrapperContained.DEFAULT_EYE_HEIGHT = value; }
+public static float DEFAULT_EYE_HEIGHT() { return net.minecraft.entity.player.PlayerEntity.DEFAULT_EYE_HEIGHT; }
+// public static void DEFAULT_EYE_HEIGHT(float value, ) { net.minecraft.entity.player.PlayerEntity.DEFAULT_EYE_HEIGHT = value; }
+
+// public java.util.Optional lastDeathPos() { return wrapperContained.lastDeathPos; }
+// public void lastDeathPos(java.util.Optional value) { wrapperContained.lastDeathPos = value; }
+// public static java.util.Optional lastDeathPos() { return net.minecraft.entity.player.PlayerEntity.lastDeathPos; }
+// public static void lastDeathPos(java.util.Optional value, ) { net.minecraft.entity.player.PlayerEntity.lastDeathPos = value; }
+
+// public float damageTiltYaw() { return wrapperContained.damageTiltYaw; }
+// public void damageTiltYaw(float value) { wrapperContained.damageTiltYaw = value; }
+// public static float damageTiltYaw() { return net.minecraft.entity.player.PlayerEntity.damageTiltYaw; }
+// public static void damageTiltYaw(float value, ) { net.minecraft.entity.player.PlayerEntity.damageTiltYaw = value; }
+
+// public yarnwrap.util.Arm DEFAULT_MAIN_ARM() { return new yarnwrap.util.Arm(wrapperContained.DEFAULT_MAIN_ARM); }
+// public void DEFAULT_MAIN_ARM(yarnwrap.util.Arm value) { wrapperContained.DEFAULT_MAIN_ARM = value.wrapperContained; }
+public static yarnwrap.util.Arm DEFAULT_MAIN_ARM() { return new yarnwrap.util.Arm(net.minecraft.entity.player.PlayerEntity.DEFAULT_MAIN_ARM); }
+// public static void DEFAULT_MAIN_ARM(yarnwrap.util.Arm value, ) { net.minecraft.entity.player.PlayerEntity.DEFAULT_MAIN_ARM = value.wrapperContained; }
+
+// public yarnwrap.util.math.Vec3d VEHICLE_ATTACHMENT_POS() { return new yarnwrap.util.math.Vec3d(wrapperContained.VEHICLE_ATTACHMENT_POS); }
+// public void VEHICLE_ATTACHMENT_POS(yarnwrap.util.math.Vec3d value) { wrapperContained.VEHICLE_ATTACHMENT_POS = value.wrapperContained; }
+public static yarnwrap.util.math.Vec3d VEHICLE_ATTACHMENT_POS() { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.player.PlayerEntity.VEHICLE_ATTACHMENT_POS); }
+// public static void VEHICLE_ATTACHMENT_POS(yarnwrap.util.math.Vec3d value, ) { net.minecraft.entity.player.PlayerEntity.VEHICLE_ATTACHMENT_POS = value.wrapperContained; }
+
+public yarnwrap.util.math.Vec3d currentExplosionImpactPos() { return new yarnwrap.util.math.Vec3d(wrapperContained.currentExplosionImpactPos); }
+public void currentExplosionImpactPos(yarnwrap.util.math.Vec3d value) { wrapperContained.currentExplosionImpactPos = value.wrapperContained; }
+// public static yarnwrap.util.math.Vec3d currentExplosionImpactPos() { return new yarnwrap.util.math.Vec3d(net.minecraft.entity.player.PlayerEntity.currentExplosionImpactPos); }
+// public static void currentExplosionImpactPos(yarnwrap.util.math.Vec3d value, ) { net.minecraft.entity.player.PlayerEntity.currentExplosionImpactPos = value.wrapperContained; }
+
+public yarnwrap.entity.Entity explodedBy() { return new yarnwrap.entity.Entity(wrapperContained.explodedBy); }
+public void explodedBy(yarnwrap.entity.Entity value) { wrapperContained.explodedBy = value.wrapperContained; }
+// public static yarnwrap.entity.Entity explodedBy() { return new yarnwrap.entity.Entity(net.minecraft.entity.player.PlayerEntity.explodedBy); }
+// public static void explodedBy(yarnwrap.entity.Entity value, ) { net.minecraft.entity.player.PlayerEntity.explodedBy = value.wrapperContained; }
+
+// public boolean ignoreFallDamageFromCurrentExplosion() { return wrapperContained.ignoreFallDamageFromCurrentExplosion; }
+// public void ignoreFallDamageFromCurrentExplosion(boolean value) { wrapperContained.ignoreFallDamageFromCurrentExplosion = value; }
+// public static boolean ignoreFallDamageFromCurrentExplosion() { return net.minecraft.entity.player.PlayerEntity.ignoreFallDamageFromCurrentExplosion; }
+// public static void ignoreFallDamageFromCurrentExplosion(boolean value, ) { net.minecraft.entity.player.PlayerEntity.ignoreFallDamageFromCurrentExplosion = value; }
+
+// public int currentExplosionResetGraceTime() { return wrapperContained.currentExplosionResetGraceTime; }
+// public void currentExplosionResetGraceTime(int value) { wrapperContained.currentExplosionResetGraceTime = value; }
+// public static int currentExplosionResetGraceTime() { return net.minecraft.entity.player.PlayerEntity.currentExplosionResetGraceTime; }
+// public static void currentExplosionResetGraceTime(int value, ) { net.minecraft.entity.player.PlayerEntity.currentExplosionResetGraceTime = value; }
+
+// public int remainingLoadTicks() { return wrapperContained.remainingLoadTicks; }
+// public void remainingLoadTicks(int value) { wrapperContained.remainingLoadTicks = value; }
+// public static int remainingLoadTicks() { return net.minecraft.entity.player.PlayerEntity.remainingLoadTicks; }
+// public static void remainingLoadTicks(int value, ) { net.minecraft.entity.player.PlayerEntity.remainingLoadTicks = value; }
+
+// public boolean loaded() { return wrapperContained.loaded; }
+// public void loaded(boolean value) { wrapperContained.loaded = value; }
+// public static boolean loaded() { return net.minecraft.entity.player.PlayerEntity.loaded; }
+// public static void loaded(boolean value, ) { net.minecraft.entity.player.PlayerEntity.loaded = value; }
+
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.entity.player.PlayerEntity.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.entity.player.PlayerEntity.LOGGER = value; }
+
+// public PlayerEntity(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,float yaw,com.mojang.authlib.GameProfile profile) { this.wrapperContained = new net.minecraft.entity.player.PlayerEntity(world.wrapperContained,pos.wrapperContained,yaw,profile); }
+public int getPermissionLevel() { return wrapperContained.getPermissionLevel(); }
+// public static int getPermissionLevel() { return net.minecraft.entity.player.PlayerEntity.getPermissionLevel(); }
 public int unlockRecipes(java.util.Collection recipes) { return wrapperContained.unlockRecipes(recipes); }
 // public static int unlockRecipes(java.util.Collection recipes, ) { return net.minecraft.entity.player.PlayerEntity.unlockRecipes(recipes); }
 public void addExperience(int experience) { wrapperContained.addExperience(experience); }
@@ -359,16 +287,14 @@ public boolean canResetTimeBySleeping() { return wrapperContained.canResetTimeBy
 // public static boolean canResetTimeBySleeping() { return net.minecraft.entity.player.PlayerEntity.canResetTimeBySleeping(); }
 public void addCritParticles(yarnwrap.entity.Entity target) { wrapperContained.addCritParticles(target.wrapperContained); }
 // public static void addCritParticles(yarnwrap.entity.Entity target, ) { net.minecraft.entity.player.PlayerEntity.addCritParticles(target.wrapperContained); }
-public int getEnchantmentTableSeed() { return wrapperContained.getEnchantmentTableSeed(); }
-// public static int getEnchantmentTableSeed() { return net.minecraft.entity.player.PlayerEntity.getEnchantmentTableSeed(); }
+public int getEnchantingTableSeed() { return wrapperContained.getEnchantingTableSeed(); }
+// public static int getEnchantingTableSeed() { return net.minecraft.entity.player.PlayerEntity.getEnchantingTableSeed(); }
 public float getAttackCooldownProgressPerTick() { return wrapperContained.getAttackCooldownProgressPerTick(); }
 // public static float getAttackCooldownProgressPerTick() { return net.minecraft.entity.player.PlayerEntity.getAttackCooldownProgressPerTick(); }
 public void incrementStat(yarnwrap.util.Identifier stat) { wrapperContained.incrementStat(stat.wrapperContained); }
 // public static void incrementStat(yarnwrap.util.Identifier stat, ) { net.minecraft.entity.player.PlayerEntity.incrementStat(stat.wrapperContained); }
 public void setMainArm(yarnwrap.util.Arm arm) { wrapperContained.setMainArm(arm.wrapperContained); }
 // public static void setMainArm(yarnwrap.util.Arm arm, ) { net.minecraft.entity.player.PlayerEntity.setMainArm(arm.wrapperContained); }
-public void disableShield() { wrapperContained.disableShield(); }
-// public static void disableShield() { net.minecraft.entity.player.PlayerEntity.disableShield(); }
 public void addScore(int score) { wrapperContained.addScore(score); }
 // public static void addScore(int score, ) { net.minecraft.entity.player.PlayerEntity.addScore(score); }
 public void applyEnchantmentCosts(yarnwrap.item.ItemStack enchantedItem,int experienceLevels) { wrapperContained.applyEnchantmentCosts(enchantedItem.wrapperContained,experienceLevels); }
@@ -377,8 +303,6 @@ public yarnwrap.util.ActionResult interact(yarnwrap.entity.Entity entity,yarnwra
 // public static yarnwrap.util.ActionResult interact(yarnwrap.entity.Entity entity,yarnwrap.util.Hand hand, ) { return new yarnwrap.util.ActionResult(net.minecraft.entity.player.PlayerEntity.interact(entity.wrapperContained,hand.wrapperContained)); }
 public void openHorseInventory(yarnwrap.entity.passive.AbstractHorseEntity horse,yarnwrap.inventory.Inventory inventory) { wrapperContained.openHorseInventory(horse.wrapperContained,inventory.wrapperContained); }
 // public static void openHorseInventory(yarnwrap.entity.passive.AbstractHorseEntity horse,yarnwrap.inventory.Inventory inventory, ) { net.minecraft.entity.player.PlayerEntity.openHorseInventory(horse.wrapperContained,inventory.wrapperContained); }
-public float getLuck() { return wrapperContained.getLuck(); }
-// public static float getLuck() { return net.minecraft.entity.player.PlayerEntity.getLuck(); }
 // public void vanishCursedItems() { wrapperContained.vanishCursedItems(); }
 // public static void vanishCursedItems() { net.minecraft.entity.player.PlayerEntity.vanishCursedItems(); }
 public boolean canModifyBlocks() { return wrapperContained.canModifyBlocks(); }
@@ -431,8 +355,6 @@ public yarnwrap.scoreboard.Scoreboard getScoreboard() { return new yarnwrap.scor
 // public static yarnwrap.scoreboard.Scoreboard getScoreboard() { return new yarnwrap.scoreboard.Scoreboard(net.minecraft.entity.player.PlayerEntity.getScoreboard()); }
 public yarnwrap.entity.ItemEntity dropItem(yarnwrap.item.ItemStack stack,boolean retainOwnership) { return new yarnwrap.entity.ItemEntity(wrapperContained.dropItem(stack.wrapperContained,retainOwnership)); }
 // public static yarnwrap.entity.ItemEntity dropItem(yarnwrap.item.ItemStack stack,boolean retainOwnership, ) { return new yarnwrap.entity.ItemEntity(net.minecraft.entity.player.PlayerEntity.dropItem(stack.wrapperContained,retainOwnership)); }
-public yarnwrap.entity.ItemEntity dropItem(yarnwrap.item.ItemStack stack,boolean throwRandomly,boolean retainOwnership) { return new yarnwrap.entity.ItemEntity(wrapperContained.dropItem(stack.wrapperContained,throwRandomly,retainOwnership)); }
-// public static yarnwrap.entity.ItemEntity dropItem(yarnwrap.item.ItemStack stack,boolean throwRandomly,boolean retainOwnership, ) { return new yarnwrap.entity.ItemEntity(net.minecraft.entity.player.PlayerEntity.dropItem(stack.wrapperContained,throwRandomly,retainOwnership)); }
 // public void updateTurtleHelmet() { wrapperContained.updateTurtleHelmet(); }
 // public static void updateTurtleHelmet() { net.minecraft.entity.player.PlayerEntity.updateTurtleHelmet(); }
 public void requestRespawn() { wrapperContained.requestRespawn(); }
@@ -445,8 +367,6 @@ public com.mojang.authlib.GameProfile getGameProfile() { return wrapperContained
 // public static com.mojang.authlib.GameProfile getGameProfile() { return net.minecraft.entity.player.PlayerEntity.getGameProfile(); }
 // public void unlockRecipes(java.util.List recipes) { wrapperContained.unlockRecipes(recipes); }
 // public static void unlockRecipes(java.util.List recipes, ) { net.minecraft.entity.player.PlayerEntity.unlockRecipes(recipes); }
-public boolean isCreative() { return wrapperContained.isCreative(); }
-// public static boolean isCreative() { return net.minecraft.entity.player.PlayerEntity.isCreative(); }
 public boolean isCreativeLevelTwoOp() { return wrapperContained.isCreativeLevelTwoOp(); }
 // public static boolean isCreativeLevelTwoOp() { return net.minecraft.entity.player.PlayerEntity.isCreativeLevelTwoOp(); }
 public void increaseStat(yarnwrap.util.Identifier stat,int amount) { wrapperContained.increaseStat(stat.wrapperContained,amount); }
@@ -483,5 +403,111 @@ public yarnwrap.entity.player.ItemCooldownManager getItemCooldownManager() { ret
 // public static yarnwrap.entity.player.ItemCooldownManager getItemCooldownManager() { return new yarnwrap.entity.player.ItemCooldownManager(net.minecraft.entity.player.PlayerEntity.getItemCooldownManager()); }
 public void wakeUp(boolean skipSleepTimer,boolean updateSleepingPlayers) { wrapperContained.wakeUp(skipSleepTimer,updateSleepingPlayers); }
 // public static void wakeUp(boolean skipSleepTimer,boolean updateSleepingPlayers, ) { net.minecraft.entity.player.PlayerEntity.wakeUp(skipSleepTimer,updateSleepingPlayers); }
+// public void onHandledScreenClosed() { wrapperContained.onHandledScreenClosed(); }
+// public static void onHandledScreenClosed() { net.minecraft.entity.player.PlayerEntity.onHandledScreenClosed(); }
+public void openJigsawScreen(yarnwrap.block.entity.JigsawBlockEntity jigsaw) { wrapperContained.openJigsawScreen(jigsaw.wrapperContained); }
+// public static void openJigsawScreen(yarnwrap.block.entity.JigsawBlockEntity jigsaw, ) { net.minecraft.entity.player.PlayerEntity.openJigsawScreen(jigsaw.wrapperContained); }
+public void sendTradeOffers(int syncId,yarnwrap.village.TradeOfferList offers,int levelProgress,int experience,boolean leveled,boolean refreshable) { wrapperContained.sendTradeOffers(syncId,offers.wrapperContained,levelProgress,experience,leveled,refreshable); }
+// public static void sendTradeOffers(int syncId,yarnwrap.village.TradeOfferList offers,int levelProgress,int experience,boolean leveled,boolean refreshable, ) { net.minecraft.entity.player.PlayerEntity.sendTradeOffers(syncId,offers.wrapperContained,levelProgress,experience,leveled,refreshable); }
+public java.util.OptionalInt openHandledScreen(yarnwrap.screen.NamedScreenHandlerFactory factory) { return wrapperContained.openHandledScreen(factory.wrapperContained); }
+// public static java.util.OptionalInt openHandledScreen(yarnwrap.screen.NamedScreenHandlerFactory factory, ) { return net.minecraft.entity.player.PlayerEntity.openHandledScreen(factory.wrapperContained); }
+public void playSoundToPlayer(yarnwrap.sound.SoundEvent sound,yarnwrap.sound.SoundCategory category,float volume,float pitch) { wrapperContained.playSoundToPlayer(sound.wrapperContained,category.wrapperContained,volume,pitch); }
+// public static void playSoundToPlayer(yarnwrap.sound.SoundEvent sound,yarnwrap.sound.SoundCategory category,float volume,float pitch, ) { net.minecraft.entity.player.PlayerEntity.playSoundToPlayer(sound.wrapperContained,category.wrapperContained,volume,pitch); }
+public boolean isBlockBreakingRestricted(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.GameMode gameMode) { return wrapperContained.isBlockBreakingRestricted(world.wrapperContained,pos.wrapperContained,gameMode.wrapperContained); }
+// public static boolean isBlockBreakingRestricted(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.GameMode gameMode, ) { return net.minecraft.entity.player.PlayerEntity.isBlockBreakingRestricted(world.wrapperContained,pos.wrapperContained,gameMode.wrapperContained); }
+public boolean shouldCancelInteraction() { return wrapperContained.shouldCancelInteraction(); }
+// public static boolean shouldCancelInteraction() { return net.minecraft.entity.player.PlayerEntity.shouldCancelInteraction(); }
+// public boolean shouldDismount() { return wrapperContained.shouldDismount(); }
+// public static boolean shouldDismount() { return net.minecraft.entity.player.PlayerEntity.shouldDismount(); }
+// public boolean clipAtLedge() { return wrapperContained.clipAtLedge(); }
+// public static boolean clipAtLedge() { return net.minecraft.entity.player.PlayerEntity.clipAtLedge(); }
+public boolean checkGliding() { return wrapperContained.checkGliding(); }
+// public static boolean checkGliding() { return net.minecraft.entity.player.PlayerEntity.checkGliding(); }
+public void startGliding() { wrapperContained.startGliding(); }
+// public static void startGliding() { net.minecraft.entity.player.PlayerEntity.startGliding(); }
+// public Object createPlayerAttributes() { return wrapperContained.createPlayerAttributes(); }
+public static Object createPlayerAttributes() { return net.minecraft.entity.player.PlayerEntity.createPlayerAttributes(); }
+public yarnwrap.entity.player.PlayerInventory getInventory() { return new yarnwrap.entity.player.PlayerInventory(wrapperContained.getInventory()); }
+// public static yarnwrap.entity.player.PlayerInventory getInventory() { return new yarnwrap.entity.player.PlayerInventory(net.minecraft.entity.player.PlayerEntity.getInventory()); }
+public yarnwrap.entity.player.PlayerAbilities getAbilities() { return new yarnwrap.entity.player.PlayerAbilities(wrapperContained.getAbilities()); }
+// public static yarnwrap.entity.player.PlayerAbilities getAbilities() { return new yarnwrap.entity.player.PlayerAbilities(net.minecraft.entity.player.PlayerEntity.getAbilities()); }
+public boolean isUsingSpyglass() { return wrapperContained.isUsingSpyglass(); }
+// public static boolean isUsingSpyglass() { return net.minecraft.entity.player.PlayerEntity.isUsingSpyglass(); }
+public void onPickupSlotClick(yarnwrap.item.ItemStack cursorStack,yarnwrap.item.ItemStack slotStack,yarnwrap.util.ClickType clickType) { wrapperContained.onPickupSlotClick(cursorStack.wrapperContained,slotStack.wrapperContained,clickType.wrapperContained); }
+// public static void onPickupSlotClick(yarnwrap.item.ItemStack cursorStack,yarnwrap.item.ItemStack slotStack,yarnwrap.util.ClickType clickType, ) { net.minecraft.entity.player.PlayerEntity.onPickupSlotClick(cursorStack.wrapperContained,slotStack.wrapperContained,clickType.wrapperContained); }
+public boolean shouldFilterText() { return wrapperContained.shouldFilterText(); }
+// public static boolean shouldFilterText() { return net.minecraft.entity.player.PlayerEntity.shouldFilterText(); }
+public void useRiptide(int riptideTicks,float riptideAttackDamage,yarnwrap.item.ItemStack stack) { wrapperContained.useRiptide(riptideTicks,riptideAttackDamage,stack.wrapperContained); }
+// public static void useRiptide(int riptideTicks,float riptideAttackDamage,yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.player.PlayerEntity.useRiptide(riptideTicks,riptideAttackDamage,stack.wrapperContained); }
+public java.util.Optional getSculkShriekerWarningManager() { return wrapperContained.getSculkShriekerWarningManager(); }
+// public static java.util.Optional getSculkShriekerWarningManager() { return net.minecraft.entity.player.PlayerEntity.getSculkShriekerWarningManager(); }
+public void setLastDeathPos(java.util.Optional lastDeathPos) { wrapperContained.setLastDeathPos(lastDeathPos); }
+// public static void setLastDeathPos(java.util.Optional lastDeathPos, ) { net.minecraft.entity.player.PlayerEntity.setLastDeathPos(lastDeathPos); }
+public java.util.Optional getLastDeathPos() { return wrapperContained.getLastDeathPos(); }
+// public static java.util.Optional getLastDeathPos() { return net.minecraft.entity.player.PlayerEntity.getLastDeathPos(); }
+public boolean shouldCloseHandledScreenOnRespawn() { return wrapperContained.shouldCloseHandledScreenOnRespawn(); }
+// public static boolean shouldCloseHandledScreenOnRespawn() { return net.minecraft.entity.player.PlayerEntity.shouldCloseHandledScreenOnRespawn(); }
+public void onRecipeCrafted(yarnwrap.recipe.RecipeEntry recipe,java.util.List ingredients) { wrapperContained.onRecipeCrafted(recipe.wrapperContained,ingredients); }
+// public static void onRecipeCrafted(yarnwrap.recipe.RecipeEntry recipe,java.util.List ingredients, ) { net.minecraft.entity.player.PlayerEntity.onRecipeCrafted(recipe.wrapperContained,ingredients); }
+// public boolean canChangeIntoPose(yarnwrap.entity.EntityPose pose) { return wrapperContained.canChangeIntoPose(pose.wrapperContained); }
+// public static boolean canChangeIntoPose(yarnwrap.entity.EntityPose pose, ) { return net.minecraft.entity.player.PlayerEntity.canChangeIntoPose(pose.wrapperContained); }
+public double getBlockInteractionRange() { return wrapperContained.getBlockInteractionRange(); }
+// public static double getBlockInteractionRange() { return net.minecraft.entity.player.PlayerEntity.getBlockInteractionRange(); }
+public double getEntityInteractionRange() { return wrapperContained.getEntityInteractionRange(); }
+// public static double getEntityInteractionRange() { return net.minecraft.entity.player.PlayerEntity.getEntityInteractionRange(); }
+public boolean canInteractWithEntityIn(yarnwrap.util.math.Box box,double additionalRange) { return wrapperContained.canInteractWithEntityIn(box.wrapperContained,additionalRange); }
+// public static boolean canInteractWithEntityIn(yarnwrap.util.math.Box box,double additionalRange, ) { return net.minecraft.entity.player.PlayerEntity.canInteractWithEntityIn(box.wrapperContained,additionalRange); }
+public boolean canInteractWithBlockAt(yarnwrap.util.math.BlockPos pos,double additionalRange) { return wrapperContained.canInteractWithBlockAt(pos.wrapperContained,additionalRange); }
+// public static boolean canInteractWithBlockAt(yarnwrap.util.math.BlockPos pos,double additionalRange, ) { return net.minecraft.entity.player.PlayerEntity.canInteractWithBlockAt(pos.wrapperContained,additionalRange); }
+public boolean canInteractWithEntity(yarnwrap.entity.Entity entity,double additionalRange) { return wrapperContained.canInteractWithEntity(entity.wrapperContained,additionalRange); }
+// public static boolean canInteractWithEntity(yarnwrap.entity.Entity entity,double additionalRange, ) { return net.minecraft.entity.player.PlayerEntity.canInteractWithEntity(entity.wrapperContained,additionalRange); }
+public void clearCurrentExplosion() { wrapperContained.clearCurrentExplosion(); }
+// public static void clearCurrentExplosion() { net.minecraft.entity.player.PlayerEntity.clearCurrentExplosion(); }
+// public boolean isSpaceAroundPlayerEmpty(double offsetX,double offsetZ) { return wrapperContained.isSpaceAroundPlayerEmpty(offsetX,offsetZ); }
+// public static boolean isSpaceAroundPlayerEmpty(double offsetX,double offsetZ, ) { return net.minecraft.entity.player.PlayerEntity.isSpaceAroundPlayerEmpty(offsetX,offsetZ); }
+// public float getDamageAgainst(yarnwrap.entity.Entity target,float baseDamage,yarnwrap.entity.damage.DamageSource damageSource) { return wrapperContained.getDamageAgainst(target.wrapperContained,baseDamage,damageSource.wrapperContained); }
+// public static float getDamageAgainst(yarnwrap.entity.Entity target,float baseDamage,yarnwrap.entity.damage.DamageSource damageSource, ) { return net.minecraft.entity.player.PlayerEntity.getDamageAgainst(target.wrapperContained,baseDamage,damageSource.wrapperContained); }
+public void tryClearCurrentExplosion() { wrapperContained.tryClearCurrentExplosion(); }
+// public static void tryClearCurrentExplosion() { net.minecraft.entity.player.PlayerEntity.tryClearCurrentExplosion(); }
+public void setIgnoreFallDamageFromCurrentExplosion(boolean ignoreFallDamageFromCurrentExplosion) { wrapperContained.setIgnoreFallDamageFromCurrentExplosion(ignoreFallDamageFromCurrentExplosion); }
+// public static void setIgnoreFallDamageFromCurrentExplosion(boolean ignoreFallDamageFromCurrentExplosion, ) { net.minecraft.entity.player.PlayerEntity.setIgnoreFallDamageFromCurrentExplosion(ignoreFallDamageFromCurrentExplosion); }
+public boolean shouldIgnoreFallDamageFromCurrentExplosion() { return wrapperContained.shouldIgnoreFallDamageFromCurrentExplosion(); }
+// public static boolean shouldIgnoreFallDamageFromCurrentExplosion() { return net.minecraft.entity.player.PlayerEntity.shouldIgnoreFallDamageFromCurrentExplosion(); }
+public boolean shouldRotateWithMinecart() { return wrapperContained.shouldRotateWithMinecart(); }
+// public static boolean shouldRotateWithMinecart() { return net.minecraft.entity.player.PlayerEntity.shouldRotateWithMinecart(); }
+public void dropCreativeStack(yarnwrap.item.ItemStack stack) { wrapperContained.dropCreativeStack(stack.wrapperContained); }
+// public static void dropCreativeStack(yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.player.PlayerEntity.dropCreativeStack(stack.wrapperContained); }
+// public boolean isEquipped(yarnwrap.item.Item item) { return wrapperContained.isEquipped(item.wrapperContained); }
+// public static boolean isEquipped(yarnwrap.item.Item item, ) { return net.minecraft.entity.player.PlayerEntity.isEquipped(item.wrapperContained); }
+public boolean canDropItems() { return wrapperContained.canDropItems(); }
+// public static boolean canDropItems() { return net.minecraft.entity.player.PlayerEntity.canDropItems(); }
+// public void tickHunger() { wrapperContained.tickHunger(); }
+// public static void tickHunger() { net.minecraft.entity.player.PlayerEntity.tickHunger(); }
+public boolean hasPermissionLevel(int level) { return wrapperContained.hasPermissionLevel(level); }
+// public static boolean hasPermissionLevel(int level, ) { return net.minecraft.entity.player.PlayerEntity.hasPermissionLevel(level); }
+public boolean isLoaded() { return wrapperContained.isLoaded(); }
+// public static boolean isLoaded() { return net.minecraft.entity.player.PlayerEntity.isLoaded(); }
+public void tickLoaded() { wrapperContained.tickLoaded(); }
+// public static void tickLoaded() { net.minecraft.entity.player.PlayerEntity.tickLoaded(); }
+public void setLoaded(boolean loaded) { wrapperContained.setLoaded(loaded); }
+// public static void setLoaded(boolean loaded, ) { net.minecraft.entity.player.PlayerEntity.setLoaded(loaded); }
+public boolean shouldSkipBlockDrops() { return wrapperContained.shouldSkipBlockDrops(); }
+// public static boolean shouldSkipBlockDrops() { return net.minecraft.entity.player.PlayerEntity.shouldSkipBlockDrops(); }
+// public yarnwrap.entity.EntityPose getExpectedPose() { return new yarnwrap.entity.EntityPose(wrapperContained.getExpectedPose()); }
+// public static yarnwrap.entity.EntityPose getExpectedPose() { return new yarnwrap.entity.EntityPose(net.minecraft.entity.player.PlayerEntity.getExpectedPose()); }
+public void openTestBlockScreen(yarnwrap.block.entity.TestBlockEntity testBlock) { wrapperContained.openTestBlockScreen(testBlock.wrapperContained); }
+// public static void openTestBlockScreen(yarnwrap.block.entity.TestBlockEntity testBlock, ) { net.minecraft.entity.player.PlayerEntity.openTestBlockScreen(testBlock.wrapperContained); }
+public void openTestInstanceBlockScreen(yarnwrap.block.entity.TestInstanceBlockEntity testInstanceBlock) { wrapperContained.openTestInstanceBlockScreen(testInstanceBlock.wrapperContained); }
+// public static void openTestInstanceBlockScreen(yarnwrap.block.entity.TestInstanceBlockEntity testInstanceBlock, ) { net.minecraft.entity.player.PlayerEntity.openTestInstanceBlockScreen(testInstanceBlock.wrapperContained); }
+// public void method_67360(yarnwrap.storage.WriteView pos) { wrapperContained.method_67360(pos.wrapperContained); }
+// public static void method_67360(yarnwrap.storage.WriteView pos, ) { net.minecraft.entity.player.PlayerEntity.method_67360(pos.wrapperContained); }
+public yarnwrap.world.GameMode getGameMode() { return new yarnwrap.world.GameMode(wrapperContained.getGameMode()); }
+// public static yarnwrap.world.GameMode getGameMode() { return new yarnwrap.world.GameMode(net.minecraft.entity.player.PlayerEntity.getGameMode()); }
+public java.lang.String asString() { return wrapperContained.asString(); }
+// public static java.lang.String asString() { return net.minecraft.entity.player.PlayerEntity.asString(); }
+public boolean isCreative() { return wrapperContained.isCreative(); }
+// public static boolean isCreative() { return net.minecraft.entity.player.PlayerEntity.isCreative(); }
+// public void openDialog(yarnwrap.registry.entry.RegistryEntry dialog) { wrapperContained.openDialog(dialog.wrapperContained); }
+// public static void openDialog(yarnwrap.registry.entry.RegistryEntry dialog, ) { net.minecraft.entity.player.PlayerEntity.openDialog(dialog.wrapperContained); }
 
 }

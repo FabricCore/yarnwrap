@@ -16,6 +16,11 @@ public class LightingProvider { public net.minecraft.world.chunk.light.LightingP
 // public static yarnwrap.world.HeightLimitView world() { return new yarnwrap.world.HeightLimitView(net.minecraft.world.chunk.light.LightingProvider.world); }
 // public static void world(yarnwrap.world.HeightLimitView value, ) { net.minecraft.world.chunk.light.LightingProvider.world = value.wrapperContained; }
 
+// public yarnwrap.world.chunk.light.LightingProvider DEFAULT() { return new yarnwrap.world.chunk.light.LightingProvider(wrapperContained.DEFAULT); }
+// public void DEFAULT(yarnwrap.world.chunk.light.LightingProvider value) { wrapperContained.DEFAULT = value.wrapperContained; }
+public static yarnwrap.world.chunk.light.LightingProvider DEFAULT() { return new yarnwrap.world.chunk.light.LightingProvider(net.minecraft.world.chunk.light.LightingProvider.DEFAULT); }
+// public static void DEFAULT(yarnwrap.world.chunk.light.LightingProvider value, ) { net.minecraft.world.chunk.light.LightingProvider.DEFAULT = value.wrapperContained; }
+
 public LightingProvider(yarnwrap.world.chunk.ChunkProvider chunkProvider,boolean hasBlockLight,boolean hasSkyLight) { this.wrapperContained = new net.minecraft.world.chunk.light.LightingProvider(chunkProvider.wrapperContained,hasBlockLight,hasSkyLight); }
 public void enqueueSectionData(yarnwrap.world.LightType lightType,yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.world.chunk.ChunkNibbleArray nibbles) { wrapperContained.enqueueSectionData(lightType.wrapperContained,pos.wrapperContained,nibbles.wrapperContained); }
 // public static void enqueueSectionData(yarnwrap.world.LightType lightType,yarnwrap.util.math.ChunkSectionPos pos,yarnwrap.world.chunk.ChunkNibbleArray nibbles, ) { net.minecraft.world.chunk.light.LightingProvider.enqueueSectionData(lightType.wrapperContained,pos.wrapperContained,nibbles.wrapperContained); }
@@ -33,9 +38,9 @@ public int getBottomY() { return wrapperContained.getBottomY(); }
 // public static int getBottomY() { return net.minecraft.world.chunk.light.LightingProvider.getBottomY(); }
 public int getTopY() { return wrapperContained.getTopY(); }
 // public static int getTopY() { return net.minecraft.world.chunk.light.LightingProvider.getTopY(); }
-public boolean isLightingEnabled(yarnwrap.util.math.ChunkSectionPos sectionPos) { return wrapperContained.isLightingEnabled(sectionPos.wrapperContained); }
-// public static boolean isLightingEnabled(yarnwrap.util.math.ChunkSectionPos sectionPos, ) { return net.minecraft.world.chunk.light.LightingProvider.isLightingEnabled(sectionPos.wrapperContained); }
 public Object getStatus(yarnwrap.world.LightType lightType,yarnwrap.util.math.ChunkSectionPos pos) { return wrapperContained.getStatus(lightType.wrapperContained,pos.wrapperContained); }
 // public static Object getStatus(yarnwrap.world.LightType lightType,yarnwrap.util.math.ChunkSectionPos pos, ) { return net.minecraft.world.chunk.light.LightingProvider.getStatus(lightType.wrapperContained,pos.wrapperContained); }
+public boolean isLightingEnabled(long sectionPos) { return wrapperContained.isLightingEnabled(sectionPos); }
+// public static boolean isLightingEnabled(long sectionPos, ) { return net.minecraft.world.chunk.light.LightingProvider.isLightingEnabled(sectionPos); }
 
 }

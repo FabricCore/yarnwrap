@@ -78,7 +78,41 @@ public static boolean isMissingRendererFactories() { return net.minecraft.client
 // public static yarnwrap.client.render.entity.EntityRenderer method_42604(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_42604(context)); }
 // public yarnwrap.client.render.entity.EntityRenderer method_42605(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_42605(context)); }
 // public static yarnwrap.client.render.entity.EntityRenderer method_42605(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_42605(context)); }
-// public yarnwrap.client.render.entity.EntityRenderer method_45802(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_45802(context)); }
-// public static yarnwrap.client.render.entity.EntityRenderer method_45802(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_45802(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64524(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64524(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64524(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64524(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64525(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64525(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64525(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64525(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64526(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64526(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64526(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64526(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64527(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64527(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64527(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64527(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64528(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64528(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64528(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64528(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64529(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64529(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64529(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64529(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64530(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64530(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64530(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64530(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64531(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64531(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64531(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64531(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64532(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64532(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64532(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64532(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64533(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64533(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64533(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64533(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64534(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64534(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64534(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64534(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64535(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64535(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64535(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64535(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64536(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64536(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64536(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64536(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64537(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64537(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64537(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64537(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64538(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64538(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64538(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64538(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64539(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64539(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64539(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64539(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64919(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64919(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64919(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64919(context)); }
+// public yarnwrap.client.render.entity.EntityRenderer method_64920(Object context) { return new yarnwrap.client.render.entity.EntityRenderer(wrapperContained.method_64920(context)); }
+// public static yarnwrap.client.render.entity.EntityRenderer method_64920(Object context, ) { return new yarnwrap.client.render.entity.EntityRenderer(net.minecraft.client.render.entity.EntityRenderers.method_64920(context)); }
 
 }

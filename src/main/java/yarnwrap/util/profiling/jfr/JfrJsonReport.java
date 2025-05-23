@@ -79,5 +79,11 @@ public java.lang.String toString(yarnwrap.util.profiling.jfr.JfrProfile profile)
 // public static void addChunkData(yarnwrap.util.profiling.jfr.sample.ChunkRegionSample chunk,com.google.gson.JsonObject json, ) { net.minecraft.util.profiling.jfr.JfrJsonReport.addChunkData(chunk.wrapperContained,json); }
 // public void addPacketData(yarnwrap.util.profiling.jfr.sample.PacketSample packet,com.google.gson.JsonObject json) { wrapperContained.addPacketData(packet.wrapperContained,json); }
 // public static void addPacketData(yarnwrap.util.profiling.jfr.sample.PacketSample packet,com.google.gson.JsonObject json, ) { net.minecraft.util.profiling.jfr.JfrJsonReport.addPacketData(packet.wrapperContained,json); }
+// public com.google.gson.JsonElement method_65109(yarnwrap.util.profiling.jfr.sample.StructureGenerationSample sample) { return wrapperContained.method_65109(sample.wrapperContained); }
+// public static com.google.gson.JsonElement method_65109(yarnwrap.util.profiling.jfr.sample.StructureGenerationSample sample, ) { return net.minecraft.util.profiling.jfr.JfrJsonReport.method_65109(sample.wrapperContained); }
+// public void method_65110(com.google.gson.JsonArray name,com.google.gson.JsonObject samples) { wrapperContained.method_65110(name,samples); }
+// public static void method_65110(com.google.gson.JsonArray name,com.google.gson.JsonObject samples, ) { net.minecraft.util.profiling.jfr.JfrJsonReport.method_65110(name,samples); }
+// public com.google.gson.JsonElement collectStructureGenSection(java.util.List structureGenerationSamples) { return wrapperContained.collectStructureGenSection(structureGenerationSamples); }
+// public static com.google.gson.JsonElement collectStructureGenSection(java.util.List structureGenerationSamples, ) { return net.minecraft.util.profiling.jfr.JfrJsonReport.collectStructureGenSection(structureGenerationSamples); }
 
 }

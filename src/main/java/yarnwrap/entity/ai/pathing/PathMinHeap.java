@@ -15,14 +15,6 @@ public yarnwrap.entity.ai.pathing.PathNode push(yarnwrap.entity.ai.pathing.PathN
 // public static yarnwrap.entity.ai.pathing.PathNode push(yarnwrap.entity.ai.pathing.PathNode node, ) { return new yarnwrap.entity.ai.pathing.PathNode(net.minecraft.entity.ai.pathing.PathMinHeap.push(node.wrapperContained)); }
 public void setNodeWeight(yarnwrap.entity.ai.pathing.PathNode node,float weight) { wrapperContained.setNodeWeight(node.wrapperContained,weight); }
 // public static void setNodeWeight(yarnwrap.entity.ai.pathing.PathNode node,float weight, ) { net.minecraft.entity.ai.pathing.PathMinHeap.setNodeWeight(node.wrapperContained,weight); }
-public yarnwrap.entity.ai.pathing.PathNode getStart() { return new yarnwrap.entity.ai.pathing.PathNode(wrapperContained.getStart()); }
-// public static yarnwrap.entity.ai.pathing.PathNode getStart() { return new yarnwrap.entity.ai.pathing.PathNode(net.minecraft.entity.ai.pathing.PathMinHeap.getStart()); }
-public void popNode(yarnwrap.entity.ai.pathing.PathNode node) { wrapperContained.popNode(node.wrapperContained); }
-// public static void popNode(yarnwrap.entity.ai.pathing.PathNode node, ) { net.minecraft.entity.ai.pathing.PathMinHeap.popNode(node.wrapperContained); }
-public int getCount() { return wrapperContained.getCount(); }
-// public static int getCount() { return net.minecraft.entity.ai.pathing.PathMinHeap.getCount(); }
-public net.minecraft.entity.ai.pathing.PathNode[] getNodes() { return wrapperContained.getNodes(); }
-// public static net.minecraft.entity.ai.pathing.PathNode[] getNodes() { return net.minecraft.entity.ai.pathing.PathMinHeap.getNodes(); }
 // public void shiftUp(int index) { wrapperContained.shiftUp(index); }
 // public static void shiftUp(int index, ) { net.minecraft.entity.ai.pathing.PathMinHeap.shiftUp(index); }
 public void clear() { wrapperContained.clear(); }
@@ -33,5 +25,13 @@ public yarnwrap.entity.ai.pathing.PathNode pop() { return new yarnwrap.entity.ai
 // public static void shiftDown(int index, ) { net.minecraft.entity.ai.pathing.PathMinHeap.shiftDown(index); }
 public boolean isEmpty() { return wrapperContained.isEmpty(); }
 // public static boolean isEmpty() { return net.minecraft.entity.ai.pathing.PathMinHeap.isEmpty(); }
+public yarnwrap.entity.ai.pathing.PathNode getStart() { return new yarnwrap.entity.ai.pathing.PathNode(wrapperContained.getStart()); }
+// public static yarnwrap.entity.ai.pathing.PathNode getStart() { return new yarnwrap.entity.ai.pathing.PathNode(net.minecraft.entity.ai.pathing.PathMinHeap.getStart()); }
+public void popNode(yarnwrap.entity.ai.pathing.PathNode node) { wrapperContained.popNode(node.wrapperContained); }
+// public static void popNode(yarnwrap.entity.ai.pathing.PathNode node, ) { net.minecraft.entity.ai.pathing.PathMinHeap.popNode(node.wrapperContained); }
+public int getCount() { return wrapperContained.getCount(); }
+// public static int getCount() { return net.minecraft.entity.ai.pathing.PathMinHeap.getCount(); }
+public net.minecraft.entity.ai.pathing.PathNode[] getNodes() { return wrapperContained.getNodes(); }
+// public static net.minecraft.entity.ai.pathing.PathNode[] getNodes() { return net.minecraft.entity.ai.pathing.PathMinHeap.getNodes(); }
 
 }

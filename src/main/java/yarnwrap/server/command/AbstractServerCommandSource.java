@@ -19,7 +19,5 @@ public yarnwrap.command.ReturnValueConsumer getReturnValueConsumer() { return ne
 // public static yarnwrap.command.ReturnValueConsumer getReturnValueConsumer() { return new yarnwrap.command.ReturnValueConsumer(net.minecraft.server.command.AbstractServerCommandSource.getReturnValueConsumer()); }
 public boolean isSilent() { return wrapperContained.isSilent(); }
 // public static boolean isSilent() { return net.minecraft.server.command.AbstractServerCommandSource.isSilent(); }
-public boolean hasPermissionLevel(int level) { return wrapperContained.hasPermissionLevel(level); }
-// public static boolean hasPermissionLevel(int level, ) { return net.minecraft.server.command.AbstractServerCommandSource.hasPermissionLevel(level); }
 
 }

@@ -69,8 +69,8 @@ public void onSelectMerchantTrade(yarnwrap.network.packet.c2s.play.SelectMerchan
 // public static void onSelectMerchantTrade(yarnwrap.network.packet.c2s.play.SelectMerchantTradeC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onSelectMerchantTrade(packet.wrapperContained); }
 public void onUpdatePlayerAbilities(yarnwrap.network.packet.c2s.play.UpdatePlayerAbilitiesC2SPacket packet) { wrapperContained.onUpdatePlayerAbilities(packet.wrapperContained); }
 // public static void onUpdatePlayerAbilities(yarnwrap.network.packet.c2s.play.UpdatePlayerAbilitiesC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onUpdatePlayerAbilities(packet.wrapperContained); }
-public void onPickFromInventory(yarnwrap.network.packet.c2s.play.PickFromInventoryC2SPacket packet) { wrapperContained.onPickFromInventory(packet.wrapperContained); }
-// public static void onPickFromInventory(yarnwrap.network.packet.c2s.play.PickFromInventoryC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onPickFromInventory(packet.wrapperContained); }
+public void onPickItemFromEntity(yarnwrap.network.packet.c2s.play.PickItemFromEntityC2SPacket packet) { wrapperContained.onPickItemFromEntity(packet.wrapperContained); }
+// public static void onPickItemFromEntity(yarnwrap.network.packet.c2s.play.PickItemFromEntityC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onPickItemFromEntity(packet.wrapperContained); }
 public void onUpdateJigsaw(yarnwrap.network.packet.c2s.play.UpdateJigsawC2SPacket packet) { wrapperContained.onUpdateJigsaw(packet.wrapperContained); }
 // public static void onUpdateJigsaw(yarnwrap.network.packet.c2s.play.UpdateJigsawC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onUpdateJigsaw(packet.wrapperContained); }
 public void onUpdateDifficulty(yarnwrap.network.packet.c2s.play.UpdateDifficultyC2SPacket packet) { wrapperContained.onUpdateDifficulty(packet.wrapperContained); }
@@ -97,5 +97,19 @@ public void onDebugSampleSubscription(yarnwrap.network.packet.c2s.play.DebugSamp
 // public static void onDebugSampleSubscription(yarnwrap.network.packet.c2s.play.DebugSampleSubscriptionC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onDebugSampleSubscription(packet.wrapperContained); }
 public void onChatCommandSigned(yarnwrap.network.packet.c2s.play.ChatCommandSignedC2SPacket packet) { wrapperContained.onChatCommandSigned(packet.wrapperContained); }
 // public static void onChatCommandSigned(yarnwrap.network.packet.c2s.play.ChatCommandSignedC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onChatCommandSigned(packet.wrapperContained); }
+public void onClientTickEnd(yarnwrap.network.packet.c2s.play.ClientTickEndC2SPacket packet) { wrapperContained.onClientTickEnd(packet.wrapperContained); }
+// public static void onClientTickEnd(yarnwrap.network.packet.c2s.play.ClientTickEndC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onClientTickEnd(packet.wrapperContained); }
+public void onBundleItemSelected(yarnwrap.network.packet.c2s.play.BundleItemSelectedC2SPacket packet) { wrapperContained.onBundleItemSelected(packet.wrapperContained); }
+// public static void onBundleItemSelected(yarnwrap.network.packet.c2s.play.BundleItemSelectedC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onBundleItemSelected(packet.wrapperContained); }
+public void onPickItemFromBlock(yarnwrap.network.packet.c2s.play.PickItemFromBlockC2SPacket packet) { wrapperContained.onPickItemFromBlock(packet.wrapperContained); }
+// public static void onPickItemFromBlock(yarnwrap.network.packet.c2s.play.PickItemFromBlockC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onPickItemFromBlock(packet.wrapperContained); }
+public void onPlayerLoaded(yarnwrap.network.packet.c2s.play.PlayerLoadedC2SPacket packet) { wrapperContained.onPlayerLoaded(packet.wrapperContained); }
+// public static void onPlayerLoaded(yarnwrap.network.packet.c2s.play.PlayerLoadedC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onPlayerLoaded(packet.wrapperContained); }
+public void onSetTestBlock(yarnwrap.network.packet.c2s.play.SetTestBlockC2SPacket packet) { wrapperContained.onSetTestBlock(packet.wrapperContained); }
+// public static void onSetTestBlock(yarnwrap.network.packet.c2s.play.SetTestBlockC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onSetTestBlock(packet.wrapperContained); }
+public void onTestInstanceBlockAction(yarnwrap.network.packet.c2s.play.TestInstanceBlockActionC2SPacket packet) { wrapperContained.onTestInstanceBlockAction(packet.wrapperContained); }
+// public static void onTestInstanceBlockAction(yarnwrap.network.packet.c2s.play.TestInstanceBlockActionC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onTestInstanceBlockAction(packet.wrapperContained); }
+// public void onChangeGameMode(yarnwrap.network.packet.c2s.play.ChangeGameModeC2SPacket packet) { wrapperContained.onChangeGameMode(packet.wrapperContained); }
+// public static void onChangeGameMode(yarnwrap.network.packet.c2s.play.ChangeGameModeC2SPacket packet, ) { net.minecraft.network.listener.ServerPlayPacketListener.onChangeGameMode(packet.wrapperContained); }
 
 }

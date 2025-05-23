@@ -31,11 +31,6 @@ public class NetherPortal { public net.minecraft.world.dimension.NetherPortal wr
 // // public static Object axis() { return net.minecraft.world.dimension.NetherPortal.axis; }
 // // public static void axis(Object value, ) { net.minecraft.world.dimension.NetherPortal.axis = value; }
 
-// public yarnwrap.world.WorldAccess world() { return new yarnwrap.world.WorldAccess(wrapperContained.world); }
-// public void world(yarnwrap.world.WorldAccess value) { wrapperContained.world = value.wrapperContained; }
-// public static yarnwrap.world.WorldAccess world() { return new yarnwrap.world.WorldAccess(net.minecraft.world.dimension.NetherPortal.world); }
-// public static void world(yarnwrap.world.WorldAccess value, ) { net.minecraft.world.dimension.NetherPortal.world = value.wrapperContained; }
-
 // public Object IS_VALID_FRAME_BLOCK() { return wrapperContained.IS_VALID_FRAME_BLOCK; }
 // // public void IS_VALID_FRAME_BLOCK(Object value) { wrapperContained.IS_VALID_FRAME_BLOCK = value; }
 // // public static Object IS_VALID_FRAME_BLOCK() { return net.minecraft.world.dimension.NetherPortal.IS_VALID_FRAME_BLOCK; }
@@ -71,42 +66,44 @@ public static int MAX_HEIGHT() { return net.minecraft.world.dimension.NetherPort
 // public static double HEIGHT_STRETCH() { return net.minecraft.world.dimension.NetherPortal.HEIGHT_STRETCH; }
 // public static void HEIGHT_STRETCH(double value, ) { net.minecraft.world.dimension.NetherPortal.HEIGHT_STRETCH = value; }
 
-// public NetherPortal(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,Object axis) { this.wrapperContained = new net.minecraft.world.dimension.NetherPortal(world.wrapperContained,pos.wrapperContained,axis); }
+// public NetherPortal(Object axis,int foundPortalBlocks,yarnwrap.util.math.Direction negativeDir,yarnwrap.util.math.BlockPos lowerCorner,int width,int height) { this.wrapperContained = new net.minecraft.world.dimension.NetherPortal(axis,foundPortalBlocks,negativeDir.wrapperContained,lowerCorner.wrapperContained,width,height); }
 // public boolean validStateInsidePortal(yarnwrap.block.BlockState state) { return wrapperContained.validStateInsidePortal(state.wrapperContained); }
 // public static boolean validStateInsidePortal(yarnwrap.block.BlockState state, ) { return net.minecraft.world.dimension.NetherPortal.validStateInsidePortal(state.wrapperContained); }
 public boolean isValid() { return wrapperContained.isValid(); }
 // public static boolean isValid() { return net.minecraft.world.dimension.NetherPortal.isValid(); }
 public boolean wasAlreadyValid() { return wrapperContained.wasAlreadyValid(); }
 // public static boolean wasAlreadyValid() { return net.minecraft.world.dimension.NetherPortal.wasAlreadyValid(); }
-public void createPortal() { wrapperContained.createPortal(); }
-// public static void createPortal() { net.minecraft.world.dimension.NetherPortal.createPortal(); }
-// public java.util.Optional getNewPortal(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,Object axis) { return wrapperContained.getNewPortal(world.wrapperContained,pos.wrapperContained,axis); }
-// public static java.util.Optional getNewPortal(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,Object axis, ) { return net.minecraft.world.dimension.NetherPortal.getNewPortal(world.wrapperContained,pos.wrapperContained,axis); }
-// public java.util.Optional getOrEmpty(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,java.util.function.Predicate validator,Object axis) { return wrapperContained.getOrEmpty(world.wrapperContained,pos.wrapperContained,validator,axis); }
-// public static java.util.Optional getOrEmpty(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,java.util.function.Predicate validator,Object axis, ) { return net.minecraft.world.dimension.NetherPortal.getOrEmpty(world.wrapperContained,pos.wrapperContained,validator,axis); }
+public void createPortal(yarnwrap.world.WorldAccess world) { wrapperContained.createPortal(world.wrapperContained); }
+// public static void createPortal(yarnwrap.world.WorldAccess world, ) { net.minecraft.world.dimension.NetherPortal.createPortal(world.wrapperContained); }
+// public java.util.Optional getNewPortal(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,Object firstCheckedAxis) { return wrapperContained.getNewPortal(world.wrapperContained,pos.wrapperContained,firstCheckedAxis); }
+// public static java.util.Optional getNewPortal(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,Object firstCheckedAxis, ) { return net.minecraft.world.dimension.NetherPortal.getNewPortal(world.wrapperContained,pos.wrapperContained,firstCheckedAxis); }
+// public java.util.Optional getOrEmpty(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,java.util.function.Predicate validator,Object firstCheckedAxis) { return wrapperContained.getOrEmpty(world.wrapperContained,pos.wrapperContained,validator,firstCheckedAxis); }
+// public static java.util.Optional getOrEmpty(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,java.util.function.Predicate validator,Object firstCheckedAxis, ) { return net.minecraft.world.dimension.NetherPortal.getOrEmpty(world.wrapperContained,pos.wrapperContained,validator,firstCheckedAxis); }
 // public boolean method_30487(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_30487(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
 // public static boolean method_30487(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.dimension.NetherPortal.method_30487(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
-// public void method_30488(yarnwrap.block.BlockState pos) { wrapperContained.method_30488(pos.wrapperContained); }
-// public static void method_30488(yarnwrap.block.BlockState pos, ) { net.minecraft.world.dimension.NetherPortal.method_30488(pos.wrapperContained); }
 // public boolean method_30489(yarnwrap.world.dimension.NetherPortal areaHelper) { return wrapperContained.method_30489(areaHelper.wrapperContained); }
 // public static boolean method_30489(yarnwrap.world.dimension.NetherPortal areaHelper, ) { return net.minecraft.world.dimension.NetherPortal.method_30489(areaHelper.wrapperContained); }
-// public int getPotentialHeight(Object pos) { return wrapperContained.getPotentialHeight(pos); }
-// public static int getPotentialHeight(Object pos, ) { return net.minecraft.world.dimension.NetherPortal.getPotentialHeight(pos); }
-// public boolean isHorizontalFrameValid(Object pos,int height) { return wrapperContained.isHorizontalFrameValid(pos,height); }
-// public static boolean isHorizontalFrameValid(Object pos,int height, ) { return net.minecraft.world.dimension.NetherPortal.isHorizontalFrameValid(pos,height); }
-// public yarnwrap.util.math.BlockPos getLowerCorner(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.getLowerCorner(pos.wrapperContained)); }
-// public static yarnwrap.util.math.BlockPos getLowerCorner(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.dimension.NetherPortal.getLowerCorner(pos.wrapperContained)); }
-// public int getWidth(yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction) { return wrapperContained.getWidth(pos.wrapperContained,direction.wrapperContained); }
-// public static int getWidth(yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction, ) { return net.minecraft.world.dimension.NetherPortal.getWidth(pos.wrapperContained,direction.wrapperContained); }
+// public int getPotentialHeight(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos lowerCorner,yarnwrap.util.math.Direction negativeDir,Object pos,int width,org.apache.commons.lang3.mutable.MutableInt foundPortalBlocks) { return wrapperContained.getPotentialHeight(world.wrapperContained,lowerCorner.wrapperContained,negativeDir.wrapperContained,pos,width,foundPortalBlocks); }
+// public static int getPotentialHeight(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos lowerCorner,yarnwrap.util.math.Direction negativeDir,Object pos,int width,org.apache.commons.lang3.mutable.MutableInt foundPortalBlocks, ) { return net.minecraft.world.dimension.NetherPortal.getPotentialHeight(world.wrapperContained,lowerCorner.wrapperContained,negativeDir.wrapperContained,pos,width,foundPortalBlocks); }
+// public boolean isHorizontalFrameValid(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos lowerCorner,yarnwrap.util.math.Direction direction,Object pos,int width,int height) { return wrapperContained.isHorizontalFrameValid(world.wrapperContained,lowerCorner.wrapperContained,direction.wrapperContained,pos,width,height); }
+// public static boolean isHorizontalFrameValid(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos lowerCorner,yarnwrap.util.math.Direction direction,Object pos,int width,int height, ) { return net.minecraft.world.dimension.NetherPortal.isHorizontalFrameValid(world.wrapperContained,lowerCorner.wrapperContained,direction.wrapperContained,pos,width,height); }
+// public yarnwrap.util.math.BlockPos getLowerCorner(yarnwrap.world.BlockView world,yarnwrap.util.math.Direction direction,yarnwrap.util.math.BlockPos pow) { return new yarnwrap.util.math.BlockPos(wrapperContained.getLowerCorner(world.wrapperContained,direction.wrapperContained,pow.wrapperContained)); }
+// public static yarnwrap.util.math.BlockPos getLowerCorner(yarnwrap.world.BlockView world,yarnwrap.util.math.Direction direction,yarnwrap.util.math.BlockPos pow, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.world.dimension.NetherPortal.getLowerCorner(world.wrapperContained,direction.wrapperContained,pow.wrapperContained)); }
+// public int getWidth(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos lowerCorner,yarnwrap.util.math.Direction negativeDir) { return wrapperContained.getWidth(world.wrapperContained,lowerCorner.wrapperContained,negativeDir.wrapperContained); }
+// public static int getWidth(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos lowerCorner,yarnwrap.util.math.Direction negativeDir, ) { return net.minecraft.world.dimension.NetherPortal.getWidth(world.wrapperContained,lowerCorner.wrapperContained,negativeDir.wrapperContained); }
 // public yarnwrap.util.math.Vec3d entityPosInPortal(Object portalRect,Object portalAxis,yarnwrap.util.math.Vec3d entityPos,yarnwrap.entity.EntityDimensions entityDimensions) { return new yarnwrap.util.math.Vec3d(wrapperContained.entityPosInPortal(portalRect,portalAxis,entityPos.wrapperContained,entityDimensions.wrapperContained)); }
 // public static yarnwrap.util.math.Vec3d entityPosInPortal(Object portalRect,Object portalAxis,yarnwrap.util.math.Vec3d entityPos,yarnwrap.entity.EntityDimensions entityDimensions, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.world.dimension.NetherPortal.entityPosInPortal(portalRect,portalAxis,entityPos.wrapperContained,entityDimensions.wrapperContained)); }
-// public int getWidth() { return wrapperContained.getWidth(); }
-// public static int getWidth() { return net.minecraft.world.dimension.NetherPortal.getWidth(); }
-// public int getHeight() { return wrapperContained.getHeight(); }
-// public static int getHeight() { return net.minecraft.world.dimension.NetherPortal.getHeight(); }
+// public int getValidatedWidth(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos lowerCorner,yarnwrap.util.math.Direction negativeDir) { return wrapperContained.getValidatedWidth(world.wrapperContained,lowerCorner.wrapperContained,negativeDir.wrapperContained); }
+// public static int getValidatedWidth(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos lowerCorner,yarnwrap.util.math.Direction negativeDir, ) { return net.minecraft.world.dimension.NetherPortal.getValidatedWidth(world.wrapperContained,lowerCorner.wrapperContained,negativeDir.wrapperContained); }
+// public int getHeight(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos lowerCorner,yarnwrap.util.math.Direction negativeDir,int width,org.apache.commons.lang3.mutable.MutableInt foundPortalBlocks) { return wrapperContained.getHeight(world.wrapperContained,lowerCorner.wrapperContained,negativeDir.wrapperContained,width,foundPortalBlocks); }
+// public static int getHeight(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos lowerCorner,yarnwrap.util.math.Direction negativeDir,int width,org.apache.commons.lang3.mutable.MutableInt foundPortalBlocks, ) { return net.minecraft.world.dimension.NetherPortal.getHeight(world.wrapperContained,lowerCorner.wrapperContained,negativeDir.wrapperContained,width,foundPortalBlocks); }
 // public yarnwrap.util.math.Vec3d method_47381(double pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_47381(pos)); }
 // public static yarnwrap.util.math.Vec3d method_47381(double pos, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.world.dimension.NetherPortal.method_47381(pos)); }
 // public yarnwrap.util.math.Vec3d findOpenPosition(yarnwrap.util.math.Vec3d fallback,yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,yarnwrap.entity.EntityDimensions dimensions) { return new yarnwrap.util.math.Vec3d(wrapperContained.findOpenPosition(fallback.wrapperContained,world.wrapperContained,entity.wrapperContained,dimensions.wrapperContained)); }
 // public static yarnwrap.util.math.Vec3d findOpenPosition(yarnwrap.util.math.Vec3d fallback,yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,yarnwrap.entity.EntityDimensions dimensions, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.world.dimension.NetherPortal.findOpenPosition(fallback.wrapperContained,world.wrapperContained,entity.wrapperContained,dimensions.wrapperContained)); }
+// public yarnwrap.world.dimension.NetherPortal getOnAxis(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,Object axis) { return new yarnwrap.world.dimension.NetherPortal(wrapperContained.getOnAxis(world.wrapperContained,pos.wrapperContained,axis)); }
+// public static yarnwrap.world.dimension.NetherPortal getOnAxis(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,Object axis, ) { return new yarnwrap.world.dimension.NetherPortal(net.minecraft.world.dimension.NetherPortal.getOnAxis(world.wrapperContained,pos.wrapperContained,axis)); }
+// public void method_64315(yarnwrap.world.WorldAccess pos) { wrapperContained.method_64315(pos.wrapperContained); }
+// public static void method_64315(yarnwrap.world.WorldAccess pos, ) { net.minecraft.world.dimension.NetherPortal.method_64315(pos.wrapperContained); }
 
 }

@@ -1,10 +1,10 @@
 package yarnwrap.block;
 public class PistonExtensionBlock { public net.minecraft.block.PistonExtensionBlock wrapperContained; public PistonExtensionBlock(net.minecraft.block.PistonExtensionBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.PistonExtensionBlock.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.PistonExtensionBlock.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.PistonExtensionBlock.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.PistonExtensionBlock.FACING = value.wrapperContained; }
 
 // public yarnwrap.state.property.EnumProperty TYPE() { return new yarnwrap.state.property.EnumProperty(wrapperContained.TYPE); }
 // public void TYPE(yarnwrap.state.property.EnumProperty value) { wrapperContained.TYPE = value.wrapperContained; }

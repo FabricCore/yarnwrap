@@ -31,10 +31,10 @@ public class LightDebugRenderer { public net.minecraft.client.render.debug.Light
 // public static yarnwrap.world.LightType lightType() { return new yarnwrap.world.LightType(net.minecraft.client.render.debug.LightDebugRenderer.lightType); }
 // public static void lightType(yarnwrap.world.LightType value, ) { net.minecraft.client.render.debug.LightDebugRenderer.lightType = value.wrapperContained; }
 
-// public java.time.Instant prevUpdateTime() { return wrapperContained.prevUpdateTime; }
-// public void prevUpdateTime(java.time.Instant value) { wrapperContained.prevUpdateTime = value; }
-// public static java.time.Instant prevUpdateTime() { return net.minecraft.client.render.debug.LightDebugRenderer.prevUpdateTime; }
-// public static void prevUpdateTime(java.time.Instant value, ) { net.minecraft.client.render.debug.LightDebugRenderer.prevUpdateTime = value; }
+// public java.time.Instant lastUpdateTime() { return wrapperContained.lastUpdateTime; }
+// public void lastUpdateTime(java.time.Instant value) { wrapperContained.lastUpdateTime = value; }
+// public static java.time.Instant lastUpdateTime() { return net.minecraft.client.render.debug.LightDebugRenderer.lastUpdateTime; }
+// public static void lastUpdateTime(java.time.Instant value, ) { net.minecraft.client.render.debug.LightDebugRenderer.lastUpdateTime = value; }
 
 // public Object data() { return wrapperContained.data; }
 // // public void data(Object value) { wrapperContained.data = value; }

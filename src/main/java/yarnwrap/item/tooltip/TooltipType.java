@@ -11,9 +11,9 @@ public class TooltipType { public net.minecraft.item.tooltip.TooltipType wrapper
 // public static Object ADVANCED() { return net.minecraft.item.tooltip.TooltipType.ADVANCED; }
 // // public static void ADVANCED(Object value, ) { net.minecraft.item.tooltip.TooltipType.ADVANCED = value; }
 
-public boolean isCreative() { return wrapperContained.isCreative(); }
-// public static boolean isCreative() { return net.minecraft.item.tooltip.TooltipType.isCreative(); }
 public boolean isAdvanced() { return wrapperContained.isAdvanced(); }
 // public static boolean isAdvanced() { return net.minecraft.item.tooltip.TooltipType.isAdvanced(); }
+public boolean isCreative() { return wrapperContained.isCreative(); }
+// public static boolean isCreative() { return net.minecraft.item.tooltip.TooltipType.isCreative(); }
 
 }

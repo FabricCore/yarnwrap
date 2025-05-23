@@ -3,7 +3,7 @@ public class TwistingVinesPlantBlock { public net.minecraft.block.TwistingVinesP
 
 // public yarnwrap.util.shape.VoxelShape SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.SHAPE); }
 // public void SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.SHAPE = value.wrapperContained; }
-public static yarnwrap.util.shape.VoxelShape SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TwistingVinesPlantBlock.SHAPE); }
+// public static yarnwrap.util.shape.VoxelShape SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.TwistingVinesPlantBlock.SHAPE); }
 // public static void SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.TwistingVinesPlantBlock.SHAPE = value.wrapperContained; }
 
 // public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }

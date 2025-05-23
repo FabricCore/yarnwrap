@@ -26,5 +26,7 @@ public java.util.Map findAllResources(yarnwrap.resource.ResourceManager resource
 // public static boolean method_45117(yarnwrap.util.Identifier path, ) { return net.minecraft.resource.ResourceFinder.method_45117(path.wrapperContained); }
 // public boolean method_45118(yarnwrap.util.Identifier path) { return wrapperContained.method_45118(path.wrapperContained); }
 // public static boolean method_45118(yarnwrap.util.Identifier path, ) { return net.minecraft.resource.ResourceFinder.method_45118(path.wrapperContained); }
+// public yarnwrap.resource.ResourceFinder json(yarnwrap.registry.RegistryKey registryRef) { return new yarnwrap.resource.ResourceFinder(wrapperContained.json(registryRef.wrapperContained)); }
+// public static yarnwrap.resource.ResourceFinder json(yarnwrap.registry.RegistryKey registryRef, ) { return new yarnwrap.resource.ResourceFinder(net.minecraft.resource.ResourceFinder.json(registryRef.wrapperContained)); }
 
 }

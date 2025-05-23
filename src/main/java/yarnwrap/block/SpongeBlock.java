@@ -25,8 +25,8 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static boolean absorbWater(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.SpongeBlock.absorbWater(world.wrapperContained,pos.wrapperContained); }
 // public void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.update(world.wrapperContained,pos.wrapperContained); }
 // public static void update(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.block.SpongeBlock.update(world.wrapperContained,pos.wrapperContained); }
-// public boolean method_49829(yarnwrap.util.math.BlockPos currentPos) { return wrapperContained.method_49829(currentPos.wrapperContained); }
-// public static boolean method_49829(yarnwrap.util.math.BlockPos currentPos, ) { return net.minecraft.block.SpongeBlock.method_49829(currentPos.wrapperContained); }
+// public Object method_49829(yarnwrap.util.math.BlockPos currentPos) { return wrapperContained.method_49829(currentPos.wrapperContained); }
+// public static Object method_49829(yarnwrap.util.math.BlockPos currentPos, ) { return net.minecraft.block.SpongeBlock.method_49829(currentPos.wrapperContained); }
 // public void method_49830(yarnwrap.util.math.BlockPos currentPos,java.util.function.Consumer queuer) { wrapperContained.method_49830(currentPos.wrapperContained,queuer); }
 // public static void method_49830(yarnwrap.util.math.BlockPos currentPos,java.util.function.Consumer queuer, ) { net.minecraft.block.SpongeBlock.method_49830(currentPos.wrapperContained,queuer); }
 

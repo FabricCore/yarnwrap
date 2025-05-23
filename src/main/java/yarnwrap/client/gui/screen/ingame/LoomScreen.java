@@ -1,16 +1,6 @@
 package yarnwrap.client.gui.screen.ingame;
 public class LoomScreen { public net.minecraft.client.gui.screen.ingame.LoomScreen wrapperContained; public LoomScreen(net.minecraft.client.gui.screen.ingame.LoomScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart bannerField() { return new yarnwrap.client.model.ModelPart(wrapperContained.bannerField); }
-// public void bannerField(yarnwrap.client.model.ModelPart value) { wrapperContained.bannerField = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart bannerField() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.gui.screen.ingame.LoomScreen.bannerField); }
-// public static void bannerField(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.gui.screen.ingame.LoomScreen.bannerField = value.wrapperContained; }
-
-// public yarnwrap.component.type.BannerPatternsComponent bannerPatterns() { return new yarnwrap.component.type.BannerPatternsComponent(wrapperContained.bannerPatterns); }
-// public void bannerPatterns(yarnwrap.component.type.BannerPatternsComponent value) { wrapperContained.bannerPatterns = value.wrapperContained; }
-// public static yarnwrap.component.type.BannerPatternsComponent bannerPatterns() { return new yarnwrap.component.type.BannerPatternsComponent(net.minecraft.client.gui.screen.ingame.LoomScreen.bannerPatterns); }
-// public static void bannerPatterns(yarnwrap.component.type.BannerPatternsComponent value, ) { net.minecraft.client.gui.screen.ingame.LoomScreen.bannerPatterns = value.wrapperContained; }
-
 // public yarnwrap.item.ItemStack dye() { return new yarnwrap.item.ItemStack(wrapperContained.dye); }
 // public void dye(yarnwrap.item.ItemStack value) { wrapperContained.dye = value.wrapperContained; }
 // public static yarnwrap.item.ItemStack dye() { return new yarnwrap.item.ItemStack(net.minecraft.client.gui.screen.ingame.LoomScreen.dye); }
@@ -50,6 +40,16 @@ public class LoomScreen { public net.minecraft.client.gui.screen.ingame.LoomScre
 // public void scrollPosition(float value) { wrapperContained.scrollPosition = value; }
 // public static float scrollPosition() { return net.minecraft.client.gui.screen.ingame.LoomScreen.scrollPosition; }
 // public static void scrollPosition(float value, ) { net.minecraft.client.gui.screen.ingame.LoomScreen.scrollPosition = value; }
+
+// public yarnwrap.client.model.ModelPart bannerField() { return new yarnwrap.client.model.ModelPart(wrapperContained.bannerField); }
+// public void bannerField(yarnwrap.client.model.ModelPart value) { wrapperContained.bannerField = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart bannerField() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.gui.screen.ingame.LoomScreen.bannerField); }
+// public static void bannerField(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.gui.screen.ingame.LoomScreen.bannerField = value.wrapperContained; }
+
+// public yarnwrap.component.type.BannerPatternsComponent bannerPatterns() { return new yarnwrap.component.type.BannerPatternsComponent(wrapperContained.bannerPatterns); }
+// public void bannerPatterns(yarnwrap.component.type.BannerPatternsComponent value) { wrapperContained.bannerPatterns = value.wrapperContained; }
+// public static yarnwrap.component.type.BannerPatternsComponent bannerPatterns() { return new yarnwrap.component.type.BannerPatternsComponent(net.minecraft.client.gui.screen.ingame.LoomScreen.bannerPatterns); }
+// public static void bannerPatterns(yarnwrap.component.type.BannerPatternsComponent value, ) { net.minecraft.client.gui.screen.ingame.LoomScreen.bannerPatterns = value.wrapperContained; }
 
 // public int PATTERN_LIST_COLUMNS() { return wrapperContained.PATTERN_LIST_COLUMNS; }
 // public void PATTERN_LIST_COLUMNS(int value) { wrapperContained.PATTERN_LIST_COLUMNS = value; }
@@ -144,8 +144,8 @@ public class LoomScreen { public net.minecraft.client.gui.screen.ingame.LoomScre
 public LoomScreen(yarnwrap.screen.LoomScreenHandler screenHandler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.LoomScreen(screenHandler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 // public void onInventoryChanged() { wrapperContained.onInventoryChanged(); }
 // public static void onInventoryChanged() { net.minecraft.client.gui.screen.ingame.LoomScreen.onInventoryChanged(); }
-// public void drawBanner(yarnwrap.client.gui.DrawContext context,yarnwrap.registry.entry.RegistryEntry pattern,int x,int y) { wrapperContained.drawBanner(context.wrapperContained,pattern.wrapperContained,x,y); }
-// public static void drawBanner(yarnwrap.client.gui.DrawContext context,yarnwrap.registry.entry.RegistryEntry pattern,int x,int y, ) { net.minecraft.client.gui.screen.ingame.LoomScreen.drawBanner(context.wrapperContained,pattern.wrapperContained,x,y); }
+// public void drawBanner(yarnwrap.client.gui.DrawContext context,int x,int y,yarnwrap.client.texture.Sprite sprite) { wrapperContained.drawBanner(context.wrapperContained,x,y,sprite.wrapperContained); }
+// public static void drawBanner(yarnwrap.client.gui.DrawContext context,int x,int y,yarnwrap.client.texture.Sprite sprite, ) { net.minecraft.client.gui.screen.ingame.LoomScreen.drawBanner(context.wrapperContained,x,y,sprite.wrapperContained); }
 // public int getRows() { return wrapperContained.getRows(); }
 // public static int getRows() { return net.minecraft.client.gui.screen.ingame.LoomScreen.getRows(); }
 

@@ -26,8 +26,13 @@ public class AdvancementUpdateS2CPacket { public net.minecraft.network.packet.s2
 public static yarnwrap.network.codec.PacketCodec CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket.CODEC); }
 // public static void CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket.CODEC = value.wrapperContained; }
 
+// public boolean showToast() { return wrapperContained.showToast; }
+// public void showToast(boolean value) { wrapperContained.showToast = value; }
+// public static boolean showToast() { return net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket.showToast; }
+// public static void showToast(boolean value, ) { net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket.showToast = value; }
+
 // public AdvancementUpdateS2CPacket(yarnwrap.network.RegistryByteBuf buf) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket(buf.wrapperContained); }
-public AdvancementUpdateS2CPacket(boolean clearCurrent,java.util.Collection toEarn,java.util.Set toRemove,java.util.Map toSetProgress) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket(clearCurrent,toEarn,toRemove,toSetProgress); }
+public AdvancementUpdateS2CPacket(boolean clearCurrent,java.util.Collection toEarn,java.util.Set toRemove,java.util.Map toSetProgress,boolean showToast) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket(clearCurrent,toEarn,toRemove,toSetProgress,showToast); }
 public boolean shouldClearCurrent() { return wrapperContained.shouldClearCurrent(); }
 // public static boolean shouldClearCurrent() { return net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket.shouldClearCurrent(); }
 public java.util.Set getAdvancementIdsToRemove() { return wrapperContained.getAdvancementIdsToRemove(); }
@@ -40,5 +45,7 @@ public java.util.List getAdvancementsToEarn() { return wrapperContained.getAdvan
 // public static void method_34197(yarnwrap.network.PacketByteBuf buf2,yarnwrap.advancement.AdvancementProgress progress, ) { net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket.method_34197(buf2.wrapperContained,progress.wrapperContained); }
 // public void write(yarnwrap.network.RegistryByteBuf buf) { wrapperContained.write(buf.wrapperContained); }
 // public static void write(yarnwrap.network.RegistryByteBuf buf, ) { net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket.write(buf.wrapperContained); }
+public boolean shouldShowToast() { return wrapperContained.shouldShowToast(); }
+// public static boolean shouldShowToast() { return net.minecraft.network.packet.s2c.play.AdvancementUpdateS2CPacket.shouldShowToast(); }
 
 }

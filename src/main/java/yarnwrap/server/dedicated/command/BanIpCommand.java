@@ -21,7 +21,5 @@ public class BanIpCommand { public net.minecraft.server.dedicated.command.BanIpC
 // public static int checkIp(yarnwrap.server.command.ServerCommandSource source,java.lang.String target,yarnwrap.text.Text reason, ) { return net.minecraft.server.dedicated.command.BanIpCommand.checkIp(source.wrapperContained,target,reason.wrapperContained); }
 // public int method_13010(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13010(context); }
 // public static int method_13010(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.BanIpCommand.method_13010(context); }
-// public boolean method_13011(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13011(source.wrapperContained); }
-// public static boolean method_13011(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.BanIpCommand.method_13011(source.wrapperContained); }
 
 }

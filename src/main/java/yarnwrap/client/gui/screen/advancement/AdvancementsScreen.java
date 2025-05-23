@@ -1,21 +1,6 @@
 package yarnwrap.client.gui.screen.advancement;
 public class AdvancementsScreen { public net.minecraft.client.gui.screen.advancement.AdvancementsScreen wrapperContained; public AdvancementsScreen(net.minecraft.client.gui.screen.advancement.AdvancementsScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.text.Text SAD_LABEL_TEXT() { return new yarnwrap.text.Text(wrapperContained.SAD_LABEL_TEXT); }
-// public void SAD_LABEL_TEXT(yarnwrap.text.Text value) { wrapperContained.SAD_LABEL_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text SAD_LABEL_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.advancement.AdvancementsScreen.SAD_LABEL_TEXT); }
-// public static void SAD_LABEL_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.SAD_LABEL_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.Text EMPTY_TEXT() { return new yarnwrap.text.Text(wrapperContained.EMPTY_TEXT); }
-// public void EMPTY_TEXT(yarnwrap.text.Text value) { wrapperContained.EMPTY_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text EMPTY_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.advancement.AdvancementsScreen.EMPTY_TEXT); }
-// public static void EMPTY_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.EMPTY_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.Text ADVANCEMENTS_TEXT() { return new yarnwrap.text.Text(wrapperContained.ADVANCEMENTS_TEXT); }
-// public void ADVANCEMENTS_TEXT(yarnwrap.text.Text value) { wrapperContained.ADVANCEMENTS_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text ADVANCEMENTS_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.advancement.AdvancementsScreen.ADVANCEMENTS_TEXT); }
-// public static void ADVANCEMENTS_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.ADVANCEMENTS_TEXT = value.wrapperContained; }
-
 // public yarnwrap.util.Identifier WINDOW_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.WINDOW_TEXTURE); }
 // public void WINDOW_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.WINDOW_TEXTURE = value.wrapperContained; }
 // public static yarnwrap.util.Identifier WINDOW_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.advancement.AdvancementsScreen.WINDOW_TEXTURE); }
@@ -40,6 +25,21 @@ public class AdvancementsScreen { public net.minecraft.client.gui.screen.advance
 // public void advancementHandler(yarnwrap.client.network.ClientAdvancementManager value) { wrapperContained.advancementHandler = value.wrapperContained; }
 // public static yarnwrap.client.network.ClientAdvancementManager advancementHandler() { return new yarnwrap.client.network.ClientAdvancementManager(net.minecraft.client.gui.screen.advancement.AdvancementsScreen.advancementHandler); }
 // public static void advancementHandler(yarnwrap.client.network.ClientAdvancementManager value, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.advancementHandler = value.wrapperContained; }
+
+// public yarnwrap.text.Text SAD_LABEL_TEXT() { return new yarnwrap.text.Text(wrapperContained.SAD_LABEL_TEXT); }
+// public void SAD_LABEL_TEXT(yarnwrap.text.Text value) { wrapperContained.SAD_LABEL_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text SAD_LABEL_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.advancement.AdvancementsScreen.SAD_LABEL_TEXT); }
+// public static void SAD_LABEL_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.SAD_LABEL_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text EMPTY_TEXT() { return new yarnwrap.text.Text(wrapperContained.EMPTY_TEXT); }
+// public void EMPTY_TEXT(yarnwrap.text.Text value) { wrapperContained.EMPTY_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text EMPTY_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.advancement.AdvancementsScreen.EMPTY_TEXT); }
+// public static void EMPTY_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.EMPTY_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text ADVANCEMENTS_TEXT() { return new yarnwrap.text.Text(wrapperContained.ADVANCEMENTS_TEXT); }
+// public void ADVANCEMENTS_TEXT(yarnwrap.text.Text value) { wrapperContained.ADVANCEMENTS_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text ADVANCEMENTS_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.advancement.AdvancementsScreen.ADVANCEMENTS_TEXT); }
+// public static void ADVANCEMENTS_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.ADVANCEMENTS_TEXT = value.wrapperContained; }
 
 // public int WINDOW_WIDTH() { return wrapperContained.WINDOW_WIDTH; }
 // public void WINDOW_WIDTH(int value) { wrapperContained.WINDOW_WIDTH = value; }
@@ -99,9 +99,13 @@ public yarnwrap.client.gui.screen.advancement.AdvancementWidget getAdvancementWi
 // public static yarnwrap.client.gui.screen.advancement.AdvancementWidget getAdvancementWidget(yarnwrap.advancement.PlacedAdvancement advancement, ) { return new yarnwrap.client.gui.screen.advancement.AdvancementWidget(net.minecraft.client.gui.screen.advancement.AdvancementsScreen.getAdvancementWidget(advancement.wrapperContained)); }
 // public yarnwrap.client.gui.screen.advancement.AdvancementTab getTab(yarnwrap.advancement.PlacedAdvancement advancement) { return new yarnwrap.client.gui.screen.advancement.AdvancementTab(wrapperContained.getTab(advancement.wrapperContained)); }
 // public static yarnwrap.client.gui.screen.advancement.AdvancementTab getTab(yarnwrap.advancement.PlacedAdvancement advancement, ) { return new yarnwrap.client.gui.screen.advancement.AdvancementTab(net.minecraft.client.gui.screen.advancement.AdvancementsScreen.getTab(advancement.wrapperContained)); }
-// public void drawAdvancementTree(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,int x,int y) { wrapperContained.drawAdvancementTree(context.wrapperContained,mouseX,mouseY,x,y); }
-// public static void drawAdvancementTree(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,int x,int y, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.drawAdvancementTree(context.wrapperContained,mouseX,mouseY,x,y); }
+// public void drawAdvancementTree(yarnwrap.client.gui.DrawContext context,int x,int y) { wrapperContained.drawAdvancementTree(context.wrapperContained,x,y); }
+// public static void drawAdvancementTree(yarnwrap.client.gui.DrawContext context,int x,int y, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.drawAdvancementTree(context.wrapperContained,x,y); }
 // public void drawWidgetTooltip(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,int x,int y) { wrapperContained.drawWidgetTooltip(context.wrapperContained,mouseX,mouseY,x,y); }
 // public static void drawWidgetTooltip(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,int x,int y, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.drawWidgetTooltip(context.wrapperContained,mouseX,mouseY,x,y); }
+// public void method_57743(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_57743(button.wrapperContained); }
+// public static void method_57743(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.method_57743(button.wrapperContained); }
+// public void method_57744(yarnwrap.client.gui.screen.advancement.AdvancementsScreen child) { wrapperContained.method_57744(child.wrapperContained); }
+// public static void method_57744(yarnwrap.client.gui.screen.advancement.AdvancementsScreen child, ) { net.minecraft.client.gui.screen.advancement.AdvancementsScreen.method_57744(child.wrapperContained); }
 
 }

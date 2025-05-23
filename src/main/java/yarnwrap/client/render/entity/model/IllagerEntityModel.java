@@ -1,11 +1,6 @@
 package yarnwrap.client.render.entity.model;
 public class IllagerEntityModel { public net.minecraft.client.render.entity.model.IllagerEntityModel wrapperContained; public IllagerEntityModel(net.minecraft.client.render.entity.model.IllagerEntityModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(wrapperContained.root); }
-// public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.IllagerEntityModel.root); }
-// public static void root(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.IllagerEntityModel.root = value.wrapperContained; }
-
 // public yarnwrap.client.model.ModelPart leftArm() { return new yarnwrap.client.model.ModelPart(wrapperContained.leftArm); }
 // public void leftArm(yarnwrap.client.model.ModelPart value) { wrapperContained.leftArm = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart leftArm() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.IllagerEntityModel.leftArm); }
@@ -41,7 +36,6 @@ public class IllagerEntityModel { public net.minecraft.client.render.entity.mode
 // public static yarnwrap.client.model.ModelPart rightArm() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.IllagerEntityModel.rightArm); }
 // public static void rightArm(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.IllagerEntityModel.rightArm = value.wrapperContained; }
 
-public IllagerEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.IllagerEntityModel(root.wrapperContained); }
 public yarnwrap.client.model.ModelPart getHat() { return new yarnwrap.client.model.ModelPart(wrapperContained.getHat()); }
 // public static yarnwrap.client.model.ModelPart getHat() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.IllagerEntityModel.getHat()); }
 // public yarnwrap.client.model.ModelPart getAttackingArm(yarnwrap.util.Arm arm) { return new yarnwrap.client.model.ModelPart(wrapperContained.getAttackingArm(arm.wrapperContained)); }

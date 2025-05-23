@@ -107,8 +107,8 @@ public static java.util.function.Predicate getTemptItemPredicate() { return net.
 // public static void addIdleActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.passive.GoatBrain.addIdleActivities(brain.wrapperContained); }
 // public void addLongJumpActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addLongJumpActivities(brain.wrapperContained); }
 // public static void addLongJumpActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.passive.GoatBrain.addLongJumpActivities(brain.wrapperContained); }
-// public boolean method_36285(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_36285(entity.wrapperContained); }
-// public static boolean method_36285(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.passive.GoatBrain.method_36285(entity.wrapperContained); }
+// public boolean method_36285(yarnwrap.entity.LivingEntity target,yarnwrap.server.world.ServerWorld world) { return wrapperContained.method_36285(target.wrapperContained,world.wrapperContained); }
+// public static boolean method_36285(yarnwrap.entity.LivingEntity target,yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.entity.passive.GoatBrain.method_36285(target.wrapperContained,world.wrapperContained); }
 // public yarnwrap.sound.SoundEvent method_36286(yarnwrap.entity.passive.GoatEntity goat) { return new yarnwrap.sound.SoundEvent(wrapperContained.method_36286(goat.wrapperContained)); }
 // public static yarnwrap.sound.SoundEvent method_36286(yarnwrap.entity.passive.GoatEntity goat, ) { return new yarnwrap.sound.SoundEvent(net.minecraft.entity.passive.GoatBrain.method_36286(goat.wrapperContained)); }
 // public yarnwrap.sound.SoundEvent method_36287(yarnwrap.entity.passive.GoatEntity goat) { return new yarnwrap.sound.SoundEvent(wrapperContained.method_36287(goat.wrapperContained)); }

@@ -21,16 +21,6 @@ public static int SIZE_BITS_Y() { return net.minecraft.util.math.BlockPos.SIZE_B
 // public static long BITS_X() { return net.minecraft.util.math.BlockPos.BITS_X; }
 // public static void BITS_X(long value, ) { net.minecraft.util.math.BlockPos.BITS_X = value; }
 
-// public int SIZE_BITS_Z() { return wrapperContained.SIZE_BITS_Z; }
-// public void SIZE_BITS_Z(int value) { wrapperContained.SIZE_BITS_Z = value; }
-// public static int SIZE_BITS_Z() { return net.minecraft.util.math.BlockPos.SIZE_BITS_Z; }
-// public static void SIZE_BITS_Z(int value, ) { net.minecraft.util.math.BlockPos.SIZE_BITS_Z = value; }
-
-// public int SIZE_BITS_X() { return wrapperContained.SIZE_BITS_X; }
-// public void SIZE_BITS_X(int value) { wrapperContained.SIZE_BITS_X = value; }
-// public static int SIZE_BITS_X() { return net.minecraft.util.math.BlockPos.SIZE_BITS_X; }
-// public static void SIZE_BITS_X(int value, ) { net.minecraft.util.math.BlockPos.SIZE_BITS_X = value; }
-
 // public yarnwrap.util.math.BlockPos ORIGIN() { return new yarnwrap.util.math.BlockPos(wrapperContained.ORIGIN); }
 // public void ORIGIN(yarnwrap.util.math.BlockPos value) { wrapperContained.ORIGIN = value.wrapperContained; }
 public static yarnwrap.util.math.BlockPos ORIGIN() { return new yarnwrap.util.math.BlockPos(net.minecraft.util.math.BlockPos.ORIGIN); }
@@ -60,6 +50,16 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.util
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.util.math.BlockPos.PACKET_CODEC); }
 // public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.util.math.BlockPos.PACKET_CODEC = value.wrapperContained; }
+
+// public int SIZE_BITS_XZ() { return wrapperContained.SIZE_BITS_XZ; }
+// public void SIZE_BITS_XZ(int value) { wrapperContained.SIZE_BITS_XZ = value; }
+public static int SIZE_BITS_XZ() { return net.minecraft.util.math.BlockPos.SIZE_BITS_XZ; }
+// public static void SIZE_BITS_XZ(int value, ) { net.minecraft.util.math.BlockPos.SIZE_BITS_XZ = value; }
+
+// public int MAX_XZ() { return wrapperContained.MAX_XZ; }
+// public void MAX_XZ(int value) { wrapperContained.MAX_XZ = value; }
+public static int MAX_XZ() { return net.minecraft.util.math.BlockPos.MAX_XZ; }
+// public static void MAX_XZ(int value, ) { net.minecraft.util.math.BlockPos.MAX_XZ = value; }
 
 public BlockPos(yarnwrap.util.math.Vec3i pos) { this.wrapperContained = new net.minecraft.util.math.BlockPos(pos.wrapperContained); }
 // public long offset(long value,yarnwrap.util.math.Direction direction) { return wrapperContained.offset(value,direction.wrapperContained); }
@@ -146,8 +146,8 @@ public yarnwrap.util.math.Vec3d toCenterPos() { return new yarnwrap.util.math.Ve
 // public static yarnwrap.util.math.BlockPos ofFloored(double x,double y,double z, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.util.math.BlockPos.ofFloored(x,y,z)); }
 // public yarnwrap.util.math.BlockPos ofFloored(yarnwrap.util.math.Position pos) { return new yarnwrap.util.math.BlockPos(wrapperContained.ofFloored(pos.wrapperContained)); }
 // public static yarnwrap.util.math.BlockPos ofFloored(yarnwrap.util.math.Position pos, ) { return new yarnwrap.util.math.BlockPos(net.minecraft.util.math.BlockPos.ofFloored(pos.wrapperContained)); }
-// public int iterateRecursively(yarnwrap.util.math.BlockPos pos,int maxDepth,int maxIterations,java.util.function.BiConsumer nextQueuer,java.util.function.Predicate callback) { return wrapperContained.iterateRecursively(pos.wrapperContained,maxDepth,maxIterations,nextQueuer,callback); }
-// public static int iterateRecursively(yarnwrap.util.math.BlockPos pos,int maxDepth,int maxIterations,java.util.function.BiConsumer nextQueuer,java.util.function.Predicate callback, ) { return net.minecraft.util.math.BlockPos.iterateRecursively(pos.wrapperContained,maxDepth,maxIterations,nextQueuer,callback); }
+// public int iterateRecursively(yarnwrap.util.math.BlockPos pos,int maxDepth,int maxIterations,java.util.function.BiConsumer nextQueuer,java.util.function.Function callback) { return wrapperContained.iterateRecursively(pos.wrapperContained,maxDepth,maxIterations,nextQueuer,callback); }
+// public static int iterateRecursively(yarnwrap.util.math.BlockPos pos,int maxDepth,int maxIterations,java.util.function.BiConsumer nextQueuer,java.util.function.Function callback, ) { return net.minecraft.util.math.BlockPos.iterateRecursively(pos.wrapperContained,maxDepth,maxIterations,nextQueuer,callback); }
 // public void method_49926(java.util.Queue queuedPos) { wrapperContained.method_49926(queuedPos); }
 // public static void method_49926(java.util.Queue queuedPos, ) { net.minecraft.util.math.BlockPos.method_49926(queuedPos); }
 // public java.util.stream.Stream streamSouthEastSquare(yarnwrap.util.math.BlockPos pos) { return wrapperContained.streamSouthEastSquare(pos.wrapperContained); }
@@ -160,5 +160,7 @@ public yarnwrap.util.math.Vec3d clampToWithin(yarnwrap.util.math.Vec3d pos) { re
 // public static yarnwrap.util.math.Vec3d clampToWithin(yarnwrap.util.math.Vec3d pos, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.util.math.BlockPos.clampToWithin(pos.wrapperContained)); }
 public yarnwrap.util.math.Vec3d toBottomCenterPos() { return new yarnwrap.util.math.Vec3d(wrapperContained.toBottomCenterPos()); }
 // public static yarnwrap.util.math.Vec3d toBottomCenterPos() { return new yarnwrap.util.math.Vec3d(net.minecraft.util.math.BlockPos.toBottomCenterPos()); }
+// public java.lang.Iterable iterate(yarnwrap.util.math.Box box) { return wrapperContained.iterate(box.wrapperContained); }
+// public static java.lang.Iterable iterate(yarnwrap.util.math.Box box, ) { return net.minecraft.util.math.BlockPos.iterate(box.wrapperContained); }
 
 }

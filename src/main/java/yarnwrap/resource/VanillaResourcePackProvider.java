@@ -36,6 +36,11 @@ public static java.lang.String VANILLA_KEY() { return net.minecraft.resource.Van
 public static yarnwrap.registry.VersionedIdentifier VANILLA_ID() { return new yarnwrap.registry.VersionedIdentifier(net.minecraft.resource.VanillaResourcePackProvider.VANILLA_ID); }
 // public static void VANILLA_ID(yarnwrap.registry.VersionedIdentifier value, ) { net.minecraft.resource.VanillaResourcePackProvider.VANILLA_ID = value.wrapperContained; }
 
+// public java.lang.String TESTS_KEY() { return wrapperContained.TESTS_KEY; }
+// public void TESTS_KEY(java.lang.String value) { wrapperContained.TESTS_KEY = value; }
+public static java.lang.String TESTS_KEY() { return net.minecraft.resource.VanillaResourcePackProvider.TESTS_KEY; }
+// public static void TESTS_KEY(java.lang.String value, ) { net.minecraft.resource.VanillaResourcePackProvider.TESTS_KEY = value; }
+
 // public VanillaResourcePackProvider(yarnwrap.resource.ResourceType type,yarnwrap.resource.DefaultResourcePack resourcePack,yarnwrap.util.Identifier id,yarnwrap.util.path.SymlinkFinder symlinkFinder) { this.wrapperContained = new net.minecraft.resource.VanillaResourcePackProvider(type.wrapperContained,resourcePack.wrapperContained,id.wrapperContained,symlinkFinder.wrapperContained); }
 public yarnwrap.resource.DefaultResourcePack getResourcePack() { return new yarnwrap.resource.DefaultResourcePack(wrapperContained.getResourcePack()); }
 // public static yarnwrap.resource.DefaultResourcePack getResourcePack() { return new yarnwrap.resource.DefaultResourcePack(net.minecraft.resource.VanillaResourcePackProvider.getResourcePack()); }

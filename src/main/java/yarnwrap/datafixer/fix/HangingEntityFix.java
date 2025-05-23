@@ -6,7 +6,6 @@ public class HangingEntityFix { public net.minecraft.datafixer.fix.HangingEntity
 // public static int[][] OFFSETS() { return net.minecraft.datafixer.fix.HangingEntityFix.OFFSETS; }
 // public static void OFFSETS(int[][] value, ) { net.minecraft.datafixer.fix.HangingEntityFix.OFFSETS = value; }
 
-public HangingEntityFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.HangingEntityFix(outputSchema,changesType); }
 // public com.mojang.datafixers.Typed method_15716(com.mojang.datafixers.OpticFinder entityTyped) { return wrapperContained.method_15716(entityTyped); }
 // public static com.mojang.datafixers.Typed method_15716(com.mojang.datafixers.OpticFinder entityTyped, ) { return net.minecraft.datafixer.fix.HangingEntityFix.method_15716(entityTyped); }
 // public com.mojang.datafixers.Typed method_15717(com.mojang.datafixers.OpticFinder entityTyped) { return wrapperContained.method_15717(entityTyped); }

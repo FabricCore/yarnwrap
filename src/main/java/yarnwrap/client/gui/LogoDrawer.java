@@ -81,5 +81,7 @@ public void draw(yarnwrap.client.gui.DrawContext context,int screenWidth,float a
 // public static void draw(yarnwrap.client.gui.DrawContext context,int screenWidth,float alpha, ) { net.minecraft.client.gui.LogoDrawer.draw(context.wrapperContained,screenWidth,alpha); }
 public void draw(yarnwrap.client.gui.DrawContext context,int screenWidth,float alpha,int y) { wrapperContained.draw(context.wrapperContained,screenWidth,alpha,y); }
 // public static void draw(yarnwrap.client.gui.DrawContext context,int screenWidth,float alpha,int y, ) { net.minecraft.client.gui.LogoDrawer.draw(context.wrapperContained,screenWidth,alpha,y); }
+// public boolean shouldIgnoreAlpha() { return wrapperContained.shouldIgnoreAlpha(); }
+// public static boolean shouldIgnoreAlpha() { return net.minecraft.client.gui.LogoDrawer.shouldIgnoreAlpha(); }
 
 }

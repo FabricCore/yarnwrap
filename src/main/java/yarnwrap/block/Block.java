@@ -6,11 +6,6 @@ public class Block { public net.minecraft.block.Block wrapperContained; public B
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.block.Block.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.block.Block.LOGGER = value; }
 
-// public java.lang.String translationKey() { return wrapperContained.translationKey; }
-// public void translationKey(java.lang.String value) { wrapperContained.translationKey = value; }
-// public static java.lang.String translationKey() { return net.minecraft.block.Block.translationKey; }
-// public static void translationKey(java.lang.String value, ) { net.minecraft.block.Block.translationKey = value; }
-
 // public yarnwrap.block.BlockState defaultState() { return new yarnwrap.block.BlockState(wrapperContained.defaultState); }
 // public void defaultState(yarnwrap.block.BlockState value) { wrapperContained.defaultState = value.wrapperContained; }
 // public static yarnwrap.block.BlockState defaultState() { return new yarnwrap.block.BlockState(net.minecraft.block.Block.defaultState); }
@@ -45,6 +40,11 @@ public static yarnwrap.util.collection.IdList STATE_IDS() { return new yarnwrap.
 // public void NOTIFY_ALL_AND_REDRAW(int value) { wrapperContained.NOTIFY_ALL_AND_REDRAW = value; }
 public static int NOTIFY_ALL_AND_REDRAW() { return net.minecraft.block.Block.NOTIFY_ALL_AND_REDRAW; }
 // public static void NOTIFY_ALL_AND_REDRAW(int value, ) { net.minecraft.block.Block.NOTIFY_ALL_AND_REDRAW = value; }
+
+// public int FACE_CULL_MAP_SIZE() { return wrapperContained.FACE_CULL_MAP_SIZE; }
+// public void FACE_CULL_MAP_SIZE(int value) { wrapperContained.FACE_CULL_MAP_SIZE = value; }
+// public static int FACE_CULL_MAP_SIZE() { return net.minecraft.block.Block.FACE_CULL_MAP_SIZE; }
+// public static void FACE_CULL_MAP_SIZE(int value, ) { net.minecraft.block.Block.FACE_CULL_MAP_SIZE = value; }
 
 // public int NOTIFY_NEIGHBORS() { return wrapperContained.NOTIFY_NEIGHBORS; }
 // public void NOTIFY_NEIGHBORS(int value) { wrapperContained.NOTIFY_NEIGHBORS = value; }
@@ -81,6 +81,11 @@ public static int SKIP_DROPS() { return net.minecraft.block.Block.SKIP_DROPS; }
 public static int MOVED() { return net.minecraft.block.Block.MOVED; }
 // public static void MOVED(int value, ) { net.minecraft.block.Block.MOVED = value; }
 
+// public int SKIP_REDRAW_AND_BLOCK_ENTITY_REPLACED_CALLBACK() { return wrapperContained.SKIP_REDRAW_AND_BLOCK_ENTITY_REPLACED_CALLBACK; }
+// public void SKIP_REDRAW_AND_BLOCK_ENTITY_REPLACED_CALLBACK(int value) { wrapperContained.SKIP_REDRAW_AND_BLOCK_ENTITY_REPLACED_CALLBACK = value; }
+public static int SKIP_REDRAW_AND_BLOCK_ENTITY_REPLACED_CALLBACK() { return net.minecraft.block.Block.SKIP_REDRAW_AND_BLOCK_ENTITY_REPLACED_CALLBACK; }
+// public static void SKIP_REDRAW_AND_BLOCK_ENTITY_REPLACED_CALLBACK(int value, ) { net.minecraft.block.Block.SKIP_REDRAW_AND_BLOCK_ENTITY_REPLACED_CALLBACK = value; }
+
 // public int NOTIFY_ALL() { return wrapperContained.NOTIFY_ALL; }
 // public void NOTIFY_ALL(int value) { wrapperContained.NOTIFY_ALL = value; }
 public static int NOTIFY_ALL() { return net.minecraft.block.Block.NOTIFY_ALL; }
@@ -96,32 +101,26 @@ public static int NOTIFY_ALL() { return net.minecraft.block.Block.NOTIFY_ALL; }
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.Block.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.Block.CODEC = value; }
 
-// public boolean hasTopRim(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.hasTopRim(world.wrapperContained,pos.wrapperContained); }
-// public static boolean hasTopRim(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.Block.hasTopRim(world.wrapperContained,pos.wrapperContained); }
-// public boolean sideCoversSmallSquare(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction side) { return wrapperContained.sideCoversSmallSquare(world.wrapperContained,pos.wrapperContained,side.wrapperContained); }
-// public static boolean sideCoversSmallSquare(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction side, ) { return net.minecraft.block.Block.sideCoversSmallSquare(world.wrapperContained,pos.wrapperContained,side.wrapperContained); }
-public float getVelocityMultiplier() { return wrapperContained.getVelocityMultiplier(); }
-// public static float getVelocityMultiplier() { return net.minecraft.block.Block.getVelocityMultiplier(); }
-public float getJumpVelocityMultiplier() { return wrapperContained.getJumpVelocityMultiplier(); }
-// public static float getJumpVelocityMultiplier() { return net.minecraft.block.Block.getJumpVelocityMultiplier(); }
-// public void replace(yarnwrap.block.BlockState state,yarnwrap.block.BlockState newState,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,int flags) { wrapperContained.replace(state.wrapperContained,newState.wrapperContained,world.wrapperContained,pos.wrapperContained,flags); }
-// public static void replace(yarnwrap.block.BlockState state,yarnwrap.block.BlockState newState,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,int flags, ) { net.minecraft.block.Block.replace(state.wrapperContained,newState.wrapperContained,world.wrapperContained,pos.wrapperContained,flags); }
-// public void spawnBreakParticles(yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.spawnBreakParticles(world.wrapperContained,player.wrapperContained,pos.wrapperContained,state.wrapperContained); }
-// public static void spawnBreakParticles(yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.Block.spawnBreakParticles(world.wrapperContained,player.wrapperContained,pos.wrapperContained,state.wrapperContained); }
-// public com.google.common.collect.ImmutableMap getShapesForStates(java.util.function.Function stateToShape) { return wrapperContained.getShapesForStates(stateToShape); }
-// public static com.google.common.collect.ImmutableMap getShapesForStates(java.util.function.Function stateToShape, ) { return net.minecraft.block.Block.getShapesForStates(stateToShape); }
-// public yarnwrap.block.BlockState copyProperty(yarnwrap.block.BlockState source,yarnwrap.block.BlockState target,yarnwrap.state.property.Property property) { return new yarnwrap.block.BlockState(wrapperContained.copyProperty(source.wrapperContained,target.wrapperContained,property.wrapperContained)); }
-// public static yarnwrap.block.BlockState copyProperty(yarnwrap.block.BlockState source,yarnwrap.block.BlockState target,yarnwrap.state.property.Property property, ) { return new yarnwrap.block.BlockState(net.minecraft.block.Block.copyProperty(source.wrapperContained,target.wrapperContained,property.wrapperContained)); }
-public yarnwrap.block.BlockState getStateWithProperties(yarnwrap.block.BlockState state) { return new yarnwrap.block.BlockState(wrapperContained.getStateWithProperties(state.wrapperContained)); }
-// public static yarnwrap.block.BlockState getStateWithProperties(yarnwrap.block.BlockState state, ) { return new yarnwrap.block.BlockState(net.minecraft.block.Block.getStateWithProperties(state.wrapperContained)); }
-// public void dropStack(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction,yarnwrap.item.ItemStack stack) { wrapperContained.dropStack(world.wrapperContained,pos.wrapperContained,direction.wrapperContained,stack.wrapperContained); }
-// public static void dropStack(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction,yarnwrap.item.ItemStack stack, ) { net.minecraft.block.Block.dropStack(world.wrapperContained,pos.wrapperContained,direction.wrapperContained,stack.wrapperContained); }
-// public void dropStack(yarnwrap.world.World world,java.util.function.Supplier itemEntitySupplier,yarnwrap.item.ItemStack stack) { wrapperContained.dropStack(world.wrapperContained,itemEntitySupplier,stack.wrapperContained); }
-// public static void dropStack(yarnwrap.world.World world,java.util.function.Supplier itemEntitySupplier,yarnwrap.item.ItemStack stack, ) { net.minecraft.block.Block.dropStack(world.wrapperContained,itemEntitySupplier,stack.wrapperContained); }
-public Object getRegistryEntry() { return wrapperContained.getRegistryEntry(); }
-// public static Object getRegistryEntry() { return net.minecraft.block.Block.getRegistryEntry(); }
-// public void dropExperienceWhenMined(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack tool,yarnwrap.util.math.intprovider.IntProvider experience) { wrapperContained.dropExperienceWhenMined(world.wrapperContained,pos.wrapperContained,tool.wrapperContained,experience.wrapperContained); }
-// public static void dropExperienceWhenMined(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack tool,yarnwrap.util.math.intprovider.IntProvider experience, ) { net.minecraft.block.Block.dropExperienceWhenMined(world.wrapperContained,pos.wrapperContained,tool.wrapperContained,experience.wrapperContained); }
+// public int SKIP_REDSTONE_WIRE_STATE_REPLACEMENT() { return wrapperContained.SKIP_REDSTONE_WIRE_STATE_REPLACEMENT; }
+// public void SKIP_REDSTONE_WIRE_STATE_REPLACEMENT(int value) { wrapperContained.SKIP_REDSTONE_WIRE_STATE_REPLACEMENT = value; }
+public static int SKIP_REDSTONE_WIRE_STATE_REPLACEMENT() { return net.minecraft.block.Block.SKIP_REDSTONE_WIRE_STATE_REPLACEMENT; }
+// public static void SKIP_REDSTONE_WIRE_STATE_REPLACEMENT(int value, ) { net.minecraft.block.Block.SKIP_REDSTONE_WIRE_STATE_REPLACEMENT = value; }
+
+// public int SKIP_BLOCK_ENTITY_REPLACED_CALLBACK() { return wrapperContained.SKIP_BLOCK_ENTITY_REPLACED_CALLBACK; }
+// public void SKIP_BLOCK_ENTITY_REPLACED_CALLBACK(int value) { wrapperContained.SKIP_BLOCK_ENTITY_REPLACED_CALLBACK = value; }
+public static int SKIP_BLOCK_ENTITY_REPLACED_CALLBACK() { return net.minecraft.block.Block.SKIP_BLOCK_ENTITY_REPLACED_CALLBACK; }
+// public static void SKIP_BLOCK_ENTITY_REPLACED_CALLBACK(int value, ) { net.minecraft.block.Block.SKIP_BLOCK_ENTITY_REPLACED_CALLBACK = value; }
+
+// public int FORCE_STATE_AND_SKIP_CALLBACKS_AND_DROPS() { return wrapperContained.FORCE_STATE_AND_SKIP_CALLBACKS_AND_DROPS; }
+// public void FORCE_STATE_AND_SKIP_CALLBACKS_AND_DROPS(int value) { wrapperContained.FORCE_STATE_AND_SKIP_CALLBACKS_AND_DROPS = value; }
+public static int FORCE_STATE_AND_SKIP_CALLBACKS_AND_DROPS() { return net.minecraft.block.Block.FORCE_STATE_AND_SKIP_CALLBACKS_AND_DROPS; }
+// public static void FORCE_STATE_AND_SKIP_CALLBACKS_AND_DROPS(int value, ) { net.minecraft.block.Block.FORCE_STATE_AND_SKIP_CALLBACKS_AND_DROPS = value; }
+
+// public int SKIP_BLOCK_ADDED_CALLBACK() { return wrapperContained.SKIP_BLOCK_ADDED_CALLBACK; }
+// public void SKIP_BLOCK_ADDED_CALLBACK(int value) { wrapperContained.SKIP_BLOCK_ADDED_CALLBACK = value; }
+public static int SKIP_BLOCK_ADDED_CALLBACK() { return net.minecraft.block.Block.SKIP_BLOCK_ADDED_CALLBACK; }
+// public static void SKIP_BLOCK_ADDED_CALLBACK(int value, ) { net.minecraft.block.Block.SKIP_BLOCK_ADDED_CALLBACK = value; }
+
 public void randomDisplayTick(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { wrapperContained.randomDisplayTick(state.wrapperContained,world.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public static void randomDisplayTick(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { net.minecraft.block.Block.randomDisplayTick(state.wrapperContained,world.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 // public void dropStacks(yarnwrap.block.BlockState state,yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos) { wrapperContained.dropStacks(state.wrapperContained,world.wrapperContained,pos.wrapperContained); }
@@ -154,16 +153,14 @@ public boolean shouldDropItemsOnExplosion(yarnwrap.world.explosion.Explosion exp
 // public static boolean shouldDropItemsOnExplosion(yarnwrap.world.explosion.Explosion explosion, ) { return net.minecraft.block.Block.shouldDropItemsOnExplosion(explosion.wrapperContained); }
 public boolean canMobSpawnInside(yarnwrap.block.BlockState state) { return wrapperContained.canMobSpawnInside(state.wrapperContained); }
 // public static boolean canMobSpawnInside(yarnwrap.block.BlockState state, ) { return net.minecraft.block.Block.canMobSpawnInside(state.wrapperContained); }
-public java.lang.String getTranslationKey() { return wrapperContained.getTranslationKey(); }
-// public static java.lang.String getTranslationKey() { return net.minecraft.block.Block.getTranslationKey(); }
 // public yarnwrap.util.shape.VoxelShape createCuboidShape(double minX,double minY,double minZ,double maxX,double maxY,double maxZ) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.createCuboidShape(minX,minY,minZ,maxX,maxY,maxZ)); }
 // public static yarnwrap.util.shape.VoxelShape createCuboidShape(double minX,double minY,double minZ,double maxX,double maxY,double maxZ, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.Block.createCuboidShape(minX,minY,minZ,maxX,maxY,maxZ)); }
 public boolean hasDynamicBounds() { return wrapperContained.hasDynamicBounds(); }
 // public static boolean hasDynamicBounds() { return net.minecraft.block.Block.hasDynamicBounds(); }
 // public void method_9544(yarnwrap.world.World stack) { wrapperContained.method_9544(stack.wrapperContained); }
 // public static void method_9544(yarnwrap.world.World stack, ) { net.minecraft.block.Block.method_9544(stack.wrapperContained); }
-public void onLandedUpon(yarnwrap.world.World world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.Entity entity,float fallDistance) { wrapperContained.onLandedUpon(world.wrapperContained,state.wrapperContained,pos.wrapperContained,entity.wrapperContained,fallDistance); }
-// public static void onLandedUpon(yarnwrap.world.World world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.Entity entity,float fallDistance, ) { net.minecraft.block.Block.onLandedUpon(world.wrapperContained,state.wrapperContained,pos.wrapperContained,entity.wrapperContained,fallDistance); }
+public void onLandedUpon(yarnwrap.world.World world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.Entity entity,double fallDistance) { wrapperContained.onLandedUpon(world.wrapperContained,state.wrapperContained,pos.wrapperContained,entity.wrapperContained,fallDistance); }
+// public static void onLandedUpon(yarnwrap.world.World world,yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos,yarnwrap.entity.Entity entity,double fallDistance, ) { net.minecraft.block.Block.onLandedUpon(world.wrapperContained,state.wrapperContained,pos.wrapperContained,entity.wrapperContained,fallDistance); }
 public void afterBreak(yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.item.ItemStack tool) { wrapperContained.afterBreak(world.wrapperContained,player.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained,tool.wrapperContained); }
 // public static void afterBreak(yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.item.ItemStack tool, ) { net.minecraft.block.Block.afterBreak(world.wrapperContained,player.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained,tool.wrapperContained); }
 // public java.util.List getDroppedStacks(yarnwrap.block.BlockState state,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.BlockEntity blockEntity) { return wrapperContained.getDroppedStacks(state.wrapperContained,world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained); }
@@ -172,10 +169,6 @@ public yarnwrap.block.BlockState getDefaultState() { return new yarnwrap.block.B
 // public static yarnwrap.block.BlockState getDefaultState() { return new yarnwrap.block.BlockState(net.minecraft.block.Block.getDefaultState()); }
 public void onPlaced(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.entity.LivingEntity placer,yarnwrap.item.ItemStack itemStack) { wrapperContained.onPlaced(world.wrapperContained,pos.wrapperContained,state.wrapperContained,placer.wrapperContained,itemStack.wrapperContained); }
 // public static void onPlaced(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.entity.LivingEntity placer,yarnwrap.item.ItemStack itemStack, ) { net.minecraft.block.Block.onPlaced(world.wrapperContained,pos.wrapperContained,state.wrapperContained,placer.wrapperContained,itemStack.wrapperContained); }
-// public void appendTooltip(yarnwrap.item.ItemStack stack,Object context,java.util.List tooltip,yarnwrap.item.tooltip.TooltipType options) { wrapperContained.appendTooltip(stack.wrapperContained,context,tooltip,options.wrapperContained); }
-// public static void appendTooltip(yarnwrap.item.ItemStack stack,Object context,java.util.List tooltip,yarnwrap.item.tooltip.TooltipType options, ) { net.minecraft.block.Block.appendTooltip(stack.wrapperContained,context,tooltip,options.wrapperContained); }
-public yarnwrap.item.ItemStack getPickStack(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { return new yarnwrap.item.ItemStack(wrapperContained.getPickStack(world.wrapperContained,pos.wrapperContained,state.wrapperContained)); }
-// public static yarnwrap.item.ItemStack getPickStack(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { return new yarnwrap.item.ItemStack(net.minecraft.block.Block.getPickStack(world.wrapperContained,pos.wrapperContained,state.wrapperContained)); }
 public yarnwrap.block.BlockState onBreak(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.entity.player.PlayerEntity player) { return new yarnwrap.block.BlockState(wrapperContained.onBreak(world.wrapperContained,pos.wrapperContained,state.wrapperContained,player.wrapperContained)); }
 // public static yarnwrap.block.BlockState onBreak(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.entity.player.PlayerEntity player, ) { return new yarnwrap.block.BlockState(net.minecraft.block.Block.onBreak(world.wrapperContained,pos.wrapperContained,state.wrapperContained,player.wrapperContained)); }
 // public void dropStack(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack stack) { wrapperContained.dropStack(world.wrapperContained,pos.wrapperContained,stack.wrapperContained); }
@@ -188,8 +181,8 @@ public yarnwrap.block.BlockState onBreak(yarnwrap.world.World world,yarnwrap.uti
 // public static void dropExperience(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,int size, ) { net.minecraft.block.Block.dropExperience(world.wrapperContained,pos.wrapperContained,size); }
 public void onBroken(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.onBroken(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
 // public static void onBroken(yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.Block.onBroken(world.wrapperContained,pos.wrapperContained,state.wrapperContained); }
-public void onDestroyedByExplosion(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.explosion.Explosion explosion) { wrapperContained.onDestroyedByExplosion(world.wrapperContained,pos.wrapperContained,explosion.wrapperContained); }
-// public static void onDestroyedByExplosion(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.explosion.Explosion explosion, ) { net.minecraft.block.Block.onDestroyedByExplosion(world.wrapperContained,pos.wrapperContained,explosion.wrapperContained); }
+public void onDestroyedByExplosion(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.explosion.Explosion explosion) { wrapperContained.onDestroyedByExplosion(world.wrapperContained,pos.wrapperContained,explosion.wrapperContained); }
+// public static void onDestroyedByExplosion(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.world.explosion.Explosion explosion, ) { net.minecraft.block.Block.onDestroyedByExplosion(world.wrapperContained,pos.wrapperContained,explosion.wrapperContained); }
 // public void method_9587(yarnwrap.world.World stack) { wrapperContained.method_9587(stack.wrapperContained); }
 // public static void method_9587(yarnwrap.world.World stack, ) { net.minecraft.block.Block.method_9587(stack.wrapperContained); }
 // public void setDefaultState(yarnwrap.block.BlockState state) { wrapperContained.setDefaultState(state.wrapperContained); }
@@ -202,8 +195,8 @@ public yarnwrap.state.StateManager getStateManager() { return new yarnwrap.state
 // public static void method_9596(yarnwrap.world.WorldAccess stack, ) { net.minecraft.block.Block.method_9596(stack.wrapperContained); }
 public yarnwrap.block.BlockState getPlacementState(yarnwrap.item.ItemPlacementContext ctx) { return new yarnwrap.block.BlockState(wrapperContained.getPlacementState(ctx.wrapperContained)); }
 // public static yarnwrap.block.BlockState getPlacementState(yarnwrap.item.ItemPlacementContext ctx, ) { return new yarnwrap.block.BlockState(net.minecraft.block.Block.getPlacementState(ctx.wrapperContained)); }
-// public boolean shouldDrawSide(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction side,yarnwrap.util.math.BlockPos otherPos) { return wrapperContained.shouldDrawSide(state.wrapperContained,world.wrapperContained,pos.wrapperContained,side.wrapperContained,otherPos.wrapperContained); }
-// public static boolean shouldDrawSide(yarnwrap.block.BlockState state,yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction side,yarnwrap.util.math.BlockPos otherPos, ) { return net.minecraft.block.Block.shouldDrawSide(state.wrapperContained,world.wrapperContained,pos.wrapperContained,side.wrapperContained,otherPos.wrapperContained); }
+// public boolean shouldDrawSide(yarnwrap.block.BlockState state,yarnwrap.block.BlockState otherState,yarnwrap.util.math.Direction side) { return wrapperContained.shouldDrawSide(state.wrapperContained,otherState.wrapperContained,side.wrapperContained); }
+// public static boolean shouldDrawSide(yarnwrap.block.BlockState state,yarnwrap.block.BlockState otherState,yarnwrap.util.math.Direction side, ) { return net.minecraft.block.Block.shouldDrawSide(state.wrapperContained,otherState.wrapperContained,side.wrapperContained); }
 // public java.util.List getDroppedStacks(yarnwrap.block.BlockState state,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.Entity entity,yarnwrap.item.ItemStack stack) { return wrapperContained.getDroppedStacks(state.wrapperContained,world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained,entity.wrapperContained,stack.wrapperContained); }
 // public static java.util.List getDroppedStacks(yarnwrap.block.BlockState state,yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.BlockEntity blockEntity,yarnwrap.entity.Entity entity,yarnwrap.item.ItemStack stack, ) { return net.minecraft.block.Block.getDroppedStacks(state.wrapperContained,world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained,entity.wrapperContained,stack.wrapperContained); }
 // public void dropStacks(yarnwrap.block.BlockState state,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.entity.BlockEntity blockEntity) { wrapperContained.dropStacks(state.wrapperContained,world.wrapperContained,pos.wrapperContained,blockEntity.wrapperContained); }
@@ -212,5 +205,59 @@ public yarnwrap.block.BlockState getPlacementState(yarnwrap.item.ItemPlacementCo
 // public static void replace(yarnwrap.block.BlockState state,yarnwrap.block.BlockState newState,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,int flags,int maxUpdateDepth, ) { net.minecraft.block.Block.replace(state.wrapperContained,newState.wrapperContained,world.wrapperContained,pos.wrapperContained,flags,maxUpdateDepth); }
 // public boolean isShapeFullCube(yarnwrap.util.shape.VoxelShape shape) { return wrapperContained.isShapeFullCube(shape.wrapperContained); }
 // public static boolean isShapeFullCube(yarnwrap.util.shape.VoxelShape shape, ) { return net.minecraft.block.Block.isShapeFullCube(shape.wrapperContained); }
+// public boolean hasTopRim(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.hasTopRim(world.wrapperContained,pos.wrapperContained); }
+// public static boolean hasTopRim(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.Block.hasTopRim(world.wrapperContained,pos.wrapperContained); }
+// public boolean sideCoversSmallSquare(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction side) { return wrapperContained.sideCoversSmallSquare(world.wrapperContained,pos.wrapperContained,side.wrapperContained); }
+// public static boolean sideCoversSmallSquare(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction side, ) { return net.minecraft.block.Block.sideCoversSmallSquare(world.wrapperContained,pos.wrapperContained,side.wrapperContained); }
+public float getVelocityMultiplier() { return wrapperContained.getVelocityMultiplier(); }
+// public static float getVelocityMultiplier() { return net.minecraft.block.Block.getVelocityMultiplier(); }
+public float getJumpVelocityMultiplier() { return wrapperContained.getJumpVelocityMultiplier(); }
+// public static float getJumpVelocityMultiplier() { return net.minecraft.block.Block.getJumpVelocityMultiplier(); }
+// public void replace(yarnwrap.block.BlockState state,yarnwrap.block.BlockState newState,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,int flags) { wrapperContained.replace(state.wrapperContained,newState.wrapperContained,world.wrapperContained,pos.wrapperContained,flags); }
+// public static void replace(yarnwrap.block.BlockState state,yarnwrap.block.BlockState newState,yarnwrap.world.WorldAccess world,yarnwrap.util.math.BlockPos pos,int flags, ) { net.minecraft.block.Block.replace(state.wrapperContained,newState.wrapperContained,world.wrapperContained,pos.wrapperContained,flags); }
+// public void spawnBreakParticles(yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.spawnBreakParticles(world.wrapperContained,player.wrapperContained,pos.wrapperContained,state.wrapperContained); }
+// public static void spawnBreakParticles(yarnwrap.world.World world,yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.block.Block.spawnBreakParticles(world.wrapperContained,player.wrapperContained,pos.wrapperContained,state.wrapperContained); }
+// public java.util.function.Function createShapeFunction(java.util.function.Function stateToShape) { return wrapperContained.createShapeFunction(stateToShape); }
+// public static java.util.function.Function createShapeFunction(java.util.function.Function stateToShape, ) { return net.minecraft.block.Block.createShapeFunction(stateToShape); }
+// public yarnwrap.block.BlockState copyProperty(yarnwrap.block.BlockState source,yarnwrap.block.BlockState target,yarnwrap.state.property.Property property) { return new yarnwrap.block.BlockState(wrapperContained.copyProperty(source.wrapperContained,target.wrapperContained,property.wrapperContained)); }
+// public static yarnwrap.block.BlockState copyProperty(yarnwrap.block.BlockState source,yarnwrap.block.BlockState target,yarnwrap.state.property.Property property, ) { return new yarnwrap.block.BlockState(net.minecraft.block.Block.copyProperty(source.wrapperContained,target.wrapperContained,property.wrapperContained)); }
+public yarnwrap.block.BlockState getStateWithProperties(yarnwrap.block.BlockState state) { return new yarnwrap.block.BlockState(wrapperContained.getStateWithProperties(state.wrapperContained)); }
+// public static yarnwrap.block.BlockState getStateWithProperties(yarnwrap.block.BlockState state, ) { return new yarnwrap.block.BlockState(net.minecraft.block.Block.getStateWithProperties(state.wrapperContained)); }
+// public void dropStack(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction,yarnwrap.item.ItemStack stack) { wrapperContained.dropStack(world.wrapperContained,pos.wrapperContained,direction.wrapperContained,stack.wrapperContained); }
+// public static void dropStack(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction,yarnwrap.item.ItemStack stack, ) { net.minecraft.block.Block.dropStack(world.wrapperContained,pos.wrapperContained,direction.wrapperContained,stack.wrapperContained); }
+// public void dropStack(yarnwrap.world.World world,java.util.function.Supplier itemEntitySupplier,yarnwrap.item.ItemStack stack) { wrapperContained.dropStack(world.wrapperContained,itemEntitySupplier,stack.wrapperContained); }
+// public static void dropStack(yarnwrap.world.World world,java.util.function.Supplier itemEntitySupplier,yarnwrap.item.ItemStack stack, ) { net.minecraft.block.Block.dropStack(world.wrapperContained,itemEntitySupplier,stack.wrapperContained); }
+public Object getRegistryEntry() { return wrapperContained.getRegistryEntry(); }
+// public static Object getRegistryEntry() { return net.minecraft.block.Block.getRegistryEntry(); }
+// public void dropExperienceWhenMined(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack tool,yarnwrap.util.math.intprovider.IntProvider experience) { wrapperContained.dropExperienceWhenMined(world.wrapperContained,pos.wrapperContained,tool.wrapperContained,experience.wrapperContained); }
+// public static void dropExperienceWhenMined(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack tool,yarnwrap.util.math.intprovider.IntProvider experience, ) { net.minecraft.block.Block.dropExperienceWhenMined(world.wrapperContained,pos.wrapperContained,tool.wrapperContained,experience.wrapperContained); }
+// public yarnwrap.util.shape.VoxelShape createCubeShape(double size) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.createCubeShape(size)); }
+// public static yarnwrap.util.shape.VoxelShape createCubeShape(double size, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.Block.createCubeShape(size)); }
+// public yarnwrap.util.shape.VoxelShape createCuboidShape(double sizeX,double sizeY,double sizeZ) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.createCuboidShape(sizeX,sizeY,sizeZ)); }
+// public static yarnwrap.util.shape.VoxelShape createCuboidShape(double sizeX,double sizeY,double sizeZ, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.Block.createCuboidShape(sizeX,sizeY,sizeZ)); }
+// public yarnwrap.util.shape.VoxelShape createColumnShape(double sizeX,double sizeZ,double minY,double maxY) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.createColumnShape(sizeX,sizeZ,minY,maxY)); }
+// public static yarnwrap.util.shape.VoxelShape createColumnShape(double sizeX,double sizeZ,double minY,double maxY, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.Block.createColumnShape(sizeX,sizeZ,minY,maxY)); }
+// public yarnwrap.util.shape.VoxelShape createCuboidZShape(double sizeX,double minY,double maxY,double minZ,double maxZ) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.createCuboidZShape(sizeX,minY,maxY,minZ,maxZ)); }
+// public static yarnwrap.util.shape.VoxelShape createCuboidZShape(double sizeX,double minY,double maxY,double minZ,double maxZ, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.Block.createCuboidZShape(sizeX,minY,maxY,minZ,maxZ)); }
+// public net.minecraft.util.shape.VoxelShape[] createShapeArray(int size,java.util.function.IntFunction indexToShape) { return wrapperContained.createShapeArray(size,indexToShape); }
+// public static net.minecraft.util.shape.VoxelShape[] createShapeArray(int size,java.util.function.IntFunction indexToShape, ) { return net.minecraft.block.Block.createShapeArray(size,indexToShape); }
+// public yarnwrap.state.State applyValueToState(yarnwrap.state.State state,yarnwrap.state.property.Property property,java.lang.Object value) { return new yarnwrap.state.State(wrapperContained.applyValueToState(state.wrapperContained,property.wrapperContained,value)); }
+// public static yarnwrap.state.State applyValueToState(yarnwrap.state.State state,yarnwrap.state.property.Property property,java.lang.Object value, ) { return new yarnwrap.state.State(net.minecraft.block.Block.applyValueToState(state.wrapperContained,property.wrapperContained,value)); }
+// public java.lang.Object method_66400(yarnwrap.state.property.Property property) { return wrapperContained.method_66400(property.wrapperContained); }
+// public static java.lang.Object method_66400(yarnwrap.state.property.Property property, ) { return net.minecraft.block.Block.method_66400(property.wrapperContained); }
+// public yarnwrap.util.shape.VoxelShape method_66401(java.util.Map state) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.method_66401(state)); }
+// public static yarnwrap.util.shape.VoxelShape method_66401(java.util.Map state, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.Block.method_66401(state)); }
+// public boolean method_66402(java.util.Map state) { return wrapperContained.method_66402(state); }
+// public static boolean method_66402(java.util.Map state, ) { return net.minecraft.block.Block.method_66402(state); }
+// public java.util.function.Function createShapeFunction(java.util.function.Function stateToShape,net.minecraft.state.property.Property[] properties) { return wrapperContained.createShapeFunction(stateToShape,properties); }
+// public static java.util.function.Function createShapeFunction(java.util.function.Function stateToShape,net.minecraft.state.property.Property[] properties, ) { return net.minecraft.block.Block.createShapeFunction(stateToShape,properties); }
+// public yarnwrap.util.shape.VoxelShape createColumnShape(double sizeXz,double minY,double maxY) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.createColumnShape(sizeXz,minY,maxY)); }
+// public static yarnwrap.util.shape.VoxelShape createColumnShape(double sizeXz,double minY,double maxY, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.Block.createColumnShape(sizeXz,minY,maxY)); }
+// public yarnwrap.util.shape.VoxelShape createCuboidZShape(double sizeX,double sizeY,double minZ,double maxZ) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.createCuboidZShape(sizeX,sizeY,minZ,maxZ)); }
+// public static yarnwrap.util.shape.VoxelShape createCuboidZShape(double sizeX,double sizeY,double minZ,double maxZ, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.Block.createCuboidZShape(sizeX,sizeY,minZ,maxZ)); }
+// public yarnwrap.state.property.Property method_66407(yarnwrap.state.property.Property property) { return new yarnwrap.state.property.Property(wrapperContained.method_66407(property.wrapperContained)); }
+// public static yarnwrap.state.property.Property method_66407(yarnwrap.state.property.Property property, ) { return new yarnwrap.state.property.Property(net.minecraft.block.Block.method_66407(property.wrapperContained)); }
+// public yarnwrap.util.shape.VoxelShape createCuboidZShape(double sizeXy,double minZ,double maxZ) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.createCuboidZShape(sizeXy,minZ,maxZ)); }
+// public static yarnwrap.util.shape.VoxelShape createCuboidZShape(double sizeXy,double minZ,double maxZ, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.Block.createCuboidZShape(sizeXy,minZ,maxZ)); }
 
 }

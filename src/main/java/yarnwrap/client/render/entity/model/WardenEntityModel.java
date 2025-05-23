@@ -46,11 +46,6 @@ public class WardenEntityModel { public net.minecraft.client.render.entity.model
 // public static yarnwrap.client.model.ModelPart rightLeg() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WardenEntityModel.rightLeg); }
 // public static void rightLeg(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WardenEntityModel.rightLeg = value.wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(wrapperContained.root); }
-// public void root(yarnwrap.client.model.ModelPart value) { wrapperContained.root = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart root() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WardenEntityModel.root); }
-// public static void root(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WardenEntityModel.root = value.wrapperContained; }
-
 // public yarnwrap.client.model.ModelPart leftRibcage() { return new yarnwrap.client.model.ModelPart(wrapperContained.leftRibcage); }
 // public void leftRibcage(yarnwrap.client.model.ModelPart value) { wrapperContained.leftRibcage = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart leftRibcage() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WardenEntityModel.leftRibcage); }
@@ -81,25 +76,24 @@ public class WardenEntityModel { public net.minecraft.client.render.entity.model
 // public static java.util.List bodyHeadAndLimbs() { return net.minecraft.client.render.entity.model.WardenEntityModel.bodyHeadAndLimbs; }
 // public static void bodyHeadAndLimbs(java.util.List value, ) { net.minecraft.client.render.entity.model.WardenEntityModel.bodyHeadAndLimbs = value; }
 
-public WardenEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.WardenEntityModel(root.wrapperContained); }
 // public yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.entity.model.WardenEntityModel.getTexturedModelData()); }
 // public void setHeadAndBodyAngles(float animationProgress) { wrapperContained.setHeadAndBodyAngles(animationProgress); }
 // public static void setHeadAndBodyAngles(float animationProgress, ) { net.minecraft.client.render.entity.model.WardenEntityModel.setHeadAndBodyAngles(animationProgress); }
 // public void setHeadAngle(float yaw,float pitch) { wrapperContained.setHeadAngle(yaw,pitch); }
 // public static void setHeadAngle(float yaw,float pitch, ) { net.minecraft.client.render.entity.model.WardenEntityModel.setHeadAngle(yaw,pitch); }
-// public void setTendrilPitches(yarnwrap.entity.mob.WardenEntity warden,float animationProgress,float tickDelta) { wrapperContained.setTendrilPitches(warden.wrapperContained,animationProgress,tickDelta); }
-// public static void setTendrilPitches(yarnwrap.entity.mob.WardenEntity warden,float animationProgress,float tickDelta, ) { net.minecraft.client.render.entity.model.WardenEntityModel.setTendrilPitches(warden.wrapperContained,animationProgress,tickDelta); }
+// public void setTendrilPitches(yarnwrap.client.render.entity.state.WardenEntityRenderState state,float animationProgress) { wrapperContained.setTendrilPitches(state.wrapperContained,animationProgress); }
+// public static void setTendrilPitches(yarnwrap.client.render.entity.state.WardenEntityRenderState state,float animationProgress, ) { net.minecraft.client.render.entity.model.WardenEntityModel.setTendrilPitches(state.wrapperContained,animationProgress); }
 // public void setLimbAngles(float angle,float distance) { wrapperContained.setLimbAngles(angle,distance); }
 // public static void setLimbAngles(float angle,float distance, ) { net.minecraft.client.render.entity.model.WardenEntityModel.setLimbAngles(angle,distance); }
-public java.util.List getTendrils() { return wrapperContained.getTendrils(); }
-// public static java.util.List getTendrils() { return net.minecraft.client.render.entity.model.WardenEntityModel.getTendrils(); }
-public java.util.List getBody() { return wrapperContained.getBody(); }
-// public static java.util.List getBody() { return net.minecraft.client.render.entity.model.WardenEntityModel.getBody(); }
-public java.util.List getHeadAndLimbs() { return wrapperContained.getHeadAndLimbs(); }
-// public static java.util.List getHeadAndLimbs() { return net.minecraft.client.render.entity.model.WardenEntityModel.getHeadAndLimbs(); }
-public java.util.List getBodyHeadAndLimbs() { return wrapperContained.getBodyHeadAndLimbs(); }
-// public static java.util.List getBodyHeadAndLimbs() { return net.minecraft.client.render.entity.model.WardenEntityModel.getBodyHeadAndLimbs(); }
+public java.util.List getTendrils(yarnwrap.client.render.entity.state.WardenEntityRenderState state) { return wrapperContained.getTendrils(state.wrapperContained); }
+// public static java.util.List getTendrils(yarnwrap.client.render.entity.state.WardenEntityRenderState state, ) { return net.minecraft.client.render.entity.model.WardenEntityModel.getTendrils(state.wrapperContained); }
+public java.util.List getBody(yarnwrap.client.render.entity.state.WardenEntityRenderState state) { return wrapperContained.getBody(state.wrapperContained); }
+// public static java.util.List getBody(yarnwrap.client.render.entity.state.WardenEntityRenderState state, ) { return net.minecraft.client.render.entity.model.WardenEntityModel.getBody(state.wrapperContained); }
+public java.util.List getHeadAndLimbs(yarnwrap.client.render.entity.state.WardenEntityRenderState state) { return wrapperContained.getHeadAndLimbs(state.wrapperContained); }
+// public static java.util.List getHeadAndLimbs(yarnwrap.client.render.entity.state.WardenEntityRenderState state, ) { return net.minecraft.client.render.entity.model.WardenEntityModel.getHeadAndLimbs(state.wrapperContained); }
+public java.util.List getBodyHeadAndLimbs(yarnwrap.client.render.entity.state.WardenEntityRenderState state) { return wrapperContained.getBodyHeadAndLimbs(state.wrapperContained); }
+// public static java.util.List getBodyHeadAndLimbs(yarnwrap.client.render.entity.state.WardenEntityRenderState state, ) { return net.minecraft.client.render.entity.model.WardenEntityModel.getBodyHeadAndLimbs(state.wrapperContained); }
 // public void setArmPivots() { wrapperContained.setArmPivots(); }
 // public static void setArmPivots() { net.minecraft.client.render.entity.model.WardenEntityModel.setArmPivots(); }
 

@@ -41,21 +41,24 @@ public class RealmsCreateRealmScreen { public net.minecraft.client.realms.gui.sc
 // public static yarnwrap.text.Text TITLE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.TITLE_TEXT); }
 // public static void TITLE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.TITLE_TEXT = value.wrapperContained; }
 
-public RealmsCreateRealmScreen(yarnwrap.client.realms.gui.screen.RealmsMainScreen parent,long parentId) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen(parent.wrapperContained,parentId); }
-public RealmsCreateRealmScreen(yarnwrap.client.realms.gui.screen.RealmsMainScreen parent,yarnwrap.client.realms.dto.RealmsServer realmsServer) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen(parent.wrapperContained,realmsServer.wrapperContained); }
-// public void createWorld(yarnwrap.client.realms.dto.RealmsServer realmsServer) { wrapperContained.createWorld(realmsServer.wrapperContained); }
-// public static void createWorld(yarnwrap.client.realms.dto.RealmsServer realmsServer, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.createWorld(realmsServer.wrapperContained); }
+public RealmsCreateRealmScreen(yarnwrap.client.realms.gui.screen.RealmsMainScreen parent,yarnwrap.client.realms.dto.RealmsServer server,boolean prerelease) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen(parent.wrapperContained,server.wrapperContained,prerelease); }
+// public void createWorld(yarnwrap.client.realms.dto.RealmsServer realmsServer,boolean prerelease) { wrapperContained.createWorld(realmsServer.wrapperContained,prerelease); }
+// public static void createWorld(yarnwrap.client.realms.dto.RealmsServer realmsServer,boolean prerelease, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.createWorld(realmsServer.wrapperContained,prerelease); }
 // public void method_52665(yarnwrap.client.realms.gui.screen.RealmsCreateRealmScreen child) { wrapperContained.method_52665(child.wrapperContained); }
 // public static void method_52665(yarnwrap.client.realms.gui.screen.RealmsCreateRealmScreen child, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.method_52665(child.wrapperContained); }
 // public void method_52666(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_52666(button.wrapperContained); }
 // public static void method_52666(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.method_52666(button.wrapperContained); }
 // public void method_52667(yarnwrap.client.gui.widget.ButtonWidget name) { wrapperContained.method_52667(name.wrapperContained); }
 // public static void method_52667(yarnwrap.client.gui.widget.ButtonWidget name, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.method_52667(name.wrapperContained); }
-// public void createSnapshotWorld(long parentId) { wrapperContained.createSnapshotWorld(parentId); }
-// public static void createSnapshotWorld(long parentId, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.createSnapshotWorld(parentId); }
-// public void method_54371(long info) { wrapperContained.method_54371(info); }
-// public static void method_54371(long info, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.method_54371(info); }
 // public void method_54374(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_54374(button.wrapperContained); }
 // public static void method_54374(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.method_54374(button.wrapperContained); }
+// public yarnwrap.client.realms.dto.RealmsServer createPrereleaseServer(yarnwrap.client.realms.dto.RealmsServer parent) { return new yarnwrap.client.realms.dto.RealmsServer(wrapperContained.createPrereleaseServer(parent.wrapperContained)); }
+// public static yarnwrap.client.realms.dto.RealmsServer createPrereleaseServer(yarnwrap.client.realms.dto.RealmsServer parent, ) { return new yarnwrap.client.realms.dto.RealmsServer(net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.createPrereleaseServer(parent.wrapperContained)); }
+// public java.lang.Void method_64358(java.lang.Throwable throwable) { return wrapperContained.method_64358(throwable); }
+// public static java.lang.Void method_64358(java.lang.Throwable throwable, ) { return net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.method_64358(throwable); }
+// public void method_64360(java.util.concurrent.atomic.AtomicBoolean prereleaseServer) { wrapperContained.method_64360(prereleaseServer); }
+// public static void method_64360(java.util.concurrent.atomic.AtomicBoolean prereleaseServer, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.method_64360(prereleaseServer); }
+// public void createWorld(yarnwrap.client.realms.dto.RealmsServer server) { wrapperContained.createWorld(server.wrapperContained); }
+// public static void createWorld(yarnwrap.client.realms.dto.RealmsServer server, ) { net.minecraft.client.realms.gui.screen.RealmsCreateRealmScreen.createWorld(server.wrapperContained); }
 
 }

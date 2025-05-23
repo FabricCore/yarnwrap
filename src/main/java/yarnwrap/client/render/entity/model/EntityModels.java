@@ -18,11 +18,9 @@ public class EntityModels { public net.minecraft.client.render.entity.model.Enti
 
 // public java.util.Map getModels() { return wrapperContained.getModels(); }
 public static java.util.Map getModels() { return net.minecraft.client.render.entity.model.EntityModels.getModels(); }
-// public void method_32074(Object signType) { wrapperContained.method_32074(signType); }
-// public static void method_32074(Object signType, ) { net.minecraft.client.render.entity.model.EntityModels.method_32074(signType); }
+// public void method_32074(Object woodType) { wrapperContained.method_32074(woodType); }
+// public static void method_32074(Object woodType, ) { net.minecraft.client.render.entity.model.EntityModels.method_32074(woodType); }
 // public boolean method_32075(com.google.common.collect.ImmutableMap layer) { return wrapperContained.method_32075(layer); }
 // public static boolean method_32075(com.google.common.collect.ImmutableMap layer, ) { return net.minecraft.client.render.entity.model.EntityModels.method_32075(layer); }
-// public void method_45716(Object signType) { wrapperContained.method_45716(signType); }
-// public static void method_45716(Object signType, ) { net.minecraft.client.render.entity.model.EntityModels.method_45716(signType); }
 
 }

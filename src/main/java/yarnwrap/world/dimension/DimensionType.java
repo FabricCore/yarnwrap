@@ -11,6 +11,11 @@ public class DimensionType { public net.minecraft.world.dimension.DimensionType 
 // public static yarnwrap.util.Identifier effects() { return new yarnwrap.util.Identifier(net.minecraft.world.dimension.DimensionType.effects); }
 // public static void effects(yarnwrap.util.Identifier value, ) { net.minecraft.world.dimension.DimensionType.effects = value.wrapperContained; }
 
+// public Object monsterSettings() { return wrapperContained.monsterSettings; }
+// // public void monsterSettings(Object value) { wrapperContained.monsterSettings = value; }
+// // public static Object monsterSettings() { return net.minecraft.world.dimension.DimensionType.monsterSettings; }
+// // public static void monsterSettings(Object value, ) { net.minecraft.world.dimension.DimensionType.monsterSettings = value; }
+
 // public float[] MOON_SIZES() { return wrapperContained.MOON_SIZES; }
 // public void MOON_SIZES(float[] value) { wrapperContained.MOON_SIZES = value; }
 public static float[] MOON_SIZES() { return net.minecraft.world.dimension.DimensionType.MOON_SIZES; }
@@ -51,15 +56,15 @@ public static int MIN_HEIGHT() { return net.minecraft.world.dimension.DimensionT
 public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.world.dimension.DimensionType.PACKET_CODEC); }
 // public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.world.dimension.DimensionType.PACKET_CODEC = value.wrapperContained; }
 
-// public DimensionType(java.util.OptionalLong fixedTime,boolean hasSkylight,boolean ultrawarm,boolean coordinateScale,boolean piglinSafe) { this.wrapperContained = new net.minecraft.world.dimension.DimensionType(fixedTime,hasSkylight,ultrawarm,coordinateScale,piglinSafe); }
+// public DimensionType(java.util.OptionalLong fixedTime,boolean hasSkylight,boolean hasCeiling,boolean ultrawarm,boolean natural,double coordinateScale,boolean bedWorks,boolean piglinSafe,int minY,int height,int logicalHeight,yarnwrap.registry.tag.TagKey infiniburn,yarnwrap.util.Identifier effects,float ambientLight,java.util.Optional cloudHeight,Object monsterSettings) { this.wrapperContained = new net.minecraft.world.dimension.DimensionType(fixedTime,hasSkylight,hasCeiling,ultrawarm,natural,coordinateScale,bedWorks,piglinSafe,minY,height,logicalHeight,infiniburn.wrapperContained,effects.wrapperContained,ambientLight,cloudHeight,monsterSettings); }
 // public boolean ultrawarm() { return wrapperContained.ultrawarm(); }
 // // public static boolean ultrawarm() { return net.minecraft.world.dimension.DimensionType.ultrawarm(); }
 // public yarnwrap.util.Identifier effects() { return new yarnwrap.util.Identifier(wrapperContained.effects()); }
 // // public static yarnwrap.util.Identifier effects() { return new yarnwrap.util.Identifier(net.minecraft.world.dimension.DimensionType.effects()); }
+// public Object monsterSettings() { return wrapperContained.monsterSettings(); }
+// // public static Object monsterSettings() { return net.minecraft.world.dimension.DimensionType.monsterSettings(); }
 // public java.nio.file.Path getSaveDirectory(yarnwrap.registry.RegistryKey worldRef,java.nio.file.Path worldDirectory) { return wrapperContained.getSaveDirectory(worldRef.wrapperContained,worldDirectory); }
 // public static java.nio.file.Path getSaveDirectory(yarnwrap.registry.RegistryKey worldRef,java.nio.file.Path worldDirectory, ) { return net.minecraft.world.dimension.DimensionType.getSaveDirectory(worldRef.wrapperContained,worldDirectory); }
-// public com.mojang.serialization.DataResult worldFromDimensionNbt(com.mojang.serialization.Dynamic nbt) { return wrapperContained.worldFromDimensionNbt(nbt); }
-// public static com.mojang.serialization.DataResult worldFromDimensionNbt(com.mojang.serialization.Dynamic nbt, ) { return net.minecraft.world.dimension.DimensionType.worldFromDimensionNbt(nbt); }
 // public com.mojang.datafixers.kinds.App method_28522(Object instance) { return wrapperContained.method_28522(instance); }
 // public static com.mojang.datafixers.kinds.App method_28522(Object instance, ) { return net.minecraft.world.dimension.DimensionType.method_28522(instance); }
 public float getSkyAngle(long time) { return wrapperContained.getSkyAngle(time); }

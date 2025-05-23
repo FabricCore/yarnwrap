@@ -27,8 +27,6 @@ public class TagCommand { public net.minecraft.server.command.TagCommand wrapper
 // public static int method_13703(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TagCommand.method_13703(context); }
 // public int method_13704(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13704(context); }
 // public static int method_13704(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.TagCommand.method_13704(context); }
-// public boolean method_13705(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13705(source.wrapperContained); }
-// public static boolean method_13705(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.TagCommand.method_13705(source.wrapperContained); }
 // public java.util.Collection getTags(java.util.Collection entities) { return wrapperContained.getTags(entities); }
 // public static java.util.Collection getTags(java.util.Collection entities, ) { return net.minecraft.server.command.TagCommand.getTags(entities); }
 

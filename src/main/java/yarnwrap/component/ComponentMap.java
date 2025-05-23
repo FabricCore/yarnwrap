@@ -15,18 +15,12 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.comp
 public static Object builder() { return net.minecraft.component.ComponentMap.builder(); }
 public yarnwrap.component.ComponentMap filtered(java.util.function.Predicate predicate) { return new yarnwrap.component.ComponentMap(wrapperContained.filtered(predicate)); }
 // public static yarnwrap.component.ComponentMap filtered(java.util.function.Predicate predicate, ) { return new yarnwrap.component.ComponentMap(net.minecraft.component.ComponentMap.filtered(predicate)); }
-public java.lang.Object get(yarnwrap.component.ComponentType type) { return wrapperContained.get(type.wrapperContained); }
-// public static java.lang.Object get(yarnwrap.component.ComponentType type, ) { return net.minecraft.component.ComponentMap.get(type.wrapperContained); }
-public java.lang.Object getOrDefault(yarnwrap.component.ComponentType type,java.lang.Object fallback) { return wrapperContained.getOrDefault(type.wrapperContained,fallback); }
-// public static java.lang.Object getOrDefault(yarnwrap.component.ComponentType type,java.lang.Object fallback, ) { return net.minecraft.component.ComponentMap.getOrDefault(type.wrapperContained,fallback); }
 public java.util.Set getTypes() { return wrapperContained.getTypes(); }
 // public static java.util.Set getTypes() { return net.minecraft.component.ComponentMap.getTypes(); }
 public boolean contains(yarnwrap.component.ComponentType type) { return wrapperContained.contains(type.wrapperContained); }
 // public static boolean contains(yarnwrap.component.ComponentType type, ) { return net.minecraft.component.ComponentMap.contains(type.wrapperContained); }
 public java.util.stream.Stream stream() { return wrapperContained.stream(); }
 // public static java.util.stream.Stream stream() { return net.minecraft.component.ComponentMap.stream(); }
-public yarnwrap.component.Component copy(yarnwrap.component.ComponentType type) { return new yarnwrap.component.Component(wrapperContained.copy(type.wrapperContained)); }
-// public static yarnwrap.component.Component copy(yarnwrap.component.ComponentType type, ) { return new yarnwrap.component.Component(net.minecraft.component.ComponentMap.copy(type.wrapperContained)); }
 public int size() { return wrapperContained.size(); }
 // public static int size() { return net.minecraft.component.ComponentMap.size(); }
 // public yarnwrap.component.Component method_57836(yarnwrap.component.ComponentType type) { return new yarnwrap.component.Component(wrapperContained.method_57836(type.wrapperContained)); }

@@ -40,8 +40,8 @@ public void serialize(yarnwrap.entity.player.PlayerInventory playerInventory,yar
 // public static boolean isEmpty(com.mojang.serialization.Dynamic stack, ) { return net.minecraft.client.option.HotbarStorageEntry.isEmpty(stack); }
 // public java.util.List method_56838(yarnwrap.client.option.HotbarStorageEntry entry) { return wrapperContained.method_56838(entry.wrapperContained); }
 // public static java.util.List method_56838(yarnwrap.client.option.HotbarStorageEntry entry, ) { return net.minecraft.client.option.HotbarStorageEntry.method_56838(entry.wrapperContained); }
-// public java.util.List deserialize(Object registryLookup) { return wrapperContained.deserialize(registryLookup); }
-// public static java.util.List deserialize(Object registryLookup, ) { return net.minecraft.client.option.HotbarStorageEntry.deserialize(registryLookup); }
+// public java.util.List deserialize(Object registries) { return wrapperContained.deserialize(registries); }
+// public static java.util.List deserialize(Object registries, ) { return net.minecraft.client.option.HotbarStorageEntry.deserialize(registries); }
 // public yarnwrap.item.ItemStack method_56840(Object stack) { return new yarnwrap.item.ItemStack(wrapperContained.method_56840(stack)); }
 // public static yarnwrap.item.ItemStack method_56840(Object stack, ) { return new yarnwrap.item.ItemStack(net.minecraft.client.option.HotbarStorageEntry.method_56840(stack)); }
 // public void method_56841(java.lang.String error) { wrapperContained.method_56841(error); }

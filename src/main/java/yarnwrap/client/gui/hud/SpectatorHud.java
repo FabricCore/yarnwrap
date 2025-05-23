@@ -45,8 +45,6 @@ public void selectSlot(int slot) { wrapperContained.selectSlot(slot); }
 // public static void selectSlot(int slot, ) { net.minecraft.client.gui.hud.SpectatorHud.selectSlot(slot); }
 public void renderSpectatorMenu(yarnwrap.client.gui.DrawContext context) { wrapperContained.renderSpectatorMenu(context.wrapperContained); }
 // public static void renderSpectatorMenu(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.hud.SpectatorHud.renderSpectatorMenu(context.wrapperContained); }
-public void render(yarnwrap.client.gui.DrawContext context) { wrapperContained.render(context.wrapperContained); }
-// public static void render(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.hud.SpectatorHud.render(context.wrapperContained); }
 public boolean isOpen() { return wrapperContained.isOpen(); }
 // public static boolean isOpen() { return net.minecraft.client.gui.hud.SpectatorHud.isOpen(); }
 // public float getSpectatorMenuHeight() { return wrapperContained.getSpectatorMenuHeight(); }
@@ -55,5 +53,7 @@ public boolean isOpen() { return wrapperContained.isOpen(); }
 // public static void renderSpectatorCommand(yarnwrap.client.gui.DrawContext context,int slot,int x,float y,float height,yarnwrap.client.gui.hud.spectator.SpectatorMenuCommand command, ) { net.minecraft.client.gui.hud.SpectatorHud.renderSpectatorCommand(context.wrapperContained,slot,x,y,height,command.wrapperContained); }
 public void useSelectedCommand() { wrapperContained.useSelectedCommand(); }
 // public static void useSelectedCommand() { net.minecraft.client.gui.hud.SpectatorHud.useSelectedCommand(); }
+public void render(yarnwrap.client.gui.DrawContext context) { wrapperContained.render(context.wrapperContained); }
+// public static void render(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.hud.SpectatorHud.render(context.wrapperContained); }
 
 }

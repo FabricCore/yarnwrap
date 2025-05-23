@@ -14,8 +14,6 @@ public EntityProjectileOwnerFix(com.mojang.datafixers.schemas.Schema outputSchem
 // public static com.mojang.datafixers.Typed update(com.mojang.datafixers.Typed entityTyped,java.lang.String matchId,java.util.function.Function fixer, ) { return net.minecraft.datafixer.fix.EntityProjectileOwnerFix.update(entityTyped,matchId,fixer); }
 // public com.mojang.serialization.Dynamic moveNestedOwnerMostLeastToArray(com.mojang.serialization.Dynamic entityDynamic) { return wrapperContained.moveNestedOwnerMostLeastToArray(entityDynamic); }
 // public static com.mojang.serialization.Dynamic moveNestedOwnerMostLeastToArray(com.mojang.serialization.Dynamic entityDynamic, ) { return net.minecraft.datafixer.fix.EntityProjectileOwnerFix.moveNestedOwnerMostLeastToArray(entityDynamic); }
-// public com.mojang.serialization.Dynamic renamePotionToItem(com.mojang.serialization.Dynamic entityDynamic) { return wrapperContained.renamePotionToItem(entityDynamic); }
-// public static com.mojang.serialization.Dynamic renamePotionToItem(com.mojang.serialization.Dynamic entityDynamic, ) { return net.minecraft.datafixer.fix.EntityProjectileOwnerFix.renamePotionToItem(entityDynamic); }
 // public com.mojang.serialization.Dynamic moveOwnerToArray(com.mojang.serialization.Dynamic entityDynamic) { return wrapperContained.moveOwnerToArray(entityDynamic); }
 // public static com.mojang.serialization.Dynamic moveOwnerToArray(com.mojang.serialization.Dynamic entityDynamic, ) { return net.minecraft.datafixer.fix.EntityProjectileOwnerFix.moveOwnerToArray(entityDynamic); }
 

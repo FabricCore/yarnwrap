@@ -28,9 +28,9 @@ public void savePlayerData(yarnwrap.entity.player.PlayerEntity player) { wrapper
 // public static void savePlayerData(yarnwrap.entity.player.PlayerEntity player, ) { net.minecraft.world.PlayerSaveHandler.savePlayerData(player.wrapperContained); }
 // public void backupCorruptedPlayerData(yarnwrap.entity.player.PlayerEntity player,java.lang.String extension) { wrapperContained.backupCorruptedPlayerData(player.wrapperContained,extension); }
 // public static void backupCorruptedPlayerData(yarnwrap.entity.player.PlayerEntity player,java.lang.String extension, ) { net.minecraft.world.PlayerSaveHandler.backupCorruptedPlayerData(player.wrapperContained,extension); }
-// public yarnwrap.nbt.NbtCompound method_55788(yarnwrap.entity.player.PlayerEntity nbt) { return new yarnwrap.nbt.NbtCompound(wrapperContained.method_55788(nbt.wrapperContained)); }
-// public static yarnwrap.nbt.NbtCompound method_55788(yarnwrap.entity.player.PlayerEntity nbt, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.world.PlayerSaveHandler.method_55788(nbt.wrapperContained)); }
-public java.util.Optional loadPlayerData(yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.loadPlayerData(player.wrapperContained); }
-// public static java.util.Optional loadPlayerData(yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.world.PlayerSaveHandler.loadPlayerData(player.wrapperContained); }
+// public yarnwrap.storage.ReadView method_55788(yarnwrap.util.ErrorReporter nbt) { return new yarnwrap.storage.ReadView(wrapperContained.method_55788(nbt.wrapperContained)); }
+// public static yarnwrap.storage.ReadView method_55788(yarnwrap.util.ErrorReporter nbt, ) { return new yarnwrap.storage.ReadView(net.minecraft.world.PlayerSaveHandler.method_55788(nbt.wrapperContained)); }
+// public java.util.Optional loadPlayerData(yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.ErrorReporter errorReporter) { return wrapperContained.loadPlayerData(player.wrapperContained,errorReporter.wrapperContained); }
+// public static java.util.Optional loadPlayerData(yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.ErrorReporter errorReporter, ) { return net.minecraft.world.PlayerSaveHandler.loadPlayerData(player.wrapperContained,errorReporter.wrapperContained); }
 
 }

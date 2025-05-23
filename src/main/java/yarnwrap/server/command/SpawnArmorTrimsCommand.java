@@ -1,11 +1,6 @@
 package yarnwrap.server.command;
 public class SpawnArmorTrimsCommand { public net.minecraft.server.command.SpawnArmorTrimsCommand wrapperContained; public SpawnArmorTrimsCommand(net.minecraft.server.command.SpawnArmorTrimsCommand wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.Map ARMOR_PIECES() { return wrapperContained.ARMOR_PIECES; }
-// public void ARMOR_PIECES(java.util.Map value) { wrapperContained.ARMOR_PIECES = value; }
-// public static java.util.Map ARMOR_PIECES() { return net.minecraft.server.command.SpawnArmorTrimsCommand.ARMOR_PIECES; }
-// public static void ARMOR_PIECES(java.util.Map value, ) { net.minecraft.server.command.SpawnArmorTrimsCommand.ARMOR_PIECES = value; }
-
 // public java.util.List PATTERNS() { return wrapperContained.PATTERNS; }
 // public void PATTERNS(java.util.List value) { wrapperContained.PATTERNS = value; }
 // public static java.util.List PATTERNS() { return net.minecraft.server.command.SpawnArmorTrimsCommand.PATTERNS; }
@@ -26,23 +21,32 @@ public class SpawnArmorTrimsCommand { public net.minecraft.server.command.SpawnA
 // public static java.util.function.ToIntFunction MATERIAL_INDEX_GETTER() { return net.minecraft.server.command.SpawnArmorTrimsCommand.MATERIAL_INDEX_GETTER; }
 // public static void MATERIAL_INDEX_GETTER(java.util.function.ToIntFunction value, ) { net.minecraft.server.command.SpawnArmorTrimsCommand.MATERIAL_INDEX_GETTER = value; }
 
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType INVALID_PATTERN_EXCEPTION() { return wrapperContained.INVALID_PATTERN_EXCEPTION; }
+// public void INVALID_PATTERN_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.INVALID_PATTERN_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType INVALID_PATTERN_EXCEPTION() { return net.minecraft.server.command.SpawnArmorTrimsCommand.INVALID_PATTERN_EXCEPTION; }
+// public static void INVALID_PATTERN_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.SpawnArmorTrimsCommand.INVALID_PATTERN_EXCEPTION = value; }
+
 // public void register(com.mojang.brigadier.CommandDispatcher dispatcher) { wrapperContained.register(dispatcher); }
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.SpawnArmorTrimsCommand.register(dispatcher); }
 // public int method_48334(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_48334(context); }
 // public static int method_48334(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.method_48334(context); }
-// public boolean method_48335(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_48335(source.wrapperContained); }
-// public static boolean method_48335(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.method_48335(source.wrapperContained); }
+// public int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.player.PlayerEntity player,java.util.stream.Stream patterns) { return wrapperContained.execute(source.wrapperContained,player.wrapperContained,patterns); }
+// public static int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.player.PlayerEntity player,java.util.stream.Stream patterns, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.execute(source.wrapperContained,player.wrapperContained,patterns); }
+// public int method_67080(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_67080(context); }
+// public static int method_67080(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.method_67080(context); }
 // public int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.execute(source.wrapperContained,player.wrapperContained); }
 // public static int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.execute(source.wrapperContained,player.wrapperContained); }
-// public void method_48337(yarnwrap.util.collection.DefaultedList material) { wrapperContained.method_48337(material.wrapperContained); }
-// public static void method_48337(yarnwrap.util.collection.DefaultedList material, ) { net.minecraft.server.command.SpawnArmorTrimsCommand.method_48337(material.wrapperContained); }
-// public java.lang.Integer method_48338(yarnwrap.registry.Registry material) { return wrapperContained.method_48338(material.wrapperContained); }
-// public static java.lang.Integer method_48338(yarnwrap.registry.Registry material, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.method_48338(material.wrapperContained); }
-// public java.lang.Integer method_48339(yarnwrap.registry.Registry pattern) { return wrapperContained.method_48339(pattern.wrapperContained); }
-// public static java.lang.Integer method_48339(yarnwrap.registry.Registry pattern, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.method_48339(pattern.wrapperContained); }
-// public void method_48340(yarnwrap.registry.Registry pattern) { wrapperContained.method_48340(pattern.wrapperContained); }
-// public static void method_48340(yarnwrap.registry.Registry pattern, ) { net.minecraft.server.command.SpawnArmorTrimsCommand.method_48340(pattern.wrapperContained); }
-// public void method_48341(java.util.HashMap map) { wrapperContained.method_48341(map); }
-// public static void method_48341(java.util.HashMap map, ) { net.minecraft.server.command.SpawnArmorTrimsCommand.method_48341(map); }
+// public int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.player.PlayerEntity player,yarnwrap.registry.RegistryKey pattern) { return wrapperContained.execute(source.wrapperContained,player.wrapperContained,pattern.wrapperContained); }
+// public static int execute(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.player.PlayerEntity player,yarnwrap.registry.RegistryKey pattern, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.execute(source.wrapperContained,player.wrapperContained,pattern.wrapperContained); }
+// public com.mojang.brigadier.Message method_67083(java.lang.Object pattern) { return wrapperContained.method_67083(pattern); }
+// public static com.mojang.brigadier.Message method_67083(java.lang.Object pattern, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.method_67083(pattern); }
+// public void method_67084(java.util.List entry) { wrapperContained.method_67084(entry); }
+// public static void method_67084(java.util.List entry, ) { net.minecraft.server.command.SpawnArmorTrimsCommand.method_67084(entry); }
+// public java.lang.Integer method_67085(Object material) { return wrapperContained.method_67085(material); }
+// public static java.lang.Integer method_67085(Object material, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.method_67085(material); }
+// public java.util.List getArmorItems(yarnwrap.registry.RegistryWrapper itemRegistry) { return wrapperContained.getArmorItems(itemRegistry.wrapperContained); }
+// public static java.util.List getArmorItems(yarnwrap.registry.RegistryWrapper itemRegistry, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.getArmorItems(itemRegistry.wrapperContained); }
+// public java.lang.Integer method_67087(Object pattern) { return wrapperContained.method_67087(pattern); }
+// public static java.lang.Integer method_67087(Object pattern, ) { return net.minecraft.server.command.SpawnArmorTrimsCommand.method_67087(pattern); }
 
 }

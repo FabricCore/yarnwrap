@@ -1,11 +1,6 @@
 package yarnwrap.entity.ai.brain.task;
 public class BreezeShootTask { public net.minecraft.entity.ai.brain.task.BreezeShootTask wrapperContained; public BreezeShootTask(net.minecraft.entity.ai.brain.task.BreezeShootTask wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int MIN_SQUARED_RANGE() { return wrapperContained.MIN_SQUARED_RANGE; }
-// public void MIN_SQUARED_RANGE(int value) { wrapperContained.MIN_SQUARED_RANGE = value; }
-// public static int MIN_SQUARED_RANGE() { return net.minecraft.entity.ai.brain.task.BreezeShootTask.MIN_SQUARED_RANGE; }
-// public static void MIN_SQUARED_RANGE(int value, ) { net.minecraft.entity.ai.brain.task.BreezeShootTask.MIN_SQUARED_RANGE = value; }
-
 // public int MAX_SQUARED_RANGE() { return wrapperContained.MAX_SQUARED_RANGE; }
 // public void MAX_SQUARED_RANGE(int value) { wrapperContained.MAX_SQUARED_RANGE = value; }
 // public static int MAX_SQUARED_RANGE() { return net.minecraft.entity.ai.brain.task.BreezeShootTask.MAX_SQUARED_RANGE; }
@@ -41,8 +36,6 @@ public class BreezeShootTask { public net.minecraft.entity.ai.brain.task.BreezeS
 // public static int SHOOT_COOLDOWN_EXPIRY() { return net.minecraft.entity.ai.brain.task.BreezeShootTask.SHOOT_COOLDOWN_EXPIRY; }
 // public static void SHOOT_COOLDOWN_EXPIRY(int value, ) { net.minecraft.entity.ai.brain.task.BreezeShootTask.SHOOT_COOLDOWN_EXPIRY = value; }
 
-// public boolean isFacingTarget(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.entity.LivingEntity target) { return wrapperContained.isFacingTarget(breeze.wrapperContained,target.wrapperContained); }
-// public static boolean isFacingTarget(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.entity.LivingEntity target, ) { return net.minecraft.entity.ai.brain.task.BreezeShootTask.isFacingTarget(breeze.wrapperContained,target.wrapperContained); }
 // public java.lang.Boolean method_55039(yarnwrap.entity.mob.BreezeEntity withinRange) { return wrapperContained.method_55039(withinRange.wrapperContained); }
 // public static java.lang.Boolean method_55039(yarnwrap.entity.mob.BreezeEntity withinRange, ) { return net.minecraft.entity.ai.brain.task.BreezeShootTask.method_55039(withinRange.wrapperContained); }
 // public boolean isTargetWithinRange(yarnwrap.entity.mob.BreezeEntity breeze,yarnwrap.entity.LivingEntity target) { return wrapperContained.isTargetWithinRange(breeze.wrapperContained,target.wrapperContained); }

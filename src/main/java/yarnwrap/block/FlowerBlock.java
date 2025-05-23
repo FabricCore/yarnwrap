@@ -27,5 +27,7 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static yarnwrap.component.type.SuspiciousStewEffectsComponent createStewEffectList(yarnwrap.registry.entry.RegistryEntry effect,float effectLengthInSeconds, ) { return new yarnwrap.component.type.SuspiciousStewEffectsComponent(net.minecraft.block.FlowerBlock.createStewEffectList(effect.wrapperContained,effectLengthInSeconds)); }
 // public com.mojang.datafixers.kinds.App method_54016(Object instance) { return wrapperContained.method_54016(instance); }
 // public static com.mojang.datafixers.kinds.App method_54016(Object instance, ) { return net.minecraft.block.FlowerBlock.method_54016(instance); }
+public yarnwrap.entity.effect.StatusEffectInstance getContactEffect() { return new yarnwrap.entity.effect.StatusEffectInstance(wrapperContained.getContactEffect()); }
+// public static yarnwrap.entity.effect.StatusEffectInstance getContactEffect() { return new yarnwrap.entity.effect.StatusEffectInstance(net.minecraft.block.FlowerBlock.getContactEffect()); }
 
 }

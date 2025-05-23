@@ -11,6 +11,14 @@ public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType EXCEPTI
 public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType EXCEPTION_SWAPPED() { return net.minecraft.predicate.NumberRange.EXCEPTION_SWAPPED; }
 // public static void EXCEPTION_SWAPPED(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value, ) { net.minecraft.predicate.NumberRange.EXCEPTION_SWAPPED = value; }
 
+// // public java.util.Optional fromStringReader(com.mojang.brigadier.StringReader reader,java.util.function.Function converter,java.util.function.Supplier exceptionTypeSupplier) { return wrapperContained.fromStringReader(reader,converter,exceptionTypeSupplier); }
+// public static java.util.Optional fromStringReader(com.mojang.brigadier.StringReader reader,java.util.function.Function converter,java.util.function.Supplier exceptionTypeSupplier, ) { return net.minecraft.predicate.NumberRange.fromStringReader(reader,converter,exceptionTypeSupplier); }
+// // public boolean isNextCharValid(com.mojang.brigadier.StringReader reader) { return wrapperContained.isNextCharValid(reader); }
+// public static boolean isNextCharValid(com.mojang.brigadier.StringReader reader, ) { return net.minecraft.predicate.NumberRange.isNextCharValid(reader); }
+public boolean isDummy() { return wrapperContained.isDummy(); }
+// public static boolean isDummy() { return net.minecraft.predicate.NumberRange.isDummy(); }
+// public yarnwrap.predicate.NumberRange parse(com.mojang.brigadier.StringReader commandReader,Object commandFactory,java.util.function.Function converter,java.util.function.Supplier exceptionTypeSupplier,java.util.function.Function mapper) { return new yarnwrap.predicate.NumberRange(wrapperContained.parse(commandReader,commandFactory,converter,exceptionTypeSupplier,mapper)); }
+// public static yarnwrap.predicate.NumberRange parse(com.mojang.brigadier.StringReader commandReader,Object commandFactory,java.util.function.Function converter,java.util.function.Supplier exceptionTypeSupplier,java.util.function.Function mapper, ) { return new yarnwrap.predicate.NumberRange(net.minecraft.predicate.NumberRange.parse(commandReader,commandFactory,converter,exceptionTypeSupplier,mapper)); }
 // public yarnwrap.predicate.NumberRange method_53188(Object either) { return new yarnwrap.predicate.NumberRange(wrapperContained.method_53188(either)); }
 // public static yarnwrap.predicate.NumberRange method_53188(Object either, ) { return new yarnwrap.predicate.NumberRange(net.minecraft.predicate.NumberRange.method_53188(either)); }
 // public yarnwrap.predicate.NumberRange method_53189(Object value) { return new yarnwrap.predicate.NumberRange(wrapperContained.method_53189(value)); }
@@ -25,13 +33,7 @@ public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType EXCEPTI
 // public static yarnwrap.predicate.NumberRange method_53193(yarnwrap.predicate.NumberRange range, ) { return new yarnwrap.predicate.NumberRange(net.minecraft.predicate.NumberRange.method_53193(range.wrapperContained)); }
 public java.util.Optional getConstantValue() { return wrapperContained.getConstantValue(); }
 // public static java.util.Optional getConstantValue() { return net.minecraft.predicate.NumberRange.getConstantValue(); }
-// // public java.util.Optional fromStringReader(com.mojang.brigadier.StringReader reader,java.util.function.Function converter,java.util.function.Supplier exceptionTypeSupplier) { return wrapperContained.fromStringReader(reader,converter,exceptionTypeSupplier); }
-// public static java.util.Optional fromStringReader(com.mojang.brigadier.StringReader reader,java.util.function.Function converter,java.util.function.Supplier exceptionTypeSupplier, ) { return net.minecraft.predicate.NumberRange.fromStringReader(reader,converter,exceptionTypeSupplier); }
-// // public boolean isNextCharValid(com.mojang.brigadier.StringReader reader) { return wrapperContained.isNextCharValid(reader); }
-// public static boolean isNextCharValid(com.mojang.brigadier.StringReader reader, ) { return net.minecraft.predicate.NumberRange.isNextCharValid(reader); }
-public boolean isDummy() { return wrapperContained.isDummy(); }
-// public static boolean isDummy() { return net.minecraft.predicate.NumberRange.isDummy(); }
-// public yarnwrap.predicate.NumberRange parse(com.mojang.brigadier.StringReader commandReader,Object commandFactory,java.util.function.Function converter,java.util.function.Supplier exceptionTypeSupplier,java.util.function.Function mapper) { return new yarnwrap.predicate.NumberRange(wrapperContained.parse(commandReader,commandFactory,converter,exceptionTypeSupplier,mapper)); }
-// public static yarnwrap.predicate.NumberRange parse(com.mojang.brigadier.StringReader commandReader,Object commandFactory,java.util.function.Function converter,java.util.function.Supplier exceptionTypeSupplier,java.util.function.Function mapper, ) { return new yarnwrap.predicate.NumberRange(net.minecraft.predicate.NumberRange.parse(commandReader,commandFactory,converter,exceptionTypeSupplier,mapper)); }
+// public yarnwrap.network.codec.PacketCodec createPacketCodec(yarnwrap.network.codec.PacketCodec valuePacketCodec,Object rangeFactory) { return new yarnwrap.network.codec.PacketCodec(wrapperContained.createPacketCodec(valuePacketCodec.wrapperContained,rangeFactory)); }
+// public static yarnwrap.network.codec.PacketCodec createPacketCodec(yarnwrap.network.codec.PacketCodec valuePacketCodec,Object rangeFactory, ) { return new yarnwrap.network.codec.PacketCodec(net.minecraft.predicate.NumberRange.createPacketCodec(valuePacketCodec.wrapperContained,rangeFactory)); }
 
 }

@@ -6,6 +6,5 @@ public class EntityPufferfishRenameFix { public net.minecraft.datafixer.fix.Enti
 public static java.util.Map RENAMED_FISH() { return net.minecraft.datafixer.fix.EntityPufferfishRenameFix.RENAMED_FISH; }
 // public static void RENAMED_FISH(java.util.Map value, ) { net.minecraft.datafixer.fix.EntityPufferfishRenameFix.RENAMED_FISH = value; }
 
-public EntityPufferfishRenameFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityPufferfishRenameFix(outputSchema,changesType); }
 
 }

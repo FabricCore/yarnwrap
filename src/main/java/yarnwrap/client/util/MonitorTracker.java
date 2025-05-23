@@ -17,15 +17,15 @@ public class MonitorTracker { public net.minecraft.client.util.MonitorTracker wr
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.util.MonitorTracker.LOGGER = value; }
 
 public MonitorTracker(yarnwrap.client.util.MonitorFactory monitorFactory) { this.wrapperContained = new net.minecraft.client.util.MonitorTracker(monitorFactory.wrapperContained); }
-// public int clamp(int value,int min,int max) { return wrapperContained.clamp(value,min,max); }
-// public static int clamp(int value,int min,int max, ) { return net.minecraft.client.util.MonitorTracker.clamp(value,min,max); }
-public void stop() { wrapperContained.stop(); }
-// public static void stop() { net.minecraft.client.util.MonitorTracker.stop(); }
 public yarnwrap.client.util.Monitor getMonitor(long pointer) { return new yarnwrap.client.util.Monitor(wrapperContained.getMonitor(pointer)); }
 // public static yarnwrap.client.util.Monitor getMonitor(long pointer, ) { return new yarnwrap.client.util.Monitor(net.minecraft.client.util.MonitorTracker.getMonitor(pointer)); }
 public yarnwrap.client.util.Monitor getMonitor(yarnwrap.client.util.Window window) { return new yarnwrap.client.util.Monitor(wrapperContained.getMonitor(window.wrapperContained)); }
 // public static yarnwrap.client.util.Monitor getMonitor(yarnwrap.client.util.Window window, ) { return new yarnwrap.client.util.Monitor(net.minecraft.client.util.MonitorTracker.getMonitor(window.wrapperContained)); }
 // public void handleMonitorEvent(long monitor,int event) { wrapperContained.handleMonitorEvent(monitor,event); }
 // public static void handleMonitorEvent(long monitor,int event, ) { net.minecraft.client.util.MonitorTracker.handleMonitorEvent(monitor,event); }
+// public int clamp(int value,int min,int max) { return wrapperContained.clamp(value,min,max); }
+// public static int clamp(int value,int min,int max, ) { return net.minecraft.client.util.MonitorTracker.clamp(value,min,max); }
+public void stop() { wrapperContained.stop(); }
+// public static void stop() { net.minecraft.client.util.MonitorTracker.stop(); }
 
 }

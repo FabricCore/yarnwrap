@@ -1,11 +1,6 @@
 package yarnwrap.client.tutorial;
 public class CraftPlanksTutorialStepHandler { public net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler wrapperContained; public CraftPlanksTutorialStepHandler(net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int DELAY() { return wrapperContained.DELAY; }
-// public void DELAY(int value) { wrapperContained.DELAY = value; }
-// public static int DELAY() { return net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler.DELAY; }
-// public static void DELAY(int value, ) { net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler.DELAY = value; }
-
 // public yarnwrap.client.tutorial.TutorialManager manager() { return new yarnwrap.client.tutorial.TutorialManager(wrapperContained.manager); }
 // public void manager(yarnwrap.client.tutorial.TutorialManager value) { wrapperContained.manager = value.wrapperContained; }
 // public static yarnwrap.client.tutorial.TutorialManager manager() { return new yarnwrap.client.tutorial.TutorialManager(net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler.manager); }
@@ -30,6 +25,11 @@ public class CraftPlanksTutorialStepHandler { public net.minecraft.client.tutori
 // public void DESCRIPTION(yarnwrap.text.Text value) { wrapperContained.DESCRIPTION = value.wrapperContained; }
 // public static yarnwrap.text.Text DESCRIPTION() { return new yarnwrap.text.Text(net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler.DESCRIPTION); }
 // public static void DESCRIPTION(yarnwrap.text.Text value, ) { net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler.DESCRIPTION = value.wrapperContained; }
+
+// public int DELAY() { return wrapperContained.DELAY; }
+// public void DELAY(int value) { wrapperContained.DELAY = value; }
+// public static int DELAY() { return net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler.DELAY; }
+// public static void DELAY(int value, ) { net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler.DELAY = value; }
 
 public CraftPlanksTutorialStepHandler(yarnwrap.client.tutorial.TutorialManager manager) { this.wrapperContained = new net.minecraft.client.tutorial.CraftPlanksTutorialStepHandler(manager.wrapperContained); }
 // public boolean hasCrafted(yarnwrap.client.network.ClientPlayerEntity player,yarnwrap.registry.tag.TagKey tag) { return wrapperContained.hasCrafted(player.wrapperContained,tag.wrapperContained); }

@@ -26,11 +26,6 @@ public class ChunkLightProvider { public net.minecraft.world.chunk.light.ChunkLi
 // public static net.minecraft.world.chunk.light.LightSourceView[] cachedChunks() { return net.minecraft.world.chunk.light.ChunkLightProvider.cachedChunks; }
 // public static void cachedChunks(net.minecraft.world.chunk.light.LightSourceView[] value, ) { net.minecraft.world.chunk.light.ChunkLightProvider.cachedChunks = value; }
 
-// public Object reusableBlockPos() { return wrapperContained.reusableBlockPos; }
-// // public void reusableBlockPos(Object value) { wrapperContained.reusableBlockPos = value; }
-// // public static Object reusableBlockPos() { return net.minecraft.world.chunk.light.ChunkLightProvider.reusableBlockPos; }
-// // public static void reusableBlockPos(Object value, ) { net.minecraft.world.chunk.light.ChunkLightProvider.reusableBlockPos = value; }
-
 // public it.unimi.dsi.fastutil.longs.LongOpenHashSet blockPositionsToCheck() { return wrapperContained.blockPositionsToCheck; }
 // public void blockPositionsToCheck(it.unimi.dsi.fastutil.longs.LongOpenHashSet value) { wrapperContained.blockPositionsToCheck = value; }
 // public static it.unimi.dsi.fastutil.longs.LongOpenHashSet blockPositionsToCheck() { return net.minecraft.world.chunk.light.ChunkLightProvider.blockPositionsToCheck; }
@@ -43,30 +38,28 @@ public void enqueueSectionData(long sectionPos,yarnwrap.world.chunk.ChunkNibbleA
 // public static yarnwrap.world.chunk.light.LightSourceView getChunk(int chunkX,int chunkZ, ) { return new yarnwrap.world.chunk.light.LightSourceView(net.minecraft.world.chunk.light.ChunkLightProvider.getChunk(chunkX,chunkZ)); }
 // public void clearChunkCache() { wrapperContained.clearChunkCache(); }
 // public static void clearChunkCache() { net.minecraft.world.chunk.light.ChunkLightProvider.clearChunkCache(); }
-// public int getRealisticOpacity(yarnwrap.world.BlockView world,yarnwrap.block.BlockState state1,yarnwrap.util.math.BlockPos pos1,yarnwrap.block.BlockState state2,yarnwrap.util.math.BlockPos pos2,yarnwrap.util.math.Direction direction,int opacity2) { return wrapperContained.getRealisticOpacity(world.wrapperContained,state1.wrapperContained,pos1.wrapperContained,state2.wrapperContained,pos2.wrapperContained,direction.wrapperContained,opacity2); }
-// public static int getRealisticOpacity(yarnwrap.world.BlockView world,yarnwrap.block.BlockState state1,yarnwrap.util.math.BlockPos pos1,yarnwrap.block.BlockState state2,yarnwrap.util.math.BlockPos pos2,yarnwrap.util.math.Direction direction,int opacity2, ) { return net.minecraft.world.chunk.light.ChunkLightProvider.getRealisticOpacity(world.wrapperContained,state1.wrapperContained,pos1.wrapperContained,state2.wrapperContained,pos2.wrapperContained,direction.wrapperContained,opacity2); }
+// public int getRealisticOpacity(yarnwrap.block.BlockState state1,yarnwrap.block.BlockState state2,yarnwrap.util.math.Direction direction,int opacity2) { return wrapperContained.getRealisticOpacity(state1.wrapperContained,state2.wrapperContained,direction.wrapperContained,opacity2); }
+// public static int getRealisticOpacity(yarnwrap.block.BlockState state1,yarnwrap.block.BlockState state2,yarnwrap.util.math.Direction direction,int opacity2, ) { return net.minecraft.world.chunk.light.ChunkLightProvider.getRealisticOpacity(state1.wrapperContained,state2.wrapperContained,direction.wrapperContained,opacity2); }
 public void setRetainColumn(yarnwrap.util.math.ChunkPos pos,boolean retainData) { wrapperContained.setRetainColumn(pos.wrapperContained,retainData); }
 // public static void setRetainColumn(yarnwrap.util.math.ChunkPos pos,boolean retainData, ) { net.minecraft.world.chunk.light.ChunkLightProvider.setRetainColumn(pos.wrapperContained,retainData); }
-// public yarnwrap.util.shape.VoxelShape getOpaqueShape(yarnwrap.block.BlockState blockState,long pos,yarnwrap.util.math.Direction direction) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getOpaqueShape(blockState.wrapperContained,pos,direction.wrapperContained)); }
-// public static yarnwrap.util.shape.VoxelShape getOpaqueShape(yarnwrap.block.BlockState blockState,long pos,yarnwrap.util.math.Direction direction, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.world.chunk.light.ChunkLightProvider.getOpaqueShape(blockState.wrapperContained,pos,direction.wrapperContained)); }
 public java.lang.String displaySectionLevel(long sectionPos) { return wrapperContained.displaySectionLevel(sectionPos); }
 // public static java.lang.String displaySectionLevel(long sectionPos, ) { return net.minecraft.world.chunk.light.ChunkLightProvider.displaySectionLevel(sectionPos); }
-// public boolean shapesCoverFullCube(long sourceId,yarnwrap.block.BlockState sourceState,long targetId,yarnwrap.block.BlockState targetState,yarnwrap.util.math.Direction direction) { return wrapperContained.shapesCoverFullCube(sourceId,sourceState.wrapperContained,targetId,targetState.wrapperContained,direction.wrapperContained); }
-// public static boolean shapesCoverFullCube(long sourceId,yarnwrap.block.BlockState sourceState,long targetId,yarnwrap.block.BlockState targetState,yarnwrap.util.math.Direction direction, ) { return net.minecraft.world.chunk.light.ChunkLightProvider.shapesCoverFullCube(sourceId,sourceState.wrapperContained,targetId,targetState.wrapperContained,direction.wrapperContained); }
-// public int getOpacity(yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos) { return wrapperContained.getOpacity(state.wrapperContained,pos.wrapperContained); }
-// public static int getOpacity(yarnwrap.block.BlockState state,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.chunk.light.ChunkLightProvider.getOpacity(state.wrapperContained,pos.wrapperContained); }
+// public boolean shapesCoverFullCube(yarnwrap.block.BlockState source,yarnwrap.block.BlockState target,yarnwrap.util.math.Direction direction) { return wrapperContained.shapesCoverFullCube(source.wrapperContained,target.wrapperContained,direction.wrapperContained); }
+// public static boolean shapesCoverFullCube(yarnwrap.block.BlockState source,yarnwrap.block.BlockState target,yarnwrap.util.math.Direction direction, ) { return net.minecraft.world.chunk.light.ChunkLightProvider.shapesCoverFullCube(source.wrapperContained,target.wrapperContained,direction.wrapperContained); }
+// public int getOpacity(yarnwrap.block.BlockState state) { return wrapperContained.getOpacity(state.wrapperContained); }
+// public static int getOpacity(yarnwrap.block.BlockState state, ) { return net.minecraft.world.chunk.light.ChunkLightProvider.getOpacity(state.wrapperContained); }
 // public yarnwrap.block.BlockState getStateForLighting(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getStateForLighting(pos.wrapperContained)); }
 // public static yarnwrap.block.BlockState getStateForLighting(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.block.BlockState(net.minecraft.world.chunk.light.ChunkLightProvider.getStateForLighting(pos.wrapperContained)); }
 // public void method_51529(long blockPos) { wrapperContained.method_51529(blockPos); }
 // public static void method_51529(long blockPos, ) { net.minecraft.world.chunk.light.ChunkLightProvider.method_51529(blockPos); }
-// public void method_51530(long blockPos) { wrapperContained.method_51530(blockPos); }
-// public static void method_51530(long blockPos, ) { net.minecraft.world.chunk.light.ChunkLightProvider.method_51530(blockPos); }
-// public void method_51531(long blockPos,long lightLevel) { wrapperContained.method_51531(blockPos,lightLevel); }
-// public static void method_51531(long blockPos,long lightLevel, ) { net.minecraft.world.chunk.light.ChunkLightProvider.method_51531(blockPos,lightLevel); }
-// public boolean needsLightUpdate(yarnwrap.world.BlockView blockView,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState oldState,yarnwrap.block.BlockState newState) { return wrapperContained.needsLightUpdate(blockView.wrapperContained,pos.wrapperContained,oldState.wrapperContained,newState.wrapperContained); }
-// public static boolean needsLightUpdate(yarnwrap.world.BlockView blockView,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState oldState,yarnwrap.block.BlockState newState, ) { return net.minecraft.world.chunk.light.ChunkLightProvider.needsLightUpdate(blockView.wrapperContained,pos.wrapperContained,oldState.wrapperContained,newState.wrapperContained); }
-// public yarnwrap.util.shape.VoxelShape getOpaqueShape(yarnwrap.world.BlockView blockView,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState blockState,yarnwrap.util.math.Direction direction) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getOpaqueShape(blockView.wrapperContained,pos.wrapperContained,blockState.wrapperContained,direction.wrapperContained)); }
-// public static yarnwrap.util.shape.VoxelShape getOpaqueShape(yarnwrap.world.BlockView blockView,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState blockState,yarnwrap.util.math.Direction direction, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.world.chunk.light.ChunkLightProvider.getOpaqueShape(blockView.wrapperContained,pos.wrapperContained,blockState.wrapperContained,direction.wrapperContained)); }
+// public void method_51530(long blockPos,long packed) { wrapperContained.method_51530(blockPos,packed); }
+// public static void method_51530(long blockPos,long packed, ) { net.minecraft.world.chunk.light.ChunkLightProvider.method_51530(blockPos,packed); }
+// public void method_51531(long blockPos,long packed,int lightLevel) { wrapperContained.method_51531(blockPos,packed,lightLevel); }
+// public static void method_51531(long blockPos,long packed,int lightLevel, ) { net.minecraft.world.chunk.light.ChunkLightProvider.method_51531(blockPos,packed,lightLevel); }
+// public boolean needsLightUpdate(yarnwrap.block.BlockState oldState,yarnwrap.block.BlockState newState) { return wrapperContained.needsLightUpdate(oldState.wrapperContained,newState.wrapperContained); }
+// public static boolean needsLightUpdate(yarnwrap.block.BlockState oldState,yarnwrap.block.BlockState newState, ) { return net.minecraft.world.chunk.light.ChunkLightProvider.needsLightUpdate(oldState.wrapperContained,newState.wrapperContained); }
+// public yarnwrap.util.shape.VoxelShape getOpaqueShape(yarnwrap.block.BlockState state,yarnwrap.util.math.Direction direction) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getOpaqueShape(state.wrapperContained,direction.wrapperContained)); }
+// public static yarnwrap.util.shape.VoxelShape getOpaqueShape(yarnwrap.block.BlockState state,yarnwrap.util.math.Direction direction, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.world.chunk.light.ChunkLightProvider.getOpaqueShape(state.wrapperContained,direction.wrapperContained)); }
 // public boolean isTrivialForLighting(yarnwrap.block.BlockState blockState) { return wrapperContained.isTrivialForLighting(blockState.wrapperContained); }
 // public static boolean isTrivialForLighting(yarnwrap.block.BlockState blockState, ) { return net.minecraft.world.chunk.light.ChunkLightProvider.isTrivialForLighting(blockState.wrapperContained); }
 // public void method_51565(long blockPos,long flags) { wrapperContained.method_51565(blockPos,flags); }

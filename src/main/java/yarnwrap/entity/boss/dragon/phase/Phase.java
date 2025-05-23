@@ -19,8 +19,8 @@ public void clientTick() { wrapperContained.clientTick(); }
 // public static void clientTick() { net.minecraft.entity.boss.dragon.phase.Phase.clientTick(); }
 public void endPhase() { wrapperContained.endPhase(); }
 // public static void endPhase() { net.minecraft.entity.boss.dragon.phase.Phase.endPhase(); }
-public void serverTick() { wrapperContained.serverTick(); }
-// public static void serverTick() { net.minecraft.entity.boss.dragon.phase.Phase.serverTick(); }
+public void serverTick(yarnwrap.server.world.ServerWorld world) { wrapperContained.serverTick(world.wrapperContained); }
+// public static void serverTick(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.entity.boss.dragon.phase.Phase.serverTick(world.wrapperContained); }
 public void beginPhase() { wrapperContained.beginPhase(); }
 // public static void beginPhase() { net.minecraft.entity.boss.dragon.phase.Phase.beginPhase(); }
 

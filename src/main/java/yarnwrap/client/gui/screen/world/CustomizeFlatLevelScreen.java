@@ -1,11 +1,6 @@
 package yarnwrap.client.gui.screen.world;
 public class CustomizeFlatLevelScreen { public net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen wrapperContained; public CustomizeFlatLevelScreen(net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.text.Text tileText() { return new yarnwrap.text.Text(wrapperContained.tileText); }
-// public void tileText(yarnwrap.text.Text value) { wrapperContained.tileText = value.wrapperContained; }
-// public static yarnwrap.text.Text tileText() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.tileText); }
-// public static void tileText(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.tileText = value.wrapperContained; }
-
 // public yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config() { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(wrapperContained.config); }
 // public void config(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig value) { wrapperContained.config = value.wrapperContained; }
 // public static yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config() { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.config); }
@@ -25,11 +20,6 @@ public class CustomizeFlatLevelScreen { public net.minecraft.client.gui.screen.w
 // // public void layers(Object value) { wrapperContained.layers = value; }
 // // public static Object layers() { return net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.layers; }
 // // public static void layers(Object value, ) { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.layers = value; }
-
-// public yarnwrap.text.Text heightText() { return new yarnwrap.text.Text(wrapperContained.heightText); }
-// public void heightText(yarnwrap.text.Text value) { wrapperContained.heightText = value.wrapperContained; }
-// public static yarnwrap.text.Text heightText() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.heightText); }
-// public static void heightText(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.heightText = value.wrapperContained; }
 
 // public java.util.function.Consumer configConsumer() { return wrapperContained.configConsumer; }
 // public void configConsumer(java.util.function.Consumer value) { wrapperContained.configConsumer = value; }
@@ -71,7 +61,21 @@ public class CustomizeFlatLevelScreen { public net.minecraft.client.gui.screen.w
 // public static yarnwrap.util.Identifier SLOT_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.SLOT_TEXTURE); }
 // public static void SLOT_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.SLOT_TEXTURE = value.wrapperContained; }
 
+// public yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(wrapperContained.TITLE); }
+// public void TITLE(yarnwrap.text.Text value) { wrapperContained.TITLE = value.wrapperContained; }
+// public static yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.TITLE); }
+// public static void TITLE(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.TITLE = value.wrapperContained; }
+
+// public yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(wrapperContained.layout); }
+// public void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value) { wrapperContained.layout = value.wrapperContained; }
+// public static yarnwrap.client.gui.widget.ThreePartsLayoutWidget layout() { return new yarnwrap.client.gui.widget.ThreePartsLayoutWidget(net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.layout); }
+// public static void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value, ) { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.layout = value.wrapperContained; }
+
 public CustomizeFlatLevelScreen(yarnwrap.client.gui.screen.world.CreateWorldScreen parent,java.util.function.Consumer configConsumer,yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config) { this.wrapperContained = new net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen(parent.wrapperContained,configConsumer,config.wrapperContained); }
+// public void updateRemoveLayerButton() { wrapperContained.updateRemoveLayerButton(); }
+// public static void updateRemoveLayerButton() { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.updateRemoveLayerButton(); }
+// public boolean hasLayerSelected() { return wrapperContained.hasLayerSelected(); }
+// public static boolean hasLayerSelected() { return net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.hasLayerSelected(); }
 // public void method_19804(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19804(button.wrapperContained); }
 // public static void method_19804(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.method_19804(button.wrapperContained); }
 // public void method_19805(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19805(button.wrapperContained); }
@@ -80,10 +84,6 @@ public CustomizeFlatLevelScreen(yarnwrap.client.gui.screen.world.CreateWorldScre
 // public static void method_19806(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.method_19806(button.wrapperContained); }
 // public void method_20093(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_20093(button.wrapperContained); }
 // public static void method_20093(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.method_20093(button.wrapperContained); }
-// public void updateRemoveLayerButton() { wrapperContained.updateRemoveLayerButton(); }
-// public static void updateRemoveLayerButton() { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.updateRemoveLayerButton(); }
-// public boolean hasLayerSelected() { return wrapperContained.hasLayerSelected(); }
-// public static boolean hasLayerSelected() { return net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.hasLayerSelected(); }
 public void setConfig(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config) { wrapperContained.setConfig(config.wrapperContained); }
 // public static void setConfig(yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig config, ) { net.minecraft.client.gui.screen.world.CustomizeFlatLevelScreen.setConfig(config.wrapperContained); }
 public yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig getConfig() { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(wrapperContained.getConfig()); }

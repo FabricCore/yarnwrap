@@ -1,21 +1,6 @@
 package yarnwrap.client.network;
 public class LanServerPinger { public net.minecraft.client.network.LanServerPinger wrapperContained; public LanServerPinger(net.minecraft.client.network.LanServerPinger wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.lang.String PING_ADDRESS() { return wrapperContained.PING_ADDRESS; }
-// public void PING_ADDRESS(java.lang.String value) { wrapperContained.PING_ADDRESS = value; }
-public static java.lang.String PING_ADDRESS() { return net.minecraft.client.network.LanServerPinger.PING_ADDRESS; }
-// public static void PING_ADDRESS(java.lang.String value, ) { net.minecraft.client.network.LanServerPinger.PING_ADDRESS = value; }
-
-// public int PING_PORT() { return wrapperContained.PING_PORT; }
-// public void PING_PORT(int value) { wrapperContained.PING_PORT = value; }
-public static int PING_PORT() { return net.minecraft.client.network.LanServerPinger.PING_PORT; }
-// public static void PING_PORT(int value, ) { net.minecraft.client.network.LanServerPinger.PING_PORT = value; }
-
-// public long PING_INTERVAL() { return wrapperContained.PING_INTERVAL; }
-// public void PING_INTERVAL(long value) { wrapperContained.PING_INTERVAL = value; }
-// public static long PING_INTERVAL() { return net.minecraft.client.network.LanServerPinger.PING_INTERVAL; }
-// public static void PING_INTERVAL(long value, ) { net.minecraft.client.network.LanServerPinger.PING_INTERVAL = value; }
-
 // public java.util.concurrent.atomic.AtomicInteger THREAD_ID() { return wrapperContained.THREAD_ID; }
 // public void THREAD_ID(java.util.concurrent.atomic.AtomicInteger value) { wrapperContained.THREAD_ID = value; }
 // public static java.util.concurrent.atomic.AtomicInteger THREAD_ID() { return net.minecraft.client.network.LanServerPinger.THREAD_ID; }
@@ -45,6 +30,21 @@ public static int PING_PORT() { return net.minecraft.client.network.LanServerPin
 // public void addressPort(java.lang.String value) { wrapperContained.addressPort = value; }
 // public static java.lang.String addressPort() { return net.minecraft.client.network.LanServerPinger.addressPort; }
 // public static void addressPort(java.lang.String value, ) { net.minecraft.client.network.LanServerPinger.addressPort = value; }
+
+// public java.lang.String PING_ADDRESS() { return wrapperContained.PING_ADDRESS; }
+// public void PING_ADDRESS(java.lang.String value) { wrapperContained.PING_ADDRESS = value; }
+public static java.lang.String PING_ADDRESS() { return net.minecraft.client.network.LanServerPinger.PING_ADDRESS; }
+// public static void PING_ADDRESS(java.lang.String value, ) { net.minecraft.client.network.LanServerPinger.PING_ADDRESS = value; }
+
+// public int PING_PORT() { return wrapperContained.PING_PORT; }
+// public void PING_PORT(int value) { wrapperContained.PING_PORT = value; }
+public static int PING_PORT() { return net.minecraft.client.network.LanServerPinger.PING_PORT; }
+// public static void PING_PORT(int value, ) { net.minecraft.client.network.LanServerPinger.PING_PORT = value; }
+
+// public long PING_INTERVAL() { return wrapperContained.PING_INTERVAL; }
+// public void PING_INTERVAL(long value) { wrapperContained.PING_INTERVAL = value; }
+// public static long PING_INTERVAL() { return net.minecraft.client.network.LanServerPinger.PING_INTERVAL; }
+// public static void PING_INTERVAL(long value, ) { net.minecraft.client.network.LanServerPinger.PING_INTERVAL = value; }
 
 // public LanServerPinger(java.lang.String motd,java.lang.String addressPort) { this.wrapperContained = new net.minecraft.client.network.LanServerPinger(motd,addressPort); }
 // public java.lang.String createAnnouncement(java.lang.String motd,java.lang.String addressPort) { return wrapperContained.createAnnouncement(motd,addressPort); }

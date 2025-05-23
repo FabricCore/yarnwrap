@@ -1,11 +1,6 @@
 package yarnwrap.world;
 public class CommandBlockExecutor { public net.minecraft.world.CommandBlockExecutor wrapperContained; public CommandBlockExecutor(net.minecraft.world.CommandBlockExecutor wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.text.Text DEFAULT_NAME() { return new yarnwrap.text.Text(wrapperContained.DEFAULT_NAME); }
-// public void DEFAULT_NAME(yarnwrap.text.Text value) { wrapperContained.DEFAULT_NAME = value.wrapperContained; }
-// public static yarnwrap.text.Text DEFAULT_NAME() { return new yarnwrap.text.Text(net.minecraft.world.CommandBlockExecutor.DEFAULT_NAME); }
-// public static void DEFAULT_NAME(yarnwrap.text.Text value, ) { net.minecraft.world.CommandBlockExecutor.DEFAULT_NAME = value.wrapperContained; }
-
 // public yarnwrap.text.Text customName() { return new yarnwrap.text.Text(wrapperContained.customName); }
 // public void customName(yarnwrap.text.Text value) { wrapperContained.customName = value.wrapperContained; }
 // public static yarnwrap.text.Text customName() { return new yarnwrap.text.Text(net.minecraft.world.CommandBlockExecutor.customName); }
@@ -46,10 +41,16 @@ public class CommandBlockExecutor { public net.minecraft.world.CommandBlockExecu
 // public static java.text.SimpleDateFormat DATE_FORMAT() { return net.minecraft.world.CommandBlockExecutor.DATE_FORMAT; }
 // public static void DATE_FORMAT(java.text.SimpleDateFormat value, ) { net.minecraft.world.CommandBlockExecutor.DATE_FORMAT = value; }
 
-public boolean isEditable() { return wrapperContained.isEditable(); }
-// public static boolean isEditable() { return net.minecraft.world.CommandBlockExecutor.isEditable(); }
-public yarnwrap.text.Text getCustomNameNullable() { return new yarnwrap.text.Text(wrapperContained.getCustomNameNullable()); }
-// public static yarnwrap.text.Text getCustomNameNullable() { return new yarnwrap.text.Text(net.minecraft.world.CommandBlockExecutor.getCustomNameNullable()); }
+// public yarnwrap.text.Text DEFAULT_NAME() { return new yarnwrap.text.Text(wrapperContained.DEFAULT_NAME); }
+// public void DEFAULT_NAME(yarnwrap.text.Text value) { wrapperContained.DEFAULT_NAME = value.wrapperContained; }
+// public static yarnwrap.text.Text DEFAULT_NAME() { return new yarnwrap.text.Text(net.minecraft.world.CommandBlockExecutor.DEFAULT_NAME); }
+// public static void DEFAULT_NAME(yarnwrap.text.Text value, ) { net.minecraft.world.CommandBlockExecutor.DEFAULT_NAME = value.wrapperContained; }
+
+// public int DEFAULT_LAST_EXECUTION() { return wrapperContained.DEFAULT_LAST_EXECUTION; }
+// public void DEFAULT_LAST_EXECUTION(int value) { wrapperContained.DEFAULT_LAST_EXECUTION = value; }
+// public static int DEFAULT_LAST_EXECUTION() { return net.minecraft.world.CommandBlockExecutor.DEFAULT_LAST_EXECUTION; }
+// public static void DEFAULT_LAST_EXECUTION(int value, ) { net.minecraft.world.CommandBlockExecutor.DEFAULT_LAST_EXECUTION = value; }
+
 public void setCommand(java.lang.String command) { wrapperContained.setCommand(command); }
 // public static void setCommand(java.lang.String command, ) { net.minecraft.world.CommandBlockExecutor.setCommand(command); }
 public void setTrackOutput(boolean trackOutput) { wrapperContained.setTrackOutput(trackOutput); }
@@ -72,12 +73,12 @@ public void markDirty() { wrapperContained.markDirty(); }
 // public static void markDirty() { net.minecraft.world.CommandBlockExecutor.markDirty(); }
 public boolean isTrackingOutput() { return wrapperContained.isTrackingOutput(); }
 // public static boolean isTrackingOutput() { return net.minecraft.world.CommandBlockExecutor.isTrackingOutput(); }
-// public yarnwrap.nbt.NbtCompound writeNbt(yarnwrap.nbt.NbtCompound nbt,Object registries) { return new yarnwrap.nbt.NbtCompound(wrapperContained.writeNbt(nbt.wrapperContained,registries)); }
-// public static yarnwrap.nbt.NbtCompound writeNbt(yarnwrap.nbt.NbtCompound nbt,Object registries, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.world.CommandBlockExecutor.writeNbt(nbt.wrapperContained,registries)); }
+// public void writeData(yarnwrap.storage.WriteView view) { wrapperContained.writeData(view.wrapperContained); }
+// public static void writeData(yarnwrap.storage.WriteView view, ) { net.minecraft.world.CommandBlockExecutor.writeData(view.wrapperContained); }
 public void setSuccessCount(int successCount) { wrapperContained.setSuccessCount(successCount); }
 // public static void setSuccessCount(int successCount, ) { net.minecraft.world.CommandBlockExecutor.setSuccessCount(successCount); }
-public yarnwrap.text.Text getCustomName() { return new yarnwrap.text.Text(wrapperContained.getCustomName()); }
-// public static yarnwrap.text.Text getCustomName() { return new yarnwrap.text.Text(net.minecraft.world.CommandBlockExecutor.getCustomName()); }
+public yarnwrap.text.Text getName() { return new yarnwrap.text.Text(wrapperContained.getName()); }
+// public static yarnwrap.text.Text getName() { return new yarnwrap.text.Text(net.minecraft.world.CommandBlockExecutor.getName()); }
 public yarnwrap.util.math.Vec3d getPos() { return new yarnwrap.util.math.Vec3d(wrapperContained.getPos()); }
 // public static yarnwrap.util.math.Vec3d getPos() { return new yarnwrap.util.math.Vec3d(net.minecraft.world.CommandBlockExecutor.getPos()); }
 public boolean execute(yarnwrap.world.World world) { return wrapperContained.execute(world.wrapperContained); }
@@ -86,7 +87,11 @@ public yarnwrap.server.command.ServerCommandSource getSource() { return new yarn
 // public static yarnwrap.server.command.ServerCommandSource getSource() { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.world.CommandBlockExecutor.getSource()); }
 public int getSuccessCount() { return wrapperContained.getSuccessCount(); }
 // public static int getSuccessCount() { return net.minecraft.world.CommandBlockExecutor.getSuccessCount(); }
-// public void readNbt(yarnwrap.nbt.NbtCompound nbt,Object registries) { wrapperContained.readNbt(nbt.wrapperContained,registries); }
-// public static void readNbt(yarnwrap.nbt.NbtCompound nbt,Object registries, ) { net.minecraft.world.CommandBlockExecutor.readNbt(nbt.wrapperContained,registries); }
+// public void readData(yarnwrap.storage.ReadView view) { wrapperContained.readData(view.wrapperContained); }
+// public static void readData(yarnwrap.storage.ReadView view, ) { net.minecraft.world.CommandBlockExecutor.readData(view.wrapperContained); }
+public boolean isEditable() { return wrapperContained.isEditable(); }
+// public static boolean isEditable() { return net.minecraft.world.CommandBlockExecutor.isEditable(); }
+public yarnwrap.text.Text getCustomName() { return new yarnwrap.text.Text(wrapperContained.getCustomName()); }
+// public static yarnwrap.text.Text getCustomName() { return new yarnwrap.text.Text(net.minecraft.world.CommandBlockExecutor.getCustomName()); }
 
 }

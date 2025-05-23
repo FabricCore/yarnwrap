@@ -60,5 +60,7 @@ public boolean contains(int x,int y,int z) { return wrapperContained.contains(x,
 // public static void forEachEdge(Object callback,boolean coalesce, ) { net.minecraft.util.shape.VoxelSet.forEachEdge(callback,coalesce); }
 // public int getStartingAxisCoord(Object axis,int from,int to) { return wrapperContained.getStartingAxisCoord(axis,from,to); }
 // public static int getStartingAxisCoord(Object axis,int from,int to, ) { return net.minecraft.util.shape.VoxelSet.getStartingAxisCoord(axis,from,to); }
+public yarnwrap.util.shape.VoxelSet transform(yarnwrap.util.math.DirectionTransformation transformation) { return new yarnwrap.util.shape.VoxelSet(wrapperContained.transform(transformation.wrapperContained)); }
+// public static yarnwrap.util.shape.VoxelSet transform(yarnwrap.util.math.DirectionTransformation transformation, ) { return new yarnwrap.util.shape.VoxelSet(net.minecraft.util.shape.VoxelSet.transform(transformation.wrapperContained)); }
 
 }

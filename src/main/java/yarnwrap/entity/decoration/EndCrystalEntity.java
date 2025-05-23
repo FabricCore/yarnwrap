@@ -16,9 +16,14 @@ public void endCrystalAge(int value) { wrapperContained.endCrystalAge = value; }
 // public static yarnwrap.entity.data.TrackedData SHOW_BOTTOM() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.decoration.EndCrystalEntity.SHOW_BOTTOM); }
 // public static void SHOW_BOTTOM(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.decoration.EndCrystalEntity.SHOW_BOTTOM = value.wrapperContained; }
 
+// public boolean DEFAULT_SHOW_BOTTOM() { return wrapperContained.DEFAULT_SHOW_BOTTOM; }
+// public void DEFAULT_SHOW_BOTTOM(boolean value) { wrapperContained.DEFAULT_SHOW_BOTTOM = value; }
+// public static boolean DEFAULT_SHOW_BOTTOM() { return net.minecraft.entity.decoration.EndCrystalEntity.DEFAULT_SHOW_BOTTOM; }
+// public static void DEFAULT_SHOW_BOTTOM(boolean value, ) { net.minecraft.entity.decoration.EndCrystalEntity.DEFAULT_SHOW_BOTTOM = value; }
+
 public EndCrystalEntity(yarnwrap.world.World world,double x,double y,double z) { this.wrapperContained = new net.minecraft.entity.decoration.EndCrystalEntity(world.wrapperContained,x,y,z); }
-// public void crystalDestroyed(yarnwrap.entity.damage.DamageSource source) { wrapperContained.crystalDestroyed(source.wrapperContained); }
-// public static void crystalDestroyed(yarnwrap.entity.damage.DamageSource source, ) { net.minecraft.entity.decoration.EndCrystalEntity.crystalDestroyed(source.wrapperContained); }
+// public void crystalDestroyed(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.damage.DamageSource source) { wrapperContained.crystalDestroyed(world.wrapperContained,source.wrapperContained); }
+// public static void crystalDestroyed(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.damage.DamageSource source, ) { net.minecraft.entity.decoration.EndCrystalEntity.crystalDestroyed(world.wrapperContained,source.wrapperContained); }
 public boolean shouldShowBottom() { return wrapperContained.shouldShowBottom(); }
 // public static boolean shouldShowBottom() { return net.minecraft.entity.decoration.EndCrystalEntity.shouldShowBottom(); }
 public void setBeamTarget(yarnwrap.util.math.BlockPos beamTarget) { wrapperContained.setBeamTarget(beamTarget.wrapperContained); }

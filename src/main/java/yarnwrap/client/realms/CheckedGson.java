@@ -6,6 +6,11 @@ public class CheckedGson { public net.minecraft.client.realms.CheckedGson wrappe
 // public static com.google.gson.Gson GSON() { return net.minecraft.client.realms.CheckedGson.GSON; }
 // public static void GSON(com.google.gson.Gson value, ) { net.minecraft.client.realms.CheckedGson.GSON = value; }
 
+// public com.google.gson.ExclusionStrategy EXCLUSION_STRATEGY() { return wrapperContained.EXCLUSION_STRATEGY; }
+// public void EXCLUSION_STRATEGY(com.google.gson.ExclusionStrategy value) { wrapperContained.EXCLUSION_STRATEGY = value; }
+// public static com.google.gson.ExclusionStrategy EXCLUSION_STRATEGY() { return net.minecraft.client.realms.CheckedGson.EXCLUSION_STRATEGY; }
+// public static void EXCLUSION_STRATEGY(com.google.gson.ExclusionStrategy value, ) { net.minecraft.client.realms.CheckedGson.EXCLUSION_STRATEGY = value; }
+
 public java.lang.String toJson(yarnwrap.client.realms.RealmsSerializable serializable) { return wrapperContained.toJson(serializable.wrapperContained); }
 // public static java.lang.String toJson(yarnwrap.client.realms.RealmsSerializable serializable, ) { return net.minecraft.client.realms.CheckedGson.toJson(serializable.wrapperContained); }
 public yarnwrap.client.realms.RealmsSerializable fromJson(java.lang.String json,java.lang.Class type) { return new yarnwrap.client.realms.RealmsSerializable(wrapperContained.fromJson(json,type)); }

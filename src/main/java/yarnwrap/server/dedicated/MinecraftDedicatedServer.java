@@ -36,11 +36,6 @@ public class MinecraftDedicatedServer { public net.minecraft.server.dedicated.Mi
 // public static yarnwrap.server.dedicated.gui.DedicatedServerGui gui() { return new yarnwrap.server.dedicated.gui.DedicatedServerGui(net.minecraft.server.dedicated.MinecraftDedicatedServer.gui); }
 // public static void gui(yarnwrap.server.dedicated.gui.DedicatedServerGui value, ) { net.minecraft.server.dedicated.MinecraftDedicatedServer.gui = value.wrapperContained; }
 
-// public yarnwrap.server.filter.TextFilterer filterer() { return new yarnwrap.server.filter.TextFilterer(wrapperContained.filterer); }
-// public void filterer(yarnwrap.server.filter.TextFilterer value) { wrapperContained.filterer = value.wrapperContained; }
-// public static yarnwrap.server.filter.TextFilterer filterer() { return new yarnwrap.server.filter.TextFilterer(net.minecraft.server.dedicated.MinecraftDedicatedServer.filterer); }
-// public static void filterer(yarnwrap.server.filter.TextFilterer value, ) { net.minecraft.server.dedicated.MinecraftDedicatedServer.filterer = value.wrapperContained; }
-
 // public yarnwrap.util.profiler.log.SubscribableDebugSampleLog debugSampleLog() { return new yarnwrap.util.profiler.log.SubscribableDebugSampleLog(wrapperContained.debugSampleLog); }
 // public void debugSampleLog(yarnwrap.util.profiler.log.SubscribableDebugSampleLog value) { wrapperContained.debugSampleLog = value.wrapperContained; }
 // public static yarnwrap.util.profiler.log.SubscribableDebugSampleLog debugSampleLog() { return new yarnwrap.util.profiler.log.SubscribableDebugSampleLog(net.minecraft.server.dedicated.MinecraftDedicatedServer.debugSampleLog); }
@@ -55,6 +50,11 @@ public class MinecraftDedicatedServer { public net.minecraft.server.dedicated.Mi
 // public void serverLinks(yarnwrap.server.ServerLinks value) { wrapperContained.serverLinks = value.wrapperContained; }
 // public static yarnwrap.server.ServerLinks serverLinks() { return new yarnwrap.server.ServerLinks(net.minecraft.server.dedicated.MinecraftDedicatedServer.serverLinks); }
 // public static void serverLinks(yarnwrap.server.ServerLinks value, ) { net.minecraft.server.dedicated.MinecraftDedicatedServer.serverLinks = value.wrapperContained; }
+
+// public yarnwrap.server.filter.AbstractTextFilterer filterer() { return new yarnwrap.server.filter.AbstractTextFilterer(wrapperContained.filterer); }
+// public void filterer(yarnwrap.server.filter.AbstractTextFilterer value) { wrapperContained.filterer = value.wrapperContained; }
+// public static yarnwrap.server.filter.AbstractTextFilterer filterer() { return new yarnwrap.server.filter.AbstractTextFilterer(net.minecraft.server.dedicated.MinecraftDedicatedServer.filterer); }
+// public static void filterer(yarnwrap.server.filter.AbstractTextFilterer value, ) { net.minecraft.server.dedicated.MinecraftDedicatedServer.filterer = value.wrapperContained; }
 
 // public MinecraftDedicatedServer(java.lang.Thread serverThread,Object session,yarnwrap.resource.ResourcePackManager dataPackManager,yarnwrap.server.SaveLoader saveLoader,yarnwrap.server.dedicated.ServerPropertiesLoader propertiesLoader,com.mojang.datafixers.DataFixer dataFixer,yarnwrap.util.ApiServices apiServices,yarnwrap.server.WorldGenerationProgressListenerFactory worldGenerationProgressListenerFactory) { this.wrapperContained = new net.minecraft.server.dedicated.MinecraftDedicatedServer(serverThread,session,dataPackManager.wrapperContained,saveLoader.wrapperContained,propertiesLoader.wrapperContained,dataFixer,apiServices.wrapperContained,worldGenerationProgressListenerFactory.wrapperContained); }
 public void executeQueuedCommands() { wrapperContained.executeQueuedCommands(); }

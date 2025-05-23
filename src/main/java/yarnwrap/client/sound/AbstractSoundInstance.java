@@ -1,16 +1,6 @@
 package yarnwrap.client.sound;
 public class AbstractSoundInstance { public net.minecraft.client.sound.AbstractSoundInstance wrapperContained; public AbstractSoundInstance(net.minecraft.client.sound.AbstractSoundInstance wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public boolean relative() { return wrapperContained.relative; }
-// public void relative(boolean value) { wrapperContained.relative = value; }
-// public static boolean relative() { return net.minecraft.client.sound.AbstractSoundInstance.relative; }
-// public static void relative(boolean value, ) { net.minecraft.client.sound.AbstractSoundInstance.relative = value; }
-
-// public yarnwrap.util.math.random.Random random() { return new yarnwrap.util.math.random.Random(wrapperContained.random); }
-// public void random(yarnwrap.util.math.random.Random value) { wrapperContained.random = value.wrapperContained; }
-// public static yarnwrap.util.math.random.Random random() { return new yarnwrap.util.math.random.Random(net.minecraft.client.sound.AbstractSoundInstance.random); }
-// public static void random(yarnwrap.util.math.random.Random value, ) { net.minecraft.client.sound.AbstractSoundInstance.random = value.wrapperContained; }
-
 // public double x() { return wrapperContained.x; }
 // public void x(double value) { wrapperContained.x = value; }
 // public static double x() { return net.minecraft.client.sound.AbstractSoundInstance.x; }
@@ -65,6 +55,16 @@ public class AbstractSoundInstance { public net.minecraft.client.sound.AbstractS
 // public void repeatDelay(int value) { wrapperContained.repeatDelay = value; }
 // public static int repeatDelay() { return net.minecraft.client.sound.AbstractSoundInstance.repeatDelay; }
 // public static void repeatDelay(int value, ) { net.minecraft.client.sound.AbstractSoundInstance.repeatDelay = value; }
+
+// public boolean relative() { return wrapperContained.relative; }
+// public void relative(boolean value) { wrapperContained.relative = value; }
+// public static boolean relative() { return net.minecraft.client.sound.AbstractSoundInstance.relative; }
+// public static void relative(boolean value, ) { net.minecraft.client.sound.AbstractSoundInstance.relative = value; }
+
+// public yarnwrap.util.math.random.Random random() { return new yarnwrap.util.math.random.Random(wrapperContained.random); }
+// public void random(yarnwrap.util.math.random.Random value) { wrapperContained.random = value.wrapperContained; }
+// public static yarnwrap.util.math.random.Random random() { return new yarnwrap.util.math.random.Random(net.minecraft.client.sound.AbstractSoundInstance.random); }
+// public static void random(yarnwrap.util.math.random.Random value, ) { net.minecraft.client.sound.AbstractSoundInstance.random = value.wrapperContained; }
 
 // public AbstractSoundInstance(yarnwrap.util.Identifier soundId,yarnwrap.sound.SoundCategory category,yarnwrap.util.math.random.Random random) { this.wrapperContained = new net.minecraft.client.sound.AbstractSoundInstance(soundId.wrapperContained,category.wrapperContained,random.wrapperContained); }
 // public AbstractSoundInstance(yarnwrap.sound.SoundEvent sound,yarnwrap.sound.SoundCategory category,yarnwrap.util.math.random.Random random) { this.wrapperContained = new net.minecraft.client.sound.AbstractSoundInstance(sound.wrapperContained,category.wrapperContained,random.wrapperContained); }

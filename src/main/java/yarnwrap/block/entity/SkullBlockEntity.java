@@ -46,11 +46,6 @@ public static java.util.concurrent.Executor EXECUTOR() { return net.minecraft.bl
 // public static java.lang.String CUSTOM_NAME_NBT_KEY() { return net.minecraft.block.entity.SkullBlockEntity.CUSTOM_NAME_NBT_KEY; }
 // public static void CUSTOM_NAME_NBT_KEY(java.lang.String value, ) { net.minecraft.block.entity.SkullBlockEntity.CUSTOM_NAME_NBT_KEY = value; }
 
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.block.entity.SkullBlockEntity.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.block.entity.SkullBlockEntity.LOGGER = value; }
-
 // public yarnwrap.text.Text customName() { return new yarnwrap.text.Text(wrapperContained.customName); }
 // public void customName(yarnwrap.text.Text value) { wrapperContained.customName = value.wrapperContained; }
 // public static yarnwrap.text.Text customName() { return new yarnwrap.text.Text(net.minecraft.block.entity.SkullBlockEntity.customName); }
@@ -77,8 +72,8 @@ public yarnwrap.component.type.ProfileComponent getOwner() { return new yarnwrap
 // public static void setServices(yarnwrap.util.ApiServices apiServices,java.util.concurrent.Executor executor, ) { net.minecraft.block.entity.SkullBlockEntity.setServices(apiServices.wrapperContained,executor); }
 // public void clearServices() { wrapperContained.clearServices(); }
 public static void clearServices() { net.minecraft.block.entity.SkullBlockEntity.clearServices(); }
-public float getPoweredTicks(float tickDelta) { return wrapperContained.getPoweredTicks(tickDelta); }
-// public static float getPoweredTicks(float tickDelta, ) { return net.minecraft.block.entity.SkullBlockEntity.getPoweredTicks(tickDelta); }
+public float getPoweredTicks(float tickProgress) { return wrapperContained.getPoweredTicks(tickProgress); }
+// public static float getPoweredTicks(float tickProgress, ) { return net.minecraft.block.entity.SkullBlockEntity.getPoweredTicks(tickProgress); }
 // public void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.SkullBlockEntity blockEntity) { wrapperContained.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 // public static void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.SkullBlockEntity blockEntity, ) { net.minecraft.block.entity.SkullBlockEntity.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 public yarnwrap.util.Identifier getNoteBlockSound() { return new yarnwrap.util.Identifier(wrapperContained.getNoteBlockSound()); }

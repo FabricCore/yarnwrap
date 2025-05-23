@@ -51,10 +51,15 @@ public yarnwrap.entity.AnimationState sittingAnimationState() { return new yarnw
 // public static yarnwrap.entity.AnimationState sittingAnimationState() { return new yarnwrap.entity.AnimationState(net.minecraft.entity.passive.CamelEntity.sittingAnimationState); }
 // public static void sittingAnimationState(yarnwrap.entity.AnimationState value, ) { net.minecraft.entity.passive.CamelEntity.sittingAnimationState = value.wrapperContained; }
 
+// public long DEFAULT_LAST_POSE_TICK() { return wrapperContained.DEFAULT_LAST_POSE_TICK; }
+// public void DEFAULT_LAST_POSE_TICK(long value) { wrapperContained.DEFAULT_LAST_POSE_TICK = value; }
+// public static long DEFAULT_LAST_POSE_TICK() { return net.minecraft.entity.passive.CamelEntity.DEFAULT_LAST_POSE_TICK; }
+// public static void DEFAULT_LAST_POSE_TICK(long value, ) { net.minecraft.entity.passive.CamelEntity.DEFAULT_LAST_POSE_TICK = value; }
+
 public void setLastPoseTick(long lastPoseTick) { wrapperContained.setLastPoseTick(lastPoseTick); }
 // public static void setLastPoseTick(long lastPoseTick, ) { net.minecraft.entity.passive.CamelEntity.setLastPoseTick(lastPoseTick); }
-// public double getPassengerAttachmentY(boolean primaryPassenger,float tickDelta,yarnwrap.entity.EntityDimensions dimensions,float scaleFactor) { return wrapperContained.getPassengerAttachmentY(primaryPassenger,tickDelta,dimensions.wrapperContained,scaleFactor); }
-// public static double getPassengerAttachmentY(boolean primaryPassenger,float tickDelta,yarnwrap.entity.EntityDimensions dimensions,float scaleFactor, ) { return net.minecraft.entity.passive.CamelEntity.getPassengerAttachmentY(primaryPassenger,tickDelta,dimensions.wrapperContained,scaleFactor); }
+// public double getPassengerAttachmentY(boolean primaryPassenger,float tickProgress,yarnwrap.entity.EntityDimensions dimensions,float scaleFactor) { return wrapperContained.getPassengerAttachmentY(primaryPassenger,tickProgress,dimensions.wrapperContained,scaleFactor); }
+// public static double getPassengerAttachmentY(boolean primaryPassenger,float tickProgress,yarnwrap.entity.EntityDimensions dimensions,float scaleFactor, ) { return net.minecraft.entity.passive.CamelEntity.getPassengerAttachmentY(primaryPassenger,tickProgress,dimensions.wrapperContained,scaleFactor); }
 public boolean isSitting() { return wrapperContained.isSitting(); }
 // public static boolean isSitting() { return net.minecraft.entity.passive.CamelEntity.isSitting(); }
 public boolean isChangingPose() { return wrapperContained.isChangingPose(); }
@@ -65,8 +70,8 @@ public void startStanding() { wrapperContained.startStanding(); }
 // public static void startStanding() { net.minecraft.entity.passive.CamelEntity.startStanding(); }
 public void setStanding() { wrapperContained.setStanding(); }
 // public static void setStanding() { net.minecraft.entity.passive.CamelEntity.setStanding(); }
-public long getLastPoseTickDelta() { return wrapperContained.getLastPoseTickDelta(); }
-// public static long getLastPoseTickDelta() { return net.minecraft.entity.passive.CamelEntity.getLastPoseTickDelta(); }
+public long getTimeSinceLastPoseTick() { return wrapperContained.getTimeSinceLastPoseTick(); }
+// public static long getTimeSinceLastPoseTick() { return net.minecraft.entity.passive.CamelEntity.getTimeSinceLastPoseTick(); }
 // public void updateAnimations() { wrapperContained.updateAnimations(); }
 // public static void updateAnimations() { net.minecraft.entity.passive.CamelEntity.updateAnimations(); }
 public boolean isStationary() { return wrapperContained.isStationary(); }
@@ -85,5 +90,7 @@ public boolean shouldUpdateSittingAnimations() { return wrapperContained.shouldU
 // public static boolean shouldUpdateSittingAnimations() { return net.minecraft.entity.passive.CamelEntity.shouldUpdateSittingAnimations(); }
 public boolean canChangePose() { return wrapperContained.canChangePose(); }
 // public static boolean canChangePose() { return net.minecraft.entity.passive.CamelEntity.canChangePose(); }
+// public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason reason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,reason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason reason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.passive.CamelEntity.canSpawn(type.wrapperContained,world.wrapperContained,reason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
 
 }

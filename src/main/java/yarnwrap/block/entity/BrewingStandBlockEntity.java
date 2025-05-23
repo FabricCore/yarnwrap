@@ -76,6 +76,16 @@ public static int PROPERTY_COUNT() { return net.minecraft.block.entity.BrewingSt
 // public static int FUEL_SLOT_INDEX() { return net.minecraft.block.entity.BrewingStandBlockEntity.FUEL_SLOT_INDEX; }
 // public static void FUEL_SLOT_INDEX(int value, ) { net.minecraft.block.entity.BrewingStandBlockEntity.FUEL_SLOT_INDEX = value; }
 
+// public short DEFAULT_BREW_TIME() { return wrapperContained.DEFAULT_BREW_TIME; }
+// public void DEFAULT_BREW_TIME(short value) { wrapperContained.DEFAULT_BREW_TIME = value; }
+// public static short DEFAULT_BREW_TIME() { return net.minecraft.block.entity.BrewingStandBlockEntity.DEFAULT_BREW_TIME; }
+// public static void DEFAULT_BREW_TIME(short value, ) { net.minecraft.block.entity.BrewingStandBlockEntity.DEFAULT_BREW_TIME = value; }
+
+// public byte DEFAULT_FUEL() { return wrapperContained.DEFAULT_FUEL; }
+// public void DEFAULT_FUEL(byte value) { wrapperContained.DEFAULT_FUEL = value; }
+// public static byte DEFAULT_FUEL() { return net.minecraft.block.entity.BrewingStandBlockEntity.DEFAULT_FUEL; }
+// public static void DEFAULT_FUEL(byte value, ) { net.minecraft.block.entity.BrewingStandBlockEntity.DEFAULT_FUEL = value; }
+
 public BrewingStandBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.BrewingStandBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public boolean canCraft(yarnwrap.recipe.BrewingRecipeRegistry brewingRecipeRegistry,yarnwrap.util.collection.DefaultedList slots) { return wrapperContained.canCraft(brewingRecipeRegistry.wrapperContained,slots.wrapperContained); }
 // public static boolean canCraft(yarnwrap.recipe.BrewingRecipeRegistry brewingRecipeRegistry,yarnwrap.util.collection.DefaultedList slots, ) { return net.minecraft.block.entity.BrewingStandBlockEntity.canCraft(brewingRecipeRegistry.wrapperContained,slots.wrapperContained); }

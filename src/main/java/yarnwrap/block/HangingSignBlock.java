@@ -16,15 +16,15 @@ public static yarnwrap.state.property.BooleanProperty ATTACHED() { return new ya
 // public static yarnwrap.util.shape.VoxelShape DEFAULT_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.HangingSignBlock.DEFAULT_SHAPE); }
 // public static void DEFAULT_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.HangingSignBlock.DEFAULT_SHAPE = value.wrapperContained; }
 
-// public java.util.Map SHAPES_FOR_ROTATION() { return wrapperContained.SHAPES_FOR_ROTATION; }
-// public void SHAPES_FOR_ROTATION(java.util.Map value) { wrapperContained.SHAPES_FOR_ROTATION = value; }
-// public static java.util.Map SHAPES_FOR_ROTATION() { return net.minecraft.block.HangingSignBlock.SHAPES_FOR_ROTATION; }
-// public static void SHAPES_FOR_ROTATION(java.util.Map value, ) { net.minecraft.block.HangingSignBlock.SHAPES_FOR_ROTATION = value; }
-
 // public com.mojang.serialization.MapCodec CODEC() { return wrapperContained.CODEC; }
 // public void CODEC(com.mojang.serialization.MapCodec value) { wrapperContained.CODEC = value; }
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.HangingSignBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.HangingSignBlock.CODEC = value; }
+
+// public java.util.Map SHAPES_BY_ROTATION() { return wrapperContained.SHAPES_BY_ROTATION; }
+// public void SHAPES_BY_ROTATION(java.util.Map value) { wrapperContained.SHAPES_BY_ROTATION = value; }
+// public static java.util.Map SHAPES_BY_ROTATION() { return net.minecraft.block.HangingSignBlock.SHAPES_BY_ROTATION; }
+// public static void SHAPES_BY_ROTATION(java.util.Map value, ) { net.minecraft.block.HangingSignBlock.SHAPES_BY_ROTATION = value; }
 
 // public boolean shouldTryAttaching(yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.hit.BlockHitResult hitResult,yarnwrap.block.entity.SignBlockEntity sign,yarnwrap.item.ItemStack stack) { return wrapperContained.shouldTryAttaching(player.wrapperContained,hitResult.wrapperContained,sign.wrapperContained,stack.wrapperContained); }
 // public static boolean shouldTryAttaching(yarnwrap.entity.player.PlayerEntity player,yarnwrap.util.hit.BlockHitResult hitResult,yarnwrap.block.entity.SignBlockEntity sign,yarnwrap.item.ItemStack stack, ) { return net.minecraft.block.HangingSignBlock.shouldTryAttaching(player.wrapperContained,hitResult.wrapperContained,sign.wrapperContained,stack.wrapperContained); }

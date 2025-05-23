@@ -52,8 +52,8 @@ public static int MIN_OCCUPATION_TICKS_WITHOUT_NECTAR() { return net.minecraft.b
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.block.entity.BeehiveBlockEntity.LOGGER = value; }
 
 public BeehiveBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.BeehiveBlockEntity(pos.wrapperContained,state.wrapperContained); }
-public void tryEnterHive(yarnwrap.entity.Entity entity) { wrapperContained.tryEnterHive(entity.wrapperContained); }
-// public static void tryEnterHive(yarnwrap.entity.Entity entity, ) { net.minecraft.block.entity.BeehiveBlockEntity.tryEnterHive(entity.wrapperContained); }
+public void tryEnterHive(yarnwrap.entity.passive.BeeEntity entity) { wrapperContained.tryEnterHive(entity.wrapperContained); }
+// public static void tryEnterHive(yarnwrap.entity.passive.BeeEntity entity, ) { net.minecraft.block.entity.BeehiveBlockEntity.tryEnterHive(entity.wrapperContained); }
 // public void angerBees(yarnwrap.entity.player.PlayerEntity player,yarnwrap.block.BlockState state,Object beeState) { wrapperContained.angerBees(player.wrapperContained,state.wrapperContained,beeState); }
 // public static void angerBees(yarnwrap.entity.player.PlayerEntity player,yarnwrap.block.BlockState state,Object beeState, ) { net.minecraft.block.entity.BeehiveBlockEntity.angerBees(player.wrapperContained,state.wrapperContained,beeState); }
 // public java.util.List tryReleaseBee(yarnwrap.block.BlockState state,Object beeState) { return wrapperContained.tryReleaseBee(state.wrapperContained,beeState); }

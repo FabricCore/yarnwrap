@@ -40,13 +40,13 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.adva
 // // public static java.util.List recipes() { return net.minecraft.advancement.AdvancementRewards.recipes(); }
 // public java.util.Optional function() { return wrapperContained.function(); }
 // // public static java.util.Optional function() { return net.minecraft.advancement.AdvancementRewards.function(); }
+public void apply(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.apply(player.wrapperContained); }
+// public static void apply(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.advancement.AdvancementRewards.apply(player.wrapperContained); }
 // public void method_17978(yarnwrap.server.MinecraftServer function) { wrapperContained.method_17978(function.wrapperContained); }
 // public static void method_17978(yarnwrap.server.MinecraftServer function, ) { net.minecraft.advancement.AdvancementRewards.method_17978(function.wrapperContained); }
 // public com.mojang.datafixers.kinds.App method_54930(Object instance) { return wrapperContained.method_54930(instance); }
 // public static com.mojang.datafixers.kinds.App method_54930(Object instance, ) { return net.minecraft.advancement.AdvancementRewards.method_54930(instance); }
 // public java.util.Optional method_54931(yarnwrap.server.MinecraftServer function) { return wrapperContained.method_54931(function.wrapperContained); }
 // public static java.util.Optional method_54931(yarnwrap.server.MinecraftServer function, ) { return net.minecraft.advancement.AdvancementRewards.method_54931(function.wrapperContained); }
-public void apply(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.apply(player.wrapperContained); }
-// public static void apply(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.advancement.AdvancementRewards.apply(player.wrapperContained); }
 
 }

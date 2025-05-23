@@ -101,5 +101,9 @@ public static yarnwrap.structure.StructureLiquidSettings DEFAULT_LIQUID_SETTINGS
 // public static java.util.List method_54520(yarnwrap.world.gen.structure.JigsawStructure structure, ) { return net.minecraft.world.gen.structure.JigsawStructure.method_54520(structure.wrapperContained); }
 // public yarnwrap.world.gen.structure.DimensionPadding method_60567(yarnwrap.world.gen.structure.JigsawStructure structure) { return new yarnwrap.world.gen.structure.DimensionPadding(wrapperContained.method_60567(structure.wrapperContained)); }
 // public static yarnwrap.world.gen.structure.DimensionPadding method_60567(yarnwrap.world.gen.structure.JigsawStructure structure, ) { return new yarnwrap.world.gen.structure.DimensionPadding(net.minecraft.world.gen.structure.JigsawStructure.method_60567(structure.wrapperContained)); }
+public yarnwrap.registry.entry.RegistryEntry getStartPool() { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.getStartPool()); }
+// public static yarnwrap.registry.entry.RegistryEntry getStartPool() { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.world.gen.structure.JigsawStructure.getStartPool()); }
+public java.util.List getPoolAliasBindings() { return wrapperContained.getPoolAliasBindings(); }
+// public static java.util.List getPoolAliasBindings() { return net.minecraft.world.gen.structure.JigsawStructure.getPoolAliasBindings(); }
 
 }

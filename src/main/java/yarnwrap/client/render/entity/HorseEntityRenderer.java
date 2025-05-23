@@ -6,7 +6,5 @@ public class HorseEntityRenderer { public net.minecraft.client.render.entity.Hor
 // public static java.util.Map TEXTURES() { return net.minecraft.client.render.entity.HorseEntityRenderer.TEXTURES; }
 // public static void TEXTURES(java.util.Map value, ) { net.minecraft.client.render.entity.HorseEntityRenderer.TEXTURES = value; }
 
-// public void method_27151(java.util.EnumMap map) { wrapperContained.method_27151(map); }
-// public static void method_27151(java.util.EnumMap map, ) { net.minecraft.client.render.entity.HorseEntityRenderer.method_27151(map); }
 
 }

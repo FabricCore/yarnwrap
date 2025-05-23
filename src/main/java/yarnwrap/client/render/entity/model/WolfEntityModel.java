@@ -1,6 +1,26 @@
 package yarnwrap.client.render.entity.model;
 public class WolfEntityModel { public net.minecraft.client.render.entity.model.WolfEntityModel wrapperContained; public WolfEntityModel(net.minecraft.client.render.entity.model.WolfEntityModel wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.client.model.ModelPart tail() { return new yarnwrap.client.model.ModelPart(wrapperContained.tail); }
+// public void tail(yarnwrap.client.model.ModelPart value) { wrapperContained.tail = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart tail() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WolfEntityModel.tail); }
+// public static void tail(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WolfEntityModel.tail = value.wrapperContained; }
+
+// public yarnwrap.client.model.ModelPart neck() { return new yarnwrap.client.model.ModelPart(wrapperContained.neck); }
+// public void neck(yarnwrap.client.model.ModelPart value) { wrapperContained.neck = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart neck() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WolfEntityModel.neck); }
+// public static void neck(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WolfEntityModel.neck = value.wrapperContained; }
+
+// public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
+// public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WolfEntityModel.head); }
+// public static void head(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WolfEntityModel.head = value.wrapperContained; }
+
+// public yarnwrap.client.model.ModelPart torso() { return new yarnwrap.client.model.ModelPart(wrapperContained.torso); }
+// public void torso(yarnwrap.client.model.ModelPart value) { wrapperContained.torso = value.wrapperContained; }
+// public static yarnwrap.client.model.ModelPart torso() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WolfEntityModel.torso); }
+// public static void torso(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WolfEntityModel.torso = value.wrapperContained; }
+
 // public yarnwrap.client.model.ModelPart realHead() { return new yarnwrap.client.model.ModelPart(wrapperContained.realHead); }
 // public void realHead(yarnwrap.client.model.ModelPart value) { wrapperContained.realHead = value.wrapperContained; }
 // public static yarnwrap.client.model.ModelPart realHead() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WolfEntityModel.realHead); }
@@ -46,27 +66,11 @@ public class WolfEntityModel { public net.minecraft.client.render.entity.model.W
 // public static java.lang.String REAL_TAIL() { return net.minecraft.client.render.entity.model.WolfEntityModel.REAL_TAIL; }
 // public static void REAL_TAIL(java.lang.String value, ) { net.minecraft.client.render.entity.model.WolfEntityModel.REAL_TAIL = value; }
 
-// public yarnwrap.client.model.ModelPart tail() { return new yarnwrap.client.model.ModelPart(wrapperContained.tail); }
-// public void tail(yarnwrap.client.model.ModelPart value) { wrapperContained.tail = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart tail() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WolfEntityModel.tail); }
-// public static void tail(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WolfEntityModel.tail = value.wrapperContained; }
+// public yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(wrapperContained.BABY_TRANSFORMER); }
+// public void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value) { wrapperContained.BABY_TRANSFORMER = value.wrapperContained; }
+public static yarnwrap.client.render.entity.model.ModelTransformer BABY_TRANSFORMER() { return new yarnwrap.client.render.entity.model.ModelTransformer(net.minecraft.client.render.entity.model.WolfEntityModel.BABY_TRANSFORMER); }
+// public static void BABY_TRANSFORMER(yarnwrap.client.render.entity.model.ModelTransformer value, ) { net.minecraft.client.render.entity.model.WolfEntityModel.BABY_TRANSFORMER = value.wrapperContained; }
 
-// public yarnwrap.client.model.ModelPart neck() { return new yarnwrap.client.model.ModelPart(wrapperContained.neck); }
-// public void neck(yarnwrap.client.model.ModelPart value) { wrapperContained.neck = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart neck() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WolfEntityModel.neck); }
-// public static void neck(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WolfEntityModel.neck = value.wrapperContained; }
-
-// public yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(wrapperContained.head); }
-// public void head(yarnwrap.client.model.ModelPart value) { wrapperContained.head = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart head() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WolfEntityModel.head); }
-// public static void head(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WolfEntityModel.head = value.wrapperContained; }
-
-// public yarnwrap.client.model.ModelPart torso() { return new yarnwrap.client.model.ModelPart(wrapperContained.torso); }
-// public void torso(yarnwrap.client.model.ModelPart value) { wrapperContained.torso = value.wrapperContained; }
-// public static yarnwrap.client.model.ModelPart torso() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.entity.model.WolfEntityModel.torso); }
-// public static void torso(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.entity.model.WolfEntityModel.torso = value.wrapperContained; }
-
-public WolfEntityModel(yarnwrap.client.model.ModelPart root) { this.wrapperContained = new net.minecraft.client.render.entity.model.WolfEntityModel(root.wrapperContained); }
 // public yarnwrap.client.model.ModelData getTexturedModelData(yarnwrap.client.model.Dilation dilation) { return new yarnwrap.client.model.ModelData(wrapperContained.getTexturedModelData(dilation.wrapperContained)); }
 // public static yarnwrap.client.model.ModelData getTexturedModelData(yarnwrap.client.model.Dilation dilation, ) { return new yarnwrap.client.model.ModelData(net.minecraft.client.render.entity.model.WolfEntityModel.getTexturedModelData(dilation.wrapperContained)); }
 

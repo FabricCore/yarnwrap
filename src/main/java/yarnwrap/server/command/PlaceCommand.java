@@ -35,8 +35,6 @@ public class PlaceCommand { public net.minecraft.server.command.PlaceCommand wra
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.PlaceCommand.register(dispatcher); }
 // public int method_39987(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_39987(context); }
 // public static int method_39987(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.PlaceCommand.method_39987(context); }
-// public boolean method_39988(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_39988(source.wrapperContained); }
-// public static boolean method_39988(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.PlaceCommand.method_39988(source.wrapperContained); }
 // public int executePlaceFeature(yarnwrap.server.command.ServerCommandSource source,Object feature,yarnwrap.util.math.BlockPos pos) { return wrapperContained.executePlaceFeature(source.wrapperContained,feature,pos.wrapperContained); }
 // public static int executePlaceFeature(yarnwrap.server.command.ServerCommandSource source,Object feature,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.server.command.PlaceCommand.executePlaceFeature(source.wrapperContained,feature,pos.wrapperContained); }
 // public int method_39990(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_39990(context); }
@@ -63,8 +61,8 @@ public class PlaceCommand { public net.minecraft.server.command.PlaceCommand wra
 // public static int method_43656(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.PlaceCommand.method_43656(context); }
 // public int method_43918(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_43918(context); }
 // public static int method_43918(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.PlaceCommand.method_43918(context); }
-// public int executePlaceTemplate(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.Identifier id,yarnwrap.util.math.BlockPos pos,yarnwrap.util.BlockRotation rotation,yarnwrap.util.BlockMirror mirror,float integrity,int seed) { return wrapperContained.executePlaceTemplate(source.wrapperContained,id.wrapperContained,pos.wrapperContained,rotation.wrapperContained,mirror.wrapperContained,integrity,seed); }
-// public static int executePlaceTemplate(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.Identifier id,yarnwrap.util.math.BlockPos pos,yarnwrap.util.BlockRotation rotation,yarnwrap.util.BlockMirror mirror,float integrity,int seed, ) { return net.minecraft.server.command.PlaceCommand.executePlaceTemplate(source.wrapperContained,id.wrapperContained,pos.wrapperContained,rotation.wrapperContained,mirror.wrapperContained,integrity,seed); }
+// public int executePlaceTemplate(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.Identifier id,yarnwrap.util.math.BlockPos pos,yarnwrap.util.BlockRotation rotation,yarnwrap.util.BlockMirror mirror,float integrity,int seed,boolean strict) { return wrapperContained.executePlaceTemplate(source.wrapperContained,id.wrapperContained,pos.wrapperContained,rotation.wrapperContained,mirror.wrapperContained,integrity,seed,strict); }
+// public static int executePlaceTemplate(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.Identifier id,yarnwrap.util.math.BlockPos pos,yarnwrap.util.BlockRotation rotation,yarnwrap.util.BlockMirror mirror,float integrity,int seed,boolean strict, ) { return net.minecraft.server.command.PlaceCommand.executePlaceTemplate(source.wrapperContained,id.wrapperContained,pos.wrapperContained,rotation.wrapperContained,mirror.wrapperContained,integrity,seed,strict); }
 // public com.mojang.brigadier.Message method_43920(java.lang.Object id) { return wrapperContained.method_43920(id); }
 // public static com.mojang.brigadier.Message method_43920(java.lang.Object id, ) { return net.minecraft.server.command.PlaceCommand.method_43920(id); }
 // public int method_43921(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_43921(context); }
@@ -79,5 +77,7 @@ public class PlaceCommand { public net.minecraft.server.command.PlaceCommand wra
 // public static int method_43925(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.PlaceCommand.method_43925(context); }
 // public java.util.concurrent.CompletableFuture method_44145(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_44145(context,builder); }
 // public static java.util.concurrent.CompletableFuture method_44145(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.command.PlaceCommand.method_44145(context,builder); }
+// public int method_66003(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_66003(context); }
+// public static int method_66003(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.PlaceCommand.method_66003(context); }
 
 }

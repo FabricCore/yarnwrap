@@ -1,6 +1,16 @@
 package yarnwrap.client.world;
 public class ClientWorld { public net.minecraft.client.world.ClientWorld wrapperContained; public ClientWorld(net.minecraft.client.world.ClientWorld wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.client.network.ClientPlayNetworkHandler networkHandler() { return new yarnwrap.client.network.ClientPlayNetworkHandler(wrapperContained.networkHandler); }
+// public void networkHandler(yarnwrap.client.network.ClientPlayNetworkHandler value) { wrapperContained.networkHandler = value.wrapperContained; }
+// public static yarnwrap.client.network.ClientPlayNetworkHandler networkHandler() { return new yarnwrap.client.network.ClientPlayNetworkHandler(net.minecraft.client.world.ClientWorld.networkHandler); }
+// public static void networkHandler(yarnwrap.client.network.ClientPlayNetworkHandler value, ) { net.minecraft.client.world.ClientWorld.networkHandler = value.wrapperContained; }
+
+// public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
+// public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
+// public static yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(net.minecraft.client.world.ClientWorld.client); }
+// public static void client(yarnwrap.client.MinecraftClient value, ) { net.minecraft.client.world.ClientWorld.client = value.wrapperContained; }
+
 // public java.util.Map mapStates() { return wrapperContained.mapStates; }
 // public void mapStates(java.util.Map value) { wrapperContained.mapStates = value; }
 // public static java.util.Map mapStates() { return net.minecraft.client.world.ClientWorld.mapStates; }
@@ -71,16 +81,6 @@ public class ClientWorld { public net.minecraft.client.world.ClientWorld wrapper
 // public static java.util.Set BLOCK_MARKER_ITEMS() { return net.minecraft.client.world.ClientWorld.BLOCK_MARKER_ITEMS; }
 // public static void BLOCK_MARKER_ITEMS(java.util.Set value, ) { net.minecraft.client.world.ClientWorld.BLOCK_MARKER_ITEMS = value; }
 
-// public yarnwrap.client.network.ClientPlayNetworkHandler networkHandler() { return new yarnwrap.client.network.ClientPlayNetworkHandler(wrapperContained.networkHandler); }
-// public void networkHandler(yarnwrap.client.network.ClientPlayNetworkHandler value) { wrapperContained.networkHandler = value.wrapperContained; }
-// public static yarnwrap.client.network.ClientPlayNetworkHandler networkHandler() { return new yarnwrap.client.network.ClientPlayNetworkHandler(net.minecraft.client.world.ClientWorld.networkHandler); }
-// public static void networkHandler(yarnwrap.client.network.ClientPlayNetworkHandler value, ) { net.minecraft.client.world.ClientWorld.networkHandler = value.wrapperContained; }
-
-// public yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(wrapperContained.client); }
-// public void client(yarnwrap.client.MinecraftClient value) { wrapperContained.client = value.wrapperContained; }
-// public static yarnwrap.client.MinecraftClient client() { return new yarnwrap.client.MinecraftClient(net.minecraft.client.world.ClientWorld.client); }
-// public static void client(yarnwrap.client.MinecraftClient value, ) { net.minecraft.client.world.ClientWorld.client = value.wrapperContained; }
-
 // public yarnwrap.client.network.PendingUpdateManager pendingUpdateManager() { return new yarnwrap.client.network.PendingUpdateManager(wrapperContained.pendingUpdateManager); }
 // public void pendingUpdateManager(yarnwrap.client.network.PendingUpdateManager value) { wrapperContained.pendingUpdateManager = value.wrapperContained; }
 // public static yarnwrap.client.network.PendingUpdateManager pendingUpdateManager() { return new yarnwrap.client.network.PendingUpdateManager(net.minecraft.client.world.ClientWorld.pendingUpdateManager); }
@@ -96,7 +96,41 @@ public class ClientWorld { public net.minecraft.client.world.ClientWorld wrapper
 // public static yarnwrap.world.tick.TickManager tickManager() { return new yarnwrap.world.tick.TickManager(net.minecraft.client.world.ClientWorld.tickManager); }
 // public static void tickManager(yarnwrap.world.tick.TickManager value, ) { net.minecraft.client.world.ClientWorld.tickManager = value.wrapperContained; }
 
-// public ClientWorld(yarnwrap.client.network.ClientPlayNetworkHandler networkHandler,Object properties,yarnwrap.registry.RegistryKey registryRef,yarnwrap.registry.entry.RegistryEntry dimensionTypeEntry,int loadDistance,int simulationDistance,java.util.function.Supplier profiler,yarnwrap.client.render.WorldRenderer worldRenderer,boolean debugWorld,long seed) { this.wrapperContained = new net.minecraft.client.world.ClientWorld(networkHandler.wrapperContained,properties,registryRef.wrapperContained,dimensionTypeEntry.wrapperContained,loadDistance,simulationDistance,profiler,worldRenderer.wrapperContained,debugWorld,seed); }
+// public yarnwrap.client.world.WorldEventHandler worldEventHandler() { return new yarnwrap.client.world.WorldEventHandler(wrapperContained.worldEventHandler); }
+// public void worldEventHandler(yarnwrap.client.world.WorldEventHandler value) { wrapperContained.worldEventHandler = value.wrapperContained; }
+// public static yarnwrap.client.world.WorldEventHandler worldEventHandler() { return new yarnwrap.client.world.WorldEventHandler(net.minecraft.client.world.ClientWorld.worldEventHandler); }
+// public static void worldEventHandler(yarnwrap.client.world.WorldEventHandler value, ) { net.minecraft.client.world.ClientWorld.worldEventHandler = value.wrapperContained; }
+
+// public int seaLevel() { return wrapperContained.seaLevel; }
+// public void seaLevel(int value) { wrapperContained.seaLevel = value; }
+// public static int seaLevel() { return net.minecraft.client.world.ClientWorld.seaLevel; }
+// public static void seaLevel(int value, ) { net.minecraft.client.world.ClientWorld.seaLevel = value; }
+
+// public boolean shouldTickTimeOfDay() { return wrapperContained.shouldTickTimeOfDay; }
+// public void shouldTickTimeOfDay(boolean value) { wrapperContained.shouldTickTimeOfDay = value; }
+// public static boolean shouldTickTimeOfDay() { return net.minecraft.client.world.ClientWorld.shouldTickTimeOfDay; }
+// public static void shouldTickTimeOfDay(boolean value, ) { net.minecraft.client.world.ClientWorld.shouldTickTimeOfDay = value; }
+
+// public java.util.List enderDragonParts() { return wrapperContained.enderDragonParts; }
+// public void enderDragonParts(java.util.List value) { wrapperContained.enderDragonParts = value; }
+// public static java.util.List enderDragonParts() { return net.minecraft.client.world.ClientWorld.enderDragonParts; }
+// public static void enderDragonParts(java.util.List value, ) { net.minecraft.client.world.ClientWorld.enderDragonParts = value; }
+
+// public ClientWorld(yarnwrap.client.network.ClientPlayNetworkHandler properties,Object registryRef,yarnwrap.registry.RegistryKey dimensionType,yarnwrap.registry.entry.RegistryEntry loadDistance,int simulationDistance,int worldRenderer,yarnwrap.client.render.WorldRenderer debugWorld,boolean seed,long seaLevel) { this.wrapperContained = new net.minecraft.client.world.ClientWorld(properties.wrapperContained,registryRef,dimensionType.wrapperContained,loadDistance.wrapperContained,simulationDistance,worldRenderer,debugWorld.wrapperContained,seed,seaLevel); }
+// public void addParticle(double minX,double maxX,double minZ,double maxZ,double y,yarnwrap.particle.ParticleEffect parameters) { wrapperContained.addParticle(minX,maxX,minZ,maxZ,y,parameters.wrapperContained); }
+// public static void addParticle(double minX,double maxX,double minZ,double maxZ,double y,yarnwrap.particle.ParticleEffect parameters, ) { net.minecraft.client.world.ClientWorld.addParticle(minX,maxX,minZ,maxZ,y,parameters.wrapperContained); }
+// public void addParticle(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.particle.ParticleEffect parameters,boolean solidBelow) { wrapperContained.addParticle(pos.wrapperContained,state.wrapperContained,parameters.wrapperContained,solidBelow); }
+// public static void addParticle(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.particle.ParticleEffect parameters,boolean solidBelow, ) { net.minecraft.client.world.ClientWorld.addParticle(pos.wrapperContained,state.wrapperContained,parameters.wrapperContained,solidBelow); }
+public void doRandomBlockDisplayTicks(int centerX,int centerY,int centerZ) { wrapperContained.doRandomBlockDisplayTicks(centerX,centerY,centerZ); }
+// public static void doRandomBlockDisplayTicks(int centerX,int centerY,int centerZ, ) { net.minecraft.client.world.ClientWorld.doRandomBlockDisplayTicks(centerX,centerY,centerZ); }
+// public void randomBlockDisplayTick(int centerX,int centerY,int centerZ,int radius,yarnwrap.util.math.random.Random random,yarnwrap.block.Block block,Object pos) { wrapperContained.randomBlockDisplayTick(centerX,centerY,centerZ,radius,random.wrapperContained,block.wrapperContained,pos); }
+// public static void randomBlockDisplayTick(int centerX,int centerY,int centerZ,int radius,yarnwrap.util.math.random.Random random,yarnwrap.block.Block block,Object pos, ) { net.minecraft.client.world.ClientWorld.randomBlockDisplayTick(centerX,centerY,centerZ,radius,random.wrapperContained,block.wrapperContained,pos); }
+// public void removeEntity(int entityId,Object removalReason) { wrapperContained.removeEntity(entityId,removalReason); }
+// public static void removeEntity(int entityId,Object removalReason, ) { net.minecraft.client.world.ClientWorld.removeEntity(entityId,removalReason); }
+// public void addParticle(yarnwrap.util.math.BlockPos pos,yarnwrap.particle.ParticleEffect parameters,yarnwrap.util.shape.VoxelShape shape,double y) { wrapperContained.addParticle(pos.wrapperContained,parameters.wrapperContained,shape.wrapperContained,y); }
+// public static void addParticle(yarnwrap.util.math.BlockPos pos,yarnwrap.particle.ParticleEffect parameters,yarnwrap.util.shape.VoxelShape shape,double y, ) { net.minecraft.client.world.ClientWorld.addParticle(pos.wrapperContained,parameters.wrapperContained,shape.wrapperContained,y); }
+public void tick(java.util.function.BooleanSupplier shouldKeepTicking) { wrapperContained.tick(shouldKeepTicking); }
+// public static void tick(java.util.function.BooleanSupplier shouldKeepTicking, ) { net.minecraft.client.world.ClientWorld.tick(shouldKeepTicking); }
 public void unloadBlockEntities(yarnwrap.world.chunk.WorldChunk chunk) { wrapperContained.unloadBlockEntities(chunk.wrapperContained); }
 // public static void unloadBlockEntities(yarnwrap.world.chunk.WorldChunk chunk, ) { net.minecraft.client.world.ClientWorld.unloadBlockEntities(chunk.wrapperContained); }
 public java.lang.Iterable getEntities() { return wrapperContained.getEntities(); }
@@ -111,8 +145,8 @@ public void tickEntity(yarnwrap.entity.Entity entity) { wrapperContained.tickEnt
 // public static void tickEntity(yarnwrap.entity.Entity entity, ) { net.minecraft.client.world.ClientWorld.tickEntity(entity.wrapperContained); }
 // public void tickPassenger(yarnwrap.entity.Entity entity,yarnwrap.entity.Entity passenger) { wrapperContained.tickPassenger(entity.wrapperContained,passenger.wrapperContained); }
 // public static void tickPassenger(yarnwrap.entity.Entity entity,yarnwrap.entity.Entity passenger, ) { net.minecraft.client.world.ClientWorld.tickPassenger(entity.wrapperContained,passenger.wrapperContained); }
-public yarnwrap.util.math.Vec3d getSkyColor(yarnwrap.util.math.Vec3d cameraPos,float tickDelta) { return new yarnwrap.util.math.Vec3d(wrapperContained.getSkyColor(cameraPos.wrapperContained,tickDelta)); }
-// public static yarnwrap.util.math.Vec3d getSkyColor(yarnwrap.util.math.Vec3d cameraPos,float tickDelta, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.client.world.ClientWorld.getSkyColor(cameraPos.wrapperContained,tickDelta)); }
+public int getSkyColor(yarnwrap.util.math.Vec3d cameraPos,float tickProgress) { return wrapperContained.getSkyColor(cameraPos.wrapperContained,tickProgress); }
+// public static int getSkyColor(yarnwrap.util.math.Vec3d cameraPos,float tickProgress, ) { return net.minecraft.client.world.ClientWorld.getSkyColor(cameraPos.wrapperContained,tickProgress); }
 // public void method_23778(it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap map) { wrapperContained.method_23778(map); }
 // public static void method_23778(it.unimi.dsi.fastutil.objects.Object2ObjectArrayMap map, ) { net.minecraft.client.world.ClientWorld.method_23778(map); }
 // public void method_23779(yarnwrap.world.biome.ColorResolver resolver,yarnwrap.client.world.BiomeColorCache cache) { wrapperContained.method_23779(resolver.wrapperContained,cache.wrapperContained); }
@@ -121,14 +155,14 @@ public int calculateColor(yarnwrap.util.math.BlockPos pos,yarnwrap.world.biome.C
 // public static int calculateColor(yarnwrap.util.math.BlockPos pos,yarnwrap.world.biome.ColorResolver colorResolver, ) { return net.minecraft.client.world.ClientWorld.calculateColor(pos.wrapperContained,colorResolver.wrapperContained); }
 public void resetChunkColor(yarnwrap.util.math.ChunkPos chunkPos) { wrapperContained.resetChunkColor(chunkPos.wrapperContained); }
 // public static void resetChunkColor(yarnwrap.util.math.ChunkPos chunkPos, ) { net.minecraft.client.world.ClientWorld.resetChunkColor(chunkPos.wrapperContained); }
-public float getSkyBrightness(float tickDelta) { return wrapperContained.getSkyBrightness(tickDelta); }
-// public static float getSkyBrightness(float tickDelta, ) { return net.minecraft.client.world.ClientWorld.getSkyBrightness(tickDelta); }
+public float getSkyBrightness(float tickProgress) { return wrapperContained.getSkyBrightness(tickProgress); }
+// public static float getSkyBrightness(float tickProgress, ) { return net.minecraft.client.world.ClientWorld.getSkyBrightness(tickProgress); }
 public void reloadColor() { wrapperContained.reloadColor(); }
 // public static void reloadColor() { net.minecraft.client.world.ClientWorld.reloadColor(); }
-public yarnwrap.util.math.Vec3d getCloudsColor(float tickDelta) { return new yarnwrap.util.math.Vec3d(wrapperContained.getCloudsColor(tickDelta)); }
-// public static yarnwrap.util.math.Vec3d getCloudsColor(float tickDelta, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.client.world.ClientWorld.getCloudsColor(tickDelta)); }
-public float getStarBrightness(float tickDelta) { return wrapperContained.getStarBrightness(tickDelta); }
-// public static float getStarBrightness(float tickDelta, ) { return net.minecraft.client.world.ClientWorld.getStarBrightness(tickDelta); }
+public int getCloudsColor(float tickProgress) { return wrapperContained.getCloudsColor(tickProgress); }
+// public static int getCloudsColor(float tickProgress, ) { return net.minecraft.client.world.ClientWorld.getCloudsColor(tickProgress); }
+public float getStarBrightness(float tickProgress) { return wrapperContained.getStarBrightness(tickProgress); }
+// public static float getStarBrightness(float tickProgress, ) { return net.minecraft.client.world.ClientWorld.getStarBrightness(tickProgress); }
 public int getLightningTicksLeft() { return wrapperContained.getLightningTicksLeft(); }
 // public static int getLightningTicksLeft() { return net.minecraft.client.world.ClientWorld.getLightningTicksLeft(); }
 // public void method_24462(Object config) { wrapperContained.method_24462(config); }
@@ -137,28 +171,16 @@ public void setSpawnPos(yarnwrap.util.math.BlockPos pos,float angle) { wrapperCo
 // public static void setSpawnPos(yarnwrap.util.math.BlockPos pos,float angle, ) { net.minecraft.client.world.ClientWorld.setSpawnPos(pos.wrapperContained,angle); }
 public yarnwrap.client.render.DimensionEffects getDimensionEffects() { return new yarnwrap.client.render.DimensionEffects(wrapperContained.getDimensionEffects()); }
 // public static yarnwrap.client.render.DimensionEffects getDimensionEffects() { return new yarnwrap.client.render.DimensionEffects(net.minecraft.client.world.ClientWorld.getDimensionEffects()); }
-public void setTime(long time) { wrapperContained.setTime(time); }
-// public static void setTime(long time, ) { net.minecraft.client.world.ClientWorld.setTime(time); }
+public void setTime(long time,long timeOfDay,boolean shouldTickTimeOfDay) { wrapperContained.setTime(time,timeOfDay,shouldTickTimeOfDay); }
+// public static void setTime(long time,long timeOfDay,boolean shouldTickTimeOfDay, ) { net.minecraft.client.world.ClientWorld.setTime(time,timeOfDay,shouldTickTimeOfDay); }
 // public void tickTime() { wrapperContained.tickTime(); }
 // public static void tickTime() { net.minecraft.client.world.ClientWorld.tickTime(); }
-// public void addParticle(double minX,double maxX,double minZ,double maxZ,double y,yarnwrap.particle.ParticleEffect parameters) { wrapperContained.addParticle(minX,maxX,minZ,maxZ,y,parameters.wrapperContained); }
-// public static void addParticle(double minX,double maxX,double minZ,double maxZ,double y,yarnwrap.particle.ParticleEffect parameters, ) { net.minecraft.client.world.ClientWorld.addParticle(minX,maxX,minZ,maxZ,y,parameters.wrapperContained); }
-// public void addParticle(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.particle.ParticleEffect parameters,boolean solidBelow) { wrapperContained.addParticle(pos.wrapperContained,state.wrapperContained,parameters.wrapperContained,solidBelow); }
-// public static void addParticle(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.particle.ParticleEffect parameters,boolean solidBelow, ) { net.minecraft.client.world.ClientWorld.addParticle(pos.wrapperContained,state.wrapperContained,parameters.wrapperContained,solidBelow); }
-public void doRandomBlockDisplayTicks(int centerX,int centerY,int centerZ) { wrapperContained.doRandomBlockDisplayTicks(centerX,centerY,centerZ); }
-// public static void doRandomBlockDisplayTicks(int centerX,int centerY,int centerZ, ) { net.minecraft.client.world.ClientWorld.doRandomBlockDisplayTicks(centerX,centerY,centerZ); }
-// public void randomBlockDisplayTick(int centerX,int centerY,int centerZ,int radius,yarnwrap.util.math.random.Random random,yarnwrap.block.Block block,Object pos) { wrapperContained.randomBlockDisplayTick(centerX,centerY,centerZ,radius,random.wrapperContained,block.wrapperContained,pos); }
-// public static void randomBlockDisplayTick(int centerX,int centerY,int centerZ,int radius,yarnwrap.util.math.random.Random random,yarnwrap.block.Block block,Object pos, ) { net.minecraft.client.world.ClientWorld.randomBlockDisplayTick(centerX,centerY,centerZ,radius,random.wrapperContained,block.wrapperContained,pos); }
-// public void removeEntity(int entityId,Object removalReason) { wrapperContained.removeEntity(entityId,removalReason); }
-// public static void removeEntity(int entityId,Object removalReason, ) { net.minecraft.client.world.ClientWorld.removeEntity(entityId,removalReason); }
-// public void addParticle(yarnwrap.util.math.BlockPos pos,yarnwrap.particle.ParticleEffect parameters,yarnwrap.util.shape.VoxelShape shape,double y) { wrapperContained.addParticle(pos.wrapperContained,parameters.wrapperContained,shape.wrapperContained,y); }
-// public static void addParticle(yarnwrap.util.math.BlockPos pos,yarnwrap.particle.ParticleEffect parameters,yarnwrap.util.shape.VoxelShape shape,double y, ) { net.minecraft.client.world.ClientWorld.addParticle(pos.wrapperContained,parameters.wrapperContained,shape.wrapperContained,y); }
 // public void method_32121(yarnwrap.util.math.ChunkPos resolver,yarnwrap.world.biome.ColorResolver cache) { wrapperContained.method_32121(resolver.wrapperContained,cache.wrapperContained); }
 // public static void method_32121(yarnwrap.util.math.ChunkPos resolver,yarnwrap.world.biome.ColorResolver cache, ) { net.minecraft.client.world.ClientWorld.method_32121(resolver.wrapperContained,cache.wrapperContained); }
 // public void method_32124(yarnwrap.entity.Entity entity) { wrapperContained.method_32124(entity.wrapperContained); }
 // public static void method_32124(yarnwrap.entity.Entity entity, ) { net.minecraft.client.world.ClientWorld.method_32124(entity.wrapperContained); }
-// public yarnwrap.util.math.Vec3d method_32689(yarnwrap.world.biome.source.BiomeAccess x,int y,int z) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_32689(x.wrapperContained,y,z)); }
-// public static yarnwrap.util.math.Vec3d method_32689(yarnwrap.world.biome.source.BiomeAccess x,int y,int z, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.client.world.ClientWorld.method_32689(x.wrapperContained,y,z)); }
+// public yarnwrap.util.math.Vec3d method_32689(int x,int y,int z) { return new yarnwrap.util.math.Vec3d(wrapperContained.method_32689(x,y,z)); }
+// public static yarnwrap.util.math.Vec3d method_32689(int x,int y,int z, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.client.world.ClientWorld.method_32689(x,y,z)); }
 // public yarnwrap.block.Block getBlockParticle() { return new yarnwrap.block.Block(wrapperContained.getBlockParticle()); }
 // public static yarnwrap.block.Block getBlockParticle() { return new yarnwrap.block.Block(net.minecraft.client.world.ClientWorld.getBlockParticle()); }
 // public void putMapStates(java.util.Map mapStates) { wrapperContained.putMapStates(mapStates); }
@@ -175,8 +197,6 @@ public void enqueueChunkUpdate(java.lang.Runnable updater) { wrapperContained.en
 // public static int method_38537(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.client.world.ClientWorld.method_38537(pos.wrapperContained); }
 // public int method_38538(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_38538(pos.wrapperContained); }
 // public static int method_38538(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.client.world.ClientWorld.method_38538(pos.wrapperContained); }
-public boolean hasNoChunkUpdaters() { return wrapperContained.hasNoChunkUpdaters(); }
-// public static boolean hasNoChunkUpdaters() { return net.minecraft.client.world.ClientWorld.hasNoChunkUpdaters(); }
 public void setSimulationDistance(int simulationDistance) { wrapperContained.setSimulationDistance(simulationDistance); }
 // public static void setSimulationDistance(int simulationDistance, ) { net.minecraft.client.world.ClientWorld.setSimulationDistance(simulationDistance); }
 public int getSimulationDistance() { return wrapperContained.getSimulationDistance(); }
@@ -195,9 +215,13 @@ public void putClientsideMapState(yarnwrap.component.type.MapIdComponent id,yarn
 // public static void putClientsideMapState(yarnwrap.component.type.MapIdComponent id,yarnwrap.item.map.MapState state, ) { net.minecraft.client.world.ClientWorld.putClientsideMapState(id.wrapperContained,state.wrapperContained); }
 public void addEntity(yarnwrap.entity.Entity entity) { wrapperContained.addEntity(entity.wrapperContained); }
 // public static void addEntity(yarnwrap.entity.Entity entity, ) { net.minecraft.client.world.ClientWorld.addEntity(entity.wrapperContained); }
-public void setTimeOfDay(long timeOfDay) { wrapperContained.setTimeOfDay(timeOfDay); }
-// public static void setTimeOfDay(long timeOfDay, ) { net.minecraft.client.world.ClientWorld.setTimeOfDay(timeOfDay); }
-public void tick(java.util.function.BooleanSupplier shouldKeepTicking) { wrapperContained.tick(shouldKeepTicking); }
-// public static void tick(java.util.function.BooleanSupplier shouldKeepTicking, ) { net.minecraft.client.world.ClientWorld.tick(shouldKeepTicking); }
+public boolean hasEntity(yarnwrap.entity.Entity entity) { return wrapperContained.hasEntity(entity.wrapperContained); }
+// public static boolean hasEntity(yarnwrap.entity.Entity entity, ) { return net.minecraft.client.world.ClientWorld.hasEntity(entity.wrapperContained); }
+public void scheduleChunkRenders(int minX,int minY,int minZ,int maxX,int maxY,int maxZ) { wrapperContained.scheduleChunkRenders(minX,minY,minZ,maxX,maxY,maxZ); }
+// public static void scheduleChunkRenders(int minX,int minY,int minZ,int maxX,int maxY,int maxZ, ) { net.minecraft.client.world.ClientWorld.scheduleChunkRenders(minX,minY,minZ,maxX,maxY,maxZ); }
+public void onChunkUnload(long sectionPos) { wrapperContained.onChunkUnload(sectionPos); }
+// public static void onChunkUnload(long sectionPos, ) { net.minecraft.client.world.ClientWorld.onChunkUnload(sectionPos); }
+// public int method_68160(yarnwrap.util.math.BlockPos pos) { return wrapperContained.method_68160(pos.wrapperContained); }
+// public static int method_68160(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.client.world.ClientWorld.method_68160(pos.wrapperContained); }
 
 }

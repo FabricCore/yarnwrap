@@ -62,6 +62,18 @@ public class MultiplayerScreen { public net.minecraft.client.gui.screen.multipla
 // public static void selectedEntry(yarnwrap.client.network.ServerInfo value, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.selectedEntry = value.wrapperContained; }
 
 public MultiplayerScreen(yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen(parent.wrapperContained); }
+public yarnwrap.client.option.ServerList getServerList() { return new yarnwrap.client.option.ServerList(wrapperContained.getServerList()); }
+// public static yarnwrap.client.option.ServerList getServerList() { return new yarnwrap.client.option.ServerList(net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.getServerList()); }
+// public void select(Object entry) { wrapperContained.select(entry); }
+// public static void select(Object entry, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.select(entry); }
+// public void refresh() { wrapperContained.refresh(); }
+// public static void refresh() { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.refresh(); }
+public void connect() { wrapperContained.connect(); }
+// public static void connect() { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.connect(); }
+public yarnwrap.client.network.MultiplayerServerListPinger getServerListPinger() { return new yarnwrap.client.network.MultiplayerServerListPinger(wrapperContained.getServerListPinger()); }
+// public static yarnwrap.client.network.MultiplayerServerListPinger getServerListPinger() { return new yarnwrap.client.network.MultiplayerServerListPinger(net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.getServerListPinger()); }
+// public void connect(yarnwrap.client.network.ServerInfo entry) { wrapperContained.connect(entry.wrapperContained); }
+// public static void connect(yarnwrap.client.network.ServerInfo entry, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.connect(entry.wrapperContained); }
 // public void method_19912(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19912(button.wrapperContained); }
 // public static void method_19912(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.method_19912(button.wrapperContained); }
 // public void method_19913(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19913(button.wrapperContained); }
@@ -86,17 +98,5 @@ public MultiplayerScreen(yarnwrap.client.gui.screen.Screen parent) { this.wrappe
 // public static void addEntry(boolean confirmedAction, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.addEntry(confirmedAction); }
 // public void directConnect(boolean confirmedAction) { wrapperContained.directConnect(confirmedAction); }
 // public static void directConnect(boolean confirmedAction, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.directConnect(confirmedAction); }
-public yarnwrap.client.option.ServerList getServerList() { return new yarnwrap.client.option.ServerList(wrapperContained.getServerList()); }
-// public static yarnwrap.client.option.ServerList getServerList() { return new yarnwrap.client.option.ServerList(net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.getServerList()); }
-// public void select(Object entry) { wrapperContained.select(entry); }
-// public static void select(Object entry, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.select(entry); }
-// public void refresh() { wrapperContained.refresh(); }
-// public static void refresh() { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.refresh(); }
-public void connect() { wrapperContained.connect(); }
-// public static void connect() { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.connect(); }
-public yarnwrap.client.network.MultiplayerServerListPinger getServerListPinger() { return new yarnwrap.client.network.MultiplayerServerListPinger(wrapperContained.getServerListPinger()); }
-// public static yarnwrap.client.network.MultiplayerServerListPinger getServerListPinger() { return new yarnwrap.client.network.MultiplayerServerListPinger(net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.getServerListPinger()); }
-// public void connect(yarnwrap.client.network.ServerInfo entry) { wrapperContained.connect(entry.wrapperContained); }
-// public static void connect(yarnwrap.client.network.ServerInfo entry, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerScreen.connect(entry.wrapperContained); }
 
 }

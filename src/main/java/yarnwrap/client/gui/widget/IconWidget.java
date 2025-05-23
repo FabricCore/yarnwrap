@@ -6,5 +6,7 @@ public class IconWidget { public net.minecraft.client.gui.widget.IconWidget wrap
 // public static yarnwrap.client.gui.widget.IconWidget create(int width,int height,yarnwrap.util.Identifier texture, ) { return new yarnwrap.client.gui.widget.IconWidget(net.minecraft.client.gui.widget.IconWidget.create(width,height,texture.wrapperContained)); }
 // public yarnwrap.client.gui.widget.IconWidget create(int width,int height,yarnwrap.util.Identifier texture,int textureWidth,int textureHeight) { return new yarnwrap.client.gui.widget.IconWidget(wrapperContained.create(width,height,texture.wrapperContained,textureWidth,textureHeight)); }
 // public static yarnwrap.client.gui.widget.IconWidget create(int width,int height,yarnwrap.util.Identifier texture,int textureWidth,int textureHeight, ) { return new yarnwrap.client.gui.widget.IconWidget(net.minecraft.client.gui.widget.IconWidget.create(width,height,texture.wrapperContained,textureWidth,textureHeight)); }
+// public void setTexture(yarnwrap.util.Identifier texture) { wrapperContained.setTexture(texture.wrapperContained); }
+// public static void setTexture(yarnwrap.util.Identifier texture, ) { net.minecraft.client.gui.widget.IconWidget.setTexture(texture.wrapperContained); }
 
 }

@@ -6,6 +6,5 @@ public class EntityRavagerRenameFix { public net.minecraft.datafixer.fix.EntityR
 public static java.util.Map ITEMS() { return net.minecraft.datafixer.fix.EntityRavagerRenameFix.ITEMS; }
 // public static void ITEMS(java.util.Map value, ) { net.minecraft.datafixer.fix.EntityRavagerRenameFix.ITEMS = value; }
 
-public EntityRavagerRenameFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.EntityRavagerRenameFix(outputSchema,changesType); }
 
 }

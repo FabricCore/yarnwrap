@@ -26,11 +26,6 @@ public boolean allowFlight() { return wrapperContained.allowFlight; }
 // public static boolean allowFlight() { return net.minecraft.server.dedicated.ServerPropertiesHandler.allowFlight; }
 // public static void allowFlight(boolean value, ) { net.minecraft.server.dedicated.ServerPropertiesHandler.allowFlight = value; }
 
-public boolean spawnNpcs() { return wrapperContained.spawnNpcs; }
-// public void spawnNpcs(boolean value) { wrapperContained.spawnNpcs = value; }
-// public static boolean spawnNpcs() { return net.minecraft.server.dedicated.ServerPropertiesHandler.spawnNpcs; }
-// public static void spawnNpcs(boolean value, ) { net.minecraft.server.dedicated.ServerPropertiesHandler.spawnNpcs = value; }
-
 public boolean allowNether() { return wrapperContained.allowNether; }
 // public void allowNether(boolean value) { wrapperContained.allowNether = value; }
 // public static boolean allowNether() { return net.minecraft.server.dedicated.ServerPropertiesHandler.allowNether; }
@@ -135,11 +130,6 @@ public boolean spawnMonsters() { return wrapperContained.spawnMonsters; }
 // public void spawnMonsters(boolean value) { wrapperContained.spawnMonsters = value; }
 // public static boolean spawnMonsters() { return net.minecraft.server.dedicated.ServerPropertiesHandler.spawnMonsters; }
 // public static void spawnMonsters(boolean value, ) { net.minecraft.server.dedicated.ServerPropertiesHandler.spawnMonsters = value; }
-
-public boolean spawnAnimals() { return wrapperContained.spawnAnimals; }
-// public void spawnAnimals(boolean value) { wrapperContained.spawnAnimals = value; }
-// public static boolean spawnAnimals() { return net.minecraft.server.dedicated.ServerPropertiesHandler.spawnAnimals; }
-// public static void spawnAnimals(boolean value, ) { net.minecraft.server.dedicated.ServerPropertiesHandler.spawnAnimals = value; }
 
 public int serverPort() { return wrapperContained.serverPort; }
 // public void serverPort(int value) { wrapperContained.serverPort = value; }
@@ -291,6 +281,16 @@ public java.lang.String bugReportLink() { return wrapperContained.bugReportLink;
 // public static java.lang.String bugReportLink() { return net.minecraft.server.dedicated.ServerPropertiesHandler.bugReportLink; }
 // public static void bugReportLink(java.lang.String value, ) { net.minecraft.server.dedicated.ServerPropertiesHandler.bugReportLink = value; }
 
+public int textFilteringVersion() { return wrapperContained.textFilteringVersion; }
+// public void textFilteringVersion(int value) { wrapperContained.textFilteringVersion = value; }
+// public static int textFilteringVersion() { return net.minecraft.server.dedicated.ServerPropertiesHandler.textFilteringVersion; }
+// public static void textFilteringVersion(int value, ) { net.minecraft.server.dedicated.ServerPropertiesHandler.textFilteringVersion = value; }
+
+public int pauseWhenEmptySeconds() { return wrapperContained.pauseWhenEmptySeconds; }
+// public void pauseWhenEmptySeconds(int value) { wrapperContained.pauseWhenEmptySeconds = value; }
+// public static int pauseWhenEmptySeconds() { return net.minecraft.server.dedicated.ServerPropertiesHandler.pauseWhenEmptySeconds; }
+// public static void pauseWhenEmptySeconds(int value, ) { net.minecraft.server.dedicated.ServerPropertiesHandler.pauseWhenEmptySeconds = value; }
+
 // public yarnwrap.server.dedicated.ServerPropertiesHandler load(java.nio.file.Path path) { return new yarnwrap.server.dedicated.ServerPropertiesHandler(wrapperContained.load(path)); }
 // public static yarnwrap.server.dedicated.ServerPropertiesHandler load(java.nio.file.Path path, ) { return new yarnwrap.server.dedicated.ServerPropertiesHandler(net.minecraft.server.dedicated.ServerPropertiesHandler.load(path)); }
 // public java.lang.Integer method_16715(java.lang.Integer maxWorldSize) { return wrapperContained.method_16715(maxWorldSize); }
@@ -305,8 +305,8 @@ public java.lang.String bugReportLink() { return wrapperContained.bugReportLink;
 // public static java.util.Optional getServerResourcePackProperties(java.lang.String id,java.lang.String url,java.lang.String sha1,java.lang.String hash,boolean required,java.lang.String prompt, ) { return net.minecraft.server.dedicated.ServerPropertiesHandler.getServerResourcePackProperties(id,url,sha1,hash,required,prompt); }
 // public yarnwrap.text.Text parseResourcePackPrompt(java.lang.String prompt) { return new yarnwrap.text.Text(wrapperContained.parseResourcePackPrompt(prompt)); }
 // public static yarnwrap.text.Text parseResourcePackPrompt(java.lang.String prompt, ) { return new yarnwrap.text.Text(net.minecraft.server.dedicated.ServerPropertiesHandler.parseResourcePackPrompt(prompt)); }
-public yarnwrap.world.dimension.DimensionOptionsRegistryHolder createDimensionsRegistryHolder(yarnwrap.registry.DynamicRegistryManager dynamicRegistry) { return new yarnwrap.world.dimension.DimensionOptionsRegistryHolder(wrapperContained.createDimensionsRegistryHolder(dynamicRegistry.wrapperContained)); }
-// public static yarnwrap.world.dimension.DimensionOptionsRegistryHolder createDimensionsRegistryHolder(yarnwrap.registry.DynamicRegistryManager dynamicRegistry, ) { return new yarnwrap.world.dimension.DimensionOptionsRegistryHolder(net.minecraft.server.dedicated.ServerPropertiesHandler.createDimensionsRegistryHolder(dynamicRegistry.wrapperContained)); }
+// public yarnwrap.world.dimension.DimensionOptionsRegistryHolder createDimensionsRegistryHolder(Object registries) { return new yarnwrap.world.dimension.DimensionOptionsRegistryHolder(wrapperContained.createDimensionsRegistryHolder(registries)); }
+// public static yarnwrap.world.dimension.DimensionOptionsRegistryHolder createDimensionsRegistryHolder(Object registries, ) { return new yarnwrap.world.dimension.DimensionOptionsRegistryHolder(net.minecraft.server.dedicated.ServerPropertiesHandler.createDimensionsRegistryHolder(registries)); }
 // public yarnwrap.resource.DataPackSettings parseDataPackSettings(java.lang.String enabled,java.lang.String disabled) { return new yarnwrap.resource.DataPackSettings(wrapperContained.parseDataPackSettings(enabled,disabled)); }
 // public static yarnwrap.resource.DataPackSettings parseDataPackSettings(java.lang.String enabled,java.lang.String disabled, ) { return new yarnwrap.resource.DataPackSettings(net.minecraft.server.dedicated.ServerPropertiesHandler.parseDataPackSettings(enabled,disabled)); }
 

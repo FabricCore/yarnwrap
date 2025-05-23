@@ -6,10 +6,6 @@ public class PathAwareEntity { public net.minecraft.entity.mob.PathAwareEntity w
 // public static float DEFAULT_PATHFINDING_FAVOR() { return net.minecraft.entity.mob.PathAwareEntity.DEFAULT_PATHFINDING_FAVOR; }
 // public static void DEFAULT_PATHFINDING_FAVOR(float value, ) { net.minecraft.entity.mob.PathAwareEntity.DEFAULT_PATHFINDING_FAVOR = value; }
 
-// public boolean shouldFollowLeash() { return wrapperContained.shouldFollowLeash(); }
-// public static boolean shouldFollowLeash() { return net.minecraft.entity.mob.PathAwareEntity.shouldFollowLeash(); }
-public boolean isPanicking() { return wrapperContained.isPanicking(); }
-// public static boolean isPanicking() { return net.minecraft.entity.mob.PathAwareEntity.isPanicking(); }
 public float getPathfindingFavor(yarnwrap.util.math.BlockPos pos,yarnwrap.world.WorldView world) { return wrapperContained.getPathfindingFavor(pos.wrapperContained,world.wrapperContained); }
 // public static float getPathfindingFavor(yarnwrap.util.math.BlockPos pos,yarnwrap.world.WorldView world, ) { return net.minecraft.entity.mob.PathAwareEntity.getPathfindingFavor(pos.wrapperContained,world.wrapperContained); }
 // public double getFollowLeashSpeed() { return wrapperContained.getFollowLeashSpeed(); }
@@ -18,5 +14,9 @@ public float getPathfindingFavor(yarnwrap.util.math.BlockPos pos) { return wrapp
 // public static float getPathfindingFavor(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.mob.PathAwareEntity.getPathfindingFavor(pos.wrapperContained); }
 public boolean isNavigating() { return wrapperContained.isNavigating(); }
 // public static boolean isNavigating() { return net.minecraft.entity.mob.PathAwareEntity.isNavigating(); }
+// public boolean shouldFollowLeash() { return wrapperContained.shouldFollowLeash(); }
+// public static boolean shouldFollowLeash() { return net.minecraft.entity.mob.PathAwareEntity.shouldFollowLeash(); }
+public boolean isPanicking() { return wrapperContained.isPanicking(); }
+// public static boolean isPanicking() { return net.minecraft.entity.mob.PathAwareEntity.isPanicking(); }
 
 }

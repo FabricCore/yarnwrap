@@ -56,5 +56,20 @@ public static int GREEN() { return net.minecraft.util.Colors.GREEN; }
 public static int BLUE() { return net.minecraft.util.Colors.BLUE; }
 // public static void BLUE(int value, ) { net.minecraft.util.Colors.BLUE = value; }
 
+// public int PURPLE() { return wrapperContained.PURPLE; }
+// public void PURPLE(int value) { wrapperContained.PURPLE = value; }
+public static int PURPLE() { return net.minecraft.util.Colors.PURPLE; }
+// public static void PURPLE(int value, ) { net.minecraft.util.Colors.PURPLE = value; }
+
+// public int CYAN() { return wrapperContained.CYAN; }
+// public void CYAN(int value) { wrapperContained.CYAN = value; }
+public static int CYAN() { return net.minecraft.util.Colors.CYAN; }
+// public static void CYAN(int value, ) { net.minecraft.util.Colors.CYAN = value; }
+
+// public int DARK_GRAY() { return wrapperContained.DARK_GRAY; }
+// public void DARK_GRAY(int value) { wrapperContained.DARK_GRAY = value; }
+// public static int DARK_GRAY() { return net.minecraft.util.Colors.DARK_GRAY; }
+// public static void DARK_GRAY(int value, ) { net.minecraft.util.Colors.DARK_GRAY = value; }
+
 
 }

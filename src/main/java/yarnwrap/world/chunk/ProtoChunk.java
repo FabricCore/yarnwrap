@@ -6,10 +6,10 @@ public class ProtoChunk { public net.minecraft.world.chunk.ProtoChunk wrapperCon
 // public static yarnwrap.world.chunk.ChunkStatus status() { return new yarnwrap.world.chunk.ChunkStatus(net.minecraft.world.chunk.ProtoChunk.status); }
 // public static void status(yarnwrap.world.chunk.ChunkStatus value, ) { net.minecraft.world.chunk.ProtoChunk.status = value.wrapperContained; }
 
-// public java.util.Map carvingMasks() { return wrapperContained.carvingMasks; }
-// public void carvingMasks(java.util.Map value) { wrapperContained.carvingMasks = value; }
-// public static java.util.Map carvingMasks() { return net.minecraft.world.chunk.ProtoChunk.carvingMasks; }
-// public static void carvingMasks(java.util.Map value, ) { net.minecraft.world.chunk.ProtoChunk.carvingMasks = value; }
+// public yarnwrap.world.gen.carver.CarvingMask carvingMask() { return new yarnwrap.world.gen.carver.CarvingMask(wrapperContained.carvingMask); }
+// public void carvingMask(yarnwrap.world.gen.carver.CarvingMask value) { wrapperContained.carvingMask = value.wrapperContained; }
+// public static yarnwrap.world.gen.carver.CarvingMask carvingMask() { return new yarnwrap.world.gen.carver.CarvingMask(net.minecraft.world.chunk.ProtoChunk.carvingMask); }
+// public static void carvingMask(yarnwrap.world.gen.carver.CarvingMask value, ) { net.minecraft.world.chunk.ProtoChunk.carvingMask = value.wrapperContained; }
 
 // public java.util.List entities() { return wrapperContained.entities; }
 // public void entities(java.util.List value) { wrapperContained.entities = value; }
@@ -36,20 +36,23 @@ public class ProtoChunk { public net.minecraft.world.chunk.ProtoChunk wrapperCon
 // public static yarnwrap.world.tick.SimpleTickScheduler fluidTickScheduler() { return new yarnwrap.world.tick.SimpleTickScheduler(net.minecraft.world.chunk.ProtoChunk.fluidTickScheduler); }
 // public static void fluidTickScheduler(yarnwrap.world.tick.SimpleTickScheduler value, ) { net.minecraft.world.chunk.ProtoChunk.fluidTickScheduler = value.wrapperContained; }
 
-public ProtoChunk(yarnwrap.util.math.ChunkPos pos,yarnwrap.world.chunk.UpgradeData upgradeData,yarnwrap.world.HeightLimitView world,yarnwrap.registry.Registry biomeRegistry,yarnwrap.world.gen.chunk.BlendingData blendingData) { this.wrapperContained = new net.minecraft.world.chunk.ProtoChunk(pos.wrapperContained,upgradeData.wrapperContained,world.wrapperContained,biomeRegistry.wrapperContained,blendingData.wrapperContained); }
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.world.chunk.ProtoChunk.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.world.chunk.ProtoChunk.LOGGER = value; }
+
 public ProtoChunk(yarnwrap.util.math.ChunkPos pos,yarnwrap.world.chunk.UpgradeData upgradeData,net.minecraft.world.chunk.ChunkSection[] sections,yarnwrap.world.tick.SimpleTickScheduler blockTickScheduler,yarnwrap.world.tick.SimpleTickScheduler fluidTickScheduler,yarnwrap.world.HeightLimitView world,yarnwrap.registry.Registry biomeRegistry,yarnwrap.world.gen.chunk.BlendingData blendingData) { this.wrapperContained = new net.minecraft.world.chunk.ProtoChunk(pos.wrapperContained,upgradeData.wrapperContained,sections,blockTickScheduler.wrapperContained,fluidTickScheduler.wrapperContained,world.wrapperContained,biomeRegistry.wrapperContained,blendingData.wrapperContained); }
-// public yarnwrap.world.gen.carver.CarvingMask getCarvingMask(Object step) { return new yarnwrap.world.gen.carver.CarvingMask(wrapperContained.getCarvingMask(step)); }
-// public static yarnwrap.world.gen.carver.CarvingMask getCarvingMask(Object step, ) { return new yarnwrap.world.gen.carver.CarvingMask(net.minecraft.world.chunk.ProtoChunk.getCarvingMask(step)); }
+public ProtoChunk(yarnwrap.util.math.ChunkPos pos,yarnwrap.world.chunk.UpgradeData upgradeData,yarnwrap.world.HeightLimitView world,yarnwrap.registry.Registry biomeRegistry,yarnwrap.world.gen.chunk.BlendingData blendingData) { this.wrapperContained = new net.minecraft.world.chunk.ProtoChunk(pos.wrapperContained,upgradeData.wrapperContained,world.wrapperContained,biomeRegistry.wrapperContained,blendingData.wrapperContained); }
+public yarnwrap.world.gen.carver.CarvingMask getCarvingMask() { return new yarnwrap.world.gen.carver.CarvingMask(wrapperContained.getCarvingMask()); }
+// public static yarnwrap.world.gen.carver.CarvingMask getCarvingMask() { return new yarnwrap.world.gen.carver.CarvingMask(net.minecraft.world.chunk.ProtoChunk.getCarvingMask()); }
 public java.util.List getEntities() { return wrapperContained.getEntities(); }
 // public static java.util.List getEntities() { return net.minecraft.world.chunk.ProtoChunk.getEntities(); }
-// public yarnwrap.world.gen.carver.CarvingMask method_12297(Object step2) { return new yarnwrap.world.gen.carver.CarvingMask(wrapperContained.method_12297(step2)); }
-// public static yarnwrap.world.gen.carver.CarvingMask method_12297(Object step2, ) { return new yarnwrap.world.gen.carver.CarvingMask(net.minecraft.world.chunk.ProtoChunk.method_12297(step2)); }
 // public short getPackedSectionRelative(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getPackedSectionRelative(pos.wrapperContained); }
 // public static short getPackedSectionRelative(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.chunk.ProtoChunk.getPackedSectionRelative(pos.wrapperContained); }
 public void addEntity(yarnwrap.nbt.NbtCompound entityNbt) { wrapperContained.addEntity(entityNbt.wrapperContained); }
 // public static void addEntity(yarnwrap.nbt.NbtCompound entityNbt, ) { net.minecraft.world.chunk.ProtoChunk.addEntity(entityNbt.wrapperContained); }
-// public void setCarvingMask(Object step,yarnwrap.world.gen.carver.CarvingMask carvingMask) { wrapperContained.setCarvingMask(step,carvingMask.wrapperContained); }
-// public static void setCarvingMask(Object step,yarnwrap.world.gen.carver.CarvingMask carvingMask, ) { net.minecraft.world.chunk.ProtoChunk.setCarvingMask(step,carvingMask.wrapperContained); }
+public void setCarvingMask(yarnwrap.world.gen.carver.CarvingMask carvingMask) { wrapperContained.setCarvingMask(carvingMask.wrapperContained); }
+// public static void setCarvingMask(yarnwrap.world.gen.carver.CarvingMask carvingMask, ) { net.minecraft.world.chunk.ProtoChunk.setCarvingMask(carvingMask.wrapperContained); }
 public void setStatus(yarnwrap.world.chunk.ChunkStatus status) { wrapperContained.setStatus(status.wrapperContained); }
 // public static void setStatus(yarnwrap.world.chunk.ChunkStatus status, ) { net.minecraft.world.chunk.ProtoChunk.setStatus(status.wrapperContained); }
 public java.util.Map getBlockEntities() { return wrapperContained.getBlockEntities(); }
@@ -60,8 +63,8 @@ public java.util.Map getBlockEntityNbts() { return wrapperContained.getBlockEnti
 // public static java.util.Map getBlockEntityNbts() { return net.minecraft.world.chunk.ProtoChunk.getBlockEntityNbts(); }
 public void setLightingProvider(yarnwrap.world.chunk.light.LightingProvider lightingProvider) { wrapperContained.setLightingProvider(lightingProvider.wrapperContained); }
 // public static void setLightingProvider(yarnwrap.world.chunk.light.LightingProvider lightingProvider, ) { net.minecraft.world.chunk.ProtoChunk.setLightingProvider(lightingProvider.wrapperContained); }
-// public yarnwrap.world.gen.carver.CarvingMask getOrCreateCarvingMask(Object step) { return new yarnwrap.world.gen.carver.CarvingMask(wrapperContained.getOrCreateCarvingMask(step)); }
-// public static yarnwrap.world.gen.carver.CarvingMask getOrCreateCarvingMask(Object step, ) { return new yarnwrap.world.gen.carver.CarvingMask(net.minecraft.world.chunk.ProtoChunk.getOrCreateCarvingMask(step)); }
+public yarnwrap.world.gen.carver.CarvingMask getOrCreateCarvingMask() { return new yarnwrap.world.gen.carver.CarvingMask(wrapperContained.getOrCreateCarvingMask()); }
+// public static yarnwrap.world.gen.carver.CarvingMask getOrCreateCarvingMask() { return new yarnwrap.world.gen.carver.CarvingMask(net.minecraft.world.chunk.ProtoChunk.getOrCreateCarvingMask()); }
 public yarnwrap.world.tick.ChunkTickScheduler getBlockProtoTickScheduler() { return new yarnwrap.world.tick.ChunkTickScheduler(wrapperContained.getBlockProtoTickScheduler()); }
 // public static yarnwrap.world.tick.ChunkTickScheduler getBlockProtoTickScheduler() { return new yarnwrap.world.tick.ChunkTickScheduler(net.minecraft.world.chunk.ProtoChunk.getBlockProtoTickScheduler()); }
 public yarnwrap.world.tick.ChunkTickScheduler getFluidProtoTickScheduler() { return new yarnwrap.world.tick.ChunkTickScheduler(wrapperContained.getFluidProtoTickScheduler()); }

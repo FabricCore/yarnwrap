@@ -1,15 +1,10 @@
 package yarnwrap.block;
 public class EndPortalFrameBlock { public net.minecraft.block.EndPortalFrameBlock wrapperContained; public EndPortalFrameBlock(net.minecraft.block.EndPortalFrameBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.util.shape.VoxelShape EYE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.EYE_SHAPE); }
-// public void EYE_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.EYE_SHAPE = value.wrapperContained; }
-// public static yarnwrap.util.shape.VoxelShape EYE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.EndPortalFrameBlock.EYE_SHAPE); }
-// public static void EYE_SHAPE(yarnwrap.util.shape.VoxelShape value, ) { net.minecraft.block.EndPortalFrameBlock.EYE_SHAPE = value.wrapperContained; }
-
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.EndPortalFrameBlock.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.EndPortalFrameBlock.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.EndPortalFrameBlock.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.EndPortalFrameBlock.FACING = value.wrapperContained; }
 
 // public yarnwrap.util.shape.VoxelShape FRAME_WITH_EYE_SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.FRAME_WITH_EYE_SHAPE); }
 // public void FRAME_WITH_EYE_SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.FRAME_WITH_EYE_SHAPE = value.wrapperContained; }

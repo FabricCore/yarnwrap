@@ -19,7 +19,5 @@ public class KickCommand { public net.minecraft.server.command.KickCommand wrapp
 // public static int execute(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.text.Text reason, ) { return net.minecraft.server.command.KickCommand.execute(source.wrapperContained,targets,reason.wrapperContained); }
 // public int method_13412(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13412(context); }
 // public static int method_13412(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.KickCommand.method_13412(context); }
-// public boolean method_13413(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13413(source.wrapperContained); }
-// public static boolean method_13413(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.KickCommand.method_13413(source.wrapperContained); }
 
 }

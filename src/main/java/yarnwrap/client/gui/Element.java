@@ -34,5 +34,7 @@ public yarnwrap.client.gui.navigation.GuiNavigationPath getNavigationPath(yarnwr
 // public static yarnwrap.client.gui.navigation.GuiNavigationPath getNavigationPath(yarnwrap.client.gui.navigation.GuiNavigation navigation, ) { return new yarnwrap.client.gui.navigation.GuiNavigationPath(net.minecraft.client.gui.Element.getNavigationPath(navigation.wrapperContained)); }
 public yarnwrap.client.gui.navigation.GuiNavigationPath getFocusedPath() { return new yarnwrap.client.gui.navigation.GuiNavigationPath(wrapperContained.getFocusedPath()); }
 // public static yarnwrap.client.gui.navigation.GuiNavigationPath getFocusedPath() { return new yarnwrap.client.gui.navigation.GuiNavigationPath(net.minecraft.client.gui.Element.getFocusedPath()); }
+public yarnwrap.client.gui.ScreenRect getBorder(yarnwrap.client.gui.navigation.NavigationDirection direction) { return new yarnwrap.client.gui.ScreenRect(wrapperContained.getBorder(direction.wrapperContained)); }
+// public static yarnwrap.client.gui.ScreenRect getBorder(yarnwrap.client.gui.navigation.NavigationDirection direction, ) { return new yarnwrap.client.gui.ScreenRect(net.minecraft.client.gui.Element.getBorder(direction.wrapperContained)); }
 
 }

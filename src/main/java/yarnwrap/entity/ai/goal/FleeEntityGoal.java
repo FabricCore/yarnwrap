@@ -1,11 +1,6 @@
 package yarnwrap.entity.ai.goal;
 public class FleeEntityGoal { public net.minecraft.entity.ai.goal.FleeEntityGoal wrapperContained; public FleeEntityGoal(net.minecraft.entity.ai.goal.FleeEntityGoal wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.entity.ai.TargetPredicate withinRangePredicate() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.withinRangePredicate); }
-// public void withinRangePredicate(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.withinRangePredicate = value.wrapperContained; }
-// public static yarnwrap.entity.ai.TargetPredicate withinRangePredicate() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.FleeEntityGoal.withinRangePredicate); }
-// public static void withinRangePredicate(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.FleeEntityGoal.withinRangePredicate = value.wrapperContained; }
-
 // public double slowSpeed() { return wrapperContained.slowSpeed; }
 // public void slowSpeed(double value) { wrapperContained.slowSpeed = value; }
 // public static double slowSpeed() { return net.minecraft.entity.ai.goal.FleeEntityGoal.slowSpeed; }
@@ -56,8 +51,19 @@ public class FleeEntityGoal { public net.minecraft.entity.ai.goal.FleeEntityGoal
 // public static double fastSpeed() { return net.minecraft.entity.ai.goal.FleeEntityGoal.fastSpeed; }
 // public static void fastSpeed(double value, ) { net.minecraft.entity.ai.goal.FleeEntityGoal.fastSpeed = value; }
 
+// public yarnwrap.entity.ai.TargetPredicate withinRangePredicate() { return new yarnwrap.entity.ai.TargetPredicate(wrapperContained.withinRangePredicate); }
+// public void withinRangePredicate(yarnwrap.entity.ai.TargetPredicate value) { wrapperContained.withinRangePredicate = value.wrapperContained; }
+// public static yarnwrap.entity.ai.TargetPredicate withinRangePredicate() { return new yarnwrap.entity.ai.TargetPredicate(net.minecraft.entity.ai.goal.FleeEntityGoal.withinRangePredicate); }
+// public static void withinRangePredicate(yarnwrap.entity.ai.TargetPredicate value, ) { net.minecraft.entity.ai.goal.FleeEntityGoal.withinRangePredicate = value.wrapperContained; }
+
 public FleeEntityGoal(yarnwrap.entity.mob.PathAwareEntity mob,java.lang.Class fleeFromType,float distance,double slowSpeed,double fastSpeed) { this.wrapperContained = new net.minecraft.entity.ai.goal.FleeEntityGoal(mob.wrapperContained,fleeFromType,distance,slowSpeed,fastSpeed); }
 public FleeEntityGoal(yarnwrap.entity.mob.PathAwareEntity fleeingEntity,java.lang.Class classToFleeFrom,float fleeDistance,double fleeSlowSpeed,double fleeFastSpeed,java.util.function.Predicate inclusionSelector) { this.wrapperContained = new net.minecraft.entity.ai.goal.FleeEntityGoal(fleeingEntity.wrapperContained,classToFleeFrom,fleeDistance,fleeSlowSpeed,fleeFastSpeed,inclusionSelector); }
 public FleeEntityGoal(yarnwrap.entity.mob.PathAwareEntity mob,java.lang.Class fleeFromType,java.util.function.Predicate extraInclusionSelector,float distance,double slowSpeed,double fastSpeed,java.util.function.Predicate inclusionSelector) { this.wrapperContained = new net.minecraft.entity.ai.goal.FleeEntityGoal(mob.wrapperContained,fleeFromType,extraInclusionSelector,distance,slowSpeed,fastSpeed,inclusionSelector); }
+// public boolean method_6245(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_6245(entity.wrapperContained); }
+// public static boolean method_6245(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.ai.goal.FleeEntityGoal.method_6245(entity.wrapperContained); }
+// public boolean method_6246(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_6246(entity.wrapperContained); }
+// public static boolean method_6246(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.ai.goal.FleeEntityGoal.method_6246(entity.wrapperContained); }
+// public boolean method_64450(java.util.function.Predicate entity,java.util.function.Predicate world) { return wrapperContained.method_64450(entity,world); }
+// public static boolean method_64450(java.util.function.Predicate entity,java.util.function.Predicate world, ) { return net.minecraft.entity.ai.goal.FleeEntityGoal.method_64450(entity,world); }
 
 }

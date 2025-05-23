@@ -1,16 +1,6 @@
 package yarnwrap.entity.mob;
 public class SlimeEntity { public net.minecraft.entity.mob.SlimeEntity wrapperContained; public SlimeEntity(net.minecraft.entity.mob.SlimeEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int MIN_SIZE() { return wrapperContained.MIN_SIZE; }
-// public void MIN_SIZE(int value) { wrapperContained.MIN_SIZE = value; }
-public static int MIN_SIZE() { return net.minecraft.entity.mob.SlimeEntity.MIN_SIZE; }
-// public static void MIN_SIZE(int value, ) { net.minecraft.entity.mob.SlimeEntity.MIN_SIZE = value; }
-
-// public int MAX_SIZE() { return wrapperContained.MAX_SIZE; }
-// public void MAX_SIZE(int value) { wrapperContained.MAX_SIZE = value; }
-public static int MAX_SIZE() { return net.minecraft.entity.mob.SlimeEntity.MAX_SIZE; }
-// public static void MAX_SIZE(int value, ) { net.minecraft.entity.mob.SlimeEntity.MAX_SIZE = value; }
-
 public float lastStretch() { return wrapperContained.lastStretch; }
 public void lastStretch(float value) { wrapperContained.lastStretch = value; }
 // public static float lastStretch() { return net.minecraft.entity.mob.SlimeEntity.lastStretch; }
@@ -36,10 +26,21 @@ public void targetStretch(float value) { wrapperContained.targetStretch = value;
 // public static boolean onGroundLastTick() { return net.minecraft.entity.mob.SlimeEntity.onGroundLastTick; }
 // public static void onGroundLastTick(boolean value, ) { net.minecraft.entity.mob.SlimeEntity.onGroundLastTick = value; }
 
-// public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
-// public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.mob.SlimeEntity.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
-// public float getJumpSoundPitch() { return wrapperContained.getJumpSoundPitch(); }
-// public static float getJumpSoundPitch() { return net.minecraft.entity.mob.SlimeEntity.getJumpSoundPitch(); }
+// public int MIN_SIZE() { return wrapperContained.MIN_SIZE; }
+// public void MIN_SIZE(int value) { wrapperContained.MIN_SIZE = value; }
+public static int MIN_SIZE() { return net.minecraft.entity.mob.SlimeEntity.MIN_SIZE; }
+// public static void MIN_SIZE(int value, ) { net.minecraft.entity.mob.SlimeEntity.MIN_SIZE = value; }
+
+// public int MAX_SIZE() { return wrapperContained.MAX_SIZE; }
+// public void MAX_SIZE(int value) { wrapperContained.MAX_SIZE = value; }
+public static int MAX_SIZE() { return net.minecraft.entity.mob.SlimeEntity.MAX_SIZE; }
+// public static void MAX_SIZE(int value, ) { net.minecraft.entity.mob.SlimeEntity.MAX_SIZE = value; }
+
+// public boolean DEFAULT_ON_GROUND_LAST_TICK() { return wrapperContained.DEFAULT_ON_GROUND_LAST_TICK; }
+// public void DEFAULT_ON_GROUND_LAST_TICK(boolean value) { wrapperContained.DEFAULT_ON_GROUND_LAST_TICK = value; }
+// public static boolean DEFAULT_ON_GROUND_LAST_TICK() { return net.minecraft.entity.mob.SlimeEntity.DEFAULT_ON_GROUND_LAST_TICK; }
+// public static void DEFAULT_ON_GROUND_LAST_TICK(boolean value, ) { net.minecraft.entity.mob.SlimeEntity.DEFAULT_ON_GROUND_LAST_TICK = value; }
+
 public int getSize() { return wrapperContained.getSize(); }
 // public static int getSize() { return net.minecraft.entity.mob.SlimeEntity.getSize(); }
 // public yarnwrap.sound.SoundEvent getJumpSound() { return new yarnwrap.sound.SoundEvent(wrapperContained.getJumpSound()); }
@@ -64,5 +65,13 @@ public void setSize(int size,boolean heal) { wrapperContained.setSize(size,heal)
 // public static yarnwrap.particle.ParticleEffect getParticles() { return new yarnwrap.particle.ParticleEffect(net.minecraft.entity.mob.SlimeEntity.getParticles()); }
 // public boolean canAttack() { return wrapperContained.canAttack(); }
 // public static boolean canAttack() { return net.minecraft.entity.mob.SlimeEntity.canAttack(); }
+// public boolean method_18451(yarnwrap.entity.LivingEntity target,yarnwrap.server.world.ServerWorld world) { return wrapperContained.method_18451(target.wrapperContained,world.wrapperContained); }
+// public static boolean method_18451(yarnwrap.entity.LivingEntity target,yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.entity.mob.SlimeEntity.method_18451(target.wrapperContained,world.wrapperContained); }
+// public boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random) { return wrapperContained.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public static boolean canSpawn(yarnwrap.entity.EntityType type,yarnwrap.world.WorldAccess world,yarnwrap.entity.SpawnReason spawnReason,yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.random.Random random, ) { return net.minecraft.entity.mob.SlimeEntity.canSpawn(type.wrapperContained,world.wrapperContained,spawnReason.wrapperContained,pos.wrapperContained,random.wrapperContained); }
+// public float getJumpSoundPitch() { return wrapperContained.getJumpSoundPitch(); }
+// public static float getJumpSoundPitch() { return net.minecraft.entity.mob.SlimeEntity.getJumpSoundPitch(); }
+// public void method_63653(int newSlime) { wrapperContained.method_63653(newSlime); }
+// public static void method_63653(int newSlime, ) { net.minecraft.entity.mob.SlimeEntity.method_63653(newSlime); }
 
 }

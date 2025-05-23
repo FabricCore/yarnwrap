@@ -6,15 +6,15 @@ public class LootCommand { public net.minecraft.server.command.LootCommand wrapp
 // public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType NO_HELD_ITEMS_EXCEPTION() { return net.minecraft.server.command.LootCommand.NO_HELD_ITEMS_EXCEPTION; }
 // public static void NO_HELD_ITEMS_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.LootCommand.NO_HELD_ITEMS_EXCEPTION = value; }
 
-// public com.mojang.brigadier.suggestion.SuggestionProvider SUGGESTION_PROVIDER() { return wrapperContained.SUGGESTION_PROVIDER; }
-// public void SUGGESTION_PROVIDER(com.mojang.brigadier.suggestion.SuggestionProvider value) { wrapperContained.SUGGESTION_PROVIDER = value; }
-public static com.mojang.brigadier.suggestion.SuggestionProvider SUGGESTION_PROVIDER() { return net.minecraft.server.command.LootCommand.SUGGESTION_PROVIDER; }
-// public static void SUGGESTION_PROVIDER(com.mojang.brigadier.suggestion.SuggestionProvider value, ) { net.minecraft.server.command.LootCommand.SUGGESTION_PROVIDER = value; }
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType NO_LOOT_TABLE_ENTITY_EXCEPTION() { return wrapperContained.NO_LOOT_TABLE_ENTITY_EXCEPTION; }
+// public void NO_LOOT_TABLE_ENTITY_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.NO_LOOT_TABLE_ENTITY_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType NO_LOOT_TABLE_ENTITY_EXCEPTION() { return net.minecraft.server.command.LootCommand.NO_LOOT_TABLE_ENTITY_EXCEPTION; }
+// public static void NO_LOOT_TABLE_ENTITY_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.LootCommand.NO_LOOT_TABLE_ENTITY_EXCEPTION = value; }
 
-// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType NO_LOOT_TABLE_EXCEPTION() { return wrapperContained.NO_LOOT_TABLE_EXCEPTION; }
-// public void NO_LOOT_TABLE_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.NO_LOOT_TABLE_EXCEPTION = value; }
-// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType NO_LOOT_TABLE_EXCEPTION() { return net.minecraft.server.command.LootCommand.NO_LOOT_TABLE_EXCEPTION; }
-// public static void NO_LOOT_TABLE_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.LootCommand.NO_LOOT_TABLE_EXCEPTION = value; }
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType NO_LOOT_TABLE_BLOCK_EXCEPTION() { return wrapperContained.NO_LOOT_TABLE_BLOCK_EXCEPTION; }
+// public void NO_LOOT_TABLE_BLOCK_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.NO_LOOT_TABLE_BLOCK_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType NO_LOOT_TABLE_BLOCK_EXCEPTION() { return net.minecraft.server.command.LootCommand.NO_LOOT_TABLE_BLOCK_EXCEPTION; }
+// public static void NO_LOOT_TABLE_BLOCK_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.server.command.LootCommand.NO_LOOT_TABLE_BLOCK_EXCEPTION = value; }
 
 // public int method_13177(Object context) { return wrapperContained.method_13177(context); }
 // public static int method_13177(Object context, ) { return net.minecraft.server.command.LootCommand.method_13177(context); }
@@ -22,10 +22,8 @@ public static com.mojang.brigadier.suggestion.SuggestionProvider SUGGESTION_PROV
 // public static yarnwrap.item.ItemStack getHeldItem(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.EquipmentSlot slot, ) { return new yarnwrap.item.ItemStack(net.minecraft.server.command.LootCommand.getHeldItem(source.wrapperContained,slot.wrapperContained)); }
 // public void method_13179(yarnwrap.server.world.ServerWorld stack) { wrapperContained.method_13179(stack.wrapperContained); }
 // public static void method_13179(yarnwrap.server.world.ServerWorld stack, ) { net.minecraft.server.command.LootCommand.method_13179(stack.wrapperContained); }
-// public int getFeedbackMessageSingle(com.mojang.brigadier.context.CommandContext context,yarnwrap.registry.entry.RegistryEntry lootTable,yarnwrap.loot.context.LootContextParameterSet lootContextParameters,Object constructor) { return wrapperContained.getFeedbackMessageSingle(context,lootTable.wrapperContained,lootContextParameters.wrapperContained,constructor); }
-// public static int getFeedbackMessageSingle(com.mojang.brigadier.context.CommandContext context,yarnwrap.registry.entry.RegistryEntry lootTable,yarnwrap.loot.context.LootContextParameterSet lootContextParameters,Object constructor, ) { return net.minecraft.server.command.LootCommand.getFeedbackMessageSingle(context,lootTable.wrapperContained,lootContextParameters.wrapperContained,constructor); }
-// public boolean method_13181(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13181(source.wrapperContained); }
-// public static boolean method_13181(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.LootCommand.method_13181(source.wrapperContained); }
+// public int getFeedbackMessageSingle(com.mojang.brigadier.context.CommandContext context,yarnwrap.registry.entry.RegistryEntry lootTable,yarnwrap.loot.context.LootWorldContext lootContextParameters,Object constructor) { return wrapperContained.getFeedbackMessageSingle(context,lootTable.wrapperContained,lootContextParameters.wrapperContained,constructor); }
+// public static int getFeedbackMessageSingle(com.mojang.brigadier.context.CommandContext context,yarnwrap.registry.entry.RegistryEntry lootTable,yarnwrap.loot.context.LootWorldContext lootContextParameters,Object constructor, ) { return net.minecraft.server.command.LootCommand.getFeedbackMessageSingle(context,lootTable.wrapperContained,lootContextParameters.wrapperContained,constructor); }
 // public int method_13182(com.mojang.brigadier.context.CommandContext context,java.util.List stacks,Object messageSender) { return wrapperContained.method_13182(context,stacks,messageSender); }
 // public static int method_13182(com.mojang.brigadier.context.CommandContext context,java.util.List stacks,Object messageSender, ) { return net.minecraft.server.command.LootCommand.method_13182(context,stacks,messageSender); }
 // public int executeSpawn(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.Vec3d pos,java.util.List stacks,Object messageSender) { return wrapperContained.executeSpawn(source.wrapperContained,pos.wrapperContained,stacks,messageSender); }
@@ -72,8 +70,6 @@ public static com.mojang.brigadier.suggestion.SuggestionProvider SUGGESTION_PROV
 // public static int method_13208(Object context, ) { return net.minecraft.server.command.LootCommand.method_13208(context); }
 // public int executeBlock(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.BlockPos targetPos,int slot,int stackCount,java.util.List stacks,Object messageSender) { return wrapperContained.executeBlock(source.wrapperContained,targetPos.wrapperContained,slot,stackCount,stacks,messageSender); }
 // public static int executeBlock(yarnwrap.server.command.ServerCommandSource source,yarnwrap.util.math.BlockPos targetPos,int slot,int stackCount,java.util.List stacks,Object messageSender, ) { return net.minecraft.server.command.LootCommand.executeBlock(source.wrapperContained,targetPos.wrapperContained,slot,stackCount,stacks,messageSender); }
-// public java.util.concurrent.CompletableFuture method_13210(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_13210(context,builder); }
-// public static java.util.concurrent.CompletableFuture method_13210(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.command.LootCommand.method_13210(context,builder); }
 // public int method_13211(Object context) { return wrapperContained.method_13211(context); }
 // public static int method_13211(Object context, ) { return net.minecraft.server.command.LootCommand.method_13211(context); }
 // public void sendDroppedFeedback(yarnwrap.server.command.ServerCommandSource source,java.util.List stacks,yarnwrap.registry.RegistryKey lootTable) { wrapperContained.sendDroppedFeedback(source.wrapperContained,stacks,lootTable.wrapperContained); }
@@ -106,5 +102,7 @@ public static com.mojang.brigadier.suggestion.SuggestionProvider SUGGESTION_PROV
 // public static void replace(yarnwrap.entity.Entity entity,java.util.List stacks,int slot,int stackCount,java.util.List addedStacks, ) { net.minecraft.server.command.LootCommand.replace(entity.wrapperContained,stacks,slot,stackCount,addedStacks); }
 // public int method_16339(com.mojang.brigadier.context.CommandContext context,java.util.List stacks,Object messageSender) { return wrapperContained.method_16339(context,stacks,messageSender); }
 // public static int method_16339(com.mojang.brigadier.context.CommandContext context,java.util.List stacks,Object messageSender, ) { return net.minecraft.server.command.LootCommand.method_16339(context,stacks,messageSender); }
+// public com.mojang.brigadier.Message method_62993(java.lang.Object blockName) { return wrapperContained.method_62993(blockName); }
+// public static com.mojang.brigadier.Message method_62993(java.lang.Object blockName, ) { return net.minecraft.server.command.LootCommand.method_62993(blockName); }
 
 }

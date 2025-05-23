@@ -6,7 +6,6 @@ public class ItemIdFix { public net.minecraft.datafixer.fix.ItemIdFix wrapperCon
 // public static it.unimi.dsi.fastutil.ints.Int2ObjectMap NUMERICAL_ID_TO_STRING_ID_MAP() { return net.minecraft.datafixer.fix.ItemIdFix.NUMERICAL_ID_TO_STRING_ID_MAP; }
 // public static void NUMERICAL_ID_TO_STRING_ID_MAP(it.unimi.dsi.fastutil.ints.Int2ObjectMap value, ) { net.minecraft.datafixer.fix.ItemIdFix.NUMERICAL_ID_TO_STRING_ID_MAP = value; }
 
-public ItemIdFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.ItemIdFix(outputSchema,changesType); }
 // public com.mojang.datafixers.Typed method_5013(com.mojang.datafixers.OpticFinder itemStackTyped) { return wrapperContained.method_5013(itemStackTyped); }
 // public static com.mojang.datafixers.Typed method_5013(com.mojang.datafixers.OpticFinder itemStackTyped, ) { return net.minecraft.datafixer.fix.ItemIdFix.method_5013(itemStackTyped); }
 // public com.mojang.datafixers.util.Pair method_5014(com.mojang.datafixers.util.Either id) { return wrapperContained.method_5014(id); }

@@ -14,7 +14,5 @@ public class BanCommand { public net.minecraft.server.dedicated.command.BanComma
 // public static int ban(yarnwrap.server.command.ServerCommandSource source,java.util.Collection targets,yarnwrap.text.Text reason, ) { return net.minecraft.server.dedicated.command.BanCommand.ban(source.wrapperContained,targets,reason.wrapperContained); }
 // public int method_13023(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13023(context); }
 // public static int method_13023(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.BanCommand.method_13023(context); }
-// public boolean method_13024(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13024(source.wrapperContained); }
-// public static boolean method_13024(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.BanCommand.method_13024(source.wrapperContained); }
 
 }

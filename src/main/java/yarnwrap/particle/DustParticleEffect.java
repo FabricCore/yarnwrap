@@ -11,29 +11,29 @@ public static yarnwrap.particle.DustParticleEffect DEFAULT() { return new yarnwr
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.particle.DustParticleEffect.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.particle.DustParticleEffect.CODEC = value; }
 
-// public org.joml.Vector3f RED() { return wrapperContained.RED; }
-// public void RED(org.joml.Vector3f value) { wrapperContained.RED = value; }
-public static org.joml.Vector3f RED() { return net.minecraft.particle.DustParticleEffect.RED; }
-// public static void RED(org.joml.Vector3f value, ) { net.minecraft.particle.DustParticleEffect.RED = value; }
+// public int RED() { return wrapperContained.RED; }
+// public void RED(int value) { wrapperContained.RED = value; }
+public static int RED() { return net.minecraft.particle.DustParticleEffect.RED; }
+// public static void RED(int value, ) { net.minecraft.particle.DustParticleEffect.RED = value; }
 
 // public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
 // public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
 public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.particle.DustParticleEffect.PACKET_CODEC); }
 // public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.particle.DustParticleEffect.PACKET_CODEC = value.wrapperContained; }
 
-// public org.joml.Vector3f color() { return wrapperContained.color; }
-// public void color(org.joml.Vector3f value) { wrapperContained.color = value; }
-// public static org.joml.Vector3f color() { return net.minecraft.particle.DustParticleEffect.color; }
-// public static void color(org.joml.Vector3f value, ) { net.minecraft.particle.DustParticleEffect.color = value; }
+// public int color() { return wrapperContained.color; }
+// public void color(int value) { wrapperContained.color = value; }
+// public static int color() { return net.minecraft.particle.DustParticleEffect.color; }
+// public static void color(int value, ) { net.minecraft.particle.DustParticleEffect.color = value; }
 
-public DustParticleEffect(org.joml.Vector3f color,float scale) { this.wrapperContained = new net.minecraft.particle.DustParticleEffect(color,scale); }
+public DustParticleEffect(int color,float scale) { this.wrapperContained = new net.minecraft.particle.DustParticleEffect(color,scale); }
 // public com.mojang.datafixers.kinds.App method_33115(Object instance) { return wrapperContained.method_33115(instance); }
 // public static com.mojang.datafixers.kinds.App method_33115(Object instance, ) { return net.minecraft.particle.DustParticleEffect.method_33115(instance); }
-// public org.joml.Vector3f method_33117(yarnwrap.particle.DustParticleEffect effect) { return wrapperContained.method_33117(effect.wrapperContained); }
-// public static org.joml.Vector3f method_33117(yarnwrap.particle.DustParticleEffect effect, ) { return net.minecraft.particle.DustParticleEffect.method_33117(effect.wrapperContained); }
-// public org.joml.Vector3f method_56175(yarnwrap.particle.DustParticleEffect effect) { return wrapperContained.method_56175(effect.wrapperContained); }
-// public static org.joml.Vector3f method_56175(yarnwrap.particle.DustParticleEffect effect, ) { return net.minecraft.particle.DustParticleEffect.method_56175(effect.wrapperContained); }
 public org.joml.Vector3f getColor() { return wrapperContained.getColor(); }
 // public static org.joml.Vector3f getColor() { return net.minecraft.particle.DustParticleEffect.getColor(); }
+// public java.lang.Integer method_65034(yarnwrap.particle.DustParticleEffect particle) { return wrapperContained.method_65034(particle.wrapperContained); }
+// public static java.lang.Integer method_65034(yarnwrap.particle.DustParticleEffect particle, ) { return net.minecraft.particle.DustParticleEffect.method_65034(particle.wrapperContained); }
+// public java.lang.Integer method_65035(yarnwrap.particle.DustParticleEffect particle) { return wrapperContained.method_65035(particle.wrapperContained); }
+// public static java.lang.Integer method_65035(yarnwrap.particle.DustParticleEffect particle, ) { return net.minecraft.particle.DustParticleEffect.method_65035(particle.wrapperContained); }
 
 }

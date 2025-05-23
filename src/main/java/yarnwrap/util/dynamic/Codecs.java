@@ -1,10 +1,10 @@
 package yarnwrap.util.dynamic;
 public class Codecs { public net.minecraft.util.dynamic.Codecs wrapperContained; public Codecs(net.minecraft.util.dynamic.Codecs wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public com.mojang.serialization.Codec NONNEGATIVE_INT() { return wrapperContained.NONNEGATIVE_INT; }
-// public void NONNEGATIVE_INT(com.mojang.serialization.Codec value) { wrapperContained.NONNEGATIVE_INT = value; }
-public static com.mojang.serialization.Codec NONNEGATIVE_INT() { return net.minecraft.util.dynamic.Codecs.NONNEGATIVE_INT; }
-// public static void NONNEGATIVE_INT(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.NONNEGATIVE_INT = value; }
+// public com.mojang.serialization.Codec NON_NEGATIVE_INT() { return wrapperContained.NON_NEGATIVE_INT; }
+// public void NON_NEGATIVE_INT(com.mojang.serialization.Codec value) { wrapperContained.NON_NEGATIVE_INT = value; }
+public static com.mojang.serialization.Codec NON_NEGATIVE_INT() { return net.minecraft.util.dynamic.Codecs.NON_NEGATIVE_INT; }
+// public static void NON_NEGATIVE_INT(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.NON_NEGATIVE_INT = value; }
 
 // public com.mojang.serialization.Codec POSITIVE_INT() { return wrapperContained.POSITIVE_INT; }
 // public void POSITIVE_INT(com.mojang.serialization.Codec value) { wrapperContained.POSITIVE_INT = value; }
@@ -81,25 +81,25 @@ public static com.mojang.serialization.Codec GAME_PROFILE_WITH_PROPERTIES() { re
 public static com.mojang.serialization.Codec NON_EMPTY_STRING() { return net.minecraft.util.dynamic.Codecs.NON_EMPTY_STRING; }
 // public static void NON_EMPTY_STRING(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.NON_EMPTY_STRING = value; }
 
-// public com.mojang.serialization.Codec QUATERNIONF() { return wrapperContained.QUATERNIONF; }
-// public void QUATERNIONF(com.mojang.serialization.Codec value) { wrapperContained.QUATERNIONF = value; }
-public static com.mojang.serialization.Codec QUATERNIONF() { return net.minecraft.util.dynamic.Codecs.QUATERNIONF; }
-// public static void QUATERNIONF(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.QUATERNIONF = value; }
+// public com.mojang.serialization.Codec QUATERNION_F() { return wrapperContained.QUATERNION_F; }
+// public void QUATERNION_F(com.mojang.serialization.Codec value) { wrapperContained.QUATERNION_F = value; }
+public static com.mojang.serialization.Codec QUATERNION_F() { return net.minecraft.util.dynamic.Codecs.QUATERNION_F; }
+// public static void QUATERNION_F(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.QUATERNION_F = value; }
 
-// public com.mojang.serialization.Codec AXIS_ANGLE4F() { return wrapperContained.AXIS_ANGLE4F; }
-// public void AXIS_ANGLE4F(com.mojang.serialization.Codec value) { wrapperContained.AXIS_ANGLE4F = value; }
-public static com.mojang.serialization.Codec AXIS_ANGLE4F() { return net.minecraft.util.dynamic.Codecs.AXIS_ANGLE4F; }
-// public static void AXIS_ANGLE4F(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.AXIS_ANGLE4F = value; }
+// public com.mojang.serialization.Codec AXIS_ANGLE_4F() { return wrapperContained.AXIS_ANGLE_4F; }
+// public void AXIS_ANGLE_4F(com.mojang.serialization.Codec value) { wrapperContained.AXIS_ANGLE_4F = value; }
+public static com.mojang.serialization.Codec AXIS_ANGLE_4F() { return net.minecraft.util.dynamic.Codecs.AXIS_ANGLE_4F; }
+// public static void AXIS_ANGLE_4F(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.AXIS_ANGLE_4F = value; }
 
 // public com.mojang.serialization.Codec ROTATION() { return wrapperContained.ROTATION; }
 // public void ROTATION(com.mojang.serialization.Codec value) { wrapperContained.ROTATION = value; }
 public static com.mojang.serialization.Codec ROTATION() { return net.minecraft.util.dynamic.Codecs.ROTATION; }
 // public static void ROTATION(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.ROTATION = value; }
 
-// public com.mojang.serialization.Codec MATRIX4F() { return wrapperContained.MATRIX4F; }
-// public void MATRIX4F(com.mojang.serialization.Codec value) { wrapperContained.MATRIX4F = value; }
-public static com.mojang.serialization.Codec MATRIX4F() { return net.minecraft.util.dynamic.Codecs.MATRIX4F; }
-// public static void MATRIX4F(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.MATRIX4F = value; }
+// public com.mojang.serialization.Codec MATRIX_4F() { return wrapperContained.MATRIX_4F; }
+// public void MATRIX_4F(com.mojang.serialization.Codec value) { wrapperContained.MATRIX_4F = value; }
+public static com.mojang.serialization.Codec MATRIX_4F() { return net.minecraft.util.dynamic.Codecs.MATRIX_4F; }
+// public static void MATRIX_4F(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.MATRIX_4F = value; }
 
 // public com.mojang.serialization.Codec CODEPOINT() { return wrapperContained.CODEPOINT; }
 // public void CODEPOINT(com.mojang.serialization.Codec value) { wrapperContained.CODEPOINT = value; }
@@ -146,6 +146,36 @@ public static com.mojang.serialization.Codec VECTOR_4F() { return net.minecraft.
 public static com.mojang.serialization.Codec ARGB() { return net.minecraft.util.dynamic.Codecs.ARGB; }
 // public static void ARGB(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.ARGB = value; }
 
+// public com.mojang.serialization.Codec NON_NEGATIVE_FLOAT() { return wrapperContained.NON_NEGATIVE_FLOAT; }
+// public void NON_NEGATIVE_FLOAT(com.mojang.serialization.Codec value) { wrapperContained.NON_NEGATIVE_FLOAT = value; }
+public static com.mojang.serialization.Codec NON_NEGATIVE_FLOAT() { return net.minecraft.util.dynamic.Codecs.NON_NEGATIVE_FLOAT; }
+// public static void NON_NEGATIVE_FLOAT(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.NON_NEGATIVE_FLOAT = value; }
+
+// public com.mojang.serialization.Codec RGB() { return wrapperContained.RGB; }
+// public void RGB(com.mojang.serialization.Codec value) { wrapperContained.RGB = value; }
+public static com.mojang.serialization.Codec RGB() { return net.minecraft.util.dynamic.Codecs.RGB; }
+// public static void RGB(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.RGB = value; }
+
+// public com.mojang.serialization.Codec URI() { return wrapperContained.URI; }
+// public void URI(com.mojang.serialization.Codec value) { wrapperContained.URI = value; }
+public static com.mojang.serialization.Codec URI() { return net.minecraft.util.dynamic.Codecs.URI; }
+// public static void URI(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.URI = value; }
+
+// public com.mojang.serialization.Codec CHAT_TEXT() { return wrapperContained.CHAT_TEXT; }
+// public void CHAT_TEXT(com.mojang.serialization.Codec value) { wrapperContained.CHAT_TEXT = value; }
+public static com.mojang.serialization.Codec CHAT_TEXT() { return net.minecraft.util.dynamic.Codecs.CHAT_TEXT; }
+// public static void CHAT_TEXT(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.CHAT_TEXT = value; }
+
+// public com.mojang.serialization.Codec VECTOR_2F() { return wrapperContained.VECTOR_2F; }
+// public void VECTOR_2F(com.mojang.serialization.Codec value) { wrapperContained.VECTOR_2F = value; }
+// public static com.mojang.serialization.Codec VECTOR_2F() { return net.minecraft.util.dynamic.Codecs.VECTOR_2F; }
+// public static void VECTOR_2F(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.VECTOR_2F = value; }
+
+// public com.mojang.serialization.Codec VECTOR_3I() { return wrapperContained.VECTOR_3I; }
+// public void VECTOR_3I(com.mojang.serialization.Codec value) { wrapperContained.VECTOR_3I = value; }
+// public static com.mojang.serialization.Codec VECTOR_3I() { return net.minecraft.util.dynamic.Codecs.VECTOR_3I; }
+// public static void VECTOR_3I(com.mojang.serialization.Codec value, ) { net.minecraft.util.dynamic.Codecs.VECTOR_3I = value; }
+
 // public com.mojang.serialization.Codec rangedInt(int min,int max,java.util.function.Function messageFactory) { return wrapperContained.rangedInt(min,max,messageFactory); }
 // public static com.mojang.serialization.Codec rangedInt(int min,int max,java.util.function.Function messageFactory, ) { return net.minecraft.util.dynamic.Codecs.rangedInt(min,max,messageFactory); }
 // public java.lang.String method_36242(java.lang.Integer v) { return wrapperContained.method_36242(v); }
@@ -154,8 +184,8 @@ public static com.mojang.serialization.Codec ARGB() { return net.minecraft.util.
 // public static java.lang.String method_36246(java.lang.Integer v, ) { return net.minecraft.util.dynamic.Codecs.method_36246(v); }
 // public com.mojang.serialization.Codec nonEmptyList(com.mojang.serialization.Codec originalCodec) { return wrapperContained.nonEmptyList(originalCodec); }
 // public static com.mojang.serialization.Codec nonEmptyList(com.mojang.serialization.Codec originalCodec, ) { return net.minecraft.util.dynamic.Codecs.nonEmptyList(originalCodec); }
-// public com.mojang.serialization.Codec rangedFloat(float min,float max,java.util.function.Function messageFactory) { return wrapperContained.rangedFloat(min,max,messageFactory); }
-// public static com.mojang.serialization.Codec rangedFloat(float min,float max,java.util.function.Function messageFactory, ) { return net.minecraft.util.dynamic.Codecs.rangedFloat(min,max,messageFactory); }
+// public com.mojang.serialization.Codec rangedFloat(float minExclusive,float maxInclusive,java.util.function.Function messageFactory) { return wrapperContained.rangedFloat(minExclusive,maxInclusive,messageFactory); }
+// public static com.mojang.serialization.Codec rangedFloat(float minExclusive,float maxInclusive,java.util.function.Function messageFactory, ) { return net.minecraft.util.dynamic.Codecs.rangedFloat(minExclusive,maxInclusive,messageFactory); }
 // public com.mojang.datafixers.kinds.App method_37930(com.mojang.serialization.Codec instance) { return wrapperContained.method_37930(instance); }
 // public static com.mojang.datafixers.kinds.App method_37930(com.mojang.serialization.Codec instance, ) { return net.minecraft.util.dynamic.Codecs.method_37930(instance); }
 // public com.mojang.serialization.Codec createCodecForPairObject(com.mojang.serialization.Codec codec,java.lang.String leftFieldName,java.lang.String rightFieldName,java.util.function.BiFunction combineFunction,java.util.function.Function leftFunction,java.util.function.Function rightFunction) { return wrapperContained.createCodecForPairObject(codec,leftFieldName,rightFieldName,combineFunction,leftFunction,rightFunction); }
@@ -246,8 +276,8 @@ public static com.mojang.serialization.Codec ARGB() { return net.minecraft.util.
 // public static com.mojang.datafixers.kinds.App method_46388(Object instance, ) { return net.minecraft.util.dynamic.Codecs.method_46388(instance); }
 // public com.mojang.serialization.DataResult method_46389(java.util.List list) { return wrapperContained.method_46389(list); }
 // public static com.mojang.serialization.DataResult method_46389(java.util.List list, ) { return net.minecraft.util.dynamic.Codecs.method_46389(list); }
-// public org.joml.Vector3f method_46391(java.util.List listx) { return wrapperContained.method_46391(listx); }
-// public static org.joml.Vector3f method_46391(java.util.List listx, ) { return net.minecraft.util.dynamic.Codecs.method_46391(listx); }
+// public org.joml.Vector2f method_46391(java.util.List listx) { return wrapperContained.method_46391(listx); }
+// public static org.joml.Vector2f method_46391(java.util.List listx, ) { return net.minecraft.util.dynamic.Codecs.method_46391(listx); }
 // public com.mojang.serialization.DataResult method_48108(float value) { return wrapperContained.method_48108(value); }
 // public static com.mojang.serialization.DataResult method_48108(float value, ) { return net.minecraft.util.dynamic.Codecs.method_48108(value); }
 // public com.mojang.serialization.DataResult method_48111(int value) { return wrapperContained.method_48111(value); }
@@ -264,8 +294,8 @@ public static com.mojang.serialization.Codec ARGB() { return net.minecraft.util.
 // public static java.lang.String method_48767(int value, ) { return net.minecraft.util.dynamic.Codecs.method_48767(value); }
 // public org.joml.Vector3f method_48768(org.joml.AxisAngle4f axisAngle) { return wrapperContained.method_48768(axisAngle); }
 // public static org.joml.Vector3f method_48768(org.joml.AxisAngle4f axisAngle, ) { return net.minecraft.util.dynamic.Codecs.method_48768(axisAngle); }
-// public java.util.List method_48769(org.joml.Matrix4f matrix4f) { return wrapperContained.method_48769(matrix4f); }
-// public static java.util.List method_48769(org.joml.Matrix4f matrix4f, ) { return net.minecraft.util.dynamic.Codecs.method_48769(matrix4f); }
+// public java.util.List method_48769(org.joml.Matrix4fc matrix) { return wrapperContained.method_48769(matrix); }
+// public static java.util.List method_48769(org.joml.Matrix4fc matrix, ) { return net.minecraft.util.dynamic.Codecs.method_48769(matrix); }
 // public com.mojang.serialization.DataResult method_48771(java.util.List list) { return wrapperContained.method_48771(list); }
 // public static com.mojang.serialization.DataResult method_48771(java.util.List list, ) { return net.minecraft.util.dynamic.Codecs.method_48771(list); }
 // public java.lang.Float method_48772(org.joml.AxisAngle4f axisAngle) { return wrapperContained.method_48772(axisAngle); }
@@ -276,10 +306,6 @@ public static com.mojang.serialization.Codec ARGB() { return net.minecraft.util.
 // public static org.joml.Matrix4f method_48776(java.util.List listx, ) { return net.minecraft.util.dynamic.Codecs.method_48776(listx); }
 // public java.util.List method_48777(org.joml.Quaternionf quaternion) { return wrapperContained.method_48777(quaternion); }
 // public static java.util.List method_48777(org.joml.Quaternionf quaternion, ) { return net.minecraft.util.dynamic.Codecs.method_48777(quaternion); }
-// public com.mojang.serialization.DataResult method_48778(java.util.List list) { return wrapperContained.method_48778(list); }
-// public static com.mojang.serialization.DataResult method_48778(java.util.List list, ) { return net.minecraft.util.dynamic.Codecs.method_48778(list); }
-// public org.joml.Vector4f method_48779(java.util.List listx) { return wrapperContained.method_48779(listx); }
-// public static org.joml.Vector4f method_48779(java.util.List listx, ) { return net.minecraft.util.dynamic.Codecs.method_48779(listx); }
 // public com.mojang.serialization.DataResult method_51494(java.lang.String string) { return wrapperContained.method_51494(string); }
 // public static com.mojang.serialization.DataResult method_51494(java.lang.String string, ) { return net.minecraft.util.dynamic.Codecs.method_51494(string); }
 // public com.mojang.datafixers.kinds.App method_52459(Object instance) { return wrapperContained.method_52459(instance); }
@@ -324,5 +350,65 @@ public static com.mojang.serialization.Codec ARGB() { return net.minecraft.util.
 // public static java.lang.Integer method_59549(org.joml.Vector4f vec4f, ) { return net.minecraft.util.dynamic.Codecs.method_59549(vec4f); }
 // public java.util.List method_59550(org.joml.Vector4f vec4f) { return wrapperContained.method_59550(vec4f); }
 // public static java.util.List method_59550(org.joml.Vector4f vec4f, ) { return net.minecraft.util.dynamic.Codecs.method_59550(vec4f); }
+// public com.mojang.serialization.DataResult method_59551(java.util.List list) { return wrapperContained.method_59551(list); }
+// public static com.mojang.serialization.DataResult method_59551(java.util.List list, ) { return net.minecraft.util.dynamic.Codecs.method_59551(list); }
+// public org.joml.Quaternionf method_59552(java.util.List listx) { return wrapperContained.method_59552(listx); }
+// public static org.joml.Quaternionf method_59552(java.util.List listx, ) { return net.minecraft.util.dynamic.Codecs.method_59552(listx); }
+// public com.mojang.serialization.Codec rangedInclusiveFloat(float minInclusive,float maxInclusive,java.util.function.Function messageFactory) { return wrapperContained.rangedInclusiveFloat(minInclusive,maxInclusive,messageFactory); }
+// public static com.mojang.serialization.Codec rangedInclusiveFloat(float minInclusive,float maxInclusive,java.util.function.Function messageFactory, ) { return net.minecraft.util.dynamic.Codecs.rangedInclusiveFloat(minInclusive,maxInclusive,messageFactory); }
+// public java.lang.String method_62813(java.lang.Float v) { return wrapperContained.method_62813(v); }
+// public static java.lang.String method_62813(java.lang.Float v, ) { return net.minecraft.util.dynamic.Codecs.method_62813(v); }
+// public com.mojang.serialization.DataResult method_62814(float value) { return wrapperContained.method_62814(value); }
+// public static com.mojang.serialization.DataResult method_62814(float value, ) { return net.minecraft.util.dynamic.Codecs.method_62814(value); }
+// public com.mojang.serialization.DataResult method_63569(java.util.Map map) { return wrapperContained.method_63569(map); }
+// public static com.mojang.serialization.DataResult method_63569(java.util.Map map, ) { return net.minecraft.util.dynamic.Codecs.method_63569(map); }
+// public java.lang.Integer method_63570(org.joml.Vector3f vec3f) { return wrapperContained.method_63570(vec3f); }
+// public static java.lang.Integer method_63570(org.joml.Vector3f vec3f, ) { return net.minecraft.util.dynamic.Codecs.method_63570(vec3f); }
+// public com.mojang.serialization.Codec nonEmptyMap(com.mojang.serialization.Codec originalCodec) { return wrapperContained.nonEmptyMap(originalCodec); }
+// public static com.mojang.serialization.Codec nonEmptyMap(com.mojang.serialization.Codec originalCodec, ) { return net.minecraft.util.dynamic.Codecs.nonEmptyMap(originalCodec); }
+// public com.mojang.serialization.Codec rangedInclusiveFloat(float minInclusive,float maxInclusive) { return wrapperContained.rangedInclusiveFloat(minInclusive,maxInclusive); }
+// public static com.mojang.serialization.Codec rangedInclusiveFloat(float minInclusive,float maxInclusive, ) { return net.minecraft.util.dynamic.Codecs.rangedInclusiveFloat(minInclusive,maxInclusive); }
+// public java.lang.String method_65312(float value) { return wrapperContained.method_65312(value); }
+// public static java.lang.String method_65312(float value, ) { return net.minecraft.util.dynamic.Codecs.method_65312(value); }
+// public com.mojang.serialization.Codec listOrSingle(com.mojang.serialization.Codec entryCodec) { return wrapperContained.listOrSingle(entryCodec); }
+// public static com.mojang.serialization.Codec listOrSingle(com.mojang.serialization.Codec entryCodec, ) { return net.minecraft.util.dynamic.Codecs.listOrSingle(entryCodec); }
+// public com.mojang.serialization.Codec idChecked(com.mojang.serialization.Codec idCodec,java.util.function.Function idToElement,java.util.function.Function elementToId) { return wrapperContained.idChecked(idCodec,idToElement,elementToId); }
+// public static com.mojang.serialization.Codec idChecked(com.mojang.serialization.Codec idCodec,java.util.function.Function idToElement,java.util.function.Function elementToId, ) { return net.minecraft.util.dynamic.Codecs.idChecked(idCodec,idToElement,elementToId); }
+// public com.mojang.serialization.DataResult method_65315(java.util.function.Function element) { return wrapperContained.method_65315(element); }
+// public static com.mojang.serialization.DataResult method_65315(java.util.function.Function element, ) { return net.minecraft.util.dynamic.Codecs.method_65315(element); }
+// public java.util.List method_65316(com.mojang.datafixers.util.Either either) { return wrapperContained.method_65316(either); }
+// public static java.util.List method_65316(com.mojang.datafixers.util.Either either, ) { return net.minecraft.util.dynamic.Codecs.method_65316(either); }
+// public com.mojang.datafixers.util.Either method_65318(java.util.List list) { return wrapperContained.method_65318(list); }
+// public static com.mojang.datafixers.util.Either method_65318(java.util.List list, ) { return net.minecraft.util.dynamic.Codecs.method_65318(list); }
+// public com.mojang.serialization.DataResult method_65319(java.util.function.Function id) { return wrapperContained.method_65319(id); }
+// public static com.mojang.serialization.DataResult method_65319(java.util.function.Function id, ) { return net.minecraft.util.dynamic.Codecs.method_65319(id); }
+// public com.mojang.serialization.Codec listOrSingle(com.mojang.serialization.Codec entryCodec,com.mojang.serialization.Codec listCodec) { return wrapperContained.listOrSingle(entryCodec,listCodec); }
+// public static com.mojang.serialization.Codec listOrSingle(com.mojang.serialization.Codec entryCodec,com.mojang.serialization.Codec listCodec, ) { return net.minecraft.util.dynamic.Codecs.listOrSingle(entryCodec,listCodec); }
+// public java.util.List method_65322(java.util.List list) { return wrapperContained.method_65322(list); }
+// public static java.util.List method_65322(java.util.List list, ) { return net.minecraft.util.dynamic.Codecs.method_65322(list); }
+// public com.mojang.serialization.DataResult method_66032(java.lang.String s) { return wrapperContained.method_66032(s); }
+// public static com.mojang.serialization.DataResult method_66032(java.lang.String s, ) { return net.minecraft.util.dynamic.Codecs.method_66032(s); }
+// public com.mojang.serialization.DataResult method_66033(java.lang.String value) { return wrapperContained.method_66033(value); }
+// public static com.mojang.serialization.DataResult method_66033(java.lang.String value, ) { return net.minecraft.util.dynamic.Codecs.method_66033(value); }
+// public com.mojang.serialization.DataResult method_67588(java.util.function.Function id) { return wrapperContained.method_67588(id); }
+// public static com.mojang.serialization.DataResult method_67588(java.util.function.Function id, ) { return net.minecraft.util.dynamic.Codecs.method_67588(id); }
+// public com.mojang.serialization.Codec enumByName(java.util.function.Function valueOf) { return wrapperContained.enumByName(valueOf); }
+// public static com.mojang.serialization.Codec enumByName(java.util.function.Function valueOf, ) { return net.minecraft.util.dynamic.Codecs.enumByName(valueOf); }
+// public java.util.List method_70972(org.joml.Vector2f vec2f) { return wrapperContained.method_70972(vec2f); }
+// public static java.util.List method_70972(org.joml.Vector2f vec2f, ) { return net.minecraft.util.dynamic.Codecs.method_70972(vec2f); }
+// public java.util.List method_70973(org.joml.Vector3i vec3i) { return wrapperContained.method_70973(vec3i); }
+// public static java.util.List method_70973(org.joml.Vector3i vec3i, ) { return net.minecraft.util.dynamic.Codecs.method_70973(vec3i); }
+// public com.mojang.serialization.DataResult method_70974(java.util.List list) { return wrapperContained.method_70974(list); }
+// public static com.mojang.serialization.DataResult method_70974(java.util.List list, ) { return net.minecraft.util.dynamic.Codecs.method_70974(list); }
+// public org.joml.Vector4f method_70975(java.util.List listx) { return wrapperContained.method_70975(listx); }
+// public static org.joml.Vector4f method_70975(java.util.List listx, ) { return net.minecraft.util.dynamic.Codecs.method_70975(listx); }
+// public com.mojang.serialization.DataResult method_70976(java.util.List list) { return wrapperContained.method_70976(list); }
+// public static com.mojang.serialization.DataResult method_70976(java.util.List list, ) { return net.minecraft.util.dynamic.Codecs.method_70976(list); }
+// public org.joml.Vector3i method_70977(java.util.List listx) { return wrapperContained.method_70977(listx); }
+// public static org.joml.Vector3i method_70977(java.util.List listx, ) { return net.minecraft.util.dynamic.Codecs.method_70977(listx); }
+// public com.mojang.serialization.DataResult method_70978(java.util.List list) { return wrapperContained.method_70978(list); }
+// public static com.mojang.serialization.DataResult method_70978(java.util.List list, ) { return net.minecraft.util.dynamic.Codecs.method_70978(list); }
+// public org.joml.Vector3f method_70979(java.util.List listx) { return wrapperContained.method_70979(listx); }
+// public static org.joml.Vector3f method_70979(java.util.List listx, ) { return net.minecraft.util.dynamic.Codecs.method_70979(listx); }
 
 }

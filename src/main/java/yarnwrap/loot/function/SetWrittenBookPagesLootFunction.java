@@ -16,11 +16,6 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 // public static yarnwrap.util.collection.ListOperation operation() { return new yarnwrap.util.collection.ListOperation(net.minecraft.loot.function.SetWrittenBookPagesLootFunction.operation); }
 // public static void operation(yarnwrap.util.collection.ListOperation value, ) { net.minecraft.loot.function.SetWrittenBookPagesLootFunction.operation = value.wrapperContained; }
 
-// public com.mojang.serialization.Codec TEXT_CODEC() { return wrapperContained.TEXT_CODEC; }
-// public void TEXT_CODEC(com.mojang.serialization.Codec value) { wrapperContained.TEXT_CODEC = value; }
-public static com.mojang.serialization.Codec TEXT_CODEC() { return net.minecraft.loot.function.SetWrittenBookPagesLootFunction.TEXT_CODEC; }
-// public static void TEXT_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.loot.function.SetWrittenBookPagesLootFunction.TEXT_CODEC = value; }
-
 // public SetWrittenBookPagesLootFunction(java.util.List conditions,java.util.List pages,yarnwrap.util.collection.ListOperation operation) { this.wrapperContained = new net.minecraft.loot.function.SetWrittenBookPagesLootFunction(conditions,pages,operation.wrapperContained); }
 public yarnwrap.component.type.WrittenBookContentComponent apply(yarnwrap.component.type.WrittenBookContentComponent current) { return new yarnwrap.component.type.WrittenBookContentComponent(wrapperContained.apply(current.wrapperContained)); }
 // public static yarnwrap.component.type.WrittenBookContentComponent apply(yarnwrap.component.type.WrittenBookContentComponent current, ) { return new yarnwrap.component.type.WrittenBookContentComponent(net.minecraft.loot.function.SetWrittenBookPagesLootFunction.apply(current.wrapperContained)); }
@@ -30,9 +25,5 @@ public yarnwrap.component.type.WrittenBookContentComponent apply(yarnwrap.compon
 // public static com.mojang.datafixers.kinds.App method_58223(Object instance, ) { return net.minecraft.loot.function.SetWrittenBookPagesLootFunction.method_58223(instance); }
 // public java.util.List method_58224(yarnwrap.loot.function.SetWrittenBookPagesLootFunction function) { return wrapperContained.method_58224(function.wrapperContained); }
 // public static java.util.List method_58224(yarnwrap.loot.function.SetWrittenBookPagesLootFunction function, ) { return net.minecraft.loot.function.SetWrittenBookPagesLootFunction.method_58224(function.wrapperContained); }
-// public com.mojang.serialization.DataResult method_58461(yarnwrap.text.Text text) { return wrapperContained.method_58461(text.wrapperContained); }
-// public static com.mojang.serialization.DataResult method_58461(yarnwrap.text.Text text, ) { return net.minecraft.loot.function.SetWrittenBookPagesLootFunction.method_58461(text.wrapperContained); }
-// public yarnwrap.text.Text method_58462(yarnwrap.text.Text value) { return new yarnwrap.text.Text(wrapperContained.method_58462(value.wrapperContained)); }
-// public static yarnwrap.text.Text method_58462(yarnwrap.text.Text value, ) { return new yarnwrap.text.Text(net.minecraft.loot.function.SetWrittenBookPagesLootFunction.method_58462(value.wrapperContained)); }
 
 }

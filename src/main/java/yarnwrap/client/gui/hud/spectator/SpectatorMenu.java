@@ -1,26 +1,6 @@
 package yarnwrap.client.gui.hud.spectator;
 public class SpectatorMenu { public net.minecraft.client.gui.hud.spectator.SpectatorMenu wrapperContained; public SpectatorMenu(net.minecraft.client.gui.hud.spectator.SpectatorMenu wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.text.Text CLOSE_TEXT() { return new yarnwrap.text.Text(wrapperContained.CLOSE_TEXT); }
-// public void CLOSE_TEXT(yarnwrap.text.Text value) { wrapperContained.CLOSE_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text CLOSE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.hud.spectator.SpectatorMenu.CLOSE_TEXT); }
-// public static void CLOSE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.hud.spectator.SpectatorMenu.CLOSE_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.Text PREVIOUS_PAGE_TEXT() { return new yarnwrap.text.Text(wrapperContained.PREVIOUS_PAGE_TEXT); }
-// public void PREVIOUS_PAGE_TEXT(yarnwrap.text.Text value) { wrapperContained.PREVIOUS_PAGE_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text PREVIOUS_PAGE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.hud.spectator.SpectatorMenu.PREVIOUS_PAGE_TEXT); }
-// public static void PREVIOUS_PAGE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.hud.spectator.SpectatorMenu.PREVIOUS_PAGE_TEXT = value.wrapperContained; }
-
-// public yarnwrap.text.Text NEXT_PAGE_TEXT() { return new yarnwrap.text.Text(wrapperContained.NEXT_PAGE_TEXT); }
-// public void NEXT_PAGE_TEXT(yarnwrap.text.Text value) { wrapperContained.NEXT_PAGE_TEXT = value.wrapperContained; }
-// public static yarnwrap.text.Text NEXT_PAGE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.hud.spectator.SpectatorMenu.NEXT_PAGE_TEXT); }
-// public static void NEXT_PAGE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.hud.spectator.SpectatorMenu.NEXT_PAGE_TEXT = value.wrapperContained; }
-
-// public int CLOSE_SLOT() { return wrapperContained.CLOSE_SLOT; }
-// public void CLOSE_SLOT(int value) { wrapperContained.CLOSE_SLOT = value; }
-// public static int CLOSE_SLOT() { return net.minecraft.client.gui.hud.spectator.SpectatorMenu.CLOSE_SLOT; }
-// public static void CLOSE_SLOT(int value, ) { net.minecraft.client.gui.hud.spectator.SpectatorMenu.CLOSE_SLOT = value; }
-
 // public int selectedSlot() { return wrapperContained.selectedSlot; }
 // public void selectedSlot(int value) { wrapperContained.selectedSlot = value; }
 // public static int selectedSlot() { return net.minecraft.client.gui.hud.spectator.SpectatorMenu.selectedSlot; }
@@ -65,6 +45,26 @@ public static yarnwrap.client.gui.hud.spectator.SpectatorMenuCommand BLANK_COMMA
 // public void page(int value) { wrapperContained.page = value; }
 // public static int page() { return net.minecraft.client.gui.hud.spectator.SpectatorMenu.page; }
 // public static void page(int value, ) { net.minecraft.client.gui.hud.spectator.SpectatorMenu.page = value; }
+
+// public yarnwrap.text.Text CLOSE_TEXT() { return new yarnwrap.text.Text(wrapperContained.CLOSE_TEXT); }
+// public void CLOSE_TEXT(yarnwrap.text.Text value) { wrapperContained.CLOSE_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text CLOSE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.hud.spectator.SpectatorMenu.CLOSE_TEXT); }
+// public static void CLOSE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.hud.spectator.SpectatorMenu.CLOSE_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text PREVIOUS_PAGE_TEXT() { return new yarnwrap.text.Text(wrapperContained.PREVIOUS_PAGE_TEXT); }
+// public void PREVIOUS_PAGE_TEXT(yarnwrap.text.Text value) { wrapperContained.PREVIOUS_PAGE_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text PREVIOUS_PAGE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.hud.spectator.SpectatorMenu.PREVIOUS_PAGE_TEXT); }
+// public static void PREVIOUS_PAGE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.hud.spectator.SpectatorMenu.PREVIOUS_PAGE_TEXT = value.wrapperContained; }
+
+// public yarnwrap.text.Text NEXT_PAGE_TEXT() { return new yarnwrap.text.Text(wrapperContained.NEXT_PAGE_TEXT); }
+// public void NEXT_PAGE_TEXT(yarnwrap.text.Text value) { wrapperContained.NEXT_PAGE_TEXT = value.wrapperContained; }
+// public static yarnwrap.text.Text NEXT_PAGE_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.hud.spectator.SpectatorMenu.NEXT_PAGE_TEXT); }
+// public static void NEXT_PAGE_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.hud.spectator.SpectatorMenu.NEXT_PAGE_TEXT = value.wrapperContained; }
+
+// public int CLOSE_SLOT() { return wrapperContained.CLOSE_SLOT; }
+// public void CLOSE_SLOT(int value) { wrapperContained.CLOSE_SLOT = value; }
+// public static int CLOSE_SLOT() { return net.minecraft.client.gui.hud.spectator.SpectatorMenu.CLOSE_SLOT; }
+// public static void CLOSE_SLOT(int value, ) { net.minecraft.client.gui.hud.spectator.SpectatorMenu.CLOSE_SLOT = value; }
 
 // public yarnwrap.util.Identifier CLOSE_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.CLOSE_TEXTURE); }
 // public void CLOSE_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.CLOSE_TEXTURE = value.wrapperContained; }

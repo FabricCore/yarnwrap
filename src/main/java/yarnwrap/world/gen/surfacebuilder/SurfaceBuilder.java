@@ -132,5 +132,7 @@ public SurfaceBuilder(yarnwrap.world.gen.noise.NoiseConfig noiseConfig,yarnwrap.
 // public static int sampleRunDepth(int blockX,int blockZ, ) { return net.minecraft.world.gen.surfacebuilder.SurfaceBuilder.sampleRunDepth(blockX,blockZ); }
 // public double sampleSecondaryDepth(int blockX,int blockZ) { return wrapperContained.sampleSecondaryDepth(blockX,blockZ); }
 // public static double sampleSecondaryDepth(int blockX,int blockZ, ) { return net.minecraft.world.gen.surfacebuilder.SurfaceBuilder.sampleSecondaryDepth(blockX,blockZ); }
+public int getSeaLevel() { return wrapperContained.getSeaLevel(); }
+// public static int getSeaLevel() { return net.minecraft.world.gen.surfacebuilder.SurfaceBuilder.getSeaLevel(); }
 
 }

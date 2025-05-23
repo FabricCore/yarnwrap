@@ -21,15 +21,14 @@ public class ServerStatHandler { public net.minecraft.stat.ServerStatHandler wra
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.stat.ServerStatHandler.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.stat.ServerStatHandler.LOGGER = value; }
 
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+// public static com.mojang.serialization.Codec CODEC() { return net.minecraft.stat.ServerStatHandler.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.stat.ServerStatHandler.CODEC = value; }
+
 public ServerStatHandler(yarnwrap.server.MinecraftServer server,java.io.File file) { this.wrapperContained = new net.minecraft.stat.ServerStatHandler(server.wrapperContained,file); }
-// public java.util.Optional createStat(yarnwrap.stat.StatType type,java.lang.String id) { return wrapperContained.createStat(type.wrapperContained,id); }
-// public static java.util.Optional createStat(yarnwrap.stat.StatType type,java.lang.String id, ) { return net.minecraft.stat.ServerStatHandler.createStat(type.wrapperContained,id); }
 public void parse(com.mojang.datafixers.DataFixer dataFixer,java.lang.String json) { wrapperContained.parse(dataFixer,json); }
 // public static void parse(com.mojang.datafixers.DataFixer dataFixer,java.lang.String json, ) { net.minecraft.stat.ServerStatHandler.parse(dataFixer,json); }
-// public yarnwrap.util.Identifier getStatId(yarnwrap.stat.Stat stat) { return new yarnwrap.util.Identifier(wrapperContained.getStatId(stat.wrapperContained)); }
-// public static yarnwrap.util.Identifier getStatId(yarnwrap.stat.Stat stat, ) { return new yarnwrap.util.Identifier(net.minecraft.stat.ServerStatHandler.getStatId(stat.wrapperContained)); }
-// public yarnwrap.nbt.NbtCompound jsonToCompound(com.google.gson.JsonObject json) { return new yarnwrap.nbt.NbtCompound(wrapperContained.jsonToCompound(json)); }
-// public static yarnwrap.nbt.NbtCompound jsonToCompound(com.google.gson.JsonObject json, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.stat.ServerStatHandler.jsonToCompound(json)); }
 // public java.util.Set takePendingStats() { return wrapperContained.takePendingStats(); }
 // public static java.util.Set takePendingStats() { return net.minecraft.stat.ServerStatHandler.takePendingStats(); }
 public void sendStats(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.sendStats(player.wrapperContained); }
@@ -38,13 +37,19 @@ public void sendStats(yarnwrap.server.network.ServerPlayerEntity player) { wrapp
 // public static java.lang.String asString() { return net.minecraft.stat.ServerStatHandler.asString(); }
 public void save() { wrapperContained.save(); }
 // public static void save() { net.minecraft.stat.ServerStatHandler.save(); }
-// public com.google.gson.JsonObject method_14913(yarnwrap.stat.StatType statType) { return wrapperContained.method_14913(statType.wrapperContained); }
-// public static com.google.gson.JsonObject method_14913(yarnwrap.stat.StatType statType, ) { return net.minecraft.stat.ServerStatHandler.method_14913(statType.wrapperContained); }
 public void updateStatSet() { wrapperContained.updateStatSet(); }
 // public static void updateStatSet() { net.minecraft.stat.ServerStatHandler.updateStatSet(); }
-// public void method_17990(yarnwrap.nbt.NbtCompound id) { wrapperContained.method_17990(id.wrapperContained); }
-// public static void method_17990(yarnwrap.nbt.NbtCompound id, ) { net.minecraft.stat.ServerStatHandler.method_17990(id.wrapperContained); }
-// public void method_17991(yarnwrap.nbt.NbtCompound statType) { wrapperContained.method_17991(statType.wrapperContained); }
-// public static void method_17991(yarnwrap.nbt.NbtCompound statType, ) { net.minecraft.stat.ServerStatHandler.method_17991(statType.wrapperContained); }
+// public com.mojang.serialization.Codec createCodec(yarnwrap.stat.StatType statType) { return wrapperContained.createCodec(statType.wrapperContained); }
+// public static com.mojang.serialization.Codec createCodec(yarnwrap.stat.StatType statType, ) { return net.minecraft.stat.ServerStatHandler.createCodec(statType.wrapperContained); }
+// public com.mojang.serialization.DataResult method_67581(yarnwrap.stat.StatType stat) { return wrapperContained.method_67581(stat.wrapperContained); }
+// public static com.mojang.serialization.DataResult method_67581(yarnwrap.stat.StatType stat, ) { return net.minecraft.stat.ServerStatHandler.method_67581(stat.wrapperContained); }
+// public yarnwrap.stat.StatType method_67582(Object entry) { return new yarnwrap.stat.StatType(wrapperContained.method_67582(entry)); }
+// public static yarnwrap.stat.StatType method_67582(Object entry, ) { return new yarnwrap.stat.StatType(net.minecraft.stat.ServerStatHandler.method_67582(entry)); }
+// public java.util.Map method_67583(java.util.Map stats) { return wrapperContained.method_67583(stats); }
+// public static java.util.Map method_67583(java.util.Map stats, ) { return net.minecraft.stat.ServerStatHandler.method_67583(stats); }
+// public void method_67584(java.util.Map type,yarnwrap.stat.StatType stats) { wrapperContained.method_67584(type,stats.wrapperContained); }
+// public static void method_67584(java.util.Map type,yarnwrap.stat.StatType stats, ) { net.minecraft.stat.ServerStatHandler.method_67584(type,stats.wrapperContained); }
+// public java.util.Map method_67586(java.util.Map statsByTypes) { return wrapperContained.method_67586(statsByTypes); }
+// public static java.util.Map method_67586(java.util.Map statsByTypes, ) { return net.minecraft.stat.ServerStatHandler.method_67586(statsByTypes); }
 
 }

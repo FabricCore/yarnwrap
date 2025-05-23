@@ -181,6 +181,31 @@ public static java.lang.String HIVE_POS_KEY() { return net.minecraft.entity.pass
 // public static int MIN_HIVE_RETURN_DISTANCE() { return net.minecraft.entity.passive.BeeEntity.MIN_HIVE_RETURN_DISTANCE; }
 // public static void MIN_HIVE_RETURN_DISTANCE(int value, ) { net.minecraft.entity.passive.BeeEntity.MIN_HIVE_RETURN_DISTANCE = value; }
 
+// public boolean DEFAULT_HAS_NECTAR() { return wrapperContained.DEFAULT_HAS_NECTAR; }
+// public void DEFAULT_HAS_NECTAR(boolean value) { wrapperContained.DEFAULT_HAS_NECTAR = value; }
+public static boolean DEFAULT_HAS_NECTAR() { return net.minecraft.entity.passive.BeeEntity.DEFAULT_HAS_NECTAR; }
+// public static void DEFAULT_HAS_NECTAR(boolean value, ) { net.minecraft.entity.passive.BeeEntity.DEFAULT_HAS_NECTAR = value; }
+
+// public boolean DEFAULT_HAS_STUNG() { return wrapperContained.DEFAULT_HAS_STUNG; }
+// public void DEFAULT_HAS_STUNG(boolean value) { wrapperContained.DEFAULT_HAS_STUNG = value; }
+// public static boolean DEFAULT_HAS_STUNG() { return net.minecraft.entity.passive.BeeEntity.DEFAULT_HAS_STUNG; }
+// public static void DEFAULT_HAS_STUNG(boolean value, ) { net.minecraft.entity.passive.BeeEntity.DEFAULT_HAS_STUNG = value; }
+
+// public int DEFAULT_TICKS_SINCE_POLLINATION() { return wrapperContained.DEFAULT_TICKS_SINCE_POLLINATION; }
+// public void DEFAULT_TICKS_SINCE_POLLINATION(int value) { wrapperContained.DEFAULT_TICKS_SINCE_POLLINATION = value; }
+// public static int DEFAULT_TICKS_SINCE_POLLINATION() { return net.minecraft.entity.passive.BeeEntity.DEFAULT_TICKS_SINCE_POLLINATION; }
+// public static void DEFAULT_TICKS_SINCE_POLLINATION(int value, ) { net.minecraft.entity.passive.BeeEntity.DEFAULT_TICKS_SINCE_POLLINATION = value; }
+
+// public int DEFAULT_CANNOT_ENTER_HIVE_TICKS() { return wrapperContained.DEFAULT_CANNOT_ENTER_HIVE_TICKS; }
+// public void DEFAULT_CANNOT_ENTER_HIVE_TICKS(int value) { wrapperContained.DEFAULT_CANNOT_ENTER_HIVE_TICKS = value; }
+// public static int DEFAULT_CANNOT_ENTER_HIVE_TICKS() { return net.minecraft.entity.passive.BeeEntity.DEFAULT_CANNOT_ENTER_HIVE_TICKS; }
+// public static void DEFAULT_CANNOT_ENTER_HIVE_TICKS(int value, ) { net.minecraft.entity.passive.BeeEntity.DEFAULT_CANNOT_ENTER_HIVE_TICKS = value; }
+
+// public int DEFAULT_CROPS_GROWN_SINCE_POLLINATION() { return wrapperContained.DEFAULT_CROPS_GROWN_SINCE_POLLINATION; }
+// public void DEFAULT_CROPS_GROWN_SINCE_POLLINATION(int value) { wrapperContained.DEFAULT_CROPS_GROWN_SINCE_POLLINATION = value; }
+// public static int DEFAULT_CROPS_GROWN_SINCE_POLLINATION() { return net.minecraft.entity.passive.BeeEntity.DEFAULT_CROPS_GROWN_SINCE_POLLINATION; }
+// public static void DEFAULT_CROPS_GROWN_SINCE_POLLINATION(int value, ) { net.minecraft.entity.passive.BeeEntity.DEFAULT_CROPS_GROWN_SINCE_POLLINATION = value; }
+
 // public void addParticle(yarnwrap.world.World world,double lastX,double x,double lastZ,double z,double y,yarnwrap.particle.ParticleEffect effect) { wrapperContained.addParticle(world.wrapperContained,lastX,x,lastZ,z,y,effect.wrapperContained); }
 // public static void addParticle(yarnwrap.world.World world,double lastX,double x,double lastZ,double z,double y,yarnwrap.particle.ParticleEffect effect, ) { net.minecraft.entity.passive.BeeEntity.addParticle(world.wrapperContained,lastX,x,lastZ,z,y,effect.wrapperContained); }
 // public void setBeeFlag(int bit,boolean value) { wrapperContained.setBeeFlag(bit,value); }
@@ -205,14 +230,14 @@ public void onHoneyDelivered() { wrapperContained.onHoneyDelivered(); }
 // public static boolean canEnterHive() { return net.minecraft.entity.passive.BeeEntity.canEnterHive(); }
 // public void updateBodyPitch() { wrapperContained.updateBodyPitch(); }
 // public static void updateBodyPitch() { net.minecraft.entity.passive.BeeEntity.updateBodyPitch(); }
-public boolean hasHive() { return wrapperContained.hasHive(); }
-// public static boolean hasHive() { return net.minecraft.entity.passive.BeeEntity.hasHive(); }
+public boolean hasHivePos() { return wrapperContained.hasHivePos(); }
+// public static boolean hasHivePos() { return net.minecraft.entity.passive.BeeEntity.hasHivePos(); }
 // public int getCropsGrownSincePollination() { return wrapperContained.getCropsGrownSincePollination(); }
 // public static int getCropsGrownSincePollination() { return net.minecraft.entity.passive.BeeEntity.getCropsGrownSincePollination(); }
 // public void addCropCounter() { wrapperContained.addCropCounter(); }
 // public static void addCropCounter() { net.minecraft.entity.passive.BeeEntity.addCropCounter(); }
-// public boolean isHiveValid() { return wrapperContained.isHiveValid(); }
-// public static boolean isHiveValid() { return net.minecraft.entity.passive.BeeEntity.isHiveValid(); }
+// public boolean hasValidHive() { return wrapperContained.hasValidHive(); }
+// public static boolean hasValidHive() { return net.minecraft.entity.passive.BeeEntity.hasValidHive(); }
 public void setFlowerPos(yarnwrap.util.math.BlockPos flowerPos) { wrapperContained.setFlowerPos(flowerPos.wrapperContained); }
 // public static void setFlowerPos(yarnwrap.util.math.BlockPos flowerPos, ) { net.minecraft.entity.passive.BeeEntity.setFlowerPos(flowerPos.wrapperContained); }
 // public void setHasNectar(boolean hasNectar) { wrapperContained.setHasNectar(hasNectar); }
@@ -223,8 +248,8 @@ public void setCannotEnterHiveTicks(int cannotEnterHiveTicks) { wrapperContained
 // public static void setCannotEnterHiveTicks(int cannotEnterHiveTicks, ) { net.minecraft.entity.passive.BeeEntity.setCannotEnterHiveTicks(cannotEnterHiveTicks); }
 // public void setNearTarget(boolean nearTarget) { wrapperContained.setNearTarget(nearTarget); }
 // public static void setNearTarget(boolean nearTarget, ) { net.minecraft.entity.passive.BeeEntity.setNearTarget(nearTarget); }
-public float getBodyPitch(float tickDelta) { return wrapperContained.getBodyPitch(tickDelta); }
-// public static float getBodyPitch(float tickDelta, ) { return net.minecraft.entity.passive.BeeEntity.getBodyPitch(tickDelta); }
+public float getBodyPitch(float tickProgress) { return wrapperContained.getBodyPitch(tickProgress); }
+// public static float getBodyPitch(float tickProgress, ) { return net.minecraft.entity.passive.BeeEntity.getBodyPitch(tickProgress); }
 // public boolean getBeeFlag(int location) { return wrapperContained.getBeeFlag(location); }
 // public static boolean getBeeFlag(int location, ) { return net.minecraft.entity.passive.BeeEntity.getBeeFlag(location); }
 public yarnwrap.util.math.BlockPos getHivePos() { return new yarnwrap.util.math.BlockPos(wrapperContained.getHivePos()); }
@@ -241,8 +266,6 @@ public yarnwrap.util.math.BlockPos getHivePos() { return new yarnwrap.util.math.
 // public static boolean doesHiveHaveSpace(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.passive.BeeEntity.doesHiveHaveSpace(pos.wrapperContained); }
 // public boolean isTooFar(yarnwrap.util.math.BlockPos pos) { return wrapperContained.isTooFar(pos.wrapperContained); }
 // public static boolean isTooFar(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.passive.BeeEntity.isTooFar(pos.wrapperContained); }
-// public boolean isFlowers(yarnwrap.util.math.BlockPos pos) { return wrapperContained.isFlowers(pos.wrapperContained); }
-// public static boolean isFlowers(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.entity.passive.BeeEntity.isFlowers(pos.wrapperContained); }
 // public Object createBeeAttributes() { return wrapperContained.createBeeAttributes(); }
 public static Object createBeeAttributes() { return net.minecraft.entity.passive.BeeEntity.createBeeAttributes(); }
 public int getMoveGoalTicks() { return wrapperContained.getMoveGoalTicks(); }
@@ -255,5 +278,15 @@ public void setHivePos(yarnwrap.util.math.BlockPos pos) { wrapperContained.setHi
 // public static void setHivePos(yarnwrap.util.math.BlockPos pos, ) { net.minecraft.entity.passive.BeeEntity.setHivePos(pos.wrapperContained); }
 // public boolean method_58363(yarnwrap.item.ItemStack stack) { return wrapperContained.method_58363(stack.wrapperContained); }
 // public static boolean method_58363(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.passive.BeeEntity.method_58363(stack.wrapperContained); }
+// public void clearHivePos() { wrapperContained.clearHivePos(); }
+// public static void clearHivePos() { net.minecraft.entity.passive.BeeEntity.clearHivePos(); }
+// public void clearFlowerPos() { wrapperContained.clearFlowerPos(); }
+// public static void clearFlowerPos() { net.minecraft.entity.passive.BeeEntity.clearFlowerPos(); }
+// public boolean isNightOrRaining(yarnwrap.world.World world) { return wrapperContained.isNightOrRaining(world.wrapperContained); }
+// public static boolean isNightOrRaining(yarnwrap.world.World world, ) { return net.minecraft.entity.passive.BeeEntity.isNightOrRaining(world.wrapperContained); }
+// public yarnwrap.block.entity.BeehiveBlockEntity getHive() { return new yarnwrap.block.entity.BeehiveBlockEntity(wrapperContained.getHive()); }
+// public static yarnwrap.block.entity.BeehiveBlockEntity getHive() { return new yarnwrap.block.entity.BeehiveBlockEntity(net.minecraft.entity.passive.BeeEntity.getHive()); }
+// public boolean isAttractive(yarnwrap.block.BlockState state) { return wrapperContained.isAttractive(state.wrapperContained); }
+// public static boolean isAttractive(yarnwrap.block.BlockState state, ) { return net.minecraft.entity.passive.BeeEntity.isAttractive(state.wrapperContained); }
 
 }

@@ -1,11 +1,11 @@
 package yarnwrap.recipe;
 public class SmithingRecipe { public net.minecraft.recipe.SmithingRecipe wrapperContained; public SmithingRecipe(net.minecraft.recipe.SmithingRecipe wrapperContained) { this.wrapperContained = wrapperContained; }
 
-public boolean testAddition(yarnwrap.item.ItemStack stack) { return wrapperContained.testAddition(stack.wrapperContained); }
-// public static boolean testAddition(yarnwrap.item.ItemStack stack, ) { return net.minecraft.recipe.SmithingRecipe.testAddition(stack.wrapperContained); }
-public boolean testTemplate(yarnwrap.item.ItemStack stack) { return wrapperContained.testTemplate(stack.wrapperContained); }
-// public static boolean testTemplate(yarnwrap.item.ItemStack stack, ) { return net.minecraft.recipe.SmithingRecipe.testTemplate(stack.wrapperContained); }
-public boolean testBase(yarnwrap.item.ItemStack stack) { return wrapperContained.testBase(stack.wrapperContained); }
-// public static boolean testBase(yarnwrap.item.ItemStack stack, ) { return net.minecraft.recipe.SmithingRecipe.testBase(stack.wrapperContained); }
+public java.util.Optional template() { return wrapperContained.template(); }
+// public static java.util.Optional template() { return net.minecraft.recipe.SmithingRecipe.template(); }
+public yarnwrap.recipe.Ingredient base() { return new yarnwrap.recipe.Ingredient(wrapperContained.base()); }
+// public static yarnwrap.recipe.Ingredient base() { return new yarnwrap.recipe.Ingredient(net.minecraft.recipe.SmithingRecipe.base()); }
+public java.util.Optional addition() { return wrapperContained.addition(); }
+// public static java.util.Optional addition() { return net.minecraft.recipe.SmithingRecipe.addition(); }
 
 }

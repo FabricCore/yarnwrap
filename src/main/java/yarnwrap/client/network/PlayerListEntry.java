@@ -36,6 +36,16 @@ public class PlayerListEntry { public net.minecraft.client.network.PlayerListEnt
 // public static java.util.function.Supplier texturesSupplier() { return net.minecraft.client.network.PlayerListEntry.texturesSupplier; }
 // public static void texturesSupplier(java.util.function.Supplier value, ) { net.minecraft.client.network.PlayerListEntry.texturesSupplier = value; }
 
+// public int listOrder() { return wrapperContained.listOrder; }
+// public void listOrder(int value) { wrapperContained.listOrder = value; }
+// public static int listOrder() { return net.minecraft.client.network.PlayerListEntry.listOrder; }
+// public static void listOrder(int value, ) { net.minecraft.client.network.PlayerListEntry.listOrder = value; }
+
+// public boolean showHat() { return wrapperContained.showHat; }
+// public void showHat(boolean value) { wrapperContained.showHat = value; }
+// public static boolean showHat() { return net.minecraft.client.network.PlayerListEntry.showHat; }
+// public static void showHat(boolean value, ) { net.minecraft.client.network.PlayerListEntry.showHat = value; }
+
 public PlayerListEntry(com.mojang.authlib.GameProfile profile,boolean secureChatEnforced) { this.wrapperContained = new net.minecraft.client.network.PlayerListEntry(profile,secureChatEnforced); }
 public yarnwrap.scoreboard.Team getScoreboardTeam() { return new yarnwrap.scoreboard.Team(wrapperContained.getScoreboardTeam()); }
 // public static yarnwrap.scoreboard.Team getScoreboardTeam() { return new yarnwrap.scoreboard.Team(net.minecraft.client.network.PlayerListEntry.getScoreboardTeam()); }
@@ -69,5 +79,13 @@ public boolean hasPublicKey() { return wrapperContained.hasPublicKey(); }
 // public static java.util.function.Supplier texturesSupplier(com.mojang.authlib.GameProfile profile, ) { return net.minecraft.client.network.PlayerListEntry.texturesSupplier(profile); }
 public yarnwrap.client.util.SkinTextures getSkinTextures() { return new yarnwrap.client.util.SkinTextures(wrapperContained.getSkinTextures()); }
 // public static yarnwrap.client.util.SkinTextures getSkinTextures() { return new yarnwrap.client.util.SkinTextures(net.minecraft.client.network.PlayerListEntry.getSkinTextures()); }
+public void setListOrder(int listOrder) { wrapperContained.setListOrder(listOrder); }
+// public static void setListOrder(int listOrder, ) { net.minecraft.client.network.PlayerListEntry.setListOrder(listOrder); }
+public int getListOrder() { return wrapperContained.getListOrder(); }
+// public static int getListOrder() { return net.minecraft.client.network.PlayerListEntry.getListOrder(); }
+public void setShowHat(boolean showHat) { wrapperContained.setShowHat(showHat); }
+// public static void setShowHat(boolean showHat, ) { net.minecraft.client.network.PlayerListEntry.setShowHat(showHat); }
+public boolean shouldShowHat() { return wrapperContained.shouldShowHat(); }
+// public static boolean shouldShowHat() { return net.minecraft.client.network.PlayerListEntry.shouldShowHat(); }
 
 }

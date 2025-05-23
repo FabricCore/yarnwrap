@@ -1,7 +1,6 @@
 package yarnwrap.datafixer.fix;
 public class BlockEntityBannerColorFix { public net.minecraft.datafixer.fix.BlockEntityBannerColorFix wrapperContained; public BlockEntityBannerColorFix(net.minecraft.datafixer.fix.BlockEntityBannerColorFix wrapperContained) { this.wrapperContained = wrapperContained; }
 
-public BlockEntityBannerColorFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.BlockEntityBannerColorFix(outputSchema,changesType); }
 public com.mojang.serialization.Dynamic fixBannerColor(com.mojang.serialization.Dynamic bannerDynamic) { return wrapperContained.fixBannerColor(bannerDynamic); }
 // public static com.mojang.serialization.Dynamic fixBannerColor(com.mojang.serialization.Dynamic bannerDynamic, ) { return net.minecraft.datafixer.fix.BlockEntityBannerColorFix.fixBannerColor(bannerDynamic); }
 // public com.mojang.serialization.Dynamic method_28176(com.mojang.serialization.Dynamic patternsDynamic) { return wrapperContained.method_28176(patternsDynamic); }

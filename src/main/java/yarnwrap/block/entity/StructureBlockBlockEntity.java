@@ -76,6 +76,76 @@ public class StructureBlockBlockEntity { public net.minecraft.block.entity.Struc
 public static java.lang.String AUTHOR_KEY() { return net.minecraft.block.entity.StructureBlockBlockEntity.AUTHOR_KEY; }
 // public static void AUTHOR_KEY(java.lang.String value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.AUTHOR_KEY = value; }
 
+// public boolean strict() { return wrapperContained.strict; }
+// public void strict(boolean value) { wrapperContained.strict = value; }
+// public static boolean strict() { return net.minecraft.block.entity.StructureBlockBlockEntity.strict; }
+// public static void strict(boolean value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.strict = value; }
+
+// public java.lang.String DEFAULT_AUTHOR() { return wrapperContained.DEFAULT_AUTHOR; }
+// public void DEFAULT_AUTHOR(java.lang.String value) { wrapperContained.DEFAULT_AUTHOR = value; }
+// public static java.lang.String DEFAULT_AUTHOR() { return net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_AUTHOR; }
+// public static void DEFAULT_AUTHOR(java.lang.String value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_AUTHOR = value; }
+
+// public java.lang.String DEFAULT_METADATA() { return wrapperContained.DEFAULT_METADATA; }
+// public void DEFAULT_METADATA(java.lang.String value) { wrapperContained.DEFAULT_METADATA = value; }
+// public static java.lang.String DEFAULT_METADATA() { return net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_METADATA; }
+// public static void DEFAULT_METADATA(java.lang.String value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_METADATA = value; }
+
+// public yarnwrap.util.math.BlockPos DEFAULT_OFFSET() { return new yarnwrap.util.math.BlockPos(wrapperContained.DEFAULT_OFFSET); }
+// public void DEFAULT_OFFSET(yarnwrap.util.math.BlockPos value) { wrapperContained.DEFAULT_OFFSET = value.wrapperContained; }
+// public static yarnwrap.util.math.BlockPos DEFAULT_OFFSET() { return new yarnwrap.util.math.BlockPos(net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_OFFSET); }
+// public static void DEFAULT_OFFSET(yarnwrap.util.math.BlockPos value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_OFFSET = value.wrapperContained; }
+
+// public yarnwrap.util.math.Vec3i DEFAULT_SIZE() { return new yarnwrap.util.math.Vec3i(wrapperContained.DEFAULT_SIZE); }
+// public void DEFAULT_SIZE(yarnwrap.util.math.Vec3i value) { wrapperContained.DEFAULT_SIZE = value.wrapperContained; }
+// public static yarnwrap.util.math.Vec3i DEFAULT_SIZE() { return new yarnwrap.util.math.Vec3i(net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_SIZE); }
+// public static void DEFAULT_SIZE(yarnwrap.util.math.Vec3i value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_SIZE = value.wrapperContained; }
+
+// public yarnwrap.util.BlockRotation DEFAULT_ROTATION() { return new yarnwrap.util.BlockRotation(wrapperContained.DEFAULT_ROTATION); }
+// public void DEFAULT_ROTATION(yarnwrap.util.BlockRotation value) { wrapperContained.DEFAULT_ROTATION = value.wrapperContained; }
+// public static yarnwrap.util.BlockRotation DEFAULT_ROTATION() { return new yarnwrap.util.BlockRotation(net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_ROTATION); }
+// public static void DEFAULT_ROTATION(yarnwrap.util.BlockRotation value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_ROTATION = value.wrapperContained; }
+
+// public yarnwrap.util.BlockMirror DEFAULT_MIRROR() { return new yarnwrap.util.BlockMirror(wrapperContained.DEFAULT_MIRROR); }
+// public void DEFAULT_MIRROR(yarnwrap.util.BlockMirror value) { wrapperContained.DEFAULT_MIRROR = value.wrapperContained; }
+// public static yarnwrap.util.BlockMirror DEFAULT_MIRROR() { return new yarnwrap.util.BlockMirror(net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_MIRROR); }
+// public static void DEFAULT_MIRROR(yarnwrap.util.BlockMirror value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_MIRROR = value.wrapperContained; }
+
+// public boolean DEFAULT_IGNORE_ENTITIES() { return wrapperContained.DEFAULT_IGNORE_ENTITIES; }
+// public void DEFAULT_IGNORE_ENTITIES(boolean value) { wrapperContained.DEFAULT_IGNORE_ENTITIES = value; }
+// public static boolean DEFAULT_IGNORE_ENTITIES() { return net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_IGNORE_ENTITIES; }
+// public static void DEFAULT_IGNORE_ENTITIES(boolean value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_IGNORE_ENTITIES = value; }
+
+// public boolean DEFAULT_STRICT() { return wrapperContained.DEFAULT_STRICT; }
+// public void DEFAULT_STRICT(boolean value) { wrapperContained.DEFAULT_STRICT = value; }
+// public static boolean DEFAULT_STRICT() { return net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_STRICT; }
+// public static void DEFAULT_STRICT(boolean value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_STRICT = value; }
+
+// public boolean DEFAULT_POWERED() { return wrapperContained.DEFAULT_POWERED; }
+// public void DEFAULT_POWERED(boolean value) { wrapperContained.DEFAULT_POWERED = value; }
+// public static boolean DEFAULT_POWERED() { return net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_POWERED; }
+// public static void DEFAULT_POWERED(boolean value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_POWERED = value; }
+
+// public boolean DEFAULT_SHOW_AIR() { return wrapperContained.DEFAULT_SHOW_AIR; }
+// public void DEFAULT_SHOW_AIR(boolean value) { wrapperContained.DEFAULT_SHOW_AIR = value; }
+// public static boolean DEFAULT_SHOW_AIR() { return net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_SHOW_AIR; }
+// public static void DEFAULT_SHOW_AIR(boolean value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_SHOW_AIR = value; }
+
+// public boolean DEFAULT_SHOW_BOUNDING_BOX() { return wrapperContained.DEFAULT_SHOW_BOUNDING_BOX; }
+// public void DEFAULT_SHOW_BOUNDING_BOX(boolean value) { wrapperContained.DEFAULT_SHOW_BOUNDING_BOX = value; }
+// public static boolean DEFAULT_SHOW_BOUNDING_BOX() { return net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_SHOW_BOUNDING_BOX; }
+// public static void DEFAULT_SHOW_BOUNDING_BOX(boolean value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_SHOW_BOUNDING_BOX = value; }
+
+// public float DEFAULT_INTEGRITY() { return wrapperContained.DEFAULT_INTEGRITY; }
+// public void DEFAULT_INTEGRITY(float value) { wrapperContained.DEFAULT_INTEGRITY = value; }
+// public static float DEFAULT_INTEGRITY() { return net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_INTEGRITY; }
+// public static void DEFAULT_INTEGRITY(float value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_INTEGRITY = value; }
+
+// public long DEFAULT_SEED() { return wrapperContained.DEFAULT_SEED; }
+// public void DEFAULT_SEED(long value) { wrapperContained.DEFAULT_SEED = value; }
+// public static long DEFAULT_SEED() { return net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_SEED; }
+// public static void DEFAULT_SEED(long value, ) { net.minecraft.block.entity.StructureBlockBlockEntity.DEFAULT_SEED = value; }
+
 public StructureBlockBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.StructureBlockBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void setTemplateName(java.lang.String templateName) { wrapperContained.setTemplateName(templateName); }
 // public static void setTemplateName(java.lang.String templateName, ) { net.minecraft.block.entity.StructureBlockBlockEntity.setTemplateName(templateName); }
@@ -117,8 +187,8 @@ public void setMetadata(java.lang.String metadata) { wrapperContained.setMetadat
 // public static void setMetadata(java.lang.String metadata, ) { net.minecraft.block.entity.StructureBlockBlockEntity.setMetadata(metadata); }
 public boolean saveStructure() { return wrapperContained.saveStructure(); }
 // public static boolean saveStructure() { return net.minecraft.block.entity.StructureBlockBlockEntity.saveStructure(); }
-public boolean saveStructure(boolean interactive) { return wrapperContained.saveStructure(interactive); }
-// public static boolean saveStructure(boolean interactive, ) { return net.minecraft.block.entity.StructureBlockBlockEntity.saveStructure(interactive); }
+public boolean saveStructure(boolean toDisk) { return wrapperContained.saveStructure(toDisk); }
+// public static boolean saveStructure(boolean toDisk, ) { return net.minecraft.block.entity.StructureBlockBlockEntity.saveStructure(toDisk); }
 public boolean shouldIgnoreEntities() { return wrapperContained.shouldIgnoreEntities(); }
 // public static boolean shouldIgnoreEntities() { return net.minecraft.block.entity.StructureBlockBlockEntity.shouldIgnoreEntities(); }
 public void setIntegrity(float integrity) { wrapperContained.setIntegrity(integrity); }
@@ -177,5 +247,11 @@ public void loadAndPlaceStructure(yarnwrap.server.world.ServerWorld world) { wra
 // public static void loadAndPlaceStructure(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.block.entity.StructureBlockBlockEntity.loadAndPlaceStructure(world.wrapperContained); }
 // public yarnwrap.structure.StructureTemplate getStructureTemplate(yarnwrap.server.world.ServerWorld world) { return new yarnwrap.structure.StructureTemplate(wrapperContained.getStructureTemplate(world.wrapperContained)); }
 // public static yarnwrap.structure.StructureTemplate getStructureTemplate(yarnwrap.server.world.ServerWorld world, ) { return new yarnwrap.structure.StructureTemplate(net.minecraft.block.entity.StructureBlockBlockEntity.getStructureTemplate(world.wrapperContained)); }
+// public void setStrict() { wrapperContained.setStrict(); }
+// public static void setStrict() { net.minecraft.block.entity.StructureBlockBlockEntity.setStrict(); }
+public boolean isStrict() { return wrapperContained.isStrict(); }
+// public static boolean isStrict() { return net.minecraft.block.entity.StructureBlockBlockEntity.isStrict(); }
+// public boolean saveStructure(yarnwrap.server.world.ServerWorld world,yarnwrap.util.Identifier templateId,yarnwrap.util.math.BlockPos start,yarnwrap.util.math.Vec3i size,boolean ignoreEntities,java.lang.String author,boolean toDisk) { return wrapperContained.saveStructure(world.wrapperContained,templateId.wrapperContained,start.wrapperContained,size.wrapperContained,ignoreEntities,author,toDisk); }
+// public static boolean saveStructure(yarnwrap.server.world.ServerWorld world,yarnwrap.util.Identifier templateId,yarnwrap.util.math.BlockPos start,yarnwrap.util.math.Vec3i size,boolean ignoreEntities,java.lang.String author,boolean toDisk, ) { return net.minecraft.block.entity.StructureBlockBlockEntity.saveStructure(world.wrapperContained,templateId.wrapperContained,start.wrapperContained,size.wrapperContained,ignoreEntities,author,toDisk); }
 
 }

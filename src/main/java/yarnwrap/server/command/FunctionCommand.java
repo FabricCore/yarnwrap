@@ -30,8 +30,6 @@ public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType INSTA
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.command.FunctionCommand.register(dispatcher); }
 // public java.util.concurrent.CompletableFuture method_13382(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.method_13382(context,builder); }
 // public static java.util.concurrent.CompletableFuture method_13382(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.server.command.FunctionCommand.method_13382(context,builder); }
-// public boolean method_13384(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13384(source.wrapperContained); }
-// public static boolean method_13384(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.FunctionCommand.method_13384(source.wrapperContained); }
 // public com.mojang.brigadier.builder.ArgumentBuilder method_52309(Object builder) { return wrapperContained.method_52309(builder); }
 // public static com.mojang.brigadier.builder.ArgumentBuilder method_52309(Object builder, ) { return net.minecraft.server.command.FunctionCommand.method_52309(builder); }
 // public yarnwrap.nbt.NbtCompound getArgument(Object path,yarnwrap.command.DataCommandObject object) { return new yarnwrap.nbt.NbtCompound(wrapperContained.getArgument(path,object.wrapperContained)); }

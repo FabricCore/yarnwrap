@@ -55,6 +55,7 @@ import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents.*;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents.*;
 import net.fabricmc.fabric.api.event.player.*;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents.*;
+import net.fabricmc.fabric.api.event.player.PlayerPickItemEvents.*;
 import net.fabricmc.fabric.api.item.v1.*;
 import net.fabricmc.fabric.api.item.v1.DefaultItemComponentEvents.*;
 import net.fabricmc.fabric.api.item.v1.EnchantmentEvents.*;
@@ -99,7 +100,6 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.hud.ChatHud;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.network.ClientConfigurationNetworkHandler;
 import net.minecraft.client.network.ClientLoginNetworkHandler;
 import net.minecraft.client.network.ClientPlayNetworkHandler;
@@ -107,6 +107,7 @@ import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.WorldRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRenderer;
+import net.minecraft.client.render.entity.state.PlayerEntityRenderState;
 import net.minecraft.client.world.ClientWorld;
 import net.minecraft.component.ComponentMap;
 import net.minecraft.component.DataComponentTypes;
@@ -115,6 +116,7 @@ import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.conversion.EntityConversionContext;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -146,6 +148,9 @@ import net.minecraft.server.network.ServerConfigurationNetworkHandler;
 import net.minecraft.server.network.ServerLoginNetworkHandler;
 import net.minecraft.server.network.ServerPlayNetworkHandler;
 import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.server.world.ChunkHolder;
+import net.minecraft.server.world.ChunkLevelType;
+import net.minecraft.server.world.ServerChunkManager;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
@@ -156,6 +161,7 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.PersistentState;
 import net.minecraft.world.World;
+import net.minecraft.world.chunk.ChunkStatus;
 import net.minecraft.world.chunk.WorldChunk;
 import org.jetbrains.annotations.Nullable;
 
@@ -250,6 +256,7 @@ net.fabricmc.fabric.api.event.client.player.ClientPlayerBlockBreakEvents.After,
 net.fabricmc.fabric.api.event.lifecycle.v1.ServerBlockEntityEvents.Load,
 net.fabricmc.fabric.api.event.lifecycle.v1.ServerBlockEntityEvents.Unload,
 net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents.Generate,
+// net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents.LevelTypeChange,
 net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents.Load,
 net.fabricmc.fabric.api.event.lifecycle.v1.ServerChunkEvents.Unload,
 net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents.EquipmentChange,
@@ -273,6 +280,8 @@ net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents.Unload,
 net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents.After,
 net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents.Before,
 net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents.Canceled,
+net.fabricmc.fabric.api.event.player.PlayerPickItemEvents.PickItemFromBlock,
+net.fabricmc.fabric.api.event.player.PlayerPickItemEvents.PickItemFromEntity,
 net.fabricmc.fabric.api.item.v1.DefaultItemComponentEvents.ModifyCallback,
 net.fabricmc.fabric.api.item.v1.EnchantmentEvents.AllowEnchanting,
 net.fabricmc.fabric.api.item.v1.EnchantmentEvents.Modify,
@@ -440,7 +449,7 @@ public void onPlayReady(ClientPlayNetworkHandler handler, PacketSender sender, M
 public boolean allowBlockDustTint(BlockState state, ClientWorld world, BlockPos pos) { Object res = runF(new yarnwrap.block.BlockState(state), new yarnwrap.client.world.ClientWorld(world), new yarnwrap.util.math.BlockPos(pos)); if (Undefined.isUndefined(res)) { return true; } else try { return (boolean) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (boolean) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (allowBlockDustTint)\u00A77] \u00A7c" + e.toString()); return true; } }
 
 @Override
-public boolean allowCapeRender(AbstractClientPlayerEntity player) { Object res = runF(new yarnwrap.client.network.AbstractClientPlayerEntity(player)); if (Undefined.isUndefined(res)) { return true; } else try { return (boolean) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (boolean) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (allowCapeRender)\u00A77] \u00A7c" + e.toString()); return true; } }
+public boolean allowCapeRender(PlayerEntityRenderState state) { Object res = runF(new yarnwrap.client.render.entity.state.PlayerEntityRenderState(state)); if (Undefined.isUndefined(res)) { return true; } else try { return (boolean) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (boolean) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (allowCapeRender)\u00A77] \u00A7c" + e.toString()); return true; } }
 
 @Override
 public void afterEntities(WorldRenderContext context) { runF(context); }
@@ -554,7 +563,7 @@ public boolean allowDamage(LivingEntity entity, DamageSource source, float amoun
 public boolean allowDeath(LivingEntity entity, DamageSource damageSource, float damageAmount) { Object res = runF(new yarnwrap.entity.LivingEntity(entity), new yarnwrap.entity.damage.DamageSource(damageSource), damageAmount); if (Undefined.isUndefined(res)) { return true; } else try { return (boolean) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (boolean) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (allowDeath)\u00A77] \u00A7c" + e.toString()); return true; } }
 
 @Override
-public void onConversion(MobEntity previous, MobEntity converted, boolean keepEquipment) { runF(new yarnwrap.entity.mob.MobEntity(previous), new yarnwrap.entity.mob.MobEntity(converted), keepEquipment); }
+public void onConversion(MobEntity previous, MobEntity converted, EntityConversionContext conversionContext) { runF(new yarnwrap.entity.mob.MobEntity(previous), new yarnwrap.entity.mob.MobEntity(converted), new yarnwrap.entity.conversion.EntityConversionContext(conversionContext)); }
 
 @Override
 public void afterRespawn(ServerPlayerEntity oldPlayer, ServerPlayerEntity newPlayer, boolean alive) { runF(new yarnwrap.server.network.ServerPlayerEntity(oldPlayer), new yarnwrap.server.network.ServerPlayerEntity(newPlayer), alive); }
@@ -576,6 +585,9 @@ public void onUnload(BlockEntity blockEntity, ServerWorld world) { runF(new yarn
 
 @Override
 public void onChunkGenerate(ServerWorld world, WorldChunk chunk) { runF(new yarnwrap.server.world.ServerWorld(world), new yarnwrap.world.chunk.WorldChunk(chunk)); }
+
+// @Override
+// public void onChunkLevelTypeChange(ServerWorld world, WorldChunk chunk, ChunkLevelType oldLevelType, ChunkLevelType newLevelType) { runF(new yarnwrap.server.world.ServerWorld(world), new yarnwrap.world.chunk.WorldChunk(chunk), new yarnwrap.server.world.ChunkLevelType(oldLevelType), new yarnwrap.server.world.ChunkLevelType(newLevelType)); }
 
 @Override
 public void onChunkLoad(ServerWorld world, WorldChunk chunk) { runF(new yarnwrap.server.world.ServerWorld(world), new yarnwrap.world.chunk.WorldChunk(chunk)); }
@@ -645,6 +657,12 @@ public boolean beforeBlockBreak(World world, PlayerEntity player, BlockPos pos, 
 
 @Override
 public void onBlockBreakCanceled(World world, PlayerEntity player, BlockPos pos, BlockState state, BlockEntity blockEntity) { runF(new yarnwrap.world.World(world), new yarnwrap.entity.player.PlayerEntity(player), new yarnwrap.util.math.BlockPos(pos), new yarnwrap.block.BlockState(state), new yarnwrap.block.entity.BlockEntity(blockEntity)); }
+
+@Override
+public 		ItemStack onPickItemFromBlock(ServerPlayerEntity player, BlockPos pos, BlockState state, boolean requestIncludeData) { Object res = runF(new yarnwrap.server.network.ServerPlayerEntity(player), new yarnwrap.util.math.BlockPos(pos), new yarnwrap.block.BlockState(state), requestIncludeData); if (Undefined.isUndefined(res)) { return null; } else try { return (		ItemStack) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (		ItemStack) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (onPickItemFromBlock)\u00A77] \u00A7c" + e.toString()); return null; } }
+
+@Override
+public 		ItemStack onPickItemFromEntity(ServerPlayerEntity player, Entity entity, boolean requestIncludeData) { Object res = runF(new yarnwrap.server.network.ServerPlayerEntity(player), new yarnwrap.entity.Entity(entity), requestIncludeData); if (Undefined.isUndefined(res)) { return null; } else try { return (		ItemStack) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (		ItemStack) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (onPickItemFromEntity)\u00A77] \u00A7c" + e.toString()); return null; } }
 
 @Override
 public void modify(ModifyContext context) { runF(context); }

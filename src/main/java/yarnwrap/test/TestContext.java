@@ -36,10 +36,10 @@ public void expectEntityAt(yarnwrap.entity.Entity entity,int x,int y,int z) { wr
 // public static boolean method_35954(yarnwrap.entity.Entity e, ) { return net.minecraft.test.TestContext.method_35954(e.wrapperContained); }
 public void expectEntityAt(yarnwrap.entity.Entity entity,yarnwrap.util.math.BlockPos pos) { wrapperContained.expectEntityAt(entity.wrapperContained,pos.wrapperContained); }
 // public static void expectEntityAt(yarnwrap.entity.Entity entity,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.test.TestContext.expectEntityAt(entity.wrapperContained,pos.wrapperContained); }
-public void testEntityProperty(yarnwrap.entity.Entity entity,java.util.function.Function propertyGetter,java.lang.String propertyName,java.lang.Object expectedValue) { wrapperContained.testEntityProperty(entity.wrapperContained,propertyGetter,propertyName,expectedValue); }
-// public static void testEntityProperty(yarnwrap.entity.Entity entity,java.util.function.Function propertyGetter,java.lang.String propertyName,java.lang.Object expectedValue, ) { net.minecraft.test.TestContext.testEntityProperty(entity.wrapperContained,propertyGetter,propertyName,expectedValue); }
-public void testEntity(yarnwrap.entity.Entity entity,java.util.function.Predicate predicate,java.lang.String testName) { wrapperContained.testEntity(entity.wrapperContained,predicate,testName); }
-// public static void testEntity(yarnwrap.entity.Entity entity,java.util.function.Predicate predicate,java.lang.String testName, ) { net.minecraft.test.TestContext.testEntity(entity.wrapperContained,predicate,testName); }
+public void testEntityProperty(yarnwrap.entity.Entity entity,java.util.function.Function propertyGetter,java.lang.Object value,yarnwrap.text.Text message) { wrapperContained.testEntityProperty(entity.wrapperContained,propertyGetter,value,message.wrapperContained); }
+// public static void testEntityProperty(yarnwrap.entity.Entity entity,java.util.function.Function propertyGetter,java.lang.Object value,yarnwrap.text.Text message, ) { net.minecraft.test.TestContext.testEntityProperty(entity.wrapperContained,propertyGetter,value,message.wrapperContained); }
+public void testEntity(yarnwrap.entity.Entity entity,java.util.function.Predicate predicate,yarnwrap.text.Text message) { wrapperContained.testEntity(entity.wrapperContained,predicate,message.wrapperContained); }
+// public static void testEntity(yarnwrap.entity.Entity entity,java.util.function.Predicate predicate,yarnwrap.text.Text message, ) { net.minecraft.test.TestContext.testEntity(entity.wrapperContained,predicate,message.wrapperContained); }
 public void expectEntity(yarnwrap.entity.EntityType type) { wrapperContained.expectEntity(type.wrapperContained); }
 // public static void expectEntity(yarnwrap.entity.EntityType type, ) { net.minecraft.test.TestContext.expectEntity(type.wrapperContained); }
 public void expectEntityToTouch(yarnwrap.entity.EntityType type,double x,double y,double z) { wrapperContained.expectEntityToTouch(type.wrapperContained,x,y,z); }
@@ -68,8 +68,6 @@ public void expectBlock(yarnwrap.block.Block block,int x,int y,int z) { wrapperC
 // public static void expectBlock(yarnwrap.block.Block block,int x,int y,int z, ) { net.minecraft.test.TestContext.expectBlock(block.wrapperContained,x,y,z); }
 public void expectBlock(yarnwrap.block.Block block,yarnwrap.util.math.BlockPos pos) { wrapperContained.expectBlock(block.wrapperContained,pos.wrapperContained); }
 // public static void expectBlock(yarnwrap.block.Block block,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.test.TestContext.expectBlock(block.wrapperContained,pos.wrapperContained); }
-// public boolean method_35973(yarnwrap.block.BlockState state) { return wrapperContained.method_35973(state.wrapperContained); }
-// public static boolean method_35973(yarnwrap.block.BlockState state, ) { return net.minecraft.test.TestContext.method_35973(state.wrapperContained); }
 // public boolean method_35974(yarnwrap.block.BlockState block1) { return wrapperContained.method_35974(block1.wrapperContained); }
 // public static boolean method_35974(yarnwrap.block.BlockState block1, ) { return net.minecraft.test.TestContext.method_35974(block1.wrapperContained); }
 public void expectSameStates(yarnwrap.util.math.BlockBox checkedBlockBox,yarnwrap.util.math.BlockPos correctStatePos) { wrapperContained.expectSameStates(checkedBlockBox.wrapperContained,correctStatePos.wrapperContained); }
@@ -94,26 +92,24 @@ public void setBlockState(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockSt
 // public static void setBlockState(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.test.TestContext.setBlockState(pos.wrapperContained,state.wrapperContained); }
 public void expectBlockProperty(yarnwrap.util.math.BlockPos pos,yarnwrap.state.property.Property property,java.lang.Comparable value) { wrapperContained.expectBlockProperty(pos.wrapperContained,property.wrapperContained,value); }
 // public static void expectBlockProperty(yarnwrap.util.math.BlockPos pos,yarnwrap.state.property.Property property,java.lang.Comparable value, ) { net.minecraft.test.TestContext.expectBlockProperty(pos.wrapperContained,property.wrapperContained,value); }
-public void checkBlockProperty(yarnwrap.util.math.BlockPos pos,yarnwrap.state.property.Property property,java.util.function.Predicate predicate,java.lang.String errorMessage) { wrapperContained.checkBlockProperty(pos.wrapperContained,property.wrapperContained,predicate,errorMessage); }
-// public static void checkBlockProperty(yarnwrap.util.math.BlockPos pos,yarnwrap.state.property.Property property,java.util.function.Predicate predicate,java.lang.String errorMessage, ) { net.minecraft.test.TestContext.checkBlockProperty(pos.wrapperContained,property.wrapperContained,predicate,errorMessage); }
+public void checkBlockProperty(yarnwrap.util.math.BlockPos pos,yarnwrap.state.property.Property property,java.util.function.Predicate predicate,yarnwrap.text.Text message) { wrapperContained.checkBlockProperty(pos.wrapperContained,property.wrapperContained,predicate,message.wrapperContained); }
+// public static void checkBlockProperty(yarnwrap.util.math.BlockPos pos,yarnwrap.state.property.Property property,java.util.function.Predicate predicate,yarnwrap.text.Text message, ) { net.minecraft.test.TestContext.checkBlockProperty(pos.wrapperContained,property.wrapperContained,predicate,message.wrapperContained); }
 // public void method_35989(yarnwrap.util.math.BlockPos checkedPos) { wrapperContained.method_35989(checkedPos.wrapperContained); }
 // public static void method_35989(yarnwrap.util.math.BlockPos checkedPos, ) { net.minecraft.test.TestContext.method_35989(checkedPos.wrapperContained); }
 public void expectSameStates(yarnwrap.util.math.BlockPos checkedPos,yarnwrap.util.math.BlockPos correctStatePos) { wrapperContained.expectSameStates(checkedPos.wrapperContained,correctStatePos.wrapperContained); }
 // public static void expectSameStates(yarnwrap.util.math.BlockPos checkedPos,yarnwrap.util.math.BlockPos correctStatePos, ) { net.minecraft.test.TestContext.expectSameStates(checkedPos.wrapperContained,correctStatePos.wrapperContained); }
-public void checkBlock(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.lang.String errorMessage) { wrapperContained.checkBlock(pos.wrapperContained,predicate,errorMessage); }
-// public static void checkBlock(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.lang.String errorMessage, ) { net.minecraft.test.TestContext.checkBlock(pos.wrapperContained,predicate,errorMessage); }
-public void checkBlock(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.util.function.Supplier errorMessageSupplier) { wrapperContained.checkBlock(pos.wrapperContained,predicate,errorMessageSupplier); }
-// public static void checkBlock(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.util.function.Supplier errorMessageSupplier, ) { net.minecraft.test.TestContext.checkBlock(pos.wrapperContained,predicate,errorMessageSupplier); }
+public void checkBlock(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.util.function.Function messageGetter) { wrapperContained.checkBlock(pos.wrapperContained,predicate,messageGetter); }
+// public static void checkBlock(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.util.function.Function messageGetter, ) { net.minecraft.test.TestContext.checkBlock(pos.wrapperContained,predicate,messageGetter); }
 public void addFinalTask(java.lang.Runnable runnable) { wrapperContained.addFinalTask(runnable); }
 // public static void addFinalTask(java.lang.Runnable runnable, ) { net.minecraft.test.TestContext.addFinalTask(runnable); }
 // public void method_35994(java.lang.Runnable tick) { wrapperContained.method_35994(tick); }
 // public static void method_35994(java.lang.Runnable tick, ) { net.minecraft.test.TestContext.method_35994(tick); }
-public void throwGameTestException(java.lang.String message) { wrapperContained.throwGameTestException(message); }
-// public static void throwGameTestException(java.lang.String message, ) { net.minecraft.test.TestContext.throwGameTestException(message); }
-public void throwPositionedException(java.lang.String message,yarnwrap.entity.Entity entity) { wrapperContained.throwPositionedException(message,entity.wrapperContained); }
-// public static void throwPositionedException(java.lang.String message,yarnwrap.entity.Entity entity, ) { net.minecraft.test.TestContext.throwPositionedException(message,entity.wrapperContained); }
-public void throwPositionedException(java.lang.String message,yarnwrap.util.math.BlockPos pos) { wrapperContained.throwPositionedException(message,pos.wrapperContained); }
-// public static void throwPositionedException(java.lang.String message,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.test.TestContext.throwPositionedException(message,pos.wrapperContained); }
+public void throwGameTestException(yarnwrap.text.Text message) { wrapperContained.throwGameTestException(message.wrapperContained); }
+// public static void throwGameTestException(yarnwrap.text.Text message, ) { net.minecraft.test.TestContext.throwGameTestException(message.wrapperContained); }
+public void throwPositionedException(yarnwrap.text.Text message,yarnwrap.entity.Entity entity) { wrapperContained.throwPositionedException(message.wrapperContained,entity.wrapperContained); }
+// public static void throwPositionedException(yarnwrap.text.Text message,yarnwrap.entity.Entity entity, ) { net.minecraft.test.TestContext.throwPositionedException(message.wrapperContained,entity.wrapperContained); }
+public void throwPositionedException(yarnwrap.text.Text message,yarnwrap.util.math.BlockPos pos) { wrapperContained.throwPositionedException(message.wrapperContained,pos.wrapperContained); }
+// public static void throwPositionedException(yarnwrap.text.Text message,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.test.TestContext.throwPositionedException(message.wrapperContained,pos.wrapperContained); }
 public void forEachRelativePos(java.util.function.Consumer posConsumer) { wrapperContained.forEachRelativePos(posConsumer); }
 // public static void forEachRelativePos(java.util.function.Consumer posConsumer, ) { net.minecraft.test.TestContext.forEachRelativePos(posConsumer); }
 // public boolean method_35999(java.util.function.Predicate state) { return wrapperContained.method_35999(state); }
@@ -144,12 +140,12 @@ public void dontExpectBlock(yarnwrap.block.Block block,yarnwrap.util.math.BlockP
 // public static void dontExpectBlock(yarnwrap.block.Block block,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.test.TestContext.dontExpectBlock(block.wrapperContained,pos.wrapperContained); }
 // public boolean method_36013(yarnwrap.util.math.Vec3d entity) { return wrapperContained.method_36013(entity.wrapperContained); }
 // public static boolean method_36013(yarnwrap.util.math.Vec3d entity, ) { return net.minecraft.test.TestContext.method_36013(entity.wrapperContained); }
-public yarnwrap.block.entity.BlockEntity getBlockEntity(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.entity.BlockEntity(wrapperContained.getBlockEntity(pos.wrapperContained)); }
-// public static yarnwrap.block.entity.BlockEntity getBlockEntity(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.block.entity.BlockEntity(net.minecraft.test.TestContext.getBlockEntity(pos.wrapperContained)); }
+public yarnwrap.block.entity.BlockEntity getBlockEntity(yarnwrap.util.math.BlockPos pos,java.lang.Class clazz) { return new yarnwrap.block.entity.BlockEntity(wrapperContained.getBlockEntity(pos.wrapperContained,clazz)); }
+// public static yarnwrap.block.entity.BlockEntity getBlockEntity(yarnwrap.util.math.BlockPos pos,java.lang.Class clazz, ) { return new yarnwrap.block.entity.BlockEntity(net.minecraft.test.TestContext.getBlockEntity(pos.wrapperContained,clazz)); }
 public void expectEntityWithDataEnd(yarnwrap.util.math.BlockPos pos,yarnwrap.entity.EntityType type,java.util.function.Function entityDataGetter,java.lang.Object data) { wrapperContained.expectEntityWithDataEnd(pos.wrapperContained,type.wrapperContained,entityDataGetter,data); }
 // public static void expectEntityWithDataEnd(yarnwrap.util.math.BlockPos pos,yarnwrap.entity.EntityType type,java.util.function.Function entityDataGetter,java.lang.Object data, ) { net.minecraft.test.TestContext.expectEntityWithDataEnd(pos.wrapperContained,type.wrapperContained,entityDataGetter,data); }
-public void checkBlockState(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.util.function.Supplier errorMessageSupplier) { wrapperContained.checkBlockState(pos.wrapperContained,predicate,errorMessageSupplier); }
-// public static void checkBlockState(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.util.function.Supplier errorMessageSupplier, ) { net.minecraft.test.TestContext.checkBlockState(pos.wrapperContained,predicate,errorMessageSupplier); }
+public void checkBlockState(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.util.function.Function messageGetter) { wrapperContained.checkBlockState(pos.wrapperContained,predicate,messageGetter); }
+// public static void checkBlockState(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.util.function.Function messageGetter, ) { net.minecraft.test.TestContext.checkBlockState(pos.wrapperContained,predicate,messageGetter); }
 public void addInstantFinalTask(java.lang.Runnable runnable) { wrapperContained.addInstantFinalTask(runnable); }
 // public static void addInstantFinalTask(java.lang.Runnable runnable, ) { net.minecraft.test.TestContext.addInstantFinalTask(runnable); }
 // public void method_36019(java.lang.Runnable tick) { wrapperContained.method_36019(tick); }
@@ -220,12 +216,12 @@ public java.util.List getEntitiesAround(yarnwrap.entity.EntityType type,yarnwrap
 // public static java.util.List getEntitiesAround(yarnwrap.entity.EntityType type,yarnwrap.util.math.BlockPos pos,double radius, ) { return net.minecraft.test.TestContext.getEntitiesAround(type.wrapperContained,pos.wrapperContained,radius); }
 public void expectEntitiesAround(yarnwrap.entity.EntityType type,yarnwrap.util.math.BlockPos pos,int amount,double radius) { wrapperContained.expectEntitiesAround(type.wrapperContained,pos.wrapperContained,amount,radius); }
 // public static void expectEntitiesAround(yarnwrap.entity.EntityType type,yarnwrap.util.math.BlockPos pos,int amount,double radius, ) { net.minecraft.test.TestContext.expectEntitiesAround(type.wrapperContained,pos.wrapperContained,amount,radius); }
-public void expectEntityInside(yarnwrap.entity.EntityType type,yarnwrap.util.math.Vec3d pos1,yarnwrap.util.math.Vec3d pos2) { wrapperContained.expectEntityInside(type.wrapperContained,pos1.wrapperContained,pos2.wrapperContained); }
-// public static void expectEntityInside(yarnwrap.entity.EntityType type,yarnwrap.util.math.Vec3d pos1,yarnwrap.util.math.Vec3d pos2, ) { net.minecraft.test.TestContext.expectEntityInside(type.wrapperContained,pos1.wrapperContained,pos2.wrapperContained); }
+public void expectEntityInside(yarnwrap.entity.EntityType type,yarnwrap.util.math.Box box) { wrapperContained.expectEntityInside(type.wrapperContained,box.wrapperContained); }
+// public static void expectEntityInside(yarnwrap.entity.EntityType type,yarnwrap.util.math.Box box, ) { net.minecraft.test.TestContext.expectEntityInside(type.wrapperContained,box.wrapperContained); }
 public yarnwrap.entity.ItemEntity spawnItem(yarnwrap.item.Item item,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.entity.ItemEntity(wrapperContained.spawnItem(item.wrapperContained,pos.wrapperContained)); }
 // public static yarnwrap.entity.ItemEntity spawnItem(yarnwrap.item.Item item,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.entity.ItemEntity(net.minecraft.test.TestContext.spawnItem(item.wrapperContained,pos.wrapperContained)); }
-public void assertTrue(boolean condition,java.lang.String message) { wrapperContained.assertTrue(condition,message); }
-// public static void assertTrue(boolean condition,java.lang.String message, ) { net.minecraft.test.TestContext.assertTrue(condition,message); }
+public void assertTrue(boolean condition,yarnwrap.text.Text message) { wrapperContained.assertTrue(condition,message.wrapperContained); }
+// public static void assertTrue(boolean condition,yarnwrap.text.Text message, ) { net.minecraft.test.TestContext.assertTrue(condition,message.wrapperContained); }
 public yarnwrap.util.math.Vec3d getRelative(yarnwrap.util.math.Vec3d pos) { return new yarnwrap.util.math.Vec3d(wrapperContained.getRelative(pos.wrapperContained)); }
 // public static yarnwrap.util.math.Vec3d getRelative(yarnwrap.util.math.Vec3d pos, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.test.TestContext.getRelative(pos.wrapperContained)); }
 public void useBlock(yarnwrap.util.math.BlockPos pos) { wrapperContained.useBlock(pos.wrapperContained); }
@@ -242,8 +238,8 @@ public void expectEntityHoldingItem(yarnwrap.util.math.BlockPos pos,yarnwrap.ent
 // public static boolean method_48002(java.lang.Object entity, ) { return net.minecraft.test.TestContext.method_48002(entity); }
 public void expectEntityWithItem(yarnwrap.util.math.BlockPos pos,yarnwrap.entity.EntityType entityType,yarnwrap.item.Item item) { wrapperContained.expectEntityWithItem(pos.wrapperContained,entityType.wrapperContained,item.wrapperContained); }
 // public static void expectEntityWithItem(yarnwrap.util.math.BlockPos pos,yarnwrap.entity.EntityType entityType,yarnwrap.item.Item item, ) { net.minecraft.test.TestContext.expectEntityWithItem(pos.wrapperContained,entityType.wrapperContained,item.wrapperContained); }
-public void assertFalse(boolean condition,java.lang.String message) { wrapperContained.assertFalse(condition,message); }
-// public static void assertFalse(boolean condition,java.lang.String message, ) { net.minecraft.test.TestContext.assertFalse(condition,message); }
+public void assertFalse(boolean condition,yarnwrap.text.Text message) { wrapperContained.assertFalse(condition,message.wrapperContained); }
+// public static void assertFalse(boolean condition,yarnwrap.text.Text message, ) { net.minecraft.test.TestContext.assertFalse(condition,message.wrapperContained); }
 public yarnwrap.entity.LivingEntity setHealthLow(yarnwrap.entity.LivingEntity entity) { return new yarnwrap.entity.LivingEntity(wrapperContained.setHealthLow(entity.wrapperContained)); }
 // public static yarnwrap.entity.LivingEntity setHealthLow(yarnwrap.entity.LivingEntity entity, ) { return new yarnwrap.entity.LivingEntity(net.minecraft.test.TestContext.setHealthLow(entity.wrapperContained)); }
 public yarnwrap.server.network.ServerPlayerEntity createMockCreativeServerPlayerInWorld() { return new yarnwrap.server.network.ServerPlayerEntity(wrapperContained.createMockCreativeServerPlayerInWorld()); }
@@ -252,8 +248,8 @@ public yarnwrap.server.network.ServerPlayerEntity createMockCreativeServerPlayer
 // public static boolean method_52206(yarnwrap.entity.Entity entity, ) { return net.minecraft.test.TestContext.method_52206(entity.wrapperContained); }
 public void killAllEntities(java.lang.Class entityClass) { wrapperContained.killAllEntities(entityClass); }
 // public static void killAllEntities(java.lang.Class entityClass, ) { net.minecraft.test.TestContext.killAllEntities(entityClass); }
-public void expectRedstonePower(yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction,java.util.function.IntPredicate powerPredicate,java.util.function.Supplier errorMessage) { wrapperContained.expectRedstonePower(pos.wrapperContained,direction.wrapperContained,powerPredicate,errorMessage); }
-// public static void expectRedstonePower(yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction,java.util.function.IntPredicate powerPredicate,java.util.function.Supplier errorMessage, ) { net.minecraft.test.TestContext.expectRedstonePower(pos.wrapperContained,direction.wrapperContained,powerPredicate,errorMessage); }
+public void expectRedstonePower(yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction,java.util.function.IntPredicate powerPredicate,java.util.function.Supplier messageGetter) { wrapperContained.expectRedstonePower(pos.wrapperContained,direction.wrapperContained,powerPredicate,messageGetter); }
+// public static void expectRedstonePower(yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Direction direction,java.util.function.IntPredicate powerPredicate,java.util.function.Supplier messageGetter, ) { net.minecraft.test.TestContext.expectRedstonePower(pos.wrapperContained,direction.wrapperContained,powerPredicate,messageGetter); }
 public void expectEntityHasEffect(yarnwrap.entity.LivingEntity entity,yarnwrap.registry.entry.RegistryEntry effect,int amplifier) { wrapperContained.expectEntityHasEffect(entity.wrapperContained,effect.wrapperContained,amplifier); }
 // public static void expectEntityHasEffect(yarnwrap.entity.LivingEntity entity,yarnwrap.registry.entry.RegistryEntry effect,int amplifier, ) { net.minecraft.test.TestContext.expectEntityHasEffect(entity.wrapperContained,effect.wrapperContained,amplifier); }
 public void expectItem(yarnwrap.item.Item item) { wrapperContained.expectItem(item.wrapperContained); }
@@ -268,8 +264,8 @@ public void forceTickIceAndSnow() { wrapperContained.forceTickIceAndSnow(); }
 // public static void forceTickIceAndSnow() { net.minecraft.test.TestContext.forceTickIceAndSnow(); }
 public void forceTickIceAndSnow(yarnwrap.util.math.BlockPos pos) { wrapperContained.forceTickIceAndSnow(pos.wrapperContained); }
 // public static void forceTickIceAndSnow(yarnwrap.util.math.BlockPos pos, ) { net.minecraft.test.TestContext.forceTickIceAndSnow(pos.wrapperContained); }
-public yarnwrap.entity.Entity expectEntityAtOrigin(yarnwrap.entity.EntityType type) { return new yarnwrap.entity.Entity(wrapperContained.expectEntityAtOrigin(type.wrapperContained)); }
-// public static yarnwrap.entity.Entity expectEntityAtOrigin(yarnwrap.entity.EntityType type, ) { return new yarnwrap.entity.Entity(net.minecraft.test.TestContext.expectEntityAtOrigin(type.wrapperContained)); }
+public yarnwrap.entity.Entity expectEntityInWorld(yarnwrap.entity.EntityType type) { return new yarnwrap.entity.Entity(wrapperContained.expectEntityInWorld(type.wrapperContained)); }
+// public static yarnwrap.entity.Entity expectEntityInWorld(yarnwrap.entity.EntityType type, ) { return new yarnwrap.entity.Entity(net.minecraft.test.TestContext.expectEntityInWorld(type.wrapperContained)); }
 public yarnwrap.entity.Entity expectEntity(yarnwrap.entity.EntityType type,int x,int y,int z,double margin) { return new yarnwrap.entity.Entity(wrapperContained.expectEntity(type.wrapperContained,x,y,z,margin)); }
 // public static yarnwrap.entity.Entity expectEntity(yarnwrap.entity.EntityType type,int x,int y,int z,double margin, ) { return new yarnwrap.entity.Entity(net.minecraft.test.TestContext.expectEntity(type.wrapperContained,x,y,z,margin)); }
 public java.util.List getEntitiesAround(yarnwrap.entity.EntityType type,yarnwrap.util.math.Vec3d pos,double margin) { return wrapperContained.getEntitiesAround(type.wrapperContained,pos.wrapperContained,margin); }
@@ -282,19 +278,59 @@ public java.util.List getEntitiesAround(yarnwrap.entity.EntityType type,int x,in
 // public static java.util.List getEntitiesAround(yarnwrap.entity.EntityType type,int x,int y,int z,double margin, ) { return net.minecraft.test.TestContext.getEntitiesAround(type.wrapperContained,x,y,z,margin); }
 public java.util.List getEntities(yarnwrap.entity.EntityType type) { return wrapperContained.getEntities(type.wrapperContained); }
 // public static java.util.List getEntities(yarnwrap.entity.EntityType type, ) { return net.minecraft.test.TestContext.getEntities(type.wrapperContained); }
-public void assertEquals(java.lang.Object value,java.lang.Object expected,java.lang.String name) { wrapperContained.assertEquals(value,expected,name); }
-// public static void assertEquals(java.lang.Object value,java.lang.Object expected,java.lang.String name, ) { net.minecraft.test.TestContext.assertEquals(value,expected,name); }
+public void assertEquals(java.lang.Object value,java.lang.Object expected,yarnwrap.text.Text message) { wrapperContained.assertEquals(value,expected,message.wrapperContained); }
+// public static void assertEquals(java.lang.Object value,java.lang.Object expected,yarnwrap.text.Text message, ) { net.minecraft.test.TestContext.assertEquals(value,expected,message.wrapperContained); }
 public void setEntityPos(yarnwrap.entity.mob.MobEntity entity,float x,float y,float z) { wrapperContained.setEntityPos(entity.wrapperContained,x,y,z); }
 // public static void setEntityPos(yarnwrap.entity.mob.MobEntity entity,float x,float y,float z, ) { net.minecraft.test.TestContext.setEntityPos(entity.wrapperContained,x,y,z); }
 public yarnwrap.entity.ItemEntity spawnItem(yarnwrap.item.Item item,yarnwrap.util.math.Vec3d pos) { return new yarnwrap.entity.ItemEntity(wrapperContained.spawnItem(item.wrapperContained,pos.wrapperContained)); }
 // public static yarnwrap.entity.ItemEntity spawnItem(yarnwrap.item.Item item,yarnwrap.util.math.Vec3d pos, ) { return new yarnwrap.entity.ItemEntity(net.minecraft.test.TestContext.spawnItem(item.wrapperContained,pos.wrapperContained)); }
-public void dontExpectEntityBetween(yarnwrap.entity.EntityType type,yarnwrap.util.math.Vec3d pos1,yarnwrap.util.math.Vec3d pos2) { wrapperContained.dontExpectEntityBetween(type.wrapperContained,pos1.wrapperContained,pos2.wrapperContained); }
-// public static void dontExpectEntityBetween(yarnwrap.entity.EntityType type,yarnwrap.util.math.Vec3d pos1,yarnwrap.util.math.Vec3d pos2, ) { net.minecraft.test.TestContext.dontExpectEntityBetween(type.wrapperContained,pos1.wrapperContained,pos2.wrapperContained); }
-public void checkBlockEntity(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.util.function.Supplier errorMessageSupplier) { wrapperContained.checkBlockEntity(pos.wrapperContained,predicate,errorMessageSupplier); }
-// public static void checkBlockEntity(yarnwrap.util.math.BlockPos pos,java.util.function.Predicate predicate,java.util.function.Supplier errorMessageSupplier, ) { net.minecraft.test.TestContext.checkBlockEntity(pos.wrapperContained,predicate,errorMessageSupplier); }
+public void dontExpectEntityBetween(yarnwrap.entity.EntityType type,yarnwrap.util.math.Box box) { wrapperContained.dontExpectEntityBetween(type.wrapperContained,box.wrapperContained); }
+// public static void dontExpectEntityBetween(yarnwrap.entity.EntityType type,yarnwrap.util.math.Box box, ) { net.minecraft.test.TestContext.dontExpectEntityBetween(type.wrapperContained,box.wrapperContained); }
+public void checkBlockEntity(yarnwrap.util.math.BlockPos pos,java.lang.Class clazz,java.util.function.Predicate predicate,java.util.function.Supplier messageGetter) { wrapperContained.checkBlockEntity(pos.wrapperContained,clazz,predicate,messageGetter); }
+// public static void checkBlockEntity(yarnwrap.util.math.BlockPos pos,java.lang.Class clazz,java.util.function.Predicate predicate,java.util.function.Supplier messageGetter, ) { net.minecraft.test.TestContext.checkBlockEntity(pos.wrapperContained,clazz,predicate,messageGetter); }
 public yarnwrap.util.BlockRotation getRotation() { return new yarnwrap.util.BlockRotation(wrapperContained.getRotation()); }
 // public static yarnwrap.util.BlockRotation getRotation() { return new yarnwrap.util.BlockRotation(net.minecraft.test.TestContext.getRotation()); }
-public void expectEntityIn(yarnwrap.entity.Entity entity,yarnwrap.util.math.Box box,java.lang.String message) { wrapperContained.expectEntityIn(entity.wrapperContained,box.wrapperContained,message); }
-// public static void expectEntityIn(yarnwrap.entity.Entity entity,yarnwrap.util.math.Box box,java.lang.String message, ) { net.minecraft.test.TestContext.expectEntityIn(entity.wrapperContained,box.wrapperContained,message); }
+public void expectEntityIn(yarnwrap.entity.Entity entity,yarnwrap.util.math.Box box,yarnwrap.text.Text message) { wrapperContained.expectEntityIn(entity.wrapperContained,box.wrapperContained,message.wrapperContained); }
+// public static void expectEntityIn(yarnwrap.entity.Entity entity,yarnwrap.util.math.Box box,yarnwrap.text.Text message, ) { net.minecraft.test.TestContext.expectEntityIn(entity.wrapperContained,box.wrapperContained,message.wrapperContained); }
+public yarnwrap.util.math.Box getAbsolute(yarnwrap.util.math.Box box) { return new yarnwrap.util.math.Box(wrapperContained.getAbsolute(box.wrapperContained)); }
+// public static yarnwrap.util.math.Box getAbsolute(yarnwrap.util.math.Box box, ) { return new yarnwrap.util.math.Box(net.minecraft.test.TestContext.getAbsolute(box.wrapperContained)); }
+public yarnwrap.util.math.Box getRelative(yarnwrap.util.math.Box box) { return new yarnwrap.util.math.Box(wrapperContained.getRelative(box.wrapperContained)); }
+// public static yarnwrap.util.math.Box getRelative(yarnwrap.util.math.Box box, ) { return new yarnwrap.util.math.Box(net.minecraft.test.TestContext.getRelative(box.wrapperContained)); }
+public void expectEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.entity.EntityType type,java.util.function.Predicate predicate) { wrapperContained.expectEntity(pos.wrapperContained,type.wrapperContained,predicate); }
+// public static void expectEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.entity.EntityType type,java.util.function.Predicate predicate, ) { net.minecraft.test.TestContext.expectEntity(pos.wrapperContained,type.wrapperContained,predicate); }
+public void killEntity(yarnwrap.entity.Entity entity) { wrapperContained.killEntity(entity.wrapperContained); }
+// public static void killEntity(yarnwrap.entity.Entity entity, ) { net.minecraft.test.TestContext.killEntity(entity.wrapperContained); }
+public void damage(yarnwrap.entity.Entity entity,yarnwrap.entity.damage.DamageSource damageSource,float amount) { wrapperContained.damage(entity.wrapperContained,damageSource.wrapperContained,amount); }
+// public static void damage(yarnwrap.entity.Entity entity,yarnwrap.entity.damage.DamageSource damageSource,float amount, ) { net.minecraft.test.TestContext.damage(entity.wrapperContained,damageSource.wrapperContained,amount); }
+// public void method_64544(yarnwrap.entity.Entity entity) { wrapperContained.method_64544(entity.wrapperContained); }
+// public static void method_64544(yarnwrap.entity.Entity entity, ) { net.minecraft.test.TestContext.method_64544(entity.wrapperContained); }
+public void forceScheduledTick(yarnwrap.util.math.BlockPos pos) { wrapperContained.forceScheduledTick(pos.wrapperContained); }
+// public static void forceScheduledTick(yarnwrap.util.math.BlockPos pos, ) { net.minecraft.test.TestContext.forceScheduledTick(pos.wrapperContained); }
+// public yarnwrap.text.Text method_66934(yarnwrap.registry.tag.TagKey state) { return new yarnwrap.text.Text(wrapperContained.method_66934(state.wrapperContained)); }
+// public static yarnwrap.text.Text method_66934(yarnwrap.registry.tag.TagKey state, ) { return new yarnwrap.text.Text(net.minecraft.test.TestContext.method_66934(state.wrapperContained)); }
+public void expectBlockIn(yarnwrap.registry.tag.TagKey tag,yarnwrap.util.math.BlockPos pos) { wrapperContained.expectBlockIn(tag.wrapperContained,pos.wrapperContained); }
+// public static void expectBlockIn(yarnwrap.registry.tag.TagKey tag,yarnwrap.util.math.BlockPos pos, ) { net.minecraft.test.TestContext.expectBlockIn(tag.wrapperContained,pos.wrapperContained); }
+// public yarnwrap.text.Text method_66936(yarnwrap.block.Block actualBlock) { return new yarnwrap.text.Text(wrapperContained.method_66936(actualBlock.wrapperContained)); }
+// public static yarnwrap.text.Text method_66936(yarnwrap.block.Block actualBlock, ) { return new yarnwrap.text.Text(net.minecraft.test.TestContext.method_66936(actualBlock.wrapperContained)); }
+public yarnwrap.test.GameTestException createError(java.lang.String translationKey,java.lang.Object[] args) { return new yarnwrap.test.GameTestException(wrapperContained.createError(translationKey,args)); }
+// public static yarnwrap.test.GameTestException createError(java.lang.String translationKey,java.lang.Object[] args, ) { return new yarnwrap.test.GameTestException(net.minecraft.test.TestContext.createError(translationKey,args)); }
+// public yarnwrap.text.Text method_66938(java.util.function.Function state) { return new yarnwrap.text.Text(wrapperContained.method_66938(state)); }
+// public static yarnwrap.text.Text method_66938(java.util.function.Function state, ) { return new yarnwrap.text.Text(net.minecraft.test.TestContext.method_66938(state)); }
+public void expectContainerWithSingle(yarnwrap.util.math.BlockPos pos,yarnwrap.item.Item item) { wrapperContained.expectContainerWithSingle(pos.wrapperContained,item.wrapperContained); }
+// public static void expectContainerWithSingle(yarnwrap.util.math.BlockPos pos,yarnwrap.item.Item item, ) { net.minecraft.test.TestContext.expectContainerWithSingle(pos.wrapperContained,item.wrapperContained); }
+public yarnwrap.test.PositionedException createError(yarnwrap.util.math.BlockPos pos,java.lang.String translationKey,java.lang.Object[] args) { return new yarnwrap.test.PositionedException(wrapperContained.createError(pos.wrapperContained,translationKey,args)); }
+// public static yarnwrap.test.PositionedException createError(yarnwrap.util.math.BlockPos pos,java.lang.String translationKey,java.lang.Object[] args, ) { return new yarnwrap.test.PositionedException(net.minecraft.test.TestContext.createError(pos.wrapperContained,translationKey,args)); }
+public yarnwrap.test.PositionedException createError(yarnwrap.util.math.BlockPos pos,yarnwrap.text.Text message) { return new yarnwrap.test.PositionedException(wrapperContained.createError(pos.wrapperContained,message.wrapperContained)); }
+// public static yarnwrap.test.PositionedException createError(yarnwrap.util.math.BlockPos pos,yarnwrap.text.Text message, ) { return new yarnwrap.test.PositionedException(net.minecraft.test.TestContext.createError(pos.wrapperContained,message.wrapperContained)); }
+public yarnwrap.test.GameTestException createError(yarnwrap.text.Text message) { return new yarnwrap.test.GameTestException(wrapperContained.createError(message.wrapperContained)); }
+// public static yarnwrap.test.GameTestException createError(yarnwrap.text.Text message, ) { return new yarnwrap.test.GameTestException(net.minecraft.test.TestContext.createError(message.wrapperContained)); }
+// public yarnwrap.text.Text method_66944(yarnwrap.text.Text state) { return new yarnwrap.text.Text(wrapperContained.method_66944(state.wrapperContained)); }
+// public static yarnwrap.text.Text method_66944(yarnwrap.text.Text state, ) { return new yarnwrap.text.Text(net.minecraft.test.TestContext.method_66944(state.wrapperContained)); }
+// public boolean method_66945(yarnwrap.registry.tag.TagKey state) { return wrapperContained.method_66945(state.wrapperContained); }
+// public static boolean method_66945(yarnwrap.registry.tag.TagKey state, ) { return net.minecraft.test.TestContext.method_66945(state.wrapperContained); }
+// public yarnwrap.text.Text method_66946(yarnwrap.block.Block actualBlock) { return new yarnwrap.text.Text(wrapperContained.method_66946(actualBlock.wrapperContained)); }
+// public static yarnwrap.text.Text method_66946(yarnwrap.block.Block actualBlock, ) { return new yarnwrap.text.Text(net.minecraft.test.TestContext.method_66946(actualBlock.wrapperContained)); }
+public void expectBlockState(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { wrapperContained.expectBlockState(pos.wrapperContained,state.wrapperContained); }
+// public static void expectBlockState(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state, ) { net.minecraft.test.TestContext.expectBlockState(pos.wrapperContained,state.wrapperContained); }
 
 }

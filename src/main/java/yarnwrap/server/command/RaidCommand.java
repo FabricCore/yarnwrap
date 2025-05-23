@@ -29,8 +29,6 @@ public class RaidCommand { public net.minecraft.server.command.RaidCommand wrapp
 // public static int executeCheck(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.RaidCommand.executeCheck(source.wrapperContained); }
 // public int method_36204(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_36204(context); }
 // public static int method_36204(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.RaidCommand.method_36204(context); }
-// public boolean method_36205(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_36205(source.wrapperContained); }
-// public static boolean method_36205(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.RaidCommand.method_36205(source.wrapperContained); }
 // public int method_36206(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_36206(context); }
 // public static int method_36206(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.RaidCommand.method_36206(context); }
 // public int method_36207(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_36207(context); }

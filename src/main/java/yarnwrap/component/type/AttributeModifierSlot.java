@@ -31,6 +31,11 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static java.util.function.Predicate slotPredicate() { return net.minecraft.component.type.AttributeModifierSlot.slotPredicate; }
 // public static void slotPredicate(java.util.function.Predicate value, ) { net.minecraft.component.type.AttributeModifierSlot.slotPredicate = value; }
 
+// public java.util.List slots() { return wrapperContained.slots; }
+// public void slots(java.util.List value) { wrapperContained.slots = value; }
+// public static java.util.List slots() { return net.minecraft.component.type.AttributeModifierSlot.slots; }
+// public static void slots(java.util.List value, ) { net.minecraft.component.type.AttributeModifierSlot.slots = value; }
+
 // public AttributeModifierSlot(java.lang.String id,int name,int slotPredicate) { this.wrapperContained = new net.minecraft.component.type.AttributeModifierSlot(id,name,slotPredicate); }
 // // public AttributeModifierSlot(java.lang.String id,int name,int slot) { this.wrapperContained = new net.minecraft.component.type.AttributeModifierSlot(id,name,slot); }
 public boolean matches(yarnwrap.entity.EquipmentSlot slot) { return wrapperContained.matches(slot.wrapperContained); }
@@ -47,5 +52,7 @@ public boolean matches(yarnwrap.entity.EquipmentSlot slot) { return wrapperConta
 // public static boolean method_57291(yarnwrap.entity.EquipmentSlot slot, ) { return net.minecraft.component.type.AttributeModifierSlot.method_57291(slot.wrapperContained); }
 // public yarnwrap.component.type.AttributeModifierSlot forEquipmentSlot(yarnwrap.entity.EquipmentSlot slot) { return new yarnwrap.component.type.AttributeModifierSlot(wrapperContained.forEquipmentSlot(slot.wrapperContained)); }
 // public static yarnwrap.component.type.AttributeModifierSlot forEquipmentSlot(yarnwrap.entity.EquipmentSlot slot, ) { return new yarnwrap.component.type.AttributeModifierSlot(net.minecraft.component.type.AttributeModifierSlot.forEquipmentSlot(slot.wrapperContained)); }
+public java.util.List getSlots() { return wrapperContained.getSlots(); }
+// public static java.util.List getSlots() { return net.minecraft.component.type.AttributeModifierSlot.getSlots(); }
 
 }

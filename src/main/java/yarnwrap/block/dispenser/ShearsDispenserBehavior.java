@@ -3,8 +3,8 @@ public class ShearsDispenserBehavior { public net.minecraft.block.dispenser.Shea
 
 // public boolean tryShearBlock(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.tryShearBlock(world.wrapperContained,pos.wrapperContained); }
 // public static boolean tryShearBlock(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.dispenser.ShearsDispenserBehavior.tryShearBlock(world.wrapperContained,pos.wrapperContained); }
-// public boolean tryShearEntity(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.tryShearEntity(world.wrapperContained,pos.wrapperContained); }
-// public static boolean tryShearEntity(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.block.dispenser.ShearsDispenserBehavior.tryShearEntity(world.wrapperContained,pos.wrapperContained); }
+// public boolean tryShearEntity(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack shears) { return wrapperContained.tryShearEntity(world.wrapperContained,pos.wrapperContained,shears.wrapperContained); }
+// public static boolean tryShearEntity(yarnwrap.server.world.ServerWorld world,yarnwrap.util.math.BlockPos pos,yarnwrap.item.ItemStack shears, ) { return net.minecraft.block.dispenser.ShearsDispenserBehavior.tryShearEntity(world.wrapperContained,pos.wrapperContained,shears.wrapperContained); }
 // public boolean method_40054(Object state) { return wrapperContained.method_40054(state); }
 // public static boolean method_40054(Object state, ) { return net.minecraft.block.dispenser.ShearsDispenserBehavior.method_40054(state); }
 // public void method_56167(yarnwrap.item.Item item) { wrapperContained.method_56167(item.wrapperContained); }

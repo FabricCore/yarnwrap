@@ -86,11 +86,6 @@ public static yarnwrap.advancement.criterion.InventoryChangedCriterion INVENTORY
 public static yarnwrap.advancement.criterion.ShotCrossbowCriterion SHOT_CROSSBOW() { return new yarnwrap.advancement.criterion.ShotCrossbowCriterion(net.minecraft.advancement.criterion.Criteria.SHOT_CROSSBOW); }
 // public static void SHOT_CROSSBOW(yarnwrap.advancement.criterion.ShotCrossbowCriterion value, ) { net.minecraft.advancement.criterion.Criteria.SHOT_CROSSBOW = value.wrapperContained; }
 
-// public yarnwrap.advancement.criterion.KilledByCrossbowCriterion KILLED_BY_CROSSBOW() { return new yarnwrap.advancement.criterion.KilledByCrossbowCriterion(wrapperContained.KILLED_BY_CROSSBOW); }
-// public void KILLED_BY_CROSSBOW(yarnwrap.advancement.criterion.KilledByCrossbowCriterion value) { wrapperContained.KILLED_BY_CROSSBOW = value.wrapperContained; }
-public static yarnwrap.advancement.criterion.KilledByCrossbowCriterion KILLED_BY_CROSSBOW() { return new yarnwrap.advancement.criterion.KilledByCrossbowCriterion(net.minecraft.advancement.criterion.Criteria.KILLED_BY_CROSSBOW); }
-// public static void KILLED_BY_CROSSBOW(yarnwrap.advancement.criterion.KilledByCrossbowCriterion value, ) { net.minecraft.advancement.criterion.Criteria.KILLED_BY_CROSSBOW = value.wrapperContained; }
-
 // public yarnwrap.advancement.criterion.ConsumeItemCriterion CONSUME_ITEM() { return new yarnwrap.advancement.criterion.ConsumeItemCriterion(wrapperContained.CONSUME_ITEM); }
 // public void CONSUME_ITEM(yarnwrap.advancement.criterion.ConsumeItemCriterion value) { wrapperContained.CONSUME_ITEM = value.wrapperContained; }
 public static yarnwrap.advancement.criterion.ConsumeItemCriterion CONSUME_ITEM() { return new yarnwrap.advancement.criterion.ConsumeItemCriterion(net.minecraft.advancement.criterion.Criteria.CONSUME_ITEM); }
@@ -286,9 +281,14 @@ public static yarnwrap.advancement.criterion.RecipeCraftedCriterion CRAFTER_RECI
 public static yarnwrap.advancement.criterion.FallAfterExplosionCriterion FALL_AFTER_EXPLOSION() { return new yarnwrap.advancement.criterion.FallAfterExplosionCriterion(net.minecraft.advancement.criterion.Criteria.FALL_AFTER_EXPLOSION); }
 // public static void FALL_AFTER_EXPLOSION(yarnwrap.advancement.criterion.FallAfterExplosionCriterion value, ) { net.minecraft.advancement.criterion.Criteria.FALL_AFTER_EXPLOSION = value.wrapperContained; }
 
-// public yarnwrap.advancement.criterion.Criterion getDefault(yarnwrap.registry.Registry registry) { return new yarnwrap.advancement.criterion.Criterion(wrapperContained.getDefault(registry.wrapperContained)); }
-// public static yarnwrap.advancement.criterion.Criterion getDefault(yarnwrap.registry.Registry registry, ) { return new yarnwrap.advancement.criterion.Criterion(net.minecraft.advancement.criterion.Criteria.getDefault(registry.wrapperContained)); }
+// public yarnwrap.advancement.criterion.KilledByArrowCriterion KILLED_BY_ARROW() { return new yarnwrap.advancement.criterion.KilledByArrowCriterion(wrapperContained.KILLED_BY_ARROW); }
+// public void KILLED_BY_ARROW(yarnwrap.advancement.criterion.KilledByArrowCriterion value) { wrapperContained.KILLED_BY_ARROW = value.wrapperContained; }
+public static yarnwrap.advancement.criterion.KilledByArrowCriterion KILLED_BY_ARROW() { return new yarnwrap.advancement.criterion.KilledByArrowCriterion(net.minecraft.advancement.criterion.Criteria.KILLED_BY_ARROW); }
+// public static void KILLED_BY_ARROW(yarnwrap.advancement.criterion.KilledByArrowCriterion value, ) { net.minecraft.advancement.criterion.Criteria.KILLED_BY_ARROW = value.wrapperContained; }
+
 // public yarnwrap.advancement.criterion.Criterion register(java.lang.String id,yarnwrap.advancement.criterion.Criterion criterion) { return new yarnwrap.advancement.criterion.Criterion(wrapperContained.register(id,criterion.wrapperContained)); }
 // public static yarnwrap.advancement.criterion.Criterion register(java.lang.String id,yarnwrap.advancement.criterion.Criterion criterion, ) { return new yarnwrap.advancement.criterion.Criterion(net.minecraft.advancement.criterion.Criteria.register(id,criterion.wrapperContained)); }
+// public yarnwrap.advancement.criterion.Criterion getDefault(yarnwrap.registry.Registry registry) { return new yarnwrap.advancement.criterion.Criterion(wrapperContained.getDefault(registry.wrapperContained)); }
+// public static yarnwrap.advancement.criterion.Criterion getDefault(yarnwrap.registry.Registry registry, ) { return new yarnwrap.advancement.criterion.Criterion(net.minecraft.advancement.criterion.Criteria.getDefault(registry.wrapperContained)); }
 
 }

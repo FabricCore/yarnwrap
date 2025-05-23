@@ -26,13 +26,25 @@ public java.util.Collection getProperties() { return wrapperContained.getPropert
 // public static java.util.Collection getProperties() { return net.minecraft.state.StateManager.getProperties(); }
 public java.lang.Object getOwner() { return wrapperContained.getOwner(); }
 // public static java.lang.Object getOwner() { return net.minecraft.state.StateManager.getOwner(); }
+// public java.util.List method_11661(java.util.List value) { return wrapperContained.method_11661(value); }
+// public static java.util.List method_11661(java.util.List value, ) { return net.minecraft.state.StateManager.method_11661(value); }
 public com.google.common.collect.ImmutableList getStates() { return wrapperContained.getStates(); }
 // public static com.google.common.collect.ImmutableList getStates() { return net.minecraft.state.StateManager.getStates(); }
 public yarnwrap.state.property.Property getProperty(java.lang.String name) { return new yarnwrap.state.property.Property(wrapperContained.getProperty(name)); }
 // public static yarnwrap.state.property.Property getProperty(java.lang.String name, ) { return new yarnwrap.state.property.Property(net.minecraft.state.StateManager.getProperty(name)); }
 public yarnwrap.state.State getDefaultState() { return new yarnwrap.state.State(wrapperContained.getDefaultState()); }
 // public static yarnwrap.state.State getDefaultState() { return new yarnwrap.state.State(net.minecraft.state.StateManager.getDefaultState()); }
+// public java.util.stream.Stream method_11666(yarnwrap.state.property.Property entries) { return wrapperContained.method_11666(entries.wrapperContained); }
+// public static java.util.stream.Stream method_11666(yarnwrap.state.property.Property entries, ) { return net.minecraft.state.StateManager.method_11666(entries.wrapperContained); }
+// public void method_28484(Object entries) { wrapperContained.method_28484(entries); }
+// public static void method_28484(Object entries, ) { net.minecraft.state.StateManager.method_28484(entries); }
+// public com.mojang.datafixers.util.Pair method_30037(yarnwrap.state.property.Property state) { return wrapperContained.method_30037(state.wrapperContained); }
+// public static com.mojang.datafixers.util.Pair method_30037(yarnwrap.state.property.Property state, ) { return net.minecraft.state.StateManager.method_30037(state.wrapperContained); }
+// public yarnwrap.state.State method_30038(yarnwrap.state.property.Property pair) { return new yarnwrap.state.State(wrapperContained.method_30038(pair.wrapperContained)); }
+// public static yarnwrap.state.State method_30038(yarnwrap.state.property.Property pair, ) { return new yarnwrap.state.State(net.minecraft.state.StateManager.method_30038(pair.wrapperContained)); }
 // public com.mojang.serialization.MapCodec addFieldToMapCodec(com.mojang.serialization.MapCodec mapCodec,java.util.function.Supplier defaultStateGetter,java.lang.String key,yarnwrap.state.property.Property property) { return wrapperContained.addFieldToMapCodec(mapCodec,defaultStateGetter,key,property.wrapperContained); }
 // public static com.mojang.serialization.MapCodec addFieldToMapCodec(com.mojang.serialization.MapCodec mapCodec,java.util.function.Supplier defaultStateGetter,java.lang.String key,yarnwrap.state.property.Property property, ) { return net.minecraft.state.StateManager.addFieldToMapCodec(mapCodec,defaultStateGetter,key,property.wrapperContained); }
+// public void method_38859(java.lang.String value) { wrapperContained.method_38859(value); }
+// public static void method_38859(java.lang.String value, ) { net.minecraft.state.StateManager.method_38859(value); }
 
 }

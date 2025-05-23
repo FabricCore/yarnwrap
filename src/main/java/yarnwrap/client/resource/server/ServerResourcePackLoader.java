@@ -1,6 +1,16 @@
 package yarnwrap.client.resource.server;
 public class ServerResourcePackLoader { public net.minecraft.client.resource.server.ServerResourcePackLoader wrapperContained; public ServerResourcePackLoader(net.minecraft.client.resource.server.ServerResourcePackLoader wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public java.util.regex.Pattern SHA1_PATTERN() { return wrapperContained.SHA1_PATTERN; }
+// public void SHA1_PATTERN(java.util.regex.Pattern value) { wrapperContained.SHA1_PATTERN = value; }
+// public static java.util.regex.Pattern SHA1_PATTERN() { return net.minecraft.client.resource.server.ServerResourcePackLoader.SHA1_PATTERN; }
+// public static void SHA1_PATTERN(java.util.regex.Pattern value, ) { net.minecraft.client.resource.server.ServerResourcePackLoader.SHA1_PATTERN = value; }
+
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.resource.server.ServerResourcePackLoader.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.resource.server.ServerResourcePackLoader.LOGGER = value; }
+
 // public yarnwrap.text.Text SERVER_NAME_TEXT() { return new yarnwrap.text.Text(wrapperContained.SERVER_NAME_TEXT); }
 // public void SERVER_NAME_TEXT(yarnwrap.text.Text value) { wrapperContained.SERVER_NAME_TEXT = value.wrapperContained; }
 // public static yarnwrap.text.Text SERVER_NAME_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.resource.server.ServerResourcePackLoader.SERVER_NAME_TEXT); }
@@ -60,16 +70,6 @@ public class ServerResourcePackLoader { public net.minecraft.client.resource.ser
 // public void POSITION(yarnwrap.resource.ResourcePackPosition value) { wrapperContained.POSITION = value.wrapperContained; }
 // public static yarnwrap.resource.ResourcePackPosition POSITION() { return new yarnwrap.resource.ResourcePackPosition(net.minecraft.client.resource.server.ServerResourcePackLoader.POSITION); }
 // public static void POSITION(yarnwrap.resource.ResourcePackPosition value, ) { net.minecraft.client.resource.server.ServerResourcePackLoader.POSITION = value.wrapperContained; }
-
-// public java.util.regex.Pattern SHA1_PATTERN() { return wrapperContained.SHA1_PATTERN; }
-// public void SHA1_PATTERN(java.util.regex.Pattern value) { wrapperContained.SHA1_PATTERN = value; }
-// public static java.util.regex.Pattern SHA1_PATTERN() { return net.minecraft.client.resource.server.ServerResourcePackLoader.SHA1_PATTERN; }
-// public static void SHA1_PATTERN(java.util.regex.Pattern value, ) { net.minecraft.client.resource.server.ServerResourcePackLoader.SHA1_PATTERN = value; }
-
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.resource.server.ServerResourcePackLoader.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.resource.server.ServerResourcePackLoader.LOGGER = value; }
 
 // public ServerResourcePackLoader(yarnwrap.client.MinecraftClient client,java.nio.file.Path downloadsDirectory,Object runArgs) { this.wrapperContained = new net.minecraft.client.resource.server.ServerResourcePackLoader(client.wrapperContained,downloadsDirectory,runArgs); }
 public yarnwrap.resource.ResourcePackProvider getPassthroughPackProvider() { return new yarnwrap.resource.ResourcePackProvider(wrapperContained.getPassthroughPackProvider()); }

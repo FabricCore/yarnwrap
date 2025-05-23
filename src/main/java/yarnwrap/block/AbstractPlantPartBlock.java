@@ -23,7 +23,7 @@ public class AbstractPlantPartBlock { public net.minecraft.block.AbstractPlantPa
 // public static yarnwrap.block.Block getPlant() { return new yarnwrap.block.Block(net.minecraft.block.AbstractPlantPartBlock.getPlant()); }
 // public boolean canAttachTo(yarnwrap.block.BlockState state) { return wrapperContained.canAttachTo(state.wrapperContained); }
 // public static boolean canAttachTo(yarnwrap.block.BlockState state, ) { return net.minecraft.block.AbstractPlantPartBlock.canAttachTo(state.wrapperContained); }
-public yarnwrap.block.BlockState getRandomGrowthState(yarnwrap.world.WorldAccess world) { return new yarnwrap.block.BlockState(wrapperContained.getRandomGrowthState(world.wrapperContained)); }
-// public static yarnwrap.block.BlockState getRandomGrowthState(yarnwrap.world.WorldAccess world, ) { return new yarnwrap.block.BlockState(net.minecraft.block.AbstractPlantPartBlock.getRandomGrowthState(world.wrapperContained)); }
+public yarnwrap.block.BlockState getRandomGrowthState(yarnwrap.util.math.random.Random random) { return new yarnwrap.block.BlockState(wrapperContained.getRandomGrowthState(random.wrapperContained)); }
+// public static yarnwrap.block.BlockState getRandomGrowthState(yarnwrap.util.math.random.Random random, ) { return new yarnwrap.block.BlockState(net.minecraft.block.AbstractPlantPartBlock.getRandomGrowthState(random.wrapperContained)); }
 
 }

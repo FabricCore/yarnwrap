@@ -22,12 +22,12 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.l
 // public static void onlyCompatible(boolean value, ) { net.minecraft.loot.function.EnchantRandomlyLootFunction.onlyCompatible = value; }
 
 // public EnchantRandomlyLootFunction(java.util.List conditions,java.util.Optional options,boolean onlyCompatible) { this.wrapperContained = new net.minecraft.loot.function.EnchantRandomlyLootFunction(conditions,options,onlyCompatible); }
+// public Object builder(Object registries) { return wrapperContained.builder(registries); }
+// public static Object builder(Object registries, ) { return net.minecraft.loot.function.EnchantRandomlyLootFunction.builder(registries); }
 // public yarnwrap.item.ItemStack addEnchantmentToStack(yarnwrap.item.ItemStack stack,yarnwrap.registry.entry.RegistryEntry enchantment,yarnwrap.util.math.random.Random random) { return new yarnwrap.item.ItemStack(wrapperContained.addEnchantmentToStack(stack.wrapperContained,enchantment.wrapperContained,random.wrapperContained)); }
 // public static yarnwrap.item.ItemStack addEnchantmentToStack(yarnwrap.item.ItemStack stack,yarnwrap.registry.entry.RegistryEntry enchantment,yarnwrap.util.math.random.Random random, ) { return new yarnwrap.item.ItemStack(net.minecraft.loot.function.EnchantRandomlyLootFunction.addEnchantmentToStack(stack.wrapperContained,enchantment.wrapperContained,random.wrapperContained)); }
 // public Object create() { return wrapperContained.create(); }
 public static Object create() { return net.minecraft.loot.function.EnchantRandomlyLootFunction.create(); }
-// public Object builder(Object registryLookup) { return wrapperContained.builder(registryLookup); }
-// public static Object builder(Object registryLookup, ) { return net.minecraft.loot.function.EnchantRandomlyLootFunction.builder(registryLookup); }
 // public java.util.Optional method_53324(yarnwrap.loot.function.EnchantRandomlyLootFunction function) { return wrapperContained.method_53324(function.wrapperContained); }
 // public static java.util.Optional method_53324(yarnwrap.loot.function.EnchantRandomlyLootFunction function, ) { return net.minecraft.loot.function.EnchantRandomlyLootFunction.method_53324(function.wrapperContained); }
 // public java.lang.Boolean method_60290(yarnwrap.loot.function.EnchantRandomlyLootFunction function) { return wrapperContained.method_60290(function.wrapperContained); }

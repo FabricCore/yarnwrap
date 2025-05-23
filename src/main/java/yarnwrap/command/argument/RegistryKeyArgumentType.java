@@ -26,6 +26,16 @@ public class RegistryKeyArgumentType { public net.minecraft.command.argument.Reg
 // public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType INVALID_JIGSAW_EXCEPTION() { return net.minecraft.command.argument.RegistryKeyArgumentType.INVALID_JIGSAW_EXCEPTION; }
 // public static void INVALID_JIGSAW_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.command.argument.RegistryKeyArgumentType.INVALID_JIGSAW_EXCEPTION = value; }
 
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType RECIPE_NOT_FOUND_EXCEPTION() { return wrapperContained.RECIPE_NOT_FOUND_EXCEPTION; }
+// public void RECIPE_NOT_FOUND_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.RECIPE_NOT_FOUND_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType RECIPE_NOT_FOUND_EXCEPTION() { return net.minecraft.command.argument.RegistryKeyArgumentType.RECIPE_NOT_FOUND_EXCEPTION; }
+// public static void RECIPE_NOT_FOUND_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.command.argument.RegistryKeyArgumentType.RECIPE_NOT_FOUND_EXCEPTION = value; }
+
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType ADVANCEMENT_NOT_FOUND_EXCEPTION() { return wrapperContained.ADVANCEMENT_NOT_FOUND_EXCEPTION; }
+// public void ADVANCEMENT_NOT_FOUND_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.ADVANCEMENT_NOT_FOUND_EXCEPTION = value; }
+// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType ADVANCEMENT_NOT_FOUND_EXCEPTION() { return net.minecraft.command.argument.RegistryKeyArgumentType.ADVANCEMENT_NOT_FOUND_EXCEPTION; }
+// public static void ADVANCEMENT_NOT_FOUND_EXCEPTION(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.command.argument.RegistryKeyArgumentType.ADVANCEMENT_NOT_FOUND_EXCEPTION = value; }
+
 public RegistryKeyArgumentType(yarnwrap.registry.RegistryKey registryRef) { this.wrapperContained = new net.minecraft.command.argument.RegistryKeyArgumentType(registryRef.wrapperContained); }
 public java.util.concurrent.CompletableFuture listSuggestions(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder) { return wrapperContained.listSuggestions(context,builder); }
 // public static java.util.concurrent.CompletableFuture listSuggestions(com.mojang.brigadier.context.CommandContext context,com.mojang.brigadier.suggestion.SuggestionsBuilder builder, ) { return net.minecraft.command.argument.RegistryKeyArgumentType.listSuggestions(context,builder); }
@@ -49,6 +59,14 @@ public java.util.concurrent.CompletableFuture listSuggestions(com.mojang.brigadi
 // public static Object getStructureEntry(com.mojang.brigadier.context.CommandContext context,java.lang.String name, ) { return net.minecraft.command.argument.RegistryKeyArgumentType.getStructureEntry(context,name); }
 // public Object getStructurePoolEntry(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return wrapperContained.getStructurePoolEntry(context,name); }
 // public static Object getStructurePoolEntry(com.mojang.brigadier.context.CommandContext context,java.lang.String name, ) { return net.minecraft.command.argument.RegistryKeyArgumentType.getStructurePoolEntry(context,name); }
+// public com.mojang.brigadier.Message method_64863(java.lang.Object id) { return wrapperContained.method_64863(id); }
+// public static com.mojang.brigadier.Message method_64863(java.lang.Object id, ) { return net.minecraft.command.argument.RegistryKeyArgumentType.method_64863(id); }
+// public com.mojang.brigadier.Message method_64865(java.lang.Object id) { return wrapperContained.method_64865(id); }
+// public static com.mojang.brigadier.Message method_64865(java.lang.Object id, ) { return net.minecraft.command.argument.RegistryKeyArgumentType.method_64865(id); }
+// public yarnwrap.recipe.RecipeEntry getRecipeEntry(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return new yarnwrap.recipe.RecipeEntry(wrapperContained.getRecipeEntry(context,name)); }
+// public static yarnwrap.recipe.RecipeEntry getRecipeEntry(com.mojang.brigadier.context.CommandContext context,java.lang.String name, ) { return new yarnwrap.recipe.RecipeEntry(net.minecraft.command.argument.RegistryKeyArgumentType.getRecipeEntry(context,name)); }
+// public yarnwrap.advancement.AdvancementEntry getAdvancementEntry(com.mojang.brigadier.context.CommandContext context,java.lang.String name) { return new yarnwrap.advancement.AdvancementEntry(wrapperContained.getAdvancementEntry(context,name)); }
+// public static yarnwrap.advancement.AdvancementEntry getAdvancementEntry(com.mojang.brigadier.context.CommandContext context,java.lang.String name, ) { return new yarnwrap.advancement.AdvancementEntry(net.minecraft.command.argument.RegistryKeyArgumentType.getAdvancementEntry(context,name)); }
 // public java.lang.Object parse(com.mojang.brigadier.StringReader reader) { return wrapperContained.parse(reader); }
 // public static java.lang.Object parse(com.mojang.brigadier.StringReader reader, ) { return net.minecraft.command.argument.RegistryKeyArgumentType.parse(reader); }
 

@@ -23,5 +23,7 @@ public yarnwrap.text.Text getText() { return new yarnwrap.text.Text(wrapperConta
 // public static yarnwrap.text.Text getText() { return new yarnwrap.text.Text(net.minecraft.client.session.report.AbuseReportReason.getText()); }
 public yarnwrap.text.Text getDescription() { return new yarnwrap.text.Text(wrapperContained.getDescription()); }
 // public static yarnwrap.text.Text getDescription() { return new yarnwrap.text.Text(net.minecraft.client.session.report.AbuseReportReason.getDescription()); }
+// public java.util.List getExcludedReasonsForType(yarnwrap.client.session.report.AbuseReportType reportType) { return wrapperContained.getExcludedReasonsForType(reportType.wrapperContained); }
+// public static java.util.List getExcludedReasonsForType(yarnwrap.client.session.report.AbuseReportType reportType, ) { return net.minecraft.client.session.report.AbuseReportReason.getExcludedReasonsForType(reportType.wrapperContained); }
 
 }

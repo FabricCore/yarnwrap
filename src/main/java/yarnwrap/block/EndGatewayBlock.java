@@ -6,7 +6,5 @@ public class EndGatewayBlock { public net.minecraft.block.EndGatewayBlock wrappe
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.EndGatewayBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.EndGatewayBlock.CODEC = value; }
 
-// public yarnwrap.util.math.Vec3d getTeleportVelocity(yarnwrap.entity.Entity entity) { return new yarnwrap.util.math.Vec3d(wrapperContained.getTeleportVelocity(entity.wrapperContained)); }
-// public static yarnwrap.util.math.Vec3d getTeleportVelocity(yarnwrap.entity.Entity entity, ) { return new yarnwrap.util.math.Vec3d(net.minecraft.block.EndGatewayBlock.getTeleportVelocity(entity.wrapperContained)); }
 
 }

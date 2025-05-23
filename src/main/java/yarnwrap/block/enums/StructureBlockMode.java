@@ -11,6 +11,11 @@ public class StructureBlockMode { public net.minecraft.block.enums.StructureBloc
 // public static yarnwrap.text.Text text() { return new yarnwrap.text.Text(net.minecraft.block.enums.StructureBlockMode.text); }
 // public static void text(yarnwrap.text.Text value, ) { net.minecraft.block.enums.StructureBlockMode.text = value.wrapperContained; }
 
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.block.enums.StructureBlockMode.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.block.enums.StructureBlockMode.CODEC = value; }
+
 // public StructureBlockMode(java.lang.String name) { this.wrapperContained = new net.minecraft.block.enums.StructureBlockMode(name); }
 public yarnwrap.text.Text asText() { return new yarnwrap.text.Text(wrapperContained.asText()); }
 // public static yarnwrap.text.Text asText() { return new yarnwrap.text.Text(net.minecraft.block.enums.StructureBlockMode.asText()); }

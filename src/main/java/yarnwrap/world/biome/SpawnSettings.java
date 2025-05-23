@@ -39,6 +39,12 @@ public static yarnwrap.util.collection.Pool EMPTY_ENTRY_POOL() { return new yarn
 // public SpawnSettings(float creatureSpawnProbability,java.util.Map spawners,java.util.Map spawnCosts) { this.wrapperContained = new net.minecraft.world.biome.SpawnSettings(creatureSpawnProbability,spawners,spawnCosts); }
 // public com.mojang.datafixers.kinds.App method_30791(Object instance) { return wrapperContained.method_30791(instance); }
 // public static com.mojang.datafixers.kinds.App method_30791(Object instance, ) { return net.minecraft.world.biome.SpawnSettings.method_30791(instance); }
+// public java.util.Map method_30794(yarnwrap.world.biome.SpawnSettings settings) { return wrapperContained.method_30794(settings.wrapperContained); }
+// public static java.util.Map method_30794(yarnwrap.world.biome.SpawnSettings settings, ) { return net.minecraft.world.biome.SpawnSettings.method_30794(settings.wrapperContained); }
+// public java.util.Map method_30795(yarnwrap.world.biome.SpawnSettings settings) { return wrapperContained.method_30795(settings.wrapperContained); }
+// public static java.util.Map method_30795(yarnwrap.world.biome.SpawnSettings settings, ) { return net.minecraft.world.biome.SpawnSettings.method_30795(settings.wrapperContained); }
+// public java.lang.Float method_30796(yarnwrap.world.biome.SpawnSettings settings) { return wrapperContained.method_30796(settings.wrapperContained); }
+// public static java.lang.Float method_30796(yarnwrap.world.biome.SpawnSettings settings, ) { return net.minecraft.world.biome.SpawnSettings.method_30796(settings.wrapperContained); }
 public float getCreatureSpawnProbability() { return wrapperContained.getCreatureSpawnProbability(); }
 // public static float getCreatureSpawnProbability() { return net.minecraft.world.biome.SpawnSettings.getCreatureSpawnProbability(); }
 public Object getSpawnDensity(yarnwrap.entity.EntityType entityType) { return wrapperContained.getSpawnDensity(entityType.wrapperContained); }

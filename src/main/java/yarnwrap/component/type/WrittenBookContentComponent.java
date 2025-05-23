@@ -61,8 +61,8 @@ public yarnwrap.component.type.WrittenBookContentComponent resolve(yarnwrap.serv
 // public static java.util.Optional resolve(yarnwrap.server.command.ServerCommandSource source,yarnwrap.entity.player.PlayerEntity player,yarnwrap.text.RawFilteredPair page, ) { return net.minecraft.component.type.WrittenBookContentComponent.resolve(source.wrapperContained,player.wrapperContained,page.wrapperContained); }
 // public java.util.Optional method_57523(yarnwrap.server.command.ServerCommandSource text) { return wrapperContained.method_57523(text.wrapperContained); }
 // public static java.util.Optional method_57523(yarnwrap.server.command.ServerCommandSource text, ) { return net.minecraft.component.type.WrittenBookContentComponent.method_57523(text.wrapperContained); }
-// public boolean exceedsSerializedLengthLimit(yarnwrap.text.Text text,Object lookup) { return wrapperContained.exceedsSerializedLengthLimit(text.wrapperContained,lookup); }
-// public static boolean exceedsSerializedLengthLimit(yarnwrap.text.Text text,Object lookup, ) { return net.minecraft.component.type.WrittenBookContentComponent.exceedsSerializedLengthLimit(text.wrapperContained,lookup); }
+// public boolean exceedsSerializedLengthLimit(yarnwrap.text.Text text,Object registries) { return wrapperContained.exceedsSerializedLengthLimit(text.wrapperContained,registries); }
+// public static boolean exceedsSerializedLengthLimit(yarnwrap.text.Text text,Object registries, ) { return net.minecraft.component.type.WrittenBookContentComponent.exceedsSerializedLengthLimit(text.wrapperContained,registries); }
 public java.util.List getPages(boolean shouldFilter) { return wrapperContained.getPages(shouldFilter); }
 // public static java.util.List getPages(boolean shouldFilter, ) { return net.minecraft.component.type.WrittenBookContentComponent.getPages(shouldFilter); }
 // public yarnwrap.text.Text method_57526(boolean page) { return new yarnwrap.text.Text(wrapperContained.method_57526(page)); }
@@ -73,5 +73,7 @@ public yarnwrap.component.type.WrittenBookContentComponent asResolved() { return
 // public static com.mojang.serialization.Codec createPagesCodec(com.mojang.serialization.Codec textCodec, ) { return net.minecraft.component.type.WrittenBookContentComponent.createPagesCodec(textCodec); }
 // public com.mojang.serialization.Codec createPageCodec(com.mojang.serialization.Codec textCodec) { return wrapperContained.createPageCodec(textCodec); }
 // public static com.mojang.serialization.Codec createPageCodec(com.mojang.serialization.Codec textCodec, ) { return net.minecraft.component.type.WrittenBookContentComponent.createPageCodec(textCodec); }
+// public boolean resolveInStack(yarnwrap.item.ItemStack stack,yarnwrap.server.command.ServerCommandSource commandSource,yarnwrap.entity.player.PlayerEntity player) { return wrapperContained.resolveInStack(stack.wrapperContained,commandSource.wrapperContained,player.wrapperContained); }
+// public static boolean resolveInStack(yarnwrap.item.ItemStack stack,yarnwrap.server.command.ServerCommandSource commandSource,yarnwrap.entity.player.PlayerEntity player, ) { return net.minecraft.component.type.WrittenBookContentComponent.resolveInStack(stack.wrapperContained,commandSource.wrapperContained,player.wrapperContained); }
 
 }

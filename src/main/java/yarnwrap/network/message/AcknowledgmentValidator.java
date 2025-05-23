@@ -21,9 +21,9 @@ public void addPending(yarnwrap.network.message.MessageSignatureData signature) 
 // public static void addPending(yarnwrap.network.message.MessageSignatureData signature, ) { net.minecraft.network.message.AcknowledgmentValidator.addPending(signature.wrapperContained); }
 public int getMessageCount() { return wrapperContained.getMessageCount(); }
 // public static int getMessageCount() { return net.minecraft.network.message.AcknowledgmentValidator.getMessageCount(); }
-public boolean removeUntil(int index) { return wrapperContained.removeUntil(index); }
-// public static boolean removeUntil(int index, ) { return net.minecraft.network.message.AcknowledgmentValidator.removeUntil(index); }
-// public java.util.Optional validate(Object acknowledgment) { return wrapperContained.validate(acknowledgment); }
-// public static java.util.Optional validate(Object acknowledgment, ) { return net.minecraft.network.message.AcknowledgmentValidator.validate(acknowledgment); }
+// public void removeUntil(int index) { wrapperContained.removeUntil(index); }
+// public static void removeUntil(int index, ) { net.minecraft.network.message.AcknowledgmentValidator.removeUntil(index); }
+// public yarnwrap.network.message.LastSeenMessageList validate(Object acknowledgment) { return new yarnwrap.network.message.LastSeenMessageList(wrapperContained.validate(acknowledgment)); }
+// public static yarnwrap.network.message.LastSeenMessageList validate(Object acknowledgment, ) { return new yarnwrap.network.message.LastSeenMessageList(net.minecraft.network.message.AcknowledgmentValidator.validate(acknowledgment)); }
 
 }

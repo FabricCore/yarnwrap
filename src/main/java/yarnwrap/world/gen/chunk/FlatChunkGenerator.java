@@ -18,5 +18,7 @@ public yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig getConfig() { return ne
 // public static yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig getConfig() { return new yarnwrap.world.gen.chunk.FlatChunkGeneratorConfig(net.minecraft.world.gen.chunk.FlatChunkGenerator.getConfig()); }
 // public com.mojang.datafixers.kinds.App method_40158(Object instance) { return wrapperContained.method_40158(instance); }
 // public static com.mojang.datafixers.kinds.App method_40158(Object instance, ) { return net.minecraft.world.gen.chunk.FlatChunkGenerator.method_40158(instance); }
+// public yarnwrap.registry.entry.RegistryEntry method_46718(Object structureEntry) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.method_46718(structureEntry)); }
+// public static yarnwrap.registry.entry.RegistryEntry method_46718(Object structureEntry, ) { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.world.gen.chunk.FlatChunkGenerator.method_46718(structureEntry)); }
 
 }

@@ -16,6 +16,16 @@ public static java.util.Set VALUES() { return net.minecraft.network.packet.s2c.p
 public static java.util.Set ROT() { return net.minecraft.network.packet.s2c.play.PositionFlag.ROT; }
 // public static void ROT(java.util.Set value, ) { net.minecraft.network.packet.s2c.play.PositionFlag.ROT = value; }
 
+// public java.util.Set DELTA() { return wrapperContained.DELTA; }
+// public void DELTA(java.util.Set value) { wrapperContained.DELTA = value; }
+public static java.util.Set DELTA() { return net.minecraft.network.packet.s2c.play.PositionFlag.DELTA; }
+// public static void DELTA(java.util.Set value, ) { net.minecraft.network.packet.s2c.play.PositionFlag.DELTA = value; }
+
+// public yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(wrapperContained.PACKET_CODEC); }
+// public void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value) { wrapperContained.PACKET_CODEC = value.wrapperContained; }
+public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yarnwrap.network.codec.PacketCodec(net.minecraft.network.packet.s2c.play.PositionFlag.PACKET_CODEC); }
+// public static void PACKET_CODEC(yarnwrap.network.codec.PacketCodec value, ) { net.minecraft.network.packet.s2c.play.PositionFlag.PACKET_CODEC = value.wrapperContained; }
+
 // // public PositionFlag(java.lang.String shift) { this.wrapperContained = new net.minecraft.network.packet.s2c.play.PositionFlag(shift); }
 // public int getBitfield(java.util.Set flags) { return wrapperContained.getBitfield(flags); }
 // public static int getBitfield(java.util.Set flags, ) { return net.minecraft.network.packet.s2c.play.PositionFlag.getBitfield(flags); }
@@ -25,5 +35,7 @@ public static java.util.Set ROT() { return net.minecraft.network.packet.s2c.play
 // public static boolean isSet(int mask, ) { return net.minecraft.network.packet.s2c.play.PositionFlag.isSet(mask); }
 // public java.util.Set getFlags(int mask) { return wrapperContained.getFlags(mask); }
 // public static java.util.Set getFlags(int mask, ) { return net.minecraft.network.packet.s2c.play.PositionFlag.getFlags(mask); }
+// public java.util.Set combine(java.util.Set[] sets) { return wrapperContained.combine(sets); }
+// public static java.util.Set combine(java.util.Set[] sets, ) { return net.minecraft.network.packet.s2c.play.PositionFlag.combine(sets); }
 
 }

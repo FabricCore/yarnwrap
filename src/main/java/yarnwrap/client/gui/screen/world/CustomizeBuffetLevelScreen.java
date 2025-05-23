@@ -42,10 +42,10 @@ public class CustomizeBuffetLevelScreen { public net.minecraft.client.gui.screen
 // public static void layout(yarnwrap.client.gui.widget.ThreePartsLayoutWidget value, ) { net.minecraft.client.gui.screen.world.CustomizeBuffetLevelScreen.layout = value.wrapperContained; }
 
 public CustomizeBuffetLevelScreen(yarnwrap.client.gui.screen.Screen parent,yarnwrap.client.world.GeneratorOptionsHolder generatorOptionsHolder,java.util.function.Consumer onDone) { this.wrapperContained = new net.minecraft.client.gui.screen.world.CustomizeBuffetLevelScreen(parent.wrapperContained,generatorOptionsHolder.wrapperContained,onDone); }
-// public void method_19801(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19801(button.wrapperContained); }
-// public static void method_19801(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.world.CustomizeBuffetLevelScreen.method_19801(button.wrapperContained); }
 // public void refreshConfirmButton() { wrapperContained.refreshConfirmButton(); }
 // public static void refreshConfirmButton() { net.minecraft.client.gui.screen.world.CustomizeBuffetLevelScreen.refreshConfirmButton(); }
+// public void method_19801(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19801(button.wrapperContained); }
+// public static void method_19801(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.world.CustomizeBuffetLevelScreen.method_19801(button.wrapperContained); }
 // public void method_28059(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_28059(button.wrapperContained); }
 // public static void method_28059(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.world.CustomizeBuffetLevelScreen.method_28059(button.wrapperContained); }
 // public boolean method_29051(Object entry) { return wrapperContained.method_29051(entry); }

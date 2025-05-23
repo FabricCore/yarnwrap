@@ -6,11 +6,6 @@ public class RestoreTask { public net.minecraft.client.realms.task.RestoreTask w
 // public static yarnwrap.client.realms.dto.Backup backup() { return new yarnwrap.client.realms.dto.Backup(net.minecraft.client.realms.task.RestoreTask.backup); }
 // public static void backup(yarnwrap.client.realms.dto.Backup value, ) { net.minecraft.client.realms.task.RestoreTask.backup = value.wrapperContained; }
 
-// public long worldId() { return wrapperContained.worldId; }
-// public void worldId(long value) { wrapperContained.worldId = value; }
-// public static long worldId() { return net.minecraft.client.realms.task.RestoreTask.worldId; }
-// public static void worldId(long value, ) { net.minecraft.client.realms.task.RestoreTask.worldId = value; }
-
 // public yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen lastScreen() { return new yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen(wrapperContained.lastScreen); }
 // public void lastScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen value) { wrapperContained.lastScreen = value.wrapperContained; }
 // public static yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen lastScreen() { return new yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen(net.minecraft.client.realms.task.RestoreTask.lastScreen); }
@@ -26,6 +21,6 @@ public class RestoreTask { public net.minecraft.client.realms.task.RestoreTask w
 // public static yarnwrap.text.Text TITLE() { return new yarnwrap.text.Text(net.minecraft.client.realms.task.RestoreTask.TITLE); }
 // public static void TITLE(yarnwrap.text.Text value, ) { net.minecraft.client.realms.task.RestoreTask.TITLE = value.wrapperContained; }
 
-public RestoreTask(yarnwrap.client.realms.dto.Backup backup,long worldId,yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen lastScreen) { this.wrapperContained = new net.minecraft.client.realms.task.RestoreTask(backup.wrapperContained,worldId,lastScreen.wrapperContained); }
+// public RestoreTask(yarnwrap.client.realms.dto.Backup backup) { this.wrapperContained = new net.minecraft.client.realms.task.RestoreTask(backup.wrapperContained); }
 
 }

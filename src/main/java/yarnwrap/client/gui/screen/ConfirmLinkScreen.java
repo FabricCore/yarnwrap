@@ -26,14 +26,14 @@ public ConfirmLinkScreen(it.unimi.dsi.fastutil.booleans.BooleanConsumer callback
 public ConfirmLinkScreen(it.unimi.dsi.fastutil.booleans.BooleanConsumer callback,yarnwrap.text.Text title,java.net.URI link,boolean linkTrusted) { this.wrapperContained = new net.minecraft.client.gui.screen.ConfirmLinkScreen(callback,title.wrapperContained,link,linkTrusted); }
 public ConfirmLinkScreen(it.unimi.dsi.fastutil.booleans.BooleanConsumer callback,yarnwrap.text.Text title,yarnwrap.text.Text message,java.lang.String link,yarnwrap.text.Text noText,boolean linkTrusted) { this.wrapperContained = new net.minecraft.client.gui.screen.ConfirmLinkScreen(callback,title.wrapperContained,message.wrapperContained,link,noText.wrapperContained,linkTrusted); }
 public ConfirmLinkScreen(it.unimi.dsi.fastutil.booleans.BooleanConsumer callback,yarnwrap.text.Text title,yarnwrap.text.Text message,java.net.URI link,yarnwrap.text.Text noText,boolean linkTrusted) { this.wrapperContained = new net.minecraft.client.gui.screen.ConfirmLinkScreen(callback,title.wrapperContained,message.wrapperContained,link,noText.wrapperContained,linkTrusted); }
+public void copyToClipboard() { wrapperContained.copyToClipboard(); }
+// public static void copyToClipboard() { net.minecraft.client.gui.screen.ConfirmLinkScreen.copyToClipboard(); }
 // public void method_19795(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19795(button.wrapperContained); }
 // public static void method_19795(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.ConfirmLinkScreen.method_19795(button.wrapperContained); }
 // public void method_19796(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19796(button.wrapperContained); }
 // public static void method_19796(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.ConfirmLinkScreen.method_19796(button.wrapperContained); }
 // public void method_19797(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_19797(button.wrapperContained); }
 // public static void method_19797(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.ConfirmLinkScreen.method_19797(button.wrapperContained); }
-public void copyToClipboard() { wrapperContained.copyToClipboard(); }
-// public static void copyToClipboard() { net.minecraft.client.gui.screen.ConfirmLinkScreen.copyToClipboard(); }
 // public yarnwrap.text.MutableText getConfirmText(boolean linkTrusted,java.lang.String link) { return new yarnwrap.text.MutableText(wrapperContained.getConfirmText(linkTrusted,link)); }
 // public static yarnwrap.text.MutableText getConfirmText(boolean linkTrusted,java.lang.String link, ) { return new yarnwrap.text.MutableText(net.minecraft.client.gui.screen.ConfirmLinkScreen.getConfirmText(linkTrusted,link)); }
 // public yarnwrap.text.MutableText getConfirmText(boolean linkTrusted) { return new yarnwrap.text.MutableText(wrapperContained.getConfirmText(linkTrusted)); }

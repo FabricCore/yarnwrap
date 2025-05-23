@@ -29,8 +29,8 @@ public class LecternBlockEntity { public net.minecraft.block.entity.LecternBlock
 public LecternBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.LecternBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public void setCurrentPage(int currentPage) { wrapperContained.setCurrentPage(currentPage); }
 // public static void setCurrentPage(int currentPage, ) { net.minecraft.block.entity.LecternBlockEntity.setCurrentPage(currentPage); }
-// public yarnwrap.server.command.ServerCommandSource getCommandSource(yarnwrap.entity.player.PlayerEntity player) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.getCommandSource(player.wrapperContained)); }
-// public static yarnwrap.server.command.ServerCommandSource getCommandSource(yarnwrap.entity.player.PlayerEntity player, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.block.entity.LecternBlockEntity.getCommandSource(player.wrapperContained)); }
+// public yarnwrap.server.command.ServerCommandSource getCommandSource(yarnwrap.entity.player.PlayerEntity player,yarnwrap.server.world.ServerWorld world) { return new yarnwrap.server.command.ServerCommandSource(wrapperContained.getCommandSource(player.wrapperContained,world.wrapperContained)); }
+// public static yarnwrap.server.command.ServerCommandSource getCommandSource(yarnwrap.entity.player.PlayerEntity player,yarnwrap.server.world.ServerWorld world, ) { return new yarnwrap.server.command.ServerCommandSource(net.minecraft.block.entity.LecternBlockEntity.getCommandSource(player.wrapperContained,world.wrapperContained)); }
 public void setBook(yarnwrap.item.ItemStack book) { wrapperContained.setBook(book.wrapperContained); }
 // public static void setBook(yarnwrap.item.ItemStack book, ) { net.minecraft.block.entity.LecternBlockEntity.setBook(book.wrapperContained); }
 public void setBook(yarnwrap.item.ItemStack book,yarnwrap.entity.player.PlayerEntity player) { wrapperContained.setBook(book.wrapperContained,player.wrapperContained); }

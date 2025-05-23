@@ -31,11 +31,6 @@ public yarnwrap.inventory.Inventory input() { return new yarnwrap.inventory.Inve
 // public static yarnwrap.world.World world() { return new yarnwrap.world.World(net.minecraft.screen.StonecutterScreenHandler.world); }
 // public static void world(yarnwrap.world.World value, ) { net.minecraft.screen.StonecutterScreenHandler.world = value.wrapperContained; }
 
-// public java.util.List availableRecipes() { return wrapperContained.availableRecipes; }
-// public void availableRecipes(java.util.List value) { wrapperContained.availableRecipes = value; }
-// public static java.util.List availableRecipes() { return net.minecraft.screen.StonecutterScreenHandler.availableRecipes; }
-// public static void availableRecipes(java.util.List value, ) { net.minecraft.screen.StonecutterScreenHandler.availableRecipes = value; }
-
 // public yarnwrap.item.ItemStack inputStack() { return new yarnwrap.item.ItemStack(wrapperContained.inputStack); }
 // public void inputStack(yarnwrap.item.ItemStack value) { wrapperContained.inputStack = value.wrapperContained; }
 // public static yarnwrap.item.ItemStack inputStack() { return new yarnwrap.item.ItemStack(net.minecraft.screen.StonecutterScreenHandler.inputStack); }
@@ -86,27 +81,32 @@ public static int OUTPUT_ID() { return net.minecraft.screen.StonecutterScreenHan
 // public static int OUTPUT_END() { return net.minecraft.screen.StonecutterScreenHandler.OUTPUT_END; }
 // public static void OUTPUT_END(int value, ) { net.minecraft.screen.StonecutterScreenHandler.OUTPUT_END = value; }
 
+// public Object availableRecipes() { return wrapperContained.availableRecipes; }
+// // public void availableRecipes(Object value) { wrapperContained.availableRecipes = value; }
+// // public static Object availableRecipes() { return net.minecraft.screen.StonecutterScreenHandler.availableRecipes; }
+// // public static void availableRecipes(Object value, ) { net.minecraft.screen.StonecutterScreenHandler.availableRecipes = value; }
+
 public StonecutterScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory) { this.wrapperContained = new net.minecraft.screen.StonecutterScreenHandler(syncId,playerInventory.wrapperContained); }
 public StonecutterScreenHandler(int syncId,yarnwrap.entity.player.PlayerInventory playerInventory,yarnwrap.screen.ScreenHandlerContext context) { this.wrapperContained = new net.minecraft.screen.StonecutterScreenHandler(syncId,playerInventory.wrapperContained,context.wrapperContained); }
-// public void updateInput(yarnwrap.inventory.Inventory input,yarnwrap.item.ItemStack stack) { wrapperContained.updateInput(input.wrapperContained,stack.wrapperContained); }
-// public static void updateInput(yarnwrap.inventory.Inventory input,yarnwrap.item.ItemStack stack, ) { net.minecraft.screen.StonecutterScreenHandler.updateInput(input.wrapperContained,stack.wrapperContained); }
+// public void updateInput(yarnwrap.item.ItemStack stack) { wrapperContained.updateInput(stack.wrapperContained); }
+// public static void updateInput(yarnwrap.item.ItemStack stack, ) { net.minecraft.screen.StonecutterScreenHandler.updateInput(stack.wrapperContained); }
 // public void method_17856(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos) { wrapperContained.method_17856(world.wrapperContained,pos.wrapperContained); }
 // public static void method_17856(yarnwrap.entity.player.PlayerEntity world,yarnwrap.world.World pos, ) { net.minecraft.screen.StonecutterScreenHandler.method_17856(world.wrapperContained,pos.wrapperContained); }
 public void setContentsChangedListener(java.lang.Runnable contentsChangedListener) { wrapperContained.setContentsChangedListener(contentsChangedListener); }
 // public static void setContentsChangedListener(java.lang.Runnable contentsChangedListener, ) { net.minecraft.screen.StonecutterScreenHandler.setContentsChangedListener(contentsChangedListener); }
 public int getSelectedRecipe() { return wrapperContained.getSelectedRecipe(); }
 // public static int getSelectedRecipe() { return net.minecraft.screen.StonecutterScreenHandler.getSelectedRecipe(); }
-public java.util.List getAvailableRecipes() { return wrapperContained.getAvailableRecipes(); }
-// public static java.util.List getAvailableRecipes() { return net.minecraft.screen.StonecutterScreenHandler.getAvailableRecipes(); }
+public Object getAvailableRecipes() { return wrapperContained.getAvailableRecipes(); }
+// public static Object getAvailableRecipes() { return net.minecraft.screen.StonecutterScreenHandler.getAvailableRecipes(); }
 public int getAvailableRecipeCount() { return wrapperContained.getAvailableRecipeCount(); }
 // public static int getAvailableRecipeCount() { return net.minecraft.screen.StonecutterScreenHandler.getAvailableRecipeCount(); }
 public boolean canCraft() { return wrapperContained.canCraft(); }
 // public static boolean canCraft() { return net.minecraft.screen.StonecutterScreenHandler.canCraft(); }
-// public void populateResult() { wrapperContained.populateResult(); }
-// public static void populateResult() { net.minecraft.screen.StonecutterScreenHandler.populateResult(); }
+// public void populateResult(int selectedId) { wrapperContained.populateResult(selectedId); }
+// public static void populateResult(int selectedId, ) { net.minecraft.screen.StonecutterScreenHandler.populateResult(selectedId); }
 // public boolean isInBounds(int id) { return wrapperContained.isInBounds(id); }
 // public static boolean isInBounds(int id, ) { return net.minecraft.screen.StonecutterScreenHandler.isInBounds(id); }
-// public yarnwrap.recipe.input.SingleStackRecipeInput createRecipeInput(yarnwrap.inventory.Inventory inventory) { return new yarnwrap.recipe.input.SingleStackRecipeInput(wrapperContained.createRecipeInput(inventory.wrapperContained)); }
-// public static yarnwrap.recipe.input.SingleStackRecipeInput createRecipeInput(yarnwrap.inventory.Inventory inventory, ) { return new yarnwrap.recipe.input.SingleStackRecipeInput(net.minecraft.screen.StonecutterScreenHandler.createRecipeInput(inventory.wrapperContained)); }
+// public void method_64655(yarnwrap.recipe.RecipeEntry recipe) { wrapperContained.method_64655(recipe.wrapperContained); }
+// public static void method_64655(yarnwrap.recipe.RecipeEntry recipe, ) { net.minecraft.screen.StonecutterScreenHandler.method_64655(recipe.wrapperContained); }
 
 }

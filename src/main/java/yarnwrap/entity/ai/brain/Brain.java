@@ -171,5 +171,7 @@ public void forgetAll() { wrapperContained.forgetAll(); }
 // public static void forgetAll() { net.minecraft.entity.ai.brain.Brain.forgetAll(); }
 // public void method_49710(yarnwrap.entity.ai.brain.MemoryModuleType type) { wrapperContained.method_49710(type.wrapperContained); }
 // public static void method_49710(yarnwrap.entity.ai.brain.MemoryModuleType type, ) { net.minecraft.entity.ai.brain.Brain.method_49710(type.wrapperContained); }
+public void setTaskList(yarnwrap.entity.ai.brain.Activity activity,int begin,com.google.common.collect.ImmutableList tasks,java.util.Set requiredMemories) { wrapperContained.setTaskList(activity.wrapperContained,begin,tasks,requiredMemories); }
+// public static void setTaskList(yarnwrap.entity.ai.brain.Activity activity,int begin,com.google.common.collect.ImmutableList tasks,java.util.Set requiredMemories, ) { net.minecraft.entity.ai.brain.Brain.setTaskList(activity.wrapperContained,begin,tasks,requiredMemories); }
 
 }

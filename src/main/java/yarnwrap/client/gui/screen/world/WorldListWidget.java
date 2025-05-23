@@ -1,6 +1,16 @@
 package yarnwrap.client.gui.screen.world;
 public class WorldListWidget { public net.minecraft.client.gui.screen.world.WorldListWidget wrapperContained; public WorldListWidget(net.minecraft.client.gui.screen.world.WorldListWidget wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.client.gui.screen.world.SelectWorldScreen parent() { return new yarnwrap.client.gui.screen.world.SelectWorldScreen(wrapperContained.parent); }
+// public void parent(yarnwrap.client.gui.screen.world.SelectWorldScreen value) { wrapperContained.parent = value.wrapperContained; }
+// public static yarnwrap.client.gui.screen.world.SelectWorldScreen parent() { return new yarnwrap.client.gui.screen.world.SelectWorldScreen(net.minecraft.client.gui.screen.world.WorldListWidget.parent); }
+// public static void parent(yarnwrap.client.gui.screen.world.SelectWorldScreen value, ) { net.minecraft.client.gui.screen.world.WorldListWidget.parent = value.wrapperContained; }
+
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.gui.screen.world.WorldListWidget.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.gui.screen.world.WorldListWidget.LOGGER = value; }
+
 // public java.time.format.DateTimeFormatter DATE_FORMAT() { return wrapperContained.DATE_FORMAT; }
 // public void DATE_FORMAT(java.time.format.DateTimeFormatter value) { wrapperContained.DATE_FORMAT = value; }
 public static java.time.format.DateTimeFormatter DATE_FORMAT() { return net.minecraft.client.gui.screen.world.WorldListWidget.DATE_FORMAT; }
@@ -30,16 +40,6 @@ public static java.time.format.DateTimeFormatter DATE_FORMAT() { return net.mine
 // public void LOCKED_TEXT(yarnwrap.text.Text value) { wrapperContained.LOCKED_TEXT = value.wrapperContained; }
 // public static yarnwrap.text.Text LOCKED_TEXT() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.world.WorldListWidget.LOCKED_TEXT); }
 // public static void LOCKED_TEXT(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.world.WorldListWidget.LOCKED_TEXT = value.wrapperContained; }
-
-// public yarnwrap.client.gui.screen.world.SelectWorldScreen parent() { return new yarnwrap.client.gui.screen.world.SelectWorldScreen(wrapperContained.parent); }
-// public void parent(yarnwrap.client.gui.screen.world.SelectWorldScreen value) { wrapperContained.parent = value.wrapperContained; }
-// public static yarnwrap.client.gui.screen.world.SelectWorldScreen parent() { return new yarnwrap.client.gui.screen.world.SelectWorldScreen(net.minecraft.client.gui.screen.world.WorldListWidget.parent); }
-// public static void parent(yarnwrap.client.gui.screen.world.SelectWorldScreen value, ) { net.minecraft.client.gui.screen.world.WorldListWidget.parent = value.wrapperContained; }
-
-// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
-// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
-// public static org.slf4j.Logger LOGGER() { return net.minecraft.client.gui.screen.world.WorldListWidget.LOGGER; }
-// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.client.gui.screen.world.WorldListWidget.LOGGER = value; }
 
 // public yarnwrap.text.Text CONVERSION_TOOLTIP() { return new yarnwrap.text.Text(wrapperContained.CONVERSION_TOOLTIP); }
 // public void CONVERSION_TOOLTIP(yarnwrap.text.Text value) { wrapperContained.CONVERSION_TOOLTIP = value.wrapperContained; }
@@ -117,10 +117,10 @@ public static java.time.format.DateTimeFormatter DATE_FORMAT() { return net.mine
 // public static void INCOMPATIBLE_TOOLTIP(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.world.WorldListWidget.INCOMPATIBLE_TOOLTIP = value.wrapperContained; }
 
 public WorldListWidget(yarnwrap.client.gui.screen.world.SelectWorldScreen parent,yarnwrap.client.MinecraftClient client,int width,int height,int y,int itemHeight,java.lang.String search,yarnwrap.client.gui.screen.world.WorldListWidget oldWidget) { this.wrapperContained = new net.minecraft.client.gui.screen.world.WorldListWidget(parent.wrapperContained,client.wrapperContained,width,height,y,itemHeight,search,oldWidget.wrapperContained); }
-public java.util.Optional getSelectedAsOptional() { return wrapperContained.getSelectedAsOptional(); }
-// public static java.util.Optional getSelectedAsOptional() { return net.minecraft.client.gui.screen.world.WorldListWidget.getSelectedAsOptional(); }
 public yarnwrap.client.gui.screen.world.SelectWorldScreen getParent() { return new yarnwrap.client.gui.screen.world.SelectWorldScreen(wrapperContained.getParent()); }
 // public static yarnwrap.client.gui.screen.world.SelectWorldScreen getParent() { return new yarnwrap.client.gui.screen.world.SelectWorldScreen(net.minecraft.client.gui.screen.world.WorldListWidget.getParent()); }
+public java.util.Optional getSelectedAsOptional() { return wrapperContained.getSelectedAsOptional(); }
+// public static java.util.Optional getSelectedAsOptional() { return net.minecraft.client.gui.screen.world.WorldListWidget.getSelectedAsOptional(); }
 // public boolean shouldShow(java.lang.String search,yarnwrap.world.level.storage.LevelSummary summary) { return wrapperContained.shouldShow(search,summary.wrapperContained); }
 // public static boolean shouldShow(java.lang.String search,yarnwrap.world.level.storage.LevelSummary summary, ) { return net.minecraft.client.gui.screen.world.WorldListWidget.shouldShow(search,summary.wrapperContained); }
 // public void showSummaries(java.lang.String search,java.util.List summaries) { wrapperContained.showSummaries(search,summaries); }

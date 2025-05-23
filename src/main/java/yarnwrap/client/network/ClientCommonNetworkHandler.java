@@ -56,11 +56,6 @@ public class ClientCommonNetworkHandler { public net.minecraft.client.network.Cl
 // public static boolean transferring() { return net.minecraft.client.network.ClientCommonNetworkHandler.transferring; }
 // public static void transferring(boolean value, ) { net.minecraft.client.network.ClientCommonNetworkHandler.transferring = value; }
 
-// public boolean strictErrorHandling() { return wrapperContained.strictErrorHandling; }
-// public void strictErrorHandling(boolean value) { wrapperContained.strictErrorHandling = value; }
-// public static boolean strictErrorHandling() { return net.minecraft.client.network.ClientCommonNetworkHandler.strictErrorHandling; }
-// public static void strictErrorHandling(boolean value, ) { net.minecraft.client.network.ClientCommonNetworkHandler.strictErrorHandling = value; }
-
 // public java.util.Map customReportDetails() { return wrapperContained.customReportDetails; }
 // public void customReportDetails(java.util.Map value) { wrapperContained.customReportDetails = value; }
 // public static java.util.Map customReportDetails() { return net.minecraft.client.network.ClientCommonNetworkHandler.customReportDetails; }
@@ -96,5 +91,7 @@ public java.lang.String getBrand() { return wrapperContained.getBrand(); }
 // public static java.util.List method_60880(Object bugReportEntry, ) { return net.minecraft.client.network.ClientCommonNetworkHandler.method_60880(bugReportEntry); }
 // public java.util.Optional savePacketErrorReport(yarnwrap.network.packet.Packet packet,java.lang.Throwable exception) { return wrapperContained.savePacketErrorReport(packet.wrapperContained,exception); }
 // public static java.util.Optional savePacketErrorReport(yarnwrap.network.packet.Packet packet,java.lang.Throwable exception, ) { return net.minecraft.client.network.ClientCommonNetworkHandler.savePacketErrorReport(packet.wrapperContained,exception); }
+// public void showDialog(yarnwrap.registry.entry.RegistryEntry dialog) { wrapperContained.showDialog(dialog.wrapperContained); }
+// public static void showDialog(yarnwrap.registry.entry.RegistryEntry dialog, ) { net.minecraft.client.network.ClientCommonNetworkHandler.showDialog(dialog.wrapperContained); }
 
 }

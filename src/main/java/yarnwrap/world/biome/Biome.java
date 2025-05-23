@@ -1,6 +1,16 @@
 package yarnwrap.world.biome;
 public class Biome { public net.minecraft.world.biome.Biome wrapperContained; public Biome(net.minecraft.world.biome.Biome wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.util.math.noise.OctaveSimplexNoiseSampler FOLIAGE_NOISE() { return new yarnwrap.util.math.noise.OctaveSimplexNoiseSampler(wrapperContained.FOLIAGE_NOISE); }
+// public void FOLIAGE_NOISE(yarnwrap.util.math.noise.OctaveSimplexNoiseSampler value) { wrapperContained.FOLIAGE_NOISE = value.wrapperContained; }
+public static yarnwrap.util.math.noise.OctaveSimplexNoiseSampler FOLIAGE_NOISE() { return new yarnwrap.util.math.noise.OctaveSimplexNoiseSampler(net.minecraft.world.biome.Biome.FOLIAGE_NOISE); }
+// public static void FOLIAGE_NOISE(yarnwrap.util.math.noise.OctaveSimplexNoiseSampler value, ) { net.minecraft.world.biome.Biome.FOLIAGE_NOISE = value.wrapperContained; }
+
+// public yarnwrap.util.math.noise.OctaveSimplexNoiseSampler TEMPERATURE_NOISE() { return new yarnwrap.util.math.noise.OctaveSimplexNoiseSampler(wrapperContained.TEMPERATURE_NOISE); }
+// public void TEMPERATURE_NOISE(yarnwrap.util.math.noise.OctaveSimplexNoiseSampler value) { wrapperContained.TEMPERATURE_NOISE = value.wrapperContained; }
+// public static yarnwrap.util.math.noise.OctaveSimplexNoiseSampler TEMPERATURE_NOISE() { return new yarnwrap.util.math.noise.OctaveSimplexNoiseSampler(net.minecraft.world.biome.Biome.TEMPERATURE_NOISE); }
+// public static void TEMPERATURE_NOISE(yarnwrap.util.math.noise.OctaveSimplexNoiseSampler value, ) { net.minecraft.world.biome.Biome.TEMPERATURE_NOISE = value.wrapperContained; }
+
 // public java.lang.ThreadLocal temperatureCache() { return wrapperContained.temperatureCache; }
 // public void temperatureCache(java.lang.ThreadLocal value) { wrapperContained.temperatureCache = value; }
 // public static java.lang.ThreadLocal temperatureCache() { return net.minecraft.world.biome.Biome.temperatureCache; }
@@ -56,19 +66,29 @@ public static com.mojang.serialization.Codec REGISTRY_ENTRY_LIST_CODEC() { retur
 // public static int MAX_TEMPERATURE_CACHE_SIZE() { return net.minecraft.world.biome.Biome.MAX_TEMPERATURE_CACHE_SIZE; }
 // public static void MAX_TEMPERATURE_CACHE_SIZE(int value, ) { net.minecraft.world.biome.Biome.MAX_TEMPERATURE_CACHE_SIZE = value; }
 
-// public yarnwrap.util.math.noise.OctaveSimplexNoiseSampler FOLIAGE_NOISE() { return new yarnwrap.util.math.noise.OctaveSimplexNoiseSampler(wrapperContained.FOLIAGE_NOISE); }
-// public void FOLIAGE_NOISE(yarnwrap.util.math.noise.OctaveSimplexNoiseSampler value) { wrapperContained.FOLIAGE_NOISE = value.wrapperContained; }
-public static yarnwrap.util.math.noise.OctaveSimplexNoiseSampler FOLIAGE_NOISE() { return new yarnwrap.util.math.noise.OctaveSimplexNoiseSampler(net.minecraft.world.biome.Biome.FOLIAGE_NOISE); }
-// public static void FOLIAGE_NOISE(yarnwrap.util.math.noise.OctaveSimplexNoiseSampler value, ) { net.minecraft.world.biome.Biome.FOLIAGE_NOISE = value.wrapperContained; }
-
-// public yarnwrap.util.math.noise.OctaveSimplexNoiseSampler TEMPERATURE_NOISE() { return new yarnwrap.util.math.noise.OctaveSimplexNoiseSampler(wrapperContained.TEMPERATURE_NOISE); }
-// public void TEMPERATURE_NOISE(yarnwrap.util.math.noise.OctaveSimplexNoiseSampler value) { wrapperContained.TEMPERATURE_NOISE = value.wrapperContained; }
-// public static yarnwrap.util.math.noise.OctaveSimplexNoiseSampler TEMPERATURE_NOISE() { return new yarnwrap.util.math.noise.OctaveSimplexNoiseSampler(net.minecraft.world.biome.Biome.TEMPERATURE_NOISE); }
-// public static void TEMPERATURE_NOISE(yarnwrap.util.math.noise.OctaveSimplexNoiseSampler value, ) { net.minecraft.world.biome.Biome.TEMPERATURE_NOISE = value.wrapperContained; }
-
 // public Biome(Object weather,yarnwrap.world.biome.BiomeEffects effects,yarnwrap.world.biome.GenerationSettings generationSettings,yarnwrap.world.biome.SpawnSettings spawnSettings) { this.wrapperContained = new net.minecraft.world.biome.Biome(weather,effects.wrapperContained,generationSettings.wrapperContained,spawnSettings.wrapperContained); }
-// public float getTemperature(yarnwrap.util.math.BlockPos blockPos) { return wrapperContained.getTemperature(blockPos.wrapperContained); }
-// public static float getTemperature(yarnwrap.util.math.BlockPos blockPos, ) { return net.minecraft.world.biome.Biome.getTemperature(blockPos.wrapperContained); }
+public boolean canSetIce(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,boolean doWaterCheck) { return wrapperContained.canSetIce(world.wrapperContained,pos.wrapperContained,doWaterCheck); }
+// public static boolean canSetIce(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,boolean doWaterCheck, ) { return net.minecraft.world.biome.Biome.canSetIce(world.wrapperContained,pos.wrapperContained,doWaterCheck); }
+public int getWaterColor() { return wrapperContained.getWaterColor(); }
+// public static int getWaterColor() { return net.minecraft.world.biome.Biome.getWaterColor(); }
+public boolean canSetSnow(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.canSetSnow(world.wrapperContained,pos.wrapperContained); }
+// public static boolean canSetSnow(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.biome.Biome.canSetSnow(world.wrapperContained,pos.wrapperContained); }
+public int getSkyColor() { return wrapperContained.getSkyColor(); }
+// public static int getSkyColor() { return net.minecraft.world.biome.Biome.getSkyColor(); }
+public int getFoliageColor() { return wrapperContained.getFoliageColor(); }
+// public static int getFoliageColor() { return net.minecraft.world.biome.Biome.getFoliageColor(); }
+public boolean canSetIce(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos blockPos) { return wrapperContained.canSetIce(world.wrapperContained,blockPos.wrapperContained); }
+// public static boolean canSetIce(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos blockPos, ) { return net.minecraft.world.biome.Biome.canSetIce(world.wrapperContained,blockPos.wrapperContained); }
+// public float computeTemperature(yarnwrap.util.math.BlockPos pos,int seaLevel) { return wrapperContained.computeTemperature(pos.wrapperContained,seaLevel); }
+// public static float computeTemperature(yarnwrap.util.math.BlockPos pos,int seaLevel, ) { return net.minecraft.world.biome.Biome.computeTemperature(pos.wrapperContained,seaLevel); }
+public int getGrassColorAt(double x,double z) { return wrapperContained.getGrassColorAt(x,z); }
+// public static int getGrassColorAt(double x,double z, ) { return net.minecraft.world.biome.Biome.getGrassColorAt(x,z); }
+public float getTemperature() { return wrapperContained.getTemperature(); }
+// public static float getTemperature() { return net.minecraft.world.biome.Biome.getTemperature(); }
+public int getWaterFogColor() { return wrapperContained.getWaterFogColor(); }
+// public static int getWaterFogColor() { return net.minecraft.world.biome.Biome.getWaterFogColor(); }
+// public float getTemperature(yarnwrap.util.math.BlockPos blockPos,int seaLevel) { return wrapperContained.getTemperature(blockPos.wrapperContained,seaLevel); }
+// public static float getTemperature(yarnwrap.util.math.BlockPos blockPos,int seaLevel, ) { return net.minecraft.world.biome.Biome.getTemperature(blockPos.wrapperContained,seaLevel); }
 public int getFogColor() { return wrapperContained.getFogColor(); }
 // public static int getFogColor() { return net.minecraft.world.biome.Biome.getFogColor(); }
 public yarnwrap.world.biome.BiomeEffects getEffects() { return new yarnwrap.world.biome.BiomeEffects(wrapperContained.getEffects()); }
@@ -105,39 +125,27 @@ public yarnwrap.world.biome.GenerationSettings getGenerationSettings() { return 
 // public static yarnwrap.world.biome.GenerationSettings getGenerationSettings() { return new yarnwrap.world.biome.GenerationSettings(net.minecraft.world.biome.Biome.getGenerationSettings()); }
 // public yarnwrap.world.biome.BiomeEffects method_30971(yarnwrap.world.biome.Biome biome) { return new yarnwrap.world.biome.BiomeEffects(wrapperContained.method_30971(biome.wrapperContained)); }
 // public static yarnwrap.world.biome.BiomeEffects method_30971(yarnwrap.world.biome.Biome biome, ) { return new yarnwrap.world.biome.BiomeEffects(net.minecraft.world.biome.Biome.method_30971(biome.wrapperContained)); }
-public boolean isCold(yarnwrap.util.math.BlockPos pos) { return wrapperContained.isCold(pos.wrapperContained); }
-// public static boolean isCold(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.biome.Biome.isCold(pos.wrapperContained); }
+public boolean isCold(yarnwrap.util.math.BlockPos pos,int seaLevel) { return wrapperContained.isCold(pos.wrapperContained,seaLevel); }
+// public static boolean isCold(yarnwrap.util.math.BlockPos pos,int seaLevel, ) { return net.minecraft.world.biome.Biome.isCold(pos.wrapperContained,seaLevel); }
 // public yarnwrap.world.biome.Biome method_38103(Object weather,yarnwrap.world.biome.BiomeEffects effects) { return new yarnwrap.world.biome.Biome(wrapperContained.method_38103(weather,effects.wrapperContained)); }
 // public static yarnwrap.world.biome.Biome method_38103(Object weather,yarnwrap.world.biome.BiomeEffects effects, ) { return new yarnwrap.world.biome.Biome(net.minecraft.world.biome.Biome.method_38103(weather,effects.wrapperContained)); }
 // public com.mojang.datafixers.kinds.App method_38104(Object instance) { return wrapperContained.method_38104(instance); }
 // public static com.mojang.datafixers.kinds.App method_38104(Object instance, ) { return net.minecraft.world.biome.Biome.method_38104(instance); }
-public boolean doesNotSnow(yarnwrap.util.math.BlockPos pos) { return wrapperContained.doesNotSnow(pos.wrapperContained); }
-// public static boolean doesNotSnow(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.biome.Biome.doesNotSnow(pos.wrapperContained); }
-public boolean shouldGenerateLowerFrozenOceanSurface(yarnwrap.util.math.BlockPos pos) { return wrapperContained.shouldGenerateLowerFrozenOceanSurface(pos.wrapperContained); }
-// public static boolean shouldGenerateLowerFrozenOceanSurface(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.biome.Biome.shouldGenerateLowerFrozenOceanSurface(pos.wrapperContained); }
-public Object getPrecipitation(yarnwrap.util.math.BlockPos pos) { return wrapperContained.getPrecipitation(pos.wrapperContained); }
-// public static Object getPrecipitation(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.biome.Biome.getPrecipitation(pos.wrapperContained); }
+public boolean doesNotSnow(yarnwrap.util.math.BlockPos pos,int seaLevel) { return wrapperContained.doesNotSnow(pos.wrapperContained,seaLevel); }
+// public static boolean doesNotSnow(yarnwrap.util.math.BlockPos pos,int seaLevel, ) { return net.minecraft.world.biome.Biome.doesNotSnow(pos.wrapperContained,seaLevel); }
+public boolean shouldGenerateLowerFrozenOceanSurface(yarnwrap.util.math.BlockPos pos,int seaLevel) { return wrapperContained.shouldGenerateLowerFrozenOceanSurface(pos.wrapperContained,seaLevel); }
+// public static boolean shouldGenerateLowerFrozenOceanSurface(yarnwrap.util.math.BlockPos pos,int seaLevel, ) { return net.minecraft.world.biome.Biome.shouldGenerateLowerFrozenOceanSurface(pos.wrapperContained,seaLevel); }
+public Object getPrecipitation(yarnwrap.util.math.BlockPos pos,int seaLevel) { return wrapperContained.getPrecipitation(pos.wrapperContained,seaLevel); }
+// public static Object getPrecipitation(yarnwrap.util.math.BlockPos pos,int seaLevel, ) { return net.minecraft.world.biome.Biome.getPrecipitation(pos.wrapperContained,seaLevel); }
 public boolean hasPrecipitation() { return wrapperContained.hasPrecipitation(); }
 // public static boolean hasPrecipitation() { return net.minecraft.world.biome.Biome.hasPrecipitation(); }
-public boolean canSetIce(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,boolean doWaterCheck) { return wrapperContained.canSetIce(world.wrapperContained,pos.wrapperContained,doWaterCheck); }
-// public static boolean canSetIce(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos,boolean doWaterCheck, ) { return net.minecraft.world.biome.Biome.canSetIce(world.wrapperContained,pos.wrapperContained,doWaterCheck); }
-public int getWaterColor() { return wrapperContained.getWaterColor(); }
-// public static int getWaterColor() { return net.minecraft.world.biome.Biome.getWaterColor(); }
-public boolean canSetSnow(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos) { return wrapperContained.canSetSnow(world.wrapperContained,pos.wrapperContained); }
-// public static boolean canSetSnow(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.biome.Biome.canSetSnow(world.wrapperContained,pos.wrapperContained); }
-public int getSkyColor() { return wrapperContained.getSkyColor(); }
-// public static int getSkyColor() { return net.minecraft.world.biome.Biome.getSkyColor(); }
-public int getFoliageColor() { return wrapperContained.getFoliageColor(); }
-// public static int getFoliageColor() { return net.minecraft.world.biome.Biome.getFoliageColor(); }
-public boolean canSetIce(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos blockPos) { return wrapperContained.canSetIce(world.wrapperContained,blockPos.wrapperContained); }
-// public static boolean canSetIce(yarnwrap.world.WorldView world,yarnwrap.util.math.BlockPos blockPos, ) { return net.minecraft.world.biome.Biome.canSetIce(world.wrapperContained,blockPos.wrapperContained); }
-// public float computeTemperature(yarnwrap.util.math.BlockPos pos) { return wrapperContained.computeTemperature(pos.wrapperContained); }
-// public static float computeTemperature(yarnwrap.util.math.BlockPos pos, ) { return net.minecraft.world.biome.Biome.computeTemperature(pos.wrapperContained); }
-public int getGrassColorAt(double x,double z) { return wrapperContained.getGrassColorAt(x,z); }
-// public static int getGrassColorAt(double x,double z, ) { return net.minecraft.world.biome.Biome.getGrassColorAt(x,z); }
-public float getTemperature() { return wrapperContained.getTemperature(); }
-// public static float getTemperature() { return net.minecraft.world.biome.Biome.getTemperature(); }
-public int getWaterFogColor() { return wrapperContained.getWaterFogColor(); }
-// public static int getWaterFogColor() { return net.minecraft.world.biome.Biome.getWaterFogColor(); }
+public float getMusicVolume() { return wrapperContained.getMusicVolume(); }
+// public static float getMusicVolume() { return net.minecraft.world.biome.Biome.getMusicVolume(); }
+// public int getGrassColor() { return wrapperContained.getGrassColor(); }
+// public static int getGrassColor() { return net.minecraft.world.biome.Biome.getGrassColor(); }
+public int getDryFoliageColor() { return wrapperContained.getDryFoliageColor(); }
+// public static int getDryFoliageColor() { return net.minecraft.world.biome.Biome.getDryFoliageColor(); }
+// public int getDefaultDryFoliageColor() { return wrapperContained.getDefaultDryFoliageColor(); }
+// public static int getDefaultDryFoliageColor() { return net.minecraft.world.biome.Biome.getDefaultDryFoliageColor(); }
 
 }

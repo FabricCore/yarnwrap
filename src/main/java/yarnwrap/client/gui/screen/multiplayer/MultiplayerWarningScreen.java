@@ -27,5 +27,9 @@ public class MultiplayerWarningScreen { public net.minecraft.client.gui.screen.m
 // public static void parent(yarnwrap.client.gui.screen.Screen value, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerWarningScreen.parent = value.wrapperContained; }
 
 public MultiplayerWarningScreen(yarnwrap.client.gui.screen.Screen parent) { this.wrapperContained = new net.minecraft.client.gui.screen.multiplayer.MultiplayerWarningScreen(parent.wrapperContained); }
+// public void method_57751(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_57751(button.wrapperContained); }
+// public static void method_57751(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerWarningScreen.method_57751(button.wrapperContained); }
+// public void method_57752(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_57752(button.wrapperContained); }
+// public static void method_57752(yarnwrap.client.gui.widget.ButtonWidget button, ) { net.minecraft.client.gui.screen.multiplayer.MultiplayerWarningScreen.method_57752(button.wrapperContained); }
 
 }

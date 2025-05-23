@@ -1,7 +1,6 @@
 package yarnwrap.datafixer.fix;
 public class HeightmapRenamingFix { public net.minecraft.datafixer.fix.HeightmapRenamingFix wrapperContained; public HeightmapRenamingFix(net.minecraft.datafixer.fix.HeightmapRenamingFix wrapperContained) { this.wrapperContained = wrapperContained; }
 
-public HeightmapRenamingFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesTyped) { this.wrapperContained = new net.minecraft.datafixer.fix.HeightmapRenamingFix(outputSchema,changesTyped); }
 // public com.mojang.serialization.Dynamic renameHeightmapTags(com.mojang.serialization.Dynamic levelDynamic) { return wrapperContained.renameHeightmapTags(levelDynamic); }
 // public static com.mojang.serialization.Dynamic renameHeightmapTags(com.mojang.serialization.Dynamic levelDynamic, ) { return net.minecraft.datafixer.fix.HeightmapRenamingFix.renameHeightmapTags(levelDynamic); }
 // public com.mojang.datafixers.Typed method_4999(com.mojang.datafixers.OpticFinder chunkTyped) { return wrapperContained.method_4999(chunkTyped); }

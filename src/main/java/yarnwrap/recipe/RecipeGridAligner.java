@@ -1,9 +1,9 @@
 package yarnwrap.recipe;
 public class RecipeGridAligner { public net.minecraft.recipe.RecipeGridAligner wrapperContained; public RecipeGridAligner(net.minecraft.recipe.RecipeGridAligner wrapperContained) { this.wrapperContained = wrapperContained; }
 
-public void acceptAlignedInput(java.lang.Object input,int slot,int amount,int gridX,int gridY) { wrapperContained.acceptAlignedInput(input,slot,amount,gridX,gridY); }
-// public static void acceptAlignedInput(java.lang.Object input,int slot,int amount,int gridX,int gridY, ) { net.minecraft.recipe.RecipeGridAligner.acceptAlignedInput(input,slot,amount,gridX,gridY); }
-public void alignRecipeToGrid(int gridWidth,int gridHeight,int gridOutputSlot,yarnwrap.recipe.RecipeEntry recipe,java.util.Iterator inputs,int amount) { wrapperContained.alignRecipeToGrid(gridWidth,gridHeight,gridOutputSlot,recipe.wrapperContained,inputs,amount); }
-// public static void alignRecipeToGrid(int gridWidth,int gridHeight,int gridOutputSlot,yarnwrap.recipe.RecipeEntry recipe,java.util.Iterator inputs,int amount, ) { net.minecraft.recipe.RecipeGridAligner.alignRecipeToGrid(gridWidth,gridHeight,gridOutputSlot,recipe.wrapperContained,inputs,amount); }
+// public void alignRecipeToGrid(int width,int height,int recipeWidth,int recipeHeight,java.lang.Iterable slots,Object filter) { wrapperContained.alignRecipeToGrid(width,height,recipeWidth,recipeHeight,slots,filter); }
+// public static void alignRecipeToGrid(int width,int height,int recipeWidth,int recipeHeight,java.lang.Iterable slots,Object filter, ) { net.minecraft.recipe.RecipeGridAligner.alignRecipeToGrid(width,height,recipeWidth,recipeHeight,slots,filter); }
+// public void alignRecipeToGrid(int width,int height,yarnwrap.recipe.Recipe recipe,java.lang.Iterable slots,Object filter) { wrapperContained.alignRecipeToGrid(width,height,recipe.wrapperContained,slots,filter); }
+// public static void alignRecipeToGrid(int width,int height,yarnwrap.recipe.Recipe recipe,java.lang.Iterable slots,Object filter, ) { net.minecraft.recipe.RecipeGridAligner.alignRecipeToGrid(width,height,recipe.wrapperContained,slots,filter); }
 
 }

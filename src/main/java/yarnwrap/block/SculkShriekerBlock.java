@@ -35,8 +35,6 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.b
 // public static void method_42317(yarnwrap.world.World worldx,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState statex,yarnwrap.block.entity.SculkShriekerBlockEntity blockEntity, ) { net.minecraft.block.SculkShriekerBlock.method_42317(worldx.wrapperContained,pos.wrapperContained,statex.wrapperContained,blockEntity.wrapperContained); }
 // public void method_43132(yarnwrap.server.world.ServerWorld blockEntity) { wrapperContained.method_43132(blockEntity.wrapperContained); }
 // public static void method_43132(yarnwrap.server.world.ServerWorld blockEntity, ) { net.minecraft.block.SculkShriekerBlock.method_43132(blockEntity.wrapperContained); }
-// public void method_43133(yarnwrap.server.world.ServerWorld blockEntity) { wrapperContained.method_43133(blockEntity.wrapperContained); }
-// public static void method_43133(yarnwrap.server.world.ServerWorld blockEntity, ) { net.minecraft.block.SculkShriekerBlock.method_43133(blockEntity.wrapperContained); }
 // public void method_43134(yarnwrap.server.world.ServerWorld blockEntity) { wrapperContained.method_43134(blockEntity.wrapperContained); }
 // public static void method_43134(yarnwrap.server.world.ServerWorld blockEntity, ) { net.minecraft.block.SculkShriekerBlock.method_43134(blockEntity.wrapperContained); }
 

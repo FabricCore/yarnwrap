@@ -26,8 +26,14 @@ public static double DEFAULT_STOP_DISTANCE() { return net.minecraft.entity.ai.br
 public static double LARGE_ENTITY_STOP_DISTANCE() { return net.minecraft.entity.ai.brain.task.TemptTask.LARGE_ENTITY_STOP_DISTANCE; }
 // public static void LARGE_ENTITY_STOP_DISTANCE(double value, ) { net.minecraft.entity.ai.brain.task.TemptTask.LARGE_ENTITY_STOP_DISTANCE = value; }
 
+// public boolean useEyeHeight() { return wrapperContained.useEyeHeight; }
+// public void useEyeHeight(boolean value) { wrapperContained.useEyeHeight = value; }
+// public static boolean useEyeHeight() { return net.minecraft.entity.ai.brain.task.TemptTask.useEyeHeight; }
+// public static void useEyeHeight(boolean value, ) { net.minecraft.entity.ai.brain.task.TemptTask.useEyeHeight = value; }
+
 public TemptTask(java.util.function.Function speed) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.TemptTask(speed); }
 public TemptTask(java.util.function.Function speed,java.util.function.Function stopDistanceGetter) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.TemptTask(speed,stopDistanceGetter); }
+// public TemptTask(java.util.function.Function speed,java.util.function.Function stopDistanceGetter,boolean useEyeHeight) { this.wrapperContained = new net.minecraft.entity.ai.brain.task.TemptTask(speed,stopDistanceGetter,useEyeHeight); }
 // public float getSpeed(yarnwrap.entity.mob.PathAwareEntity entity) { return wrapperContained.getSpeed(entity.wrapperContained); }
 // public static float getSpeed(yarnwrap.entity.mob.PathAwareEntity entity, ) { return net.minecraft.entity.ai.brain.task.TemptTask.getSpeed(entity.wrapperContained); }
 // public java.util.Optional getTemptingPlayer(yarnwrap.entity.mob.PathAwareEntity entity) { return wrapperContained.getTemptingPlayer(entity.wrapperContained); }

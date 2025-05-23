@@ -101,8 +101,8 @@ public static yarnwrap.registry.RegistryKey OPERATOR() { return new yarnwrap.reg
 // public static void addAllLevelEnchantedBooks(Object entries,yarnwrap.registry.RegistryWrapper registryWrapper,Object stackVisibility, ) { net.minecraft.item.ItemGroups.addAllLevelEnchantedBooks(entries,registryWrapper.wrapperContained,stackVisibility); }
 // public yarnwrap.item.ItemGroup getDefaultTab() { return new yarnwrap.item.ItemGroup(wrapperContained.getDefaultTab()); }
 public static yarnwrap.item.ItemGroup getDefaultTab() { return new yarnwrap.item.ItemGroup(net.minecraft.item.ItemGroups.getDefaultTab()); }
-// public boolean updateDisplayContext(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean operatorEnabled,Object lookup) { return wrapperContained.updateDisplayContext(enabledFeatures.wrapperContained,operatorEnabled,lookup); }
-// public static boolean updateDisplayContext(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean operatorEnabled,Object lookup, ) { return net.minecraft.item.ItemGroups.updateDisplayContext(enabledFeatures.wrapperContained,operatorEnabled,lookup); }
+// public boolean updateDisplayContext(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean operatorEnabled,Object registries) { return wrapperContained.updateDisplayContext(enabledFeatures.wrapperContained,operatorEnabled,registries); }
+// public static boolean updateDisplayContext(yarnwrap.resource.featuretoggle.FeatureSet enabledFeatures,boolean operatorEnabled,Object registries, ) { return net.minecraft.item.ItemGroups.updateDisplayContext(enabledFeatures.wrapperContained,operatorEnabled,registries); }
 // public void method_47331(Object group) { wrapperContained.method_47331(group); }
 // public static void method_47331(Object group, ) { net.minecraft.item.ItemGroups.method_47331(group); }
 // public void addSuspiciousStews(Object entries,Object visibility) { wrapperContained.addSuspiciousStews(entries,visibility); }
@@ -127,10 +127,8 @@ public static java.util.List getGroups() { return net.minecraft.item.ItemGroups.
 public static yarnwrap.item.ItemGroup getSearchGroup() { return new yarnwrap.item.ItemGroup(net.minecraft.item.ItemGroups.getSearchGroup()); }
 // public void method_48934(Object stack) { wrapperContained.method_48934(stack); }
 // public static void method_48934(Object stack, ) { net.minecraft.item.ItemGroups.method_48934(stack); }
-// public void method_48935(yarnwrap.registry.RegistryOps paintingVariantEntry) { wrapperContained.method_48935(paintingVariantEntry.wrapperContained); }
-// public static void method_48935(yarnwrap.registry.RegistryOps paintingVariantEntry, ) { net.minecraft.item.ItemGroups.method_48935(paintingVariantEntry.wrapperContained); }
-// public void addPaintings(Object entries,Object registryLookup,Object registryWrapper,java.util.function.Predicate filter,Object stackVisibility) { wrapperContained.addPaintings(entries,registryLookup,registryWrapper,filter,stackVisibility); }
-// public static void addPaintings(Object entries,Object registryLookup,Object registryWrapper,java.util.function.Predicate filter,Object stackVisibility, ) { net.minecraft.item.ItemGroups.addPaintings(entries,registryLookup,registryWrapper,filter,stackVisibility); }
+// public void addPaintings(Object entries,Object registries,Object registryWrapper,java.util.function.Predicate filter,Object stackVisibility) { wrapperContained.addPaintings(entries,registries,registryWrapper,filter,stackVisibility); }
+// public static void addPaintings(Object entries,Object registries,Object registryWrapper,java.util.function.Predicate filter,Object stackVisibility, ) { net.minecraft.item.ItemGroups.addPaintings(entries,registries,registryWrapper,filter,stackVisibility); }
 // public void method_48939(yarnwrap.item.Item entryList) { wrapperContained.method_48939(entryList.wrapperContained); }
 // public static void method_48939(yarnwrap.item.Item entryList, ) { net.minecraft.item.ItemGroups.method_48939(entryList.wrapperContained); }
 // public yarnwrap.item.ItemStack method_48940(yarnwrap.item.Item entry) { return new yarnwrap.item.ItemStack(wrapperContained.method_48940(entry.wrapperContained)); }
@@ -189,8 +187,6 @@ public static yarnwrap.item.ItemGroup getSearchGroup() { return new yarnwrap.ite
 // public static void method_51336(Object displayContext,Object entries, ) { net.minecraft.item.ItemGroups.method_51336(displayContext,entries); }
 // public void method_51338(Object displayContext,Object entries) { wrapperContained.method_51338(displayContext,entries); }
 // public static void method_51338(Object displayContext,Object entries, ) { net.minecraft.item.ItemGroups.method_51338(displayContext,entries); }
-// public void method_58091(yarnwrap.nbt.NbtCompound nbt) { wrapperContained.method_58091(nbt.wrapperContained); }
-// public static void method_58091(yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.item.ItemGroups.method_58091(nbt.wrapperContained); }
 // public boolean method_58650(yarnwrap.resource.featuretoggle.FeatureSet potionEntry) { return wrapperContained.method_58650(potionEntry.wrapperContained); }
 // public static boolean method_58650(yarnwrap.resource.featuretoggle.FeatureSet potionEntry, ) { return net.minecraft.item.ItemGroups.method_58650(potionEntry.wrapperContained); }
 // public void addOminousBottles(Object entries,Object visibility) { wrapperContained.addOminousBottles(entries,visibility); }

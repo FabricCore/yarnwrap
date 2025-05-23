@@ -16,6 +16,11 @@ public static java.util.function.Function TYPE_FACTORY() { return net.minecraft.
 // public static yarnwrap.entity.Entity entity() { return new yarnwrap.entity.Entity(net.minecraft.command.EntityDataObject.entity); }
 // public static void entity(yarnwrap.entity.Entity value, ) { net.minecraft.command.EntityDataObject.entity = value.wrapperContained; }
 
+// public org.slf4j.Logger LOGGER() { return wrapperContained.LOGGER; }
+// public void LOGGER(org.slf4j.Logger value) { wrapperContained.LOGGER = value; }
+// public static org.slf4j.Logger LOGGER() { return net.minecraft.command.EntityDataObject.LOGGER; }
+// public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.command.EntityDataObject.LOGGER = value; }
+
 public EntityDataObject(yarnwrap.entity.Entity entity) { this.wrapperContained = new net.minecraft.command.EntityDataObject(entity.wrapperContained); }
 // public Object method_13927(java.lang.String argumentName) { return wrapperContained.method_13927(argumentName); }
 // public static Object method_13927(java.lang.String argumentName, ) { return net.minecraft.command.EntityDataObject.method_13927(argumentName); }

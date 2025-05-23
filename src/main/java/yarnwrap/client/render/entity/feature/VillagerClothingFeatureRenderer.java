@@ -29,15 +29,17 @@ public class VillagerClothingFeatureRenderer { public net.minecraft.client.rende
 public VillagerClothingFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.resource.ResourceManager resourceManager,java.lang.String entityType) { this.wrapperContained = new net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer(context.wrapperContained,resourceManager.wrapperContained,entityType); }
 // public void method_17152(it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap levelToId) { wrapperContained.method_17152(levelToId); }
 // public static void method_17152(it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap levelToId, ) { net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer.method_17152(levelToId); }
-public Object getHatType(it.unimi.dsi.fastutil.objects.Object2ObjectMap hatLookUp,java.lang.String keyType,yarnwrap.registry.DefaultedRegistry registry,java.lang.Object key) { return wrapperContained.getHatType(hatLookUp,keyType,registry.wrapperContained,key); }
-// public static Object getHatType(it.unimi.dsi.fastutil.objects.Object2ObjectMap hatLookUp,java.lang.String keyType,yarnwrap.registry.DefaultedRegistry registry,java.lang.Object key, ) { return net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer.getHatType(hatLookUp,keyType,registry.wrapperContained,key); }
-// public Object method_17154(java.lang.String k) { return wrapperContained.method_17154(k); }
-// public static Object method_17154(java.lang.String k, ) { return net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer.method_17154(k); }
-// public yarnwrap.util.Identifier findTexture(java.lang.String keyType,yarnwrap.util.Identifier keyId) { return new yarnwrap.util.Identifier(wrapperContained.findTexture(keyType,keyId.wrapperContained)); }
-// public static yarnwrap.util.Identifier findTexture(java.lang.String keyType,yarnwrap.util.Identifier keyId, ) { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer.findTexture(keyType,keyId.wrapperContained)); }
+public Object getHatType(it.unimi.dsi.fastutil.objects.Object2ObjectMap metadataMap,java.lang.String keyType,yarnwrap.registry.entry.RegistryEntry entry) { return wrapperContained.getHatType(metadataMap,keyType,entry.wrapperContained); }
+// public static Object getHatType(it.unimi.dsi.fastutil.objects.Object2ObjectMap metadataMap,java.lang.String keyType,yarnwrap.registry.entry.RegistryEntry entry, ) { return net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer.getHatType(metadataMap,keyType,entry.wrapperContained); }
+// public yarnwrap.util.Identifier getTexture(java.lang.String keyType,yarnwrap.util.Identifier keyId) { return new yarnwrap.util.Identifier(wrapperContained.getTexture(keyType,keyId.wrapperContained)); }
+// public static yarnwrap.util.Identifier getTexture(java.lang.String keyType,yarnwrap.util.Identifier keyId, ) { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer.getTexture(keyType,keyId.wrapperContained)); }
 // public java.util.Optional method_43211(yarnwrap.resource.Resource resource) { return wrapperContained.method_43211(resource.wrapperContained); }
 // public static java.util.Optional method_43211(yarnwrap.resource.Resource resource, ) { return net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer.method_43211(resource.wrapperContained); }
 // public java.lang.String method_45803(java.lang.String path) { return wrapperContained.method_45803(path); }
 // public static java.lang.String method_45803(java.lang.String path, ) { return net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer.method_45803(path); }
+// public yarnwrap.util.Identifier method_66857(java.lang.String key) { return new yarnwrap.util.Identifier(wrapperContained.method_66857(key)); }
+// public static yarnwrap.util.Identifier method_66857(java.lang.String key, ) { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer.method_66857(key)); }
+// public yarnwrap.util.Identifier getTexture(java.lang.String keyType,yarnwrap.registry.entry.RegistryEntry entry) { return new yarnwrap.util.Identifier(wrapperContained.getTexture(keyType,entry.wrapperContained)); }
+// public static yarnwrap.util.Identifier getTexture(java.lang.String keyType,yarnwrap.registry.entry.RegistryEntry entry, ) { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.feature.VillagerClothingFeatureRenderer.getTexture(keyType,entry.wrapperContained)); }
 
 }

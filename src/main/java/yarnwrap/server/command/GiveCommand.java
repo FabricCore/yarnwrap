@@ -14,7 +14,5 @@ public static int MAX_STACKS() { return net.minecraft.server.command.GiveCommand
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher,yarnwrap.command.CommandRegistryAccess commandRegistryAccess, ) { net.minecraft.server.command.GiveCommand.register(dispatcher,commandRegistryAccess.wrapperContained); }
 // public int method_13403(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13403(context); }
 // public static int method_13403(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.command.GiveCommand.method_13403(context); }
-// public boolean method_13404(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13404(source.wrapperContained); }
-// public static boolean method_13404(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.command.GiveCommand.method_13404(source.wrapperContained); }
 
 }

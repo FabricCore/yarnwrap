@@ -16,11 +16,6 @@ public class BlendingData { public net.minecraft.world.gen.chunk.BlendingData wr
 // public static java.util.List SURFACE_BLOCKS() { return net.minecraft.world.gen.chunk.BlendingData.SURFACE_BLOCKS; }
 // public static void SURFACE_BLOCKS(java.util.List value, ) { net.minecraft.world.gen.chunk.BlendingData.SURFACE_BLOCKS = value; }
 
-// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
-// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
-public static com.mojang.serialization.Codec CODEC() { return net.minecraft.world.gen.chunk.BlendingData.CODEC; }
-// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.world.gen.chunk.BlendingData.CODEC = value; }
-
 // public int BIOMES_PER_CHUNK() { return wrapperContained.BIOMES_PER_CHUNK; }
 // public void BIOMES_PER_CHUNK(int value) { wrapperContained.BIOMES_PER_CHUNK = value; }
 // public static int BIOMES_PER_CHUNK() { return net.minecraft.world.gen.chunk.BlendingData.BIOMES_PER_CHUNK; }
@@ -61,11 +56,6 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.worl
 // public static double[][] collidableBlockDensities() { return net.minecraft.world.gen.chunk.BlendingData.collidableBlockDensities; }
 // public static void collidableBlockDensities(double[][] value, ) { net.minecraft.world.gen.chunk.BlendingData.collidableBlockDensities = value; }
 
-// public com.mojang.serialization.Codec DOUBLE_ARRAY_CODEC() { return wrapperContained.DOUBLE_ARRAY_CODEC; }
-// public void DOUBLE_ARRAY_CODEC(com.mojang.serialization.Codec value) { wrapperContained.DOUBLE_ARRAY_CODEC = value; }
-// public static com.mojang.serialization.Codec DOUBLE_ARRAY_CODEC() { return net.minecraft.world.gen.chunk.BlendingData.DOUBLE_ARRAY_CODEC; }
-// public static void DOUBLE_ARRAY_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.world.gen.chunk.BlendingData.DOUBLE_ARRAY_CODEC = value; }
-
 // public java.util.List biomes() { return wrapperContained.biomes; }
 // public void biomes(java.util.List value) { wrapperContained.biomes = value; }
 // public static java.util.List biomes() { return net.minecraft.world.gen.chunk.BlendingData.biomes; }
@@ -92,18 +82,10 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.worl
 // public static int getZ(int index, ) { return net.minecraft.world.gen.chunk.BlendingData.getZ(index); }
 // public double[] calculateCollidableBlockDensityColumn(yarnwrap.world.chunk.Chunk chunk,int chunkBlockX,int chunkBlockZ,int surfaceHeight) { return wrapperContained.calculateCollidableBlockDensityColumn(chunk.wrapperContained,chunkBlockX,chunkBlockZ,surfaceHeight); }
 // public static double[] calculateCollidableBlockDensityColumn(yarnwrap.world.chunk.Chunk chunk,int chunkBlockX,int chunkBlockZ,int surfaceHeight, ) { return net.minecraft.world.gen.chunk.BlendingData.calculateCollidableBlockDensityColumn(chunk.wrapperContained,chunkBlockX,chunkBlockZ,surfaceHeight); }
-// public boolean method_39567(double height) { return wrapperContained.method_39567(height); }
-// public static boolean method_39567(double height, ) { return net.minecraft.world.gen.chunk.BlendingData.method_39567(height); }
 // public yarnwrap.world.gen.chunk.BlendingData getBlendingData(yarnwrap.world.ChunkRegion chunkRegion,int chunkX,int chunkZ) { return new yarnwrap.world.gen.chunk.BlendingData(wrapperContained.getBlendingData(chunkRegion.wrapperContained,chunkX,chunkZ)); }
 // public static yarnwrap.world.gen.chunk.BlendingData getBlendingData(yarnwrap.world.ChunkRegion chunkRegion,int chunkX,int chunkZ, ) { return new yarnwrap.world.gen.chunk.BlendingData(net.minecraft.world.gen.chunk.BlendingData.getBlendingData(chunkRegion.wrapperContained,chunkX,chunkZ)); }
-// public com.mojang.datafixers.kinds.App method_39571(Object instance) { return wrapperContained.method_39571(instance); }
-// public static com.mojang.datafixers.kinds.App method_39571(Object instance, ) { return net.minecraft.world.gen.chunk.BlendingData.method_39571(instance); }
 // public void initChunkBlendingData(yarnwrap.world.chunk.Chunk chunk,java.util.Set newNoiseChunkDirections) { wrapperContained.initChunkBlendingData(chunk.wrapperContained,newNoiseChunkDirections); }
 // public static void initChunkBlendingData(yarnwrap.world.chunk.Chunk chunk,java.util.Set newNoiseChunkDirections, ) { net.minecraft.world.gen.chunk.BlendingData.initChunkBlendingData(chunk.wrapperContained,newNoiseChunkDirections); }
-// public com.mojang.serialization.DataResult validate(yarnwrap.world.gen.chunk.BlendingData data) { return wrapperContained.validate(data.wrapperContained); }
-// public static com.mojang.serialization.DataResult validate(yarnwrap.world.gen.chunk.BlendingData data, ) { return net.minecraft.world.gen.chunk.BlendingData.validate(data.wrapperContained); }
-// public void method_39574(double heights2) { wrapperContained.method_39574(heights2); }
-// public static void method_39574(double heights2, ) { net.minecraft.world.gen.chunk.BlendingData.method_39574(heights2); }
 // public double getCollidableBlockDensity(double collidableBlockDensityColumn,int halfSectionY) { return wrapperContained.getCollidableBlockDensity(collidableBlockDensityColumn,halfSectionY); }
 // public static double getCollidableBlockDensity(double collidableBlockDensityColumn,int halfSectionY, ) { return net.minecraft.world.gen.chunk.BlendingData.getCollidableBlockDensity(collidableBlockDensityColumn,halfSectionY); }
 // public int getVerticalHalfSectionCount() { return wrapperContained.getVerticalHalfSectionCount(); }
@@ -112,8 +94,6 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.worl
 // public static int getNorthWestIndex(int chunkBiomeX,int chunkBiomeZ, ) { return net.minecraft.world.gen.chunk.BlendingData.getNorthWestIndex(chunkBiomeX,chunkBiomeZ); }
 // public java.util.Set getAdjacentChunksWithNoise(yarnwrap.world.StructureWorldAccess access,int chunkX,int chunkZ,boolean oldNoise) { return wrapperContained.getAdjacentChunksWithNoise(access.wrapperContained,chunkX,chunkZ,oldNoise); }
 // public static java.util.Set getAdjacentChunksWithNoise(yarnwrap.world.StructureWorldAccess access,int chunkX,int chunkZ,boolean oldNoise, ) { return net.minecraft.world.gen.chunk.BlendingData.getAdjacentChunksWithNoise(access.wrapperContained,chunkX,chunkZ,oldNoise); }
-// public java.util.Optional method_39580(yarnwrap.world.gen.chunk.BlendingData blendingData) { return wrapperContained.method_39580(blendingData.wrapperContained); }
-// public static java.util.Optional method_39580(yarnwrap.world.gen.chunk.BlendingData blendingData, ) { return net.minecraft.world.gen.chunk.BlendingData.method_39580(blendingData.wrapperContained); }
 // public int getOneAboveBottomHalfSectionY() { return wrapperContained.getOneAboveBottomHalfSectionY(); }
 // public static int getOneAboveBottomHalfSectionY() { return net.minecraft.world.gen.chunk.BlendingData.getOneAboveBottomHalfSectionY(); }
 // public int getSouthEastIndex(int chunkBiomeX,int chunkBiomeZ) { return wrapperContained.getSouthEastIndex(chunkBiomeX,chunkBiomeZ); }
@@ -134,9 +114,9 @@ public yarnwrap.world.HeightLimitView getOldHeightLimit() { return new yarnwrap.
 // public static java.util.List getVerticalBiomeSections(yarnwrap.world.chunk.Chunk chunk,int chunkBlockX,int chunkBlockZ, ) { return net.minecraft.world.gen.chunk.BlendingData.getVerticalBiomeSections(chunk.wrapperContained,chunkBlockX,chunkBlockZ); }
 // public int getVerticalBiomeCount() { return wrapperContained.getVerticalBiomeCount(); }
 // public static int getVerticalBiomeCount() { return net.minecraft.world.gen.chunk.BlendingData.getVerticalBiomeCount(); }
-// public java.lang.Integer method_41568(yarnwrap.world.gen.chunk.BlendingData blendingData) { return wrapperContained.method_41568(blendingData.wrapperContained); }
-// public static java.lang.Integer method_41568(yarnwrap.world.gen.chunk.BlendingData blendingData, ) { return net.minecraft.world.gen.chunk.BlendingData.method_41568(blendingData.wrapperContained); }
-// public java.lang.Integer method_41569(yarnwrap.world.gen.chunk.BlendingData blendingData) { return wrapperContained.method_41569(blendingData.wrapperContained); }
-// public static java.lang.Integer method_41569(yarnwrap.world.gen.chunk.BlendingData blendingData, ) { return net.minecraft.world.gen.chunk.BlendingData.method_41569(blendingData.wrapperContained); }
+public Object toSerialized() { return wrapperContained.toSerialized(); }
+// public static Object toSerialized() { return net.minecraft.world.gen.chunk.BlendingData.toSerialized(); }
+// public yarnwrap.world.gen.chunk.BlendingData fromSerialized(Object serialized) { return new yarnwrap.world.gen.chunk.BlendingData(wrapperContained.fromSerialized(serialized)); }
+// public static yarnwrap.world.gen.chunk.BlendingData fromSerialized(Object serialized, ) { return new yarnwrap.world.gen.chunk.BlendingData(net.minecraft.world.gen.chunk.BlendingData.fromSerialized(serialized)); }
 
 }

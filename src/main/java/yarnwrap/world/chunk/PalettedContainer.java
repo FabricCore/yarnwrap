@@ -29,6 +29,7 @@ public class PalettedContainer { public net.minecraft.world.chunk.PalettedContai
 // public PalettedContainer(yarnwrap.util.collection.IndexedIterable idList,java.lang.Object object,Object paletteProvider) { this.wrapperContained = new net.minecraft.world.chunk.PalettedContainer(idList.wrapperContained,object,paletteProvider); }
 // public PalettedContainer(yarnwrap.util.collection.IndexedIterable idList,Object paletteProvider,Object dataProvider,yarnwrap.util.collection.PaletteStorage storage,java.util.List paletteEntries) { this.wrapperContained = new net.minecraft.world.chunk.PalettedContainer(idList.wrapperContained,paletteProvider,dataProvider,storage.wrapperContained,paletteEntries); }
 // // public PalettedContainer(yarnwrap.util.collection.IndexedIterable idList,Object paletteProvider,Object data) { this.wrapperContained = new net.minecraft.world.chunk.PalettedContainer(idList.wrapperContained,paletteProvider,data); }
+// public PalettedContainer(yarnwrap.world.chunk.PalettedContainer container) { this.wrapperContained = new net.minecraft.world.chunk.PalettedContainer(container.wrapperContained); }
 // public void set(int index,java.lang.Object value) { wrapperContained.set(index,value); }
 // public static void set(int index,java.lang.Object value, ) { net.minecraft.world.chunk.PalettedContainer.set(index,value); }
 public void readPacket(yarnwrap.network.PacketByteBuf buf) { wrapperContained.readPacket(buf.wrapperContained); }
@@ -65,8 +66,6 @@ public void set(int x,int y,int z,java.lang.Object value) { wrapperContained.set
 // public static void method_39794(java.util.function.Consumer id, ) { net.minecraft.world.chunk.PalettedContainer.method_39794(id); }
 // public void applyEach(int is,java.util.function.IntUnaryOperator[] applier) { wrapperContained.applyEach(is,applier); }
 // public static void applyEach(int is,java.util.function.IntUnaryOperator[] applier, ) { net.minecraft.world.chunk.PalettedContainer.applyEach(is,applier); }
-public yarnwrap.world.chunk.PalettedContainer copy() { return new yarnwrap.world.chunk.PalettedContainer(wrapperContained.copy()); }
-// public static yarnwrap.world.chunk.PalettedContainer copy() { return new yarnwrap.world.chunk.PalettedContainer(net.minecraft.world.chunk.PalettedContainer.copy()); }
 // public int method_44340(yarnwrap.world.chunk.BiMapPalette id) { return wrapperContained.method_44340(id.wrapperContained); }
 // public static int method_44340(yarnwrap.world.chunk.BiMapPalette id, ) { return net.minecraft.world.chunk.PalettedContainer.method_44340(id.wrapperContained); }
 // public yarnwrap.world.chunk.ReadableContainer method_44341(yarnwrap.world.chunk.PalettedContainer result) { return new yarnwrap.world.chunk.ReadableContainer(wrapperContained.method_44341(result.wrapperContained)); }

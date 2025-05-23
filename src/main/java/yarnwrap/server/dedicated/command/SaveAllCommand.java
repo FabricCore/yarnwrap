@@ -14,7 +14,5 @@ public class SaveAllCommand { public net.minecraft.server.dedicated.command.Save
 // public static void register(com.mojang.brigadier.CommandDispatcher dispatcher, ) { net.minecraft.server.dedicated.command.SaveAllCommand.register(dispatcher); }
 // public int method_13553(com.mojang.brigadier.context.CommandContext context) { return wrapperContained.method_13553(context); }
 // public static int method_13553(com.mojang.brigadier.context.CommandContext context, ) { return net.minecraft.server.dedicated.command.SaveAllCommand.method_13553(context); }
-// public boolean method_13554(yarnwrap.server.command.ServerCommandSource source) { return wrapperContained.method_13554(source.wrapperContained); }
-// public static boolean method_13554(yarnwrap.server.command.ServerCommandSource source, ) { return net.minecraft.server.dedicated.command.SaveAllCommand.method_13554(source.wrapperContained); }
 
 }

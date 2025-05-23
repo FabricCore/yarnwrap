@@ -31,6 +31,11 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 // public static org.slf4j.Logger LOGGER() { return net.minecraft.component.type.NbtComponent.LOGGER; }
 // public static void LOGGER(org.slf4j.Logger value, ) { net.minecraft.component.type.NbtComponent.LOGGER = value; }
 
+// public java.lang.String ID_KEY() { return wrapperContained.ID_KEY; }
+// public void ID_KEY(java.lang.String value) { wrapperContained.ID_KEY = value; }
+// public static java.lang.String ID_KEY() { return net.minecraft.component.type.NbtComponent.ID_KEY; }
+// public static void ID_KEY(java.lang.String value, ) { net.minecraft.component.type.NbtComponent.ID_KEY = value; }
+
 // public NbtComponent(yarnwrap.nbt.NbtCompound nbt) { this.wrapperContained = new net.minecraft.component.type.NbtComponent(nbt.wrapperContained); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.component.type.NbtComponent.equals(o); }
@@ -44,8 +49,8 @@ public com.mojang.serialization.DataResult with(com.mojang.serialization.Dynamic
 // public static com.mojang.serialization.DataResult with(com.mojang.serialization.DynamicOps ops,com.mojang.serialization.MapEncoder encoder,java.lang.Object value, ) { return net.minecraft.component.type.NbtComponent.with(ops,encoder,value); }
 // public yarnwrap.nbt.NbtCompound method_57448(yarnwrap.component.type.NbtComponent component) { return new yarnwrap.nbt.NbtCompound(wrapperContained.method_57448(component.wrapperContained)); }
 // public static yarnwrap.nbt.NbtCompound method_57448(yarnwrap.component.type.NbtComponent component, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.component.type.NbtComponent.method_57448(component.wrapperContained)); }
-// public boolean applyToBlockEntity(yarnwrap.block.entity.BlockEntity blockEntity,Object registryLookup) { return wrapperContained.applyToBlockEntity(blockEntity.wrapperContained,registryLookup); }
-// public static boolean applyToBlockEntity(yarnwrap.block.entity.BlockEntity blockEntity,Object registryLookup, ) { return net.minecraft.component.type.NbtComponent.applyToBlockEntity(blockEntity.wrapperContained,registryLookup); }
+// public boolean applyToBlockEntity(yarnwrap.block.entity.BlockEntity blockEntity,Object registries) { return wrapperContained.applyToBlockEntity(blockEntity.wrapperContained,registries); }
+// public static boolean applyToBlockEntity(yarnwrap.block.entity.BlockEntity blockEntity,Object registries, ) { return net.minecraft.component.type.NbtComponent.applyToBlockEntity(blockEntity.wrapperContained,registries); }
 public boolean contains(java.lang.String key) { return wrapperContained.contains(key); }
 // public static boolean contains(java.lang.String key, ) { return net.minecraft.component.type.NbtComponent.contains(key); }
 public yarnwrap.component.type.NbtComponent apply(java.util.function.Consumer nbtConsumer) { return new yarnwrap.component.type.NbtComponent(wrapperContained.apply(nbtConsumer)); }
@@ -54,10 +59,6 @@ public yarnwrap.component.type.NbtComponent apply(java.util.function.Consumer nb
 // public static void set(yarnwrap.component.ComponentType type,yarnwrap.item.ItemStack stack,java.util.function.Consumer nbtSetter, ) { net.minecraft.component.type.NbtComponent.set(type.wrapperContained,stack.wrapperContained,nbtSetter); }
 // public void set(yarnwrap.component.ComponentType type,yarnwrap.item.ItemStack stack,yarnwrap.nbt.NbtCompound nbt) { wrapperContained.set(type.wrapperContained,stack.wrapperContained,nbt.wrapperContained); }
 // public static void set(yarnwrap.component.ComponentType type,yarnwrap.item.ItemStack stack,yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.component.type.NbtComponent.set(type.wrapperContained,stack.wrapperContained,nbt.wrapperContained); }
-// public java.util.function.Predicate createPredicate(yarnwrap.component.ComponentType type,yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.createPredicate(type.wrapperContained,nbt.wrapperContained); }
-// public static java.util.function.Predicate createPredicate(yarnwrap.component.ComponentType type,yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.component.type.NbtComponent.createPredicate(type.wrapperContained,nbt.wrapperContained); }
-// public boolean method_57455(yarnwrap.component.ComponentType stack) { return wrapperContained.method_57455(stack.wrapperContained); }
-// public static boolean method_57455(yarnwrap.component.ComponentType stack, ) { return net.minecraft.component.type.NbtComponent.method_57455(stack.wrapperContained); }
 // public yarnwrap.component.type.NbtComponent of(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.component.type.NbtComponent(wrapperContained.of(nbt.wrapperContained)); }
 // public static yarnwrap.component.type.NbtComponent of(yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.component.type.NbtComponent(net.minecraft.component.type.NbtComponent.of(nbt.wrapperContained)); }
 // public yarnwrap.component.type.NbtComponent method_57457(yarnwrap.nbt.NbtElement nbt) { return new yarnwrap.component.type.NbtComponent(wrapperContained.method_57457(nbt.wrapperContained)); }
@@ -76,5 +77,11 @@ public yarnwrap.nbt.NbtCompound getNbt() { return new yarnwrap.nbt.NbtCompound(w
 // public static yarnwrap.nbt.NbtCompound method_57464(yarnwrap.component.type.NbtComponent component, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.component.type.NbtComponent.method_57464(component.wrapperContained)); }
 public com.mojang.serialization.DataResult get(com.mojang.serialization.DynamicOps ops,com.mojang.serialization.MapDecoder decoder) { return wrapperContained.get(ops,decoder); }
 // public static com.mojang.serialization.DataResult get(com.mojang.serialization.DynamicOps ops,com.mojang.serialization.MapDecoder decoder, ) { return net.minecraft.component.type.NbtComponent.get(ops,decoder); }
+public yarnwrap.util.Identifier getId() { return new yarnwrap.util.Identifier(wrapperContained.getId()); }
+// public static yarnwrap.util.Identifier getId() { return new yarnwrap.util.Identifier(net.minecraft.component.type.NbtComponent.getId()); }
+// public java.util.Optional method_65903(yarnwrap.registry.RegistryKey registry) { return wrapperContained.method_65903(registry.wrapperContained); }
+// public static java.util.Optional method_65903(yarnwrap.registry.RegistryKey registry, ) { return net.minecraft.component.type.NbtComponent.method_65903(registry.wrapperContained); }
+// public java.lang.Object getRegistryValueOfId(Object registries,yarnwrap.registry.RegistryKey registryRef) { return wrapperContained.getRegistryValueOfId(registries,registryRef.wrapperContained); }
+// public static java.lang.Object getRegistryValueOfId(Object registries,yarnwrap.registry.RegistryKey registryRef, ) { return net.minecraft.component.type.NbtComponent.getRegistryValueOfId(registries,registryRef.wrapperContained); }
 
 }

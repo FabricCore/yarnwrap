@@ -41,11 +41,6 @@ public static yarnwrap.registry.RegistryKey SEAGRASS_DEEP() { return new yarnwra
 public static yarnwrap.registry.RegistryKey SEAGRASS_DEEP_COLD() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.OceanPlacedFeatures.SEAGRASS_DEEP_COLD); }
 // public static void SEAGRASS_DEEP_COLD(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.OceanPlacedFeatures.SEAGRASS_DEEP_COLD = value.wrapperContained; }
 
-// public yarnwrap.registry.RegistryKey SEAGRASS_SIMPLE() { return new yarnwrap.registry.RegistryKey(wrapperContained.SEAGRASS_SIMPLE); }
-// public void SEAGRASS_SIMPLE(yarnwrap.registry.RegistryKey value) { wrapperContained.SEAGRASS_SIMPLE = value.wrapperContained; }
-public static yarnwrap.registry.RegistryKey SEAGRASS_SIMPLE() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.OceanPlacedFeatures.SEAGRASS_SIMPLE); }
-// public static void SEAGRASS_SIMPLE(yarnwrap.registry.RegistryKey value, ) { net.minecraft.world.gen.feature.OceanPlacedFeatures.SEAGRASS_SIMPLE = value.wrapperContained; }
-
 // public yarnwrap.registry.RegistryKey SEA_PICKLE() { return new yarnwrap.registry.RegistryKey(wrapperContained.SEA_PICKLE); }
 // public void SEA_PICKLE(yarnwrap.registry.RegistryKey value) { wrapperContained.SEA_PICKLE = value.wrapperContained; }
 public static yarnwrap.registry.RegistryKey SEA_PICKLE() { return new yarnwrap.registry.RegistryKey(net.minecraft.world.gen.feature.OceanPlacedFeatures.SEA_PICKLE); }

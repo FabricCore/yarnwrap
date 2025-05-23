@@ -1,21 +1,23 @@
 package yarnwrap.client.render.entity.feature;
 public class LlamaDecorFeatureRenderer { public net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer wrapperContained; public LlamaDecorFeatureRenderer(net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.util.Identifier TRADER_LLAMA_DECOR() { return new yarnwrap.util.Identifier(wrapperContained.TRADER_LLAMA_DECOR); }
-// public void TRADER_LLAMA_DECOR(yarnwrap.util.Identifier value) { wrapperContained.TRADER_LLAMA_DECOR = value.wrapperContained; }
-// public static yarnwrap.util.Identifier TRADER_LLAMA_DECOR() { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.TRADER_LLAMA_DECOR); }
-// public static void TRADER_LLAMA_DECOR(yarnwrap.util.Identifier value, ) { net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.TRADER_LLAMA_DECOR = value.wrapperContained; }
-
-// public net.minecraft.util.Identifier[] LLAMA_DECOR() { return wrapperContained.LLAMA_DECOR; }
-// public void LLAMA_DECOR(net.minecraft.util.Identifier[] value) { wrapperContained.LLAMA_DECOR = value; }
-// public static net.minecraft.util.Identifier[] LLAMA_DECOR() { return net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.LLAMA_DECOR; }
-// public static void LLAMA_DECOR(net.minecraft.util.Identifier[] value, ) { net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.LLAMA_DECOR = value; }
-
 // public yarnwrap.client.render.entity.model.LlamaEntityModel model() { return new yarnwrap.client.render.entity.model.LlamaEntityModel(wrapperContained.model); }
 // public void model(yarnwrap.client.render.entity.model.LlamaEntityModel value) { wrapperContained.model = value.wrapperContained; }
 // public static yarnwrap.client.render.entity.model.LlamaEntityModel model() { return new yarnwrap.client.render.entity.model.LlamaEntityModel(net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.model); }
 // public static void model(yarnwrap.client.render.entity.model.LlamaEntityModel value, ) { net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.model = value.wrapperContained; }
 
-public LlamaDecorFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.EntityModelLoader loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
+// public yarnwrap.client.render.entity.model.LlamaEntityModel babyModel() { return new yarnwrap.client.render.entity.model.LlamaEntityModel(wrapperContained.babyModel); }
+// public void babyModel(yarnwrap.client.render.entity.model.LlamaEntityModel value) { wrapperContained.babyModel = value.wrapperContained; }
+// public static yarnwrap.client.render.entity.model.LlamaEntityModel babyModel() { return new yarnwrap.client.render.entity.model.LlamaEntityModel(net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.babyModel); }
+// public static void babyModel(yarnwrap.client.render.entity.model.LlamaEntityModel value, ) { net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.babyModel = value.wrapperContained; }
+
+// public yarnwrap.client.render.entity.equipment.EquipmentRenderer equipmentRenderer() { return new yarnwrap.client.render.entity.equipment.EquipmentRenderer(wrapperContained.equipmentRenderer); }
+// public void equipmentRenderer(yarnwrap.client.render.entity.equipment.EquipmentRenderer value) { wrapperContained.equipmentRenderer = value.wrapperContained; }
+// public static yarnwrap.client.render.entity.equipment.EquipmentRenderer equipmentRenderer() { return new yarnwrap.client.render.entity.equipment.EquipmentRenderer(net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.equipmentRenderer); }
+// public static void equipmentRenderer(yarnwrap.client.render.entity.equipment.EquipmentRenderer value, ) { net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.equipmentRenderer = value.wrapperContained; }
+
+public LlamaDecorFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.LoadedEntityModels loader,yarnwrap.client.render.entity.equipment.EquipmentRenderer equipmentRenderer) { this.wrapperContained = new net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer(context.wrapperContained,loader.wrapperContained,equipmentRenderer.wrapperContained); }
+// public void render(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,yarnwrap.client.render.entity.state.LlamaEntityRenderState state,yarnwrap.item.ItemStack stack,yarnwrap.registry.RegistryKey light) { wrapperContained.render(matrices.wrapperContained,vertexConsumers.wrapperContained,state.wrapperContained,stack.wrapperContained,light.wrapperContained); }
+// public static void render(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,yarnwrap.client.render.entity.state.LlamaEntityRenderState state,yarnwrap.item.ItemStack stack,yarnwrap.registry.RegistryKey light, ) { net.minecraft.client.render.entity.feature.LlamaDecorFeatureRenderer.render(matrices.wrapperContained,vertexConsumers.wrapperContained,state.wrapperContained,stack.wrapperContained,light.wrapperContained); }
 
 }

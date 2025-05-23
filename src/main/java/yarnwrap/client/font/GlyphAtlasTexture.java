@@ -21,9 +21,9 @@ public class GlyphAtlasTexture { public net.minecraft.client.font.GlyphAtlasText
 // public static yarnwrap.client.font.TextRenderLayerSet textRenderLayers() { return new yarnwrap.client.font.TextRenderLayerSet(net.minecraft.client.font.GlyphAtlasTexture.textRenderLayers); }
 // public static void textRenderLayers(yarnwrap.client.font.TextRenderLayerSet value, ) { net.minecraft.client.font.GlyphAtlasTexture.textRenderLayers = value.wrapperContained; }
 
-public GlyphAtlasTexture(yarnwrap.client.font.TextRenderLayerSet textRenderLayers,boolean hasColor) { this.wrapperContained = new net.minecraft.client.font.GlyphAtlasTexture(textRenderLayers.wrapperContained,hasColor); }
-public yarnwrap.client.font.GlyphRenderer getGlyphRenderer(yarnwrap.client.font.RenderableGlyph glyph) { return new yarnwrap.client.font.GlyphRenderer(wrapperContained.getGlyphRenderer(glyph.wrapperContained)); }
-// public static yarnwrap.client.font.GlyphRenderer getGlyphRenderer(yarnwrap.client.font.RenderableGlyph glyph, ) { return new yarnwrap.client.font.GlyphRenderer(net.minecraft.client.font.GlyphAtlasTexture.getGlyphRenderer(glyph.wrapperContained)); }
+public GlyphAtlasTexture(java.util.function.Supplier nameSupplier,yarnwrap.client.font.TextRenderLayerSet textRenderLayers,boolean hasColor) { this.wrapperContained = new net.minecraft.client.font.GlyphAtlasTexture(nameSupplier,textRenderLayers.wrapperContained,hasColor); }
+public yarnwrap.client.font.BakedGlyph bake(yarnwrap.client.font.RenderableGlyph glyph) { return new yarnwrap.client.font.BakedGlyph(wrapperContained.bake(glyph.wrapperContained)); }
+// public static yarnwrap.client.font.BakedGlyph bake(yarnwrap.client.font.RenderableGlyph glyph, ) { return new yarnwrap.client.font.BakedGlyph(net.minecraft.client.font.GlyphAtlasTexture.bake(glyph.wrapperContained)); }
 // public int method_51640(int color) { return wrapperContained.method_51640(color); }
 // public static int method_51640(int color, ) { return net.minecraft.client.font.GlyphAtlasTexture.method_51640(color); }
 

@@ -16,11 +16,11 @@ public class BlazeEntity { public net.minecraft.entity.mob.BlazeEntity wrapperCo
 // public static yarnwrap.entity.data.TrackedData BLAZE_FLAGS() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.mob.BlazeEntity.BLAZE_FLAGS); }
 // public static void BLAZE_FLAGS(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.mob.BlazeEntity.BLAZE_FLAGS = value.wrapperContained; }
 
-// public Object createBlazeAttributes() { return wrapperContained.createBlazeAttributes(); }
-public static Object createBlazeAttributes() { return net.minecraft.entity.mob.BlazeEntity.createBlazeAttributes(); }
 // public void setFireActive(boolean fireActive) { wrapperContained.setFireActive(fireActive); }
 // public static void setFireActive(boolean fireActive, ) { net.minecraft.entity.mob.BlazeEntity.setFireActive(fireActive); }
 // public boolean isFireActive() { return wrapperContained.isFireActive(); }
 // public static boolean isFireActive() { return net.minecraft.entity.mob.BlazeEntity.isFireActive(); }
+// public Object createBlazeAttributes() { return wrapperContained.createBlazeAttributes(); }
+public static Object createBlazeAttributes() { return net.minecraft.entity.mob.BlazeEntity.createBlazeAttributes(); }
 
 }

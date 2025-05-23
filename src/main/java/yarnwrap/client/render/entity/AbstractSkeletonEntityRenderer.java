@@ -1,0 +1,7 @@
+package yarnwrap.client.render.entity;
+public class AbstractSkeletonEntityRenderer { public net.minecraft.client.render.entity.AbstractSkeletonEntityRenderer wrapperContained; public AbstractSkeletonEntityRenderer(net.minecraft.client.render.entity.AbstractSkeletonEntityRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
+
+// public AbstractSkeletonEntityRenderer(Object context,yarnwrap.client.render.entity.model.EntityModelLayer armorInnerLayer,yarnwrap.client.render.entity.model.EntityModelLayer armorOuterLayer,yarnwrap.client.render.entity.model.SkeletonEntityModel model) { this.wrapperContained = new net.minecraft.client.render.entity.AbstractSkeletonEntityRenderer(context,armorInnerLayer.wrapperContained,armorOuterLayer.wrapperContained,model.wrapperContained); }
+// public AbstractSkeletonEntityRenderer(Object context,yarnwrap.client.render.entity.model.EntityModelLayer layer,yarnwrap.client.render.entity.model.EntityModelLayer armorInnerLayer,yarnwrap.client.render.entity.model.EntityModelLayer armorOuterLayer) { this.wrapperContained = new net.minecraft.client.render.entity.AbstractSkeletonEntityRenderer(context,layer.wrapperContained,armorInnerLayer.wrapperContained,armorOuterLayer.wrapperContained); }
+
+}

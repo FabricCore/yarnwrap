@@ -19,8 +19,6 @@ public BlockPosFormatFix(com.mojang.datafixers.schemas.Schema outputSchema) { th
 // public static com.mojang.serialization.Dynamic method_56962(com.mojang.serialization.Dynamic entityDynamic, ) { return net.minecraft.datafixer.fix.BlockPosFormatFix.method_56962(entityDynamic); }
 // public void addBlockEntityFixes(java.util.List rules) { wrapperContained.addBlockEntityFixes(rules); }
 // public static void addBlockEntityFixes(java.util.List rules, ) { net.minecraft.datafixer.fix.BlockPosFormatFix.addBlockEntityFixes(rules); }
-// public com.mojang.serialization.Dynamic method_56964(com.mojang.serialization.Dynamic tagDynamic) { return wrapperContained.method_56964(tagDynamic); }
-// public static com.mojang.serialization.Dynamic method_56964(com.mojang.serialization.Dynamic tagDynamic, ) { return net.minecraft.datafixer.fix.BlockPosFormatFix.method_56964(tagDynamic); }
 // public com.mojang.serialization.Dynamic method_56966(com.mojang.serialization.Dynamic banners) { return wrapperContained.method_56966(banners); }
 // public static com.mojang.serialization.Dynamic method_56966(com.mojang.serialization.Dynamic banners, ) { return net.minecraft.datafixer.fix.BlockPosFormatFix.method_56966(banners); }
 // public com.mojang.serialization.Dynamic method_56967(com.mojang.serialization.Dynamic banner) { return wrapperContained.method_56967(banner); }

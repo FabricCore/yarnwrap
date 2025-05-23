@@ -61,6 +61,11 @@ public static int UNLIMITED_LENGTH() { return net.minecraft.client.gui.EditBox.U
 // public static java.lang.Runnable cursorChangeListener() { return net.minecraft.client.gui.EditBox.cursorChangeListener; }
 // public static void cursorChangeListener(java.lang.Runnable value, ) { net.minecraft.client.gui.EditBox.cursorChangeListener = value; }
 
+// public int maxLines() { return wrapperContained.maxLines; }
+// public void maxLines(int value) { wrapperContained.maxLines = value; }
+// public static int maxLines() { return net.minecraft.client.gui.EditBox.maxLines; }
+// public static void maxLines(int value, ) { net.minecraft.client.gui.EditBox.maxLines = value; }
+
 public EditBox(yarnwrap.client.font.TextRenderer textRenderer,int width) { this.wrapperContained = new net.minecraft.client.gui.EditBox(textRenderer.wrapperContained,width); }
 public int getMaxLength() { return wrapperContained.getMaxLength(); }
 // public static int getMaxLength() { return net.minecraft.client.gui.EditBox.getMaxLength(); }
@@ -128,5 +133,11 @@ public Object getNextWordAtCursor() { return wrapperContained.getNextWordAtCurso
 // public static void onChange() { net.minecraft.client.gui.EditBox.onChange(); }
 // public void rewrap() { wrapperContained.rewrap(); }
 // public static void rewrap() { net.minecraft.client.gui.EditBox.rewrap(); }
+// public void setMaxLines(int maxLines) { wrapperContained.setMaxLines(maxLines); }
+// public static void setMaxLines(int maxLines, ) { net.minecraft.client.gui.EditBox.setMaxLines(maxLines); }
+// public boolean hasMaxLines() { return wrapperContained.hasMaxLines(); }
+// public static boolean hasMaxLines() { return net.minecraft.client.gui.EditBox.hasMaxLines(); }
+// public boolean exceedsMaxLines(java.lang.String text) { return wrapperContained.exceedsMaxLines(text); }
+// public static boolean exceedsMaxLines(java.lang.String text, ) { return net.minecraft.client.gui.EditBox.exceedsMaxLines(text); }
 
 }

@@ -16,15 +16,15 @@ public class PistonBlockEntity { public net.minecraft.block.entity.PistonBlockEn
 // public static boolean extending() { return net.minecraft.block.entity.PistonBlockEntity.extending; }
 // public static void extending(boolean value, ) { net.minecraft.block.entity.PistonBlockEntity.extending = value; }
 
-// public yarnwrap.block.BlockState pushedBlock() { return new yarnwrap.block.BlockState(wrapperContained.pushedBlock); }
-// public void pushedBlock(yarnwrap.block.BlockState value) { wrapperContained.pushedBlock = value.wrapperContained; }
-// public static yarnwrap.block.BlockState pushedBlock() { return new yarnwrap.block.BlockState(net.minecraft.block.entity.PistonBlockEntity.pushedBlock); }
-// public static void pushedBlock(yarnwrap.block.BlockState value, ) { net.minecraft.block.entity.PistonBlockEntity.pushedBlock = value.wrapperContained; }
+// public yarnwrap.block.BlockState pushedBlockState() { return new yarnwrap.block.BlockState(wrapperContained.pushedBlockState); }
+// public void pushedBlockState(yarnwrap.block.BlockState value) { wrapperContained.pushedBlockState = value.wrapperContained; }
+// public static yarnwrap.block.BlockState pushedBlockState() { return new yarnwrap.block.BlockState(net.minecraft.block.entity.PistonBlockEntity.pushedBlockState); }
+// public static void pushedBlockState(yarnwrap.block.BlockState value, ) { net.minecraft.block.entity.PistonBlockEntity.pushedBlockState = value.wrapperContained; }
 
-// public java.lang.ThreadLocal entityMovementDirection() { return wrapperContained.entityMovementDirection; }
-// public void entityMovementDirection(java.lang.ThreadLocal value) { wrapperContained.entityMovementDirection = value; }
-// public static java.lang.ThreadLocal entityMovementDirection() { return net.minecraft.block.entity.PistonBlockEntity.entityMovementDirection; }
-// public static void entityMovementDirection(java.lang.ThreadLocal value, ) { net.minecraft.block.entity.PistonBlockEntity.entityMovementDirection = value; }
+// public java.lang.ThreadLocal ENTITY_MOVEMENT_DIRECTION() { return wrapperContained.ENTITY_MOVEMENT_DIRECTION; }
+// public void ENTITY_MOVEMENT_DIRECTION(java.lang.ThreadLocal value) { wrapperContained.ENTITY_MOVEMENT_DIRECTION = value; }
+// public static java.lang.ThreadLocal ENTITY_MOVEMENT_DIRECTION() { return net.minecraft.block.entity.PistonBlockEntity.ENTITY_MOVEMENT_DIRECTION; }
+// public static void ENTITY_MOVEMENT_DIRECTION(java.lang.ThreadLocal value, ) { net.minecraft.block.entity.PistonBlockEntity.ENTITY_MOVEMENT_DIRECTION = value; }
 
 // public float lastProgress() { return wrapperContained.lastProgress; }
 // public void lastProgress(float value) { wrapperContained.lastProgress = value; }
@@ -41,10 +41,30 @@ public class PistonBlockEntity { public net.minecraft.block.entity.PistonBlockEn
 // public static long savedWorldTime() { return net.minecraft.block.entity.PistonBlockEntity.savedWorldTime; }
 // public static void savedWorldTime(long value, ) { net.minecraft.block.entity.PistonBlockEntity.savedWorldTime = value; }
 
+// public yarnwrap.block.BlockState DEFAULT_PUSHED_BLOCK_STATE() { return new yarnwrap.block.BlockState(wrapperContained.DEFAULT_PUSHED_BLOCK_STATE); }
+// public void DEFAULT_PUSHED_BLOCK_STATE(yarnwrap.block.BlockState value) { wrapperContained.DEFAULT_PUSHED_BLOCK_STATE = value.wrapperContained; }
+// public static yarnwrap.block.BlockState DEFAULT_PUSHED_BLOCK_STATE() { return new yarnwrap.block.BlockState(net.minecraft.block.entity.PistonBlockEntity.DEFAULT_PUSHED_BLOCK_STATE); }
+// public static void DEFAULT_PUSHED_BLOCK_STATE(yarnwrap.block.BlockState value, ) { net.minecraft.block.entity.PistonBlockEntity.DEFAULT_PUSHED_BLOCK_STATE = value.wrapperContained; }
+
+// public float DEFAULT_PROGRESS() { return wrapperContained.DEFAULT_PROGRESS; }
+// public void DEFAULT_PROGRESS(float value) { wrapperContained.DEFAULT_PROGRESS = value; }
+// public static float DEFAULT_PROGRESS() { return net.minecraft.block.entity.PistonBlockEntity.DEFAULT_PROGRESS; }
+// public static void DEFAULT_PROGRESS(float value, ) { net.minecraft.block.entity.PistonBlockEntity.DEFAULT_PROGRESS = value; }
+
+// public boolean DEFAULT_EXTENDING() { return wrapperContained.DEFAULT_EXTENDING; }
+// public void DEFAULT_EXTENDING(boolean value) { wrapperContained.DEFAULT_EXTENDING = value; }
+// public static boolean DEFAULT_EXTENDING() { return net.minecraft.block.entity.PistonBlockEntity.DEFAULT_EXTENDING; }
+// public static void DEFAULT_EXTENDING(boolean value, ) { net.minecraft.block.entity.PistonBlockEntity.DEFAULT_EXTENDING = value; }
+
+// public boolean DEFAULT_SOURCE() { return wrapperContained.DEFAULT_SOURCE; }
+// public void DEFAULT_SOURCE(boolean value) { wrapperContained.DEFAULT_SOURCE = value; }
+// public static boolean DEFAULT_SOURCE() { return net.minecraft.block.entity.PistonBlockEntity.DEFAULT_SOURCE; }
+// public static void DEFAULT_SOURCE(boolean value, ) { net.minecraft.block.entity.PistonBlockEntity.DEFAULT_SOURCE = value; }
+
 public PistonBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.PistonBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public PistonBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.BlockState pushedBlock,yarnwrap.util.math.Direction facing,boolean extending,boolean source) { this.wrapperContained = new net.minecraft.block.entity.PistonBlockEntity(pos.wrapperContained,state.wrapperContained,pushedBlock.wrapperContained,facing.wrapperContained,extending,source); }
-public float getRenderOffsetX(float tickDelta) { return wrapperContained.getRenderOffsetX(tickDelta); }
-// public static float getRenderOffsetX(float tickDelta, ) { return net.minecraft.block.entity.PistonBlockEntity.getRenderOffsetX(tickDelta); }
+public float getRenderOffsetX(float tickProgress) { return wrapperContained.getRenderOffsetX(tickProgress); }
+// public static float getRenderOffsetX(float tickProgress, ) { return net.minecraft.block.entity.PistonBlockEntity.getRenderOffsetX(tickProgress); }
 public yarnwrap.block.BlockState getPushedBlock() { return new yarnwrap.block.BlockState(wrapperContained.getPushedBlock()); }
 // public static yarnwrap.block.BlockState getPushedBlock() { return new yarnwrap.block.BlockState(net.minecraft.block.entity.PistonBlockEntity.getPushedBlock()); }
 // public yarnwrap.block.BlockState getHeadBlockState() { return new yarnwrap.block.BlockState(wrapperContained.getHeadBlockState()); }
@@ -53,8 +73,8 @@ public yarnwrap.block.BlockState getPushedBlock() { return new yarnwrap.block.Bl
 // public static double getIntersectionSize() { return net.minecraft.block.entity.PistonBlockEntity.getIntersectionSize(); }
 public yarnwrap.util.math.Direction getFacing() { return new yarnwrap.util.math.Direction(wrapperContained.getFacing()); }
 // public static yarnwrap.util.math.Direction getFacing() { return new yarnwrap.util.math.Direction(net.minecraft.block.entity.PistonBlockEntity.getFacing()); }
-public float getProgress(float tickDelta) { return wrapperContained.getProgress(tickDelta); }
-// public static float getProgress(float tickDelta, ) { return net.minecraft.block.entity.PistonBlockEntity.getProgress(tickDelta); }
+public float getProgress(float tickProgress) { return wrapperContained.getProgress(tickProgress); }
+// public static float getProgress(float tickProgress, ) { return net.minecraft.block.entity.PistonBlockEntity.getProgress(tickProgress); }
 // public yarnwrap.util.math.Box offsetHeadBox(yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Box box,yarnwrap.block.entity.PistonBlockEntity blockEntity) { return new yarnwrap.util.math.Box(wrapperContained.offsetHeadBox(pos.wrapperContained,box.wrapperContained,blockEntity.wrapperContained)); }
 // public static yarnwrap.util.math.Box offsetHeadBox(yarnwrap.util.math.BlockPos pos,yarnwrap.util.math.Box box,yarnwrap.block.entity.PistonBlockEntity blockEntity, ) { return new yarnwrap.util.math.Box(net.minecraft.block.entity.PistonBlockEntity.offsetHeadBox(pos.wrapperContained,box.wrapperContained,blockEntity.wrapperContained)); }
 public boolean isExtending() { return wrapperContained.isExtending(); }
@@ -65,12 +85,12 @@ public boolean isExtending() { return wrapperContained.isExtending(); }
 // public static float getAmountExtended(float progress, ) { return net.minecraft.block.entity.PistonBlockEntity.getAmountExtended(progress); }
 public yarnwrap.util.math.Direction getMovementDirection() { return new yarnwrap.util.math.Direction(wrapperContained.getMovementDirection()); }
 // public static yarnwrap.util.math.Direction getMovementDirection() { return new yarnwrap.util.math.Direction(net.minecraft.block.entity.PistonBlockEntity.getMovementDirection()); }
-public float getRenderOffsetZ(float tickDelta) { return wrapperContained.getRenderOffsetZ(tickDelta); }
-// public static float getRenderOffsetZ(float tickDelta, ) { return net.minecraft.block.entity.PistonBlockEntity.getRenderOffsetZ(tickDelta); }
+public float getRenderOffsetZ(float tickProgress) { return wrapperContained.getRenderOffsetZ(tickProgress); }
+// public static float getRenderOffsetZ(float tickProgress, ) { return net.minecraft.block.entity.PistonBlockEntity.getRenderOffsetZ(tickProgress); }
 public long getSavedWorldTime() { return wrapperContained.getSavedWorldTime(); }
 // public static long getSavedWorldTime() { return net.minecraft.block.entity.PistonBlockEntity.getSavedWorldTime(); }
-public float getRenderOffsetY(float tickDelta) { return wrapperContained.getRenderOffsetY(tickDelta); }
-// public static float getRenderOffsetY(float tickDelta, ) { return net.minecraft.block.entity.PistonBlockEntity.getRenderOffsetY(tickDelta); }
+public float getRenderOffsetY(float tickProgress) { return wrapperContained.getRenderOffsetY(tickProgress); }
+// public static float getRenderOffsetY(float tickProgress, ) { return net.minecraft.block.entity.PistonBlockEntity.getRenderOffsetY(tickProgress); }
 public yarnwrap.util.shape.VoxelShape getCollisionShape(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos) { return new yarnwrap.util.shape.VoxelShape(wrapperContained.getCollisionShape(world.wrapperContained,pos.wrapperContained)); }
 // public static yarnwrap.util.shape.VoxelShape getCollisionShape(yarnwrap.world.BlockView world,yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.util.shape.VoxelShape(net.minecraft.block.entity.PistonBlockEntity.getCollisionShape(world.wrapperContained,pos.wrapperContained)); }
 public void finish() { wrapperContained.finish(); }
@@ -91,5 +111,7 @@ public boolean isSource() { return wrapperContained.isSource(); }
 // public static void moveEntitiesInHoneyBlock(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,float blockEntity, ) { net.minecraft.block.entity.PistonBlockEntity.moveEntitiesInHoneyBlock(world.wrapperContained,pos.wrapperContained,blockEntity); }
 // public void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.PistonBlockEntity blockEntity) { wrapperContained.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
 // public static void tick(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state,yarnwrap.block.entity.PistonBlockEntity blockEntity, ) { net.minecraft.block.entity.PistonBlockEntity.tick(world.wrapperContained,pos.wrapperContained,state.wrapperContained,blockEntity.wrapperContained); }
+public yarnwrap.util.math.Direction getDirection() { return new yarnwrap.util.math.Direction(wrapperContained.getDirection()); }
+// public static yarnwrap.util.math.Direction getDirection() { return new yarnwrap.util.math.Direction(net.minecraft.block.entity.PistonBlockEntity.getDirection()); }
 
 }

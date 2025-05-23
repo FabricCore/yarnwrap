@@ -1,6 +1,21 @@
 package yarnwrap.entity.passive;
 public class IronGolemEntity { public net.minecraft.entity.passive.IronGolemEntity wrapperContained; public IronGolemEntity(net.minecraft.entity.passive.IronGolemEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public int lookingAtVillagerTicksLeft() { return wrapperContained.lookingAtVillagerTicksLeft; }
+// public void lookingAtVillagerTicksLeft(int value) { wrapperContained.lookingAtVillagerTicksLeft = value; }
+// public static int lookingAtVillagerTicksLeft() { return net.minecraft.entity.passive.IronGolemEntity.lookingAtVillagerTicksLeft; }
+// public static void lookingAtVillagerTicksLeft(int value, ) { net.minecraft.entity.passive.IronGolemEntity.lookingAtVillagerTicksLeft = value; }
+
+// public int attackTicksLeft() { return wrapperContained.attackTicksLeft; }
+// public void attackTicksLeft(int value) { wrapperContained.attackTicksLeft = value; }
+// public static int attackTicksLeft() { return net.minecraft.entity.passive.IronGolemEntity.attackTicksLeft; }
+// public static void attackTicksLeft(int value, ) { net.minecraft.entity.passive.IronGolemEntity.attackTicksLeft = value; }
+
+// public yarnwrap.entity.data.TrackedData IRON_GOLEM_FLAGS() { return new yarnwrap.entity.data.TrackedData(wrapperContained.IRON_GOLEM_FLAGS); }
+// public void IRON_GOLEM_FLAGS(yarnwrap.entity.data.TrackedData value) { wrapperContained.IRON_GOLEM_FLAGS = value.wrapperContained; }
+// public static yarnwrap.entity.data.TrackedData IRON_GOLEM_FLAGS() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.IronGolemEntity.IRON_GOLEM_FLAGS); }
+// public static void IRON_GOLEM_FLAGS(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.IronGolemEntity.IRON_GOLEM_FLAGS = value.wrapperContained; }
+
 // public yarnwrap.util.math.intprovider.UniformIntProvider ANGER_TIME_RANGE() { return new yarnwrap.util.math.intprovider.UniformIntProvider(wrapperContained.ANGER_TIME_RANGE); }
 // public void ANGER_TIME_RANGE(yarnwrap.util.math.intprovider.UniformIntProvider value) { wrapperContained.ANGER_TIME_RANGE = value.wrapperContained; }
 // public static yarnwrap.util.math.intprovider.UniformIntProvider ANGER_TIME_RANGE() { return new yarnwrap.util.math.intprovider.UniformIntProvider(net.minecraft.entity.passive.IronGolemEntity.ANGER_TIME_RANGE); }
@@ -21,38 +36,28 @@ public class IronGolemEntity { public net.minecraft.entity.passive.IronGolemEnti
 // public static int HEALTH_PER_INGOT() { return net.minecraft.entity.passive.IronGolemEntity.HEALTH_PER_INGOT; }
 // public static void HEALTH_PER_INGOT(int value, ) { net.minecraft.entity.passive.IronGolemEntity.HEALTH_PER_INGOT = value; }
 
-// public int lookingAtVillagerTicksLeft() { return wrapperContained.lookingAtVillagerTicksLeft; }
-// public void lookingAtVillagerTicksLeft(int value) { wrapperContained.lookingAtVillagerTicksLeft = value; }
-// public static int lookingAtVillagerTicksLeft() { return net.minecraft.entity.passive.IronGolemEntity.lookingAtVillagerTicksLeft; }
-// public static void lookingAtVillagerTicksLeft(int value, ) { net.minecraft.entity.passive.IronGolemEntity.lookingAtVillagerTicksLeft = value; }
+// public boolean DEFAULT_PLAYER_CREATED() { return wrapperContained.DEFAULT_PLAYER_CREATED; }
+// public void DEFAULT_PLAYER_CREATED(boolean value) { wrapperContained.DEFAULT_PLAYER_CREATED = value; }
+// public static boolean DEFAULT_PLAYER_CREATED() { return net.minecraft.entity.passive.IronGolemEntity.DEFAULT_PLAYER_CREATED; }
+// public static void DEFAULT_PLAYER_CREATED(boolean value, ) { net.minecraft.entity.passive.IronGolemEntity.DEFAULT_PLAYER_CREATED = value; }
 
-// public int attackTicksLeft() { return wrapperContained.attackTicksLeft; }
-// public void attackTicksLeft(int value) { wrapperContained.attackTicksLeft = value; }
-// public static int attackTicksLeft() { return net.minecraft.entity.passive.IronGolemEntity.attackTicksLeft; }
-// public static void attackTicksLeft(int value, ) { net.minecraft.entity.passive.IronGolemEntity.attackTicksLeft = value; }
-
-// public yarnwrap.entity.data.TrackedData IRON_GOLEM_FLAGS() { return new yarnwrap.entity.data.TrackedData(wrapperContained.IRON_GOLEM_FLAGS); }
-// public void IRON_GOLEM_FLAGS(yarnwrap.entity.data.TrackedData value) { wrapperContained.IRON_GOLEM_FLAGS = value.wrapperContained; }
-// public static yarnwrap.entity.data.TrackedData IRON_GOLEM_FLAGS() { return new yarnwrap.entity.data.TrackedData(net.minecraft.entity.passive.IronGolemEntity.IRON_GOLEM_FLAGS); }
-// public static void IRON_GOLEM_FLAGS(yarnwrap.entity.data.TrackedData value, ) { net.minecraft.entity.passive.IronGolemEntity.IRON_GOLEM_FLAGS = value.wrapperContained; }
-
-// public float getAttackDamage() { return wrapperContained.getAttackDamage(); }
-// public static float getAttackDamage() { return net.minecraft.entity.passive.IronGolemEntity.getAttackDamage(); }
-public Object getCrackLevel() { return wrapperContained.getCrackLevel(); }
-// public static Object getCrackLevel() { return net.minecraft.entity.passive.IronGolemEntity.getCrackLevel(); }
-// public Object createIronGolemAttributes() { return wrapperContained.createIronGolemAttributes(); }
-public static Object createIronGolemAttributes() { return net.minecraft.entity.passive.IronGolemEntity.createIronGolemAttributes(); }
 public boolean isPlayerCreated() { return wrapperContained.isPlayerCreated(); }
 // public static boolean isPlayerCreated() { return net.minecraft.entity.passive.IronGolemEntity.isPlayerCreated(); }
 public void setLookingAtVillager(boolean lookingAtVillager) { wrapperContained.setLookingAtVillager(lookingAtVillager); }
 // public static void setLookingAtVillager(boolean lookingAtVillager, ) { net.minecraft.entity.passive.IronGolemEntity.setLookingAtVillager(lookingAtVillager); }
-// public boolean method_6498(yarnwrap.entity.LivingEntity entity) { return wrapperContained.method_6498(entity.wrapperContained); }
-// public static boolean method_6498(yarnwrap.entity.LivingEntity entity, ) { return net.minecraft.entity.passive.IronGolemEntity.method_6498(entity.wrapperContained); }
+// public boolean method_6498(yarnwrap.entity.LivingEntity entity,yarnwrap.server.world.ServerWorld world) { return wrapperContained.method_6498(entity.wrapperContained,world.wrapperContained); }
+// public static boolean method_6498(yarnwrap.entity.LivingEntity entity,yarnwrap.server.world.ServerWorld world, ) { return net.minecraft.entity.passive.IronGolemEntity.method_6498(entity.wrapperContained,world.wrapperContained); }
 public void setPlayerCreated(boolean playerCreated) { wrapperContained.setPlayerCreated(playerCreated); }
 // public static void setPlayerCreated(boolean playerCreated, ) { net.minecraft.entity.passive.IronGolemEntity.setPlayerCreated(playerCreated); }
 public int getAttackTicksLeft() { return wrapperContained.getAttackTicksLeft(); }
 // public static int getAttackTicksLeft() { return net.minecraft.entity.passive.IronGolemEntity.getAttackTicksLeft(); }
 public int getLookingAtVillagerTicks() { return wrapperContained.getLookingAtVillagerTicks(); }
 // public static int getLookingAtVillagerTicks() { return net.minecraft.entity.passive.IronGolemEntity.getLookingAtVillagerTicks(); }
+// public float getAttackDamage() { return wrapperContained.getAttackDamage(); }
+// public static float getAttackDamage() { return net.minecraft.entity.passive.IronGolemEntity.getAttackDamage(); }
+public Object getCrackLevel() { return wrapperContained.getCrackLevel(); }
+// public static Object getCrackLevel() { return net.minecraft.entity.passive.IronGolemEntity.getCrackLevel(); }
+// public Object createIronGolemAttributes() { return wrapperContained.createIronGolemAttributes(); }
+public static Object createIronGolemAttributes() { return net.minecraft.entity.passive.IronGolemEntity.createIronGolemAttributes(); }
 
 }

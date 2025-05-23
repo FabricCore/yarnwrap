@@ -1,11 +1,6 @@
 package yarnwrap.client.texture;
 public class TextureStitcher { public net.minecraft.client.texture.TextureStitcher wrapperContained; public TextureStitcher(net.minecraft.client.texture.TextureStitcher wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.Comparator COMPARATOR() { return wrapperContained.COMPARATOR; }
-// public void COMPARATOR(java.util.Comparator value) { wrapperContained.COMPARATOR = value; }
-// public static java.util.Comparator COMPARATOR() { return net.minecraft.client.texture.TextureStitcher.COMPARATOR; }
-// public static void COMPARATOR(java.util.Comparator value, ) { net.minecraft.client.texture.TextureStitcher.COMPARATOR = value; }
-
 // public java.util.List holders() { return wrapperContained.holders; }
 // public void holders(java.util.List value) { wrapperContained.holders = value; }
 // public static java.util.List holders() { return net.minecraft.client.texture.TextureStitcher.holders; }
@@ -41,15 +36,12 @@ public class TextureStitcher { public net.minecraft.client.texture.TextureStitch
 // public static int mipLevel() { return net.minecraft.client.texture.TextureStitcher.mipLevel; }
 // public static void mipLevel(int value, ) { net.minecraft.client.texture.TextureStitcher.mipLevel = value; }
 
+// public java.util.Comparator COMPARATOR() { return wrapperContained.COMPARATOR; }
+// public void COMPARATOR(java.util.Comparator value) { wrapperContained.COMPARATOR = value; }
+// public static java.util.Comparator COMPARATOR() { return net.minecraft.client.texture.TextureStitcher.COMPARATOR; }
+// public static void COMPARATOR(java.util.Comparator value, ) { net.minecraft.client.texture.TextureStitcher.COMPARATOR = value; }
+
 public TextureStitcher(int maxWidth,int maxHeight,int mipLevel) { this.wrapperContained = new net.minecraft.client.texture.TextureStitcher(maxWidth,maxHeight,mipLevel); }
-// public yarnwrap.util.Identifier method_18337(Object holder) { return new yarnwrap.util.Identifier(wrapperContained.method_18337(holder)); }
-// public static yarnwrap.util.Identifier method_18337(Object holder, ) { return new yarnwrap.util.Identifier(net.minecraft.client.texture.TextureStitcher.method_18337(holder)); }
-// public java.lang.Integer method_18338(Object holder) { return wrapperContained.method_18338(holder); }
-// public static java.lang.Integer method_18338(Object holder, ) { return net.minecraft.client.texture.TextureStitcher.method_18338(holder); }
-// public java.lang.Integer method_18339(Object holder) { return wrapperContained.method_18339(holder); }
-// public static java.lang.Integer method_18339(Object holder, ) { return net.minecraft.client.texture.TextureStitcher.method_18339(holder); }
-// public Object method_21686(Object holder) { return wrapperContained.method_21686(holder); }
-// public static Object method_21686(Object holder, ) { return net.minecraft.client.texture.TextureStitcher.method_21686(holder); }
 // public void getStitchedSprites(Object consumer) { wrapperContained.getStitchedSprites(consumer); }
 // public static void getStitchedSprites(Object consumer, ) { net.minecraft.client.texture.TextureStitcher.getStitchedSprites(consumer); }
 // public boolean fit(Object holder) { return wrapperContained.fit(holder); }
@@ -66,5 +58,13 @@ public int getHeight() { return wrapperContained.getHeight(); }
 // public static int getHeight() { return net.minecraft.client.texture.TextureStitcher.getHeight(); }
 public void stitch() { wrapperContained.stitch(); }
 // public static void stitch() { net.minecraft.client.texture.TextureStitcher.stitch(); }
+// public yarnwrap.util.Identifier method_18337(Object holder) { return new yarnwrap.util.Identifier(wrapperContained.method_18337(holder)); }
+// public static yarnwrap.util.Identifier method_18337(Object holder, ) { return new yarnwrap.util.Identifier(net.minecraft.client.texture.TextureStitcher.method_18337(holder)); }
+// public java.lang.Integer method_18338(Object holder) { return wrapperContained.method_18338(holder); }
+// public static java.lang.Integer method_18338(Object holder, ) { return net.minecraft.client.texture.TextureStitcher.method_18338(holder); }
+// public java.lang.Integer method_18339(Object holder) { return wrapperContained.method_18339(holder); }
+// public static java.lang.Integer method_18339(Object holder, ) { return net.minecraft.client.texture.TextureStitcher.method_18339(holder); }
+// public Object method_21686(Object holder) { return wrapperContained.method_21686(holder); }
+// public static Object method_21686(Object holder, ) { return net.minecraft.client.texture.TextureStitcher.method_21686(holder); }
 
 }

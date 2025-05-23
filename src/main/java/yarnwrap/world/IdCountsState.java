@@ -1,21 +1,27 @@
 package yarnwrap.world;
 public class IdCountsState { public net.minecraft.world.IdCountsState wrapperContained; public IdCountsState(net.minecraft.world.IdCountsState wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public it.unimi.dsi.fastutil.objects.Object2IntMap idCounts() { return wrapperContained.idCounts; }
-// public void idCounts(it.unimi.dsi.fastutil.objects.Object2IntMap value) { wrapperContained.idCounts = value; }
-// public static it.unimi.dsi.fastutil.objects.Object2IntMap idCounts() { return net.minecraft.world.IdCountsState.idCounts; }
-// public static void idCounts(it.unimi.dsi.fastutil.objects.Object2IntMap value, ) { net.minecraft.world.IdCountsState.idCounts = value; }
+// public com.mojang.serialization.Codec CODEC() { return wrapperContained.CODEC; }
+// public void CODEC(com.mojang.serialization.Codec value) { wrapperContained.CODEC = value; }
+public static com.mojang.serialization.Codec CODEC() { return net.minecraft.world.IdCountsState.CODEC; }
+// public static void CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.world.IdCountsState.CODEC = value; }
 
-// public java.lang.String IDCOUNTS_KEY() { return wrapperContained.IDCOUNTS_KEY; }
-// public void IDCOUNTS_KEY(java.lang.String value) { wrapperContained.IDCOUNTS_KEY = value; }
-public static java.lang.String IDCOUNTS_KEY() { return net.minecraft.world.IdCountsState.IDCOUNTS_KEY; }
-// public static void IDCOUNTS_KEY(java.lang.String value, ) { net.minecraft.world.IdCountsState.IDCOUNTS_KEY = value; }
+// public yarnwrap.world.PersistentStateType STATE_TYPE() { return new yarnwrap.world.PersistentStateType(wrapperContained.STATE_TYPE); }
+// public void STATE_TYPE(yarnwrap.world.PersistentStateType value) { wrapperContained.STATE_TYPE = value.wrapperContained; }
+public static yarnwrap.world.PersistentStateType STATE_TYPE() { return new yarnwrap.world.PersistentStateType(net.minecraft.world.IdCountsState.STATE_TYPE); }
+// public static void STATE_TYPE(yarnwrap.world.PersistentStateType value, ) { net.minecraft.world.IdCountsState.STATE_TYPE = value.wrapperContained; }
 
-public yarnwrap.component.type.MapIdComponent increaseAndGetMapId() { return new yarnwrap.component.type.MapIdComponent(wrapperContained.increaseAndGetMapId()); }
-// public static yarnwrap.component.type.MapIdComponent increaseAndGetMapId() { return new yarnwrap.component.type.MapIdComponent(net.minecraft.world.IdCountsState.increaseAndGetMapId()); }
-// public yarnwrap.world.IdCountsState fromNbt(yarnwrap.nbt.NbtCompound nbt,Object registryLookup) { return new yarnwrap.world.IdCountsState(wrapperContained.fromNbt(nbt.wrapperContained,registryLookup)); }
-// public static yarnwrap.world.IdCountsState fromNbt(yarnwrap.nbt.NbtCompound nbt,Object registryLookup, ) { return new yarnwrap.world.IdCountsState(net.minecraft.world.IdCountsState.fromNbt(nbt.wrapperContained,registryLookup)); }
-// public Object getPersistentStateType() { return wrapperContained.getPersistentStateType(); }
-public static Object getPersistentStateType() { return net.minecraft.world.IdCountsState.getPersistentStateType(); }
+// public int map() { return wrapperContained.map; }
+// public void map(int value) { wrapperContained.map = value; }
+// public static int map() { return net.minecraft.world.IdCountsState.map; }
+// public static void map(int value, ) { net.minecraft.world.IdCountsState.map = value; }
+
+public IdCountsState(int map) { this.wrapperContained = new net.minecraft.world.IdCountsState(map); }
+public yarnwrap.component.type.MapIdComponent createNextMapId() { return new yarnwrap.component.type.MapIdComponent(wrapperContained.createNextMapId()); }
+// public static yarnwrap.component.type.MapIdComponent createNextMapId() { return new yarnwrap.component.type.MapIdComponent(net.minecraft.world.IdCountsState.createNextMapId()); }
+// public com.mojang.datafixers.kinds.App method_67422(Object instance) { return wrapperContained.method_67422(instance); }
+// public static com.mojang.datafixers.kinds.App method_67422(Object instance, ) { return net.minecraft.world.IdCountsState.method_67422(instance); }
+// public java.lang.Integer method_67423(yarnwrap.world.IdCountsState state) { return wrapperContained.method_67423(state.wrapperContained); }
+// public static java.lang.Integer method_67423(yarnwrap.world.IdCountsState state, ) { return net.minecraft.world.IdCountsState.method_67423(state.wrapperContained); }
 
 }

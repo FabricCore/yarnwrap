@@ -1,6 +1,11 @@
 package yarnwrap.entity;
 public class EntityPose { public net.minecraft.entity.EntityPose wrapperContained; public EntityPose(net.minecraft.entity.EntityPose wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.entity.EntityPose GLIDING() { return new yarnwrap.entity.EntityPose(wrapperContained.GLIDING); }
+// public void GLIDING(yarnwrap.entity.EntityPose value) { wrapperContained.GLIDING = value.wrapperContained; }
+public static yarnwrap.entity.EntityPose GLIDING() { return new yarnwrap.entity.EntityPose(net.minecraft.entity.EntityPose.GLIDING); }
+// public static void GLIDING(yarnwrap.entity.EntityPose value, ) { net.minecraft.entity.EntityPose.GLIDING = value.wrapperContained; }
+
 // public java.util.function.IntFunction INDEX_TO_VALUE() { return wrapperContained.INDEX_TO_VALUE; }
 // public void INDEX_TO_VALUE(java.util.function.IntFunction value) { wrapperContained.INDEX_TO_VALUE = value; }
 public static java.util.function.IntFunction INDEX_TO_VALUE() { return net.minecraft.entity.EntityPose.INDEX_TO_VALUE; }

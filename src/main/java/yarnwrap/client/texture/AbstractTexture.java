@@ -1,37 +1,25 @@
 package yarnwrap.client.texture;
 public class AbstractTexture { public net.minecraft.client.texture.AbstractTexture wrapperContained; public AbstractTexture(net.minecraft.client.texture.AbstractTexture wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int DEFAULT_ID() { return wrapperContained.DEFAULT_ID; }
-// public void DEFAULT_ID(int value) { wrapperContained.DEFAULT_ID = value; }
-public static int DEFAULT_ID() { return net.minecraft.client.texture.AbstractTexture.DEFAULT_ID; }
-// public static void DEFAULT_ID(int value, ) { net.minecraft.client.texture.AbstractTexture.DEFAULT_ID = value; }
+// public com.mojang.blaze3d.textures.GpuTexture glTexture() { return wrapperContained.glTexture; }
+// public void glTexture(com.mojang.blaze3d.textures.GpuTexture value) { wrapperContained.glTexture = value; }
+// public static com.mojang.blaze3d.textures.GpuTexture glTexture() { return net.minecraft.client.texture.AbstractTexture.glTexture; }
+// public static void glTexture(com.mojang.blaze3d.textures.GpuTexture value, ) { net.minecraft.client.texture.AbstractTexture.glTexture = value; }
 
-// public boolean mipmap() { return wrapperContained.mipmap; }
-// public void mipmap(boolean value) { wrapperContained.mipmap = value; }
-// public static boolean mipmap() { return net.minecraft.client.texture.AbstractTexture.mipmap; }
-// public static void mipmap(boolean value, ) { net.minecraft.client.texture.AbstractTexture.mipmap = value; }
+// // public com.mojang.blaze3d.textures.GpuTextureView glTextureView() { return wrapperContained.glTextureView; }
+// // public void glTextureView(com.mojang.blaze3d.textures.GpuTextureView value) { wrapperContained.glTextureView = value; }
+// // public static com.mojang.blaze3d.textures.GpuTextureView glTextureView() { return net.minecraft.client.texture.AbstractTexture.glTextureView; }
+// // public static void glTextureView(com.mojang.blaze3d.textures.GpuTextureView value, ) { net.minecraft.client.texture.AbstractTexture.glTextureView = value; }
 
-// public int glId() { return wrapperContained.glId; }
-// public void glId(int value) { wrapperContained.glId = value; }
-// public static int glId() { return net.minecraft.client.texture.AbstractTexture.glId; }
-// public static void glId(int value, ) { net.minecraft.client.texture.AbstractTexture.glId = value; }
-
-// public boolean bilinear() { return wrapperContained.bilinear; }
-// public void bilinear(boolean value) { wrapperContained.bilinear = value; }
-// public static boolean bilinear() { return net.minecraft.client.texture.AbstractTexture.bilinear; }
-// public static void bilinear(boolean value, ) { net.minecraft.client.texture.AbstractTexture.bilinear = value; }
-
-public void registerTexture(yarnwrap.client.texture.TextureManager textureManager,yarnwrap.resource.ResourceManager resourceManager,yarnwrap.util.Identifier id,java.util.concurrent.Executor executor) { wrapperContained.registerTexture(textureManager.wrapperContained,resourceManager.wrapperContained,id.wrapperContained,executor); }
-// public static void registerTexture(yarnwrap.client.texture.TextureManager textureManager,yarnwrap.resource.ResourceManager resourceManager,yarnwrap.util.Identifier id,java.util.concurrent.Executor executor, ) { net.minecraft.client.texture.AbstractTexture.registerTexture(textureManager.wrapperContained,resourceManager.wrapperContained,id.wrapperContained,executor); }
-public void bindTexture() { wrapperContained.bindTexture(); }
-// public static void bindTexture() { net.minecraft.client.texture.AbstractTexture.bindTexture(); }
 public void setFilter(boolean bilinear,boolean mipmap) { wrapperContained.setFilter(bilinear,mipmap); }
 // public static void setFilter(boolean bilinear,boolean mipmap, ) { net.minecraft.client.texture.AbstractTexture.setFilter(bilinear,mipmap); }
-public void clearGlId() { wrapperContained.clearGlId(); }
-// public static void clearGlId() { net.minecraft.client.texture.AbstractTexture.clearGlId(); }
-public int getGlId() { return wrapperContained.getGlId(); }
-// public static int getGlId() { return net.minecraft.client.texture.AbstractTexture.getGlId(); }
-// public void load(yarnwrap.resource.ResourceManager manager) { wrapperContained.load(manager.wrapperContained); }
-// public static void load(yarnwrap.resource.ResourceManager manager, ) { net.minecraft.client.texture.AbstractTexture.load(manager.wrapperContained); }
+public void setClamp(boolean clamp) { wrapperContained.setClamp(clamp); }
+// public static void setClamp(boolean clamp, ) { net.minecraft.client.texture.AbstractTexture.setClamp(clamp); }
+public com.mojang.blaze3d.textures.GpuTexture getGlTexture() { return wrapperContained.getGlTexture(); }
+// public static com.mojang.blaze3d.textures.GpuTexture getGlTexture() { return net.minecraft.client.texture.AbstractTexture.getGlTexture(); }
+// public void setUseMipmaps(boolean useMipmaps) { wrapperContained.setUseMipmaps(useMipmaps); }
+// public static void setUseMipmaps(boolean useMipmaps, ) { net.minecraft.client.texture.AbstractTexture.setUseMipmaps(useMipmaps); }
+// // public com.mojang.blaze3d.textures.GpuTextureView getGlTextureView() { return wrapperContained.getGlTextureView(); }
+// // public static com.mojang.blaze3d.textures.GpuTextureView getGlTextureView() { return net.minecraft.client.texture.AbstractTexture.getGlTextureView(); }
 
 }

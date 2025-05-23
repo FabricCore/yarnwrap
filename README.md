@@ -1,6 +1,6 @@
 # Yarnwrap - A FabricMC Wrapper
 
-[**Docs**](https://yarnwrap.siri.ws) ([Mirror](https://fabriccore.github.io/yarnwrap/)) | [**Generator (Wrapper)**](https://github.com/FabricCore/yarn-wrapper-gen) | [**Generator (Events)**](https://github.com/FabricCore/fabric_event_mappers)
+[**Docs**](https://fabriccore.github.io/yarnwrap/) | [**Generator (Wrapper)**](https://github.com/FabricCore/yarn-wrapper-gen) | [**Generator (Events)**](https://github.com/FabricCore/fabric_event_mappers)
 
 Yarnwrap allows Java classes from Minecraft to be referenced by their actual name, which is previously not possible due to Minecraft obfuscation.
 
@@ -11,7 +11,7 @@ Yarnwrap contains
 
 | Version | Download                                                                                            |
 | ------- | --------------------------------------------------------------------------------------------------- |
-| 1.21.1  | [1.21.1b3](https://github.com/FabricCore/yarnwrap/releases/download/1.21.1b3/yarnwrap-1_21_1b3.jar) |
+| 1.21.1  | [1.21.1b2](https://github.com/FabricCore/yarnwrap/releases/download/1.21.1b2/yarnwrap-1_21_1b2.jar) |
 
 > I would appreciate if you give this project a star :)
 

@@ -52,8 +52,6 @@ public class AdvancementPositioner { public net.minecraft.advancement.Advancemen
 // public static void advancement(yarnwrap.advancement.PlacedAdvancement value, ) { net.minecraft.advancement.AdvancementPositioner.advancement = value.wrapperContained; }
 
 public AdvancementPositioner(yarnwrap.advancement.PlacedAdvancement advancement,yarnwrap.advancement.AdvancementPositioner parent,yarnwrap.advancement.AdvancementPositioner previousSibling,int childrenSize,int depth) { this.wrapperContained = new net.minecraft.advancement.AdvancementPositioner(advancement.wrapperContained,parent.wrapperContained,previousSibling.wrapperContained,childrenSize,depth); }
-// public void method_53710(yarnwrap.advancement.AdvancementDisplay display) { wrapperContained.method_53710(display.wrapperContained); }
-// public static void method_53710(yarnwrap.advancement.AdvancementDisplay display, ) { net.minecraft.advancement.AdvancementPositioner.method_53710(display.wrapperContained); }
 // public yarnwrap.advancement.AdvancementPositioner onFinishCalculation(yarnwrap.advancement.AdvancementPositioner last) { return new yarnwrap.advancement.AdvancementPositioner(wrapperContained.onFinishCalculation(last.wrapperContained)); }
 // public static yarnwrap.advancement.AdvancementPositioner onFinishCalculation(yarnwrap.advancement.AdvancementPositioner last, ) { return new yarnwrap.advancement.AdvancementPositioner(net.minecraft.advancement.AdvancementPositioner.onFinishCalculation(last.wrapperContained)); }
 // public float findMinRowRecursively(float deltaRow,int depth,float minRow) { return wrapperContained.findMinRowRecursively(deltaRow,depth,minRow); }
@@ -78,5 +76,7 @@ public AdvancementPositioner(yarnwrap.advancement.PlacedAdvancement advancement,
 // public static void apply() { net.minecraft.advancement.AdvancementPositioner.apply(); }
 // public void arrangeForTree(yarnwrap.advancement.PlacedAdvancement root) { wrapperContained.arrangeForTree(root.wrapperContained); }
 // public static void arrangeForTree(yarnwrap.advancement.PlacedAdvancement root, ) { net.minecraft.advancement.AdvancementPositioner.arrangeForTree(root.wrapperContained); }
+// public void method_53710(yarnwrap.advancement.AdvancementDisplay display) { wrapperContained.method_53710(display.wrapperContained); }
+// public static void method_53710(yarnwrap.advancement.AdvancementDisplay display, ) { net.minecraft.advancement.AdvancementPositioner.method_53710(display.wrapperContained); }
 
 }

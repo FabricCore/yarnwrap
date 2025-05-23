@@ -36,21 +36,6 @@ public class LevelProperties { public net.minecraft.world.level.LevelProperties 
 // public static int clearWeatherTime() { return net.minecraft.world.level.LevelProperties.clearWeatherTime; }
 // public static void clearWeatherTime(int value, ) { net.minecraft.world.level.LevelProperties.clearWeatherTime = value; }
 
-// public int wanderingTraderSpawnDelay() { return wrapperContained.wanderingTraderSpawnDelay; }
-// public void wanderingTraderSpawnDelay(int value) { wrapperContained.wanderingTraderSpawnDelay = value; }
-// public static int wanderingTraderSpawnDelay() { return net.minecraft.world.level.LevelProperties.wanderingTraderSpawnDelay; }
-// public static void wanderingTraderSpawnDelay(int value, ) { net.minecraft.world.level.LevelProperties.wanderingTraderSpawnDelay = value; }
-
-// public int wanderingTraderSpawnChance() { return wrapperContained.wanderingTraderSpawnChance; }
-// public void wanderingTraderSpawnChance(int value) { wrapperContained.wanderingTraderSpawnChance = value; }
-// public static int wanderingTraderSpawnChance() { return net.minecraft.world.level.LevelProperties.wanderingTraderSpawnChance; }
-// public static void wanderingTraderSpawnChance(int value, ) { net.minecraft.world.level.LevelProperties.wanderingTraderSpawnChance = value; }
-
-// public java.util.UUID wanderingTraderId() { return wrapperContained.wanderingTraderId; }
-// public void wanderingTraderId(java.util.UUID value) { wrapperContained.wanderingTraderId = value; }
-// public static java.util.UUID wanderingTraderId() { return net.minecraft.world.level.LevelProperties.wanderingTraderId; }
-// public static void wanderingTraderId(java.util.UUID value, ) { net.minecraft.world.level.LevelProperties.wanderingTraderId = value; }
-
 // public boolean initialized() { return wrapperContained.initialized; }
 // public void initialized(boolean value) { wrapperContained.initialized = value; }
 // public static boolean initialized() { return net.minecraft.world.level.LevelProperties.initialized; }
@@ -80,6 +65,21 @@ public class LevelProperties { public net.minecraft.world.level.LevelProperties 
 // public void timeOfDay(long value) { wrapperContained.timeOfDay = value; }
 // public static long timeOfDay() { return net.minecraft.world.level.LevelProperties.timeOfDay; }
 // public static void timeOfDay(long value, ) { net.minecraft.world.level.LevelProperties.timeOfDay = value; }
+
+// public int wanderingTraderSpawnDelay() { return wrapperContained.wanderingTraderSpawnDelay; }
+// public void wanderingTraderSpawnDelay(int value) { wrapperContained.wanderingTraderSpawnDelay = value; }
+// public static int wanderingTraderSpawnDelay() { return net.minecraft.world.level.LevelProperties.wanderingTraderSpawnDelay; }
+// public static void wanderingTraderSpawnDelay(int value, ) { net.minecraft.world.level.LevelProperties.wanderingTraderSpawnDelay = value; }
+
+// public int wanderingTraderSpawnChance() { return wrapperContained.wanderingTraderSpawnChance; }
+// public void wanderingTraderSpawnChance(int value) { wrapperContained.wanderingTraderSpawnChance = value; }
+// public static int wanderingTraderSpawnChance() { return net.minecraft.world.level.LevelProperties.wanderingTraderSpawnChance; }
+// public static void wanderingTraderSpawnChance(int value, ) { net.minecraft.world.level.LevelProperties.wanderingTraderSpawnChance = value; }
+
+// public java.util.UUID wanderingTraderId() { return wrapperContained.wanderingTraderId; }
+// public void wanderingTraderId(java.util.UUID value) { wrapperContained.wanderingTraderId = value; }
+// public static java.util.UUID wanderingTraderId() { return net.minecraft.world.level.LevelProperties.wanderingTraderId; }
+// public static void wanderingTraderId(java.util.UUID value, ) { net.minecraft.world.level.LevelProperties.wanderingTraderId = value; }
 
 // public java.util.Set serverBrands() { return wrapperContained.serverBrands; }
 // public void serverBrands(java.util.Set value) { wrapperContained.serverBrands = value; }
@@ -162,8 +162,6 @@ public static java.lang.String LEVEL_NAME_KEY() { return net.minecraft.world.lev
 // public static void updateProperties(yarnwrap.registry.DynamicRegistryManager registryManager,yarnwrap.nbt.NbtCompound levelNbt,yarnwrap.nbt.NbtCompound playerNbt, ) { net.minecraft.world.level.LevelProperties.updateProperties(registryManager.wrapperContained,levelNbt.wrapperContained,playerNbt.wrapperContained); }
 // public yarnwrap.world.level.LevelProperties readProperties(com.mojang.serialization.Dynamic dynamic,yarnwrap.world.level.LevelInfo info,Object specialProperty,yarnwrap.world.gen.GeneratorOptions generatorOptions,com.mojang.serialization.Lifecycle lifecycle) { return new yarnwrap.world.level.LevelProperties(wrapperContained.readProperties(dynamic,info.wrapperContained,specialProperty,generatorOptions.wrapperContained,lifecycle)); }
 // public static yarnwrap.world.level.LevelProperties readProperties(com.mojang.serialization.Dynamic dynamic,yarnwrap.world.level.LevelInfo info,Object specialProperty,yarnwrap.world.gen.GeneratorOptions generatorOptions,com.mojang.serialization.Lifecycle lifecycle, ) { return new yarnwrap.world.level.LevelProperties(net.minecraft.world.level.LevelProperties.readProperties(dynamic,info.wrapperContained,specialProperty,generatorOptions.wrapperContained,lifecycle)); }
-// public void method_45558(yarnwrap.nbt.NbtCompound dataConfiguration) { wrapperContained.method_45558(dataConfiguration.wrapperContained); }
-// public static void method_45558(yarnwrap.nbt.NbtCompound dataConfiguration, ) { net.minecraft.world.level.LevelProperties.method_45558(dataConfiguration.wrapperContained); }
 // public yarnwrap.nbt.NbtList createStringList(java.util.Set strings) { return new yarnwrap.nbt.NbtList(wrapperContained.createStringList(strings)); }
 // public static yarnwrap.nbt.NbtList createStringList(java.util.Set strings, ) { return new yarnwrap.nbt.NbtList(net.minecraft.world.level.LevelProperties.createStringList(strings)); }
 

@@ -33,19 +33,21 @@ public class OminousItemSpawnerEntity { public net.minecraft.entity.OminousItemS
 
 // public void setItem(yarnwrap.item.ItemStack stack) { wrapperContained.setItem(stack.wrapperContained); }
 // public static void setItem(yarnwrap.item.ItemStack stack, ) { net.minecraft.entity.OminousItemSpawnerEntity.setItem(stack.wrapperContained); }
-// public void method_58637(yarnwrap.world.World event) { wrapperContained.method_58637(event.wrapperContained); }
-// public static void method_58637(yarnwrap.world.World event, ) { net.minecraft.entity.OminousItemSpawnerEntity.method_58637(event.wrapperContained); }
 // public yarnwrap.entity.OminousItemSpawnerEntity create(yarnwrap.world.World world,yarnwrap.item.ItemStack stack) { return new yarnwrap.entity.OminousItemSpawnerEntity(wrapperContained.create(world.wrapperContained,stack.wrapperContained)); }
 // public static yarnwrap.entity.OminousItemSpawnerEntity create(yarnwrap.world.World world,yarnwrap.item.ItemStack stack, ) { return new yarnwrap.entity.OminousItemSpawnerEntity(net.minecraft.entity.OminousItemSpawnerEntity.create(world.wrapperContained,stack.wrapperContained)); }
 public void addParticles() { wrapperContained.addParticles(); }
 // public static void addParticles() { net.minecraft.entity.OminousItemSpawnerEntity.addParticles(); }
 public yarnwrap.item.ItemStack getItem() { return new yarnwrap.item.ItemStack(wrapperContained.getItem()); }
 // public static yarnwrap.item.ItemStack getItem() { return new yarnwrap.item.ItemStack(net.minecraft.entity.OminousItemSpawnerEntity.getItem()); }
-// public void tickServer() { wrapperContained.tickServer(); }
-// public static void tickServer() { net.minecraft.entity.OminousItemSpawnerEntity.tickServer(); }
+// public void tickServer(yarnwrap.server.world.ServerWorld world) { wrapperContained.tickServer(world.wrapperContained); }
+// public static void tickServer(yarnwrap.server.world.ServerWorld world, ) { net.minecraft.entity.OminousItemSpawnerEntity.tickServer(world.wrapperContained); }
 // public void tickClient() { wrapperContained.tickClient(); }
 // public static void tickClient() { net.minecraft.entity.OminousItemSpawnerEntity.tickClient(); }
 // public void spawnItem() { wrapperContained.spawnItem(); }
 // public static void spawnItem() { net.minecraft.entity.OminousItemSpawnerEntity.spawnItem(); }
+// public void method_61431(yarnwrap.server.world.ServerWorld dispenseEvent) { wrapperContained.method_61431(dispenseEvent.wrapperContained); }
+// public static void method_61431(yarnwrap.server.world.ServerWorld dispenseEvent, ) { net.minecraft.entity.OminousItemSpawnerEntity.method_61431(dispenseEvent.wrapperContained); }
+// public yarnwrap.entity.Entity spawnProjectile(yarnwrap.server.world.ServerWorld world,yarnwrap.item.ProjectileItem item,yarnwrap.item.ItemStack stack) { return new yarnwrap.entity.Entity(wrapperContained.spawnProjectile(world.wrapperContained,item.wrapperContained,stack.wrapperContained)); }
+// public static yarnwrap.entity.Entity spawnProjectile(yarnwrap.server.world.ServerWorld world,yarnwrap.item.ProjectileItem item,yarnwrap.item.ItemStack stack, ) { return new yarnwrap.entity.Entity(net.minecraft.entity.OminousItemSpawnerEntity.spawnProjectile(world.wrapperContained,item.wrapperContained,stack.wrapperContained)); }
 
 }

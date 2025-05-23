@@ -21,11 +21,6 @@ public class RealmsSlotOptionsScreen { public net.minecraft.client.realms.gui.sc
 // public static int column2_x() { return net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.column2_x; }
 // public static void column2_x(int value, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.column2_x = value; }
 
-// public yarnwrap.client.realms.dto.RealmsWorldOptions options() { return new yarnwrap.client.realms.dto.RealmsWorldOptions(wrapperContained.options); }
-// public void options(yarnwrap.client.realms.dto.RealmsWorldOptions value) { wrapperContained.options = value.wrapperContained; }
-// public static yarnwrap.client.realms.dto.RealmsWorldOptions options() { return new yarnwrap.client.realms.dto.RealmsWorldOptions(net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.options); }
-// public static void options(yarnwrap.client.realms.dto.RealmsWorldOptions value, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.options = value.wrapperContained; }
-
 // public Object worldType() { return wrapperContained.worldType; }
 // // public void worldType(Object value) { wrapperContained.worldType = value; }
 // // public static Object worldType() { return net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.worldType; }
@@ -45,16 +40,6 @@ public class RealmsSlotOptionsScreen { public net.minecraft.client.realms.gui.sc
 // public void pvp(boolean value) { wrapperContained.pvp = value; }
 // public static boolean pvp() { return net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.pvp; }
 // public static void pvp(boolean value, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.pvp = value; }
-
-// public boolean spawnNpcs() { return wrapperContained.spawnNpcs; }
-// public void spawnNpcs(boolean value) { wrapperContained.spawnNpcs = value; }
-// public static boolean spawnNpcs() { return net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.spawnNpcs; }
-// public static void spawnNpcs(boolean value, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.spawnNpcs = value; }
-
-// public boolean spawnAnimals() { return wrapperContained.spawnAnimals; }
-// public void spawnAnimals(boolean value) { wrapperContained.spawnAnimals = value; }
-// public static boolean spawnAnimals() { return net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.spawnAnimals; }
-// public static void spawnAnimals(boolean value, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.spawnAnimals = value; }
 
 // public boolean spawnMonsters() { return wrapperContained.spawnMonsters; }
 // public void spawnMonsters(boolean value) { wrapperContained.spawnMonsters = value; }
@@ -111,7 +96,12 @@ public static java.util.List GAME_MODES() { return net.minecraft.client.realms.g
 // public static java.lang.String slotName() { return net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.slotName; }
 // public static void slotName(java.lang.String value, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.slotName = value; }
 
-// public RealmsSlotOptionsScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen parent,yarnwrap.client.realms.dto.RealmsWorldOptions options,Object worldType,int activeSlot) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen(parent.wrapperContained,options.wrapperContained,worldType,activeSlot); }
+// public yarnwrap.client.realms.dto.RealmsSlot slot() { return new yarnwrap.client.realms.dto.RealmsSlot(wrapperContained.slot); }
+// public void slot(yarnwrap.client.realms.dto.RealmsSlot value) { wrapperContained.slot = value.wrapperContained; }
+// public static yarnwrap.client.realms.dto.RealmsSlot slot() { return new yarnwrap.client.realms.dto.RealmsSlot(net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.slot); }
+// public static void slot(yarnwrap.client.realms.dto.RealmsSlot value, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.slot = value.wrapperContained; }
+
+// public RealmsSlotOptionsScreen(yarnwrap.client.realms.gui.screen.RealmsConfigureWorldScreen parent,yarnwrap.client.realms.dto.RealmsSlot slot,Object worldType,int activeSlot) { this.wrapperContained = new net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen(parent.wrapperContained,slot.wrapperContained,worldType,activeSlot); }
 // public void saveSettings() { wrapperContained.saveSettings(); }
 // public static void saveSettings() { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.saveSettings(); }
 // public void method_25255(yarnwrap.client.gui.widget.ButtonWidget button) { wrapperContained.method_25255(button.wrapperContained); }
@@ -130,19 +120,17 @@ public static java.util.List GAME_MODES() { return net.minecraft.client.realms.g
 // public static int indexOf(java.util.List list,java.lang.Object value,int fallbackIndex, ) { return net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.indexOf(list,value,fallbackIndex); }
 // public void method_32500(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean forceGameMode) { wrapperContained.method_32500(button.wrapperContained,forceGameMode); }
 // public static void method_32500(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean forceGameMode, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.method_32500(button.wrapperContained,forceGameMode); }
-// public void method_32502(java.lang.Boolean spawnNpcs) { wrapperContained.method_32502(spawnNpcs); }
-// public static void method_32502(java.lang.Boolean spawnNpcs, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.method_32502(spawnNpcs); }
-// public void method_32503(java.lang.Boolean spawnMonsters) { wrapperContained.method_32503(spawnMonsters); }
-// public static void method_32503(java.lang.Boolean spawnMonsters, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.method_32503(spawnMonsters); }
-// public void method_32504(java.lang.Boolean spawnAnimals) { wrapperContained.method_32504(spawnAnimals); }
-// public static void method_32504(java.lang.Boolean spawnAnimals, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.method_32504(spawnAnimals); }
 // public void method_32505(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean pvp) { wrapperContained.method_32505(button.wrapperContained,pvp); }
 // public static void method_32505(yarnwrap.client.gui.widget.CyclingButtonWidget button,java.lang.Boolean pvp, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.method_32505(button.wrapperContained,pvp); }
 // public void method_43754(java.util.function.Consumer button,yarnwrap.text.Text value) { wrapperContained.method_43754(button,value.wrapperContained); }
 // public static void method_43754(java.util.function.Consumer button,yarnwrap.text.Text value, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.method_43754(button,value.wrapperContained); }
+// public void method_43755(java.util.function.Consumer popup) { wrapperContained.method_43755(popup); }
+// public static void method_43755(java.util.function.Consumer popup, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.method_43755(popup); }
 // public Object getSpawnToggleButtonCallback(yarnwrap.text.Text text,java.util.function.Consumer valueSetter) { return wrapperContained.getSpawnToggleButtonCallback(text.wrapperContained,valueSetter); }
 // public static Object getSpawnToggleButtonCallback(yarnwrap.text.Text text,java.util.function.Consumer valueSetter, ) { return net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.getSpawnToggleButtonCallback(text.wrapperContained,valueSetter); }
 // public void setSlotName(java.lang.String slotName) { wrapperContained.setSlotName(slotName); }
 // public static void setSlotName(java.lang.String slotName, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.setSlotName(slotName); }
+// public void method_61960(java.lang.Boolean spawnMonsters) { wrapperContained.method_61960(spawnMonsters); }
+// public static void method_61960(java.lang.Boolean spawnMonsters, ) { net.minecraft.client.realms.gui.screen.RealmsSlotOptionsScreen.method_61960(spawnMonsters); }
 
 }

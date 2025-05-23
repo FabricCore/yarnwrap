@@ -51,6 +51,11 @@ public static java.lang.String DATA_KEY() { return net.minecraft.nbt.NbtHelper.D
 // public static char COLON() { return net.minecraft.nbt.NbtHelper.COLON; }
 // public static void COLON(char value, ) { net.minecraft.nbt.NbtHelper.COLON = value; }
 
+// public com.mojang.serialization.Codec BLOCK_KEY_CODEC() { return wrapperContained.BLOCK_KEY_CODEC; }
+// public void BLOCK_KEY_CODEC(com.mojang.serialization.Codec value) { wrapperContained.BLOCK_KEY_CODEC = value; }
+// public static com.mojang.serialization.Codec BLOCK_KEY_CODEC() { return net.minecraft.nbt.NbtHelper.BLOCK_KEY_CODEC; }
+// public static void BLOCK_KEY_CODEC(com.mojang.serialization.Codec value, ) { net.minecraft.nbt.NbtHelper.BLOCK_KEY_CODEC = value; }
+
 // public yarnwrap.block.BlockState toBlockState(yarnwrap.registry.RegistryEntryLookup blockLookup,yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.block.BlockState(wrapperContained.toBlockState(blockLookup.wrapperContained,nbt.wrapperContained)); }
 // public static yarnwrap.block.BlockState toBlockState(yarnwrap.registry.RegistryEntryLookup blockLookup,yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.block.BlockState(net.minecraft.nbt.NbtHelper.toBlockState(blockLookup.wrapperContained,nbt.wrapperContained)); }
 // public yarnwrap.state.State withProperty(yarnwrap.state.State state,yarnwrap.state.property.Property property,java.lang.String key,yarnwrap.nbt.NbtCompound properties,yarnwrap.nbt.NbtCompound root) { return new yarnwrap.state.State(wrapperContained.withProperty(state.wrapperContained,property.wrapperContained,key,properties.wrapperContained,root.wrapperContained)); }
@@ -61,20 +66,12 @@ public static java.lang.String DATA_KEY() { return net.minecraft.nbt.NbtHelper.D
 // public static yarnwrap.nbt.NbtCompound fromBlockState(yarnwrap.block.BlockState state, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.nbt.NbtHelper.fromBlockState(state.wrapperContained)); }
 // public boolean matches(yarnwrap.nbt.NbtElement standard,yarnwrap.nbt.NbtElement subject,boolean ignoreListOrder) { return wrapperContained.matches(standard.wrapperContained,subject.wrapperContained,ignoreListOrder); }
 // public static boolean matches(yarnwrap.nbt.NbtElement standard,yarnwrap.nbt.NbtElement subject,boolean ignoreListOrder, ) { return net.minecraft.nbt.NbtHelper.matches(standard.wrapperContained,subject.wrapperContained,ignoreListOrder); }
-// public java.util.Optional toBlockPos(yarnwrap.nbt.NbtCompound nbt,java.lang.String key) { return wrapperContained.toBlockPos(nbt.wrapperContained,key); }
-// public static java.util.Optional toBlockPos(yarnwrap.nbt.NbtCompound nbt,java.lang.String key, ) { return net.minecraft.nbt.NbtHelper.toBlockPos(nbt.wrapperContained,key); }
-// public yarnwrap.nbt.NbtElement fromBlockPos(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.nbt.NbtElement(wrapperContained.fromBlockPos(pos.wrapperContained)); }
-// public static yarnwrap.nbt.NbtElement fromBlockPos(yarnwrap.util.math.BlockPos pos, ) { return new yarnwrap.nbt.NbtElement(net.minecraft.nbt.NbtHelper.fromBlockPos(pos.wrapperContained)); }
-// public yarnwrap.nbt.NbtIntArray fromUuid(java.util.UUID uuid) { return new yarnwrap.nbt.NbtIntArray(wrapperContained.fromUuid(uuid)); }
-// public static yarnwrap.nbt.NbtIntArray fromUuid(java.util.UUID uuid, ) { return new yarnwrap.nbt.NbtIntArray(net.minecraft.nbt.NbtHelper.fromUuid(uuid)); }
-// public java.util.UUID toUuid(yarnwrap.nbt.NbtElement element) { return wrapperContained.toUuid(element.wrapperContained); }
-// public static java.util.UUID toUuid(yarnwrap.nbt.NbtElement element, ) { return net.minecraft.nbt.NbtHelper.toUuid(element.wrapperContained); }
 // public yarnwrap.nbt.NbtCompound fromNbtProviderString(java.lang.String string) { return new yarnwrap.nbt.NbtCompound(wrapperContained.fromNbtProviderString(string)); }
 // public static yarnwrap.nbt.NbtCompound fromNbtProviderString(java.lang.String string, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.nbt.NbtHelper.fromNbtProviderString(string)); }
 // public yarnwrap.nbt.NbtList method_32261(java.util.Map nbt) { return new yarnwrap.nbt.NbtList(wrapperContained.method_32261(nbt)); }
 // public static yarnwrap.nbt.NbtList method_32261(java.util.Map nbt, ) { return new yarnwrap.nbt.NbtList(net.minecraft.nbt.NbtHelper.method_32261(nbt)); }
-// public java.lang.String method_32262(yarnwrap.nbt.NbtCompound key) { return wrapperContained.method_32262(key.wrapperContained); }
-// public static java.lang.String method_32262(yarnwrap.nbt.NbtCompound key, ) { return net.minecraft.nbt.NbtHelper.method_32262(key.wrapperContained); }
+// public void method_32262(java.lang.StringBuilder properties) { wrapperContained.method_32262(properties); }
+// public static void method_32262(java.lang.StringBuilder properties, ) { net.minecraft.nbt.NbtHelper.method_32262(properties); }
 // public void method_32263(yarnwrap.nbt.NbtCompound property) { wrapperContained.method_32263(property.wrapperContained); }
 // public static void method_32263(yarnwrap.nbt.NbtCompound property, ) { net.minecraft.nbt.NbtHelper.method_32263(property.wrapperContained); }
 // public double method_32264(yarnwrap.nbt.NbtList nbt) { return wrapperContained.method_32264(nbt.wrapperContained); }
@@ -105,10 +102,10 @@ public static java.lang.String DATA_KEY() { return net.minecraft.nbt.NbtHelper.D
 // public static int method_32276(yarnwrap.nbt.NbtList nbt, ) { return net.minecraft.nbt.NbtHelper.method_32276(nbt.wrapperContained); }
 // public java.lang.String toNbtProviderFormattedPalette(yarnwrap.nbt.NbtCompound compound) { return wrapperContained.toNbtProviderFormattedPalette(compound.wrapperContained); }
 // public static java.lang.String toNbtProviderFormattedPalette(yarnwrap.nbt.NbtCompound compound, ) { return net.minecraft.nbt.NbtHelper.toNbtProviderFormattedPalette(compound.wrapperContained); }
-// public yarnwrap.nbt.NbtList method_32278(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.nbt.NbtList(wrapperContained.method_32278(nbt.wrapperContained)); }
-// public static yarnwrap.nbt.NbtList method_32278(yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.nbt.NbtList(net.minecraft.nbt.NbtHelper.method_32278(nbt.wrapperContained)); }
-// public yarnwrap.nbt.NbtList method_32279(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.nbt.NbtList(wrapperContained.method_32279(nbt.wrapperContained)); }
-// public static yarnwrap.nbt.NbtList method_32279(yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.nbt.NbtList(net.minecraft.nbt.NbtHelper.method_32279(nbt.wrapperContained)); }
+// public java.util.Optional method_32278(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.method_32278(nbt.wrapperContained); }
+// public static java.util.Optional method_32278(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.nbt.NbtHelper.method_32278(nbt.wrapperContained); }
+// public java.util.Optional method_32279(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.method_32279(nbt.wrapperContained); }
+// public static java.util.Optional method_32279(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.nbt.NbtHelper.method_32279(nbt.wrapperContained); }
 // public java.lang.StringBuilder appendIndent(int depth,java.lang.StringBuilder stringBuilder) { return wrapperContained.appendIndent(depth,stringBuilder); }
 // public static java.lang.StringBuilder appendIndent(int depth,java.lang.StringBuilder stringBuilder, ) { return net.minecraft.nbt.NbtHelper.appendIndent(depth,stringBuilder); }
 // public yarnwrap.nbt.NbtCompound fromFluidState(yarnwrap.fluid.FluidState state) { return new yarnwrap.nbt.NbtCompound(wrapperContained.fromFluidState(state.wrapperContained)); }
@@ -125,5 +122,19 @@ public static java.lang.String DATA_KEY() { return net.minecraft.nbt.NbtHelper.D
 // public static int getDataVersion(yarnwrap.nbt.NbtCompound nbt,int fallback, ) { return net.minecraft.nbt.NbtHelper.getDataVersion(nbt.wrapperContained,fallback); }
 // public yarnwrap.nbt.NbtCompound putDataVersion(yarnwrap.nbt.NbtCompound nbt) { return new yarnwrap.nbt.NbtCompound(wrapperContained.putDataVersion(nbt.wrapperContained)); }
 // public static yarnwrap.nbt.NbtCompound putDataVersion(yarnwrap.nbt.NbtCompound nbt, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.nbt.NbtHelper.putDataVersion(nbt.wrapperContained)); }
+// public int getDataVersion(com.mojang.serialization.Dynamic dynamic,int fallback) { return wrapperContained.getDataVersion(dynamic,fallback); }
+// public static int getDataVersion(com.mojang.serialization.Dynamic dynamic,int fallback, ) { return net.minecraft.nbt.NbtHelper.getDataVersion(dynamic,fallback); }
+// public java.lang.String method_68595(Object entry) { return wrapperContained.method_68595(entry); }
+// public static java.lang.String method_68595(Object entry, ) { return net.minecraft.nbt.NbtHelper.method_68595(entry); }
+// public java.lang.String method_68596(yarnwrap.nbt.NbtCompound key) { return wrapperContained.method_68596(key.wrapperContained); }
+// public static java.lang.String method_68596(yarnwrap.nbt.NbtCompound key, ) { return net.minecraft.nbt.NbtHelper.method_68596(key.wrapperContained); }
+// public java.util.stream.Stream method_68597(yarnwrap.nbt.NbtElement nbt) { return wrapperContained.method_68597(nbt.wrapperContained); }
+// public static java.util.stream.Stream method_68597(yarnwrap.nbt.NbtElement nbt, ) { return net.minecraft.nbt.NbtHelper.method_68597(nbt.wrapperContained); }
+// public java.util.stream.Stream method_68598(yarnwrap.nbt.NbtElement nbt) { return wrapperContained.method_68598(nbt.wrapperContained); }
+// public static java.util.stream.Stream method_68598(yarnwrap.nbt.NbtElement nbt, ) { return net.minecraft.nbt.NbtHelper.method_68598(nbt.wrapperContained); }
+// public void writeDataVersion(yarnwrap.storage.WriteView view) { wrapperContained.writeDataVersion(view.wrapperContained); }
+// public static void writeDataVersion(yarnwrap.storage.WriteView view, ) { net.minecraft.nbt.NbtHelper.writeDataVersion(view.wrapperContained); }
+// public void writeDataVersion(yarnwrap.storage.WriteView view,int dataVersion) { wrapperContained.writeDataVersion(view.wrapperContained,dataVersion); }
+// public static void writeDataVersion(yarnwrap.storage.WriteView view,int dataVersion, ) { net.minecraft.nbt.NbtHelper.writeDataVersion(view.wrapperContained,dataVersion); }
 
 }

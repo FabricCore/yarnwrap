@@ -9,8 +9,6 @@ public java.lang.String getCommandFeedbackName() { return wrapperContained.getCo
 // public static java.lang.String getCommandFeedbackName() { return net.minecraft.nbt.NbtType.getCommandFeedbackName(); }
 // public yarnwrap.nbt.NbtElement read(java.io.DataInput input,yarnwrap.nbt.NbtSizeTracker tracker) { return new yarnwrap.nbt.NbtElement(wrapperContained.read(input,tracker.wrapperContained)); }
 // public static yarnwrap.nbt.NbtElement read(java.io.DataInput input,yarnwrap.nbt.NbtSizeTracker tracker, ) { return new yarnwrap.nbt.NbtElement(net.minecraft.nbt.NbtType.read(input,tracker.wrapperContained)); }
-public boolean isImmutable() { return wrapperContained.isImmutable(); }
-// public static boolean isImmutable() { return net.minecraft.nbt.NbtType.isImmutable(); }
 // public void skip(java.io.DataInput input,yarnwrap.nbt.NbtSizeTracker tracker) { wrapperContained.skip(input,tracker.wrapperContained); }
 // public static void skip(java.io.DataInput input,yarnwrap.nbt.NbtSizeTracker tracker, ) { net.minecraft.nbt.NbtType.skip(input,tracker.wrapperContained); }
 // public Object doAccept(java.io.DataInput input,yarnwrap.nbt.scanner.NbtScanner visitor,yarnwrap.nbt.NbtSizeTracker tracker) { return wrapperContained.doAccept(input,visitor.wrapperContained,tracker.wrapperContained); }

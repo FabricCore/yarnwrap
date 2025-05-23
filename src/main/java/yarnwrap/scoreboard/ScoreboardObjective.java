@@ -72,5 +72,7 @@ public boolean shouldDisplayAutoUpdate() { return wrapperContained.shouldDisplay
 // public static boolean shouldDisplayAutoUpdate() { return net.minecraft.scoreboard.ScoreboardObjective.shouldDisplayAutoUpdate(); }
 public yarnwrap.scoreboard.number.NumberFormat getNumberFormat() { return new yarnwrap.scoreboard.number.NumberFormat(wrapperContained.getNumberFormat()); }
 // public static yarnwrap.scoreboard.number.NumberFormat getNumberFormat() { return new yarnwrap.scoreboard.number.NumberFormat(net.minecraft.scoreboard.ScoreboardObjective.getNumberFormat()); }
+public Object pack() { return wrapperContained.pack(); }
+// public static Object pack() { return net.minecraft.scoreboard.ScoreboardObjective.pack(); }
 
 }

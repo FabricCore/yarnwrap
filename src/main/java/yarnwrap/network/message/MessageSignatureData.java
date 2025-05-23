@@ -30,5 +30,9 @@ public java.nio.ByteBuffer toByteBuffer() { return wrapperContained.toByteBuffer
 // public static yarnwrap.network.message.MessageSignatureData fromBuf(yarnwrap.network.PacketByteBuf buf, ) { return new yarnwrap.network.message.MessageSignatureData(net.minecraft.network.message.MessageSignatureData.fromBuf(buf.wrapperContained)); }
 public Object pack(yarnwrap.network.message.MessageSignatureStorage storage) { return wrapperContained.pack(storage.wrapperContained); }
 // public static Object pack(yarnwrap.network.message.MessageSignatureStorage storage, ) { return net.minecraft.network.message.MessageSignatureData.pack(storage.wrapperContained); }
+// public java.lang.String toString(yarnwrap.network.message.MessageSignatureData signature) { return wrapperContained.toString(signature.wrapperContained); }
+// public static java.lang.String toString(yarnwrap.network.message.MessageSignatureData signature, ) { return net.minecraft.network.message.MessageSignatureData.toString(signature.wrapperContained); }
+public int calculateChecksum() { return wrapperContained.calculateChecksum(); }
+// public static int calculateChecksum() { return net.minecraft.network.message.MessageSignatureData.calculateChecksum(); }
 
 }

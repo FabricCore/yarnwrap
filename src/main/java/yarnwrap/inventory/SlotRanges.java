@@ -32,8 +32,8 @@ public static java.util.stream.Stream streamNames() { return net.minecraft.inven
 // public static void method_58084(java.util.ArrayList list, ) { net.minecraft.inventory.SlotRanges.method_58084(list); }
 // public void createAndAdd(java.util.List list,java.lang.String name,int slotId) { wrapperContained.createAndAdd(list,name,slotId); }
 // public static void createAndAdd(java.util.List list,java.lang.String name,int slotId, ) { net.minecraft.inventory.SlotRanges.createAndAdd(list,name,slotId); }
-// public void createAndAdd(java.util.List list,java.lang.String baseName,int firstSlotId,int lastSlotId) { wrapperContained.createAndAdd(list,baseName,firstSlotId,lastSlotId); }
-// public static void createAndAdd(java.util.List list,java.lang.String baseName,int firstSlotId,int lastSlotId, ) { net.minecraft.inventory.SlotRanges.createAndAdd(list,baseName,firstSlotId,lastSlotId); }
+// public void createAndAdd(java.util.List list,java.lang.String baseName,int firstSlotId,int slotCount) { wrapperContained.createAndAdd(list,baseName,firstSlotId,slotCount); }
+// public static void createAndAdd(java.util.List list,java.lang.String baseName,int firstSlotId,int slotCount, ) { net.minecraft.inventory.SlotRanges.createAndAdd(list,baseName,firstSlotId,slotCount); }
 // // public void createAndAdd(java.util.List list,java.lang.String name,int slots) { wrapperContained.createAndAdd(list,name,slots); }
 // // public static void createAndAdd(java.util.List list,java.lang.String name,int slots, ) { net.minecraft.inventory.SlotRanges.createAndAdd(list,name,slots); }
 // public java.util.stream.Stream streamSingleSlotNames() { return wrapperContained.streamSingleSlotNames(); }

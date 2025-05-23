@@ -1,10 +1,10 @@
 package yarnwrap.client.texture;
 public class GuiAtlasManager { public net.minecraft.client.texture.GuiAtlasManager wrapperContained; public GuiAtlasManager(net.minecraft.client.texture.GuiAtlasManager wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public java.util.Set METADATA_READERS() { return wrapperContained.METADATA_READERS; }
-// public void METADATA_READERS(java.util.Set value) { wrapperContained.METADATA_READERS = value; }
-// public static java.util.Set METADATA_READERS() { return net.minecraft.client.texture.GuiAtlasManager.METADATA_READERS; }
-// public static void METADATA_READERS(java.util.Set value, ) { net.minecraft.client.texture.GuiAtlasManager.METADATA_READERS = value; }
+// public java.util.Set METADATA_SERIALIZERS() { return wrapperContained.METADATA_SERIALIZERS; }
+// public void METADATA_SERIALIZERS(java.util.Set value) { wrapperContained.METADATA_SERIALIZERS = value; }
+// public static java.util.Set METADATA_SERIALIZERS() { return net.minecraft.client.texture.GuiAtlasManager.METADATA_SERIALIZERS; }
+// public static void METADATA_SERIALIZERS(java.util.Set value, ) { net.minecraft.client.texture.GuiAtlasManager.METADATA_SERIALIZERS = value; }
 
 public GuiAtlasManager(yarnwrap.client.texture.TextureManager manager) { this.wrapperContained = new net.minecraft.client.texture.GuiAtlasManager(manager.wrapperContained); }
 public yarnwrap.client.texture.Scaling getScaling(yarnwrap.client.texture.Sprite sprite) { return new yarnwrap.client.texture.Scaling(wrapperContained.getScaling(sprite.wrapperContained)); }

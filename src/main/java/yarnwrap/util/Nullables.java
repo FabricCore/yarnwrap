@@ -31,5 +31,7 @@ public class Nullables { public net.minecraft.util.Nullables wrapperContained; p
 // public static boolean isEmpty(short array, ) { return net.minecraft.util.Nullables.isEmpty(array); }
 // public boolean isEmpty(boolean array) { return wrapperContained.isEmpty(array); }
 // public static boolean isEmpty(boolean array, ) { return net.minecraft.util.Nullables.isEmpty(array); }
+// public java.lang.Object requireNonNullElse(java.lang.Object first,java.lang.Object second) { return wrapperContained.requireNonNullElse(first,second); }
+// public static java.lang.Object requireNonNullElse(java.lang.Object first,java.lang.Object second, ) { return net.minecraft.util.Nullables.requireNonNullElse(first,second); }
 
 }

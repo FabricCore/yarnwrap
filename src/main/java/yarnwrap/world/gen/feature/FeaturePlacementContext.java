@@ -17,8 +17,8 @@ public class FeaturePlacementContext { public net.minecraft.world.gen.feature.Fe
 // public static void placedFeature(java.util.Optional value, ) { net.minecraft.world.gen.feature.FeaturePlacementContext.placedFeature = value; }
 
 public FeaturePlacementContext(yarnwrap.world.StructureWorldAccess world,yarnwrap.world.gen.chunk.ChunkGenerator generator,java.util.Optional placedFeature) { this.wrapperContained = new net.minecraft.world.gen.feature.FeaturePlacementContext(world.wrapperContained,generator.wrapperContained,placedFeature); }
-// public yarnwrap.world.gen.carver.CarvingMask getOrCreateCarvingMask(yarnwrap.util.math.ChunkPos chunkPos,Object carver) { return new yarnwrap.world.gen.carver.CarvingMask(wrapperContained.getOrCreateCarvingMask(chunkPos.wrapperContained,carver)); }
-// public static yarnwrap.world.gen.carver.CarvingMask getOrCreateCarvingMask(yarnwrap.util.math.ChunkPos chunkPos,Object carver, ) { return new yarnwrap.world.gen.carver.CarvingMask(net.minecraft.world.gen.feature.FeaturePlacementContext.getOrCreateCarvingMask(chunkPos.wrapperContained,carver)); }
+public yarnwrap.world.gen.carver.CarvingMask getOrCreateCarvingMask(yarnwrap.util.math.ChunkPos chunkPos) { return new yarnwrap.world.gen.carver.CarvingMask(wrapperContained.getOrCreateCarvingMask(chunkPos.wrapperContained)); }
+// public static yarnwrap.world.gen.carver.CarvingMask getOrCreateCarvingMask(yarnwrap.util.math.ChunkPos chunkPos, ) { return new yarnwrap.world.gen.carver.CarvingMask(net.minecraft.world.gen.feature.FeaturePlacementContext.getOrCreateCarvingMask(chunkPos.wrapperContained)); }
 // public int getTopY(Object heightmap,int x,int z) { return wrapperContained.getTopY(heightmap,x,z); }
 // public static int getTopY(Object heightmap,int x,int z, ) { return net.minecraft.world.gen.feature.FeaturePlacementContext.getTopY(heightmap,x,z); }
 public yarnwrap.block.BlockState getBlockState(yarnwrap.util.math.BlockPos pos) { return new yarnwrap.block.BlockState(wrapperContained.getBlockState(pos.wrapperContained)); }

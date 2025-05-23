@@ -77,8 +77,8 @@ public static int DIG_COOLDOWN() { return net.minecraft.entity.mob.WardenBrain.D
 // public static boolean method_42232(yarnwrap.entity.LivingEntity entityx, ) { return net.minecraft.entity.mob.WardenBrain.method_42232(entityx.wrapperContained); }
 // public void addEmergeActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addEmergeActivities(brain.wrapperContained); }
 // public static void addEmergeActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.WardenBrain.addEmergeActivities(brain.wrapperContained); }
-// public void removeDeadSuspect(yarnwrap.entity.mob.WardenEntity warden,yarnwrap.entity.LivingEntity suspect) { wrapperContained.removeDeadSuspect(warden.wrapperContained,suspect.wrapperContained); }
-// public static void removeDeadSuspect(yarnwrap.entity.mob.WardenEntity warden,yarnwrap.entity.LivingEntity suspect, ) { net.minecraft.entity.mob.WardenBrain.removeDeadSuspect(warden.wrapperContained,suspect.wrapperContained); }
+// public void removeDeadSuspect(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.WardenEntity warden,yarnwrap.entity.LivingEntity target) { wrapperContained.removeDeadSuspect(world.wrapperContained,warden.wrapperContained,target.wrapperContained); }
+// public static void removeDeadSuspect(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.mob.WardenEntity warden,yarnwrap.entity.LivingEntity target, ) { net.minecraft.entity.mob.WardenBrain.removeDeadSuspect(world.wrapperContained,warden.wrapperContained,target.wrapperContained); }
 // public void addFightActivities(yarnwrap.entity.mob.WardenEntity warden,yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addFightActivities(warden.wrapperContained,brain.wrapperContained); }
 // public static void addFightActivities(yarnwrap.entity.mob.WardenEntity warden,yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.WardenBrain.addFightActivities(warden.wrapperContained,brain.wrapperContained); }
 // public void addDigActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addDigActivities(brain.wrapperContained); }
@@ -89,8 +89,8 @@ public static int DIG_COOLDOWN() { return net.minecraft.entity.mob.WardenBrain.D
 // public static boolean method_42241(yarnwrap.entity.mob.WardenEntity entity, ) { return net.minecraft.entity.mob.WardenBrain.method_42241(entity.wrapperContained); }
 // public void addInvestigateActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addInvestigateActivities(brain.wrapperContained); }
 // public static void addInvestigateActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.WardenBrain.addInvestigateActivities(brain.wrapperContained); }
-// public boolean method_42243(yarnwrap.entity.mob.WardenEntity entity) { return wrapperContained.method_42243(entity.wrapperContained); }
-// public static boolean method_42243(yarnwrap.entity.mob.WardenEntity entity, ) { return net.minecraft.entity.mob.WardenBrain.method_42243(entity.wrapperContained); }
+// public boolean method_42243(yarnwrap.entity.mob.WardenEntity world,yarnwrap.server.world.ServerWorld target) { return wrapperContained.method_42243(world.wrapperContained,target.wrapperContained); }
+// public static boolean method_42243(yarnwrap.entity.mob.WardenEntity world,yarnwrap.server.world.ServerWorld target, ) { return net.minecraft.entity.mob.WardenBrain.method_42243(world.wrapperContained,target.wrapperContained); }
 // public void addSniffActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addSniffActivities(brain.wrapperContained); }
 // public static void addSniffActivities(yarnwrap.entity.ai.brain.Brain brain, ) { net.minecraft.entity.mob.WardenBrain.addSniffActivities(brain.wrapperContained); }
 // public void addRoarActivities(yarnwrap.entity.ai.brain.Brain brain) { wrapperContained.addRoarActivities(brain.wrapperContained); }

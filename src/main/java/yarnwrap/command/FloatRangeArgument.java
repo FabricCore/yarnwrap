@@ -12,6 +12,14 @@ public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType ONLY_IN
 // public static void ONLY_INTS_EXCEPTION(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value, ) { net.minecraft.command.FloatRangeArgument.ONLY_INTS_EXCEPTION = value; }
 
 public FloatRangeArgument(java.lang.Float min,java.lang.Float max) { this.wrapperContained = new net.minecraft.command.FloatRangeArgument(min,max); }
+// public yarnwrap.command.FloatRangeArgument parse(com.mojang.brigadier.StringReader reader,boolean allowFloats,java.util.function.Function transform) { return new yarnwrap.command.FloatRangeArgument(wrapperContained.parse(reader,allowFloats,transform)); }
+// public static yarnwrap.command.FloatRangeArgument parse(com.mojang.brigadier.StringReader reader,boolean allowFloats,java.util.function.Function transform, ) { return new yarnwrap.command.FloatRangeArgument(net.minecraft.command.FloatRangeArgument.parse(reader,allowFloats,transform)); }
+// public boolean peekDigit(com.mojang.brigadier.StringReader reader,boolean allowFloats) { return wrapperContained.peekDigit(reader,allowFloats); }
+// public static boolean peekDigit(com.mojang.brigadier.StringReader reader,boolean allowFloats, ) { return net.minecraft.command.FloatRangeArgument.peekDigit(reader,allowFloats); }
+// public java.lang.Float mapFloat(java.lang.Float value,java.util.function.Function function) { return wrapperContained.mapFloat(value,function); }
+// public static java.lang.Float mapFloat(java.lang.Float value,java.util.function.Function function, ) { return net.minecraft.command.FloatRangeArgument.mapFloat(value,function); }
+// public java.lang.Float parseFloat(com.mojang.brigadier.StringReader reader,boolean allowFloats) { return wrapperContained.parseFloat(reader,allowFloats); }
+// public static java.lang.Float parseFloat(com.mojang.brigadier.StringReader reader,boolean allowFloats, ) { return net.minecraft.command.FloatRangeArgument.parseFloat(reader,allowFloats); }
 public boolean isInSquaredRange(double value) { return wrapperContained.isInSquaredRange(value); }
 // public static boolean isInSquaredRange(double value, ) { return net.minecraft.command.FloatRangeArgument.isInSquaredRange(value); }
 // public yarnwrap.command.FloatRangeArgument exactly(float value) { return new yarnwrap.command.FloatRangeArgument(wrapperContained.exactly(value)); }
@@ -32,13 +40,5 @@ public com.google.gson.JsonElement toJson() { return wrapperContained.toJson(); 
 // public static yarnwrap.command.FloatRangeArgument atMost(float value, ) { return new yarnwrap.command.FloatRangeArgument(net.minecraft.command.FloatRangeArgument.atMost(value)); }
 public boolean isInRange(float value) { return wrapperContained.isInRange(value); }
 // public static boolean isInRange(float value, ) { return net.minecraft.command.FloatRangeArgument.isInRange(value); }
-// public yarnwrap.command.FloatRangeArgument parse(com.mojang.brigadier.StringReader reader,boolean allowFloats,java.util.function.Function transform) { return new yarnwrap.command.FloatRangeArgument(wrapperContained.parse(reader,allowFloats,transform)); }
-// public static yarnwrap.command.FloatRangeArgument parse(com.mojang.brigadier.StringReader reader,boolean allowFloats,java.util.function.Function transform, ) { return new yarnwrap.command.FloatRangeArgument(net.minecraft.command.FloatRangeArgument.parse(reader,allowFloats,transform)); }
-// public boolean peekDigit(com.mojang.brigadier.StringReader reader,boolean allowFloats) { return wrapperContained.peekDigit(reader,allowFloats); }
-// public static boolean peekDigit(com.mojang.brigadier.StringReader reader,boolean allowFloats, ) { return net.minecraft.command.FloatRangeArgument.peekDigit(reader,allowFloats); }
-// public java.lang.Float mapFloat(java.lang.Float value,java.util.function.Function function) { return wrapperContained.mapFloat(value,function); }
-// public static java.lang.Float mapFloat(java.lang.Float value,java.util.function.Function function, ) { return net.minecraft.command.FloatRangeArgument.mapFloat(value,function); }
-// public java.lang.Float parseFloat(com.mojang.brigadier.StringReader reader,boolean allowFloats) { return wrapperContained.parseFloat(reader,allowFloats); }
-// public static java.lang.Float parseFloat(com.mojang.brigadier.StringReader reader,boolean allowFloats, ) { return net.minecraft.command.FloatRangeArgument.parseFloat(reader,allowFloats); }
 
 }

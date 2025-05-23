@@ -71,6 +71,7 @@ public class DecoratedPotBlockEntityRenderer { public net.minecraft.client.rende
 // public static yarnwrap.client.model.ModelPart bottom() { return new yarnwrap.client.model.ModelPart(net.minecraft.client.render.block.entity.DecoratedPotBlockEntityRenderer.bottom); }
 // public static void bottom(yarnwrap.client.model.ModelPart value, ) { net.minecraft.client.render.block.entity.DecoratedPotBlockEntityRenderer.bottom = value.wrapperContained; }
 
+public DecoratedPotBlockEntityRenderer(yarnwrap.client.render.entity.model.LoadedEntityModels models) { this.wrapperContained = new net.minecraft.client.render.block.entity.DecoratedPotBlockEntityRenderer(models.wrapperContained); }
 // public DecoratedPotBlockEntityRenderer(Object context) { this.wrapperContained = new net.minecraft.client.render.block.entity.DecoratedPotBlockEntityRenderer(context); }
 // public yarnwrap.client.util.SpriteIdentifier getTextureIdFromSherd(java.util.Optional sherd) { return new yarnwrap.client.util.SpriteIdentifier(wrapperContained.getTextureIdFromSherd(sherd)); }
 // public static yarnwrap.client.util.SpriteIdentifier getTextureIdFromSherd(java.util.Optional sherd, ) { return new yarnwrap.client.util.SpriteIdentifier(net.minecraft.client.render.block.entity.DecoratedPotBlockEntityRenderer.getTextureIdFromSherd(sherd)); }
@@ -80,5 +81,9 @@ public class DecoratedPotBlockEntityRenderer { public net.minecraft.client.rende
 public static yarnwrap.client.model.TexturedModelData getTopBottomNeckTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.block.entity.DecoratedPotBlockEntityRenderer.getTopBottomNeckTexturedModelData()); }
 // public yarnwrap.client.model.TexturedModelData getSidesTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(wrapperContained.getSidesTexturedModelData()); }
 public static yarnwrap.client.model.TexturedModelData getSidesTexturedModelData() { return new yarnwrap.client.model.TexturedModelData(net.minecraft.client.render.block.entity.DecoratedPotBlockEntityRenderer.getSidesTexturedModelData()); }
+public void renderAsItem(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.block.entity.Sherds sherds) { wrapperContained.renderAsItem(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,sherds.wrapperContained); }
+// public static void renderAsItem(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.block.entity.Sherds sherds, ) { net.minecraft.client.render.block.entity.DecoratedPotBlockEntityRenderer.renderAsItem(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,sherds.wrapperContained); }
+// public void render(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.block.entity.Sherds sherds) { wrapperContained.render(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,sherds.wrapperContained); }
+// public static void render(yarnwrap.client.util.math.MatrixStack matrices,yarnwrap.client.render.VertexConsumerProvider vertexConsumers,int light,int overlay,yarnwrap.block.entity.Sherds sherds, ) { net.minecraft.client.render.block.entity.DecoratedPotBlockEntityRenderer.render(matrices.wrapperContained,vertexConsumers.wrapperContained,light,overlay,sherds.wrapperContained); }
 
 }

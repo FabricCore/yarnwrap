@@ -1,7 +1,6 @@
 package yarnwrap.datafixer.fix;
 public class FurnaceRecipesFix { public net.minecraft.datafixer.fix.FurnaceRecipesFix wrapperContained; public FurnaceRecipesFix(net.minecraft.datafixer.fix.FurnaceRecipesFix wrapperContained) { this.wrapperContained = wrapperContained; }
 
-public FurnaceRecipesFix(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.FurnaceRecipesFix(outputSchema,changesType); }
 // public com.mojang.datafixers.Typed method_24312(com.mojang.datafixers.OpticFinder blockEntityTyped) { return wrapperContained.method_24312(blockEntityTyped); }
 // public static com.mojang.datafixers.Typed method_24312(com.mojang.datafixers.OpticFinder blockEntityTyped, ) { return net.minecraft.datafixer.fix.FurnaceRecipesFix.method_24312(blockEntityTyped); }
 // public com.mojang.datafixers.TypeRewriteRule updateBlockEntities(com.mojang.datafixers.types.Type recipeType) { return wrapperContained.updateBlockEntities(recipeType); }

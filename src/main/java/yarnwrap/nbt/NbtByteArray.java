@@ -16,15 +16,10 @@ public static yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(net.
 // public static int SIZE() { return net.minecraft.nbt.NbtByteArray.SIZE; }
 // public static void SIZE(int value, ) { net.minecraft.nbt.NbtByteArray.SIZE = value; }
 
-public NbtByteArray(java.util.List value) { this.wrapperContained = new net.minecraft.nbt.NbtByteArray(value); }
 // public NbtByteArray(byte value) { this.wrapperContained = new net.minecraft.nbt.NbtByteArray(value); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.nbt.NbtByteArray.equals(o); }
-public java.lang.Object get(int index) { return wrapperContained.get(index); }
-// public static java.lang.Object get(int index, ) { return net.minecraft.nbt.NbtByteArray.get(index); }
 public byte[] getByteArray() { return wrapperContained.getByteArray(); }
 // public static byte[] getByteArray() { return net.minecraft.nbt.NbtByteArray.getByteArray(); }
-// public byte[] toArray(java.util.List list) { return wrapperContained.toArray(list); }
-// public static byte[] toArray(java.util.List list, ) { return net.minecraft.nbt.NbtByteArray.toArray(list); }
 
 }

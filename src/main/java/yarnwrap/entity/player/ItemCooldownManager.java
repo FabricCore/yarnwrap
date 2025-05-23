@@ -11,19 +11,23 @@ public class ItemCooldownManager { public net.minecraft.entity.player.ItemCooldo
 // public static int tick() { return net.minecraft.entity.player.ItemCooldownManager.tick; }
 // public static void tick(int value, ) { net.minecraft.entity.player.ItemCooldownManager.tick = value; }
 
-public void remove(yarnwrap.item.Item item) { wrapperContained.remove(item.wrapperContained); }
-// public static void remove(yarnwrap.item.Item item, ) { net.minecraft.entity.player.ItemCooldownManager.remove(item.wrapperContained); }
-// public void onCooldownUpdate(yarnwrap.item.Item item) { wrapperContained.onCooldownUpdate(item.wrapperContained); }
-// public static void onCooldownUpdate(yarnwrap.item.Item item, ) { net.minecraft.entity.player.ItemCooldownManager.onCooldownUpdate(item.wrapperContained); }
-// public void onCooldownUpdate(yarnwrap.item.Item item,int duration) { wrapperContained.onCooldownUpdate(item.wrapperContained,duration); }
-// public static void onCooldownUpdate(yarnwrap.item.Item item,int duration, ) { net.minecraft.entity.player.ItemCooldownManager.onCooldownUpdate(item.wrapperContained,duration); }
+public void remove(yarnwrap.util.Identifier groupId) { wrapperContained.remove(groupId.wrapperContained); }
+// public static void remove(yarnwrap.util.Identifier groupId, ) { net.minecraft.entity.player.ItemCooldownManager.remove(groupId.wrapperContained); }
+// public void onCooldownUpdate(yarnwrap.util.Identifier groupId) { wrapperContained.onCooldownUpdate(groupId.wrapperContained); }
+// public static void onCooldownUpdate(yarnwrap.util.Identifier groupId, ) { net.minecraft.entity.player.ItemCooldownManager.onCooldownUpdate(groupId.wrapperContained); }
+// public void onCooldownUpdate(yarnwrap.util.Identifier groupId,int duration) { wrapperContained.onCooldownUpdate(groupId.wrapperContained,duration); }
+// public static void onCooldownUpdate(yarnwrap.util.Identifier groupId,int duration, ) { net.minecraft.entity.player.ItemCooldownManager.onCooldownUpdate(groupId.wrapperContained,duration); }
 public void update() { wrapperContained.update(); }
 // public static void update() { net.minecraft.entity.player.ItemCooldownManager.update(); }
-public boolean isCoolingDown(yarnwrap.item.Item item) { return wrapperContained.isCoolingDown(item.wrapperContained); }
-// public static boolean isCoolingDown(yarnwrap.item.Item item, ) { return net.minecraft.entity.player.ItemCooldownManager.isCoolingDown(item.wrapperContained); }
-public float getCooldownProgress(yarnwrap.item.Item item,float tickDelta) { return wrapperContained.getCooldownProgress(item.wrapperContained,tickDelta); }
-// public static float getCooldownProgress(yarnwrap.item.Item item,float tickDelta, ) { return net.minecraft.entity.player.ItemCooldownManager.getCooldownProgress(item.wrapperContained,tickDelta); }
-public void set(yarnwrap.item.Item item,int duration) { wrapperContained.set(item.wrapperContained,duration); }
-// public static void set(yarnwrap.item.Item item,int duration, ) { net.minecraft.entity.player.ItemCooldownManager.set(item.wrapperContained,duration); }
+public boolean isCoolingDown(yarnwrap.item.ItemStack stack) { return wrapperContained.isCoolingDown(stack.wrapperContained); }
+// public static boolean isCoolingDown(yarnwrap.item.ItemStack stack, ) { return net.minecraft.entity.player.ItemCooldownManager.isCoolingDown(stack.wrapperContained); }
+public float getCooldownProgress(yarnwrap.item.ItemStack stack,float tickProgress) { return wrapperContained.getCooldownProgress(stack.wrapperContained,tickProgress); }
+// public static float getCooldownProgress(yarnwrap.item.ItemStack stack,float tickProgress, ) { return net.minecraft.entity.player.ItemCooldownManager.getCooldownProgress(stack.wrapperContained,tickProgress); }
+public void set(yarnwrap.util.Identifier groupId,int duration) { wrapperContained.set(groupId.wrapperContained,duration); }
+// public static void set(yarnwrap.util.Identifier groupId,int duration, ) { net.minecraft.entity.player.ItemCooldownManager.set(groupId.wrapperContained,duration); }
+public void set(yarnwrap.item.ItemStack stack,int duration) { wrapperContained.set(stack.wrapperContained,duration); }
+// public static void set(yarnwrap.item.ItemStack stack,int duration, ) { net.minecraft.entity.player.ItemCooldownManager.set(stack.wrapperContained,duration); }
+public yarnwrap.util.Identifier getGroup(yarnwrap.item.ItemStack stack) { return new yarnwrap.util.Identifier(wrapperContained.getGroup(stack.wrapperContained)); }
+// public static yarnwrap.util.Identifier getGroup(yarnwrap.item.ItemStack stack, ) { return new yarnwrap.util.Identifier(net.minecraft.entity.player.ItemCooldownManager.getGroup(stack.wrapperContained)); }
 
 }

@@ -91,6 +91,11 @@ public static com.mojang.serialization.Codec CODEC() { return net.minecraft.bloc
 public static yarnwrap.block.BlockSetType COPPER() { return new yarnwrap.block.BlockSetType(net.minecraft.block.BlockSetType.COPPER); }
 // public static void COPPER(yarnwrap.block.BlockSetType value, ) { net.minecraft.block.BlockSetType.COPPER = value.wrapperContained; }
 
+// public yarnwrap.block.BlockSetType PALE_OAK() { return new yarnwrap.block.BlockSetType(wrapperContained.PALE_OAK); }
+// public void PALE_OAK(yarnwrap.block.BlockSetType value) { wrapperContained.PALE_OAK = value.wrapperContained; }
+public static yarnwrap.block.BlockSetType PALE_OAK() { return new yarnwrap.block.BlockSetType(net.minecraft.block.BlockSetType.PALE_OAK); }
+// public static void PALE_OAK(yarnwrap.block.BlockSetType value, ) { net.minecraft.block.BlockSetType.PALE_OAK = value.wrapperContained; }
+
 public BlockSetType(java.lang.String name) { this.wrapperContained = new net.minecraft.block.BlockSetType(name); }
 // public java.util.stream.Stream stream() { return wrapperContained.stream(); }
 public static java.util.stream.Stream stream() { return net.minecraft.block.BlockSetType.stream(); }

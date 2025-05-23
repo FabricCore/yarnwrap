@@ -201,12 +201,7 @@ public static yarnwrap.component.type.FoodComponent HONEY_BOTTLE() { return new 
 public static yarnwrap.component.type.FoodComponent GLOW_BERRIES() { return new yarnwrap.component.type.FoodComponent(net.minecraft.component.type.FoodComponents.GLOW_BERRIES); }
 // public static void GLOW_BERRIES(yarnwrap.component.type.FoodComponent value, ) { net.minecraft.component.type.FoodComponents.GLOW_BERRIES = value.wrapperContained; }
 
-// public yarnwrap.component.type.FoodComponent OMINOUS_BOTTLE() { return new yarnwrap.component.type.FoodComponent(wrapperContained.OMINOUS_BOTTLE); }
-// public void OMINOUS_BOTTLE(yarnwrap.component.type.FoodComponent value) { wrapperContained.OMINOUS_BOTTLE = value.wrapperContained; }
-public static yarnwrap.component.type.FoodComponent OMINOUS_BOTTLE() { return new yarnwrap.component.type.FoodComponent(net.minecraft.component.type.FoodComponents.OMINOUS_BOTTLE); }
-// public static void OMINOUS_BOTTLE(yarnwrap.component.type.FoodComponent value, ) { net.minecraft.component.type.FoodComponents.OMINOUS_BOTTLE = value.wrapperContained; }
-
-// public Object createStew(int hunger) { return wrapperContained.createStew(hunger); }
-// public static Object createStew(int hunger, ) { return net.minecraft.component.type.FoodComponents.createStew(hunger); }
+// public Object createStew(int nutrition) { return wrapperContained.createStew(nutrition); }
+// public static Object createStew(int nutrition, ) { return net.minecraft.component.type.FoodComponents.createStew(nutrition); }
 
 }

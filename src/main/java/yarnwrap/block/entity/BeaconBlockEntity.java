@@ -89,8 +89,6 @@ public static int PROPERTY_COUNT() { return net.minecraft.block.entity.BeaconBlo
 public BeaconBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.BeaconBlockEntity(pos.wrapperContained,state.wrapperContained); }
 public void setCustomName(yarnwrap.text.Text customName) { wrapperContained.setCustomName(customName.wrapperContained); }
 // public static void setCustomName(yarnwrap.text.Text customName, ) { net.minecraft.block.entity.BeaconBlockEntity.setCustomName(customName.wrapperContained); }
-public java.util.List getBeamSegments() { return wrapperContained.getBeamSegments(); }
-// public static java.util.List getBeamSegments() { return net.minecraft.block.entity.BeaconBlockEntity.getBeamSegments(); }
 // public void playSound(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.sound.SoundEvent sound) { wrapperContained.playSound(world.wrapperContained,pos.wrapperContained,sound.wrapperContained); }
 // public static void playSound(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,yarnwrap.sound.SoundEvent sound, ) { net.minecraft.block.entity.BeaconBlockEntity.playSound(world.wrapperContained,pos.wrapperContained,sound.wrapperContained); }
 // public void applyPlayerEffects(yarnwrap.world.World world,yarnwrap.util.math.BlockPos pos,int beaconLevel,yarnwrap.registry.entry.RegistryEntry primaryEffect,yarnwrap.registry.entry.RegistryEntry secondaryEffect) { wrapperContained.applyPlayerEffects(world.wrapperContained,pos.wrapperContained,beaconLevel,primaryEffect.wrapperContained,secondaryEffect.wrapperContained); }
@@ -101,11 +99,11 @@ public java.util.List getBeamSegments() { return wrapperContained.getBeamSegment
 // public static int updateLevel(yarnwrap.world.World world,int x,int y,int z, ) { return net.minecraft.block.entity.BeaconBlockEntity.updateLevel(world.wrapperContained,x,y,z); }
 // public yarnwrap.registry.entry.RegistryEntry getEffectOrNull(yarnwrap.registry.entry.RegistryEntry effect) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.getEffectOrNull(effect.wrapperContained)); }
 // public static yarnwrap.registry.entry.RegistryEntry getEffectOrNull(yarnwrap.registry.entry.RegistryEntry effect, ) { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.block.entity.BeaconBlockEntity.getEffectOrNull(effect.wrapperContained)); }
-// public yarnwrap.registry.entry.RegistryEntry readStatusEffect(yarnwrap.nbt.NbtCompound nbt,java.lang.String key) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.readStatusEffect(nbt.wrapperContained,key)); }
-// public static yarnwrap.registry.entry.RegistryEntry readStatusEffect(yarnwrap.nbt.NbtCompound nbt,java.lang.String key, ) { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.block.entity.BeaconBlockEntity.readStatusEffect(nbt.wrapperContained,key)); }
-// public void writeStatusEffect(yarnwrap.nbt.NbtCompound nbt,java.lang.String key,yarnwrap.registry.entry.RegistryEntry effect) { wrapperContained.writeStatusEffect(nbt.wrapperContained,key,effect.wrapperContained); }
-// public static void writeStatusEffect(yarnwrap.nbt.NbtCompound nbt,java.lang.String key,yarnwrap.registry.entry.RegistryEntry effect, ) { net.minecraft.block.entity.BeaconBlockEntity.writeStatusEffect(nbt.wrapperContained,key,effect.wrapperContained); }
-// public void method_55779(yarnwrap.nbt.NbtCompound entryKey) { wrapperContained.method_55779(entryKey.wrapperContained); }
-// public static void method_55779(yarnwrap.nbt.NbtCompound entryKey, ) { net.minecraft.block.entity.BeaconBlockEntity.method_55779(entryKey.wrapperContained); }
+// public yarnwrap.registry.entry.RegistryEntry readStatusEffect(yarnwrap.storage.ReadView view,java.lang.String key) { return new yarnwrap.registry.entry.RegistryEntry(wrapperContained.readStatusEffect(view.wrapperContained,key)); }
+// public static yarnwrap.registry.entry.RegistryEntry readStatusEffect(yarnwrap.storage.ReadView view,java.lang.String key, ) { return new yarnwrap.registry.entry.RegistryEntry(net.minecraft.block.entity.BeaconBlockEntity.readStatusEffect(view.wrapperContained,key)); }
+// public void writeStatusEffect(yarnwrap.storage.WriteView view,java.lang.String key,yarnwrap.registry.entry.RegistryEntry effect) { wrapperContained.writeStatusEffect(view.wrapperContained,key,effect.wrapperContained); }
+// public static void writeStatusEffect(yarnwrap.storage.WriteView view,java.lang.String key,yarnwrap.registry.entry.RegistryEntry effect, ) { net.minecraft.block.entity.BeaconBlockEntity.writeStatusEffect(view.wrapperContained,key,effect.wrapperContained); }
+// public void method_55779(yarnwrap.storage.WriteView entryKey) { wrapperContained.method_55779(entryKey.wrapperContained); }
+// public static void method_55779(yarnwrap.storage.WriteView entryKey, ) { net.minecraft.block.entity.BeaconBlockEntity.method_55779(entryKey.wrapperContained); }
 
 }

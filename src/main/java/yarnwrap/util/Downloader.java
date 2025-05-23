@@ -16,10 +16,10 @@ public class Downloader { public net.minecraft.util.Downloader wrapperContained;
 // public static yarnwrap.util.logging.LogWriter logWriter() { return new yarnwrap.util.logging.LogWriter(net.minecraft.util.Downloader.logWriter); }
 // public static void logWriter(yarnwrap.util.logging.LogWriter value, ) { net.minecraft.util.Downloader.logWriter = value.wrapperContained; }
 
-// public yarnwrap.util.thread.TaskExecutor executor() { return new yarnwrap.util.thread.TaskExecutor(wrapperContained.executor); }
-// public void executor(yarnwrap.util.thread.TaskExecutor value) { wrapperContained.executor = value.wrapperContained; }
-// public static yarnwrap.util.thread.TaskExecutor executor() { return new yarnwrap.util.thread.TaskExecutor(net.minecraft.util.Downloader.executor); }
-// public static void executor(yarnwrap.util.thread.TaskExecutor value, ) { net.minecraft.util.Downloader.executor = value.wrapperContained; }
+// public yarnwrap.util.thread.SimpleConsecutiveExecutor executor() { return new yarnwrap.util.thread.SimpleConsecutiveExecutor(wrapperContained.executor); }
+// public void executor(yarnwrap.util.thread.SimpleConsecutiveExecutor value) { wrapperContained.executor = value.wrapperContained; }
+// public static yarnwrap.util.thread.SimpleConsecutiveExecutor executor() { return new yarnwrap.util.thread.SimpleConsecutiveExecutor(net.minecraft.util.Downloader.executor); }
+// public static void executor(yarnwrap.util.thread.SimpleConsecutiveExecutor value, ) { net.minecraft.util.Downloader.executor = value.wrapperContained; }
 
 // public int MAX_RETAINED_CACHE_FILES() { return wrapperContained.MAX_RETAINED_CACHE_FILES; }
 // public void MAX_RETAINED_CACHE_FILES(int value) { wrapperContained.MAX_RETAINED_CACHE_FILES = value; }

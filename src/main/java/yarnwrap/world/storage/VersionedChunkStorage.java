@@ -26,8 +26,8 @@ public yarnwrap.nbt.NbtCompound updateChunkNbt(yarnwrap.registry.RegistryKey wor
 // public static yarnwrap.nbt.NbtCompound updateChunkNbt(yarnwrap.registry.RegistryKey worldKey,java.util.function.Supplier persistentStateManagerFactory,yarnwrap.nbt.NbtCompound nbt,java.util.Optional generatorCodecKey, ) { return new yarnwrap.nbt.NbtCompound(net.minecraft.world.storage.VersionedChunkStorage.updateChunkNbt(worldKey.wrapperContained,persistentStateManagerFactory,nbt.wrapperContained,generatorCodecKey)); }
 // public int getDataVersion(yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.getDataVersion(nbt.wrapperContained); }
 // public static int getDataVersion(yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.world.storage.VersionedChunkStorage.getDataVersion(nbt.wrapperContained); }
-public java.util.concurrent.CompletableFuture setNbt(yarnwrap.util.math.ChunkPos chunkPos,yarnwrap.nbt.NbtCompound nbt) { return wrapperContained.setNbt(chunkPos.wrapperContained,nbt.wrapperContained); }
-// public static java.util.concurrent.CompletableFuture setNbt(yarnwrap.util.math.ChunkPos chunkPos,yarnwrap.nbt.NbtCompound nbt, ) { return net.minecraft.world.storage.VersionedChunkStorage.setNbt(chunkPos.wrapperContained,nbt.wrapperContained); }
+public java.util.concurrent.CompletableFuture setNbt(yarnwrap.util.math.ChunkPos chunkPos,java.util.function.Supplier nbtSupplier) { return wrapperContained.setNbt(chunkPos.wrapperContained,nbtSupplier); }
+// public static java.util.concurrent.CompletableFuture setNbt(yarnwrap.util.math.ChunkPos chunkPos,java.util.function.Supplier nbtSupplier, ) { return net.minecraft.world.storage.VersionedChunkStorage.setNbt(chunkPos.wrapperContained,nbtSupplier); }
 public java.util.concurrent.CompletableFuture getNbt(yarnwrap.util.math.ChunkPos chunkPos) { return wrapperContained.getNbt(chunkPos.wrapperContained); }
 // public static java.util.concurrent.CompletableFuture getNbt(yarnwrap.util.math.ChunkPos chunkPos, ) { return net.minecraft.world.storage.VersionedChunkStorage.getNbt(chunkPos.wrapperContained); }
 public void completeAll() { wrapperContained.completeAll(); }
@@ -48,5 +48,7 @@ public boolean needsBlending(yarnwrap.util.math.ChunkPos chunkPos,int checkRadiu
 // public static void removeContext(yarnwrap.nbt.NbtCompound nbt, ) { net.minecraft.world.storage.VersionedChunkStorage.removeContext(nbt.wrapperContained); }
 // public yarnwrap.world.storage.StorageKey getStorageKey() { return new yarnwrap.world.storage.StorageKey(wrapperContained.getStorageKey()); }
 // public static yarnwrap.world.storage.StorageKey getStorageKey() { return new yarnwrap.world.storage.StorageKey(net.minecraft.world.storage.VersionedChunkStorage.getStorageKey()); }
+// public java.util.Optional method_68289(yarnwrap.nbt.NbtCompound level) { return wrapperContained.method_68289(level.wrapperContained); }
+// public static java.util.Optional method_68289(yarnwrap.nbt.NbtCompound level, ) { return net.minecraft.world.storage.VersionedChunkStorage.method_68289(level.wrapperContained); }
 
 }

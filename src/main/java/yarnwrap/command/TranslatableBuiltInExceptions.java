@@ -1,26 +1,6 @@
 package yarnwrap.command;
 public class TranslatableBuiltInExceptions { public net.minecraft.command.TranslatableBuiltInExceptions wrapperContained; public TranslatableBuiltInExceptions(net.minecraft.command.TranslatableBuiltInExceptions wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType LONG_TOO_LOW() { return wrapperContained.LONG_TOO_LOW; }
-// public void LONG_TOO_LOW(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value) { wrapperContained.LONG_TOO_LOW = value; }
-// public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType LONG_TOO_LOW() { return net.minecraft.command.TranslatableBuiltInExceptions.LONG_TOO_LOW; }
-// public static void LONG_TOO_LOW(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value, ) { net.minecraft.command.TranslatableBuiltInExceptions.LONG_TOO_LOW = value; }
-
-// public com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType LONG_TOO_HIGH() { return wrapperContained.LONG_TOO_HIGH; }
-// public void LONG_TOO_HIGH(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value) { wrapperContained.LONG_TOO_HIGH = value; }
-// public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType LONG_TOO_HIGH() { return net.minecraft.command.TranslatableBuiltInExceptions.LONG_TOO_HIGH; }
-// public static void LONG_TOO_HIGH(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value, ) { net.minecraft.command.TranslatableBuiltInExceptions.LONG_TOO_HIGH = value; }
-
-// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType READER_INVALID_LONG() { return wrapperContained.READER_INVALID_LONG; }
-// public void READER_INVALID_LONG(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.READER_INVALID_LONG = value; }
-// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType READER_INVALID_LONG() { return net.minecraft.command.TranslatableBuiltInExceptions.READER_INVALID_LONG; }
-// public static void READER_INVALID_LONG(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.command.TranslatableBuiltInExceptions.READER_INVALID_LONG = value; }
-
-// public com.mojang.brigadier.exceptions.SimpleCommandExceptionType READER_EXPECTED_LONG() { return wrapperContained.READER_EXPECTED_LONG; }
-// public void READER_EXPECTED_LONG(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.READER_EXPECTED_LONG = value; }
-// public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType READER_EXPECTED_LONG() { return net.minecraft.command.TranslatableBuiltInExceptions.READER_EXPECTED_LONG; }
-// public static void READER_EXPECTED_LONG(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value, ) { net.minecraft.command.TranslatableBuiltInExceptions.READER_EXPECTED_LONG = value; }
-
 // public com.mojang.brigadier.exceptions.SimpleCommandExceptionType DISPATCHER_EXPECTED_ARGUMENT_SEPARATOR() { return wrapperContained.DISPATCHER_EXPECTED_ARGUMENT_SEPARATOR; }
 // public void DISPATCHER_EXPECTED_ARGUMENT_SEPARATOR(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.DISPATCHER_EXPECTED_ARGUMENT_SEPARATOR = value; }
 // public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType DISPATCHER_EXPECTED_ARGUMENT_SEPARATOR() { return net.minecraft.command.TranslatableBuiltInExceptions.DISPATCHER_EXPECTED_ARGUMENT_SEPARATOR; }
@@ -136,12 +116,26 @@ public class TranslatableBuiltInExceptions { public net.minecraft.command.Transl
 // public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType READER_INVALID_FLOAT() { return net.minecraft.command.TranslatableBuiltInExceptions.READER_INVALID_FLOAT; }
 // public static void READER_INVALID_FLOAT(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.command.TranslatableBuiltInExceptions.READER_INVALID_FLOAT = value; }
 
-// public com.mojang.brigadier.Message method_18479(java.lang.Object found,java.lang.Object max) { return wrapperContained.method_18479(found,max); }
-// public static com.mojang.brigadier.Message method_18479(java.lang.Object found,java.lang.Object max, ) { return net.minecraft.command.TranslatableBuiltInExceptions.method_18479(found,max); }
-// public com.mojang.brigadier.Message method_18480(java.lang.Object found,java.lang.Object min) { return wrapperContained.method_18480(found,min); }
-// public static com.mojang.brigadier.Message method_18480(java.lang.Object found,java.lang.Object min, ) { return net.minecraft.command.TranslatableBuiltInExceptions.method_18480(found,min); }
-// public com.mojang.brigadier.Message method_18481(java.lang.Object value) { return wrapperContained.method_18481(value); }
-// public static com.mojang.brigadier.Message method_18481(java.lang.Object value, ) { return net.minecraft.command.TranslatableBuiltInExceptions.method_18481(value); }
+// public com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType LONG_TOO_LOW() { return wrapperContained.LONG_TOO_LOW; }
+// public void LONG_TOO_LOW(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value) { wrapperContained.LONG_TOO_LOW = value; }
+// public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType LONG_TOO_LOW() { return net.minecraft.command.TranslatableBuiltInExceptions.LONG_TOO_LOW; }
+// public static void LONG_TOO_LOW(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value, ) { net.minecraft.command.TranslatableBuiltInExceptions.LONG_TOO_LOW = value; }
+
+// public com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType LONG_TOO_HIGH() { return wrapperContained.LONG_TOO_HIGH; }
+// public void LONG_TOO_HIGH(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value) { wrapperContained.LONG_TOO_HIGH = value; }
+// public static com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType LONG_TOO_HIGH() { return net.minecraft.command.TranslatableBuiltInExceptions.LONG_TOO_HIGH; }
+// public static void LONG_TOO_HIGH(com.mojang.brigadier.exceptions.Dynamic2CommandExceptionType value, ) { net.minecraft.command.TranslatableBuiltInExceptions.LONG_TOO_HIGH = value; }
+
+// public com.mojang.brigadier.exceptions.DynamicCommandExceptionType READER_INVALID_LONG() { return wrapperContained.READER_INVALID_LONG; }
+// public void READER_INVALID_LONG(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value) { wrapperContained.READER_INVALID_LONG = value; }
+// public static com.mojang.brigadier.exceptions.DynamicCommandExceptionType READER_INVALID_LONG() { return net.minecraft.command.TranslatableBuiltInExceptions.READER_INVALID_LONG; }
+// public static void READER_INVALID_LONG(com.mojang.brigadier.exceptions.DynamicCommandExceptionType value, ) { net.minecraft.command.TranslatableBuiltInExceptions.READER_INVALID_LONG = value; }
+
+// public com.mojang.brigadier.exceptions.SimpleCommandExceptionType READER_EXPECTED_LONG() { return wrapperContained.READER_EXPECTED_LONG; }
+// public void READER_EXPECTED_LONG(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value) { wrapperContained.READER_EXPECTED_LONG = value; }
+// public static com.mojang.brigadier.exceptions.SimpleCommandExceptionType READER_EXPECTED_LONG() { return net.minecraft.command.TranslatableBuiltInExceptions.READER_EXPECTED_LONG; }
+// public static void READER_EXPECTED_LONG(com.mojang.brigadier.exceptions.SimpleCommandExceptionType value, ) { net.minecraft.command.TranslatableBuiltInExceptions.READER_EXPECTED_LONG = value; }
+
 // public com.mojang.brigadier.Message method_9178(java.lang.Object found,java.lang.Object max) { return wrapperContained.method_9178(found,max); }
 // public static com.mojang.brigadier.Message method_9178(java.lang.Object found,java.lang.Object max, ) { return net.minecraft.command.TranslatableBuiltInExceptions.method_9178(found,max); }
 // public com.mojang.brigadier.Message method_9179(java.lang.Object value) { return wrapperContained.method_9179(value); }
@@ -170,5 +164,11 @@ public class TranslatableBuiltInExceptions { public net.minecraft.command.Transl
 // public static com.mojang.brigadier.Message method_9190(java.lang.Object found,java.lang.Object min, ) { return net.minecraft.command.TranslatableBuiltInExceptions.method_9190(found,min); }
 // public com.mojang.brigadier.Message method_9191(java.lang.Object character) { return wrapperContained.method_9191(character); }
 // public static com.mojang.brigadier.Message method_9191(java.lang.Object character, ) { return net.minecraft.command.TranslatableBuiltInExceptions.method_9191(character); }
+// public com.mojang.brigadier.Message method_18479(java.lang.Object found,java.lang.Object max) { return wrapperContained.method_18479(found,max); }
+// public static com.mojang.brigadier.Message method_18479(java.lang.Object found,java.lang.Object max, ) { return net.minecraft.command.TranslatableBuiltInExceptions.method_18479(found,max); }
+// public com.mojang.brigadier.Message method_18480(java.lang.Object found,java.lang.Object min) { return wrapperContained.method_18480(found,min); }
+// public static com.mojang.brigadier.Message method_18480(java.lang.Object found,java.lang.Object min, ) { return net.minecraft.command.TranslatableBuiltInExceptions.method_18480(found,min); }
+// public com.mojang.brigadier.Message method_18481(java.lang.Object value) { return wrapperContained.method_18481(value); }
+// public static com.mojang.brigadier.Message method_18481(java.lang.Object value, ) { return net.minecraft.command.TranslatableBuiltInExceptions.method_18481(value); }
 
 }

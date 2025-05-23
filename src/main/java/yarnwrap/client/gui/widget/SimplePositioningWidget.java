@@ -6,15 +6,15 @@ public class SimplePositioningWidget { public net.minecraft.client.gui.widget.Si
 // public static java.util.List elements() { return net.minecraft.client.gui.widget.SimplePositioningWidget.elements; }
 // public static void elements(java.util.List value, ) { net.minecraft.client.gui.widget.SimplePositioningWidget.elements = value; }
 
-// public int minHeight() { return wrapperContained.minHeight; }
-// public void minHeight(int value) { wrapperContained.minHeight = value; }
-// public static int minHeight() { return net.minecraft.client.gui.widget.SimplePositioningWidget.minHeight; }
-// public static void minHeight(int value, ) { net.minecraft.client.gui.widget.SimplePositioningWidget.minHeight = value; }
-
 // public int minWidth() { return wrapperContained.minWidth; }
 // public void minWidth(int value) { wrapperContained.minWidth = value; }
 // public static int minWidth() { return net.minecraft.client.gui.widget.SimplePositioningWidget.minWidth; }
 // public static void minWidth(int value, ) { net.minecraft.client.gui.widget.SimplePositioningWidget.minWidth = value; }
+
+// public int minHeight() { return wrapperContained.minHeight; }
+// public void minHeight(int value) { wrapperContained.minHeight = value; }
+// public static int minHeight() { return net.minecraft.client.gui.widget.SimplePositioningWidget.minHeight; }
+// public static void minHeight(int value, ) { net.minecraft.client.gui.widget.SimplePositioningWidget.minHeight = value; }
 
 // public yarnwrap.client.gui.widget.Positioner mainPositioner() { return new yarnwrap.client.gui.widget.Positioner(wrapperContained.mainPositioner); }
 // public void mainPositioner(yarnwrap.client.gui.widget.Positioner value) { wrapperContained.mainPositioner = value.wrapperContained; }
@@ -34,12 +34,12 @@ public yarnwrap.client.gui.widget.Widget add(yarnwrap.client.gui.widget.Widget w
 // public static yarnwrap.client.gui.widget.Widget add(yarnwrap.client.gui.widget.Widget widget,yarnwrap.client.gui.widget.Positioner positioner, ) { return new yarnwrap.client.gui.widget.Widget(net.minecraft.client.gui.widget.SimplePositioningWidget.add(widget.wrapperContained,positioner.wrapperContained)); }
 public yarnwrap.client.gui.widget.SimplePositioningWidget setDimensions(int minWidth,int minHeight) { return new yarnwrap.client.gui.widget.SimplePositioningWidget(wrapperContained.setDimensions(minWidth,minHeight)); }
 // public static yarnwrap.client.gui.widget.SimplePositioningWidget setDimensions(int minWidth,int minHeight, ) { return new yarnwrap.client.gui.widget.SimplePositioningWidget(net.minecraft.client.gui.widget.SimplePositioningWidget.setDimensions(minWidth,minHeight)); }
-public yarnwrap.client.gui.widget.SimplePositioningWidget setMinHeight(int minWidth) { return new yarnwrap.client.gui.widget.SimplePositioningWidget(wrapperContained.setMinHeight(minWidth)); }
-// public static yarnwrap.client.gui.widget.SimplePositioningWidget setMinHeight(int minWidth, ) { return new yarnwrap.client.gui.widget.SimplePositioningWidget(net.minecraft.client.gui.widget.SimplePositioningWidget.setMinHeight(minWidth)); }
+public yarnwrap.client.gui.widget.SimplePositioningWidget setMinHeight(int minHeight) { return new yarnwrap.client.gui.widget.SimplePositioningWidget(wrapperContained.setMinHeight(minHeight)); }
+// public static yarnwrap.client.gui.widget.SimplePositioningWidget setMinHeight(int minHeight, ) { return new yarnwrap.client.gui.widget.SimplePositioningWidget(net.minecraft.client.gui.widget.SimplePositioningWidget.setMinHeight(minHeight)); }
 public yarnwrap.client.gui.widget.Positioner copyPositioner() { return new yarnwrap.client.gui.widget.Positioner(wrapperContained.copyPositioner()); }
 // public static yarnwrap.client.gui.widget.Positioner copyPositioner() { return new yarnwrap.client.gui.widget.Positioner(net.minecraft.client.gui.widget.SimplePositioningWidget.copyPositioner()); }
-public yarnwrap.client.gui.widget.SimplePositioningWidget setMinWidth(int minHeight) { return new yarnwrap.client.gui.widget.SimplePositioningWidget(wrapperContained.setMinWidth(minHeight)); }
-// public static yarnwrap.client.gui.widget.SimplePositioningWidget setMinWidth(int minHeight, ) { return new yarnwrap.client.gui.widget.SimplePositioningWidget(net.minecraft.client.gui.widget.SimplePositioningWidget.setMinWidth(minHeight)); }
+public yarnwrap.client.gui.widget.SimplePositioningWidget setMinWidth(int minWidth) { return new yarnwrap.client.gui.widget.SimplePositioningWidget(wrapperContained.setMinWidth(minWidth)); }
+// public static yarnwrap.client.gui.widget.SimplePositioningWidget setMinWidth(int minWidth, ) { return new yarnwrap.client.gui.widget.SimplePositioningWidget(net.minecraft.client.gui.widget.SimplePositioningWidget.setMinWidth(minWidth)); }
 public yarnwrap.client.gui.widget.Positioner getMainPositioner() { return new yarnwrap.client.gui.widget.Positioner(wrapperContained.getMainPositioner()); }
 // public static yarnwrap.client.gui.widget.Positioner getMainPositioner() { return new yarnwrap.client.gui.widget.Positioner(net.minecraft.client.gui.widget.SimplePositioningWidget.getMainPositioner()); }
 // public void method_48228(java.util.function.Consumer element) { wrapperContained.method_48228(element); }

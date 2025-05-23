@@ -19,15 +19,13 @@ public class DefaultPosArgument { public net.minecraft.command.argument.DefaultP
 public DefaultPosArgument(yarnwrap.command.argument.CoordinateArgument x,yarnwrap.command.argument.CoordinateArgument y,yarnwrap.command.argument.CoordinateArgument z) { this.wrapperContained = new net.minecraft.command.argument.DefaultPosArgument(x.wrapperContained,y.wrapperContained,z.wrapperContained); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.command.argument.DefaultPosArgument.equals(o); }
-// public yarnwrap.command.argument.DefaultPosArgument absolute(double x,double y,double z) { return new yarnwrap.command.argument.DefaultPosArgument(wrapperContained.absolute(x,y,z)); }
-// public static yarnwrap.command.argument.DefaultPosArgument absolute(double x,double y,double z, ) { return new yarnwrap.command.argument.DefaultPosArgument(net.minecraft.command.argument.DefaultPosArgument.absolute(x,y,z)); }
-// public yarnwrap.command.argument.DefaultPosArgument absolute(yarnwrap.util.math.Vec2f vec) { return new yarnwrap.command.argument.DefaultPosArgument(wrapperContained.absolute(vec.wrapperContained)); }
-// public static yarnwrap.command.argument.DefaultPosArgument absolute(yarnwrap.util.math.Vec2f vec, ) { return new yarnwrap.command.argument.DefaultPosArgument(net.minecraft.command.argument.DefaultPosArgument.absolute(vec.wrapperContained)); }
 // public yarnwrap.command.argument.DefaultPosArgument parse(com.mojang.brigadier.StringReader reader) { return new yarnwrap.command.argument.DefaultPosArgument(wrapperContained.parse(reader)); }
 // public static yarnwrap.command.argument.DefaultPosArgument parse(com.mojang.brigadier.StringReader reader, ) { return new yarnwrap.command.argument.DefaultPosArgument(net.minecraft.command.argument.DefaultPosArgument.parse(reader)); }
 // public yarnwrap.command.argument.DefaultPosArgument parse(com.mojang.brigadier.StringReader reader,boolean centerIntegers) { return new yarnwrap.command.argument.DefaultPosArgument(wrapperContained.parse(reader,centerIntegers)); }
 // public static yarnwrap.command.argument.DefaultPosArgument parse(com.mojang.brigadier.StringReader reader,boolean centerIntegers, ) { return new yarnwrap.command.argument.DefaultPosArgument(net.minecraft.command.argument.DefaultPosArgument.parse(reader,centerIntegers)); }
-// public yarnwrap.command.argument.DefaultPosArgument zero() { return new yarnwrap.command.argument.DefaultPosArgument(wrapperContained.zero()); }
-public static yarnwrap.command.argument.DefaultPosArgument zero() { return new yarnwrap.command.argument.DefaultPosArgument(net.minecraft.command.argument.DefaultPosArgument.zero()); }
+// public yarnwrap.command.argument.DefaultPosArgument absolute(double x,double y,double z) { return new yarnwrap.command.argument.DefaultPosArgument(wrapperContained.absolute(x,y,z)); }
+// public static yarnwrap.command.argument.DefaultPosArgument absolute(double x,double y,double z, ) { return new yarnwrap.command.argument.DefaultPosArgument(net.minecraft.command.argument.DefaultPosArgument.absolute(x,y,z)); }
+// public yarnwrap.command.argument.DefaultPosArgument absolute(yarnwrap.util.math.Vec2f vec) { return new yarnwrap.command.argument.DefaultPosArgument(wrapperContained.absolute(vec.wrapperContained)); }
+// public static yarnwrap.command.argument.DefaultPosArgument absolute(yarnwrap.util.math.Vec2f vec, ) { return new yarnwrap.command.argument.DefaultPosArgument(net.minecraft.command.argument.DefaultPosArgument.absolute(vec.wrapperContained)); }
 
 }

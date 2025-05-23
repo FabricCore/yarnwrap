@@ -1,6 +1,11 @@
 package yarnwrap.client.particle;
 public class DragonBreathParticle { public net.minecraft.client.particle.DragonBreathParticle wrapperContained; public DragonBreathParticle(net.minecraft.client.particle.DragonBreathParticle wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public boolean reachedGround() { return wrapperContained.reachedGround; }
+// public void reachedGround(boolean value) { wrapperContained.reachedGround = value; }
+// public static boolean reachedGround() { return net.minecraft.client.particle.DragonBreathParticle.reachedGround; }
+// public static void reachedGround(boolean value, ) { net.minecraft.client.particle.DragonBreathParticle.reachedGround = value; }
+
 // public yarnwrap.client.particle.SpriteProvider spriteProvider() { return new yarnwrap.client.particle.SpriteProvider(wrapperContained.spriteProvider); }
 // public void spriteProvider(yarnwrap.client.particle.SpriteProvider value) { wrapperContained.spriteProvider = value.wrapperContained; }
 // public static yarnwrap.client.particle.SpriteProvider spriteProvider() { return new yarnwrap.client.particle.SpriteProvider(net.minecraft.client.particle.DragonBreathParticle.spriteProvider); }
@@ -45,11 +50,6 @@ public class DragonBreathParticle { public net.minecraft.client.particle.DragonB
 // public void MAX_COLOR(int value) { wrapperContained.MAX_COLOR = value; }
 // public static int MAX_COLOR() { return net.minecraft.client.particle.DragonBreathParticle.MAX_COLOR; }
 // public static void MAX_COLOR(int value, ) { net.minecraft.client.particle.DragonBreathParticle.MAX_COLOR = value; }
-
-// public boolean reachedGround() { return wrapperContained.reachedGround; }
-// public void reachedGround(boolean value) { wrapperContained.reachedGround = value; }
-// public static boolean reachedGround() { return net.minecraft.client.particle.DragonBreathParticle.reachedGround; }
-// public static void reachedGround(boolean value, ) { net.minecraft.client.particle.DragonBreathParticle.reachedGround = value; }
 
 // public DragonBreathParticle(yarnwrap.client.world.ClientWorld world,double x,double y,double z,double velocityX,double velocityY,double velocityZ,yarnwrap.client.particle.SpriteProvider spriteProvider) { this.wrapperContained = new net.minecraft.client.particle.DragonBreathParticle(world.wrapperContained,x,y,z,velocityX,velocityY,velocityZ,spriteProvider.wrapperContained); }
 

@@ -16,16 +16,10 @@ public static yarnwrap.nbt.NbtType TYPE() { return new yarnwrap.nbt.NbtType(net.
 // public static int SIZE() { return net.minecraft.nbt.NbtLongArray.SIZE; }
 // public static void SIZE(int value, ) { net.minecraft.nbt.NbtLongArray.SIZE = value; }
 
-public NbtLongArray(it.unimi.dsi.fastutil.longs.LongSet value) { this.wrapperContained = new net.minecraft.nbt.NbtLongArray(value); }
-public NbtLongArray(java.util.List value) { this.wrapperContained = new net.minecraft.nbt.NbtLongArray(value); }
 // public NbtLongArray(long value) { this.wrapperContained = new net.minecraft.nbt.NbtLongArray(value); }
 public boolean equals(java.lang.Object o) { return wrapperContained.equals(o); }
 // public static boolean equals(java.lang.Object o, ) { return net.minecraft.nbt.NbtLongArray.equals(o); }
-public java.lang.Object get(int index) { return wrapperContained.get(index); }
-// public static java.lang.Object get(int index, ) { return net.minecraft.nbt.NbtLongArray.get(index); }
 public long[] getLongArray() { return wrapperContained.getLongArray(); }
 // public static long[] getLongArray() { return net.minecraft.nbt.NbtLongArray.getLongArray(); }
-// public long[] toArray(java.util.List list) { return wrapperContained.toArray(list); }
-// public static long[] toArray(java.util.List list, ) { return net.minecraft.nbt.NbtLongArray.toArray(list); }
 
 }

@@ -7,7 +7,7 @@ public yarnwrap.recipe.RecipeEntry getLastRecipe() { return new yarnwrap.recipe.
 // public static yarnwrap.recipe.RecipeEntry getLastRecipe() { return new yarnwrap.recipe.RecipeEntry(net.minecraft.recipe.RecipeUnlocker.getLastRecipe()); }
 public void unlockLastRecipe(yarnwrap.entity.player.PlayerEntity player,java.util.List ingredients) { wrapperContained.unlockLastRecipe(player.wrapperContained,ingredients); }
 // public static void unlockLastRecipe(yarnwrap.entity.player.PlayerEntity player,java.util.List ingredients, ) { net.minecraft.recipe.RecipeUnlocker.unlockLastRecipe(player.wrapperContained,ingredients); }
-public boolean shouldCraftRecipe(yarnwrap.world.World world,yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.recipe.RecipeEntry recipe) { return wrapperContained.shouldCraftRecipe(world.wrapperContained,player.wrapperContained,recipe.wrapperContained); }
-// public static boolean shouldCraftRecipe(yarnwrap.world.World world,yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.recipe.RecipeEntry recipe, ) { return net.minecraft.recipe.RecipeUnlocker.shouldCraftRecipe(world.wrapperContained,player.wrapperContained,recipe.wrapperContained); }
+public boolean shouldCraftRecipe(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.recipe.RecipeEntry recipe) { return wrapperContained.shouldCraftRecipe(player.wrapperContained,recipe.wrapperContained); }
+// public static boolean shouldCraftRecipe(yarnwrap.server.network.ServerPlayerEntity player,yarnwrap.recipe.RecipeEntry recipe, ) { return net.minecraft.recipe.RecipeUnlocker.shouldCraftRecipe(player.wrapperContained,recipe.wrapperContained); }
 
 }

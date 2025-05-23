@@ -11,10 +11,10 @@ public class ThreadedLogWriter { public net.minecraft.client.session.telemetry.T
 // public static yarnwrap.util.logging.LogWriter writer() { return new yarnwrap.util.logging.LogWriter(net.minecraft.client.session.telemetry.ThreadedLogWriter.writer); }
 // public static void writer(yarnwrap.util.logging.LogWriter value, ) { net.minecraft.client.session.telemetry.ThreadedLogWriter.writer = value.wrapperContained; }
 
-// public yarnwrap.util.thread.TaskExecutor executor() { return new yarnwrap.util.thread.TaskExecutor(wrapperContained.executor); }
-// public void executor(yarnwrap.util.thread.TaskExecutor value) { wrapperContained.executor = value.wrapperContained; }
-// public static yarnwrap.util.thread.TaskExecutor executor() { return new yarnwrap.util.thread.TaskExecutor(net.minecraft.client.session.telemetry.ThreadedLogWriter.executor); }
-// public static void executor(yarnwrap.util.thread.TaskExecutor value, ) { net.minecraft.client.session.telemetry.ThreadedLogWriter.executor = value.wrapperContained; }
+// public yarnwrap.util.thread.SimpleConsecutiveExecutor executor() { return new yarnwrap.util.thread.SimpleConsecutiveExecutor(wrapperContained.executor); }
+// public void executor(yarnwrap.util.thread.SimpleConsecutiveExecutor value) { wrapperContained.executor = value.wrapperContained; }
+// public static yarnwrap.util.thread.SimpleConsecutiveExecutor executor() { return new yarnwrap.util.thread.SimpleConsecutiveExecutor(net.minecraft.client.session.telemetry.ThreadedLogWriter.executor); }
+// public static void executor(yarnwrap.util.thread.SimpleConsecutiveExecutor value, ) { net.minecraft.client.session.telemetry.ThreadedLogWriter.executor = value.wrapperContained; }
 
 public ThreadedLogWriter(java.nio.channels.FileChannel channel,java.util.concurrent.Executor executor) { this.wrapperContained = new net.minecraft.client.session.telemetry.ThreadedLogWriter(channel,executor); }
 public yarnwrap.client.session.telemetry.TelemetryLogger getLogger() { return new yarnwrap.client.session.telemetry.TelemetryLogger(wrapperContained.getLogger()); }

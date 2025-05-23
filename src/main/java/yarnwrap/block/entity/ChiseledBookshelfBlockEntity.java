@@ -21,6 +21,11 @@ public static int MAX_BOOKS() { return net.minecraft.block.entity.ChiseledBooksh
 // public static int lastInteractedSlot() { return net.minecraft.block.entity.ChiseledBookshelfBlockEntity.lastInteractedSlot; }
 // public static void lastInteractedSlot(int value, ) { net.minecraft.block.entity.ChiseledBookshelfBlockEntity.lastInteractedSlot = value; }
 
+// public int DEFAULT_LAST_INTERACTED_SLOT() { return wrapperContained.DEFAULT_LAST_INTERACTED_SLOT; }
+// public void DEFAULT_LAST_INTERACTED_SLOT(int value) { wrapperContained.DEFAULT_LAST_INTERACTED_SLOT = value; }
+// public static int DEFAULT_LAST_INTERACTED_SLOT() { return net.minecraft.block.entity.ChiseledBookshelfBlockEntity.DEFAULT_LAST_INTERACTED_SLOT; }
+// public static void DEFAULT_LAST_INTERACTED_SLOT(int value, ) { net.minecraft.block.entity.ChiseledBookshelfBlockEntity.DEFAULT_LAST_INTERACTED_SLOT = value; }
+
 public ChiseledBookshelfBlockEntity(yarnwrap.util.math.BlockPos pos,yarnwrap.block.BlockState state) { this.wrapperContained = new net.minecraft.block.entity.ChiseledBookshelfBlockEntity(pos.wrapperContained,state.wrapperContained); }
 // public void updateState(int interactedSlot) { wrapperContained.updateState(interactedSlot); }
 // public static void updateState(int interactedSlot, ) { net.minecraft.block.entity.ChiseledBookshelfBlockEntity.updateState(interactedSlot); }

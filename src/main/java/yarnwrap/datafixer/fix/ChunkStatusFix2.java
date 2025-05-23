@@ -6,6 +6,5 @@ public class ChunkStatusFix2 { public net.minecraft.datafixer.fix.ChunkStatusFix
 // public static java.util.Map STATUS_MAP() { return net.minecraft.datafixer.fix.ChunkStatusFix2.STATUS_MAP; }
 // public static void STATUS_MAP(java.util.Map value, ) { net.minecraft.datafixer.fix.ChunkStatusFix2.STATUS_MAP = value; }
 
-public ChunkStatusFix2(com.mojang.datafixers.schemas.Schema outputSchema,boolean changesType) { this.wrapperContained = new net.minecraft.datafixer.fix.ChunkStatusFix2(outputSchema,changesType); }
 
 }

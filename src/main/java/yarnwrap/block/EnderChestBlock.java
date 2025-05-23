@@ -1,10 +1,10 @@
 package yarnwrap.block;
 public class EnderChestBlock { public net.minecraft.block.EnderChestBlock wrapperContained; public EnderChestBlock(net.minecraft.block.EnderChestBlock wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(wrapperContained.FACING); }
-// public void FACING(yarnwrap.state.property.DirectionProperty value) { wrapperContained.FACING = value.wrapperContained; }
-public static yarnwrap.state.property.DirectionProperty FACING() { return new yarnwrap.state.property.DirectionProperty(net.minecraft.block.EnderChestBlock.FACING); }
-// public static void FACING(yarnwrap.state.property.DirectionProperty value, ) { net.minecraft.block.EnderChestBlock.FACING = value.wrapperContained; }
+// public yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(wrapperContained.FACING); }
+// public void FACING(yarnwrap.state.property.EnumProperty value) { wrapperContained.FACING = value.wrapperContained; }
+public static yarnwrap.state.property.EnumProperty FACING() { return new yarnwrap.state.property.EnumProperty(net.minecraft.block.EnderChestBlock.FACING); }
+// public static void FACING(yarnwrap.state.property.EnumProperty value, ) { net.minecraft.block.EnderChestBlock.FACING = value.wrapperContained; }
 
 // public yarnwrap.util.shape.VoxelShape SHAPE() { return new yarnwrap.util.shape.VoxelShape(wrapperContained.SHAPE); }
 // public void SHAPE(yarnwrap.util.shape.VoxelShape value) { wrapperContained.SHAPE = value.wrapperContained; }
@@ -26,5 +26,7 @@ public static yarnwrap.state.property.BooleanProperty WATERLOGGED() { return new
 public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.block.EnderChestBlock.CODEC; }
 // public static void CODEC(com.mojang.serialization.MapCodec value, ) { net.minecraft.block.EnderChestBlock.CODEC = value; }
 
+// public yarnwrap.screen.ScreenHandler method_55773(yarnwrap.inventory.EnderChestInventory syncId,int playerInventory,yarnwrap.entity.player.PlayerInventory player) { return new yarnwrap.screen.ScreenHandler(wrapperContained.method_55773(syncId.wrapperContained,playerInventory,player.wrapperContained)); }
+// public static yarnwrap.screen.ScreenHandler method_55773(yarnwrap.inventory.EnderChestInventory syncId,int playerInventory,yarnwrap.entity.player.PlayerInventory player, ) { return new yarnwrap.screen.ScreenHandler(net.minecraft.block.EnderChestBlock.method_55773(syncId.wrapperContained,playerInventory,player.wrapperContained)); }
 
 }

@@ -21,8 +21,8 @@ public java.nio.ByteBuffer getBuffer() { return wrapperContained.getBuffer(); }
 // public static java.nio.ByteBuffer getBuffer() { return net.minecraft.client.render.BuiltBuffer.getBuffer(); }
 // public Object sortQuads(yarnwrap.client.util.BufferAllocator allocator,net.minecraft.class_8251 sorter) { return wrapperContained.sortQuads(allocator.wrapperContained,sorter); }
 // // public static Object sortQuads(yarnwrap.client.util.BufferAllocator allocator,net.minecraft.class_8251 sorter, ) { return net.minecraft.client.render.BuiltBuffer.sortQuads(allocator.wrapperContained,sorter); }
-// public org.joml.Vector3f[] collectCentroids(java.nio.ByteBuffer buf,int vertexCount,yarnwrap.client.render.VertexFormat format) { return wrapperContained.collectCentroids(buf,vertexCount,format.wrapperContained); }
-// public static org.joml.Vector3f[] collectCentroids(java.nio.ByteBuffer buf,int vertexCount,yarnwrap.client.render.VertexFormat format, ) { return net.minecraft.client.render.BuiltBuffer.collectCentroids(buf,vertexCount,format.wrapperContained); }
+// public org.joml.Vector3f[] collectCentroids(java.nio.ByteBuffer buffer,int vertexCount,com.mojang.blaze3d.vertex.VertexFormat format) { return wrapperContained.collectCentroids(buffer,vertexCount,format); }
+// public static org.joml.Vector3f[] collectCentroids(java.nio.ByteBuffer buffer,int vertexCount,com.mojang.blaze3d.vertex.VertexFormat format, ) { return net.minecraft.client.render.BuiltBuffer.collectCentroids(buffer,vertexCount,format); }
 public java.nio.ByteBuffer getSortedBuffer() { return wrapperContained.getSortedBuffer(); }
 // public static java.nio.ByteBuffer getSortedBuffer() { return net.minecraft.client.render.BuiltBuffer.getSortedBuffer(); }
 public Object getDrawParameters() { return wrapperContained.getDrawParameters(); }

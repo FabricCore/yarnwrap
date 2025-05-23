@@ -36,10 +36,10 @@ public class EntityTrackerEntry { public net.minecraft.server.network.EntityTrac
 // public static java.util.List lastPassengers() { return net.minecraft.server.network.EntityTrackerEntry.lastPassengers; }
 // public static void lastPassengers(java.util.List value, ) { net.minecraft.server.network.EntityTrackerEntry.lastPassengers = value; }
 
-// public int lastPitch() { return wrapperContained.lastPitch; }
-// public void lastPitch(int value) { wrapperContained.lastPitch = value; }
-// public static int lastPitch() { return net.minecraft.server.network.EntityTrackerEntry.lastPitch; }
-// public static void lastPitch(int value, ) { net.minecraft.server.network.EntityTrackerEntry.lastPitch = value; }
+// public byte lastPitch() { return wrapperContained.lastPitch; }
+// public void lastPitch(byte value) { wrapperContained.lastPitch = value; }
+// public static byte lastPitch() { return net.minecraft.server.network.EntityTrackerEntry.lastPitch; }
+// public static void lastPitch(byte value, ) { net.minecraft.server.network.EntityTrackerEntry.lastPitch = value; }
 
 // public yarnwrap.entity.Entity entity() { return new yarnwrap.entity.Entity(wrapperContained.entity); }
 // public void entity(yarnwrap.entity.Entity value) { wrapperContained.entity = value.wrapperContained; }
@@ -51,25 +51,25 @@ public class EntityTrackerEntry { public net.minecraft.server.network.EntityTrac
 // public static boolean hadVehicle() { return net.minecraft.server.network.EntityTrackerEntry.hadVehicle; }
 // public static void hadVehicle(boolean value, ) { net.minecraft.server.network.EntityTrackerEntry.hadVehicle = value; }
 
-// public int lastHeadYaw() { return wrapperContained.lastHeadYaw; }
-// public void lastHeadYaw(int value) { wrapperContained.lastHeadYaw = value; }
-// public static int lastHeadYaw() { return net.minecraft.server.network.EntityTrackerEntry.lastHeadYaw; }
-// public static void lastHeadYaw(int value, ) { net.minecraft.server.network.EntityTrackerEntry.lastHeadYaw = value; }
+// public byte lastHeadYaw() { return wrapperContained.lastHeadYaw; }
+// public void lastHeadYaw(byte value) { wrapperContained.lastHeadYaw = value; }
+// public static byte lastHeadYaw() { return net.minecraft.server.network.EntityTrackerEntry.lastHeadYaw; }
+// public static void lastHeadYaw(byte value, ) { net.minecraft.server.network.EntityTrackerEntry.lastHeadYaw = value; }
 
-// public int lastYaw() { return wrapperContained.lastYaw; }
-// public void lastYaw(int value) { wrapperContained.lastYaw = value; }
-// public static int lastYaw() { return net.minecraft.server.network.EntityTrackerEntry.lastYaw; }
-// public static void lastYaw(int value, ) { net.minecraft.server.network.EntityTrackerEntry.lastYaw = value; }
+// public byte lastYaw() { return wrapperContained.lastYaw; }
+// public void lastYaw(byte value) { wrapperContained.lastYaw = value; }
+// public static byte lastYaw() { return net.minecraft.server.network.EntityTrackerEntry.lastYaw; }
+// public static void lastYaw(byte value, ) { net.minecraft.server.network.EntityTrackerEntry.lastYaw = value; }
 
 // public yarnwrap.server.world.ServerWorld world() { return new yarnwrap.server.world.ServerWorld(wrapperContained.world); }
 // public void world(yarnwrap.server.world.ServerWorld value) { wrapperContained.world = value.wrapperContained; }
 // public static yarnwrap.server.world.ServerWorld world() { return new yarnwrap.server.world.ServerWorld(net.minecraft.server.network.EntityTrackerEntry.world); }
 // public static void world(yarnwrap.server.world.ServerWorld value, ) { net.minecraft.server.network.EntityTrackerEntry.world = value.wrapperContained; }
 
-// public java.util.function.Consumer receiver() { return wrapperContained.receiver; }
-// public void receiver(java.util.function.Consumer value) { wrapperContained.receiver = value; }
-// public static java.util.function.Consumer receiver() { return net.minecraft.server.network.EntityTrackerEntry.receiver; }
-// public static void receiver(java.util.function.Consumer value, ) { net.minecraft.server.network.EntityTrackerEntry.receiver = value; }
+// public java.util.function.Consumer watchingSender() { return wrapperContained.watchingSender; }
+// public void watchingSender(java.util.function.Consumer value) { wrapperContained.watchingSender = value; }
+// public static java.util.function.Consumer watchingSender() { return net.minecraft.server.network.EntityTrackerEntry.watchingSender; }
+// public static void watchingSender(java.util.function.Consumer value, ) { net.minecraft.server.network.EntityTrackerEntry.watchingSender = value; }
 
 // public yarnwrap.util.math.Vec3d velocity() { return new yarnwrap.util.math.Vec3d(wrapperContained.velocity); }
 // public void velocity(yarnwrap.util.math.Vec3d value) { wrapperContained.velocity = value.wrapperContained; }
@@ -86,7 +86,12 @@ public class EntityTrackerEntry { public net.minecraft.server.network.EntityTrac
 // public static java.util.List changedEntries() { return net.minecraft.server.network.EntityTrackerEntry.changedEntries; }
 // public static void changedEntries(java.util.List value, ) { net.minecraft.server.network.EntityTrackerEntry.changedEntries = value; }
 
-public EntityTrackerEntry(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,int tickInterval,boolean alwaysUpdateVelocity,java.util.function.Consumer receiver) { this.wrapperContained = new net.minecraft.server.network.EntityTrackerEntry(world.wrapperContained,entity.wrapperContained,tickInterval,alwaysUpdateVelocity,receiver); }
+// public java.util.function.BiConsumer filteredWatchingSender() { return wrapperContained.filteredWatchingSender; }
+// public void filteredWatchingSender(java.util.function.BiConsumer value) { wrapperContained.filteredWatchingSender = value; }
+// public static java.util.function.BiConsumer filteredWatchingSender() { return net.minecraft.server.network.EntityTrackerEntry.filteredWatchingSender; }
+// public static void filteredWatchingSender(java.util.function.BiConsumer value, ) { net.minecraft.server.network.EntityTrackerEntry.filteredWatchingSender = value; }
+
+public EntityTrackerEntry(yarnwrap.server.world.ServerWorld world,yarnwrap.entity.Entity entity,int tickInterval,boolean alwaysUpdateVelocity,java.util.function.Consumer watchingSender,java.util.function.BiConsumer filteredWatchingSender) { this.wrapperContained = new net.minecraft.server.network.EntityTrackerEntry(world.wrapperContained,entity.wrapperContained,tickInterval,alwaysUpdateVelocity,watchingSender,filteredWatchingSender); }
 public void stopTracking(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.stopTracking(player.wrapperContained); }
 // public static void stopTracking(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.server.network.EntityTrackerEntry.stopTracking(player.wrapperContained); }
 // public void syncEntityData() { wrapperContained.syncEntityData(); }
@@ -99,12 +104,8 @@ public void sendPackets(yarnwrap.server.network.ServerPlayerEntity player,java.u
 // public static void sendSyncPacket(yarnwrap.network.packet.Packet packet, ) { net.minecraft.server.network.EntityTrackerEntry.sendSyncPacket(packet.wrapperContained); }
 public void startTracking(yarnwrap.server.network.ServerPlayerEntity player) { wrapperContained.startTracking(player.wrapperContained); }
 // public static void startTracking(yarnwrap.server.network.ServerPlayerEntity player, ) { net.minecraft.server.network.EntityTrackerEntry.startTracking(player.wrapperContained); }
-// public void method_49426(yarnwrap.entity.Entity passenger) { wrapperContained.method_49426(passenger.wrapperContained); }
-// public static void method_49426(yarnwrap.entity.Entity passenger, ) { net.minecraft.server.network.EntityTrackerEntry.method_49426(passenger.wrapperContained); }
-// public boolean method_49752(java.util.List passenger) { return wrapperContained.method_49752(passenger); }
-// public static boolean method_49752(java.util.List passenger, ) { return net.minecraft.server.network.EntityTrackerEntry.method_49752(passenger); }
-// public java.util.stream.Stream streamChangedPassengers(java.util.List passengers,java.util.List lastPassengers) { return wrapperContained.streamChangedPassengers(passengers,lastPassengers); }
-// public static java.util.stream.Stream streamChangedPassengers(java.util.List passengers,java.util.List lastPassengers, ) { return net.minecraft.server.network.EntityTrackerEntry.streamChangedPassengers(passengers,lastPassengers); }
+// public java.util.stream.Stream streamChangedPassengers(java.util.List newPassengers) { return wrapperContained.streamChangedPassengers(newPassengers); }
+// public static java.util.stream.Stream streamChangedPassengers(java.util.List newPassengers, ) { return net.minecraft.server.network.EntityTrackerEntry.streamChangedPassengers(newPassengers); }
 public yarnwrap.util.math.Vec3d getPos() { return new yarnwrap.util.math.Vec3d(wrapperContained.getPos()); }
 // public static yarnwrap.util.math.Vec3d getPos() { return new yarnwrap.util.math.Vec3d(net.minecraft.server.network.EntityTrackerEntry.getPos()); }
 public yarnwrap.util.math.Vec3d getVelocity() { return new yarnwrap.util.math.Vec3d(wrapperContained.getVelocity()); }
@@ -115,5 +116,11 @@ public float getYaw() { return wrapperContained.getYaw(); }
 // public static float getYaw() { return net.minecraft.server.network.EntityTrackerEntry.getYaw(); }
 public float getHeadYaw() { return wrapperContained.getHeadYaw(); }
 // public static float getHeadYaw() { return net.minecraft.server.network.EntityTrackerEntry.getHeadYaw(); }
+// public void tickExperimentalMinecart(yarnwrap.entity.vehicle.ExperimentalMinecartController controller,byte yaw,byte pitch,boolean changedAngles) { wrapperContained.tickExperimentalMinecart(controller.wrapperContained,yaw,pitch,changedAngles); }
+// public static void tickExperimentalMinecart(yarnwrap.entity.vehicle.ExperimentalMinecartController controller,byte yaw,byte pitch,boolean changedAngles, ) { net.minecraft.server.network.EntityTrackerEntry.tickExperimentalMinecart(controller.wrapperContained,yaw,pitch,changedAngles); }
+// public boolean method_66013(yarnwrap.entity.Entity passenger) { return wrapperContained.method_66013(passenger.wrapperContained); }
+// public static boolean method_66013(yarnwrap.entity.Entity passenger, ) { return net.minecraft.server.network.EntityTrackerEntry.method_66013(passenger.wrapperContained); }
+// public boolean method_66014(java.util.List passenger) { return wrapperContained.method_66014(passenger); }
+// public static boolean method_66014(java.util.List passenger, ) { return net.minecraft.server.network.EntityTrackerEntry.method_66014(passenger); }
 
 }

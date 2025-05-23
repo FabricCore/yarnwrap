@@ -24,5 +24,7 @@ public static com.mojang.serialization.MapCodec CODEC() { return net.minecraft.s
 // public static boolean method_35369(yarnwrap.structure.pool.StructurePoolElement element, ) { return net.minecraft.structure.pool.ListPoolElement.method_35369(element.wrapperContained); }
 // public yarnwrap.util.math.BlockBox method_35370(yarnwrap.structure.StructureTemplateManager element) { return new yarnwrap.util.math.BlockBox(wrapperContained.method_35370(element.wrapperContained)); }
 // public static yarnwrap.util.math.BlockBox method_35370(yarnwrap.structure.StructureTemplateManager element, ) { return new yarnwrap.util.math.BlockBox(net.minecraft.structure.pool.ListPoolElement.method_35370(element.wrapperContained)); }
+public java.util.List getElements() { return wrapperContained.getElements(); }
+// public static java.util.List getElements() { return net.minecraft.structure.pool.ListPoolElement.getElements(); }
 
 }

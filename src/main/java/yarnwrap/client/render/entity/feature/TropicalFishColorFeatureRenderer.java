@@ -1,6 +1,11 @@
 package yarnwrap.client.render.entity.feature;
 public class TropicalFishColorFeatureRenderer { public net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer wrapperContained; public TropicalFishColorFeatureRenderer(net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer wrapperContained) { this.wrapperContained = wrapperContained; }
 
+// public yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel largeModel() { return new yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel(wrapperContained.largeModel); }
+// public void largeModel(yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel value) { wrapperContained.largeModel = value.wrapperContained; }
+// public static yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel largeModel() { return new yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel(net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer.largeModel); }
+// public static void largeModel(yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel value, ) { net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer.largeModel = value.wrapperContained; }
+
 // public yarnwrap.client.render.entity.model.SmallTropicalFishEntityModel smallModel() { return new yarnwrap.client.render.entity.model.SmallTropicalFishEntityModel(wrapperContained.smallModel); }
 // public void smallModel(yarnwrap.client.render.entity.model.SmallTropicalFishEntityModel value) { wrapperContained.smallModel = value.wrapperContained; }
 // public static yarnwrap.client.render.entity.model.SmallTropicalFishEntityModel smallModel() { return new yarnwrap.client.render.entity.model.SmallTropicalFishEntityModel(net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer.smallModel); }
@@ -66,11 +71,6 @@ public class TropicalFishColorFeatureRenderer { public net.minecraft.client.rend
 // public static yarnwrap.util.Identifier CLAYFISH_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer.CLAYFISH_TEXTURE); }
 // public static void CLAYFISH_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer.CLAYFISH_TEXTURE = value.wrapperContained; }
 
-// public yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel largeModel() { return new yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel(wrapperContained.largeModel); }
-// public void largeModel(yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel value) { wrapperContained.largeModel = value.wrapperContained; }
-// public static yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel largeModel() { return new yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel(net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer.largeModel); }
-// public static void largeModel(yarnwrap.client.render.entity.model.LargeTropicalFishEntityModel value, ) { net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer.largeModel = value.wrapperContained; }
-
-public TropicalFishColorFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.EntityModelLoader loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
+public TropicalFishColorFeatureRenderer(yarnwrap.client.render.entity.feature.FeatureRendererContext context,yarnwrap.client.render.entity.model.LoadedEntityModels loader) { this.wrapperContained = new net.minecraft.client.render.entity.feature.TropicalFishColorFeatureRenderer(context.wrapperContained,loader.wrapperContained); }
 
 }

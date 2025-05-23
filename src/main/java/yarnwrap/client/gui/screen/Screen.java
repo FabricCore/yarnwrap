@@ -96,11 +96,6 @@ public void height(int value) { wrapperContained.height = value; }
 // public static long screenNarrationStartTime() { return net.minecraft.client.gui.screen.Screen.screenNarrationStartTime; }
 // public static void screenNarrationStartTime(long value, ) { net.minecraft.client.gui.screen.Screen.screenNarrationStartTime = value; }
 
-// public Object tooltip() { return wrapperContained.tooltip; }
-// // public void tooltip(Object value) { wrapperContained.tooltip = value; }
-// // public static Object tooltip() { return net.minecraft.client.gui.screen.Screen.tooltip; }
-// // public static void tooltip(Object value, ) { net.minecraft.client.gui.screen.Screen.tooltip = value; }
-
 // public boolean screenInitialized() { return wrapperContained.screenInitialized; }
 // public void screenInitialized(boolean value) { wrapperContained.screenInitialized = value; }
 // public static boolean screenInitialized() { return net.minecraft.client.gui.screen.Screen.screenInitialized; }
@@ -110,16 +105,6 @@ public void height(int value) { wrapperContained.height = value; }
 // public void executor(java.util.concurrent.Executor value) { wrapperContained.executor = value; }
 // public static java.util.concurrent.Executor executor() { return net.minecraft.client.gui.screen.Screen.executor; }
 // public static void executor(java.util.concurrent.Executor value, ) { net.minecraft.client.gui.screen.Screen.executor = value; }
-
-// public yarnwrap.client.gui.CubeMapRenderer PANORAMA_RENDERER() { return new yarnwrap.client.gui.CubeMapRenderer(wrapperContained.PANORAMA_RENDERER); }
-// public void PANORAMA_RENDERER(yarnwrap.client.gui.CubeMapRenderer value) { wrapperContained.PANORAMA_RENDERER = value.wrapperContained; }
-// public static yarnwrap.client.gui.CubeMapRenderer PANORAMA_RENDERER() { return new yarnwrap.client.gui.CubeMapRenderer(net.minecraft.client.gui.screen.Screen.PANORAMA_RENDERER); }
-// public static void PANORAMA_RENDERER(yarnwrap.client.gui.CubeMapRenderer value, ) { net.minecraft.client.gui.screen.Screen.PANORAMA_RENDERER = value.wrapperContained; }
-
-// public yarnwrap.client.gui.RotatingCubeMapRenderer ROTATING_PANORAMA_RENDERER() { return new yarnwrap.client.gui.RotatingCubeMapRenderer(wrapperContained.ROTATING_PANORAMA_RENDERER); }
-// public void ROTATING_PANORAMA_RENDERER(yarnwrap.client.gui.RotatingCubeMapRenderer value) { wrapperContained.ROTATING_PANORAMA_RENDERER = value.wrapperContained; }
-// public static yarnwrap.client.gui.RotatingCubeMapRenderer ROTATING_PANORAMA_RENDERER() { return new yarnwrap.client.gui.RotatingCubeMapRenderer(net.minecraft.client.gui.screen.Screen.ROTATING_PANORAMA_RENDERER); }
-// public static void ROTATING_PANORAMA_RENDERER(yarnwrap.client.gui.RotatingCubeMapRenderer value, ) { net.minecraft.client.gui.screen.Screen.ROTATING_PANORAMA_RENDERER = value.wrapperContained; }
 
 // public yarnwrap.util.Identifier MENU_BACKGROUND_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.MENU_BACKGROUND_TEXTURE); }
 // public void MENU_BACKGROUND_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.MENU_BACKGROUND_TEXTURE = value.wrapperContained; }
@@ -163,16 +148,14 @@ public void tick() { wrapperContained.tick(); }
 // public static java.util.List getTooltipFromItem(yarnwrap.client.MinecraftClient client,yarnwrap.item.ItemStack stack, ) { return net.minecraft.client.gui.screen.Screen.getTooltipFromItem(client.wrapperContained,stack.wrapperContained); }
 public void resize(yarnwrap.client.MinecraftClient client,int width,int height) { wrapperContained.resize(client.wrapperContained,width,height); }
 // public static void resize(yarnwrap.client.MinecraftClient client,int width,int height, ) { net.minecraft.client.gui.screen.Screen.resize(client.wrapperContained,width,height); }
-// public void wrapScreenError(java.lang.Runnable task,java.lang.String errorTitle,java.lang.String screenName) { wrapperContained.wrapScreenError(task,errorTitle,screenName); }
-// public static void wrapScreenError(java.lang.Runnable task,java.lang.String errorTitle,java.lang.String screenName, ) { net.minecraft.client.gui.screen.Screen.wrapScreenError(task,errorTitle,screenName); }
 // public boolean isValidCharacterForName(java.lang.String name,char character,int cursorPos) { return wrapperContained.isValidCharacterForName(name,character,cursorPos); }
 // public static boolean isValidCharacterForName(java.lang.String name,char character,int cursorPos, ) { return net.minecraft.client.gui.screen.Screen.isValidCharacterForName(name,character,cursorPos); }
 // public void insertText(java.lang.String text,boolean override) { wrapperContained.insertText(text,override); }
 // public static void insertText(java.lang.String text,boolean override, ) { net.minecraft.client.gui.screen.Screen.insertText(text,override); }
 public void close() { wrapperContained.close(); }
 // public static void close() { net.minecraft.client.gui.screen.Screen.close(); }
-public void renderBackground(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float delta) { wrapperContained.renderBackground(context.wrapperContained,mouseX,mouseY,delta); }
-// public static void renderBackground(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float delta, ) { net.minecraft.client.gui.screen.Screen.renderBackground(context.wrapperContained,mouseX,mouseY,delta); }
+public void renderBackground(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float deltaTicks) { wrapperContained.renderBackground(context.wrapperContained,mouseX,mouseY,deltaTicks); }
+// public static void renderBackground(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float deltaTicks, ) { net.minecraft.client.gui.screen.Screen.renderBackground(context.wrapperContained,mouseX,mouseY,deltaTicks); }
 public boolean shouldPause() { return wrapperContained.shouldPause(); }
 // public static boolean shouldPause() { return net.minecraft.client.gui.screen.Screen.shouldPause(); }
 public boolean shouldCloseOnEsc() { return wrapperContained.shouldCloseOnEsc(); }
@@ -205,8 +188,8 @@ public static boolean hasControlDown() { return net.minecraft.client.gui.screen.
 public static boolean hasShiftDown() { return net.minecraft.client.gui.screen.Screen.hasShiftDown(); }
 // public boolean hasAltDown() { return wrapperContained.hasAltDown(); }
 public static boolean hasAltDown() { return net.minecraft.client.gui.screen.Screen.hasAltDown(); }
-public void filesDragged(java.util.List paths) { wrapperContained.filesDragged(paths); }
-// public static void filesDragged(java.util.List paths, ) { net.minecraft.client.gui.screen.Screen.filesDragged(paths); }
+public void onFilesDropped(java.util.List paths) { wrapperContained.onFilesDropped(paths); }
+// public static void onFilesDropped(java.util.List paths, ) { net.minecraft.client.gui.screen.Screen.onFilesDropped(paths); }
 // public void addElementNarrations(yarnwrap.client.gui.screen.narration.NarrationMessageBuilder builder) { wrapperContained.addElementNarrations(builder.wrapperContained); }
 // public static void addElementNarrations(yarnwrap.client.gui.screen.narration.NarrationMessageBuilder builder, ) { net.minecraft.client.gui.screen.Screen.addElementNarrations(builder.wrapperContained); }
 // public void setElementNarrationDelay(long delayMs) { wrapperContained.setElementNarrationDelay(delayMs); }
@@ -241,16 +224,8 @@ public void updateNarrator() { wrapperContained.updateNarrator(); }
 // public static boolean isNarratorActive() { return net.minecraft.client.gui.screen.Screen.isNarratorActive(); }
 // public void clearAndInit() { wrapperContained.clearAndInit(); }
 // public static void clearAndInit() { net.minecraft.client.gui.screen.Screen.clearAndInit(); }
-public void setTooltip(yarnwrap.client.gui.tooltip.Tooltip tooltip,yarnwrap.client.gui.tooltip.TooltipPositioner positioner,boolean focused) { wrapperContained.setTooltip(tooltip.wrapperContained,positioner.wrapperContained,focused); }
-// public static void setTooltip(yarnwrap.client.gui.tooltip.Tooltip tooltip,yarnwrap.client.gui.tooltip.TooltipPositioner positioner,boolean focused, ) { net.minecraft.client.gui.screen.Screen.setTooltip(tooltip.wrapperContained,positioner.wrapperContained,focused); }
-public void renderWithTooltip(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float delta) { wrapperContained.renderWithTooltip(context.wrapperContained,mouseX,mouseY,delta); }
-// public static void renderWithTooltip(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float delta, ) { net.minecraft.client.gui.screen.Screen.renderWithTooltip(context.wrapperContained,mouseX,mouseY,delta); }
-public void setTooltip(java.util.List tooltip) { wrapperContained.setTooltip(tooltip); }
-// public static void setTooltip(java.util.List tooltip, ) { net.minecraft.client.gui.screen.Screen.setTooltip(tooltip); }
-public void setTooltip(yarnwrap.text.Text tooltip) { wrapperContained.setTooltip(tooltip.wrapperContained); }
-// public static void setTooltip(yarnwrap.text.Text tooltip, ) { net.minecraft.client.gui.screen.Screen.setTooltip(tooltip.wrapperContained); }
-public void setTooltip(java.util.List tooltip,yarnwrap.client.gui.tooltip.TooltipPositioner positioner,boolean focused) { wrapperContained.setTooltip(tooltip,positioner.wrapperContained,focused); }
-// public static void setTooltip(java.util.List tooltip,yarnwrap.client.gui.tooltip.TooltipPositioner positioner,boolean focused, ) { net.minecraft.client.gui.screen.Screen.setTooltip(tooltip,positioner.wrapperContained,focused); }
+public void renderWithTooltip(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float deltaTicks) { wrapperContained.renderWithTooltip(context.wrapperContained,mouseX,mouseY,deltaTicks); }
+// public static void renderWithTooltip(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float deltaTicks, ) { net.minecraft.client.gui.screen.Screen.renderWithTooltip(context.wrapperContained,mouseX,mouseY,deltaTicks); }
 // public boolean hasUsageText() { return wrapperContained.hasUsageText(); }
 // public static boolean hasUsageText() { return net.minecraft.client.gui.screen.Screen.hasUsageText(); }
 // public void switchFocus(yarnwrap.client.gui.navigation.GuiNavigationPath path) { wrapperContained.switchFocus(path.wrapperContained); }
@@ -263,8 +238,8 @@ public void setTooltip(java.util.List tooltip,yarnwrap.client.gui.tooltip.Toolti
 // public static Object getTabNavigation() { return net.minecraft.client.gui.screen.Screen.getTabNavigation(); }
 public void blur() { wrapperContained.blur(); }
 // public static void blur() { net.minecraft.client.gui.screen.Screen.blur(); }
-// public void initTabNavigation() { wrapperContained.initTabNavigation(); }
-// public static void initTabNavigation() { net.minecraft.client.gui.screen.Screen.initTabNavigation(); }
+// public void refreshWidgetPositions() { wrapperContained.refreshWidgetPositions(); }
+// public static void refreshWidgetPositions() { net.minecraft.client.gui.screen.Screen.refreshWidgetPositions(); }
 public void onDisplayed() { wrapperContained.onDisplayed(); }
 // public static void onDisplayed() { net.minecraft.client.gui.screen.Screen.onDisplayed(); }
 public yarnwrap.sound.MusicSound getMusic() { return new yarnwrap.sound.MusicSound(wrapperContained.getMusic()); }
@@ -277,21 +252,37 @@ public void renderInGameBackground(yarnwrap.client.gui.DrawContext context) { wr
 // public static yarnwrap.text.Text getUsageNarrationText() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.Screen.getUsageNarrationText()); }
 // public void setInitialFocus() { wrapperContained.setInitialFocus(); }
 // public static void setInitialFocus() { net.minecraft.client.gui.screen.Screen.setInitialFocus(); }
-// public void renderPanoramaBackground(yarnwrap.client.gui.DrawContext context,float delta) { wrapperContained.renderPanoramaBackground(context.wrapperContained,delta); }
-// public static void renderPanoramaBackground(yarnwrap.client.gui.DrawContext context,float delta, ) { net.minecraft.client.gui.screen.Screen.renderPanoramaBackground(context.wrapperContained,delta); }
-// public void applyBlur(float delta) { wrapperContained.applyBlur(delta); }
-// public static void applyBlur(float delta, ) { net.minecraft.client.gui.screen.Screen.applyBlur(delta); }
+// public void renderPanoramaBackground(yarnwrap.client.gui.DrawContext context,float deltaTicks) { wrapperContained.renderPanoramaBackground(context.wrapperContained,deltaTicks); }
+// public static void renderPanoramaBackground(yarnwrap.client.gui.DrawContext context,float deltaTicks, ) { net.minecraft.client.gui.screen.Screen.renderPanoramaBackground(context.wrapperContained,deltaTicks); }
+// public void applyBlur(yarnwrap.client.gui.DrawContext context) { wrapperContained.applyBlur(context.wrapperContained); }
+// public static void applyBlur(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.screen.Screen.applyBlur(context.wrapperContained); }
 // public void renderDarkening(yarnwrap.client.gui.DrawContext context) { wrapperContained.renderDarkening(context.wrapperContained); }
 // public static void renderDarkening(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.screen.Screen.renderDarkening(context.wrapperContained); }
 // public void renderDarkening(yarnwrap.client.gui.DrawContext context,int x,int y,int width,int height) { wrapperContained.renderDarkening(context.wrapperContained,x,y,width,height); }
 // public static void renderDarkening(yarnwrap.client.gui.DrawContext context,int x,int y,int width,int height, ) { net.minecraft.client.gui.screen.Screen.renderDarkening(context.wrapperContained,x,y,width,height); }
 // public void renderBackgroundTexture(yarnwrap.client.gui.DrawContext context,yarnwrap.util.Identifier texture,int x,int y,float u,float v,int width,int height) { wrapperContained.renderBackgroundTexture(context.wrapperContained,texture.wrapperContained,x,y,u,v,width,height); }
 // public static void renderBackgroundTexture(yarnwrap.client.gui.DrawContext context,yarnwrap.util.Identifier texture,int x,int y,float u,float v,int width,int height, ) { net.minecraft.client.gui.screen.Screen.renderBackgroundTexture(context.wrapperContained,texture.wrapperContained,x,y,u,v,width,height); }
-// public void clearTooltip() { wrapperContained.clearTooltip(); }
-// public static void clearTooltip() { net.minecraft.client.gui.screen.Screen.clearTooltip(); }
-// public void method_61039(java.net.URI confirmed) { wrapperContained.method_61039(confirmed); }
-// public static void method_61039(java.net.URI confirmed, ) { net.minecraft.client.gui.screen.Screen.method_61039(confirmed); }
 public void refreshNarrator(boolean previouslyDisabled) { wrapperContained.refreshNarrator(previouslyDisabled); }
 // public static void refreshNarrator(boolean previouslyDisabled, ) { net.minecraft.client.gui.screen.Screen.refreshNarrator(previouslyDisabled); }
+public yarnwrap.client.font.TextRenderer getTextRenderer() { return new yarnwrap.client.font.TextRenderer(wrapperContained.getTextRenderer()); }
+// public static yarnwrap.client.font.TextRenderer getTextRenderer() { return new yarnwrap.client.font.TextRenderer(net.minecraft.client.gui.screen.Screen.getTextRenderer()); }
+public boolean shouldHideStatusEffectHud() { return wrapperContained.shouldHideStatusEffectHud(); }
+// public static boolean shouldHideStatusEffectHud() { return net.minecraft.client.gui.screen.Screen.shouldHideStatusEffectHud(); }
+public void addCrashReportSection(yarnwrap.util.crash.CrashReport report) { wrapperContained.addCrashReportSection(report.wrapperContained); }
+// public static void addCrashReportSection(yarnwrap.util.crash.CrashReport report, ) { net.minecraft.client.gui.screen.Screen.addCrashReportSection(report.wrapperContained); }
+// public java.util.stream.Stream method_65517(yarnwrap.client.gui.Selectable selectable) { return wrapperContained.method_65517(selectable.wrapperContained); }
+// public static java.util.stream.Stream method_65517(yarnwrap.client.gui.Selectable selectable, ) { return net.minecraft.client.gui.screen.Screen.method_65517(selectable.wrapperContained); }
+// public void setWidgetAlpha(float alpha) { wrapperContained.setWidgetAlpha(alpha); }
+// public static void setWidgetAlpha(float alpha, ) { net.minecraft.client.gui.screen.Screen.setWidgetAlpha(alpha); }
+// public boolean handleOpenUri(yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.screen.Screen screen,java.net.URI uri) { return wrapperContained.handleOpenUri(client.wrapperContained,screen.wrapperContained,uri); }
+// public static boolean handleOpenUri(yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.screen.Screen screen,java.net.URI uri, ) { return net.minecraft.client.gui.screen.Screen.handleOpenUri(client.wrapperContained,screen.wrapperContained,uri); }
+// public void handleRunCommand() { wrapperContained.handleRunCommand(); }
+// public static void handleRunCommand() { net.minecraft.client.gui.screen.Screen.handleRunCommand(); }
+// public void method_71845(java.net.URI confirmed) { wrapperContained.method_71845(confirmed); }
+// public static void method_71845(java.net.URI confirmed, ) { net.minecraft.client.gui.screen.Screen.method_71845(confirmed); }
+// public void handleClickEvent() { wrapperContained.handleClickEvent(); }
+// public static void handleClickEvent() { net.minecraft.client.gui.screen.Screen.handleClickEvent(); }
+// public void handleClickEvent(yarnwrap.text.ClickEvent clickEvent,yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.screen.Screen screen) { wrapperContained.handleClickEvent(clickEvent.wrapperContained,client.wrapperContained,screen.wrapperContained); }
+// public static void handleClickEvent(yarnwrap.text.ClickEvent clickEvent,yarnwrap.client.MinecraftClient client,yarnwrap.client.gui.screen.Screen screen, ) { net.minecraft.client.gui.screen.Screen.handleClickEvent(clickEvent.wrapperContained,client.wrapperContained,screen.wrapperContained); }
 
 }

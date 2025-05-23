@@ -1,6 +1,16 @@
 package yarnwrap.entity.mob;
 public class BreezeEntity { public net.minecraft.entity.mob.BreezeEntity wrapperContained; public BreezeEntity(net.minecraft.entity.mob.BreezeEntity wrapperContained) { this.wrapperContained = wrapperContained; }
 
+public yarnwrap.entity.AnimationState idleAnimationState() { return new yarnwrap.entity.AnimationState(wrapperContained.idleAnimationState); }
+public void idleAnimationState(yarnwrap.entity.AnimationState value) { wrapperContained.idleAnimationState = value.wrapperContained; }
+// public static yarnwrap.entity.AnimationState idleAnimationState() { return new yarnwrap.entity.AnimationState(net.minecraft.entity.mob.BreezeEntity.idleAnimationState); }
+// public static void idleAnimationState(yarnwrap.entity.AnimationState value, ) { net.minecraft.entity.mob.BreezeEntity.idleAnimationState = value.wrapperContained; }
+
+public yarnwrap.entity.AnimationState inhalingAnimationState() { return new yarnwrap.entity.AnimationState(wrapperContained.inhalingAnimationState); }
+public void inhalingAnimationState(yarnwrap.entity.AnimationState value) { wrapperContained.inhalingAnimationState = value.wrapperContained; }
+// public static yarnwrap.entity.AnimationState inhalingAnimationState() { return new yarnwrap.entity.AnimationState(net.minecraft.entity.mob.BreezeEntity.inhalingAnimationState); }
+// public static void inhalingAnimationState(yarnwrap.entity.AnimationState value, ) { net.minecraft.entity.mob.BreezeEntity.inhalingAnimationState = value.wrapperContained; }
+
 public yarnwrap.entity.AnimationState slidingAnimationState() { return new yarnwrap.entity.AnimationState(wrapperContained.slidingAnimationState); }
 public void slidingAnimationState(yarnwrap.entity.AnimationState value) { wrapperContained.slidingAnimationState = value.wrapperContained; }
 // public static yarnwrap.entity.AnimationState slidingAnimationState() { return new yarnwrap.entity.AnimationState(net.minecraft.entity.mob.BreezeEntity.slidingAnimationState); }
@@ -11,10 +21,10 @@ public void slidingAnimationState(yarnwrap.entity.AnimationState value) { wrappe
 // public static int longJumpingParticleAddCount() { return net.minecraft.entity.mob.BreezeEntity.longJumpingParticleAddCount; }
 // public static void longJumpingParticleAddCount(int value, ) { net.minecraft.entity.mob.BreezeEntity.longJumpingParticleAddCount = value; }
 
-public yarnwrap.entity.AnimationState inhalingAnimationState() { return new yarnwrap.entity.AnimationState(wrapperContained.inhalingAnimationState); }
-public void inhalingAnimationState(yarnwrap.entity.AnimationState value) { wrapperContained.inhalingAnimationState = value.wrapperContained; }
-// public static yarnwrap.entity.AnimationState inhalingAnimationState() { return new yarnwrap.entity.AnimationState(net.minecraft.entity.mob.BreezeEntity.inhalingAnimationState); }
-// public static void inhalingAnimationState(yarnwrap.entity.AnimationState value, ) { net.minecraft.entity.mob.BreezeEntity.inhalingAnimationState = value.wrapperContained; }
+public yarnwrap.entity.AnimationState longJumpingAnimationState() { return new yarnwrap.entity.AnimationState(wrapperContained.longJumpingAnimationState); }
+public void longJumpingAnimationState(yarnwrap.entity.AnimationState value) { wrapperContained.longJumpingAnimationState = value.wrapperContained; }
+// public static yarnwrap.entity.AnimationState longJumpingAnimationState() { return new yarnwrap.entity.AnimationState(net.minecraft.entity.mob.BreezeEntity.longJumpingAnimationState); }
+// public static void longJumpingAnimationState(yarnwrap.entity.AnimationState value, ) { net.minecraft.entity.mob.BreezeEntity.longJumpingAnimationState = value.wrapperContained; }
 
 public yarnwrap.entity.AnimationState shootingAnimationState() { return new yarnwrap.entity.AnimationState(wrapperContained.shootingAnimationState); }
 public void shootingAnimationState(yarnwrap.entity.AnimationState value) { wrapperContained.shootingAnimationState = value.wrapperContained; }
@@ -26,6 +36,11 @@ public void shootingAnimationState(yarnwrap.entity.AnimationState value) { wrapp
 // public static int ticksUntilWhirlSound() { return net.minecraft.entity.mob.BreezeEntity.ticksUntilWhirlSound; }
 // public static void ticksUntilWhirlSound(int value, ) { net.minecraft.entity.mob.BreezeEntity.ticksUntilWhirlSound = value; }
 
+public yarnwrap.entity.AnimationState slidingBackAnimationState() { return new yarnwrap.entity.AnimationState(wrapperContained.slidingBackAnimationState); }
+public void slidingBackAnimationState(yarnwrap.entity.AnimationState value) { wrapperContained.slidingBackAnimationState = value.wrapperContained; }
+// public static yarnwrap.entity.AnimationState slidingBackAnimationState() { return new yarnwrap.entity.AnimationState(net.minecraft.entity.mob.BreezeEntity.slidingBackAnimationState); }
+// public static void slidingBackAnimationState(yarnwrap.entity.AnimationState value, ) { net.minecraft.entity.mob.BreezeEntity.slidingBackAnimationState = value.wrapperContained; }
+
 // public yarnwrap.entity.ProjectileDeflection PROJECTILE_DEFLECTOR() { return new yarnwrap.entity.ProjectileDeflection(wrapperContained.PROJECTILE_DEFLECTOR); }
 // public void PROJECTILE_DEFLECTOR(yarnwrap.entity.ProjectileDeflection value) { wrapperContained.PROJECTILE_DEFLECTOR = value.wrapperContained; }
 // public static yarnwrap.entity.ProjectileDeflection PROJECTILE_DEFLECTOR() { return new yarnwrap.entity.ProjectileDeflection(net.minecraft.entity.mob.BreezeEntity.PROJECTILE_DEFLECTOR); }
@@ -35,8 +50,6 @@ public void addBlockParticles(int count) { wrapperContained.addBlockParticles(co
 // public static void addBlockParticles(int count, ) { net.minecraft.entity.mob.BreezeEntity.addBlockParticles(count); }
 public void addLongJumpingParticles() { wrapperContained.addLongJumpingParticles(); }
 // public static void addLongJumpingParticles() { net.minecraft.entity.mob.BreezeEntity.addLongJumpingParticles(); }
-public double getChargeY() { return wrapperContained.getChargeY(); }
-// public static double getChargeY() { return net.minecraft.entity.mob.BreezeEntity.getChargeY(); }
 // public void stopAnimations() { wrapperContained.stopAnimations(); }
 // public static void stopAnimations() { net.minecraft.entity.mob.BreezeEntity.stopAnimations(); }
 public boolean isWithinShortRange(yarnwrap.util.math.Vec3d pos) { return wrapperContained.isWithinShortRange(pos.wrapperContained); }
@@ -55,5 +68,7 @@ public void playWhirlSound() { wrapperContained.playWhirlSound(); }
 // public static boolean method_56561(yarnwrap.entity.Entity attacker, ) { return net.minecraft.entity.mob.BreezeEntity.method_56561(attacker.wrapperContained); }
 public java.util.Optional getHurtBy() { return wrapperContained.getHurtBy(); }
 // public static java.util.Optional getHurtBy() { return net.minecraft.entity.mob.BreezeEntity.getHurtBy(); }
+public double getChargeY() { return wrapperContained.getChargeY(); }
+// public static double getChargeY() { return net.minecraft.entity.mob.BreezeEntity.getChargeY(); }
 
 }

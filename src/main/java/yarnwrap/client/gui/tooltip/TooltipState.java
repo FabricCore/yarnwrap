@@ -16,10 +16,10 @@ public class TooltipState { public net.minecraft.client.gui.tooltip.TooltipState
 // public static long renderCheckTime() { return net.minecraft.client.gui.tooltip.TooltipState.renderCheckTime; }
 // public static void renderCheckTime(long value, ) { net.minecraft.client.gui.tooltip.TooltipState.renderCheckTime = value; }
 
-// public boolean prevShouldRender() { return wrapperContained.prevShouldRender; }
-// public void prevShouldRender(boolean value) { wrapperContained.prevShouldRender = value; }
-// public static boolean prevShouldRender() { return net.minecraft.client.gui.tooltip.TooltipState.prevShouldRender; }
-// public static void prevShouldRender(boolean value, ) { net.minecraft.client.gui.tooltip.TooltipState.prevShouldRender = value; }
+// public boolean lastShouldRender() { return wrapperContained.lastShouldRender; }
+// public void lastShouldRender(boolean value) { wrapperContained.lastShouldRender = value; }
+// public static boolean lastShouldRender() { return net.minecraft.client.gui.tooltip.TooltipState.lastShouldRender; }
+// public static void lastShouldRender(boolean value, ) { net.minecraft.client.gui.tooltip.TooltipState.lastShouldRender = value; }
 
 public yarnwrap.client.gui.tooltip.Tooltip getTooltip() { return new yarnwrap.client.gui.tooltip.Tooltip(wrapperContained.getTooltip()); }
 // public static yarnwrap.client.gui.tooltip.Tooltip getTooltip() { return new yarnwrap.client.gui.tooltip.Tooltip(net.minecraft.client.gui.tooltip.TooltipState.getTooltip()); }
@@ -31,7 +31,7 @@ public void appendNarrations(yarnwrap.client.gui.screen.narration.NarrationMessa
 // public static yarnwrap.client.gui.tooltip.TooltipPositioner createPositioner(yarnwrap.client.gui.ScreenRect focus,boolean hovered,boolean focused, ) { return new yarnwrap.client.gui.tooltip.TooltipPositioner(net.minecraft.client.gui.tooltip.TooltipState.createPositioner(focus.wrapperContained,hovered,focused)); }
 public void setDelay(java.time.Duration delay) { wrapperContained.setDelay(delay); }
 // public static void setDelay(java.time.Duration delay, ) { net.minecraft.client.gui.tooltip.TooltipState.setDelay(delay); }
-public void render(boolean hovered,boolean focused,yarnwrap.client.gui.ScreenRect focus) { wrapperContained.render(hovered,focused,focus.wrapperContained); }
-// public static void render(boolean hovered,boolean focused,yarnwrap.client.gui.ScreenRect focus, ) { net.minecraft.client.gui.tooltip.TooltipState.render(hovered,focused,focus.wrapperContained); }
+// public void render(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,boolean hovered,boolean focused,yarnwrap.client.gui.ScreenRect navigationFocus) { wrapperContained.render(context.wrapperContained,mouseX,mouseY,hovered,focused,navigationFocus.wrapperContained); }
+// public static void render(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,boolean hovered,boolean focused,yarnwrap.client.gui.ScreenRect navigationFocus, ) { net.minecraft.client.gui.tooltip.TooltipState.render(context.wrapperContained,mouseX,mouseY,hovered,focused,navigationFocus.wrapperContained); }
 
 }

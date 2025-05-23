@@ -1,11 +1,6 @@
 package yarnwrap.entity.ai.control;
 public class MoveControl { public net.minecraft.entity.ai.control.MoveControl wrapperContained; public MoveControl(net.minecraft.entity.ai.control.MoveControl wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public float REACHED_DESTINATION_DISTANCE_SQUARED() { return wrapperContained.REACHED_DESTINATION_DISTANCE_SQUARED; }
-// public void REACHED_DESTINATION_DISTANCE_SQUARED(float value) { wrapperContained.REACHED_DESTINATION_DISTANCE_SQUARED = value; }
-public static float REACHED_DESTINATION_DISTANCE_SQUARED() { return net.minecraft.entity.ai.control.MoveControl.REACHED_DESTINATION_DISTANCE_SQUARED; }
-// public static void REACHED_DESTINATION_DISTANCE_SQUARED(float value, ) { net.minecraft.entity.ai.control.MoveControl.REACHED_DESTINATION_DISTANCE_SQUARED = value; }
-
 // public double targetZ() { return wrapperContained.targetZ; }
 // public void targetZ(double value) { wrapperContained.targetZ = value; }
 // public static double targetZ() { return net.minecraft.entity.ai.control.MoveControl.targetZ; }
@@ -46,9 +41,12 @@ public static float REACHED_DESTINATION_DISTANCE_SQUARED() { return net.minecraf
 // // public static Object state() { return net.minecraft.entity.ai.control.MoveControl.state; }
 // // public static void state(Object value, ) { net.minecraft.entity.ai.control.MoveControl.state = value; }
 
+// public float REACHED_DESTINATION_DISTANCE_SQUARED() { return wrapperContained.REACHED_DESTINATION_DISTANCE_SQUARED; }
+// public void REACHED_DESTINATION_DISTANCE_SQUARED(float value) { wrapperContained.REACHED_DESTINATION_DISTANCE_SQUARED = value; }
+public static float REACHED_DESTINATION_DISTANCE_SQUARED() { return net.minecraft.entity.ai.control.MoveControl.REACHED_DESTINATION_DISTANCE_SQUARED; }
+// public static void REACHED_DESTINATION_DISTANCE_SQUARED(float value, ) { net.minecraft.entity.ai.control.MoveControl.REACHED_DESTINATION_DISTANCE_SQUARED = value; }
+
 public MoveControl(yarnwrap.entity.mob.MobEntity entity) { this.wrapperContained = new net.minecraft.entity.ai.control.MoveControl(entity.wrapperContained); }
-// public boolean isPosWalkable(float x,float z) { return wrapperContained.isPosWalkable(x,z); }
-// public static boolean isPosWalkable(float x,float z, ) { return net.minecraft.entity.ai.control.MoveControl.isPosWalkable(x,z); }
 public double getTargetY() { return wrapperContained.getTargetY(); }
 // public static double getTargetY() { return net.minecraft.entity.ai.control.MoveControl.getTargetY(); }
 public double getTargetX() { return wrapperContained.getTargetX(); }
@@ -67,5 +65,9 @@ public double getSpeed() { return wrapperContained.getSpeed(); }
 // public static double getSpeed() { return net.minecraft.entity.ai.control.MoveControl.getSpeed(); }
 public void strafeTo(float forward,float sideways) { wrapperContained.strafeTo(forward,sideways); }
 // public static void strafeTo(float forward,float sideways, ) { net.minecraft.entity.ai.control.MoveControl.strafeTo(forward,sideways); }
+// public boolean isPosWalkable(float x,float z) { return wrapperContained.isPosWalkable(x,z); }
+// public static boolean isPosWalkable(float x,float z, ) { return net.minecraft.entity.ai.control.MoveControl.isPosWalkable(x,z); }
+// public void setWaiting() { wrapperContained.setWaiting(); }
+// public static void setWaiting() { net.minecraft.entity.ai.control.MoveControl.setWaiting(); }
 
 }

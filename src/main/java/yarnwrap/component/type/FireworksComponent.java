@@ -16,9 +16,12 @@ public static yarnwrap.network.codec.PacketCodec PACKET_CODEC() { return new yar
 public static int MAX_EXPLOSIONS() { return net.minecraft.component.type.FireworksComponent.MAX_EXPLOSIONS; }
 // public static void MAX_EXPLOSIONS(int value, ) { net.minecraft.component.type.FireworksComponent.MAX_EXPLOSIONS = value; }
 
+public FireworksComponent(int flightDuration,java.util.List explosions) { this.wrapperContained = new net.minecraft.component.type.FireworksComponent(flightDuration,explosions); }
 // public com.mojang.datafixers.kinds.App method_57478(Object instance) { return wrapperContained.method_57478(instance); }
 // public static com.mojang.datafixers.kinds.App method_57478(Object instance, ) { return net.minecraft.component.type.FireworksComponent.method_57478(instance); }
-// public void method_57479(java.util.function.Consumer text) { wrapperContained.method_57479(text); }
-// public static void method_57479(java.util.function.Consumer text, ) { net.minecraft.component.type.FireworksComponent.method_57479(text); }
+// public void appendExplosionTooltip(java.util.function.Consumer textConsumer,yarnwrap.component.type.FireworkExplosionComponent explosionComponent,int stars) { wrapperContained.appendExplosionTooltip(textConsumer,explosionComponent.wrapperContained,stars); }
+// public static void appendExplosionTooltip(java.util.function.Consumer textConsumer,yarnwrap.component.type.FireworkExplosionComponent explosionComponent,int stars, ) { net.minecraft.component.type.FireworksComponent.appendExplosionTooltip(textConsumer,explosionComponent.wrapperContained,stars); }
+// public void method_67538(java.util.function.Consumer tooltip) { wrapperContained.method_67538(tooltip); }
+// public static void method_67538(java.util.function.Consumer tooltip, ) { net.minecraft.component.type.FireworksComponent.method_67538(tooltip); }
 
 }

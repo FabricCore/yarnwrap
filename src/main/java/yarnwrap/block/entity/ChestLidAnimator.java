@@ -18,8 +18,8 @@ public class ChestLidAnimator { public net.minecraft.block.entity.ChestLidAnimat
 
 public void step() { wrapperContained.step(); }
 // public static void step() { net.minecraft.block.entity.ChestLidAnimator.step(); }
-public float getProgress(float delta) { return wrapperContained.getProgress(delta); }
-// public static float getProgress(float delta, ) { return net.minecraft.block.entity.ChestLidAnimator.getProgress(delta); }
+public float getProgress(float tickProgress) { return wrapperContained.getProgress(tickProgress); }
+// public static float getProgress(float tickProgress, ) { return net.minecraft.block.entity.ChestLidAnimator.getProgress(tickProgress); }
 public void setOpen(boolean open) { wrapperContained.setOpen(open); }
 // public static void setOpen(boolean open, ) { net.minecraft.block.entity.ChestLidAnimator.setOpen(open); }
 

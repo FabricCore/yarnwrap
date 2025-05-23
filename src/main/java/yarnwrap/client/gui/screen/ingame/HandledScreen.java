@@ -1,26 +1,6 @@
 package yarnwrap.client.gui.screen.ingame;
 public class HandledScreen { public net.minecraft.client.gui.screen.ingame.HandledScreen wrapperContained; public HandledScreen(net.minecraft.client.gui.screen.ingame.HandledScreen wrapperContained) { this.wrapperContained = wrapperContained; }
 
-// public int titleX() { return wrapperContained.titleX; }
-// public void titleX(int value) { wrapperContained.titleX = value; }
-// public static int titleX() { return net.minecraft.client.gui.screen.ingame.HandledScreen.titleX; }
-// public static void titleX(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.titleX = value; }
-
-// public int titleY() { return wrapperContained.titleY; }
-// public void titleY(int value) { wrapperContained.titleY = value; }
-// public static int titleY() { return net.minecraft.client.gui.screen.ingame.HandledScreen.titleY; }
-// public static void titleY(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.titleY = value; }
-
-// public int playerInventoryTitleX() { return wrapperContained.playerInventoryTitleX; }
-// public void playerInventoryTitleX(int value) { wrapperContained.playerInventoryTitleX = value; }
-// public static int playerInventoryTitleX() { return net.minecraft.client.gui.screen.ingame.HandledScreen.playerInventoryTitleX; }
-// public static void playerInventoryTitleX(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.playerInventoryTitleX = value; }
-
-// public int playerInventoryTitleY() { return wrapperContained.playerInventoryTitleY; }
-// public void playerInventoryTitleY(int value) { wrapperContained.playerInventoryTitleY = value; }
-// public static int playerInventoryTitleY() { return net.minecraft.client.gui.screen.ingame.HandledScreen.playerInventoryTitleY; }
-// public static void playerInventoryTitleY(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.playerInventoryTitleY = value; }
-
 // public int x() { return wrapperContained.x; }
 // public void x(int value) { wrapperContained.x = value; }
 // public static int x() { return net.minecraft.client.gui.screen.ingame.HandledScreen.x; }
@@ -60,16 +40,6 @@ public class HandledScreen { public net.minecraft.client.gui.screen.ingame.Handl
 // public void doubleClicking(boolean value) { wrapperContained.doubleClicking = value; }
 // public static boolean doubleClicking() { return net.minecraft.client.gui.screen.ingame.HandledScreen.doubleClicking; }
 // public static void doubleClicking(boolean value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.doubleClicking = value; }
-
-// public int touchDropX() { return wrapperContained.touchDropX; }
-// public void touchDropX(int value) { wrapperContained.touchDropX = value; }
-// public static int touchDropX() { return net.minecraft.client.gui.screen.ingame.HandledScreen.touchDropX; }
-// public static void touchDropX(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.touchDropX = value; }
-
-// public yarnwrap.item.ItemStack touchDropReturningStack() { return new yarnwrap.item.ItemStack(wrapperContained.touchDropReturningStack); }
-// public void touchDropReturningStack(yarnwrap.item.ItemStack value) { wrapperContained.touchDropReturningStack = value.wrapperContained; }
-// public static yarnwrap.item.ItemStack touchDropReturningStack() { return new yarnwrap.item.ItemStack(net.minecraft.client.gui.screen.ingame.HandledScreen.touchDropReturningStack); }
-// public static void touchDropReturningStack(yarnwrap.item.ItemStack value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.touchDropReturningStack = value.wrapperContained; }
 
 // public int lastClickedButton() { return wrapperContained.lastClickedButton; }
 // public void lastClickedButton(int value) { wrapperContained.lastClickedButton = value; }
@@ -116,16 +86,6 @@ public class HandledScreen { public net.minecraft.client.gui.screen.ingame.Handl
 // public static boolean cursorDragging() { return net.minecraft.client.gui.screen.ingame.HandledScreen.cursorDragging; }
 // public static void cursorDragging(boolean value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.cursorDragging = value; }
 
-// public long touchDropTime() { return wrapperContained.touchDropTime; }
-// public void touchDropTime(long value) { wrapperContained.touchDropTime = value; }
-// public static long touchDropTime() { return net.minecraft.client.gui.screen.ingame.HandledScreen.touchDropTime; }
-// public static void touchDropTime(long value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.touchDropTime = value; }
-
-// public int touchDropY() { return wrapperContained.touchDropY; }
-// public void touchDropY(int value) { wrapperContained.touchDropY = value; }
-// public static int touchDropY() { return net.minecraft.client.gui.screen.ingame.HandledScreen.touchDropY; }
-// public static void touchDropY(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.touchDropY = value; }
-
 // public yarnwrap.screen.ScreenHandler handler() { return new yarnwrap.screen.ScreenHandler(wrapperContained.handler); }
 // public void handler(yarnwrap.screen.ScreenHandler value) { wrapperContained.handler = value.wrapperContained; }
 // public static yarnwrap.screen.ScreenHandler handler() { return new yarnwrap.screen.ScreenHandler(net.minecraft.client.gui.screen.ingame.HandledScreen.handler); }
@@ -151,20 +111,55 @@ public class HandledScreen { public net.minecraft.client.gui.screen.ingame.Handl
 public static yarnwrap.util.Identifier BACKGROUND_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.ingame.HandledScreen.BACKGROUND_TEXTURE); }
 // public static void BACKGROUND_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.BACKGROUND_TEXTURE = value.wrapperContained; }
 
-// public yarnwrap.screen.slot.Slot touchDropOriginSlot() { return new yarnwrap.screen.slot.Slot(wrapperContained.touchDropOriginSlot); }
-// public void touchDropOriginSlot(yarnwrap.screen.slot.Slot value) { wrapperContained.touchDropOriginSlot = value.wrapperContained; }
-// public static yarnwrap.screen.slot.Slot touchDropOriginSlot() { return new yarnwrap.screen.slot.Slot(net.minecraft.client.gui.screen.ingame.HandledScreen.touchDropOriginSlot); }
-// public static void touchDropOriginSlot(yarnwrap.screen.slot.Slot value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.touchDropOriginSlot = value.wrapperContained; }
-
 // public int draggedStackRemainder() { return wrapperContained.draggedStackRemainder; }
 // public void draggedStackRemainder(int value) { wrapperContained.draggedStackRemainder = value; }
 // public static int draggedStackRemainder() { return net.minecraft.client.gui.screen.ingame.HandledScreen.draggedStackRemainder; }
 // public static void draggedStackRemainder(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.draggedStackRemainder = value; }
 
+// public int titleX() { return wrapperContained.titleX; }
+// public void titleX(int value) { wrapperContained.titleX = value; }
+// public static int titleX() { return net.minecraft.client.gui.screen.ingame.HandledScreen.titleX; }
+// public static void titleX(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.titleX = value; }
+
+// public int titleY() { return wrapperContained.titleY; }
+// public void titleY(int value) { wrapperContained.titleY = value; }
+// public static int titleY() { return net.minecraft.client.gui.screen.ingame.HandledScreen.titleY; }
+// public static void titleY(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.titleY = value; }
+
+// public int playerInventoryTitleX() { return wrapperContained.playerInventoryTitleX; }
+// public void playerInventoryTitleX(int value) { wrapperContained.playerInventoryTitleX = value; }
+// public static int playerInventoryTitleX() { return net.minecraft.client.gui.screen.ingame.HandledScreen.playerInventoryTitleX; }
+// public static void playerInventoryTitleX(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.playerInventoryTitleX = value; }
+
+// public int playerInventoryTitleY() { return wrapperContained.playerInventoryTitleY; }
+// public void playerInventoryTitleY(int value) { wrapperContained.playerInventoryTitleY = value; }
+// public static int playerInventoryTitleY() { return net.minecraft.client.gui.screen.ingame.HandledScreen.playerInventoryTitleY; }
+// public static void playerInventoryTitleY(int value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.playerInventoryTitleY = value; }
+
 // public yarnwrap.text.Text playerInventoryTitle() { return new yarnwrap.text.Text(wrapperContained.playerInventoryTitle); }
 // public void playerInventoryTitle(yarnwrap.text.Text value) { wrapperContained.playerInventoryTitle = value.wrapperContained; }
 // public static yarnwrap.text.Text playerInventoryTitle() { return new yarnwrap.text.Text(net.minecraft.client.gui.screen.ingame.HandledScreen.playerInventoryTitle); }
 // public static void playerInventoryTitle(yarnwrap.text.Text value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.playerInventoryTitle = value.wrapperContained; }
+
+// public java.util.List tooltipSubmenuHandlers() { return wrapperContained.tooltipSubmenuHandlers; }
+// public void tooltipSubmenuHandlers(java.util.List value) { wrapperContained.tooltipSubmenuHandlers = value; }
+// public static java.util.List tooltipSubmenuHandlers() { return net.minecraft.client.gui.screen.ingame.HandledScreen.tooltipSubmenuHandlers; }
+// public static void tooltipSubmenuHandlers(java.util.List value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.tooltipSubmenuHandlers = value; }
+
+// public yarnwrap.util.Identifier SLOT_HIGHLIGHT_BACK_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.SLOT_HIGHLIGHT_BACK_TEXTURE); }
+// public void SLOT_HIGHLIGHT_BACK_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SLOT_HIGHLIGHT_BACK_TEXTURE = value.wrapperContained; }
+// public static yarnwrap.util.Identifier SLOT_HIGHLIGHT_BACK_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.ingame.HandledScreen.SLOT_HIGHLIGHT_BACK_TEXTURE); }
+// public static void SLOT_HIGHLIGHT_BACK_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.SLOT_HIGHLIGHT_BACK_TEXTURE = value.wrapperContained; }
+
+// public yarnwrap.util.Identifier SLOT_HIGHLIGHT_FRONT_TEXTURE() { return new yarnwrap.util.Identifier(wrapperContained.SLOT_HIGHLIGHT_FRONT_TEXTURE); }
+// public void SLOT_HIGHLIGHT_FRONT_TEXTURE(yarnwrap.util.Identifier value) { wrapperContained.SLOT_HIGHLIGHT_FRONT_TEXTURE = value.wrapperContained; }
+// public static yarnwrap.util.Identifier SLOT_HIGHLIGHT_FRONT_TEXTURE() { return new yarnwrap.util.Identifier(net.minecraft.client.gui.screen.ingame.HandledScreen.SLOT_HIGHLIGHT_FRONT_TEXTURE); }
+// public static void SLOT_HIGHLIGHT_FRONT_TEXTURE(yarnwrap.util.Identifier value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.SLOT_HIGHLIGHT_FRONT_TEXTURE = value.wrapperContained; }
+
+// public Object letGoTouchStack() { return wrapperContained.letGoTouchStack; }
+// public void letGoTouchStack(Object value) { wrapperContained.letGoTouchStack = value; }
+// // public static Object letGoTouchStack() { return net.minecraft.client.gui.screen.ingame.HandledScreen.letGoTouchStack; }
+// public static void letGoTouchStack(Object value, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.letGoTouchStack = value; }
 
 // public HandledScreen(yarnwrap.screen.ScreenHandler handler,yarnwrap.entity.player.PlayerInventory inventory,yarnwrap.text.Text title) { this.wrapperContained = new net.minecraft.client.gui.screen.ingame.HandledScreen(handler.wrapperContained,inventory.wrapperContained,title.wrapperContained); }
 // public boolean isPointWithinBounds(int x,int y,int width,int height,double pointX,double pointY) { return wrapperContained.isPointWithinBounds(x,y,width,height,pointX,pointY); }
@@ -183,18 +178,14 @@ public static yarnwrap.util.Identifier BACKGROUND_TEXTURE() { return new yarnwra
 // public static boolean handleHotbarKeyPressed(int keyCode,int scanCode, ) { return net.minecraft.client.gui.screen.ingame.HandledScreen.handleHotbarKeyPressed(keyCode,scanCode); }
 // public void drawSlot(yarnwrap.client.gui.DrawContext context,yarnwrap.screen.slot.Slot slot) { wrapperContained.drawSlot(context.wrapperContained,slot.wrapperContained); }
 // public static void drawSlot(yarnwrap.client.gui.DrawContext context,yarnwrap.screen.slot.Slot slot, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.drawSlot(context.wrapperContained,slot.wrapperContained); }
-// public yarnwrap.screen.slot.Slot getSlotAt(double x,double y) { return new yarnwrap.screen.slot.Slot(wrapperContained.getSlotAt(x,y)); }
-// public static yarnwrap.screen.slot.Slot getSlotAt(double x,double y, ) { return new yarnwrap.screen.slot.Slot(net.minecraft.client.gui.screen.ingame.HandledScreen.getSlotAt(x,y)); }
 // public boolean isPointOverSlot(yarnwrap.screen.slot.Slot slot,double pointX,double pointY) { return wrapperContained.isPointOverSlot(slot.wrapperContained,pointX,pointY); }
 // public static boolean isPointOverSlot(yarnwrap.screen.slot.Slot slot,double pointX,double pointY, ) { return net.minecraft.client.gui.screen.ingame.HandledScreen.isPointOverSlot(slot.wrapperContained,pointX,pointY); }
 // public void drawForeground(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY) { wrapperContained.drawForeground(context.wrapperContained,mouseX,mouseY); }
 // public static void drawForeground(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.drawForeground(context.wrapperContained,mouseX,mouseY); }
-// public void drawBackground(yarnwrap.client.gui.DrawContext context,float delta,int mouseX,int mouseY) { wrapperContained.drawBackground(context.wrapperContained,delta,mouseX,mouseY); }
-// public static void drawBackground(yarnwrap.client.gui.DrawContext context,float delta,int mouseX,int mouseY, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.drawBackground(context.wrapperContained,delta,mouseX,mouseY); }
+// public void drawBackground(yarnwrap.client.gui.DrawContext context,float deltaTicks,int mouseX,int mouseY) { wrapperContained.drawBackground(context.wrapperContained,deltaTicks,mouseX,mouseY); }
+// public static void drawBackground(yarnwrap.client.gui.DrawContext context,float deltaTicks,int mouseX,int mouseY, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.drawBackground(context.wrapperContained,deltaTicks,mouseX,mouseY); }
 // public void onMouseClick(int button) { wrapperContained.onMouseClick(button); }
 // public static void onMouseClick(int button, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.onMouseClick(button); }
-// public void drawSlotHighlight(yarnwrap.client.gui.DrawContext context,int x,int y,int z) { wrapperContained.drawSlotHighlight(context.wrapperContained,x,y,z); }
-// public static void drawSlotHighlight(yarnwrap.client.gui.DrawContext context,int x,int y,int z, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.drawSlotHighlight(context.wrapperContained,x,y,z); }
 // public void handledScreenTick() { wrapperContained.handledScreenTick(); }
 // public static void handledScreenTick() { net.minecraft.client.gui.screen.ingame.HandledScreen.handledScreenTick(); }
 public void endTouchDrag() { wrapperContained.endTouchDrag(); }
@@ -203,5 +194,27 @@ public void endTouchDrag() { wrapperContained.endTouchDrag(); }
 // public static java.util.List getTooltipFromItem(yarnwrap.item.ItemStack stack, ) { return net.minecraft.client.gui.screen.ingame.HandledScreen.getTooltipFromItem(stack.wrapperContained); }
 // public void onSlotChangedState(int slotId,int handlerId,boolean newState) { wrapperContained.onSlotChangedState(slotId,handlerId,newState); }
 // public static void onSlotChangedState(int slotId,int handlerId,boolean newState, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.onSlotChangedState(slotId,handlerId,newState); }
+// public void resetTooltipSubmenus(yarnwrap.screen.slot.Slot slot) { wrapperContained.resetTooltipSubmenus(slot.wrapperContained); }
+// public static void resetTooltipSubmenus(yarnwrap.screen.slot.Slot slot, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.resetTooltipSubmenus(slot.wrapperContained); }
+// public void addTooltipSubmenuHandler(yarnwrap.client.gui.tooltip.TooltipSubmenuHandler handler) { wrapperContained.addTooltipSubmenuHandler(handler.wrapperContained); }
+// public static void addTooltipSubmenuHandler(yarnwrap.client.gui.tooltip.TooltipSubmenuHandler handler, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.addTooltipSubmenuHandler(handler.wrapperContained); }
+// public boolean isItemTooltipSticky(yarnwrap.item.ItemStack item) { return wrapperContained.isItemTooltipSticky(item.wrapperContained); }
+// public static boolean isItemTooltipSticky(yarnwrap.item.ItemStack item, ) { return net.minecraft.client.gui.screen.ingame.HandledScreen.isItemTooltipSticky(item.wrapperContained); }
+// public void onMouseClick(yarnwrap.screen.slot.Slot slot,yarnwrap.screen.slot.SlotActionType actionType) { wrapperContained.onMouseClick(slot.wrapperContained,actionType.wrapperContained); }
+// public static void onMouseClick(yarnwrap.screen.slot.Slot slot,yarnwrap.screen.slot.SlotActionType actionType, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.onMouseClick(slot.wrapperContained,actionType.wrapperContained); }
+// public yarnwrap.screen.slot.Slot getSlotAt(double mouseX,double mouseY) { return new yarnwrap.screen.slot.Slot(wrapperContained.getSlotAt(mouseX,mouseY)); }
+// public static yarnwrap.screen.slot.Slot getSlotAt(double mouseX,double mouseY, ) { return new yarnwrap.screen.slot.Slot(net.minecraft.client.gui.screen.ingame.HandledScreen.getSlotAt(mouseX,mouseY)); }
+// public void drawSlotHighlightBack(yarnwrap.client.gui.DrawContext context) { wrapperContained.drawSlotHighlightBack(context.wrapperContained); }
+// public static void drawSlotHighlightBack(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.drawSlotHighlightBack(context.wrapperContained); }
+// public void drawSlotHighlightFront(yarnwrap.client.gui.DrawContext context) { wrapperContained.drawSlotHighlightFront(context.wrapperContained); }
+// public static void drawSlotHighlightFront(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.drawSlotHighlightFront(context.wrapperContained); }
+// public void drawSlots(yarnwrap.client.gui.DrawContext context) { wrapperContained.drawSlots(context.wrapperContained); }
+// public static void drawSlots(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.drawSlots(context.wrapperContained); }
+// public void renderCursorStack(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY) { wrapperContained.renderCursorStack(context.wrapperContained,mouseX,mouseY); }
+// public static void renderCursorStack(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.renderCursorStack(context.wrapperContained,mouseX,mouseY); }
+// public void renderLetGoTouchStack(yarnwrap.client.gui.DrawContext context) { wrapperContained.renderLetGoTouchStack(context.wrapperContained); }
+// public static void renderLetGoTouchStack(yarnwrap.client.gui.DrawContext context, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.renderLetGoTouchStack(context.wrapperContained); }
+// public void renderMain(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float deltaTicks) { wrapperContained.renderMain(context.wrapperContained,mouseX,mouseY,deltaTicks); }
+// public static void renderMain(yarnwrap.client.gui.DrawContext context,int mouseX,int mouseY,float deltaTicks, ) { net.minecraft.client.gui.screen.ingame.HandledScreen.renderMain(context.wrapperContained,mouseX,mouseY,deltaTicks); }
 
 }

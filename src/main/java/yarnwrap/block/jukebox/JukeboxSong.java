@@ -32,7 +32,7 @@ public boolean shouldStopPlaying(long ticksSinceSongStarted) { return wrapperCon
 // public static boolean shouldStopPlaying(long ticksSinceSongStarted, ) { return net.minecraft.block.jukebox.JukeboxSong.shouldStopPlaying(ticksSinceSongStarted); }
 // public com.mojang.datafixers.kinds.App method_60752(Object instance) { return wrapperContained.method_60752(instance); }
 // public static com.mojang.datafixers.kinds.App method_60752(Object instance, ) { return net.minecraft.block.jukebox.JukeboxSong.method_60752(instance); }
-// public java.util.Optional getSongEntryFromStack(Object registryLookup,yarnwrap.item.ItemStack stack) { return wrapperContained.getSongEntryFromStack(registryLookup,stack.wrapperContained); }
-// public static java.util.Optional getSongEntryFromStack(Object registryLookup,yarnwrap.item.ItemStack stack, ) { return net.minecraft.block.jukebox.JukeboxSong.getSongEntryFromStack(registryLookup,stack.wrapperContained); }
+// public java.util.Optional getSongEntryFromStack(Object registries,yarnwrap.item.ItemStack stack) { return wrapperContained.getSongEntryFromStack(registries,stack.wrapperContained); }
+// public static java.util.Optional getSongEntryFromStack(Object registries,yarnwrap.item.ItemStack stack, ) { return net.minecraft.block.jukebox.JukeboxSong.getSongEntryFromStack(registries,stack.wrapperContained); }
 
 }
