@@ -2,14 +2,52 @@ package yarnwrap;
 
 import org.mozilla.javascript.Undefined;
 
+import com.google.common.collect.BiMap;
+import com.google.common.collect.HashBiMap;
+import com.google.common.collect.MapMaker;
 import com.mojang.authlib.GameProfile;
+import com.mojang.brigadier.CommandDispatcher;
+import com.mojang.serialization.Lifecycle;
+import it.unimi.dsi.fastutil.ints.Int2IntMap;
+import it.unimi.dsi.fastutil.ints.Int2IntOpenHashMap;
+import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
+import it.unimi.dsi.fastutil.objects.Object2IntMap;
+import it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap;
+import it.unimi.dsi.fastutil.objects.ObjectList;
+import it.unimi.dsi.fastutil.objects.Reference2IntMap;
+import java.lang.invoke.MethodHandle;
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.MethodType;
+import java.lang.reflect.Array;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.lang.reflect.Proxy;
 import java.time.Instant;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.IdentityHashMap;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
+import java.util.Optional;
+import java.util.Set;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.function.Supplier;
+import java.util.function.UnaryOperator;
+import net.fabricmc.fabric.api.attachment.v1.*;
+import net.fabricmc.fabric.api.attachment.v1.AttachmentTarget.*;
+import net.fabricmc.fabric.api.attachment.v1.AttachmentType;
+import net.fabricmc.fabric.api.client.command.v2.*;
+import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback.*;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.*;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientBlockEntityEvents.*;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientChunkEvents.*;
@@ -17,9 +55,18 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientEntityEvents.*;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents.*;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents.*;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientWorldEvents.*;
+import net.fabricmc.fabric.api.client.item.v1.*;
+import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback.*;
 import net.fabricmc.fabric.api.client.message.v1.*;
 import net.fabricmc.fabric.api.client.message.v1.ClientReceiveMessageEvents.*;
 import net.fabricmc.fabric.api.client.message.v1.ClientSendMessageEvents.*;
+import net.fabricmc.fabric.api.client.model.loading.v1.*;
+import net.fabricmc.fabric.api.client.model.loading.v1.BlockStateResolver;
+// import net.fabricmc.fabric.api.client.model.loading.v1.ExtraModelKey;
+import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin.*;
+import net.fabricmc.fabric.api.client.model.loading.v1.ModelLoadingPlugin;
+import net.fabricmc.fabric.api.client.model.loading.v1.ModelModifier;
+// import net.fabricmc.fabric.api.client.model.loading.v1.UnbakedExtraModel;
 import net.fabricmc.fabric.api.client.networking.v1.*;
 import net.fabricmc.fabric.api.client.networking.v1.C2SConfigurationChannelEvents.*;
 import net.fabricmc.fabric.api.client.networking.v1.C2SPlayChannelEvents.*;
@@ -29,11 +76,25 @@ import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents.*
 import net.fabricmc.fabric.api.client.particle.v1.*;
 import net.fabricmc.fabric.api.client.particle.v1.ParticleRenderEvents.*;
 import net.fabricmc.fabric.api.client.rendering.v1.*;
+import net.fabricmc.fabric.api.client.rendering.v1.HudLayerRegistrationCallback.*;
+import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback.*;
+import net.fabricmc.fabric.api.client.rendering.v1.InvalidateRenderStateCallback.*;
 import net.fabricmc.fabric.api.client.rendering.v1.LivingEntityFeatureRenderEvents.*;
+import net.fabricmc.fabric.api.client.rendering.v1.LivingEntityFeatureRendererRegistrationCallback.*;
+import net.fabricmc.fabric.api.client.rendering.v1.TooltipComponentCallback.*;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderContext.BlockOutlineContext;
 import net.fabricmc.fabric.api.client.rendering.v1.WorldRenderEvents.*;
 import net.fabricmc.fabric.api.client.screen.v1.*;
 import net.fabricmc.fabric.api.client.screen.v1.ScreenEvents.*;
+import net.fabricmc.fabric.api.client.screen.v1.ScreenEvents;
+import net.fabricmc.fabric.api.client.screen.v1.ScreenKeyboardEvents.*;
+import net.fabricmc.fabric.api.client.screen.v1.ScreenKeyboardEvents;
+import net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.*;
+import net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents;
+import net.fabricmc.fabric.api.command.v1.*;
+import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback.*;
+import net.fabricmc.fabric.api.command.v2.*;
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback.*;
 import net.fabricmc.fabric.api.entity.event.v1.*;
 import net.fabricmc.fabric.api.entity.event.v1.EntityElytraEvents.*;
 import net.fabricmc.fabric.api.entity.event.v1.EntitySleepEvents.*;
@@ -41,10 +102,13 @@ import net.fabricmc.fabric.api.entity.event.v1.ServerEntityCombatEvents.*;
 import net.fabricmc.fabric.api.entity.event.v1.ServerEntityWorldChangeEvents.*;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents.*;
 import net.fabricmc.fabric.api.entity.event.v1.ServerPlayerEvents.*;
+import net.fabricmc.fabric.api.event.*;
 import net.fabricmc.fabric.api.event.Event;
+import net.fabricmc.fabric.api.event.EventFactory.*;
 import net.fabricmc.fabric.api.event.EventFactory;
 import net.fabricmc.fabric.api.event.client.player.*;
 import net.fabricmc.fabric.api.event.client.player.ClientPlayerBlockBreakEvents.*;
+import net.fabricmc.fabric.api.event.client.player.ClientPreAttackCallback.*;
 import net.fabricmc.fabric.api.event.lifecycle.v1.*;
 import net.fabricmc.fabric.api.event.lifecycle.v1.CommonLifecycleEvents.*;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerBlockEntityEvents.*;
@@ -54,13 +118,27 @@ import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.*;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents.*;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents.*;
 import net.fabricmc.fabric.api.event.player.*;
+import net.fabricmc.fabric.api.event.player.AttackBlockCallback.*;
+import net.fabricmc.fabric.api.event.player.AttackEntityCallback.*;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents.*;
 import net.fabricmc.fabric.api.event.player.PlayerPickItemEvents.*;
+import net.fabricmc.fabric.api.event.player.UseBlockCallback.*;
+import net.fabricmc.fabric.api.event.player.UseEntityCallback.*;
+import net.fabricmc.fabric.api.event.player.UseItemCallback.*;
+import net.fabricmc.fabric.api.event.registry.*;
+import net.fabricmc.fabric.api.event.registry.DynamicRegistrySetupCallback.*;
+import net.fabricmc.fabric.api.event.registry.FabricRegistry;
+import net.fabricmc.fabric.api.event.registry.RegistryAttribute;
+import net.fabricmc.fabric.api.event.registry.RegistryAttributeHolder;
+import net.fabricmc.fabric.api.event.registry.RegistryEntryAddedCallback;
+import net.fabricmc.fabric.api.event.registry.RegistryIdRemapCallback;
 import net.fabricmc.fabric.api.item.v1.*;
 import net.fabricmc.fabric.api.item.v1.DefaultItemComponentEvents.*;
 import net.fabricmc.fabric.api.item.v1.EnchantmentEvents.*;
 import net.fabricmc.fabric.api.itemgroup.v1.*;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents.*;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.lookup.v1.block.BlockApiLookup;
 import net.fabricmc.fabric.api.lookup.v1.item.ItemApiLookup;
 import net.fabricmc.fabric.api.loot.v2.*;
@@ -79,41 +157,91 @@ import net.fabricmc.fabric.api.networking.v1.S2CPlayChannelEvents.*;
 import net.fabricmc.fabric.api.networking.v1.ServerConfigurationConnectionEvents.*;
 import net.fabricmc.fabric.api.networking.v1.ServerLoginConnectionEvents.*;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents.*;
+import net.fabricmc.fabric.api.registry.*;
+import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder.*;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents.*;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents.Context;
 import net.fabricmc.fabric.api.transfer.v1.context.ContainerItemContext;
 import net.fabricmc.fabric.api.transfer.v1.fluid.*;
 import net.fabricmc.fabric.api.transfer.v1.fluid.FluidStorage.*;
+import net.fabricmc.fabric.api.transfer.v1.fluid.FluidStorage;
+import net.fabricmc.fabric.api.transfer.v1.fluid.FluidVariant;
 import net.fabricmc.fabric.api.transfer.v1.fluid.base.EmptyItemFluidStorage;
 import net.fabricmc.fabric.api.transfer.v1.fluid.base.FullItemFluidStorage;
 import net.fabricmc.fabric.api.transfer.v1.item.ItemVariant;
 import net.fabricmc.fabric.api.transfer.v1.storage.Storage;
+import net.fabricmc.fabric.api.transfer.v1.storage.base.CombinedStorage;
 import net.fabricmc.fabric.api.transfer.v1.storage.base.SidedStorageBlockEntity;
 import net.fabricmc.fabric.api.util.TriState;
+import net.fabricmc.fabric.impl.attachment.AttachmentSerializingImpl;
+import net.fabricmc.fabric.impl.attachment.AttachmentTargetImpl;
+import net.fabricmc.fabric.impl.attachment.AttachmentTypeImpl;
+import net.fabricmc.fabric.impl.attachment.sync.AttachmentChange;
+import net.fabricmc.fabric.impl.attachment.sync.s2c.AttachmentSyncPayloadS2C;
+import net.fabricmc.fabric.impl.base.event.*;
+import net.fabricmc.fabric.impl.base.event.EventFactoryImpl.*;
+import net.fabricmc.fabric.impl.base.event.EventFactoryImpl;
+import net.fabricmc.fabric.impl.base.toposort.NodeSorting;
+import net.fabricmc.fabric.impl.client.model.loading.*;
+import net.fabricmc.fabric.impl.client.model.loading.ModelLoadingPluginContextImpl.*;
+import net.fabricmc.fabric.impl.client.model.loading.ModelLoadingPluginManager;
+import net.fabricmc.fabric.impl.client.screen.*;
+import net.fabricmc.fabric.impl.client.screen.ButtonList;
+import net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.*;
+import net.fabricmc.fabric.impl.client.screen.ScreenEventFactory;
+import net.fabricmc.fabric.impl.client.screen.ScreenExtensions.*;
 import net.fabricmc.fabric.impl.client.screen.ScreenExtensions;
+import net.fabricmc.fabric.impl.itemgroup.*;
+import net.fabricmc.fabric.impl.itemgroup.FabricItemGroupImpl;
+import net.fabricmc.fabric.impl.itemgroup.ItemGroupEventsImpl.*;
 import net.fabricmc.fabric.impl.itemgroup.ItemGroupEventsImpl;
+import net.fabricmc.fabric.impl.registry.sync.ListenableRegistry;
+import net.fabricmc.fabric.impl.registry.sync.RegistrySyncManager;
+import net.fabricmc.fabric.impl.registry.sync.RemapException;
+import net.fabricmc.fabric.impl.registry.sync.RemapStateImpl;
+import net.fabricmc.fabric.impl.registry.sync.RemappableRegistry;
+import net.fabricmc.fabric.impl.transfer.fluid.*;
+import net.fabricmc.fabric.impl.transfer.fluid.CombinedProvidersImpl.*;
 import net.fabricmc.fabric.impl.transfer.fluid.CombinedProvidersImpl;
 import net.fabricmc.fabric.impl.transfer.fluid.EmptyBucketStorage;
 import net.fabricmc.fabric.impl.transfer.fluid.WaterPotionStorage;
 import net.fabricmc.fabric.mixin.transfer.BucketItemAccessor;
+// import net.fabricmc.fabric.test.base.*;
+// import net.fabricmc.fabric.test.base.EventTests.*;
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
+import net.minecraft.client.gui.Drawable;
+import net.minecraft.client.gui.Element;
+import net.minecraft.client.gui.Selectable;
 import net.minecraft.client.gui.hud.ChatHud;
 import net.minecraft.client.gui.screen.Screen;
+import net.minecraft.client.gui.tooltip.TooltipComponent;
+import net.minecraft.client.gui.widget.ClickableWidget;
 import net.minecraft.client.network.ClientConfigurationNetworkHandler;
 import net.minecraft.client.network.ClientLoginNetworkHandler;
 import net.minecraft.client.network.ClientPlayNetworkHandler;
 import net.minecraft.client.network.ClientPlayerEntity;
+import net.minecraft.client.render.RenderTickCounter;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.WorldRenderer;
+import net.minecraft.client.render.entity.EntityRendererFactory;
+import net.minecraft.client.render.entity.LivingEntityRenderer;
+import net.minecraft.client.render.entity.feature.Deadmau5FeatureRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRenderer;
+import net.minecraft.client.render.entity.model.EntityModel;
+import net.minecraft.client.render.entity.state.EntityRenderState;
 import net.minecraft.client.render.entity.state.PlayerEntityRenderState;
 import net.minecraft.client.world.ClientWorld;
+import net.minecraft.command.CommandRegistryAccess;
 import net.minecraft.component.ComponentMap;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.PotionContentsComponent;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.conversion.EntityConversionContext;
@@ -123,26 +251,40 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.BucketItem;
+import net.minecraft.item.FuelRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.item.FuelRegistry.Builder;
+import net.minecraft.item.tooltip.TooltipData;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.loot.LootTable;
+import net.minecraft.nbt.NbtCompound;
 import net.minecraft.network.message.MessageDecorator;
 import net.minecraft.network.message.MessageType;
 import net.minecraft.network.message.SignedMessage;
 import net.minecraft.network.packet.CustomPayload;
+import net.minecraft.potion.Potion;
 import net.minecraft.potion.Potions;
+import net.minecraft.recipe.BrewingRecipeRegistry;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.DynamicRegistryManager;
+import net.minecraft.registry.MutableRegistry;
+import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.SimpleRegistry;
 import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.registry.entry.RegistryEntryInfo;
 import net.minecraft.resource.LifecycledResourceManager;
 import net.minecraft.resource.ResourceManager;
+import net.minecraft.resource.featuretoggle.FeatureSet;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.PlayerManager;
+import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.server.network.ServerConfigurationNetworkHandler;
 import net.minecraft.server.network.ServerLoginNetworkHandler;
@@ -154,16 +296,34 @@ import net.minecraft.server.world.ServerChunkManager;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.hit.BlockHitResult;
+import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.PersistentState;
 import net.minecraft.world.World;
+import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.chunk.ChunkStatus;
 import net.minecraft.world.chunk.WorldChunk;
+import org.jetbrains.annotations.ApiStatus;
+import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.Nullable;
+import org.jetbrains.annotations.UnmodifiableView;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.spongepowered.asm.mixin.Final;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.Unique;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.ModifyVariable;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 public class Runnable extends ws.siri.jscore.wraps.IRunnable implements
 net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientBlockEntityEvents.Load,
@@ -228,6 +388,21 @@ net.fabricmc.fabric.api.client.screen.v1.ScreenEvents.BeforeInit,
 net.fabricmc.fabric.api.client.screen.v1.ScreenEvents.BeforeRender,
 net.fabricmc.fabric.api.client.screen.v1.ScreenEvents.BeforeTick,
 net.fabricmc.fabric.api.client.screen.v1.ScreenEvents.Remove,
+net.fabricmc.fabric.api.client.screen.v1.ScreenKeyboardEvents.AfterKeyPress,
+net.fabricmc.fabric.api.client.screen.v1.ScreenKeyboardEvents.AfterKeyRelease,
+net.fabricmc.fabric.api.client.screen.v1.ScreenKeyboardEvents.AllowKeyPress,
+net.fabricmc.fabric.api.client.screen.v1.ScreenKeyboardEvents.AllowKeyRelease,
+net.fabricmc.fabric.api.client.screen.v1.ScreenKeyboardEvents.BeforeKeyPress,
+net.fabricmc.fabric.api.client.screen.v1.ScreenKeyboardEvents.BeforeKeyRelease,
+net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.AfterMouseClick,
+net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.AfterMouseRelease,
+net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.AfterMouseScroll,
+net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.AllowMouseClick,
+net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.AllowMouseRelease,
+net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.AllowMouseScroll,
+net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.BeforeMouseClick,
+net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.BeforeMouseRelease,
+net.fabricmc.fabric.api.client.screen.v1.ScreenMouseEvents.BeforeMouseScroll,
 net.fabricmc.fabric.api.entity.event.v1.EntityElytraEvents.Allow,
 net.fabricmc.fabric.api.entity.event.v1.EntityElytraEvents.Custom,
 net.fabricmc.fabric.api.entity.event.v1.EntitySleepEvents.AllowBed,
@@ -282,6 +457,7 @@ net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents.Before,
 net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents.Canceled,
 net.fabricmc.fabric.api.event.player.PlayerPickItemEvents.PickItemFromBlock,
 net.fabricmc.fabric.api.event.player.PlayerPickItemEvents.PickItemFromEntity,
+// net.fabricmc.fabric.api.event.registry.DynamicRegistrySetupCallback.DynamicRegistrySetupCallback,
 net.fabricmc.fabric.api.item.v1.DefaultItemComponentEvents.ModifyCallback,
 net.fabricmc.fabric.api.item.v1.EnchantmentEvents.AllowEnchanting,
 net.fabricmc.fabric.api.item.v1.EnchantmentEvents.Modify,
@@ -310,7 +486,11 @@ net.fabricmc.fabric.api.networking.v1.ServerLoginConnectionEvents.QueryStart,
 net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents.Disconnect,
 net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents.Init,
 net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents.Join,
+net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder.BuildCallback,
+net.fabricmc.fabric.api.registry.FuelRegistryEvents.BuildCallback,
+net.fabricmc.fabric.api.registry.FuelRegistryEvents.ExclusionsCallback,
 net.fabricmc.fabric.api.transfer.v1.fluid.FluidStorage.CombinedItemApiProvider {
+// net.fabricmc.fabric.test.base.EventTests.Test {
 
 public Runnable(String ident, String function) {
     super(ident, function);
@@ -503,6 +683,51 @@ public void beforeTick(Screen screen) { runF(new yarnwrap.client.gui.screen.Scre
 public void onRemove(Screen screen) { runF(new yarnwrap.client.gui.screen.Screen(screen)); }
 
 @Override
+public void afterKeyPress(Screen screen, int key, int scancode, int modifiers) { runF(new yarnwrap.client.gui.screen.Screen(screen), key, scancode, modifiers); }
+
+@Override
+public void afterKeyRelease(Screen screen, int key, int scancode, int modifiers) { runF(new yarnwrap.client.gui.screen.Screen(screen), key, scancode, modifiers); }
+
+@Override
+public boolean allowKeyPress(Screen screen, int key, int scancode, int modifiers) { Object res = runF(new yarnwrap.client.gui.screen.Screen(screen), key, scancode, modifiers); if (Undefined.isUndefined(res)) { return true; } else try { return (boolean) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (boolean) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (allowKeyPress)\u00A77] \u00A7c" + e.toString()); return true; } }
+
+@Override
+public boolean allowKeyRelease(Screen screen, int key, int scancode, int modifiers) { Object res = runF(new yarnwrap.client.gui.screen.Screen(screen), key, scancode, modifiers); if (Undefined.isUndefined(res)) { return true; } else try { return (boolean) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (boolean) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (allowKeyRelease)\u00A77] \u00A7c" + e.toString()); return true; } }
+
+@Override
+public void beforeKeyPress(Screen screen, int key, int scancode, int modifiers) { runF(new yarnwrap.client.gui.screen.Screen(screen), key, scancode, modifiers); }
+
+@Override
+public void beforeKeyRelease(Screen screen, int key, int scancode, int modifiers) { runF(new yarnwrap.client.gui.screen.Screen(screen), key, scancode, modifiers); }
+
+@Override
+public void afterMouseClick(Screen screen, double mouseX, double mouseY, int button) { runF(new yarnwrap.client.gui.screen.Screen(screen), mouseX, mouseY, button); }
+
+@Override
+public void afterMouseRelease(Screen screen, double mouseX, double mouseY, int button) { runF(new yarnwrap.client.gui.screen.Screen(screen), mouseX, mouseY, button); }
+
+@Override
+public void afterMouseScroll(Screen screen, double mouseX, double mouseY, double horizontalAmount, double verticalAmount) { runF(new yarnwrap.client.gui.screen.Screen(screen), mouseX, mouseY, horizontalAmount, verticalAmount); }
+
+@Override
+public boolean allowMouseClick(Screen screen, double mouseX, double mouseY, int button) { Object res = runF(new yarnwrap.client.gui.screen.Screen(screen), mouseX, mouseY, button); if (Undefined.isUndefined(res)) { return true; } else try { return (boolean) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (boolean) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (allowMouseClick)\u00A77] \u00A7c" + e.toString()); return true; } }
+
+@Override
+public boolean allowMouseRelease(Screen screen, double mouseX, double mouseY, int button) { Object res = runF(new yarnwrap.client.gui.screen.Screen(screen), mouseX, mouseY, button); if (Undefined.isUndefined(res)) { return true; } else try { return (boolean) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (boolean) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (allowMouseRelease)\u00A77] \u00A7c" + e.toString()); return true; } }
+
+@Override
+public boolean allowMouseScroll(Screen screen, double mouseX, double mouseY, double horizontalAmount, double verticalAmount) { Object res = runF(new yarnwrap.client.gui.screen.Screen(screen), mouseX, mouseY, horizontalAmount, verticalAmount); if (Undefined.isUndefined(res)) { return true; } else try { return (boolean) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (boolean) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (allowMouseScroll)\u00A77] \u00A7c" + e.toString()); return true; } }
+
+@Override
+public void beforeMouseClick(Screen screen, double mouseX, double mouseY, int button) { runF(new yarnwrap.client.gui.screen.Screen(screen), mouseX, mouseY, button); }
+
+@Override
+public void beforeMouseRelease(Screen screen, double mouseX, double mouseY, int button) { runF(new yarnwrap.client.gui.screen.Screen(screen), mouseX, mouseY, button); }
+
+@Override
+public void beforeMouseScroll(Screen screen, double mouseX, double mouseY, double horizontalAmount, double verticalAmount) { runF(new yarnwrap.client.gui.screen.Screen(screen), mouseX, mouseY, horizontalAmount, verticalAmount); }
+
+@Override
 public boolean allowElytraFlight(LivingEntity entity) { Object res = runF(new yarnwrap.entity.LivingEntity(entity)); if (Undefined.isUndefined(res)) { return true; } else try { return (boolean) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (boolean) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (allowElytraFlight)\u00A77] \u00A7c" + e.toString()); return true; } }
 
 @Override
@@ -664,6 +889,9 @@ public 		ItemStack onPickItemFromBlock(ServerPlayerEntity player, BlockPos pos, 
 @Override
 public 		ItemStack onPickItemFromEntity(ServerPlayerEntity player, Entity entity, boolean requestIncludeData) { Object res = runF(new yarnwrap.server.network.ServerPlayerEntity(player), new yarnwrap.entity.Entity(entity), requestIncludeData); if (Undefined.isUndefined(res)) { return null; } else try { return (		ItemStack) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (		ItemStack) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (onPickItemFromEntity)\u00A77] \u00A7c" + e.toString()); return null; } }
 
+// @Override
+// public void onRegistrySetup(DynamicRegistryView registryView) { runF(registryView); }
+
 @Override
 public void modify(ModifyContext context) { runF(context); }
 
@@ -749,5 +977,17 @@ public void onPlayInit(ServerPlayNetworkHandler handler, MinecraftServer server)
 public void onPlayReady(ServerPlayNetworkHandler handler, PacketSender sender, MinecraftServer server) { runF(new yarnwrap.server.network.ServerPlayNetworkHandler(handler), sender, new yarnwrap.server.MinecraftServer(server)); }
 
 @Override
+public void build(BrewingRecipeRegistry.Builder builder) { runF(builder); }
+
+@Override
+public void build(FuelRegistry.Builder builder, Context context) { runF(builder, context); }
+
+@Override
+public void buildExclusions(FuelRegistry.Builder builder, Context context) { runF(builder, context); }
+
+@Override
 public 		Storage<FluidVariant> find(ContainerItemContext context) { Object res = runF(context); if (Undefined.isUndefined(res)) { return null; } else try { return (		Storage<FluidVariant>) res; } catch (Exception e) { try { Object step = ((org.mozilla.javascript.NativeJavaObject) res).unwrap(); return (		Storage<FluidVariant>) step.getClass().getField("wrapperContained").get(step); } catch (Exception _e) {} ws.siri.jscore.Core.log("\u00A77[\u00A7cCastError (find)\u00A77] \u00A7c" + e.toString()); return null; } }
+
+// @Override
+// public void onTest() { runF(); }
 }
