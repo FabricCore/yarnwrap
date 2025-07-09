@@ -7,12 +7,13 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 
 import org.jetbrains.annotations.NotNull;
 
-import ws.siri.yarnwrap.NullableOption;
 import ws.siri.yarnwrap.common.ScriptFunction;
+import ws.siri.yarnwrap.util.NullableOption;
 
 /**
  * Represents a set of overloaded methods with the same name, chooses the
@@ -73,6 +74,16 @@ public class JavaFunction implements ScriptFunction, JavaLike {
         throw new UnsupportedOperationException(primitiveClass.getName() + " is not a primitive");
     }
 
+    private static HashMap<Class<?>, HashSet<Class<?>>> assignAccepts = new HashMap<>();
+
+    static {
+        assignAccepts.put(Short.class, new HashSet<>(List.of(Byte.class)));
+        assignAccepts.put(Integer.class, new HashSet<>(List.of(Byte.class, Short.class)));
+        assignAccepts.put(Long.class, new HashSet<>(List.of(Byte.class, Short.class, Integer.class)));
+        assignAccepts.put(Double.class, new HashSet<>(List.of(Float.class)));
+        assignAccepts.put(Float.class, new HashSet<>(List.of(Double.class)));
+    }
+
     /**
      * check if type b can be converted to type a
      * 
@@ -88,6 +99,9 @@ public class JavaFunction implements ScriptFunction, JavaLike {
             a = primitiveWrapper(a);
         if (b.isPrimitive())
             b = primitiveWrapper(b);
+
+        if (assignAccepts.containsKey(a) && assignAccepts.get(a).contains(b))
+            return true;
 
         return a == b;
     }
@@ -117,6 +131,28 @@ public class JavaFunction implements ScriptFunction, JavaLike {
                 }
 
                 executable = methods.get(signature);
+
+                for (int i = 0; i < signature.length; i++) {
+                    Class<?> sig = signature[i];
+
+                    if (sig.isPrimitive())
+                        sig = primitiveWrapper(sig);
+
+                    if (sig != args[i].getClass() && assignAccepts.containsKey(sig)) {
+                        Number n = (Number) args[i];
+                        if (sig == Short.class)
+                            args[i] = n.shortValue();
+                        else if (sig == Integer.class)
+                            args[i] = n.intValue();
+                        else if (sig == Long.class)
+                            args[i] = n.longValue();
+                        else if (sig == Double.class)
+                            args[i] = n.doubleValue();
+                        else if (sig == Float.class)
+                            args[i] = n.floatValue();
+                    }
+                }
+
                 break signatureLoop;
             }
 

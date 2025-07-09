@@ -14,7 +14,7 @@ import org.jetbrains.annotations.NotNull;
 
 import net.fabricmc.mappingio.tree.MappingTree.ClassMapping;
 import net.fabricmc.mappingio.tree.MappingTree.FieldMapping;
-import ws.siri.yarnwrap.NullableOption;
+import ws.siri.yarnwrap.util.NullableOption;
 
 /**
  * A single Java class

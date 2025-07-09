@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.jetbrains.annotations.NotNull;
 
-import ws.siri.yarnwrap.NullableOption;
+import ws.siri.yarnwrap.util.NullableOption;
 
 /**
  * An object with properties

@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import net.fabricmc.mappingio.tree.MappingTree.ClassMapping;
-import ws.siri.yarnwrap.NullableOption;
+import ws.siri.yarnwrap.util.NullableOption;
 
 /**
  * A Java package is a collection of Java classes

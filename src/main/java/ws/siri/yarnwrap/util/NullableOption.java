@@ -1,4 +1,4 @@
-package ws.siri.yarnwrap;
+package ws.siri.yarnwrap.util;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
