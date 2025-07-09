@@ -8,10 +8,10 @@ import java.lang.reflect.Modifier;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Optional;
 
 import org.jetbrains.annotations.NotNull;
 
+import ws.siri.yarnwrap.NullableOption;
 import ws.siri.yarnwrap.common.ScriptFunction;
 
 /**
@@ -146,8 +146,8 @@ public class JavaFunction implements ScriptFunction, JavaLike {
     }
 
     @Override
-    public @NotNull Optional<Object> getRelative(List<String> path) {
-        return Optional.empty();
+    public @NotNull NullableOption<Object> getRelative(List<String> path) {
+        return NullableOption.empty();
     }
 
     @Override

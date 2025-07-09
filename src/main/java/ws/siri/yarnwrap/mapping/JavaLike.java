@@ -2,9 +2,10 @@ package ws.siri.yarnwrap.mapping;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 
 import org.jetbrains.annotations.NotNull;
+
+import ws.siri.yarnwrap.NullableOption;
 
 /**
  * An object with properties
@@ -16,15 +17,15 @@ public interface JavaLike {
      * @return
      */
     @NotNull
-    public Optional<Object> getRelative(List<String> path);
+    public NullableOption<Object> getRelative(List<String> path);
 
     @NotNull
-    default Optional<Object> getRelative(String immediateName) {
+    default NullableOption<Object> getRelative(String immediateName) {
         return getRelative(List.of(immediateName));
     }
 
     @NotNull
-    default Optional<Object> getRelative(String[] path) {
+    default NullableOption<Object> getRelative(String[] path) {
         return getRelative(Arrays.asList(path));
     }
 
@@ -34,7 +35,7 @@ public interface JavaLike {
      * @return
      */
     @NotNull
-    static Optional<Object> getWithPath(String path) {
+    static NullableOption<Object> getWithPath(String path) {
         return MappingTree.getRoot().getRelative(Arrays.asList(path.split("\\.")));
     }
 
@@ -54,11 +55,11 @@ public interface JavaLike {
      * @return get immediate parent of class, or the class if called on an object, if exists
      */
     @NotNull
-    default Optional<JavaLike> getParent() {
+    default NullableOption<JavaLike> getParent() {
         String[] path = getQualifier();
 
         if (path.length == 0)
-            return Optional.empty();
+            return NullableOption.empty();
 
         // must be JavaLike, force cast
         return MappingTree.getRoot().getRelative(Arrays.asList(path).subList(0, path.length - 1)).map((item) -> (JavaLike) item);

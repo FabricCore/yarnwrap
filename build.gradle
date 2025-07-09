@@ -9,17 +9,6 @@ base {
     group = project.maven_group
 }
 
-tasks.jar {
-    // from {
-    //     configurations.runtimeClasspath.collect { dep ->
-    //         if (dep.name.contains("mapping-io")) {
-    //             zipTree(dep)
-    //         }
-    //     }
-    // }
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
-}
-
 dependencies {
     // Fabric
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
@@ -73,7 +62,7 @@ publishing {
     maven(MavenPublication) {
       groupId = "ws.siri"
       artifactId = "yarnwrap"
-      version = "0.2.0-8"
+      version = "0.2.0-9"
       from components.java
     }
   }

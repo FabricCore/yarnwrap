@@ -12,6 +12,7 @@ import java.util.Optional;
 import org.jetbrains.annotations.NotNull;
 
 import net.fabricmc.mappingio.tree.MappingTree.ClassMapping;
+import ws.siri.yarnwrap.NullableOption;
 
 /**
  * Wrapper for a JavaObject.
@@ -42,7 +43,7 @@ public class JavaObject implements JavaLike {
             String name = mapping.get().getName(0);
             name = name == null ? mapping.get().getSrcName() : name;
 
-            Optional<Object> javaLike = MappingTree.getRoot().getRelative(Arrays.asList(name.split("/|\\$")));
+            NullableOption<Object> javaLike = MappingTree.getRoot().getRelative(Arrays.asList(name.split("/|\\$")));
 
             if (javaLike.isPresent() && javaLike.get() instanceof JavaClass) {
                 this.type = Optional.of((JavaClass) javaLike.get());
@@ -98,17 +99,17 @@ public class JavaObject implements JavaLike {
     }
 
     @Override
-    public @NotNull Optional<Object> getRelative(List<String> path) {
+    public @NotNull NullableOption<Object> getRelative(List<String> path) {
         if (path.size() != 1)
-            return Optional.empty();
+            return NullableOption.empty();
 
         if (path.getFirst().equals("<init>")) {
             Constructor<?>[] constructors = JavaClass.getConstructor(internal.getClass());
 
             if (constructors.length == 0)
-                return Optional.empty();
+                return NullableOption.empty();
 
-            return Optional.of(new JavaFunction(constructors, stringQualifier() + "$<init>", this));
+            return NullableOption.of(new JavaFunction(constructors, stringQualifier() + "$<init>", this));
         }
 
         String name = path.getFirst();
@@ -122,7 +123,7 @@ public class JavaObject implements JavaLike {
 
         if (field.isPresent())
             try {
-                return Optional.of(autoWrap(field.get().get(internal)));
+                return NullableOption.of(autoWrap(field.get().get(internal)));
             } catch (Exception e) {
                 throw new RuntimeException("Could not get field for object: " + e);
             }
@@ -130,7 +131,7 @@ public class JavaObject implements JavaLike {
         Optional<Object> enumConstant = JavaClass.getEnumValue(name, internal.getClass());
 
         if (enumConstant.isPresent())
-            return Optional.of(JavaObject.autoWrap(enumConstant.get()));
+            return NullableOption.of(JavaObject.autoWrap(enumConstant.get()));
 
         List<Method> methods = new ArrayList<>(Arrays.stream(internal.getClass().getDeclaredMethods())
                 .filter((method) -> method.getName().equals(name)).toList());
@@ -142,8 +143,8 @@ public class JavaObject implements JavaLike {
         }
 
         if (methods.isEmpty())
-            return Optional.empty();
-        return Optional.of(new JavaFunction(methods.toArray(Method[]::new), stringQualifier() + "$" + name, this));
+            return NullableOption.empty();
+        return NullableOption.of(new JavaFunction(methods.toArray(Method[]::new), stringQualifier() + "$" + name, this));
     }
 
     @Override
@@ -213,6 +214,8 @@ public class JavaObject implements JavaLike {
      * @return
      */
     public static Object unwrapAll(Object source) {
+        if(source == null) return null;
+        
         if (source instanceof JavaObject) {
             return unwrapAll(((JavaObject) source).internal);
         }

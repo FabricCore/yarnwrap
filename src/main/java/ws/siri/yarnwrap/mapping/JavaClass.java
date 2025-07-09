@@ -14,6 +14,7 @@ import org.jetbrains.annotations.NotNull;
 
 import net.fabricmc.mappingio.tree.MappingTree.ClassMapping;
 import net.fabricmc.mappingio.tree.MappingTree.FieldMapping;
+import ws.siri.yarnwrap.NullableOption;
 
 /**
  * A single Java class
@@ -51,7 +52,7 @@ public class JavaClass implements JavaLike {
             String name = mapping.get().getName(0);
             name = name == null ? mapping.get().getSrcName() : name;
 
-            Optional<Object> javaLike = MappingTree.getRoot().getRelative(Arrays.asList(name.split("/|\\$")));
+            NullableOption<Object> javaLike = MappingTree.getRoot().getRelative(Arrays.asList(name.split("/|\\$")));
 
             if (javaLike.isPresent() && javaLike.get() instanceof JavaClass) {
                 return Optional.of((JavaClass) javaLike.get());
@@ -488,7 +489,7 @@ public class JavaClass implements JavaLike {
         List<String> classPath = List.of(className.split("\\$"));
 
         // must be a class, force cast
-        Optional<JavaLike> immediateChild = parent.getRelative(classPath.getFirst()).map((item) -> (JavaLike) item);
+        NullableOption<JavaLike> immediateChild = parent.getRelative(classPath.getFirst()).map((item) -> (JavaLike) item);
 
         if (immediateChild.isEmpty()) {
             parent.insertClass(new JavaClass(mapping, classPath.subList(1, classPath.size())), classPath.getFirst());
@@ -537,9 +538,9 @@ public class JavaClass implements JavaLike {
     }
 
     @Override
-    public Optional<Object> getRelative(List<String> path) {
+    public NullableOption<Object> getRelative(List<String> path) {
         if (path.isEmpty()) {
-            return Optional.of(this);
+            return NullableOption.of(this);
         } else if (children.containsKey(path.getFirst())) {
             return children.get(path.getFirst()).getRelative(path.subList(1, path.size()));
         } else if (path.size() == 1) {
@@ -549,16 +550,16 @@ public class JavaClass implements JavaLike {
                 Constructor<?>[] constructors = getConstructor();
 
                 if (constructors.length == 0)
-                    return Optional.empty();
+                    return NullableOption.empty();
 
-                return Optional.of(new JavaFunction(constructors, stringQualifier() + "$<init>", this));
+                return NullableOption.of(new JavaFunction(constructors, stringQualifier() + "$<init>", this));
             }
 
             Optional<Field> field = getField(name, true);
 
             if (field.isPresent())
                 try {
-                    return Optional.of(JavaObject.autoWrap(field.get().get(null)));
+                    return NullableOption.of(JavaObject.autoWrap(field.get().get(null)));
                 } catch (Exception e) {
                     throw new RuntimeException("Could not get field for class: " + e);
                 }
@@ -566,20 +567,20 @@ public class JavaClass implements JavaLike {
             Optional<Object> enumConstant = getEnumValue(name);
 
             if (enumConstant.isPresent())
-                return Optional.of(JavaObject.autoWrap(enumConstant.get()));
+                return NullableOption.of(JavaObject.autoWrap(enumConstant.get()));
 
             List<Method> methods = new ArrayList<>(Arrays.asList(getMethod(name, true)));
-            Optional<JavaLike> parent = getParent();
+            NullableOption<JavaLike> parent = getParent();
 
             if (parent.isPresent() && parent.get() instanceof JavaClass) {
                 methods.addAll(Arrays.asList(((JavaClass) parent.get()).getMethod(name, true)));
             }
 
             if (methods.isEmpty())
-                return Optional.empty();
-            return Optional.of(new JavaFunction(methods.toArray(Method[]::new), stringQualifier() + "$" + name, this));
+                return NullableOption.empty();
+            return NullableOption.of(new JavaFunction(methods.toArray(Method[]::new), stringQualifier() + "$" + name, this));
         } else {
-            return Optional.empty();
+            return NullableOption.empty();
         }
     }
 

@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Optional;
 
 import net.fabricmc.mappingio.tree.MappingTree.ClassMapping;
+import ws.siri.yarnwrap.NullableOption;
 
 /**
  * A Java package is a collection of Java classes
@@ -79,13 +79,13 @@ public class JavaPackage implements JavaLike {
     }
 
     @Override
-    public Optional<Object> getRelative(List<String> path) {
+    public NullableOption<Object> getRelative(List<String> path) {
         if (path.isEmpty()) {
-            return Optional.of(this);
+            return NullableOption.of(this);
         } else if (children.containsKey(path.getFirst())) {
             return children.get(path.getFirst()).getRelative(path.subList(1, path.size()));
         } else {
-            return Optional.empty();
+            return NullableOption.empty();
         }
     }
 
