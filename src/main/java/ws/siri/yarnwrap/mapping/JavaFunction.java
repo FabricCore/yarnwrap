@@ -1,5 +1,7 @@
 package ws.siri.yarnwrap.mapping;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Executable;
 import java.lang.reflect.InvocationTargetException;
@@ -7,10 +9,7 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
-
-import org.jetbrains.annotations.NotNull;
 
 import ws.siri.yarnwrap.common.ScriptFunction;
 import ws.siri.yarnwrap.util.NullableOption;
@@ -35,7 +34,7 @@ public class JavaFunction implements ScriptFunction, JavaLike {
 
     /**
      * construct a new JavaFunction
-     * 
+     *
      * @param potentialMethods list of all methods with that name
      * @param qualifier        string qualifier for the method
      * @param parent           parent object or class
@@ -49,7 +48,7 @@ public class JavaFunction implements ScriptFunction, JavaLike {
 
     /**
      * converts primitive classes to the Wrapped primitive classes (int -> Integer)
-     * 
+     *
      * @param primitiveClass
      * @return
      */
@@ -74,36 +73,96 @@ public class JavaFunction implements ScriptFunction, JavaLike {
         throw new UnsupportedOperationException(primitiveClass.getName() + " is not a primitive");
     }
 
-    private static HashMap<Class<?>, HashSet<Class<?>>> assignAccepts = new HashMap<>();
+    private static HashMap<Class<?>, HashMap<Class<?>, Integer>> assignAccepts = new HashMap<>();
 
     static {
-        assignAccepts.put(Short.class, new HashSet<>(List.of(Byte.class)));
-        assignAccepts.put(Integer.class, new HashSet<>(List.of(Byte.class, Short.class)));
-        assignAccepts.put(Long.class, new HashSet<>(List.of(Byte.class, Short.class, Integer.class)));
-        assignAccepts.put(Double.class, new HashSet<>(List.of(Float.class)));
-        assignAccepts.put(Float.class, new HashSet<>(List.of(Double.class)));
+        {
+            HashMap<Class<?>, Integer> map = new HashMap<>();
+            map.put(Byte.class, 0);
+            map.put(Short.class, 10);
+            map.put(Integer.class, 15);
+            map.put(Long.class, 18);
+            map.put(Float.class, 30);
+            map.put(Double.class, 30);
+            assignAccepts.put(Byte.class, map);
+        }
+
+        {
+            HashMap<Class<?>, Integer> map = new HashMap<>();
+            map.put(Byte.class, 1);
+            map.put(Short.class, 0);
+            map.put(Integer.class, 10);
+            map.put(Long.class, 15);
+            map.put(Float.class, 30);
+            map.put(Double.class, 30);
+            assignAccepts.put(Short.class, map);
+        }
+
+        {
+            HashMap<Class<?>, Integer> map = new HashMap<>();
+            map.put(Byte.class, 1);
+            map.put(Short.class, 1);
+            map.put(Integer.class, 0);
+            map.put(Long.class, 10);
+            map.put(Float.class, 30);
+            map.put(Double.class, 30);
+            assignAccepts.put(Integer.class, map);
+        }
+
+        {
+            HashMap<Class<?>, Integer> map = new HashMap<>();
+            map.put(Byte.class, 1);
+            map.put(Short.class, 1);
+            map.put(Integer.class, 1);
+            map.put(Long.class, 0);
+            map.put(Float.class, 30);
+            map.put(Double.class, 30);
+            assignAccepts.put(Long.class, map);
+        }
+
+        {
+            HashMap<Class<?>, Integer> map = new HashMap<>();
+            map.put(Byte.class, 2);
+            map.put(Short.class, 2);
+            map.put(Integer.class, 2);
+            map.put(Long.class, 2);
+            map.put(Float.class, 0);
+            map.put(Double.class, 1);
+            assignAccepts.put(Float.class, map);
+        }
+
+        {
+            HashMap<Class<?>, Integer> map = new HashMap<>();
+            map.put(Byte.class, 2);
+            map.put(Short.class, 2);
+            map.put(Integer.class, 2);
+            map.put(Long.class, 2);
+            map.put(Float.class, 1);
+            map.put(Double.class, 0);
+            assignAccepts.put(Double.class, map);
+        }
     }
 
     /**
      * check if type b can be converted to type a
-     * 
+     *
      * @param a
      * @param b
      * @return true if such conversion is possible
      */
-    public boolean areEquivalent(Class<?> a, Class<?> b) {
+    public int areEquivalent(Class<?> a, Class<?> b) {
         if (a.isAssignableFrom(b))
-            return true;
+            return 0;
 
         if (a.isPrimitive())
             a = primitiveWrapper(a);
         if (b.isPrimitive())
             b = primitiveWrapper(b);
 
-        if (assignAccepts.containsKey(a) && assignAccepts.get(a).contains(b))
-            return true;
+        if (assignAccepts.containsKey(a) && assignAccepts.get(a).containsKey(b))
+            return assignAccepts.get(a).get(b);
 
-        return a == b;
+        return a == b ? 0 : -1;
     }
 
     /**
@@ -117,6 +176,8 @@ public class JavaFunction implements ScriptFunction, JavaLike {
         Class<?>[] argTypes = Arrays.stream(args).map((arg) -> arg.getClass()).toArray(Class<?>[]::new);
 
         Executable executable = null;
+        Class<?>[] executableSignature = null;
+        int executableScore = -1;
 
         if (methods.containsKey(argTypes)) {
             executable = methods.get(argTypes);
@@ -125,40 +186,49 @@ public class JavaFunction implements ScriptFunction, JavaLike {
                 if (signature.length != argTypes.length)
                     continue;
 
+                int runningScore = 0;
+
                 for (int i = 0; i < signature.length; i++) {
-                    if (!areEquivalent(signature[i], argTypes[i]))
+                    int score = areEquivalent(signature[i], argTypes[i]);
+                    if (score == -1)
                         continue signatureLoop;
+                    runningScore += score;
                 }
 
-                executable = methods.get(signature);
-
-                for (int i = 0; i < signature.length; i++) {
-                    Class<?> sig = signature[i];
-
-                    if (sig.isPrimitive())
-                        sig = primitiveWrapper(sig);
-
-                    if (sig != args[i].getClass() && assignAccepts.containsKey(sig)) {
-                        Number n = (Number) args[i];
-                        if (sig == Short.class)
-                            args[i] = n.shortValue();
-                        else if (sig == Integer.class)
-                            args[i] = n.intValue();
-                        else if (sig == Long.class)
-                            args[i] = n.longValue();
-                        else if (sig == Double.class)
-                            args[i] = n.doubleValue();
-                        else if (sig == Float.class)
-                            args[i] = n.floatValue();
-                    }
+                if (executableScore == -1 || runningScore < executableScore) {
+                    executable = methods.get(signature);
+                    executableSignature = signature;
+                    executableScore = runningScore;
                 }
 
                 break signatureLoop;
             }
 
             if (executable == null)
-                throw new UnsupportedOperationException(
-                        String.format("no method implementation with arguments `%s`", Arrays.toString(argTypes)));
+                throw new UnsupportedOperationException(String.format(
+                        "no method implementation with arguments `%s`", Arrays.toString(argTypes)));
+
+            for (int i = 0; i < executableSignature.length; i++) {
+                Class<?> sig = executableSignature[i];
+
+                if (sig.isPrimitive())
+                    sig = primitiveWrapper(sig);
+
+                if (sig != args[i].getClass() && assignAccepts.containsKey(sig)) {
+                    Number n = (Number) args[i];
+                    if (sig == Short.class)
+                        args[i] = n.shortValue();
+                    else if (sig == Integer.class)
+                        args[i] = n.intValue();
+                    else if (sig == Long.class)
+                        args[i] = n.longValue();
+                    else if (sig == Double.class)
+                        args[i] = n.doubleValue();
+                    else if (sig == Float.class)
+                        args[i] = n.floatValue();
+                }
+            }
+
         }
 
         if (executable instanceof Constructor) {
@@ -172,12 +242,12 @@ public class JavaFunction implements ScriptFunction, JavaLike {
                     return JavaObject.autoWrap(method.invoke(JavaObject.unwrapAll(parent), args));
                 } else {
                     throw new UnsupportedOperationException(
-                            String.format("no static implementation with arguments `%s`", Arrays.toString(argTypes)));
+                            String.format("no static implementation with arguments `%s`",
+                                    Arrays.toString(argTypes)));
                 }
             } catch (InvocationTargetException e) {
                 throw new Exception(e.getTargetException());
             }
-
         }
     }
 

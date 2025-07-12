@@ -9,5 +9,6 @@ public class Core implements ModInitializer {
     public void onInitialize() {}
 
     public static void main(String[] args) throws Exception {
+        System.out.println("Hello world");
     }
 }
