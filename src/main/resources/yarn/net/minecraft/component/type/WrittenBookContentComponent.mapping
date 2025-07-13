@@ -33,7 +33,3 @@ CLASS net/minecraft/class_9302 net/minecraft/component/type/WrittenBookContentCo
 		ARG 0 textCodec
 	METHOD method_58437 createPageCodec (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
 		ARG 0 textCodec
-	METHOD method_66337 resolveInStack (Lnet/minecraft/class_1799;Lnet/minecraft/class_2168;Lnet/minecraft/class_1657;)Z
-		ARG 0 stack
-		ARG 1 commandSource
-		ARG 2 player

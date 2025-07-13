@@ -149,6 +149,10 @@ CLASS net/minecraft/class_7788 net/minecraft/data/loottable/BlockLootTableGenera
 		ARG 1 block
 	METHOD method_46026 (Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;
 		ARG 1 flowerPot
+	METHOD method_49357 (Lnet/minecraft/class_2248;Ljava/lang/Integer;)Lnet/minecraft/class_117$class_118;
+		ARG 1 flowerAmount
+	METHOD method_49358 flowerbedDrops (Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;
+		ARG 1 flowerbed
 	METHOD method_60390 createSilkTouchCondition ()Lnet/minecraft/class_5341$class_210;
 	METHOD method_60391 createWithoutSilkTouchCondition ()Lnet/minecraft/class_5341$class_210;
 	METHOD method_60392 createWithSilkTouchOrShearsCondition ()Lnet/minecraft/class_5341$class_210;
@@ -164,7 +168,3 @@ CLASS net/minecraft/class_7788 net/minecraft/data/loottable/BlockLootTableGenera
 		ARG 1 direction
 	METHOD method_65261 multifaceGrowthDrops (Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;
 		ARG 1 drop
-	METHOD method_66553 (Lnet/minecraft/class_2248;Lnet/minecraft/class_10596;Ljava/lang/Integer;)Lnet/minecraft/class_117$class_118;
-		ARG 2 count
-	METHOD method_66554 segmentedDrops (Lnet/minecraft/class_2248;)Lnet/minecraft/class_52$class_53;
-		ARG 1 segmented

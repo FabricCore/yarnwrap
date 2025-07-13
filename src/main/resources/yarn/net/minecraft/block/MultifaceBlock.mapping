@@ -1,12 +1,19 @@
 CLASS net/minecraft/class_5778 net/minecraft/block/MultifaceBlock
+	FIELD field_28413 UP_SHAPE Lnet/minecraft/class_265;
+	FIELD field_28414 DOWN_SHAPE Lnet/minecraft/class_265;
+	FIELD field_28415 EAST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_28416 WEST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_28417 SOUTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_28418 NORTH_SHAPE Lnet/minecraft/class_265;
 	FIELD field_28419 FACING_PROPERTIES Ljava/util/Map;
+	FIELD field_28420 SHAPES_FOR_DIRECTIONS Ljava/util/Map;
 	FIELD field_28421 DIRECTIONS [Lnet/minecraft/class_2350;
+	FIELD field_28422 SHAPES Lcom/google/common/collect/ImmutableMap;
 	FIELD field_28423 hasAllHorizontalDirections Z
 	FIELD field_28424 canMirrorX Z
 	FIELD field_28425 canMirrorZ Z
 	FIELD field_55079 CODEC Lcom/mojang/serialization/MapCodec;
 	FIELD field_55497 WATERLOGGED Lnet/minecraft/class_2746;
-	FIELD field_55780 shapeFunction Ljava/util/function/Function;
 	METHOD method_33358 canGrowOn (Lnet/minecraft/class_1922;Lnet/minecraft/class_2350;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Z
 		ARG 0 world
 		ARG 1 direction
@@ -32,8 +39,12 @@ CLASS net/minecraft/class_5778 net/minecraft/block/MultifaceBlock
 		ARG 0 stateManager
 	METHOD method_33369 canHaveDirection (Lnet/minecraft/class_2350;)Z
 		ARG 1 direction
+	METHOD method_33370 (Ljava/util/EnumMap;)V
+		ARG 0 shapes
 	METHOD method_33374 getProperty (Lnet/minecraft/class_2350;)Lnet/minecraft/class_2746;
 		ARG 0 direction
+	METHOD method_33380 getShapeForState (Lnet/minecraft/class_2680;)Lnet/minecraft/class_265;
+		ARG 0 state
 	METHOD method_33381 hasAnyDirection (Lnet/minecraft/class_2680;)Z
 		ARG 0 state
 	METHOD method_33382 isNotFullBlock (Lnet/minecraft/class_2680;)Z
@@ -53,6 +64,3 @@ CLASS net/minecraft/class_5778 net/minecraft/block/MultifaceBlock
 		ARG 0 world
 		ARG 1 pos
 		ARG 2 direction
-	METHOD method_66454 (Ljava/util/Map;Lnet/minecraft/class_2680;)Lnet/minecraft/class_265;
-		ARG 1 state
-	METHOD method_66455 createShapeFunction ()Ljava/util/function/Function;

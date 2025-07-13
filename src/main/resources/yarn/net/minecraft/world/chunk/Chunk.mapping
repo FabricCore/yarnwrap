@@ -40,10 +40,10 @@ CLASS net/minecraft/class_2791 net/minecraft/world/chunk/Chunk
 	METHOD method_12007 setBlockEntity (Lnet/minecraft/class_2586;)V
 		ARG 1 blockEntity
 	METHOD method_12009 getStatus ()Lnet/minecraft/class_2806;
-	METHOD method_12010 setBlockState (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;I)Lnet/minecraft/class_2680;
+	METHOD method_12010 setBlockState (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Z)Lnet/minecraft/class_2680;
 		ARG 1 pos
 		ARG 2 state
-		ARG 3 flags
+		ARG 3 moved
 	METHOD method_12011 getHeightmaps ()Ljava/util/Collection;
 	METHOD method_12012 getPostProcessingLists ()[Lit/unimi/dsi/fastutil/shorts/ShortList;
 	METHOD method_12013 getBlockTickScheduler ()Lnet/minecraft/class_6763;
@@ -103,7 +103,7 @@ CLASS net/minecraft/class_2791 net/minecraft/world/chunk/Chunk
 	METHOD method_38261 (Lnet/minecraft/class_3195;)Lit/unimi/dsi/fastutil/longs/LongSet;
 		ARG 0 type2
 	METHOD method_38870 increaseInhabitedTime (J)V
-		ARG 1 timeDelta
+		ARG 1 delta
 	METHOD method_38871 hasStructureReferences ()Z
 	METHOD method_39295 hasHeightmap (Lnet/minecraft/class_2902$class_2903;)Z
 		ARG 1 type
@@ -129,7 +129,4 @@ CLASS net/minecraft/class_2791 net/minecraft/world/chunk/Chunk
 	METHOD method_65063 markNeedsSaving ()V
 	METHOD method_65064 tryMarkSaved ()Z
 	METHOD method_65069 isSerializable ()Z
-	METHOD method_66480 setBlockState (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Lnet/minecraft/class_2680;
-		ARG 1 pos
-		ARG 2 state
 	CLASS class_6745 TickSchedulers

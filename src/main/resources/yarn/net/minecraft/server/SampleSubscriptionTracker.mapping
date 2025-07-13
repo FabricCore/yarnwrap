@@ -2,7 +2,7 @@ CLASS net/minecraft/class_9188 net/minecraft/server/SampleSubscriptionTracker
 	FIELD field_48808 STOP_TRACK_TICK I
 	FIELD field_48809 STOP_TRACK_MS I
 	FIELD field_48810 playerManager Lnet/minecraft/class_3324;
-	FIELD field_48811 subscriptionMap Ljava/util/Map;
+	FIELD field_48811 subscriptionMap Ljava/util/EnumMap;
 	FIELD field_48812 pendingQueue Ljava/util/Queue;
 	METHOD <init> (Lnet/minecraft/class_3324;)V
 		ARG 1 playerManager
@@ -23,7 +23,5 @@ CLASS net/minecraft/class_9188 net/minecraft/server/SampleSubscriptionTracker
 	METHOD method_56658 onUnsubscription (JI)V
 		ARG 1 measuringTimeMs
 		ARG 3 tick
-	METHOD method_66206 (Lnet/minecraft/class_9192;)Ljava/util/Map;
-		ARG 0 type
 	CLASS class_9189 PlayerSubscriptionData
 	CLASS class_9190 MeasureTimeTick

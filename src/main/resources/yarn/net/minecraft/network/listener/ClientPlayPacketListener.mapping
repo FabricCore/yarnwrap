@@ -26,6 +26,8 @@ CLASS net/minecraft/class_2602 net/minecraft/network/listener/ClientPlayPacketLi
 		ARG 1 packet
 	METHOD method_11090 onCraftFailedResponse (Lnet/minecraft/class_2695;)V
 		ARG 1 packet
+	METHOD method_11091 onExperienceOrbSpawn (Lnet/minecraft/class_2606;)V
+		ARG 1 packet
 	METHOD method_11092 onLookAt (Lnet/minecraft/class_2707;)V
 		ARG 1 packet
 	METHOD method_11093 onEntityTrackerUpdate (Lnet/minecraft/class_2739;)V
@@ -230,6 +232,4 @@ CLASS net/minecraft/class_2602 net/minecraft/network/listener/ClientPlayPacketLi
 	METHOD method_64555 onRecipeBookAdd (Lnet/minecraft/class_10266;)V
 		ARG 1 packet
 	METHOD method_64556 onRecipeBookSettings (Lnet/minecraft/class_10269;)V
-		ARG 1 packet
-	METHOD method_66579 onTestInstanceBlockStatus (Lnet/minecraft/class_10614;)V
 		ARG 1 packet

@@ -3,7 +3,6 @@ CLASS net/minecraft/class_10275 net/minecraft/entity/mob/CreakingEntity
 	FIELD field_54570 invulnerableAnimationState Lnet/minecraft/class_7094;
 	FIELD field_54571 UNROOTED Lnet/minecraft/class_2940;
 	FIELD field_54572 ACTIVE Lnet/minecraft/class_2940;
-	FIELD field_54575 ATTACK_DAMAGE F
 	FIELD field_54579 attackAnimationTimer I
 	FIELD field_55010 crumblingAnimationState Lnet/minecraft/class_7094;
 	FIELD field_55487 CRUMBLING Lnet/minecraft/class_2940;
@@ -12,6 +11,7 @@ CLASS net/minecraft/class_10275 net/minecraft/entity/mob/CreakingEntity
 	FIELD field_55491 nextEyeFlickerTime I
 	FIELD field_55493 playerIntersectionTimer I
 	FIELD field_55545 HOME_POS Lnet/minecraft/class_2940;
+	FIELD field_54575 ATTACK_DAMAGE F
 	METHOD method_64624 tickAttackAnimation ()V
 	METHOD method_64627 createCreakingAttributes ()Lnet/minecraft/class_5132$class_5133;
 	METHOD method_64628 isUnrooted ()Z
