@@ -51,7 +51,7 @@ publishing {
   repositories {
     maven {
       name = "siriReposilite"
-      url = "https://maven.siri.ws/snapshots"
+      url = "https://maven.siri.ws/${project.channel}"
       credentials(PasswordCredentials)
       authentication {
         basic(BasicAuthentication)
