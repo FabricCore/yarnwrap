@@ -201,7 +201,7 @@ public class JavaFunction implements ScriptFunction, JavaLike {
                     executableScore = runningScore;
                 }
 
-                break signatureLoop;
+                if(runningScore == 0) break signatureLoop;
             }
 
             if (executable == null)
