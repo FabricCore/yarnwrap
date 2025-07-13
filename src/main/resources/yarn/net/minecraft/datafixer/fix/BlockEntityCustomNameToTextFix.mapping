@@ -1,6 +1,4 @@
 CLASS net/minecraft/class_3567 net/minecraft/datafixer/fix/BlockEntityCustomNameToTextFix
-	FIELD field_55628 NAMEABLE_BLOCK_ENTITY_IDS Ljava/util/Set;
-	METHOD <init> (Lcom/mojang/datafixers/schemas/Schema;)V
+	METHOD <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
 		ARG 1 outputSchema
-	METHOD method_66051 fixCustomName (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
-		ARG 0 dynamic
+		ARG 2 changesType

@@ -5,4 +5,4 @@ CLASS net/minecraft/class_9990 net/minecraft/client/render/entity/AgeableMobEnti
 		ARG 1 context
 		ARG 2 model
 		ARG 3 babyModel
-		ARG 4 shadowRadius
+		ARG 4 scale

@@ -1,12 +1,9 @@
 CLASS net/minecraft/class_1084 net/minecraft/client/resource/metadata/TextureResourceMetadata
-	FIELD comp_3459 blur Z
-	FIELD comp_3460 clamp Z
-	FIELD field_55541 CODEC Lcom/mojang/serialization/Codec;
-	FIELD field_55542 SERIALIZER Lnet/minecraft/class_7677;
+	FIELD field_5344 READER Lnet/minecraft/class_1085;
+	FIELD field_5345 clamp Z
+	FIELD field_5346 blur Z
 	METHOD <init> (ZZ)V
 		ARG 1 blur
 		ARG 2 clamp
-	METHOD comp_3459 blur ()Z
-	METHOD comp_3460 clamp ()Z
-	METHOD method_65889 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
-		ARG 0 instance
+	METHOD method_4696 shouldBlur ()Z
+	METHOD method_4697 shouldClamp ()Z

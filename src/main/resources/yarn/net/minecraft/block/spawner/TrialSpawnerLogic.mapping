@@ -29,7 +29,9 @@ CLASS net/minecraft/class_8963 net/minecraft/block/spawner/TrialSpawnerLogic
 		ARG 1 trialSpawner
 		ARG 2 entityDetector
 		ARG 3 entitySelector
-	METHOD method_55156 codec ()Lcom/mojang/serialization/MapCodec;
+	METHOD method_55156 codec ()Lcom/mojang/serialization/Codec;
+	METHOD method_55157 (DDDLnet/minecraft/class_5819;Lnet/minecraft/class_1297;)Lnet/minecraft/class_1297;
+		ARG 7 entity
 	METHOD method_55158 trySpawnMob (Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;)Ljava/util/Optional;
 		ARG 1 world
 		ARG 2 pos
@@ -107,9 +109,6 @@ CLASS net/minecraft/class_8963 net/minecraft/block/spawner/TrialSpawnerLogic
 		ARG 3 data
 		ARG 4 cooldownLength
 		ARG 5 entityDetectionRange
-	METHOD method_65372 setEntityType (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;)V
-		ARG 1 entityType
-		ARG 2 world
 	CLASS class_8964 TrialSpawner
 		METHOD method_55146 setSpawnerState (Lnet/minecraft/class_1937;Lnet/minecraft/class_8967;)V
 			ARG 1 world

@@ -9,7 +9,7 @@ CLASS net/minecraft/class_327 net/minecraft/client/font/TextRenderer
 	FIELD field_2000 fontHeight I
 		COMMENT The font height of the text that is rendered by the text renderer.
 	FIELD field_2001 random Lnet/minecraft/class_5819;
-	FIELD field_24237 FORWARD_SHIFT F
+	FIELD field_24237 FORWARD_SHIFT Lorg/joml/Vector3f;
 	FIELD field_24238 handler Lnet/minecraft/class_5225;
 	FIELD field_32166 Z_INDEX F
 	FIELD field_35427 ARABIC_SHAPING_LETTERS_SHAPE I
@@ -196,6 +196,7 @@ CLASS net/minecraft/class_327 net/minecraft/client/font/TextRenderer
 	CLASS class_5232 Drawer
 		FIELD field_24239 vertexConsumers Lnet/minecraft/class_4597;
 		FIELD field_24241 shadow Z
+		FIELD field_24242 brightnessMultiplier F
 		FIELD field_24247 matrix Lorg/joml/Matrix4f;
 		FIELD field_24249 light I
 		FIELD field_24250 x F
@@ -233,9 +234,4 @@ CLASS net/minecraft/class_327 net/minecraft/client/font/TextRenderer
 		METHOD method_65050 drawGlyphs ()V
 		METHOD method_65070 getForegroundZIndex ()F
 		METHOD method_65071 getBackgroundZIndex ()F
-		METHOD method_65177 getShadowColor (Lnet/minecraft/class_2583;I)I
-			ARG 1 style
-			ARG 2 textColor
-		METHOD method_65178 getRenderColor (Lnet/minecraft/class_5251;)I
-			ARG 1 override
 	CLASS class_6415 TextLayerType

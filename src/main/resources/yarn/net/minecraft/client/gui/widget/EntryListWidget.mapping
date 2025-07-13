@@ -5,8 +5,12 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 	FIELD field_22744 centerListVertically Z
 	FIELD field_22747 renderHeader Z
 	FIELD field_22748 headerHeight I
+	FIELD field_22749 scrollAmount D
+	FIELD field_22750 scrolling Z
 	FIELD field_22751 selected Lnet/minecraft/class_350$class_351;
 	FIELD field_33780 hoveredEntry Lnet/minecraft/class_350$class_351;
+	FIELD field_45908 SCROLLER_TEXTURE Lnet/minecraft/class_2960;
+	FIELD field_49477 SCROLLER_BACKGROUND_TEXTURE Lnet/minecraft/class_2960;
 	FIELD field_49478 MENU_LIST_BACKGROUND_TEXTURE Lnet/minecraft/class_2960;
 	FIELD field_49892 INWORLD_MENU_LIST_BACKGROUND_TEXTURE Lnet/minecraft/class_2960;
 	METHOD <init> (Lnet/minecraft/class_310;IIII)V
@@ -15,23 +19,24 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 		ARG 3 height
 		ARG 4 y
 		ARG 5 itemHeight
-	METHOD <init> (Lnet/minecraft/class_310;IIIII)V
-		ARG 1 client
-		ARG 2 width
-		ARG 3 height
-		ARG 4 y
-		ARG 5 itemHeight
-		ARG 6 headerHeight
+	METHOD method_25307 setScrollAmount (D)V
+		ARG 1 amount
 	METHOD method_25308 getEntryAtPosition (DD)Lnet/minecraft/class_350$class_351;
 		ARG 1 x
 		ARG 3 y
 	METHOD method_25309 scroll (I)V
 		ARG 1 amount
+	METHOD method_25310 clickedHeader (II)Z
+		COMMENT Called when the header is clicked.
+		COMMENT
+		COMMENT @return {@code true} to indicate that the event handling is successful/valid
+		ARG 1 x
+		ARG 2 y
 	METHOD method_25311 renderList (Lnet/minecraft/class_332;IIF)V
 		ARG 1 context
 		ARG 2 mouseX
 		ARG 3 mouseY
-		ARG 4 deltaTicks
+		ARG 4 delta
 	METHOD method_25312 renderHeader (Lnet/minecraft/class_332;II)V
 		ARG 1 context
 		ARG 2 x
@@ -40,6 +45,14 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 		ARG 1 entry
 	METHOD method_25314 replaceEntries (Ljava/util/Collection;)V
 		ARG 1 newEntries
+	METHOD method_25315 setRenderHeader (ZI)V
+		ARG 1 renderHeader
+		ARG 2 headerHeight
+	METHOD method_25317 getMaxPosition ()I
+	METHOD method_25318 updateScrollingState (DDI)V
+		ARG 1 mouseX
+		ARG 3 mouseY
+		ARG 5 button
 	METHOD method_25319 getRowBottom (I)I
 		ARG 1 index
 	METHOD method_25320 renderDecorations (Lnet/minecraft/class_332;II)V
@@ -55,8 +68,10 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 		ARG 1 index
 	METHOD method_25328 ensureVisible (Lnet/minecraft/class_350$class_351;)V
 		ARG 1 entry
+	METHOD method_25329 getScrollbarX ()I
 	METHOD method_25330 removeEntry (Lnet/minecraft/class_350$class_351;)Z
 		ARG 1 entry
+	METHOD method_25331 getMaxScroll ()I
 	METHOD method_25332 isSelectedEntry (I)Z
 		ARG 1 index
 	METHOD method_25334 getSelectedOrNull ()Lnet/minecraft/class_350$class_351;
@@ -67,6 +82,7 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 		ARG 1 index
 	METHOD method_25339 clearEntries ()V
 	METHOD method_25340 getEntryCount ()I
+	METHOD method_25341 getScrollAmount ()D
 	METHOD method_25342 getRowLeft ()I
 	METHOD method_29621 setEntryParentList (Lnet/minecraft/class_350$class_351;)V
 		ARG 1 entry
@@ -110,6 +126,10 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 		ARG 0 entry
 	METHOD method_49603 enableScissor (Lnet/minecraft/class_332;)V
 		ARG 1 context
+	METHOD method_53812 isSelectButton (I)Z
+		ARG 1 button
+	METHOD method_57710 getBorderBoxLeft ()I
+	METHOD method_57711 getBorderBoxRight ()I
 	METHOD method_57712 position (ILnet/minecraft/class_8132;)V
 		ARG 1 width
 		ARG 2 layout
@@ -121,6 +141,14 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 		ARG 3 y
 	METHOD method_57715 drawMenuListBackground (Lnet/minecraft/class_332;)V
 		ARG 1 context
+	METHOD method_57716 getScrollbarMarginX ()I
+	METHOD method_57717 isScrollbarVisible ()Z
+	METHOD method_57718 getDefaultScrollbarX ()I
+	METHOD method_60321 setScrollAmountOnly (D)V
+		COMMENT Sets the scroll amount to {@code amount}. Unlike {@link #setScrollAmount},
+		COMMENT this has no side effects (like loading more entries).
+		ARG 1 amount
+	METHOD method_60322 refreshScroll ()V
 	METHOD method_64847 setSelected (I)V
 		ARG 1 index
 	CLASS class_351 Entry
@@ -144,7 +172,7 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 				COMMENT the Y coordinate of the mouse
 			ARG 9 hovered
 				COMMENT whether the mouse is hovering over the entry
-			ARG 10 tickProgress
+			ARG 10 tickDelta
 		METHOD method_49568 drawBorder (Lnet/minecraft/class_332;IIIIIIIZF)V
 			ARG 1 context
 			ARG 2 index
@@ -155,7 +183,7 @@ CLASS net/minecraft/class_350 net/minecraft/client/gui/widget/EntryListWidget
 			ARG 7 mouseX
 			ARG 8 mouseY
 			ARG 9 hovered
-			ARG 10 tickProgress
+			ARG 10 tickDelta
 	CLASS class_352 Entries
 		FIELD field_2146 entries Ljava/util/List;
 		METHOD add (ILjava/lang/Object;)V

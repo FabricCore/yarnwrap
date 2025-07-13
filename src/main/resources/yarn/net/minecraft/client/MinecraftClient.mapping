@@ -83,6 +83,8 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	FIELD field_1738 currentFps I
 	FIELD field_1739 networkProxy Ljava/net/Proxy;
 	FIELD field_1740 DEFAULT_FONT_ID Lnet/minecraft/class_2960;
+	FIELD field_17404 renderTaskQueue Ljava/util/Queue;
+	FIELD field_17405 worldGenProgressTracker Ljava/util/concurrent/atomic/AtomicReference;
 	FIELD field_1742 itemRenderer Lnet/minecraft/class_918;
 	FIELD field_1743 skipGameRender Z
 	FIELD field_1745 resourceManager Lnet/minecraft/class_3304;
@@ -108,6 +110,7 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	FIELD field_1757 resourcePackDir Ljava/nio/file/Path;
 	FIELD field_1758 tutorialManager Lnet/minecraft/class_1156;
 	FIELD field_1759 integratedServerRunning Z
+	FIELD field_1760 itemColors Lnet/minecraft/class_325;
 	FIELD field_1761 interactionManager Lnet/minecraft/class_636;
 	FIELD field_1762 LOGGER Lorg/slf4j/Logger;
 	FIELD field_1763 bakedModelManager Lnet/minecraft/class_1092;
@@ -121,8 +124,6 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	FIELD field_1772 textRenderer Lnet/minecraft/class_327;
 	FIELD field_1773 gameRenderer Lnet/minecraft/class_757;
 	FIELD field_1774 keyboard Lnet/minecraft/class_309;
-	FIELD field_17404 renderTaskQueue Ljava/util/Queue;
-	FIELD field_17405 worldGenProgressTracker Ljava/util/concurrent/atomic/AtomicReference;
 	FIELD field_17763 splashTextLoader Lnet/minecraft/class_4008;
 	FIELD field_18008 paintingManager Lnet/minecraft/class_4044;
 	FIELD field_18009 COMPLETED_UNIT_FUTURE Ljava/util/concurrent/CompletableFuture;
@@ -142,6 +143,7 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	FIELD field_26842 socialInteractionsManager Lnet/minecraft/class_5520;
 	FIELD field_26843 socialInteractionsToast Lnet/minecraft/class_372;
 	FIELD field_26902 userApiService Lcom/mojang/authlib/minecraft/UserApiService;
+	FIELD field_27387 entityModelLoader Lnet/minecraft/class_5599;
 	FIELD field_27388 blockEntityRenderDispatcher Lnet/minecraft/class_824;
 	FIELD field_29569 recorder Lnet/minecraft/class_5962;
 	FIELD field_32144 wireFrame Z
@@ -184,8 +186,8 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	FIELD field_52752 mapTextureManager Lnet/minecraft/class_10093;
 	FIELD field_52753 inactivityFpsLimiter Lnet/minecraft/class_9919;
 	FIELD field_53831 shaderLoader Lnet/minecraft/class_10151;
+	FIELD field_54150 equipmentModelLoader Lnet/minecraft/class_10201;
 	FIELD field_54267 tracyFrameCapturer Lnet/minecraft/class_10219;
-	FIELD field_55226 itemModelManager Lnet/minecraft/class_10442;
 	METHOD <init> (Lnet/minecraft/class_542;)V
 		ARG 1 args
 	METHOD method_1478 getResourceManager ()Lnet/minecraft/class_3300;
@@ -203,6 +205,10 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	METHOD method_1495 getSessionService ()Lcom/mojang/authlib/minecraft/MinecraftSessionService;
 	METHOD method_1496 isIntegratedServerRunning ()Z
 	METHOD method_1498 isHudEnabled ()Z
+	METHOD method_1499 addBlockEntityNbt (Lnet/minecraft/class_1799;Lnet/minecraft/class_2586;Lnet/minecraft/class_5455;)V
+		ARG 1 stack
+		ARG 2 blockEntity
+		ARG 3 registryManager
 	METHOD method_1504 setCameraEntity (Lnet/minecraft/class_1297;)V
 		ARG 1 entity
 	METHOD method_1505 getBlockColors ()Lnet/minecraft/class_324;
@@ -245,7 +251,7 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	METHOD method_1541 getBlockRenderManager ()Lnet/minecraft/class_776;
 	METHOD method_1542 isInSingleplayer ()Z
 	METHOD method_1543 getDataFixer ()Lcom/mojang/datafixers/DataFixer;
-	METHOD method_1544 getMusicInstance ()Lnet/minecraft/class_10383;
+	METHOD method_1544 getMusicType ()Lnet/minecraft/class_5195;
 	METHOD method_1547 getVersionType ()Ljava/lang/String;
 	METHOD method_1548 getSession ()Lnet/minecraft/class_320;
 	METHOD method_1549 getSpriteAtlas (Lnet/minecraft/class_2960;)Ljava/util/function/Function;
@@ -366,7 +372,7 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	METHOD method_31382 createUserApiService (Lcom/mojang/authlib/yggdrasil/YggdrasilAuthenticationService;Lnet/minecraft/class_542;)Lcom/mojang/authlib/minecraft/UserApiService;
 		ARG 1 authService
 		ARG 2 runArgs
-	METHOD method_31974 getLoadedEntityModels ()Lnet/minecraft/class_5599;
+	METHOD method_31974 getEntityModelLoader ()Lnet/minecraft/class_5599;
 	METHOD method_31975 getBlockEntityRenderDispatcher ()Lnet/minecraft/class_824;
 	METHOD method_33883 shouldFilterText ()Z
 	METHOD method_33884 getChatRestriction ()Lnet/minecraft/class_310$class_5859;
@@ -382,6 +388,21 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 		ARG 1 directory
 		ARG 2 width
 		ARG 3 height
+	METHOD method_35699 takeHugeScreenshot (Ljava/io/File;IIII)Lnet/minecraft/class_2561;
+		COMMENT Takes a huge screenshot in the tga file format.
+		COMMENT
+		COMMENT <p>The {@code unitWidth} and {@code unitHeight} controls the size of the
+		COMMENT partial image rendered; it does not affect the screenshot outcome, but may
+		COMMENT affect the screenshot performance.
+		COMMENT
+		COMMENT @return a user-oriented piece of text for screenshot result
+		ARG 1 gameDirectory
+		ARG 2 unitWidth
+		ARG 3 unitHeight
+		ARG 4 width
+		ARG 5 height
+	METHOD method_35700 (Ljava/io/File;Lnet/minecraft/class_2583;)Lnet/minecraft/class_2583;
+		ARG 1 style
 	METHOD method_35701 (Lnet/minecraft/class_2561;)V
 		ARG 0 message
 	METHOD method_35703 getWorldGenerationProgressTracker ()Lnet/minecraft/class_3953;
@@ -514,12 +535,7 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	METHOD method_62887 getShaderLoader ()Lnet/minecraft/class_10151;
 	METHOD method_63507 onShaderResourceReloadFailure (Ljava/lang/Exception;)V
 		ARG 1 exception
-	METHOD method_64035 (Lnet/minecraft/class_6880$class_6883;)V
-		ARG 0 item
-	METHOD method_65386 getItemModelManager ()Lnet/minecraft/class_10442;
-	METHOD method_68467 (Lnet/minecraft/class_2960;Lcom/mojang/blaze3d/shaders/ShaderType;)Ljava/lang/String;
-		ARG 1 id
-		ARG 2 type
+	METHOD method_64036 getEquipmentModelLoader ()Lnet/minecraft/class_10201;
 	CLASS 1
 		FIELD field_52756 closed Z
 	CLASS class_5859 ChatRestriction

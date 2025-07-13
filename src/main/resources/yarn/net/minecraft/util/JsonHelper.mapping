@@ -263,21 +263,3 @@ CLASS net/minecraft/class_3518 net/minecraft/util/JsonHelper
 	METHOD method_52226 getElement (Lcom/google/gson/JsonObject;Ljava/lang/String;)Lcom/google/gson/JsonElement;
 		ARG 0 object
 		ARG 1 name
-	METHOD method_66034 isTooLarge (Lcom/google/gson/JsonElement;I)Z
-		ARG 0 json
-		ARG 1 maxLength
-	CLASS class_10559 CharacterCounter
-		FIELD field_55624 length I
-		FIELD field_55625 maxLength I
-		METHOD <init> (I)V
-			ARG 1 maxLength
-		METHOD append (C)Ljava/lang/Appendable;
-			ARG 1 c
-		METHOD append (Ljava/lang/CharSequence;)Ljava/lang/Appendable;
-			ARG 1 charSequence
-		METHOD append (Ljava/lang/CharSequence;II)Ljava/lang/Appendable;
-			ARG 1 charSequence
-			ARG 2 from
-			ARG 3 to
-		METHOD method_66035 addCharacters (I)Ljava/lang/Appendable;
-			ARG 1 count

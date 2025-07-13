@@ -2,6 +2,8 @@ CLASS net/minecraft/class_10055 net/minecraft/client/render/entity/state/PlayerE
 	FIELD field_53520 skinTextures Lnet/minecraft/class_8685;
 	FIELD field_53521 flyingRotation F
 	FIELD field_53522 handSwinging Z
+	FIELD field_53523 mainHandState Lnet/minecraft/class_10055$class_10056;
+	FIELD field_53524 offHandState Lnet/minecraft/class_10055$class_10056;
 	FIELD field_53525 playerName Lnet/minecraft/class_2561;
 	FIELD field_53526 leftShoulderParrotVariant Lnet/minecraft/class_1453$class_7989;
 	FIELD field_53527 rightShoulderParrotVariant Lnet/minecraft/class_1453$class_7989;
@@ -20,5 +22,8 @@ CLASS net/minecraft/class_10055 net/minecraft/client/render/entity/state/PlayerE
 	FIELD field_53544 jacketVisible Z
 	FIELD field_53545 leftPantsLegVisible Z
 	FIELD field_53546 rightPantsLegVisible Z
-	FIELD field_55317 spyglassState Lnet/minecraft/class_10444;
 	METHOD method_64259 getGlidingProgress ()F
+	CLASS class_10056 HandState
+		FIELD field_53547 empty Z
+		FIELD field_53548 itemUseAction Lnet/minecraft/class_1839;
+		FIELD field_53549 hasChargedCrossbow Z

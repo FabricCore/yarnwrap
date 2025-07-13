@@ -14,6 +14,7 @@ CLASS net/minecraft/class_10255 net/minecraft/entity/vehicle/AbstractBoatEntity
 	FIELD field_54440 lastBubbleWobble F
 	FIELD field_54441 leashData Lnet/minecraft/class_9817$class_9818;
 	FIELD field_54442 itemSupplier Ljava/util/function/Supplier;
+	FIELD field_54443 boatPitch D
 	FIELD field_54444 pressingLeft Z
 	FIELD field_54446 EMIT_SOUND_EVENT_PADDLE_ROTATION D
 		COMMENT A boat will emit a sound event every time a paddle is near this rotation.
@@ -22,14 +23,20 @@ CLASS net/minecraft/class_10255 net/minecraft/entity/vehicle/AbstractBoatEntity
 	FIELD field_54450 BUBBLE_WOBBLE_TICKS Lnet/minecraft/class_2940;
 	FIELD field_54452 NEXT_PADDLE_PHASE F
 	FIELD field_54453 paddlePhases [F
+	FIELD field_54454 velocityDecay F
 	FIELD field_54455 ticksUnderwater F
 	FIELD field_54456 yawVelocity F
-	FIELD field_55706 interpolator Lnet/minecraft/class_10584;
+	FIELD field_54457 lerpTicks I
+	FIELD field_54458 x D
+	FIELD field_54459 y D
+	FIELD field_54460 z D
+	FIELD field_54461 boatYaw D
 	METHOD <init> (Lnet/minecraft/class_1299;Lnet/minecraft/class_1937;Ljava/util/function/Supplier;)V
 		ARG 1 type
 		ARG 2 world
 		ARG 3 itemSupplier
 	METHOD method_64476 handleBubbleColumn ()V
+	METHOD method_64477 updatePositionAndRotation ()V
 	METHOD method_64478 checkLocation ()Lnet/minecraft/class_10255$class_1691;
 	METHOD method_64479 checkBoatInWater ()Z
 	METHOD method_64480 getUnderWaterLocation ()Lnet/minecraft/class_10255$class_1691;
@@ -37,10 +44,10 @@ CLASS net/minecraft/class_10255 net/minecraft/entity/vehicle/AbstractBoatEntity
 	METHOD method_64482 updatePaddles ()V
 	METHOD method_64483 getBubbleWobbleTicks ()I
 	METHOD method_64484 lerpBubbleWobble (F)F
-		ARG 1 tickProgress
+		ARG 1 tickDelta
 	METHOD method_64485 lerpPaddlePhase (IF)F
 		ARG 1 paddle
-		ARG 2 tickProgress
+		ARG 2 tickDelta
 	METHOD method_64486 canCollide (Lnet/minecraft/class_1297;Lnet/minecraft/class_1297;)Z
 		ARG 0 entity
 		ARG 1 other

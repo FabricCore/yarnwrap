@@ -1,22 +1,20 @@
 CLASS net/minecraft/class_3228 net/minecraft/server/world/ChunkTicket
 	COMMENT Represents a chunk ticket, which specifies the reason a chunk has been loaded.
+	FIELD field_14022 argument Ljava/lang/Object;
 	FIELD field_14023 type Lnet/minecraft/class_3230;
+	FIELD field_14024 tickCreated J
 	FIELD field_14025 level I
-	FIELD field_55597 ticksLeft J
-	FIELD field_56415 CODEC Lcom/mojang/serialization/MapCodec;
-	METHOD <init> (Lnet/minecraft/class_3230;I)V
+	METHOD <init> (Lnet/minecraft/class_3230;ILjava/lang/Object;)V
 		ARG 1 type
 		ARG 2 level
-	METHOD <init> (Lnet/minecraft/class_3230;IJ)V
-		ARG 1 type
-		ARG 2 level
-		ARG 3 ticksLeft
+		ARG 3 argument
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 that
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
 	METHOD method_14281 getType ()Lnet/minecraft/class_3230;
 	METHOD method_14283 getLevel ()I
-	METHOD method_66022 refreshExpiry ()V
-	METHOD method_66023 tick ()V
-	METHOD method_66024 isExpired ()Z
-	METHOD method_67328 (Lnet/minecraft/class_3228;)Ljava/lang/Long;
-		ARG 0 ticket
-	METHOD method_67329 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
-		ARG 0 instance
+	METHOD method_20627 isExpired (J)Z
+		ARG 1 currentTick
+	METHOD method_23956 setTickCreated (J)V
+		ARG 1 tickCreated

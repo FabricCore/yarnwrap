@@ -8,8 +8,13 @@ CLASS net/minecraft/class_2358 net/minecraft/block/FireBlock
 	FIELD field_11094 EAST Lnet/minecraft/class_2746;
 	FIELD field_11095 burnChances Lit/unimi/dsi/fastutil/objects/Object2IntMap;
 	FIELD field_11096 NORTH Lnet/minecraft/class_2746;
+	FIELD field_26653 UP_SHAPE Lnet/minecraft/class_265;
+	FIELD field_26654 WEST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_26655 EAST_SHAPE Lnet/minecraft/class_265;
+	FIELD field_26656 NORTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_26657 SOUTH_SHAPE Lnet/minecraft/class_265;
+	FIELD field_26658 shapesByState Ljava/util/Map;
 	FIELD field_46352 CODEC Lcom/mojang/serialization/MapCodec;
-	FIELD field_55760 shapeFunction Ljava/util/function/Function;
 	METHOD method_10189 registerFlammableBlock (Lnet/minecraft/class_2248;II)V
 		ARG 1 block
 		ARG 2 burnChance
@@ -45,6 +50,7 @@ CLASS net/minecraft/class_2358 net/minecraft/block/FireBlock
 		ARG 3 age
 	METHOD method_26155 getFireTickDelay (Lnet/minecraft/class_5819;)I
 		ARG 0 random
-	METHOD method_66431 (Ljava/util/Map;Lnet/minecraft/class_2680;)Lnet/minecraft/class_265;
-		ARG 1 state
-	METHOD method_66432 createShapeFunction ()Ljava/util/function/Function;
+	METHOD method_31016 getShapeForState (Lnet/minecraft/class_2680;)Lnet/minecraft/class_265;
+		ARG 0 state
+	METHOD method_31017 (Lnet/minecraft/class_2680;)Z
+		ARG 0 state
