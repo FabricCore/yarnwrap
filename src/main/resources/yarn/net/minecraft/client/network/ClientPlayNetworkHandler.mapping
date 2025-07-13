@@ -1,4 +1,10 @@
 CLASS net/minecraft/class_634 net/minecraft/client/network/ClientPlayNetworkHandler
+	FIELD field_16771 sessionId Ljava/util/UUID;
+	FIELD field_19144 chunkLoadDistance I
+	FIELD field_24321 worldProperties Lnet/minecraft/class_638$class_5271;
+	FIELD field_25063 combinedDynamicRegistries Lnet/minecraft/class_5455$class_6890;
+	FIELD field_25273 worldKeys Ljava/util/Set;
+	FIELD field_35164 simulationDistance I
 	FIELD field_3687 random Lnet/minecraft/class_5819;
 	FIELD field_3691 commandSource Lnet/minecraft/class_637;
 	FIELD field_3692 dataQueryHandler Lnet/minecraft/class_300;
@@ -8,12 +14,6 @@ CLASS net/minecraft/class_634 net/minecraft/client/network/ClientPlayNetworkHand
 	FIELD field_3697 profile Lcom/mojang/authlib/GameProfile;
 	FIELD field_3699 world Lnet/minecraft/class_638;
 	FIELD field_3700 advancementHandler Lnet/minecraft/class_632;
-	FIELD field_16771 sessionId Ljava/util/UUID;
-	FIELD field_19144 chunkLoadDistance I
-	FIELD field_24321 worldProperties Lnet/minecraft/class_638$class_5271;
-	FIELD field_25063 combinedDynamicRegistries Lnet/minecraft/class_5455$class_6890;
-	FIELD field_25273 worldKeys Ljava/util/Set;
-	FIELD field_35164 simulationDistance I
 	FIELD field_39808 messagePacker Lnet/minecraft/class_7610$class_7612;
 	FIELD field_39858 lastSeenMessagesCollector Lnet/minecraft/class_7637;
 	FIELD field_39916 UNSECURE_SERVER_TOAST_TITLE Lnet/minecraft/class_2561;
@@ -40,12 +40,11 @@ CLASS net/minecraft/class_634 net/minecraft/client/network/ClientPlayNetworkHand
 	FIELD field_53032 syncedOptions Lnet/minecraft/class_8791;
 	FIELD field_54850 recipeManager Lnet/minecraft/class_10333;
 	FIELD field_54851 removedPlayerVehicleId Ljava/util/OptionalInt;
-	FIELD field_56354 cachedData Ljava/util/List;
-	FIELD field_58155 componentHasher Lnet/minecraft/class_10936$class_10937;
-	FIELD field_58156 globalChatMessageIndex I
-	FIELD field_58157 BAD_CHAT_INDEX_TEXT Lnet/minecraft/class_2561;
 	METHOD <init> (Lnet/minecraft/class_310;Lnet/minecraft/class_2535;Lnet/minecraft/class_8675;)V
 		ARG 1 client
+	METHOD method_16690 getSessionId ()Ljava/util/UUID;
+	METHOD method_19691 getActiveDeathProtector (Lnet/minecraft/class_1657;)Lnet/minecraft/class_1799;
+		ARG 0 player
 	METHOD method_2869 getAdvancementHandler ()Lnet/minecraft/class_632;
 	METHOD method_2870 updateLighting (IILnet/minecraft/class_3568;Lnet/minecraft/class_1944;Ljava/util/BitSet;Ljava/util/BitSet;Ljava/util/Iterator;Z)V
 		ARG 1 chunkX
@@ -65,9 +64,6 @@ CLASS net/minecraft/class_634 net/minecraft/client/network/ClientPlayNetworkHand
 	METHOD method_2880 getPlayerList ()Ljava/util/Collection;
 	METHOD method_2886 getCommandDispatcher ()Lcom/mojang/brigadier/CommandDispatcher;
 	METHOD method_2890 getWorld ()Lnet/minecraft/class_638;
-	METHOD method_16690 getSessionId ()Ljava/util/UUID;
-	METHOD method_19691 getActiveDeathProtector (Lnet/minecraft/class_1657;)Lnet/minecraft/class_1799;
-		ARG 0 player
 	METHOD method_29091 getRegistryManager ()Lnet/minecraft/class_5455$class_6890;
 	METHOD method_29356 getWorldKeys ()Ljava/util/Set;
 	METHOD method_31363 getPlayerUuids ()Ljava/util/Collection;
@@ -94,8 +90,8 @@ CLASS net/minecraft/class_634 net/minecraft/client/network/ClientPlayNetworkHand
 		ARG 3 data
 	METHOD method_43209 playSpawnSound (Lnet/minecraft/class_1297;)V
 		ARG 1 entity
-	METHOD method_44940 acknowledge (Lnet/minecraft/class_7469;Z)V
-		ARG 1 signature
+	METHOD method_44940 acknowledge (Lnet/minecraft/class_7471;Z)V
+		ARG 1 message
 		ARG 2 displayed
 	METHOD method_45720 hasFeature (Lnet/minecraft/class_7699;)Z
 		ARG 1 feature
@@ -164,10 +160,3 @@ CLASS net/minecraft/class_634 net/minecraft/client/network/ClientPlayNetworkHand
 	METHOD method_64898 refreshRecipeBook (Lnet/minecraft/class_299;)V
 		ARG 1 recipeBook
 	METHOD method_64899 getRecipeManager ()Lnet/minecraft/class_10286;
-	METHOD method_67268 clearCachedData ()V
-	METHOD method_67269 registerForCleaning (Lnet/minecraft/class_10719;)V
-		ARG 1 dataCache
-	METHOD method_68824 (Lnet/minecraft/class_6903;Lnet/minecraft/class_9336;)Ljava/lang/Integer;
-		ARG 1 component
-	METHOD method_68825 (Lnet/minecraft/class_9336;Ljava/lang/String;)Ljava/lang/IllegalArgumentException;
-		ARG 1 error

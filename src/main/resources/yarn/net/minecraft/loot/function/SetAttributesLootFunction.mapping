@@ -41,6 +41,8 @@ CLASS net/minecraft/class_137 net/minecraft/loot/function/SetAttributesLootFunct
 		METHOD comp_1864 id ()Lnet/minecraft/class_2960;
 		METHOD method_53358 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
 			ARG 0 instance
+		METHOD method_53359 (Ljava/util/List;)Lcom/mojang/datafixers/util/Either;
+			ARG 0 slots
 	CLASS class_6155 Builder
 		FIELD field_31855 attributes Ljava/util/List;
 		FIELD field_51361 replace Z

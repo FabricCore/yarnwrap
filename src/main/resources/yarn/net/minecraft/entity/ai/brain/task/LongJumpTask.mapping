@@ -49,8 +49,8 @@ CLASS net/minecraft/class_6030 net/minecraft/entity/ai/brain/task/LongJumpTask
 		ARG 0 entity
 		ARG 1 pos
 	CLASS class_6031 Target
-		FIELD comp_3478 pos Lnet/minecraft/class_2338;
+		FIELD field_30147 pos Lnet/minecraft/class_2338;
 		METHOD <init> (Lnet/minecraft/class_2338;I)V
 			ARG 1 pos
 			ARG 2 weight
-		METHOD comp_3478 pos ()Lnet/minecraft/class_2338;
+		METHOD method_35084 getPos ()Lnet/minecraft/class_2338;

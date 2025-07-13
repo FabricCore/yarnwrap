@@ -1,10 +1,13 @@
 CLASS net/minecraft/class_2609 net/minecraft/block/entity/AbstractFurnaceBlockEntity
+	FIELD field_11980 fuelTime I
+	FIELD field_11981 burnTime I
 	FIELD field_11982 BOTTOM_SLOTS [I
 	FIELD field_11983 SIDE_SLOTS [I
 	FIELD field_11984 inventory Lnet/minecraft/class_2371;
 	FIELD field_11986 recipesUsed Lit/unimi/dsi/fastutil/objects/Reference2IntOpenHashMap;
 	FIELD field_11987 TOP_SLOTS [I
-	FIELD field_11988 cookingTotalTime I
+	FIELD field_11988 cookTimeTotal I
+	FIELD field_11989 cookTime I
 	FIELD field_17374 propertyDelegate Lnet/minecraft/class_3913;
 	FIELD field_31286 INPUT_SLOT_INDEX I
 	FIELD field_31287 FUEL_SLOT_INDEX I
@@ -16,14 +19,6 @@ CLASS net/minecraft/class_2609 net/minecraft/block/entity/AbstractFurnaceBlockEn
 	FIELD field_31293 PROPERTY_COUNT I
 	FIELD field_31294 DEFAULT_COOK_TIME I
 	FIELD field_38234 matchGetter Lnet/minecraft/class_1863$class_7266;
-	FIELD field_55574 litTimeRemaining I
-	FIELD field_55575 litTotalTime I
-	FIELD field_55576 cookingTimeSpent I
-	FIELD field_56671 CODEC Lcom/mojang/serialization/Codec;
-	FIELD field_57764 DEFAULT_LIT_TIME_REMAINING S
-	FIELD field_57765 DEFAULT_LIT_TOTAL_TIME S
-	FIELD field_57766 DEFAULT_COOKING_TIME_SPENT S
-	FIELD field_57767 DEFAULT_COOKING_TOTAL_TIME S
 	METHOD <init> (Lnet/minecraft/class_2591;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_3956;)V
 		ARG 1 blockEntityType
 		ARG 2 pos
@@ -40,7 +35,7 @@ CLASS net/minecraft/class_2609 net/minecraft/block/entity/AbstractFurnaceBlockEn
 		ARG 2 stack
 	METHOD method_11201 isBurning ()Z
 	METHOD method_11203 craftRecipe (Lnet/minecraft/class_5455;Lnet/minecraft/class_8786;Lnet/minecraft/class_9696;Lnet/minecraft/class_2371;I)Z
-		ARG 0 dynamicRegistryManager
+		ARG 0 dynamicRegisryManager
 		ARG 1 recipe
 		ARG 2 input
 		ARG 3 inventory
@@ -57,6 +52,9 @@ CLASS net/minecraft/class_2609 net/minecraft/block/entity/AbstractFurnaceBlockEn
 		ARG 4 recipe
 	METHOD method_17763 dropExperienceForRecipesUsed (Lnet/minecraft/class_3222;)V
 		ARG 1 player
+	METHOD method_24431 (Lnet/minecraft/class_2487;Lnet/minecraft/class_5321;Ljava/lang/Integer;)V
+		ARG 1 recipeKey
+		ARG 2 count
 	METHOD method_27354 getRecipesUsedAndDropExperience (Lnet/minecraft/class_3218;Lnet/minecraft/class_243;)Ljava/util/List;
 		ARG 1 world
 		ARG 2 pos

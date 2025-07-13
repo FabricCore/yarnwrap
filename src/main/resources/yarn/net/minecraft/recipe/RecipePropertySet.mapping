@@ -7,6 +7,8 @@ CLASS net/minecraft/class_10290 net/minecraft/recipe/RecipePropertySet
 		ARG 1 usableItems
 	METHOD method_64701 canUse (Lnet/minecraft/class_1799;)Z
 		ARG 1 stack
+	METHOD method_64702 (Lnet/minecraft/class_1856;)Ljava/util/stream/Stream;
+		ARG 0 ingredient
 	METHOD method_64703 (Lnet/minecraft/class_10290;)Ljava/util/List;
 		ARG 0 set
 	METHOD method_64704 register (Ljava/lang/String;)Lnet/minecraft/class_5321;

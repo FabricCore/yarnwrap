@@ -1,12 +1,12 @@
 CLASS net/minecraft/class_9799 net/minecraft/client/util/BufferAllocator
 	FIELD field_52078 LOGGER Lorg/slf4j/Logger;
-	FIELD field_52079 ALLOCATOR Lorg/lwjgl/system/MemoryUtil$MemoryAllocator;
+	FIELD field_52079 allocator Lorg/lwjgl/system/MemoryUtil$MemoryAllocator;
 	FIELD field_52080 MIN_GROWTH I
 	FIELD field_52081 CLOSED I
 	FIELD field_52082 pointer J
 	FIELD field_52083 size I
 	FIELD field_52084 offset I
-	FIELD field_52085 lastOffset I
+	FIELD field_52085 prevOffset I
 	FIELD field_52086 refCount I
 	FIELD field_52087 clearCount I
 	FIELD field_54266 MEMORY_POOL Lcom/mojang/jtracy/MemoryPool;

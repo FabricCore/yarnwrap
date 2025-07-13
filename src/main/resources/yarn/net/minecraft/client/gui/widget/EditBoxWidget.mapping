@@ -50,3 +50,5 @@ CLASS net/minecraft/class_7529 net/minecraft/client/gui/widget/EditBoxWidget
 	METHOD method_44405 getText ()Ljava/lang/String;
 		COMMENT {@return the current text of the edit box}
 	METHOD method_44407 onCursorChange ()V
+	METHOD method_44408 getMaxLinesWithoutOverflow ()D
+		COMMENT {@return the maximum amount of lines the widget can hold without overflowing}

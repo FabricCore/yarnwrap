@@ -6,6 +6,8 @@ CLASS net/minecraft/class_4069 net/minecraft/client/gui/ParentElement
 		ARG 3 mouseY
 	METHOD method_20082 (DDDDLnet/minecraft/class_364;)Z
 		ARG 8 element
+	METHOD method_20083 (DDILnet/minecraft/class_364;)Z
+		ARG 5 element
 	METHOD method_25395 setFocused (Lnet/minecraft/class_364;)V
 		ARG 1 focused
 	METHOD method_25396 children ()Ljava/util/List;
@@ -32,5 +34,3 @@ CLASS net/minecraft/class_4069 net/minecraft/client/gui/ParentElement
 		ARG 2 direction
 		ARG 3 focused
 		ARG 4 navigation
-	METHOD method_48609 (Lnet/minecraft/class_364;)I
-		ARG 0 child

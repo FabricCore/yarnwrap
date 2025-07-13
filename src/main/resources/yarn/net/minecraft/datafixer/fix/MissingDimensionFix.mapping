@@ -1,4 +1,7 @@
 CLASS net/minecraft/class_5396 net/minecraft/datafixer/fix/MissingDimensionFix
+	METHOD <init> (Lcom/mojang/datafixers/schemas/Schema;Z)V
+		ARG 1 outputSchema
+		ARG 2 changesType
 	METHOD method_29909 (Lcom/mojang/datafixers/FieldFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/types/templates/CompoundList$CompoundListType;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
 		ARG 4 worldGenSettingsTyped
 	METHOD method_29910 (Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;Lcom/mojang/datafixers/types/templates/CompoundList$CompoundListType;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;
