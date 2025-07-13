@@ -1,15 +1,12 @@
 CLASS com/mojang/blaze3d/systems/RenderSystem
-	METHOD enableScissor (IIII)V
-		ARG 0 x
-		ARG 1 y
-		ARG 2 width
-		ARG 3 height
+	METHOD bindDefaultUniforms (Lcom/mojang/blaze3d/systems/RenderPass;)V
+		ARG 0 pass
 	METHOD flipFrame (JLnet/minecraft/class_10219;)V
 		ARG 0 window
 		ARG 2 capturer
 	METHOD getSequentialBuffer (Lcom/mojang/blaze3d/vertex/VertexFormat$class_5596;)Lcom/mojang/blaze3d/systems/RenderSystem$class_5590;
 		ARG 0 drawMode
-	METHOD getShaderTexture (I)Lcom/mojang/blaze3d/textures/GpuTexture;
+	METHOD getShaderTexture (I)Lcom/mojang/blaze3d/textures/GpuTextureView;
 		ARG 0 index
 	METHOD initRenderer (JIZLjava/util/function/BiFunction;Z)V
 		ARG 0 windowHandle
@@ -31,33 +28,25 @@ CLASS com/mojang/blaze3d/systems/RenderSystem
 		ARG 0 task
 	METHOD setErrorCallback (Lorg/lwjgl/glfw/GLFWErrorCallbackI;)V
 		ARG 0 callback
+	METHOD setGlobalSettingsUniform (Lcom/mojang/blaze3d/buffers/GpuBuffer;)V
+		ARG 0 globalSettingsUniform
 	METHOD setModelOffset (FFF)V
 		ARG 0 offsetX
 		ARG 1 offsetY
 		ARG 2 offsetZ
-	METHOD setProjectionMatrix (Lorg/joml/Matrix4f;Lnet/minecraft/class_10366;)V
-		ARG 0 projectionMatrix
+	METHOD setProjectionMatrix (Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lnet/minecraft/class_10366;)V
+		ARG 0 projectionMatrixBuffer
 		ARG 1 projectionType
-	METHOD setShaderColor (FFFF)V
-		ARG 0 red
-		ARG 1 green
-		ARG 2 blue
-		ARG 3 alpha
-	METHOD setShaderFog (Lnet/minecraft/class_9958;)V
+	METHOD setShaderFog (Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V
 		ARG 0 shaderFog
-	METHOD setShaderGameTime (JF)V
-		ARG 0 time
-		ARG 2 tickProgress
-	METHOD setShaderGlintAlpha (D)V
-		ARG 0 shaderGlintAlpha
-	METHOD setShaderGlintAlpha (F)V
-		ARG 0 shaderGlintAlpha
-	METHOD setShaderTexture (ILcom/mojang/blaze3d/textures/GpuTexture;)V
+	METHOD setShaderLights (Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V
+		ARG 0 shaderLightDirections
+	METHOD setShaderTexture (ILcom/mojang/blaze3d/textures/GpuTextureView;)V
 		ARG 0 index
 		ARG 1 texture
 	METHOD setTextureMatrix (Lorg/joml/Matrix4f;)V
 		ARG 0 textureMatrix
-	METHOD setupOverlayColor (Lcom/mojang/blaze3d/textures/GpuTexture;)V
+	METHOD setupOverlayColor (Lcom/mojang/blaze3d/textures/GpuTextureView;)V
 		ARG 0 texture
 	CLASS class_5590 ShapeIndexBuffer
 		COMMENT An index buffer that holds a pre-made indices for a specific shape. If

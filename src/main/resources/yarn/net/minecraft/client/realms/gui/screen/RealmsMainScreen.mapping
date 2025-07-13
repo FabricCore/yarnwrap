@@ -29,7 +29,6 @@ CLASS net/minecraft/class_4325 net/minecraft/client/realms/gui/screen/RealmsMain
 	FIELD field_45191 CLOSED_STATUS_TEXTURE Lnet/minecraft/class_2960;
 	FIELD field_45192 INVITE_ICON_TEXTURE Lnet/minecraft/class_2960;
 	FIELD field_45193 NEWS_ICON_TEXTURE Lnet/minecraft/class_2960;
-	FIELD field_45194 REALMS_TITLE_TEXTURE Lnet/minecraft/class_2960;
 	FIELD field_45195 NO_REALMS_TEXTURE Lnet/minecraft/class_2960;
 	FIELD field_45196 MENU_TEXT Lnet/minecraft/class_2561;
 	FIELD field_45197 LOADING_TEXT Lnet/minecraft/class_2561;
@@ -62,8 +61,6 @@ CLASS net/minecraft/class_4325 net/minecraft/client/realms/gui/screen/RealmsMain
 	METHOD method_20853 play (Lnet/minecraft/class_4877;Lnet/minecraft/class_437;)V
 		ARG 0 serverData
 		ARG 1 parent
-	METHOD method_20874 shouldPlayButtonBeActive (Lnet/minecraft/class_4877;)Z
-		ARG 1 server
 	METHOD method_20884 shouldRenewButtonBeActive (Lnet/minecraft/class_4877;)Z
 		ARG 1 server
 	METHOD method_20903 configureClicked (Lnet/minecraft/class_4877;)V
@@ -208,17 +205,7 @@ CLASS net/minecraft/class_4325 net/minecraft/client/realms/gui/screen/RealmsMain
 		METHOD method_38506 getRealmsServer ()Lnet/minecraft/class_4877;
 		METHOD method_52653 play ()V
 		METHOD method_52654 createRealm ()V
-		METHOD method_54566 drawDescription (Lnet/minecraft/class_332;III)V
-			ARG 1 context
-			ARG 2 y
-			ARG 3 x
-			ARG 4 entryWidth
-		METHOD method_54567 drawServerNameAndVersion (Lnet/minecraft/class_332;III)V
-			ARG 1 context
-			ARG 2 y
-			ARG 3 x
-			ARG 4 width
-		METHOD method_60862 drawPlayers (Lnet/minecraft/class_332;IIIIII)Z
+		METHOD method_60862 drawPlayers (Lnet/minecraft/class_332;IIIIIIF)Z
 			ARG 1 context
 			ARG 2 top
 			ARG 3 left
@@ -226,6 +213,7 @@ CLASS net/minecraft/class_4325 net/minecraft/client/realms/gui/screen/RealmsMain
 			ARG 5 height
 			ARG 6 mouseX
 			ARG 7 mouseY
+			ARG 8 tickProgress
 	CLASS class_4866 Entry
 		METHOD method_54345 getNameY (I)I
 			ARG 1 y
@@ -277,6 +265,19 @@ CLASS net/minecraft/class_4325 net/minecraft/client/realms/gui/screen/RealmsMain
 			ARG 1 x
 			ARG 2 width
 			ARG 3 gameMode
+		METHOD method_71040 drawServerNameAndVersion (Lnet/minecraft/class_332;IIIILnet/minecraft/class_4877;)V
+			ARG 1 context
+			ARG 2 y
+			ARG 3 x
+			ARG 4 width
+			ARG 5 color
+			ARG 6 server
+		METHOD method_71041 drawDescription (Lnet/minecraft/class_332;IIILnet/minecraft/class_4877;)V
+			ARG 1 context
+			ARG 2 y
+			ARG 3 x
+			ARG 4 width
+			ARG 5 server
 	CLASS class_8200 VisitButtonEntry
 		FIELD field_42999 button Lnet/minecraft/class_4185;
 		METHOD <init> (Lnet/minecraft/class_4325;Lnet/minecraft/class_4185;)V

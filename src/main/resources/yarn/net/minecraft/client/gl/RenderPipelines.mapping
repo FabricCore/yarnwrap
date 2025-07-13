@@ -19,7 +19,6 @@ CLASS net/minecraft/class_10799 net/minecraft/client/gl/RenderPipelines
 	FIELD field_56829 END_GATEWAY Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56830 FLAT_CLOUDS Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56831 CLOUDS Lcom/mojang/blaze3d/pipeline/RenderPipeline;
-	FIELD field_56832 CLOUDS_DEPTH_ONLY Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56833 LINES Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56834 SECOND_BLOCK_OUTLINE Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56835 LINE_STRIP Lcom/mojang/blaze3d/pipeline/RenderPipeline;
@@ -33,13 +32,7 @@ CLASS net/minecraft/class_10799 net/minecraft/client/gl/RenderPipelines
 	FIELD field_56843 OUTLINE_NO_CULL Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56844 BILT_SCREEN_LIGHTMAP Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56845 PIPELINES Ljava/util/Map;
-	FIELD field_56846 MATRICES_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
-	FIELD field_56847 FOG_NO_COLOR_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
 	FIELD field_56848 FOG_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
-	FIELD field_56849 MATRICES_COLOR_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
-	FIELD field_56850 MATRICES_COLOR_FOG_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
-	FIELD field_56851 MATRICES_COLOR_FOG_OFFSET_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
-	FIELD field_56852 MATRICES_COLOR_FOG_LIGHT_DIR_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
 	FIELD field_56853 TERRAIN_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
 	FIELD field_56854 ENTITY_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
 	FIELD field_56855 RENDERTYPE_BEACON_BEAM_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
@@ -67,11 +60,8 @@ CLASS net/minecraft/class_10799 net/minecraft/client/gl/RenderPipelines
 	FIELD field_56877 POSITION_STARS Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56878 POSITION_TEX_COLOR_CELESTIAL Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56879 GUI Lcom/mojang/blaze3d/pipeline/RenderPipeline;
-	FIELD field_56880 GUI_OVERLAY Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56881 GUI_TEXT_HIGHLIGHT Lcom/mojang/blaze3d/pipeline/RenderPipeline;
-	FIELD field_56882 GUI_GHOST_RECIPE_OVERLAY Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56883 GUI_TEXTURED Lcom/mojang/blaze3d/pipeline/RenderPipeline;
-	FIELD field_56884 GUI_TEXTURED_OVERLAY Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56885 BLOCK_SCREEN_EFFECT Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56886 FIRE_SCREEN_EFFECT Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_56887 GUI_OPAQUE_TEX_BG Lcom/mojang/blaze3d/pipeline/RenderPipeline;
@@ -106,6 +96,12 @@ CLASS net/minecraft/class_10799 net/minecraft/client/gl/RenderPipelines
 	FIELD field_56916 BEACON_BEAM_OPAQUE Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_57928 TRACY_BLIT Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 	FIELD field_57929 WIREFRAME Lcom/mojang/blaze3d/pipeline/RenderPipeline;
+	FIELD field_59968 GUI_TEXTURED_PREMULTIPLIED_ALPHA Lcom/mojang/blaze3d/pipeline/RenderPipeline;
+	FIELD field_60125 TRANSFORMS_AND_PROJECTION_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
+	FIELD field_60126 GLOBALS_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
+	FIELD field_60127 TRANSFORMS_PROJECTION_FOG_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
+	FIELD field_60128 TRANSFORMS_PROJECTION_FOG_LIGHTING_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
+	FIELD field_60794 ENTITY_EMISSIVE_SNIPPET Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;
 	METHOD method_67886 getAll ()Ljava/util/List;
 	METHOD method_67887 register (Lcom/mojang/blaze3d/pipeline/RenderPipeline;)Lcom/mojang/blaze3d/pipeline/RenderPipeline;
 		ARG 0 pipeline
