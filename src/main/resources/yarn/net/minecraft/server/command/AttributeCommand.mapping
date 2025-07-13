@@ -50,6 +50,8 @@ CLASS net/minecraft/class_5252 net/minecraft/server/command/AttributeCommand
 	METHOD method_27746 getLivingEntityWithAttribute (Lnet/minecraft/class_1297;Lnet/minecraft/class_6880;)Lnet/minecraft/class_1309;
 		ARG 0 entity
 		ARG 1 attribute
+	METHOD method_27747 (Lcom/mojang/brigadier/context/CommandContext;)I
+		ARG 0 context
 	METHOD method_27748 executeBaseValueGet (Lnet/minecraft/class_2168;Lnet/minecraft/class_1297;Lnet/minecraft/class_6880;D)I
 		ARG 0 source
 		ARG 1 target
@@ -59,6 +61,8 @@ CLASS net/minecraft/class_5252 net/minecraft/server/command/AttributeCommand
 		ARG 0 entityName
 		ARG 1 attributeName
 		ARG 2 uuid
+	METHOD method_27750 (Lcom/mojang/brigadier/context/CommandContext;)I
+		ARG 0 context
 	METHOD method_27751 executeBaseValueSet (Lnet/minecraft/class_2168;Lnet/minecraft/class_1297;Lnet/minecraft/class_6880;D)I
 		ARG 0 source
 		ARG 1 target
@@ -82,22 +86,3 @@ CLASS net/minecraft/class_5252 net/minecraft/server/command/AttributeCommand
 		ARG 0 context
 	METHOD method_45144 getName (Lnet/minecraft/class_6880;)Lnet/minecraft/class_2561;
 		ARG 0 attribute
-	METHOD method_65088 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
-		ARG 0 context
-		ARG 1 builder
-	METHOD method_65089 executeResetToBaseValue (Lnet/minecraft/class_2168;Lnet/minecraft/class_1297;Lnet/minecraft/class_6880;)I
-		ARG 0 source
-		ARG 1 target
-		ARG 2 attribute
-	METHOD method_65091 (Lcom/mojang/brigadier/context/CommandContext;)I
-		ARG 0 context
-	METHOD method_65092 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
-		ARG 0 context
-		ARG 1 builder
-	METHOD method_65093 streamModifiers (Lnet/minecraft/class_1297;Lnet/minecraft/class_6880;)Ljava/util/stream/Stream;
-		ARG 0 target
-		ARG 1 attribute
-	METHOD method_65094 (Lcom/mojang/brigadier/context/CommandContext;)I
-		ARG 0 context
-	METHOD method_65095 (Lcom/mojang/brigadier/context/CommandContext;)I
-		ARG 0 context

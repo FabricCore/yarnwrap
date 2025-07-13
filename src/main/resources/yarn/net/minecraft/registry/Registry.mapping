@@ -63,7 +63,7 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 	COMMENT the lifetime of the game. When a player joins, the server sends the contents of
 	COMMENT the dynamic registry manager to the client, but only "network serializable"
 	COMMENT registries are sent. To access a dynamic registry, first get an instance of the
-	COMMENT dynamic registry manager, then call the {@link DynamicRegistryManager#getOrThrow} method.</li>
+	COMMENT dynamic registry manager, then call the {@link DynamicRegistryManager#get} method.</li>
 	COMMENT </ul>
 	COMMENT
 	COMMENT <h2 id="using">Using Registry</h2>
@@ -73,13 +73,13 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 	COMMENT
 	COMMENT <p>There are several other methods used for reading the contents of the registry:
 	COMMENT <ul>
-	COMMENT <li>{@link #getOrThrow(RegistryKey)} or {@link #getOptional(RegistryKey)} for getting the registry entry
+	COMMENT <li>{@link #entryOf} or {@link #getEntry(RegistryKey)} for getting the registry entry
 	COMMENT from the key.</li>
-	COMMENT <li>{@link #getOptionalValue(Identifier)} or {@link #getOptionalValue(RegistryKey)} for getting the registered
+	COMMENT <li>{@link #get(Identifier)} or {@link #get(RegistryKey)} for getting the registered
 	COMMENT value from the ID or the registry key.</li>
 	COMMENT <li>{@link #getId(Object)} for getting the ID of a registered value.</li>
 	COMMENT <li>{@link #getEntry(int)} for getting the registry entry from the raw ID.</li>
-	COMMENT <li>{@link #getOptional(TagKey)} and {@link #iterateEntries} for getting the contents of a tag,</li>
+	COMMENT <li>{@link #getEntryList} and {@link #iterateEntries} for getting the contents of a tag,</li>
 	COMMENT <li>{@link #streamTags} for streaming all tags of a registry.</li>
 	COMMENT </ul>
 	COMMENT
@@ -137,9 +137,8 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 	METHOD method_10221 getId (Ljava/lang/Object;)Lnet/minecraft/class_2960;
 		COMMENT {@return the ID assigned to {@code value}, or {@code null} if it is not registered}
 		ARG 1 value
-	METHOD method_10223 getEntry (Lnet/minecraft/class_2960;)Ljava/util/Optional;
-		COMMENT {@return the reference registry entry for the value that is assigned {@code id}, or an
-		COMMENT empty optional if there is no such value}
+	METHOD method_10223 get (Lnet/minecraft/class_2960;)Ljava/lang/Object;
+		COMMENT {@return the value that is assigned {@code id}, or {@code null} if there is none}
 		ARG 1 id
 	METHOD method_10226 register (Lnet/minecraft/class_2378;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
 		ARG 0 registry
@@ -161,7 +160,7 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 	METHOD method_10250 containsId (Lnet/minecraft/class_2960;)Z
 		COMMENT {@return whether {@code id} is registered in this registry}
 		ARG 1 id
-	METHOD method_17966 getOptionalValue (Lnet/minecraft/class_2960;)Ljava/util/Optional;
+	METHOD method_17966 getOrEmpty (Lnet/minecraft/class_2960;)Ljava/util/Optional;
 		COMMENT {@return the value that is assigned {@code id}, or an empty optional if there is none}
 		ARG 1 id
 	METHOD method_29107 get (Lnet/minecraft/class_5321;)Ljava/lang/Object;
@@ -173,12 +172,15 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 	METHOD method_29722 getEntrySet ()Ljava/util/Set;
 		COMMENT {@return the set containing {@link Map.Entry} of the registry keys and values registered
 		COMMENT in this registry}
-	METHOD method_31140 getValueOrThrow (Lnet/minecraft/class_5321;)Ljava/lang/Object;
+	METHOD method_30517 getKey ()Lnet/minecraft/class_5321;
+		COMMENT {@return the registry key that identifies this registry}
+	METHOD method_31138 getLifecycle ()Lcom/mojang/serialization/Lifecycle;
+	METHOD method_31140 getOrThrow (Lnet/minecraft/class_5321;)Ljava/lang/Object;
 		COMMENT {@return the value that is assigned {@code key}}
 		COMMENT
 		COMMENT @throws IllegalStateException if there is no value with {@code key} in the registry
 		ARG 1 key
-	METHOD method_31189 getOptionalValue (Lnet/minecraft/class_5321;)Ljava/util/Optional;
+	METHOD method_31189 getOrEmpty (Lnet/minecraft/class_5321;)Ljava/util/Optional;
 		COMMENT {@return the value that is assigned {@code key}, or an empty optional if there is none}
 		ARG 1 key
 	METHOD method_34028 (Lcom/mojang/serialization/DynamicOps;Lnet/minecraft/class_2960;)Ljava/lang/Object;
@@ -197,18 +199,44 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 		COMMENT {@return the codec for serializing {@code T}}
 		COMMENT
 		COMMENT @implNote This serializes a value using the ID or (if compressed) the raw ID.
+	METHOD method_40257 populateTags (Ljava/util/Map;)V
+		ARG 1 tagEntries
+	METHOD method_40260 getOrCreateEntryList (Lnet/minecraft/class_6862;)Lnet/minecraft/class_6885$class_6888;
+		ARG 1 tag
+	METHOD method_40264 getEntry (Lnet/minecraft/class_5321;)Ljava/util/Optional;
+		COMMENT {@return the reference registry entry for the value assigned {@code key}, or an
+		COMMENT empty optional if there is no such value}
+		COMMENT
+		COMMENT @see #entryOf
+		ARG 1 key
 	METHOD method_40265 getEntry (I)Ljava/util/Optional;
 		COMMENT {@return the reference registry entry for the value assigned {@code rawId}, or an
 		COMMENT empty optional if there is no such value}
 		ARG 1 rawId
+	METHOD method_40266 getEntryList (Lnet/minecraft/class_6862;)Ljava/util/Optional;
+		COMMENT {@return the registry entry list of values that are assigned {@code tag}, or an empty
+		COMMENT optional if the tag is not known to the registry}
+		ARG 1 tag
 	METHOD method_40269 createEntry (Ljava/lang/Object;)Lnet/minecraft/class_6880$class_6883;
 		ARG 1 value
-	METHOD method_40272 streamTags ()Ljava/util/stream/Stream;
+	METHOD method_40270 streamEntries ()Ljava/util/stream/Stream;
+		COMMENT {@return a stream of reference registry entries of this registry}
+	METHOD method_40272 streamTagsAndEntries ()Ljava/util/stream/Stream;
+	METHOD method_40273 streamTags ()Ljava/util/stream/Stream;
+		COMMENT {@return a stream of all tag keys known to this registry}
 	METHOD method_40276 freeze ()Lnet/minecraft/class_2378;
+	METHOD method_40278 clearTags ()V
 	METHOD method_40286 iterateEntries (Lnet/minecraft/class_6862;)Ljava/lang/Iterable;
 		COMMENT {@return an iterable of values that are assigned {@code tag}, or an empty iterable
 		COMMENT if the tag is not known to the registry}
 		ARG 1 tag
+	METHOD method_40290 entryOf (Lnet/minecraft/class_5321;)Lnet/minecraft/class_6880$class_6883;
+		COMMENT {@return the reference registry entry for the value assigned {@code key}}
+		COMMENT
+		COMMENT @throws IllegalStateException if there is no value that is assigned {@code key}
+		COMMENT
+		COMMENT @see #getEntry(RegistryKey)
+		ARG 1 key
 	METHOD method_40294 getEntryCodec ()Lcom/mojang/serialization/Codec;
 		COMMENT {@return the codec for serializing the registry entry of {@code T}}
 		COMMENT
@@ -216,6 +244,13 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 	METHOD method_40295 getIndexedEntries ()Lnet/minecraft/class_2359;
 	METHOD method_42021 getKeys ()Ljava/util/Set;
 		COMMENT {@return the set of all registry keys registered in a registry}
+	METHOD method_46770 getEntryOwner ()Lnet/minecraft/class_7876;
+	METHOD method_46771 getReadOnlyWrapper ()Lnet/minecraft/class_7225$class_7226;
+		COMMENT {@return a registry wrapper that does not mutate the backing registry under
+		COMMENT any circumstances}
+	METHOD method_46772 getTagCreatingWrapper ()Lnet/minecraft/class_7225$class_7226;
+		COMMENT {@return a registry wrapper that creates and stores a new registry entry list
+		COMMENT when handling an unknown tag key}
 	METHOD method_47448 (Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
 		ARG 1 value
 	METHOD method_47983 getEntry (Ljava/lang/Object;)Lnet/minecraft/class_6880;
@@ -228,6 +263,8 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 		ARG 0 registry
 		ARG 1 id
 		ARG 2 entry
+	METHOD method_55841 getEntry (Lnet/minecraft/class_2960;)Ljava/util/Optional;
+		ARG 1 id
 	METHOD method_56159 getRandomEntry (Lnet/minecraft/class_6862;Lnet/minecraft/class_5819;)Ljava/util/Optional;
 		COMMENT {@return a random entry from {@code tag}, or an empty {@link Optional} if the
 		COMMENT tag is empty}
@@ -249,16 +286,6 @@ CLASS net/minecraft/class_2378 net/minecraft/registry/Registry
 	METHOD method_57065 (Lnet/minecraft/class_2960;)Lcom/mojang/serialization/DataResult;
 		ARG 1 id
 	METHOD method_60385 getDefaultEntry ()Ljava/util/Optional;
-	METHOD method_62683 startTagReload (Lnet/minecraft/class_3503$class_6863;)Lnet/minecraft/class_2378$class_10106;
-		ARG 1 tags
-	METHOD method_63535 get (Lnet/minecraft/class_2960;)Ljava/lang/Object;
-		COMMENT {@return the value that is assigned {@code id}, or {@code null} if there is none}
-		ARG 1 id
 	CLASS 1
 		METHOD method_46773 (Lnet/minecraft/class_6880$class_6883;)Lnet/minecraft/class_6880;
 			ARG 0 entry
-	CLASS class_10106 PendingTagLoad
-		METHOD method_62693 getKey ()Lnet/minecraft/class_5321;
-		METHOD method_62695 getLookup ()Lnet/minecraft/class_7225$class_7226;
-		METHOD method_62696 apply ()V
-		METHOD method_64925 size ()I

@@ -13,3 +13,5 @@ CLASS net/minecraft/class_9342 net/minecraft/datafixer/fix/ComponentFix
 		ARG 4 newComponentId
 	METHOD method_58045 fixComponent (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 		ARG 1 dynamic
+	METHOD method_58046 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ARG 1 dynamic

@@ -1,14 +1,17 @@
 CLASS net/minecraft/class_3888 net/minecraft/client/render/entity/feature/VillagerResourceMetadata
-	FIELD comp_3458 hatType Lnet/minecraft/class_3888$class_3889;
-	FIELD field_55538 CODEC Lcom/mojang/serialization/Codec;
-	FIELD field_55539 SERIALIZER Lnet/minecraft/class_7677;
+	FIELD field_17158 READER Lnet/minecraft/class_3890;
+	FIELD field_17159 hatType Lnet/minecraft/class_3888$class_3889;
+	FIELD field_32977 KEY Ljava/lang/String;
 	METHOD <init> (Lnet/minecraft/class_3888$class_3889;)V
 		ARG 1 hatType
-	METHOD comp_3458 hatType ()Lnet/minecraft/class_3888$class_3889;
-	METHOD method_65888 (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
-		ARG 0 instance
+	METHOD method_17167 getHatType ()Lnet/minecraft/class_3888$class_3889;
 	CLASS class_3889 HatType
+		FIELD field_17163 BY_NAME Ljava/util/Map;
 		FIELD field_17164 name Ljava/lang/String;
-		FIELD field_55540 CODEC Lcom/mojang/serialization/Codec;
 		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
 			ARG 3 name
+		METHOD method_17168 getName ()Ljava/lang/String;
+		METHOD method_17169 (Lnet/minecraft/class_3888$class_3889;)Lnet/minecraft/class_3888$class_3889;
+			ARG 0 hatType
+		METHOD method_17170 from (Ljava/lang/String;)Lnet/minecraft/class_3888$class_3889;
+			ARG 0 name

@@ -9,6 +9,8 @@ CLASS net/minecraft/class_4724 net/minecraft/client/render/model/SpriteAtlasMana
 		ARG 1 resourceManager
 		ARG 2 mipmapLevels
 		ARG 3 executor
+	METHOD method_45863 (Lnet/minecraft/class_3300;ILjava/util/concurrent/Executor;Ljava/util/Map$Entry;)Ljava/util/concurrent/CompletableFuture;
+		ARG 3 entry
 	METHOD method_45864 (Lnet/minecraft/class_1060;Ljava/util/Map$Entry;)Lnet/minecraft/class_4724$class_7772;
 		ARG 1 entry
 	METHOD method_45867 (Lnet/minecraft/class_4724$class_7772;Lnet/minecraft/class_7766$class_7767;)Lnet/minecraft/class_4724$class_7774;

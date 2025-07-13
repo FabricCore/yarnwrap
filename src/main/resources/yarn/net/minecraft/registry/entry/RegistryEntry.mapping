@@ -16,8 +16,8 @@ CLASS net/minecraft/class_6880 net/minecraft/registry/entry/RegistryEntry
 	COMMENT
 	COMMENT @see RegistryEntry.Direct
 	COMMENT @see RegistryEntry.Reference
-	COMMENT @see net.minecraft.registry.RegistryEntryLookup#getOrThrow
-	COMMENT @see net.minecraft.registry.RegistryEntryLookup#getOptional
+	COMMENT @see net.minecraft.registry.Registry#entryOf
+	COMMENT @see net.minecraft.registry.Registry#getEntry
 	METHOD method_40220 isIn (Lnet/minecraft/class_6862;)Z
 		COMMENT {@return whether this entry is in {@code tag}}
 		COMMENT
@@ -149,7 +149,6 @@ CLASS net/minecraft/class_6880 net/minecraft/registry/entry/RegistryEntry
 			ARG 1 registryKey
 		METHOD method_45918 setValue (Ljava/lang/Object;)V
 			ARG 1 value
-		METHOD method_62677 getTags ()Ljava/util/Set;
 		CLASS class_6884 Type
 			COMMENT The types of reference registry entries.
 			COMMENT

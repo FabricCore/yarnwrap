@@ -27,6 +27,7 @@ CLASS net/minecraft/class_621 net/minecraft/client/render/entity/model/WitherEnt
 	COMMENT </tr>
 	COMMENT </table>
 	COMMENT </div>
+	FIELD field_27532 root Lnet/minecraft/class_630;
 	FIELD field_27533 centerHead Lnet/minecraft/class_630;
 	FIELD field_27534 rightHead Lnet/minecraft/class_630;
 	FIELD field_27535 leftHead Lnet/minecraft/class_630;
@@ -42,7 +43,10 @@ CLASS net/minecraft/class_621 net/minecraft/client/render/entity/model/WitherEnt
 		COMMENT The key of the left head model part, whose value is {@value}.
 	FIELD field_32575 RIBCAGE_PITCH_OFFSET F
 	FIELD field_32576 TAIL_PITCH_OFFSET F
-	METHOD method_32066 rotateHead (Lnet/minecraft/class_10083;Lnet/minecraft/class_630;I)V
+	METHOD <init> (Lnet/minecraft/class_630;)V
+		ARG 1 root
+	METHOD method_32066 rotateHead (Lnet/minecraft/class_1528;Lnet/minecraft/class_630;I)V
+		ARG 0 entity
 		ARG 1 head
 		ARG 2 sigma
 	METHOD method_32067 getTexturedModelData (Lnet/minecraft/class_5605;)Lnet/minecraft/class_5607;

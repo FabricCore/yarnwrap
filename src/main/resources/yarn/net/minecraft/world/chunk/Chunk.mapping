@@ -39,11 +39,13 @@ CLASS net/minecraft/class_2791 net/minecraft/world/chunk/Chunk
 	METHOD method_12006 getSectionArray ()[Lnet/minecraft/class_2826;
 	METHOD method_12007 setBlockEntity (Lnet/minecraft/class_2586;)V
 		ARG 1 blockEntity
+	METHOD method_12008 setNeedsSaving (Z)V
+		ARG 1 needsSaving
 	METHOD method_12009 getStatus ()Lnet/minecraft/class_2806;
-	METHOD method_12010 setBlockState (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;I)Lnet/minecraft/class_2680;
+	METHOD method_12010 setBlockState (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Z)Lnet/minecraft/class_2680;
 		ARG 1 pos
 		ARG 2 state
-		ARG 3 flags
+		ARG 3 moved
 	METHOD method_12011 getHeightmaps ()Ljava/util/Collection;
 	METHOD method_12012 getPostProcessingLists ()[Lit/unimi/dsi/fastutil/shorts/ShortList;
 	METHOD method_12013 getBlockTickScheduler ()Lnet/minecraft/class_6763;
@@ -59,8 +61,8 @@ CLASS net/minecraft/class_2791 net/minecraft/world/chunk/Chunk
 		ARG 1 index
 	METHOD method_12028 setInhabitedTime (J)V
 		ARG 1 inhabitedTime
-	METHOD method_12029 markBlocksForPostProcessing (Lit/unimi/dsi/fastutil/shorts/ShortList;I)V
-		ARG 1 packedPositions
+	METHOD method_12029 markBlockForPostProcessing (SI)V
+		ARG 1 packedPos
 		ARG 2 index
 	METHOD method_12031 getHighestNonEmptySectionYOffset ()I
 	METHOD method_12032 getHeightmap (Lnet/minecraft/class_2902$class_2903;)Lnet/minecraft/class_2902;
@@ -85,7 +87,7 @@ CLASS net/minecraft/class_2791 net/minecraft/world/chunk/Chunk
 		ARG 2 upperHeight
 	METHOD method_20598 getPackedBlockEntityNbt (Lnet/minecraft/class_2338;Lnet/minecraft/class_7225$class_7874;)Lnet/minecraft/class_2487;
 		ARG 1 pos
-		ARG 2 registries
+		ARG 2 registryLookup
 	METHOD method_32914 getGameEventDispatcher (I)Lnet/minecraft/class_5713;
 		ARG 1 ySectionCoord
 	METHOD method_38255 getOrCreateChunkNoiseSampler (Ljava/util/function/Function;)Lnet/minecraft/class_6568;
@@ -103,12 +105,13 @@ CLASS net/minecraft/class_2791 net/minecraft/world/chunk/Chunk
 	METHOD method_38261 (Lnet/minecraft/class_3195;)Lit/unimi/dsi/fastutil/longs/LongSet;
 		ARG 0 type2
 	METHOD method_38870 increaseInhabitedTime (J)V
-		ARG 1 timeDelta
+		ARG 1 delta
 	METHOD method_38871 hasStructureReferences ()Z
+	METHOD method_39294 setBlendingData (Lnet/minecraft/class_6749;)V
+		ARG 1 blendingData
 	METHOD method_39295 hasHeightmap (Lnet/minecraft/class_2902$class_2903;)Z
 		ARG 1 type
-	METHOD method_39296 getTickSchedulers (J)Lnet/minecraft/class_2791$class_6745;
-		ARG 1 time
+	METHOD method_39296 getTickSchedulers ()Lnet/minecraft/class_2791$class_6745;
 	METHOD method_39297 usesOldNoise ()Z
 	METHOD method_39299 getBlendingData ()Lnet/minecraft/class_6749;
 	METHOD method_39300 getBelowZeroRetrogen ()Lnet/minecraft/class_6746;
@@ -126,10 +129,4 @@ CLASS net/minecraft/class_2791 net/minecraft/world/chunk/Chunk
 		COMMENT {@return the chunk status or the target status for the retrogen, whichever is later}
 	METHOD method_60791 isSectionEmpty (I)Z
 		ARG 1 sectionCoord
-	METHOD method_65063 markNeedsSaving ()V
-	METHOD method_65064 tryMarkSaved ()Z
-	METHOD method_65069 isSerializable ()Z
-	METHOD method_66480 setBlockState (Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Lnet/minecraft/class_2680;
-		ARG 1 pos
-		ARG 2 state
 	CLASS class_6745 TickSchedulers

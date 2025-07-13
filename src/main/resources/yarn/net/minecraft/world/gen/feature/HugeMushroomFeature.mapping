@@ -24,7 +24,3 @@ CLASS net/minecraft/class_4625 net/minecraft/world/gen/feature/HugeMushroomFeatu
 		ARG 6 mutablePos
 	METHOD method_23377 getHeight (Lnet/minecraft/class_5819;)I
 		ARG 1 random
-	METHOD method_66481 generateStem (Lnet/minecraft/class_1936;Lnet/minecraft/class_2338$class_2339;Lnet/minecraft/class_2680;)V
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 state

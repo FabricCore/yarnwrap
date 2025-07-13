@@ -1,6 +1,8 @@
-CLASS net/minecraft/class_10594 net/minecraft/block/FlowerbedBlock
-	FIELD field_55761 CODEC Lcom/mojang/serialization/MapCodec;
-	FIELD field_55762 HORIZONTAL_FACING Lnet/minecraft/class_2754;
-	FIELD field_55763 FLOWER_AMOUNT Lnet/minecraft/class_2758;
-	FIELD field_55764 shapeFunction Ljava/util/function/Function;
-	METHOD method_66435 createShapeFunction ()Ljava/util/function/Function;
+CLASS net/minecraft/class_8169 net/minecraft/block/FlowerbedBlock
+	FIELD field_42764 FACING Lnet/minecraft/class_2753;
+	FIELD field_42765 FLOWER_AMOUNT Lnet/minecraft/class_2758;
+	FIELD field_45146 FACING_AND_AMOUNT_TO_SHAPE Ljava/util/function/BiFunction;
+	FIELD field_46409 CODEC Lcom/mojang/serialization/MapCodec;
+	METHOD method_52574 (Lnet/minecraft/class_2350;Ljava/lang/Integer;)Lnet/minecraft/class_265;
+		ARG 0 facing
+		ARG 1 flowerAmount

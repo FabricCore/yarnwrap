@@ -1,11 +1,29 @@
-CLASS net/minecraft/class_10178 net/minecraft/util/thread/TaskExecutor
-	METHOD method_16211 createTask (Ljava/lang/Runnable;)Ljava/lang/Runnable;
-		ARG 1 runnable
-	METHOD method_16898 getName ()Ljava/lang/String;
-	METHOD method_63588 send (Ljava/lang/Runnable;)V
-		ARG 1 runnable
-	METHOD method_63602 of (Ljava/lang/String;Ljava/util/concurrent/Executor;)Lnet/minecraft/class_10178;
-		ARG 0 name
-		ARG 1 executor
-	METHOD method_63603 executeAsync (Ljava/util/function/Consumer;)Ljava/util/concurrent/CompletableFuture;
-		ARG 1 future
+CLASS net/minecraft/class_3846 net/minecraft/util/thread/TaskExecutor
+	FIELD field_17039 queue Lnet/minecraft/class_3847;
+	FIELD field_17040 LOGGER Lorg/slf4j/Logger;
+	FIELD field_17041 stateFlags Ljava/util/concurrent/atomic/AtomicInteger;
+	FIELD field_17042 executor Ljava/util/concurrent/Executor;
+	FIELD field_17043 name Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/class_3847;Ljava/util/concurrent/Executor;Ljava/lang/String;)V
+		ARG 1 queue
+		ARG 2 executor
+		ARG 3 name
+	METHOD method_16899 (I)Z
+		ARG 0 runCount
+	METHOD method_16900 runWhile (Lit/unimi/dsi/fastutil/ints/Int2BooleanFunction;)I
+		ARG 1 condition
+			COMMENT checks whether to run another task given the run task count
+	METHOD method_16902 create (Ljava/util/concurrent/Executor;Ljava/lang/String;)Lnet/minecraft/class_3846;
+		ARG 0 executor
+		ARG 1 name
+	METHOD method_16903 unpause ()Z
+	METHOD method_16904 pause ()V
+	METHOD method_16905 hasMessages ()Z
+	METHOD method_16906 isUnpaused ()Z
+	METHOD method_16907 runNext ()Z
+	METHOD method_16908 execute ()V
+	METHOD method_34996 getQueueSize ()I
+	METHOD method_37477 awaitAll ()V
+	METHOD method_37478 (I)Z
+		ARG 0 runCount
+	METHOD method_40001 hasQueuedTasks ()Z

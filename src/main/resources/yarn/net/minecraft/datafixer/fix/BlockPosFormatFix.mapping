@@ -16,6 +16,8 @@ CLASS net/minecraft/class_9230 net/minecraft/datafixer/fix/BlockPosFormatFix
 		ARG 0 entityDynamic
 	METHOD method_56963 addBlockEntityFixes (Ljava/util/List;)V
 		ARG 1 rules
+	METHOD method_56964 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ARG 0 tagDynamic
 	METHOD method_56966 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
 		ARG 0 banners
 	METHOD method_56967 (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;

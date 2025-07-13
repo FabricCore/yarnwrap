@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_3008 net/minecraft/server/command/AdvancementCommand
+	FIELD field_13453 SUGGESTION_PROVIDER Lcom/mojang/brigadier/suggestion/SuggestionProvider;
 	FIELD field_47182 GENERIC_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD field_47183 CRITERION_NOT_FOUND_EXCEPTION Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;
 	METHOD method_12978 (Lcom/mojang/brigadier/context/CommandContext;)I
@@ -23,12 +24,14 @@ CLASS net/minecraft/class_3008 net/minecraft/server/command/AdvancementCommand
 		ARG 0 context
 	METHOD method_12986 (Lcom/mojang/brigadier/context/CommandContext;)I
 		ARG 0 context
-	METHOD method_12988 executeAdvancement (Lnet/minecraft/class_2168;Ljava/util/Collection;Lnet/minecraft/class_3008$class_3009;Ljava/util/Collection;Z)I
+	METHOD method_12987 (Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;
+		ARG 0 context
+		ARG 1 builder
+	METHOD method_12988 executeAdvancement (Lnet/minecraft/class_2168;Ljava/util/Collection;Lnet/minecraft/class_3008$class_3009;Ljava/util/Collection;)I
 		ARG 0 source
 		ARG 1 targets
 		ARG 2 operation
 		ARG 3 selection
-		ARG 4 skipSync
 	METHOD method_12989 (Lcom/mojang/brigadier/context/CommandContext;)I
 		ARG 0 context
 	METHOD method_12990 addChildrenRecursivelyToList (Lnet/minecraft/class_8781;Ljava/util/List;)V
@@ -59,19 +62,13 @@ CLASS net/minecraft/class_3008 net/minecraft/server/command/AdvancementCommand
 	METHOD method_54924 (Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
 		ARG 0 advancement
 		ARG 1 criterion
-	METHOD method_65972 executeAdvancement (Lnet/minecraft/class_2168;Ljava/util/Collection;Lnet/minecraft/class_3008$class_3009;Ljava/util/Collection;)I
-		ARG 0 source
-		ARG 1 targets
-		ARG 2 operation
-		ARG 3 selection
 	CLASS class_3009 Operation
 		FIELD field_13454 commandPrefix Ljava/lang/String;
 		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
 			ARG 3 name
-		METHOD method_12999 processAll (Lnet/minecraft/class_3222;Ljava/lang/Iterable;Z)I
+		METHOD method_12999 processAll (Lnet/minecraft/class_3222;Ljava/lang/Iterable;)I
 			ARG 1 player
 			ARG 2 advancements
-			ARG 3 skipSync
 		METHOD method_13000 processEachCriterion (Lnet/minecraft/class_3222;Lnet/minecraft/class_8779;Ljava/lang/String;)Z
 			ARG 1 player
 			ARG 2 advancement

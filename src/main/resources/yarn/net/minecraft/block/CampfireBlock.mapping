@@ -3,7 +3,7 @@ CLASS net/minecraft/class_3922 net/minecraft/block/CampfireBlock
 	FIELD field_17352 LIT Lnet/minecraft/class_2746;
 	FIELD field_17353 SIGNAL_FIRE Lnet/minecraft/class_2746;
 	FIELD field_17354 WATERLOGGED Lnet/minecraft/class_2746;
-	FIELD field_17564 FACING Lnet/minecraft/class_2754;
+	FIELD field_17564 FACING Lnet/minecraft/class_2753;
 	FIELD field_21580 SMOKEY_SHAPE Lnet/minecraft/class_265;
 		COMMENT The shape used to test whether a given block is considered 'smokey'.
 	FIELD field_23881 emitsParticles Z
@@ -40,8 +40,3 @@ CLASS net/minecraft/class_3922 net/minecraft/block/CampfireBlock
 		ARG 0 block
 	METHOD method_53988 (Lnet/minecraft/class_3922;)Ljava/lang/Boolean;
 		ARG 0 block
-	METHOD method_64781 (Lnet/minecraft/class_3218;Lnet/minecraft/class_1863$class_7266;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_3924;)V
-		ARG 2 world
-		ARG 3 pos
-		ARG 4 state
-		ARG 5 blockEntity

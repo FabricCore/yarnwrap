@@ -91,6 +91,8 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 		COMMENT net.minecraft.util.math.BlockPos, net.minecraft.block.BlockState) block} the player is looking at.
 		COMMENT Bound to {@linkplain org.lwjgl.glfw.GLFW#GLFW_MOUSE_BUTTON_MIDDLE the middle mouse button} by default.
 	FIELD field_1872 overrideWidth I
+	FIELD field_18725 backgroundForChatOnly Lnet/minecraft/class_7172;
+	FIELD field_18726 textBackgroundOpacity Lnet/minecraft/class_7172;
 	FIELD field_1873 autoSuggestions Lnet/minecraft/class_7172;
 	FIELD field_1874 loadToolbarActivatorKey Lnet/minecraft/class_304;
 		COMMENT A key binding for loading the hotbar items in {@linkplain net.minecraft.world.GameMode#CREATIVE creative mode}.
@@ -150,8 +152,6 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 	FIELD field_1914 smoothCameraEnabled Z
 	FIELD field_1915 chatWidth Lnet/minecraft/class_7172;
 	FIELD field_1916 soundVolumeLevels Ljava/util/Map;
-	FIELD field_18725 backgroundForChatOnly Lnet/minecraft/class_7172;
-	FIELD field_18726 textBackgroundOpacity Lnet/minecraft/class_7172;
 	FIELD field_19244 discreteMouseScroll Lnet/minecraft/class_7172;
 	FIELD field_20308 rawMouseInput Lnet/minecraft/class_7172;
 	FIELD field_21332 sneakToggled Lnet/minecraft/class_7172;
@@ -170,6 +170,7 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 		COMMENT A key binding for opening {@linkplain net.minecraft.client.gui.screen.multiplayer.SocialInteractionsScreen the social interactions screen}.
 		COMMENT Bound to {@linkplain org.lwjgl.glfw.GLFW#GLFW_KEY_P the P key} by default.
 	FIELD field_26926 hideMatchedNames Lnet/minecraft/class_7172;
+	FIELD field_28777 hideBundleTutorial Z
 	FIELD field_32156 monochromeLogo Lnet/minecraft/class_7172;
 	FIELD field_34783 soundDevice Lnet/minecraft/class_7172;
 	FIELD field_34784 serverViewDistance I
@@ -198,7 +199,7 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 	FIELD field_38297 TOGGLE_KEY_TEXT Lnet/minecraft/class_2561;
 	FIELD field_38298 HOLD_KEY_TEXT Lnet/minecraft/class_2561;
 	FIELD field_38299 HIDE_MATCHED_NAMES_TOOLTIP Lnet/minecraft/class_2561;
-	FIELD field_38300 MAX_FPS_LIMIT I
+	FIELD field_38300 MAX_FRAMERATE I
 	FIELD field_39320 ONLY_SHOW_SECURE_CHAT_TOOLTIP Lnet/minecraft/class_2561;
 	FIELD field_39321 onlyShowSecureChat Lnet/minecraft/class_7172;
 	FIELD field_40382 panoramaSpeed Lnet/minecraft/class_7172;
@@ -225,14 +226,6 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 	FIELD field_49475 DEFAULT_MENU_BACKGROUND_BLURRINESS I
 	FIELD field_49476 menuBackgroundBlurriness Lnet/minecraft/class_7172;
 	FIELD field_52127 REALMS_NOTIFICATIONS_TOOLTIP Lnet/minecraft/class_2561;
-	FIELD field_52758 INACTIVITY_FPS_LIMIT_MINIMIZED_TOOLTIP Lnet/minecraft/class_2561;
-	FIELD field_52759 INACTIVITY_FPS_LIMIT_AFK_TOOLTIP Lnet/minecraft/class_2561;
-	FIELD field_52760 inactivityFpsLimit Lnet/minecraft/class_7172;
-	FIELD field_52761 ROTATE_WITH_MINECART_TOOLTIP Lnet/minecraft/class_2561;
-	FIELD field_52762 rotateWithMinecart Lnet/minecraft/class_7172;
-	FIELD field_54812 HIGH_CONTRAST_BLOCK_OUTLINE_TOOLTIP Lnet/minecraft/class_2561;
-	FIELD field_54813 highContrastBlockOutline Lnet/minecraft/class_7172;
-	FIELD field_55851 startedCleanly Z
 	METHOD <init> (Lnet/minecraft/class_310;Ljava/io/File;)V
 		ARG 1 client
 		ARG 2 optionsFile
@@ -242,6 +235,9 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 		ARG 1 manager
 	METHOD method_1630 getSoundVolume (Lnet/minecraft/class_3419;)F
 		ARG 1 category
+	METHOD method_1631 togglePlayerModelPart (Lnet/minecraft/class_1664;Z)V
+		ARG 1 part
+		ARG 2 enabled
 	METHOD method_1632 getCloudRenderModeValue ()Lnet/minecraft/class_4063;
 	METHOD method_1635 setPlayerModelPart (Lnet/minecraft/class_1664;Z)V
 		ARG 1 part
@@ -249,6 +245,9 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 	METHOD method_1636 load ()V
 	METHOD method_1639 shouldUseNativeTransport ()Z
 	METHOD method_1640 write ()V
+	METHOD method_1641 setKeyCode (Lnet/minecraft/class_304;Lnet/minecraft/class_3675$class_306;)V
+		ARG 1 key
+		ARG 2 code
 	METHOD method_1643 sendClientSettings ()V
 		COMMENT Sends the current client settings to the server if the client is
 		COMMENT connected to a server.
@@ -377,6 +376,8 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 	METHOD method_42452 getShowAutosaveIndicator ()Lnet/minecraft/class_7172;
 	METHOD method_42453 getDistortionEffectScale ()Lnet/minecraft/class_7172;
 	METHOD method_42454 getFovEffectScale ()Lnet/minecraft/class_7172;
+	METHOD method_42455 (Lnet/minecraft/class_1306;)V
+		ARG 1 value
 	METHOD method_42456 (Lnet/minecraft/class_1659;)V
 		ARG 0 value
 	METHOD method_42458 (Lnet/minecraft/class_4061;)V
@@ -473,6 +474,8 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 	METHOD method_42532 (Ljava/lang/Integer;)Ljava/lang/Double;
 		ARG 0 value
 	METHOD method_42534 getGraphicsMode ()Lnet/minecraft/class_7172;
+	METHOD method_42535 (Ljava/lang/Boolean;)V
+		ARG 1 value
 	METHOD method_42536 (Ljava/lang/Double;)Ljava/lang/Integer;
 		ARG 0 value
 	METHOD method_42537 (Ljava/lang/Boolean;)V
@@ -528,6 +531,8 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 	METHOD method_45576 createSoundVolumeOption (Ljava/lang/String;Lnet/minecraft/class_3419;)Lnet/minecraft/class_7172;
 		ARG 1 key
 		ARG 2 category
+	METHOD method_45577 (Ljava/util/EnumMap;)V
+		ARG 1 soundVolumeLevels
 	METHOD method_45578 getSoundVolumeOption (Lnet/minecraft/class_3419;)Lnet/minecraft/class_7172;
 		ARG 1 category
 	METHOD method_45580 (Ljava/lang/Double;)V
@@ -593,12 +598,6 @@ CLASS net/minecraft/class_315 net/minecraft/client/option/GameOptions
 		ARG 0 prefix
 		ARG 1 value
 	METHOD method_61127 setAccessibilityOnboarded ()V
-	METHOD method_61967 getRotateWithMinecart ()Lnet/minecraft/class_7172;
-	METHOD method_61969 (Lnet/minecraft/class_9927;)Lnet/minecraft/class_7919;
-		ARG 0 option
-	METHOD method_61970 getInactivityFpsLimit ()Lnet/minecraft/class_7172;
-	METHOD method_64858 getHighContrastBlockOutline ()Lnet/minecraft/class_7172;
-	METHOD method_66523 getFullscreenResolution ()Ljava/lang/String;
 	CLASS 2
 		METHOD method_33676 find (Ljava/lang/String;)Ljava/lang/String;
 			ARG 1 key

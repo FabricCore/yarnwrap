@@ -14,6 +14,11 @@ CLASS net/minecraft/class_9066 net/minecraft/entity/EntityAttachments
 	METHOD method_55676 rotatePoint (Lnet/minecraft/class_243;F)Lnet/minecraft/class_243;
 		ARG 0 point
 		ARG 1 yaw
+	METHOD method_55677 scalePoints (Ljava/util/List;FFF)Ljava/util/List;
+		ARG 0 points
+		ARG 1 xScale
+		ARG 2 yScale
+		ARG 3 zScale
 	METHOD method_55678 getPoint (Lnet/minecraft/class_9064;IF)Lnet/minecraft/class_243;
 		ARG 1 type
 		ARG 2 index
@@ -25,8 +30,6 @@ CLASS net/minecraft/class_9066 net/minecraft/entity/EntityAttachments
 	METHOD method_55844 of (FF)Lnet/minecraft/class_9066;
 		ARG 0 width
 		ARG 1 height
-	METHOD method_66251 (FFFLnet/minecraft/class_9064;)Ljava/util/List;
-		ARG 4 type
 	CLASS class_9067 Builder
 		FIELD field_47753 points Ljava/util/Map;
 		METHOD method_55680 build (FF)Lnet/minecraft/class_9066;
@@ -42,5 +45,3 @@ CLASS net/minecraft/class_9066 net/minecraft/entity/EntityAttachments
 		METHOD method_55683 add (Lnet/minecraft/class_9064;Lnet/minecraft/class_243;)Lnet/minecraft/class_9066$class_9067;
 			ARG 1 type
 			ARG 2 point
-		METHOD method_66252 (FFLnet/minecraft/class_9064;)Ljava/util/List;
-			ARG 3 type

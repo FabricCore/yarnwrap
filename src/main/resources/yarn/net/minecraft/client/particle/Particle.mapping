@@ -7,7 +7,11 @@ CLASS net/minecraft/class_703 net/minecraft/client/particle/Particle
 	COMMENT
 	COMMENT <p>
 	COMMENT If you would like a particle with no direct rendering effects, inherit from {@link NoRenderParticle}.
-	FIELD field_3838 lastY D
+	FIELD field_21507 stopped Z
+	FIELD field_28786 velocityMultiplier F
+	FIELD field_28787 ascending Z
+	FIELD field_36193 MAX_SQUARED_COLLISION_CHECK_DISTANCE D
+	FIELD field_3838 prevPosY D
 	FIELD field_3839 angle F
 	FIELD field_3840 random Lnet/minecraft/class_5819;
 	FIELD field_3841 alpha F
@@ -21,9 +25,9 @@ CLASS net/minecraft/class_703 net/minecraft/client/particle/Particle
 	FIELD field_3851 world Lnet/minecraft/class_638;
 	FIELD field_3852 velocityX D
 	FIELD field_3854 y D
-	FIELD field_3856 lastZ D
-	FIELD field_3857 lastAngle F
-	FIELD field_3858 lastX D
+	FIELD field_3856 prevPosZ D
+	FIELD field_3857 prevAngle F
+	FIELD field_3858 prevPosX D
 	FIELD field_3859 blue F
 	FIELD field_3860 EMPTY_BOUNDING_BOX Lnet/minecraft/class_238;
 	FIELD field_3861 red F
@@ -34,10 +38,6 @@ CLASS net/minecraft/class_703 net/minecraft/client/particle/Particle
 	FIELD field_3871 z D
 	FIELD field_3872 boundingBox Lnet/minecraft/class_238;
 	FIELD field_3874 x D
-	FIELD field_21507 stopped Z
-	FIELD field_28786 velocityMultiplier F
-	FIELD field_28787 ascending Z
-	FIELD field_36193 MAX_SQUARED_COLLISION_CHECK_DISTANCE D
 	METHOD <init> (Lnet/minecraft/class_638;DDD)V
 		ARG 1 world
 		ARG 2 x
@@ -51,6 +51,11 @@ CLASS net/minecraft/class_703 net/minecraft/client/particle/Particle
 		ARG 8 velocityX
 		ARG 10 velocityY
 		ARG 12 velocityZ
+	METHOD method_18122 getType ()Lnet/minecraft/class_3999;
+		COMMENT {@return the rendering category this particle is rendered under}
+		COMMENT
+		COMMENT <p>
+		COMMENT For more information on the properties and types available to each {@code Particle}, visit {@link ParticleTextureSheet}.
 	METHOD method_3063 setPos (DDD)V
 		COMMENT Updates the position and bounding box of this particle to the target {@code x}, {@code y}, {@code z} position.
 		ARG 1 x
@@ -84,15 +89,14 @@ CLASS net/minecraft/class_703 net/minecraft/client/particle/Particle
 	METHOD method_3070 tick ()V
 		COMMENT Called each game tick (20 times per second), and should be used to do core particle logic, such as movement and collision.
 	METHOD method_3072 repositionFromBoundingBox ()V
-	METHOD method_3074 render (Lnet/minecraft/class_4588;Lnet/minecraft/class_4184;F)V
+	METHOD method_3074 buildGeometry (Lnet/minecraft/class_4588;Lnet/minecraft/class_4184;F)V
 		COMMENT Renders this particle to the given {@link VertexConsumer} buffer.
-		COMMENT Particles using the {@link ParticleTextureSheet#CUSTOM} sheet should implement this
-		COMMENT with an empty method, and instead render in {@link #renderCustom}.
 		ARG 1 vertexConsumer
 			COMMENT the buffer to render to
 		ARG 2 camera
 			COMMENT the current active game {@link Camera}
-		ARG 3 tickProgress
+		ARG 3 tickDelta
+			COMMENT frame tick delta amount
 	METHOD method_3075 move (F)Lnet/minecraft/class_703;
 		COMMENT Multiplies this particle's current velocity by the target {@code speed} amount.
 		ARG 1 speed
@@ -137,11 +141,6 @@ CLASS net/minecraft/class_703 net/minecraft/client/particle/Particle
 		COMMENT @return this particle
 		ARG 1 scale
 			COMMENT the amount to scale this particle's size by
-	METHOD method_18122 getType ()Lnet/minecraft/class_3999;
-		COMMENT {@return the rendering category this particle is rendered under}
-		COMMENT
-		COMMENT <p>
-		COMMENT For more information on the properties and types available to each {@code Particle}, visit {@link ParticleTextureSheet}.
 	METHOD method_34019 getGroup ()Ljava/util/Optional;
 		COMMENT {@return the optional group that this particle belongs to}
 		COMMENT
@@ -156,17 +155,10 @@ CLASS net/minecraft/class_703 net/minecraft/client/particle/Particle
 			COMMENT the new y-velocity of this particle
 		ARG 5 velocityZ
 			COMMENT the new z-velocity of this particle
-	METHOD method_65198 renderCustom (Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;Lnet/minecraft/class_4184;F)V
-		COMMENT Renders this particle to the given {@link VertexConsumer} buffer.
-		COMMENT This is only used by particles using the {@link ParticleTextureSheet#CUSTOM} sheet.
-		ARG 1 matrices
-		ARG 2 vertexConsumers
-		ARG 3 camera
-		ARG 4 tickProgress
 	CLASS class_9213 DynamicAlpha
 		FIELD field_48941 OPAQUE Lnet/minecraft/class_703$class_9213;
 		METHOD method_56833 isOpaque ()Z
 		METHOD method_56834 getAlpha (IIF)F
 			ARG 1 age
 			ARG 2 maxAge
-			ARG 3 tickProgress
+			ARG 3 tickDelta

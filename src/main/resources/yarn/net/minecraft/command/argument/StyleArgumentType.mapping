@@ -1,10 +1,9 @@
 CLASS net/minecraft/class_9019 net/minecraft/command/argument/StyleArgumentType
+	FIELD field_47553 INVALID_STYLE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD field_47554 EXAMPLES Ljava/util/Collection;
-	FIELD field_55866 INVALID_STYLE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
-	FIELD field_57922 PARSER Lnet/minecraft/class_10846;
-	FIELD field_58154 OPS Lcom/mojang/serialization/DynamicOps;
+	FIELD field_48932 registryLookup Lnet/minecraft/class_7225$class_7874;
 	METHOD <init> (Lnet/minecraft/class_7225$class_7874;)V
-		ARG 1 registries
+		ARG 1 registryLookup
 	METHOD method_55446 style (Lnet/minecraft/class_7157;)Lnet/minecraft/class_9019;
 		ARG 0 registryAccess
 	METHOD method_55448 getStyle (Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/class_2583;
@@ -12,3 +11,5 @@ CLASS net/minecraft/class_9019 net/minecraft/command/argument/StyleArgumentType
 		ARG 1 style
 	METHOD method_55449 (Ljava/lang/Object;)Lcom/mojang/brigadier/Message;
 		ARG 0 style
+	METHOD parse (Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;
+		ARG 1 reader

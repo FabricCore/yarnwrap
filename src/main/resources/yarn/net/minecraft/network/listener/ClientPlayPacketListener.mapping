@@ -26,6 +26,8 @@ CLASS net/minecraft/class_2602 net/minecraft/network/listener/ClientPlayPacketLi
 		ARG 1 packet
 	METHOD method_11090 onCraftFailedResponse (Lnet/minecraft/class_2695;)V
 		ARG 1 packet
+	METHOD method_11091 onExperienceOrbSpawn (Lnet/minecraft/class_2606;)V
+		ARG 1 packet
 	METHOD method_11092 onLookAt (Lnet/minecraft/class_2707;)V
 		ARG 1 packet
 	METHOD method_11093 onEntityTrackerUpdate (Lnet/minecraft/class_2739;)V
@@ -63,7 +65,7 @@ CLASS net/minecraft/class_2602 net/minecraft/network/listener/ClientPlayPacketLi
 		ARG 1 packet
 	METHOD method_11113 onPlayerList (Lnet/minecraft/class_2703;)V
 		ARG 1 packet
-	METHOD method_11115 onRecipeBookRemove (Lnet/minecraft/class_10268;)V
+	METHOD method_11115 onUnlockRecipes (Lnet/minecraft/class_2713;)V
 		ARG 1 packet
 	METHOD method_11116 onBlockBreakingProgress (Lnet/minecraft/class_2620;)V
 		ARG 1 packet
@@ -216,20 +218,4 @@ CLASS net/minecraft/class_2602 net/minecraft/network/listener/ClientPlayPacketLi
 	METHOD method_56607 onDebugSample (Lnet/minecraft/class_9178;)V
 		ARG 1 packet
 	METHOD method_59504 onProjectilePower (Lnet/minecraft/class_9632;)V
-		ARG 1 packet
-	METHOD method_61186 onMoveMinecartAlongTrack (Lnet/minecraft/class_9833;)V
-		ARG 1 packet
-	METHOD method_61187 onSetCursorItem (Lnet/minecraft/class_9834;)V
-		ARG 1 packet
-	METHOD method_61188 onSetPlayerInventory (Lnet/minecraft/class_9835;)V
-		ARG 1 packet
-	METHOD method_64553 onEntityPositionSync (Lnet/minecraft/class_10264;)V
-		ARG 1 packet
-	METHOD method_64554 onPlayerRotation (Lnet/minecraft/class_10265;)V
-		ARG 1 packet
-	METHOD method_64555 onRecipeBookAdd (Lnet/minecraft/class_10266;)V
-		ARG 1 packet
-	METHOD method_64556 onRecipeBookSettings (Lnet/minecraft/class_10269;)V
-		ARG 1 packet
-	METHOD method_66579 onTestInstanceBlockStatus (Lnet/minecraft/class_10614;)V
 		ARG 1 packet
