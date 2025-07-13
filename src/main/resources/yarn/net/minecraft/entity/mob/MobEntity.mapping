@@ -22,7 +22,7 @@ CLASS net/minecraft/class_1308 net/minecraft/entity/mob/MobEntity
 	FIELD field_6206 lookControl Lnet/minecraft/class_1333;
 	FIELD field_6207 moveControl Lnet/minecraft/class_1335;
 	FIELD field_18074 positionTarget Lnet/minecraft/class_2338;
-	FIELD field_18075 positionTargetRange F
+	FIELD field_18075 positionTargetRange I
 	FIELD field_30083 DEFAULT_CAN_PICKUP_LOOT_CHANCE F
 		COMMENT Used by Zombies to control the chance that they spawn with the ability to pick up loot.
 		COMMENT
@@ -56,6 +56,10 @@ CLASS net/minecraft/class_1308 net/minecraft/entity/mob/MobEntity
 	FIELD field_57592 DEFAULT_PERSISTENCE_REQUIRED Z
 	FIELD field_57593 DEFAULT_LEFT_HANDED Z
 	FIELD field_57594 DEFAULT_NO_AI Z
+	FIELD field_60545 DROP_CHANCES_KEY Ljava/lang/String;
+	FIELD field_60546 LEFT_HANDED_KEY Ljava/lang/String;
+	FIELD field_60547 CAN_PICK_UP_LOOT_KEY Ljava/lang/String;
+	FIELD field_60548 NO_AI_KEY Ljava/lang/String;
 	METHOD method_5930 setForwardSpeed (F)V
 		ARG 1 forwardSpeed
 	METHOD method_5937 setLeftHanded (Z)V
@@ -169,16 +173,16 @@ CLASS net/minecraft/class_1308 net/minecraft/entity/mob/MobEntity
 	METHOD method_18249 onPlayerSpawnedChild (Lnet/minecraft/class_1657;Lnet/minecraft/class_1308;)V
 		ARG 1 player
 		ARG 2 child
-	METHOD method_18407 isInWalkTargetRange (Lnet/minecraft/class_2338;)Z
+	METHOD method_18407 isInPositionTargetRange (Lnet/minecraft/class_2338;)Z
 		ARG 1 pos
 	METHOD method_18408 setPositionTarget (Lnet/minecraft/class_2338;I)V
 		ARG 1 target
 		ARG 2 range
 	METHOD method_18409 sendAiDebugData ()V
 	METHOD method_18410 hasPositionTarget ()Z
-	METHOD method_18411 isInWalkTargetRange ()Z
+	METHOD method_18411 isInPositionTargetRange ()Z
 	METHOD method_18412 getPositionTarget ()Lnet/minecraft/class_2338;
-	METHOD method_18413 getPositionTargetRange ()F
+	METHOD method_18413 getPositionTargetRange ()I
 	METHOD method_19540 setAttacking (Z)V
 		ARG 1 attacking
 	METHOD method_20240 getMaxLookYawChange ()I
@@ -305,3 +309,10 @@ CLASS net/minecraft/class_1308 net/minecraft/entity/mob/MobEntity
 	METHOD method_66672 hasSaddleEquipped ()Z
 	METHOD method_66674 createEquipmentInventory (Lnet/minecraft/class_1304;)Lnet/minecraft/class_1263;
 		ARG 1 slot
+	METHOD method_70676 isInPositionTargetRange (Lnet/minecraft/class_243;)Z
+		ARG 1 pos
+	METHOD method_71148 isWearing (Lnet/minecraft/class_1304;)Z
+		ARG 1 slot
+	METHOD method_71614 resetLeashMomentum ()V
+	METHOD method_71768 canRemoveSaddle (Lnet/minecraft/class_1657;)Z
+		ARG 1 player

@@ -126,7 +126,6 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	FIELD field_17763 splashTextLoader Lnet/minecraft/class_4008;
 	FIELD field_18008 paintingManager Lnet/minecraft/class_4044;
 	FIELD field_18009 COMPLETED_UNIT_FUTURE Ljava/util/concurrent/CompletableFuture;
-	FIELD field_18173 statusEffectSpriteManager Lnet/minecraft/class_4074;
 	FIELD field_18174 resourceReloadFuture Ljava/util/concurrent/CompletableFuture;
 	FIELD field_18175 overlay Lnet/minecraft/class_4071;
 	FIELD field_20907 debugChunkInfo Z
@@ -186,6 +185,8 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	FIELD field_53831 shaderLoader Lnet/minecraft/class_10151;
 	FIELD field_54267 tracyFrameCapturer Lnet/minecraft/class_10219;
 	FIELD field_55226 itemModelManager Lnet/minecraft/class_10442;
+	FIELD field_60302 waypointStyleAssetManager Lnet/minecraft/class_11327;
+	FIELD field_60984 SAVING_LEVEL_TEXT Lnet/minecraft/class_2561;
 	METHOD <init> (Lnet/minecraft/class_542;)V
 		ARG 1 args
 	METHOD method_1478 getResourceManager ()Lnet/minecraft/class_3300;
@@ -291,11 +292,9 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 		ARG 1 world
 	METHOD method_18098 reset (Lnet/minecraft/class_437;)V
 		ARG 1 resettingScreen
-	METHOD method_18099 disconnect ()V
 	METHOD method_18321 getPaintingManager ()Lnet/minecraft/class_4044;
 	METHOD method_18502 setOverlay (Lnet/minecraft/class_4071;)V
 		ARG 1 overlay
-	METHOD method_18505 getStatusEffectSpriteManager ()Lnet/minecraft/class_4074;
 	METHOD method_18506 getOverlay ()Lnet/minecraft/class_4071;
 	METHOD method_18507 (Ljava/util/concurrent/CompletableFuture;)Ljava/util/concurrent/CompletionStage;
 		ARG 0 future
@@ -374,14 +373,12 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 		ARG 1 chatMessageSender
 	METHOD method_34746 (Ljava/util/function/Consumer;Lnet/minecraft/class_3696;)V
 		ARG 2 result
-	METHOD method_35698 takePanorama (Ljava/io/File;II)Lnet/minecraft/class_2561;
+	METHOD method_35698 takePanorama (Ljava/io/File;)Lnet/minecraft/class_2561;
 		COMMENT Takes a panorama. The panorama is stored in the given {@code directory}, in
 		COMMENT where 6 screenshots of size {@code width} and {@code height} will be taken.
 		COMMENT
 		COMMENT @return a user-oriented piece of text for screenshot result
 		ARG 1 directory
-		ARG 2 width
-		ARG 3 height
 	METHOD method_35701 (Lnet/minecraft/class_2561;)V
 		ARG 0 message
 	METHOD method_35703 getWorldGenerationProgressTracker ()Lnet/minecraft/class_3953;
@@ -479,7 +476,7 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 		ARG 1 onClose
 	METHOD method_53524 (Ljava/lang/Runnable;Z)V
 		ARG 1 confirmed
-	METHOD method_53525 createInitScreens (Ljava/util/List;)V
+	METHOD method_53525 createInitScreens (Ljava/util/List;)Z
 		ARG 1 list
 	METHOD method_53526 getDebugHud ()Lnet/minecraft/class_340;
 	METHOD method_53527 onInitFinished (Lnet/minecraft/class_310$class_8764;)Ljava/lang/Runnable;
@@ -497,8 +494,6 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	METHOD method_55505 onDisconnected ()V
 	METHOD method_55606 providesProfileKeys ()Z
 	METHOD method_55607 getUserProperties ()Lcom/mojang/authlib/minecraft/UserApiService$UserProperties;
-	METHOD method_56134 disconnect (Lnet/minecraft/class_437;)V
-		ARG 1 disconnectionScreen
 	METHOD method_57017 onFontOptionsChanged ()V
 	METHOD method_58476 getMapDecorationsAtlasManager ()Lnet/minecraft/class_9443;
 	METHOD method_60320 (Lnet/minecraft/class_1078;)V
@@ -520,6 +515,14 @@ CLASS net/minecraft/class_310 net/minecraft/client/MinecraftClient
 	METHOD method_68467 (Lnet/minecraft/class_2960;Lcom/mojang/blaze3d/shaders/ShaderType;)Ljava/lang/String;
 		ARG 1 id
 		ARG 2 type
+	METHOD method_71267 getWaypointStyleAssetManager ()Lnet/minecraft/class_11327;
+	METHOD method_72096 (Lnet/minecraft/class_6880;)V
+		ARG 1 dialog
+	METHOD method_72097 (Lnet/minecraft/class_2378;Lnet/minecraft/class_6885$class_6888;)Ljava/util/Optional;
+		ARG 1 quickActionsDialogs
+	METHOD method_72098 getQuickActionsDialog ()Ljava/util/Optional;
+	METHOD method_72099 disconnectWithSavingScreen ()V
+	METHOD method_72100 disconnectWithProgressScreen ()V
 	CLASS 1
 		FIELD field_52756 closed Z
 	CLASS class_5859 ChatRestriction

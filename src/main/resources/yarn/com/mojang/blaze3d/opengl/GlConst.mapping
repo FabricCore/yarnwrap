@@ -1,7 +1,7 @@
 CLASS com/mojang/blaze3d/opengl/GlConst
-	METHOD toGl (Lcom/mojang/blaze3d/buffers/BufferType;)I
-		ARG 0 type
-	METHOD toGl (Lcom/mojang/blaze3d/buffers/BufferUsage;)I
+	METHOD bufferUsageToGlEnum (I)I
+		ARG 0 usage
+	METHOD bufferUsageToGlFlag (I)I
 		ARG 0 usage
 	METHOD toGl (Lcom/mojang/blaze3d/platform/DepthTestFunction;)I
 		ARG 0 function
