@@ -2,7 +2,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	COMMENT Contains all block and fluid state properties that Minecraft uses.
 	FIELD field_12480 FALLING Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a fluid is falling.
-	FIELD field_12481 HORIZONTAL_FACING Lnet/minecraft/class_2754;
+	FIELD field_12481 HORIZONTAL_FACING Lnet/minecraft/class_2753;
 		COMMENT A property that specifies the direction a block is facing.
 		COMMENT
 		COMMENT <p>This property only allows a block to face in one of the cardinal directions (north, south, east and west).
@@ -96,7 +96,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT A property that specifies how redstone wire attaches to the east.
 	FIELD field_12524 NOTE Lnet/minecraft/class_2758;
 		COMMENT A property that specifies the pitch of a note block.
-	FIELD field_12525 FACING Lnet/minecraft/class_2754;
+	FIELD field_12525 FACING Lnet/minecraft/class_2753;
 		COMMENT A property that specifies the direction a block is facing.
 	FIELD field_12526 DRAG Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a bubble column should drag entities downwards.
@@ -146,7 +146,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT A property that specifies how many pickles are in a sea pickle.
 	FIELD field_12544 HAS_RECORD Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a jukebox has a record.
-	FIELD field_12545 HOPPER_FACING Lnet/minecraft/class_2754;
+	FIELD field_12545 HOPPER_FACING Lnet/minecraft/class_2753;
 		COMMENT A property that specifies the direction a hopper's output faces.
 		COMMENT
 		COMMENT <p>This property does not allow the hopper's output to face upwards.
@@ -204,7 +204,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT A property that specifies the orientation of a jigsaw or crafter.
 	FIELD field_27220 CANDLES Lnet/minecraft/class_2758;
 		COMMENT A property that specifies the amount of candles in a candle block.
-	FIELD field_28062 VERTICAL_DIRECTION Lnet/minecraft/class_2754;
+	FIELD field_28062 VERTICAL_DIRECTION Lnet/minecraft/class_2753;
 		COMMENT A property that specifies the direction a pointed dripstone is facing.
 		COMMENT
 		COMMENT <p>This property allows a block to face either down or up.
@@ -216,7 +216,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT A property that specifies the amount of berries in a cave vines block.
 	FIELD field_28717 TILT Lnet/minecraft/class_2754;
 		COMMENT A property that specifies how a big dripleaf is tilted down.
-	FIELD field_31387 LEVEL_8_MIN I
+	FIELD field_31387 LEVEL_3_MIN I
 	FIELD field_31388 LEVEL_1_8_MIN I
 	FIELD field_31389 LEVEL_3_MAX I
 	FIELD field_31390 LEVEL_1_8_MAX I
@@ -254,7 +254,7 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 	FIELD field_41322 SLOT_5_OCCUPIED Lnet/minecraft/class_2746;
 		COMMENT A property that specifies if a chiseled bookshelf has a book in slot 5.
 	FIELD field_42835 FLOWER_AMOUNT Lnet/minecraft/class_2758;
-		COMMENT A property that specifies the amount of flowers in a flowerbed block.
+		COMMENT A property that specifies the amount of flowers in a pink petals block.
 	FIELD field_42836 DUSTED Lnet/minecraft/class_2758;
 		COMMENT A property that specifies how much a brushable block is dusted on a scale of 0 to 3.
 	FIELD field_43307 CRACKED Lnet/minecraft/class_2746;
@@ -267,20 +267,6 @@ CLASS net/minecraft/class_2741 net/minecraft/state/property/Properties
 		COMMENT A property that specifies the state of a vault.
 	FIELD field_50193 OMINOUS Lnet/minecraft/class_2746;
 		COMMENT A property that specifies whether a trial spawner or vault is ominous.
-	FIELD field_54794 TIP Lnet/minecraft/class_2746;
-		COMMENT A property that specifies if a hanging moss block is the tip.
-	FIELD field_55088 NATURAL Lnet/minecraft/class_2746;
-		COMMENT A property that specifies if a creaking heart is natural.
-	FIELD field_55829 SEGMENT_AMOUNT Lnet/minecraft/class_2758;
-		COMMENT A property that specifies the amount of segments in a segmented block.
-	FIELD field_55830 CREAKING_HEART_STATE Lnet/minecraft/class_2754;
-		COMMENT A property that specifies the state of a creaking heart.
-	FIELD field_56023 TEST_BLOCK_MODE Lnet/minecraft/class_2754;
-		COMMENT A property that specifies the mode of a test block.
-	FIELD field_56672 MAP Lnet/minecraft/class_2746;
-		COMMENT A property that specifies whether an item frame has a map in it.
-		COMMENT
-		COMMENT <p>Yes, despite item frames being entities, they use block states. Weird, right?
 	METHOD method_11813 (Lnet/minecraft/class_2768;)Z
 		ARG 0 shape
 	METHOD method_11814 (Lnet/minecraft/class_2350;)Z

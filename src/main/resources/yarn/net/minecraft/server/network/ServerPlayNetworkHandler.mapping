@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_3244 net/minecraft/server/network/ServerPlayNetworkHandler
+	FIELD field_14116 messageCooldown I
 	FIELD field_14117 movePacketsCount I
 	FIELD field_14118 ticks I
 	FIELD field_14119 requestedTeleportPos Lnet/minecraft/class_243;
@@ -12,10 +13,11 @@ CLASS net/minecraft/class_3244 net/minecraft/server/network/ServerPlayNetworkHan
 	FIELD field_14129 vehicleFloating Z
 	FIELD field_14130 lastTickX D
 	FIELD field_14131 floating Z
+	FIELD field_14133 creativeItemDropThreshold I
 	FIELD field_14135 lastTickMovePacketsCount I
 	FIELD field_14137 vehicleFloatingTicks I
 	FIELD field_14138 floatingTicks I
-	FIELD field_14139 lastTeleportCheckTicks I
+	FIELD field_14139 prevTeleportCheckTicks I
 	FIELD field_14140 player Lnet/minecraft/class_3222;
 	FIELD field_14141 updatedRiddenY D
 	FIELD field_14142 lastTickRiddenZ D
@@ -36,18 +38,18 @@ CLASS net/minecraft/class_3244 net/minecraft/server/network/ServerPlayNetworkHan
 	FIELD field_45025 requestedReconfiguration Z
 	FIELD field_45026 chunkDataSender Lnet/minecraft/class_8608;
 	FIELD field_50089 INVALID_COMMAND_SIGNATURE_TEXT Lnet/minecraft/class_2561;
-	FIELD field_52364 movedThisTick Z
-	FIELD field_54291 messageCooldown Lnet/minecraft/class_10222;
-	FIELD field_54292 creativeItemDropCooldown Lnet/minecraft/class_10222;
-	FIELD field_58079 globalChatMessageIndex I
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;Lnet/minecraft/class_8792;)V
 		ARG 1 server
 		ARG 2 connection
 		ARG 3 player
 		ARG 4 clientData
-	METHOD method_14360 requestTeleport (Lnet/minecraft/class_10182;Ljava/util/Set;)V
-		ARG 1 pos
-		ARG 2 flags
+	METHOD method_14360 requestTeleport (DDDFFLjava/util/Set;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yaw
+		ARG 8 pitch
+		ARG 9 flags
 	METHOD method_14363 requestTeleport (DDDFF)V
 		ARG 1 x
 		ARG 3 y
@@ -69,6 +71,8 @@ CLASS net/minecraft/class_3244 net/minecraft/server/network/ServerPlayNetworkHan
 		ARG 6 yaw
 		ARG 7 pitch
 	METHOD method_14372 syncWithPlayerPosition ()V
+	METHOD method_17820 (Lnet/minecraft/class_2840;Lnet/minecraft/class_8786;)V
+		ARG 2 recipe
 	METHOD method_20630 isPlayerNotCollidingWithBlocks (Lnet/minecraft/class_4538;Lnet/minecraft/class_238;DDD)Z
 		ARG 1 world
 		ARG 2 box
@@ -132,6 +136,8 @@ CLASS net/minecraft/class_3244 net/minecraft/server/network/ServerPlayNetworkHan
 		COMMENT improper order or if chat is disabled.
 		ARG 1 message
 		ARG 2 callback
+	METHOD method_44897 addPendingAcknowledgment (Lnet/minecraft/class_7471;)V
+		ARG 1 message
 	METHOD method_45002 (Lnet/minecraft/class_7448;Lnet/minecraft/class_2168;)Lnet/minecraft/class_2168;
 		ARG 2 source
 	METHOD method_45003 parse (Ljava/lang/String;)Lcom/mojang/brigadier/ParseResults;
@@ -179,17 +185,6 @@ CLASS net/minecraft/class_3244 net/minecraft/server/network/ServerPlayNetworkHan
 	METHOD method_58591 toUnsignedSignatures (Ljava/util/List;)Ljava/util/Map;
 		ARG 1 arguments
 	METHOD method_60947 handlePendingTeleport ()Z
-	METHOD method_61290 handleMovement (Lnet/minecraft/class_243;)V
-		ARG 1 movement
-	METHOD method_64962 shouldCheckMovement (Z)Z
-		ARG 1 elytra
-	METHOD method_65098 onPickItem (Lnet/minecraft/class_1799;)V
-		ARG 1 stack
-	METHOD method_65099 copyBlockDataToStack (Lnet/minecraft/class_2680;Lnet/minecraft/class_3218;Lnet/minecraft/class_2338;Lnet/minecraft/class_1799;)V
-		ARG 0 state
-		ARG 1 world
-		ARG 2 pos
-		ARG 3 stack
 	CLASS 1
 		METHOD method_33897 processInteract (Lnet/minecraft/class_1268;Lnet/minecraft/class_3244$class_5860;)V
 			ARG 1 hand

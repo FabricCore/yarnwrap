@@ -2,7 +2,7 @@ CLASS net/minecraft/class_9135 net/minecraft/network/codec/PacketCodecs
 	COMMENT A set of pre-defined packet codecs.
 	COMMENT
 	COMMENT @see PacketCodec
-	FIELD field_48547 BOOLEAN Lnet/minecraft/class_9139;
+	FIELD field_48547 BOOL Lnet/minecraft/class_9139;
 		COMMENT A codec for a boolean value.
 		COMMENT
 		COMMENT @see io.netty.buffer.ByteBuf#readBoolean
@@ -62,12 +62,12 @@ CLASS net/minecraft/class_9135 net/minecraft/network/codec/PacketCodecs
 		COMMENT @see #nbt
 		COMMENT @see net.minecraft.network.PacketByteBuf#readNbt(PacketByteBuf)
 		COMMENT @see net.minecraft.network.PacketByteBuf#writeNbt(io.netty.buffer.ByteBuf, NbtElement)
-	FIELD field_48558 VECTOR_3F Lnet/minecraft/class_9139;
+	FIELD field_48558 VECTOR3F Lnet/minecraft/class_9139;
 		COMMENT A codec for a {@link org.joml.Vector3f}.
 		COMMENT
 		COMMENT @see net.minecraft.network.PacketByteBuf#readVector3f()
 		COMMENT @see net.minecraft.network.PacketByteBuf#writeVector3f(Vector3f)
-	FIELD field_48559 QUATERNION_F Lnet/minecraft/class_9139;
+	FIELD field_48559 QUATERNIONF Lnet/minecraft/class_9139;
 		COMMENT A codec for a {@link org.joml.Quaternionf}.
 		COMMENT
 		COMMENT @see net.minecraft.network.PacketByteBuf#readQuaternionf()
@@ -101,19 +101,6 @@ CLASS net/minecraft/class_9135 net/minecraft/network/codec/PacketCodecs
 		COMMENT
 		COMMENT @see io.netty.buffer.ByteBuf#readUnsignedShort
 		COMMENT @see io.netty.buffer.ByteBuf#writeShort
-	FIELD field_53740 SYNC_ID Lnet/minecraft/class_9139;
-	FIELD field_54033 DEGREES Lnet/minecraft/class_9139;
-	FIELD field_54505 LONG Lnet/minecraft/class_9139;
-		COMMENT A codec for a long value.
-		COMMENT
-		COMMENT @see io.netty.buffer.ByteBuf#readLong
-		COMMENT @see io.netty.buffer.ByteBuf#writeLong
-	FIELD field_54890 OPTIONAL_INT Lnet/minecraft/class_9139;
-	FIELD field_57046 LONG_ARRAY Lnet/minecraft/class_9139;
-		COMMENT A codec for a long array.
-		COMMENT
-		COMMENT @see net.minecraft.network.PacketByteBuf#readLongArray()
-		COMMENT @see net.minecraft.network.PacketByteBuf#writeLongArray(long[])
 	METHOD method_56363 toList ()Lnet/minecraft/class_9139$class_9140;
 		COMMENT Used to make a codec for a list of values using {@link PacketCodec#collect}.
 		COMMENT This creates an {@link java.util.ArrayList}, so the decoded result can be modified.
@@ -307,70 +294,43 @@ CLASS net/minecraft/class_9135 net/minecraft/network/codec/PacketCodecs
 		ARG 0 registryRef
 	METHOD method_58002 unlimitedRegistryCodec (Lcom/mojang/serialization/Codec;)Lnet/minecraft/class_9139;
 		ARG 0 codec
-	METHOD method_64959 (Ljava/lang/Integer;)Ljava/util/OptionalInt;
-		ARG 0 value
-	METHOD method_64960 (Ljava/util/OptionalInt;)Ljava/lang/Integer;
-		ARG 0 value
-	METHOD method_68861 lengthPrepended (ILjava/util/function/BiFunction;)Lnet/minecraft/class_9139$class_9140;
-		ARG 0 maxSize
-		ARG 1 bufWrapper
-	METHOD method_68862 (ILjava/util/function/BiFunction;Lnet/minecraft/class_9139;)Lnet/minecraft/class_9139;
-		ARG 2 codec
-	METHOD method_68863 (Lnet/minecraft/class_9129;Lio/netty/buffer/ByteBuf;)Lnet/minecraft/class_9129;
-		ARG 0 originalBuf
-		ARG 1 bufToWrap
-	METHOD method_68864 lengthPrepended (I)Lnet/minecraft/class_9139$class_9140;
-		ARG 0 maxSize
-	CLASS 3
-		METHOD method_59799 decode (Lio/netty/buffer/ByteBuf;)[B
+	CLASS 11
+	CLASS 13
+		METHOD method_59793 (Lnet/minecraft/class_9139;Lio/netty/buffer/ByteBuf;Lnet/minecraft/class_9139;Ljava/lang/Object;Ljava/lang/Object;)V
+			ARG 3 k
+			ARG 4 v
+	CLASS 14
+		METHOD method_58010 (Lio/netty/buffer/ByteBuf;Lnet/minecraft/class_9139;Ljava/lang/Object;)V
+			ARG 2 right
+		METHOD method_58011 (Lio/netty/buffer/ByteBuf;Lnet/minecraft/class_9139;Ljava/lang/Object;)V
+			ARG 2 left
+	CLASS 16
+		METHOD method_56424 getIterable (Lnet/minecraft/class_9129;)Lnet/minecraft/class_2359;
 			ARG 1 buf
-		METHOD method_59800 encode (Lio/netty/buffer/ByteBuf;[B)V
+	CLASS 17
+		FIELD field_49690 entryPacketCodec Lnet/minecraft/class_9139;
+		FIELD field_51474 DIRECT_ENTRY_MARKER I
+		METHOD method_59794 getEntries (Lnet/minecraft/class_9129;)Lnet/minecraft/class_2359;
 			ARG 1 buf
-			ARG 2 value
-	CLASS 4
+	CLASS 18
+		FIELD field_51476 DIRECT_MARKER I
+		FIELD field_51477 entryPacketCodec Lnet/minecraft/class_9139;
+	CLASS 19
+		FIELD field_49691 NAME_MAX_LENGTH I
+		FIELD field_49692 VALUE_MAX_LENGTH I
+		FIELD field_49693 SIGNATURE_MAX_LENGTH I
+		FIELD field_49694 MAP_MAX_SIZE I
+		METHOD method_58016 (Lio/netty/buffer/ByteBuf;Ljava/lang/String;)V
+			ARG 0 buf2
+			ARG 1 signature
+		METHOD method_58017 (Lio/netty/buffer/ByteBuf;)Ljava/lang/String;
+			ARG 0 buf2
+	CLASS 2
 		METHOD method_56403 decode (Lio/netty/buffer/ByteBuf;)[B
 			ARG 1 buf
 		METHOD method_56404 encode (Lio/netty/buffer/ByteBuf;[B)V
-			ARG 1 buf
-			ARG 2 value
-	CLASS 5
-		METHOD method_68115 decode (Lio/netty/buffer/ByteBuf;)[J
-			ARG 1 buf
-		METHOD method_68116 encode (Lio/netty/buffer/ByteBuf;[J)V
-			ARG 1 buf
-			ARG 2 values
-	CLASS 8
-		METHOD method_68121 (Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException;
+	CLASS 6
+		METHOD method_56899 (Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException;
 			ARG 1 error
-		METHOD method_68122 (Lnet/minecraft/class_2520;Ljava/lang/String;)Lio/netty/handler/codec/DecoderException;
+		METHOD method_56900 (Lnet/minecraft/class_2520;Ljava/lang/String;)Lio/netty/handler/codec/DecoderException;
 			ARG 1 error
-	CLASS 15
-	CLASS 16
-		METHOD method_68096 (Lnet/minecraft/class_9139;Lio/netty/buffer/ByteBuf;Lnet/minecraft/class_9139;Ljava/lang/Object;Ljava/lang/Object;)V
-			ARG 3 k
-			ARG 4 v
-	CLASS 17
-		METHOD method_68099 (Lio/netty/buffer/ByteBuf;Lnet/minecraft/class_9139;Ljava/lang/Object;)V
-			ARG 2 r
-		METHOD method_68100 (Lio/netty/buffer/ByteBuf;Lnet/minecraft/class_9139;Ljava/lang/Object;)V
-			ARG 2 l
-	CLASS 20
-		METHOD method_68105 getValues (Lnet/minecraft/class_9129;)Lnet/minecraft/class_2359;
-			ARG 1 buf
-	CLASS 21
-		FIELD field_58184 DIRECT_ENTRY_MARKER I
-		METHOD method_68867 getEntries (Lnet/minecraft/class_9129;)Lnet/minecraft/class_2359;
-			ARG 1 buf
-	CLASS 22
-		FIELD field_58185 DIRECT_MARKER I
-		FIELD field_58186 entryPacketCodec Lnet/minecraft/class_9139;
-	CLASS 24
-		FIELD field_57064 NAME_MAX_LENGTH I
-		FIELD field_57065 VALUE_MAX_LENGTH I
-		FIELD field_57066 SIGNATURE_MAX_LENGTH I
-		FIELD field_57067 MAP_MAX_SIZE I
-		METHOD method_68111 (Lio/netty/buffer/ByteBuf;Ljava/lang/String;)V
-			ARG 0 buf2
-			ARG 1 signature
-		METHOD method_68112 (Lio/netty/buffer/ByteBuf;)Ljava/lang/String;
-			ARG 0 buf2

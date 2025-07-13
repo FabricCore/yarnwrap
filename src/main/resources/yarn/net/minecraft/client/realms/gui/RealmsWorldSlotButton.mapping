@@ -11,8 +11,6 @@ CLASS net/minecraft/class_4367 net/minecraft/client/realms/gui/RealmsWorldSlotBu
 	FIELD field_26470 TOOLTIP Lnet/minecraft/class_2561;
 	FIELD field_39067 CHECKMARK Lnet/minecraft/class_2960;
 	FIELD field_44894 MINIGAME_SLOT_NAME Lnet/minecraft/class_2561;
-	FIELD field_54472 MAX_DISPLAYED_SLOT_NAME_LENGTH I
-	FIELD field_54473 ELLIPSIS Ljava/lang/String;
 	METHOD <init> (IIIIILnet/minecraft/class_4185$class_4241;)V
 		ARG 1 x
 		ARG 2 y
@@ -46,7 +44,6 @@ CLASS net/minecraft/class_4367 net/minecraft/client/realms/gui/RealmsWorldSlotBu
 		FIELD field_19688 action Lnet/minecraft/class_4367$class_4368;
 		FIELD field_46848 version Ljava/lang/String;
 		FIELD field_46849 compatibility Lnet/minecraft/class_4877$class_8842;
-		FIELD field_54809 hardcore Z
 		METHOD <init> (Lnet/minecraft/class_4877;I)V
 			ARG 1 server
 			ARG 2 slot

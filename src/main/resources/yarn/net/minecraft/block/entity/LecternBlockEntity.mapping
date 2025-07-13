@@ -9,9 +9,8 @@ CLASS net/minecraft/class_3722 net/minecraft/block/entity/LecternBlockEntity
 		ARG 2 state
 	METHOD method_17511 setCurrentPage (I)V
 		ARG 1 currentPage
-	METHOD method_17512 getCommandSource (Lnet/minecraft/class_1657;Lnet/minecraft/class_3218;)Lnet/minecraft/class_2168;
+	METHOD method_17512 getCommandSource (Lnet/minecraft/class_1657;)Lnet/minecraft/class_2168;
 		ARG 1 player
-		ARG 2 world
 	METHOD method_17513 setBook (Lnet/minecraft/class_1799;)V
 		ARG 1 book
 	METHOD method_17514 setBook (Lnet/minecraft/class_1799;Lnet/minecraft/class_1657;)V

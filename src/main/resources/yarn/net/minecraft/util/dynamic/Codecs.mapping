@@ -4,7 +4,7 @@ CLASS net/minecraft/class_5699 net/minecraft/util/dynamic/Codecs
 	COMMENT <p>It has a few methods to create checkers for {@code Codec.flatXmap} to add
 	COMMENT extra value validation to encoding and decoding. See the implementation of
 	COMMENT {@link #nonEmptyList(Codec)}.
-	FIELD field_33441 NON_NEGATIVE_INT Lcom/mojang/serialization/Codec;
+	FIELD field_33441 NONNEGATIVE_INT Lcom/mojang/serialization/Codec;
 	FIELD field_33442 POSITIVE_INT Lcom/mojang/serialization/Codec;
 	FIELD field_34387 POSITIVE_FLOAT Lcom/mojang/serialization/Codec;
 	FIELD field_37408 REGULAR_EXPRESSION Lcom/mojang/serialization/Codec;
@@ -20,10 +20,10 @@ CLASS net/minecraft/class_5699 net/minecraft/util/dynamic/Codecs
 	FIELD field_40726 GAME_PROFILE_WITH_PROPERTIES Lcom/mojang/serialization/Codec;
 	FIELD field_40727 GAME_PROFILE_PROPERTY Lcom/mojang/serialization/Codec;
 	FIELD field_41759 NON_EMPTY_STRING Lcom/mojang/serialization/Codec;
-	FIELD field_42265 QUATERNION_F Lcom/mojang/serialization/Codec;
-	FIELD field_42266 AXIS_ANGLE_4F Lcom/mojang/serialization/Codec;
+	FIELD field_42265 QUATERNIONF Lcom/mojang/serialization/Codec;
+	FIELD field_42266 AXIS_ANGLE4F Lcom/mojang/serialization/Codec;
 	FIELD field_42267 ROTATION Lcom/mojang/serialization/Codec;
-	FIELD field_42268 MATRIX_4F Lcom/mojang/serialization/Codec;
+	FIELD field_42268 MATRIX4F Lcom/mojang/serialization/Codec;
 	FIELD field_44703 CODEPOINT Lcom/mojang/serialization/Codec;
 	FIELD field_45075 IDENTIFIER_PATH Lcom/mojang/serialization/Codec;
 	FIELD field_45076 GAME_PROFILE Lcom/mojang/serialization/MapCodec;
@@ -37,10 +37,6 @@ CLASS net/minecraft/class_5699 net/minecraft/util/dynamic/Codecs
 	FIELD field_49183 PLAYER_NAME Lcom/mojang/serialization/Codec;
 	FIELD field_51364 VECTOR_4F Lcom/mojang/serialization/Codec;
 	FIELD field_51365 ARGB Lcom/mojang/serialization/Codec;
-	FIELD field_53754 NON_NEGATIVE_FLOAT Lcom/mojang/serialization/Codec;
-	FIELD field_54067 RGB Lcom/mojang/serialization/Codec;
-	FIELD field_55622 URI Lcom/mojang/serialization/Codec;
-	FIELD field_55623 CHAT_TEXT Lcom/mojang/serialization/Codec;
 	METHOD method_36241 rangedInt (IILjava/util/function/Function;)Lcom/mojang/serialization/Codec;
 		ARG 0 min
 		ARG 1 max
@@ -52,8 +48,8 @@ CLASS net/minecraft/class_5699 net/minecraft/util/dynamic/Codecs
 	METHOD method_36973 nonEmptyList (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
 		ARG 0 originalCodec
 	METHOD method_37928 rangedFloat (FFLjava/util/function/Function;)Lcom/mojang/serialization/Codec;
-		ARG 0 minExclusive
-		ARG 1 maxInclusive
+		ARG 0 min
+		ARG 1 max
 		ARG 2 messageFactory
 	METHOD method_37930 (Lcom/mojang/serialization/Codec;Ljava/lang/String;Ljava/lang/String;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
 		ARG 3 instance
@@ -179,8 +175,8 @@ CLASS net/minecraft/class_5699 net/minecraft/util/dynamic/Codecs
 		ARG 2 value
 	METHOD method_48768 (Lorg/joml/AxisAngle4f;)Lorg/joml/Vector3f;
 		ARG 0 axisAngle
-	METHOD method_48769 (Lorg/joml/Matrix4fc;)Ljava/util/List;
-		ARG 0 matrix
+	METHOD method_48769 (Lorg/joml/Matrix4f;)Ljava/util/List;
+		ARG 0 matrix4f
 	METHOD method_48771 (Ljava/util/List;)Lcom/mojang/serialization/DataResult;
 		ARG 0 list
 	METHOD method_48772 (Lorg/joml/AxisAngle4f;)Ljava/lang/Float;
@@ -247,56 +243,6 @@ CLASS net/minecraft/class_5699 net/minecraft/util/dynamic/Codecs
 		ARG 0 vec4f
 	METHOD method_59550 (Lorg/joml/Vector4f;)Ljava/util/List;
 		ARG 0 vec4f
-	METHOD method_59551 (Ljava/util/List;)Lcom/mojang/serialization/DataResult;
-		ARG 0 list
-	METHOD method_59552 (Ljava/util/List;)Lorg/joml/Quaternionf;
-		ARG 0 listx
-	METHOD method_62812 rangedInclusiveFloat (FFLjava/util/function/Function;)Lcom/mojang/serialization/Codec;
-		ARG 0 minInclusive
-		ARG 1 maxInclusive
-		ARG 2 messageFactory
-	METHOD method_62813 (Ljava/lang/Float;)Ljava/lang/String;
-		ARG 0 v
-	METHOD method_62814 (FFLjava/util/function/Function;Ljava/lang/Float;)Lcom/mojang/serialization/DataResult;
-		ARG 3 value
-	METHOD method_63569 (Ljava/util/Map;)Lcom/mojang/serialization/DataResult;
-		ARG 0 map
-	METHOD method_63570 (Lorg/joml/Vector3f;)Ljava/lang/Integer;
-		ARG 0 vec3f
-	METHOD method_63572 nonEmptyMap (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
-		ARG 0 originalCodec
-	METHOD method_65311 rangedInclusiveFloat (FF)Lcom/mojang/serialization/Codec;
-		ARG 0 minInclusive
-		ARG 1 maxInclusive
-	METHOD method_65312 (FFLjava/lang/Float;)Ljava/lang/String;
-		ARG 2 value
-	METHOD method_65313 listOrSingle (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
-		ARG 0 entryCodec
-	METHOD method_65314 idChecked (Lcom/mojang/serialization/Codec;Ljava/util/function/Function;Ljava/util/function/Function;)Lcom/mojang/serialization/Codec;
-		ARG 0 idCodec
-		ARG 1 idToElement
-		ARG 2 elementToId
-	METHOD method_65315 (Ljava/util/function/Function;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 element
-	METHOD method_65316 (Lcom/mojang/datafixers/util/Either;)Ljava/util/List;
-		ARG 0 either
-	METHOD method_65318 (Ljava/util/List;)Lcom/mojang/datafixers/util/Either;
-		ARG 0 list
-	METHOD method_65319 (Ljava/util/function/Function;Ljava/lang/Object;)Lcom/mojang/serialization/DataResult;
-		ARG 1 id
-	METHOD method_65320 listOrSingle (Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
-		ARG 0 entryCodec
-		ARG 1 listCodec
-	METHOD method_65322 (Ljava/util/List;)Ljava/util/List;
-		ARG 0 list
-	METHOD method_66032 (Ljava/lang/String;)Lcom/mojang/serialization/DataResult;
-		ARG 0 s
-	METHOD method_66033 (Ljava/lang/String;)Lcom/mojang/serialization/DataResult;
-		ARG 0 value
-	METHOD method_67588 (Ljava/util/function/Function;Ljava/lang/String;)Lcom/mojang/serialization/DataResult;
-		ARG 1 id
-	METHOD method_67589 enumByName (Ljava/util/function/Function;)Lcom/mojang/serialization/Codec;
-		ARG 0 valueOf
 	CLASS 1
 		METHOD apply (Lcom/mojang/serialization/DynamicOps;Ljava/lang/Object;Lcom/mojang/serialization/DataResult;)Lcom/mojang/serialization/DataResult;
 			ARG 1 ops
@@ -403,10 +349,3 @@ CLASS net/minecraft/class_5699 net/minecraft/util/dynamic/Codecs
 			ARG 2 map
 		METHOD method_53707 (Ljava/lang/Object;Ljava/util/Map;)Lcom/mojang/datafixers/util/Pair;
 			ARG 1 map
-	CLASS class_10388 IdMapper
-		FIELD field_55200 values Lcom/google/common/collect/BiMap;
-		METHOD method_65323 getCodec (Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;
-			ARG 1 idCodec
-		METHOD method_65325 put (Ljava/lang/Object;Ljava/lang/Object;)Lnet/minecraft/class_5699$class_10388;
-			ARG 1 id
-			ARG 2 value

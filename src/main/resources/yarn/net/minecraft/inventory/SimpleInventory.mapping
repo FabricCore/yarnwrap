@@ -19,10 +19,35 @@ CLASS net/minecraft/class_1277 net/minecraft/inventory/SimpleInventory
 	FIELD field_5828 heldStacks Lnet/minecraft/class_2371;
 	FIELD field_5829 listeners Ljava/util/List;
 	FIELD field_5831 size I
-	METHOD <init> ([Lnet/minecraft/class_1799;)V
-		ARG 1 items
 	METHOD <init> (I)V
 		ARG 1 size
+	METHOD <init> ([Lnet/minecraft/class_1799;)V
+		ARG 1 items
+	METHOD method_20631 removeItem (Lnet/minecraft/class_1792;I)Lnet/minecraft/class_1799;
+		COMMENT Searches this inventory for the specified item and removes the given amount from this inventory.
+		COMMENT
+		COMMENT @return the stack of removed items
+		ARG 1 item
+		ARG 2 count
+	METHOD method_20632 transfer (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)V
+		ARG 1 source
+		ARG 2 target
+	METHOD method_20633 addToNewSlot (Lnet/minecraft/class_1799;)V
+		ARG 1 stack
+	METHOD method_20634 addToExistingSlot (Lnet/minecraft/class_1799;)V
+		ARG 1 stack
+	METHOD method_20635 (Lnet/minecraft/class_1799;)Z
+		ARG 0 stack
+	METHOD method_24513 (Lnet/minecraft/class_1799;)Z
+		ARG 0 stack
+	METHOD method_24514 clearToList ()Ljava/util/List;
+		COMMENT Clears this inventory and returns all the non-empty stacks in a list.
+		COMMENT
+		COMMENT @return the non-empty stacks previously in the inventory
+	METHOD method_27070 canInsert (Lnet/minecraft/class_1799;)Z
+		COMMENT {@return whether {@code stack} can be inserted into this inventory}
+		ARG 1 stack
+	METHOD method_54454 getHeldStacks ()Lnet/minecraft/class_2371;
 	METHOD method_5488 removeListener (Lnet/minecraft/class_1265;)V
 		COMMENT Removes a {@code listener} previously added by {@code #addListener}.
 		COMMENT Does nothing when the listener was not found.
@@ -53,30 +78,3 @@ CLASS net/minecraft/class_1277 net/minecraft/inventory/SimpleInventory
 		COMMENT
 		COMMENT @see #readNbtList
 		ARG 1 registries
-	METHOD method_20631 removeItem (Lnet/minecraft/class_1792;I)Lnet/minecraft/class_1799;
-		COMMENT Searches this inventory for the specified item and removes the given amount from this inventory.
-		COMMENT
-		COMMENT @return the stack of removed items
-		ARG 1 item
-		ARG 2 count
-	METHOD method_20632 transfer (Lnet/minecraft/class_1799;Lnet/minecraft/class_1799;)V
-		ARG 1 source
-		ARG 2 target
-	METHOD method_20633 addToNewSlot (Lnet/minecraft/class_1799;)V
-		ARG 1 stack
-	METHOD method_20634 addToExistingSlot (Lnet/minecraft/class_1799;)V
-		ARG 1 stack
-	METHOD method_20635 (Lnet/minecraft/class_1799;)Z
-		ARG 0 stack
-	METHOD method_24513 (Lnet/minecraft/class_1799;)Z
-		ARG 0 stack
-	METHOD method_24514 clearToList ()Ljava/util/List;
-		COMMENT Clears this inventory and returns all the non-empty stacks in a list.
-		COMMENT
-		COMMENT @return the non-empty stacks previously in the inventory
-	METHOD method_27070 canInsert (Lnet/minecraft/class_1799;)Z
-		COMMENT {@return whether {@code stack} can be inserted into this inventory}
-		ARG 1 stack
-	METHOD method_54454 getHeldStacks ()Lnet/minecraft/class_2371;
-	METHOD method_68258 (Lnet/minecraft/class_7225$class_7874;Lnet/minecraft/class_2487;)Ljava/util/stream/Stream;
-		ARG 1 nbt

@@ -17,7 +17,7 @@ CLASS net/minecraft/class_2769 net/minecraft/state/property/Property
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
 	METHOD method_11799 computeHashCode ()I
-	METHOD method_11898 getValues ()Ljava/util/List;
+	METHOD method_11898 getValues ()Ljava/util/Collection;
 		COMMENT Returns all possible values of this property.
 	METHOD method_11899 getName ()Ljava/lang/String;
 		COMMENT Returns the name of this property.
@@ -43,8 +43,6 @@ CLASS net/minecraft/class_2769 net/minecraft/state/property/Property
 		ARG 2 state
 		ARG 3 input
 	METHOD method_35308 getCodec ()Lcom/mojang/serialization/Codec;
-	METHOD method_64218 ordinal (Ljava/lang/Comparable;)I
-		ARG 1 value
 	CLASS class_4933 Value
 		FIELD comp_70 property Lnet/minecraft/class_2769;
 		FIELD comp_71 value Ljava/lang/Comparable;

@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_7130 net/minecraft/block/SculkVeinBlock
+	FIELD field_37631 WATERLOGGED Lnet/minecraft/class_2746;
 	FIELD field_37632 allGrowTypeGrower Lnet/minecraft/class_7118;
 	FIELD field_37633 samePositionOnlyGrower Lnet/minecraft/class_7118;
 	FIELD field_46437 CODEC Lcom/mojang/serialization/MapCodec;
@@ -20,5 +21,4 @@ CLASS net/minecraft/class_7130 net/minecraft/block/SculkVeinBlock
 	CLASS class_7131 SculkVeinGrowChecker
 		FIELD field_37635 growTypes [Lnet/minecraft/class_7118$class_7123;
 		METHOD <init> (Lnet/minecraft/class_7130;[Lnet/minecraft/class_7118$class_7123;)V
-			ARG 1 block
 			ARG 2 growTypes

@@ -3,7 +3,7 @@ CLASS net/minecraft/class_4553 net/minecraft/predicate/entity/PlayerPredicate
 	FIELD comp_1818 gameMode Lnet/minecraft/class_9789;
 	FIELD field_33928 LOOKING_AT_DISTANCE I
 	FIELD field_45770 CODEC Lcom/mojang/serialization/MapCodec;
-	METHOD <init> (Lnet/minecraft/class_2096$class_2100;Lnet/minecraft/class_9789;Ljava/util/List;Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;Ljava/util/Map;Ljava/util/Optional;Ljava/util/Optional;)V
+	METHOD <init> (Lnet/minecraft/class_2096$class_2100;Lnet/minecraft/class_9789;Ljava/util/List;Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;Ljava/util/Map;Ljava/util/Optional;)V
 		ARG 1 experienceLevel
 		ARG 4 recipes
 		ARG 5 advancements
@@ -40,7 +40,6 @@ CLASS net/minecraft/class_4553 net/minecraft/predicate/entity/PlayerPredicate
 		FIELD field_20733 recipes Lit/unimi/dsi/fastutil/objects/Object2BooleanMap;
 		FIELD field_20734 advancements Ljava/util/Map;
 		FIELD field_33930 lookingAt Ljava/util/Optional;
-		FIELD field_54148 input Ljava/util/Optional;
 		METHOD method_22507 build ()Lnet/minecraft/class_4553;
 		METHOD method_35310 create ()Lnet/minecraft/class_4553$class_4557;
 		METHOD method_35311 stat (Lnet/minecraft/class_3448;Lnet/minecraft/class_6880$class_6883;Lnet/minecraft/class_2096$class_2100;)Lnet/minecraft/class_4553$class_4557;
@@ -54,16 +53,14 @@ CLASS net/minecraft/class_4553 net/minecraft/predicate/entity/PlayerPredicate
 		METHOD method_35314 advancement (Lnet/minecraft/class_2960;Ljava/util/Map;)Lnet/minecraft/class_4553$class_4557;
 			ARG 1 id
 			ARG 2 criteria
-		METHOD method_35315 recipe (Lnet/minecraft/class_5321;Z)Lnet/minecraft/class_4553$class_4557;
-			ARG 1 recipeKey
+		METHOD method_35315 recipe (Lnet/minecraft/class_2960;Z)Lnet/minecraft/class_4553$class_4557;
+			ARG 1 id
 			ARG 2 unlocked
 		METHOD method_35316 advancement (Lnet/minecraft/class_2960;Z)Lnet/minecraft/class_4553$class_4557;
 			ARG 1 id
 			ARG 2 done
 		METHOD method_37251 lookingAt (Lnet/minecraft/class_2048$class_2049;)Lnet/minecraft/class_4553$class_4557;
 			ARG 1 lookingAt
-		METHOD method_64023 input (Lnet/minecraft/class_10184;)Lnet/minecraft/class_4553$class_4557;
-			ARG 1 input
 	CLASS class_8749 StatMatcher
 		FIELD field_45774 CODEC Lcom/mojang/serialization/Codec;
 		METHOD <init> (Lnet/minecraft/class_3448;Lnet/minecraft/class_6880;Lnet/minecraft/class_2096$class_2100;)V
@@ -74,8 +71,5 @@ CLASS net/minecraft/class_4553 net/minecraft/predicate/entity/PlayerPredicate
 			ARG 0 type
 		METHOD method_53225 (Lnet/minecraft/class_3448;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
 			ARG 1 instance
-		METHOD method_53227 (Lnet/minecraft/class_3448;Lnet/minecraft/class_6880;Lnet/minecraft/class_2096$class_2100;)Lnet/minecraft/class_4553$class_8749;
-			ARG 1 value
-			ARG 2 range
 		METHOD method_53228 test (Lnet/minecraft/class_3469;)Z
 			ARG 1 statHandler

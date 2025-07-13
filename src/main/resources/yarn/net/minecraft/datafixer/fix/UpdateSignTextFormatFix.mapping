@@ -5,6 +5,8 @@ CLASS net/minecraft/class_8221 net/minecraft/datafixer/fix/UpdateSignTextFormatF
 		ARG 1 outputSchema
 		ARG 2 name
 		ARG 3 blockEntityId
+	METHOD method_49760 updateSignTextFormat (Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;
+		ARG 0 signData
 	METHOD method_52469 streamKeys (Lcom/mojang/serialization/Dynamic;Ljava/lang/String;)Ljava/util/stream/Stream;
 		ARG 0 signData
 		ARG 1 prefix

@@ -8,11 +8,8 @@ CLASS net/minecraft/class_1889 net/minecraft/enchantment/EnchantmentLevelEntry
 	COMMENT {@code Map<Enchantment, Integer>} over {@code List<EnchantmentLevelEntry>}.
 	COMMENT
 	COMMENT <p>This class is immutable. It does not override hashCode or equals.
-	FIELD comp_3486 enchantment Lnet/minecraft/class_6880;
-	FIELD comp_3487 level I
+	FIELD field_9093 enchantment Lnet/minecraft/class_6880;
+	FIELD field_9094 level I
 	METHOD <init> (Lnet/minecraft/class_6880;I)V
 		ARG 1 enchantment
 		ARG 2 level
-	METHOD comp_3486 enchantment ()Lnet/minecraft/class_6880;
-	METHOD comp_3487 level ()I
-	METHOD method_66344 getWeight ()I
