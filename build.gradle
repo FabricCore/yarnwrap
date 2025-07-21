@@ -62,7 +62,7 @@ publishing {
     maven(MavenPublication) {
       groupId = "ws.siri"
       artifactId = "yarnwrap"
-      version = "${project.minecraft_version}-${project.mod_version}"
+      version = "${project.minecraft_version}-${project.mod_version}-${project.loader}"
       from components.java
     }
   }
