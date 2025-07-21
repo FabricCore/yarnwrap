@@ -7,8 +7,4 @@ public class Core implements ModInitializer {
 
     @Override
     public void onInitialize() {}
-
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello world");
-    }
 }
