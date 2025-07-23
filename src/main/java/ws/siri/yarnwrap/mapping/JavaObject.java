@@ -88,7 +88,8 @@ public class JavaObject implements JavaLike {
             }
 
             if (field.isPresent()) {
-                field.get().set(null, value);
+                field.get().setAccessible(true);
+                field.get().set(this.internal, value);
                 return true;
             } else {
                 return false;
@@ -121,12 +122,15 @@ public class JavaObject implements JavaLike {
             field = JavaClass.getSrcField(name, internal.getClass(), false);
         }
 
-        if (field.isPresent())
+        if (field.isPresent()) {
+            field.get().setAccessible(true);
+
             try {
                 return NullableOption.of(autoWrap(field.get().get(internal)));
             } catch (Exception e) {
                 throw new RuntimeException("Could not get field for object: " + e);
             }
+        }
 
         Optional<Object> enumConstant = JavaClass.getEnumValue(name, internal.getClass());
 
