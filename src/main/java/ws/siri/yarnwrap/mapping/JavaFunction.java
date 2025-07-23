@@ -279,6 +279,7 @@ public class JavaFunction implements ScriptFunction, JavaLike {
             return JavaObject.autoWrap(((Constructor<?>) executable).newInstance(args));
         } else {
             Method method = (Method) executable;
+            method.setAccessible(true);
             try {
                 if (Modifier.isStatic(method.getModifiers())) {
                     return JavaObject.autoWrap(method.invoke(null, args));
