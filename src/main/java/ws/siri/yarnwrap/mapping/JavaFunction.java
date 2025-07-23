@@ -1,15 +1,20 @@
 package ws.siri.yarnwrap.mapping;
 
+import com.mojang.datafixers.util.Pair;
+
 import org.jetbrains.annotations.NotNull;
 
+import java.lang.reflect.Array;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Executable;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Optional;
 
 import ws.siri.yarnwrap.common.ScriptFunction;
 import ws.siri.yarnwrap.util.NullableOption;
@@ -174,15 +179,38 @@ public class JavaFunction implements ScriptFunction, JavaLike {
         }
 
         Class<?>[] argTypes = Arrays.stream(args).map((arg) -> arg.getClass()).toArray(Class<?>[]::new);
+        List<Pair<Class<?>[], Optional<Class<?>[]>>> sigTypes = new ArrayList<>();
+
+        for (Class<?>[] sig : methods.keySet()) {
+            if (sig.length == argTypes.length) {
+                sigTypes.add(new Pair<>(sig, Optional.empty()));
+            }
+            if (sig.length <= argTypes.length + 1) {
+                if (sig.length != 0 && sig[sig.length - 1].isArray()) {
+                    Class<?>[] expanded = new Class[argTypes.length];
+                    for (int i = 0; i < argTypes.length; i++) {
+                        if (i < sig.length - 1) {
+                            expanded[i] = sig[i];
+                        } else {
+                            expanded[i] = sig[sig.length - 1].getComponentType();
+                        }
+                    }
+
+                    sigTypes.add(new Pair<>(expanded, Optional.of(sig)));
+                }
+            }
+        }
 
         Executable executable = null;
         Class<?>[] executableSignature = null;
+        Optional<Class<?>[]> originalSignature = Optional.empty();
         int executableScore = -1;
 
         if (methods.containsKey(argTypes)) {
             executable = methods.get(argTypes);
         } else {
-            signatureLoop: for (Class<?>[] signature : methods.keySet()) {
+            signatureLoop: for (Pair<Class<?>[], Optional<Class<?>[]>> pair : sigTypes) {
+                Class<?>[] signature = pair.getFirst();
                 if (signature.length != argTypes.length)
                     continue;
 
@@ -196,12 +224,14 @@ public class JavaFunction implements ScriptFunction, JavaLike {
                 }
 
                 if (executableScore == -1 || runningScore < executableScore) {
-                    executable = methods.get(signature);
+                    executable = methods.get(pair.getSecond().orElse(signature));
                     executableSignature = signature;
                     executableScore = runningScore;
+                    originalSignature = pair.getSecond();
                 }
 
-                if(runningScore == 0) break signatureLoop;
+                if (runningScore == 0)
+                    break signatureLoop;
             }
 
             if (executable == null)
@@ -229,12 +259,27 @@ public class JavaFunction implements ScriptFunction, JavaLike {
                 }
             }
 
+            if (originalSignature.isPresent()) {
+                Class<?>[] original = originalSignature.get();
+                Object[] newArgs = new Object[original.length];
+                for (int i = 0; i < original.length - 1; i++) {
+                    newArgs[i] = args[i];
+                }
+                newArgs[original.length - 1] = Array.newInstance(original[original.length - 1].getComponentType(),
+                        args.length - original.length + 1);
+
+                for (int i = 0; i < args.length - original.length + 1; i++) {
+                    Array.set(newArgs[original.length - 1], i, args[i + original.length - 1]);
+                }
+                args = newArgs;
+            }
         }
 
         if (executable instanceof Constructor) {
             return JavaObject.autoWrap(((Constructor<?>) executable).newInstance(args));
         } else {
             Method method = (Method) executable;
+            method.setAccessible(true);
             try {
                 if (Modifier.isStatic(method.getModifiers())) {
                     return JavaObject.autoWrap(method.invoke(null, args));
