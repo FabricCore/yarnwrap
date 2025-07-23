@@ -36,6 +36,8 @@ public class MappingTree {
      * Initialises mapping tree using a copy of yarn mappings.
      */
     public static void init() {
+        // walkMappings(ResourceFileSystem.builder().build("yarnwrap").getPath("assets/yarn"), mappingTree);
+        
         walkMappings(
                 FabricLoader.getInstance().getModContainer("yarnwrap").get().findPath("yarn").get(),
                 mappingTree);

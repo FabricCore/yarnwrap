@@ -527,6 +527,7 @@ public class JavaClass implements JavaLike {
         try {
             Optional<Field> field = getField(name, true);
             if (field.isPresent()) {
+                field.get().setAccessible(true);
                 field.get().set(null, value);
                 return true;
             } else {
@@ -557,12 +558,15 @@ public class JavaClass implements JavaLike {
 
             Optional<Field> field = getField(name, true);
 
-            if (field.isPresent())
+            if (field.isPresent()) {
+                field.get().setAccessible(true);
+
                 try {
                     return NullableOption.of(JavaObject.autoWrap(field.get().get(null)));
                 } catch (Exception e) {
                     throw new RuntimeException("Could not get field for class: " + e);
                 }
+            }
 
             Optional<Object> enumConstant = getEnumValue(name);
 
