@@ -20,8 +20,6 @@ CLASS net/minecraft/class_630 net/minecraft/client/model/ModelPart
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD method_17138 copyTransform (Lnet/minecraft/class_630;)V
-		ARG 1 part
 	METHOD method_22698 render (Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;II)V
 		ARG 1 matrices
 		ARG 2 vertices
@@ -49,7 +47,7 @@ CLASS net/minecraft/class_630 net/minecraft/client/model/ModelPart
 	METHOD method_32086 getChild (Ljava/lang/String;)Lnet/minecraft/class_630;
 		ARG 1 name
 	METHOD method_32087 isEmpty ()Z
-	METHOD method_32088 traverse ()Ljava/util/stream/Stream;
+	METHOD method_32088 traverse ()Ljava/util/List;
 	METHOD method_33425 setAngles (FFF)V
 		ARG 1 pitch
 		ARG 2 yaw
@@ -78,9 +76,23 @@ CLASS net/minecraft/class_630 net/minecraft/client/model/ModelPart
 		ARG 1 vec3f
 	METHOD method_62132 rotate (Lorg/joml/Quaternionf;)V
 		ARG 1 quaternion
+	METHOD method_72013 (Ljava/util/List;Ljava/lang/String;Lnet/minecraft/class_630;)V
+		ARG 1 key
+		ARG 2 part
+	METHOD method_72014 forEachChild (Ljava/util/function/BiConsumer;)V
+		ARG 1 partBiConsumer
+	METHOD method_72015 createPartGetter ()Ljava/util/function/Function;
+	METHOD method_72152 collectVertices (Lnet/minecraft/class_4587;Ljava/util/Set;)V
+		ARG 1 matrices
+		ARG 2 vertices
+	METHOD method_72153 (Ljava/util/Set;Lnet/minecraft/class_4587$class_4665;Ljava/lang/String;ILnet/minecraft/class_630$class_628;)V
+		ARG 1 matrix
+		ARG 2 path
+		ARG 3 index
+		ARG 4 cuboid
 	CLASS class_593 Quad
 		FIELD comp_3184 vertices [Lnet/minecraft/class_630$class_618;
-		FIELD comp_3185 direction Lorg/joml/Vector3f;
+		FIELD comp_3185 direction Lorg/joml/Vector3fc;
 		METHOD <init> ([Lnet/minecraft/class_630$class_618;FFFFFFZLnet/minecraft/class_2350;)V
 			ARG 1 vertices
 			ARG 2 u1
@@ -92,27 +104,21 @@ CLASS net/minecraft/class_630 net/minecraft/client/model/ModelPart
 			ARG 8 flip
 			ARG 9 direction
 		METHOD comp_3184 vertices ()[Lnet/minecraft/class_630$class_618;
-		METHOD comp_3185 direction ()Lorg/joml/Vector3f;
+		METHOD comp_3185 direction ()Lorg/joml/Vector3fc;
+		METHOD method_74249 getMirrorDirection (Lnet/minecraft/class_2350;)Lnet/minecraft/class_2350;
+			ARG 0 direction
 	CLASS class_618 Vertex
-		FIELD comp_3186 pos Lorg/joml/Vector3f;
 		FIELD comp_3187 u F
 		FIELD comp_3188 v F
-		METHOD <init> (FFFFF)V
-			ARG 1 x
-			ARG 2 y
-			ARG 3 z
-			ARG 4 u
-			ARG 5 v
-		METHOD <init> (Lorg/joml/Vector3f;FF)V
-			ARG 1 pos
-			ARG 2 u
-			ARG 3 v
-		METHOD comp_3186 pos ()Lorg/joml/Vector3f;
+		FIELD field_62594 SCALE_FACTOR F
 		METHOD comp_3187 u ()F
 		METHOD comp_3188 v ()F
 		METHOD method_2837 remap (FF)Lnet/minecraft/class_630$class_618;
 			ARG 1 u
 			ARG 2 v
+		METHOD method_74250 worldX ()F
+		METHOD method_74251 worldY ()F
+		METHOD method_74252 worldZ ()F
 	CLASS class_628 Cuboid
 		FIELD field_3643 minZ F
 		FIELD field_3644 minY F
@@ -136,6 +142,7 @@ CLASS net/minecraft/class_630 net/minecraft/client/model/ModelPart
 			ARG 12 mirror
 			ARG 13 textureWidth
 			ARG 14 textureHeight
+			ARG 15 sides
 		METHOD method_32089 renderCuboid (Lnet/minecraft/class_4587$class_4665;Lnet/minecraft/class_4588;III)V
 			ARG 1 entry
 			ARG 2 vertexConsumer

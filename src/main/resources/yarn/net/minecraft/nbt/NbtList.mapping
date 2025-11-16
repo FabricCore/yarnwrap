@@ -59,7 +59,7 @@ CLASS net/minecraft/class_2499 net/minecraft/nbt/NbtList
 		COMMENT @apiNote Modifying the returned array also modifies the NBT int array.
 		ARG 1 index
 	METHOD method_36112 getLongArray (I)Ljava/util/Optional;
-		COMMENT {@return the long array at {@code index}, or an empty int array if the index is
+		COMMENT {@return the long array at {@code index}, or an empty long array if the index is
 		COMMENT out of bounds or if this is not a list of long arrays}
 		COMMENT
 		COMMENT @apiNote Modifying the returned array also modifies the NBT long array.
@@ -114,3 +114,5 @@ CLASS net/minecraft/class_2499 net/minecraft/nbt/NbtList
 		METHOD method_53895 readList (Ljava/io/DataInput;Lnet/minecraft/class_2505;)Lnet/minecraft/class_2499;
 			ARG 0 input
 			ARG 1 tracker
+		METHOD method_72224 readListLength (Ljava/io/DataInput;)I
+			ARG 0 input

@@ -58,14 +58,13 @@ CLASS net/minecraft/class_507 net/minecraft/client/gui/screen/recipebook/RecipeB
 		ARG 2 parentHeight
 		ARG 3 client
 		ARG 4 narrow
-	METHOD method_2598 isClickOutsideBounds (DDIIIII)Z
+	METHOD method_2598 isClickOutsideBounds (DDIIII)Z
 		ARG 1 mouseX
 		ARG 3 mouseY
 		ARG 5 x
 		ARG 6 y
 		ARG 7 backgroundWidth
 		ARG 8 backgroundHeight
-		ARG 9 button
 	METHOD method_2601 drawTooltip (Lnet/minecraft/class_332;IILnet/minecraft/class_1735;)V
 		ARG 1 context
 		ARG 2 x
@@ -85,7 +84,8 @@ CLASS net/minecraft/class_507 net/minecraft/client/gui/screen/recipebook/RecipeB
 	METHOD method_47429 updateTooltip ()V
 	METHOD method_53871 (Lit/unimi/dsi/fastutil/objects/ObjectSet;Lnet/minecraft/class_516;)Z
 		ARG 1 resultCollection
-	METHOD method_62023 isValid (Lnet/minecraft/class_1735;)Z
+	METHOD method_62023 isCraftingSlot (Lnet/minecraft/class_1735;)Z
+		COMMENT {@return whether a slot is involved in crafting for this recipe book widget's recipes}
 		ARG 1 slot
 	METHOD method_62024 populateRecipes (Lnet/minecraft/class_516;Lnet/minecraft/class_9875;)V
 		ARG 1 recipeResultCollection
@@ -93,7 +93,7 @@ CLASS net/minecraft/class_507 net/minecraft/client/gui/screen/recipebook/RecipeB
 	METHOD method_62044 onMouseClick (Lnet/minecraft/class_1735;)V
 		ARG 1 slot
 	METHOD method_62045 isFilteringCraftable ()Z
-	METHOD method_62889 select (Lnet/minecraft/class_516;Lnet/minecraft/class_10298;)Z
+	METHOD method_62889 select (Lnet/minecraft/class_516;Lnet/minecraft/class_10298;Z)Z
 		ARG 1 results
 		ARG 2 recipeId
 	METHOD method_64366 getTop ()I

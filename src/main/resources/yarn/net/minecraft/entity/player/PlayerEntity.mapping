@@ -1,56 +1,48 @@
 CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
-	FIELD field_7483 strideDistance F
 	FIELD field_7484 itemCooldownManager Lnet/minecraft/class_1796;
 	FIELD field_7486 enderChestInventory Lnet/minecraft/class_1730;
 	FIELD field_7487 sleepTimer I
-	FIELD field_7488 MAIN_ARM Lnet/minecraft/class_2940;
 	FIELD field_7489 abilityResyncCountdown I
 	FIELD field_7490 isSubmergedInWater Z
 	FIELD field_7491 ABSORPTION_AMOUNT Lnet/minecraft/class_2940;
 	FIELD field_7493 hungerManager Lnet/minecraft/class_1702;
 	FIELD field_7494 enchantingTableSeed I
 	FIELD field_7495 totalExperience I
-	FIELD field_7496 LEFT_SHOULDER_ENTITY Lnet/minecraft/class_2940;
 	FIELD field_7498 playerScreenHandler Lnet/minecraft/class_1723;
-	FIELD field_7499 capeZ D
-	FIELD field_7500 capeX D
-	FIELD field_7502 lastCapeY D
 	FIELD field_7503 abilities Lnet/minecraft/class_1656;
 	FIELD field_7504 experiencePickUpDelay I
-	FIELD field_7505 lastStrideDistance F
-	FIELD field_7506 RIGHT_SHOULDER_ENTITY Lnet/minecraft/class_2940;
 	FIELD field_7507 gameProfile Lcom/mojang/authlib/GameProfile;
 	FIELD field_7508 lastPlayedLevelUpSoundTime I
+	FIELD field_7509 baseFlySpeed F
 	FIELD field_7510 experienceProgress F
 	FIELD field_7511 SCORE Lnet/minecraft/class_2940;
 	FIELD field_7512 currentScreenHandler Lnet/minecraft/class_1703;
 	FIELD field_7513 fishHook Lnet/minecraft/class_1536;
 	FIELD field_7514 inventory Lnet/minecraft/class_1661;
-	FIELD field_7518 PLAYER_MODEL_PARTS Lnet/minecraft/class_2940;
 	FIELD field_7520 experienceLevel I
-	FIELD field_7521 capeY D
-	FIELD field_7522 lastCapeZ D
 	FIELD field_7523 reducedDebugInfo Z
-	FIELD field_7524 lastCapeX D
 	FIELD field_7525 selectedItem Lnet/minecraft/class_1799;
-	FIELD field_18134 POSE_DIMENSIONS Ljava/util/Map;
-	FIELD field_18135 STANDING_DIMENSIONS Lnet/minecraft/class_4048;
-	FIELD field_19428 shoulderEntityAddedTime J
-	FIELD field_30651 DEFAULT_EYE_HEIGHT F
+	FIELD field_30644 MAX_HEALTH I
+	FIELD field_30645 SLEEP_DURATION I
+	FIELD field_30646 WAKE_UP_DURATION I
+	FIELD field_30647 ENDER_SLOT_OFFSET I
 	FIELD field_39445 lastDeathPos Ljava/util/Optional;
 	FIELD field_41765 damageTiltYaw F
-	FIELD field_46174 DEFAULT_MAIN_ARM Lnet/minecraft/class_1306;
-	FIELD field_47821 VEHICLE_ATTACHMENT_POS Lnet/minecraft/class_243;
+	FIELD field_47819 BLOCK_INTERACTION_RANGE F
+	FIELD field_47820 ENTITY_INTERACTION_RANGE F
+	FIELD field_49734 HELD_ITEM_SLOT_OFFSET I
+	FIELD field_49735 CRAFTING_SLOT_OFFSET I
 	FIELD field_49989 currentExplosionImpactPos Lnet/minecraft/class_243;
 	FIELD field_49990 explodedBy Lnet/minecraft/class_1297;
 	FIELD field_49991 ignoreFallDamageFromCurrentExplosion Z
 	FIELD field_52223 currentExplosionResetGraceTime I
 	FIELD field_55203 remainingLoadTicks I
 	FIELD field_55204 loaded Z
-	METHOD <init> (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;FLcom/mojang/authlib/GameProfile;)V
+	FIELD field_62530 LEFT_SHOULDER_PARROT_VARIANT_ID Lnet/minecraft/class_2940;
+	FIELD field_62531 RIGHT_SHOULDER_PARROT_VARIANT_ID Lnet/minecraft/class_2940;
+	METHOD <init> (Lnet/minecraft/class_1937;Lcom/mojang/authlib/GameProfile;)V
 		ARG 1 world
-		ARG 2 pos
-		ARG 3 yaw
+		ARG 2 profile
 	METHOD method_5691 getPermissionLevel ()I
 	METHOD method_7254 unlockRecipes (Ljava/util/Collection;)I
 		ARG 1 recipes
@@ -69,8 +61,6 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 	METHOD method_7265 createCooldownManager ()Lnet/minecraft/class_1796;
 	METHOD method_7266 resetStat (Lnet/minecraft/class_3445;)V
 		ARG 1 stat
-	METHOD method_7267 updateShoulderEntity (Lnet/minecraft/class_2487;)V
-		ARG 1 entityNbt
 	METHOD method_7268 setReducedDebugInfo (Z)V
 		ARG 1 reducedDebugInfo
 	METHOD method_7269 trySleep (Lnet/minecraft/class_2338;)Lcom/mojang/datafixers/util/Either;
@@ -84,8 +74,6 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 	METHOD method_7270 giveItemStack (Lnet/minecraft/class_1799;)Z
 		ARG 1 stack
 	METHOD method_7272 getScore ()I
-	METHOD method_7273 setShoulderEntityLeft (Lnet/minecraft/class_2487;)V
-		ARG 1 entityNbt
 	METHOD method_7274 getEnderChestInventory ()Lnet/minecraft/class_1730;
 	METHOD method_7276 canResetTimeBySleeping ()Z
 		COMMENT {@return whether this player has been sleeping long enough to count towards
@@ -96,8 +84,6 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 	METHOD method_7279 getAttackCooldownProgressPerTick ()F
 	METHOD method_7281 incrementStat (Lnet/minecraft/class_2960;)V
 		ARG 1 stat
-	METHOD method_7283 setMainArm (Lnet/minecraft/class_1306;)V
-		ARG 1 arm
 	METHOD method_7285 addScore (I)V
 		ARG 1 score
 	METHOD method_7286 applyEnchantmentCosts (Lnet/minecraft/class_1799;I)V
@@ -112,11 +98,7 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 	METHOD method_7293 vanishCursedItems ()V
 	METHOD method_7294 canModifyBlocks ()Z
 	METHOD method_7295 updateWaterSubmersionState ()Z
-	METHOD method_7296 dropShoulderEntity (Lnet/minecraft/class_2487;)V
-		ARG 1 entityNbt
 	METHOD method_7297 getSleepTimer ()I
-	METHOD method_7298 addShoulderEntity (Lnet/minecraft/class_2487;)Z
-		ARG 1 entityNbt
 	METHOD method_7299 addTellClickEvent (Lnet/minecraft/class_5250;)Lnet/minecraft/class_5250;
 		ARG 1 component
 	METHOD method_7302 hasReducedDebugInfo ()Z
@@ -132,11 +114,9 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 		COMMENT
 		COMMENT @see net.minecraft.item.ItemStack#isSuitableFor(BlockState)
 		ARG 1 state
-	METHOD method_7308 getShoulderEntityRight ()Lnet/minecraft/class_2487;
 	METHOD method_7311 openEditSignScreen (Lnet/minecraft/class_2625;Z)V
 		ARG 1 sign
 		ARG 2 front
-	METHOD method_7313 updateCapeAngles ()V
 	METHOD method_7315 useBook (Lnet/minecraft/class_1799;Lnet/minecraft/class_1268;)V
 		COMMENT Called when the player uses (defaults to right click) a writable or written
 		COMMENT book item.
@@ -171,7 +151,6 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 		ARG 1 target
 	METHOD method_7326 doesNotSuffocate (Lnet/minecraft/class_2338;)Z
 		ARG 1 pos
-	METHOD method_7327 getScoreboard ()Lnet/minecraft/class_269;
 	METHOD method_7328 dropItem (Lnet/minecraft/class_1799;Z)Lnet/minecraft/class_1542;
 		ARG 1 stack
 		ARG 2 retainOwnership
@@ -199,16 +178,12 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 		ARG 2 facing
 		ARG 3 stack
 	METHOD method_7344 getHungerManager ()Lnet/minecraft/class_1702;
-	METHOD method_7345 setShoulderEntityRight (Lnet/minecraft/class_2487;)V
-		ARG 1 entityNbt
 	METHOD method_7346 closeHandledScreen ()V
 		COMMENT Closes the currently open {@linkplain net.minecraft.client.gui.screen.ingame.HandledScreen
 		COMMENT handled screen}.
 		COMMENT
 		COMMENT <p>This method can be called on either logical side, and it will synchronize
 		COMMENT the closing automatically to the other.
-	METHOD method_7348 isPartVisible (Lnet/minecraft/class_1664;)Z
-		ARG 1 modelPart
 	METHOD method_7349 getNextLevelExperience ()I
 	METHOD method_7350 resetLastAttackedTicks ()V
 	METHOD method_7351 getBlockBreakingSpeed (Lnet/minecraft/class_2680;)F
@@ -230,7 +205,6 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 			COMMENT the message to add
 		ARG 2 overlay
 	METHOD method_7355 sendAbilitiesUpdate ()V
-	METHOD method_7356 getShoulderEntityLeft ()Lnet/minecraft/class_2487;
 	METHOD method_7357 getItemCooldownManager ()Lnet/minecraft/class_1796;
 	METHOD method_7358 wakeUp (ZZ)V
 		COMMENT Wakes this player up.
@@ -262,8 +236,6 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 		ARG 2 category
 		ARG 3 volume
 		ARG 4 pitch
-	METHOD method_17853 (Lnet/minecraft/class_1297;)V
-		ARG 1 entity
 	METHOD method_21701 isBlockBreakingRestricted (Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1934;)Z
 		ARG 1 world
 		ARG 2 pos
@@ -274,6 +246,8 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 	METHOD method_23668 checkGliding ()Z
 	METHOD method_23669 startGliding ()V
 	METHOD method_26956 createPlayerAttributes ()Lnet/minecraft/class_5132$class_5133;
+	METHOD method_30263 isStandingOnSurface (F)Z
+		ARG 1 stepHeight
 	METHOD method_31548 getInventory ()Lnet/minecraft/class_1661;
 	METHOD method_31549 getAbilities ()Lnet/minecraft/class_1656;
 	METHOD method_31550 isUsingSpyglass ()Z
@@ -330,6 +304,7 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 	METHOD method_59818 isSpaceAroundPlayerEmpty (DDD)Z
 		ARG 1 offsetX
 		ARG 3 offsetZ
+		ARG 5 stepHeight
 	METHOD method_59903 getDamageAgainst (Lnet/minecraft/class_1297;FLnet/minecraft/class_1282;)F
 		ARG 1 target
 		ARG 2 baseDamage
@@ -361,11 +336,30 @@ CLASS net/minecraft/class_1657 net/minecraft/entity/player/PlayerEntity
 		ARG 1 testBlock
 	METHOD method_66696 openTestInstanceBlockScreen (Lnet/minecraft/class_10638;)V
 		ARG 1 testInstanceBlock
-	METHOD method_67360 (Lnet/minecraft/class_2487;Lnet/minecraft/class_4208;)V
+	METHOD method_67360 (Lnet/minecraft/class_11372;Lnet/minecraft/class_4208;)V
 		ARG 1 pos
 	METHOD method_68876 getGameMode ()Lnet/minecraft/class_1934;
 	METHOD method_68877 asString ()Ljava/lang/String;
 	METHOD method_68878 isCreative ()Z
+	METHOD method_71753 openDialog (Lnet/minecraft/class_6880;)V
+		ARG 1 dialog
+	METHOD method_72498 getPlayerConfigEntry ()Lnet/minecraft/class_11560;
+	METHOD method_74025 hasBlindnessEffect ()Z
+	METHOD method_74082 handleShoulderEntities ()V
+	METHOD method_74130 (Lnet/minecraft/class_1453$class_7989;)Ljava/util/OptionalInt;
+		ARG 0 variant
+	METHOD method_74131 mapParrotVariant (Ljava/util/Optional;)Ljava/util/OptionalInt;
+		ARG 0 variant
+	METHOD method_74132 mapParrotVariantIfPresent (Ljava/util/OptionalInt;)Ljava/util/Optional;
+		ARG 0 variantIndex
+	METHOD method_74133 setLeftShoulderParrotVariant (Ljava/util/Optional;)V
+		ARG 1 variant
+	METHOD method_74134 setRightShoulderParrotVariant (Ljava/util/Optional;)V
+		ARG 1 variant
+	METHOD method_74135 readParrotVariant (Lnet/minecraft/class_2487;)Ljava/util/Optional;
+		ARG 0 nbt
+	METHOD method_74136 getLeftShoulderParrotVariant ()Ljava/util/Optional;
+	METHOD method_74137 getRightShoulderParrotVariant ()Ljava/util/Optional;
 	CLASS class_1658 SleepFailureReason
 		COMMENT A reason why a player cannot start sleeping.
 		FIELD field_18593 message Lnet/minecraft/class_2561;
