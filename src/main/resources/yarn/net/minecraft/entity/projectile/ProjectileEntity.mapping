@@ -1,13 +1,13 @@
 CLASS net/minecraft/class_1676 net/minecraft/entity/projectile/ProjectileEntity
-	FIELD field_22478 ownerUuid Ljava/util/UUID;
 	FIELD field_23740 leftOwner Z
 	FIELD field_28646 shot Z
-	FIELD field_33399 owner Lnet/minecraft/class_1297;
 	FIELD field_51621 lastDeflectedEntity Lnet/minecraft/class_1297;
 	FIELD field_57742 DEFAULT_LEFT_OWNER Z
 	FIELD field_57743 DEFAULT_SHOT Z
+	FIELD field_60558 owner Lnet/minecraft/class_10583;
+	FIELD field_63116 checkedForLeftOwner Z
 	METHOD method_7432 setOwner (Lnet/minecraft/class_1297;)V
-		ARG 1 entity
+		ARG 1 owner
 	METHOD method_7454 onEntityHit (Lnet/minecraft/class_3966;)V
 		ARG 1 entityHitResult
 	METHOD method_7485 setVelocity (DDDFF)V
@@ -56,7 +56,7 @@ CLASS net/minecraft/class_1676 net/minecraft/entity/projectile/ProjectileEntity
 	METHOD method_26960 updateRotation (FF)F
 		ARG 0 lastRot
 		ARG 1 newRot
-	METHOD method_26961 shouldLeaveOwner ()Z
+	METHOD method_26961 tickLeftOwner ()V
 	METHOD method_26962 updateRotation ()V
 	METHOD method_34714 isOwner (Lnet/minecraft/class_1297;)Z
 		ARG 1 entity
@@ -72,13 +72,10 @@ CLASS net/minecraft/class_1676 net/minecraft/entity/projectile/ProjectileEntity
 		ARG 5 z
 		ARG 7 power
 		ARG 8 uncertainty
-	METHOD method_59525 onDeflected (Lnet/minecraft/class_1297;Z)V
-		ARG 1 deflector
-		ARG 2 fromAttack
-	METHOD method_59859 deflect (Lnet/minecraft/class_9109;Lnet/minecraft/class_1297;Lnet/minecraft/class_1297;Z)Z
+	METHOD method_59525 onDeflected (Z)V
+	METHOD method_59859 deflect (Lnet/minecraft/class_9109;Lnet/minecraft/class_1297;Lnet/minecraft/class_10583;Z)Z
 		ARG 1 deflection
 		ARG 2 deflector
-		ARG 3 owner
 		ARG 4 fromAttack
 	METHOD method_59860 hitOrDeflect (Lnet/minecraft/class_239;)Lnet/minecraft/class_9109;
 		ARG 1 hitResult
@@ -134,13 +131,14 @@ CLASS net/minecraft/class_1676 net/minecraft/entity/projectile/ProjectileEntity
 		ARG 3 beforeSpawn
 	METHOD method_61554 (Lnet/minecraft/class_1676;)V
 		ARG 0 entity
-	METHOD method_61555 getEntity (Ljava/util/UUID;)Lnet/minecraft/class_1297;
-		ARG 1 uuid
 	METHOD method_61556 (Lnet/minecraft/class_1792;)V
 		ARG 0 item
 	METHOD method_62823 deflectsAgainstWorldBorder ()Z
-	METHOD method_64180 setOwner (Ljava/util/UUID;)V
-		ARG 1 ownerUuid
+	METHOD method_71623 setOwner (Lnet/minecraft/class_10583;)V
+		ARG 1 owner
+	METHOD method_74959 (Lnet/minecraft/class_238;Lnet/minecraft/class_1297;)Z
+		ARG 1 entity
+	METHOD method_74960 hasLeftOwner ()Z
 	CLASS class_9876 ProjectileCreator
 		METHOD create (Lnet/minecraft/class_3218;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;)Lnet/minecraft/class_1676;
 			ARG 1 world

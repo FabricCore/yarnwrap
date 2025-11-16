@@ -22,8 +22,8 @@ CLASS net/minecraft/class_746 net/minecraft/client/network/ClientPlayerEntity
 	FIELD field_3933 tickables Ljava/util/List;
 	FIELD field_3934 ticksToNextAutoJump I
 	FIELD field_3935 ticksLeftToDoubleTapSprint I
-	FIELD field_3936 lastSneaking Z
 	FIELD field_3937 client Lnet/minecraft/class_310;
+	FIELD field_3938 mountJumpTicks I
 	FIELD field_3939 falling Z
 	FIELD field_3940 lastYClient D
 	FIELD field_3941 lastYawClient F
@@ -40,13 +40,14 @@ CLASS net/minecraft/class_746 net/minecraft/client/network/ClientPlayerEntity
 	FIELD field_53040 lastHorizontalCollision Z
 	FIELD field_54156 lastPlayerInput Lnet/minecraft/class_10185;
 	FIELD field_54391 itemDropCooldown Lnet/minecraft/class_10222;
-	METHOD <init> (Lnet/minecraft/class_310;Lnet/minecraft/class_638;Lnet/minecraft/class_634;Lnet/minecraft/class_3469;Lnet/minecraft/class_299;ZZ)V
+	FIELD field_59964 experienceBarDisplayStartTime I
+	METHOD <init> (Lnet/minecraft/class_310;Lnet/minecraft/class_638;Lnet/minecraft/class_634;Lnet/minecraft/class_3469;Lnet/minecraft/class_299;Lnet/minecraft/class_10185;Z)V
 		ARG 1 client
 		ARG 2 world
 		ARG 3 networkHandler
 		ARG 4 stats
 		ARG 5 recipeBook
-		ARG 6 lastSneaking
+		ARG 6 lastPlayerInput
 		ARG 7 lastSprinting
 	METHOD method_3130 getRecipeBook ()Lnet/minecraft/class_299;
 	METHOD method_3132 openRidingInventory ()V
@@ -108,9 +109,7 @@ CLASS net/minecraft/class_746 net/minecraft/client/network/ClientPlayerEntity
 	METHOD method_60886 getCurrentPortalEffect ()Lnet/minecraft/class_9797$class_9798;
 	METHOD method_60887 tickNausea (Z)V
 		ARG 1 fromPortalEffect
-	METHOD method_62165 sendSneakingPacket ()V
 	METHOD method_64376 getItemDropCooldown ()Lnet/minecraft/class_10222;
-	METHOD method_65525 isBlind ()Z
 	METHOD method_65949 shouldStopSprinting ()Z
 	METHOD method_67270 applyMovementSpeedFactors (Lnet/minecraft/class_241;)Lnet/minecraft/class_241;
 		ARG 1 input
@@ -119,3 +118,6 @@ CLASS net/minecraft/class_746 net/minecraft/client/network/ClientPlayerEntity
 	METHOD method_67272 getDirectionalMovementSpeedMultiplier (Lnet/minecraft/class_241;)F
 		ARG 0 vec
 	METHOD method_67472 shouldStopSwimSprinting ()Z
+	METHOD method_71091 getLastPlayerInput ()Lnet/minecraft/class_10185;
+	METHOD method_74047 canSprint (Z)Z
+		ARG 1 allowTouchingWater

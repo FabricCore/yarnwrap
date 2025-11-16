@@ -1,5 +1,4 @@
 CLASS net/minecraft/class_1937 net/minecraft/world/World
-	FIELD field_9223 border Lnet/minecraft/class_2784;
 	FIELD field_9226 ambientDarkness I
 	FIELD field_9229 random Lnet/minecraft/class_5819;
 	FIELD field_9232 properties Lnet/minecraft/class_5269;
@@ -27,10 +26,12 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 	FIELD field_30971 MIN_Y I
 	FIELD field_35455 tickOrder J
 	FIELD field_36402 dimensionEntry Lnet/minecraft/class_6880;
-	FIELD field_38226 neighborUpdater Lnet/minecraft/class_7165;
+	FIELD field_38226 neighborUpdater Lnet/minecraft/class_7159;
 	FIELD field_38861 threadSafeRandom Lnet/minecraft/class_5819;
 	FIELD field_42475 registryManager Lnet/minecraft/class_5455;
 	FIELD field_42476 damageSources Lnet/minecraft/class_8109;
+	FIELD field_61989 EXPLOSION_BLOCK_PARTICLES Lnet/minecraft/class_6012;
+	FIELD field_62535 palettesFactory Lnet/minecraft/class_11897;
 	METHOD <init> (Lnet/minecraft/class_5269;Lnet/minecraft/class_5321;Lnet/minecraft/class_5455;Lnet/minecraft/class_6880;ZZJI)V
 		ARG 1 properties
 		ARG 2 registryRef
@@ -99,7 +100,7 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 1 pos
 		ARG 2 sourceBlock
 		ARG 3 orientation
-	METHOD method_8454 createExplosion (Lnet/minecraft/class_1297;Lnet/minecraft/class_1282;Lnet/minecraft/class_5362;DDDFZLnet/minecraft/class_1937$class_7867;Lnet/minecraft/class_2394;Lnet/minecraft/class_2394;Lnet/minecraft/class_6880;)V
+	METHOD method_8454 createExplosion (Lnet/minecraft/class_1297;Lnet/minecraft/class_1282;Lnet/minecraft/class_5362;DDDFZLnet/minecraft/class_1937$class_7867;Lnet/minecraft/class_2394;Lnet/minecraft/class_2394;Lnet/minecraft/class_6012;Lnet/minecraft/class_6880;)V
 		COMMENT Creates an explosion.
 		ARG 1 entity
 			COMMENT the entity that exploded (like TNT) or {@code null} to indicate no entity exploded
@@ -117,7 +118,8 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 12 explosionSourceType
 		ARG 13 smallParticle
 		ARG 14 largeParticle
-		ARG 15 soundEvent
+		ARG 15 blockParticles
+		ARG 16 soundEvent
 	METHOD method_8455 updateComparators (Lnet/minecraft/class_2338;Lnet/minecraft/class_2248;)V
 		ARG 1 pos
 		ARG 2 block
@@ -250,7 +252,6 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 1 packet
 	METHOD method_8524 markDirty (Lnet/minecraft/class_2338;)V
 		ARG 1 pos
-	METHOD method_8525 disconnect ()V
 	METHOD method_8530 isDay ()Z
 	METHOD method_8532 getTimeOfDay ()J
 		COMMENT {@return the time of day}
@@ -355,6 +356,8 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		COMMENT @see #isInBuildLimit
 		COMMENT @see #canEntityModifyAt
 		ARG 0 pos
+	METHOD method_27873 setSpawnPoint (Lnet/minecraft/class_5217$class_12064;)V
+		ARG 1 spawnPoint
 	METHOD method_27982 isDebugWorld ()Z
 		COMMENT Checks if this world is a debug world.
 		COMMENT
@@ -387,8 +390,6 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 5 notify
 	METHOD method_41411 shouldTickBlockPos (Lnet/minecraft/class_2338;)Z
 		ARG 1 pos
-	METHOD method_43126 getSpawnPos ()Lnet/minecraft/class_2338;
-	METHOD method_43127 getSpawnAngle ()F
 	METHOD method_43128 playSound (Lnet/minecraft/class_1297;DDDLnet/minecraft/class_3414;Lnet/minecraft/class_3419;FF)V
 		COMMENT Plays a sound caused by a source. On the client, the sound will only play if the source is the same as the client's player.
 		COMMENT On the server, sound packets will be sent to players around the source, excluding the source itself.
@@ -505,6 +506,8 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 2 oldState
 		ARG 3 newState
 	METHOD method_66346 isNightAndNatural ()Z
+	METHOD method_66347 getEntity (Ljava/util/UUID;)Lnet/minecraft/class_1297;
+		ARG 1 uuid
 	METHOD method_66349 getCrammedEntities (Lnet/minecraft/class_1297;Lnet/minecraft/class_238;)Ljava/util/List;
 		ARG 1 entity
 		ARG 2 box
@@ -515,6 +518,28 @@ CLASS net/minecraft/class_1937 net/minecraft/world/World
 		ARG 2 category
 		ARG 3 volume
 		ARG 4 pitch
+	METHOD method_70745 getPrecipitation (Lnet/minecraft/class_2338;)Lnet/minecraft/class_1959$class_1963;
+		ARG 1 pos
+	METHOD method_71970 loadBlockEntity (Lnet/minecraft/class_2586;)V
+		ARG 1 blockEntity
+	METHOD method_73284 getEntityAnyDimension (Ljava/util/UUID;)Lnet/minecraft/class_1297;
+		ARG 1 uuid
+	METHOD method_73285 getPlayerAnyDimension (Ljava/util/UUID;)Lnet/minecraft/class_1657;
+		ARG 1 uuid
+	METHOD method_74141 (Ljava/util/function/Predicate;Lorg/apache/commons/lang3/mutable/MutableBoolean;Lnet/minecraft/class_5575;Lnet/minecraft/class_1297;)Lnet/minecraft/class_7927$class_7928;
+		ARG 3 entity
+	METHOD method_74142 getPalettesFactory ()Lnet/minecraft/class_11897;
+	METHOD method_74143 hasEntities (Lnet/minecraft/class_5575;Lnet/minecraft/class_238;Ljava/util/function/Predicate;)Z
+		COMMENT Checks if entities of the given type exist in {@code box}. This has the same
+		COMMENT performance cost as {@link #collectEntitiesByType} with {@code limit} set to 1.
+		COMMENT
+		COMMENT @see #collectEntitiesByType
+		ARG 1 filter
+		ARG 2 box
+		ARG 3 predicate
+	METHOD method_74854 getSpawnPoint ()Lnet/minecraft/class_5217$class_12064;
+	METHOD method_74891 ensureWithinBorder (Lnet/minecraft/class_5217$class_12064;)Lnet/minecraft/class_5217$class_12064;
+		ARG 1 spawnPoint
 	CLASS class_7867 ExplosionSourceType
 		FIELD field_51780 CODEC Lcom/mojang/serialization/Codec;
 		FIELD field_51781 id Ljava/lang/String;

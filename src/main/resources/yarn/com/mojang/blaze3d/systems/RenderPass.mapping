@@ -1,38 +1,38 @@
 CLASS com/mojang/blaze3d/systems/RenderPass
-	METHOD bindSampler (Ljava/lang/String;Lcom/mojang/blaze3d/textures/GpuTexture;)V
+	METHOD bindSampler (Ljava/lang/String;Lcom/mojang/blaze3d/textures/GpuTextureView;)V
 		ARG 1 name
 		ARG 2 texture
 	METHOD draw (II)V
 		ARG 1 offset
 		ARG 2 count
-	METHOD drawIndexed (II)V
-		ARG 1 offset
-		ARG 2 count
-	METHOD drawMultipleIndexed (Ljava/util/Collection;Lcom/mojang/blaze3d/buffers/GpuBuffer;Lcom/mojang/blaze3d/vertex/VertexFormat$class_5595;)V
+	METHOD drawIndexed (IIII)V
+		ARG 1 baseVertex
+		ARG 2 firstIndex
+		ARG 3 count
+		ARG 4 instanceCount
+	METHOD drawMultipleIndexed (Ljava/util/Collection;Lcom/mojang/blaze3d/buffers/GpuBuffer;Lcom/mojang/blaze3d/vertex/VertexFormat$class_5595;Ljava/util/Collection;Ljava/lang/Object;)V
 		ARG 1 objects
 		ARG 2 buffer
 		ARG 3 indexType
+		ARG 4 validationSkippedUniforms
 	METHOD enableScissor (IIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 width
 		ARG 4 height
-	METHOD enableScissor (Lcom/mojang/blaze3d/systems/ScissorState;)V
-		ARG 1 scissor
+	METHOD pushDebugGroup (Ljava/util/function/Supplier;)V
+		ARG 1 labelGetter
 	METHOD setIndexBuffer (Lcom/mojang/blaze3d/buffers/GpuBuffer;Lcom/mojang/blaze3d/vertex/VertexFormat$class_5595;)V
 		ARG 1 indexBuffer
 		ARG 2 indexType
 	METHOD setPipeline (Lcom/mojang/blaze3d/pipeline/RenderPipeline;)V
 		ARG 1 pipeline
-	METHOD setUniform (Ljava/lang/String;[F)V
+	METHOD setUniform (Ljava/lang/String;Lcom/mojang/blaze3d/buffers/GpuBuffer;)V
 		ARG 1 name
-		ARG 2 values
-	METHOD setUniform (Ljava/lang/String;[I)V
+		ARG 2 buffer
+	METHOD setUniform (Ljava/lang/String;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V
 		ARG 1 name
-		ARG 2 values
-	METHOD setUniform (Ljava/lang/String;Lorg/joml/Matrix4f;)V
-		ARG 1 name
-		ARG 2 matrix
+		ARG 2 slice
 	METHOD setVertexBuffer (ILcom/mojang/blaze3d/buffers/GpuBuffer;)V
 		ARG 1 index
 		ARG 2 buffer
@@ -45,6 +45,6 @@ CLASS com/mojang/blaze3d/systems/RenderPass
 			ARG 5 firstIndex
 			ARG 6 indexCount
 	CLASS class_10885 UniformUploader
-		METHOD upload (Ljava/lang/String;[F)V
+		METHOD upload (Ljava/lang/String;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V
 			ARG 1 name
-			ARG 2 values
+			ARG 2 slice

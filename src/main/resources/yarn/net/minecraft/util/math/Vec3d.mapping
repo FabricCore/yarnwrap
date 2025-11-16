@@ -19,6 +19,9 @@ CLASS net/minecraft/class_243 net/minecraft/util/math/Vec3d
 		COMMENT The zero vector (0, 0, 0).
 	FIELD field_38277 CODEC Lcom/mojang/serialization/Codec;
 	FIELD field_52694 PACKET_CODEC Lnet/minecraft/class_9139;
+	FIELD field_61914 X Lnet/minecraft/class_243;
+	FIELD field_61915 Y Lnet/minecraft/class_243;
+	FIELD field_61916 Z Lnet/minecraft/class_243;
 	METHOD <init> (DDD)V
 		COMMENT Creates a vector of the given coordinates.
 		ARG 1 x
@@ -260,3 +263,4 @@ CLASS net/minecraft/class_243 net/minecraft/util/math/Vec3d
 	METHOD method_61890 getHorizontal ()Lnet/minecraft/class_243;
 	METHOD method_64316 projectOnto (Lnet/minecraft/class_243;)Lnet/minecraft/class_243;
 		ARG 1 vec
+	METHOD method_70762 rotateYClockwise ()Lnet/minecraft/class_243;
